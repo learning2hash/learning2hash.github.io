@@ -5,7 +5,7 @@ title: Resources on Machine Learning for Hashing
 
 ### Learning-to-Hash Survey Paper
 
-The full survey is available [as a research paper](http://seanjmoran.com/pdfs/hashing_review.pdf) currently under submission to a peer-reviewed journal. Full citation information will appear here in due course. In the meantime please cite the following thesis upon which the review is based:
+The full literature survey that accompanies this website is available [as a research paper](http://seanjmoran.com/pdfs/hashing_review.pdf) currently under submission to a peer-reviewed journal. Full citation information will appear here in due course. In the meantime please feel free to cite the following thesis upon which the review is based:
 
 <pre>
 @phdthesis{Moran16,
