@@ -1,5 +1,5 @@
 # Quantisation Models
-- {bibkey: moran2013ausing, categories: [quantisation], model: NPQ, code book: Language Model, optimisation: Distributed, thresholds: Grammar (NN-LBL), complexity: Code Search/Synthesis}
+- {bibkey: moran2013ausing, categories: [quantisation], codebook: Any, optimisation: Semi-supervised, thresholds: 1+, complexity: O(N^2TF)}
 
 # Supervised Projection Models
 
