@@ -9,8 +9,6 @@ This website provides curated links to a host of *approximate nearest neighbour 
 
 This website is in essence a *living literature review* that allows you explore the navigate the models in the field following a [taxonomy](\taxnomomy) based on the fundamental properties of each model. New models can be added to this website by anyone simply by making a GitHub pull request (see *Contributing* below).
 
-I hope that the website and the accompanying literature review form a useful primer of the main concepts of learning-to-hash for those just entering the field and a reference for more established researchers and practioners in academia and industry alike.
-
 The full survey is available [as a research paper](https//).
 Please cite as
 <pre>
