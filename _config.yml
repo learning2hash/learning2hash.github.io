@@ -1,8 +1,8 @@
 # Setup
-title:               Machine Learning for Big Code and Naturalness
+title:               Learning-to-Hash
 tagline:             'a survey'
-description:         'A survey of academic research on machine learning models for source code.'
-url:                 https://ml4code.github.io
+description:         'A survey of academic research on hash function learning.'
+url:                 https://learning2hash.github.io
 baseurl:             ''
 
 collections:
