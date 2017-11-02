@@ -21,7 +21,7 @@ Please cite as
 </pre>
 
 
-This site has been inspired and forked from the original living literature review of [Allamanis](https://ml4code.github.io).
+This website has been inspired and forked from the original living literature review of [Allamanis](https://ml4code.github.io).
 
 ### Contributing
 
