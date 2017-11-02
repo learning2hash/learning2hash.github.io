@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Code-Generating Models
+title: Data-Independent Projection Models
 ---
-<h2>Code-Generating Models</h2>
+<h2>Data-Independent Projection Models</h2>
 
-<b>Code-generating models</b> define a probability distribution over code by stochastically mod-
-eling the generation of smaller and simpler parts of code, e.g.
-tokens or AST nodes.
+<b>Data-Independent Projection Models</b>
 
-{% assign publicationsList = site.data.allamanistaxonomy | sort: "bibkey" %}
+{% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="genModelTable">
 <thead><th>Name</th><th>Type</th><th>Representation</th><th>Model</th><th>Application</th></thead><tbody>
 {% for publication in publicationsList %}{% if publication.categories contains "generative" %}
