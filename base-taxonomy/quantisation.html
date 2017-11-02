@@ -8,16 +8,17 @@ title: Binary Quantisation Models
 
 {% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="reprModelTable">
-<thead><th>Name</th><th>Input Code Representation</th><th>Target</th><th>Intermediate Representation</th><th>Application</th></thead><tbody>
+<thead><th>Model</th><th>Encoding</th><th>Optimisaton</th><th>Thresholds</th><th>Complexity</th></thead><tbody>
 {% for publication in publicationsList %}{% if publication.categories contains "quantisation" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
     
       <tr>
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> {{pubDetails[0].title}}</td>
-          <td>{{publication.input_rep}}</td>
-          <td>{{publication.modeled_target}}</td>
-          <td>{{publication.intermediate_rep}}</td>
-          <td>{{publication.application}}</td>
+          <td>{{publication.model}}</td>
+          <td>{{publication.encoding}}</td>
+          <td>{{publication.optimisation}}</td>
+          <td>{{publication.thresholds}}</td>
+          <td>{{publication.complexity}}</td>
       </tr>
 {% endif %}{% endfor %}
 </tbody></table>
