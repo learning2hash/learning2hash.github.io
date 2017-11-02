@@ -1,37 +1,20 @@
 ---
 layout: default
-title: A Survey of Machine Learning for Big Code and Naturalness
+title: A Primer on Machine Learning Models for Hashing-Based Approximate Nearest Neighbour Search
 ---
 
-The billions of lines of source code that have been written contain
-implicit knowledge about how to write good code, code that is
-easy to read and to debug.
-A recent line of research aims to find statistical patterns in large
-corpora of code to drive new software development tools and program
-analyses.
+Nearest neighbour search is the problem of finding the most similar data-points to a query in a large database, and is a fundamental operation that has found wide applicability in many fields, from Bioinformatics, through to Natural Language Processing (NLP) and Computer Vision.
 
-This website and the accompanying article surveys the work in this emerging area.
+This website has links to a host of important approximate nearest neighbour search algorithms that permit constant-time retrieval of nearest neighbours, independent of the dataset size. Typically these algorithms generate similar binary hashcodes for similar data-points, with these hashcodes then used as the indices into the buckets of hashtables, yielding a query time that is substantially improved over an exhaustive comparison. This website is a living literature review that allows you explore the navigate the models in the field following a [taxonomy](\taxnomomy) based on the underlying design principles of each model. It contains links to a host of recently proposed approximate nearest neighbour search algorithms that improve retrieval effectiveness by learning task specific binary hashcodes. The field is broadly categorised according to the standard two-step pipeline employed by many existing hashing models, namely projection and quantisation. The generation of a binary hashcode comprises two main steps carried out sequentially: \emph{projection} of the data feature vector onto the normal vectors of a set of hyperplanes that fracture the input feature space followed by a \emph{quantisation} operation that thresholds the projections to generate the binary hashcodes. The degree to which these two operations preserve the relative distances between the data-points in the input feature space has a direct influence on the effectiveness of using the resulting hashcodes for the task of nearest neighbour search. This review departs from the broad and shallow approach of recent surveys by going into considerable depth on the details of a few carefully handpicked hashing models, forming a useful primer of the main concepts for those entering the field and a reference for more established researchers and practioners alike.
 
-Like writing and speaking, software development is an act of human communication.
+This site has been inspired by the living literature review of [Allamanis](https://ml4code.github.io).
 
-At its core,
-the naturalness of software employs statistical modeling over big code to
-reason about rich variety of programs developers write.  This new line of
-research is inherently interdisciplinary, uniting the machine learning and 
-natural language processing communities with software engineering
-and programming language communities. 
-
-This site is an experiment: a living literature review that allows
-you explore the navigate the literautre in this area, by
-following a [taxonomy](\taxnomomy)
-based on the underlying design principles of each model.
-
-The full survey is available [as a research paper](https://arxiv.org/abs/1709.06182).
+The full survey is available [as a research paper](https//).
 Please cite as
 <pre>
-@article{allamanis2017survey,
-  title={A Survey of Machine Learning for Big Code and Naturalness},
-  author={Allamanis, Miltiadis and Brockschmidt, Marc},
+@article{moran2017survey,
+  title={A Primer on Learning to Hash for Approximate Nearest Neighbour Search},
+  author={Moran, Sean},
   journal={arXiv preprint arXiv:1709.06182},
   year={2017}
 }
@@ -39,13 +22,4 @@ Please cite as
 
 ### Contributing
 
-This research area is evolving so fast that a static review cannot keep up.
-But a website can! We hope to make this site a living document.
-Anyone can add a paper to this web site, essentially by creating one Markdown file.
- To contribute, open a pull request in GitHub, by following [these instructions 
-for contributing](contributing.html).
-
-### Datasets and Other Resources
-Some resources about Big Code and Naturalness can be found at [learnbigcode.github.io](http://learnbigcode.github.io).
-A list of datasets used in this area can be found at the appendix of the
-[survey](https://arxiv.org/abs/1709.06182) and at [learnbigcode.github.io](http://learnbigcode.github.io/datasets/).
+Learning-to-hash is a vibrant research field and is rapidly evolving, particularly with the surge in interest in deep learning models. The purpose of this website is to augment the static literature review with a dynamic website that can be updated by any interested researcher with newly published work in the field, including links to relevant code and datasets. To add a new paper to the website create  Anyone can add a paper to this website, create a Markdown file and open a pull request in GitHub, by following [these instructions for contributing](contributing.html).
