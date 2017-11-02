@@ -6,7 +6,7 @@ title: Quantisation Models
 
 <b>Quantisation models</b> DESCRIBE
 
-{% assign publicationsList = site.data.allamanistaxonomy | sort: "bibkey" %}
+{% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="reprModelTable">
 <thead><th>Name</th><th>Input Code Representation</th><th>Target</th><th>Intermediate Representation</th><th>Application</th></thead><tbody>
 {% for publication in publicationsList %}{% if publication.categories contains "quantisation" %}
