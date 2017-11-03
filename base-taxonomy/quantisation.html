@@ -11,7 +11,7 @@ value which is then subsequently quantised into binary (0/1) by thresholding. Th
 
 {% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="reprModelTable">
-<thead><th>Paper</th><th>Encoding</th><th>Optimisation</th><th>Thresholds</th></thead><tbody>
+<thead><th>Paper</th><th>Encoding</th><th>Optimisation</th><th>Thresholds</th><th>Link</th></thead><tbody>
 {% for publication in publicationsList %}{% if publication.categories contains "quantisation" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
     
