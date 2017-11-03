@@ -5,6 +5,7 @@ authors: S. Moran, V. Lavrenko, and M. Osborne
 conference: ACL
 year: 2013
 bibkey: moran2013busing
+url: http://homepages.inf.ed.ac.uk/miles/papers/acl13.pdf
 ---
 We introduce a scheme for optimally allocating
 a variable number of bits per

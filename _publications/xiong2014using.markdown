@@ -5,7 +5,8 @@ An Information-Based Approach to Learning Binary Codes"
 authors: C. Xiong, W. Chen, G. Chen, D. Johnson, J. Corso
 conference: SDM
 year: 2014
-bibkey: xiong2014busing
+bibkey: xiong2014using
+url: https://www.cse.buffalo.edu//~jcorso/pubs/cxiong_SDM2014_adahash.pdf
 ---
 Large-scale data mining and retrieval applications have
 increasingly turned to compact binary data representations
