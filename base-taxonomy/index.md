@@ -1,21 +1,12 @@
 ---
 layout: page
 title: Taxonomy
-description: A taxonomy of machine learning models of source code.
+description: A taxonomy of machine learning models for hashing.
 ---
-A probabilistic model of source code is a probability distribution 
-over code artifacts. To group these family of models
-in terms of shared design choices,
-we separate these models into three categories,
-based on the form of the equation of the modeled probability 
-distribution and their inputs and outputs. Some models fall into multiple categories
-because decompositions of their equations fall into different categories.
+A hashing model takes an input data-point e.g. an image and outputs a sequence of bits (hashcode) representing that image. At the top level, the hashing models can be broadly categorised into two different categories: quantisation and projection. The projection models focus on learning a low-dimensional transformation of the input data in a way that encourages related data-points to be closer together in the new space. In contrast, the quantisation models seek to convert those projections into binary by using a thresholding mechanism. The projection branch can be further divided into data-independent, data-dependent (unsupervised) and data-dependent (supervised) depending on whether the projections are influenced by the distribution of the data or available class-labels.
 
-
- * [**Code-generating Models**](generative.html) define a probability distribution over code by 
-    stochastically modeling the generation of smaller and simpler parts of code, _e.g._
-    tokens or AST nodes.
-
+ * [**Quantisation**](quantisation.html) focus on quantising the real-valued low-dimensional projections of data-points into binary bits by positioning one or more thresholds.
+ 
  * [**Representational Models of Code**](representational.html) take an abstract
     representation of 
     code as input.  Example representations include token contexts or data flow.
