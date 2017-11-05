@@ -4,7 +4,7 @@ title: "Double-Bit Quantisation for Hashing"
 authors: W. Kong, W. Li
 conference: AAAI
 year: 2014
-bibkey: kong2012using
+bibkey: kong2012busing
 url: https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5080/5250
 ---
 Hashing, which tries to learn similarity-preserving binary

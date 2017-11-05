@@ -1,6 +1,6 @@
 # Quantisation Models
 - {bibkey: moran2013ausing, categories: [quantisation], codebook: Any, optimisation: Semi-supervised, thresholds: 1+}
-- {bibkey: xiong2014using, categories: [quantisation], codebook: Any, optimisation: Unsupervised, thresholds: Variable}
+- {bibkey: xiong2014using, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: Unsupervised, thresholds: Variable}
 - {bibkey: moran2013busing, categories: [quantisation], codebook: Any, optimisation: Semi-supervised, thresholds: Variable}
 - {bibkey: moran2016using, categories: [quantisation], codebook: Any, optimisation: Semi-supervised, thresholds: Variable}
 - {bibkey: kong2012ausing, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: Unsupervised, thresholds: 3+}
