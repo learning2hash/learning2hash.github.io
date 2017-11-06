@@ -1,5 +1,5 @@
 ---
-layout: publication
+layout: dataset
 title: ImageNet
 authors: ImageNet consortium
 conference: SDM
