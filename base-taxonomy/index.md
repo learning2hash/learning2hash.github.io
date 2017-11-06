@@ -1,4 +1,4 @@
-`---
+---
 layout: page
 title: Taxonomy
 description: A taxonomy of machine learning models for hashing.

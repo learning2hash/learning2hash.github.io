@@ -7,7 +7,7 @@ title: A Primer on Machine Learning Models for Hashing-Based Approximate Nearest
 
 This website provides curated links to a host of *approximate nearest neighbour search* (ANN) models that permit constant-time retrieval of nearest neighbours, independent of the dataset size. Typically these algorithms generate similar binary hashcodes for similar data-points, with these hashcodes then used as the indices into the buckets of hashtables, yielding a query time that is substantially improved over an exhaustive comparison. The only downside to these models is they might not return the closest nearest neighbour every time, which is usually an acceptable trade-off in practice. We give a particular focus here on recently proposed approximate nearest neighbour search models that improve retrieval effectiveness by learning *task specific* binary hashcodes.
 
-This website is in essence a *living literature review* that allows you explore the navigate the models in the field following a [taxonomy](\taxnomomy) based on the fundamental properties of each model. New models can be added to this website by anyone simply by making a GitHub pull request (see *Contributing* below).
+This website is in essence a *living literature review* that allows you explore the navigate the models in the field following a [taxonomy](\base-taxnomomy) based on the fundamental properties of each model. New models can be added to this website by anyone simply by making a GitHub pull request (see *Contributing* below).
 
 The full survey is available [as a research paper](https//).
 Please cite as
@@ -15,7 +15,6 @@ Please cite as
 @article{moran2017survey,
   title={A Primer on Learning to Hash for Approximate Nearest Neighbour Search},
   author={Moran, Sean},
-  journal={arXiv preprint arXiv:1709.06182},
   year={2017}
 }
 </pre>
