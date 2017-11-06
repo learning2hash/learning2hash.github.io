@@ -18,7 +18,7 @@ The full survey is available [as a research paper](http://seanjmoran.com/pdfs/ha
 <pre>
 @phdthesis{Moran16,
   author       = {Sean Moran}, 
-  title        = {{Learning to hash for large-scale image retrieval}},
+  title        = {Learning to hash for large-scale image retrieval},
   school       = {University of Edinburgh},
   year         = 2016,
 }
