@@ -10,5 +10,6 @@
 
 # Unsupervised Projection Models
 - {bibkey: kong2012cusing, categories: [unsupervised], codebook: Binary, optimisation: Variance Balance}
+- {bibkey: gong2011using, categories: [unsupervised], codebook: Binary, optimisation: Variance Balance}
 
 # Data-Independent Models
