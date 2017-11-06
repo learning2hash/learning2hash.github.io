@@ -16,7 +16,7 @@ value which is then subsequently quantised into binary (0/1) by thresholding. Th
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
     
       <tr>
-          <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> <a href={{pubDetails.url}}>{{pubDetails[0].title}}</a></td>
+          <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a>{{pubDetails[0].title}}</td>
           <td>{{publication.codebook}}</td>
           <td>{{publication.optimisation}}</td>
           <td>{{publication.thresholds}}</td>
