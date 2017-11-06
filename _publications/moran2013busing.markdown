@@ -7,6 +7,7 @@ year: 2013
 bibkey: moran2013busing
 additional_links:
    - {name: "PDF", url: "http://homepages.inf.ed.ac.uk/miles/papers/acl13.pdf"}
+   - {name: "Talk", url: "https://www.slideshare.net/sjmoran1/acl-variable-bit-quantisation-talk"}
 ---
 We introduce a scheme for optimally allocating
 a variable number of bits per
