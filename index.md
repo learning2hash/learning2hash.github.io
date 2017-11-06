@@ -11,8 +11,10 @@ This website is in essence a *living literature review* that allows you explore 
 
 The full survey is available [as a research paper](http://seanjmoran.com/pdfs/hashing_review.pdf) currently under submission to a peer-reviewed journal. Full citation information will appear here in due course.
 
-This website has been inspired and forked from the original living literature review of [Allamanis](https://ml4code.github.io).
-
 ### Contributing
 
 Learning-to-hash is a vibrant research field and is rapidly evolving, particularly with the recent surge in interest in deep neural network-based models. The purpose of this website is to augment the static literature review with a dynamic website that can be updated by any interested researcher with newly published work in the field, including links to relevant code and datasets. To add a new paper to the website simply create a markdown file and open a pull request in GitHub by following [these instructions for contributing](contributing.html).
+
+### Acknowledgements
+
+This website has been forked from the original living literature review of [Allamanis](https://ml4code.github.io). Many thanks to the author for making the source code available.
