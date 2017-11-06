@@ -10,12 +10,12 @@ title: Datasets
 <table id="reprModelTable">
 <thead><th>Dataset</th><th>Modality</th><th>Size</th><th>Features</th></thead><tbody>
 {% for publication in publicationsList %}{% if publication.categories contains "dataset" %}
-    {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}  
+    {% assign pubDetails = site.datasets | where:"bibkey", dataset.bibkey %}  
       <tr>
-          <td data-order="{{publication.bibkey}}"><a href="/datasets/{{publication.bibkey}}">{{publication.dataset}}</a>{{pubDetails[0].title}}</td>
-          <td>{{publication.modality}}</td>
-          <td>{{publication.size}}</td>
-          <td>{{publication.features}}</td>
+          <td data-order="{{publication.bibkey}}"><a href="/datasets/{{publicaton.bibkey}}">{{pubDetails[0].authors}}</a>{{pubDetails[0].title}}</td>
+          <td>{{dataset.modality}}</td>
+          <td>{{dataset.size}}</td>
+          <td>{{dataset.features}}</td>
       </tr>
 {% endif %}{% endfor %}
 </tbody></table>
