@@ -9,7 +9,7 @@ title: Datasets
 {% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="reprModelTable">
 <thead><th>Dataset</th><th>Modality</th><th>Size</th><th>Features</th></thead><tbody>
-{% for publication in publicationsList %}{% if publication.categories contains "quantisation" %}
+{% for publication in publicationsList %}{% if publication.categories contains "dataset" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}  
       <tr>
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{publication.dataset}}</a>{{pubDetails[0].title}}</td>
