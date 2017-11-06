@@ -9,16 +9,7 @@ This website provides curated links to a host of *approximate nearest neighbour 
 
 This website is in essence a *living literature review* that allows you explore the navigate the models in the field following a [taxonomy](\base-taxonomy) based on the fundamental properties of each model. New models can be added to this website by anyone simply by making a GitHub pull request (see *Contributing* below).
 
-The full survey is available [as a research paper](https//).
-Please cite as
-<pre>
-@article{moran2017survey,
-  title={A Primer on Learning to Hash for Approximate Nearest Neighbour Search},
-  author={Moran, Sean},
-  year={2017}
-}
-</pre>
-
+The full survey is available [as a research paper](http://seanjmoran.com/pdfs/hashing_review.pdf) currently under submission to a peer-reviewed journal. Full citation information will appear here in due course.
 
 This website has been inspired and forked from the original living literature review of [Allamanis](https://ml4code.github.io).
 
