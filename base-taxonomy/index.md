@@ -1,4 +1,4 @@
----
+`---
 layout: page
 title: Taxonomy
 description: A taxonomy of machine learning models for hashing.
@@ -11,4 +11,4 @@ A hashing model takes an input data-point e.g. an image or document, and outputs
  
  * [**Supervised Projection**](supervised.html) include models that leverage available supervision in the form of class labels, must-link or cannot-link constraints between data-point pairs, triplet-based relational information etc. The models use this supervision to ensure that only related data-points are hashed to the same buckets. These models typically exhibit the highest retrieval effectiveness but suffer the disadvantage of requiring manual labels which can be challenging to collect.
 
- * [**Unsupervised Projection**](unsupervised.html) are models that account for the distribution of the data in an unsupervised manner (i.e. they do not need labels). They typically achieve this by using techniques that factorise the data covariance matrix or cluster related data-points into groups. These models generally exhibit a good retrieval effectiveness lying somewhere between the data independent and supervised models, but suffer from the considerable advantage of being computationally expensive at training time (due to the matrix factorisation component).
+ * [**Unsupervised Projection**](unsupervised.html) are models that account for the distribution of the data in an unsupervised manner (i.e. they do not need manually acquired labels). They typically achieve this by using techniques that factorise the data covariance matrix or cluster related data-points into groups. These models generally exhibit a good retrieval effectiveness lying somewhere between the data independent and supervised models, but suffer from the considerable advantage of being computationally expensive at training time (due to the matrix factorisation component).
