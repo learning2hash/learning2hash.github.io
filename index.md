@@ -13,7 +13,16 @@ This website is in essence a *living literature review* that allows you explore 
 
 ### Survey Paper
 
-The full survey is available [as a research paper](http://seanjmoran.com/pdfs/hashing_review.pdf) currently under submission to a peer-reviewed journal. Full citation information will appear here in due course.
+The full survey is available [as a research paper](http://seanjmoran.com/pdfs/hashing_review.pdf) currently under submission to a peer-reviewed journal. Full citation information will appear here in due course. In the meantime please cite the following thesis upon which the review is based:
+
+<pre>
+@phdthesis{Moran16,
+  author       = {Sean Moran}, 
+  title        = {{Learning to hash for large-scale image retrieval}},
+  school       = {University of Edinburgh},
+  year         = 2016,
+}
+</pre>
 
 ### Contributing
 
