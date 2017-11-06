@@ -1,6 +1,6 @@
 ---
 layout: default
-title: A Primer on Machine Learning Models for Hashing-Based Approximate Nearest Neighbour Search
+title: A Primer on Machine Learning Models for Hashing-Based Approximate Nearevst Neighbour Search
 ---
 
 *Nearest neighbour search* is the problem of finding the most similar data-points to a query in a large database, and is a fundamental operation that has found wide applicability in many fields, from Bioinformatics, through to Natural Language Processing (NLP) and Computer Vision. An obvious way of finding similar data-points would simply be to search through the entire dataset comparing each data-point to the query. Unfortunately, for most datasets of practical interest, particularly in the age of big-data and deep learning, this brute-force search is too computationally expensive and much more efficient search methods are required.
@@ -8,6 +8,8 @@ title: A Primer on Machine Learning Models for Hashing-Based Approximate Nearest
 This website provides curated links to a host of *approximate nearest neighbour search* (ANN) models that permit constant-time retrieval of nearest neighbours, independent of the dataset size. Typically these algorithms generate similar binary hashcodes for similar data-points, with these hashcodes then used as the indices into the buckets of hashtables, yielding a query time that is substantially improved over an exhaustive comparison. The only downside to these models is they might not return the closest nearest neighbour every time, which is usually an acceptable trade-off in practice. We give a particular focus here on recently proposed approximate nearest neighbour search models that improve retrieval effectiveness by learning *task specific* binary hashcodes.
 
 This website is in essence a *living literature review* that allows you explore the navigate the models in the field following a [taxonomy](\base-taxonomy) based on the fundamental properties of each model. New models can be added to this website by anyone simply by making a GitHub pull request (see *Contributing* below).
+
+### Survey Paper
 
 The full survey is available [as a research paper](http://seanjmoran.com/pdfs/hashing_review.pdf) currently under submission to a peer-reviewed journal. Full citation information will appear here in due course.
 
@@ -17,4 +19,4 @@ Learning-to-hash is a vibrant research field and is rapidly evolving, particular
 
 ### Acknowledgements
 
-This website has been forked from the original living literature review of [Allamanis](https://ml4code.github.io). Many thanks to the author for making the source code available.
+This website has been forked from the original living literature review of [Allamanis](https://ml4code.github.io).
