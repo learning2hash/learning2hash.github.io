@@ -7,6 +7,7 @@ year: 2014
 bibkey: kong2012busing
 additional_links:
    - {name: "PDF", url: "https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5080/5250"}
+   - {name: "Code", url: "http://theory.stanford.edu/~weihaokong/DBQ.m"}
 ---
 Hashing, which tries to learn similarity-preserving binary
 codes for data representation, has been widely
