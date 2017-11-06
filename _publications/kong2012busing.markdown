@@ -3,7 +3,7 @@ layout: publication
 title: "Double-Bit Quantisation for Hashing"
 authors: W. Kong, W. Li
 conference: AAAI
-year: 2014
+year: 2012
 bibkey: kong2012busing
 additional_links:
    - {name: "PDF", url: "https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5080/5250"}
