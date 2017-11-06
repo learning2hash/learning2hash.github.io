@@ -5,7 +5,8 @@ authors: W. Kong, W. Li
 conference: AAAI
 year: 2014
 bibkey: kong2012busing
-url: https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5080/5250
+additional_links:
+   - {name: "PDF", url: "https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5080/5250"}
 ---
 Hashing, which tries to learn similarity-preserving binary
 codes for data representation, has been widely

@@ -5,7 +5,8 @@ authors: W. Kong, W. Li, M. Guo
 conference: SIGIR
 year: 2012
 bibkey: kong2012ausing
-url: https://cs.nju.edu.cn/lwj/paper/SIGIR12_MH.pdf
+additional_links:
+   - {name: "PDF", url: "https://cs.nju.edu.cn/lwj/paper/SIGIR12_MH.pdf"}
 ---
 Hashing is used to learn binary-code representation for data with
 expectation of preserving the neighborhood structure in the original
