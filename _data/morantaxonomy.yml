@@ -9,7 +9,7 @@
 # Supervised Projection Models
 
 # Datasets
-- {bibkey: imagenet2012using, categories: [dataset], modality: Image, size: 1331167, features: 4096 dimensional CNN}
+- {bibkey: imagenet2009using, categories: [dataset], modality: Image, size: 1331167, features: 4096 dimensional CNN}
 
 # Unsupervised Projection Models
 - {bibkey: kong2012cusing, categories: [unsupervised], codebook: Binary, optimisation: Variance Balance}
