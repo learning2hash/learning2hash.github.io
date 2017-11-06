@@ -10,7 +10,7 @@ title: Unsupervised Projection Models
 <table id="patternModelTable">
 <thead><th>Name</th><th>Codebook</th><th>Optimisation</th></thead>
 <tbody>
-{% for publication in publicationsList %}{% if publication.categories contains "pattern" %}
+{% for publication in publicationsList %}{% if publication.categories contains "unsupervised" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
     
       <tr>
