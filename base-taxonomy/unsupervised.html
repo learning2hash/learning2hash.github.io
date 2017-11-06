@@ -8,16 +8,15 @@ title: Unsupervised Projection Models
 
 {% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="patternModelTable">
-<thead><th>Name</th><th>Type</th><th>Representation</th><th>Application</th></thead>
+<thead><th>Name</th><th>Codebook</th><th>Optimisation</th></thead>
 <tbody>
 {% for publication in publicationsList %}{% if publication.categories contains "pattern" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
     
       <tr>
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> {{pubDetails[0].title}}</td>
-          <td>{{publication.pattern_type}}</td>
-          <td>{{publication.representation}}</td>
-          <td>{{publication.application}}</td>
+          <td>{{publication.codebook}}</td>
+          <td>{{publication.optimisation}}</td>
       </tr>
 {% endif %}{% endfor %}
 </tbody></table>
