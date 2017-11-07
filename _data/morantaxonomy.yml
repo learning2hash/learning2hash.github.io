@@ -16,5 +16,6 @@
 - {bibkey: gong2011using, categories: [unsupervised], codebook: Binary, optimisation: Variance Balance}
 - {bibkey: weiss2009using, categories: [unsupervised], codebook: Binary, optimisation: Matrix Factorisation (PCA)}
 - {bibkey: salakhutdinov2007using, categories: [unsupervised], codebook: Binary, optimisation: Deep Generative Model}
+- {bibkey: yu2014using, categories: [unsupervised], codebook: Binary, optimisation: Time-frequency alternating}
 
 # Data-Independent Models
