@@ -4,12 +4,12 @@ title: Supervised Projection Models
 ---
 <h2>Supervised Projection Models</h2>
 
-<b>Supervised Projection Models</b> 
+<b>Supervised Projection Models</b> include models that leverage available supervision in the form of class labels, must-link or cannot-link constraints between data-point pairs, triplet-based relational information etc. The models use this supervision to ensure that only related data-points are hashed to the same buckets. These models typically exhibit the highest retrieval effectiveness but suffer the disadvantage of requiring manual labels which can be challenging to collect.
 
 {% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="genModelTable">
 <thead><th>Name</th><th>Codebook</th><th>Optimisation</th></thead><tbody>
-{% for publication in publicationsList %}{% if publication.categories contains "generative" %}
+{% for publication in publicationsList %}{% if publication.categories contains "supervised" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
     
       <tr>
