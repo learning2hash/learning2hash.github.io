@@ -1,16 +1,17 @@
 # Quantisation Models
-- {bibkey: moran2013aneighbourhood, categories: [quantisation], codebook: Any, optimisation: Semi-supervised, thresholds: 1+}
-- {bibkey: xiong2014using, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: Unsupervised, thresholds: Variable}
-- {bibkey: moran2013busing, categories: [quantisation], codebook: Any, optimisation: Semi-supervised, thresholds: Variable}
-- {bibkey: moran2016learning, categories: [quantisation], codebook: Any, optimisation: Semi-supervised, thresholds: Variable}
-- {bibkey: kong2012ausing, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: Unsupervised, thresholds: 3+}
-- {bibkey: kong2012busing, categories: [quantisation], codebook: Binary, optimisation: Unsupervised, thresholds: 2}
+- {bibkey: moran2013aneighbourhood, categories: [quantisation], codebook: Any, optimisation: Stochastic Search (semi-supervised), thresholds: 1+}
+- {bibkey: xiong2014using, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: Dynamic Programming (unsupervised), thresholds: Variable}
+- {bibkey: moran2013busing, categories: [quantisation], codebook: Any, optimisation: Binary Integer Linear Program (semi-supervised), thresholds: Variable}
+- {bibkey: moran2016learning, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: Maximum Margin (semi-supervised), thresholds: Variable}
+- {bibkey: kong2012ausing, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: Squared Error Minimisation (unsupervised), thresholds: 3+}
+- {bibkey: kong2012busing, categories: [quantisation], codebook: Binary, optimisation: K-Means (unsupervised), thresholds: 2}
 
 # Supervised Projection Models
 - {bibkey: liu2012supervised, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Gradient Descent }
 - {bibkey: liong2015using, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Backpropagation}
 - {bibkey: moran2015agraph, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Maximum Margin}
 - {bibkey: moran2015bregularised, categories: [supervised], codebook: Binary, modality: Cross-modal, type: Shallow, optimisation: Maximum Margin}
+- {bibkey: moran2016learning, categories: [supervised], codebook: Natural Binary Code (NBC), optimisation: Maximum Margin, type: Shallow}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], modality: Image, size: 1331167, features: 4096 dimensional CNN}
