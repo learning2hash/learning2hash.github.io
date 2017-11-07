@@ -11,7 +11,7 @@
 - {bibkey: liong2015using, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Backpropagation}
 - {bibkey: moran2015agraph, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Maximum Margin}
 - {bibkey: moran2015bregularised, categories: [supervised], codebook: Binary, modality: Cross-modal, type: Shallow, optimisation: Maximum Margin}
-- {bibkey: moran2016learning, categories: [supervised], codebook: Natural Binary Code (NBC), optimisation: Maximum Margin, type: Shallow}
+- {bibkey: moran2016learning, categories: [supervised], codebook: Natural Binary Code (NBC), optimisation: Maximum Margin, type: Shallow, modality: Unimodal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], modality: Image, size: 1331167, features: 4096 dimensional CNN}
