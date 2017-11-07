@@ -7,10 +7,10 @@
 - {bibkey: kong2012busing, categories: [quantisation], codebook: Binary, optimisation: Unsupervised, thresholds: 2}
 
 # Supervised Projection Models
-- {bibkey: liu2012using, categories: [supervised], codebook: Binary, modality: Unimodal, Type: Shallow, optimisation: Similarity Alignment}
-- {bibkey: liong2015using, categories: [supervised], codebook: Binary, modality: Unimodal, Type: Deep, optimisation: Space Partitioning}
-- {bibkey: moran2015ausing, categories: [supervised], codebook: Binary, modality: Unimodal, Type: Shallow, optimisation: Space Partitioning}
-- {bibkey: moran2015busing, categories: [supervised], codebook: Binary, modality: Cross-modal, Type: Shallow, optimisation: Space Partitioning}
+- {bibkey: liu2012using, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Similarity Alignment}
+- {bibkey: liong2015using, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Backpropagation}
+- {bibkey: moran2015ausing, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Maximum Margin}
+- {bibkey: moran2015busing, categories: [supervised], codebook: Binary, modality: Cross-modal, type: Shallow, optimisation: Maximum Margin}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], modality: Image, size: 1331167, features: 4096 dimensional CNN}
