@@ -7,7 +7,7 @@
 - {bibkey: kong2012busing, categories: [quantisation], codebook: Binary, optimisation: Unsupervised, thresholds: 2}
 
 # Supervised Projection Models
-- {bibkey: liu2012using, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: }
+- {bibkey: liu2012using, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Gradient Descent }
 - {bibkey: liong2015using, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Backpropagation}
 - {bibkey: moran2015ausing, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Maximum Margin}
 - {bibkey: moran2015busing, categories: [supervised], codebook: Binary, modality: Cross-modal, type: Shallow, optimisation: Maximum Margin}
@@ -19,7 +19,7 @@
 - {bibkey: kong2012cusing, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Variance Balance}
 - {bibkey: gong2011using, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Variance Balance}
 - {bibkey: weiss2009using, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation (PCA)}
-- {bibkey: salakhutdinov2007using, categories: [unsupervised], type: Deep, codebook: Binary, optimisation: Deep Generative Model}
-- {bibkey: yu2014using, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Time-frequency alternating}
+- {bibkey: salakhutdinov2007using, categories: [unsupervised], type: Deep, codebook: Binary, optimisation: Backpropagation}
+- {bibkey: yu2014using, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Fast Fourier Transform}
 
 # Data-Independent Models
