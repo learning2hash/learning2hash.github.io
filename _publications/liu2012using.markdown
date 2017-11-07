@@ -6,7 +6,7 @@ conference: CVPR
 year: 2012
 bibkey: liu2012using
 additional_links:
-   - {name: "PDF", url: ""}
+   - {name: "PDF", url: "http://www.ee.columbia.edu/~wliu/CVPR12_ksh.pdf"}
    - {name: "Code", url: "https://github.com/ColumbiaDVMM/Supervised-Hashing-with-Kernels"}
 ---
 Recent years have witnessed the growing popularity of
