@@ -8,7 +8,7 @@ title: Supervised Projection Models
 
 {% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="genModelTable">
-<thead><th>Name</th><th>Codebook</th><th>Type</th><th>Modality</th><th>Optimisation</th></thead><tbody>
+<thead><th>Name</th><th>Codebook</th><th>Architecture</th><th>Modality</th><th>Optimisation</th></thead><tbody>
 {% for publication in publicationsList %}{% if publication.categories contains "supervised" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
     
