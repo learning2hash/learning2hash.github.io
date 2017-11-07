@@ -4,7 +4,7 @@ title: "Supervised Hashing with Kernels"
 authors: W. Liu, J. Wang, R. Ji, Y. Jiang, S. Chang
 conference: CVPR
 year: 2012
-bibkey: liu2012using
+bibkey: liu2012supervised
 additional_links:
    - {name: "PDF", url: "http://www.ee.columbia.edu/~wliu/CVPR12_ksh.pdf"}
    - {name: "Code", url: "https://github.com/ColumbiaDVMM/Supervised-Hashing-with-Kernels"}

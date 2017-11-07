@@ -4,7 +4,7 @@ title: "Semantic Hashing"
 authors: R. Salakhutdinov, G. Hinton
 conference: NIPS
 year: 2007
-bibkey: salakhutdinov2007using
+bibkey: salakhutdinov2007semantic
 additional_links:
    - {name: "PDF", url: "http://www.cs.utoronto.ca/~rsalakhu/papers/semantic_final.pdf"}
    - {name: "Code", url: "https://github.com/gynnash/AutoEncoder"}

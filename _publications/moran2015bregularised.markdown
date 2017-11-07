@@ -4,7 +4,7 @@ title: "Regularised Cross-Modal Hashing"
 authors: S. Moran, V. Lavrenko
 conference: SIGIR
 year: 2015
-bibkey: moran2015busing
+bibkey: moran2015bregularised
 additional_links:
    - {name: "PDF", url: "http://seanjmoran.com/pdfs/cmh_sigir15.pdf"}
    - {name: "Code", url: "https://github.com/sjmoran/grh"}

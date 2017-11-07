@@ -4,7 +4,7 @@ title: "Variable Bit Quantisation for LSH"
 authors: S. Moran, V. Lavrenko, and M. Osborne
 conference: ACL
 year: 2013
-bibkey: moran2013busing
+bibkey: moran2013bvariable
 additional_links:
    - {name: "PDF", url: "http://homepages.inf.ed.ac.uk/miles/papers/acl13.pdf"}
    - {name: "Talk", url: "https://www.slideshare.net/sjmoran1/acl-variable-bit-quantisation-talk"}

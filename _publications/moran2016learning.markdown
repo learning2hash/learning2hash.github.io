@@ -4,7 +4,7 @@ title: "Learning to Project and Binarise for Hashing-Based Approximate Nearest N
 authors: S. Moran
 conference: SIGIR
 year: 2016
-bibkey: moran2016using
+bibkey: moran2016learning
 additional_links:
    - {name: "PDF", url: "https://dl.acm.org/citation.cfm?id=2914766"}
 ---

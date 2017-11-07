@@ -4,7 +4,7 @@ title: "Neighbourhood Preserving Quantisation for LSH"
 authors: S. Moran, V. Lavrenko, and M. Osborne
 conference: SIGIR
 year: 2013
-bibkey: moran2013ausing
+bibkey: moran2013aneighbourhood
 additional_links:
    - {name: "PDF", url: "http://homepages.inf.ed.ac.uk/miles/papers/sigir13b.pdf"}
    - {name: "Code", url: "https://github.com/sjmoran/npq"}

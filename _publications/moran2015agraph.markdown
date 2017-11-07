@@ -4,7 +4,7 @@ title: "Graph Regularised Hashing"
 authors: S. Moran, V. Lavrenko
 conference: ECIR
 year: 2015
-bibkey: moran2015ausing
+bibkey: moran2015agraph
 additional_links:
    - {name: "PDF", url: "http://seanjmoran.com/pdfs/grh_ecir15.pdf"}
    - {name: "Code", url: "https://github.com/sjmoran/grh"}

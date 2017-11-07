@@ -4,7 +4,7 @@ title: "Spectral Hashing"
 authors: Y. Weiss, A. Torralba, R. Fergus
 conference: NIPS
 year: 2009
-bibkey: weiss2009using
+bibkey: weiss2009spectral
 additional_links:
    - {name: "PDF", url: "https://people.csail.mit.edu/torralba/publications/spectralhashing.pdf"}
    - {name: "Code", url: "http://www.cs.huji.ac.il/~yweiss/SpectralHashing/"}
