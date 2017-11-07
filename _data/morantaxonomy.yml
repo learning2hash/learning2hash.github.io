@@ -7,6 +7,7 @@
 - {bibkey: kong2012busing, categories: [quantisation], codebook: Binary, optimisation: Unsupervised, thresholds: 2}
 
 # Supervised Projection Models
+- {bibkey: liu2012using, categories: [supervised], codebook: Binary, optimisation: Code inner product}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], modality: Image, size: 1331167, features: 4096 dimensional CNN}
