@@ -1,10 +1,10 @@
 ---
 layout: publication
-title: "Hashing with Graphs"
+title: "Complementary Projection Hashing"
 authors: Z. Jin, Y. Hu, Y. Lin, D. Zhang, S. Lin, D. Cai, X. Li
 conference: ICCV
 year: 2013
-bibkey: jin2013learning
+bibkey: jin2013complementary
 additional_links:
    - {name: "PDF", url: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.883.1565&rep=rep1&type=pdf"}
    - {name: "Code", url: "https://github.com/dengcai78/MatlabFunc/blob/master/ANNS/Hashing/Unsupervised/CPH.m"}
