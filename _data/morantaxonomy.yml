@@ -23,5 +23,6 @@
 - {bibkey: salakhutdinov2007semantic, categories: [unsupervised], type: Deep, codebook: Binary, optimisation: Backpropagation}
 - {bibkey: yu2014using, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Fast Fourier Transform}
 - {bibkey: kulis2009learning, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Coordinate Descent}
+- {bibkey: liu2011learning, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation}
 
 # Data-Independent Models
