@@ -27,3 +27,4 @@
 - {bibkey: jin2013complementary, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Gradient Descent}
 
 # Data-Independent Models
+- {bibkey: kulis2009kernelized, categories: [independent], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation}
