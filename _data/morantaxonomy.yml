@@ -26,6 +26,7 @@
 - {bibkey: liu2011learning, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation}
 - {bibkey: jin2013complementary, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Gradient Descent}
 - {bibkey: kulis2009kernelized, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation}
+- {bibkey: heo2012spherical, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Custom Iterative Scheme}
 
 # Data-Independent Models
 - {bibkey: petrovic2010streaming, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
