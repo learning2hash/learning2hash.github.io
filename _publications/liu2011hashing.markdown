@@ -6,7 +6,7 @@ conference: ICML
 year: 2011
 bibkey: liu2011learning
 additional_links:
-   - {name: "PDF", url: "hhttp://www.icml-2011.org/papers/6_icmlpaper.pdf"}
+   - {name: "PDF", url: "http://www.icml-2011.org/papers/6_icmlpaper.pdf"}
    - {name: "Code", url: "https://github.com/dengcai78/MatlabFunc/blob/master/ANNS/Hashing/Unsupervised/OneLayerAGH_Train.m"}
 ---
 Hashing is becoming increasingly popular for
