@@ -6,7 +6,7 @@ conference: NIPS
 year: 2009
 bibkey: kulis2009learning
 additional_links:
-   - {name: "URL", url: "https://papers.nips.cc/paper/3667-learning-to-hash-with-binary-reconstructive-embeddings.pdf"}
+   - {name: "PDF", url: "https://papers.nips.cc/paper/3667-learning-to-hash-with-binary-reconstructive-embeddings.pdf"}
    - {name: "Code", url: "https://github.com/dengcai78/MatlabFunc/blob/master/ANNS/Hashing/Unsupervised/BRE.m"}
 ---
 Fast retrieval methods are increasingly critical for many large-scale analysis tasks, and there have been
