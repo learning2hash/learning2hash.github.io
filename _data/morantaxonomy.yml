@@ -1,5 +1,5 @@
 # Quantisation Models
-- {bibkey: moran2013aneighbourhood, categories: [quantisation], codebook: Any, optimisation: Stochastic Search, thresholds: 1, type: Semi-Supervised}
+- {bibkey: moran2013aneighbourhood, categories: [quantisation], codebook: Any, optimisation: Stochastic Search, thresholds: 1+, type: Semi-Supervised}
 - {bibkey: xiong2014using, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: Dynamic Programming, thresholds: Variable, type: Unsupervised}
 - {bibkey: moran2013bvariable, categories: [quantisation], codebook: Any, optimisation: Stochastic Search + Binary Integer Linear Program, thresholds: Variable, type: Semi-Supervised}
 - {bibkey: moran2016learning, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: Maximum Margin + Stochastic Search, thresholds: Variable, type: Semi-Supervised}
