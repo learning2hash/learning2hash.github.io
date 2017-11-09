@@ -34,4 +34,4 @@
 - {bibkey: petrovic2010streaming, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
 - {bibkey: moran2016enhancing, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
 - {bibkey: datar2004locality, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
-- {bibkey: gionis1999similarity, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
+- {bibkey: gionis1999similarity, categories: [independent], type: Shallow, codebook: Binary, optimisation: Bit Sampling}

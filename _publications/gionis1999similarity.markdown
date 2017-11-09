@@ -8,6 +8,7 @@ bibkey: gionis1999similarity
 additional_links:
    - {name: "PDF", url: "https://dl.acm.org/citation.cfm?id=997857"}
    - {name: "Code", url: "http://www.mit.edu/~andoni/LSH/"}
+   - {name: "Tutorial", url: "http://www.slaney.org/malcolm/yahoo/Slaney2008-LSHTutorial.pdf"}
 ---
 The nearest- or near-neighbor query problems arise in a large variety of database applications, usually in the context of similarity searching. Of late, there has been increasing interest in building search/index structures for performing similarity search over high-dimensional data, e.g., image databases, document collections, time-series databases, and genome databases. Unfortunately,
 all known techniques for solving this problem fall prey to the curse of dimensionality. That is, the data structures scale poorly with data dimensionality;
