@@ -14,7 +14,7 @@
 - {bibkey: moran2016learning, categories: [supervised], codebook: Natural Binary Code (NBC), optimisation: Maximum Margin, type: Shallow, modality: Unimodal}
 - {bibkey: lai2015simultaneous, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: xia2014supervised, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
-- {bibkey: jain2009fast, categories: [supervised], codebook: Binary, optimisation: Mahalanobis matrix, type: Shallow, modality: Unimodal}
+- {bibkey: jain2009fast, categories: [supervised], codebook: Binary, optimisation: LogDet Divergence, type: Shallow, modality: Unimodal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], modality: Image, size: 1331167, features: 4096 dimensional CNN}
