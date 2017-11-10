@@ -3,7 +3,7 @@ layout: publication
 title: "Fast Similarity Search for Learned Metrics"
 authors: P. Jain, B. Kulis, K. Grauman
 conference: TPAMI
-year: 2007
+year: 2009
 bibkey: jain2007fast
 additional_links:
    - {name: "PDF", url: "https://www.cs.utexas.edu/~pjain/pubs/hashing_tr.pdf"}
