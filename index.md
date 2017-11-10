@@ -28,12 +28,13 @@ The full survey is available [as a research paper](http://seanjmoran.com/pdfs/ha
 
 Please also see the excellent [tutorial slides](https://cs.nju.edu.cn/lwj/slides/L2H.pdf) of [Dr. Wu-Jun Li](https://cs.nju.edu.cn/lwj/) for a nice introduction to the field.
 
-Dr Victor Lavrenko has two excellent youtube videos [here](https://www.youtube.com/watch?v=Arni-zkqMBA) and [here](https://www.youtube.com/watch?v=dgH0NP8Qxa8), describing the basics of LSH. These are ideal for those just entering the field or curious how to apply the method to their problem domain.
+[Dr Victor Lavrenko](https://www.youtube.com/user/victorlavrenko) has two excellent youtube videos [here](https://www.youtube.com/watch?v=Arni-zkqMBA) and [here](https://www.youtube.com/watch?v=dgH0NP8Qxa8), describing the basics of LSH. These are ideal for those just entering the field or curious how to apply the method to their problem domain.
 
 There are also alternative survey papers which are complementary to this one and take a different approach to summarising available research. The reader is encouraged to further explore the following publications:
 
-1. [Learning to Hash for Indexing Big Data - A Survey](https://arxiv.org/pdf/1509.05472.pdf)
-2. [A Survey on Learning to Hash](https://arxiv.org/pdf/1606.00185.pdf)
+* [Learning to Hash for Indexing Big Data - A Survey](https://arxiv.org/pdf/1509.05472.pdf)
+* [A Survey on Learning to Hash](https://arxiv.org/pdf/1606.00185.pdf)
+* [Learning Binary Hash Codes for Large-Scale Image Search](http://www.cs.utexas.edu/~grauman/temp/GraumanFergus_Hashing_chapterdraft.pdf)
 
 ### Contributing
 
