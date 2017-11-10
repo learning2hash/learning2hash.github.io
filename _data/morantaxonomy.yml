@@ -15,6 +15,7 @@
 - {bibkey: lai2015simultaneous, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: xia2014supervised, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: jain2009fast, categories: [supervised], codebook: Binary, optimisation: LogDet Divergence, type: Shallow, modality: Unimodal}
+- {bibkey: ge2014graph, categories: [supervised], codebook: Binary, optimisation: Graph Cuts + Maximum Margin, type: Shallow, modality: Unimodal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], modality: Image, size: 1331167, features: 4096 dimensional CNN}
