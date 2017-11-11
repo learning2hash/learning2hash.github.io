@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Random Maximum Margin Hashing"
-authors:
+authors: A. Joly, O. Buisson
 conference: CVPR
 year: 2011
 bibkey: song2011random
