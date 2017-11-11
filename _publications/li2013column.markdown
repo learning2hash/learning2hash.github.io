@@ -4,7 +4,7 @@ title: "Learning Hash Functions Using Column Generation"
 authors: X. Li, G. Lin, C. Shen, A. Hengel, A. Dick.
 conference: ICML
 year: 2013
-bibkey: li2013learning
+bibkey: li2013column
 additional_links:
    - {name: "PDF", url: "http://www.jmlr.org/proceedings/papers/v28/li13a.pdf"}  - {name: "URL", url: "https://bitbucket.org/guosheng/column-generation-hashing/"}
    - {name: "Code", url: "https://github.com/pcarbo/lbfgsb-matlab"}
