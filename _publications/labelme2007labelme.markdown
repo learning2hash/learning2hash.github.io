@@ -1,6 +1,7 @@
 ---
 layout: publication
-title: "Learning Multiple Layers of Features from Tiny Images"
+title: "LabelMe: a database and web-based tool for image
+annotation"
 authors: B. Russell, A. Torralba, K. Murphy, W. T. Freeman
 conference: IJCV
 year: 2007
