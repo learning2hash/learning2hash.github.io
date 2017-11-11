@@ -2,7 +2,7 @@
 layout: publication
 title: "The MNIST Database of Handwritten Digits"
 authors: Y. LeCun, C. Cortes, C. Burges
-conference: N/A
+conference: 
 year: 1999
 bibkey: mnist1999mnist
 additional_links:
