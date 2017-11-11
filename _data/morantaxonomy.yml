@@ -23,6 +23,7 @@
 - {bibkey: lin2013twostep, categories: [supervised], codebook: Binary, optimisation: Block Coordinate Descent + Various Classifier, type: Shallow, modality: Unimodal}
 - {bibkey: song2011random, categories: [supervised], codebook: Binary, optimisation: Maximum Margin, type: Shallow, modality: Unimodal}
 - {bibkey: wang2010sequential, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Unimodal}
+- {bibkey: wang2010semisupervised, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Unimodal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
