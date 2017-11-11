@@ -11,8 +11,7 @@ additional_links:
 ---
 Motivated by large-scale multimedia applications we propose to learn mappings
 from high-dimensional data to binary codes that preserve semantic similarity.
-Binary codes are well suited to large-scale applications as they are storage ef-
-ficient and permit exact sub-linear kNN search. The framework is applicable
+Binary codes are well suited to large-scale applications as they are storage efficient and permit exact sub-linear kNN search. The framework is applicable
 to broad families of mappings, and uses a flexible form of triplet ranking loss.
 We overcome discontinuous optimization of the discrete mappings by minimizing
 a piecewise-smooth upper bound on empirical loss, inspired by latent structural
