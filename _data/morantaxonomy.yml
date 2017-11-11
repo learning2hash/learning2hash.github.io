@@ -38,3 +38,4 @@
 - {bibkey: datar2004locality, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
 - {bibkey: gionis1999similarity, categories: [independent], type: Shallow, codebook: Binary, optimisation: Bit Sampling}
 - {bibkey: andoni2006near, categories: [independent], type: Shallow, codebook: Binary, optimisation: Leech Lattice}
+- {bibkey: raginsky2009locality, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Fourier Features}
