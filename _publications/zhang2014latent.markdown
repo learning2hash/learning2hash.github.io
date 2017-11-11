@@ -2,7 +2,7 @@
 layout: publication
 title: "Supervised Hashing with Latent Factor Models"
 authors: P. Zhang, W. Zhang, W. Li, M. Guo
-conference: 
+conference: SIGIR
 year: 2014
 bibkey: zhang2014latent
 additional_links:
