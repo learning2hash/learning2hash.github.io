@@ -2,7 +2,7 @@
 layout: publication
 title: "Learning Multiple Layers of Features from Tiny Images"
 authors: A. Krizhevsky
-conference: CVPR
+conference: University of Toronto
 year: 2009
 bibkey: cifar2009learning
 additional_links:
