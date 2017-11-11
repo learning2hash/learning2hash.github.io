@@ -6,6 +6,7 @@ conference: CVPR
 year: 2009
 bibkey: imagenet2009using
 additional_links:
+   - {name: "URL", url: "http://www.image-net.org/"}
    - {name: "Features", url: "https://www.dropbox.com/s/ymf6dq9yp0bi432/ILSVRC2012_caffe_CNN.mat?dl=0"}
    - {name: "Classes", url: "https://www.dropbox.com/s/12mx8pk3vsqfbce/ILSVRC2012_caffe_CNN_class.mat?dl=0"}
 ---
