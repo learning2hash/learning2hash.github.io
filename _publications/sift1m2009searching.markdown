@@ -16,8 +16,7 @@ and corresponding distance estimators approximating the Euclidean distance
 between the orginal vectors. The method is advantageously used in an asymmetric
 manner, by computing the distance between a vector and code, unlike
 competing techniques such as spectral hashing that only compare codes.
-Our approach approximates the Euclidean distance based on memory effi-
-cient codes and, thus, permits efficient nearest neighbor search. Experiments
+Our approach approximates the Euclidean distance based on memory efficient codes and, thus, permits efficient nearest neighbor search. Experiments
 performed on SIFT and GIST image descriptors show excellent search accuracy.
 The method is shown to outperform two state-of-the-art approaches of the literature.
 Timings measured when searching a vector set of 2 billion vectors are
