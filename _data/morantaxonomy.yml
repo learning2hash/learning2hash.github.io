@@ -44,6 +44,7 @@
 - {bibkey: carreira2015hashing, categories: [unsupervised], type: Deep, codebook: Binary, optimisation: Backpropagation}
 - {bibkey: weiss2012multi, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation}
 - {bibkey: gong2013bilinear, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation}
+- {bibkey: norouzi2011minimal, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Loss Adjusted Inference}
 
 # Data-Independent Models
 - {bibkey: petrovic2010streaming, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
