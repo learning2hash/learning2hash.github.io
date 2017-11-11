@@ -4,7 +4,7 @@ title: "Near-Optimal Hashing Algorithms for Approximate Nearest Neighbor in High
 authors: A. Andoni, P. Indyk
 conference: FOCS
 year: 2006
-bibkey: datar2004locality
+bibkey: andoni2006near
 additional_links:
    - {name: "PDF", url: "http://ieeexplore.ieee.org/document/4031381/"}
    - {name: "Code", url: "http://www.mit.edu/~andoni/LSH/"}
