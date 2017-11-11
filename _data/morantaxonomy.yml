@@ -18,7 +18,7 @@
 - {bibkey: ge2014graph, categories: [supervised], codebook: Binary, optimisation: Graph Cuts + Maximum Margin, type: Shallow, modality: Unimodal}
 - {bibkey: norouzi2012hamming, categories: [supervised], codebook: Binary, optimisation: Triplet Ranking Loss, type: Shallow, modality: Unimodal}
 - {bibkey: zhang2010self, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation + Maximum Margin, type: Shallow, modality: Unimodal}
-- {bibkey: li2013learning, categories: [supervised], codebook: Binary, optimisation: Maximum Margin, type: Shallow, modality: Unimodal}
+- {bibkey: li2013column, categories: [supervised], codebook: Binary, optimisation: Maximum Margin, type: Shallow, modality: Unimodal}
 - {bibkey: zhang2014latent, categories: [supervised], codebook: Binary, optimisation: Expectation Maximisation, type: Shallow, modality: Unimodal}
 
 # Datasets
