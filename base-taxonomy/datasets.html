@@ -12,11 +12,12 @@ range of different image topics from natural scenes to personal photos, logos an
 
 {% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="reprModelTable">
-<thead><th>Dataset</th><th>Modality</th><th>Size</th><th>Features</th></thead><tbody>
+<thead><th>Name</th><th>Dataset</th><th>Modality</th><th>Size</th><th>Features</th></thead><tbody>
 {% for publication in publicationsList %}{% if publication.categories contains "dataset" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}  
       <tr>
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a>{{pubDetails[0].title}}</td>
+          <td>{{publication.name}}</td>
           <td>{{publication.modality}}</td>
           <td>{{publication.size}}</td>
           <td>{{publication.features}}</td>
