@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "NUS-WIDE: a real-world web image database from National University of Singapore"
-authors: J. Deng, W. Dong, R. Socher, L. Li, K. Li, L. Fei-Fei
+authors: T. Chua, J. Tang, R. Hong, H. Li, Z. Luo, Y. Zheng
 conference: CIVR
 year: 2009
 bibkey: nuswide2009nuswide
