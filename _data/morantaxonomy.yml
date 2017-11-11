@@ -20,6 +20,7 @@
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], modality: Image, size: 1331167, features: 4096 dimensional CNN}
 - {bibkey: cifar2009learning, categories: [dataset], modality: Image, size: 60000, features: 512 dimensional GIST}
+- {bibkey: labelme2007labelme, categories: [dataset], modality: Image, size: 22019, features: 512 dimensional GIST}
 
 # Unsupervised Projection Models
 - {bibkey: kong2012cusing, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Variance Balance}
