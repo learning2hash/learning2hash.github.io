@@ -7,8 +7,6 @@ year: 2013
 bibkey: gong2013bilinear
 additional_links:
    - {name: "PDF", url: "http://sanjivk.com/bilinearHashing_CVPR13.pdf"}
-   - {name: "URL", url: "http://www.unc.edu/~yunchao/bpbc.htm"}
-   - {name: "Code", url: "http://www.unc.edu/~yunchao/code/bpbc.zip"}
 ---
 Recent advances in visual recognition indicate that to
 achieve good retrieval and classification accuracy on largescale
