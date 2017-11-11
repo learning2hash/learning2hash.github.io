@@ -6,7 +6,7 @@ conference: SIGIR
 year: 2014
 bibkey: zhang2014latent
 additional_links:
-   - {name: "URL", url: "https://cs.nju.edu.cn/lwj/paper/SIGIR14_LFH.pdf"}   
+   - {name: "PDF", url: "https://cs.nju.edu.cn/lwj/paper/SIGIR14_LFH.pdf"}   
 ---
 Due to its low storage cost and fast query speed, hashing
 has been widely adopted for approximate nearest neighbor
