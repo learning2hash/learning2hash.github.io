@@ -17,6 +17,7 @@
 - {bibkey: jain2009fast, categories: [supervised], codebook: Binary, optimisation: LogDet Divergence, type: Shallow, modality: Unimodal}
 - {bibkey: ge2014graph, categories: [supervised], codebook: Binary, optimisation: Graph Cuts + Maximum Margin, type: Shallow, modality: Unimodal}
 - {bibkey: norouzi2012hamming, categories: [supervised], codebook: Binary, optimisation: Triplet Ranking Loss, type: Shallow, modality: Unimodal}
+- {bibkey: zhang2010self, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation + Maximum Margin, type: Shallow, modality: Unimodal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
