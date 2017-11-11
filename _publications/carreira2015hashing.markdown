@@ -4,7 +4,7 @@ title: "Hashing with Binary Autoencoders"
 authors: M. Carreira-Perpinan, R. Raziperchikolaei
 conference: CVPR
 year: 2015
-bibkey: carriera2015hashing
+bibkey: carreira2015hashing
 additional_links:
    - {name: "PDF", url: "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Carreira-Perpinan_Hashing_With_Binary_2015_CVPR_paper.pdf"}
    - {name: "Code", url: "http://faculty.ucmerced.edu/mcarreira-perpinan/research/software/code-BAhash.tar.gz"}
