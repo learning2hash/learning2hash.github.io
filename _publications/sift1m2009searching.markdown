@@ -10,4 +10,15 @@ additional_links:
    - {name: "URL", url: "http://corpus-texmex.irisa.fr/"}
    - {name: "Features", url: "https://www.dropbox.com/s/29f6r7pqevfy2ck/sift1m.mat?dl=0"}
 ---
-This page provides a link to the Matlab version of the ANN_SIFT1M dataset, containing 1 million SIFT discriptors for nearest neighbour search experiments.
+We propose an approximate nearest neighbor search method based
+on quantization. It uses, in particular, product quantizer to produce short codes
+and corresponding distance estimators approximating the Euclidean distance
+between the orginal vectors. The method is advantageously used in an asymmetric
+manner, by computing the distance between a vector and code, unlike
+competing techniques such as spectral hashing that only compare codes.
+Our approach approximates the Euclidean distance based on memory effi-
+cient codes and, thus, permits efficient nearest neighbor search. Experiments
+performed on SIFT and GIST image descriptors show excellent search accuracy.
+The method is shown to outperform two state-of-the-art approaches of the literature.
+Timings measured when searching a vector set of 2 billion vectors are
+shown to be excellent given the high accuracy of the method.
