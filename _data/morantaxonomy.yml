@@ -41,6 +41,7 @@
 - {bibkey: heo2012spherical, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Custom Iterative Scheme}
 - {bibkey: carreira2015hashing, categories: [unsupervised], type: Deep, codebook: Binary, optimisation: Backpropagation}
 - {bibkey: weiss2012multi, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation}
+- {bibkey: gong2013bilinear, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation}
 
 # Data-Independent Models
 - {bibkey: petrovic2010streaming, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
