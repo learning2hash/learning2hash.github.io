@@ -1,8 +1,7 @@
 ---
 layout: publication
 title: "A New Approach to Cross-Modal Multimedia Retrieval"
-authors: N. Rasiwasia, J. Costa Pereira, E. Coviello, G. Doyle,
-G. Lanckriet, R.Levy and N. Vasconcelos
+authors: N. Rasiwasia, J. Costa Pereira, E. Coviello, G. Doyle, G. Lanckriet, R.Levy and N. Vasconcelos
 conference: ICME
 year: 2010
 bibkey: wiki2010new
