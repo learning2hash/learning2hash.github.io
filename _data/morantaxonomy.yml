@@ -9,6 +9,7 @@
 # Supervised Projection Models
 - {bibkey: liu2012supervised, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Gradient Descent }
 - {bibkey: liong2015using, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Backpropagation}
+- {bibkey: zhang2015bit, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Backpropagation}
 - {bibkey: moran2015agraph, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Maximum Margin}
 - {bibkey: moran2015bregularised, categories: [supervised], codebook: Binary, modality: Cross-modal, type: Shallow, optimisation: Maximum Margin}
 - {bibkey: moran2016learning, categories: [supervised], codebook: Natural Binary Code (NBC), optimisation: Maximum Margin, type: Shallow, modality: Unimodal}
