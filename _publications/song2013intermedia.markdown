@@ -1,0 +1,12 @@
+---
+layout: publication
+title: "Inter-Media Hashing for Large-Scale Retrieval from Heterogeneous Data Sources"
+authors: J. Song, Y. Yang, Y. Yang, Z. Huang, H. Shen
+conference: SIGMOD
+year: 2013
+bibkey: song2013intermedia
+additional_links:
+   - {name: "PDF", url: "http://dl.acm.org/citation.cfm?id=2465274"}
+   - {name: "Code", url: "http://staff.itee.uq.edu.au/shenht/UQ_IMH/"}
+---
+In this paper, we present a new multimedia retrieval paradigm to innovate large-scale search of heterogenous multimedia data. It is able to return results of different media types from heterogeneous data sources, e.g., using a query image to retrieve relevant text documents or images from different data sources. This utilizes the widely available data from different sources and caters for the current users' demand of receiving a result list simultaneously containing multiple types of data to obtain a comprehensive understanding of the query's results. To enable large-scale inter-media retrieval, we propose a novel inter-media hashing (IMH) model to explore the correlations among multiple media types from different data sources and tackle the scalability issue. To this end, multimedia data from heterogeneous data sources are transformed into a common Hamming space, in which fast search can be easily implemented by XOR and bit-count operations. Furthermore, we integrate a linear regression model to learn hashing functions so that the hash codes for new data points can be efficiently generated. Experiments conducted on real-world large-scale multimedia datasets demonstrate the superiority of our proposed method compared with state-of-the-art techniques.

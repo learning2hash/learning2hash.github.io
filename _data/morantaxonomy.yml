@@ -28,6 +28,7 @@
 - {bibkey: zhang2011composite, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
 - {bibkey: kumar2011learning, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
 - {bibkey: zhen2012coregularised, categories: [supervised], codebook: Binary, optimisation: Concave-Convex Procedure (CCCP), type: Shallow, modality: Cross-modal}
+- {bibkey: song2013intermedia, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
