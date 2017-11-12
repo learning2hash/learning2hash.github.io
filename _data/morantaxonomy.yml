@@ -31,6 +31,7 @@
 - {bibkey: zhen2012coregularised, categories: [supervised], codebook: Binary, optimisation: Concave-Convex Procedure (CCCP), type: Shallow, modality: Cross-modal}
 - {bibkey: song2013intermedia, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
 - {bibkey: ou2013comparing, categories: [supervised], codebook: Binary, optimisation: Block Coordinate Descent, type: Shallow, modality: Cross-modal}
+- {bibkey: liu2013hashbit, categories: [supervised], codebook: Binary, optimisation: Quadratic Programming, type: Shallow, modality: Unimodal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
