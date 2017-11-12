@@ -3,8 +3,9 @@
 - {bibkey: xiong2014using, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: Dynamic Programming, thresholds: Variable, type: Unsupervised}
 - {bibkey: moran2013bvariable, categories: [quantisation], codebook: Any, optimisation: Stochastic Search + Binary Integer Linear Program, thresholds: Variable, type: Semi-Supervised}
 - {bibkey: moran2016learning, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: Maximum Margin + Stochastic Search, thresholds: Variable, type: Semi-Supervised}
-- {bibkey: kong2012ausing, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: Squared Error Minimisation, thresholds: 3+, type: Unsupervised}
-- {bibkey: kong2012busing, categories: [quantisation], codebook: Binary, optimisation: K-Means, thresholds: 2, type: Unsupervised}
+- {bibkey: kong2012ausing, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: K-Means, thresholds: 3+, type: Unsupervised}
+- {bibkey: kong2012busing, categories: [quantisation], codebook: Binary, optimisation: Squared Error Minimisation, thresholds: 2, type: Unsupervised}
+- {bibkey: liu2013hashbit, categories: [quantisation], codebook: Binary, optimisation: Squared Error Minimisation, thresholds: 2, type: Unsupervised}
 
 # Supervised Projection Models
 - {bibkey: liu2012supervised, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Gradient Descent }
