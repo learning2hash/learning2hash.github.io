@@ -42,6 +42,7 @@
 - {bibkey: wiki2010new, categories: [dataset], name: WIKI, modality: Image/Text, size: 2669, features: 128 dimensional SIFT (image) - 10 dimensional LDA topics (text)}
 
 # Unsupervised Projection Models
+- {bibkey: xu2013harmonious, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Variance Balance}
 - {bibkey: kong2012cusing, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Variance Balance}
 - {bibkey: gong2011using, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Variance Balance}
 - {bibkey: weiss2009spectral, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation (PCA)}
@@ -56,7 +57,6 @@
 - {bibkey: weiss2012multi, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation}
 - {bibkey: gong2013bilinear, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation}
 - {bibkey: norouzi2011minimal, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Structured Perceptron}
-- {bibkey: shrivastava2014asymmetric, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
 
 # Data-Independent Models
 - {bibkey: petrovic2010streaming, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
@@ -67,3 +67,4 @@
 - {bibkey: raginsky2009locality, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Fourier Features}
 - {bibkey: andoni2015practical, categories: [independent], type: Shallow, codebook: Binary, optimisation: Randomly Rotated Cross-Polytopes}
 - {bibkey: shrivastava2014densifying, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Permutations}
+- {bibkey: shrivastava2014asymmetric, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
