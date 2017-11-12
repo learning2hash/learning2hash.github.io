@@ -1,5 +1,5 @@
 ---
-layout: publication"
+layout: "publication"
 title: "Hash Bit Selection: a Unified Solution for Selection Problems in Hashing"
 authors: X. Liu, J. He, B. Lang, S. Chang
 conference: CVPR
