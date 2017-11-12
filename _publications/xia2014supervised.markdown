@@ -7,6 +7,7 @@ year: 2014
 bibkey: xia2014supervised
 additional_links:
    - {name: "PDF", url: "http://ss.sysu.edu.cn/~py/papers/AAAI-CNNH.pdf"}
+   - {name: "Talk", url: "http://ss.sysu.edu.cn/~py/CNNH-slides.pdf"}
    - {name: "Code", url: "http://ss.sysu.edu.cn/~py/CNNH/cnnh.html"}
 ---
 Hashing is a popular approximate nearest neighbor
