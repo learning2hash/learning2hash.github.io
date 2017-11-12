@@ -66,3 +66,4 @@
 - {bibkey: andoni2006near, categories: [independent], type: Shallow, codebook: Binary, optimisation: Leech Lattice}
 - {bibkey: raginsky2009locality, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Fourier Features}
 - {bibkey: andoni2015practical, categories: [independent], type: Shallow, codebook: Binary, optimisation: Randomly Rotated Cross-Polytopes}
+- {bibkey: shrivastava2014densifying, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Permutations}
