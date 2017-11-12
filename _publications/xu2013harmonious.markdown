@@ -7,6 +7,7 @@ year: 2013
 bibkey: xu2013harmonious
 additional_links:
    - {name: "PDF", url: "http://ijcai.org/papers13/Papers/IJCAI13-269.pdf"}
+   - {name: "Code", url: "https://github.com/dengcai78/MatlabFunc/blob/master/ANNS/Hashing/Unsupervised/HamH_learn.m"}
 ---
 Hashing-based fast nearest neighbor search technique
 has attracted great attention in both research
