@@ -61,6 +61,7 @@
 - {bibkey: gong2013bilinear, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Matrix Factorisation}
 - {bibkey: norouzi2011minimal, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Structured Perceptron}
 - {bibkey: liu2014discrete, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Alternative Maximisation}
+- {bibkey: irie2014locality, categories: [unsupervised], codebook: Binary, optimisation: Alternating Optimisation, type: Shallow, modality: Unimodal}
 
 # Data-Independent Models
 - {bibkey: petrovic2010streaming, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
