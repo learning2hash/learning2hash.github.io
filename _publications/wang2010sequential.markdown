@@ -4,7 +4,7 @@ title: "Sequential projection learning for hashing with compact codes"
 authors: J. Wang, S. Kumar, S. Chang
 conference: ICML
 year: 2010
-bibkey: wang2010projection
+bibkey: wang2010sequential
 additional_links:
    - {name: "PDF", url: "http://machinelearning.wustl.edu/mlpapers/paper_files/icml2010_WangKC10.pdf"}
    - {name: "Talk", url: "http://www.ee.columbia.edu/~jwang/icmlpresentations/SPL_ICML2010_pre.pptx"}
