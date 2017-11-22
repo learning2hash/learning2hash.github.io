@@ -34,6 +34,7 @@
 - {bibkey: ou2013comparing, categories: [supervised], codebook: Binary, optimisation: Block Coordinate Descent, type: Shallow, modality: Cross-modal}
 - {bibkey: liu2013hashbit, categories: [supervised], codebook: Binary, optimisation: Quadratic Programming, type: Shallow, modality: Unimodal}
 - {bibkey: cakir2015adaptive, categories: [supervised], codebook: Binary, optimisation: Stochastic Gradient Descent, type: Shallow, modality: Unimodal}
+- {bibkey: cakir2017online, categories: [supervised], codebook: Binary, optimisation: Stochastic Gradient Descent, type: Shallow, modality: Unimodal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
