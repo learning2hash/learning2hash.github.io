@@ -38,6 +38,7 @@
 - {bibkey: zhang2014largescale, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
 - {bibkey: ding2014collective, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
 - {bibkey: liu2014collaborative, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
+- {bibkey: wu2015quantized, categories: [supervised], codebook: Binary, optimisation: Gradient Descent, type: Shallow, modality: Cross-modal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
