@@ -6,6 +6,7 @@
 - {bibkey: kong2012ausing, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: K-Means, thresholds: 3+, type: Unsupervised}
 - {bibkey: kong2012busing, categories: [quantisation], codebook: Binary, optimisation: Squared Error Minimisation, thresholds: 2, type: Unsupervised}
 - {bibkey: wang2015hamming, categories: [quantisation], codebook: Binary, optimisation: Squared Error Minimisation, thresholds: 2, type: Unsupervised}
+- {bibkey: wang2016affinity, categories: [quantisation], codebook: Binary, optimisation: K-Means, thresholds: N/A, type: Unsupervised}
 
 # Supervised Projection Models
 - {bibkey: liu2012supervised, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Gradient Descent }
