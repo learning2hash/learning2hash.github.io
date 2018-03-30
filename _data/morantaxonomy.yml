@@ -70,6 +70,7 @@
 - {bibkey: liu2014discrete, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Alternative Maximisation}
 - {bibkey: irie2014locality, categories: [unsupervised], codebook: Binary, optimisation: Alternating Optimisation, type: Shallow, modality: Unimodal}
 - {bibkey: jiang2015scalable, categories: [unsupervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Unimodal}
+- {bibkey: rastegari2016xnor, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 
 # Data-Independent Models
 - {bibkey: petrovic2010streaming, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
