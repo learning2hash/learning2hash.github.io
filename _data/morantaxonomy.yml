@@ -9,6 +9,9 @@
 - {bibkey: wang2016affinity, categories: [quantisation], codebook: Binary, optimisation: K-Means, thresholds: N/A, type: Unsupervised}
 
 # Supervised Projection Models
+- {bibkey: cakir2019hashing, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Listwise Mutual Information loss}
+- {bibkey: cakir2018hashing, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Binary programming}
+- {bibkey: he2018hashing, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Average Precision and NDCG loss}
 - {bibkey: liu2012supervised, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Gradient Descent }
 - {bibkey: liong2015using, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Backpropagation}
 - {bibkey: zhang2015bit, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Backpropagation}
