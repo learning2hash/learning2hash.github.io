@@ -1,0 +1,13 @@
+---
+layout: publication
+title: "Column Sampling Based Discrete Supervised Hashing"
+authors: Wang-Cheng Kang, Wu-Jun Li, Zhi-Hua Zhou
+conference: AAAI
+year: 2016
+bibkey: kang2016columnsample
+additional_links:
+   - {name: "PDF", url: "http://cs.nju.edu.cn/lwj/paper/AAAI16_COSDISH.pdf"}
+   - {name: "Code", url: "http://cs.nju.edu.cn/lwj/code/COSDISH.zip"}
+---
+
+tely optimized in a discrete way. Theoretical analysis shows that the learning (optimization) algorithm of COSDISH has a constant-approximation bound in each step of the alternating optimization procedure. Empirical results on datasets with semantic labels illustrate that COSDISH can outperform the state-of-the-art methods in real applications like image retrieval.~
