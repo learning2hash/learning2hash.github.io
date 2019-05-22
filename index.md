@@ -7,9 +7,9 @@ title: A Primer on Machine Learning Models for Hashing-Based Approximate Nearevs
 
 *Nearest neighbour search* is the problem of finding the most similar data-points to a query in a large database, and is a fundamental operation that has found wide applicability in many fields, from Bioinformatics, through to Natural Language Processing (NLP) and Computer Vision. An obvious way of finding similar data-points would simply be to search through the entire dataset comparing each data-point to the query. Unfortunately, for most datasets of practical interest, particularly in the age of big-data and deep learning, this brute-force search is too computationally expensive and much more efficient search methods are required.
 
-This website provides curated links to a host of *approximate nearest neighbour search* (ANN) models that permit constant-time retrieval of nearest neighbours, independent of the dataset size. Typically these algorithms generate similar binary hashcodes for similar data-points, with these hashcodes then used as the indices into the buckets of hashtables, yielding a query time that is substantially improved over an exhaustive comparison. The only downside to these models is they might not return the closest nearest neighbour every time, which is usually an acceptable trade-off in practice. We give a particular focus here on recently proposed approximate nearest neighbour search models that improve retrieval effectiveness by learning *task specific* binary hashcodes.
+Learning2hash provides curated links to a host of *approximate nearest neighbour search* (ANN) models that permit constant-time retrieval of nearest neighbours, independent of the dataset size. Typically these algorithms generate similar binary hashcodes for similar data-points, with these hashcodes then used as the indices into the buckets of hashtables, yielding a query time that is substantially improved over an exhaustive comparison. The only downside to these models is they might not return the closest nearest neighbour every time, which is usually an acceptable trade-off in practice. We give a particular focus here on recently proposed approximate nearest neighbour search models that improve retrieval effectiveness by learning *task specific* binary hashcodes.
 
-This website is in essence a *living literature review* that allows you explore the navigate the models in the field following a [taxonomy](\base-taxonomy) based on the fundamental properties of each model. New models can be added to this website by anyone simply by making a GitHub pull request (see *Contributing* below).
+Learning2hash is in essence a *living literature review* that allows you explore the navigate the models in the field following a [taxonomy](\base-taxonomy) based on the fundamental properties of each model. New models can be added to this website by anyone simply by making a GitHub pull request (see *Contributing* below).
 
 ### Survey Paper
 
@@ -29,6 +29,8 @@ The full survey is available [as a research paper](http://seanjmoran.com/pdfs/ha
 Please also see the excellent [tutorial slides](https://cs.nju.edu.cn/lwj/slides/L2H.pdf) of [Dr. Wu-Jun Li](https://cs.nju.edu.cn/lwj/) for a nice introduction to the field.
 
 [Dr Victor Lavrenko](https://www.youtube.com/user/victorlavrenko) has two excellent youtube videos [here](https://www.youtube.com/watch?v=Arni-zkqMBA) and [here](https://www.youtube.com/watch?v=dgH0NP8Qxa8), describing the basics of locality sensitive hashing (LSH). These are ideal for those just entering the field or curious how to apply the method to their problem domain.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Arni-zkqMBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 There are also alternative survey papers which are complementary to this one and take a different approach to summarising available research. The reader is encouraged to further explore the following publications:
 
