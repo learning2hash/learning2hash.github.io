@@ -58,6 +58,8 @@
 - {bibkey: wiki2010new, categories: [dataset], name: WIKI, modality: Image/Text, size: 2669, features: 128 dimensional SIFT (image) - 10 dimensional LDA topics (text)}
 
 # Unsupervised Projection Models
+
+- {bibkey: xu2015convolutional, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: xu2013harmonious, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Variance Balance}
 - {bibkey: kong2012cusing, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Variance Balance}
 - {bibkey: gong2011using, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Variance Balance}
