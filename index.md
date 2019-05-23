@@ -3,7 +3,7 @@ layout: default
 title: A Primer on Machine Learning Models for Hashing-Based Approximate Nearevst Neighbour Search
 ---
 
-### Learning-to-Hash for Nearest Neighbour Search
+# Learning-to-Hash for Nearest Neighbour Search
 
 **Don't see your paper listed? This website accepts reader contributions! Please see [these instructions for contributing](contributing.html)**
 
