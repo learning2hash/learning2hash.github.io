@@ -3,9 +3,11 @@ layout: default
 title: A Primer on Machine Learning Models for Hashing-Based Approximate Nearevst Neighbour Search
 ---
 
-# Learning-to-Hash for Nearest Neighbour Search
+# A Living Literature Review of Learning-to-Hash for Nearest Neighbour Search (learning2hash)
 
 **Don't see your paper listed? A paper missing that you think really should be listed here? This website accepts reader contributions! Please see [these instructions for contributing](contributing.html)**
+
+Welcome, you've found one of the internet's most comprehensive surveys on the exciting and fast changing field of learning-to-hash! With [Jeff Dean's](https://twitter.com/jeffdean/status/1063679694283857920?lang=en) recent keynote at [NeuriPS 2018](https://nips.cc/Conferences/2018), learned [index structures](https://dl.acm.org/citation.cfm?id=3196909) of which learning-to-hash is an important sub-field, is gaining more prominence in the research literature. We have put together this website to help researchers learn about, share and more easily discover recent work in the field. If you've enjoyed this resource we'd be happy to hear from you.
 
 *Nearest neighbour search* is the problem of finding the most similar data-points to a query in a large database, and is a fundamental operation that has found wide applicability in many fields, from Bioinformatics, through to Natural Language Processing (NLP) and Computer Vision. An obvious way of finding similar data-points would simply be to search through the entire dataset comparing each data-point to the query. Unfortunately, for most datasets of practical interest, particularly in the age of big-data and deep learning, this brute-force search is too computationally expensive and much more efficient search methods are required.
 
