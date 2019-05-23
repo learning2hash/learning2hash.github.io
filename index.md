@@ -7,7 +7,7 @@ title: A Primer on Machine Learning Models for Hashing-Based Approximate Nearevs
 
 **Don't see your paper listed? A paper missing that you think really should be listed here? This website accepts reader contributions! Please see [these instructions for contributing](contributing.html)**
 
-### Welcome
+### Welcome to this living literature review!
 
 Welcome, you've found one of the internet's most comprehensive survey's on the exciting and fast changing field of learning-to-hash! With [Jeff Dean's](https://twitter.com/jeffdean/status/1063679694283857920?lang=en) recent keynote at [NeurIPS 2018](https://nips.cc/Conferences/2018), learned [index structures](https://dl.acm.org/citation.cfm?id=3196909) of which learning-to-hash is an important sub-field, are gaining much more prominence in the research literature. We have put together this website to help researchers learn about, share and more easily discover recent work in the field. If you've enjoyed this resource or have feedback [we'd](mailto:sean.j.moran@gmail.com) be happy to hear from you.
 
