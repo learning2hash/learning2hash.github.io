@@ -6,7 +6,8 @@
 - {bibkey: kong2012ausing, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: K-Means, thresholds: 3+, type: Unsupervised}
 - {bibkey: kong2012busing, categories: [quantisation], codebook: Binary, optimisation: Squared Error Minimisation, thresholds: 2, type: Unsupervised}
 - {bibkey: wang2015hamming, categories: [quantisation], codebook: Binary, optimisation: Squared Error Minimisation, thresholds: 2, type: Unsupervised}
-- {bibkey: wang2016affinity, categories: [quantisation], codebook: Binary, optimisation: K-Means, thresholds: N/A, type: Unsupervised}
+- {bibkey: wang2016affinity, categories: [quantisation], codebook: Binary, optimisation: K-Means, thresholds: N/A, type: Unsupervised
+- {bibkey: cao2016deep, categories: [quantisation], codebook: Binary, optimisation: Backpropagation, thresholds: N/A, type: Supervised}
 
 # Supervised Projection Models
 - {bibkey: cakir2019hashing, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Listwise Mutual Information loss}
@@ -48,6 +49,7 @@
 - {bibkey: xu2015convolutional, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: lin2015deep, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: zhu2016deep, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
+- {bibkey: cao2016deep, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
