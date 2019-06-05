@@ -89,6 +89,7 @@
 - {bibkey: jiang2015scalable, categories: [unsupervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Unimodal}
 - {bibkey: rastegari2016xnor, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: leng2015hashing, categories: [unsupervised], codebook: Binary, optimisation: Alternate Optimisation, type: Shallow, modality: Unimodal}
+- {bibkey: mukherjee2015nmf, categories: [unsupervised], codebook: Binary, optimisation: Augmented Lagrangian, type: Shallow, modality: Unimodal}
  
 # Data-Independent Projection Models
 - {bibkey: petrovic2010streaming, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
