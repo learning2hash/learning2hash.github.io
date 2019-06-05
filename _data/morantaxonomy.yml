@@ -53,6 +53,7 @@
 - {bibkey: cao2016hashgan, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: lin2015semantics, categories: [supervised], codebook: Binary, optimisation: Kernel Logistics Regression, type: Shallow, modality: Cross-modal}
 - {bibkey: liu2015multi, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
+- {bibkey: wang2015semantic, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
