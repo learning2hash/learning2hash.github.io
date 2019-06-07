@@ -1,31 +1,32 @@
 ---
 layout: publication
-title: "Deep Quantization Network for Efficient Image Retrieval "
-authors: Yue Cao, Mingsheng Long, Jiamin Wang, Han Zhu, Qingfu Wen
-conference: AAAI
+title: "Deep Visual-Semantic Hashing for Cross-Modal Retrieval"
+authors: Yue Cao, Mingsheng Long, Jianmin Wang, Qiang Yang, Philip S. Yu
+conference: KDD
 year: 2016
 bibkey: cao2016deep
 additional_links:
-   - {name: "PDF", url: "http://yue-cao.me/doc/deep-quantization-networks-dqn-aaai16.pdf"}
-   - {name: "Code", url: "https://github.com/caoyue10/cvpr17-dvsq/tree/aaai16-dqn"}  
+   - {name: "PDF", url: "http://www.kdd.org/kdd2016/papers/files/rpp0086-caoA.pdf"}
 ---
-Hashing has been widely applied to approximate nearest neighbor search for large-scale multimedia retrieval.
-Supervised hashing improves the quality of hash coding
-by exploiting the semantic similarity on data pairs and
-has received increasing attention recently. For most existing supervised hashing methods for image retrieval,
-an image is first represented as a vector of hand-crafted
-or machine-learned features, then quantized by a separate quantization step that generates binary codes.
-However, suboptimal hash coding may be produced, since
-the quantization error is not statistically minimized and
-the feature representation is not optimally compatible
-with the hash coding. In this paper, we propose a novel
-Deep Quantization Network (DQN) architecture for supervised hashing, which learns image representation for
-hash coding and formally control the quantization error.
-The DQN model constitutes four key components: (1)
-a sub-network with multiple convolution-pooling layers
-to capture deep image representations; (2) a fully connected bottleneck layer to generate dimension-reduced
-representation optimal for hash coding; (3) a pairwise
-cosine loss layer for similarity-preserving learning; and
-(4) a product quantization loss for controlling hashing
-quality and the quantizability of bottleneck representation. Extensive experiments on standard image retrieval
-datasets show the proposed DQN model yields substantial boosts over latest state-of-the-art hashing methods.
+Due to the storage and retrieval efficiency, hashing has been
+widely applied to approximate nearest neighbor search for
+large-scale multimedia retrieval. Cross-modal hashing, which
+enables efficient retrieval of images in response to text queries
+or vice versa, has received increasing attention recently. Most
+existing work on cross-modal hashing does not capture the
+spatial dependency of images and temporal dynamics of text
+sentences for learning powerful feature representations and
+cross-modal embeddings that mitigate the heterogeneity of
+different modalities. This paper presents a new Deep VisualSemantic Hashing (DVSH) model that generates compact
+hash codes of images and sentences in an end-to-end deep
+learning architecture, which capture the intrinsic cross-modal
+correspondences between visual data and natural language.
+DVSH is a hybrid deep architecture that constitutes a visualsemantic fusion network for learning joint embedding space
+of images and text sentences, and two modality-specific hashing networks for learning hash functions to generate compact
+binary codes. Our architecture effectively unifies joint multimodal embedding and cross-modal hashing, which is based
+on a novel combination of Convolutional Neural Networks
+over images, Recurrent Neural Networks over sentences, and
+a structured max-margin objective that integrates all things
+together to enable learning of similarity-preserving and highquality hash codes. Extensive empirical evidence shows that
+our DVSH approach yields state of the art results in crossmodal retrieval experiments on image-sentences datasets,
+i.e. standard IAPR TC-12 and large-scale Microsoft COCO.
