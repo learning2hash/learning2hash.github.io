@@ -57,6 +57,7 @@
 - {bibkey: ding2015knn, categories: [supervised], codebook: Binary, optimisation: Gradient Descent, type: Shallow, modality: Unimodal}
 - {bibkey: song2015rank, categories: [supervised], codebook: Binary, optimisation: Stochastic Gradient Descent, type: Shallow, modality: Unimodal}
 - {bibkey: cao2016correlation, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Cross-modal}
+- {bibkey: cao2017correlation, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Cross-modal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
