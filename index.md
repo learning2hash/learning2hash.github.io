@@ -11,6 +11,8 @@ title: A Primer on Machine Learning Models for Hashing-Based Approximate Nearevs
 
 Welcome, you've found one of the internet's most comprehensive survey's on the exciting and fast changing field of learning-to-hash! With [Jeff Dean's](https://twitter.com/jeffdean/status/1063679694283857920?lang=en) recent keynote at [NeurIPS 2018](https://nips.cc/Conferences/2018), learned [index structures](https://dl.acm.org/citation.cfm?id=3196909) of which learning-to-hash is an important sub-field, are gaining much more prominence in the research literature. We have put together this website to help researchers learn about, share and more easily discover recent work in the field. If you've enjoyed this resource or have feedback [we'd](mailto:sean.j.moran@gmail.com) be happy to hear from you.
 
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### Background
 
 *[Nearest neighbour search](https://en.wikipedia.org/wiki/Nearest_neighbor_search)* is the problem of finding the most similar data-points to a query in a large database, and is a fundamental operation that has found wide applicability in many fields, from Bioinformatics, through to Natural Language Processing (NLP) and Computer Vision. An obvious way of finding similar data-points would simply be to search through the entire dataset comparing each data-point to the query. Unfortunately, for most datasets of practical interest, particularly in the age of big-data and deep learning, this brute-force search is too computationally expensive and much more efficient search methods are required.
@@ -53,3 +55,4 @@ Learning-to-hash is a vibrant research field and is rapidly evolving, particular
 ### Acknowledgements
 
 This website has been forked from the original living literature review of [Allamanis](https://ml4code.github.io).
+
