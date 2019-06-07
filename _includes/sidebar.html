@@ -11,7 +11,7 @@
 
   <nav class="sidebar-nav">
    <div class="sidebar-item"><p style="font-size: 12px">Search related work <input type='text' id='searchTarget' size="16"/> <button onClick="search();">Go</button></p></div>
-    <a class="sidebar-nav-item{% if page.url == papers.html %} active{% endif %}" href="/papers.html">All Papers</a>
+   <a class="sidebar-nav-item{% if page.url == papers.html %} active{% endif %}" href="/papers.html">All Papers</a>
 
    <a class="sidebar-nav-item" href="/base-taxonomy">Core Taxonomy</a>
    <a class="sidebar-nav-item-small" href="/base-taxonomy/quantisation.html">Quantisation Models</a>
@@ -46,3 +46,4 @@ function search() {
     window.location = "{% link papers.html %}#" + $("#searchTarget").val();
   }
 }
+</script>
