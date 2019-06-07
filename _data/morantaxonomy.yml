@@ -71,7 +71,7 @@
 - {bibkey: nuswide2009nuswide, categories: [dataset], name: NUSWIDE, modality: Image/Text, size: 269648, features: 500 dimensional BoW (image) - 5018 dimensional tags (text)}
 - {bibkey: tiny2008million, categories: [dataset], name: TINY100K, modality: Image, size: 100000, features: 384 dimensional GIST}
 - {bibkey: wiki2010new, categories: [dataset], name: WIKI, modality: Image/Text, size: 2669, features: 128 dimensional SIFT (image) - 10 dimensional LDA topics (text)}
-- {bibkey: coco2017new, categories: [dataset], name: MS-COCO, modality: Image/Text, size: 87783, features: RGB pixels (image) - 5 sentences per image (text)}
+- {bibkey: coco2014new, categories: [dataset], name: MS-COCO, modality: Image/Text, size: 87783, features: RGB pixels (image) - 5 sentences per image (text)}
 
 # Unsupervised Projection Models
 
