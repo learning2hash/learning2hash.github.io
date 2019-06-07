@@ -8,6 +8,7 @@
 - {bibkey: wang2015hamming, categories: [quantisation], codebook: Binary, optimisation: Squared Error Minimisation, thresholds: 2, type: Unsupervised}
 - {bibkey: wang2016affinity, categories: [quantisation], codebook: Binary, optimisation: K-Means, thresholds: N/A, type: Unsupervised}
 - {bibkey: cao2016deep, categories: [quantisation], codebook: Binary, optimisation: Backpropagation, thresholds: N/A, type: Supervised}
+- {bibkey: cao2017collective, categories: [quantisation], codebook: Binary, optimisation: Backpropagation, thresholds: N/A, type: Supervised}
 
 # Supervised Projection Models
 - {bibkey: cakir2019hashing, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Listwise Mutual Information loss}

@@ -1,0 +1,25 @@
+---
+layout: publication
+title: "Collective Deep Quantization for Efficient Cross-Modal Retrieval"
+authors: Yue Cao, Mingsheng Long, Jianmin Wang, Shichen Liu
+conference: AAAI
+year: 2017
+bibkey: cao2017collective
+additional_links:
+   - {name: "PDF", url: "http://yue-cao.me/doc/collective-deep-quantization-aaai17.pdf"}
+   - {name: "Code", url: "https://github.com/caoyue10/aaai17-cdq"}   
+---
+Cross-modal similarity retrieval is a problem about designing a retrieval system that supports querying across
+content modalities, e.g., using an image to retrieve for
+texts. This paper presents a compact coding solution for
+efficient cross-modal retrieval, with a focus on the quantization approach which has already shown the superior
+performance over the hashing solutions in single-modal
+similarity retrieval. We propose a collective deep quantization (CDQ) approach, which is the first attempt to
+introduce quantization in end-to-end deep architecture
+for cross-modal retrieval. The major contribution lies in
+jointly learning deep representations and the quantizers
+for both modalities using carefully-crafted hybrid networks and well-specified loss functions. In addition, our
+approach simultaneously learns the common quantizer
+codebook for both modalities through which the crossmodal correlation can be substantially enhanced. CDQ
+enables efficient and effective cross-modal retrieval using inner product distance computed based on the common codebook with fast distance table lookup. Extensive experiments show that CDQ yields state of the art
+cross-modal retrieval results on standard benchmarks.
