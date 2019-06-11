@@ -2,15 +2,6 @@
 layout: default
 title: A Primer on Machine Learning Models for Hashing-Based Approximate Nearevst Neighbour Search
 ---
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-109544763-1');
-</script>
 
 # A Living Literature Review of Learning-to-Hash for Nearest Neighbour Search
 
