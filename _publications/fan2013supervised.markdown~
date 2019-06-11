@@ -2,7 +2,7 @@
 layout: publication
 title: "Deep Incremental Hashing Network for Efficient Image Retrieval"
 authors: Dayan Wu, Qi Dai, Jing Liu, Bo Li, Weiping Wang
-conference: CVPR
+conference: 
 year: 2019
 bibkey: wu2019deep
 additional_links:
