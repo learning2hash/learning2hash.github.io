@@ -3,7 +3,7 @@ layout: default
 title: Resources on Machine Learning for Hashing
 ---
 
-### Survey Paper
+### Learning-to-Hash Survey Paper
 
 The full survey is available [as a research paper](http://seanjmoran.com/pdfs/hashing_review.pdf) currently under submission to a peer-reviewed journal. Full citation information will appear here in due course. In the meantime please cite the following thesis upon which the review is based:
 
@@ -29,5 +29,13 @@ There are also alternative survey papers which are complementary to this one and
 * [Learning to Hash for Indexing Big Data - A Survey](https://arxiv.org/pdf/1509.05472.pdf)
 * [A Survey on Learning to Hash](https://arxiv.org/pdf/1606.00185.pdf)
 * [Learning Binary Hash Codes for Large-Scale Image Search](http://www.cs.utexas.edu/~grauman/temp/GraumanFergus_Hashing_chapterdraft.pdf)
+
+### Courses
+A few university courses are been taught covering aspects of machine learning for code, big code or naturalnness of efficient computing. Below there are a few that have publicly available material.
+* [Extreme Computing](http://www.inf.ed.ac.uk/teaching/courses/exc/index_17-18.html) in University of Edinburgh.
+
+### Blog Posts
+Blog posts provide a great way to learn about cutting edge research and ideas. Here are a few of our favourites:
+* [Fast Near-Duplicate Image Search using Locality Sensitive Hashing](https://towardsdatascience.com/fast-near-duplicate-image-search-using-locality-sensitive-hashing-d4c16058efcb)
 
 Please, feel free to submit a pull request to adding more links in this page.
