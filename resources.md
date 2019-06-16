@@ -39,5 +39,6 @@ A few university courses are been taught covering aspects of machine learning fo
 Blog posts provide a great way to learn about cutting edge research and ideas. Here are a few of our favourites:
 * [Fast Near-Duplicate Image Search using Locality Sensitive Hashing](https://towardsdatascience.com/fast-near-duplicate-image-search-using-locality-sensitive-hashing-d4c16058efcb)
 * [An Introduction to Hashing in the Era of Machine Learning](https://blog.bradfieldcs.com/an-introduction-to-hashing-in-the-era-of-machine-learning-6039394549b0)
+* [Johnson–Lindenstrauss lemma](https://www.wikiwand.com/en/Johnson%E2%80%93Lindenstrauss_lemma)
 
 Please, feel free to submit a pull request to adding more links in this page.
