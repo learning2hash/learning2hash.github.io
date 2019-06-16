@@ -19,33 +19,6 @@ Learning2hash provides curated links to a host of *approximate nearest neighbour
 
 Learning2hash is in essence a *living literature review* that allows you explore the navigate the models in the field following a [taxonomy](\base-taxonomy) based on the fundamental properties of each model. New models can be added to this website by anyone simply by making a GitHub pull request (see *Contributing* below).
 
-### Survey Paper
-
-The full survey is available [as a research paper](http://seanjmoran.com/pdfs/hashing_review.pdf) currently under submission to a peer-reviewed journal. Full citation information will appear here in due course. In the meantime please cite the following thesis upon which the review is based:
-
-<pre>
-@phdthesis{Moran16,
-  author       = {Sean Moran}, 
-  title        = {Learning to hash for large-scale image retrieval},
-  school       = {University of Edinburgh},
-  year         = 2016,
-}
-</pre>
-
-### Additional Learning Resources
-
-Please also see the excellent [tutorial slides](https://cs.nju.edu.cn/lwj/slides/L2H.pdf) of [Dr. Wu-Jun Li](https://cs.nju.edu.cn/lwj/) for a nice introduction to the field.
-
-[Dr Victor Lavrenko](https://www.youtube.com/user/victorlavrenko) has two excellent youtube videos [here](https://www.youtube.com/watch?v=Arni-zkqMBA) and [here](https://www.youtube.com/watch?v=dgH0NP8Qxa8), describing the basics of locality sensitive hashing (LSH). These are ideal for those just entering the field or curious how to apply the method to their problem domain.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Arni-zkqMBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-There are also alternative survey papers which are complementary to this one and take a different approach to summarising available research. The reader is encouraged to further explore the following publications:
-
-* [Learning to Hash for Indexing Big Data - A Survey](https://arxiv.org/pdf/1509.05472.pdf)
-* [A Survey on Learning to Hash](https://arxiv.org/pdf/1606.00185.pdf)
-* [Learning Binary Hash Codes for Large-Scale Image Search](http://www.cs.utexas.edu/~grauman/temp/GraumanFergus_Hashing_chapterdraft.pdf)
-
 ### Contributing
 
 Learning-to-hash is a vibrant research field and is rapidly evolving, particularly with the recent surge in interest in deep neural network-based models. The purpose of this website is to augment the static literature review with a dynamic website that can be updated by any interested researcher with newly published work in the field, including links to relevant code and datasets. To add a new paper to the website simply create a markdown file and open a pull request in GitHub by following [these instructions for contributing](contributing.html).
