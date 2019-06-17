@@ -28,7 +28,7 @@ A simple way of finding similar data-points would simply be to search through th
 Given a query, we can search for similar data-points by generating a hashcode for the query and only comparing the query data-point to the data-points that collide with it in the same hashtable bucket. The principle here is that the number of data-points in the colliding hash table bucket should be much less than the total number of data-points in the entire dataset, yielding a query time that is substantially improved over a simple brute-force search. The only downside to these models is they might not return the closest nearest neighbour(s) every time (that is, we forgo a degree of accuracy), which is usually an acceptable trade-off in practice. 
 
 <p>
-<img src="hashing.png"
+<img src="/media/hashing.png"
      alt="Locality Sensitive Hashing (LSH)"
      style="float: left; margin-right: 10px;" />
 </p>
