@@ -15,10 +15,10 @@ With [Jeff Dean's](https://twitter.com/jeffdean/status/1063679694283857920?lang=
 
 *[Nearest neighbour search](https://en.wikipedia.org/wiki/Nearest_neighbor_search)* is the problem of finding the most similar data-points to a query in a large database of data-points, and is a fundamental operation that has found wide applicability in many fields, from Bioinformatics, through to Natural Language Processing (NLP) and Computer Vision. For example:
 
-* Genomics: locality sensitive hashing (LSH) is used by Biologists to identify similar gene expressions in large genomic databases.
-* [Image Retrieval](https://ai.google/research/pubs/pub34634): Google applies locality sensitive hashing alongside PageRank to index planet-scale collections of images.
+* [Genomics](https://www.ncbi.nlm.nih.gov/pubmed/26006009): locality sensitive hashing (LSH) is used by Biologists to assemble large genomes and to find genes with similar expression in genomic databases.
+* [Image Retrieval](https://ai.google/research/pubs/pub34634): Google applies locality sensitive hashing (LSH) alongside PageRank to index planet-scale collections of images.
 
-A simple way of finding similar data-points would simply be to search through the entire dataset comparing each data-point to the query. Unfortunately, for most datasets of practical interest, particularly in the age of big-data and deep learning, this brute-force search (O(N)) is too computationally expensive and much more efficient search methods are required.
+A simple way of finding similar data-points would simply be to search through the entire dataset comparing each database data-point to the query data-point. Unfortunately, for most datasets of practical interest, particularly in the age of big-data and deep learning, this brute-force search (O(N)) is too computationally expensive and much more efficient search methods are required.
 
 Learning2hash provides curated links to a host of *approximate nearest neighbour search* (ANN) models that permit sublinear-time (O(log N), where N are the number of data-points in the dataset) retrieval of nearest neighbours. Hashing models work by generating similar binary hashcodes for semantically similar data-points. These similarity preserving hashcodes can then be used to index the data-points (images, documents etc) into the buckets of a hashtable. Similar data-points should ideally end up in the same bucket of the hash table if we happen to have an effective hash function. 
 
