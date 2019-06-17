@@ -34,6 +34,7 @@ There are also alternative survey papers which are complementary to this one and
 ### Courses
 A few university courses are been taught covering aspects of machine learning for code, big code or naturalnness of efficient computing. Below there are a few that have publicly available material.
 * [Extreme Computing](http://www.inf.ed.ac.uk/teaching/courses/exc/index_17-18.html) in University of Edinburgh.
+* [Text Technologies for Data Science](https://www.inf.ed.ac.uk/teaching/courses/tts/) in University of Edinburgh.
 
 ### Blog Posts
 Blog posts provide a great way to learn about cutting edge research and ideas. Here are a few of our favourites:
