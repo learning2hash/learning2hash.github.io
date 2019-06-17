@@ -17,6 +17,7 @@ With [Jeff Dean's](https://twitter.com/jeffdean/status/1063679694283857920?lang=
 
 * [Genomics](https://www.ncbi.nlm.nih.gov/pubmed/26006009): locality sensitive hashing (LSH) is used by Biologists to assemble large genomes and to find genes with similar expression in genomic databases.
 * [Image Retrieval](https://ai.google/research/pubs/pub34634): Google applies locality sensitive hashing (LSH) alongside [PageRank](https://en.wikipedia.org/wiki/PageRank) to index planet-scale collections of images.
+* [Malware Detection](https://media.kaspersky.com/en/enterprise-security/Kaspersky-Lab-Whitepaper-Machine-Learning.pdf) Developers of anti-viral software use learning-to-has to quickly match a possibly malign code snippet to a database of known viruses.
 
 A simple way of finding similar data-points would simply be to search through the entire dataset comparing each database data-point to the query data-point. Unfortunately, for most datasets of practical interest, particularly in the age of big-data and deep learning, this brute-force search (O(N)) is too computationally expensive and much more efficient search methods are required.
 
