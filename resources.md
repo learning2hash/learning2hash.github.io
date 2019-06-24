@@ -49,15 +49,4 @@ Blog posts provide a great way to learn about cutting edge research and ideas. H
 
 Please, feel free to submit a pull request to adding more links in this page.
 
-</div></div></div><div class="easy_social_box clearfix horizontal easy_social_lang_und">
-            <div class="easy_social-widget easy_social-widget-twitter first"><a href="http://twitter.com/share" class="twitter-share-button"
-data-url="https://www.synpromics.com/news-media/lonza-chooses-synpromics-novel-inducible-promoter-platform-manufacture"
-data-count="horizontal"
-data-lang = "en"
-data-via=""
-data-related=":Check it out!"
-data-text="Lonza chooses Synpromics’ novel inducible promoter platform to manufacture biopharmaceuticals  ">Tweet</a></div>
-          <div class="easy_social-widget easy_social-widget-facebook"><iframe src="//www.facebook.com/plugins/like.php?locale=en_US&amp;href=https%3A//www.synpromics.com/news-media/lonza-chooses-synpromics-novel-inducible-promoter-platform-manufacture&amp;send=false&amp;layout=button_count&amp;width=88&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp;font=&amp;height=21&amp;appId=" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:88px; height:21px;" allowTransparency="true"></iframe></div>
-          <div class="easy_social-widget easy_social-widget-googleplus"><div class="g-plusone" data-size="medium" data-annotation="bubble" data-href="https://www.synpromics.com/news-media/lonza-chooses-synpromics-novel-inducible-promoter-platform-manufacture"></div></div>
-          <div class="easy_social-widget easy_social-widget-linkedin last"><script type="in/share" data-url="https://www.synpromics.com/news-media/lonza-chooses-synpromics-novel-inducible-promoter-platform-manufacture" data-counter="right"></script></div>
-  </div> <!-- /.easy_social_box -->
+<p><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
