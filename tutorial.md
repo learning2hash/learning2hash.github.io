@@ -13,10 +13,16 @@ We will index and search the [AudioSet](https://research.google.com/audioset/) d
 
 The dataset consists of over two million audio segments extracted from a collection of YouTube videos. For each audio snippet the VGG-inspired acoustic model of [Hershey et al.](https://ai.google/research/pubs/pub45611) was used to extract
 128 dimensional acoustic features. The feature vectors can be downloaded [here](https://research.google.com/audioset/download.html). Trusty wget can be used to download to your local computer. If you are in the EU, run the following command
-and then go and fetch yourself a cup of tea (total size 2.4Gb):
+and then go and fetch yourself a cup, or many cups of tea (total size 2.4Gb, an hour or two on a fast internet connection):
 
 ```linux
 wget http://storage.googleapis.com/eu_audioset/youtube_corpus/v1/features/features.tar.gz
+```
+
+To restart a partial or interrupted download you can use the -c flag:
+
+```linux
+wget -c http://storage.googleapis.com/eu_audioset/youtube_corpus/v1/features/features.tar.gz
 ```
 
 The dataset comes in the format of Tensorflow [TFRecord](https://www.tensorflow.org/tutorials/load_data/tf_records) files. Our first steps to make
@@ -27,4 +33,7 @@ the dataset useable for our purposes will be:
 3. Identify the training, validation and test segments
 4. Save the training, validation and test segments in separate Numpy (.npy) files.
 
+The training dataset will act as the database that we will index with LSH. The validation dataset is handy for determining the main LSH parameters
+(L, the number of hashtables and K, the number of bits per hash key). The test dataset will form our queries that will be used to return matches
+from the database. For a given query sound (e.g. a bird song) we hope similar sounds from the database will be returned!
 
