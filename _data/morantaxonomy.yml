@@ -69,6 +69,7 @@
 - {bibkey: li2015birds, categories: [supervised], codebook: Binary, optimisation: Block Coordinate Descent, type: Shallow, modality: Unimodal}
 - {bibkey: cao2018cauchy, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: qiu2017deep, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
+- {bibkey: cao2017hashnet, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
