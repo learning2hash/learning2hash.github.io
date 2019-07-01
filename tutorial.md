@@ -5,9 +5,18 @@ title: Tutorial on Locality Sensitive Hashing (LSH) for Audio Indexing and Retri
 
 ## Audio Indexing with Locality Sensitive Hashing (LSH)
 
-Most of the time, to really understand a new technique, its good to just dive straight into coding it up and applying the method to an interesting dataset. In this tutorial we will code our own custom implementation of locality sensitive hashing (LSH) for the *cosine* and *euclidean distances* and evaluate the quality and speed of retrieval compared to a brute-force approach.
+### Getting our hands dirty
 
-#### Obtaining and pre-processing the dataset
+Most of the time, to really understand a new technique, it's a good idea to just dive straight into coding it up and applying the method to an interesting dataset. In this tutorial we will code our own custom implementation of locality sensitive hashing (LSH) for the [cosine]() and *euclidean distances](https://en.wikipedia.org/wiki/Euclidean_distance) and evaluate the quality and speed of retrieval compared to a brute-force approach.
+Once you've completed this tutorial you'll be in a position to wield the power of LSH on any type of dataset of your choice, and you'll be in a great position to start exploring [state-of-the-art methods)[https://learning2hash.github.io/papers.html] that learn the distribution of data when indexing the database.
+
+Specifically we will investigate, and seek answers to the following questions:
+
+1. Which LSH parameters are optimal for the audio retrieval?
+2. Can we outperform brute-force search in terms of query-time, and if so by how much?
+3. How does the quality of nearest neighbours compare to brute-force search?
+
+### Obtaining and pre-processing the dataset
 
 We will index and search the [AudioSet](https://research.google.com/audioset/) dataset kindly provided by Google Research. Our goal is to find, for a query audio snippet, similar sounds from the database very very quickly.
 
@@ -34,6 +43,10 @@ the dataset useable for our purposes will be:
 4. Save the training, validation and test segments in separate Numpy (.npy) files.
 
 The training dataset will act as the database that we will index with LSH. The validation dataset is handy for determining the main LSH parameters
-(L, the number of hashtables and K, the number of bits per hash key). The test dataset will form our queries that will be used to return matches
-from the database. For a given query sound (e.g. a bird song) we hope similar sounds from the database will be returned!
+(L, the number of hashtables and K, the number of bits per hash key). We will tune these later to maximise our performance metrics (recall and
+precision). The test dataset will form our queries that will be used to return matches
+from the database.
+
+For a given query sound (e.g. a bird song) we hope similar sounds from the database will be returned! Without further ado, let's get started on extracting
+our featureset!
 
