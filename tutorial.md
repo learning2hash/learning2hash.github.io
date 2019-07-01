@@ -8,6 +8,7 @@ title: Tutorial on Locality Sensitive Hashing (LSH) for Audio Indexing and Retri
 ### Getting our hands dirty
 
 Most of the time, to really understand a new technique, it's a good idea to just dive straight into coding it up and applying the method to an interesting dataset. In this tutorial we will code our own custom implementation of locality sensitive hashing (LSH) for the [cosine](https://en.wikipedia.org/wiki/Cosine_similarity) and [euclidean distances](https://en.wikipedia.org/wiki/Euclidean_distance) and evaluate the quality and speed of retrieval compared to a brute-force approach.
+
 We'll even go one step further and show how we can instill a degree of data-dependence into the hashcodes by [leveraging available labels](https://link.springer.com/chapter/10.1007/978-3-319-16354-3_15).
 
 No prior knowledge of acoustics is assumed.
