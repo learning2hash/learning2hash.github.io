@@ -42,7 +42,7 @@ For ease of explanation, our tool of choice in this tutorial will be [Python 3](
 
 We will index and search the [AudioSet](https://research.google.com/audioset/) dataset kindly provided by Google Research. Our goal is to find, for a query audio snippet, similar sounds from the database very very quickly.
 
-The dataset consists of over two million audio segments extracted from a collection of YouTube videos. For each audio snippet the VGG-inspired acoustic model of [Hershey et al.](https://ai.google/research/pubs/pub45611) was used to extract
+The dataset consists of over two million video audio segments extracted from a collection of YouTube videos. For each 1 second audio snippet the VGG-inspired acoustic model of [Hershey et al.](https://ai.google/research/pubs/pub45611) was used to extract
 128 dimensional acoustic features. The feature vectors can be downloaded [here](https://research.google.com/audioset/download.html). The trusty wget command can be used to download to your local computer. If you are in the EU, run the following command
 and then go and fetch yourself a cup, or many cups of tea (total size 2.4Gb, an hour or two on a fast internet connection):
 
@@ -112,8 +112,8 @@ fp1=np.memmap(features_filename, dtype='float32', mode-'w+', shape=(202439,128))
 
 ```
 
-#### DeepAggregationNet: Training a small neural network to aggregate 1 second audio embeddings to a 10 second word embedding
+#### DeepAggregationNet: Training a small neural network to aggregate 10, 1 second long audio embeddings to a single aggregate audio embedding
 
-For each 10 second long YouTube video, the AudioSet dataset provides 10 128 dimensional acoustic features (each segment represents 1 second of audio). To represent the entire video as one
+For each 10 second long YouTube video, the AudioSet dataset provides 10 seperate 128 dimensional acoustic features (each segment represents 1 second of audio). To represent the entire video as one
 embedding vector we will train a small neural network in PyTorch to aggregate the 10 word embeddings per video to give a single aggregate word embedding. Our weapon of choice here will be
 a convolutional neural network (CNN).
