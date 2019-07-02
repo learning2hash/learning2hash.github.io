@@ -110,7 +110,7 @@ onlyfiles=[join("./eval/", f) for f in listdir("./eval/") if isfile(join("./eval
 csv_file="./eval_metadata.csv"
 features_filename=path.join("./eval_features.npy")
 metadata_filename=path.join("./eval_metadata.csv")
-fp1=np.memmap(features_filename, dtype='float32', mode-'w+', shape=(202439,128))
+fp1=np.memmap(features_filename, dtype='float32', mode='w+', shape=(202439,128))
 
 with open(csv_file, 'w') as f:
 
@@ -154,8 +154,9 @@ with open(csv_file, 'w') as f:
 		 writer.writerow(metadata) # this writes the metadata to the metadata .csv file
 		 row+=1
 
-     print(row)
-     del fp1     # flush the data to the memory map
+     		 print(row)
+		 
+del fp1     # flush the data to the memory mapped file
 ```		 
 
 You can find the Python code for this feature extraction module [here](./tutorial/extract_features.py). If you're really short on time you can also find the extracted features [here](./tutorial), [here](./tutorial), [here](./tutorial) and [here](./tutorial/).
