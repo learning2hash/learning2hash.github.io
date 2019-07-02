@@ -73,7 +73,7 @@ our audio feature-set!
 #### Extracting data from the TFRecord files
 
 Having downloaded the feature files, we will have two directories (unbal and eval) containing many TFRecord files. The audio features and associated metadata are contained in those TFRecord
-files and our first task is to extract the data into .npy and .csv files that will be easier used within our Python code and other frameworks (PyTorch, Scikit-learn etc).
+files and our first task is to extract the data into .npy and .csv files that will be easier used within our Python code and other frameworks ([PyTorch](https://pytorch.org/), [Scikit-learn](https://scikit-learn.org/stable/) etc).
 
 The following code snippet performs the extraction, in this case for the eval features (simply uncomment the relevant lines to also extract the training data):
 
@@ -143,8 +143,17 @@ with open(csv_file, 'w') as f:
              '''
 	     Decoding the raw audio features (128 dimensional) associated with the video. 
 	     '''
-	     
-```
+	     embedding=[]
+	     for i in range(0,num_segment):
+	     	 hexembed=example.feature_lists.feature_list['audio_embedding'].feature[i].bytes_list.value[0].hex()
+		 embedding=[int(hexembed[i:i+2],16) for i in range (0, len(hexembed),2)]
+		 fp1[row,:]=embedding      # this writes the embedding to the feature .npy file
+		 writer.writerow(metadata) # this writes the metadata to the metadata .csv file
+		 row+=1
+
+     print(row)
+     del fp1     # flush the data to the memory map
+```		 
 
 #### DeepAggregationNet: Training a small neural network to aggregate 10, 1 second long audio embeddings to a single aggregate audio embedding
 
