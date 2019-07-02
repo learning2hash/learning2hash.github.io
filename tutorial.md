@@ -3,9 +3,9 @@ layout: default
 title: Tutorial on Locality Sensitive Hashing (LSH) for Audio Indexing and Retrieval
 ---
 
-## Audio Indexing with Locality Sensitive Hashing (LSH)
+# Audio Indexing with Locality Sensitive Hashing (LSH)
 
-In this tutorial we will build a high-performance system to quickly retrieve related YouTube videos in a databae of over 2 million videos based on discriminative features attracted from their audio channel (10 second audio snippet).
+In this tutorial we will build a high-performance system to quickly retrieve related YouTube videos in a databae of over 2 million videos. Retrieval will be based on discriminative features attracted from the audio channel of the videos (10 second audio snippet).
 
 ### Getting our hands dirty
 
@@ -19,9 +19,10 @@ Once you've completed this tutorial you'll also be in a position to wield the po
 
 Specifically we will investigate, and seek answers to the following questions:
 
-1. Which LSH parameters are optimal for audio retrieval?
-2. Can we outperform brute-force search in terms of query-time, and if so by how much?
-3. How does the quality of nearest neighbours compare to brute-force search?
+1. How do we effectively aggregate 1 second long audio embeddings to form a single audio embedding representing a 10 second long segment?
+2. Which LSH parameters are optimal for audio retrieval?
+3. Can we outperform brute-force search in terms of query-time, and if so by how much?
+4. How does the quality of nearest neighbours compare to brute-force search?
 
 For ease of explanation, our tool of choice in this tutorial will be [Python 3](https://www.python.org/download/releases/3.0/), however we should really code this in low-level C (with a Python wrapper perhaps) (future work!).
 
@@ -60,8 +61,8 @@ our audio feature-set!
 #### Extracting data from the TFRecord files
 
 Having downloaded the feature files, we will have two directories (unbal and eval) containing many TFRecord files. The audio features and associated metadata are contained in those TFRecord
-files and our first task is to extract the data into .npy and .csv files that will be easier used within our Python code and other frameworks (PyTorch, Scikit learn etc). The following code
-snipper performs the extraction, in this case for the eval features:
+files and our first task is to extract the data into .npy and .csv files that will be easier used within our Python code and other frameworks (PyTorch, Scikit-learn etc). The following code
+snippet performs the extraction, in this case for the eval features (simply uncomment the relevant lines to also extract the training data):
 
 ```Python
 '''
@@ -70,7 +71,21 @@ Code to read the Google Audioset dataset TFRecord format and create numpy featur
 To use this script please extract unbal_train and eval TFRecords to ./unbal_train and ./eval directories within the same directory as this script.
 '''
 
+import tensorflow as tf
+from os import listdir
+from os.path import isfile, join
+import numpy as np
+import os.path as path
+import csv
 
+'''
+Uncomment the following line to generate the unbalanced training dataset (our database)
+'''
+onlyfiles=[join("./unbal_train/", f) for f in listdir("./unbal_train/") if isfile(join("./unbal_train/", f))]
+csv_file="./train_metadata.csv"
+features_filename=path.join("./train_features.npy")
+metadata_filename=path.join("./train_metadata.csv")
+fp1=no.memmap(features_filename, dtype='float32', mode-'w+', shape=(20326484,128))
 ```
 
 #### Training a small neural network to aggregate 1 second audio embeddings to a 10 second word embedding
