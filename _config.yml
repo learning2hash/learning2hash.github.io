@@ -6,8 +6,6 @@ url:                 https://learning2hash.github.io
 baseurl:             ''
 disqus:
   shortname: sjmoran
-layout: default
-comments: true
 collections:
   publications:
     output: true
