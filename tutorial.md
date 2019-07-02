@@ -175,6 +175,8 @@ For each 10 second long YouTube video, the AudioSet dataset provides 10 separate
 embedding vector we will train a small neural network in PyTorch to aggregate the 10 word embeddings per video to give a single aggregate word embedding. Our weapon of choice here will be
 a convolutional neural network (CNN).
 
+{% if page.comments %}
+
 <div id="disqus_thread"></div>
 <script>
 
@@ -195,3 +197,4 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %}
