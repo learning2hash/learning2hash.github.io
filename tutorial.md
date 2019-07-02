@@ -158,12 +158,15 @@ with open(csv_file, 'w') as f:
 
 Having run this feature extraction code for the unbal_train and the test datasets you should end up with the following four data files:
 
-1. *train_features.npy:* 20,326,484 128 dimensional acoustic embedding vectors
-2. *train_metadata.csv:* 20,326,484 rows of metadata containing the video_id, start time, end time and class labels (1 or more). Each row relates to the same row in the train_features.npy file.
-3. *eval_features.npy:*  202,439 128 dimensional acoustic embedding vectors
-4. *eval_metadata.csv:* 202,439 rows of metadata. Each row relates to the same row in the eval_features.npy file.
+1. **train_features.npy:** 20,326,484 128 dimensional acoustic embedding vectors
+2. **train_metadata.csv:** 20,326,484 rows of metadata containing the video_id, start time, end time and class labels (1 or more). Each row relates to the same row in the train_features.npy file.
+3. **eval_features.npy:**  202,439 128 dimensional acoustic embedding vectors
+4. **eval_metadata.csv:** 202,439 rows of metadata. Each row relates to the same row in the eval_features.npy file.
 
 The metadata and features files are related for a given split: for example, the metadata for the feature vector in the 10th row of train_features.npy can be found on the 10th line of train_metadata.csv.
+
+We will now write a small amount of code to extract a small validation dataset from the training dataset. This will be used primarily for parameter tuning.
+
 
 #### DeepAggregationNet: Training a small neural network to aggregate 10, 1 second long audio embeddings to a single aggregate audio embedding
 
