@@ -7,6 +7,8 @@ title: Tutorial on Locality Sensitive Hashing (LSH) for Audio Indexing and Retri
 
 In this tutorial we will build a high-performance system to quickly retrieve related YouTube videos in a databae of over 2 million videos. Retrieval will be based on discriminative features attracted from the audio channel of the videos (10 second audio snippet).
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o0UkYQyz7Go" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ### Getting our hands dirty
 
 Most of the time, to really understand a new technique, it's a good idea to just dive straight into coding it up and applying the method to an interesting dataset. In this tutorial we will code our own custom implementation of locality sensitive hashing (LSH) for the [cosine](https://en.wikipedia.org/wiki/Cosine_similarity) and [euclidean distances](https://en.wikipedia.org/wiki/Euclidean_distance) and evaluate the quality and speed of retrieval compared to a brute-force approach.
