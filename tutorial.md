@@ -61,8 +61,9 @@ our audio feature-set!
 #### Extracting data from the TFRecord files
 
 Having downloaded the feature files, we will have two directories (unbal and eval) containing many TFRecord files. The audio features and associated metadata are contained in those TFRecord
-files and our first task is to extract the data into .npy and .csv files that will be easier used within our Python code and other frameworks (PyTorch, Scikit-learn etc). The following code
-snippet performs the extraction, in this case for the eval features (simply uncomment the relevant lines to also extract the training data):
+files and our first task is to extract the data into .npy and .csv files that will be easier used within our Python code and other frameworks (PyTorch, Scikit-learn etc).
+
+The following code snippet performs the extraction, in this case for the eval features (simply uncomment the relevant lines to also extract the training data):
 
 ```python
 '''
@@ -81,14 +82,25 @@ import csv
 '''
 Uncomment the following line to generate the unbalanced training dataset (our database)
 '''
-onlyfiles=[join("./unbal_train/", f) for f in listdir("./unbal_train/") if isfile(join("./unbal_train/", f))]
-csv_file="./train_metadata.csv"
-features_filename=path.join("./train_features.npy")
-metadata_filename=path.join("./train_metadata.csv")
-fp1=no.memmap(features_filename, dtype='float32', mode-'w+', shape=(20326484,128))
+#onlyfiles=[join("./unbal_train/", f) for f in listdir("./unbal_train/") if isfile(join("./unbal_train/", f))]
+#csv_file="./train_metadata.csv"
+#features_filename=path.join("./train_features.npy")
+#metadata_filename=path.join("./train_metadata.csv")
+#fp1=np.memmap(features_filename, dtype='float32', mode-'w+', shape=(20326484,128))
+
+'''
+Uncomment the following line to generate the query dataset (our query set)
+'''
+onlyfiles=[join("./eval/", f) for f in listdir("./eval/") if isfile(join("./eval/", f))]
+csv_file="./eval_metadata.csv"
+features_filename=path.join("./eval_features.npy")
+metadata_filename=path.join("./eval_metadata.csv")
+fp1=np.memmap(features_filename, dtype='float32', mode-'w+', shape=(202439,128))
+
+
 ```
 
-#### Training a small neural network to aggregate 1 second audio embeddings to a 10 second word embedding
+#### DeepAggregationNet: Training a small neural network to aggregate 1 second audio embeddings to a 10 second word embedding
 
 For each 10 second long YouTube video, the AudioSet dataset provides 10 128 dimensional acoustic features (each segment represents 1 second of audio). To represent the entire video as one
 embedding vector we will train a small neural network in PyTorch to aggregate the 10 word embeddings per video to give a single aggregate word embedding. Our weapon of choice here will be
