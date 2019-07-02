@@ -7,6 +7,10 @@ title: Tutorial on Locality Sensitive Hashing (LSH) for Audio Indexing and Retri
 
 In this tutorial we will build a high-performance system to quickly retrieve related YouTube videos in a database of over 2 million videos. Retrieval will be based on discriminative features extracted from the audio channel of the videos (10 second audio snippet).
 
+You can skip ahead to different parts of the content:
+
+[Part A: Extracting data from the TFRecord files](#part-a:-extracting-data-from-the-tfrecord-files)
+
 Some random videos from this large-scale [collection](https://research.google.com/audioset/) are included below:
 
 <iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/o0UkYQyz7Go" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -71,7 +75,7 @@ For a given query sound (e.g. a bird song) we hope similar sounds (and therfore 
 
 Without further ado, let's get started on extracting our audio feature-set!
 
-#### Extracting data from the TFRecord files
+#### Part A: Extracting data from the TFRecord files
 
 Having downloaded the feature files, we will have two directories (unbal and eval) containing many TFRecord files. The audio features and associated metadata are contained in those TFRecord
 files and our first task is to extract the data into .npy and .csv files that will be easier used within our Python code and other frameworks ([PyTorch](https://pytorch.org/), [Scikit-learn](https://scikit-learn.org/stable/) etc).
