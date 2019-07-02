@@ -5,12 +5,17 @@ title: Tutorial on Locality Sensitive Hashing (LSH) for Audio Indexing and Retri
 
 ## Audio Indexing with Locality Sensitive Hashing (LSH)
 
-In this tutorial we will build a high-performance system to quickly retrieve related YouTube videos in a databae of over 2 million videos. Retrieval will be based on discriminative features attracted from the audio channel of the videos (10 second audio snippet). Some random videos from this collection are included below:
+In this tutorial we will build a high-performance system to quickly retrieve related YouTube videos in a database of over 2 million videos. Retrieval will be based on discriminative features extracted from the audio channel of the videos (10 second audio snippet).
+
+Some random videos from this [collection](https://research.google.com/audioset/) are included below:
 
 <iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/o0UkYQyz7Go" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/o0UkYQyz7Go" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/o0UkYQyz7Go" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/o0UkYQyz7Go" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/obWlyVlIbXI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/YDbxVJEFyvI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/P_Tr82fXp54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/aBQ9m59MrWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/33eq2a2BeZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/BwSECmEnch0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 More information on the dataset characteristics can be found [here](https://research.google.com/audioset/dataset/index.html).
 
