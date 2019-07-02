@@ -5,6 +5,8 @@ title: Tutorial on Locality Sensitive Hashing (LSH) for Audio Indexing and Retri
 
 ## Audio Indexing with Locality Sensitive Hashing (LSH)
 
+In this tutorial we will build a high-performance system to quickly retrieve related YouTube videos in a databae of over 2 million videos based on discriminative features attracted from their audio channel (10 second audio snippet).
+
 ### Getting our hands dirty
 
 Most of the time, to really understand a new technique, it's a good idea to just dive straight into coding it up and applying the method to an interesting dataset. In this tutorial we will code our own custom implementation of locality sensitive hashing (LSH) for the [cosine](https://en.wikipedia.org/wiki/Cosine_similarity) and [euclidean distances](https://en.wikipedia.org/wiki/Euclidean_distance) and evaluate the quality and speed of retrieval compared to a brute-force approach.
@@ -17,7 +19,7 @@ Once you've completed this tutorial you'll also be in a position to wield the po
 
 Specifically we will investigate, and seek answers to the following questions:
 
-1. Which LSH parameters are optimal for audio segment retrieval?
+1. Which LSH parameters are optimal for audio retrieval?
 2. Can we outperform brute-force search in terms of query-time, and if so by how much?
 3. How does the quality of nearest neighbours compare to brute-force search?
 
@@ -41,19 +43,38 @@ To restart a partial or interrupted download you can use the -c flag:
 wget -c http://storage.googleapis.com/eu_audioset/youtube_corpus/v1/features/features.tar.gz
 ```
 
-The dataset comes in the format of Tensorflow [TFRecord](https://www.tensorflow.org/tutorials/load_data/tf_records) files. Our first steps to make
-the dataset useable for our purposes will be:
+The dataset comes in the format of Tensorflow [TFRecord](https://www.tensorflow.org/tutorials/load_data/tf_records) files. Our first steps to make the dataset useable for our purposes will be:
 
-1. Extract the audio features from the TFRecord files
-2. Extract the labels for each segment
-3. Identify the training, validation and test segments
-4. Save the training, validation and test segments in separate Numpy (.npy) files.
+1. Extract the 128 dimensional audio features from the TFRecord files and write to a numpy pickle file (.npy)
+2. Extract the relevant metadata for each audio segment (start time, end time, labels).
+3. Take a small portion (10%) of the training dataset and break out into an independent validation dataset (for parameter tuning)
 
 The training dataset will act as the database that we will index with LSH. The validation dataset is handy for determining the main LSH parameters
 (L, the number of hashtables and K, the number of bits per hash key). We will tune these later to maximise our performance metrics (recall and
 precision). The test dataset will form our queries that will be used to return matches
 from the database.
 
-For a given query sound (e.g. a bird song) we hope similar sounds from the database will be returned! Without further ado, let's get started on extracting
+For a given query sound (e.g. a bird song) we hope similar sounds (and therfore associated videos) from the database will be returned! Without further ado, let's get started on extracting
 our audio feature-set!
 
+#### Extracting data from the TFRecord files
+
+Having downloaded the feature files, we will have two directories (unbal and eval) containing many TFRecord files. The audio features and associated metadata are contained in those TFRecord
+files and our first task is to extract the data into .npy and .csv files that will be easier used within our Python code and other frameworks (PyTorch, Scikit learn etc). The following code
+snipper performs the extraction, in this case for the eval features:
+
+```Python
+'''
+Code to read the Google Audioset dataset TFRecord format and create numpy feature files and csv formatted metadata files for the training and test splits.
+
+To use this script please extract unbal_train and eval TFRecords to ./unbal_train and ./eval directories within the same directory as this script.
+'''
+
+
+```
+
+#### Training a small neural network to aggregate 1 second audio embeddings to a 10 second word embedding
+
+For each 10 second long YouTube video, the AudioSet dataset provides 10 128 dimensional acoustic features (each segment represents 1 second of audio). To represent the entire video as one
+embedding vector we will train a small neural network in PyTorch to aggregate the 10 word embeddings per video to give a single aggregate word embedding. Our weapon of choice here will be
+a convolutional neural network (CNN).
