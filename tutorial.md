@@ -7,7 +7,7 @@ title: Tutorial on Locality Sensitive Hashing (LSH) for Audio Indexing and Retri
 
 In this tutorial we will build a high-performance system to quickly retrieve related YouTube videos in a database of over 2 million videos. Retrieval will be based on discriminative features extracted from the audio channel of the videos (10 second audio snippet).
 
-Some random videos from this [collection](https://research.google.com/audioset/) are included below:
+Some random videos from this large-scale [collection](https://research.google.com/audioset/) are included below:
 
 <iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/o0UkYQyz7Go" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/obWlyVlIbXI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -40,7 +40,7 @@ For ease of explanation, our tool of choice in this tutorial will be [Python 3](
 
 ### Obtaining and pre-processing the AudioSet dataset
 
-We will index and search the [AudioSet](https://research.google.com/audioset/) dataset kindly provided by Google Research. Our goal is to find, for a query audio snippet, similar sounds from the database very very quickly.
+We will index and search the [AudioSet](https://research.google.com/audioset/) dataset kindly provided by [Google Research](https://ai.google/research/). Our goal is to find, for a query audio snippet, similar sounds from the database very very quickly.
 
 The dataset consists of over two million video audio segments extracted from a collection of YouTube videos. For each 1 second audio snippet the VGG-inspired acoustic model of [Hershey et al.](https://ai.google/research/pubs/pub45611) was used to extract
 128 dimensional acoustic features. The feature vectors can be downloaded [here](https://research.google.com/audioset/download.html). The trusty wget command can be used to download to your local computer. If you are in the EU, run the following command
@@ -109,7 +109,41 @@ features_filename=path.join("./eval_features.npy")
 metadata_filename=path.join("./eval_metadata.csv")
 fp1=np.memmap(features_filename, dtype='float32', mode-'w+', shape=(202439,128))
 
+with open(csv_file, 'w') as f:
 
+     writer = csv.writer(f, lineterminator='\n')
+     row=0
+
+     for file in onlyfiles:
+
+     	 record_iterator=tf.python_io.tf_record_iterator(file)
+
+	 for string_record in record_iterator:
+
+	     metadata=[]
+	     example = tf.train.SequenceExample()
+	     sample.ParseFromString(string_record)
+
+	     start_time_seconds = example.context.feature['start_time_seconds'].float_list.values[0]
+	     end_time_seconds = example.context.feature['end_time_seconds'].float_list.values[0]
+	     labels = example.context.feature['labels'].int64_list.value
+	     video_id = example.context.feature['video_id'].bytes_list.value[0].decode("utf-8")
+	     num_segment = len(example.feature_lists.feature_list['audio_embedding'].feature)
+
+	     metadata.append(str(video_id))
+	     metadata.append(start_time_seconds)
+	     metadata.append(end_time_seconds)
+
+	     '''
+	     The rest of metadata (after the first 3 elements, are the class labels (1 or more)
+	     '''
+	     for label in labels:
+	     	 metadata.append(label)
+
+             '''
+	     Decoding the raw audio features (128 dimensional) associated with the video. 
+	     '''
+	     
 ```
 
 #### DeepAggregationNet: Training a small neural network to aggregate 10, 1 second long audio embeddings to a single aggregate audio embedding
