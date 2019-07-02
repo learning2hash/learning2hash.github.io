@@ -15,11 +15,8 @@ Some random videos from this large-scale [collection](https://research.google.co
 <iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/P_Tr82fXp54" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/aBQ9m59MrWw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/33eq2a2BeZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe style="display:inline" width="100" height="75" src="https://www.youtube.com/embed/BwSECmEnch0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-More information on the dataset characteristics can be found [here](https://research.google.com/audioset/dataset/index.html).
-
-You can skip ahead to different parts of the Tutorial content:
+More information on the dataset characteristics can be found [here](https://research.google.com/audioset/dataset/index.html). You can skip ahead to different parts of the Tutorial content:
 
 [Part A: Extracting data from the TFRecord files](#part-a-extracting-data-from-the-tfrecord-files)
 
