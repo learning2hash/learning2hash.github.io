@@ -78,7 +78,7 @@ Without further ado, let's get started on extracting our audio feature-set!
 Having downloaded the feature files, we will have two directories (unbal and eval) containing many TFRecord files. The audio features and associated metadata are contained in those TFRecord
 files and our first task is to extract the data into .npy and .csv files that will be easier used within our Python code and other frameworks ([PyTorch](https://pytorch.org/), [Scikit-learn](https://scikit-learn.org/stable/) etc).
 
-The following code snippet performs the extraction, in this case for the eval features (simply uncomment the relevant lines to also extract the training data):
+The following code snippet performs the extraction, in this case for the eval features (simply uncomment the relevant lines to also extract the training data). You will need Python (2 or 3), Tensorflow (tested on v1.4) to run the code.
 
 ```python
 '''
@@ -158,7 +158,9 @@ with open(csv_file, 'w') as f:
      del fp1     # flush the data to the memory map
 ```		 
 
-Having run this feature extraction code for the unbal_train and the test datasets you should end up with the following four data files:
+You can find the Python code for this feature extraction module [here](./tutorial/extract_features.py). If you're really short on time you can also find the extracted features [here](./tutorial), [here](./tutorial), [here](./tutorial) and [here](./tutorial/).
+
+Having run this feature extraction code for the *unbal_train* and the *test* datasets you should end up with the following four data files:
 
 1. **train_features.npy:** 20,326,484 128 dimensional acoustic embedding vectors
 2. **train_metadata.csv:** 20,326,484 rows of metadata containing the video_id, start time, end time and class labels (1 or more). Each row relates to the same row in the train_features.npy file.
@@ -167,8 +169,7 @@ Having run this feature extraction code for the unbal_train and the test dataset
 
 The metadata and features files are related for a given split: for example, the metadata for the feature vector in the 10th row of train_features.npy can be found on the 10th line of train_metadata.csv.
 
-We will now write a small amount of code to extract a small validation dataset from the training dataset. This will be used primarily for parameter tuning.
-
+In the next step We will write some code to extract a small validation dataset from the training dataset. This will be used primarily for parameter tuning.
 
 #### DeepAggregationNet: Training a small neural network to aggregate 10, 1 second long audio embeddings to a single aggregate audio embedding
 
