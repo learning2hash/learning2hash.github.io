@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resources on Machine Learning for Hashing
-comments:true
+comments: true
 ---
 
 ### Learning-to-Hash Survey Paper
