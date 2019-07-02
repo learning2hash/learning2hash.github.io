@@ -159,7 +159,7 @@ with open(csv_file, 'w') as f:
 del fp1     # flush the data to the memory mapped file
 ```		 
 
-You can find the Python code for this feature extraction module [here](./tutorial/extract_features.py). If you're really short on time you can also find the extracted features [here](./tutorial), [here](./tutorial), [here](./tutorial) and [here](./tutorial/).
+You can find the Python code for this feature extraction module [here](/tutorial/extract_features.py). If you're really short on time you can also find the extracted features [here](./tutorial), [here](./tutorial), [here](./tutorial) and [here](./tutorial/).
 
 Having run this feature extraction code for the *unbal_train* and the *test* datasets you should end up with the following four data files:
 
