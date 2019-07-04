@@ -121,3 +121,4 @@
 - {bibkey: andoni2015practical, categories: [independent], type: Shallow, codebook: Binary, optimisation: Randomly Rotated Cross-Polytopes}
 - {bibkey: shrivastava2014densifying, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Permutations}
 - {bibkey: shrivastava2014asymmetric, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
+- {bibkey: bawa2005forest, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
