@@ -6,6 +6,8 @@ comments: true
 
 ## Audio Indexing with Locality Sensitive Hashing (LSH)
 
+Note: July 2019: this tutortial is currently under active development and new material will appear here weekly.
+
 In this tutorial we will build a high-performance system to quickly retrieve related YouTube videos in a database of over 2 million videos. Retrieval will be based on discriminative features extracted from the audio channel of the videos (10 second audio snippet).
 
 Some random videos from this large-scale [collection](https://research.google.com/audioset/) are included below:
