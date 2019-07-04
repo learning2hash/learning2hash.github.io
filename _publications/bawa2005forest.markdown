@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "LSH Forest: Self-Tuning Indexes for Similarity Search"
-authors: Mayank Bawa, Tyson Condie, Prasanna Ganesan
+authors: M. Bawa, T. Condie, P. Ganesan
 conference: WWW
 year: 2005
 bibkey: bawa2005forest
