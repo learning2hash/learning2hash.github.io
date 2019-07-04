@@ -1,0 +1,31 @@
+---
+layout: publication
+title: "Multi-Probe LSH: Efficient Indexing for High-Dimensional Similarity Search"
+authors: Q. Lv, W. Josephson, Z. Wang, M. Charikar, K. Li
+conference: VLDB
+year: 2007
+bibkey: lv2007probe
+additional_links:
+   - {name: "PDF", url: "http://www.cs.princeton.edu/cass/papers/mplsh_vldb07.pdf"}
+   - {name: "Code", url: "http://lshkit.sourceforge.net/"}   
+---
+Similarity indices for high-dimensional data are very desirable for building content-based search systems for featurerich data such as audio, images, videos, and other sensor
+data. Recently, locality sensitive hashing (LSH) and its
+variations have been proposed as indexing techniques for
+approximate similarity search. A significant drawback of
+these approaches is the requirement for a large number of
+hash tables in order to achieve good search quality. This paper proposes a new indexing scheme called multi-probe LSH
+that overcomes this drawback. Multi-probe LSH is built on
+the well-known LSH technique, but it intelligently probes
+multiple buckets that are likely to contain query results in
+a hash table. Our method is inspired by and improves upon
+recent theoretical work on entropy-based LSH designed to
+reduce the space requirement of the basic LSH method. We
+have implemented the multi-probe LSH method and evaluated the implementation with two different high-dimensional
+datasets. Our evaluation shows that the multi-probe LSH
+method substantially improves upon previously proposed
+methods in both space and time efficiency. To achieve the
+same search quality, multi-probe LSH has a similar timeefficiency as the basic LSH method while reducing the number of hash tables by an order of magnitude. In comparison
+with the entropy-based LSH method, to achieve the same
+search quality, multi-probe LSH uses less query time and 5
+to 8 times fewer number of hash tables.
