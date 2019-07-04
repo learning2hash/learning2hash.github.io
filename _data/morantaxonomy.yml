@@ -122,3 +122,4 @@
 - {bibkey: shrivastava2014densifying, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Permutations}
 - {bibkey: shrivastava2014asymmetric, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
 - {bibkey: bawa2005forest, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
+- {bibkey: lv2007probe, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
