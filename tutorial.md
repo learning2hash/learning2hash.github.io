@@ -44,7 +44,7 @@ Specifically we will investigate, and seek answers to the following questions:
 3. Can we outperform brute-force search in terms of query-time, and if so by how much?
 4. How does the quality of nearest neighbours compare to brute-force search?
 
-For ease of explanation, our tool of choice in this tutorial will be [Python 3](https://www.python.org/download/releases/3.0/), however we should really code this in low-level C (with a Python wrapper perhaps) (future work!).
+For ease of explanation, our tool of choice in this tutorial will be [Python 2.7](https://www.python.org/download/releases/2.7/), however we should really code this in low-level C (with a Python wrapper perhaps) (future work!).
 
 ### Obtaining and pre-processing the AudioSet dataset
 
@@ -84,7 +84,7 @@ Without further ado, let's get started on extracting our audio feature-set!
 Having downloaded the feature files, we will have two directories (unbal and eval) containing many TFRecord files. The audio features and associated metadata are contained in those TFRecord
 files and our first task is to extract the data into .npy and .csv files that will be easier used within our Python code and other frameworks ([PyTorch](https://pytorch.org/), [Scikit-learn](https://scikit-learn.org/stable/) etc).
 
-The following code snippet performs the extraction, in this case for the eval features (simply uncomment the relevant lines to also extract the training data). You will need Python (2 or 3), Tensorflow (tested on v1.4) to run the code.
+The following code snippet performs the extraction, in this case for the eval features (simply uncomment the relevant lines to also extract the training data). You will need Python (2.7), Tensorflow (tested on v1.4) to run the code.
 
 ```python
 '''
