@@ -1,6 +1,6 @@
 # Setup
 title:                Learning-to-Hash
-tagline:             'a survey'
+tagline:             'A Living Literature Review of Learning-to-Hash for Nearest Neighbour Search'
 description:         'A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. This website contains easily searchable abstracts, links to papers and code, suggestions for additional educational resources (blogs, videos, courses) and a tutorial on audio indexing. Readers can contribute to the website by issuing a Github pull request.'
 url:                 https://learning2hash.github.io
 baseurl:             ''
