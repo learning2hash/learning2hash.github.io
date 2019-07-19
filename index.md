@@ -12,7 +12,8 @@ With [Jeff Dean's](https://twitter.com/jeffdean/status/1063679694283857920?lang=
 
 To address these exciting advances, we have put together this website to help researchers learn about, share and more easily discover recent work in the field. Learning2hash is a *living literature review* that allows the reader to explore models in the field following a [taxonomy](\base-taxonomy) based on the fundamental model properties. New models can be added to this website by anyone simply by making a GitHub pull request [see *Contributing* below](contributing.html). Select ["All Papers"](https://learning2hash.github.io/papers.html) on the right-hand menu to get started.
 
-#### Browse Papers by Tag
+### Browse Papers by Tag
+
 {% assign rawtags = Array.new %}
 {% for publication in site.publications %}
   {% assign ttags = publication.tags  %}  
