@@ -13,18 +13,18 @@
    <div class="sidebar-item"><p style="font-size: 12px">Search related work <input type='text' id='searchTarget' size="16"/> <button onClick="search();">Go</button></p></div>
    <a class="sidebar-nav-item{% if page.url == papers.html %} active{% endif %}" href="/papers.html">All Papers</a>
 
-   <a class="sidebar-nav-item" href="/base-taxonomy">Core Taxonomy</a>
-   <a class="sidebar-nav-item-small" href="/base-taxonomy/quantisation.html">Quantisation Models</a>
-   <a class="sidebar-nav-item-small" href="/base-taxonomy/supervised.html">Supervised Projection Models</a>
-   <a class="sidebar-nav-item-small" href="/base-taxonomy/unsupervised.html">Unsupervised Projection Models</a></ul>
-   <a class="sidebar-nav-item-small" href="/base-taxonomy/independent.html">Data Independent Projection Models</a></ul>
-   </li>
+   <a class="sidebar-nav-item{% if page.url == "/base-taxonomy/" %} active{% endif %}" href="{% link base-taxonomy/index.md %}">Core Taxonomy</a>
+
+   <a class="sidebar-nav-item-small" href="{% link base-taxonomy/quantisation.html %}">Quantisation Models</a>
+   <a class="sidebar-nav-item-small" href="{% link base-taxonomy/supervised.html %}">Supervised Projection Models</a>
+   <a class="sidebar-nav-item-small" href="{% link base-taxonomy/unsupervised.html %}">Unsupervised Projection Models</a></ul>
+   <a class="sidebar-nav-item-small" href="{% link base-taxonomy/independent.html %}">Data Independent Projection Models</a></ul>
 
   <a class="sidebar-nav-item{% if page.url == datasets.html %} active{% endif %}" href="/base-taxonomy/datasets.html">Datasets</a>
   <a class="sidebar-nav-item{% if page.url == "/resources.html" %} active{% endif %}" href="{% link resources.md %}">Resources, Courses &#38; Events</a>
   <a class="sidebar-nav-item{% if page.url == "/resources.html" %} active{% endif %}" href="{% link tutorial.md %}">LSH Tutorial (in Python)</a>
-  <a class="sidebar-nav-item{% if page.url == contributing.html %} active{% endif %}" href="/contributing.html">Contributing</a>
-  <a class="sidebar-nav-item{% if page.url == contributors.html %} active{% endif %}" href="/contributors.html">Contributors</a>
+  <a class="sidebar-nav-item{% if page.url == contributing.html %} active{% endif %}" href="{% link contributing.markdown %}">Contributing</a>
+  <a class="sidebar-nav-item{% if page.url == contributors.html %} active{% endif %}" href="{% link contributors.md %}">Contributors</a>
 
 </nav>
 
