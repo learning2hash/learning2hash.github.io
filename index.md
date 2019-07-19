@@ -12,6 +12,15 @@ With [Jeff Dean's](https://twitter.com/jeffdean/status/1063679694283857920?lang=
 
 To address these exciting advances, we have put together this website to help researchers learn about, share and more easily discover recent work in the field. Learning2hash is a *living literature review* that allows the reader to explore models in the field following a [taxonomy](\base-taxonomy) based on the fundamental model properties. New models can be added to this website by anyone simply by making a GitHub pull request [see *Contributing* below](contributing.html). Select ["All Papers"](https://learning2hash.github.io/papers.html) on the right-hand menu to get started.
 
+#### Browse Papers by Tag
+{% assign rawtags = Array.new %}
+{% for publication in site.publications %}
+  {% assign ttags = publication.tags  %}  
+  {% assign rawtags = rawtags | concat: ttags %}  
+{% endfor %}
+{% assign rawtags = rawtags | uniq | sort %}
+{% for tag in rawtags %}<tag><a href="/tags.html#{{ tag }}">{{ tag }}</a></tag> {% endfor %}
+
 ### Background
 
 *[Nearest neighbour search](https://en.wikipedia.org/wiki/Nearest_neighbor_search)* is the problem of finding the most similar data-points to a query in a large database of data-points, and is a fundamental operation that has found wide applicability in many fields, from Bioinformatics, through to Natural Language Processing (NLP) and Computer Vision. Some interesting applications include:
