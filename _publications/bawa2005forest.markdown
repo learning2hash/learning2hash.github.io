@@ -8,7 +8,7 @@ bibkey: bawa2005forest
 additional_links:
    - {name: "PDF", url: "http://infolab.stanford.edu/~bawa/Pub/similarity.pdf"}
    - {name: "Code", url: "http://lshkit.sourceforge.net/"}   
-tags: ["Forest","WWW", "LSH", "Skewed data"]
+tags: ["Forest","WWW", "LSH", "Skewed Data"]
 ---
 We consider the problem of indexing high-dimensional data for answering (approximate) similarity-search queries. Similarity indexes prove to be important in a wide variety of settings: Web search
 engines desire fast, parallel, main-memory-based indexes for similarity search on text data; database systems desire disk-based similarity indexes for high-dimensional data, including text and images;
