@@ -1,4 +1,4 @@
-# learning2hash
+# Primer on Learning to Hash for Approximate Nearest Neighbour Search
 
 ## A living literature review for the Learning to Hash field
 
