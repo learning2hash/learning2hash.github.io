@@ -48,6 +48,8 @@ Blog posts provide a great way to learn about cutting edge research and ideas. H
 * [Locality Sensitive Hashing: An effective way of reducing the dimensionality of your data](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
 * [Johnson–Lindenstrauss lemma](https://www.wikiwand.com/en/Johnson%E2%80%93Lindenstrauss_lemma)
 * [LSH Ideas](http://rakaposhi.eas.asu.edu/s01-cse494-mailarchive/msg00054.html)
+* [Introduction to Locality-Sensitive Hashing](http://tylerneylon.com/a/lsh1/)
+* [What is locality-sensitive hashing?](https://www.quora.com/What-is-locality-sensitive-hashing)
 
 Please, feel free to submit a pull request to adding more links in this page.
 
