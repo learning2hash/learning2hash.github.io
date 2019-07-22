@@ -7,6 +7,7 @@ year: 2016
 bibkey: cao2016deep
 additional_links:
    - {name: "PDF", url: "http://www.kdd.org/kdd2016/papers/files/rpp0086-caoA.pdf"}
+tags: ["Deep","Cross-Modal", "Convolutional Neural Network", "Recurrent Neural Network", "Structured Max-Margin"]
 ---
 Due to the storage and retrieval efficiency, hashing has been
 widely applied to approximate nearest neighbor search for
@@ -17,11 +18,11 @@ existing work on cross-modal hashing does not capture the
 spatial dependency of images and temporal dynamics of text
 sentences for learning powerful feature representations and
 cross-modal embeddings that mitigate the heterogeneity of
-different modalities. This paper presents a new Deep VisualSemantic Hashing (DVSH) model that generates compact
+different modalities. This paper presents a new Deep Visual Semantic Hashing (DVSH) model that generates compact
 hash codes of images and sentences in an end-to-end deep
 learning architecture, which capture the intrinsic cross-modal
 correspondences between visual data and natural language.
-DVSH is a hybrid deep architecture that constitutes a visualsemantic fusion network for learning joint embedding space
+DVSH is a hybrid deep architecture that constitutes a visual semantic fusion network for learning joint embedding space
 of images and text sentences, and two modality-specific hashing networks for learning hash functions to generate compact
 binary codes. Our architecture effectively unifies joint multimodal embedding and cross-modal hashing, which is based
 on a novel combination of Convolutional Neural Networks
