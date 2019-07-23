@@ -7,6 +7,7 @@ year: 2013
 bibkey: fan2013supervised
 additional_links:
    - {name: "Paper", url: "http://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Fan_Supervised_Binary_Hash_2013_ICCV_paper.pdf"}
+tags: ["Jensen Shannon Divergence", "ICCV"]
 ---
 This paper proposes to learn binary hash codes within
 a statistical learning framework, in which an upper bound
