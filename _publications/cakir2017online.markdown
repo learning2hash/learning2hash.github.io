@@ -8,6 +8,7 @@ bibkey: cakir2017online
 additional_links:
    - {name: "PDF", url: "https://arxiv.org/abs/1703.08919"}
    - {name: "Code", url: "https://github.com/fcakir/mihash"}
+tags: ["Online","Mutal Information", "Streaming Data", "Has Code", "ICCV"]
 ---
 Learning-based hashing methods are widely used for
 nearest neighbor retrieval, and recently, online hashing
