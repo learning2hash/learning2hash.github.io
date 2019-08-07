@@ -51,6 +51,14 @@ Blog posts provide a great way to learn about cutting edge research and ideas. H
 * [Introduction to Locality-Sensitive Hashing (nice visualisations!)](http://tylerneylon.com/a/lsh1/)
 * [What is locality-sensitive hashing?](https://www.quora.com/What-is-locality-sensitive-hashing)
 
+### Books
+
+Some favourite books on the general topic of large-scale machine learning:
+
+* [Mining of Massive Datasets](http://www.mmds.org/): great content throughout on all sorts of large-scale data mining topics from Hadoop to Google AdWords. Book includes a detailed treatment of LSH.
+
+* [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/information-retrieval-book.html): arguably a classic book on information retrieval basics, very well-written, with a comprehensive overview of data indexing and retrieval.
+
 Please, feel free to submit a pull request to adding more links in this page.
 
 {% if page.comments %}
