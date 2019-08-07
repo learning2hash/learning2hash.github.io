@@ -7,6 +7,7 @@ year: 2015
 bibkey: lai2015simultaneous
 additional_links:
    - {name: "PDF", url: "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lai_Simultaneous_Feature_Learning_2015_CVPR_paper.pdf"}
+tags: ["Deep". "Convolutional Neural Network", "CVPR"]
 ---
 Similarity-preserving hashing is a widely-used method
 for nearest neighbour search in large-scale image retrieval
