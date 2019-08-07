@@ -8,6 +8,7 @@ bibkey: jin2013complementary
 additional_links:
    - {name: "PDF", url: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.883.1565&rep=rep1&type=pdf"}
    - {name: "Code", url: "https://github.com/dengcai78/MatlabFunc/blob/master/ANNS/Hashing/Unsupervised/CPH.m"}
+tags: ["ICCV", "Multiple Hash Tables", "Has Code"]
 ---
 Recently, hashing techniques have been widely applied
 to solve the approximate nearest neighbors search problem
