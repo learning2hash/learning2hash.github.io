@@ -7,7 +7,7 @@ year: 2016
 bibkey: cao2016deep
 additional_links:
    - {name: "PDF", url: "http://www.kdd.org/kdd2016/papers/files/rpp0086-caoA.pdf"}
-tags: ["Deep","Cross-Modal", "Convolutional Neural Network", "Recurrent Neural Network", "Structured Max-Margin"]
+tags: ["Deep Learning","Cross-Modal", "Convolutional Neural Network", "Recurrent Neural Network", "Structured Max-Margin"]
 ---
 Due to the storage and retrieval efficiency, hashing has been
 widely applied to approximate nearest neighbor search for
