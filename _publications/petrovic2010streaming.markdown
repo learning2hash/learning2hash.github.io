@@ -7,6 +7,7 @@ year: 2010
 bibkey: petrovic2010streaming
 additional_links:
    - {name: "PDF", url: "http://homepages.inf.ed.ac.uk/miles/papers/naacl10a.pdf"}
+tags: ["Streaming Data", "Online", "Twitter", "Text Retrieval", "LSH"]
 ---
 With the recent rise in popularity and size of
 social media, there is a growing need for systems
