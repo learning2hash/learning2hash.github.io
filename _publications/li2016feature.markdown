@@ -8,6 +8,7 @@ bibkey: li2016feature
 additional_links:
    - {name: "PDF", url: "http://cs.nju.edu.cn/lwj/paper/IJCAI16_DPSH.pdf"}
    - {name: "Code", url: "http://cs.nju.edu.cn/lwj/code/DPSH.zip"}
+tags: ["IJCAI", "Deep Learning", "Has Code","Image Retrieval"]
 ---
 Recent years have witnessed wide application of
 hashing for large-scale image retrieval. However,
