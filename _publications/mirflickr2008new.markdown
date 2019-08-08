@@ -8,6 +8,7 @@ bibkey: mirflickr2008new
 additional_links:
    - {name: "URL", url: "http://press.liacs.nl/mirflickr/mirdownload.html"}
    - {name: "Features", "http://press.liacs.nl/mirflickr/mirflickr25k.v2/mirflickr25k.zip"}
+tags: ["Dataset"]
 ---
 In most well known image retrieval test sets, the imagery
 typically cannot be freely distributed or is not representative of a
