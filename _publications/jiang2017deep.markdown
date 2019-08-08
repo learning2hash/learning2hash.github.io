@@ -8,6 +8,7 @@ bibkey: jiang2017deep
 additional_links:
    - {name: "PDF", url: "https://cs.nju.edu.cn/lwj/paper/CVPR17_DCMH.pdf"}
    - {name: "Code", url: "https://cs.nju.edu.cn/lwj/code/DCMH_tensorflow.zip"}   
+tags: ["Cross-Modal","Deep Learning", "Image Retrieval", "Has Code"]
 ---
 Due to its low storage cost and fast query speed, crossmodal hashing (CMH) has been widely used for similarity
 search in multimedia retrieval applications. However, most
