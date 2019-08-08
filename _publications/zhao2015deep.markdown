@@ -7,6 +7,8 @@ year: 2015
 bibkey: zhao2015deep
 additional_links:
    - {name: "PDF", url: "http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zhao_Deep_Semantic_Ranking_2015_CVPR_paper.pdf"}
+tags: ["CVPR", "Deep Learning", "Ranking", "Multi-Label", "Image Retrieval"]
+
 ---
 With the rapid growth of web images, hashing has received
 increasing interests in large scale image retrieval.
