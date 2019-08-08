@@ -8,6 +8,7 @@ bibkey: gong2011using
 additional_links:
    - {name: "PDF", url: "http://slazebni.cs.illinois.edu/publications/cvpr11_small_code.pdf"}
    - {name: "Code", url: "https://github.com/norouzi/ckmeans/blob/master/itq/ITQ.m"}
+tags: ["Quantisation", "Unsupervised", "CVPR", "Image Retrieval", "Has Code"]
 ---
 This paper addresses the problem of learning similarity preserving binary codes for efficient retrieval in large-scale image collections. We propose a simple and efficient alternating minimization scheme for finding a rotation of zerocentered data so as to minimize the quantization error of
 mapping this data to the vertices of a zero-centered binary
