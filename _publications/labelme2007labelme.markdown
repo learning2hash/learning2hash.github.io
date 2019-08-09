@@ -10,6 +10,7 @@ additional_links:
    - {name: "PDF", url: "http://people.csail.mit.edu/brussell/research/AIM-2005-025-new.pdf"}
    - {name: "URL", url: "http://labelme2.csail.mit.edu/Release3.0/browserTools/php/publications.php"}
    - {name: "Features", url: "https://www.dropbox.com/s/dwixb9ry4zwvcp9/LabelMe_gist.mat?dl=0"}
+tags: ["Dataset"]
 ---
 We seek to build a large collection of images with ground truth labels to be used for object
 detection and recognition research. Such data is useful for supervised learning and quantitative evaluation. To achieve this, we developed a web-based tool that allows easy image annotation
