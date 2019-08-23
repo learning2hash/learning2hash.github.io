@@ -10,7 +10,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-
+future: true
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
