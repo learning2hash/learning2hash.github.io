@@ -17,6 +17,10 @@ The full literature survey that accompanies this website is available [as a rese
 }
 </pre>
 
+### Workshops
+
+* [Compact and Efficient Feature Representation and Learning in Computer Vision 2019](http://www.ee.oulu.fi/~lili/CEFRLatICCV2019.html): A number of efforts, such as compact binary features, DCNN network quantization and compression, energy efficient network architectures, binary hashing techniques and data efficient techniques like meta learning, have appeared at top conferences (including CVPR, ICCV, ECCV, NIPS and ICLR) and top journals (including TPAMI and IJCV). The workshop aims at stimulating computer vision researchers to discuss the next steps in this important research area.
+
 ### Presentations and Relevant Introductory Material
 
 Please also see the excellent [tutorial slides](https://cs.nju.edu.cn/lwj/slides/L2H.pdf) of [Dr. Wu-Jun Li](https://cs.nju.edu.cn/lwj/) for a nice introduction to the field.
