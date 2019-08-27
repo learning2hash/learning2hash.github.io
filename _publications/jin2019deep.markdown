@@ -7,6 +7,7 @@ year: 2019
 bibkey: jin2019deep
 additional_links:
    - {name: "PDF", url: "https://arxiv.org/pdf/1807.01459.pdf"}
+tags: ["Attention", "Deep Learning", "Arxiv", "Fine-Grained"]
 ---
 In recent years, hashing methods have been proved to be
 effective and efficient for the large-scale Web media search.
