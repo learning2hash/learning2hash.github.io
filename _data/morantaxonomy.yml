@@ -135,3 +135,6 @@
 - {bibkey: li2015bit, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Random Permutations}
 - {bibkey: neyshabur2013power, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
 - {bibkey: sundaram2013streaming, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
+- {bibkey: rong2018locality, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
+
+
