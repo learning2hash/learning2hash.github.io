@@ -11,6 +11,9 @@
 - {bibkey: cao2017collective, categories: [quantisation], codebook: Binary, optimisation: Backpropagation, thresholds: N/A, type: Supervised}
 - {bibkey: shi2019variable, categories: [quantisation], codebook: Any, optimisation: Greedy Strategy, thresholds: Variable, type: Unsupervised}
 
+
+xiong2014adaptive
+
 # Supervised Projection Models
 - {bibkey: cakir2019hashing, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Listwise Mutual Information loss}
 - {bibkey: cakir2018hashing, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Binary programming}
