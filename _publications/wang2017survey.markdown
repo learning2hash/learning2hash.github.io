@@ -7,6 +7,7 @@ year: 2017
 bibkey: wang2017survey
 additional_links:
    - {name: "PDF", url: "https://arxiv.org/pdf/1606.00185.pdf"}
+tags: ["Survey Paper", "Image Retrieval"]
 ---
 Nearest neighbor search is a problem of finding the data points from the database such that the distances from them to the
 query point are the smallest. Learning to hash is one of the major solutions to this problem and has been widely studied recently. In this
