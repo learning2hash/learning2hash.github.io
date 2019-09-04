@@ -117,7 +117,6 @@
 - {bibkey: yang2019distill, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: xirau2014fast, categories: [unsupervised], codebook: Binary, optimisation: Iterative optimisation, type: Shallow, modality: Unimodal}
 - {bibkey: shen2018unsupervised, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
-- {bibkey: grauman2013learning, categories: [unsupervised], codebook: Binary, optimisation: Various, type: Shallow/Deep, modality: Unimodal}
 - {bibkey: song2018self, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 
 # Data-Independent Projection Models
