@@ -80,6 +80,7 @@
 - {bibkey: su2018greedy, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: zhang2016efficient, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: sun2019supervised, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Cross-Modal}
+- {bibkey: wang2019deep, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
