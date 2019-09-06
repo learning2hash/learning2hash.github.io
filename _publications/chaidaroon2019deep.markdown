@@ -3,7 +3,7 @@ layout: publication
 title: "Deep Semantic Text Hashing with Weak Supervision"
 authors: Suthee Chaidaroon, Travis Ebesu, Yi Fang 
 conference: SIGIR
-year: 2018 
+year: 2019 
 bibkey: chaidaroon2019deep
 additional_links:
    - {name: "PDF", url: "https://dl.acm.org/citation.cfm?id=3209978.3210090"}
