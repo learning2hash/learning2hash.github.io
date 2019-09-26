@@ -217,14 +217,10 @@ Having run this feature extraction code for the *unbal_train* and the *test* dat
 
 The metadata and features files are related for a given split: for example, the metadata for the feature vector in the 10th row of train_features.npy can be found on the 10th line of train_metadata.csv.
 
-In the next step we will use this data to train a small convolutional neural network to fuse the 10, 1 second long audio snippets for a video to form one aggregate descriptor that captures the full 10 second long audio from a video.
+In the next step we will develop a simple locality sensitive hashing (LSH) system to index and retrieve similar audio segments from this data collection. 
 
-#### Deep Aggregation of Audio Features: Training a small neural network to aggregate 10, 1 second long audio embeddings to a single aggregate 10 second long audio embedding
+#### Developing a Locality Sensitive Hashing (LSH) system
 
-For each 10 second long YouTube video, the AudioSet dataset provides 10 separate 128 dimensional acoustic features (each segment represents 1 second of audio). It's arguably more interesting to match longer segments
-of audio which will better represent the holistic video content. How do we take these 10 vectors and create a single vector to represent them all? To represent the entire video as one
-embedding vector we will train a small neural network in PyTorch to aggregate the 10 word embeddings per video to give a single aggregate word embedding. Our weapon of choice here will be
-a convolutional neural network (CNN).
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
