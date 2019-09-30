@@ -24,7 +24,7 @@ To address these exciting advances, we have put together this website to help re
 
 ### Background
 
-*[Nearest neighbour search](https://en.wikipedia.org/wiki/Nearest_neighbor_search)* is the problem of finding the most similar data-points to a query in a large database of data-points, and is a fundamental operation that has found wide applicability in many fields, from Bioinformatics, through to Natural Language Processing (NLP) and Computer Vision. Some interesting applications include:
+*[Nearest neighbour search](https://en.wikipedia.org/wiki/Nearest_neighbor_search)* is the problem of finding the most similar data-points to a query in a large database of data-points, and is a fundamental operation that has found wide applicability in many fields, from Bioinformatics, through to Natural Language Processing (NLP) and Computer Vision. Some interesting application areas include:
 
 * [Detecting and Tracking Interesting Events on Social Media](https://www.aclweb.org/anthology/P14-5007): a real-time system incorporating LSH to detect and track interesting social media events over time.
 * [Earthquake Hunting with Efficient Time Series Similarity Search](https://dawn.cs.stanford.edu/2018/09/05/quake/): detecting earthquakes by comparing segments of seismic activity time series. Some nice lessons learnt [here](http://www.vldb.org/pvldb/vol11/p1674-rong.pdf) about applying LSH in real-world applications.
