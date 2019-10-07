@@ -130,6 +130,7 @@
 - {bibkey: xirau2014fast, categories: [unsupervised], codebook: Binary, optimisation: Iterative optimisation, type: Shallow, modality: Unimodal}
 - {bibkey: shen2018unsupervised, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: song2018self, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
+- {bibkey: jain2010hashing, categories: [unsupervised], codebook: Binary, optimisation: Randomised, type: Shallow, modality: Unimodal}
 
 # Data-Independent Projection Models
 - {bibkey: petrovic2010streaming, categories: [independent], type: Shallow, codebook: Binary, optimisation: Random Hyperplanes}
