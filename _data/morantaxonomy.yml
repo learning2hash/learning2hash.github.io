@@ -104,6 +104,7 @@
 
 # Unsupervised Projection Models
 
+- {bibkey: su2019unsupervised, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Cross-modal}
 - {bibkey: xu2015convolutional, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: xu2013harmonious, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Variance Balance}
 - {bibkey: kong2012cusing, categories: [unsupervised], type: Shallow, codebook: Binary, optimisation: Variance Balance}
