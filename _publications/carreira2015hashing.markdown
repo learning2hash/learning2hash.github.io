@@ -8,6 +8,7 @@ bibkey: carreira2015hashing
 additional_links:
    - {name: "PDF", url: "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Carreira-Perpinan_Hashing_With_Binary_2015_CVPR_paper.pdf"}
    - {name: "Code", url: "http://faculty.ucmerced.edu/mcarreira-perpinan/research/software/code-BAhash.tar.gz"}
+tags: ["CVPR", "Has Code", "Deep Learning", "Autoencoder", "Unsupervised"]
 ---
 An attractive approach for fast search in image
 databases is binary hashing, where each high-dimensional,
