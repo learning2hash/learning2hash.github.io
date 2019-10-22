@@ -7,6 +7,7 @@ year: 2016
 bibkey: cao2016correlation
 additional_links:
    - {name: "PDF", url: "http://yue-cao.me/doc/correlation-autoencoder-hashing-cah-icmr16.pdf"} 
+tags: ["ICMR", "Autoencoder", "Supervised", "Cross-Modal", "Deep Learning"]
 ---
 Due to its storage and query efficiency, hashing has been widely
 applied to approximate nearest neighbor search from large-scale
