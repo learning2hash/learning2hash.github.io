@@ -8,6 +8,7 @@ bibkey: kong2012ausing
 additional_links:
    - {name: "PDF", url: "https://cs.nju.edu.cn/lwj/paper/SIGIR12_MH.pdf"}
    - {name: "Code", url: "http://theory.stanford.edu/~weihaokong/MH.m"}
+tags: ["Manhattan Distance", "Quantisation", "Image Retrieval", "Thresholding", "Multi-Bit", "SIGIR"]
 ---
 Hashing is used to learn binary-code representation for data with
 expectation of preserving the neighborhood structure in the original
