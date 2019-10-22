@@ -8,6 +8,7 @@ bibkey: lv2007probe
 additional_links:
    - {name: "PDF", url: "http://www.cs.princeton.edu/cass/papers/mplsh_vldb07.pdf"}
    - {name: "Code", url: "http://lshkit.sourceforge.net/"}   
+tags: ["Multi-Probe", "Has Code", "VLDB", "Locality Sensitive Hashing", "Unsupervised"]
 ---
 Similarity indices for high-dimensional data are very desirable for building content-based search systems for featurerich data such as audio, images, videos, and other sensor
 data. Recently, locality sensitive hashing (LSH) and its
