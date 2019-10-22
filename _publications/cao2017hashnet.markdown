@@ -8,6 +8,7 @@ bibkey: cao2017hashnet
 additional_links:
    - {name: "PDF", url: "http://ise.thss.tsinghua.edu.cn/~mlong/doc/hashnet-iccv17.pdf"}
    - {name: "Code", url: "https://github.com/thuml/HashNet"}   
+tags: ["Deep Learning", "CVPR", "Has Code"]
 ---
 Learning to hash has been widely applied to approximate nearest neighbor search for large-scale multimedia retrieval, due to its computation efficiency and retrieval quality. Deep learning to hash, which improves retrieval quality
 by end-to-end representation learning and hash encoding,
