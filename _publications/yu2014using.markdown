@@ -8,6 +8,7 @@ bibkey: yu2014using
 additional_links:
    - {name: "PDF", url: "http://www.ee.columbia.edu/ln/dvmm/publications/14/yu2014_cbe.pdf"}
    - {name: "Code", url: "https://github.com/felixyu/cbe"}
+tags: ["ICML", "Circulant Matrix", "Has Code"]
 ---
 Binary embedding of high-dimensional data requires
 long codes to preserve the discriminative
