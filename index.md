@@ -10,6 +10,8 @@ comments: true
 
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/learning2hash/learning2hash.github.io" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star learning2hash/learning2hash.github.io on GitHub">Star</a>
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/learning2hash" data-size="large" data-show-count="true" aria-label="Follow @learning2hash on GitHub">Follow @learning2hash</a>
 
 ### Learning-to-Hash: Overview
 
