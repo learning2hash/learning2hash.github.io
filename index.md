@@ -5,10 +5,11 @@ comments: true
 ---
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
-<!-- Place this tag where you want the button to render. -->
-<a class="github-button" href="https://github.com/learning2hash/learning2hash.github.io" data-icon="octicon-star" data-show-count="true" aria-label="Star learning2hash/learning2hash.github.io on GitHub">Star</a>
 
 # A Living Literature Review of Learning-to-Hash for Nearest Neighbour Search
+
+<!-- Place this tag where you want the button to render. -->
+<a class="github-button" href="https://github.com/learning2hash/learning2hash.github.io" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star learning2hash/learning2hash.github.io on GitHub">Star</a>
 
 ### Learning-to-Hash: Overview
 
