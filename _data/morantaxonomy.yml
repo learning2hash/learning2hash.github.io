@@ -13,6 +13,7 @@
 - {bibkey: li2019push, categories: [quantisation], codebook: Any, optimisation: Backpropagation, thresholds: N/A, type: Supervised}
 
 # Supervised Projection Models
+- {bibkey: chen2019deep, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Backpropagation}
 - {bibkey: shen2019embarass, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Backpropagation}
 - {bibkey: cakir2019hashing, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Listwise Mutual Information loss}
 - {bibkey: cakir2018hashing, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Binary programming}
