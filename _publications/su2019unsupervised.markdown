@@ -6,7 +6,7 @@ conference: ICCV
 year: 2019
 bibkey: su2019unsupervised
 additional_links:
-   - {name: "PDF", url: "https://zzs1994.github.io/"}
+   - {name: "PDF", url: "http://openaccess.thecvf.com/content_ICCV_2019/papers/Su_Deep_Joint-Semantics_Reconstructing_Hashing_for_Large-Scale_Unsupervised_Cross-Modal_Retrieval_ICCV_2019_paper.pdf"}
    - {name: "Code", url: "https://github.com/zzs1994/DJSRH"}
 tags: ["Cross-Modal", "Unsupervised", "ICCV", "Has Code"]
 ---
