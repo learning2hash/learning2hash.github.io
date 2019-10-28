@@ -13,9 +13,7 @@ comments: true
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/learning2hash" data-size="large" data-show-count="true" aria-label="Follow @learning2hash on GitHub">Follow @learning2hash</a>
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<div class="a2a_kit a2a_default_style">
-    <a class="a2a_button_linkedin_share"></a>
-</div>
+<a class="a2a_kit a2a_default_style"> <a class="a2a_button_linkedin_share"></a></a>
 <script async src="https://static.addtoany.com/menu/page.js"></script>
 ### Learning-to-Hash: Overview
 
