@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Semi-supervised Deep Quantization for Cross-modal Search"
-authors: 	Xin Wang, Wenwu Zhu, Chenghao Liu
+authors: Xin Wang, Wenwu Zhu, Chenghao Liu
 conference: MM
 year: 2019
 bibkey: wang2019semi
