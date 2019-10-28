@@ -8,12 +8,14 @@ comments: true
 
 # Latest Research on Learning-to-Hash for Nearest Neighbour Search
 
+{% include share-bar.html %}
+
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/learning2hash/learning2hash.github.io" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star learning2hash/learning2hash.github.io on GitHub">Star</a>
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/learning2hash" data-size="large" data-show-count="true" aria-label="Follow @learning2hash on GitHub">Follow @learning2hash</a>
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<a href="http://www.linkedin.com/shareArticle?mini=true&title="[Latest Research on Learning-to-Hash for Nearest Neighbour Search]"&summary="[Latest Research on Learning-to-Hash for Nearest Neighbour Search]"&source="[https://learning2hash.github.io]" target="_blank" title="Share on Linkedin">Share on Linkedin</a>
+
 
 ### Learning-to-Hash: Overview
 
