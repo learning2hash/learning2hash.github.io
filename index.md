@@ -13,11 +13,10 @@ comments: true
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/learning2hash" data-size="large" data-show-count="true" aria-label="Follow @learning2hash on GitHub">Follow @learning2hash</a>
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<li class="linkedin">
-      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape}}" target="_blank">
+<a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url | uri_escape}}&title={{ page.title | default:"" | uri_escape}}" target="_blank">
         {% include social/share-icon-linkedin.svg %}
       </a>
-    </li>
+
 
 ### Learning-to-Hash: Overview
 
