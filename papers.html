@@ -3,16 +3,16 @@ layout: default
 title: Search all Publications on Machine Learning for Hashing
 description: A list of research papers for machine learning models for hashing.
 ---
-<p>
-{% include share-bar.html %}
-</p>
-</br>
+
 <p>
 Search across all paper titles, abstracts, authors by using the search field.
 Please consider <a href="/contributing.html">contributing</a> by updating
 the information of existing papers or adding new work. 
 </p>
-
+<p>
+{% include share-bar.html %}
+</p>
+</br>
 <table id="allPapers">
 <thead><th>Year</th><th>Title</th><th>Authors</th><th>Venue</th><th>Abstract</th></thead><tbody>
 {% assign publicationsByYear = site.publications | sort: "year" | group_by: "year" %}
