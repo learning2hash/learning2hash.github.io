@@ -6,7 +6,7 @@ comments: true
 <!-- Place this tag in your head or just before your close body tag. -->
 <script async defer src="https://buttons.github.io/buttons.js"></script>
 
-# Latest Research on Learning-to-Hash for Nearest Neighbour Search
+# Latest Research on Hash Function Learning for Nearest Neighbour Search
 
 {% include share-bar.html %}
 
