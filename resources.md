@@ -3,6 +3,7 @@ layout: default
 title: Resources on Machine Learning for Hashing
 comments: true
 ---
+{% include share-bar.html %}
 
 ### Learning-to-Hash Survey Paper
 
