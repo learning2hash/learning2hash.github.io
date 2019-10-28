@@ -13,8 +13,7 @@ comments: true
 <!-- Place this tag where you want the button to render. -->
 <a class="github-button" href="https://github.com/learning2hash" data-size="large" data-show-count="true" aria-label="Follow @learning2hash on GitHub">Follow @learning2hash</a>
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-<a class="a2a_button_linkedin_share"></a><script async src="https://static.addtoany.com/menu/page.js"></script>
-
+<div class="a2a_kit a2a_default_style"> <a class="a2a_button_linkedin_share"></a></div><script async src="https://static.addtoany.com/menu/page.js"></script>
 ### Learning-to-Hash: Overview
 
 With [Jeff Dean's](https://twitter.com/jeffdean/status/1063679694283857920?lang=en) recent keynote at [NeurIPS 2018](https://nips.cc/Conferences/2018), learned [index structures](https://dl.acm.org/citation.cfm?id=3196909) of which learning-to-hash (hash function learning) is an important sub-field, are gaining much more prominence in the research literature and in [industry](http://www.sysml.cc/doc/2018/43.pdf). [SageDB](https://ai.google/research/pubs/pub47669) sketches the vision of a future in which a data processing system will be highly tuned to the distribution of the data via machine learning bringing about significant savings in storage, memory and time. 
