@@ -3,6 +3,8 @@ layout: default
 title: Publications by Tag
 description: A list of research papers for machine learning models for hashing.
 ---
+{% include share-bar.html %}
+
 {% assign rawtags = Array.new %}
 {% for publication in site.publications %}
   {% assign ttags = publication.tags  %}  
