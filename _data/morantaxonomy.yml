@@ -13,6 +13,7 @@
 - {bibkey: li2019push, categories: [quantisation], codebook: Any, optimisation: Backpropagation, thresholds: N/A, type: Supervised}
 
 # Supervised Projection Models
+- {bibkey: liu2019moboost, categories: [supervised], codebook: Binary, modality: Unimodal, type: Shallow, optimisation: Least Squares}
 - {bibkey: wang2019semi, categories: [supervised], codebook: Binary, modality: Cross-modal, type: Deep, optimisation: Backpropagation}
 - {bibkey: huang2019accelerate, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Backpropagation}
 - {bibkey: chen2019deep, categories: [supervised], codebook: Binary, modality: Unimodal, type: Deep, optimisation: Backpropagation}
