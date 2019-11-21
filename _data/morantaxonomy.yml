@@ -95,6 +95,7 @@
 - {bibkey: li2018scratch, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-Modal}
 - {bibkey: kang2019maximum, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: chen2019twostep, categories: [supervised], codebook: Binary, optimisation: Least Squares, type: Shallow, modality: Cross-Modal}
+- {bibkey: hu2019separated, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Cross-Modal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
