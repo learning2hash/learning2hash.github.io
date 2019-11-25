@@ -52,7 +52,6 @@
 - {bibkey: zhang2014largescale, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
 - {bibkey: ding2014collective, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
 - {bibkey: liu2014collaborative, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
-- {bibkey: wu2015quantized, categories: [supervised], codebook: Binary, optimisation: Gradient Descent, type: Shallow, modality: Cross-modal}
 - {bibkey: kang2016columnsample, categories: [supervised], codebook: Binary, optimisation: Iterative Discrete Optimisation with Column Sampling, type: Shallow, modality: Unimodal}
 - {bibkey: li2016feature, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: xu2015convolutional, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
