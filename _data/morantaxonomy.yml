@@ -71,7 +71,7 @@
 - {bibkey: cao2016deep, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Cross-modal}
 - {bibkey: wu2019deep, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: gattupalli2019weakly, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Cross-modal}
-- {bibkey: fan2019supervised, categories: [supervised], codebook: Binary, optimisation: Minimise Bayes decision error, type: Shallow, modality: Unimodal}
+- {bibkey: fan2013supervised, categories: [supervised], codebook: Binary, optimisation: Minimise Bayes decision error, type: Shallow, modality: Unimodal}
 - {bibkey: lin2014fast, categories: [supervised], codebook: Binary, optimisation: Decision Trees, type: Shallow, modality: Unimodal}
 - {bibkey: lin2014optimising, categories: [supervised], codebook: Binary, optimisation: Ranking Measure (AUC, NDCG), type: Shallow, modality: Unimodal}
 - {bibkey: li2015birds, categories: [supervised], codebook: Binary, optimisation: Block Coordinate Descent, type: Shallow, modality: Unimodal}
