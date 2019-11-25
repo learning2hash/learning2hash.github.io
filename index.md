@@ -8,7 +8,7 @@ comments: true
 
 # Repository of Must Read Papers on Learning to Hash
 
-{% include share-bar.html %}
+<!--{% include share-bar.html %}-->
 
 ### Learning to Hash: Overview
 
