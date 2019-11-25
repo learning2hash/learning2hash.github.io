@@ -3,7 +3,6 @@ layout: default
 title: Resources on Machine Learning for Hashing
 comments: true
 ---
-{% include share-bar.html %}
 
 ### Learning-to-Hash Survey Paper
 
@@ -65,26 +64,3 @@ Some favourite books on the general topic of large-scale machine learning:
 * [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/information-retrieval-book.html): arguably a classic book on information retrieval basics, very well-written, with a comprehensive overview of data indexing and retrieval.
 
 Please, feel free to submit a pull request to adding more links in this page.
-
-{% if page.comments %}
-<div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = https://learning2hash.github.io/resources.html;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = learning2hash/resources; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://https-learning2hash-github-io-resources-html.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
