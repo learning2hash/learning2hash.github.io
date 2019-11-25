@@ -4,7 +4,7 @@ title: "kNN Hashing with Factorized Neighborhood Representation"
 authors: Kun Ding, Chunlei Huo, Bin Fan, Chunhong Pan
 conference: ICCV
 year: 2015
-bibkey: leng2015hashing
+bibkey: ding2015knn
 additional_links:
    - {name: "PDF", url: "http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Ding_kNN_Hashing_With_ICCV_2015_paper.pdf"} 
 tags: ["kNN", "ICCV"]
