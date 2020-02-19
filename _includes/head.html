@@ -7,6 +7,16 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-109544763-1');
+  <!-- Note: plugin scripts must be included after the tracking snippet. -->
+<script src="https://ipmeta.io/plugin.js"></script>
+
+<script>
+   provideGtagPlugin({
+      serviceProvider: 'dimension1',
+      networkDomain: 'dimension2',
+      networkType: 'dimension3',
+   });
+</script>
 </script>
 
   <link href="http://gmpg.org/xfn/11" rel="profile">
