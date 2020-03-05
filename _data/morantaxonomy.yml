@@ -96,6 +96,7 @@
 - {bibkey: chen2019twostep, categories: [supervised], codebook: Binary, optimisation: Least Squares, type: Shallow, modality: Cross-Modal}
 - {bibkey: hu2019separated, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Cross-Modal}
 - {bibkey: liu2020model, categories: [supervised], codebook: Binary, optimisation: Least Squares, type: Shallow, modality: Unimodal}
+- {bibkey: shen2020auto, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 
 # Datasets
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
