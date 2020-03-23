@@ -8,6 +8,7 @@ bibkey: yuan2020central
 additional_links:
    - {name: "PDF", url: "https://arxiv.org/pdf/1908.00347.pdf"}
    - {name: "Code", url: "https://github.com/yuanli2333/Hadamard-Matrix-for-hashing"}
+tags: ["CVPR", "Video", "Has Code"]
 ---
 Existing data-dependent hashing methods usually learn
 hash functions from the pairwise or triplet data relationships, which only capture the data similarity locally, and
