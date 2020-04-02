@@ -6,8 +6,8 @@ conference: CVPR
 year: 2020
 bibkey: hu2020creating
 additional_links:
-   - {name: "PDF", url: "https://arxiv.org/pdf/2004.00280.pdf}
-tags: ["CVPR", "Cross-Modal"]
+   - {name: "PDF", url: "https://arxiv.org/pdf/2004.00280.pdf"}
+tags: ["CVPR", "Cross-Modal", "Deep Learning"]
 ---
 In recent years, cross-modal hashing (CMH) has attracted increasing attentions, mainly because its potential
 ability of mapping contents from different modalities, especially in vision and language, into the same space, so that
