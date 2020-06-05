@@ -1,4 +1,4 @@
---
+---
 layout: default
 title: Must Read Papers on Learning to Hash
 comments: true
