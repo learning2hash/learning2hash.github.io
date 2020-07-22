@@ -8,7 +8,7 @@ bibkey: cao2017collective
 additional_links:
    - {name: "PDF", url: "http://yue-cao.me/doc/collective-deep-quantization-aaai17.pdf"}
    - {name: "Code", url: "https://github.com/caoyue10/aaai17-cdq"}   
-tags: ["AAAI", Cross-Modal". "Quantisation"]
+tags: ["AAAI", Cross-Modal", "Quantisation"]
 ---
 Cross-modal similarity retrieval is a problem about designing a retrieval system that supports querying across
 content modalities, e.g., using an image to retrieve for
