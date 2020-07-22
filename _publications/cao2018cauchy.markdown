@@ -8,6 +8,7 @@ bibkey: cao2018cauchy
 additional_links:
    - {name: "Paper", url: "http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-cauchy-hashing-cvpr18.pdf"}
    - {name: "Code", url: "https://github.com/thulab/DeepHash"}
+tags: ["CVPR", "Image Retrieval", "Deep Learning"]
 ---
 Due to its computation efficiency and retrieval quality,
 hashing has been widely applied to approximate nearest
