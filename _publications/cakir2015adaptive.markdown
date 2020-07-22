@@ -9,7 +9,7 @@ additional_links:
    - {name: "PDF", url: "https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Cakir_Adaptive_Hashing_for_ICCV_2015_paper.pdf"}
    - {name: "URL", url: "http://cs-people.bu.edu/fcakir/adapthash/index.html"}
    - {name: "Code", url: "http://cs-people.bu.edu/fcakir/adapthash/AdaptHash.zip"}
-tags: ["Online", "Streaming Data", "Has Code", "ICCV"]
+tags: ["Streaming Data", "Has Code", "ICCV"]
 ---
 With the staggering growth in image and video datasets,
 algorithms that provide fast similarity search and compact
