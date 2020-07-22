@@ -8,6 +8,7 @@ bibkey: cao2018hashgan
 additional_links:
    - {name: "PDF", url: "http://ise.thss.tsinghua.edu.cn/~mlong/doc/hashgan-cvpr18.pdf"}
    - {name: "Code", url: "https://github.com/thuml/HashGAN"}  
+tags: ["CVPR", "GAN", "Deep Learning", "Image Retrieval"]
 ---
 Deep learning to hash improves image retrieval performance by end-to-end representation learning and hash coding from training data with pairwise similarity information.
 Subject to the scarcity of similarity information that is often
