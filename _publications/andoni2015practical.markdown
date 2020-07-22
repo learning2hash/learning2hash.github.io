@@ -9,7 +9,7 @@ additional_links:
    - {name: "PDF", url: "https://papers.nips.cc/paper/5893-practical-and-optimal-lsh-for-angular-distance.pdf"}
    - {name: "Code", url: "http://www.mit.edu/~andoni/LSH/"}
    - {name: "Tutorial", url: "https://people.csail.mit.edu/indyk/p117-andoni.pdf"}
-tags: ["Locality Sensitive Hashing", "NIPS"]
+tags: ["LSH", "NIPS"]
 ---
 We show the existence of a Locality-Sensitive Hashing (LSH) family for the angular
 distance that yields an approximate Near Neighbor Search algorithm with the
