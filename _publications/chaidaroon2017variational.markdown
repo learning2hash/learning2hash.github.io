@@ -7,7 +7,7 @@ year: 2017
 bibkey: chaidaroon2017variational
 additional_links:
    - {name: "PDF", url: "https://arxiv.org/pdf/1708.03436.pdf"}
-tags: ["Deep Learning", "SIGIR", "Variational", "Text Retrieval"]
+tags: ["Deep Learning", "SIGIR", "Text Retrieval"]
 ---
 As the amount of textual data has been rapidly increasing over
 the past decade, efficient similarity search methods have become
