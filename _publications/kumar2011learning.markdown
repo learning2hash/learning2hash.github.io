@@ -7,6 +7,7 @@ year: 2011
 bibkey: kumar2011learning
 additional_links:
    - {name: "PDF", url: "http://research.microsoft.com/pubs/151205/ijcai11.pdf"}
+tags: ["Cross-Modal", "IJCAI"]
 ---
 Many applications in Multilingual and Multimodal
 Information Access involve searching large
