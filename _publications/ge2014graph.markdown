@@ -7,7 +7,7 @@ year: 2014
 bibkey: ge2014graph
 additional_links:
    - {name: "PDF", url: "http://kaiminghe.com/publications/eccv14gcc.pdf"}
-tags: ["Graph Cuts", "Graph", "ECCV", "Supervised"]
+tags: [ "ECCV", "Supervised", "Image Retrieval"]
 ---
 Learning short binary codes is challenged by the inherent discrete
 nature of the problem. The graph cuts algorithm is a well-studied
