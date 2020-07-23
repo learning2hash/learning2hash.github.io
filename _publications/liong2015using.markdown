@@ -7,6 +7,7 @@ year: 2015
 bibkey: liong2015using
 additional_links:
    - {name: "PDF", url: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.707.72&rep=rep1&type=pdf"}
+tags: ["Deep Learning", "CVPR", "Supervised"]
 ---
 In this paper, we propose a new deep hashing (DH) approach
 to learn compact binary codes for large scale visual
