@@ -8,6 +8,7 @@ bibkey: heo2012spherical
 additional_links:
    - {name: "PDF", url: "http://www.ee.columbia.edu/ln/dvmm/pubs/files/Spherical_Hashing.pdf"}
    - {name: "Code", url: "https://github.com/dengcai78/MatlabFunc/blob/master/ANNS/Hashing/Unsupervised/SphericalHashing.m"}
+tags: ["CVPR", "Image Retrieval"]
 ---
 Many binary code encoding schemes based on hashing
 have been actively studied recently, since they can provide
