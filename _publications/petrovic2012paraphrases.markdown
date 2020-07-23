@@ -7,7 +7,7 @@ year: 2012
 bibkey: petrovic2012paraphrases
 additional_links:
    - {name: "PDF", url: "http://homepages.inf.ed.ac.uk/miles/papers/naacl12.pdf"}
-tags: ["Streaming Data", "Online", "Twitter", "Text Retrieval", "LSH", "First Story Detection", "NAACL"]
+tags: ["Streaming Data", "Text Retrieval", "LSH", "NAACL"]
 ---
 First story detection (FSD) involves identifying
 first stories about events from a continuous
