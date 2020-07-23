@@ -10,6 +10,7 @@ additional_links:
    - {name: "PDF", url: "https://arxiv.org/abs/1603.05279"}
    - {name: "Code", url: "https://github.com/allenai/XNOR-Net"}
    - {name: "Website", url: "http://allenai.org/plato/xnornet/"}
+tags: ["Deep Learning", "Image Retrieval"]
 ---
 We propose two efficient approximations to standard convolutional neural networks: Binary-Weight-Networks and XNOR-Networks. In Binary-Weight-Networks, the filters are approximated with binary values
 resulting in 32x memory saving. In XNOR-Networks, both the filters and the input to convolutional layers are binary. XNOR-Networks approximate convolutions using primarily binary operations. This
