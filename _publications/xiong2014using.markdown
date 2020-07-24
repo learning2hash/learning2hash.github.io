@@ -9,7 +9,7 @@ bibkey: xiong2014using
 additional_links:
    - {name: "PDF", url: "https://www.cse.buffalo.edu//~jcorso/pubs/cxiong_SDM2014_adahash.pdf"}
    - {name: "Code", url: "http://www.cse.buffalo.edu/~jcorso/pubs/AQH.zip"}
-tags: ["Multi-Bit", "Variable-Bit", "Quantisation", "Has Code", "SDM"]
+tags: ["Quantisation", "Has Code", "SDM"]
 ---
 Large-scale data mining and retrieval applications have
 increasingly turned to compact binary data representations
