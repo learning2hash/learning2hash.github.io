@@ -8,6 +8,7 @@ bibkey: liu2011learning
 additional_links:
    - {name: "PDF", url: "http://www.icml-2011.org/papers/6_icmlpaper.pdf"}
    - {name: "Code", url: "https://github.com/dengcai78/MatlabFunc/blob/master/ANNS/Hashing/Unsupervised/OneLayerAGH_Train.m"}
+tags: ["Has Code", "ICML", "Unsupervised"]
 ---
 Hashing is becoming increasingly popular for
 efficient nearest neighbor search in massive
