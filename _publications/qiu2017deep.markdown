@@ -7,6 +7,7 @@ year: 2017
 bibkey: qiu2017deep
 additional_links:
    - {name: "Paper", url: "http://zhaofanqiu.deepfun.club/papers/SIGIR17HASH.pdf"}
+tags: ["SIGIR", "Deep Learning", "GAN", "Image Retrieval", "Supervised", "CNN"]
 ---
 Hashing has been a widely-adopted technique for nearest
 neighbor search in large-scale image retrieval tasks. Recent research has shown that leveraging supervised information can
