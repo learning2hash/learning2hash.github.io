@@ -7,7 +7,7 @@ year: 2015
 bibkey: liu2015multi
 additional_links:
    - {name: "PDF", url: "http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Multi-View_Complementary_Hash_ICCV_2015_paper.pdf"} 
-tags: ["Multiple Hash Tables","Image Retrieval", "ICCV", "Cross-Modal"]
+tags: ["Image Retrieval", "ICCV", "Cross-Modal"]
 ---
 Recent years have witnessed the success of hashing techniques in fast nearest neighbor search. In practice many
 applications (e.g., visual search, object detection, image
