@@ -7,6 +7,7 @@ year: 2015
 bibkey: wang2015semantic
 additional_links:
    - {name: "PDF", url: "http://ijcai.org/papers15/Papers/IJCAI15-546.pdf"} 
+tags: ["IJCAI", "Cross-Modal", "Supervised"]
 ---
 Multimodal hashing is essential to cross-media
 similarity search for its low storage cost and fast
