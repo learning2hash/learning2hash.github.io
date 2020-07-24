@@ -7,7 +7,7 @@ year: 2018
 bibkey: shen2018nash
 additional_links:
    - {name: "PDF", url: "https://arxiv.org/pdf/1805.05361.pdf"}
-tags: ["ACL", "Deep Learning"]
+tags: ["ACL", "Deep Learning", "Supervised"]
 ---
 Semantic hashing has become a powerful paradigm for fast similarity search
 in many information retrieval systems.
