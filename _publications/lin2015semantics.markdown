@@ -7,6 +7,7 @@ year: 2015
 bibkey: lin2015semantics
 additional_links:
    - {name: "PDF", url: "http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lin_Semantics-Preserving_Hashing_for_2015_CVPR_paper.pdf"} 
+tags: ["CVPR", "Cross-Modal"]
 ---
 With benefits of low storage costs and high query speeds,
 hashing methods are widely researched for efficiently retrieving large-scale data, which commonly contains multiple views, e.g. a news report with images, videos and texts.
