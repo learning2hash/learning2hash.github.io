@@ -7,6 +7,7 @@ year: 2019
 bibkey: yang2019distill
 additional_links:
    - {name: "Paper", url: "http://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_DistillHash_Unsupervised_Deep_Hashing_by_Distilling_Data_Pairs_CVPR_2019_paper.pdf"}
+tags: ["CVPR", "Unsupervised"]
 ---
 Due to the high storage and search efficiency, hashing
 has become prevalent for large-scale similarity search. Particularly, deep hashing methods have greatly improved the
