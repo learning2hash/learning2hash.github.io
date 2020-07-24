@@ -6,7 +6,7 @@ comments: true
 
 # Repository of Must Read Papers on Learning to Hash
 
-### Background: 
+### Background 
 
 This paper repository is actively maintained by [Sean Moran](http://www.seanjmoran.com). If you find this website useful please consider supporting our effort by starring the [Github repository](https://github.com/learning2hash/learning2hash.github.io), including a citation to this repository in your research or [contributing to the paper list](contributing.html). 
 
