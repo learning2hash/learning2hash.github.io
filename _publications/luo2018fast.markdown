@@ -8,6 +8,7 @@ bibkey: luo2018fast
 additional_links:
    - {name: "PDF", url: "http://staff.ustc.edu.cn/~hexn/papers/sigir18-hashing.pdf"}
    - {name: "Code", url: "https://lcbwlx.wixsite.com/fssh"}
+tags: ["SIGIR", "Supervised"]
 ---
 Despite significant progress in supervised hashing, there are three
 common limitations of existing methods. First, most pioneer methods discretely learn hash codes bit by bit, making the learning
