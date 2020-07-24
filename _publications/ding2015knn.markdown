@@ -7,7 +7,7 @@ year: 2015
 bibkey: ding2015knn
 additional_links:
    - {name: "PDF", url: "http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Ding_kNN_Hashing_With_ICCV_2015_paper.pdf"} 
-tags: ["kNN", "ICCV"]
+tags: ["ICCV"]
 ---
 Hashing is very effective for many tasks in reducing the
 processing time and in compressing massive databases. Although lots of approaches have been developed to learn
