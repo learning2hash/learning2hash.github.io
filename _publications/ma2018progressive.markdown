@@ -7,7 +7,7 @@ year: 2018
 bibkey: ma2018progressive
 additional_links:
    - {name: "PDF", url: "https://www.ijcai.org/proceedings/2018/0121.pdf"}
-tags: ["Deep Learning", "IJCAI", "Image Retrieval", "GANs", "Unsupervised"]
+tags: ["Deep Learning", "IJCAI", "Image Retrieval", "GAN", "Unsupervised"]
 ---
 Recent years have witnessed the success of the emerging hashing techniques in large-scale image
 retrieval. Owing to the great learning capacity,
