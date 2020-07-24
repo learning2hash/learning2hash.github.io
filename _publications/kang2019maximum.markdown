@@ -7,7 +7,7 @@ year: 2019
 bibkey: kang2019maximum
 additional_links:
    - {name: "PDF", url: "http://ise.thss.tsinghua.edu.cn/~mlong/doc/maximum-margin-hamming-hashing-iccv19.pdf"}
-tags: ["ICCV", "Max-Margin"]
+tags: ["ICCV"]
 ---
 Deep hashing enables computation and memory efficient
 image search through end-to-end learning of feature representations and binary codes. While linear scan over binary
