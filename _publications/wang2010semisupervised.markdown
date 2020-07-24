@@ -9,6 +9,7 @@ additional_links:
    - {name: "PDF", url: "http://www.sanjivk.com/SSH_CVPR10.pdf"}
    - {name: "Talk", url: "http://www.ee.columbia.edu/~jwang/cvprpresentations/PosterSpotlight_SSH.ppt"}
    - {name: "Poster", url: "http://www.ee.columbia.edu/~jwang/cvprpresentations/SSH_CVPR2010_poster.pdf"}
+tags: ["CVPR", "Supervised", "Image Retrieval"]
 ---
 Large scale image search has recently attracted considerable
 attention due to easy availability of huge amounts of
