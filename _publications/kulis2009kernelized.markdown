@@ -8,7 +8,7 @@ bibkey: kulis2009kernelized
 additional_links:
    - {name: "PDF", url: "https://www.robots.ox.ac.uk/~vgg/rg/papers/klsh.pdf"}
    - {name: "Code", url: "http://people.bu.edu/bkulis/klsh/klsh_code.tar.gz"}
-tags: ["ICCV", "Has Code", "Kernelised", "Image Retrieval"]
+tags: ["ICCV", "Has Code", "Image Retrieval"]
 ---
 Fast retrieval methods are critical for large-scale and
 data-driven vision applications. Recent work has explored
