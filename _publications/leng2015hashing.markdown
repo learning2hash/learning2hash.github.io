@@ -6,7 +6,8 @@ conference: ICML
 year: 2015
 bibkey: leng2015hashing
 additional_links:
-   - {name: "PDF", url: "http://jmlr.org/proceedings/papers/v37/leng15.pdf"} 
+   - {name: "PDF", url: "http://jmlr.org/proceedings/papers/v37/leng15.pdf"}
+tags: ["ICML"]
 ---
 Recently, hashing based approximate nearest
 neighbors search has attracted much attention.
