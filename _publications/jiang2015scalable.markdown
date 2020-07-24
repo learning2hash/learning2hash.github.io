@@ -8,7 +8,7 @@ bibkey: jiang2015scalable
 additional_links:
    - {name: "PDF", url: "http://cs.nju.edu.cn/lwj/paper/IJCAI15_SGH.pdf"}
    - {name: "Code", url: "https://github.com/jiangqy/SGH-IJCAI2015"}
-tags: ["Graph", "Has Code", "IJCAI"]
+tags: ["Has Code", "IJCAI"]
 ---
 Hashing has been widely used for approximate nearest
 neighbor (ANN) search in big data applications
