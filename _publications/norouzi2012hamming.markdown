@@ -8,6 +8,7 @@ bibkey: norouzi2012hamming
 additional_links:
    - {name: "PDF", url: "http://papers.nips.cc/paper/4808-hamming-distance-metric-learning.pdf"}
    - {name: "Code", url: "https://github.com/norouzi/hdml"}
+tags: ["Has Code", "Image Retrieval", "NIPS"]
 ---
 Motivated by large-scale multimedia applications we propose to learn mappings
 from high-dimensional data to binary codes that preserve semantic similarity.
