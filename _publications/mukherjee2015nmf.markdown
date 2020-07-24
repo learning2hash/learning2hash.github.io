@@ -7,7 +7,7 @@ year: 2015
 bibkey: mukherjee2015nmf
 additional_links:
    - {name: "PDF", url: "http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Mukherjee_An_NMF_Perspective_ICCV_2015_paper.pdf"} 
-tags: ["ICCV", "Matrix Factorisation"]
+tags: ["ICCV"]
 ---
 The pervasiveness of massive data repositories has led
 to much interest in efficient methods for indexing, search,
