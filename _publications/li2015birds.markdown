@@ -7,6 +7,7 @@ year: 2015
 bibkey: li2015birds
 additional_links:
    - {name: "Paper", url: "https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Li_Two_Birds_One_ICCV_2015_paper.pdf"}
+tags: ["ICCV", "Image Retrieval"]
 ---
 We address the challenging large-scale content-based
 face image retrieval problem, intended as searching images
