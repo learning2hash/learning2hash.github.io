@@ -9,6 +9,7 @@ additional_links:
    - {name: "PDF", url: "http://www.jmlr.org/proceedings/papers/v28/li13a.pdf"}
    - {name: "URL", url: "https://bitbucket.org/guosheng/column-generation-hashing/"}
    - {name: "Code", url: "https://github.com/pcarbo/lbfgsb-matlab"}
+tags: ["ICML", "Has Code"]
 ---
 Fast nearest neighbor searching is becoming
 an increasingly important tool in solving
