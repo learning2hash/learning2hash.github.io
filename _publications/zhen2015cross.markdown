@@ -7,7 +7,7 @@ year: 2015
 bibkey: zhen2015cross
 additional_links:
    - {name: "PDF", url: "http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9648/10001/"}
-tags: ["Cross-Modal", "Active Supervision", "AAAI"]
+tags: ["Cross-Modal", "AAAI"]
 ---
 We present a probabilistic framework for learning pairwise similarities between objects belonging to different modalities, such as drugs and proteins, or text and
 images. Our framework is based on learning a binary
