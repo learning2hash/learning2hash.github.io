@@ -9,6 +9,7 @@ additional_links:
    - {name: "PDF", url: "http://papers.nips.cc/paper/3749-locality-sensitive-binary-codes-from-shift-invariant-kernels.pdf"}
    - {name: "Code", url: "http://www.unc.edu/~yunchao/code/smallcode.zip"}
    - {name: "Talk", url: "https://www.robots.ox.ac.uk/~vgg/rg/slides/binarycodes.pdf"}
+tags: ["Has Code", "LSH", "NIPS", "Image Retrieval"]
 ---
 This paper addresses the problem of designing binary codes for high-dimensional
 data such that vectors that are similar in the original space map to similar binary
