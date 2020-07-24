@@ -7,6 +7,7 @@ year: 2013
 bibkey: sundaram2013streaming
 additional_links:
    - {name: "PDF", url: "http://www.vldb.org/pvldb/vol6/p1930-sundaram.pdf"}
+tags: ["VLDB", "LSH", "Streaming Data"]
 ---
 Finding nearest neighbors has become an important operation on databases, with applications to text search, multimedia indexing,
 and many other areas. One popular algorithm for similarity search, especially for high dimensional data (where spatial indexes like kdtrees do not perform well) is Locality Sensitive Hashing (LSH), an
