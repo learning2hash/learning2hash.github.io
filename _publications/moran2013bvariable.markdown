@@ -8,7 +8,7 @@ bibkey: moran2013bvariable
 additional_links:
    - {name: "PDF", url: "http://homepages.inf.ed.ac.uk/miles/papers/acl13.pdf"}
    - {name: "Talk", url: "https://www.slideshare.net/sjmoran1/acl-variable-bit-quantisation-talk"}
-tags: ["Quantisation","Thresholding", "LSH", "Multi-Bit", "Neighbourhood Preservation", "ACL", "Variable-Bit"]
+tags: ["Quantisation", "LSH", "ACL"]
 ---
 
 We introduce a scheme for optimally allocating
