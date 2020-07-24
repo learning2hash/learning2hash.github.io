@@ -7,6 +7,7 @@ year: 2015
 bibkey: song2015rank
 additional_links:
    - {name: "PDF", url: "http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Song_Top_Rank_Supervised_ICCV_2015_paper.pdf"} 
+tags: ["ICCV", "Supervised"]
 ---
 In recent years, binary coding techniques are becoming
 increasingly popular because of their high efficiency in handling large-scale computer vision applications. It has been
