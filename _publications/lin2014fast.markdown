@@ -8,6 +8,7 @@ bibkey: lin2014fast
 additional_links:
    - {name: "Paper", url: "https://bitbucket.org/chhshen/fasthash/src"}
    - {name: "Code", url: "https://bitbucket.org/chhshen/fasthash/"}
+tags: ["CVPR", "Supervised", "Has Code"]
 ---
 Supervised hashing aims to map the original features to
 compact binary codes that are able to preserve label based
