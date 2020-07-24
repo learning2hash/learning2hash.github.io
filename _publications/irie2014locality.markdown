@@ -7,6 +7,7 @@ year: 2014
 bibkey: irie2014locality
 additional_links:
    - {name: "PDF", url: "http://www.ee.columbia.edu/~zgli/papers/CVPR-2014-LLH.pdf"}
+tags: ["CVPR", "Image Retrieval"]
 ---
 Previous efforts in hashing intend to preserve data variance
 or pairwise affinity, but neither is adequate in capturing
