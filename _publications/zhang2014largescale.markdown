@@ -8,7 +8,7 @@ bibkey: zhang2014largescale
 additional_links:
    - {name: "PDF", url: "http://cs.nju.edu.cn/lwj/paper/AAAI14_SCM.pdf"}
    - {name: "Code", url: "http://cs.nju.edu.cn/lwj/code/SCMHash_Release.zip"}
-tags: ["Cross-Modal", "AAAI", "Has Code"]
+tags: ["Cross-Modal", "AAAI", "Has Code","Supervised"]
 ---
 Due to its low storage cost and fast query speed, hashing
 has been widely adopted for similarity search in multimedia
