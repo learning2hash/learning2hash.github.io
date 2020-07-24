@@ -8,7 +8,7 @@ bibkey: li2017deep
 additional_links:
    - {name: "PDF", url: "https://papers.nips.cc/paper/6842-deep-supervised-discrete-hashing.pdf"}
    - {name: "Code", url: "https://github.com/liqi-casia/DSDH-HashingCode"}
-tags: ["Discrete","Supervised", "Deep Learning", "NIPS", "Has Code"]
+tags: ["Supervised", "Deep Learning", "NIPS", "Has Code"]
 ---
 With the rapid growth of image and video data on the web, hashing has been
 extensively studied for image or video search in recent years. Benefiting from
