@@ -7,7 +7,7 @@ year: 2019
 bibkey: sun2019supervised
 additional_links:
    - {name: "PDF", url: "Supervised Hierarchical Cross-Modal Hashing"}
-tags: ["SIGIR", "Cross-Modal", "Hierarchical", "Discriminant Analysis", "Deep Learning"]
+tags: ["SIGIR", "Cross-Modal", "Deep Learning"]
 ---
 Recently, due to the unprecedented growth of multimedia data,
 cross-modal hashing has gained increasing attention for the
