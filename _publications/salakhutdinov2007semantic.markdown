@@ -8,6 +8,7 @@ bibkey: salakhutdinov2007semantic
 additional_links:
    - {name: "PDF", url: "http://www.cs.utoronto.ca/~rsalakhu/papers/semantic_final.pdf"}
    - {name: "Code", url: "https://github.com/gynnash/AutoEncoder"}
+tags: ["NIPS", "Supervised", "Deep Learning", "Has Code"]
 ---
 We show how to learn a deep graphical model of the word-count
 vectors obtained from a large set of documents. The values of the
