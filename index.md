@@ -9,12 +9,6 @@ comments: true
 <iframe src="https://ghbtns.com/github-btn.html?user=learning2hash&repo=learning2hash.github.io&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 <!--{% include share-bar.html %}-->
 
-### The Field of Learning-to-Hash
-
-With [Jeff Dean's](https://twitter.com/jeffdean/status/1063679694283857920?lang=en) recent keynote at [NeurIPS 2018](https://nips.cc/Conferences/2018), learned [index structures](https://dl.acm.org/citation.cfm?id=3196909) of which learning-to-hash (hash function learning) is an important sub-field, are gaining much more prominence in the research literature and in [industry](http://www.sysml.cc/doc/2018/43.pdf). [SageDB](https://ai.google/research/pubs/pub47669) sketches the vision of a future in which a data processing system will be highly tuned to the distribution of the data via machine learning bringing about significant savings in storage, memory and time. 
-
-To address these exciting advances in hash function learning, we have put together this website to help researchers learn about, share and more easily discover recent work in the field. Learning2hash is a *living literature review* that allows the reader to explore models in the field following a [taxonomy](\base-taxonomy) based on the fundamental model properties. New models can be added to this website by anyone simply by making a GitHub pull request [see *Contributing* below](contributing.html). Select ["All Papers"](https://learning2hash.github.io/papers.html) on the right-hand menu to get started.
-
 ### Browse Papers by Tag
 
 {% assign rawtags = Array.new %}
@@ -24,6 +18,12 @@ To address these exciting advances in hash function learning, we have put togeth
 {% endfor %}
 {% assign rawtags = rawtags | uniq | sort %}
 {% for tag in rawtags %}<tag><a href="/tags.html#{{ tag }}">{{ tag }}</a></tag> {% endfor %}
+
+### The Field of Learning-to-Hash
+
+With [Jeff Dean's](https://twitter.com/jeffdean/status/1063679694283857920?lang=en) recent keynote at [NeurIPS 2018](https://nips.cc/Conferences/2018), learned [index structures](https://dl.acm.org/citation.cfm?id=3196909) of which learning-to-hash (hash function learning) is an important sub-field, are gaining much more prominence in the research literature and in [industry](http://www.sysml.cc/doc/2018/43.pdf). [SageDB](https://ai.google/research/pubs/pub47669) sketches the vision of a future in which a data processing system will be highly tuned to the distribution of the data via machine learning bringing about significant savings in storage, memory and time. 
+
+To address these exciting advances in hash function learning, we have put together this website to help researchers learn about, share and more easily discover recent work in the field. Learning2hash is a *living literature review* that allows the reader to explore models in the field following a [taxonomy](\base-taxonomy) based on the fundamental model properties. New models can be added to this website by anyone simply by making a GitHub pull request [see *Contributing* below](contributing.html). Select ["All Papers"](https://learning2hash.github.io/papers.html) on the right-hand menu to get started.
 
 ### Background
 
