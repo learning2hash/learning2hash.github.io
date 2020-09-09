@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Must Read Papers on Learning-to-Hash
+title: Awesome Papers on Learning to Hash
 comments: true
 ---
 
-# Repository of Must Read Papers on Learning to Hash
+# Awesome Papers on Learning to Hash
 
 <iframe src="https://ghbtns.com/github-btn.html?user=learning2hash&repo=learning2hash.github.io&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 <!--{% include share-bar.html %}-->
@@ -19,7 +19,7 @@ comments: true
 {% assign rawtags = rawtags | uniq | sort %}
 {% for tag in rawtags %}<tag><a href="/tags.html#{{ tag }}">{{ tag }}</a></tag> {% endfor %}
 
-### The Field of Learning-to-Hash
+### The Field of Learning to Hash
 
 With [Jeff Dean's](https://twitter.com/jeffdean/status/1063679694283857920?lang=en) recent keynote at [NeurIPS 2018](https://nips.cc/Conferences/2018), learned [index structures](https://dl.acm.org/citation.cfm?id=3196909) of which learning-to-hash (hash function learning) is an important sub-field, are gaining much more prominence in the research literature and in [industry](http://www.sysml.cc/doc/2018/43.pdf). [SageDB](https://ai.google/research/pubs/pub47669) sketches the vision of a future in which a data processing system will be highly tuned to the distribution of the data via machine learning bringing about significant savings in storage, memory and time. 
 
