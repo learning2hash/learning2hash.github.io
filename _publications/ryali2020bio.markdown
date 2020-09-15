@@ -1,3 +1,4 @@
+---
 layout: publication
 title: "Bio-Inspired Hashing for Unsupervised Similarity Search"
 authors: Chaitanya K. Ryali, John J. Hopfield, Leopold Grinberg, Dmitry Krotov
