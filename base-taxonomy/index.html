@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <!-- Hotjar Tracking Code for https://learning2hash.github.io/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1843243,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109544763-1');
+</script>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Taxonomy | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="Taxonomy" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A taxonomy of machine learning models for hashing-based approximate nearest neighbour search." />
+<meta property="og:description" content="A taxonomy of machine learning models for hashing-based approximate nearest neighbour search." />
+<link rel="canonical" href="https://learning2hash.github.io/base-taxonomy/" />
+<meta property="og:url" content="https://learning2hash.github.io/base-taxonomy/" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<script type="application/ld+json">
+{"url":"https://learning2hash.github.io/base-taxonomy/","headline":"Taxonomy","@type":"WebPage","description":"A taxonomy of machine learning models for hashing-based approximate nearest neighbour search.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.svg">
+  <link rel="search" href="/public/opensearchdescription.xml" 
+      type="application/opensearchdescription+xml" 
+      title="learning2hash" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Awesome Learning to Hash
+        </a>
+      </h1>
+      <p class="lead">A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.</p>
+    </div>
+
+  <nav class="sidebar-nav">
+   <div class="sidebar-item"><p style="font-size: 12px">Search related work <input type='text' id='searchTarget' size="16"/> <button onClick="search();">Go</button></p></div>
+   <a class="sidebar-nav-item" href="/cite.html">How to Cite this Work</a>
+    <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
+   <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
+   <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
+   <a class="sidebar-nav-item active" href="/base-taxonomy/">Core Taxonomy</a>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/quantisation.html">Quantisation Models</a>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/supervised.html">Supervised Projection Models</a>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/unsupervised.html">Unsupervised Projection Models</a></ul>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/independent.html">Data Independent Projection Models</a></ul>
+  <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
+  <a class="sidebar-nav-item" href="/resources.html">Resources, Courses &#38; Events</a>
+  <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
+  <a class="sidebar-nav-item" href="/contributors.html">Contributors</a>
+
+</nav>
+
+  <div class="sidebar-item">
+    <p style="font-size: 12px">Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
+    <span style="font-size: 9px">
+      Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
+    </span></p>
+  </div>
+</div></div>
+
+<script>
+$("#searchTarget").keydown(function (e) {	
+  if (e.keyCode == 13) {
+    search();
+  }
+});
+function search() {
+  try {
+    ga('send', 'event', 'search', 'search', $("#searchTarget").val());
+  } finally {
+    window.location = "/papers.html#" + $("#searchTarget").val();
+  }
+}
+</script>
+
+
+    <div class="content container">
+      <div class="page">
+  <h1 class="page-title">Taxonomy</h1>
+  <p>A hashing model takes an input data-point e.g. an image or document, and outputs a sequence of bits (hashcode) representing that data-point. Hashing models can be broadly categorised into two different categories: <em>quantisation</em> and <em>projection</em>. The projection models focus on learning a low-dimensional transformation of the input data in a way that encourages related data-points to be closer together in the new space. In contrast, the quantisation models seek to convert those projections into binary by using a thresholding mechanism. The projection branch can be further divided into data-independent, data-dependent (unsupervised) and data-dependent (supervised) depending on whether the projections are influenced by the distribution of the data or available class-labels.</p>
+
+<ul>
+  <li>
+    <p><a href="quantisation.html"><strong>Quantisation Models</strong></a> focus on quantising the real-valued low-dimensional projections of data-points into binary bits by positioning one or more thresholds along a projected dimension.</p>
+  </li>
+  <li>
+    <p><a href="independent.html"><strong>Data Independent Projection Models</strong></a> these methods fracture the input feature space using randomly drawn hyperplanes independently of the data distribution. Given the random nature of the learning procedure they are the fastest models at training time but suffer from the disadvantage of requiring long hashcodes and many hashtables to attain a reasonable level of retrieval effectiveness.</p>
+  </li>
+  <li>
+    <p><a href="supervised.html"><strong>Supervised Projection Models</strong></a> are models that leverage available semantic supervision in the form of, for example: class labels or must-link and cannot-link constraints between data-point pairs. The models exploit this supervision during the learning process to maximise the occurrence of related data-points being hashed to the same hashtable buckets. These models typically exhibit the highest retrieval effectiveness but suffer the disadvantage of requiring manual labels which can be challenging to collect.</p>
+  </li>
+  <li>
+    <p><a href="unsupervised.html"><strong>Unsupervised Projection Models</strong></a> are models that account for the distribution of the data in an unsupervised manner without the need manually acquired labels. They typically achieve this by using techniques that factorise the data covariance matrix or cluster related data-points into groups. These models generally exhibit a good retrieval effectiveness lying somewhere between the data independent and supervised models, but suffer from the considerable advantage of being computationally expensive at training time due to the matrix factorisation component.</p>
+  </li>
+</ul>
+
+</div>
+
+    </div>
+
+  </body>
+</html>

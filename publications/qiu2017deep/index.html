@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <!-- Hotjar Tracking Code for https://learning2hash.github.io/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1843243,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109544763-1');
+</script>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Deep Semantic Hashing with Generative Adversarial Networks | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="Deep Semantic Hashing with Generative Adversarial Networks" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Hashing has been a widely-adopted technique for nearest neighbor search in large-scale image retrieval tasks. Recent research has shown that leveraging supervised information can lead to high quality hashing. However, the cost of annotating data is often an obstacle when applying supervised hashing to a new domain. Moreover, the results can suffer from the robustness problem as the data at training and test stage may come from different distributions. This paper studies the exploration of generating synthetic data through semisupervised generative adversarial networks (GANs), which leverages largely unlabeled and limited labeled training data to produce highly compelling data with intrinsic invariance and global coherence, for better understanding statistical structures of natural data. We demonstrate that the above two limitations can be well mitigated by applying the synthetic data for hashing. Specifically, a novel deep semantic hashing with GANs (DSH-GANs) is presented, which mainly consists of four components: a deep convolution neural networks (CNN) for learning image representations, an adversary stream to distinguish synthetic images from real ones, a hash stream for encoding image representations to hash codes and a classification stream. The whole architecture is trained endto-end by jointly optimizing three losses, i.e., adversarial loss to correct label of synthetic or real for each sample, triplet ranking loss to preserve the relative similarity ordering in the input real-synthetic triplets and classification loss to classify each sample accurately. Extensive experiments conducted on both CIFAR-10 and NUS-WIDE image benchmarks validate the capability of exploiting synthetic images for hashing. Our framework also achieves superior results when compared to state-of-the-art deep hash models." />
+<meta property="og:description" content="Hashing has been a widely-adopted technique for nearest neighbor search in large-scale image retrieval tasks. Recent research has shown that leveraging supervised information can lead to high quality hashing. However, the cost of annotating data is often an obstacle when applying supervised hashing to a new domain. Moreover, the results can suffer from the robustness problem as the data at training and test stage may come from different distributions. This paper studies the exploration of generating synthetic data through semisupervised generative adversarial networks (GANs), which leverages largely unlabeled and limited labeled training data to produce highly compelling data with intrinsic invariance and global coherence, for better understanding statistical structures of natural data. We demonstrate that the above two limitations can be well mitigated by applying the synthetic data for hashing. Specifically, a novel deep semantic hashing with GANs (DSH-GANs) is presented, which mainly consists of four components: a deep convolution neural networks (CNN) for learning image representations, an adversary stream to distinguish synthetic images from real ones, a hash stream for encoding image representations to hash codes and a classification stream. The whole architecture is trained endto-end by jointly optimizing three losses, i.e., adversarial loss to correct label of synthetic or real for each sample, triplet ranking loss to preserve the relative similarity ordering in the input real-synthetic triplets and classification loss to classify each sample accurately. Extensive experiments conducted on both CIFAR-10 and NUS-WIDE image benchmarks validate the capability of exploiting synthetic images for hashing. Our framework also achieves superior results when compared to state-of-the-art deep hash models." />
+<link rel="canonical" href="https://learning2hash.github.io/publications/qiu2017deep/" />
+<meta property="og:url" content="https://learning2hash.github.io/publications/qiu2017deep/" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-11-27T12:34:15-06:00" />
+<script type="application/ld+json">
+{"url":"https://learning2hash.github.io/publications/qiu2017deep/","headline":"Deep Semantic Hashing with Generative Adversarial Networks","dateModified":"2020-11-27T12:34:15-06:00","datePublished":"2020-11-27T12:34:15-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/qiu2017deep/"},"description":"Hashing has been a widely-adopted technique for nearest neighbor search in large-scale image retrieval tasks. Recent research has shown that leveraging supervised information can lead to high quality hashing. However, the cost of annotating data is often an obstacle when applying supervised hashing to a new domain. Moreover, the results can suffer from the robustness problem as the data at training and test stage may come from different distributions. This paper studies the exploration of generating synthetic data through semisupervised generative adversarial networks (GANs), which leverages largely unlabeled and limited labeled training data to produce highly compelling data with intrinsic invariance and global coherence, for better understanding statistical structures of natural data. We demonstrate that the above two limitations can be well mitigated by applying the synthetic data for hashing. Specifically, a novel deep semantic hashing with GANs (DSH-GANs) is presented, which mainly consists of four components: a deep convolution neural networks (CNN) for learning image representations, an adversary stream to distinguish synthetic images from real ones, a hash stream for encoding image representations to hash codes and a classification stream. The whole architecture is trained endto-end by jointly optimizing three losses, i.e., adversarial loss to correct label of synthetic or real for each sample, triplet ranking loss to preserve the relative similarity ordering in the input real-synthetic triplets and classification loss to classify each sample accurately. Extensive experiments conducted on both CIFAR-10 and NUS-WIDE image benchmarks validate the capability of exploiting synthetic images for hashing. Our framework also achieves superior results when compared to state-of-the-art deep hash models.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.svg">
+  <link rel="search" href="/public/opensearchdescription.xml" 
+      type="application/opensearchdescription+xml" 
+      title="learning2hash" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Awesome Learning to Hash
+        </a>
+      </h1>
+      <p class="lead">A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.</p>
+    </div>
+
+  <nav class="sidebar-nav">
+   <div class="sidebar-item"><p style="font-size: 12px">Search related work <input type='text' id='searchTarget' size="16"/> <button onClick="search();">Go</button></p></div>
+   <a class="sidebar-nav-item" href="/cite.html">How to Cite this Work</a>
+    <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
+   <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
+   <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
+   <a class="sidebar-nav-item" href="/base-taxonomy/">Core Taxonomy</a>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/quantisation.html">Quantisation Models</a>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/supervised.html">Supervised Projection Models</a>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/unsupervised.html">Unsupervised Projection Models</a></ul>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/independent.html">Data Independent Projection Models</a></ul>
+  <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
+  <a class="sidebar-nav-item" href="/resources.html">Resources, Courses &#38; Events</a>
+  <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
+  <a class="sidebar-nav-item" href="/contributors.html">Contributors</a>
+
+</nav>
+
+  <div class="sidebar-item">
+    <p style="font-size: 12px">Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
+    <span style="font-size: 9px">
+      Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
+    </span></p>
+  </div>
+</div></div>
+
+<script>
+$("#searchTarget").keydown(function (e) {	
+  if (e.keyCode == 13) {
+    search();
+  }
+});
+function search() {
+  try {
+    ga('send', 'event', 'search', 'search', $("#searchTarget").val());
+  } finally {
+    window.location = "/papers.html#" + $("#searchTarget").val();
+  }
+}
+</script>
+
+
+    <div class="content container">
+      <div class="page">
+  <h1 class="page-title">Deep Semantic Hashing with Generative Adversarial Networks </h1>
+  <h5>Zhaofan Qiu, Yingwei Pan, Ting Yao, Tao Mei. SIGIR 2017</h5>
+  <p>
+    
+      [<a href="http://zhaofanqiu.deepfun.club/papers/SIGIR17HASH.pdf" target="_blank">Paper</a>]
+    
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Deep Semantic Hashing with Generative Adversarial Networks ' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Deep Semantic Hashing with Generative Adversarial Networks ' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://academic.microsoft.com/#/search?iq=Deep%20Semantic%20Hashing%20with%20Generative%20Adversarial%20Networks%20' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+  <br/>
+  
+      <tag><a href="/tags.html#SIGIR">SIGIR</a></tag>
+    
+      <tag><a href="/tags.html#Deep Learning">Deep Learning</a></tag>
+    
+      <tag><a href="/tags.html#GAN">GAN</a></tag>
+    
+      <tag><a href="/tags.html#Image Retrieval">Image Retrieval</a></tag>
+    
+      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+    
+      <tag><a href="/tags.html#CNN">CNN</a></tag>
+    
+      
+</p>    
+      
+      <p><p>Hashing has been a widely-adopted technique for nearest
+neighbor search in large-scale image retrieval tasks. Recent research has shown that leveraging supervised information can
+lead to high quality hashing. However, the cost of annotating
+data is often an obstacle when applying supervised hashing
+to a new domain. Moreover, the results can suffer from the
+robustness problem as the data at training and test stage
+may come from different distributions. This paper studies
+the exploration of generating synthetic data through semisupervised generative adversarial networks (GANs), which
+leverages largely unlabeled and limited labeled training data
+to produce highly compelling data with intrinsic invariance
+and global coherence, for better understanding statistical
+structures of natural data. We demonstrate that the above
+two limitations can be well mitigated by applying the synthetic data for hashing. Specifically, a novel deep semantic
+hashing with GANs (DSH-GANs) is presented, which mainly
+consists of four components: a deep convolution neural networks (CNN) for learning image representations, an adversary
+stream to distinguish synthetic images from real ones, a hash
+stream for encoding image representations to hash codes and
+a classification stream. The whole architecture is trained endto-end by jointly optimizing three losses, i.e., adversarial loss
+to correct label of synthetic or real for each sample, triplet
+ranking loss to preserve the relative similarity ordering in the
+input real-synthetic triplets and classification loss to classify
+each sample accurately. Extensive experiments conducted on
+both CIFAR-10 and NUS-WIDE image benchmarks validate the capability of exploiting synthetic images for hashing. Our
+framework also achieves superior results when compared to
+state-of-the-art deep hash models.</p>
+</p>
+</div>
+
+    </div>
+
+  </body>
+</html>

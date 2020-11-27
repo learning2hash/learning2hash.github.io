@@ -1,25 +1,489 @@
----
-layout: default
-title: Unsupervised Projection Models
----
-<h2>Unsupervised Projection Models</h2>
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <!-- Hotjar Tracking Code for https://learning2hash.github.io/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1843243,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109544763-1');
+</script>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Unsupervised Projection Models | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="Unsupervised Projection Models" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Unsupervised Projection Models" />
+<meta property="og:description" content="Unsupervised Projection Models" />
+<link rel="canonical" href="https://learning2hash.github.io/base-taxonomy/unsupervised.html" />
+<meta property="og:url" content="https://learning2hash.github.io/base-taxonomy/unsupervised.html" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<script type="application/ld+json">
+{"url":"https://learning2hash.github.io/base-taxonomy/unsupervised.html","headline":"Unsupervised Projection Models","@type":"WebPage","description":"Unsupervised Projection Models","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.svg">
+  <link rel="search" href="/public/opensearchdescription.xml" 
+      type="application/opensearchdescription+xml" 
+      title="learning2hash" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Awesome Learning to Hash
+        </a>
+      </h1>
+      <p class="lead">A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.</p>
+    </div>
+
+  <nav class="sidebar-nav">
+   <div class="sidebar-item"><p style="font-size: 12px">Search related work <input type='text' id='searchTarget' size="16"/> <button onClick="search();">Go</button></p></div>
+   <a class="sidebar-nav-item" href="/cite.html">How to Cite this Work</a>
+    <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
+   <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
+   <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
+   <a class="sidebar-nav-item" href="/base-taxonomy/">Core Taxonomy</a>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/quantisation.html">Quantisation Models</a>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/supervised.html">Supervised Projection Models</a>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/unsupervised.html">Unsupervised Projection Models</a></ul>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/independent.html">Data Independent Projection Models</a></ul>
+  <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
+  <a class="sidebar-nav-item" href="/resources.html">Resources, Courses &#38; Events</a>
+  <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
+  <a class="sidebar-nav-item" href="/contributors.html">Contributors</a>
+
+</nav>
+
+  <div class="sidebar-item">
+    <p style="font-size: 12px">Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
+    <span style="font-size: 9px">
+      Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
+    </span></p>
+  </div>
+</div></div>
+
+<script>
+$("#searchTarget").keydown(function (e) {	
+  if (e.keyCode == 13) {
+    search();
+  }
+});
+function search() {
+  try {
+    ga('send', 'event', 'search', 'search', $("#searchTarget").val());
+  } finally {
+    window.location = "/papers.html#" + $("#searchTarget").val();
+  }
+}
+</script>
+
+
+    <div class="content container">
+      <h2>Unsupervised Projection Models</h2>
 
 <b>Unsupervised Projection Models</b> are models that account for the distribution of the data in an unsupervised manner without the need manually acquired labels. They typically achieve this by using techniques that factorise the data covariance matrix or cluster related data-points into groups. These models generally exhibit a good retrieval effectiveness lying somewhere between the data independent and supervised models, but suffer from the considerable advantage of being computationally expensive at training time due to the matrix factorisation component.
 
-{% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
+
 <table id="patternModelTable">
 <thead><th>Name</th><th>Codebook</th><th>Architecture</th><th>Optimisation</th></thead>
 <tbody>
-{% for publication in publicationsList %}{% if publication.categories contains "unsupervised" %}
-    {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
+
+    
     
       <tr>
-          <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> {{pubDetails[0].title}}</td>
-          <td>{{publication.codebook}}</td>
-          <td>{{publication.type}}</td>
-          <td>{{publication.optimisation}}</td>
+          <td data-order="bawa2005forest"><a href="/publications/bawa2005forest">M. Bawa, T. Condie, P. Ganesan, 2005.</a> LSH Forest: Self-Tuning Indexes for Similarity Search</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Random Hyperplanes</td>
       </tr>
-{% endif %}{% endfor %}
+
+    
+    
+      <tr>
+          <td data-order="carreira2015hashing"><a href="/publications/carreira2015hashing">M. Carreira-Perpinan, R. Raziperchikolaei, 2015.</a> Hashing with Binary Autoencoders</td>
+          <td>Binary</td>
+          <td>Deep</td>
+          <td>Backpropagation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="chen2019locality"><a href="/publications/chen2019locality">L. Chen, H. Esfandiari, G. Fu, V. Mirrokni, 2019.</a> Locality-Sensitive Hashing for f-Divergences: Mutual Information Loss and Beyond</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Hellinger approximation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="gong2011using"><a href="/publications/gong2011using">Y. Gong, S. Lazebnik, 2011.</a> Iterative Quantization: A Procrustean Approach to Learning Binary Codes</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Variance Balance</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="gong2013bilinear"><a href="/publications/gong2013bilinear">Y. Gong, S. Kumar, H. Rowley, S. Lazebnik, 2013.</a> Learning Binary Codes for High-Dimensional Data Using Bilinear Projections</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Matrix Factorisation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="he2019knearest"><a href="/publications/he2019knearest">Xiangyu He, Peisong Wang, Jian Cheng, 2019.</a> K-Nearest Neighbors Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Conditional Entropy Minimisation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="heo2012spherical"><a href="/publications/heo2012spherical">J. Heo, Y. Lee, J. He, S. Chang, S. Yoon, 2012.</a> Spherical Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Custom Iterative Scheme</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="irie2014locality"><a href="/publications/irie2014locality">G. Irie, Z. Li, X. Wu, S. Chang, 2014.</a> Locally Linear Hashing for Extracting Non-Linear Manifolds</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Alternating Optimisation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="jain2010hashing"><a href="/publications/jain2010hashing">P. Jain, S. Vijayanarasimhan, K. Grauman, 2010.</a> Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Randomised</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="jiang2015scalable"><a href="/publications/jiang2015scalable">Q. Jiang, W. Li, 2015.</a> Scalable Graph Hashing with Feature Transformation</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Matrix Factorisation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="jin2013complementary"><a href="/publications/jin2013complementary">Z. Jin, Y. Hu, Y. Lin, D. Zhang, S. Lin, D. Cai, X. Li, 2013.</a> Complementary Projection Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Gradient Descent</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="kong2012cusing"><a href="/publications/kong2012cusing">W. Kong, W. Li, 2012.</a> Isotropic Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Variance Balance</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="kulis2009kernelized"><a href="/publications/kulis2009kernelized">B. Kulis, K. Grauman, 2009.</a> Kernelized Locality-Sensitive Hashing for Scalable Image Search</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Matrix Factorisation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="kulis2009learning"><a href="/publications/kulis2009learning">B. Kulis, T. Darrell, 2009.</a> Learning to Hash with Binary Reconstructive Embeddings</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Coordinate Descent</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="leng2015hashing"><a href="/publications/leng2015hashing">Cong Leng, Jiaxiang Wu, Jian Cheng, Xi Zhang and Hanqing Lu, 2015.</a> Hashing for Distributed Data</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Alternate Optimisation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="li2015bit"><a href="/publications/li2015bit">P. Li, 2015.</a> 0-Bit Consistent Weighted Sampling</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Random Permutations</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="li2019neighbourhood"><a href="/publications/li2019neighbourhood">Shuyan Li, Zhixiang Chen, Jiwen Lu, Xiu Li, Jie Zhou, 2019.</a> Neighborhood Preserving Hashing for Scalable Video Retrieval</td>
+          <td>Binary</td>
+          <td>Deep</td>
+          <td>Backpropagation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="liu2011learning"><a href="/publications/liu2011learning">W. Liu, J. Wang, S. Kumar, S. Chang, 2011.</a> Hashing with Graphs</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Matrix Factorisation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="liu2014discrete"><a href="/publications/liu2014discrete">W. Liu, C. Mu, S. Kumar, S. Chang, 2014.</a> Discrete Graph Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Alternative Maximisation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="lv2007probe"><a href="/publications/lv2007probe">Q. Lv, W. Josephson, Z. Wang, M. Charikar, K. Li, 2007.</a> Multi-Probe LSH: Efficient Indexing for High-Dimensional Similarity Search</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Random Hyperplanes</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="mukherjee2015nmf"><a href="/publications/mukherjee2015nmf">Lopamudra Mukherjee, Sathya N. Ravi, Vamsi K. Ithapu, Tyler Holmes and Vikas Singh, 2015.</a> An NMF perspective on Binary Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Augmented Lagrangian</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="neyshabur2013power"><a href="/publications/neyshabur2013power">B. Neyshabur, R. Salakhutdinov, N. Srebro, 2013.</a> The Power of Asymmetry in Binary Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Random Hyperplanes</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="norouzi2011minimal"><a href="/publications/norouzi2011minimal">M. Norouzi, D. Fleet, 2011.</a> Minimal Loss Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Structured Perceptron</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="rastegari2016xnor"><a href="/publications/rastegari2016xnor">M. Rastegari, V. Ordonez, J. Redmon, A. Farhadi, 2016.</a> XNOR-Net: ImageNet Classification Using Binary Convolutional Neural Networks </td>
+          <td>Binary</td>
+          <td>Deep</td>
+          <td>Backpropagation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="rong2018locality"><a href="/publications/rong2018locality">Kexin Rong, Clara E. Yoon, Karianne J. Bergen, Hashem Elezabi,Peter Bailis, Philip Levis, Gregory C. Beroza, 2018.</a> Locality-Sensitive Hashing for Earthquake Detection: A Case Study of Scaling Data-Driven Science</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Random Hyperplanes</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="salakhutdinov2007semantic"><a href="/publications/salakhutdinov2007semantic">R. Salakhutdinov, G. Hinton, 2007.</a> Semantic Hashing</td>
+          <td>Binary</td>
+          <td>Deep</td>
+          <td>Backpropagation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="shen2018unsupervised"><a href="/publications/shen2018unsupervised">Fumin Shen, Yan Xu, Li Liu, Yang Yang, Zi Huang, Heng Tao Shen, 2018.</a> Unsupervised Deep Hashing with Similarity-Adaptive and Discrete Optimization</td>
+          <td>Binary</td>
+          <td>Deep</td>
+          <td>Backpropagation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="shrivastava2014asymmetric"><a href="/publications/shrivastava2014asymmetric">A. Shrivastava, P. Li, 2014.</a> Asymmetric LSH (ALSH) for Sublinear Time Maximum Inner Product Search (MIPS).</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Random Hyperplanes</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="song2018self"><a href="/publications/song2018self">Jingkuan Song, Hanwang Zhang, Xiangpeng Li, Lianli Gao, Meng Wang, Richang Hong, 2018.</a> Self-Supervised Video Hashing with Hierarchical Binary Auto-encoder</td>
+          <td>Binary</td>
+          <td>Deep</td>
+          <td>Backpropagation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="su2019unsupervised"><a href="/publications/su2019unsupervised">Shupeng Su, Zhisheng Zhong, Chao Zhang, 2019.</a> Deep Joint-Semantics Reconstructing Hashing for Large-Scale Unsupervised Cross-Modal Retrieval</td>
+          <td>Binary</td>
+          <td>Deep</td>
+          <td>Backpropagation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="sundaram2013streaming"><a href="/publications/sundaram2013streaming">Narayanan Sundaram, Aizana Turmukhametova, Nadathur Satish, Todd Mostak, Piotr Indyk, Samuel Madden and Pradeep Dubey, 2013.</a> Streaming Similarity Search over one Billion Tweets using Parallel Locality-Sensitive Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Random Hyperplanes</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="weiss2009spectral"><a href="/publications/weiss2009spectral">Y. Weiss, A. Torralba, R. Fergus, 2009.</a> Spectral Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Matrix Factorisation (PCA)</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="weiss2012multi"><a href="/publications/weiss2012multi">Y. Weiss, R. Fergus, A. Torralba, 2012.</a> Multidimensional Spectral Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Matrix Factorisation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="xirau2014fast"><a href="/publications/xirau2014fast">I. Torres-Xirau, J. Salvador, E. Pérez-Pellitero, 2014.</a> Fast Approximate Nearest-Neighbor Field by Cascaded Spherical Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Iterative optimisation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="xu2013harmonious"><a href="/publications/xu2013harmonious">B. Xu, J. Bu, Y. Chen, X. He, D. Cai, 2013.</a> Harmonious Hashing</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Variance Balance</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="xu2015convolutional"><a href="/publications/xu2015convolutional">Jiaming Xu, PengWang, Guanhua Tian, Bo Xu, Jun Zhao, Fangyuan Wang, Hongwei Hao, 2015.</a> Convolutional Neural Networks for Text Hashing</td>
+          <td>Binary</td>
+          <td>Deep</td>
+          <td>Backpropagation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="yang2019distill"><a href="/publications/yang2019distill">Erkun Yang, Tongliang Liu, Cheng Deng, Wei Liu, Dacheng Tao, 2019.</a> DistillHash: Unsupervised Deep Hashing by Distilling Data Pairs</td>
+          <td>Binary</td>
+          <td>Deep</td>
+          <td>Backpropagation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="ye2020nearoptimal"><a href="/publications/ye2020nearoptimal">Fanghua Ye, Jarana Manotumruksa, Emine Yilmaz, 2020.</a> Unsupervised Few-Bits Semantic Hashing with Implicit Topics Modeling</td>
+          <td>Binary</td>
+          <td>Deep</td>
+          <td>Backpropagation</td>
+      </tr>
+
+    
+    
+      <tr>
+          <td data-order="yu2014using"><a href="/publications/yu2014using">F. Yu, S. Kumar, Y. Gong, S. Chang, 2014.</a> Circulant Binary Embedding</td>
+          <td>Binary</td>
+          <td>Shallow</td>
+          <td>Fast Fourier Transform</td>
+      </tr>
+
 </tbody></table>
 
 <script>
@@ -27,3 +491,8 @@ $(document).ready( function () {
     $('#patternModelTable').DataTable({paging: false,});
 } );
 </script>
+
+    </div>
+
+  </body>
+</html>

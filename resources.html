@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  <!-- Hotjar Tracking Code for https://learning2hash.github.io/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1843243,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109544763-1');
+</script>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Resources on Machine Learning for Hashing | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.1.0" />
+<meta property="og:title" content="Resources on Machine Learning for Hashing" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Conferences and Workshops" />
+<meta property="og:description" content="Conferences and Workshops" />
+<link rel="canonical" href="https://learning2hash.github.io/resources.html" />
+<meta property="og:url" content="https://learning2hash.github.io/resources.html" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<script type="application/ld+json">
+{"url":"https://learning2hash.github.io/resources.html","headline":"Resources on Machine Learning for Hashing","@type":"WebPage","description":"Conferences and Workshops","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.svg">
+  <link rel="search" href="/public/opensearchdescription.xml" 
+      type="application/opensearchdescription+xml" 
+      title="learning2hash" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Awesome Learning to Hash
+        </a>
+      </h1>
+      <p class="lead">A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.</p>
+    </div>
+
+  <nav class="sidebar-nav">
+   <div class="sidebar-item"><p style="font-size: 12px">Search related work <input type='text' id='searchTarget' size="16"/> <button onClick="search();">Go</button></p></div>
+   <a class="sidebar-nav-item" href="/cite.html">How to Cite this Work</a>
+    <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
+   <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
+   <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
+   <a class="sidebar-nav-item" href="/base-taxonomy/">Core Taxonomy</a>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/quantisation.html">Quantisation Models</a>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/supervised.html">Supervised Projection Models</a>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/unsupervised.html">Unsupervised Projection Models</a></ul>
+   <a class="sidebar-nav-item-small" href="/base-taxonomy/independent.html">Data Independent Projection Models</a></ul>
+  <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
+  <a class="sidebar-nav-item active" href="/resources.html">Resources, Courses &#38; Events</a>
+  <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
+  <a class="sidebar-nav-item" href="/contributors.html">Contributors</a>
+
+</nav>
+
+  <div class="sidebar-item">
+    <p style="font-size: 12px">Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
+    <span style="font-size: 9px">
+      Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
+    </span></p>
+  </div>
+</div></div>
+
+<script>
+$("#searchTarget").keydown(function (e) {	
+  if (e.keyCode == 13) {
+    search();
+  }
+});
+function search() {
+  try {
+    ga('send', 'event', 'search', 'search', $("#searchTarget").val());
+  } finally {
+    window.location = "/papers.html#" + $("#searchTarget").val();
+  }
+}
+</script>
+
+
+    <div class="content container">
+      <h3 id="conferences-and-workshops">Conferences and Workshops</h3>
+
+<ul>
+  <li><a href="http://www.ee.oulu.fi/~lili/CEFRLatICCV2019.html">Compact and Efficient Feature Representation and Learning in Computer Vision, ICCV 2019</a>: a workshop dedicated to compact feature learning, including binary hashing methods.</li>
+  <li><a href="http://www.sisap.org/2020/">International Conference on Similarity Search and Applications</a>: a conference dedicated to similarity search</li>
+</ul>
+
+<h3 id="presentations-and-relevant-introductory-material">Presentations and Relevant Introductory Material</h3>
+
+<p>Please also see the excellent <a href="https://cs.nju.edu.cn/lwj/slides/L2H.pdf">tutorial slides</a> of <a href="https://cs.nju.edu.cn/lwj/">Dr. Wu-Jun Li</a> for a nice introduction to the field.</p>
+
+<p><a href="https://www.youtube.com/user/victorlavrenko">Dr Victor Lavrenko</a> has two excellent youtube videos <a href="https://www.youtube.com/watch?v=Arni-zkqMBA">here</a> and <a href="https://www.youtube.com/watch?v=dgH0NP8Qxa8">here</a>, describing the basics of locality sensitive hashing (LSH). These are ideal for those just entering the field or curious how to apply the method to their problem domain.</p>
+
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/Arni-zkqMBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</p>
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dgH0NP8Qxa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</p>
+
+<p>The reader is encouraged to further explore the following survey publications:</p>
+
+<ul>
+  <li><a href="https://arxiv.org/pdf/1509.05472.pdf">Learning to Hash for Indexing Big Data - A Survey</a></li>
+  <li><a href="https://arxiv.org/pdf/1606.00185.pdf">A Survey on Learning to Hash</a></li>
+  <li><a href="http://www.cs.utexas.edu/~grauman/temp/GraumanFergus_Hashing_chapterdraft.pdf">Learning Binary Hash Codes for Large-Scale Image Search</a></li>
+  <li><a href="https://www.slaney.org/malcolm/yahoo/Slaney2008-LSHTutorial.pdf">Locality-Sensitive Hashing for Finding Nearest Neighbors</a></li>
+</ul>
+
+<h3 id="courses">Courses</h3>
+<p>A few university courses are been taught covering aspects of machine of efficient computing. Below there are a few that have publicly available material.</p>
+<ul>
+  <li><a href="http://www.inf.ed.ac.uk/teaching/courses/exc/index_17-18.html">Extreme Computing</a> in University of Edinburgh.</li>
+  <li><a href="https://www.inf.ed.ac.uk/teaching/courses/tts/">Text Technologies for Data Science</a> in University of Edinburgh.</li>
+</ul>
+
+<h3 id="blog-posts">Blog Posts</h3>
+<p>Blog posts provide a great way to learn about cutting edge research and ideas. Here are a few of our favourites:</p>
+<ul>
+  <li><a href="https://towardsdatascience.com/fast-near-duplicate-image-search-using-locality-sensitive-hashing-d4c16058efcb">Fast Near-Duplicate Image Search using Locality Sensitive Hashing</a></li>
+  <li><a href="https://blog.bradfieldcs.com/an-introduction-to-hashing-in-the-era-of-machine-learning-6039394549b0">An Introduction to Hashing in the Era of Machine Learning</a></li>
+  <li><a href="https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134">Locality Sensitive Hashing: An effective way of reducing the dimensionality of your data</a></li>
+  <li><a href="https://www.wikiwand.com/en/Johnson%E2%80%93Lindenstrauss_lemma">Johnson–Lindenstrauss lemma</a></li>
+  <li><a href="http://rakaposhi.eas.asu.edu/s01-cse494-mailarchive/msg00054.html">LSH Ideas</a></li>
+  <li><a href="http://tylerneylon.com/a/lsh1/">Introduction to Locality-Sensitive Hashing (nice visualisations!)</a></li>
+  <li><a href="https://www.quora.com/What-is-locality-sensitive-hashing">What is locality-sensitive hashing?</a></li>
+</ul>
+
+<h3 id="books">Books</h3>
+
+<p>Some favourite books on the general topic of large-scale machine learning:</p>
+
+<ul>
+  <li>
+    <p><a href="http://www.mmds.org/">Mining of Massive Datasets</a>: great content throughout on all sorts of large-scale data mining topics from Hadoop to Google AdWords. Book includes a detailed treatment of LSH.</p>
+  </li>
+  <li>
+    <p><a href="https://nlp.stanford.edu/IR-book/information-retrieval-book.html">Introduction to Information Retrieval</a>: arguably a classic book on information retrieval basics, very well-written, with a comprehensive overview of data indexing and retrieval.</p>
+  </li>
+</ul>
+
+<p>Please, feel free to submit a pull request to adding more links in this page.</p>
+
+    </div>
+
+  </body>
+</html>
