@@ -6,7 +6,7 @@ comments: true
 
 ### Learning-to-Hash Survey Paper
 
-The full literature survey that accompanies this website is available [as a research paper](http://seanjmoran.com/pdfs/hashing_review.pdf) currently under submission to a peer-reviewed journal. Full citation information will appear here in due course. In the meantime please feel free to cite the following thesis upon which the review is based:
+If you have found this website useful to your work please consider a [Github star](https://github.com/learning2hash/learning2hash.github.io) and a citation to the following thesis upon which this site is based:
 
 <pre>
 @phdthesis{Moran16,
