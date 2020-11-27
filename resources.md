@@ -3,23 +3,10 @@ layout: default
 title: Resources on Machine Learning for Hashing
 comments: true
 ---
-
-### Learning-to-Hash Survey Paper
-
-If you have found this website useful to your work please consider a [Github star](https://github.com/learning2hash/learning2hash.github.io) and a citation to the following thesis upon which this site is based:
-
-<pre>
-@phdthesis{Moran16,
-  author       = {Sean Moran}, 
-  title        = {Learning to hash for large-scale image retrieval},
-  school       = {University of Edinburgh},
-  year         = 2016,
-}
-</pre>
-
-### Workshops
+### Conferences and Workshops
 
 * [Compact and Efficient Feature Representation and Learning in Computer Vision, ICCV 2019](http://www.ee.oulu.fi/~lili/CEFRLatICCV2019.html): a workshop dedicated to compact feature learning, including binary hashing methods. 
+* [International Conference on Similarity Search and Applications](http://www.sisap.org/2020/): a conference dedicated to similarity search
 
 ### Presentations and Relevant Introductory Material
 
