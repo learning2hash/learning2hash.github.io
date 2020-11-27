@@ -9,6 +9,7 @@ additional_links:
    - {name: "PDF", url: "https://openreview.net/attachment?id=rkenmREFDr&name=original_pdf"}
    - {name: "Code", url: "https://anonymous.4open.science/r/cdd789a8-818c-4675-98fd-39f8da656129/"}
    - {name: "Openreview", url: "https://openreview.net/forum?id=rkenmREFDr"}
+tags: ["ICLR", "Deep Learning", "Supervised"]
 ---
 Space partitions of underlie a vast and important
 class of fast nearest neighbor search (NNS) algorithms. Inspired by recent theoretical work on NNS for general metric spaces (Andoni et al. 2018b,c), we develop a new framework for building space partitions reducing the problem to balanced graph partitioning followed by supervised classification.
