@@ -3,7 +3,7 @@ layout: default
 title: Tutorial
 comments: true
 ---
-In this tutorial we will explore a learning to hash model and compare its performance to Locality Sensitive Hashing (LSH). 
+In this tutorial we explore a learning to hash model and compare its performance to Locality Sensitive Hashing (LSH). 
 
 Specifically we will implement [Graph Regularised Hashing (GRH)](https://sjmoran.github.io/pdfs/grh_ecir15.pdf), a method for learning the hashing hyperplanes using supervision:
 
