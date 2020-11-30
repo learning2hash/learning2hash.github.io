@@ -3,7 +3,7 @@ layout: default
 title: How to cite this Work
 comments: true
 ---
-If you have found this website useful to your work or research please consider a [Github star](https://github.com/learning2hash/learning2hash.github.io) and a citation to the following thesis upon which this site is based:
+If you have found this website useful to your work or research please consider a citation to the following thesis upon which this site is based:
 
 <pre>
 @phdthesis{Moran16,
@@ -14,7 +14,7 @@ If you have found this website useful to your work or research please consider a
 }
 </pre>
 
-You can alternatively cite this website directly with the following BibTeX:
+You can also cite this website directly with the following BibTeX:
 
 <pre>
 @misc{ Hashing_survey_moran,
@@ -23,5 +23,3 @@ You can alternatively cite this website directly with the following BibTeX:
       howpublished = {\url{https://learning2hash.github.io}}
       year = {2017}}
 </pre>
-
-Thank you for your support!
