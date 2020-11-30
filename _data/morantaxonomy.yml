@@ -11,6 +11,7 @@
 - {bibkey: cao2017collective, categories: [quantisation], codebook: Binary, optimisation: Backpropagation, thresholds: N/A, type: Supervised}
 - {bibkey: shi2019variable, categories: [quantisation], codebook: Any, optimisation: Greedy Strategy, thresholds: Variable, type: Unsupervised}
 - {bibkey: li2019push, categories: [quantisation], codebook: Any, optimisation: Backpropagation, thresholds: N/A, type: Supervised}
+- {bibkey: cao2020learning, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: N/A, thresholds: N/A, type: Unsupervised}
 
 # Supervised Projection Models
 - {bibkey: dong2020learning, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
