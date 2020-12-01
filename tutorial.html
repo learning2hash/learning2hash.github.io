@@ -130,7 +130,8 @@ function search() {
 <p>Specifically we will implement <a href="https://sjmoran.github.io/pdfs/grh_ecir15.pdf">Graph Regularised Hashing (GRH)</a>, a simple but effecitive model for learning to hash.</p>
 
 <pre>
-@incollection{ 
+@incollection
+{ 
 year={2015}, 
 isbn={978-3-319-16353-6}, 
 booktitle={Advances in Information Retrieval}, 
@@ -145,7 +146,7 @@ language={English}
 }
 </pre>
 
-<p>The original Matlab code supplied by the authors is <a href="https://github.com/sjmoran/GRH">here</a>. This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH.</p>
+<p>The original Matlab code supplied by the authors is <a href="https://github.com/sjmoran/GRH">here</a>. We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH (random projections).</p>
 
 <pre>
 ALPHA = 0.9
