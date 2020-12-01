@@ -5,7 +5,7 @@ comments: true
 ---
 In this tutorial we explore a learning to hash model and compare its performance to Locality Sensitive Hashing (LSH). 
 
-Specifically we will implement [Graph Regularised Hashing (GRH)](https://sjmoran.github.io/pdfs/grh_ecir15.pdf), a method for learning the hashing hyperplanes using supervision:
+Specifically we will implement [Graph Regularised Hashing (GRH)](https://sjmoran.github.io/pdfs/grh_ecir15.pdf), a simple but effecitive model for learning to hash.
 
 <pre>
 @incollection{ 
@@ -21,3 +21,6 @@ url={http://dx.doi.org/10.1007/978-3-319-16354-3_15},
 publisher={Springer International Publishing}, author={Moran, Sean and Lavrenko, Victor}, pages={135-146}, 
 language={English} }
 </pre>
+
+The original Matlab code supplied by the authors is [here](https://github.com/sjmoran/GRH). This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH.
+
