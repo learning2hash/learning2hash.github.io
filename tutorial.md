@@ -8,7 +8,8 @@ In this tutorial we explore a learning to hash model and compare its performance
 Specifically we will implement [Graph Regularised Hashing (GRH)](https://sjmoran.github.io/pdfs/grh_ecir15.pdf), a simple but effecitive model for learning to hash.
 
 <pre>
-@incollection{ 
+@incollection
+{ 
 year={2015}, 
 isbn={978-3-319-16353-6}, 
 booktitle={Advances in Information Retrieval}, 
@@ -23,7 +24,7 @@ language={English}
 }
 </pre>
 
-The original Matlab code supplied by the authors is [here](https://github.com/sjmoran/GRH). This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH.
+The original Matlab code supplied by the authors is [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH (random projections).
 
 <pre>
 ALPHA = 0.9
