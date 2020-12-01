@@ -5,7 +5,7 @@ comments: true
 ---
 In this tutorial we explore a learning to hash model and compare its performance to Locality Sensitive Hashing (LSH). 
 
-Specifically we will implement [Graph Regularised Hashing (GRH)](https://sjmoran.github.io/pdfs/grh_ecir15.pdf), a simple but effecitive model for learning to hash.
+Specifically we will implement [Graph Regularised Hashing (GRH)](https://sjmoran.github.io/pdfs/grh_ecir15.pdf), a simple but empirically effective model for learning to hash.
 
 <pre>
 @incollection
