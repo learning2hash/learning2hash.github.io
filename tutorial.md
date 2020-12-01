@@ -26,6 +26,8 @@ language={English}
 
 The original Matlab code supplied by the authors is [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH (random projections).
 
+Reminscent of the expectation maximisation algorithm (EM), the model consists of two steps, performed in a loop: learning of the hashing hyperplanes followed by smoothing of the predicted bits based on the image relationship graph defined by the labels.
+
 <pre>
 ALPHA = 0.9
 bitsGRH = ALPHA.*(affinity * bitsGRH) + (1-ALPHA).*bitsSBQ(RunObj.data.affinityInd,:);
