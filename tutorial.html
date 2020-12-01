@@ -141,11 +141,56 @@ doi={10.1007/978-3-319-16354-3_15},
 title={Graph Regularised Hashing}, 
 url={http://dx.doi.org/10.1007/978-3-319-16354-3_15}, 
 publisher={Springer International Publishing}, author={Moran, Sean and Lavrenko, Victor}, pages={135-146}, 
-language={English} }
+language={English} 
+}
 </pre>
 
 <p>The original Matlab code supplied by the authors is <a href="https://github.com/sjmoran/GRH">here</a>. This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH.</p>
 
+<pre>
+ALPHA = 0.9
+bitsGRH = ALPHA.*(affinity * bitsGRH) + (1-ALPHA).*bitsSBQ(RunObj.data.affinityInd,:);
+
+bitsGRH(bitsGRH&gt;=0)=1;
+bitsGRH(bitsGRH&lt;0)=-1;
+
+bitsGRHTemp=[];
+dataProj=[];
+predictedScores={};
+predictedLabels={};
+svmModel={};
+
+for k=1:size(bitsGRH,2)
+    
+    labels=bitsGRH(:,k);
+    
+    nPosLabels=size(find(labels==1),1);
+    nNegLabels=size(find(labels==-1),1);
+  
+    svmModel{k} =train(labels,sparse(data),['-s 1 -c ',num2str(RunObj.params.C),' -w1 ',num2str(ceil(w1)),' -w-1 ',num2str(ceil(w2))]);
+   
+    data=RunObj.data.dataValidParFor;
+    predictedLabels={};
+    
+    [predictedLabels, accuracy, predictedScores]=predict(ones(size(data,1),1), sparse(data{), svmModel{k});
+    
+    bitsGRHTemp(:,k)=predictedLabels;
+
+    dataProj=[dataProj,predictedScores];
+end
+
+bitsGRH=bitsGRHTemp;
+
+% Quantise projections
+bitsGRH(bitsGRH&gt;0)=1;
+bitsGRH(bitsGRH&lt;=0)=0;
+
+[RunObj,pAtR2GRHValid, mAPGRHValid]=eval_bits(RunObj, bitsGRH, 1);
+
+disp(sprintf('%s\t%f\n','mAPGRHValid: ',mAPGRHValid))
+
+bitsGRH(bitsGRH==0)=-1;
+</pre>
 
     </div>
 
