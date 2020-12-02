@@ -29,7 +29,8 @@ The original Matlab code supplied by the authors is [here](https://github.com/sj
 First step is to instantiate a virtual environment for Python3:
 
 <pre>
-python3 -m venv <location to place venv>
+python3 -m venv ./hashing_tutorial
+source hashing_tutorial/bin/activate
 </pre>
 
 Reminscent of the expectation maximisation algorithm (EM), the model consists of two steps, performed in a loop: learning of the hashing hyperplanes followed by smoothing of the predicted bits based on the image relationship graph defined by the labels.
