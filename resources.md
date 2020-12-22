@@ -33,6 +33,8 @@ The reader is encouraged to further explore the following survey publications:
 * [LabelMe Gist Features (.mat format)](https://www.dropbox.com/s/dwixb9ry4zwvcp9/LabelMe_gist.mat?dl=0)
 * [MNIST Pixel Features (.mat format)](https://www.dropbox.com/s/x3j6ik6kvnw95h3/MNIST_gnd_release.mat?dl=0)
 * [SIFT 1M Features (.mat format)](https://www.dropbox.com/s/29f6r7pqevfy2ck/sift1m.mat?dl=0)
+* [20 Newsgroups (.mat format)](https://www.dropbox.com/s/wql7m8wuvn9efhj/20Newsgroups.mat?dl=0)
+* [TDT2 (.mat format)](https://www.dropbox.com/s/qasz8z3sr1pjqog/TDT2.mat?dl=0)
 
 ### Courses
 A few university courses are been taught covering aspects of machine of efficient computing. Below there are a few that have publicly available material.
