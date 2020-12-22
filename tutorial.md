@@ -84,11 +84,21 @@ powers_of_two = 1 << np.arange(n_vectors - 1, -1, step=-1)
 print(powers_of_two)
 # [32768 16384  8192  4096  2048  1024   512   256   128    64    32    16    8     4     2     1]
 
-# final integer representation of individual bins
 bin_indices = bin_indices_bits.dot(powers_of_two)
 print(bin_indices)
 # 21560
 </pre>
+
+The example image will hash into hashtable bucket with index 21560. Now we will hash the entire dataset using matrix operations:
+
+<pre>
+bin_indices_bits = data.dot(random_vectors) >= 0
+print(bin_indices_bits.shape)
+bin_indices = bin_indices_bits.dot(powers_of_two)
+bin_indices.shape
+</pre>
+
+bin_indices now contains 60,000 bin indices, one for each of the 60,000 images in the CIFAR-10 dataset.
 
 Reminscent of the expectation maximisation algorithm (EM), the model consists of two steps, performed in a loop: learning of the hashing hyperplanes followed by smoothing of the predicted bits based on the image relationship graph defined by the labels.
 
