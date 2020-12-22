@@ -126,7 +126,9 @@ print(classes[:,46613])   # 0
 print(classes[:,54356])   # 0
 </pre>
 
-In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0). We now quantify the performance of LSH using the precision at search radius 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we create a set of queries randomly sampled from the CIFAR-10 dataset:
+In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0). 
+
+We now quantify the performance of LSH using the precision at search radius 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we create a set of queries randomly sampled from the CIFAR-10 dataset:
 
 <pre>
 from sklearn.model_selection import train_test_split
