@@ -127,9 +127,9 @@ function search() {
     <div class="content container">
       <p>In this tutorial we explore a learning to hash model and compare its performance to Locality Sensitive Hashing (LSH).</p>
 
-<p>Specifically we will implement <a href="https://sjmoran.github.io/pdfs/grh_ecir15.pdf">Graph Regularised Hashing (GRH)</a> of Moran and Lavrenko, a simple but empirically effective model for learning to hash. The citation bibtex can be found <a href="https://sjmoran.github.io/bib/grh.bib">here</a>.</p>
+<p>Specifically we will implement rgw <a href="https://sjmoran.github.io/pdfs/grh_ecir15.pdf">Graph Regularised Hashing (GRH)</a> model of Moran and Lavrenko, a simple but empirically effective model for learning to hash. The citation bibtex can be found <a href="https://sjmoran.github.io/bib/grh.bib">here</a>.</p>
 
-<p>The original Matlab code supplied by the authors is <a href="https://github.com/sjmoran/GRH">here</a>. We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH (random projections).</p>
+<p>The original Matlab code supplied by the authors is <a href="https://github.com/sjmoran/GRH">here</a>. We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH (random projections) using the precision at 10 metric.</p>
 
 <p>First step is to instantiate a virtual environment for Python3:</p>
 
