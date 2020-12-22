@@ -128,7 +128,7 @@ print(classes[:,54356])   # 0
 
 In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0). 
 
-We now quantify the performance of LSH using the precision at search radius 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we create a set of queries randomly sampled from the CIFAR-10 dataset:
+We now quantify the semantic retrieval effectieness of LSH using the precision at search radius 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we create a set of queries randomly sampled from the CIFAR-10 dataset:
 
 <pre>
 from sklearn.model_selection import train_test_split
@@ -136,6 +136,6 @@ np.random.seed(0)
 data_train, data_test, labels_train, labels_test = train_test_split(data, classes[0,:], test_size=0.01, random_state=42)
 </pre>
 
-This code will give 600 random queries that we will use alongside the LSH search index to find nearest neighbours.
+This code will give 600 random queries that we will use alongside the LSH search index to find nearest neighbours. To search for nearest neighbours we apply a _radius based search_.
 
-Acknowledgement: Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
+_Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
