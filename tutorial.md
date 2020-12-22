@@ -36,18 +36,19 @@ source hashing_tutorial/bin/activate
 We retrieve and pre-process the CIFAR-10 dataset as follows:
 
 <pre>
-https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=0
-from keras.datasets import cifar10
+import scipy.io
+import os
+import requests
 
-# load dataset
-(trainX, trainy), (testX, testy) = cifar10.load_data()
+url='https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=1'
+response = requests.get(url)
+with open(os.path.join("./", "Gist512CIFAR10.mat"), 'wb') as f:
+    f.write(response.content)
 
-# summarize loaded dataset
-print('Train: X=%s, y=%s' % (trainX.shape, trainy.shape))
-print('Test: X=%s, y=%s' % (testX.shape, testy.shape))
+mat = scipy.io.loadmat('./Gist512CIFAR10.mat')
 </pre>
 
-The above code should print out the dimensions of a tensor containing 50,000 training images of size 32x32 and 10,000 testing images of size 32x32. The ground truth labels are also included.
+The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. 
 
 Reminscent of the expectation maximisation algorithm (EM), the model consists of two steps, performed in a loop: learning of the hashing hyperplanes followed by smoothing of the predicted bits based on the image relationship graph defined by the labels.
 
