@@ -51,7 +51,7 @@ data = mat['X']
 classes = mat['X_class']
 </pre>
 
-The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. We will now generate 32 random hyperplanes and project one image onto these hyperplanes, generating the hashcode:
+The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. We will now generate 16 random hyperplanes and project one image onto these hyperplanes, generating the hashcode:
 
 <pre>
 import numpy as np
@@ -68,6 +68,9 @@ print('dimension:', data[0,:].shape)
 bin_indices_bits = data[0,:].dot(random_vectors) >= 0
 
 print(bin_indices_bits)
+
+# [False  True False  True False  True False False False False  True  True True False False False]
+
 </pre>
 
 The last line of code prints out the hashcode assigned to this image. Images with the exact same hashcode will collide in the same hashtable bucket. We would like these colliding images to be semantically similar i.e. have the same class label.
@@ -78,10 +81,13 @@ We now convert the boolean representation above into an integer representation t
 # https://wiki.python.org/moin/BitwiseOperators
 # x << y is the same as multiplying x by 2 ** y
 powers_of_two = 1 << np.arange(n_vectors - 1, -1, step=-1)
+print(powers_of_two)
+# [32768 16384  8192  4096  2048  1024   512   256   128    64    32    16    8     4     2     1]
 
 # final integer representation of individual bins
 bin_indices = bin_indices_bits.dot(powers_of_two)
 print(bin_indices)
+# 21560
 </pre>
 
 Reminscent of the expectation maximisation algorithm (EM), the model consists of two steps, performed in a loop: learning of the hashing hyperplanes followed by smoothing of the predicted bits based on the image relationship graph defined by the labels.
