@@ -248,54 +248,7 @@ print(classes[:,46613])   # 0
 print(classes[:,54356])   # 0
 </pre>
 
-<p>In this case we see that LSH performs very well, with most of the collding images coming from the same class label (0). We now quantify the performance of LSH using the precision and recall metrics:</p>
-
-<p>Reminscent of the expectation maximisation algorithm (EM), the model consists of two steps, performed in a loop: learning of the hashing hyperplanes followed by smoothing of the predicted bits based on the image relationship graph defined by the labels.</p>
-
-<pre>
-ALPHA = 0.9
-bitsGRH = ALPHA.*(affinity * bitsGRH) + (1-ALPHA).*bitsSBQ(RunObj.data.affinityInd,:);
-
-bitsGRH(bitsGRH&gt;=0)=1;
-bitsGRH(bitsGRH&lt;0)=-1;
-
-bitsGRHTemp=[];
-dataProj=[];
-predictedScores={};
-predictedLabels={};
-svmModel={};
-
-for k=1:size(bitsGRH,2)
-    
-    labels=bitsGRH(:,k);
-    
-    nPosLabels=size(find(labels==1),1);
-    nNegLabels=size(find(labels==-1),1);
-  
-    svmModel{k} =train(labels,sparse(data),['-s 1 -c ',num2str(RunObj.params.C),' -w1 ',num2str(ceil(w1)),' -w-1 ',num2str(ceil(w2))]);
-   
-    data=RunObj.data.dataValidParFor;
-    predictedLabels={};
-    
-    [predictedLabels, accuracy, predictedScores]=predict(ones(size(data,1),1), sparse(data{), svmModel{k});
-    
-    bitsGRHTemp(:,k)=predictedLabels;
-
-    dataProj=[dataProj,predictedScores];
-end
-
-bitsGRH=bitsGRHTemp;
-
-% Quantise projections
-bitsGRH(bitsGRH&gt;0)=1;
-bitsGRH(bitsGRH&lt;=0)=0;
-
-[RunObj,pAtR2GRHValid, mAPGRHValid]=eval_bits(RunObj, bitsGRH, 1);
-
-disp(sprintf('%s\t%f\n','mAPGRHValid: ',mAPGRHValid))
-
-bitsGRH(bitsGRH==0)=-1;
-</pre>
+<p>In this case we see that LSH performs very well, with most of the collding images coming from the same class label (0). We now quantify the performance of LSH using the hash lookup success rate as the number of hashcode bits are varied.</p>
 
 <p>Parts of this tutorial were inspired by the text-based LSH tutorial <a href="http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html">here</a>.</p>
 
