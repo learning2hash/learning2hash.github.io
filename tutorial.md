@@ -133,10 +133,10 @@ We now quantify the semantic retrieval effectieness of LSH more formally using t
 <pre>
 from sklearn.model_selection import train_test_split
 np.random.seed(0)
-data_train, data_test, labels_train, labels_test = train_test_split(data, classes[0,:], test_size=0.01, random_state=42)
+data_train, data_test, labels_train, labels_test = train_test_split(data, classes[0,:], test_size=0.005, random_state=42)
 </pre>
 
-This code will give 600 random queries that we will use alongside the LSH search index to find nearest neighbours. To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
+This code will give 300 random queries that we will use alongside the LSH search index to find nearest neighbours. To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
 
 <pre>
 from itertools import combinations
@@ -153,7 +153,7 @@ for query_image, query_label in zip(data_test,labels_test):
     candidate_set = set()
     for search_radius in range(max_search_radius):
     	n_vectors = bin_index_bits.shape[0]
-    	for different_bits in combinations(range(n_vectors), max_search_radius):
+    	for different_bits in combinations(range(n_vectors), search_radius):
     		index = list(different_bits)
     		alternate_bits = bin_index_bits.copy()
     		alternate_bits[index] = np.logical_not(alternate_bits[index])
@@ -176,9 +176,9 @@ for query_image, query_label in zip(data_test,labels_test):
     	precision_history[search_radius].append(precision)
 
 mean_precision = [np.mean(precision_history[i]) for i in range(len(precision_history))]
-print(mean_precision)	
+print(np.mean(mean_precision))	
 </pre>	
 
-The above code will produce a mean precision@10 of 0.43 across all of the 600 queries. This means that, on average, given a list of 10 returned images, 40% of those will be relevant to the query. This is reasonable performance, especially since the hyperplanes were generated randomly! We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness.
+The above code will produce a mean precision@10 of 0.38 for a radius of 0, 0.47 for a radius of 1 and 0.52 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 50% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly! We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness.
 
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
