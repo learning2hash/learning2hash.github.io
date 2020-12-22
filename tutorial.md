@@ -133,7 +133,7 @@ We now quantify the semantic retrieval effectieness of LSH more formally using t
 <pre>
 from sklearn.model_selection import train_test_split
 np.random.seed(0)
-data_train, data_test, labels_train, labels_test = train_test_split(data, classes[0,:], test_size=0.005, random_state=42)
+data_train, data_test, labels_train, labels_test = train_test_split(data, classes[0,:], test_size=0.002, random_state=42)
 </pre>
 
 This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
@@ -179,6 +179,10 @@ mean_precision = [np.mean(precision_history[i]) for i in range(len(precision_his
 print(np.mean(mean_precision))	
 </pre>	
 
-The above code will produce a mean precision@10 of 0.38 for a radius of 0, 0.47 for a radius of 1 and 0.52 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 50% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly! We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness.
+The above code will produce a mean precision@10 of 0.51 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 50% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly! 
+
+![LSH Precision@10](./lsh_precision10.png)
+
+We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness.
 
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
