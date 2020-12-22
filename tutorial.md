@@ -92,7 +92,7 @@ for idx, bin_index in enumerate(bin_indices):
 
 for bucket,images in table.items():
 	if len(images)>1:
-        print(images)
+		print(images)
 </pre>
 
 The code above will print out the buckets of the hashtable with at least two images and the associated IDs (i.e. row numbers in the original .mat file) of the images in each bucket. The average bin count is ~51 images, so there has been many collisions of images into buckets. Next we will inspect some of the buckets to gain an understanding of the quality of the hashing with LSH:
@@ -128,7 +128,7 @@ print(classes[:,54356])   # 0
 
 In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0). 
 
-We now quantify the semantic retrieval effectieness of LSH using the precision at search radius 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we create a set of queries randomly sampled from the CIFAR-10 dataset:
+We now quantify the semantic retrieval effectieness of LSH more formally using the precision at search radius 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we create a set of queries randomly sampled from the CIFAR-10 dataset:
 
 <pre>
 from sklearn.model_selection import train_test_split
@@ -136,6 +136,49 @@ np.random.seed(0)
 data_train, data_test, labels_train, labels_test = train_test_split(data, classes[0,:], test_size=0.01, random_state=42)
 </pre>
 
-This code will give 600 random queries that we will use alongside the LSH search index to find nearest neighbours. To search for nearest neighbours we apply a _radius based search_.
+This code will give 600 random queries that we will use alongside the LSH search index to find nearest neighbours. To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
+
+<prev>
+from itertools import combinations
+from sklearn.metrics.pairwise import pairwise_distances
+import pandas as pd
+
+max_search_radius=2
+topn=10
+precision_history = {i: [] for i in range(max_search_radius)}
+
+for query_image, query_label in zip(data_test,labels_test):
+    bin_index_bits = np.ravel(query_image.dot(random_vectors) >= 0)
+
+    candidate_set = set()
+    for search_radius in range(max_search_radius):
+    	n_vectors = bin_index_bits.shape[0]
+    	for different_bits in combinations(range(n_vectors), max_search_radius):
+    		index = list(different_bits)
+    		alternate_bits = bin_index_bits.copy()
+    		alternate_bits[index] = np.logical_not(alternate_bits[index])
+    		nearby_bin = alternate_bits.dot(powers_of_two)
+    		if nearby_bin in table:
+    			candidate_set.update(table[nearby_bin])
+
+    	# sort candidates by their true distances from the query
+    	candidate_list = list(candidate_set)
+    	candidates = data[candidate_list[:]]
+    	ground_truth = classes[:,candidate_list[:]][0]
+    	distance = pairwise_distances(candidates, query_image.reshape(1,-1), metric='cosine').flatten()
+    	distance_col = 'distance'
+    	nearest_neighbors = pd.DataFrame({
+        	'id': candidate_list, 'class': ground_truth, distance_col: distance
+    	}).sort_values(distance_col).reset_index(drop=True)
+
+    	candidate_set_labels = nearest_neighbors.sort_values(by=['distance'], ascending=True)['class'][:10]
+    	precision = list(candidate_set_labels).count(query_label) / topn
+    	precision_history[search_radius].append(precision)
+
+mean_precision = [np.mean(precision_history[i]) for i in range(len(precision_history))]
+print(mean_precision)	
+</prev>	
+
+The above code will produce a mean precision@10 of 0.43 across all of the 600 queries. On average, given a list of 10 returned images, 40% of those will be relevant to the query. This is not bad performance, especially since the hyperplanes were generated randomly! We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness.
 
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
