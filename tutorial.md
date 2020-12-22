@@ -26,18 +26,17 @@ language={English}
 
 The original Matlab code supplied by the authors is [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH (random projections).
 
-First step is to instantiate a virtual environment for Python3 and install the tensorflow library:
+First step is to instantiate a virtual environment for Python3:
 
 <pre>
 python3 -m venv ./hashing_tutorial
 source hashing_tutorial/bin/activate
-python3 -m pip install --upgrade pip
-python3 -m pip install tensorflow==2.2.0
 </pre>
 
-We retrieve the CIFAR 10 dataset as follows:
+We retrieve and pre-process the CIFAR-10 dataset as follows:
 
 <pre>
+https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=0
 from keras.datasets import cifar10
 
 # load dataset
