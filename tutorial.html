@@ -129,7 +129,7 @@ function search() {
 
 <p>Specifically we will implement rgw <a href="https://sjmoran.github.io/pdfs/grh_ecir15.pdf">Graph Regularised Hashing (GRH)</a> model of Moran and Lavrenko, a simple but empirically effective model for learning to hash. The citation bibtex can be found <a href="https://sjmoran.github.io/bib/grh.bib">here</a>.</p>
 
-<p>The original Matlab code supplied by the authors is <a href="https://github.com/sjmoran/GRH">here</a>. We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH (random projections) using the precision at 10 metric.</p>
+<p>The original Matlab code supplied by Moran and Lavrenko can be found <a href="https://github.com/sjmoran/GRH">here</a>. We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH (random projections) using the precision at 10 metric and semantic nearest neighbours.</p>
 
 <p>First step is to instantiate a virtual environment for Python3:</p>
 
@@ -258,7 +258,7 @@ np.random.seed(0)
 data_train, data_test, labels_train, labels_test = train_test_split(data, classes[0,:], test_size=0.005, random_state=42)
 </pre>
 
-<p>This code will give 300 random queries that we will use alongside the LSH search index to find nearest neighbours. To search for nearest neighbours we apply a <em>Hamming radius based search</em>. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.</p>
+<p>This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. To search for nearest neighbours we apply a <em>Hamming radius based search</em>. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.</p>
 
 <pre>
 from itertools import combinations
