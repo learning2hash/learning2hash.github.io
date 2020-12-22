@@ -98,7 +98,21 @@ bin_indices = bin_indices_bits.dot(powers_of_two)
 bin_indices.shape
 </pre>
 
-bin_indices now contains 60,000 bin indices, one for each of the 60,000 images in the CIFAR-10 dataset.
+bin_indices now contains 60,000 bin indices, one for each of the 60,000 images in the CIFAR-10 dataset. We now insert these images into a hashtable and inspect the duplicates:
+
+<pre>
+from collections import defaultdict
+
+table = defaultdict(list)
+for idx, bin_index in enumerate(bin_indices):
+	table[bin_index].append(idx)
+
+for bucket,images in table.items():
+	if len(images)>1:
+        print(images)
+</pre>
+
+The code above will print out the buckets of the hashtable and the associated IDs (i.e. row numbers in the original .mat file) of the images in each bucket. The average bin count is 52 images, so there has been many collisions of images into buckets. Next we will inspect some of the buckets to gain an understanding of the quality of the hashing with LSH:
 
 Reminscent of the expectation maximisation algorithm (EM), the model consists of two steps, performed in a loop: learning of the hashing hyperplanes followed by smoothing of the predicted bits based on the image relationship graph defined by the labels.
 
