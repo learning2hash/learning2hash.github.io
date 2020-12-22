@@ -138,7 +138,7 @@ data_train, data_test, labels_train, labels_test = train_test_split(data, classe
 
 This code will give 600 random queries that we will use alongside the LSH search index to find nearest neighbours. To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
 
-<prev>
+<pre>
 from itertools import combinations
 from sklearn.metrics.pairwise import pairwise_distances
 import pandas as pd
@@ -177,7 +177,7 @@ for query_image, query_label in zip(data_test,labels_test):
 
 mean_precision = [np.mean(precision_history[i]) for i in range(len(precision_history))]
 print(mean_precision)	
-</prev>	
+</pre>	
 
 The above code will produce a mean precision@10 of 0.43 across all of the 600 queries. On average, given a list of 10 returned images, 40% of those will be relevant to the query. This is not bad performance, especially since the hyperplanes were generated randomly! We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness.
 
