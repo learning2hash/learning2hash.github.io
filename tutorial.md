@@ -179,6 +179,6 @@ mean_precision = [np.mean(precision_history[i]) for i in range(len(precision_his
 print(mean_precision)	
 </pre>	
 
-The above code will produce a mean precision@10 of 0.43 across all of the 600 queries. On average, given a list of 10 returned images, 40% of those will be relevant to the query. This is not bad performance, especially since the hyperplanes were generated randomly! We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness.
+The above code will produce a mean precision@10 of 0.43 across all of the 600 queries. This means that, on average, given a list of 10 returned images, 40% of those will be relevant to the query. This is reasonable performance, especially since the hyperplanes were generated randomly! We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness.
 
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
