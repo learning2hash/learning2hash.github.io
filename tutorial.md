@@ -136,4 +136,4 @@ data_train, data_test, labels_train, labels_test = train_test_split(data, classe
 
 This code will give 600 random queries that we will use alongside the LSH search index to find nearest neighbours.
 
-Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
+Acknowledgement: Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
