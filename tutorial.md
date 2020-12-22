@@ -136,3 +136,5 @@ disp(sprintf('%s\t%f\n','mAPGRHValid: ',mAPGRHValid))
 
 bitsGRH(bitsGRH==0)=-1;
 </pre>
+
+Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
