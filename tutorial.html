@@ -168,9 +168,30 @@ with open(os.path.join("./", "Gist512CIFAR10.mat"), 'wb') as f:
     f.write(response.content)
 
 mat = scipy.io.loadmat('./Gist512CIFAR10.mat')
+
+data = mat['X']
+classes = mat['X_class']
 </pre>
 
-<p>The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory.</p>
+<p>The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. We will now generate 32 random hyperplanes and project one image onto these hyperplanes, generating the hashcode:</p>
+
+<pre>
+import numpy as np
+
+num_classes = 10
+n_vectors = 32
+dim = 512
+
+np.random.seed(0)
+random_vectors = np.random.randn(dim, n_vectors)
+print(random_vectors)
+
+print('dimension:', data[0,:].shape)
+bin_indices_bits = data[0,:].dot(random_vectors) &gt;= 0
+
+print(bin_indices_bits)
+
+</pre>
 
 <p>Reminscent of the expectation maximisation algorithm (EM), the model consists of two steps, performed in a loop: learning of the hashing hyperplanes followed by smoothing of the predicted bits based on the image relationship graph defined by the labels.</p>
 
