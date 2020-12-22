@@ -7,7 +7,7 @@ In this tutorial we explore a learning to hash model and compare its performance
 
 Specifically we will implement rgw [Graph Regularised Hashing (GRH)](https://sjmoran.github.io/pdfs/grh_ecir15.pdf) model of Moran and Lavrenko, a simple but empirically effective model for learning to hash. The citation bibtex can be found [here](https://sjmoran.github.io/bib/grh.bib).
 
-The original Matlab code supplied by the authors is [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH (random projections) using the precision at 10 metric.
+The original Matlab code supplied by Moran and Lavrenko can be found [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark retrieval effectiveness against LSH (random projections) using the precision at 10 metric and semantic nearest neighbours.
 
 First step is to instantiate a virtual environment for Python3:
 
