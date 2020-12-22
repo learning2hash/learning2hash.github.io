@@ -126,6 +126,6 @@ print(classes[:,46613])   # 0
 print(classes[:,54356])   # 0
 </pre>
 
-In this case we see that LSH performs very well, with most of the collding images coming from the same class label (0). We now quantify the performance of LSH using the hash lookup success rate as the number of hashcode bits are varied.
+In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0). We now quantify the performance of LSH using the precision at search radius 10 as the number of hashcode bits are varied.
 
 Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
