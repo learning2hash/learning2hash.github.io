@@ -27,6 +27,13 @@ The reader is encouraged to further explore the following survey publications:
 * [Learning Binary Hash Codes for Large-Scale Image Search](http://www.cs.utexas.edu/~grauman/temp/GraumanFergus_Hashing_chapterdraft.pdf)
 * [Locality-Sensitive Hashing for Finding Nearest Neighbors](https://www.slaney.org/malcolm/yahoo/Slaney2008-LSHTutorial.pdf)
 
+### Pre-Processed Datasets for Download
+
+* [CIFAR-10 Gist Features (.mat format)](https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=0)
+* [LabelMe Gist Features (.mat format)](https://www.dropbox.com/s/dwixb9ry4zwvcp9/LabelMe_gist.mat?dl=0)
+* [MNIST Pixel Features (.mat format)](https://www.dropbox.com/s/x3j6ik6kvnw95h3/MNIST_gnd_release.mat?dl=0)
+* [SIFT 1M Features (.mat format)](https://www.dropbox.com/s/29f6r7pqevfy2ck/sift1m.mat?dl=0)
+
 ### Courses
 A few university courses are been taught covering aspects of machine of efficient computing. Below there are a few that have publicly available material.
 * [Extreme Computing](http://www.inf.ed.ac.uk/teaching/courses/exc/index_17-18.html) in University of Edinburgh.
