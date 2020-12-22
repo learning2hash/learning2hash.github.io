@@ -35,6 +35,21 @@ python3 -m pip install --upgrade pip
 python3 -m pip install tensorflow==2.2.0
 </pre>
 
+We retrieve the CIFAR 10 dataset as follows:
+
+<pre>
+from keras.datasets import cifar10
+
+# load dataset
+(trainX, trainy), (testX, testy) = cifar10.load_data()
+
+# summarize loaded dataset
+print('Train: X=%s, y=%s' % (trainX.shape, trainy.shape))
+print('Test: X=%s, y=%s' % (testX.shape, testy.shape))
+</pre>
+
+The above code should print out the dimensions of a tensor containing 50,000 training images of size 32x32 and 10,000 testing images of size 32x32. The ground truth labels are also included.
+
 Reminscent of the expectation maximisation algorithm (EM), the model consists of two steps, performed in a loop: learning of the hashing hyperplanes followed by smoothing of the predicted bits based on the image relationship graph defined by the labels.
 
 <pre>
