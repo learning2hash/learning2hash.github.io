@@ -203,7 +203,7 @@ mean_precision = [np.mean(precision_history[i]) for i in range(len(precision_his
 print(np.mean(mean_precision))	
 </pre>	
 
-The above code will produce a mean precision@10 of 0.51 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 50% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly! 
+The above code will produce a mean precision@10 of 0.42 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 40% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly! 
 
 ![LSH Precision@10](./lsh_precision10.png)
 ![LSH Time](./lsh_time.png)
