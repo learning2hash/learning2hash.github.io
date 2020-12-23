@@ -134,10 +134,10 @@ We now quantify the semantic retrieval effectieness of LSH more formally using t
 from sklearn.model_selection import train_test_split
 np.random.seed(0)
 data_temp, data_query, labels_temp, labels_query = train_test_split(data, classes[0,:], test_size=0.002, random_state=42)
-data_train, data_database, labels_train, labels_database = train_test_split(data_temp, labels_temp[:], test_size=0.5, random_state=42)
+data_database, data_train, labels_database, labels_train = train_test_split(data_temp, labels_temp[:], test_size=0.02, random_state=42)
 </pre>
 
-This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. The database consists of 29440 images, as does the training dataset. 
+This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. The database consists of 58682 images, and the training dataset contains 1198 images. 
 
 ![Dataset](./lsh_dataset.png)
 
