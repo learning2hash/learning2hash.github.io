@@ -274,9 +274,9 @@ bin_indices = bin_indices_bits.dot(powers_of_two)
 table = defaultdict(list)
 for idx, bin_index in enumerate(bin_indices):
     table[bin_index].append(idx)
-&lt;/prev&gt;
+</pre>
 
-To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
+<p>To search for nearest neighbours we apply a <em>Hamming radius based search</em>. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.</p>
 
 <pre>
 from itertools import combinations
@@ -317,16 +317,15 @@ for query_image, query_label in zip(data_test,labels_test):
 
 mean_precision = [np.mean(precision_history[i]) for i in range(len(precision_history))]
 print(np.mean(mean_precision))	
-</pre>	
-
-The above code will produce a mean precision@10 of 0.51 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 50% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly! 
-
-![LSH Precision@10](./lsh_precision10.png)
-
-We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness. To recap we will be developing the supervised learning to hash model [Graph Regularised Hashing](https://learning2hash.github.io/publications/moran2015agraph/).
-
-_Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
 </pre>
+
+<p>The above code will produce a mean precision@10 of 0.51 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 50% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly!</p>
+
+<p><img src="./lsh_precision10.png" alt="LSH Precision@10" /></p>
+
+<p>We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness. To recap we will be developing the supervised learning to hash model <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing</a>.</p>
+
+<p><em>Acknowledgement:</em> Parts of this tutorial were inspired by the text-based LSH tutorial <a href="http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html">here</a>.</p>
 
     </div>
 
