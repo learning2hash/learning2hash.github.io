@@ -3,7 +3,9 @@ layout: default
 title: Tutorial
 comments: true
 ---
-In this tutorial we explore a learning to hash model and compare its performance to Locality Sensitive Hashing (LSH). This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). If you enjoyed this tutorial or found it useful please share and do drop me a message!
+This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). If you enjoyed this tutorial or found it useful please share and do drop me a message!
+
+In this tutorial we explore a learning to hash model and compare its performance to Locality Sensitive Hashing (LSH).
 
 Specifically we will implement the [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found [here](https://sjmoran.github.io/bib/grh.bib).
 
