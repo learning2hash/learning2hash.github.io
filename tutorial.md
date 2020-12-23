@@ -152,7 +152,7 @@ bin_indices = bin_indices_bits.dot(powers_of_two)
 table = defaultdict(list)
 for idx, bin_index in enumerate(bin_indices):
     table[bin_index].append(idx)
-</prev>
+</pre>
 
 To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
 
