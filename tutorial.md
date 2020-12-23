@@ -133,7 +133,7 @@ We now quantify the semantic retrieval effectieness of LSH more formally using t
 <pre>
 from sklearn.model_selection import train_test_split
 np.random.seed(0)
-data_temp, data_test, labels_temp, labels_test = train_test_split(data, classes[0,:], test_size=0.002, random_state=42)
+data_temp, data_query, labels_temp, labels_query = train_test_split(data, classes[0,:], test_size=0.002, random_state=42)
 data_train, data_database, labels_train, labels_database = train_test_split(data_temp, labels_temp[:], test_size=0.5, random_state=42)
 </pre>
 
@@ -142,6 +142,17 @@ This code will give 120 random queries that we will use alongside the LSH search
 ![Dataset](./lsh_dataset.png)
 
 To prevent overfitting we maintain a held-out _database_ that we perform retrieval against using the set of 120 queries. The training dataset is used to learn any parameters and hyperparameters required by the models.
+
+We now index the database portion with LSH creating our hashtable:
+
+<pre>
+bin_indices_bits = data_database.dot(random_vectors) >= 0
+bin_indices = bin_indices_bits.dot(powers_of_two)
+
+table = defaultdict(list)
+for idx, bin_index in enumerate(bin_indices):
+    table[bin_index].append(idx)
+</prev>
 
 To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
 
