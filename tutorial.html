@@ -282,7 +282,7 @@ for idx, bin_index in enumerate(bin_indices):
 
 <p>Hamming radius based search for a radius of zero is shown in Figure (b) in the above diagram (taken from the PhD thesis of <a href="https://era.ed.ac.uk/handle/1842/20390">Sean Moran</a>).</p>
 
-<p>In a nutshell this search methodology works by also looking in the collding bin and nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the <em>itertools combinations</em> function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.</p>
+<p>In a nutshell this search methodology works by also looking in the collding bin and nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the <em>itertools combinations</em> function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 10 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.</p>
 
 <pre>
 from itertools import combinations
@@ -327,7 +327,8 @@ print(np.mean(mean_precision))
 
 <p>The above code will produce a mean precision@10 of 0.51 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 50% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly!</p>
 
-<p><img src="./lsh_precision10.png" alt="LSH Precision@10" /></p>
+<p><img src="./lsh_precision10.png" alt="LSH Precision@10" />
+<img src="./lsh_time.png" alt="LSH Time" /></p>
 
 <p>We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness. To recap we will be developing the supervised learning to hash model <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing</a>.</p>
 
