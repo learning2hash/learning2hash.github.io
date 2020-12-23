@@ -225,4 +225,10 @@ As the Hamming radius increases from 0 to 10 we start retrieving more and more i
 
 We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness. To recap we will be developing the supervised learning to hash model [Graph Regularised Hashing](https://learning2hash.github.io/publications/moran2015agraph/).
 
+Our first step is to use the training dataset to construct an _adjacency matrix_ that GRH will use as its supervisory signal for learning the hashing hyperplanes. In Python this is as simple as one line of code:
+
+<pre>
+adjacency_matrix=np.equal.outer(labels_train, labels_train).astype(int)
+</pre>
+
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
