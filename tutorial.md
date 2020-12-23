@@ -217,7 +217,7 @@ The above code will produce a mean precision@10 of 0.42 for a radius of 2. As we
 
 ![LSH Precision@10](./lsh_precision10.png)
 
-As the Hamming radius increases from 0 to 10 we start retrieving more and more images from the database in our candidate set, and this leads to a corresponding sharp increase in the query time which will approach a standard brute force search when the candidate set equals the entire database.
+As the Hamming radius increases from 0 to 10 we start retrieving more and more images from the database in our candidate set, and this leads to a corresponding sharp increase in the query time which will approach a standard brute force search time (~27 seconds) when the candidate set equals the entire database.
 
 ![LSH Time](./lsh_time.png)
 
