@@ -141,7 +141,7 @@ This code will give 120 random queries that we will use alongside the LSH search
 
 ![Dataset](./lsh_dataset.png)
 
-To prevent overfitting we maintain a held-out _database_ that we perform retrieval against using the set of queries. The training dataset is used to learn any parameters and hyperparameters required by the models.
+To prevent overfitting we maintain a held-out _database_ that we perform retrieval against using the set of 120 queries. The training dataset is used to learn any parameters and hyperparameters required by the models.
 
 To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
 
