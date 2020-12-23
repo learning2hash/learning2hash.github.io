@@ -355,6 +355,38 @@ row_sums = adjacency_matrix.sum(axis=1)
 adjacency_matrix = adjacency_matrix / row_sums[:, np.newaxis]
 </pre>
 
+<p>We now implement the two-step GRH model, which is reminiscent of the expectation maximisation (EM) algorithm: in the first step the adjacency matrix is used to refine the hashcodes of the training database images such that semantically similar images have their hashcodes made more similar. GRH takes the LSH hyperplanes in <em>random_vector</em> as an initialisation point and iteratively updates those hyperplanes so as to make them more effective for hashing. The entire GRH model is implemented below:</p>
+
+<pre>
+n_iter=5   # number of iterations of GRH
+alpha=0.5  # how much to update the hashcodes based on the supervisory information
+
+for i in range(0,n_iter):
+
+    bin_indices_bits = (data_train.dot(random_vectors) &gt;= 0).astype(int)
+    bin_indices_bits[bin_indices_bits==0]=-1
+    bin_indices_bits_refined=np.matmul(adjacency_matrix,bin_indices_bits.astype(float))
+    bin_indices_bits_refined=(bin_indices_bits_refined &gt;=0).astype(int)
+    bin_indices_bits_refined[bin_indices_bits_refined&lt;=0]=-1
+
+    bin_indices_bits = (0.5*bin_indices_bits_refined.astype(float) + 0.5*bin_indices_bits.astype(float))
+    bin_indices_bits=(bin_indices_bits &gt;=0).astype(int)
+    bin_indices_bits[bin_indices_bits&lt;=0]=-1
+
+    grh_hyperplanes = random_vectors.copy()
+    for j in range(0,n_vectors):
+        if abs(sum(bin_indices_bits[:,j]))==data_train.shape[0]:
+            # In case all bits are the same we generate a new random vector
+            random_vector = np.random.randn(dim, 1)
+            grh_hyperplanes[:,j]=random_vector[:,0]
+        else:
+            hyperplane=svclassifier.fit(data_train, bin_indices_bits[:,j]).coef_
+            hyperplane=np.array(hyperplane)
+            grh_hyperplanes[:,j]=hyperplane
+    
+    random_vectors = grh_hyperplanes.copy()
+</pre>
+
 <p><em>Acknowledgement:</em> Parts of this tutorial were inspired by the text-based LSH tutorial <a href="http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html">here</a>.</p>
 
     </div>
