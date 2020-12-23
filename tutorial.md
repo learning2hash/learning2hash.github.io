@@ -160,7 +160,7 @@ To search for nearest neighbours we apply a _Hamming radius based search_:
 
 Hamming radius based search for a radius of zero is shown in Figure (b) in the above diagram (taken from the PhD thesis of [Sean Moran](https://era.ed.ac.uk/handle/1842/20390)). 
 
-In a nutshell this search methodology works by also looking in the collding bin and nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the _itertools combinations_ function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
+In a nutshell this search methodology works by also looking in the collding bin and nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the _itertools combinations_ function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 10 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
 
 <pre>
 from itertools import combinations
@@ -206,6 +206,7 @@ print(np.mean(mean_precision))
 The above code will produce a mean precision@10 of 0.51 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 50% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly! 
 
 ![LSH Precision@10](./lsh_precision10.png)
+![LSH Time](./lsh_time.png)
 
 We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness. To recap we will be developing the supervised learning to hash model [Graph Regularised Hashing](https://learning2hash.github.io/publications/moran2015agraph/).
 
