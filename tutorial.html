@@ -263,7 +263,7 @@ data_train, data_database, labels_train, labels_database = train_test_split(data
 
 <p><img src="./lsh_dataset.png" alt="Dataset" /></p>
 
-<p>To prevent overfitting we maintain a held-out <em>database</em> that we perform retrieval against using the set of queries. The training dataset is used to learn any parameters and hyperparameters required by the models.</p>
+<p>To prevent overfitting we maintain a held-out <em>database</em> that we perform retrieval against using the set of 120 queries. The training dataset is used to learn any parameters and hyperparameters required by the models.</p>
 
 <p>To search for nearest neighbours we apply a <em>Hamming radius based search</em>. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.</p>
 
