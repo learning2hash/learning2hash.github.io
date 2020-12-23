@@ -137,7 +137,11 @@ data_temp, data_test, labels_temp, labels_test = train_test_split(data, classes[
 data_train, data_database, labels_train, labels_database = train_test_split(data_temp, labels_temp[:], test_size=0.5, random_state=42)
 </pre>
 
-This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. The database consists of 29440 images, as does the training dataset. To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
+This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. The database consists of 29440 images, as does the training dataset. 
+
+![Dataset](./lsh_dataset.png)
+
+To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
 
 <pre>
 from itertools import combinations
