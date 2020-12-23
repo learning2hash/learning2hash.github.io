@@ -128,15 +128,16 @@ print(classes[:,54356])   # 0
 
 In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0). 
 
-We now quantify the semantic retrieval effectieness of LSH more formally using the precision at search radius 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we create a set of queries randomly sampled from the CIFAR-10 dataset:
+We now quantify the semantic retrieval effectieness of LSH more formally using the precision at search radius 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we split the dataset up into a _set of queries_, a _training dataset_ to learn any parameters and a _held-out database_ that we perform retrieval:
 
 <pre>
 from sklearn.model_selection import train_test_split
 np.random.seed(0)
-data_train, data_test, labels_train, labels_test = train_test_split(data, classes[0,:], test_size=0.002, random_state=42)
+data_temp, data_test, labels_temp, labels_test = train_test_split(data, classes[0,:], test_size=0.002, random_state=42)
+data_train, data_database, labels_train, labels_database = train_test_split(data_temp, labels_temp[:], test_size=0.5, random_state=42)
 </pre>
 
-This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
+This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. The database consists of 29440 images, as does the training dataset. To search for nearest neighbours we apply a _Hamming radius based search_. In a nutshell this search methodology works by also looking in nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the itertools combinations function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 2 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
 
 <pre>
 from itertools import combinations
