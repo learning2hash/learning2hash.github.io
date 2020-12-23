@@ -347,7 +347,7 @@ print(mean_precision)
 
 <p>We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness. To recap we will be developing the supervised learning to hash model <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing</a>.</p>
 
-<p>Our first step is to use the training dataset to construct an <em>adjacency matrix</em> that GRH will use as its supervisory signal for learning the hashing hyperplanes. In Python this is as simple as one line of code, plus two lines to row normalise:</p>
+<p>Our first step is to use the training dataset to construct an <em>adjacency matrix</em> that GRH will use as its supervisory signal for learning the hashing hyperplanes. If two images share the same class label they have <em>adjacency_matrix[i,j]=1</em> and <em>adjacency_matrix[i,j]=0</em> otherwise. In Python we can construct this adjacency matrix from the class label vector:</p>
 
 <pre>
 adjacency_matrix=np.equal.outer(labels_train, labels_train).astype(int)
