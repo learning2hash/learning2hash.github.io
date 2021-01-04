@@ -387,7 +387,9 @@ function search() {
 
 <p><img src="./tutorial/grh_precision10.png" alt="GRH Time" /></p>
 
-<p>GRH ensures that a large proprtion of the nearest neighbours can be found in the same bucket as the query, and that there is minor benefit in searching additional buckets. We therefore are able to keep a faster query time of only having to inspect one bucket. For example, to reach the same precision@10 as obtained by GRH at Hamming radius 0, LSH requires a Hamming radius of ~5 and ~10 seconds query time (versus only ~3 seconds for GRH for the same precision@10).</p>
+<p>GRH ensures that a large proprtion of the nearest neighbours can be found in the same bucket as the query, and that there is minor benefit in searching additional buckets. We therefore are able to keep a faster query time of only having to inspect one bucket. For example, to reach the same precision@10 as obtained by GRH at Hamming radius 0, LSH requires a Hamming radius of ~5 and ~10 seconds query time (versus only ~3 seconds for GRH for the same precision@10). The query time curve for GRH at increasing Hamming radii is shown below:</p>
+
+<p><img src="./tutorial/grh_time.png" alt="GRH Time" /></p>
 
 <p><em>Acknowledgement:</em> Parts of this tutorial were inspired by the text-based LSH tutorial <a href="http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html">here</a>.</p>
 
