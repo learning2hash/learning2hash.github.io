@@ -141,126 +141,117 @@ function search() {
 
 <p>We retrieve and pre-process the CIFAR-10 dataset as follows:</p>
 
-<pre>
-import scipy.io
-import os
-import requests
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">scipy.io</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">requests</span>
 
-url='https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=1'
-response = requests.get(url)
-with open(os.path.join("./", "Gist512CIFAR10.mat"), 'wb') as f:
-    f.write(response.content)
+<span class="n">url</span><span class="o">=</span><span class="s">'https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=1'</span>
+<span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
+<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="s">"./"</span><span class="p">,</span> <span class="s">"Gist512CIFAR10.mat"</span><span class="p">),</span> <span class="s">'wb'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
+    <span class="n">f</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">content</span><span class="p">)</span>
 
-mat = scipy.io.loadmat('./Gist512CIFAR10.mat')
+<span class="n">mat</span> <span class="o">=</span> <span class="n">scipy</span><span class="p">.</span><span class="n">io</span><span class="p">.</span><span class="n">loadmat</span><span class="p">(</span><span class="s">'./Gist512CIFAR10.mat'</span><span class="p">)</span>
 
-data = mat['X']
-data = Normalizer(norm='l2').fit_transform(data)
-data = data-data.mean(axis=0)
-classes = mat['X_class']
-</pre>
+<span class="n">data</span> <span class="o">=</span> <span class="n">mat</span><span class="p">[</span><span class="s">'X'</span><span class="p">]</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">Normalizer</span><span class="p">(</span><span class="n">norm</span><span class="o">=</span><span class="s">'l2'</span><span class="p">).</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">-</span><span class="n">data</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">classes</span> <span class="o">=</span> <span class="n">mat</span><span class="p">[</span><span class="s">'X_class'</span><span class="p">]</span>
+</code></pre></div></div>
 
 <p>The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. We will now generate 16 random hyperplanes and project one image onto these hyperplanes, generating the hashcode:</p>
 
-<pre>
-import numpy as np
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
 
-num_classes = 10
-n_vectors = 32
-dim = 512
+<span class="n">num_classes</span> <span class="o">=</span> <span class="mi">10</span>
+<span class="n">n_vectors</span> <span class="o">=</span> <span class="mi">32</span>
+<span class="n">dim</span> <span class="o">=</span> <span class="mi">512</span>
 
-np.random.seed(0)
-random_vectors = np.random.randn(dim, n_vectors)
-print(random_vectors)
+<span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">random_vectors</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">randn</span><span class="p">(</span><span class="n">dim</span><span class="p">,</span> <span class="n">n_vectors</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span>
 
-print('dimension:', data[0,:].shape)
-bin_indices_bits = data[0,:].dot(random_vectors) &gt;= 0
+<span class="k">print</span><span class="p">(</span><span class="s">'dimension:'</span><span class="p">,</span> <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,:].</span><span class="n">shape</span><span class="p">)</span>
+<span class="n">bin_indices_bits</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,:].</span><span class="n">dot</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span>
 
-print(bin_indices_bits)
+<span class="k">print</span><span class="p">(</span><span class="n">bin_indices_bits</span><span class="p">)</span>
 
-# [False  True False  True False  True False False False False  True  True True False False False]
-
-</pre>
+<span class="c1"># [False  True False  True False  True False False False False  True  True True False False False]
+</span></code></pre></div></div>
 
 <p>The last line of code prints out the hashcode assigned to this image. Images with the exact same hashcode will collide in the same hashtable bucket. We would like these colliding images to be semantically similar i.e. have the same class label.</p>
 
 <p>We now convert the boolean representation above into an integer representation that will denote the bin indices:</p>
 
-<pre>
-# https://wiki.python.org/moin/BitwiseOperators
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># https://wiki.python.org/moin/BitwiseOperators
 # x &lt;&lt; y is the same as multiplying x by 2 ** y
-powers_of_two = 1 &lt;&lt; np.arange(n_vectors - 1, -1, step=-1)
-print(powers_of_two)
-# [32768 16384  8192  4096  2048  1024   512   256   128    64    32    16    8     4     2     1]
-
-bin_indices = bin_indices_bits.dot(powers_of_two)
-print(bin_indices)
-# 21560
-</pre>
+</span><span class="n">powers_of_two</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">np</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="n">n_vectors</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">step</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">powers_of_two</span><span class="p">)</span>
+<span class="c1"># [32768 16384  8192  4096  2048  1024   512   256   128    64    32    16    8     4     2     1]
+</span>
+<span class="n">bin_indices</span> <span class="o">=</span> <span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">powers_of_two</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">bin_indices</span><span class="p">)</span>
+<span class="c1"># 21560
+</span></code></pre></div></div>
 
 <p>The example image will hash into hashtable bucket with index 21560. Now we will hash the entire dataset using matrix operations:</p>
 
-<pre>
-bin_indices_bits = data.dot(random_vectors) &gt;= 0
-print(bin_indices_bits.shape)
-bin_indices = bin_indices_bits.dot(powers_of_two)
-bin_indices.shape
-</pre>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bin_indices_bits</span> <span class="o">=</span> <span class="n">data</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span>
+<span class="k">print</span><span class="p">(</span><span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="n">bin_indices</span> <span class="o">=</span> <span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">powers_of_two</span><span class="p">)</span>
+<span class="n">bin_indices</span><span class="p">.</span><span class="n">shape</span>
+</code></pre></div></div>
 
 <p>bin_indices now contains 60,000 bin indices, one for each of the 60,000 images in the CIFAR-10 dataset. We now insert these images into a hashtable and inspect the duplicates:</p>
 
-<pre>
-from collections import defaultdict
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
 
-table = defaultdict(list)
-for idx, bin_index in enumerate(bin_indices):
-	table[bin_index].append(idx)
+<span class="n">table</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">bin_index</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">bin_indices</span><span class="p">):</span>
+	<span class="n">table</span><span class="p">[</span><span class="n">bin_index</span><span class="p">].</span><span class="n">append</span><span class="p">(</span><span class="n">idx</span><span class="p">)</span>
 
-for bucket,images in table.items():
-	if len(images)&gt;1:
-		print(images)
-</pre>
+<span class="k">for</span> <span class="n">bucket</span><span class="p">,</span><span class="n">images</span> <span class="ow">in</span> <span class="n">table</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+	<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">images</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">:</span>
+		<span class="k">print</span><span class="p">(</span><span class="n">images</span><span class="p">)</span>
+</code></pre></div></div>
 
 <p>The code above will print out the buckets of the hashtable with at least two images and the associated IDs (i.e. row numbers in the original .mat file) of the images in each bucket. The average bin count is ~51 images, so there has been many collisions of images into buckets. Next we will inspect some of the buckets to gain an understanding of the quality of the hashing with LSH:</p>
 
-<pre>
-# We take this bucket and inspect the images:
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># We take this bucket and inspect the images:
 # [46262, 46488, 47724, 59147, 59462, 59572]
-
-print(classes.shape)
-print(classes[:,46262])   # 3
-print(classes[:,46488])   # 8
-print(classes[:,47724])   # 7
-print(classes[:,59147])   # 9
-print(classes[:,59462])   # 2
-print(classes[:,59572])   # 8
-</pre>
+</span>
+<span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">46262</span><span class="p">])</span>   <span class="c1"># 3
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">46488</span><span class="p">])</span>   <span class="c1"># 8
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">47724</span><span class="p">])</span>   <span class="c1"># 7
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">59147</span><span class="p">])</span>   <span class="c1"># 9
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">59462</span><span class="p">])</span>   <span class="c1"># 2
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">59572</span><span class="p">])</span>   <span class="c1"># 8
+</span></code></pre></div></div>
 
 <p>On this particular example we can see that LSH does fairly poorly, with only two semantically related images (class 8), colliding in the same bucket. We will inspect another bucket before moving on:</p>
 
-<pre>
-# We take this bucket and inspect the images:
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># We take this bucket and inspect the images:
 # [16380, 18515, 27324, 33419, 43442, 46613, 54356]
-
-print(classes.shape)
-print(classes[:,16380])   # 0
-print(classes[:,18515])   # 8
-print(classes[:,27324])   # 0
-print(classes[:,33419])   # 0
-print(classes[:,43442])   # 0
-print(classes[:,46613])   # 0
-print(classes[:,54356])   # 0
-</pre>
+</span>
+<span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">16380</span><span class="p">])</span>   <span class="c1"># 0
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">18515</span><span class="p">])</span>   <span class="c1"># 8
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">27324</span><span class="p">])</span>   <span class="c1"># 0
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">33419</span><span class="p">])</span>   <span class="c1"># 0
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">43442</span><span class="p">])</span>   <span class="c1"># 0
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">46613</span><span class="p">])</span>   <span class="c1"># 0
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">54356</span><span class="p">])</span>   <span class="c1"># 0
+</span></code></pre></div></div>
 
 <p>In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0).</p>
 
 <p>We now quantify the semantic retrieval effectieness of LSH more formally using the precision at 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we split the dataset up into a <em>set of queries</em>, a <em>training dataset</em> to learn any parameters and a <em>held-out database</em> that we perform retrieval:</p>
 
-<pre>
-from sklearn.model_selection import train_test_split
-np.random.seed(0)
-data_temp, data_query, labels_temp, labels_query = train_test_split(data, classes[0,:], test_size=0.002, random_state=42)
-data_database, data_train, labels_database, labels_train = train_test_split(data_temp, labels_temp[:], test_size=0.02, random_state=42)
-</pre>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+<span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">data_temp</span><span class="p">,</span> <span class="n">data_query</span><span class="p">,</span> <span class="n">labels_temp</span><span class="p">,</span> <span class="n">labels_query</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">classes</span><span class="p">[</span><span class="mi">0</span><span class="p">,:],</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.002</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+<span class="n">data_database</span><span class="p">,</span> <span class="n">data_train</span><span class="p">,</span> <span class="n">labels_database</span><span class="p">,</span> <span class="n">labels_train</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">data_temp</span><span class="p">,</span> <span class="n">labels_temp</span><span class="p">[:],</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.02</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+</code></pre></div></div>
 
 <p>This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. The database consists of 58682 images, and the training dataset contains 1198 images.</p>
 
@@ -270,14 +261,13 @@ data_database, data_train, labels_database, labels_train = train_test_split(data
 
 <p>We now index the database portion with LSH creating our hashtable:</p>
 
-<pre>
-bin_indices_bits = data_database.dot(random_vectors) &gt;= 0
-bin_indices = bin_indices_bits.dot(powers_of_two)
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bin_indices_bits</span> <span class="o">=</span> <span class="n">data_database</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span>
+<span class="n">bin_indices</span> <span class="o">=</span> <span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">powers_of_two</span><span class="p">)</span>
 
-table = defaultdict(list)
-for idx, bin_index in enumerate(bin_indices):
-    table[bin_index].append(idx)
-</pre>
+<span class="n">table</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">bin_index</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">bin_indices</span><span class="p">):</span>
+    <span class="n">table</span><span class="p">[</span><span class="n">bin_index</span><span class="p">].</span><span class="n">append</span><span class="p">(</span><span class="n">idx</span><span class="p">)</span>
+</code></pre></div></div>
 
 <p>To search for nearest neighbours we apply a <em>Hamming radius based search</em>:</p>
 
@@ -287,56 +277,55 @@ for idx, bin_index in enumerate(bin_indices):
 
 <p>In a nutshell this search methodology works by also looking in the collding bin and nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the <em>itertools combinations</em> function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 10 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.</p>
 
-<pre>
-from itertools import combinations
-from sklearn.metrics.pairwise import pairwise_distances
-import pandas as pd
-import time
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">combinations</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">pairwise_distances</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">time</span>
 
-max_search_radius=10
-topn=10
-precision_history = {i: [] for i in range(max_search_radius+1)}
-time_history = {i: [] for i in range(max_search_radius+1)}
+<span class="n">max_search_radius</span><span class="o">=</span><span class="mi">10</span>
+<span class="n">topn</span><span class="o">=</span><span class="mi">10</span>
+<span class="n">precision_history</span> <span class="o">=</span> <span class="p">{</span><span class="n">i</span><span class="p">:</span> <span class="p">[]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_search_radius</span><span class="o">+</span><span class="mi">1</span><span class="p">)}</span>
+<span class="n">time_history</span> <span class="o">=</span> <span class="p">{</span><span class="n">i</span><span class="p">:</span> <span class="p">[]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_search_radius</span><span class="o">+</span><span class="mi">1</span><span class="p">)}</span>
 
-for query_image, query_label in zip(data_query,labels_query):
+<span class="k">for</span> <span class="n">query_image</span><span class="p">,</span> <span class="n">query_label</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">data_query</span><span class="p">,</span><span class="n">labels_query</span><span class="p">):</span>
 
-    bin_index_bits = np.ravel(query_image.dot(random_vectors) &gt;= 0)
-    candidate_set = set()
+    <span class="n">bin_index_bits</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">ravel</span><span class="p">(</span><span class="n">query_image</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">)</span>
+    <span class="n">candidate_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
 
-    for search_radius in range(max_search_radius + 1):
+    <span class="k">for</span> <span class="n">search_radius</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_search_radius</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
 
-        start = time.time()
+        <span class="n">start</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
 
-        n_vectors = bin_index_bits.shape[0]
-        for different_bits in combinations(range(n_vectors), search_radius):
-            index = list(different_bits)
-            alternate_bits = bin_index_bits.copy()
-            alternate_bits[index] = np.logical_not(alternate_bits[index])
-            nearby_bin = alternate_bits.dot(powers_of_two)
-            if nearby_bin in table:
-                candidate_set.update(table[nearby_bin])
+        <span class="n">n_vectors</span> <span class="o">=</span> <span class="n">bin_index_bits</span><span class="p">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">for</span> <span class="n">different_bits</span> <span class="ow">in</span> <span class="n">combinations</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">n_vectors</span><span class="p">),</span> <span class="n">search_radius</span><span class="p">):</span>
+            <span class="n">index</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">different_bits</span><span class="p">)</span>
+            <span class="n">alternate_bits</span> <span class="o">=</span> <span class="n">bin_index_bits</span><span class="p">.</span><span class="n">copy</span><span class="p">()</span>
+            <span class="n">alternate_bits</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">logical_not</span><span class="p">(</span><span class="n">alternate_bits</span><span class="p">[</span><span class="n">index</span><span class="p">])</span>
+            <span class="n">nearby_bin</span> <span class="o">=</span> <span class="n">alternate_bits</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">powers_of_two</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">nearby_bin</span> <span class="ow">in</span> <span class="n">table</span><span class="p">:</span>
+                <span class="n">candidate_set</span><span class="p">.</span><span class="n">update</span><span class="p">(</span><span class="n">table</span><span class="p">[</span><span class="n">nearby_bin</span><span class="p">])</span>
 
-        # sort candidates by their true distances from the query
-        candidate_list = list(candidate_set)
-        if candidate_list:
-            candidates = data_database[candidate_list[:]] 
-            ground_truth = labels_database[candidate_list[:]]
-            distance = pairwise_distances(candidates, query_image.reshape(1,-1), metric='cosine').flatten()
-            distance_col = 'distance'
-            nearest_neighbors = pd.DataFrame({'id': candidate_list, 'class': ground_truth, distance_col: distance}).sort_values(distance_col).reset_index(drop=True)
-            candidate_set_labels = nearest_neighbors.sort_values(by=['distance'], ascending=True)['class'][:10]
-            precision = list(candidate_set_labels).count(query_label) / topn
-            precision_history[search_radius].append(precision)
-        end = time.time()
-        elapsed_time=end - start
-        print(elapsed_time)
-        time_history[search_radius].append(elapsed_time)
+        <span class="c1"># sort candidates by their true distances from the query
+</span>        <span class="n">candidate_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">candidate_set</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">candidate_list</span><span class="p">:</span>
+            <span class="n">candidates</span> <span class="o">=</span> <span class="n">data_database</span><span class="p">[</span><span class="n">candidate_list</span><span class="p">[:]]</span> 
+            <span class="n">ground_truth</span> <span class="o">=</span> <span class="n">labels_database</span><span class="p">[</span><span class="n">candidate_list</span><span class="p">[:]]</span>
+            <span class="n">distance</span> <span class="o">=</span> <span class="n">pairwise_distances</span><span class="p">(</span><span class="n">candidates</span><span class="p">,</span> <span class="n">query_image</span><span class="p">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">metric</span><span class="o">=</span><span class="s">'cosine'</span><span class="p">).</span><span class="n">flatten</span><span class="p">()</span>
+            <span class="n">distance_col</span> <span class="o">=</span> <span class="s">'distance'</span>
+            <span class="n">nearest_neighbors</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s">'id'</span><span class="p">:</span> <span class="n">candidate_list</span><span class="p">,</span> <span class="s">'class'</span><span class="p">:</span> <span class="n">ground_truth</span><span class="p">,</span> <span class="n">distance_col</span><span class="p">:</span> <span class="n">distance</span><span class="p">}).</span><span class="n">sort_values</span><span class="p">(</span><span class="n">distance_col</span><span class="p">).</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+            <span class="n">candidate_set_labels</span> <span class="o">=</span> <span class="n">nearest_neighbors</span><span class="p">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s">'distance'</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">True</span><span class="p">)[</span><span class="s">'class'</span><span class="p">][:</span><span class="mi">10</span><span class="p">]</span>
+            <span class="n">precision</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">candidate_set_labels</span><span class="p">).</span><span class="n">count</span><span class="p">(</span><span class="n">query_label</span><span class="p">)</span> <span class="o">/</span> <span class="n">topn</span>
+            <span class="n">precision_history</span><span class="p">[</span><span class="n">search_radius</span><span class="p">].</span><span class="n">append</span><span class="p">(</span><span class="n">precision</span><span class="p">)</span>
+        <span class="n">end</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
+        <span class="n">elapsed_time</span><span class="o">=</span><span class="n">end</span> <span class="o">-</span> <span class="n">start</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">elapsed_time</span><span class="p">)</span>
+        <span class="n">time_history</span><span class="p">[</span><span class="n">search_radius</span><span class="p">].</span><span class="n">append</span><span class="p">(</span><span class="n">elapsed_time</span><span class="p">)</span>
 
-mean_time = [np.mean(time_history[i]) for i in range(len(time_history))]
-print(mean_time)
-mean_precision = [np.mean(precision_history[i]) for i in range(len(precision_history))]
-print(mean_precision)
-</pre>
+<span class="n">mean_time</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="n">time_history</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">time_history</span><span class="p">))]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">mean_time</span><span class="p">)</span>
+<span class="n">mean_precision</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="n">precision_history</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">precision_history</span><span class="p">))]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">mean_precision</span><span class="p">)</span>
+</code></pre></div></div>
 
 <p>The above code will produce a mean precision@10 of 0.42 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 40% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly!</p>
 
@@ -350,11 +339,10 @@ print(mean_precision)
 
 <p>Our first step is to use the training dataset to construct an <em>adjacency matrix</em> that GRH will use as its supervisory signal for learning the hashing hyperplanes. If two images share the same class label they have <em>adjacency_matrix[i,j]=1</em> and <em>adjacency_matrix[i,j]=0</em> otherwise. In Python we can construct this adjacency matrix from the class label vector:</p>
 
-<pre>
-adjacency_matrix=np.equal.outer(labels_train, labels_train).astype(int)
-row_sums = adjacency_matrix.sum(axis=1)
-adjacency_matrix = adjacency_matrix / row_sums[:, np.newaxis]
-</pre>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">adjacency_matrix</span><span class="o">=</span><span class="n">np</span><span class="p">.</span><span class="n">equal</span><span class="p">.</span><span class="n">outer</span><span class="p">(</span><span class="n">labels_train</span><span class="p">,</span> <span class="n">labels_train</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<span class="n">row_sums</span> <span class="o">=</span> <span class="n">adjacency_matrix</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">adjacency_matrix</span> <span class="o">=</span> <span class="n">adjacency_matrix</span> <span class="o">/</span> <span class="n">row_sums</span><span class="p">[:,</span> <span class="n">np</span><span class="p">.</span><span class="n">newaxis</span><span class="p">]</span>
+</code></pre></div></div>
 
 <p>We now implement the two-step <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing (GRH)</a> model of Moran and Lavrenko, which is reminiscent of the expectation maximisation (EM) algorithm.</p>
 
@@ -362,35 +350,34 @@ adjacency_matrix = adjacency_matrix / row_sums[:, np.newaxis]
 
 <p>In essence, GRH takes the LSH hyperplanes in <em>random_vector</em> as an initialisation point and iteratively updates those hyperplanes so as to make them more effective for hashing. The entire GRH model is implemented below:</p>
 
-<pre>
-n_iter=5   # number of iterations of GRH
-alpha=0.5  # how much to update the hashcodes based on the supervisory information
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n_iter</span><span class="o">=</span><span class="mi">5</span>   <span class="c1"># number of iterations of GRH
+</span><span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span>  <span class="c1"># how much to update the hashcodes based on the supervisory information
+</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">n_iter</span><span class="p">):</span>
 
-for i in range(0,n_iter):
+    <span class="n">bin_indices_bits</span> <span class="o">=</span> <span class="p">(</span><span class="n">data_train</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+    <span class="n">bin_indices_bits</span><span class="p">[</span><span class="n">bin_indices_bits</span><span class="o">==</span><span class="mi">0</span><span class="p">]</span><span class="o">=-</span><span class="mi">1</span>
+    <span class="n">bin_indices_bits_refined</span><span class="o">=</span><span class="n">np</span><span class="p">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">adjacency_matrix</span><span class="p">,</span><span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">))</span>
+    <span class="n">bin_indices_bits_refined</span><span class="o">=</span><span class="p">(</span><span class="n">bin_indices_bits_refined</span> <span class="o">&gt;=</span><span class="mi">0</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+    <span class="n">bin_indices_bits_refined</span><span class="p">[</span><span class="n">bin_indices_bits_refined</span><span class="o">&lt;=</span><span class="mi">0</span><span class="p">]</span><span class="o">=-</span><span class="mi">1</span>
 
-    bin_indices_bits = (data_train.dot(random_vectors) &gt;= 0).astype(int)
-    bin_indices_bits[bin_indices_bits==0]=-1
-    bin_indices_bits_refined=np.matmul(adjacency_matrix,bin_indices_bits.astype(float))
-    bin_indices_bits_refined=(bin_indices_bits_refined &gt;=0).astype(int)
-    bin_indices_bits_refined[bin_indices_bits_refined&lt;=0]=-1
+    <span class="n">bin_indices_bits</span> <span class="o">=</span> <span class="p">(</span><span class="mf">0.5</span><span class="o">*</span><span class="n">bin_indices_bits_refined</span><span class="p">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span> <span class="o">+</span> <span class="mf">0.5</span><span class="o">*</span><span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">))</span>
+    <span class="n">bin_indices_bits</span><span class="o">=</span><span class="p">(</span><span class="n">bin_indices_bits</span> <span class="o">&gt;=</span><span class="mi">0</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+    <span class="n">bin_indices_bits</span><span class="p">[</span><span class="n">bin_indices_bits</span><span class="o">&lt;=</span><span class="mi">0</span><span class="p">]</span><span class="o">=-</span><span class="mi">1</span>
 
-    bin_indices_bits = (0.5*bin_indices_bits_refined.astype(float) + 0.5*bin_indices_bits.astype(float))
-    bin_indices_bits=(bin_indices_bits &gt;=0).astype(int)
-    bin_indices_bits[bin_indices_bits&lt;=0]=-1
-
-    grh_hyperplanes = random_vectors.copy()
-    for j in range(0,n_vectors):
-        if abs(sum(bin_indices_bits[:,j]))==data_train.shape[0]:
-            # In case all bits are the same we generate a new random vector
-            random_vector = np.random.randn(dim, 1)
-            grh_hyperplanes[:,j]=random_vector[:,0]
-        else:
-            hyperplane=svclassifier.fit(data_train, bin_indices_bits[:,j]).coef_
-            hyperplane=np.array(hyperplane)
-            grh_hyperplanes[:,j]=hyperplane
+    <span class="n">grh_hyperplanes</span> <span class="o">=</span> <span class="n">random_vectors</span><span class="p">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">n_vectors</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">bin_indices_bits</span><span class="p">[:,</span><span class="n">j</span><span class="p">]))</span><span class="o">==</span><span class="n">data_train</span><span class="p">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+            <span class="c1"># In case all bits are the same we generate a new random vector
+</span>            <span class="n">random_vector</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">randn</span><span class="p">(</span><span class="n">dim</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+            <span class="n">grh_hyperplanes</span><span class="p">[:,</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="n">random_vector</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">hyperplane</span><span class="o">=</span><span class="n">svclassifier</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">data_train</span><span class="p">,</span> <span class="n">bin_indices_bits</span><span class="p">[:,</span><span class="n">j</span><span class="p">]).</span><span class="n">coef_</span>
+            <span class="n">hyperplane</span><span class="o">=</span><span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">hyperplane</span><span class="p">)</span>
+            <span class="n">grh_hyperplanes</span><span class="p">[:,</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="n">hyperplane</span>
     
-    random_vectors = grh_hyperplanes.copy()
-</pre>
+    <span class="n">random_vectors</span> <span class="o">=</span> <span class="n">grh_hyperplanes</span><span class="p">.</span><span class="n">copy</span><span class="p">()</span>
+</code></pre></div></div>
 
 <p><em>Acknowledgement:</em> Parts of this tutorial were inspired by the text-based LSH tutorial <a href="http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html">here</a>.</p>
 
