@@ -272,4 +272,6 @@ for i in range(0,n_iter):
 ```
 In the above code, we parametrise GRH with 5 iterations and an alpha of 0.5. The iterations parameter is the number of times we repeat the two steps of GRH i.e. hashcode refinement with the adjacency matrix followed by adjustment of the hyperplanes based on those updated hashcodes. The following diagrams highlight the two steps of GRH on a toy example:
 
+![GRH Time](./tutorial/grh_precision10.png)
+
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
