@@ -3,11 +3,11 @@ layout: default
 title: Tutorial
 comments: true
 ---
-This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). If you enjoyed this tutorial or found it useful please share and do drop me a message!
+This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). 
 
 In this tutorial we explore a learning to hash model and compare its performance to Locality Sensitive Hashing (LSH).
 
-Specifically we will implement the [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found [here](https://sjmoran.github.io/bib/grh.bib).
+Specifically we will implement Locality Sensitive Hashing (LSH) and compare to the [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found [here](https://sjmoran.github.io/bib/grh.bib).
 
 The original Matlab code supplied by Moran and Lavrenko can be found [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark the retrieval effectiveness against LSH (random projections) using the precision at 10 metric and semantic nearest neighbour evaluation.
 
@@ -130,7 +130,7 @@ print(classes[:,54356])   # 0
 
 In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0). 
 
-We now quantify the semantic retrieval effectieness of LSH more formally using the precision at search radius 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we split the dataset up into a _set of queries_, a _training dataset_ to learn any parameters and a _held-out database_ that we perform retrieval:
+We now quantify the semantic retrieval effectieness of LSH more formally using the precision at 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we split the dataset up into a _set of queries_, a _training dataset_ to learn any parameters and a _held-out database_ that we perform retrieval:
 
 <pre>
 from sklearn.model_selection import train_test_split
