@@ -289,7 +289,7 @@ Evaluating the GRH hashcodes using the same methodology as we did for LSH, we fi
 
 ![GRH Time](./tutorial/grh_precision10.png)
 
-GRH ensures that a large proportion of the nearest neighbours can be found in the same bucket as the query, and that there is minor benefit in searching additional buckets. We therefore are able to keep a faster query time of only having to inspect one bucket. For example, to reach the same precision@10 as obtained by GRH at Hamming radius 0, LSH requires a Hamming radius of ~5 and ~10 seconds query time (versus only ~3 seconds for GRH for the same precision@10). The query time curve for GRH at increasing Hamming radii is shown below:
+GRH ensures that a large proportion of the nearest neighbours can be found in the same bucket as the query, and that there is minor benefit in searching additional buckets. We are able to keep a faster query time of only having to inspect one bucket. For example, to reach the same precision@10 as obtained by GRH at Hamming radius 0, LSH requires a Hamming radius of ~5 and a ~10 seconds query time (versus only ~3 seconds for GRH for the same precision@10). The query time curve for GRH at increasing Hamming radii is shown below:
 
 ![GRH Time](./tutorial/grh_time.png)
 
