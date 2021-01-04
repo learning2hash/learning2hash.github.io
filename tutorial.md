@@ -290,7 +290,7 @@ The above diagram illustrates the nearest neighbour relationships on this toy ex
 
 ![GRH](./tutorial/grh_toy2.png)
 
-The above diagram illustraes how the adjacency matrix is used to update the hashcodes, with the first bit of image _C_ flipping to a -1 to be more similar to the images above and to the left of it. In contrast, image _E_ has its second bit flipped to become more similar to the hashcodes from the images below and to the left of it.
+The above diagram illustrates how the adjacency matrix is used to update the hashcodes, with the first bit of image _C_ flipping to a -1 to be more similar to the images above and to the left of it. In contrast, image _E_ has its second bit flipped to become more similar to the hashcodes from the images below and to the left of it.
 
 ![GRH](./tutorial/grh_toy3.png)
 
