@@ -142,7 +142,7 @@ data_database, data_train, labels_database, labels_train = train_test_split(data
 
 This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. The database consists of 58682 images, and the training dataset contains 1198 images. 
 
-![Dataset](./lsh_dataset.png)
+![Dataset](./tutorial/lsh_dataset.png)
 
 To prevent overfitting we maintain a held-out _database_ that we perform retrieval against using the set of 120 queries. The training dataset is used to learn any parameters and hyperparameters required by the models.
 
@@ -159,7 +159,7 @@ for idx, bin_index in enumerate(bin_indices):
 
 To search for nearest neighbours we apply a _Hamming radius based search_:
 
-![Dataset](./lsh_evaluation.png)
+![Dataset](./tutorial/lsh_evaluation.png)
 
 Hamming radius based search for a radius of zero is shown in Figure (b) in the above diagram (taken from the PhD thesis of [Sean Moran](https://era.ed.ac.uk/handle/1842/20390)). 
 
@@ -185,6 +185,7 @@ for query_image, query_label in zip(data_query,labels_query):
 
         start = time.time()
 
+        # Augment the candidate set with images from bins within the search radius
         n_vectors = bin_index_bits.shape[0]
         for different_bits in combinations(range(n_vectors), search_radius):
             index = list(different_bits)
@@ -218,11 +219,11 @@ print(mean_precision)
 
 The above code will produce a mean precision@10 of 0.42 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 40% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly! 
 
-![LSH Precision@10](./lsh_precision10.png)
+![LSH Precision@10](./tutorial/lsh_precision10.png)
 
 As the Hamming radius increases from 0 to 10 we start retrieving more and more images from the database in our candidate set, and this leads to a corresponding sharp increase in the query time which will approach a standard brute force search time (~48 seconds) when the candidate set equals the entire database.
 
-![LSH Time](./lsh_time.png)
+![LSH Time](./tutorial/lsh_time.png)
 
 We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness. To recap we will be developing the supervised learning to hash model [Graph Regularised Hashing](https://learning2hash.github.io/publications/moran2015agraph/).
 
