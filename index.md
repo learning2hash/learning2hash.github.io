@@ -43,6 +43,8 @@ A simple way of finding similar data-points would simply be to search through th
 ![Locality Sensitive Hashing (LSH)](/public/media/hashing.png?raw=true "Locality Sensitive 
 Hashing (LSH)")
 
+Diagram taken from the [PhD thesis of Sean Moran](https://learning2hash.github.io/cite.html).
+
 Given a query (e.g. the image of the tiger in the example above), we can search for similar data-points by generating a hashcode for the query and only comparing the query data-point to the data-points that collide with it in the same hashtable bucket (or buckets if we have multiple independent hashtables). The principle here is that the number of data-points in the colliding hash table bucket(s) should be much less than the total number of data-points in the entire dataset, yielding a query time that is substantially improved over a simple brute-force search. The only downside to these models is they might not return the closest nearest neighbour(s) every time (that is, we forgo a degree of accuracy), which is usually an acceptable trade-off in practice. 
 
 Much more introductory material on hashing and learning-to-hash can be found in [*Resources*](resources.html).
