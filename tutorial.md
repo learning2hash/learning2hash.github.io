@@ -284,6 +284,17 @@ In the above code, we parametrise GRH with 5 iterations and an alpha of 0.5. The
 
 The following diagrams highlight the two steps of GRH on a toy example:
 
+![GRH](./tutorial/grh_toy1.png)
+
+The above diagram illustrates the nearest neighbour relationships on this toy example: denoted by the nodes and edges (edges connect semantic nearest neighbours). The LSH generated hashcodes are show alongside each image.
+
+![GRH](./tutorial/grh_toy2.png)
+
+The above diagram illustraes how the adjacency matrix is used to update the hashcodes, with the first bit of image C flipping to a -1 to be more similar to the images above and to the left of it. In contrast, image e has its second bit flipped to become more similar to the hashcodes from the images below and to the left of it.
+
+![GRH](./tutorial/grh_toy3.png)
+
+A hyperplane is then learnt for the first bit by using the first bit of every image's hashcode as the target. In this toy example a hyperplane partitions the data space horizontally, assigning images above the line a -1 in their first bit of their hashcode, and images below the line a 1 in their first bit of their hashcode.
 
 Evaluating the GRH hashcodes using the same methodology as we did for LSH, we find an improved retrieval effectiveness, particulaly at low Hamming radii:
 
