@@ -270,7 +270,9 @@ for i in range(0,n_iter):
     
     random_vectors = grh_hyperplanes.copy()
 ```
-In the above code, we parametrise GRH with 5 iterations and an alpha of 0.5. The iterations parameter is the number of times we repeat the two steps of GRH i.e. hashcode refinement with the adjacency matrix followed by adjustment of the hyperplanes based on those updated hashcodes. The following diagrams highlight the two steps of GRH on a toy example:
+In the above code, we parametrise GRH with 5 iterations and an alpha of 0.5. The iterations parameter is the number of times we repeat the two steps of GRH i.e. hashcode refinement with the adjacency matrix followed by adjustment of the hyperplanes based on those updated hashcodes. __random_vectors__ contains a set of hyperplanes that have been improved - that is made more effective for hashing-based nearest neighbour search - based on the supervisory information in the training dataset. We can use these hyperplanes as in the code at the start of this tutorial to evaluate their effectiveness via a hashtable bucket-based evaluation at various Hamming radii.
+
+The following diagrams highlight the two steps of GRH on a toy example:
 
 ![GRH Time](./tutorial/grh_precision10.png)
 
