@@ -351,7 +351,15 @@ function search() {
 
 <p><img src="./tutorial/grh.png" alt="GRH" /></p>
 
-<p>In essence, GRH takes the LSH hyperplanes in <em>random_vector</em> as an initialisation point and iteratively updates those hyperplanes so as to make them more effective for hashing. The entire GRH model is implemented below:</p>
+<p>The first step is <em>Graph Regularisation</em>:</p>
+
+<p><img src="./tutorial/grh_step1.png" alt="GRH" /></p>
+
+<p>The second step is <em>Data Space Partitioning</em>:</p>
+
+<p><img src="./tutorial/grh_step2.png" alt="GRH" /></p>
+
+<p>GRH takes the LSH hyperplanes in <em>random_vector</em> as an initialisation point and iteratively updates those hyperplanes so as to make them more effective for hashing. The entire GRH model is implemented below:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n_iter</span><span class="o">=</span><span class="mi">5</span>   <span class="c1"># number of iterations of GRH
 </span><span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span>  <span class="c1"># how much to update the hashcodes based on the supervisory information
