@@ -241,7 +241,15 @@ In the first step the adjacency matrix is matrix multiplied by the hashcodes of 
 
 ![GRH](./tutorial/grh.png)
 
-In essence, GRH takes the LSH hyperplanes in _random_vector_ as an initialisation point and iteratively updates those hyperplanes so as to make them more effective for hashing. The entire GRH model is implemented below:
+The first step is _Graph Regularisation_:
+
+![GRH](./tutorial/grh_step1.png)
+
+The second step is _Data Space Partitioning_:
+
+![GRH](./tutorial/grh_step2.png)
+
+GRH takes the LSH hyperplanes in _random_vector_ as an initialisation point and iteratively updates those hyperplanes so as to make them more effective for hashing. The entire GRH model is implemented below:
 
 ```python
 n_iter=5   # number of iterations of GRH
