@@ -35,13 +35,13 @@
 <meta name="generator" content="Jekyll v4.1.0" />
 <meta property="og:title" content="Tutorial" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="This tutorial on learning to hash was written by Sean Moran. If you enjoyed this tutorial or found it useful please share and do drop me a message!" />
-<meta property="og:description" content="This tutorial on learning to hash was written by Sean Moran. If you enjoyed this tutorial or found it useful please share and do drop me a message!" />
+<meta name="description" content="This tutorial on learning to hash was written by Sean Moran." />
+<meta property="og:description" content="This tutorial on learning to hash was written by Sean Moran." />
 <link rel="canonical" href="https://learning2hash.github.io/tutorial.html" />
 <meta property="og:url" content="https://learning2hash.github.io/tutorial.html" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <script type="application/ld+json">
-{"url":"https://learning2hash.github.io/tutorial.html","headline":"Tutorial","@type":"WebPage","description":"This tutorial on learning to hash was written by Sean Moran. If you enjoyed this tutorial or found it useful please share and do drop me a message!","@context":"https://schema.org"}</script>
+{"url":"https://learning2hash.github.io/tutorial.html","headline":"Tutorial","@type":"WebPage","description":"This tutorial on learning to hash was written by Sean Moran.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -125,11 +125,11 @@ function search() {
 
 
     <div class="content container">
-      <p>This tutorial on learning to hash was written by <a href="https://sjmoran.github.io/">Sean Moran</a>. If you enjoyed this tutorial or found it useful please share and do drop me a message!</p>
+      <p>This tutorial on learning to hash was written by <a href="https://sjmoran.github.io/">Sean Moran</a>.</p>
 
 <p>In this tutorial we explore a learning to hash model and compare its performance to Locality Sensitive Hashing (LSH).</p>
 
-<p>Specifically we will implement the <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing (GRH)</a> model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found <a href="https://sjmoran.github.io/bib/grh.bib">here</a>.</p>
+<p>Specifically we will implement Locality Sensitive Hashing (LSH) and compare to the <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing (GRH)</a> model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found <a href="https://sjmoran.github.io/bib/grh.bib">here</a>.</p>
 
 <p>The original Matlab code supplied by Moran and Lavrenko can be found <a href="https://github.com/sjmoran/GRH">here</a>. We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark the retrieval effectiveness against LSH (random projections) using the precision at 10 metric and semantic nearest neighbour evaluation.</p>
 
@@ -252,7 +252,7 @@ print(classes[:,54356])   # 0
 
 <p>In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0).</p>
 
-<p>We now quantify the semantic retrieval effectieness of LSH more formally using the precision at search radius 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we split the dataset up into a <em>set of queries</em>, a <em>training dataset</em> to learn any parameters and a <em>held-out database</em> that we perform retrieval:</p>
+<p>We now quantify the semantic retrieval effectieness of LSH more formally using the precision at 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we split the dataset up into a <em>set of queries</em>, a <em>training dataset</em> to learn any parameters and a <em>held-out database</em> that we perform retrieval:</p>
 
 <pre>
 from sklearn.model_selection import train_test_split
