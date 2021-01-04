@@ -279,6 +279,6 @@ Evaluating the GRH hashcodes using the same methodology as we did for LSH, we fi
 
 ![GRH Time](./tutorial/grh_precision10.png)
 
-This is a nice result in the sense that we do not have to look over increasingly larger number of hashtable buckets to retrieve genuine semantic nearest neighbours. GRH ensures that a large proprtion of the nearest neighbours can be found in the same bucket as the query, and that there is little benefit in searching additional buckets. We therefore are able to keep the blazingly fast query time of only having to inspect one bucket. To reach the same precision@10 as GRH at Hamming radius 0, LSH requires a Hamming radius of ~5 and 20 seconds query time (versus 3 seconds for GRH).
+GRH ensures that a large proprtion of the nearest neighbours can be found in the same bucket as the query, and that there is little benefit in searching additional buckets. We therefore are able to keep the fast query time of only having to inspect one bucket. To reach the same precision@10 as GRH at Hamming radius 0, LSH requires a Hamming radius of ~5 and ~10 seconds query time (versus 3 seconds for GRH for the same precision@10).
 
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
