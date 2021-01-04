@@ -290,7 +290,7 @@ The above diagram illustrates the nearest neighbour relationships on this toy ex
 
 ![GRH](./tutorial/grh_toy2.png)
 
-The above diagram illustraes how the adjacency matrix is used to update the hashcodes, with the first bit of image C flipping to a -1 to be more similar to the images above and to the left of it. In contrast, image e has its second bit flipped to become more similar to the hashcodes from the images below and to the left of it.
+The above diagram illustraes how the adjacency matrix is used to update the hashcodes, with the first bit of image _C_ flipping to a -1 to be more similar to the images above and to the left of it. In contrast, image _E_ has its second bit flipped to become more similar to the hashcodes from the images below and to the left of it.
 
 ![GRH](./tutorial/grh_toy3.png)
 
@@ -304,6 +304,6 @@ GRH ensures that a large proportion of the nearest neighbours can be found in th
 
 ![GRH Time](./tutorial/grh_time.png)
 
-In this tutorial we use an SVM to learn the hyperplanes for GRH. One benefit of GRH is that it is agnostic to the learning algorithm, and we may use a deep network if we wish to learn a more accurate data-space partitioning or a [passive aggressive classifier](https://www.youtube.com/watch?v=uxGDwyPWNkU) if we wish for a light-weight learning method that can be adapted online e.g. in a streaming scenario.
+In this tutorial we use an SVM to learn the hyperplanes for GRH. Another benefit of GRH is that it is _agnostic to the learning algorithm_, and we may use a deep network if we wish to learn a more accurate data-space partitioning or a [passive aggressive classifier](https://www.youtube.com/watch?v=uxGDwyPWNkU) if we wish for a light-weight learning method that can be adapted online e.g. in a streaming scenario.
 
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
