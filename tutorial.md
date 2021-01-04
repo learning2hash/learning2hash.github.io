@@ -254,7 +254,7 @@ The second step is _Data Space Partitioning_:
 In the second step those refined hashcodes are used to update the hyperplanes: to do this an SVM is learnt per hash bit using the bits as targets. GRH takes the LSH hyperplanes in _random_vector_ as an initialisation point and iteratively updates those hyperplanes so as to make them more effective for hashing. The entire GRH model is implemented below:
 
 ```python
-n_iter=5   # number of iterations of GRH
+n_iter=2   # number of iterations of GRH
 alpha=0.5  # how much to update the hashcodes based on the supervisory information
 
 for i in range(0,n_iter):
@@ -265,7 +265,7 @@ for i in range(0,n_iter):
     bin_indices_bits_refined=(bin_indices_bits_refined >=0).astype(int)
     bin_indices_bits_refined[bin_indices_bits_refined<=0]=-1
 
-    bin_indices_bits = (0.5*bin_indices_bits_refined.astype(float) + 0.5*bin_indices_bits.astype(float))
+    bin_indices_bits = (0.25*bin_indices_bits_refined.astype(float) + 0.75*bin_indices_bits.astype(float))
     bin_indices_bits=(bin_indices_bits >=0).astype(int)
     bin_indices_bits[bin_indices_bits<=0]=-1
 
@@ -282,7 +282,7 @@ for i in range(0,n_iter):
     
     random_vectors = grh_hyperplanes.copy()
 ```
-In the above code, we parametrise GRH with 5 iterations and an alpha of 0.5. The iterations parameter is the number of times we repeat the two steps of GRH i.e. hashcode refinement with the adjacency matrix followed by adjustment of the hyperplanes based on those updated hashcodes. The matrix _random_vectors_ contains a set of hyperplanes that have been refined - that is made more effective for hashing-based nearest neighbour search - based on the supervisory information in the training dataset as encapsulated in the adjacency matrix. We can use these hyperplanes as in the code at the start of this tutorial to evaluate their effectiveness via a hashtable bucket-based evaluation at various Hamming radii.
+In the above code, we parametrise GRH with 2 iterations and an alpha of 0.25. The iterations parameter is the number of times we repeat the two steps of GRH i.e. hashcode refinement with the adjacency matrix followed by adjustment of the hyperplanes based on those updated hashcodes. After 2 iterations, the matrix _random_vectors_ contains a set of hyperplanes that have been refined - that is made more effective for hashing-based nearest neighbour search - based on the supervisory information in the training dataset as encapsulated in the adjacency matrix. We can use these hyperplanes as in the code at the start of this tutorial to evaluate their effectiveness via a hashtable bucket-based evaluation at various Hamming radii.
 
 The following diagrams highlight the two steps of GRH on a toy example:
 
