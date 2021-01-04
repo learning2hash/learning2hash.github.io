@@ -38,7 +38,7 @@ data = data-data.mean(axis=0)
 classes = mat['X_class']
 ```
 
-The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. We will now generate 16 random hyperplanes and project one image onto these hyperplanes, generating the hashcode:
+The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. It is important to L2 normalise and mean center the data before we index. We will now generate 16 random hyperplanes (= 16 bit hashcode) and project one image onto these hyperplanes, generating the hashcode:
 
 ```python
 import numpy as np
