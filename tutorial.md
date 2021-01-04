@@ -13,10 +13,10 @@ The original Matlab code supplied by Moran and Lavrenko can be found [here](http
 
 First step is to instantiate a virtual environment for Python3:
 
-<pre>
+```python
 python3 -m venv ./hashing_tutorial
 source hashing_tutorial/bin/activate
-</pre>
+```
 
 We retrieve and pre-process the CIFAR-10 dataset as follows:
 
