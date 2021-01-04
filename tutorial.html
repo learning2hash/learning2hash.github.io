@@ -255,7 +255,7 @@ function search() {
 
 <p>This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. The database consists of 58682 images, and the training dataset contains 1198 images.</p>
 
-<p><img src="./lsh_dataset.png" alt="Dataset" /></p>
+<p><img src="./tutorial/lsh_dataset.png" alt="Dataset" /></p>
 
 <p>To prevent overfitting we maintain a held-out <em>database</em> that we perform retrieval against using the set of 120 queries. The training dataset is used to learn any parameters and hyperparameters required by the models.</p>
 
@@ -271,7 +271,7 @@ function search() {
 
 <p>To search for nearest neighbours we apply a <em>Hamming radius based search</em>:</p>
 
-<p><img src="./lsh_evaluation.png" alt="Dataset" /></p>
+<p><img src="./tutorial/lsh_evaluation.png" alt="Dataset" /></p>
 
 <p>Hamming radius based search for a radius of zero is shown in Figure (b) in the above diagram (taken from the PhD thesis of <a href="https://era.ed.ac.uk/handle/1842/20390">Sean Moran</a>).</p>
 
@@ -296,7 +296,8 @@ function search() {
 
         <span class="n">start</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
 
-        <span class="n">n_vectors</span> <span class="o">=</span> <span class="n">bin_index_bits</span><span class="p">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="c1"># Augment the candidate set with images from bins within the search radius
+</span>        <span class="n">n_vectors</span> <span class="o">=</span> <span class="n">bin_index_bits</span><span class="p">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
         <span class="k">for</span> <span class="n">different_bits</span> <span class="ow">in</span> <span class="n">combinations</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">n_vectors</span><span class="p">),</span> <span class="n">search_radius</span><span class="p">):</span>
             <span class="n">index</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">different_bits</span><span class="p">)</span>
             <span class="n">alternate_bits</span> <span class="o">=</span> <span class="n">bin_index_bits</span><span class="p">.</span><span class="n">copy</span><span class="p">()</span>
@@ -329,11 +330,11 @@ function search() {
 
 <p>The above code will produce a mean precision@10 of 0.42 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 40% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly!</p>
 
-<p><img src="./lsh_precision10.png" alt="LSH Precision@10" /></p>
+<p><img src="./tutorial/lsh_precision10.png" alt="LSH Precision@10" /></p>
 
 <p>As the Hamming radius increases from 0 to 10 we start retrieving more and more images from the database in our candidate set, and this leads to a corresponding sharp increase in the query time which will approach a standard brute force search time (~48 seconds) when the candidate set equals the entire database.</p>
 
-<p><img src="./lsh_time.png" alt="LSH Time" /></p>
+<p><img src="./tutorial/lsh_time.png" alt="LSH Time" /></p>
 
 <p>We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness. To recap we will be developing the supervised learning to hash model <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing</a>.</p>
 
