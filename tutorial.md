@@ -3,7 +3,7 @@ layout: default
 title: Tutorial
 comments: true
 ---
-This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). 
+This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). A zip file containing the entire code and requirements.txt file for this tutorial can be found here.
 
 In this tutorial we explore a learning to hash model and compare its performance to Locality Sensitive Hashing (LSH).
 
