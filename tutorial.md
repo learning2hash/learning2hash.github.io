@@ -221,7 +221,7 @@ The above code will produce a mean precision@10 of 0.30 for a radius of 2. As we
 
 ![LSH Precision@10](./tutorial/lsh_precision10.png)
 
-As the Hamming radius increases from 0 to 10 we start retrieving more and more images from the database in our candidate set, and this leads to a corresponding sharp increase in the query time which will approach a standard brute force search time (~48 seconds) when the candidate set equals the entire database.
+As the Hamming radius increases from 0 to 10 we start retrieving more and more images from the database in our candidate set, and this leads to a corresponding sharp increase in the query time which will approach a standard brute force search time (~53 seconds) when the returned candidate set equals the entire database.
 
 ![LSH Time](./tutorial/lsh_time.png)
 
@@ -270,5 +270,6 @@ for i in range(0,n_iter):
     
     random_vectors = grh_hyperplanes.copy()
 ```
+In the above code, we parametrise GRH with 5 iterations and an alpha of 0.5. The iterations parameter is the number of times we repeat the two steps of GRH i.e. hashcode refinement with the adjacency matrix followed by adjustment of the hyperplanes based on those updated hashcodes. The following diagrams highlight the two steps of GRH on a toy example:
 
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
