@@ -270,15 +270,15 @@ for i in range(0,n_iter):
     
     random_vectors = grh_hyperplanes.copy()
 ```
-In the above code, we parametrise GRH with 5 iterations and an alpha of 0.5. The iterations parameter is the number of times we repeat the two steps of GRH i.e. hashcode refinement with the adjacency matrix followed by adjustment of the hyperplanes based on those updated hashcodes. _random_vectors_ contains a set of hyperplanes that have been improved - that is made more effective for hashing-based nearest neighbour search - based on the supervisory information in the training dataset. We can use these hyperplanes as in the code at the start of this tutorial to evaluate their effectiveness via a hashtable bucket-based evaluation at various Hamming radii.
+In the above code, we parametrise GRH with 5 iterations and an alpha of 0.5. The iterations parameter is the number of times we repeat the two steps of GRH i.e. hashcode refinement with the adjacency matrix followed by adjustment of the hyperplanes based on those updated hashcodes. The matrix _random_vectors_ contains a set of hyperplanes that have been refined - that is made more effective for hashing-based nearest neighbour search - based on the supervisory information in the training dataset as encapsulated in the adjacency matrix. We can use these hyperplanes as in the code at the start of this tutorial to evaluate their effectiveness via a hashtable bucket-based evaluation at various Hamming radii.
 
 The following diagrams highlight the two steps of GRH on a toy example:
 
 
-Evaluating the GRH hashcodes using the same methodology as we did for LSH, we find a vastly improved retrieval effectiveness, particulaly at low Hamming radii:
+Evaluating the GRH hashcodes using the same methodology as we did for LSH, we find an improved retrieval effectiveness, particulaly at low Hamming radii:
 
 ![GRH Time](./tutorial/grh_precision10.png)
 
-GRH ensures that a large proprtion of the nearest neighbours can be found in the same bucket as the query, and that there is little benefit in searching additional buckets. We therefore are able to keep the fast query time of only having to inspect one bucket. To reach the same precision@10 as GRH at Hamming radius 0, LSH requires a Hamming radius of ~5 and ~10 seconds query time (versus 3 seconds for GRH for the same precision@10).
+GRH ensures that a large proprtion of the nearest neighbours can be found in the same bucket as the query, and that there is minor benefit in searching additional buckets. We therefore are able to keep a faster query time of only having to inspect one bucket. For example, to reach the same precision@10 as obtained by GRH at Hamming radius 0, LSH requires a Hamming radius of ~5 and ~10 seconds query time (versus only ~3 seconds for GRH for the same precision@10).
 
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
