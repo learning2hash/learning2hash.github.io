@@ -158,7 +158,7 @@ function search() {
 <span class="n">classes</span> <span class="o">=</span> <span class="n">mat</span><span class="p">[</span><span class="s">'X_class'</span><span class="p">]</span>
 </code></pre></div></div>
 
-<p>The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. We will now generate 16 random hyperplanes and project one image onto these hyperplanes, generating the hashcode:</p>
+<p>The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. It is important to L2 normalise and mean center the data before we index. We will now generate 16 random hyperplanes (= 16 bit hashcode) and project one image onto these hyperplanes, generating the hashcode:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
 
