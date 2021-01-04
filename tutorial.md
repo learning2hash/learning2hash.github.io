@@ -20,7 +20,7 @@ source hashing_tutorial/bin/activate
 
 We retrieve and pre-process the CIFAR-10 dataset as follows:
 
-<pre>
+```python
 import scipy.io
 import os
 import requests
@@ -36,11 +36,11 @@ data = mat['X']
 data = Normalizer(norm='l2').fit_transform(data)
 data = data-data.mean(axis=0)
 classes = mat['X_class']
-</pre>
+```
 
 The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. We will now generate 16 random hyperplanes and project one image onto these hyperplanes, generating the hashcode:
 
-<pre>
+```python
 import numpy as np
 
 num_classes = 10
@@ -57,14 +57,13 @@ bin_indices_bits = data[0,:].dot(random_vectors) >= 0
 print(bin_indices_bits)
 
 # [False  True False  True False  True False False False False  True  True True False False False]
-
-</pre>
+```
 
 The last line of code prints out the hashcode assigned to this image. Images with the exact same hashcode will collide in the same hashtable bucket. We would like these colliding images to be semantically similar i.e. have the same class label.
 
 We now convert the boolean representation above into an integer representation that will denote the bin indices:
 
-<pre>
+```python
 # https://wiki.python.org/moin/BitwiseOperators
 # x << y is the same as multiplying x by 2 ** y
 powers_of_two = 1 << np.arange(n_vectors - 1, -1, step=-1)
@@ -74,20 +73,20 @@ print(powers_of_two)
 bin_indices = bin_indices_bits.dot(powers_of_two)
 print(bin_indices)
 # 21560
-</pre>
+```
 
 The example image will hash into hashtable bucket with index 21560. Now we will hash the entire dataset using matrix operations:
 
-<pre>
+```python
 bin_indices_bits = data.dot(random_vectors) >= 0
 print(bin_indices_bits.shape)
 bin_indices = bin_indices_bits.dot(powers_of_two)
 bin_indices.shape
-</pre>
+```
 
 bin_indices now contains 60,000 bin indices, one for each of the 60,000 images in the CIFAR-10 dataset. We now insert these images into a hashtable and inspect the duplicates:
 
-<pre>
+```python
 from collections import defaultdict
 
 table = defaultdict(list)
@@ -97,11 +96,11 @@ for idx, bin_index in enumerate(bin_indices):
 for bucket,images in table.items():
 	if len(images)>1:
 		print(images)
-</pre>
+```
 
 The code above will print out the buckets of the hashtable with at least two images and the associated IDs (i.e. row numbers in the original .mat file) of the images in each bucket. The average bin count is ~51 images, so there has been many collisions of images into buckets. Next we will inspect some of the buckets to gain an understanding of the quality of the hashing with LSH:
 
-<pre>
+```python
 # We take this bucket and inspect the images:
 # [46262, 46488, 47724, 59147, 59462, 59572]
 
@@ -112,11 +111,11 @@ print(classes[:,47724])   # 7
 print(classes[:,59147])   # 9
 print(classes[:,59462])   # 2
 print(classes[:,59572])   # 8
-</pre>
+```
 
 On this particular example we can see that LSH does fairly poorly, with only two semantically related images (class 8), colliding in the same bucket. We will inspect another bucket before moving on:
 
-<pre>
+```python
 # We take this bucket and inspect the images:
 # [16380, 18515, 27324, 33419, 43442, 46613, 54356]
 
@@ -128,18 +127,18 @@ print(classes[:,33419])   # 0
 print(classes[:,43442])   # 0
 print(classes[:,46613])   # 0
 print(classes[:,54356])   # 0
-</pre>
+```
 
 In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0). 
 
 We now quantify the semantic retrieval effectieness of LSH more formally using the precision at 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we split the dataset up into a _set of queries_, a _training dataset_ to learn any parameters and a _held-out database_ that we perform retrieval:
 
-<pre>
+```python
 from sklearn.model_selection import train_test_split
 np.random.seed(0)
 data_temp, data_query, labels_temp, labels_query = train_test_split(data, classes[0,:], test_size=0.002, random_state=42)
 data_database, data_train, labels_database, labels_train = train_test_split(data_temp, labels_temp[:], test_size=0.02, random_state=42)
-</pre>
+```
 
 This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. The database consists of 58682 images, and the training dataset contains 1198 images. 
 
@@ -149,14 +148,14 @@ To prevent overfitting we maintain a held-out _database_ that we perform retriev
 
 We now index the database portion with LSH creating our hashtable:
 
-<pre>
+```python
 bin_indices_bits = data_database.dot(random_vectors) >= 0
 bin_indices = bin_indices_bits.dot(powers_of_two)
 
 table = defaultdict(list)
 for idx, bin_index in enumerate(bin_indices):
     table[bin_index].append(idx)
-</pre>
+```
 
 To search for nearest neighbours we apply a _Hamming radius based search_:
 
@@ -166,7 +165,7 @@ Hamming radius based search for a radius of zero is shown in Figure (b) in the a
 
 In a nutshell this search methodology works by also looking in the collding bin and nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the _itertools combinations_ function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 10 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.
 
-<pre>
+```python
 from itertools import combinations
 from sklearn.metrics.pairwise import pairwise_distances
 import pandas as pd
@@ -215,7 +214,7 @@ mean_time = [np.mean(time_history[i]) for i in range(len(time_history))]
 print(mean_time)
 mean_precision = [np.mean(precision_history[i]) for i in range(len(precision_history))]
 print(mean_precision)
-</pre>	
+```	
 
 The above code will produce a mean precision@10 of 0.42 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 40% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly! 
 
@@ -229,11 +228,11 @@ We now investigate how learning the hyperplanes (i.e. learning to hash) can affo
 
 Our first step is to use the training dataset to construct an _adjacency matrix_ that GRH will use as its supervisory signal for learning the hashing hyperplanes. If two images share the same class label they have _adjacency_matrix[i,j]=1_ and _adjacency_matrix[i,j]=0_ otherwise. In Python we can construct this adjacency matrix from the class label vector:
 
-<pre>
+```python
 adjacency_matrix=np.equal.outer(labels_train, labels_train).astype(int)
 row_sums = adjacency_matrix.sum(axis=1)
 adjacency_matrix = adjacency_matrix / row_sums[:, np.newaxis]
-</pre>
+```
 
 We now implement the two-step [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, which is reminiscent of the expectation maximisation (EM) algorithm. 
 
@@ -241,7 +240,7 @@ In the first step the adjacency matrix is matrix multiplied by the hashcodes of 
 
 In essence, GRH takes the LSH hyperplanes in _random_vector_ as an initialisation point and iteratively updates those hyperplanes so as to make them more effective for hashing. The entire GRH model is implemented below:
 
-<pre>
+```python
 n_iter=5   # number of iterations of GRH
 alpha=0.5  # how much to update the hashcodes based on the supervisory information
 
@@ -269,6 +268,6 @@ for i in range(0,n_iter):
             grh_hyperplanes[:,j]=hyperplane
     
     random_vectors = grh_hyperplanes.copy()
-</pre>
+```
 
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
