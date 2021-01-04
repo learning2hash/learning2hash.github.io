@@ -328,7 +328,7 @@ function search() {
 <span class="k">print</span><span class="p">(</span><span class="n">mean_precision</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>The above code will produce a mean precision@10 of 0.42 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 40% of those will be relevant to the query when we use a Hamming radius of 2. This is reasonable performance, especially since the hyperplanes were generated randomly!</p>
+<p>The above code will produce a mean precision@10 of 0.30 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 30% of those will be relevant to the query when we use a Hamming radius of 2.</p>
 
 <p><img src="./tutorial/lsh_precision10.png" alt="LSH Precision@10" /></p>
 
