@@ -328,7 +328,7 @@ function search() {
 <span class="k">print</span><span class="p">(</span><span class="n">mean_precision</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>The above code will produce a mean precision@10 of 0.30 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 30% of those will be relevant to the query when we use a Hamming radius of 2.</p>
+<p>The above code will produce a mean precision@10 of 0.30 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 30% of those will be relevant to the query when we use a Hamming radius of 2. We will show how this can be boosted to 0.41 mean precision@10 by <em>learning the hashing hyperplanes</em>, rather than generating the hyperplanes randomly (as per LSH).</p>
 
 <p><img src="./tutorial/lsh_precision10.png" alt="LSH Precision@10" /></p>
 
@@ -411,7 +411,7 @@ function search() {
 
 <p><img src="./tutorial/grh_precision10.png" alt="GRH Time" /></p>
 
-<p>GRH ensures that a large proportion of the nearest neighbours can be found in the same bucket as the query, and that there is minor benefit in searching additional buckets. We are able to keep a faster query time of only having to inspect one bucket. For example, to reach the same precision@10 as obtained by GRH at Hamming radius 0, LSH requires a Hamming radius of ~5 and a ~10 seconds query time (versus only ~3 seconds for GRH for the same precision@10). The query time curve for GRH at increasing Hamming radii is shown below:</p>
+<p>The benefits of GRH on this dataset an for a hashcode length of 16 bits can mostly be observed in the low Hamming radius regime. For example, to reach the same precision@10 as obtained by GRH at Hamming radius 0, LSH requires a Hamming radius of ~5 and a ~10 seconds query time (versus only ~3 seconds for GRH for the same precision@10). As the Hamming radius increases, LSH is able to claw back retrieval effectiveness The query time curve for GRH at increasing Hamming radii is shown below:</p>
 
 <p><img src="./tutorial/grh_time.png" alt="GRH Time" /></p>
 
