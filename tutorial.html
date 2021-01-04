@@ -155,6 +155,8 @@ with open(os.path.join("./", "Gist512CIFAR10.mat"), 'wb') as f:
 mat = scipy.io.loadmat('./Gist512CIFAR10.mat')
 
 data = mat['X']
+data = Normalizer(norm='l2').fit_transform(data)
+data = data-data.mean(axis=0)
 classes = mat['X_class']
 </pre>
 
