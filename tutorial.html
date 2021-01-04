@@ -347,19 +347,19 @@ function search() {
 
 <p>We now implement the two-step <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing (GRH)</a> model of Moran and Lavrenko, which is reminiscent of the expectation maximisation (EM) algorithm.</p>
 
-<p>In the first step the adjacency matrix is matrix multiplied by the hashcodes of the training dataset images. This multiplication has the effect of adjusting the hashcodes of the training database images such that semantically similar images have their hashcodes made more similar to each other. In the second step those refined hashcodes are used to update the hyperplanes: to do this an SVM is learnt per hash bit using the bits as targets:</p>
-
 <p><img src="./tutorial/grh.png" alt="GRH" /></p>
 
 <p>The first step is <em>Graph Regularisation</em>:</p>
 
 <p><img src="./tutorial/grh_step1.png" alt="GRH" /></p>
 
+<p>In the first step the adjacency matrix is matrix multiplied by the hashcodes of the training dataset images. This multiplication has the effect of adjusting the hashcodes of the training database images such that semantically similar images have their hashcodes made more similar to each other.</p>
+
 <p>The second step is <em>Data Space Partitioning</em>:</p>
 
 <p><img src="./tutorial/grh_step2.png" alt="GRH" /></p>
 
-<p>GRH takes the LSH hyperplanes in <em>random_vector</em> as an initialisation point and iteratively updates those hyperplanes so as to make them more effective for hashing. The entire GRH model is implemented below:</p>
+<p>In the second step those refined hashcodes are used to update the hyperplanes: to do this an SVM is learnt per hash bit using the bits as targets. GRH takes the LSH hyperplanes in <em>random_vector</em> as an initialisation point and iteratively updates those hyperplanes so as to make them more effective for hashing. The entire GRH model is implemented below:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n_iter</span><span class="o">=</span><span class="mi">5</span>   <span class="c1"># number of iterations of GRH
 </span><span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span>  <span class="c1"># how much to update the hashcodes based on the supervisory information
@@ -397,7 +397,7 @@ function search() {
 
 <p><img src="./tutorial/grh_precision10.png" alt="GRH Time" /></p>
 
-<p>GRH ensures that a large proprtion of the nearest neighbours can be found in the same bucket as the query, and that there is minor benefit in searching additional buckets. We therefore are able to keep a faster query time of only having to inspect one bucket. For example, to reach the same precision@10 as obtained by GRH at Hamming radius 0, LSH requires a Hamming radius of ~5 and ~10 seconds query time (versus only ~3 seconds for GRH for the same precision@10). The query time curve for GRH at increasing Hamming radii is shown below:</p>
+<p>GRH ensures that a large proportion of the nearest neighbours can be found in the same bucket as the query, and that there is minor benefit in searching additional buckets. We therefore are able to keep a faster query time of only having to inspect one bucket. For example, to reach the same precision@10 as obtained by GRH at Hamming radius 0, LSH requires a Hamming radius of ~5 and ~10 seconds query time (versus only ~3 seconds for GRH for the same precision@10). The query time curve for GRH at increasing Hamming radii is shown below:</p>
 
 <p><img src="./tutorial/grh_time.png" alt="GRH Time" /></p>
 
