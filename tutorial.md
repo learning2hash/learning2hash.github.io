@@ -21,6 +21,7 @@ First step is to instantiate a virtual environment for Python3:
 ```python
 python3 -m venv ./hashing_tutorial
 source hashing_tutorial/bin/activate
+pip3 install -r requirements.txt 
 ```
 
 We retrieve and pre-process the CIFAR-10 dataset as follows:
