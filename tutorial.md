@@ -6,7 +6,7 @@ comments: true
 
 ## Overview 
 
-This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). A zip file containing the entire code and requirements.txt file for this tutorial can be found here.
+This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). A zip file containing the entire code and [requirements.txt](./tutorial/requirements.txt) file for this tutorial can be found here.
 
 In this tutorial we explore a [published learning to hash model](https://learning2hash.github.io/publications/moran2015agraph/) and compare its performance on image retrieval to Locality Sensitive Hashing (LSH).
 
