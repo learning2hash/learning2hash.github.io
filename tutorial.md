@@ -7,7 +7,7 @@ This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.gi
 
 In this tutorial we explore a learning to hash model and compare its performance to Locality Sensitive Hashing (LSH).
 
-Specifically we will implement Locality Sensitive Hashing (LSH) and compare to the [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found [here](https://sjmoran.github.io/bib/grh.bib).
+Specifically we will implement Locality Sensitive Hashing (LSH) and compare to the [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found [here](https://sjmoran.github.io/bib/grh.bib). The model was subsquently [extended to cross-modal hashing](https://dl.acm.org/doi/abs/10.1145/2766462.2767816).
 
 The original Matlab code supplied by Moran and Lavrenko can be found [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark the retrieval effectiveness against LSH (random projections) using the precision at 10 metric and semantic nearest neighbour evaluation.
 
