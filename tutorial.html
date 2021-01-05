@@ -125,7 +125,7 @@ function search() {
 
 
     <div class="content container">
-      <h1 id="overview">Overview</h1>
+      <h2 id="overview">Overview</h2>
 
 <p>This tutorial on learning to hash was written by <a href="https://sjmoran.github.io/">Sean Moran</a>. A zip file containing the entire code and requirements.txt file for this tutorial can be found here.</p>
 
@@ -133,7 +133,7 @@ function search() {
 
 <p>Specifically we study the <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing (GRH)</a> model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found <a href="https://sjmoran.github.io/bib/grh.bib">here</a>. The model was subsquently <a href="https://dl.acm.org/doi/abs/10.1145/2766462.2767816">extended to cross-modal hashing</a>.</p>
 
-<h1 id="implementation">Implementation</h1>
+<h2 id="implementation-lsh">Implementation (LSH)</h2>
 
 <p>The original Matlab code supplied by Moran and Lavrenko can be found <a href="https://github.com/sjmoran/GRH">here</a>. We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark the retrieval effectiveness against LSH (Gaussian random projections) using the precision at 10 metric and semantic nearest neighbour evaluation.</p>
 
@@ -249,7 +249,7 @@ function search() {
 
 <p>In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0).</p>
 
-<h1 id="evaluation-lsh">Evaluation (LSH)</h1>
+<h2 id="evaluation-lsh">Evaluation (LSH)</h2>
 
 <p>We now quantify the semantic retrieval effectieness of LSH more formally using the precision at 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we split the dataset up into a <em>set of queries</em>, a <em>training dataset</em> to learn any parameters and a <em>held-out database</em> that we perform retrieval:</p>
 
@@ -342,7 +342,7 @@ function search() {
 
 <p><img src="./tutorial/lsh_time.png" alt="LSH Time" /></p>
 
-<h1 id="implementation-grh">Implementation (GRH)</h1>
+<h2 id="implementation-grh">Implementation (GRH)</h2>
 
 <p>We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness. To recap we will be developing the supervised learning to hash model <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing</a>.</p>
 
@@ -413,7 +413,7 @@ function search() {
 
 <p><img src="./tutorial/grh_toy3.png" alt="GRH" /></p>
 
-<h1 id="evaluation-grh">Evaluation (GRH)</h1>
+<h2 id="evaluation-grh">Evaluation (GRH)</h2>
 
 <p>Now we have gained an understanding of how the GRH model works we will evaluate the GRH hashcodes using the same methodology as we did for LSH. We find an improved retrieval effectiveness, particularly at low Hamming radii:</p>
 
@@ -423,7 +423,7 @@ function search() {
 
 <p><img src="./tutorial/grh_time.png" alt="GRH Time" /></p>
 
-<h1 id="conclusions">Conclusions</h1>
+<h2 id="conclusions">Conclusions</h2>
 
 <p>In this tutorial we use an SVM to learn the hyperplanes for GRH. Another benefit of GRH is that it is <em>agnostic to the learning algorithm</em>, and we can use a deep network if we wish to learn a more accurate data-space partitioning or a <a href="https://www.youtube.com/watch?v=uxGDwyPWNkU">passive aggressive classifier</a> if we wish for a light-weight learning method that can be adapted online e.g. in a streaming scenario.</p>
 
