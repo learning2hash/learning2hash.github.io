@@ -284,25 +284,23 @@ for i in range(0,n_iter):
 ```
 In the above code, we parametrise GRH with 2 iterations and an alpha of 0.25. The iterations parameter is the number of times we repeat the two steps of GRH i.e. hashcode refinement with the adjacency matrix followed by adjustment of the hyperplanes based on those updated hashcodes. After 2 iterations, the matrix _random_vectors_ contains a set of hyperplanes that have been refined - that is made more effective for hashing-based nearest neighbour search - based on the supervisory information in the training dataset as encapsulated in the adjacency matrix. We can use these hyperplanes as in the code at the start of this tutorial to evaluate their effectiveness via a hashtable bucket-based evaluation at various Hamming radii.
 
-The following diagrams highlight the two steps of GRH on a toy example:
+We now illustate how GRH works on a toy image retrieval example. The following diagram illustrates the nearest neighbour relationships on the toy example: denoted by the nodes and edges (edges connect semantic nearest neighbours). The LSH generated hashcodes are show alongside each image.
 
 ![GRH](./tutorial/grh_toy1.png)
 
-The above diagram illustrates the nearest neighbour relationships on this toy example: denoted by the nodes and edges (edges connect semantic nearest neighbours). The LSH generated hashcodes are show alongside each image.
+The diagram below illustrates how the adjacency matrix is used to update the hashcodes, with the first bit of image _C_ flipping to a -1 to be more similar to the images above and to the left of it. In contrast, image _E_ has its second bit flipped to become more similar to the hashcodes from the images below and to the left of it.
 
 ![GRH](./tutorial/grh_toy2.png)
 
-The above diagram illustrates how the adjacency matrix is used to update the hashcodes, with the first bit of image _C_ flipping to a -1 to be more similar to the images above and to the left of it. In contrast, image _E_ has its second bit flipped to become more similar to the hashcodes from the images below and to the left of it.
+A hyperplane is then learnt for the first bit by using the first bit of every image's hashcode as the target. In this toy example (image below) a hyperplane partitions the data space horizontally, assigning images above the line a -1 in their first bit of their hashcode, and images below the line a 1 in their first bit of their hashcode.
 
 ![GRH](./tutorial/grh_toy3.png)
 
-A hyperplane is then learnt for the first bit by using the first bit of every image's hashcode as the target. In this toy example a hyperplane partitions the data space horizontally, assigning images above the line a -1 in their first bit of their hashcode, and images below the line a 1 in their first bit of their hashcode.
-
-Evaluating the GRH hashcodes using the same methodology as we did for LSH, we find an improved retrieval effectiveness, particulaly at low Hamming radii:
+Now we have gained an understanding of how the GRH model works we will evaluate the GRH hashcodes using the same methodology as we did for LSH. We find an improved retrieval effectiveness, particularly at low Hamming radii:
 
 ![GRH Time](./tutorial/grh_precision10.png)
 
-The benefits of GRH on this dataset an for a hashcode length of 16 bits can mostly be observed in the low Hamming radius regime (<=5). For example, at Hamming radius 0, GRH obtains ~0.25 mean precision@10, whereas LSH obtains ~0.1 mean precision@10. Query time for both methods are approximately similar (~0.5 seconds). The query time curve for GRH at increasing Hamming radii is shown below - as can be observed for some Hamming radii we pay at small price in terms of query time for the additional boost in effectiveness.
+The benefits of GRH on this dataset an for a hashcode length of 16 bits can mostly be observed in the low Hamming radius regime (<=5). For example, at Hamming radius 0, GRH obtains ~0.25 mean precision@10, whereas LSH obtains ~0.1 mean precision@10. Query time for both methods are approximately similar (~0.5 seconds). The query time curve for GRH at increasing Hamming radii is shown below. As can be observed, for some Hamming radii, we pay at small price in terms of query time for the additional boost in effectiveness.
 
 ![GRH Time](./tutorial/grh_time.png)
 
