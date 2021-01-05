@@ -319,6 +319,6 @@ The benefits of GRH on this dataset an for a hashcode length of 16 bits can most
 
 In this tutorial we use an SVM to learn the hyperplanes for GRH. Another benefit of GRH is that it is _agnostic to the learning algorithm_, and we can use a deep network if we wish to learn a more accurate data-space partitioning or a [passive aggressive classifier](https://www.youtube.com/watch?v=uxGDwyPWNkU) if we wish for a light-weight learning method that can be adapted online e.g. in a streaming scenario.
 
-Any comments on this tutorial please contact the author [Sean Moran](https://sjmoran.github.io/). A zip file containing the entire code and requirements.txt file for this tutorial can be found here.
+Any comments on this tutorial please contact the author [Sean Moran](https://sjmoran.github.io/). A zip file containing the entire code and [requirements.txt](./tutorial/requirements.txt) file for this tutorial can be found here.
 
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
