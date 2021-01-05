@@ -3,11 +3,16 @@ layout: default
 title: Tutorial
 comments: true
 ---
+
+# Overview 
+
 This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). A zip file containing the entire code and requirements.txt file for this tutorial can be found here.
 
 In this tutorial we explore a [published learning to hash model](https://learning2hash.github.io/publications/moran2015agraph/) and compare its performance on image retrieval to Locality Sensitive Hashing (LSH).
 
 Specifically we study the [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found [here](https://sjmoran.github.io/bib/grh.bib). The model was subsquently [extended to cross-modal hashing](https://dl.acm.org/doi/abs/10.1145/2766462.2767816).
+
+# Implementation
 
 The original Matlab code supplied by Moran and Lavrenko can be found [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark the retrieval effectiveness against LSH (Gaussian random projections) using the precision at 10 metric and semantic nearest neighbour evaluation.
 
@@ -131,6 +136,8 @@ print(classes[:,54356])   # 0
 
 In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0). 
 
+# Evaluation (LSH)
+
 We now quantify the semantic retrieval effectieness of LSH more formally using the precision at 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we split the dataset up into a _set of queries_, a _training dataset_ to learn any parameters and a _held-out database_ that we perform retrieval:
 
 ```python
@@ -225,6 +232,8 @@ As the Hamming radius increases from 0 to 10 we start retrieving more and more i
 
 ![LSH Time](./tutorial/lsh_time.png)
 
+# Implementation (GRH)
+
 We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness. To recap we will be developing the supervised learning to hash model [Graph Regularised Hashing](https://learning2hash.github.io/publications/moran2015agraph/).
 
 Our first step is to use the training dataset to construct an _adjacency matrix_ that GRH will use as its supervisory signal for learning the hashing hyperplanes. If two images share the same class label they have _adjacency_matrix[i,j]=1_ and _adjacency_matrix[i,j]=0_ otherwise. In Python we can construct this adjacency matrix from the class label vector:
@@ -296,6 +305,8 @@ A hyperplane is then learnt for the first bit by using the first bit of every im
 
 ![GRH](./tutorial/grh_toy3.png)
 
+# Evaluation (GRH)
+
 Now we have gained an understanding of how the GRH model works we will evaluate the GRH hashcodes using the same methodology as we did for LSH. We find an improved retrieval effectiveness, particularly at low Hamming radii:
 
 ![GRH Time](./tutorial/grh_precision10.png)
@@ -303,6 +314,8 @@ Now we have gained an understanding of how the GRH model works we will evaluate 
 The benefits of GRH on this dataset an for a hashcode length of 16 bits can mostly be observed in the low Hamming radius regime (<=5). For example, at Hamming radius 0, GRH obtains ~0.25 mean precision@10, whereas LSH obtains ~0.1 mean precision@10. Query time for both methods are approximately similar (~0.5 seconds). The query time curve for GRH at increasing Hamming radii is shown below. As can be observed, for some Hamming radii, we pay at small price in terms of query time for the additional boost in effectiveness.
 
 ![GRH Time](./tutorial/grh_time.png)
+
+# Conclusions
 
 In this tutorial we use an SVM to learn the hyperplanes for GRH. Another benefit of GRH is that it is _agnostic to the learning algorithm_, and we can use a deep network if we wish to learn a more accurate data-space partitioning or a [passive aggressive classifier](https://www.youtube.com/watch?v=uxGDwyPWNkU) if we wish for a light-weight learning method that can be adapted online e.g. in a streaming scenario.
 
