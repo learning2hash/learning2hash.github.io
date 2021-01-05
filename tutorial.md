@@ -252,7 +252,7 @@ The first step is _Graph Regularisation_:
 
 ![GRH](./tutorial/grh_step1.png)
 
-The paper by Fernando Diaz - as referenced in the above slidedeck - is very much worth a read and can be found [here](https://fernando.diaz.nyc/LSR-IR.pdf).
+(The paper by Fernando Diaz - as referenced in the above slidedeck - is very much worth a read and can be found [here](https://fernando.diaz.nyc/LSR-IR.pdf).)
 
 In the first step the adjacency matrix is matrix multiplied by the hashcodes of the training dataset images. This multiplication has the effect of adjusting the hashcodes of the training database images such that semantically similar images have their hashcodes made more similar to each other. 
 
