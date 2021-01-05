@@ -14,7 +14,7 @@ Specifically we study the [Graph Regularised Hashing (GRH)](https://learning2has
 
 ## Implementation (LSH)
 
-The original Matlab code supplied by Moran and Lavrenko can be found [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark the retrieval effectiveness against LSH (Gaussian random projections) using the precision at 10 metric and semantic nearest neighbour evaluation.
+The original Matlab code supplied by Moran and Lavrenko can be found [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark the retrieval effectiveness against LSH ([Gaussian sign random projections](https://randorithms.com/2019/09/19/Visual-LSH.html)) using the precision at 10 metric and semantic nearest neighbour evaluation.
 
 First step is to instantiate a virtual environment for Python3:
 
