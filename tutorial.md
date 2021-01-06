@@ -6,7 +6,7 @@ comments: true
 
 ## Overview 
 
-This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). A zip file containing the entire code and [requirements.txt](./tutorial/requirements.txt) file for this tutorial can be found here.
+This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). The code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are in [requirements.txt](./tutorial/requirements.txt) file.
 
 In this tutorial we explore a [published learning to hash model](https://learning2hash.github.io/publications/moran2015agraph/) and compare its performance on image retrieval to Locality Sensitive Hashing (LSH).
 
@@ -320,6 +320,6 @@ The benefits of GRH on this dataset an for a hashcode length of 16 bits can most
 
 In this tutorial we use an SVM to learn the hyperplanes for GRH. Another benefit of GRH is that it is _agnostic to the learning algorithm_, and we can use a deep network if we wish to learn a more accurate data-space partitioning or a [passive aggressive classifier](https://www.youtube.com/watch?v=uxGDwyPWNkU) if we wish for a light-weight learning method that can be adapted online e.g. in a streaming scenario.
 
-Any comments on this tutorial please contact the author [Sean Moran](https://sjmoran.github.io/). A zip file containing the entire code and [requirements.txt](./tutorial/requirements.txt) file for this tutorial can be found here.
+Any comments on this tutorial please contact the author [Sean Moran](https://sjmoran.github.io/). The code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are in [requirements.txt](./tutorial/requirements.txt) file.
 
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
