@@ -54,3 +54,5 @@ This literature review gives a particular focus on recently proposed approximate
 ### Contributing
 
 Learning-to-hash is a vibrant research field and is rapidly evolving, particularly with the recent surge in interest in deep neural network-based models. The purpose of this website is to augment static literature reviews with a dynamic website that can be updated by any interested researcher with newly published work in the field, including links to relevant code and datasets. To add a new paper to the website simply create a markdown file and open a pull request in GitHub by following [these instructions for contributing](contributing.html).
+
+Copyright © [Sean Moran](https://sjmoran.github.io/) 2020. All opinions are my own.
