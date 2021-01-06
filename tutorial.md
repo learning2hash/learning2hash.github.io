@@ -322,4 +322,6 @@ In this tutorial we use an SVM to learn the hyperplanes for GRH. Another benefit
 
 Any comments on this tutorial please contact the author [Sean Moran](https://sjmoran.github.io/). The code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are in [requirements.txt](./tutorial/requirements.txt) file.
 
+Copyright © [Sean Moran](https://sjmoran.github.io/) 2020. All opinions are my own.
+
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
