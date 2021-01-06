@@ -120,6 +120,7 @@
 - {bibkey: mirflickr2008new, categories: [dataset], name: MIR-FLICKR25K, modality: Image/Text, size: 25000, features: RGB pixels (image) - 38 categories 1386 tags (text)}
 
 # Unsupervised Projection Models
+- {bibkey: li2006sparse, categories: [unsupervised], codebook: Binary, optimisation: Randomised, type: Shallow, modality: Unimodal}
 - {bibkey: ye2020nearoptimal, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: li2019neighbourhood, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: su2019unsupervised, categories: [unsupervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Cross-modal}
