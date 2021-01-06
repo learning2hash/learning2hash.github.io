@@ -245,7 +245,7 @@ row_sums = adjacency_matrix.sum(axis=1)
 adjacency_matrix = adjacency_matrix / row_sums[:, np.newaxis]
 ```
 
-We now implement the two-step [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, which is reminiscent of the expectation maximisation (EM) algorithm. 
+We now implement the two-step [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, which is reminiscent of the expectation maximisation (EM) algorithm. The following slides are taken from the talk [here](https://www.slideshare.net/sjmoran1/graph-regularised-hashing-ecir15-talk).
 
 ![GRH](./tutorial/grh.png)
 
@@ -253,7 +253,7 @@ The first step is _Graph Regularisation_:
 
 ![GRH](./tutorial/grh_step1.png)
 
-(The paper by Fernando Diaz - as referenced in the above slidedeck - is very much worth a read and can be found [here](https://fernando.diaz.nyc/LSR-IR.pdf).)
+(The paper by Fernando Diaz - as referenced in the above [slidedeck](https://www.slideshare.net/sjmoran1/graph-regularised-hashing-ecir15-talk) - is very much worth a read and can be found [here](https://fernando.diaz.nyc/LSR-IR.pdf).)
 
 In the first step the adjacency matrix is matrix multiplied by the hashcodes of the training dataset images. This multiplication has the effect of adjusting the hashcodes of the training database images such that semantically similar images have their hashcodes made more similar to each other. 
 
