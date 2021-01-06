@@ -6,15 +6,15 @@ comments: true
 
 ## Overview 
 
-This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). The code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are in [requirements.txt](./tutorial/requirements.txt) file. Feel free to contact [me](https://sjmoran.github.io/) with questions, suggestions or feedback.
-
 In this tutorial we explore a [published learning to hash model](https://learning2hash.github.io/publications/moran2015agraph/) and compare its performance on image retrieval to Locality Sensitive Hashing (LSH).
 
 Specifically we study the [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found [here](https://sjmoran.github.io/bib/grh.bib). The model was subsquently [extended to cross-modal hashing](https://dl.acm.org/doi/abs/10.1145/2766462.2767816).
 
-## Implementation (LSH)
+This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). The entire code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are in [requirements.txt](./tutorial/requirements.txt) file. Feel free to contact [me](https://sjmoran.github.io/) with questions, suggestions or feedback.
 
-The original Matlab code supplied by Moran and Lavrenko can be found [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark the retrieval effectiveness against LSH ([Gaussian sign random projections](https://randorithms.com/2019/09/19/Visual-LSH.html)) using the precision at 10 metric and semantic nearest neighbour evaluation.
+## Preliminaries
+
+The original Matlab code supplied by Moran and Lavrenko can be found [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark the retrieval effectiveness against LSH (i.e. [Gaussian sign random projections](https://randorithms.com/2019/09/19/Visual-LSH.html)) using the precision at 10 metric and semantic nearest neighbour evaluation.
 
 First step is to instantiate a virtual environment for Python3:
 
@@ -44,7 +44,19 @@ data = data-data.mean(axis=0)
 classes = mat['X_class']
 ```
 
-The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. It is important to L2 normalise and mean center the data before we index. We will now generate 16 random hyperplanes (= 16 bit hashcode) and project one image onto these hyperplanes, generating the hashcode:
+The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. It is important to L2 normalise and mean center the data before we index. 
+
+If you would like to skip ahead, you can run the entire [code](./tutorial/hashing_tutorial.py) as follows:
+
+```python
+python3 hashing_tutorial.py 
+```
+
+This code will download the CIFAR-10 dataset, train the GRH model and evaluate the hashing performance on the CIFAR-10 image dataset. 
+
+## Implementation (LSH)
+
+We will now generate 16 random hyperplanes (= 16 bit hashcode) and project one image onto these hyperplanes, generating the sign random projection LSH hashcode:
 
 ```python
 import numpy as np
