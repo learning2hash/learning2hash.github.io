@@ -4,17 +4,19 @@ title: Tutorial
 comments: true
 ---
 
-## Overview 
+## Learning To Hash Tutorial 
+
+### Overview 
 
 In this tutorial we explore a [published learning to hash model](https://learning2hash.github.io/publications/moran2015agraph/) and compare its performance on image retrieval to Locality Sensitive Hashing (LSH).
 
 Specifically we study the [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found [here](https://sjmoran.github.io/bib/grh.bib). The model was subsquently [extended to cross-modal hashing](https://dl.acm.org/doi/abs/10.1145/2766462.2767816).
 
-## Contact/Feedback 
+### Contact/Feedback 
 
 This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). The entire code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are in [requirements.txt](./tutorial/requirements.txt) file. Feel free to contact [me](https://sjmoran.github.io/) with questions, suggestions or feedback.
 
-## Preliminaries
+### Preliminaries
 
 The original Matlab code supplied by Moran and Lavrenko can be found [here](https://github.com/sjmoran/GRH). We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark the retrieval effectiveness against LSH (i.e. [Gaussian sign random projections](https://randorithms.com/2019/09/19/Visual-LSH.html)) using the precision at 10 metric and semantic nearest neighbour evaluation.
 
@@ -56,7 +58,7 @@ python3 hashing_tutorial.py
 
 This code will download the CIFAR-10 dataset, train the GRH model and evaluate the hashing performance on the CIFAR-10 image dataset. 
 
-## Implementation (LSH)
+### Implementation (LSH)
 
 We will now generate 16 random hyperplanes (= 16 bit hashcode) and project one image onto these hyperplanes, generating the sign random projection LSH hashcode:
 
@@ -151,7 +153,7 @@ print(classes[:,54356])   # 0
 
 In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0). 
 
-## Evaluation (LSH)
+### Evaluation (LSH)
 
 We now quantify the semantic retrieval effectieness of LSH more formally using the precision at 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we split the dataset up into a _set of queries_, a _training dataset_ to learn any parameters and a _held-out database_ that we perform retrieval:
 
@@ -320,7 +322,7 @@ A hyperplane is then learnt for the first bit by using the first bit of every im
 
 ![GRH](./tutorial/grh_toy3.png)
 
-## Evaluation (GRH)
+### Evaluation (GRH)
 
 Now we have gained an understanding of how the GRH model works we will evaluate the GRH hashcodes using the same methodology as we did for LSH. We find an improved retrieval effectiveness, particularly at low Hamming radii:
 
@@ -330,7 +332,7 @@ The benefits of GRH on this dataset an for a hashcode length of 16 bits can most
 
 ![GRH Time](./tutorial/grh_time.png)
 
-## Conclusions
+### Conclusions
 
 In this tutorial we use a Support Vector Machine (SVM) to learn the hyperplanes for GRH. We note that another benefit of GRH, aside from its simplicity and effectiveness, is that it is _agnostic to the learning algorithm_, and we can use a deep network if we wish to learn a more accurate data-space partitioning or a [passive aggressive classifier](https://www.youtube.com/watch?v=uxGDwyPWNkU) if we desire a light-weight learning method that can be adapted online e.g. in a streaming scenario. Lastly, in this tutorial we explored a single hashtable implementation of LSH and GRH and increased the number of relevant items retrieved using multiple buckets via a multi-probing mechanism. Other implementations of LSH would forgo the multi-probing of buckets within the same hashtable, and instead use multiple independent hashtables to find more relevant items.
 
