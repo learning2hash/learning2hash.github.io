@@ -131,6 +131,8 @@ function search() {
 
 <p>Specifically we study the <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing (GRH)</a> model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found <a href="https://sjmoran.github.io/bib/grh.bib">here</a>. The model was subsquently <a href="https://dl.acm.org/doi/abs/10.1145/2766462.2767816">extended to cross-modal hashing</a>.</p>
 
+<h2 id="contactfeedback">Contact/Feedback</h2>
+
 <p>This tutorial on learning to hash was written by <a href="https://sjmoran.github.io/">Sean Moran</a>. The entire code for the tutorial can be found <a href="./tutorial/hashing_tutorial.py">here</a>. The dependencies are in <a href="./tutorial/requirements.txt">requirements.txt</a> file. Feel free to contact <a href="https://sjmoran.github.io/">me</a> with questions, suggestions or feedback.</p>
 
 <h2 id="preliminaries">Preliminaries</h2>
@@ -438,6 +440,8 @@ function search() {
 <h2 id="conclusions">Conclusions</h2>
 
 <p>In this tutorial we use an SVM to learn the hyperplanes for GRH. We note that another benefit of GRH, aside from its simplicity and effectiveness, is that it is <em>agnostic to the learning algorithm</em>, and we can use a deep network if we wish to learn a more accurate data-space partitioning or a <a href="https://www.youtube.com/watch?v=uxGDwyPWNkU">passive aggressive classifier</a> if we wish for a light-weight learning method that can be adapted online e.g. in a streaming scenario. Lastly, in this tutorial we explored a single hashtable implementation of LSH and GRH and increased the number of relevant items retrieved using multiple buckets via multi-probing. Other implementations of LSH would forgo the multi-probing of buckets within the same hashtable, and instead use multiple independent hashtables to find more relevant items.</p>
+
+<h2 id="contactfeedback-1">Contact/Feedback</h2>
 
 <p>Any comments on this tutorial please contact the author <a href="https://sjmoran.github.io/">Sean Moran</a>. The code for the tutorial can be found <a href="./tutorial/hashing_tutorial.py">here</a>. The dependencies are in <a href="./tutorial/requirements.txt">requirements.txt</a> file. Feel free to contact <a href="https://sjmoran.github.io/">me</a> with questions, suggestions or feedback.</p>
 
