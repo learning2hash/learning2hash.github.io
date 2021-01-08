@@ -35,13 +35,13 @@
 <meta name="generator" content="Jekyll v4.1.0" />
 <meta property="og:title" content="Tutorial" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Overview" />
-<meta property="og:description" content="Overview" />
+<meta name="description" content="Learning To Hash Tutorial" />
+<meta property="og:description" content="Learning To Hash Tutorial" />
 <link rel="canonical" href="https://learning2hash.github.io/tutorial.html" />
 <meta property="og:url" content="https://learning2hash.github.io/tutorial.html" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <script type="application/ld+json">
-{"url":"https://learning2hash.github.io/tutorial.html","headline":"Tutorial","@type":"WebPage","description":"Overview","@context":"https://schema.org"}</script>
+{"url":"https://learning2hash.github.io/tutorial.html","headline":"Tutorial","@type":"WebPage","description":"Learning To Hash Tutorial","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -125,17 +125,19 @@ function search() {
 
 
     <div class="content container">
-      <h2 id="overview">Overview</h2>
+      <h2 id="learning-to-hash-tutorial">Learning To Hash Tutorial</h2>
+
+<h3 id="overview">Overview</h3>
 
 <p>In this tutorial we explore a <a href="https://learning2hash.github.io/publications/moran2015agraph/">published learning to hash model</a> and compare its performance on image retrieval to Locality Sensitive Hashing (LSH).</p>
 
 <p>Specifically we study the <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing (GRH)</a> model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found <a href="https://sjmoran.github.io/bib/grh.bib">here</a>. The model was subsquently <a href="https://dl.acm.org/doi/abs/10.1145/2766462.2767816">extended to cross-modal hashing</a>.</p>
 
-<h2 id="contactfeedback">Contact/Feedback</h2>
+<h3 id="contactfeedback">Contact/Feedback</h3>
 
 <p>This tutorial on learning to hash was written by <a href="https://sjmoran.github.io/">Sean Moran</a>. The entire code for the tutorial can be found <a href="./tutorial/hashing_tutorial.py">here</a>. The dependencies are in <a href="./tutorial/requirements.txt">requirements.txt</a> file. Feel free to contact <a href="https://sjmoran.github.io/">me</a> with questions, suggestions or feedback.</p>
 
-<h2 id="preliminaries">Preliminaries</h2>
+<h3 id="preliminaries">Preliminaries</h3>
 
 <p>The original Matlab code supplied by Moran and Lavrenko can be found <a href="https://github.com/sjmoran/GRH">here</a>. We will code up a version of the model in Python 3. This tutorial will train the model on the CIFAR-10 dataset and benchmark the retrieval effectiveness against LSH (i.e. <a href="https://randorithms.com/2019/09/19/Visual-LSH.html">Gaussian sign random projections</a>) using the precision at 10 metric and semantic nearest neighbour evaluation.</p>
 
@@ -174,7 +176,7 @@ function search() {
 
 <p>This code will download the CIFAR-10 dataset, train the GRH model and evaluate the hashing performance on the CIFAR-10 image dataset.</p>
 
-<h2 id="implementation-lsh">Implementation (LSH)</h2>
+<h3 id="implementation-lsh">Implementation (LSH)</h3>
 
 <p>We will now generate 16 random hyperplanes (= 16 bit hashcode) and project one image onto these hyperplanes, generating the sign random projection LSH hashcode:</p>
 
@@ -263,7 +265,7 @@ function search() {
 
 <p>In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0).</p>
 
-<h2 id="evaluation-lsh">Evaluation (LSH)</h2>
+<h3 id="evaluation-lsh">Evaluation (LSH)</h3>
 
 <p>We now quantify the semantic retrieval effectieness of LSH more formally using the precision at 10 as the number of hashcode bits are varied. Precision at 10 measures how many of the 10 retrieved nearest neighbours for a query are of the same class as the query. Firstly we split the dataset up into a <em>set of queries</em>, a <em>training dataset</em> to learn any parameters and a <em>held-out database</em> that we perform retrieval:</p>
 
@@ -427,7 +429,7 @@ function search() {
 
 <p><img src="./tutorial/grh_toy3.png" alt="GRH" /></p>
 
-<h2 id="evaluation-grh">Evaluation (GRH)</h2>
+<h3 id="evaluation-grh">Evaluation (GRH)</h3>
 
 <p>Now we have gained an understanding of how the GRH model works we will evaluate the GRH hashcodes using the same methodology as we did for LSH. We find an improved retrieval effectiveness, particularly at low Hamming radii:</p>
 
@@ -437,7 +439,7 @@ function search() {
 
 <p><img src="./tutorial/grh_time.png" alt="GRH Time" /></p>
 
-<h2 id="conclusions">Conclusions</h2>
+<h3 id="conclusions">Conclusions</h3>
 
 <p>In this tutorial we use a Support Vector Machine (SVM) to learn the hyperplanes for GRH. We note that another benefit of GRH, aside from its simplicity and effectiveness, is that it is <em>agnostic to the learning algorithm</em>, and we can use a deep network if we wish to learn a more accurate data-space partitioning or a <a href="https://www.youtube.com/watch?v=uxGDwyPWNkU">passive aggressive classifier</a> if we desire a light-weight learning method that can be adapted online e.g. in a streaming scenario. Lastly, in this tutorial we explored a single hashtable implementation of LSH and GRH and increased the number of relevant items retrieved using multiple buckets via a multi-probing mechanism. Other implementations of LSH would forgo the multi-probing of buckets within the same hashtable, and instead use multiple independent hashtables to find more relevant items.</p>
 
