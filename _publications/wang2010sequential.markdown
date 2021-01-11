@@ -9,6 +9,7 @@ additional_links:
    - {name: "PDF", url: "http://machinelearning.wustl.edu/mlpapers/paper_files/icml2010_WangKC10.pdf"}
    - {name: "Talk", url: "http://www.ee.columbia.edu/~jwang/icmlpresentations/SPL_ICML2010_pre.pptx"}
    - {name: "Poster", url: "http://www.ee.columbia.edu/~jwang/icmlpresentations/SPL_ICML2010_poster.pdf"}
+tags: ["ICML", "Supervised", "Unsupervised"]
 ---
 Hashing based Approximate Nearest Neighbor
 (ANN) search has attracted much attention
