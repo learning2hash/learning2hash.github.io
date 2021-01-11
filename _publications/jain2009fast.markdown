@@ -8,6 +8,7 @@ bibkey: jain2009fast
 additional_links:
    - {name: "PDF", url: "https://www.cs.utexas.edu/~pjain/pubs/hashing_tr.pdf"}
    - {name: "Code", url: "http://www.cs.utexas.edu/users/pjain/itml/"}
+tags: ["TPAMI", "Image Retrieval", "Supervised"]
 ---
 We propose a method to efficiently index into a large database of examples according to a learned metric.
 Given a collection of examples, we learn a Mahalanobis distance using an information-theoretic metric
