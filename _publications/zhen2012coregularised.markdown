@@ -7,7 +7,7 @@ year: 2012
 bibkey: zhen2012coregularised
 additional_links:
    - {name: "PDF", url: "http://papers.nips.cc/paper/4793-co-regularized-hashing-for-multimodal-data.pdf"}
-tags: ["NIPS", Cross-Modal"]
+tags: ["NIPS", "Cross-Modal"]
 ---
 Hashing-based methods provide a very promising approach to large-scale similarity
 search. To obtain compact hash codes, a recent trend seeks to learn the hash
