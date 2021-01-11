@@ -19,4 +19,4 @@ further formulate an indirect solution that enables metric learning and hashing 
 whose high dimensionality make it infeasible to learn an explicit weighting over the feature dimensions.
 We demonstrate the approach applied to systems and image datasets, and show that our learned metrics
 improve accuracy relative to commonly-used metric baselines, while our hashing construction permits effi-
-cient indexing with a learned distance and very large databases.
+cient indexing with a learned distance and very large databases. 
