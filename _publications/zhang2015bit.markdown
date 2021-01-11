@@ -8,7 +8,7 @@ bibkey: zhang2015bit
 additional_links:
    - {name: "PDF", url: "http://arxiv.org/pdf/1508.04535v2.pdf"}
    - {name: "Code", url: "https://github.com/ruixuejianfei/BitScalableDeepHash"}
-tags: ["TIP, "Image Retrieval", "Deep Learning"]
+tags: ["TIP", "Image Retrieval", "Deep Learning"]
 ---
 Extracting informative image features and learning
 effective approximate hashing functions are two crucial steps in
