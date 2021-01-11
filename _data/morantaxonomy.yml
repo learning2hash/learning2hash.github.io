@@ -14,6 +14,7 @@
 - {bibkey: cao2020learning, categories: [quantisation], codebook: Natural Binary Code (NBC), optimisation: N/A, thresholds: N/A, type: Unsupervised}
 
 # Supervised Projection Models
+- {bibkey: zhang2020fast, categories: [supervised], codebook: Binary, optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal}
 - {bibkey: zhang2020hierarchical, categories: [supervised], codebook: Binary, optimisation: Backpropagation, type: Deep, modality: Unimodal}
 - {bibkey: liu2017discretely, categories: [supervised], codebook: Binary, optimisation: Discrete Minimisation, type: Deep, modality: Unimodal}
 - {bibkey: weng2020online, categories: [supervised], codebook: Binary, optimisation: Passive Aggressive, type: Shallow, modality: Unimodal}
