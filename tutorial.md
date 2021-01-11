@@ -14,7 +14,7 @@ Specifically we study the [Graph Regularised Hashing (GRH)](https://learning2has
 
 ### Contact/Feedback 
 
-This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). The entire code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are in [requirements.txt](./tutorial/requirements.txt) file. Feel free to contact [me](https://sjmoran.github.io/) with questions, suggestions or feedback.
+This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). The entire code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are located in [requirements.txt](./tutorial/requirements.txt) file. Feel free to contact [me](https://sjmoran.github.io/) with questions, suggestions or feedback.
 
 ### Preliminaries
 
@@ -338,7 +338,7 @@ In this tutorial we use a Support Vector Machine (SVM) to learn the hyperplanes 
 
 ## Contact/Feedback 
 
-Any comments on this tutorial please contact the author [Sean Moran](https://sjmoran.github.io/). The code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are in [requirements.txt](./tutorial/requirements.txt) file. Feel free to contact [me](https://sjmoran.github.io/) with questions, suggestions or feedback.
+Any comments on this tutorial please contact the author [Sean Moran](https://sjmoran.github.io/). The code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are located in [requirements.txt](./tutorial/requirements.txt) file. Feel free to contact [me](https://sjmoran.github.io/) with questions, suggestions or feedback.
 
 Copyright © [Sean Moran](https://sjmoran.github.io/) 2020. All opinions are my own.
 
