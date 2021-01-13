@@ -332,7 +332,7 @@ The benefits of GRH on this dataset an for a hashcode length of 16 bits can most
 
 In this tutorial we use a Support Vector Machine (SVM) to learn the hyperplanes for GRH. We note that another benefit of GRH, aside from its simplicity and effectiveness, is that it is _agnostic to the learning algorithm_, and we can use a deep network if we wish to learn a more accurate data-space partitioning or a [passive aggressive classifier](https://www.youtube.com/watch?v=uxGDwyPWNkU) if we desire a light-weight learning method that can be adapted online e.g. in a streaming scenario. Lastly, in this tutorial we explored a single hashtable implementation of LSH and GRH and increased the number of relevant items retrieved using multiple buckets via a multi-probing mechanism. Other implementations of LSH would forgo the multi-probing of buckets within the same hashtable, and instead use multiple independent hashtables to find more relevant items.
 
-## Contact/Feedback 
+### Contact & Feedback 
 
 Any comments on this tutorial please contact the author [Sean Moran](https://sjmoran.github.io/). The code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are located in [requirements.txt](./tutorial/requirements.txt) file. Feel free to contact [me](https://sjmoran.github.io/) with questions, suggestions or feedback. Copyright © [Sean Moran](https://sjmoran.github.io/) 2020. All opinions are my own.
 
