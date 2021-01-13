@@ -7,7 +7,7 @@ year: 2014
 bibkey: ding2014collective
 additional_links:
    - {name: "PDF", url: "http://ise.thss.tsinghua.edu.cn/MIG/CVPR2014%20Collective%20Matrix%20Factorization%20Hashing%20for%20Multimodal%20Data.pdf"}
-tags: ["CVPR", Cross-Modal" ]
+tags: ["CVPR", "Cross-Modal" ]
 ---
 Nearest neighbor search methods based on hashing have
 attracted considerable attention for effective and efficient
