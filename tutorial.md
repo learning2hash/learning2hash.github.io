@@ -4,17 +4,13 @@ title: Tutorial
 comments: true
 ---
 
-## Learning To Hash Tutorial 
+# Learning To Hash Tutorial 
 
 ### Overview 
 
 In this tutorial we explore a [published learning to hash model](https://learning2hash.github.io/publications/moran2015agraph/) and compare its performance on image retrieval to Locality Sensitive Hashing (LSH).
 
 Specifically we study the [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found [here](https://sjmoran.github.io/bib/grh.bib). The model was subsquently [extended to cross-modal hashing](https://dl.acm.org/doi/abs/10.1145/2766462.2767816).
-
-### Contact/Feedback 
-
-This tutorial on learning to hash was written by [Sean Moran](https://sjmoran.github.io/). The entire code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are located in [requirements.txt](./tutorial/requirements.txt) file. Feel free to contact [me](https://sjmoran.github.io/) with questions, suggestions or feedback.
 
 ### Preliminaries
 
@@ -338,8 +334,6 @@ In this tutorial we use a Support Vector Machine (SVM) to learn the hyperplanes 
 
 ## Contact/Feedback 
 
-Any comments on this tutorial please contact the author [Sean Moran](https://sjmoran.github.io/). The code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are located in [requirements.txt](./tutorial/requirements.txt) file. Feel free to contact [me](https://sjmoran.github.io/) with questions, suggestions or feedback.
-
-Copyright © [Sean Moran](https://sjmoran.github.io/) 2020. All opinions are my own.
+Any comments on this tutorial please contact the author [Sean Moran](https://sjmoran.github.io/). The code for the tutorial can be found [here](./tutorial/hashing_tutorial.py). The dependencies are located in [requirements.txt](./tutorial/requirements.txt) file. Feel free to contact [me](https://sjmoran.github.io/) with questions, suggestions or feedback. Copyright © [Sean Moran](https://sjmoran.github.io/) 2020. All opinions are my own.
 
 _Acknowledgement:_ Parts of this tutorial were inspired by the text-based LSH tutorial [here](http://ethen8181.github.io/machine-learning/recsys/content_based/lsh_text.html).
