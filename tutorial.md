@@ -130,7 +130,7 @@ print(classes[:,42070])   # 4
 print(classes[:,50364])   # 9
 ```
 
-On this particular example we can see that LSH does fairly poorly, with two semantically related images (class 8), colliding in the same bucket. We will inspect another bucket before moving on:
+On this particular example we can see that LSH does fairly poorly, with two semantically related images (class 8 ship), colliding in the same bucket. We will inspect another bucket before moving on:
 
 ```python
 # We take this bucket and inspect the images:
@@ -145,7 +145,7 @@ print(classes[:,50134])   # 1
 print(classes[:,50503])   # 4
 ```
 
-In this case we see that LSH performs very well, with the majority of the colliding images coming from the same class label (4). We now quantitatively evaluate the retrieval performance of LSH in a more rigourous manner.
+In this case we see that LSH performs very well, with the majority of the colliding images coming from the same class label (4, deer). We now quantitatively evaluate the retrieval performance of LSH in a more rigourous manner.
 
 ### Evaluation (LSH)
 
