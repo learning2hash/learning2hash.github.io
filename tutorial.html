@@ -232,7 +232,7 @@ function search() {
 		<span class="k">print</span><span class="p">(</span><span class="n">images</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>The code above will print out the buckets of the hashtable with at least two images and the associated IDs (i.e. row numbers in the original .mat file) of the images in each bucket. The average bin count is ~51 images, so there has been many collisions of images into buckets. Next we will inspect some of the buckets to gain an understanding of the quality of the hashing with LSH:</p>
+<p>The code above will print out the buckets of the hashtable with at least two images and the associated IDs (i.e. row numbers in the original .mat file) of the images in each bucket. The average number of colliding image in each bin is ~2 images, with a maximum of 68 colliding images. Next we will inspect some of the buckets to gain an understanding of the quality of the hashing with LSH:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># We take this bucket and inspect the images:
 # [39378, 39502, 41761, 42070, 50364]
@@ -259,7 +259,7 @@ function search() {
 </span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">50503</span><span class="p">])</span>   <span class="c1"># 4
 </span></code></pre></div></div>
 
-<p>In this case we see that LSH performs very well, with the majority of the colliding images coming from the same class label (4).</p>
+<p>In this case we see that LSH performs very well, with the majority of the colliding images coming from the same class label (4). We now quantitatively evaluate the retrieval performance of LSH in a more rigourous manner.</p>
 
 <h3 id="evaluation-lsh">Evaluation (LSH)</h3>
 
