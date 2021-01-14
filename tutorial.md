@@ -120,34 +120,32 @@ The code above will print out the buckets of the hashtable with at least two ima
 
 ```python
 # We take this bucket and inspect the images:
-# [46262, 46488, 47724, 59147, 59462, 59572]
+# [39378, 39502, 41761, 42070, 50364]
 
 print(classes.shape)
-print(classes[:,46262])   # 3
-print(classes[:,46488])   # 8
-print(classes[:,47724])   # 7
-print(classes[:,59147])   # 9
-print(classes[:,59462])   # 2
-print(classes[:,59572])   # 8
+print(classes[:,39378])   # 7
+print(classes[:,39502])   # 8
+print(classes[:,41761])   # 8
+print(classes[:,42070])   # 4
+print(classes[:,50364])   # 9
 ```
 
-On this particular example we can see that LSH does fairly poorly, with only two semantically related images (class 8), colliding in the same bucket. We will inspect another bucket before moving on:
+On this particular example we can see that LSH does fairly poorly, with two semantically related images (class 8), colliding in the same bucket. We will inspect another bucket before moving on:
 
 ```python
 # We take this bucket and inspect the images:
-# [16380, 18515, 27324, 33419, 43442, 46613, 54356]
+# [42030, 42486, 43090, 47535, 50134, 50503]
 
 print(classes.shape)
-print(classes[:,16380])   # 0
-print(classes[:,18515])   # 8
-print(classes[:,27324])   # 0
-print(classes[:,33419])   # 0
-print(classes[:,43442])   # 0
-print(classes[:,46613])   # 0
-print(classes[:,54356])   # 0
+print(classes[:,42030])   # 4
+print(classes[:,42486])   # 4
+print(classes[:,43090])   # 4
+print(classes[:,47535])   # 1
+print(classes[:,50134])   # 1
+print(classes[:,50503])   # 4
 ```
 
-In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0). 
+In this case we see that LSH performs very well, with the majority of the colliding images coming from the same class label (4). 
 
 ### Evaluation (LSH)
 
