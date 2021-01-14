@@ -235,33 +235,31 @@ function search() {
 <p>The code above will print out the buckets of the hashtable with at least two images and the associated IDs (i.e. row numbers in the original .mat file) of the images in each bucket. The average bin count is ~51 images, so there has been many collisions of images into buckets. Next we will inspect some of the buckets to gain an understanding of the quality of the hashing with LSH:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># We take this bucket and inspect the images:
-# [46262, 46488, 47724, 59147, 59462, 59572]
+# [39378, 39502, 41761, 42070, 50364]
 </span>
 <span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">46262</span><span class="p">])</span>   <span class="c1"># 3
-</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">46488</span><span class="p">])</span>   <span class="c1"># 8
-</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">47724</span><span class="p">])</span>   <span class="c1"># 7
-</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">59147</span><span class="p">])</span>   <span class="c1"># 9
-</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">59462</span><span class="p">])</span>   <span class="c1"># 2
-</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">59572</span><span class="p">])</span>   <span class="c1"># 8
+<span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">39378</span><span class="p">])</span>   <span class="c1"># 7
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">39502</span><span class="p">])</span>   <span class="c1"># 8
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">41761</span><span class="p">])</span>   <span class="c1"># 8
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">42070</span><span class="p">])</span>   <span class="c1"># 4
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">50364</span><span class="p">])</span>   <span class="c1"># 9
 </span></code></pre></div></div>
 
-<p>On this particular example we can see that LSH does fairly poorly, with only two semantically related images (class 8), colliding in the same bucket. We will inspect another bucket before moving on:</p>
+<p>On this particular example we can see that LSH does fairly poorly, with two semantically related images (class 8), colliding in the same bucket. We will inspect another bucket before moving on:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># We take this bucket and inspect the images:
-# [16380, 18515, 27324, 33419, 43442, 46613, 54356]
+# [42030, 42486, 43090, 47535, 50134, 50503]
 </span>
 <span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">16380</span><span class="p">])</span>   <span class="c1"># 0
-</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">18515</span><span class="p">])</span>   <span class="c1"># 8
-</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">27324</span><span class="p">])</span>   <span class="c1"># 0
-</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">33419</span><span class="p">])</span>   <span class="c1"># 0
-</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">43442</span><span class="p">])</span>   <span class="c1"># 0
-</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">46613</span><span class="p">])</span>   <span class="c1"># 0
-</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">54356</span><span class="p">])</span>   <span class="c1"># 0
+<span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">42030</span><span class="p">])</span>   <span class="c1"># 4
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">42486</span><span class="p">])</span>   <span class="c1"># 4
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">43090</span><span class="p">])</span>   <span class="c1"># 4
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">47535</span><span class="p">])</span>   <span class="c1"># 1
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">50134</span><span class="p">])</span>   <span class="c1"># 1
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">50503</span><span class="p">])</span>   <span class="c1"># 4
 </span></code></pre></div></div>
 
-<p>In this case we see that LSH performs very well, with most of the colliding images coming from the same class label (0).</p>
+<p>In this case we see that LSH performs very well, with the majority of the colliding images coming from the same class label (4).</p>
 
 <h3 id="evaluation-lsh">Evaluation (LSH)</h3>
 
