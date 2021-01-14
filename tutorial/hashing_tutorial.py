@@ -77,7 +77,6 @@ for i in range(0,n_iter):
             # In case all bits are the same we generate a new random vector
             random_vector = np.random.randn(dim, 1)
             grh_hyperplanes[:,j]=random_vector[:,0]
-            print("here")
         else:
             hyperplane=svclassifier.fit(data_train, bin_indices_bits[:,j]).coef_
             hyperplane=np.array(hyperplane)
