@@ -245,7 +245,7 @@ function search() {
 </span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">50364</span><span class="p">])</span>   <span class="c1"># 9
 </span></code></pre></div></div>
 
-<p>On this particular example we can see that LSH does fairly poorly, with two semantically related images (class 8), colliding in the same bucket. We will inspect another bucket before moving on:</p>
+<p>On this particular example we can see that LSH does fairly poorly, with two semantically related images (class 8 ship), colliding in the same bucket. We will inspect another bucket before moving on:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># We take this bucket and inspect the images:
 # [42030, 42486, 43090, 47535, 50134, 50503]
@@ -259,7 +259,7 @@ function search() {
 </span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">50503</span><span class="p">])</span>   <span class="c1"># 4
 </span></code></pre></div></div>
 
-<p>In this case we see that LSH performs very well, with the majority of the colliding images coming from the same class label (4). We now quantitatively evaluate the retrieval performance of LSH in a more rigourous manner.</p>
+<p>In this case we see that LSH performs very well, with the majority of the colliding images coming from the same class label (4, deer). We now quantitatively evaluate the retrieval performance of LSH in a more rigourous manner.</p>
 
 <h3 id="evaluation-lsh">Evaluation (LSH)</h3>
 
