@@ -116,7 +116,7 @@ for bucket,images in table.items():
 		print(images)
 ```
 
-The code above will print out the buckets of the hashtable with at least two images and the associated IDs (i.e. row numbers in the original .mat file) of the images in each bucket. The average bin count is ~51 images, so there has been many collisions of images into buckets. Next we will inspect some of the buckets to gain an understanding of the quality of the hashing with LSH:
+The code above will print out the buckets of the hashtable with at least two images and the associated IDs (i.e. row numbers in the original .mat file) of the images in each bucket. The average number of colliding image in each bin is ~2 images, with a maximum of 68 colliding images. Next we will inspect some of the buckets to gain an understanding of the quality of the hashing with LSH:
 
 ```python
 # We take this bucket and inspect the images:
@@ -145,7 +145,7 @@ print(classes[:,50134])   # 1
 print(classes[:,50503])   # 4
 ```
 
-In this case we see that LSH performs very well, with the majority of the colliding images coming from the same class label (4). 
+In this case we see that LSH performs very well, with the majority of the colliding images coming from the same class label (4). We now quantitatively evaluate the retrieval performance of LSH in a more rigourous manner.
 
 ### Evaluation (LSH)
 
