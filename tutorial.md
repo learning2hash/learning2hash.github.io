@@ -10,7 +10,7 @@ comments: true
 
 In this tutorial we explore a [published learning to hash model](https://learning2hash.github.io/publications/moran2015agraph/) and compare its performance on image retrieval to Locality Sensitive Hashing (LSH).
 
-Specifically we study the [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The citation bibtex can be found [here](https://sjmoran.github.io/bib/grh.bib). The model was subsquently [extended to cross-modal hashing](https://dl.acm.org/doi/abs/10.1145/2766462.2767816).
+Specifically we study the [Graph Regularised Hashing (GRH)](https://learning2hash.github.io/publications/moran2015agraph/) model of Moran and Lavrenko, a simple but empirically effective supervised hashing model for learning to hash. The model was subsquently [extended to cross-modal hashing](https://dl.acm.org/doi/abs/10.1145/2766462.2767816).
 
 ### Preliminaries
 
