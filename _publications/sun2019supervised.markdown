@@ -6,7 +6,7 @@ conference: SIGIR
 year: 2019
 bibkey: sun2019supervised
 additional_links:
-   - {name: "PDF", url: "Supervised Hierarchical Cross-Modal Hashing"}
+   - {name: "PDF", url: "https://xuemengsong.github.io/SIGIR2019_HiCHNet.pdf"}
 tags: ["SIGIR", "Cross-Modal", "Deep Learning"]
 ---
 Recently, due to the unprecedented growth of multimedia data,
