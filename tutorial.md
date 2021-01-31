@@ -44,7 +44,7 @@ data = data-data.mean(axis=0)
 classes = mat['X_class']
 ```
 
-The above code should download and save the CIFAR-10 dataset pre-processed into GIST features to the current directory. It is important to L2 normalise and mean center the data before we index. 
+The above code should download and save the CIFAR-10 dataset pre-processed into [GIST](http://people.csail.mit.edu/torralba/code/spatialenvelope/) features to the current directory. It is important to L2 normalise and mean center the data before we index. 
 
 If you would like to skip ahead, you can run the entire [code](./tutorial/hashing_tutorial.py) as follows:
 
