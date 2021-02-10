@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Min-Wise Independent Permutations"
-authors: Andrei Z Broder, ￼Moses Charikar, ￼Alan M Frieze, ￼Michael Mitzenmacher
+authors: Andrei Z Broder,Moses Charikar,Alan M Frieze,Michael Mitzenmacher
 conference: JCSS
 year: 1998
 bibkey: andoni2006near
