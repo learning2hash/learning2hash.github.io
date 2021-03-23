@@ -150,6 +150,39 @@ the information of existing papers or adding new work.
 
 
 <tr>
+	<td>2021</td>
+	<td><a href="/publications/morgado2020deep/">Deep Hashing with Hash-Consistent Large Margin Proxy Embeddings</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Deep Hashing with Hash-Consistent Large Margin Proxy Embeddings' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Deep Hashing with Hash-Consistent Large Margin Proxy Embeddings' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Deep%20Hashing%20with%20Hash-Consistent%20Large%20Margin%20Proxy%20Embeddings' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>Pedro Morgado, Yunsheng Li, Jose Costa Pereira, Mohammad Saberian, Nuno Vasconcelos</td>
+	<td>IJVC</td>
+	<td><p>Image hash codes are produced by binarizing
+the embeddings of convolutional neural networks (CNN)
+trained for either classification or retrieval. While proxy
+embeddings achieve good performance on both tasks,
+they are non-trivial to binarize, due to a rotational ambiguity that encourages non-binary embeddings. The use
+of a fixed set of proxies (weights of the CNN classification layer) is proposed to eliminate this ambiguity, and
+a procedure to design proxy sets that are nearly optimal
+for both classification and hashing is introduced. The
+resulting hash-consistent large margin (HCLM) proxies
+are shown to encourage saturation of hashing units, thus
+guaranteeing a small binarization error, while producing
+highly discriminative hash-codes. A semantic extension
+(sHCLM), aimed to improve hashing performance in
+a transfer scenario, is also proposed. Extensive experiments show that sHCLM embeddings achieve significant
+improvements over state-of-the-art hashing procedures
+on several small and large datasets, both within and
+beyond the set of training classes.</p>
+</td>
+</tr>
+
+
+
+<tr>
 	<td>2020</td>
 	<td><a href="/publications/cui2020exchnet/">ExchNet: A Unified Hashing Network for Large-Scale Fine-Grained Image Retrieval</a>
 		<span class="externallinks">
@@ -349,27 +382,16 @@ Hadamard-Matrix-for-hashing</p>
 
 <tr>
 	<td>2020</td>
-	<td><a href="/publications/hu2020creating/">Creating Something from Nothing: Unsupervised Knowledge Distillation for Cross-Modal Hashing</a>
+	<td><a href="/publications/bai2020bai/">Targeted Attack for Deep Hashing based Retrieval</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Creating Something from Nothing: Unsupervised Knowledge Distillation for Cross-Modal Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Creating Something from Nothing: Unsupervised Knowledge Distillation for Cross-Modal Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Creating%20Something%20from%20Nothing:%20Unsupervised%20Knowledge%20Distillation%20for%20Cross-Modal%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Targeted Attack for Deep Hashing based Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Targeted Attack for Deep Hashing based Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Targeted%20Attack%20for%20Deep%20Hashing%20based%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>Hengtong Hu, Lingxi Xie, Richang Hong, Qi Tian</td>
-	<td>CVPR</td>
-	<td><p>In recent years, cross-modal hashing (CMH) has attracted increasing attentions, mainly because its potential
-ability of mapping contents from different modalities, especially in vision and language, into the same space, so that
-it becomes efficient in cross-modal data retrieval. There are
-two main frameworks for CMH, differing from each other in
-whether semantic supervision is required. Compared to the
-unsupervised methods, the supervised methods often enjoy
-more accurate results, but require much heavier labors in
-data annotation. In this paper, we propose a novel approach
-that enables guiding a supervised method using outputs produced by an unsupervised method. Specifically, we make
-use of teacher-student optimization for propagating knowledge. Experiments are performed on two popular CMH
-benchmarks, i.e., the MIRFlickr and NUS-WIDE datasets.
-Our approach outperforms all existing unsupervised methods by a large margin</p>
+	<td>Jiawang Bai, Bin Chen, Yiming Li, Dongxian Wu, Weiwei Guo, Shu-tao Xia, En-hui Yang</td>
+	<td>Arxiv</td>
+	<td><p>The deep hashing based retrieval method is widely adopted in large-scale image and video retrieval. However, there is little investigation on its security. In this paper, we propose a novel method, dubbed deep hashing targeted attack (DHTA), to study the targeted attack on such retrieval. Specifically, we first formulate the targeted attack as a point-to-set optimization, which minimizes the average distance between the hash code of an adversarial example and those of a set of objects with the target label. Then we design a novel component-voting scheme to obtain an anchor code as the representative of the set of hash codes of objects with the target label, whose optimality guarantee is also theoretically derived. To balance the performance and perceptibility, we propose to minimize the Hamming distance between the hash code of the adversarial example and the anchor code under the ℓ∞ restriction on the perturbation. Extensive experiments verify that DHTA is effective in attacking both deep hashing based image retrieval and video retrieval.</p>
 </td>
 </tr>
 
@@ -480,47 +502,27 @@ Our approach outperforms all existing unsupervised methods by a large margin</p>
 
 <tr>
 	<td>2020</td>
-	<td><a href="/publications/bai2020bai/">Targeted Attack for Deep Hashing based Retrieval</a>
+	<td><a href="/publications/hu2020creating/">Creating Something from Nothing: Unsupervised Knowledge Distillation for Cross-Modal Hashing</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Targeted Attack for Deep Hashing based Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Targeted Attack for Deep Hashing based Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Targeted%20Attack%20for%20Deep%20Hashing%20based%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Creating Something from Nothing: Unsupervised Knowledge Distillation for Cross-Modal Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Creating Something from Nothing: Unsupervised Knowledge Distillation for Cross-Modal Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Creating%20Something%20from%20Nothing:%20Unsupervised%20Knowledge%20Distillation%20for%20Cross-Modal%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>Jiawang Bai, Bin Chen, Yiming Li, Dongxian Wu, Weiwei Guo, Shu-tao Xia, En-hui Yang</td>
-	<td>Arxiv</td>
-	<td><p>The deep hashing based retrieval method is widely adopted in large-scale image and video retrieval. However, there is little investigation on its security. In this paper, we propose a novel method, dubbed deep hashing targeted attack (DHTA), to study the targeted attack on such retrieval. Specifically, we first formulate the targeted attack as a point-to-set optimization, which minimizes the average distance between the hash code of an adversarial example and those of a set of objects with the target label. Then we design a novel component-voting scheme to obtain an anchor code as the representative of the set of hash codes of objects with the target label, whose optimality guarantee is also theoretically derived. To balance the performance and perceptibility, we propose to minimize the Hamming distance between the hash code of the adversarial example and the anchor code under the ℓ∞ restriction on the perturbation. Extensive experiments verify that DHTA is effective in attacking both deep hashing based image retrieval and video retrieval.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2020</td>
-	<td><a href="/publications/morgado2020deep/">Deep Hashing with Hash-Consistent Large Margin Proxy Embeddings</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Deep Hashing with Hash-Consistent Large Margin Proxy Embeddings' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Deep Hashing with Hash-Consistent Large Margin Proxy Embeddings' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Deep%20Hashing%20with%20Hash-Consistent%20Large%20Margin%20Proxy%20Embeddings' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>Pedro Morgado, Yunsheng Li, Jose Costa Pereira, Mohammad Saberian, Nuno Vasconcelos</td>
-	<td>Arxiv</td>
-	<td><p>Image hash codes are produced by binarizing
-the embeddings of convolutional neural networks (CNN)
-trained for either classification or retrieval. While proxy
-embeddings achieve good performance on both tasks,
-they are non-trivial to binarize, due to a rotational ambiguity that encourages non-binary embeddings. The use
-of a fixed set of proxies (weights of the CNN classification layer) is proposed to eliminate this ambiguity, and
-a procedure to design proxy sets that are nearly optimal
-for both classification and hashing is introduced. The
-resulting hash-consistent large margin (HCLM) proxies
-are shown to encourage saturation of hashing units, thus
-guaranteeing a small binarization error, while producing
-highly discriminative hash-codes. A semantic extension
-(sHCLM), aimed to improve hashing performance in
-a transfer scenario, is also proposed. Extensive experiments show that sHCLM embeddings achieve significant
-improvements over state-of-the-art hashing procedures
-on several small and large datasets, both within and
-beyond the set of training classes.</p>
+	<td>Hengtong Hu, Lingxi Xie, Richang Hong, Qi Tian</td>
+	<td>CVPR</td>
+	<td><p>In recent years, cross-modal hashing (CMH) has attracted increasing attentions, mainly because its potential
+ability of mapping contents from different modalities, especially in vision and language, into the same space, so that
+it becomes efficient in cross-modal data retrieval. There are
+two main frameworks for CMH, differing from each other in
+whether semantic supervision is required. Compared to the
+unsupervised methods, the supervised methods often enjoy
+more accurate results, but require much heavier labors in
+data annotation. In this paper, we propose a novel approach
+that enables guiding a supervised method using outputs produced by an unsupervised method. Specifically, we make
+use of teacher-student optimization for propagating knowledge. Experiments are performed on two popular CMH
+benchmarks, i.e., the MIRFlickr and NUS-WIDE datasets.
+Our approach outperforms all existing unsupervised methods by a large margin</p>
 </td>
 </tr>
 
