@@ -6,7 +6,7 @@ comments: true
 
 # Awesome Papers on Learning to Hash
 
-### Browse Papers by Tag
+### 🏷 Browse Papers by Tag
 
 {% assign rawtags = Array.new %}
 {% for publication in site.publications %}
