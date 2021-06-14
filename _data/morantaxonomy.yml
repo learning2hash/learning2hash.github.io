@@ -14,6 +14,7 @@
 - {bibkey: cao2020learning, categories: [quantisation],  optimisation: N/A, thresholds: N/A, type: Unsupervised}
 
 # Supervised Projection Models
+- {bibkey: chen2021long, categories: [supervised], optimisation: Backpropagation, type: Deep, modality: Unimodal }
 - {bibkey: yang2020nonlinear, categories: [supervised], optimisation: Backpropagation, type: Deep, modality: Cross-modal }
 - {bibkey: wang2020online, categories: [supervised],  optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal }
 - {bibkey: zhang2020fast, categories: [supervised], optimisation: Matrix Factorisation, type: Shallow, modality: Cross-modal }
