@@ -165,12 +165,12 @@ var svg = d3.select("#paperviz")
 d3.json("./tsne.json", function(data) {
   // Add X axis
   var x = d3.scaleLinear()
-    .domain([-35, 35])
+    .domain([-5, 5])
     .range([ 0, width ]);
 
   // Add Y axisB
   var y = d3.scaleLinear()
-    .domain([-35, 35])
+    .domain([-5, 5])
     .range([height, 0]);
 
   // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
@@ -222,8 +222,8 @@ d3.json("./tsne.json", function(data) {
     .data(data) 
     .enter()
     .append("circle")
-      .attr("cx", function (d) { return x(d.tsne_embedding[0])+250; } )
-      .attr("cy", function (d) { return y(d.tsne_embedding[1])+250; } )
+      .attr("cx", function (d) { return x(d.tsne_embedding[0]); } )
+      .attr("cy", function (d) { return y(d.tsne_embedding[1]); } )
       .attr("r", 8)
       .style("fill", "#69b3a2")
       .style("opacity", 0.4)
