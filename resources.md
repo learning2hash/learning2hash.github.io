@@ -11,7 +11,7 @@ comments: true
 
 ### Hashing Software Packages
 
-* [https://github.com/thulab/DeepHash](https://github.com/thulab/DeepHash)
+* [Toolbox for replicating some Deep Hashing models](https://github.com/thulab/DeepHash)
 
 ### Presentations and Relevant Introductory Material
 
