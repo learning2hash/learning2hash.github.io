@@ -1,17 +1,18 @@
 # Quantisation Models
-- {bibkey: moran2013aneighbourhood, categories: [quantisation], optimisation: Stochastic Search, thresholds: 1+, type: Semi-Supervised}
-- {bibkey: xiong2014using, categories: [quantisation], optimisation: Dynamic Programming, thresholds: Variable, type: Unsupervised}
-- {bibkey: moran2013bvariable, categories: [quantisation], optimisation: Stochastic Search + Binary Integer Linear Program, thresholds: Variable, type: Semi-Supervised}
-- {bibkey: moran2016learning, categories: [quantisation],  optimisation: Maximum Margin + Stochastic Search, thresholds: Variable, type: Semi-Supervised}
-- {bibkey: kong2012ausing, categories: [quantisation], optimisation: K-Means, thresholds: 3+, type: Unsupervised}
-- {bibkey: kong2012busing, categories: [quantisation], optimisation: Squared Error Minimisation, thresholds: 2, type: Unsupervised}
-- {bibkey: wang2015hamming, categories: [quantisation], optimisation: Squared Error Minimisation, thresholds: 2, type: Unsupervised}
-- {bibkey: wang2016affinity, categories: [quantisation], optimisation: K-Means, thresholds: N/A, type: Unsupervised}
-- {bibkey: cao2016deep, categories: [quantisation],  optimisation: Backpropagation, thresholds: N/A, type: Supervised}
-- {bibkey: cao2017collective, categories: [quantisation],  optimisation: Backpropagation, thresholds: N/A, type: Supervised}
-- {bibkey: shi2019variable, categories: [quantisation],  optimisation: Greedy Strategy, thresholds: Variable, type: Unsupervised}
-- {bibkey: li2019push, categories: [quantisation],  optimisation: Backpropagation, thresholds: N/A, type: Supervised}
-- {bibkey: cao2020learning, categories: [quantisation],  optimisation: N/A, thresholds: N/A, type: Unsupervised}
+- {bibkey: yuan2020quant, categories: [quantisation], optimisation: Backpropagation, type: Supervised}
+- {bibkey: moran2013aneighbourhood, categories: [quantisation], optimisation: Stochastic Search,  type: Semi-Supervised}
+- {bibkey: xiong2014using, categories: [quantisation], optimisation: Dynamic Programming, type: Unsupervised}
+- {bibkey: moran2013bvariable, categories: [quantisation], optimisation: Stochastic Search + Binary Integer Linear Program,  type: Semi-Supervised}
+- {bibkey: moran2016learning, categories: [quantisation],  optimisation: Maximum Margin + Stochastic Search, type: Semi-Supervised}
+- {bibkey: kong2012ausing, categories: [quantisation], optimisation: K-Means, type: Unsupervised}
+- {bibkey: kong2012busing, categories: [quantisation], optimisation: Squared Error Minimisation, type: Unsupervised}
+- {bibkey: wang2015hamming, categories: [quantisation], optimisation: Squared Error Minimisation, type: Unsupervised}
+- {bibkey: wang2016affinity, categories: [quantisation], optimisation: K-Means,  type: Unsupervised}
+- {bibkey: cao2016deep, categories: [quantisation],  optimisation: Backpropagation, type: Supervised}
+- {bibkey: cao2017collective, categories: [quantisation],  optimisation: Backpropagation, type: Supervised}
+- {bibkey: shi2019variable, categories: [quantisation],  optimisation: Greedy Strategy,  type: Unsupervised}
+- {bibkey: li2019push, categories: [quantisation],  optimisation: Backpropagation, type: Supervised}
+- {bibkey: cao2020learning, categories: [quantisation],  optimisation: N/A, type: Unsupervised}
 
 # Supervised Projection Models
 - {bibkey: deng2020twostream, categories: [supervised], optimisation: Backpropagation, type: Deep, modality: Unimodal }
