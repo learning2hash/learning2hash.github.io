@@ -28,7 +28,7 @@ Please also see the excellent [tutorial slides](https://cs.nju.edu.cn/lwj/slides
 The 2017 Rice Machine Learning Workshop: Hashing Algorithms for Large-Scale Machine Learning:
 
 <p>
-<iframe width="560" height="315" src="https://youtu.be/tQ0OJXowLJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tQ0OJXowLJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
 The reader is encouraged to further explore the following survey publications:
