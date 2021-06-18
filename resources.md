@@ -20,6 +20,12 @@ Please also see the excellent [tutorial slides](https://cs.nju.edu.cn/lwj/slides
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dgH0NP8Qxa8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
 
+The 2017 Rice Machine Learning Workshop: Hashing Algorithms for Large-Scale Machine Learning:
+
+<p>
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=tQ0OJXowLJA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
 The reader is encouraged to further explore the following survey publications:
 
 * [Learning to Hash for Indexing Big Data - A Survey](https://arxiv.org/pdf/1509.05472.pdf)
