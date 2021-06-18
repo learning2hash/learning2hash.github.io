@@ -46,12 +46,15 @@ The reader is encouraged to further explore the following survey publications:
 * [TDT2 (.mat format)](https://www.dropbox.com/s/qasz8z3sr1pjqog/TDT2.mat?dl=0)
 
 ### Courses
-A few university courses are been taught covering aspects of machine of efficient computing. Below there are a few that have publicly available material.
+A few university courses are been taught covering aspects of machine of efficient computing. Below there are a few that have publicly available material:
+
 * [Extreme Computing](http://www.inf.ed.ac.uk/teaching/courses/exc/index_17-18.html) in University of Edinburgh.
 * [Text Technologies for Data Science](https://www.inf.ed.ac.uk/teaching/courses/tts/) in University of Edinburgh.
 
 ### Blog Posts
+
 Blog posts provide a great way to learn about cutting edge research and ideas. Here are a few of our favourites:
+
 * [Fast Near-Duplicate Image Search using Locality Sensitive Hashing](https://towardsdatascience.com/fast-near-duplicate-image-search-using-locality-sensitive-hashing-d4c16058efcb)
 * [An Introduction to Hashing in the Era of Machine Learning](https://blog.bradfieldcs.com/an-introduction-to-hashing-in-the-era-of-machine-learning-6039394549b0)
 * [Locality Sensitive Hashing: An effective way of reducing the dimensionality of your data](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
