@@ -7,6 +7,7 @@ comments: true
 
 * [Compact and Efficient Feature Representation and Learning in Computer Vision, ICCV 2019](http://www.ee.oulu.fi/~lili/CEFRLatICCV2019.html): a workshop dedicated to compact feature learning, including binary hashing methods. 
 * [International Conference on Similarity Search and Applications](http://www.sisap.org/2020/): a conference dedicated to similarity search
+* [Joint Workshop on Efficient Deep Learning in Computer Vision](https://workshop-edlcv.github.io/): co-located with the CVPR 2020 conference
 
 ### Hashing Software Packages
 
