@@ -62,7 +62,7 @@ Blog posts provide a great way to learn about cutting edge research and ideas. H
 
 ### Hashing Software Packages
 
-* [Toolbox for replicating some Deep Hashing models](https://github.com/thulab/DeepHash)
+* [Deep Hashing Toolbox](https://github.com/thulab/DeepHash)
 
 ### Books
 
