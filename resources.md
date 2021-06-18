@@ -9,11 +9,7 @@ comments: true
 * [International Conference on Similarity Search and Applications](http://www.sisap.org/2020/): a conference dedicated to similarity search
 * [Joint Workshop on Efficient Deep Learning in Computer Vision](https://workshop-edlcv.github.io/): co-located with the CVPR 2020 conference
 
-### Hashing Software Packages
-
-* [Toolbox for replicating some Deep Hashing models](https://github.com/thulab/DeepHash)
-
-### Presentations and Relevant Introductory Material
+### Introductory Video Material
 
 Please also see the excellent [tutorial slides](https://cs.nju.edu.cn/lwj/slides/L2H.pdf) of [Dr. Wu-Jun Li](https://cs.nju.edu.cn/lwj/) for a nice introduction to the field.
 
@@ -30,6 +26,8 @@ The 2017 Rice Machine Learning Workshop: Hashing Algorithms for Large-Scale Mach
 <p>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tQ0OJXowLJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </p>
+
+### Survey Papers
 
 The reader is encouraged to further explore the following survey publications:
 
@@ -61,6 +59,10 @@ Blog posts provide a great way to learn about cutting edge research and ideas. H
 * [LSH Ideas](http://rakaposhi.eas.asu.edu/s01-cse494-mailarchive/msg00054.html)
 * [Introduction to Locality-Sensitive Hashing (nice visualisations!)](http://tylerneylon.com/a/lsh1/)
 * [What is locality-sensitive hashing?](https://www.quora.com/What-is-locality-sensitive-hashing)
+
+### Hashing Software Packages
+
+* [Toolbox for replicating some Deep Hashing models](https://github.com/thulab/DeepHash)
 
 ### Books
 
