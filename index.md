@@ -18,7 +18,7 @@ comments: true
 
 ### The Field of Learning to Hash
 
-To address exciting advances in hash function learning, we have put together this website to help researchers learn about, share and more easily discover recent work in the field. Learning2hash is a *living literature review* that allows the reader to explore models in the field following a [taxonomy](\base-taxonomy) based on model properties. New models can be added to this website by anyone simply by making a GitHub pull request [see *Contributing* below](contributing.html). Select ["All Papers"](https://learning2hash.github.io/papers.html) on the right-hand menu to get started.
+This website exists to help researchers learn about, share and more easily discover recent work in the field of learning to hash. Awesome learning to hash is a *living literature review* that allows the reader to explore models in the field following a [taxonomy](\base-taxonomy) based on model properties. New models can be added to this website by anyone simply by making a GitHub pull request [see *Contributing* below](contributing.html). Select ["All Papers"](https://learning2hash.github.io/papers.html) on the right-hand menu to get started.
 
 ### Background
 
