@@ -31,7 +31,7 @@ var svg = d3.select("#paperviz")
 d3.json("./tsne.json", function(data) {
   // Add X axis
   var x = d3.scaleLinear()
-    .domain([-11, 11])
+    .domain([-10, 10])
     .range([ 0, width ]);
 
   // Add Y axisB
