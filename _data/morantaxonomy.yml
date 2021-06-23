@@ -15,6 +15,7 @@
 - {bibkey: cao2020learning, categories: [quantisation],  optimisation: N/A, type: Unsupervised}
 
 # Supervised Projection Models
+- {bibkey: li2020selfsupervised, categories: [supervised], optimisation: Backpropagation, type: Deep, modality: Unimodal }
 - {bibkey: yang2019adaptive, categories: [supervised], optimisation: Backpropagation, type: Deep, modality: Unimodal }
 - {bibkey: jin2020semi, categories: [supervised], optimisation: Backpropagation, type: Deep, modality: Unimodal }
 - {bibkey: deng2020twostream, categories: [supervised], optimisation: Backpropagation, type: Deep, modality: Unimodal }
