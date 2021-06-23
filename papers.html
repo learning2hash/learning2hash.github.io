@@ -695,29 +695,31 @@ Our approach outperforms all existing unsupervised methods by a large margin</p>
 
 <tr>
 	<td>2019</td>
-	<td><a href="/publications/yang2019distill/">DistillHash: Unsupervised Deep Hashing by Distilling Data Pairs</a>
+	<td><a href="/publications/jin2019deep/">Deep Saliency Hashing for Fine-grained Retrieval</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=DistillHash: Unsupervised Deep Hashing by Distilling Data Pairs' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=DistillHash: Unsupervised Deep Hashing by Distilling Data Pairs' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=DistillHash:%20Unsupervised%20Deep%20Hashing%20by%20Distilling%20Data%20Pairs' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Deep Saliency Hashing for Fine-grained Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Deep Saliency Hashing for Fine-grained Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Deep%20Saliency%20Hashing%20for%20Fine-grained%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>Erkun Yang, Tongliang Liu, Cheng Deng, Wei Liu, Dacheng Tao</td>
-	<td>CVPR</td>
-	<td><p>Due to the high storage and search efficiency, hashing
-has become prevalent for large-scale similarity search. Particularly, deep hashing methods have greatly improved the
-search performance under supervised scenarios. In contrast, unsupervised deep hashing models can hardly achieve
-satisfactory performance due to the lack of reliable supervisory similarity signals.
- To address this issue, we propose
-a novel deep unsupervised hashing model, dubbed DistillHash, which can learn a distilled data set consisted of data
-pairs, which have confidence similarity signals. Specifically, we investigate the relationship between the initial
-noisy similarity signals learned from local structures and
-the semantic similarity labels assigned by a Bayes optimal
-classifier. We show that under a mild assumption, some
-data pairs, of which labels are consistent with those assigned by the Bayes optimal classifier, can be potentially
-distilled. Inspired by this fact, we design a simple yet effective strategy to distill data pairs automatically and further
-adopt a Bayesian learning framework to learn hash functions from the distilled data set. Extensive experimental results on three widely used benchmark datasets show that the
-proposed DistillHash consistently accomplishes the stateof-the-art search performance.</p>
+	<td>Sheng Jin, Hongxun Yao, Xiaoshuai Sun, Shangchen Zhou, Lei Zhang, Xiansheng Hua</td>
+	<td>Arxiv</td>
+	<td><p>In recent years, hashing methods have been proved to be
+effective and efficient for the large-scale Web media search.
+However, the existing general hashing methods have limited discriminative power for describing fine-grained objects that share similar overall appearance but have subtle
+difference. To solve this problem, we for the first time introduce the attention mechanism to the learning of fine-grained
+hashing codes. Specifically, we propose a novel deep hashing model, named deep saliency hashing (DSaH), which
+automatically mines salient regions and learns semanticpreserving hashing codes simultaneously. DSaH is a twostep end-to-end model consisting of an attention network
+and a hashing network. Our loss function contains three
+basic components, including the semantic loss, the saliency
+loss, and the quantization loss. As the core of DSaH, the
+saliency loss guides the attention network to mine discriminative regions from pairs of images. We conduct extensive experiments on both fine-grained and general retrieval
+datasets for performance evaluation. Experimental results
+on fine grained dataset, including Oxford Flowers-17, Stanford Dogs-120 and CUB Bird demonstrate that our DSaH
+performs the best for fine-grained retrieval task and beats
+strongest competitor (DTQ) by approximately 10% on both
+Stanford Dogs-120 and CUB Bird. DSaH is also comparable to several state-of-the-art hashing methods on general
+datasets, including CIFAR-10 and NUS-WIDE.</p>
 </td>
 </tr>
 
@@ -1040,31 +1042,29 @@ Accordingly, we name our model Weakly Supervised Deep Hashing using Tag Embeddin
 
 <tr>
 	<td>2019</td>
-	<td><a href="/publications/jin2019deep/">Deep Saliency Hashing for Fine-grained Retrieval</a>
+	<td><a href="/publications/yang2019distill/">DistillHash: Unsupervised Deep Hashing by Distilling Data Pairs</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Deep Saliency Hashing for Fine-grained Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Deep Saliency Hashing for Fine-grained Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Deep%20Saliency%20Hashing%20for%20Fine-grained%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=DistillHash: Unsupervised Deep Hashing by Distilling Data Pairs' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=DistillHash: Unsupervised Deep Hashing by Distilling Data Pairs' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=DistillHash:%20Unsupervised%20Deep%20Hashing%20by%20Distilling%20Data%20Pairs' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>Sheng Jin, Hongxun Yao, Xiaoshuai Sun, Shangchen Zhou, Lei Zhang, Xiansheng Hua</td>
-	<td>Arxiv</td>
-	<td><p>In recent years, hashing methods have been proved to be
-effective and efficient for the large-scale Web media search.
-However, the existing general hashing methods have limited discriminative power for describing fine-grained objects that share similar overall appearance but have subtle
-difference. To solve this problem, we for the first time introduce the attention mechanism to the learning of fine-grained
-hashing codes. Specifically, we propose a novel deep hashing model, named deep saliency hashing (DSaH), which
-automatically mines salient regions and learns semanticpreserving hashing codes simultaneously. DSaH is a twostep end-to-end model consisting of an attention network
-and a hashing network. Our loss function contains three
-basic components, including the semantic loss, the saliency
-loss, and the quantization loss. As the core of DSaH, the
-saliency loss guides the attention network to mine discriminative regions from pairs of images. We conduct extensive experiments on both fine-grained and general retrieval
-datasets for performance evaluation. Experimental results
-on fine grained dataset, including Oxford Flowers-17, Stanford Dogs-120 and CUB Bird demonstrate that our DSaH
-performs the best for fine-grained retrieval task and beats
-strongest competitor (DTQ) by approximately 10% on both
-Stanford Dogs-120 and CUB Bird. DSaH is also comparable to several state-of-the-art hashing methods on general
-datasets, including CIFAR-10 and NUS-WIDE.</p>
+	<td>Erkun Yang, Tongliang Liu, Cheng Deng, Wei Liu, Dacheng Tao</td>
+	<td>CVPR</td>
+	<td><p>Due to the high storage and search efficiency, hashing
+has become prevalent for large-scale similarity search. Particularly, deep hashing methods have greatly improved the
+search performance under supervised scenarios. In contrast, unsupervised deep hashing models can hardly achieve
+satisfactory performance due to the lack of reliable supervisory similarity signals.
+ To address this issue, we propose
+a novel deep unsupervised hashing model, dubbed DistillHash, which can learn a distilled data set consisted of data
+pairs, which have confidence similarity signals. Specifically, we investigate the relationship between the initial
+noisy similarity signals learned from local structures and
+the semantic similarity labels assigned by a Bayes optimal
+classifier. We show that under a mild assumption, some
+data pairs, of which labels are consistent with those assigned by the Bayes optimal classifier, can be potentially
+distilled. Inspired by this fact, we design a simple yet effective strategy to distill data pairs automatically and further
+adopt a Bayesian learning framework to learn hash functions from the distilled data set. Extensive experimental results on three widely used benchmark datasets show that the
+proposed DistillHash consistently accomplishes the stateof-the-art search performance.</p>
 </td>
 </tr>
 
@@ -1336,21 +1336,6 @@ in California and 6123 new earthquakes in New Zealand.</p>
 
 <tr>
 	<td>2018</td>
-	<td><a href="/publications/long2018deep/">Deep Domain Adaptation Hashing with Adversarial Learning</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Deep Domain Adaptation Hashing with Adversarial Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Deep Domain Adaptation Hashing with Adversarial Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Deep%20Domain%20Adaptation%20Hashing%20with%20Adversarial%20Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>Fuchen Long, Ting Yao, Qi Dai, Xinmei Tian, Jiebo Luo, Tao Mei</td>
-	<td>SIGIR</td>
-	<td><p>The recent advances in deep neural networks have demonstrated high capability in a wide variety of scenarios. Nevertheless, fine-tuning deep models in a new domain still requires a significant amount of labeled data despite expensive labeling efforts. A valid question is how to leverage the source knowledge plus unlabeled or only sparsely labeled target data for learning a new model in target domain. The core problem is to bring the source and target distributions closer in the feature space. In the paper, we facilitate this issue in an adversarial learning framework, in which a domain discriminator is devised to handle domain shift. Particularly, we explore the learning in the context of hashing problem, which has been studied extensively due to its great efficiency in gigantic data. Specifically, a novel Deep Domain Adaptation Hashing with Adversarial learning (DeDAHA) architecture is presented, which mainly consists of three components: a deep convolutional neural networks (CNN) for learning basic image/frame representation followed by an adversary stream on one hand to optimize the domain discriminator, and on the other, to interact with each domain-specific hashing stream for encoding image representation to hash codes. The whole architecture is trained end-to-end by jointly optimizing two types of losses, i.e., triplet ranking loss to preserve the relative similarity ordering in the input triplets and adversarial loss to maximally fool the domain discriminator with the learnt source and target feature distributions. Extensive experiments are conducted on three domain transfer tasks, including cross-domain digits retrieval, image to image and image to video transfers, on several benchmarks. Our DeDAHA framework achieves superior results when compared to the state-of-the-art techniques.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2018</td>
 	<td><a href="/publications/cakir2018hashing/">Hashing with Binary Matrix Pursuit</a>
 		<span class="externallinks">
 			&nbsp;<a href='http://scholar.google.com/scholar?q=Hashing with Binary Matrix Pursuit' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
@@ -1361,6 +1346,21 @@ in California and 6123 new earthquakes in New Zealand.</p>
 	<td>F. Cakir, K. He, S. Sclaroff</td>
 	<td>ECCV</td>
 	<td><p>We propose theoretical and empirical improvements for two-stage hashing methods. We first provide a theoretical analysis on the quality of the binary codes and show that, under mild assumptions, a residual learning scheme can construct binary codes that fit any neighborhood structure with arbitrary accuracy. Secondly, we show that with high-capacity hash functions such as CNNs, binary code inference can be greatly simplified for many standard neighborhood definitions, yielding smaller optimization problems and more robust codes. Incorporating our findings, we propose a novel two-stage hashing method that significantly outperforms previous hashing studies on widely used image retrieval benchmarks.</p>
+</td>
+</tr>
+
+<tr>
+	<td>2018</td>
+	<td><a href="/publications/long2018deep/">Deep Domain Adaptation Hashing with Adversarial Learning</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Deep Domain Adaptation Hashing with Adversarial Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Deep Domain Adaptation Hashing with Adversarial Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Deep%20Domain%20Adaptation%20Hashing%20with%20Adversarial%20Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>Fuchen Long, Ting Yao, Qi Dai, Xinmei Tian, Jiebo Luo, Tao Mei</td>
+	<td>SIGIR</td>
+	<td><p>The recent advances in deep neural networks have demonstrated high capability in a wide variety of scenarios. Nevertheless, fine-tuning deep models in a new domain still requires a significant amount of labeled data despite expensive labeling efforts. A valid question is how to leverage the source knowledge plus unlabeled or only sparsely labeled target data for learning a new model in target domain. The core problem is to bring the source and target distributions closer in the feature space. In the paper, we facilitate this issue in an adversarial learning framework, in which a domain discriminator is devised to handle domain shift. Particularly, we explore the learning in the context of hashing problem, which has been studied extensively due to its great efficiency in gigantic data. Specifically, a novel Deep Domain Adaptation Hashing with Adversarial learning (DeDAHA) architecture is presented, which mainly consists of three components: a deep convolutional neural networks (CNN) for learning basic image/frame representation followed by an adversary stream on one hand to optimize the domain discriminator, and on the other, to interact with each domain-specific hashing stream for encoding image representation to hash codes. The whole architecture is trained end-to-end by jointly optimizing two types of losses, i.e., triplet ranking loss to preserve the relative similarity ordering in the input triplets and adversarial loss to maximally fool the domain discriminator with the learnt source and target feature distributions. Extensive experiments are conducted on three domain transfer tasks, including cross-domain digits retrieval, image to image and image to video transfers, on several benchmarks. Our DeDAHA framework achieves superior results when compared to the state-of-the-art techniques.</p>
 </td>
 </tr>
 
@@ -1390,25 +1390,30 @@ state-of-the-art models on both unsupervised and supervised scenarios.</p>
 
 <tr>
 	<td>2018</td>
-	<td><a href="/publications/shen2018unsupervised/">Unsupervised Deep Hashing with Similarity-Adaptive and Discrete Optimization</a>
+	<td><a href="/publications/ma2018progressive/">Progressive Generative Hashing for Image Retrieval</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Unsupervised Deep Hashing with Similarity-Adaptive and Discrete Optimization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Unsupervised Deep Hashing with Similarity-Adaptive and Discrete Optimization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Unsupervised%20Deep%20Hashing%20with%20Similarity-Adaptive%20and%20Discrete%20Optimization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Progressive Generative Hashing for Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Progressive Generative Hashing for Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Progressive%20Generative%20Hashing%20for%20Image%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>Fumin Shen, Yan Xu, Li Liu, Yang Yang, Zi Huang, Heng Tao Shen</td>
-	<td>TPAMI</td>
-	<td><p>Recent vision and learning studies show that learning compact hash codes can facilitate massive data processing
-with significantly reduced storage and computation. Particularly, learning deep hash functions has greatly improved the retrieval
-performance, typically under the semantic supervision. In contrast, current unsupervised deep hashing algorithms can hardly achieve
-satisfactory performance due to either the relaxed optimization or absence of similarity-sensitive objective. In this work, we propose a
-simple yet effective unsupervised hashing framework, named Similarity-Adaptive Deep Hashing (SADH), which alternatingly proceeds
-over three training modules: deep hash model training, similarity graph updating and binary code optimization. The key difference from
-the widely-used two-step hashing method is that the output representations of the learned deep model help update the similarity graph
-matrix, which is then used to improve the subsequent code optimization. In addition, for producing high-quality binary codes, we devise
-an effective discrete optimization algorithm which can directly handle the binary constraints with a general hashing loss. Extensive
-experiments validate the efficacy of SADH, which consistently outperforms the state-of-the-arts by large gaps.</p>
+	<td>Yuqing Ma, Yue He, Fan Ding, Sheng Hu, Jun Li, Xianglong Liu</td>
+	<td>IJCAI</td>
+	<td><p>Recent years have witnessed the success of the emerging hashing techniques in large-scale image
+retrieval. Owing to the great learning capacity,
+deep hashing has become one of the most promising solutions, and achieved attractive performance
+in practice. However, without semantic label information, the unsupervised deep hashing still remains
+an open question. In this paper, we propose a novel
+progressive generative hashing (PGH) framework
+to help learn a discriminative hashing network in an
+unsupervised way. Different from existing studies,
+it first treats the hash codes as a kind of semantic
+condition for the similar image generation, and simultaneously feeds the original image and its codes
+into the generative adversarial networks (GANs).
+The real images together with the synthetic ones
+can further help train a discriminative hashing network based on a triplet loss. By iteratively inputting
+the learnt codes into the hash conditioned GANs, we can progressively enable the hashing network
+to discover the semantic relations. Extensive experiments on the widely-used image datasets demonstrate that PGH can significantly outperform stateof-the-art unsupervised hashing methods.</p>
 </td>
 </tr>
 
@@ -1489,84 +1494,29 @@ are available at: https://lcbwlx.wixsite.com/fssh.</p>
 
 <tr>
 	<td>2018</td>
-	<td><a href="/publications/ma2018progressive/">Progressive Generative Hashing for Image Retrieval</a>
+	<td><a href="/publications/shen2018unsupervised/">Unsupervised Deep Hashing with Similarity-Adaptive and Discrete Optimization</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Progressive Generative Hashing for Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Progressive Generative Hashing for Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Progressive%20Generative%20Hashing%20for%20Image%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Unsupervised Deep Hashing with Similarity-Adaptive and Discrete Optimization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Unsupervised Deep Hashing with Similarity-Adaptive and Discrete Optimization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Unsupervised%20Deep%20Hashing%20with%20Similarity-Adaptive%20and%20Discrete%20Optimization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>Yuqing Ma, Yue He, Fan Ding, Sheng Hu, Jun Li, Xianglong Liu</td>
-	<td>IJCAI</td>
-	<td><p>Recent years have witnessed the success of the emerging hashing techniques in large-scale image
-retrieval. Owing to the great learning capacity,
-deep hashing has become one of the most promising solutions, and achieved attractive performance
-in practice. However, without semantic label information, the unsupervised deep hashing still remains
-an open question. In this paper, we propose a novel
-progressive generative hashing (PGH) framework
-to help learn a discriminative hashing network in an
-unsupervised way. Different from existing studies,
-it first treats the hash codes as a kind of semantic
-condition for the similar image generation, and simultaneously feeds the original image and its codes
-into the generative adversarial networks (GANs).
-The real images together with the synthetic ones
-can further help train a discriminative hashing network based on a triplet loss. By iteratively inputting
-the learnt codes into the hash conditioned GANs, we can progressively enable the hashing network
-to discover the semantic relations. Extensive experiments on the widely-used image datasets demonstrate that PGH can significantly outperform stateof-the-art unsupervised hashing methods.</p>
-</td>
-</tr>
-
-
-
-<tr>
-	<td>2017</td>
-	<td><a href="/publications/jiang2017deep/">Deep Cross-Modal Hashing</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Deep Cross-Modal Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Deep Cross-Modal Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Deep%20Cross-Modal%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>Qing-Yuan Jiang, Wu-Jun Li</td>
-	<td>CVPR</td>
-	<td><p>Due to its low storage cost and fast query speed, crossmodal hashing (CMH) has been widely used for similarity
-search in multimedia retrieval applications. However, most
-existing CMH methods are based on hand-crafted features
-which might not be optimally compatible with the hash-code
-learning procedure. As a result, existing CMH methods
-with hand-crafted features may not achieve satisfactory
-performance. In this paper, we propose a novel CMH
-method, called deep cross-modal hashing (DCMH), by
-integrating feature learning and hash-code learning into
-the same framework. DCMH is an end-to-end learning
-framework with deep neural networks, one for each modality, to perform feature learning from scratch. Experiments
-on three real datasets with image-text modalities show
-that DCMH can outperform other baselines to achieve
-the state-of-the-art performance in cross-modal retrieval
-applications.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2017</td>
-	<td><a href="/publications/wang2017survey/">A Survey on Learning to Hash</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=A Survey on Learning to Hash' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=A Survey on Learning to Hash' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=A%20Survey%20on%20Learning%20to%20Hash' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>Jingdong Wang, Ting Zhang, Jingkuan Song, Nicu Sebe, and Heng Tao Shen</td>
+	<td>Fumin Shen, Yan Xu, Li Liu, Yang Yang, Zi Huang, Heng Tao Shen</td>
 	<td>TPAMI</td>
-	<td><p>Nearest neighbor search is a problem of finding the data points from the database such that the distances from them to the
-query point are the smallest. Learning to hash is one of the major solutions to this problem and has been widely studied recently. In this
-paper, we present a comprehensive survey of the learning to hash algorithms, categorize them according to the manners of preserving
-the similarities into: pairwise similarity preserving, multiwise similarity preserving, implicit similarity preserving, as well as quantization,
-and discuss their relations. We separate quantization from pairwise similarity preserving as the objective function is very different
-though quantization, as we show, can be derived from preserving the pairwise similarities. In addition, we present the evaluation
-protocols, and the general performance analysis, and point out that the quantization algori</p>
+	<td><p>Recent vision and learning studies show that learning compact hash codes can facilitate massive data processing
+with significantly reduced storage and computation. Particularly, learning deep hash functions has greatly improved the retrieval
+performance, typically under the semantic supervision. In contrast, current unsupervised deep hashing algorithms can hardly achieve
+satisfactory performance due to either the relaxed optimization or absence of similarity-sensitive objective. In this work, we propose a
+simple yet effective unsupervised hashing framework, named Similarity-Adaptive Deep Hashing (SADH), which alternatingly proceeds
+over three training modules: deep hash model training, similarity graph updating and binary code optimization. The key difference from
+the widely-used two-step hashing method is that the output representations of the learned deep model help update the similarity graph
+matrix, which is then used to improve the subsequent code optimization. In addition, for producing high-quality binary codes, we devise
+an effective discrete optimization algorithm which can directly handle the binary constraints with a general hashing loss. Extensive
+experiments validate the efficacy of SADH, which consistently outperforms the state-of-the-arts by large gaps.</p>
 </td>
 </tr>
+
+
 
 <tr>
 	<td>2017</td>
@@ -1597,6 +1547,56 @@ Experiments on image retrieval benchmarks (including a
 2.5M image dataset) confirm the effectiveness of our formulation,
 both in reducing hash table recomputations and
 in learning high-quality hash functions.</p>
+</td>
+</tr>
+
+<tr>
+	<td>2017</td>
+	<td><a href="/publications/wang2017survey/">A Survey on Learning to Hash</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=A Survey on Learning to Hash' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=A Survey on Learning to Hash' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=A%20Survey%20on%20Learning%20to%20Hash' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>Jingdong Wang, Ting Zhang, Jingkuan Song, Nicu Sebe, and Heng Tao Shen</td>
+	<td>TPAMI</td>
+	<td><p>Nearest neighbor search is a problem of finding the data points from the database such that the distances from them to the
+query point are the smallest. Learning to hash is one of the major solutions to this problem and has been widely studied recently. In this
+paper, we present a comprehensive survey of the learning to hash algorithms, categorize them according to the manners of preserving
+the similarities into: pairwise similarity preserving, multiwise similarity preserving, implicit similarity preserving, as well as quantization,
+and discuss their relations. We separate quantization from pairwise similarity preserving as the objective function is very different
+though quantization, as we show, can be derived from preserving the pairwise similarities. In addition, we present the evaluation
+protocols, and the general performance analysis, and point out that the quantization algori</p>
+</td>
+</tr>
+
+<tr>
+	<td>2017</td>
+	<td><a href="/publications/jiang2017deep/">Deep Cross-Modal Hashing</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Deep Cross-Modal Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Deep Cross-Modal Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Deep%20Cross-Modal%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>Qing-Yuan Jiang, Wu-Jun Li</td>
+	<td>CVPR</td>
+	<td><p>Due to its low storage cost and fast query speed, crossmodal hashing (CMH) has been widely used for similarity
+search in multimedia retrieval applications. However, most
+existing CMH methods are based on hand-crafted features
+which might not be optimally compatible with the hash-code
+learning procedure. As a result, existing CMH methods
+with hand-crafted features may not achieve satisfactory
+performance. In this paper, we propose a novel CMH
+method, called deep cross-modal hashing (DCMH), by
+integrating feature learning and hash-code learning into
+the same framework. DCMH is an end-to-end learning
+framework with deep neural networks, one for each modality, to perform feature learning from scratch. Experiments
+on three real datasets with image-text modalities show
+that DCMH can outperform other baselines to achieve
+the state-of-the-art performance in cross-modal retrieval
+applications.</p>
 </td>
 </tr>
 
@@ -1730,6 +1730,25 @@ multimedia retrieval performance on standard benchmarks.</p>
 
 <tr>
 	<td>2017</td>
+	<td><a href="/publications/liong2017crossmodal/">Cross-Modal Deep Variational Hashing</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Cross-Modal Deep Variational Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Cross-Modal Deep Variational Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Cross-Modal%20Deep%20Variational%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>Venice Erin Liong, Jiwen Lu, Yap-Peng Tan, and Jie Zhou</td>
+	<td>ICCV</td>
+	<td><p>In this paper, we propose a cross-modal deep variational hashing (CMDVH) method for cross-modality multimedia retrieval. Unlike existing cross-modal hashing methods
+which learn a single pair of projections to map each example as a binary vector, we design a couple of deep neural
+network to learn non-linear transformations from imagetext input pairs, so that unified binary codes can be obtained. We then design the modality-specific neural networks in a probabilistic manner where we model a latent
+variable as close as possible from the inferred binary codes,
+which is approximated by a posterior distribution regularized by a known prior. Experimental results on three benchmark datasets show the efficacy of the proposed approach.</p>
+</td>
+</tr>
+
+<tr>
+	<td>2017</td>
 	<td><a href="/publications/chaidaroon2017variational/">Variational Deep Semantic Hashing for Text Documents</a>
 		<span class="externallinks">
 			&nbsp;<a href='http://scholar.google.com/scholar?q=Variational Deep Semantic Hashing for Text Documents' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
@@ -1795,27 +1814,34 @@ state-of-the-art deep hash models.</p>
 
 <tr>
 	<td>2016</td>
-	<td><a href="/publications/cao2016correlation/">Correlation Autoencoder Hashing for Supervised Cross-Modal Search</a>
+	<td><a href="/publications/wang2016affinity/">Affinity Preserving Quantization for Hashing: A Vector Quantization Approach to Learning Compact Binary Codes</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Correlation Autoencoder Hashing for Supervised Cross-Modal Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Correlation Autoencoder Hashing for Supervised Cross-Modal Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Correlation%20Autoencoder%20Hashing%20for%20Supervised%20Cross-Modal%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Affinity Preserving Quantization for Hashing: A Vector Quantization Approach to Learning Compact Binary Codes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Affinity Preserving Quantization for Hashing: A Vector Quantization Approach to Learning Compact Binary Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Affinity%20Preserving%20Quantization%20for%20Hashing:%20A%20Vector%20Quantization%20Approach%20to%20Learning%20Compact%20Binary%20Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>Yue Cao, Mingsheng Long, Jianmin Wang, Han Zhu</td>
-	<td>ICMR</td>
-	<td><p>Due to its storage and query efficiency, hashing has been widely
-applied to approximate nearest neighbor search from large-scale
-datasets. While there is increasing interest in cross-modal hashing
-which facilitates cross-media retrieval by embedding data from different modalities into a common Hamming space, how to distill the
-cross-modal correlation structure effectively remains a challenging
-problem. In this paper, we propose a novel supervised cross-modal
-hashing method, Correlation Autoencoder Hashing (CAH), to learn
-discriminative and compact binary codes based on deep autoencoders. Specifically, CAH jointly maximizes the feature correlation
-revealed by bimodal data and the semantic correlation conveyed in
-similarity labels, while embeds them into hash codes by nonlinear
-deep autoencoders. Extensive experiments clearly show the superior effectiveness and efficiency of CAH against the state-of-the-art
-hashing methods on standard cross-modal retrieval benchmarks.</p>
+	<td>Z. Wang, L. Duan, T. Huang, W. Gao</td>
+	<td>AAAI</td>
+	<td><p>Hashing techniques are powerful for approximate nearest
+neighbour (ANN) search. Existing quantization methods in
+hashing are all focused on scalar quantization (SQ) which
+is inferior in utilizing the inherent data distribution. In this
+paper, we propose a novel vector quantization (VQ) method
+named affinity preserving quantization (APQ) to improve the
+quantization quality of projection values, which has significantly
+boosted the performance of state-of-the-art hashing
+techniques. In particular, our method incorporates the neighbourhood
+structure in the pre- and post-projection data space
+into vector quantization. APQ minimizes the quantization errors
+of projection values as well as the loss of affinity property
+of original space. An effective algorithm has been proposed
+to solve the joint optimization problem in APQ, and
+the extension to larger binary codes has been resolved by applying
+product quantization to APQ. Extensive experiments
+have shown that APQ consistently outperforms the state-of-the-art
+quantization methods, and has significantly improved
+the performance of various hashing techniques.</p>
 </td>
 </tr>
 
@@ -1846,6 +1872,49 @@ hashing methods on standard cross-modal retrieval benchmarks.</p>
 	<td>S. Moran, R. McCreadie, C. Macdonald, I. Ounis</td>
 	<td>SIGIR</td>
 	<td><p>In this paper we show how word embeddings can be used to increase the effectiveness of a state-of-the art Locality Sensitive Hashing (LSH) based first story detection (FSD) system over a standard tweet corpus. Vocabulary mismatch, in which related tweets use different words, is a serious hindrance to the effectiveness of a modern FSD system. In this case, a tweet could be flagged as a first story even if a related tweet, which uses different but synonymous words, was already returned as a first story. In this work, we propose a novel approach to mitigate this problem of lexical variation, based on tweet expansion. In particular, we propose to expand tweets with semantically related paraphrases identified via automatically mined word embeddings over a background tweet corpus. Through experimentation on a large data stream comprised of 50 million tweets, we show that FSD effectiveness can be improved by 9.5% over a state-of-the-art FSD system.</p>
+</td>
+</tr>
+
+<tr>
+	<td>2016</td>
+	<td><a href="/publications/kang2016columnsample/">Column Sampling Based Discrete Supervised Hashing</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Column Sampling Based Discrete Supervised Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Column Sampling Based Discrete Supervised Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Column%20Sampling%20Based%20Discrete%20Supervised%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>Wang-Cheng Kang, Wu-Jun Li, Zhi-Hua Zhou</td>
+	<td>AAAI</td>
+	<td><p>By leveraging semantic (label) information, supervised hashing has demonstrated better accuracy than unsupervised hashing in many real applications. Because the hashing-code learning problem is essentially a discrete optimization problem which is hard to solve, most existing supervised hashing methods try to solve a relaxed continuous optimization problem by dropping the discrete constraints.
+However, these methods typically suffer from poor performance due to the errors caused by the relaxation. Some other methods try to directly solve the discrete optimization problem. However, they are typically time-consuming and unscalable. In this paper, we propose a novel method, called column sampling based discrete supervised hashing (COSDISH), to directly learn the discrete hashing code from semantic information.
+COSDISH is an iterative method, in each iteration of which several columns are sampled from the semantic similarity matrix and then the hashing code is decomposed into two parts which can be alternately optimized in a discrete way. Theoretical analysis shows that the learning (optimization) algorithm of COSDISH has a constant-approximation bound in each step of the alternating optimization procedure. Empirical results on datasets with semantic labels illustrate that COSDISH can outperform the state-of-the-art methods in real applications like image retrieval.</p>
+</td>
+</tr>
+
+<tr>
+	<td>2016</td>
+	<td><a href="/publications/cao2016correlation/">Correlation Autoencoder Hashing for Supervised Cross-Modal Search</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Correlation Autoencoder Hashing for Supervised Cross-Modal Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Correlation Autoencoder Hashing for Supervised Cross-Modal Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Correlation%20Autoencoder%20Hashing%20for%20Supervised%20Cross-Modal%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>Yue Cao, Mingsheng Long, Jianmin Wang, Han Zhu</td>
+	<td>ICMR</td>
+	<td><p>Due to its storage and query efficiency, hashing has been widely
+applied to approximate nearest neighbor search from large-scale
+datasets. While there is increasing interest in cross-modal hashing
+which facilitates cross-media retrieval by embedding data from different modalities into a common Hamming space, how to distill the
+cross-modal correlation structure effectively remains a challenging
+problem. In this paper, we propose a novel supervised cross-modal
+hashing method, Correlation Autoencoder Hashing (CAH), to learn
+discriminative and compact binary codes based on deep autoencoders. Specifically, CAH jointly maximizes the feature correlation
+revealed by bimodal data and the semantic correlation conveyed in
+similarity labels, while embeds them into hash codes by nonlinear
+deep autoencoders. Extensive experiments clearly show the superior effectiveness and efficiency of CAH against the state-of-the-art
+hashing methods on standard cross-modal retrieval benchmarks.</p>
 </td>
 </tr>
 
@@ -1902,39 +1971,6 @@ i.e. standard IAPR TC-12 and large-scale Microsoft COCO.</p>
 
 <tr>
 	<td>2016</td>
-	<td><a href="/publications/wang2016affinity/">Affinity Preserving Quantization for Hashing: A Vector Quantization Approach to Learning Compact Binary Codes</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Affinity Preserving Quantization for Hashing: A Vector Quantization Approach to Learning Compact Binary Codes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Affinity Preserving Quantization for Hashing: A Vector Quantization Approach to Learning Compact Binary Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Affinity%20Preserving%20Quantization%20for%20Hashing:%20A%20Vector%20Quantization%20Approach%20to%20Learning%20Compact%20Binary%20Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>Z. Wang, L. Duan, T. Huang, W. Gao</td>
-	<td>AAAI</td>
-	<td><p>Hashing techniques are powerful for approximate nearest
-neighbour (ANN) search. Existing quantization methods in
-hashing are all focused on scalar quantization (SQ) which
-is inferior in utilizing the inherent data distribution. In this
-paper, we propose a novel vector quantization (VQ) method
-named affinity preserving quantization (APQ) to improve the
-quantization quality of projection values, which has significantly
-boosted the performance of state-of-the-art hashing
-techniques. In particular, our method incorporates the neighbourhood
-structure in the pre- and post-projection data space
-into vector quantization. APQ minimizes the quantization errors
-of projection values as well as the loss of affinity property
-of original space. An effective algorithm has been proposed
-to solve the joint optimization problem in APQ, and
-the extension to larger binary codes has been resolved by applying
-product quantization to APQ. Extensive experiments
-have shown that APQ consistently outperforms the state-of-the-art
-quantization methods, and has significantly improved
-the performance of various hashing techniques.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2016</td>
 	<td><a href="/publications/li2016feature/">Feature Learning based Deep Supervised Hashing with Pairwise Labels</a>
 		<span class="externallinks">
 			&nbsp;<a href='http://scholar.google.com/scholar?q=Feature Learning based Deep Supervised Hashing with Pairwise Labels' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
@@ -1977,23 +2013,6 @@ resulting in 32x memory saving. In XNOR-Networks, both the filters and the input
 results in 58x faster convolutional operations and 32x memory savings. XNOR-Nets offer the possibility of running state-of-the-art networks on CPUs (rather than GPUs) in real-time. Our binary
 networks are simple, accurate, efficient, and work on challenging visual tasks. We evaluate our approach on the ImageNet classification task. The classification accuracy with a Binary-Weight-Network
 version of AlexNet is only 2.9\% less than the full-precision AlexNet (in top-1 measure). We compare our method with recent network binarization methods, BinaryConnect and BinaryNets, and outperform these methods by large margins on ImageNet, more than 16\% in top-1 accuracy.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2016</td>
-	<td><a href="/publications/kang2016columnsample/">Column Sampling Based Discrete Supervised Hashing</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Column Sampling Based Discrete Supervised Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Column Sampling Based Discrete Supervised Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Column%20Sampling%20Based%20Discrete%20Supervised%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>Wang-Cheng Kang, Wu-Jun Li, Zhi-Hua Zhou</td>
-	<td>AAAI</td>
-	<td><p>By leveraging semantic (label) information, supervised hashing has demonstrated better accuracy than unsupervised hashing in many real applications. Because the hashing-code learning problem is essentially a discrete optimization problem which is hard to solve, most existing supervised hashing methods try to solve a relaxed continuous optimization problem by dropping the discrete constraints.
-However, these methods typically suffer from poor performance due to the errors caused by the relaxation. Some other methods try to directly solve the discrete optimization problem. However, they are typically time-consuming and unscalable. In this paper, we propose a novel method, called column sampling based discrete supervised hashing (COSDISH), to directly learn the discrete hashing code from semantic information.
-COSDISH is an iterative method, in each iteration of which several columns are sampled from the semantic similarity matrix and then the hashing code is decomposed into two parts which can be alternately optimized in a discrete way. Theoretical analysis shows that the learning (optimization) algorithm of COSDISH has a constant-approximation bound in each step of the alternating optimization procedure. Empirical results on datasets with semantic labels illustrate that COSDISH can outperform the state-of-the-art methods in real applications like image retrieval.</p>
 </td>
 </tr>
 
@@ -2049,36 +2068,32 @@ methods for binary hashing.</p>
 
 <tr>
 	<td>2015</td>
-	<td><a href="/publications/song2015rank/">Top Rank Supervised Binary Coding for Visual Search</a>
+	<td><a href="/publications/wang2015semantic/">Semantic Topic Multimodal Hashing for Cross-Media Retrieval</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Top Rank Supervised Binary Coding for Visual Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Top Rank Supervised Binary Coding for Visual Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Top%20Rank%20Supervised%20Binary%20Coding%20for%20Visual%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Semantic Topic Multimodal Hashing for Cross-Media Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Semantic Topic Multimodal Hashing for Cross-Media Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Semantic%20Topic%20Multimodal%20Hashing%20for%20Cross-Media%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>Dongjin Song, Wei Liu, Rongrong Ji, David A. Meyer, John R. Smith</td>
-	<td>ICCV</td>
-	<td><p>In recent years, binary coding techniques are becoming
-increasingly popular because of their high efficiency in handling large-scale computer vision applications. It has been
-demonstrated that supervised binary coding techniques that
-leverage supervised information can significantly enhance
-the coding quality, and hence greatly benefit visual search
-tasks. Typically, a modern binary coding method seeks
-to learn a group of coding functions which compress data
-samples into binary codes. However, few methods pursued
-the coding functions such that the precision at the top of
-a ranking list according to Hamming distances of the generated binary codes is optimized.
-In this paper, we propose a novel supervised binary coding approach, namely
-Top Rank Supervised Binary Coding (Top-RSBC), which
-explicitly focuses on optimizing the precision of top positions in a Hamming-distance ranking list towards preserving the supervision information. The core idea is to train
-the disciplined coding functions, by which the mistakes at
-the top of a Hamming-distance ranking list are penalized
-more than those at the bottom. To solve such coding functions, we relax the original discrete optimization objective
-with a continuous surrogate, and derive a stochastic gradient descent to optimize the surrogate objective. To further reduce the training time cost, we also design an online
-learning algorithm to optimize the surrogate objective more
-efficiently. Empirical studies based upon three benchmark
-image datasets demonstrate that the proposed binary coding approach achieves superior image search accuracy over
-the state-of-the-arts.</p>
+	<td>Di Wang, Xinbo Gao, Xiumei Wang and Lihuo He</td>
+	<td>IJCAI</td>
+	<td><p>Multimodal hashing is essential to cross-media
+similarity search for its low storage cost and fast
+query speed. Most existing multimodal hashing
+methods embedded heterogeneous data into a common low-dimensional Hamming space, and then
+rounded the continuous embeddings to obtain the
+binary codes. Yet they usually neglect the inherent discrete nature of hashing for relaxing the discrete constraints, which will cause degraded retrieval performance especially for long codes. For
+this purpose, a novel Semantic Topic Multimodal
+Hashing (STMH) is developed by considering latent semantic information in coding procedure.
+It
+first discovers clustering patterns of texts and robust factorizes the matrix of images to obtain multiple semantic topics of texts and concepts of images.
+Then the learned multimodal semantic features are
+transformed into a common subspace by their correlations. Finally, each bit of unified hash code
+can be generated directly by figuring out whether a
+topic or concept is contained in a text or an image.
+Therefore, the obtained model by STMH is more
+suitable for hashing scheme as it directly learns discrete hash codes in the coding process. Experimental results demonstrate that the proposed method
+outperforms several state-of-the-art methods.</p>
 </td>
 </tr>
 
@@ -2380,16 +2395,51 @@ over the state-of-the-arts.</p>
 
 <tr>
 	<td>2015</td>
-	<td><a href="/publications/moran2015bregularised/">Regularised Cross-Modal Hashing</a>
+	<td><a href="/publications/song2015rank/">Top Rank Supervised Binary Coding for Visual Search</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Regularised Cross-Modal Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Regularised Cross-Modal Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Regularised%20Cross-Modal%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Top Rank Supervised Binary Coding for Visual Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Top Rank Supervised Binary Coding for Visual Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Top%20Rank%20Supervised%20Binary%20Coding%20for%20Visual%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>Dongjin Song, Wei Liu, Rongrong Ji, David A. Meyer, John R. Smith</td>
+	<td>ICCV</td>
+	<td><p>In recent years, binary coding techniques are becoming
+increasingly popular because of their high efficiency in handling large-scale computer vision applications. It has been
+demonstrated that supervised binary coding techniques that
+leverage supervised information can significantly enhance
+the coding quality, and hence greatly benefit visual search
+tasks. Typically, a modern binary coding method seeks
+to learn a group of coding functions which compress data
+samples into binary codes. However, few methods pursued
+the coding functions such that the precision at the top of
+a ranking list according to Hamming distances of the generated binary codes is optimized.
+In this paper, we propose a novel supervised binary coding approach, namely
+Top Rank Supervised Binary Coding (Top-RSBC), which
+explicitly focuses on optimizing the precision of top positions in a Hamming-distance ranking list towards preserving the supervision information. The core idea is to train
+the disciplined coding functions, by which the mistakes at
+the top of a Hamming-distance ranking list are penalized
+more than those at the bottom. To solve such coding functions, we relax the original discrete optimization objective
+with a continuous surrogate, and derive a stochastic gradient descent to optimize the surrogate objective. To further reduce the training time cost, we also design an online
+learning algorithm to optimize the surrogate objective more
+efficiently. Empirical studies based upon three benchmark
+image datasets demonstrate that the proposed binary coding approach achieves superior image search accuracy over
+the state-of-the-arts.</p>
+</td>
+</tr>
+
+<tr>
+	<td>2015</td>
+	<td><a href="/publications/moran2015agraph/">Graph Regularised Hashing</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Graph Regularised Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Graph Regularised Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Graph%20Regularised%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
 	<td>S. Moran, V. Lavrenko</td>
-	<td>SIGIR</td>
-	<td><p>In this paper we propose Regularised Cross-Modal Hashing (RCMH) a new cross-modal hashing scheme that projects annotation and visual feature descriptors into a common Hamming space. RCMH optimises the intra-modality similarity of data-points in the annotation modality using an iterative three-step hashing algorithm: in the first step each training image is assigned a K-bit hashcode based on hyperplanes learnt at the previous iteration; in the second step the binary bits are smoothed by a formulation of graph regularisation so that similar data-points have similar bits; in the third step a set of binary classifiers are trained to predict the regularised bits with maximum margin. Visual descriptors are projected into the annotation Hamming space by a set of binary classifiers learnt using the bits of the corresponding annotations as labels. RCMH is shown to consistently improve retrieval effectiveness over state-of-the-art baselines.</p>
+	<td>ECIR</td>
+	<td><p>In this paper we propose a two-step iterative scheme, Graph Regularised Hashing (GRH), for incrementally adjusting the positioning of the hashing hypersurfaces to better conform to the supervisory signal: in the first step the binary bits are regularised using a data similarity graph so that similar data points receive similar bits. In the second step the regularised hashcodes form targets for a set of binary classifiers which shift the position of each hypersurface so as to separate opposite bits with maximum margin. GRH exhibits superior retrieval accuracy to competing hashing methods.</p>
 </td>
 </tr>
 
@@ -2422,6 +2472,44 @@ of magnitude faster and being online it is adaptable to the
 variations of the data. Moreover, our formulation yields improved
 retrieval performance over a recently reported online
 hashing technique, Online Kernel Hashing.</p>
+</td>
+</tr>
+
+<tr>
+	<td>2015</td>
+	<td><a href="/publications/zhao2015deep/">Deep Semantic Ranking Based Hashing for Multi-Label Image Retrieval</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Deep Semantic Ranking Based Hashing for Multi-Label Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Deep Semantic Ranking Based Hashing for Multi-Label Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Deep%20Semantic%20Ranking%20Based%20Hashing%20for%20Multi-Label%20Image%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>F. Zhao, Y. Huang, L. Wang, and T. Tan</td>
+	<td>CVPR</td>
+	<td><p>With the rapid growth of web images, hashing has received
+increasing interests in large scale image retrieval.
+Research efforts have been devoted to learning compact binary
+codes that preserve semantic similarity based on labels.
+However, most of these hashing methods are designed
+to handle simple binary similarity. The complex multilevel
+semantic structure of images associated with multiple labels
+have not yet been well explored. Here we propose a deep
+semantic ranking based method for learning hash functions
+that preserve multilevel semantic similarity between multilabel
+images. In our approach, deep convolutional neural
+network is incorporated into hash functions to jointly
+learn feature representations and mappings from them to
+hash codes, which avoids the limitation of semantic representation
+power of hand-crafted features. Meanwhile, a
+ranking list that encodes the multilevel similarity information
+is employed to guide the learning of such deep hash
+functions. An effective scheme based on surrogate loss is
+used to solve the intractable optimization problem of nonsmooth
+and multivariate ranking measures involved in the
+learning procedure. Experimental results show the superiority
+of our proposed approach over several state-of-theart
+hashing methods in term of ranking evaluation metrics
+when tested on multi-label image datasets.</p>
 </td>
 </tr>
 
@@ -2462,69 +2550,16 @@ is simple to implement and competes favorably with available methods (both for o
 
 <tr>
 	<td>2015</td>
-	<td><a href="/publications/xu2015convolutional/">Convolutional Neural Networks for Text Hashing</a>
+	<td><a href="/publications/moran2015bregularised/">Regularised Cross-Modal Hashing</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Convolutional Neural Networks for Text Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Convolutional Neural Networks for Text Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Convolutional%20Neural%20Networks%20for%20Text%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Regularised Cross-Modal Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Regularised Cross-Modal Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Regularised%20Cross-Modal%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>Jiaming Xu, PengWang, Guanhua Tian, Bo Xu, Jun Zhao, Fangyuan Wang, Hongwei Hao</td>
-	<td>IJCAI</td>
-	<td><p>Hashing, as a popular approximate nearest neighbor
-search, has been widely used for large-scale similarity search. Recently, a spectrum of machine learning
-methods are utilized to learn similarity-preserving
-binary codes. However, most of them directly encode the explicit features, keywords, which fail to
-preserve the accurate semantic similarities in binary code beyond keyword matching, especially on
-short texts. Here we propose a novel text hashing
-framework with convolutional neural networks. In
-particular, we first embed the keyword features into
-compact binary code with a locality preserving constraint. Meanwhile word features and position features are together fed into a convolutional network to
-learn the implicit features which are further incorporated with the explicit features to fit the pre-trained
-binary code. Such base method can be successfully
-accomplished without any external tags/labels, and
-other three model variations are designed to integrate tags/labels. Experimental results show the
-superiority of our proposed approach over several
-state-of-the-art hashing methods when tested on one
-short text dataset as well as one normal text dataset.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2015</td>
-	<td><a href="/publications/jiang2015scalable/">Scalable Graph Hashing with Feature Transformation</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Scalable Graph Hashing with Feature Transformation' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Scalable Graph Hashing with Feature Transformation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Scalable%20Graph%20Hashing%20with%20Feature%20Transformation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>Q. Jiang, W. Li</td>
-	<td>IJCAI</td>
-	<td><p>Hashing has been widely used for approximate nearest
-neighbor (ANN) search in big data applications
-because of its low storage cost and fast retrieval
-speed. The goal of hashing is to map the data
-points from the original space into a binary-code
-space where the similarity (neighborhood structure)
-in the original space is preserved. By directly
-exploiting the similarity to guide the hashing
-code learning procedure, graph hashing has attracted
-much attention. However, most existing graph
-hashing methods cannot achieve satisfactory performance
-in real applications due to the high complexity
-for graph modeling. In this paper, we propose
-a novel method, called scalable graph hashing
-with feature transformation (SGH), for large-scale
-graph hashing. Through feature transformation, we
-can effectively approximate the whole graph without
-explicitly computing the similarity graph matrix,
-based on which a sequential learning method
-is proposed to learn the hash functions in a bit-wise
-manner. Experiments on two datasets with one million
-data points show that our SGH method can
-outperform the state-of-the-art methods in terms of
-both accuracy and scalability.</p>
+	<td>S. Moran, V. Lavrenko</td>
+	<td>SIGIR</td>
+	<td><p>In this paper we propose Regularised Cross-Modal Hashing (RCMH) a new cross-modal hashing scheme that projects annotation and visual feature descriptors into a common Hamming space. RCMH optimises the intra-modality similarity of data-points in the annotation modality using an iterative three-step hashing algorithm: in the first step each training image is assigned a K-bit hashcode based on hyperplanes learnt at the previous iteration; in the second step the binary bits are smoothed by a formulation of graph regularisation so that similar data-points have similar bits; in the third step a set of binary classifiers are trained to predict the regularised bits with maximum margin. Visual descriptors are projected into the annotation Hamming space by a set of binary classifiers learnt using the bits of the corresponding annotations as labels. RCMH is shown to consistently improve retrieval effectiveness over state-of-the-art baselines.</p>
 </td>
 </tr>
 
@@ -2587,59 +2622,6 @@ solutions and state-of-the-art multi-table methods.</p>
 
 <tr>
 	<td>2015</td>
-	<td><a href="/publications/zhao2015deep/">Deep Semantic Ranking Based Hashing for Multi-Label Image Retrieval</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Deep Semantic Ranking Based Hashing for Multi-Label Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Deep Semantic Ranking Based Hashing for Multi-Label Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Deep%20Semantic%20Ranking%20Based%20Hashing%20for%20Multi-Label%20Image%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>F. Zhao, Y. Huang, L. Wang, and T. Tan</td>
-	<td>CVPR</td>
-	<td><p>With the rapid growth of web images, hashing has received
-increasing interests in large scale image retrieval.
-Research efforts have been devoted to learning compact binary
-codes that preserve semantic similarity based on labels.
-However, most of these hashing methods are designed
-to handle simple binary similarity. The complex multilevel
-semantic structure of images associated with multiple labels
-have not yet been well explored. Here we propose a deep
-semantic ranking based method for learning hash functions
-that preserve multilevel semantic similarity between multilabel
-images. In our approach, deep convolutional neural
-network is incorporated into hash functions to jointly
-learn feature representations and mappings from them to
-hash codes, which avoids the limitation of semantic representation
-power of hand-crafted features. Meanwhile, a
-ranking list that encodes the multilevel similarity information
-is employed to guide the learning of such deep hash
-functions. An effective scheme based on surrogate loss is
-used to solve the intractable optimization problem of nonsmooth
-and multivariate ranking measures involved in the
-learning procedure. Experimental results show the superiority
-of our proposed approach over several state-of-theart
-hashing methods in term of ranking evaluation metrics
-when tested on multi-label image datasets.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2015</td>
-	<td><a href="/publications/moran2015agraph/">Graph Regularised Hashing</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Graph Regularised Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Graph Regularised Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Graph%20Regularised%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>S. Moran, V. Lavrenko</td>
-	<td>ECIR</td>
-	<td><p>In this paper we propose a two-step iterative scheme, Graph Regularised Hashing (GRH), for incrementally adjusting the positioning of the hashing hypersurfaces to better conform to the supervisory signal: in the first step the binary bits are regularised using a data similarity graph so that similar data points receive similar bits. In the second step the regularised hashcodes form targets for a set of binary classifiers which shift the position of each hypersurface so as to separate opposite bits with maximum margin. GRH exhibits superior retrieval accuracy to competing hashing methods.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2015</td>
 	<td><a href="/publications/zhen2015cross/">Cross-Modal Similarity Learning via Pairs, Preferences, and Active Supervision</a>
 		<span class="externallinks">
 			&nbsp;<a href='http://scholar.google.com/scholar?q=Cross-Modal Similarity Learning via Pairs, Preferences, and Active Supervision' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
@@ -2666,32 +2648,69 @@ cross-modal similarity search.</p>
 
 <tr>
 	<td>2015</td>
-	<td><a href="/publications/wang2015semantic/">Semantic Topic Multimodal Hashing for Cross-Media Retrieval</a>
+	<td><a href="/publications/jiang2015scalable/">Scalable Graph Hashing with Feature Transformation</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Semantic Topic Multimodal Hashing for Cross-Media Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Semantic Topic Multimodal Hashing for Cross-Media Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Semantic%20Topic%20Multimodal%20Hashing%20for%20Cross-Media%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Scalable Graph Hashing with Feature Transformation' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Scalable Graph Hashing with Feature Transformation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Scalable%20Graph%20Hashing%20with%20Feature%20Transformation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>Di Wang, Xinbo Gao, Xiumei Wang and Lihuo He</td>
+	<td>Q. Jiang, W. Li</td>
 	<td>IJCAI</td>
-	<td><p>Multimodal hashing is essential to cross-media
-similarity search for its low storage cost and fast
-query speed. Most existing multimodal hashing
-methods embedded heterogeneous data into a common low-dimensional Hamming space, and then
-rounded the continuous embeddings to obtain the
-binary codes. Yet they usually neglect the inherent discrete nature of hashing for relaxing the discrete constraints, which will cause degraded retrieval performance especially for long codes. For
-this purpose, a novel Semantic Topic Multimodal
-Hashing (STMH) is developed by considering latent semantic information in coding procedure.
-It
-first discovers clustering patterns of texts and robust factorizes the matrix of images to obtain multiple semantic topics of texts and concepts of images.
-Then the learned multimodal semantic features are
-transformed into a common subspace by their correlations. Finally, each bit of unified hash code
-can be generated directly by figuring out whether a
-topic or concept is contained in a text or an image.
-Therefore, the obtained model by STMH is more
-suitable for hashing scheme as it directly learns discrete hash codes in the coding process. Experimental results demonstrate that the proposed method
-outperforms several state-of-the-art methods.</p>
+	<td><p>Hashing has been widely used for approximate nearest
+neighbor (ANN) search in big data applications
+because of its low storage cost and fast retrieval
+speed. The goal of hashing is to map the data
+points from the original space into a binary-code
+space where the similarity (neighborhood structure)
+in the original space is preserved. By directly
+exploiting the similarity to guide the hashing
+code learning procedure, graph hashing has attracted
+much attention. However, most existing graph
+hashing methods cannot achieve satisfactory performance
+in real applications due to the high complexity
+for graph modeling. In this paper, we propose
+a novel method, called scalable graph hashing
+with feature transformation (SGH), for large-scale
+graph hashing. Through feature transformation, we
+can effectively approximate the whole graph without
+explicitly computing the similarity graph matrix,
+based on which a sequential learning method
+is proposed to learn the hash functions in a bit-wise
+manner. Experiments on two datasets with one million
+data points show that our SGH method can
+outperform the state-of-the-art methods in terms of
+both accuracy and scalability.</p>
+</td>
+</tr>
+
+<tr>
+	<td>2015</td>
+	<td><a href="/publications/xu2015convolutional/">Convolutional Neural Networks for Text Hashing</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Convolutional Neural Networks for Text Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Convolutional Neural Networks for Text Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Convolutional%20Neural%20Networks%20for%20Text%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>Jiaming Xu, PengWang, Guanhua Tian, Bo Xu, Jun Zhao, Fangyuan Wang, Hongwei Hao</td>
+	<td>IJCAI</td>
+	<td><p>Hashing, as a popular approximate nearest neighbor
+search, has been widely used for large-scale similarity search. Recently, a spectrum of machine learning
+methods are utilized to learn similarity-preserving
+binary codes. However, most of them directly encode the explicit features, keywords, which fail to
+preserve the accurate semantic similarities in binary code beyond keyword matching, especially on
+short texts. Here we propose a novel text hashing
+framework with convolutional neural networks. In
+particular, we first embed the keyword features into
+compact binary code with a locality preserving constraint. Meanwhile word features and position features are together fed into a convolutional network to
+learn the implicit features which are further incorporated with the explicit features to fit the pre-trained
+binary code. Such base method can be successfully
+accomplished without any external tags/labels, and
+other three model variations are designed to integrate tags/labels. Experimental results show the
+superiority of our proposed approach over several
+state-of-the-art hashing methods when tested on one
+short text dataset as well as one normal text dataset.</p>
 </td>
 </tr>
 
@@ -3206,29 +3225,16 @@ on Netflix and Movielens (10M) datasets.</p>
 
 <tr>
 	<td>2013</td>
-	<td><a href="/publications/moran2013bvariable/">Variable Bit Quantisation for LSH</a>
+	<td><a href="/publications/moran2013aneighbourhood/">Neighbourhood Preserving Quantisation for LSH</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Variable Bit Quantisation for LSH' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Variable Bit Quantisation for LSH' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Variable%20Bit%20Quantisation%20for%20LSH' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Neighbourhood Preserving Quantisation for LSH' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Neighbourhood Preserving Quantisation for LSH' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Neighbourhood%20Preserving%20Quantisation%20for%20LSH' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
 	<td>S. Moran, V. Lavrenko, and M. Osborne</td>
-	<td>ACL</td>
-	<td><p>We introduce a scheme for optimally allocating
-a variable number of bits per
-LSH hyperplane. Previous approaches assign
-a constant number of bits per hyperplane.
-This neglects the fact that a subset
-of hyperplanes may be more informative
-than others. Our method, dubbed Variable
-Bit Quantisation (VBQ), provides a datadriven
-non-uniform bit allocation across
-hyperplanes. Despite only using a fraction
-of the available hyperplanes, VBQ outperforms
-uniform quantisation by up to 168%
-for retrieval across standard text and image
-datasets.</p>
+	<td>SIGIR</td>
+	<td><p>We introduce a scheme for optimally allocating multiple bits per hyperplane for Locality Sensitive Hashing (LSH). Existing approaches binarise LSH projections by thresholding at zero yielding a single bit per dimension. We demonstrate that this is a sub-optimal bit allocation approach that can easily destroy the neighbourhood structure in the original feature space. Our proposed method, dubbed Neighbourhood Preserving Quantization (NPQ), assigns multiple bits per hyperplane based upon adaptively learned thresholds. NPQ exploits a pairwise affinity matrix to discretise each dimension such that nearest neighbours in the original feature space fall within the same quantisation thresholds and are therefore assigned identical bits. NPQ is not only applicable to LSH, but can also be applied to any low-dimensional projection scheme. Despite using half the number of hyperplanes, NPQ is shown to improve LSH-based retrieval accuracy by up to 65% compared to the state-of-the-art.</p>
 </td>
 </tr>
 
@@ -3276,16 +3282,29 @@ with table construction times up to 3.7x faster and query times that are 8.3x fa
 
 <tr>
 	<td>2013</td>
-	<td><a href="/publications/moran2013aneighbourhood/">Neighbourhood Preserving Quantisation for LSH</a>
+	<td><a href="/publications/zhu2013linear/">Linear cross-modal hashing for efficient multimedia search</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Neighbourhood Preserving Quantisation for LSH' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Neighbourhood Preserving Quantisation for LSH' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Neighbourhood%20Preserving%20Quantisation%20for%20LSH' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Linear cross-modal hashing for efficient multimedia search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Linear cross-modal hashing for efficient multimedia search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Linear%20cross-modal%20hashing%20for%20efficient%20multimedia%20search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>S. Moran, V. Lavrenko, and M. Osborne</td>
-	<td>SIGIR</td>
-	<td><p>We introduce a scheme for optimally allocating multiple bits per hyperplane for Locality Sensitive Hashing (LSH). Existing approaches binarise LSH projections by thresholding at zero yielding a single bit per dimension. We demonstrate that this is a sub-optimal bit allocation approach that can easily destroy the neighbourhood structure in the original feature space. Our proposed method, dubbed Neighbourhood Preserving Quantization (NPQ), assigns multiple bits per hyperplane based upon adaptively learned thresholds. NPQ exploits a pairwise affinity matrix to discretise each dimension such that nearest neighbours in the original feature space fall within the same quantisation thresholds and are therefore assigned identical bits. NPQ is not only applicable to LSH, but can also be applied to any low-dimensional projection scheme. Despite using half the number of hyperplanes, NPQ is shown to improve LSH-based retrieval accuracy by up to 65% compared to the state-of-the-art.</p>
+	<td>Xiaofeng Zhu, Zi Huang, Heng Tao Shen, Xin Zhao</td>
+	<td>MM</td>
+	<td><p>Most existing cross-modal hashing methods suffer from the scalability issue in the training phase. In this paper, we propose a novel 
+cross-modal hashing approach with a linear time complexity to the training data size, to enable scalable indexing for multimedia 
+search across multiple modals. Taking both the intra-similarity in each modal and the inter-similarity across different modals 
+into consideration, the proposed approach aims at effectively learning hash functions from large-scale training datasets. 
+More specifically, for each modal, we first partition the training data into $k$ clusters and then represent each training data 
+point with its distances to $k$ centroids of the clusters. Interestingly, such a k-dimensional data representation can reduce 
+the time complexity of the training phase from traditional O(n2) or higher to O(n), where $n$ is the training data size, leading to 
+practical learning on large-scale datasets. We further prove that this new representation preserves the intra-similarity in each modal. 
+To preserve the inter-similarity among data points across different modals, we transform the derived data representations into a 
+common binary subspace in which binary codes from all the modals are “consistent” and comparable. The transformation simultaneously 
+outputs the hash functions for all modals, which are used to convert unseen data into binary codes. Given a query of one modal, 
+it is first mapped into the binary codes using the modal’s hash functions, followed by matching the database binary codes of any other 
+modals. Experimental results on two benchmark datasets confirm the scalability and the effectiveness of the proposed approach in 
+comparison with the state of the art.</p>
 </td>
 </tr>
 
@@ -3399,34 +3418,6 @@ tested on a few benchmark datasets.</p>
 
 <tr>
 	<td>2013</td>
-	<td><a href="/publications/zhu2013linear/">Linear cross-modal hashing for efficient multimedia search</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Linear cross-modal hashing for efficient multimedia search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Linear cross-modal hashing for efficient multimedia search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Linear%20cross-modal%20hashing%20for%20efficient%20multimedia%20search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>Xiaofeng Zhu, Zi Huang, Heng Tao Shen, Xin Zhao</td>
-	<td>MM</td>
-	<td><p>Most existing cross-modal hashing methods suffer from the scalability issue in the training phase. In this paper, we propose a novel 
-cross-modal hashing approach with a linear time complexity to the training data size, to enable scalable indexing for multimedia 
-search across multiple modals. Taking both the intra-similarity in each modal and the inter-similarity across different modals 
-into consideration, the proposed approach aims at effectively learning hash functions from large-scale training datasets. 
-More specifically, for each modal, we first partition the training data into $k$ clusters and then represent each training data 
-point with its distances to $k$ centroids of the clusters. Interestingly, such a k-dimensional data representation can reduce 
-the time complexity of the training phase from traditional O(n2) or higher to O(n), where $n$ is the training data size, leading to 
-practical learning on large-scale datasets. We further prove that this new representation preserves the intra-similarity in each modal. 
-To preserve the inter-similarity among data points across different modals, we transform the derived data representations into a 
-common binary subspace in which binary codes from all the modals are “consistent” and comparable. The transformation simultaneously 
-outputs the hash functions for all modals, which are used to convert unseen data into binary codes. Given a query of one modal, 
-it is first mapped into the binary codes using the modal’s hash functions, followed by matching the database binary codes of any other 
-modals. Experimental results on two benchmark datasets confirm the scalability and the effectiveness of the proposed approach in 
-comparison with the state of the art.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2013</td>
 	<td><a href="/publications/neyshabur2013power/">The Power of Asymmetry in Binary Hashing</a>
 		<span class="externallinks">
 			&nbsp;<a href='http://scholar.google.com/scholar?q=The Power of Asymmetry in Binary Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
@@ -3443,6 +3434,34 @@ shorter and more accurate hashes by using two distinct code maps. I.e. by approx
 as the hamming distance between f(x)
 and g(x0), for two distinct binary codes f, g, rather than as the hamming distance
 between f(x) and f(x0).</p>
+</td>
+</tr>
+
+<tr>
+	<td>2013</td>
+	<td><a href="/publications/moran2013bvariable/">Variable Bit Quantisation for LSH</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Variable Bit Quantisation for LSH' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Variable Bit Quantisation for LSH' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Variable%20Bit%20Quantisation%20for%20LSH' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>S. Moran, V. Lavrenko, and M. Osborne</td>
+	<td>ACL</td>
+	<td><p>We introduce a scheme for optimally allocating
+a variable number of bits per
+LSH hyperplane. Previous approaches assign
+a constant number of bits per hyperplane.
+This neglects the fact that a subset
+of hyperplanes may be more informative
+than others. Our method, dubbed Variable
+Bit Quantisation (VBQ), provides a datadriven
+non-uniform bit allocation across
+hyperplanes. Despite only using a fraction
+of the available hyperplanes, VBQ outperforms
+uniform quantisation by up to 168%
+for retrieval across standard text and image
+datasets.</p>
 </td>
 </tr>
 
@@ -3559,24 +3578,72 @@ neighbor search experiments.</p>
 
 <tr>
 	<td>2012</td>
-	<td><a href="/publications/norouzi2012hamming/">Hamming Distance Metric Learning</a>
+	<td><a href="/publications/kong2012ausing/">Manhattan Hashing for Large-Scale Image Retrieval</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Hamming Distance Metric Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Hamming Distance Metric Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Hamming%20Distance%20Metric%20Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Manhattan Hashing for Large-Scale Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Manhattan Hashing for Large-Scale Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Manhattan%20Hashing%20for%20Large-Scale%20Image%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>M. Norouzi, D. Fleet, R. Salakhutdinov</td>
-	<td>NIPS</td>
-	<td><p>Motivated by large-scale multimedia applications we propose to learn mappings
-from high-dimensional data to binary codes that preserve semantic similarity.
-Binary codes are well suited to large-scale applications as they are storage efficient and permit exact sub-linear kNN search. The framework is applicable
-to broad families of mappings, and uses a flexible form of triplet ranking loss.
-We overcome discontinuous optimization of the discrete mappings by minimizing
-a piecewise-smooth upper bound on empirical loss, inspired by latent structural
-SVMs. We develop a new loss-augmented inference algorithm that is quadratic in
-the code length. We show strong retrieval performance on CIFAR-10 and MNIST,
-with promising classification results using no more than kNN on the binary codes.</p>
+	<td>W. Kong, W. Li, M. Guo</td>
+	<td>SIGIR</td>
+	<td><p>Hashing is used to learn binary-code representation for data with
+expectation of preserving the neighborhood structure in the original
+feature space. Due to its fast query speed and reduced storage
+cost, hashing has been widely used for efficient nearest neighbor
+search in a large variety of applications like text and image retrieval.
+Most existing hashing methods adopt Hamming distance to
+measure the similarity (neighborhood) between points in the hashcode
+space. However, one problem with Hamming distance is that
+it may destroy the neighborhood structure in the original feature
+space, which violates the essential goal of hashing. In this paper,
+Manhattan hashing (MH), which is based on Manhattan distance, is
+proposed to solve the problem of Hamming distance based hashing.
+The basic idea of MH is to encode each projected dimension with
+multiple bits of natural binary code (NBC), based on which the
+Manhattan distance between points in the hashcode space is calculated
+for nearest neighbor search. MH can effectively preserve the
+neighborhood structure in the data to achieve the goal of hashing.
+To the best of our knowledge, this is the first work to adopt Manhattan
+distance with NBC for hashing. Experiments on several largescale
+image data sets containing up to one million points show that
+our MH method can significantly outperform other state-of-the-art
+methods.</p>
+</td>
+</tr>
+
+<tr>
+	<td>2012</td>
+	<td><a href="/publications/weiss2012multi/">Multidimensional Spectral Hashing</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Multidimensional Spectral Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Multidimensional Spectral Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Multidimensional%20Spectral%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>Y. Weiss, R. Fergus, A. Torralba</td>
+	<td>ECCV</td>
+	<td><p>en a surge of interest in methods based on “semantic hashing”,
+i.e. compact binary codes of data-points so that the Hamming distance
+between codewords correlates with similarity. In reviewing and
+comparing existing methods, we show that their relative performance can
+change drastically depending on the definition of ground-truth neighbors.
+Motivated by this finding, we propose a new formulation for learning binary
+codes which seeks to reconstruct the affinity between datapoints,
+rather than their distances. We show that this criterion is intractable
+to solve exactly, but a spectral relaxation gives an algorithm where the
+bits correspond to thresholded eigenvectors of the affinity matrix, and
+as the number of datapoints goes to infinity these eigenvectors converge
+to eigenfunctions of Laplace-Beltrami operators, similar to the recently
+proposed Spectral Hashing (SH) method. Unlike SH whose performance
+may degrade as the number of bits increases, the optimal code using
+our formulation is guaranteed to faithfully reproduce the affinities as
+the number of bits increases. We show that the number of eigenfunctions
+needed may increase exponentially with dimension, but introduce a “kernel
+trick” to allow us to compute with an exponentially large number of
+bits but using only memory and computation that grows linearly with
+dimension. Experiments shows that MDSH outperforms the state-of-the
+art, especially in the challenging regime of small distance thresholds.</p>
 </td>
 </tr>
 
@@ -3653,44 +3720,6 @@ also beneficial in this domain.</p>
 
 <tr>
 	<td>2012</td>
-	<td><a href="/publications/kong2012busing/">Double-Bit Quantisation for Hashing</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Double-Bit Quantisation for Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Double-Bit Quantisation for Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Double-Bit%20Quantisation%20for%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>W. Kong, W. Li</td>
-	<td>AAAI</td>
-	<td><p>Hashing, which tries to learn similarity-preserving binary
-codes for data representation, has been widely
-used for efficient nearest neighbor search in massive
-databases due to its fast query speed and low storage
-cost. Because it is NP hard to directly compute the best
-binary codes for a given data set, mainstream hashing
-methods typically adopt a two-stage strategy. In the
-first stage, several projected dimensions of real values
-are generated. Then in the second stage, the real values
-will be quantized into binary codes by thresholding.
-Currently, most existing methods use one single bit to
-quantize each projected dimension. One problem with
-this single-bit quantization (SBQ) is that the threshold
-typically lies in the region of the highest point density
-and consequently a lot of neighboring points close to
-the threshold will be hashed to totally different bits,
-which is unexpected according to the principle of hashing.
-In this paper, we propose a novel quantization strategy,
-called double-bit quantization (DBQ), to solve the
-problem of SBQ. The basic idea of DBQ is to quantize
-each projected dimension into double bits with adaptively
-learned thresholds. Extensive experiments on two
-real data sets show that our DBQ strategy can signifi-
-cantly outperform traditional SBQ strategy for hashing.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2012</td>
 	<td><a href="/publications/zhen2012coregularised/">Co-Regularized Hashing for Multimodal Data</a>
 		<span class="externallinks">
 			&nbsp;<a href='http://scholar.google.com/scholar?q=Co-Regularized Hashing for Multimodal Data' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
@@ -3756,37 +3785,39 @@ is intuitive and easy to implement.</p>
 
 <tr>
 	<td>2012</td>
-	<td><a href="/publications/kong2012ausing/">Manhattan Hashing for Large-Scale Image Retrieval</a>
+	<td><a href="/publications/kong2012busing/">Double-Bit Quantisation for Hashing</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Manhattan Hashing for Large-Scale Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Manhattan Hashing for Large-Scale Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Manhattan%20Hashing%20for%20Large-Scale%20Image%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Double-Bit Quantisation for Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Double-Bit Quantisation for Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Double-Bit%20Quantisation%20for%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>W. Kong, W. Li, M. Guo</td>
-	<td>SIGIR</td>
-	<td><p>Hashing is used to learn binary-code representation for data with
-expectation of preserving the neighborhood structure in the original
-feature space. Due to its fast query speed and reduced storage
-cost, hashing has been widely used for efficient nearest neighbor
-search in a large variety of applications like text and image retrieval.
-Most existing hashing methods adopt Hamming distance to
-measure the similarity (neighborhood) between points in the hashcode
-space. However, one problem with Hamming distance is that
-it may destroy the neighborhood structure in the original feature
-space, which violates the essential goal of hashing. In this paper,
-Manhattan hashing (MH), which is based on Manhattan distance, is
-proposed to solve the problem of Hamming distance based hashing.
-The basic idea of MH is to encode each projected dimension with
-multiple bits of natural binary code (NBC), based on which the
-Manhattan distance between points in the hashcode space is calculated
-for nearest neighbor search. MH can effectively preserve the
-neighborhood structure in the data to achieve the goal of hashing.
-To the best of our knowledge, this is the first work to adopt Manhattan
-distance with NBC for hashing. Experiments on several largescale
-image data sets containing up to one million points show that
-our MH method can significantly outperform other state-of-the-art
-methods.</p>
+	<td>W. Kong, W. Li</td>
+	<td>AAAI</td>
+	<td><p>Hashing, which tries to learn similarity-preserving binary
+codes for data representation, has been widely
+used for efficient nearest neighbor search in massive
+databases due to its fast query speed and low storage
+cost. Because it is NP hard to directly compute the best
+binary codes for a given data set, mainstream hashing
+methods typically adopt a two-stage strategy. In the
+first stage, several projected dimensions of real values
+are generated. Then in the second stage, the real values
+will be quantized into binary codes by thresholding.
+Currently, most existing methods use one single bit to
+quantize each projected dimension. One problem with
+this single-bit quantization (SBQ) is that the threshold
+typically lies in the region of the highest point density
+and consequently a lot of neighboring points close to
+the threshold will be hashed to totally different bits,
+which is unexpected according to the principle of hashing.
+In this paper, we propose a novel quantization strategy,
+called double-bit quantization (DBQ), to solve the
+problem of SBQ. The basic idea of DBQ is to quantize
+each projected dimension into double bits with adaptively
+learned thresholds. Extensive experiments on two
+real data sets show that our DBQ strategy can signifi-
+cantly outperform traditional SBQ strategy for hashing.</p>
 </td>
 </tr>
 
@@ -3807,40 +3838,52 @@ methods.</p>
 
 <tr>
 	<td>2012</td>
-	<td><a href="/publications/weiss2012multi/">Multidimensional Spectral Hashing</a>
+	<td><a href="/publications/norouzi2012hamming/">Hamming Distance Metric Learning</a>
 		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Multidimensional Spectral Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Multidimensional Spectral Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Multidimensional%20Spectral%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Hamming Distance Metric Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Hamming Distance Metric Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Hamming%20Distance%20Metric%20Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
 		</span>
 	</td>
-	<td>Y. Weiss, R. Fergus, A. Torralba</td>
-	<td>ECCV</td>
-	<td><p>en a surge of interest in methods based on “semantic hashing”,
-i.e. compact binary codes of data-points so that the Hamming distance
-between codewords correlates with similarity. In reviewing and
-comparing existing methods, we show that their relative performance can
-change drastically depending on the definition of ground-truth neighbors.
-Motivated by this finding, we propose a new formulation for learning binary
-codes which seeks to reconstruct the affinity between datapoints,
-rather than their distances. We show that this criterion is intractable
-to solve exactly, but a spectral relaxation gives an algorithm where the
-bits correspond to thresholded eigenvectors of the affinity matrix, and
-as the number of datapoints goes to infinity these eigenvectors converge
-to eigenfunctions of Laplace-Beltrami operators, similar to the recently
-proposed Spectral Hashing (SH) method. Unlike SH whose performance
-may degrade as the number of bits increases, the optimal code using
-our formulation is guaranteed to faithfully reproduce the affinities as
-the number of bits increases. We show that the number of eigenfunctions
-needed may increase exponentially with dimension, but introduce a “kernel
-trick” to allow us to compute with an exponentially large number of
-bits but using only memory and computation that grows linearly with
-dimension. Experiments shows that MDSH outperforms the state-of-the
-art, especially in the challenging regime of small distance thresholds.</p>
+	<td>M. Norouzi, D. Fleet, R. Salakhutdinov</td>
+	<td>NIPS</td>
+	<td><p>Motivated by large-scale multimedia applications we propose to learn mappings
+from high-dimensional data to binary codes that preserve semantic similarity.
+Binary codes are well suited to large-scale applications as they are storage efficient and permit exact sub-linear kNN search. The framework is applicable
+to broad families of mappings, and uses a flexible form of triplet ranking loss.
+We overcome discontinuous optimization of the discrete mappings by minimizing
+a piecewise-smooth upper bound on empirical loss, inspired by latent structural
+SVMs. We develop a new loss-augmented inference algorithm that is quadratic in
+the code length. We show strong retrieval performance on CIFAR-10 and MNIST,
+with promising classification results using no more than kNN on the binary codes.</p>
 </td>
 </tr>
 
 
+
+<tr>
+	<td>2011</td>
+	<td><a href="/publications/gong2011using/">Iterative Quantization: A Procrustean Approach to Learning Binary Codes</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Iterative Quantization: A Procrustean Approach to Learning Binary Codes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Iterative Quantization: A Procrustean Approach to Learning Binary Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Iterative%20Quantization:%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>Y. Gong, S. Lazebnik</td>
+	<td>CVPR</td>
+	<td><p>This paper addresses the problem of learning similarity preserving binary codes for efficient retrieval in large-scale image collections. We propose a simple and efficient alternating minimization scheme for finding a rotation of zerocentered data so as to minimize the quantization error of
+mapping this data to the vertices of a zero-centered binary
+hypercube. This method, dubbed iterative quantization
+(ITQ), has connections to multi-class spectral clustering
+and to the orthogonal Procrustes problem, and it can be
+used both with unsupervised data embeddings such as PCA
+and supervised embeddings such as canonical correlation
+analysis (CCA). Our experiments show that the resulting
+binary coding schemes decisively outperform several other
+state-of-the-art methods.</p>
+</td>
+</tr>
 
 <tr>
 	<td>2011</td>
@@ -3883,36 +3926,6 @@ method.</p>
 
 <tr>
 	<td>2011</td>
-	<td><a href="/publications/kumar2011learning/">Learning hash functions for cross-view similarity search</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Learning hash functions for cross-view similarity search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Learning hash functions for cross-view similarity search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Learning%20hash%20functions%20for%20cross-view%20similarity%20search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>S. Kumar, R. Udupa</td>
-	<td>IJCAI</td>
-	<td><p>Many applications in Multilingual and Multimodal
-Information Access involve searching large
-databases of high dimensional data objects with
-multiple (conditionally independent) views. In this
-work we consider the problem of learning hash
-functions for similarity search across the views
-for such applications. We propose a principled
-method for learning a hash function for each view
-given a set of multiview training data objects. The
-hash functions map similar objects to similar codes
-across the views thus enabling cross-view similarity
-search. We present results from an extensive
-empirical study of the proposed approach
-which demonstrate its effectiveness on Japanese
-language People Search and Multilingual People
-Search problems.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2011</td>
 	<td><a href="/publications/norouzi2011minimal/">Minimal Loss Hashing</a>
 		<span class="externallinks">
 			&nbsp;<a href='http://scholar.google.com/scholar?q=Minimal Loss Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
@@ -3930,30 +3943,6 @@ with latent variables and a hinge-like
 loss function. It is efficient to train for large
 datasets, scales well to large code lengths,
 and outperforms state-of-the-art methods.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2011</td>
-	<td><a href="/publications/gong2011using/">Iterative Quantization: A Procrustean Approach to Learning Binary Codes</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Iterative Quantization: A Procrustean Approach to Learning Binary Codes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Iterative Quantization: A Procrustean Approach to Learning Binary Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Iterative%20Quantization:%20A%20Procrustean%20Approach%20to%20Learning%20Binary%20Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>Y. Gong, S. Lazebnik</td>
-	<td>CVPR</td>
-	<td><p>This paper addresses the problem of learning similarity preserving binary codes for efficient retrieval in large-scale image collections. We propose a simple and efficient alternating minimization scheme for finding a rotation of zerocentered data so as to minimize the quantization error of
-mapping this data to the vertices of a zero-centered binary
-hypercube. This method, dubbed iterative quantization
-(ITQ), has connections to multi-class spectral clustering
-and to the orthogonal Procrustes problem, and it can be
-used both with unsupervised data embeddings such as PCA
-and supervised embeddings such as canonical correlation
-analysis (CCA). Our experiments show that the resulting
-binary coding schemes decisively outperform several other
-state-of-the-art methods.</p>
 </td>
 </tr>
 
@@ -4034,6 +4023,36 @@ performances. Experiments show that our new
 Random Maximum Margin Hashing scheme (RMMH) outperforms
 four state-of-the-art hashing methods, notably in
 kernel spaces.</p>
+</td>
+</tr>
+
+<tr>
+	<td>2011</td>
+	<td><a href="/publications/kumar2011learning/">Learning hash functions for cross-view similarity search</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Learning hash functions for cross-view similarity search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Learning hash functions for cross-view similarity search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Learning%20hash%20functions%20for%20cross-view%20similarity%20search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>S. Kumar, R. Udupa</td>
+	<td>IJCAI</td>
+	<td><p>Many applications in Multilingual and Multimodal
+Information Access involve searching large
+databases of high dimensional data objects with
+multiple (conditionally independent) views. In this
+work we consider the problem of learning hash
+functions for similarity search across the views
+for such applications. We propose a principled
+method for learning a hash function for each view
+given a set of multiview training data objects. The
+hash functions map similar objects to similar codes
+across the views thus enabling cross-view similarity
+search. We present results from an extensive
+empirical study of the proposed approach
+which demonstrate its effectiveness on Japanese
+language People Search and Multilingual People
+Search problems.</p>
 </td>
 </tr>
 
@@ -4140,23 +4159,6 @@ unsupervised methods.</p>
 
 <tr>
 	<td>2010</td>
-	<td><a href="/publications/jain2010hashing/">Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q=Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q=Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq=Hashing%20Hyperplane%20Queries%20to%20Near%20Points%20with%20Applications%20to%20Large-Scale%20Active%20Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>P. Jain, S. Vijayanarasimhan, K. Grauman</td>
-	<td>NIPS</td>
-	<td><p>We consider the problem of retrieving the database points nearest to a given hyperplane query without exhaustively scanning the 
-database. We propose two hashing-based solutions. Our first approach maps the data to two-bit binary keys that are locality-sensitive for the angle between the hyperplane normal and a database point. Our second approach embeds the data into a vector space where the Euclidean norm reflects the desired distance between the original points and hyperplane query. Both use hashing to retrieve near points in sub-linear time. Our first method’s preprocessing stage is more efficient, while the second has stronger accuracy guarantees. We apply both to pool-based active learning: taking the current hyperplane classifier as a query, our algorithm identifies those points (approximately) satisfying the well-known minimal distance-to-hyperplane selection criterion. We empirically demonstrate our methods’ tradeoffs, and show that they make it practical to perform active selection with millions 
-of unlabeled points.</p>
-</td>
-</tr>
-
-<tr>
-	<td>2010</td>
 	<td><a href="/publications/petrovic2010streaming/">Streaming First Story Detection with application to Twitter</a>
 		<span class="externallinks">
 			&nbsp;<a href='http://scholar.google.com/scholar?q=Streaming First Story Detection with application to Twitter' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
@@ -4184,6 +4186,23 @@ retaining comparable performance. Event detection
 experiments on a collection of 160 million
 Twitter posts show that celebrity deaths
 are the fastest spreading news on Twitter.</p>
+</td>
+</tr>
+
+<tr>
+	<td>2010</td>
+	<td><a href="/publications/jain2010hashing/">Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning</a>
+		<span class="externallinks">
+			&nbsp;<a href='http://scholar.google.com/scholar?q=Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+			<a href='https://www.semanticscholar.org/search?q=Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+			<a href='http://academic.microsoft.com/#/search?iq=Hashing%20Hyperplane%20Queries%20to%20Near%20Points%20with%20Applications%20to%20Large-Scale%20Active%20Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+		</span>
+	</td>
+	<td>P. Jain, S. Vijayanarasimhan, K. Grauman</td>
+	<td>NIPS</td>
+	<td><p>We consider the problem of retrieving the database points nearest to a given hyperplane query without exhaustively scanning the 
+database. We propose two hashing-based solutions. Our first approach maps the data to two-bit binary keys that are locality-sensitive for the angle between the hyperplane normal and a database point. Our second approach embeds the data into a vector space where the Euclidean norm reflects the desired distance between the original points and hyperplane query. Both use hashing to retrieve near points in sub-linear time. Our first method’s preprocessing stage is more efficient, while the second has stronger accuracy guarantees. We apply both to pool-based active learning: taking the current hyperplane classifier as a query, our algorithm identifies those points (approximately) satisfying the well-known minimal distance-to-hyperplane selection criterion. We empirically demonstrate our methods’ tradeoffs, and show that they make it practical to perform active selection with millions 
+of unlabeled points.</p>
 </td>
 </tr>
 
