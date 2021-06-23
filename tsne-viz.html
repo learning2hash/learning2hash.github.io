@@ -36,7 +36,7 @@ d3.json("./tsne.json", function(data) {
 
   // Add Y axisB
   var y = d3.scaleLinear()
-    .domain([-11, 11])
+    .domain([-10, 10])
     .range([height, 0]);
 
   // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
