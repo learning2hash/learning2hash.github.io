@@ -7,7 +7,7 @@ description: How to contribute to this website.
 
 Contributions of new or missing publications are very welcome. Alternative categorization/taxonomies can also be added to the website. To contribute, fill in the form below:
 
-<form accept-charset="UTF-8" action="https://formkeep.com/f/exampletoken" method="POST">
+<form action="https://formkeep.com/f/f653e6347d44" accept-charset="UTF-8" enctype="multipart/form-data"  method="POST">
   <input type="Title" name="email" placeholder="Paper Title"><br>
   <input type="Authors" name="name" placeholder="Paper Authors"><br>
   <input type="Conference" name="utf8" placeholder="Conference Name"><br>
