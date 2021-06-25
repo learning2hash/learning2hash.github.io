@@ -8,6 +8,7 @@ description: How to contribute to this website.
 Contributions of new or missing publications are very welcome. To contribute, simply fill in the form below and your paper will appear in front of **thousands** of researchers in the field:
 
 <form action="https://formkeep.com/f/f653e6347d44" accept-charset="UTF-8" enctype="multipart/form-data"  method="POST">
+  <input type="text" name="email"  style="width: 700px;" placeholder="Your Email Address"><br>
   <input type="text" name="title"  style="width: 700px;" placeholder="Paper Title"><br>
   <input type="text" name="authors"  style="width: 700px;" placeholder="Paper Authors"><br>
   <input type="text" name="conference"  style="width: 700px;" placeholder="Conference Name"><br>
