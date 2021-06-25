@@ -12,9 +12,9 @@ Contributions of new or missing publications are very welcome. To contribute, si
   <input type="Authors" name="authors" placeholder="Paper Authors"><br>
   <input type="Conference" name="conference" placeholder="Conference Name"><br>
   <input type="Date" name="date" placeholder="Date"><br>
-  <input type="Paper URL" name="paper" size="50" placeholder="Link to paper PDF"><br>
+  <input type="Paper URL" name="paper" width="100" placeholder="Link to paper PDF"><br>
   <input type="Code URL" name="code" placeholder="Link to code (e.g. Github)"><br>
-  <input type="Paper Abstract" name="abstract" placeholder="Paper Abstract"><br>
+  <input type="Paper Abstract" name="abstract" width="100" height="100" placeholder="Paper Abstract"><br>
   <button type="submit">Submit</button>
 </form>
 
