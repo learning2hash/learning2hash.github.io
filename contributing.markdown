@@ -14,7 +14,7 @@ Contributions of new or missing publications are very welcome. To contribute, si
     <input type="text" name="date" placeholder="Year"><br>
   <input type="text" name="paper" width="100" placeholder="Link to paper PDF"><br>
   <input type="text" name="code" placeholder="Link to code (e.g. Github)"><br>
-  <input type="text" name="abstract" height: 40px width:280px placeholder="Paper Abstract"><br>
+  <input type="text" name="abstract" style="height: 40px; width:280px;" placeholder="Paper Abstract"><br>
   <button type="submit">Submit</button>
 </form>
 
