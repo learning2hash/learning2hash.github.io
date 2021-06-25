@@ -5,7 +5,7 @@ description: How to contribute to this website.
 ---
 ### Adding a publication
 
-Contributions of new or missing publications are very welcome. Alternative categorization/taxonomies can also be added to the website. To contribute, fill in the form below:
+Contributions of new or missing publications are very welcome. To contribute, simply fill in the form below and your paper will appear to thousands of researchers in the field:
 
 <form action="https://formkeep.com/f/f653e6347d44" accept-charset="UTF-8" enctype="multipart/form-data"  method="POST">
   <input type="Title" name="email" placeholder="Paper Title"><br>
