@@ -8,7 +8,7 @@ title: Unsupervised Hashing Models
 
 {% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="patternModelTable">
-<thead><th>Name</th><th>Architecture</th><th>Optimisation</th></thead>
+<thead><th>Name</th><th>Architecture</th></thead>
 <tbody>
 {% for publication in publicationsList %}{% if publication.categories contains "unsupervised" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
@@ -16,7 +16,6 @@ title: Unsupervised Hashing Models
       <tr>
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> {{pubDetails[0].title}}</td>
           <td>{{publication.type}}</td>
-          <td>{{publication.optimisation}}</td>
       </tr>
 {% endif %}{% endfor %}
 </tbody></table>
