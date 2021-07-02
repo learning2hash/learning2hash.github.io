@@ -7,7 +7,8 @@ year: 2021
 bibkey: chen2021long
 additional_links:
    - {name: "PDF", url: "https://zhouchenlin.github.io/Publications/2021-SIGIR-Hashing.pdf"}
-tags: ["SIGIR", "Image Retrieval"]
+   - {name: "Code", url: "https://github.com/butterfly-chinese/long-tail-hashing"}
+tags: ["SIGIR", "Image Retrieval", "Has Code"]
 ---
 Hashing, which represents data items as compact binary codes, has
 been becoming a more and more popular technique, e.g., for large-scale image retrieval, owing to its super fast search speed as well
