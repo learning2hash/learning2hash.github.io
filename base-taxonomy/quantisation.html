@@ -11,13 +11,12 @@ value which is then subsequently quantised into binary (0/1) by thresholding. Th
 
 {% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="reprModelTable">
-<thead><th>Paper</th><th>Optimisation</th><th>Learning Type</th></thead><tbody>
+<thead><th>Paper</th><th>Learning Type</th></thead><tbody>
 {% for publication in publicationsList %}{% if publication.categories contains "quantisation" %}
     {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
     
       <tr>
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a>{{pubDetails[0].title}}</td>
-          <td>{{publication.optimisation}}</td>
           <td>{{publication.type}}</td>
       </tr>
 {% endif %}{% endfor %}
