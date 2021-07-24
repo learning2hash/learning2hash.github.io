@@ -12,7 +12,7 @@ Please, feel free to add your name below, once you contribute to this
 website.
 
 * [Fatih Cakir](http://cs-people.bu.edu/fcakir/)
-* Contributor 2
+* [Yong Chen](https://zero-lab-pku.github.io/personwise/chenyong/)
 
 
 ### Acknowledgements
