@@ -4,7 +4,7 @@ title: Contributors
 ---
 The core survey and the original taxonomy was created by
 
-* [Sean Moran](http://www.seanjmoran.com)
+* [Sean Moran](https://sjmoran.github.io/)
 
 #### External Contributors
 This website accepts external [contributions](/contributing.html).
