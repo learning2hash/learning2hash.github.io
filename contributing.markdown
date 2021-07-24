@@ -20,5 +20,5 @@ Contributions of new or missing publications are very welcome. To contribute, si
 </form>
 
 ### Reusing the website structure
-This website has been forked from the original living literature review of [Allamanis](https://ml4code.github.io/). The structure of this website can be used for other literature reviews. Feel free to clone it!
+The structure of this website can be used for other literature reviews. Feel free to clone it!
 
