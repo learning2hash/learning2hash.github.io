@@ -18,7 +18,3 @@ Contributions of new or missing publications are very welcome. To contribute, si
   <input type="text" name="abstract" style="height: 300px; width:700px;" placeholder="Paper Abstract"><br>
   <button type="submit">Submit</button>
 </form>
-
-### Reusing the website structure
-The structure of this website can be used for other literature reviews. Feel free to clone it!
-
