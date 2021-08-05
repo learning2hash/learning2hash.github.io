@@ -18,3 +18,5 @@ Contributions of new or missing publications are very welcome. To contribute, si
   <input type="text" name="abstract" style="height: 300px; width:700px;" placeholder="Paper Abstract"><br>
   <button type="submit">Submit</button>
 </form>
+
+This site is supported on a voluntary effort. If you found this site useful for your work please consider [buying me coffee](https://www.buymeacoffee.com/sjmoran)
