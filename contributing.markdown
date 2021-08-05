@@ -19,4 +19,6 @@ Contributions of new or missing publications are very welcome. To contribute, si
   <button type="submit">Submit</button>
 </form>
 
-This site is supported on a voluntary effort. If you found this site useful for your work please consider [buying me coffee](https://www.buymeacoffee.com/sjmoran)
+This site is supported on a voluntary effort. If you found this site useful for your research please consider a [digital pat on the back](https://www.buymeacoffee.com/sjmoran)
+
+<script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="sjmoran" data-color="#5F7FFF" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#ffffff" data-coffee-color="#FFDD00" ></script>
