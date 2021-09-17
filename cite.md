@@ -23,5 +23,3 @@ You can also cite this website directly with the following BibTeX:
       howpublished = {\url{https://learning2hash.github.io}}
       year = {2017}}
 </pre>
-
-This site is supported on a voluntary effort. If you found this site useful for your research please also consider a [digital pat on the back](https://www.buymeacoffee.com/sjmoran).
