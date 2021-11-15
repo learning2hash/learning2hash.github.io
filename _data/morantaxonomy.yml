@@ -13,6 +13,7 @@
 - {bibkey: shi2019variable, categories: [quantisation],  type: Unsupervised}
 - {bibkey: li2019push, categories: [quantisation], type: Supervised}
 - {bibkey: cao2020learning, categories: [quantisation], type: Unsupervised}
+- {bibkey: hemati2021pattern, categories: [quantisation], type: Unsupervised}
 
 # Supervised Projection Models
 - {bibkey: chen2020enhanced, categories: [supervised], type: Deep, modality: Unimodal }
