@@ -16,6 +16,7 @@ website.
 * [Daniel Beaglehole](https://scholar.google.com/citations?user=wO-FY_4AAAAJ&hl=en)
 * [Yunqiang Li](https://scholar.google.com/citations?user=qrGix2AAAAAJ&hl=en)
 * [Sobhan Hemati](https://scholar.google.com/citations?user=5qtzx8cAAAAJ&hl=en)
+* [Aditya Kusupati](https://homes.cs.washington.edu/~kusupati/)
 
 ### Acknowledgements
 
