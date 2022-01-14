@@ -132,6 +132,7 @@
 - {bibkey: cui2020exchnet, categories: [supervised],  type: Deep, modality: Unimodal}
 
 # Datasets
+- {bibkey: bigann, categories: [dataset], name: BIGANN, modality: Image, size: 1 Billion, features: 128 dimensional SIFT}
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
 - {bibkey: cifar2009learning, categories: [dataset], name: CIFAR10, modality: Image, size: 60000, features: (512 dimensional GIST)}
 - {bibkey: labelme2007labelme, categories: [dataset], name: LabelMe, modality: Image, size: 22019, features: 512 dimensional GIST}
