@@ -2,6 +2,7 @@ import argparse
 import json
 import nltk
 
+nltk.download('omw-1.4')
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('punkt')
@@ -10,7 +11,6 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from gensim.corpora import Dictionary
 from gensim.models import LdaModel
-
 
 
 def parse_arguments():
