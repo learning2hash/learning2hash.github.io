@@ -45,6 +45,11 @@ The reader is encouraged to further explore the following survey publications:
 * [SIFT 1M Features (.mat format)](https://www.dropbox.com/s/29f6r7pqevfy2ck/sift1m.mat?dl=0)
 * [20 Newsgroups (.mat format)](https://www.dropbox.com/s/wql7m8wuvn9efhj/20Newsgroups.mat?dl=0)
 * [TDT2 (.mat format)](https://www.dropbox.com/s/qasz8z3sr1pjqog/TDT2.mat?dl=0)
+* [BIGANN](http://corpus-texmex.irisa.fr/) consists of SIFT descriptors applied to images from extracted from a large image dataset.
+* [Facebook SimSearchNet++](https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/FB_ssnpp_database.u8bin)
+* [Microsoft SPACEV-1B](https://github.com/microsoft/SPTAG/tree/master/datasets/SPACEV1B)
+* [Yandex DEEP-1B](https://research.yandex.com/datasets/biganns)
+* [Yandex Text-to-Image-1B](https://research.yandex.com/datasets/biganns)
 
 ### Courses
 A few university courses are been taught covering aspects of machine of efficient computing. Below there are a few that have publicly available material:
