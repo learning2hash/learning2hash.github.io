@@ -151,6 +151,7 @@
 - {bibkey: mirflickr2008new, categories: [dataset], name: MIR-FLICKR25K, modality: Image/Text, size: 25000, features: RGB pixels (image) - 38 categories 1386 tags (text)}
 
 # Unsupervised Projection Models
+- {bibkey: yu2021deep, categories: [unsupervised], type: Deep, modality: Cross-Modal }
 - {bibkey: pauleve2010locality, categories: [unsupervised], type: Shallow, modality: Unimodal }
 - {bibkey: li2021deep, categories: [unsupervised], type: Deep, modality: Unimodal }
 - {bibkey: andoni2021learning, categories: [unsupervised], type: Shallow, modality: Unimodal }
