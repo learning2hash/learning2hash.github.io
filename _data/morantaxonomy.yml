@@ -134,9 +134,9 @@
 
 # Datasets
 - {bibkey: yandextexttoimage1B, categories: [dataset], name: Yandex Text-to-Image-1B, modality: Image/Text, size: 1 Billion, features: 200 dimensional Se-ResNext-101}
-- {bibkey: yandexdeep1b, categories: [dataset], name: Yandex DEEP-1B, modality: Image, size: 1 Billion, features: 96 dimensional GoogLeNet}
-- {bibkey: microsoftspacev, categories: [dataset], name: Microsoft SPACEV, modality: Image, size: 1 Billion, features: 100 dimensional deep learning}
-- {bibkey: microsoftturinganns, categories: [dataset], name: Microsoft Turing-ANNS, modality: Image, size: 1 Billion, features: 100 dimensional Transformer}
+- {bibkey: yandexdeep1B, categories: [dataset], name: Yandex DEEP-1B, modality: Image, size: 1 Billion, features: 96 dimensional GoogLeNet}
+- {bibkey: microsoftspacev1B, categories: [dataset], name: Microsoft SPACEV, modality: Image, size: 1 Billion, features: 100 dimensional deep learning}
+- {bibkey: microsoftturinganns1B, categories: [dataset], name: Microsoft Turing-ANNS, modality: Image, size: 1 Billion, features: 100 dimensional Transformer}
 - {bibkey: facebooksimsearchnet, categories: [dataset], name: Facebook SimSearchNet++, modality: Image, size: 1 Billion, features: 256 dimensional CNN}
 - {bibkey: bigann, categories: [dataset], name: BIGANN, modality: Image, size: 1 Billion, features: 128 dimensional SIFT}
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
