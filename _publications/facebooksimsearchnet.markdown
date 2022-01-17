@@ -1,12 +1,13 @@
 ---
 layout: publication
 title: "Facebook SimSearchNet++"
-authors: Herve Jegou
+authors: Facebook/Meta
 conference: NeurIPS
 year: 2021
 bibkey: facebooksimsearchnet
 additional_links:
    - {name: "URL", url: "https://ai.facebook.com/blog/using-ai-to-detect-covid-19-misinformation-and-exploitative-content"}
+   - {name: "Blog", url: "https://big-ann-benchmarks.com/"}
    - {name: "Features", url: "https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/FB_ssnpp_database.u8bin"}
 tags: ["Dataset"]
 ---
