@@ -18,7 +18,7 @@ def parse_arguments():
 
     parser.add_argument("json", default=False, help="the path the json containing all papers.")
     parser.add_argument("outpath", default=False, help="the target path of the visualizations papers.")
-    parser.add_argument("--num-topics", default=20, help="The number of topics.", type=int)
+    parser.add_argument("--num-topics", default=10, help="The number of topics.", type=int)
     return parser.parse_args()
 
 if __name__ == "__main__":
