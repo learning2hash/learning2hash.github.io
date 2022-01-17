@@ -4,7 +4,7 @@ title: "Microsoft SPACEV-1B"
 authors: Microsoft
 conference: NeurIPS
 year: 2021
-bibkey: microsoftspacev1b
+bibkey: microsoftspacev1B
 additional_links:
    - {name: "URL", url: "https://github.com/microsoft/SPTAG/tree/main/datasets/SPACEV1B"}
    - {name: "Blog", url: "https://big-ann-benchmarks.com/"}
