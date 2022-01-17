@@ -133,9 +133,14 @@
 - {bibkey: cui2020exchnet, categories: [supervised],  type: Deep, modality: Unimodal}
 
 # Datasets
+- {bibkey: yandextexttoimage1B, categories: [dataset], name: Yandex Text-to-Image-1B, modality: Image/Text, size: 1 Billion, features: 200 dimensional Se-ResNext-101}
+- {bibkey: yandexdeep1b, categories: [dataset], name: Yandex DEEP-1B, modality: Image, size: 1 Billion, features: 96 dimensional GoogLeNet}
+- {bibkey: microsoftspacev, categories: [dataset], name: Microsoft SPACEV, modality: Image, size: 1 Billion, features: 100 dimensional deep learning}
+- {bibkey: microsoftturinganns, categories: [dataset], name: Microsoft Turing-ANNS, modality: Image, size: 1 Billion, features: 100 dimensional Transformer}
+- {bibkey: facebooksimsearchnet, categories: [dataset], name: Facebook SimSearchNet++, modality: Image, size: 1 Billion, features: 256 dimensional CNN}
 - {bibkey: bigann, categories: [dataset], name: BIGANN, modality: Image, size: 1 Billion, features: 128 dimensional SIFT}
 - {bibkey: imagenet2009using, categories: [dataset], name: ImageNet, modality: Image, size: 1331167, features: 4096 dimensional CNN}
-- {bibkey: cifar2009learning, categories: [dataset], name: CIFAR10, modality: Image, size: 60000, features: (512 dimensional GIST)}
+- {bibkey: cifar2009learning, categories: [dataset], name: CIFAR10, modality: Image, size: 60000, features: 512 dimensional GIST}
 - {bibkey: labelme2007labelme, categories: [dataset], name: LabelMe, modality: Image, size: 22019, features: 512 dimensional GIST}
 - {bibkey: mnist1999mnist, categories: [dataset], name: MNIST, modality: Image, size: 70000, features: Grayscale Pixels}
 - {bibkey: sift1m2009searching, categories: [dataset], name: SIFT1M, modality: Image, size: 1000000, features: SIFT}
