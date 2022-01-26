@@ -18,7 +18,7 @@ comments: true
 
 ### The Field of Learning to Hash
 
-This website exists to help researchers learn about, share and more easily discover recent work in the field of learning to hash. Awesome learning to hash is a *living literature review* that allows the reader to explore models in the field following a [taxonomy](\base-taxonomy) based on model properties. New models can be added to this website by anyone simply by making a GitHub pull request [see *Contributing* below](contributing.html). Select ["All Papers"](https://learning2hash.github.io/papers.html) on the right-hand menu to get started.
+This website exists to help researchers learn about, share and more easily discover recent work in the field of learning to hash. Awesome learning to hash is a *living literature review* that allows the reader to explore models in the field following a [taxonomy](\base-taxonomy) based on model properties. New models can be added to this website by anyone simply by filling out a form [see *Contributing* below](contributing.html). Select ["All Papers"](https://learning2hash.github.io/papers.html) on the right-hand menu to get started.
 
 ### Background
 
@@ -34,9 +34,9 @@ This website exists to help researchers learn about, share and more easily disco
 * [Image Retrieval](https://ai.google/research/pubs/pub34634): Google applies locality sensitive hashing (LSH) alongside [PageRank](https://en.wikipedia.org/wiki/PageRank) to index planet-scale collections of images.
 * [Malware Detection](https://media.kaspersky.com/en/enterprise-security/Kaspersky-Lab-Whitepaper-Machine-Learning.pdf): Developers of anti-viral software use hashcode learning models to quickly match a possibly malign code snippet to a database of known viruses.
 
-A simple way of finding similar data-points would simply be to search through the entire dataset comparing each database data-point to the query data-point, a method known as brute-force search. Unfortunately, for most datasets of practical interest this brute-force search (O(N)) is too computationally demanding (excessive compute time) and more efficient search methods are required.
+A simple way of finding similar data-points would simply be to search through the entire dataset comparing each database data-point to the query data-point, a method known as brute-force search. Unfortunately, for most datasets of practical interest this brute-force search is too computationally demanding (excessive compute time) and more efficient search methods are required.
 
-[Learning2hash](https://learning2hash.github.io/papers.html) provides a set of curated, community-driven links to a host of *approximate nearest neighbour search* (ANN) models that permit sublinear-time (O(log N), where N are the number of data-points in the dataset) retrieval of nearest neighbours. Hashing models work by generating similar binary hashcodes for semantically similar data-points (illustrated by the diagram below). These similarity preserving hashcodes can then be used to index the data-points (images, documents etc) into the buckets of hashtables. Similar data-points should ideally end up in the same bucket of the hash table if we happen to have an effective hash function. This whole process is illustrated in the diagram below:
+[Learning2hash](https://learning2hash.github.io/papers.html) provides a set of curated, community-driven links to a host of *approximate nearest neighbour search* (ANN) models that permit sublinear-time retrieval of nearest neighbours. Hashing models work by generating similar binary hashcodes for semantically similar data-points (illustrated by the diagram below). These similarity preserving hashcodes can then be used to index the data-points (images, documents etc) into the buckets of hashtables. Similar data-points should ideally end up in the same bucket of the hash table if we happen to have an effective hash function. This whole process is illustrated in the diagram below:
 
 ![Locality Sensitive Hashing (LSH)](/public/media/hashing.png?raw=true "Locality Sensitive 
 Hashing (LSH)")
@@ -55,6 +55,6 @@ Learning to hash is rapidly evolving. The purpose of this website is to augment 
 
 This site is supported on a voluntary effort. If you found this site useful for your research please consider a [digital pat on the back](https://www.buymeacoffee.com/sjmoran).
 
-Copyright © [Sean Moran](https://sjmoran.github.io/) 2020. All opinions are my own.
+Copyright © [Sean Moran](https://sjmoran.github.io/) 2022. All opinions are my own.
 
 
