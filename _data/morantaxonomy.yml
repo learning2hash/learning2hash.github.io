@@ -16,6 +16,7 @@
 - {bibkey: hemati2021pattern, categories: [quantisation], type: Unsupervised}
 
 # Supervised Projection Models
+- {bibkey: fan2020deep, categories: [supervised], type: Deep, modality: Unimodal }
 - {bibkey: wei2021anet, categories: [supervised], type: Deep, modality: Unimodal }
 - {bibkey: hoe2021loss, categories: [supervised], type: Deep, modality: Unimodal }
 - {bibkey: kusupati2021accurate, categories: [supervised], type: Deep, modality: Unimodal }
