@@ -50,11 +50,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/mukherjee2015nmf/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-03-30T05:42:26-05:00" />
+<meta property="article:published_time" content="2022-04-14T06:36:25-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="An NMF perspective on Binary Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-03-30T05:42:26-05:00","datePublished":"2022-03-30T05:42:26-05:00","description":"The pervasiveness of massive data repositories has led to much interest in efficient methods for indexing, search, and retrieval. For image data, a rapidly developing body of work for these applications shows impressive performance with methods that broadly fall under the umbrella term of Binary Hashing. Given a distance matrix, a binary hashing algorithm solves for a binary code for the given set of examples, whose Hamming distance nicely approximates the original distances. The formulation is non-convex — so existing solutions adopt spectral relaxations or perform coordinate descent (or quantization) on a surrogate objective that is numerically more tractable. In this paper, we first derive an Augmented Lagrangian approach to optimize the standard binary Hashing objective (i.e., maintain fidelity with a given distance matrix). With appropriate step sizes, we find that this scheme already yields results that match or substantially outperform state of the art methods on most benchmarks used in the literature. Then, to allow the model to scale to large datasets, we obtain an interesting reformulation of the binary hashing objective as a non-negative matrix factorization. Later, this leads to a simple multiplicative updates algorithm — whose parallelization properties are exploited to obtain a fast GPU based implementation. We give a probabilistic analysis of our initialization scheme and present a range of experiments to show that the method is simple to implement and competes favorably with available methods (both for optimization and generalization).","headline":"An NMF perspective on Binary Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mukherjee2015nmf/"},"url":"https://learning2hash.github.io/publications/mukherjee2015nmf/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-04-14T06:36:25-05:00","datePublished":"2022-04-14T06:36:25-05:00","description":"The pervasiveness of massive data repositories has led to much interest in efficient methods for indexing, search, and retrieval. For image data, a rapidly developing body of work for these applications shows impressive performance with methods that broadly fall under the umbrella term of Binary Hashing. Given a distance matrix, a binary hashing algorithm solves for a binary code for the given set of examples, whose Hamming distance nicely approximates the original distances. The formulation is non-convex — so existing solutions adopt spectral relaxations or perform coordinate descent (or quantization) on a surrogate objective that is numerically more tractable. In this paper, we first derive an Augmented Lagrangian approach to optimize the standard binary Hashing objective (i.e., maintain fidelity with a given distance matrix). With appropriate step sizes, we find that this scheme already yields results that match or substantially outperform state of the art methods on most benchmarks used in the literature. Then, to allow the model to scale to large datasets, we obtain an interesting reformulation of the binary hashing objective as a non-negative matrix factorization. Later, this leads to a simple multiplicative updates algorithm — whose parallelization properties are exploited to obtain a fast GPU based implementation. We give a probabilistic analysis of our initialization scheme and present a range of experiments to show that the method is simple to implement and competes favorably with available methods (both for optimization and generalization).","headline":"An NMF perspective on Binary Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mukherjee2015nmf/"},"url":"https://learning2hash.github.io/publications/mukherjee2015nmf/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -145,15 +145,12 @@ function search() {
     
     &nbsp;<a href='http://scholar.google.com/scholar?q=An NMF perspective on Binary Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
     &nbsp;<a href='https://www.semanticscholar.org/search?q=An NMF perspective on Binary Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-    &nbsp;<a href='http://academic.microsoft.com/#/search?iq=An%20NMF%20perspective%20on%20Binary%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-  <br/>
-  
+    <br/>
+    
       <tag><a href="/tags.html#ICCV">ICCV</a></tag>
     
-      
-</p>    
-      
-      <p><p>The pervasiveness of massive data repositories has led
+  </p>
+  <p><p>The pervasiveness of massive data repositories has led
 to much interest in efficient methods for indexing, search,
 and retrieval. For image data, a rapidly developing body of
 work for these applications shows impressive performance
@@ -175,6 +172,28 @@ and present a range of experiments to show that the method
 is simple to implement and competes favorably with available methods (both for optimization and generalization).</p>
 
 </p>
+
+  <h6>Similar Work</h6>
+  <p>
+    <ul id="relwork">
+
+    </ul>
+  </p>
+
+  <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/mukherjee2015nmf.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
+      });
+  </script>
+
 </div>
 
     </div>

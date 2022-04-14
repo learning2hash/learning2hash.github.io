@@ -50,11 +50,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/kang2016columnsample/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-03-30T05:42:26-05:00" />
+<meta property="article:published_time" content="2022-04-14T06:36:25-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Column Sampling Based Discrete Supervised Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-03-30T05:42:26-05:00","datePublished":"2022-03-30T05:42:26-05:00","description":"By leveraging semantic (label) information, supervised hashing has demonstrated better accuracy than unsupervised hashing in many real applications. Because the hashing-code learning problem is essentially a discrete optimization problem which is hard to solve, most existing supervised hashing methods try to solve a relaxed continuous optimization problem by dropping the discrete constraints. However, these methods typically suffer from poor performance due to the errors caused by the relaxation. Some other methods try to directly solve the discrete optimization problem. However, they are typically time-consuming and unscalable. In this paper, we propose a novel method, called column sampling based discrete supervised hashing (COSDISH), to directly learn the discrete hashing code from semantic information. COSDISH is an iterative method, in each iteration of which several columns are sampled from the semantic similarity matrix and then the hashing code is decomposed into two parts which can be alternately optimized in a discrete way. Theoretical analysis shows that the learning (optimization) algorithm of COSDISH has a constant-approximation bound in each step of the alternating optimization procedure. Empirical results on datasets with semantic labels illustrate that COSDISH can outperform the state-of-the-art methods in real applications like image retrieval.","headline":"Column Sampling Based Discrete Supervised Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kang2016columnsample/"},"url":"https://learning2hash.github.io/publications/kang2016columnsample/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-04-14T06:36:25-05:00","datePublished":"2022-04-14T06:36:25-05:00","description":"By leveraging semantic (label) information, supervised hashing has demonstrated better accuracy than unsupervised hashing in many real applications. Because the hashing-code learning problem is essentially a discrete optimization problem which is hard to solve, most existing supervised hashing methods try to solve a relaxed continuous optimization problem by dropping the discrete constraints. However, these methods typically suffer from poor performance due to the errors caused by the relaxation. Some other methods try to directly solve the discrete optimization problem. However, they are typically time-consuming and unscalable. In this paper, we propose a novel method, called column sampling based discrete supervised hashing (COSDISH), to directly learn the discrete hashing code from semantic information. COSDISH is an iterative method, in each iteration of which several columns are sampled from the semantic similarity matrix and then the hashing code is decomposed into two parts which can be alternately optimized in a discrete way. Theoretical analysis shows that the learning (optimization) algorithm of COSDISH has a constant-approximation bound in each step of the alternating optimization procedure. Empirical results on datasets with semantic labels illustrate that COSDISH can outperform the state-of-the-art methods in real applications like image retrieval.","headline":"Column Sampling Based Discrete Supervised Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kang2016columnsample/"},"url":"https://learning2hash.github.io/publications/kang2016columnsample/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -147,20 +147,39 @@ function search() {
     
     &nbsp;<a href='http://scholar.google.com/scholar?q=Column Sampling Based Discrete Supervised Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
     &nbsp;<a href='https://www.semanticscholar.org/search?q=Column Sampling Based Discrete Supervised Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-    &nbsp;<a href='http://academic.microsoft.com/#/search?iq=Column%20Sampling%20Based%20Discrete%20Supervised%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-  <br/>
-  
+    <br/>
+    
       <tag><a href="/tags.html#AAAI">AAAI</a></tag>
     
       <tag><a href="/tags.html#Supervised">Supervised</a></tag>
     
-      
-</p>    
-      
-      <p><p>By leveraging semantic (label) information, supervised hashing has demonstrated better accuracy than unsupervised hashing in many real applications. Because the hashing-code learning problem is essentially a discrete optimization problem which is hard to solve, most existing supervised hashing methods try to solve a relaxed continuous optimization problem by dropping the discrete constraints.
+  </p>
+  <p><p>By leveraging semantic (label) information, supervised hashing has demonstrated better accuracy than unsupervised hashing in many real applications. Because the hashing-code learning problem is essentially a discrete optimization problem which is hard to solve, most existing supervised hashing methods try to solve a relaxed continuous optimization problem by dropping the discrete constraints.
 However, these methods typically suffer from poor performance due to the errors caused by the relaxation. Some other methods try to directly solve the discrete optimization problem. However, they are typically time-consuming and unscalable. In this paper, we propose a novel method, called column sampling based discrete supervised hashing (COSDISH), to directly learn the discrete hashing code from semantic information.
 COSDISH is an iterative method, in each iteration of which several columns are sampled from the semantic similarity matrix and then the hashing code is decomposed into two parts which can be alternately optimized in a discrete way. Theoretical analysis shows that the learning (optimization) algorithm of COSDISH has a constant-approximation bound in each step of the alternating optimization procedure. Empirical results on datasets with semantic labels illustrate that COSDISH can outperform the state-of-the-art methods in real applications like image retrieval.</p>
 </p>
+
+  <h6>Similar Work</h6>
+  <p>
+    <ul id="relwork">
+
+    </ul>
+  </p>
+
+  <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/kang2016columnsample.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
+      });
+  </script>
+
 </div>
 
     </div>

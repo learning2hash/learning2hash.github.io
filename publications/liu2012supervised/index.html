@@ -50,11 +50,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2012supervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-03-30T05:42:26-05:00" />
+<meta property="article:published_time" content="2022-04-14T06:36:25-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Supervised Hashing with Kernels" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-03-30T05:42:26-05:00","datePublished":"2022-03-30T05:42:26-05:00","description":"Recent years have witnessed the growing popularity of hashing in large-scale vision problems. It has been shown that the hashing quality could be boosted by leveraging supervised information into hash function learning. However, the existing supervised methods either lack adequate performance or often incur cumbersome model training. In this paper, we propose a novel kernel-based supervised hashing model which requires a limited amount of supervised information, i.e., similar and dissimilar data pairs, and a feasible training cost in achieving high quality hashing. The idea is to map the data to compact binary codes whose Hamming distances are minimized on similar pairs and simultaneously maximized on dissimilar pairs. Our approach is distinct from prior works by utilizing the equivalence between optimizing the code inner products and the Hamming distances. This enables us to sequentially and efficiently train the hash functions one bit at a time, yielding very short yet discriminative codes. We carry out extensive experiments on two image benchmarks with up to one million samples, demonstrating that our approach significantly outperforms the state-of-the-arts in searching both metric distance neighbors and semantically similar neighbors, with accuracy gains ranging from 13% to 46%.","headline":"Supervised Hashing with Kernels","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2012supervised/"},"url":"https://learning2hash.github.io/publications/liu2012supervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-04-14T06:36:25-05:00","datePublished":"2022-04-14T06:36:25-05:00","description":"Recent years have witnessed the growing popularity of hashing in large-scale vision problems. It has been shown that the hashing quality could be boosted by leveraging supervised information into hash function learning. However, the existing supervised methods either lack adequate performance or often incur cumbersome model training. In this paper, we propose a novel kernel-based supervised hashing model which requires a limited amount of supervised information, i.e., similar and dissimilar data pairs, and a feasible training cost in achieving high quality hashing. The idea is to map the data to compact binary codes whose Hamming distances are minimized on similar pairs and simultaneously maximized on dissimilar pairs. Our approach is distinct from prior works by utilizing the equivalence between optimizing the code inner products and the Hamming distances. This enables us to sequentially and efficiently train the hash functions one bit at a time, yielding very short yet discriminative codes. We carry out extensive experiments on two image benchmarks with up to one million samples, demonstrating that our approach significantly outperforms the state-of-the-arts in searching both metric distance neighbors and semantically similar neighbors, with accuracy gains ranging from 13% to 46%.","headline":"Supervised Hashing with Kernels","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2012supervised/"},"url":"https://learning2hash.github.io/publications/liu2012supervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -147,13 +147,10 @@ function search() {
     
     &nbsp;<a href='http://scholar.google.com/scholar?q=Supervised Hashing with Kernels' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
     &nbsp;<a href='https://www.semanticscholar.org/search?q=Supervised Hashing with Kernels' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-    &nbsp;<a href='http://academic.microsoft.com/#/search?iq=Supervised%20Hashing%20with%20Kernels' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-  <br/>
-  
-      
-</p>    
-      
-      <p><p>Recent years have witnessed the growing popularity of
+    <br/>
+    
+  </p>
+  <p><p>Recent years have witnessed the growing popularity of
 hashing in large-scale vision problems. It has been shown
 that the hashing quality could be boosted by leveraging supervised
 information into hash function learning. However,
@@ -177,6 +174,28 @@ the state-of-the-arts in searching both metric distance
 neighbors and semantically similar neighbors, with
 accuracy gains ranging from 13% to 46%.</p>
 </p>
+
+  <h6>Similar Work</h6>
+  <p>
+    <ul id="relwork">
+
+    </ul>
+  </p>
+
+  <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/liu2012supervised.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
+      });
+  </script>
+
 </div>
 
     </div>

@@ -50,11 +50,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhu2016deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2022-03-30T05:42:26-05:00" />
+<meta property="article:published_time" content="2022-04-14T06:36:25-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Hashing Network for Efficient Similarity Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-03-30T05:42:26-05:00","datePublished":"2022-03-30T05:42:26-05:00","description":"Due to the storage and retrieval efficiency, hashing has been widely deployed to approximate nearest neighbor search for large-scale multimedia retrieval. Supervised hashing, which improves the quality of hash coding by exploiting the semantic similarity on data pairs, has received increasing attention recently. For most existing supervised hashing methods for image retrieval, an image is first represented as a vector of hand-crafted or machine-learned features, followed by another separate quantization step that generates binary codes. However, suboptimal hash coding may be produced, because the quantization error is not statistically minimized and the feature representation is not optimally compatible with the binary coding. In this paper, we propose a novel Deep Hashing Network (DHN) architecture for supervised hashing, in which we jointly learn good image representation tailored to hash coding and formally control the quantization error. The DHN model constitutes four key components: (1) a sub-network with multiple convolution-pooling layers to capture image representations; (2) a fully-connected hashing layer to generate compact binary hash codes; (3) a pairwise cross-entropy loss layer for similarity-preserving learning; and (4) a pairwise quantization loss for controlling hashing quality. Extensive experiments on standard image retrieval datasets show the proposed DHN model yields substantial boosts over latest state-of-the-art hashing methods.","headline":"Deep Hashing Network for Efficient Similarity Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2016deep/"},"url":"https://learning2hash.github.io/publications/zhu2016deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-04-14T06:36:25-05:00","datePublished":"2022-04-14T06:36:25-05:00","description":"Due to the storage and retrieval efficiency, hashing has been widely deployed to approximate nearest neighbor search for large-scale multimedia retrieval. Supervised hashing, which improves the quality of hash coding by exploiting the semantic similarity on data pairs, has received increasing attention recently. For most existing supervised hashing methods for image retrieval, an image is first represented as a vector of hand-crafted or machine-learned features, followed by another separate quantization step that generates binary codes. However, suboptimal hash coding may be produced, because the quantization error is not statistically minimized and the feature representation is not optimally compatible with the binary coding. In this paper, we propose a novel Deep Hashing Network (DHN) architecture for supervised hashing, in which we jointly learn good image representation tailored to hash coding and formally control the quantization error. The DHN model constitutes four key components: (1) a sub-network with multiple convolution-pooling layers to capture image representations; (2) a fully-connected hashing layer to generate compact binary hash codes; (3) a pairwise cross-entropy loss layer for similarity-preserving learning; and (4) a pairwise quantization loss for controlling hashing quality. Extensive experiments on standard image retrieval datasets show the proposed DHN model yields substantial boosts over latest state-of-the-art hashing methods.","headline":"Deep Hashing Network for Efficient Similarity Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2016deep/"},"url":"https://learning2hash.github.io/publications/zhu2016deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -147,9 +147,8 @@ function search() {
     
     &nbsp;<a href='http://scholar.google.com/scholar?q=Deep Hashing Network for Efficient Similarity Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
     &nbsp;<a href='https://www.semanticscholar.org/search?q=Deep Hashing Network for Efficient Similarity Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-    &nbsp;<a href='http://academic.microsoft.com/#/search?iq=Deep%20Hashing%20Network%20for%20Efficient%20Similarity%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-  <br/>
-  
+    <br/>
+    
       <tag><a href="/tags.html#Deep Learning">Deep Learning</a></tag>
     
       <tag><a href="/tags.html#Image Retrieval">Image Retrieval</a></tag>
@@ -160,13 +159,33 @@ function search() {
     
       <tag><a href="/tags.html#AAAI">AAAI</a></tag>
     
-      
-</p>    
-      
-      <p><p>Due to the storage and retrieval efficiency, hashing has been widely deployed to approximate nearest neighbor search for large-scale multimedia retrieval. Supervised hashing, which improves the quality of hash coding by exploiting the semantic similarity on data pairs, has received increasing attention recently. For most existing supervised hashing methods for image retrieval, an image is first represented as a vector of hand-crafted or machine-learned features, followed by another separate quantization step that generates binary codes.
+  </p>
+  <p><p>Due to the storage and retrieval efficiency, hashing has been widely deployed to approximate nearest neighbor search for large-scale multimedia retrieval. Supervised hashing, which improves the quality of hash coding by exploiting the semantic similarity on data pairs, has received increasing attention recently. For most existing supervised hashing methods for image retrieval, an image is first represented as a vector of hand-crafted or machine-learned features, followed by another separate quantization step that generates binary codes.
 However, suboptimal hash coding may be produced, because the quantization error is not statistically minimized and the feature representation is not optimally compatible with the binary coding. In this paper, we propose a novel Deep Hashing Network (DHN) architecture for supervised hashing, in which we jointly learn good image representation tailored to hash coding and formally control the quantization error.
 The DHN model constitutes four key components: (1) a sub-network with multiple convolution-pooling layers to capture image representations; (2) a fully-connected hashing layer to generate compact binary hash codes; (3) a pairwise cross-entropy loss layer for similarity-preserving learning; and (4) a pairwise quantization loss for controlling hashing quality. Extensive experiments on standard image retrieval datasets show the proposed DHN model yields substantial boosts over latest state-of-the-art hashing methods.</p>
 </p>
+
+  <h6>Similar Work</h6>
+  <p>
+    <ul id="relwork">
+
+    </ul>
+  </p>
+
+  <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/zhu2016deep.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
+      });
+  </script>
+
 </div>
 
     </div>
