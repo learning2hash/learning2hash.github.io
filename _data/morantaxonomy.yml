@@ -133,6 +133,7 @@
 - {bibkey: shen2020auto, categories: [supervised],  type: Deep, modality: Unimodal}
 - {bibkey: hu2020creating, categories: [supervised],  type: Deep, modality: Cross-Modal}
 - {bibkey: cui2020exchnet, categories: [supervised],  type: Deep, modality: Unimodal}
+- {bibkey: sun2022deep, categories: [supervised],  type: Deep, modality: Cross-Modal}
 
 # Datasets
 - {bibkey: yandextexttoimage1B, categories: [dataset], name: Yandex Text-to-Image-1B, modality: Image/Text, size: 1 Billion, features: 200 dimensional Se-ResNext-101}
