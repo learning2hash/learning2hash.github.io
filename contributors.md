@@ -19,7 +19,7 @@ website.
 * [Aditya Kusupati](https://homes.cs.washington.edu/~kusupati/)
 * [Sobhan Hemati](https://scholar.google.com/citations?user=5qtzx8cAAAAJ&hl=en)
 * [Kam Woh Ng](https://kamwoh.github.io/)
-* [Ming Zhang](mzhang367-c@my.cityu.edu.hk)
+* [Ming Zhang](https://scholar.google.com/citations?user=ZucnjzMAAAAJ&hl=en)
 
 ### Acknowledgements
 
