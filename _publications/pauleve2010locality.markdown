@@ -7,7 +7,7 @@ year: 2010
 bibkey: pauleve2010locality
 additional_links:
    - {name: "PDF", url: "https://hal.inria.fr/inria-00567191/document"}
-tags: ["Pattern Recognition Letters", "Unsuperised"]
+tags: ["Pattern Recognition Letters", "Unsupervised"]
 ---
 It is well known that high-dimensional nearest-neighbor retrieval is very expensive. Dramatic performance gains are obtained using
 approximate search schemes, such as the popular Locality-Sensitive Hashing (LSH). Several extensions have been proposed to
