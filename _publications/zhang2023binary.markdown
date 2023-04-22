@@ -7,7 +7,7 @@ year: 2013
 bibkey: zhang2023binary
 additional_links:
    - {name: "PDF", url: "https://openaccess.thecvf.com/content_cvpr_2013/papers/Zhang_Binary_Code_Ranking_2013_CVPR_paper.pdf"}
-tags: ["CVPR", "Unsupervised"]
+tags: ["CVPR",  "Unsupervised"]
 ---
 Binary hashing has been widely used for efficient similarity search due to its query and storage efficiency. In most
 existing binary hashing methods, the high-dimensional data are embedded into Hamming space and the distance or
