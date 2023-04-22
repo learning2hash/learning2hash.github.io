@@ -15,6 +15,7 @@
 - {bibkey: cao2020learning, categories: [quantisation], type: Unsupervised}
 - {bibkey: hemati2021pattern, categories: [quantisation], type: Unsupervised}
 
+
 # Supervised Projection Models
 - {bibkey: hemati2022graph, categories: [supervised], type: Shallow, modality: Unimodal }
 - {bibkey: fan2020deep, categories: [supervised], type: Deep, modality: Unimodal }
