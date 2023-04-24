@@ -4,7 +4,7 @@ title: "Binary Code Ranking with Weighted Hamming Distance"
 authors: Lei Zhang, Yongdong Zhang, Jinhui Tang, Ke Lu, Qi Tian
 conference: CVPR
 year: 2013
-bibkey: zhang2023binary
+bibkey: zhang2013binary
 additional_links:
    - {name: "PDF", url: "https://openaccess.thecvf.com/content_cvpr_2013/papers/Zhang_Binary_Code_Ranking_2013_CVPR_paper.pdf"}
 tags: ["CVPR",  "Unsupervised"]
