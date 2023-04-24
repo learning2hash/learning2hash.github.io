@@ -138,6 +138,7 @@
 - {bibkey: zhang2021deep, categories: [supervised],  type: Deep, modality: Unimodal}
 
 # Datasets
+
 - {bibkey: yandextexttoimage1B, categories: [dataset], name: Yandex Text-to-Image-1B, modality: Image/Text, size: 1 Billion, features: 200 dimensional Se-ResNext-101}
 - {bibkey: yandexdeep1B, categories: [dataset], name: Yandex DEEP-1B, modality: Image, size: 1 Billion, features: 96 dimensional GoogLeNet}
 - {bibkey: microsoftspacev1B, categories: [dataset], name: Microsoft SPACEV, modality: Image, size: 1 Billion, features: 100 dimensional deep learning}
