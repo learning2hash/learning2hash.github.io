@@ -6,7 +6,7 @@ conference: CVPR
 year: 2020
 bibkey: yuan2020quant
 additional_links:
-   - {name: "PDF", url: "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yuan_Central_Similarity_Quantization_for_Efficient_Image_and_Video_Retrieval_CVPR_2020_paper.pdf"}
+   - {name: "PDF",  url:   "https://openaccess.thecvf.com/content_CVPR_2020/papers/Yuan_Central_Similarity_Quantization_for_Efficient_Image_and_Video_Retrieval_CVPR_2020_paper.pdf"}
    - {name: "Supplementary", url: "https://openaccess.thecvf.com/content_CVPR_2020/supplemental/Yuan_Central_Similarity_Quantization_CVPR_2020_supplemental.pdf"}
    - {name: "Code", url: "https://github.com/yuanli2333/Hadamard-Matrix-for-hashing"}
 tags: ["CVPR", "Video Retrieval", "Image Retrieval", "Has Code", "Deep Learning"]
