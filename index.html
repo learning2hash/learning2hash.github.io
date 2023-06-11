@@ -215,7 +215,7 @@ function search() {
 
 <h3 id="background">Background</h3>
 
-<p><em><a href="https://en.wikipedia.org/wiki/Nearest_neighbor_search">Nearest neighbour search</a></em> is the problem of finding the most similar data-points to a query in a large database of data-points, and is a fundamental operation that has found wide applicability in many fields, from Bioinformatics, through to Natural Language Processing (NLP) and Computer Vision. Some interesting application areas include:</p>
+<p>In general, <em><a href="https://en.wikipedia.org/wiki/Nearest_neighbor_search">Nearest neighbour search</a></em> is the problem of finding the most similar data-points to a query in a large database of data-points. Nearest neighbour search is a fundamental operation in computer science that has found wide applicability in many fields, from Bioinformatics, through to Natural Language Processing (NLP) and Computer Vision. A selection of interesting and successful application areas include:</p>
 
 <ul>
   <li><a href="https://arxiv.org/abs/2111.04473">A Scalable Sourcecode Search Engine</a>: Enabling code-to-code recommendation over large-scale sourcecode repositories with MinHash.</li>
@@ -229,7 +229,7 @@ function search() {
   <li><a href="https://media.kaspersky.com/en/enterprise-security/Kaspersky-Lab-Whitepaper-Machine-Learning.pdf">Malware Detection</a>: Developers of anti-viral software use hashcode learning models to quickly match a possibly malign code snippet to a database of known viruses.</li>
 </ul>
 
-<p>A simple way of finding similar data-points would simply be to search through the entire dataset comparing each database data-point to the query data-point, a method known as brute-force search. Unfortunately, for most datasets of practical interest this brute-force search is too computationally demanding (excessive compute time) and more efficient search methods are required.</p>
+<p>The list is truly endless! </p>
 
 <p><a href="https://learning2hash.github.io/papers.html">Learning2hash</a> provides a set of curated, community-driven links to a host of <em>approximate nearest neighbour search</em> (ANN) models that permit sublinear-time retrieval of nearest neighbours. Hashing models work by generating similar binary hashcodes for semantically similar data-points (illustrated by the diagram below). These similarity preserving hashcodes can then be used to index the data-points (images, documents etc) into the buckets of hashtables. Similar data-points should ideally end up in the same bucket of the hash table if we happen to have an effective hash function. This whole process is illustrated in the diagram below:</p>
 
@@ -238,7 +238,7 @@ Hashing (LSH)" /></p>
 
 <p>Diagram taken from the <a href="https://learning2hash.github.io/cite.html">PhD thesis of Sean Moran</a>.</p>
 
-<p>Given a query (e.g. the image of the tiger in the example above), we can search for similar data-points by generating a hashcode for the query and only comparing the query data-point to the data-points that collide with it in the same hashtable bucket (or buckets if we have multiple independent hashtables). The principle here is that the number of data-points in the colliding hash table bucket(s) should be much less than the total number of data-points in the entire dataset, yielding a query time that is substantially improved over a simple brute-force search. The only downside to these models is they might not return the closest nearest neighbour(s) every time (that is, we forgo a degree of accuracy), which is usually an acceptable trade-off in practice.</p>
+<p>Given a query, such as the image of the tiger in the example above, we can search for similar data-points by generating a hashcode for the query and only comparing the query data-point to the data-points that collide with it in the same hashtable bucket (or buckets if we have multiple independent hashtables). Usually the number of data-points in the colliding hash table bucket(s) should be much less than the total number of data-points in the entire dataset, yielding a query time that is substantially improved over a simple brute-force search. The only downside to these models is they might not return the closest nearest neighbour(s) every time (that is, we forgo a degree of accuracy), which is usually an acceptable trade-off in practice.</p>
 
 <p>Much more introductory material on hashing and learning-to-hash can be found in <a href="resources.html"><em>Resources</em></a>.</p>
 
