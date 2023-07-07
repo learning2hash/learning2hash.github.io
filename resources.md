@@ -5,6 +5,7 @@ comments: true
 ---
 ### Conferences and Workshops
 
+* [Practical Vector Search Challenge 2023](https://big-ann-benchmarks.com/neurips23.html)
 * [Billion-Scale Approximate Nearest Neighbor Search Challenge: NeurIPS'21 competition track](http://big-ann-benchmarks.com/index.html#call)
 * [Compact and Efficient Feature Representation and Learning in Computer Vision, ICCV 2019](http://www.ee.oulu.fi/~lili/CEFRLatICCV2019.html): a workshop dedicated to compact feature learning, including binary hashing methods. 
 * [International Conference on Similarity Search and Applications](http://www.sisap.org/2020/): a conference dedicated to similarity search
