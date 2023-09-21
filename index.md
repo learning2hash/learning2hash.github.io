@@ -53,8 +53,6 @@ This literature review gives a particular focus on recently proposed approximate
 
 Learning to hash is rapidly evolving. The purpose of this website is to augment static literature reviews with a dynamic website that can be updated by any interested researcher with newly published work in the field, including links to relevant code and datasets. To add a new paper to the website simply create a markdown file and open a pull request in GitHub by following [these instructions for contributing](contributing.html).
 
-This site is supported on a voluntary effort. If you found this site useful for your research please consider a [digital pat on the back](https://www.buymeacoffee.com/sjmoran).
-
-Copyright © [Sean Moran](https://sjmoran.github.io/) 2022. All opinions are my own.
+Copyright © [Sean Moran](https://sjmoran.github.io/) 2023. All opinions are my own.
 
 
