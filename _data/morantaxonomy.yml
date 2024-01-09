@@ -17,7 +17,6 @@
 
 
 # Supervised Projection Models
-
 - {bibkey: jia2023fast, categories: [supervised], type: Deep, modality: Unimodal }
 - {bibkey: hemati2022graph, categories: [supervised], type: Shallow, modality: Unimodal }
 - {bibkey: fan2020deep, categories: [supervised], type: Deep, modality: Unimodal }
@@ -140,7 +139,6 @@
 - {bibkey: zhang2021deep, categories: [supervised],  type: Deep, modality: Unimodal}
 
 # Datasets
-
 - {bibkey: yandextexttoimage1B, categories: [dataset], name: Yandex Text-to-Image-1B, modality: Image/Text, size: 1 Billion, features: 200 dimensional Se-ResNext-101}
 - {bibkey: yandexdeep1B, categories: [dataset], name: Yandex DEEP-1B, modality: Image, size: 1 Billion, features: 96 dimensional GoogLeNet}
 - {bibkey: microsoftspacev1B, categories: [dataset], name: Microsoft SPACEV, modality: Image, size: 1 Billion, features: 100 dimensional deep learning}
@@ -159,6 +157,7 @@
 - {bibkey: mirflickr2008new, categories: [dataset], name: MIR-FLICKR25K, modality: Image/Text, size: 25000, features: RGB pixels (image) - 38 categories 1386 tags (text)}
 
 # Unsupervised Projection Models
+- {bibkey: wang2023uncertainty, categories: [unsupervised], type: Deep, modality: Unimodal }
 - {bibkey: ng2023unsupervised, categories: [unsupervised], type: Shallow, modality: Unimodal }
 - {bibkey: subramanya2019diskann, categories: [unsupervised], type: Shallow, modality: Unimodal }
 - {bibkey: zhang2013binary, categories: [unsupervised], type: Shallow, modality: Unimodal }
