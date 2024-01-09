@@ -20,7 +20,9 @@ website.
 * [Sobhan Hemati](https://scholar.google.com/citations?user=5qtzx8cAAAAJ&hl=en)
 * [Kam Woh Ng](https://kamwoh.github.io/)
 * [Ming Zhang](https://scholar.google.com/citations?user=ZucnjzMAAAAJ&hl=en)
-
+* [Ming Zhang](https://scholar.google.com/citations?user=ZucnjzMAAAAJ&hl=en)
+* [Yucheng Wang](https://github.com/wangyucheng1234/BerVAE)
+  
 ### Acknowledgements
 
 This website has been forked from the original living literature review of [Allamanis](https://ml4code.github.io).
