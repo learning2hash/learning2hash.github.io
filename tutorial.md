@@ -145,7 +145,7 @@ print(classes[:,50134])   # 1
 print(classes[:,50503])   # 4
 ```
 
-In this case we see that LSH performs very well, with the majority of the colliding images coming from the same class label (4, deer). We now quantitatively evaluate the retrieval performance of LSH in a more rigourous manner.
+In this case we see that LSH performs very well, with the majority of the colliding images coming from the same class label (4, deer). We now quantitatively evaluate the retrieval performance of LSH in a more rigorous manner.
 
 ### Evaluation (LSH)
 
