@@ -3,6 +3,8 @@ layout: default
 title: Resources on Machine Learning for Hashing
 comments: true
 ---
+<iframe src="https://ghbtns.com/github-btn.html?user=learning2hash&repo=learning2hash.github.io&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+
 ### Conferences and Workshops
 
 * [Practical Vector Search Challenge 2023](https://big-ann-benchmarks.com/neurips23.html)
@@ -62,6 +64,7 @@ A few university courses are been taught covering aspects of machine of efficien
 
 Blog posts provide a great way to learn about cutting edge research and ideas. Here are a few of our favourites:
 
+* [Learning to Hash — Finding the Needle in the HayStack with AI](https://medium.com/@sean.j.moran/learning-to-hash-finding-the-needle-in-the-haystack-with-ai-24a15f85de0e)
 * [Fast Near-Duplicate Image Search using Locality Sensitive Hashing](https://towardsdatascience.com/fast-near-duplicate-image-search-using-locality-sensitive-hashing-d4c16058efcb)
 * [An Introduction to Hashing in the Era of Machine Learning](https://blog.bradfieldcs.com/an-introduction-to-hashing-in-the-era-of-machine-learning-6039394549b0)
 * [Locality Sensitive Hashing: An effective way of reducing the dimensionality of your data](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)
