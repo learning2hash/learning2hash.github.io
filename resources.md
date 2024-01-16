@@ -3,7 +3,6 @@ layout: default
 title: Resources on Machine Learning for Hashing
 comments: true
 ---
-<iframe src="https://ghbtns.com/github-btn.html?user=learning2hash&repo=learning2hash.github.io&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 
 ### Conferences and Workshops
 
