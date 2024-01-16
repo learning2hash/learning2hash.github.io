@@ -6,6 +6,8 @@ comments: true
 
 # Awesome Papers on Learning to Hash
 
+<iframe src="https://github.com/learning2hash/learning2hash.github.io?user=twbs&repo=bootstrap&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+
 ### 🏷 Browse Papers by Tag
 
 {% assign rawtags = Array.new %}
