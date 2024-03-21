@@ -22,6 +22,7 @@ website.
 * [Ming Zhang](https://scholar.google.com/citations?user=ZucnjzMAAAAJ&hl=en)
 * [Ming Zhang](https://scholar.google.com/citations?user=ZucnjzMAAAAJ&hl=en)
 * [Yucheng Wang](https://github.com/wangyucheng1234/BerVAE)
+* [Xiao Luo](https://luoxiao12.github.io/)
   
 ### Acknowledgements
 
