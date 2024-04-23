@@ -23,6 +23,7 @@ website.
 * [Ming Zhang](https://scholar.google.com/citations?user=ZucnjzMAAAAJ&hl=en)
 * [Yucheng Wang](https://github.com/wangyucheng1234/BerVAE)
 * [Xiao Luo](https://luoxiao12.github.io/)
+* [Thiago Rodrigo Ramos](https://scholar.google.com/citations?user=1OPgS00AAAAJ&hl=en)
   
 ### Acknowledgements
 
