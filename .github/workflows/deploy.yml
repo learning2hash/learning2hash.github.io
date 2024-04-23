@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
     - name: Build the site in the Jekyll/builder container
       run: |
         rm ${{ github.workspace }}/_publications/template
