@@ -1,8 +1,8 @@
-# A Survey on Learning to Hash for Computer Vision
+# Awesome Learning to Hash!
 
 ### A living literature review for the Learning to Hash field
 
-This is the repository for the survey article: A Survey on Learning to Hash for Computer Vision and the associated website [https://learning2hash.github.io/](https://learning2hash.github.io/). Please 
+This is the repository for the living literature review of the field of Learning to Hash [https://learning2hash.github.io/](https://learning2hash.github.io/). Please 
 look at the website for more information about the survey and for information about contributing your work or taxonomy to the 
 website.
 
