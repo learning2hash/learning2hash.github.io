@@ -4,7 +4,7 @@
 
 This is the repository for the living literature review of the field of Learning to Hash [https://learning2hash.github.io/](https://learning2hash.github.io/). Please 
 look at the website for more information about the survey and for information about contributing your work or taxonomy to the 
-website.
+website. 
 
 ### Contributing
 
