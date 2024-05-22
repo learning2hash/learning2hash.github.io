@@ -8,7 +8,7 @@ bibkey: weiss2009spectral
 additional_links:
    - {name: "PDF", url: "https://people.csail.mit.edu/torralba/publications/spectralhashing.pdf"}
    - {name: "Code", url: "http://www.cs.huji.ac.il/~yweiss/SpectralHashing/"}
-tags: ["Image Retrieval", "NIPS", "Has Code"]
+tags: ["Image Retrieval", "NeurIPS", "Has Code"]
 ---
 Semantic hashing seeks compact binary codes of data-points so that the
 Hamming distance between codewords correlates with semantic similarity.
