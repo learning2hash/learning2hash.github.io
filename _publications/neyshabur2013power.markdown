@@ -8,7 +8,7 @@ bibkey: neyshabur2013power
 additional_links:
    - {name: "PDF", url: "https://ttic.uchicago.edu/~yury/papers/nips2013_asym.pdf"}
    - {name: "Code", url: "https://ttic.uchicago.edu/~yury/papers/nips2013_asym.pdf"}
-tags: ["NIPS", "Has Code"]
+tags: ["NeurIPS", "Has Code"]
 ---
 When approximating binary similarity using the hamming distance between short
 binary hashes, we show that even if the similarity is symmetric, we can have
