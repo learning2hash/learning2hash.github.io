@@ -7,7 +7,7 @@ year: 2016
 bibkey: cao2016deep
 additional_links:
    - {name: "PDF", url: "http://www.kdd.org/kdd2016/papers/files/rpp0086-caoA.pdf"}
-tags: ["Deep Hashing","Cross-Modal",  "KDD"]
+tags: ["Deep Learning","Cross-Modal",  "KDD"]
 ---
 Due to the storage and retrieval efficiency, hashing has been
 widely applied to approximate nearest neighbor search for
