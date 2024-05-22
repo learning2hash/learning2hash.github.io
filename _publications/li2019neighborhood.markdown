@@ -7,7 +7,7 @@ year: 2019
 bibkey: li2019neighborhood
 additional_links:
    - {name: "PDF", url: "https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Neighborhood_Preserving_Hashing_for_Scalable_Video_Retrieval_ICCV_2019_paper.pdf"}
-tags: ["ICCV", "Video Retrieval", "Deep Hashing"]
+tags: ["ICCV", "Video Retrieval", "Deep Learning"]
 ---
 In this paper, we propose a Neighborhood Preserving
 Hashing (NPH) method for scalable video retrieval in an
