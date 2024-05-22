@@ -8,7 +8,7 @@ bibkey: liu2014discrete
 additional_links:
    - {name: "PDF", url: "http://www.ee.columbia.edu/~wliu/NIPS14_dgh.pdf"}
    - {name: "Talk", url: "http://www.ee.columbia.edu/~wliu/NIPS14_dgh_slides.pdf"}
-tags: ["NIPS"]
+tags: ["NeurIPS"]
 ---
 Hashing has emerged as a popular technique for fast nearest neighbor search in gigantic
 databases. In particular, learning based hashing has received considerable
