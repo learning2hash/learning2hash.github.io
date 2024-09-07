@@ -58,3 +58,19 @@ function search() {
   }
 }
 </script>
+
+<style>
+.sidebar {
+  position: fixed; /* Keeps the sidebar in place while scrolling */
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.container.sidebar-sticky {
+  height: 100%; /* Full height for the sidebar */
+  max-height: 100vh; /* Restricts the sidebar height to the viewport */
+  overflow-y: auto; /* Scrolls when the content exceeds the height */
+}
+</style>
