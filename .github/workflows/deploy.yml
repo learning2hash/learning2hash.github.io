@@ -17,7 +17,7 @@ jobs:
         rm ${{ github.workspace }}/_publications/template
         docker run -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
     - name: Setup Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
           python-version: '3.8'
           architecture: x64
