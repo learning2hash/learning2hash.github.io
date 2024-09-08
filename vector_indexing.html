@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+<!-- Begin Web-Stat code v 7.0 -->
+<span id="wts2185304"></span>
+<script>var wts=document.createElement('script');wts.async=true;
+wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+wts.onload = function(){ wtslog7(2185304,4); };
+</script><noscript><a href="https://www.web-stat.com">
+<img src="https://app.ardalio.com/7/4/2185304.png" 
+alt="Web-Stat web statistics"></a></noscript>
+<!-- End Web-Stat code v 7.0 -->
+  <!-- Hotjar Tracking Code for https://learning2hash.github.io/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1843243,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109544763-1');
+</script>
+
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Vector Indexing | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Vector Indexing" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. Maintained by Sean Moran." />
+<meta property="og:description" content="A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. Maintained by Sean Moran." />
+<link rel="canonical" href="https://learning2hash.github.io/vector_indexing.html" />
+<meta property="og:url" content="https://learning2hash.github.io/vector_indexing.html" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Vector Indexing" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. Maintained by Sean Moran.","headline":"Vector Indexing","url":"https://learning2hash.github.io/vector_indexing.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.svg">
+  <link rel="search" href="/public/opensearchdescription.xml" 
+      type="application/opensearchdescription+xml" 
+      title="learning2hash" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <a href='/contributing.html' class='ribbon'>Add your paper to Learning2Hash</a>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Awesome Learning to Hash
+        </a>
+      </h1>
+      <p class="lead">A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="sidebar-item">
+        <p style="font-size: 12px">
+          Search related work 
+          <input type='text' id='searchTarget' size="16"/> 
+          <button onClick="search();">Go</button>
+        </p>
+      </div>
+      <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item" href="/topic-viz.html">Topic-based Explorer</a>
+      <a class="sidebar-nav-item" href="/base-taxonomy/">Core Taxonomy</a>
+      <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
+      <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item" href="/vector_indexing.html">Vector Indexing</a>
+      <a class="sidebar-nav-item" href="/resources.md">Resources, Courses &#38; Events</a>
+      <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
+      <a class="sidebar-nav-item" href="/contributors.html">Contributors</a>
+      <a class="sidebar-nav-item" href="/cite.html">How to Cite this Site</a>
+    </nav>
+
+    <div class="sidebar-item">
+      <p style="font-size: 12px">
+        Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
+        <span style="font-size: 9px">
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+$("#searchTarget").keydown(function (e) {	
+  if (e.keyCode == 13) {
+    search();
+  }
+});
+
+function search() {
+  try {
+    ga('send', 'event', 'search', 'search', $("#searchTarget").val());
+  } finally {
+    window.location = "/papers.html#" + $("#searchTarget").val();
+  }
+}
+</script>
+
+<style>
+.sidebar {
+  position: fixed; /* Keeps the sidebar in place while scrolling */
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.container.sidebar-sticky {
+  height: 100%; /* Full height for the sidebar */
+  max-height: 100vh; /* Restricts the sidebar height to the viewport */
+  overflow-y: auto; /* Scrolls when the content exceeds the height */
+}
+</style>
+
+
+    <div class="content container">
+      <h1 id="vector-indexing-an-overview">Vector Indexing: An Overview</h1>
+
+<h3 id="what-is-vector-indexing">What is Vector Indexing?</h3>
+
+<p>Vector indexing is a technique used to organize and retrieve data represented as high-dimensional vectors. This approach is commonly employed in various machine learning tasks, particularly in areas like recommendation systems, computer vision, natural language processing, and search engines. In vector indexing, data points (such as images, texts, or embeddings) are transformed into vectors within a continuous, high-dimensional space. The goal is to find similar vectors based on distance metrics, such as Euclidean distance or cosine similarity.</p>
+
+<h3 id="how-vector-indexing-works">How Vector Indexing Works</h3>
+
+<p>Vector indexing allows for fast querying of large datasets by using an indexing structure that reduces the need for brute-force searches. Brute-force searches involve comparing the query vector with every vector in the database, which is inefficient for large datasets. Indexing structures like <strong>trees</strong>, <strong>hash tables</strong>, or <strong>graph-based structures</strong> can significantly speed up this search process by reducing the number of comparisons needed.</p>
+
+<h3 id="key-techniques-in-vector-indexing">Key Techniques in Vector Indexing</h3>
+
+<ol>
+  <li>
+    <p><strong>Approximate Nearest Neighbor (ANN) Search</strong>: This is an approach to find points that are close to a query point but without the need for an exact match. ANN techniques trade accuracy for speed, which is acceptable in most large-scale retrieval applications.</p>
+  </li>
+  <li>
+    <p><strong>Clustering and Quantization</strong>: Techniques like product quantization (PQ) and hierarchical clustering allow for grouping similar vectors into clusters, reducing the search space.</p>
+  </li>
+  <li>
+    <p><strong>Hash-Based Methods</strong>: Learning-to-hash methods are crucial here, where similar data points are mapped to similar binary hash codes, allowing for sublinear-time nearest neighbor retrieval.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="vector-indexing-and-learning-to-hash">Vector Indexing and Learning to Hash</h3>
+
+<p><strong>Learning to hash</strong> is a method that transforms high-dimensional data points into binary codes while preserving their relative similarities. This process is closely related to vector indexing because:</p>
+
+<ul>
+  <li>Both aim to solve the <strong>nearest neighbor search problem</strong> efficiently.</li>
+  <li>Hashing reduces the complexity of vector similarity searches, especially in <strong>high-dimensional spaces</strong>, by mapping similar vectors to the same or nearby hash codes.</li>
+  <li>Learning-to-hash methods optimize hash functions that capture data distributions more effectively than traditional handcrafted hash functions.</li>
+</ul>
+
+<p>In essence, vector indexing focuses on efficient retrieval, while learning-to-hash enhances this process by transforming vectors into binary codes, making the indexing process faster and more scalable.</p>
+
+<h3 id="key-benefits-of-combining-vector-indexing-with-learning-to-hash">Key Benefits of Combining Vector Indexing with Learning to Hash</h3>
+<ul>
+  <li><strong>Scalability</strong>: Large-scale datasets with billions of vectors can be indexed and searched efficiently.</li>
+  <li><strong>Speed</strong>: Sublinear time complexity is achieved, meaning query times are significantly reduced.</li>
+  <li><strong>Accuracy</strong>: Even though there is a trade-off between speed and exact results, techniques like product quantization and hashing maintain high retrieval accuracy.</li>
+</ul>
+
+<hr />
+
+<h3 id="software-and-libraries-for-vector-indexing">Software and Libraries for Vector Indexing</h3>
+
+<h4 id="open-source-libraries">Open Source Libraries</h4>
+
+<ol>
+  <li>
+    <p><strong><a href="https://github.com/facebookresearch/faiss">Faiss</a></strong>: Developed by Meta AI, Faiss is a state-of-the-art library for efficient similarity search and clustering of dense vectors. It supports both CPU and GPU, making it ideal for billion-scale datasets​:contentReference[oaicite:0]{index=0}​:contentReference[oaicite:1]{index=1}.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/spotify/annoy">Annoy</a></strong>: Created by Spotify, Annoy (Approximate Nearest Neighbors Oh Yeah) is a C++ library with Python bindings, used for searching in high-dimensional spaces using trees and vector indexing​:contentReference[oaicite:2]{index=2}.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://github.com/google-research/google-research/tree/master/scann">ScaNN</a></strong>: Developed by Google, ScaNN (Scalable Nearest Neighbors) provides efficient approximate nearest neighbor search. It is designed for handling massive datasets with millions to billions of vectors.</p>
+  </li>
+</ol>
+
+<h4 id="commercial-solutions">Commercial Solutions</h4>
+
+<ol>
+  <li>
+    <p><strong><a href="https://www.pinecone.io/">Pinecone</a></strong>: Pinecone offers a fully managed vector database service optimized for real-time vector search. It handles everything from indexing to searching, making it easy to scale applications that rely on vector similarity search.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://zilliz.com/">Zilliz</a></strong>: Zilliz provides an enterprise-grade solution for vector databases, offering support for large-scale similarity search and AI-driven applications. It is built on top of the popular open-source project <strong>Milvus</strong>.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://weaviate.io/">Weaviate</a></strong>: A commercial solution offering a real-time, cloud-native vector search engine. Weaviate integrates with multiple machine learning models to create vector embeddings and allows for efficient indexing and retrieval.</p>
+  </li>
+</ol>
+
+<hr />
+
+<h3 id="blog-posts-on-vector-indexing-and-related-topics">Blog Posts on Vector Indexing and Related Topics</h3>
+
+<ul>
+  <li>
+    <p><strong><a href="https://engineering.fb.com/2020/11/23/ai-research/faiss/">Efficient Similarity Search with Faiss</a></strong>: This post by Meta explains the internal workings of Faiss, how it scales to billions of vectors, and its applications in search and clustering​:contentReference[oaicite:3]{index=3}.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://towardsdatascience.com/vector-search-what-it-is-and-why-it-matters-9b61fa4533fe">Vector Search: What It Is and Why It Matters</a></strong>: A comprehensive introduction to vector search and its role in modern machine learning applications like image search and recommendation systems.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://www.pinecone.io/blog/vector-indexing-in-ml/">How Pinecone Handles Vector Indexing</a></strong>: This article covers how Pinecone manages vector indexing and its integration with machine learning models for real-time search.</p>
+  </li>
+  <li>
+    <p><strong><a href="https://benfred.github.io/ann-benchmarks/algorithms/annoy.html">Building a Nearest Neighbor Search Engine with Annoy</a></strong>: A deep dive into how Annoy works, including benchmarks for various vector search algorithms.</p>
+  </li>
+</ul>
+
+<hr />
+
+<h3 id="summary">Summary</h3>
+
+<p>Vector indexing is an essential component for handling large-scale, high-dimensional datasets. When combined with learning-to-hash methods, it enables highly efficient nearest neighbor search. By leveraging libraries like <strong>Faiss</strong> and <strong>Annoy</strong>, along with commercial solutions such as <strong>Pinecone</strong> and <strong>Weaviate</strong>, organizations can scale their AI-driven applications efficiently.</p>
+
+<p>For further reading, check out the software libraries and blog posts listed above.</p>
+
+    </div>
+
+  </body>
+</html>
