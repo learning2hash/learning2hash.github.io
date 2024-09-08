@@ -1,0 +1,16 @@
+---
+    layout: publication
+    title: "Quotient Hash Tables - Efficiently Detecting Duplicates in Streaming Data"
+    authors: Géraud Rémi, Lombard-Platet Marius, Naccache David
+    conference: Arxiv
+    year: 2019
+    bibkey: géraud2019quotient
+    additional_links:
+       - {name: "DOI", url: "10.1145/3297280.3297335"}
+   - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/1901.04358"}
+    tags: ['Streaming Data', 'Arxiv']
+    ---
+    {% raw %}
+    This article presents the Quotient Hash Table (QHT) a new data structure for duplicate detection in unbounded streams. QHTs stem from a corrected analysis of streaming quotient filters (SQFs), resulting in a 33\% reduction in memory usage for equal performance. We provide a new and thorough analysis of both algorithms, with results of interest to other existing constructions. We also introduce an optimised version of our new data structure dubbed Queued QHT with Duplicates (QQHTD). Finally we discuss the effect of adversarial inputs for hash-based duplicate filters similar to QHT.
+    {% endraw %}

@@ -1,0 +1,15 @@
+---
+    layout: publication
+    title: "Enhancing Image-Text Matching with Adaptive Feature Aggregation"
+    authors: Wang Zuhui, Yin Yunting, Ramakrishnan I. V.
+    conference: Arxiv
+    year: 2024
+    bibkey: wang2024enhancing
+    additional_links:
+       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/2401.09725"}
+    tags: ['Cross-Modal', 'Arxiv', 'Text Retrieval']
+    ---
+    {% raw %}
+    Image-text matching aims to find matched cross-modal pairs accurately. While current methods often rely on projecting cross-modal features into a common embedding space, they frequently suffer from imbalanced feature representations across different modalities, leading to unreliable retrieval results. To address these limitations, we introduce a novel Feature Enhancement Module that adaptively aggregates single-modal features for more balanced and robust image-text retrieval. Additionally, we propose a new loss function that overcomes the shortcomings of original triplet ranking loss, thereby significantly improving retrieval performance. The proposed model has been evaluated on two public datasets and achieves competitive retrieval performance when compared with several state-of-the-art models. Implementation codes can be found here.
+    {% endraw %}

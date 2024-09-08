@@ -1,0 +1,15 @@
+---
+    layout: publication
+    title: "Cryptanalysis of a Cayley Hash Function Based on Affine Maps in one Variable over a Finite Field"
+    authors: Sosnovski Bianca
+    conference: Arxiv
+    year: 2023
+    bibkey: sosnovski2023cryptanalysis
+    additional_links:
+       - {name: "License", url: "http://creativecommons.org/licenses/by/4.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/2308.15765"}
+    tags: ['Arxiv', 'Graph']
+    ---
+    {% raw %}
+    Cayley hash functions are cryptographic hashes constructed from Cayley graphs of groups. The hash function proposed by Shpilrain and Sosnovski (2016), based on linear functions over a finite field, was proven insecure. This paper shows that the proposal by Ghaffari and Mostaghim (2018) that uses the Shpilrain and Sosnovski's hash in its construction is also insecure. We demonstrate its security vulnerability by constructing collisions.
+    {% endraw %}
