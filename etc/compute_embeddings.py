@@ -34,18 +34,19 @@ if __name__ == "__main__":
     # Process each paper's abstract
     for paper_info in data:
         with torch.no_grad():
-            # Tokenize with truncation to ensure max_length=512
+            # Tokenize with truncation and pass in attention_mask (without clean_up_tokenization_spaces)
             inputs = tokenizer.encode_plus(
-                paper_info["abstract"], 
+                paper_info["abstract"],
                 padding='max_length', 
                 truncation=True, 
-                max_length=512, 
+                max_length=512,
                 return_tensors="pt"
             )
             token_ids = inputs["input_ids"].to(device)
+            attention_mask = inputs["attention_mask"].to(device)
 
-            # Get hidden states
-            hidden_states = model(token_ids)[0]  # Use the last hidden layer
+            # Get hidden states and pass attention_mask to the model
+            hidden_states = model(input_ids=token_ids, attention_mask=attention_mask)[0]  # Use last hidden layer
             all_embeddings.append(hidden_states.mean(1).squeeze().cpu().numpy())  # Mean pooling
 
     # Seed the random generator for reproducibility
@@ -62,4 +63,3 @@ if __name__ == "__main__":
     # Write the updated data with TSNE embeddings to the output path
     with open(args.outpath, 'w') as f:
         json.dump(data, f)
-
