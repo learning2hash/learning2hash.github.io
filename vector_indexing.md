@@ -1,4 +1,7 @@
-
+---
+layout: default
+title: Vector Indexing
+---
 # Vector Indexing: An Overview
 
 ### What is Vector Indexing?
