@@ -6,7 +6,7 @@ import nltk
 
 nltk.download('stopwords')
 nltk.download('wordnet')
-nltk.download('punkt')
+nltk.download('punkt_tab')
 
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
@@ -70,3 +70,5 @@ if __name__ == "__main__":
     for i, (bibkey, title) in enumerate(keys):
         with open(os.path.join(args.outdir, bibkey + ".json"), "w") as f:
             json.dump([keys[j] for j in sorted_idxs[i]], f)
+
+    
