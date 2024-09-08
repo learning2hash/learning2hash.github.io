@@ -1,0 +1,13 @@
+---
+layout: publication
+title: Memory vectors for similarity search in high-dimensional spaces
+authors: Iscen Ahmet, Furon Teddy, Gripon Vincent, Rabbat Michael, Jégou Hervé
+conference: Arxiv
+year: 2014
+bibkey: iscen2014memory
+additional_links:
+   - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/1412.3328"}
+tags: ['Arxiv']
+---
+We study an indexing architecture to store and search in a database of high-dimensional vectors from the perspective of statistical signal processing and decision theory. This architecture is composed of several memory units, each of which summarizes a fraction of the database by a single representative vector. The potential similarity of the query to one of the vectors stored in the memory unit is gauged by a simple correlation with the memory unit's representative vector. This representative optimizes the test of the following hypothesis: the query is independent from any vector in the memory unit vs. the query is a simple perturbation of one of the stored vectors. Compared to exhaustive search, our approach finds the most similar database vectors significantly faster without a noticeable reduction in search quality. Interestingly, the reduction of complexity is provably better in high-dimensional spaces. We empirically demonstrate its practical interest in a large-scale image search scenario with off-the-shelf state-of-the-art descriptors.

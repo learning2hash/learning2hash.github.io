@@ -1,0 +1,14 @@
+---
+layout: publication
+title: An Effective Method of Image Retrieval using Image Mining Techniques
+authors: Kannan A., Mohan V., Anbazhagan N.
+conference: Arxiv
+year: 2010
+bibkey: kannan2010an
+additional_links:
+   - {name: "DOI", url: "10.5121/ijma.2010.2402"}
+   - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/1012.0223"}
+tags: ['Arxiv', 'Image Retrieval']
+---
+The present research scholars are having keen interest in doing their research activities in the area of Data mining all over the world. Especially, [13]Mining Image data is the one of the essential features in this present scenario since image data plays vital role in every aspect of the system such as business for marketing, hospital for surgery, engineering for construction, Web for publication and so on. The other area in the Image mining system is the Content-Based Image Retrieval (CBIR) which performs retrieval based on the similarity defined in terms of extracted features with more objectiveness. The drawback in CBIR is the features of the query image alone are considered. Hence, a new technique called Image retrieval based on optimum clusters is proposed for improving user interaction with image retrieval systems by fully exploiting the similarity information. The index is created by describing the images according to their color characteristics, with compact feature vectors, that represent typical color distributions [12].

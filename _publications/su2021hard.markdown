@@ -1,0 +1,13 @@
+---
+layout: publication
+title: Hard Example Guided Hashing for Image Retrieval
+authors: Su Hai, Han Meiyin, Liang Junle, Liang Jun, Yu Songsen
+conference: Arxiv
+year: 2021
+bibkey: su2021hard
+additional_links:
+   - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/2112.13565"}
+tags: ['Arxiv', 'Image Retrieval']
+---
+Compared with the traditional hashing methods, deep hashing methods generate hash codes with rich semantic information and greatly improves the performances in the image retrieval field. However, it is unsatisfied for current deep hashing methods to predict the similarity of hard examples. It exists two main factors affecting the ability of learning hard examples, which are weak key features extraction and the shortage of hard examples. In this paper, we give a novel end-to-end model to extract the key feature from hard examples and obtain hash code with the accurate semantic information. In addition, we redesign a hard pair-wise loss function to assess the hard degree and update penalty weights of examples. It effectively alleviates the shortage problem in hard examples. Experimental results on CIFAR-10 and NUS-WIDE demonstrate that our model outperformances the mainstream hashing-based image retrieval methods.

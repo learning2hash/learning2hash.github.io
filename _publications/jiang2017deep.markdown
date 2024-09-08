@@ -1,27 +1,14 @@
 ---
 layout: publication
-title: "Deep Cross-Modal Hashing"
-authors: Qing-Yuan Jiang, Wu-Jun Li
-conference: CVPR
+title: Deep Discrete Supervised Hashing
+authors: Jiang Qing-Yuan, Cui Xue, Li Wu-Jun
+conference: Arxiv
 year: 2017
 bibkey: jiang2017deep
 additional_links:
-   - {name: "PDF", url: "https://cs.nju.edu.cn/lwj/paper/CVPR17_DCMH.pdf"}
-   - {name: "Code", url: "https://cs.nju.edu.cn/lwj/code/DCMH_tensorflow.zip"}   
-tags: ["Cross-Modal","Deep Learning", "Image Retrieval", "Has Code", "CVPR"]
+   - {name: "DOI", url: "10.1109/TIP.2018.2864894"}
+   - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/1707.09905"}
+tags: ['Arxiv', 'Image Retrieval', 'Unsupervised', 'Supervised']
 ---
-Due to its low storage cost and fast query speed, crossmodal hashing (CMH) has been widely used for similarity
-search in multimedia retrieval applications. However, most
-existing CMH methods are based on hand-crafted features
-which might not be optimally compatible with the hash-code
-learning procedure. As a result, existing CMH methods
-with hand-crafted features may not achieve satisfactory
-performance. In this paper, we propose a novel CMH
-method, called deep cross-modal hashing (DCMH), by
-integrating feature learning and hash-code learning into
-the same framework. DCMH is an end-to-end learning
-framework with deep neural networks, one for each modality, to perform feature learning from scratch. Experiments
-on three real datasets with image-text modalities show
-that DCMH can outperform other baselines to achieve
-the state-of-the-art performance in cross-modal retrieval
-applications.
+Hashing has been widely used for large-scale search due to its low storage cost and fast query speed. By using supervised information, supervised hashing can significantly outperform unsupervised hashing. Recently, discrete supervised hashing and deep hashing are two representative progresses in supervised hashing. On one hand, hashing is essentially a discrete optimization problem. Hence, utilizing supervised information to directly guide discrete (binary) coding procedure can avoid sub-optimal solution and improve the accuracy. On the other hand, deep hashing, which integrates deep feature learning and hash-code learning into an end-to-end architecture, can enhance the feedback between feature learning and hash-code learning. The key in discrete supervised hashing is to adopt supervised information to directly guide the discrete coding procedure in hashing. The key in deep hashing is to adopt the supervised information to directly guide the deep feature learning procedure. However, there have not existed works which can use the supervised information to directly guide both discrete coding procedure and deep feature learning procedure in the same framework. In this paper, we propose a novel deep hashing method, called deep discrete supervised hashing (DDSH), to address this problem. DDSH is the first deep hashing method which can utilize supervised information to directly guide both discrete coding procedure and deep feature learning procedure, and thus enhance the feedback between these two important procedures. Experiments on three real datasets show that DDSH can outperform other state-of-the-art baselines, including both discrete hashing and deep hashing baselines, for image retrieval.

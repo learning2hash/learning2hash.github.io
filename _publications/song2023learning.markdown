@@ -1,0 +1,13 @@
+---
+layout: publication
+title: Learning More Discriminative Local Descriptors for Few-shot Learning
+authors: Song Qijun, Zhou Siyun, Xu Liwei
+conference: Arxiv
+year: 2023
+bibkey: song2023learning
+additional_links:
+   - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/2305.08721"}
+tags: ['Arxiv']
+---
+Few-shot learning for image classification comes up as a hot topic in computer vision, which aims at fast learning from a limited number of labeled images and generalize over the new tasks. In this paper, motivated by the idea of Fisher Score, we propose a Discriminative Local Descriptors Attention (DLDA) model that adaptively selects the representative local descriptors and does not introduce any additional parameters, while most of the existing local descriptors based methods utilize the neural networks that inevitably involve the tedious parameter tuning. Moreover, we modify the traditional $k$-NN classification model by adjusting the weights of the $k$ nearest neighbors according to their distances from the query point. Experiments on four benchmark datasets show that our method not only achieves higher accuracy compared with the state-of-art approaches for few-shot learning, but also possesses lower sensitivity to the choices of $k$.
