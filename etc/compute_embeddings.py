@@ -12,6 +12,7 @@ def parse_arguments():
     parser.add_argument("--seed", default=0, help="The seed for TSNE.", type=int)
     return parser.parse_args()
 
+
 if __name__ == "__main__":
     args = parse_arguments()
 
