@@ -50,11 +50,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2017deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-07-01T10:53:17-05:00" />
+<meta property="article:published_time" content="2024-09-08T10:23:41-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Supervised Discrete Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-07-01T10:53:17-05:00","datePublished":"2024-07-01T10:53:17-05:00","description":"With the rapid growth of image and video data on the web, hashing has been extensively studied for image or video search in recent years. Benefiting from recent advances in deep learning, deep hashing methods have achieved promising results for image retrieval. However, there are some limitations of previous deep hashing methods (e.g., the semantic information is not fully exploited). In this paper, we develop a deep supervised discrete hashing algorithm based on the assumption that the learned binary codes should be ideal for classification. Both the pairwise label information and the classification information are used to learn the hash codes within one stream framework. We constrain the outputs of the last layer to be binary codes directly, which is rarely investigated in deep hashing algorithm. Because of the discrete nature of hash codes, an alternating minimization method is used to optimize the objective function. Experimental results have shown that our method outperforms current state-of-the-art methods on benchmark datasets.","headline":"Deep Supervised Discrete Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2017deep/"},"url":"https://learning2hash.github.io/publications/li2017deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-09-08T10:23:41-05:00","datePublished":"2024-09-08T10:23:41-05:00","description":"With the rapid growth of image and video data on the web, hashing has been extensively studied for image or video search in recent years. Benefiting from recent advances in deep learning, deep hashing methods have achieved promising results for image retrieval. However, there are some limitations of previous deep hashing methods (e.g., the semantic information is not fully exploited). In this paper, we develop a deep supervised discrete hashing algorithm based on the assumption that the learned binary codes should be ideal for classification. Both the pairwise label information and the classification information are used to learn the hash codes within one stream framework. We constrain the outputs of the last layer to be binary codes directly, which is rarely investigated in deep hashing algorithm. Because of the discrete nature of hash codes, an alternating minimization method is used to optimize the objective function. Experimental results have shown that our method outperforms current state-of-the-art methods on benchmark datasets.","headline":"Deep Supervised Discrete Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2017deep/"},"url":"https://learning2hash.github.io/publications/li2017deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -94,30 +94,39 @@ alt="Web-Stat web statistics"></a></noscript>
       </h1>
       <p class="lead">A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.</p>
     </div>
+    
+    <nav class="sidebar-nav">
+      <div class="sidebar-item">
+        <p style="font-size: 12px">
+          Search related work 
+          <input type='text' id='searchTarget' size="16"/> 
+          <button onClick="search();">Go</button>
+        </p>
+      </div>
+      <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item" href="/topic-viz.html">Topic-based Explorer</a>
+      <a class="sidebar-nav-item" href="/base-taxonomy/">Core Taxonomy</a>
+      <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
+      <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item" href="/vector_indexing.html">Vector Indexing</a>
+      <a class="sidebar-nav-item" href="/resources.md">Resources, Courses &#38; Events</a>
+      <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
+      <a class="sidebar-nav-item" href="/contributors.html">Contributors</a>
+      <a class="sidebar-nav-item" href="/cite.html">How to Cite this Site</a>
+    </nav>
 
-  <nav class="sidebar-nav">
-   <div class="sidebar-item"><p style="font-size: 12px">Search related work <input type='text' id='searchTarget' size="16"/> <button onClick="search();">Go</button></p></div>
-    <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
-    <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
-   <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
-   <a class="sidebar-nav-item" href="/topic-viz.html">Topic-based Explorer</a>
-   <a class="sidebar-nav-item" href="/base-taxonomy/">Core Taxonomy</a>
-    <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
-  <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
-  <a class="sidebar-nav-item" href="/resources.html">Resources, Courses &#38; Events</a>
-  <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
-  <a class="sidebar-nav-item" href="/contributors.html">Contributors</a>
-   <a class="sidebar-nav-item" href="/cite.html">How to Cite this Site</a>
-
-</nav>
-
-  <div class="sidebar-item">
-    <p style="font-size: 12px">Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
-    <span style="font-size: 9px">
-      Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
-    </span></p>
+    <div class="sidebar-item">
+      <p style="font-size: 12px">
+        Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
+        <span style="font-size: 9px">
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
+        </span>
+      </p>
+    </div>
   </div>
-</div></div>
+</div>
 
 <script>
 $("#searchTarget").keydown(function (e) {	
@@ -125,6 +134,7 @@ $("#searchTarget").keydown(function (e) {
     search();
   }
 });
+
 function search() {
   try {
     ga('send', 'event', 'search', 'search', $("#searchTarget").val());
@@ -133,6 +143,22 @@ function search() {
   }
 }
 </script>
+
+<style>
+.sidebar {
+  position: fixed; /* Keeps the sidebar in place while scrolling */
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.container.sidebar-sticky {
+  height: 100%; /* Full height for the sidebar */
+  max-height: 100vh; /* Restricts the sidebar height to the viewport */
+  overflow-y: auto; /* Scrolls when the content exceeds the height */
+}
+</style>
 
 
     <div class="content container">

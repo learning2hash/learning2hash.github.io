@@ -50,11 +50,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2016affinity/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-07-01T10:53:17-05:00" />
+<meta property="article:published_time" content="2024-09-08T10:23:41-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Affinity Preserving Quantization for Hashing: A Vector Quantization Approach to Learning Compact Binary Codes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-07-01T10:53:17-05:00","datePublished":"2024-07-01T10:53:17-05:00","description":"Hashing techniques are powerful for approximate nearest neighbour (ANN) search. Existing quantization methods in hashing are all focused on scalar quantization (SQ) which is inferior in utilizing the inherent data distribution. In this paper, we propose a novel vector quantization (VQ) method named affinity preserving quantization (APQ) to improve the quantization quality of projection values, which has significantly boosted the performance of state-of-the-art hashing techniques. In particular, our method incorporates the neighbourhood structure in the pre- and post-projection data space into vector quantization. APQ minimizes the quantization errors of projection values as well as the loss of affinity property of original space. An effective algorithm has been proposed to solve the joint optimization problem in APQ, and the extension to larger binary codes has been resolved by applying product quantization to APQ. Extensive experiments have shown that APQ consistently outperforms the state-of-the-art quantization methods, and has significantly improved the performance of various hashing techniques.","headline":"Affinity Preserving Quantization for Hashing: A Vector Quantization Approach to Learning Compact Binary Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2016affinity/"},"url":"https://learning2hash.github.io/publications/wang2016affinity/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-09-08T10:23:41-05:00","datePublished":"2024-09-08T10:23:41-05:00","description":"Hashing techniques are powerful for approximate nearest neighbour (ANN) search. Existing quantization methods in hashing are all focused on scalar quantization (SQ) which is inferior in utilizing the inherent data distribution. In this paper, we propose a novel vector quantization (VQ) method named affinity preserving quantization (APQ) to improve the quantization quality of projection values, which has significantly boosted the performance of state-of-the-art hashing techniques. In particular, our method incorporates the neighbourhood structure in the pre- and post-projection data space into vector quantization. APQ minimizes the quantization errors of projection values as well as the loss of affinity property of original space. An effective algorithm has been proposed to solve the joint optimization problem in APQ, and the extension to larger binary codes has been resolved by applying product quantization to APQ. Extensive experiments have shown that APQ consistently outperforms the state-of-the-art quantization methods, and has significantly improved the performance of various hashing techniques.","headline":"Affinity Preserving Quantization for Hashing: A Vector Quantization Approach to Learning Compact Binary Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2016affinity/"},"url":"https://learning2hash.github.io/publications/wang2016affinity/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -94,30 +94,39 @@ alt="Web-Stat web statistics"></a></noscript>
       </h1>
       <p class="lead">A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.</p>
     </div>
+    
+    <nav class="sidebar-nav">
+      <div class="sidebar-item">
+        <p style="font-size: 12px">
+          Search related work 
+          <input type='text' id='searchTarget' size="16"/> 
+          <button onClick="search();">Go</button>
+        </p>
+      </div>
+      <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item" href="/topic-viz.html">Topic-based Explorer</a>
+      <a class="sidebar-nav-item" href="/base-taxonomy/">Core Taxonomy</a>
+      <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
+      <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item" href="/vector_indexing.html">Vector Indexing</a>
+      <a class="sidebar-nav-item" href="/resources.md">Resources, Courses &#38; Events</a>
+      <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
+      <a class="sidebar-nav-item" href="/contributors.html">Contributors</a>
+      <a class="sidebar-nav-item" href="/cite.html">How to Cite this Site</a>
+    </nav>
 
-  <nav class="sidebar-nav">
-   <div class="sidebar-item"><p style="font-size: 12px">Search related work <input type='text' id='searchTarget' size="16"/> <button onClick="search();">Go</button></p></div>
-    <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
-    <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
-   <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
-   <a class="sidebar-nav-item" href="/topic-viz.html">Topic-based Explorer</a>
-   <a class="sidebar-nav-item" href="/base-taxonomy/">Core Taxonomy</a>
-    <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
-  <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
-  <a class="sidebar-nav-item" href="/resources.html">Resources, Courses &#38; Events</a>
-  <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
-  <a class="sidebar-nav-item" href="/contributors.html">Contributors</a>
-   <a class="sidebar-nav-item" href="/cite.html">How to Cite this Site</a>
-
-</nav>
-
-  <div class="sidebar-item">
-    <p style="font-size: 12px">Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
-    <span style="font-size: 9px">
-      Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
-    </span></p>
+    <div class="sidebar-item">
+      <p style="font-size: 12px">
+        Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
+        <span style="font-size: 9px">
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
+        </span>
+      </p>
+    </div>
   </div>
-</div></div>
+</div>
 
 <script>
 $("#searchTarget").keydown(function (e) {	
@@ -125,6 +134,7 @@ $("#searchTarget").keydown(function (e) {
     search();
   }
 });
+
 function search() {
   try {
     ga('send', 'event', 'search', 'search', $("#searchTarget").val());
@@ -133,6 +143,22 @@ function search() {
   }
 }
 </script>
+
+<style>
+.sidebar {
+  position: fixed; /* Keeps the sidebar in place while scrolling */
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.container.sidebar-sticky {
+  height: 100%; /* Full height for the sidebar */
+  max-height: 100vh; /* Restricts the sidebar height to the viewport */
+  overflow-y: auto; /* Scrolls when the content exceeds the height */
+}
+</style>
 
 
     <div class="content container">

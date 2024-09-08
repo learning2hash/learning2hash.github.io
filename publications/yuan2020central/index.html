@@ -50,11 +50,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/yuan2020central/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-07-01T10:53:17-05:00" />
+<meta property="article:published_time" content="2024-09-08T10:23:41-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Central Similarity Hashing for Efficient Image and Video Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-07-01T10:53:17-05:00","datePublished":"2024-07-01T10:53:17-05:00","description":"Existing data-dependent hashing methods usually learn hash functions from the pairwise or triplet data relationships, which only capture the data similarity locally, and often suffer low learning efficiency and low collision rate. In this work, we propose a new global similarity metric, termed as central similarity, with which the hash codes for similar data pairs are encouraged to approach a common center and those for dissimilar pairs to converge to different centers, to improve hash learning efficiency and retrieval accuracy. We principally formulate the computation of the proposed central similarity metric by introducing a new concept, i.e. hash center that refers to a set of data points scattered in the Hamming space with sufficient mutual distance between each other. We then provide an efficient method to construct well separated hash centers by leveraging the Hadamard matrix and Bernoulli distributions. Finally, we propose the Central Similarity Hashing (CSH) that optimizes the central similarity between data points w.r.t. their hash centers instead of optimizing the local similarity. The CSH is generic and applicable to both image and video hashing. Extensive experiments on large-scale image and video retrieval demonstrate CSH can generate cohesive hash codes for similar data pairs and dispersed hash codes for dissimilar pairs, and achieve noticeable boost in retrieval performance, i.e. 3%-20% in mAP over the previous state-of-the-art. The codes are in: https://github.com/yuanli2333/ Hadamard-Matrix-for-hashing","headline":"Central Similarity Hashing for Efficient Image and Video Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yuan2020central/"},"url":"https://learning2hash.github.io/publications/yuan2020central/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-09-08T10:23:41-05:00","datePublished":"2024-09-08T10:23:41-05:00","description":"Existing data-dependent hashing methods usually learn hash functions from the pairwise or triplet data relationships, which only capture the data similarity locally, and often suffer low learning efficiency and low collision rate. In this work, we propose a new global similarity metric, termed as central similarity, with which the hash codes for similar data pairs are encouraged to approach a common center and those for dissimilar pairs to converge to different centers, to improve hash learning efficiency and retrieval accuracy. We principally formulate the computation of the proposed central similarity metric by introducing a new concept, i.e. hash center that refers to a set of data points scattered in the Hamming space with sufficient mutual distance between each other. We then provide an efficient method to construct well separated hash centers by leveraging the Hadamard matrix and Bernoulli distributions. Finally, we propose the Central Similarity Hashing (CSH) that optimizes the central similarity between data points w.r.t. their hash centers instead of optimizing the local similarity. The CSH is generic and applicable to both image and video hashing. Extensive experiments on large-scale image and video retrieval demonstrate CSH can generate cohesive hash codes for similar data pairs and dispersed hash codes for dissimilar pairs, and achieve noticeable boost in retrieval performance, i.e. 3%-20% in mAP over the previous state-of-the-art. The codes are in: https://github.com/yuanli2333/ Hadamard-Matrix-for-hashing","headline":"Central Similarity Hashing for Efficient Image and Video Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yuan2020central/"},"url":"https://learning2hash.github.io/publications/yuan2020central/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -94,30 +94,39 @@ alt="Web-Stat web statistics"></a></noscript>
       </h1>
       <p class="lead">A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.</p>
     </div>
+    
+    <nav class="sidebar-nav">
+      <div class="sidebar-item">
+        <p style="font-size: 12px">
+          Search related work 
+          <input type='text' id='searchTarget' size="16"/> 
+          <button onClick="search();">Go</button>
+        </p>
+      </div>
+      <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item" href="/topic-viz.html">Topic-based Explorer</a>
+      <a class="sidebar-nav-item" href="/base-taxonomy/">Core Taxonomy</a>
+      <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
+      <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item" href="/vector_indexing.html">Vector Indexing</a>
+      <a class="sidebar-nav-item" href="/resources.md">Resources, Courses &#38; Events</a>
+      <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
+      <a class="sidebar-nav-item" href="/contributors.html">Contributors</a>
+      <a class="sidebar-nav-item" href="/cite.html">How to Cite this Site</a>
+    </nav>
 
-  <nav class="sidebar-nav">
-   <div class="sidebar-item"><p style="font-size: 12px">Search related work <input type='text' id='searchTarget' size="16"/> <button onClick="search();">Go</button></p></div>
-    <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
-    <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
-   <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
-   <a class="sidebar-nav-item" href="/topic-viz.html">Topic-based Explorer</a>
-   <a class="sidebar-nav-item" href="/base-taxonomy/">Core Taxonomy</a>
-    <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
-  <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
-  <a class="sidebar-nav-item" href="/resources.html">Resources, Courses &#38; Events</a>
-  <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
-  <a class="sidebar-nav-item" href="/contributors.html">Contributors</a>
-   <a class="sidebar-nav-item" href="/cite.html">How to Cite this Site</a>
-
-</nav>
-
-  <div class="sidebar-item">
-    <p style="font-size: 12px">Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
-    <span style="font-size: 9px">
-      Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
-    </span></p>
+    <div class="sidebar-item">
+      <p style="font-size: 12px">
+        Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
+        <span style="font-size: 9px">
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
+        </span>
+      </p>
+    </div>
   </div>
-</div></div>
+</div>
 
 <script>
 $("#searchTarget").keydown(function (e) {	
@@ -125,6 +134,7 @@ $("#searchTarget").keydown(function (e) {
     search();
   }
 });
+
 function search() {
   try {
     ga('send', 'event', 'search', 'search', $("#searchTarget").val());
@@ -133,6 +143,22 @@ function search() {
   }
 }
 </script>
+
+<style>
+.sidebar {
+  position: fixed; /* Keeps the sidebar in place while scrolling */
+  top: 0;
+  bottom: 0;
+  width: 250px;
+  overflow-y: auto; /* Enables vertical scrolling */
+}
+
+.container.sidebar-sticky {
+  height: 100%; /* Full height for the sidebar */
+  max-height: 100vh; /* Restricts the sidebar height to the viewport */
+  overflow-y: auto; /* Scrolls when the content exceeds the height */
+}
+</style>
 
 
     <div class="content container">
