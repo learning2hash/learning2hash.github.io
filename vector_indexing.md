@@ -1,3 +1,4 @@
+
 # Vector Indexing: An Overview
 
 ### What is Vector Indexing?
