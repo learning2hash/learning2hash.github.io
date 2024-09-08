@@ -34,14 +34,13 @@ if __name__ == "__main__":
     # Process each paper's abstract
     for paper_info in data:
         with torch.no_grad():
-            # Tokenize with truncation and pass in attention_mask
+            # Tokenize with truncation and pass in attention_mask (without clean_up_tokenization_spaces)
             inputs = tokenizer.encode_plus(
                 paper_info["abstract"],
                 padding='max_length', 
                 truncation=True, 
                 max_length=512,
-                return_tensors="pt",
-                clean_up_tokenization_spaces=True  # Set explicitly to avoid future deprecation warning
+                return_tensors="pt"
             )
             token_ids = inputs["input_ids"].to(device)
             attention_mask = inputs["attention_mask"].to(device)
