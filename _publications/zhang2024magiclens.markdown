@@ -1,0 +1,14 @@
+---
+    layout: publication
+    title: "MagicLens: Self-Supervised Image Retrieval with Open-Ended Instructions"
+    authors: Zhang Kai, Luan Yi, Hu Hexiang, Lee Kenton, Qiao Siyuan, Chen Wenhu, Su Yu, Chang Ming-Wei
+    conference: Arxiv
+    year: 2024
+    bibkey: zhang2024magiclens
+    additional_links:
+       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/2403.19651"}
+   - {name: "Paper", url: "https://open-vision-language.github.io/MagicLens/."}
+    tags: ['Image Retrieval', 'Supervised', 'Self-Supervised', 'Arxiv']
+    ---
+    Image retrieval, i.e., finding desired images given a reference image, inherently encompasses rich, multi-faceted search intents that are difficult to capture solely using image-based measures. Recent works leverage text instructions to allow users to more freely express their search intents. However, they primarily focus on image pairs that are visually similar and/or can be characterized by a small set of pre-defined relations. The core thesis of this paper is that text instructions can enable retrieving images with richer relations beyond visual similarity. To show this, we introduce MagicLens, a series of self-supervised image retrieval models that support open-ended instructions. MagicLens is built on a key novel insight: image pairs that naturally occur on the same web pages contain a wide range of implicit relations (e.g., inside view of), and we can bring those implicit relations explicit by synthesizing instructions via foundation models. Trained on 36.7M (query image, instruction, target image) triplets with rich semantic relations mined from the web, MagicLens achieves results comparable with or better than prior best on eight benchmarks of various image retrieval tasks, while maintaining high parameter efficiency with a significantly smaller model size. Additional human analyses on a 1.4M-image unseen corpus further demonstrate the diversity of search intents supported by MagicLens. Code and models are publicly available at https://open-vision-language.github.io/MagicLens/.

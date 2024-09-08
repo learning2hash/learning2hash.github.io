@@ -1,0 +1,13 @@
+---
+    layout: publication
+    title: "Learning Hash Functions Using Column Generation"
+    authors: Li Xi, Lin Guosheng, Shen Chunhua, Hengel Anton van den, Dick Anthony
+    conference: Arxiv
+    year: 2013
+    bibkey: li2013learning
+    additional_links:
+       - {name: "License", url: "http://creativecommons.org/licenses/by/3.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/1303.0339"}
+    tags: ['Arxiv']
+    ---
+    Fast nearest neighbor searching is becoming an increasingly important tool in solving many large-scale problems. Recently a number of approaches to learning data-dependent hash functions have been developed. In this work, we propose a column generation based method for learning data-dependent hash functions on the basis of proximity comparison information. Given a set of triplets that encode the pairwise proximity comparison information, our method learns hash functions that preserve the relative comparison relationships in the data as well as possible within the large-margin learning framework. The learning procedure is implemented using column generation and hence is named CGHash. At each iteration of the column generation procedure, the best hash function is selected. Unlike most other hashing methods, our method generalizes to new data points naturally; and has a training objective which is convex, thus ensuring that the global optimum can be identified. Experiments demonstrate that the proposed method learns compact binary codes and that its retrieval performance compares favorably with state-of-the-art methods when tested on a few benchmark datasets.

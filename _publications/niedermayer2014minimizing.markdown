@@ -1,0 +1,13 @@
+---
+    layout: publication
+    title: "Minimizing the Number of Matching Queries for Object Retrieval"
+    authors: Niedermayer Johannes, Kröger Peer
+    conference: Arxiv
+    year: 2014
+    bibkey: niedermayer2014minimizing
+    additional_links:
+       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/1412.5808"}
+    tags: ['Arxiv']
+    ---
+    To increase the computational efficiency of interest-point based object retrieval, researchers have put remarkable research efforts into improving the efficiency of kNN-based feature matching, pursuing to match thousands of features against a database within fractions of a second. However, due to the high-dimensional nature of image features that reduces the effectivity of index structures (curse of dimensionality), due to the vast amount of features stored in image databases (images are often represented by up to several thousand features), this ultimate goal demanded to trade query runtimes for query precision. In this paper we address an approach complementary to indexing in order to improve the runtimes of retrieval by querying only the most promising keypoint descriptors, as this affects matching runtimes linearly and can therefore lead to increased efficiency. As this reduction of kNN queries reduces the number of tentative correspondences, a loss of query precision is minimized by an additional image-level correspondence generation stage with a computational performance independent of the underlying indexing structure. We evaluate such an adaption of the standard recognition pipeline on a variety of datasets using both SIFT and state-of-the-art binary descriptors. Our results suggest that decreasing the number of queried descriptors does not necessarily imply a reduction in the result quality as long as alternative ways of increasing query recall (by thoroughly selecting k) and MAP (using image-level correspondence generation) are considered.

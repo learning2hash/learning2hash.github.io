@@ -1,0 +1,13 @@
+---
+    layout: publication
+    title: "Nearly-Unsupervised Hashcode Representations for Relation Extraction"
+    authors: Garg Sahil, Galstyan Aram, Steeg Greg Ver, Cecchi Guillermo
+    conference: Arxiv
+    year: 2019
+    bibkey: garg2019nearly
+    additional_links:
+       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/1909.03881"}
+    tags: ['Supervised', 'Semi-Supervised', 'Unsupervised', 'Arxiv']
+    ---
+    Recently, kernelized locality sensitive hashcodes have been successfully employed as representations of natural language text, especially showing high relevance to biomedical relation extraction tasks. In this paper, we propose to optimize the hashcode representations in a nearly unsupervised manner, in which we only use data points, but not their class labels, for learning. The optimized hashcode representations are then fed to a supervised classifier following the prior work. This nearly unsupervised approach allows fine-grained optimization of each hash function, which is particularly suitable for building hashcode representations generalizing from a training set to a test set. We empirically evaluate the proposed approach for biomedical relation extraction tasks, obtaining significant accuracy improvements w.r.t. state-of-the-art supervised and semi-supervised approaches.

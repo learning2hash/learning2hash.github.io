@@ -1,0 +1,13 @@
+---
+    layout: publication
+    title: "Optimal compression of hash-origin prefix trees"
+    authors: Duda Jarek
+    conference: Arxiv
+    year: 2012
+    bibkey: duda2012optimal
+    additional_links:
+       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/1206.4555"}
+    tags: ['Arxiv']
+    ---
+    There is a common problem of operating on hash values of elements of some database. In this paper there will be analyzed informational content of such general task and how to practically approach such found lower boundaries. Minimal prefix tree which distinguish elements turns out to require asymptotically only about 2.77544 bits per element, while standard approaches use a few times more. While being certain of working inside the database, the cost of distinguishability can be reduced further to about 2.33275 bits per elements. Increasing minimal depth of nodes to reduce probability of false positives leads to simple relation with average depth of such random tree, which is asymptotically larger by about 1.33275 bits than lg(n) of the perfect binary tree. This asymptotic case can be also seen as a way to optimally encode n large unordered numbers - saving lg(n!) bits of information about their ordering, which can be the major part of contained information. This ability itself allows to reduce memory requirements even to about 0.693 of required in Bloom filter for the same false positive probability.

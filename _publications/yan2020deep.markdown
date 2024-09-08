@@ -1,0 +1,13 @@
+---
+    layout: publication
+    title: "Deep Multi-View Enhancement Hashing for Image Retrieval"
+    authors: Yan Chenggang, Gong Biao, Wei Yuxuan, Gao Yue
+    conference: Arxiv
+    year: 2020
+    bibkey: yan2020deep
+    additional_links:
+       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/2002.00169"}
+    tags: ['Arxiv', 'Deep Learning', 'ICIP', 'Image Retrieval', 'Supervised']
+    ---
+    Hashing is an efficient method for nearest neighbor search in large-scale data space by embedding high-dimensional feature descriptors into a similarity preserving Hamming space with a low dimension. However, large-scale high-speed retrieval through binary code has a certain degree of reduction in retrieval accuracy compared to traditional retrieval methods. We have noticed that multi-view methods can well preserve the diverse characteristics of data. Therefore, we try to introduce the multi-view deep neural network into the hash learning field, and design an efficient and innovative retrieval model, which has achieved a significant improvement in retrieval performance. In this paper, we propose a supervised multi-view hash model which can enhance the multi-view information through neural networks. This is a completely new hash learning method that combines multi-view and deep learning methods. The proposed method utilizes an effective view stability evaluation method to actively explore the relationship among views, which will affect the optimization direction of the entire network. We have also designed a variety of multi-data fusion methods in the Hamming space to preserve the advantages of both convolution and multi-view. In order to avoid excessive computing resources on the enhancement procedure during retrieval, we set up a separate structure called memory network which participates in training together. The proposed method is systematically evaluated on the CIFAR-10, NUS-WIDE and MS-COCO datasets, and the results show that our method significantly outperforms the state-of-the-art single-view and multi-view hashing methods.

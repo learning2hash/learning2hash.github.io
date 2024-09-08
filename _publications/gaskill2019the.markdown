@@ -1,0 +1,14 @@
+---
+    layout: publication
+    title: "The Bitwise Hashing Trick for Personalized Search"
+    authors: Gaskill Braddock
+    conference: Applied Artificial Intelligence, Volume
+    year: 2019
+    bibkey: gaskill2019the
+    additional_links:
+       - {name: "DOI", url: "10.1080/08839514.2019.1630961"}
+   - {name: "License", url: "http://creativecommons.org/publicdomain/zero/1.0/"}
+   - {name: "Paper", url: "https://arxiv.org/abs/1910.08646"}
+    tags: ['Applied Artificial Intelligence, Volume']
+    ---
+    Many real world problems require fast and efficient lexical comparison of large numbers of short text strings. Search personalization is one such domain. We introduce the use of feature bit vectors using the hashing trick for improving relevance in personalized search and other personalization applications. We present results of several lexical hashing and comparison methods. These methods are applied to a user's historical behavior and are used to predict future behavior. Using a single bit per dimension instead of floating point results in an order of magnitude decrease in data structure size, while preserving or even improving quality. We use real data to simulate a search personalization task. A simple method for combining bit vectors demonstrates an order of magnitude improvement in compute time on the task with only a small decrease in accuracy.
