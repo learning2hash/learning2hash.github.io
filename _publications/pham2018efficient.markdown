@@ -1,13 +1,13 @@
 ---
-layout: publication
-title: Efficient texture retrieval using multiscale local extrema descriptors and covariance embedding
-authors: Pham Minh-Tan
-conference: Arxiv
-year: 2018
-bibkey: pham2018efficient
-additional_links:
-   - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+    layout: publication
+    title: "Efficient texture retrieval using multiscale local extrema descriptors and covariance embedding"
+    authors: Pham Minh-Tan
+    conference: Arxiv
+    year: 2018
+    bibkey: pham2018efficient
+    additional_links:
+       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
    - {name: "Paper", url: "https://arxiv.org/abs/1808.01124"}
-tags: ['Arxiv', 'CNN']
----
-This paper presents an efficient method for texture retrieval using multiscale feature extraction and embedding based on the local extrema keypoints. The idea is to first represent each texture image by its local maximum and local minimum pixels. The image is then divided into regular overlapping blocks and each one is characterized by a feature vector constructed from the radiometric, geometric and structural information of its local extrema. All feature vectors are finally embedded into a covariance matrix which will be exploited for dissimilarity measurement within retrieval task. Thanks to the method's simplicity, multiscale scheme can be easily implemented to improve its scale-space representation capacity. We argue that our handcrafted features are easy to implement, fast to run but can provide very competitive performance compared to handcrafted and CNN-based learned descriptors from the literature. In particular, the proposed framework provides highly competitive retrieval rate for several texture databases including 94.95% for MIT Vistex, 79.87% for Stex, 76.15% for Outex TC-00013 and 89.74% for USPtex.
+    tags: ['Arxiv', 'CNN']
+    ---
+    This paper presents an efficient method for texture retrieval using multiscale feature extraction and embedding based on the local extrema keypoints. The idea is to first represent each texture image by its local maximum and local minimum pixels. The image is then divided into regular overlapping blocks and each one is characterized by a feature vector constructed from the radiometric, geometric and structural information of its local extrema. All feature vectors are finally embedded into a covariance matrix which will be exploited for dissimilarity measurement within retrieval task. Thanks to the method's simplicity, multiscale scheme can be easily implemented to improve its scale-space representation capacity. We argue that our handcrafted features are easy to implement, fast to run but can provide very competitive performance compared to handcrafted and CNN-based learned descriptors from the literature. In particular, the proposed framework provides highly competitive retrieval rate for several texture databases including 94.95% for MIT Vistex, 79.87% for Stex, 76.15% for Outex TC-00013 and 89.74% for USPtex.

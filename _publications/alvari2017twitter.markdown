@@ -1,13 +1,13 @@
 ---
-layout: publication
-title: Twitter Hashtag Recommendation using Matrix Factorization
-authors: Alvari Hamidreza
-conference: Arxiv
-year: 2017
-bibkey: alvari2017twitter
-additional_links:
-   - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+    layout: publication
+    title: "Twitter Hashtag Recommendation using Matrix Factorization"
+    authors: Alvari Hamidreza
+    conference: Arxiv
+    year: 2017
+    bibkey: alvari2017twitter
+    additional_links:
+       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
    - {name: "Paper", url: "https://arxiv.org/abs/1705.10453"}
-tags: ['Arxiv']
----
-Twitter, one of the biggest and most popular microblogging Websites, has evolved into a powerful communication platform which allows millions of active users to generate huge volume of microposts and queries on a daily basis. To accommodate effective categorization and easy search, users are allowed to make use of hashtags, keywords or phrases prefixed by hash character, to categorize and summarize their posts. However, valid hashtags are not restricted and thus are created in a free and heterogeneous style, increasing difficulty of the task of tweet categorization. In this paper, we propose a low-rank weighted matrix factorization based method to recommend hashtags to the users solely based on their hashtag usage history and independent from their tweets' contents. We confirm using two-sample t-test that users are more likely to adopt new hashtags similar to the ones they have previously adopted. In particular, we formulate the problem of hashtag recommendation into an optimization problem and incorporate hashtag correlation weight matrix into it to account for the similarity between different hashtags. We finally leverage widely used matrix factorization from recommender systems to solve the optimization problem by capturing the latent factors of users and hashtags. Empirical experiments demonstrate that our method is capable to properly recommend hashtags.
+    tags: ['Arxiv']
+    ---
+    Twitter, one of the biggest and most popular microblogging Websites, has evolved into a powerful communication platform which allows millions of active users to generate huge volume of microposts and queries on a daily basis. To accommodate effective categorization and easy search, users are allowed to make use of hashtags, keywords or phrases prefixed by hash character, to categorize and summarize their posts. However, valid hashtags are not restricted and thus are created in a free and heterogeneous style, increasing difficulty of the task of tweet categorization. In this paper, we propose a low-rank weighted matrix factorization based method to recommend hashtags to the users solely based on their hashtag usage history and independent from their tweets' contents. We confirm using two-sample t-test that users are more likely to adopt new hashtags similar to the ones they have previously adopted. In particular, we formulate the problem of hashtag recommendation into an optimization problem and incorporate hashtag correlation weight matrix into it to account for the similarity between different hashtags. We finally leverage widely used matrix factorization from recommender systems to solve the optimization problem by capturing the latent factors of users and hashtags. Empirical experiments demonstrate that our method is capable to properly recommend hashtags.

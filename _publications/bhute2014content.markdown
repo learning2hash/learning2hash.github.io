@@ -1,13 +1,13 @@
 ---
-layout: publication
-title: Content Based Image Indexing and Retrieval
-authors: Bhute Avinash N, Meshram B. B.
-conference: IJGIP
-year: 2014
-bibkey: bhute2014content
-additional_links:
-   - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
+    layout: publication
+    title: "Content Based Image Indexing and Retrieval"
+    authors: Bhute Avinash N, Meshram B. B.
+    conference: IJGIP
+    year: 2014
+    bibkey: bhute2014content
+    additional_links:
+       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
    - {name: "Paper", url: "https://arxiv.org/abs/1401.1742"}
-tags: ['IJGIP', 'TOM', 'Image Retrieval', 'TIP']
----
-In this paper, we present the efficient content based image retrieval systems which employ the color, texture and shape information of images to facilitate the retrieval process. For efficient feature extraction, we extract the color, texture and shape feature of images automatically using edge detection which is widely used in signal processing and image compression. For facilitated the speedy retrieval we are implements the antipole-tree algorithm for indexing the images.
+    tags: ['TIP', 'TOM', 'IJGIP', 'Image Retrieval']
+    ---
+    In this paper, we present the efficient content based image retrieval systems which employ the color, texture and shape information of images to facilitate the retrieval process. For efficient feature extraction, we extract the color, texture and shape feature of images automatically using edge detection which is widely used in signal processing and image compression. For facilitated the speedy retrieval we are implements the antipole-tree algorithm for indexing the images.

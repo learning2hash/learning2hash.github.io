@@ -1,14 +1,14 @@
 ---
-layout: publication
-title: Feature Representation Learning for Unsupervised Cross-domain Image Retrieval
-authors: Hu Conghui, Lee Gim Hee
-conference: Arxiv
-year: 2022
-bibkey: hu2022feature
-additional_links:
-   - {name: "License", url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"}
+    layout: publication
+    title: "Feature Representation Learning for Unsupervised Cross-domain Image Retrieval"
+    authors: Hu Conghui, Lee Gim Hee
+    conference: Arxiv
+    year: 2022
+    bibkey: hu2022feature
+    additional_links:
+       - {name: "License", url: "http://creativecommons.org/licenses/by-nc-sa/4.0/"}
    - {name: "Paper", url: "https://arxiv.org/abs/2207.09721"}
    - {name: "Code", url: "https://github.com/conghuihu/UCDIR."}
-tags: ['Arxiv', 'Image Retrieval', 'Unsupervised', 'Supervised']
----
-Current supervised cross-domain image retrieval methods can achieve excellent performance. However, the cost of data collection and labeling imposes an intractable barrier to practical deployment in real applications. In this paper, we investigate the unsupervised cross-domain image retrieval task, where class labels and pairing annotations are no longer a prerequisite for training. This is an extremely challenging task because there is no supervision for both in-domain feature representation learning and cross-domain alignment. We address both challenges by introducing: 1) a new cluster-wise contrastive learning mechanism to help extract class semantic-aware features, and 2) a novel distance-of-distance loss to effectively measure and minimize the domain discrepancy without any external supervision. Experiments on the Office-Home and DomainNet datasets consistently show the superior image retrieval accuracies of our framework over state-of-the-art approaches. Our source code can be found at https://github.com/conghuihu/UCDIR.
+    tags: ['Supervised', 'Arxiv', 'Image Retrieval', 'Unsupervised']
+    ---
+    Current supervised cross-domain image retrieval methods can achieve excellent performance. However, the cost of data collection and labeling imposes an intractable barrier to practical deployment in real applications. In this paper, we investigate the unsupervised cross-domain image retrieval task, where class labels and pairing annotations are no longer a prerequisite for training. This is an extremely challenging task because there is no supervision for both in-domain feature representation learning and cross-domain alignment. We address both challenges by introducing: 1) a new cluster-wise contrastive learning mechanism to help extract class semantic-aware features, and 2) a novel distance-of-distance loss to effectively measure and minimize the domain discrepancy without any external supervision. Experiments on the Office-Home and DomainNet datasets consistently show the superior image retrieval accuracies of our framework over state-of-the-art approaches. Our source code can be found at https://github.com/conghuihu/UCDIR.
