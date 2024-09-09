@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Locality Sensitive Hashing for Efficient Similar Polygon Retrieval
+authors: Kaplan Haim, Tenenbaum Jay
+conference: "Arxiv"
+year: 2021
+bibkey: kaplan2021locality
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/2101.04339"}
+tags: ['ARXIV', 'LSH']
+---
+Locality Sensitive Hashing (LSH) is an effective method of indexing a set of items to support efficient nearest neighbors queries in high-dimensional spaces. The basic idea of LSH is that similar items should produce hash collisions with higher probability than dissimilar items. We study LSH for (not necessarily convex) polygons and use it to give efficient data structures for similar shape retrieval. Arkin et al. represent polygons by their turning function - a function which follows the angle between the polygons tangent and the x -axis while traversing the perimeter of the polygon. They define the distance between polygons to be variations of the L_p (for p=12) distance between their turning functions. This metric is invariant under translation rotation and scaling (and the selection of the initial point on the perimeter) and therefore models well the intuitive notion of shape resemblance. We develop and analyze LSH near neighbor data structures for several variations of the L_p distance for functions (for p=12). By applying our schemes to the turning functions of a collection of polygons we obtain efficient near neighbor LSH-based structures for polygons. To tune our structures to turning functions of polygons we prove some new properties of these turning functions that may be of independent interest. As part of our analysis we address the following problem which is of independent interest. Find the vertical translation of a function f that is closest in L_1 distance to a function g . We prove tight bounds on the approximation guarantee obtained by the translation which is equal to the difference between the averages of g and f .
