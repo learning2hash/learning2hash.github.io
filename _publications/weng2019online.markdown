@@ -1,15 +1,12 @@
 ---
-    layout: publication
-    title: "Online Hashing with Efficient Updating of Binary Codes"
-    authors: Weng Zhenyu, Zhu Yuesheng
-    conference: Arxiv
-    year: 2019
-    bibkey: weng2019online
-    additional_links:
-       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
-   - {name: "Paper", url: "https://arxiv.org/abs/1911.12125"}
-    tags: ['Streaming Data', 'Arxiv', 'Image Retrieval']
-    ---
-    {% raw %}
-    Online hashing methods are efficient in learning the hash functions from the streaming data. However, when the hash functions change, the binary codes for the database have to be recomputed to guarantee the retrieval accuracy. Recomputing the binary codes by accumulating the whole database brings a timeliness challenge to the online retrieval process. In this paper, we propose a novel online hashing framework to update the binary codes efficiently without accumulating the whole database. In our framework, the hash functions are fixed and the projection functions are introduced to learn online from the streaming data. Therefore, inefficient updating of the binary codes by accumulating the whole database can be transformed to efficient updating of the binary codes by projecting the binary codes into another binary space. The queries and the binary code database are projected asymmetrically to further improve the retrieval accuracy. The experiments on two multi-label image databases demonstrate the effectiveness and the efficiency of our method for multi-label image retrieval.
-    {% endraw %}
+layout: publication
+title: "Online Hashing with Efficient Updating of Binary Codes"
+authors: Weng Zhenyu, Zhu Yuesheng
+conference: Arxiv
+year: 2019
+bibkey: weng2019online
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1911.12125"}
+tags: ['ARXIV', 'Image Retrieval', 'Streaming Data']
+---
+Online hashing methods are efficient in learning the hash functions from the streaming data. However, when the hash functions change, the binary codes for the database have to be recomputed to guarantee the retrieval accuracy. Recomputing the binary codes by accumulating the whole database brings a timeliness challenge to the online retrieval process. In this paper, we propose a novel online hashing framework to update the binary codes efficiently without accumulating the whole database. In our framework, the hash functions are fixed and the projection functions are introduced to learn online from the streaming data. Therefore, inefficient updating of the binary codes by accumulating the whole database can be transformed to efficient updating of the binary codes by projecting the binary codes into another binary space. The queries and the binary code database are projected asymmetrically to further improve the retrieval accuracy. The experiments on two multi-label image databases demonstrate the effectiveness and the efficiency of our method for multi-label image retrieval.

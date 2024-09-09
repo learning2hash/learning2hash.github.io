@@ -1,15 +1,12 @@
 ---
-    layout: publication
-    title: "Language in Our Time: An Empirical Analysis of Hashtags"
-    authors: Zhang Yang
-    conference: Arxiv
-    year: 2019
-    bibkey: zhang2019language
-    additional_links:
-       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
-   - {name: "Paper", url: "https://arxiv.org/abs/1905.04590"}
-    tags: ['Arxiv', 'Graph']
-    ---
-    {% raw %}
-    Hashtags in online social networks have gained tremendous popularity during the past five years. The resulting large quantity of data has provided a new lens into modern society. Previously, researchers mainly rely on data collected from Twitter to study either a certain type of hashtags or a certain property of hashtags. In this paper, we perform the first large-scale empirical analysis of hashtags shared on Instagram, the major platform for hashtag-sharing. We study hashtags from three different dimensions including the temporal-spatial dimension, the semantic dimension, and the social dimension. Extensive experiments performed on three large-scale datasets with more than 7 million hashtags in total provide a series of interesting observations. First, we show that the temporal patterns of hashtags can be categorized into four different clusters, and people tend to share fewer hashtags at certain places and more hashtags at others. Second, we observe that a non-negligible proportion of hashtags exhibit large semantic displacement. We demonstrate hashtags that are more uniformly shared among users, as quantified by the proposed hashtag entropy, are less prone to semantic displacement. In the end, we propose a bipartite graph embedding model to summarize users' hashtag profiles, and rely on these profiles to perform friendship prediction. Evaluation results show that our approach achieves an effective prediction with AUC (area under the ROC curve) above 0.8 which demonstrates the strong social signals possessed in hashtags.
-    {% endraw %}
+layout: publication
+title: "Language in Our Time: An Empirical Analysis of Hashtags"
+authors: Zhang Yang
+conference: Arxiv
+year: 2019
+bibkey: zhang2019language
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1905.04590"}
+tags: ['ARXIV', 'Graph']
+---
+Hashtags in online social networks have gained tremendous popularity during the past five years. The resulting large quantity of data has provided a new lens into modern society. Previously, researchers mainly rely on data collected from Twitter to study either a certain type of hashtags or a certain property of hashtags. In this paper, we perform the first large-scale empirical analysis of hashtags shared on Instagram, the major platform for hashtag-sharing. We study hashtags from three different dimensions including the temporal-spatial dimension, the semantic dimension, and the social dimension. Extensive experiments performed on three large-scale datasets with more than 7 million hashtags in total provide a series of interesting observations. First, we show that the temporal patterns of hashtags can be categorized into four different clusters, and people tend to share fewer hashtags at certain places and more hashtags at others. Second, we observe that a non-negligible proportion of hashtags exhibit large semantic displacement. We demonstrate hashtags that are more uniformly shared among users, as quantified by the proposed hashtag entropy, are less prone to semantic displacement. In the end, we propose a bipartite graph embedding model to summarize users' hashtag profiles, and rely on these profiles to perform friendship prediction. Evaluation results show that our approach achieves an effective prediction with AUC (area under the ROC curve) above 0.8 which demonstrates the strong social signals possessed in hashtags.

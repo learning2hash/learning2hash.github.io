@@ -1,15 +1,12 @@
 ---
-    layout: publication
-    title: "Unsupervised Neural Generative Semantic Hashing"
-    authors: Hansen Casper, Hansen Christian, Simonsen Jakob Grue, Alstrup Stephen, Lioma Christina
-    conference: Arxiv
-    year: 2019
-    bibkey: hansen2019unsupervised
-    additional_links:
-       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
-   - {name: "Paper", url: "https://arxiv.org/abs/1906.00671"}
-    tags: ['Supervised', 'Arxiv', 'Unsupervised']
-    ---
-    {% raw %}
-    Fast similarity search is a key component in large-scale information retrieval, where semantic hashing has become a popular strategy for representing documents as binary hash codes. Recent advances in this area have been obtained through neural network based models: generative models trained by learning to reconstruct the original documents. We present a novel unsupervised generative semantic hashing approach, \textit{Ranking based Semantic Hashing} (RBSH) that consists of both a variational and a ranking based component. Similarly to variational autoencoders, the variational component is trained to reconstruct the original document conditioned on its generated hash code, and as in prior work, it only considers documents individually. The ranking component solves this limitation by incorporating inter-document similarity into the hash code generation, modelling document ranking through a hinge loss. To circumvent the need for labelled data to compute the hinge loss, we use a weak labeller and thus keep the approach fully unsupervised. Extensive experimental evaluation on four publicly available datasets against traditional baselines and recent state-of-the-art methods for semantic hashing shows that RBSH significantly outperforms all other methods across all evaluated hash code lengths. In fact, RBSH hash codes are able to perform similarly to state-of-the-art hash codes while using 2-4x fewer bits.
-    {% endraw %}
+layout: publication
+title: "Unsupervised Neural Generative Semantic Hashing"
+authors: Hansen Casper, Hansen Christian, Simonsen Jakob Grue, Alstrup Stephen, Lioma Christina
+conference: Arxiv
+year: 2019
+bibkey: hansen2019unsupervised
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1906.00671"}
+tags: ['ARXIV', 'Supervised', 'Unsupervised']
+---
+Fast similarity search is a key component in large-scale information retrieval, where semantic hashing has become a popular strategy for representing documents as binary hash codes. Recent advances in this area have been obtained through neural network based models: generative models trained by learning to reconstruct the original documents. We present a novel unsupervised generative semantic hashing approach, \textit{Ranking based Semantic Hashing} (RBSH) that consists of both a variational and a ranking based component. Similarly to variational autoencoders, the variational component is trained to reconstruct the original document conditioned on its generated hash code, and as in prior work, it only considers documents individually. The ranking component solves this limitation by incorporating inter-document similarity into the hash code generation, modelling document ranking through a hinge loss. To circumvent the need for labelled data to compute the hinge loss, we use a weak labeller and thus keep the approach fully unsupervised. Extensive experimental evaluation on four publicly available datasets against traditional baselines and recent state-of-the-art methods for semantic hashing shows that RBSH significantly outperforms all other methods across all evaluated hash code lengths. In fact, RBSH hash codes are able to perform similarly to state-of-the-art hash codes while using 2-4x fewer bits.

@@ -1,15 +1,12 @@
 ---
-    layout: publication
-    title: "Permutation Search Methods are Efficient, Yet Faster Search is Possible"
-    authors: Naidan Bilegsaikhan, Boytsov Leonid, Nyberg Eric
-    conference: Arxiv
-    year: 2015
-    bibkey: naidan2015permutation
-    additional_links:
-       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
-   - {name: "Paper", url: "https://arxiv.org/abs/1506.03163"}
-    tags: ['Survey Paper', 'Arxiv', 'LSH', 'Graph']
-    ---
-    {% raw %}
-    We survey permutation-based methods for approximate k-nearest neighbor search. In these methods, every data point is represented by a ranked list of pivots sorted by the distance to this point. Such ranked lists are called permutations. The underpinning assumption is that, for both metric and non-metric spaces, the distance between permutations is a good proxy for the distance between original points. Thus, it should be possible to efficiently retrieve most true nearest neighbors by examining only a tiny subset of data points whose permutations are similar to the permutation of a query. We further test this assumption by carrying out an extensive experimental evaluation where permutation methods are pitted against state-of-the art benchmarks (the multi-probe LSH, the VP-tree, and proximity-graph based retrieval) on a variety of realistically large data set from the image and textual domain. The focus is on the high-accuracy retrieval methods for generic spaces. Additionally, we assume that both data and indices are stored in main memory. We find permutation methods to be reasonably efficient and describe a setup where these methods are most useful. To ease reproducibility, we make our software and data sets publicly available.
-    {% endraw %}
+layout: publication
+title: "Permutation Search Methods are Efficient, Yet Faster Search is Possible"
+authors: Naidan Bilegsaikhan, Boytsov Leonid, Nyberg Eric
+conference: Arxiv
+year: 2015
+bibkey: naidan2015permutation
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1506.03163"}
+tags: ['ARXIV', 'Graph', 'LSH', 'Survey Paper']
+---
+We survey permutation-based methods for approximate k-nearest neighbor search. In these methods, every data point is represented by a ranked list of pivots sorted by the distance to this point. Such ranked lists are called permutations. The underpinning assumption is that, for both metric and non-metric spaces, the distance between permutations is a good proxy for the distance between original points. Thus, it should be possible to efficiently retrieve most true nearest neighbors by examining only a tiny subset of data points whose permutations are similar to the permutation of a query. We further test this assumption by carrying out an extensive experimental evaluation where permutation methods are pitted against state-of-the art benchmarks (the multi-probe LSH, the VP-tree, and proximity-graph based retrieval) on a variety of realistically large data set from the image and textual domain. The focus is on the high-accuracy retrieval methods for generic spaces. Additionally, we assume that both data and indices are stored in main memory. We find permutation methods to be reasonably efficient and describe a setup where these methods are most useful. To ease reproducibility, we make our software and data sets publicly available.

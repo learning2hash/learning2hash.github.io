@@ -1,16 +1,12 @@
 ---
-    layout: publication
-    title: "Locality-Sensitive Hashing for Efficient Web Application Security Testing"
-    authors: Ben-Bassat Ilan, Rokah Erez
-    conference: In Proceedings of the
-    year: 2020
-    bibkey: benbassat2020locality
-    additional_links:
-       - {name: "DOI", url: "10.5220/0007255301930204"}
-   - {name: "License", url: "http://creativecommons.org/licenses/by/4.0/"}
-   - {name: "Paper", url: "https://arxiv.org/abs/2001.01128"}
-    tags: ['In Proceedings of the', 'ACL', 'TOM']
-    ---
-    {% raw %}
-    Web application security has become a major concern in recent years, as more and more content and services are available online. A useful method for identifying security vulnerabilities is black-box testing, which relies on an automated crawling of web applications. However, crawling Rich Internet Applications (RIAs) is a very challenging task. One of the key obstacles crawlers face is the state similarity problem: how to determine if two client-side states are equivalent. As current methods do not completely solve this problem, a successful scan of many real-world RIAs is still not possible. We present a novel approach to detect redundant content for security testing purposes. The algorithm applies locality-sensitive hashing using MinHash sketches in order to analyze the Document Object Model (DOM) structure of web pages, and to efficiently estimate similarity between them. Our experimental results show that this approach allows a successful scan of RIAs that cannot be crawled otherwise.
-    {% endraw %}
+layout: publication
+title: "Locality-Sensitive Hashing for Efficient Web Application Security Testing"
+authors: Ben-Bassat Ilan, Rokah Erez
+conference: In Proceedings of the
+year: 2020
+bibkey: benbassat2020locality
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/2001.01128"}
+tags: ['ACL', 'TOM']
+---
+Web application security has become a major concern in recent years, as more and more content and services are available online. A useful method for identifying security vulnerabilities is black-box testing, which relies on an automated crawling of web applications. However, crawling Rich Internet Applications (RIAs) is a very challenging task. One of the key obstacles crawlers face is the state similarity problem: how to determine if two client-side states are equivalent. As current methods do not completely solve this problem, a successful scan of many real-world RIAs is still not possible. We present a novel approach to detect redundant content for security testing purposes. The algorithm applies locality-sensitive hashing using MinHash sketches in order to analyze the Document Object Model (DOM) structure of web pages, and to efficiently estimate similarity between them. Our experimental results show that this approach allows a successful scan of RIAs that cannot be crawled otherwise.

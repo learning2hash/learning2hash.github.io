@@ -1,15 +1,12 @@
 ---
-    layout: publication
-    title: "Revisiting compact RDF stores based on k2-trees"
-    authors: Brisaboa Nieves R., Cerdeira-Pena Ana, de Bernardo Guillermo, Fariña Antonio
-    conference: Arxiv
-    year: 2020
-    bibkey: brisaboa2020revisiting
-    additional_links:
-       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
-   - {name: "Paper", url: "https://arxiv.org/abs/2002.11622"}
-    tags: ['Arxiv']
-    ---
-    {% raw %}
-    We present a new compact representation to efficiently store and query large RDF datasets in main memory. Our proposal, called BMatrix, is based on the k2-tree, a data structure devised to represent binary matrices in a compressed way, and aims at improving the results of previous state-of-the-art alternatives, especially in datasets with a relatively large number of predicates. We introduce our technique, together with some improvements on the basic k2-tree that can be applied to our solution in order to boost compression. Experimental results in the flagship RDF dataset DBPedia show that our proposal achieves better compression than existing alternatives, while yielding competitive query times, particularly in the most frequent triple patterns and in queries with unbound predicate, in which we outperform existing solutions.
-    {% endraw %}
+layout: publication
+title: "Revisiting compact RDF stores based on k2-trees"
+authors: Brisaboa Nieves R., Cerdeira-Pena Ana, de Bernardo Guillermo, Fariña Antonio
+conference: Arxiv
+year: 2020
+bibkey: brisaboa2020revisiting
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/2002.11622"}
+tags: ['ARXIV']
+---
+We present a new compact representation to efficiently store and query large RDF datasets in main memory. Our proposal, called BMatrix, is based on the k2-tree, a data structure devised to represent binary matrices in a compressed way, and aims at improving the results of previous state-of-the-art alternatives, especially in datasets with a relatively large number of predicates. We introduce our technique, together with some improvements on the basic k2-tree that can be applied to our solution in order to boost compression. Experimental results in the flagship RDF dataset DBPedia show that our proposal achieves better compression than existing alternatives, while yielding competitive query times, particularly in the most frequent triple patterns and in queries with unbound predicate, in which we outperform existing solutions.

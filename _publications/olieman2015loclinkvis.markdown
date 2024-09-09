@@ -1,15 +1,12 @@
 ---
-    layout: publication
-    title: "LocLinkVis: A Geographic Information Retrieval-Based System for Large-Scale Exploratory Search"
-    authors: Olieman Alex, Kamps Jaap, Claros Rosa Merino
-    conference: Proc. Posters and Demos Track of
-    year: 2015
-    bibkey: olieman2015loclinkvis
-    additional_links:
-       - {name: "License", url: "http://arxiv.org/licenses/nonexclusive-distrib/1.0/"}
-   - {name: "Paper", url: "https://arxiv.org/abs/1509.02010"}
-    tags: ['Proc. Posters and Demos Track of', 'Graph']
-    ---
-    {% raw %}
-    In this paper we present LocLinkVis (Locate-Link-Visualize); a system which supports exploratory information access to a document collection based on geo-referencing and visualization. It uses a gazetteer which contains representations of places ranging from countries to buildings, and that is used to recognize toponyms, disambiguate them into places, and to visualize the resulting spatial footprints.
-    {% endraw %}
+layout: publication
+title: "LocLinkVis: A Geographic Information Retrieval-Based System for Large-Scale Exploratory Search"
+authors: Olieman Alex, Kamps Jaap, Claros Rosa Merino
+conference: Proc. Posters and Demos Track of
+year: 2015
+bibkey: olieman2015loclinkvis
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1509.02010"}
+tags: ['Graph']
+---
+In this paper we present LocLinkVis (Locate-Link-Visualize); a system which supports exploratory information access to a document collection based on geo-referencing and visualization. It uses a gazetteer which contains representations of places ranging from countries to buildings, and that is used to recognize toponyms, disambiguate them into places, and to visualize the resulting spatial footprints.
