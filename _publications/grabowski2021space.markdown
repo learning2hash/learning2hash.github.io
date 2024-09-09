@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Space-Efficient Huffman Codes Revisited
+authors: Grabowski Szymon, Köppl Dominik
+conference: "Arxiv"
+year: 2021
+bibkey: grabowski2021space
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/2108.05495"}
+tags: ['ARXIV', 'Graph']
+---
+Canonical Huffman code is an optimal prefix-free compression code whose codewords enumerated in the lexicographical order form a list of binary words in non-decreasing lengths. Gagie et al. (2015) gave a representation of this coding capable to encode or decode a symbol in constant worst case time. It uses \sigma \lg \ell_ + o(\sigma) + O(\ell_^2) bits of space, where \sigma and \ell_ are the alphabet size and maximum codeword length, respectively. We refine their representation to reduce the space complexity to \sigma \lg \ell_ (1 + o(1)) bits while preserving the constant encode and decode times. Our algorithmic idea can be applied to any canonical code.
