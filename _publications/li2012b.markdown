@@ -1,0 +1,12 @@
+---
+layout: publication
+title: "b-Bit Minwise Hashing in Practice: Large-Scale Batch and Online Learning and Using GPUs for Fast Preprocessing with Simple Hash Functions"
+authors: Li Ping, Shrivastava Anshumali, Konig Arnd Christian
+conference: Arxiv
+year: 2012
+bibkey: li2012b
+additional_links:
+- {name: "Paper", url: "https://arxiv.org/abs/1205.2958"}
+tags: ['ARXIV']
+---
+In this paper, we study several critical issues which must be tackled before one can apply b-bit minwise hashing to the volumes of data often used industrial applications, especially in the context of search. 1. (b-bit) Minwise hashing requires an expensive preprocessing step that computes k (e.g., 500) minimal values after applying the corresponding permutations for each data vector. We developed a parallelization scheme using GPUs and observed that the preprocessing time can be reduced by a factor of 20-80 and becomes substantially smaller than the data loading time. 2. One major advantage of b-bit minwise hashing is that it can substantially reduce the amount of memory required for batch learning. However, as online algorithms become increasingly popular for large-scale learning in the context of search, it is not clear if b-bit minwise yields significant improvements for them. This paper demonstrates that $b$-bit minwise hashing provides an effective data size/dimension reduction scheme and hence it can dramatically reduce the data loading time for each epoch of the online training process. This is significant because online learning often requires many (e.g., 10 to 100) epochs to reach a sufficient accuracy. 3. Another critical issue is that for very large data sets it becomes impossible to store a (fully) random permutation matrix, due to its space requirements. Our paper is the first study to demonstrate that $b$-bit minwise hashing implemented using simple hash functions, e.g., the 2-universal (2U) and 4-universal (4U) hash families, can produce very similar learning results as using fully random permutations. Experiments on datasets of up to 200GB are presented.

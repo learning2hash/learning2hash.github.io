@@ -1,0 +1,12 @@
+---
+layout: publication
+title: "Elliptic Curve Multiset Hash"
+authors: Maitin-Shepard Jeremy, Tibouchi Mehdi, Aranha Diego
+conference: Arxiv
+year: 2016
+bibkey: maitinshepard2016elliptic
+additional_links:
+- {name: "Paper", url: "https://arxiv.org/abs/1601.06502"}
+tags: ['ARXIV']
+---
+A homomorphic, or incremental, multiset hash function, associates a hash value to arbitrary collections of objects (with possible repetitions) in such a way that the hash of the union of two collections is easy to compute from the hashes of the two collections themselves: it is simply their sum under a suitable group operation. In particular, hash values of large collections can be computed incrementally and/or in parallel. Homomorphic hashing is thus a very useful primitive with applications ranging from database integrity verification to streaming set/multiset comparison and network coding. Unfortunately, constructions of homomorphic hash functions in the literature are hampered by two main drawbacks: they tend to be much longer than usual hash functions at the same security level (e.g. to achieve a collision resistance of 2^128, they are several thousand bits long, as opposed to 256 bits for usual hash functions), and they are also quite slow. In this paper, we introduce the Elliptic Curve Multiset Hash (ECMH), which combines a usual bit string-valued hash function like BLAKE2 with an efficient encoding into binary elliptic curves to overcome both difficulties. On the one hand, the size of ECMH digests is essentially optimal: 2m-bit hash values provide O(2^m) collision resistance. On the other hand, we demonstrate a highly-efficient software implementation of ECMH, which our thorough empirical evaluation shows to be capable of processing over 3 million set elements per second on a 4 GHz Intel Haswell machine at the 128-bit security level---many times faster than previous practical methods.

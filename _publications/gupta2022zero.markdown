@@ -1,0 +1,12 @@
+---
+layout: publication
+title: "Zero-Shot Sketch Based Image Retrieval using Graph Transformer"
+authors: Gupta Sumrit, Chaudhuri Ushasi, Banerjee Biplab
+conference: Arxiv
+year: 2022
+bibkey: gupta2022zero
+additional_links:
+- {name: "Paper", url: "https://arxiv.org/abs/2201.10185"}
+tags: ['ARXIV', 'Graph', 'Image Retrieval']
+---
+The performance of a zero-shot sketch-based image retrieval (ZS-SBIR) task is primarily affected by two challenges. The substantial domain gap between image and sketch features needs to be bridged, while at the same time the side information has to be chosen tactfully. Existing literature has shown that varying the semantic side information greatly affects the performance of ZS-SBIR. To this end, we propose a novel graph transformer based zero-shot sketch-based image retrieval (GTZSR) framework for solving ZS-SBIR tasks which uses a novel graph transformer to preserve the topology of the classes in the semantic space and propagates the context-graph of the classes within the embedding features of the visual space. To bridge the domain gap between the visual features, we propose minimizing the Wasserstein distance between images and sketches in a learned domain-shared space. We also propose a novel compatibility loss that further aligns the two visual domains by bridging the domain gap of one class with respect to the domain gap of all other classes in the training set. Experimental results obtained on the extended Sketchy, TU-Berlin, and QuickDraw datasets exhibit sharp improvements over the existing state-of-the-art methods in both ZS-SBIR and generalized ZS-SBIR.
