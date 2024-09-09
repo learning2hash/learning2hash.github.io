@@ -2,7 +2,7 @@
 layout: default
 title: Hashing and Its Role in RAG for Large Language Models
 ---
-# Hashing and Its Role in Enhancing Retrieval-Augmented Generation for Large Language Models
+# Hashing and Retrieval-Augmented Generation for Large Language Models
 
 ### What are LLMs and RAG, and How Does Hashing Relate?
 
@@ -11,18 +11,6 @@ title: Hashing and Its Role in RAG for Large Language Models
 This is where **Retrieval-Augmented Generation (RAG)** comes in. RAG systems augment LLMs by retrieving relevant information from a large external knowledge base and incorporating that data into the generated response. The retrieval process ensures that LLMs are more accurate and context-aware by pulling in fresh, relevant information from vast datasets.
 
 **Hashing** plays a vital role in RAG by making the retrieval process efficient. In RAG systems, data such as text embeddings is transformed into high-dimensional vectors. Hashing converts these vectors into compact binary representations, allowing for faster and more scalable retrieval. By mapping similar data points to the same or nearby hash codes, hashing enables LLMs to quickly retrieve relevant information from large datasets, which is essential for fast response generation.
-
-### How Hashing Works in RAG
-
-In RAG systems, LLMs retrieve relevant external data to supplement their outputs. When a query is processed, both the query and the knowledge base are represented as vectors in a high-dimensional space. Hashing transforms these vectors into binary codes, allowing for fast comparison and retrieval of similar data points. This speeds up the retrieval process, eliminating the need for brute-force comparisons across the entire dataset, which is crucial for RAG applications in LLMs.
-
-### Benefits of Hashing in RAG for LLMs
-
-- **Reduced Query Latency**: Hashing transforms high-dimensional data into compact binary codes, reducing retrieval times. This enables faster response times for LLMs.
-  
-- **Scalability**: As LLMs handle larger datasets, hashing ensures efficient retrieval at scale by enabling sublinear-time nearest neighbor searches. This makes RAG systems scalable for handling large knowledge bases.
-
-- **Balanced Trade-offs**: Hashing offers a good balance between retrieval speed and accuracy, ensuring LLMs can retrieve relevant data quickly with minimal computational overhead.
 
 ---
 
