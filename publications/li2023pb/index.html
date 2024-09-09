@@ -6,10 +6,8 @@ conference: Arxiv
 year: 2023
 bibkey: li2023pb
 additional_links:
-   - {name: "License", url: "http://creativecommons.org/licenses/by/4.0/"}    - {name: "Paper", url: "https://arxiv.org/abs/2306.15944"}
-tags: ['Arxiv', 'Deep Learning']
+  - {name: "Paper", url: "https://arxiv.org/abs/2306.15944"}
+tags: ['ARXIV', 'Deep Learning']
 ---
-
 Many hashing algorithms including minwise hashing (MinHash), one permutation hashing (OPH), and consistent weighted sampling (CWS) generate integers of $B$ bits. With $k$ hashes for each data vector, the storage would be $B\times k$ bits; and when used for large-scale learning, the model size would be $2^B\times k$, which can be expensive. A standard strategy is to use only the lowest $b$ bits out of the $B$ bits and somewhat increase $k$, the number of hashes. In this study, we propose to re-use the hashes by partitioning the $B$ bits into $m$ chunks, e.g., $b\times m =B$. Correspondingly, the model size becomes $m\times 2^b \times k$, which can be substantially smaller than the original $2^B\times k$. Our theoretical analysis reveals that by partitioning the hash values into $m$ chunks, the accuracy would drop. In other words, using $m$ chunks of $B/m$ bits would not be as accurate as directly using $B$ bits. This is due to the correlation from re-using the same hash. On the other hand, our analysis also shows that the accuracy would not drop much for (e.g.,) $m=2\sim 4$. In some regions, Pb-Hash still works well even for $m$ much larger than 4. We expect Pb-Hash would be a good addition to the family of hashing methods/applications and benefit industrial practitioners. We verify the effectiveness of Pb-Hash in machine learning tasks, for linear SVM models as well as deep learning models. Since the hashed data are essentially categorical (ID) features, we follow the standard practice of using embedding tables for each hash. With Pb-Hash, we need to design an effective strategy to combine $m$ embeddings. Our study provides an empirical evaluation on four pooling schemes: concatenation, max pooling, mean pooling, and product pooling. There is no definite answer which pooling would be always better and we leave that for future study.
 </code></pre></div></div>
-
