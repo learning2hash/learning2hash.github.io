@@ -43,7 +43,7 @@ In essence, vector indexing focuses on efficient retrieval, while learning-to-ha
 
 #### Open Source Libraries
 
-1. **[Faiss]([https://github.com/facebookresearch/faiss](https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/))**: Developed by Meta AI, Faiss is a state-of-the-art library for efficient similarity search and clustering of dense vectors. It supports both CPU and GPU, making it ideal for billion-scale datasets&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}.
+1. **[Faiss](https://github.com/facebookresearch/faiss](https://engineering.fb.com/2017/03/29/data-infrastructure/faiss-a-library-for-efficient-similarity-search/))**: Developed by Meta AI, Faiss is a state-of-the-art library for efficient similarity search and clustering of dense vectors. It supports both CPU and GPU, making it ideal for billion-scale datasets&#8203;:contentReference[oaicite:0]{index=0}&#8203;:contentReference[oaicite:1]{index=1}.
    
 2. **[Annoy](https://github.com/spotify/annoy)**: Created by Spotify, Annoy (Approximate Nearest Neighbors Oh Yeah) is a C++ library with Python bindings, used for searching in high-dimensional spaces using trees and vector indexing&#8203;:contentReference[oaicite:2]{index=2}.
 
