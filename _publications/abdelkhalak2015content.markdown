@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Content-Based Bird Retrieval using Shape context Color moments and Bag of Features
+authors: Abdelkhalak Bahri, Zouaki Hamid
+conference: "Arxiv"
+year: 2015
+bibkey: abdelkhalak2015content
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1503.07816"}
+tags: ['ARXIV']
+---
+In this paper we propose a new descriptor for birds search. First our work was carried on the choice of a descriptor. This choice is usually driven by the application requirements such as robustness to noise stability with respect to bias the invariance to geometrical transformations or tolerance to occlusions. In this context we introduce a descriptor which combines the shape and color descriptors to have an effectiveness description of birds. The proposed descriptor is an adaptation of a descriptor based on the contours defined in article Belongie et al. 5 combined with color moments 19. Specifically points of interest are extracted from each image and informations in the region in the vicinity of these points are represented by descriptors of shape context concatenated with color moments. Thus the approach bag of visual words is applied to the latter. The experimental results show the effectiveness of our descriptor for the bird search by content.
