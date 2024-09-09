@@ -1,0 +1,12 @@
+---
+layout: publication
+title: "SHOE: Supervised Hashing with Output Embeddings"
+authors: Bondugula Sravanthi, Manjunatha Varun, Davis Larry S., Doermann David
+conference: Arxiv
+year: 2015
+bibkey: bondugula2015shoe
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1502.00030"}
+tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Supervised']
+---
+We present a supervised binary encoding scheme for image retrieval that learns projections by taking into account similarity between classes obtained from output embeddings. Our motivation is that binary hash codes learned in this way improve both the visual quality of retrieval results and existing supervised hashing schemes. We employ a sequential greedy optimization that learns relationship aware projections by minimizing the difference between inner products of binary codes and output embedding vectors. We develop a joint optimization framework to learn projections which improve the accuracy of supervised hashing over the current state of the art with respect to standard and sibling evaluation metrics. We further boost performance by applying the supervised dimensionality reduction technique on kernelized input CNN features. Experiments are performed on three datasets: CUB-2011, SUN-Attribute and ImageNet ILSVRC 2010. As a by-product of our method, we show that using a simple k-nn pooling classifier with our discriminative codes improves over the complex classification models on fine grained datasets like CUB and offer an impressive compression ratio of 1024 on CNN features.
