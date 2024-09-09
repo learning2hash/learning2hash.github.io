@@ -1,12 +1,12 @@
 ---
-layout: publication
-title: "Low-Level Features for Image Retrieval Based on Extraction of Directional Binary Patterns and Its Oriented Gradients Histogram"
-authors: S. Nagaraja, J. Prabhakar C.
-conference: Arxiv
-year: 2015
-bibkey: s2015low
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1503.03606"}
-tags: ['ARXIV', 'Image Retrieval']
----
-In this paper, we present a novel approach for image retrieval based on extraction of low level features using techniques such as Directional Binary Code, Haar Wavelet transform and Histogram of Oriented Gradients. The DBC texture descriptor captures the spatial relationship between any pair of neighbourhood pixels in a local region along a given direction, while Local Binary Patterns descriptor considers the relationship between a given pixel and its surrounding neighbours. Therefore, DBC captures more spatial information than LBP and its variants, also it can extract more edge information than LBP. Hence, we employ DBC technique in order to extract grey level texture feature from each RGB channels individually and computed texture maps are further combined which represents colour texture features of an image. Then, we decomposed the extracted colour texture map and original image using Haar wavelet transform. Finally, we encode the shape and local features of wavelet transformed images using Histogram of Oriented Gradients for content based image retrieval. The performance of proposed method is compared with existing methods on two databases such as Wang's corel image and Caltech 256. The evaluation results show that our approach outperforms the existing methods for image retrieval.
+    layout: publication
+    title: "Low-Level Features for Image Retrieval Based on Extraction of Directional Binary Patterns and Its Oriented Gradients Histogram"
+    authors: S. Nagaraja, J. Prabhakar C.
+    conference: Arxiv
+    year: 2015
+    bibkey: s2015low
+    additional_links:
+      - {name: "Paper", url: "https://arxiv.org/abs/1503.03606"}
+    tags: ['ARXIV', 'Image Retrieval']
+    ---
+    In this paper, we present a novel approach for image retrieval based on extraction of low level features using techniques such as Directional Binary Code, Haar Wavelet transform and Histogram of Oriented Gradients. The DBC texture descriptor captures the spatial relationship between any pair of neighbourhood pixels in a local region along a given direction, while Local Binary Patterns descriptor considers the relationship between a given pixel and its surrounding neighbours. Therefore, DBC captures more spatial information than LBP and its variants, also it can extract more edge information than LBP. Hence, we employ DBC technique in order to extract grey level texture feature from each RGB channels individually and computed texture maps are further combined which represents colour texture features of an image. Then, we decomposed the extracted colour texture map and original image using Haar wavelet transform. Finally, we encode the shape and local features of wavelet transformed images using Histogram of Oriented Gradients for content based image retrieval. The performance of proposed method is compared with existing methods on two databases such as Wang's corel image and Caltech 256. The evaluation results show that our approach outperforms the existing methods for image retrieval.

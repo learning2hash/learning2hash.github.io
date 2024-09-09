@@ -1,12 +1,12 @@
 ---
-layout: publication
-title: "High Speed Hashing for Integers and Strings"
-authors: Thorup Mikkel
-conference: Arxiv
-year: 2015
-bibkey: thorup2015high
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1504.06804"}
-tags: ['ARXIV']
----
-These notes describe the most efficient hash functions currently known for hashing integers and strings. These modern hash functions are often an order of magnitude faster than those presented in standard text books. They are also simpler to implement, and hence a clear win in practice, but their analysis is harder. Some of the most practical hash functions have only appeared in theory papers, and some of them requires combining results from different theory papers. The goal here is to combine the information in lecture-style notes that can be used by theoreticians and practitioners alike, thus making these practical fruits of theory more widely accessible.
+    layout: publication
+    title: "High Speed Hashing for Integers and Strings"
+    authors: Thorup Mikkel
+    conference: Arxiv
+    year: 2015
+    bibkey: thorup2015high
+    additional_links:
+      - {name: "Paper", url: "https://arxiv.org/abs/1504.06804"}
+    tags: ['ARXIV']
+    ---
+    These notes describe the most efficient hash functions currently known for hashing integers and strings. These modern hash functions are often an order of magnitude faster than those presented in standard text books. They are also simpler to implement, and hence a clear win in practice, but their analysis is harder. Some of the most practical hash functions have only appeared in theory papers, and some of them requires combining results from different theory papers. The goal here is to combine the information in lecture-style notes that can be used by theoreticians and practitioners alike, thus making these practical fruits of theory more widely accessible.

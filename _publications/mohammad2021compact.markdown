@@ -1,12 +1,12 @@
 ---
-layout: publication
-title: "Compact Binary Fingerprint for Image Copy Re-Ranking"
-authors: Mohammad Nazar, Baber Junaid, Bakhtyar Maheen, Chandio Bilal Ahmed, Sanjrani Anwar Ali
-conference: Arxiv
-year: 2021
-bibkey: mohammad2021compact
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2109.07802"}
-tags: ['ARXIV']
----
-Image copy detection is challenging and appealing topic in computer vision and signal processing. Recent advancements in multimedia have made distribution of image across the global easy and fast: that leads to many other issues such as forgery and image copy retrieval. Local keypoint descriptors such as SIFT are used to represent the images, and based on those descriptors matching, images are matched and retrieved. Features are quantized so that searching/matching may be made feasible for large databases at the cost of accuracy loss. In this paper, we propose binary feature that is obtained by quantizing the SIFT into binary, and rank list is re-examined to remove the false positives. Experiments on challenging dataset shows the gain in accuracy and time.
+    layout: publication
+    title: "Compact Binary Fingerprint for Image Copy Re-Ranking"
+    authors: Mohammad Nazar, Baber Junaid, Bakhtyar Maheen, Chandio Bilal Ahmed, Sanjrani Anwar Ali
+    conference: Arxiv
+    year: 2021
+    bibkey: mohammad2021compact
+    additional_links:
+      - {name: "Paper", url: "https://arxiv.org/abs/2109.07802"}
+    tags: ['ARXIV']
+    ---
+    Image copy detection is challenging and appealing topic in computer vision and signal processing. Recent advancements in multimedia have made distribution of image across the global easy and fast: that leads to many other issues such as forgery and image copy retrieval. Local keypoint descriptors such as SIFT are used to represent the images, and based on those descriptors matching, images are matched and retrieved. Features are quantized so that searching/matching may be made feasible for large databases at the cost of accuracy loss. In this paper, we propose binary feature that is obtained by quantizing the SIFT into binary, and rank list is re-examined to remove the false positives. Experiments on challenging dataset shows the gain in accuracy and time.
