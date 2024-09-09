@@ -1,0 +1,12 @@
+---
+layout: publication
+title: "Feature Learning based Deep Supervised Hashing with Pairwise Labels"
+authors: Li Wu-Jun, Wang Sheng, Kang Wang-Cheng
+conference: Arxiv
+year: 2015
+bibkey: li2015feature
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1511.03855"}
+tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+---
+Recent years have witnessed wide application of hashing for large-scale image retrieval. However, most existing hashing methods are based on hand-crafted features which might not be optimally compatible with the hashing procedure. Recently, deep hashing methods have been proposed to perform simultaneous feature learning and hash-code learning with deep neural networks, which have shown better performance than traditional hashing methods with hand-crafted features. Most of these deep hashing methods are supervised whose supervised information is given with triplet labels. For another common application scenario with pairwise labels, there have not existed methods for simultaneous feature learning and hash-code learning. In this paper, we propose a novel deep hashing method, called deep pairwise-supervised hashing(DPSH), to perform simultaneous feature learning and hash-code learning for applications with pairwise labels. Experiments on real datasets show that our DPSH method can outperform other methods to achieve the state-of-the-art performance in image retrieval applications.
