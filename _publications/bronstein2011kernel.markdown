@@ -9,4 +9,7 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1111.0466"}
 tags: ['ARXIV']
 ---
-This paper presents a kernel formulation of the recently introduced diff-hash algorithm for the construction of similarity-sensitive hash functions. Our kernel diff-hash algorithm that shows superior performance on the problem of image feature descriptor matching.
+This paper presents a kernel formulation of the recently introduced diff-hash
+algorithm for the construction of similarity-sensitive hash functions. Our
+kernel diff-hash algorithm that shows superior performance on the problem of
+image feature descriptor matching.

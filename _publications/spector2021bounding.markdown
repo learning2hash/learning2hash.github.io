@@ -9,4 +9,13 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2111.14905"}
 tags: ['ARXIV']
 ---
-We introduce the RadixStringSpline (RSS) learned index structure for efficiently indexing strings. RSS is a tree of radix splines each indexing a fixed number of bytes. RSS approaches or exceeds the performance of traditional string indexes while using 7-70\$\times\$ less memory. RSS achieves this by using the minimal string prefix to sufficiently distinguish the data unlike most learned approaches which index the entire string. Additionally, the bounded-error nature of RSS accelerates the last mile search and also enables a memory-efficient hash-table lookup accelerator. We benchmark RSS on several real-world string datasets against ART and HOT. Our experiments suggest this line of research may be promising for future memory-intensive database applications.
+We introduce the RadixStringSpline (RSS) learned index structure for efficiently
+indexing strings. RSS is a tree of radix splines each indexing a fixed number of
+bytes. RSS approaches or exceeds the performance of traditional string indexes
+while using 7-70\$\times\$ less memory. RSS achieves this by using the minimal
+string prefix to sufficiently distinguish the data unlike most learned
+approaches which index the entire string. Additionally, the bounded-error nature
+of RSS accelerates the last mile search and also enables a memory-efficient
+hash-table lookup accelerator. We benchmark RSS on several real-world string
+datasets against ART and HOT. Our experiments suggest this line of research may
+be promising for future memory-intensive database applications.

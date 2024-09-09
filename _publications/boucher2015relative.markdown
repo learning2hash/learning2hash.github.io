@@ -9,4 +9,7 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1506.03262"}
 tags: ['ARXIV', 'Graph']
 ---
-Motivated by the problem of storing coloured de Bruijn graphs, we show how, if we can already support fast select queries on one string, then we can store a little extra information and support fairly fast select queries on a similar string.
+Motivated by the problem of storing coloured de Bruijn graphs, we show how, if
+we can already support fast select queries on one string, then we can store a
+little extra information and support fairly fast select queries on a similar
+string.

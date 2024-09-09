@@ -9,4 +9,8 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1102.3306"}
 tags: ['ARXIV', 'Graph']
 ---
-We study the problem of resolving a perhaps misspelled address of a location into geographic coordinates of latitude and longitude. Our data structure solves this problem within a few milliseconds even for misspelled and fragmentary queries. Compared to major geographic search engines such as Google or Bing we achieve results of significantly better quality.
+We study the problem of resolving a perhaps misspelled address of a location
+into geographic coordinates of latitude and longitude. Our data structure solves
+this problem within a few milliseconds even for misspelled and fragmentary
+queries. Compared to major geographic search engines such as Google or Bing we
+achieve results of significantly better quality.

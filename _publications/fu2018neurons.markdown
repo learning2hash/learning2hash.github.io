@@ -1,6 +1,7 @@
 ---
 layout: publication
-title: "Neurons Merging Layer: Towards Progressive Redundancy Reduction for Deep Supervised Hashing"
+title: "Neurons Merging Layer: Towards Progressive Redundancy Reduction for Deep
+Supervised Hashing"
 authors: Fu Chaoyou, Song Liangchen, Wu Xiang, Wang Guoli, He Ran
 conference: Arxiv
 year: 2018
@@ -9,4 +10,17 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1809.02302"}
 tags: ['ARXIV', 'Graph', 'Supervised', 'TIP']
 ---
-Deep supervised hashing has become an active topic in information retrieval. It generates hashing bits by the output neurons of a deep hashing network. During binary discretization, there often exists much redundancy between hashing bits that degenerates retrieval performance in terms of both storage and accuracy. This paper proposes a simple yet effective Neurons Merging Layer (NMLayer) for deep supervised hashing. A graph is constructed to represent the redundancy relationship between hashing bits that is used to guide the learning of a hashing network. Specifically, it is dynamically learned by a novel mechanism defined in our active and frozen phases. According to the learned relationship, the NMLayer merges the redundant neurons together to balance the importance of each output neuron. Moreover, multiple NMLayers are progressively trained for a deep hashing network to learn a more compact hashing code from a long redundant code. Extensive experiments on four datasets demonstrate that our proposed method outperforms state-of-the-art hashing methods.
+Deep supervised hashing has become an active topic in information retrieval. It
+generates hashing bits by the output neurons of a deep hashing network. During
+binary discretization, there often exists much redundancy between hashing bits
+that degenerates retrieval performance in terms of both storage and accuracy.
+This paper proposes a simple yet effective Neurons Merging Layer (NMLayer) for
+deep supervised hashing. A graph is constructed to represent the redundancy
+relationship between hashing bits that is used to guide the learning of a
+hashing network. Specifically, it is dynamically learned by a novel mechanism
+defined in our active and frozen phases. According to the learned relationship,
+the NMLayer merges the redundant neurons together to balance the importance of
+each output neuron. Moreover, multiple NMLayers are progressively trained for a
+deep hashing network to learn a more compact hashing code from a long redundant
+code. Extensive experiments on four datasets demonstrate that our proposed
+method outperforms state-of-the-art hashing methods.

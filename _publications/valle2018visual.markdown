@@ -9,4 +9,8 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1807.10204"}
 tags: ['ARXIV']
 ---
-This paper describes computational methods for the visual display and analysis of music information. We provide a concise description of software, music descriptors and data visualization techniques commonly used in music information retrieval. Finally, we provide use cases where the described software, descriptors and visualizations are showcased.
+This paper describes computational methods for the visual display and analysis
+of music information. We provide a concise description of software, music
+descriptors and data visualization techniques commonly used in music information
+retrieval. Finally, we provide use cases where the described software,
+descriptors and visualizations are showcased.

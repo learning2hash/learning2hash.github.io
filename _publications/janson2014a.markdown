@@ -9,4 +9,11 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1410.5967"}
 tags: ['ARXIV']
 ---
-We give a unified analysis of linear probing hashing with a general bucket size. We use both a combinatorial approach, giving exact formulas for generating functions, and a probabilistic approach, giving simple derivations of asymptotic results. Both approaches complement nicely, and give a good insight in the relation between linear probing and random walks. A key methodological contribution, at the core of Analytic Combinatorics, is the use of the symbolic method (based on q-calculus) to directly derive the generating functions to analyze.
+We give a unified analysis of linear probing hashing with a general bucket size.
+We use both a combinatorial approach, giving exact formulas for generating
+functions, and a probabilistic approach, giving simple derivations of asymptotic
+results. Both approaches complement nicely, and give a good insight in the
+relation between linear probing and random walks. A key methodological
+contribution, at the core of Analytic Combinatorics, is the use of the symbolic
+method (based on q-calculus) to directly derive the generating functions to
+analyze.

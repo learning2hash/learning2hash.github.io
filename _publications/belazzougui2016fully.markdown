@@ -9,4 +9,5 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1607.04909"}
 tags: ['ARXIV', 'Graph']
 ---
-We present a space- and time-efficient fully dynamic implementation de Bruijn graphs, which can also support fixed-length jumbled pattern matching.
+We present a space- and time-efficient fully dynamic implementation de Bruijn
+graphs, which can also support fixed-length jumbled pattern matching.

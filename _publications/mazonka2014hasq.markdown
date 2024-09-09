@@ -9,4 +9,6 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1412.4316"}
 tags: ['ARXIV']
 ---
-This paper describes a particular hash-based records linking chain scheme. This scheme is simple conceptually and easy to implement in software. It allows for a simple and secure way to transfer ownership of digital objects between peers.
+This paper describes a particular hash-based records linking chain scheme. This
+scheme is simple conceptually and easy to implement in software. It allows for a
+simple and secure way to transfer ownership of digital objects between peers.
