@@ -1,0 +1,31 @@
+---
+layout: publication
+title: "On Hashing-Based Approaches to Approximate DNF-Counting"
+authors: Meel Kuldeep S., Shrotri Aditya A., Vardi Moshe Y.
+conference: "Arxiv"
+year: 2017
+bibkey: meel2017on
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1710.05247"}
+tags: ['ARXIV']
+---
+Propositional model counting is a fundamental problem in artificial intelligence
+with a wide variety of applications, such as probabilistic inference, decision
+making under uncertainty, and probabilistic databases. Consequently, the problem
+is of theoretical as well as practical interest. When the constraints are
+expressed as DNF formulas, Monte Carlo-based techniques have been shown to
+provide a fully polynomial randomized approximation scheme (FPRAS). For CNF
+constraints, hashing-based approximation techniques have been demonstrated to be
+highly successful. Furthermore, it was shown that hashing-based techniques also
+yield an FPRAS for DNF counting without usage of Monte Carlo sampling. Our
+analysis, however, shows that the proposed hashing-based approach to DNF
+counting provides poor time complexity compared to the Monte Carlo-based DNF
+counting techniques. Given the success of hashing-based techniques for CNF
+constraints, it is natural to ask: Can hashing-based techniques provide an
+efficient FPRAS for DNF counting? In this paper, we provide a positive answer to
+this question. To this end, we introduce two novel algorithmic techniques:
+\emph{Symbolic Hashing} and \emph{Stochastic Cell Counting}, along with a new
+hash family of \emph{Row-Echelon hash functions}. These innovations allow us to
+design a hashing-based FPRAS for DNF counting of similar complexity (up to
+polylog factors) as that of prior works. Furthermore, we expect these techniques
+to have potential applications beyond DNF counting.

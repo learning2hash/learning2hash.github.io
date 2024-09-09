@@ -1,0 +1,29 @@
+---
+layout: publication
+title: "Asymmetric Minwise Hashing"
+authors: Shrivastava Anshumali, Li Ping
+conference: "Arxiv"
+year: 2014
+bibkey: shrivastava2014asymmetric
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1411.3787"}
+tags: ['ARXIV', 'LSH']
+---
+Minwise hashing (Minhash) is a widely popular indexing scheme in practice.
+Minhash is designed for estimating set resemblance and is known to be suboptimal
+in many applications where the desired measure is set overlap (i.e., inner
+product between binary vectors) or set containment. Minhash has inherent bias
+towards smaller sets, which adversely affects its performance in applications
+where such a penalization is not desirable. In this paper, we propose asymmetric
+minwise hashing (MH-ALSH), to provide a solution to this problem. The new scheme
+utilizes asymmetric transformations to cancel the bias of traditional minhash
+towards smaller sets, making the final "collision probability" monotonic in the
+inner product. Our theoretical comparisons show that for the task of retrieving
+with binary inner products asymmetric minhash is provably better than
+traditional minhash and other recently proposed hashing algorithms for general
+inner products. Thus, we obtain an algorithmic improvement over existing
+approaches in the literature. Experimental evaluations on four publicly
+available high-dimensional datasets validate our claims and the proposed scheme
+outperforms, often significantly, other hashing algorithms on the task of near
+neighbor retrieval with set containment. Our proposal is simple and easy to
+implement in practice.

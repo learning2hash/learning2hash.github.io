@@ -1,0 +1,22 @@
+---
+layout: publication
+title: "Compressed String Dictionaries"
+authors: Brisaboa Nieves R., Cánovas Rodrigo, Martínez-Prieto Miguel A., Navarro Gonzalo
+conference: "Arxiv"
+year: 2011
+bibkey: brisaboa2011compressed
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1101.5506"}
+tags: ['ARXIV', 'Graph']
+---
+The problem of storing a set of strings --- a string dictionary --- in compact
+form appears naturally in many cases. While classically it has represented a
+small part of the whole data to be processed (e.g., for Natural Language
+processing or for indexing text collections), more recent applications in Web
+engines, Web mining, RDF graphs, Internet routing, Bioinformatics, and many
+others, make use of very large string dictionaries, whose size is a significant
+fraction of the whole data. Thus novel approaches to compress them efficiently
+are necessary. In this paper we experimentally compare time and space
+performance of some existing alternatives, as well as new ones we propose. We
+show that space reductions of up to 20% of the original size of the strings is
+possible while supporting fast dictionary searches.
