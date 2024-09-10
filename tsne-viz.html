@@ -1,29 +1,3 @@
----
-layout: default
-title: Visualization of Publications on Learning To Hash
-description: A tSNE visualization of all the Learning to Hash papers
----
-
-<h2>2D Map of Papers</h2>
-<p>Each dot represents a paper in this survey. Hover over a dot to view the paper's details. Use the + and - buttons to zoom in and out, the ←, →, ↑, and ↓ buttons to pan across the visualization, and click on a dot to visit the paper's information page.</p>
-<div style="text-align: right;">
-    <label>Search </label><input type="text" spellcheck="false" id="filtermap"/>
-    <button id="zoom_in">+</button>
-    <button id="zoom_out">-</button>
-    <button id="reset_view">Reset</button><br>
-    <button id="pan_up">↑</button>
-    <button id="pan_left">←</button>
-    <button id="pan_right">→</button>
-    <button id="pan_down">↓</button>
-</div>
-<div id="paperviz"></div>
-
-Please consider <a href="/contributing.html">contributing</a> by updating the information of existing papers or adding new work.
-
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy.umd.min.js"></script>
-<script src="https://d3js.org/d3.v4.js"></script>
-
 <script>
 // Set the dimensions and margins of the graph
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
@@ -33,19 +7,18 @@ var margin = {top: 10, right: 30, bottom: 30, left: 60},
 var svg = d3.select("#paperviz")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    .attr("height", height + margin.top + margin.bottom);
 
 // Create a container that holds the plot (so that zoom affects the group and not the entire SVG)
-var container = svg.append("g");
+var container = svg.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // Create a zoom handler
 var zoom = d3.zoom()
   .scaleExtent([0.5, 20])  // Min and max zoom level
   .extent([[0, 0], [width, height]])
   .on("zoom", function(event) {
-    container.attr("transform", event.transform);
+    container.attr("transform", event.transform);  // Correctly reference container here
   });
 
 // Create a rect that catches mouse events for zooming and panning
