@@ -50,11 +50,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/belazzougui2018fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-09-09T14:30:21-05:00" />
+<meta property="article:published_time" content="2024-09-10T02:22:40-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast Prefix Search in Little Space with Applications" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-09-09T14:30:21-05:00","datePublished":"2024-09-09T14:30:21-05:00","description":"It has been shown in the indexing literature that there is an essential difference between prefix/range searches on the one hand and predecessor/rank searches on the other hand in that the former provably allows faster query resolution. Traditionally prefix search is solved by data structures that are also dictionaries—they actually contain the strings in S. For very large collections stored in slow-access memory we propose much more compact data structures that support prefix searches—they return the ranks of matching strings provided that string in S starts with the given prefix. In fact we show that our most space-efficient data structure is asymptotically space-optimal. Previously data structures such as String B-trees (and more complicated cache-oblivious string data structures) have implicitly supported weak prefix queries but they all have query time that grows logarithmically with the size of the string collection. In contrast our data structures are simple naturally cache-efficient and have query time that depends only on the length of the prefix all the way down to constant query time for strings that fit in one machine word. We give several applications of weak prefix searches including exact prefix counting and approximate counting of tuples matching conjunctive prefix conditions.","headline":"Fast Prefix Search in Little Space with Applications","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/belazzougui2018fast/"},"url":"https://learning2hash.github.io/publications/belazzougui2018fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-09-10T02:22:40-05:00","datePublished":"2024-09-10T02:22:40-05:00","description":"It has been shown in the indexing literature that there is an essential difference between prefix/range searches on the one hand and predecessor/rank searches on the other hand in that the former provably allows faster query resolution. Traditionally prefix search is solved by data structures that are also dictionaries—they actually contain the strings in S. For very large collections stored in slow-access memory we propose much more compact data structures that support prefix searches—they return the ranks of matching strings provided that string in S starts with the given prefix. In fact we show that our most space-efficient data structure is asymptotically space-optimal. Previously data structures such as String B-trees (and more complicated cache-oblivious string data structures) have implicitly supported weak prefix queries but they all have query time that grows logarithmically with the size of the string collection. In contrast our data structures are simple naturally cache-efficient and have query time that depends only on the length of the prefix all the way down to constant query time for strings that fit in one machine word. We give several applications of weak prefix searches including exact prefix counting and approximate counting of tuples matching conjunctive prefix conditions.","headline":"Fast Prefix Search in Little Space with Applications","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/belazzougui2018fast/"},"url":"https://learning2hash.github.io/publications/belazzougui2018fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -110,11 +110,8 @@ alt="Web-Stat web statistics"></a></noscript>
       <a class="sidebar-nav-item" href="/base-taxonomy/">Core Taxonomy</a>
       <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
       <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
-      <a class="sidebar-nav-item" href="/vector_indexing.html">LLMs, RAG & Hashing</a>
       <a class="sidebar-nav-item" href="/resources.md">Resources, Courses &#38; Events</a>
       <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
-      <a class="sidebar-nav-item" href="/contributors.html">Contributors</a>
-      <a class="sidebar-nav-item" href="/cite.html">How to Cite this Site</a>
     </nav>
 
     <div class="sidebar-item">
@@ -143,22 +140,6 @@ function search() {
   }
 }
 </script>
-
-<style>
-.sidebar {
-  position: fixed; /* Keeps the sidebar in place while scrolling */
-  top: 0;
-  bottom: 0;
-  width: 250px;
-  overflow-y: auto; /* Enables vertical scrolling */
-}
-
-.container.sidebar-sticky {
-  height: 100%; /* Full height for the sidebar */
-  max-height: 100vh; /* Restricts the sidebar height to the viewport */
-  overflow-y: auto; /* Scrolls when the content exceeds the height */
-}
-</style>
 
 
     <div class="content container">
