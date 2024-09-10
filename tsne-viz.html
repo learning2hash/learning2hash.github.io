@@ -143,12 +143,16 @@ function search() {
 
     <div class="content container">
       <h2>2D Map of Papers</h2>
-<p>Each dot represents one paper in this survey. Hover your mouse over each point to look at the details. Use the + and - buttons to zoom in and out and the < and > buttons to navigate. Click on a point to go to the paper information page.</p>
+<p>Each dot represents a paper in this survey. Hover over a dot to view the paper's details. Use the + and - buttons to zoom in and out, the ←, →, ↑, and ↓ buttons to pan across the visualization, and click on a dot to visit the paper's information page.</p>
 <div style="text-align: right;">
     <label>Search </label><input type="text" spellcheck="false" id="filtermap"/>
     <button id="zoom_in">+</button>
     <button id="zoom_out">-</button>
-    <button id="reset_view">Reset</button>
+    <button id="reset_view">Reset</button><br>
+    <button id="pan_up">↑</button>
+    <button id="pan_left">←</button>
+    <button id="pan_right">→</button>
+    <button id="pan_down">↓</button>
 </div>
 <div id="paperviz"></div>
 
@@ -171,16 +175,16 @@ var svg = d3.select("#paperviz")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
+// Create a container that holds the plot (so that zoom affects the group and not the entire SVG)
+var container = svg.append("g");
+
 // Create a zoom handler
 var zoom = d3.zoom()
   .scaleExtent([0.5, 20])  // Min and max zoom level
   .extent([[0, 0], [width, height]])
-  .on("zoom", zoomed);
-
-// Function for handling zoom/pan event
-function zoomed(event) {
-  container.attr("transform", event.transform);
-}
+  .on("zoom", function(event) {
+    container.attr("transform", event.transform);
+  });
 
 // Create a rect that catches mouse events for zooming and panning
 svg.append("rect")
@@ -190,13 +194,11 @@ svg.append("rect")
     .style("pointer-events", "all")
     .call(zoom);
 
-// Create a container that holds the plot (so that zoom affects the group and not the entire SVG)
-var container = svg.append("g");
-
 // Zoom-in and Zoom-out buttons functionality
 d3.select("#zoom_in").on("click", function() {
     svg.transition().call(zoom.scaleBy, 1.2);
 });
+
 d3.select("#zoom_out").on("click", function() {
     svg.transition().call(zoom.scaleBy, 0.8);
 });
@@ -206,7 +208,25 @@ d3.select("#reset_view").on("click", function() {
     svg.transition().call(zoom.transform, d3.zoomIdentity); // Reset to default
 });
 
-// Read the data
+// Pan up, down, left, and right functionality
+var panStep = 50;  // Define how far to pan with each click
+d3.select("#pan_left").on("click", function() {
+    svg.transition().call(zoom.translateBy, -panStep, 0);  // Pan left
+});
+
+d3.select("#pan_right").on("click", function() {
+    svg.transition().call(zoom.translateBy, panStep, 0);  // Pan right
+});
+
+d3.select("#pan_up").on("click", function() {
+    svg.transition().call(zoom.translateBy, 0, -panStep);  // Pan up
+});
+
+d3.select("#pan_down").on("click", function() {
+    svg.transition().call(zoom.translateBy, 0, panStep);  // Pan down
+});
+
+// Read the data and plot the points
 d3.json("./tsne.json", function(data) {
   var xExtent = d3.extent(data, function(d) { return d.tsne_embedding[0]; });
   var yExtent = d3.extent(data, function(d) { return d.tsne_embedding[1]; });
@@ -272,20 +292,6 @@ d3.json("./tsne.json", function(data) {
     .on("mousemove", mousemove)
     .on("mouseout", mouseout)
     .on("click", click_link);
-
-  var isMatch = function(d, searchTerm) {
-    if (searchTerm.length < 3) return false;
-    var allText = (d.title + " " + d.abstract + " " + d.tags.join(" ")).toLocaleLowerCase();
-    return allText.indexOf(searchTerm) != -1;
-  };
-
-  $("#filtermap").keyup(function(e) {
-    var searchTerm = $("#filtermap").val().toLocaleLowerCase();
-    var allPoints = d3.selectAll("circle");
-    allPoints.filter(dd => !isMatch(dd, searchTerm)).style("opacity", 0.1);
-    allPoints.filter(dd => isMatch(dd, searchTerm)).style("opacity", 1).style("fill", "#aa0000");
-  });
-
 });
 </script>
 
