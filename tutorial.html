@@ -142,200 +142,335 @@ function search() {
 
 
     <div class="content container">
-      <h1 id="learning-to-hash-a-step-by-step-tutorial">Learning to Hash: A Step-by-Step Tutorial</h1>
+      <h1 id="learning-to-hash-tutorial">Learning To Hash Tutorial</h1>
 
 <h3 id="overview">Overview</h3>
 
-<p>In this tutorial, we’ll explore a powerful learning-to-hash model and its application in image retrieval. Specifically, we will compare <strong>Graph Regularized Hashing (GRH)</strong>, a supervised hashing method, to <strong>Locality Sensitive Hashing (LSH)</strong> for image retrieval tasks.</p>
+<p>In this tutorial, we dive into a <a href="https://learning2hash.github.io/publications/moran2015agraph/">published learning to hash model</a> and compare its image retrieval performance against Locality Sensitive Hashing (LSH).</p>
 
-<p>We’ll walk through the implementation of GRH, study its performance on the CIFAR-10 dataset, and benchmark it against LSH. GRH, initially introduced by Moran and Lavrenko, has since been extended to cross-modal hashing, which we’ll touch on later.</p>
+<p>We will specifically explore the <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularized Hashing (GRH)</a> model by Moran and Lavrenko, a simple yet highly effective supervised hashing method for learning to hash. This model was later <a href="https://dl.acm.org/doi/abs/10.1145/2766462.2767816">extended for cross-modal hashing</a>.</p>
 
-<h3 id="what-youll-learn">What You’ll Learn</h3>
+<h3 id="preliminaries">Preliminaries</h3>
 
-<ul>
-  <li>Implementation of LSH and GRH in Python</li>
-  <li>Performance comparison using the CIFAR-10 dataset</li>
-  <li>Evaluation using precision at 10 and semantic nearest neighbor metrics</li>
-</ul>
+<p>The original MATLAB code for the GRH model by Moran and Lavrenko is available <a href="https://github.com/sjmoran/GRH">here</a>, but we’ll re-implement it in Python 3. We’ll train the model on the CIFAR-10 dataset and evaluate its performance using precision at 10 and semantic nearest neighbor evaluation, comparing it to LSH.</p>
 
-<h3 id="getting-started">Getting Started</h3>
-
-<h4 id="step-1-set-up-your-environment">Step 1: Set Up Your Environment</h4>
-
-<p>First, let’s create a Python virtual environment for this project. This will keep your dependencies organized and isolated:</p>
+<p>To get started, set up a virtual environment:</p>
 
 <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 <span class="nt">-m</span> venv ./hashing_tutorial
 <span class="nb">source </span>hashing_tutorial/bin/activate
 pip3 <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
 </code></pre></div></div>
 
-<h4 id="step-2-retrieve-and-pre-process-the-dataset">Step 2: Retrieve and Pre-process the Dataset</h4>
-
-<p>We’ll use the <strong>CIFAR-10 dataset</strong> for our hashing experiments, but instead of raw images, we’ll use the GIST features to represent the images.</p>
+<p>Next, we retrieve and preprocess the CIFAR-10 dataset. We’ll use pre-processed <a href="http://people.csail.mit.edu/torralba/code/spatialenvelope/">GIST</a> features for this task.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">scipy.io</span>
 <span class="kn">import</span> <span class="nn">os</span>
 <span class="kn">import</span> <span class="nn">requests</span>
 
-<span class="n">url</span> <span class="o">=</span> <span class="s">'https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=1'</span>
+<span class="c1"># Step 1: Download and save the pre-processed CIFAR-10 dataset
+</span><span class="n">url</span><span class="o">=</span><span class="s">'https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=1'</span>
 <span class="n">response</span> <span class="o">=</span> <span class="n">requests</span><span class="p">.</span><span class="n">get</span><span class="p">(</span><span class="n">url</span><span class="p">)</span>
 <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">os</span><span class="p">.</span><span class="n">path</span><span class="p">.</span><span class="n">join</span><span class="p">(</span><span class="s">"./"</span><span class="p">,</span> <span class="s">"Gist512CIFAR10.mat"</span><span class="p">),</span> <span class="s">'wb'</span><span class="p">)</span> <span class="k">as</span> <span class="n">f</span><span class="p">:</span>
     <span class="n">f</span><span class="p">.</span><span class="n">write</span><span class="p">(</span><span class="n">response</span><span class="p">.</span><span class="n">content</span><span class="p">)</span>
 
-<span class="n">mat</span> <span class="o">=</span> <span class="n">scipy</span><span class="p">.</span><span class="n">io</span><span class="p">.</span><span class="n">loadmat</span><span class="p">(</span><span class="s">'./Gist512CIFAR10.mat'</span><span class="p">)</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">mat</span><span class="p">[</span><span class="s">'X'</span><span class="p">]</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">Normalizer</span><span class="p">(</span><span class="n">norm</span><span class="o">=</span><span class="s">'l2'</span><span class="p">).</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">data</span> <span class="o">-</span> <span class="n">data</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="c1"># Step 2: Load the dataset
+</span><span class="n">mat</span> <span class="o">=</span> <span class="n">scipy</span><span class="p">.</span><span class="n">io</span><span class="p">.</span><span class="n">loadmat</span><span class="p">(</span><span class="s">'./Gist512CIFAR10.mat'</span><span class="p">)</span>
+
+<span class="c1"># Extract the data and class labels from the dataset
+</span><span class="n">data</span> <span class="o">=</span> <span class="n">mat</span><span class="p">[</span><span class="s">'X'</span><span class="p">]</span>
 <span class="n">classes</span> <span class="o">=</span> <span class="n">mat</span><span class="p">[</span><span class="s">'X_class'</span><span class="p">]</span>
+
+<span class="c1"># Step 3: Normalize the data to ensure it's ready for indexing
+</span><span class="kn">from</span> <span class="nn">sklearn.preprocessing</span> <span class="kn">import</span> <span class="n">Normalizer</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">Normalizer</span><span class="p">(</span><span class="n">norm</span><span class="o">=</span><span class="s">'l2'</span><span class="p">).</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>  <span class="c1"># L2 normalization
+</span><span class="n">data</span> <span class="o">=</span> <span class="n">data</span> <span class="o">-</span> <span class="n">data</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>  <span class="c1"># Mean centering the data
+</span></code></pre></div></div>
+<p>The code above does three things:</p>
+
+<ol>
+  <li>Downloads the pre-processed CIFAR-10 dataset.</li>
+  <li>Loads the data into memory using scipy.io.loadmat.</li>
+  <li>Normalizes the data using L2 normalization and mean-centers it. This step is crucial to ensure consistent indexing later.</li>
+</ol>
+
+<h3 id="quick-start">Quick Start</h3>
+<p>If you want to skip ahead, you can run the entire tutorial using this command:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">python3</span> <span class="n">hashing_tutorial</span><span class="p">.</span><span class="n">py</span> 
 </code></pre></div></div>
 
-<p>This code downloads the CIFAR-10 dataset and pre-processes it into GIST features. Normalization and mean centering are critical steps before indexing.</p>
+<p>This will automatically download the dataset, train the GRH model, and evaluate its performance.</p>
 
-<p>If you want to skip the implementation steps, you can directly run the full code <a href="./tutorial/hashing_tutorial.py">here</a>:</p>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 hashing_tutorial.py
-</code></pre></div></div>
-
-<h3 id="locality-sensitive-hashing-lsh-implementation">Locality Sensitive Hashing (LSH) Implementation</h3>
-
-<h4 id="step-3-generate-hashcodes-using-lsh">Step 3: Generate Hashcodes Using LSH</h4>
-
-<p>In LSH, we generate random hyperplanes to project images into hashcodes. Let’s start by projecting an image from the dataset:</p>
+<h3 id="implementation-lsh">Implementation (LSH)</h3>
+<p>Now, let’s jump into Locality Sensitive Hashing (LSH). We’ll generate 16 random hyperplanes (which translates into a 16-bit hashcode), and project the first image onto them to generate its LSH hashcode.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
 
-<span class="n">num_classes</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">n_vectors</span> <span class="o">=</span> <span class="mi">32</span>
-<span class="n">dim</span> <span class="o">=</span> <span class="mi">512</span>
-
-<span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="c1"># Parameters for LSH
+</span><span class="n">n_vectors</span> <span class="o">=</span> <span class="mi">32</span>  <span class="c1"># Number of random hyperplanes
+</span><span class="n">dim</span> <span class="o">=</span> <span class="mi">512</span>  <span class="c1"># Dimensions in GIST features
+</span>
+<span class="c1"># Step 1: Generate random hyperplanes
+</span><span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
 <span class="n">random_vectors</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">randn</span><span class="p">(</span><span class="n">dim</span><span class="p">,</span> <span class="n">n_vectors</span><span class="p">)</span>
 
-<span class="n">bin_indices_bits</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:].</span><span class="n">dot</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span>
+<span class="c1"># Step 2: Project the first image onto these hyperplanes to generate its hashcode
+</span><span class="n">bin_indices_bits</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:].</span><span class="n">dot</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span>  <span class="c1"># Binary hashcode based on sign
+</span>
 <span class="k">print</span><span class="p">(</span><span class="n">bin_indices_bits</span><span class="p">)</span>
-</code></pre></div></div>
+<span class="c1"># Output: [False  True False  True False  True False False False False  True  True True False False False]
+</span></code></pre></div></div>
 
-<p>This will print out the boolean hashcode for the first image. Similar hashcodes will be assigned to images that are semantically similar, i.e., from the same class.</p>
+<p>Here’s what’s happening:</p>
 
-<h4 id="step-4-convert-boolean-hashcode-to-integer-representation">Step 4: Convert Boolean Hashcode to Integer Representation</h4>
+<p>We generate random hyperplanes and project the first image onto them. The result is a binary hashcode that represents the image. Any two images with the same hashcode will land in the same bucket in our hashtable.</p>
 
-<p>We now convert the boolean representation of the hashcode into an integer:</p>
+<p>Next, we’ll convert this binary hashcode into an integer for easier indexing.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">powers_of_two</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">np</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="n">n_vectors</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">step</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># https://wiki.python.org/moin/BitwiseOperators
+# x &lt;&lt; y is the same as multiplying x by 2 ** y
+</span><span class="n">powers_of_two</span> <span class="o">=</span> <span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">np</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="n">n_vectors</span> <span class="o">-</span> <span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="n">step</span><span class="o">=-</span><span class="mi">1</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">powers_of_two</span><span class="p">)</span>
+<span class="c1"># [32768 16384  8192  4096  2048  1024   512   256   128    64    32    16    8     4     2     1]
+</span>
 <span class="n">bin_indices</span> <span class="o">=</span> <span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">powers_of_two</span><span class="p">)</span>
 <span class="k">print</span><span class="p">(</span><span class="n">bin_indices</span><span class="p">)</span>
+<span class="c1"># 21560
+</span></code></pre></div></div>
+
+<p>We’ve now hashed the image into bucket 21560. Now let’s extend this process to the entire dataset.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Step 3: Hash the entire dataset
+</span><span class="n">bin_indices_bits</span> <span class="o">=</span> <span class="n">data</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span>
+<span class="k">print</span><span class="p">(</span><span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="n">bin_indices</span> <span class="o">=</span> <span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">powers_of_two</span><span class="p">)</span>  <span class="n">Should</span> <span class="n">show</span> <span class="p">(</span><span class="mi">60000</span><span class="p">,)</span> <span class="n">indicating</span> <span class="mi">60</span><span class="p">,</span><span class="mi">000</span> <span class="nb">bin</span> <span class="n">indices</span>
+<span class="n">bin_indices</span><span class="p">.</span><span class="n">shape</span>
 </code></pre></div></div>
-
-<p>This assigns an integer bin index for the image, which will determine its bucket in the hash table.</p>
-
-<h4 id="step-5-hash-the-entire-dataset">Step 5: Hash the Entire Dataset</h4>
-
-<p>Now, let’s hash the entire dataset using matrix operations:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bin_indices_bits</span> <span class="o">=</span> <span class="n">data</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span>
-<span class="n">bin_indices</span> <span class="o">=</span> <span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">powers_of_two</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>This generates hashcodes for all 60,000 images in the CIFAR-10 dataset.</p>
-
-<h4 id="step-6-inspect-the-hash-buckets">Step 6: Inspect the Hash Buckets</h4>
-
-<p>We can now create a hash table and inspect the buckets with more than one image:</p>
+<p>At this point, every image in the CIFAR-10 dataset has been hashed. Now, we will create a hashtable to group images that land in the same bucket and check for duplicates.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">collections</span> <span class="kn">import</span> <span class="n">defaultdict</span>
+
+<span class="c1"># Step 4: Insert the images into a hashtable
+</span><span class="n">table</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
+<span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">bin_index</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">bin_indices</span><span class="p">):</span>
+	<span class="n">table</span><span class="p">[</span><span class="n">bin_index</span><span class="p">].</span><span class="n">append</span><span class="p">(</span><span class="n">idx</span><span class="p">)</span>
+
+<span class="c1"># Step 5: Inspect the buckets with at least two colliding images
+</span><span class="k">for</span> <span class="n">bucket</span><span class="p">,</span><span class="n">images</span> <span class="ow">in</span> <span class="n">table</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
+	<span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">images</span><span class="p">)</span><span class="o">&gt;</span><span class="mi">1</span><span class="p">:</span>
+		<span class="k">print</span><span class="p">(</span><span class="n">images</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This code builds a hashtable where images that share the same hashcode (i.e., collide) are placed in the same bucket. Let’s inspect some of these collisions to see how well LSH groups semantically similar images.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Inspect one of the buckets
+# Example bucket: [39378, 39502, 41761, 42070, 50364]
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span> <span class="mi">39378</span><span class="p">])</span>  <span class="c1"># Output: 7 (horse)
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span> <span class="mi">39502</span><span class="p">])</span>  <span class="c1"># Output: 8 (ship)
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span> <span class="mi">41761</span><span class="p">])</span>  <span class="c1"># Output: 8 (ship)
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span> <span class="mi">42070</span><span class="p">])</span>  <span class="c1"># Output: 4 (deer)
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span> <span class="mi">50364</span><span class="p">])</span>  <span class="c1"># Output: 9 (truck)
+</span></code></pre></div></div>
+
+<p>In this case, LSH performs poorly, as two different categories (horse, truck) collide in the same bucket. Let’s inspect another bucket for better results.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># We take this bucket and inspect the images:
+# [42030, 42486, 43090, 47535, 50134, 50503]
+</span>
+<span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">42030</span><span class="p">])</span>   <span class="c1"># 4
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">42486</span><span class="p">])</span>   <span class="c1"># 4
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">43090</span><span class="p">])</span>   <span class="c1"># 4
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">47535</span><span class="p">])</span>   <span class="c1"># 1
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">50134</span><span class="p">])</span>   <span class="c1"># 1
+</span><span class="k">print</span><span class="p">(</span><span class="n">classes</span><span class="p">[:,</span><span class="mi">50503</span><span class="p">])</span>   <span class="c1"># 4
+</span></code></pre></div></div>
+
+<p>In this bucket, LSH performs better—grouping similar categories (mostly deer).</p>
+
+<h3 id="evaluation-lsh">Evaluation (LSH)</h3>
+
+<p>Next, let’s evaluate LSH more rigorously using precision at 10, which measures how many of the 10 nearest neighbors for a query share the same class label.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Step 1: Split the dataset into queries, training, and database sets
+</span><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
+<span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">data_temp</span><span class="p">,</span> <span class="n">data_query</span><span class="p">,</span> <span class="n">labels_temp</span><span class="p">,</span> <span class="n">labels_query</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">classes</span><span class="p">[</span><span class="mi">0</span><span class="p">,:],</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.002</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+<span class="n">data_database</span><span class="p">,</span> <span class="n">data_train</span><span class="p">,</span> <span class="n">labels_database</span><span class="p">,</span> <span class="n">labels_train</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span><span class="n">data_temp</span><span class="p">,</span> <span class="n">labels_temp</span><span class="p">[:],</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.02</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>This code will give 120 random queries that we will use alongside the LSH search index to find nearest neighbours. The database consists of 58682 images, and the training dataset contains 1198 images.</p>
+
+<p><img src="./tutorial/lsh_dataset.png" alt="Dataset" /></p>
+
+<p>To prevent overfitting we maintain a held-out <em>database</em> that we perform retrieval against using the set of 120 queries. The training dataset is used to learn any parameters and hyperparameters required by the models.</p>
+
+<p>We now index the database portion with LSH creating our hashtable:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">bin_indices_bits</span> <span class="o">=</span> <span class="n">data_database</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span>
+<span class="n">bin_indices</span> <span class="o">=</span> <span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">powers_of_two</span><span class="p">)</span>
 
 <span class="n">table</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">list</span><span class="p">)</span>
 <span class="k">for</span> <span class="n">idx</span><span class="p">,</span> <span class="n">bin_index</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">bin_indices</span><span class="p">):</span>
     <span class="n">table</span><span class="p">[</span><span class="n">bin_index</span><span class="p">].</span><span class="n">append</span><span class="p">(</span><span class="n">idx</span><span class="p">)</span>
-
-<span class="k">for</span> <span class="n">bucket</span><span class="p">,</span> <span class="n">images</span> <span class="ow">in</span> <span class="n">table</span><span class="p">.</span><span class="n">items</span><span class="p">():</span>
-    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">images</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="k">print</span><span class="p">(</span><span class="n">images</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>This will print out the buckets that contain more than one image, allowing us to inspect collisions.</p>
+<p>To search for nearest neighbours we apply a <em>Hamming radius based search</em>:</p>
 
-<h3 id="evaluating-lsh">Evaluating LSH</h3>
+<p><img src="./tutorial/lsh_evaluation.png" alt="Dataset" /></p>
 
-<h4 id="step-7-precision-evaluation-with-hamming-radius-search">Step 7: Precision Evaluation with Hamming Radius Search</h4>
+<p>Hamming radius based search for a radius of zero is shown in Figure (b) in the above diagram (taken from the PhD thesis of <a href="https://era.ed.ac.uk/handle/1842/20390">Sean Moran</a>).</p>
 
-<p>To evaluate the performance, we’ll use precision at 10 as our metric. This measures how many of the 10 nearest neighbors retrieved are semantically similar to the query image:</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">train_test_split</span>
-
-<span class="n">data_temp</span><span class="p">,</span> <span class="n">data_query</span><span class="p">,</span> <span class="n">labels_temp</span><span class="p">,</span> <span class="n">labels_query</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span>
-    <span class="n">data</span><span class="p">,</span> <span class="n">classes</span><span class="p">[</span><span class="mi">0</span><span class="p">,</span> <span class="p">:],</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.002</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
-<span class="n">data_database</span><span class="p">,</span> <span class="n">data_train</span><span class="p">,</span> <span class="n">labels_database</span><span class="p">,</span> <span class="n">labels_train</span> <span class="o">=</span> <span class="n">train_test_split</span><span class="p">(</span>
-    <span class="n">data_temp</span><span class="p">,</span> <span class="n">labels_temp</span><span class="p">[:],</span> <span class="n">test_size</span><span class="o">=</span><span class="mf">0.02</span><span class="p">,</span> <span class="n">random_state</span><span class="o">=</span><span class="mi">42</span><span class="p">)</span>
-</code></pre></div></div>
-
-<p>Here, we split the dataset into queries, training, and database sets.</p>
-
-<p>Using Hamming radius-based search, we vary the radius to find more candidate neighbors:</p>
+<p>In a nutshell this search methodology works by also looking in the collding bin and nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the <em>itertools combinations</em> function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 10 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">combinations</span>
+<span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">pairwise_distances</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">time</span>
 
-<span class="n">max_search_radius</span> <span class="o">=</span> <span class="mi">10</span>
-<span class="n">precision_history</span> <span class="o">=</span> <span class="p">{</span><span class="n">i</span><span class="p">:</span> <span class="p">[]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_search_radius</span> <span class="o">+</span> <span class="mi">1</span><span class="p">)}</span>
+<span class="n">max_search_radius</span><span class="o">=</span><span class="mi">10</span>
+<span class="n">topn</span><span class="o">=</span><span class="mi">10</span>
+<span class="n">precision_history</span> <span class="o">=</span> <span class="p">{</span><span class="n">i</span><span class="p">:</span> <span class="p">[]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_search_radius</span><span class="o">+</span><span class="mi">1</span><span class="p">)}</span>
+<span class="n">time_history</span> <span class="o">=</span> <span class="p">{</span><span class="n">i</span><span class="p">:</span> <span class="p">[]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_search_radius</span><span class="o">+</span><span class="mi">1</span><span class="p">)}</span>
 
-<span class="k">for</span> <span class="n">query_image</span><span class="p">,</span> <span class="n">query_label</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">data_query</span><span class="p">,</span> <span class="n">labels_query</span><span class="p">):</span>
+<span class="k">for</span> <span class="n">query_image</span><span class="p">,</span> <span class="n">query_label</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">data_query</span><span class="p">,</span><span class="n">labels_query</span><span class="p">):</span>
+
     <span class="n">bin_index_bits</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">ravel</span><span class="p">(</span><span class="n">query_image</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">)</span>
     <span class="n">candidate_set</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
 
     <span class="k">for</span> <span class="n">search_radius</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">max_search_radius</span> <span class="o">+</span> <span class="mi">1</span><span class="p">):</span>
-        <span class="n">n_vectors</span> <span class="o">=</span> <span class="n">bin_index_bits</span><span class="p">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+
+        <span class="n">start</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
+
+        <span class="c1"># Augment the candidate set with images from bins within the search radius
+</span>        <span class="n">n_vectors</span> <span class="o">=</span> <span class="n">bin_index_bits</span><span class="p">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
         <span class="k">for</span> <span class="n">different_bits</span> <span class="ow">in</span> <span class="n">combinations</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">n_vectors</span><span class="p">),</span> <span class="n">search_radius</span><span class="p">):</span>
+            <span class="n">index</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">different_bits</span><span class="p">)</span>
             <span class="n">alternate_bits</span> <span class="o">=</span> <span class="n">bin_index_bits</span><span class="p">.</span><span class="n">copy</span><span class="p">()</span>
-            <span class="n">alternate_bits</span><span class="p">[</span><span class="nb">list</span><span class="p">(</span><span class="n">different_bits</span><span class="p">)]</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">logical_not</span><span class="p">(</span><span class="n">alternate_bits</span><span class="p">[</span><span class="nb">list</span><span class="p">(</span><span class="n">different_bits</span><span class="p">)])</span>
+            <span class="n">alternate_bits</span><span class="p">[</span><span class="n">index</span><span class="p">]</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">logical_not</span><span class="p">(</span><span class="n">alternate_bits</span><span class="p">[</span><span class="n">index</span><span class="p">])</span>
             <span class="n">nearby_bin</span> <span class="o">=</span> <span class="n">alternate_bits</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">powers_of_two</span><span class="p">)</span>
             <span class="k">if</span> <span class="n">nearby_bin</span> <span class="ow">in</span> <span class="n">table</span><span class="p">:</span>
                 <span class="n">candidate_set</span><span class="p">.</span><span class="n">update</span><span class="p">(</span><span class="n">table</span><span class="p">[</span><span class="n">nearby_bin</span><span class="p">])</span>
+
+        <span class="c1"># sort candidates by their true distances from the query
+</span>        <span class="n">candidate_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">candidate_set</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">candidate_list</span><span class="p">:</span>
+            <span class="n">candidates</span> <span class="o">=</span> <span class="n">data_database</span><span class="p">[</span><span class="n">candidate_list</span><span class="p">[:]]</span> 
+            <span class="n">ground_truth</span> <span class="o">=</span> <span class="n">labels_database</span><span class="p">[</span><span class="n">candidate_list</span><span class="p">[:]]</span>
+            <span class="n">distance</span> <span class="o">=</span> <span class="n">pairwise_distances</span><span class="p">(</span><span class="n">candidates</span><span class="p">,</span> <span class="n">query_image</span><span class="p">.</span><span class="n">reshape</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">metric</span><span class="o">=</span><span class="s">'cosine'</span><span class="p">).</span><span class="n">flatten</span><span class="p">()</span>
+            <span class="n">distance_col</span> <span class="o">=</span> <span class="s">'distance'</span>
+            <span class="n">nearest_neighbors</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">({</span><span class="s">'id'</span><span class="p">:</span> <span class="n">candidate_list</span><span class="p">,</span> <span class="s">'class'</span><span class="p">:</span> <span class="n">ground_truth</span><span class="p">,</span> <span class="n">distance_col</span><span class="p">:</span> <span class="n">distance</span><span class="p">}).</span><span class="n">sort_values</span><span class="p">(</span><span class="n">distance_col</span><span class="p">).</span><span class="n">reset_index</span><span class="p">(</span><span class="n">drop</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+            <span class="n">candidate_set_labels</span> <span class="o">=</span> <span class="n">nearest_neighbors</span><span class="p">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">by</span><span class="o">=</span><span class="p">[</span><span class="s">'distance'</span><span class="p">],</span> <span class="n">ascending</span><span class="o">=</span><span class="bp">True</span><span class="p">)[</span><span class="s">'class'</span><span class="p">][:</span><span class="mi">10</span><span class="p">]</span>
+            <span class="n">precision</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">candidate_set_labels</span><span class="p">).</span><span class="n">count</span><span class="p">(</span><span class="n">query_label</span><span class="p">)</span> <span class="o">/</span> <span class="n">topn</span>
+            <span class="n">precision_history</span><span class="p">[</span><span class="n">search_radius</span><span class="p">].</span><span class="n">append</span><span class="p">(</span><span class="n">precision</span><span class="p">)</span>
+        <span class="n">end</span> <span class="o">=</span> <span class="n">time</span><span class="p">.</span><span class="n">time</span><span class="p">()</span>
+        <span class="n">elapsed_time</span><span class="o">=</span><span class="n">end</span> <span class="o">-</span> <span class="n">start</span>
+        <span class="k">print</span><span class="p">(</span><span class="n">elapsed_time</span><span class="p">)</span>
+        <span class="n">time_history</span><span class="p">[</span><span class="n">search_radius</span><span class="p">].</span><span class="n">append</span><span class="p">(</span><span class="n">elapsed_time</span><span class="p">)</span>
+
+<span class="n">mean_time</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="n">time_history</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">time_history</span><span class="p">))]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">mean_time</span><span class="p">)</span>
+<span class="n">mean_precision</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="n">precision_history</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">precision_history</span><span class="p">))]</span>
+<span class="k">print</span><span class="p">(</span><span class="n">mean_precision</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>This approach helps us retrieve images even from nearby hash bins, thus improving precision.</p>
+<p>The above code will produce a mean precision@10 of 0.30 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 30% of those will be relevant to the query when we use a Hamming radius of 2. We will show how this can be boosted to 0.40 mean precision@10 by <em>learning the hashing hyperplanes</em>, rather than generating the hyperplanes randomly (as per LSH).</p>
 
-<h3 id="introducing-graph-regularized-hashing-grh">Introducing Graph Regularized Hashing (GRH)</h3>
+<p><img src="./tutorial/lsh_precision10.png" alt="LSH Precision@10" /></p>
 
-<h4 id="step-8-implement-grh">Step 8: Implement GRH</h4>
+<p>As the Hamming radius increases from 0 to 10 we start retrieving more and more images from the database in our candidate set, and this leads to a corresponding sharp increase in the query time which will approach a standard brute force search time (~53 seconds) when the returned candidate set equals the entire database.</p>
 
-<p>While LSH relies on random projections, <strong>GRH</strong> aims to learn the projections by utilizing label information. The key is constructing an adjacency matrix to serve as the supervisory signal:</p>
+<p><img src="./tutorial/lsh_time.png" alt="LSH Time" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">adjacency_matrix</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">equal</span><span class="p">.</span><span class="n">outer</span><span class="p">(</span><span class="n">labels_train</span><span class="p">,</span> <span class="n">labels_train</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+<h2 id="implementation-grh">Implementation (GRH)</h2>
+
+<p>We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness. To recap we will be developing the supervised learning to hash model <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing</a>.</p>
+
+<p>Our first step is to use the training dataset to construct an <em>adjacency matrix</em> that GRH will use as its supervisory signal for learning the hashing hyperplanes. If two images share the same class label they have <em>adjacency_matrix[i,j]=1</em> and <em>adjacency_matrix[i,j]=0</em> otherwise. In Python we can construct this adjacency matrix from the class label vector:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">adjacency_matrix</span><span class="o">=</span><span class="n">np</span><span class="p">.</span><span class="n">equal</span><span class="p">.</span><span class="n">outer</span><span class="p">(</span><span class="n">labels_train</span><span class="p">,</span> <span class="n">labels_train</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
 <span class="n">row_sums</span> <span class="o">=</span> <span class="n">adjacency_matrix</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">adjacency_matrix</span> <span class="o">=</span> <span class="n">adjacency_matrix</span> <span class="o">/</span> <span class="n">row_sums</span><span class="p">[:,</span> <span class="n">np</span><span class="p">.</span><span class="n">newaxis</span><span class="p">]</span>
 </code></pre></div></div>
 
-<p>In GRH, the hashcodes are refined iteratively through graph regularization and hyperplane updates, improving retrieval performance.</p>
+<p>We now implement the two-step <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing (GRH)</a> model of Moran and Lavrenko, which is reminiscent of the expectation maximisation (EM) algorithm. The following slides are taken from the talk <a href="https://www.slideshare.net/sjmoran1/graph-regularised-hashing-ecir15-talk">here</a>.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n_iter</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">n_iter</span><span class="p">):</span>
+<p><img src="./tutorial/grh.png" alt="GRH" /></p>
+
+<p>The first step is <em>Graph Regularisation</em>:</p>
+
+<p><img src="./tutorial/grh_step1.png" alt="GRH" /></p>
+
+<p>(The paper by Fernando Diaz - as referenced in the above <a href="https://www.slideshare.net/sjmoran1/graph-regularised-hashing-ecir15-talk">slidedeck</a> - is very much worth a read and can be found <a href="https://fernando.diaz.nyc/LSR-IR.pdf">here</a>.)</p>
+
+<p>In the first step the adjacency matrix is matrix multiplied by the hashcodes of the training dataset images. This multiplication has the effect of adjusting the hashcodes of the training database images such that semantically similar images have their hashcodes made more similar to each other.</p>
+
+<p>The second step is <em>Data Space Partitioning</em>:</p>
+
+<p><img src="./tutorial/grh_step2.png" alt="GRH" /></p>
+
+<p>In the second step those refined hashcodes are used to update the hyperplanes: to do this an SVM is learnt per hash bit using the bits as targets. GRH takes the LSH hyperplanes in <em>random_vector</em> as an initialisation point and iteratively updates those hyperplanes so as to make them more effective for hashing. The entire GRH model is implemented below:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n_iter</span><span class="o">=</span><span class="mi">2</span>   <span class="c1"># number of iterations of GRH
+</span><span class="n">alpha</span><span class="o">=</span><span class="mf">0.5</span>  <span class="c1"># how much to update the hashcodes based on the supervisory information
+</span>
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">n_iter</span><span class="p">):</span>
+
     <span class="n">bin_indices_bits</span> <span class="o">=</span> <span class="p">(</span><span class="n">data_train</span><span class="p">.</span><span class="n">dot</span><span class="p">(</span><span class="n">random_vectors</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
-    <span class="n">bin_indices_bits</span><span class="p">[</span><span class="n">bin_indices_bits</span> <span class="o">==</span> <span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
-    <span class="n">bin_indices_bits_refined</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">adjacency_matrix</span><span class="p">,</span> <span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">))</span>
-    <span class="n">bin_indices_bits_refined</span> <span class="o">=</span> <span class="p">(</span><span class="n">bin_indices_bits_refined</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
-    <span class="n">bin_indices_bits_refined</span><span class="p">[</span><span class="n">bin_indices_bits_refined</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+    <span class="n">bin_indices_bits</span><span class="p">[</span><span class="n">bin_indices_bits</span><span class="o">==</span><span class="mi">0</span><span class="p">]</span><span class="o">=-</span><span class="mi">1</span>
+    <span class="n">bin_indices_bits_refined</span><span class="o">=</span><span class="n">np</span><span class="p">.</span><span class="n">matmul</span><span class="p">(</span><span class="n">adjacency_matrix</span><span class="p">,</span><span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">))</span>
+    <span class="n">bin_indices_bits_refined</span><span class="o">=</span><span class="p">(</span><span class="n">bin_indices_bits_refined</span> <span class="o">&gt;=</span><span class="mi">0</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+    <span class="n">bin_indices_bits_refined</span><span class="p">[</span><span class="n">bin_indices_bits_refined</span><span class="o">&lt;=</span><span class="mi">0</span><span class="p">]</span><span class="o">=-</span><span class="mi">1</span>
+
+    <span class="n">bin_indices_bits</span> <span class="o">=</span> <span class="p">(</span><span class="mf">0.25</span><span class="o">*</span><span class="n">bin_indices_bits_refined</span><span class="p">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">)</span> <span class="o">+</span> <span class="mf">0.75</span><span class="o">*</span><span class="n">bin_indices_bits</span><span class="p">.</span><span class="n">astype</span><span class="p">(</span><span class="nb">float</span><span class="p">))</span>
+    <span class="n">bin_indices_bits</span><span class="o">=</span><span class="p">(</span><span class="n">bin_indices_bits</span> <span class="o">&gt;=</span><span class="mi">0</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
+    <span class="n">bin_indices_bits</span><span class="p">[</span><span class="n">bin_indices_bits</span><span class="o">&lt;=</span><span class="mi">0</span><span class="p">]</span><span class="o">=-</span><span class="mi">1</span>
+
+    <span class="n">grh_hyperplanes</span> <span class="o">=</span> <span class="n">random_vectors</span><span class="p">.</span><span class="n">copy</span><span class="p">()</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="n">n_vectors</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">abs</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">bin_indices_bits</span><span class="p">[:,</span><span class="n">j</span><span class="p">]))</span><span class="o">==</span><span class="n">data_train</span><span class="p">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+            <span class="c1"># In case all bits are the same we generate a new random vector
+</span>            <span class="n">random_vector</span> <span class="o">=</span> <span class="n">np</span><span class="p">.</span><span class="n">random</span><span class="p">.</span><span class="n">randn</span><span class="p">(</span><span class="n">dim</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+            <span class="n">grh_hyperplanes</span><span class="p">[:,</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="n">random_vector</span><span class="p">[:,</span><span class="mi">0</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">hyperplane</span><span class="o">=</span><span class="n">svclassifier</span><span class="p">.</span><span class="n">fit</span><span class="p">(</span><span class="n">data_train</span><span class="p">,</span> <span class="n">bin_indices_bits</span><span class="p">[:,</span><span class="n">j</span><span class="p">]).</span><span class="n">coef_</span>
+            <span class="n">hyperplane</span><span class="o">=</span><span class="n">np</span><span class="p">.</span><span class="n">array</span><span class="p">(</span><span class="n">hyperplane</span><span class="p">)</span>
+            <span class="n">grh_hyperplanes</span><span class="p">[:,</span><span class="n">j</span><span class="p">]</span><span class="o">=</span><span class="n">hyperplane</span>
+    
+    <span class="n">random_vectors</span> <span class="o">=</span> <span class="n">grh_hyperplanes</span><span class="p">.</span><span class="n">copy</span><span class="p">()</span>
 </code></pre></div></div>
+<p>In the above code, we parametrise GRH with 2 iterations and an alpha of 0.25. The iterations parameter is the number of times we repeat the two steps of GRH i.e. hashcode refinement with the adjacency matrix followed by adjustment of the hyperplanes based on those updated hashcodes. After 2 iterations, the matrix <em>random_vectors</em> contains a set of hyperplanes that have been refined - that is made more effective for hashing-based nearest neighbour search - based on the supervisory information in the training dataset as encapsulated in the adjacency matrix. We can use these hyperplanes as in the code at the start of this tutorial to evaluate their effectiveness via a hashtable bucket-based evaluation at various Hamming radii.</p>
 
-<p>This process adjusts hashcodes based on label similarity, improving semantic retrieval.</p>
+<p>We now illustate how GRH works on a toy image retrieval example. The following diagram illustrates the nearest neighbour relationships on the toy example: denoted by the nodes and edges (edges connect semantic nearest neighbours). The LSH generated hashcodes are show alongside each image.</p>
 
-<h3 id="grh-vs-lsh-performance-comparison">GRH vs LSH: Performance Comparison</h3>
+<p><img src="./tutorial/grh_toy1.png" alt="GRH" /></p>
 
-<p>By learning the hash hyperplanes, GRH significantly improves retrieval performance over LSH, especially in low Hamming radius scenarios. As we increase the radius, GRH consistently outperforms LSH in terms of precision:</p>
+<p>The diagram below illustrates how the adjacency matrix is used to update the hashcodes, with the first bit of image <em>C</em> flipping to a -1 to be more similar to the images above and to the left of it. In contrast, image <em>E</em> has its second bit flipped to become more similar to the hashcodes from the images below and to the left of it.</p>
 
-<ul>
-  <li><strong>Precision@10 with GRH:</strong> 0.25 at Hamming radius 0</li>
-  <li><strong>Precision@10 with LSH:</strong> 0.1 at Hamming radius 0</li>
-</ul>
+<p><img src="./tutorial/grh_toy2.png" alt="GRH" /></p>
 
-<p><img src="./tutorial/lsh_precision10.png" alt="LSH vs GRH Precision" /></p>
+<p>A hyperplane is then learnt for the first bit by using the first bit of every image’s hashcode as the target. In this toy example (image below) a hyperplane partitions the data space horizontally, assigning images above the line a -1 in their first bit of their hashcode, and images below the line a 1 in their first bit of their hashcode.</p>
 
-<h3 id="conclusion">Conclusion</h3>
+<p><img src="./tutorial/grh_toy3.png" alt="GRH" /></p>
 
-<p>In this tutorial, we demonstrated the differences between LSH and GRH for image retrieval. While LSH provides a fast, unsupervised hashing method, GRH offers higher retrieval accuracy by leveraging supervised learning.</p>
+<h3 id="evaluation-grh">Evaluation (GRH)</h3>
 
-<p>Feel free to explore the full code <a href="./tutorial/hashing_tutorial.py">here</a> and experiment with different datasets or hashing techniques!</p>
+<p>Now we have gained an understanding of how the GRH model works we will evaluate the GRH hashcodes using the same methodology as we did for LSH. We find an improved retrieval effectiveness, particularly at low Hamming radii:</p>
 
-<p><strong>Feedback:</strong> I’d love to hear your thoughts. Feel free to reach out <a href="https://sjmoran.github.io/">here</a>.</p>
+<p><img src="./tutorial/grh_precision10.png" alt="GRH Time" /></p>
+
+<p>The benefits of GRH on this dataset an for a hashcode length of 16 bits can mostly be observed in the low Hamming radius regime (&lt;=5). For example, at Hamming radius 0, GRH obtains ~0.25 mean precision@10, whereas LSH obtains ~0.1 mean precision@10. Query time for both methods are approximately similar (~0.5 seconds). The query time curve for GRH at increasing Hamming radii is shown below. As can be observed, for some Hamming radii, we pay at small price in terms of query time for the additional boost in effectiveness.</p>
+
+<p><img src="./tutorial/grh_time.png" alt="GRH Time" /></p>
+
+<h3 id="conclusions">Conclusions</h3>
+
+<p>In this tutorial we use a Support Vector Machine (SVM) to learn the hyperplanes for GRH. We note that another benefit of GRH, aside from its simplicity and effectiveness, is that it is <em>agnostic to the learning algorithm</em>, and we can use a deep network if we wish to learn a more accurate data-space partitioning or a <a href="https://www.youtube.com/watch?v=uxGDwyPWNkU">passive aggressive classifier</a> if we desire a light-weight learning method that can be adapted online e.g. in a streaming scenario. Lastly, in this tutorial we explored a single hashtable implementation of LSH and GRH and increased the number of relevant items retrieved using multiple buckets via a multi-probing mechanism. Other implementations of LSH would forgo the multi-probing of buckets within the same hashtable, and instead use multiple independent hashtables to find more relevant items.</p>
+
+<h3 id="contact--feedback">Contact &amp; Feedback</h3>
+
+<p>Any comments on this tutorial please contact the author <a href="https://sjmoran.github.io/">Sean Moran</a>. The code for the tutorial can be found <a href="./tutorial/hashing_tutorial.py">here</a>. The dependencies are located in <a href="./tutorial/requirements.txt">requirements.txt</a> file. Feel free to contact <a href="https://sjmoran.github.io/">me</a> with questions, suggestions or feedback. Copyright © <a href="https://sjmoran.github.io/">Sean Moran</a> 2024. All opinions are my own.</p>
 
     </div>
 
