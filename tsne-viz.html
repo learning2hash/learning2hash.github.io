@@ -143,13 +143,16 @@ function search() {
 
     <div class="content container">
       <h2>2D Map of Papers</h2>
-<p>Each dot represents one paper in this survey. Hover your mouse over each point to look
-at the details. Click on a point to go to the paper information page.</p>
-<div style="text-align: right;"><label>Search </label><input type="text" spellcheck="false" id="filtermap"/></div>
+<p>Each dot represents one paper in this survey. Hover your mouse over each point to look at the details. Click on a point to go to the paper information page.</p>
+<div style="text-align: right;">
+    <label>Search </label><input type="text" spellcheck="false" id="filtermap"/>
+    <button id="zoom_in">+</button>
+    <button id="zoom_out">-</button>
+    <button id="reset_view">Reset</button>
+</div>
 <div id="paperviz"></div>
 
-Please consider <a href="/contributing.html">contributing</a> by updating
-the information of existing papers or adding new work.
+Please consider <a href="/contributing.html">contributing</a> by updating the information of existing papers or adding new work.
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy.umd.min.js"></script>
@@ -176,7 +179,6 @@ var zoom = d3.zoom()
 
 // Function for handling zoom/pan event
 function zoomed(event) {
-  // Transform the container group according to the zoom event
   container.attr("transform", event.transform);
 }
 
@@ -191,24 +193,32 @@ svg.append("rect")
 // Create a container that holds the plot (so that zoom affects the group and not the entire SVG)
 var container = svg.append("g");
 
+// Zoom-in and Zoom-out buttons functionality
+d3.select("#zoom_in").on("click", function() {
+    svg.transition().call(zoom.scaleBy, 1.2);
+});
+d3.select("#zoom_out").on("click", function() {
+    svg.transition().call(zoom.scaleBy, 0.8);
+});
+
+// Reset view button functionality
+d3.select("#reset_view").on("click", function() {
+    svg.transition().call(zoom.transform, d3.zoomIdentity); // Reset to default
+});
+
 // Read the data
 d3.json("./tsne.json", function(data) {
-
-  // Calculate the extent of your data (min and max values for both axes)
   var xExtent = d3.extent(data, function(d) { return d.tsne_embedding[0]; });
   var yExtent = d3.extent(data, function(d) { return d.tsne_embedding[1]; });
 
-  // Add X axis with dynamic domain
   var x = d3.scaleLinear()
     .domain([xExtent[0], xExtent[1]])
     .range([0, width]);
 
-  // Add Y axis with dynamic domain
   var y = d3.scaleLinear()
     .domain([yExtent[0], yExtent[1]])
     .range([height, 0]);
 
-  // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
   var tooltip = d3.select("#paperviz")
     .append("div")
     .style("opacity", 0)
@@ -222,7 +232,6 @@ d3.json("./tsne.json", function(data) {
     .style("padding", "10px")
     .style("position", "absolute");
 
-  // Tooltip functions
   var mouseover = function(d) { tooltip.style("opacity", 1); };
 
   var mousemove = function(d) {
@@ -230,7 +239,6 @@ d3.json("./tsne.json", function(data) {
     for (i = 0; i < d.tags.length; i++) {
       tags += "<tag>" + d.tags[i] + "</tag>&nbsp;";
     }
-
     var boundingRect = document.getElementById("paperviz").getBoundingClientRect();
     var mousePos = d3.mouse(this);
     var x = mousePos[0] + boundingRect.x + 20;
@@ -249,7 +257,6 @@ d3.json("./tsne.json", function(data) {
     window.location.href = "/publications/" + d.key + "/";
   };
 
-  // Add dots to the container group (so zoom affects these points)
   var dots = container.append('g')
     .selectAll("dot")
     .data(data)
@@ -275,7 +282,6 @@ d3.json("./tsne.json", function(data) {
   $("#filtermap").keyup(function(e) {
     var searchTerm = $("#filtermap").val().toLocaleLowerCase();
     var allPoints = d3.selectAll("circle");
-    // Filtering points based on search term
     allPoints.filter(dd => !isMatch(dd, searchTerm)).style("opacity", 0.1);
     allPoints.filter(dd => isMatch(dd, searchTerm)).style("opacity", 1).style("fill", "#aa0000");
   });
