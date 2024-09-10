@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Visualization of Publications on Machine Learning for Source Code
-description: A tSNE visualization of all the ML4Code papers
+title: Visualization of Publications on Learning To Hash
+description: A tSNE visualization of all the Learning to Hash papers
 ---
 <h2>2D Map of Papers</h2>
 <p>Each dot represents one paper in this survey. Hover your mouse over each point to look
@@ -34,6 +34,12 @@ var zoom = d3.zoom()
   .scaleExtent([0.5, 20])  // Min and max zoom level
   .extent([[0, 0], [width, height]])
   .on("zoom", zoomed);
+
+// Function for handling zoom/pan event
+function zoomed(event) {
+  // Transform the container group according to the zoom event
+  container.attr("transform", event.transform);
+}
 
 // Create a rect that catches mouse events for zooming and panning
 svg.append("rect")
@@ -96,6 +102,10 @@ d3.json("./tsne.json", function(data) {
       .style("top", y + "px");
   };
 
+  var mouseout = function(d) {
+    tooltip.style("opacity", 0);
+  };
+
   var click_link = function(d) {
     window.location.href = "/publications/" + d.key + "/";
   };
@@ -114,6 +124,7 @@ d3.json("./tsne.json", function(data) {
       .style("stroke", "white")
     .on("mouseover", mouseover)
     .on("mousemove", mousemove)
+    .on("mouseout", mouseout)
     .on("click", click_link);
 
   var isMatch = function(d, searchTerm) {
@@ -126,16 +137,9 @@ d3.json("./tsne.json", function(data) {
     var searchTerm = $("#filtermap").val().toLocaleLowerCase();
     var allPoints = d3.selectAll("circle");
     // Filtering points based on search term
-    allPoints.filter(dd => !isMatch(dd, searchTerm)).style("fill", "#69b3a2");
-    allPoints.filter(dd => isMatch(dd, searchTerm)).style("fill", "#aa0000");
+    allPoints.filter(dd => !isMatch(dd, searchTerm)).style("opacity", 0.1);
+    allPoints.filter(dd => isMatch(dd, searchTerm)).style("opacity", 1).style("fill", "#aa0000");
   });
-
-  // Function for handling zoom/pan event
-  function zoomed(event) {
-    // Transform the container group according to the zoom event
-    container.attr("transform", event.transform);
-  }
 
 });
 </script>
-
