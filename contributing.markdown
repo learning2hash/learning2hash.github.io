@@ -1,3 +1,7 @@
+---
+layout: default
+title: Contributing
+---
 ## Contributing to Learning2Hash: Share Your Work with the Community!
 
 At Learning2Hash, we're building a dynamic, growing library of research on hashing techniques and their applications in machine learning. And we need **your** help! If you've written a paper or know of an important work that’s missing from this site, you can contribute directly by adding your publication. With just a few clicks, your research will be showcased to **thousands** of researchers, practitioners, and innovators in the field.
