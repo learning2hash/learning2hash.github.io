@@ -1,7 +1,7 @@
 # Setup
 title:                Awesome Learning to Hash
-tagline:             'A Living Literature Review of Learning to Hash for Nearest Neighbour Search'
-description:         'A webpage dedicated to the latest research on learning-to-hash, including state-of-the-art deep hashing models, all updated on a weekly basis. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.'
+tagline:             'A Living Literature Review of Learning to Hash'
+description:         'A Webpage dedicated to the latest research on Hash Function Learning. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.'
 url:                 https://learning2hash.github.io
 baseurl:             ''
 disqus:
