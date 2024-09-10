@@ -1,1 +1,1 @@
-[["andoni2013beyond", "Beyond Locality-Sensitive Hashing"], ["nguyen2013approximate", "Approximate Nearest Neighbor Search in ell_p"], ["indyk2018approximate", "Approximate Nearest Neighbors in Limited Space"], ["christiani2016set", "Set Similarity Search Beyond MinHash"]]
+[["andoni2013beyond", "Beyond Locality-Sensitive Hashing"], ["nguyen2013approximate", "Approximate Nearest Neighbor Search in ell_p"], ["pagh2015coveringlsh", "CoveringLSH Locality-sensitive Hashing without False Negatives"], ["tan2023fast", "Fast Locality Sensitive Hashing with Theoretical Guarantee"]]
