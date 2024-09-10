@@ -40,20 +40,20 @@ alt="Web-Stat web statistics"></a></noscript>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Visualization of Publications on Machine Learning for Source Code | Awesome Learning to Hash</title>
+<title>Visualization of Publications on Learning To Hash | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Visualization of Publications on Machine Learning for Source Code" />
+<meta property="og:title" content="Visualization of Publications on Learning To Hash" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A tSNE visualization of all the ML4Code papers" />
-<meta property="og:description" content="A tSNE visualization of all the ML4Code papers" />
+<meta name="description" content="A tSNE visualization of all the Learning to Hash papers" />
+<meta property="og:description" content="A tSNE visualization of all the Learning to Hash papers" />
 <link rel="canonical" href="https://learning2hash.github.io/tsne-viz.html" />
 <meta property="og:url" content="https://learning2hash.github.io/tsne-viz.html" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Visualization of Publications on Machine Learning for Source Code" />
+<meta property="twitter:title" content="Visualization of Publications on Learning To Hash" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A tSNE visualization of all the ML4Code papers","headline":"Visualization of Publications on Machine Learning for Source Code","url":"https://learning2hash.github.io/tsne-viz.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"A tSNE visualization of all the Learning to Hash papers","headline":"Visualization of Publications on Learning To Hash","url":"https://learning2hash.github.io/tsne-viz.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -174,6 +174,12 @@ var zoom = d3.zoom()
   .extent([[0, 0], [width, height]])
   .on("zoom", zoomed);
 
+// Function for handling zoom/pan event
+function zoomed(event) {
+  // Transform the container group according to the zoom event
+  container.attr("transform", event.transform);
+}
+
 // Create a rect that catches mouse events for zooming and panning
 svg.append("rect")
     .attr("width", width)
@@ -235,6 +241,10 @@ d3.json("./tsne.json", function(data) {
       .style("top", y + "px");
   };
 
+  var mouseout = function(d) {
+    tooltip.style("opacity", 0);
+  };
+
   var click_link = function(d) {
     window.location.href = "/publications/" + d.key + "/";
   };
@@ -253,6 +263,7 @@ d3.json("./tsne.json", function(data) {
       .style("stroke", "white")
     .on("mouseover", mouseover)
     .on("mousemove", mousemove)
+    .on("mouseout", mouseout)
     .on("click", click_link);
 
   var isMatch = function(d, searchTerm) {
@@ -265,19 +276,12 @@ d3.json("./tsne.json", function(data) {
     var searchTerm = $("#filtermap").val().toLocaleLowerCase();
     var allPoints = d3.selectAll("circle");
     // Filtering points based on search term
-    allPoints.filter(dd => !isMatch(dd, searchTerm)).style("fill", "#69b3a2");
-    allPoints.filter(dd => isMatch(dd, searchTerm)).style("fill", "#aa0000");
+    allPoints.filter(dd => !isMatch(dd, searchTerm)).style("opacity", 0.1);
+    allPoints.filter(dd => isMatch(dd, searchTerm)).style("opacity", 1).style("fill", "#aa0000");
   });
-
-  // Function for handling zoom/pan event
-  function zoomed(event) {
-    // Transform the container group according to the zoom event
-    container.attr("transform", event.transform);
-  }
 
 });
 </script>
-
 
     </div>
 
