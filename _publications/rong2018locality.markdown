@@ -8,7 +8,7 @@ bibkey: rong2018locality
 additional_links:
    - {name: "PDF", url: "http://www.vldb.org/pvldb/vol11/p1674-rong.pdf"}
    - {name: "Tutorial", url: "https://dawn.cs.stanford.edu/2018/09/05/quake/"}
-tags: ['Case Study', 'LSH']
+tags: ['LSH']
 ---
 In this work, we report on a novel application of Locality Sensitive
 Hashing (LSH) to seismic data at scale. Based on the high waveform similarity between reoccurring earthquakes, our application

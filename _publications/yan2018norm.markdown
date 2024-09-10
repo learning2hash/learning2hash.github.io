@@ -1,12 +1,12 @@
 ---
 layout: publication
-title: Norm-Range Partition A Universal Catalyst for LSH based Maximum Inner Product Search (MIPS)
-authors: Yan Xiao, Dai Xinyan, Liu Jie, Zhou Kaiwen, Cheng James
+title: Norm-Ranging LSH for Maximum Inner Product Search
+authors: Yan Xiao, Li Jinfeng, Dai Xinyan, Chen Hongzhi, Cheng James
 conference: "Arxiv"
 year: 2018
 bibkey: yan2018norm
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1810.09104"}
-tags: ['ARXIV', 'LSH']
+  - {name: "Paper", url: "https://arxiv.org/abs/1809.08782"}
+tags: ['ARXIV', 'LSH', 'TIP']
 ---
-Recently locality sensitive hashing (LSH) was shown to be effective for MIPS and several algorithms including L_2-ALSH Sign-ALSH and Simple-LSH have been proposed. In this paper we introduce the norm-range partition technique which partitions the original dataset into sub-datasets containing items with similar 2-norms and builds hash index independently for each sub-dataset. We prove that norm-range partition reduces the query processing complexity for all existing LSH based MIPS algorithms under mild conditions. The key to performance improvement is that norm-range partition allows to use smaller normalization factor most sub-datasets. For efficient query processing we also formulate a unified framework to rank the buckets from the hash indexes of different sub-datasets. Experiments on real datasets show that norm-range partition significantly reduces the number of probed for LSH based MIPS algorithms when achieving the same recall.
+Neyshabur and Srebro proposed Simple-LSH which is the state-of-the-art hashing method for maximum inner product search (MIPS) with performance guarantee. We found that the performance of Simple-LSH in both theory and practice suffers from long tails in the 2-norm distribution of real datasets. We propose Norm-ranging LSH which addresses the excessive normalization problem caused by long tails in Simple-LSH by partitioning a dataset into multiple sub-datasets and building a hash index for each sub-dataset independently. We prove that Norm-ranging LSH has lower query time complexity than Simple-LSH. We also show that the idea of partitioning the dataset can improve other hashing based methods for MIPS. To support efficient query processing on the hash indexes of the sub-datasets a novel similarity metric is formulated. Experiments show that Norm-ranging LSH achieves an order of magnitude speedup over Simple-LSH for the same recall thus significantly benefiting applications that involve MIPS.

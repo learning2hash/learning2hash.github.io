@@ -7,7 +7,7 @@ year: 2018
 bibkey: yuan2018optimal
 additional_links:
    - {name: "PDF", url: "https://openaccess.thecvf.com/content_ECCV_2018/papers/Xin_Yuan_Towards_Optimal_Deep_ECCV_2018_paper.pdf"}
-tags: ['Deep Learning', 'ECCV']
+tags: ['Deep Learning']
 ---
 In this paper, we propose a simple yet effective relaxation free method to learn more effective binary codes via policy gradient for
 scalable image search. While a variety of deep hashing methods have been

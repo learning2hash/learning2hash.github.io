@@ -10,7 +10,7 @@ additional_links:
    - {name: "Supplementary PDF", url: "http://www.cs.huji.ac.il/~yweiss/hashingWithKernelTrick.pdf
 "}
    - {name: "Code", url: "http://www.cs.huji.ac.il/~yweiss/export2.tar"}
-tags: ['ECCV', 'Image Retrieval', 'Unsupervised']
+tags: ['Image Retrieval', 'Unsupervised']
 ---
 en a surge of interest in methods based on “semantic hashing”,
 i.e. compact binary codes of data-points so that the Hamming distance
