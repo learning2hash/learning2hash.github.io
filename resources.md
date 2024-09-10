@@ -1,3 +1,7 @@
+---
+layout: default
+title: Resources
+---
 # Resources on Machine Learning for Hashing
 
 ### Conferences and Workshops
