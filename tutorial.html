@@ -374,9 +374,9 @@ pip3 <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
 
 <p><img src="./tutorial/lsh_evaluation.png" alt="Dataset" /></p>
 
-<p>Hamming radius based search for a radius of zero is shown in Figure (b) in the above diagram (taken from the PhD thesis of <a href="https://era.ed.ac.uk/handle/1842/20390">Sean Moran</a>).</p>
+<p>In Figure (b) above, we see an example of a Hamming radius-based search with a radius of zero, as illustrated in <a href="https://era.ed.ac.uk/handle/1842/20390">Sean Moran’s PhD thesis</a>.</p>
 
-<p>In a nutshell this search methodology works by also looking in the collding bin and nearby bins that different from the current bin by a certain number of bits, up to a specific maximum radius. We can use the <em>itertools combinations</em> function to enumerate all the bins that differ from the current bin with respect to a certain number of bits, up to a maximum radius of 10 bits. As well as returning neighbours in the same bin, we also return neighbours from the nearby bins.</p>
+<p>To break it down, this search method not only looks within the same bin but also explores nearby bins that differ by a specific number of bits, up to a defined radius. Using the <code class="language-plaintext highlighter-rouge">_itertools combinations_</code> function, we can generate all possible bins that differ by up to 10 bits from the current one. This allows us to retrieve neighbors not just from the original bin but from surrounding bins as well, significantly broadening the search results.</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">combinations</span>  <span class="c1"># Used to generate combinations of bit positions for Hamming radius search
 </span><span class="kn">from</span> <span class="nn">sklearn.metrics.pairwise</span> <span class="kn">import</span> <span class="n">pairwise_distances</span>  <span class="c1"># Used to compute distances between query and candidates
@@ -430,27 +430,28 @@ pip3 <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
 </span><span class="k">print</span><span class="p">(</span><span class="n">mean_time</span><span class="p">)</span>  <span class="c1"># Print the average time spent for each search radius
 </span><span class="k">print</span><span class="p">(</span><span class="n">mean_precision</span><span class="p">)</span>  <span class="c1"># Print the average precision@10 for each search radius
 </span></code></pre></div></div>
-
-<p>The above code will produce a mean precision@10 of 0.30 for a radius of 2. As we increase the Hamming radius we increase the quality of the retrieval, at the expense of checking many more candidate nearest neighbours. This means that, on average, given a list of 10 returned images, 30% of those will be relevant to the query when we use a Hamming radius of 2. We will show how this can be boosted to 0.40 mean precision@10 by <em>learning the hashing hyperplanes</em>, rather than generating the hyperplanes randomly (as per LSH).</p>
+<p>The code above generates a mean precision@10 of 0.30 for a Hamming radius of 2. As we increase the radius, the retrieval quality improves, but it comes at the cost of checking a larger number of candidate nearest neighbors. In simpler terms, when using a Hamming radius of 2, around 30% of the images returned in a list of 10 will, on average, be relevant to the query. We’ll also demonstrate how we can boost this to a mean precision@10 of 0.40 by <em>learning the hashing hyperplanes</em> rather than using random hyperplanes, as is done in traditional Locality-Sensitive Hashing (LSH).</p>
 
 <p><img src="./tutorial/lsh_precision10.png" alt="LSH Precision@10" /></p>
 
-<p>As the Hamming radius increases from 0 to 10 we start retrieving more and more images from the database in our candidate set, and this leads to a corresponding sharp increase in the query time which will approach a standard brute force search time (~53 seconds) when the returned candidate set equals the entire database.</p>
+<p>As the Hamming radius increases from 0 to 10, we begin retrieving more images from the database in our candidate set. This leads to a noticeable spike in query time, which can eventually approach the time required for a standard brute force search (~53 seconds) when the candidate set includes the entire database.</p>
 
 <p><img src="./tutorial/lsh_time.png" alt="LSH Time" /></p>
 
 <h2 id="implementation-grh">Implementation (GRH)</h2>
 
-<p>We now investigate how learning the hyperplanes (i.e. learning to hash) can afford a much higher level or retrieval effectiveness. To recap we will be developing the supervised learning to hash model <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing</a>.</p>
+<p>Next, we explore how learning the hyperplanes (i.e., learning to hash) can significantly enhance retrieval effectiveness. Specifically, we’ll be working with the supervised learning to hash model, <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing</a>.</p>
 
-<p>Our first step is to use the training dataset to construct an <em>adjacency matrix</em> that GRH will use as its supervisory signal for learning the hashing hyperplanes. If two images share the same class label they have <em>adjacency_matrix[i,j]=1</em> and <em>adjacency_matrix[i,j]=0</em> otherwise. In Python we can construct this adjacency matrix from the class label vector:</p>
+<p>Our first step involves using the training dataset to build an <em>adjacency matrix</em>, which GRH will use as a supervisory signal for learning the hashing hyperplanes. In this matrix, if two images share the same class label, then <em>adjacency_matrix[i,j] = 1</em>; otherwise, <em>adjacency_matrix[i,j] = 0</em>. In Python, we can construct this adjacency matrix using the class label vector:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">adjacency_matrix</span><span class="o">=</span><span class="n">np</span><span class="p">.</span><span class="n">equal</span><span class="p">.</span><span class="n">outer</span><span class="p">(</span><span class="n">labels_train</span><span class="p">,</span> <span class="n">labels_train</span><span class="p">).</span><span class="n">astype</span><span class="p">(</span><span class="nb">int</span><span class="p">)</span>
 <span class="n">row_sums</span> <span class="o">=</span> <span class="n">adjacency_matrix</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">adjacency_matrix</span> <span class="o">=</span> <span class="n">adjacency_matrix</span> <span class="o">/</span> <span class="n">row_sums</span><span class="p">[:,</span> <span class="n">np</span><span class="p">.</span><span class="n">newaxis</span><span class="p">]</span>
 </code></pre></div></div>
 
-<p>We now implement the two-step <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing (GRH)</a> model of Moran and Lavrenko, which is reminiscent of the expectation maximisation (EM) algorithm. The following slides are taken from the talk <a href="https://www.slideshare.net/sjmoran1/graph-regularised-hashing-ecir15-talk">here</a>.</p>
+<p>Next, we explore how learning the hyperplanes (i.e., learning to hash) can significantly enhance retrieval effectiveness. Specifically, we’ll be working with the supervised learning to hash model, <a href="https://learning2hash.github.io/publications/moran2015agraph/">Graph Regularised Hashing</a>.</p>
+
+<p>Our first step involves using the training dataset to build an <em>adjacency matrix</em>, which GRH will use as a supervisory signal for learning the hashing hyperplanes. In this matrix, if two images share the same class label, then <em>adjacency_matrix[i,j] = 1</em>; otherwise, <em>adjacency_matrix[i,j] = 0</em>. In Python, we can construct this adjacency matrix using the class label vector:</p>
 
 <p><img src="./tutorial/grh.png" alt="GRH" /></p>
 
@@ -458,15 +459,15 @@ pip3 <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
 
 <p><img src="./tutorial/grh_step1.png" alt="GRH" /></p>
 
-<p>(The paper by Fernando Diaz - as referenced in the above <a href="https://www.slideshare.net/sjmoran1/graph-regularised-hashing-ecir15-talk">slidedeck</a> - is very much worth a read and can be found <a href="https://fernando.diaz.nyc/LSR-IR.pdf">here</a>.)</p>
+<p>(The paper by Fernando Diaz, referenced in the <a href="https://www.slideshare.net/sjmoran1/graph-regularised-hashing-ecir15-talk">slidedeck</a>, is highly recommended and can be accessed <a href="https://fernando.diaz.nyc/LSR-IR.pdf">here</a>.)</p>
 
-<p>In the first step the adjacency matrix is matrix multiplied by the hashcodes of the training dataset images. This multiplication has the effect of adjusting the hashcodes of the training database images such that semantically similar images have their hashcodes made more similar to each other.</p>
+<p>In the first step, the adjacency matrix is multiplied by the hashcodes of the training dataset images. This operation adjusts the hashcodes so that semantically similar images have more similar hashcodes.</p>
 
-<p>The second step is <em>Data Space Partitioning</em>:</p>
+<p>The second step involves <em>Data Space Partitioning</em>:</p>
 
 <p><img src="./tutorial/grh_step2.png" alt="GRH" /></p>
 
-<p>In the second step those refined hashcodes are used to update the hyperplanes: to do this an SVM is learnt per hash bit using the bits as targets. GRH takes the LSH hyperplanes in <em>random_vector</em> as an initialisation point and iteratively updates those hyperplanes so as to make them more effective for hashing. The entire GRH model is implemented below:</p>
+<p>In the second step, the refined hashcodes are used to update the hyperplanes. This is done by training an SVM for each hash bit, using the bits as targets. GRH starts with the LSH hyperplanes in <em>random_vector</em> as an initial point and then iteratively refines them to make the hashing process more effective. The complete GRH model is implemented below:</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">n_iter</span> <span class="o">=</span> <span class="mi">2</span>   <span class="c1"># Number of iterations of the Generalized Randomized Hashing (GRH) process
 </span><span class="n">alpha</span> <span class="o">=</span> <span class="mf">0.5</span>  <span class="c1"># Weighting factor to update the hashcodes based on supervisory information (supervised learning)
@@ -509,17 +510,17 @@ pip3 <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
 </span>    <span class="n">random_vectors</span> <span class="o">=</span> <span class="n">grh_hyperplanes</span><span class="p">.</span><span class="n">copy</span><span class="p">()</span>  <span class="c1"># Copy the updated hyperplanes for the next iteration of GRH
 </span></code></pre></div></div>
 
-<p>In the above code, we parametrise GRH with 2 iterations and an alpha of 0.25. The iterations parameter is the number of times we repeat the two steps of GRH i.e. hashcode refinement with the adjacency matrix followed by adjustment of the hyperplanes based on those updated hashcodes. After 2 iterations, the matrix <em>random_vectors</em> contains a set of hyperplanes that have been refined - that is made more effective for hashing-based nearest neighbour search - based on the supervisory information in the training dataset as encapsulated in the adjacency matrix. We can use these hyperplanes as in the code at the start of this tutorial to evaluate their effectiveness via a hashtable bucket-based evaluation at various Hamming radii.</p>
+<p>In the code above, we configure GRH with 2 iterations and an alpha of 0.25. The <em>iterations</em> parameter controls how many times we repeat the two steps of GRH: refining the hashcodes using the adjacency matrix, followed by updating the hyperplanes based on the refined hashcodes. After 2 iterations, the <em>random_vectors</em> matrix contains a set of hyperplanes that have been refined, making them more effective for hashing-based nearest neighbor search. These hyperplanes, influenced by the supervisory information in the training dataset (encoded in the adjacency matrix), can now be used as shown earlier in this tutorial to evaluate their performance through a hash table-based evaluation across different Hamming radii.</p>
 
-<p>We now illustate how GRH works on a toy image retrieval example. The following diagram illustrates the nearest neighbour relationships on the toy example: denoted by the nodes and edges (edges connect semantic nearest neighbours). The LSH generated hashcodes are show alongside each image.</p>
+<p>Next, we demonstrate how GRH works using a toy image retrieval example. The diagram below shows the nearest neighbor relationships, represented by nodes and edges (with edges connecting semantically similar images). The LSH-generated hashcodes are displayed next to each image.</p>
 
 <p><img src="./tutorial/grh_toy1.png" alt="GRH" /></p>
 
-<p>The diagram below illustrates how the adjacency matrix is used to update the hashcodes, with the first bit of image <em>C</em> flipping to a -1 to be more similar to the images above and to the left of it. In contrast, image <em>E</em> has its second bit flipped to become more similar to the hashcodes from the images below and to the left of it.</p>
+<p>The diagram below shows how the adjacency matrix is used to refine the hashcodes. For example, the first bit of image <em>C</em> flips to -1, making it more similar to the images above and to its left. Meanwhile, image <em>E</em> has its second bit flipped, aligning more closely with the hashcodes of the images below and to its left.</p>
 
 <p><img src="./tutorial/grh_toy2.png" alt="GRH" /></p>
 
-<p>A hyperplane is then learnt for the first bit by using the first bit of every image’s hashcode as the target. In this toy example (image below) a hyperplane partitions the data space horizontally, assigning images above the line a -1 in their first bit of their hashcode, and images below the line a 1 in their first bit of their hashcode.</p>
+<p>Next, a hyperplane is learned for the first bit by using each image’s first hash bit as the target. In the toy example below, the hyperplane divides the data space horizontally, assigning a -1 to the first bit of the hashcode for images above the line and a 1 for those below the line.</p>
 
 <p><img src="./tutorial/grh_toy3.png" alt="GRH" /></p>
 
@@ -529,7 +530,7 @@ pip3 <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
 
 <p><img src="./tutorial/grh_precision10.png" alt="GRH Time" /></p>
 
-<p>The benefits of GRH on this dataset an for a hashcode length of 16 bits can mostly be observed in the low Hamming radius regime (&lt;=5). For example, at Hamming radius 0, GRH obtains ~0.25 mean precision@10, whereas LSH obtains ~0.1 mean precision@10. Query time for both methods are approximately similar (~0.5 seconds). The query time curve for GRH at increasing Hamming radii is shown below. As can be observed, for some Hamming radii, we pay at small price in terms of query time for the additional boost in effectiveness.</p>
+<p>The advantages of GRH on this dataset, using a 16-bit hashcode, are most noticeable in the low Hamming radius range (≤5). For instance, at a Hamming radius of 0, GRH achieves around 0.25 mean precision@10, compared to just 0.1 for LSH, while query times remain roughly the same for both methods (~0.5 seconds). The query time curve for GRH at increasing Hamming radii is shown below. As you can see, while we experience a slight increase in query time at some Hamming radii, the boost in retrieval effectiveness is well worth the trade-off.</p>
 
 <p><img src="./tutorial/grh_time.png" alt="GRH Time" /></p>
 
