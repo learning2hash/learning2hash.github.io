@@ -18,10 +18,7 @@ title: Datasets
   <thead>
     <tr>
       <th>Paper</th>
-      <th>Dataset</th>
       <th>Modality</th>
-      <th>Size</th>
-      <th>Features</th>
     </tr>
   </thead>
   <tbody>
@@ -31,8 +28,6 @@ title: Datasets
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> {{pubDetails[0].title}}</td>
           <td>{{publication.name}}</td>
           <td>{{publication.modality}}</td>
-          <td>{{publication.size}}</td>
-          <td>{{publication.features}}</td>
         </tr>
     {% endif %}{% endfor %}
   </tbody>
