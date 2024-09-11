@@ -3,12 +3,22 @@ layout: page
 title: Taxonomy
 description: A taxonomy of machine learning models for hashing-based approximate nearest neighbour search.
 ---
-A hashing model takes an input data-point e.g. an image or document, and outputs a sequence of bits (hashcode) representing that data-point. Hashing models can be broadly categorised into two different categories: *quantisation* and *projection*. The projection models focus on learning a low-dimensional transformation of the input data in a way that encourages related data-points to be closer together in the new space. In contrast, the quantisation models seek to convert those projections into binary by using a thresholding mechanism. The projection branch can be further divided into data-independent, data-dependent (unsupervised) and data-dependent (supervised) depending on whether the projections are influenced by the distribution of the data or available class-labels.
 
- * [**Quantisation Models**](quantisation.html) focus on quantising the real-valued low-dimensional projections of data-points into binary bits by positioning one or more thresholds along a projected dimension.
- 
- * [**Data Independent Projection Models**](independent.html) these methods fracture the input feature space using randomly drawn hyperplanes independently of the data distribution. Given the random nature of the learning procedure they are the fastest models at training time but suffer from the disadvantage of requiring long hashcodes and many hashtables to attain a reasonable level of retrieval effectiveness.
- 
- * [**Supervised Projection Models**](supervised.html) are models that leverage available semantic supervision in the form of, for example: class labels or must-link and cannot-link constraints between data-point pairs. The models exploit this supervision during the learning process to maximise the occurrence of related data-points being hashed to the same hashtable buckets. These models typically exhibit the highest retrieval effectiveness but suffer the disadvantage of requiring manual labels which can be challenging to collect.
+### Taxonomy of Hashing Models in Machine Learning
 
- * [**Unsupervised Projection Models**](unsupervised.html) are models that account for the distribution of the data in an unsupervised manner without the need manually acquired labels. They typically achieve this by using techniques that factorise the data covariance matrix or cluster related data-points into groups. These models generally exhibit a good retrieval effectiveness lying somewhere between the data independent and supervised models, but suffer from the considerable advantage of being computationally expensive at training time due to the matrix factorisation component.
+When we talk about hashing models, we're referring to methods that transform input data—like an image or document—into a unique sequence of bits known as a *hashcode*. These models are essential for speeding up approximate nearest neighbor search, making them pivotal for large-scale machine learning tasks. 
+
+Hashing models can be grouped into two primary categories: **Projection** and **Quantization**.
+
+- **Projection Models** aim to create low-dimensional representations of input data where similar items are closer together in a transformed space. These models can be further broken down into data-independent, data-dependent (unsupervised), and data-dependent (supervised) approaches.
+  
+- **Quantization Models** take those projections and convert them into binary hashcodes by applying thresholds, making them efficient for retrieval tasks.
+
+#### Diving Deeper into the Taxonomy:
+1. **[Quantization Models](quantisation.html):** These models quantize continuous low-dimensional projections into binary bits using one or more thresholds. They focus on translating numerical data into binary representations for faster searches.
+   
+2. **[Data-Independent Projection Models](independent.html):** By using randomly generated hyperplanes, these models divide the input feature space without considering the data's distribution. While incredibly fast during training, they require longer hashcodes and multiple hashtables to achieve effective retrieval.
+
+3. **[Supervised Projection Models](supervised.html):** Leveraging labeled data such as class labels or pairwise constraints, these models learn to hash related data points into the same buckets. They offer the highest retrieval performance, though they rely on manually collected labels, which can be a hurdle.
+
+4. **[Unsupervised Projection Models](unsupervised.html):** These models adapt to the data’s inherent distribution without requiring labels. By using techniques like covariance matrix factorization or clustering, they strike a balance between data-independent and supervised models in terms of performance, but come with higher computational costs during training.
