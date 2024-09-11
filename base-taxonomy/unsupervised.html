@@ -142,21 +142,29 @@ function search() {
 
 
     <div class="content container">
-      <h2>Unsupervised Hashing Models</h2>
+      ## Unsupervised Hashing Models
 
-<b>Unsupervised Hashing Models</b> are models that account for the distribution of the data in an unsupervised manner without the need manually acquired labels. They typically achieve this by using techniques that factorise the data covariance matrix or cluster related data-points into groups. These models generally exhibit a good retrieval effectiveness lying somewhere between the data independent and supervised models, but suffer from the considerable advantage of being computationally expensive at training time due to the matrix factorisation component.
+**Unsupervised Hashing Models** tackle the problem of data retrieval by leveraging the underlying structure of the data without relying on manually provided labels. These models often employ techniques like covariance matrix factorization or clustering to group similar data points. As a result, they achieve a solid balance in retrieval effectiveness, typically performing better than data-independent models but not quite reaching the efficiency of supervised models. However, the computational cost of training, especially due to matrix factorization, can be quite high.
+
+Below is a curated list of key publications on unsupervised hashing models:
 
 
 <table id="patternModelTable">
-<thead><th>Name</th><th>Architecture</th></thead>
-<tbody>
-
-</tbody></table>
+  <thead>
+    <tr>
+      <th>Paper</th>
+      <th>Architecture</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+  </tbody>
+</table>
 
 <script>
-$(document).ready( function () {
-    $('#patternModelTable').DataTable({paging: false,});
-} );
+  $(document).ready( function () {
+      $('#patternModelTable').DataTable({paging: false});
+  });
 </script>
 
     </div>
