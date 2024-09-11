@@ -18,7 +18,7 @@ Below is a collection of key publications related to unsupervised hashing models
     </tr>
   </thead>
   <tbody>
-    {% for publication in publicationsList %}{% if publication.categories contains "independent" %}
+    {% for publication in publicationsList %}{% if publication.categories contains "Independent" %}
       {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
         <tr>
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> {{pubDetails[0].title}}</td>
