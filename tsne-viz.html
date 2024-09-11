@@ -227,7 +227,7 @@ d3.select("#pan_down").on("click", function() {
 });
 
 // Read the data and plot the points
-d3.json("./tsne.json", function(data) {
+d3.json("./tsne.json").then(function(data) {
   var xExtent = d3.extent(data, function(d) { return d.tsne_embedding[0]; });
   var yExtent = d3.extent(data, function(d) { return d.tsne_embedding[1]; });
 
@@ -252,33 +252,31 @@ d3.json("./tsne.json", function(data) {
     .style("padding", "10px")
     .style("position", "absolute");
 
-  var mouseover = function(d) { tooltip.style("opacity", 1); };
+  var mouseover = function(event, d) { tooltip.style("opacity", 1); };
 
-  var mousemove = function(d) {
-    tags = "";
-    for (i = 0; i < d.tags.length; i++) {
-      tags += "<tag>" + d.tags[i] + "</tag>&nbsp;";
-    }
+  var mousemove = function(event, d) {
+    var tags = d.tags.map(tag => `<tag>${tag}</tag>&nbsp;`).join('');
     var boundingRect = document.getElementById("paperviz").getBoundingClientRect();
-    var mousePos = d3.mouse(this);
+    var mousePos = d3.pointer(event);
+
     var x = mousePos[0] + boundingRect.x + 20;
     var y = mousePos[1] + boundingRect.y + 30;
 
-    tooltip.html("<p>" + d.title + " " + tags + "</p>")
+    tooltip.html(`<p>${d.title} ${tags}</p>`)
       .style("left", x + "px")
       .style("top", y + "px");
   };
 
-  var mouseout = function(d) {
+  var mouseout = function(event, d) {
     tooltip.style("opacity", 0);
   };
 
-  var click_link = function(d) {
+  var click_link = function(event, d) {
     window.location.href = "/publications/" + d.key + "/";
   };
 
   var dots = container.append('g')
-    .selectAll("dot")
+    .selectAll("circle")
     .data(data)
     .enter()
     .append("circle")
@@ -292,9 +290,10 @@ d3.json("./tsne.json", function(data) {
     .on("mousemove", mousemove)
     .on("mouseout", mouseout)
     .on("click", click_link);
+}).catch(function(error) {
+  console.error('Error loading or parsing tsne.json:', error);
 });
 </script>
-
 
     </div>
 
