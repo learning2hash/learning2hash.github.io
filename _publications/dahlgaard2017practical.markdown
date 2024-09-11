@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Practical Hash Functions for Similarity Estimation and Dimensionality Reduction
+authors: Søren Dahlgaard, Mathias Knudsen, Mikkel Thorup
+conference: "Neural Information Processing Systems"
+year: 2017
+bibkey: dahlgaard2017practical
+additional_links:
+  - {name: "Paper", url: "https://papers.nips.cc/paper/2017/hash/62dad6e273d32235ae02b7d321578ee8-Abstract.html"}
+tags: ['FOCS', 'ICML', 'LSH', 'NEURIPS', 'TIP']
+---
+Hashing is a basic tool for dimensionality reduction employed in several aspects of machine learning. However the perfomance analysis is often carried out under the abstract assumption that a truly random unit cost hash function is used without concern for which concrete hash function is employed. The concrete hash function may work fine on sufficiently random input. The question is if it can be trusted in the real world when faced with more structured input. In this paper we focus on two prominent applications of hashing namely similarity estimation with the one permutation hashing (OPH) scheme of Li et al. NIPS12 and feature hashing (FH) of Weinberger et al. ICML09 both of which have found numerous applications i.e. in approximate near-neighbour search with LSH and large-scale classification with SVM. We consider the recent mixed tabulation hash function of Dahlgaard et al. FOCS15 which was proved theoretically to perform like a truly random hash function in many applications including the above OPH. Here we first show improved concentration bounds for FH with truly random hashing and then argue that mixed tabulation performs similar when the input vectors are sparse. Our main contribution however is an experimental comparison of different hashing schemes when used inside FH OPH and LSH. We find that mixed tabulation hashing is almost as fast as the classic multiply-mod-prime scheme ax+b mod p. Mutiply-mod-prime is guaranteed to work well on sufficiently random data but we demonstrate that in the above applications it can lead to bias and poor concentration on both real-world and synthetic data. We also compare with the very popular MurmurHash3 which has no proven guarantees. Mixed tabulation and MurmurHash3 both perform similar to truly random hashing in our experiments. However mixed tabulation was 40 faster than MurmurHash3 and it has the proven guarantee of good performance on all possible input making it more reliable.

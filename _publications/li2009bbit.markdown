@@ -1,0 +1,12 @@
+---
+layout: publication
+title: b-Bit Minwise Hashing
+authors: Li Ping, Konig Arnd Christian
+conference: "Arxiv"
+year: 2009
+bibkey: li2009bbit
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/0910.3349"}
+tags: ['ARXIV']
+---
+This paper establishes the theoretical framework of b-bit minwise hashing. The original minwise hashing method has become a standard technique for estimating set similarity (e.g. resemblance) with applications in information retrieval data management social networks and computational advertising. By only storing the lowest b bits of each (minwise) hashed value (e.g. b=1 or 2) one can gain substantial advantages in terms of computational efficiency and storage space. We prove the basic theoretical results and provide an unbiased estimator of the resemblance for any b. We demonstrate that even in the least favorable scenario using b=1 may reduce the storage space at least by a factor of 21.3 (or 10.7) compared to using b=64 (or b=32) if one is interested in resemblance 0.5.
