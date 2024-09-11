@@ -1,1 +1,1 @@
-[["yairweiss2008spectral", "Spectral Hashing"], ["weiss2012multi", "Multidimensional Spectral Hashing"], ["liu2011learning", "Hashing with Graphs"], ["jiang2015scalable", "Scalable Graph Hashing with Feature Transformation"]]
+[["weiss2012multi", "Multidimensional Spectral Hashing"], ["liu2011learning", "Hashing with Graphs"], ["jiang2015scalable", "Scalable Graph Hashing with Feature Transformation"], ["shen2020auto", "Auto-Encoding Twin-Bottleneck Hashing"]]
