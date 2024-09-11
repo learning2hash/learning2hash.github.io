@@ -4,12 +4,7 @@ title: Contributing
 ---
 ## Contributing: Share Your Work with the Community
 
-Learning2hash is a growing library of research on hashing techniques and their applications in machine learning. If you've written a paper or know of an important work that’s missing from this site, you can contribute directly by adding your publication. With just a few clicks, your research will be showcased to **thousands** of researchers, practitioners, and innovators in the field.
-
-### Why Contribute?
-- **Visibility**: Get your paper in front of a global audience of researchers.
-- **Networking**: Connect with others in the community who are working on similar problems.
-- **Impact**: Contribute to an open, curated resource that supports learning and research in hashing.
+Learning2hash is a growing library of research on hashing techniques and their applications in machine learning. If you've written a paper or know of an important work that’s missing from this site, you can contribute directly by adding your publication. With just a few clicks, your research will be showcased to **thousands** of researchers in the field.
 
 ### How to Contribute
 Simply fill out the form below to submit your paper for review.
