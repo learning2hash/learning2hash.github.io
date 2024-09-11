@@ -33,23 +33,20 @@ var margin = {top: 10, right: 30, bottom: 30, left: 60},
 var svg = d3.select("#paperviz")
   .append("svg")
     .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
+    .attr("height", height + margin.top + margin.bottom);
+
+// Properly initialize the container group before attaching zoom behavior
+var container = svg.append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-// Create a container that holds the plot (so that zoom affects the group and not the entire SVG)
-var container = svg.append("g");
-
-// Create a zoom handler
+// Create a zoom handler and correctly bind to the container
 var zoom = d3.zoom()
   .scaleExtent([0.5, 20])  // Min and max zoom level
   .extent([[0, 0], [width, height]])
   .on("zoom", function(event) {
-    container.attr("transform", event.transform); // Apply zoom/pan transformations
+    // Ensure that the container is properly referenced
+    container.attr("transform", event.transform);
   });
-
-// Initialize zoom transform to identity (default view)
-svg.call(zoom.transform, d3.zoomIdentity);
 
 // Create a rect that catches mouse events for zooming and panning
 svg.append("rect")
@@ -159,3 +156,4 @@ d3.json("./tsne.json", function(data) {
     .on("click", click_link);
 });
 </script>
+
