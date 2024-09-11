@@ -142,20 +142,30 @@ function search() {
 
 
     <div class="content container">
-      <h2>Supervised Hashing Models</h2>
+      ## Supervised Hashing Models
 
-<b>Supervised Hashing Models</b> are models that leverage available semantic supervision in the form of, for example: class labels or must-link and cannot-link constraints between data-point pairs. The models exploit this supervision during the learning process to maximise the occurrence of related data-points being hashed to the same hashtable buckets. These models typically exhibit the highest retrieval effectiveness but suffer the disadvantage of requiring manual labels which can be challenging to collect.
+**Supervised Hashing Models** make use of semantic supervision, such as class labels or pairwise constraints (must-link and cannot-link), to guide the learning process. By leveraging this additional information, these models optimize the hashing process to ensure that related data points are grouped together into the same hashtable buckets. While these models often achieve the best retrieval performance, they require manually labeled data, which can be time-consuming and difficult to gather.
+
+Below is a list of key publications related to supervised hashing models:
 
 
 <table id="genModelTable">
-<thead><th>Name</th><th>Architecture</th><th>Modality</th></thead><tbody>
-
-</tbody></table>
+  <thead>
+    <tr>
+      <th>Paper</th>
+      <th>Architecture</th>
+      <th>Modality</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+  </tbody>
+</table>
 
 <script>
-$(document).ready( function () {
-    $('#genModelTable').DataTable({paging: false,});
-} );
+  $(document).ready( function () {
+      $('#genModelTable').DataTable({paging: false});
+  });
 </script>
 
     </div>
