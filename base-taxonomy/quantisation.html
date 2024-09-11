@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Quantization Models
+title: Quantisation Models
 ---
 
-<h2>Binary Quantization Models</h2>
+<h2>Binary Quantisation Models</h2>
 
-<p><strong>Quantization Models</strong> play a crucial role in nearest neighbor search by converting real-valued data into binary hashcodes, making it easier and faster to retrieve similar items. Two primary types of quantization have been developed: <em>scalar</em> and <em>vector</em> quantization. The difference lies in whether the input and output are treated as a single scalar or as a vector. This page focuses on <strong>scalar quantization</strong>, a widely-used method in hashing.</p>
+<p><strong>Quantisation Models</strong> play a crucial role in nearest neighbor search by converting real-valued data into binary hashcodes, making it easier and faster to retrieve similar items. Two primary types of quantization have been developed: <em>scalar</em> and <em>vector</em> quantisation. The difference lies in whether the input and output are treated as a single scalar or as a vector. This page focuses on <strong>scalar quantisation</strong>, a widely-used method in hashing.</p>
 
-<h3>How Scalar Quantization Works:</h3>
-<p>In scalar quantization, the real-valued projections (resulting from the dot product between a data-point’s feature vector and the normal vectors of hyperplanes partitioning the feature space) are transformed into binary values. Each dot product produces a scalar value, which is then <strong>quantized</strong> into binary (0/1) through a thresholding process. The sequence of these binary values is concatenated to form a unique hashcode for each data point.</p>
+<h3>How Scalar Quantisation Works:</h3>
+<p>In scalar quantization, the real-valued projections (resulting from the dot product between a data-point’s feature vector and the normal vectors of hyperplanes partitioning the feature space) are transformed into binary values. Each dot product produces a scalar value, which is then <strong>quantised</strong> into binary (0/1) through a thresholding process. The sequence of these binary values is concatenated to form a unique hashcode for each data point.</p>
 
-<p>Below is a list of key publications on quantization models, ordered by their bibliographic key:</p>
+<p>Below is a list of key publications on quantisation models, ordered by their bibliographic key:</p>
 
 {% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="reprModelTable">
