@@ -163,6 +163,17 @@ Please consider <a href="/contributing.html">contributing</a> by updating the in
 <script src="https://d3js.org/d3.v4.js"></script>
 
 <script>
+
+var zoom = d3.zoom()
+  .scaleExtent([0.5, 20])  // Min and max zoom level
+  .extent([[0, 0], [width, height]])
+  .on("zoom", function(event) {
+    container.attr("transform", event.transform); // Update transform on zoom/pan
+  });
+
+// Initialize zoom transform to identity (default view)
+svg.call(zoom.transform, d3.zoomIdentity);
+
 // Set the dimensions and margins of the graph
 var margin = {top: 10, right: 30, bottom: 30, left: 60},
     width = 600 - margin.left - margin.right,
