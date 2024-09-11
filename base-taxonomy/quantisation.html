@@ -21,7 +21,7 @@ Below is a list of key publications on quantization models, ordered by their bib
     </tr>
   </thead>
   <tbody>
-    {% for publication in publicationsList %}{% if publication.categories contains "quantisation" %}
+    {% for publication in publicationsList %}{% if publication.categories contains "Quantisation" %}
       {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
         <tr>
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> {{pubDetails[0].title}}</td>
