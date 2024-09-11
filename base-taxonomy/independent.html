@@ -2,26 +2,34 @@
 layout: default
 title: Unsupervised Hashing Models
 ---
-<h2>Unsupervised Hashing Models</h2>
 
-<b>Unsupervised Hashing Models</b> these methods fracture the input feature space using randomly drawn hyperplanes independently of the data distribution. Given the random nature of the learning procedure they are the fastest models at training time but suffer from the disadvantage of requiring long hashcodes and many hashtables to attain a reasonable level of retrieval effectiveness.
+## Unsupervised Hashing Models
+
+**Unsupervised Hashing Models** offer a fast and efficient way to handle large datasets by partitioning the input feature space using randomly generated hyperplanes—without any dependence on the data’s distribution. This randomness allows for rapid training times, making them the quickest models to train. However, the trade-off is that these models typically require longer hashcodes and multiple hashtables to achieve a sufficient level of retrieval effectiveness.
+
+Below is a collection of key publications related to unsupervised hashing models:
 
 {% assign publicationsList = site.data.morantaxonomy | sort: "bibkey" %}
 <table id="patternModelTable">
-<thead><th>Name</th><th>Architecture</th></thead>
-<tbody>
-{% for publication in publicationsList %}{% if publication.categories contains "independent" %}
-    {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
-    
-      <tr>
+  <thead>
+    <tr>
+      <th>Paper</th>
+      <th>Architecture</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for publication in publicationsList %}{% if publication.categories contains "independent" %}
+      {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
+        <tr>
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> {{pubDetails[0].title}}</td>
           <td>{{publication.type}}</td>
-      </tr>
-{% endif %}{% endfor %}
-</tbody></table>
+        </tr>
+    {% endif %}{% endfor %}
+  </tbody>
+</table>
 
 <script>
-$(document).ready( function () {
-    $('#patternModelTable').DataTable({paging: false,});
-} );
+  $(document).ready( function () {
+      $('#patternModelTable').DataTable({paging: false});
+  });
 </script>
