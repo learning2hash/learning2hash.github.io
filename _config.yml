@@ -3,7 +3,7 @@ title:                Awesome Learning to Hash
 tagline:             'A Living Literature Review of Learning to Hash'
 description:         'A Webpage dedicated to the latest research on Hash Function Learning. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.'
 url:                 https://learning2hash.github.io
-baseurl:             'https://learning2hash.github.io'
+baseurl:             ''
 disqus:
   shortname: sjmoran
 collections:
