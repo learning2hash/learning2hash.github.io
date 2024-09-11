@@ -19,7 +19,7 @@ Below is a list of key publications related to supervised hashing models:
     </tr>
   </thead>
   <tbody>
-    {% for publication in publicationsList %}{% if publication.categories contains "supervised" %}
+    {% for publication in publicationsList %}{% if publication.categories contains "Supervised" %}
       {% assign pubDetails = site.publications | where:"bibkey", publication.bibkey %}
         <tr>
           <td data-order="{{publication.bibkey}}"><a href="/publications/{{publication.bibkey}}">{{pubDetails[0].authors}}, {{pubDetails[0].year}}.</a> {{pubDetails[0].title}}</td>
