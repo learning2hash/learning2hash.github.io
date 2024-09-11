@@ -46,22 +46,22 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Traditional minwise hashing (MinHash) requires applying K independent permutations to estimate the Jaccard similarity in massive binary (0/1) data where K can be (e.g.) 1024 or even larger depending on applications. The recent work on C-MinHash (Li and Li 2021) has shown with rigorous proofs that only two permutations are needed. An initial permutation is applied to break whatever structures which might exist in the data and a second permutation is re-used K times to produce K hashes via a circulant shifting fashion. (Li and Li 2021) has proved that perhaps surprisingly even though the K hashes are correlated the estimation variance is strictly smaller than the variance of the traditional MinHash. It has been demonstrated in (Li and Li 2021) that the initial permutation in C-MinHash is indeed necessary. For the ease of theoretical analysis they have used two independent permutations. In this paper we show that one can actually simply use one permutation. That is one single permutation is used for both the initial pre-processing step to break the structures in the data and the circulant hashing step to generate K hashes. Although the theoretical analysis becomes very complicated we are able to explicitly write down the expression for the expectation of the estimator. The new estimator is no longer unbiased but the bias is extremely small and has essentially no impact on the estimation accuracy (mean square errors). An extensive set of experiments are provided to verify our claim for using just one permutation." />
 <meta property="og:description" content="Traditional minwise hashing (MinHash) requires applying K independent permutations to estimate the Jaccard similarity in massive binary (0/1) data where K can be (e.g.) 1024 or even larger depending on applications. The recent work on C-MinHash (Li and Li 2021) has shown with rigorous proofs that only two permutations are needed. An initial permutation is applied to break whatever structures which might exist in the data and a second permutation is re-used K times to produce K hashes via a circulant shifting fashion. (Li and Li 2021) has proved that perhaps surprisingly even though the K hashes are correlated the estimation variance is strictly smaller than the variance of the traditional MinHash. It has been demonstrated in (Li and Li 2021) that the initial permutation in C-MinHash is indeed necessary. For the ease of theoretical analysis they have used two independent permutations. In this paper we show that one can actually simply use one permutation. That is one single permutation is used for both the initial pre-processing step to break the structures in the data and the circulant hashing step to generate K hashes. Although the theoretical analysis becomes very complicated we are able to explicitly write down the expression for the expectation of the estimator. The new estimator is no longer unbiased but the bias is extremely small and has essentially no impact on the estimation accuracy (mean square errors). An extensive set of experiments are provided to verify our claim for using just one permutation." />
-<link rel="canonical" href="https://learning2hash.github.io/https://learning2hash.github.io/publications/li2021cminhash/" />
-<meta property="og:url" content="https://learning2hash.github.io/https://learning2hash.github.io/publications/li2021cminhash/" />
+<link rel="canonical" href="https://learning2hash.github.io/publications/li2021cminhash/" />
+<meta property="og:url" content="https://learning2hash.github.io/publications/li2021cminhash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-09-11T09:43:06-05:00" />
+<meta property="article:published_time" content="2024-09-11T10:17:07-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="C-MinHash Practically Reducing Two Permutations to Just One" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-09-11T09:43:06-05:00","datePublished":"2024-09-11T09:43:06-05:00","description":"Traditional minwise hashing (MinHash) requires applying K independent permutations to estimate the Jaccard similarity in massive binary (0/1) data where K can be (e.g.) 1024 or even larger depending on applications. The recent work on C-MinHash (Li and Li 2021) has shown with rigorous proofs that only two permutations are needed. An initial permutation is applied to break whatever structures which might exist in the data and a second permutation is re-used K times to produce K hashes via a circulant shifting fashion. (Li and Li 2021) has proved that perhaps surprisingly even though the K hashes are correlated the estimation variance is strictly smaller than the variance of the traditional MinHash. It has been demonstrated in (Li and Li 2021) that the initial permutation in C-MinHash is indeed necessary. For the ease of theoretical analysis they have used two independent permutations. In this paper we show that one can actually simply use one permutation. That is one single permutation is used for both the initial pre-processing step to break the structures in the data and the circulant hashing step to generate K hashes. Although the theoretical analysis becomes very complicated we are able to explicitly write down the expression for the expectation of the estimator. The new estimator is no longer unbiased but the bias is extremely small and has essentially no impact on the estimation accuracy (mean square errors). An extensive set of experiments are provided to verify our claim for using just one permutation.","headline":"C-MinHash Practically Reducing Two Permutations to Just One","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/https://learning2hash.github.io/publications/li2021cminhash/"},"url":"https://learning2hash.github.io/https://learning2hash.github.io/publications/li2021cminhash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-09-11T10:17:07-05:00","datePublished":"2024-09-11T10:17:07-05:00","description":"Traditional minwise hashing (MinHash) requires applying K independent permutations to estimate the Jaccard similarity in massive binary (0/1) data where K can be (e.g.) 1024 or even larger depending on applications. The recent work on C-MinHash (Li and Li 2021) has shown with rigorous proofs that only two permutations are needed. An initial permutation is applied to break whatever structures which might exist in the data and a second permutation is re-used K times to produce K hashes via a circulant shifting fashion. (Li and Li 2021) has proved that perhaps surprisingly even though the K hashes are correlated the estimation variance is strictly smaller than the variance of the traditional MinHash. It has been demonstrated in (Li and Li 2021) that the initial permutation in C-MinHash is indeed necessary. For the ease of theoretical analysis they have used two independent permutations. In this paper we show that one can actually simply use one permutation. That is one single permutation is used for both the initial pre-processing step to break the structures in the data and the circulant hashing step to generate K hashes. Although the theoretical analysis becomes very complicated we are able to explicitly write down the expression for the expectation of the estimator. The new estimator is no longer unbiased but the bias is extremely small and has essentially no impact on the estimation accuracy (mean square errors). An extensive set of experiments are provided to verify our claim for using just one permutation.","headline":"C-MinHash Practically Reducing Two Permutations to Just One","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2021cminhash/"},"url":"https://learning2hash.github.io/publications/li2021cminhash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
   <!-- CSS -->
-  <link rel="stylesheet" href="https://learning2hash.github.io/public/css/poole.css">
-  <link rel="stylesheet" href="https://learning2hash.github.io/public/css/syntax.css">
-  <link rel="stylesheet" href="https://learning2hash.github.io/public/css/hyde.css">
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
 
   <!-- Icons -->
@@ -104,14 +104,14 @@ alt="Web-Stat web statistics"></a></noscript>
         </p>
       </div>
       <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
-      <a class="sidebar-nav-item" href="/https://learning2hash.github.io/tags.html">Papers by Tag</a>
-      <a class="sidebar-nav-item" href="/https://learning2hash.github.io/tsne-viz.html">2D Map of Papers</a>
-      <a class="sidebar-nav-item" href="/https://learning2hash.github.io/topic-viz.html">Topic-based Explorer</a>
-      <a class="sidebar-nav-item" href="/https://learning2hash.github.io/base-taxonomy/">Core Taxonomy</a>
+      <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item" href="/topic-viz.html">Topic-based Explorer</a>
+      <a class="sidebar-nav-item" href="/base-taxonomy/">Core Taxonomy</a>
       <a class="sidebar-nav-item" href="/base-taxonomy/datasets.html">Datasets</a>
       <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
-      <a class="sidebar-nav-item" href="/https://learning2hash.github.io/resources.html">Resources, Courses &#38; Events</a>
-      <a class="sidebar-nav-item" href="/https://learning2hash.github.io/contributing.html">Contributing</a>
+      <a class="sidebar-nav-item" href="/resources.html">Resources, Courses &#38; Events</a>
+      <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
     </nav>
 
     <div class="sidebar-item">
@@ -136,7 +136,7 @@ function search() {
   try {
     ga('send', 'event', 'search', 'search', $("#searchTarget").val());
   } finally {
-    window.location = "/https://learning2hash.github.io/papers.html#" + $("#searchTarget").val();
+    window.location = "/papers.html#" + $("#searchTarget").val();
   }
 }
 </script>
