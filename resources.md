@@ -85,6 +85,6 @@ Here are a few recommended books on large-scale machine learning:
 
 - [Mining of Massive Datasets](http://www.mmds.org/): Covers large-scale data mining topics, including a detailed section on LSH.
 - [Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/information-retrieval-book.html): A classic textbook on information retrieval, featuring comprehensive coverage of data indexing and retrieval techniques.
-- [Efficient Processing of Deep Neural Networks](https://link.springer.com/book/10.2200/S01004ED1V01Y202004CAC050): A detailed exploration of techniques for processing deep neural networks efficiently.
+- [Efficient Processing of Deep Neural Networks]([https://link.springer.com/book/10.2200/S01004ED1V01Y202004CAC050](https://link.springer.com/book/10.1007/978-3-031-01766-7)): A detailed exploration of techniques for processing deep neural networks efficiently.
 
-Feel free to contribute more resources by submitting a pull request.
+Feel free to contribute more resources by submitting the request using the [Contributing](## Contributing: Share Your Work with the Community) web form.
