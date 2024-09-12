@@ -5,9 +5,6 @@ comments: true
 ---
 # Awesome Papers on Learning to Hash
 
-<iframe src="https://ghbtns.com/github-btn.html?user=learning2hash&repo=learning2hash.github.io&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
-
-
 ### 🏷 Browse Papers by Tag
 
 Explore the latest research by browsing papers categorized by tags. Select a tag below to dive deeper into specific topics within the field of learning to hash:
