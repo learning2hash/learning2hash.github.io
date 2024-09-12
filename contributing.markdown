@@ -4,10 +4,10 @@ title: Contributing
 ---
 ## Contributing: Share Your Work with the Community
 
-Learning2hash is a growing library of research on hashing techniques and their applications in machine learning. If you've written a paper or know of an important work that’s missing from this site, you can contribute directly by adding your publication. With just a few clicks, your research will be showcased to **thousands** of researchers in the field.
+Learning2hash is a growing library of research on hashing techniques and their applications in machine learning. If you've written a paper or know of an important work that’s missing from this site, you can contribute directly by adding your publication. 
 
 ### How to Contribute
-Simply fill out the form below to submit your paper for review.
+Simply fill out the form below to submit your paper:
 
 <form action="https://formkeep.com/f/f653e6347d44" accept-charset="UTF-8" enctype="multipart/form-data"  method="POST">
   <input type="text" name="email"  style="width: 700px;" placeholder="Your Email Address"><br>
@@ -24,6 +24,6 @@ Simply fill out the form below to submit your paper for review.
 ---
 
 ### Stay Connected
-Join our growing community by starring our GitHub repository and keep up with the latest updates.
+Join our growing community by starring our GitHub repository:
 
 <iframe src="https://ghbtns.com/github-btn.html?user=learning2hash&repo=learning2hash.github.io&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
