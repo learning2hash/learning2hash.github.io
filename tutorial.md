@@ -415,6 +415,6 @@ In this tutorial, we demonstrate how to use a Support Vector Machine (SVM) to le
 
 ### Contact & Feedback 
 
-Got thoughts on this tutorial? I'd love to hear them! You can reach out to the author, [Sean Moran](https://sjmoran.github.io/), anytime. Want to dive into the code? Check it out [here](./tutorial/hashing_tutorial.py), and don’t forget to grab the dependencies from the [requirements.txt] 
+Got thoughts on this tutorial? You can reach out to the author, [Sean Moran](https://sjmoran.github.io/), anytime. Want to dive into the code? Check it out [here](./tutorial/hashing_tutorial.py), and don’t forget to grab the dependencies from the [requirements.txt](./tutorial/requirements.txt)
 
 Copyright © [Sean Moran](https://sjmoran.github.io/) 2024. All opinions are my own.
