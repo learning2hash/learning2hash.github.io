@@ -132,5 +132,3 @@ Here are a few recommended books on large-scale machine learning:
 
 - **[Efficient Processing of Deep Neural Networks](https://link.springer.com/book/10.1007/978-3-031-01766-7)**: This book provides a thorough exploration of various techniques for optimizing and processing deep neural networks. It covers both the theoretical foundations and practical implementations for improving the efficiency of DNNs, including model compression, quantization, and hashing for efficient data storage and retrieval. It is essential for researchers focused on the intersection of deep learning and efficient computation.
 
-- **[Hashing and Deep Learning in Nearest Neighbor Search](https://deepai.org/machine-learning-glossary-and-terms/deep-learning)**: This article discusses the intersection of hashing techniques and deep learning for large-scale search tasks, such as approximate nearest neighbor (ANN) search. It explores how deep learning models can be combined with hashing methods to create more efficient and scalable search algorithms. The resource is particularly useful for those interested in deep learning's application to big data search problems.
-
