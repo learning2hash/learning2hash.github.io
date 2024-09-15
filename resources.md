@@ -37,7 +37,7 @@ title: Resources
 For a deeper dive, these survey papers are excellent resources:
 
 - **[Learning to Hash for Indexing Big Data - A Survey](https://arxiv.org/pdf/1509.05472.pdf)**: This comprehensive survey explores the evolution of hashing techniques for indexing and retrieving big data.
-- 
+  
 - **[A Survey on Learning to Hash](https://arxiv.org/pdf/1606.00185.pdf)**: This survey provides a detailed overview of different learning-to-hash algorithms, categorized into unsupervised, semi-supervised, and supervised methods. 
 
 - **[Learning Binary Hash Codes for Large-Scale Image Search](http://www.cs.utexas.edu/~grauman/temp/GraumanFergus_Hashing_chapterdraft.pdf)**: This paper focuses on learning binary hash codes for efficient large-scale image search. The paper is particularly useful for researchers working on image retrieval and large-scale computer vision tasks.
@@ -47,7 +47,8 @@ For a deeper dive, these survey papers are excellent resources:
 - **[Deep Learning for Hashing: A Survey](https://arxiv.org/pdf/1909.06046.pdf)**: This survey provides an in-depth overview of deep learning-based hashing techniques, which have become increasingly popular for large-scale retrieval tasks.
 
 - **[Learning to Hash With Binary Deep Neural Networks: A Survey](https://www.sciencedirect.com/science/article/abs/pii/S016786552030208X)**: This survey focuses on binary deep neural networks and their use in learning to hash. It explores how these networks are trained to produce compact binary codes that can be used for efficient data retrieval in large-scale datasets.
-- 
+
+  
 ### Pre-Processed Datasets for Download
 
 - **[CIFAR-10 Gist Features (.mat)](https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=0)**: This dataset contains GIST features extracted from the CIFAR-10 dataset, a popular image classification benchmark.
@@ -59,7 +60,7 @@ For a deeper dive, these survey papers are excellent resources:
 - **[SIFT 1M Features (.mat)](https://www.dropbox.com/s/29f6r7pqevfy2ck/sift1m.mat?dl=0)**: This dataset consists of SIFT (Scale-Invariant Feature Transform) descriptors for one million image patches, commonly used in image matching and retrieval tasks.
 
 - **[20 Newsgroups (.mat)](https://www.dropbox.com/s/wql7m8wuvn9efhj/20Newsgroups.mat?dl=0)**: This dataset contains features extracted from the 20 Newsgroups text dataset, a collection of approximately 20,000 documents categorized into 20 different newsgroups.
-- 
+  
 - **[TDT2 (.mat)](https://www.dropbox.com/s/qasz8z3sr1pjqog/TDT2.mat?dl=0)**: This dataset includes features from the Topic Detection and Tracking (TDT2) dataset, designed for research on text retrieval and clustering. 
 
 - **[BIGANN Dataset](http://corpus-texmex.irisa.fr/)**: The BIGANN dataset includes SIFT descriptors extracted from a large collection of images. It is widely used for benchmarking large-scale approximate nearest neighbor (ANN) search algorithms.
@@ -101,9 +102,9 @@ Blog posts are a great way to keep up with cutting-edge research. Here are some 
 - **[Locality-Sensitive Hashing: Reducing Data Dimensionality](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)**: This article introduces Locality-Sensitive Hashing (LSH) as a method for reducing the dimensionality of high-dimensional data while preserving similarity. 
 
 - **[Efficient Similarity Search with Faiss](https://engineering.fb.com/2020/11/23/ai-research/faiss/)**: This blog post, from Facebook AI Research (FAIR), provides an in-depth explanation of Faiss, an open-source library for efficient similarity search.
-- 
+  
 - **[Johnson–Lindenstrauss Lemma](https://www.wikiwand.com/en/Johnson%E2%80%93Lindenstrauss_lemma)**: This resource describes the Johnson-Lindenstrauss Lemma, a mathematical result that provides a way to reduce the dimensionality of data while approximately preserving distances between points.
-- 
+  
 - **[LSH Ideas](http://rakaposhi.eas.asu.edu/s01-cse494-mailarchive/msg00054.html)**: This article offers ideas and insights about Locality-Sensitive Hashing (LSH), focusing on its conceptual foundation and potential applications.
   
 - **[Introduction to Locality-Sensitive Hashing (Great Visualizations)](http://tylerneylon.com/a/lsh1/)**: This tutorial, rich with visual aids, provides an easy-to-follow introduction to Locality-Sensitive Hashing (LSH). 
