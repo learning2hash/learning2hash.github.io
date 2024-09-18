@@ -8,6 +8,6 @@ bibkey: zhu2022lower
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper_files/paper/2022/hash/bbd7d8bd780fcf7143add2317ba04638-Abstract-Conference.html"}
   - {name: "Code", url: "https://github.com/VL-Group/LBHash"}
-tags: ['Independent', 'NEURIPS']
+tags: ['Has Code', 'Independent', 'NEURIPS']
 ---
 As a crucial approach for compact representation learning hashing has achieved great success in effectiveness and efficiency. Numerous heuristic Hamming space metric learning objectives are designed to obtain high-quality hash codes. Nevertheless a theoretical analysis of criteria for learning good hash codes remains largely unexploited. In this paper we prove that inter-class distinctiveness and intra-class compactness among hash codes determine the lower bound of hash codes performance. Promoting these two characteristics could lift the bound and improve hash learning. We then propose a surrogate model to fully exploit the above objective by estimating the posterior of hash codes and controlling it which results in a low-bias optimization. Extensive experiments reveal the effectiveness of the proposed method. By testing on a series of hash-models we obtain performance improvements among all of them with an up to 26.5 increase in mean Average Precision and an up to 20.5 increase in accuracy. Our code is publicly available at https://github.com/VL-Group/LBHash.
