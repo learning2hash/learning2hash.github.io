@@ -13,7 +13,7 @@ title: Resources
 - **[Compact and Efficient Feature Representation and Learning in Computer Vision, ICCV 2019](http://www.ee.oulu.fi/~lili/CEFRLatICCV2019.html)**: This workshop at ICCV 2019 focuses on efficient learning techniques for compact feature representations, including binary hashing methods. 
 
 - **[International Conference on Similarity Search and Applications](http://www.sisap.org/2020/)**: SISAP is an annual conference dedicated to the study of similarity search techniques.
-- 
+  
 - **[Joint Workshop on Efficient Deep Learning in Computer Vision](https://workshop-edlcv.github.io/)**: This workshop, co-located with CVPR 2020, focused on the intersection of deep learning and efficient computing techniques for computer vision tasks. 
 
 - **[IEEE International Conference on Data Engineering (ICDE)](https://icde.org/)**: ICDE is one of the leading conferences on data engineering, where researchers present advances in data management, indexing, and search. 
