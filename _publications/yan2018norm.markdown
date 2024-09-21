@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Norm-Ranging LSH for Maximum Inner Product Search
-authors: X I A O Y A N, J I N F E N G L I, X I N Y A N D A I, H O N G Z H I C H E N, J A M E S C H E N G
+authors: Xiao Yan, Jinfeng Li, Xinyan Dai, Hongzhi Chen, James Cheng
 conference: "Neural Information Processing Systems"
 year: 2018
 bibkey: yan2018norm

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Learning to Search Efficiently in High Dimensions
-authors: Z H E N L I, H U A Z H O N G N I N G, L I A N G L I A N G C A O, T O N G Z H A N G, Y I H O N G G O N G, T H O M A S S . H U A N G
+authors: Zhen Li, Huazhong Ning, Liangliang Cao, Tong Zhang, Yihong Gong, Thomas S. Huang
 conference: "Neural Information Processing Systems"
 year: 2011
 bibkey: li2011learning

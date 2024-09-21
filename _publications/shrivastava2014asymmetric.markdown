@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Asymmetric LSH (ALSH) for Sublinear Time Maximum Inner Product Search (MIPS)
-authors: A N S H U M A L I S H R I V A S T A V A, P I N G L I
+authors: Anshumali Shrivastava, Ping Li
 conference: "Neural Information Processing Systems"
 year: 2014
 bibkey: shrivastava2014asymmetric

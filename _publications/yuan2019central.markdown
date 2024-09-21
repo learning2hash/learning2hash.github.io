@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Central Similarity Quantization for Efficient Image and Video Retrieval
-authors: Yuan Li, Wang Tao, Zhang Xiaopeng, Tay Francis EH, Jie Zequn, Liu Wei, Feng Jiashi
+authors: Yuan Li, Wang Tao, Zhang Xiaopeng, Tay Francis Eh, Jie Zequn, Liu Wei, Feng Jiashi
 conference: "Arxiv"
 year: 2019
 bibkey: yuan2019central

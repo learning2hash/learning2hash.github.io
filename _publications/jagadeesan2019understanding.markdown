@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Understanding Sparse JL for Feature Hashing
-authors: M E E N A J A G A D E E S A N
+authors: Meena Jagadeesan
 conference: "Neural Information Processing Systems"
 year: 2019
 bibkey: jagadeesan2019understanding

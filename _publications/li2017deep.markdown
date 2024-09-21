@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Supervised Discrete Hashing
-authors: Q I L I, Z H E N A N S U N, R A N H E, T I E N I U T A N
+authors: Qi Li, Zhenan Sun, Ran He, Tieniu Tan
 conference: "Neural Information Processing Systems"
 year: 2017
 bibkey: li2017deep

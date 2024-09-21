@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: A Lower Bound of Hash Codes Performance
-authors: X I A O S U Z H U, J I N G K U A N S O N G, Y U L E I, L I A N L I G A O, H E N G T A O S H E N
+authors: Xiaosu Zhu, Jingkuan Song, Yu Lei, Lianli Gao, Hengtao Shen
 conference: "Neural Information Processing Systems"
 year: 2022
 bibkey: zhu2022lower

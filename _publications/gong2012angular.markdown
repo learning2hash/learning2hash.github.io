@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Angular Quantization-based Binary Codes for Fast Similarity Search
-authors: Y U N C H A O G O N G, S A N J I V K U M A R, V I S H A L V E R M A, S V E T L A N A L A Z E B N I K
+authors: Yunchao Gong, Sanjiv Kumar, Vishal Verma, Svetlana Lazebnik
 conference: "Neural Information Processing Systems"
 year: 2012
 bibkey: gong2012angular

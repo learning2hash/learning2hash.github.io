@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Local Similarity-Aware Deep Feature Embedding
-authors: C H E N H U A N G, C H E N C H A N G E L O Y, X I A O O U T A N G
+authors: Chen Huang, Chen Change Loy, Xiaoou Tang
 conference: "Neural Information Processing Systems"
 year: 2016
 bibkey: huang2016local

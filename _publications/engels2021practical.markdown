@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Practical Near Neighbor Search via Group Testing
-authors: J O S H U A E N G E L S, B E N J A M I N C O L E M A N, A N S H U M A L I S H R I V A S T A V A
+authors: Joshua Engels, Benjamin Coleman, Anshumali Shrivastava
 conference: "Neural Information Processing Systems"
 year: 2021
 bibkey: engels2021practical

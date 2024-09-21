@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Working hard to know your neighbors margins Local descriptor learning loss
-authors: A N A S T A S I I A M I S H C H U K, D M Y T R O M I S H K I N, F I L I P R A D E N O V I C, J I R I M A T A S
+authors: Anastasiia Mishchuk, Dmytro Mishkin, Filip Radenovic, Jiri Matas
 conference: "Neural Information Processing Systems"
 year: 2017
 bibkey: mishchuk2017working

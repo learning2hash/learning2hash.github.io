@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: An ensemble diversity approach to supervised binary hashing
-authors: M I G U E L A . C A R R E I R A - P E R P I N A N, R A M I N R A Z I P E R C H I K O L A E I
+authors: Miguel A. Carreira-perpinan, Ramin Raziperchikolaei
 conference: "Neural Information Processing Systems"
 year: 2016
 bibkey: a2016ensemble

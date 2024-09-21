@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Video retrieval based on deep convolutional neural network
-authors: Dong Yj, Li JG
+authors: Dong Yj, Li Jg
 conference: "Arxiv"
 year: 2017
 bibkey: dong2017video

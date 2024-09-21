@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: An algorithm for L1 nearest neighbor search via monotonic embedding
-authors: X I N A N W A N G, S A N J O Y D A S G U P T A
+authors: Xinan Wang, Sanjoy Dasgupta
 conference: "Neural Information Processing Systems"
 year: 2016
 bibkey: wang2016algorithm

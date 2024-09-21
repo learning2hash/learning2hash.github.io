@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Compact Hyperplane Hashing with Bilinear Functions
-authors: Liu Wei Columbia University, Wang Jun IBM T. J. Watson Research Center, Mu Yadong Columbia University, Kumar Sanjiv Google, Chang Shih-fu Columbia University
+authors: Liu Wei Columbia University, Wang Jun Ibm T. J. Watson Research Center, Mu Yadong Columbia University, Kumar Sanjiv Google, Chang Shih-fu Columbia University
 conference: "Arxiv"
 year: 2012
 bibkey: liu2012compact

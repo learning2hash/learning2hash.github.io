@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Practical Hash Functions for Similarity Estimation and Dimensionality Reduction
-authors: S Ø R E N D A H L G A A R D, M A T H I A S K N U D S E N, M I K K E L T H O R U P
+authors: Søren Dahlgaard, Mathias Knudsen, Mikkel Thorup
 conference: "Neural Information Processing Systems"
 year: 2017
 bibkey: dahlgaard2017practical

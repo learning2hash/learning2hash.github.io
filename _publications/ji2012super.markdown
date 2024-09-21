@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Super-Bit Locality-Sensitive Hashing
-authors: J I A N Q I U J I, J I A N M I N L I, S H U I C H E N G Y A N, B O Z H A N G, Q I T I A N
+authors: Jianqiu Ji, Jianmin Li, Shuicheng Yan, Bo Zhang, Qi Tian
 conference: "Neural Information Processing Systems"
 year: 2012
 bibkey: ji2012super

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Practical and Optimal LSH for Angular Distance
-authors: A L E X A N D R A N D O N I, P I O T R I N D Y K, T H I J S L A A R H O V E N, I L Y A R A Z E N S H T E Y N, L U D W I G S C H M I D T
+authors: Alexandr Andoni, Piotr Indyk, Thijs Laarhoven, Ilya Razenshteyn, Ludwig Schmidt
 conference: "Neural Information Processing Systems"
 year: 2015
 bibkey: andoni2015practical

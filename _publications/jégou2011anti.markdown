@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Anti-sparse coding for approximate nearest neighbor search
-authors: Jégou Hervé INRIA - IRISA, Furon Teddy INRIA - IRISA, Fuchs Jean-jacques INRIA - IRISA
+authors: Jégou Hervé Inria - Irisa, Furon Teddy Inria - Irisa, Fuchs Jean-jacques Inria - Irisa
 conference: "Arxiv"
 year: 2011
 bibkey: jégou2011anti

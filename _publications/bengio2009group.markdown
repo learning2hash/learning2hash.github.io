@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Group Sparse Coding
-authors: S A M Y B E N G I O, F E R N A N D O P E R E I R A, Y O R A M S I N G E R, D E N N I S S T R E L O W
+authors: Samy Bengio, Fernando Pereira, Yoram Singer, Dennis Strelow
 conference: "Neural Information Processing Systems"
 year: 2009
 bibkey: bengio2009group

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Camera-Based Piano Sheet Music Identification
-authors: Yang Daniel, Tsai TJ
+authors: Yang Daniel, Tsai Tj
 conference: "Arxiv"
 year: 2020
 bibkey: yang2020camera
