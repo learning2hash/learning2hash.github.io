@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Learning to Hash for Indexing Big Data - A Survey
-authors: Wang Jun, Liu Wei, Kumar Sanjiv, Chang Shih-Fu
+authors: Wang Jun, Liu Wei, Kumar Sanjiv, Chang Shih-fu
 conference: "Arxiv"
 year: 2015
 bibkey: wang2015learning

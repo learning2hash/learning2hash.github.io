@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Discrete Graph Hashing
-authors: Wei Liu, Cun Mu, Sanjiv Kumar, Shih-Fu Chang
+authors: W E I L I U, C U N M U, S A N J I V K U M A R, S H I H - F U C H A N G
 conference: "Neural Information Processing Systems"
 year: 2014
 bibkey: liu2014discrete

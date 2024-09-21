@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: HM-ANN Efficient Billion-Point Nearest Neighbor Search on Heterogeneous Memory
-authors: Jie Ren, Minjia Zhang, Dong Li
+authors: J I E R E N, M I N J I A Z H A N G, D O N G L I
 conference: "Neural Information Processing Systems"
 year: 2020
 bibkey: ren2020hmann

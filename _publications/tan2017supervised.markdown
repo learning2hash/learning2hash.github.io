@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Supervised Hashing with End-to-End Binary Deep Neural Network
-authors: Tan Dang-Khoa Le, Do Thanh-Toan, Cheung Ngai-Man
+authors: Tan Dang-khoa Le, Do Thanh-toan, Cheung Ngai-man
 conference: "Arxiv"
 year: 2017
 bibkey: tan2017supervised

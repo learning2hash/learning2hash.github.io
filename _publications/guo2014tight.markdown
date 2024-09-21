@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: On tight bounds for binary frameproof codes
-authors: Guo Chuan, Stinson Douglas R., van Trung Tran
+authors: Guo Chuan, Stinson Douglas R., Van Trung Tran
 conference: "Arxiv"
 year: 2014
 bibkey: guo2014tight

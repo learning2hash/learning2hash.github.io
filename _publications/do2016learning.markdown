@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Learning to Hash with Binary Deep Neural Network
-authors: Do Thanh-Toan, Doan Anh-Dzung, Cheung Ngai-Man
+authors: Do Thanh-toan, Doan Anh-dzung, Cheung Ngai-man
 conference: "Arxiv"
 year: 2016
 bibkey: do2016learning

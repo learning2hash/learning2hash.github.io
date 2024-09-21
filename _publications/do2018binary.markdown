@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Binary Constrained Deep Hashing Network for Image Retrieval without Manual Annotation
-authors: Do Thanh-Toan, Hoang Tuan, Tan Dang-Khoa Le, Pham Trung, Le Huu, Cheung Ngai-Man, Reid Ian
+authors: Do Thanh-toan, Hoang Tuan, Tan Dang-khoa Le, Pham Trung, Le Huu, Cheung Ngai-man, Reid Ian
 conference: "Arxiv"
 year: 2018
 bibkey: do2018binary

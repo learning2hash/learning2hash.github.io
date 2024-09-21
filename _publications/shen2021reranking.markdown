@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Re-ranking for image retrieval and transductive few-shot classification
-authors: Xi SHEN, Yang Xiao, Shell Hu, Othman Sbai, Mathieu Aubry
+authors: X I S H E N, Y A N G X I A O, S H E L L H U, O T H M A N S B A I, M A T H I E U A U B R Y
 conference: "Neural Information Processing Systems"
 year: 2021
 bibkey: shen2021reranking

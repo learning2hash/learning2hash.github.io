@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Cross-Modal Hashing
-authors: Jiang Qing-Yuan, Li Wu-Jun
+authors: Jiang Qing-yuan, Li Wu-jun
 conference: "Arxiv"
 year: 2016
 bibkey: jiang2016deep

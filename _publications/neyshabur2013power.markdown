@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: The Power of Asymmetry in Binary Hashing
-authors: Behnam Neyshabur, Nati Srebro, Russ R.Salakhutdinov, Yury Makarychev, Payman Yadollahpour
+authors: B E H N A M N E Y S H A B U R, N A T I S R E B R O, R U S S R . S A L A K H U T D I N O V, Y U R Y M A K A R Y C H E V, P A Y M A N Y A D O L L A H P O U R
 conference: "Neural Information Processing Systems"
 year: 2013
 bibkey: neyshabur2013power

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Iterative Universal Hash Function Generator for Minhashing
-authors: de Franca Fabricio Olivetti
+authors: De Franca Fabricio Olivetti
 conference: "Arxiv"
 year: 2014
 bibkey: defranca2014iterative

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Vision Transformer Hashing for Image Retrieval
-authors: Dubey Shiv Ram, Singh Satish Kumar, Chu Wei-Ta
+authors: Dubey Shiv Ram, Singh Satish Kumar, Chu Wei-ta
 conference: "Arxiv"
 year: 2021
 bibkey: dubey2021vision

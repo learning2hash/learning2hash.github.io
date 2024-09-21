@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: One Loss for All Deep Hashing with a Single Cosine Similarity based Learning Objective
-authors: Jiun Tian Hoe, Kam Woh Ng, Tianyu Zhang, Chee Seng Chan, Yi-Zhe Song, Tao Xiang
+authors: J I U N T I A N H O E, K A M W O H N G, T I A N Y U Z H A N G, C H E E S E N G C H A N, Y I - Z H E S O N G, T A O X I A N G
 conference: "Neural Information Processing Systems"
 year: 2021
 bibkey: tian2021one

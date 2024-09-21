@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Unsupervised Multi-modal Hashing for Cross-modal retrieval
-authors: Yu Jun, Wu Xiao-Jun
+authors: Yu Jun, Wu Xiao-jun
 conference: "Arxiv"
 year: 2019
 bibkey: yu2019unsupervised

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Binary Code based Hash Embedding for Web-scale Applications
-authors: Yan Bencheng, Wang Pengjie, Liu Jinquan, Lin Wei, Lee Kuang-Chih, Xu Jian, Zheng Bo
+authors: Yan Bencheng, Wang Pengjie, Liu Jinquan, Lin Wei, Lee Kuang-chih, Xu Jian, Zheng Bo
 conference: "Arxiv"
 year: 2021
 bibkey: yan2021binary

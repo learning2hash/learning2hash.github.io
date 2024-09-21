@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Push for Quantization Deep Fisher Hashing
-authors: Li Yunqiang, Pei Wenjie, zha Yufei, van Gemert Jan
+authors: Li Yunqiang, Pei Wenjie, Zha Yufei, Van Gemert Jan
 conference: "Arxiv"
 year: 2019
 bibkey: li2019push

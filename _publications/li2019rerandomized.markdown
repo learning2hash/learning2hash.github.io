@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Re-randomized Densification for One Permutation Hashing and Bin-wise Consistent Weighted Sampling
-authors: Ping Li, Xiaoyun Li, Cun-Hui Zhang
+authors: P I N G L I, X I A O Y U N L I, C U N - H U I Z H A N G
 conference: "Neural Information Processing Systems"
 year: 2019
 bibkey: li2019rerandomized

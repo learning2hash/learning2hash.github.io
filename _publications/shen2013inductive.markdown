@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Inductive Hashing on Manifolds
-authors: Shen Fumin, Shen Chunhua, Shi Qinfeng, Hengel Anton van den, Tang Zhenmin
+authors: Shen Fumin, Shen Chunhua, Shi Qinfeng, Hengel Anton Van Den, Tang Zhenmin
 conference: "Arxiv"
 year: 2013
 bibkey: shen2013inductive

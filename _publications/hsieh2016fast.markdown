@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Fast Binary Embedding via Circulant Downsampled Matrix -- A Data-Independent Approach
-authors: Hsieh Sung-Hsien, Lu Chun-Shien, Pei Soo-Chang
+authors: Hsieh Sung-hsien, Lu Chun-shien, Pei Soo-chang
 conference: "Arxiv"
 year: 2016
 bibkey: hsieh2016fast

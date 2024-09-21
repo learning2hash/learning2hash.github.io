@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: An Indexing Scheme and Descriptor for 3D Object Retrieval Based on Local Shape Querying
-authors: van Blokland Bart Iver, Theoharis Theoharis
+authors: Van Blokland Bart Iver, Theoharis Theoharis
 conference: "Computers Graphics Volume"
 year: 2020
 bibkey: vanblokland2020indexing

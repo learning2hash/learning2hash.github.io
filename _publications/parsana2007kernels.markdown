@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Kernels on Attributed Pointsets with Applications
-authors: Mehul Parsana, Sourangshu Bhattacharya, Chiru Bhattacharya, K.Ramakrishnan
+authors: M E H U L P A R S A N A, S O U R A N G S H U B H A T T A C H A R Y A, C H I R U B H A T T A C H A R Y A, K . R A M A K R I S H N A N
 conference: "Neural Information Processing Systems"
 year: 2007
 bibkey: parsana2007kernels

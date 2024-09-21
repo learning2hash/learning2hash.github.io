@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Similarity Join Size Estimation using Locality Sensitive Hashing
-authors: Lee Hongrae  University of British Columbia, Ng Raymond T.  University of British Columbia, Shim Kyuseok  Seoul National University
+authors: Lee Hongrae University Of British Columbia, Ng Raymond T. University Of British Columbia, Shim Kyuseok Seoul National University
 conference: "Proceedings of the VLDB Endowment"
 year: 2011
 bibkey: lee2011similarity

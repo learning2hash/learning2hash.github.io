@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: ConceptHash Interpretable Fine-Grained Hashing via Concept Discovery
-authors: Ng Kam Woh, Zhu Xiatian, Song Yi-Zhe, Xiang Tao
+authors: Ng Kam Woh, Zhu Xiatian, Song Yi-zhe, Xiang Tao
 conference: "Arxiv"
 year: 2024
 bibkey: ng2024concepthash

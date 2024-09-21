@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Cross-modal Hashing via Margin-dynamic-softmax Loss
-authors: Tu Rong-Cheng, Mao Xian-Ling, Tu Rongxin, Bian Binbin, Wei Wei, Huang Heyan
+authors: Tu Rong-cheng, Mao Xian-ling, Tu Rongxin, Bian Binbin, Wei Wei, Huang Heyan
 conference: "Arxiv"
 year: 2020
 bibkey: tu2020deep

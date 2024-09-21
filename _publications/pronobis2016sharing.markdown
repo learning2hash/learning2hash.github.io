@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Sharing Hash Codes for Multiple Purposes
-authors: Pronobis Wikor, Panknin Danny, Kirschnick Johannes, Srinivasan Vignesh, Samek Wojciech, Markl Volker, Kaul Manohar, Mueller Klaus-Robert, Nakajima Shinichi
+authors: Pronobis Wikor, Panknin Danny, Kirschnick Johannes, Srinivasan Vignesh, Samek Wojciech, Markl Volker, Kaul Manohar, Mueller Klaus-robert, Nakajima Shinichi
 conference: "Arxiv"
 year: 2016
 bibkey: pronobis2016sharing

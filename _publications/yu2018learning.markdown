@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Learning Discriminative Hashing Codes for Cross-Modal Retrieval based on Multi-view Features
-authors: Yu Jun, Wu Xiao-Jun, Kittler Josef
+authors: Yu Jun, Wu Xiao-jun, Kittler Josef
 conference: "Arxiv"
 year: 2018
 bibkey: yu2018learning

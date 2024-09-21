@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Guided Similarity Separation for Image Retrieval
-authors: Chundi Liu, Guangwei Yu, Maksims Volkovs, Cheng Chang, Himanshu Rai, Junwei Ma, Satya Krishna Gorti
+authors: C H U N D I L I U, G U A N G W E I Y U, M A K S I M S V O L K O V S, C H E N G C H A N G, H I M A N S H U R A I, J U N W E I M A, S A T Y A K R I S H N A G O R T I
 conference: "Neural Information Processing Systems"
 year: 2019
 bibkey: liu2019guided

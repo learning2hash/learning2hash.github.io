@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: On the Evaluation Metric for Hashing
-authors: Jiang Qing-Yuan, Li Ming-Wei, Li Wu-Jun
+authors: Jiang Qing-yuan, Li Ming-wei, Li Wu-jun
 conference: "Arxiv"
 year: 2019
 bibkey: jiang2019evaluation

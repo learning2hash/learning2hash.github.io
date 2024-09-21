@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Contextual Similarity Aggregation with Self-attention for Visual Re-ranking
-authors: Jianbo Ouyang, Hui Wu, Min Wang, Wengang Zhou, Houqiang Li
+authors: J I A N B O O U Y A N G, H U I W U, M I N W A N G, W E N G A N G Z H O U, H O U Q I A N G L I
 conference: "Neural Information Processing Systems"
 year: 2021
 bibkey: ouyang2021contextual

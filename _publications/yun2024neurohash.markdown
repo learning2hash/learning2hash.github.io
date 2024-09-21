@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: NeuroHash A Hyperdimensional Neuro-Symbolic Framework for Spatially-Aware Image Hashing and Retrieval
-authors: Yun Sanggeon, Masukawa Ryozo, Jeong SungHeon, Imani Mohsen
+authors: Yun Sanggeon, Masukawa Ryozo, Jeong Sungheon, Imani Mohsen
 conference: "Arxiv"
 year: 2024
 bibkey: yun2024neurohash

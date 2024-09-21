@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Locality Preserving Multiview Graph Hashing for Large Scale Remote Sensing Image Search
-authors: Li Wenyun, Zhong Guo, Lu Xingyu, Pun Chi-Man
+authors: Li Wenyun, Zhong Guo, Lu Xingyu, Pun Chi-man
 conference: "Arxiv"
 year: 2023
 bibkey: li2023locality

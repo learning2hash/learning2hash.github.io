@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Locality-sensitive binary codes from shift-invariant kernels
-authors: Maxim Raginsky, Svetlana Lazebnik
+authors: M A X I M R A G I N S K Y, S V E T L A N A L A Z E B N I K
 conference: "Neural Information Processing Systems"
 year: 2009
 bibkey: raginsky2009localitysensitive

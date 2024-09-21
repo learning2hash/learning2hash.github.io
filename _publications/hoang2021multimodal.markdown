@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Multi-Modal Mutual Information Maximization A Novel Approach for Unsupervised Deep Cross-Modal Hashing
-authors: Hoang Tuan, Do Thanh-Toan, Nguyen Tam V., Cheung Ngai-Man
+authors: Hoang Tuan, Do Thanh-toan, Nguyen Tam V., Cheung Ngai-man
 conference: "Arxiv"
 year: 2021
 bibkey: hoang2021multimodal

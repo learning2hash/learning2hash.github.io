@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Unsupervised Image Hashing by Maximizing Bit Entropy
-authors: Li Yunqiang, van Gemert Jan
+authors: Li Yunqiang, Van Gemert Jan
 conference: "Arxiv"
 year: 2020
 bibkey: li2020deep

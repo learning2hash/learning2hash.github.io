@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Isotropic Hashing
-authors: Weihao Kong, Wu-jun Li
+authors: W E I H A O K O N G, W U - J U N L I
 conference: "Neural Information Processing Systems"
 year: 2012
 bibkey: kong2012isotropic

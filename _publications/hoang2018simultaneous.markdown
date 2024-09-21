@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Simultaneous Compression and Quantization A Joint Approach for Efficient Unsupervised Hashing
-authors: Hoang Tuan, Do Thanh-Toan, Le Huu, Le-Tan Dang-Khoa, Cheung Ngai-Man
+authors: Hoang Tuan, Do Thanh-toan, Le Huu, Le-tan Dang-khoa, Cheung Ngai-man
 conference: "Arxiv"
 year: 2018
 bibkey: hoang2018simultaneous

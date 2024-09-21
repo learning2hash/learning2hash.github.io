@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Similarity Problems in High Dimensions
-authors: Sivertsen Johan von Tangen
+authors: Sivertsen Johan Von Tangen
 conference: "Arxiv"
 year: 2019
 bibkey: sivertsen2019similarity

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Hashing using Entropy Regularised Product Quantisation Network
-authors: Schlemper Jo, Caballero Jose, Aitken Andy, van Amersfoort Joost
+authors: Schlemper Jo, Caballero Jose, Aitken Andy, Van Amersfoort Joost
 conference: "Arxiv"
 year: 2019
 bibkey: schlemper2019deep

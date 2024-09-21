@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Near-optimal sample compression for nearest neighbors
-authors: Lee-Ad Gottlieb, Aryeh Kontorovich, Pinhas Nisnevitch
+authors: L E E - A D G O T T L I E B, A R Y E H K O N T O R O V I C H, P I N H A S N I S N E V I T C H
 conference: "Neural Information Processing Systems"
 year: 2014
 bibkey: gottlieb2014nearoptimal

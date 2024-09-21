@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: ExchNet A Unified Hashing Network for Large-Scale Fine-Grained Image Retrieval
-authors: Cui Quan, Jiang Qing-Yuan, Wei Xiu-Shen, Li Wu-Jun, Yoshie Osamu
+authors: Cui Quan, Jiang Qing-yuan, Wei Xiu-shen, Li Wu-jun, Yoshie Osamu
 conference: "Arxiv"
 year: 2020
 bibkey: cui2020exchnet

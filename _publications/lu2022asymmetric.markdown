@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Asymmetric Transfer Hashing with Adaptive Bipartite Graph Learning
-authors: Lu Jianglin, Zhou Jie, Chen Yudong, Pedrycz Witold, Hung Kwok-Wai
+authors: Lu Jianglin, Zhou Jie, Chen Yudong, Pedrycz Witold, Hung Kwok-wai
 conference: "Arxiv"
 year: 2022
 bibkey: lu2022asymmetric

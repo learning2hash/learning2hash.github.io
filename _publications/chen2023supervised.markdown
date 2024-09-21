@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Supervised Auto-Encoding Twin-Bottleneck Hashing
-authors: Chen Yuan, Marchand-Maillet Stéphane
+authors: Chen Yuan, Marchand-maillet Stéphane
 conference: "Arxiv"
 year: 2023
 bibkey: chen2023supervised

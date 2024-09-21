@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Semantic Hierarchy Preserving Deep Hashing for Large-scale Image Retrieval
-authors: Zhang Ming, Zhe Xuefei, Ou-Yang Le, Chen Shifeng, Yan Hong
+authors: Zhang Ming, Zhe Xuefei, Ou-yang Le, Chen Shifeng, Yan Hong
 conference: "Arxiv"
 year: 2019
 bibkey: zhang2019semantic

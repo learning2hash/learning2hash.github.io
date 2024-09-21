@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Supervised Quantization for Similarity Search
-authors: Wang Xiaojuan, Zhang Ting, Q Guo-Jun, Tang Jinhui, Wang Jingdong
+authors: Wang Xiaojuan, Zhang Ting, Q Guo-jun, Tang Jinhui, Wang Jingdong
 conference: "Arxiv"
 year: 2019
 bibkey: wang2019supervised

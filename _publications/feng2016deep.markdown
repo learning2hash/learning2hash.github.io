@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Image Set Hashing
-authors: Feng Jie, Karaman Svebor, Jhuo I-Hong, Chang Shih-Fu
+authors: Feng Jie, Karaman Svebor, Jhuo I-hong, Chang Shih-fu
 conference: "Arxiv"
 year: 2016
 bibkey: feng2016deep

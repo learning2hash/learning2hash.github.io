@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Unsupervised Hashing with Semantic Concept Mining
-authors: Tu Rong-Cheng, Mao Xian-Ling, Lin Kevin Qinghong, Cai Chengfei, Qin Weize, Wang Hongfa, Wei Wei, Huang Heyan
+authors: Tu Rong-cheng, Mao Xian-ling, Lin Kevin Qinghong, Cai Chengfei, Qin Weize, Wang Hongfa, Wei Wei, Huang Heyan
 conference: "Arxiv"
 year: 2022
 bibkey: tu2022unsupervised

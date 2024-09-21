@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: A study on the use of perceptual hashing to detect manipulation of embedded messages in images
-authors: Wöhnert Sven-Jannik, Wöhnert Kai Hendrik, Almamedov Eldar, Frank Carsten, Skwarek Volker
+authors: Wöhnert Sven-jannik, Wöhnert Kai Hendrik, Almamedov Eldar, Frank Carsten, Skwarek Volker
 conference: "Arxiv"
 year: 2023
 bibkey: wöhnert2023study

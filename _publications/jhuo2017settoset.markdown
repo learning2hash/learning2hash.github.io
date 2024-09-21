@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Set-to-Set Hashing with Applications in Visual Recognition
-authors: Jhuo I-Hong, Wang Jun
+authors: Jhuo I-hong, Wang Jun
 conference: "Arxiv"
 year: 2017
 bibkey: jhuo2017settoset

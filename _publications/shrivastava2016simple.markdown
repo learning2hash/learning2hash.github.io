@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Simple and Efficient Weighted Minwise Hashing
-authors: Anshumali Shrivastava
+authors: A N S H U M A L I S H R I V A S T A V A
 conference: "Neural Information Processing Systems"
 year: 2016
 bibkey: shrivastava2016simple

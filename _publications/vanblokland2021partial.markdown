@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Partial 3D Object Retrieval using Local Binary QUICCI Descriptors and Dissimilarity Tree Indexing
-authors: van Blokland Bart Iver, Theoharis Theoharis
+authors: Van Blokland Bart Iver, Theoharis Theoharis
 conference: "Arxiv"
 year: 2021
 bibkey: vanblokland2021partial

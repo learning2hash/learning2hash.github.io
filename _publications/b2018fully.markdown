@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Fully Understanding The Hashing Trick
-authors: Casper B.Freksen, Lior Kamma, Kasper Green Larsen
+authors: C A S P E R B . F R E K S E N, L I O R K A M M A, K A S P E R G R E E N L A R S E N
 conference: "Neural Information Processing Systems"
 year: 2018
 bibkey: b2018fully

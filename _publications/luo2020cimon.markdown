@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: CIMON Towards High-quality Hash Codes
-authors: Luo Xiao, Wu Daqing, Ma Zeyu, Chen Chong, Deng Minghua, Ma Jinwen, Jin Zhongming, Huang Jianqiang, Hua Xian-Sheng
+authors: Luo Xiao, Wu Daqing, Ma Zeyu, Chen Chong, Deng Minghua, Ma Jinwen, Jin Zhongming, Huang Jianqiang, Hua Xian-sheng
 conference: "Arxiv"
 year: 2020
 bibkey: luo2020cimon

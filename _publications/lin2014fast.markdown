@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Fast Supervised Hashing with Decision Trees for High-Dimensional Data
-authors: Lin Guosheng, Shen Chunhua, Shi Qinfeng, Hengel Anton van den, Suter David
+authors: Lin Guosheng, Shen Chunhua, Shi Qinfeng, Hengel Anton Van Den, Suter David
 conference: "Arxiv"
 year: 2014
 bibkey: lin2014fast

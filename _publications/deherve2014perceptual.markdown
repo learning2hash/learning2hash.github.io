@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: A perceptual hash function to store and retrieve large scale DNA sequences
-authors: De Herve Jocelyn De Goer, Kang Myoung-Ah, Bailly Xavier, Nguifo Engelbert Mephu
+authors: De Herve Jocelyn De Goer, Kang Myoung-ah, Bailly Xavier, Nguifo Engelbert Mephu
 conference: "Arxiv"
 year: 2014
 bibkey: deherve2014perceptual

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Locality-Sensitive Hashing for f-Divergences Mutual Information Loss and Beyond
-authors: Lin Chen, Hossein Esfandiari, Gang Fu, Vahab Mirrokni
+authors: L I N C H E N, H O S S E I N E S F A N D I A R I, G A N G F U, V A H A B M I R R O K N I
 conference: "Neural Information Processing Systems"
 year: 2019
 bibkey: chen2019localitysensitive

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Asymmetric Deep Semantic Quantization for Image Retrieval
-authors: Yang Zhan, Raymond Osolo Ian, Sun WuQing, Long Jun
+authors: Yang Zhan, Raymond Osolo Ian, Sun Wuqing, Long Jun
 conference: "Arxiv"
 year: 2019
 bibkey: yang2019asymmetric

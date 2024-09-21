@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Hashing Algorithms for Large-Scale Learning
-authors: Ping Li, Anshumali Shrivastava, Joshua Moore, Arnd König
+authors: P I N G L I, A N S H U M A L I S H R I V A S T A V A, J O S H U A M O O R E, A R N D K Ö N I G
 conference: "Neural Information Processing Systems"
 year: 2011
 bibkey: li2011hashing

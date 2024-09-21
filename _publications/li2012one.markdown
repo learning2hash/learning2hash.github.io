@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: One Permutation Hashing
-authors: Ping Li, Art Owen, Cun-hui Zhang
+authors: P I N G L I, A R T O W E N, C U N - H U I Z H A N G
 conference: "Neural Information Processing Systems"
 year: 2012
 bibkey: li2012one

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Online Hashing
-authors: Huang Long-Kai, Yang Qiang, Zheng Wei-Shi
+authors: Huang Long-kai, Yang Qiang, Zheng Wei-shi
 conference: "Arxiv"
 year: 2017
 bibkey: huang2017online

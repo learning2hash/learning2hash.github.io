@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Online Enhanced Semantic Hashing Towards Effective and Efficient Retrieval for Streaming Multi-Modal Data
-authors: Wu Xiao-Ming, Luo Xin, Zhan Yu-Wei, Ding Chen-Lu, Chen Zhen-Duo, Xu Xin-Shun
+authors: Wu Xiao-ming, Luo Xin, Zhan Yu-wei, Ding Chen-lu, Chen Zhen-duo, Xu Xin-shun
 conference: "Arxiv"
 year: 2021
 bibkey: wu2021online

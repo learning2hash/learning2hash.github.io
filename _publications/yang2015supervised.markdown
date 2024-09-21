@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Supervised Learning of Semantics-Preserving Hash via Deep Convolutional Neural Networks
-authors: Yang Huei-Fang, Lin Kevin, Chen Chu-Song
+authors: Yang Huei-fang, Lin Kevin, Chen Chu-song
 conference: "Arxiv"
 year: 2015
 bibkey: yang2015supervised

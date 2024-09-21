@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Falconn++ A Locality-sensitive Filtering Approach for Approximate Nearest Neighbor Search
-authors: Ninh Pham, Tao Liu
+authors: N I N H P H A M, T A O L I U
 conference: "Neural Information Processing Systems"
 year: 2022
 bibkey: pham2022falconn

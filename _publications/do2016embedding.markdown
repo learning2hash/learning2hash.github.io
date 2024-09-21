@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Embedding based on function approximation for large scale image search
-authors: Do Thanh-Toan, Cheung Ngai-Man
+authors: Do Thanh-toan, Cheung Ngai-man
 conference: "Arxiv"
 year: 2016
 bibkey: do2016embedding

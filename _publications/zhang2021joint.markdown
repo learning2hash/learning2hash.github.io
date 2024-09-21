@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Joint Learning of Deep Retrieval Model and Product Quantization based Embedding Index
-authors: Zhang Han, Shen Hongwei, Qiu Yiming, Jiang Yunjiang, Wang Songlin, Xu Sulong, Xiao Yun, Long Bo, Yang Wen-Yun
+authors: Zhang Han, Shen Hongwei, Qiu Yiming, Jiang Yunjiang, Wang Songlin, Xu Sulong, Xiao Yun, Long Bo, Yang Wen-yun
 conference: "Arxiv"
 year: 2021
 bibkey: zhang2021joint

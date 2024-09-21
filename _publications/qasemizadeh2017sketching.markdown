@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Sketching Word Vectors Through Hashing
-authors: QasemiZadeh Behrang, Kallmeyer Laura
+authors: Qasemizadeh Behrang, Kallmeyer Laura
 conference: "Arxiv"
 year: 2017
 bibkey: qasemizadeh2017sketching

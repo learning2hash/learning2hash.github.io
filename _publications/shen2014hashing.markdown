@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Hashing on Nonlinear Manifolds
-authors: Shen Fumin, Shen Chunhua, Shi Qinfeng, Hengel Anton van den, Tang Zhenmin, Shen Heng Tao
+authors: Shen Fumin, Shen Chunhua, Shi Qinfeng, Hengel Anton Van Den, Tang Zhenmin, Shen Heng Tao
 conference: "Arxiv"
 year: 2014
 bibkey: shen2014hashing

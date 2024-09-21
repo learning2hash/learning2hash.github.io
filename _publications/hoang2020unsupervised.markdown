@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Unsupervised Deep Cross-modality Spectral Hashing
-authors: Hoang Tuan, Do Thanh-Toan, Nguyen Tam V., Cheung Ngai-Man
+authors: Hoang Tuan, Do Thanh-toan, Nguyen Tam V., Cheung Ngai-man
 conference: "Arxiv"
 year: 2020
 bibkey: hoang2020unsupervised

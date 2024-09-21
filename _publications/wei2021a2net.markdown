@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: A^2-Net Learning Attribute-Aware Hash Codes for Large-Scale Fine-Grained Image Retrieval
-authors: Xiu-Shen Wei, Yang Shen, Xuhao Sun, Han-Jia Ye, Jian Yang
+authors: X I U - S H E N W E I, Y A N G S H E N, X U H A O S U N, H A N - J I A Y E, J I A N Y A N G
 conference: "Neural Information Processing Systems"
 year: 2021
 bibkey: wei2021a2net

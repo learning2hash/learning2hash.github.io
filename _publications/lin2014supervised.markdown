@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Supervised Hashing Using Graph Cuts and Boosted Decision Trees
-authors: Lin Guosheng, Shen Chunhua, Hengel Anton van den
+authors: Lin Guosheng, Shen Chunhua, Hengel Anton Van Den
 conference: "Arxiv"
 year: 2014
 bibkey: lin2014supervised

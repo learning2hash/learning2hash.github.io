@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Minimizing FLOPs to Learn Efficient Sparse Representations
-authors: Paria Biswajit, Yeh Chih-Kuan, Yen Ian E. H., Xu Ning, Ravikumar Pradeep, Póczos Barnabás
+authors: Paria Biswajit, Yeh Chih-kuan, Yen Ian E. H., Xu Ning, Ravikumar Pradeep, Póczos Barnabás
 conference: "Arxiv"
 year: 2020
 bibkey: paria2020minimizing

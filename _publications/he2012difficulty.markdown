@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: On the Difficulty of Nearest Neighbor Search
-authors: He Junfeng  Columbia University, Kumar Sanjiv  Google Research, Chang Shih-Fu  Columbia University
+authors: He Junfeng Columbia University, Kumar Sanjiv Google Research, Chang Shih-fu Columbia University
 conference: "Arxiv"
 year: 2012
 bibkey: he2012difficulty

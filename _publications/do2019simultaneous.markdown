@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Simultaneous Feature Aggregating and Hashing for Compact Binary Code Learning
-authors: Do Thanh-Toan, Le Khoa, Hoang Tuan, Le Huu, Nguyen Tam V., Cheung Ngai-Man
+authors: Do Thanh-toan, Le Khoa, Hoang Tuan, Le Huu, Nguyen Tam V., Cheung Ngai-man
 conference: "Arxiv"
 year: 2019
 bibkey: do2019simultaneous

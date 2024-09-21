@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Embed and Project Discrete Sampling with Universal Hashing
-authors: Stefano Ermon, Carla P.Gomes, Ashish Sabharwal, Bart Selman
+authors: S T E F A N O E R M O N, C A R L A P . G O M E S, A S H I S H S A B H A R W A L, B A R T S E L M A N
 conference: "Neural Information Processing Systems"
 year: 2013
 bibkey: ermon2013embed

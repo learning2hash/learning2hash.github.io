@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: b-Bit Minwise Hashing for Estimating Three-Way Similarities
-authors: Ping Li, Arnd Konig, Wenhao Gui
+authors: P I N G L I, A R N D K O N I G, W E N H A O G U I
 conference: "Neural Information Processing Systems"
 year: 2010
 bibkey: li2010bbit

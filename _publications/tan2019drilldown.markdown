@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Drill-down Interactive Retrieval of Complex Scenes using Natural Language Queries
-authors: Fuwen Tan, Paola Cascante-Bonilla, Xiaoxiao Guo, Hui Wu, Song Feng, Vicente Ordonez
+authors: F U W E N T A N, P A O L A C A S C A N T E - B O N I L L A, X I A O X I A O G U O, H U I W U, S O N G F E N G, V I C E N T E O R D O N E Z
 conference: "Neural Information Processing Systems"
 year: 2019
 bibkey: tan2019drilldown

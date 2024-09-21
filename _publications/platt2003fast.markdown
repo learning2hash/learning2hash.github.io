@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Fast Embedding of Sparse Similarity Graphs
-authors: John Platt
+authors: J O H N P L A T T
 conference: "Neural Information Processing Systems"
 year: 2003
 bibkey: platt2003fast

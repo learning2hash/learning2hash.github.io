@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Hamming Distance Metric Learning
-authors: Mohammad Norouzi, David J.Fleet, Russ R.Salakhutdinov
+authors: M O H A M M A D N O R O U Z I, D A V I D J . F L E E T, R U S S R . S A L A K H U T D I N O V
 conference: "Neural Information Processing Systems"
 year: 2012
 bibkey: norouzi2012hamming

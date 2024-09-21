@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Learning to Find Pictures of People
-authors: Sergey Ioffe, David Forsyth
+authors: S E R G E Y I O F F E, D A V I D F O R S Y T H
 conference: "Neural Information Processing Systems"
 year: 1998
 bibkey: ioffe1998learning

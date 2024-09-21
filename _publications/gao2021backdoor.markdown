@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Backdoor Attack on Hash-based Image Retrieval via Clean-label Data Poisoning
-authors: Gao Kuofeng, Bai Jiawang, Chen Bin, Wu Dongxian, Xia Shu-Tao
+authors: Gao Kuofeng, Bai Jiawang, Chen Bin, Wu Dongxian, Xia Shu-tao
 conference: "Arxiv"
 year: 2021
 bibkey: gao2021backdoor

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: State of the Art Image Hashing
-authors: Biswas Rubel, Blanco-Medina Pablo
+authors: Biswas Rubel, Blanco-medina Pablo
 conference: "Arxiv"
 year: 2021
 bibkey: biswas2021state

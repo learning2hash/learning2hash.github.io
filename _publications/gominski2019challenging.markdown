@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Challenging deep image descriptors for retrieval in heterogeneous iconographic collections
-authors: Gominski Dimitri  LaSTIG, Poreba Martyna  LaSTIG, Gouet-Brunet Valérie  LaSTIG, Chen Liming  LaSTIG
+authors: Gominski Dimitri Lastig, Poreba Martyna Lastig, Gouet-brunet Valérie Lastig, Chen Liming Lastig
 conference: "Arxiv"
 year: 2019
 bibkey: gominski2019challenging

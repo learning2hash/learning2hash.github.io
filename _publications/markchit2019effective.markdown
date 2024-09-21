@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Effective and Efficient Indexing in Cross-Modal Hashing-Based Datasets
-authors: Markchit Sarawut, Chiu Chih-Yi
+authors: Markchit Sarawut, Chiu Chih-yi
 conference: "Arxiv"
 year: 2019
 bibkey: markchit2019effective

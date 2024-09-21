@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Image Retrieval and Classification Using Local Distance Functions
-authors: Andrea Frome, Yoram Singer, Jitendra Malik
+authors: A N D R E A F R O M E, Y O R A M S I N G E R, J I T E N D R A M A L I K
 conference: "Neural Information Processing Systems"
 year: 2006
 bibkey: frome2006image

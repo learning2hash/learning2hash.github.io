@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: From Selective Deep Convolutional Features to Compact Binary Representations for Image Retrieval
-authors: Do Thanh-Toan, Hoang Tuan, Tan Dang-Khoa Le, Le Huu, Nguyen Tam V., Cheung Ngai-Man
+authors: Do Thanh-toan, Hoang Tuan, Tan Dang-khoa Le, Le Huu, Nguyen Tam V., Cheung Ngai-man
 conference: "Arxiv"
 year: 2018
 bibkey: do2018from

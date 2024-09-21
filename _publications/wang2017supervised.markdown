@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Supervised Deep Hashing for Hierarchical Labeled Data
-authors: Wang Dan, Huang Heyan, Lu Chi, Feng Bo-Si, Nie Liqiang, Wen Guihua, Mao Xian-Ling
+authors: Wang Dan, Huang Heyan, Lu Chi, Feng Bo-si, Nie Liqiang, Wen Guihua, Mao Xian-ling
 conference: "Arxiv"
 year: 2017
 bibkey: wang2017supervised

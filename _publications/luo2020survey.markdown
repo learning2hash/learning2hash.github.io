@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: A Survey on Deep Hashing Methods
-authors: Luo Xiao, Wang Haixin, Wu Daqing, Chen Chong, Deng Minghua, Huang Jianqiang, Hua Xian-Sheng
+authors: Luo Xiao, Wang Haixin, Wu Daqing, Chen Chong, Deng Minghua, Huang Jianqiang, Hua Xian-sheng
 conference: "Arxiv"
 year: 2020
 bibkey: luo2020survey

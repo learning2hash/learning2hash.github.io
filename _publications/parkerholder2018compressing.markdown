@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Compressing Deep Neural Networks A New Hashing Pipeline Using Kacs Random Walk Matrices
-authors: Parker-Holder Jack, Gass Sam
+authors: Parker-holder Jack, Gass Sam
 conference: "Arxiv"
 year: 2018
 bibkey: parkerholder2018compressing

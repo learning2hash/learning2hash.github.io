@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Implicit Sparse Code Hashing
-authors: Lin Tsung-Yu, Ke Tsung-Wei, Liu Tyng-Luh
+authors: Lin Tsung-yu, Ke Tsung-wei, Liu Tyng-luh
 conference: "Arxiv"
 year: 2015
 bibkey: lin2015implicit

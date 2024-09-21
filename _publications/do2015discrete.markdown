@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Discrete Hashing with Deep Neural Network
-authors: Do Thanh-Toan, Doan Anh-Zung, Cheung Ngai-Man
+authors: Do Thanh-toan, Doan Anh-zung, Cheung Ngai-man
 conference: "Arxiv"
 year: 2015
 bibkey: do2015discrete

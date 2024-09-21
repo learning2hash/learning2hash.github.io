@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Rank-Approximate Nearest Neighbor Search Retaining Meaning and Speed in High Dimensions
-authors: Parikshit Ram, Dongryeol Lee, Hua Ouyang, Alexander Gray
+authors: P A R I K S H I T R A M, D O N G R Y E O L L E E, H U A O U Y A N G, A L E X A N D E R G R A Y
 conference: "Neural Information Processing Systems"
 year: 2009
 bibkey: ram2009rankapproximate

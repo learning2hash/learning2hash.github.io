@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Discriminative Supervised Hashing for Cross-Modal similarity Search
-authors: Yu Jun, Wu Xiao-Jun, Kittler Josef
+authors: Yu Jun, Wu Xiao-jun, Kittler Josef
 conference: "Arxiv"
 year: 2018
 bibkey: yu2018discriminative

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Enhance Feature Discrimination for Unsupervised Hashing
-authors: Hoang Tuan, Do Thanh-Toan, Tan Dang-Khoa Le, Cheung Ngai-Man
+authors: Hoang Tuan, Do Thanh-toan, Tan Dang-khoa Le, Cheung Ngai-man
 conference: "Arxiv"
 year: 2017
 bibkey: hoang2017enhance

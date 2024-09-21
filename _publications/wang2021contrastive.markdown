@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Contrastive Quantization with Code Memory for Unsupervised Image Retrieval
-authors: Wang Jinpeng, Zeng Ziyun, Chen Bin, Dai Tao, Xia Shu-Tao
+authors: Wang Jinpeng, Zeng Ziyun, Chen Bin, Dai Tao, Xia Shu-tao
 conference: "Arxiv"
 year: 2021
 bibkey: wang2021contrastive

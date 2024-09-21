@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Hashing Hyperplane Queries to Near Points with Applications to Large-Scale Active Learning
-authors: Prateek Jain, Sudheendra Vijayanarasimhan, Kristen Grauman
+authors: P R A T E E K J A I N, S U D H E E N D R A V I J A Y A N A R A S I M H A N, K R I S T E N G R A U M A N
 conference: "Neural Information Processing Systems"
 year: 2010
 bibkey: jain2010hashing

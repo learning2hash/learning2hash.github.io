@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Prototype-Based Layered Federated Cross-Modal Hashing
-authors: Liu Jiale, Zhan Yu-Wei, Luo Xin, Chen Zhen-Duo, Wang Yongxin, Xu Xin-Shun
+authors: Liu Jiale, Zhan Yu-wei, Luo Xin, Chen Zhen-duo, Wang Yongxin, Xu Xin-shun
 conference: "Arxiv"
 year: 2022
 bibkey: liu2022prototypebased

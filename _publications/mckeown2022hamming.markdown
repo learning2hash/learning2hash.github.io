@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Hamming Distributions of Popular Perceptual Hashing Techniques
-authors: McKeown Sean, Buchanan William J
+authors: Mckeown Sean, Buchanan William J
 conference: "DFRWS"
 year: 2022
 bibkey: mckeown2022hamming

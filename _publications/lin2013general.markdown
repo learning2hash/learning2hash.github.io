@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: A General Two-Step Approach to Learning-Based Hashing
-authors: Lin Guosheng, Shen Chunhua, Suter David, Hengel Anton van den
+authors: Lin Guosheng, Shen Chunhua, Suter David, Hengel Anton Van Den
 conference: "Arxiv"
 year: 2013
 bibkey: lin2013general

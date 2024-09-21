@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Hash Embeddings for Efficient Word Representations
-authors: Dan Tito Svenstrup, Jonas Hansen, Ole Winther
+authors: D A N T I T O S V E N S T R U P, J O N A S H A N S E N, O L E W I N T H E R
 conference: "Neural Information Processing Systems"
 year: 2017
 bibkey: tito2017hash

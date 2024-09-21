@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Pattern Spotting and Image Retrieval in Historical Documents using Deep Hashing
-authors: Dias Caio da S., Britto Alceu de S. Jr., Barddal Jean P., Heutte Laurent, Koerich Alessandro L.
+authors: Dias Caio Da S., Britto Alceu De S. Jr., Barddal Jean P., Heutte Laurent, Koerich Alessandro L.
 conference: "Arxiv"
 year: 2022
 bibkey: dias2022pattern

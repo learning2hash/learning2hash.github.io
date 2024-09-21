@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: SEMICON A Learning-to-hash Solution for Large-scale Fine-grained Image Retrieval
-authors: Shen Yang, Sun Xuhao, Wei Xiu-Shen, Jiang Qing-Yuan, Yang Jian
+authors: Shen Yang, Sun Xuhao, Wei Xiu-shen, Jiang Qing-yuan, Yang Jian
 conference: "Arxiv"
 year: 2022
 bibkey: shen2022semicon

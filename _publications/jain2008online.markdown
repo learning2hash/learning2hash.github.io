@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Online Metric Learning and Fast Similarity Search
-authors: Prateek Jain, Brian Kulis, Inderjit Dhillon, Kristen Grauman
+authors: P R A T E E K J A I N, B R I A N K U L I S, I N D E R J I T D H I L L O N, K R I S T E N G R A U M A N
 conference: "Neural Information Processing Systems"
 year: 2008
 bibkey: jain2008online

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Discrete Latent Factor Model for Cross-Modal Hashing
-authors: Jiang Qing-Yuan, Li Wu-Jun
+authors: Jiang Qing-yuan, Li Wu-jun
 conference: "Arxiv"
 year: 2017
 bibkey: jiang2017discrete

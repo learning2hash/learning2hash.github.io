@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Auto-JacoBin Auto-encoder Jacobian Binary Hashing
-authors: Fu Xiping, McCane Brendan, Mills Steven, Albert Michael, Szymanski Lech
+authors: Fu Xiping, Mccane Brendan, Mills Steven, Albert Michael, Szymanski Lech
 conference: "Arxiv"
 year: 2016
 bibkey: fu2016autojacobin

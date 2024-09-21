@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Cross-Modal Hashing with Hashing Functions and Unified Hash Codes Jointly Learning
-authors: Tu Rong-Cheng, Mao Xian-Ling, Ma Bing, Hu Yong, Yan Tan, Wei Wei, Huang Heyan
+authors: Tu Rong-cheng, Mao Xian-ling, Ma Bing, Hu Yong, Yan Tan, Wei Wei, Huang Heyan
 conference: "Arxiv"
 year: 2019
 bibkey: tu2019deep

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Learning Hash Functions Using Column Generation
-authors: Li Xi, Lin Guosheng, Shen Chunhua, Hengel Anton van den, Dick Anthony
+authors: Li Xi, Lin Guosheng, Shen Chunhua, Hengel Anton Van Den, Dick Anthony
 conference: "Arxiv"
 year: 2013
 bibkey: li2013learning

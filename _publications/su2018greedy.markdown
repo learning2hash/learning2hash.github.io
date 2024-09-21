@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Greedy Hash Towards Fast Optimization for Accurate Hash Coding in CNN
-authors: Shupeng Su, Chao Zhang, Kai Han, Yonghong Tian
+authors: S H U P E N G S U, C H A O Z H A N G, K A I H A N, Y O N G H O N G T I A N
 conference: "Neural Information Processing Systems"
 year: 2018
 bibkey: su2018greedy

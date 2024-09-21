@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Multi-Index Hashing for Person Re-Identification
-authors: Li Ming-Wei, Jiang Qing-Yuan, Li Wu-Jun
+authors: Li Ming-wei, Jiang Qing-yuan, Li Wu-jun
 conference: "Arxiv"
 year: 2019
 bibkey: li2019deep

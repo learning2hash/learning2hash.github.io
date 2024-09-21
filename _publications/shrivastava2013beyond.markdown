@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Beyond Pairwise Provably Fast Algorithms for Approximate k-Way Similarity Search
-authors: Anshumali Shrivastava, Ping Li
+authors: A N S H U M A L I S H R I V A S T A V A, P I N G L I
 conference: "Neural Information Processing Systems"
 year: 2013
 bibkey: shrivastava2013beyond

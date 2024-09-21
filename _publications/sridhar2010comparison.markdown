@@ -1,11 +1,7 @@
 ---
 layout: publication
 title: Comparison Of Modified Dual Ternary Indexing And Multi-Key Hashing Algorithms For Music Information Retrieval
-authors: Sridhar Rajeswari  Anna
-  University-Chennai, India, Amudha A.  Anna
-  University-Chennai, India, Karthiga S.  Anna
-  University-Chennai, India, T Geetha V Anna
-  University-Chennai, India
+authors: Sridhar Rajeswari Anna University-chennai, India, Amudha A. Anna University-chennai, India, Karthiga S. Anna University-chennai, India, T Geetha V Anna University-chennai, India
 conference: "International Journal of Artificial Intelligence Applications"
 year: 2010
 bibkey: sridhar2010comparison

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Unsupervised Hashing with Similarity Distribution Calibration
-authors: Ng Kam Woh, Zhu Xiatian, Hoe Jiun Tian, Chan Chee Seng, Zhang Tianyu, Song Yi-Zhe, Xiang Tao
+authors: Ng Kam Woh, Zhu Xiatian, Hoe Jiun Tian, Chan Chee Seng, Zhang Tianyu, Song Yi-zhe, Xiang Tao
 conference: "Arxiv"
 year: 2023
 bibkey: ng2023unsupervised

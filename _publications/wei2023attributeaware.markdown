@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Attribute-Aware Deep Hashing with Self-Consistency for Large-Scale Fine-Grained Image Retrieval
-authors: Wei Xiu-Shen, Shen Yang, Sun Xuhao, Wang Peng, Peng Yuxin
+authors: Wei Xiu-shen, Shen Yang, Sun Xuhao, Wang Peng, Peng Yuxin
 conference: "Arxiv"
 year: 2023
 bibkey: wei2023attributeaware

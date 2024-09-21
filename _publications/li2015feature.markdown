@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Feature Learning based Deep Supervised Hashing with Pairwise Labels
-authors: Li Wu-Jun, Wang Sheng, Kang Wang-Cheng
+authors: Li Wu-jun, Wang Sheng, Kang Wang-cheng
 conference: "Arxiv"
 year: 2015
 bibkey: li2015feature

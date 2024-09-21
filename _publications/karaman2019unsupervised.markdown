@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Unsupervised Rank-Preserving Hashing for Large-Scale Image Retrieval
-authors: Karaman Svebor, Lin Xudong, Hu Xuefeng, Chang Shih-Fu
+authors: Karaman Svebor, Lin Xudong, Hu Xuefeng, Chang Shih-fu
 conference: "Arxiv"
 year: 2019
 bibkey: karaman2019unsupervised

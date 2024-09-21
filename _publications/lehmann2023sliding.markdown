@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Sliding Block Hashing (Slick) -- Basic Algorithmic Ideas
-authors: Lehmann Hans-Peter, Sanders Peter, Walzer Stefan
+authors: Lehmann Hans-peter, Sanders Peter, Walzer Stefan
 conference: "Arxiv"
 year: 2023
 bibkey: lehmann2023sliding

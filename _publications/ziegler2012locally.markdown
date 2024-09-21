@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Locally Uniform Comparison Image Descriptor
-authors: Andrew Ziegler, Eric Christiansen, David Kriegman, Serge Belongie
+authors: A N D R E W Z I E G L E R, E R I C C H R I S T I A N S E N, D A V I D K R I E G M A N, S E R G E B E L O N G I E
 conference: "Neural Information Processing Systems"
 year: 2012
 bibkey: ziegler2012locally

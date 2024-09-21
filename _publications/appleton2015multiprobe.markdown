@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Multi-probe consistent hashing
-authors: Appleton Ben, O'Reilly Michael
+authors: Appleton Ben, O'reilly Michael
 conference: "Arxiv"
 year: 2015
 bibkey: appleton2015multiprobe

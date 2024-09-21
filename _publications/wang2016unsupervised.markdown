@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Unsupervised Cross-Media Hashing with Structure Preservation
-authors: Wang Xiangyu, Chia Alex Yong-Sang
+authors: Wang Xiangyu, Chia Alex Yong-sang
 conference: "Arxiv"
 year: 2016
 bibkey: wang2016unsupervised

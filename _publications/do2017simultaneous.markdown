@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Simultaneous Feature Aggregating and Hashing for Large-scale Image Search
-authors: Do Thanh-Toan, Tan Dang-Khoa Le, Pham Trung T., Cheung Ngai-Man
+authors: Do Thanh-toan, Tan Dang-khoa Le, Pham Trung T., Cheung Ngai-man
 conference: "Arxiv"
 year: 2017
 bibkey: do2017simultaneous

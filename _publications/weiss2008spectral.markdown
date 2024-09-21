@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Spectral Hashing
-authors: Yair Weiss, Antonio Torralba, Rob Fergus
+authors: Y A I R W E I S S, A N T O N I O T O R R A L B A, R O B F E R G U S
 conference: "Neural Information Processing Systems"
 year: 2008
 bibkey: weiss2008spectral

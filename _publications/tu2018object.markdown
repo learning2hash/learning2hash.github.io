@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Object Detection based Deep Unsupervised Hashing
-authors: Tu Rong-Cheng, Mao Xian-Ling, Feng Bo-Si, Bian Bing-Bing, Ying Yu-shu
+authors: Tu Rong-cheng, Mao Xian-ling, Feng Bo-si, Bian Bing-bing, Ying Yu-shu
 conference: "Arxiv"
 year: 2018
 bibkey: tu2018object

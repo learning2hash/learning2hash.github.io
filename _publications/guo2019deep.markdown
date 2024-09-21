@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Hashing for Signed Social Network Embedding
-authors: Guo Jia-Nan, Mao Xian-Ling, Jiang Xiao-Jian, Sun Ying-Xiang, Wei Wei, Huang He-Yan
+authors: Guo Jia-nan, Mao Xian-ling, Jiang Xiao-jian, Sun Ying-xiang, Wei Wei, Huang He-yan
 conference: "Arxiv"
 year: 2019
 bibkey: guo2019deep

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Optimizing affinity-based binary hashing using auxiliary coordinates
-authors: Raziperchikolaei Ramin, Carreira-Perpiñán Miguel Á.
+authors: Raziperchikolaei Ramin, Carreira-perpiñán Miguel Á.
 conference: "Arxiv"
 year: 2015
 bibkey: raziperchikolaei2015optimizing

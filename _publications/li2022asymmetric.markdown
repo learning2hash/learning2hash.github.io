@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Asymmetric Scalable Cross-modal Hashing
-authors: Li Wenyun, Pun Chi-Man
+authors: Li Wenyun, Pun Chi-man
 conference: "Arxiv"
 year: 2022
 bibkey: li2022asymmetric

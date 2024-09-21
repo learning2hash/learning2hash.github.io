@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Approximate Similarity Search Under Edit Distance Using Locality-Sensitive Hashing
-authors: McCauley Samuel
+authors: Mccauley Samuel
 conference: "Arxiv"
 year: 2019
 bibkey: mccauley2019approximate

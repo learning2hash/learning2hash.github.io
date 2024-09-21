@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Hashing with binary autoencoders
-authors: Carreira-Perpiñán Miguel Á., Raziperchikolaei Ramin
+authors: Carreira-perpiñán Miguel Á., Raziperchikolaei Ramin
 conference: "Arxiv"
 year: 2015
 bibkey: carreiraperpiñán2015hashing

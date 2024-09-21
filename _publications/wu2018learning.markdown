@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Learning Effective Binary Visual Representations with Deep Networks
-authors: Wu Jianxin, Luo Jian-Hao
+authors: Wu Jianxin, Luo Jian-hao
 conference: "Arxiv"
 year: 2018
 bibkey: wu2018learning

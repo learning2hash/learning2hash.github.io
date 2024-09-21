@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Weakly-Supervised Online Hashing
-authors: Zhan Yu-Wei, Luo Xin, Sun Yu, Wang Yongxin, Chen Zhen-Duo, Xu Xin-Shun
+authors: Zhan Yu-wei, Luo Xin, Sun Yu, Wang Yongxin, Chen Zhen-duo, Xu Xin-shun
 conference: "Arxiv"
 year: 2020
 bibkey: zhan2020weaklysupervised

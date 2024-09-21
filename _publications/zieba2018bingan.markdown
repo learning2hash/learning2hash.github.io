@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: BinGAN Learning Compact Binary Descriptors with a Regularized GAN
-authors: Maciej Zieba, Piotr Semberecki, Tarek El-Gaaly, Tomasz Trzcinski
+authors: M A C I E J Z I E B A, P I O T R S E M B E R E C K I, T A R E K E L - G A A L Y, T O M A S Z T R Z C I N S K I
 conference: "Neural Information Processing Systems"
 year: 2018
 bibkey: zieba2018bingan

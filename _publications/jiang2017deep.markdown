@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Discrete Supervised Hashing
-authors: Jiang Qing-Yuan, Cui Xue, Li Wu-Jun
+authors: Jiang Qing-yuan, Cui Xue, Li Wu-jun
 conference: "Arxiv"
 year: 2017
 bibkey: jiang2017deep

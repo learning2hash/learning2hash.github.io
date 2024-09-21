@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Cross-Domain Matching for Bag-of-Words Data via Kernel Embeddings of Latent Distributions
-authors: Yuya Yoshikawa, Tomoharu Iwata, Hiroshi Sawada, Takeshi Yamada
+authors: Y U Y A Y O S H I K A W A, T O M O H A R U I W A T A, H I R O S H I S A W A D A, T A K E S H I Y A M A D A
 conference: "Neural Information Processing Systems"
 year: 2015
 bibkey: yoshikawa2015crossdomain

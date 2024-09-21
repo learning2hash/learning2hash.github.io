@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: On the Needs for Rotations in Hypercubic Quantization Hashing
-authors: Morvan Anne, Souloumiac Antoine, Choromanski Krzysztof, Gouy-Pailler Cédric, Atif Jamal
+authors: Morvan Anne, Souloumiac Antoine, Choromanski Krzysztof, Gouy-pailler Cédric, Atif Jamal
 conference: "Arxiv"
 year: 2018
 bibkey: morvan2018needs

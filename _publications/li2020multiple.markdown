@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Multiple Code Hashing for Efficient Image Retrieval
-authors: Li Ming-Wei, Jiang Qing-Yuan, Li Wu-Jun
+authors: Li Ming-wei, Jiang Qing-yuan, Li Wu-jun
 conference: "Arxiv"
 year: 2020
 bibkey: li2020multiple

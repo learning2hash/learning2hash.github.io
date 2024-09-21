@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Co-Regularized Hashing for Multimodal Data
-authors: Yi Zhen, Dit-Yan Yeung
+authors: Y I Z H E N, D I T - Y A N Y E U N G
 conference: "Neural Information Processing Systems"
 year: 2012
 bibkey: zhen2012coregularized
