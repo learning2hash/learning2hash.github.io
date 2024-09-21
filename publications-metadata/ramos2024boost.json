@@ -1,1 +1,1 @@
-[["kelly2019lockfree", "Lock-Free Hopscotch Hashing"], ["wang2024neural", "Neural Locality Sensitive Hashing for Entity Blocking"], ["schwengber2023deep", "Deep Hashing via Householder Quantization"], ["gottlieb2014nearoptimal", "Near-optimal sample compression for nearest neighbors"]]
+[["wang2024neural", "Neural Locality Sensitive Hashing for Entity Blocking"], ["kelly2019lockfree", "Lock-Free Hopscotch Hashing"], ["kelly2019lock", "Lock-Free Hopscotch Hashing"], ["schwengber2023deep", "Deep Hashing via Householder Quantization"]]
