@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Simple and Efficient Weighted Minwise Hashing
+authors: A N S H U M A L I S H R I V A S T A V A
+conference: "Neural Information Processing Systems"
+year: 2016
+bibkey: shrivastava2016simple
+additional_links:
+  - {name: "Paper", url: "https://papers.nips.cc/paper/2016/hash/c2626d850c80ea07e7511bbae4c76f4b-Abstract.html"}
+tags: ['Independent', 'NEURIPS', 'TIP']
+---
+Weighted minwise hashing (WMH) is one of the fundamental subroutine required by many celebrated approximation algorithms commonly adopted in industrial practice for large -scale search and learning. The resource bottleneck with WMH is the computation of multiple (typically a few hundreds to thousands) independent hashes of the data. We propose a simple rejection type sampling scheme based on a carefully designed red-green map where we show that the number of rejected sample has exactly the same distribution as weighted minwise sampling. The running time of our method for many practical datasets is an order of magnitude smaller than existing methods. Experimental evaluations on real datasets show that for computing 500 WMH our proposal can be 60000x faster than the Ioffes method without losing any accuracy. Our method is also around 100x faster than approximate heuristics capitalizing on the efficient ``densified one permutation hashing schemes~. Given the simplicity of our approach and its significant advantages we hope that it will replace existing implementations in practice.
