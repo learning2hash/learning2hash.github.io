@@ -31,13 +31,13 @@ var svg = d3.select("#paperviz")
 //Read the data
 d3.json("./tsne.json", function(data) {
   // Add X axis
-  var x = d3.scaleLinear()
-    .domain([-15, 15])
+ var x = d3.scaleLinear()
+    .domain([-20, 20])  // Increase the domain range to zoom out
     .range([ 0, width ]);
 
   // Add Y axisB
   var y = d3.scaleLinear()
-    .domain([-15, 15])
+    .domain([-20, 20])  // Increase the domain range to zoom out
     .range([height, 0]);
 
   // Add a tooltip div. Here I define the general feature of the tooltip: stuff that do not depend on the data point.
