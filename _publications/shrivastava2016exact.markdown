@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Exact Weighted Minwise Hashing in Constant Time
+authors: Shrivastava Anshumali
+conference: "Arxiv"
+year: 2016
+bibkey: shrivastava2016exact
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1602.08393"}
+tags: ['ARXIV', 'Independent', 'TIP']
+---
+Weighted minwise hashing (WMH) is one of the fundamental subroutine required by many celebrated approximation algorithms commonly adopted in industrial practice for large scale-search and learning. The resource bottleneck of the algorithms is the computation of multiple (typically a few hundreds to thousands) independent hashes of the data. The fastest hashing algorithm is by Ioffe which requires one pass over the entire data vector O(d) (d is the number of non-zeros) for computing one hash. However the requirement of multiple hashes demands hundreds or thousands passes over the data. This is very costly for modern massive dataset. In this work we break this expensive barrier and show an expected constant amortized time algorithm which computes k independent and unbiased WMH in time O(k) instead of O(dk) required by Ioffes method. Moreover our proposal only needs a few bits (5 - 9 bits) of storage per hash value compared to around 64 bits required by the state-of-art-methodologies. Experimental evaluations on real datasets show that for computing 500 WMH our proposal can be 60000x faster than the Ioffes method without losing any accuracy. Our method is also around 100x faster than approximate heuristics capitalizing on the efficient densified one permutation hashing schemes . Given the simplicity of our approach and its significant advantages we hope that it will replace existing implementations in practice.
