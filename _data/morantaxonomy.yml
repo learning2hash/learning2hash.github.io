@@ -1031,7 +1031,7 @@
 - {bibkey: yang2019adaptive, categories: ['Semi-Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: leng2015hashing, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: carreira2015hashing, categories: ['Unsupervised'], type: Shallow, modality: Unimodal}
-- {bibkey: wang2019semi, categories: ['Semi-Supervised', 'Cross-modal'], type: Shallow, modality: Cross-modal}
+- {bibkey: wang2019semi, categories: ['Cross-modal', 'Semi-Supervised'], type: Shallow, modality: Cross-modal}
 - {bibkey: lu2020label, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: zhang2015bit, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: jain2009fast, categories: ['Independent'], type: Shallow, modality: Unimodal}
@@ -1058,6 +1058,5 @@
 - {bibkey: kang2019maximum, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: song2013intermedia, categories: ['Cross-modal', 'Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: zhang2016efficient, categories: ['Supervised'], type: Deep, modality: Unimodal}
-- {bibkey: weiss2009spectral, categories: ['General'], type: Shallow, modality: Unimodal}
 - {bibkey: li2021deep, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: lin2014fast, categories: ['Supervised'], type: Shallow, modality: Unimodal}
