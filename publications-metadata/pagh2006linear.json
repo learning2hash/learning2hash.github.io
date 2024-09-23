@@ -1,1 +1,1 @@
-[["thorup2015linear", "Linear Probing with 5-Independent Hashing"], ["green2019hashgraph", "HashGraph -- Scalable Hash Tables Using A Sparse Graph Data Structure"], ["thorup2015fast", "Fast and Powerful Hashing using Tabulation"], ["bercea2023locally", "Locally Uniform Hashing"]]
+[["thorup2015linear", "Linear Probing with 5-Independent Hashing"], ["green2019hashgraph", "HashGraph -- Scalable Hash Tables Using A Sparse Graph Data Structure"], ["thorup2015fast", "Fast and Powerful Hashing using Tabulation"], ["kurpicz2022pachash", "PaCHash Packed and Compressed Hash Tables"]]
