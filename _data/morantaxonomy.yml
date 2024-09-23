@@ -840,12 +840,12 @@
 - {bibkey: wei2021a2, categories: ['Independent'], type: Deep, modality: Cross-modal}
 - {bibkey: shen2021re, categories: ['Independent'], type: Shallow, modality: Cross-modal}
 # Conference
-- {bibkey: zhang2011composite, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: zhang2011composite, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: cao2018hashgan, categories: ['Supervised'], type: Deep, modality: Unimodal}
-- {bibkey: mnist1999mnist, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: mnist1999mnist, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: ryali2020bio, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: cakir2015adaptive, categories: ['Independent'], type: Shallow, modality: Unimodal}
-- {bibkey: ou2013comparing, categories: ['Cross-modal', 'Independent'], type: Shallow, modality: Unimodal}
+- {bibkey: ou2013comparing, categories: ['Independent', 'Cross-modal'], type: Shallow, modality: Unimodal}
 - {bibkey: liong2015using, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: yu2014using, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: chen2020enhanced, categories: ['Cross-modal'], type: Shallow, modality: Unimodal}
@@ -857,11 +857,11 @@
 - {bibkey: ge2014graph, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: liu2020model, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: wang2010semisupervised, categories: ['Semi-Supervised'], type: Shallow, modality: Unimodal}
-- {bibkey: petrovic2010streaming, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: petrovic2010streaming, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: chen2024supervised, categories: ['Supervised', 'Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: fan2020deep, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: shen2019embarass, categories: ['Supervised'], type: Shallow, modality: Unimodal}
-- {bibkey: yandextexttoimage1B, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: yandextexttoimage1B, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: cifar2009learning, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: datar2004locality, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: zhang2021deep, categories: ['Supervised'], type: Shallow, modality: Unimodal}
@@ -884,38 +884,38 @@
 - {bibkey: sundaram2013streaming, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: wang2023uncertainty, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: silavong2021deskew, categories: ['Independent'], type: Deep, modality: Unimodal}
-- {bibkey: microsoftturinganns1B, categories: ['General'], type: Deep, modality: Unimodal}
+- {bibkey: microsoftturinganns1B, categories: [], type: Deep, modality: Unimodal}
 - {bibkey: shen2018nash, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: yandexdeep1B, categories: ['Supervised'], type: Shallow, modality: Unimodal}
-- {bibkey: nuswide2009nuswide, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: nuswide2009nuswide, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: cakir2017online, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: li2019neighborhood, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: kusupati2021accurate, categories: ['Supervised'], type: Shallow, modality: Unimodal}
-- {bibkey: sift1m2009searching, categories: ['General'], type: Shallow, modality: Unimodal}
-- {bibkey: wang2020online, categories: ['Cross-modal', 'Independent'], type: Shallow, modality: Cross-modal}
-- {bibkey: gionis1999similarity, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: sift1m2009searching, categories: [], type: Shallow, modality: Unimodal}
+- {bibkey: wang2020online, categories: ['Independent', 'Cross-modal'], type: Shallow, modality: Cross-modal}
+- {bibkey: gionis1999similarity, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: shen2018unsupervised, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: cao2020learning, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: cakir2019hashing, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: zhen2015cross, categories: ['Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: kulis2009kernelized, categories: ['Supervised'], type: Shallow, modality: Unimodal}
-- {bibkey: ding2014collective, categories: ['Cross-modal', 'Independent'], type: Shallow, modality: Cross-modal}
+- {bibkey: ding2014collective, categories: ['Independent', 'Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: deng2020twostream, categories: ['Supervised'], type: Deep, modality: Unimodal}
-- {bibkey: zhang2013binary, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: zhang2013binary, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: andoni2015practical, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: jin2020semi, categories: ['Semi-Supervised'], type: Shallow, modality: Unimodal}
-- {bibkey: irie2014locality, categories: ['General'], type: Shallow, modality: Unimodal}
-- {bibkey: chen2019twostep, categories: ['Cross-modal', 'Independent'], type: Shallow, modality: Cross-modal}
+- {bibkey: irie2014locality, categories: [], type: Shallow, modality: Unimodal}
+- {bibkey: chen2019twostep, categories: ['Independent', 'Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: wu2017deep, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: yuan2020quant, categories: ['Independent'], type: Shallow, modality: Unimodal}
-- {bibkey: zhen2012coregularised, categories: ['Cross-modal', 'Independent'], type: Shallow, modality: Cross-modal}
+- {bibkey: zhen2012coregularised, categories: ['Independent', 'Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: kong2012busing, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: kang2016columnsample, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: gattupalli2019weakly, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: xu2015convolutional, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: li2020selfsupervised, categories: ['Self-Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: sun2019supervised, categories: ['Supervised', 'Cross-modal'], type: Shallow, modality: Cross-modal}
-- {bibkey: kumar2011learning, categories: ['Cross-modal', 'Independent'], type: Shallow, modality: Cross-modal}
+- {bibkey: kumar2011learning, categories: ['Independent', 'Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: liu2014collaborative, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: chen2018deep, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: cakir2018hashing, categories: ['Independent'], type: Deep, modality: Unimodal}
@@ -942,12 +942,12 @@
 - {bibkey: moran2013bvariable, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: jiang2017deep, categories: ['Supervised', 'Cross-modal'], type: Deep, modality: Cross-modal}
 - {bibkey: weng2020online, categories: ['Independent'], type: Shallow, modality: Unimodal}
-- {bibkey: kong2012ausing, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: kong2012ausing, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: raginsky2009locality, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: jiang2015scalable, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: cui2020exchnet, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: zhang2020fast, categories: ['Supervised', 'Cross-modal'], type: Shallow, modality: Cross-modal}
-- {bibkey: andoni2006near, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: andoni2006near, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: ma2024harr, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: liu2020joint, categories: ['Supervised', 'Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: heo2012spherical, categories: ['Independent'], type: Shallow, modality: Unimodal}
@@ -958,7 +958,7 @@
 - {bibkey: liu2019moboost, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: rong2018locality, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: liu2012supervised, categories: ['Supervised'], type: Shallow, modality: Unimodal}
-- {bibkey: microsoftspacev1B, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: microsoftspacev1B, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: zhang2010self, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: su2018greedy, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: liong2020deep, categories: ['Cross-modal'], type: Shallow, modality: Cross-modal}
@@ -967,9 +967,9 @@
 - {bibkey: wang2010sequential, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: shrivastava2014asymmetric, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: chen2019locality, categories: ['Independent'], type: Shallow, modality: Unimodal}
-- {bibkey: liu2011hashing, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: liu2011hashing, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: hansen2020content, categories: ['Unsupervised'], type: Shallow, modality: Unimodal}
-- {bibkey: subramanya2019diskann, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: subramanya2019diskann, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: jia2023fast, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: zhang2014largescale, categories: ['Supervised', 'Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: lin2015deep, categories: ['Independent'], type: Deep, modality: Unimodal}
@@ -981,44 +981,44 @@
 - {bibkey: shrivastava2014densifying, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: gong2013bilinear, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: kulis2009learning, categories: ['Independent'], type: Shallow, modality: Unimodal}
-- {bibkey: facebooksimsearchnet, categories: ['General'], type: Shallow, modality: Unimodal}
-- {bibkey: bigann, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: facebooksimsearchnet, categories: [], type: Shallow, modality: Unimodal}
+- {bibkey: bigann, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: bawa2005forest, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: wiki2010new, categories: ['Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: moran2016enhancing, categories: ['Independent'], type: Shallow, modality: Unimodal}
-- {bibkey: neyshabur2013power, categories: ['General'], type: Shallow, modality: Unimodal}
-- {bibkey: sun2022deep, categories: ['Cross-modal', 'Independent'], type: Shallow, modality: Cross-modal}
-- {bibkey: xirau2014fast, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: neyshabur2013power, categories: [], type: Shallow, modality: Unimodal}
+- {bibkey: sun2022deep, categories: ['Independent', 'Cross-modal'], type: Shallow, modality: Cross-modal}
+- {bibkey: xirau2014fast, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: wei2021anet, categories: ['Independent'], type: Shallow, modality: Unimodal}
-- {bibkey: he2019knearest, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: he2019knearest, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: zhang2014latent, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: kong2012cusing, categories: ['Unsupervised'], type: Shallow, modality: Unimodal}
 - {bibkey: lin2015semantics, categories: ['Supervised', 'Cross-modal'], type: Shallow, modality: Unimodal}
 - {bibkey: li2015birds, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: luo2018fast, categories: ['Supervised'], type: Shallow, modality: Unimodal}
-- {bibkey: liu2013hashbit, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: liu2013hashbit, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: li2015bit, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: li2016feature, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: chen2021long, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: hu2020creating, categories: ['Supervised', 'Cross-modal'], type: Shallow, modality: Cross-modal}
-- {bibkey: wang2017survey, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: wang2017survey, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: cheng2021robust, categories: ['Supervised', 'Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: song2011random, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: rastegari2016xnor, categories: ['Supervised'], type: Deep, modality: Unimodal}
-- {bibkey: lin2014optimising, categories: ['General'], type: Shallow, modality: Unimodal}
-- {bibkey: jin2019deep, categories: ['General'], type: Shallow, modality: Unimodal}
-- {bibkey: moran2015agraph, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: lin2014optimising, categories: [], type: Shallow, modality: Unimodal}
+- {bibkey: jin2019deep, categories: [], type: Shallow, modality: Unimodal}
+- {bibkey: moran2015agraph, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: shen2020auto, categories: ['Supervised'], type: Shallow, modality: Unimodal}
-- {bibkey: salakhutdinov2007semantic, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: salakhutdinov2007semantic, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: zhu2016deep, categories: ['Supervised'], type: Shallow, modality: Unimodal}
-- {bibkey: yuan2018optimal, categories: ['General'], type: Shallow, modality: Unimodal}
-- {bibkey: hemati2022graph, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: yuan2018optimal, categories: [], type: Shallow, modality: Unimodal}
+- {bibkey: hemati2022graph, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: yan2019deep, categories: ['Independent'], type: Shallow, modality: Unimodal}
-- {bibkey: shi2019variable, categories: ['General'], type: Shallow, modality: Unimodal}
-- {bibkey: coco2014new, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: shi2019variable, categories: [], type: Shallow, modality: Unimodal}
+- {bibkey: coco2014new, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: cao2017correlation, categories: ['Supervised', 'Cross-modal'], type: Deep, modality: Cross-modal}
 - {bibkey: cao2017collective, categories: ['Cross-modal'], type: Shallow, modality: Cross-modal}
-- {bibkey: liu2015multi, categories: ['Cross-modal', 'Independent'], type: Shallow, modality: Cross-modal}
+- {bibkey: liu2015multi, categories: ['Independent', 'Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: qiu2017deep, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: cao2016correlation, categories: ['Supervised', 'Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: lin2013twostep, categories: ['Independent'], type: Shallow, modality: Unimodal}
@@ -1027,7 +1027,7 @@
 - {bibkey: jin2021unsupervised, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: cao2017hashnet, categories: ['Independent'], type: Deep, modality: Unimodal}
 - {bibkey: luo2023survey, categories: ['Semi-Supervised'], type: Deep, modality: Unimodal}
-- {bibkey: wang2019deep, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: wang2019deep, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: yang2019adaptive, categories: ['Semi-Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: leng2015hashing, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: carreira2015hashing, categories: ['Unsupervised'], type: Shallow, modality: Unimodal}
@@ -1040,21 +1040,21 @@
 - {bibkey: ye2020nearoptimal, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: lv2007probe, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: xu2019online, categories: ['Supervised', 'Cross-modal'], type: Shallow, modality: Unimodal}
-- {bibkey: li2019push, categories: ['General'], type: Deep, modality: Unimodal}
-- {bibkey: mukherjee2015nmf, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: li2019push, categories: [], type: Deep, modality: Unimodal}
+- {bibkey: mukherjee2015nmf, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: li2017deep, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: yang2019distill, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: labelme2007labelme, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: zhu2013linear, categories: ['Supervised', 'Cross-modal'], type: Shallow, modality: Cross-modal}
 - {bibkey: li2013column, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: dong2020learning, categories: ['Supervised'], type: Deep, modality: Unimodal}
-- {bibkey: jain2010hashing, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: jain2010hashing, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: liu2017discretely, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: chen2020strongly, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: liong2017crossmodal, categories: ['Supervised', 'Cross-modal'], type: Deep, modality: Cross-modal}
 - {bibkey: norouzi2012hamming, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: andoni2021learning, categories: ['Independent'], type: Shallow, modality: Unimodal}
-- {bibkey: weiss2012multi, categories: ['General'], type: Shallow, modality: Unimodal}
+- {bibkey: weiss2012multi, categories: [], type: Shallow, modality: Unimodal}
 - {bibkey: kang2019maximum, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: song2013intermedia, categories: ['Supervised', 'Cross-modal'], type: Shallow, modality: Unimodal}
 - {bibkey: zhang2016efficient, categories: ['Supervised'], type: Deep, modality: Unimodal}
