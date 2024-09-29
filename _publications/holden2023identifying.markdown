@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: Identifying Reducible K45;tuples Of Vectors With Subspace45;proximity Sensitive Hashing/filtering
+title: Identifying Reducible K-tuples Of Vectors With Subspace-proximity Sensitive Hashing/filtering
 authors: Holden Gabriella, Shiu Daniel, Strutt Lauren
 conference: "Arxiv"
 year: 2023

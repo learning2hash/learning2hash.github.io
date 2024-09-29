@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: Superminhash 45; A New Minwise Hashing Algorithm For Jaccard Similarity Estimation
+title: Superminhash - A New Minwise Hashing Algorithm For Jaccard Similarity Estimation
 authors: Ertl Otmar
 conference: "Arxiv"
 year: 2017

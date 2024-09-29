@@ -1,12 +1,12 @@
 ---
 layout: publication
-title: Supervised Matrix Factorization For Cross45;modality Hashing
+title: Supervised Matrix Factorization For Cross-modality Hashing
 authors: Liu Hong, Ji Rongrong, Wu Yongjian, Hua Gang
 conference: "Arxiv"
 year: 2016
 bibkey: liu2016supervised
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1603.05572"}
-tags: ['ARXIV', 'Graph', 'Quantisation', 'Supervised']
+tags: ['ARXIV', 'Cross Modal', 'Graph', 'Quantisation', 'Supervised']
 ---
-Matrix factorization has been recently utilized for the task of multi45;modal hashing for cross45;modality visual search where basis functions are learned to map data from different modalities to the same Hamming embedding. In this paper we propose a novel cross45;modality hashing algorithm termed Supervised Matrix Factorization Hashing (SMFH) which tackles the multi45;modal hashing problem with a collective non45;matrix factorization across the different modalities. In particular SMFH employs a well45;designed binary code learning algorithm to preserve the similarities among multi45;modal original features through a graph regularization. At the same time semantic labels when available are incorporated into the learning procedure. We conjecture that all these would facilitate to preserve the most relevant information during the binary quantization process and hence improve the retrieval accuracy. We demonstrate the superior performance of SMFH on three cross45;modality visual search benchmarks i.e. the PASCAL45;Sentence Wiki and NUS45;WIDE with quantitative comparison to various state45;of45;the45;art methods
+Matrix factorization has been recently utilized for the task of multi-modal hashing for cross-modality visual search where basis functions are learned to map data from different modalities to the same Hamming embedding. In this paper we propose a novel cross-modality hashing algorithm termed Supervised Matrix Factorization Hashing (SMFH) which tackles the multi-modal hashing problem with a collective non-matrix factorization across the different modalities. In particular SMFH employs a well-designed binary code learning algorithm to preserve the similarities among multi-modal original features through a graph regularization. At the same time semantic labels when available are incorporated into the learning procedure. We conjecture that all these would facilitate to preserve the most relevant information during the binary quantization process and hence improve the retrieval accuracy. We demonstrate the superior performance of SMFH on three cross-modality visual search benchmarks i.e. the PASCAL-Sentence Wiki and NUS-WIDE with quantitative comparison to various state-of-the-art methods

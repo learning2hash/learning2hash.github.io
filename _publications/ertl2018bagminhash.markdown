@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: Bagminhash 45; Minwise Hashing Algorithm For Weighted Sets
+title: Bagminhash - Minwise Hashing Algorithm For Weighted Sets
 authors: Ertl Otmar
 conference: "Arxiv"
 year: 2018

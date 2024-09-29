@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: Kernel Diff45;hash
+title: Kernel Diff-hash
 authors: Bronstein Michael M
 conference: "Arxiv"
 year: 2011
@@ -9,4 +9,4 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1111.0466"}
 tags: ['ARXIV', 'Independent']
 ---
-This paper presents a kernel formulation of the recently introduced diff45;hash algorithm for the construction of similarity45;sensitive hash functions. Our kernel diff45;hash algorithm that shows superior performance on the problem of image feature descriptor matching.
+This paper presents a kernel formulation of the recently introduced diff-hash algorithm for the construction of similarity-sensitive hash functions. Our kernel diff-hash algorithm that shows superior performance on the problem of image feature descriptor matching.

@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: Video Segment Copy Detection Using Memory Constrained Hierarchical Batch45;normalized LSTM Autoencoder
+title: Video Segment Copy Detection Using Memory Constrained Hierarchical Batch-normalized LSTM Autoencoder
 authors: Krishna Arjun, Ibrahim A S Akil Arif
 conference: "Arxiv"
 year: 2019

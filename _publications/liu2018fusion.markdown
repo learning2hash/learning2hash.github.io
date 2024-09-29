@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: Fusion Hashing A General Framework For Self45;improvement Of Hashing
+title: Fusion Hashing A General Framework For Self-improvement Of Hashing
 authors: Liu Xingbo, Nie Xiushan, Yin Yilong
 conference: "Arxiv"
 year: 2018
