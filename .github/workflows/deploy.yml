@@ -36,6 +36,11 @@ jobs:
       run: |
           python ${{ github.workspace }}/etc/compute_embeddings.py ${{ github.workspace }}/_site/paper-abstracts.json ${{ github.workspace }}/_site/tsne.json
 
+    # New step: Perform clustering on tSNE embeddings
+    - name: Perform Clustering on tSNE Embeddings
+      run: |
+          python ${{ github.workspace }}/etc/perform_clustering.py ${{ github.workspace }}/_site/tsne.json ${{ github.workspace }}/_site/tsne_clustered.json 10
+
     - name: Compute topics
       run: |
           python ${{ github.workspace }}/etc/compute_topics.py ${{ github.workspace }}/_site/paper-abstracts.json ${{ github.workspace }}/_site/topics.json
