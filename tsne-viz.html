@@ -184,7 +184,7 @@ var isMatch = function(d, searchTerm) {
 };
 
 // Set the dimensions and margins of the graph
-var margin = {top: 10, right: 130, bottom: 30, left: 60},  // Increased right margin for legend
+var margin = {top: 10, right: 130, bottom: 30, left: 60},
     width = 600 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
@@ -376,41 +376,10 @@ d3.json('https://raw.githubusercontent.com/llm-bible/llm-bible.github.io/refs/he
         .on("mousemove", mousemove)
         .on("mouseleave", mouseleave)
         .on("click", click_link);
-
-    // Update the legend
-    updateLegend();
-  }
-
-  // Legend update function
-  function updateLegend() {
-    // Remove any existing legend
-    svg.selectAll(".legend").remove();
-
-    var legend = svg.append("g")
-      .attr("class", "legend")
-      .attr("transform", "translate(" + (width + 20) + "," + margin.top + ")");
-
-    var clusters = [...new Set(filteredData.map(d => d.cluster))];
-
-    clusters.forEach(function(cluster, i) {
-      var legendRow = legend.append("g")
-        .attr("transform", "translate(0," + (i * 20) + ")");
-
-      legendRow.append("rect")
-        .attr("x", 0)
-        .attr("width", 18)
-        .attr("height", 18)
-        .style("fill", color(cluster));
-
-      legendRow.append("text")
-        .attr("x", 25)
-        .attr("y", 9)
-        .attr("dy", ".35em")
-        .text("Cluster " + cluster);
-    });
   }
 });
 </script>
+
 
     </div>
 
