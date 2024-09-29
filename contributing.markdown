@@ -9,16 +9,16 @@ Learning2hash is a growing library of research on hashing techniques and their a
 ### How to Contribute
 Simply fill out the form below to submit your paper:
 
-<form action="https://formkeep.com/f/f653e6347d44" accept-charset="UTF-8" enctype="multipart/form-data"  method="POST">
-  <input type="text" name="email"  style="width: 700px;" placeholder="Your Email Address"><br>
-  <input type="text" name="title"  style="width: 700px;" placeholder="Paper Title"><br>
-  <input type="text" name="authors"  style="width: 700px;" placeholder="Paper Authors"><br>
-  <input type="text" name="conference"  style="width: 700px;" placeholder="Conference Name"><br>
-  <input type="text" name="date"  style="width: 700px;" placeholder="Year"><br>
-  <input type="text" name="paper" style="width: 700px;" placeholder="Link to paper PDF"><br>
-  <input type="text" name="code" style="width: 700px;" placeholder="Link to code (e.g. Github)"><br>
-  <input type="text" name="abstract" style="height: 300px; width:700px;" placeholder="Paper Abstract"><br>
-  <button type="submit">Submit</button>
+<form action="https://formkeep.com/f/f653e6347d44" accept-charset="UTF-8" enctype="multipart/form-data" method="POST">
+  <input type="text" name="email" style="width: 700px; font-weight: bold; border: 2px solid #000; padding: 10px;" placeholder="Your Email Address"><br><br>
+  <input type="text" name="title" style="width: 700px; font-weight: bold; border: 2px solid #000; padding: 10px;" placeholder="Paper Title"><br><br>
+  <input type="text" name="authors" style="width: 700px; font-weight: bold; border: 2px solid #000; padding: 10px;" placeholder="Paper Authors"><br><br>
+  <input type="text" name="conference" style="width: 700px; font-weight: bold; border: 2px solid #000; padding: 10px;" placeholder="Conference Name"><br><br>
+  <input type="text" name="date" style="width: 700px; font-weight: bold; border: 2px solid #000; padding: 10px;" placeholder="Year"><br><br>
+  <input type="text" name="paper" style="width: 700px; font-weight: bold; border: 2px solid #000; padding: 10px;" placeholder="Link to paper PDF"><br><br>
+  <input type="text" name="code" style="width: 700px; font-weight: bold; border: 2px solid #000; padding: 10px;" placeholder="Link to code (e.g. Github)"><br><br>
+  <textarea name="abstract" style="height: 300px; width: 700px; font-weight: bold; border: 2px solid #000; padding: 10px;" placeholder="Paper Abstract"></textarea><br><br>
+  <button type="submit" style="font-weight: bold; border: 2px solid #000; padding: 10px 20px; background-color: #f5f5f5;">Submit</button>
 </form>
 
 ---
