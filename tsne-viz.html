@@ -38,6 +38,13 @@ the information of existing papers or adding new work.
 <script src="https://d3js.org/d3.v6.js"></script>
 
 <script>
+// Define the search match function globally
+var isMatch = function(d, searchTerm) {
+  if (searchTerm.length < 3) return false;
+  var allText = (d.title + " " + d.abstract + " " + d.tags.join(" ")).toLocaleLowerCase();
+  return allText.indexOf(searchTerm) !== -1;
+};
+
 // Set the dimensions and margins of the graph
 var margin = {top: 10, right: 130, bottom: 30, left: 60},  // Increased right margin for legend
     width = 600 - margin.left - margin.right,
@@ -155,12 +162,6 @@ d3.json('https://raw.githubusercontent.com/llm-bible/llm-bible.github.io/refs/he
   });
 
   // Search functionality
-  var isMatch = function(d, searchTerm) {
-    if (searchTerm.length < 3) return false;
-    var allText = (d.title + " " + d.abstract + " " + d.tags.join(" ")).toLocaleLowerCase();
-    return allText.indexOf(searchTerm) !== -1;
-  };
-
   d3.select("#filtermap").on("keyup", function(e) {
     var searchTerm = d3.select("#filtermap").property("value").toLocaleLowerCase();
     var allPoints = zoomLayer.selectAll("circle");
