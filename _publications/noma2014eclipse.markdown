@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Eclipse Hashing Alexandrov Compactification And Hashing With Hyperspheres For Fast Similarity Search
+authors: Noma Yui, Konoshima Makiko
+conference: "Arxiv"
+year: 2014
+bibkey: noma2014eclipse
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1406.3882"}
+tags: ['ARXIV', 'Graph', 'Independent', 'LSH']
+---
+The similarity searches that use high45;dimensional feature vectors consisting of a vast amount of data have a wide range of application. One way of conducting a fast similarity search is to transform the feature vectors into binary vectors and perform the similarity search by using the Hamming distance. Such a transformation is a hashing method and the choice of hashing function is important. Hashing methods using hyperplanes or hyperspheres are proposed. One study reported here is inspired by Spherical LSH and we use hypersperes to hash the feature vectors. Our method called Eclipse45;hashing performs a compactification of R^n by using the inverse stereographic projection which is a kind of Alexandrov compactification. By using Eclipse45;hashing one can obtain the hypersphere45;hash function without explicitly using hyperspheres. Hence the number of nonlinear operations is reduced and the processing time of hashing becomes shorter. Furthermore we also show that as a result of improving the approximation accuracy Eclipse45;hashing is more accurate than hyperplane45;hashing.

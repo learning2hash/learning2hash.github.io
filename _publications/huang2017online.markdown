@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Online Hashing
+authors: Huang Long-kai, Yang Qiang, Zheng Wei-shi
+conference: "Arxiv"
+year: 2017
+bibkey: huang2017online
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1704.01897"}
+tags: ['ARXIV', 'Independent']
+---
+Although hash function learning algorithms have achieved great success in recent years most existing hash models are off45;line which are not suitable for processing sequential or online data. To address this problem this work proposes an online hash model to accommodate data coming in stream for online learning. Specifically a new loss function is proposed to measure the similarity loss between a pair of data samples in hamming space. Then a structured hash model is derived and optimized in a passive45;aggressive way. Theoretical analysis on the upper bound of the cumulative loss for the proposed online hash model is provided. Furthermore we extend our online hashing from a single45;model to a multi45;model online hashing that trains multiple models so as to retain diverse online hashing models in order to avoid biased update. The competitive efficiency and effectiveness of the proposed online hash models are verified through extensive experiments on several large45;scale datasets as compared to related hashing methods.

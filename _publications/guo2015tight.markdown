@@ -1,0 +1,12 @@
+---
+layout: publication
+title: A Tight Bound On The Size Of Certain Separating Hash Families
+authors: Guo Chuan, Stinson Douglas R.
+conference: "Arxiv"
+year: 2015
+bibkey: guo2015tight
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1510.00293"}
+tags: ['ARXIV']
+---
+In this paper we present a new lower bound on the size of separating hash families of type 123;w95;1^123;q45;1125;w95;2125; where w95;1 < w95;2. Our result extends the paper by Guo et al. on binary frameproof codes. This bound compares well against known general bounds and is especially useful when trying to bound the size of strong separating hash families. We also show that our new bound is tight by constructing hash families that meet the new bound with equality.

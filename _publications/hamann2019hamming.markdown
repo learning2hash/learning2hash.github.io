@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Hamming Sentence Embeddings For Information Retrieval
+authors: Hamann Felix, Kurz Nadja, Ulges Adrian
+conference: "Arxiv"
+year: 2019
+bibkey: hamann2019hamming
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1908.05541"}
+tags: ['ARXIV']
+---
+In retrieval applications binary hashes are known to offer significant improvements in terms of both memory and speed. We investigate the compression of sentence embeddings using a neural encoder45;decoder architecture which is trained by minimizing reconstruction error. Instead of employing the original real45;valued embeddings we use latent representations in Hamming space produced by the encoder for similarity calculations. In quantitative experiments on several benchmarks for semantic similarity tasks we show that our compressed hamming embeddings yield a comparable performance to uncompressed embeddings (Sent2Vec InferSent Glove45;BoW) at compression ratios of up to 2561. We further demonstrate that our model strongly decorrelates input features and that the compressor generalizes well when pre45;trained on Wikipedia sentences. We publish the source code on Github and all experimental results.

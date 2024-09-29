@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Discrete Multi45;modal Hashing With Canonical Views For Robust Mobile Landmark Search
+authors: Zhu Lei, Huang Zi, Liu Xiaobai, He Xiangnan, Song Jingkuan, Zhou Xiaofang
+conference: "Arxiv"
+year: 2017
+bibkey: zhu2017discrete
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/1707.04047"}
+tags: ['ARXIV']
+---
+Mobile landmark search (MLS) recently receives increasing attention for its great practical values. However it still remains unsolved due to two important challenges. One is high bandwidth consumption of query transmission and the other is the huge visual variations of query images sent from mobile devices. In this paper we propose a novel hashing scheme named as canonical view based discrete multi45;modal hashing (CV45;DMH) to handle these problems via a novel three45;stage learning procedure. First a submodular function is designed to measure visual representativeness and redundancy of a view set. With it canonical views which capture key visual appearances of landmark with limited redundancy are efficiently discovered with an iterative mining strategy. Second multi45;modal sparse coding is applied to transform visual features from multiple modalities into an intermediate representation. It can robustly and adaptively characterize visual contents of varied landmark images with certain canonical views. Finally compact binary codes are learned on intermediate representation within a tailored discrete binary embedding model which preserves visual relations of images measured with canonical views and removes the involved noises. In this part we develop a new augmented Lagrangian multiplier (ALM) based optimization method to directly solve the discrete binary codes. We can not only explicitly deal with the discrete constraint but also consider the bit45;uncorrelated constraint and balance constraint together. Experiments on real world landmark datasets demonstrate the superior performance of CV45;DMH over several state45;of45;the45;art methods.

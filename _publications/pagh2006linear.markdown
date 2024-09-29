@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Linear Probing With Constant Independence
+authors: Pagh Anna, Pagh Rasmus, Ruzic Milan
+conference: "Arxiv"
+year: 2006
+bibkey: pagh2006linear
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/cs/0612055"}
+tags: ['ARXIV', 'Independent']
+---
+Hashing with linear probing dates back to the 1950s and is among the most studied algorithms. In recent years it has become one of the most important hash table organizations since it uses the cache of modern computers very well. Unfortunately previous analysis rely either on complicated and space consuming hash functions or on the unrealistic assumption of free access to a truly random hash function. Already Carter and Wegman in their seminal paper on universal hashing raised the question of extending their analysis to linear probing. However we show in this paper that linear probing using a pairwise independent family may have expected 123;em logarithmic125; cost per operation. On the positive side we show that 545;wise independence is enough to ensure constant expected time per operation. This resolves the question of finding a space and time efficient hash function that provably ensures good performance for linear probing.
