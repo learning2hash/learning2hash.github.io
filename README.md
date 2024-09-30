@@ -8,3 +8,7 @@ look at the website for more information about the survey and for information ab
 ### Contributing
 
 This research area is evolving so fast that a static review cannot keep up. But a website can! We hope to make this site a living document. Anyone can add a paper to this web site, essentially by submitting a web form with their content. 
+
+### License
+
+Made available under the terms of the GNU GENERAL PUBLIC LICENSE. See LICENSE file in repository.
