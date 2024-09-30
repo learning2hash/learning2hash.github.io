@@ -11,4 +11,4 @@ This research area is evolving so fast that a static review cannot keep up. But 
 
 ### License
 
-Made available under the terms of the GNU GENERAL PUBLIC LICENSE. See LICENSE file in repository.
+Made available under the terms of the GNU GENERAL PUBLIC LICENSE v3.0. See LICENSE file in repository.
