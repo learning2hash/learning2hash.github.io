@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Learning To Retrieve Prompts For In-context Learning
+authors: Ohad Rubin, Jonathan Herzig, Jonathan Berant
+conference: "Arxiv"
+year: 2021
+bibkey: rubin2021learning
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/http://arxiv.org/abs/2112.08633v2"}
+tags: ['ARXIV']
+---
+In-context learning is a recent paradigm in natural language understanding where a large pre-trained language model (LM) observes a test instance and a few training examples as its input and directly decodes the output without any update to its parameters. However performance has been shown to strongly depend on the selected training examples (termed prompt). In this work we propose an efficient method for retrieving prompts for in-context learning using annotated data and a LM. Given an input-output pair we estimate the probability of the output given the input and a candidate training example as the prompt and label training examples as positive or negative based on this probability. We then train an efficient dense retriever from this data which is used to retrieve training examples as prompts at test time. We evaluate our approach on three sequence-to-sequence tasks where language utterances are mapped to meaning representations and find that it substantially outperforms prior work and multiple baselines across the board.

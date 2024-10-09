@@ -1,12 +1,12 @@
 ---
 layout: publication
-title: Improved Asymmetric Locality Sensitive Hashing (ALSH) For Maximum Inner Product Search (MIPS)
+title: Improved Densification Of One Permutation Hashing
 authors: Shrivastava Anshumali, Li Ping
 conference: "Arxiv"
 year: 2014
 bibkey: shrivastava2014improved
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1410.5410"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: "https://arxiv.org/abs/1406.4784"}
+tags: ['ARXIV', 'Independent', 'LSH']
 ---
-Recently it was shown that the problem of Maximum Inner Product Search (MIPS) is efficient and it admits provably sub-linear hashing algorithms. Asymmetric transformations before hashing were the key in solving MIPS which was otherwise hard. In the prior work the authors use asymmetric transformations which convert the problem of approximate MIPS into the problem of approximate near neighbor search which can be efficiently solved using hashing. In this work we provide a different transformation which converts the problem of approximate MIPS into the problem of approximate cosine similarity search which can be efficiently solved using signed random projections. Theoretical analysis show that the new scheme is significantly better than the original scheme for MIPS. Experimental evaluations strongly support the theoretical findings.
+The existing work on densification of one permutation hashing reduces the query processing cost of the ((KL))-parameterized Locality Sensitive Hashing (LSH) algorithm with minwise hashing from (O(dKL)) to merely (O(d + KL)) where (d) is the number of nonzeros of the data vector (K) is the number of hashes in each hash table and (L) is the number of hash tables. While that is a substantial improvement our analysis reveals that the existing densification scheme is sub-optimal. In particular there is no enough randomness in that procedure which affects its accuracy on very sparse datasets. In this paper we provide a new densification procedure which is provably better than the existing scheme. This improvement is more significant for very sparse datasets which are common over the web. The improved technique has the same cost of (O(d + KL)) for query processing thereby making it strictly preferable over the existing procedure. Experimental evaluations on public datasets in the task of hashing based near neighbor search support our theoretical findings.

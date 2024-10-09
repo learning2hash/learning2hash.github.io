@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Inferring Implicit Relations In Complex Questions With Language Models
+authors: Uri Katz, Mor Geva, Jonathan Berant
+conference: "Arxiv"
+year: 2022
+bibkey: katz2022inferring
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/http://arxiv.org/abs/2204.13778v2"}
+tags: ['ARXIV']
+---
+A prominent challenge for modern language understanding systems is the ability to answer implicit reasoning questions where the required reasoning steps for answering the question are not mentioned in the text explicitly. In this work we investigate why current models struggle with implicit reasoning question answering (QA) tasks by decoupling inference of reasoning steps from their execution. We define a new task of implicit relation inference and construct a benchmark IMPLICITRELATIONS where given a question a model should output a list of concept-relation pairs where the relations describe the implicit reasoning steps required for answering the question. Using IMPLICITRELATIONS we evaluate models from the GPT-3 family and find that while these models struggle on the implicit reasoning QA task they often succeed at inferring implicit relations. This suggests that the challenge in implicit reasoning questions does not stem from the need to plan a reasoning strategy alone but to do it while also retrieving and reasoning over relevant information.

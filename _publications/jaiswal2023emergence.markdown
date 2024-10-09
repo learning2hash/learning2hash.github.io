@@ -1,0 +1,13 @@
+---
+layout: publication
+title: The Emergence Of Essential Sparsity In Large Pre-trained Models The Weights That Matter
+authors: Ajay Jaiswal, Shiwei Liu, Tianlong Chen, Zhangyang Wang
+conference: "Arxiv"
+year: 2023
+bibkey: jaiswal2023emergence
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/http://arxiv.org/abs/2306.03805v2"}
+  - {name: "Code", url: "https://github.com/VITA-Group/essential_sparsity}"}
+tags: ['ARXIV', 'Deep Learning', 'Has Code', 'Supervised']
+---
+Large pre-trained transformers are show-stealer in modern-day deep learning and it becomes crucial to comprehend the parsimonious patterns that exist within them as they grow in scale. With exploding parameter counts Lottery Ticket Hypothesis (LTH) and its variants have lost their pragmatism in sparsifying them due to high computation and memory bottleneck of repetitive train-prune-retrain routine of iterative magnitude pruning (IMP) which worsens with increasing model size. This paper comprehensively studies induced sparse patterns across multiple large pre-trained vision and language transformers. We propose the existence of -- essential sparsity defined with a sharp dropping point beyond which the performance declines much faster w.r.t the rise of sparsity level when we directly remove weights with the smallest magnitudes in one-shot without re-training. We also find essential sparsity to hold valid for NM sparsity patterns as well as on modern-scale large language models (Vicuna-7B). We also present an intriguing emerging phenomenon of abrupt sparsification during the pre-training of BERT i.e. BERT suddenly becomes heavily sparse in pre-training after certain iterations. Moreover our observations also indicate a counter-intuitive finding that BERT trained with a larger amount of pre-training data tends to have a better ability to condense knowledge in comparatively relatively fewer parameters. Lastly we investigate the effect of the pre-training loss on essential sparsity and discover that self-supervised learning (SSL) objectives trigger stronger emergent sparsification properties than supervised learning (SL). Our codes are available at urlhttps://github.com/VITA-Group/essential\_sparsity\}.

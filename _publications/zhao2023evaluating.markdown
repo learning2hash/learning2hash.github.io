@@ -1,0 +1,13 @@
+---
+layout: publication
+title: On Evaluating Adversarial Robustness Of Large Vision-language Models
+authors: Yunqing Zhao, Tianyu Pang, Chao Du, Xiao Yang, Chongxuan Li, Ngai-man Cheung, Min Lin
+conference: "Arxiv"
+year: 2023
+bibkey: zhao2023evaluating
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/http://arxiv.org/abs/2305.16934v2"}
+  - {name: "Code", url: "https://github.com/yunqing-me/AttackVLM"}
+tags: ['ARXIV', 'Cross Modal', 'Has Code']
+---
+Large vision-language models (VLMs) such as GPT-4 have achieved unprecedented performance in response generation especially with visual inputs enabling more creative and adaptable interaction than large language models such as ChatGPT. Nonetheless multimodal generation exacerbates safety concerns since adversaries may successfully evade the entire system by subtly manipulating the most vulnerable modality (e.g. vision). To this end we propose evaluating the robustness of open-source large VLMs in the most realistic and high-risk setting where adversaries have only black-box system access and seek to deceive the model into returning the targeted responses. In particular we first craft targeted adversarial examples against pretrained models such as CLIP and BLIP and then transfer these adversarial examples to other VLMs such as MiniGPT-4 LLaVA UniDiffuser BLIP-2 and Img2Prompt. In addition we observe that black-box queries on these VLMs can further improve the effectiveness of targeted evasion resulting in a surprisingly high success rate for generating targeted responses. Our findings provide a quantitative understanding regarding the adversarial vulnerability of large VLMs and call for a more thorough examination of their potential security flaws before deployment in practice. Code is at https://github.com/yunqing-me/AttackVLM.
