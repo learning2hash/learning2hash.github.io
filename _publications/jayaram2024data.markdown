@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Data-dependent LSH For The Earth Movers Distance
+authors: Jayaram Rajesh, Waingarten Erik, Zhang Tian
+conference: "Arxiv"
+year: 2024
+bibkey: jayaram2024data
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/2403.05041"}
+tags: ['ARXIV', 'Independent', 'LSH']
+---
+We give new data-dependent locality sensitive hashing schemes (LSH) for the Earth Movers Distance (()) and as a result improve the best approximation for nearest neighbor search under () by a quadratic factor. Here the metric (_s(^dell_p)) consists of sets of (s) vectors in (^d) and for any two sets (xy) of (s) vectors the distance ((xy)) is the minimum cost of a perfect matching between (xy) where the cost of matching two vectors is their (ell_p) distance. Previously Andoni Indyk and Krauthgamer gave a (data-independent) locality-sensitive hashing scheme for (_s(^dell_p)) when (p in 12) with approximation (O(log^2 s)). By being data-dependent we improve the approximation to ((log s)). Our main technical contribution is to show that for any distribution (mu) supported on the metric (_s(^d ell_p)) there exists a data-dependent LSH for dense regions of (mu) which achieves approximation ((log s)) and that the data-independent LSH actually achieves a ((log s))-approximation outside of those dense regions. Finally we show how to glue together these two hashing schemes without any additional loss in the approximation. Beyond nearest neighbor search our data-dependent LSH also gives optimal (distributional) sketches for the Earth Movers Distance. By known sketching lower bounds this implies that our LSH is optimal (up to mathrmpoly(log log s) factors) among those that collide close points with constant probability.

@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Semi-supervised Deep Quantization For Cross-modal Search
+authors: Wang Xin, Zhu, Liu
+conference: "Arxiv"
+year: 2024
+bibkey: wang2024semi
+additional_links:
+  - {name: "Paper", url: "https://dl.acm.org/citation.cfm?id=3343031.3350934"}
+tags: ['ARXIV', 'Cross Modal', 'Information', 'Quantisation', 'Supervised']
+---
+The problem of cross-modal similarity search which aims at making efficient and accurate queries across multiple domains has become a significant and important research topic. Composite quantization a compact coding solution superior to hashing techniques has shown its effectiveness for similarity search. However most existing works utilizing composite quantization to search multi-domain content only consider either pairwise similarity information or class label information across different domains which fails to tackle the semi-supervised problem in composite quantization. In this paper we address the semi-supervised quantization problem by considering (i) pairwise similarity information (without class label information) across different domains which captures the intra-document relation (ii) cross-domain data with class label which can help capture inter-document relation and (iii) cross-domain data with neither pairwise similarity nor class label which enables the full use of abundant unlabelled information. To the best of our knowledge we are the first to consider both supervised information (pairwise similarity + class label) and unsupervised information (neither pairwise similarity nor class label) simultaneously in composite quantization. A challenging problem arises how can we jointly handle these three sorts of information across multiple domains in an efficient way To tackle this challenge we propose a novel semi-supervised deep quantization (SSDQ) model that takes both supervised and unsupervised information into account. The proposed SSDQ model is capable of incorporating the above three kinds of information into one single framework when utilizing composite quantization for accurate and efficient queries across different domains. More specifically we employ a modified deep autoencoder for better latent representation and formulate pairwise similarity loss supervised quantization loss as well as unsupervised distribution match loss to handle all three types of information. The extensive experiments demonstrate the significant improvement of SSDQ over several state-of-the-art methods on various datasets.
