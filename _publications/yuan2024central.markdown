@@ -6,7 +6,7 @@ conference: "Arxiv"
 year: 2024
 bibkey: yuan2024central
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/yuan2020central"}
+  - {name: "Paper", url: "https://arxiv.org/pdf/1908.00347.pdf"}
   - {name: "Code", url: "https://github.com/yuanli2333/"}
 tags: ['ARXIV', 'Has Code', 'Independent', 'Video Retrieval']
 ---

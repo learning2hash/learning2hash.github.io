@@ -6,7 +6,7 @@ conference: "Arxiv"
 year: 2024
 bibkey: wang2024uncertainty
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/wang2023uncertainty"}
+  - {name: "Paper", url: "https://proceedings.mlr.press/v206/wang23i.html"}
   - {name: "Code", url: "https://github.com/wangyucheng1234/BerVAE"}
 tags: ['ARXIV', 'Has Code', 'Unsupervised', 'Video Retrieval']
 ---

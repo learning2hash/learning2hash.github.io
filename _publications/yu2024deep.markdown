@@ -6,7 +6,7 @@ conference: "Arxiv"
 year: 2024
 bibkey: yu2024deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/yu2021deep"}
+  - {name: "Paper", url: "https://ojs.aaai.org/index.php/AAAI/article/view/16592/16399"}
   - {name: "Code", url: "https://github.com/Atmegal/DGCPN"}
 tags: ['ARXIV', 'Cross Modal', 'Graph', 'Has Code', 'Quantisation', 'Unsupervised']
 ---

@@ -6,7 +6,7 @@ conference: "Arxiv"
 year: 2024
 bibkey: jegou2024datasets
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/bigann"}
+  - {name: "Paper", url: "http://corpus-texmex.irisa.fr/"}
 tags: ['ARXIV']
 ---
 BIGANN consists of SIFT descriptors applied to images from extracted from a large image dataset.

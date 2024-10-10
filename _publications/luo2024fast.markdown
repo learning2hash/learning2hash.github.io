@@ -6,7 +6,7 @@ conference: "Arxiv"
 year: 2024
 bibkey: luo2024fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/luo2018fast"}
+  - {name: "Paper", url: "http://staff.ustc.edu.cn/~hexn/papers/sigir18-hashing.pdf"}
   - {name: "Code", url: "https://lcbwlx.wixsite.com/fssh"}
 tags: ['ARXIV', 'Has Code', 'Supervised']
 ---
