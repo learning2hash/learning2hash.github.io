@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Hamming Compatible Quantization For Hashing
+authors: Wang Z., Duan, Lin, Wang, Gao
+conference: "Arxiv"
+year: 2024
+bibkey: wang2024hamming
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/wang2015hamming"}
+tags: ['ARXIV', 'Independent', 'Quantisation']
+---
+Hashing is one of the effective techniques for fast Approximate Nearest Neighbour (ANN) search. Traditional single-bit quantization (SBQ) in most hashing methods incurs lots of quantization error which seriously degrades the search performance. To address the limitation of SBQ researchers have proposed promising multi-bit quantization (MBQ) methods to quantize each projection dimension with multiple bits. However some MBQ methods need to adopt specific distance for binary code matching instead of the original Hamming distance which would significantly decrease the retrieval speed. Two typical MBQ methods Hierarchical Quantization and Double Bit Quantization retain the Hamming distance but both of them only consider the projection dimensions during quantization ignoring the neighborhood structure of raw data inherent in Euclidean space. In this paper we propose a multi-bit quantization method named Hamming Compatible Quantization (HCQ) to preserve the capability of similarity metric between Euclidean space and Hamming space by utilizing the neighborhood structure of raw data. Extensive experiment results have shown our approach significantly improves the performance of various stateof-the-art hashing methods while maintaining fast retrieval speed.

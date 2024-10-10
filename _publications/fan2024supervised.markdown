@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Supervised Binary Hash Code Learning With Jensen Shannon Divergence
+authors: Fan Lixin
+conference: "Arxiv"
+year: 2024
+bibkey: fan2024supervised
+additional_links:
+  - {name: "Paper", url: "https://arxiv.org/abs/fan2013supervised"}
+tags: ['ARXIV', 'Supervised']
+---
+This paper proposes to learn binary hash codes within a statistical learning framework in which an upper bound of the probability of Bayes decision errors is derived for different forms of hash functions and a rigorous proof of the convergence of the upper bound is presented. Consequently minimizing such an upper bound leads to consistent performance improvements of existing hash code learning algorithms regardless of whether original algorithms are unsupervised or supervised. This paper also illustrates a fast hash coding method that exploits simple binary tests to achieve orders of magnitude improvement in coding speed as compared to projection based methods.
