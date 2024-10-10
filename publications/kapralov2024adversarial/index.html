@@ -30,13 +30,17 @@ alt="Web-Stat web statistics"></a></noscript>
 
   gtag('config', 'UA-109544763-1');
 </script>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      tex2jax: {
+<script>
+    window.MathJax = {
+      tex: {
         inlineMath: [["\\(","\\)"]],
-        displayMath: [["\\[","\\]"]]
+        displayMath: [["\\[","\\]"]],
+      },
+      options: {
+        processHtmlClass: "mathjax-content",
+        processEscapes: true,
       }
-    });
+    };
   </script>
   <script type="text/javascript" async
     src="https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-MML-AM_CHTML">
@@ -60,11 +64,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/kapralov2024adversarial/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-10T13:14:02-05:00" />
+<meta property="article:published_time" content="2024-10-10T13:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="On The Adversarial Robustness Of Locality-sensitive Hashing In Hamming Space" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-10T13:14:02-05:00","datePublished":"2024-10-10T13:14:02-05:00","description":"Locality-sensitive hashing~IndykMotwani98 is a classical data structure for approximate nearest neighbor search. It allows after a close to linear time preprocessing of the input dataset to find an approximately nearest neighbor of any fixed query in sublinear time in the dataset size. The resulting data structure is randomized and succeeds with high probability for every fixed query. In many modern applications of nearest neighbor search the queries are chosen adaptively. In this paper we study the robustness of the locality-sensitive hashing to adaptive queries in Hamming space. We present a simple adversary that can under mild assumptions on the initial point set provably find a query to the approximate near neighbor search data structure that the data structure fails on. Crucially our adaptive algorithm finds the hard query exponentially faster than random sampling.","headline":"On The Adversarial Robustness Of Locality-sensitive Hashing In Hamming Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kapralov2024adversarial/"},"url":"https://learning2hash.github.io/publications/kapralov2024adversarial/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-10T13:17:16-05:00","datePublished":"2024-10-10T13:17:16-05:00","description":"Locality-sensitive hashing~IndykMotwani98 is a classical data structure for approximate nearest neighbor search. It allows after a close to linear time preprocessing of the input dataset to find an approximately nearest neighbor of any fixed query in sublinear time in the dataset size. The resulting data structure is randomized and succeeds with high probability for every fixed query. In many modern applications of nearest neighbor search the queries are chosen adaptively. In this paper we study the robustness of the locality-sensitive hashing to adaptive queries in Hamming space. We present a simple adversary that can under mild assumptions on the initial point set provably find a query to the approximate near neighbor search data structure that the data structure fails on. Crucially our adaptive algorithm finds the hard query exponentially faster than random sampling.","headline":"On The Adversarial Robustness Of Locality-sensitive Hashing In Hamming Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kapralov2024adversarial/"},"url":"https://learning2hash.github.io/publications/kapralov2024adversarial/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
