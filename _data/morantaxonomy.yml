@@ -687,7 +687,7 @@
 - {bibkey: schall2019deep, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: wu2019optimal, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: esposito2019recsplit, categories: ['Independent'], type: Shallow, modality: Cross-Modal}
-- {bibkey: kanda2019sketch, categories: ['Independent'], type: Shallow, modality: Unimodal}
+- {bibkey: kanda2019b, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: chen2019locality, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: ertl2019probminhash, categories: ['Independent'], type: Shallow, modality: Unimodal}
 - {bibkey: wang2019deep, categories: ['Independent'], type: Deep, modality: Unimodal}
