@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/skraparlis2000method/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Method For Command Identification Using Modified Collision Free Hashing With Addition Rotation Iterative Hash Functions (part 1)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"This paper proposes a method for identification of a users fixed string set (which can be a command/instruction set for a terminal or microprocessor). This method is fast and has very small memory requirements, compared to a traditional full string storage and compare method. The user feeds characters into a microcontroller via a keyboard or another microprocessor sends commands and the microcontroller hashes the input in order to identify valid commands, ensuring no collisions between hashed valid strings, while applying further criteria to narrow collision between random and valid strings. The method proposed narrows the possibility of the latter kind of collision, achieving small code and memory-size utilization and very fast execution. Hashing is achieved using additive &amp; rotating hash functions in an iterative form, which can be very easily implemented in simple microcontrollers and microprocessors. Such hash functions are presented and compared according to their efficiency for a given string/command set, using the program found in the appendix.","headline":"A Method For Command Identification Using Modified Collision Free Hashing With Addition Rotation Iterative Hash Functions (part 1)","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/skraparlis2000method/"},"url":"https://learning2hash.github.io/publications/skraparlis2000method/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"This paper proposes a method for identification of a users fixed string set (which can be a command/instruction set for a terminal or microprocessor). This method is fast and has very small memory requirements, compared to a traditional full string storage and compare method. The user feeds characters into a microcontroller via a keyboard or another microprocessor sends commands and the microcontroller hashes the input in order to identify valid commands, ensuring no collisions between hashed valid strings, while applying further criteria to narrow collision between random and valid strings. The method proposed narrows the possibility of the latter kind of collision, achieving small code and memory-size utilization and very fast execution. Hashing is achieved using additive &amp; rotating hash functions in an iterative form, which can be very easily implemented in simple microcontrollers and microprocessors. Such hash functions are presented and compared according to their efficiency for a given string/command set, using the program found in the appendix.","headline":"A Method For Command Identification Using Modified Collision Free Hashing With Addition Rotation Iterative Hash Functions (part 1)","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/skraparlis2000method/"},"url":"https://learning2hash.github.io/publications/skraparlis2000method/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">A Method For Command Identification Using Modified Collision Free Hashing With Addition Rotation Iterative Hash Functions (part 1)</h1>
   <h5>Skraparlis Dimitrios. Arxiv 2000</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/cs/0005028" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=A Method For Command Identification Using Modified Collision Free Hashing With Addition Rotation Iterative Hash Functions (part 1)' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=A Method For Command Identification Using Modified Collision Free Hashing With Addition Rotation Iterative Hash Functions (part 1)' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=A%20Method%20For%20Command%20Identification%20Using%20Modified%20Collision%20Free%20Hashing%20With%20Addition%20Rotation%20Iterative%20Hash%20Functions%20(part%201)' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=A%20Method%20For%20Command%20Identification%20Using%20Modified%20Collision%20Free%20Hashing%20With%20Addition%20Rotation%20Iterative%20Hash%20Functions%20(part%201)' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>This paper proposes a method for identification of a users fixed string set (which can be a command/instruction set for a terminal or microprocessor). This method is fast and has very small memory requirements, compared to a traditional full string storage and compare method. The user feeds characters into a microcontroller via a keyboard or another microprocessor sends commands and the microcontroller hashes the input in order to identify valid commands, ensuring no collisions between hashed valid strings, while applying further criteria to narrow collision between random and valid strings. The method proposed narrows the possibility of the latter kind of collision, achieving small code and memory-size utilization and very fast execution. Hashing is achieved using additive &amp; rotating hash functions in an iterative form, which can be very easily implemented in simple microcontrollers and microprocessors. Such hash functions are presented and compared according to their efficiency for a given string/command set, using the program found in the appendix.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/skraparlis2000method.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/skraparlis2000method.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

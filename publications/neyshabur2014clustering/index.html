@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/neyshabur2014clustering/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Clustering Hamming Embedding Generalized LSH And The Max Norm" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"We study the convex relaxation of clustering and hamming embedding, focusing on the asymmetric case (co-clustering and asymmetric hamming embedding), understanding their relationship to LSH as studied by (Charikar 2002) and to the max-norm ball, and the differences between their symmetric and asymmetric versions.","headline":"Clustering Hamming Embedding Generalized LSH And The Max Norm","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/neyshabur2014clustering/"},"url":"https://learning2hash.github.io/publications/neyshabur2014clustering/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"We study the convex relaxation of clustering and hamming embedding, focusing on the asymmetric case (co-clustering and asymmetric hamming embedding), understanding their relationship to LSH as studied by (Charikar 2002) and to the max-norm ball, and the differences between their symmetric and asymmetric versions.","headline":"Clustering Hamming Embedding Generalized LSH And The Max Norm","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/neyshabur2014clustering/"},"url":"https://learning2hash.github.io/publications/neyshabur2014clustering/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Clustering Hamming Embedding Generalized LSH And The Max Norm</h1>
   <h5>Neyshabur Behnam, Makarychev Yury, Srebro Nathan. Arxiv 2014</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1405.3167" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Clustering Hamming Embedding Generalized LSH And The Max Norm' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Clustering Hamming Embedding Generalized LSH And The Max Norm' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Clustering%20Hamming%20Embedding%20Generalized%20LSH%20And%20The%20Max%20Norm' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Clustering%20Hamming%20Embedding%20Generalized%20LSH%20And%20The%20Max%20Norm' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#LSH">LSH</a></tag>
+      <span class="tag"><a href="/tags.html#LSH">LSH</a></span>
     
-      <tag><a href="/tags.html#Unsupervised">Unsupervised</a></tag>
+      <span class="tag"><a href="/tags.html#Unsupervised">Unsupervised</a></span>
     
   </p>
+  
   <p><p>We study the convex relaxation of clustering and hamming embedding, focusing on the asymmetric case (co-clustering and asymmetric hamming embedding), understanding their relationship to LSH as studied by (Charikar 2002) and to the max-norm ball, and the differences between their symmetric and asymmetric versions.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/neyshabur2014clustering.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/neyshabur2014clustering.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/tavenard2010balancing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Balancing Clusters To Reduce Response Time Variability In Large Scale Image Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Many algorithms for approximate nearest neighbor search in high-dimensional spaces partition the data into clusters. At query time, in order to avoid exhaustive search, an index selects the few (or a single) clusters nearest to the query point. Clusters are often produced by the well-known $k$-means approach since it has several desirable properties. On the downside, it tends to produce clusters having quite different cardinalities. Imbalanced clusters negatively impact both the variance and the expectation of query response times. This paper proposes to modify $k$-means centroids to produce clusters with more comparable sizes without sacrificing the desirable properties. Experiments with a large scale collection of image descriptors show that our algorithm significantly reduces the variance of response times without seriously impacting the search quality.","headline":"Balancing Clusters To Reduce Response Time Variability In Large Scale Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tavenard2010balancing/"},"url":"https://learning2hash.github.io/publications/tavenard2010balancing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Many algorithms for approximate nearest neighbor search in high-dimensional spaces partition the data into clusters. At query time, in order to avoid exhaustive search, an index selects the few (or a single) clusters nearest to the query point. Clusters are often produced by the well-known $k$-means approach since it has several desirable properties. On the downside, it tends to produce clusters having quite different cardinalities. Imbalanced clusters negatively impact both the variance and the expectation of query response times. This paper proposes to modify $k$-means centroids to produce clusters with more comparable sizes without sacrificing the desirable properties. Experiments with a large scale collection of image descriptors show that our algorithm significantly reduces the variance of response times without seriously impacting the search quality.","headline":"Balancing Clusters To Reduce Response Time Variability In Large Scale Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tavenard2010balancing/"},"url":"https://learning2hash.github.io/publications/tavenard2010balancing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Balancing Clusters To Reduce Response Time Variability In Large Scale Image Search</h1>
   <h5>Tavenard Romain Inria - Irisa, Amsaleg Laurent Inria - Irisa, Jégou Hervé Inria - Irisa. Arxiv 2010</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1009.4739" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Balancing Clusters To Reduce Response Time Variability In Large Scale Image Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Balancing Clusters To Reduce Response Time Variability In Large Scale Image Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Balancing%20Clusters%20To%20Reduce%20Response%20Time%20Variability%20In%20Large%20Scale%20Image%20Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Balancing%20Clusters%20To%20Reduce%20Response%20Time%20Variability%20In%20Large%20Scale%20Image%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>Many algorithms for approximate nearest neighbor search in high-dimensional spaces partition the data into clusters. At query time, in order to avoid exhaustive search, an index selects the few (or a single) clusters nearest to the query point. Clusters are often produced by the well-known $k$-means approach since it has several desirable properties. On the downside, it tends to produce clusters having quite different cardinalities. Imbalanced clusters negatively impact both the variance and the expectation of query response times. This paper proposes to modify $k$-means centroids to produce clusters with more comparable sizes without sacrificing the desirable properties. Experiments with a large scale collection of image descriptors show that our algorithm significantly reduces the variance of response times without seriously impacting the search quality.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/tavenard2010balancing.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/tavenard2010balancing.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

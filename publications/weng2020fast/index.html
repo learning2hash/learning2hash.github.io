@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/weng2020fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast Search On Binary Codes By Weighted Hamming Distance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Weighted Hamming distance, as a similarity measure between binary codes and binary queries, provides superior accuracy in search tasks than Hamming distance. However, how to efficiently and accurately find $K$ binary codes that have the smallest weighted Hamming distance to the query remains an open issue. In this paper, a fast search algorithm is proposed to perform the non-exhaustive search for $K$ nearest binary codes by weighted Hamming distance. By using binary codes as direct bucket indices in a hash table, the search algorithm generates a sequence to probe the buckets based on the independence characteristic of the weights for each bit. Furthermore, a fast search framework based on the proposed search algorithm is designed to solve the problem of long binary codes. Specifically, long binary codes are split into substrings and multiple hash tables are built on them. Then, the search algorithm probes the buckets to obtain candidates according to the generated substring indices, and a merging algorithm is proposed to find the nearest binary codes by merging the candidates. Theoretical analysis and experimental results demonstrate that the search algorithm improves the search accuracy compared to other non-exhaustive algorithms and provides orders-of-magnitude faster search than the linear scan baseline.","headline":"Fast Search On Binary Codes By Weighted Hamming Distance","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weng2020fast/"},"url":"https://learning2hash.github.io/publications/weng2020fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Weighted Hamming distance, as a similarity measure between binary codes and binary queries, provides superior accuracy in search tasks than Hamming distance. However, how to efficiently and accurately find $K$ binary codes that have the smallest weighted Hamming distance to the query remains an open issue. In this paper, a fast search algorithm is proposed to perform the non-exhaustive search for $K$ nearest binary codes by weighted Hamming distance. By using binary codes as direct bucket indices in a hash table, the search algorithm generates a sequence to probe the buckets based on the independence characteristic of the weights for each bit. Furthermore, a fast search framework based on the proposed search algorithm is designed to solve the problem of long binary codes. Specifically, long binary codes are split into substrings and multiple hash tables are built on them. Then, the search algorithm probes the buckets to obtain candidates according to the generated substring indices, and a merging algorithm is proposed to find the nearest binary codes by merging the candidates. Theoretical analysis and experimental results demonstrate that the search algorithm improves the search accuracy compared to other non-exhaustive algorithms and provides orders-of-magnitude faster search than the linear scan baseline.","headline":"Fast Search On Binary Codes By Weighted Hamming Distance","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weng2020fast/"},"url":"https://learning2hash.github.io/publications/weng2020fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Fast Search On Binary Codes By Weighted Hamming Distance</h1>
   <h5>Weng Zhenyu, Zhu Yuesheng, Liu Ruixin. Arxiv 2020</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2009.08591" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Fast Search On Binary Codes By Weighted Hamming Distance' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Fast Search On Binary Codes By Weighted Hamming Distance' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Fast%20Search%20On%20Binary%20Codes%20By%20Weighted%20Hamming%20Distance' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Fast%20Search%20On%20Binary%20Codes%20By%20Weighted%20Hamming%20Distance' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>Weighted Hamming distance, as a similarity measure between binary codes and binary queries, provides superior accuracy in search tasks than Hamming distance. However, how to efficiently and accurately find $K$ binary codes that have the smallest weighted Hamming distance to the query remains an open issue. In this paper, a fast search algorithm is proposed to perform the non-exhaustive search for $K$ nearest binary codes by weighted Hamming distance. By using binary codes as direct bucket indices in a hash table, the search algorithm generates a sequence to probe the buckets based on the independence characteristic of the weights for each bit. Furthermore, a fast search framework based on the proposed search algorithm is designed to solve the problem of long binary codes. Specifically, long binary codes are split into substrings and multiple hash tables are built on them. Then, the search algorithm probes the buckets to obtain candidates according to the generated substring indices, and a merging algorithm is proposed to find the nearest binary codes by merging the candidates. Theoretical analysis and experimental results demonstrate that the search algorithm improves the search accuracy compared to other non-exhaustive algorithms and provides orders-of-magnitude faster search than the linear scan baseline.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/weng2020fast.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/weng2020fast.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

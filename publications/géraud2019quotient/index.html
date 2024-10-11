@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/g%C3%A9raud2019quotient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Quotient Hash Tables - Efficiently Detecting Duplicates In Streaming Data" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"This article presents the Quotient Hash Table (QHT) a new data structure for duplicate detection in unbounded streams. QHTs stem from a corrected analysis of streaming quotient filters (SQFs), resulting in a 33\\% reduction in memory usage for equal performance. We provide a new and thorough analysis of both algorithms, with results of interest to other existing constructions. We also introduce an optimised version of our new data structure dubbed Queued QHT with Duplicates (QQHTD). Finally we discuss the effect of adversarial inputs for hash-based duplicate filters similar to QHT.","headline":"Quotient Hash Tables - Efficiently Detecting Duplicates In Streaming Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/g%C3%A9raud2019quotient/"},"url":"https://learning2hash.github.io/publications/g%C3%A9raud2019quotient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"This article presents the Quotient Hash Table (QHT) a new data structure for duplicate detection in unbounded streams. QHTs stem from a corrected analysis of streaming quotient filters (SQFs), resulting in a 33\\% reduction in memory usage for equal performance. We provide a new and thorough analysis of both algorithms, with results of interest to other existing constructions. We also introduce an optimised version of our new data structure dubbed Queued QHT with Duplicates (QQHTD). Finally we discuss the effect of adversarial inputs for hash-based duplicate filters similar to QHT.","headline":"Quotient Hash Tables - Efficiently Detecting Duplicates In Streaming Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/g%C3%A9raud2019quotient/"},"url":"https://learning2hash.github.io/publications/g%C3%A9raud2019quotient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Quotient Hash Tables - Efficiently Detecting Duplicates In Streaming Data</h1>
   <h5>Géraud Rémi, Lombard-platet Marius, Naccache David. Arxiv 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1901.04358" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Quotient Hash Tables - Efficiently Detecting Duplicates In Streaming Data' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Quotient Hash Tables - Efficiently Detecting Duplicates In Streaming Data' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Quotient%20Hash%20Tables%20-%20Efficiently%20Detecting%20Duplicates%20In%20Streaming%20Data' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Quotient%20Hash%20Tables%20-%20Efficiently%20Detecting%20Duplicates%20In%20Streaming%20Data' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Streaming Data">Streaming Data</a></tag>
+      <span class="tag"><a href="/tags.html#Streaming Data">Streaming Data</a></span>
     
   </p>
+  
   <p><p>This article presents the Quotient Hash Table (QHT) a new data structure for duplicate detection in unbounded streams. QHTs stem from a corrected analysis of streaming quotient filters (SQFs), resulting in a 33\% reduction in memory usage for equal performance. We provide a new and thorough analysis of both algorithms, with results of interest to other existing constructions. We also introduce an optimised version of our new data structure dubbed Queued QHT with Duplicates (QQHTD). Finally we discuss the effect of adversarial inputs for hash-based duplicate filters similar to QHT.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/géraud2019quotient.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/géraud2019quotient.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

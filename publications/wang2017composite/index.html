@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2017composite/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Composite Quantization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"This paper studies the compact coding approach to approximate nearest neighbor search. We introduce a composite quantization framework. It uses the composition of several ($M$) elements, each of which is selected from a different dictionary, to accurately approximate a $D$-dimensional vector, thus yielding accurate search, and represents the data vector by a short code composed of the indices of the selected elements in the corresponding dictionaries. Our key contribution lies in introducing a near-orthogonality constraint, which makes the search efficiency is guaranteed as the cost of the distance computation is reduced to $O(M)$ from $O(D)$ through a distance table lookup scheme. The resulting approach is called near-orthogonal composite quantization. We theoretically justify the equivalence between near-orthogonal composite quantization and minimizing an upper bound of a function formed by jointly considering the quantization error and the search cost according to a generalized triangle inequality. We empirically show the efficacy of the proposed approach over several benchmark datasets. In addition, we demonstrate the superior performances in other three applications: combination with inverted multi-index, quantizing the query for mobile search, and inner-product similarity search.","headline":"Composite Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2017composite/"},"url":"https://learning2hash.github.io/publications/wang2017composite/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"This paper studies the compact coding approach to approximate nearest neighbor search. We introduce a composite quantization framework. It uses the composition of several ($M$) elements, each of which is selected from a different dictionary, to accurately approximate a $D$-dimensional vector, thus yielding accurate search, and represents the data vector by a short code composed of the indices of the selected elements in the corresponding dictionaries. Our key contribution lies in introducing a near-orthogonality constraint, which makes the search efficiency is guaranteed as the cost of the distance computation is reduced to $O(M)$ from $O(D)$ through a distance table lookup scheme. The resulting approach is called near-orthogonal composite quantization. We theoretically justify the equivalence between near-orthogonal composite quantization and minimizing an upper bound of a function formed by jointly considering the quantization error and the search cost according to a generalized triangle inequality. We empirically show the efficacy of the proposed approach over several benchmark datasets. In addition, we demonstrate the superior performances in other three applications: combination with inverted multi-index, quantizing the query for mobile search, and inner-product similarity search.","headline":"Composite Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2017composite/"},"url":"https://learning2hash.github.io/publications/wang2017composite/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Composite Quantization</h1>
   <h5>Wang Jingdong, Zhang Ting. Arxiv 2017</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1712.00955" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Composite Quantization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Composite Quantization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Composite%20Quantization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Composite%20Quantization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Quantisation">Quantisation</a></tag>
+      <span class="tag"><a href="/tags.html#Quantisation">Quantisation</a></span>
     
   </p>
+  
   <p><p>This paper studies the compact coding approach to approximate nearest neighbor search. We introduce a composite quantization framework. It uses the composition of several ($M$) elements, each of which is selected from a different dictionary, to accurately approximate a $D$-dimensional vector, thus yielding accurate search, and represents the data vector by a short code composed of the indices of the selected elements in the corresponding dictionaries. Our key contribution lies in introducing a near-orthogonality constraint, which makes the search efficiency is guaranteed as the cost of the distance computation is reduced to $O(M)$ from $O(D)$ through a distance table lookup scheme. The resulting approach is called near-orthogonal composite quantization. We theoretically justify the equivalence between near-orthogonal composite quantization and minimizing an upper bound of a function formed by jointly considering the quantization error and the search cost according to a generalized triangle inequality. We empirically show the efficacy of the proposed approach over several benchmark datasets. In addition, we demonstrate the superior performances in other three applications: combination with inverted multi-index, quantizing the query for mobile search, and inner-product similarity search.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/wang2017composite.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/wang2017composite.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

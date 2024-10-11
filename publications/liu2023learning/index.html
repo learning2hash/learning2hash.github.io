@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2023learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Category Trees For Id-based Recommendation Exploring The Power Of Differentiable Vector Quantization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Category information plays a crucial role in enhancing the quality and personalization of recommender systems. Nevertheless, the availability of item category information is not consistently present, particularly in the context of ID-based recommendations. In this work, we propose a novel approach to automatically learn and generate entity (i.e., user or item) category trees for ID-based recommendation. Specifically, we devise a differentiable vector quantization framework for automatic category tree generation, namely CAGE, which enables the simultaneous learning and refinement of categorical code representations and entity embeddings in an end-to-end manner, starting from the randomly initialized states. With its high adaptability, CAGE can be easily integrated into both sequential and non-sequential recommender systems. We validate the effectiveness of CAGE on various recommendation tasks including list completion, collaborative filtering, and click-through rate prediction, across different recommendation models. We release the code and data for others to reproduce the reported results.","headline":"Learning Category Trees For Id-based Recommendation Exploring The Power Of Differentiable Vector Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2023learning/"},"url":"https://learning2hash.github.io/publications/liu2023learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Category information plays a crucial role in enhancing the quality and personalization of recommender systems. Nevertheless, the availability of item category information is not consistently present, particularly in the context of ID-based recommendations. In this work, we propose a novel approach to automatically learn and generate entity (i.e., user or item) category trees for ID-based recommendation. Specifically, we devise a differentiable vector quantization framework for automatic category tree generation, namely CAGE, which enables the simultaneous learning and refinement of categorical code representations and entity embeddings in an end-to-end manner, starting from the randomly initialized states. With its high adaptability, CAGE can be easily integrated into both sequential and non-sequential recommender systems. We validate the effectiveness of CAGE on various recommendation tasks including list completion, collaborative filtering, and click-through rate prediction, across different recommendation models. We release the code and data for others to reproduce the reported results.","headline":"Learning Category Trees For Id-based Recommendation Exploring The Power Of Differentiable Vector Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2023learning/"},"url":"https://learning2hash.github.io/publications/liu2023learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Learning Category Trees For Id-based Recommendation Exploring The Power Of Differentiable Vector Quantization</h1>
   <h5>Liu Qijiong, Fan Lu, Xiao Jiaren, Zhu Jieming, Wu Xiao-ming. Arxiv 2023</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2308.16761" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Learning Category Trees For Id-based Recommendation Exploring The Power Of Differentiable Vector Quantization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Learning Category Trees For Id-based Recommendation Exploring The Power Of Differentiable Vector Quantization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Learning%20Category%20Trees%20For%20Id-based%20Recommendation%20Exploring%20The%20Power%20Of%20Differentiable%20Vector%20Quantization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Learning%20Category%20Trees%20For%20Id-based%20Recommendation%20Exploring%20The%20Power%20Of%20Differentiable%20Vector%20Quantization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
-      <tag><a href="/tags.html#Quantisation">Quantisation</a></tag>
+      <span class="tag"><a href="/tags.html#Quantisation">Quantisation</a></span>
     
   </p>
+  
   <p><p>Category information plays a crucial role in enhancing the quality and personalization of recommender systems. Nevertheless, the availability of item category information is not consistently present, particularly in the context of ID-based recommendations. In this work, we propose a novel approach to automatically learn and generate entity (i.e., user or item) category trees for ID-based recommendation. Specifically, we devise a differentiable vector quantization framework for automatic category tree generation, namely CAGE, which enables the simultaneous learning and refinement of categorical code representations and entity embeddings in an end-to-end manner, starting from the randomly initialized states. With its high adaptability, CAGE can be easily integrated into both sequential and non-sequential recommender systems. We validate the effectiveness of CAGE on various recommendation tasks including list completion, collaborative filtering, and click-through rate prediction, across different recommendation models. We release the code and data for others to reproduce the reported results.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/liu2023learning.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/liu2023learning.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

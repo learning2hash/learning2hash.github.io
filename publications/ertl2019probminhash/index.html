@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/ertl2019probminhash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Probminhash – A Class Of Locality-sensitive Hash Algorithms For The (probability) Jaccard Similarity" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"The probability Jaccard similarity was recently proposed as a natural generalization of the Jaccard similarity to measure the proximity of sets whose elements are associated with relative frequencies or probabilities. In combination with a hash algorithm that maps those weighted sets to compact signatures which allow fast estimation of pairwise similarities, it constitutes a valuable method for big data applications such as near-duplicate detection, nearest neighbor search, or clustering. This paper introduces a class of one-pass locality-sensitive hash algorithms that are orders of magnitude faster than the original approach. The performance gain is achieved by calculating signature components not independently, but collectively. Four different algorithms are proposed based on this idea. Two of them are statistically equivalent to the original approach and can be used as drop-in replacements. The other two may even improve the estimation error by introducing statistical dependence between signature components. Moreover, the presented techniques can be specialized for the conventional Jaccard similarity, resulting in highly efficient algorithms that outperform traditional minwise hashing and that are able to compete with the state of the art.","headline":"Probminhash – A Class Of Locality-sensitive Hash Algorithms For The (probability) Jaccard Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ertl2019probminhash/"},"url":"https://learning2hash.github.io/publications/ertl2019probminhash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"The probability Jaccard similarity was recently proposed as a natural generalization of the Jaccard similarity to measure the proximity of sets whose elements are associated with relative frequencies or probabilities. In combination with a hash algorithm that maps those weighted sets to compact signatures which allow fast estimation of pairwise similarities, it constitutes a valuable method for big data applications such as near-duplicate detection, nearest neighbor search, or clustering. This paper introduces a class of one-pass locality-sensitive hash algorithms that are orders of magnitude faster than the original approach. The performance gain is achieved by calculating signature components not independently, but collectively. Four different algorithms are proposed based on this idea. Two of them are statistically equivalent to the original approach and can be used as drop-in replacements. The other two may even improve the estimation error by introducing statistical dependence between signature components. Moreover, the presented techniques can be specialized for the conventional Jaccard similarity, resulting in highly efficient algorithms that outperform traditional minwise hashing and that are able to compete with the state of the art.","headline":"Probminhash – A Class Of Locality-sensitive Hash Algorithms For The (probability) Jaccard Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ertl2019probminhash/"},"url":"https://learning2hash.github.io/publications/ertl2019probminhash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Probminhash -- A Class Of Locality-sensitive Hash Algorithms For The (probability) Jaccard Similarity</h1>
   <h5>Ertl Otmar. Arxiv 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1911.00675" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Probminhash -- A Class Of Locality-sensitive Hash Algorithms For The (probability) Jaccard Similarity' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Probminhash -- A Class Of Locality-sensitive Hash Algorithms For The (probability) Jaccard Similarity' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Probminhash%20--%20A%20Class%20Of%20Locality-sensitive%20Hash%20Algorithms%20For%20The%20(probability)%20Jaccard%20Similarity' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Probminhash%20--%20A%20Class%20Of%20Locality-sensitive%20Hash%20Algorithms%20For%20The%20(probability)%20Jaccard%20Similarity' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>The probability Jaccard similarity was recently proposed as a natural generalization of the Jaccard similarity to measure the proximity of sets whose elements are associated with relative frequencies or probabilities. In combination with a hash algorithm that maps those weighted sets to compact signatures which allow fast estimation of pairwise similarities, it constitutes a valuable method for big data applications such as near-duplicate detection, nearest neighbor search, or clustering. This paper introduces a class of one-pass locality-sensitive hash algorithms that are orders of magnitude faster than the original approach. The performance gain is achieved by calculating signature components not independently, but collectively. Four different algorithms are proposed based on this idea. Two of them are statistically equivalent to the original approach and can be used as drop-in replacements. The other two may even improve the estimation error by introducing statistical dependence between signature components. Moreover, the presented techniques can be specialized for the conventional Jaccard similarity, resulting in highly efficient algorithms that outperform traditional minwise hashing and that are able to compete with the state of the art.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/ertl2019probminhash.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/ertl2019probminhash.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

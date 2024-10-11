@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/fuentespineda2015sampled/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Sampled Weighted Min-hashing For Large-scale Topic Mining" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"We present Sampled Weighted Min-Hashing (SWMH), a randomized approach to automatically mine topics from large-scale corpora. SWMH generates multiple random partitions of the corpus vocabulary based on term co-occurrence and agglomerates highly overlapping inter-partition cells to produce the mined topics. While other approaches define a topic as a probabilistic distribution over a vocabulary, SWMH topics are ordered subsets of such vocabulary. Interestingly, the topics mined by SWMH underlie themes from the corpus at different levels of granularity. We extensively evaluate the meaningfulness of the mined topics both qualitatively and quantitatively on the NIPS (1.7 K documents), 20 Newsgroups (20 K), Reuters (800 K) and Wikipedia (4 M) corpora. Additionally, we compare the quality of SWMH with Online LDA topics for document representation in classification.","headline":"Sampled Weighted Min-hashing For Large-scale Topic Mining","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fuentespineda2015sampled/"},"url":"https://learning2hash.github.io/publications/fuentespineda2015sampled/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"We present Sampled Weighted Min-Hashing (SWMH), a randomized approach to automatically mine topics from large-scale corpora. SWMH generates multiple random partitions of the corpus vocabulary based on term co-occurrence and agglomerates highly overlapping inter-partition cells to produce the mined topics. While other approaches define a topic as a probabilistic distribution over a vocabulary, SWMH topics are ordered subsets of such vocabulary. Interestingly, the topics mined by SWMH underlie themes from the corpus at different levels of granularity. We extensively evaluate the meaningfulness of the mined topics both qualitatively and quantitatively on the NIPS (1.7 K documents), 20 Newsgroups (20 K), Reuters (800 K) and Wikipedia (4 M) corpora. Additionally, we compare the quality of SWMH with Online LDA topics for document representation in classification.","headline":"Sampled Weighted Min-hashing For Large-scale Topic Mining","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fuentespineda2015sampled/"},"url":"https://learning2hash.github.io/publications/fuentespineda2015sampled/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Sampled Weighted Min-hashing For Large-scale Topic Mining</h1>
   <h5>Fuentes-pineda Gibran, Meza-ruiz Ivan Vladimir. Arxiv 2015</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1509.01771" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Sampled Weighted Min-hashing For Large-scale Topic Mining' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Sampled Weighted Min-hashing For Large-scale Topic Mining' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Sampled%20Weighted%20Min-hashing%20For%20Large-scale%20Topic%20Mining' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Sampled%20Weighted%20Min-hashing%20For%20Large-scale%20Topic%20Mining' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>We present Sampled Weighted Min-Hashing (SWMH), a randomized approach to automatically mine topics from large-scale corpora. SWMH generates multiple random partitions of the corpus vocabulary based on term co-occurrence and agglomerates highly overlapping inter-partition cells to produce the mined topics. While other approaches define a topic as a probabilistic distribution over a vocabulary, SWMH topics are ordered subsets of such vocabulary. Interestingly, the topics mined by SWMH underlie themes from the corpus at different levels of granularity. We extensively evaluate the meaningfulness of the mined topics both qualitatively and quantitatively on the NIPS (1.7 K documents), 20 Newsgroups (20 K), Reuters (800 K) and Wikipedia (4 M) corpora. Additionally, we compare the quality of SWMH with Online LDA topics for document representation in classification.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/fuentespineda2015sampled.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/fuentespineda2015sampled.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

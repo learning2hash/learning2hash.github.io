@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/fountoulakis2010insertion/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="On The Insertion Time Of Cuckoo Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Cuckoo hashing is an efficient technique for creating large hash tables with high space utilization and guaranteed constant access times. There, each item can be placed in a location given by any one out of k different hash functions. In this paper we investigate further the random walk heuristic for inserting in an online fashion new items into the hash table. Provided that k &gt; 2 and that the number of items in the table is below (but arbitrarily close) to the theoretically achievable load threshold, we show a polylogarithmic bound for the maximum insertion time that holds with high probability.","headline":"On The Insertion Time Of Cuckoo Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fountoulakis2010insertion/"},"url":"https://learning2hash.github.io/publications/fountoulakis2010insertion/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Cuckoo hashing is an efficient technique for creating large hash tables with high space utilization and guaranteed constant access times. There, each item can be placed in a location given by any one out of k different hash functions. In this paper we investigate further the random walk heuristic for inserting in an online fashion new items into the hash table. Provided that k &gt; 2 and that the number of items in the table is below (but arbitrarily close) to the theoretically achievable load threshold, we show a polylogarithmic bound for the maximum insertion time that holds with high probability.","headline":"On The Insertion Time Of Cuckoo Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fountoulakis2010insertion/"},"url":"https://learning2hash.github.io/publications/fountoulakis2010insertion/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">On The Insertion Time Of Cuckoo Hashing</h1>
   <h5>Fountoulakis Nikolaos, Panagiotou Konstantinos, Steger Angelika. Arxiv 2010</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1006.1231" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=On The Insertion Time Of Cuckoo Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=On The Insertion Time Of Cuckoo Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=On%20The%20Insertion%20Time%20Of%20Cuckoo%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=On%20The%20Insertion%20Time%20Of%20Cuckoo%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>Cuckoo hashing is an efficient technique for creating large hash tables with high space utilization and guaranteed constant access times. There, each item can be placed in a location given by any one out of k different hash functions. In this paper we investigate further the random walk heuristic for inserting in an online fashion new items into the hash table. Provided that k &gt; 2 and that the number of items in the table is below (but arbitrarily close) to the theoretically achievable load threshold, we show a polylogarithmic bound for the maximum insertion time that holds with high probability.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/fountoulakis2010insertion.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/fountoulakis2010insertion.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

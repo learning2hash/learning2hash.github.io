@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/islam2024spatially/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Spatially Optimized Compact Deep Metric Learning Model For Similarity Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Spatial optimization is often overlooked in many computer vision tasks. Filters should be able to recognize the features of an object regardless of where it is in the image. Similarity search is a crucial task where spatial features decide an important output. The capacity of convolution to capture visual patterns across various locations is limited. In contrast to convolution, the involution kernel is dynamically created at each pixel based on the pixel value and parameters that have been learned. This study demonstrates that utilizing a single layer of involution feature extractor alongside a compact convolution model significantly enhances the performance of similarity search. Additionally, we improve predictions by using the GELU activation function rather than the ReLU. The negligible amount of weight parameters in involution with a compact model with better performance makes the model very useful in real-world implementations. Our proposed model is below 1 megabyte in size. We have experimented with our proposed methodology and other models on CIFAR-10, FashionMNIST, and MNIST datasets. Our proposed method outperforms across all three datasets.","headline":"Spatially Optimized Compact Deep Metric Learning Model For Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/islam2024spatially/"},"url":"https://learning2hash.github.io/publications/islam2024spatially/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Spatial optimization is often overlooked in many computer vision tasks. Filters should be able to recognize the features of an object regardless of where it is in the image. Similarity search is a crucial task where spatial features decide an important output. The capacity of convolution to capture visual patterns across various locations is limited. In contrast to convolution, the involution kernel is dynamically created at each pixel based on the pixel value and parameters that have been learned. This study demonstrates that utilizing a single layer of involution feature extractor alongside a compact convolution model significantly enhances the performance of similarity search. Additionally, we improve predictions by using the GELU activation function rather than the ReLU. The negligible amount of weight parameters in involution with a compact model with better performance makes the model very useful in real-world implementations. Our proposed model is below 1 megabyte in size. We have experimented with our proposed methodology and other models on CIFAR-10, FashionMNIST, and MNIST datasets. Our proposed method outperforms across all three datasets.","headline":"Spatially Optimized Compact Deep Metric Learning Model For Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/islam2024spatially/"},"url":"https://learning2hash.github.io/publications/islam2024spatially/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Spatially Optimized Compact Deep Metric Learning Model For Similarity Search</h1>
   <h5>Islam Md. Farhadul, Reza Md. Tanzim, Manab Meem Arafat, Mahin Mohammad Rakibul Hasan, Zabeen Sarah, Noor Jannatun. Arxiv 2024</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2404.06593" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Spatially Optimized Compact Deep Metric Learning Model For Similarity Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Spatially Optimized Compact Deep Metric Learning Model For Similarity Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Spatially%20Optimized%20Compact%20Deep%20Metric%20Learning%20Model%20For%20Similarity%20Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Spatially%20Optimized%20Compact%20Deep%20Metric%20Learning%20Model%20For%20Similarity%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>Spatial optimization is often overlooked in many computer vision tasks. Filters should be able to recognize the features of an object regardless of where it is in the image. Similarity search is a crucial task where spatial features decide an important output. The capacity of convolution to capture visual patterns across various locations is limited. In contrast to convolution, the involution kernel is dynamically created at each pixel based on the pixel value and parameters that have been learned. This study demonstrates that utilizing a single layer of involution feature extractor alongside a compact convolution model significantly enhances the performance of similarity search. Additionally, we improve predictions by using the GELU activation function rather than the ReLU. The negligible amount of weight parameters in involution with a compact model with better performance makes the model very useful in real-world implementations. Our proposed model is below 1 megabyte in size. We have experimented with our proposed methodology and other models on CIFAR-10, FashionMNIST, and MNIST datasets. Our proposed method outperforms across all three datasets.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/islam2024spatially.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/islam2024spatially.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

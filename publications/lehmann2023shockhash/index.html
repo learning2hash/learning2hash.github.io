@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/lehmann2023shockhash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Shockhash Near Optimal-space Minimal Perfect Hashing Beyond Brute-force" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"A minimal perfect hash function (MPHF) maps a set S of n keys to the first n integers without collisions. There is a lower bound of n*log(e)=1.44n bits needed to represent an MPHF. This can be reached by a brute-force algorithm that tries e^n hash function seeds in expectation and stores the first seed leading to an MPHF. The most space-efficient previous algorithms for constructing MPHFs all use such a brute-force approach as a basic building block. In this paper, we introduce ShockHash - Small, heavily overloaded cuckoo hash tables for minimal perfect hashing. ShockHash uses two hash functions h_0 and h_1, hoping for the existence of a function f : S-&gt;{0, 1} such that x -&gt; h_{f(x)}(x) is an MPHF on S. It then uses a 1-bit retrieval data structure to store f using n + o(n) bits. In graph terminology, ShockHash generates n-edge random graphs until stumbling on a pseudoforest - where each component contains as many edges as nodes. Using cuckoo hashing, ShockHash then derives an MPHF from the pseudoforest in linear time. We show that ShockHash needs to try only about (e/2)^n=1.359^n seeds in expectation. This reduces the space for storing the seed by roughly n bits (maintaining the asymptotically optimal space consumption) and speeds up construction by almost a factor of 2^n compared to brute-force. Bipartite ShockHash reduces the expected construction time again to 1.166^n by maintaining a pool of candidate hash functions and checking all possible pairs. ShockHash as a building block within the RecSplit framework can be constructed up to 3 orders of magnitude faster than competing approaches. It can build an MPHF for 10 million keys with 1.489 bits per key in about half an hour. When instead using ShockHash after an efficient k-perfect hash function, it achieves space usage similar to the best competitors, while being significantly faster to construct and query.","headline":"Shockhash Near Optimal-space Minimal Perfect Hashing Beyond Brute-force","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lehmann2023shockhash/"},"url":"https://learning2hash.github.io/publications/lehmann2023shockhash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"A minimal perfect hash function (MPHF) maps a set S of n keys to the first n integers without collisions. There is a lower bound of n*log(e)=1.44n bits needed to represent an MPHF. This can be reached by a brute-force algorithm that tries e^n hash function seeds in expectation and stores the first seed leading to an MPHF. The most space-efficient previous algorithms for constructing MPHFs all use such a brute-force approach as a basic building block. In this paper, we introduce ShockHash - Small, heavily overloaded cuckoo hash tables for minimal perfect hashing. ShockHash uses two hash functions h_0 and h_1, hoping for the existence of a function f : S-&gt;{0, 1} such that x -&gt; h_{f(x)}(x) is an MPHF on S. It then uses a 1-bit retrieval data structure to store f using n + o(n) bits. In graph terminology, ShockHash generates n-edge random graphs until stumbling on a pseudoforest - where each component contains as many edges as nodes. Using cuckoo hashing, ShockHash then derives an MPHF from the pseudoforest in linear time. We show that ShockHash needs to try only about (e/2)^n=1.359^n seeds in expectation. This reduces the space for storing the seed by roughly n bits (maintaining the asymptotically optimal space consumption) and speeds up construction by almost a factor of 2^n compared to brute-force. Bipartite ShockHash reduces the expected construction time again to 1.166^n by maintaining a pool of candidate hash functions and checking all possible pairs. ShockHash as a building block within the RecSplit framework can be constructed up to 3 orders of magnitude faster than competing approaches. It can build an MPHF for 10 million keys with 1.489 bits per key in about half an hour. When instead using ShockHash after an efficient k-perfect hash function, it achieves space usage similar to the best competitors, while being significantly faster to construct and query.","headline":"Shockhash Near Optimal-space Minimal Perfect Hashing Beyond Brute-force","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lehmann2023shockhash/"},"url":"https://learning2hash.github.io/publications/lehmann2023shockhash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Shockhash Near Optimal-space Minimal Perfect Hashing Beyond Brute-force</h1>
   <h5>Lehmann Hans-peter, Sanders Peter, Walzer Stefan. Arxiv 2023</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2310.14959" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Shockhash Near Optimal-space Minimal Perfect Hashing Beyond Brute-force' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Shockhash Near Optimal-space Minimal Perfect Hashing Beyond Brute-force' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Shockhash%20Near%20Optimal-space%20Minimal%20Perfect%20Hashing%20Beyond%20Brute-force' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Shockhash%20Near%20Optimal-space%20Minimal%20Perfect%20Hashing%20Beyond%20Brute-force' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Graph">Graph</a></tag>
+      <span class="tag"><a href="/tags.html#Graph">Graph</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>A minimal perfect hash function (MPHF) maps a set S of n keys to the first n integers without collisions. There is a lower bound of n*log(e)=1.44n bits needed to represent an MPHF. This can be reached by a brute-force algorithm that tries e^n hash function seeds in expectation and stores the first seed leading to an MPHF. The most space-efficient previous algorithms for constructing MPHFs all use such a brute-force approach as a basic building block. In this paper, we introduce ShockHash - Small, heavily overloaded cuckoo hash tables for minimal perfect hashing. ShockHash uses two hash functions h_0 and h_1, hoping for the existence of a function f : S-&gt;{0, 1} such that x -&gt; h_{f(x)}(x) is an MPHF on S. It then uses a 1-bit retrieval data structure to store f using n + o(n) bits. In graph terminology, ShockHash generates n-edge random graphs until stumbling on a pseudoforest - where each component contains as many edges as nodes. Using cuckoo hashing, ShockHash then derives an MPHF from the pseudoforest in linear time. We show that ShockHash needs to try only about (e/2)^n=1.359^n seeds in expectation. This reduces the space for storing the seed by roughly n bits (maintaining the asymptotically optimal space consumption) and speeds up construction by almost a factor of 2^n compared to brute-force. Bipartite ShockHash reduces the expected construction time again to 1.166^n by maintaining a pool of candidate hash functions and checking all possible pairs. ShockHash as a building block within the RecSplit framework can be constructed up to 3 orders of magnitude faster than competing approaches. It can build an MPHF for 10 million keys with 1.489 bits per key in about half an hour. When instead using ShockHash after an efficient k-perfect hash function, it achieves space usage similar to the best competitors, while being significantly faster to construct and query.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/lehmann2023shockhash.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/lehmann2023shockhash.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

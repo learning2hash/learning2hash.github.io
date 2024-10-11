@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/bengio2009group/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Group Sparse Coding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Bag-of-words document representations are often used in text, image and video processing. While it is relatively easy to determine a suitable word dictionary for text documents, there is no simple mapping from raw images or videos to dictionary terms. The classical approach builds a dictionary using vector quantization over a large set of useful visual descriptors extracted from a training set, and uses a nearest-neighbor algorithm to count the number of occurrences of each dictionary word in documents to be encoded. More robust approaches have been proposed recently that represent each visual descriptor as a sparse weighted combination of dictionary words. While favoring a sparse representation at the level of visual descriptors, those methods however do not ensure that images have sparse representation. In this work, we use mixed-norm regularization to achieve sparsity at the image level as well as a small overall dictionary. This approach can also be used to encourage using the same dictionary words for all the images in a class, providing a discriminative signal in the construction of image representations. Experimental results on a benchmark image classification dataset show that when compact image or dictionary representations are needed for computational efficiency, the proposed approach yields better mean average precision in classification.","headline":"Group Sparse Coding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bengio2009group/"},"url":"https://learning2hash.github.io/publications/bengio2009group/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Bag-of-words document representations are often used in text, image and video processing. While it is relatively easy to determine a suitable word dictionary for text documents, there is no simple mapping from raw images or videos to dictionary terms. The classical approach builds a dictionary using vector quantization over a large set of useful visual descriptors extracted from a training set, and uses a nearest-neighbor algorithm to count the number of occurrences of each dictionary word in documents to be encoded. More robust approaches have been proposed recently that represent each visual descriptor as a sparse weighted combination of dictionary words. While favoring a sparse representation at the level of visual descriptors, those methods however do not ensure that images have sparse representation. In this work, we use mixed-norm regularization to achieve sparsity at the image level as well as a small overall dictionary. This approach can also be used to encourage using the same dictionary words for all the images in a class, providing a discriminative signal in the construction of image representations. Experimental results on a benchmark image classification dataset show that when compact image or dictionary representations are needed for computational efficiency, the proposed approach yields better mean average precision in classification.","headline":"Group Sparse Coding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bengio2009group/"},"url":"https://learning2hash.github.io/publications/bengio2009group/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Group Sparse Coding</h1>
   <h5>Samy Bengio, Fernando Pereira, Yoram Singer, Dennis Strelow. Neural Information Processing Systems 2009</h5>
+  
   <p>
     
       [<a href="https://papers.nips.cc/paper/2009/hash/3b3dbaf68507998acd6a5a5254ab2d76-Abstract.html" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Group Sparse Coding' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Group Sparse Coding' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Group%20Sparse%20Coding' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Group%20Sparse%20Coding' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#NEURIPS">NEURIPS</a></tag>
+      <span class="tag"><a href="/tags.html#NEURIPS">NEURIPS</a></span>
     
-      <tag><a href="/tags.html#Quantisation">Quantisation</a></tag>
+      <span class="tag"><a href="/tags.html#Quantisation">Quantisation</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>Bag-of-words document representations are often used in text, image and video processing. While it is relatively easy to determine a suitable word dictionary for text documents, there is no simple mapping from raw images or videos to dictionary terms. The classical approach builds a dictionary using vector quantization over a large set of useful visual descriptors extracted from a training set, and uses a nearest-neighbor algorithm to count the number of occurrences of each dictionary word in documents to be encoded. More robust approaches have been proposed recently that represent each visual descriptor as a sparse weighted combination of dictionary words. While favoring a sparse representation at the level of visual descriptors, those methods however do not ensure that images have sparse representation. In this work, we use mixed-norm regularization to achieve sparsity at the image level as well as a small overall dictionary. This approach can also be used to encourage using the same dictionary words for all the images in a class, providing a discriminative signal in the construction of image representations. Experimental results on a benchmark image classification dataset show that when compact image or dictionary representations are needed for computational efficiency, the proposed approach yields better mean average precision in classification.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/bengio2009group.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/bengio2009group.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

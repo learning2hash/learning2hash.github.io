@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/dong2021ash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="ASH A Modern Framework For Parallel Spatial Hashing In 3D Perception" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"We present ASH, a modern and high-performance framework for parallel spatial hashing on GPU. Compared to existing GPU hash map implementations, ASH achieves higher performance, supports richer functionality, and requires fewer lines of code (LoC) when used for implementing spatially varying operations from volumetric geometry reconstruction to differentiable appearance reconstruction. Unlike existing GPU hash maps, the ASH framework provides a versatile tensor interface, hiding low-level details from the users. In addition, by decoupling the internal hashing data structures and key-value data in buffers, we offer direct access to spatially varying data via indices, enabling seamless integration to modern libraries such as PyTorch. To achieve this, we 1) detach stored key-value data from the low-level hash map implementation; 2) bridge the pointer-first low level data structures to index-first high-level tensor interfaces via an index heap; 3) adapt both generic and non-generic integer-only hash map implementations as backends to operate on multi-dimensional keys. We first profile our hash map against state-of-the-art hash maps on synthetic data to show the performance gain from this architecture. We then show that ASH can consistently achieve higher performance on various large-scale 3D perception tasks with fewer LoC by showcasing several applications, including 1) point cloud voxelization, 2) retargetable volumetric scene reconstruction, 3) non-rigid point cloud registration and volumetric deformation, and 4) spatially varying geometry and appearance refinement. ASH and its example applications are open sourced in Open3D (http://www.open3d.org).","headline":"ASH A Modern Framework For Parallel Spatial Hashing In 3D Perception","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2021ash/"},"url":"https://learning2hash.github.io/publications/dong2021ash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"We present ASH, a modern and high-performance framework for parallel spatial hashing on GPU. Compared to existing GPU hash map implementations, ASH achieves higher performance, supports richer functionality, and requires fewer lines of code (LoC) when used for implementing spatially varying operations from volumetric geometry reconstruction to differentiable appearance reconstruction. Unlike existing GPU hash maps, the ASH framework provides a versatile tensor interface, hiding low-level details from the users. In addition, by decoupling the internal hashing data structures and key-value data in buffers, we offer direct access to spatially varying data via indices, enabling seamless integration to modern libraries such as PyTorch. To achieve this, we 1) detach stored key-value data from the low-level hash map implementation; 2) bridge the pointer-first low level data structures to index-first high-level tensor interfaces via an index heap; 3) adapt both generic and non-generic integer-only hash map implementations as backends to operate on multi-dimensional keys. We first profile our hash map against state-of-the-art hash maps on synthetic data to show the performance gain from this architecture. We then show that ASH can consistently achieve higher performance on various large-scale 3D perception tasks with fewer LoC by showcasing several applications, including 1) point cloud voxelization, 2) retargetable volumetric scene reconstruction, 3) non-rigid point cloud registration and volumetric deformation, and 4) spatially varying geometry and appearance refinement. ASH and its example applications are open sourced in Open3D (http://www.open3d.org).","headline":"ASH A Modern Framework For Parallel Spatial Hashing In 3D Perception","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2021ash/"},"url":"https://learning2hash.github.io/publications/dong2021ash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">ASH A Modern Framework For Parallel Spatial Hashing In 3D Perception</h1>
   <h5>Dong Wei, Lao Yixing, Kaess Michael, Koltun Vladlen. Arxiv 2021</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2110.00511" target="_blank">Paper</a>]
     
       [<a href="http://www.open3d.org)" target="_blank">Code</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=ASH A Modern Framework For Parallel Spatial Hashing In 3D Perception' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=ASH A Modern Framework For Parallel Spatial Hashing In 3D Perception' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=ASH%20A%20Modern%20Framework%20For%20Parallel%20Spatial%20Hashing%20In%203D%20Perception' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=ASH%20A%20Modern%20Framework%20For%20Parallel%20Spatial%20Hashing%20In%203D%20Perception' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Has Code">Has Code</a></tag>
+      <span class="tag"><a href="/tags.html#Has Code">Has Code</a></span>
     
   </p>
+  
   <p><p>We present ASH, a modern and high-performance framework for parallel spatial hashing on GPU. Compared to existing GPU hash map implementations, ASH achieves higher performance, supports richer functionality, and requires fewer lines of code (LoC) when used for implementing spatially varying operations from volumetric geometry reconstruction to differentiable appearance reconstruction. Unlike existing GPU hash maps, the ASH framework provides a versatile tensor interface, hiding low-level details from the users. In addition, by decoupling the internal hashing data structures and key-value data in buffers, we offer direct access to spatially varying data via indices, enabling seamless integration to modern libraries such as PyTorch. To achieve this, we 1) detach stored key-value data from the low-level hash map implementation; 2) bridge the pointer-first low level data structures to index-first high-level tensor interfaces via an index heap; 3) adapt both generic and non-generic integer-only hash map implementations as backends to operate on multi-dimensional keys. We first profile our hash map against state-of-the-art hash maps on synthetic data to show the performance gain from this architecture. We then show that ASH can consistently achieve higher performance on various large-scale 3D perception tasks with fewer LoC by showcasing several applications, including 1) point cloud voxelization, 2) retargetable volumetric scene reconstruction, 3) non-rigid point cloud registration and volumetric deformation, and 4) spatially varying geometry and appearance refinement. ASH and its example applications are open sourced in Open3D (http://www.open3d.org).</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/dong2021ash.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/dong2021ash.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

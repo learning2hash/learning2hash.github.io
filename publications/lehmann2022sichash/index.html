@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/lehmann2022sichash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Sichash – Small Irregular Cuckoo Tables For Perfect Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"A Perfect Hash Function (PHF) is a hash function that has no collisions on a given input set. PHFs can be used for space efficient storage of data in an array, or for determining a compact representative of each object in the set. In this paper, we present the PHF construction algorithm SicHash - Small Irregular Cuckoo Tables for Perfect Hashing. At its core, SicHash uses a known technique: It places objects in a cuckoo hash table and then stores the final hash function choice of each object in a retrieval data structure. We combine the idea with irregular cuckoo hashing, where each object has a different number of hash functions. Additionally, we use many small tables that we overload beyond their asymptotic maximum load factor. The most space efficient competitors often use brute force methods to determine the PHFs. SicHash provides a more direct construction algorithm that only rarely needs to recompute parts. Our implementation improves the state of the art in terms of space usage versus construction time for a wide range of configurations. At the same time, it provides very fast queries.","headline":"Sichash – Small Irregular Cuckoo Tables For Perfect Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lehmann2022sichash/"},"url":"https://learning2hash.github.io/publications/lehmann2022sichash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"A Perfect Hash Function (PHF) is a hash function that has no collisions on a given input set. PHFs can be used for space efficient storage of data in an array, or for determining a compact representative of each object in the set. In this paper, we present the PHF construction algorithm SicHash - Small Irregular Cuckoo Tables for Perfect Hashing. At its core, SicHash uses a known technique: It places objects in a cuckoo hash table and then stores the final hash function choice of each object in a retrieval data structure. We combine the idea with irregular cuckoo hashing, where each object has a different number of hash functions. Additionally, we use many small tables that we overload beyond their asymptotic maximum load factor. The most space efficient competitors often use brute force methods to determine the PHFs. SicHash provides a more direct construction algorithm that only rarely needs to recompute parts. Our implementation improves the state of the art in terms of space usage versus construction time for a wide range of configurations. At the same time, it provides very fast queries.","headline":"Sichash – Small Irregular Cuckoo Tables For Perfect Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lehmann2022sichash/"},"url":"https://learning2hash.github.io/publications/lehmann2022sichash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Sichash -- Small Irregular Cuckoo Tables For Perfect Hashing</h1>
   <h5>Lehmann Hans-peter, Sanders Peter, Walzer Stefan. Arxiv 2022</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2210.01560" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Sichash -- Small Irregular Cuckoo Tables For Perfect Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Sichash -- Small Irregular Cuckoo Tables For Perfect Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Sichash%20--%20Small%20Irregular%20Cuckoo%20Tables%20For%20Perfect%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Sichash%20--%20Small%20Irregular%20Cuckoo%20Tables%20For%20Perfect%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>A Perfect Hash Function (PHF) is a hash function that has no collisions on a given input set. PHFs can be used for space efficient storage of data in an array, or for determining a compact representative of each object in the set. In this paper, we present the PHF construction algorithm SicHash - Small Irregular Cuckoo Tables for Perfect Hashing. At its core, SicHash uses a known technique: It places objects in a cuckoo hash table and then stores the final hash function choice of each object in a retrieval data structure. We combine the idea with irregular cuckoo hashing, where each object has a different number of hash functions. Additionally, we use many small tables that we overload beyond their asymptotic maximum load factor. The most space efficient competitors often use brute force methods to determine the PHFs. SicHash provides a more direct construction algorithm that only rarely needs to recompute parts. Our implementation improves the state of the art in terms of space usage versus construction time for a wide range of configurations. At the same time, it provides very fast queries.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/lehmann2022sichash.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/lehmann2022sichash.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

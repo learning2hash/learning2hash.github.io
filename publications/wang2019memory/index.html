@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2019memory/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Memory-efficient Sketch Method For Estimating High Similarities In Streaming Sets" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Estimating set similarity and detecting highly similar sets are fundamental problems in areas such as databases, machine learning, and information retrieval. MinHash is a well-known technique for approximating Jaccard similarity of sets and has been successfully used for many applications such as similarity search and large scale learning. Its two compressed versions, b-bit MinHash and Odd Sketch, can significantly reduce the memory usage of the original MinHash method, especially for estimating high similarities (i.e., similarities around 1). Although MinHash can be applied to static sets as well as streaming sets, of which elements are given in a streaming fashion and cardinality is unknown or even infinite, unfortunately, b-bit MinHash and Odd Sketch fail to deal with streaming data. To solve this problem, we design a memory efficient sketch method, MaxLogHash, to accurately estimate Jaccard similarities in streaming sets. Compared to MinHash, our method uses smaller sized registers (each register consists of less than 7 bits) to build a compact sketch for each set. We also provide a simple yet accurate estimator for inferring Jaccard similarity from MaxLogHash sketches. In addition, we derive formulas for bounding the estimation error and determine the smallest necessary memory usage (i.e., the number of registers used for a MaxLogHash sketch) for the desired accuracy. We conduct experiments on a variety of datasets, and experimental results show that our method MaxLogHash is about 5 times more memory efficient than MinHash with the same accuracy and computational cost for estimating high similarities.","headline":"A Memory-efficient Sketch Method For Estimating High Similarities In Streaming Sets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2019memory/"},"url":"https://learning2hash.github.io/publications/wang2019memory/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Estimating set similarity and detecting highly similar sets are fundamental problems in areas such as databases, machine learning, and information retrieval. MinHash is a well-known technique for approximating Jaccard similarity of sets and has been successfully used for many applications such as similarity search and large scale learning. Its two compressed versions, b-bit MinHash and Odd Sketch, can significantly reduce the memory usage of the original MinHash method, especially for estimating high similarities (i.e., similarities around 1). Although MinHash can be applied to static sets as well as streaming sets, of which elements are given in a streaming fashion and cardinality is unknown or even infinite, unfortunately, b-bit MinHash and Odd Sketch fail to deal with streaming data. To solve this problem, we design a memory efficient sketch method, MaxLogHash, to accurately estimate Jaccard similarities in streaming sets. Compared to MinHash, our method uses smaller sized registers (each register consists of less than 7 bits) to build a compact sketch for each set. We also provide a simple yet accurate estimator for inferring Jaccard similarity from MaxLogHash sketches. In addition, we derive formulas for bounding the estimation error and determine the smallest necessary memory usage (i.e., the number of registers used for a MaxLogHash sketch) for the desired accuracy. We conduct experiments on a variety of datasets, and experimental results show that our method MaxLogHash is about 5 times more memory efficient than MinHash with the same accuracy and computational cost for estimating high similarities.","headline":"A Memory-efficient Sketch Method For Estimating High Similarities In Streaming Sets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2019memory/"},"url":"https://learning2hash.github.io/publications/wang2019memory/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">A Memory-efficient Sketch Method For Estimating High Similarities In Streaming Sets</h1>
   <h5>Wang Pinghui, Qi Yiyan, Zhang Yuanming, Zhai Qiaozhu, Wang Chenxu, Lui John C. S., Guan Xiaohong. Arxiv 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1905.08977" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=A Memory-efficient Sketch Method For Estimating High Similarities In Streaming Sets' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=A Memory-efficient Sketch Method For Estimating High Similarities In Streaming Sets' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=A%20Memory-efficient%20Sketch%20Method%20For%20Estimating%20High%20Similarities%20In%20Streaming%20Sets' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=A%20Memory-efficient%20Sketch%20Method%20For%20Estimating%20High%20Similarities%20In%20Streaming%20Sets' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
-      <tag><a href="/tags.html#Streaming Data">Streaming Data</a></tag>
+      <span class="tag"><a href="/tags.html#Streaming Data">Streaming Data</a></span>
     
   </p>
+  
   <p><p>Estimating set similarity and detecting highly similar sets are fundamental problems in areas such as databases, machine learning, and information retrieval. MinHash is a well-known technique for approximating Jaccard similarity of sets and has been successfully used for many applications such as similarity search and large scale learning. Its two compressed versions, b-bit MinHash and Odd Sketch, can significantly reduce the memory usage of the original MinHash method, especially for estimating high similarities (i.e., similarities around 1). Although MinHash can be applied to static sets as well as streaming sets, of which elements are given in a streaming fashion and cardinality is unknown or even infinite, unfortunately, b-bit MinHash and Odd Sketch fail to deal with streaming data. To solve this problem, we design a memory efficient sketch method, MaxLogHash, to accurately estimate Jaccard similarities in streaming sets. Compared to MinHash, our method uses smaller sized registers (each register consists of less than 7 bits) to build a compact sketch for each set. We also provide a simple yet accurate estimator for inferring Jaccard similarity from MaxLogHash sketches. In addition, we derive formulas for bounding the estimation error and determine the smallest necessary memory usage (i.e., the number of registers used for a MaxLogHash sketch) for the desired accuracy. We conduct experiments on a variety of datasets, and experimental results show that our method MaxLogHash is about 5 times more memory efficient than MinHash with the same accuracy and computational cost for estimating high similarities.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/wang2019memory.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/wang2019memory.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/bachmann2019superm/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The Superm-tree Indexing Metric Spaces With Sized Objects" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"A common approach to implementing similarity search applications is the usage of distance functions, where small distances indicate high similarity. In the case of metric distance functions, metric index structures can be used to accelerate nearest neighbor queries. On the other hand, many applications ask for approximate subsequences or subsets, e.g. searching for a similar partial sequence of a gene, for a similar scene in a movie, or for a similar object in a picture which is represented by a set of multidimensional features. Metric index structures such as the M-Tree cannot be utilized for these tasks because of the symmetry of the metric distance functions. In this work, we propose the SuperM-Tree as an extension of the M-Tree where approximate subsequence and subset queries become nearest neighbor queries. In order to do this, we introduce metric subset spaces as a generalized concept of metric spaces. Various metric distance functions can be extended to metric subset distance functions, e.g. the Euclidean distance (on windows), the Hausdorff distance (on subsets), the Edit distance and the Dog-Keeper distance (on subsequences). We show that these examples subsume the applications mentioned above.","headline":"The Superm-tree Indexing Metric Spaces With Sized Objects","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bachmann2019superm/"},"url":"https://learning2hash.github.io/publications/bachmann2019superm/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"A common approach to implementing similarity search applications is the usage of distance functions, where small distances indicate high similarity. In the case of metric distance functions, metric index structures can be used to accelerate nearest neighbor queries. On the other hand, many applications ask for approximate subsequences or subsets, e.g. searching for a similar partial sequence of a gene, for a similar scene in a movie, or for a similar object in a picture which is represented by a set of multidimensional features. Metric index structures such as the M-Tree cannot be utilized for these tasks because of the symmetry of the metric distance functions. In this work, we propose the SuperM-Tree as an extension of the M-Tree where approximate subsequence and subset queries become nearest neighbor queries. In order to do this, we introduce metric subset spaces as a generalized concept of metric spaces. Various metric distance functions can be extended to metric subset distance functions, e.g. the Euclidean distance (on windows), the Hausdorff distance (on subsets), the Edit distance and the Dog-Keeper distance (on subsequences). We show that these examples subsume the applications mentioned above.","headline":"The Superm-tree Indexing Metric Spaces With Sized Objects","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bachmann2019superm/"},"url":"https://learning2hash.github.io/publications/bachmann2019superm/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">The Superm-tree Indexing Metric Spaces With Sized Objects</h1>
   <h5>Bachmann Jörg P.. Arxiv 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1901.11453" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=The Superm-tree Indexing Metric Spaces With Sized Objects' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=The Superm-tree Indexing Metric Spaces With Sized Objects' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=The%20Superm-tree%20Indexing%20Metric%20Spaces%20With%20Sized%20Objects' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=The%20Superm-tree%20Indexing%20Metric%20Spaces%20With%20Sized%20Objects' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>A common approach to implementing similarity search applications is the usage of distance functions, where small distances indicate high similarity. In the case of metric distance functions, metric index structures can be used to accelerate nearest neighbor queries. On the other hand, many applications ask for approximate subsequences or subsets, e.g. searching for a similar partial sequence of a gene, for a similar scene in a movie, or for a similar object in a picture which is represented by a set of multidimensional features. Metric index structures such as the M-Tree cannot be utilized for these tasks because of the symmetry of the metric distance functions. In this work, we propose the SuperM-Tree as an extension of the M-Tree where approximate subsequence and subset queries become nearest neighbor queries. In order to do this, we introduce metric subset spaces as a generalized concept of metric spaces. Various metric distance functions can be extended to metric subset distance functions, e.g. the Euclidean distance (on windows), the Hausdorff distance (on subsets), the Edit distance and the Dog-Keeper distance (on subsequences). We show that these examples subsume the applications mentioned above.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/bachmann2019superm.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/bachmann2019superm.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/kanizo2010maximum/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Maximum Bipartite Matching Size And Application To Cuckoo Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Cuckoo hashing with a stash is a robust multiple choice hashing scheme with high memory utilization that can be used in many network device applications. Unfortunately, for memory loads beyond 0.5, little is known on its performance. In this paper, we analyze its average performance over such loads. We tackle this problem by recasting the problem as an analysis of the expected maximum matching size of a given random bipartite graph. We provide exact results for any finite system, and also deduce asymptotic results as the memory size increases. We further consider other variants of this problem, and finally evaluate the performance of our models on Internet backbone traces. More generally, our results give a tight lower bound on the size of the stash needed for any multiple-choice hashing scheme.","headline":"Maximum Bipartite Matching Size And Application To Cuckoo Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kanizo2010maximum/"},"url":"https://learning2hash.github.io/publications/kanizo2010maximum/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Cuckoo hashing with a stash is a robust multiple choice hashing scheme with high memory utilization that can be used in many network device applications. Unfortunately, for memory loads beyond 0.5, little is known on its performance. In this paper, we analyze its average performance over such loads. We tackle this problem by recasting the problem as an analysis of the expected maximum matching size of a given random bipartite graph. We provide exact results for any finite system, and also deduce asymptotic results as the memory size increases. We further consider other variants of this problem, and finally evaluate the performance of our models on Internet backbone traces. More generally, our results give a tight lower bound on the size of the stash needed for any multiple-choice hashing scheme.","headline":"Maximum Bipartite Matching Size And Application To Cuckoo Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kanizo2010maximum/"},"url":"https://learning2hash.github.io/publications/kanizo2010maximum/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Maximum Bipartite Matching Size And Application To Cuckoo Hashing</h1>
   <h5>Kanizo Yossi, Hay David, Keslassy Isaac. Arxiv 2010</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1007.1946" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Maximum Bipartite Matching Size And Application To Cuckoo Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Maximum Bipartite Matching Size And Application To Cuckoo Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Maximum%20Bipartite%20Matching%20Size%20And%20Application%20To%20Cuckoo%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Maximum%20Bipartite%20Matching%20Size%20And%20Application%20To%20Cuckoo%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Graph">Graph</a></tag>
+      <span class="tag"><a href="/tags.html#Graph">Graph</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>Cuckoo hashing with a stash is a robust multiple choice hashing scheme with high memory utilization that can be used in many network device applications. Unfortunately, for memory loads beyond 0.5, little is known on its performance. In this paper, we analyze its average performance over such loads. We tackle this problem by recasting the problem as an analysis of the expected maximum matching size of a given random bipartite graph. We provide exact results for any finite system, and also deduce asymptotic results as the memory size increases. We further consider other variants of this problem, and finally evaluate the performance of our models on Internet backbone traces. More generally, our results give a tight lower bound on the size of the stash needed for any multiple-choice hashing scheme.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/kanizo2010maximum.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/kanizo2010maximum.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

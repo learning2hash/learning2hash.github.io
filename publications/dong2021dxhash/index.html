@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/dong2021dxhash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Dxhash A Scalable Consistent Hash Based On The Pseudo-random Sequence" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Consistent hashing (CH) has been pivotal as a data router and load balancer in diverse fields, including distributed databases, cloud infrastructure, and peer-to-peer networks. However, existing CH algorithms often fall short in simultaneously meeting various critical requirements, such as load balance, minimal disruption, statelessness, high lookup rate, small memory footprint, and low update overhead. To address these limitations, we introduce DxHash, a scalable consistent hashing algorithm based on pseudo-random sequences. To adjust workloads on heterogeneous nodes and enhance flexibility, we propose weighted DxHash. Through comprehensive evaluations, DxHash demonstrates substantial improvements across all six requirements compared to state-of-the-art alternatives. Notably, even when confronted with a 50% failure ratio in a cluster of one million nodes, DxHash maintains remarkable processing capabilities, handling up to 13.3 million queries per second.","headline":"Dxhash A Scalable Consistent Hash Based On The Pseudo-random Sequence","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2021dxhash/"},"url":"https://learning2hash.github.io/publications/dong2021dxhash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Consistent hashing (CH) has been pivotal as a data router and load balancer in diverse fields, including distributed databases, cloud infrastructure, and peer-to-peer networks. However, existing CH algorithms often fall short in simultaneously meeting various critical requirements, such as load balance, minimal disruption, statelessness, high lookup rate, small memory footprint, and low update overhead. To address these limitations, we introduce DxHash, a scalable consistent hashing algorithm based on pseudo-random sequences. To adjust workloads on heterogeneous nodes and enhance flexibility, we propose weighted DxHash. Through comprehensive evaluations, DxHash demonstrates substantial improvements across all six requirements compared to state-of-the-art alternatives. Notably, even when confronted with a 50% failure ratio in a cluster of one million nodes, DxHash maintains remarkable processing capabilities, handling up to 13.3 million queries per second.","headline":"Dxhash A Scalable Consistent Hash Based On The Pseudo-random Sequence","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2021dxhash/"},"url":"https://learning2hash.github.io/publications/dong2021dxhash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Dxhash A Scalable Consistent Hash Based On The Pseudo-random Sequence</h1>
   <h5>Dong Chao, Wang Fang, Feng Dan. Arxiv 2021</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2107.07930" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Dxhash A Scalable Consistent Hash Based On The Pseudo-random Sequence' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Dxhash A Scalable Consistent Hash Based On The Pseudo-random Sequence' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Dxhash%20A%20Scalable%20Consistent%20Hash%20Based%20On%20The%20Pseudo-random%20Sequence' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Dxhash%20A%20Scalable%20Consistent%20Hash%20Based%20On%20The%20Pseudo-random%20Sequence' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Cross Modal">Cross Modal</a></tag>
+      <span class="tag"><a href="/tags.html#Cross Modal">Cross Modal</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>Consistent hashing (CH) has been pivotal as a data router and load balancer in diverse fields, including distributed databases, cloud infrastructure, and peer-to-peer networks. However, existing CH algorithms often fall short in simultaneously meeting various critical requirements, such as load balance, minimal disruption, statelessness, high lookup rate, small memory footprint, and low update overhead. To address these limitations, we introduce DxHash, a scalable consistent hashing algorithm based on pseudo-random sequences. To adjust workloads on heterogeneous nodes and enhance flexibility, we propose weighted DxHash. Through comprehensive evaluations, DxHash demonstrates substantial improvements across all six requirements compared to state-of-the-art alternatives. Notably, even when confronted with a 50% failure ratio in a cluster of one million nodes, DxHash maintains remarkable processing capabilities, handling up to 13.3 million queries per second.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/dong2021dxhash.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/dong2021dxhash.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/izadinia2018viser/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="VISER Visual Self-regularization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"In this work, we propose the use of large set of unlabeled images as a source of regularization data for learning robust visual representation. Given a visual model trained by a labeled dataset in a supervised fashion, we augment our training samples by incorporating large number of unlabeled data and train a semi-supervised model. We demonstrate that our proposed learning approach leverages an abundance of unlabeled images and boosts the visual recognition performance which alleviates the need to rely on large labeled datasets for learning robust representation. To increment the number of image instances needed to learn robust visual models in our approach, each labeled image propagates its label to its nearest unlabeled image instances. These retrieved unlabeled images serve as local perturbations of each labeled image to perform Visual Self-Regularization (VISER). To retrieve such visual self regularizers, we compute the cosine similarity in a semantic space defined by the penultimate layer in a fully convolutional neural network. We use the publicly available Yahoo Flickr Creative Commons 100M dataset as the source of our unlabeled image set and propose a distributed approximate nearest neighbor algorithm to make retrieval practical at that scale. Using the labeled instances and their regularizer samples we show that we significantly improve object categorization and localization performance on the MS COCO and Visual Genome datasets where objects appear in context.","headline":"VISER Visual Self-regularization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/izadinia2018viser/"},"url":"https://learning2hash.github.io/publications/izadinia2018viser/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"In this work, we propose the use of large set of unlabeled images as a source of regularization data for learning robust visual representation. Given a visual model trained by a labeled dataset in a supervised fashion, we augment our training samples by incorporating large number of unlabeled data and train a semi-supervised model. We demonstrate that our proposed learning approach leverages an abundance of unlabeled images and boosts the visual recognition performance which alleviates the need to rely on large labeled datasets for learning robust representation. To increment the number of image instances needed to learn robust visual models in our approach, each labeled image propagates its label to its nearest unlabeled image instances. These retrieved unlabeled images serve as local perturbations of each labeled image to perform Visual Self-Regularization (VISER). To retrieve such visual self regularizers, we compute the cosine similarity in a semantic space defined by the penultimate layer in a fully convolutional neural network. We use the publicly available Yahoo Flickr Creative Commons 100M dataset as the source of our unlabeled image set and propose a distributed approximate nearest neighbor algorithm to make retrieval practical at that scale. Using the labeled instances and their regularizer samples we show that we significantly improve object categorization and localization performance on the MS COCO and Visual Genome datasets where objects appear in context.","headline":"VISER Visual Self-regularization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/izadinia2018viser/"},"url":"https://learning2hash.github.io/publications/izadinia2018viser/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">VISER Visual Self-regularization</h1>
   <h5>Izadinia Hamid, Garrigues Pierre. Arxiv 2018</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1802.02568" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=VISER Visual Self-regularization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=VISER Visual Self-regularization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=VISER%20Visual%20Self-regularization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=VISER%20Visual%20Self-regularization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>In this work, we propose the use of large set of unlabeled images as a source of regularization data for learning robust visual representation. Given a visual model trained by a labeled dataset in a supervised fashion, we augment our training samples by incorporating large number of unlabeled data and train a semi-supervised model. We demonstrate that our proposed learning approach leverages an abundance of unlabeled images and boosts the visual recognition performance which alleviates the need to rely on large labeled datasets for learning robust representation. To increment the number of image instances needed to learn robust visual models in our approach, each labeled image propagates its label to its nearest unlabeled image instances. These retrieved unlabeled images serve as local perturbations of each labeled image to perform Visual Self-Regularization (VISER). To retrieve such visual self regularizers, we compute the cosine similarity in a semantic space defined by the penultimate layer in a fully convolutional neural network. We use the publicly available Yahoo Flickr Creative Commons 100M dataset as the source of our unlabeled image set and propose a distributed approximate nearest neighbor algorithm to make retrieval practical at that scale. Using the labeled instances and their regularizer samples we show that we significantly improve object categorization and localization performance on the MS COCO and Visual Genome datasets where objects appear in context.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/izadinia2018viser.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/izadinia2018viser.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

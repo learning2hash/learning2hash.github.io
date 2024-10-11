@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/lin2019hadamard/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hadamard Matrix Guided Online Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Online image hashing has attracted increasing research attention recently, which receives large-scale data in a streaming manner to update the hash functions on-the-fly. Its key challenge lies in the difficulty of balancing the learning timeliness and model accuracy. To this end, most works follow a supervised setting, i.e., using class labels to boost the hashing performance, which defects in two aspects: First, strong constraints, e.g., orthogonal or similarity preserving, are used, which however are typically relaxed and lead to large accuracy drop. Second, large amounts of training batches are required to learn the up-to-date hash functions, which largely increase the learning complexity. To handle the above challenges, a novel supervised online hashing scheme termed Hadamard Matrix Guided Online Hashing (HMOH) is proposed in this paper. Our key innovation lies in introducing Hadamard matrix, which is an orthogonal binary matrix built via Sylvester method. In particular, to release the need of strong constraints, we regard each column of Hadamard matrix as the target code for each class label, which by nature satisfies several desired properties of hashing codes. To accelerate the online training, LSH is first adopted to align the lengths of target code and to-be-learned binary code. We then treat the learning of hash functions as a set of binary classification problems to fit the assigned target code. Finally, extensive experiments demonstrate the superior accuracy and efficiency of the proposed method over various state-of-the-art methods. Codes are available at https://github.com/lmbxmu/mycode.","headline":"Hadamard Matrix Guided Online Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2019hadamard/"},"url":"https://learning2hash.github.io/publications/lin2019hadamard/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Online image hashing has attracted increasing research attention recently, which receives large-scale data in a streaming manner to update the hash functions on-the-fly. Its key challenge lies in the difficulty of balancing the learning timeliness and model accuracy. To this end, most works follow a supervised setting, i.e., using class labels to boost the hashing performance, which defects in two aspects: First, strong constraints, e.g., orthogonal or similarity preserving, are used, which however are typically relaxed and lead to large accuracy drop. Second, large amounts of training batches are required to learn the up-to-date hash functions, which largely increase the learning complexity. To handle the above challenges, a novel supervised online hashing scheme termed Hadamard Matrix Guided Online Hashing (HMOH) is proposed in this paper. Our key innovation lies in introducing Hadamard matrix, which is an orthogonal binary matrix built via Sylvester method. In particular, to release the need of strong constraints, we regard each column of Hadamard matrix as the target code for each class label, which by nature satisfies several desired properties of hashing codes. To accelerate the online training, LSH is first adopted to align the lengths of target code and to-be-learned binary code. We then treat the learning of hash functions as a set of binary classification problems to fit the assigned target code. Finally, extensive experiments demonstrate the superior accuracy and efficiency of the proposed method over various state-of-the-art methods. Codes are available at https://github.com/lmbxmu/mycode.","headline":"Hadamard Matrix Guided Online Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2019hadamard/"},"url":"https://learning2hash.github.io/publications/lin2019hadamard/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,50 +155,51 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Hadamard Matrix Guided Online Hashing</h1>
   <h5>Lin Mingbao, Ji Rongrong, Liu Hong, Sun Xiaoshuai, Chen Shen, Tian Qi. Arxiv 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1905.04454" target="_blank">Paper</a>]
     
       [<a href="https://github.com/lmbxmu/mycode" target="_blank">Code</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Hadamard Matrix Guided Online Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Hadamard Matrix Guided Online Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Hadamard%20Matrix%20Guided%20Online%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Hadamard%20Matrix%20Guided%20Online%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Has Code">Has Code</a></tag>
+      <span class="tag"><a href="/tags.html#Has Code">Has Code</a></span>
     
-      <tag><a href="/tags.html#LSH">LSH</a></tag>
+      <span class="tag"><a href="/tags.html#LSH">LSH</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>Online image hashing has attracted increasing research attention recently, which receives large-scale data in a streaming manner to update the hash functions on-the-fly. Its key challenge lies in the difficulty of balancing the learning timeliness and model accuracy. To this end, most works follow a supervised setting, i.e., using class labels to boost the hashing performance, which defects in two aspects: First, strong constraints, e.g., orthogonal or similarity preserving, are used, which however are typically relaxed and lead to large accuracy drop. Second, large amounts of training batches are required to learn the up-to-date hash functions, which largely increase the learning complexity. To handle the above challenges, a novel supervised online hashing scheme termed Hadamard Matrix Guided Online Hashing (HMOH) is proposed in this paper. Our key innovation lies in introducing Hadamard matrix, which is an orthogonal binary matrix built via Sylvester method. In particular, to release the need of strong constraints, we regard each column of Hadamard matrix as the target code for each class label, which by nature satisfies several desired properties of hashing codes. To accelerate the online training, LSH is first adopted to align the lengths of target code and to-be-learned binary code. We then treat the learning of hash functions as a set of binary classification problems to fit the assigned target code. Finally, extensive experiments demonstrate the superior accuracy and efficiency of the proposed method over various state-of-the-art methods. Codes are available at https://github.com/lmbxmu/mycode.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/lin2019hadamard.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/lin2019hadamard.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

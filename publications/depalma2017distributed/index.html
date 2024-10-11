@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/depalma2017distributed/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Distributed Stratified Locality Sensitive Hashing For Critical Event Prediction In The Cloud" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"The availability of massive healthcare data repositories calls for efficient tools for data-driven medicine. We introduce a distributed system for Stratified Locality Sensitive Hashing to perform fast similarity-based prediction on large medical waveform datasets. Our implementation, for an ICU use case, prioritizes latency over throughput and is targeted at a cloud environment. We demonstrate our system on Acute Hypotensive Episode prediction from Arterial Blood Pressure waveforms. On a dataset of $1.37$ million points, we show scaling up to $40$ processors and a $21\\times$ speedup in number of comparisons to parallel exhaustive search at the price of a $10\\%$ Matthews correlation coefficient (MCC) loss. Furthermore, if additional MCC loss can be tolerated, our system achieves speedups up to two orders of magnitude.","headline":"Distributed Stratified Locality Sensitive Hashing For Critical Event Prediction In The Cloud","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/depalma2017distributed/"},"url":"https://learning2hash.github.io/publications/depalma2017distributed/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"The availability of massive healthcare data repositories calls for efficient tools for data-driven medicine. We introduce a distributed system for Stratified Locality Sensitive Hashing to perform fast similarity-based prediction on large medical waveform datasets. Our implementation, for an ICU use case, prioritizes latency over throughput and is targeted at a cloud environment. We demonstrate our system on Acute Hypotensive Episode prediction from Arterial Blood Pressure waveforms. On a dataset of $1.37$ million points, we show scaling up to $40$ processors and a $21\\times$ speedup in number of comparisons to parallel exhaustive search at the price of a $10\\%$ Matthews correlation coefficient (MCC) loss. Furthermore, if additional MCC loss can be tolerated, our system achieves speedups up to two orders of magnitude.","headline":"Distributed Stratified Locality Sensitive Hashing For Critical Event Prediction In The Cloud","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/depalma2017distributed/"},"url":"https://learning2hash.github.io/publications/depalma2017distributed/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Distributed Stratified Locality Sensitive Hashing For Critical Event Prediction In The Cloud</h1>
   <h5>De Palma Alessandro, Hemberg Erik, O'reilly Una-may. Arxiv 2017</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1712.00206" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Distributed Stratified Locality Sensitive Hashing For Critical Event Prediction In The Cloud' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Distributed Stratified Locality Sensitive Hashing For Critical Event Prediction In The Cloud' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Distributed%20Stratified%20Locality%20Sensitive%20Hashing%20For%20Critical%20Event%20Prediction%20In%20The%20Cloud' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Distributed%20Stratified%20Locality%20Sensitive%20Hashing%20For%20Critical%20Event%20Prediction%20In%20The%20Cloud' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>The availability of massive healthcare data repositories calls for efficient tools for data-driven medicine. We introduce a distributed system for Stratified Locality Sensitive Hashing to perform fast similarity-based prediction on large medical waveform datasets. Our implementation, for an ICU use case, prioritizes latency over throughput and is targeted at a cloud environment. We demonstrate our system on Acute Hypotensive Episode prediction from Arterial Blood Pressure waveforms. On a dataset of $1.37$ million points, we show scaling up to $40$ processors and a $21\times$ speedup in number of comparisons to parallel exhaustive search at the price of a $10\%$ Matthews correlation coefficient (MCC) loss. Furthermore, if additional MCC loss can be tolerated, our system achieves speedups up to two orders of magnitude.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/depalma2017distributed.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/depalma2017distributed.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

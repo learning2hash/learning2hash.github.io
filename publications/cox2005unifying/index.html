@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/cox2005unifying/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Unifying Class Of Skorokhod Embeddings Connecting The Azema-yor And Vallois Embeddings" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"In this paper we consider the Skorokhod embedding problem in Brownian motion. In particular, we give a solution based on the local time at zero of a variably skewed Brownian motion related to the underlying Brownian motion. Special cases of the construction include the Azema-Yor and Vallois embeddings. In turn, the construction has an interpretation in the Chacon-Walsh framework.","headline":"A Unifying Class Of Skorokhod Embeddings Connecting The Azema-yor And Vallois Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/cox2005unifying/"},"url":"https://learning2hash.github.io/publications/cox2005unifying/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"In this paper we consider the Skorokhod embedding problem in Brownian motion. In particular, we give a solution based on the local time at zero of a variably skewed Brownian motion related to the underlying Brownian motion. Special cases of the construction include the Azema-Yor and Vallois embeddings. In turn, the construction has an interpretation in the Chacon-Walsh framework.","headline":"A Unifying Class Of Skorokhod Embeddings Connecting The Azema-yor And Vallois Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/cox2005unifying/"},"url":"https://learning2hash.github.io/publications/cox2005unifying/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">A Unifying Class Of Skorokhod Embeddings Connecting The Azema-yor And Vallois Embeddings</h1>
   <h5>Cox A. M. G., Hobson D. G.. Arxiv 2005</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/math/0506040" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=A Unifying Class Of Skorokhod Embeddings Connecting The Azema-yor And Vallois Embeddings' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=A Unifying Class Of Skorokhod Embeddings Connecting The Azema-yor And Vallois Embeddings' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=A%20Unifying%20Class%20Of%20Skorokhod%20Embeddings%20Connecting%20The%20Azema-yor%20And%20Vallois%20Embeddings' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=A%20Unifying%20Class%20Of%20Skorokhod%20Embeddings%20Connecting%20The%20Azema-yor%20And%20Vallois%20Embeddings' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>In this paper we consider the Skorokhod embedding problem in Brownian motion. In particular, we give a solution based on the local time at zero of a variably skewed Brownian motion related to the underlying Brownian motion. Special cases of the construction include the Azema-Yor and Vallois embeddings. In turn, the construction has an interpretation in the Chacon-Walsh framework.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/cox2005unifying.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/cox2005unifying.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

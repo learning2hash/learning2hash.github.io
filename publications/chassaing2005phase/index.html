@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/chassaing2005phase/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Phase Transition For Parking Blocks Brownian Excursion And Coalescence" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"In this paper, we consider hashing with linear probing for a hashing table with m places, n items (n &lt; m), and l = m&lt;n empty places. For a non computer science-minded reader, we shall use the metaphore of n cars parking on m places: each car chooses a place at random, and if this place k is occupied, the car tries successively k+1, k+2, … until it finds an empty place (with the convention that place m+1 is actually place 1). Pittel [42] proves that when l/m goes to some positive limit a &lt; 1, the size of the largest block of consecutive cars is O(log m). In this paper we examine at which level for n a phase transition occurs for the largest block of consecutive cars between o(m) and O(m). The intermediate case reveals an interesting behaviour of sizes of blocks, related to the standard additive coalescent in the same way as the sizes of connected components of the random graph are related to the multiplicative coalescent.","headline":"Phase Transition For Parking Blocks Brownian Excursion And Coalescence","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chassaing2005phase/"},"url":"https://learning2hash.github.io/publications/chassaing2005phase/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"In this paper, we consider hashing with linear probing for a hashing table with m places, n items (n &lt; m), and l = m&lt;n empty places. For a non computer science-minded reader, we shall use the metaphore of n cars parking on m places: each car chooses a place at random, and if this place k is occupied, the car tries successively k+1, k+2, … until it finds an empty place (with the convention that place m+1 is actually place 1). Pittel [42] proves that when l/m goes to some positive limit a &lt; 1, the size of the largest block of consecutive cars is O(log m). In this paper we examine at which level for n a phase transition occurs for the largest block of consecutive cars between o(m) and O(m). The intermediate case reveals an interesting behaviour of sizes of blocks, related to the standard additive coalescent in the same way as the sizes of connected components of the random graph are related to the multiplicative coalescent.","headline":"Phase Transition For Parking Blocks Brownian Excursion And Coalescence","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chassaing2005phase/"},"url":"https://learning2hash.github.io/publications/chassaing2005phase/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Phase Transition For Parking Blocks Brownian Excursion And Coalescence</h1>
   <h5>Chassaing Philippe Iec, Louchard Guy Ulb. Random Structures Algorithms 2005</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/math/0501060" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Phase Transition For Parking Blocks Brownian Excursion And Coalescence' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Phase Transition For Parking Blocks Brownian Excursion And Coalescence' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Phase%20Transition%20For%20Parking%20Blocks%20Brownian%20Excursion%20And%20Coalescence' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Phase%20Transition%20For%20Parking%20Blocks%20Brownian%20Excursion%20And%20Coalescence' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#Graph">Graph</a></tag>
+      <span class="tag"><a href="/tags.html#Graph">Graph</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>In this paper, we consider hashing with linear probing for a hashing table with m places, n items (n &lt; m), and l = m&lt;n empty places. For a non computer science-minded reader, we shall use the metaphore of n cars parking on m places: each car chooses a place at random, and if this place k is occupied, the car tries successively k+1, k+2, … until it finds an empty place (with the convention that place m+1 is actually place 1). Pittel [42] proves that when l/m goes to some positive limit a &lt; 1, the size of the largest block of consecutive cars is O(log m). In this paper we examine at which level for n a phase transition occurs for the largest block of consecutive cars between o(m) and O(m). The intermediate case reveals an interesting behaviour of sizes of blocks, related to the standard additive coalescent in the same way as the sizes of connected components of the random graph are related to the multiplicative coalescent.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/chassaing2005phase.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/chassaing2005phase.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

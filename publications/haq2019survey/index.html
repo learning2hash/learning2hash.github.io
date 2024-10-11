@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/haq2019survey/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Survey Of Binary Code Similarity" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Binary code similarity approaches compare two or more pieces of binary code to identify their similarities and differences. The ability to compare binary code enables many real-world applications on scenarios where source code may not be available such as patch analysis, bug search, and malware detection and analysis. Over the past 20 years numerous binary code similarity approaches have been proposed, but the research area has not yet been systematically analyzed. This paper presents a first survey of binary code similarity. It analyzes 61 binary code similarity approaches, which are systematized on four aspects: (1) the applications they enable, (2) their approach characteristics, (3) how the approaches are implemented, and (4) the benchmarks and methodologies used to evaluate them. In addition, the survey discusses the scope and origins of the area, its evolution over the past two decades, and the challenges that lie ahead.","headline":"A Survey Of Binary Code Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/haq2019survey/"},"url":"https://learning2hash.github.io/publications/haq2019survey/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Binary code similarity approaches compare two or more pieces of binary code to identify their similarities and differences. The ability to compare binary code enables many real-world applications on scenarios where source code may not be available such as patch analysis, bug search, and malware detection and analysis. Over the past 20 years numerous binary code similarity approaches have been proposed, but the research area has not yet been systematically analyzed. This paper presents a first survey of binary code similarity. It analyzes 61 binary code similarity approaches, which are systematized on four aspects: (1) the applications they enable, (2) their approach characteristics, (3) how the approaches are implemented, and (4) the benchmarks and methodologies used to evaluate them. In addition, the survey discusses the scope and origins of the area, its evolution over the past two decades, and the challenges that lie ahead.","headline":"A Survey Of Binary Code Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/haq2019survey/"},"url":"https://learning2hash.github.io/publications/haq2019survey/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">A Survey Of Binary Code Similarity</h1>
   <h5>Haq Irfan Ul, Caballero Juan. Arxiv 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1909.11424" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=A Survey Of Binary Code Similarity' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=A Survey Of Binary Code Similarity' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=A%20Survey%20Of%20Binary%20Code%20Similarity' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=A%20Survey%20Of%20Binary%20Code%20Similarity' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Survey Paper">Survey Paper</a></tag>
+      <span class="tag"><a href="/tags.html#Survey Paper">Survey Paper</a></span>
     
   </p>
+  
   <p><p>Binary code similarity approaches compare two or more pieces of binary code to identify their similarities and differences. The ability to compare binary code enables many real-world applications on scenarios where source code may not be available such as patch analysis, bug search, and malware detection and analysis. Over the past 20 years numerous binary code similarity approaches have been proposed, but the research area has not yet been systematically analyzed. This paper presents a first survey of binary code similarity. It analyzes 61 binary code similarity approaches, which are systematized on four aspects: (1) the applications they enable, (2) their approach characteristics, (3) how the approaches are implemented, and (4) the benchmarks and methodologies used to evaluate them. In addition, the survey discusses the scope and origins of the area, its evolution over the past two decades, and the challenges that lie ahead.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/haq2019survey.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/haq2019survey.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

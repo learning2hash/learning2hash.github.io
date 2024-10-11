@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/mohamed2012thscalable/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Thscalable Distributed Trie Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"In today’s world of computers, dealing with huge amounts of data is not unusual. The need to distribute this data in order to increase its availability and increase the performance of accessing it is more urgent than ever. For these reasons it is necessary to develop scalable distributed data structures. In this paper we propose a TH* distributed variant of the Trie Hashing data structure. First we propose Thsw new version of TH without node Nil in digital tree (trie), then this version will be adapted to multicomputer environment. The simulation results reveal that TH* is scalable in the sense that it grows gracefully, one bucket at a time, to a large number of servers, also TH* offers a good storage space utilization and high query efficiency special for ordering operations.","headline":"Thscalable Distributed Trie Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mohamed2012thscalable/"},"url":"https://learning2hash.github.io/publications/mohamed2012thscalable/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"In today’s world of computers, dealing with huge amounts of data is not unusual. The need to distribute this data in order to increase its availability and increase the performance of accessing it is more urgent than ever. For these reasons it is necessary to develop scalable distributed data structures. In this paper we propose a TH* distributed variant of the Trie Hashing data structure. First we propose Thsw new version of TH without node Nil in digital tree (trie), then this version will be adapted to multicomputer environment. The simulation results reveal that TH* is scalable in the sense that it grows gracefully, one bucket at a time, to a large number of servers, also TH* offers a good storage space utilization and high query efficiency special for ordering operations.","headline":"Thscalable Distributed Trie Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mohamed2012thscalable/"},"url":"https://learning2hash.github.io/publications/mohamed2012thscalable/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Thscalable Distributed Trie Hashing</h1>
   <h5>Mohamed Aridj, Eddine Zegour Djamel. Arxiv 2012</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1205.0439" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Thscalable Distributed Trie Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Thscalable Distributed Trie Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Thscalable%20Distributed%20Trie%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Thscalable%20Distributed%20Trie%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>In today’s world of computers, dealing with huge amounts of data is not unusual. The need to distribute this data in order to increase its availability and increase the performance of accessing it is more urgent than ever. For these reasons it is necessary to develop scalable distributed data structures. In this paper we propose a TH* distributed variant of the Trie Hashing data structure. First we propose Thsw new version of TH without node Nil in digital tree (trie), then this version will be adapted to multicomputer environment. The simulation results reveal that TH* is scalable in the sense that it grows gracefully, one bucket at a time, to a large number of servers, also TH* offers a good storage space utilization and high query efficiency special for ordering operations.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/mohamed2012thscalable.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/mohamed2012thscalable.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

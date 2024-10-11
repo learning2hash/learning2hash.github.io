@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/shi2024variable/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Variable-length Quantization Strategy For Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Hashing is widely used to solve fast Approximate Nearest Neighbor (ANN) search problems, involves converting the original real-valued samples to binary-valued representations. The conventional quantization strategies, such as Single-Bit Quantization and Multi-Bit quantization, are considered ineffective, because of their serious information loss. To address this issue, we propose a novel variable-length quantization (VLQ) strategy for hashing. In the proposed VLQ technique, we divide all samples into different regions in each dimension firstly given the real-valued features of samples. Then we compute the dispersion degrees of these regions. Subsequently, we attempt to optimally assign different number of bits to each dimensions to obtain the minimum dispersion degree. Our experiments show that the VLQ strategy achieves not only superior performance over the state-of-the-art methods, but also has a faster retrieval speed on public datasets.","headline":"Variable-length Quantization Strategy For Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shi2024variable/"},"url":"https://learning2hash.github.io/publications/shi2024variable/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Hashing is widely used to solve fast Approximate Nearest Neighbor (ANN) search problems, involves converting the original real-valued samples to binary-valued representations. The conventional quantization strategies, such as Single-Bit Quantization and Multi-Bit quantization, are considered ineffective, because of their serious information loss. To address this issue, we propose a novel variable-length quantization (VLQ) strategy for hashing. In the proposed VLQ technique, we divide all samples into different regions in each dimension firstly given the real-valued features of samples. Then we compute the dispersion degrees of these regions. Subsequently, we attempt to optimally assign different number of bits to each dimensions to obtain the minimum dispersion degree. Our experiments show that the VLQ strategy achieves not only superior performance over the state-of-the-art methods, but also has a faster retrieval speed on public datasets.","headline":"Variable-length Quantization Strategy For Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shi2024variable/"},"url":"https://learning2hash.github.io/publications/shi2024variable/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Variable-length Quantization Strategy For Hashing</h1>
   <h5>Shi Yang, Nie, Zhou, Xi, Yin. Arxiv 2024</h5>
+  
   <p>
     
       [<a href="https://ieeexplore.ieee.org/document/8803270" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Variable-length Quantization Strategy For Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Variable-length Quantization Strategy For Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Variable-length%20Quantization%20Strategy%20For%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Variable-length%20Quantization%20Strategy%20For%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Quantisation">Quantisation</a></tag>
+      <span class="tag"><a href="/tags.html#Quantisation">Quantisation</a></span>
     
   </p>
+  
   <p><p>Hashing is widely used to solve fast Approximate Nearest Neighbor (ANN) search problems, involves converting the original real-valued samples to binary-valued representations. The conventional quantization strategies, such as Single-Bit Quantization and Multi-Bit quantization, are considered ineffective, because of their serious information loss. To address this issue, we propose a novel variable-length quantization (VLQ) strategy for hashing. In the proposed VLQ technique, we divide all samples into different regions in each dimension firstly given the real-valued features of samples. Then we compute the dispersion degrees of these regions. Subsequently, we attempt to optimally assign different number of bits to each dimensions to obtain the minimum dispersion degree. Our experiments show that the VLQ strategy achieves not only superior performance over the state-of-the-art methods, but also has a faster retrieval speed on public datasets.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/shi2024variable.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/shi2024variable.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

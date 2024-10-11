@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/wygocki2017fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="On Fast Bounded Locality Sensitive Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"In this paper, we examine the hash functions expressed as scalar products, i.e., $f(x)=&lt;v,x&gt;$, for some bounded random vector $v$. Such hash functions have numerous applications, but often there is a need to optimize the choice of the distribution of $v$. In the present work, we focus on so-called anti-concentration bounds, i.e. the upper bounds of $\\mathbb{P}\\left[ &lt;v,x&gt; &lt; \\alpha \\right]$. In many applications, $v$ is a vector of independent random variables with standard normal distribution. In such case, the distribution of $&lt;v,x&gt;$ is also normal and it is easy to approximate $\\mathbb{P}\\left[ &lt;v,x&gt; &lt; \\alpha \\right]$. Here, we consider two bounded distributions in the context of the anti-concentration bounds. Particularly, we analyze $v$ being a random vector from the unit ball in $l_{\\infty}$ and $v$ being a random vector from the unit sphere in $l_{2}$. We show optimal up to a constant anti-concentration measures for functions $f(x)=&lt;v,x&gt;$. As a consequence of our research, we obtain new best results for \\newline \\textit{$c$-approximate nearest neighbors without false negatives} for $l_p$ in high dimensional space for all $p\\in[1,\\infty]$, for $c=\\Omega(\\max\\{\\sqrt{d},d^{1/p}\\})$. These results improve over those presented in [16]. Finally, our paper reports progress on answering the open problem by Pagh~[17], who considered the nearest neighbor search without false negatives for the Hamming distance.","headline":"On Fast Bounded Locality Sensitive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wygocki2017fast/"},"url":"https://learning2hash.github.io/publications/wygocki2017fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"In this paper, we examine the hash functions expressed as scalar products, i.e., $f(x)=&lt;v,x&gt;$, for some bounded random vector $v$. Such hash functions have numerous applications, but often there is a need to optimize the choice of the distribution of $v$. In the present work, we focus on so-called anti-concentration bounds, i.e. the upper bounds of $\\mathbb{P}\\left[ &lt;v,x&gt; &lt; \\alpha \\right]$. In many applications, $v$ is a vector of independent random variables with standard normal distribution. In such case, the distribution of $&lt;v,x&gt;$ is also normal and it is easy to approximate $\\mathbb{P}\\left[ &lt;v,x&gt; &lt; \\alpha \\right]$. Here, we consider two bounded distributions in the context of the anti-concentration bounds. Particularly, we analyze $v$ being a random vector from the unit ball in $l_{\\infty}$ and $v$ being a random vector from the unit sphere in $l_{2}$. We show optimal up to a constant anti-concentration measures for functions $f(x)=&lt;v,x&gt;$. As a consequence of our research, we obtain new best results for \\newline \\textit{$c$-approximate nearest neighbors without false negatives} for $l_p$ in high dimensional space for all $p\\in[1,\\infty]$, for $c=\\Omega(\\max\\{\\sqrt{d},d^{1/p}\\})$. These results improve over those presented in [16]. Finally, our paper reports progress on answering the open problem by Pagh~[17], who considered the nearest neighbor search without false negatives for the Hamming distance.","headline":"On Fast Bounded Locality Sensitive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wygocki2017fast/"},"url":"https://learning2hash.github.io/publications/wygocki2017fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,22 +155,24 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">On Fast Bounded Locality Sensitive Hashing</h1>
   <h5>Wygocki Piotr. Arxiv 2017</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1704.05902" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=On Fast Bounded Locality Sensitive Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=On Fast Bounded Locality Sensitive Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=On%20Fast%20Bounded%20Locality%20Sensitive%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=On%20Fast%20Bounded%20Locality%20Sensitive%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><table>
   <tbody>
     <tr>
@@ -186,23 +188,22 @@ function search() {
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/wygocki2017fast.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/wygocki2017fast.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

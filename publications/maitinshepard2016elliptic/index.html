@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/maitinshepard2016elliptic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Elliptic Curve Multiset Hash" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"A homomorphic, or incremental, multiset hash function, associates a hash value to arbitrary collections of objects (with possible repetitions) in such a way that the hash of the union of two collections is easy to compute from the hashes of the two collections themselves: it is simply their sum under a suitable group operation. In particular, hash values of large collections can be computed incrementally and/or in parallel. Homomorphic hashing is thus a very useful primitive with applications ranging from database integrity verification to streaming set/multiset comparison and network coding. Unfortunately, constructions of homomorphic hash functions in the literature are hampered by two main drawbacks: they tend to be much longer than usual hash functions at the same security level (e.g. to achieve a collision resistance of 2^128, they are several thousand bits long, as opposed to 256 bits for usual hash functions), and they are also quite slow. In this paper, we introduce the Elliptic Curve Multiset Hash (ECMH), which combines a usual bit string-valued hash function like BLAKE2 with an efficient encoding into binary elliptic curves to overcome both difficulties. On the one hand, the size of ECMH digests is essentially optimal: 2m-bit hash values provide O(2^m) collision resistance. On the other hand, we demonstrate a highly-efficient software implementation of ECMH, which our thorough empirical evaluation shows to be capable of processing over 3 million set elements per second on a 4 GHz Intel Haswell machine at the 128-bit security level—many times faster than previous practical methods.","headline":"Elliptic Curve Multiset Hash","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/maitinshepard2016elliptic/"},"url":"https://learning2hash.github.io/publications/maitinshepard2016elliptic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"A homomorphic, or incremental, multiset hash function, associates a hash value to arbitrary collections of objects (with possible repetitions) in such a way that the hash of the union of two collections is easy to compute from the hashes of the two collections themselves: it is simply their sum under a suitable group operation. In particular, hash values of large collections can be computed incrementally and/or in parallel. Homomorphic hashing is thus a very useful primitive with applications ranging from database integrity verification to streaming set/multiset comparison and network coding. Unfortunately, constructions of homomorphic hash functions in the literature are hampered by two main drawbacks: they tend to be much longer than usual hash functions at the same security level (e.g. to achieve a collision resistance of 2^128, they are several thousand bits long, as opposed to 256 bits for usual hash functions), and they are also quite slow. In this paper, we introduce the Elliptic Curve Multiset Hash (ECMH), which combines a usual bit string-valued hash function like BLAKE2 with an efficient encoding into binary elliptic curves to overcome both difficulties. On the one hand, the size of ECMH digests is essentially optimal: 2m-bit hash values provide O(2^m) collision resistance. On the other hand, we demonstrate a highly-efficient software implementation of ECMH, which our thorough empirical evaluation shows to be capable of processing over 3 million set elements per second on a 4 GHz Intel Haswell machine at the 128-bit security level—many times faster than previous practical methods.","headline":"Elliptic Curve Multiset Hash","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/maitinshepard2016elliptic/"},"url":"https://learning2hash.github.io/publications/maitinshepard2016elliptic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Elliptic Curve Multiset Hash</h1>
   <h5>Maitin-shepard Jeremy, Tibouchi Mehdi, Aranha Diego. Arxiv 2016</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1601.06502" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Elliptic Curve Multiset Hash' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Elliptic Curve Multiset Hash' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Elliptic%20Curve%20Multiset%20Hash' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Elliptic%20Curve%20Multiset%20Hash' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>A homomorphic, or incremental, multiset hash function, associates a hash value to arbitrary collections of objects (with possible repetitions) in such a way that the hash of the union of two collections is easy to compute from the hashes of the two collections themselves: it is simply their sum under a suitable group operation. In particular, hash values of large collections can be computed incrementally and/or in parallel. Homomorphic hashing is thus a very useful primitive with applications ranging from database integrity verification to streaming set/multiset comparison and network coding. Unfortunately, constructions of homomorphic hash functions in the literature are hampered by two main drawbacks: they tend to be much longer than usual hash functions at the same security level (e.g. to achieve a collision resistance of 2^128, they are several thousand bits long, as opposed to 256 bits for usual hash functions), and they are also quite slow. In this paper, we introduce the Elliptic Curve Multiset Hash (ECMH), which combines a usual bit string-valued hash function like BLAKE2 with an efficient encoding into binary elliptic curves to overcome both difficulties. On the one hand, the size of ECMH digests is essentially optimal: 2m-bit hash values provide O(2^m) collision resistance. On the other hand, we demonstrate a highly-efficient software implementation of ECMH, which our thorough empirical evaluation shows to be capable of processing over 3 million set elements per second on a 4 GHz Intel Haswell machine at the 128-bit security level—many times faster than previous practical methods.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/maitinshepard2016elliptic.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/maitinshepard2016elliptic.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

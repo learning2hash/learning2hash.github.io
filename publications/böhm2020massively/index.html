@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/b%C3%B6hm2020massively/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Massively Parallel Graph Drawing And Representation Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"To fully exploit the performance potential of modern multi-core processors, machine learning and data mining algorithms for big data must be parallelized in multiple ways. Today’s CPUs consist of multiple cores, each following an independent thread of control, and each equipped with multiple arithmetic units which can perform the same operation on a vector of multiple data objects. Graph embedding, i.e. converting the vertices of a graph into numerical vectors is a data mining task of high importance and is useful for graph drawing (low-dimensional vectors) and graph representation learning (high-dimensional vectors). In this paper, we propose MulticoreGEMPE (Graph Embedding by Minimizing the Predictive Entropy), an information-theoretic method which can generate low and high-dimensional vectors. MulticoreGEMPE applies MIMD (Multiple Instructions Multiple Data, using OpenMP) and SIMD (Single Instructions Multiple Data, using AVX-512) parallelism. We propose general ideas applicable in other graph-based algorithms like \\emph{vectorized hashing} and \\emph{vectorized reduction}. Our experimental evaluation demonstrates the superiority of our approach.","headline":"Massively Parallel Graph Drawing And Representation Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/b%C3%B6hm2020massively/"},"url":"https://learning2hash.github.io/publications/b%C3%B6hm2020massively/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"To fully exploit the performance potential of modern multi-core processors, machine learning and data mining algorithms for big data must be parallelized in multiple ways. Today’s CPUs consist of multiple cores, each following an independent thread of control, and each equipped with multiple arithmetic units which can perform the same operation on a vector of multiple data objects. Graph embedding, i.e. converting the vertices of a graph into numerical vectors is a data mining task of high importance and is useful for graph drawing (low-dimensional vectors) and graph representation learning (high-dimensional vectors). In this paper, we propose MulticoreGEMPE (Graph Embedding by Minimizing the Predictive Entropy), an information-theoretic method which can generate low and high-dimensional vectors. MulticoreGEMPE applies MIMD (Multiple Instructions Multiple Data, using OpenMP) and SIMD (Single Instructions Multiple Data, using AVX-512) parallelism. We propose general ideas applicable in other graph-based algorithms like \\emph{vectorized hashing} and \\emph{vectorized reduction}. Our experimental evaluation demonstrates the superiority of our approach.","headline":"Massively Parallel Graph Drawing And Representation Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/b%C3%B6hm2020massively/"},"url":"https://learning2hash.github.io/publications/b%C3%B6hm2020massively/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Massively Parallel Graph Drawing And Representation Learning</h1>
   <h5>Böhm Christian, Plant Claudia. IEEE BigData 2020</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2011.03479" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Massively Parallel Graph Drawing And Representation Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Massively Parallel Graph Drawing And Representation Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Massively%20Parallel%20Graph%20Drawing%20And%20Representation%20Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Massively%20Parallel%20Graph%20Drawing%20And%20Representation%20Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#Graph">Graph</a></tag>
+      <span class="tag"><a href="/tags.html#Graph">Graph</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>To fully exploit the performance potential of modern multi-core processors, machine learning and data mining algorithms for big data must be parallelized in multiple ways. Today’s CPUs consist of multiple cores, each following an independent thread of control, and each equipped with multiple arithmetic units which can perform the same operation on a vector of multiple data objects. Graph embedding, i.e. converting the vertices of a graph into numerical vectors is a data mining task of high importance and is useful for graph drawing (low-dimensional vectors) and graph representation learning (high-dimensional vectors). In this paper, we propose MulticoreGEMPE (Graph Embedding by Minimizing the Predictive Entropy), an information-theoretic method which can generate low and high-dimensional vectors. MulticoreGEMPE applies MIMD (Multiple Instructions Multiple Data, using OpenMP) and SIMD (Single Instructions Multiple Data, using AVX-512) parallelism. We propose general ideas applicable in other graph-based algorithms like \emph{vectorized hashing} and \emph{vectorized reduction}. Our experimental evaluation demonstrates the superiority of our approach.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/böhm2020massively.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/böhm2020massively.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

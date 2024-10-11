@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/jiang2024scalable/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Scalable Graph Hashing With Feature Transformation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Hashing has been widely used for approximate nearest neighbor (ANN) search in big data applications because of its low storage cost and fast retrieval speed. The goal of hashing is to map the data points from the original space into a binary-code space where the similarity (neighborhood structure) in the original space is preserved. By directly exploiting the similarity to guide the hashing code learning procedure, graph hashing has attracted much attention. However, most existing graph hashing methods cannot achieve satisfactory performance in real applications due to the high complexity for graph modeling. In this paper, we propose a novel method, called scalable graph hashing with feature transformation (SGH), for large-scale graph hashing. Through feature transformation, we can effectively approximate the whole graph without explicitly computing the similarity graph matrix, based on which a sequential learning method is proposed to learn the hash functions in a bit-wise manner. Experiments on two datasets with one million data points show that our SGH method can outperform the state-of-the-art methods in terms of both accuracy and scalability.","headline":"Scalable Graph Hashing With Feature Transformation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jiang2024scalable/"},"url":"https://learning2hash.github.io/publications/jiang2024scalable/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Hashing has been widely used for approximate nearest neighbor (ANN) search in big data applications because of its low storage cost and fast retrieval speed. The goal of hashing is to map the data points from the original space into a binary-code space where the similarity (neighborhood structure) in the original space is preserved. By directly exploiting the similarity to guide the hashing code learning procedure, graph hashing has attracted much attention. However, most existing graph hashing methods cannot achieve satisfactory performance in real applications due to the high complexity for graph modeling. In this paper, we propose a novel method, called scalable graph hashing with feature transformation (SGH), for large-scale graph hashing. Through feature transformation, we can effectively approximate the whole graph without explicitly computing the similarity graph matrix, based on which a sequential learning method is proposed to learn the hash functions in a bit-wise manner. Experiments on two datasets with one million data points show that our SGH method can outperform the state-of-the-art methods in terms of both accuracy and scalability.","headline":"Scalable Graph Hashing With Feature Transformation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jiang2024scalable/"},"url":"https://learning2hash.github.io/publications/jiang2024scalable/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Scalable Graph Hashing With Feature Transformation</h1>
   <h5>Jiang Q., Li. Arxiv 2024</h5>
+  
   <p>
     
       [<a href="http://cs.nju.edu.cn/lwj/paper/IJCAI15_SGH.pdf" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Scalable Graph Hashing With Feature Transformation' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Scalable Graph Hashing With Feature Transformation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Scalable%20Graph%20Hashing%20With%20Feature%20Transformation' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Scalable%20Graph%20Hashing%20With%20Feature%20Transformation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Graph">Graph</a></tag>
+      <span class="tag"><a href="/tags.html#Graph">Graph</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>Hashing has been widely used for approximate nearest neighbor (ANN) search in big data applications because of its low storage cost and fast retrieval speed. The goal of hashing is to map the data points from the original space into a binary-code space where the similarity (neighborhood structure) in the original space is preserved. By directly exploiting the similarity to guide the hashing code learning procedure, graph hashing has attracted much attention. However, most existing graph hashing methods cannot achieve satisfactory performance in real applications due to the high complexity for graph modeling. In this paper, we propose a novel method, called scalable graph hashing with feature transformation (SGH), for large-scale graph hashing. Through feature transformation, we can effectively approximate the whole graph without explicitly computing the similarity graph matrix, based on which a sequential learning method is proposed to learn the hash functions in a bit-wise manner. Experiments on two datasets with one million data points show that our SGH method can outperform the state-of-the-art methods in terms of both accuracy and scalability.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/jiang2024scalable.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/jiang2024scalable.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

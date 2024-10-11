@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/charikar2020kernel/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Kernel Density Estimation Through Density Constrained Near Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"In this paper we revisit the kernel density estimation problem: given a kernel $K(x, y)$ and a dataset of $n$ points in high dimensional Euclidean space, prepare a data structure that can quickly output, given a query $q$, a $(1+\\epsilon)$-approximation to $\\mu:=\\frac1{ P }\\sum_{p\\in P} K(p, q)$. First, we give a single data structure based on classical near neighbor search techniques that improves upon or essentially matches the query time and space complexity for all radial kernels considered in the literature so far. We then show how to improve both the query complexity and runtime by using recent advances in data-dependent near neighbor search. We achieve our results by giving a new implementation of the natural importance sampling scheme. Unlike previous approaches, our algorithm first samples the dataset uniformly (considering a geometric sequence of sampling rates), and then uses existing approximate near neighbor search techniques on the resulting smaller dataset to retrieve the sampled points that lie at an appropriate distance from the query. We show that the resulting sampled dataset has strong geometric structure, making approximate near neighbor search return the required samples much more efficiently than for worst case datasets of the same size. As an example application, we show that this approach yields a data structure that achieves query time $\\mu^{-(1+o(1))/4}$ and space complexity $\\mu^{-(1+o(1))}$ for the Gaussian kernel. Our data dependent approach achieves query time $\\mu^{-0.173-o(1)}$ and space $\\mu^{-(1+o(1))}$ for the Gaussian kernel. The data dependent analysis relies on new techniques for tracking the geometric structure of the input datasets in a recursive hashing process that we hope will be of interest in other applications in near neighbor search.","headline":"Kernel Density Estimation Through Density Constrained Near Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/charikar2020kernel/"},"url":"https://learning2hash.github.io/publications/charikar2020kernel/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"In this paper we revisit the kernel density estimation problem: given a kernel $K(x, y)$ and a dataset of $n$ points in high dimensional Euclidean space, prepare a data structure that can quickly output, given a query $q$, a $(1+\\epsilon)$-approximation to $\\mu:=\\frac1{ P }\\sum_{p\\in P} K(p, q)$. First, we give a single data structure based on classical near neighbor search techniques that improves upon or essentially matches the query time and space complexity for all radial kernels considered in the literature so far. We then show how to improve both the query complexity and runtime by using recent advances in data-dependent near neighbor search. We achieve our results by giving a new implementation of the natural importance sampling scheme. Unlike previous approaches, our algorithm first samples the dataset uniformly (considering a geometric sequence of sampling rates), and then uses existing approximate near neighbor search techniques on the resulting smaller dataset to retrieve the sampled points that lie at an appropriate distance from the query. We show that the resulting sampled dataset has strong geometric structure, making approximate near neighbor search return the required samples much more efficiently than for worst case datasets of the same size. As an example application, we show that this approach yields a data structure that achieves query time $\\mu^{-(1+o(1))/4}$ and space complexity $\\mu^{-(1+o(1))}$ for the Gaussian kernel. Our data dependent approach achieves query time $\\mu^{-0.173-o(1)}$ and space $\\mu^{-(1+o(1))}$ for the Gaussian kernel. The data dependent analysis relies on new techniques for tracking the geometric structure of the input datasets in a recursive hashing process that we hope will be of interest in other applications in near neighbor search.","headline":"Kernel Density Estimation Through Density Constrained Near Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/charikar2020kernel/"},"url":"https://learning2hash.github.io/publications/charikar2020kernel/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,20 +155,22 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Kernel Density Estimation Through Density Constrained Near Neighbor Search</h1>
   <h5>Charikar Moses, Kapralov Michael, Nouri Navid, Siminelakis Paris. Arxiv 2020</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2011.06997" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Kernel Density Estimation Through Density Constrained Near Neighbor Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Kernel Density Estimation Through Density Constrained Near Neighbor Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Kernel%20Density%20Estimation%20Through%20Density%20Constrained%20Near%20Neighbor%20Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Kernel%20Density%20Estimation%20Through%20Density%20Constrained%20Near%20Neighbor%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><table>
   <tbody>
     <tr>
@@ -182,23 +184,22 @@ function search() {
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/charikar2020kernel.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/charikar2020kernel.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/guruswami2018beating/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Beating Fredman-komlos For Perfect k-hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"We say a subset $C \\subseteq \\{1,2,\\dots,k\\}^n$ is a $k$-hash code (also called $k$-separated) if for every subset of $k$ codewords from $C$, there exists a coordinate where all these codewords have distinct values. Understanding the largest possible rate (in bits), defined as $(\\log_2 C )/n$, of a $k$-hash code is a classical problem. It arises in two equivalent contexts: (i) the smallest size possible for a perfect hash family that maps a universe of $N$ elements into $\\{1,2,\\dots,k\\}$, and (ii) the zero-error capacity for decoding with lists of size less than $k$ for a certain combinatorial channel. A general upper bound of $k!/k^{k-1}$ on the rate of a $k$-hash code (in the limit of large $n$) was obtained by Fredman and Koml&#39;{o}s in 1984 for any $k \\geq 4$. While better bounds have been obtained for $k=4$, their original bound has remained the best known for each $k \\ge 5$. In this work, we obtain the first improvement to the Fredman-Koml&#39;{o}s bound for every $k \\ge 5$. While we get explicit (numerical) bounds for $k=5,6$, for larger $k$ we only show that the FK bound can be improved by a positive, but unspecified, amount. Under a conjecture on the optimum value of a certain polynomial optimization problem over the simplex, our methods allow an effective bound to be computed for every $k$.","headline":"Beating Fredman-komlos For Perfect k-hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/guruswami2018beating/"},"url":"https://learning2hash.github.io/publications/guruswami2018beating/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"We say a subset $C \\subseteq \\{1,2,\\dots,k\\}^n$ is a $k$-hash code (also called $k$-separated) if for every subset of $k$ codewords from $C$, there exists a coordinate where all these codewords have distinct values. Understanding the largest possible rate (in bits), defined as $(\\log_2 C )/n$, of a $k$-hash code is a classical problem. It arises in two equivalent contexts: (i) the smallest size possible for a perfect hash family that maps a universe of $N$ elements into $\\{1,2,\\dots,k\\}$, and (ii) the zero-error capacity for decoding with lists of size less than $k$ for a certain combinatorial channel. A general upper bound of $k!/k^{k-1}$ on the rate of a $k$-hash code (in the limit of large $n$) was obtained by Fredman and Koml&#39;{o}s in 1984 for any $k \\geq 4$. While better bounds have been obtained for $k=4$, their original bound has remained the best known for each $k \\ge 5$. In this work, we obtain the first improvement to the Fredman-Koml&#39;{o}s bound for every $k \\ge 5$. While we get explicit (numerical) bounds for $k=5,6$, for larger $k$ we only show that the FK bound can be improved by a positive, but unspecified, amount. Under a conjecture on the optimum value of a certain polynomial optimization problem over the simplex, our methods allow an effective bound to be computed for every $k$.","headline":"Beating Fredman-komlos For Perfect k-hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/guruswami2018beating/"},"url":"https://learning2hash.github.io/publications/guruswami2018beating/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,22 +155,24 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Beating Fredman-komlos For Perfect k-hashing</h1>
   <h5>Guruswami Venkatesan, Riazanov Andrii. Arxiv 2018</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1805.04151" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Beating Fredman-komlos For Perfect k-hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Beating Fredman-komlos For Perfect k-hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Beating%20Fredman-komlos%20For%20Perfect%20k-hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Beating%20Fredman-komlos%20For%20Perfect%20k-hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><table>
   <tbody>
     <tr>
@@ -184,23 +186,22 @@ function search() {
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/guruswami2018beating.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/guruswami2018beating.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

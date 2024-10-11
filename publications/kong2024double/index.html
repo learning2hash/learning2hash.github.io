@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/kong2024double/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Double-bit Quantisation For Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Hashing, which tries to learn similarity-preserving binary codes for data representation, has been widely used for efficient nearest neighbor search in massive databases due to its fast query speed and low storage cost. Because it is NP hard to directly compute the best binary codes for a given data set, mainstream hashing methods typically adopt a two-stage strategy. In the first stage, several projected dimensions of real values are generated. Then in the second stage, the real values will be quantized into binary codes by thresholding. Currently, most existing methods use one single bit to quantize each projected dimension. One problem with this single-bit quantization (SBQ) is that the threshold typically lies in the region of the highest point density and consequently a lot of neighboring points close to the threshold will be hashed to totally different bits, which is unexpected according to the principle of hashing. In this paper, we propose a novel quantization strategy, called double-bit quantization (DBQ), to solve the problem of SBQ. The basic idea of DBQ is to quantize each projected dimension into double bits with adaptively learned thresholds. Extensive experiments on two real data sets show that our DBQ strategy can signifi- cantly outperform traditional SBQ strategy for hashing.","headline":"Double-bit Quantisation For Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kong2024double/"},"url":"https://learning2hash.github.io/publications/kong2024double/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Hashing, which tries to learn similarity-preserving binary codes for data representation, has been widely used for efficient nearest neighbor search in massive databases due to its fast query speed and low storage cost. Because it is NP hard to directly compute the best binary codes for a given data set, mainstream hashing methods typically adopt a two-stage strategy. In the first stage, several projected dimensions of real values are generated. Then in the second stage, the real values will be quantized into binary codes by thresholding. Currently, most existing methods use one single bit to quantize each projected dimension. One problem with this single-bit quantization (SBQ) is that the threshold typically lies in the region of the highest point density and consequently a lot of neighboring points close to the threshold will be hashed to totally different bits, which is unexpected according to the principle of hashing. In this paper, we propose a novel quantization strategy, called double-bit quantization (DBQ), to solve the problem of SBQ. The basic idea of DBQ is to quantize each projected dimension into double bits with adaptively learned thresholds. Extensive experiments on two real data sets show that our DBQ strategy can signifi- cantly outperform traditional SBQ strategy for hashing.","headline":"Double-bit Quantisation For Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kong2024double/"},"url":"https://learning2hash.github.io/publications/kong2024double/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Double-bit Quantisation For Hashing</h1>
   <h5>Kong W., Li. Arxiv 2024</h5>
+  
   <p>
     
       [<a href="https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5080/5250" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Double-bit Quantisation For Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Double-bit Quantisation For Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Double-bit%20Quantisation%20For%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Double-bit%20Quantisation%20For%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
-      <tag><a href="/tags.html#Quantisation">Quantisation</a></tag>
+      <span class="tag"><a href="/tags.html#Quantisation">Quantisation</a></span>
     
   </p>
+  
   <p><p>Hashing, which tries to learn similarity-preserving binary codes for data representation, has been widely used for efficient nearest neighbor search in massive databases due to its fast query speed and low storage cost. Because it is NP hard to directly compute the best binary codes for a given data set, mainstream hashing methods typically adopt a two-stage strategy. In the first stage, several projected dimensions of real values are generated. Then in the second stage, the real values will be quantized into binary codes by thresholding. Currently, most existing methods use one single bit to quantize each projected dimension. One problem with this single-bit quantization (SBQ) is that the threshold typically lies in the region of the highest point density and consequently a lot of neighboring points close to the threshold will be hashed to totally different bits, which is unexpected according to the principle of hashing. In this paper, we propose a novel quantization strategy, called double-bit quantization (DBQ), to solve the problem of SBQ. The basic idea of DBQ is to quantize each projected dimension into double bits with adaptively learned thresholds. Extensive experiments on two real data sets show that our DBQ strategy can signifi- cantly outperform traditional SBQ strategy for hashing.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/kong2024double.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/kong2024double.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

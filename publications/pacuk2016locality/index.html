@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/pacuk2016locality/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Locality-sensitive Hashing Without False Negatives For L_p" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"In this paper, we show a construction of locality-sensitive hash functions without false negatives, i.e., which ensure collision for every pair of points within a given radius $R$ in $d$ dimensional space equipped with $l_p$ norm when $p \\in [1,\\infty]$. Furthermore, we show how to use these hash functions to solve the $c$-approximate nearest neighbor search problem without false negatives. Namely, if there is a point at distance $R$, we will certainly report it and points at distance greater than $cR$ will not be reported for $c=\\Omega(\\sqrt{d},d^{1-\\frac{1}{p}})$. The constructed algorithms work: - with preprocessing time $\\mathcal{O}(n \\log(n))$ and sublinear expected query time, - with preprocessing time $\\mathcal{O}(\\mathrm{poly}(n))$ and expected query time $\\mathcal{O}(\\log(n))$. Our paper reports progress on answering the open problem presented by Pagh [8] who considered the nearest neighbor search without false negatives for the Hamming distance.","headline":"Locality-sensitive Hashing Without False Negatives For L_p","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pacuk2016locality/"},"url":"https://learning2hash.github.io/publications/pacuk2016locality/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"In this paper, we show a construction of locality-sensitive hash functions without false negatives, i.e., which ensure collision for every pair of points within a given radius $R$ in $d$ dimensional space equipped with $l_p$ norm when $p \\in [1,\\infty]$. Furthermore, we show how to use these hash functions to solve the $c$-approximate nearest neighbor search problem without false negatives. Namely, if there is a point at distance $R$, we will certainly report it and points at distance greater than $cR$ will not be reported for $c=\\Omega(\\sqrt{d},d^{1-\\frac{1}{p}})$. The constructed algorithms work: - with preprocessing time $\\mathcal{O}(n \\log(n))$ and sublinear expected query time, - with preprocessing time $\\mathcal{O}(\\mathrm{poly}(n))$ and expected query time $\\mathcal{O}(\\log(n))$. Our paper reports progress on answering the open problem presented by Pagh [8] who considered the nearest neighbor search without false negatives for the Hamming distance.","headline":"Locality-sensitive Hashing Without False Negatives For L_p","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pacuk2016locality/"},"url":"https://learning2hash.github.io/publications/pacuk2016locality/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Locality-sensitive Hashing Without False Negatives For L_p</h1>
   <h5>Pacuk Andrzej, Sankowski Piotr, Wegrzycki Karol, Wygocki Piotr. Computing and Combinatorics - 2016</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1611.09317" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Locality-sensitive Hashing Without False Negatives For L_p' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Locality-sensitive Hashing Without False Negatives For L_p' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Locality-sensitive%20Hashing%20Without%20False%20Negatives%20For%20L_p' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Locality-sensitive%20Hashing%20Without%20False%20Negatives%20For%20L_p' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>In this paper, we show a construction of locality-sensitive hash functions without false negatives, i.e., which ensure collision for every pair of points within a given radius $R$ in $d$ dimensional space equipped with $l_p$ norm when $p \in [1,\infty]$. Furthermore, we show how to use these hash functions to solve the $c$-approximate nearest neighbor search problem without false negatives. Namely, if there is a point at distance $R$, we will certainly report it and points at distance greater than $cR$ will not be reported for $c=\Omega(\sqrt{d},d^{1-\frac{1}{p}})$. The constructed algorithms work: - with preprocessing time $\mathcal{O}(n \log(n))$ and sublinear expected query time, - with preprocessing time $\mathcal{O}(\mathrm{poly}(n))$ and expected query time $\mathcal{O}(\log(n))$. Our paper reports progress on answering the open problem presented by Pagh [8] who considered the nearest neighbor search without false negatives for the Hamming distance.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/pacuk2016locality.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/pacuk2016locality.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

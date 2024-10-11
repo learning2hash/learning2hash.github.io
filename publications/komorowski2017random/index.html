@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/komorowski2017random/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Random Binary Trees For Approximate Nearest Neighbour Search In Binary Space" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Approximate nearest neighbour (ANN) search is one of the most important problems in computer science fields such as data mining or computer vision. In this paper, we focus on ANN for high-dimensional binary vectors and we propose a simple yet powerful search method that uses Random Binary Search Trees (RBST). We apply our method to a dataset of 1.25M binary local feature descriptors obtained from a real-life image-based localisation system provided by Google as a part of Project Tango. An extensive evaluation of our method against the state-of-the-art variations of Locality Sensitive Hashing (LSH), namely Uniform LSH and Multi-probe LSH, shows the superiority of our method in terms of retrieval precision with performance boost of over 20%","headline":"Random Binary Trees For Approximate Nearest Neighbour Search In Binary Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/komorowski2017random/"},"url":"https://learning2hash.github.io/publications/komorowski2017random/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Approximate nearest neighbour (ANN) search is one of the most important problems in computer science fields such as data mining or computer vision. In this paper, we focus on ANN for high-dimensional binary vectors and we propose a simple yet powerful search method that uses Random Binary Search Trees (RBST). We apply our method to a dataset of 1.25M binary local feature descriptors obtained from a real-life image-based localisation system provided by Google as a part of Project Tango. An extensive evaluation of our method against the state-of-the-art variations of Locality Sensitive Hashing (LSH), namely Uniform LSH and Multi-probe LSH, shows the superiority of our method in terms of retrieval precision with performance boost of over 20%","headline":"Random Binary Trees For Approximate Nearest Neighbour Search In Binary Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/komorowski2017random/"},"url":"https://learning2hash.github.io/publications/komorowski2017random/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Random Binary Trees For Approximate Nearest Neighbour Search In Binary Space</h1>
   <h5>Komorowski Michal, Trzcinski Tomasz. Arxiv 2017</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1708.02976" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Random Binary Trees For Approximate Nearest Neighbour Search In Binary Space' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Random Binary Trees For Approximate Nearest Neighbour Search In Binary Space' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Random%20Binary%20Trees%20For%20Approximate%20Nearest%20Neighbour%20Search%20In%20Binary%20Space' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Random%20Binary%20Trees%20For%20Approximate%20Nearest%20Neighbour%20Search%20In%20Binary%20Space' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
-      <tag><a href="/tags.html#LSH">LSH</a></tag>
+      <span class="tag"><a href="/tags.html#LSH">LSH</a></span>
     
   </p>
+  
   <p><p>Approximate nearest neighbour (ANN) search is one of the most important problems in computer science fields such as data mining or computer vision. In this paper, we focus on ANN for high-dimensional binary vectors and we propose a simple yet powerful search method that uses Random Binary Search Trees (RBST). We apply our method to a dataset of 1.25M binary local feature descriptors obtained from a real-life image-based localisation system provided by Google as a part of Project Tango. An extensive evaluation of our method against the state-of-the-art variations of Locality Sensitive Hashing (LSH), namely Uniform LSH and Multi-probe LSH, shows the superiority of our method in terms of retrieval precision with performance boost of over 20%</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/komorowski2017random.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/komorowski2017random.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

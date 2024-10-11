@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/laaksonen2016constructing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Constructing Error-correcting Binary Codes Using Transitive Permutation Groups" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Let $A_2(n,d)$ be the maximum size of a binary code of length $n$ and minimum distance $d$. In this paper we present the following new lower bounds: $A_2(18,4) \\ge 5632$, $A_2(21,4) \\ge 40960$, $A_2(22,4) \\ge 81920$, $A_2(23,4) \\ge 163840$, $A_2(24,4) \\ge 327680$, $A_2(24,10) \\ge 136$, and $A_2(25,6) \\ge 17920$. The new lower bounds are a result of a systematic computer search over transitive permutation groups.","headline":"Constructing Error-correcting Binary Codes Using Transitive Permutation Groups","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/laaksonen2016constructing/"},"url":"https://learning2hash.github.io/publications/laaksonen2016constructing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Let $A_2(n,d)$ be the maximum size of a binary code of length $n$ and minimum distance $d$. In this paper we present the following new lower bounds: $A_2(18,4) \\ge 5632$, $A_2(21,4) \\ge 40960$, $A_2(22,4) \\ge 81920$, $A_2(23,4) \\ge 163840$, $A_2(24,4) \\ge 327680$, $A_2(24,10) \\ge 136$, and $A_2(25,6) \\ge 17920$. The new lower bounds are a result of a systematic computer search over transitive permutation groups.","headline":"Constructing Error-correcting Binary Codes Using Transitive Permutation Groups","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/laaksonen2016constructing/"},"url":"https://learning2hash.github.io/publications/laaksonen2016constructing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Constructing Error-correcting Binary Codes Using Transitive Permutation Groups</h1>
   <h5>Laaksonen Antti, Östergård Patric R. J.. Arxiv 2016</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1604.06022" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Constructing Error-correcting Binary Codes Using Transitive Permutation Groups' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Constructing Error-correcting Binary Codes Using Transitive Permutation Groups' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Constructing%20Error-correcting%20Binary%20Codes%20Using%20Transitive%20Permutation%20Groups' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Constructing%20Error-correcting%20Binary%20Codes%20Using%20Transitive%20Permutation%20Groups' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>Let $A_2(n,d)$ be the maximum size of a binary code of length $n$ and minimum distance $d$. In this paper we present the following new lower bounds: $A_2(18,4) \ge 5632$, $A_2(21,4) \ge 40960$, $A_2(22,4) \ge 81920$, $A_2(23,4) \ge 163840$, $A_2(24,4) \ge 327680$, $A_2(24,10) \ge 136$, and $A_2(25,6) \ge 17920$. The new lower bounds are a result of a systematic computer search over transitive permutation groups.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/laaksonen2016constructing.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/laaksonen2016constructing.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/s%C3%A8te2013some/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Some Properties Of Faber-walsh Polynomials" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Walsh introduced a generalisation of Faber polynomials to certain compact sets which need not be connected. We derive several equivalent representations of these Faber-Walsh polynomials, analogous to representations of Faber polynomials. Some simple asymptotic properties of the Faber-Walsh polynomials on the complement of the compact set are established. We further show that suitably normalised Faber-Walsh polynomials are asymptotically optimal polynomials in the sense of [Eiermann and Niethammer 1983].","headline":"Some Properties Of Faber-walsh Polynomials","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/s%C3%A8te2013some/"},"url":"https://learning2hash.github.io/publications/s%C3%A8te2013some/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Walsh introduced a generalisation of Faber polynomials to certain compact sets which need not be connected. We derive several equivalent representations of these Faber-Walsh polynomials, analogous to representations of Faber polynomials. Some simple asymptotic properties of the Faber-Walsh polynomials on the complement of the compact set are established. We further show that suitably normalised Faber-Walsh polynomials are asymptotically optimal polynomials in the sense of [Eiermann and Niethammer 1983].","headline":"Some Properties Of Faber-walsh Polynomials","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/s%C3%A8te2013some/"},"url":"https://learning2hash.github.io/publications/s%C3%A8te2013some/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Some Properties Of Faber-walsh Polynomials</h1>
   <h5>Sète Olivier. Arxiv 2013</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1306.1347" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Some Properties Of Faber-walsh Polynomials' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Some Properties Of Faber-walsh Polynomials' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Some%20Properties%20Of%20Faber-walsh%20Polynomials' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Some%20Properties%20Of%20Faber-walsh%20Polynomials' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>Walsh introduced a generalisation of Faber polynomials to certain compact sets which need not be connected. We derive several equivalent representations of these Faber-Walsh polynomials, analogous to representations of Faber polynomials. Some simple asymptotic properties of the Faber-Walsh polynomials on the complement of the compact set are established. We further show that suitably normalised Faber-Walsh polynomials are asymptotically optimal polynomials in the sense of [Eiermann and Niethammer 1983].</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/sète2013some.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/sète2013some.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

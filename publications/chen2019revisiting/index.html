@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/chen2019revisiting/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Revisiting Consistent Hashing With Bounded Loads" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Dynamic load balancing lies at the heart of distributed caching. Here, the goal is to assign objects (load) to servers (computing nodes) in a way that provides load balancing while at the same time dynamically adjusts to the addition or removal of servers. One essential requirement is that the addition or removal of small servers should not require us to recompute the complete assignment. A popular and widely adopted solution is the two-decade-old Consistent Hashing (CH). Recently, an elegant extension was provided to account for server bounds. In this paper, we identify that existing methodologies for CH and its variants suffer from cascaded overflow, leading to poor load balancing. This cascading effect leads to decreasing performance of the hashing procedure with increasing load. To overcome the cascading effect, we propose a simple solution to CH based on recent advances in fast minwise hashing. We show, both theoretically and empirically, that our proposed solution is significantly superior for load balancing and is optimal in many senses. On the AOL search dataset and Indiana University Clicks dataset with real user activity, our proposed solution reduces cache misses by several magnitudes.","headline":"Revisiting Consistent Hashing With Bounded Loads","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2019revisiting/"},"url":"https://learning2hash.github.io/publications/chen2019revisiting/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Dynamic load balancing lies at the heart of distributed caching. Here, the goal is to assign objects (load) to servers (computing nodes) in a way that provides load balancing while at the same time dynamically adjusts to the addition or removal of servers. One essential requirement is that the addition or removal of small servers should not require us to recompute the complete assignment. A popular and widely adopted solution is the two-decade-old Consistent Hashing (CH). Recently, an elegant extension was provided to account for server bounds. In this paper, we identify that existing methodologies for CH and its variants suffer from cascaded overflow, leading to poor load balancing. This cascading effect leads to decreasing performance of the hashing procedure with increasing load. To overcome the cascading effect, we propose a simple solution to CH based on recent advances in fast minwise hashing. We show, both theoretically and empirically, that our proposed solution is significantly superior for load balancing and is optimal in many senses. On the AOL search dataset and Indiana University Clicks dataset with real user activity, our proposed solution reduces cache misses by several magnitudes.","headline":"Revisiting Consistent Hashing With Bounded Loads","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2019revisiting/"},"url":"https://learning2hash.github.io/publications/chen2019revisiting/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Revisiting Consistent Hashing With Bounded Loads</h1>
   <h5>Chen John, Coleman Ben, Shrivastava Anshumali. Arxiv 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1908.08762" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Revisiting Consistent Hashing With Bounded Loads' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Revisiting Consistent Hashing With Bounded Loads' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Revisiting%20Consistent%20Hashing%20With%20Bounded%20Loads' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Revisiting%20Consistent%20Hashing%20With%20Bounded%20Loads' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>Dynamic load balancing lies at the heart of distributed caching. Here, the goal is to assign objects (load) to servers (computing nodes) in a way that provides load balancing while at the same time dynamically adjusts to the addition or removal of servers. One essential requirement is that the addition or removal of small servers should not require us to recompute the complete assignment. A popular and widely adopted solution is the two-decade-old Consistent Hashing (CH). Recently, an elegant extension was provided to account for server bounds. In this paper, we identify that existing methodologies for CH and its variants suffer from cascaded overflow, leading to poor load balancing. This cascading effect leads to decreasing performance of the hashing procedure with increasing load. To overcome the cascading effect, we propose a simple solution to CH based on recent advances in fast minwise hashing. We show, both theoretically and empirically, that our proposed solution is significantly superior for load balancing and is optimal in many senses. On the AOL search dataset and Indiana University Clicks dataset with real user activity, our proposed solution reduces cache misses by several magnitudes.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/chen2019revisiting.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/chen2019revisiting.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

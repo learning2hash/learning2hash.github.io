@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/buchanan2023review/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Review Of The NIST Light-weight Cryptography Finalists" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Since 2016, NIST has been assessing lightweight encryption methods, and, in 2022, NIST published the final 10: ASCON, Elephant, GIFT-COFB, Grain128-AEAD, ISAP, Photon-Beetle, Romulus, Sparkle, TinyJambu, and Xoodyak. At the time that the article was written, NISC announced ASCOn as the chosen method that will be published as NIST’S lightweight cryptography standard later in 2023. In this article, we provide a comparison between these methods in terms of energy efficiency, time for encryption, and time for hashing.","headline":"Review Of The NIST Light-weight Cryptography Finalists","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/buchanan2023review/"},"url":"https://learning2hash.github.io/publications/buchanan2023review/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Since 2016, NIST has been assessing lightweight encryption methods, and, in 2022, NIST published the final 10: ASCON, Elephant, GIFT-COFB, Grain128-AEAD, ISAP, Photon-Beetle, Romulus, Sparkle, TinyJambu, and Xoodyak. At the time that the article was written, NISC announced ASCOn as the chosen method that will be published as NIST’S lightweight cryptography standard later in 2023. In this article, we provide a comparison between these methods in terms of energy efficiency, time for encryption, and time for hashing.","headline":"Review Of The NIST Light-weight Cryptography Finalists","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/buchanan2023review/"},"url":"https://learning2hash.github.io/publications/buchanan2023review/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Review Of The NIST Light-weight Cryptography Finalists</h1>
   <h5>Buchanan William J, Maglaras Leandros. Arxiv 2023</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2303.14785" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Review Of The NIST Light-weight Cryptography Finalists' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Review Of The NIST Light-weight Cryptography Finalists' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Review%20Of%20The%20NIST%20Light-weight%20Cryptography%20Finalists' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Review%20Of%20The%20NIST%20Light-weight%20Cryptography%20Finalists' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Graph">Graph</a></tag>
+      <span class="tag"><a href="/tags.html#Graph">Graph</a></span>
     
   </p>
+  
   <p><p>Since 2016, NIST has been assessing lightweight encryption methods, and, in 2022, NIST published the final 10: ASCON, Elephant, GIFT-COFB, Grain128-AEAD, ISAP, Photon-Beetle, Romulus, Sparkle, TinyJambu, and Xoodyak. At the time that the article was written, NISC announced ASCOn as the chosen method that will be published as NIST’S lightweight cryptography standard later in 2023. In this article, we provide a comparison between these methods in terms of energy efficiency, time for encryption, and time for hashing.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/buchanan2023review.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/buchanan2023review.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

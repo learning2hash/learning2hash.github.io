@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/tripathy2021scalable/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Scalable Hash Table For NUMA Systems" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Hash tables are used in a plethora of applications, including database operations, DNA sequencing, string searching, and many more. As such, there are many parallelized hash tables targeting multicore, distributed, and accelerator-based systems. We present in this work a multi-GPU hash table implementation that can process keys at a throughput comparable to that of distributed hash tables. Distributed CPU hash tables have received significantly more attention than GPU-based hash tables. We show that a single node with multiple GPUs offers roughly the same performance as a 500-1,000-core CPU-based cluster. Our algorithm’s key component is our use of multiple sparse-graph data structures and binning techniques to build the hash table. As has been shown individually, these components can be written with massive parallelism that is amenable to GPU acceleration. Since we focus on an individual node, we also leverage communication primitives that are typically prohibitive in distributed environments. We show that our new multi-GPU algorithm shares many of the same features of the single GPU algorithm – thus we have efficient collision management capabilities and can deal with a large number of duplicates. We evaluate our algorithm on two multi-GPU compute nodes: 1) an NVIDIA DGX2 server with 16 GPUs and 2) an IBM Power 9 Processor with 6 NVIDIA GPUs. With 32-bit keys, our implementation processes 8B keys per second, comparable to some 500-1,000-core CPU-based clusters and 4X faster than prior single-GPU implementations.","headline":"Scalable Hash Table For NUMA Systems","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tripathy2021scalable/"},"url":"https://learning2hash.github.io/publications/tripathy2021scalable/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Hash tables are used in a plethora of applications, including database operations, DNA sequencing, string searching, and many more. As such, there are many parallelized hash tables targeting multicore, distributed, and accelerator-based systems. We present in this work a multi-GPU hash table implementation that can process keys at a throughput comparable to that of distributed hash tables. Distributed CPU hash tables have received significantly more attention than GPU-based hash tables. We show that a single node with multiple GPUs offers roughly the same performance as a 500-1,000-core CPU-based cluster. Our algorithm’s key component is our use of multiple sparse-graph data structures and binning techniques to build the hash table. As has been shown individually, these components can be written with massive parallelism that is amenable to GPU acceleration. Since we focus on an individual node, we also leverage communication primitives that are typically prohibitive in distributed environments. We show that our new multi-GPU algorithm shares many of the same features of the single GPU algorithm – thus we have efficient collision management capabilities and can deal with a large number of duplicates. We evaluate our algorithm on two multi-GPU compute nodes: 1) an NVIDIA DGX2 server with 16 GPUs and 2) an IBM Power 9 Processor with 6 NVIDIA GPUs. With 32-bit keys, our implementation processes 8B keys per second, comparable to some 500-1,000-core CPU-based clusters and 4X faster than prior single-GPU implementations.","headline":"Scalable Hash Table For NUMA Systems","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tripathy2021scalable/"},"url":"https://learning2hash.github.io/publications/tripathy2021scalable/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Scalable Hash Table For NUMA Systems</h1>
   <h5>Tripathy Alok, Green Oded. Arxiv 2021</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2104.00792" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Scalable Hash Table For NUMA Systems' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Scalable Hash Table For NUMA Systems' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Scalable%20Hash%20Table%20For%20NUMA%20Systems' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Scalable%20Hash%20Table%20For%20NUMA%20Systems' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Graph">Graph</a></tag>
+      <span class="tag"><a href="/tags.html#Graph">Graph</a></span>
     
   </p>
+  
   <p><p>Hash tables are used in a plethora of applications, including database operations, DNA sequencing, string searching, and many more. As such, there are many parallelized hash tables targeting multicore, distributed, and accelerator-based systems. We present in this work a multi-GPU hash table implementation that can process keys at a throughput comparable to that of distributed hash tables. Distributed CPU hash tables have received significantly more attention than GPU-based hash tables. We show that a single node with multiple GPUs offers roughly the same performance as a 500-1,000-core CPU-based cluster. Our algorithm’s key component is our use of multiple sparse-graph data structures and binning techniques to build the hash table. As has been shown individually, these components can be written with massive parallelism that is amenable to GPU acceleration. Since we focus on an individual node, we also leverage communication primitives that are typically prohibitive in distributed environments. We show that our new multi-GPU algorithm shares many of the same features of the single GPU algorithm – thus we have efficient collision management capabilities and can deal with a large number of duplicates. We evaluate our algorithm on two multi-GPU compute nodes: 1) an NVIDIA DGX2 server with 16 GPUs and 2) an IBM Power 9 Processor with 6 NVIDIA GPUs. With 32-bit keys, our implementation processes 8B keys per second, comparable to some 500-1,000-core CPU-based clusters and 4X faster than prior single-GPU implementations.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/tripathy2021scalable.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/tripathy2021scalable.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

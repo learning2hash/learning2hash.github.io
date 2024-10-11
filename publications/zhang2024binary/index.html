@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2024binary/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Binary Code Ranking With Weighted Hamming Distance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Binary hashing has been widely used for efficient similarity search due to its query and storage efficiency. In most existing binary hashing methods, the high-dimensional data are embedded into Hamming space and the distance or similarity of two points are approximated by the Hamming distance between their binary codes. The Hamming distance calculation is efficient, however, in practice, there are often lots of results sharing the same Hamming distance to a query, which makes this distance measure ambiguous and poses a critical issue for similarity search where ranking is important. In this paper, we propose a weighted Hamming distance ranking algorithm (WhRank) to rank the binary codes of hashing methods. By assigning different bit-level weights to different hash bits, the returned binary codes are ranked at a finer-grained binary code level. We give an algorithm to learn the data-adaptive and query-sensitive weight for each hash bit. Evaluations on two large-scale image data sets demonstrate the efficacy of our weighted Hamming distance for binary code ranking.","headline":"Binary Code Ranking With Weighted Hamming Distance","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2024binary/"},"url":"https://learning2hash.github.io/publications/zhang2024binary/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Binary hashing has been widely used for efficient similarity search due to its query and storage efficiency. In most existing binary hashing methods, the high-dimensional data are embedded into Hamming space and the distance or similarity of two points are approximated by the Hamming distance between their binary codes. The Hamming distance calculation is efficient, however, in practice, there are often lots of results sharing the same Hamming distance to a query, which makes this distance measure ambiguous and poses a critical issue for similarity search where ranking is important. In this paper, we propose a weighted Hamming distance ranking algorithm (WhRank) to rank the binary codes of hashing methods. By assigning different bit-level weights to different hash bits, the returned binary codes are ranked at a finer-grained binary code level. We give an algorithm to learn the data-adaptive and query-sensitive weight for each hash bit. Evaluations on two large-scale image data sets demonstrate the efficacy of our weighted Hamming distance for binary code ranking.","headline":"Binary Code Ranking With Weighted Hamming Distance","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2024binary/"},"url":"https://learning2hash.github.io/publications/zhang2024binary/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Binary Code Ranking With Weighted Hamming Distance</h1>
   <h5>Zhang Lei, Zhang, Tang, Lu, Tian. Arxiv 2024</h5>
+  
   <p>
     
       [<a href="https://openaccess.thecvf.com/content_cvpr_2013/papers/Zhang_Binary_Code_Ranking_2013_CVPR_paper.pdf" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Binary Code Ranking With Weighted Hamming Distance' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Binary Code Ranking With Weighted Hamming Distance' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Binary%20Code%20Ranking%20With%20Weighted%20Hamming%20Distance' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Binary%20Code%20Ranking%20With%20Weighted%20Hamming%20Distance' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>Binary hashing has been widely used for efficient similarity search due to its query and storage efficiency. In most existing binary hashing methods, the high-dimensional data are embedded into Hamming space and the distance or similarity of two points are approximated by the Hamming distance between their binary codes. The Hamming distance calculation is efficient, however, in practice, there are often lots of results sharing the same Hamming distance to a query, which makes this distance measure ambiguous and poses a critical issue for similarity search where ranking is important. In this paper, we propose a weighted Hamming distance ranking algorithm (WhRank) to rank the binary codes of hashing methods. By assigning different bit-level weights to different hash bits, the returned binary codes are ranked at a finer-grained binary code level. We give an algorithm to learn the data-adaptive and query-sensitive weight for each hash bit. Evaluations on two large-scale image data sets demonstrate the efficacy of our weighted Hamming distance for binary code ranking.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/zhang2024binary.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/zhang2024binary.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

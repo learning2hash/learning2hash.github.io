@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/mendelson2018anchorhash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Anchorhash A Scalable Consistent Hash" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Consistent hashing (CH) is a central building block in many networking applications, from datacenter load-balancing to distributed storage. Unfortunately, state-of-the-art CH solutions cannot ensure full consistency under arbitrary changes and/or cannot scale while maintaining reasonable memory footprints and update times. We present AnchorHash, a scalable and fully-consistent hashing algorithm. AnchorHash achieves high key lookup rates, a low memory footprint, and low update times. We formally establish its strong theoretical guarantees, and present advanced implementations with a memory footprint of only a few bytes per resource. Moreover, extensive evaluations indicate that it outperforms state-of-the-art algorithms, and that it can scale on a single core to 100 million resources while still achieving a key lookup rate of more than 15 million keys per second.","headline":"Anchorhash A Scalable Consistent Hash","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mendelson2018anchorhash/"},"url":"https://learning2hash.github.io/publications/mendelson2018anchorhash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Consistent hashing (CH) is a central building block in many networking applications, from datacenter load-balancing to distributed storage. Unfortunately, state-of-the-art CH solutions cannot ensure full consistency under arbitrary changes and/or cannot scale while maintaining reasonable memory footprints and update times. We present AnchorHash, a scalable and fully-consistent hashing algorithm. AnchorHash achieves high key lookup rates, a low memory footprint, and low update times. We formally establish its strong theoretical guarantees, and present advanced implementations with a memory footprint of only a few bytes per resource. Moreover, extensive evaluations indicate that it outperforms state-of-the-art algorithms, and that it can scale on a single core to 100 million resources while still achieving a key lookup rate of more than 15 million keys per second.","headline":"Anchorhash A Scalable Consistent Hash","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mendelson2018anchorhash/"},"url":"https://learning2hash.github.io/publications/mendelson2018anchorhash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Anchorhash A Scalable Consistent Hash</h1>
   <h5>Mendelson Gal, Vargaftik Shay, Barabash Katherine, Lorenz Dean, Keslassy Isaac, Orda Ariel. Arxiv 2018</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1812.09674" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Anchorhash A Scalable Consistent Hash' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Anchorhash A Scalable Consistent Hash' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Anchorhash%20A%20Scalable%20Consistent%20Hash' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Anchorhash%20A%20Scalable%20Consistent%20Hash' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>Consistent hashing (CH) is a central building block in many networking applications, from datacenter load-balancing to distributed storage. Unfortunately, state-of-the-art CH solutions cannot ensure full consistency under arbitrary changes and/or cannot scale while maintaining reasonable memory footprints and update times. We present AnchorHash, a scalable and fully-consistent hashing algorithm. AnchorHash achieves high key lookup rates, a low memory footprint, and low update times. We formally establish its strong theoretical guarantees, and present advanced implementations with a memory footprint of only a few bytes per resource. Moreover, extensive evaluations indicate that it outperforms state-of-the-art algorithms, and that it can scale on a single core to 100 million resources while still achieving a key lookup rate of more than 15 million keys per second.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/mendelson2018anchorhash.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/mendelson2018anchorhash.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

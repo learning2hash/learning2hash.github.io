@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/indyk2017practical/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Practical Data-dependent Metric Compression With Provable Guarantees" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"We introduce a new distance-preserving compact representation of multi-dimensional point-sets. Given n points in a d-dimensional space where each coordinate is represented using B bits (i.e., dB bits per point), it produces a representation of size O( d log(d B/epsilon) +log n) bits per point from which one can approximate the distances up to a factor of 1 + epsilon. Our algorithm almost matches the recent bound of Indyk et al, 2017} while being much simpler. We compare our algorithm to Product Quantization (PQ) (Jegou et al, 2011) a state of the art heuristic metric compression method. We evaluate both algorithms on several data sets: SIFT, MNIST, New York City taxi time series and a synthetic one-dimensional data set embedded in a high-dimensional space. Our algorithm produces representations that are comparable to or better than those produced by PQ, while having provable guarantees on its performance.","headline":"Practical Data-dependent Metric Compression With Provable Guarantees","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/indyk2017practical/"},"url":"https://learning2hash.github.io/publications/indyk2017practical/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"We introduce a new distance-preserving compact representation of multi-dimensional point-sets. Given n points in a d-dimensional space where each coordinate is represented using B bits (i.e., dB bits per point), it produces a representation of size O( d log(d B/epsilon) +log n) bits per point from which one can approximate the distances up to a factor of 1 + epsilon. Our algorithm almost matches the recent bound of Indyk et al, 2017} while being much simpler. We compare our algorithm to Product Quantization (PQ) (Jegou et al, 2011) a state of the art heuristic metric compression method. We evaluate both algorithms on several data sets: SIFT, MNIST, New York City taxi time series and a synthetic one-dimensional data set embedded in a high-dimensional space. Our algorithm produces representations that are comparable to or better than those produced by PQ, while having provable guarantees on its performance.","headline":"Practical Data-dependent Metric Compression With Provable Guarantees","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/indyk2017practical/"},"url":"https://learning2hash.github.io/publications/indyk2017practical/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Practical Data-dependent Metric Compression With Provable Guarantees</h1>
   <h5>Piotr Indyk, Ilya Razenshteyn, Tal Wagner. Neural Information Processing Systems 2017</h5>
+  
   <p>
     
       [<a href="https://papers.nips.cc/paper/2017/hash/49b8b4f95f02e055801da3b4f58e28b7-Abstract.html" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Practical Data-dependent Metric Compression With Provable Guarantees' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Practical Data-dependent Metric Compression With Provable Guarantees' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Practical%20Data-dependent%20Metric%20Compression%20With%20Provable%20Guarantees' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Practical%20Data-dependent%20Metric%20Compression%20With%20Provable%20Guarantees' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#NEURIPS">NEURIPS</a></tag>
+      <span class="tag"><a href="/tags.html#NEURIPS">NEURIPS</a></span>
     
-      <tag><a href="/tags.html#Quantisation">Quantisation</a></tag>
+      <span class="tag"><a href="/tags.html#Quantisation">Quantisation</a></span>
     
   </p>
+  
   <p><p>We introduce a new distance-preserving compact representation of multi-dimensional point-sets. Given n points in a d-dimensional space where each coordinate is represented using B bits (i.e., dB bits per point), it produces a representation of size O( d log(d B/epsilon) +log n) bits per point from which one can approximate the distances up to a factor of 1 + epsilon. Our algorithm almost matches the recent bound of Indyk et al, 2017} while being much simpler. We compare our algorithm to Product Quantization (PQ) (Jegou et al, 2011) a state of the art heuristic metric compression method. We evaluate both algorithms on several data sets: SIFT, MNIST, New York City taxi time series and a synthetic one-dimensional data set embedded in a high-dimensional space. Our algorithm produces representations that are comparable to or better than those produced by PQ, while having provable guarantees on its performance.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/indyk2017practical.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/indyk2017practical.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

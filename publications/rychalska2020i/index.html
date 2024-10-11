@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/rychalska2020i/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="I Know Why You Like This Movie Interpretable Efficient Multimodal Recommender" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Recently, the Efficient Manifold Density Estimator (EMDE) model has been introduced. The model exploits Local Sensitive Hashing and Count-Min Sketch algorithms, combining them with a neural network to achieve state-of-the-art results on multiple recommender datasets. However, this model ingests a compressed joint representation of all input items for each user/session, so calculating attributions for separate items via gradient-based methods seems not applicable. We prove that interpreting this model in a white-box setting is possible thanks to the properties of EMDE item retrieval method. By exploiting multimodal flexibility of this model, we obtain meaningful results showing the influence of multiple modalities: text, categorical features, and images, on movie recommendation output.","headline":"I Know Why You Like This Movie Interpretable Efficient Multimodal Recommender","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/rychalska2020i/"},"url":"https://learning2hash.github.io/publications/rychalska2020i/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Recently, the Efficient Manifold Density Estimator (EMDE) model has been introduced. The model exploits Local Sensitive Hashing and Count-Min Sketch algorithms, combining them with a neural network to achieve state-of-the-art results on multiple recommender datasets. However, this model ingests a compressed joint representation of all input items for each user/session, so calculating attributions for separate items via gradient-based methods seems not applicable. We prove that interpreting this model in a white-box setting is possible thanks to the properties of EMDE item retrieval method. By exploiting multimodal flexibility of this model, we obtain meaningful results showing the influence of multiple modalities: text, categorical features, and images, on movie recommendation output.","headline":"I Know Why You Like This Movie Interpretable Efficient Multimodal Recommender","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/rychalska2020i/"},"url":"https://learning2hash.github.io/publications/rychalska2020i/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">I Know Why You Like This Movie Interpretable Efficient Multimodal Recommender</h1>
   <h5>Rychalska Barbara, Basaj Dominika, Dąbrowski Jacek, Daniluk Michał. Arxiv 2020</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2006.09979" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=I Know Why You Like This Movie Interpretable Efficient Multimodal Recommender' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=I Know Why You Like This Movie Interpretable Efficient Multimodal Recommender' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=I%20Know%20Why%20You%20Like%20This%20Movie%20Interpretable%20Efficient%20Multimodal%20Recommender' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=I%20Know%20Why%20You%20Like%20This%20Movie%20Interpretable%20Efficient%20Multimodal%20Recommender' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Cross Modal">Cross Modal</a></tag>
+      <span class="tag"><a href="/tags.html#Cross Modal">Cross Modal</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>Recently, the Efficient Manifold Density Estimator (EMDE) model has been introduced. The model exploits Local Sensitive Hashing and Count-Min Sketch algorithms, combining them with a neural network to achieve state-of-the-art results on multiple recommender datasets. However, this model ingests a compressed joint representation of all input items for each user/session, so calculating attributions for separate items via gradient-based methods seems not applicable. We prove that interpreting this model in a white-box setting is possible thanks to the properties of EMDE item retrieval method. By exploiting multimodal flexibility of this model, we obtain meaningful results showing the influence of multiple modalities: text, categorical features, and images, on movie recommendation output.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/rychalska2020i.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/rychalska2020i.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

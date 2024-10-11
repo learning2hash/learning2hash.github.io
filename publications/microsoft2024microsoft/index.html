@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/microsoft2024microsoft/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Microsoft SPACEV-1B" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Microsoft SPACEV-1B is a new web search related dataset released by Microsoft Bing for this competition. It consists of document and query vectors encoded by Microsoft SpaceV Superior model to capture generic intent representation.","headline":"Microsoft SPACEV-1B","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/microsoft2024microsoft/"},"url":"https://learning2hash.github.io/publications/microsoft2024microsoft/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Microsoft SPACEV-1B is a new web search related dataset released by Microsoft Bing for this competition. It consists of document and query vectors encoded by Microsoft SpaceV Superior model to capture generic intent representation.","headline":"Microsoft SPACEV-1B","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/microsoft2024microsoft/"},"url":"https://learning2hash.github.io/publications/microsoft2024microsoft/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Microsoft SPACEV-1B</h1>
   <h5>Microsoft Microsoft. Arxiv 2024</h5>
+  
   <p>
     
       [<a href="https://github.com/microsoft/SPTAG/tree/main/datasets/SPACEV1B" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Microsoft SPACEV-1B' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Microsoft SPACEV-1B' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Microsoft%20SPACEV-1B' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Microsoft%20SPACEV-1B' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>Microsoft SPACEV-1B is a new web search related dataset released by Microsoft Bing for this competition. It consists of document and query vectors encoded by Microsoft SpaceV Superior model to capture generic intent representation.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/microsoft2024microsoft.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/microsoft2024microsoft.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

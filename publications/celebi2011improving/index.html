@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/celebi2011improving/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Improving The Performance Of K-means For Color Quantization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Color quantization is an important operation with many applications in graphics and image processing. Most quantization methods are essentially based on data clustering algorithms. However, despite its popularity as a general purpose clustering algorithm, k-means has not received much respect in the color quantization literature because of its high computational requirements and sensitivity to initialization. In this paper, we investigate the performance of k-means as a color quantizer. We implement fast and exact variants of k-means with several initialization schemes and then compare the resulting quantizers to some of the most popular quantizers in the literature. Experiments on a diverse set of images demonstrate that an efficient implementation of k-means with an appropriate initialization strategy can in fact serve as a very effective color quantizer.","headline":"Improving The Performance Of K-means For Color Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/celebi2011improving/"},"url":"https://learning2hash.github.io/publications/celebi2011improving/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Color quantization is an important operation with many applications in graphics and image processing. Most quantization methods are essentially based on data clustering algorithms. However, despite its popularity as a general purpose clustering algorithm, k-means has not received much respect in the color quantization literature because of its high computational requirements and sensitivity to initialization. In this paper, we investigate the performance of k-means as a color quantizer. We implement fast and exact variants of k-means with several initialization schemes and then compare the resulting quantizers to some of the most popular quantizers in the literature. Experiments on a diverse set of images demonstrate that an efficient implementation of k-means with an appropriate initialization strategy can in fact serve as a very effective color quantizer.","headline":"Improving The Performance Of K-means For Color Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/celebi2011improving/"},"url":"https://learning2hash.github.io/publications/celebi2011improving/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Improving The Performance Of K-means For Color Quantization</h1>
   <h5>Celebi M. Emre. Image and Vision Computing 2011</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1101.0395" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Improving The Performance Of K-means For Color Quantization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Improving The Performance Of K-means For Color Quantization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Improving%20The%20Performance%20Of%20K-means%20For%20Color%20Quantization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Improving%20The%20Performance%20Of%20K-means%20For%20Color%20Quantization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#Graph">Graph</a></tag>
+      <span class="tag"><a href="/tags.html#Graph">Graph</a></span>
     
-      <tag><a href="/tags.html#Quantisation">Quantisation</a></tag>
+      <span class="tag"><a href="/tags.html#Quantisation">Quantisation</a></span>
     
-      <tag><a href="/tags.html#Unsupervised">Unsupervised</a></tag>
+      <span class="tag"><a href="/tags.html#Unsupervised">Unsupervised</a></span>
     
   </p>
+  
   <p><p>Color quantization is an important operation with many applications in graphics and image processing. Most quantization methods are essentially based on data clustering algorithms. However, despite its popularity as a general purpose clustering algorithm, k-means has not received much respect in the color quantization literature because of its high computational requirements and sensitivity to initialization. In this paper, we investigate the performance of k-means as a color quantizer. We implement fast and exact variants of k-means with several initialization schemes and then compare the resulting quantizers to some of the most popular quantizers in the literature. Experiments on a diverse set of images demonstrate that an efficient implementation of k-means with an appropriate initialization strategy can in fact serve as a very effective color quantizer.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/celebi2011improving.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/celebi2011improving.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

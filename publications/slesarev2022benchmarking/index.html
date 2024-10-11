@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/slesarev2022benchmarking/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Benchmarking Hashing Algorithms For Load Balancing In A Distributed Database Environment" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Modern high load applications store data using multiple database instances. Such an architecture requires data consistency, and it is important to ensure even distribution of data among nodes. Load balancing is used to achieve these goals. Hashing is the backbone of virtually all load balancing systems. Since the introduction of classic Consistent Hashing, many algorithms have been devised for this purpose. One of the purposes of the load balancer is to ensure storage cluster scalability. It is crucial for the performance of the whole system to transfer as few data records as possible during node addition or removal. The load balancer hashing algorithm has the greatest impact on this process. In this paper we experimentally evaluate several hashing algorithms used for load balancing, conducting both simulated and real system experiments. To evaluate algorithm performance, we have developed a benchmark suite based on Unidata MDM~ – a scalable toolkit for various Master Data Management (MDM) applications. For assessment, we have employed three criteria~ – uniformity of the produced distribution, the number of moved records, and computation speed. Following the results of our experiments, we have created a table, in which each algorithm is given an assessment according to the abovementioned criteria.","headline":"Benchmarking Hashing Algorithms For Load Balancing In A Distributed Database Environment","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/slesarev2022benchmarking/"},"url":"https://learning2hash.github.io/publications/slesarev2022benchmarking/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Modern high load applications store data using multiple database instances. Such an architecture requires data consistency, and it is important to ensure even distribution of data among nodes. Load balancing is used to achieve these goals. Hashing is the backbone of virtually all load balancing systems. Since the introduction of classic Consistent Hashing, many algorithms have been devised for this purpose. One of the purposes of the load balancer is to ensure storage cluster scalability. It is crucial for the performance of the whole system to transfer as few data records as possible during node addition or removal. The load balancer hashing algorithm has the greatest impact on this process. In this paper we experimentally evaluate several hashing algorithms used for load balancing, conducting both simulated and real system experiments. To evaluate algorithm performance, we have developed a benchmark suite based on Unidata MDM~ – a scalable toolkit for various Master Data Management (MDM) applications. For assessment, we have employed three criteria~ – uniformity of the produced distribution, the number of moved records, and computation speed. Following the results of our experiments, we have created a table, in which each algorithm is given an assessment according to the abovementioned criteria.","headline":"Benchmarking Hashing Algorithms For Load Balancing In A Distributed Database Environment","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/slesarev2022benchmarking/"},"url":"https://learning2hash.github.io/publications/slesarev2022benchmarking/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Benchmarking Hashing Algorithms For Load Balancing In A Distributed Database Environment</h1>
   <h5>Slesarev Alexander, Mikhailov Mikhail, Chernishev George. Arxiv 2022</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2211.00741" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Benchmarking Hashing Algorithms For Load Balancing In A Distributed Database Environment' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Benchmarking Hashing Algorithms For Load Balancing In A Distributed Database Environment' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Benchmarking%20Hashing%20Algorithms%20For%20Load%20Balancing%20In%20A%20Distributed%20Database%20Environment' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Benchmarking%20Hashing%20Algorithms%20For%20Load%20Balancing%20In%20A%20Distributed%20Database%20Environment' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>Modern high load applications store data using multiple database instances. Such an architecture requires data consistency, and it is important to ensure even distribution of data among nodes. Load balancing is used to achieve these goals. Hashing is the backbone of virtually all load balancing systems. Since the introduction of classic Consistent Hashing, many algorithms have been devised for this purpose. One of the purposes of the load balancer is to ensure storage cluster scalability. It is crucial for the performance of the whole system to transfer as few data records as possible during node addition or removal. The load balancer hashing algorithm has the greatest impact on this process. In this paper we experimentally evaluate several hashing algorithms used for load balancing, conducting both simulated and real system experiments. To evaluate algorithm performance, we have developed a benchmark suite based on Unidata MDM~ – a scalable toolkit for various Master Data Management (MDM) applications. For assessment, we have employed three criteria~ – uniformity of the produced distribution, the number of moved records, and computation speed. Following the results of our experiments, we have created a table, in which each algorithm is given an assessment according to the abovementioned criteria.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/slesarev2022benchmarking.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/slesarev2022benchmarking.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

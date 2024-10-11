@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/weng2019efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient Querying From Weighted Binary Codes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Binary codes are widely used to represent the data due to their small storage and efficient computation. However, there exists an ambiguity problem that lots of binary codes share the same Hamming distance to a query. To alleviate the ambiguity problem, weighted binary codes assign different weights to each bit of binary codes and compare the binary codes by the weighted Hamming distance. Till now, performing the querying from the weighted binary codes efficiently is still an open issue. In this paper, we propose a new method to rank the weighted binary codes and return the nearest weighted binary codes of the query efficiently. In our method, based on the multi-index hash tables, two algorithms, the table bucket finding algorithm and the table merging algorithm, are proposed to select the nearest weighted binary codes of the query in a non-exhaustive and accurate way. The proposed algorithms are justified by proving their theoretic properties. The experiments on three large-scale datasets validate both the search efficiency and the search accuracy of our method. Especially for the number of weighted binary codes up to one billion, our method shows a great improvement of more than 1000 times faster than the linear scan.","headline":"Efficient Querying From Weighted Binary Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weng2019efficient/"},"url":"https://learning2hash.github.io/publications/weng2019efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Binary codes are widely used to represent the data due to their small storage and efficient computation. However, there exists an ambiguity problem that lots of binary codes share the same Hamming distance to a query. To alleviate the ambiguity problem, weighted binary codes assign different weights to each bit of binary codes and compare the binary codes by the weighted Hamming distance. Till now, performing the querying from the weighted binary codes efficiently is still an open issue. In this paper, we propose a new method to rank the weighted binary codes and return the nearest weighted binary codes of the query efficiently. In our method, based on the multi-index hash tables, two algorithms, the table bucket finding algorithm and the table merging algorithm, are proposed to select the nearest weighted binary codes of the query in a non-exhaustive and accurate way. The proposed algorithms are justified by proving their theoretic properties. The experiments on three large-scale datasets validate both the search efficiency and the search accuracy of our method. Especially for the number of weighted binary codes up to one billion, our method shows a great improvement of more than 1000 times faster than the linear scan.","headline":"Efficient Querying From Weighted Binary Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weng2019efficient/"},"url":"https://learning2hash.github.io/publications/weng2019efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Efficient Querying From Weighted Binary Codes</h1>
   <h5>Weng Zhenyu, Zhu Yuesheng. Arxiv 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1912.05006" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Efficient Querying From Weighted Binary Codes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Efficient Querying From Weighted Binary Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Efficient%20Querying%20From%20Weighted%20Binary%20Codes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Efficient%20Querying%20From%20Weighted%20Binary%20Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>Binary codes are widely used to represent the data due to their small storage and efficient computation. However, there exists an ambiguity problem that lots of binary codes share the same Hamming distance to a query. To alleviate the ambiguity problem, weighted binary codes assign different weights to each bit of binary codes and compare the binary codes by the weighted Hamming distance. Till now, performing the querying from the weighted binary codes efficiently is still an open issue. In this paper, we propose a new method to rank the weighted binary codes and return the nearest weighted binary codes of the query efficiently. In our method, based on the multi-index hash tables, two algorithms, the table bucket finding algorithm and the table merging algorithm, are proposed to select the nearest weighted binary codes of the query in a non-exhaustive and accurate way. The proposed algorithms are justified by proving their theoretic properties. The experiments on three large-scale datasets validate both the search efficiency and the search accuracy of our method. Especially for the number of weighted binary codes up to one billion, our method shows a great improvement of more than 1000 times faster than the linear scan.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/weng2019efficient.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/weng2019efficient.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

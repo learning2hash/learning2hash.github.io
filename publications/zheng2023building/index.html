@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/zheng2023building/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Building K-anonymous User Cohorts With Consecutive Consistent Weighted Sampling (CCWS)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"To retrieve personalized campaigns and creatives while protecting user privacy, digital advertising is shifting from member-based identity to cohort-based identity. Under such identity regime, an accurate and efficient cohort building algorithm is desired to group users with similar characteristics. In this paper, we propose a scalable $K$-anonymous cohort building algorithm called {\\em consecutive consistent weighted sampling} (CCWS). The proposed method combines the spirit of the ($p$-powered) consistent weighted sampling and hierarchical clustering, so that the $K$-anonymity is ensured by enforcing a lower bound on the size of cohorts. Evaluations on a LinkedIn dataset consisting of $&gt;70$M users and ads campaigns demonstrate that CCWS achieves substantial improvements over several hashing-based methods including sign random projections (SignRP), minwise hashing (MinHash), as well as the vanilla CWS.","headline":"Building K-anonymous User Cohorts With Consecutive Consistent Weighted Sampling (CCWS)","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zheng2023building/"},"url":"https://learning2hash.github.io/publications/zheng2023building/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"To retrieve personalized campaigns and creatives while protecting user privacy, digital advertising is shifting from member-based identity to cohort-based identity. Under such identity regime, an accurate and efficient cohort building algorithm is desired to group users with similar characteristics. In this paper, we propose a scalable $K$-anonymous cohort building algorithm called {\\em consecutive consistent weighted sampling} (CCWS). The proposed method combines the spirit of the ($p$-powered) consistent weighted sampling and hierarchical clustering, so that the $K$-anonymity is ensured by enforcing a lower bound on the size of cohorts. Evaluations on a LinkedIn dataset consisting of $&gt;70$M users and ads campaigns demonstrate that CCWS achieves substantial improvements over several hashing-based methods including sign random projections (SignRP), minwise hashing (MinHash), as well as the vanilla CWS.","headline":"Building K-anonymous User Cohorts With Consecutive Consistent Weighted Sampling (CCWS)","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zheng2023building/"},"url":"https://learning2hash.github.io/publications/zheng2023building/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Building K-anonymous User Cohorts With Consecutive Consistent Weighted Sampling (CCWS)</h1>
   <h5>Zheng Xinyi, Zhao Weijie, Li Xiaoyun, Li Ping. Arxiv 2023</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2304.13677" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Building K-anonymous User Cohorts With Consecutive Consistent Weighted Sampling (CCWS)' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Building K-anonymous User Cohorts With Consecutive Consistent Weighted Sampling (CCWS)' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Building%20K-anonymous%20User%20Cohorts%20With%20Consecutive%20Consistent%20Weighted%20Sampling%20(CCWS)' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Building%20K-anonymous%20User%20Cohorts%20With%20Consecutive%20Consistent%20Weighted%20Sampling%20(CCWS)' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Unsupervised">Unsupervised</a></tag>
+      <span class="tag"><a href="/tags.html#Unsupervised">Unsupervised</a></span>
     
   </p>
+  
   <p><p>To retrieve personalized campaigns and creatives while protecting user privacy, digital advertising is shifting from member-based identity to cohort-based identity. Under such identity regime, an accurate and efficient cohort building algorithm is desired to group users with similar characteristics. In this paper, we propose a scalable $K$-anonymous cohort building algorithm called {\em consecutive consistent weighted sampling} (CCWS). The proposed method combines the spirit of the ($p$-powered) consistent weighted sampling and hierarchical clustering, so that the $K$-anonymity is ensured by enforcing a lower bound on the size of cohorts. Evaluations on a LinkedIn dataset consisting of $&gt;70$M users and ads campaigns demonstrate that CCWS achieves substantial improvements over several hashing-based methods including sign random projections (SignRP), minwise hashing (MinHash), as well as the vanilla CWS.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/zheng2023building.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/zheng2023building.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

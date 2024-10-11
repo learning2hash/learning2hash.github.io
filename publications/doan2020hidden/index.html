@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/doan2020hidden/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="HM4 Hidden Markov Model With Memory Management For Visual Place Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Visual place recognition needs to be robust against appearance variability due to natural and man-made causes. Training data collection should thus be an ongoing process to allow continuous appearance changes to be recorded. However, this creates an unboundedly-growing database that poses time and memory scalability challenges for place recognition methods. To tackle the scalability issue for visual place recognition in autonomous driving, we develop a Hidden Markov Model approach with a two-tiered memory management. Our algorithm, dubbed HM$^4$, exploits temporal look-ahead to transfer promising candidate images between passive storage and active memory when needed. The inference process takes into account both promising images and a coarse representations of the full database. We show that this allows constant time and space inference for a fixed coverage area. The coarse representations can also be updated incrementally to absorb new data. To further reduce the memory requirements, we derive a compact image representation inspired by Locality Sensitive Hashing (LSH). Through experiments on real world data, we demonstrate the excellent scalability and accuracy of the approach under appearance changes and provide comparisons against state-of-the-art techniques.","headline":"HM4 Hidden Markov Model With Memory Management For Visual Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/doan2020hidden/"},"url":"https://learning2hash.github.io/publications/doan2020hidden/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Visual place recognition needs to be robust against appearance variability due to natural and man-made causes. Training data collection should thus be an ongoing process to allow continuous appearance changes to be recorded. However, this creates an unboundedly-growing database that poses time and memory scalability challenges for place recognition methods. To tackle the scalability issue for visual place recognition in autonomous driving, we develop a Hidden Markov Model approach with a two-tiered memory management. Our algorithm, dubbed HM$^4$, exploits temporal look-ahead to transfer promising candidate images between passive storage and active memory when needed. The inference process takes into account both promising images and a coarse representations of the full database. We show that this allows constant time and space inference for a fixed coverage area. The coarse representations can also be updated incrementally to absorb new data. To further reduce the memory requirements, we derive a compact image representation inspired by Locality Sensitive Hashing (LSH). Through experiments on real world data, we demonstrate the excellent scalability and accuracy of the approach under appearance changes and provide comparisons against state-of-the-art techniques.","headline":"HM4 Hidden Markov Model With Memory Management For Visual Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/doan2020hidden/"},"url":"https://learning2hash.github.io/publications/doan2020hidden/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">HM4 Hidden Markov Model With Memory Management For Visual Place Recognition</h1>
   <h5>Doan Anh-dzung, Latif Yasir, Chin Tat-jun, Reid Ian. Arxiv 2020</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2011.00450" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=HM4 Hidden Markov Model With Memory Management For Visual Place Recognition' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=HM4 Hidden Markov Model With Memory Management For Visual Place Recognition' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=HM4%20Hidden%20Markov%20Model%20With%20Memory%20Management%20For%20Visual%20Place%20Recognition' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=HM4%20Hidden%20Markov%20Model%20With%20Memory%20Management%20For%20Visual%20Place%20Recognition' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#LSH">LSH</a></tag>
+      <span class="tag"><a href="/tags.html#LSH">LSH</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>Visual place recognition needs to be robust against appearance variability due to natural and man-made causes. Training data collection should thus be an ongoing process to allow continuous appearance changes to be recorded. However, this creates an unboundedly-growing database that poses time and memory scalability challenges for place recognition methods. To tackle the scalability issue for visual place recognition in autonomous driving, we develop a Hidden Markov Model approach with a two-tiered memory management. Our algorithm, dubbed HM$^4$, exploits temporal look-ahead to transfer promising candidate images between passive storage and active memory when needed. The inference process takes into account both promising images and a coarse representations of the full database. We show that this allows constant time and space inference for a fixed coverage area. The coarse representations can also be updated incrementally to absorb new data. To further reduce the memory requirements, we derive a compact image representation inspired by Locality Sensitive Hashing (LSH). Through experiments on real world data, we demonstrate the excellent scalability and accuracy of the approach under appearance changes and provide comparisons against state-of-the-art techniques.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/doan2020hidden.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/doan2020hidden.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

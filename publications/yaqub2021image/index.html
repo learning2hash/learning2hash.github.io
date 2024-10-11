@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/yaqub2021image/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Image-hashing-based Anomaly Detection For Privacy-preserving Online Proctoring" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Online proctoring has become a necessity in online teaching. Video-based crowd-sourced online proctoring solutions are being used, where an exam-taking student’s video is monitored by third parties, leading to privacy concerns. In this paper, we propose a privacy-preserving online proctoring system. The proposed image-hashing-based system can detect the student’s excessive face and body movement (i.e., anomalies) that is resulted when the student tries to cheat in the exam. The detection can be done even if the student’s face is blurred or masked in video frames. Experiment with an in-house dataset shows the usability of the proposed system.","headline":"Image-hashing-based Anomaly Detection For Privacy-preserving Online Proctoring","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yaqub2021image/"},"url":"https://learning2hash.github.io/publications/yaqub2021image/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Online proctoring has become a necessity in online teaching. Video-based crowd-sourced online proctoring solutions are being used, where an exam-taking student’s video is monitored by third parties, leading to privacy concerns. In this paper, we propose a privacy-preserving online proctoring system. The proposed image-hashing-based system can detect the student’s excessive face and body movement (i.e., anomalies) that is resulted when the student tries to cheat in the exam. The detection can be done even if the student’s face is blurred or masked in video frames. Experiment with an in-house dataset shows the usability of the proposed system.","headline":"Image-hashing-based Anomaly Detection For Privacy-preserving Online Proctoring","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yaqub2021image/"},"url":"https://learning2hash.github.io/publications/yaqub2021image/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Image-hashing-based Anomaly Detection For Privacy-preserving Online Proctoring</h1>
   <h5>Yaqub Waheeb, Mohanty Manoranjan, Suleiman Basem. Arxiv 2021</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2107.09373" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Image-hashing-based Anomaly Detection For Privacy-preserving Online Proctoring' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Image-hashing-based Anomaly Detection For Privacy-preserving Online Proctoring' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Image-hashing-based%20Anomaly%20Detection%20For%20Privacy-preserving%20Online%20Proctoring' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Image-hashing-based%20Anomaly%20Detection%20For%20Privacy-preserving%20Online%20Proctoring' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>Online proctoring has become a necessity in online teaching. Video-based crowd-sourced online proctoring solutions are being used, where an exam-taking student’s video is monitored by third parties, leading to privacy concerns. In this paper, we propose a privacy-preserving online proctoring system. The proposed image-hashing-based system can detect the student’s excessive face and body movement (i.e., anomalies) that is resulted when the student tries to cheat in the exam. The detection can be done even if the student’s face is blurred or masked in video frames. Experiment with an in-house dataset shows the usability of the proposed system.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/yaqub2021image.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/yaqub2021image.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

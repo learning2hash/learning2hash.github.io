@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/mounits2005new/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="New Upper Bounds On A(nd)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Upper bounds on the maximum number of codewords in a binary code of a given length and minimum Hamming distance are considered. New bounds are derived by a combination of linear programming and counting arguments. Some of these bounds improve on the best known analytic bounds. Several new record bounds are obtained for codes with small lengths.","headline":"New Upper Bounds On A(nd)","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mounits2005new/"},"url":"https://learning2hash.github.io/publications/mounits2005new/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Upper bounds on the maximum number of codewords in a binary code of a given length and minimum Hamming distance are considered. New bounds are derived by a combination of linear programming and counting arguments. Some of these bounds improve on the best known analytic bounds. Several new record bounds are obtained for codes with small lengths.","headline":"New Upper Bounds On A(nd)","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mounits2005new/"},"url":"https://learning2hash.github.io/publications/mounits2005new/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">New Upper Bounds On A(nd)</h1>
   <h5>Mounits Beniamin, Etzion Tuvi, Litsyn Simon. Arxiv 2005</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/cs/0508107" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=New Upper Bounds On A(nd)' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=New Upper Bounds On A(nd)' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=New%20Upper%20Bounds%20On%20A(nd)' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=New%20Upper%20Bounds%20On%20A(nd)' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>Upper bounds on the maximum number of codewords in a binary code of a given length and minimum Hamming distance are considered. New bounds are derived by a combination of linear programming and counting arguments. Some of these bounds improve on the best known analytic bounds. Several new record bounds are obtained for codes with small lengths.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/mounits2005new.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/mounits2005new.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

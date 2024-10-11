@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/mieno2019space/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Space-efficient Algorithms For Computing Minimal/shortest Unique Substrings" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Given a string $T$ of length $n$, a substring $u = T[i..j]$ of $T$ is called a shortest unique substring (SUS) for an interval $[s,t]$ if (a) $u$ occurs exactly once in $T$, (b) $u$ contains the interval $[s,t]$ (i.e. $i \\leq s \\leq t \\leq j$), and (c) every substring $v$ of $T$ with $ v &lt; u $ containing $[s,t]$ occurs at least twice in $T$. Given a query interval $[s, t] \\subset [1, n]$, the interval SUS problem is to output all the SUSs for the interval $[s,t]$. In this article, we propose a $4n + o(n)$ bits data structure answering an interval SUS query in output-sensitive $O(\\mathit{occ})$ time, where $\\mathit{occ}$ is the number of returned SUSs. Additionally, we focus on the point SUS problem, which is the interval SUS problem for $s = t$. Here, we propose a $\\lceil (\\log_2{3} + 1)n \\rceil + o(n)$ bits data structure answering a point SUS query in the same output-sensitive time. We also propose space-efficient algorithms for computing the minimal unique substrings of $T$.","headline":"Space-efficient Algorithms For Computing Minimal/shortest Unique Substrings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mieno2019space/"},"url":"https://learning2hash.github.io/publications/mieno2019space/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Given a string $T$ of length $n$, a substring $u = T[i..j]$ of $T$ is called a shortest unique substring (SUS) for an interval $[s,t]$ if (a) $u$ occurs exactly once in $T$, (b) $u$ contains the interval $[s,t]$ (i.e. $i \\leq s \\leq t \\leq j$), and (c) every substring $v$ of $T$ with $ v &lt; u $ containing $[s,t]$ occurs at least twice in $T$. Given a query interval $[s, t] \\subset [1, n]$, the interval SUS problem is to output all the SUSs for the interval $[s,t]$. In this article, we propose a $4n + o(n)$ bits data structure answering an interval SUS query in output-sensitive $O(\\mathit{occ})$ time, where $\\mathit{occ}$ is the number of returned SUSs. Additionally, we focus on the point SUS problem, which is the interval SUS problem for $s = t$. Here, we propose a $\\lceil (\\log_2{3} + 1)n \\rceil + o(n)$ bits data structure answering a point SUS query in the same output-sensitive time. We also propose space-efficient algorithms for computing the minimal unique substrings of $T$.","headline":"Space-efficient Algorithms For Computing Minimal/shortest Unique Substrings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mieno2019space/"},"url":"https://learning2hash.github.io/publications/mieno2019space/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,20 +155,22 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Space-efficient Algorithms For Computing Minimal/shortest Unique Substrings</h1>
   <h5>Mieno Takuya, Köppl Dominik, Nakashima Yuto, Inenaga Shunsuke, Bannai Hideo, Takeda Masayuki. Arxiv 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1905.12854" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Space-efficient Algorithms For Computing Minimal/shortest Unique Substrings' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Space-efficient Algorithms For Computing Minimal/shortest Unique Substrings' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Space-efficient%20Algorithms%20For%20Computing%20Minimal/shortest%20Unique%20Substrings' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Space-efficient%20Algorithms%20For%20Computing%20Minimal/shortest%20Unique%20Substrings' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><table>
   <tbody>
     <tr>
@@ -184,23 +186,22 @@ function search() {
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/mieno2019space.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/mieno2019space.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

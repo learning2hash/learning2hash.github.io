@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/wu2018cycle/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Cycle-consistent Deep Generative Hashing For Cross-modal Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"In this paper, we propose a novel deep generative approach to cross-modal retrieval to learn hash functions in the absence of paired training samples through the cycle consistency loss. Our proposed approach employs adversarial training scheme to lean a couple of hash functions enabling translation between modalities while assuming the underlying semantic relationship. To induce the hash codes with semantics to the input-output pair, cycle consistency loss is further proposed upon the adversarial training to strengthen the correlations between inputs and corresponding outputs. Our approach is generative to learn hash functions such that the learned hash codes can maximally correlate each input-output correspondence, meanwhile can also regenerate the inputs so as to minimize the information loss. The learning to hash embedding is thus performed to jointly optimize the parameters of the hash functions across modalities as well as the associated generative models. Extensive experiments on a variety of large-scale cross-modal data sets demonstrate that our proposed method achieves better retrieval results than the state-of-the-arts.","headline":"Cycle-consistent Deep Generative Hashing For Cross-modal Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2018cycle/"},"url":"https://learning2hash.github.io/publications/wu2018cycle/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"In this paper, we propose a novel deep generative approach to cross-modal retrieval to learn hash functions in the absence of paired training samples through the cycle consistency loss. Our proposed approach employs adversarial training scheme to lean a couple of hash functions enabling translation between modalities while assuming the underlying semantic relationship. To induce the hash codes with semantics to the input-output pair, cycle consistency loss is further proposed upon the adversarial training to strengthen the correlations between inputs and corresponding outputs. Our approach is generative to learn hash functions such that the learned hash codes can maximally correlate each input-output correspondence, meanwhile can also regenerate the inputs so as to minimize the information loss. The learning to hash embedding is thus performed to jointly optimize the parameters of the hash functions across modalities as well as the associated generative models. Extensive experiments on a variety of large-scale cross-modal data sets demonstrate that our proposed method achieves better retrieval results than the state-of-the-arts.","headline":"Cycle-consistent Deep Generative Hashing For Cross-modal Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2018cycle/"},"url":"https://learning2hash.github.io/publications/wu2018cycle/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Cycle-consistent Deep Generative Hashing For Cross-modal Retrieval</h1>
   <h5>Wu Lin, Wang Yang, Shao Ling. Arxiv 2018</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1804.11013" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Cycle-consistent Deep Generative Hashing For Cross-modal Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Cycle-consistent Deep Generative Hashing For Cross-modal Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Cycle-consistent%20Deep%20Generative%20Hashing%20For%20Cross-modal%20Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Cycle-consistent%20Deep%20Generative%20Hashing%20For%20Cross-modal%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Cross Modal">Cross Modal</a></tag>
+      <span class="tag"><a href="/tags.html#Cross Modal">Cross Modal</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>In this paper, we propose a novel deep generative approach to cross-modal retrieval to learn hash functions in the absence of paired training samples through the cycle consistency loss. Our proposed approach employs adversarial training scheme to lean a couple of hash functions enabling translation between modalities while assuming the underlying semantic relationship. To induce the hash codes with semantics to the input-output pair, cycle consistency loss is further proposed upon the adversarial training to strengthen the correlations between inputs and corresponding outputs. Our approach is generative to learn hash functions such that the learned hash codes can maximally correlate each input-output correspondence, meanwhile can also regenerate the inputs so as to minimize the information loss. The learning to hash embedding is thus performed to jointly optimize the parameters of the hash functions across modalities as well as the associated generative models. Extensive experiments on a variety of large-scale cross-modal data sets demonstrate that our proposed method achieves better retrieval results than the state-of-the-arts.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/wu2018cycle.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/wu2018cycle.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

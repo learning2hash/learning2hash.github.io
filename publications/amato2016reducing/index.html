@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/amato2016reducing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="On Reducing The Number Of Visual Words In The Bag-of-features Representation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"A new class of applications based on visual search engines are emerging, especially on smart-phones that have evolved into powerful tools for processing images and videos. The state-of-the-art algorithms for large visual content recognition and content based similarity search today use the Bag of Features (BoF) or Bag of Words (BoW) approach. The idea, borrowed from text retrieval, enables the use of inverted files. A very well known issue with this approach is that the query images, as well as the stored data, are described with thousands of words. This poses obvious efficiency problems when using inverted files to perform efficient image matching. In this paper, we propose and compare various techniques to reduce the number of words describing an image to improve efficiency and we study the effects of this reduction on effectiveness in landmark recognition and retrieval scenarios. We show that very relevant improvement in performance are achievable still preserving the advantages of the BoF base approach.","headline":"On Reducing The Number Of Visual Words In The Bag-of-features Representation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/amato2016reducing/"},"url":"https://learning2hash.github.io/publications/amato2016reducing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"A new class of applications based on visual search engines are emerging, especially on smart-phones that have evolved into powerful tools for processing images and videos. The state-of-the-art algorithms for large visual content recognition and content based similarity search today use the Bag of Features (BoF) or Bag of Words (BoW) approach. The idea, borrowed from text retrieval, enables the use of inverted files. A very well known issue with this approach is that the query images, as well as the stored data, are described with thousands of words. This poses obvious efficiency problems when using inverted files to perform efficient image matching. In this paper, we propose and compare various techniques to reduce the number of words describing an image to improve efficiency and we study the effects of this reduction on effectiveness in landmark recognition and retrieval scenarios. We show that very relevant improvement in performance are achievable still preserving the advantages of the BoF base approach.","headline":"On Reducing The Number Of Visual Words In The Bag-of-features Representation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/amato2016reducing/"},"url":"https://learning2hash.github.io/publications/amato2016reducing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">On Reducing The Number Of Visual Words In The Bag-of-features Representation</h1>
   <h5>Amato Giuseppe, Falchi Fabrizio, Gennaro Claudio. VISAPP 2016</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1604.04142" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=On Reducing The Number Of Visual Words In The Bag-of-features Representation' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=On Reducing The Number Of Visual Words In The Bag-of-features Representation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=On%20Reducing%20The%20Number%20Of%20Visual%20Words%20In%20The%20Bag-of-features%20Representation' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=On%20Reducing%20The%20Number%20Of%20Visual%20Words%20In%20The%20Bag-of-features%20Representation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#Text Retrieval">Text Retrieval</a></tag>
+      <span class="tag"><a href="/tags.html#Text Retrieval">Text Retrieval</a></span>
     
   </p>
+  
   <p><p>A new class of applications based on visual search engines are emerging, especially on smart-phones that have evolved into powerful tools for processing images and videos. The state-of-the-art algorithms for large visual content recognition and content based similarity search today use the Bag of Features (BoF) or Bag of Words (BoW) approach. The idea, borrowed from text retrieval, enables the use of inverted files. A very well known issue with this approach is that the query images, as well as the stored data, are described with thousands of words. This poses obvious efficiency problems when using inverted files to perform efficient image matching. In this paper, we propose and compare various techniques to reduce the number of words describing an image to improve efficiency and we study the effects of this reduction on effectiveness in landmark recognition and retrieval scenarios. We show that very relevant improvement in performance are achievable still preserving the advantages of the BoF base approach.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/amato2016reducing.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/amato2016reducing.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

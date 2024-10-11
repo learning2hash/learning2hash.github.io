@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/dev2015improving/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Improving Style Similarity Metrics Of 3D Shapes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"The idea of style similarity metrics has been recently developed for various media types such as 2D clip art and 3D shapes. We explore this style metric problem and improve existing style similarity metrics of 3D shapes in four novel ways. First, we consider the color and texture of 3D shapes which are important properties that have not been previously considered. Second, we explore the effect of clustering a dataset of 3D models by comparing between style metrics for a single object type and style metrics that combine clusters of object types. Third, we explore the idea of user-guided learning for this problem. Fourth, we introduce an iterative approach that can learn a metric from a general set of 3D models. We demonstrate these contributions with various classes of 3D shapes and with applications such as style-based similarity search and scene composition.","headline":"Improving Style Similarity Metrics Of 3D Shapes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dev2015improving/"},"url":"https://learning2hash.github.io/publications/dev2015improving/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"The idea of style similarity metrics has been recently developed for various media types such as 2D clip art and 3D shapes. We explore this style metric problem and improve existing style similarity metrics of 3D shapes in four novel ways. First, we consider the color and texture of 3D shapes which are important properties that have not been previously considered. Second, we explore the effect of clustering a dataset of 3D models by comparing between style metrics for a single object type and style metrics that combine clusters of object types. Third, we explore the idea of user-guided learning for this problem. Fourth, we introduce an iterative approach that can learn a metric from a general set of 3D models. We demonstrate these contributions with various classes of 3D shapes and with applications such as style-based similarity search and scene composition.","headline":"Improving Style Similarity Metrics Of 3D Shapes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dev2015improving/"},"url":"https://learning2hash.github.io/publications/dev2015improving/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Improving Style Similarity Metrics Of 3D Shapes</h1>
   <h5>Dev Kapil, Lau Manfred. Arxiv 2015</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1512.08826" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Improving Style Similarity Metrics Of 3D Shapes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Improving Style Similarity Metrics Of 3D Shapes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Improving%20Style%20Similarity%20Metrics%20Of%203D%20Shapes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Improving%20Style%20Similarity%20Metrics%20Of%203D%20Shapes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Unsupervised">Unsupervised</a></tag>
+      <span class="tag"><a href="/tags.html#Unsupervised">Unsupervised</a></span>
     
   </p>
+  
   <p><p>The idea of style similarity metrics has been recently developed for various media types such as 2D clip art and 3D shapes. We explore this style metric problem and improve existing style similarity metrics of 3D shapes in four novel ways. First, we consider the color and texture of 3D shapes which are important properties that have not been previously considered. Second, we explore the effect of clustering a dataset of 3D models by comparing between style metrics for a single object type and style metrics that combine clusters of object types. Third, we explore the idea of user-guided learning for this problem. Fourth, we introduce an iterative approach that can learn a metric from a general set of 3D models. We demonstrate these contributions with various classes of 3D shapes and with applications such as style-based similarity search and scene composition.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/dev2015improving.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/dev2015improving.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

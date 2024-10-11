@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/andr%C3%A92019derived/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Derived Codebooks For High-accuracy Nearest Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"High-dimensional Nearest Neighbor (NN) search is central in multimedia search systems. Product Quantization (PQ) is a widespread NN search technique which has a high performance and good scalability. PQ compresses high-dimensional vectors into compact codes thanks to a combination of quantizers. Large databases can, therefore, be stored entirely in RAM, enabling fast responses to NN queries. In almost all cases, PQ uses 8-bit quantizers as they offer low response times. In this paper, we advocate the use of 16-bit quantizers. Compared to 8-bit quantizers, 16-bit quantizers boost accuracy but they increase response time by a factor of 3 to 10. We propose a novel approach that allows 16-bit quantizers to offer the same response time as 8-bit quantizers, while still providing a boost of accuracy. Our approach builds on two key ideas: (i) the construction of derived codebooks that allow a fast and approximate distance evaluation, and (ii) a two-pass NN search procedure which builds a candidate set using the derived codebooks, and then refines it using 16-bit quantizers. On 1 billion SIFT vectors, with an inverted index, our approach offers a Recall@100 of 0.85 in 5.2 ms. By contrast, 16-bit quantizers alone offer a Recall@100 of 0.85 in 39 ms, and 8-bit quantizers a Recall@100 of 0.82 in 3.8 ms.","headline":"Derived Codebooks For High-accuracy Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/andr%C3%A92019derived/"},"url":"https://learning2hash.github.io/publications/andr%C3%A92019derived/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"High-dimensional Nearest Neighbor (NN) search is central in multimedia search systems. Product Quantization (PQ) is a widespread NN search technique which has a high performance and good scalability. PQ compresses high-dimensional vectors into compact codes thanks to a combination of quantizers. Large databases can, therefore, be stored entirely in RAM, enabling fast responses to NN queries. In almost all cases, PQ uses 8-bit quantizers as they offer low response times. In this paper, we advocate the use of 16-bit quantizers. Compared to 8-bit quantizers, 16-bit quantizers boost accuracy but they increase response time by a factor of 3 to 10. We propose a novel approach that allows 16-bit quantizers to offer the same response time as 8-bit quantizers, while still providing a boost of accuracy. Our approach builds on two key ideas: (i) the construction of derived codebooks that allow a fast and approximate distance evaluation, and (ii) a two-pass NN search procedure which builds a candidate set using the derived codebooks, and then refines it using 16-bit quantizers. On 1 billion SIFT vectors, with an inverted index, our approach offers a Recall@100 of 0.85 in 5.2 ms. By contrast, 16-bit quantizers alone offer a Recall@100 of 0.85 in 39 ms, and 8-bit quantizers a Recall@100 of 0.82 in 3.8 ms.","headline":"Derived Codebooks For High-accuracy Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/andr%C3%A92019derived/"},"url":"https://learning2hash.github.io/publications/andr%C3%A92019derived/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Derived Codebooks For High-accuracy Nearest Neighbor Search</h1>
   <h5>André Fabien, Kermarrec Anne-marie, Scouarnec Nicolas Le. Arxiv 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1905.06900" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Derived Codebooks For High-accuracy Nearest Neighbor Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Derived Codebooks For High-accuracy Nearest Neighbor Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Derived%20Codebooks%20For%20High-accuracy%20Nearest%20Neighbor%20Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Derived%20Codebooks%20For%20High-accuracy%20Nearest%20Neighbor%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Quantisation">Quantisation</a></tag>
+      <span class="tag"><a href="/tags.html#Quantisation">Quantisation</a></span>
     
   </p>
+  
   <p><p>High-dimensional Nearest Neighbor (NN) search is central in multimedia search systems. Product Quantization (PQ) is a widespread NN search technique which has a high performance and good scalability. PQ compresses high-dimensional vectors into compact codes thanks to a combination of quantizers. Large databases can, therefore, be stored entirely in RAM, enabling fast responses to NN queries. In almost all cases, PQ uses 8-bit quantizers as they offer low response times. In this paper, we advocate the use of 16-bit quantizers. Compared to 8-bit quantizers, 16-bit quantizers boost accuracy but they increase response time by a factor of 3 to 10. We propose a novel approach that allows 16-bit quantizers to offer the same response time as 8-bit quantizers, while still providing a boost of accuracy. Our approach builds on two key ideas: (i) the construction of derived codebooks that allow a fast and approximate distance evaluation, and (ii) a two-pass NN search procedure which builds a candidate set using the derived codebooks, and then refines it using 16-bit quantizers. On 1 billion SIFT vectors, with an inverted index, our approach offers a Recall@100 of 0.85 in 5.2 ms. By contrast, 16-bit quantizers alone offer a Recall@100 of 0.85 in 39 ms, and 8-bit quantizers a Recall@100 of 0.82 in 3.8 ms.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/andré2019derived.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/andré2019derived.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

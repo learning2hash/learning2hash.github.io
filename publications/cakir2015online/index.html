@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/cakir2015online/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Online Supervised Hashing For Ever-growing Datasets" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Supervised hashing methods are widely-used for nearest neighbor search in computer vision applications. Most state-of-the-art supervised hashing approaches employ batch-learners. Unfortunately, batch-learning strategies can be inefficient when confronted with large training datasets. Moreover, with batch-learners, it is unclear how to adapt the hash functions as a dataset continues to grow and diversify over time. Yet, in many practical scenarios the dataset grows and diversifies; thus, both the hash functions and the indexing must swiftly accommodate these changes. To address these issues, we propose an online hashing method that is amenable to changes and expansions of the datasets. Since it is an online algorithm, our approach offers linear complexity with the dataset size. Our solution is supervised, in that we incorporate available label information to preserve the semantic neighborhood. Such an adaptive hashing method is attractive; but it requires recomputing the hash table as the hash functions are updated. If the frequency of update is high, then recomputing the hash table entries may cause inefficiencies in the system, especially for large indexes. Thus, we also propose a framework to reduce hash table updates. We compare our method to state-of-the-art solutions on two benchmarks and demonstrate significant improvements over previous work.","headline":"Online Supervised Hashing For Ever-growing Datasets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/cakir2015online/"},"url":"https://learning2hash.github.io/publications/cakir2015online/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Supervised hashing methods are widely-used for nearest neighbor search in computer vision applications. Most state-of-the-art supervised hashing approaches employ batch-learners. Unfortunately, batch-learning strategies can be inefficient when confronted with large training datasets. Moreover, with batch-learners, it is unclear how to adapt the hash functions as a dataset continues to grow and diversify over time. Yet, in many practical scenarios the dataset grows and diversifies; thus, both the hash functions and the indexing must swiftly accommodate these changes. To address these issues, we propose an online hashing method that is amenable to changes and expansions of the datasets. Since it is an online algorithm, our approach offers linear complexity with the dataset size. Our solution is supervised, in that we incorporate available label information to preserve the semantic neighborhood. Such an adaptive hashing method is attractive; but it requires recomputing the hash table as the hash functions are updated. If the frequency of update is high, then recomputing the hash table entries may cause inefficiencies in the system, especially for large indexes. Thus, we also propose a framework to reduce hash table updates. We compare our method to state-of-the-art solutions on two benchmarks and demonstrate significant improvements over previous work.","headline":"Online Supervised Hashing For Ever-growing Datasets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/cakir2015online/"},"url":"https://learning2hash.github.io/publications/cakir2015online/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Online Supervised Hashing For Ever-growing Datasets</h1>
   <h5>Cakir Fatih, Bargal Sarah Adel, Sclaroff Stan. Arxiv 2015</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1511.03257" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Online Supervised Hashing For Ever-growing Datasets' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Online Supervised Hashing For Ever-growing Datasets' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Online%20Supervised%20Hashing%20For%20Ever-growing%20Datasets' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Online%20Supervised%20Hashing%20For%20Ever-growing%20Datasets' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>Supervised hashing methods are widely-used for nearest neighbor search in computer vision applications. Most state-of-the-art supervised hashing approaches employ batch-learners. Unfortunately, batch-learning strategies can be inefficient when confronted with large training datasets. Moreover, with batch-learners, it is unclear how to adapt the hash functions as a dataset continues to grow and diversify over time. Yet, in many practical scenarios the dataset grows and diversifies; thus, both the hash functions and the indexing must swiftly accommodate these changes. To address these issues, we propose an online hashing method that is amenable to changes and expansions of the datasets. Since it is an online algorithm, our approach offers linear complexity with the dataset size. Our solution is supervised, in that we incorporate available label information to preserve the semantic neighborhood. Such an adaptive hashing method is attractive; but it requires recomputing the hash table as the hash functions are updated. If the frequency of update is high, then recomputing the hash table entries may cause inefficiencies in the system, especially for large indexes. Thus, we also propose a framework to reduce hash table updates. We compare our method to state-of-the-art solutions on two benchmarks and demonstrate significant improvements over previous work.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/cakir2015online.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/cakir2015online.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

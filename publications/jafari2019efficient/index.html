@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/jafari2019efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient Bitmap-based Indexing And Retrieval Of Similarity Search Image Queries" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Finding similar images is a necessary operation in many multimedia applications. Images are often represented and stored as a set of high-dimensional features, which are extracted using localized feature extraction algorithms. Locality Sensitive Hashing is one of the most popular approximate processing techniques for finding similar points in high-dimensional spaces. Locality Sensitive Hashing (LSH) and its variants are designed to find similar points, but they are not designed to find objects (such as images, which are made up of a collection of points) efficiently. In this paper, we propose an index structure, Bitmap-Image LSH (bImageLSH), for efficient processing of high-dimensional images. Using a real dataset, we experimentally show the performance benefit of our novel design while keeping the accuracy of the image results high.","headline":"Efficient Bitmap-based Indexing And Retrieval Of Similarity Search Image Queries","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jafari2019efficient/"},"url":"https://learning2hash.github.io/publications/jafari2019efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Finding similar images is a necessary operation in many multimedia applications. Images are often represented and stored as a set of high-dimensional features, which are extracted using localized feature extraction algorithms. Locality Sensitive Hashing is one of the most popular approximate processing techniques for finding similar points in high-dimensional spaces. Locality Sensitive Hashing (LSH) and its variants are designed to find similar points, but they are not designed to find objects (such as images, which are made up of a collection of points) efficiently. In this paper, we propose an index structure, Bitmap-Image LSH (bImageLSH), for efficient processing of high-dimensional images. Using a real dataset, we experimentally show the performance benefit of our novel design while keeping the accuracy of the image results high.","headline":"Efficient Bitmap-based Indexing And Retrieval Of Similarity Search Image Queries","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jafari2019efficient/"},"url":"https://learning2hash.github.io/publications/jafari2019efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Efficient Bitmap-based Indexing And Retrieval Of Similarity Search Image Queries</h1>
   <h5>Jafari Omid, Nagarkar Parth, Montaño Jonathan.  2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1912.07101" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Efficient Bitmap-based Indexing And Retrieval Of Similarity Search Image Queries' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Efficient Bitmap-based Indexing And Retrieval Of Similarity Search Image Queries' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Efficient%20Bitmap-based%20Indexing%20And%20Retrieval%20Of%20Similarity%20Search%20Image%20Queries' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Efficient%20Bitmap-based%20Indexing%20And%20Retrieval%20Of%20Similarity%20Search%20Image%20Queries' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
-      <tag><a href="/tags.html#LSH">LSH</a></tag>
+      <span class="tag"><a href="/tags.html#LSH">LSH</a></span>
     
   </p>
+  
   <p><p>Finding similar images is a necessary operation in many multimedia applications. Images are often represented and stored as a set of high-dimensional features, which are extracted using localized feature extraction algorithms. Locality Sensitive Hashing is one of the most popular approximate processing techniques for finding similar points in high-dimensional spaces. Locality Sensitive Hashing (LSH) and its variants are designed to find similar points, but they are not designed to find objects (such as images, which are made up of a collection of points) efficiently. In this paper, we propose an index structure, Bitmap-Image LSH (bImageLSH), for efficient processing of high-dimensional images. Using a real dataset, we experimentally show the performance benefit of our novel design while keeping the accuracy of the image results high.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/jafari2019efficient.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/jafari2019efficient.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/atighehchi2016note/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Note On Optimal Trees For Parallel Hash Functions" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"A recent work shows how we can optimize a tree based mode of operation for a rate 1 hash function. In particular, an algorithm and a theorem are presented for selecting a good tree topology in order to optimize both the running time and the number of processors at each step of the computation. Because this paper deals only with trees having their leaves at the same depth, the number of saved computing resources is perfectly optimal only for this category of trees. In this note, we address the more general case and describe a simple algorithm which, starting from such a tree topology, reworks it to further reduce the number of processors and the total amount of work done to hash a message.","headline":"Note On Optimal Trees For Parallel Hash Functions","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/atighehchi2016note/"},"url":"https://learning2hash.github.io/publications/atighehchi2016note/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"A recent work shows how we can optimize a tree based mode of operation for a rate 1 hash function. In particular, an algorithm and a theorem are presented for selecting a good tree topology in order to optimize both the running time and the number of processors at each step of the computation. Because this paper deals only with trees having their leaves at the same depth, the number of saved computing resources is perfectly optimal only for this category of trees. In this note, we address the more general case and describe a simple algorithm which, starting from such a tree topology, reworks it to further reduce the number of processors and the total amount of work done to hash a message.","headline":"Note On Optimal Trees For Parallel Hash Functions","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/atighehchi2016note/"},"url":"https://learning2hash.github.io/publications/atighehchi2016note/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Note On Optimal Trees For Parallel Hash Functions</h1>
   <h5>Atighehchi Kevin. Arxiv 2016</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1604.04206" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Note On Optimal Trees For Parallel Hash Functions' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Note On Optimal Trees For Parallel Hash Functions' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Note%20On%20Optimal%20Trees%20For%20Parallel%20Hash%20Functions' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Note%20On%20Optimal%20Trees%20For%20Parallel%20Hash%20Functions' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>A recent work shows how we can optimize a tree based mode of operation for a rate 1 hash function. In particular, an algorithm and a theorem are presented for selecting a good tree topology in order to optimize both the running time and the number of processors at each step of the computation. Because this paper deals only with trees having their leaves at the same depth, the number of saved computing resources is perfectly optimal only for this category of trees. In this note, we address the more general case and describe a simple algorithm which, starting from such a tree topology, reworks it to further reduce the number of processors and the total amount of work done to hash a message.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/atighehchi2016note.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/atighehchi2016note.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2019random/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Random Projections With Asymmetric Quantization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"The method of random projection has been a popular tool for data compression, similarity search, and machine learning. In many practical scenarios, applying quantization on randomly projected data could be very helpful to further reduce storage cost and facilitate more efficient retrievals, while only suffering from little loss in accuracy. In real-world applications, however, data collected from different sources may be quantized under different schemes, which calls for a need to study the asymmetric quantization problem. In this paper, we investigate the cosine similarity estimators derived in such setting under the Lloyd-Max (LM) quantization scheme. We thoroughly analyze the biases and variances of a series of estimators including the basic simple estimators, their normalized versions, and their debiased versions. Furthermore, by studying the monotonicity, we show that the expectation of proposed estimators increases with the true cosine similarity, on a broader family of stair-shaped quantizers. Experiments on nearest neighbor search justify the theory and illustrate the effectiveness of our proposed estimators.","headline":"Random Projections With Asymmetric Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2019random/"},"url":"https://learning2hash.github.io/publications/li2019random/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"The method of random projection has been a popular tool for data compression, similarity search, and machine learning. In many practical scenarios, applying quantization on randomly projected data could be very helpful to further reduce storage cost and facilitate more efficient retrievals, while only suffering from little loss in accuracy. In real-world applications, however, data collected from different sources may be quantized under different schemes, which calls for a need to study the asymmetric quantization problem. In this paper, we investigate the cosine similarity estimators derived in such setting under the Lloyd-Max (LM) quantization scheme. We thoroughly analyze the biases and variances of a series of estimators including the basic simple estimators, their normalized versions, and their debiased versions. Furthermore, by studying the monotonicity, we show that the expectation of proposed estimators increases with the true cosine similarity, on a broader family of stair-shaped quantizers. Experiments on nearest neighbor search justify the theory and illustrate the effectiveness of our proposed estimators.","headline":"Random Projections With Asymmetric Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2019random/"},"url":"https://learning2hash.github.io/publications/li2019random/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,48 +155,49 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Random Projections With Asymmetric Quantization</h1>
   <h5>Xiaoyun Li, Ping Li. Neural Information Processing Systems 2019</h5>
+  
   <p>
     
       [<a href="https://papers.nips.cc/paper/2019/hash/a32d7eeaae19821fd9ce317f3ce952a7-Abstract.html" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Random Projections With Asymmetric Quantization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Random Projections With Asymmetric Quantization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Random%20Projections%20With%20Asymmetric%20Quantization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Random%20Projections%20With%20Asymmetric%20Quantization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
-      <tag><a href="/tags.html#NEURIPS">NEURIPS</a></tag>
+      <span class="tag"><a href="/tags.html#NEURIPS">NEURIPS</a></span>
     
-      <tag><a href="/tags.html#Quantisation">Quantisation</a></tag>
+      <span class="tag"><a href="/tags.html#Quantisation">Quantisation</a></span>
     
-      <tag><a href="/tags.html#Theory">Theory</a></tag>
+      <span class="tag"><a href="/tags.html#Theory">Theory</a></span>
     
   </p>
+  
   <p><p>The method of random projection has been a popular tool for data compression, similarity search, and machine learning. In many practical scenarios, applying quantization on randomly projected data could be very helpful to further reduce storage cost and facilitate more efficient retrievals, while only suffering from little loss in accuracy. In real-world applications, however, data collected from different sources may be quantized under different schemes, which calls for a need to study the asymmetric quantization problem. In this paper, we investigate the cosine similarity estimators derived in such setting under the Lloyd-Max (LM) quantization scheme. We thoroughly analyze the biases and variances of a series of estimators including the basic simple estimators, their normalized versions, and their debiased versions. Furthermore, by studying the monotonicity, we show that the expectation of proposed estimators increases with the true cosine similarity, on a broader family of stair-shaped quantizers. Experiments on nearest neighbor search justify the theory and illustrate the effectiveness of our proposed estimators.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/li2019random.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/li2019random.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

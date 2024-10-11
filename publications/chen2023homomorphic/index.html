@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/chen2023homomorphic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Homomorphic Hashing Based On Elliptic Curve Cryptography" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"For avoiding the exposure of plaintexts in cloud environments, some homomorphic hashing algorithms have been proposed to generate the hash value of each plaintext, and cloud environments only store the hash values and calculate the hash values for future needs. However, longer hash value generation time and longer hash value summary time may be required by these homomorphic hashing algorithms with higher security strengths. Therefore, this study proposes a homomorphic hashing based on elliptic curve cryptography (ECC) to provide a homomorphic hashing function in accordance with the characteristics of ECC. Furthermore, mathematical models and practical cases have been given to prove the proposed method. In experiments, the results show that the proposed method have higher efficiency with different security strengths.","headline":"Homomorphic Hashing Based On Elliptic Curve Cryptography","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2023homomorphic/"},"url":"https://learning2hash.github.io/publications/chen2023homomorphic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"For avoiding the exposure of plaintexts in cloud environments, some homomorphic hashing algorithms have been proposed to generate the hash value of each plaintext, and cloud environments only store the hash values and calculate the hash values for future needs. However, longer hash value generation time and longer hash value summary time may be required by these homomorphic hashing algorithms with higher security strengths. Therefore, this study proposes a homomorphic hashing based on elliptic curve cryptography (ECC) to provide a homomorphic hashing function in accordance with the characteristics of ECC. Furthermore, mathematical models and practical cases have been given to prove the proposed method. In experiments, the results show that the proposed method have higher efficiency with different security strengths.","headline":"Homomorphic Hashing Based On Elliptic Curve Cryptography","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2023homomorphic/"},"url":"https://learning2hash.github.io/publications/chen2023homomorphic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Homomorphic Hashing Based On Elliptic Curve Cryptography</h1>
   <h5>Chen Abel C. H.. Arxiv 2023</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2302.03290" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Homomorphic Hashing Based On Elliptic Curve Cryptography' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Homomorphic Hashing Based On Elliptic Curve Cryptography' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Homomorphic%20Hashing%20Based%20On%20Elliptic%20Curve%20Cryptography' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Homomorphic%20Hashing%20Based%20On%20Elliptic%20Curve%20Cryptography' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Graph">Graph</a></tag>
+      <span class="tag"><a href="/tags.html#Graph">Graph</a></span>
     
   </p>
+  
   <p><p>For avoiding the exposure of plaintexts in cloud environments, some homomorphic hashing algorithms have been proposed to generate the hash value of each plaintext, and cloud environments only store the hash values and calculate the hash values for future needs. However, longer hash value generation time and longer hash value summary time may be required by these homomorphic hashing algorithms with higher security strengths. Therefore, this study proposes a homomorphic hashing based on elliptic curve cryptography (ECC) to provide a homomorphic hashing function in accordance with the characteristics of ECC. Furthermore, mathematical models and practical cases have been given to prove the proposed method. In experiments, the results show that the proposed method have higher efficiency with different security strengths.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/chen2023homomorphic.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/chen2023homomorphic.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/yu2018discriminative/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Discriminative Supervised Hashing For Cross-modal Similarity Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"With the advantage of low storage cost and high retrieval efficiency, hashing techniques have recently been an emerging topic in cross-modal similarity search. As multiple modal data reflect similar semantic content, many researches aim at learning unified binary codes. However, discriminative hashing features learned by these methods are not adequate. This results in lower accuracy and robustness. We propose a novel hashing learning framework which jointly performs classifier learning, subspace learning and matrix factorization to preserve class-specific semantic content, termed Discriminative Supervised Hashing (DSH), to learn the discrimative unified binary codes for multi-modal data. Besides, reducing the loss of information and preserving the non-linear structure of data, DSH non-linearly projects different modalities into the common space in which the similarity among heterogeneous data points can be measured. Extensive experiments conducted on the three publicly available datasets demonstrate that the framework proposed in this paper outperforms several state-of -the-art methods.","headline":"Discriminative Supervised Hashing For Cross-modal Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yu2018discriminative/"},"url":"https://learning2hash.github.io/publications/yu2018discriminative/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"With the advantage of low storage cost and high retrieval efficiency, hashing techniques have recently been an emerging topic in cross-modal similarity search. As multiple modal data reflect similar semantic content, many researches aim at learning unified binary codes. However, discriminative hashing features learned by these methods are not adequate. This results in lower accuracy and robustness. We propose a novel hashing learning framework which jointly performs classifier learning, subspace learning and matrix factorization to preserve class-specific semantic content, termed Discriminative Supervised Hashing (DSH), to learn the discrimative unified binary codes for multi-modal data. Besides, reducing the loss of information and preserving the non-linear structure of data, DSH non-linearly projects different modalities into the common space in which the similarity among heterogeneous data points can be measured. Extensive experiments conducted on the three publicly available datasets demonstrate that the framework proposed in this paper outperforms several state-of -the-art methods.","headline":"Discriminative Supervised Hashing For Cross-modal Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yu2018discriminative/"},"url":"https://learning2hash.github.io/publications/yu2018discriminative/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Discriminative Supervised Hashing For Cross-modal Similarity Search</h1>
   <h5>Yu Jun, Wu Xiao-jun, Kittler Josef. Arxiv 2018</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1812.07660" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Discriminative Supervised Hashing For Cross-modal Similarity Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Discriminative Supervised Hashing For Cross-modal Similarity Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Discriminative%20Supervised%20Hashing%20For%20Cross-modal%20Similarity%20Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Discriminative%20Supervised%20Hashing%20For%20Cross-modal%20Similarity%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Cross Modal">Cross Modal</a></tag>
+      <span class="tag"><a href="/tags.html#Cross Modal">Cross Modal</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>With the advantage of low storage cost and high retrieval efficiency, hashing techniques have recently been an emerging topic in cross-modal similarity search. As multiple modal data reflect similar semantic content, many researches aim at learning unified binary codes. However, discriminative hashing features learned by these methods are not adequate. This results in lower accuracy and robustness. We propose a novel hashing learning framework which jointly performs classifier learning, subspace learning and matrix factorization to preserve class-specific semantic content, termed Discriminative Supervised Hashing (DSH), to learn the discrimative unified binary codes for multi-modal data. Besides, reducing the loss of information and preserving the non-linear structure of data, DSH non-linearly projects different modalities into the common space in which the similarity among heterogeneous data points can be measured. Extensive experiments conducted on the three publicly available datasets demonstrate that the framework proposed in this paper outperforms several state-of -the-art methods.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/yu2018discriminative.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/yu2018discriminative.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

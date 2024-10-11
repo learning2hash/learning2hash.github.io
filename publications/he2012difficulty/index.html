@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/he2012difficulty/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="On The Difficulty Of Nearest Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Fast approximate nearest neighbor (NN) search in large databases is becoming popular. Several powerful learning-based formulations have been proposed recently. However, not much attention has been paid to a more fundamental question: how difficult is (approximate) nearest neighbor search in a given data set? And which data properties affect the difficulty of nearest neighbor search and how? This paper introduces the first concrete measure called Relative Contrast that can be used to evaluate the influence of several crucial data characteristics such as dimensionality, sparsity, and database size simultaneously in arbitrary normed metric spaces. Moreover, we present a theoretical analysis to prove how the difficulty measure (relative contrast) determines/affects the complexity of Local Sensitive Hashing, a popular approximate NN search method. Relative contrast also provides an explanation for a family of heuristic hashing algorithms with good practical performance based on PCA. Finally, we show that most of the previous works in measuring NN search meaningfulness/difficulty can be derived as special asymptotic cases for dense vectors of the proposed measure.","headline":"On The Difficulty Of Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/he2012difficulty/"},"url":"https://learning2hash.github.io/publications/he2012difficulty/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Fast approximate nearest neighbor (NN) search in large databases is becoming popular. Several powerful learning-based formulations have been proposed recently. However, not much attention has been paid to a more fundamental question: how difficult is (approximate) nearest neighbor search in a given data set? And which data properties affect the difficulty of nearest neighbor search and how? This paper introduces the first concrete measure called Relative Contrast that can be used to evaluate the influence of several crucial data characteristics such as dimensionality, sparsity, and database size simultaneously in arbitrary normed metric spaces. Moreover, we present a theoretical analysis to prove how the difficulty measure (relative contrast) determines/affects the complexity of Local Sensitive Hashing, a popular approximate NN search method. Relative contrast also provides an explanation for a family of heuristic hashing algorithms with good practical performance based on PCA. Finally, we show that most of the previous works in measuring NN search meaningfulness/difficulty can be derived as special asymptotic cases for dense vectors of the proposed measure.","headline":"On The Difficulty Of Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/he2012difficulty/"},"url":"https://learning2hash.github.io/publications/he2012difficulty/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">On The Difficulty Of Nearest Neighbor Search</h1>
   <h5>He Junfeng Columbia University, Kumar Sanjiv Google Research, Chang Shih-fu Columbia University. Arxiv 2012</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1206.6411" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=On The Difficulty Of Nearest Neighbor Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=On The Difficulty Of Nearest Neighbor Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=On%20The%20Difficulty%20Of%20Nearest%20Neighbor%20Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=On%20The%20Difficulty%20Of%20Nearest%20Neighbor%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Unsupervised">Unsupervised</a></tag>
+      <span class="tag"><a href="/tags.html#Unsupervised">Unsupervised</a></span>
     
   </p>
+  
   <p><p>Fast approximate nearest neighbor (NN) search in large databases is becoming popular. Several powerful learning-based formulations have been proposed recently. However, not much attention has been paid to a more fundamental question: how difficult is (approximate) nearest neighbor search in a given data set? And which data properties affect the difficulty of nearest neighbor search and how? This paper introduces the first concrete measure called Relative Contrast that can be used to evaluate the influence of several crucial data characteristics such as dimensionality, sparsity, and database size simultaneously in arbitrary normed metric spaces. Moreover, we present a theoretical analysis to prove how the difficulty measure (relative contrast) determines/affects the complexity of Local Sensitive Hashing, a popular approximate NN search method. Relative contrast also provides an explanation for a family of heuristic hashing algorithms with good practical performance based on PCA. Finally, we show that most of the previous works in measuring NN search meaningfulness/difficulty can be derived as special asymptotic cases for dense vectors of the proposed measure.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/he2012difficulty.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/he2012difficulty.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

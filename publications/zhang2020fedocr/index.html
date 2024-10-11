@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2020fedocr/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fedocr Communication-efficient Federated Learning For Scene Text Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"While scene text recognition techniques have been widely used in commercial applications, data privacy has rarely been taken into account by this research community. Most existing algorithms have assumed a set of shared or centralized training data. However, in practice, data may be distributed on different local devices that can not be centralized to share due to the privacy restrictions. In this paper, we study how to make use of decentralized datasets for training a robust scene text recognizer while keeping them stay on local devices. To the best of our knowledge, we propose the first framework leveraging federated learning for scene text recognition, which is trained with decentralized datasets collaboratively. Hence we name it FedOCR. To make FedCOR fairly suitable to be deployed on end devices, we make two improvements including using lightweight models and hashing techniques. We argue that both are crucial for FedOCR in terms of the communication efficiency of federated learning. The simulations on decentralized datasets show that the proposed FedOCR achieves competitive results to the models that are trained with centralized data, with fewer communication costs and higher-level privacy-preserving.","headline":"Fedocr Communication-efficient Federated Learning For Scene Text Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2020fedocr/"},"url":"https://learning2hash.github.io/publications/zhang2020fedocr/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"While scene text recognition techniques have been widely used in commercial applications, data privacy has rarely been taken into account by this research community. Most existing algorithms have assumed a set of shared or centralized training data. However, in practice, data may be distributed on different local devices that can not be centralized to share due to the privacy restrictions. In this paper, we study how to make use of decentralized datasets for training a robust scene text recognizer while keeping them stay on local devices. To the best of our knowledge, we propose the first framework leveraging federated learning for scene text recognition, which is trained with decentralized datasets collaboratively. Hence we name it FedOCR. To make FedCOR fairly suitable to be deployed on end devices, we make two improvements including using lightweight models and hashing techniques. We argue that both are crucial for FedOCR in terms of the communication efficiency of federated learning. The simulations on decentralized datasets show that the proposed FedOCR achieves competitive results to the models that are trained with centralized data, with fewer communication costs and higher-level privacy-preserving.","headline":"Fedocr Communication-efficient Federated Learning For Scene Text Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2020fedocr/"},"url":"https://learning2hash.github.io/publications/zhang2020fedocr/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Fedocr Communication-efficient Federated Learning For Scene Text Recognition</h1>
   <h5>Zhang Wenqing, Qiu Yang, Bai Song, Zhang Rui, Wei Xiaolin, Bai Xiang. Arxiv 2020</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2007.11462" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Fedocr Communication-efficient Federated Learning For Scene Text Recognition' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Fedocr Communication-efficient Federated Learning For Scene Text Recognition' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Fedocr%20Communication-efficient%20Federated%20Learning%20For%20Scene%20Text%20Recognition' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Fedocr%20Communication-efficient%20Federated%20Learning%20For%20Scene%20Text%20Recognition' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>While scene text recognition techniques have been widely used in commercial applications, data privacy has rarely been taken into account by this research community. Most existing algorithms have assumed a set of shared or centralized training data. However, in practice, data may be distributed on different local devices that can not be centralized to share due to the privacy restrictions. In this paper, we study how to make use of decentralized datasets for training a robust scene text recognizer while keeping them stay on local devices. To the best of our knowledge, we propose the first framework leveraging federated learning for scene text recognition, which is trained with decentralized datasets collaboratively. Hence we name it FedOCR. To make FedCOR fairly suitable to be deployed on end devices, we make two improvements including using lightweight models and hashing techniques. We argue that both are crucial for FedOCR in terms of the communication efficiency of federated learning. The simulations on decentralized datasets show that the proposed FedOCR achieves competitive results to the models that are trained with centralized data, with fewer communication costs and higher-level privacy-preserving.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/zhang2020fedocr.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/zhang2020fedocr.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

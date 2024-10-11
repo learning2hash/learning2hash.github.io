@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/wurzer2022parameterizing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Parameterizing Kterm Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Kterm Hashing provides an innovative approach to novelty detection on massive data streams. Previous research focused on maximizing the efficiency of Kterm Hashing and succeeded in scaling First Story Detection to Twitter-size data stream without sacrificing detection accuracy. In this paper, we focus on improving the effectiveness of Kterm Hashing. Traditionally, all kterms are considered as equally important when calculating a document’s degree of novelty with respect to the past. We believe that certain kterms are more important than others and hypothesize that uniform kterm weights are sub-optimal for determining novelty in data streams. To validate our hypothesis, we parameterize Kterm Hashing by assigning weights to kterms based on their characteristics. Our experiments apply Kterm Hashing in a First Story Detection setting and reveal that parameterized Kterm Hashing can surpass state-of-the-art detection accuracy and significantly outperform the uniformly weighted approach.","headline":"Parameterizing Kterm Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wurzer2022parameterizing/"},"url":"https://learning2hash.github.io/publications/wurzer2022parameterizing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Kterm Hashing provides an innovative approach to novelty detection on massive data streams. Previous research focused on maximizing the efficiency of Kterm Hashing and succeeded in scaling First Story Detection to Twitter-size data stream without sacrificing detection accuracy. In this paper, we focus on improving the effectiveness of Kterm Hashing. Traditionally, all kterms are considered as equally important when calculating a document’s degree of novelty with respect to the past. We believe that certain kterms are more important than others and hypothesize that uniform kterm weights are sub-optimal for determining novelty in data streams. To validate our hypothesis, we parameterize Kterm Hashing by assigning weights to kterms based on their characteristics. Our experiments apply Kterm Hashing in a First Story Detection setting and reveal that parameterized Kterm Hashing can surpass state-of-the-art detection accuracy and significantly outperform the uniformly weighted approach.","headline":"Parameterizing Kterm Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wurzer2022parameterizing/"},"url":"https://learning2hash.github.io/publications/wurzer2022parameterizing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,40 +155,41 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Parameterizing Kterm Hashing</h1>
   <h5>Wurzer Dominik, Qin Yumeng. SIGIR 2022</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2208.01340" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Parameterizing Kterm Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Parameterizing Kterm Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Parameterizing%20Kterm%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Parameterizing%20Kterm%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
   </p>
+  
   <p><p>Kterm Hashing provides an innovative approach to novelty detection on massive data streams. Previous research focused on maximizing the efficiency of Kterm Hashing and succeeded in scaling First Story Detection to Twitter-size data stream without sacrificing detection accuracy. In this paper, we focus on improving the effectiveness of Kterm Hashing. Traditionally, all kterms are considered as equally important when calculating a document’s degree of novelty with respect to the past. We believe that certain kterms are more important than others and hypothesize that uniform kterm weights are sub-optimal for determining novelty in data streams. To validate our hypothesis, we parameterize Kterm Hashing by assigning weights to kterms based on their characteristics. Our experiments apply Kterm Hashing in a First Story Detection setting and reveal that parameterized Kterm Hashing can surpass state-of-the-art detection accuracy and significantly outperform the uniformly weighted approach.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/wurzer2022parameterizing.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/wurzer2022parameterizing.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

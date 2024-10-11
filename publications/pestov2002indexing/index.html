@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/pestov2002indexing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Indexing Schemes For Similarity Search An Illustrated Paradigm" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"We suggest a variation of the Hellerstein–Koutsoupias–Papadimitriou indexability model for datasets equipped with a similarity measure, with the aim of better understanding the structure of indexing schemes for similarity-based search and the geometry of similarity workloads. This in particular provides a unified approach to a great variety of schemes used to index into metric spaces and facilitates their transfer to more general similarity measures such as quasi-metrics. We discuss links between performance of indexing schemes and high-dimensional geometry. The concepts and results are illustrated on a very large concrete dataset of peptide fragments equipped with a biologically significant similarity measure.","headline":"Indexing Schemes For Similarity Search An Illustrated Paradigm","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pestov2002indexing/"},"url":"https://learning2hash.github.io/publications/pestov2002indexing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"We suggest a variation of the Hellerstein–Koutsoupias–Papadimitriou indexability model for datasets equipped with a similarity measure, with the aim of better understanding the structure of indexing schemes for similarity-based search and the geometry of similarity workloads. This in particular provides a unified approach to a great variety of schemes used to index into metric spaces and facilitates their transfer to more general similarity measures such as quasi-metrics. We discuss links between performance of indexing schemes and high-dimensional geometry. The concepts and results are illustrated on a very large concrete dataset of peptide fragments equipped with a biologically significant similarity measure.","headline":"Indexing Schemes For Similarity Search An Illustrated Paradigm","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pestov2002indexing/"},"url":"https://learning2hash.github.io/publications/pestov2002indexing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,40 +155,41 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Indexing Schemes For Similarity Search An Illustrated Paradigm</h1>
   <h5>Pestov Vladimir, Stojmirovic Aleksandar. Fundamenta Informaticae Vol. 2002</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/cs/0211018" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Indexing Schemes For Similarity Search An Illustrated Paradigm' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Indexing Schemes For Similarity Search An Illustrated Paradigm' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Indexing%20Schemes%20For%20Similarity%20Search%20An%20Illustrated%20Paradigm' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Indexing%20Schemes%20For%20Similarity%20Search%20An%20Illustrated%20Paradigm' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
   </p>
+  
   <p><p>We suggest a variation of the Hellerstein–Koutsoupias–Papadimitriou indexability model for datasets equipped with a similarity measure, with the aim of better understanding the structure of indexing schemes for similarity-based search and the geometry of similarity workloads. This in particular provides a unified approach to a great variety of schemes used to index into metric spaces and facilitates their transfer to more general similarity measures such as quasi-metrics. We discuss links between performance of indexing schemes and high-dimensional geometry. The concepts and results are illustrated on a very large concrete dataset of peptide fragments equipped with a biologically significant similarity measure.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/pestov2002indexing.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/pestov2002indexing.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

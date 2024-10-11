@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2021ternary/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Ternary Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"This paper proposes a novel ternary hash encoding for learning to hash methods, which provides a principled more efficient coding scheme with performances better than those of the state-of-the-art binary hashing counterparts. Two kinds of axiomatic ternary logic, Kleene logic and {\\L}ukasiewicz logic are adopted to calculate the Ternary Hamming Distance (THD) for both the learning/encoding and testing/querying phases. Our work demonstrates that, with an efficient implementation of ternary logic on standard binary machines, the proposed ternary hashing is compared favorably to the binary hashing methods with consistent improvements of retrieval mean average precision (mAP) ranging from 1\\% to 5.9\\% as shown in CIFAR10, NUS-WIDE and ImageNet100 datasets.","headline":"Ternary Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2021ternary/"},"url":"https://learning2hash.github.io/publications/liu2021ternary/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"This paper proposes a novel ternary hash encoding for learning to hash methods, which provides a principled more efficient coding scheme with performances better than those of the state-of-the-art binary hashing counterparts. Two kinds of axiomatic ternary logic, Kleene logic and {\\L}ukasiewicz logic are adopted to calculate the Ternary Hamming Distance (THD) for both the learning/encoding and testing/querying phases. Our work demonstrates that, with an efficient implementation of ternary logic on standard binary machines, the proposed ternary hashing is compared favorably to the binary hashing methods with consistent improvements of retrieval mean average precision (mAP) ranging from 1\\% to 5.9\\% as shown in CIFAR10, NUS-WIDE and ImageNet100 datasets.","headline":"Ternary Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2021ternary/"},"url":"https://learning2hash.github.io/publications/liu2021ternary/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Ternary Hashing</h1>
   <h5>Liu Chang, Fan Lixin, Ng Kam Woh, Jin Yilun, Ju Ce, Zhang Tianyu, Chan Chee Seng, Yang Qiang. Arxiv 2021</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2103.09173" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Ternary Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Ternary Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Ternary%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Ternary%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>This paper proposes a novel ternary hash encoding for learning to hash methods, which provides a principled more efficient coding scheme with performances better than those of the state-of-the-art binary hashing counterparts. Two kinds of axiomatic ternary logic, Kleene logic and {\L}ukasiewicz logic are adopted to calculate the Ternary Hamming Distance (THD) for both the learning/encoding and testing/querying phases. Our work demonstrates that, with an efficient implementation of ternary logic on standard binary machines, the proposed ternary hashing is compared favorably to the binary hashing methods with consistent improvements of retrieval mean average precision (mAP) ranging from 1\% to 5.9\% as shown in CIFAR10, NUS-WIDE and ImageNet100 datasets.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/liu2021ternary.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/liu2021ternary.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/pibiri2021pthash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Pthash Revisiting FCH Minimal Perfect Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Given a set $S$ of $n$ distinct keys, a function $f$ that bijectively maps the keys of $S$ into the range $\\{0,\\ldots,n-1\\}$ is called a minimal perfect hash function for $S$. Algorithms that find such functions when $n$ is large and retain constant evaluation time are of practical interest; for instance, search engines and databases typically use minimal perfect hash functions to quickly assign identifiers to static sets of variable-length keys such as strings. The challenge is to design an algorithm which is efficient in three different aspects: time to find $f$ (construction time), time to evaluate $f$ on a key of $S$ (lookup time), and space of representation for $f$. Several algorithms have been proposed to trade-off between these aspects. In 1992, Fox, Chen, and Heath (FCH) presented an algorithm at SIGIR providing very fast lookup evaluation. However, the approach received little attention because of its large construction time and higher space consumption compared to other subsequent techniques. Almost thirty years later we revisit their framework and present an improved algorithm that scales well to large sets and reduces space consumption altogether, without compromising the lookup time. We conduct an extensive experimental assessment and show that the algorithm finds functions that are competitive in space with state-of-the art techniques and provide $2-4\\times$ better lookup time.","headline":"Pthash Revisiting FCH Minimal Perfect Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pibiri2021pthash/"},"url":"https://learning2hash.github.io/publications/pibiri2021pthash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Given a set $S$ of $n$ distinct keys, a function $f$ that bijectively maps the keys of $S$ into the range $\\{0,\\ldots,n-1\\}$ is called a minimal perfect hash function for $S$. Algorithms that find such functions when $n$ is large and retain constant evaluation time are of practical interest; for instance, search engines and databases typically use minimal perfect hash functions to quickly assign identifiers to static sets of variable-length keys such as strings. The challenge is to design an algorithm which is efficient in three different aspects: time to find $f$ (construction time), time to evaluate $f$ on a key of $S$ (lookup time), and space of representation for $f$. Several algorithms have been proposed to trade-off between these aspects. In 1992, Fox, Chen, and Heath (FCH) presented an algorithm at SIGIR providing very fast lookup evaluation. However, the approach received little attention because of its large construction time and higher space consumption compared to other subsequent techniques. Almost thirty years later we revisit their framework and present an improved algorithm that scales well to large sets and reduces space consumption altogether, without compromising the lookup time. We conduct an extensive experimental assessment and show that the algorithm finds functions that are competitive in space with state-of-the art techniques and provide $2-4\\times$ better lookup time.","headline":"Pthash Revisiting FCH Minimal Perfect Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pibiri2021pthash/"},"url":"https://learning2hash.github.io/publications/pibiri2021pthash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Pthash Revisiting FCH Minimal Perfect Hashing</h1>
   <h5>Pibiri Giulio Ermanno, Trani Roberto. SIGIR 2021</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2104.10402" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Pthash Revisiting FCH Minimal Perfect Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Pthash Revisiting FCH Minimal Perfect Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Pthash%20Revisiting%20FCH%20Minimal%20Perfect%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Pthash%20Revisiting%20FCH%20Minimal%20Perfect%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>Given a set $S$ of $n$ distinct keys, a function $f$ that bijectively maps the keys of $S$ into the range $\{0,\ldots,n-1\}$ is called a minimal perfect hash function for $S$. Algorithms that find such functions when $n$ is large and retain constant evaluation time are of practical interest; for instance, search engines and databases typically use minimal perfect hash functions to quickly assign identifiers to static sets of variable-length keys such as strings. The challenge is to design an algorithm which is efficient in three different aspects: time to find $f$ (construction time), time to evaluate $f$ on a key of $S$ (lookup time), and space of representation for $f$. Several algorithms have been proposed to trade-off between these aspects. In 1992, Fox, Chen, and Heath (FCH) presented an algorithm at SIGIR providing very fast lookup evaluation. However, the approach received little attention because of its large construction time and higher space consumption compared to other subsequent techniques. Almost thirty years later we revisit their framework and present an improved algorithm that scales well to large sets and reduces space consumption altogether, without compromising the lookup time. We conduct an extensive experimental assessment and show that the algorithm finds functions that are competitive in space with state-of-the art techniques and provide $2-4\times$ better lookup time.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/pibiri2021pthash.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/pibiri2021pthash.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

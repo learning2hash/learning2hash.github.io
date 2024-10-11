@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/iscen2018local/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Local Orthogonal-group Testing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"This work addresses approximate nearest neighbor search applied in the domain of large-scale image retrieval. Within the group testing framework we propose an efficient off-line construction of the search structures. The linear-time complexity orthogonal grouping increases the probability that at most one element from each group is matching to a given query. Non-maxima suppression with each group efficiently reduces the number of false positive results at no extra cost. Unlike in other well-performing approaches, all processing is local, fast, and suitable to process data in batches and in parallel. We experimentally show that the proposed method achieves search accuracy of the exhaustive search with significant reduction in the search complexity. The method can be naturally combined with existing embedding methods.","headline":"Local Orthogonal-group Testing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/iscen2018local/"},"url":"https://learning2hash.github.io/publications/iscen2018local/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"This work addresses approximate nearest neighbor search applied in the domain of large-scale image retrieval. Within the group testing framework we propose an efficient off-line construction of the search structures. The linear-time complexity orthogonal grouping increases the probability that at most one element from each group is matching to a given query. Non-maxima suppression with each group efficiently reduces the number of false positive results at no extra cost. Unlike in other well-performing approaches, all processing is local, fast, and suitable to process data in batches and in parallel. We experimentally show that the proposed method achieves search accuracy of the exhaustive search with significant reduction in the search complexity. The method can be naturally combined with existing embedding methods.","headline":"Local Orthogonal-group Testing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/iscen2018local/"},"url":"https://learning2hash.github.io/publications/iscen2018local/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Local Orthogonal-group Testing</h1>
   <h5>Iscen Ahmet, Chum Ondrej. Arxiv 2018</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1807.09848" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Local Orthogonal-group Testing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Local Orthogonal-group Testing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Local%20Orthogonal-group%20Testing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Local%20Orthogonal-group%20Testing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Image Retrieval">Image Retrieval</a></tag>
+      <span class="tag"><a href="/tags.html#Image Retrieval">Image Retrieval</a></span>
     
   </p>
+  
   <p><p>This work addresses approximate nearest neighbor search applied in the domain of large-scale image retrieval. Within the group testing framework we propose an efficient off-line construction of the search structures. The linear-time complexity orthogonal grouping increases the probability that at most one element from each group is matching to a given query. Non-maxima suppression with each group efficiently reduces the number of false positive results at no extra cost. Unlike in other well-performing approaches, all processing is local, fast, and suitable to process data in batches and in parallel. We experimentally show that the proposed method achieves search accuracy of the exhaustive search with significant reduction in the search complexity. The method can be naturally combined with existing embedding methods.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/iscen2018local.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/iscen2018local.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

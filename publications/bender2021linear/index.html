@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/bender2021linear/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Linear Probing Revisited Tombstones Mark The Death Of Primary Clustering" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"First introduced in 1954, linear probing is one of the oldest data structures in computer science, and due to its unrivaled data locality, it continues to be one of the fastest hash tables in practice. It is widely believed and taught, however, that linear probing should never be used at high load factors; this is because primary-clustering effects cause insertions at load factor $1 - 1 /x$ to take expected time $\\Theta(x^2)$ (rather than the ideal $\\Theta(x)$). The dangers of primary clustering, first discovered by Knuth in 1963, have been taught to generations of computer scientists, and have influenced the design of some of many widely used hash tables. We show that primary clustering is not a foregone conclusion. We demonstrate that small design decisions in how deletions are implemented have dramatic effects on the asymptotic performance of insertions, so that, even if a hash table operates continuously at a load factor $1 - \\Theta(1/x)$, the expected amortized cost per operation is $\\tilde{O}(x)$. This is because tombstones created by deletions actually cause an anti-clustering effect that combats primary clustering. We also present a new variant of linear probing (which we call graveyard hashing) that completely eliminates primary clustering on \\emph{any} sequence of operations: if, when an operation is performed, the current load factor is $1 - 1/x$ for some $x$, then the expected cost of the operation is $O(x)$. One corollary is that, in the external-memory model with a data blocks of size $B$, graveyard hashing offers the following remarkable guarantee: at any load factor $1 - 1/x$ satisfying $x = o(B)$, graveyard hashing achieves $1 + o(1)$ expected block transfers per operation. Past external-memory hash tables have only been able to offer a $1 + o(1)$ guarantee when the block size $B$ is at least $\\Omega(x^2)$.","headline":"Linear Probing Revisited Tombstones Mark The Death Of Primary Clustering","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bender2021linear/"},"url":"https://learning2hash.github.io/publications/bender2021linear/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"First introduced in 1954, linear probing is one of the oldest data structures in computer science, and due to its unrivaled data locality, it continues to be one of the fastest hash tables in practice. It is widely believed and taught, however, that linear probing should never be used at high load factors; this is because primary-clustering effects cause insertions at load factor $1 - 1 /x$ to take expected time $\\Theta(x^2)$ (rather than the ideal $\\Theta(x)$). The dangers of primary clustering, first discovered by Knuth in 1963, have been taught to generations of computer scientists, and have influenced the design of some of many widely used hash tables. We show that primary clustering is not a foregone conclusion. We demonstrate that small design decisions in how deletions are implemented have dramatic effects on the asymptotic performance of insertions, so that, even if a hash table operates continuously at a load factor $1 - \\Theta(1/x)$, the expected amortized cost per operation is $\\tilde{O}(x)$. This is because tombstones created by deletions actually cause an anti-clustering effect that combats primary clustering. We also present a new variant of linear probing (which we call graveyard hashing) that completely eliminates primary clustering on \\emph{any} sequence of operations: if, when an operation is performed, the current load factor is $1 - 1/x$ for some $x$, then the expected cost of the operation is $O(x)$. One corollary is that, in the external-memory model with a data blocks of size $B$, graveyard hashing offers the following remarkable guarantee: at any load factor $1 - 1/x$ satisfying $x = o(B)$, graveyard hashing achieves $1 + o(1)$ expected block transfers per operation. Past external-memory hash tables have only been able to offer a $1 + o(1)$ guarantee when the block size $B$ is at least $\\Omega(x^2)$.","headline":"Linear Probing Revisited Tombstones Mark The Death Of Primary Clustering","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bender2021linear/"},"url":"https://learning2hash.github.io/publications/bender2021linear/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Linear Probing Revisited Tombstones Mark The Death Of Primary Clustering</h1>
   <h5>Bender Michael A., Kuszmaul Bradley C., Kuszmaul William. Arxiv 2021</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2107.01250" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Linear Probing Revisited Tombstones Mark The Death Of Primary Clustering' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Linear Probing Revisited Tombstones Mark The Death Of Primary Clustering' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Linear%20Probing%20Revisited%20Tombstones%20Mark%20The%20Death%20Of%20Primary%20Clustering' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Linear%20Probing%20Revisited%20Tombstones%20Mark%20The%20Death%20Of%20Primary%20Clustering' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Unsupervised">Unsupervised</a></tag>
+      <span class="tag"><a href="/tags.html#Unsupervised">Unsupervised</a></span>
     
   </p>
+  
   <p><p>First introduced in 1954, linear probing is one of the oldest data structures in computer science, and due to its unrivaled data locality, it continues to be one of the fastest hash tables in practice. It is widely believed and taught, however, that linear probing should never be used at high load factors; this is because primary-clustering effects cause insertions at load factor $1 - 1 /x$ to take expected time $\Theta(x^2)$ (rather than the ideal $\Theta(x)$). The dangers of primary clustering, first discovered by Knuth in 1963, have been taught to generations of computer scientists, and have influenced the design of some of many widely used hash tables. We show that primary clustering is not a foregone conclusion. We demonstrate that small design decisions in how deletions are implemented have dramatic effects on the asymptotic performance of insertions, so that, even if a hash table operates continuously at a load factor $1 - \Theta(1/x)$, the expected amortized cost per operation is $\tilde{O}(x)$. This is because tombstones created by deletions actually cause an anti-clustering effect that combats primary clustering. We also present a new variant of linear probing (which we call graveyard hashing) that completely eliminates primary clustering on \emph{any} sequence of operations: if, when an operation is performed, the current load factor is $1 - 1/x$ for some $x$, then the expected cost of the operation is $O(x)$. One corollary is that, in the external-memory model with a data blocks of size $B$, graveyard hashing offers the following remarkable guarantee: at any load factor $1 - 1/x$ satisfying $x = o(B)$, graveyard hashing achieves $1 + o(1)$ expected block transfers per operation. Past external-memory hash tables have only been able to offer a $1 + o(1)$ guarantee when the block size $B$ is at least $\Omega(x^2)$.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/bender2021linear.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/bender2021linear.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

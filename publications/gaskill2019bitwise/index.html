@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/gaskill2019bitwise/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The Bitwise Hashing Trick For Personalized Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Many real world problems require fast and efficient lexical comparison of large numbers of short text strings. Search personalization is one such domain. We introduce the use of feature bit vectors using the hashing trick for improving relevance in personalized search and other personalization applications. We present results of several lexical hashing and comparison methods. These methods are applied to a user’s historical behavior and are used to predict future behavior. Using a single bit per dimension instead of floating point results in an order of magnitude decrease in data structure size, while preserving or even improving quality. We use real data to simulate a search personalization task. A simple method for combining bit vectors demonstrates an order of magnitude improvement in compute time on the task with only a small decrease in accuracy.","headline":"The Bitwise Hashing Trick For Personalized Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gaskill2019bitwise/"},"url":"https://learning2hash.github.io/publications/gaskill2019bitwise/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Many real world problems require fast and efficient lexical comparison of large numbers of short text strings. Search personalization is one such domain. We introduce the use of feature bit vectors using the hashing trick for improving relevance in personalized search and other personalization applications. We present results of several lexical hashing and comparison methods. These methods are applied to a user’s historical behavior and are used to predict future behavior. Using a single bit per dimension instead of floating point results in an order of magnitude decrease in data structure size, while preserving or even improving quality. We use real data to simulate a search personalization task. A simple method for combining bit vectors demonstrates an order of magnitude improvement in compute time on the task with only a small decrease in accuracy.","headline":"The Bitwise Hashing Trick For Personalized Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gaskill2019bitwise/"},"url":"https://learning2hash.github.io/publications/gaskill2019bitwise/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,40 +155,41 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">The Bitwise Hashing Trick For Personalized Search</h1>
   <h5>Gaskill Braddock. Applied Artificial Intelligence Volume 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1910.08646" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=The Bitwise Hashing Trick For Personalized Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=The Bitwise Hashing Trick For Personalized Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=The%20Bitwise%20Hashing%20Trick%20For%20Personalized%20Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=The%20Bitwise%20Hashing%20Trick%20For%20Personalized%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
   </p>
+  
   <p><p>Many real world problems require fast and efficient lexical comparison of large numbers of short text strings. Search personalization is one such domain. We introduce the use of feature bit vectors using the hashing trick for improving relevance in personalized search and other personalization applications. We present results of several lexical hashing and comparison methods. These methods are applied to a user’s historical behavior and are used to predict future behavior. Using a single bit per dimension instead of floating point results in an order of magnitude decrease in data structure size, while preserving or even improving quality. We use real data to simulate a search personalization task. A simple method for combining bit vectors demonstrates an order of magnitude improvement in compute time on the task with only a small decrease in accuracy.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/gaskill2019bitwise.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/gaskill2019bitwise.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

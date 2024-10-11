@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/zou2019transductive/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Transductive Zero-shot Hashing For Multilabel Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Hash coding has been widely used in approximate nearest neighbor search for large-scale image retrieval. Given semantic annotations such as class labels and pairwise similarities of the training data, hashing methods can learn and generate effective and compact binary codes. While some newly introduced images may contain undefined semantic labels, which we call unseen images, zeor-shot hashing techniques have been studied. However, existing zeor-shot hashing methods focus on the retrieval of single-label images, and cannot handle multi-label images. In this paper, for the first time, a novel transductive zero-shot hashing method is proposed for multi-label unseen image retrieval. In order to predict the labels of the unseen/target data, a visual-semantic bridge is built via instance-concept coherence ranking on the seen/source data. Then, pairwise similarity loss and focal quantization loss are constructed for training a hashing model using both the seen/source and unseen/target data. Extensive evaluations on three popular multi-label datasets demonstrate that, the proposed hashing method achieves significantly better results than the competing methods.","headline":"Transductive Zero-shot Hashing For Multilabel Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zou2019transductive/"},"url":"https://learning2hash.github.io/publications/zou2019transductive/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Hash coding has been widely used in approximate nearest neighbor search for large-scale image retrieval. Given semantic annotations such as class labels and pairwise similarities of the training data, hashing methods can learn and generate effective and compact binary codes. While some newly introduced images may contain undefined semantic labels, which we call unseen images, zeor-shot hashing techniques have been studied. However, existing zeor-shot hashing methods focus on the retrieval of single-label images, and cannot handle multi-label images. In this paper, for the first time, a novel transductive zero-shot hashing method is proposed for multi-label unseen image retrieval. In order to predict the labels of the unseen/target data, a visual-semantic bridge is built via instance-concept coherence ranking on the seen/source data. Then, pairwise similarity loss and focal quantization loss are constructed for training a hashing model using both the seen/source and unseen/target data. Extensive evaluations on three popular multi-label datasets demonstrate that, the proposed hashing method achieves significantly better results than the competing methods.","headline":"Transductive Zero-shot Hashing For Multilabel Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zou2019transductive/"},"url":"https://learning2hash.github.io/publications/zou2019transductive/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Transductive Zero-shot Hashing For Multilabel Image Retrieval</h1>
   <h5>Zou Qin, Zhang Zheng, Cao Ling, Chen Long, Wang Song. IEEE Transactions on Neural Networks and Learning Systems 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1911.07192" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Transductive Zero-shot Hashing For Multilabel Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Transductive Zero-shot Hashing For Multilabel Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Transductive%20Zero-shot%20Hashing%20For%20Multilabel%20Image%20Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Transductive%20Zero-shot%20Hashing%20For%20Multilabel%20Image%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#Image Retrieval">Image Retrieval</a></tag>
+      <span class="tag"><a href="/tags.html#Image Retrieval">Image Retrieval</a></span>
     
-      <tag><a href="/tags.html#Quantisation">Quantisation</a></tag>
+      <span class="tag"><a href="/tags.html#Quantisation">Quantisation</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>Hash coding has been widely used in approximate nearest neighbor search for large-scale image retrieval. Given semantic annotations such as class labels and pairwise similarities of the training data, hashing methods can learn and generate effective and compact binary codes. While some newly introduced images may contain undefined semantic labels, which we call unseen images, zeor-shot hashing techniques have been studied. However, existing zeor-shot hashing methods focus on the retrieval of single-label images, and cannot handle multi-label images. In this paper, for the first time, a novel transductive zero-shot hashing method is proposed for multi-label unseen image retrieval. In order to predict the labels of the unseen/target data, a visual-semantic bridge is built via instance-concept coherence ranking on the seen/source data. Then, pairwise similarity loss and focal quantization loss are constructed for training a hashing model using both the seen/source and unseen/target data. Extensive evaluations on three popular multi-label datasets demonstrate that, the proposed hashing method achieves significantly better results than the competing methods.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/zou2019transductive.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/zou2019transductive.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

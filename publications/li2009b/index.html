@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2009b/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="B-bit Minwise Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"This paper establishes the theoretical framework of b-bit minwise hashing. The original minwise hashing method has become a standard technique for estimating set similarity (e.g., resemblance) with applications in information retrieval, data management, social networks and computational advertising. By only storing the lowest $b$ bits of each (minwise) hashed value (e.g., b=1 or 2), one can gain substantial advantages in terms of computational efficiency and storage space. We prove the basic theoretical results and provide an unbiased estimator of the resemblance for any b. We demonstrate that, even in the least favorable scenario, using b=1 may reduce the storage space at least by a factor of 21.3 (or 10.7) compared to using b=64 (or b=32), if one is interested in resemblance &gt; 0.5.","headline":"B-bit Minwise Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2009b/"},"url":"https://learning2hash.github.io/publications/li2009b/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"This paper establishes the theoretical framework of b-bit minwise hashing. The original minwise hashing method has become a standard technique for estimating set similarity (e.g., resemblance) with applications in information retrieval, data management, social networks and computational advertising. By only storing the lowest $b$ bits of each (minwise) hashed value (e.g., b=1 or 2), one can gain substantial advantages in terms of computational efficiency and storage space. We prove the basic theoretical results and provide an unbiased estimator of the resemblance for any b. We demonstrate that, even in the least favorable scenario, using b=1 may reduce the storage space at least by a factor of 21.3 (or 10.7) compared to using b=64 (or b=32), if one is interested in resemblance &gt; 0.5.","headline":"B-bit Minwise Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2009b/"},"url":"https://learning2hash.github.io/publications/li2009b/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">B-bit Minwise Hashing</h1>
   <h5>Li Ping, Konig Arnd Christian. Arxiv 2009</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/0910.3349" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=B-bit Minwise Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=B-bit Minwise Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=B-bit%20Minwise%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=B-bit%20Minwise%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>This paper establishes the theoretical framework of b-bit minwise hashing. The original minwise hashing method has become a standard technique for estimating set similarity (e.g., resemblance) with applications in information retrieval, data management, social networks and computational advertising. By only storing the lowest $b$ bits of each (minwise) hashed value (e.g., b=1 or 2), one can gain substantial advantages in terms of computational efficiency and storage space. We prove the basic theoretical results and provide an unbiased estimator of the resemblance for any b. We demonstrate that, even in the least favorable scenario, using b=1 may reduce the storage space at least by a factor of 21.3 (or 10.7) compared to using b=64 (or b=32), if one is interested in resemblance &gt; 0.5.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/li2009b.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/li2009b.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

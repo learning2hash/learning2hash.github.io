@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2004investigation/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="An Investigation Of Practical Approximate Nearest Neighbor Algorithms" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"This paper concerns approximate nearest neighbor searching algorithms, which have become increasingly important, especially in high dimen- sional perception areas such as computer vision, with dozens of publica- tions in recent years. Much of this enthusiasm is due to a successful new approximate nearest neighbor approach called Locality Sensitive Hash- ing (LSH). In this paper we ask the question: can earlier spatial data structure approaches to exact nearest neighbor, such as metric trees, be altered to provide approximate answers to proximity queries and if so, how? We introduce a new kind of metric tree that allows overlap: certain datapoints may appear in both the children of a parent. We also intro- duce new approximate k-NN search algorithms on this structure. We show why these structures should be able to exploit the same random- projection-based approximations that LSH enjoys, but with a simpler al- gorithm and perhaps with greater efficiency. We then provide a detailed empirical evaluation on five large, high dimensional datasets which show up to 31-fold accelerations over LSH. This result holds true throughout the spectrum of approximation levels.","headline":"An Investigation Of Practical Approximate Nearest Neighbor Algorithms","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2004investigation/"},"url":"https://learning2hash.github.io/publications/liu2004investigation/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"This paper concerns approximate nearest neighbor searching algorithms, which have become increasingly important, especially in high dimen- sional perception areas such as computer vision, with dozens of publica- tions in recent years. Much of this enthusiasm is due to a successful new approximate nearest neighbor approach called Locality Sensitive Hash- ing (LSH). In this paper we ask the question: can earlier spatial data structure approaches to exact nearest neighbor, such as metric trees, be altered to provide approximate answers to proximity queries and if so, how? We introduce a new kind of metric tree that allows overlap: certain datapoints may appear in both the children of a parent. We also intro- duce new approximate k-NN search algorithms on this structure. We show why these structures should be able to exploit the same random- projection-based approximations that LSH enjoys, but with a simpler al- gorithm and perhaps with greater efficiency. We then provide a detailed empirical evaluation on five large, high dimensional datasets which show up to 31-fold accelerations over LSH. This result holds true throughout the spectrum of approximation levels.","headline":"An Investigation Of Practical Approximate Nearest Neighbor Algorithms","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2004investigation/"},"url":"https://learning2hash.github.io/publications/liu2004investigation/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">An Investigation Of Practical Approximate Nearest Neighbor Algorithms</h1>
   <h5>Ting Liu, Andrew Moore, Ke Yang, Alexander Gray. Neural Information Processing Systems 2004</h5>
+  
   <p>
     
       [<a href="https://papers.nips.cc/paper/2004/hash/1102a326d5f7c9e04fc3c89d0ede88c9-Abstract.html" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=An Investigation Of Practical Approximate Nearest Neighbor Algorithms' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=An Investigation Of Practical Approximate Nearest Neighbor Algorithms' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=An%20Investigation%20Of%20Practical%20Approximate%20Nearest%20Neighbor%20Algorithms' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=An%20Investigation%20Of%20Practical%20Approximate%20Nearest%20Neighbor%20Algorithms' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
-      <tag><a href="/tags.html#LSH">LSH</a></tag>
+      <span class="tag"><a href="/tags.html#LSH">LSH</a></span>
     
-      <tag><a href="/tags.html#NEURIPS">NEURIPS</a></tag>
+      <span class="tag"><a href="/tags.html#NEURIPS">NEURIPS</a></span>
     
   </p>
+  
   <p><p>This paper concerns approximate nearest neighbor searching algorithms, which have become increasingly important, especially in high dimen- sional perception areas such as computer vision, with dozens of publica- tions in recent years. Much of this enthusiasm is due to a successful new approximate nearest neighbor approach called Locality Sensitive Hash- ing (LSH). In this paper we ask the question: can earlier spatial data structure approaches to exact nearest neighbor, such as metric trees, be altered to provide approximate answers to proximity queries and if so, how? We introduce a new kind of metric tree that allows overlap: certain datapoints may appear in both the children of a parent. We also intro- duce new approximate k-NN search algorithms on this structure. We show why these structures should be able to exploit the same random- projection-based approximations that LSH enjoys, but with a simpler al- gorithm and perhaps with greater efficiency. We then provide a detailed empirical evaluation on five large, high dimensional datasets which show up to 31-fold accelerations over LSH. This result holds true throughout the spectrum of approximation levels.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/liu2004investigation.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/liu2004investigation.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

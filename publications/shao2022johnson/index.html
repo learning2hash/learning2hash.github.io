@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/shao2022johnson/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Johnson-lindenstrauss Embeddings For Noisy Vectors – Taking Advantage Of The Noise" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"This paper investigates theoretical properties of subsampling and hashing as tools for approximate Euclidean norm-preserving embeddings for vectors with (unknown) additive Gaussian noises. Such embeddings are sometimes called Johnson-lindenstrauss embeddings due to their celebrated lemma. Previous work shows that as sparse embeddings, the success of subsampling and hashing closely depends on the $l_\\infty$ to $l_2$ ratios of the vector to be mapped. This paper shows that the presence of noise removes such constrain in high-dimensions, in other words, sparse embeddings such as subsampling and hashing with comparable embedding dimensions to dense embeddings have similar approximate norm-preserving dimensionality-reduction properties. The key is that the noise should be treated as an information to be exploited, not simply something to be removed. Theoretical bounds for subsampling and hashing to recover the approximate norm of a high dimension vector in the presence of noise are derived, with numerical illustrations showing better performances are achieved in the presence of noise.","headline":"Johnson-lindenstrauss Embeddings For Noisy Vectors – Taking Advantage Of The Noise","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shao2022johnson/"},"url":"https://learning2hash.github.io/publications/shao2022johnson/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"This paper investigates theoretical properties of subsampling and hashing as tools for approximate Euclidean norm-preserving embeddings for vectors with (unknown) additive Gaussian noises. Such embeddings are sometimes called Johnson-lindenstrauss embeddings due to their celebrated lemma. Previous work shows that as sparse embeddings, the success of subsampling and hashing closely depends on the $l_\\infty$ to $l_2$ ratios of the vector to be mapped. This paper shows that the presence of noise removes such constrain in high-dimensions, in other words, sparse embeddings such as subsampling and hashing with comparable embedding dimensions to dense embeddings have similar approximate norm-preserving dimensionality-reduction properties. The key is that the noise should be treated as an information to be exploited, not simply something to be removed. Theoretical bounds for subsampling and hashing to recover the approximate norm of a high dimension vector in the presence of noise are derived, with numerical illustrations showing better performances are achieved in the presence of noise.","headline":"Johnson-lindenstrauss Embeddings For Noisy Vectors – Taking Advantage Of The Noise","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shao2022johnson/"},"url":"https://learning2hash.github.io/publications/shao2022johnson/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Johnson-lindenstrauss Embeddings For Noisy Vectors -- Taking Advantage Of The Noise</h1>
   <h5>Shao Zhen. Arxiv 2022</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2209.01006" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Johnson-lindenstrauss Embeddings For Noisy Vectors -- Taking Advantage Of The Noise' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Johnson-lindenstrauss Embeddings For Noisy Vectors -- Taking Advantage Of The Noise' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Johnson-lindenstrauss%20Embeddings%20For%20Noisy%20Vectors%20--%20Taking%20Advantage%20Of%20The%20Noise' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Johnson-lindenstrauss%20Embeddings%20For%20Noisy%20Vectors%20--%20Taking%20Advantage%20Of%20The%20Noise' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>This paper investigates theoretical properties of subsampling and hashing as tools for approximate Euclidean norm-preserving embeddings for vectors with (unknown) additive Gaussian noises. Such embeddings are sometimes called Johnson-lindenstrauss embeddings due to their celebrated lemma. Previous work shows that as sparse embeddings, the success of subsampling and hashing closely depends on the $l_\infty$ to $l_2$ ratios of the vector to be mapped. This paper shows that the presence of noise removes such constrain in high-dimensions, in other words, sparse embeddings such as subsampling and hashing with comparable embedding dimensions to dense embeddings have similar approximate norm-preserving dimensionality-reduction properties. The key is that the noise should be treated as an information to be exploited, not simply something to be removed. Theoretical bounds for subsampling and hashing to recover the approximate norm of a high dimension vector in the presence of noise are derived, with numerical illustrations showing better performances are achieved in the presence of noise.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/shao2022johnson.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/shao2022johnson.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

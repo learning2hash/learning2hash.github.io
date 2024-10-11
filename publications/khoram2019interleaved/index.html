@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/khoram2019interleaved/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Interleaved Composite Quantization For High-dimensional Similarity Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Similarity search retrieves the nearest neighbors of a query vector from a dataset of high-dimensional vectors. As the size of the dataset grows, the cost of performing the distance computations needed to implement a query can become prohibitive. A method often used to reduce this computational cost is quantization of the vector space and location-based encoding of the dataset vectors. These encodings can be used during query processing to find approximate nearest neighbors of the query point quickly. Search speed can be improved by using shorter codes, but shorter codes have higher quantization error, leading to degraded precision. In this work, we propose the Interleaved Composite Quantization (ICQ) which achieves fast similarity search without using shorter codes. In ICQ, a small subset of the code is used to approximate the distances, with complete codes being used only when necessary. Our method effectively reduces both code length and quantization error. Furthermore, ICQ is compatible with several recently proposed techniques for reducing quantization error and can be used in conjunction with these other techniques to improve results. We confirm these claims and show strong empirical performance of ICQ using several synthetic and real-word datasets.","headline":"Interleaved Composite Quantization For High-dimensional Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/khoram2019interleaved/"},"url":"https://learning2hash.github.io/publications/khoram2019interleaved/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Similarity search retrieves the nearest neighbors of a query vector from a dataset of high-dimensional vectors. As the size of the dataset grows, the cost of performing the distance computations needed to implement a query can become prohibitive. A method often used to reduce this computational cost is quantization of the vector space and location-based encoding of the dataset vectors. These encodings can be used during query processing to find approximate nearest neighbors of the query point quickly. Search speed can be improved by using shorter codes, but shorter codes have higher quantization error, leading to degraded precision. In this work, we propose the Interleaved Composite Quantization (ICQ) which achieves fast similarity search without using shorter codes. In ICQ, a small subset of the code is used to approximate the distances, with complete codes being used only when necessary. Our method effectively reduces both code length and quantization error. Furthermore, ICQ is compatible with several recently proposed techniques for reducing quantization error and can be used in conjunction with these other techniques to improve results. We confirm these claims and show strong empirical performance of ICQ using several synthetic and real-word datasets.","headline":"Interleaved Composite Quantization For High-dimensional Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/khoram2019interleaved/"},"url":"https://learning2hash.github.io/publications/khoram2019interleaved/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Interleaved Composite Quantization For High-dimensional Similarity Search</h1>
   <h5>Khoram Soroosh, Wright Stephen J, Li Jing. Arxiv 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1912.08756" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Interleaved Composite Quantization For High-dimensional Similarity Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Interleaved Composite Quantization For High-dimensional Similarity Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Interleaved%20Composite%20Quantization%20For%20High-dimensional%20Similarity%20Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Interleaved%20Composite%20Quantization%20For%20High-dimensional%20Similarity%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Quantisation">Quantisation</a></tag>
+      <span class="tag"><a href="/tags.html#Quantisation">Quantisation</a></span>
     
   </p>
+  
   <p><p>Similarity search retrieves the nearest neighbors of a query vector from a dataset of high-dimensional vectors. As the size of the dataset grows, the cost of performing the distance computations needed to implement a query can become prohibitive. A method often used to reduce this computational cost is quantization of the vector space and location-based encoding of the dataset vectors. These encodings can be used during query processing to find approximate nearest neighbors of the query point quickly. Search speed can be improved by using shorter codes, but shorter codes have higher quantization error, leading to degraded precision. In this work, we propose the Interleaved Composite Quantization (ICQ) which achieves fast similarity search without using shorter codes. In ICQ, a small subset of the code is used to approximate the distances, with complete codes being used only when necessary. Our method effectively reduces both code length and quantization error. Furthermore, ICQ is compatible with several recently proposed techniques for reducing quantization error and can be used in conjunction with these other techniques to improve results. We confirm these claims and show strong empirical performance of ICQ using several synthetic and real-word datasets.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/khoram2019interleaved.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/khoram2019interleaved.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

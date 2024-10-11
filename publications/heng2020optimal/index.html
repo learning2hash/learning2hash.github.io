@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/heng2020optimal/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Optimal Binary Linear Codes From Maximal Arcs" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"The binary Hamming codes with parameters $[2^m-1, 2^m-1-m, 3]$ are perfect. Their extended codes have parameters $[2^m, 2^m-1-m, 4]$ and are distance-optimal. The first objective of this paper is to construct a class of binary linear codes with parameters $[2^{m+s}+2^s-2^m,2^{m+s}+2^s-2^m-2m-2,4]$, which have better information rates than the class of extended binary Hamming codes, and are also distance-optimal. The second objective is to construct a class of distance-optimal binary codes with parameters $[2^m+2, 2^m-2m, 6]$. Both classes of binary linear codes have new parameters.","headline":"Optimal Binary Linear Codes From Maximal Arcs","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/heng2020optimal/"},"url":"https://learning2hash.github.io/publications/heng2020optimal/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"The binary Hamming codes with parameters $[2^m-1, 2^m-1-m, 3]$ are perfect. Their extended codes have parameters $[2^m, 2^m-1-m, 4]$ and are distance-optimal. The first objective of this paper is to construct a class of binary linear codes with parameters $[2^{m+s}+2^s-2^m,2^{m+s}+2^s-2^m-2m-2,4]$, which have better information rates than the class of extended binary Hamming codes, and are also distance-optimal. The second objective is to construct a class of distance-optimal binary codes with parameters $[2^m+2, 2^m-2m, 6]$. Both classes of binary linear codes have new parameters.","headline":"Optimal Binary Linear Codes From Maximal Arcs","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/heng2020optimal/"},"url":"https://learning2hash.github.io/publications/heng2020optimal/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Optimal Binary Linear Codes From Maximal Arcs</h1>
   <h5>Heng Ziling, Ding Cunsheng, Wang Weiqiong. Arxiv 2020</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2001.01049" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Optimal Binary Linear Codes From Maximal Arcs' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Optimal Binary Linear Codes From Maximal Arcs' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Optimal%20Binary%20Linear%20Codes%20From%20Maximal%20Arcs' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Optimal%20Binary%20Linear%20Codes%20From%20Maximal%20Arcs' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>The binary Hamming codes with parameters $[2^m-1, 2^m-1-m, 3]$ are perfect. Their extended codes have parameters $[2^m, 2^m-1-m, 4]$ and are distance-optimal. The first objective of this paper is to construct a class of binary linear codes with parameters $[2^{m+s}+2^s-2^m,2^{m+s}+2^s-2^m-2m-2,4]$, which have better information rates than the class of extended binary Hamming codes, and are also distance-optimal. The second objective is to construct a class of distance-optimal binary codes with parameters $[2^m+2, 2^m-2m, 6]$. Both classes of binary linear codes have new parameters.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/heng2020optimal.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/heng2020optimal.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

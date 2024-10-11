@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/xie2013kernelized/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Kernelized Locality-sensitive Hashing For Semi-supervised Agglomerative Clustering" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Large scale agglomerative clustering is hindered by computational burdens. We propose a novel scheme where exact inter-instance distance calculation is replaced by the Hamming distance between Kernelized Locality-Sensitive Hashing (KLSH) hashed values. This results in a method that drastically decreases computation time. Additionally, we take advantage of certain labeled data points via distance metric learning to achieve a competitive precision and recall comparing to K-Means but in much less computation time.","headline":"Kernelized Locality-sensitive Hashing For Semi-supervised Agglomerative Clustering","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xie2013kernelized/"},"url":"https://learning2hash.github.io/publications/xie2013kernelized/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Large scale agglomerative clustering is hindered by computational burdens. We propose a novel scheme where exact inter-instance distance calculation is replaced by the Hamming distance between Kernelized Locality-Sensitive Hashing (KLSH) hashed values. This results in a method that drastically decreases computation time. Additionally, we take advantage of certain labeled data points via distance metric learning to achieve a competitive precision and recall comparing to K-Means but in much less computation time.","headline":"Kernelized Locality-sensitive Hashing For Semi-supervised Agglomerative Clustering","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xie2013kernelized/"},"url":"https://learning2hash.github.io/publications/xie2013kernelized/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Kernelized Locality-sensitive Hashing For Semi-supervised Agglomerative Clustering</h1>
   <h5>Xie Boyi, Zheng Shuheng. Arxiv 2013</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1301.3575" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Kernelized Locality-sensitive Hashing For Semi-supervised Agglomerative Clustering' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Kernelized Locality-sensitive Hashing For Semi-supervised Agglomerative Clustering' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Kernelized%20Locality-sensitive%20Hashing%20For%20Semi-supervised%20Agglomerative%20Clustering' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Kernelized%20Locality-sensitive%20Hashing%20For%20Semi-supervised%20Agglomerative%20Clustering' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>Large scale agglomerative clustering is hindered by computational burdens. We propose a novel scheme where exact inter-instance distance calculation is replaced by the Hamming distance between Kernelized Locality-Sensitive Hashing (KLSH) hashed values. This results in a method that drastically decreases computation time. Additionally, we take advantage of certain labeled data points via distance metric learning to achieve a competitive precision and recall comparing to K-Means but in much less computation time.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/xie2013kernelized.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/xie2013kernelized.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

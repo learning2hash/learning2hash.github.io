@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/harandi2014expanding/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Expanding The Family Of Grassmannian Kernels An Embedding Perspective" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Modeling videos and image-sets as linear subspaces has proven beneficial for many visual recognition tasks. However, it also incurs challenges arising from the fact that linear subspaces do not obey Euclidean geometry, but lie on a special type of Riemannian manifolds known as Grassmannian. To leverage the techniques developed for Euclidean spaces (e.g, support vector machines) with subspaces, several recent studies have proposed to embed the Grassmannian into a Hilbert space by making use of a positive definite kernel. Unfortunately, only two Grassmannian kernels are known, none of which -as we will show- is universal, which limits their ability to approximate a target function arbitrarily well. Here, we introduce several positive definite Grassmannian kernels, including universal ones, and demonstrate their superiority over previously-known kernels in various tasks, such as classification, clustering, sparse coding and hashing.","headline":"Expanding The Family Of Grassmannian Kernels An Embedding Perspective","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/harandi2014expanding/"},"url":"https://learning2hash.github.io/publications/harandi2014expanding/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Modeling videos and image-sets as linear subspaces has proven beneficial for many visual recognition tasks. However, it also incurs challenges arising from the fact that linear subspaces do not obey Euclidean geometry, but lie on a special type of Riemannian manifolds known as Grassmannian. To leverage the techniques developed for Euclidean spaces (e.g, support vector machines) with subspaces, several recent studies have proposed to embed the Grassmannian into a Hilbert space by making use of a positive definite kernel. Unfortunately, only two Grassmannian kernels are known, none of which -as we will show- is universal, which limits their ability to approximate a target function arbitrarily well. Here, we introduce several positive definite Grassmannian kernels, including universal ones, and demonstrate their superiority over previously-known kernels in various tasks, such as classification, clustering, sparse coding and hashing.","headline":"Expanding The Family Of Grassmannian Kernels An Embedding Perspective","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/harandi2014expanding/"},"url":"https://learning2hash.github.io/publications/harandi2014expanding/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Expanding The Family Of Grassmannian Kernels An Embedding Perspective</h1>
   <h5>Harandi Mehrtash T., Salzmann Mathieu, Jayasumana Sadeep, Hartley Richard, Li Hongdong. Arxiv 2014</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1407.1123" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Expanding The Family Of Grassmannian Kernels An Embedding Perspective' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Expanding The Family Of Grassmannian Kernels An Embedding Perspective' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Expanding%20The%20Family%20Of%20Grassmannian%20Kernels%20An%20Embedding%20Perspective' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Expanding%20The%20Family%20Of%20Grassmannian%20Kernels%20An%20Embedding%20Perspective' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>Modeling videos and image-sets as linear subspaces has proven beneficial for many visual recognition tasks. However, it also incurs challenges arising from the fact that linear subspaces do not obey Euclidean geometry, but lie on a special type of Riemannian manifolds known as Grassmannian. To leverage the techniques developed for Euclidean spaces (e.g, support vector machines) with subspaces, several recent studies have proposed to embed the Grassmannian into a Hilbert space by making use of a positive definite kernel. Unfortunately, only two Grassmannian kernels are known, none of which -as we will show- is universal, which limits their ability to approximate a target function arbitrarily well. Here, we introduce several positive definite Grassmannian kernels, including universal ones, and demonstrate their superiority over previously-known kernels in various tasks, such as classification, clustering, sparse coding and hashing.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/harandi2014expanding.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/harandi2014expanding.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

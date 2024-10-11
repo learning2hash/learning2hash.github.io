@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/feng2014learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning To Rank Binary Codes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Binary codes have been widely used in vision problems as a compact feature representation to achieve both space and time advantages. Various methods have been proposed to learn data-dependent hash functions which map a feature vector to a binary code. However, considerable data information is inevitably lost during the binarization step which also causes ambiguity in measuring sample similarity using Hamming distance. Besides, the learned hash functions cannot be changed after training, which makes them incapable of adapting to new data outside the training data set. To address both issues, in this paper we propose a flexible bitwise weight learning framework based on the binary codes obtained by state-of-the-art hashing methods, and incorporate the learned weights into the weighted Hamming distance computation. We then formulate the proposed framework as a ranking problem and leverage the Ranking SVM model to offline tackle the weight learning. The framework is further extended to an online mode which updates the weights at each time new data comes, thereby making it scalable to large and dynamic data sets. Extensive experimental results demonstrate significant performance gains of using binary codes with bitwise weighting in image retrieval tasks. It is appealing that the online weight learning leads to comparable accuracy with its offline counterpart, which thus makes our approach practical for realistic applications.","headline":"Learning To Rank Binary Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/feng2014learning/"},"url":"https://learning2hash.github.io/publications/feng2014learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Binary codes have been widely used in vision problems as a compact feature representation to achieve both space and time advantages. Various methods have been proposed to learn data-dependent hash functions which map a feature vector to a binary code. However, considerable data information is inevitably lost during the binarization step which also causes ambiguity in measuring sample similarity using Hamming distance. Besides, the learned hash functions cannot be changed after training, which makes them incapable of adapting to new data outside the training data set. To address both issues, in this paper we propose a flexible bitwise weight learning framework based on the binary codes obtained by state-of-the-art hashing methods, and incorporate the learned weights into the weighted Hamming distance computation. We then formulate the proposed framework as a ranking problem and leverage the Ranking SVM model to offline tackle the weight learning. The framework is further extended to an online mode which updates the weights at each time new data comes, thereby making it scalable to large and dynamic data sets. Extensive experimental results demonstrate significant performance gains of using binary codes with bitwise weighting in image retrieval tasks. It is appealing that the online weight learning leads to comparable accuracy with its offline counterpart, which thus makes our approach practical for realistic applications.","headline":"Learning To Rank Binary Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/feng2014learning/"},"url":"https://learning2hash.github.io/publications/feng2014learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Learning To Rank Binary Codes</h1>
   <h5>Feng Jie, Liu Wei, Wang Yan. Arxiv 2014</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1410.5524" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Learning To Rank Binary Codes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Learning To Rank Binary Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Learning%20To%20Rank%20Binary%20Codes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Learning%20To%20Rank%20Binary%20Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Image Retrieval">Image Retrieval</a></tag>
+      <span class="tag"><a href="/tags.html#Image Retrieval">Image Retrieval</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>Binary codes have been widely used in vision problems as a compact feature representation to achieve both space and time advantages. Various methods have been proposed to learn data-dependent hash functions which map a feature vector to a binary code. However, considerable data information is inevitably lost during the binarization step which also causes ambiguity in measuring sample similarity using Hamming distance. Besides, the learned hash functions cannot be changed after training, which makes them incapable of adapting to new data outside the training data set. To address both issues, in this paper we propose a flexible bitwise weight learning framework based on the binary codes obtained by state-of-the-art hashing methods, and incorporate the learned weights into the weighted Hamming distance computation. We then formulate the proposed framework as a ranking problem and leverage the Ranking SVM model to offline tackle the weight learning. The framework is further extended to an online mode which updates the weights at each time new data comes, thereby making it scalable to large and dynamic data sets. Extensive experimental results demonstrate significant performance gains of using binary codes with bitwise weighting in image retrieval tasks. It is appealing that the online weight learning leads to comparable accuracy with its offline counterpart, which thus makes our approach practical for realistic applications.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/feng2014learning.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/feng2014learning.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

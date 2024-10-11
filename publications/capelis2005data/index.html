@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/capelis2005data/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Data Tastes Better Seasoned Introducing The ASH Family Of Hashing Algorithms" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Over the recent months it has become clear that the current generation of cryptographic hashing algorithms are insufficient to meet future needs. The ASH family of algorithms provides modifications to the existing SHA-2 family. These modifications are designed with two main goals: 1) Providing increased collision resistance. 2) Increasing mitigation of security risks post-collision. The unique public/private sections and salt/pepper design elements provide increased flexibility for a broad range of applications. The ASH family is a new generation of cryptographic hashing algorithms.","headline":"Data Tastes Better Seasoned Introducing The ASH Family Of Hashing Algorithms","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/capelis2005data/"},"url":"https://learning2hash.github.io/publications/capelis2005data/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Over the recent months it has become clear that the current generation of cryptographic hashing algorithms are insufficient to meet future needs. The ASH family of algorithms provides modifications to the existing SHA-2 family. These modifications are designed with two main goals: 1) Providing increased collision resistance. 2) Increasing mitigation of security risks post-collision. The unique public/private sections and salt/pepper design elements provide increased flexibility for a broad range of applications. The ASH family is a new generation of cryptographic hashing algorithms.","headline":"Data Tastes Better Seasoned Introducing The ASH Family Of Hashing Algorithms","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/capelis2005data/"},"url":"https://learning2hash.github.io/publications/capelis2005data/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Data Tastes Better Seasoned Introducing The ASH Family Of Hashing Algorithms</h1>
   <h5>Capelis D. J.. Arxiv 2005</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/cs/0501038" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Data Tastes Better Seasoned Introducing The ASH Family Of Hashing Algorithms' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Data Tastes Better Seasoned Introducing The ASH Family Of Hashing Algorithms' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Data%20Tastes%20Better%20Seasoned%20Introducing%20The%20ASH%20Family%20Of%20Hashing%20Algorithms' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Data%20Tastes%20Better%20Seasoned%20Introducing%20The%20ASH%20Family%20Of%20Hashing%20Algorithms' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Graph">Graph</a></tag>
+      <span class="tag"><a href="/tags.html#Graph">Graph</a></span>
     
   </p>
+  
   <p><p>Over the recent months it has become clear that the current generation of cryptographic hashing algorithms are insufficient to meet future needs. The ASH family of algorithms provides modifications to the existing SHA-2 family. These modifications are designed with two main goals: 1) Providing increased collision resistance. 2) Increasing mitigation of security risks post-collision. The unique public/private sections and salt/pepper design elements provide increased flexibility for a broad range of applications. The ASH family is a new generation of cryptographic hashing algorithms.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/capelis2005data.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/capelis2005data.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

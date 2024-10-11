@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/steorts2018probabilistic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Probabilistic Blocking With An Application To The Syrian Conflict" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Entity resolution seeks to merge databases as to remove duplicate entries where unique identifiers are typically unknown. We review modern blocking approaches for entity resolution, focusing on those based upon locality sensitive hashing (LSH). First, we introduce $k$-means locality sensitive hashing (KLSH), which is based upon the information retrieval literature and clusters similar records into blocks using a vector-space representation and projections. Second, we introduce a subquadratic variant of LSH to the literature, known as Densified One Permutation Hashing (DOPH). Third, we propose a weighted variant of DOPH. We illustrate each method on an application to a subset of the ongoing Syrian conflict, giving a discussion of each method.","headline":"Probabilistic Blocking With An Application To The Syrian Conflict","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/steorts2018probabilistic/"},"url":"https://learning2hash.github.io/publications/steorts2018probabilistic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Entity resolution seeks to merge databases as to remove duplicate entries where unique identifiers are typically unknown. We review modern blocking approaches for entity resolution, focusing on those based upon locality sensitive hashing (LSH). First, we introduce $k$-means locality sensitive hashing (KLSH), which is based upon the information retrieval literature and clusters similar records into blocks using a vector-space representation and projections. Second, we introduce a subquadratic variant of LSH to the literature, known as Densified One Permutation Hashing (DOPH). Third, we propose a weighted variant of DOPH. We illustrate each method on an application to a subset of the ongoing Syrian conflict, giving a discussion of each method.","headline":"Probabilistic Blocking With An Application To The Syrian Conflict","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/steorts2018probabilistic/"},"url":"https://learning2hash.github.io/publications/steorts2018probabilistic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Probabilistic Blocking With An Application To The Syrian Conflict</h1>
   <h5>Steorts Rebecca C., Shrivastava Anshumali. Steorts R.C. Shrivastava A. 2018</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1810.05497" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Probabilistic Blocking With An Application To The Syrian Conflict' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Probabilistic Blocking With An Application To The Syrian Conflict' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Probabilistic%20Blocking%20With%20An%20Application%20To%20The%20Syrian%20Conflict' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Probabilistic%20Blocking%20With%20An%20Application%20To%20The%20Syrian%20Conflict' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
-      <tag><a href="/tags.html#LSH">LSH</a></tag>
+      <span class="tag"><a href="/tags.html#LSH">LSH</a></span>
     
-      <tag><a href="/tags.html#Survey Paper">Survey Paper</a></tag>
+      <span class="tag"><a href="/tags.html#Survey Paper">Survey Paper</a></span>
     
   </p>
+  
   <p><p>Entity resolution seeks to merge databases as to remove duplicate entries where unique identifiers are typically unknown. We review modern blocking approaches for entity resolution, focusing on those based upon locality sensitive hashing (LSH). First, we introduce $k$-means locality sensitive hashing (KLSH), which is based upon the information retrieval literature and clusters similar records into blocks using a vector-space representation and projections. Second, we introduce a subquadratic variant of LSH to the literature, known as Densified One Permutation Hashing (DOPH). Third, we propose a weighted variant of DOPH. We illustrate each method on an application to a subset of the ongoing Syrian conflict, giving a discussion of each method.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/steorts2018probabilistic.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/steorts2018probabilistic.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/meisburger2020distributed/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Distributed Tera-scale Similarity Search With MPI Provably Efficient Similarity Search Over Billions Without A Single Distance Computation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"We present SLASH (Sketched LocAlity Sensitive Hashing), an MPI (Message Passing Interface) based distributed system for approximate similarity search over terabyte scale datasets. SLASH provides a multi-node implementation of the popular LSH (locality sensitive hashing) algorithm, which is generally implemented on a single machine. We show how we can append the LSH algorithm with heavy hitters sketches to provably solve the (high) similarity search problem without a single distance computation. Overall, we mathematically show that, under realistic data assumptions, we can identify the near-neighbor of a given query $q$ in sub-linear ($ \\ll O(n)$) number of simple sketch aggregation operations only. To make such a system practical, we offer a novel design and sketching solution to reduce the inter-machine communication overheads exponentially. In a direct comparison on comparable hardware, SLASH is more than 10000x faster than the popular LSH package in PySpark. PySpark is a widely-adopted distributed implementation of the LSH algorithm for large datasets and is deployed in commercial platforms. In the end, we show how our system scale to Tera-scale Criteo dataset with more than 4 billion samples. SLASH can index this 2.3 terabyte data over 20 nodes in under an hour, with query times in a fraction of milliseconds. To the best of our knowledge, there is no open-source system that can index and perform a similarity search on Criteo with a commodity cluster.","headline":"Distributed Tera-scale Similarity Search With MPI Provably Efficient Similarity Search Over Billions Without A Single Distance Computation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/meisburger2020distributed/"},"url":"https://learning2hash.github.io/publications/meisburger2020distributed/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"We present SLASH (Sketched LocAlity Sensitive Hashing), an MPI (Message Passing Interface) based distributed system for approximate similarity search over terabyte scale datasets. SLASH provides a multi-node implementation of the popular LSH (locality sensitive hashing) algorithm, which is generally implemented on a single machine. We show how we can append the LSH algorithm with heavy hitters sketches to provably solve the (high) similarity search problem without a single distance computation. Overall, we mathematically show that, under realistic data assumptions, we can identify the near-neighbor of a given query $q$ in sub-linear ($ \\ll O(n)$) number of simple sketch aggregation operations only. To make such a system practical, we offer a novel design and sketching solution to reduce the inter-machine communication overheads exponentially. In a direct comparison on comparable hardware, SLASH is more than 10000x faster than the popular LSH package in PySpark. PySpark is a widely-adopted distributed implementation of the LSH algorithm for large datasets and is deployed in commercial platforms. In the end, we show how our system scale to Tera-scale Criteo dataset with more than 4 billion samples. SLASH can index this 2.3 terabyte data over 20 nodes in under an hour, with query times in a fraction of milliseconds. To the best of our knowledge, there is no open-source system that can index and perform a similarity search on Criteo with a commodity cluster.","headline":"Distributed Tera-scale Similarity Search With MPI Provably Efficient Similarity Search Over Billions Without A Single Distance Computation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/meisburger2020distributed/"},"url":"https://learning2hash.github.io/publications/meisburger2020distributed/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Distributed Tera-scale Similarity Search With MPI Provably Efficient Similarity Search Over Billions Without A Single Distance Computation</h1>
   <h5>Meisburger Nicholas, Shrivastava Anshumali. Arxiv 2020</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2008.03260" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Distributed Tera-scale Similarity Search With MPI Provably Efficient Similarity Search Over Billions Without A Single Distance Computation' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Distributed Tera-scale Similarity Search With MPI Provably Efficient Similarity Search Over Billions Without A Single Distance Computation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Distributed%20Tera-scale%20Similarity%20Search%20With%20MPI%20Provably%20Efficient%20Similarity%20Search%20Over%20Billions%20Without%20A%20Single%20Distance%20Computation' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Distributed%20Tera-scale%20Similarity%20Search%20With%20MPI%20Provably%20Efficient%20Similarity%20Search%20Over%20Billions%20Without%20A%20Single%20Distance%20Computation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
-      <tag><a href="/tags.html#LSH">LSH</a></tag>
+      <span class="tag"><a href="/tags.html#LSH">LSH</a></span>
     
   </p>
+  
   <p><p>We present SLASH (Sketched LocAlity Sensitive Hashing), an MPI (Message Passing Interface) based distributed system for approximate similarity search over terabyte scale datasets. SLASH provides a multi-node implementation of the popular LSH (locality sensitive hashing) algorithm, which is generally implemented on a single machine. We show how we can append the LSH algorithm with heavy hitters sketches to provably solve the (high) similarity search problem without a single distance computation. Overall, we mathematically show that, under realistic data assumptions, we can identify the near-neighbor of a given query $q$ in sub-linear ($ \ll O(n)$) number of simple sketch aggregation operations only. To make such a system practical, we offer a novel design and sketching solution to reduce the inter-machine communication overheads exponentially. In a direct comparison on comparable hardware, SLASH is more than 10000x faster than the popular LSH package in PySpark. PySpark is a widely-adopted distributed implementation of the LSH algorithm for large datasets and is deployed in commercial platforms. In the end, we show how our system scale to Tera-scale Criteo dataset with more than 4 billion samples. SLASH can index this 2.3 terabyte data over 20 nodes in under an hour, with query times in a fraction of milliseconds. To the best of our knowledge, there is no open-source system that can index and perform a similarity search on Criteo with a commodity cluster.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/meisburger2020distributed.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/meisburger2020distributed.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

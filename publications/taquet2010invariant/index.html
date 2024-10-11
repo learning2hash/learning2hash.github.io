@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/taquet2010invariant/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Invariant Spectral Hashing Of Image Saliency Graph" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Image hashing is the process of associating a short vector of bits to an image. The resulting summaries are useful in many applications including image indexing, image authentication and pattern recognition. These hashes need to be invariant under transformations of the image that result in similar visual content, but should drastically differ for conceptually distinct contents. This paper proposes an image hashing method that is invariant under rotation, scaling and translation of the image. The gist of our approach relies on the geometric characterization of salient point distribution in the image. This is achieved by the definition of a saliency graph connecting these points jointly with an image intensity function on the graph nodes. An invariant hash is then obtained by considering the spectrum of this function in the eigenvector basis of the Laplacian graph, that is, its graph Fourier transform. Interestingly, this spectrum is invariant under any relabeling of the graph nodes. The graph reveals geometric information of the image, making the hash robust to image transformation, yet distinct for different visual content. The efficiency of the proposed method is assessed on a set of MRI 2-D slices and on a database of faces.","headline":"Invariant Spectral Hashing Of Image Saliency Graph","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/taquet2010invariant/"},"url":"https://learning2hash.github.io/publications/taquet2010invariant/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Image hashing is the process of associating a short vector of bits to an image. The resulting summaries are useful in many applications including image indexing, image authentication and pattern recognition. These hashes need to be invariant under transformations of the image that result in similar visual content, but should drastically differ for conceptually distinct contents. This paper proposes an image hashing method that is invariant under rotation, scaling and translation of the image. The gist of our approach relies on the geometric characterization of salient point distribution in the image. This is achieved by the definition of a saliency graph connecting these points jointly with an image intensity function on the graph nodes. An invariant hash is then obtained by considering the spectrum of this function in the eigenvector basis of the Laplacian graph, that is, its graph Fourier transform. Interestingly, this spectrum is invariant under any relabeling of the graph nodes. The graph reveals geometric information of the image, making the hash robust to image transformation, yet distinct for different visual content. The efficiency of the proposed method is assessed on a set of MRI 2-D slices and on a database of faces.","headline":"Invariant Spectral Hashing Of Image Saliency Graph","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/taquet2010invariant/"},"url":"https://learning2hash.github.io/publications/taquet2010invariant/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Invariant Spectral Hashing Of Image Saliency Graph</h1>
   <h5>Taquet Maxime, Jacques Laurent, De Vleeschouwer Christophe, Macq Benoit. Arxiv 2010</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1009.3029" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Invariant Spectral Hashing Of Image Saliency Graph' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Invariant Spectral Hashing Of Image Saliency Graph' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Invariant%20Spectral%20Hashing%20Of%20Image%20Saliency%20Graph' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Invariant%20Spectral%20Hashing%20Of%20Image%20Saliency%20Graph' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Graph">Graph</a></tag>
+      <span class="tag"><a href="/tags.html#Graph">Graph</a></span>
     
   </p>
+  
   <p><p>Image hashing is the process of associating a short vector of bits to an image. The resulting summaries are useful in many applications including image indexing, image authentication and pattern recognition. These hashes need to be invariant under transformations of the image that result in similar visual content, but should drastically differ for conceptually distinct contents. This paper proposes an image hashing method that is invariant under rotation, scaling and translation of the image. The gist of our approach relies on the geometric characterization of salient point distribution in the image. This is achieved by the definition of a saliency graph connecting these points jointly with an image intensity function on the graph nodes. An invariant hash is then obtained by considering the spectrum of this function in the eigenvector basis of the Laplacian graph, that is, its graph Fourier transform. Interestingly, this spectrum is invariant under any relabeling of the graph nodes. The graph reveals geometric information of the image, making the hash robust to image transformation, yet distinct for different visual content. The efficiency of the proposed method is assessed on a set of MRI 2-D slices and on a database of faces.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/taquet2010invariant.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/taquet2010invariant.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

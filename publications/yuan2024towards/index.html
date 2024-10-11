@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/yuan2024towards/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Towards Optimal Deep Hashing Via Policy Gradient" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"In this paper, we propose a simple yet effective relaxation free method to learn more effective binary codes via policy gradient for scalable image search. While a variety of deep hashing methods have been proposed in recent years, most of them are confronted by the dilemma to obtain optimal binary codes in a truly end-to-end manner with nonsmooth sign activations. Unlike existing methods which usually employ a general relaxation framework to adapt to the gradient-based algorithms, our approach formulates the non-smooth part of the hashing network as sampling with a stochastic policy, so that the retrieval performance degradation caused by the relaxation can be avoided. Specifically, our method directly generates the binary codes and maximizes the expectation of rewards for similarity preservation, where the network can be trained directly via policy gradient. Hence, the differentiation challenge for discrete optimization can be naturally addressed, which leads to effective gradients and binary codes. Extensive experimental results on three benchmark datasets validate the effectiveness of the proposed method.","headline":"Towards Optimal Deep Hashing Via Policy Gradient","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yuan2024towards/"},"url":"https://learning2hash.github.io/publications/yuan2024towards/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"In this paper, we propose a simple yet effective relaxation free method to learn more effective binary codes via policy gradient for scalable image search. While a variety of deep hashing methods have been proposed in recent years, most of them are confronted by the dilemma to obtain optimal binary codes in a truly end-to-end manner with nonsmooth sign activations. Unlike existing methods which usually employ a general relaxation framework to adapt to the gradient-based algorithms, our approach formulates the non-smooth part of the hashing network as sampling with a stochastic policy, so that the retrieval performance degradation caused by the relaxation can be avoided. Specifically, our method directly generates the binary codes and maximizes the expectation of rewards for similarity preservation, where the network can be trained directly via policy gradient. Hence, the differentiation challenge for discrete optimization can be naturally addressed, which leads to effective gradients and binary codes. Extensive experimental results on three benchmark datasets validate the effectiveness of the proposed method.","headline":"Towards Optimal Deep Hashing Via Policy Gradient","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yuan2024towards/"},"url":"https://learning2hash.github.io/publications/yuan2024towards/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Towards Optimal Deep Hashing Via Policy Gradient</h1>
   <h5>Yuan Xin, Ren, Lu, Zhou. Arxiv 2024</h5>
+  
   <p>
     
       [<a href="https://openaccess.thecvf.com/content_ECCV_2018/papers/Xin_Yuan_Towards_Optimal_Deep_ECCV_2018_paper.pdf" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Towards Optimal Deep Hashing Via Policy Gradient' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Towards Optimal Deep Hashing Via Policy Gradient' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Towards%20Optimal%20Deep%20Hashing%20Via%20Policy%20Gradient' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Towards%20Optimal%20Deep%20Hashing%20Via%20Policy%20Gradient' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>In this paper, we propose a simple yet effective relaxation free method to learn more effective binary codes via policy gradient for scalable image search. While a variety of deep hashing methods have been proposed in recent years, most of them are confronted by the dilemma to obtain optimal binary codes in a truly end-to-end manner with nonsmooth sign activations. Unlike existing methods which usually employ a general relaxation framework to adapt to the gradient-based algorithms, our approach formulates the non-smooth part of the hashing network as sampling with a stochastic policy, so that the retrieval performance degradation caused by the relaxation can be avoided. Specifically, our method directly generates the binary codes and maximizes the expectation of rewards for similarity preservation, where the network can be trained directly via policy gradient. Hence, the differentiation challenge for discrete optimization can be naturally addressed, which leads to effective gradients and binary codes. Extensive experimental results on three benchmark datasets validate the effectiveness of the proposed method.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/yuan2024towards.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/yuan2024towards.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

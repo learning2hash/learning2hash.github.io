@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/tchayekondi2020new/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A New Hashing Based Nearest Neighbors Selection Technique For Big Datasets" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"KNN has the reputation to be the word simplest but efficient supervised learning algorithm used for either classification or regression. KNN prediction efficiency highly depends on the size of its training data but when this training data grows KNN suffers from slowness in making decisions since it needs to search nearest neighbors within the entire dataset at each decision making. This paper proposes a new technique that enables the selection of nearest neighbors directly in the neighborhood of a given observation. The proposed approach consists of dividing the data space into subcells of a virtual grid built on top of data space. The mapping between the data points and subcells is performed using hashing. When it comes to select the nearest neighbors of a given observation, we firstly identify the cell the observation belongs by using hashing, and then we look for nearest neighbors from that central cell and cells around it layer by layer. From our experiment performance analysis on publicly available datasets, our algorithm outperforms the original KNN in time efficiency with a prediction quality as good as that of KNN it also offers competitive performance with solutions like KDtree","headline":"A New Hashing Based Nearest Neighbors Selection Technique For Big Datasets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tchayekondi2020new/"},"url":"https://learning2hash.github.io/publications/tchayekondi2020new/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"KNN has the reputation to be the word simplest but efficient supervised learning algorithm used for either classification or regression. KNN prediction efficiency highly depends on the size of its training data but when this training data grows KNN suffers from slowness in making decisions since it needs to search nearest neighbors within the entire dataset at each decision making. This paper proposes a new technique that enables the selection of nearest neighbors directly in the neighborhood of a given observation. The proposed approach consists of dividing the data space into subcells of a virtual grid built on top of data space. The mapping between the data points and subcells is performed using hashing. When it comes to select the nearest neighbors of a given observation, we firstly identify the cell the observation belongs by using hashing, and then we look for nearest neighbors from that central cell and cells around it layer by layer. From our experiment performance analysis on publicly available datasets, our algorithm outperforms the original KNN in time efficiency with a prediction quality as good as that of KNN it also offers competitive performance with solutions like KDtree","headline":"A New Hashing Based Nearest Neighbors Selection Technique For Big Datasets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tchayekondi2020new/"},"url":"https://learning2hash.github.io/publications/tchayekondi2020new/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">A New Hashing Based Nearest Neighbors Selection Technique For Big Datasets</h1>
   <h5>Tchaye-kondi Jude, Zhai Yanlong, Zhu Liehuang. Arxiv 2020</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2004.02290" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=A New Hashing Based Nearest Neighbors Selection Technique For Big Datasets' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=A New Hashing Based Nearest Neighbors Selection Technique For Big Datasets' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=A%20New%20Hashing%20Based%20Nearest%20Neighbors%20Selection%20Technique%20For%20Big%20Datasets' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=A%20New%20Hashing%20Based%20Nearest%20Neighbors%20Selection%20Technique%20For%20Big%20Datasets' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
   </p>
+  
   <p><p>KNN has the reputation to be the word simplest but efficient supervised learning algorithm used for either classification or regression. KNN prediction efficiency highly depends on the size of its training data but when this training data grows KNN suffers from slowness in making decisions since it needs to search nearest neighbors within the entire dataset at each decision making. This paper proposes a new technique that enables the selection of nearest neighbors directly in the neighborhood of a given observation. The proposed approach consists of dividing the data space into subcells of a virtual grid built on top of data space. The mapping between the data points and subcells is performed using hashing. When it comes to select the nearest neighbors of a given observation, we firstly identify the cell the observation belongs by using hashing, and then we look for nearest neighbors from that central cell and cells around it layer by layer. From our experiment performance analysis on publicly available datasets, our algorithm outperforms the original KNN in time efficiency with a prediction quality as good as that of KNN it also offers competitive performance with solutions like KDtree</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/tchayekondi2020new.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/tchayekondi2020new.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

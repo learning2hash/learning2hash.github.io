@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/bo2009efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient Match Kernel Between Sets Of Features For Visual Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"In visual recognition, the images are frequently modeled as sets of local features (bags). We show that bag of words, a common method to handle such cases, can be viewed as a special match kernel, which counts 1 if two local features fall into the same regions partitioned by visual words and 0 otherwise. Despite its simplicity, this quantization is too coarse. It is, therefore, appealing to design match kernels that more accurately measure the similarity between local features. However, it is impractical to use such kernels on large datasets due to their significant computational cost. To address this problem, we propose an efficient match kernel (EMK), which maps local features to a low dimensional feature space, average the resulting feature vectors to form a set-level feature, then apply a linear classifier. The local feature maps are learned so that their inner products preserve, to the best possible, the values of the specified kernel function. EMK is linear both in the number of images and in the number of local features. We demonstrate that EMK is extremely efficient and achieves the current state of the art performance on three difficult real world datasets: Scene-15, Caltech-101 and Caltech-256.","headline":"Efficient Match Kernel Between Sets Of Features For Visual Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bo2009efficient/"},"url":"https://learning2hash.github.io/publications/bo2009efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"In visual recognition, the images are frequently modeled as sets of local features (bags). We show that bag of words, a common method to handle such cases, can be viewed as a special match kernel, which counts 1 if two local features fall into the same regions partitioned by visual words and 0 otherwise. Despite its simplicity, this quantization is too coarse. It is, therefore, appealing to design match kernels that more accurately measure the similarity between local features. However, it is impractical to use such kernels on large datasets due to their significant computational cost. To address this problem, we propose an efficient match kernel (EMK), which maps local features to a low dimensional feature space, average the resulting feature vectors to form a set-level feature, then apply a linear classifier. The local feature maps are learned so that their inner products preserve, to the best possible, the values of the specified kernel function. EMK is linear both in the number of images and in the number of local features. We demonstrate that EMK is extremely efficient and achieves the current state of the art performance on three difficult real world datasets: Scene-15, Caltech-101 and Caltech-256.","headline":"Efficient Match Kernel Between Sets Of Features For Visual Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bo2009efficient/"},"url":"https://learning2hash.github.io/publications/bo2009efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Efficient Match Kernel Between Sets Of Features For Visual Recognition</h1>
   <h5>Liefeng Bo, Cristian Sminchisescu. Neural Information Processing Systems 2009</h5>
+  
   <p>
     
       [<a href="https://papers.nips.cc/paper/2009/hash/4daa3db355ef2b0e64b472968cb70f0d-Abstract.html" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Efficient Match Kernel Between Sets Of Features For Visual Recognition' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Efficient Match Kernel Between Sets Of Features For Visual Recognition' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Efficient%20Match%20Kernel%20Between%20Sets%20Of%20Features%20For%20Visual%20Recognition' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Efficient%20Match%20Kernel%20Between%20Sets%20Of%20Features%20For%20Visual%20Recognition' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#NEURIPS">NEURIPS</a></tag>
+      <span class="tag"><a href="/tags.html#NEURIPS">NEURIPS</a></span>
     
-      <tag><a href="/tags.html#Quantisation">Quantisation</a></tag>
+      <span class="tag"><a href="/tags.html#Quantisation">Quantisation</a></span>
     
   </p>
+  
   <p><p>In visual recognition, the images are frequently modeled as sets of local features (bags). We show that bag of words, a common method to handle such cases, can be viewed as a special match kernel, which counts 1 if two local features fall into the same regions partitioned by visual words and 0 otherwise. Despite its simplicity, this quantization is too coarse. It is, therefore, appealing to design match kernels that more accurately measure the similarity between local features. However, it is impractical to use such kernels on large datasets due to their significant computational cost. To address this problem, we propose an efficient match kernel (EMK), which maps local features to a low dimensional feature space, average the resulting feature vectors to form a set-level feature, then apply a linear classifier. The local feature maps are learned so that their inner products preserve, to the best possible, the values of the specified kernel function. EMK is linear both in the number of images and in the number of local features. We demonstrate that EMK is extremely efficient and achieves the current state of the art performance on three difficult real world datasets: Scene-15, Caltech-101 and Caltech-256.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/bo2009efficient.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/bo2009efficient.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

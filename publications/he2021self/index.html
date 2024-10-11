@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/he2021self/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Self-supervised Video Retrieval Transformer Network" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Content-based video retrieval aims to find videos from a large video database that are similar to or even near-duplicate of a given query video. Video representation and similarity search algorithms are crucial to any video retrieval system. To derive effective video representation, most video retrieval systems require a large amount of manually annotated data for training, making it costly inefficient. In addition, most retrieval systems are based on frame-level features for video similarity searching, making it expensive both storage wise and search wise. We propose a novel video retrieval system, termed SVRTN, that effectively addresses the above shortcomings. It first applies self-supervised training to effectively learn video representation from unlabeled data to avoid the expensive cost of manual annotation. Then, it exploits transformer structure to aggregate frame-level features into clip-level to reduce both storage space and search complexity. It can learn the complementary and discriminative information from the interactions among clip frames, as well as acquire the frame permutation and missing invariant ability to support more flexible retrieval manners. Comprehensive experiments on two challenging video retrieval datasets, namely FIVR-200K and SVD, verify the effectiveness of our proposed SVRTN method, which achieves the best performance of video retrieval on accuracy and efficiency.","headline":"Self-supervised Video Retrieval Transformer Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/he2021self/"},"url":"https://learning2hash.github.io/publications/he2021self/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Content-based video retrieval aims to find videos from a large video database that are similar to or even near-duplicate of a given query video. Video representation and similarity search algorithms are crucial to any video retrieval system. To derive effective video representation, most video retrieval systems require a large amount of manually annotated data for training, making it costly inefficient. In addition, most retrieval systems are based on frame-level features for video similarity searching, making it expensive both storage wise and search wise. We propose a novel video retrieval system, termed SVRTN, that effectively addresses the above shortcomings. It first applies self-supervised training to effectively learn video representation from unlabeled data to avoid the expensive cost of manual annotation. Then, it exploits transformer structure to aggregate frame-level features into clip-level to reduce both storage space and search complexity. It can learn the complementary and discriminative information from the interactions among clip frames, as well as acquire the frame permutation and missing invariant ability to support more flexible retrieval manners. Comprehensive experiments on two challenging video retrieval datasets, namely FIVR-200K and SVD, verify the effectiveness of our proposed SVRTN method, which achieves the best performance of video retrieval on accuracy and efficiency.","headline":"Self-supervised Video Retrieval Transformer Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/he2021self/"},"url":"https://learning2hash.github.io/publications/he2021self/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Self-supervised Video Retrieval Transformer Network</h1>
   <h5>He Xiangteng, Pan Yulin, Tang Mingqian, Lv Yiliang. Arxiv 2021</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/2104.07993" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Self-supervised Video Retrieval Transformer Network' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Self-supervised Video Retrieval Transformer Network' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Self-supervised%20Video%20Retrieval%20Transformer%20Network' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Self-supervised%20Video%20Retrieval%20Transformer%20Network' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
     
-      <tag><a href="/tags.html#Video Retrieval">Video Retrieval</a></tag>
+      <span class="tag"><a href="/tags.html#Video Retrieval">Video Retrieval</a></span>
     
   </p>
+  
   <p><p>Content-based video retrieval aims to find videos from a large video database that are similar to or even near-duplicate of a given query video. Video representation and similarity search algorithms are crucial to any video retrieval system. To derive effective video representation, most video retrieval systems require a large amount of manually annotated data for training, making it costly inefficient. In addition, most retrieval systems are based on frame-level features for video similarity searching, making it expensive both storage wise and search wise. We propose a novel video retrieval system, termed SVRTN, that effectively addresses the above shortcomings. It first applies self-supervised training to effectively learn video representation from unlabeled data to avoid the expensive cost of manual annotation. Then, it exploits transformer structure to aggregate frame-level features into clip-level to reduce both storage space and search complexity. It can learn the complementary and discriminative information from the interactions among clip frames, as well as acquire the frame permutation and missing invariant ability to support more flexible retrieval manners. Comprehensive experiments on two challenging video retrieval datasets, namely FIVR-200K and SVD, verify the effectiveness of our proposed SVRTN method, which achieves the best performance of video retrieval on accuracy and efficiency.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/he2021self.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/he2021self.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

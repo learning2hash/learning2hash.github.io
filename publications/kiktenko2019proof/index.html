@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/kiktenko2019proof/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Proof-of-forgery For Hash-based Signatures" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"In the present work, a peculiar property of hash-based signatures allowing detection of their forgery event is explored. This property relies on the fact that a successful forgery of a hash-based signature most likely results in a collision with respect to the employed hash function, while the demonstration of this collision could serve as convincing evidence of the forgery. Here we prove that with properly adjusted parameters Lamport and Winternitz one-time signatures schemes could exhibit a forgery detection availability property. This property is of significant importance in the framework of crypto-agility paradigm since the considered forgery detection serves as an alarm that the employed cryptographic hash function becomes insecure to use and the corresponding scheme has to be replaced.","headline":"Proof-of-forgery For Hash-based Signatures","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kiktenko2019proof/"},"url":"https://learning2hash.github.io/publications/kiktenko2019proof/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"In the present work, a peculiar property of hash-based signatures allowing detection of their forgery event is explored. This property relies on the fact that a successful forgery of a hash-based signature most likely results in a collision with respect to the employed hash function, while the demonstration of this collision could serve as convincing evidence of the forgery. Here we prove that with properly adjusted parameters Lamport and Winternitz one-time signatures schemes could exhibit a forgery detection availability property. This property is of significant importance in the framework of crypto-agility paradigm since the considered forgery detection serves as an alarm that the employed cryptographic hash function becomes insecure to use and the corresponding scheme has to be replaced.","headline":"Proof-of-forgery For Hash-based Signatures","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kiktenko2019proof/"},"url":"https://learning2hash.github.io/publications/kiktenko2019proof/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Proof-of-forgery For Hash-based Signatures</h1>
   <h5>Kiktenko E. O., Kudinov M. A., Bulychev A. A., Fedorov A. K.. Proceedings of the 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1905.12993" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Proof-of-forgery For Hash-based Signatures' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Proof-of-forgery For Hash-based Signatures' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Proof-of-forgery%20For%20Hash-based%20Signatures' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Proof-of-forgery%20For%20Hash-based%20Signatures' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#AAAI">AAAI</a></tag>
+      <span class="tag"><a href="/tags.html#AAAI">AAAI</a></span>
     
-      <tag><a href="/tags.html#Graph">Graph</a></tag>
+      <span class="tag"><a href="/tags.html#Graph">Graph</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>In the present work, a peculiar property of hash-based signatures allowing detection of their forgery event is explored. This property relies on the fact that a successful forgery of a hash-based signature most likely results in a collision with respect to the employed hash function, while the demonstration of this collision could serve as convincing evidence of the forgery. Here we prove that with properly adjusted parameters Lamport and Winternitz one-time signatures schemes could exhibit a forgery detection availability property. This property is of significant importance in the framework of crypto-agility paradigm since the considered forgery detection serves as an alarm that the employed cryptographic hash function becomes insecure to use and the corresponding scheme has to be replaced.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/kiktenko2019proof.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/kiktenko2019proof.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

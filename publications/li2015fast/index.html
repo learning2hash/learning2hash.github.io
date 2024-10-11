@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2015fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast K-nearest Neighbour Search Via Dynamic Continuous Indexing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Existing methods for retrieving k-nearest neighbours suffer from the curse of dimensionality. We argue this is caused in part by inherent deficiencies of space partitioning, which is the underlying strategy used by most existing methods. We devise a new strategy that avoids partitioning the vector space and present a novel randomized algorithm that runs in time linear in dimensionality of the space and sub-linear in the intrinsic dimensionality and the size of the dataset and takes space constant in dimensionality of the space and linear in the size of the dataset. The proposed algorithm allows fine-grained control over accuracy and speed on a per-query basis, automatically adapts to variations in data density, supports dynamic updates to the dataset and is easy-to-implement. We show appealing theoretical properties and demonstrate empirically that the proposed algorithm outperforms locality-sensitivity hashing (LSH) in terms of approximation quality, speed and space efficiency.","headline":"Fast K-nearest Neighbour Search Via Dynamic Continuous Indexing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2015fast/"},"url":"https://learning2hash.github.io/publications/li2015fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Existing methods for retrieving k-nearest neighbours suffer from the curse of dimensionality. We argue this is caused in part by inherent deficiencies of space partitioning, which is the underlying strategy used by most existing methods. We devise a new strategy that avoids partitioning the vector space and present a novel randomized algorithm that runs in time linear in dimensionality of the space and sub-linear in the intrinsic dimensionality and the size of the dataset and takes space constant in dimensionality of the space and linear in the size of the dataset. The proposed algorithm allows fine-grained control over accuracy and speed on a per-query basis, automatically adapts to variations in data density, supports dynamic updates to the dataset and is easy-to-implement. We show appealing theoretical properties and demonstrate empirically that the proposed algorithm outperforms locality-sensitivity hashing (LSH) in terms of approximation quality, speed and space efficiency.","headline":"Fast K-nearest Neighbour Search Via Dynamic Continuous Indexing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2015fast/"},"url":"https://learning2hash.github.io/publications/li2015fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,46 +155,47 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Fast K-nearest Neighbour Search Via Dynamic Continuous Indexing</h1>
   <h5>Li Ke, Malik Jitendra. Arxiv 2015</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1512.00442" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Fast K-nearest Neighbour Search Via Dynamic Continuous Indexing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Fast K-nearest Neighbour Search Via Dynamic Continuous Indexing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Fast%20K-nearest%20Neighbour%20Search%20Via%20Dynamic%20Continuous%20Indexing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Fast%20K-nearest%20Neighbour%20Search%20Via%20Dynamic%20Continuous%20Indexing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
-      <tag><a href="/tags.html#LSH">LSH</a></tag>
+      <span class="tag"><a href="/tags.html#LSH">LSH</a></span>
     
   </p>
+  
   <p><p>Existing methods for retrieving k-nearest neighbours suffer from the curse of dimensionality. We argue this is caused in part by inherent deficiencies of space partitioning, which is the underlying strategy used by most existing methods. We devise a new strategy that avoids partitioning the vector space and present a novel randomized algorithm that runs in time linear in dimensionality of the space and sub-linear in the intrinsic dimensionality and the size of the dataset and takes space constant in dimensionality of the space and linear in the size of the dataset. The proposed algorithm allows fine-grained control over accuracy and speed on a per-query basis, automatically adapts to variations in data density, supports dynamic updates to the dataset and is easy-to-implement. We show appealing theoretical properties and demonstrate empirically that the proposed algorithm outperforms locality-sensitivity hashing (LSH) in terms of approximation quality, speed and space efficiency.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/li2015fast.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/li2015fast.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/erbert2016gerbil/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Gerbil A Fast And Memory-efficient k-mer Counter With Gpu-support" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"A basic task in bioinformatics is the counting of $k$-mers in genome strings. The $k$-mer counting problem is to build a histogram of all substrings of length $k$ in a given genome sequence. We present the open source $k$-mer counting software Gerbil that has been designed for the efficient counting of $k$-mers for $k\\geq32$. Given the technology trend towards long reads of next-generation sequencers, support for large $k$ becomes increasingly important. While existing $k$-mer counting tools suffer from excessive memory resource consumption or degrading performance for large $k$, Gerbil is able to efficiently support large $k$ without much loss of performance. Our software implements a two-disk approach. In the first step, DNA reads are loaded from disk and distributed to temporary files that are stored at a working disk. In a second step, the temporary files are read again, split into $k$-mers and counted via a hash table approach. In addition, Gerbil can optionally use GPUs to accelerate the counting step. For large $k$, we outperform state-of-the-art open source $k$-mer counting tools for large genome data sets.","headline":"Gerbil A Fast And Memory-efficient k-mer Counter With Gpu-support","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/erbert2016gerbil/"},"url":"https://learning2hash.github.io/publications/erbert2016gerbil/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"A basic task in bioinformatics is the counting of $k$-mers in genome strings. The $k$-mer counting problem is to build a histogram of all substrings of length $k$ in a given genome sequence. We present the open source $k$-mer counting software Gerbil that has been designed for the efficient counting of $k$-mers for $k\\geq32$. Given the technology trend towards long reads of next-generation sequencers, support for large $k$ becomes increasingly important. While existing $k$-mer counting tools suffer from excessive memory resource consumption or degrading performance for large $k$, Gerbil is able to efficiently support large $k$ without much loss of performance. Our software implements a two-disk approach. In the first step, DNA reads are loaded from disk and distributed to temporary files that are stored at a working disk. In a second step, the temporary files are read again, split into $k$-mers and counted via a hash table approach. In addition, Gerbil can optionally use GPUs to accelerate the counting step. For large $k$, we outperform state-of-the-art open source $k$-mer counting tools for large genome data sets.","headline":"Gerbil A Fast And Memory-efficient k-mer Counter With Gpu-support","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/erbert2016gerbil/"},"url":"https://learning2hash.github.io/publications/erbert2016gerbil/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,42 +155,43 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Gerbil A Fast And Memory-efficient k-mer Counter With Gpu-support</h1>
   <h5>Erbert Marius, Rechner Steffen, Müller-hannemann Matthias. Arxiv 2016</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1607.06618" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Gerbil A Fast And Memory-efficient k-mer Counter With Gpu-support' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Gerbil A Fast And Memory-efficient k-mer Counter With Gpu-support' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Gerbil%20A%20Fast%20And%20Memory-efficient%20k-mer%20Counter%20With%20Gpu-support' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Gerbil%20A%20Fast%20And%20Memory-efficient%20k-mer%20Counter%20With%20Gpu-support' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
   </p>
+  
   <p><p>A basic task in bioinformatics is the counting of $k$-mers in genome strings. The $k$-mer counting problem is to build a histogram of all substrings of length $k$ in a given genome sequence. We present the open source $k$-mer counting software Gerbil that has been designed for the efficient counting of $k$-mers for $k\geq32$. Given the technology trend towards long reads of next-generation sequencers, support for large $k$ becomes increasingly important. While existing $k$-mer counting tools suffer from excessive memory resource consumption or degrading performance for large $k$, Gerbil is able to efficiently support large $k$ without much loss of performance. Our software implements a two-disk approach. In the first step, DNA reads are loaded from disk and distributed to temporary files that are stored at a working disk. In a second step, the temporary files are read again, split into $k$-mers and counted via a hash table approach. In addition, Gerbil can optionally use GPUs to accelerate the counting step. For large $k$, we outperform state-of-the-art open source $k$-mer counting tools for large genome data sets.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/erbert2016gerbil.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/erbert2016gerbil.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>

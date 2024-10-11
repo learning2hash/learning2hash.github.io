@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/valsesia2019analysis/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-10-11T12:32:51-05:00" />
+<meta property="article:published_time" content="2024-10-11T13:00:53-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Analysis Of Sparsehash An Efficient Embedding Of Set-similarity Via Sparse Projections" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T12:32:51-05:00","datePublished":"2024-10-11T12:32:51-05:00","description":"Embeddings provide compact representations of signals in order to perform efficient inference in a wide variety of tasks. In particular, random projections are common tools to construct Euclidean distance-preserving embeddings, while hashing techniques are extensively used to embed set-similarity metrics, such as the Jaccard coefficient. In this letter, we theoretically prove that a class of random projections based on sparse matrices, called SparseHash, can preserve the Jaccard coefficient between the supports of sparse signals, which can be used to estimate set similarities. Moreover, besides the analysis, we provide an efficient implementation and we test the performance in several numerical experiments, both on synthetic and real datasets.","headline":"Analysis Of Sparsehash An Efficient Embedding Of Set-similarity Via Sparse Projections","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/valsesia2019analysis/"},"url":"https://learning2hash.github.io/publications/valsesia2019analysis/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-11T13:00:53-05:00","datePublished":"2024-10-11T13:00:53-05:00","description":"Embeddings provide compact representations of signals in order to perform efficient inference in a wide variety of tasks. In particular, random projections are common tools to construct Euclidean distance-preserving embeddings, while hashing techniques are extensively used to embed set-similarity metrics, such as the Jaccard coefficient. In this letter, we theoretically prove that a class of random projections based on sparse matrices, called SparseHash, can preserve the Jaccard coefficient between the supports of sparse signals, which can be used to estimate set similarities. Moreover, besides the analysis, we provide an efficient implementation and we test the performance in several numerical experiments, both on synthetic and real datasets.","headline":"Analysis Of Sparsehash An Efficient Embedding Of Set-similarity Via Sparse Projections","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/valsesia2019analysis/"},"url":"https://learning2hash.github.io/publications/valsesia2019analysis/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,44 +155,45 @@ function search() {
 
 
     <div class="content container">
-      <div class="page">
+      <div class="page mathjax-content">
   <h1 class="page-title">Analysis Of Sparsehash An Efficient Embedding Of Set-similarity Via Sparse Projections</h1>
   <h5>Valsesia Diego, Fosson Sophie Marie, Ravazzi Chiara, Bianchi Tiziano, Magli Enrico. Arxiv 2019</h5>
+  
   <p>
     
       [<a href="https://arxiv.org/abs/1909.01802" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Analysis Of Sparsehash An Efficient Embedding Of Set-similarity Via Sparse Projections' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Analysis Of Sparsehash An Efficient Embedding Of Set-similarity Via Sparse Projections' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Analysis%20Of%20Sparsehash%20An%20Efficient%20Embedding%20Of%20Set-similarity%20Via%20Sparse%20Projections' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Analysis%20Of%20Sparsehash%20An%20Efficient%20Embedding%20Of%20Set-similarity%20Via%20Sparse%20Projections' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#ARXIV">ARXIV</a></tag>
+      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
     
-      <tag><a href="/tags.html#Independent">Independent</a></tag>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
   </p>
+  
   <p><p>Embeddings provide compact representations of signals in order to perform efficient inference in a wide variety of tasks. In particular, random projections are common tools to construct Euclidean distance-preserving embeddings, while hashing techniques are extensively used to embed set-similarity metrics, such as the Jaccard coefficient. In this letter, we theoretically prove that a class of random projections based on sparse matrices, called SparseHash, can preserve the Jaccard coefficient between the supports of sparse signals, which can be used to estimate set similarities. Moreover, besides the analysis, we provide an efficient implementation and we test the performance in several numerical experiments, both on synthetic and real datasets.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork">
-
-    </ul>
+    <ul id="relwork"></ul>
   </p>
 
-  <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/valsesia2019analysis.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/valsesia2019analysis.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
       });
+    });
   </script>
 
 </div>
