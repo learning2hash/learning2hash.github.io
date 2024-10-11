@@ -1,3 +1,20 @@
+# Datasets
+- {bibkey: yandextexttoimage1B, categories: ['Dataset'], modality: Image/Text}
+- {bibkey: yandexdeep1B, categories: ['Dataset'], modality: Image}
+- {bibkey: microsoftspacev1B, categories: ['Dataset'], modality: Image}
+- {bibkey: microsoftturinganns1B, categories: ['Dataset'], modality: Image}
+- {bibkey: facebooksimsearchnet, categories: ['Dataset'], modality: Image}
+- {bibkey: bigann, categories: ['Dataset'], modality: Image}
+- {bibkey: imagenet2009using, categories: ['Dataset'], modality: Image}
+- {bibkey: cifar2009learning, categories: ['Dataset'], modality: Image}
+- {bibkey: labelme2007labelme, categories: ['Dataset'], modality: Image}
+- {bibkey: mnist1999mnist, categories: ['Dataset'], modality: Image}
+- {bibkey: sift1m2009searching, categories: ['Dataset'], modality: Image}
+- {bibkey: nuswide2009nuswide, categories: ['Dataset'], modality: Image/Text}
+- {bibkey: tiny2008million, categories: ['Dataset'], modality: Image}
+- {bibkey: wiki2010new, categories: ['Dataset'], modality: Image/Text}
+- {bibkey: coco2014new, categories: ['Dataset'], modality: Image/Text}
+- {bibkey: mirflickr2008new, categories: ['Dataset'], modality: Image/Text}
 # Quantisation
 - {bibkey: cappellari2007trellis, categories: ['Quantisation'], type: Deep, modality: Unimodal}
 - {bibkey: annaji2009parallelization, categories: ['Quantisation'], type: Deep, modality: Unimodal}
