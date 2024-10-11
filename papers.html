@@ -3,54 +3,107 @@ layout: default
 title: Search all Publications on Machine Learning for Hashing
 description: A list of research papers for machine learning models for hashing.
 ---
+
 <p>
 Search across all paper titles, abstracts, authors by using the search field.
 Please consider <a href="/contributing.html">contributing</a> by updating
 the information of existing papers or adding new work. 
 </p>
 </br>
+
+<!-- Loading Indicator -->
+<div id="loading">
+  <p>Loading...</p>
+</div>
+
+<!-- Data Table -->
 <table id="allPapers">
-<thead><th>Year</th><th>Title</th><th>Authors</th><th>Venue</th><th>Abstract</th></thead><tbody>
+<thead>
+  <tr>
+    <th>Year</th>
+    <th>Title</th>
+    <th>Authors</th>
+    <th>Venue</th>
+    <th>Abstract</th>
+  </tr>
+</thead>
+<tbody>
 {% assign publicationsByYear = site.publications | sort: "year" | group_by: "year" %}
 {% for year in publicationsByYear reversed %}
-{% for publication in year.items %}
-<tr>
-	<td>{{ publication.year }}</td>
-	<td><a href="{{ publication.url | prepend: site.baseurl }}">{{publication.title}}</a>
-		<span class="externallinks">
-			&nbsp;<a href='http://scholar.google.com/scholar?q={{ publication.title }}' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-			<a href='https://www.semanticscholar.org/search?q={{ publication.title }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
-			<a href='http://academic.microsoft.com/#/search?iq={{ publication.title | uri_escape }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
-		</span>
-	</td>
-	<td>{{ publication.authors }}</td>
-	<td>{{ publication.conference }}</td>
-	<td>{{ publication.content }}</td>
-</tr>
+  {% for publication in year.items %}
+  <tr>
+    <td>{{ publication.year }}</td>
+    <td><a href="{{ publication.url | prepend: site.baseurl }}">{{ publication.title }}</a>
+      <span class="externallinks">
+        &nbsp;<a href='http://scholar.google.com/scholar?q={{ publication.title }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+        <a href='https://www.semanticscholar.org/search?q={{ publication.title }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+        <a href='http://academic.microsoft.com/#/search?iq={{ publication.title | uri_escape }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/ms-academic.png"/></a>
+      </span>
+    </td>
+    <td>{{ publication.authors }}</td>
+    <td>{{ publication.conference }}</td>
+    <td>{{ publication.content }}</td>
+  </tr>
+  {% endfor %}
 {% endfor %}
-{% endfor %}
-</tbody></table>
+</tbody>
+</table>
 
+<!-- CSS Styles -->
+<style>
+  /* Hide the table initially */
+  #allPapers {
+    display: none;
+  }
+
+  /* Style the loading indicator */
+  #loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    text-align: center;
+  }
+</style>
+
+<!-- JavaScript -->
 <script>
 var datatable;
+
 function searchTable() {
-    var hash = decodeURIComponent(window.location.hash.substr(1));
-    datatable.search(hash).draw();
+  var hash = decodeURIComponent(window.location.hash.substr(1));
+  datatable.search(hash).draw();
 }
-$(document).ready( function () {
-    datatable = $('#allPapers').DataTable({
-		paging: false,
-		"order": [[ 0, 'desc' ], [ 1, 'asc' ]],
-		columnDefs: [
-			{
-				targets: [3, 4],
-				visible: false,
-				searchable: true
-			}]
-		});
-    searchTable();
+
+$(document).ready(function() {
+  // Show the loading indicator
+  $('#loading').show();
+
+  // Initialize the DataTable
+  datatable = $('#allPapers').DataTable({
+    paging: false,    // Disable pagination
+    order: [[0, 'desc'], [1, 'asc']],  // Sort by Year and Title
+    columnDefs: [
+      {
+        targets: [3, 4],  // Hide certain columns, but make them searchable
+        visible: false,
+        searchable: true
+      }
+    ],
+    // Callback when DataTable is initialized
+    initComplete: function(settings, json) {
+      // Hide the loading indicator
+      $('#loading').hide();
+      // Show the table
+      $('#allPapers').show();
+    }
+  });
+
+  searchTable();  // Perform initial search if hash is present
 });
+
 $(window).on('hashchange', function() {
-  searchTable();
+  searchTable();  // Update search when URL hash changes
 });
 </script>
