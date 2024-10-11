@@ -1,6 +1,6 @@
 ---
 layout: publication
-title: Post-quantum Hash Functions Using (_n(_p))
+title: Post-quantum Hash Functions Using _n(_p)
 authors: Coz Corentin Le, Battarbee Christopher, Flores Ramón, Koberda Thomas, Kahrobaei Delaram
 conference: "Arxiv"
 year: 2022
