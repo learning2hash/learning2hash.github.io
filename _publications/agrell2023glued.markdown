@@ -9,4 +9,4 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2312.00481"}
 tags: ['ARXIV', 'Quantisation']
 ---
-40 years ago, Conway and Sloane proposed using the highly symmetrical Coxeter-Todd lattice \(K\_\&amp;\#123;12\&amp;\#125;\) for quantization, and estimated its second moment. Since then, all published lists identify \(K\_\&amp;\#123;12\&amp;\#125;\) as the best 12-dimensional lattice quantizer. Surprisingly, \(K\_\&amp;\#123;12\&amp;\#125;\) is not optimal: we construct two new 12-dimensional lattices with lower normalized second moments. The new lattices are obtained by gluing together 6-dimensional lattices.
+40 years ago, Conway and Sloane proposed using the highly symmetrical Coxeter-Todd lattice \(K\_\{12\}\) for quantization, and estimated its second moment. Since then, all published lists identify \(K\_\{12\}\) as the best 12-dimensional lattice quantizer. Surprisingly, \(K\_\{12\}\) is not optimal: we construct two new 12-dimensional lattices with lower normalized second moments. The new lattices are obtained by gluing together 6-dimensional lattices.
