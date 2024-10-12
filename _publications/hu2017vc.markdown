@@ -9,4 +9,4 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1703.01586"}
 tags: []
 ---
-We investigate the asymptotic rates of length-$n$ binary codes with VC-dimension at most $dn$ and minimum distance at least $\delta n$. Two upper bounds are obtained, one as a simple corollary of a result by Haussler and the other via a shortening approach combining Sauer-Shelah lemma and the linear programming bound. Two lower bounds are given using Gilbert-Varshamov type arguments over constant-weight and Markov-type sets.
+We investigate the asymptotic rates of length-\(n\) binary codes with VC-dimension at most \(dn\) and minimum distance at least \(\delta n\). Two upper bounds are obtained, one as a simple corollary of a result by Haussler and the other via a shortening approach combining Sauer-Shelah lemma and the linear programming bound. Two lower bounds are given using Gilbert-Varshamov type arguments over constant-weight and Markov-type sets.
