@@ -897,15 +897,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Mccauley Samuel</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>Approximate nearest neighbor search (ANN) data structures have widespread applications in machine learning, computational biology, and text processing. The goal of ANN is to preprocess a set S so that, given a query q, we can find a point y whose distance from q approximates the smallest distance from q to any point in S. For most distance functions, the best-known ANN bounds for high-dimensional point sets are obtained using techniques based on locality-sensitive hashing (LSH). Unfortunately, space efficiency is a major challenge for LSH-based data structures. Classic LSH techniques require a very large amount of space, oftentimes polynomial in</td>
-      <td>S</td>
-      <td>. A long line of work has developed intricate techniques to reduce this space usage, but these techniques suffer from downsides: they must be hand tailored to each specific LSH, are often complicated, and their space reduction comes at the cost of significantly increased query times. In this paper we explore a new way to improve the space efficiency of LSH using function inversion techniques, originally developed in (Fiat and Naor 2000). We begin by describing how function inversion can be used to improve LSH data structures. This gives a fairly simple, black box method to reduce LSH space usage. Then, we give a data structure that leverages function inversion to improve the query time of the best known near-linear space data structure for approximate nearest neighbor search under Euclidean distance: the ALRW data structure of (Andoni, Laarhoven, Razenshteyn, and Waingarten 2017). ALRW was previously shown to be optimal among list-of-points data structures for both Euclidean and Manhattan ANN; thus, in addition to giving improved bounds, our results imply that list-of-points data structures are not optimal for Euclidean or Manhattan ANN.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>Approximate nearest neighbor search (ANN) data structures have widespread applications in machine learning, computational biology, and text processing. The goal of ANN is to preprocess a set S so that, given a query q, we can find a point y whose distance from q approximates the smallest distance from q to any point in S. For most distance functions, the best-known ANN bounds for high-dimensional point sets are obtained using techniques based on locality-sensitive hashing (LSH). Unfortunately, space efficiency is a major challenge for LSH-based data structures. Classic LSH techniques require a very large amount of space, oftentimes polynomial in |S|. A long line of work has developed intricate techniques to reduce this space usage, but these techniques suffer from downsides: they must be hand tailored to each specific LSH, are often complicated, and their space reduction comes at the cost of significantly increased query times. In this paper we explore a new way to improve the space efficiency of LSH using function inversion techniques, originally developed in (Fiat and Naor 2000). We begin by describing how function inversion can be used to improve LSH data structures. This gives a fairly simple, black box method to reduce LSH space usage. Then, we give a data structure that leverages function inversion to improve the query time of the best known near-linear space data structure for approximate nearest neighbor search under Euclidean distance: the ALRW data structure of (Andoni, Laarhoven, Razenshteyn, and Waingarten 2017). ALRW was previously shown to be optimal among list-of-points data structures for both Euclidean and Manhattan ANN; thus, in addition to giving improved bounds, our results imply that list-of-points data structures are not optimal for Euclidean or Manhattan ANN.</p>
 </td>
   </tr>
   
@@ -4867,15 +4859,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Macgregor Peter, Sun He</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>Constructing a similarity graph from a set (X) of data points in (\mathbb{R}^d) is the first step of many modern clustering algorithms. However, typical constructions of a similarity graph have high time complexity, and a quadratic space dependency with respect to (</td>
-      <td>X</td>
-      <td>). We address this limitation and present a new algorithmic framework that constructs a sparse approximation of the fully connected similarity graph while preserving its cluster structure. Our presented algorithm is based on the kernel density estimation problem, and is applicable for arbitrary kernel functions. We compare our designed algorithm with the well-known implementations from the scikit-learn library and the FAISS library, and find that our method significantly outperforms the implementation from both libraries on a variety of datasets.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>Constructing a similarity graph from a set (X) of data points in (\mathbb{R}^d) is the first step of many modern clustering algorithms. However, typical constructions of a similarity graph have high time complexity, and a quadratic space dependency with respect to (|X|). We address this limitation and present a new algorithmic framework that constructs a sparse approximation of the fully connected similarity graph while preserving its cluster structure. Our presented algorithm is based on the kernel density estimation problem, and is applicable for arbitrary kernel functions. We compare our designed algorithm with the well-known implementations from the scikit-learn library and the FAISS library, and find that our method significantly outperforms the implementation from both libraries on a variety of datasets.</p>
 </td>
   </tr>
   
@@ -6812,15 +6796,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Dhar Manik, Dvir Zeev</td>
     <td>TheoretiCS Volume</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>We show that a randomly chosen linear map over a finite field gives a good hash function in the (\ell_\infty) sense. More concretely, consider a set $S \subset \mathbb{F}_q^n( and a randomly chosen linear map )L : \mathbb{F}_q^n \to \mathbb{F}_q^t( with )q^t( taken to be sufficiently smaller than )</td>
-      <td>S</td>
-      <td>$. Let (U_S) denote a random variable distributed uniformly on (S). Our main theorem shows that, with high probability over the choice of (L), the random variable (L(U_S)) is close to uniform in the (\ell_\infty) norm. In other words, {\em every} element in the range (\mathbb{F}_q^t) has about the same number of elements in (S) mapped to it. This complements the widely-used Leftover Hash Lemma (LHL) which proves the analog statement under the statistical, or (\ell_1), distance (for a richer class of functions) as well as prior work on the expected largest ‘bucket size’ in linear hash functions [ADMPT99]. By known bounds from the load balancing literature [RS98], our results are tight and show that linear functions hash as well as trully random function up to a constant factor in the entropy loss. Our proof leverages a connection between linear hashing and the finite field Kakeya problem and extends some of the tools developed in this area, in particular the polynomial method.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>We show that a randomly chosen linear map over a finite field gives a good hash function in the (\ell_\infty) sense. More concretely, consider a set $S \subset \mathbb{F}_q^n( and a randomly chosen linear map )L : \mathbb{F}_q^n \to \mathbb{F}_q^t( with )q^t( taken to be sufficiently smaller than ) |S|$. Let (U_S) denote a random variable distributed uniformly on (S). Our main theorem shows that, with high probability over the choice of (L), the random variable (L(U_S)) is close to uniform in the (\ell_\infty) norm. In other words, {\em every} element in the range (\mathbb{F}_q^t) has about the same number of elements in (S) mapped to it. This complements the widely-used Leftover Hash Lemma (LHL) which proves the analog statement under the statistical, or (\ell_1), distance (for a richer class of functions) as well as prior work on the expected largest ‘bucket size’ in linear hash functions [ADMPT99]. By known bounds from the load balancing literature [RS98], our results are tight and show that linear functions hash as well as trully random function up to a constant factor in the entropy loss. Our proof leverages a connection between linear hashing and the finite field Kakeya problem and extends some of the tools developed in this area, in particular the polynomial method.</p>
 </td>
   </tr>
   
@@ -6970,15 +6946,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Bez Dominik, Kurpicz Florian, Lehmann Hans-peter, Sanders Peter</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>A minimal perfect hash function (MPHF) bijectively maps a set S of objects to the first</td>
-      <td>S</td>
-      <td>integers. It can be used as a building block in databases and data compression. RecSplit [Esposito et al., ALENEX’20] is currently the most space efficient practical minimal perfect hash function. It heavily relies on trying out hash functions in a brute force way. We introduce rotation fitting, a new technique that makes the search more efficient by drastically reducing the number of tried hash functions. Additionally, we greatly improve the construction time of RecSplit by harnessing parallelism on the level of bits, vectors, cores, and GPUs. In combination, the resulting improvements yield speedups up to 239 on an 8-core CPU and up to 5438 using a GPU. The original single-threaded RecSplit implementation needs 1.5 hours to construct an MPHF for 5 Million objects with 1.56 bits per object. On the GPU, we achieve the same space usage in just 5 seconds. Given that the speedups are larger than the increase in energy consumption, our implementation is more energy efficient than the original implementation.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>A minimal perfect hash function (MPHF) bijectively maps a set S of objects to the first |S| integers. It can be used as a building block in databases and data compression. RecSplit [Esposito et al., ALENEX’20] is currently the most space efficient practical minimal perfect hash function. It heavily relies on trying out hash functions in a brute force way. We introduce rotation fitting, a new technique that makes the search more efficient by drastically reducing the number of tried hash functions. Additionally, we greatly improve the construction time of RecSplit by harnessing parallelism on the level of bits, vectors, cores, and GPUs. In combination, the resulting improvements yield speedups up to 239 on an 8-core CPU and up to 5438 using a GPU. The original single-threaded RecSplit implementation needs 1.5 hours to construct an MPHF for 5 Million objects with 1.56 bits per object. On the GPU, we achieve the same space usage in just 5 seconds. Given that the speedups are larger than the increase in energy consumption, our implementation is more energy efficient than the original implementation.</p>
 </td>
   </tr>
   
@@ -7623,17 +7591,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Qin Lianke, Reddy Aravind, Song Zhao, Xu Zhaozhuo, Zhuo Danyang</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>In this paper, we propose Adam-Hash: an adaptive and dynamic multi-resolution hashing data-structure for fast pairwise summation estimation. Given a data-set (X \subset \mathbb{R}^d), a binary function $f:\mathbb{R}^d\times \mathbb{R}^d\to \mathbb{R}(, and a point )y \in \mathbb{R}^d$, the Pairwise Summation Estimate (\mathrm{PSE}_X(y) := \frac{1}{</td>
-      <td>X</td>
-      <td>} \sum_{x \in X} f(x,y)). For any given data-set (X), we need to design a data-structure such that given any query point (y \in \mathbb{R}^d), the data-structure approximately estimates (\mathrm{PSE}_X(y)) in time that is sub-linear in (</td>
-      <td>X</td>
-      <td>). Prior works on this problem have focused exclusively on the case where the data-set is static, and the queries are independent. In this paper, we design a hashing-based PSE data-structure which works for the more practical \textit{dynamic} setting in which insertions, deletions, and replacements of points are allowed. Moreover, our proposed Adam-Hash is also robust to adaptive PSE queries, where an adversary can choose query (q_j \in \mathbb{R}^d) depending on the output from previous queries (q_1, q_2, \dots, q_{j-1}).</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>In this paper, we propose Adam-Hash: an adaptive and dynamic multi-resolution hashing data-structure for fast pairwise summation estimation. Given a data-set (X \subset \mathbb{R}^d), a binary function $f:\mathbb{R}^d\times \mathbb{R}^d\to \mathbb{R}(, and a point )y \in \mathbb{R}^d$, the Pairwise Summation Estimate (\mathrm{PSE}<em>X(y) := \frac{1}{|X|} \sum</em>{x \in X} f(x,y)). For any given data-set (X), we need to design a data-structure such that given any query point (y \in \mathbb{R}^d), the data-structure approximately estimates (\mathrm{PSE}<em>X(y)) in time that is sub-linear in (|X|). Prior works on this problem have focused exclusively on the case where the data-set is static, and the queries are independent. In this paper, we design a hashing-based PSE data-structure which works for the more practical \textit{dynamic} setting in which insertions, deletions, and replacements of points are allowed. Moreover, our proposed Adam-Hash is also robust to adaptive PSE queries, where an adversary can choose query (q_j \in \mathbb{R}^d) depending on the output from previous queries (q_1, q_2, \dots, q</em>{j-1}).</p>
 </td>
   </tr>
   
@@ -9135,15 +9093,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Bender Michael A., Conway Alex, Farach-colton Martín, Kuszmaul William, Tagliavini Guido</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>Despite being one of the oldest data structures in computer science, hash tables continue to be the focus of a great deal of both theoretical and empirical research. A central reason for this is that many of the fundamental properties that one desires from a hash table are difficult to achieve simultaneously; thus many variants offering different trade-offs have been proposed. This paper introduces Iceberg hashing, a hash table that simultaneously offers the strongest known guarantees on a large number of core properties. Iceberg hashing supports constant-time operations while improving on the state of the art for space efficiency, cache efficiency, and low failure probability. Iceberg hashing is also the first hash table to support a load factor of up to (1 - o(1)) while being stable, meaning that the position where an element is stored only ever changes when resizes occur. In fact, in the setting where keys are (\Theta(\log n)) bits, the space guarantees that Iceberg hashing offers, namely that it uses at most (\log \binom{</td>
-      <td>U</td>
-      <td>}{n} + O(n \log \log n)) bits to store (n) items from a universe (U), matches a lower bound by Demaine et al. that applies to any stable hash table. Iceberg hashing introduces new general-purpose techniques for some of the most basic aspects of hash-table design. Notably, our indirection-free technique for dynamic resizing, which we call waterfall addressing, and our techniques for achieving stability and very-high probability guarantees, can be applied to any hash table that makes use of the front-yard/backyard paradigm for hash table design.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>Despite being one of the oldest data structures in computer science, hash tables continue to be the focus of a great deal of both theoretical and empirical research. A central reason for this is that many of the fundamental properties that one desires from a hash table are difficult to achieve simultaneously; thus many variants offering different trade-offs have been proposed. This paper introduces Iceberg hashing, a hash table that simultaneously offers the strongest known guarantees on a large number of core properties. Iceberg hashing supports constant-time operations while improving on the state of the art for space efficiency, cache efficiency, and low failure probability. Iceberg hashing is also the first hash table to support a load factor of up to (1 - o(1)) while being stable, meaning that the position where an element is stored only ever changes when resizes occur. In fact, in the setting where keys are (\Theta(\log n)) bits, the space guarantees that Iceberg hashing offers, namely that it uses at most (\log \binom{|U|}{n} + O(n \log \log n)) bits to store (n) items from a universe (U), matches a lower bound by Demaine et al. that applies to any stable hash table. Iceberg hashing introduces new general-purpose techniques for some of the most basic aspects of hash-table design. Notably, our indirection-free technique for dynamic resizing, which we call waterfall addressing, and our techniques for achieving stability and very-high probability guarantees, can be applied to any hash table that makes use of the front-yard/backyard paradigm for hash table design.</p>
 </td>
   </tr>
   
@@ -11050,15 +11000,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Costa Simone, Dalai Marco</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>Let (C\subseteq \{1,\ldots,k\}^n) be such that for any (k) distinct elements of (C) there exists a coordinate where they all differ simultaneously. Fredman and Koml'os studied upper and lower bounds on the largest cardinality of such a set (C), in particular proving that as (n\to\infty), $</td>
-      <td>C</td>
-      <td>\leq \exp(n k!/k^{k-1}+o(n))$. Improvements over this result where first derived by different authors for (k=4). More recently, Guruswami and Riazanov showed that the coefficient (k!/k^{k-1}) is certainly not tight for any (k&gt;3), although they could only determine explicit improvements for (k=5,6). For larger (k), their method gives numerical values modulo a conjecture on the maxima of certain polynomials. In this paper, we first prove their conjecture, completing the explicit computation of an improvement over the Fredman-Koml'os bound for any (k). Then, we develop a different method which gives substantial improvements for (k=5,6).</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>Let (C\subseteq \{1,\ldots,k\}^n) be such that for any (k) distinct elements of (C) there exists a coordinate where they all differ simultaneously. Fredman and Koml'os studied upper and lower bounds on the largest cardinality of such a set (C), in particular proving that as (n\to\infty), $|C|\leq \exp(n k!/k^{k-1}+o(n))$. Improvements over this result where first derived by different authors for (k=4). More recently, Guruswami and Riazanov showed that the coefficient (k!/k^{k-1}) is certainly not tight for any (k&gt;3), although they could only determine explicit improvements for (k=5,6). For larger (k), their method gives numerical values modulo a conjecture on the maxima of certain polynomials. In this paper, we first prove their conjecture, completing the explicit computation of an improvement over the Fredman-Koml'os bound for any (k). Then, we develop a different method which gives substantial improvements for (k=5,6).</p>
 </td>
   </tr>
   
@@ -11178,15 +11120,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Charikar Moses, Kapralov Michael, Nouri Navid, Siminelakis Paris</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>In this paper we revisit the kernel density estimation problem: given a kernel (K(x, y)) and a dataset of (n) points in high dimensional Euclidean space, prepare a data structure that can quickly output, given a query (q), a ((1+\epsilon))-approximation to (\mu:=\frac1{</td>
-      <td>P</td>
-      <td>}\sum_{p\in P} K(p, q)). First, we give a single data structure based on classical near neighbor search techniques that improves upon or essentially matches the query time and space complexity for all radial kernels considered in the literature so far. We then show how to improve both the query complexity and runtime by using recent advances in data-dependent near neighbor search. We achieve our results by giving a new implementation of the natural importance sampling scheme. Unlike previous approaches, our algorithm first samples the dataset uniformly (considering a geometric sequence of sampling rates), and then uses existing approximate near neighbor search techniques on the resulting smaller dataset to retrieve the sampled points that lie at an appropriate distance from the query. We show that the resulting sampled dataset has strong geometric structure, making approximate near neighbor search return the required samples much more efficiently than for worst case datasets of the same size. As an example application, we show that this approach yields a data structure that achieves query time (\mu^{-(1+o(1))/4}) and space complexity (\mu^{-(1+o(1))}) for the Gaussian kernel. Our data dependent approach achieves query time (\mu^{-0.173-o(1)}) and space (\mu^{-(1+o(1))}) for the Gaussian kernel. The data dependent analysis relies on new techniques for tracking the geometric structure of the input datasets in a recursive hashing process that we hope will be of interest in other applications in near neighbor search.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>In this paper we revisit the kernel density estimation problem: given a kernel (K(x, y)) and a dataset of (n) points in high dimensional Euclidean space, prepare a data structure that can quickly output, given a query (q), a ((1+\epsilon))-approximation to (\mu:=\frac1{|P|}\sum_{p\in P} K(p, q)). First, we give a single data structure based on classical near neighbor search techniques that improves upon or essentially matches the query time and space complexity for all radial kernels considered in the literature so far. We then show how to improve both the query complexity and runtime by using recent advances in data-dependent near neighbor search. We achieve our results by giving a new implementation of the natural importance sampling scheme. Unlike previous approaches, our algorithm first samples the dataset uniformly (considering a geometric sequence of sampling rates), and then uses existing approximate near neighbor search techniques on the resulting smaller dataset to retrieve the sampled points that lie at an appropriate distance from the query. We show that the resulting sampled dataset has strong geometric structure, making approximate near neighbor search return the required samples much more efficiently than for worst case datasets of the same size. As an example application, we show that this approach yields a data structure that achieves query time (\mu^{-(1+o(1))/4}) and space complexity (\mu^{-(1+o(1))}) for the Gaussian kernel. Our data dependent approach achieves query time (\mu^{-0.173-o(1)}) and space (\mu^{-(1+o(1))}) for the Gaussian kernel. The data dependent analysis relies on new techniques for tracking the geometric structure of the input datasets in a recursive hashing process that we hope will be of interest in other applications in near neighbor search.</p>
 </td>
   </tr>
   
@@ -12148,15 +12082,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Esposito Emmanuel, Graf Thomas Mueller, Vigna Sebastiano</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>A minimal perfect hash function bijectively maps a key set (S) out of a universe (U) into the first (</td>
-      <td>S</td>
-      <td>) natural numbers. Minimal perfect hash functions are used, for example, to map irregularly-shaped keys, such as string, in a compact space so that metadata can then be simply stored in an array. While it is known that just (1.44) bits per key are necessary to store a minimal perfect function, no published technique can go below (2) bits per key in practice. We propose a new technique for storing minimal perfect hash functions with expected linear construction time and expected constant lookup time that makes it possible to build for the first time, for example, structures which need (1.56) bits per key, that is, within (8.3)% of the lower bound, in less than (2) ms per key. We show that instances of our construction are able to simultaneously beat the construction time, space usage and lookup time of the state-of-the-art data structure reaching (2) bits per key. Moreover, we provide parameter choices giving structures which are competitive with alternative, larger-size data structures in terms of space and lookup time. The construction of our data structures can be easily parallelized or mapped on distributed computational units (e.g., within the MapReduce framework), and structures larger than the available RAM can be directly built in mass storage.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>A minimal perfect hash function bijectively maps a key set (S) out of a universe (U) into the first (|S|) natural numbers. Minimal perfect hash functions are used, for example, to map irregularly-shaped keys, such as string, in a compact space so that metadata can then be simply stored in an array. While it is known that just (1.44) bits per key are necessary to store a minimal perfect function, no published technique can go below (2) bits per key in practice. We propose a new technique for storing minimal perfect hash functions with expected linear construction time and expected constant lookup time that makes it possible to build for the first time, for example, structures which need (1.56) bits per key, that is, within (8.3)% of the lower bound, in less than (2) ms per key. We show that instances of our construction are able to simultaneously beat the construction time, space usage and lookup time of the state-of-the-art data structure reaching (2) bits per key. Moreover, we provide parameter choices giving structures which are competitive with alternative, larger-size data structures in terms of space and lookup time. The construction of our data structures can be easily parallelized or mapped on distributed computational units (e.g., within the MapReduce framework), and structures larger than the available RAM can be directly built in mass storage.</p>
 </td>
   </tr>
   
@@ -13911,21 +13837,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Aamand Anders, Knudsen Jakob B. T., Knudsen Mathias B. T., Rasmussen Peter M. R., Thorup Mikkel</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>Previous work on tabulation hashing by Patrascu and Thorup from STOC’11 on simple tabulation and from SODA’13 on twisted tabulation offered Chernoff-style concentration bounds on hash based sums, e.g., the number of balls/keys hashing to a given bin, but under some quite severe restrictions on the expected values of these sums. The basic idea in tabulation hashing is to view a key as consisting of (c=O(1)) characters, e.g., a 64-bit key as (c=8) characters of 8-bits. The character domain (\Sigma) should be small enough that character tables of size (</td>
-      <td>\Sigma</td>
-      <td>) fit in fast cache. The schemes then use (O(1)) tables of this size, so the space of tabulation hashing is (O(</td>
-      <td>\Sigma</td>
-      <td>)). However, the concentration bounds by Patrascu and Thorup only apply if the expected sums are (\ll</td>
-      <td>\Sigma</td>
-      <td>). To see the problem, consider the very simple case where we use tabulation hashing to throw (n) balls into (m) bins and want to analyse the number of balls in a given bin. With their concentration bounds, we are fine if (n=m), for then the expected value is (1). However, if (m=2), as when tossing (n) unbiased coins, the expected value (n/2) is (\gg</td>
-      <td>\Sigma</td>
-      <td>) for large data sets, e.g., data sets that do not fit in fast cache. To handle expectations that go beyond the limits of our small space, we need a much more advanced analysis of simple tabulation, plus a new tabulation technique that we call \emph{tabulation-permutation} hashing which is at most twice as slow as simple tabulation. No other hashing scheme of comparable speed offers similar Chernoff-style concentration bounds.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>Previous work on tabulation hashing by Patrascu and Thorup from STOC’11 on simple tabulation and from SODA’13 on twisted tabulation offered Chernoff-style concentration bounds on hash based sums, e.g., the number of balls/keys hashing to a given bin, but under some quite severe restrictions on the expected values of these sums. The basic idea in tabulation hashing is to view a key as consisting of (c=O(1)) characters, e.g., a 64-bit key as (c=8) characters of 8-bits. The character domain (\Sigma) should be small enough that character tables of size (|\Sigma|) fit in fast cache. The schemes then use (O(1)) tables of this size, so the space of tabulation hashing is (O(|\Sigma|)). However, the concentration bounds by Patrascu and Thorup only apply if the expected sums are (\ll |\Sigma|). To see the problem, consider the very simple case where we use tabulation hashing to throw (n) balls into (m) bins and want to analyse the number of balls in a given bin. With their concentration bounds, we are fine if (n=m), for then the expected value is (1). However, if (m=2), as when tossing (n) unbiased coins, the expected value (n/2) is (\gg |\Sigma|) for large data sets, e.g., data sets that do not fit in fast cache. To handle expectations that go beyond the limits of our small space, we need a much more advanced analysis of simple tabulation, plus a new tabulation technique that we call \emph{tabulation-permutation} hashing which is at most twice as slow as simple tabulation. No other hashing scheme of comparable speed offers similar Chernoff-style concentration bounds.</p>
 </td>
   </tr>
   
@@ -14060,17 +13972,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Mieno Takuya, Köppl Dominik, Nakashima Yuto, Inenaga Shunsuke, Bannai Hideo, Takeda Masayuki</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>Given a string (T) of length (n), a substring (u = T[i..j]) of (T) is called a shortest unique substring (SUS) for an interval ([s,t]) if (a) (u) occurs exactly once in (T), (b) (u) contains the interval ([s,t]) (i.e. $i \leq s \leq t \leq j(), and (c) every substring )v( of )T( with )</td>
-      <td>v</td>
-      <td>&lt;</td>
-      <td>u</td>
-      <td>$ containing ([s,t]) occurs at least twice in (T). Given a query interval $[s, t] \subset [1, n]$, the interval SUS problem is to output all the SUSs for the interval ([s,t]). In this article, we propose a (4n + o(n)) bits data structure answering an interval SUS query in output-sensitive (O(\mathit{occ})) time, where (\mathit{occ}) is the number of returned SUSs. Additionally, we focus on the point SUS problem, which is the interval SUS problem for (s = t). Here, we propose a (\lceil (\log_2{3} + 1)n \rceil + o(n)) bits data structure answering a point SUS query in the same output-sensitive time. We also propose space-efficient algorithms for computing the minimal unique substrings of (T).</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>Given a string (T) of length (n), a substring (u = T[i..j]) of (T) is called a shortest unique substring (SUS) for an interval ([s,t]) if (a) (u) occurs exactly once in (T), (b) (u) contains the interval ([s,t]) (i.e. $i \leq s \leq t \leq j(), and (c) every substring )v( of )T( with )|v| &lt; |u|$ containing ([s,t]) occurs at least twice in (T). Given a query interval $[s, t] \subset [1, n]$, the interval SUS problem is to output all the SUSs for the interval ([s,t]). In this article, we propose a (4n + o(n)) bits data structure answering an interval SUS query in output-sensitive (O(\mathit{occ})) time, where (\mathit{occ}) is the number of returned SUSs. Additionally, we focus on the point SUS problem, which is the interval SUS problem for (s = t). Here, we propose a (\lceil (\log_2{3} + 1)n \rceil + o(n)) bits data structure answering a point SUS query in the same output-sensitive time. We also propose space-efficient algorithms for computing the minimal unique substrings of (T).</p>
 </td>
   </tr>
   
@@ -14192,15 +14094,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Guruswami Venkatesan, Riazanov Andrii</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>We say a subset (C \subseteq \{1,2,\dots,k\}^n) is a (k)-hash code (also called (k)-separated) if for every subset of (k) codewords from (C), there exists a coordinate where all these codewords have distinct values. Understanding the largest possible rate (in bits), defined as ((\log_2</td>
-      <td>C</td>
-      <td>)/n), of a (k)-hash code is a classical problem. It arises in two equivalent contexts: (i) the smallest size possible for a perfect hash family that maps a universe of (N) elements into (\{1,2,\dots,k\}), and (ii) the zero-error capacity for decoding with lists of size less than (k) for a certain combinatorial channel. A general upper bound of (k!/k^{k-1}) on the rate of a (k)-hash code (in the limit of large (n)) was obtained by Fredman and Koml'{o}s in 1984 for any $k \geq 4(. While better bounds have been obtained for )k=4$, their original bound has remained the best known for each (k \ge 5). In this work, we obtain the first improvement to the Fredman-Koml'{o}s bound for every (k \ge 5). While we get explicit (numerical) bounds for (k=5,6), for larger (k) we only show that the FK bound can be improved by a positive, but unspecified, amount. Under a conjecture on the optimum value of a certain polynomial optimization problem over the simplex, our methods allow an effective bound to be computed for every (k).</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>We say a subset (C \subseteq \{1,2,\dots,k\}^n) is a (k)-hash code (also called (k)-separated) if for every subset of (k) codewords from (C), there exists a coordinate where all these codewords have distinct values. Understanding the largest possible rate (in bits), defined as ((\log_2 |C|)/n), of a (k)-hash code is a classical problem. It arises in two equivalent contexts: (i) the smallest size possible for a perfect hash family that maps a universe of (N) elements into (\{1,2,\dots,k\}), and (ii) the zero-error capacity for decoding with lists of size less than (k) for a certain combinatorial channel. A general upper bound of (k!/k^{k-1}) on the rate of a (k)-hash code (in the limit of large (n)) was obtained by Fredman and Koml'{o}s in 1984 for any $k \geq 4(. While better bounds have been obtained for )k=4$, their original bound has remained the best known for each (k \ge 5). In this work, we obtain the first improvement to the Fredman-Koml'{o}s bound for every (k \ge 5). While we get explicit (numerical) bounds for (k=5,6), for larger (k) we only show that the FK bound can be improved by a positive, but unspecified, amount. Under a conjecture on the optimum value of a certain polynomial optimization problem over the simplex, our methods allow an effective bound to be computed for every (k).</p>
 </td>
   </tr>
   
@@ -14410,15 +14304,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Freksen Casper Benjamin, Kamma Lior, Larsen Kasper Green</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>Feature hashing, also known as {\em the hashing trick}, introduced by Weinberger et al. (2009), is one of the key techniques used in scaling-up machine learning algorithms. Loosely speaking, feature hashing uses a random sparse projection matrix (A : \mathbb{R}^n \to \mathbb{R}^m) (where (m \ll n)) in order to reduce the dimension of the data from (n) to (m) while approximately preserving the Euclidean norm. Every column of (A) contains exactly one non-zero entry, equals to either (-1) or (1). Weinberger et al. showed tail bounds on (|Ax|<em>2^2). Specifically they showed that for every (\varepsilon, \delta), if (|x|</em>{\infty} / |x|_2) is sufficiently small, and (m) is sufficiently large, then ()\Pr[ \;</td>
-      <td>\;|Ax|_2^2 - |x|_2^2\;</td>
-      <td>&lt; \varepsilon |x|_2^2 \;] \ge 1 - \delta \;.() These bounds were later extended by Dasgupta \etal (2010) and most recently refined by Dahlgaard et al. (2017), however, the true nature of the performance of this key technique, and specifically the correct tradeoff between the pivotal parameters (|x|_{\infty} / |x|_2, m, \varepsilon, \delta) remained an open question. We settle this question by giving tight asymptotic bounds on the exact tradeoff between the central parameters, thus providing a complete understanding of the performance of feature hashing. We complement the asymptotic bound with empirical data, which shows that the constants hiding in the asymptotic notation are, in fact, very close to (1), thus further illustrating the tightness of the presented bounds in practice.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>Feature hashing, also known as {\em the hashing trick}, introduced by Weinberger et al. (2009), is one of the key techniques used in scaling-up machine learning algorithms. Loosely speaking, feature hashing uses a random sparse projection matrix (A : \mathbb{R}^n \to \mathbb{R}^m) (where (m \ll n)) in order to reduce the dimension of the data from (n) to (m) while approximately preserving the Euclidean norm. Every column of (A) contains exactly one non-zero entry, equals to either (-1) or (1). Weinberger et al. showed tail bounds on (\|Ax\|<em>2^2). Specifically they showed that for every (\varepsilon, \delta), if (\|x\|</em>{\infty} / \|x\|<em>2) is sufficiently small, and (m) is sufficiently large, then ()\Pr[ \; | \;\|Ax\|_2^2 - \|x\|_2^2\; | &lt; \varepsilon \|x\|_2^2 \;] \ge 1 - \delta \;.() These bounds were later extended by Dasgupta \etal (2010) and most recently refined by Dahlgaard et al. (2017), however, the true nature of the performance of this key technique, and specifically the correct tradeoff between the pivotal parameters (\|x\|</em>{\infty} / \|x\|_2, m, \varepsilon, \delta) remained an open question. We settle this question by giving tight asymptotic bounds on the exact tradeoff between the central parameters, thus providing a complete understanding of the performance of feature hashing. We complement the asymptotic bound with empirical data, which shows that the constants hiding in the asymptotic notation are, in fact, very close to (1), thus further illustrating the tightness of the presented bounds in practice.</p>
 </td>
   </tr>
   
@@ -14988,15 +14874,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Charikar Moses, Siminelakis Paris</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>A basic computational primitive in the analysis of massive datasets is summing simple functions over a large number of objects. Modern applications pose an additional challenge in that such functions often depend on a parameter vector (y) (query) that is unknown a priori. Given a set of points $X\subset \mathbb{R}^{d}( and a pairwise function )w:\mathbb{R}^{d}\times \mathbb{R}^{d}\to [0,1]$, we study the problem of designing a data-structure that enables sublinear-time approximation of the summation (Z_{w}(y)=\frac{1}{</td>
-      <td>X</td>
-      <td>}\sum_{x\in X}w(x,y)) for any query $y\in \mathbb{R}^{d}$. By combining ideas from Harmonic Analysis (partitions of unity and approximation theory) with Hashing-Based-Estimators [Charikar, Siminelakis FOCS’17], we provide a general framework for designing such data structures through hashing that reaches far beyond what previous techniques allowed. A key design principle is a collection of (T\geq 1) hashing schemes with collision probabilities (p_{1},\ldots, p_{T}) such that $\sup_{t\in [T]}\{p_{t}(x,y)\} = \Theta(\sqrt{w(x,y)})$. This leads to a data-structure that approximates (Z_{w}(y)) using a sub-linear number of samples from each hash family. Using this new framework along with Distance Sensitive Hashing [Aumuller, Christiani, Pagh, Silvestri PODS’18], we show that such a collection can be constructed and evaluated efficiently for any log-convex function (w(x,y)=e^{\phi(\langle x,y\rangle)}) of the inner product on the unit sphere (x,y\in \mathcal{S}^{d-1}). Our method leads to data structures with sub-linear query time that significantly improve upon random sampling and can be used for Kernel Density or Partition Function Estimation. We provide extensions of our result from the sphere to (\mathbb{R}^{d}) and from scalar functions to vector functions.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>A basic computational primitive in the analysis of massive datasets is summing simple functions over a large number of objects. Modern applications pose an additional challenge in that such functions often depend on a parameter vector (y) (query) that is unknown a priori. Given a set of points $X\subset \mathbb{R}^{d}( and a pairwise function )w:\mathbb{R}^{d}\times \mathbb{R}^{d}\to [0,1]$, we study the problem of designing a data-structure that enables sublinear-time approximation of the summation (Z_{w}(y)=\frac{1}{|X|}\sum_{x\in X}w(x,y)) for any query $y\in \mathbb{R}^{d}$. By combining ideas from Harmonic Analysis (partitions of unity and approximation theory) with Hashing-Based-Estimators [Charikar, Siminelakis FOCS’17], we provide a general framework for designing such data structures through hashing that reaches far beyond what previous techniques allowed. A key design principle is a collection of (T\geq 1) hashing schemes with collision probabilities (p_{1},\ldots, p_{T}) such that $\sup_{t\in [T]}\{p_{t}(x,y)\} = \Theta(\sqrt{w(x,y)})$. This leads to a data-structure that approximates (Z_{w}(y)) using a sub-linear number of samples from each hash family. Using this new framework along with Distance Sensitive Hashing [Aumuller, Christiani, Pagh, Silvestri PODS’18], we show that such a collection can be constructed and evaluated efficiently for any log-convex function (w(x,y)=e^{\phi(\langle x,y\rangle)}) of the inner product on the unit sphere (x,y\in \mathcal{S}^{d-1}). Our method leads to data structures with sub-linear query time that significantly improve upon random sampling and can be used for Kernel Density or Partition Function Estimation. We provide extensions of our result from the sphere to (\mathbb{R}^{d}) and from scalar functions to vector functions.</p>
 </td>
   </tr>
   
@@ -15011,15 +14889,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Charikar Moses, Siminelakis Paris</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>Given a set of points (P\subset \mathbb{R}^{d}) and a kernel (k), the Kernel Density Estimate at a point (x\in\mathbb{R}^{d}) is defined as (\mathrm{KDE}_{P}(x)=\frac{1}{</td>
-      <td>P</td>
-      <td>}\sum_{y\in P} k(x,y)). We study the problem of designing a data structure that given a data set (P) and a kernel function, returns <em>approximations to the kernel density</em> of a query point in <em>sublinear time</em>. We introduce a class of unbiased estimators for kernel density implemented through locality-sensitive hashing, and give general theorems bounding the variance of such estimators. These estimators give rise to efficient data structures for estimating the kernel density in high dimensions for a variety of commonly used kernels. Our work is the first to provide data-structures with theoretical guarantees that improve upon simple random sampling in high dimensions.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>Given a set of points (P\subset \mathbb{R}^{d}) and a kernel (k), the Kernel Density Estimate at a point (x\in\mathbb{R}^{d}) is defined as (\mathrm{KDE}<em>{P}(x)=\frac{1}{|P|}\sum</em>{y\in P} k(x,y)). We study the problem of designing a data structure that given a data set (P) and a kernel function, returns <em>approximations to the kernel density</em> of a query point in <em>sublinear time</em>. We introduce a class of unbiased estimators for kernel density implemented through locality-sensitive hashing, and give general theorems bounding the variance of such estimators. These estimators give rise to efficient data structures for estimating the kernel density in high dimensions for a variety of commonly used kernels. Our work is the first to provide data-structures with theoretical guarantees that improve upon simple random sampling in high dimensions.</p>
 </td>
   </tr>
   
@@ -15274,15 +15144,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Casper B. Freksen, Lior Kamma, Kasper Green Larsen</td>
     <td>Neural Information Processing Systems</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>Feature hashing, also known as {\em the hashing trick}, introduced by Weinberger et al. (2009), is one of the key techniques used in scaling-up machine learning algorithms. Loosely speaking, feature hashing uses a random sparse projection matrix (A : \mathbb{R}^n \to \mathbb{R}^m) (where (m \ll n)) in order to reduce the dimension of the data from (n) to (m) while approximately preserving the Euclidean norm. Every column of (A) contains exactly one non-zero entry, equals to either (-1) or (1). Weinberger et al. showed tail bounds on (|Ax|<em>2^2). Specifically they showed that for every (\varepsilon, \delta), if (|x|</em>{\infty} / |x|_2) is sufficiently small, and (m) is sufficiently large, then \begin{equation*}\Pr[ \;</td>
-      <td>\;|Ax|_2^2 - |x|_2^2\;</td>
-      <td>&lt; \varepsilon |x|_2^2 \;] \ge 1 - \delta \;.\end{equation*} These bounds were later extended by Dasgupta et al. (2010) and most recently refined by Dahlgaard et al. (2017), however, the true nature of the performance of this key technique, and specifically the correct tradeoff between the pivotal parameters (|x|_{\infty} / |x|_2, m, \varepsilon, \delta) remained an open question. We settle this question by giving tight asymptotic bounds on the exact tradeoff between the central parameters, thus providing a complete understanding of the performance of feature hashing. We complement the asymptotic bound with empirical data, which shows that the constants hiding in the asymptotic notation are, in fact, very close to (1), thus further illustrating the tightness of the presented bounds in practice.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>Feature hashing, also known as {\em the hashing trick}, introduced by Weinberger et al. (2009), is one of the key techniques used in scaling-up machine learning algorithms. Loosely speaking, feature hashing uses a random sparse projection matrix (A : \mathbb{R}^n \to \mathbb{R}^m) (where (m \ll n)) in order to reduce the dimension of the data from (n) to (m) while approximately preserving the Euclidean norm. Every column of (A) contains exactly one non-zero entry, equals to either (-1) or (1). Weinberger et al. showed tail bounds on (\|Ax\|<em>2^2). Specifically they showed that for every (\varepsilon, \delta), if (\|x\|</em>{\infty} / \|x\|<em>2) is sufficiently small, and (m) is sufficiently large, then \begin{equation*}\Pr[ \; | \;\|Ax\|_2^2 - \|x\|_2^2\; | &lt; \varepsilon \|x\|_2^2 \;] \ge 1 - \delta \;.\end{equation*} These bounds were later extended by Dasgupta et al. (2010) and most recently refined by Dahlgaard et al. (2017), however, the true nature of the performance of this key technique, and specifically the correct tradeoff between the pivotal parameters (\|x\|</em>{\infty} / \|x\|_2, m, \varepsilon, \delta) remained an open question. We settle this question by giving tight asymptotic bounds on the exact tradeoff between the central parameters, thus providing a complete understanding of the performance of feature hashing. We complement the asymptotic bound with empirical data, which shows that the constants hiding in the asymptotic notation are, in fact, very close to (1), thus further illustrating the tightness of the presented bounds in practice.</p>
 </td>
   </tr>
   
@@ -15402,15 +15264,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Aamand Anders, Thorup Mikkel</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>We consider the hashing of a set (X\subseteq U) with (</td>
-      <td>X</td>
-      <td>=m) using a simple tabulation hash function (h:U\to [n]=\{0,\dots,n-1\}) and analyse the number of non-empty bins, that is, the size of (h(X)). We show that the expected size of (h(X)) matches that with fully random hashing to within low-order terms. We also provide concentration bounds. The number of non-empty bins is a fundamental measure in the balls and bins paradigm, and it is critical in applications such as Bloom filters and Filter hashing. For example, normally Bloom filters are proportioned for a desired low false-positive probability assuming fully random hashing (see \url{en.wikipedia.org/wiki/Bloom_filter}). Our results imply that if we implement the hashing with simple tabulation, we obtain the same low false-positive probability for any possible input.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>We consider the hashing of a set (X\subseteq U) with (|X|=m) using a simple tabulation hash function (h:U\to [n]=\{0,\dots,n-1\}) and analyse the number of non-empty bins, that is, the size of (h(X)). We show that the expected size of (h(X)) matches that with fully random hashing to within low-order terms. We also provide concentration bounds. The number of non-empty bins is a fundamental measure in the balls and bins paradigm, and it is critical in applications such as Bloom filters and Filter hashing. For example, normally Bloom filters are proportioned for a desired low false-positive probability assuming fully random hashing (see \url{en.wikipedia.org/wiki/Bloom_filter}). Our results imply that if we implement the hashing with simple tabulation, we obtain the same low false-positive probability for any possible input.</p>
 </td>
   </tr>
   
@@ -15755,7 +15609,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Indyk Piotr, Wagner Tal</td>
     <td>Arxiv</td>
-    <td><p>We consider the ((1+\epsilon))-approximate nearest neighbor search problem: given a set (X) of (n) points in a (d)-dimensional space, build a data structure that, given any query point (y), finds a point (x \in X) whose distance to (y) is at most ((1+\epsilon) \min_{x \in X} |x-y|) for an accuracy parameter (\epsilon \in (0,1)). Our main result is a data structure that occupies only (O(\epsilon^{-2} n \log(n) \log(1/\epsilon))) bits of space, assuming all point coordinates are integers in the range $\{-n^{O(1)} \ldots n^{O(1)}\}(, i.e., the coordinates have )O(\log n)$ bits of precision. This improves over the best previously known space bound of $O(\epsilon^{-2} n \log(n)^2)$, obtained via the randomized dimensionality reduction method of Johnson and Lindenstrauss (1984). We also consider the more general problem of estimating all distances from a collection of query points to all data points (X), and provide almost tight upper and lower bounds for the space complexity of this problem.</p>
+    <td><p>We consider the ((1+\epsilon))-approximate nearest neighbor search problem: given a set (X) of (n) points in a (d)-dimensional space, build a data structure that, given any query point (y), finds a point (x \in X) whose distance to (y) is at most ((1+\epsilon) \min_{x \in X} \|x-y\|) for an accuracy parameter (\epsilon \in (0,1)). Our main result is a data structure that occupies only (O(\epsilon^{-2} n \log(n) \log(1/\epsilon))) bits of space, assuming all point coordinates are integers in the range $\{-n^{O(1)} \ldots n^{O(1)}\}(, i.e., the coordinates have )O(\log n)$ bits of precision. This improves over the best previously known space bound of $O(\epsilon^{-2} n \log(n)^2)$, obtained via the randomized dimensionality reduction method of Johnson and Lindenstrauss (1984). We also consider the more general problem of estimating all distances from a collection of query points to all data points (X), and provide almost tight upper and lower bounds for the space complexity of this problem.</p>
 </td>
   </tr>
   
@@ -16642,19 +16496,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Dahlgaard Søren, Langhede Mathias Bæk Tejs, Houen Jakob Bæk Tejs, Thorup Mikkel</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>We consider the (\textit{Similarity Sketching}) problem: Given a universe ([u] = \{0,\ldots, u-1\}) we want a random function (S) mapping subsets (A\subseteq [u]) into vectors (S(A)) of size (t), such that the Jaccard similarity (J(A,B) =</td>
-      <td>A\cap B</td>
-      <td>/</td>
-      <td>A\cup B</td>
-      <td>) between sets (A) and (B) is preserved. More precisely, define $X_i = [S(A)[i] = S(B)[i]]( and )X = \sum_{i\in [t]} X_i(. We want )E[X_i]=J(A,B)$, and we want (X) to be strongly concentrated around (E[X] = t \cdot J(A,B)) (i.e. Chernoff-style bounds). This is a fundamental problem which has found numerous applications in data mining, large-scale classification, computer vision, similarity search, etc. via the classic MinHash algorithm. The vectors (S(A)) are also called (\textit{sketches}). Strong concentration is critical, for often we want to sketch many sets (B_1,\ldots,B_n) so that we later, for a query set (A), can find (one of) the most similar (B_i). It is then critical that no (B_i) looks much more similar to (A) due to errors in the sketch. The seminal (t\times\textit{MinHash}) algorithm uses (t) random hash functions (h_1,\ldots, h_t), and stores $\left ( \min_{a\in A} h_1(A),\ldots, \min_{a\in A} h_t(A) \right )( as the sketch of )A$. The main drawback of MinHash is, however, its (O(t\cdot</td>
-      <td>A</td>
-      <td>)) running time, and finding a sketch with similar properties and faster running time has been the subject of several papers. (continued…)</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>We consider the (\textit{Similarity Sketching}) problem: Given a universe ([u] = \{0,\ldots, u-1\}) we want a random function (S) mapping subsets (A\subseteq [u]) into vectors (S(A)) of size (t), such that the Jaccard similarity (J(A,B) = |A\cap B|/|A\cup B|) between sets (A) and (B) is preserved. More precisely, define $X_i = [S(A)[i] = S(B)[i]]( and )X = \sum_{i\in [t]} X_i(. We want )E[X_i]=J(A,B)$, and we want (X) to be strongly concentrated around (E[X] = t \cdot J(A,B)) (i.e. Chernoff-style bounds). This is a fundamental problem which has found numerous applications in data mining, large-scale classification, computer vision, similarity search, etc. via the classic MinHash algorithm. The vectors (S(A)) are also called (\textit{sketches}). Strong concentration is critical, for often we want to sketch many sets (B_1,\ldots,B_n) so that we later, for a query set (A), can find (one of) the most similar (B_i). It is then critical that no (B_i) looks much more similar to (A) due to errors in the sketch. The seminal (t\times\textit{MinHash}) algorithm uses (t) random hash functions (h_1,\ldots, h_t), and stores $\left ( \min_{a\in A} h_1(A),\ldots, \min_{a\in A} h_t(A) \right )( as the sketch of )A$. The main drawback of MinHash is, however, its (O(t\cdot |A|)) running time, and finding a sketch with similar properties and faster running time has been the subject of several papers. (continued…)</p>
 </td>
   </tr>
   
@@ -17614,17 +17456,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Wygocki Piotr</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>In this paper, we examine the hash functions expressed as scalar products, i.e., (f(x)=&lt;v,x&gt;), for some bounded random vector (v). Such hash functions have numerous applications, but often there is a need to optimize the choice of the distribution of (v). In the present work, we focus on so-called anti-concentration bounds, i.e. the upper bounds of $\mathbb{P}\left[</td>
-      <td>&lt;v,x&gt;</td>
-      <td>&lt; \alpha \right](. In many applications, )v$ is a vector of independent random variables with standard normal distribution. In such case, the distribution of (&lt;v,x&gt;) is also normal and it is easy to approximate $\mathbb{P}\left[</td>
-      <td>&lt;v,x&gt;</td>
-      <td>&lt; \alpha \right]$. Here, we consider two bounded distributions in the context of the anti-concentration bounds. Particularly, we analyze (v) being a random vector from the unit ball in (l_{\infty}) and (v) being a random vector from the unit sphere in (l_{2}). We show optimal up to a constant anti-concentration measures for functions (f(x)=&lt;v,x&gt;). As a consequence of our research, we obtain new best results for \newline \textit{(c)-approximate nearest neighbors without false negatives} for (l_p) in high dimensional space for all (p\in[1,\infty]), for (c=\Omega(\max\{\sqrt{d},d^{1/p}\})). These results improve over those presented in [16]. Finally, our paper reports progress on answering the open problem by Pagh~[17], who considered the nearest neighbor search without false negatives for the Hamming distance.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>In this paper, we examine the hash functions expressed as scalar products, i.e., (f(x)=&lt;v,x&gt;), for some bounded random vector (v). Such hash functions have numerous applications, but often there is a need to optimize the choice of the distribution of (v). In the present work, we focus on so-called anti-concentration bounds, i.e. the upper bounds of $\mathbb{P}\left[|&lt;v,x&gt;| &lt; \alpha \right](. In many applications, )v$ is a vector of independent random variables with standard normal distribution. In such case, the distribution of (&lt;v,x&gt;) is also normal and it is easy to approximate $\mathbb{P}\left[|&lt;v,x&gt;| &lt; \alpha \right]$. Here, we consider two bounded distributions in the context of the anti-concentration bounds. Particularly, we analyze (v) being a random vector from the unit ball in (l_{\infty}) and (v) being a random vector from the unit sphere in (l_{2}). We show optimal up to a constant anti-concentration measures for functions (f(x)=&lt;v,x&gt;). As a consequence of our research, we obtain new best results for \newline \textit{(c)-approximate nearest neighbors without false negatives} for (l_p) in high dimensional space for all (p\in[1,\infty]), for (c=\Omega(\max\{\sqrt{d},d^{1/p}\})). These results improve over those presented in [16]. Finally, our paper reports progress on answering the open problem by Pagh~[17], who considered the nearest neighbor search without false negatives for the Hamming distance.</p>
 </td>
   </tr>
   
@@ -18031,25 +17863,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Christiani Tobias, Pagh Rasmus</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>We consider the problem of approximate set similarity search under Braun-Blanquet similarity $B(\mathbf{x}, \mathbf{y}) =</td>
-      <td>\mathbf{x} \cap \mathbf{y}</td>
-      <td>/ \max(</td>
-      <td>\mathbf{x}</td>
-      <td>,</td>
-      <td>\mathbf{y}</td>
-      <td>)(. The )(b_2, b_2)$-approximate Braun-Blanquet similarity search problem is to preprocess a collection of sets (P) such that, given a query set (\mathbf{q}), if there exists $\mathbf{x} \in P( with )B(\mathbf{q}, \mathbf{x}) \geq b_1$, then we can efficiently return (\mathbf{x}’ \in P) with (B(\mathbf{q}, \mathbf{x}’) &gt; b_2). We present a simple data structure that solves this problem with space usage (O(n^{1+\rho}\log n + \sum_{\mathbf{x} \in P}</td>
-      <td>\mathbf{x}</td>
-      <td>)) and query time (O(</td>
-      <td>\mathbf{q}</td>
-      <td>n^{\rho} \log n)) where (n =</td>
-      <td>P</td>
-      <td>) and $\rho = \log(1/b_1)/\log(1/b_2)$. Making use of existing lower bounds for locality-sensitive hashing by O’Donnell et al. (TOCT 2014) we show that this value of (\rho) is tight across the parameter space, i.e., for every choice of constants (0 &lt; b_2 &lt; b_1 &lt; 1). In the case where all sets have the same size our solution strictly improves upon the value of (\rho) that can be obtained through the use of state-of-the-art data-independent techniques in the Indyk-Motwani locality-sensitive hashing framework (STOC 1998) such as Broder’s MinHash (CCS 1997) for Jaccard similarity and Andoni et al.’s cross-polytope LSH (NIPS 2015) for cosine similarity. Surprisingly, even though our solution is data-independent, for a large part of the parameter space we outperform the currently best data-dependent method by Andoni and Razenshteyn (STOC 2015).</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>We consider the problem of approximate set similarity search under Braun-Blanquet similarity $B(\mathbf{x}, \mathbf{y}) = |\mathbf{x} \cap \mathbf{y}| / \max(|\mathbf{x}|, |\mathbf{y}|)(. The )(b_2, b_2)$-approximate Braun-Blanquet similarity search problem is to preprocess a collection of sets (P) such that, given a query set (\mathbf{q}), if there exists $\mathbf{x} \in P( with )B(\mathbf{q}, \mathbf{x}) \geq b_1$, then we can efficiently return (\mathbf{x}’ \in P) with (B(\mathbf{q}, \mathbf{x}’) &gt; b_2). We present a simple data structure that solves this problem with space usage (O(n^{1+\rho}\log n + \sum_{\mathbf{x} \in P}|\mathbf{x}|)) and query time (O(|\mathbf{q}|n^{\rho} \log n)) where (n = |P|) and $\rho = \log(1/b_1)/\log(1/b_2)$. Making use of existing lower bounds for locality-sensitive hashing by O’Donnell et al. (TOCT 2014) we show that this value of (\rho) is tight across the parameter space, i.e., for every choice of constants (0 &lt; b_2 &lt; b_1 &lt; 1). In the case where all sets have the same size our solution strictly improves upon the value of (\rho) that can be obtained through the use of state-of-the-art data-independent techniques in the Indyk-Motwani locality-sensitive hashing framework (STOC 1998) such as Broder’s MinHash (CCS 1997) for Jaccard similarity and Andoni et al.’s cross-polytope LSH (NIPS 2015) for cosine similarity. Surprisingly, even though our solution is data-independent, for a large part of the parameter space we outperform the currently best data-dependent method by Andoni and Razenshteyn (STOC 2015).</p>
 </td>
   </tr>
   
@@ -18829,7 +18643,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Andoni Alexandr, Nguyen Huy L., Nikolov Aleksandar, Razenshteyn Ilya, Waingarten Erik</td>
     <td>Arxiv</td>
-    <td><p>We show that every symmetric normed space admits an efficient nearest neighbor search data structure with doubly-logarithmic approximation. Specifically, for every (n), (d = n^{o(1)}), and every (d)-dimensional symmetric norm (|\cdot|), there exists a data structure for (\mathrm{poly}(\log \log n))-approximate nearest neighbor search over (|\cdot|) for (n)-point datasets achieving (n^{o(1)}) query time and (n^{1+o(1)}) space. The main technical ingredient of the algorithm is a low-distortion embedding of a symmetric norm into a low-dimensional iterated product of top-(k) norms. We also show that our techniques cannot be extended to general norms.</p>
+    <td><p>We show that every symmetric normed space admits an efficient nearest neighbor search data structure with doubly-logarithmic approximation. Specifically, for every (n), (d = n^{o(1)}), and every (d)-dimensional symmetric norm (\|\cdot\|), there exists a data structure for (\mathrm{poly}(\log \log n))-approximate nearest neighbor search over (\|\cdot\|) for (n)-point datasets achieving (n^{o(1)}) query time and (n^{1+o(1)}) space. The main technical ingredient of the algorithm is a low-distortion embedding of a symmetric norm into a low-dimensional iterated product of top-(k) norms. We also show that our techniques cannot be extended to general norms.</p>
 </td>
   </tr>
   
@@ -19219,17 +19033,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Duda Jarek</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>One of the basic tasks in bioinformatics is localizing a short subsequence (S), read while sequencing, in a long reference sequence (R), like the human geneome. A natural rapid approach would be finding a hash value for (S) and compare it with a prepared database of hash values for each of length (</td>
-      <td>S</td>
-      <td>) subsequences of (R). The problem with such approach is that it would only spot a perfect match, while in reality there are lots of small changes: substitutions, deletions and insertions. This issue could be repaired if having a hash function designed to tolerate some small distortion accordingly to an alignment metric (like Needleman-Wunch): designed to make that two similar sequences should most likely give the same hash value. This paper discusses construction of Distortion-Resistant Hashing (DRH) to generate such fingerprints for rapid search of similar subsequences. The proposed approach is based on the rate distortion theory: in a nearly uniform subset of length (</td>
-      <td>S</td>
-      <td>) sequences, the hash value represents the closest sequence to (S). This gives some control of the distance of collisions: sequences having the same hash value.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>One of the basic tasks in bioinformatics is localizing a short subsequence (S), read while sequencing, in a long reference sequence (R), like the human geneome. A natural rapid approach would be finding a hash value for (S) and compare it with a prepared database of hash values for each of length (|S|) subsequences of (R). The problem with such approach is that it would only spot a perfect match, while in reality there are lots of small changes: substitutions, deletions and insertions. This issue could be repaired if having a hash function designed to tolerate some small distortion accordingly to an alignment metric (like Needleman-Wunch): designed to make that two similar sequences should most likely give the same hash value. This paper discusses construction of Distortion-Resistant Hashing (DRH) to generate such fingerprints for rapid search of similar subsequences. The proposed approach is based on the rate distortion theory: in a nearly uniform subset of length (|S|) sequences, the hash value represents the closest sequence to (S). This gives some control of the distance of collisions: sequences having the same hash value.</p>
 </td>
   </tr>
   
@@ -19996,15 +19800,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Ballard Grey, Pinar Ali, Kolda Tamara G., Seshadhri C.</td>
     <td>ICDM</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>Given two sets of vectors, (A = \{{a_1}, \dots, {a_m}\}) and (B=\{{b_1},\dots,{b_n}\}), our problem is to find the top-(t) dot products, i.e., the largest (</td>
-      <td>{a_i}\cdot{b_j}</td>
-      <td>) among all possible pairs. This is a fundamental mathematical problem that appears in numerous data applications involving similarity search, link prediction, and collaborative filtering. We propose a sampling-based approach that avoids direct computation of all (mn) dot products. We select diamonds (i.e., four-cycles) from the weighted tripartite representation of (A) and (B). The probability of selecting a diamond corresponding to pair ((i,j)) is proportional to (({a_i}\cdot{b_j})^2), amplifying the focus on the largest-magnitude entries. Experimental results indicate that diamond sampling is orders of magnitude faster than direct computation and requires far fewer samples than any competing approach. We also apply diamond sampling to the special case of maximum inner product search, and get significantly better results than the state-of-the-art hashing methods.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>Given two sets of vectors, (A = \{{a_1}, \dots, {a_m}\}) and (B=\{{b_1},\dots,{b_n}\}), our problem is to find the top-(t) dot products, i.e., the largest (|{a_i}\cdot{b_j}|) among all possible pairs. This is a fundamental mathematical problem that appears in numerous data applications involving similarity search, link prediction, and collaborative filtering. We propose a sampling-based approach that avoids direct computation of all (mn) dot products. We select diamonds (i.e., four-cycles) from the weighted tripartite representation of (A) and (B). The probability of selecting a diamond corresponding to pair ((i,j)) is proportional to (({a_i}\cdot{b_j})^2), amplifying the focus on the largest-magnitude entries. Experimental results indicate that diamond sampling is orders of magnitude faster than direct computation and requires far fewer samples than any competing approach. We also apply diamond sampling to the special case of maximum inner product search, and get significantly better results than the state-of-the-art hashing methods.</p>
 </td>
   </tr>
   
@@ -20439,15 +20235,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Knudsen Mathias Bæk Tejs, Stöckel Morten</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>Randomized algorithms and data structures are often analyzed under the assumption of access to a perfect source of randomness. The most fundamental metric used to measure how random a hash function or a random number generator is, is its independence: a sequence of random variables is said to be (k)-independent if every variable is uniform and every size (k) subset is independent. In this paper we consider three classic algorithms under limited independence. We provide new bounds for randomized quicksort, min-wise hashing and largest bucket size under limited independence. Our results can be summarized as follows. -Randomized quicksort. When pivot elements are computed using a (5)-independent hash function, Karloff and Raghavan, J.ACM’93 showed $O ( n \log n)$ expected worst-case running time for a special version of quicksort. We improve upon this, showing that the same running time is achieved with only (4)-independence. -Min-wise hashing. For a set (A), consider the probability of a particular element being mapped to the smallest hash value. It is known that (5)-independence implies the optimal probability (O (1 /n)). Broder et al., STOC’98 showed that (2)-independence implies it is (O(1 / \sqrt{</td>
-      <td>A</td>
-      <td>})). We show a matching lower bound as well as new tight bounds for (3)- and (4)-independent hash functions. -Largest bucket. We consider the case where (n) balls are distributed to (n) buckets using a (k)-independent hash function and analyze the largest bucket size. Alon et. al, STOC’97 showed that there exists a (2)-independent hash function implying a bucket of size (\Omega ( n^{1/2})). We generalize the bound, providing a (k)-independent family of functions that imply size $\Omega ( n^{1/k})$.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>Randomized algorithms and data structures are often analyzed under the assumption of access to a perfect source of randomness. The most fundamental metric used to measure how random a hash function or a random number generator is, is its independence: a sequence of random variables is said to be (k)-independent if every variable is uniform and every size (k) subset is independent. In this paper we consider three classic algorithms under limited independence. We provide new bounds for randomized quicksort, min-wise hashing and largest bucket size under limited independence. Our results can be summarized as follows. -Randomized quicksort. When pivot elements are computed using a (5)-independent hash function, Karloff and Raghavan, J.ACM’93 showed $O ( n \log n)$ expected worst-case running time for a special version of quicksort. We improve upon this, showing that the same running time is achieved with only (4)-independence. -Min-wise hashing. For a set (A), consider the probability of a particular element being mapped to the smallest hash value. It is known that (5)-independence implies the optimal probability (O (1 /n)). Broder et al., STOC’98 showed that (2)-independence implies it is (O(1 / \sqrt{|A|})). We show a matching lower bound as well as new tight bounds for (3)- and (4)-independent hash functions. -Largest bucket. We consider the case where (n) balls are distributed to (n) buckets using a (k)-independent hash function and analyze the largest bucket size. Alon et. al, STOC’97 showed that there exists a (2)-independent hash function implying a bucket of size (\Omega ( n^{1/2})). We generalize the bound, providing a (k)-independent family of functions that imply size $\Omega ( n^{1/k})$.</p>
 </td>
   </tr>
   
@@ -21094,15 +20882,7 @@ the information of existing papers or adding new work.
     </td>
     <td>Dahlgaard Søren, Thorup Mikkel</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>A random hash function (h) is (\varepsilon)-minwise if for any set (S), (</td>
-      <td>S</td>
-      <td>=n), and element (x\in S), (\Pr[h(x)=\min h(S)]=(1\pm\varepsilon)/n). Minwise hash functions with low bias (\varepsilon) have widespread applications within similarity estimation. Hashing from a universe ([u]), the twisted tabulation hashing of P\v{a}tra\c{s}cu and Thorup [SODA’13] makes (c=O(1)) lookups in tables of size (u^{1/c}). Twisted tabulation was invented to get good concentration for hashing based sampling. Here we show that twisted tabulation yields $\tilde O(1/u^{1/c})$-minwise hashing. In the classic independence paradigm of Wegman and Carter [FOCS’79] $\tilde O(1/u^{1/c})(-minwise hashing requires )\Omega(\log u)$-independence [Indyk SODA’99]. P\v{a}tra\c{s}cu and Thorup [STOC’11] had shown that simple tabulation, using same space and lookups yields (\tilde O(1/n^{1/c}))-minwise independence, which is good for large sets, but useless for small sets. Our analysis uses some of the same methods, but is much cleaner bypassing a complicated induction argument.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>A random hash function (h) is (\varepsilon)-minwise if for any set (S), (|S|=n), and element (x\in S), (\Pr[h(x)=\min h(S)]=(1\pm\varepsilon)/n). Minwise hash functions with low bias (\varepsilon) have widespread applications within similarity estimation. Hashing from a universe ([u]), the twisted tabulation hashing of P\v{a}tra\c{s}cu and Thorup [SODA’13] makes (c=O(1)) lookups in tables of size (u^{1/c}). Twisted tabulation was invented to get good concentration for hashing based sampling. Here we show that twisted tabulation yields $\tilde O(1/u^{1/c})$-minwise hashing. In the classic independence paradigm of Wegman and Carter [FOCS’79] $\tilde O(1/u^{1/c})(-minwise hashing requires )\Omega(\log u)$-independence [Indyk SODA’99]. P\v{a}tra\c{s}cu and Thorup [STOC’11] had shown that simple tabulation, using same space and lookups yields (\tilde O(1/n^{1/c}))-minwise independence, which is good for large sets, but useless for small sets. Our analysis uses some of the same methods, but is much cleaner bypassing a complicated induction argument.</p>
 </td>
   </tr>
   
@@ -21825,17 +21605,7 @@ With a total of 2.5 million labeled instances in 328k images, the creation of ou
     </td>
     <td>Anshumali Shrivastava, Ping Li</td>
     <td>Neural Information Processing Systems</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>We go beyond the notion of pairwise similarity and look into search problems with (k)-way similarity functions. In this paper, we focus on problems related to \emph{3-way Jaccard} similarity: (\mathcal{R}^{3way}= \frac{</td>
-      <td>S_1 \cap S_2 \cap S_3</td>
-      <td>}{</td>
-      <td>S_1 \cup S_2 \cup S_3</td>
-      <td>}), (S_1, S_2, S_3 \in \mathcal{C}), where (\mathcal{C}) is a size (n) collection of sets (or binary vectors). We show that approximate (\mathcal{R}^{3way}) similarity search problems admit fast algorithms with provable guarantees, analogous to the pairwise case. Our analysis and speedup guarantees naturally extend to (k)-way resemblance. In the process, we extend traditional framework of \emph{locality sensitive hashing (LSH)} to handle higher order similarities, which could be of independent theoretical interest. The applicability of (\mathcal{R}^{3way}) search is shown on the Google sets application. In addition, we demonstrate the advantage of (\mathcal{R}^{3way}) resemblance over the pairwise case in improving retrieval quality.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>We go beyond the notion of pairwise similarity and look into search problems with (k)-way similarity functions. In this paper, we focus on problems related to \emph{3-way Jaccard} similarity: (\mathcal{R}^{3way}= \frac{|S_1 \cap S_2 \cap S_3|}{|S_1 \cup S_2 \cup S_3|}), (S_1, S_2, S_3 \in \mathcal{C}), where (\mathcal{C}) is a size (n) collection of sets (or binary vectors). We show that approximate (\mathcal{R}^{3way}) similarity search problems admit fast algorithms with provable guarantees, analogous to the pairwise case. Our analysis and speedup guarantees naturally extend to (k)-way resemblance. In the process, we extend traditional framework of \emph{locality sensitive hashing (LSH)} to handle higher order similarities, which could be of independent theoretical interest. The applicability of (\mathcal{R}^{3way}) search is shown on the Google sets application. In addition, we demonstrate the advantage of (\mathcal{R}^{3way}) resemblance over the pairwise case in improving retrieval quality.</p>
 </td>
   </tr>
   
@@ -21895,25 +21665,7 @@ With a total of 2.5 million labeled instances in 328k images, the creation of ou
     </td>
     <td>Thorup Mikkel</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>We consider bottom-k sampling for a set X, picking a sample S_k(X) consisting of the k elements that are smallest according to a given hash function h. With this sample we can estimate the relative size f=</td>
-      <td>Y</td>
-      <td>/</td>
-      <td>X</td>
-      <td>of any subset Y as</td>
-      <td>S_k(X) intersect Y</td>
-      <td>/k. A standard application is the estimation of the Jaccard similarity f=</td>
-      <td>A intersect B</td>
-      <td>/</td>
-      <td>A union B</td>
-      <td>between sets A and B. Given the bottom-k samples from A and B, we construct the bottom-k sample of their union as S_k(A union B)=S_k(S_k(A) union S_k(B)), and then the similarity is estimated as</td>
-      <td>S_k(A union B) intersect S_k(A) intersect S_k(B)</td>
-      <td>/k. We show here that even if the hash function is only 2-independent, the expected relative error is O(1/sqrt(fk)). For fk=Omega(1) this is within a constant factor of the expected relative error with truly random hashing. For comparison, consider the classic approach of kxmin-wise where we use k hash independent functions h_1,…,h_k, storing the smallest element with each hash function. For kxmin-wise there is an at least constant bias with constant independence, and it is not reduced with larger k. Recently Feigenblat et al. showed that bottom-k circumvents the bias if the hash function is 8-independent and k is sufficiently large. We get down to 2-independence for any k. Our result is based on a simply union bound, transferring generic concentration bounds for the hashing scheme to the bottom-k sample, e.g., getting stronger probability error bounds with higher independence. For weighted sets, we consider priority sampling which adapts efficiently to the concrete input weights, e.g., benefiting strongly from heavy-tailed input. This time, the analysis is much more involved, but again we show that generic concentration bounds can be applied.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>We consider bottom-k sampling for a set X, picking a sample S_k(X) consisting of the k elements that are smallest according to a given hash function h. With this sample we can estimate the relative size f=|Y|/|X| of any subset Y as |S_k(X) intersect Y|/k. A standard application is the estimation of the Jaccard similarity f=|A intersect B|/|A union B| between sets A and B. Given the bottom-k samples from A and B, we construct the bottom-k sample of their union as S_k(A union B)=S_k(S_k(A) union S_k(B)), and then the similarity is estimated as |S_k(A union B) intersect S_k(A) intersect S_k(B)|/k. We show here that even if the hash function is only 2-independent, the expected relative error is O(1/sqrt(fk)). For fk=Omega(1) this is within a constant factor of the expected relative error with truly random hashing. For comparison, consider the classic approach of kxmin-wise where we use k hash independent functions h_1,…,h_k, storing the smallest element with each hash function. For kxmin-wise there is an at least constant bias with constant independence, and it is not reduced with larger k. Recently Feigenblat et al. showed that bottom-k circumvents the bias if the hash function is 8-independent and k is sufficiently large. We get down to 2-independence for any k. Our result is based on a simply union bound, transferring generic concentration bounds for the hashing scheme to the bottom-k sample, e.g., getting stronger probability error bounds with higher independence. For weighted sets, we consider priority sampling which adapts efficiently to the concrete input weights, e.g., benefiting strongly from heavy-tailed input. This time, the analysis is much more involved, but again we show that generic concentration bounds can be applied.</p>
 </td>
   </tr>
   
@@ -24294,14 +24046,7 @@ and images from the web.</p>
     </td>
     <td>Panigrahy Rina</td>
     <td>Arxiv</td>
-    <td><table>
-  <tbody>
-    <tr>
-      <td>In this paper we study the problem of finding the approximate nearest neighbor of a query point in the high dimensional space, focusing on the Euclidean space. The earlier approaches use locality-preserving hash functions (that tend to map nearby points to the same value) to construct several hash tables to ensure that the query point hashes to the same bucket as its nearest neighbor in at least one table. Our approach is different – we use one (or a few) hash table and hash several randomly chosen points in the neighborhood of the query point showing that at least one of them will hash to the bucket containing its nearest neighbor. We show that the number of randomly chosen points in the neighborhood of the query point (q) required depends on the entropy of the hash value (h(p)) of a random point (p) at the same distance from (q) at its nearest neighbor, given (q) and the locality preserving hash function (h) chosen randomly from the hash family. Precisely, we show that if the entropy (I(h(p)</td>
-      <td>q,h) = M) and (g) is a bound on the probability that two far-off points will hash to the same bucket, then we can find the approximate nearest neighbor in (O(n^\rho)) time and near linear (\tilde O(n)) space where (\rho = M/\log(1/g)). Alternatively we can build a data structure of size (\tilde O(n^{1/(1-\rho)})) to answer queries in (\tilde O(d)) time. By applying this analysis to the locality preserving hash functions in and adjusting the parameters we show that the (c) nearest neighbor can be computed in time (\tilde O(n^\rho)) and near linear space where (\rho \approx 2.06/c) as (c) becomes large.</td>
-    </tr>
-  </tbody>
-</table>
+    <td><p>In this paper we study the problem of finding the approximate nearest neighbor of a query point in the high dimensional space, focusing on the Euclidean space. The earlier approaches use locality-preserving hash functions (that tend to map nearby points to the same value) to construct several hash tables to ensure that the query point hashes to the same bucket as its nearest neighbor in at least one table. Our approach is different – we use one (or a few) hash table and hash several randomly chosen points in the neighborhood of the query point showing that at least one of them will hash to the bucket containing its nearest neighbor. We show that the number of randomly chosen points in the neighborhood of the query point (q) required depends on the entropy of the hash value (h(p)) of a random point (p) at the same distance from (q) at its nearest neighbor, given (q) and the locality preserving hash function (h) chosen randomly from the hash family. Precisely, we show that if the entropy (I(h(p)|q,h) = M) and (g) is a bound on the probability that two far-off points will hash to the same bucket, then we can find the approximate nearest neighbor in (O(n^\rho)) time and near linear (\tilde O(n)) space where (\rho = M/\log(1/g)). Alternatively we can build a data structure of size (\tilde O(n^{1/(1-\rho)})) to answer queries in (\tilde O(d)) time. By applying this analysis to the locality preserving hash functions in and adjusting the parameters we show that the (c) nearest neighbor can be computed in time (\tilde O(n^\rho)) and near linear space where (\rho \approx 2.06/c) as (c) becomes large.</p>
 </td>
   </tr>
   
