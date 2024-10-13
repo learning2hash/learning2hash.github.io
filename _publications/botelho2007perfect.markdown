@@ -29,6 +29,6 @@ of over one billion URLs from the World Wide Web of average length 64, for
 which we construct a minimal perfect hash function on a commodity PC in a
 little more than 1 hour. Our scheme produces minimal perfect hash functions
 using slightly more than 3 bits per key. For perfect hash functions in the
-range \\{\\{0,...,2n-1\\}\\} the space usage drops to just over 2 bits per key (i.e.,
+range \\(\\{0,...,2n-1\\}\\) the space usage drops to just over 2 bits per key (i.e.,
 one bit more than optimal for representing the key). This is significantly
-below of what has been achieved previously for very large values of \\{n\\}.
+below of what has been achieved previously for very large values of \\(n\\).

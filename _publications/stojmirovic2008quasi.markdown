@@ -23,7 +23,7 @@ of this chapter indicates that `a high dimensional quasi-metric space is close
 to being a metric space'.
   Chapter 5 investigates the geometric aspects of the theory of database
 similarity search in the context of quasi-metrics. The results about
-\\{pq\\}-spaces are used to produce novel theoretical bounds on performance of
+\\(pq\\)-spaces are used to produce novel theoretical bounds on performance of
 indexing schemes.
   Finally, the thesis presents some biological applications. Chapter 6
 introduces FSIndex, an indexing scheme that significantly accelerates

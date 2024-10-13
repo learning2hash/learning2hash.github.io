@@ -21,6 +21,6 @@ while maintaining accuracy. Second, we add a hash-like layer into MobileNet to
 train the model on labeled mobile visual data. Evaluations show that the
 proposed system can exceed state-of-the-art accuracy performance in terms of
 the MAP. More importantly, the memory consumption is much less than that of
-other deep learning models. The proposed method requires only \\{13\\} MB of memory
-for the neural network and achieves a MAP of \\{97.80\%\\} on the mobile location
+other deep learning models. The proposed method requires only \\(13\\) MB of memory
+for the neural network and achieves a MAP of \\(97.80\%\\) on the mobile location
 recognition dataset used for testing.

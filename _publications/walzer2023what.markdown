@@ -14,4 +14,4 @@ underlies space-efficient data structures like cuckoo hash tables. We'll find
 that the additional power afforded by more than 2 choices is often outweighed
 by the additional costs they bring. In the second part, we present a data
 structure where choices play a role at coarser than per-element granularity. In
-some sense, we rely on the power of \\{1+\epsilon\\} choices.
+some sense, we rely on the power of \\(1+\epsilon\\) choices.

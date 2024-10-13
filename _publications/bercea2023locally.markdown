@@ -23,7 +23,7 @@ HyperLogLog algorithm of Flajolet, Fusy, Gandouet, Meunier [AOFA 97] for
 counting distinct elements, and the one-permutation hashing of Li, Owen, and
 Zhang [NIPS 12] for large-scale machine learning. We also provide a very
 efficient solution for the classical problem of obtaining fully-random hashing
-on a fixed (but unknown to the hash function) set of \\{n\\} keys using \\{O(n)\\}
+on a fixed (but unknown to the hash function) set of \\(n\\) keys using \\(O(n)\\)
 space. As a consequence, we get more efficient implementations of the splitting
 trick of Dietzfelbinger and Rink [ICALP'09] and the succinct space uniform
 hashing of Pagh and Pagh [SICOMP'08].

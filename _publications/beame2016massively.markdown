@@ -13,8 +13,8 @@ We study distributed protocols for finding all pairs of similar vectors in a
 large dataset. Our results pertain to a variety of discrete metrics, and we
 give concrete instantiations for Hamming distance. In particular, we give
 improved upper bounds on the overhead required for similarity defined by
-Hamming distance \\{r>1\\} and prove a lower bound showing qualitative optimality
-of the overhead required for similarity over any Hamming distance \\{r\\}. Our main
+Hamming distance \\(r>1\\) and prove a lower bound showing qualitative optimality
+of the overhead required for similarity over any Hamming distance \\(r\\). Our main
 conceptual contribution is a connection between similarity search algorithms
 and certain graph-theoretic quantities. For our upper bounds, we exhibit a
 general method for designing one-round protocols using edge-isoperimetric

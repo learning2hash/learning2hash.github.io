@@ -22,7 +22,7 @@ negatively affect the overall assessment of existing k-nearest neighbor (KNN)
 based metrics. We propose two new precision and recall metrics based on
 locality-sensitive hashing (LSH), which, on top of increasing the outlier
 robustness, decrease the complexity of assessing an evaluation sample against
-\\{n\\} reference samples from \\{O(n)\\} to \\{O(log(n))\\}, if using LSH and KNN, and to
-\\{O(1)\\}, if only applying LSH. We show that low-bit compression of several
+\\(n\\) reference samples from \\(O(n)\\) to \\(O(log(n))\\), if using LSH and KNN, and to
+\\(O(1)\\), if only applying LSH. We show that low-bit compression of several
 pre-trained GANs on multiple datasets induces a trade-off between precision and
 recall, retaining sample quality while sacrificing sample diversity.

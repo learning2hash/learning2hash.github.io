@@ -29,6 +29,6 @@ graphs, which can learn a unified binary code effectively. Notably, we impose
 the decorrelation and code balance constraints on binary codes to reduce the
 quantization errors. Finally, we utilize an alternating iterative optimization
 scheme to obtain the multi-view clustering results. Extensive experimental
-results on \\{5\\} public datasets are provided to reveal the effectiveness of the
+results on \\(5\\) public datasets are provided to reveal the effectiveness of the
 algorithm and its superior performance over other state-of-the-art
 alternatives.

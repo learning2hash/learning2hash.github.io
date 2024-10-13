@@ -19,7 +19,7 @@ representation and compression by 2D Gaussian Splatting, named GaussianImage.
 We first introduce 2D Gaussian to represent the image, where each Gaussian has
 8 parameters including position, covariance and color. Subsequently, we unveil
 a novel rendering algorithm based on accumulated summation. Remarkably, our
-method with a minimum of 3\\{\times\\} lower GPU memory usage and 5\\{\times\\} faster
+method with a minimum of 3\\(\times\\) lower GPU memory usage and 5\\(\times\\) faster
 fitting time not only rivals INRs (e.g., WIRE, I-NGP) in representation
 performance, but also delivers a faster rendering speed of 1500-2000 FPS
 regardless of parameter size. Furthermore, we integrate existing vector

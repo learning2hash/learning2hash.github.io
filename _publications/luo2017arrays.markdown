@@ -18,8 +18,8 @@ of memory and latency constraints. In this paper, we propose ACE (Arrays of
 (locality-sensitive) Count Estimators) algorithm that can be 60x faster than
 the ELKI package~\cite\{DBLP:conf/ssd/AchtertBKSZ09\}, which has the fastest
 implementation of the unsupervised anomaly detection algorithms. ACE algorithm
-requires less than \\{4MB\\} memory, to dynamically compress the full data
-information into a set of count arrays. These tiny \\{4MB\\} arrays of counts are
+requires less than \\(4MB\\) memory, to dynamically compress the full data
+information into a set of count arrays. These tiny \\(4MB\\) arrays of counts are
 sufficient for unsupervised anomaly detection. At the core of the ACE
 algorithm, there is a novel statistical estimator which is derived from the
 sampling view of Locality Sensitive Hashing(LSH). This view is significantly

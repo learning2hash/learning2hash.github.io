@@ -22,5 +22,5 @@ establish conditions where FlyNN matches NNC. We show how FlyNN is trained
 exactly in a FL setup with low communication overhead to produce FlyNNFL, and
 how it can be differentially private. Empirically, we demonstrate that (i)
 FlyNN matches NNC accuracy across 70 OpenML datasets, (ii) FlyNNFL training is
-highly scalable with low communication overhead, providing up to \\{8\times\\}
-speedup with \\{16\\} parties.
+highly scalable with low communication overhead, providing up to \\(8\times\\)
+speedup with \\(16\\) parties.

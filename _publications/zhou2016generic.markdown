@@ -15,7 +15,7 @@ similarity search of different data types. Not every data type and similarity
 measure are supported by GENIE, but many popular ones are. We present the
 system design of GENIE, and demonstrate similarity search with GENIE on several
 data types along with a theoretical analysis of search results. A new concept
-of locality sensitive hashing (LSH) named \\{\tau\\}-ANN search, and a novel data
+of locality sensitive hashing (LSH) named \\(\tau\\)-ANN search, and a novel data
 structure c-PQ on the GPU are also proposed for achieving this purpose.
 Extensive experiments on different real-life datasets demonstrate the
 efficiency and effectiveness of our framework. The implemented system has been

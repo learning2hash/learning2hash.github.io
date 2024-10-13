@@ -19,12 +19,12 @@ linearized via hashing techniques. This allows practitioners to apply min-max
 kernel to large-scale applications using well matured linear algorithms such as
 linear SVM or logistic regression.
   The previous remarkable work on consistent weighted sampling (CWS) produces
-samples in the form of (\\{i^*, t^*\\}) where the \\{i^*\\} records the location (and
+samples in the form of (\\(i^*, t^*\\)) where the \\(i^*\\) records the location (and
 in fact also the weights) information analogous to the samples produced by
-classical minwise hashing on binary data. Because the \\{t^*\\} is theoretically
+classical minwise hashing on binary data. Because the \\(t^*\\) is theoretically
 unbounded, it was not immediately clear how to effectively implement CWS for
 building large-scale linear classifiers. In this paper, we provide a simple
-solution by discarding \\{t^*\\} (which we refer to as the "0-bit" scheme). Via an
+solution by discarding \\(t^*\\) (which we refer to as the "0-bit" scheme). Via an
 extensive empirical study, we show that this 0-bit scheme does not lose
 essential information. We then apply the "0-bit" CWS for building linear
 classifiers to approximate min-max kernel classifiers, as extensively validated

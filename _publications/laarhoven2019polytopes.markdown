@@ -22,16 +22,16 @@ and we provide results for various codes from the literature, such as those
 related to regular polytopes and root lattices. Similar to hyperplane hashing,
 and unlike cross-polytope hashing, our analysis of collision probabilities and
 query exponents is exact and does not hide order terms which vanish only for
-large \\{d\\}, facilitating an easy parameter selection.
+large \\(d\\), facilitating an easy parameter selection.
   For the two-dimensional case, we derive closed-form expressions for arbitrary
 spherical codes, and we show that the equilateral triangle is optimal,
 achieving a better performance than the two-dimensional analogues of hyperplane
 and cross-polytope hashing. In three and four dimensions, we numerically find
-that the tetrahedron, \\{5\\}-cell, and \\{16\\}-cell achieve the best query exponents,
+that the tetrahedron, \\(5\\)-cell, and \\(16\\)-cell achieve the best query exponents,
 while in five or more dimensions orthoplices appear to outperform regular
-simplices, as well as the root lattice families \\{A_k\\} and \\{D_k\\}. We argue that
+simplices, as well as the root lattice families \\(A_k\\) and \\(D_k\\). We argue that
 in higher dimensions, larger spherical codes will likely exist which will
-outperform orthoplices in theory, and we argue why using the \\{D_k\\} root
+outperform orthoplices in theory, and we argue why using the \\(D_k\\) root
 lattices will likely lead to better results in practice, due to a better
 trade-off between the asymptotic query exponent and the concrete costs of
 hashing.

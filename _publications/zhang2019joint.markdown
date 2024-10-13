@@ -12,12 +12,12 @@ tags: ['ARXIV', 'Cross Modal', 'Supervised']
 With the rapid growth of various types of multimodal data, cross-modal deep
 hashing has received broad attention for solving cross-modal retrieval problems
 efficiently. Most cross-modal hashing methods follow the traditional supervised
-hashing framework in which the \\{O(n^2)\\} data pairs and \\{O(n^3)\\} data triplets
+hashing framework in which the \\(O(n^2)\\) data pairs and \\(O(n^3)\\) data triplets
 are generated for training, but the training procedure is less efficient
 because the complexity is high for large-scale dataset. To address these
 issues, we propose a novel and efficient cross-modal hashing algorithm in which
 the unary loss is introduced. First of all, We introduce the Cross-Modal Unary
-Loss (CMUL) with \\{O(n)\\} complexity to bridge the traditional triplet loss and
+Loss (CMUL) with \\(O(n)\\) complexity to bridge the traditional triplet loss and
 classification-based unary loss. A more accurate bound of the triplet loss for
 structured multilabel data is also proposed in CMUL. Second, we propose the
 novel Joint Cluster Cross-Modal Hashing (JCCH) algorithm for efficient hash

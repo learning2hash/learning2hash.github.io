@@ -22,5 +22,5 @@ usability of EDRMs. In this paper, we propose a binary code based hash
 embedding method which allows the size of the embedding table to be reduced in
 arbitrary scale without compromising too much performance. Experimental
 evaluation results show that one can still achieve 99\% performance even if the
-embedding table size is reduced 1000\\{\times\\} smaller than the original one with
+embedding table size is reduced 1000\\(\times\\) smaller than the original one with
 our proposed method.

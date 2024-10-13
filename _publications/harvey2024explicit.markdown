@@ -19,9 +19,9 @@ question of an algorithmic construction. We give the first explicit,
 deterministic, algorithmic construction of orthogonal arrays achieving
 near-optimal size for all parameters. Our construction uses algebraic geometry
 codes.
-  In pseudorandomness, the notions of \\{t\\}-independent generators or
-\\{t\\}-independent hash functions are equivalent to orthogonal arrays. Classical
-constructions of \\{t\\}-independent hash functions are known when the size of the
+  In pseudorandomness, the notions of \\(t\\)-independent generators or
+\\(t\\)-independent hash functions are equivalent to orthogonal arrays. Classical
+constructions of \\(t\\)-independent hash functions are known when the size of the
 codomain is a prime power, but very few constructions are known for an
 arbitrary codomain. Our construction yields algorithmically efficient
-\\{t\\}-independent hash functions for arbitrary domain and codomain.
+\\(t\\)-independent hash functions for arbitrary domain and codomain.

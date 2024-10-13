@@ -16,7 +16,7 @@ this creates an unboundedly-growing database that poses time and memory
 scalability challenges for place recognition methods. To tackle the scalability
 issue for visual place recognition in autonomous driving, we develop a Hidden
 Markov Model approach with a two-tiered memory management. Our algorithm,
-dubbed HM\\{^4\\}, exploits temporal look-ahead to transfer promising candidate
+dubbed HM\\(^4\\), exploits temporal look-ahead to transfer promising candidate
 images between passive storage and active memory when needed. The inference
 process takes into account both promising images and a coarse representations
 of the full database. We show that this allows constant time and space

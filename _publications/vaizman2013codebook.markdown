@@ -29,6 +29,6 @@ representations. We experiment with different encoding methods, namely
 (CS)*. We evaluate the representations' quality in two music information
 retrieval applications: query-by-tag and query-by-example. Our results show
 that concise representations can be used for successful performance in both
-applications. We recommend using top-\\{\tau\\} VQ encoding, which consistently
+applications. We recommend using top-\\(\tau\\) VQ encoding, which consistently
 performs well in both applications, and requires much less computation time
 than the LASSO.

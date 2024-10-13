@@ -32,6 +32,6 @@ PGs (NPGs) with optimized edge selection and routing strategies, which obtain
 better overall performance than existing PGs. After that, we deploy the
 proposed NPGs in NHQ to form two hybrid query methods, which significantly
 outperform the state-of-the-art competitors on all experimental datasets
-(10\\{\times\\} faster under the same \textit\{Recall\}), including eight public and
+(10\\(\times\\) faster under the same \textit\{Recall\}), including eight public and
 one in-house real-world datasets. Our code and datasets have been released at
 \url\{https://github.com/AshenOn3/NHQ\}.

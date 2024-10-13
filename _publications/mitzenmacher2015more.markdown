@@ -9,11 +9,11 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1503.00658"}
 tags: ['ARXIV', 'Independent']
 ---
-With double hashing, for a key \\{x\\}, one generates two hash values \\{f(x)\\} and
-\\{g(x)\\}, and then uses combinations \\{(f(x) +i g(x)) \bmod n\\} for \\{i=0,1,2,...\\}
-to generate multiple hash values in the range \\{[0,n-1]\\} from the initial two.
+With double hashing, for a key \\(x\\), one generates two hash values \\(f(x)\\) and
+\\(g(x)\\), and then uses combinations \\((f(x) +i g(x)) \bmod n\\) for \\(i=0,1,2,...\\)
+to generate multiple hash values in the range \\([0,n-1]\\) from the initial two.
 For balanced allocations, keys are hashed into a hash table where each bucket
-can hold multiple keys, and each key is placed in the least loaded of \\{d\\}
+can hold multiple keys, and each key is placed in the least loaded of \\(d\\)
 choices. It has been shown previously that asymptotically the performance of
 double hashing and fully random hashing is the same in the balanced allocation
 paradigm using fluid limit methods. Here we extend a coupling argument used by

@@ -14,7 +14,7 @@ algorithms of edge sampling, edge counting, and triangle counting. Part of our
 contribution is that we consider three different settings, differing in the way
 in which one may access the neighborhood of a given vertex. In previous work,
 people have considered indexed neighbor access, with a query returning the
-\\{i\\}-th neighbor of a given vertex. Full neighborhood access model, which has a
+\\(i\\)-th neighbor of a given vertex. Full neighborhood access model, which has a
 query that returns the entire neighborhood at a unit cost, has recently been
 considered in the applied community. Between these, we propose hash-ordered
 neighbor access, inspired by coordinated sampling, where we have a global fully

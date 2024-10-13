@@ -9,15 +9,15 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2104.10402"}
 tags: ['Independent', 'SIGIR']
 ---
-Given a set \\{S\\} of \\{n\\} distinct keys, a function \\{f\\} that bijectively maps
-the keys of \\{S\\} into the range \\{\\{0,\ldots,n-1\\}\\} is called a minimal perfect
-hash function for \\{S\\}. Algorithms that find such functions when \\{n\\} is large
+Given a set \\(S\\) of \\(n\\) distinct keys, a function \\(f\\) that bijectively maps
+the keys of \\(S\\) into the range \\(\\{0,\ldots,n-1\\}\\) is called a minimal perfect
+hash function for \\(S\\). Algorithms that find such functions when \\(n\\) is large
 and retain constant evaluation time are of practical interest; for instance,
 search engines and databases typically use minimal perfect hash functions to
 quickly assign identifiers to static sets of variable-length keys such as
 strings. The challenge is to design an algorithm which is efficient in three
-different aspects: time to find \\{f\\} (construction time), time to evaluate \\{f\\}
-on a key of \\{S\\} (lookup time), and space of representation for \\{f\\}. Several
+different aspects: time to find \\(f\\) (construction time), time to evaluate \\(f\\)
+on a key of \\(S\\) (lookup time), and space of representation for \\(f\\). Several
 algorithms have been proposed to trade-off between these aspects. In 1992, Fox,
 Chen, and Heath (FCH) presented an algorithm at SIGIR providing very fast
 lookup evaluation. However, the approach received little attention because of
@@ -27,4 +27,4 @@ present an improved algorithm that scales well to large sets and reduces space
 consumption altogether, without compromising the lookup time. We conduct an
 extensive experimental assessment and show that the algorithm finds functions
 that are competitive in space with state-of-the art techniques and provide
-\\{2-4\times\\} better lookup time.
+\\(2-4\times\\) better lookup time.

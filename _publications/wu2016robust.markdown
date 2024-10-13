@@ -18,7 +18,7 @@ is first constructed, followed by a subsequent hash function learning; 2) these
 methods are commonly developed on the assumption that data samples with
 multiple representations are noise-free,which is not practical in real-life
 applications; 3) they often incur cumbersome training model caused by the
-neighborhood graph construction using all \\{N\\} points in the database (\\{O(N)\\}).
+neighborhood graph construction using all \\(N\\) points in the database (\\(O(N)\\)).
 In this paper, we motivate the problem of jointly and efficiently training the
 robust hash functions over data objects with multi-feature representations
 which may be noise corrupted. To achieve both the robustness and training

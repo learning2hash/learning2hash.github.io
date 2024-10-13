@@ -9,9 +9,9 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2106.02350"}
 tags: ['ARXIV', 'Independent']
 ---
-A function \\{f : U \to \\{0,\ldots,n-1\\}\\} is a minimal perfect hash function
-for a set \\{S \subseteq U\\} of size \\{n\\}, if \\{f\\} bijectively maps \\{S\\} into the
-first \\{n\\} natural numbers. These functions are important for many practical
+A function \\(f : U \to \\{0,\ldots,n-1\\}\\) is a minimal perfect hash function
+for a set \\(S \subseteq U\\) of size \\(n\\), if \\(f\\) bijectively maps \\(S\\) into the
+first \\(n\\) natural numbers. These functions are important for many practical
 applications in computing, such as search engines, computer networks, and
 databases. Several algorithms have been proposed to build minimal perfect hash
 functions that: scale well to large sets, retain fast evaluation time, and take
@@ -25,4 +25,4 @@ algorithms in the literature share these features, despite of their big
 practical impact. We conduct an extensive experimental assessment on large
 real-world string collections and show that, with respect to other techniques,
 PTHash is competitive in construction time and space consumption, but retains 2
-- 6\\{\times\\} better lookup time.
+- 6\\(\times\\) better lookup time.

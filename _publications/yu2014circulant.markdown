@@ -16,9 +16,9 @@ To address this problem, we propose Circulant Binary Embedding (CBE) which
 generates binary codes by projecting the data with a circulant matrix. The
 circulant structure enables the use of Fast Fourier Transformation to speed up
 the computation. Compared to methods that use unstructured matrices, the
-proposed method improves the time complexity from \\{\mathcal\{O\}(d^2)\\} to
-\\{\mathcal\{O\}(dlog\{d\})\\}, and the space complexity from \\{\mathcal\{O\}(d^2)\\} to
-\\{\mathcal\{O\}(d)\\} where \\{d\\} is the input dimensionality. We also propose a novel
+proposed method improves the time complexity from \\(\mathcal\{O\}(d^2)\\) to
+\\(\mathcal\{O\}(dlog\{d\})\\), and the space complexity from \\(\mathcal\{O\}(d^2)\\) to
+\\(\mathcal\{O\}(d)\\) where \\(d\\) is the input dimensionality. We also propose a novel
 time-frequency alternating optimization to learn data-dependent circulant
 projections, which alternatively minimizes the objective in original and
 Fourier domains. We show by extensive experiments that the proposed approach

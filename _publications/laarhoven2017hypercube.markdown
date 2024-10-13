@@ -19,16 +19,16 @@ improvement was ever given, and it remained unclear how the resulting hypercube
 hash method scales in high dimensions.
   In this work, we provide explicit asymptotics for the collision probabilities
 when using hypercubes to partition the space. For instance, two near-orthogonal
-vectors are expected to collide with probability \\{(\frac\{1\}\{\pi\})^\{d + o(d)\}\\}
-in dimension \\{d\\}, compared to \\{(\frac\{1\}\{2\})^d\\} when using random hyperplanes.
-Vectors at angle \\{\frac\{\pi\}\{3\}\\} collide with probability
-\\{(\frac\{\sqrt\{3\}\}\{\pi\})^\{d + o(d)\}\\}, compared to \\{(\frac\{2\}\{3\})^d\\} for random
+vectors are expected to collide with probability \\((\frac\{1\}\{\pi\})^\{d + o(d)\}\\)
+in dimension \\(d\\), compared to \\((\frac\{1\}\{2\})^d\\) when using random hyperplanes.
+Vectors at angle \\(\frac\{\pi\}\{3\}\\) collide with probability
+\\((\frac\{\sqrt\{3\}\}\{\pi\})^\{d + o(d)\}\\), compared to \\((\frac\{2\}\{3\})^d\\) for random
 hyperplanes, and near-parallel vectors collide with similar asymptotic
 probabilities in both cases.
-  For \\{c\\}-approximate nearest neighbor searching, this translates to a decrease
-in the exponent \\{\rho\\} of locality-sensitive hashing (LSH) methods of a factor
-up to \\{log_2(\pi) \approx 1.652\\} compared to hyperplane LSH. For \\{c = 2\\}, we
-obtain \\{\rho \approx 0.302 + o(1)\\} for hypercube LSH, improving upon the \\{\rho
-\approx 0.377\\} for hyperplane LSH. We further describe how to use hypercube LSH
+  For \\(c\\)-approximate nearest neighbor searching, this translates to a decrease
+in the exponent \\(\rho\\) of locality-sensitive hashing (LSH) methods of a factor
+up to \\(log_2(\pi) \approx 1.652\\) compared to hyperplane LSH. For \\(c = 2\\), we
+obtain \\(\rho \approx 0.302 + o(1)\\) for hypercube LSH, improving upon the \\(\rho
+\approx 0.377\\) for hyperplane LSH. We further describe how to use hypercube LSH
 in practice, and we consider an example application in the area of lattice
 algorithms.

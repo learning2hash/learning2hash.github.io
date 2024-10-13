@@ -14,7 +14,7 @@ tools for approximate Euclidean norm-preserving embeddings for vectors with
 (unknown) additive Gaussian noises. Such embeddings are sometimes called
 Johnson-lindenstrauss embeddings due to their celebrated lemma. Previous work
 shows that as sparse embeddings, the success of subsampling and hashing closely
-depends on the \\{l_\infty\\} to \\{l_2\\} ratios of the vector to be mapped. This
+depends on the \\(l_\infty\\) to \\(l_2\\) ratios of the vector to be mapped. This
 paper shows that the presence of noise removes such constrain in
 high-dimensions, in other words, sparse embeddings such as subsampling and
 hashing with comparable embedding dimensions to dense embeddings have similar

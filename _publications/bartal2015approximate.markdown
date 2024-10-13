@@ -10,8 +10,8 @@ additional_links:
 tags: ['ARXIV']
 ---
 While the problem of approximate nearest neighbor search has been
-well-studied for Euclidean space and \\{\ell_1\\}, few non-trivial algorithms are
-known for \\{\ell_p\\} when (\\{2 < p < \infty\\}). In this paper, we revisit this
+well-studied for Euclidean space and \\(\ell_1\\), few non-trivial algorithms are
+known for \\(\ell_p\\) when (\\(2 < p < \infty\\)). In this paper, we revisit this
 fundamental problem and present approximate nearest-neighbor search algorithms
 which give the first non-trivial approximation factor guarantees in this
 setting.

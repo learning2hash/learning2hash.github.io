@@ -20,8 +20,8 @@ interactions between users and items. We conducted experiments on MovieLens1M,
 Amazon product review, Ichiba purchase dataset and confirmed CCSR outperformed
 the existing matrix factorization-based methods. On the Movielens1M dataset,
 the absolute performance improvements are up to 15.69% in NDCG and 4.29% in
-Recall. In addition, we extensively studied three binarization modules: \\{sign\\},
+Recall. In addition, we extensively studied three binarization modules: \\(sign\\),
 scaled tanh, and sign-scaled tanh. The result demonstrated that although
 differentiable scaled tanh is popular in recent discrete feature learning
-literature, a huge performance drop occurs when outputs of scaled \\{tanh\\} are
+literature, a huge performance drop occurs when outputs of scaled \\(tanh\\) are
 forced to be binary.

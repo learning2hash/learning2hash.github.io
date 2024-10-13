@@ -9,10 +9,10 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1808.10530"}
 tags: ['ARXIV', 'Independent']
 ---
-Given a set of points \\{P\subset \mathbb\{R\}^\{d\}\\} and a kernel \\{k\\}, the Kernel
-Density Estimate at a point \\{x\in\mathbb\{R\}^\{d\}\\} is defined as
-\\{\mathrm\{KDE\}_\{P\}(x)=\frac\{1\}\{|P|\}\sum_\{y\in P\} k(x,y)\\}. We study the problem
-of designing a data structure that given a data set \\{P\\} and a kernel function,
+Given a set of points \\(P\subset \mathbb\{R\}^\{d\}\\) and a kernel \\(k\\), the Kernel
+Density Estimate at a point \\(x\in\mathbb\{R\}^\{d\}\\) is defined as
+\\(\mathrm\{KDE\}_\{P\}(x)=\frac\{1\}\{|P|\}\sum_\{y\in P\} k(x,y)\\). We study the problem
+of designing a data structure that given a data set \\(P\\) and a kernel function,
 returns *approximations to the kernel density* of a query point in *sublinear
 time*. We introduce a class of unbiased estimators for kernel density
 implemented through locality-sensitive hashing, and give general theorems

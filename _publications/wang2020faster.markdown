@@ -27,9 +27,9 @@ structure, and encourage shorter codes to mimic longer codes by
 self-distillation. DTO solves a complex threshold search problem by a simple
 optimization process, and the balance between accuracy and speed is easily
 controlled by a single parameter. It formulates the optimization target as a
-\\{F_\{\beta\}\\} score that can be optimised by Gaussian cumulative distribution
+\\(F_\{\beta\}\\) score that can be optimised by Gaussian cumulative distribution
 functions. Experimental results on 2 datasets show that our proposed method
 (CtF) is not only 8% more accurate but also 5x faster than contemporary hashing
-ReID methods. Compared with non-hashing ReID methods, CtF is \\{50\times\\} faster
+ReID methods. Compared with non-hashing ReID methods, CtF is \\(50\times\\) faster
 with comparable accuracy. Code is available at
 https://github.com/wangguanan/light-reid.

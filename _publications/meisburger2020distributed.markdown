@@ -17,7 +17,7 @@ implemented on a single machine. We show how we can append the LSH algorithm
 with heavy hitters sketches to provably solve the (high) similarity search
 problem without a single distance computation. Overall, we mathematically show
 that, under realistic data assumptions, we can identify the near-neighbor of a
-given query \\{q\\} in sub-linear (\\{ \ll O(n)\\}) number of simple sketch aggregation
+given query \\(q\\) in sub-linear (\\( \ll O(n)\\)) number of simple sketch aggregation
 operations only. To make such a system practical, we offer a novel design and
 sketching solution to reduce the inter-machine communication overheads
 exponentially. In a direct comparison on comparable hardware, SLASH is more

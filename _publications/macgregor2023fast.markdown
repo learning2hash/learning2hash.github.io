@@ -9,10 +9,10 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2310.13870"}
 tags: ['ARXIV', 'Graph', 'Unsupervised']
 ---
-Constructing a similarity graph from a set \\{X\\} of data points in
-\\{\mathbb\{R\}^d\\} is the first step of many modern clustering algorithms. However,
+Constructing a similarity graph from a set \\(X\\) of data points in
+\\(\mathbb\{R\}^d\\) is the first step of many modern clustering algorithms. However,
 typical constructions of a similarity graph have high time complexity, and a
-quadratic space dependency with respect to \\{|X|\\}. We address this limitation
+quadratic space dependency with respect to \\(|X|\\). We address this limitation
 and present a new algorithmic framework that constructs a sparse approximation
 of the fully connected similarity graph while preserving its cluster structure.
 Our presented algorithm is based on the kernel density estimation problem, and

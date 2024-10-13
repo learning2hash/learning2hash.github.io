@@ -19,7 +19,7 @@ on the viewpoints and/or angles, and may subsequently yield very different
 results. In fact, dealing with the landmarks with \illshapes caused by the
 photography of q-users is often nontrivial and has seldom been studied. In this
 paper we propose a novel framework, namely multi-query expansions, to retrieve
-semantically robust landmarks by two steps. Firstly, we identify the top-\\{k\\}
+semantically robust landmarks by two steps. Firstly, we identify the top-\\(k\\)
 photos regarding the latent topics of a query landmark to construct multi-query
 set so as to remedy its possible \illshape. For this purpose, we significantly
 extend the techniques of Latent Dirichlet Allocation. Then, motivated by the

@@ -9,7 +9,7 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2309.07486"}
 tags: ['ARXIV', 'Graph', 'Unsupervised']
 ---
-Given a set of points labeled with \\{k\\} labels, we introduce the heat map
+Given a set of points labeled with \\(k\\) labels, we introduce the heat map
 sorting problem as reordering and merging the points and dimensions while
 preserving the clusters (labels). A cluster is preserved if it remains
 connected, i.e., if it is not split into several clusters and no two clusters

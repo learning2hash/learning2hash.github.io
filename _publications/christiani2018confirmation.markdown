@@ -23,8 +23,8 @@ pre-specified worst-case settings.
 nearest neighbor problem using LSH. First, we give a general reduction that
 transforms a sequence of data structures that each find the nearest neighbor
 with a small, unknown probability, into a data structure that returns the
-nearest neighbor with probability \\{1-\delta\\}, using as few queries as possible.
+nearest neighbor with probability \\(1-\delta\\), using as few queries as possible.
 Second, we present a new query algorithm for the LSH Forest data structure with
-\\{L\\} trees that is able to return the exact nearest neighbor of a query point
-within the same time bound as an LSH Forest of \\{Ω(L)\\} trees with internal
+\\(L\\) trees that is able to return the exact nearest neighbor of a query point
+within the same time bound as an LSH Forest of \\(Ω(L)\\) trees with internal
 parameters specifically tuned to the query and data.

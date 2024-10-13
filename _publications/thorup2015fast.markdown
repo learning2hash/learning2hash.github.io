@@ -14,9 +14,9 @@ functions employed to yield the desired probabilistic guarantees are often too
 complicated to be practical. Here we survey recent results on how simple
 hashing schemes based on tabulation provide unexpectedly strong guarantees.
   Simple tabulation hashing dates back to Zobrist [1970]. Keys are viewed as
-consisting of \\{c\\} characters and we have precomputed character tables
-\\{h_1,...,h_c\\} mapping characters to random hash values. A key \\{x=(x_1,...,x_c)\\}
-is hashed to \\{h_1[x_1] \oplus h_2[x_2].....\oplus h_c[x_c]\\}. This schemes is
+consisting of \\(c\\) characters and we have precomputed character tables
+\\(h_1,...,h_c\\) mapping characters to random hash values. A key \\(x=(x_1,...,x_c)\\)
+is hashed to \\(h_1[x_1] \oplus h_2[x_2].....\oplus h_c[x_c]\\). This schemes is
 very fast with character tables in cache. While simple tabulation is not even
 4-independent, it does provide many of the guarantees that are normally
 obtained via higher independence, e.g., linear probing and Cuckoo hashing.

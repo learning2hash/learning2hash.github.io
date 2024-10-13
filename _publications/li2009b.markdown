@@ -13,7 +13,7 @@ This paper establishes the theoretical framework of b-bit minwise hashing.
 The original minwise hashing method has become a standard technique for
 estimating set similarity (e.g., resemblance) with applications in information
 retrieval, data management, social networks and computational advertising.
-  By only storing the lowest \\{b\\} bits of each (minwise) hashed value (e.g., b=1
+  By only storing the lowest \\(b\\) bits of each (minwise) hashed value (e.g., b=1
 or 2), one can gain substantial advantages in terms of computational efficiency
 and storage space. We prove the basic theoretical results and provide an
 unbiased estimator of the resemblance for any b. We demonstrate that, even in

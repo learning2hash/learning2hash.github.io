@@ -25,5 +25,5 @@ effective hashing strategy to enable end-to-end learning of binary hash codes
 for both protein and molecule modalities, which can dramatically reduce the
 memory and time costs with higher accuracy compared with existing methods.
 Experimental results show that DrugHash can outperform existing methods to
-achieve state-of-the-art accuracy, with a memory saving of 32\\{\times\\} and a
-speed improvement of 3.5\\{\times\\}.
+achieve state-of-the-art accuracy, with a memory saving of 32\\(\times\\) and a
+speed improvement of 3.5\\(\times\\).
