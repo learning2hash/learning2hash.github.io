@@ -32,19 +32,19 @@ jobs:
       run: |
           python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab'); nltk.download('stopwords'); nltk.download('wordnet'); nltk.download('omw-1.4')"
 
-    - name: Compute tSNE Embeddings
-      run: |
-          python ${{ github.workspace }}/etc/compute_embeddings.py ${{ github.workspace }}/_site/paper-abstracts.json ${{ github.workspace }}/_site/tsne.json
+    #- name: Compute tSNE Embeddings
+    #  run: |
+    #      python ${{ github.workspace }}/etc/compute_embeddings.py ${{ github.workspace }}/_site/paper-abstracts.json ${{ github.workspace }}/_site/tsne.json
 
     # New step: Perform clustering on tSNE embeddings
-    - name: Perform Clustering on tSNE Embeddings
-      run: |
-          python ${{ github.workspace }}/etc/perform_clustering.py ${{ github.workspace }}/_site/tsne.json ${{ github.workspace }}/_site/tsne_clustered.json 10
+    #- name: Perform Clustering on tSNE Embeddings
+    #  run: |
+    #      python ${{ github.workspace }}/etc/perform_clustering.py ${{ github.workspace }}/_site/tsne.json ${{ github.workspace }}/_site/tsne_clustered.json 10
 
-    - name: Compute topics
-      run: |
-          python ${{ github.workspace }}/etc/compute_topics.py ${{ github.workspace }}/_site/paper-abstracts.json ${{ github.workspace }}/_site/topics.json
-          python ${{ github.workspace }}/etc/compute_related.py ${{ github.workspace }}/_site/paper-abstracts.json ${{ github.workspace }}/_site/publications-metadata/
+    #- name: Compute topics
+    #  run: |
+    #      python ${{ github.workspace }}/etc/compute_topics.py ${{ github.workspace }}/_site/paper-abstracts.json ${{ github.workspace }}/_site/topics.json
+    #      python ${{ github.workspace }}/etc/compute_related.py ${{ github.workspace }}/_site/paper-abstracts.json ${{ github.workspace }}/_site/publications-metadata/
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
