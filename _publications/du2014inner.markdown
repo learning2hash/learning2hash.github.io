@@ -16,9 +16,9 @@ source dictionary and to represent this vector by a short code composed of the
 indices of the selected elements. The inner product between a query vector and
 a database vector is efficiently estimated from the query vector and the short
 code of the database vector. We show the superior performance of the proposed
-group \{M\}-selection algorithm that selects \{M\} elements from \{M\} source
+group \\{M\\}-selection algorithm that selects \\{M\\} elements from \\{M\\} source
 dictionaries for vector approximation in terms of search accuracy and
 efficiency for compact codes of the same length via theoretical and empirical
-analysis. Experimental results on large-scale datasets (\{1M\} and \{1B\} SIFT
-features, \{1M\} linear models and Netflix) demonstrate the superiority of the
+analysis. Experimental results on large-scale datasets (\\{1M\\} and \\{1B\\} SIFT
+features, \\{1M\\} linear models and Netflix) demonstrate the superiority of the
 proposed approach.

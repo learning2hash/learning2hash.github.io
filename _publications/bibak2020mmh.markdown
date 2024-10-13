@@ -10,10 +10,10 @@ additional_links:
 tags: ['Independent', 'NEURIPS']
 ---
 Universal hash functions, discovered by Carter and Wegman in 1979, are of
-great importance in computer science with many applications. MMH\{^*\} is a
-well-known \{\triangle\}-universal hash function family, based on the evaluation
+great importance in computer science with many applications. MMH\\{^*\\} is a
+well-known \\{\triangle\\}-universal hash function family, based on the evaluation
 of a dot product modulo a prime. In this paper, we introduce a generalization
-of MMH\{^*\}, that we call GMMH\{^*\}, using the same construction as MMH\{^*\} but
-with an arbitrary integer modulus \{n>1\}, and show that GMMH\{^*\} is
-\{\frac{1}{p}\}-almost-\{\triangle\}-universal, where \{p\} is the smallest prime
-divisor of \{n\}. This bound is tight.
+of MMH\\{^*\\}, that we call GMMH\\{^*\\}, using the same construction as MMH\\{^*\\} but
+with an arbitrary integer modulus \\{n>1\\}, and show that GMMH\\{^*\\} is
+\\{\frac{1}{p}\\}-almost-\\{\triangle\\}-universal, where \\{p\\} is the smallest prime
+divisor of \\{n\\}. This bound is tight.

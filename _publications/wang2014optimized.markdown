@@ -18,7 +18,7 @@ approximated efficiently from their codes by the precomputed lookup tables.
 Traditionally, to encode a subvector of a data point in a subspace, only one
 sub codeword in the corresponding sub codebook is selected, which may impose
 strict restrictions on the search accuracy. In this paper, we propose a novel
-approach, named Optimized Cartesian \{K\}-Means (OCKM), to better encode the data
+approach, named Optimized Cartesian \\{K\\}-Means (OCKM), to better encode the data
 points for more accurate approximate nearest neighbor search. In OCKM, multiple
 sub codewords are used to encode the subvector of a data point in a subspace.
 Each sub codeword stems from different sub codebooks in each subspace, which

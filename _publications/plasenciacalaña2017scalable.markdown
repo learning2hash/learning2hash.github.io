@@ -7,7 +7,7 @@ year: 2017
 bibkey: plasenciacalaña2017scalable
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1712.09277"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+tags: ['ARXIV', 'Graph', 'Unsupervised']
 ---
 Classification in the dissimilarity space has become a very active research
 area since it provides a possibility to learn from data given in the form of

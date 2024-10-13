@@ -7,7 +7,7 @@ year: 2015
 bibkey: li2015rank
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1503.05951"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+tags: ['ARXIV', 'Quantisation', 'Unsupervised']
 ---
 The era of Big Data has spawned unprecedented interests in developing hashing
 algorithms for efficient storage and fast nearest neighbor search. Most

@@ -7,7 +7,7 @@ year: 2017
 bibkey: do2017compact
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1712.02956"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
 ---
 Learning compact binary codes for image retrieval problem using deep neural
 networks has recently attracted increasing attention. However, training deep

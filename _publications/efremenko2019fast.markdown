@@ -19,5 +19,5 @@ locality-sensitive hashing (LSH) technique with a novel missing-mass argument
 to obtain a fast and Bayes-consistent classifier. Our algorithm's prediction
 runtime compares favorably against state of the art approximate NN methods,
 while maintaining Bayes-consistency and attaining rates comparable to minimax.
-On samples of size \{n\} in \{\R^d\}, our pre-processing phase has runtime \{O(d n
-log n)\}, while the evaluation phase has runtime \{O(dlog n)\} per query point.
+On samples of size \\{n\\} in \\{\R^d\\}, our pre-processing phase has runtime \\{O(d n
+log n)\\}, while the evaluation phase has runtime \\{O(dlog n)\\} per query point.

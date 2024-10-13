@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhang2024demo
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2405.11496"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+tags: ['ARXIV', 'Cross Modal', 'Unsupervised']
 ---
 Image-text matching has been a long-standing problem, which seeks to connect
 vision and language through semantic understanding. Due to the capability to

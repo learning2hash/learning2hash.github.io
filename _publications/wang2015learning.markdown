@@ -7,7 +7,7 @@ year: 2015
 bibkey: wang2015learning
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1509.05472"}
-tags: ['ARXIV', 'Deep Learning', 'LSH', 'Supervised', 'Survey Paper']
+tags: ['ARXIV', 'Deep Learning', 'LSH', 'Survey Paper', 'Unsupervised']
 ---
 The explosive growth in big data has attracted much attention in designing
 efficient indexing and search methods recently. In many critical applications

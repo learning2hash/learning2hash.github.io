@@ -22,6 +22,6 @@ Bluetooth networks and retrospectively find who is infected. We propose a novel
 "cross hashing" approach to cryptographically guarantee minimum exposure
 durations. We further mitigate the 24-hour data exposure of infected
 individuals and reduce computational time for identifying if a user has been
-exposed using \{k\}-Anonymous buckets of hashes and Private Set Intersection. We
+exposed using \\{k\\}-Anonymous buckets of hashes and Private Set Intersection. We
 empirically demonstrate that this modified protocol can offer like-for-like
 efficacy to the existing protocol.

@@ -10,7 +10,7 @@ additional_links:
 tags: ['ARXIV', 'Independent']
 ---
 We show an analog to the Fast Johnson-Lindenstrauss Transform for Nearest
-Neighbor Preserving Embeddings in \{ℓ₂\}. These are sparse, randomized
+Neighbor Preserving Embeddings in \\{ℓ₂\\}. These are sparse, randomized
 embeddings that preserve the (approximate) nearest neighbors. The
 dimensionality of the embedding space is bounded not by the size of the
 embedded set n, but by its doubling dimension {\lambda}. For most large

@@ -13,10 +13,10 @@ We present hash embeddings, an efficient method for representing words in a
 continuous vector form. A hash embedding may be seen as an interpolation
 between a standard word embedding and a word embedding created using a random
 hash function (the hashing trick). In hash embeddings each token is represented
-by \{k\} \{d\}-dimensional embeddings vectors and one \{k\} dimensional weight
-vector. The final \{d\} dimensional representation of the token is the product of
+by \\{k\\} \\{d\\}-dimensional embeddings vectors and one \\{k\\} dimensional weight
+vector. The final \\{d\\} dimensional representation of the token is the product of
 the two. Rather than fitting the embedding vectors for each token these are
-selected by the hashing trick from a shared pool of \{B\} embedding vectors. Our
+selected by the hashing trick from a shared pool of \\{B\\} embedding vectors. Our
 experiments show that hash embeddings can easily deal with huge vocabularies
 consisting of millions of tokens. When using a hash embedding there is no need
 to create a dictionary before training nor to perform any kind of vocabulary

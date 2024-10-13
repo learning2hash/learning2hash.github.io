@@ -7,7 +7,7 @@ year: 2017
 bibkey: chaidaroon2017variational
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1708.03436"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+tags: ['ARXIV', 'Deep Learning', 'Unsupervised']
 ---
 As the amount of textual data has been rapidly increasing over the past
 decade, efficient similarity search methods have become a crucial component of

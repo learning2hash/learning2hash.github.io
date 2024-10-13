@@ -15,7 +15,7 @@ popular. Such random mapping is called similarity-preserving hashing and
 approximates a similarity metric by using the Hamming distance. Although many
 efficient similarity searches have been proposed, most of them are designed for
 binary sketches. Similarity searches on integer sketches are in their infancy.
-In this paper, we present a novel space-efficient trie named \{b\}-bit sketch
+In this paper, we present a novel space-efficient trie named \\{b\\}-bit sketch
 trie on integer sketches for scalable similarity searches by leveraging the
 idea behind succinct data structures (i.e., space-efficient data structures
 while supporting various data operations in the compressed format) and a

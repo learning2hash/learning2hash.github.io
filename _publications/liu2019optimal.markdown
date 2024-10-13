@@ -8,7 +8,7 @@ bibkey: liu2019optimal
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1903.00252"}
   - {name: "Code", url: "https://github.com/liuji93/GTH"}
-tags: ['ARXIV', 'Has Code', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Has Code', 'Image Retrieval', 'Unsupervised']
 ---
 Recently, learning to hash has been widely studied for image retrieval thanks
 to the computation and storage efficiency of binary codes. For most existing

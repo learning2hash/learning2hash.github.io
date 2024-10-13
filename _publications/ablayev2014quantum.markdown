@@ -12,7 +12,7 @@ tags: ['ARXIV', 'Independent']
 In the paper, we define the concept of the quantum hash generator and offer
 design, which allows to build a large amount of different quantum hash
 functions. The construction is based on composition of classical
-\{\epsilon\}-universal hash family and a given family of functions -- quantum
+\\{\epsilon\\}-universal hash family and a given family of functions -- quantum
 hash generator.
   The proposed construction combines the properties of robust presentation of
 information by classical error-correcting codes together with the possibility

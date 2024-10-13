@@ -16,7 +16,7 @@ computation. Existing rotation learning methods, however, minimize quantization
 distortion for fixed embeddings, which are not applicable to an end-to-end
 training scenario where embeddings are updated constantly. In this paper, based
 on geometric intuitions from Lie group theory, in particular the special
-orthogonal group \{SO(n)\}, we propose a family of block Givens coordinate
+orthogonal group \\{SO(n)\\}, we propose a family of block Givens coordinate
 descent algorithms to learn rotation matrix that are provably convergent on any
 convex objectives. Compared to the state-of-the-art SVD method, the Givens
 algorithms are much more parallelizable, reducing runtime by orders of

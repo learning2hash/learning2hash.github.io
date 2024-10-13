@@ -10,9 +10,9 @@ additional_links:
 tags: ['ARXIV']
 ---
 We engineer an algorithm to solve the approximate dictionary matching
-problem. Given a list of words \{\mathcal{W}\}, maximum distance \{d\} fixed at
-preprocessing time and a query word \{q\}, we would like to retrieve all words
-from \{\mathcal{W}\} that can be transformed into \{q\} with \{d\} or less edit
+problem. Given a list of words \\{\mathcal{W}\\}, maximum distance \\{d\\} fixed at
+preprocessing time and a query word \\{q\\}, we would like to retrieve all words
+from \\{\mathcal{W}\\} that can be transformed into \\{q\\} with \\{d\\} or less edit
 operations. We present data structures that support fault tolerant queries by
 generating an index. On top of that, we present a generalization of the method
 that eases memory consumption and preprocessing time significantly. At the same

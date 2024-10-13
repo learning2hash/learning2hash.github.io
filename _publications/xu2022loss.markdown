@@ -19,8 +19,8 @@ high computational overhead and converge difficulty, while the proxy loss is
 theoretically incapable of expressing the profound label dependencies and
 exhibits conflicts in the constructed hypersphere space. To address the
 problems, we propose a novel metric learning framework with Hybrid Proxy-Pair
-Loss (HyP\{^2\} Loss) that constructs an expressive metric space with efficient
-training complexity w.r.t. the whole dataset. The proposed HyP\{^2\} Loss focuses
+Loss (HyP\\{^2\\} Loss) that constructs an expressive metric space with efficient
+training complexity w.r.t. the whole dataset. The proposed HyP\\{^2\\} Loss focuses
 on optimizing the hypersphere space by learnable proxies and excavating
 data-to-data correlations of irrelevant pairs, which integrates sufficient data
 correspondence of pair-based methods and high-efficiency of proxy-based

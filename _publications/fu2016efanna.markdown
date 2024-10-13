@@ -16,15 +16,15 @@ dimensionality of data grows, while hashing based methods usually lack
 efficiency in practice. Recently, the graph based methods have drawn
 considerable attention. The main idea is that *a neighbor of a neighbor is
 also likely to be a neighbor*, which we refer as *NN-expansion*. These
-methods construct a \{k\}-nearest neighbor (\{k\}NN) graph offline. And at online
+methods construct a \\{k\\}-nearest neighbor (\\{k\\}NN) graph offline. And at online
 search stage, these methods find candidate neighbors of a query point in some
 way (\eg, random selection), and then check the neighbors of these candidate
 neighbors for closer ones iteratively. Despite some promising results, there
 are mainly two problems with these approaches: 1) These approaches tend to
-converge to local optima. 2) Constructing a \{k\}NN graph is time consuming. We
+converge to local optima. 2) Constructing a \\{k\\}NN graph is time consuming. We
 find that these two problems can be nicely solved when we provide a good
 initialization for NN-expansion. In this paper, we propose EFANNA, an extremely
-fast approximate nearest neighbor search algorithm based on \{k\}NN Graph. Efanna
+fast approximate nearest neighbor search algorithm based on \\{k\\}NN Graph. Efanna
 nicely combines the advantages of hierarchical structure based methods and
 nearest-neighbor-graph based methods. Extensive experiments have shown that
 EFANNA outperforms the state-of-art algorithms both on approximate nearest

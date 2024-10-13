@@ -17,8 +17,8 @@ process, due to high construction time, RAM or external memory usage. We
 revisit a simple algorithm and show that it is highly competitive with the
 state of the art, especially in terms of construction time and memory usage. We
 provide a parallel C++ implementation called BBhash. It is capable of creating
-a minimal perfect hash function of \{10^{10}\} elements in less than 7 minutes
+a minimal perfect hash function of \\{10^{10}\\} elements in less than 7 minutes
 using 8 threads and 5 GB of memory, and the resulting function uses 3.7
 bits/element. To the best of our knowledge, this is also the first
 implementation that has been successfully tested on an input of cardinality
-\{10^{12}\}. Source code: https://github.com/rizkg/BBHash
+\\{10^{12}\\}. Source code: https://github.com/rizkg/BBHash

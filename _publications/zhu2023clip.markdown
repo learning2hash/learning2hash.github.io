@@ -7,7 +7,7 @@ year: 2023
 bibkey: zhu2023clip
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2308.11797"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Unsupervised']
 ---
 The multi-modal hashing method is widely used in multimedia retrieval. It can
 fuse multi-source data to generate binary hash code. However, the current

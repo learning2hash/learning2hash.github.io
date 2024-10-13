@@ -23,5 +23,5 @@ also likely to be near the query. Experimental results on searching over large
 scale datasets (SIFT, GIST and HOG) show that our approach outperforms
 state-of-the-art ANN search algorithms in terms of efficiency and accuracy. The
 combination of our approach with the IVFADC system also shows superior
-performance over the BIGANN dataset of \{1\} billion SIFT features compared with
+performance over the BIGANN dataset of \\{1\\} billion SIFT features compared with
 the best previously published result.

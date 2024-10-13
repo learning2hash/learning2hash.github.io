@@ -11,9 +11,9 @@ tags: ['ARXIV', 'Independent', 'Quantisation']
 ---
 We study efficient mechanisms for differentially private kernel density
 estimation (DP-KDE). Prior work for the Gaussian kernel described algorithms
-that run in time exponential in the number of dimensions \{d\}. This paper breaks
+that run in time exponential in the number of dimensions \\{d\\}. This paper breaks
 the exponential barrier, and shows how the KDE can privately be approximated in
-time linear in \{d\}, making it feasible for high-dimensional data. We also
+time linear in \\{d\\}, making it feasible for high-dimensional data. We also
 present improved bounds for low-dimensional data.
   Our results are obtained through a general framework, which we term Locality
 Sensitive Quantization (LSQ), for constructing private KDE mechanisms where

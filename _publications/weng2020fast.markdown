@@ -11,10 +11,10 @@ tags: ['ARXIV']
 ---
 Weighted Hamming distance, as a similarity measure between binary codes and
 binary queries, provides superior accuracy in search tasks than Hamming
-distance. However, how to efficiently and accurately find \{K\} binary codes that
+distance. However, how to efficiently and accurately find \\{K\\} binary codes that
 have the smallest weighted Hamming distance to the query remains an open issue.
 In this paper, a fast search algorithm is proposed to perform the
-non-exhaustive search for \{K\} nearest binary codes by weighted Hamming
+non-exhaustive search for \\{K\\} nearest binary codes by weighted Hamming
 distance. By using binary codes as direct bucket indices in a hash table, the
 search algorithm generates a sequence to probe the buckets based on the
 independence characteristic of the weights for each bit. Furthermore, a fast

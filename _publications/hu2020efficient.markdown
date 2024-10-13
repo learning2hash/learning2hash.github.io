@@ -18,10 +18,10 @@ multiple weighted distance functions in high-dimensional spaces. This paper
 considers the important problem of supporting efficient approximate nearest
 neighbor search for multiple weighted distance functions in high-dimensional
 spaces. To the best of our knowledge, prior work can only solve the problem for
-the \{l_2\} distance. However, numerous studies have shown that the \{l_p\}
-distance with \{p\in(0,2)\} could be more effective than the \{l_2\} distance in
+the \\{l_2\\} distance. However, numerous studies have shown that the \\{l_p\\}
+distance with \\{p\in(0,2)\\} could be more effective than the \\{l_2\\} distance in
 high-dimensional spaces. We propose a novel method, WLSH, to address the
-problem for the \{l_p\} distance for \{p\in(0,2]\}. WLSH takes the LSH approach and
+problem for the \\{l_p\\} distance for \\{p\in(0,2]\\}. WLSH takes the LSH approach and
 can theoretically guarantee both the efficiency of processing queries and the
 accuracy of query results while minimizing the required total number of hash
 tables. We conduct extensive experiments on synthetic and real data sets, and

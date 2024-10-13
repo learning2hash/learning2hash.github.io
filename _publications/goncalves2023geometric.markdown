@@ -9,14 +9,14 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2311.14082"}
 tags: ['ARXIV', 'Independent', 'LSH']
 ---
-A set of vectors \{S \subseteq \mathbb{R}^d\} is
-\{(k_1,\epsilon)\}-clusterable if there are \{k_1\} balls of radius
-\{\epsilon\} that cover \{S\}. A set of vectors \{S \subseteq \mathbb{R}^d\} is
-\{(k_2,\delta)\}-far from being clusterable if there are at least \{k_2\} vectors
-in \{S\}, with all pairwise distances at least \{\delta\}. We propose a
+A set of vectors \\{S \subseteq \mathbb{R}^d\\} is
+\\{(k_1,\epsilon)\\}-clusterable if there are \\{k_1\\} balls of radius
+\\{\epsilon\\} that cover \\{S\\}. A set of vectors \\{S \subseteq \mathbb{R}^d\\} is
+\\{(k_2,\delta)\\}-far from being clusterable if there are at least \\{k_2\\} vectors
+in \\{S\\}, with all pairwise distances at least \\{\delta\\}. We propose a
 probabilistic algorithm to distinguish between these two cases. Our algorithm
 reaches a decision by only looking at the extreme values of a scalar valued
-hash function, defined by a random field, on \{S\}; hence, it is especially
+hash function, defined by a random field, on \\{S\\}; hence, it is especially
 suitable in distributed and online settings. An important feature of our method
 is that the algorithm is oblivious to the number of vectors: in the online
 setting, for example, the algorithm stores only a constant number of scalars,

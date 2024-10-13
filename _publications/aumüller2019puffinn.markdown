@@ -10,7 +10,7 @@ additional_links:
 tags: ['ARXIV', 'Independent', 'LSH']
 ---
 We present PUFFINN, a parameterless LSH-based index for solving the
-\{k\}-nearest neighbor problem with probabilistic guarantees. By parameterless we
+\\{k\\}-nearest neighbor problem with probabilistic guarantees. By parameterless we
 mean that the user is only required to specify the amount of memory the index
 is supposed to use and the result quality that should be achieved. The index
 combines several heuristic ideas known in the literature. By small adaptions to

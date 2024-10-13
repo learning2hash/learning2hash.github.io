@@ -11,16 +11,16 @@ tags: ['ARXIV']
 ---
 The approximate string matching is a fundamental and recurrent problem that
 arises in most computer science fields. This problem can be defined as follows:
-  Let \{D=\{x_1,x_2,\ldots x_d\}\} be a set of \{d\} words defined on an alphabet
-\{\Sigma\}, let \{q\} be a query defined also on \{\Sigma\}, and let \{k\} be a
-positive integer. We want to build a data structure on \{D\} capable of answering
-the following query: find all words in \{D\} that are at most different from the
-query word \{q\} with \{k\} errors.
+  Let \\{D=\{x_1,x_2,\ldots x_d\}\\} be a set of \\{d\\} words defined on an alphabet
+\\{\Sigma\\}, let \\{q\\} be a query defined also on \\{\Sigma\\}, and let \\{k\\} be a
+positive integer. We want to build a data structure on \\{D\\} capable of answering
+the following query: find all words in \\{D\\} that are at most different from the
+query word \\{q\\} with \\{k\\} errors.
   In this thesis, we study the approximate string matching methods in
 dictionaries, texts, and indexes, to propose practical methods that solve this
 problem efficiently. We explore this problem in three complementary directions:
   1) The approximate string matching in the dictionary. We propose two
-solutions to this problem, the first one uses hash tables for \{k \geq 2\}, the
+solutions to this problem, the first one uses hash tables for \\{k \geq 2\\}, the
 second uses the Trie and reverse Trie, and it is restricted to (k = 1). The two
 solutions are adaptable, without loss of performance, to the approximate string
 matching in a text.

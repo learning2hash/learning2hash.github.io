@@ -22,7 +22,7 @@ When a query vector is given to the system, associative memories are polled to
 identify which one contain the closest match. Then an exhaustive search is
 conducted only on the part of vectors stored in the selected associative
 memory. We study the effectiveness of the system when messages to store are
-generated from i.i.d. uniform \{\pm\}1 random variables or 0-1 sparse i.i.d.
+generated from i.i.d. uniform \\{\pm\\}1 random variables or 0-1 sparse i.i.d.
 random variables. We also conduct experiment on both synthetic data and real
 data and show it is possible to achieve interesting trade-offs between
 complexity and accuracy.

@@ -26,5 +26,5 @@ implementations either fail on the presented scale or are orders of magnitude
 slower than FLASH. FLASH is capable of computing an approximate k-NN graph,
 from scratch, over the full webspam dataset (1.3 billion nonzeros) in less than
 10 seconds. Computing a full k-NN graph in less than 10 seconds on the webspam
-dataset, using brute-force (\{n^2D\}), will require at least 20 teraflops. We
+dataset, using brute-force (\\{n^2D\\}), will require at least 20 teraflops. We
 provide CPU and GPU implementations of FLASH for replicability of our results.

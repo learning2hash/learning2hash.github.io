@@ -25,6 +25,6 @@ embedding and sequential attribute learning are modeled simultaneously.
 Sequential attribute learning not only provides the semantic guidance for
 embedding, but also generates rich attention on discriminative local details
 (\textit{e.g.,} black buttons) of clothing items without requiring extra
-landmark labels. This leads to promising performance and 306\{\times\} boost on
+landmark labels. This leads to promising performance and 306\\{\times\\} boost on
 efficiency when compared with the state-of-the-art models, which is
 demonstrated through rigorous experiments on two public fashion datasets.

@@ -7,7 +7,7 @@ year: 2016
 bibkey: lai2016instance
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1603.03234"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
 ---
 Similarity-preserving hashing is a commonly used method for nearest neighbour
 search in large-scale image retrieval. For image retrieval, deep-networks-based

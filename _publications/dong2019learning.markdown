@@ -9,7 +9,7 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1901.08544"}
 tags: ['ARXIV', 'FOCS', 'Graph', 'LSH', 'Quantisation', 'Supervised']
 ---
-Space partitions of \{\mathbb{R}^d\} underlie a vast and important class of
+Space partitions of \\{\mathbb{R}^d\\} underlie a vast and important class of
 fast nearest neighbor search (NNS) algorithms. Inspired by recent theoretical
 work on NNS for general metric spaces [Andoni, Naor, Nikolov, Razenshteyn,
 Waingarten STOC 2018, FOCS 2018], we develop a new framework for building space

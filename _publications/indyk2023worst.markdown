@@ -20,5 +20,5 @@ approximation ratio and poly-logarithmic query time, on data sets with bounded
 DiskANN with "fast preprocessing", HNSW and NSG, we present a family of
 instances on which the empirical query time required to achieve a "reasonable"
 accuracy is linear in instance size. For example, for DiskANN, we show that the
-query procedure can take at least \{0.1 n\} steps on instances of size \{n\} before
-it encounters any of the \{5\} nearest neighbors of the query.
+query procedure can take at least \\{0.1 n\\} steps on instances of size \\{n\\} before
+it encounters any of the \\{5\\} nearest neighbors of the query.

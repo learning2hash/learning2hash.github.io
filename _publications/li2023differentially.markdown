@@ -17,9 +17,9 @@ the original data (which would be prohibitive). Another popular use of MinHash
 is for building hash tables to enable sub-linear time approximate near neighbor
 (ANN) search. MinHash has also been used as a tool for building large-scale
 machine learning systems. The standard implementation of MinHash requires
-applying \{K\} random permutations. In comparison, the method of one permutation
+applying \\{K\\} random permutations. In comparison, the method of one permutation
 hashing (OPH), is an efficient alternative of MinHash which splits the data
-vectors into \{K\} bins and generates hash values within each bin. OPH is
+vectors into \\{K\\} bins and generates hash values within each bin. OPH is
 substantially more efficient and also more convenient to use.
   In this paper, we combine the differential privacy (DP) with OPH (as well as
 MinHash), to propose the DP-OPH framework with three variants: DP-OPH-fix,
@@ -32,6 +32,6 @@ merits of DP-OPH, and guide the choice of the proper variant in different
 practical scenarios. Our technique is also extended to bin-wise consistent
 weighted sampling (BCWS) to develop a new DP algorithm called DP-BCWS for
 non-binary data. Experiments on classification tasks demonstrate that DP-BCWS
-is able to achieve excellent utility at around \{\epsilon = 5\sim 10\}, where
-\{\epsilon\} is the standard parameter in the language of \{(\epsilon,
-\delta)\}-DP.
+is able to achieve excellent utility at around \\{\epsilon = 5\sim 10\\}, where
+\\{\epsilon\\} is the standard parameter in the language of \\{(\epsilon,
+\delta)\\}-DP.

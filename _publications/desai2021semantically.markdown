@@ -23,7 +23,7 @@ the overlap in semantic information. Our formulation admits a practical and
 efficient randomized solution with Locality sensitive hashing based Memory
 Allocation (LMA). We demonstrate a significant reduction in the memory
 footprint while maintaining performance. In particular, our LMA embeddings
-achieve the same performance compared to standard embeddings with a 16\{\times\}
+achieve the same performance compared to standard embeddings with a 16\\{\times\\}
 reduction in memory footprint. Moreover, LMA achieves an average improvement of
 over 0.003 AUC across different memory regimes than standard DLRM models on
 Criteo and Avazu datasets

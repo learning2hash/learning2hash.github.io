@@ -7,7 +7,7 @@ year: 2024
 bibkey: wang2024sequential
 additional_links:
   - {name: "Paper", url: "http://machinelearning.wustl.edu/mlpapers/paper_files/icml2010_WangKC10.pdf"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Unsupervised']
 ---
 Hashing based Approximate Nearest Neighbor
 (ANN) search has attracted much attention

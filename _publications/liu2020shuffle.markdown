@@ -17,7 +17,7 @@ methods failed to capture the precise code conflicts in the full domain. A
 novel relaxation method called Shuffle and Learn is proposed to tackle code
 conflicts in the unsupervised hash. Approximated derivatives for joint
 probability and the gradients for the binary layer are introduced to bridge the
-update from the hash to the input. Proof on \{\epsilon\}-Convergence of joint
+update from the hash to the input. Proof on \\{\epsilon\\}-Convergence of joint
 probability with approximated derivatives is provided to guarantee the
 preciseness on update applied on the mutual information. The proposed algorithm
 is carried out with iterative global updates to minimize mutual information,

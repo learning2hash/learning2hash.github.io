@@ -18,10 +18,10 @@ high accuracy while maintaining load balance and scalability in distributed
 settings. We propose a novel approach called IRLI (pronounced `early'), which
 iteratively partitions the items by learning the relevant buckets directly from
 the query-item relevance data. Furthermore, IRLI employs a superior
-power-of-\{k\}-choices based load balancing strategy. We mathematically show that
+power-of-\\{k\\}-choices based load balancing strategy. We mathematically show that
 IRLI retrieves the correct item with high probability under very natural
 assumptions and provides superior load balancing. IRLI surpasses the best
-baseline's precision on multi-label classification while being \{5x\} faster on
+baseline's precision on multi-label classification while being \\{5x\\} faster on
 inference. For near-neighbor search tasks, the same method outperforms the
 state-of-the-art Learned Hashing approach NeuralLSH by requiring only ~
 {1/6}^th of the candidates for the same recall. IRLI is both data and model

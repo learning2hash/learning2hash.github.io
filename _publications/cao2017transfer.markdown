@@ -22,7 +22,7 @@ database points to be within a small Hamming ball. As a consequence, transfer
 retrieval performance within Hamming Radius 2 degrades significantly in
 existing hashing methods. This paper presents Transfer Adversarial Hashing
 (TAH), a new hybrid deep architecture that incorporates a pairwise
-\{t\}-distribution cross-entropy loss to learn concentrated hash codes and an
+\\{t\\}-distribution cross-entropy loss to learn concentrated hash codes and an
 adversarial network to align the data distributions between the source and
 target domains. TAH can generate compact transfer hash codes for efficient
 image retrieval on both source and target domains. Comprehensive experiments

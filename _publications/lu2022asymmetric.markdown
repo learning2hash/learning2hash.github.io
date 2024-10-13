@@ -7,7 +7,7 @@ year: 2022
 bibkey: lu2022asymmetric
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2206.12592"}
-tags: ['ARXIV', 'Cross Modal', 'Graph', 'Supervised']
+tags: ['ARXIV', 'Cross Modal', 'Graph', 'Unsupervised']
 ---
 Thanks to the efficient retrieval speed and low storage consumption, learning
 to hash has been widely used in visual retrieval tasks. However, existing

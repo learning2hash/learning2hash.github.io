@@ -21,7 +21,7 @@ transformers. Our findings highlight the superiority of using
 locality-sensitive hashing (LSH), especially OR & AND-construction LSH, in
 kernel approximation for large-scale point cloud data with local inductive
 bias. Based on this finding, we propose LSH-based Efficient Point Transformer
-(HEPT), which combines E\{^2\}LSH with OR & AND constructions and is built upon
+(HEPT), which combines E\\{^2\\}LSH with OR & AND constructions and is built upon
 regular computations. HEPT demonstrates remarkable performance on two critical
 yet time-consuming HEP tasks, significantly outperforming existing GNNs and
 transformers in accuracy and computational speed, marking a significant

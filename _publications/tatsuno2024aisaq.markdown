@@ -15,7 +15,7 @@ datasets using both of RAM and storage. Despite it claims to save memory usage
 by loading compressed vectors by product quantization (PQ), its memory usage
 increases in proportion to the scale of datasets. In this paper, we propose
 All-in-Storage ANNS with Product Quantization (AiSAQ), which offloads the
-compressed vectors to storage. Our method achieves \{\sim\}10 MB memory usage in
+compressed vectors to storage. Our method achieves \\{\sim\\}10 MB memory usage in
 query search even with billion-scale datasets with minor performance
 degradation. AiSAQ also reduces the index load time before query search, which
 enables the index switch between muitiple billion-scale datasets and

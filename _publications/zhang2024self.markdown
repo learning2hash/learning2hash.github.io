@@ -7,7 +7,7 @@ year: 2024
 bibkey: zhang2024self
 additional_links:
   - {name: "Paper", url: "http://www.dcs.bbk.ac.uk/~dell/publications/dellzhang_sigir2010.pdf"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Unsupervised']
 ---
 The ability of fast similarity search at large scale is of great
 importance to many Information Retrieval (IR) applications.

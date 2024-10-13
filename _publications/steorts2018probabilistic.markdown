@@ -12,7 +12,7 @@ tags: ['Independent', 'LSH', 'Survey Paper']
 Entity resolution seeks to merge databases as to remove duplicate entries
 where unique identifiers are typically unknown. We review modern blocking
 approaches for entity resolution, focusing on those based upon locality
-sensitive hashing (LSH). First, we introduce \{k\}-means locality sensitive
+sensitive hashing (LSH). First, we introduce \\{k\\}-means locality sensitive
 hashing (KLSH), which is based upon the information retrieval literature and
 clusters similar records into blocks using a vector-space representation and
 projections. Second, we introduce a subquadratic variant of LSH to the

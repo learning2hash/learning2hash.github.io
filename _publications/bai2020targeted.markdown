@@ -21,6 +21,6 @@ representative of the set of hash codes of objects with the target label, whose
 optimality guarantee is also theoretically derived. To balance the performance
 and perceptibility, we propose to minimize the Hamming distance between the
 hash code of the adversarial example and the anchor code under the
-\{\ell^\infty\} restriction on the perturbation. Extensive experiments verify
+\\{\ell^\infty\\} restriction on the perturbation. Extensive experiments verify
 that DHTA is effective in attacking both deep hashing based image retrieval and
 video retrieval.

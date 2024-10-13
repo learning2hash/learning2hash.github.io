@@ -7,7 +7,7 @@ year: 2017
 bibkey: pachori2017hashing
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1702.01933"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised']
+tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Unsupervised']
 ---
 Techniques to learn hash codes which can store and retrieve large dimensional
 multimedia data efficiently have attracted broad research interests in the

@@ -21,8 +21,8 @@ dataset yields a huge retrieval space and high search time complexity.
 neighbor search framework which i) projects the data to a subspace based
 spectral analysis which eliminates the influence of noise; ii) partitions the
 training dataset to different groups in order to reduce the search space.
-Specifically, the retrieval space is reduced from \{O(n)\} to \{O(log n)\} (where
-\{n\} is the number of data points in the training dataset). We prove that the
+Specifically, the retrieval space is reduced from \\{O(n)\\} to \\{O(log n)\\} (where
+\\{n\\} is the number of data points in the training dataset). We prove that the
 retrieved nearest neighbor in the projected subspace is the same as the one in
 the original feature space. We demonstrate the outstanding performance of our
 framework on real-world natural language processing tasks.

@@ -12,14 +12,14 @@ tags: ['ARXIV', 'Survey Paper']
 Both astronomy and biology are experiencing explosive growth of data,
 resulting in a "big data" problem that stands in the way of a "big data"
 opportunity for discovery. One common question asked of such data is that of
-approximate search (\{\rho-\}nearest neighbors search). We present a hierarchical
+approximate search (\\{\rho-\\}nearest neighbors search). We present a hierarchical
 search algorithm for such data sets that takes advantage of particular
 geometric properties apparent in both astronomical and biological data sets,
 namely the metric entropy and fractal dimensionality of the data. We present
 CHESS (Clustered Hierarchical Entropy-Scaling Search), a search tool with
-virtually no loss in specificity or sensitivity, demonstrating a \{13.6\times\}
+virtually no loss in specificity or sensitivity, demonstrating a \\{13.6\times\\}
 speedup over linear search on the Sloan Digital Sky Survey's APOGEE data set
-and a \{68\times\} speedup on the GreenGenes 16S metagenomic data set, as well as
+and a \\{68\times\\} speedup on the GreenGenes 16S metagenomic data set, as well as
 asymptotically fewer distance comparisons on APOGEE when compared to the
 FALCONN locality-sensitive hashing library. CHESS demonstrates an asymptotic
 complexity not directly dependent on data set size, and is in practice at least

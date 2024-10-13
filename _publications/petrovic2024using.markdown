@@ -7,7 +7,7 @@ year: 2024
 bibkey: petrovic2024using
 additional_links:
   - {name: "Paper", url: "http://homepages.inf.ed.ac.uk/miles/papers/naacl12.pdf"}
-tags: ['ARXIV', 'LSH', 'Supervised']
+tags: ['ARXIV', 'LSH', 'Unsupervised']
 ---
 First story detection (FSD) involves identifying
 first stories about events from a continuous

@@ -11,9 +11,9 @@ tags: ['ARXIV', 'Independent', 'LSH', 'Streaming Data']
 ---
 We present the first sublinear memory sketch that can be queried to find the
 nearest neighbors in a dataset. Our online sketching algorithm compresses an N
-element dataset to a sketch of size \{O(N^b log^3 N)\} in \{O(N^{(b+1)} log^3
-N)\} time, where \{b < 1\}. This sketch can correctly report the nearest neighbors
-of any query that satisfies a stability condition parameterized by \{b\}. We
+element dataset to a sketch of size \\{O(N^b log^3 N)\\} in \\{O(N^{(b+1)} log^3
+N)\\} time, where \\{b < 1\\}. This sketch can correctly report the nearest neighbors
+of any query that satisfies a stability condition parameterized by \\{b\\}. We
 achieve sublinear memory performance on stable queries by combining recent
 advances in locality sensitive hash (LSH)-based estimators, online kernel
 density estimation, and compressed sensing. Our theoretical results shed new

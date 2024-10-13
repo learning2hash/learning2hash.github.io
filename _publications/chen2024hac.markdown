@@ -28,7 +28,7 @@ high-precision quantization of these attributes for improved fidelity
 restoration. Additionally, we incorporate an adaptive masking strategy to
 eliminate invalid Gaussians and anchors. Importantly, our work is the pioneer
 to explore context-based compression for 3DGS representation, resulting in a
-remarkable size reduction of over \{75\times\} compared to vanilla 3DGS, while
-simultaneously improving fidelity, and achieving over \{11\times\} size reduction
+remarkable size reduction of over \\{75\times\\} compared to vanilla 3DGS, while
+simultaneously improving fidelity, and achieving over \\{11\times\\} size reduction
 over SOTA 3DGS compression approach Scaffold-GS. Our code is available here:
 https://github.com/YihangChen-ee/HAC

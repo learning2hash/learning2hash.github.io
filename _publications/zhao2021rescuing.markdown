@@ -12,8 +12,8 @@ tags: ['ARXIV', 'Image Retrieval', 'Quantisation']
 Deep hashing methods have shown great retrieval accuracy and efficiency in
 large-scale image retrieval. How to optimize discrete hash bits is always the
 focus in deep hashing methods. A common strategy in these methods is to adopt
-an activation function, e.g. \{\operatorname{sigmoid}(\cdot)\} or
-\{\operatorname{tanh}(\cdot)\}, and minimize a quantization loss to approximate
+an activation function, e.g. \\{\operatorname{sigmoid}(\cdot)\\} or
+\\{\operatorname{tanh}(\cdot)\\}, and minimize a quantization loss to approximate
 discrete values. However, this paradigm may make more and more hash bits stuck
 into the wrong saturated area of the activation functions and never escaped. We
 call this problem "Dead Bits Problem~(DBP)". Besides, the existing quantization

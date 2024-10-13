@@ -7,7 +7,7 @@ year: 2023
 bibkey: wei2023attribute
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2311.12894"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
 ---
 Our work focuses on tackling large-scale fine-grained image retrieval as
 ranking the images depicting the concept of interests (i.e., the same

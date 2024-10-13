@@ -19,4 +19,4 @@ requirements the system is suitable for mobile applications and distributed
 databases, associating each filter to a distributed portion of the database.
 Experimental validation has been performed on three standard image retrieval
 datasets, outperforming state-of-the-art hashing methods in terms of precision,
-while the proposed indexing method obtains a \{2\times\} speedup.
+while the proposed indexing method obtains a \\{2\times\\} speedup.

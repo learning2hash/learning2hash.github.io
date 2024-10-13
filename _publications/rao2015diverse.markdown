@@ -24,5 +24,5 @@ of labels for a given document in real-time. Moreover, we introduce a new
 notion to simultaneously evaluate a method's performance for both the precision
 and diversity measures. Finally, we present empirical results on several
 different retrieval tasks and show that our method retrieves diverse and
-accurate images/labels while ensuring \{100x\}-speed-up over the existing diverse
+accurate images/labels while ensuring \\{100x\\}-speed-up over the existing diverse
 retrieval approaches.

@@ -10,14 +10,14 @@ additional_links:
 tags: ['ARXIV', 'Independent']
 ---
 The aim of this paper is two-fold: firstly, to present subspace embedding
-properties for \{s\}-hashing sketching matrices, with \{s\geq 1\}, that are optimal
-in the projection dimension \{m\} of the sketch, namely, \{m=\mathcal{O}(d)\},
-where \{d\} is the dimension of the subspace. A diverse set of results are
+properties for \\{s\\}-hashing sketching matrices, with \\{s\geq 1\\}, that are optimal
+in the projection dimension \\{m\\} of the sketch, namely, \\{m=\mathcal{O}(d)\\},
+where \\{d\\} is the dimension of the subspace. A diverse set of results are
 presented that address the case when the input matrix has sufficiently low
-coherence (thus removing the \{log^2 d\} factor dependence in \{m\}, in the
+coherence (thus removing the \\{log^2 d\\} factor dependence in \\{m\\}, in the
 low-coherence result of Bourgain et al (2015) at the expense of a smaller
-coherence requirement); how this coherence changes with the number \{s\} of
-column nonzeros (allowing a scaling of \{\sqrt{s}\} of the coherence bound), or
+coherence requirement); how this coherence changes with the number \\{s\\} of
+column nonzeros (allowing a scaling of \\{\sqrt{s}\\} of the coherence bound), or
 is reduced through suitable transformations (when considering hashed -- instead
 of subsampled -- coherence reducing transformations such as randomised
 Hadamard). Secondly, we apply these general hashing sketching results to the

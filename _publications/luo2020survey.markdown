@@ -7,7 +7,7 @@ year: 2020
 bibkey: luo2020survey
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2003.03369"}
-tags: ['ARXIV', 'Deep Learning', 'Quantisation', 'Supervised', 'Survey Paper']
+tags: ['ARXIV', 'Deep Learning', 'Quantisation', 'Survey Paper', 'Unsupervised']
 ---
 Nearest neighbor search aims to obtain the samples in the database with the
 smallest distances from them to the queries, which is a basic task in a range

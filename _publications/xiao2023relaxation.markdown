@@ -7,13 +7,13 @@ year: 2023
 bibkey: xiao2023relaxation
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2308.10506"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Unsupervised']
 ---
 This paper focuses on a class of binary orthogonal optimization problems
 frequently arising in semantic hashing. Consider that this class of problems
 may have an empty feasible set, rendering them not well-defined. We introduce
 an equivalent model involving a restricted Stiefel manifold and a matrix box
-set, and then investigate its penalty problems induced by the \{\ell_1\}-distance
+set, and then investigate its penalty problems induced by the \\{\ell_1\\}-distance
 from the box set and its Moreau envelope. The two penalty problems are always
 well-defined. Moreover, they serve as the global exact penalties provided that
 the original feasible set is non-empty. Notably, the penalty problem induced by

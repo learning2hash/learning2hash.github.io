@@ -16,9 +16,9 @@ coding methods traditionally suffer from high computation and storage costs in
 such a scenario. To address this problem, we propose Circulant Binary Embedding
 (CBE) which generates binary codes by projecting the data with a circulant
 matrix. The circulant structure allows us to use Fast Fourier Transform
-algorithms to speed up the computation. For obtaining \{k\}-bit binary codes from
-\{d\}-dimensional data, this improves the time complexity from \{O(dk)\} to
-\{O(dlog{d})\}, and the space complexity from \{O(dk)\} to \{O(d)\}.
+algorithms to speed up the computation. For obtaining \\{k\\}-bit binary codes from
+\\{d\\}-dimensional data, this improves the time complexity from \\{O(dk)\\} to
+\\{O(dlog{d})\\}, and the space complexity from \\{O(dk)\\} to \\{O(d)\\}.
   We study two settings, which differ in the way we choose the parameters of
 the circulant matrix. In the first, the parameters are chosen randomly and in
 the second, the parameters are learned using the data. For randomized CBE, we

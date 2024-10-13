@@ -22,4 +22,4 @@ implementing the whole system using fully-fused CUDA kernels with a focus on
 minimizing wasted bandwidth and compute operations. We achieve a combined
 speedup of several orders of magnitude, enabling training of high-quality
 neural graphics primitives in a matter of seconds, and rendering in tens of
-milliseconds at a resolution of \{{1920\!\times\!1080}\}.
+milliseconds at a resolution of \\{{1920\!\times\!1080}\\}.

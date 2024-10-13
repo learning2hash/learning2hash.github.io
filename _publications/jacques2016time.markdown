@@ -24,11 +24,11 @@ of fast quantized embeddings with small distortions. This implication is made
 possible by applying right after the linear map an additive and random "dither"
 that stabilizes the impact of the uniform scalar quantization operator applied
 afterwards. For different categories of RIP matrices, i.e., for different
-linear embeddings of a metric space \{(\mathcal K \subset \mathbb R^n, \ell_q)\}
-in \{(\mathbb R^m, \ell_p)\} with \{p,q \geq 1\}, we derive upper bounds on the
+linear embeddings of a metric space \\{(\mathcal K \subset \mathbb R^n, \ell_q)\\}
+in \\{(\mathbb R^m, \ell_p)\\} with \\{p,q \geq 1\\}, we derive upper bounds on the
 additive distortion induced by quantization, showing that it decays either when
-the embedding dimension \{m\} increases or when the distance of a pair of
-embedded vectors in \{\mathcal K\} decreases. Finally, we develop a novel
+the embedding dimension \\{m\\} increases or when the distance of a pair of
+embedded vectors in \\{\mathcal K\\} decreases. Finally, we develop a novel
 "bi-dithered" quantization scheme, which allows for a reduced distortion that
 decreases when the embedding dimension grows and independently of the
 considered pair of vectors.

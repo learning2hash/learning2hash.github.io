@@ -14,15 +14,15 @@ including nearest-neighbor search, compressed sensing and linear algebra in the
 streaming model. In this work we obtain a {\em sparse} version of the
 fundamental tool in dimension reduction --- the Johnson--Lindenstrauss
 transform. Using hashing and local densification, we construct a sparse
-projection matrix with just \{\tilde{O}(\frac{1}{\epsilon})\} non-zero entries
+projection matrix with just \\{\tilde{O}(\frac{1}{\epsilon})\\} non-zero entries
 per column. We also show a matching lower bound on the sparsity for a large
 class of projection matrices. Our bounds are somewhat surprising, given the
-known lower bounds of \{Ω(\frac{1}{\epsilon^2})\} both on the number of rows
+known lower bounds of \\{Ω(\frac{1}{\epsilon^2})\\} both on the number of rows
 of any projection matrix and on the sparsity of projection matrices generated
 by natural constructions.
-  Using this, we achieve an \{\tilde{O}(\frac{1}{\epsilon})\} update time per
-non-zero element for a \{(1\pm\epsilon)\}-approximate projection, thereby
-substantially outperforming the \{\tilde{O}(\frac{1}{\epsilon^2})\} update time
+  Using this, we achieve an \\{\tilde{O}(\frac{1}{\epsilon})\\} update time per
+non-zero element for a \\{(1\pm\epsilon)\\}-approximate projection, thereby
+substantially outperforming the \\{\tilde{O}(\frac{1}{\epsilon^2})\\} update time
 required by prior approaches. A variant of our method offers the same
-guarantees for sparse vectors, yet its \{\tilde{O}(d)\} worst case running time
+guarantees for sparse vectors, yet its \\{\tilde{O}(d)\\} worst case running time
 matches the best approach of Ailon and Liberty.

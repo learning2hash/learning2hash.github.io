@@ -7,7 +7,7 @@ year: 2018
 bibkey: yeh2018representation
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1811.01557"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Unsupervised']
 ---
 Since its introduction, unsupervised representation learning has attracted a
 lot of attention from the research community, as it is demonstrated to be

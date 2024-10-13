@@ -19,7 +19,7 @@ however, they scale poorly with high-resolution data and high feature
 dimensions. We present an NN-based method which efficiently reduces the NN
 computations and introduces filtering in the NN fields (NNFs). A vector
 quantization step is introduced before the NN calculation to represent the
-template with \{k\} features, and the filter response over the NNFs is used to
+template with \\{k\\} features, and the filter response over the NNFs is used to
 compare the template and query distributions over the features. We show that
 state-of-the-art performance is achieved in low-resolution data, and our method
 outperforms previous methods at higher resolution.

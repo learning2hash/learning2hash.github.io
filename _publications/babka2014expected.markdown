@@ -14,8 +14,8 @@ placed into the bins using a random linear function in a finite field. The
 balls are chosen from a transformed interval. We show that in this setting the
 expected load of the most loaded bins is constant.
   This is an interesting fact because using fully random hash functions with
-the same class of input sets leads to an expectation of \{\Theta\left(\frac{log
-m}{log log m}\right)\} balls in most loaded bins where \{m\} is the number of
+the same class of input sets leads to an expectation of \\{\Theta\left(\frac{log
+m}{log log m}\right)\\} balls in most loaded bins where \\{m\\} is the number of
 balls and bins.
   Although the family of the functions is quite common the size of largest bins
 was not known even in this simple case.

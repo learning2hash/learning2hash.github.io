@@ -7,7 +7,7 @@ year: 2022
 bibkey: wu2022self
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2206.09806"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised']
+tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Unsupervised']
 ---
 Unsupervised image retrieval aims to learn an efficient retrieval system
 without expensive data annotations, but most existing methods rely heavily on

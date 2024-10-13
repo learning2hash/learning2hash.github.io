@@ -7,7 +7,7 @@ year: 2022
 bibkey: yu2022learning
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2201.13322"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Unsupervised']
 ---
 Learning to hash pictures a list-wise sorting problem. Its testing metrics,
 e.g., mean-average precision, count on a sorted candidate list ordered by

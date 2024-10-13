@@ -13,9 +13,9 @@ Hash tables are ubiquitous in computer science for efficient access to large
 datasets. However, there is always a need for approaches that offer compact
 memory utilisation without substantial degradation of lookup performance.
 Cuckoo hashing is an efficient technique of creating hash tables with high
-space utilisation and offer a guaranteed constant access time. We are given \{n\}
-locations and \{m\} items. Each item has to be placed in one of the \{k\ge2\}
-locations chosen by \{k\} random hash functions. By allowing more than one choice
+space utilisation and offer a guaranteed constant access time. We are given \\{n\\}
+locations and \\{m\\} items. Each item has to be placed in one of the \\{k\ge2\\}
+locations chosen by \\{k\\} random hash functions. By allowing more than one choice
 for a single item, cuckoo hashing resembles multiple choice allocations
 schemes. In addition it supports dynamically changing the location of an item
 among its possible locations. We propose and analyse an insertion algorithm for

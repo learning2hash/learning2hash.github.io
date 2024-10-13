@@ -11,7 +11,7 @@ tags: ['ARXIV', 'Graph', 'Independent']
 ---
 The paradigm of many choices has influenced significantly the design of
 efficient data structures and, most notably, hash tables. Cuckoo hashing is a
-technique that extends this concept. There,we are given a table with \{n\}
+technique that extends this concept. There,we are given a table with \\{n\\}
 locations, and we assume that each location can hold one item. Each item to be
 inserted chooses randomly k>1 locations and has to be placed in any one of
 them. How much load can cuckoo hashing handle before collisions prevent the

@@ -7,7 +7,7 @@ year: 2024
 bibkey: gong2024iterative
 additional_links:
   - {name: "Paper", url: "http://slazebni.cs.illinois.edu/publications/cvpr11_small_code.pdf"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+tags: ['ARXIV', 'Quantisation', 'Unsupervised']
 ---
 This paper addresses the problem of learning similarity preserving binary codes for efficient retrieval in large-scale image collections. We propose a simple and efficient alternating minimization scheme for finding a rotation of zerocentered data so as to minimize the quantization error of
 mapping this data to the vertices of a zero-centered binary

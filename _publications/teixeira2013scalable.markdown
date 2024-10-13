@@ -26,6 +26,6 @@ and multi-probing to limit memory usage. The proposed parallelization attained
 an efficiency of 90% in a distributed system with about 800 CPU cores. In
 particular, the original locality-aware data partition reduced the number of
 messages exchanged in 30%. Our parallel LSH was evaluated using the largest
-public dataset for similarity search (to the best of our knowledge) with \{10^9\}
+public dataset for similarity search (to the best of our knowledge) with \\{10^9\\}
 128-d SIFT descriptors extracted from Web images. This is two orders of
 magnitude larger than datasets that previous LSH parallelizations could handle.

@@ -19,11 +19,11 @@ However, the performances of such binary encoded descriptors, especially with
 short code (e.g., 32 and 64 bits), are hardly satisfactory given the sparse
 binary space. To strike a balance between the model accuracy and efficiency, we
 propose a novel Sub-space Consistency Regularization (SCR) algorithm that can
-speed up the ReID procedure by \{0.25\} times than real-value features under the
+speed up the ReID procedure by \\{0.25\\} times than real-value features under the
 same dimensions whilst maintaining a competitive accuracy, especially under
 short codes. SCR transforms real-value features vector (e.g., 2048 float32)
 with short binary codes (e.g., 64 bits) by first dividing real-value features
-vector into \{M\} sub-spaces, each with \{C\} clustered centroids. Thus the
+vector into \\{M\\} sub-spaces, each with \\{C\\} clustered centroids. Thus the
 distance between two samples can be expressed as the summation of the
 respective distance to the centroids, which can be sped up by offline
 calculation and maintained via a look-up table. On the other side, these
