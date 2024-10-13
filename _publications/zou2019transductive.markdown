@@ -9,8 +9,7 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1911.07192"}
 tags: ['Image Retrieval', 'Quantisation', 'Supervised']
 ---
-Hash coding has been widely used in approximate nearest neighbor search for
-large-scale image retrieval. Given semantic annotations such as class labels
+Hash coding has been widely used in approximate nearest neighbor search for large-scale image retrieval. Given semantic annotations such as class labels
 and pairwise similarities of the training data, hashing methods can learn and
 generate effective and compact binary codes. While some newly introduced images
 may contain undefined semantic labels, which we call unseen images, zeor-shot
