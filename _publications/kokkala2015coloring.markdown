@@ -9,14 +9,9 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1509.06913"}
 tags: ['ARXIV']
 ---
-<p>Let <span class="math inline">\(\chi_{\bar{k}}(n)\)</span> be the
-number of colors required to color the <span
-class="math inline">\(n\)</span>-dimensional hypercube such that no two
-vertices with the same color are at a distance at most <span
-class="math inline">\(k\)</span>. In other words, <span
-class="math inline">\(\chi_{\bar{k}}(n)\)</span> is the minimum number
-of binary codes with minimum distance at least <span
-class="math inline">\(k+1\)</span> required to partition the <span
-class="math inline">\(n\)</span>-dimensional Hamming space. By giving an
-explicit coloring, it is shown that <span
-class="math inline">\(\chi_{\bar{2}}(8)=13\)</span>.</p>
+Let \{\chi_{\bar{k}}(n)\} be the number of colors required to color the
+\{n\}-dimensional hypercube such that no two vertices with the same color are at
+a distance at most \{k\}. In other words, \{\chi_{\bar{k}}(n)\} is the minimum
+number of binary codes with minimum distance at least \{k+1\} required to
+partition the \{n\}-dimensional Hamming space. By giving an explicit coloring, it
+is shown that \{\chi_{\bar{2}}(8)=13\}.

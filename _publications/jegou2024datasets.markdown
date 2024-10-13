@@ -9,5 +9,4 @@ additional_links:
   - {name: "Paper", url: "http://corpus-texmex.irisa.fr/"}
 tags: ['ARXIV']
 ---
-<p>BIGANN consists of SIFT descriptors applied to images from extracted
-from a large image dataset.</p>
+BIGANN consists of SIFT descriptors applied to images from extracted from a large image dataset.

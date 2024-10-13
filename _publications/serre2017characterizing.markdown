@@ -9,10 +9,8 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1710.08029"}
 tags: ['ARXIV', 'Independent']
 ---
-<p>We propose a way of characterizing the algorithms computing a
-Walsh-Hadamard transform that consist of a sequence of arrays of
-butterflies (<span class="math inline">\(I_{2^{n-1}}\otimes
-\text{DFT}_2\)</span>) interleaved by linear permutations. Linear
-permutations are those that map linearly the binary representation of
-its element indices. We also propose a method to enumerate these
-algorithms.</p>
+We propose a way of characterizing the algorithms computing a Walsh-Hadamard
+transform that consist of a sequence of arrays of butterflies
+(\{I_{2^{n-1}}\otimes \text{DFT}_2\}) interleaved by linear permutations. Linear
+permutations are those that map linearly the binary representation of its
+element indices. We also propose a method to enumerate these algorithms.

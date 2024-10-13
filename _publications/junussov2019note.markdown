@@ -9,6 +9,6 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1901.09505"}
 tags: ['ARXIV']
 ---
-<p>Hashing algorithm of dynamical set of distances is described.
-Proposed hashing function is residual. Data structure which
-implementation accelerates computations is presented</p>
+Hashing algorithm of dynamical set of distances is described. Proposed
+hashing function is residual. Data structure which implementation accelerates
+computations is presented

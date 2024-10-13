@@ -9,25 +9,23 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2011.10239"}
 tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
 ---
-<p>Unsupervised binary representation allows fast data retrieval without
-any annotations, enabling practical application like fast person
-re-identification and multimedia retrieval. It is argued that conflicts
-in binary space are one of the major barriers to high-performance
-unsupervised hashing as current methods failed to capture the precise
-code conflicts in the full domain. A novel relaxation method called
-Shuffle and Learn is proposed to tackle code conflicts in the
-unsupervised hash. Approximated derivatives for joint probability and
-the gradients for the binary layer are introduced to bridge the update
-from the hash to the input. Proof on <span
-class="math inline">\(\epsilon\)</span>-Convergence of joint probability
-with approximated derivatives is provided to guarantee the preciseness
-on update applied on the mutual information. The proposed algorithm is
-carried out with iterative global updates to minimize mutual
-information, diverging the code before regular unsupervised
-optimization. Experiments suggest that the proposed method can relax the
-code optimization from local optimum and help to generate binary
-representations that are more discriminative and informative without any
-annotations. Performance benchmarks on image retrieval with the
-unsupervised binary code are conducted on three open datasets, and the
-model achieves state-of-the-art accuracy on image retrieval task for all
-those datasets. Datasets and reproducible code are provided.</p>
+Unsupervised binary representation allows fast data retrieval without any
+annotations, enabling practical application like fast person re-identification
+and multimedia retrieval. It is argued that conflicts in binary space are one
+of the major barriers to high-performance unsupervised hashing as current
+methods failed to capture the precise code conflicts in the full domain. A
+novel relaxation method called Shuffle and Learn is proposed to tackle code
+conflicts in the unsupervised hash. Approximated derivatives for joint
+probability and the gradients for the binary layer are introduced to bridge the
+update from the hash to the input. Proof on \{\epsilon\}-Convergence of joint
+probability with approximated derivatives is provided to guarantee the
+preciseness on update applied on the mutual information. The proposed algorithm
+is carried out with iterative global updates to minimize mutual information,
+diverging the code before regular unsupervised optimization. Experiments
+suggest that the proposed method can relax the code optimization from local
+optimum and help to generate binary representations that are more
+discriminative and informative without any annotations. Performance benchmarks
+on image retrieval with the unsupervised binary code are conducted on three
+open datasets, and the model achieves state-of-the-art accuracy on image
+retrieval task for all those datasets. Datasets and reproducible code are
+provided.

@@ -9,35 +9,28 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2111.09544"}
 tags: ['ARXIV', 'Independent']
 ---
-<p>Minwise hashing (MinHash) is a classical method for efficiently
-estimating the Jaccrad similarity in massive binary (0/1) data. To
-generate <span class="math inline">\(K\)</span> hash values for each
-data vector, the standard theory of MinHash requires <span
-class="math inline">\(K\)</span> independent permutations.
-Interestingly, the recent work on “circulant MinHash” (C-MinHash) has
-shown that merely two permutations are needed. The first permutation
-breaks the structure of the data and the second permutation is re-used
-<span class="math inline">\(K\)</span> time in a circulant manner.
-Surprisingly, the estimation accuracy of C-MinHash is proved to be
-strictly smaller than that of the original MinHash. The more recent work
-further demonstrates that practically only one permutation is needed.
-Note that C-MinHash is different from the well-known work on “One
-Permutation Hashing (OPH)” published in NIPS’12. OPH and its variants
-using different “densification” schemes are popular alternatives to the
-standard MinHash. The densification step is necessary in order to deal
-with empty bins which exist in One Permutation Hashing. In this paper,
-we propose to incorporate the essential ideas of C-MinHash to improve
-the accuracy of One Permutation Hashing. Basically, we develop a new
-densification method for OPH, which achieves the smallest estimation
-variance compared to all existing densification schemes for OPH. Our
-proposed method is named C-OPH (Circulant OPH). After the initial
-permutation (which breaks the existing structure of the data), C-OPH
-only needs a “shorter” permutation of length <span
-class="math inline">\(D/K\)</span> (instead of <span
-class="math inline">\(D\)</span>), where <span
-class="math inline">\(D\)</span> is the original data dimension and
-<span class="math inline">\(K\)</span> is the total number of bins in
-OPH. This short permutation is re-used in <span
-class="math inline">\(K\)</span> bins in a circulant shifting manner. It
-can be shown that the estimation variance of the Jaccard similarity is
-strictly smaller than that of the existing (densified) OPH methods.</p>
+Minwise hashing (MinHash) is a classical method for efficiently estimating
+the Jaccrad similarity in massive binary (0/1) data. To generate \{K\} hash
+values for each data vector, the standard theory of MinHash requires \{K\}
+independent permutations. Interestingly, the recent work on "circulant MinHash"
+(C-MinHash) has shown that merely two permutations are needed. The first
+permutation breaks the structure of the data and the second permutation is
+re-used \{K\} time in a circulant manner. Surprisingly, the estimation accuracy
+of C-MinHash is proved to be strictly smaller than that of the original
+MinHash. The more recent work further demonstrates that practically only one
+permutation is needed. Note that C-MinHash is different from the well-known
+work on "One Permutation Hashing (OPH)" published in NIPS'12. OPH and its
+variants using different "densification" schemes are popular alternatives to
+the standard MinHash. The densification step is necessary in order to deal with
+empty bins which exist in One Permutation Hashing.
+  In this paper, we propose to incorporate the essential ideas of C-MinHash to
+improve the accuracy of One Permutation Hashing. Basically, we develop a new
+densification method for OPH, which achieves the smallest estimation variance
+compared to all existing densification schemes for OPH. Our proposed method is
+named C-OPH (Circulant OPH). After the initial permutation (which breaks the
+existing structure of the data), C-OPH only needs a "shorter" permutation of
+length \{D/K\} (instead of \{D\}), where \{D\} is the original data dimension and \{K\}
+is the total number of bins in OPH. This short permutation is re-used in \{K\}
+bins in a circulant shifting manner. It can be shown that the estimation
+variance of the Jaccard similarity is strictly smaller than that of the
+existing (densified) OPH methods.

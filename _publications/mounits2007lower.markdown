@@ -9,6 +9,5 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/0706.3295"}
 tags: ['ARXIV']
 ---
-<p>New lower bounds on the minimum average Hamming distance of binary
-codes are derived. The bounds are obtained using linear programming
-approach.</p>
+New lower bounds on the minimum average Hamming distance of binary codes are
+derived. The bounds are obtained using linear programming approach.

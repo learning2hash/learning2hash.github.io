@@ -10,14 +10,13 @@ additional_links:
   - {name: "Code", url: "https://github.com/leo4life2/algoml-final"}
 tags: ['ARXIV', 'Has Code', 'Independent', 'LSH']
 ---
-<p>This study introduces a novel BERT-LSH model that incorporates
-Locality Sensitive Hashing (LSH) to approximate the attention mechanism
-in the BERT architecture. We examine the computational efficiency and
-performance of this model compared to a standard baseline BERT model.
-Our findings reveal that BERT-LSH significantly reduces computational
-demand for the self-attention layer while unexpectedly outperforming the
-baseline model in pretraining and fine-tuning tasks. These results
-suggest that the LSH-based attention mechanism not only offers
-computational advantages but also may enhance the model’s ability to
-generalize from its training data. For more information, visit our
-GitHub repository: https://github.com/leo4life2/algoml-final</p>
+This study introduces a novel BERT-LSH model that incorporates Locality
+Sensitive Hashing (LSH) to approximate the attention mechanism in the BERT
+architecture. We examine the computational efficiency and performance of this
+model compared to a standard baseline BERT model. Our findings reveal that
+BERT-LSH significantly reduces computational demand for the self-attention
+layer while unexpectedly outperforming the baseline model in pretraining and
+fine-tuning tasks. These results suggest that the LSH-based attention mechanism
+not only offers computational advantages but also may enhance the model's
+ability to generalize from its training data. For more information, visit our
+GitHub repository: https://github.com/leo4life2/algoml-final

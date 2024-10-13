@@ -9,13 +9,11 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1309.1596"}
 tags: ['Independent']
 ---
-<p>Recently, <span class="math inline">\(\varepsilon\)</span>-almost
-dual universal<span class="math inline">\(_2\)</span> hash functions has
-been proposed as a new and wider class of hash functions. Using this
-class of hash functions, several efficient hash functions were proposed.
-This paper evaluates the security performance when we apply this kind of
-hash functions. We evaluate the security in several kinds of setting
-based on the <span class="math inline">\(L_1\)</span> distinguishability
+Recently, \{\epsilon\}-almost dual universal\{_2\} hash functions has been
+proposed as a new and wider class of hash functions. Using this class of hash
+functions, several efficient hash functions were proposed. This paper evaluates
+the security performance when we apply this kind of hash functions. We evaluate
+the security in several kinds of setting based on the \{L_1\} distinguishability
 criterion and the modified mutual information criterion. The obtained
-evaluation is based on smoothing of R'{e}nyi entropy of order 2 and/or
-min entropy. We clarify the difference between these two methods.</p>
+evaluation is based on smoothing of R\'{e}nyi entropy of order 2 and/or min
+entropy. We clarify the difference between these two methods.

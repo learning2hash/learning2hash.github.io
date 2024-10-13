@@ -9,20 +9,16 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2307.12448"}
 tags: ['ARXIV', 'Independent']
 ---
-<p>Consistent hashing is a technique that can minimize key remapping
-when the number of hash buckets changes. The paper proposes a fast
-consistent hash algorithm (called power consistent hash) that has <span
-class="math inline">\(O(1)\)</span> expected time for key lookup,
-independent of the number of buckets. Hash values are computed in real
-time. No search data structure is constructed to store bucket ranges or
-key mappings. The algorithm has a lightweight design using <span
-class="math inline">\(O(1)\)</span> space with superior scalability. In
-particular, it uses two auxiliary hash functions to achieve distribution
-uniformity and <span class="math inline">\(O(1)\)</span> expected time
-for key lookup. Furthermore, it performs consistent hashing such that
-only a minimal number of keys are remapped when the number of buckets
-changes. Consistent hashing has a wide range of use cases, including
-load balancing, distributed caching, and distributed key-value stores.
-The proposed algorithm is faster than well-known consistent hash
-algorithms with <span class="math inline">\(O(\log n)\)</span> lookup
-time.</p>
+Consistent hashing is a technique that can minimize key remapping when the
+number of hash buckets changes. The paper proposes a fast consistent hash
+algorithm (called power consistent hash) that has \{O(1)\} expected time for key
+lookup, independent of the number of buckets. Hash values are computed in real
+time. No search data structure is constructed to store bucket ranges or key
+mappings. The algorithm has a lightweight design using \{O(1)\} space with
+superior scalability. In particular, it uses two auxiliary hash functions to
+achieve distribution uniformity and \{O(1)\} expected time for key lookup.
+Furthermore, it performs consistent hashing such that only a minimal number of
+keys are remapped when the number of buckets changes. Consistent hashing has a
+wide range of use cases, including load balancing, distributed caching, and
+distributed key-value stores. The proposed algorithm is faster than well-known
+consistent hash algorithms with \{O(log n)\} lookup time.

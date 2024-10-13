@@ -9,10 +9,9 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2406.19836"}
 tags: ['ARXIV']
 ---
-<p>Consistent hashing is employed in distributed systems and networking
-applications to evenly and effectively distribute data across a cluster
-of nodes. This paper introduces BinomialHash, a consistent hashing
-algorithm that operates in constant time and requires minimal memory. We
-provide a detailed explanation of the algorithm, offer a pseudo-code
-implementation, and formally establish its strong theoretical
-guarantees.</p>
+Consistent hashing is employed in distributed systems and networking
+applications to evenly and effectively distribute data across a cluster of
+nodes. This paper introduces BinomialHash, a consistent hashing algorithm that
+operates in constant time and requires minimal memory. We provide a detailed
+explanation of the algorithm, offer a pseudo-code implementation, and formally
+establish its strong theoretical guarantees.

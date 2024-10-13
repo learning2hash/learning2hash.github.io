@@ -9,8 +9,8 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2303.16619"}
 tags: ['ARXIV']
 ---
-<p>The asymptotic rate vs. distance problem is a long-standing
-fundamental problem in coding theory. The best upper bound to date was
-given in 1977 and has received since then numerous proofs and
-interpretations. Here we provide a new, elementary proof of this bound
-based on counting walks in the Hamming cube.</p>
+The asymptotic rate vs. distance problem is a long-standing fundamental
+problem in coding theory. The best upper bound to date was given in 1977 and
+has received since then numerous proofs and interpretations. Here we provide a
+new, elementary proof of this bound based on counting walks in the Hamming
+cube.
