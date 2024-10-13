@@ -9,4 +9,6 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1002.3024"}
 tags: ['ARXIV']
 ---
-We apply Schrijver's semidefinite programming method to obtain improved upper bounds on generalized distances and list decoding radii of binary codes.
+<p>We apply Schrijver’s semidefinite programming method to obtain
+improved upper bounds on generalized distances and list decoding radii
+of binary codes.</p>

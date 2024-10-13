@@ -9,4 +9,18 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2010.05420"}
 tags: ['Independent', 'NEURIPS']
 ---
-Universal hash functions, discovered by Carter and Wegman in 1979, are of great importance in computer science with many applications. MMH\\(^*\\) is a well-known \\(\triangle\\)-universal hash function family, based on the evaluation of a dot product modulo a prime. In this paper, we introduce a generalization of MMH\\(^*\\), that we call GMMH\\(^*\\), using the same construction as MMH\\(^*\\) but with an arbitrary integer modulus \\(n>1\\), and show that GMMH\\(^*\\) is \\(\frac\{1\}\{p\}\\)-almost-\\(\triangle\\)-universal, where \\(p\\) is the smallest prime divisor of \\(n\\). This bound is tight.
+<p>Universal hash functions, discovered by Carter and Wegman in 1979,
+are of great importance in computer science with many applications.
+MMH<span class="math inline">\(^*\)</span> is a well-known <span
+class="math inline">\(\triangle\)</span>-universal hash function family,
+based on the evaluation of a dot product modulo a prime. In this paper,
+we introduce a generalization of MMH<span
+class="math inline">\(^*\)</span>, that we call GMMH<span
+class="math inline">\(^*\)</span>, using the same construction as
+MMH<span class="math inline">\(^*\)</span> but with an arbitrary integer
+modulus <span class="math inline">\(n&gt;1\)</span>, and show that
+GMMH<span class="math inline">\(^*\)</span> is <span
+class="math inline">\(\frac{1}{p}\)</span>-almost-<span
+class="math inline">\(\triangle\)</span>-universal, where <span
+class="math inline">\(p\)</span> is the smallest prime divisor of <span
+class="math inline">\(n\)</span>. This bound is tight.</p>

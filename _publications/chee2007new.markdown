@@ -9,4 +9,5 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/0712.2619"}
 tags: []
 ---
-We construct a record-breaking binary code of length 17, minimal distance 6, constant weight 6, and containing 113 codewords.
+<p>We construct a record-breaking binary code of length 17, minimal
+distance 6, constant weight 6, and containing 113 codewords.</p>

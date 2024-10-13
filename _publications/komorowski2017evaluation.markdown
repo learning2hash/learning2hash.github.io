@@ -7,6 +7,12 @@ year: 2017
 bibkey: komorowski2017evaluation
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1707.06825"}
-tags: ['ARXIV', 'Unsupervised']
+tags: ['ARXIV', 'Supervised']
 ---
-In this paper we evaluate performance of data-dependent hashing methods on binary data. The goal is to find a hashing method that can effectively produce lower dimensional binary representation of 512-bit FREAK descriptors. A representative sample of recent unsupervised, semi-supervised and supervised hashing methods was experimentally evaluated on large datasets of labelled binary FREAK feature descriptors.
+<p>In this paper we evaluate performance of data-dependent hashing
+methods on binary data. The goal is to find a hashing method that can
+effectively produce lower dimensional binary representation of 512-bit
+FREAK descriptors. A representative sample of recent unsupervised,
+semi-supervised and supervised hashing methods was experimentally
+evaluated on large datasets of labelled binary FREAK feature
+descriptors.</p>

@@ -9,4 +9,6 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1210.5940"}
 tags: ['ARXIV']
 ---
-Some properties of perfect transitive binary codes of length 15 and extended perfect transitive binary codes of length 16 are presented for reference purposes.
+<p>Some properties of perfect transitive binary codes of length 15 and
+extended perfect transitive binary codes of length 16 are presented for
+reference purposes.</p>

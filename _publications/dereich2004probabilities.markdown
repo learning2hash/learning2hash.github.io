@@ -9,4 +9,6 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/math/0402220"}
 tags: ['Independent', 'Quantisation']
 ---
-We investigate the Gaussian small ball probabilities with random centers, find their deterministic a.s.-equivalents and establish a relation to infinite-dimensional high-resolution quantization.
+<p>We investigate the Gaussian small ball probabilities with random
+centers, find their deterministic a.s.-equivalents and establish a
+relation to infinite-dimensional high-resolution quantization.</p>

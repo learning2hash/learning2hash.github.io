@@ -9,4 +9,4 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1503.01557"}
 tags: ['ARXIV', 'Supervised']
 ---
-This paper has been withdrawn by the authour.
+<p>This paper has been withdrawn by the authour.</p>

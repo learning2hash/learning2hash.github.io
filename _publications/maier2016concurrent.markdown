@@ -9,4 +9,21 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1601.04017"}
 tags: ['ARXIV']
 ---
-Concurrent hash tables are one of the most important concurrent data structures with numerous applications. Since hash table accesses can dominate the execution time of the overall application, we need implementations that achieve good speedup. Unfortunately, currently available concurrent hashing libraries turn out to be far away from this requirement in particular when contention on some elements occurs. Our starting point for better performing data structures is a fast and simple lock-free concurrent hash table based on linear probing that is limited to word-sized key-value types and does not support dynamic size adaptation. We explain how to lift these limitations in a provably scalable way and demonstrate that dynamic growing has a performance overhead comparable to the same generalization in sequential hash tables. We perform extensive experiments comparing the performance of our implementations with six of the most widely used concurrent hash tables. Ours are considerably faster than the best algorithms with similar restrictions and an order of magnitude faster than the best more general tables. In some extreme cases, the difference even approaches four orders of magnitude.
+<p>Concurrent hash tables are one of the most important concurrent data
+structures with numerous applications. Since hash table accesses can
+dominate the execution time of the overall application, we need
+implementations that achieve good speedup. Unfortunately, currently
+available concurrent hashing libraries turn out to be far away from this
+requirement in particular when contention on some elements occurs. Our
+starting point for better performing data structures is a fast and
+simple lock-free concurrent hash table based on linear probing that is
+limited to word-sized key-value types and does not support dynamic size
+adaptation. We explain how to lift these limitations in a provably
+scalable way and demonstrate that dynamic growing has a performance
+overhead comparable to the same generalization in sequential hash
+tables. We perform extensive experiments comparing the performance of
+our implementations with six of the most widely used concurrent hash
+tables. Ours are considerably faster than the best algorithms with
+similar restrictions and an order of magnitude faster than the best more
+general tables. In some extreme cases, the difference even approaches
+four orders of magnitude.</p>

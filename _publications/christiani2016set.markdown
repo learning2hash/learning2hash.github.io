@@ -9,4 +9,36 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1612.07710"}
 tags: ['ARXIV', 'Independent', 'LSH']
 ---
-We consider the problem of approximate set similarity search under Braun-Blanquet similarity $B(\mathbf\{x\}, \mathbf\{y\}) = \|\mathbf\{x\} \cap \mathbf\{y\}\| / \max(\|\mathbf\{x\}\|, \|\mathbf\{y\}\|)\\(. The \\)(b\_2, b\_2)$-approximate Braun-Blanquet similarity search problem is to preprocess a collection of sets \\(P\\) such that, given a query set \\(\mathbf\{q\}\\), if there exists $\mathbf\{x\} \in P\\( with \\)B(\mathbf\{q\}, \mathbf\{x\}) \geq b\_1$, then we can efficiently return \\(\mathbf\{x\}' \in P\\) with \\(B(\mathbf\{q\}, \mathbf\{x\}') > b_2\\). We present a simple data structure that solves this problem with space usage \\(O(n^\{1+\rho\}\log n + \sum_\{\mathbf\{x\} \in P\}\|\mathbf\{x\}\|)\\) and query time \\(O(\|\mathbf\{q\}\|n^\{\rho\} \log n)\\) where \\(n = \|P\|\\) and $\rho = \log(1/b\_1)/\log(1/b\_2)$. Making use of existing lower bounds for locality-sensitive hashing by O'Donnell et al. (TOCT 2014) we show that this value of \\(\rho\\) is tight across the parameter space, i.e., for every choice of constants \\(0 < b_2 < b_1 < 1\\). In the case where all sets have the same size our solution strictly improves upon the value of \\(\rho\\) that can be obtained through the use of state-of-the-art data-independent techniques in the Indyk-Motwani locality-sensitive hashing framework (STOC 1998) such as Broder's MinHash (CCS 1997) for Jaccard similarity and Andoni et al.'s cross-polytope LSH (NIPS 2015) for cosine similarity. Surprisingly, even though our solution is data-independent, for a large part of the parameter space we outperform the currently best data-dependent method by Andoni and Razenshteyn (STOC 2015).
+<p>We consider the problem of approximate set similarity search under
+Braun-Blanquet similarity <span class="math inline">\(B(\mathbf{x},
+\mathbf{y}) = |\mathbf{x} \cap
+\mathbf{y}| / \max(|\mathbf{x}|, |\mathbf{y}|)\)</span>. The <span
+class="math inline">\((b_2, b_2)\)</span>-approximate Braun-Blanquet
+similarity search problem is to preprocess a collection of sets <span
+class="math inline">\(P\)</span> such that, given a query set <span
+class="math inline">\(\mathbf{q}\)</span>, if there exists <span
+class="math inline">\(\mathbf{x} \in
+P\)</span> with <span class="math inline">\(B(\mathbf{q}, \mathbf{x})
+\geq b_1\)</span>, then we can efficiently return <span
+class="math inline">\(\mathbf{x}&#39; \in P\)</span> with <span
+class="math inline">\(B(\mathbf{q}, \mathbf{x}&#39;) &gt; b_2\)</span>.
+We present a simple data structure that solves this problem with space
+usage <span class="math inline">\(O(n^{1+\rho}\log n + \sum_{\mathbf{x}
+\in P}|\mathbf{x}|)\)</span> and query time <span
+class="math inline">\(O(|\mathbf{q}|n^{\rho} \log n)\)</span> where
+<span class="math inline">\(n = |P|\)</span> and <span
+class="math inline">\(\rho =
+\log(1/b_1)/\log(1/b_2)\)</span>. Making use of existing lower bounds
+for locality-sensitive hashing by O’Donnell et al. (TOCT 2014) we show
+that this value of <span class="math inline">\(\rho\)</span> is tight
+across the parameter space, i.e., for every choice of constants <span
+class="math inline">\(0 &lt; b_2 &lt; b_1 &lt; 1\)</span>. In the case
+where all sets have the same size our solution strictly improves upon
+the value of <span class="math inline">\(\rho\)</span> that can be
+obtained through the use of state-of-the-art data-independent techniques
+in the Indyk-Motwani locality-sensitive hashing framework (STOC 1998)
+such as Broder’s MinHash (CCS 1997) for Jaccard similarity and Andoni et
+al.’s cross-polytope LSH (NIPS 2015) for cosine similarity.
+Surprisingly, even though our solution is data-independent, for a large
+part of the parameter space we outperform the currently best
+data-dependent method by Andoni and Razenshteyn (STOC 2015).</p>

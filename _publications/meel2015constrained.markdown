@@ -9,4 +9,14 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1512.06633"}
 tags: ['ARXIV', 'Independent']
 ---
-Constrained sampling and counting are two fundamental problems in artificial intelligence with a diverse range of applications, spanning probabilistic reasoning and planning to constrained-random verification. While the theory of these problems was thoroughly investigated in the 1980s, prior work either did not scale to industrial size instances or gave up correctness guarantees to achieve scalability. Recently, we proposed a novel approach that combines universal hashing and SAT solving and scales to formulas with hundreds of thousands of variables without giving up correctness guarantees. This paper provides an overview of the key ingredients of the approach and discusses challenges that need to be overcome to handle larger real-world instances.
+<p>Constrained sampling and counting are two fundamental problems in
+artificial intelligence with a diverse range of applications, spanning
+probabilistic reasoning and planning to constrained-random verification.
+While the theory of these problems was thoroughly investigated in the
+1980s, prior work either did not scale to industrial size instances or
+gave up correctness guarantees to achieve scalability. Recently, we
+proposed a novel approach that combines universal hashing and SAT
+solving and scales to formulas with hundreds of thousands of variables
+without giving up correctness guarantees. This paper provides an
+overview of the key ingredients of the approach and discusses challenges
+that need to be overcome to handle larger real-world instances.</p>
