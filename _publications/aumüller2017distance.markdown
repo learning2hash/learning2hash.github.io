@@ -22,10 +22,10 @@ query point.
 generalization of LSH that seeks a family of hash functions such that the
 probability of two points having the same hash value is a given function of the
 distance between them. More precisely, given a distance space \\{(X,
-\text{dist})\\} and a "collision probability function" (CPF) \\{f\colon
-\mathbb{R}\rightarrow [0,1]\\} we seek a distribution over pairs of functions
+\text\{dist\})\\} and a "collision probability function" (CPF) \\{f\colon
+\mathbb\{R\}\rightarrow [0,1]\\} we seek a distribution over pairs of functions
 \\{(h,g)\\} such that for every pair of points \\{x, y \in X\\} the collision
-probability is \\{\Pr[h(x)=g(y)] = f(\text{dist}(x,y))\\}. Locality-sensitive
+probability is \\{\Pr[h(x)=g(y)] = f(\text\{dist\}(x,y))\\}. Locality-sensitive
 hashing is the study of how fast a CPF can decrease as the distance grows. For
 many spaces, \\{f\\} can be made exponentially decreasing even if we restrict
 attention to the symmetric case where \\{g=h\\}. We show that the asymmetry

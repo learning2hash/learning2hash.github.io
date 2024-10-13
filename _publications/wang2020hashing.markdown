@@ -25,4 +25,4 @@ HNMS, and observe significant speed-up with comparable accuracy. For one-stage
 detectors, HNMS is used as a pre-filter to speed up the suppression with a
 large margin. Extensive experiments are conducted on CARPK, SKU-110K,
 CrowdHuman datasets to demonstrate the efficiency and effectiveness of HNMS.
-Code is released at \url{https://github.com/microsoft/hnms.git}.
+Code is released at \url\{https://github.com/microsoft/hnms.git\}.

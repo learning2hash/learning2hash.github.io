@@ -16,7 +16,7 @@ greater than \\{cr\\} collide with probability at most \\{p_2\\}. These function
 the basis of the successful Indyk-Motwani algorithm (STOC 1998) for nearest
 neighbour problems. In particular one may build a \\{c\\}-approximate nearest
 neighbour data structure with query time \\{\tilde O(n^\rho/p_1)\\} where
-\\{\rho=\frac{log1/p_1}{log1/p_2}\in(0,1)\\}. That is, sub-linear time, as long
+\\{\rho=\frac\{log1/p_1\}\{log1/p_2\}\in(0,1)\\}. That is, sub-linear time, as long
 as \\{p_1\\} is not too small. This is significant since most high dimensional
 nearest neighbour problems suffer from the curse of dimensionality, and can't
 be solved exact, faster than a brute force linear-time scan of the database.
@@ -25,8 +25,8 @@ probabilities, \\{p_1\\} and \\{p_2\\}. Including the best functions for Cosine 
 Jaccard Similarity. This means that the \\{n^\rho/p_1\\} query time of LSH is often
 not sub-linear after all, even for approximate nearest neighbours!
   In this paper, we improve the general Indyk-Motwani algorithm to reduce the
-query time of LSH to \\{\tilde O(n^\rho/p_1^{1-\rho})\\} (and the space usage
-correspondingly.) Since \\{n^\rho p_1^{\rho-1} < n \Leftrightarrow p_1 > n^{-1}\\},
+query time of LSH to \\{\tilde O(n^\rho/p_1^\{1-\rho\})\\} (and the space usage
+correspondingly.) Since \\{n^\rho p_1^\{\rho-1\} < n \Leftrightarrow p_1 > n^\{-1\}\\},
 our algorithm always obtains sublinear query time, for any collision
 probabilities at least \\{1/n\\}. For \\{p_1\\} and \\{p_2\\} small enough, our improvement
 over all previous methods can be *up to a factor \\{n\\}* in both query time

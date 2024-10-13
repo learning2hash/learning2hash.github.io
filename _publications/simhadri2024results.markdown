@@ -14,7 +14,7 @@ state-of-the-art in indexing data structures and search algorithms for
 practical variants of Approximate Nearest Neighbor (ANN) search that reflect
 the growing complexity and diversity of workloads. Unlike prior challenges that
 emphasized scaling up classical ANN search
-~\cite{DBLP:conf/nips/SimhadriWADBBCH21}, this competition addressed filtered
+~\cite\{DBLP:conf/nips/SimhadriWADBBCH21\}, this competition addressed filtered
 search, out-of-distribution data, sparse and streaming variants of ANNS.
 Participants developed and submitted innovative solutions that were evaluated
 on new standard datasets with constrained computational resources. The results

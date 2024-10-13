@@ -11,10 +11,10 @@ tags: ['ARXIV', 'Quantisation']
 ---
 This paper deals with two related problems, namely distance-preserving binary
 embeddings and quantization for compressed sensing . First, we propose fast
-methods to replace points from a subset \\{\mathcal{X} \subset \mathbb{R}^n\\},
-associated with the Euclidean metric, with points in the cube \\{\{\pm 1\}^m\\} and
+methods to replace points from a subset \\{\mathcal\{X\} \subset \mathbb\{R\}^n\\},
+associated with the Euclidean metric, with points in the cube \\{\\{\pm 1\\}^m\\} and
 we associate the cube with a pseudo-metric that approximates Euclidean distance
-among points in \\{\mathcal{X}\\}. Our methods rely on quantizing fast
+among points in \\{\mathcal\{X\}\\}. Our methods rely on quantizing fast
 Johnson-Lindenstrauss embeddings based on bounded orthonormal systems and
 partial circulant ensembles, both of which admit fast transforms. Our
 quantization methods utilize noise-shaping, and include Sigma-Delta schemes and

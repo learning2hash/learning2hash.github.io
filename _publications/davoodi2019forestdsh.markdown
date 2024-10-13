@@ -26,7 +26,7 @@ introduce distribution sensitive hashes that map jointly generated pairs
 \\{x\sim P^A\\} and \\{y\sim P^B\\}, where \\{P^A\\} and \\{P^B\\} are the marginal probability
 distributions of \\{P\\}. We design distribution sensitive hashes using a forest of
 decision trees and we show that the complexity of search grows with
-\\{O(N^{\lambda^*(P)})\\} where \\{\lambda^*(P)\\} is expressed in an analytical form.
+\\{O(N^\{\lambda^*(P)\})\\} where \\{\lambda^*(P)\\} is expressed in an analytical form.
 We further show that the proposed hashes perform faster than state of the art
 approximate nearest neighbor search methods for a range of probability
 distributions, in both theory and simulations. Finally, we apply our method to

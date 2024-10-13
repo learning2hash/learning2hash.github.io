@@ -9,7 +9,7 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2209.11857"}
 tags: ['Graph', 'Independent']
 ---
-On 2\\{^{nd}\\} October 2012 the NIST (National Institute of Standards and
+On 2\\{^\{nd\}\\} October 2012 the NIST (National Institute of Standards and
 Technology) in the United States of America announced the new hashing algorithm
 which will be adopted as standard from now on. Among a total of 73 candidates,
 the winner was Keccak, designed by a group of cryptographers from Belgium and

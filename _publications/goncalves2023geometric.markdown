@@ -9,9 +9,9 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2311.14082"}
 tags: ['ARXIV', 'Independent', 'LSH']
 ---
-A set of vectors \\{S \subseteq \mathbb{R}^d\\} is
+A set of vectors \\{S \subseteq \mathbb\{R\}^d\\} is
 \\{(k_1,\epsilon)\\}-clusterable if there are \\{k_1\\} balls of radius
-\\{\epsilon\\} that cover \\{S\\}. A set of vectors \\{S \subseteq \mathbb{R}^d\\} is
+\\{\epsilon\\} that cover \\{S\\}. A set of vectors \\{S \subseteq \mathbb\{R\}^d\\} is
 \\{(k_2,\delta)\\}-far from being clusterable if there are at least \\{k_2\\} vectors
 in \\{S\\}, with all pairwise distances at least \\{\delta\\}. We propose a
 probabilistic algorithm to distinguish between these two cases. Our algorithm

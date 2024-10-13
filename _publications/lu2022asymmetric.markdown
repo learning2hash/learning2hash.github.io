@@ -7,7 +7,7 @@ year: 2022
 bibkey: lu2022asymmetric
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2206.12592"}
-tags: ['ARXIV', 'Cross Modal', 'Graph', 'Unsupervised']
+tags: ['ARXIV', 'Cross Modal', 'Graph', 'Supervised']
 ---
 Thanks to the efficient retrieval speed and low storage consumption, learning
 to hash has been widely used in visual retrieval tasks. However, existing
@@ -16,9 +16,9 @@ feature space within the same domain. As a result, they cannot be directly
 applied to heterogeneous cross-domain retrieval. In this paper, we propose a
 Generalized Image Transfer Retrieval (GITR) problem, which encounters two
 crucial bottlenecks: 1) the query and retrieval samples may come from different
-domains, leading to an inevitable {domain distribution gap}; 2) the features of
+domains, leading to an inevitable \{domain distribution gap\}; 2) the features of
 the two domains may be heterogeneous or misaligned, bringing up an additional
-{feature gap}. To address the GITR problem, we propose an Asymmetric Transfer
+\{feature gap\}. To address the GITR problem, we propose an Asymmetric Transfer
 Hashing (ATH) framework with its unsupervised/semi-supervised/supervised
 realizations. Specifically, ATH characterizes the domain distribution gap by
 the discrepancy between two asymmetric hash functions, and minimizes the

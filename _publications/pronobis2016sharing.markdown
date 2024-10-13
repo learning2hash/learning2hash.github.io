@@ -13,7 +13,7 @@ Locality sensitive hashing (LSH) is a powerful tool for sublinear-time
 approximate nearest neighbor search, and a variety of hashing schemes have been
 proposed for different dissimilarity measures. However, hash codes
 significantly depend on the dissimilarity, which prohibits users from adjusting
-the dissimilarity at query time. In this paper, we propose {multiple purpose
+the dissimilarity at query time. In this paper, we propose \{multiple purpose
 LSH (mp-LSH) which shares the hash codes for different dissimilarities. mp-LSH
 supports L2, cosine, and inner product dissimilarities, and their corresponding
 weighted sums, where the weights can be adjusted at query time. It also allows

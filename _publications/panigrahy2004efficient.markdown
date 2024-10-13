@@ -24,6 +24,6 @@ for two items are pre-allocated per bucket, as may be desirable in hardware
 implementations, more than \\{n\\} items can be stored giving a high memory
 utilization. We also analyze the trade-off between the number of moves
 performed during inserts and the maximum load on a bucket. By performing at
-most \\{h\\} moves, we can maintain a maximum load of \\{O(\frac{log log n}{h
-log(loglog n/h)})\\}. So, even by performing one move, we achieve a better
+most \\{h\\} moves, we can maintain a maximum load of \\{O(\frac\{log log n\}\{h
+log(loglog n/h)\})\\}. So, even by performing one move, we achieve a better
 bound than by performing no moves at all.

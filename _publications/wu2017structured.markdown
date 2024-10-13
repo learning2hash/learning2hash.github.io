@@ -27,5 +27,5 @@ ranking the Hamming distances between images. A structured loss function
 defined over positive pairs and hard negatives is proposed to formulate a novel
 optimization problem so that fast convergence and more stable optimized
 solution can be obtained. Extensive experiments on two benchmarks CUHK03
-\cite{FPNN} and Market-1501 \cite{Market1501} show that the proposed deep
+\cite\{FPNN\} and Market-1501 \cite\{Market1501\} show that the proposed deep
 architecture is efficacy over state-of-the-arts.

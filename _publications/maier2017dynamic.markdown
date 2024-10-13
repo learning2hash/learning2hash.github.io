@@ -18,8 +18,8 @@ bucket cuckoo hashing can be adapted to this scenario by subdividing them into
 many subtables or using virtual memory overcommitting. However, these rather
 straightforward solutions suffer from slow amortized insertion times due to
 frequent reallocation in small increments.
-  Our main result is DySECT ({\bf Dy}namic {\bf S}pace {\bf E}fficient {\bf
-C}uckoo {\bf T}able) which avoids these problems. DySECT consists of many
+  Our main result is DySECT (\{\bf Dy\}namic \{\bf S\}pace \{\bf E\}fficient \{\bf
+C\}uckoo \{\bf T\}able) which avoids these problems. DySECT consists of many
 subtables which grow by doubling their size. The resulting inhomogeneity in
 subtable sizes is equalized by the flexibility available in bucket cuckoo
 hashing where each element can go to several buckets each of which containing

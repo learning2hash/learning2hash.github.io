@@ -10,7 +10,7 @@ additional_links:
 tags: ['ARXIV', 'Independent']
 ---
 Minimal perfect hashing is the problem of mapping a static set of \\{n\\}
-distinct keys into the address space \\{\{1,\ldots,n\}\\} bijectively. It is
+distinct keys into the address space \\{\\{1,\ldots,n\\}\\} bijectively. It is
 well-known that \\{nlog_2(e)\\} bits are necessary to specify a minimal perfect
 hash function (MPHF) \\{f\\}, when no additional knowledge of the input keys is to
 be used. However, it is often the case in practice that the input keys have

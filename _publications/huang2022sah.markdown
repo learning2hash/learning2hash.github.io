@@ -25,4 +25,4 @@ a batch). We prove that SAH achieves a theoretical guarantee for solving the
 RMIPS problem. Experimental results on five real-world datasets show that SAH
 runs 4\\{\sim\\}8\\{\times\\} faster than the state-of-the-art methods for R\\{k\\}MIPS
 while achieving F1-scores of over 90\%. The code is available at
-\url{https://github.com/HuangQiang/SAH}.
+\url\{https://github.com/HuangQiang/SAH\}.

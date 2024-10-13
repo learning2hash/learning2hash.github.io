@@ -17,7 +17,7 @@ hashing algorithms found their theoretic root in random projection. Since these
 algorithms generate the hash tables (projections) randomly, a large number of
 hash tables (i.e., long codewords) are required in order to achieve both high
 precision and recall. To address this limitation, we propose a novel hashing
-algorithm called {\em Density Sensitive Hashing} (DSH) in this paper. DSH can
+algorithm called \{\em Density Sensitive Hashing\} (DSH) in this paper. DSH can
 be regarded as an extension of LSH. By exploring the geometric structure of the
 data, DSH avoids the purely random projections selection and uses those
 projective functions which best agree with the distribution of the data.

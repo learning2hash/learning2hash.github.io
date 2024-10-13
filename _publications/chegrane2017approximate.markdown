@@ -11,7 +11,7 @@ tags: ['ARXIV']
 ---
 The approximate string matching is a fundamental and recurrent problem that
 arises in most computer science fields. This problem can be defined as follows:
-  Let \\{D=\{x_1,x_2,\ldots x_d\}\\} be a set of \\{d\\} words defined on an alphabet
+  Let \\{D=\\{x_1,x_2,\ldots x_d\\}\\} be a set of \\{d\\} words defined on an alphabet
 \\{\Sigma\\}, let \\{q\\} be a query defined also on \\{\Sigma\\}, and let \\{k\\} be a
 positive integer. We want to build a data structure on \\{D\\} capable of answering
 the following query: find all words in \\{D\\} that are at most different from the
@@ -24,7 +24,7 @@ solutions to this problem, the first one uses hash tables for \\{k \geq 2\\}, th
 second uses the Trie and reverse Trie, and it is restricted to (k = 1). The two
 solutions are adaptable, without loss of performance, to the approximate string
 matching in a text.
-  2) The approximate string matching for \textit{autocompletion}, which is,
+  2) The approximate string matching for \textit\{autocompletion\}, which is,
 find all suffixes of a given prefix that may contain errors. We give a new
 solution better in practice than all the previous proposed solutions.
   3) The problem of the alignment of biological sequences can be interpreted as

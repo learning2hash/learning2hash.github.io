@@ -9,7 +9,7 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2106.02350"}
 tags: ['ARXIV', 'Independent']
 ---
-A function \\{f : U \to \{0,\ldots,n-1\}\\} is a minimal perfect hash function
+A function \\{f : U \to \\{0,\ldots,n-1\\}\\} is a minimal perfect hash function
 for a set \\{S \subseteq U\\} of size \\{n\\}, if \\{f\\} bijectively maps \\{S\\} into the
 first \\{n\\} natural numbers. These functions are important for many practical
 applications in computing, such as search engines, computer networks, and

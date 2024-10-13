@@ -11,16 +11,16 @@ tags: ['ARXIV', 'FOCS', 'Independent']
 ---
 Simple tabulation hashing dates back to Zobrist in 1970 and is defined as
 follows: Each key is viewed as \\{c\\} characters from some alphabet \\{\Sigma\\}, we
-have \\{c\\} fully random hash functions \\{h_0, \ldots, h_{c - 1} \colon \Sigma \to
-\{0, \ldots, 2^l - 1\}\\}, and a key \\{x = (x_0, \ldots, x_{c - 1})\\} is hashed to
-\\{h(x) = h_0(x_0) \oplus \ldots \oplus h_{c - 1}(x_{c - 1})\\} where \\{\oplus\\} is
-the bitwise XOR operation. The previous results on tabulation hashing by P{\v
-a}tra{\c s}cu and Thorup~[J.ACM'11] and by Aamand et al.~[STOC'20] focused on
+have \\{c\\} fully random hash functions \\{h_0, \ldots, h_\{c - 1\} \colon \Sigma \to
+\\{0, \ldots, 2^l - 1\\}\\}, and a key \\{x = (x_0, \ldots, x_\{c - 1\})\\} is hashed to
+\\{h(x) = h_0(x_0) \oplus \ldots \oplus h_\{c - 1\}(x_\{c - 1\})\\} where \\{\oplus\\} is
+the bitwise XOR operation. The previous results on tabulation hashing by P\{\v
+a\}tra\{\c s\}cu and Thorup~[J.ACM'11] and by Aamand et al.~[STOC'20] focused on
 proving Chernoff-style tail bounds on hash-based sums, e.g., the number keys
 hashing to a given value, for simple tabulation hashing, but their bounds do
 not cover the entire tail.
-  Chaoses are random variables of the form \\{\sum a_{i_0, \ldots, i_{c - 1}}
-X_{i_0} \cdot \ldots \cdot X_{i_{c - 1}}\\} where \\{X_i\\} are independent random
+  Chaoses are random variables of the form \\{\sum a_\{i_0, \ldots, i_\{c - 1\}\}
+X_\{i_0\} \cdot \ldots \cdot X_\{i_\{c - 1\}\}\\} where \\{X_i\\} are independent random
 variables. Chaoses are a well-studied concept from probability theory, and
 tight analysis has been proven in several instances, e.g., when the independent
 random variables are standard Gaussian variables and when the independent

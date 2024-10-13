@@ -7,7 +7,7 @@ year: 2017
 bibkey: komorowski2017evaluation
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1707.06825"}
-tags: ['ARXIV', 'Unsupervised']
+tags: ['ARXIV', 'Supervised']
 ---
 In this paper we evaluate performance of data-dependent hashing methods on
 binary data. The goal is to find a hashing method that can effectively produce

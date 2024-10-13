@@ -12,7 +12,7 @@ tags: ['ARXIV']
 We propose two suffix array inspired full-text indexes. One, called SA-hash,
 augments the suffix array with a hash table to speed up pattern searches due to
 significantly narrowed search interval before the binary search phase. The
-other, called FBCSA, is a compact data structure, similar to M{\"a}kinen's
+other, called FBCSA, is a compact data structure, similar to M\{\"a\}kinen's
 compact suffix array, but working on fixed sized blocks. Experiments on the
 Pizza~\&~Chili 200\,MB datasets show that SA-hash is about 2--3 times faster in
 pattern searches (counts) than the standard suffix array, for the price of

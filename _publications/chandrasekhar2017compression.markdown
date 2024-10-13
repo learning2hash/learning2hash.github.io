@@ -11,9 +11,9 @@ tags: ['ARXIV', 'CNN', 'Quantisation', 'Supervised', 'Survey Paper']
 ---
 Image instance retrieval is the problem of retrieving images from a database
 which contain the same object. Convolutional Neural Network (CNN) based
-descriptors are becoming the dominant approach for generating {\it global image
-descriptors} for the instance retrieval problem. One major drawback of
-CNN-based {\it global descriptors} is that uncompressed deep neural network
+descriptors are becoming the dominant approach for generating \{\it global image
+descriptors\} for the instance retrieval problem. One major drawback of
+CNN-based \{\it global descriptors\} is that uncompressed deep neural network
 models require hundreds of megabytes of storage making them inconvenient to
 deploy in mobile applications or in custom hardware. In this work, we study the
 problem of neural network model compression focusing on the image instance

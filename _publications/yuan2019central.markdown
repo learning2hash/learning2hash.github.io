@@ -30,4 +30,4 @@ experiments on large-scale image and video retrieval tasks demonstrate that CSQ
 can generate cohesive hash codes for similar data pairs and dispersed hash
 codes for dissimilar pairs, achieving a noticeable boost in retrieval
 performance, i.e. 3\%-20\% in mAP over the previous state-of-the-arts. The code
-is at: \url{https://github.com/yuanli2333/Hadamard-Matrix-for-hashing}
+is at: \url\{https://github.com/yuanli2333/Hadamard-Matrix-for-hashing\}

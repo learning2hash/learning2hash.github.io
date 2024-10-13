@@ -24,7 +24,7 @@ assumptions and provides superior load balancing. IRLI surpasses the best
 baseline's precision on multi-label classification while being \\{5x\\} faster on
 inference. For near-neighbor search tasks, the same method outperforms the
 state-of-the-art Learned Hashing approach NeuralLSH by requiring only ~
-{1/6}^th of the candidates for the same recall. IRLI is both data and model
+\{1/6\}^th of the candidates for the same recall. IRLI is both data and model
 parallel, making it ideal for distributed GPU implementation. We demonstrate
 this advantage by indexing 100 million dense vectors and surpassing the popular
 FAISS library by >10% on recall.

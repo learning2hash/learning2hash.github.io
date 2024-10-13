@@ -31,4 +31,4 @@ significantly outperforms both state-of-the-art global feature-based retrieval
 and approaches using local feature aggregation schemes. Moreover, it is an
 order of magnitude faster in both index and query time than feature aggregation
 schemes for these datasets. Code:
-\url{https://github.com/google-research/google-research/tree/master/cann}
+\url\{https://github.com/google-research/google-research/tree/master/cann\}

@@ -13,7 +13,7 @@ We introduce a novel method for using reflectance to identify materials.
 Reflectance offers a unique signature of the material but is challenging to
 measure and use for recognizing materials due to its high-dimensionality. In
 this work, one-shot reflectance is captured using a unique optical camera
-measuring {\it reflectance disks} where the pixel coordinates correspond to
+measuring \{\it reflectance disks\} where the pixel coordinates correspond to
 surface viewing angles. The reflectance has class-specific stucture and angular
 gradients computed in this reflectance space reveal the material class.
   These reflectance disks encode discriminative information for efficient and

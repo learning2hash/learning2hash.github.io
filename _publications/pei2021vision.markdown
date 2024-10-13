@@ -29,4 +29,4 @@ three datasets: DAVIS2016-TL (video inpainting), VSTL (video splicing) and DFTL
 state-of-the-art methods, especially in cross-dataset mode. Experiments also
 demonstrated that ViTHash is effective in various forgery detection: video
 inpainting, video splicing and deepfakes. Our code and datasets have been
-released on GitHub: \url{https://github.com/lajlksdf/vtl}.
+released on GitHub: \url\{https://github.com/lajlksdf/vtl\}.

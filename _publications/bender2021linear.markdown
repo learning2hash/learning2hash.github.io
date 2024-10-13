@@ -22,7 +22,7 @@ some of many widely used hash tables.
 that small design decisions in how deletions are implemented have dramatic
 effects on the asymptotic performance of insertions, so that, even if a hash
 table operates continuously at a load factor \\{1 - \Theta(1/x)\\}, the expected
-amortized cost per operation is \\{\tilde{O}(x)\\}. This is because tombstones
+amortized cost per operation is \\{\tilde\{O\}(x)\\}. This is because tombstones
 created by deletions actually cause an anti-clustering effect that combats
 primary clustering.
   We also present a new variant of linear probing (which we call graveyard

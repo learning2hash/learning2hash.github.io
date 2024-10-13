@@ -14,7 +14,7 @@ time for the Approximate Near Neighbor search problem. Our lower bounds hold in
 a restricted model of computation, which captures all hashing-based approaches.
 In articular, our lower bound matches the upper bound recently shown in
 [Laarhoven 2015] for the random instance on a Euclidean sphere (which we show
-in fact extends to the entire space \\{\mathbb{R}^d\\} using the techniques from
+in fact extends to the entire space \\{\mathbb\{R\}^d\\} using the techniques from
 [Andoni, Razenshteyn 2015]).
   We also show tight, unconditional cell-probe lower bounds for one and two
 probes, improving upon the best known bounds from [Panigrahy, Talwar, Wieder

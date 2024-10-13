@@ -15,5 +15,5 @@ functions, several efficient hash functions were proposed. This paper evaluates
 the security performance when we apply this kind of hash functions. We evaluate
 the security in several kinds of setting based on the \\{L_1\\} distinguishability
 criterion and the modified mutual information criterion. The obtained
-evaluation is based on smoothing of R\'{e}nyi entropy of order 2 and/or min
+evaluation is based on smoothing of R\'\{e\}nyi entropy of order 2 and/or min
 entropy. We clarify the difference between these two methods.

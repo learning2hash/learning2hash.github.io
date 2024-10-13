@@ -10,11 +10,11 @@ additional_links:
 tags: ['ARXIV', 'Graph', 'Independent']
 ---
 The monotone minimal perfect hash function (MMPHF) problem is the following
-indexing problem. Given a set \\{S= \{s_1,\ldots,s_n\}\\} of \\{n\\} distinct keys from
+indexing problem. Given a set \\{S= \\{s_1,\ldots,s_n\\}\\} of \\{n\\} distinct keys from
 a universe \\{U\\} of size \\{u\\}, create a data structure \\{DS\\} that answers the
 following query:
-  \[ RankOp(q) = \text{rank of } q \text{ in } S \text{ for all } q\in S
-  ~\text{ and arbitrary answer otherwise.}
+  \[ RankOp(q) = \text\{rank of \} q \text\{ in \} S \text\{ for all \} q\in S
+  ~\text\{ and arbitrary answer otherwise.\}
   \]
   Solutions to the MMPHF problem are in widespread use in both theory and
 practice.
@@ -25,10 +25,10 @@ looking bound is tight.
   In this paper, we show the latter: specifically that any data structure
 (deterministic or randomized) for monotone minimal perfect hashing of any
 collection of \\{n\\} elements from a universe of size \\{u\\} requires \\{Ω(n \cdot
-logloglog{u})\\} expected bits to answer every query correctly.
-  We achieve our lower bound by defining a graph \\{\mathbf{G}\\} where the nodes
-are the possible \\{{u \choose n}\\} inputs and where two nodes are adjacent if
+logloglog\{u\})\\} expected bits to answer every query correctly.
+  We achieve our lower bound by defining a graph \\{\mathbf\{G\}\\} where the nodes
+are the possible \\{\{u \choose n\}\\} inputs and where two nodes are adjacent if
 they cannot share the same \\{DS\\}. The size of \\{DS\\} is then lower bounded by the
-log of the chromatic number of \\{\mathbf{G}\\}. Finally, we show that the
-fractional chromatic number (and hence the chromatic number) of \\{\mathbf{G}\\} is
-lower bounded by \\{2^{Ω(n logloglog u)}\\}.
+log of the chromatic number of \\{\mathbf\{G\}\\}. Finally, we show that the
+fractional chromatic number (and hence the chromatic number) of \\{\mathbf\{G\}\\} is
+lower bounded by \\{2^\{Ω(n logloglog u)\}\\}.

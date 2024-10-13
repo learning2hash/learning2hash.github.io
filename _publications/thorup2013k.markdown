@@ -13,8 +13,8 @@ We show that linear probing requires 5-independent hash functions for
 expected constant-time performance, matching an upper bound of [Pagh et al.
 STOC'07]. More precisely, we construct a 4-independent hash functions yielding
 expected logarithmic search time.
-  For (1+{\epsilon})-approximate minwise independence, we show that Ω(log
-1/{\epsilon})-independent hash functions are required, matching an upper bound
+  For (1+\{\epsilon\})-approximate minwise independence, we show that Ω(log
+1/\{\epsilon\})-independent hash functions are required, matching an upper bound
 of [Indyk, SODA'99].
   We also show that the very fast 2-independent multiply-shift scheme of
 Dietzfelbinger [STACS'96] fails badly in both applications.

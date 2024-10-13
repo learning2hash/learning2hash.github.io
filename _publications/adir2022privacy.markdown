@@ -18,5 +18,5 @@ private set intersection (PSI). To this end, we propose a new and efficient
 privacy-preserving record linkage (PPRL) protocol that combines PSI and local
 sensitive hash (LSH) functions, and runs in linear time. We explain the privacy
 guarantees that our protocol provides and demonstrate its practicality by
-executing the protocol over two datasets with \\{2^{20}\\} records each, in \\{11-45\\}
+executing the protocol over two datasets with \\{2^\{20\}\\} records each, in \\{11-45\\}
 minutes, depending on network settings.

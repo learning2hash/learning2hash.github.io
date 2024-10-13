@@ -7,7 +7,7 @@ year: 2010
 bibkey: zhang2010self
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1004.5370"}
-tags: ['ARXIV', 'Unsupervised']
+tags: ['ARXIV', 'Supervised']
 ---
 The ability of fast similarity search at large scale is of great importance
 to many Information Retrieval (IR) applications. A promising way to accelerate

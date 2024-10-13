@@ -28,4 +28,4 @@ with standard set embedding approaches, including Generalized Mean (GeM)
 embedding/pooling, Featurewise Sort Pooling (FSPool), and Covariance Pooling
 and show consistent improvement in retrieval results. The code for replicating
 our results is available here:
-\href{https://github.com/mint-vu/SLOSH}{https://github.com/mint-vu/SLOSH}.
+\href\{https://github.com/mint-vu/SLOSH\}\{https://github.com/mint-vu/SLOSH\}.

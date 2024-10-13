@@ -18,7 +18,7 @@ many practical tasks due to its lower cost in both retrieval time and storage
 footprint. However, it has not been applied to multiple-domain networks. In
 this work, we bridge this gap by developing an unsupervised domain-adaptive
 hash learning method for networks, dubbed UDAH. Specifically, we develop four
-{task-specific yet correlated} components: (1) network structure preservation
+\{task-specific yet correlated\} components: (1) network structure preservation
 via a hard groupwise contrastive loss, (2) relaxation-free supervised hashing,
 (3) cross-domain intersected discriminators, and (4) semantic center alignment.
 We conduct a wide range of experiments to evaluate the effectiveness and

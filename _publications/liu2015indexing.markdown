@@ -7,7 +7,7 @@ year: 2015
 bibkey: liu2015indexing
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1508.00217"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Quantisation', 'Unsupervised']
+tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Quantisation', 'Supervised']
 ---
 The convolutional neural network (CNN) features can give a good description
 of image content, which usually represent images with unique global vectors.

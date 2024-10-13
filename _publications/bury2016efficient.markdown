@@ -13,7 +13,7 @@ The Jaccard index is an important similarity measure for item sets and
 Boolean data. On large datasets, an exact similarity computation is often
 infeasible for all item pairs both due to time and space constraints, giving
 rise to faster approximate methods. The algorithm of choice used to quickly
-compute the Jaccard index \\{\frac{\vert A \cap B \vert}{\vert A\cup B\vert}\\} of
+compute the Jaccard index \\{\frac\{\vert A \cap B \vert\}\{\vert A\cup B\vert\}\\} of
 two item sets \\{A\\} and \\{B\\} is usually a form of min-hashing. Most min-hashing
 schemes are maintainable in data streams processing only additions, but none
 are known to work when facing item-wise deletions. In this paper, we

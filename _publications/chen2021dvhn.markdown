@@ -21,9 +21,9 @@ discrete binary codes and ensure the learned binary codes are optimal for
 classification. To optimize the deep discrete hashing framework, we further
 propose an alternating minimization method for learning binary
 similarity-preserved hashing codes. Extensive experiments on two widely-studied
-vehicle re-identification datasets- \textbf{VehicleID} and \textbf{VeRi}-~have
+vehicle re-identification datasets- \textbf\{VehicleID\} and \textbf\{VeRi\}-~have
 demonstrated the superiority of our method against the state-of-the-art deep
-hash methods. \textbf{DVHN} of \\{2048\\} bits can achieve 13.94\% and 10.21\%
-accuracy improvement in terms of \textbf{mAP} and \textbf{Rank@1} for
-\textbf{VehicleID (800)} dataset. For \textbf{VeRi}, we achieve 35.45\% and
-32.72\% performance gains for \textbf{Rank@1} and \textbf{mAP}, respectively.
+hash methods. \textbf\{DVHN\} of \\{2048\\} bits can achieve 13.94\% and 10.21\%
+accuracy improvement in terms of \textbf\{mAP\} and \textbf\{Rank@1\} for
+\textbf\{VehicleID (800)\} dataset. For \textbf\{VeRi\}, we achieve 35.45\% and
+32.72\% performance gains for \textbf\{Rank@1\} and \textbf\{mAP\}, respectively.

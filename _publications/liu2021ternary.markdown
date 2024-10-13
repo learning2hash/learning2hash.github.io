@@ -13,7 +13,7 @@ This paper proposes a novel ternary hash encoding for learning to hash
 methods, which provides a principled more efficient coding scheme with
 performances better than those of the state-of-the-art binary hashing
 counterparts. Two kinds of axiomatic ternary logic, Kleene logic and
-{\L}ukasiewicz logic are adopted to calculate the Ternary Hamming Distance
+\{\L\}ukasiewicz logic are adopted to calculate the Ternary Hamming Distance
 (THD) for both the learning/encoding and testing/querying phases. Our work
 demonstrates that, with an efficient implementation of ternary logic on
 standard binary machines, the proposed ternary hashing is compared favorably to

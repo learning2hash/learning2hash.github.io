@@ -7,7 +7,7 @@ year: 2024
 bibkey: grauman2024learning
 additional_links:
   - {name: "Paper", url: "https://link.springer.com/chapter/10.1007/978-3-642-28661-2_3"}
-tags: ['ARXIV', 'Survey Paper', 'Unsupervised']
+tags: ['ARXIV', 'Supervised', 'Survey Paper']
 ---
 Algorithms to rapidly search massive image or video collections are critical for many vision applications, including visual search, content-based retrieval, and non-parametric models for object recognition. Recent work shows that learned binary projections are a powerful way to index large collections according to their content. The basic idea is to formulate the projections so as to approximately preserve a given similarity function of interest. Having done so, one can then search the data efficiently using hash tables, or by exploring the Hamming ball volume around a novel query. Both enable sub-linear time retrieval with respect to the database size. Further, depending on the design of the projections, in some cases it is possible to bound the number of database examples that must be searched in order to achieve a given level of accuracy.
 

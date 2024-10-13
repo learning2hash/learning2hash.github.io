@@ -11,7 +11,7 @@ tags: ['ARXIV']
 ---
 Neural embedding models have become a fundamental component of modern
 information retrieval (IR) pipelines. These models produce a single embedding
-\\{x \in \mathbb{R}^d\\} per data-point, allowing for fast retrieval via highly
+\\{x \in \mathbb\{R\}^d\\} per data-point, allowing for fast retrieval via highly
 optimized maximum inner product search (MIPS) algorithms. Recently, beginning
 with the landmark ColBERT paper, multi-vector models, which produce a set of
 embedding per data point, have achieved markedly superior performance for IR

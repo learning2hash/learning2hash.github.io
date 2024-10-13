@@ -17,7 +17,7 @@ can be inferred from the outcome of NNS. The overwhelming growth in the size of
 current datasets and the lack of a truly secure server in the online world
 render the existing solutions impractical; either due to their high
 computational requirements or non-realistic assumptions which potentially
-compromise privacy. PP-NNS having query time {\it sub-linear} in the size of
+compromise privacy. PP-NNS having query time \{\it sub-linear\} in the size of
 the database has been suggested as an open research direction by Li et al.
 (CCSW'15). In this paper, we provide the first such algorithm, called Secure
 Locality Sensitive Indexing (SLSI) which has a sub-linear query time and the

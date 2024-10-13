@@ -19,7 +19,7 @@ to this problem either rely on very large (superconstant) approximation ratios
 solutions are not competitive with trivially searching through all \\{n\\} strings.
   In this work give a simple and easy-to-implement hash function that can
 quickly answer queries for a wide range of parameters. Specifically, our
-strategy can answer queries in time \\{\tilde{O}(d3^rn^{1/c})\\}. The best known
+strategy can answer queries in time \\{\tilde\{O\}(d3^rn^\{1/c\})\\}. The best known
 practical results require \\{c \gg r\\} to achieve any correctness guarantee;
 meanwhile, the best known theoretical results are very involved and difficult
 to implement, and require query time at least \\{24^r\\}. Our results significantly

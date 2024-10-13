@@ -23,8 +23,8 @@ In this paper, we motivate the problem of jointly and efficiently training the
 robust hash functions over data objects with multi-feature representations
 which may be noise corrupted. To achieve both the robustness and training
 efficiency, we propose an approach to effectively and efficiently learning
-low-rank kernelized \footnote{We use kernelized similarity rather than kernel,
-as it is not a squared symmetric matrix for data-landmark affinity matrix.}
+low-rank kernelized \footnote\{We use kernelized similarity rather than kernel,
+as it is not a squared symmetric matrix for data-landmark affinity matrix.\}
 hash functions shared across views. Specifically, we utilize landmark graphs to
 construct tractable similarity matrices in multi-views to automatically
 discover neighborhood structure in the data. To learn robust hash functions, a

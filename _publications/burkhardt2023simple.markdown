@@ -11,11 +11,11 @@ tags: ['ARXIV', 'Graph']
 ---
 We consider the problem of counting 4-cycles (\\{C_4\\}) in an undirected graph
 \\{G\\} of \\{n\\} vertices and \\{m\\} edges (in bipartite graphs, 4-cycles are also often
-referred to as \\{\textit{butterflies}\\}). Most recently, Wang et al. (2019, 2022)
+referred to as \\{\textit\{butterflies\}\\}). Most recently, Wang et al. (2019, 2022)
 developed algorithms for this problem based on hash tables and sorting the
 graph by degree. Their algorithm takes \\{O(m\bar\delta)\\} expected time and
-\\{O(m)\\} space, where \\{\bar \delta \leq O(\sqrt{m})\\} is the \\{\textit{average
-degeneracy}\\} parameter introduced by Burkhardt, Faber \& Harris (2020). We
+\\{O(m)\\} space, where \\{\bar \delta \leq O(\sqrt\{m\})\\} is the \\{\textit\{average
+degeneracy\}\\} parameter introduced by Burkhardt, Faber \& Harris (2020). We
 develop a streamlined version of this algorithm requiring \\{O(m\bar\delta)\\} time
 and precisely \\{n\\} words of space. It has several practical improvements and
 optimizations; for example, it is fully deterministic, does not require any

@@ -17,7 +17,7 @@ The resulting embeddings require large amounts of memory that blow up with the
 number of tokens. Training and inference with these models create storage, and
 memory bandwidth bottlenecks leading to significant computing and energy
 consumption when deployed in practice. To this end, we present the problem of
-\textit{Memory Allocation} under budget for embeddings and propose a novel
+\textit\{Memory Allocation\} under budget for embeddings and propose a novel
 formulation of memory shared embedding, where memory is shared in proportion to
 the overlap in semantic information. Our formulation admits a practical and
 efficient randomized solution with Locality sensitive hashing based Memory

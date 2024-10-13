@@ -21,6 +21,6 @@ target domain images. Our method encodes two domains images into a semantic
 common space, followed by two independent generative adversarial networks
 arming at crosswise reconstructing two domains' images, reducing domain
 disparity and improving alignment in the shared space. We evaluate our
-framework on {four} public benchmark datasets, all of which show that our
+framework on \{four\} public benchmark datasets, all of which show that our
 method is superior to the other state-of-the-art methods on the tasks of object
 recognition and image retrieval.

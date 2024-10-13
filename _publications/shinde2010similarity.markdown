@@ -29,7 +29,7 @@ bit vector within a database of ternary vectors, where every bit position
 represents \\{0\\}, \\{1\\} or \\{*\\}. The \\{*\\} is a wild card representing either a \\{0\\} or
 a \\{1\\}. We leverage TCAMs to design a variant of LSH, called Ternary Locality
 Sensitive Hashing (TLSH) wherein we hash database entries represented by
-vectors in the Euclidean space into \\{\{0,1,*\}\\}. By using the added
+vectors in the Euclidean space into \\{\\{0,1,*\\}\\}. By using the added
 functionality of a TLSH scheme with respect to the \\{*\\} character, we solve an
 instance of the approximate nearest neighbor problem with 1 TCAM access and
 storage nearly linear in the size of the database. We believe that this work

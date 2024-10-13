@@ -10,7 +10,7 @@ additional_links:
 tags: ['ARXIV', 'Unsupervised']
 ---
 Content-aware recommendation approaches are essential for providing
-meaningful recommendations for \textit{new} (i.e., \textit{cold-start}) items
+meaningful recommendations for \textit\{new\} (i.e., \textit\{cold-start\}) items
 in a recommender system. We present a content-aware neural hashing-based
 collaborative filtering approach (NeuHash-CF), which generates binary hash
 codes for users and items, such that the highly efficient Hamming distance can

@@ -17,7 +17,7 @@ hash functions, or on the unrealistic assumption of free access to a truly
 random hash function. Already Carter and Wegman, in their seminal paper on
 universal hashing, raised the question of extending their analysis to linear
 probing. However, we show in this paper that linear probing using a pairwise
-independent family may have expected {\em logarithmic} cost per operation. On
+independent family may have expected \{\em logarithmic\} cost per operation. On
 the positive side, we show that 5-wise independence is enough to ensure
 constant expected time per operation. This resolves the question of finding a
 space and time efficient hash function that provably ensures good performance

@@ -14,7 +14,7 @@ applications such as image retrieval and network compression. Nevertheless,
 existing approaches could hardly guarantee a satisfactory performance with the
 extremely low-bit (e.g., 4-bit) hash codes due to the severe information loss
 and the shrink of the discrete solution space. In this paper, we propose a
-novel \textit{Collaborative Learning} strategy that is tailored for generating
+novel \textit\{Collaborative Learning\} strategy that is tailored for generating
 high-quality low-bit hash codes. The core idea is to jointly distill
 bit-specific and informative representations for a group of pre-defined code
 lengths. The learning of short hash codes among the group can benefit from the

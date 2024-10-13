@@ -10,7 +10,7 @@ additional_links:
 tags: ['ARXIV', 'Independent', 'LSH']
 ---
 An important question that arises in the study of high dimensional vector
-representations learned from data is: given a set \\{\mathcal{D}\\} of vectors and
+representations learned from data is: given a set \\{\mathcal\{D\}\\} of vectors and
 a query \\{q\\}, estimate the number of points within a specified distance
 threshold of \\{q\\}. We develop two estimators, LSH Count and Multi-Probe Count
 that use locality sensitive hashing to preprocess the data to accurately and

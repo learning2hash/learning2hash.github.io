@@ -12,7 +12,7 @@ tags: ['ARXIV']
 In this paper we revisit the kernel density estimation problem: given a
 kernel \\{K(x, y)\\} and a dataset of \\{n\\} points in high dimensional Euclidean
 space, prepare a data structure that can quickly output, given a query \\{q\\}, a
-\\{(1+\epsilon)\\}-approximation to \\{\mu:=\frac1{|P|}\sum_{p\in P} K(p, q)\\}. First,
+\\{(1+\epsilon)\\}-approximation to \\{\mu:=\frac1\{|P|\}\sum_\{p\in P\} K(p, q)\\}. First,
 we give a single data structure based on classical near neighbor search
 techniques that improves upon or essentially matches the query time and space
 complexity for all radial kernels considered in the literature so far. We then
@@ -27,9 +27,9 @@ appropriate distance from the query. We show that the resulting sampled dataset
 has strong geometric structure, making approximate near neighbor search return
 the required samples much more efficiently than for worst case datasets of the
 same size. As an example application, we show that this approach yields a data
-structure that achieves query time \\{\mu^{-(1+o(1))/4}\\} and space complexity
-\\{\mu^{-(1+o(1))}\\} for the Gaussian kernel. Our data dependent approach achieves
-query time \\{\mu^{-0.173-o(1)}\\} and space \\{\mu^{-(1+o(1))}\\} for the Gaussian
+structure that achieves query time \\{\mu^\{-(1+o(1))/4\}\\} and space complexity
+\\{\mu^\{-(1+o(1))\}\\} for the Gaussian kernel. Our data dependent approach achieves
+query time \\{\mu^\{-0.173-o(1)\}\\} and space \\{\mu^\{-(1+o(1))\}\\} for the Gaussian
 kernel. The data dependent analysis relies on new techniques for tracking the
 geometric structure of the input datasets in a recursive hashing process that
 we hope will be of interest in other applications in near neighbor search.

@@ -29,4 +29,4 @@ models with the teacher models under different retrieval frameworks, including
 deep cauchy hashing (DCH) and central similarity quantization (CSQ). The
 experimental results confirm that the proposed approach provides a promising
 trade-off between the retrieval results and efficiency. The code used in this
-paper is released publicly at \url{https://github.com/satoru2001/CUKDFIR}.
+paper is released publicly at \url\{https://github.com/satoru2001/CUKDFIR\}.

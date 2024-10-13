@@ -25,4 +25,4 @@ CIFAR10, ImageNet, NUS-Wide, and COCO datasets. The proposed VTS based image
 retrieval outperforms the recent state-of-the-art hashing techniques with a
 great margin. We also find the proposed VTS model as the backbone network is
 better than the existing networks, such as AlexNet and ResNet. The code is
-released at \url{https://github.com/shivram1987/VisionTransformerHashing}.
+released at \url\{https://github.com/shivram1987/VisionTransformerHashing\}.

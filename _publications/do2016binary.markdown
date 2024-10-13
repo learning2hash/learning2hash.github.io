@@ -7,7 +7,7 @@ year: 2016
 bibkey: do2016binary
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1607.05396"}
-tags: ['ARXIV', 'Unsupervised']
+tags: ['ARXIV', 'Supervised']
 ---
 This paper proposes two approaches for inferencing binary codes in two-step
 (supervised, unsupervised) hashing. We first introduce an unified formulation

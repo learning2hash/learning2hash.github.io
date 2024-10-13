@@ -10,19 +10,19 @@ additional_links:
 tags: ['Independent', 'LSH']
 ---
 A celebrated technique for finding near neighbors for the angular distance
-involves using a set of \textit{random} hyperplanes to partition the space into
+involves using a set of \textit\{random\} hyperplanes to partition the space into
 hash regions [Charikar, STOC 2002]. Experiments later showed that using a set
-of \textit{orthogonal} hyperplanes, thereby partitioning the space into the
+of \textit\{orthogonal\} hyperplanes, thereby partitioning the space into the
 Voronoi regions induced by a hypercube, leads to even better results [Terasawa
 and Tanaka, WADS 2007]. However, no theoretical explanation for this
 improvement was ever given, and it remained unclear how the resulting hypercube
 hash method scales in high dimensions.
   In this work, we provide explicit asymptotics for the collision probabilities
 when using hypercubes to partition the space. For instance, two near-orthogonal
-vectors are expected to collide with probability \\{(\frac{1}{\pi})^{d + o(d)}\\}
-in dimension \\{d\\}, compared to \\{(\frac{1}{2})^d\\} when using random hyperplanes.
-Vectors at angle \\{\frac{\pi}{3}\\} collide with probability
-\\{(\frac{\sqrt{3}}{\pi})^{d + o(d)}\\}, compared to \\{(\frac{2}{3})^d\\} for random
+vectors are expected to collide with probability \\{(\frac\{1\}\{\pi\})^\{d + o(d)\}\\}
+in dimension \\{d\\}, compared to \\{(\frac\{1\}\{2\})^d\\} when using random hyperplanes.
+Vectors at angle \\{\frac\{\pi\}\{3\}\\} collide with probability
+\\{(\frac\{\sqrt\{3\}\}\{\pi\})^\{d + o(d)\}\\}, compared to \\{(\frac\{2\}\{3\})^d\\} for random
 hyperplanes, and near-parallel vectors collide with similar asymptotic
 probabilities in both cases.
   For \\{c\\}-approximate nearest neighbor searching, this translates to a decrease

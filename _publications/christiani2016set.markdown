@@ -10,15 +10,15 @@ additional_links:
 tags: ['ARXIV', 'Independent', 'LSH']
 ---
 We consider the problem of approximate set similarity search under
-Braun-Blanquet similarity \\{B(\mathbf{x}, \mathbf{y}) = |\mathbf{x} \cap
-\mathbf{y}| / \max(|\mathbf{x}|, |\mathbf{y}|)\\}. The \\{(b_2, b_2)\\}-approximate
+Braun-Blanquet similarity \\{B(\mathbf\{x\}, \mathbf\{y\}) = |\mathbf\{x\} \cap
+\mathbf\{y\}| / \max(|\mathbf\{x\}|, |\mathbf\{y\}|)\\}. The \\{(b_2, b_2)\\}-approximate
 Braun-Blanquet similarity search problem is to preprocess a collection of sets
-\\{P\\} such that, given a query set \\{\mathbf{q}\\}, if there exists \\{\mathbf{x} \in
-P\\} with \\{B(\mathbf{q}, \mathbf{x}) \geq b_1\\}, then we can efficiently return
-\\{\mathbf{x}' \in P\\} with \\{B(\mathbf{q}, \mathbf{x}') > b_2\\}.
+\\{P\\} such that, given a query set \\{\mathbf\{q\}\\}, if there exists \\{\mathbf\{x\} \in
+P\\} with \\{B(\mathbf\{q\}, \mathbf\{x\}) \geq b_1\\}, then we can efficiently return
+\\{\mathbf\{x\}' \in P\\} with \\{B(\mathbf\{q\}, \mathbf\{x\}') > b_2\\}.
   We present a simple data structure that solves this problem with space usage
-\\{O(n^{1+\rho}log n + \sum_{\mathbf{x} \in P}|\mathbf{x}|)\\} and query time
-\\{O(|\mathbf{q}|n^{\rho} log n)\\} where \\{n = |P|\\} and \\{\rho =
+\\{O(n^\{1+\rho\}log n + \sum_\{\mathbf\{x\} \in P\}|\mathbf\{x\}|)\\} and query time
+\\{O(|\mathbf\{q\}|n^\{\rho\} log n)\\} where \\{n = |P|\\} and \\{\rho =
 log(1/b_1)/log(1/b_2)\\}. Making use of existing lower bounds for
 locality-sensitive hashing by O'Donnell et al. (TOCT 2014) we show that this
 value of \\{\rho\\} is tight across the parameter space, i.e., for every choice of

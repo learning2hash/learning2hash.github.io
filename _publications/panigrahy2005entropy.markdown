@@ -26,7 +26,7 @@ the entropy \\{I(h(p)|q,h) = M\\} and \\{g\\} is a bound on the probability that
 far-off points will hash to the same bucket, then we can find the approximate
 nearest neighbor in \\{O(n^\rho)\\} time and near linear \\{\tilde O(n)\\} space where
 \\{\rho = M/log(1/g)\\}. Alternatively we can build a data structure of size
-\\{\tilde O(n^{1/(1-\rho)})\\} to answer queries in \\{\tilde O(d)\\} time. By applying
+\\{\tilde O(n^\{1/(1-\rho)\})\\} to answer queries in \\{\tilde O(d)\\} time. By applying
 this analysis to the locality preserving hash functions in and adjusting the
 parameters we show that the \\{c\\} nearest neighbor can be computed in time
 \\{\tilde O(n^\rho)\\} and near linear space where \\{\rho \approx 2.06/c\\} as \\{c\\}

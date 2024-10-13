@@ -15,7 +15,7 @@ machine learning, especially adversarial deep learning, in the context of
 malware detection has received much less attention despite its apparent
 importance. In this paper, we present a framework for enhancing the robustness
 of Deep Neural Networks (DNNs) against adversarial malware samples, dubbed
-Hashing Transformation Deep Neural Networks} (HashTran-DNN). The core idea is
+Hashing Transformation Deep Neural Networks\} (HashTran-DNN). The core idea is
 to use hash functions with a certain locality-preserving property to transform
 samples to enhance the robustness of DNNs in malware classification. The
 framework further uses a Denoising Auto-Encoder (DAE) regularizer to

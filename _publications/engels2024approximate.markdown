@@ -9,8 +9,8 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2402.00943"}
 tags: ['ARXIV', 'Independent']
 ---
-We define and investigate the problem of \\{\textit{c-approximate window
-search}\\}: approximate nearest neighbor search where each point in the dataset
+We define and investigate the problem of \\{\textit\{c-approximate window
+search\}\\}: approximate nearest neighbor search where each point in the dataset
 has a numeric label, and the goal is to find nearest neighbors to queries
 within arbitrary label ranges. Many semantic search problems, such as image and
 document search with timestamp filters, or product search with cost filters,

@@ -14,7 +14,7 @@ retrieval, where semantic hashing has become a popular strategy for
 representing documents as binary hash codes. Recent advances in this area have
 been obtained through neural network based models: generative models trained by
 learning to reconstruct the original documents. We present a novel unsupervised
-generative semantic hashing approach, \textit{Ranking based Semantic Hashing}
+generative semantic hashing approach, \textit\{Ranking based Semantic Hashing\}
 (RBSH) that consists of both a variational and a ranking based component.
 Similarly to variational autoencoders, the variational component is trained to
 reconstruct the original document conditioned on its generated hash code, and

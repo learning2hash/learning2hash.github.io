@@ -11,9 +11,9 @@ tags: ['ARXIV', 'Graph', 'Independent']
 ---
 Consistent sampling is a technique for specifying, in small space, a subset
 \\{S\\} of a potentially large universe \\{U\\} such that the elements in \\{S\\} satisfy a
-suitably chosen sampling condition. Given a subset \\{\mathcal{I}\subseteq U\\} it
-should be possible to quickly compute \\{\mathcal{I}\cap S\\}, i.e., the elements
-in \\{\mathcal{I}\\} satisfying the sampling condition. Consistent sampling has
+suitably chosen sampling condition. Given a subset \\{\mathcal\{I\}\subseteq U\\} it
+should be possible to quickly compute \\{\mathcal\{I\}\cap S\\}, i.e., the elements
+in \\{\mathcal\{I\}\\} satisfying the sampling condition. Consistent sampling has
 important applications in similarity estimation, and estimation of the number
 of distinct items in a data stream.
   In this paper we generalize consistent sampling to the setting where we are
@@ -22,9 +22,9 @@ of sets of bounded size \\{b\\}, where \\{k\\} is a small integer. This can be d
 applying standard consistent sampling to the \\{k\\}-subsets of each set, but that
 approach requires time \\{\Theta(b^k)\\}. Using a carefully designed hash function,
 for a given sampling probability \\{p \in (0,1]\\}, we show how to improve the time
-complexity to \\{\Theta(b^{\lceil k/2\rceil}log log b + pb^k)\\} in expectation,
+complexity to \\{\Theta(b^\{\lceil k/2\rceil\}log log b + pb^k)\\} in expectation,
 while maintaining strong concentration bounds for the sample. The space usage
-of our method is \\{\Theta(b^{\lceil k/4\rceil})\\}.
+of our method is \\{\Theta(b^\{\lceil k/4\rceil\})\\}.
   We demonstrate the utility of our technique by applying it to several
 well-studied data mining problems. We show how to efficiently estimate the
 number of frequent \\{k\\}-itemsets in a stream of transactions and the number of

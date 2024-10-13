@@ -11,8 +11,8 @@ tags: ['ARXIV', 'Unsupervised']
 ---
 How data is represented and operationalized is critical for building
 computational solutions that are both effective and efficient. A common
-approach is to represent data objects as binary vectors, denoted \textit{hash
-codes}, which require little storage and enable efficient similarity search
+approach is to represent data objects as binary vectors, denoted \textit\{hash
+codes\}, which require little storage and enable efficient similarity search
 through direct indexing into a hash table or through similarity computations in
 an appropriate space. Due to the limited expressibility of hash codes, compared
 to real-valued representations, a core open challenge is how to generate hash

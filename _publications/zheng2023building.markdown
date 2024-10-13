@@ -14,7 +14,7 @@ privacy, digital advertising is shifting from member-based identity to
 cohort-based identity. Under such identity regime, an accurate and efficient
 cohort building algorithm is desired to group users with similar
 characteristics. In this paper, we propose a scalable \\{K\\}-anonymous cohort
-building algorithm called {\em consecutive consistent weighted sampling}
+building algorithm called \{\em consecutive consistent weighted sampling\}
 (CCWS). The proposed method combines the spirit of the (\\{p\\}-powered) consistent
 weighted sampling and hierarchical clustering, so that the \\{K\\}-anonymity is
 ensured by enforcing a lower bound on the size of cohorts. Evaluations on a

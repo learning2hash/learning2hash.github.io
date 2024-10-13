@@ -21,5 +21,5 @@ then loaded into a quantum simulator. A quantum search algorithm is then used
 search among every permutation of the entangled key and value pairs to find the
 desired hash value. This prevents one from having to re-compute hashes for a
 set of \\{n\\}-grams, which can take on average \\{O(MN)\\} time, whereas the quantum
-algorithm could take \\{O(\sqrt{N})\\} in the number of table lookups to find the
+algorithm could take \\{O(\sqrt\{N\})\\} in the number of table lookups to find the
 desired hash values.

@@ -16,8 +16,8 @@ can find the nearest neighbors of a set of points, given as a query.
   Let \\{ s(x,y) \\} be the similarity between two points \\{ x \\} and \\{ y \\}. We
 define a similarity between a set \\{ Q\\} and a point \\{ x \\} by aggregating the
 similarities \\{ s(p,x) \\} for all \\{ p\in Q \\}. For example, we can take \\{ s(p,x) \\}
-to be the angular similarity between \\{ p \\} and \\{ x \\} (i.e., \\{1-{\angle
-(x,p)}/{\pi}\\}), and aggregate by arithmetic or geometric averaging, or taking
+to be the angular similarity between \\{ p \\} and \\{ x \\} (i.e., \\{1-\{\angle
+(x,p)\}/\{\pi\}\\}), and aggregate by arithmetic or geometric averaging, or taking
 the lowest similarity.
   We develop locality sensitive hash families and data structures for a large
 set of such arithmetic and geometric averaging similarities, and analyze their

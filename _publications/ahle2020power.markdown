@@ -15,7 +15,7 @@ computation of the polynomial, the prime \\{p\\} is often chosen as a Mersenne
 prime \\{p=2^b-1\\}.
   In this paper, we show that there are other nice advantages to using Mersenne
 primes. Our view is that the hash function's output is a \\{b\\}-bit integer that
-is uniformly distributed in \\{\{0, \dots, 2^b-1\}\\}, except that \\{p\\} (the all
+is uniformly distributed in \\{\\{0, \dots, 2^b-1\\}\\}, except that \\{p\\} (the all
 \texttt1s value in binary) is missing. Uniform bit strings have many nice
 properties, such as splitting into substrings which gives us two or more hash
 functions for the cost of one, while preserving strong theoretical qualities.

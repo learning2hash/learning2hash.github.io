@@ -13,7 +13,7 @@ Thanks to the success of deep learning, cross-modal retrieval has made
 significant progress recently. However, there still remains a crucial
 bottleneck: how to bridge the modality gap to further enhance the retrieval
 accuracy. In this paper, we propose a self-supervised adversarial hashing
-(\textbf{SSAH}) approach, which lies among the early attempts to incorporate
+(\textbf\{SSAH\}) approach, which lies among the early attempts to incorporate
 adversarial learning into cross-modal hashing in a self-supervised fashion. The
 primary contribution of this work is that two adversarial networks are
 leveraged to maximize the semantic correlation and consistency of the

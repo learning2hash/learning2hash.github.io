@@ -12,10 +12,10 @@ tags: ['ARXIV', 'FOCS']
 [See the paper for the full abstract.]
   We show tight upper and lower bounds for time-space trade-offs for the
 \\{c\\}-Approximate Near Neighbor Search problem. For the \\{d\\}-dimensional Euclidean
-space and \\{n\\}-point datasets, we develop a data structure with space \\{n^{1 +
-\rho_u + o(1)} + O(dn)\\} and query time \\{n^{\rho_q + o(1)} + d n^{o(1)}\\} for
-every \\{\rho_u, \rho_q \geq 0\\} such that: \begin{equation} c^2 \sqrt{\rho_q} +
-(c^2 - 1) \sqrt{\rho_u} = \sqrt{2c^2 - 1}. \end{equation}
+space and \\{n\\}-point datasets, we develop a data structure with space \\{n^\{1 +
+\rho_u + o(1)\} + O(dn)\\} and query time \\{n^\{\rho_q + o(1)\} + d n^\{o(1)\}\\} for
+every \\{\rho_u, \rho_q \geq 0\\} such that: \begin\{equation\} c^2 \sqrt\{\rho_q\} +
+(c^2 - 1) \sqrt\{\rho_u\} = \sqrt\{2c^2 - 1\}. \end\{equation\}
   This is the first data structure that achieves sublinear query time and
 near-linear space for every approximation factor \\{c > 1\\}, improving upon
 [Kapralov, PODS 2015]. The data structure is a culmination of a long line of

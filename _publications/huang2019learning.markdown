@@ -7,7 +7,7 @@ year: 2019
 bibkey: huang2019learning
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1902.08639"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+tags: ['ARXIV', 'Image Retrieval', 'Supervised']
 ---
 In this paper, we propose a novel hash learning approach that has the
 following main distinguishing features, when compared to past frameworks.

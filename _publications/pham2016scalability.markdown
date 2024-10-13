@@ -19,8 +19,8 @@ false negatives, we propose a fast and practical covering LSH scheme for
 Hamming space called *Fast CoveringLSH (fcLSH)*. Inheriting the design
 benefits of CoveringLSH our method avoids false negatives and always reports
 all near neighbors. Compared to CoveringLSH we achieve an asymptotic
-improvement to the hash function computation time from \\{\mathcal{O}(dL)\\} to
-\\{\mathcal{O}(d + Llog{L})\\}, where \\{d\\} is the dimensionality of data and \\{L\\} is
+improvement to the hash function computation time from \\{\mathcal\{O\}(dL)\\} to
+\\{\mathcal\{O\}(d + Llog\{L\})\\}, where \\{d\\} is the dimensionality of data and \\{L\\} is
 the number of hash tables. Our experiments on synthetic and real-world data
 sets demonstrate that *fcLSH* is comparable (and often superior) to
 traditional hashing-based approaches for search radius up to 20 in

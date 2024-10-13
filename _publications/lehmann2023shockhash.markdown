@@ -18,8 +18,8 @@ constructing MPHFs all use such a brute-force approach as a basic building
 block.
   In this paper, we introduce ShockHash - Small, heavily overloaded cuckoo hash
 tables for minimal perfect hashing. ShockHash uses two hash functions h_0 and
-h_1, hoping for the existence of a function f : S->{0, 1} such that x ->
-h_{f(x)}(x) is an MPHF on S. It then uses a 1-bit retrieval data structure to
+h_1, hoping for the existence of a function f : S->\{0, 1\} such that x ->
+h_\{f(x)\}(x) is an MPHF on S. It then uses a 1-bit retrieval data structure to
 store f using n + o(n) bits.
   In graph terminology, ShockHash generates n-edge random graphs until
 stumbling on a pseudoforest - where each component contains as many edges as

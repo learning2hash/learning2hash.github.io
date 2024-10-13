@@ -17,9 +17,9 @@ hashing methods ignore some critical problems (e.g., the learned hash codes are
 not discriminative due to the hashing methods being unable to discover rich
 semantic information and the training strategy having difficulty optimizing the
 discrete binary codes). In this paper, we propose a novel image hashing method,
-termed as \textbf{\underline{A}}symmetric \textbf{\underline{D}}eep
-\textbf{\underline{S}}emantic \textbf{\underline{Q}}uantization
-(\textbf{ADSQ}). \textbf{ADSQ} is implemented using three stream frameworks,
+termed as \textbf\{\underline\{A\}\}symmetric \textbf\{\underline\{D\}\}eep
+\textbf\{\underline\{S\}\}emantic \textbf\{\underline\{Q\}\}uantization
+(\textbf\{ADSQ\}). \textbf\{ADSQ\} is implemented using three stream frameworks,
 which consist of one *LabelNet* and two *ImgNets*. The
 *LabelNet* leverages the power of three fully-connected layers, which are
 used to capture rich semantic information between image pairs. For the two
@@ -29,8 +29,8 @@ networks). The two *ImgNets* are used to generate discriminative compact
 hash codes. Specifically, the function of the *LabelNet* is to capture
 rich semantic information that is used to guide the two *ImgNets* in
 minimizing the gap between the real-continuous features and the discrete binary
-codes. Furthermore, \textbf{ADSQ} can utilize the most critical semantic
+codes. Furthermore, \textbf\{ADSQ\} can utilize the most critical semantic
 information to guide the feature learning process and consider the consistency
 of the common semantic space and Hamming space. Experimental results on three
 benchmarks (i.e., CIFAR-10, NUS-WIDE, and ImageNet) demonstrate that the
-proposed \textbf{ADSQ} can outperforms current state-of-the-art methods.
+proposed \textbf\{ADSQ\} can outperforms current state-of-the-art methods.

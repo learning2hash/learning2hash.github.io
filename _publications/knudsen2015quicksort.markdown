@@ -26,12 +26,12 @@ We improve upon this, showing that the same running time is achieved with only
   -Min-wise hashing. For a set \\{A\\}, consider the probability of a particular
 element being mapped to the smallest hash value. It is known that
 \\{5\\}-independence implies the optimal probability \\{O (1 /n)\\}. Broder et al.,
-STOC'98 showed that \\{2\\}-independence implies it is \\{O(1 / \sqrt{|A|})\\}. We show
+STOC'98 showed that \\{2\\}-independence implies it is \\{O(1 / \sqrt\{|A|\})\\}. We show
 a matching lower bound as well as new tight bounds for \\{3\\}- and \\{4\\}-independent
 hash functions.
   -Largest bucket. We consider the case where \\{n\\} balls are distributed to \\{n\\}
 buckets using a \\{k\\}-independent hash function and analyze the largest bucket
 size. Alon et. al, STOC'97 showed that there exists a \\{2\\}-independent hash
-function implying a bucket of size \\{Ω ( n^{1/2})\\}. We generalize the
+function implying a bucket of size \\{Ω ( n^\{1/2\})\\}. We generalize the
 bound, providing a \\{k\\}-independent family of functions that imply size \\{Ω
-( n^{1/k})\\}.
+( n^\{1/k\})\\}.

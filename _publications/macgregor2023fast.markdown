@@ -10,7 +10,7 @@ additional_links:
 tags: ['ARXIV', 'Graph', 'Unsupervised']
 ---
 Constructing a similarity graph from a set \\{X\\} of data points in
-\\{\mathbb{R}^d\\} is the first step of many modern clustering algorithms. However,
+\\{\mathbb\{R\}^d\\} is the first step of many modern clustering algorithms. However,
 typical constructions of a similarity graph have high time complexity, and a
 quadratic space dependency with respect to \\{|X|\\}. We address this limitation
 and present a new algorithmic framework that constructs a sparse approximation

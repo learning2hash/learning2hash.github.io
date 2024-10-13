@@ -7,7 +7,7 @@ year: 2015
 bibkey: huang2015hash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1508.03285"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+tags: ['ARXIV', 'Image Retrieval', 'Supervised']
 ---
 In this paper we introduce a novel hash learning framework that has two main
 distinguishing features, when compared to past approaches. First, it utilizes

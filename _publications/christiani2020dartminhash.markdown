@@ -11,9 +11,9 @@ tags: ['ARXIV', 'Independent']
 ---
 Weighted minwise hashing is a standard dimensionality reduction technique
 with applications to similarity search and large-scale kernel machines. We
-introduce a simple algorithm that takes a weighted set \\{x \in \mathbb{R}_{\geq
-0}^{d}\\} and computes \\{k\\} independent minhashes in expected time \\{O(k log k +
-\Vert x \Vert_{0}log( \Vert x \Vert_1 + 1/\Vert x \Vert_1))\\}, improving upon
+introduce a simple algorithm that takes a weighted set \\{x \in \mathbb\{R\}_\{\geq
+0\}^\{d\}\\} and computes \\{k\\} independent minhashes in expected time \\{O(k log k +
+\Vert x \Vert_\{0\}log( \Vert x \Vert_1 + 1/\Vert x \Vert_1))\\}, improving upon
 the state-of-the-art BagMinHash algorithm (KDD '18) and representing the
 fastest weighted minhash algorithm for sparse data. Our experiments show
 running times that scale better with \\{k\\} and \\{\Vert x \Vert_0\\} compared to ICWS

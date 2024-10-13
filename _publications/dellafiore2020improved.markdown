@@ -13,7 +13,7 @@ For fixed integers \\{b\geq k\\}, a problem of relevant interest in computer
 science and combinatorics is that of determining the asymptotic growth, with
 \\{n\\}, of the largest set for which a \\{(b, k)\\}-hash family of \\{n\\} functions
 exists. Equivalently, determining the asymptotic growth of a largest subset of
-\\{\{1,2,\ldots,b\}^n\\} such that, for any \\{k\\} distinct elements in the set, there
+\\{\\{1,2,\ldots,b\\}^n\\} such that, for any \\{k\\} distinct elements in the set, there
 is a coordinate where they all differ.
   An important asymptotic upper bound for general \\{b, k\\}, was derived by
 Fredman and Koml\'os in the '80s and improved for certain \\{b\neq k\\} by K\"orner

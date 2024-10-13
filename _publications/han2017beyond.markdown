@@ -14,7 +14,7 @@ proposed, which for the first time achieves higher precision-recall (PR)
 performance compared with state-of-the-art SIFT feature based approaches. The
 proposed system originates from our previous work Multi-Index hashing for Loop
 closure Detection (MILD), which employs Multi-Index Hashing
-(MIH)~\cite{greene1994multi} for Approximate Nearest Neighbor (ANN) search of
+(MIH)~\cite\{greene1994multi\} for Approximate Nearest Neighbor (ANN) search of
 binary features. As the accuracy of MILD is limited by repeating textures and
 inaccurate image similarity measurement, burstiness handling is introduced to
 solve this problem and achieves considerable accuracy improvement.

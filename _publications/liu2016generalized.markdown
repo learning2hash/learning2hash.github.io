@@ -14,8 +14,8 @@ data, for example, large scale similarity search, which is crucial for
 content-based information retrieval and analysis. In this paper, we propose a
 novel vector quantization framework that iteratively minimizes quantization
 error. First, we provide a detailed review on a relevant vector quantization
-method named \textit{residual vector quantization} (RVQ). Next, we propose
-\textit{generalized residual vector quantization} (GRVQ) to further improve
+method named \textit\{residual vector quantization\} (RVQ). Next, we propose
+\textit\{generalized residual vector quantization\} (GRVQ) to further improve
 over RVQ. Many vector quantization methods can be viewed as the special cases
 of our proposed framework. We evaluate GRVQ on several large scale benchmark
 datasets for large scale search, classification and object retrieval. We

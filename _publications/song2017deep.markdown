@@ -26,4 +26,4 @@ which is based on the neighborhood structure in the original space.
 Experimental results on standard datasets (CIFAR-10, NUS-WIDE, and Oxford-17)
 demonstrate that our DDH significantly outperforms existing hashing methods by
 large margin in terms of~mAP for image retrieval and object recognition. Code
-is available at \url{https://github.com/htconquer/ddh}.
+is available at \url\{https://github.com/htconquer/ddh\}.

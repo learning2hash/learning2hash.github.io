@@ -21,7 +21,7 @@ closely related problems (e.g., stable hashing, dynamic retrieval, and
 dynamically-resized filters).
   This paper shows that O(loglog n) wasted bits per key is not the end of the
 line for hashing. In fact, for any k \in [log* n], it is possible to achieve
-O(k)-time insertions/deletions, O(1)-time queries, and O(log^{(k)} n) wasted
+O(k)-time insertions/deletions, O(1)-time queries, and O(log^\{(k)\} n) wasted
 bits per key (all with high probability in n). This means that, each time we
 increase insertion/deletion time by an *additive constant*, we reduce the
 wasted bits per key *exponentially*. We further show that this tradeoff

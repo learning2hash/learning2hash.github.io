@@ -16,6 +16,6 @@ can be adapted to fulfill many purposes, such as data visualization, denoising,
 anomaly detection and semantic hashing. This work presents these applications
 and provides details on how autoencoders can perform them, including code
 samples making use of an R package with an easy-to-use interface for
-autoencoder design and training, \texttt{ruta}. Along the way, the explanations
+autoencoder design and training, \texttt\{ruta\}. Along the way, the explanations
 on how each learning task has been achieved are provided with the aim to help
 the reader design their own autoencoders for these or other objectives.

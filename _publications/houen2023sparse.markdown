@@ -10,9 +10,9 @@ additional_links:
 tags: ['ARXIV', 'FOCS', 'Independent']
 ---
 The *Sparse Johnson-Lindenstrauss Transform* of Kane and Nelson (SODA
-2012) provides a linear dimensionality-reducing map \\{A \in \mathbb{R}^{m \times
-u}\\} in \\{ℓ₂\\} that preserves distances up to distortion of \\{1 + \epsilon\\}
-with probability \\{1 - \delta\\}, where \\{m = O(\epsilon^{-2} log 1/\delta)\\}
+2012) provides a linear dimensionality-reducing map \\{A \in \mathbb\{R\}^\{m \times
+u\}\\} in \\{ℓ₂\\} that preserves distances up to distortion of \\{1 + \epsilon\\}
+with probability \\{1 - \delta\\}, where \\{m = O(\epsilon^\{-2\} log 1/\delta)\\}
 and each column of \\{A\\} has \\{O(\epsilon m)\\} non-zero entries. The previous
 analyses of the Sparse Johnson-Lindenstrauss Transform all assumed access to a
 \\{Ω(log 1/\delta)\\}-wise independent hash function. The main contribution

@@ -12,7 +12,7 @@ tags: ['ARXIV', 'Graph', 'Independent']
 It is shown that for cuckoo hashing with a stash as proposed by Kirsch,
 Mitzenmacher, and Wieder (2008) families of very simple hash functions can be
 used, maintaining the favorable performance guarantees: with stash size \\{s\\} the
-probability of a rehash is \\{O(1/n^{s+1})\\}, and the evaluation time is \\{O(s)\\}.
+probability of a rehash is \\{O(1/n^\{s+1\})\\}, and the evaluation time is \\{O(s)\\}.
 Instead of the full randomness needed for the analysis of Kirsch et al. and of
 Kutzelnigg (2010) (resp. \\{\Theta(log n)\\}-wise independence for standard cuckoo
 hashing) the new approach even works with 2-wise independent hash families as

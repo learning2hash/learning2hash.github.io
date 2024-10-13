@@ -18,17 +18,17 @@ quantized form of the Johnson-Lindenstrauss (JL) Lemma, i.e., one that combines
 a linear dimensionality reduction procedure with a uniform quantization of
 precision \\{\delta>0\\}. In particular, given a finite set \\{\mathcal S \subset
 \mathbb R^N\\} of \\{S\\} points and a distortion level \\{\epsilon>0\\}, as soon as \\{M >
-M_0 = O(\epsilon^{-2} log S)\\}, we can (randomly) construct a mapping from
+M_0 = O(\epsilon^\{-2\} log S)\\}, we can (randomly) construct a mapping from
 \\{(\mathcal S, ℓ₂)\\} to \\{(\delta\mathbb Z^M, \ell_1)\\} that approximately
 preserves the pairwise distances between the points of \\{\mathcal S\\}.
 Interestingly, compared to the common JL Lemma, the mapping is quasi-isometric
 and we observe both an additive and a multiplicative distortions on the
-embedded distances. These two distortions, however, decay as \\{O(\sqrt{(log
-S)/M})\\} when \\{M\\} increases. Moreover, for coarse quantization, i.e., for high
+embedded distances. These two distortions, however, decay as \\{O(\sqrt\{(log
+S)/M\})\\} when \\{M\\} increases. Moreover, for coarse quantization, i.e., for high
 \\{\delta\\} compared to the set radius, the distortion is mainly additive, while
 for small \\{\delta\\} we tend to a Lipschitz isometric embedding. Finally, we
 prove the existence of a "nearly" quasi-isometric embedding of \\{(\mathcal S,
 ℓ₂)\\} into \\{(\delta\mathbb Z^M, ℓ₂)\\}. This one involves a non-linear
 distortion of the \\{ℓ₂\\}-distance in \\{\mathcal S\\} that vanishes for distant
 points in this set. Noticeably, the additive distortion in this case is slower,
-and decays as \\{O(\sqrt[4]{(log S)/M})\\}.
+and decays as \\{O(\sqrt[4]\{(log S)/M\})\\}.

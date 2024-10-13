@@ -11,12 +11,12 @@ tags: ['Independent']
 ---
 We show that a randomly chosen linear map over a finite field gives a good
 hash function in the \\{\ell_\infty\\} sense. More concretely, consider a set \\{S
-\subset \mathbb{F}_q^n\\} and a randomly chosen linear map \\{L : \mathbb{F}_q^n
-\to \mathbb{F}_q^t\\} with \\{q^t\\} taken to be sufficiently smaller than \\{ |S|\\}.
+\subset \mathbb\{F\}_q^n\\} and a randomly chosen linear map \\{L : \mathbb\{F\}_q^n
+\to \mathbb\{F\}_q^t\\} with \\{q^t\\} taken to be sufficiently smaller than \\{ |S|\\}.
 Let \\{U_S\\} denote a random variable distributed uniformly on \\{S\\}. Our main
 theorem shows that, with high probability over the choice of \\{L\\}, the random
 variable \\{L(U_S)\\} is close to uniform in the \\{\ell_\infty\\} norm. In other
-words, {\em every} element in the range \\{\mathbb{F}_q^t\\} has about the same
+words, \{\em every\} element in the range \\{\mathbb\{F\}_q^t\\} has about the same
 number of elements in \\{S\\} mapped to it. This complements the widely-used
 Leftover Hash Lemma (LHL) which proves the analog statement under the
 statistical, or \\{\ell_1\\}, distance (for a richer class of functions) as well as

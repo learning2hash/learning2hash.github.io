@@ -20,14 +20,14 @@ directly relates to the privacy guarantees.
   As our main result, we present a more query-efficient cuckoo hashing
 construction using more hash functions. For construction failure probability
 \\{\epsilon\\}, the query overhead of our scheme is \\{O(1 +
-\sqrt{log(1/\epsilon)/log n})\\}. Our scheme has quadratically smaller query
+\sqrt\{log(1/\epsilon)/log n\})\\}. Our scheme has quadratically smaller query
 overhead than prior works for any target failure probability \\{\epsilon\\}. We
 also prove lower bounds matching our construction. Our improvements come from a
 new understanding of the locality of cuckoo hashing failures for small sets of
 items.
   We also initiate the study of robust cuckoo hashing where the input set may
 be chosen with knowledge of the hash functions. We present a cuckoo hashing
-scheme using more hash functions with query overhead \\{\tilde{O}(log \lambda)\\}
+scheme using more hash functions with query overhead \\{\tilde\{O\}(log \lambda)\\}
 that is robust against poly\\{(\lambda)\\} adversaries. Furthermore, we present
 lower bounds showing that this construction is tight and that extending
 previous approaches of large stashes or entries cannot obtain robustness except

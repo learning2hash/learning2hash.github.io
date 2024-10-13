@@ -9,8 +9,8 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1709.01190"}
 tags: ['ARXIV', 'Graph', 'Independent', 'LSH']
 ---
-We present FLASH (\textbf{F}ast \textbf{L}SH \textbf{A}lgorithm for
-\textbf{S}imilarity search accelerated with \textbf{H}PC), a similarity search
+We present FLASH (\textbf\{F\}ast \textbf\{L\}SH \textbf\{A\}lgorithm for
+\textbf\{S\}imilarity search accelerated with \textbf\{H\}PC), a similarity search
 system for ultra-high dimensional datasets on a single machine, that does not
 require similarity computations and is tailored for high-performance computing
 platforms. By leveraging a LSH style randomized indexing procedure and

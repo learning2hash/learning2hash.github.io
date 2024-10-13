@@ -7,7 +7,7 @@ year: 2019
 bibkey: do2019simultaneous
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1904.11820"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Unsupervised']
+tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Supervised']
 ---
 Representing images by compact hash codes is an attractive approach for
 large-scale content-based image retrieval. In most state-of-the-art

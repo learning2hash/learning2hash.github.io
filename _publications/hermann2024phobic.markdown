@@ -9,7 +9,7 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2404.18497"}
 tags: ['ARXIV', 'Independent']
 ---
-A minimal perfect hash function (MPHF) maps a set of n keys to {1, ..., n}
+A minimal perfect hash function (MPHF) maps a set of n keys to \{1, ..., n\}
 without collisions. Such functions find widespread application e.g. in
 bioinformatics and databases. In this paper we revisit PTHash - a construction
 technique particularly designed for fast queries. PTHash distributes the input

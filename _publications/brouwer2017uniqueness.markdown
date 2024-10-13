@@ -9,7 +9,7 @@ additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1709.02195"}
 tags: ['ARXIV']
 ---
-For \\{n,d,w \in \mathbb{N}\\}, let \\{A(n,d,w)\\} denote the maximum size of a
+For \\{n,d,w \in \mathbb\{N\}\\}, let \\{A(n,d,w)\\} denote the maximum size of a
 binary code of word length \\{n\\}, minimum distance \\{d\\} and constant weight \\{w\\}.
 Schrijver recently showed using semidefinite programming that
 \\{A(23,8,11)=1288\\}, and the second author that \\{A(22,8,11)=672\\} and

@@ -20,8 +20,8 @@ negatives in local semantic similarity will be introduced and lead to error
 propagation during the hash code learning. Moreover, few of the methods
 consider the robustness of models, which will cause instability of hash codes
 to disturbance. In this paper, we propose a new method named
-{\textbf{C}}omprehensive s{\textbf{I}}milarity {\textbf{M}}ining and
-c{\textbf{O}}nsistency lear{\textbf{N}}ing (CIMON). First, we use global
+\{\textbf\{C\}\}omprehensive s\{\textbf\{I\}\}milarity \{\textbf\{M\}\}ining and
+c\{\textbf\{O\}\}nsistency lear\{\textbf\{N\}\}ing (CIMON). First, we use global
 refinement and similarity statistical distribution to obtain reliable and
 smooth guidance. Second, both semantic and contrastive consistency learning are
 introduced to derive both disturb-invariant and discriminative hash codes.

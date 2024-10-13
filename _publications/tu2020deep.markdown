@@ -22,14 +22,14 @@ misses abundant semantic information, then hinders the further improvement of
 retrieval performance. Thus, in this paper, different from previous works, we
 propose a novel cross-modal hashing method without defining the similarity
 between datapoints, called Deep Cross-modal Hashing via
-\textit{Margin-dynamic-softmax Loss} (DCHML). Specifically, DCHML first trains
+\textit\{Margin-dynamic-softmax Loss\} (DCHML). Specifically, DCHML first trains
 a proxy hashing network to transform each category information of a dataset
 into a semantic discriminative hash code, called proxy hash code. Each proxy
 hash code can preserve the semantic information of its corresponding category
 well. Next, without defining the similarity between datapoints to supervise the
 training process of the modality-specific hashing networks , we propose a novel
-\textit{margin-dynamic-softmax loss} to directly utilize the proxy hashing
+\textit\{margin-dynamic-softmax loss\} to directly utilize the proxy hashing
 codes as supervised information. Finally, by minimizing the novel
-\textit{margin-dynamic-softmax loss}, the modality-specific hashing networks
+\textit\{margin-dynamic-softmax loss\}, the modality-specific hashing networks
 can be trained to generate hash codes which can simultaneously preserve the
 cross-modal similarity and abundant semantic information well.

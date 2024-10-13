@@ -10,7 +10,7 @@ additional_links:
 tags: ['Independent', 'SIGIR']
 ---
 Given a set \\{S\\} of \\{n\\} distinct keys, a function \\{f\\} that bijectively maps
-the keys of \\{S\\} into the range \\{\{0,\ldots,n-1\}\\} is called a minimal perfect
+the keys of \\{S\\} into the range \\{\\{0,\ldots,n-1\\}\\} is called a minimal perfect
 hash function for \\{S\\}. Algorithms that find such functions when \\{n\\} is large
 and retain constant evaluation time are of practical interest; for instance,
 search engines and databases typically use minimal perfect hash functions to

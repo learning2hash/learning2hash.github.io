@@ -17,7 +17,7 @@ membership queries, we attain the optimal space bound of Theta(n lg(u/n)) bits,
 where n and u are the sizes of the dictionary and the universe, respectively.
 Previous dictionaries either did not achieve this space bound or had time
 bounds that were only expected and amortized. When supporting perfect-hashing
-queries, the optimal space bound depends on the range {1,2,...,n+t} of
+queries, the optimal space bound depends on the range \{1,2,...,n+t\} of
 hashcodes allowed as output. We prove that the optimal space bound is Theta(n
 lglg(u/n) + n lg(n/(t+1))) bits when supporting only perfect-hashing queries,
 and it is Theta(n lg(u/n) + n lg(n/(t+1))) bits when also supporting membership

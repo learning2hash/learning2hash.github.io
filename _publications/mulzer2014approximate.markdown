@@ -10,7 +10,7 @@ additional_links:
 tags: ['ARXIV']
 ---
 Let \\{k\\} be a nonnegative integer. In the approximate \\{k\\}-flat nearest
-neighbor (\\{k\\}-ANN) problem, we are given a set \\{P \subset \mathbb{R}^d\\} of \\{n\\}
+neighbor (\\{k\\}-ANN) problem, we are given a set \\{P \subset \mathbb\{R\}^d\\} of \\{n\\}
 points in \\{d\\}-dimensional space and a fixed approximation factor \\{c > 1\\}. Our
 goal is to preprocess \\{P\\} so that we can efficiently answer approximate
 \\{k\\}-flat nearest neighbor queries: given a \\{k\\}-flat \\{F\\}, find a point in \\{P\\}
@@ -25,9 +25,9 @@ efficient data structure, due to Andoni, Indyk, Krauthgamer, and Nguyen. For \\{
 nearest neighbor queries for arbitrary \\{k\\}. We use a data structure for
 \\{0\\}-ANN-queries as a black box, and the performance depends on the parameters
 of the \\{0\\}-ANN solution: suppose we have an \\{0\\}-ANN structure with query time
-\\{O(n^{\rho})\\} and space requirement \\{O(n^{1+\sigma})\\}, for \\{\rho, \sigma > 0\\}.
-Then we can answer \\{k\\}-ANN queries in time \\{O(n^{k/(k + 1 - \rho) + t})\\} and
-space \\{O(n^{1+\sigma k/(k + 1 - \rho)} + nlog^{O(1/t)} n)\\}. Here, \\{t > 0\\} is
+\\{O(n^\{\rho\})\\} and space requirement \\{O(n^\{1+\sigma\})\\}, for \\{\rho, \sigma > 0\\}.
+Then we can answer \\{k\\}-ANN queries in time \\{O(n^\{k/(k + 1 - \rho) + t\})\\} and
+space \\{O(n^\{1+\sigma k/(k + 1 - \rho)\} + nlog^\{O(1/t)\} n)\\}. Here, \\{t > 0\\} is
 an arbitrary constant and the \\{O\\}-notation hides exponential factors in \\{k\\},
 \\{1/t\\}, and \\{c\\} and polynomials in \\{d\\}. Our new data structures also give an
 improvement in the space requirement over the previous result for \\{1\\}-ANN: we

@@ -10,7 +10,7 @@ additional_links:
 tags: ['ARXIV', 'Independent']
 ---
 It is known that if a 2-universal hash function \\{H\\} is applied to elements of
-a {\em block source} \\{(X_1,...,X_T)\\}, where each item \\{X_i\\} has enough
+a \{\em block source\} \\{(X_1,...,X_T)\\}, where each item \\{X_i\\} has enough
 min-entropy conditioned on the previous items, then the output distribution
 \\{(H,H(X_1),...,H(X_T))\\} will be ``close'' to the uniform distribution. We
 provide improved bounds on how much min-entropy per item is required for this

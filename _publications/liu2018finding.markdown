@@ -11,7 +11,7 @@ tags: ['ARXIV', 'Independent']
 ---
 A \\{k\\}-collision for a compressing hash function \\{H\\} is a set of \\{k\\} distinct
 inputs that all map to the same output. In this work, we show that for any
-constant \\{k\\}, \\{\Theta\left(N^{\frac{1}{2}(1-\frac{1}{2^k-1})}\right)\\} quantum
+constant \\{k\\}, \\{\Theta\left(N^\{\frac\{1\}\{2\}(1-\frac\{1\}\{2^k-1\})\}\right)\\} quantum
 queries are both necessary and sufficient to achieve a \\{k\\}-collision with
 constant probability. This improves on both the best prior upper bound
 (Hosoyamada et al., ASIACRYPT 2017) and provides the first non-trivial lower

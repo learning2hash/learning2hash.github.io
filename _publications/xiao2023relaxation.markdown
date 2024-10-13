@@ -7,7 +7,7 @@ year: 2023
 bibkey: xiao2023relaxation
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2308.10506"}
-tags: ['ARXIV', 'Unsupervised']
+tags: ['ARXIV', 'Supervised']
 ---
 This paper focuses on a class of binary orthogonal optimization problems
 frequently arising in semantic hashing. Consider that this class of problems

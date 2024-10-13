@@ -7,7 +7,7 @@ year: 2024
 bibkey: shen2024nash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/pdf/1805.05361.pdf"}
-tags: ['ARXIV', 'Theory', 'Unsupervised']
+tags: ['ARXIV', 'Supervised', 'Theory']
 ---
 Semantic hashing has become a powerful paradigm for fast similarity search
 in many information retrieval systems.

@@ -16,8 +16,8 @@ overlooked. Moreover, these methods predominantly focus on the Euclidean space
 for computational convenience, compromising their ability to map the
 multi-level semantic relationships between images effectively. To mitigate
 these shortcomings, we propose a novel unsupervised product quantization method
-dubbed \textbf{Hi}erarchical \textbf{H}yperbolic \textbf{P}roduct
-\textbf{Q}uantization (HiHPQ), which learns quantized representations by
+dubbed \textbf\{Hi\}erarchical \textbf\{H\}yperbolic \textbf\{P\}roduct
+\textbf\{Q\}uantization (HiHPQ), which learns quantized representations by
 incorporating hierarchical semantic similarity within hyperbolic geometry.
 Specifically, we propose a hyperbolic product quantizer, where the hyperbolic
 codebook attention mechanism and the quantized contrastive learning on the

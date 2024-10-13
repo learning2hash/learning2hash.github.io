@@ -16,10 +16,10 @@ for each ball and places the ball into the bin with the least load, and its
 non-uniform variant --- the *Always-Go-Left* scheme introduced by
 V\"ocking. We construct a hash family with \\{O(log n log log n)\\} random bits
 based on the previous work of Celis et al. and show the following results.
-  1. With high probability, this hash family has a maximum load of \\{\frac{log
-log n}{log d} + O(1)\\} in the *Uniform-Greedy* scheme.
-  2. With high probability, it has a maximum load of \\{\frac{log log n}{d log
-\phi_d} + O(1)\\} in the *Always-Go-Left* scheme for a constant
+  1. With high probability, this hash family has a maximum load of \\{\frac\{log
+log n\}\{log d\} + O(1)\\} in the *Uniform-Greedy* scheme.
+  2. With high probability, it has a maximum load of \\{\frac\{log log n\}\{d log
+\phi_d\} + O(1)\\} in the *Always-Go-Left* scheme for a constant
 \\{\phi_d>1.61\\}.
   The maximum loads of our hash family match the maximum loads of a perfectly
 random hash function in the *Uniform-Greedy* and *Always-Go-Left*

@@ -7,7 +7,7 @@ year: 2015
 bibkey: lai2015simultaneous
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1504.03410"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Unsupervised']
+tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised']
 ---
 Similarity-preserving hashing is a widely-used method for nearest neighbour
 search in large-scale image retrieval tasks. For most existing hashing methods,

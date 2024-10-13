@@ -32,4 +32,4 @@ similar or more efficient search. Experimental results over 16 real-world data
 sets show that Ball-Tree and BC-Tree are around 1.1\\{\sim\\}10\\{\times\\} faster than
 NH and FH, and they can reduce the index size and indexing time by about
 1\\{\sim\\}3 orders of magnitudes on average. The code is available at
-\url{https://github.com/HuangQiang/BC-Tree}.
+\url\{https://github.com/HuangQiang/BC-Tree\}.

@@ -29,7 +29,7 @@ concentrated hashing and establish a novel and beautiful connection between
 concentration measures of these hash functions and isoperimetric inequalities
 on boolean hypercubes. This allows us to obtain (log m) tight bounds on
 variance and dispersion index and show that p = O( log(m)/m ) suffices for
-design of sparse hash functions from {0, 1}^n to {0, 1}^m. We then use sparse
+design of sparse hash functions from \{0, 1\}^n to \{0, 1\}^m. We then use sparse
 hash functions belonging to this concentrated hash family to develop new
 approximate counting algorithms. A comprehensive experimental evaluation of our
 algorithm on 1893 benchmarks demonstrates that usage of sparse hash functions

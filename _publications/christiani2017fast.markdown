@@ -11,15 +11,15 @@ tags: ['ARXIV', 'FOCS', 'Independent', 'LSH']
 ---
 The Indyk-Motwani Locality-Sensitive Hashing (LSH) framework (STOC 1998) is a
 general technique for constructing a data structure to answer approximate near
-neighbor queries by using a distribution \\{\mathcal{H}\\} over locality-sensitive
+neighbor queries by using a distribution \\{\mathcal\{H\}\\} over locality-sensitive
 hash functions that partition space. For a collection of \\{n\\} points, after
-preprocessing, the query time is dominated by \\{O(n^{\rho} log n)\\} evaluations
-of hash functions from \\{\mathcal{H}\\} and \\{O(n^{\rho})\\} hash table lookups and
+preprocessing, the query time is dominated by \\{O(n^\{\rho\} log n)\\} evaluations
+of hash functions from \\{\mathcal\{H\}\\} and \\{O(n^\{\rho\})\\} hash table lookups and
 distance computations where \\{\rho \in (0,1)\\} is determined by the
-locality-sensitivity properties of \\{\mathcal{H}\\}. It follows from a recent
+locality-sensitivity properties of \\{\mathcal\{H\}\\}. It follows from a recent
 result by Dahlgaard et al. (FOCS 2017) that the number of locality-sensitive
 hash functions can be reduced to \\{O(log^2 n)\\}, leaving the query time to be
-dominated by \\{O(n^{\rho})\\} distance computations and \\{O(n^{\rho} log n)\\}
+dominated by \\{O(n^\{\rho\})\\} distance computations and \\{O(n^\{\rho\} log n)\\}
 additional word-RAM operations. We state this result as a general framework and
 provide a simpler analysis showing that the number of lookups and distance
 computations closely match the Indyk-Motwani framework, making it a viable

@@ -7,7 +7,7 @@ year: 2016
 bibkey: do2016learning
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1607.05140"}
-tags: ['ARXIV', 'Unsupervised']
+tags: ['ARXIV', 'Supervised']
 ---
 This work proposes deep network models and learning algorithms for
 unsupervised and supervised binary hashing. Our novel network design constrains

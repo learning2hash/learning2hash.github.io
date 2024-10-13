@@ -14,7 +14,7 @@ large-scale datasets. Near-isometric binary hashing (NIBH) is a data-dependent
 hashing scheme that quantizes the output of a learned low-dimensional embedding
 to obtain a binary hash code. In contrast to conventional hashing schemes,
 which typically rely on an \\{ℓ₂\\}-norm (i.e., average distortion)
-minimization, NIBH is based on a \\{\ell_{\infty}\\}-norm (i.e., worst-case
+minimization, NIBH is based on a \\{\ell_\{\infty\}\\}-norm (i.e., worst-case
 distortion) minimization that provides several benefits, including superior
 distance, ranking, and near-neighbor preservation performance. We develop a
 practical and efficient algorithm for NIBH based on column generation that

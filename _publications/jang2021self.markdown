@@ -7,7 +7,7 @@ year: 2021
 bibkey: jang2021self
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2109.02244"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Quantisation', 'Unsupervised']
+tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Quantisation', 'Supervised']
 ---
 Supervised deep learning-based hash and vector quantization are enabling fast
 and large-scale image retrieval systems. By fully exploiting label annotations,

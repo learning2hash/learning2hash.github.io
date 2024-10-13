@@ -11,7 +11,7 @@ tags: ['ARXIV', 'Independent']
 ---
 Minwise hashing is a fundamental and one of the most successful hashing
 algorithm in the literature. Recent advances based on the idea of
-densification~\cite{Proc:OneHashLSH_ICML14,Proc:Shrivastava_UAI14} have shown
+densification~\cite\{Proc:OneHashLSH_ICML14,Proc:Shrivastava_UAI14\} have shown
 that it is possible to compute \\{k\\} minwise hashes, of a vector with \\{d\\}
 nonzeros, in mere \\{(d + k)\\} computations, a significant improvement over the
 classical \\{O(dk)\\}. These advances have led to an algorithmic improvement in the

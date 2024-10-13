@@ -7,7 +7,7 @@ year: 2020
 bibkey: vulić2020multi
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2003.04866"}
-tags: ['ARXIV', 'Unsupervised', 'Weakly Supervised']
+tags: ['ARXIV', 'Supervised', 'Weakly Supervised']
 ---
 We introduce Multi-SimLex, a large-scale lexical resource and evaluation
 benchmark covering datasets for 12 typologically diverse languages, including
