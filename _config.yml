@@ -14,11 +14,3 @@ future: true
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
-markdown: Pandoc
-pandoc:
-  extensions:
-    - smart
-    - fenced_code_blocks
-    - tex_math_dollars
-    - footnotes
-
