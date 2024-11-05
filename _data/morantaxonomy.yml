@@ -1175,6 +1175,7 @@
 - {bibkey: roller2021hash, categories: ['Independent'], type: Deep, modality: Unimodal}
 - {bibkey: zhu2022lower, categories: ['Independent'], type: Deep, modality: Unimodal}
 # Supervised
+- {bibkey: wang2024hashing, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: fuad2007extended, categories: ['Supervised'], type: Deep, modality: Unimodal}
 - {bibkey: bringer2009identification, categories: ['Supervised'], type: Shallow, modality: Unimodal}
 - {bibkey: bolettieri2009cophir, categories: ['Supervised'], type: Shallow, modality: Cross-Modal}
