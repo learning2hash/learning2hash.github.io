@@ -8,7 +8,7 @@ citations: 0
 bibkey: hawkes2024perceptual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.06056'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We show that perceptual hashing, crucial for detecting and removing
 image-based sexual abuse (IBSA) online, faces vulnerabilities from low-budget

@@ -8,7 +8,7 @@ citations: 0
 bibkey: weiland2018understanding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1809.08593'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Evaluation', 'Datasets', 'Hashing']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Evaluation Metrics', 'Indexing', 'Hashing Fundamentals', 'Benchmarks and Datasets']
 ---
 Nowadays, where multimedia data is continuously generated, stored, and
 distributed, multimedia indexing, with its purpose of group- ing similar data,

@@ -9,7 +9,7 @@ bibkey: wang2019cross
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1912.06798'}
   - {name: "Code", url: 'https://github.com/MalongTech/research-xbm'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Loss Functions', 'Applications', 'Tools and Libraries', 'Benchmarks and Datasets', 'Has Code']
 ---
 Mining informative negative instances are of central importance to deep
 metric learning (DML), however this task is intrinsically limited by mini-batch

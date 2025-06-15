@@ -8,7 +8,7 @@ citations: 2
 bibkey: xie2013kernelized
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1301.3575'}
-tags: ['Unimodal', 'Evaluation', 'Shallow', 'Supervised', 'Similarity Learning', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Large scale agglomerative clustering is hindered by computational burdens. We
 propose a novel scheme where exact inter-instance distance calculation is

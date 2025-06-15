@@ -8,7 +8,7 @@ citations: 2
 bibkey: martínfernández2022analysis
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2209.11857'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 On 2\\(^\{nd\}\\) October 2012 the NIST (National Institute of Standards and
 Technology) in the United States of America announced the new hashing algorithm

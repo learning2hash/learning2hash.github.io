@@ -8,7 +8,7 @@ citations: 9
 bibkey: gomez2019self
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.02004'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 Self-Supervised learning from multimodal image and text data allows deep
 neural networks to learn powerful features with no need of human annotated

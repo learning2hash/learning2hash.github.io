@@ -8,7 +8,7 @@ citations: 2
 bibkey: mccauley2019approximate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1907.01600'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search']
 ---
 Edit distance similarity search, also called approximate pattern matching, is
 a fundamental problem with widespread database applications. The goal of the

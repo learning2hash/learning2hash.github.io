@@ -8,7 +8,7 @@ citations: 46
 bibkey: sablayrolles2016how
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.06753'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Fundamentals', 'Supervision Types', 'Hashing Methods', 'Supervision Type']
 ---
 Hashing produces compact representations for documents, to perform tasks like
 classification or retrieval based on these short codes. When hashing is

@@ -9,7 +9,7 @@ bibkey: shen2020auto
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.11930'}
   - {name: "Code", url: 'https://github.com/ymcidence/TBH'}
-tags: ['Independent', 'Model Design', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Has Code', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Has Code']
 ---
 Conventional unsupervised hashing methods usually take advantage of
 similarity graphs, which are either pre-computed in the high-dimensional space

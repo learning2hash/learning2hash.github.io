@@ -8,7 +8,7 @@ citations: 14
 bibkey: garg2020compact
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2001.08434'}
-tags: ['Cross-Modal', 'Quantisation', 'Evaluation', 'Shallow', 'Datasets', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 Visual place recognition algorithms trade off three key characteristics:
 their storage footprint, their computational requirements, and their resultant

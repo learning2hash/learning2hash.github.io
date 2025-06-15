@@ -8,7 +8,7 @@ citations: 1
 bibkey: gaskill2019bitwise
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1910.08646'}
-tags: ['Unimodal', 'Shallow', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Many real world problems require fast and efficient lexical comparison of
 large numbers of short text strings. Search personalization is one such domain.

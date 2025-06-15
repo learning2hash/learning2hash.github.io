@@ -8,7 +8,7 @@ citations: 15
 bibkey: wu2021linear
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.14068'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Shallow', 'Datasets', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 Self-attention has become increasingly popular in a variety of sequence
 modeling tasks from natural language processing to recommendation, due to its

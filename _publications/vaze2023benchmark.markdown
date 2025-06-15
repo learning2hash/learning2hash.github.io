@@ -8,7 +8,7 @@ citations: 7
 bibkey: vaze2023benchmark
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.07969'}
-tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 We argue that there are many notions of 'similarity' and that models, like
 humans, should be able to adapt to these dynamically. This contrasts with most

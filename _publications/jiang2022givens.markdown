@@ -8,7 +8,7 @@ citations: 1
 bibkey: jiang2022givens
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2203.05082'}
-tags: ['Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Vector Indexing', 'Training Strategy']
+tags: ['Quantization', 'Quantization and Compression', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 Product quantization (PQ) coupled with a space rotation, is widely used in
 modern approximate nearest neighbor (ANN) search systems to significantly

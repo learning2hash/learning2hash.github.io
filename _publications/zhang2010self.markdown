@@ -8,7 +8,7 @@ citations: 252
 bibkey: zhang2010self
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1004.5370'}
-tags: ['Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 The ability of fast similarity search at large scale is of great importance
 to many Information Retrieval (IR) applications. A promising way to accelerate

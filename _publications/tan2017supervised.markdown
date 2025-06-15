@@ -8,7 +8,7 @@ citations: 1
 bibkey: tan2017supervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1711.08901'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Datasets', 'Supervised', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Image hashing is a popular technique applied to large scale content-based
 visual retrieval due to its compact and efficient binary codes. Our work

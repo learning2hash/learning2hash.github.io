@@ -8,7 +8,7 @@ citations: 0
 bibkey: goncalves2023geometric
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2311.14082'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 A set of vectors \\(S \subseteq \mathbb\{R\}^d\\) is
 \\((k_1,\epsilon)\\)-clusterable if there are \\(k_1\\) balls of radius

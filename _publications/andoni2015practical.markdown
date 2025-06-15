@@ -8,7 +8,7 @@ citations: 238
 bibkey: andoni2015practical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.02897'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Evaluation', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We show the existence of a Locality-Sensitive Hashing (LSH) family for the
 angular distance that yields an approximate Near Neighbor Search algorithm with

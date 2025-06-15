@@ -8,7 +8,7 @@ citations: 0
 bibkey: yang2023decompose
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2309.09531'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Composed image retrieval is a type of image retrieval task where the user
 provides a reference image as a starting point and specifies a text on how to

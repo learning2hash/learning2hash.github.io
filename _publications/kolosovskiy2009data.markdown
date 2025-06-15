@@ -8,7 +8,7 @@ citations: 3
 bibkey: kolosovskiy2009data
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0908.3089'}
-tags: ['Unimodal', 'Independent', 'Shallow']
+tags: ['Indexing and Efficiency']
 ---
 In this article we discuss a data structure, which combines advantages of two
 different ways for representing graphs: adjacency matrix and collection of

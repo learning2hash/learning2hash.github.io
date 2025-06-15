@@ -8,7 +8,7 @@ citations: 5
 bibkey: gripon2016associative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.05898'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Quantization and Compression', 'ANN Search', 'Hashing Fundamentals', 'Quantization']
 ---
 Nearest neighbor search is a very active field in machine learning for it
 appears in many application cases, including classification and object

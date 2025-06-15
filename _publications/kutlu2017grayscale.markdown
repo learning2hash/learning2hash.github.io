@@ -8,7 +8,7 @@ citations: 1
 bibkey: kutlu2017grayscale
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.00726'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Many different approaches for neural network based hash functions have been
 proposed. Statistical analysis must correlate security of them. This paper

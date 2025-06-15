@@ -8,7 +8,7 @@ citations: 297
 bibkey: lin2014fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1404.1561'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals']
 ---
 Supervised hashing aims to map the original features to compact binary codes
 that are able to preserve label based similarity in the Hamming space.

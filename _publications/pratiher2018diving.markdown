@@ -8,7 +8,7 @@ citations: 19
 bibkey: pratiher2018diving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1806.06876'}
-tags: ['Cross-Modal', 'Shallow', 'Surveys and Reviews', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Learning Strategies', 'Hashing Methods', 'Tools and Libraries']
 ---
 Histopathological images (HI) encrypt resolution dependent heterogeneous
 textures & diverse color distribution variability, manifesting in

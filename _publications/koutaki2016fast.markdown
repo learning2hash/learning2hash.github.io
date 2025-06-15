@@ -8,7 +8,7 @@ citations: 7
 bibkey: koutaki2016fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.10017'}
-tags: ['Cross-Modal', 'Quantization', 'Quantisation', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization']
 ---
 In this paper, we propose a learning-based supervised discrete hashing
 method. Binary hashing is widely used for large-scale image retrieval as well

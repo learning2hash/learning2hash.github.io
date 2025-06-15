@@ -8,7 +8,7 @@ citations: 0
 bibkey: li2022asymmetric
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.12650'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Multi-Modal Hashing']
 ---
 Cross-modal hashing is a successful method to solve large-scale multimedia
 retrieval issue. A lot of matrix factorization-based hashing methods are

@@ -8,7 +8,7 @@ citations: 26
 bibkey: dong2019learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.08544'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Quantization']
 ---
 Space partitions of \\(\mathbb\{R\}^d\\) underlie a vast and important class of
 fast nearest neighbor search (NNS) algorithms. Inspired by recent theoretical

@@ -8,7 +8,7 @@ citations: 0
 bibkey: curtin2016fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1605.09784'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods', 'Tools and Libraries']
 ---
 We present a novel hashing strategy for approximate furthest neighbor search
 that selects projection bases using the data distribution. This strategy leads

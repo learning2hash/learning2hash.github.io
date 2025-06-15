@@ -8,7 +8,7 @@ citations: 0
 bibkey: yun2024hyperdimensional
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2404.11025'}
-tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Customizable image retrieval from large datasets remains a critical
 challenge, particularly when preserving spatial relationships within images.

@@ -8,7 +8,7 @@ citations: 7
 bibkey: eppstein2014wear
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1404.0286'}
-tags: ['Cross-Modal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We study wear-leveling techniques for cuckoo hashing, showing that it is
 possible to achieve a memory wear bound of \\(loglog n+O(1)\\) after the

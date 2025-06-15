@@ -8,7 +8,7 @@ citations: 0
 bibkey: verma2024improving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2402.07189'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 Locality sensitive hashing (LSH) is a fundamental algorithmic toolkit used by
 data scientists for approximate nearest neighbour search problems that have

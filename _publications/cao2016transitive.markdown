@@ -8,7 +8,7 @@ citations: 11
 bibkey: cao2016transitive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1608.04307'}
-tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Datasets', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Learning Strategies', 'Deep Hashing', 'Multi-Modal Hashing']
 ---
 Hashing has been widely applied to large-scale multimedia retrieval due to
 the storage and retrieval efficiency. Cross-modal hashing enables efficient

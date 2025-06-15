@@ -8,7 +8,7 @@ citations: 21
 bibkey: do2016embedding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1605.06914'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 The objective of this paper is to design an embedding method that maps local
 features describing an image (e.g. SIFT) to a higher dimensional representation

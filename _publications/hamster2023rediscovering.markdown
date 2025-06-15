@@ -8,7 +8,7 @@ citations: 0
 bibkey: hamster2023rediscovering
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.02481'}
-tags: ['Cross-Modal', 'Quantisation', 'Training Strategy', 'Shallow', 'Quantization']
+tags: ['Quantization', 'Quantization and Compression']
 ---
 Training and inference on edge devices often requires an efficient setup due
 to computational limitations. While pre-computing data representations and

@@ -8,7 +8,7 @@ citations: 2
 bibkey: konoshima2012hyperplane
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1212.6110'}
-tags: ['Deep', 'Unimodal', 'Evaluation', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Locality-sensitive hashing converts high-dimensional feature vectors, such as
 image and speech, into bit arrays and allows high-speed similarity calculation

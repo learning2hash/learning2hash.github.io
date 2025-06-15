@@ -9,7 +9,7 @@ bibkey: zhang2019search
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.04097'}
   - {name: "Code", url: 'https://github.com/daokunzhang/BinaryNE'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Has Code', 'Supervised', 'Hashing']
+tags: ['Efficient Learning', 'Has Code', 'Approximate Nearest Neighbor Search']
 ---
 Traditional network embedding primarily focuses on learning a continuous
 vector representation for each node, preserving network structure and/or node

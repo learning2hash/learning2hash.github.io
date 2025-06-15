@@ -9,7 +9,7 @@ bibkey: li2019visual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1909.02701'}
   - {name: "Code", url: 'https://github.com/KunpengLi1994/VSRN'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Benchmarks and Datasets', 'Has Code']
 ---
 Image-text matching has been a hot research topic bridging the vision and
 language areas. It remains challenging because the current representation of

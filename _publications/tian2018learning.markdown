@@ -8,7 +8,7 @@ citations: 0
 bibkey: tian2018learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.00682'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Modality-Specific Hashing', 'Hashing Methods', 'Multi-Modal Hashing']
 ---
 In social networks, heterogeneous multimedia data correlate to each other,
 such as videos and their corresponding tags in YouTube and image-text pairs in

@@ -8,7 +8,7 @@ citations: 0
 bibkey: netay2024hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2403.16216'}
-tags: ['Unsupervised', 'Cross-Modal', 'Deep', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We construct geohashing procedure based on using of space-filling H-curve.
 This curve provides a way to construct geohash with less computations than the

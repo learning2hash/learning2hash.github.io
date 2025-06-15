@@ -8,7 +8,7 @@ citations: 284
 bibkey: dinu2014improving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1412.6568'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 The zero-shot paradigm exploits vector-based word representations extracted
 from text corpora with unsupervised methods to learn general mapping functions

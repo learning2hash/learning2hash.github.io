@@ -8,7 +8,7 @@ citations: 59
 bibkey: liu2012compact
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1206.4618'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Hyperplane hashing aims at rapidly searching nearest points to a hyperplane,
 and has shown practical impact in scaling up active learning with SVMs.

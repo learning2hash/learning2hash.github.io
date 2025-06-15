@@ -8,7 +8,7 @@ citations: 7
 bibkey: maheshwari2021scene
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2104.02381'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Learning Strategies', 'Loss Functions', 'Applications']
 ---
 Scene graphs are a powerful structured representation of the underlying
 content of images, and embeddings derived from them have been shown to be

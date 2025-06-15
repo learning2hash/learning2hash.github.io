@@ -8,7 +8,7 @@ citations: 3
 bibkey: parola2021web
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2108.13301'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Efficient Learning', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 To implement a good Content Based Image Retrieval (CBIR) system, it is
 essential to adopt efficient search methods. One way to achieve this results is

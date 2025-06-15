@@ -8,7 +8,7 @@ citations: 61
 bibkey: yuan2019signal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.02616'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Similarity Learning', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Deep metric learning, which learns discriminative features to process image
 clustering and retrieval tasks, has attracted extensive attention in recent

@@ -8,7 +8,7 @@ citations: 0
 bibkey: xu2023deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.13357'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Multi-Modal Hashing']
 ---
 Hashing methods have made significant progress in cross-modal retrieval tasks
 with fast query speed and low storage cost. Among them, deep learning-based

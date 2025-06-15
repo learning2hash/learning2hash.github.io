@@ -8,7 +8,7 @@ citations: 52
 bibkey: fang2021deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2101.12346'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Deep hashing methods have been shown to be the most efficient approximate
 nearest neighbor search techniques for large-scale image retrieval. However,

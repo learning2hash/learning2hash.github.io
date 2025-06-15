@@ -8,7 +8,7 @@ citations: 1
 bibkey: shenoy2017deduplication
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1704.05617'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Duplication, whether exact or partial, is a common issue in many datasets. In
 clinical notes data, duplication (and near duplication) can arise for many

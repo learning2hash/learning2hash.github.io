@@ -8,7 +8,7 @@ citations: 359
 bibkey: li2018self
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1804.01223'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Hybrid and Advanced Models', 'Privacy and Security', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing', 'Multi-Modal Hashing']
 ---
 Thanks to the success of deep learning, cross-modal retrieval has made
 significant progress recently. However, there still remains a crucial

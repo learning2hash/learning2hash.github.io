@@ -8,7 +8,7 @@ citations: 2
 bibkey: yaqub2021image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2107.09373'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Online proctoring has become a necessity in online teaching. Video-based
 crowd-sourced online proctoring solutions are being used, where an exam-taking

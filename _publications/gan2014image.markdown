@@ -8,7 +8,7 @@ citations: 5
 bibkey: gan2014image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1409.7307'}
-tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 To simplify the parameter of the deep learning network, a cascaded
 compressive sensing model "CSNet" is implemented for image classification.

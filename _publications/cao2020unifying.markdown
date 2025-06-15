@@ -9,7 +9,7 @@ bibkey: cao2020unifying
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2001.05027'}
   - {name: "Code", url: 'https://github.com/tensorflow/models/tree/master/research/delf'}
-tags: ['Deep', 'Model Design', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Unimodal', 'Datasets', 'Has Code', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications']
 ---
 Image retrieval is the problem of searching an image database for items that
 are similar to a query image. To address this task, two main types of image

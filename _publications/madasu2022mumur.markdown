@@ -8,7 +8,7 @@ citations: 0
 bibkey: madasu2022mumur
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2208.11553'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Multi-Modal Hashing', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications']
 ---
 Multi-modal retrieval has seen tremendous progress with the development of
 vision-language models. However, further improving these models require

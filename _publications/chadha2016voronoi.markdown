@@ -8,7 +8,7 @@ citations: 27
 bibkey: chadha2016voronoi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.08906'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 We investigate the problem of image retrieval based on visual queries when
 the latter comprise arbitrary regions-of-interest (ROI) rather than entire

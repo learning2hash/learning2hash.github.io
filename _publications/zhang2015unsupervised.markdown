@@ -8,7 +8,7 @@ citations: 7
 bibkey: zhang2015unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1501.00642'}
-tags: ['Cross-Modal', 'Efficiency', 'Shallow', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 We propose a fast, accurate matching method for estimating dense pixel
 correspondences across scenes. It is a challenging problem to estimate dense

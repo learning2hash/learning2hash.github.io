@@ -9,7 +9,7 @@ bibkey: sun2022visual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2211.04872'}
   - {name: "Code", url: 'https://github.com/ict-bigdatalab/VNEL'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications', 'ANN Search']
 ---
 Visual Entity Linking (VEL) is a task to link regions of images with their
 corresponding entities in Knowledge Bases (KBs), which is beneficial for many

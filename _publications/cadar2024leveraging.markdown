@@ -9,7 +9,7 @@ bibkey: cadar2024leveraging
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2410.09533'}
   - {name: "Code", url: 'https://www.verlab.dcc.ufmg.br/descriptors/reasoning_accv24'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Has Code', 'Supervised']
+tags: ['Evaluation Metrics', 'Has Code', 'Approximate Nearest Neighbor Search']
 ---
 Visual correspondence is a crucial step in key computer vision tasks,
 including camera localization, image registration, and structure from motion.

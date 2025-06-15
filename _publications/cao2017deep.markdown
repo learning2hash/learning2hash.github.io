@@ -8,7 +8,7 @@ citations: 510
 bibkey: cao2017deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1702.00758'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Efficiency', 'Retrieval Models', 'Vector Indexing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Learning to hash has been widely applied to approximate nearest neighbor
 search for large-scale multimedia retrieval, due to its computation efficiency

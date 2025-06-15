@@ -8,7 +8,7 @@ citations: 1
 bibkey: tepper2020procrustean
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2006.04847'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Approximate Nearest Neighbor Search']
 ---
 Hashing is one of the most popular methods for similarity search because of
 its speed and efficiency. Dense binary hashing is prevalent in the literature.

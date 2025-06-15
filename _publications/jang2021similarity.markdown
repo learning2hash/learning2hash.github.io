@@ -8,7 +8,7 @@ citations: 3
 bibkey: jang2021similarity
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2107.05025'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Face image retrieval, which searches for images of the same identity from the
 query input face image, is drawing more attention as the size of the image

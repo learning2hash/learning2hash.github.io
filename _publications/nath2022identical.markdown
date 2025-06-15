@@ -8,7 +8,7 @@ citations: 0
 bibkey: nath2022identical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2205.04883'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 In recent years, we know that the interaction with images has increased.
 Image similarity involves fetching similar-looking images abiding by a given

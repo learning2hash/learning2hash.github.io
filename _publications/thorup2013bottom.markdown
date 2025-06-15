@@ -8,7 +8,7 @@ citations: 21
 bibkey: thorup2013bottom
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1303.5479'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We consider bottom-k sampling for a set X, picking a sample S_k(X) consisting
 of the k elements that are smallest according to a given hash function h. With

@@ -8,7 +8,7 @@ citations: 1
 bibkey: zhang2023efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.06566'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Image retrieval is the process of searching and retrieving images from a
 database based on their visual content and features. Recently, much attention

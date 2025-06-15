@@ -8,7 +8,7 @@ citations: 0
 bibkey: gomesgonçalves2018geometry
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1810.10770'}
-tags: ['Cross-Modal', 'Quantisation', 'Shallow', 'Vector Indexing', 'Quantization']
+tags: ['Quantization', 'Quantization and Compression', 'ANN Search']
 ---
 Separable Bregman divergences induce Riemannian metric spaces that are
 isometric to the Euclidean space after monotone embeddings. We investigate

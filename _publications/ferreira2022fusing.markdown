@@ -8,7 +8,7 @@ citations: 0
 bibkey: ferreira2022fusing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2205.11242'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Benchmarks and Tools', 'Datasets', 'Vector Indexing', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 Nowadays, 2D barcodes have been widely used for advertisement, mobile
 payment, and product authentication. However, in applications related to

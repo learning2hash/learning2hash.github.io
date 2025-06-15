@@ -8,7 +8,7 @@ citations: 8
 bibkey: fuad2013abc
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1312.1423'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search']
 ---
 The problem of similarity search is one of the main problems in computer
 science. This problem has many applications in text-retrieval, web search,

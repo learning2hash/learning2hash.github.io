@@ -8,7 +8,7 @@ citations: 30
 bibkey: zemene2017large
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1702.01238'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing']
+tags: ['ANN Search', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 This paper presents a new approach for the challenging problem of
 geo-locating an image using image matching in a structured database of

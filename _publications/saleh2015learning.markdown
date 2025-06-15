@@ -8,7 +8,7 @@ citations: 19
 bibkey: saleh2015learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1505.01214'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Applications']
+tags: ['Applications']
 ---
 Infographics are complex graphic designs integrating text, images, charts and
 sketches. Despite the increasing popularity of infographics and the rapid

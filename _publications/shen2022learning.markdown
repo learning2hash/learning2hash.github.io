@@ -8,7 +8,7 @@ citations: 14
 bibkey: shen2022learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2209.13833'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 In this paper, we propose Suppression-Enhancing Mask based attention and
 Interactive Channel transformatiON (SEMICON) to learn binary hash codes for

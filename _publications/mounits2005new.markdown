@@ -8,7 +8,7 @@ citations: 0
 bibkey: mounits2005new
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0508107'}
-tags: ['Unimodal', 'Evaluation', 'Shallow', 'Supervised']
+tags: ['Evaluation Metrics']
 ---
 Upper bounds on the maximum number of codewords in a binary code of a given
 length and minimum Hamming distance are considered. New bounds are derived by a

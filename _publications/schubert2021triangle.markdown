@@ -8,7 +8,7 @@ citations: 16
 bibkey: schubert2021triangle
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2107.04071'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods', 'Approximate Nearest Neighbor Search']
 ---
 Similarity search is a fundamental problem for many data analysis techniques.
 Many efficient search techniques rely on the triangle inequality of metrics,

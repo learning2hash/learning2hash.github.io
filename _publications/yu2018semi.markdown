@@ -8,7 +8,7 @@ citations: 7
 bibkey: yu2018semi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1806.07155'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Datasets', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Hashing for Real-World Applications']
 ---
 Recently, hashing techniques have gained importance in large-scale retrieval
 tasks because of their retrieval speed. Most of the existing cross-view

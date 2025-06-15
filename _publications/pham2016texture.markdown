@@ -8,7 +8,7 @@ citations: 4
 bibkey: pham2016texture
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.02102'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications', 'ANN Search']
 ---
 A novel efficient method for content-based image retrieval (CBIR) is
 developed in this paper using both texture and color features. Our motivation

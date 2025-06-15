@@ -8,7 +8,7 @@ citations: 44
 bibkey: klein2017end
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1711.08589'}
-tags: ['Cross-Modal', 'Deep', 'Supervised Hashing', 'Quantisation', 'Retrieval Models', 'Vector Indexing', 'Unsupervised Hashing', 'Quantization', 'Hashing']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'ANN Search', 'Hashing Fundamentals', 'Quantization']
 ---
 Product Quantization, a dictionary based hashing method, is one of the
 leading unsupervised hashing techniques. While it ignores the labels, it

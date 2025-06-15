@@ -8,7 +8,7 @@ citations: 1
 bibkey: schlemper2019deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.03876'}
-tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Deep Hashing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Deep Hashing']
 ---
 In large scale systems, approximate nearest neighbour search is a crucial
 algorithm to enable efficient data retrievals. Recently, deep learning-based

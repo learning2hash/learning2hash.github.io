@@ -8,7 +8,7 @@ citations: 31
 bibkey: oymak2015near
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1512.04433'}
-tags: ['Unimodal', 'Shallow', 'Hashing', 'Quantisation']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 We study embedding a subset \\(K\\) of the unit sphere to the Hamming cube
 \\(\\{-1,+1\\}^m\\). We characterize the tradeoff between distortion and sample

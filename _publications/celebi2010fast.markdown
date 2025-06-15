@@ -8,7 +8,7 @@ citations: 15
 bibkey: celebi2010fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1011.0093'}
-tags: ['Quantisation', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Quantization', 'Applications']
+tags: ['Quantization', 'Quantization and Compression', 'Applications']
 ---
 Color quantization is an important operation with numerous applications in
 graphics and image processing. Most quantization methods are essentially based

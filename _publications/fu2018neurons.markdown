@@ -8,7 +8,7 @@ citations: 3
 bibkey: fu2018neurons
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1809.02302'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Deep Hashing', 'Supervised', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Deep supervised hashing has become an active topic in information retrieval.
 It generates hashing bits by the output neurons of a deep hashing network.

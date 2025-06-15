@@ -8,6 +8,6 @@ citations: 895
 bibkey: shen2015supervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1503.01557'}
-tags: ['Cross-Modal', 'Supervised', 'Deep', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 This paper has been withdrawn by the authour.

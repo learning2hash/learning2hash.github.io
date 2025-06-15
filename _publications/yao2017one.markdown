@@ -8,7 +8,7 @@ citations: 21
 bibkey: yao2017one
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.00811'}
-tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Fine-Grained Visual Categorization (FGVC) has achieved significant progress
 recently. However, the number of fine-grained species could be huge and

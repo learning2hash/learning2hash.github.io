@@ -8,7 +8,7 @@ citations: 21
 bibkey: gao2023high
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2303.09855'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Vector Indexing']
+tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 Approximate K nearest neighbor (AKNN) search is a fundamental and challenging
 problem. We observe that in high-dimensional space, the time consumption of

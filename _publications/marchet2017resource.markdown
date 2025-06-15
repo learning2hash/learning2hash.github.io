@@ -8,7 +8,7 @@ citations: 16
 bibkey: marchet2017resource
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.00667'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Indexing', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 Indexing massive data sets is extremely expensive for large scale problems.
 In many fields, huge amounts of data are currently generated, however

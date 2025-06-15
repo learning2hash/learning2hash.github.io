@@ -8,7 +8,7 @@ citations: 0
 bibkey: liu2024compact
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2403.13317'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications', 'ANN Search']
 ---
 With the explosive growth of multi-modal information on the Internet,
 unimodal search cannot satisfy the requirement of Internet applications.

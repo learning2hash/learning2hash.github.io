@@ -8,7 +8,7 @@ citations: 13
 bibkey: h2010image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1002.1951'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 The purpose of this Paper is to describe our research on different feature
 extraction and matching techniques in designing a Content Based Image Retrieval

@@ -8,7 +8,7 @@ citations: 5
 bibkey: lyou2024modality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2401.04860'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Zero-shot learning offers an efficient solution for a machine learning model
 to treat unseen categories, avoiding exhaustive data collection. Zero-shot

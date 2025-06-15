@@ -8,7 +8,7 @@ citations: 618
 bibkey: babenko2014neural
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1404.1777'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Supervised', 'Applications']
+tags: ['Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Applications']
 ---
 It has been shown that the activations invoked by an image within the top
 layers of a large convolutional neural network provide a high-level descriptor

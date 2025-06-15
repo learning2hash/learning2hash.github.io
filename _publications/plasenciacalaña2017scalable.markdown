@@ -8,7 +8,7 @@ citations: 1
 bibkey: plasenciacalaña2017scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1712.09277'}
-tags: ['Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'ANN Search']
 ---
 Classification in the dissimilarity space has become a very active research
 area since it provides a possibility to learn from data given in the form of

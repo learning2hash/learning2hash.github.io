@@ -8,7 +8,7 @@ citations: 1
 bibkey: giakkoupis2020cluster
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2010.11497'}
-tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Applications']
+tags: ['KDD', 'Tools and Libraries', 'Applications']
 ---
 K-Nearest-Neighbors (KNN) graphs are central to many emblematic data mining
 and machine-learning applications. Some of the most efficient KNN graph

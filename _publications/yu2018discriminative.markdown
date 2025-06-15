@@ -8,7 +8,7 @@ citations: 10
 bibkey: yu2018discriminative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1812.07660'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Supervised', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 With the advantage of low storage cost and high retrieval efficiency, hashing
 techniques have recently been an emerging topic in cross-modal similarity

@@ -10,7 +10,7 @@ additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.13393'}
   - {name: "Code", url: 'https://github.com/OML-Team/open-metric-learning/tree/main/pipelines/postprocessing/'}
   - {name: "Code", url: 'https://dapladoc-oml-postprocessing-demo-srcappmain-pfh2g0.streamlit.app/'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Similarity Learning', 'Supervised Hashing', 'Applications']
+tags: ['Loss Functions', 'Applications', 'Tools and Libraries', 'Benchmarks and Datasets', 'Learning Strategies', 'Has Code']
 ---
 Current metric learning approaches for image retrieval are usually based on
 learning a space of informative latent representations where simple approaches

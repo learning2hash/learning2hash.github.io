@@ -8,7 +8,7 @@ citations: 4
 bibkey: corlay2011fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1105.4953'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Quantization']
+tags: ['Quantization', 'Quantization and Compression', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 In this article, we propose a new fast nearest neighbor search algorithm,
 based on vector quantization. Like many other branch and bound search

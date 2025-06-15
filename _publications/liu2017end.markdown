@@ -8,7 +8,7 @@ citations: 5
 bibkey: liu2017end
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.04960'}
-tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Quantization and Compression', 'ANN Search', 'Hashing Fundamentals', 'Quantization']
 ---
 Learning binary representation is essential to large-scale computer vision
 tasks. Most existing algorithms require a separate quantization constraint to

@@ -8,7 +8,7 @@ citations: 36
 bibkey: huang2017unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1702.08798'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization', 'Deep Hashing']
 ---
 Hashing has played a pivotal role in large-scale image retrieval. With the
 development of Convolutional Neural Network (CNN), hashing learning has shown

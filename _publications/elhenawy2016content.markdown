@@ -8,7 +8,7 @@ citations: 3
 bibkey: elhenawy2016content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1610.02509'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications', 'ANN Search']
 ---
 Content-Based Image Retrieval (CBIR) systems have been widely used for a wide
 range of applications such as Art collections, Crime prevention and

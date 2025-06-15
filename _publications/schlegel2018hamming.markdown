@@ -8,7 +8,7 @@ citations: 42
 bibkey: schlegel2018hamming
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1802.09261'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Reliable and efficient Visual Place Recognition is a major building block of
 modern SLAM systems. Leveraging on our prior work, in this paper we present a

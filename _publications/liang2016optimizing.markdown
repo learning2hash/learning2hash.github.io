@@ -8,7 +8,7 @@ citations: 14
 bibkey: liang2016optimizing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.06620'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Similarity Learning', 'Applications']
+tags: ['Evaluation Metrics', 'Hashing for Real-World Applications', 'Applications']
 ---
 In this paper we study the problem of content-based image retrieval. In this
 problem, the most popular performance measure is the top precision measure, and

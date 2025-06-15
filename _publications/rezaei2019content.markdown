@@ -8,7 +8,7 @@ citations: 0
 bibkey: rezaei2019content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1909.09722'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications', 'ANN Search']
 ---
 This paper presents a new method to extract image low-level features, namely
 mix histogram (MH), for content-based image retrieval. Since color and edge

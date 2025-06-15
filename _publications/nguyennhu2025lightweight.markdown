@@ -8,7 +8,7 @@ citations: 0
 bibkey: nguyennhu2025lightweight
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2504.09298'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 The exponential growth of digital video content has posed critical challenges
 in moment-level video retrieval, where existing methodologies struggle to

@@ -8,7 +8,7 @@ citations: 1
 bibkey: laaksonen2016constructing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.06022'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing']
+tags: ['Uncategorized']
 ---
 Let \\(A_2(n,d)\\) be the maximum size of a binary code of length \\(n\\) and minimum
 distance \\(d\\). In this paper we present the following new lower bounds:

@@ -8,7 +8,7 @@ citations: 8
 bibkey: liu2016perceptual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.07615'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Applications']
+tags: ['Learning Strategies', 'Evaluation Metrics', 'Tools and Libraries', 'Applications']
 ---
 Incompatibility of image descriptor and ranking is always neglected in image
 retrieval. In this paper, manifold learning and Gestalt psychology theory are

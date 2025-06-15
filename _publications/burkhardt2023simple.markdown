@@ -8,7 +8,7 @@ citations: 1
 bibkey: burkhardt2023simple
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2303.06090'}
-tags: ['Unimodal', 'Training Strategy', 'Independent', 'Shallow']
+tags: ['Indexing and Efficiency']
 ---
 We consider the problem of counting 4-cycles (\\(C_4\\)) in an undirected graph
 \\(G\\) of \\(n\\) vertices and \\(m\\) edges (in bipartite graphs, 4-cycles are also often

@@ -8,7 +8,7 @@ citations: 14
 bibkey: tseng2020parallel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2012.11188'}
-tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods']
 ---
 SCAN (Structural Clustering Algorithm for Networks) is a well-studied, widely
 used graph clustering algorithm. For large graphs, however, sequential SCAN

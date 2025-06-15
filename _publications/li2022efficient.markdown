@@ -8,7 +8,7 @@ citations: 0
 bibkey: li2022efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.06806'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In collaborative outlier detection, multiple participants exchange their
 local detectors trained on decentralized devices without exchanging their own

@@ -8,7 +8,7 @@ citations: 22
 bibkey: jang2021deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.08816'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Deep Hashing', 'Quantization', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization', 'Deep Hashing']
 ---
 In hash-based image retrieval systems, degraded or transformed inputs usually
 generate different codes from the original, deteriorating the retrieval

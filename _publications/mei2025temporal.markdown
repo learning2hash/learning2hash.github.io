@@ -8,7 +8,7 @@ citations: 0
 bibkey: mei2025temporal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2501.06786'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Graph and Transformer Models']
 ---
 With the rapid growth of dynamic vision sensor (DVS) data, constructing a
 low-energy, efficient data retrieval system has become an urgent task. Hash

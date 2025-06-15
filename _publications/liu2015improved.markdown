@@ -8,7 +8,7 @@ citations: 2
 bibkey: liu2015improved
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.05195'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization']
+tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Quantization']
 ---
 Quantization methods have been introduced to perform large scale approximate
 nearest search tasks. Residual Vector Quantization (RVQ) is one of the

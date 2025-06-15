@@ -8,7 +8,7 @@ citations: 4
 bibkey: lockett2021assessing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.13910'}
-tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Malware often uses obfuscation techniques or is modified slightly to evade
 signature detection from antivirus software and malware analysis tools.

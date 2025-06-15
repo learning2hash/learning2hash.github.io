@@ -8,7 +8,7 @@ citations: 16
 bibkey: li2020task
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.00197'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Supervised cross-modal hashing aims to embed the semantic correlations of
 heterogeneous modality data into the binary hash codes with discriminative

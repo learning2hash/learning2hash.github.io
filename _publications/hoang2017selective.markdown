@@ -8,7 +8,7 @@ citations: 48
 bibkey: hoang2017selective
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.00809'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Convolutional Neural Network (CNN) is a very powerful approach to extract
 discriminative local descriptors for effective image search. Recent work adopts

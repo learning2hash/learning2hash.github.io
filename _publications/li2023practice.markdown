@@ -8,7 +8,7 @@ citations: 0
 bibkey: li2023practice
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.07607'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Graph-Based Methods', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Efficient Learning', 'Tools and Libraries', 'ANN Search']
 ---
 Sparse data are common. The traditional ``handcrafted'' features are often
 sparse. Embedding vectors from trained models can also be very sparse, for

@@ -9,7 +9,7 @@ bibkey: teichmann2018detect
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1812.01584'}
   - {name: "Code", url: 'https://github.com/tensorflow/models/tree/master/research/delf'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Has Code', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Has Code', 'Applications']
 ---
 Retrieving object instances among cluttered scenes efficiently requires
 compact yet comprehensive regional image representations. Intuitively, object

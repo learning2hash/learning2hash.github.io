@@ -8,7 +8,7 @@ citations: 8
 bibkey: singh2014nearest
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1409.3867'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Efficient Learning', 'Indexing', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Keyword-based search in text-rich multi-dimensional datasets facilitates many
 novel applications and tools. In this paper, we consider objects that are

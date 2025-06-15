@@ -8,7 +8,7 @@ citations: 18
 bibkey: du2014inner
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1406.4966'}
-tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets']
+tags: ['ANN Search', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 This paper addresses the nearest neighbor search problem under inner product
 similarity and introduces a compact code-based approach. The idea is to

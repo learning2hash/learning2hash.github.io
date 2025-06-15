@@ -8,7 +8,7 @@ citations: 0
 bibkey: song2020deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.02698'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Multi-Modal Hashing', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Learning Strategies', 'Multi-Modal Hashing']
 ---
 Hashing based cross-modal retrieval has recently made significant progress.
 But straightforward embedding data from different modalities into a joint

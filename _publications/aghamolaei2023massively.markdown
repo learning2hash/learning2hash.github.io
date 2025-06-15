@@ -8,7 +8,7 @@ citations: 0
 bibkey: aghamolaei2023massively
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2309.07486'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 Given a set of points labeled with \\(k\\) labels, we introduce the heat map
 sorting problem as reordering and merging the points and dimensions while

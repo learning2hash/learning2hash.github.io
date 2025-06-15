@@ -8,7 +8,7 @@ citations: 0
 bibkey: li2020multiple
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2008.01503'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Due to its low storage cost and fast query speed, hashing has been widely
 used in large-scale image retrieval tasks. Hash bucket search returns data

@@ -9,7 +9,7 @@ bibkey: an2023towards
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2309.05438'}
   - {name: "Code", url: 'https://github.com/anguoyuan/Pixel_retrieval-Segmented_instance_retrieval}{this'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Has Code']
 ---
 This paper introduces the first two pixel retrieval benchmarks. Pixel
 retrieval is segmented instance retrieval. Like semantic segmentation extends

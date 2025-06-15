@@ -8,7 +8,7 @@ citations: 0
 bibkey: yu2016variable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.05414'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency', 'Approximate Nearest Neighbor Search']
 ---
 Hashing has emerged as a popular technique for large-scale similarity search.
 Most learning-based hashing methods generate compact yet correlated hash codes.

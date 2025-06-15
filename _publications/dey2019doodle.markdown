@@ -8,7 +8,7 @@ citations: 147
 bibkey: dey2019doodle
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.03451'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Applications', 'ANN Search']
 ---
 In this paper, we investigate the problem of zero-shot sketch-based image
 retrieval (ZS-SBIR), where human sketches are used as queries to conduct

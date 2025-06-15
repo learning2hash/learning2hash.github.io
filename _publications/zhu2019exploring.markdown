@@ -8,7 +8,7 @@ citations: 128
 bibkey: zhu2019exploring
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.11207'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Indexing and Efficiency']
 ---
 Unsupervised hashing can desirably support scalable content-based image
 retrieval (SCBIR) for its appealing advantages of semantic label independence,

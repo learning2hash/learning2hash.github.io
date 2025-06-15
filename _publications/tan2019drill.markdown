@@ -8,7 +8,7 @@ citations: 14
 bibkey: tan2019drill
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.03826'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 This paper explores the task of interactive image retrieval using natural
 language queries, where a user progressively provides input queries to refine a

@@ -8,7 +8,7 @@ citations: 2
 bibkey: thakur2019conv
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.02498'}
-tags: ['Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 In this work, we propose a supervised, convex representation based audio
 hashing framework for bird species classification. The proposed framework

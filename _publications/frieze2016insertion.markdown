@@ -8,7 +8,7 @@ citations: 3
 bibkey: frieze2016insertion
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1602.04652'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 Cuckoo Hashing is a hashing scheme invented by Pagh and Rodler. It uses
 \\(d\geq 2\\) distinct hash functions to insert items into the hash table. It has

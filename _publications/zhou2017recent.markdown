@@ -8,7 +8,7 @@ citations: 154
 bibkey: zhou2017recent
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1706.06064'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Surveys and Reviews', 'Applications']
+tags: ['Survey Paper', 'Hashing for Real-World Applications', 'Survey', 'Applications']
 ---
 The explosive increase and ubiquitous accessibility of visual data on the Web
 have led to the prosperity of research activity in image search or retrieval.

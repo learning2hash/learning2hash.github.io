@@ -8,7 +8,7 @@ citations: 4
 bibkey: ak2021fashionsearchnet
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.14145'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Similarity Learning', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 The focus of this paper is on the problem of image retrieval with attribute
 manipulation. Our proposed work is able to manipulate the desired attributes of

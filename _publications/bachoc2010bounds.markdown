@@ -8,7 +8,7 @@ citations: 4
 bibkey: bachoc2010bounds
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1002.3024'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Uncategorized']
 ---
 We apply Schrijver's semidefinite programming method to obtain improved upper
 bounds on generalized distances and list decoding radii of binary codes.

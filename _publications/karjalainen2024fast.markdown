@@ -8,7 +8,7 @@ citations: 0
 bibkey: karjalainen2024fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2406.04148'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Redescription mining is a data analysis technique that has found applications
 in diverse fields. The most used redescription mining approaches involve two

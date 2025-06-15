@@ -9,7 +9,7 @@ bibkey: xu2022beyond
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2208.06866'}
   - {name: "Code", url: 'https://github.com/JerryXu0129/HyP2-Loss'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Has Code', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing', 'Has Code']
 ---
 Image retrieval has become an increasingly appealing technique with broad
 multimedia application prospects, where deep hashing serves as the dominant

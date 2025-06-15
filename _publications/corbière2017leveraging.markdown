@@ -8,7 +8,7 @@ citations: 73
 bibkey: corbière2017leveraging
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1709.09426'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 In this paper, we present a method to learn a visual representation adapted
 for e-commerce products. Based on weakly supervised learning, our model learns

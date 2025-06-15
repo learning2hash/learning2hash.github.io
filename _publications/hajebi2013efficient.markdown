@@ -8,7 +8,7 @@ citations: 3
 bibkey: hajebi2013efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1309.7170'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Quantization']
+tags: ['Efficient Learning', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Quantization']
 ---
 Vector-quantization can be a computationally expensive step in visual
 bag-of-words (BoW) search when the vocabulary is large. A BoW-based appearance

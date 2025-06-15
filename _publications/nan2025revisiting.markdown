@@ -8,7 +8,7 @@ citations: 0
 bibkey: nan2025revisiting
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.09370'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 As artificial intelligence and digital medicine increasingly permeate
 healthcare systems, robust governance frameworks are essential to ensure

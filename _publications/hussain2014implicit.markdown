@@ -8,7 +8,7 @@ citations: 29
 bibkey: hussain2014implicit
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1410.0471'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications']
 ---
 This paper describes PinView, a content-based image retrieval system that
 exploits implicit relevance feedback collected during a search session. PinView

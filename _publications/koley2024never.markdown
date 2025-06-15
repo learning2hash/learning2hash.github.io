@@ -8,7 +8,7 @@ citations: 7
 bibkey: koley2024never
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2403.07222'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Two primary input modalities prevail in image retrieval: sketch and text.
 While text is widely used for inter-category retrieval tasks, sketches have

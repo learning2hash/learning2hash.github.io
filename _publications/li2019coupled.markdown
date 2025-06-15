@@ -8,7 +8,7 @@ citations: 88
 bibkey: li2019coupled
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1903.02149'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Multi-Modal Hashing', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Hybrid and Advanced Models', 'Privacy and Security', 'Evaluation Metrics', 'Supervision Type', 'Modality-Specific Hashing', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing', 'Multi-Modal Hashing']
 ---
 In recent years, hashing has attracted more and more attention owing to its
 superior capacity of low storage cost and high query efficiency in large-scale

@@ -8,7 +8,7 @@ citations: 2
 bibkey: ahle2020problem
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.12065'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 A Locality-Sensitive Hash (LSH) function is called
 \\((r,cr,p_1,p_2)\\)-sensitive, if two data-points with a distance less than \\(r\\)

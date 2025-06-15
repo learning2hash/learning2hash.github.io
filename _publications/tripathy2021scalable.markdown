@@ -8,7 +8,7 @@ citations: 0
 bibkey: tripathy2021scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2104.00792'}
-tags: ['Unimodal', 'Independent', 'Applications', 'Shallow']
+tags: ['Indexing and Efficiency', 'Applications']
 ---
 Hash tables are used in a plethora of applications, including database
 operations, DNA sequencing, string searching, and many more. As such, there are

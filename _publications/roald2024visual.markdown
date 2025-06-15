@@ -8,7 +8,7 @@ citations: 0
 bibkey: roald2024visual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2410.14969'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Digital tools for text analysis have long been essential for the
 searchability and accessibility of digitised library collections. Recent

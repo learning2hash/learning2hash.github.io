@@ -8,7 +8,7 @@ citations: 45
 bibkey: cerra2012fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1210.0758'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Quantization and Compression', 'Hashing for Real-World Applications', 'Applications']
 ---
 Compression-based similarity measures are effectively employed in
 applications on diverse data types with a basically parameter-free approach.

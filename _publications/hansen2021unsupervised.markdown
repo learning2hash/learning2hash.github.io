@@ -8,7 +8,7 @@ citations: 7
 bibkey: hansen2021unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2103.14460'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals']
 ---
 Semantic hashing represents documents as compact binary vectors (hash codes)
 and allows both efficient and effective similarity search in large-scale

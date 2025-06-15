@@ -8,7 +8,7 @@ citations: 28
 bibkey: tolias2017asymmetric
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1704.03946'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 We propose a novel concept of asymmetric feature maps (AFM), which allows to
 evaluate multiple kernels between a query and database entries without

@@ -8,7 +8,7 @@ citations: 4
 bibkey: zhang2019joint
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.00644'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Datasets', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Multi-Modal Hashing']
 ---
 With the rapid growth of various types of multimodal data, cross-modal deep
 hashing has received broad attention for solving cross-modal retrieval problems

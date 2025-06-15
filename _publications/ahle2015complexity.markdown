@@ -8,7 +8,7 @@ citations: 22
 bibkey: ahle2015complexity
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1510.02824'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing']
 ---
 A number of tasks in classification, information retrieval, recommendation
 systems, and record linkage reduce to the core problem of inner product

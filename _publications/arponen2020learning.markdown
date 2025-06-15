@@ -8,7 +8,7 @@ citations: 0
 bibkey: arponen2020learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.04917'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Learning to hash is an efficient paradigm for exact and approximate nearest
 neighbor search from massive databases. Binary hash codes are typically

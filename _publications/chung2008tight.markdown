@@ -8,7 +8,7 @@ citations: 6
 bibkey: chung2008tight
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0806.1948'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 It is known that if a 2-universal hash function \\(H\\) is applied to elements of
 a \{\em block source\} \\((X_1,...,X_T)\\), where each item \\(X_i\\) has enough

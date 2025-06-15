@@ -8,7 +8,7 @@ citations: 0
 bibkey: springstein2021search
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2108.01542'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 In this paper, we introduce iART: an open Web platform for art-historical
 research that facilitates the process of comparative vision. The system

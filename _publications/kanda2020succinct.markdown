@@ -8,7 +8,7 @@ citations: 9
 bibkey: kanda2020succinct
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.10917'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Efficient Learning', 'Indexing', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Massive datasets of spatial trajectories representing the mobility of a
 diversity of moving objects are ubiquitous in research and industry. Similarity

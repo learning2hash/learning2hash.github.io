@@ -8,7 +8,7 @@ citations: 2
 bibkey: tu2020deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.03451'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing', 'Multi-Modal Hashing']
 ---
 Due to their high retrieval efficiency and low storage cost for cross-modal
 search task, cross-modal hashing methods have attracted considerable attention.

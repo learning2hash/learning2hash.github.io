@@ -8,7 +8,7 @@ citations: 0
 bibkey: li2023differentially
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.07674'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Privacy and Security', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 Minwise hashing (MinHash) is a standard algorithm widely used in the
 industry, for large-scale search and learning applications with the binary

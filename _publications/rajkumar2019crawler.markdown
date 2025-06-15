@@ -8,7 +8,7 @@ citations: 0
 bibkey: rajkumar2019crawler
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.11066'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Due to the advancement in computer communication and storage technologies,
 large amount of image data is available on World Wide Web (WWW). In order to

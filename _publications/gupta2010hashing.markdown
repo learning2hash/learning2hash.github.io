@@ -8,7 +8,7 @@ citations: 2
 bibkey: gupta2010hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1004.3980'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In this paper we present a Bayesian image zooming/super-resolution algorithm
 based on a patch based representation. We work on a patch based model with

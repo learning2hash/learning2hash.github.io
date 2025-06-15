@@ -8,7 +8,7 @@ citations: 7
 bibkey: chandakkar2017computational
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1704.01248'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Computational visual aesthetics has recently become an active research area.
 Existing state-of-art methods formulate this as a binary classification task

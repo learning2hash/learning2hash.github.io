@@ -8,7 +8,7 @@ citations: 1
 bibkey: amr2010using
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1002.2193'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications', 'ANN Search']
 ---
 Although content-based image retrieval (CBIR) is not a new subject, it keeps
 attracting more and more attention, as the amount of images grow tremendously

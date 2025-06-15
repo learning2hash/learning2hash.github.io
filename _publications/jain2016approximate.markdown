@@ -8,7 +8,7 @@ citations: 8
 bibkey: jain2016approximate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1608.03308'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Vector Indexing', 'Quantization']
+tags: ['Evaluation Metrics', 'Quantization and Compression', 'ANN Search', 'Benchmarks and Datasets', 'Quantization']
 ---
 This paper tackles the task of storing a large collection of vectors, such as
 visual descriptors, and of searching in it. To this end, we propose to

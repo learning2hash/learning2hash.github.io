@@ -8,7 +8,7 @@ citations: 1
 bibkey: ravanbakhsh2016efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.06764'}
-tags: ['Unimodal', 'Quantization', 'Deep', 'Quantisation']
+tags: ['Quantization', 'Efficient Learning', 'Quantization and Compression']
 ---
 In this paper we introduce a novel method for segmentation that can benefit
 from general semantics of Convolutional Neural Network (CNN). Our segmentation

@@ -8,7 +8,7 @@ citations: 30
 bibkey: li2013coding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1308.2218'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Quantization', 'Applications']
+tags: ['Quantization', 'Quantization and Compression', 'Applications']
 ---
 The method of random projections has become very popular for large-scale
 applications in statistical learning, information retrieval, bio-informatics

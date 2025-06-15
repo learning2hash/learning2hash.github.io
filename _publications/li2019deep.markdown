@@ -8,7 +8,7 @@ citations: 2
 bibkey: li2019deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.10980'}
-tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Indexing and Efficiency', 'Hashing Methods', 'Tools and Libraries']
 ---
 Traditional person re-identification (ReID) methods typically represent
 person images as real-valued features, which makes ReID inefficient when the

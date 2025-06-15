@@ -8,7 +8,7 @@ citations: 220
 bibkey: gui2019fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.03556'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Benchmarks and Datasets', 'Hashing Fundamentals', 'Evaluation and Benchmarks', 'Hashing Methods']
 ---
 Learning-based hashing algorithms are ``hot topics" because they can greatly
 increase the scale at which existing methods operate. In this paper, we propose

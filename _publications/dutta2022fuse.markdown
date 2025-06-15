@@ -8,7 +8,7 @@ citations: 0
 bibkey: dutta2022fuse
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2208.09698'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 While deep Embedding Learning approaches have witnessed widespread success in
 multiple computer vision tasks, the state-of-the-art methods for representing

@@ -8,7 +8,7 @@ citations: 17
 bibkey: wu2018review
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1811.04633'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Surveys and Reviews', 'Quantization', 'Survey Paper', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'KDD', 'Applications', 'Survey Paper', 'Survey', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization']
 ---
 Data similarity (or distance) computation is a fundamental research topic
 which underpins many high-level applications based on similarity measures in

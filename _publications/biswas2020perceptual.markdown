@@ -8,7 +8,7 @@ citations: 0
 bibkey: biswas2020perceptual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.10090'}
-tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 The Tor darknet hosts different types of illegal content, which are monitored
 by cybersecurity agencies. However, manually classifying Tor content can be

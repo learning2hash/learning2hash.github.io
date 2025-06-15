@@ -8,7 +8,7 @@ citations: 4
 bibkey: alparslan2020towards
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.00140'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'ANN Search']
 ---
 With the growth in social media, there is a huge amount of images of faces
 available on the internet. Often, people use other people's pictures on their

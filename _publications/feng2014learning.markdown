@@ -8,7 +8,7 @@ citations: 1
 bibkey: feng2014learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1410.5524'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Binary codes have been widely used in vision problems as a compact feature
 representation to achieve both space and time advantages. Various methods have

@@ -8,7 +8,7 @@ citations: 0
 bibkey: schiavo2021sketches
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.01147'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 The adoption of an appropriate approximate similarity search method is an
 essential prereq-uisite for developing a fast and efficient CBIR system,

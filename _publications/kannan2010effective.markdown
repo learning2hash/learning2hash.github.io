@@ -8,7 +8,7 @@ citations: 6
 bibkey: kannan2010effective
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1012.0223'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Hashing for Real-World Applications', 'KDD', 'Applications']
 ---
 The present research scholars are having keen interest in doing their
 research activities in the area of Data mining all over the world. Especially,

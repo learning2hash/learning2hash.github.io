@@ -8,7 +8,7 @@ citations: 0
 bibkey: zheng2025enhancing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2504.02137'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'RecSys']
 ---
 The exponential growth of online content has posed significant challenges to
 ID-based models in industrial recommendation systems, ranging from extremely

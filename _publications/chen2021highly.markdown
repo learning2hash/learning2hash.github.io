@@ -9,7 +9,7 @@ bibkey: chen2021highly
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.08566'}
   - {name: "Code", url: 'https://github.com/microsoft/SPTAG'}
-tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code']
+tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Tools and Libraries', 'ANN Search', 'Has Code']
 ---
 The in-memory algorithms for approximate nearest neighbor search (ANNS) have
 achieved great success for fast high-recall search, but are extremely expensive

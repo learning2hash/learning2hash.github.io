@@ -8,7 +8,7 @@ citations: 4
 bibkey: quinn2017semantic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1711.00088'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Applications']
 ---
 We describe a novel architecture for semantic image retrieval---in
 particular, retrieval of instances of visual situations. Visual situations are

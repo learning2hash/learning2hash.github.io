@@ -8,7 +8,7 @@ citations: 0
 bibkey: kim2019nearest
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.09799'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 We propose an iteration-free source separation algorithm based on
 Winner-Take-All (WTA) hash codes, which is a faster, yet accurate alternative

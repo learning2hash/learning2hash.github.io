@@ -8,7 +8,7 @@ citations: 0
 bibkey: pu2025robust
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2501.01699'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Modality-Specific Hashing', 'ANN Search', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Cross-modal hashing (CMH) has appeared as a popular technique for cross-modal
 retrieval due to its low storage cost and high computational efficiency in

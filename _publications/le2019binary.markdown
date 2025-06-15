@@ -8,7 +8,7 @@ citations: 4
 bibkey: le2019binary
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1906.11992'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Quantization', 'Applications']
+tags: ['Quantization', 'Indexing', 'Quantization and Compression', 'Applications']
 ---
 Visual localization algorithms have achieved significant improvements in
 performance thanks to recent advances in camera technology and vision-based

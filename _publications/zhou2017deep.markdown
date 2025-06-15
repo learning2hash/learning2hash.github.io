@@ -8,7 +8,7 @@ citations: 3
 bibkey: zhou2017deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1710.11445'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Deep Hashing', 'Quantization', 'Hashing']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Loss Functions', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'Benchmarks and Datasets', 'Learning Strategies', 'Quantization', 'Deep Hashing']
 ---
 With the explosive growth of image databases, deep hashing, which learns
 compact binary descriptors for images, has become critical for fast image

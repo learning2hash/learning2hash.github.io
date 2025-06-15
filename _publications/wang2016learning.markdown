@@ -8,7 +8,7 @@ citations: 4
 bibkey: wang2016learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.01475'}
-tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Shallow', 'Hashing', 'Quantization', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization']
 ---
 We investigate the \\(\ell_\infty\\)-constrained representation which
 demonstrates robustness to quantization errors, utilizing the tool of deep

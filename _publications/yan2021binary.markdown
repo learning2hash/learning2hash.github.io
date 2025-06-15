@@ -8,7 +8,7 @@ citations: 8
 bibkey: yan2021binary
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.02471'}
-tags: ['Deep', 'Quantisation', 'Unimodal', 'Evaluation', 'Applications']
+tags: ['RecSys', 'Applications']
 ---
 Nowadays, deep learning models are widely adopted in web-scale applications
 such as recommender systems, and online advertising. In these applications,

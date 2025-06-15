@@ -8,7 +8,7 @@ citations: 6
 bibkey: têtu2019standalone
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.08792'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Lyra2REv2 is a hashing algorithm that consists of a chain of individual
 hashing algorithms, and it is used as a proof-of-work function in several

@@ -8,7 +8,7 @@ citations: 3
 bibkey: bender2021linear
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2107.01250'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 First introduced in 1954, linear probing is one of the oldest data structures
 in computer science, and due to its unrivaled data locality, it continues to be

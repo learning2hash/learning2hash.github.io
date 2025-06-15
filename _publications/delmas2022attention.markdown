@@ -8,7 +8,7 @@ citations: 0
 bibkey: delmas2022attention
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2203.08101'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 An intuitive way to search for images is to use queries composed of an
 example image and a complementary text. While the first provides rich and

@@ -9,7 +9,7 @@ bibkey: zou2018richly
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1808.02473'}
   - {name: "Code", url: 'https://github.com/SketchyScene/SketchyScene'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications', 'ANN Search']
 ---
 We contribute the first large-scale dataset of scene sketches, SketchyScene,
 with the goal of advancing research on sketch understanding at both the object

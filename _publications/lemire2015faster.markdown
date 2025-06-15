@@ -8,7 +8,7 @@ citations: 15
 bibkey: lemire2015faster
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1503.03465'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Intel and AMD support the Carry-less Multiplication (CLMUL) instruction set
 in their x64 processors. We use CLMUL to implement an almost universal 64-bit

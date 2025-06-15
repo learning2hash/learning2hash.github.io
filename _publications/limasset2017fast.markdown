@@ -9,7 +9,7 @@ bibkey: limasset2017fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1702.03154'}
   - {name: "Code", url: 'https://github.com/rizkg/BBHash'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Has Code', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Has Code']
 ---
 Minimal perfect hash functions provide space-efficient and collision-free
 hashing on static sets. Existing algorithms and implementations that build such

@@ -8,7 +8,7 @@ citations: 21
 bibkey: andoni2015tight
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1507.04299'}
-tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 We prove a tight lower bound for the exponent \\(\rho\\) for data-dependent
 Locality-Sensitive Hashing schemes, recently used to design efficient solutions

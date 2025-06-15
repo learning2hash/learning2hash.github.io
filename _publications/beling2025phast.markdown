@@ -8,7 +8,7 @@ citations: 0
 bibkey: beling2025phast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2504.17918'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 Perfect hash functions give unique "names" to arbitrary keys requiring only a
 few bits per key. This is an essential building block in applications like

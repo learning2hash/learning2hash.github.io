@@ -8,7 +8,7 @@ citations: 3
 bibkey: duan2021bridging
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2107.13757'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Survey Paper', 'Datasets', 'Surveys and Reviews', 'Supervised', 'Similarity Learning', 'Applications']
+tags: ['Applications', 'Survey', 'Tools and Libraries', 'Survey Paper', 'Hashing for Real-World Applications']
 ---
 The fact that there exists a gap between low-level features and semantic
 meanings of images, called the semantic gap, is known for decades. Resolution

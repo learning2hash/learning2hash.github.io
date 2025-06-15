@@ -8,7 +8,7 @@ citations: 24
 bibkey: jenicek2019linking
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1907.03537'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Applications', 'ANN Search']
 ---
 We address the discovery of composition transfer in artworks based on their
 visual content. Automated analysis of large art collections, which are growing

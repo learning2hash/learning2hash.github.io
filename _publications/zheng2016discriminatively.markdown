@@ -8,7 +8,7 @@ citations: 485
 bibkey: zheng2016discriminatively
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.05666'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 We revisit two popular convolutional neural networks (CNN) in person
 re-identification (re-ID), i.e, verification and classification models. The two

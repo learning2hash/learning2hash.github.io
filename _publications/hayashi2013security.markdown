@@ -8,7 +8,7 @@ citations: 0
 bibkey: hayashi2013security
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1309.1596'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Recently, \\(\epsilon\\)-almost dual universal\\(_2\\) hash functions has been
 proposed as a new and wider class of hash functions. Using this class of hash

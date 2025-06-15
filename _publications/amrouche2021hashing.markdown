@@ -8,7 +8,7 @@ citations: 5
 bibkey: amrouche2021hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2101.06428'}
-tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Similarity Learning', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 We propose a novel approach to charged particle tracking at high intensity
 particle colliders based on Approximate Nearest Neighbors search. With hundreds

@@ -8,7 +8,7 @@ citations: 1
 bibkey: lourenço2019hierarchy
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.02786'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Applications']
 ---
 In this paper, we present the Hierarchy-of-Visual-Words (HoVW), a novel
 trademark image retrieval (TIR) method that decomposes images into simpler

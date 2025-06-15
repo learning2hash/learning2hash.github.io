@@ -8,7 +8,7 @@ citations: 7
 bibkey: khasanova2016multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1607.03406'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Applications']
+tags: ['Applications']
 ---
 The analysis of large collections of image data is still a challenging
 problem due to the difficulty of capturing the true concepts in visual data.

@@ -8,7 +8,7 @@ citations: 0
 bibkey: liu2019weakly
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.12203'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Hashing has been widely adopted for large-scale data retrieval in many
 domains, due to its low storage cost and high retrieval speed. Existing

@@ -8,7 +8,7 @@ citations: 1
 bibkey: efremenko2019fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1910.05270'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Research on nearest-neighbor methods tends to focus somewhat dichotomously
 either on the statistical or the computational aspects -- either on, say, Bayes

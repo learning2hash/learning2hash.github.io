@@ -8,7 +8,7 @@ citations: 0
 bibkey: remil2023deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.06703'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 Automatic crash bucketing is a crucial phase in the software development
 process for efficiently triaging bug reports. It generally consists in grouping

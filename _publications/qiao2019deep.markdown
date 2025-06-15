@@ -8,7 +8,7 @@ citations: 19
 bibkey: qiao2019deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.01048'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Retrieving videos of a particular person with face image as a query via
 hashing technique has many important applications. While face images are

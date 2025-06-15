@@ -9,7 +9,7 @@ bibkey: wang2023masked
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.17527'}
   - {name: "Code", url: 'https://github.com/masked-spacetime-hashing/msth'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Has Code', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Has Code', 'Indexing and Efficiency']
 ---
 In this paper, we propose the Masked Space-Time Hash encoding (MSTH), a novel
 method for efficiently reconstructing dynamic 3D scenes from multi-view or

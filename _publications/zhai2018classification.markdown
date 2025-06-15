@@ -8,7 +8,7 @@ citations: 132
 bibkey: zhai2018classification
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1811.12649'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Benchmarks and Datasets', 'Hashing for Real-World Applications']
 ---
 Deep metric learning aims to learn a function mapping image pixels to
 embedding feature vectors that model the similarity between images. Two major

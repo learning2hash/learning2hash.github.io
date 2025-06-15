@@ -8,7 +8,7 @@ citations: 4
 bibkey: suo2024knowledge
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2403.16005'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 We study the zero-shot Composed Image Retrieval (ZS-CIR) task, which is to
 retrieve the target image given a reference image and a description without

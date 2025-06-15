@@ -8,7 +8,7 @@ citations: 33
 bibkey: cao2018deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1809.01238'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Datasets', 'Deep Hashing', 'Quantization', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Hashing Fundamentals', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization', 'Deep Hashing']
 ---
 Deep hashing enables image retrieval by end-to-end learning of deep
 representations and hash codes from training data with pairwise similarity

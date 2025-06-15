@@ -8,7 +8,7 @@ citations: 9
 bibkey: hoang2018simultaneous
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1802.06645'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Supervised Hashing', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Compression', 'Unsupervised Hashing', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization']
 ---
 For unsupervised data-dependent hashing, the two most important requirements
 are to preserve similarity in the low-dimensional feature space and to minimize

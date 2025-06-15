@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhang2024efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2410.20381'}
-tags: ['Deep', 'Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Vector Indexing']
+tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 ANNS for embedded vector representations of texts is commonly used in
 information retrieval, with two important information representations being

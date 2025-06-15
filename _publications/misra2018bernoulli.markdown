@@ -8,7 +8,7 @@ citations: 3
 bibkey: misra2018bernoulli
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.09211'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Hashing', 'Datasets', 'Quantization', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 Just as semantic hashing can accelerate information retrieval, binary valued
 embeddings can significantly reduce latency in the retrieval of graphical data.

@@ -8,7 +8,7 @@ citations: 0
 bibkey: he2021unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2108.09136'}
-tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Hashing', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals']
 ---
 Abundant real-world data can be naturally represented by large-scale
 networks, which demands efficient and effective learning algorithms. At the

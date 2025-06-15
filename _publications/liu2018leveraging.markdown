@@ -8,7 +8,7 @@ citations: 210
 bibkey: liu2018leveraging
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.03095'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 We propose a novel crowd counting approach that leverages abundantly
 available unlabeled crowd imagery in a learning-to-rank framework. To induce a

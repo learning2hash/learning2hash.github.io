@@ -9,7 +9,7 @@ bibkey: sumbul2022novel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.06459'}
   - {name: "Code", url: 'https://git.tu-berlin.de/rsim/RS-JCIF'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Compression', 'Has Code', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Indexing', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Hashing for Real-World Applications', 'Has Code']
 ---
 Remote sensing (RS) images are usually stored in compressed format to reduce
 the storage size of the archives. Thus, existing content-based image retrieval

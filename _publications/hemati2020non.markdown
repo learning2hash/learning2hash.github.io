@@ -8,7 +8,7 @@ citations: 2
 bibkey: hemati2020non
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2012.13138'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Hybrid and Advanced Models', 'Tools and Libraries', 'Hashing Fundamentals', 'Graph and Transformer Models']
 ---
 In the era of big data, methods for improving memory and computational
 efficiency have become crucial for successful deployment of technologies.

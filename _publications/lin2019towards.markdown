@@ -8,7 +8,7 @@ citations: 35
 bibkey: lin2019towards
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.10185'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 When facing large-scale image datasets, online hashing serves as a promising
 solution for online retrieval and prediction tasks. It encodes the online

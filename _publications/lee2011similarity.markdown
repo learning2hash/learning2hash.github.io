@@ -8,7 +8,7 @@ citations: 26
 bibkey: lee2011similarity
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1104.3212'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Similarity joins are important operations with a broad range of applications.
 In this paper, we study the problem of vector similarity join size estimation

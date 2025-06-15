@@ -8,7 +8,7 @@ citations: 1
 bibkey: jacob2018leveraging
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1806.08991'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Most image retrieval methods use global features that aggregate local
 distinctive patterns into a single representation. However, the aggregation

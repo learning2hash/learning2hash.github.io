@@ -8,7 +8,7 @@ citations: 0
 bibkey: wang2016unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.05782'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Recent years have seen the exponential growth of heterogeneous multimedia
 data. The need for effective and accurate data retrieval from heterogeneous

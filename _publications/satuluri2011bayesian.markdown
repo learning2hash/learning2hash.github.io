@@ -8,7 +8,7 @@ citations: 97
 bibkey: satuluri2011bayesian
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1110.1328'}
-tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Efficient Learning', 'Indexing', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 Given a collection of objects and an associated similarity measure, the
 all-pairs similarity search problem asks us to find all pairs of objects with

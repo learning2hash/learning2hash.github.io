@@ -8,7 +8,7 @@ citations: 94
 bibkey: xu2018deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1804.01401'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Deep Hashing', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Deep Hashing']
 ---
 We propose a deep hashing framework for sketch retrieval that, for the first
 time, works on a multi-million scale human sketch dataset. Leveraging on this

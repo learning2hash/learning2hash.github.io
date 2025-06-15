@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhou2016generic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.08390'}
-tags: ['Deep', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Indexing', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 We propose a novel generic inverted index framework on the GPU (called
 GENIE), aiming to reduce the programming complexity of the GPU for parallel

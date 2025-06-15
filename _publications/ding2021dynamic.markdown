@@ -8,7 +8,7 @@ citations: 3
 bibkey: ding2021dynamic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.12315'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 Spatial-temporal local binary pattern (STLBP) has been widely used in dynamic
 texture recognition. STLBP often encounters the high-dimension problem as its

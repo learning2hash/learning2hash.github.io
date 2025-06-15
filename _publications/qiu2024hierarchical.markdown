@@ -8,7 +8,7 @@ citations: 3
 bibkey: qiu2024hierarchical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2401.07212'}
-tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Vector Indexing', 'Training Strategy', 'Applications']
+tags: ['Evaluation Metrics', 'Quantization', 'Quantization and Compression', 'Applications']
 ---
 Existing unsupervised deep product quantization methods primarily aim for the
 increased similarity between different views of the identical image, whereas

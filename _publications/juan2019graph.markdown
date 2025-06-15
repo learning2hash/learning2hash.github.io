@@ -8,7 +8,7 @@ citations: 33
 bibkey: juan2019graph
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.10814'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Learning image representations to capture fine-grained semantics has been a
 challenging and important task enabling many applications such as image search

@@ -8,7 +8,7 @@ citations: 0
 bibkey: jang2011linear
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1106.1521'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Quantization', 'Applications']
+tags: ['Quantization', 'Quantization and Compression', 'Applications']
 ---
 Color descriptors are one of the important features used in content-based
 image retrieval. The Dominant Color Descriptor (DCD) represents a few

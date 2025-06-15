@@ -8,7 +8,7 @@ citations: 0
 bibkey: shi2022information
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2209.12491'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Zero-shot cross-modal retrieval (ZS-CMR) deals with the retrieval problem
 among heterogenous data from unseen classes. Typically, to guarantee

@@ -8,7 +8,7 @@ citations: 32
 bibkey: rad2011metamorphic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1104.3228'}
-tags: ['Benchmarks and Tools', 'Unimodal', 'Shallow', 'Vector Indexing', 'Supervised']
+tags: ['ANN Search']
 ---
 In order to prevent detection and evade signature-based scanning methods,
 which are normally exploited by antivirus software, metamorphic viruses use

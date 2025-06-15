@@ -8,7 +8,7 @@ citations: 2
 bibkey: babaie2020new
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.15523'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications']
 ---
 Content-based image retrieval (CBIR) is an essential part of computer vision
 research, especially in medical expert systems. Having a discriminative image

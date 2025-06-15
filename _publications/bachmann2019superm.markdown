@@ -8,7 +8,7 @@ citations: 2
 bibkey: bachmann2019superm
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.11453'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Approximate Nearest Neighbor Search', 'Indexing', 'Applications', 'ANN Search']
 ---
 A common approach to implementing similarity search applications is the usage
 of distance functions, where small distances indicate high similarity. In the

@@ -8,7 +8,7 @@ citations: 5
 bibkey: zhang2023ontology
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2302.10040'}
-tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Zero-Shot Sketch-Based Image Retrieval (ZSSBIR) is an emerging task. The
 pioneering work focused on the modal gap but ignored inter-class information.

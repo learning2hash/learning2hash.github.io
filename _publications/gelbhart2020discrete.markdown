@@ -8,7 +8,7 @@ citations: 1
 bibkey: gelbhart2020discrete
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2006.13120'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In this paper we present the first baseline results for the task of few-shot
 learning of discrete embedding vectors for image recognition. Few-shot learning

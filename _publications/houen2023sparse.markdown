@@ -8,7 +8,7 @@ citations: 0
 bibkey: houen2023sparse
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2305.03110'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 The *Sparse Johnson-Lindenstrauss Transform* of Kane and Nelson (SODA
 2012) provides a linear dimensionality-reducing map \\(A \in \mathbb\{R\}^\{m \times

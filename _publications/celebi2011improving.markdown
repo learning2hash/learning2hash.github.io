@@ -8,7 +8,7 @@ citations: 140
 bibkey: celebi2011improving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1101.0395'}
-tags: ['Cross-Modal', 'Quantisation', 'Shallow', 'Quantization', 'Applications']
+tags: ['Quantization', 'Quantization and Compression', 'Applications']
 ---
 Color quantization is an important operation with many applications in
 graphics and image processing. Most quantization methods are essentially based

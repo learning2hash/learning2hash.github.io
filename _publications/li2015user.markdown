@@ -8,7 +8,7 @@ citations: 7
 bibkey: li2015user
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.05671'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Applications']
+tags: ['RecSys', 'Tools and Libraries', 'Applications']
 ---
 Most state-of-the-art image retrieval and recommendation systems
 predominantly focus on individual images. In contrast, socially curated image

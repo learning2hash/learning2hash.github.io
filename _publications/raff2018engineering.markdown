@@ -8,7 +8,7 @@ citations: 4
 bibkey: raff2018engineering
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1804.00069'}
-tags: ['Cross-Modal', 'Efficiency', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods', 'Tools and Libraries']
 ---
 The Min-Hashing approach to sketching has become an important tool in data
 analysis, information retrial, and classification. To apply it to real-valued

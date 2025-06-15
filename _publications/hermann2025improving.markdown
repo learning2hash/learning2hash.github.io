@@ -8,7 +8,7 @@ citations: 0
 bibkey: hermann2025improving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.10161'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 A minimal perfect hash function (MPHF) maps a set of n keys to unique
 positions \{1, ..., n\}. Representing an MPHF requires at least 1.44 bits per

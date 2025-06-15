@@ -8,7 +8,7 @@ citations: 2
 bibkey: zhang2022hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2206.02334'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies']
 ---
 Existing unsupervised hash learning is a kind of attribute-centered
 calculation. It may not accurately preserve the similarity between data. This

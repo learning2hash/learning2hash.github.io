@@ -8,7 +8,7 @@ citations: 10
 bibkey: zhang2021orthonormal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2107.00327'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Datasets', 'Deep Hashing', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization', 'Deep Hashing']
 ---
 Existing deep quantization methods provided an efficient solution for
 large-scale image retrieval. However, the significant intra-class variations

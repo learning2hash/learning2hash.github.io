@@ -8,7 +8,7 @@ citations: 10
 bibkey: primmer2013collision
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1306.6020'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Centera uses cryptographic hash functions as a means of addressing stored
 objects, thus creating a new class of data storage referred to as CAS (content

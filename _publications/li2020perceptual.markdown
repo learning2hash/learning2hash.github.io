@@ -8,7 +8,7 @@ citations: 1
 bibkey: li2020perceptual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2012.04312'}
-tags: ['Cross-Modal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Privacy and Security', 'Hashing Methods']
 ---
 In this paper, a novel perceptual image hashing scheme for color images is
 proposed based on ring-ribbon quadtree and color vector angle. First, original

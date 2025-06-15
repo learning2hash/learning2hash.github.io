@@ -8,7 +8,7 @@ citations: 1
 bibkey: ono2023relative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.20419'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Graph-Based Methods']
+tags: ['ANN Search', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 Approximate Nearest Neighbor Search (ANNS) is the task of finding the
 database vector that is closest to a given query vector. Graph-based ANNS is

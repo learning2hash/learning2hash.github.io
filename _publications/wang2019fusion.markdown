@@ -8,7 +8,7 @@ citations: 13
 bibkey: wang2019fusion
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.11171'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing', 'Multi-Modal Hashing']
 ---
 Deep hashing has recently received attention in cross-modal retrieval for its
 impressive advantages. However, existing hashing methods for cross-modal

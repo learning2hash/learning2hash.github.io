@@ -9,7 +9,7 @@ bibkey: wang2024tensor
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.18847'}
   - {name: "Code", url: 'https://github.com/jankin-wang/TPCH'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Datasets', 'Has Code', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Has Code', 'Tools and Libraries']
 ---
 In recent years, anchor and hash-based multi-view clustering methods have
 gained attention for their efficiency and simplicity in handling large-scale

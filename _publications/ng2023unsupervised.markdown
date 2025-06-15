@@ -9,7 +9,7 @@ bibkey: ng2023unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2302.07669'}
   - {name: "Code", url: 'https://github.com/kamwoh/sdc'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing', 'Has Code', 'Unsupervised Hashing', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Has Code']
 ---
 Unsupervised hashing methods typically aim to preserve the similarity between
 data points in a feature space by mapping them to binary hash codes. However,

@@ -8,7 +8,7 @@ citations: 24
 bibkey: lu2021learnable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.07839'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Vector Indexing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'ANN Search']
 ---
 Video anomaly detection (VAD) mainly refers to identifying anomalous events
 that have not occurred in the training set where only normal samples are

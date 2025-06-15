@@ -8,7 +8,7 @@ citations: 0
 bibkey: chakrabarti2020efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.03234'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals']
 ---
 This paper aims to deliver an efficient and modified approach for image
 retrieval using multiple neural hash codes and limiting the number of queries

@@ -8,7 +8,7 @@ citations: 0
 bibkey: sridhar2010comparison
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1007.5137'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Indexing', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 In this work we have compared two indexing algorithms that have been used to
 index and retrieve Carnatic music songs. We have compared a modified algorithm

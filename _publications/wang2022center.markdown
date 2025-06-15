@@ -9,7 +9,7 @@ bibkey: wang2022center
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2204.10779'}
   - {name: "Code", url: 'https://github.com/xunguangwang/CgAT'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Datasets', 'Has Code', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing', 'Has Code']
 ---
 Deep hashing has been extensively utilized in massive image retrieval because
 of its efficiency and effectiveness. However, deep hashing models are

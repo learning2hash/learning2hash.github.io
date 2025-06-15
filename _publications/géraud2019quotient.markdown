@@ -8,7 +8,7 @@ citations: 3
 bibkey: géraud2019quotient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.04358'}
-tags: ['Unimodal', 'Supervised', 'Shallow']
+tags: ['Indexing and Efficiency']
 ---
 This article presents the Quotient Hash Table (QHT) a new data structure for
 duplicate detection in unbounded streams. QHTs stem from a corrected analysis

@@ -8,7 +8,7 @@ citations: 4
 bibkey: miranda2022multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2212.09255'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Tools and Libraries']
 ---
 The distributed representation of symbols is one of the key technologies in
 machine learning systems today, playing a pivotal role in modern natural

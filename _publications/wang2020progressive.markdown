@@ -8,7 +8,7 @@ citations: 35
 bibkey: wang2020progressive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2001.08878'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications']
 ---
 This paper focuses on network pruning for image retrieval acceleration.
 Prevailing image retrieval works target at the discriminative feature learning,

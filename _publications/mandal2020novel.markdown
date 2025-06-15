@@ -8,7 +8,7 @@ citations: 3
 bibkey: mandal2020novel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.00677'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Cross-modal retrieval deals with retrieving relevant items from one modality,
 when provided with a search query from another modality. Hashing techniques,

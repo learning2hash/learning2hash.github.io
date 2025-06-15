@@ -8,7 +8,7 @@ citations: 6
 bibkey: han2017beyond
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1709.05833'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 In this paper a binary feature based Loop Closure Detection (LCD) method is
 proposed, which for the first time achieves higher precision-recall (PR)

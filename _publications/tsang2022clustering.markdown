@@ -8,7 +8,7 @@ citations: 0
 bibkey: tsang2022clustering
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.05974'}
-tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Compression', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Quantization and Compression', 'RecSys', 'Hashing Fundamentals', 'Quantization']
 ---
 Embedding tables are used by machine learning systems to work with
 categorical features. In modern Recommendation Systems, these tables can be

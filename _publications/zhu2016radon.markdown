@@ -8,7 +8,7 @@ citations: 10
 bibkey: zhu2016radon
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.04675'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 For more than two decades, research has been performed on content-based image
 retrieval (CBIR). By combining Radon projections and the support vector

@@ -8,7 +8,7 @@ citations: 5
 bibkey: jia2022fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2212.03112'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'ANN Search']
 ---
 Hashing has been widely researched to solve the large-scale approximate
 nearest neighbor search problem owing to its time and storage superiority. In

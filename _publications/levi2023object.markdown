@@ -8,7 +8,7 @@ citations: 0
 bibkey: levi2023object
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2309.14999'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 The task of open-vocabulary object-centric image retrieval involves the
 retrieval of images containing a specified object of interest, delineated by an

@@ -8,7 +8,7 @@ citations: 2
 bibkey: mitzenmacher2014new
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1401.7616'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Indexing and Efficiency', 'Hashing Methods', 'Tools and Libraries']
 ---
 Robin Hood hashing is a variation on open addressing hashing designed to
 reduce the maximum search time as well as the variance in the search time for

@@ -8,7 +8,7 @@ citations: 21
 bibkey: zhang2021joint
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.03933'}
-tags: ['Cross-Modal', 'Quantization', 'Quantisation', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Training Strategy']
+tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'ANN Search', 'Quantization']
 ---
 Embedding index that enables fast approximate nearest neighbor(ANN) search,
 serves as an indispensable component for state-of-the-art deep retrieval

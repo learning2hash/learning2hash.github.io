@@ -8,7 +8,7 @@ citations: 40
 bibkey: shi2019compositional
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1909.02107'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'RecSys']
 ---
 Modern deep learning-based recommendation systems exploit hundreds to
 thousands of different categorical features, each with millions of different

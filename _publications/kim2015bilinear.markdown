@@ -8,7 +8,7 @@ citations: 12
 bibkey: kim2015bilinear
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1506.01092'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 Locality-sensitive hashing (LSH) is a popular data-independent indexing
 method for approximate similarity search, where random projections followed by

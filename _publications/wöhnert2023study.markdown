@@ -8,7 +8,7 @@ citations: 0
 bibkey: wöhnert2023study
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2303.00092'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Compression', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Hashing Methods']
 ---
 Typically, metadata of images are stored in a specific data segment of the
 image file. However, to securely detect changes, data can also be embedded

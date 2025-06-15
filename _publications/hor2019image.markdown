@@ -8,7 +8,7 @@ citations: 19
 bibkey: hor2019image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1912.12978'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 With the development of Information technology and communication, a large
 part of the databases is dedicated to images and videos. Thus retrieving images

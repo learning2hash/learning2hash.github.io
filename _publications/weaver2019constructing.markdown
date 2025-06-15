@@ -8,7 +8,7 @@ citations: 2
 bibkey: weaver2019constructing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.10099'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Minimal perfect hash functions (MPHFs) are used to provide efficient access
 to values of large dictionaries (sets of key-value pairs). Discovering new

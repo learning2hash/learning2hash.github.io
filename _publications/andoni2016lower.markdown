@@ -8,7 +8,7 @@ citations: 4
 bibkey: andoni2016lower
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1605.02701'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We show tight lower bounds for the entire trade-off between space and query
 time for the Approximate Near Neighbor search problem. Our lower bounds hold in

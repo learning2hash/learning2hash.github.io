@@ -8,7 +8,7 @@ citations: 47
 bibkey: baranchuk2018revisiting
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1802.02422'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Benchmarks and Tools', 'Evaluation', 'Shallow', 'Vector Indexing']
+tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Tools and Libraries', 'ANN Search']
 ---
 This work addresses the problem of billion-scale nearest neighbor search. The
 state-of-the-art retrieval systems for billion-scale databases are currently

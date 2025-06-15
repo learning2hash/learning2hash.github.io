@@ -8,7 +8,7 @@ citations: 8
 bibkey: laskar2019geometric
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.06882'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 This paper addresses the problem of determining dense pixel correspondences
 between two images and its application to geometric correspondence verification

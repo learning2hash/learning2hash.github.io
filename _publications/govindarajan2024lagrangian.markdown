@@ -8,7 +8,7 @@ citations: 0
 bibkey: govindarajan2024lagrangian
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2409.05334'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 We present Lagrangian Hashing, a representation for neural fields combining
 the characteristics of fast training NeRF methods that rely on Eulerian grids

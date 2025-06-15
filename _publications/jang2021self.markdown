@@ -8,7 +8,7 @@ citations: 51
 bibkey: jang2021self
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.02244'}
-tags: ['Cross-Modal', 'Quantization', 'Quantisation', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Quantization and Compression', 'ANN Search', 'Quantization']
 ---
 Supervised deep learning-based hash and vector quantization are enabling fast
 and large-scale image retrieval systems. By fully exploiting label annotations,

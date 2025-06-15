@@ -8,7 +8,7 @@ citations: 11
 bibkey: lu2018domain
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1812.04275'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 This paper proposes a novel approach for Sketch-Based Image Retrieval (SBIR),
 for which the key is to bridge the gap between sketches and photos in terms of

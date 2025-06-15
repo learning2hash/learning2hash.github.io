@@ -8,7 +8,7 @@ citations: 49
 bibkey: wu2017structured
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1702.04179'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Evaluation', 'Shallow', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Given a pedestrian image as a query, the purpose of person re-identification
 is to identify the correct match from a large collection of gallery images

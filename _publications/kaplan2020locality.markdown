@@ -8,7 +8,7 @@ citations: 0
 bibkey: kaplan2020locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.07286'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Locality Sensitive Hashing (LSH) is an effective method to index a set of
 points such that we can efficiently find the nearest neighbors of a query

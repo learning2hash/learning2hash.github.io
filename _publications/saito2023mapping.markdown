@@ -9,7 +9,7 @@ bibkey: saito2023mapping
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2302.03084'}
   - {name: "Code", url: 'https://github.com/google-research/composed_image_retrieval'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Has Code', 'Applications']
 ---
 In Composed Image Retrieval (CIR), a user combines a query image with text to
 describe their intended target. Existing methods rely on supervised learning of

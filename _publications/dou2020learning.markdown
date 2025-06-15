@@ -8,7 +8,7 @@ citations: 7
 bibkey: dou2020learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2001.01284'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Diffusion has shown great success in improving accuracy of unsupervised image
 retrieval systems by utilizing high-order structures of image manifold.

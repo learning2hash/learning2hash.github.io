@@ -8,7 +8,7 @@ citations: 16
 bibkey: esposito2019minimal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1910.06416'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 A minimal perfect hash function bijectively maps a key set \\(S\\) out of a
 universe \\(U\\) into the first \\(|S|\\) natural numbers. Minimal perfect hash

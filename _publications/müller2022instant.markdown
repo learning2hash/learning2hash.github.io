@@ -8,7 +8,7 @@ citations: 2117
 bibkey: müller2022instant
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.05989'}
-tags: ['Cross-Modal', 'Efficiency', 'Shallow', 'Supervised', 'Training Strategy']
+tags: ['Efficient Learning', 'Indexing and Efficiency']
 ---
 Neural graphics primitives, parameterized by fully connected neural networks,
 can be costly to train and evaluate. We reduce this cost with a versatile new

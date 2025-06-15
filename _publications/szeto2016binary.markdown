@@ -8,7 +8,7 @@ citations: 10
 bibkey: szeto2016binary
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.07060'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing for Real-World Applications', 'Hashing Methods', 'Applications']
 ---
 A Content-Based Image Retrieval (CBIR) system which identifies similar
 medical images based on a query image can assist clinicians for more accurate

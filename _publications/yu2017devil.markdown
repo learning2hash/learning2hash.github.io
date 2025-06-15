@@ -8,7 +8,7 @@ citations: 74
 bibkey: yu2017devil
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1711.08106'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Multi-Modal Hashing', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Many vision problems require matching images of object instances across
 different domains. These include fine-grained sketch-based image retrieval

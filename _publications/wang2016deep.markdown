@@ -8,7 +8,7 @@ citations: 79
 bibkey: wang2016deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.03900'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Supervised Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Hashing is one of the most popular and powerful approximate nearest neighbor
 search techniques for large-scale image retrieval. Most traditional hashing

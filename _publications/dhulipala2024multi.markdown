@@ -8,7 +8,7 @@ citations: 0
 bibkey: dhulipala2024multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2405.19504'}
-tags: ['Cross-Modal', 'Model Design', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets']
+tags: ['Benchmarks and Datasets', 'Evaluation Metrics', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 Neural embedding models have become a fundamental component of modern
 information retrieval (IR) pipelines. These models produce a single embedding

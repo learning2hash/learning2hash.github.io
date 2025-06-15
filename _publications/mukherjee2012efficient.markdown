@@ -8,7 +8,7 @@ citations: 1
 bibkey: mukherjee2012efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1204.2798'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Recent cryptanalytic attacks have exposed the vulnerabilities of some widely
 used cryptographic hash functions like MD5 and SHA-1. Attacks in the line of

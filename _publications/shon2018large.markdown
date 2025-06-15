@@ -8,7 +8,7 @@ citations: 2
 bibkey: shon2018large
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1811.10812'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 This paper describes a fast speaker search system to retrieve segments of the
 same voice identity in the large-scale data. A recent study shows that Locality

@@ -8,7 +8,7 @@ citations: 3
 bibkey: ivanchykhin2016regular
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.09840'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Surveys and Reviews', 'Training Strategy', 'Survey Paper', 'Hashing']
+tags: ['Hashing Methods', 'Survey', 'Hashing Fundamentals', 'Survey Paper', 'Indexing and Efficiency']
 ---
 Random hashing can provide guarantees regarding the performance of data
 structures such as hash tables---even in an adversarial setting. Many existing

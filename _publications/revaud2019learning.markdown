@@ -8,7 +8,7 @@ citations: 285
 bibkey: revaud2019learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1906.07589'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Evaluation', 'Training Strategy', 'Applications']
+tags: ['Evaluation Metrics', 'Loss Functions', 'Applications']
 ---
 Image retrieval can be formulated as a ranking problem where the goal is to
 order database images by decreasing similarity to the query. Recent deep models

@@ -8,7 +8,7 @@ citations: 3
 bibkey: engels2021practical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2106.11565'}
-tags: ['Unsupervised', 'Retrieval Models', 'Benchmarks and Tools', 'Efficiency', 'Shallow', 'Unimodal', 'Vector Indexing', 'Graph-Based Methods', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Efficient Learning', 'Indexing', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 We present a new algorithm for the approximate near neighbor problem that
 combines classical ideas from group testing with locality-sensitive hashing

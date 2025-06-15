@@ -8,7 +8,7 @@ citations: 19
 bibkey: qi2022principled
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2203.00913'}
-tags: ['Cross-Modal', 'Unsupervised', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 Image forensics is a rising topic as the trustworthy multimedia content is
 critical for modern society. Like other vision-related applications, forensic

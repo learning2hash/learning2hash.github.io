@@ -8,7 +8,7 @@ citations: 0
 bibkey: junussov2019note
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.09505'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Hashing algorithm of dynamical set of distances is described. Proposed
 hashing function is residual. Data structure which implementation accelerates

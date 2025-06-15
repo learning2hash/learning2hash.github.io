@@ -8,7 +8,7 @@ citations: 2
 bibkey: kumar2017neural
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1712.00282'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Learning Strategies', 'Tools and Libraries', 'Loss Functions', 'Applications']
 ---
 The problem of vehicle licence plate re-identification is generally
 considered as a one-shot image retrieval problem. The objective of this task is

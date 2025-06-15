@@ -9,7 +9,7 @@ bibkey: zou2025affinity
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.16064'}
   - {name: "Code", url: 'https://github.com/ShiShuMo/PromptHash'}
-tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Datasets', 'Has Code', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Has Code', 'Multi-Modal Hashing']
 ---
 Cross-modal hashing is a promising approach for efficient data retrieval and
 storage optimization. However, contemporary methods exhibit significant

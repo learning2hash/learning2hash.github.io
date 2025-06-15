@@ -8,7 +8,7 @@ citations: 1
 bibkey: ndungu2023deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2309.00932'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Surveys and Reviews', 'Deep Hashing', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Survey', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Survey Paper', 'Deep Hashing']
 ---
 The shear number of sources that will be detected by next-generation radio
 surveys will be astronomical, which will result in serendipitous discoveries.

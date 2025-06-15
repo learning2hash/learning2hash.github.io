@@ -8,7 +8,7 @@ citations: 1
 bibkey: venkataramanan2023integrating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2308.08431'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Applications', 'Approximate Nearest Neighbor Search']
 ---
 Most of the research in content-based image retrieval (CBIR) focus on
 developing robust feature representations that can effectively retrieve

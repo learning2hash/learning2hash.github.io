@@ -8,7 +8,7 @@ citations: 1
 bibkey: böhm2020massively
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.03479'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Model Design', 'Evaluation', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'KDD']
 ---
 To fully exploit the performance potential of modern multi-core processors,
 machine learning and data mining algorithms for big data must be parallelized

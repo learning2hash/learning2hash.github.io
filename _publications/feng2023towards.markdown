@@ -8,7 +8,7 @@ citations: 0
 bibkey: feng2023towards
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2305.18076'}
-tags: ['Deep', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Datasets', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Deep Hashing']
 ---
 Deep hashing retrieval has gained widespread use in big data retrieval due to
 its robust feature extraction and efficient hashing process. However, training

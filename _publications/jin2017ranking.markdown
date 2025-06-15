@@ -8,7 +8,7 @@ citations: 183
 bibkey: jin2017ranking
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.05455'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 In this paper, we propose a ranking based locality sensitive hashing inspired
 two-factor cancelable biometrics, dubbed "Index-of-Max" (IoM) hashing for

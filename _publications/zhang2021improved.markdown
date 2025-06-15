@@ -8,7 +8,7 @@ citations: 4
 bibkey: zhang2021improved
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2103.09442'}
-tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Hashing', 'Datasets', 'Supervised', 'Similarity Learning', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Deep supervised hashing for image retrieval has attracted researchers'
 attention due to its high efficiency and superior retrieval performance. Most

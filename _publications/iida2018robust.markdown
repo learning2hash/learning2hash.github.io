@@ -8,7 +8,7 @@ citations: 1
 bibkey: iida2018robust
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1807.06928'}
-tags: ['Cross-Modal', 'Deep', 'Compression', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Hashing Methods', 'Applications']
 ---
 It is known that JPEG images uploaded to social networks (SNs) are mostly
 re-compressed by the social network providers. Because of such a situation, a

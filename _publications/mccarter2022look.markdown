@@ -8,7 +8,7 @@ citations: 1
 bibkey: mccarter2022look
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.05808'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Fast approximations to matrix multiplication have the potential to
 dramatically reduce the cost of neural network inference. Recent work on

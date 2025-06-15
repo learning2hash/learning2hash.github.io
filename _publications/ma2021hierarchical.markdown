@@ -9,7 +9,7 @@ bibkey: ma2021hierarchical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2102.09375'}
   - {name: "Code", url: 'https://github.com/liufh1/hsl'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Has Code', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Has Code', 'Applications']
 ---
 This paper aims for the language-based product image retrieval task. The
 majority of previous works have made significant progress by designing network

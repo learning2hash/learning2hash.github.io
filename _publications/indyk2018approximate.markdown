@@ -8,7 +8,7 @@ citations: 6
 bibkey: indyk2018approximate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1807.00112'}
-tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Vector Indexing']
+tags: ['Evaluation Metrics', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 We consider the \\((1+\epsilon)\\)-approximate nearest neighbor search problem:
 given a set \\(X\\) of \\(n\\) points in a \\(d\\)-dimensional space, build a data

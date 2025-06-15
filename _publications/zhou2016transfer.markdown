@@ -8,7 +8,7 @@ citations: 25
 bibkey: zhou2016transfer
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1605.04034'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Training Strategy', 'Datasets', 'Vector Indexing', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
 ---
 Most existing learning to hash methods assume that there are sufficient data,
 either labeled or unlabeled, on the domain of interest (i.e., the target

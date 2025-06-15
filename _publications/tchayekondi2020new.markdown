@@ -8,7 +8,7 @@ citations: 1
 bibkey: tchayekondi2020new
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.02290'}
-tags: ['Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 KNN has the reputation to be the word simplest but efficient supervised
 learning algorithm used for either classification or regression. KNN prediction

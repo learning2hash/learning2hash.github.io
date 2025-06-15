@@ -8,7 +8,7 @@ citations: 9
 bibkey: yu2022learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.13322'}
-tags: ['Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Unimodal', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Learning to hash pictures a list-wise sorting problem. Its testing metrics,
 e.g., mean-average precision, count on a sorted candidate list ordered by

@@ -8,7 +8,7 @@ citations: 18
 bibkey: tizhoosh2016minmax
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1610.00318'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 Content-based medical image retrieval can support diagnostic decisions by
 clinical experts. Examining similar images may provide clues to the expert to

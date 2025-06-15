@@ -8,7 +8,7 @@ citations: 11
 bibkey: fountoulakis2010insertion
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1006.1231'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 Cuckoo hashing is an efficient technique for creating large hash tables with
 high space utilization and guaranteed constant access times. There, each item

@@ -8,7 +8,7 @@ citations: 17
 bibkey: yan2020image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2009.08049'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 Conventional image retrieval techniques for Structure-from-Motion (SfM)
 suffer from the limit of effectively recognizing repetitive patterns and cannot

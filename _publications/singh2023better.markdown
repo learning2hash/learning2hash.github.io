@@ -8,7 +8,7 @@ citations: 0
 bibkey: singh2023better
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.08121'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Randomly-hashed item ids are used ubiquitously in recommendation models.
 However, the learned representations from random hashing prevents

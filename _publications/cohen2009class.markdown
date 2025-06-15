@@ -8,7 +8,7 @@ citations: 0
 bibkey: cohen2009class
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0907.1005'}
-tags: ['Cross-Modal', 'Supervised', 'Deep']
+tags: ['Indexing and Efficiency']
 ---
 Browsing is a way of finding documents in a large amount of data which is
 complementary to querying and which is particularly suitable for multimedia

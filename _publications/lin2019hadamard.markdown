@@ -9,7 +9,7 @@ bibkey: lin2019hadamard
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.04454'}
   - {name: "Code", url: 'https://github.com/lmbxmu/mycode'}
-tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Vector Indexing', 'Has Code', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Has Code', 'ANN Search']
 ---
 Online image hashing has attracted increasing research attention recently,
 which receives large-scale data in a streaming manner to update the hash

@@ -8,7 +8,7 @@ citations: 29
 bibkey: auvolat2015clustering
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1507.05910'}
-tags: ['Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Efficient Learning', 'RecSys', 'Hashing Fundamentals']
 ---
 Efficient Maximum Inner Product Search (MIPS) is an important task that has a
 wide applicability in recommendation systems and classification with a large

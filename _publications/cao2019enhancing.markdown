@@ -8,7 +8,7 @@ citations: 79
 bibkey: cao2019enhancing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.05818'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Similarity Learning', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications']
 ---
 With the rapid growing of remotely sensed imagery data, there is a high
 demand for effective and efficient image retrieval tools to manage and exploit

@@ -9,7 +9,7 @@ bibkey: doan2020image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2003.00134'}
   - {name: "Code", url: 'https://github.com/khoadoan/adversarial-hashing)'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Datasets', 'Has Code', 'Unsupervised Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Hybrid and Advanced Models', 'Privacy and Security', 'Tools and Libraries', 'Hashing Fundamentals', 'Has Code']
 ---
 Image hashing is one of the fundamental problems that demand both efficient
 and effective solutions for various practical scenarios. Adversarial

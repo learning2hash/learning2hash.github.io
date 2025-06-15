@@ -8,7 +8,7 @@ citations: 6
 bibkey: jung2022few
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2211.07116'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Similarity Learning', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 Metric learning aims to build a distance metric typically by learning an
 effective embedding function that maps similar objects into nearby points in

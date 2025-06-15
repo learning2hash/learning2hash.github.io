@@ -8,7 +8,7 @@ citations: 5
 bibkey: olóndriz2021foodi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2110.02035'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 In this paper we introduce the FooDI-ML dataset. This dataset contains over
 1.5M unique images and over 9.5M store names, product names descriptions, and

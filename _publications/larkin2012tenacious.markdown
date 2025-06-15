@@ -8,7 +8,7 @@ citations: 2
 bibkey: larkin2012tenacious
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1208.5842'}
-tags: ['Cross-Modal', 'Independent', 'Benchmarks and Tools', 'Shallow', 'Compression', 'Vector Indexing']
+tags: ['Quantization and Compression', 'ANN Search']
 ---
 We describe a method for attaching persistent metadata to an image. The
 method can be interpreted as a template-based blind watermarking scheme, robust

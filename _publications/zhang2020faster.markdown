@@ -8,7 +8,7 @@ citations: 1
 bibkey: zhang2020faster
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2010.00712'}
-tags: ['Quantisation', 'Unimodal', 'Evaluation', 'Shallow', 'Quantization', 'Hashing']
+tags: ['Evaluation Metrics', 'Quantization', 'Quantization and Compression', 'Tools and Libraries']
 ---
 We propose a fast, distance-preserving, binary embedding algorithm to
 transform a high-dimensional dataset \\(\mathcal\{T\}\subseteq\mathbb\{R\}^n\\) into

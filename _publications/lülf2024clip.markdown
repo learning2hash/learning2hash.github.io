@@ -8,7 +8,7 @@ citations: 2
 bibkey: lülf2024clip
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2406.13322'}
-tags: ['Retrieval Models', 'Benchmarks and Tools', 'Unimodal', 'Shallow', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Indexing', 'Tools and Libraries', 'ANN Search']
 ---
 The advent of text-image models, most notably CLIP, has significantly
 transformed the landscape of information retrieval. These models enable the

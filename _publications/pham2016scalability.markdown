@@ -8,7 +8,7 @@ citations: 9
 bibkey: pham2016scalability
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1602.02620'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 Locality-sensitive hashing (LSH) has emerged as the dominant algorithmic
 technique for similarity search with strong performance guarantees in

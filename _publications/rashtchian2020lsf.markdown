@@ -8,7 +8,7 @@ citations: 3
 bibkey: rashtchian2020lsf
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2003.02972'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'KDD', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 All-pairs set similarity is a widely used data mining task, even for large
 and high-dimensional datasets. Traditionally, similarity search has focused on

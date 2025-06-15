@@ -8,7 +8,7 @@ citations: 1
 bibkey: li2024mixed
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2409.20305'}
-tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Compression', 'Datasets', 'Quantization', 'Applications']
+tags: ['Evaluation Metrics', 'Quantization and Compression', 'RecSys', 'Tools and Libraries', 'Quantization']
 ---
 Embedding techniques have become essential components of large databases in
 the deep learning era. By encoding discrete entities, such as words, items, or

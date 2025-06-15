@@ -8,7 +8,7 @@ citations: 3
 bibkey: kobs2022language
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2211.12760'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Common Deep Metric Learning (DML) datasets specify only one notion of
 similarity, e.g., two images in the Cars196 dataset are deemed similar if they

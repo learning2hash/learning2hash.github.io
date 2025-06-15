@@ -8,7 +8,7 @@ citations: 7
 bibkey: melekhov2021digging
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2110.04773'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 Fully-supervised CNN-based approaches for learning local image descriptors
 have shown remarkable results in a wide range of geometric tasks. However, most

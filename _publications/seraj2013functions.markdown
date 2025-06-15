@@ -8,7 +8,7 @@ citations: 0
 bibkey: seraj2013functions
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1312.4568'}
-tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 While exploring desirable properties of hash functions in cryptography, the
 author was led to investigate three notions of functions with scattering or

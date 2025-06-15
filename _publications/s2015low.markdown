@@ -8,7 +8,7 @@ citations: 3
 bibkey: s2015low
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1503.03606'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 In this paper, we present a novel approach for image retrieval based on
 extraction of low level features using techniques such as Directional Binary

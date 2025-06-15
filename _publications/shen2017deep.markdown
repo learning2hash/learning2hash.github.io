@@ -8,7 +8,7 @@ citations: 40
 bibkey: shen2017deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1708.02531'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Efficient Learning', 'Modality-Specific Hashing', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Cross-modal hashing is usually regarded as an effective technique for
 large-scale textual-visual cross retrieval, where data from different

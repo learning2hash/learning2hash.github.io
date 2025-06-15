@@ -8,7 +8,7 @@ citations: 16
 bibkey: george2015image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1510.07136'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 This paper presents a nonparametric scene parsing approach that improves the
 overall accuracy, as well as the coverage of foreground classes in scene

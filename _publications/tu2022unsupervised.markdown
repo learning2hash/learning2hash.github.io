@@ -8,7 +8,7 @@ citations: 8
 bibkey: tu2022unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2209.11475'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Recently, to improve the unsupervised image retrieval performance, plenty of
 unsupervised hashing methods have been proposed by designing a semantic

@@ -8,7 +8,7 @@ citations: 0
 bibkey: shand2020locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.03909'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Approximate Nearest Neighbor Search']
 ---
 We discuss the problem of performing similarity search over function spaces.
 To perform search over such spaces in a reasonable amount of time, we use \{\it

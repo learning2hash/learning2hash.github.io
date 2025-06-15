@@ -8,7 +8,7 @@ citations: 2
 bibkey: portegys2015general
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1512.07263'}
-tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 A method for identifying graphs using MD5 hashing is presented. This allows
 fast graph equality comparisons and can also be used to facilitate graph

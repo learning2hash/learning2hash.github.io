@@ -8,7 +8,7 @@ citations: 1
 bibkey: brooks2017multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1709.03517'}
-tags: ['Cross-Modal', 'Unsupervised', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 This paper introduces "Multi-Level Spherical LSH": parameter-free, a
 multi-level, data-dependant Locality Sensitive Hashing data structure for

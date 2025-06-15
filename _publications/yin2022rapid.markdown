@@ -8,7 +8,7 @@ citations: 1
 bibkey: yin2022rapid
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.05933'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 Person Re-Identification (ReID) matches pedestrians across disjoint cameras.
 Existing ReID methods adopting real-value feature descriptors have achieved

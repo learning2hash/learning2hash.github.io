@@ -8,7 +8,7 @@ citations: 93
 bibkey: li2013learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1303.0339'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Fast nearest neighbor searching is becoming an increasingly important tool in
 solving many large-scale problems. Recently a number of approaches to learning

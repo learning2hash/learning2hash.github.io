@@ -8,7 +8,7 @@ citations: 28
 bibkey: benbihi2019image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1910.12468'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Most of the research effort on image-based place recognition is designed for
 urban environments. In bucolic environments such as natural scenes with low

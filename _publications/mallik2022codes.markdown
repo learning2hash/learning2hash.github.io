@@ -8,7 +8,7 @@ citations: 0
 bibkey: mallik2022codes
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.06733'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Uncategorized']
 ---
 Binary codes are constructed from incidence matrices of hypergraphs. A
 combinatroial description is given for the minimum distances of such codes via

@@ -8,7 +8,7 @@ citations: 1351
 bibkey: johnson2017billion
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1702.08734'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Quantization']
+tags: ['Approximate Nearest Neighbor Search', 'Indexing', 'Quantization and Compression', 'Tools and Libraries', 'Quantization']
 ---
 Similarity search finds application in specialized database systems handling
 complex data such as images or videos, which are typically represented by

@@ -8,7 +8,7 @@ citations: 13
 bibkey: ding2019bilinear
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.01474'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Hashing has been recognized as an efficient representation learning method to
 effectively handle big data due to its low computational complexity and memory

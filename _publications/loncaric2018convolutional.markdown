@@ -8,7 +8,7 @@ citations: 1
 bibkey: loncaric2018convolutional
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1802.03101'}
-tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We present a powerful new loss function and training scheme for learning
 binary hash functions. In particular, we demonstrate our method by creating for

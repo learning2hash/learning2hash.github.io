@@ -9,7 +9,7 @@ bibkey: lin2024enhancing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2403.14287'}
   - {name: "Code", url: 'https://github.com/linty5/CCBIR'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Has Code', 'Supervised', 'Applications']
+tags: ['Has Code', 'Applications']
 ---
 In analyzing vast amounts of digitally stored historical image data, existing
 content-based retrieval methods often overlook significant non-semantic

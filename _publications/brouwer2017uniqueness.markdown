@@ -8,7 +8,7 @@ citations: 0
 bibkey: brouwer2017uniqueness
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1709.02195'}
-tags: ['Cross-Modal', 'Independent', 'Vector Indexing', 'Shallow']
+tags: ['ANN Search']
 ---
 For \\(n,d,w \in \mathbb\{N\}\\), let \\(A(n,d,w)\\) denote the maximum size of a
 binary code of word length \\(n\\), minimum distance \\(d\\) and constant weight \\(w\\).

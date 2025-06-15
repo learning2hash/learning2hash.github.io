@@ -8,7 +8,7 @@ citations: 1
 bibkey: mohamed2012distributed
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1205.0439'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In today's world of computers, dealing with huge amounts of data is not
 unusual. The need to distribute this data in order to increase its availability

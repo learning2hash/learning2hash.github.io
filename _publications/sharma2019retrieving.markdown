@@ -8,7 +8,7 @@ citations: 20
 bibkey: sharma2019retrieving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.03546'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 In this paper, we propose a deep convolutional neural network for learning
 the embeddings of images in order to capture the notion of visual similarity.

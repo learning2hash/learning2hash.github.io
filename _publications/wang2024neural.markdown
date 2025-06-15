@@ -8,7 +8,7 @@ citations: 0
 bibkey: wang2024neural
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2401.18064'}
-tags: ['Deep', 'Unimodal', 'Evaluation', 'Datasets', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 Locality-sensitive hashing (LSH) is a fundamental algorithmic technique
 widely employed in large-scale data processing applications, such as

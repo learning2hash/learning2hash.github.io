@@ -8,7 +8,7 @@ citations: 27
 bibkey: choromanska2015binary
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1511.05212'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Compression', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Quantization and Compression']
 ---
 We consider the hashing mechanism for constructing binary embeddings, that
 involves pseudo-random projections followed by nonlinear (sign function)

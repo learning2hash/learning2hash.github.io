@@ -8,7 +8,7 @@ citations: 20
 bibkey: lemire2007recursive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0705.4676'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications', 'ANN Search']
 ---
 Many applications use sequences of n consecutive symbols (n-grams). Hashing
 these n-grams can be a performance bottleneck. For more speed, recursive hash

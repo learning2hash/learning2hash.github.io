@@ -8,7 +8,7 @@ citations: 2
 bibkey: jian2020fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2008.02002'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Quantization', 'Hashing']
+tags: ['Approximate Nearest Neighbor Search', 'Indexing', 'Quantization and Compression', 'ANN Search', 'Quantization']
 ---
 We explore the use of GPU for accelerating large scale nearest neighbor
 search and we propose a fast vector-quantization-based exhaustive nearest

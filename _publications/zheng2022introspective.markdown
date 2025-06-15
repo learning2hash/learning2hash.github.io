@@ -9,7 +9,7 @@ bibkey: zheng2022introspective
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2205.04449'}
   - {name: "Code", url: 'https://github.com/wzzheng/IDML'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Has Code', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications']
 ---
 This paper proposes an introspective deep metric learning (IDML) framework
 for uncertainty-aware comparisons of images. Conventional deep metric learning

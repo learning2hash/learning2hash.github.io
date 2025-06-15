@@ -8,7 +8,7 @@ citations: 5
 bibkey: hou2023semantic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.03991'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Existing watermarking algorithms are vulnerable to paraphrase attacks because
 of their token-level design. To address this issue, we propose SemStamp, a

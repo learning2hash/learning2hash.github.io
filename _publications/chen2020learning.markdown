@@ -8,7 +8,7 @@ citations: 1
 bibkey: chen2020learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2008.11203'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 To address semi-supervised learning from both labeled and unlabeled data, we
 present a novel meta-learning scheme. We particularly consider that labeled and

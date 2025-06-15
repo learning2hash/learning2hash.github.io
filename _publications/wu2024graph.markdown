@@ -9,7 +9,7 @@ bibkey: wu2024graph
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.17245'}
   - {name: "Code", url: 'https://github.com/snap-research/GraphHash'}
-tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Has Code', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'RecSys', 'Hashing Fundamentals', 'Has Code']
 ---
 Deep recommender systems rely heavily on large embedding tables to handle
 high-cardinality categorical features such as user/item identifiers, and face

@@ -8,7 +8,7 @@ citations: 27
 bibkey: li2016measuring
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1602.08680'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Textual data such as tags, sentence descriptions are combined with visual
 cues to reduce the semantic gap for image retrieval applications in today's

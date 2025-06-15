@@ -8,7 +8,7 @@ citations: 0
 bibkey: meloacosta2022instance
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.04310'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Training of Machine Learning (ML) models in real contexts often deals with
 big data sets and high-class imbalance samples where the class of interest is

@@ -8,7 +8,7 @@ citations: 43
 bibkey: schroeder2020structured
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.06653'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 A structured query can capture the complexity of object interactions (e.g.
 'woman rides motorcycle') unlike single objects (e.g. 'woman' or 'motorcycle').

@@ -8,7 +8,7 @@ citations: 15
 bibkey: wang2013fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1312.3062'}
-tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'ANN Search']
 ---
 In this paper, we propose a new data structure for approximate nearest
 neighbor search. This structure augments the neighborhood graph with a bridge

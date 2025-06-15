@@ -8,7 +8,7 @@ citations: 8
 bibkey: matsui2017non
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1704.06556'}
-tags: ['Quantization', 'Quantisation', 'Unimodal', 'Shallow', 'Vector Indexing', 'Training Strategy']
+tags: ['Indexing', 'Quantization', 'Quantization and Compression', 'Indexing and Efficiency']
 ---
 In this paper, we propose a product quantization table (PQTable); a fast
 search method for product-quantized codes via hash-tables. An identifier of

@@ -8,7 +8,7 @@ citations: 3
 bibkey: chen2016revisiting
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.01834'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 WTA (Winner Take All) hashing has been successfully applied in many large
 scale vision applications. This hashing scheme was tailored to take advantage

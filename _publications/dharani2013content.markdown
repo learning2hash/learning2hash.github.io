@@ -8,7 +8,7 @@ citations: 17
 bibkey: dharani2013content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1307.4717'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 Feature means countenance, remote sensing scene objects with similar
 characteristics, associated to interesting scene elements in the image

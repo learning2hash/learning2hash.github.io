@@ -8,7 +8,7 @@ citations: 27
 bibkey: lam2018quantized
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.05651'}
-tags: ['Cross-Modal', 'Quantisation', 'Training Strategy', 'Shallow', 'Quantization']
+tags: ['Evaluation Metrics', 'Quantization', 'Quantization and Compression']
 ---
 Word vectors require significant amounts of memory and storage, posing issues
 to resource limited devices like mobile phones and GPUs. We show that high

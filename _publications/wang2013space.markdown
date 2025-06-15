@@ -8,7 +8,7 @@ citations: 2
 bibkey: wang2013space
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1303.1016'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Using hashing techniques, this paper develops a family of space-efficient Las
 Vegas randomized algorithms for \\(k\\)-SUM problems. This family includes an

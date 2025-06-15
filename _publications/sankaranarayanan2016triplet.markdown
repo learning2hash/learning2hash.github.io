@@ -8,7 +8,7 @@ citations: 47
 bibkey: sankaranarayanan2016triplet
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1602.03418'}
-tags: ['Deep', 'Unimodal', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 In this work, we present an unconstrained face verification algorithm and
 evaluate it on the recently released IJB-A dataset that aims to push the

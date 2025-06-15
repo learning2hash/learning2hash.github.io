@@ -8,7 +8,7 @@ citations: 4
 bibkey: ortega2022unconventional
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2208.02734'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Vector Indexing', 'Applications']
+tags: ['Applications', 'Indexing', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 Similarity search based on a distance function in metric spaces is a
 fundamental problem for many applications. Queries for similar objects lead to

@@ -8,7 +8,7 @@ citations: 110
 bibkey: dutta2019semantically
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1903.03372'}
-tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Zero-shot sketch-based image retrieval (SBIR) is an emerging task in computer
 vision, allowing to retrieve natural images relevant to sketch queries that

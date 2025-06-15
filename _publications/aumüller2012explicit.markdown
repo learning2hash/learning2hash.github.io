@@ -8,7 +8,7 @@ citations: 5
 bibkey: aumüller2012explicit
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1204.4431'}
-tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 It is shown that for cuckoo hashing with a stash as proposed by Kirsch,
 Mitzenmacher, and Wieder (2008) families of very simple hash functions can be

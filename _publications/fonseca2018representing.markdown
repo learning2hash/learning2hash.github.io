@@ -8,7 +8,7 @@ citations: 0
 bibkey: fonseca2018representing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1812.02523'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications', 'ANN Search']
 ---
 Modern research in content-based image retrieval systems (CIBR) has become
 progressively more focused on the richness of human semantics. Several

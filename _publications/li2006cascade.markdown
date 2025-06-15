@@ -8,7 +8,7 @@ citations: 0
 bibkey: li2006cascade
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0608037'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 In this paper, the author proposes a series of multilevel double hashing
 schemes called cascade hash tables. They use several levels of hash tables. In

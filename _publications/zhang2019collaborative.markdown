@@ -8,7 +8,7 @@ citations: 46
 bibkey: zhang2019collaborative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.00623'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Efficient Learning', 'Hashing Fundamentals', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
 ---
 Cross-modal similarity search is a problem about designing a search system
 supporting querying across content modalities, e.g., using an image to search

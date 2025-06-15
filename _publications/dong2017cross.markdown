@@ -8,7 +8,7 @@ citations: 17
 bibkey: dong2017cross
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1709.01305'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 In order to retrieve unlabeled images by textual queries, cross-media
 similarity computation is a key ingredient. Although novel methods are

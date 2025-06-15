@@ -8,7 +8,7 @@ citations: 0
 bibkey: ahle2020power
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2008.08654'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 The classic way of computing a \\(k\\)-universal hash function is to use a random
 degree-\\((k-1)\\) polynomial over a prime field \\(\mathbb Z_p\\). For a fast

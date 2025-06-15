@@ -9,7 +9,7 @@ bibkey: roostaiyan2023toward
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.06907'}
   - {name: "Code", url: 'https://github.com/hamid-amiri/MCDL-Image-Annotation'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications', 'ANN Search']
 ---
 In most image retrieval systems, images include various high-level semantics,
 called tags or annotations. Virtually all the state-of-the-art image annotation

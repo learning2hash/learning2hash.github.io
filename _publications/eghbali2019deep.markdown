@@ -8,7 +8,7 @@ citations: 23
 bibkey: eghbali2019deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1906.02865'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization']
 ---
 Hashing methods, which encode high-dimensional images with compact discrete
 codes, have been widely applied to enhance large-scale image retrieval. In this

@@ -8,7 +8,7 @@ citations: 110
 bibkey: wang2021comprehensive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2101.12631'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Surveys and Reviews', 'Vector Indexing', 'Survey Paper', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Survey', 'RecSys', 'Tools and Libraries', 'ANN Search', 'Survey Paper']
 ---
 Approximate nearest neighbor search (ANNS) constitutes an important operation
 in a multitude of applications, including recommendation systems, information

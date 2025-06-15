@@ -8,7 +8,7 @@ citations: 5
 bibkey: liu2023binary
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2308.02992'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Uncategorized']
 ---
 Binary code similarity detection is to detect the similarity of code at
 binary (assembly) level without source code. Existing works have their

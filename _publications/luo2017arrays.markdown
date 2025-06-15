@@ -8,7 +8,7 @@ citations: 5
 bibkey: luo2017arrays
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1706.06664'}
-tags: ['Unimodal', 'Shallow', 'Conferences', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Methods', 'KDD', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Anomaly detection is one of the frequent and important subroutines deployed
 in large-scale data processing systems. Even being a well-studied topic,

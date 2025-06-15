@@ -8,7 +8,7 @@ citations: 4
 bibkey: jiang2019evaluation
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.10951'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'ANN Search', 'Hashing Fundamentals']
 ---
 Due to its low storage cost and fast query speed, hashing has been widely
 used for large-scale approximate nearest neighbor (ANN) search. Bucket search,

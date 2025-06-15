@@ -8,7 +8,7 @@ citations: 4
 bibkey: meel2020sparse
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.14692'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Efficient Learning', 'Hashing Fundamentals']
 ---
 Given a CNF formula F on n variables, the problem of model counting or #SAT
 is to compute the number of satisfying assignments of F . Model counting is a

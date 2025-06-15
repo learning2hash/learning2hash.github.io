@@ -8,7 +8,7 @@ citations: 50
 bibkey: bai2018learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1809.04440'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'Approximate Nearest Neighbor Search']
 ---
 Graph similarity computation is one of the core operations in many
 graph-based applications, such as graph similarity search, graph database

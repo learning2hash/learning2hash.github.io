@@ -9,7 +9,7 @@ bibkey: yu2020comprehensive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2012.13538'}
   - {name: "Code", url: 'https://github.com/Atmegal/DGCPN'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Datasets', 'Has Code', 'Quantization', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization', 'Has Code', 'Multi-Modal Hashing']
 ---
 Unsupervised cross-modal hashing (UCMH) has become a hot topic recently.
 Current UCMH focuses on exploring data similarities. However, current UCMH

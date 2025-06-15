@@ -8,7 +8,7 @@ citations: 16
 bibkey: morozov2019unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.03883'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Quantization', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Quantization and Compression', 'Tools and Libraries', 'Quantization']
 ---
 We tackle the problem of unsupervised visual descriptors compression, which
 is a key ingredient of large-scale image retrieval systems. While the deep

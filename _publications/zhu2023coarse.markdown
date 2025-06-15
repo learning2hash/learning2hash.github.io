@@ -9,7 +9,7 @@ bibkey: zhu2023coarse
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2308.04008'}
   - {name: "Code", url: 'https://github.com/bassyess/CFCD'}
-tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Has Code', 'Applications']
 ---
 Image retrieval targets to find images from a database that are visually
 similar to the query image. Two-stage methods following retrieve-and-rerank

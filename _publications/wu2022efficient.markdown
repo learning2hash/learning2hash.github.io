@@ -8,7 +8,7 @@ citations: 6
 bibkey: wu2022efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.07940'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing']
+tags: ['Evaluation Metrics', 'ANN Search', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 The in-memory approximate nearest neighbor search (ANNS) algorithms have
 achieved great success for fast high-recall query processing, but are extremely

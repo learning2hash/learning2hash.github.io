@@ -8,7 +8,7 @@ citations: 0
 bibkey: polak2016improved
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.02178'}
-tags: ['Unimodal', 'Independent', 'Vector Indexing', 'Shallow']
+tags: ['ANN Search']
 ---
 For nonnegative integers \\(n\\) and \\(d\\), let \\(A(n,d)\\) be the maximum cardinality
 of a binary code of length \\(n\\) and minimum distance at least \\(d\\). We consider a

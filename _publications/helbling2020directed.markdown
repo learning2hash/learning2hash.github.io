@@ -8,7 +8,7 @@ citations: 0
 bibkey: helbling2020directed
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.06653'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Hybrid and Advanced Models', 'Hashing Fundamentals', 'Graph and Transformer Models']
 ---
 This paper presents several algorithms for hashing directed graphs. The
 algorithms given are capable of hashing entire graphs as well as assigning hash

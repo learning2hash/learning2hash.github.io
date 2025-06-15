@@ -8,7 +8,7 @@ citations: 38
 bibkey: martinez2014stacked
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1411.2173'}
-tags: ['Quantisation', 'Unimodal', 'Shallow', 'Compression', 'Datasets', 'Vector Indexing', 'Quantization', 'Hashing']
+tags: ['Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Quantization']
 ---
 Recently, Babenko and Lempitsky introduced Additive Quantization (AQ), a
 generalization of Product Quantization (PQ) where a non-independent set of

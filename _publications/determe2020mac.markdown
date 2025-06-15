@@ -8,7 +8,7 @@ citations: 1
 bibkey: determe2020mac
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2009.09876'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Research has shown that counting WiFi packets called probe requests (PRs)
 implicitly provides a proxy for the number of people in an area. In this paper,

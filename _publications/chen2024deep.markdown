@@ -9,7 +9,7 @@ bibkey: chen2024deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2410.15387'}
   - {name: "Code", url: 'https://github.com/donnotnormal/DCGH'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Has Code', 'Deep Hashing', 'Multi-Modal Hashing', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing', 'Has Code', 'Multi-Modal Hashing']
 ---
 Deep hashing, due to its low cost and efficient retrieval advantages, is
 widely valued in cross-modal retrieval. However, existing cross-modal hashing

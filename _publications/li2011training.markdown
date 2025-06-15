@@ -8,7 +8,7 @@ citations: 3
 bibkey: li2011training
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1108.3072'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 We generated a dataset of 200 GB with 10^9 features, to test our recent b-bit
 minwise hashing algorithms for training very large-scale logistic regression

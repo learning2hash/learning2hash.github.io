@@ -8,7 +8,7 @@ citations: 77
 bibkey: kim2019deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.09626'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Similarity Learning', 'Supervised Hashing', 'Applications']
+tags: ['Learning Strategies', 'Loss Functions', 'Applications']
 ---
 Metric Learning for visual similarity has mostly adopted binary supervision
 indicating whether a pair of images are of the same class or not. Such a binary

@@ -8,7 +8,7 @@ citations: 6
 bibkey: morère2016group
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1601.02093'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Datasets', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 Most image instance retrieval pipelines are based on comparison of vectors
 known as global image descriptors between a query image and the database

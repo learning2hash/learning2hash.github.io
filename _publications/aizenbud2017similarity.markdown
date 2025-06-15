@@ -8,7 +8,7 @@ citations: 0
 bibkey: aizenbud2017similarity
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.03311'}
-tags: ['Unsupervised', 'Retrieval Models', 'Shallow', 'Cross-Modal']
+tags: ['Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 This paper provides a new similarity detection algorithm. Given an input set
 of multi-dimensional data points, where each data point is assumed to be

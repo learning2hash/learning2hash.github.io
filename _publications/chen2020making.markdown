@@ -8,7 +8,7 @@ citations: 13
 bibkey: chen2020making
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2010.04948'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Data-dependent hashing methods have demonstrated good performance in various
 machine learning applications to learn a low-dimensional representation from

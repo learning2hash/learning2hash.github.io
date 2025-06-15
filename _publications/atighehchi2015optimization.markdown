@@ -8,7 +8,7 @@ citations: 14
 bibkey: atighehchi2015optimization
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1512.05864'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 This paper focuses on parallel hash functions based on tree modes of
 operation for an inner Variable-Input-Length function. This inner function can

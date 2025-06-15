@@ -8,7 +8,7 @@ citations: 9
 bibkey: maier2017dynamic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1705.00997'}
-tags: ['Cross-Modal', 'Shallow', 'Hashing', 'Quantisation']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 We consider space efficient hash tables that can grow and shrink dynamically
 and are always highly space efficient, i.e., their space consumption is always

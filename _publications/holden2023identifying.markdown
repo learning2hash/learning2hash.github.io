@@ -8,7 +8,7 @@ citations: 0
 bibkey: holden2023identifying
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.08416'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We introduce and analyse a family of hash and predicate functions that are
 more likely to produce collisions for small reducible configurations of

@@ -8,7 +8,7 @@ citations: 1
 bibkey: hou2024k
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2402.11399'}
-tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Recent watermarked generation algorithms inject detectable signatures during
 language generation to facilitate post-hoc detection. While token-level

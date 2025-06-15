@@ -8,7 +8,7 @@ citations: 0
 bibkey: li2016generalized
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.09283'}
-tags: ['Cross-Modal', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Following the very recent line of work on the ``generalized min-max'' (GMM)
 kernel, this study proposes the ``generalized intersection'' (GInt) kernel and

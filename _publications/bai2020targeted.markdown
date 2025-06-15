@@ -8,7 +8,7 @@ citations: 55
 bibkey: bai2020targeted
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.07955'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Evaluation', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 The deep hashing based retrieval method is widely adopted in large-scale
 image and video retrieval. However, there is little investigation on its

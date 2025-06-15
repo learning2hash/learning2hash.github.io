@@ -8,7 +8,7 @@ citations: 0
 bibkey: dutta2018graph
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.00425'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Vector Indexing', 'Graph-Based Methods', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'ANN Search']
 ---
 Graph-based methods are known to be successful in many machine learning and
 pattern classification tasks. These methods consider semi-structured data as

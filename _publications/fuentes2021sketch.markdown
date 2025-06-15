@@ -8,7 +8,7 @@ citations: 13
 bibkey: fuentes2021sketch
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2104.11130'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Loss Functions', 'Applications', 'Approximate Nearest Neighbor Search', 'ANN Search', 'Learning Strategies']
 ---
 Architectures based on siamese networks with triplet loss have shown
 outstanding performance on the image-based similarity search problem. This

@@ -9,7 +9,7 @@ bibkey: weyand2020google
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.01804'}
   - {name: "Code", url: 'https://github.com/cvdfoundation/google-landmark'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Has Code']
 ---
 While image retrieval and instance recognition techniques are progressing
 rapidly, there is a need for challenging datasets to accurately measure their

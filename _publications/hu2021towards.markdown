@@ -8,7 +8,7 @@ citations: 3
 bibkey: hu2021towards
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.08237'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 The practical value of existing supervised sketch-based image retrieval
 (SBIR) algorithms is largely limited by the requirement for intensive data

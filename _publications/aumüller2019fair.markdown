@@ -8,7 +8,7 @@ citations: 11
 bibkey: aumüller2019fair
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1906.01859'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 Similarity search is a fundamental algorithmic primitive, widely used in many
 computer science disciplines. There are several variants of the similarity

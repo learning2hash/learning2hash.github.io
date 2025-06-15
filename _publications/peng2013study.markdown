@@ -8,7 +8,7 @@ citations: 2
 bibkey: peng2013study
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1309.0309'}
-tags: ['Cross-Modal', 'Quantisation', 'Shallow', 'Datasets', 'Quantization']
+tags: ['Quantization', 'Quantization and Compression', 'Tools and Libraries']
 ---
 Many efforts have been devoted to develop alternative methods to traditional
 vector quantization in image domain such as sparse coding and soft-assignment.

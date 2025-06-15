@@ -8,7 +8,7 @@ citations: 10
 bibkey: westermann2021sentence
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.11494'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing']
+tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 Human-performed annotation of sentences in legal documents is an important
 prerequisite to many machine learning based systems supporting legal tasks.

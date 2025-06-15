@@ -8,7 +8,7 @@ citations: 60
 bibkey: bhute2014content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1401.1742'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Compression', 'Supervised', 'Applications']
+tags: ['Quantization and Compression', 'Indexing', 'Applications']
 ---
 In this paper, we present the efficient content based image retrieval systems
 which employ the color, texture and shape information of images to facilitate

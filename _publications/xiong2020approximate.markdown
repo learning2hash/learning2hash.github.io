@@ -8,7 +8,7 @@ citations: 356
 bibkey: xiong2020approximate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.00808'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Vector Indexing', 'Training Strategy']
+tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 Conducting text retrieval in a dense learned representation space has many
 intriguing advantages over sparse retrieval. Yet the effectiveness of dense

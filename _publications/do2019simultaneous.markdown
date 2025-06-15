@@ -8,7 +8,7 @@ citations: 19
 bibkey: do2019simultaneous
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.11820'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Hashing for Real-World Applications']
 ---
 Representing images by compact hash codes is an attractive approach for
 large-scale content-based image retrieval. In most state-of-the-art

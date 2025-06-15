@@ -8,7 +8,7 @@ citations: 2
 bibkey: zhang2021instance
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2108.05274'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Deep hashing has been widely applied to large-scale image retrieval by
 encoding high-dimensional data points into binary codes for efficient

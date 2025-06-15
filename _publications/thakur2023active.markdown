@@ -8,7 +8,7 @@ citations: 0
 bibkey: thakur2023active
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2309.08743'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 The ability to retrieve a photo by mere free-hand sketching highlights the
 immense potential of Fine-grained sketch-based image retrieval (FG-SBIR).

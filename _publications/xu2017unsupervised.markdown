@@ -9,7 +9,7 @@ bibkey: xu2017unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1705.01247'}
   - {name: "Code", url: 'https://github.com/XJhaoren/PWA'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications']
 ---
 In this paper, we propose a simple but effective semantic part-based
 weighting aggregation (PWA) for image retrieval. The proposed PWA utilizes the

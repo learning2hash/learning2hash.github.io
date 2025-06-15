@@ -8,7 +8,7 @@ citations: 25
 bibkey: maji2020cbir
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.07877'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 In a Content Based Image Retrieval (CBIR) System, the task is to retrieve
 similar images from a large database given a query image. The usual procedure

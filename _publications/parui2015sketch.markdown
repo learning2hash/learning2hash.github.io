@@ -8,7 +8,7 @@ citations: 3
 bibkey: parui2015sketch
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1511.00099'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Indexing', 'Tools and Libraries', 'Applications']
 ---
 Proliferation of touch-based devices has made sketch-based image retrieval
 practical. While many methods exist for sketch-based object detection/image

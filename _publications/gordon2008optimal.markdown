@@ -8,7 +8,7 @@ citations: 2
 bibkey: gordon2008optimal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0806.3284'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 One way to find closest pairs in large datasets is to use hash functions. In
 recent years locality-sensitive hash functions for various metrics have been

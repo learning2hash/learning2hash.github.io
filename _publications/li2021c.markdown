@@ -8,7 +8,7 @@ citations: 0
 bibkey: li2021c
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.09544'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 Minwise hashing (MinHash) is a classical method for efficiently estimating
 the Jaccrad similarity in massive binary (0/1) data. To generate \\(K\\) hash

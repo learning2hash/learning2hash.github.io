@@ -8,7 +8,7 @@ citations: 4
 bibkey: guan2018video
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1808.03735'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 Estimation of the frequency and duration of logos in videos is important and
 challenging in the advertisement industry as a way of estimating the impact of

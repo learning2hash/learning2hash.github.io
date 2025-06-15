@@ -8,7 +8,7 @@ citations: 1
 bibkey: van2015rbir
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1507.04816'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 This paper approaches the image retrieval system on the base of visual
 features local region RBIR (region-based image retrieval). First of all, the

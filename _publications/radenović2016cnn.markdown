@@ -8,7 +8,7 @@ citations: 291
 bibkey: radenović2016cnn
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.02426'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications', 'ANN Search']
 ---
 Convolutional Neural Networks (CNNs) achieve state-of-the-art performance in
 many computer vision tasks. However, this achievement is preceded by extreme

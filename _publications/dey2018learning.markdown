@@ -8,7 +8,7 @@ citations: 17
 bibkey: dey2018learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1804.10819'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 In this work we introduce a cross modal image retrieval system that allows
 both text and sketch as input modalities for the query. A cross-modal deep

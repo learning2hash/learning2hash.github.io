@@ -8,7 +8,7 @@ citations: 17
 bibkey: andré2017accelerated
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1704.07355'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Quantization']
+tags: ['Evaluation Metrics', 'Efficient Learning', 'Quantization and Compression', 'ANN Search', 'Quantization']
 ---
 Efficient Nearest Neighbor (NN) search in high-dimensional spaces is a
 foundation of many multimedia retrieval systems. Because it offers low

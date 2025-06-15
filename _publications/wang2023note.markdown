@@ -8,7 +8,7 @@ citations: 95
 bibkey: wang2023note
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.04258'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Data valuation is a growing research field that studies the influence of
 individual data points for machine learning (ML) models. Data Shapley, inspired

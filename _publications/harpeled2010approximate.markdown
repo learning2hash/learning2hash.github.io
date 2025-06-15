@@ -8,7 +8,7 @@ citations: 3
 bibkey: harpeled2010approximate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1007.3296'}
-tags: ['Deep', 'Unsupervised', 'Retrieval Models', 'Unimodal', 'Vector Indexing']
+tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 We study the Approximate Nearest Neighbor problem for metric spaces where the
 query points are constrained to lie on a subspace of low doubling dimension,

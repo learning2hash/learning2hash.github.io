@@ -8,7 +8,7 @@ citations: 1
 bibkey: roig2013random
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1307.5161'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Evaluation', 'Datasets', 'Quantization']
+tags: ['Evaluation Metrics', 'Efficient Learning', 'Quantization and Compression', 'Benchmarks and Datasets', 'Quantization']
 ---
 Support Vector Machines (SVMs) are powerful learners that have led to
 state-of-the-art results in various computer vision problems. SVMs suffer from

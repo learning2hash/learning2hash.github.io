@@ -8,7 +8,7 @@ citations: 0
 bibkey: chakraborty2023distinct
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2301.10191'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Given a data stream \\(\mathcal\{A\} = \langle a_1, a_2, \ldots, a_m \rangle\\) of
 \\(m\\) elements where each \\(a_i \in [n]\\), the Distinct Elements problem is to

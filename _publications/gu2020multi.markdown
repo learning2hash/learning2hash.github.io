@@ -8,7 +8,7 @@ citations: 13
 bibkey: gu2020multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.12416'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications']
 ---
 Content-Based Image Retrieval (CBIR) techniques have been widely researched
 and in service with the help of cloud computing like Google Images. However,

@@ -8,7 +8,7 @@ citations: 1
 bibkey: slesarev2022benchmarking
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2211.00741'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Modern high load applications store data using multiple database instances.
 Such an architecture requires data consistency, and it is important to ensure

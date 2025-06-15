@@ -8,7 +8,7 @@ citations: 0
 bibkey: green2025find
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.07038'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Efficient Learning', 'Applications']
 ---
 We address the challenge of Small Object Image Retrieval (SoIR), where the
 goal is to retrieve images containing a specific small object, in a cluttered

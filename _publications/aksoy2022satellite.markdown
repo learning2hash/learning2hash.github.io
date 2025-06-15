@@ -8,7 +8,7 @@ citations: 6
 bibkey: aksoy2022satellite
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2208.10830'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Deep Hashing', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Hashing for Real-World Applications', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing', 'Indexing and Efficiency']
 ---
 The growing operational capability of global Earth Observation (EO) creates
 new opportunities for data-driven approaches to understand and protect our

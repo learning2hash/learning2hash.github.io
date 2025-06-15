@@ -8,7 +8,7 @@ citations: 1
 bibkey: liu2023can
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.09806'}
-tags: ['Deep', 'Unimodal', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 With the rapid development of GPU (Graphics Processing Unit) technologies and
 neural networks, we can explore more appropriate data structures and

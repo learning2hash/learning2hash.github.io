@@ -9,7 +9,7 @@ bibkey: zhang2025obd
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2505.03836'}
   - {name: "Code", url: 'https://github.com/cszhangLMU/OBD-Finder/'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Has Code', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing for Real-World Applications', 'Has Code']
 ---
 Oracle Bone Inscription (OBI) is the earliest systematic writing system in
 China, while the identification of Oracle Bone (OB) duplicates is a fundamental

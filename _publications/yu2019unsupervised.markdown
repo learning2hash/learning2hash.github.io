@@ -8,7 +8,7 @@ citations: 9
 bibkey: yu2019unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.00726'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Multi-Modal Hashing', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 With the advantage of low storage cost and high efficiency, hashing learning
 has received much attention in the domain of Big Data. In this paper, we

@@ -8,7 +8,7 @@ citations: 0
 bibkey: tang2021when
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.08789'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
+tags: ['Hashing Fundamentals', 'Survey Paper', 'Hashing Methods', 'Survey']
 ---
 The booming vector manage system calls for feasible similarity hash function
 as a front-end to perform similarity analysis. In this paper, we make a

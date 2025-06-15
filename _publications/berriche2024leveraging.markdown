@@ -8,7 +8,7 @@ citations: 1
 bibkey: berriche2024leveraging
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2403.13747'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Supervised', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Deep hashing techniques have emerged as the predominant approach for
 efficient image retrieval. Traditionally, these methods utilize pre-trained

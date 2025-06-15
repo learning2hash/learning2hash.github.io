@@ -9,7 +9,7 @@ bibkey: wang2021domain
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2106.11841'}
   - {name: "Code", url: 'https://github.com/haowang1992/DSN'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications']
 ---
 Zero-Shot Sketch-Based Image Retrieval (ZS-SBIR) is a novel cross-modal
 retrieval task, where abstract sketches are used as queries to retrieve natural

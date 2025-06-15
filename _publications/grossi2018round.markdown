@@ -8,7 +8,7 @@ citations: 2
 bibkey: grossi2018round
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1805.03158'}
-tags: ['Benchmarks and Tools', 'Unimodal', 'Shallow', 'Vector Indexing', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 This paper proposes round-hashing, which is suitable for data storage on
 distributed servers and for implementing external-memory tables in which each

@@ -8,7 +8,7 @@ citations: 0
 bibkey: bui2016generalisation
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.05301'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 We propose and evaluate several triplet CNN architectures for measuring the
 similarity between sketches and photographs, within the context of the sketch

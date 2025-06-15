@@ -8,7 +8,7 @@ citations: 0
 bibkey: um2023vector
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2308.05118'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Compression']
+tags: ['Evaluation Metrics', 'Quantization and Compression', 'Approximate Nearest Neighbor Search']
 ---
 This paper demonstrates the utility of organized numerical representations of
 genes in research involving flat string gene formats (i.e., FASTA/FASTQ5).

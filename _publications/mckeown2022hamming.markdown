@@ -8,7 +8,7 @@ citations: 3
 bibkey: mckeown2022hamming
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2212.08035'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'ANN Search']
 ---
 Content-based file matching has been widely deployed for decades, largely for
 the detection of sources of copyright infringement, extremist materials, and

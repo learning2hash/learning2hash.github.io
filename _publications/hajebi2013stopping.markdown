@@ -8,7 +8,7 @@ citations: 2
 bibkey: hajebi2013stopping
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1312.7414'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Quantization', 'Applications']
+tags: ['Quantization', 'Quantization and Compression', 'Indexing and Efficiency', 'Applications']
 ---
 We propose a technique to improve the search efficiency of the bag-of-words
 (BoW) method for image retrieval. We introduce a notion of difficulty for the

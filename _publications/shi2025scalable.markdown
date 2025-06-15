@@ -8,7 +8,7 @@ citations: 0
 bibkey: shi2025scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2502.20695'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Vector Indexing', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search']
 ---
 Approximate Nearest Neighbor Search (ANNS) is essential for modern
 data-driven applications that require efficient retrieval of top-k results from

@@ -8,7 +8,7 @@ citations: 61
 bibkey: barz2018hierarchy
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1809.09924'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Evaluation Metrics', 'Applications', 'Evaluation and Benchmarks']
 ---
 Deep neural networks trained for classification have been found to learn
 powerful image representations, which are also often used for other tasks such

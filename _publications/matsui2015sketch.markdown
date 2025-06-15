@@ -8,7 +8,7 @@ citations: 975
 bibkey: matsui2015sketch
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1510.04389'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Quantization']
+tags: ['Quantization', 'Quantization and Compression', 'Tools and Libraries']
 ---
 Manga (Japanese comics) are popular worldwide. However, current e-manga
 archives offer very limited search support, including keyword-based search by

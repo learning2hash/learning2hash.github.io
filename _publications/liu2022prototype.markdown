@@ -8,7 +8,7 @@ citations: 2
 bibkey: liu2022prototype
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.15678'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Datasets', 'Vector Indexing', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Multi-Modal Hashing']
 ---
 Recently, deep cross-modal hashing has gained increasing attention. However,
 in many practical cases, data are distributed and cannot be collected due to

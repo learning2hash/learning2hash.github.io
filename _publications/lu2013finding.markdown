@@ -8,7 +8,7 @@ citations: 4
 bibkey: lu2013finding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1312.7085'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 To effectively retrieve objects from large corpus with high accuracy is a
 challenge task. In this paper, we propose a method that propagates visual

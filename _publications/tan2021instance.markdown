@@ -9,7 +9,7 @@ bibkey: tan2021instance
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2103.12236'}
   - {name: "Code", url: 'https://github.com/uvavision/RerankingTransformer'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications']
 ---
 Instance-level image retrieval is the task of searching in a large database
 for images that match an object in a query image. To address this task, systems

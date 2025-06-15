@@ -8,7 +8,7 @@ citations: 41
 bibkey: jun2019combination
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1903.10663'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 Recent studies in image retrieval task have shown that ensembling different
 models and combining multiple global descriptors lead to performance

@@ -8,7 +8,7 @@ citations: 5
 bibkey: kraus2015nearbucket
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1511.07148'}
-tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Approximate Nearest Neighbor Search']
 ---
 We present NearBucket-LSH, an effective algorithm for similarity search in
 large-scale distributed online social networks organized as peer-to-peer

@@ -8,7 +8,7 @@ citations: 14
 bibkey: dong2017video
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1712.00133'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies']
 ---
 Recently, with the enormous growth of online videos, fast video retrieval
 research has received increasing attention. As an extension of image hashing

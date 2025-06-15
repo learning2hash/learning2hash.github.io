@@ -8,7 +8,7 @@ citations: 0
 bibkey: xu2018error
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1808.01942'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Evaluation', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 We propose to use the concept of the Hamming bound to derive the optimal
 criteria for learning hash codes with a deep network. In particular, when the

@@ -8,7 +8,7 @@ citations: 29
 bibkey: cayton2011accelerating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1103.2635'}
-tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets']
+tags: ['Efficient Learning', 'ANN Search', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 We develop methods for accelerating metric similarity search that are
 effective on modern hardware. Our algorithms factor into easily parallelizable

@@ -8,7 +8,7 @@ citations: 1
 bibkey: zhu2023central
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2308.13774'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Datasets', 'Multi-Modal Hashing', 'Similarity Learning', 'Hashing']
+tags: ['Benchmarks and Datasets', 'Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Hash representation learning of multi-view heterogeneous data is the key to
 improving the accuracy of multimedia retrieval. However, existing methods

@@ -8,7 +8,7 @@ citations: 525
 bibkey: wang2015learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1511.06078'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Multi-Modal Hashing', 'Similarity Learning', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 This paper proposes a method for learning joint embeddings of images and text
 using a two-branch neural network with multiple layers of linear projections

@@ -8,7 +8,7 @@ citations: 0
 bibkey: salemohamed2024discovering
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2411.03253'}
-tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'ANN Search']
 ---
 We propose a general framework for end-to-end learning of data structures.
 Our framework adapts to the underlying data distribution and provides

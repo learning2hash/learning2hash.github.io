@@ -8,7 +8,7 @@ citations: 2
 bibkey: meisburger2020distributed
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2008.03260'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 We present SLASH (Sketched LocAlity Sensitive Hashing), an MPI (Message
 Passing Interface) based distributed system for approximate similarity search

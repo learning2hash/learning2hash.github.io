@@ -8,7 +8,7 @@ citations: 0
 bibkey: hermann2025engineering
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2504.20001'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 Given a set S of n keys, a k-perfect hash function (kPHF) is a data structure
 that maps the keys to the first m integers, where each output integer can be

@@ -8,7 +8,7 @@ citations: 123
 bibkey: huang2016local
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1610.08904'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications', 'ANN Search']
 ---
 Existing deep embedding methods in vision tasks are capable of learning a
 compact Euclidean space from images, where Euclidean distances correspond to a

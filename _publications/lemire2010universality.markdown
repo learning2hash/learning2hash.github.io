@@ -8,7 +8,7 @@ citations: 4
 bibkey: lemire2010universality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1008.1715'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Iterated hash functions process strings recursively, one character at a time.
 At each iteration, they compute a new hash value from the preceding hash value

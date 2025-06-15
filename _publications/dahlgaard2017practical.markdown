@@ -8,7 +8,7 @@ citations: 16
 bibkey: dahlgaard2017practical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1711.08797'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Conferences', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ICML', 'Applications']
 ---
 Hashing is a basic tool for dimensionality reduction employed in several
 aspects of machine learning. However, the perfomance analysis is often carried

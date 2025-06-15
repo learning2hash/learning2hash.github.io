@@ -8,7 +8,7 @@ citations: 1
 bibkey: james2019deephashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1912.10822'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Hashing', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Hashing Fundamentals', 'Learning Strategies', 'Deep Hashing']
 ---
 Hashing is one of the most efficient techniques for approximate nearest
 neighbour search for large scale image retrieval. Most of the techniques are

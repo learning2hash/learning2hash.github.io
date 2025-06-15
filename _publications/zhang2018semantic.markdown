@@ -8,7 +8,7 @@ citations: 9
 bibkey: zhang2018semantic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1805.08705'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Deep Hashing']
 ---
 Hashing method maps similar data to binary hashcodes with smaller hamming
 distance, which has received a broad attention due to its low storage cost and

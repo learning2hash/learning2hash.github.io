@@ -8,7 +8,7 @@ citations: 0
 bibkey: lunga2017hashed
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.05685'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 Very large overhead imagery associated with ground truth maps has the
 potential to generate billions of training image patches for machine learning

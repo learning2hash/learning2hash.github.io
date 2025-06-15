@@ -8,7 +8,7 @@ citations: 0
 bibkey: chen2024towards
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2408.09239'}
-tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'RecSys', 'Hashing Fundamentals']
 ---
 Searching on bipartite graphs serves as a fundamental task for various
 real-world applications, such as recommendation systems, database retrieval,

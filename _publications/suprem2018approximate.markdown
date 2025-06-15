@@ -8,7 +8,7 @@ citations: 1
 bibkey: suprem2018approximate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.05401'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Traditional image recognition involves identifying the key object in a
 portrait-type image with a single object focus (ILSVRC, AlexNet, and VGG). More

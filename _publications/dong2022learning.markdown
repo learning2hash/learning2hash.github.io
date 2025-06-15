@@ -9,7 +9,7 @@ bibkey: dong2022learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2209.13586'}
   - {name: "Code", url: 'https://github.com/PRBonn/descriptor-dr'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Has Code', 'Supervised', 'Applications']
+tags: ['Has Code', 'Applications']
 ---
 A distinctive representation of image patches in form of features is a key
 component of many computer vision and robotics tasks, such as image matching,

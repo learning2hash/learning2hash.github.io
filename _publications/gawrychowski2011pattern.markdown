@@ -8,7 +8,7 @@ citations: 15
 bibkey: gawrychowski2011pattern
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1104.4203'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Compression', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Efficient Learning', 'Quantization and Compression', 'Hashing Fundamentals']
 ---
 Countless variants of the Lempel-Ziv compression are widely used in many
 real-life applications. This paper is concerned with a natural modification of

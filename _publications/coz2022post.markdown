@@ -8,7 +8,7 @@ citations: 0
 bibkey: coz2022post
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.03987'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We define new families of Tillich-Z\'emor hash functions, using higher
 dimensional special linear groups over finite fields as platforms. The Cayley

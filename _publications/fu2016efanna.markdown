@@ -8,7 +8,7 @@ citations: 65
 bibkey: fu2016efanna
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.07228'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'KDD', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Approximate nearest neighbor (ANN) search is a fundamental problem in many
 areas of data mining, machine learning and computer vision. The performance of

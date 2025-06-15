@@ -8,7 +8,7 @@ citations: 11
 bibkey: green2019hashgraph
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1907.02900'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Indexing and Efficiency', 'Applications', 'ANN Search']
 ---
 Hash tables are ubiquitous and used in a wide range of applications for
 efficient probing of large and unsorted data. If designed properly, hash-tables

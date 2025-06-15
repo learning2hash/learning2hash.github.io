@@ -8,7 +8,7 @@ citations: 5
 bibkey: binder2019massively
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.05942'}
-tags: ['Cross-Modal', 'Shallow', 'Quantisation']
+tags: ['Indexing and Efficiency']
 ---
 Restricting path tracing to a small number of paths per pixel for performance
 reasons rarely achieves a satisfactory image quality for scenes of interest.

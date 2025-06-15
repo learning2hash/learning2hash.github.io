@@ -8,7 +8,7 @@ citations: 0
 bibkey: krishna2019video
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.09518'}
-tags: ['Deep', 'Independent', 'Model Design', 'Unimodal', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 In this report, we introduce a video hashing method for scalable video
 segment copy detection. The objective of video segment copy detection is to

@@ -8,7 +8,7 @@ citations: 67
 bibkey: imbriaco2019aggregated
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1903.09469'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Applications']
+tags: ['Applications']
 ---
 Remote Sensing Image Retrieval remains a challenging topic due to the special
 nature of Remote Sensing Imagery. Such images contain various different

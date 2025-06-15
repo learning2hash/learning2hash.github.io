@@ -8,7 +8,7 @@ citations: 4
 bibkey: loncaric2018learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1810.01008'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Hashing Fundamentals', 'Benchmarks and Datasets']
 ---
 We present a powerful new loss function and training scheme for learning
 binary hash codes with any differentiable model and similarity function. Our

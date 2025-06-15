@@ -9,7 +9,7 @@ bibkey: wang2019multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.06627'}
   - {name: "Code", url: 'https://github.com/MalongTech/research-ms-loss'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Conferences', 'Has Code', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Loss Functions', 'Applications', 'Evaluation Metrics', 'ECCV', 'Tools and Libraries', 'Benchmarks and Datasets', 'Has Code']
 ---
 A family of loss functions built on pair-based computation have been proposed
 in the literature which provide a myriad of solutions for deep metric learning.

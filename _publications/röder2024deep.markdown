@@ -8,7 +8,7 @@ citations: 0
 bibkey: röder2024deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2409.12575'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 This extended abstract explores the integration of federated learning with
 deep transfer hashing for distributed prediction tasks, emphasizing

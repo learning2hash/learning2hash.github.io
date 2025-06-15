@@ -8,7 +8,7 @@ citations: 40
 bibkey: chen2021transformer
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.01823'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Deep hamming hashing has gained growing popularity in approximate nearest
 neighbour search for large-scale image retrieval. Until now, the deep hashing

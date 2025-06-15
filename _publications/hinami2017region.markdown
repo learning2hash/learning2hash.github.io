@@ -8,7 +8,7 @@ citations: 14
 bibkey: hinami2017region
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1709.09106'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Indexing', 'Applications']
 ---
 Region-based image retrieval (RBIR) technique is revisited. In early attempts
 at RBIR in the late 90s, researchers found many ways to specify region-based

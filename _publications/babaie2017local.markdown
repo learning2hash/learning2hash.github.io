@@ -8,7 +8,7 @@ citations: 13
 bibkey: babaie2017local
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1710.04097'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Radon transform and its inverse operation are important techniques in medical
 imaging tasks. Recently, there has been renewed interest in Radon transform for

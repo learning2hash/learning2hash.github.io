@@ -8,7 +8,7 @@ citations: 541
 bibkey: zheng2016sift
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1608.01807'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Surveys and Reviews', 'Quantization', 'Survey Paper', 'Applications']
+tags: ['Applications', 'Survey', 'Tools and Libraries', 'Survey Paper', 'Hashing for Real-World Applications']
 ---
 In the early days, content-based image retrieval (CBIR) was studied with
 global features. Since 2003, image retrieval based on local descriptors (de

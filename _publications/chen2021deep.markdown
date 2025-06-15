@@ -8,7 +8,7 @@ citations: 3
 bibkey: chen2021deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.04937'}
-tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 In this paper, we make the very first attempt to investigate the integration
 of deep hash learning with vehicle re-identification. We propose a deep

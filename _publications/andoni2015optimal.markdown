@@ -8,7 +8,7 @@ citations: 110
 bibkey: andoni2015optimal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1501.01062'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 We show an optimal data-dependent hashing scheme for the approximate near
 neighbor problem. For an \\(n\\)-point data set in a \\(d\\)-dimensional space our data

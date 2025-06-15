@@ -8,7 +8,7 @@ citations: 4
 bibkey: vijayalakshmi2011novel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1111.2391'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Applications', 'ANN Search']
 ---
 Texture is an important spatial feature which plays a vital role in content
 based image retrieval. The enormous growth of the internet and the wide use of

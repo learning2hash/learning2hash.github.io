@@ -8,7 +8,7 @@ citations: 2
 bibkey: tang2022multimodal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2208.00767'}
-tags: ['Cross-Modal', 'Model Design', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 Recently, numbers of works shows that the performance of neural machine
 translation (NMT) can be improved to a certain extent with using visual

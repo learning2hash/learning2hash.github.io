@@ -8,7 +8,7 @@ citations: 12
 bibkey: defrança2014hash
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1407.7753'}
-tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'KDD']
 ---
 Many real-life data are described by categorical attributes without a
 pre-classification. A common data mining method used to extract information

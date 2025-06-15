@@ -8,7 +8,7 @@ citations: 0
 bibkey: wang2021semantic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.06583'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Indexing', 'Applications']
 ---
 In large-scale image retrieval, many indexing methods have been proposed to
 narrow down the searching scope of retrieval. The features extracted from

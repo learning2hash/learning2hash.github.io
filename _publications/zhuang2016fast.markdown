@@ -8,7 +8,7 @@ citations: 86
 bibkey: zhuang2016fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.02844'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Learning Strategies']
 ---
 In this paper, we aim to learn a mapping (or embedding) from images to a
 compact binary space in which Hamming distances correspond to a ranking measure

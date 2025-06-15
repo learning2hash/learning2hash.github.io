@@ -8,7 +8,7 @@ citations: 10
 bibkey: pagh2006linear
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0612055'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 Hashing with linear probing dates back to the 1950s, and is among the most
 studied algorithms. In recent years it has become one of the most important

@@ -8,7 +8,7 @@ citations: 3
 bibkey: li2023locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.04368'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Methods', 'Hybrid and Advanced Models', 'Tools and Libraries', 'Hashing Fundamentals', 'Graph and Transformer Models']
 ---
 Hashing is very popular for remote sensing image search. This article
 proposes a multiview hashing with learnable parameters to retrieve the queried

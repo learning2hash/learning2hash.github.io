@@ -8,7 +8,7 @@ citations: 5
 bibkey: maitinshepard2016elliptic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1601.06502'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 A homomorphic, or incremental, multiset hash function, associates a hash
 value to arbitrary collections of objects (with possible repetitions) in such a

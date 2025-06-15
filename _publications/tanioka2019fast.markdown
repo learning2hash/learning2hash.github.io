@@ -8,7 +8,7 @@ citations: 7
 bibkey: tanioka2019fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.01505'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Hashing for Real-World Applications', 'Applications']
 ---
 Fast and scalable Content-Based Image Retrieval using visual features is
 required for document analysis, Medical image analysis, etc. in the present

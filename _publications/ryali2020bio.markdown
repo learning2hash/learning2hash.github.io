@@ -8,7 +8,7 @@ citations: 4
 bibkey: ryali2020bio
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2001.04907'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals']
 ---
 The fruit fly Drosophila's olfactory circuit has inspired a new locality
 sensitive hashing (LSH) algorithm, FlyHash. In contrast with classical LSH

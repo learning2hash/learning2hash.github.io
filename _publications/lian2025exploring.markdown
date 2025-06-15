@@ -9,7 +9,7 @@ bibkey: lian2025exploring
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2504.03587'}
   - {name: "Code", url: 'https://github.com/EliSpectre/CVPR25-AutoSSVH'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Conferences', 'Has Code', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Indexing', 'Tools and Libraries', 'Hashing Fundamentals', 'CVPR', 'Has Code', 'Indexing and Efficiency']
 ---
 Self-Supervised Video Hashing (SSVH) compresses videos into hash codes for
 efficient indexing and retrieval using unlabeled training videos. Existing

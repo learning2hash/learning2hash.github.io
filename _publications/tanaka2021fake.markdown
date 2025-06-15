@@ -8,7 +8,7 @@ citations: 9
 bibkey: tanaka2021fake
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2102.01313'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Compression', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Privacy and Security', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 In this paper, we investigate whether robust hashing has a possibility to
 robustly detect fake-images even when multiple manipulation techniques such as

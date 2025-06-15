@@ -8,7 +8,7 @@ citations: 17
 bibkey: han2023comprehensive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.11703'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Surveys and Reviews', 'Vector Indexing', 'Quantization', 'Survey Paper']
+tags: ['Approximate Nearest Neighbor Search', 'Survey Paper', 'Survey', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Quantization']
 ---
 A vector database is used to store high-dimensional data that cannot be
 characterized by traditional DBMS. Although there are not many articles

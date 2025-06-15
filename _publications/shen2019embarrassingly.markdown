@@ -8,7 +8,7 @@ citations: 14
 bibkey: shen2019embarrassingly
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.09573'}
-tags: ['Cross-Modal', 'Model Design', 'Training Strategy', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Benchmarks and Datasets']
 ---
 Recent binary representation learning models usually require sophisticated
 binary optimization, similarity measure or even generative models as

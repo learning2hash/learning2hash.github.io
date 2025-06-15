@@ -8,7 +8,7 @@ citations: 0
 bibkey: liang2013image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1304.1995'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Similarity Learning', 'Applications']
+tags: ['Applications']
 ---
 Image retrieval has been a top topic in the field of both computer vision and
 machine learning for a long time. Content based image retrieval, which tries to

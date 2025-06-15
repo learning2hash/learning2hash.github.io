@@ -8,7 +8,7 @@ citations: 9
 bibkey: argerich2016feature
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1608.08940'}
-tags: ['Cross-Modal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 In this paper we propose the application of feature hashing to create word
 embeddings for natural language processing. Feature hashing has been used

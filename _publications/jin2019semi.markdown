@@ -8,7 +8,7 @@ citations: 21
 bibkey: jin2019semi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.08688'}
-tags: ['Cross-Modal', 'Deep', 'Datasets', 'Deep Hashing', 'Supervised', 'Hashing']
+tags: ['Hashing Methods', 'Hybrid and Advanced Models', 'Privacy and Security', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Deep hashing methods have been proved to be effective and efficient for
 large-scale Web media search. The success of these data-driven methods largely

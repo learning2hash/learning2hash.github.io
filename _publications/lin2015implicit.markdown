@@ -8,7 +8,7 @@ citations: 0
 bibkey: lin2015implicit
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1512.00130'}
-tags: ['Cross-Modal', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 We address the problem of converting large-scale high-dimensional image data
 into binary codes so that approximate nearest-neighbor search over them can be

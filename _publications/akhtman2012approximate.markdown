@@ -8,7 +8,7 @@ citations: 0
 bibkey: akhtman2012approximate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1206.6584'}
-tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Uncategorized']
 ---
 We devise an analytically simple as well as invertible approximate
 expression, which describes the relation between the minimum distance of a

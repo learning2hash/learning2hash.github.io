@@ -8,7 +8,7 @@ citations: 0
 bibkey: taileb2013content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1302.7039'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Indexing', 'Applications']
 ---
 Content-based image retrieval (CBIR) has been one of the most important
 research areas in computer vision. It is a widely used method for searching

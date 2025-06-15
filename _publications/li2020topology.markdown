@@ -8,7 +8,7 @@ citations: 3
 bibkey: li2020topology
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.06563'}
-tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Control Flow Graph (CFG) similarity analysis is an essential technique for a
 variety of security analysis tasks, including malware detection and malware

@@ -8,7 +8,7 @@ citations: 0
 bibkey: defranca2014iterative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1401.6124'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Minhashing is a technique used to estimate the Jaccard Index between two sets
 by exploiting the probability of collision in a random permutation. In order to

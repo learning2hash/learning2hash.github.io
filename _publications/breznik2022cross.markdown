@@ -9,7 +9,7 @@ bibkey: breznik2022cross
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.03597'}
   - {name: "Code", url: 'https://github.com/MIDA-group/CrossModal_ImgRetrieval'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Has Code', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Has Code', 'Applications']
 ---
 In tissue characterization and cancer diagnostics, multimodal imaging has
 emerged as a powerful technique. Thanks to computational advances, large

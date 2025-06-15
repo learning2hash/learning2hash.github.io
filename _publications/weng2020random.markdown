@@ -8,7 +8,7 @@ citations: 1
 bibkey: weng2020random
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.02333'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Deep Hashing', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization', 'Deep Hashing']
 ---
 Image hash algorithms generate compact binary representations that can be
 quickly matched by Hamming distance, thus become an efficient solution for

@@ -8,7 +8,7 @@ citations: 0
 bibkey: wagner2023fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2307.01877'}
-tags: ['Quantisation', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Quantization']
 ---
 We study efficient mechanisms for differentially private kernel density
 estimation (DP-KDE). Prior work for the Gaussian kernel described algorithms

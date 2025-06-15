@@ -8,7 +8,7 @@ citations: 0
 bibkey: billings2018gradient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.04494'}
-tags: ['Model Design', 'Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Supervised Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 This paper will explore the use of autoencoders for semantic hashing in the
 context of Information Retrieval. This paper will summarize how to efficiently

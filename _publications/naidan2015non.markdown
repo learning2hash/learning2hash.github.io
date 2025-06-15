@@ -9,7 +9,7 @@ bibkey: naidan2015non
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1508.05470'}
   - {name: "Code", url: 'https://github.com/searchivarius/nmslib/tree/v1.8/'}
-tags: ['Cross-Modal', 'Benchmarks and Tools', 'Shallow', 'Has Code', 'Supervised']
+tags: ['Has Code', 'Tools and Libraries']
 ---
 This document covers a library for fast similarity (k-NN)search. It describes
 only search methods and distances (spaces). Details about building, installing,

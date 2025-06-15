@@ -8,7 +8,7 @@ citations: 0
 bibkey: pereira2017genetic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1711.06809'}
-tags: ['Cross-Modal', 'Quantization', 'Deep', 'Model Design', 'Quantisation', 'Retrieval Models', 'Datasets', 'Training Strategy', 'Applications']
+tags: ['Applications', 'Quantization and Compression', 'Tools and Libraries', 'Quantization', 'Hashing for Real-World Applications']
 ---
 Over the last decades, hand-crafted feature extractors have been used to
 encode image visual properties into feature vectors. Recently, data-driven

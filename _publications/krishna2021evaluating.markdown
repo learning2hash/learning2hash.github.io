@@ -8,7 +8,7 @@ citations: 4
 bibkey: krishna2021evaluating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2104.14939'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Applications']
 ---
 In this work, we evaluate contrastive models for the task of image retrieval.
 We hypothesise that models that are learned to encode semantic similarity among

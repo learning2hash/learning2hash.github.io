@@ -8,7 +8,7 @@ citations: 20
 bibkey: kehl2016hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1607.06062'}
-tags: ['Unsupervised', 'Cross-Modal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We present a scalable method for detecting objects and estimating their 3D
 poses in RGB-D data. To this end, we rely on an efficient representation of

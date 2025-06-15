@@ -8,7 +8,7 @@ citations: 6
 bibkey: chen2019efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.11903'}
-tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Shallow', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Detecting spliced images is one of the emerging challenges in computer
 vision. Unlike prior methods that focus on detecting low-level artifacts

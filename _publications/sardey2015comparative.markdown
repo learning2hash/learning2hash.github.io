@@ -8,7 +8,7 @@ citations: 1
 bibkey: sardey2015comparative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1508.06728'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Applications']
 ---
 Basic group of visual techniques such as color, shape, texture are used in
 Content Based Image Retrievals (CBIR) to retrieve query image or subregion of

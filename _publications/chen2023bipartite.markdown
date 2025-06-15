@@ -8,7 +8,7 @@ citations: 10
 bibkey: chen2023bipartite
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.00241'}
-tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 Searching on bipartite graphs is basal and versatile to many real-world Web
 applications, e.g., online recommendation, database retrieval, and

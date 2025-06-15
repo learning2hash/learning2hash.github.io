@@ -8,7 +8,7 @@ citations: 1
 bibkey: lemire2006one
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0610010'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 In multimedia, text or bioinformatics databases, applications query sequences
 of n consecutive symbols called n-grams. Estimating the number of distinct

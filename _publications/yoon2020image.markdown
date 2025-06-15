@@ -8,7 +8,7 @@ citations: 27
 bibkey: yoon2020image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2012.14700'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 As a scene graph compactly summarizes the high-level content of an image in a
 structured and symbolic manner, the similarity between scene graphs of two

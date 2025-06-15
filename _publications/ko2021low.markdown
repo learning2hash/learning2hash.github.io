@@ -8,7 +8,7 @@ citations: 0
 bibkey: ko2021low
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2110.08919'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Quantization', 'Applications']
+tags: ['Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Quantization']
 ---
 Fast k-Nearest Neighbor search over real-valued vector spaces (KNN) is an
 important algorithmic task for information retrieval and recommendation

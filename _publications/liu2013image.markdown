@@ -8,7 +8,7 @@ citations: 48
 bibkey: liu2013image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1304.5168'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Surveys and Reviews', 'Vector Indexing', 'Supervised', 'Survey Paper', 'Applications']
+tags: ['Applications', 'Survey', 'Indexing', 'ANN Search', 'Survey Paper']
 ---
 This article gives a survey for bag-of-words (BoW) or bag-of-features model
 in image retrieval system. In recent years, large-scale image retrieval shows

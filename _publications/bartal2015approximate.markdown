@@ -8,7 +8,7 @@ citations: 2
 bibkey: bartal2015approximate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1512.01775'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing']
+tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 While the problem of approximate nearest neighbor search has been
 well-studied for Euclidean space and \\(\ell_1\\), few non-trivial algorithms are

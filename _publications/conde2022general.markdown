@@ -8,7 +8,7 @@ citations: 1
 bibkey: conde2022general
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.11141'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Applications']
+tags: ['Applications']
 ---
 The Google Universal Image Embedding (GUIE) Challenge is one of the first
 competitions in multi-domain image representations in the wild, covering a wide

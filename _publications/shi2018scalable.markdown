@@ -8,7 +8,7 @@ citations: 10
 bibkey: shi2018scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1811.10810'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Maintaining the pair similarity relationship among originally
 high-dimensional data into a low-dimensional binary space is a popular strategy

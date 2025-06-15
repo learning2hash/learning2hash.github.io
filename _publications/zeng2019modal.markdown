@@ -8,7 +8,7 @@ citations: 0
 bibkey: zeng2019modal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.08479'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Multi-Modal Hashing']
 ---
 Many retrieval applications can benefit from multiple modalities, e.g., text
 that contains images on Wikipedia, for which how to represent multimodal data

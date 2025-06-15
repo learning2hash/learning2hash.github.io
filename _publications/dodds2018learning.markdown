@@ -8,7 +8,7 @@ citations: 4
 bibkey: dodds2018learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1810.04652'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Learning Strategies', 'Tools and Libraries', 'Loss Functions', 'Applications']
 ---
 In this paper, we propose learning an embedding function for content-based
 image retrieval within the e-commerce domain using the triplet loss and an

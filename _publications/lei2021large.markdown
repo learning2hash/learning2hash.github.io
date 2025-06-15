@@ -8,7 +8,7 @@ citations: 0
 bibkey: lei2021large
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2106.12139'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 In deep learning area, large-scale image datasets bring a breakthrough in the
 success of object recognition and retrieval. Nowadays, as the embodiment of

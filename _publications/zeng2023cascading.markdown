@@ -9,7 +9,7 @@ bibkey: zeng2023cascading
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2303.11274'}
   - {name: "Code", url: 'https://github.com/kaiba007/FG-CNET'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Has Code']
 ---
 With the explosive growth in the number of fine-grained images in the
 Internet era, it has become a challenging problem to perform fast and efficient

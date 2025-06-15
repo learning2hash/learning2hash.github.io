@@ -8,7 +8,7 @@ citations: 4
 bibkey: khurshid2020cross
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.00725'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Similarity Learning', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Cross-modal retrieval aims to measure the content similarity between
 different types of data. The idea has been previously applied to visual, text,

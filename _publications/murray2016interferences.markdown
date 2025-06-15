@@ -8,7 +8,7 @@ citations: 17
 bibkey: murray2016interferences
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.08194'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 We consider the design of an image representation that embeds and aggregates
 a set of local descriptors into a single vector. Popular representations of

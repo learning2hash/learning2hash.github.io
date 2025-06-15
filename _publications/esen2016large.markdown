@@ -8,7 +8,7 @@ citations: 1
 bibkey: esen2016large
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1607.07160'}
-tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 In this work, we propose a fast content-based video querying system for
 large-scale video search. The proposed system is distinguished from similar

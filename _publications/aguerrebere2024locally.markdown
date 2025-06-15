@@ -8,7 +8,7 @@ citations: 0
 bibkey: aguerrebere2024locally
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2402.02044'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Compression', 'Quantization', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Quantization and Compression', 'Tools and Libraries', 'Quantization']
 ---
 Retrieving the most similar vector embeddings to a given query among a
 massive collection of vectors has long been a key component of countless

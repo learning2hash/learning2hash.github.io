@@ -8,7 +8,7 @@ citations: 1
 bibkey: aamand2018non
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1810.13187'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 We consider the hashing of a set \\(X\subseteq U\\) with \\(|X|=m\\) using a simple
 tabulation hash function \\(h:U\to [n]=\\{0,\dots,n-1\\}\\) and analyse the number of

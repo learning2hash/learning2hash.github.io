@@ -8,7 +8,7 @@ citations: 2
 bibkey: gu2015cross
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1502.05224'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Vector Indexing', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Multi-Modal Hashing']
 ---
 Learning a hashing function for cross-media search is very desirable due to
 its low storage cost and fast query speed. However, the data crawled from

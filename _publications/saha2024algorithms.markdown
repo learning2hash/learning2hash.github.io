@@ -8,7 +8,7 @@ citations: 0
 bibkey: saha2024algorithms
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.00222'}
-tags: ['Cross-Modal', 'Supervised', 'Deep', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Two strings are considered to have parameterized matching when there exists a
 bijection of the parameterized alphabet onto itself such that it transforms one

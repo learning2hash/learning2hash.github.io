@@ -8,7 +8,7 @@ citations: 4
 bibkey: karan2018fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1804.04640'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Applications']
+tags: ['Indexing and Efficiency', 'Applications']
 ---
 We propose scalable methods to execute counting queries in machine learning
 applications. To achieve memory and computational efficiency, we abstract

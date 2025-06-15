@@ -8,7 +8,7 @@ citations: 0
 bibkey: weng2023constant
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.03612'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Indexing and Efficiency', 'Evaluation Metrics', 'Tools and Libraries']
 ---
 Representing visual data using compact binary codes is attracting increasing
 attention as binary codes are used as direct indices into hash table(s) for

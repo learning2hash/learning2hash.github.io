@@ -8,7 +8,7 @@ citations: 2
 bibkey: jung2021picarrange
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.13363'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Surveys and Reviews', 'Supervised']
+tags: ['Survey Paper', 'Evaluation Metrics', 'Approximate Nearest Neighbor Search']
 ---
 The native macOS application PicArrange integrates state-of-the-art image
 sorting and similarity search to enable users to get a better overview of their

@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhu2024clip
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2410.07783'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Multi-modal hashing methods are widely used in multimedia retrieval, which
 can fuse multi-source data to generate binary hash code. However, the

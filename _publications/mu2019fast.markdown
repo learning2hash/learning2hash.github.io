@@ -8,7 +8,7 @@ citations: 4
 bibkey: mu2019fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.08498'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Hashing']
+tags: ['ANN Search']
 ---
 A growing interest has been witnessed recently from both academia and
 industry in building nearest neighbor search (NNS) solutions on top of

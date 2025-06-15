@@ -9,7 +9,7 @@ bibkey: yang2024zero
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2402.02141'}
   - {name: "Code", url: 'https://github.com/Snowstormfly/Cross-modal-retrieval-MLAGT'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications']
 ---
 Effectively and efficiently retrieving images from remote sensing databases
 is a critical challenge in the realm of remote sensing big data. Utilizing

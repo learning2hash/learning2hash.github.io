@@ -8,7 +8,7 @@ citations: 13
 bibkey: levi2020rethinking
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2006.05162'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Similarity Learning', 'Supervised Hashing', 'Applications']
+tags: ['Loss Functions', 'Applications', 'Tools and Libraries', 'Benchmarks and Datasets', 'Learning Strategies']
 ---
 Metric learning seeks perceptual embeddings where visually similar instances
 are close and dissimilar instances are apart, but learned representations can

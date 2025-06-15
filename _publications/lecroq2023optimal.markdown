@@ -8,7 +8,7 @@ citations: 0
 bibkey: lecroq2023optimal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2303.05799'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 String matching is the problem of finding all the occurrences of a pattern in
 a text. We propose improved versions of the fast family of string matching

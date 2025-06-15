@@ -9,7 +9,7 @@ bibkey: he2024hybrid
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2405.07524'}
   - {name: "Code", url: 'https://github.com/shuaichaochao/HybridHash'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing', 'Has Code']
 ---
 Deep image hashing aims to map input images into simple binary hash codes via
 deep neural networks and thus enable effective large-scale image retrieval.

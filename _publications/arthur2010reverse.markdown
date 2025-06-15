@@ -8,7 +8,7 @@ citations: 3
 bibkey: arthur2010reverse
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1011.4955'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 We investigate the problem of finding reverse nearest neighbors efficiently.
 Although provably good solutions exist for this problem in low or fixed

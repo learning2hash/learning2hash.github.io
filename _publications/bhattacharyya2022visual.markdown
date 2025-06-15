@@ -9,7 +9,7 @@ bibkey: bhattacharyya2022visual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.08951'}
   - {name: "Code", url: 'https://github.com/AutoVision-cloud/SSL-ViT-lowlabel-highdata'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Similarity Learning', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Has Code']
 ---
 Self-supervision has shown outstanding results for natural language
 processing, and more recently, for image recognition. Simultaneously, vision

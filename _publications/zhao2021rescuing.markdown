@@ -8,7 +8,7 @@ citations: 3
 bibkey: zhao2021rescuing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2102.00648'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Deep Hashing', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization', 'Deep Hashing']
 ---
 Deep hashing methods have shown great retrieval accuracy and efficiency in
 large-scale image retrieval. How to optimize discrete hash bits is always the

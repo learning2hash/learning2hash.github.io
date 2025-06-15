@@ -8,7 +8,7 @@ citations: 1
 bibkey: singh2010content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1005.4267'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Applications']
 ---
 The digital image data is rapidly expanding in quantity and heterogeneity.
 The traditional information retrieval techniques does not meet the user's

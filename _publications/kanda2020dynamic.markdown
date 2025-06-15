@@ -8,7 +8,7 @@ citations: 1
 bibkey: kanda2020dynamic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2009.11559'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Efficient Learning', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Similarity-preserving hashing is a core technique for fast similarity
 searches, and it randomly maps data points in a metric space to strings of

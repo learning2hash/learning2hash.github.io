@@ -8,7 +8,7 @@ citations: 0
 bibkey: rashedunnaby2020peer
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.07595'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Verifying identity documents from a large Central Identity Database (CIDB) is
 always challenging and it get more challenging when we need to verify a large

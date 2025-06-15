@@ -8,7 +8,7 @@ citations: 7
 bibkey: pagh2016approximate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.07303'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['ANN Search', 'RecSys', 'Applications', 'Approximate Nearest Neighbor Search']
 ---
 Much recent work has been devoted to approximate nearest neighbor queries.
 Motivated by applications in recommender systems, we consider approximate

@@ -8,7 +8,7 @@ citations: 1
 bibkey: ma2025multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2504.07718'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications']
 ---
 Fine-grained text-to-image retrieval aims to retrieve a fine-grained target
 image with a given text query. Existing methods typically assume that each

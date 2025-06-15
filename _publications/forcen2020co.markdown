@@ -8,7 +8,7 @@ citations: 19
 bibkey: forcen2020co
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2003.13827'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Image search can be tackled using deep features from pre-trained
 Convolutional Neural Networks (CNN). The feature map from the last

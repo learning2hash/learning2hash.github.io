@@ -8,7 +8,7 @@ citations: 10
 bibkey: xu2017iterative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.09862'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Learning Strategies', 'Evaluation Metrics', 'Tools and Libraries', 'Applications']
 ---
 Existing manifold learning methods are not appropriate for image retrieval
 task, because most of them are unable to process query image and they have much

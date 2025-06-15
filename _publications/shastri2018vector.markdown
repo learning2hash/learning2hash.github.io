@@ -8,7 +8,7 @@ citations: 0
 bibkey: shastri2018vector
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1810.00398'}
-tags: ['Cross-Modal', 'Quantization', 'Shallow', 'Quantisation']
+tags: ['Quantization', 'Quantization and Compression']
 ---
 We develop a Vector Quantized Spectral Clustering (VQSC) algorithm that is a
 combination of Spectral Clustering (SC) and Vector Quantization (VQ) sampling

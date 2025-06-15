@@ -8,7 +8,7 @@ citations: 54
 bibkey: shrivastava2014improved
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1410.5410'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Approximate Nearest Neighbor Search']
 ---
 Recently it was shown that the problem of Maximum Inner Product Search (MIPS)
 is efficient and it admits provably sub-linear hashing algorithms. Asymmetric

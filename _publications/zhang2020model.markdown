@@ -8,7 +8,7 @@ citations: 22
 bibkey: zhang2020model
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.14523'}
-tags: ['Deep', 'Unimodal', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'RecSys']
 ---
 Deep Neural Networks (DNNs) with sparse input features have been widely used
 in recommender systems in industry. These models have large memory requirements

@@ -8,7 +8,7 @@ citations: 21
 bibkey: camara2019spatio
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1909.07671'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 We present a Visual Place Recognition system that follows the two-stage
 format common to image retrieval pipelines. The system encodes images of places

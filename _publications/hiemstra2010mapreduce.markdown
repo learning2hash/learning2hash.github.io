@@ -9,7 +9,7 @@ bibkey: hiemstra2010mapreduce
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1004.4489'}
   - {name: "Code", url: 'http://mirex.sourceforge.net'}
-tags: ['Unsupervised', 'Retrieval Models', 'Benchmarks and Tools', 'Unimodal', 'Shallow', 'Vector Indexing', 'Has Code']
+tags: ['Evaluation Metrics', 'Has Code', 'ANN Search']
 ---
 We propose to use MapReduce to quickly test new retrieval approaches on a
 cluster of machines by sequentially scanning all documents. We present a small

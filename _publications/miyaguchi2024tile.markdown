@@ -9,7 +9,7 @@ bibkey: miyaguchi2024tile
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2407.06326'}
   - {name: "Code", url: 'https://github.com/dsgt-kaggle-clef/geolifeclef-2024'}
-tags: ['Cross-Modal', 'Deep', 'Compression', 'Has Code', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Hashing Methods', 'Has Code']
 ---
 We explore methods to solve the multi-label classification task posed by the
 GeoLifeCLEF 2024 competition with the DS@GT team, which aims to predict the

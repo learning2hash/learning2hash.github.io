@@ -8,7 +8,7 @@ citations: 0
 bibkey: kaga2019pdh
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.08501'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Evaluation', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'ANN Search', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 With the growth of image on the web, research on hashing which enables
 high-speed image retrieval has been actively studied. In recent years, various

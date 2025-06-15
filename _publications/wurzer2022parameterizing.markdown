@@ -8,7 +8,7 @@ citations: 2
 bibkey: wurzer2022parameterizing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2208.01340'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Kterm Hashing provides an innovative approach to novelty detection on massive
 data streams. Previous research focused on maximizing the efficiency of Kterm

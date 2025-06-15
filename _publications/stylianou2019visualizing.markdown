@@ -8,7 +8,7 @@ citations: 36
 bibkey: stylianou2019visualizing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.00536'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Supervised', 'Similarity Learning']
+tags: ['Approximate Nearest Neighbor Search']
 ---
 For convolutional neural network models that optimize an image embedding, we
 propose a method to highlight the regions of images that contribute most to

@@ -8,7 +8,7 @@ citations: 2
 bibkey: ma2019hierarchy
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.03060'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Recently, deep supervised hashing methods have become popular for large-scale
 image retrieval task. To preserve the semantic similarity notion between

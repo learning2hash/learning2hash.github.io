@@ -8,7 +8,7 @@ citations: 1
 bibkey: xu2018gpu
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1805.08995'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Image feature point matching is a key step in Structure from Motion(SFM).
 However, it is becoming more and more time consuming because the number of

@@ -8,7 +8,7 @@ citations: 94
 bibkey: jiang2017deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.09905'}
-tags: ['Supervised', 'Cross-Modal', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Hashing has been widely used for large-scale search due to its low storage
 cost and fast query speed. By using supervised information, supervised hashing

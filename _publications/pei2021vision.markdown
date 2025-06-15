@@ -9,7 +9,7 @@ bibkey: pei2021vision
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.08117'}
   - {name: "Code", url: 'https://github.com/lajlksdf/vtl'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Has Code', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Has Code']
 ---
 In recent years, the spread of fake videos has brought great influence on
 individuals and even countries. It is important to provide robust and reliable

@@ -8,7 +8,7 @@ citations: 126
 bibkey: lin2013general
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1309.1853'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies']
 ---
 Most existing approaches to hashing apply a single form of hash function, and
 an optimization process which is typically deeply coupled to this specific

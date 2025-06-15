@@ -8,7 +8,7 @@ citations: 1
 bibkey: sosnovski2023cryptanalysis
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2308.15765'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Cayley hash functions are cryptographic hashes constructed from Cayley graphs
 of groups. The hash function proposed by Shpilrain and Sosnovski (2016), based

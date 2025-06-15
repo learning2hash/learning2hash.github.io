@@ -8,7 +8,7 @@ citations: 5
 bibkey: guo2020deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2010.13582'}
-tags: ['Cross-Modal', 'Shallow', 'Hashing', 'Datasets', 'Vector Indexing', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Node classification in structural networks has been proven to be useful in
 many real world applications. With the development of network embedding, the

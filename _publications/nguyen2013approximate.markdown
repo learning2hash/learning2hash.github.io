@@ -8,7 +8,7 @@ citations: 3
 bibkey: nguyen2013approximate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1306.3601'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 We present a new locality sensitive hashing (LSH) algorithm for
 \\(c\\)-approximate nearest neighbor search in \\(\ell_p\\) with \\(1<p<2\\). For a

@@ -8,7 +8,7 @@ citations: 1
 bibkey: mitzenmacher2018robust
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1807.09694'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 We consider variations of set reconciliation problems where two parties,
 Alice and Bob, each hold a set of points in a metric space, and the goal is for

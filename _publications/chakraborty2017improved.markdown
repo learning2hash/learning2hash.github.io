@@ -9,7 +9,7 @@ bibkey: chakraborty2017improved
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1705.03933'}
   - {name: "Code", url: 'http://www.isical.ac.in/~bioinfo_miu/conLSH/conLSH.html'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Hashing']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Has Code']
 ---
 Locality Sensitive Hashing (LSH) based algorithms have already shown their
 promise in finding approximate nearest neighbors in high dimen- sional data

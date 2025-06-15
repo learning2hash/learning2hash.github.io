@@ -9,7 +9,7 @@ bibkey: ñanculef2020self
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.08799'}
   - {name: "Code", url: 'https://github.com/amacaluso/SSB-VAE'}
-tags: ['Model Design', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Vector Indexing', 'Has Code', 'Supervised', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Approximate Nearest Neighbor Search', 'Supervision Type', 'Indexing', 'Supervision Types', 'ANN Search', 'Hashing Fundamentals', 'Has Code', 'Indexing and Efficiency']
 ---
 Semantic hashing is an emerging technique for large-scale similarity search
 based on representing high-dimensional data using similarity-preserving binary

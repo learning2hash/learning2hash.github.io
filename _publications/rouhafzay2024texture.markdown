@@ -8,7 +8,7 @@ citations: 0
 bibkey: rouhafzay2024texture
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2403.06048'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 In this paper, we propose a new framework for improving Content Based Image
 Retrieval (CBIR) for texture images. This is achieved by using a new image

@@ -8,7 +8,7 @@ citations: 10
 bibkey: zou2019transductive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.07192'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Training Strategy', 'Datasets', 'Vector Indexing', 'Quantization', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Approximate Nearest Neighbor Search', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization']
 ---
 Hash coding has been widely used in approximate nearest neighbor search for
 large-scale image retrieval. Given semantic annotations such as class labels

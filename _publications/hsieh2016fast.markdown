@@ -8,7 +8,7 @@ citations: 0
 bibkey: hsieh2016fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1601.06342'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
+tags: ['Applications']
 ---
 Binary embedding of high-dimensional data aims to produce low-dimensional
 binary codes while preserving discriminative power. State-of-the-art methods

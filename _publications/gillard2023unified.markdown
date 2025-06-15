@@ -8,7 +8,7 @@ citations: 1
 bibkey: gillard2023unified
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2302.05433'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 The field of Automatic Machine Learning (AutoML) has recently attained
 impressive results, including the discovery of state-of-the-art machine

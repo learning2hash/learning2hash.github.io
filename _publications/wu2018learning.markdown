@@ -8,7 +8,7 @@ citations: 9
 bibkey: wu2018learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1807.04629'}
-tags: ['Cross-Modal', 'Quantization', 'Model Design', 'Quantisation', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Applications']
+tags: ['Quantization', 'Quantization and Compression', 'Tools and Libraries', 'Applications']
 ---
 Vector-Quantized Variational Autoencoders (VQ-VAE)[1] provide an unsupervised
 model for learning discrete representations by combining vector quantization

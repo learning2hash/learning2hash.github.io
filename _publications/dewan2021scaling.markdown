@@ -8,7 +8,7 @@ citations: 0
 bibkey: dewan2021scaling
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.00068'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow']
+tags: ['Indexing and Efficiency', 'Evaluation Metrics', 'Tools and Libraries']
 ---
 The Partitioned Global Address Space (PGAS), a memory model in which the
 global address space is explicitly partitioned across compute nodes in a

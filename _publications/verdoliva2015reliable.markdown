@@ -8,7 +8,7 @@ citations: 8
 bibkey: verdoliva2015reliable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.03453'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 We propose a new algorithm for fast approximate nearest neighbor search based
 on the properties of ordered vectors. Data vectors are classified based on the

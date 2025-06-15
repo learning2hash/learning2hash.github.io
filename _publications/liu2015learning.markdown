@@ -8,7 +8,7 @@ citations: 0
 bibkey: liu2015learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1507.01442'}
-tags: ['Quantization', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Training Strategy']
+tags: ['Approximate Nearest Neighbor Search', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Quantization']
 ---
 We introduce a novel dictionary optimization method for high-dimensional
 vector quantization employed in approximate nearest neighbor (ANN) search.

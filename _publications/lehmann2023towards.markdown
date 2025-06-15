@@ -8,7 +8,7 @@ citations: 0
 bibkey: lehmann2023towards
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2308.09561'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 A minimal perfect hash function (MPHF) maps a set \\(S\\) of \\(n\\) keys to the
 first \\(n\\) integers without collisions. There is a lower bound of

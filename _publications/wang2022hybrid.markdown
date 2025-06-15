@@ -9,7 +9,7 @@ bibkey: wang2022hybrid
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2202.03384'}
   - {name: "Code", url: 'https://github.com/gimpong/WWW22-HCQ'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Quantisation', 'Retrieval Models', 'Benchmarks and Tools', 'Efficiency', 'Compression', 'Datasets', 'Vector Indexing', 'Has Code', 'Quantization']
+tags: ['Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization', 'Has Code']
 ---
 With the recent boom of video-based social platforms (e.g., YouTube and
 TikTok), video retrieval using sentence queries has become an important demand

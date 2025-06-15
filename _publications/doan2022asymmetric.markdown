@@ -8,7 +8,7 @@ citations: 1
 bibkey: doan2022asymmetric
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2211.00619'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'RecSys', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Fast item ranking is an important task in recommender systems. In previous
 works, graph-based Approximate Nearest Neighbor (ANN) approaches have

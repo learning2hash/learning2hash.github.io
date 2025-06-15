@@ -8,7 +8,7 @@ citations: 3
 bibkey: su2014new
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1408.5999'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Compression', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Hashing Methods', 'ANN Search']
 ---
 To examine the integrity and authenticity of an IP address efficiently and
 economically, this paper proposes a new non-Merkle-Damgard structural (non-MDS)

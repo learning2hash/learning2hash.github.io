@@ -8,7 +8,7 @@ citations: 9
 bibkey: yvinec2021red
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.14797'}
-tags: ['Cross-Modal', 'Deep', 'Compression', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Quantization and Compression']
 ---
 Deep Neural Networks (DNNs) are ubiquitous in today's computer vision
 land-scape, despite involving considerable computational costs. The mainstream

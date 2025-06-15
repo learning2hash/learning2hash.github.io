@@ -8,7 +8,7 @@ citations: 1
 bibkey: alqasrawi2022bridging
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.08875'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Applications']
 ---
 This paper addresses the problem of semantic-based image retrieval of natural
 scenes. A typical content-based image retrieval system deals with the query

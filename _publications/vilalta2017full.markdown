@@ -8,7 +8,7 @@ citations: 4
 bibkey: vilalta2017full
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.09872'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 The current state-of-the-art for image annotation and image retrieval tasks
 is obtained through deep neural networks, which combine an image representation

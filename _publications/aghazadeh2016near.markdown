@@ -8,7 +8,7 @@ citations: 0
 bibkey: aghazadeh2016near
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.03836'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Evaluation', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing', 'Tools and Libraries']
 ---
 We develop a scalable algorithm to learn binary hash codes for indexing
 large-scale datasets. Near-isometric binary hashing (NIBH) is a data-dependent

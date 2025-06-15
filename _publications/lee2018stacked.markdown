@@ -9,7 +9,7 @@ bibkey: lee2018stacked
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.08024'}
   - {name: "Code", url: 'https://github.com/kuanghuei/SCAN'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Benchmarks and Datasets', 'Has Code']
 ---
 In this paper, we study the problem of image-text matching. Inferring the
 latent semantic alignment between objects or other salient stuff (e.g. snow,

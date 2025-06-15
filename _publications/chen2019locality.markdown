@@ -8,7 +8,7 @@ citations: 4
 bibkey: chen2019locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1910.12414'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Compression', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'KDD', 'Applications', 'Approximate Nearest Neighbor Search', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Computing approximate nearest neighbors in high dimensional spaces is a
 central problem in large-scale data mining with a wide range of applications in

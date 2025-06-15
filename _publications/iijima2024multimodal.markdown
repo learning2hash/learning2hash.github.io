@@ -8,7 +8,7 @@ citations: 0
 bibkey: iijima2024multimodal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2403.15152'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Cross-Domain Image Retrieval (CDIR) is a challenging task in computer vision,
 aiming to match images across different visual domains such as sketches,

@@ -9,7 +9,7 @@ bibkey: kong2023mitigating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2305.19329'}
   - {name: "Code", url: 'https://anonymous.4open.science/r/Fair_Text_based_Image_Retrieval-D8B2'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Has Code', 'Applications']
 ---
 We address the challenge of generating fair and unbiased image retrieval
 results given neutral textual queries (with no explicit gender or race

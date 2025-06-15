@@ -9,7 +9,7 @@ bibkey: agnolucci2024improving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2405.02951'}
   - {name: "Code", url: 'https://github.com/miccunifi/SEARLE'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Has Code', 'Applications']
 ---
 Given a query consisting of a reference image and a relative caption,
 Composed Image Retrieval (CIR) aims to retrieve target images visually similar

@@ -8,7 +8,7 @@ citations: 2
 bibkey: hemati2021beyond
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2110.00216'}
-tags: ['Cross-Modal', 'Quantisation', 'Training Strategy', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Learning Strategies', 'Quantization']
 ---
 An effective unsupervised hashing algorithm leads to compact binary codes
 preserving the neighborhood structure of data as much as possible. One of the

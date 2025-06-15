@@ -8,7 +8,7 @@ citations: 1
 bibkey: amato2016using
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.05576'}
-tags: ['Retrieval Models', 'Unimodal', 'Independent', 'Shallow']
+tags: ['Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 Surrogate Text Representation (STR) is a profitable solution to efficient
 similarity search on metric space using conventional text search engines, such

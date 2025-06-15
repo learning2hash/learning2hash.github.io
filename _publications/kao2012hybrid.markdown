@@ -8,7 +8,7 @@ citations: 0
 bibkey: kao2012hybrid
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1206.7112'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Similarity Learning', 'Applications']
+tags: ['Applications']
 ---
 We consider the problem of learning a measure of distance among vectors in a
 feature space and propose a hybrid method that simultaneously learns from

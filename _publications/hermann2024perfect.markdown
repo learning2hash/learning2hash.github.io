@@ -8,7 +8,7 @@ citations: 0
 bibkey: hermann2024perfect
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2404.18497'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 A minimal perfect hash function (MPHF) maps a set of n keys to \{1, ..., n\}
 without collisions. Such functions find widespread application e.g. in

@@ -8,7 +8,7 @@ citations: 6
 bibkey: zhang2020collaborative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.00953'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'RecSys', 'Tools and Libraries']
 ---
 Cold-start has being a critical issue in recommender systems with the
 explosion of data in e-commerce. Most existing studies proposed to alleviate

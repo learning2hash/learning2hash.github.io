@@ -8,7 +8,7 @@ citations: 13
 bibkey: cakir2018hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1808.01990'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 We propose theoretical and empirical improvements for two-stage hashing
 methods. We first provide a theoretical analysis on the quality of the binary

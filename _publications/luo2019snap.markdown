@@ -8,7 +8,7 @@ citations: 4
 bibkey: luo2019snap
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.02887'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 With the increasing number of online stores, there is a pressing need for
 intelligent search systems to understand the item photos snapped by customers

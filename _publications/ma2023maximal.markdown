@@ -9,7 +9,7 @@ bibkey: ma2023maximal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2303.10926'}
   - {name: "Code", url: 'https://github.com/Shao-Group/kmerspace'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Has Code', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Indexing', 'Hashing Fundamentals', 'Has Code']
 ---
 In computational biology, \\(k\\)-mers and edit distance are fundamental
 concepts. However, little is known about the metric space of all \\(k\\)-mers

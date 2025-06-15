@@ -8,7 +8,7 @@ citations: 99
 bibkey: zhang2016semi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1607.08477'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Learning Strategies', 'Deep Hashing']
 ---
 Hashing methods have been widely used for efficient similarity retrieval on
 large scale image database. Traditional hashing methods learn hash functions to

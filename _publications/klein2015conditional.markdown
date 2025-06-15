@@ -8,7 +8,7 @@ citations: 0
 bibkey: klein2015conditional
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1503.08848'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 \noindent We study the asymptotic behavior of a sum of independent and
 identically distributed random variables conditioned by a sum of independent

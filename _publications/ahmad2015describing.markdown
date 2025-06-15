@@ -4,11 +4,11 @@ title: 'Describing Colors, Textures And Shapes For Content Based Image Retrieval
 authors: Jamil Ahmad, Muhammad Sajjad, Irfan Mehmood, Seungmin Rho, Sung Wook Baik
 conference: "(2014) Journal of Platform Technology 2(4) 34-48"
 year: 2015
-citations: 0
+citations: 14
 bibkey: ahmad2015describing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1502.07041'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Surveys and Reviews', 'Vector Indexing', 'Applications']
+tags: ['Survey Paper', 'Survey', 'Applications', 'ANN Search']
 ---
 Visual media has always been the most enjoyed way of communication. From the
 advent of television to the modern day hand held computers, we have witnessed

@@ -8,7 +8,7 @@ citations: 94
 bibkey: zhang2018sch
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1802.02488'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Cross-modal hashing aims to map heterogeneous multimedia data into a common
 Hamming space, which can realize fast and flexible retrieval across different

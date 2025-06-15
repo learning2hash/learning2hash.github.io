@@ -8,7 +8,7 @@ citations: 29
 bibkey: jiang2019graph
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1912.05159'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 Hashing techniques, also known as binary code learning, have recently gained
 increasing attention in large-scale data analysis and storage. Generally, most

@@ -8,7 +8,7 @@ citations: 85
 bibkey: haq2019survey
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1909.11424'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Surveys and Reviews', 'Survey Paper', 'Applications']
+tags: ['Survey Paper', 'Evaluation Metrics', 'Survey', 'Applications']
 ---
 Binary code similarity approaches compare two or more pieces of binary code
 to identify their similarities and differences. The ability to compare binary

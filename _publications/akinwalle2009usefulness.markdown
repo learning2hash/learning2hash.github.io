@@ -8,7 +8,7 @@ citations: 1
 bibkey: akinwalle2009usefulness
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0905.4201'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 In this work, attempt is made to select three good hash functions which
 uniformly distribute hash values that permute their internal states and allow

@@ -8,7 +8,7 @@ citations: 2
 bibkey: qiu2014random
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1412.5083'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'Hashing Fundamentals', 'Hashing for Real-World Applications']
 ---
 Hash codes are a very efficient data representation needed to be able to cope
 with the ever growing amounts of data. We introduce a random forest semantic

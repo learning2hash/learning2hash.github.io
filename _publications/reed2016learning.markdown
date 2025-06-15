@@ -8,7 +8,7 @@ citations: 540
 bibkey: reed2016learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1605.05395'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 State-of-the-art methods for zero-shot visual recognition formulate learning
 as a joint embedding problem of images and side information. In these

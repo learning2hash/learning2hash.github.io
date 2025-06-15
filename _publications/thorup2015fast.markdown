@@ -8,7 +8,7 @@ citations: 1
 bibkey: thorup2015fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1505.01523'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Survey', 'Tools and Libraries', 'Hashing Fundamentals', 'Survey Paper']
 ---
 Randomized algorithms are often enjoyed for their simplicity, but the hash
 functions employed to yield the desired probabilistic guarantees are often too

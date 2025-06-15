@@ -8,7 +8,7 @@ citations: 3
 bibkey: mu2019empirical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1906.10095'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Benchmarks and Tools', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Indexing', 'Applications', 'ANN Search']
 ---
 In this paper, we compare the performances of FAISS and FENSHSES on nearest
 neighbor search in Hamming space--a fundamental task with ubiquitous

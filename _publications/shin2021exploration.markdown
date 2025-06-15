@@ -8,7 +8,7 @@ citations: 1
 bibkey: shin2021exploration
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.00384'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Training Strategy', 'Shallow', 'Quantization']
+tags: ['Quantization', 'Quantization and Compression', 'Tools and Libraries']
 ---
 This is an exploratory study that discovers the current image quantization
 (vector quantization) do not satisfy translation equivariance in the quantized

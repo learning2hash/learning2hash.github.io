@@ -8,7 +8,7 @@ citations: 97
 bibkey: liu2021image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2108.04024'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 We extend the task of composed image retrieval, where an input query consists
 of an image and short textual description of how to modify the image. Existing

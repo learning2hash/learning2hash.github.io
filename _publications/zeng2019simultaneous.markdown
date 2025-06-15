@@ -8,7 +8,7 @@ citations: 5
 bibkey: zeng2019simultaneous
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.08028'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Fine-grained image hashing is a challenging problem due to the difficulties
 of discriminative region localization and hash code generation. Most existing

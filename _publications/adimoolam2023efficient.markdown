@@ -9,7 +9,7 @@ bibkey: adimoolam2023efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.02296'}
   - {name: "Code", url: 'https://github.com/yeshwanth95/CrowdAI_Hash_and_search'}
-tags: ['Deep', 'Unimodal', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Has Code']
 ---
 Recent advancements in deep learning and computer vision have led to
 widespread use of deep neural networks to extract building footprints from

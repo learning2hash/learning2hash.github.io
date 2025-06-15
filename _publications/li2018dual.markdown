@@ -8,7 +8,7 @@ citations: 15
 bibkey: li2018dual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1801.08360'}
-tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Deep Hashing']
 ---
 Due to the impressive learning power, deep learning has achieved a remarkable
 performance in supervised hash function learning. In this paper, we propose a

@@ -8,7 +8,7 @@ citations: 56
 bibkey: song2019deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1909.04614'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Driven by the urgent demand for managing remote sensing big data, large-scale
 remote sensing image retrieval (RSIR) attracts increasing attention in the

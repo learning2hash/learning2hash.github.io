@@ -8,7 +8,7 @@ citations: 0
 bibkey: izadpanah2015divisive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1503.03607'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Indexing', 'Tools and Libraries', 'Applications']
 ---
 In most practical applications of image retrieval, high-dimensional feature
 vectors are required, but current multi-dimensional indexing structures lose

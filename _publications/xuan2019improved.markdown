@@ -8,7 +8,7 @@ citations: 87
 bibkey: xuan2019improved
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.04370'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Loss Functions', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Deep metric learning seeks to define an embedding where semantically similar
 images are embedded to nearby locations, and semantically dissimilar images are

@@ -8,7 +8,7 @@ citations: 2
 bibkey: yildiz2015homogeneous
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1504.04111'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Evaluation Metrics']
 ---
 Using theoretical results about the homogeneous weights for Frobenius rings,
 we describe the homogeneous weight for the ring family \\(R_k\\), a recently

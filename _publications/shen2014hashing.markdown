@@ -8,7 +8,7 @@ citations: 124
 bibkey: shen2014hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1412.0826'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization']
 ---
 Learning based hashing methods have attracted considerable attention due to
 their ability to greatly increase the scale at which existing algorithms may

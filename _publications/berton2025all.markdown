@@ -9,7 +9,7 @@ bibkey: berton2025all
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.13045'}
   - {name: "Code", url: 'https://github.com/gmberton/image-retrieval'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Has Code', 'Applications']
 ---
 Image retrieval is the task of finding images in a database that are most
 similar to a given query image. The performance of an image retrieval pipeline

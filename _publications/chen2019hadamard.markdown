@@ -8,7 +8,7 @@ citations: 3
 bibkey: chen2019hadamard
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1910.09182'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Vector Indexing', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 As an approximate nearest neighbor search technique, hashing has been widely
 applied in large-scale image retrieval due to its excellent efficiency. Most

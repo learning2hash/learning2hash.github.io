@@ -8,7 +8,7 @@ citations: 1
 bibkey: klein2016deviation
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.02235'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We consider the model of hashing with linear probing and we establish the
 moderate and large deviations for the total displacement in sparse tables. In

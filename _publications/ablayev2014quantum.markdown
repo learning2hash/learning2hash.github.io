@@ -8,7 +8,7 @@ citations: 0
 bibkey: ablayev2014quantum
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1404.1503'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In the paper, we define the concept of the quantum hash generator and offer
 design, which allows to build a large amount of different quantum hash

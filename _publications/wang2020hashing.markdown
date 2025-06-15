@@ -9,7 +9,7 @@ bibkey: wang2020hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.11426'}
   - {name: "Code", url: 'https://github.com/microsoft/hnms.git'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Datasets', 'Has Code', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Has Code']
 ---
 In this paper, we propose an algorithm, named hashing-based non-maximum
 suppression (HNMS) to efficiently suppress the non-maximum boxes for object

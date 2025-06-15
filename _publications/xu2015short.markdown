@@ -8,7 +8,7 @@ citations: 0
 bibkey: xu2015short
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1503.02801'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Due to computational and storage efficiencies of compact binary codes,
 hashing has been widely used for large-scale similarity search. Unfortunately,

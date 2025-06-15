@@ -8,7 +8,7 @@ citations: 4
 bibkey: doan2020hidden
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.00450'}
-tags: ['Cross-Modal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Visual place recognition needs to be robust against appearance variability
 due to natural and man-made causes. Training data collection should thus be an

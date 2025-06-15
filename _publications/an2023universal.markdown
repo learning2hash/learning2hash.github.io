@@ -9,7 +9,7 @@ bibkey: an2023universal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.05884'}
   - {name: "Code", url: 'https://github.com/deepglint/unicom'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Datasets', 'Has Code', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Benchmarks and Datasets', 'Has Code']
 ---
 Modern image retrieval methods typically rely on fine-tuning pre-trained
 encoders to extract image-level descriptors. However, the most widely used

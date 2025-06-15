@@ -8,7 +8,7 @@ citations: 0
 bibkey: bökman2023leveraging
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.01092'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Conferences', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 We present the top ranked solution for the AISG-SLA Visual Localisation
 Challenge benchmark (IJCAI 2023), where the task is to estimate relative motion

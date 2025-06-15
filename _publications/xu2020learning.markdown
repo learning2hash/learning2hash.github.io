@@ -8,7 +8,7 @@ citations: 4
 bibkey: xu2020learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.04101'}
-tags: ['Deep', 'Model Design', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Deep Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 In this paper, we study learning semantic representations for million-scale
 free-hand sketches. This is highly challenging due to the domain-unique traits

@@ -8,7 +8,7 @@ citations: 11
 bibkey: hansen2020unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.00380'}
-tags: ['Independent', 'Model Design', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Semantic Hashing is a popular family of methods for efficient similarity
 search in large-scale datasets. In Semantic Hashing, documents are encoded as

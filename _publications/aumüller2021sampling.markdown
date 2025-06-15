@@ -8,7 +8,7 @@ citations: 4
 bibkey: aumüller2021sampling
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2101.10905'}
-tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Similarity search is a fundamental algorithmic primitive, widely used in many
 computer science disciplines. Given a set of points \\(S\\) and a radius parameter

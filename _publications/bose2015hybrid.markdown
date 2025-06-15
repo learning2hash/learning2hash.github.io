@@ -8,7 +8,7 @@ citations: 3
 bibkey: bose2015hybrid
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1502.03215'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Supervised', 'Applications']
+tags: ['Evaluation Metrics', 'Hashing for Real-World Applications', 'Applications']
 ---
 The objective of Content-Based Image Retrieval (CBIR) methods is essentially
 to extract, from large (image) databases, a specified number of images similar

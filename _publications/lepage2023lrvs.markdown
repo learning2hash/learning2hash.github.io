@@ -8,7 +8,7 @@ citations: 0
 bibkey: lepage2023lrvs
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.02928'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised']
+tags: ['Evaluation Metrics', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 This paper introduces a new challenge for image similarity search in the
 context of fashion, addressing the inherent ambiguity in this domain stemming

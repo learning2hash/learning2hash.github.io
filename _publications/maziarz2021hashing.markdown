@@ -8,7 +8,7 @@ citations: 6
 bibkey: maziarz2021hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.02856'}
-tags: ['Deep', 'Efficiency', 'Unimodal', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 In many applications one wants to identify identical subtrees of a program
 syntax tree. This identification should ideally be robust to alpha-renaming of

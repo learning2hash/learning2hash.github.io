@@ -9,7 +9,7 @@ bibkey: song2024train
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2404.01524'}
   - {name: "Code", url: 'https://github.com/dealicious-inc/RGLDv2-clean'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Indexing', 'Tools and Libraries', 'Has Code']
 ---
 How important is it for training and evaluation sets to not have class
 overlap in image retrieval? We revisit Google Landmarks v2 clean, the most

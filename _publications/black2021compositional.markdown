@@ -8,7 +8,7 @@ citations: 1
 bibkey: black2021compositional
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2106.08009'}
-tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Loss Functions', 'Applications', 'Quantization and Compression', 'Learning Strategies', 'Quantization']
 ---
 We present an algorithm for searching image collections using free-hand
 sketches that describe the appearance and relative positions of multiple

@@ -8,7 +8,7 @@ citations: 37
 bibkey: he2012difficulty
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1206.6411'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 Fast approximate nearest neighbor (NN) search in large databases is becoming
 popular. Several powerful learning-based formulations have been proposed

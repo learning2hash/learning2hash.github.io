@@ -8,7 +8,7 @@ citations: 558
 bibkey: faghri2017improving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.05612'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Applications']
+tags: ['Loss Functions', 'Applications', 'Tools and Libraries', 'Benchmarks and Datasets', 'Learning Strategies']
 ---
 We present a new technique for learning visual-semantic embeddings for
 cross-modal retrieval. Inspired by hard negative mining, the use of hard

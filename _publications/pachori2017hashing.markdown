@@ -8,7 +8,7 @@ citations: 22
 bibkey: pachori2017hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1702.01933'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Hashing', 'Datasets', 'Vector Indexing', 'Quantization', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 Techniques to learn hash codes which can store and retrieve large dimensional
 multimedia data efficiently have attracted broad research interests in the

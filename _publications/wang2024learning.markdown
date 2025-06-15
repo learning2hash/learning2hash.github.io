@@ -8,7 +8,7 @@ citations: 0
 bibkey: wang2024learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2411.17490'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Evaluation', 'Vector Indexing', 'Applications']
+tags: ['Evaluation Metrics', 'Loss Functions', 'Applications', 'ANN Search']
 ---
 Structuring latent representations in a hierarchical manner enables models to
 learn patterns at multiple levels of abstraction. However, most prevalent image

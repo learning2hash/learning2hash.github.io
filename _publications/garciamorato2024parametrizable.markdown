@@ -8,7 +8,7 @@ citations: 0
 bibkey: garciamorato2024parametrizable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2405.13795'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing']
+tags: ['ANN Search', 'Indexing', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 Recent studies have explored alternative distance measures for similarity
 search in spaces with diverse topologies, emphasizing the importance of

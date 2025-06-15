@@ -8,7 +8,7 @@ citations: 1
 bibkey: gong2022unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.05541'}
-tags: ['Quantisation', 'Unimodal', 'Training Strategy', 'Shallow', 'Hashing', 'Compression', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 Unsupervised image hashing, which maps images into binary codes without
 supervision, is a compressor with a high compression rate. Hence, how to

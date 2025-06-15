@@ -8,7 +8,7 @@ citations: 4
 bibkey: hou2015image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1506.03475'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 Tag-based image retrieval (TBIR) has drawn much attention in recent years due
 to the explosive amount of digital images and crowdsourcing tags. However, the

@@ -8,7 +8,7 @@ citations: 487
 bibkey: wu2017sampling
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1706.07567'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Loss Functions', 'Applications']
 ---
 Deep embeddings answer one simple question: How similar are two images?
 Learning these embeddings is the bedrock of verification, zero-shot learning,

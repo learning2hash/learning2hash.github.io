@@ -8,7 +8,7 @@ citations: 120
 bibkey: elnouby2021training
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2102.05644'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Evaluation Metrics', 'Loss Functions', 'Applications']
 ---
 Transformers have shown outstanding results for natural language
 understanding and, more recently, for image classification. We here extend this

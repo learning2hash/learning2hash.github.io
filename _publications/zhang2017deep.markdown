@@ -8,7 +8,7 @@ citations: 106
 bibkey: zhang2017deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1711.09347'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Evaluation', 'Datasets', 'Vector Indexing', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Hybrid and Advanced Models', 'Privacy and Security', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing', 'Multi-Modal Hashing']
 ---
 As the rapid growth of multi-modal data, hashing methods for cross-modal
 retrieval have received considerable attention. Deep-networks-based cross-modal

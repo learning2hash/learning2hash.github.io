@@ -8,7 +8,7 @@ citations: 184
 bibkey: shen2013inductive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1303.7043'}
-tags: ['Unsupervised', 'Cross-Modal', 'Deep', 'Hashing']
+tags: ['Hashing Fundamentals', 'Learning Strategies', 'Hashing Methods']
 ---
 Learning based hashing methods have attracted considerable attention due to
 their ability to greatly increase the scale at which existing algorithms may

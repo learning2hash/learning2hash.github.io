@@ -8,7 +8,7 @@ citations: 1
 bibkey: wang2021meta
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.04086'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Modality-Specific Hashing', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Due to the advantage of reducing storage while speeding up query time on big
 heterogeneous data, cross-modal hashing has been extensively studied for

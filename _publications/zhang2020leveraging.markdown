@@ -8,7 +8,7 @@ citations: 11
 bibkey: zhang2020leveraging
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2009.10891'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Visual localization to compute 6DoF camera pose from a given image has wide
 applications such as in robotics, virtual reality, augmented reality, etc. Two

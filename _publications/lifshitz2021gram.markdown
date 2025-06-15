@@ -8,7 +8,7 @@ citations: 0
 bibkey: lifshitz2021gram
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.15519'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Recent advances in digital pathology have led to the need for Histopathology
 Image Retrieval (HIR) systems that search through databases of biopsy images to

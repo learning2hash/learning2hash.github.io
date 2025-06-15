@@ -8,7 +8,7 @@ citations: 6
 bibkey: siméoni2017unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1709.04725'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Indexing and Efficiency', 'Applications', 'Tools and Libraries', 'ANN Search']
 ---
 Severe background clutter is challenging in many computer vision tasks,
 including large-scale image retrieval. Global descriptors, that are popular due

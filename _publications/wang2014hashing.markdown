@@ -8,7 +8,7 @@ citations: 423
 bibkey: wang2014hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1408.2927'}
-tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Survey', 'ANN Search', 'Hashing Fundamentals', 'Survey Paper']
 ---
 Similarity search (nearest neighbor search) is a problem of pursuing the data
 items whose distances to a query item are the smallest from a large database.

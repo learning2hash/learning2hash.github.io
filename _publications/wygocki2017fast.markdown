@@ -8,7 +8,7 @@ citations: 0
 bibkey: wygocki2017fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1704.05902'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals']
 ---
 In this paper, we examine the hash functions expressed as scalar products,
 i.e., \\(f(x)=<v,x>\\), for some bounded random vector \\(v\\). Such hash functions

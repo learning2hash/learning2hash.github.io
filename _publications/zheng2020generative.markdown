@@ -8,7 +8,7 @@ citations: 2
 bibkey: zheng2020generative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2006.08858'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Vector Indexing', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 Generative semantic hashing is a promising technique for large-scale
 information retrieval thanks to its fast retrieval speed and small memory

@@ -8,7 +8,7 @@ citations: 3
 bibkey: qiu2022efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.17170'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Vector Indexing', 'Quantization', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Quantization and Compression', 'ANN Search', 'Hashing Fundamentals', 'Quantization']
 ---
 Efficient document retrieval heavily relies on the technique of semantic
 hashing, which learns a binary code for every document and employs Hamming

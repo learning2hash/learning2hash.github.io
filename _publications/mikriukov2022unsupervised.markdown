@@ -9,7 +9,7 @@ bibkey: mikriukov2022unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2204.08707'}
   - {name: "Code", url: 'https://git.tu-berlin.de/rsim/duch'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Has Code', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Has Code', 'Applications']
 ---
 The development of cross-modal retrieval systems that can search and retrieve
 semantically relevant data across different modalities based on a query in any

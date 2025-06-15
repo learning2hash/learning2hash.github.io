@@ -9,7 +9,7 @@ bibkey: sangkloy2022sketch
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2208.03354'}
   - {name: "Code", url: 'https://janesjanes.github.io/tsbir/'}
-tags: ['Independent', 'Model Design', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Has Code', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Has Code']
 ---
 We address the problem of retrieving images with both a sketch and a text
 query. We present TASK-former (Text And SKetch transformer), an end-to-end

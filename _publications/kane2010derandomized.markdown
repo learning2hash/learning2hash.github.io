@@ -8,7 +8,7 @@ citations: 58
 bibkey: kane2010derandomized
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1006.3585'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Recent work of [Dasgupta-Kumar-Sarlos, STOC 2010] gave a sparse
 Johnson-Lindenstrauss transform and left as a main open question whether their

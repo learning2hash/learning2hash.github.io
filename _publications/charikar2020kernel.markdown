@@ -8,7 +8,7 @@ citations: 2
 bibkey: charikar2020kernel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.06997'}
-tags: ['Deep', 'Unsupervised', 'Unimodal', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 In this paper we revisit the kernel density estimation problem: given a
 kernel \\(K(x, y)\\) and a dataset of \\(n\\) points in high dimensional Euclidean

@@ -8,7 +8,7 @@ citations: 8
 bibkey: silva2021fractal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2108.12491'}
-tags: ['Cross-Modal', 'Benchmarks and Tools', 'Shallow', 'Vector Indexing', 'Supervised', 'Hashing']
+tags: ['Evaluation Metrics', 'ANN Search']
 ---
 Here we propose a new method for the classification of texture images
 combining fractal measures (fractal dimension, multifractal spectrum and

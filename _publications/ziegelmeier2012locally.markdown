@@ -8,7 +8,7 @@ citations: 2
 bibkey: ziegelmeier2012locally
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1202.4387'}
-tags: ['Cross-Modal', 'Quantization', 'Shallow', 'Quantisation']
+tags: ['Evaluation Metrics', 'Quantization', 'Quantization and Compression']
 ---
 The ability to characterize the color content of natural imagery is an
 important application of image processing. The pixel by pixel coloring of

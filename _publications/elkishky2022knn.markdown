@@ -8,7 +8,7 @@ citations: 0
 bibkey: elkishky2022knn
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2205.06205'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Applications']
+tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'RecSys', 'Tools and Libraries', 'ANN Search']
 ---
 Candidate retrieval is the first stage in recommendation systems, where a
 light-weight system is used to retrieve potentially relevant items for an input

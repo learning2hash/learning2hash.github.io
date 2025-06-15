@@ -8,7 +8,7 @@ citations: 4
 bibkey: turati2023locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2302.13635'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Privacy and Security', 'Hashing Methods']
 ---
 Recently proposed systems aim at achieving privacy using locality-sensitive
 hashing. We show how these approaches fail by presenting attacks against two

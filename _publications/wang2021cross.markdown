@@ -8,7 +8,7 @@ citations: 5
 bibkey: wang2021cross
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.04080'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Modality-Specific Hashing', 'ANN Search', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Cross-modal hashing (CMH) is one of the most promising methods in cross-modal
 approximate nearest neighbor search. Most CMH solutions ideally assume the

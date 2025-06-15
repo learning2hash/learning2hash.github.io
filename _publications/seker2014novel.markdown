@@ -8,7 +8,7 @@ citations: 6
 bibkey: seker2014novel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1401.6596'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 This study aims to publish a novel similarity metric to increase the speed of
 comparison operations. Also the new metric is suitable for distance-based

@@ -8,7 +8,7 @@ citations: 135
 bibkey: jiang2017discrete
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.08322'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Due to its storage and retrieval efficiency, cross-modal hashing~(CMH) has
 been widely used for cross-modal similarity search in multimedia applications.

@@ -8,7 +8,7 @@ citations: 1
 bibkey: prezza2023algorithms
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2301.00754'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 These are the lecture notes for the course CM0622 - Algorithms for Massive
 Data, Ca' Foscari University of Venice. The goal of this course is to introduce

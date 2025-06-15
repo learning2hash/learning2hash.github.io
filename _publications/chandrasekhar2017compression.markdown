@@ -8,7 +8,7 @@ citations: 14
 bibkey: chandrasekhar2017compression
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1701.04923'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Compression', 'Quantization', 'Survey Paper', 'Applications']
+tags: ['Survey Paper', 'Quantization', 'Quantization and Compression', 'Applications']
 ---
 Image instance retrieval is the problem of retrieving images from a database
 which contain the same object. Convolutional Neural Network (CNN) based

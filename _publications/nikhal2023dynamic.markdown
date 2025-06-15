@@ -8,7 +8,7 @@ citations: 1
 bibkey: nikhal2023dynamic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2308.11900'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 Biometric applications, such as person re-identification (ReID), are often
 deployed on energy constrained devices. While recent ReID methods prioritize

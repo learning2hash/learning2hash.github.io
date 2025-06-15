@@ -8,7 +8,7 @@ citations: 6
 bibkey: costa2020new
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.11025'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Let \\(C\subseteq \\{1,\ldots,k\\}^n\\) be such that for any \\(k\\) distinct elements
 of \\(C\\) there exists a coordinate where they all differ simultaneously. Fredman

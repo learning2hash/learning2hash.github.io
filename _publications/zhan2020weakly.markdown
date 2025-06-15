@@ -8,7 +8,7 @@ citations: 8
 bibkey: zhan2020weakly
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2009.07436'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 With the rapid development of social websites, recent years have witnessed an
 explosive growth of social images with user-provided tags which continuously

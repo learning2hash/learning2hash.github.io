@@ -8,7 +8,7 @@ citations: 8
 bibkey: zhang2023graph
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.08792'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Benchmarks and Datasets', 'Hashing for Real-World Applications']
 ---
 Visual retrieval tasks such as image retrieval and person re-identification
 (Re-ID) aim at effectively and thoroughly searching images with similar content

@@ -8,7 +8,7 @@ citations: 0
 bibkey: eini2013four
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1302.5894'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Applications']
 ---
 Shape is one of the main features in content based image retrieval (CBIR).
 This paper proposes a new shape signature. In this technique, features of each

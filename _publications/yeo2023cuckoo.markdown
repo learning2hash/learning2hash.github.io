@@ -8,7 +8,7 @@ citations: 8
 bibkey: yeo2023cuckoo
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.11220'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals']
 ---
 Cuckoo hashing is a powerful primitive that enables storing items using small
 space with efficient querying. At a high level, cuckoo hashing maps \\(n\\) items

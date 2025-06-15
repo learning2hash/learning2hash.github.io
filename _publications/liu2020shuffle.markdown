@@ -8,7 +8,7 @@ citations: 0
 bibkey: liu2020shuffle
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.10239'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Vector Indexing', 'Unsupervised Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Unsupervised binary representation allows fast data retrieval without any
 annotations, enabling practical application like fast person re-identification

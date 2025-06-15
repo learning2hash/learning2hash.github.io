@@ -8,7 +8,7 @@ citations: 11
 bibkey: dadaneh2020pairwise
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.10477'}
-tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Shallow', 'Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Semantic hashing has become a crucial component of fast similarity search in
 many large-scale information retrieval systems, in particular, for text data.

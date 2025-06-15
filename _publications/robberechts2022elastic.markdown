@@ -8,7 +8,7 @@ citations: 0
 bibkey: robberechts2022elastic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.01856'}
-tags: ['Quantisation', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Unimodal', 'Datasets', 'Quantization', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
 ---
 Analyzing numerous or long time series is difficult in practice due to the
 high storage costs and computational requirements. Therefore, techniques have

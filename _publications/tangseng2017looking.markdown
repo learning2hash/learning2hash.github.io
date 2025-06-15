@@ -8,7 +8,7 @@ citations: 46
 bibkey: tangseng2017looking
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.01386'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 This paper extends fully-convolutional neural networks (FCN) for the clothing
 parsing problem. Clothing parsing requires higher-level knowledge on clothing

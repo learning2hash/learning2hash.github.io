@@ -8,7 +8,7 @@ citations: 18
 bibkey: staszewski2020new
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.06624'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Hashing for Real-World Applications', 'Applications']
 ---
 In this paper, we consider the problem of descriptors construction for the
 task of content-based image retrieval using deep neural networks. The idea of

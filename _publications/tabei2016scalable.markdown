@@ -8,7 +8,7 @@ citations: 0
 bibkey: tabei2016scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.10045'}
-tags: ['Retrieval Models', 'Unimodal', 'Supervised', 'Shallow']
+tags: ['Indexing', 'Indexing and Efficiency', 'Approximate Nearest Neighbor Search']
 ---
 Similarity search over chemical compound databases is a fundamental task in
 the discovery and design of novel drug-like molecules. Such databases often

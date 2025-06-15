@@ -8,7 +8,7 @@ citations: 5
 bibkey: yang2019asymmetric
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1903.12493'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Datasets', 'Quantization', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
 ---
 Due to its fast retrieval and storage efficiency capabilities, hashing has
 been widely used in nearest neighbor retrieval tasks. By using deep learning

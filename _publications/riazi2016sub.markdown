@@ -8,7 +8,7 @@ citations: 11
 bibkey: riazi2016sub
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.01835'}
-tags: ['Unimodal', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing', 'Tools and Libraries']
 ---
 In Near-Neighbor Search (NNS), a new client queries a database (held by a
 server) for the most similar data (near-neighbors) given a certain similarity

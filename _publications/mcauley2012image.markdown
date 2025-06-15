@@ -8,7 +8,7 @@ citations: 91
 bibkey: mcauley2012image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1207.3809'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Large-scale image retrieval benchmarks invariably consist of images from the
 Web. Many of these benchmarks are derived from online photo sharing networks,

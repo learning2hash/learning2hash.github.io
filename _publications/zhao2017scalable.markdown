@@ -8,7 +8,7 @@ citations: 7
 bibkey: zhao2017scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1701.08475'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Compression', 'Quantization']
+tags: ['Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'ANN Search', 'Quantization']
 ---
 Nearest neighbor search is known as a challenging issue that has been studied
 for several decades. Recently, this issue becomes more and more imminent in

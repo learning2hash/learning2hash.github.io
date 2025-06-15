@@ -8,7 +8,7 @@ citations: 0
 bibkey: lehmann2022sichash
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.01560'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 A Perfect Hash Function (PHF) is a hash function that has no collisions on a
 given input set. PHFs can be used for space efficient storage of data in an

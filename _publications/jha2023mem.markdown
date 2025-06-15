@@ -8,7 +8,7 @@ citations: 0
 bibkey: jha2023mem
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2305.07205'}
-tags: ['Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'RecSys']
 ---
 Deep learning-based recommendation systems (e.g., DLRMs) are widely used AI
 models to provide high-quality personalized recommendations. Training data used

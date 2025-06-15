@@ -8,7 +8,7 @@ citations: 14
 bibkey: ertl2019probminhash
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.00675'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals']
 ---
 The probability Jaccard similarity was recently proposed as a natural
 generalization of the Jaccard similarity to measure the proximity of sets whose

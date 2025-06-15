@@ -8,7 +8,7 @@ citations: 65
 bibkey: liu2016supervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.05572'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Quantization', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'Benchmarks and Datasets', 'Quantization', 'Multi-Modal Hashing']
 ---
 Matrix factorization has been recently utilized for the task of multi-modal
 hashing for cross-modality visual search, where basis functions are learned to

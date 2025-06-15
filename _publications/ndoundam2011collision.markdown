@@ -8,7 +8,7 @@ citations: 0
 bibkey: ndoundam2011collision
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1108.1478'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Compression', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Hashing Methods']
 ---
 cryptographic hash function is a deterministic procedure that compresses an
 arbitrary block of numerical data and returns a fixed-size bit string. There

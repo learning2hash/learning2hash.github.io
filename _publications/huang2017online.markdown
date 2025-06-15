@@ -8,7 +8,7 @@ citations: 44
 bibkey: huang2017online
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1704.01897'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Learning Strategies', 'Hashing Methods', 'Tools and Libraries']
 ---
 Although hash function learning algorithms have achieved great success in
 recent years, most existing hash models are off-line, which are not suitable

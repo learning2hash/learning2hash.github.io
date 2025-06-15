@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhdanov2023catching
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.13357'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Similarity Learning', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 The concepts of overfitting and generalization are vital for evaluating
 machine learning models. In this work, we show that the popular Recall@K metric

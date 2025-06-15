@@ -8,7 +8,7 @@ citations: 2
 bibkey: laarhoven2017faster
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1705.02828'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 To overcome the large memory requirement of classical lattice sieving
 algorithms for solving hard lattice problems, Bai-Laarhoven-Stehl\'\{e\} [ANTS

@@ -8,7 +8,7 @@ citations: 4
 bibkey: joslyn2018deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1805.12176'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Music generation research has grown in popularity over the past decade,
 thanks to the deep learning revolution that has redefined the landscape of

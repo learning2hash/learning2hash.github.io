@@ -8,7 +8,7 @@ citations: 14
 bibkey: bender2021optimal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.00602'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Indexing and Efficiency', 'Hashing Methods', 'Tools and Libraries']
 ---
 For nearly six decades, the central open question in the study of hash tables
 has been to determine the optimal achievable tradeoff curve between time and

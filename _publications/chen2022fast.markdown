@@ -8,7 +8,7 @@ citations: 11
 bibkey: chen2022fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2206.11408'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Vector Indexing', 'Graph-Based Methods', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 Approximate K-Nearest Neighbor Search (AKNNS) has now become ubiquitous in
 modern applications, for example, as a fast search procedure with two tower

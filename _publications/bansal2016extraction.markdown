@@ -8,7 +8,7 @@ citations: 0
 bibkey: bansal2016extraction
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.02687'}
-tags: ['Retrieval Models', 'Supervised', 'Shallow', 'Cross-Modal']
+tags: ['Hashing Fundamentals', 'Indexing']
 ---
 Layouts and sub-layouts constitute an important clue while searching a
 document on the basis of its structure, or when textual content is

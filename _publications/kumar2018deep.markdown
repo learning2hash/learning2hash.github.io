@@ -8,7 +8,7 @@ citations: 13
 bibkey: kumar2018deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1805.08833'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 We investigate the concept of deep barcodes and propose two methods to
 generate them in order to expedite the process of classification and retrieval

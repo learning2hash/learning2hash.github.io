@@ -8,7 +8,7 @@ citations: 7
 bibkey: nardini2024efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2404.02805'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Quantization']
+tags: ['Evaluation Metrics', 'Quantization', 'Quantization and Compression', 'Tools and Libraries']
 ---
 Dense retrieval techniques employ pre-trained large language models to build
 a high-dimensional representation of queries and passages. These

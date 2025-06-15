@@ -8,7 +8,7 @@ citations: 0
 bibkey: hu2020efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.11907'}
-tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'ANN Search', 'Hashing Fundamentals']
 ---
 Nearest neighbor search is fundamental to a wide range of applications. Since
 the exact nearest neighbor search suffers from the "curse of dimensionality",

@@ -8,7 +8,7 @@ citations: 0
 bibkey: nakata2024rethinking
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2408.16296'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 In this paper, we rethink sparse lexical representations for image retrieval.
 By utilizing multi-modal large language models (M-LLMs) that support visual

@@ -8,7 +8,7 @@ citations: 20
 bibkey: pacuk2016locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.09317'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals']
 ---
 In this paper, we show a construction of locality-sensitive hash functions
 without false negatives, i.e., which ensure collision for every pair of points

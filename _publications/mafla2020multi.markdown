@@ -8,7 +8,7 @@ citations: 28
 bibkey: mafla2020multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2009.09809'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Scene text instances found in natural images carry explicit semantic
 information that can provide important cues to solve a wide array of computer

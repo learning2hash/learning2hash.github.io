@@ -8,7 +8,7 @@ citations: 0
 bibkey: malmasi2017open
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.04817'}
-tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 We present the first open-set language identification experiments using
 one-class classification. We first highlight the shortcomings of traditional

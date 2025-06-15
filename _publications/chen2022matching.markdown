@@ -8,7 +8,7 @@ citations: 8
 bibkey: chen2022matching
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2204.00298'}
-tags: ['Quantisation', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing']
+tags: ['Evaluation Metrics', 'Tools and Libraries', 'ANN Search']
 ---
 To make full use of computer vision technology in stores, it is required to
 consider the actual needs that fit the characteristics of the retail scene.

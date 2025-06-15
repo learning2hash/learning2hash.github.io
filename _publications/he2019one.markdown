@@ -8,7 +8,7 @@ citations: 6
 bibkey: he2019one
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1907.00612'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 With the recent explosive increase of digital data, image recognition and
 retrieval become a critical practical application. Hashing is an effective

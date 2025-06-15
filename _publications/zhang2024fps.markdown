@@ -9,7 +9,7 @@ bibkey: zhang2024fps
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2403.08551'}
   - {name: "Code", url: 'https://github.com/Xinjie-Q/GaussianImage'}
-tags: ['Cross-Modal', 'Quantisation', 'Shallow', 'Compression', 'Has Code', 'Quantization']
+tags: ['Has Code', 'Quantization', 'Quantization and Compression']
 ---
 Implicit neural representations (INRs) recently achieved great success in
 image representation and compression, offering high visual quality and fast

@@ -8,7 +8,7 @@ citations: 6
 bibkey: fadaei2019content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.11379'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Efficient Learning', 'Applications']
 ---
 Content-based image retrieval (CBIR) is a task of retrieving images from
 their contents. Since retrieval process is a time-consuming task in large image

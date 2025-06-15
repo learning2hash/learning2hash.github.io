@@ -8,7 +8,7 @@ citations: 17
 bibkey: xia2016unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1602.00206'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Shallow', 'Vector Indexing', 'Deep Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Learning based hashing plays a pivotal role in large-scale visual search.
 However, most existing hashing algorithms tend to learn shallow models that do

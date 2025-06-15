@@ -8,7 +8,7 @@ citations: 36
 bibkey: tizhoosh2015barcode
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1505.05212'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 This paper proposes to generate and to use barcodes to annotate medical
 images and/or their regions of interest such as organs, tumors and tissue

@@ -8,7 +8,7 @@ citations: 0
 bibkey: belhenniche2024optimizing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2411.18800'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 This article provides a new approach on how to enhance data storage and
 retrieval in the Query By Image Content Systems (QBIC) by introducing the \\(\{\rm

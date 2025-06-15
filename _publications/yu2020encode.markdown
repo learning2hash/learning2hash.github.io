@@ -8,7 +8,7 @@ citations: 2
 bibkey: yu2020encode
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2009.14661'}
-tags: ['Model Design', 'Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 This paper tackles a new problem in computer vision: mid-stream
 video-to-video retrieval. This task, which consists in searching a database for

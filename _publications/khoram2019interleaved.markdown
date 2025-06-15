@@ -8,7 +8,7 @@ citations: 0
 bibkey: khoram2019interleaved
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1912.08756'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization']
+tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Quantization']
 ---
 Similarity search retrieves the nearest neighbors of a query vector from a
 dataset of high-dimensional vectors. As the size of the dataset grows, the cost

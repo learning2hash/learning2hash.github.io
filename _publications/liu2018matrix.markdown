@@ -8,7 +8,7 @@ citations: 144
 bibkey: liu2018matrix
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1805.01963'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Multi-Modal Hashing']
 ---
 Hashing has recently sparked a great revolution in cross-modal retrieval
 because of its low storage cost and high query speed. Recent cross-modal

@@ -8,7 +8,7 @@ citations: 30
 bibkey: xu2020fine
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.09461'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 Existing sketch-analysis work studies sketches depicting static objects or
 scenes. In this work, we propose a novel cross-modal retrieval problem of

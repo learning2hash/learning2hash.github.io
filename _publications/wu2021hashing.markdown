@@ -8,7 +8,7 @@ citations: 28
 bibkey: wu2021hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.14280'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'ANN Search']
 ---
 Networks are ubiquitous in the real world. Link prediction, as one of the key
 problems for network-structured data, aims to predict whether there exists a

@@ -8,7 +8,7 @@ citations: 3
 bibkey: kalantidis2016loh
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.06480'}
-tags: ['Quantisation', 'Unimodal', 'Shallow', 'Datasets', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 We propose a novel hashing-based matching scheme, called Locally Optimized
 Hashing (LOH), based on a state-of-the-art quantization algorithm that can be

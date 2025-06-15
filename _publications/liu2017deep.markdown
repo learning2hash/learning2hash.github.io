@@ -8,7 +8,7 @@ citations: 10
 bibkey: liu2017deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1712.08315'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Deep Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 This paper proposes an end-to-end deep hashing framework with category mask
 for fast video retrieval. We train our network in a supervised way by fully

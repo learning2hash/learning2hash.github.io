@@ -8,7 +8,7 @@ citations: 8
 bibkey: pibiri2021parallel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2106.02350'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 A function \\(f : U \to \\{0,\ldots,n-1\\}\\) is a minimal perfect hash function
 for a set \\(S \subseteq U\\) of size \\(n\\), if \\(f\\) bijectively maps \\(S\\) into the

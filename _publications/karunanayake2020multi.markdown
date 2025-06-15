@@ -8,7 +8,7 @@ citations: 7
 bibkey: karunanayake2020multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2006.02231'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Evaluation', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 Counterfeit apps impersonate existing popular apps in attempts to misguide
 users to install them for various reasons such as collecting personal

@@ -8,7 +8,7 @@ citations: 62
 bibkey: qiu2018deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1804.08275'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Learning Strategies']
 ---
 Hashing has been a widely-adopted technique for nearest neighbor search in
 large-scale image retrieval tasks. Recent research has shown that leveraging

@@ -9,7 +9,7 @@ bibkey: gao2021backdoor
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.08868'}
   - {name: "Code", url: 'https://github.com/KuofengGao/CIBA'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Has Code', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Hashing Fundamentals', 'Deep Hashing', 'Has Code']
 ---
 A backdoored deep hashing model is expected to behave normally on original
 query images and return the images with the target label when a specific

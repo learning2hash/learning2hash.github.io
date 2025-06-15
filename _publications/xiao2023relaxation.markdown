@@ -8,7 +8,7 @@ citations: 0
 bibkey: xiao2023relaxation
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2308.10506'}
-tags: ['Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Vector Indexing', 'Unsupervised Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 This paper focuses on a class of binary orthogonal optimization problems
 frequently arising in semantic hashing. Consider that this class of problems

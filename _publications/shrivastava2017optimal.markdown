@@ -8,7 +8,7 @@ citations: 27
 bibkey: shrivastava2017optimal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.04664'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Evaluation', 'Shallow', 'Conferences', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Indexing', 'ICML', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Minwise hashing is a fundamental and one of the most successful hashing
 algorithm in the literature. Recent advances based on the idea of

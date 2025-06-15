@@ -8,7 +8,7 @@ citations: 13
 bibkey: ma2021rank
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2102.01486'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 As hashing becomes an increasingly appealing technique for large-scale image
 retrieval, multi-label hashing is also attracting more attention for the

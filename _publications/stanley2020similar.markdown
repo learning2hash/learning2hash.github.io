@@ -8,7 +8,7 @@ citations: 0
 bibkey: stanley2020similar
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2009.13836'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Approximate Nearest Neighbor Search', 'Indexing', 'Applications', 'ANN Search']
 ---
 We present a similar image retrieval (SIR) platform that is used to quickly
 discover visually similar products in a catalog of millions. Given the size,

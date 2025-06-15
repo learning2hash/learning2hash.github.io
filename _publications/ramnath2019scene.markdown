@@ -8,7 +8,7 @@ citations: 9
 bibkey: ramnath2019scene
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.00850'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 With the prolification of multimodal interaction in various domains, recently
 there has been much interest in text based image retrieval in the computer

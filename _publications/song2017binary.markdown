@@ -9,7 +9,7 @@ bibkey: song2017binary
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1708.04150'}
   - {name: "Code", url: 'https://github.com/htconquer/BGAN'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Has Code', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing', 'Has Code']
 ---
 The most striking successes in image retrieval using deep hashing have mostly
 involved discriminative models, which require labels. In this paper, we use

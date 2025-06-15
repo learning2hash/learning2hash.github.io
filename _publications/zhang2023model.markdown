@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhang2023model
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2309.13335'}
-tags: ['Deep', 'Quantisation', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Vector Indexing', 'Quantization']
+tags: ['Evaluation Metrics', 'Quantization', 'Quantization and Compression']
 ---
 Embedding-based retrieval methods construct vector indices to search for
 document representations that are most similar to the query representations.

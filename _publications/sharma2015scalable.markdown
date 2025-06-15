@@ -8,7 +8,7 @@ citations: 14
 bibkey: sharma2015scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.08902'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 We propose a novel algorithm for the task of supervised discriminative
 distance learning by nonlinearly embedding vectors into a low dimensional

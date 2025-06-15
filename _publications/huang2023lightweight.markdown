@@ -9,7 +9,7 @@ bibkey: huang2023lightweight
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2302.10626'}
   - {name: "Code", url: 'https://github.com/HuangQiang/BC-Tree'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Has Code', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Efficient Learning', 'Indexing', 'ANN Search', 'Hashing Fundamentals', 'Has Code']
 ---
 Finding the nearest neighbor to a hyperplane (or Point-to-Hyperplane Nearest
 Neighbor Search, simply P2HNNS) is a new and challenging problem with

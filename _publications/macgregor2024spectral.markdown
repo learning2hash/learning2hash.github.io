@@ -8,7 +8,7 @@ citations: 0
 bibkey: macgregor2024spectral
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2407.07096'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Spectral Toolkit of Algorithms for Graphs (STAG) is an open-source library
 for efficient graph algorithms. This technical report presents the newly

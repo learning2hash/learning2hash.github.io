@@ -8,7 +8,7 @@ citations: 63
 bibkey: chung2017learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1711.08490'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Applications', 'ANN Search']
 ---
 Deep neural networks have been investigated in learning latent
 representations of medical images, yet most of the studies limit their approach

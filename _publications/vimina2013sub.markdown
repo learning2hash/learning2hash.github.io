@@ -8,7 +8,7 @@ citations: 20
 bibkey: vimina2013sub
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1307.1561'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Applications']
 ---
 This paper proposes a content based image retrieval (CBIR) system using the
 local colour and texture features of selected image sub-blocks and global

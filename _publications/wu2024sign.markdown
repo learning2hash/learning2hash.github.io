@@ -8,7 +8,7 @@ citations: 0
 bibkey: wu2024sign
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2405.02716'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Methods', 'Hybrid and Advanced Models', 'Tools and Libraries', 'Hashing Fundamentals', 'Graph and Transformer Models']
 ---
 Bipartite graph hashing (BGH) is extensively used for Top-K search in Hamming
 space at low storage and inference costs. Recent research adopts graph

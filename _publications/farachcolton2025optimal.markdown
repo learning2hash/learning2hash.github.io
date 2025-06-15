@@ -8,7 +8,7 @@ citations: 0
 bibkey: farachcolton2025optimal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2501.02305'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 In this paper, we revisit one of the simplest problems in data structures:
 the task of inserting elements into an open-addressed hash table so that

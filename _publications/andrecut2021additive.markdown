@@ -8,7 +8,7 @@ citations: 0
 bibkey: andrecut2021additive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2102.03943'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 The hashing trick is a machine learning technique used to encode categorical
 features into a numerical vector representation of pre-defined fixed length. It

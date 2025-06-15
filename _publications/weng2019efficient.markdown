@@ -8,7 +8,7 @@ citations: 1
 bibkey: weng2019efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1912.05006'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Indexing and Efficiency', 'Evaluation Metrics', 'Tools and Libraries']
 ---
 Binary codes are widely used to represent the data due to their small storage
 and efficient computation. However, there exists an ambiguity problem that lots

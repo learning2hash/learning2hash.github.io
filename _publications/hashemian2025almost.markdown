@@ -8,7 +8,7 @@ citations: 0
 bibkey: hashemian2025almost
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.07995'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In this paper, we propose a method for density-based clustering in
 high-dimensional spaces that combines Locality-Sensitive Hashing (LSH) with the

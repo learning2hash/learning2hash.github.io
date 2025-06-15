@@ -8,7 +8,7 @@ citations: 0
 bibkey: shi2022deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2209.12599'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Learning Strategies', 'Multi-Modal Hashing']
 ---
 Hashing that projects data into binary codes has shown extraordinary talents
 in cross-modal retrieval due to its low storage usage and high query speed.

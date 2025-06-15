@@ -9,7 +9,7 @@ bibkey: song2022boosting
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.11909'}
   - {name: "Code", url: 'https://github.com/dealicious-inc/DToP'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Retrieval Models', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Has Code', 'Applications']
 ---
 Vision transformers have achieved remarkable progress in vision tasks such as
 image classification and detection. However, in instance-level image retrieval,

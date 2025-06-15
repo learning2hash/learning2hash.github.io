@@ -8,7 +8,7 @@ citations: 98
 bibkey: ge2020self
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2006.03926'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Hashing for Real-World Applications']
 ---
 The task of large-scale retrieval-based image localization is to estimate the
 geographical location of a query image by recognizing its nearest reference

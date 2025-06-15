@@ -9,7 +9,7 @@ bibkey: song2022asymmetric
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.05772'}
   - {name: "Code", url: 'https://github.com/weiweisong415/Demo'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Has Code', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing', 'Has Code']
 ---
 Remote sensing image retrieval (RSIR), aiming at searching for a set of
 similar items to a given query image, is a very important task in remote

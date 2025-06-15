@@ -8,7 +8,7 @@ citations: 126
 bibkey: chen2019object
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1912.08830'}
-tags: ['Deep', 'Benchmarks and Tools', 'Unimodal', 'Vector Indexing', 'Supervised']
+tags: ['Tools and Libraries', 'ANN Search']
 ---
 We introduce the task of 3D object localization in RGB-D scans using natural
 language descriptions. As input, we assume a point cloud of a scanned 3D scene

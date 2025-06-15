@@ -8,7 +8,7 @@ citations: 1
 bibkey: aamand2020no
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.01156'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 To get estimators that work within a certain error bound with high
 probability, a common strategy is to design one that works with constant

@@ -8,7 +8,7 @@ citations: 9
 bibkey: hao2016what
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.01640'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Previous work has shown that feature maps of deep convolutional neural
 networks (CNNs) can be interpreted as feature representation of a particular

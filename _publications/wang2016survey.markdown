@@ -8,7 +8,7 @@ citations: 696
 bibkey: wang2016survey
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1606.00185'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Survey Paper', 'Surveys and Reviews', 'Vector Indexing', 'Quantization', 'Similarity Learning', 'Hashing']
+tags: ['Quantization', 'Survey', 'Quantization and Compression', 'ANN Search', 'Survey Paper']
 ---
 Nearest neighbor search is a problem of finding the data points from the
 database such that the distances from them to the query point are the smallest.

@@ -8,7 +8,7 @@ citations: 10
 bibkey: tian2019global
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.08685'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Hashing methods have been widely investigated for fast approximate nearest
 neighbor searching in large data sets. Most existing methods use binary vectors

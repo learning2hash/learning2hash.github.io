@@ -8,7 +8,7 @@ citations: 0
 bibkey: dalal2023two
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2309.05308'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 We introduce linear probing hashing schemes that construct a hash table of
 size \\(n\\), with constant load factor \\(\alpha\\), on which the worst-case

@@ -8,7 +8,7 @@ citations: 119
 bibkey: norouzi2013fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1307.2982'}
-tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Efficient Learning', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 There is growing interest in representing image data and feature descriptors
 using compact binary codes for fast near neighbor search. Although binary codes

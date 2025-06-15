@@ -8,7 +8,7 @@ citations: 83
 bibkey: neyshabur2014symmetric
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1410.5518'}
-tags: ['Unimodal', 'Independent', 'Shallow']
+tags: ['Evaluation Metrics']
 ---
 We consider the problem of designing locality sensitive hashes (LSH) for
 inner product similarity, and of the power of asymmetric hashes in this

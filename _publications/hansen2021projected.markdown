@@ -8,7 +8,7 @@ citations: 2
 bibkey: hansen2021projected
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2103.14455'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 When reasoning about tasks that involve large amounts of data, a common
 approach is to represent data items as objects in the Hamming space where

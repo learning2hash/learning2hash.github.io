@@ -8,7 +8,7 @@ citations: 63
 bibkey: wang2015achieving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1501.04264'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Uncategorized']
 ---
 The \\(i\\)th coordinate of an \\((n,k)\\) code is said to have locality \\(r\\) and
 availability \\(t\\) if there exist \\(t\\) disjoint groups, each containing at most

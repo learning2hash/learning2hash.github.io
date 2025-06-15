@@ -8,7 +8,7 @@ citations: 21
 bibkey: chen2022learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2206.02115'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Quantisation', 'Quantization', 'Hashing', 'Applications']
+tags: ['Evaluation Metrics', 'Quantization and Compression', 'RecSys', 'Tools and Libraries', 'Quantization']
 ---
 Learning vectorized embeddings is at the core of various recommender systems
 for user-item matching. To perform efficient online inference, representation

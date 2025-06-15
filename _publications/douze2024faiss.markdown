@@ -8,7 +8,7 @@ citations: 15
 bibkey: douze2024faiss
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2401.08281'}
-tags: ['Independent', 'Retrieval Models', 'Benchmarks and Tools', 'Unimodal', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Tools and Libraries']
 ---
 Vector databases typically manage large collections of embedding vectors.
 Currently, AI applications are growing rapidly, and so is the number of

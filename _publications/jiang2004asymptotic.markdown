@@ -8,7 +8,7 @@ citations: 57
 bibkey: jiang2004asymptotic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/math/0404325'}
-tags: ['Cross-Modal', 'Shallow', 'Hashing', 'Quantisation']
+tags: ['Tools and Libraries']
 ---
 Given positive integers \\(n\\) and \\(d\\), let \\(A_2(n,d)\\) denote the maximum size
 of a binary code of length \\(n\\) and minimum distance \\(d\\). The well-known

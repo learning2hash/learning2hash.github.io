@@ -8,7 +8,7 @@ citations: 8
 bibkey: fuad2007extended
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0709.4669'}
-tags: ['Retrieval Models', 'Unimodal', 'Supervised', 'Deep']
+tags: ['Approximate Nearest Neighbor Search']
 ---
 Similarity search is an important problem in information retrieval. This
 similarity is based on a distance. Symbolic representation of time series has

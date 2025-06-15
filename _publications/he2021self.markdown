@@ -8,7 +8,7 @@ citations: 3
 bibkey: he2021self
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2104.07993'}
-tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Training Strategy']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 Content-based video retrieval aims to find videos from a large video database
 that are similar to or even near-duplicate of a given query video. Video

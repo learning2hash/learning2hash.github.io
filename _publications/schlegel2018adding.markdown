@@ -8,7 +8,7 @@ citations: 3
 bibkey: schlegel2018adding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1809.06690'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 In this paper we propose an approach to embed continuous and selector cues in
 binary feature descriptors used for visual place recognition. The embedding is

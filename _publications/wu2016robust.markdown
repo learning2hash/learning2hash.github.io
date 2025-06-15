@@ -8,7 +8,7 @@ citations: 30
 bibkey: wu2016robust
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.05521'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Privacy and Security', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies']
 ---
 Learning hash functions/codes for similarity search over multi-view data is
 attracting increasing attention, where similar hash codes are assigned to the

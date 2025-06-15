@@ -8,7 +8,7 @@ citations: 0
 bibkey: kumar2023end
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.08891'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Unsupervised', 'Retrieval Models', 'Evaluation', 'Vector Indexing', 'Applications']
+tags: ['Evaluation Metrics', 'Indexing', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 Dense embedding-based retrieval is widely used for semantic search and
 ranking. However, conventional two-stage approaches, involving contrastive

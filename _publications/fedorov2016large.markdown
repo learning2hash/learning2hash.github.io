@@ -8,7 +8,7 @@ citations: 1
 bibkey: fedorov2016large
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.06093'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Indexing', 'Applications']
 ---
 Most approaches to large-scale image retrieval are based on the construction
 of the inverted index of local image descriptors or visual words. A search in

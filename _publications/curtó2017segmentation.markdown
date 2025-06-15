@@ -8,7 +8,7 @@ citations: 0
 bibkey: curtó2017segmentation
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1702.08160'}
-tags: ['Unimodal', 'Supervised', 'Deep', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 We propose a novel approach to address the problem of Simultaneous Detection
 and Segmentation introduced in [Hariharan et al 2014]. Using the hierarchical

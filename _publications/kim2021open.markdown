@@ -8,7 +8,7 @@ citations: 3
 bibkey: kim2021open
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2106.15278'}
-tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Visual recognition tasks are often limited to dealing with a small subset of
 classes simply because the labels for the remaining classes are unavailable. We

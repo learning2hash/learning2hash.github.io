@@ -8,7 +8,7 @@ citations: 11
 bibkey: fan2016stochastic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.00817'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Loss Functions', 'Applications']
 ---
 Dictionary plays an important role in multi-instance data representation. It
 maps bags of instances to histograms. Earth mover's distance (EMD) is the most

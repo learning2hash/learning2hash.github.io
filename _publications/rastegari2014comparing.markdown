@@ -8,7 +8,7 @@ citations: 2
 bibkey: rastegari2014comparing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1405.1005'}
-tags: ['Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Supervised']
+tags: ['Evaluation Metrics', 'ANN Search']
 ---
 We discuss methodological issues related to the evaluation of unsupervised
 binary code construction methods for nearest neighbor search. These issues have

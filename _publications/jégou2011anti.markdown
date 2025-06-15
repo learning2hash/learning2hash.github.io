@@ -8,7 +8,7 @@ citations: 29
 bibkey: jégou2011anti
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1110.3767'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 This paper proposes a binarization scheme for vectors of high dimension based
 on the recent concept of anti-sparse coding, and shows its excellent

@@ -8,7 +8,7 @@ citations: 2
 bibkey: charikar2018multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1807.07635'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 A basic computational primitive in the analysis of massive datasets is
 summing simple functions over a large number of objects. Modern applications

@@ -8,7 +8,7 @@ citations: 5
 bibkey: cassee2017analysing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1712.09494'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Indexing and Efficiency', 'Hashing Methods', 'Applications']
 ---
 In the past few years, General Purpose Graphics Processors (GPUs) have been
 used to significantly speed up numerous applications. One of the areas in which

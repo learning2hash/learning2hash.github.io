@@ -9,7 +9,7 @@ bibkey: wang2021contrastive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.05205'}
   - {name: "Code", url: 'https://github.com/gimpong/AAAI22-MeCoQ'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Conferences', 'Datasets', 'Vector Indexing', 'Has Code', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'AAAI', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization', 'Hashing for Real-World Applications', 'Has Code']
 ---
 The high efficiency in computation and storage makes hashing (including
 binary hashing and quantization) a common strategy in large-scale retrieval

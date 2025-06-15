@@ -8,7 +8,7 @@ citations: 36
 bibkey: patrascu2010power
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1011.5200'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Randomized algorithms are often enjoyed for their simplicity, but the hash
 functions used to yield the desired theoretical guarantees are often neither

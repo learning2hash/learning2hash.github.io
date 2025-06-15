@@ -8,7 +8,7 @@ citations: 0
 bibkey: xiao2023unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.04228'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Datasets', 'Deep Hashing', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization', 'Deep Hashing']
 ---
 The vulnerability in the algorithm supply chain of deep learning has imposed
 new challenges to image retrieval systems in the downstream. Among a variety of

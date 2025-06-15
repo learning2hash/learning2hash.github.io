@@ -9,7 +9,7 @@ bibkey: liu2025towards
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2504.00954'}
   - {name: "Code", url: 'https://github.com/BwLiu01/IDMR'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Has Code', 'Applications']
 ---
 Multimodal retrieval systems are becoming increasingly vital for cutting-edge
 AI technologies, such as embodied AI and AI-driven digital content industries.

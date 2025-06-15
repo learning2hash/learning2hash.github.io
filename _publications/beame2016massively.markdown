@@ -8,7 +8,7 @@ citations: 1
 bibkey: beame2016massively
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.04999'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Training Strategy']
+tags: ['Evaluation Metrics', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 We study distributed protocols for finding all pairs of similar vectors in a
 large dataset. Our results pertain to a variety of discrete metrics, and we

@@ -8,7 +8,7 @@ citations: 12
 bibkey: appleton2015multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1505.00062'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 We describe a consistent hashing algorithm which performs multiple lookups
 per key in a hash table of nodes. It requires no additional storage beyond the

@@ -9,7 +9,7 @@ bibkey: yuan2019central
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.00347'}
   - {name: "Code", url: 'https://github.com/yuanli2333/Hadamard-Matrix-for-hashing'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Has Code', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization', 'Has Code']
 ---
 Existing data-dependent hashing methods usually learn hash functions from
 pairwise or triplet data relationships, which only capture the data similarity

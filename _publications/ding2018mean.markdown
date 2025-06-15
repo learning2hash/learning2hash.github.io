@@ -8,7 +8,7 @@ citations: 4
 bibkey: ding2018mean
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1811.09763'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Efficient Learning', 'Hashing Fundamentals']
 ---
 The research on hashing techniques for visual data is gaining increased
 attention in recent years due to the need for compact representations

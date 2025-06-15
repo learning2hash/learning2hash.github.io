@@ -8,7 +8,7 @@ citations: 0
 bibkey: jafari2019efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1912.07101'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Finding similar images is a necessary operation in many multimedia
 applications. Images are often represented and stored as a set of

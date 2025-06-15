@@ -8,7 +8,7 @@ citations: 16
 bibkey: takeshita2020secure
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.02330'}
-tags: ['Cross-Modal', 'Efficiency', 'Shallow', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Cloud computing is often utilized for file storage. Clients of cloud storage
 services want to ensure the privacy of their data, and both clients and servers

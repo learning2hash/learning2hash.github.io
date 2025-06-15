@@ -8,7 +8,7 @@ citations: 1
 bibkey: bu2014image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1406.0588'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 A novel representation of images for image retrieval is introduced in this
 paper, by using a new type of feature with remarkable discriminative power.

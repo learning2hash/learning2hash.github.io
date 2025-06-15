@@ -8,7 +8,7 @@ citations: 0
 bibkey: mieno2019space
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.12854'}
-tags: ['Unimodal', 'Supervised', 'Shallow']
+tags: ['Uncategorized']
 ---
 Given a string \\(T\\) of length \\(n\\), a substring \\(u = T[i..j]\\) of \\(T\\) is called
 a shortest unique substring (SUS) for an interval \\([s,t]\\) if (a) \\(u\\) occurs

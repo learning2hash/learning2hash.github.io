@@ -8,7 +8,7 @@ citations: 3
 bibkey: dey2009hf
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0909.1392'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Compression', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Hashing Methods']
 ---
 Vulnerability of dedicated hash functions to various attacks has made the
 task of designing hash function much more challenging. This provides us a

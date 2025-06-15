@@ -8,7 +8,7 @@ citations: 1
 bibkey: wang2024reconstruction
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2405.17777'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Efficient Learning', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Known for efficient computation and easy storage, hashing has been
 extensively explored in cross-modal retrieval. The majority of current hashing

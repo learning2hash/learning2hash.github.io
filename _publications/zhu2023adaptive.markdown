@@ -9,7 +9,7 @@ bibkey: zhu2023adaptive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2312.07327'}
   - {name: "Code", url: 'https://github.com/HackerHyper/ACMVH'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Has Code', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Has Code', 'Tools and Libraries']
 ---
 The multi-view hash method converts heterogeneous data from multiple views
 into binary hash codes, which is one of the critical technologies in multimedia

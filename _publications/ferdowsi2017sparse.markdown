@@ -8,7 +8,7 @@ citations: 8
 bibkey: ferdowsi2017sparse
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1701.07675'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Vector Indexing', 'Hashing']
+tags: ['Evaluation Metrics', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 This paper addresses the problem of Approximate Nearest Neighbor (ANN) search
 in pattern recognition where feature vectors in a database are encoded as

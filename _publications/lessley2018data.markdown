@@ -8,7 +8,7 @@ citations: 24
 bibkey: lessley2018data
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1807.04345'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Surveys and Reviews', 'Hashing']
+tags: ['Hashing Methods', 'Survey', 'Hashing Fundamentals', 'Survey Paper', 'Indexing and Efficiency']
 ---
 Hash tables are one of the most fundamental data structures for effectively
 storing and accessing sparse data, with widespread usage in domains ranging

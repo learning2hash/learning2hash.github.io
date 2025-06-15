@@ -8,7 +8,7 @@ citations: 42
 bibkey: liu2016generating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.04676'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Applications']
 ---
 Content-based image retrieval (CBIR) in large medical image archives is a
 challenging and necessary task. Generally, different feature extraction methods

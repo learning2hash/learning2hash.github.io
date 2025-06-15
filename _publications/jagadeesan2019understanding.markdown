@@ -8,7 +8,7 @@ citations: 6
 bibkey: jagadeesan2019understanding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1903.03605'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Conferences', 'Hashing']
+tags: ['NeurIPS', 'Hashing Fundamentals', 'Hashing Methods', 'ICML']
 ---
 Feature hashing and other random projection schemes are commonly used to
 reduce the dimensionality of feature vectors. The goal is to efficiently

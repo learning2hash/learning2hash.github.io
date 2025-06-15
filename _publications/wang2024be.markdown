@@ -8,7 +8,7 @@ citations: 1
 bibkey: wang2024be
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2406.07812'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Loss Functions']
 ---
 Recently, binary representation has been proposed as a novel representation
 that lies between continuous and discrete representations. It exhibits

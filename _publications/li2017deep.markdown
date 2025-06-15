@@ -8,7 +8,7 @@ citations: 93
 bibkey: li2017deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1708.05127'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Multi-Modal Hashing']
 ---
 With the increasing demand of massive multimodal data storage and
 organization, cross-modal retrieval based on hashing technique has drawn much

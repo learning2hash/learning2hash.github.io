@@ -8,7 +8,7 @@ citations: 17
 bibkey: masci2013sparse
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1312.5479'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Evaluation', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In recent years, a lot of attention has been devoted to efficient nearest
 neighbor search by means of similarity-preserving hashing. One of the plights

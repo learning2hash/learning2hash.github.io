@@ -9,7 +9,7 @@ bibkey: wang2021prototype
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.07553'}
   - {name: "Code", url: 'https://github.com/xunguangwang/ProS-GAN'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Efficiency', 'Retrieval Models', 'Has Code', 'Deep Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing', 'Has Code']
 ---
 Due to its powerful capability of representation learning and high-efficiency
 computation, deep hashing has made significant progress in large-scale image

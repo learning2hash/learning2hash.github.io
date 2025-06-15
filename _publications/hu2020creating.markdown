@@ -8,7 +8,7 @@ citations: 101
 bibkey: hu2020creating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.00280'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Multi-Modal Hashing']
 ---
 In recent years, cross-modal hashing (CMH) has attracted increasing
 attentions, mainly because its potential ability of mapping contents from

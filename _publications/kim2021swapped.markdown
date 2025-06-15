@@ -8,7 +8,7 @@ citations: 0
 bibkey: kim2021swapped
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.05814'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications']
 ---
 We tackle the cross-modal retrieval problem, where learning is only
 supervised by relevant multi-modal pairs in the data. Although the contrastive

@@ -8,7 +8,7 @@ citations: 21
 bibkey: lei2020locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.05345'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Locality-Sensitive Hashing (LSH) is one of the most popular methods for
 \\(c\\)-Approximate Nearest Neighbor Search (\\(c\\)-ANNS) in high-dimensional spaces.

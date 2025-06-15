@@ -8,7 +8,7 @@ citations: 0
 bibkey: rao2015diverse
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.06553'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Typical retrieval systems have three requirements: a) Accurate retrieval
 i.e., the method should have high precision, b) Diverse retrieval, i.e., the

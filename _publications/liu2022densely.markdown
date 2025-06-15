@@ -8,7 +8,7 @@ citations: 10
 bibkey: liu2022densely
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2208.00119'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Deep Metric Learning (DML) serves to learn an embedding function to project
 semantically similar data into nearby embedding space and plays a vital role in

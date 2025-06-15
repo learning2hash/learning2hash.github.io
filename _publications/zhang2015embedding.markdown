@@ -8,7 +8,7 @@ citations: 144
 bibkey: zhang2015embedding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1512.02895'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Loss Functions', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Learning Strategies']
 ---
 Recent algorithms in convolutional neural networks (CNN) considerably advance
 the fine-grained image classification, which aims to differentiate subtle

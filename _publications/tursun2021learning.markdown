@@ -8,7 +8,7 @@ citations: 4
 bibkey: tursun2021learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2104.07240'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Applications']
 ---
 Large-scale trademark retrieval is an important content-based image retrieval
 task. A recent study shows that off-the-shelf deep features aggregated with

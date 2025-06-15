@@ -8,7 +8,7 @@ citations: 5
 bibkey: qi2017efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1710.07750'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Evaluation', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing for Real-World Applications', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Mobile visual search applications are emerging that enable users to sense
 their surroundings with smart phones. However, because of the particular

@@ -8,7 +8,7 @@ citations: 0
 bibkey: xiao2025image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.21772'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 We introduce LOCORE, Long-Context Re-ranker, a model that takes as input
 local descriptors corresponding to an image query and a list of gallery images

@@ -8,7 +8,7 @@ citations: 9
 bibkey: alemu2018multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1808.05075'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 Aggregating different image features for image retrieval has recently shown
 its effectiveness. While highly effective, though, the question of how to

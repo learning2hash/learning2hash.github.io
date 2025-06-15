@@ -8,7 +8,7 @@ citations: 0
 bibkey: yan2018norm
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1810.09104'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 Recently, locality sensitive hashing (LSH) was shown to be effective for MIPS
 and several algorithms including \\(L_2\\)-ALSH, Sign-ALSH and Simple-LSH have been

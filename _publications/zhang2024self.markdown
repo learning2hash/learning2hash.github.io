@@ -9,7 +9,7 @@ bibkey: zhang2024self
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2403.19651'}
   - {name: "Code", url: 'https://open-vision-language.github.io/MagicLens/'}
-tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Has Code', 'Supervised', 'Applications']
+tags: ['Evaluation Metrics', 'Has Code', 'Applications']
 ---
 Image retrieval, i.e., finding desired images given a reference image,
 inherently encompasses rich, multi-faceted search intents that are difficult to

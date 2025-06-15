@@ -8,7 +8,7 @@ citations: 0
 bibkey: leybovich2021efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2107.06817'}
-tags: ['Quantisation', 'Unimodal', 'Shallow', 'Quantization', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization', 'Hashing Methods', 'Quantization and Compression']
 ---
 We consider a similarity measure between two sets \\(A\\) and \\(B\\) of vectors,
 that balances the average and maximum cosine distance between pairs of vectors,

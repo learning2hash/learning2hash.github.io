@@ -8,7 +8,7 @@ citations: 3
 bibkey: amir2014new
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1410.5607'}
-tags: ['Cross-Modal', 'Independent', 'Applications', 'Shallow']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 Efficient handling of sparse data is a key challenge in Computer Science.
 Binary convolutions, such as polynomial multiplication or the Walsh Transform

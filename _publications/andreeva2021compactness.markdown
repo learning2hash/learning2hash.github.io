@@ -8,7 +8,7 @@ citations: 4
 bibkey: andreeva2021compactness
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2104.15055'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Compression', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Hashing Methods']
 ---
 We revisit the classical problem of designing optimally efficient
 cryptographically secure hash functions. Hash functions are traditionally

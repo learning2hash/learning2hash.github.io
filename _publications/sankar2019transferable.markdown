@@ -8,7 +8,7 @@ citations: 0
 bibkey: sankar2019transferable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1906.01605'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Neural word representations are at the core of many state-of-the-art natural
 language processing models. A widely used approach is to pre-train, store and

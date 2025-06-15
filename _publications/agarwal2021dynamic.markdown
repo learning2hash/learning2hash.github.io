@@ -8,7 +8,7 @@ citations: 2
 bibkey: agarwal2021dynamic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.01818'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 This paper considers enumerating answers to similarity-join queries under
 dynamic updates: Given two sets of \\(n\\) points \\(A,B\\) in \\(\mathbb\{R\}^d\\), a metric

@@ -8,7 +8,7 @@ citations: 16
 bibkey: zheng2014seeing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1406.0132'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Indexing', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 In the Bag-of-Words (BoW) model based image retrieval task, the precision of
 visual matching plays a critical role in improving retrieval performance.

@@ -8,7 +8,7 @@ citations: 235
 bibkey: babenko2015aggregating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1510.07493'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Supervised', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 Several recent works have shown that image descriptors produced by deep
 convolutional neural networks provide state-of-the-art performance for image

@@ -8,7 +8,7 @@ citations: 1
 bibkey: liu2016ordinal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.06362'}
-tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 Recent years have witnessed extensive attention in binary code learning,
 a.k.a. hashing, for nearest neighbor search problems. It has been seen that

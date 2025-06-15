@@ -8,7 +8,7 @@ citations: 118
 bibkey: zhu2017discrete
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.04047'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Multi-Modal Hashing']
 ---
 Mobile landmark search (MLS) recently receives increasing attention for its
 great practical values. However, it still remains unsolved due to two important

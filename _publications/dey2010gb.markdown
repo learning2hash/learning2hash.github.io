@@ -8,7 +8,7 @@ citations: 0
 bibkey: dey2010gb
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1011.5534'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Compression', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Hashing Methods']
 ---
 In this paper we present an improved version of HF-hash, viz., GB-hash : Hash
 Functions Using Groebner Basis. In case of HF-hash, the compression function

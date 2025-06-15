@@ -8,7 +8,7 @@ citations: 19
 bibkey: dutta2020semantically
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2006.11397'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Low-shot sketch-based image retrieval is an emerging task in computer vision,
 allowing to retrieve natural images relevant to hand-drawn sketch queries that

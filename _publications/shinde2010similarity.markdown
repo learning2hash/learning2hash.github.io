@@ -8,7 +8,7 @@ citations: 4
 bibkey: shinde2010similarity
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1006.3514'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'KDD', 'Applications', 'Approximate Nearest Neighbor Search', 'ANN Search', 'Hashing Fundamentals']
 ---
 Similarity search methods are widely used as kernels in various machine
 learning applications. Nearest neighbor search (NNS) algorithms are often used

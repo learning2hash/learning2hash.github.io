@@ -9,7 +9,7 @@ bibkey: liu2024distribution
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.11216'}
   - {name: "Code", url: 'https://github.com/LiuJinyu1229/DCGMH'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Has Code', 'Multi-Modal Hashing']
 ---
 Multi-modal hashing methods have gained popularity due to their fast speed
 and low storage requirements. Among them, the supervised methods demonstrate

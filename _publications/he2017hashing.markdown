@@ -8,7 +8,7 @@ citations: 51
 bibkey: he2017hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1705.08562'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Hashing, or learning binary embeddings of data, is frequently used in nearest
 neighbor retrieval. In this paper, we develop learning to rank formulations for

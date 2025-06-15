@@ -8,7 +8,7 @@ citations: 5
 bibkey: sackman2015perfect
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1503.04988'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Consistent Hashing functions are widely used for load balancing across a
 variety of applications. However, the original presentation and typical

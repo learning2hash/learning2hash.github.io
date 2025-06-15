@@ -8,7 +8,7 @@ citations: 20
 bibkey: kottur2015visual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1511.07067'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 We propose a model to learn visually grounded word embeddings (vis-w2v) to
 capture visual notions of semantic relatedness. While word embeddings trained

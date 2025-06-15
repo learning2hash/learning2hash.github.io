@@ -8,7 +8,7 @@ citations: 18
 bibkey: jie2013novel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1306.4079'}
-tags: ['Quantisation', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing', 'Applications']
 ---
 Image perceptual hashing finds applications in content indexing, large-scale
 image database management, certification and authentication and digital

@@ -8,7 +8,7 @@ citations: 31
 bibkey: douze2016polysemous
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.01882'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization', 'Hashing']
+tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Quantization']
 ---
 This paper considers the problem of approximate nearest neighbor search in
 the compressed domain. We introduce polysemous codes, which offer both the

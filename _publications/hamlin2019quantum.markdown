@@ -8,7 +8,7 @@ citations: 4
 bibkey: hamlin2019quantum
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.08709'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Compression', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Hashing Methods']
 ---
 This work contains two major parts: comprehensively studying the security
 notions of cryptographic hash functions against quantum attacks and the

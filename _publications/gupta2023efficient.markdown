@@ -8,7 +8,7 @@ citations: 1
 bibkey: gupta2023efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.15010'}
-tags: ['Quantisation', 'Unimodal', 'Shallow', 'Quantization', 'Applications']
+tags: ['Quantization', 'Quantization and Compression', 'Applications']
 ---
 Template matching is a fundamental problem in computer vision with
 applications in fields including object detection, image registration, and

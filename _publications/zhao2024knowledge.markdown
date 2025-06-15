@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhao2024knowledge
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.19417'}
-tags: ['Deep', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Compression', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing', 'Indexing and Efficiency']
 ---
 Deep hashing has been widely used for large-scale approximate nearest
 neighbor search due to its storage and search efficiency. However, existing

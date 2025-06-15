@@ -8,7 +8,7 @@ citations: 0
 bibkey: najibi2015large
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.06066'}
-tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Quantization', 'Applications']
+tags: ['Applications', 'Indexing', 'Quantization and Compression', 'Tools and Libraries', 'Quantization', 'Hashing for Real-World Applications']
 ---
 The growing amount of data available in modern-day datasets makes the need to
 efficiently search and retrieve information. To make large-scale search

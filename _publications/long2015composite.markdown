@@ -8,7 +8,7 @@ citations: 114
 bibkey: long2015composite
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1504.04818'}
-tags: ['Quantization', 'Quantisation', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Indexing and Efficiency', 'Evaluation Metrics', 'Indexing', 'Modality-Specific Hashing', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization', 'Multi-Modal Hashing']
 ---
 Efficient similarity retrieval from large-scale multimodal database is
 pervasive in modern search engines and social networks. To support queries

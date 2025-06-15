@@ -8,7 +8,7 @@ citations: 5
 bibkey: li2020hamming
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2009.10874'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Recently, inspired by Transformer, self-attention-based scene text
 recognition approaches have achieved outstanding performance. However, we find

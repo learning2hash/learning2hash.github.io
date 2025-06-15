@@ -9,7 +9,7 @@ bibkey: liang2023learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2309.03518'}
   - {name: "Code", url: 'https://github.com/xurong-liang/CERP'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Datasets', 'Has Code', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Has Code', 'Tools and Libraries']
 ---
 Latent factor models are the dominant backbones of contemporary recommender
 systems (RSs) given their performance advantages, where a unique vector

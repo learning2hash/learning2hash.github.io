@@ -8,7 +8,7 @@ citations: 1
 bibkey: garg2017kernelized
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1711.04044'}
-tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods', 'Tools and Libraries']
 ---
 Kernel methods have produced state-of-the-art results for a number of NLP
 tasks such as relation extraction, but suffer from poor scalability due to the

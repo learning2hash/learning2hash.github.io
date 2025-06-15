@@ -8,7 +8,7 @@ citations: 12
 bibkey: pagh2015similarity
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1507.00552'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We present an I/O-efficient algorithm for computing similarity joins based on
 locality-sensitive hashing (LSH). In contrast to the filtering methods commonly

@@ -8,7 +8,7 @@ citations: 36
 bibkey: kong2018cross
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1804.02367'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 We investigate the problem of automatically determining what type of shoe
 left an impression found at a crime scene. This recognition problem is made

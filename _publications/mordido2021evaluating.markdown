@@ -8,7 +8,7 @@ citations: 0
 bibkey: mordido2021evaluating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2103.11912'}
-tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Training Strategy', 'Compression', 'Datasets', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 The analysis of the compression effects in generative adversarial networks
 (GANs) after training, i.e. without any fine-tuning, remains an unstudied,

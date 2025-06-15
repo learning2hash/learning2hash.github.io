@@ -8,7 +8,7 @@ citations: 310
 bibkey: schuhmann2021laion
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.02114'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy']
+tags: ['Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 Multi-modal language-vision models trained on hundreds of millions of
 image-text pairs (e.g. CLIP, DALL-E) gained a recent surge, showing remarkable

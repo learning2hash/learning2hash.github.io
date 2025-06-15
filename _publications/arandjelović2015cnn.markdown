@@ -8,7 +8,7 @@ citations: 438
 bibkey: arandjelović2015cnn
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1511.07247'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Loss Functions', 'Applications', 'Evaluation Metrics', 'ANN Search', 'Learning Strategies']
 ---
 We tackle the problem of large scale visual place recognition, where the task
 is to quickly and accurately recognize the location of a given query

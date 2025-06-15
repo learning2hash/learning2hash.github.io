@@ -8,7 +8,7 @@ citations: 0
 bibkey: zuo2024benchmark
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2410.10163'}
-tags: ['Deep', 'Unimodal', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Binary Code Similarity Analysis (BCSA) has a wide spectrum of applications,
 including plagiarism detection, vulnerability discovery, and malware analysis,

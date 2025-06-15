@@ -8,7 +8,7 @@ citations: 1
 bibkey: jiang2021fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2110.03024'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'KDD', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Many popular machine learning techniques in natural language processing and
 data mining rely heavily on high-quality text sources. However real-world text

@@ -8,7 +8,7 @@ citations: 16
 bibkey: hu2020pytorch
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.02154'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Applications', 'ANN Search']
 ---
 Despite significant progress of applying deep learning methods to the field
 of content-based image retrieval, there has not been a software library that

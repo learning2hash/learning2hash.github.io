@@ -8,7 +8,7 @@ citations: 8
 bibkey: baranchuk2019learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.10987'}
-tags: ['Unsupervised', 'Retrieval Models', 'Deep', 'Cross-Modal']
+tags: ['Uncategorized']
 ---
 Recently similarity graphs became the leading paradigm for efficient nearest
 neighbor search, outperforming traditional tree-based and LSH-based methods.

@@ -8,7 +8,7 @@ citations: 96
 bibkey: do2016learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1607.05140'}
-tags: ['Deep', 'Unimodal', 'Datasets', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 This work proposes deep network models and learning algorithms for
 unsupervised and supervised binary hashing. Our novel network design constrains

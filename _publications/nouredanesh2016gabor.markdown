@@ -8,7 +8,7 @@ citations: 5
 bibkey: nouredanesh2016gabor
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1605.04478'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Applications', 'Indexing', 'Tools and Libraries', 'ANN Search', 'Hashing for Real-World Applications']
 ---
 In recent years, advances in medical imaging have led to the emergence of
 massive databases, containing images from a diverse range of modalities. This

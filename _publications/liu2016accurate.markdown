@@ -8,7 +8,7 @@ citations: 2
 bibkey: liu2016accurate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1610.09645'}
-tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Quantization']
+tags: ['Loss Functions', 'Approximate Nearest Neighbor Search', 'Quantization and Compression', 'Tools and Libraries', 'Learning Strategies', 'Quantization']
 ---
 Recent advance of large scale similarity search involves using deeply learned
 representations to improve the search accuracy and use vector quantization

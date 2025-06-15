@@ -8,7 +8,7 @@ citations: 1
 bibkey: lins2003perfectly
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0301021'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In this paper we propose a simple and efficient data structure yielding a
 perfect hashing of quite general arrays. The data structure is named phorma,

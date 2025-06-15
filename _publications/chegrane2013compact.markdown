@@ -8,7 +8,7 @@ citations: 4
 bibkey: chegrane2013compact
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1312.4678'}
-tags: ['Cross-Modal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 This paper is concerned with practical implementations of approximate string
 dictionaries that allow edit errors. In this problem, we have as input a

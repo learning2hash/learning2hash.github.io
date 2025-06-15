@@ -8,7 +8,7 @@ citations: 0
 bibkey: iscen2018local
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1807.09848'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Tools and Libraries', 'ANN Search', 'Applications', 'Approximate Nearest Neighbor Search']
 ---
 This work addresses approximate nearest neighbor search applied in the domain
 of large-scale image retrieval. Within the group testing framework we propose

@@ -8,7 +8,7 @@ citations: 0
 bibkey: palmer2023efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.15711'}
-tags: ['Cross-Modal', 'Shallow', 'Compression', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'KDD', 'Applications', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Online string matching is a computational problem involving the search for
 patterns or substrings in a large text dataset, with the pattern and text being

@@ -8,7 +8,7 @@ citations: 10
 bibkey: stojmirovic2003indexing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0309005'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Benchmarks and Tools', 'Datasets', 'Vector Indexing']
+tags: ['ANN Search', 'Indexing', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 We propose a family of very efficient hierarchical indexing schemes for
 ungapped, score matrix-based similarity search in large datasets of short (4-12

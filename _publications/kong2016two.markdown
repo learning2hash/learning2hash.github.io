@@ -8,7 +8,7 @@ citations: 4
 bibkey: kong2016two
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1607.00719'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 This paper addresses the problem of large-scale image retrieval. We propose a
 two-layer fusion method which takes advantage of global and local cues and

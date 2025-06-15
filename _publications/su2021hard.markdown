@@ -8,7 +8,7 @@ citations: 0
 bibkey: su2021hard
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.13565'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Hashing Fundamentals', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Compared with the traditional hashing methods, deep hashing methods generate
 hash codes with rich semantic information and greatly improves the performances

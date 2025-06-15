@@ -8,7 +8,7 @@ citations: 0
 bibkey: ashutosh2024ai
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2407.09504'}
-tags: ['Deep', 'Unimodal', 'Vector Indexing', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 The expanse of information available over the internet makes it difficult to
 identify whether a specific work is a replica or a duplication of a protected

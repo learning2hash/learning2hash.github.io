@@ -8,7 +8,7 @@ citations: 0
 bibkey: cakir2015online
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1511.03257'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Indexing', 'Supervision Type', 'Supervision Types', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 Supervised hashing methods are widely-used for nearest neighbor search in
 computer vision applications. Most state-of-the-art supervised hashing

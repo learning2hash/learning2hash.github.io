@@ -8,7 +8,7 @@ citations: 1
 bibkey: gomez2020location
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.03375'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications', 'ANN Search']
 ---
 People from different parts of the globe describe objects and concepts in
 distinct manners. Visual appearance can thus vary across different geographic

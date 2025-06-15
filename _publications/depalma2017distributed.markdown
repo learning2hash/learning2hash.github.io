@@ -8,7 +8,7 @@ citations: 1
 bibkey: depalma2017distributed
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1712.00206'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods', 'Tools and Libraries']
 ---
 The availability of massive healthcare data repositories calls for efficient
 tools for data-driven medicine. We introduce a distributed system for

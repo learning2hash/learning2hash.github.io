@@ -8,7 +8,7 @@ citations: 7
 bibkey: gupta2022zero
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.10185'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 The performance of a zero-shot sketch-based image retrieval (ZS-SBIR) task is
 primarily affected by two challenges. The substantial domain gap between image

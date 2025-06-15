@@ -8,7 +8,7 @@ citations: 7
 bibkey: gao2022long
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2211.15162'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Model Design', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Existing Cross Modal Hashing (CMH) methods are mainly designed for balanced
 data, while imbalanced data with long-tail distribution is more general in

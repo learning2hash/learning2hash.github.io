@@ -8,7 +8,7 @@ citations: 14
 bibkey: rashno2019content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.02059'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Training Strategy', 'Applications']
+tags: ['Evaluation Metrics', 'Hashing for Real-World Applications', 'Applications']
 ---
 Content-based image retrieval (CBIR) has become one of the most important
 research directions in the domain of digital data management. In this paper, a

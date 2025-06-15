@@ -8,7 +8,7 @@ citations: 2
 bibkey: gagie2013compressed
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1312.3422'}
-tags: ['Retrieval Models', 'Independent', 'Cross-Modal', 'Shallow']
+tags: ['Indexing and Efficiency', 'Approximate Nearest Neighbor Search']
 ---
 Spaced seeds are important tools for similarity search in bioinformatics, and
 using several seeds together often significantly improves their performance.

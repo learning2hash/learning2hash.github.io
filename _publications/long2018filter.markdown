@@ -8,7 +8,7 @@ citations: 1
 bibkey: long2018filter
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1807.02895'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Image similarity measures play an important role in nearest neighbor search
 and duplicate detection for large-scale image datasets. Recently, Minwise

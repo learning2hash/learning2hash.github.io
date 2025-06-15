@@ -8,7 +8,7 @@ citations: 8
 bibkey: harpeled2019near
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1906.02640'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Applications']
+tags: ['Applications']
 ---
 \\(\newcommand\{\ball\}\{\mathbb\{B\}\}\newcommand\{\dsQ\}\{\{\mathcal\{Q\}\}\}\newcommand\{\dsS\}\{\{\mathcal\{S\}\}\}\\)In
 this work we study a fair variant of the near neighbor problem. Namely, given a

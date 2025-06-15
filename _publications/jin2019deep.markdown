@@ -8,7 +8,7 @@ citations: 66
 bibkey: jin2019deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.02662'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Efficiency', 'Retrieval Models', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing', 'Multi-Modal Hashing']
 ---
 Hashing has been widely applied to multimodal retrieval on large-scale
 multimedia data due to its efficiency in computation and storage. In this

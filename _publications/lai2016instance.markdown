@@ -8,7 +8,7 @@ citations: 118
 bibkey: lai2016instance
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.03234'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Evaluation', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Similarity-preserving hashing is a commonly used method for nearest neighbour
 search in large-scale image retrieval. For image retrieval, deep-networks-based

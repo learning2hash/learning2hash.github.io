@@ -8,7 +8,7 @@ citations: 6
 bibkey: bhattarai2020diagram
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.10780'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 Resolution of the complex problem of image retrieval for diagram images has
 yet to be reached. Deep learning methods continue to excel in the fields of

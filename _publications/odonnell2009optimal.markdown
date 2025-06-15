@@ -8,7 +8,7 @@ citations: 31
 bibkey: odonnell2009optimal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0912.0250'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals']
 ---
 We study lower bounds for Locality Sensitive Hashing (LSH) in the strongest
 setting: point sets in \{0,1\}^d under the Hamming distance. Recall that here H

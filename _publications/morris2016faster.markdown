@@ -8,7 +8,7 @@ citations: 48
 bibkey: morris2016faster
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1610.00064'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 While state-of-the-art kernels for graphs with discrete labels scale well to
 graphs with thousands of nodes, the few existing kernels for graphs with

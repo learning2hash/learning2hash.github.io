@@ -8,7 +8,7 @@ citations: 47
 bibkey: panigrahy2004efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0407023'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 The study of hashing is closely related to the analysis of balls and bins. It
 is well-known that instead of using a single hash function if we randomly hash

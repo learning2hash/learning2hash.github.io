@@ -8,7 +8,7 @@ citations: 239
 bibkey: vo2018composing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1812.07119'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 In this paper, we study the task of image retrieval, where the input query is
 specified in the form of an image plus some text that describes desired

@@ -8,7 +8,7 @@ citations: 65
 bibkey: shrivastava2014defense
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1407.4416'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 MinHash and SimHash are the two widely adopted Locality Sensitive Hashing
 (LSH) algorithms for large-scale data processing applications. Deciding which

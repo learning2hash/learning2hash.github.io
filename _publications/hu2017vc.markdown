@@ -8,7 +8,7 @@ citations: 0
 bibkey: hu2017vc
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.01586'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Uncategorized']
 ---
 We investigate the asymptotic rates of length-\\(n\\) binary codes with
 VC-dimension at most \\(dn\\) and minimum distance at least \\(\delta n\\). Two upper

@@ -8,7 +8,7 @@ citations: 201
 bibkey: dubey2020decade
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2012.00641'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Surveys and Reviews', 'Supervised', 'Survey Paper', 'Applications']
+tags: ['Survey Paper', 'Survey', 'Tools and Libraries', 'Applications']
 ---
 The content based image retrieval aims to find the similar images from a
 large scale dataset against a query image. Generally, the similarity between

@@ -8,7 +8,7 @@ citations: 4
 bibkey: kelly2019lock
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.03028'}
-tags: ['Unimodal', 'Shallow', 'Compression', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 In this paper we present a lock-free version of Hopscotch Hashing. Hopscotch
 Hashing is an open addressing algorithm originally proposed by Herlihy, Shavit,

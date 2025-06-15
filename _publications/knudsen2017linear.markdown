@@ -8,7 +8,7 @@ citations: 3
 bibkey: knudsen2017linear
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1706.02783'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We consider the hash function \\(h(x) = ((ax+b) \bmod p) \bmod n\\) where \\(a,b\\)
 are chosen uniformly at random from \\(\\{0,1,\ldots,p-1\\}\\). We prove that when we

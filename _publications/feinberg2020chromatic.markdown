@@ -8,7 +8,7 @@ citations: 0
 bibkey: feinberg2020chromatic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2006.03779'}
-tags: ['Unimodal', 'Shallow', 'Conferences', 'Compression', 'Datasets', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'KDD', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Learning over sparse, high-dimensional data frequently necessitates the use
 of specialized methods such as the hashing trick. In this work, we design a

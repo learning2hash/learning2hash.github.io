@@ -8,7 +8,7 @@ citations: 168
 bibkey: jégou2011searching
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1102.3828'}
-tags: ['Unimodal', 'Quantization', 'Shallow', 'Quantisation']
+tags: ['Tools and Libraries', 'Quantization', 'Indexing', 'Quantization and Compression']
 ---
 Recent indexing techniques inspired by source coding have been shown
 successful to index billions of high-dimensional vectors in memory. In this

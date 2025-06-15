@@ -8,7 +8,7 @@ citations: 176
 bibkey: lin2012density
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1205.2930'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Methods', 'KDD', 'Evaluation Metrics', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 Nearest neighbors search is a fundamental problem in various research fields
 like machine learning, data mining and pattern recognition. Recently,

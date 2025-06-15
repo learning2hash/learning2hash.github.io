@@ -8,7 +8,7 @@ citations: 24
 bibkey: do2017simultaneous
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1704.00860'}
-tags: ['Independent', 'Model Design', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 In most state-of-the-art hashing-based visual search systems, local image
 descriptors of an image are first aggregated as a single feature vector. This

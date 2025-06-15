@@ -9,7 +9,7 @@ bibkey: wang2022contrastive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2211.11210'}
   - {name: "Code", url: 'https://github.com/huangmozhi9527/ConMH'}
-tags: ['Independent', 'Model Design', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'Hashing Fundamentals', 'Has Code']
 ---
 Self-Supervised Video Hashing (SSVH) models learn to generate short binary
 representations for videos without ground-truth supervision, facilitating

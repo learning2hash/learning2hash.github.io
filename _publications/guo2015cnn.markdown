@@ -8,7 +8,7 @@ citations: 15
 bibkey: guo2015cnn
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.01354'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Supervised Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 Along with data on the web increasing dramatically, hashing is becoming more
 and more popular as a method of approximate nearest neighbor search. Previous

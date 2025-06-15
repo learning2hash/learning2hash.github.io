@@ -8,7 +8,7 @@ citations: 19
 bibkey: jacques2013quantized
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1309.1507'}
-tags: ['Cross-Modal', 'Quantization', 'Shallow', 'Quantisation']
+tags: ['Evaluation Metrics', 'Quantization', 'Quantization and Compression']
 ---
 In 1733, Georges-Louis Leclerc, Comte de Buffon in France, set the ground of
 geometric probability theory by defining an enlightening problem: What is the

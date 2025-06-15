@@ -8,7 +8,7 @@ citations: 1
 bibkey: qian2015similarity
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1512.01728'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Similarity Learning', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Loss Functions', 'Applications']
 ---
 We study the problem of similarity learning and its application to image
 retrieval with large-scale data. The similarity between pairs of images can be

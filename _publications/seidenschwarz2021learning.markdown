@@ -9,7 +9,7 @@ bibkey: seidenschwarz2021learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2102.07753'}
   - {name: "Code", url: 'https://github.com/dvl-tum/intra_batch_connections'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Has Code', 'Supervised', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Has Code', 'Applications']
 ---
 The goal of metric learning is to learn a function that maps samples to a
 lower-dimensional space where similar samples lie closer than dissimilar ones.

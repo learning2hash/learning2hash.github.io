@@ -8,7 +8,7 @@ citations: 0
 bibkey: hegeman2024compact
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2406.09255'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 On the GPU, hash table operation speed is determined in large part by cache
 line efficiency, and state-of-the-art hashing schemes thus divide tables into

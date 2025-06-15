@@ -8,7 +8,7 @@ citations: 0
 bibkey: skraparlis2000method
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0005028'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 This paper proposes a method for identification of a user`s fixed string set
 (which can be a command/instruction set for a terminal or microprocessor). This

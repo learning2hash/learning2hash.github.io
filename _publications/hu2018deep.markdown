@@ -8,7 +8,7 @@ citations: 0
 bibkey: hu2018deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1810.03402'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Supervised Hashing']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 The conventional supervised hashing methods based on classification do not
 entirely meet the requirements of hashing technique, but Linear Discriminant

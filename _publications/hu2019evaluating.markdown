@@ -9,7 +9,7 @@ bibkey: hu2019evaluating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.06595'}
   - {name: "Code", url: 'http://hexianghu.com/bison/'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Evaluation', 'Has Code', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications']
 ---
 Providing systems the ability to relate linguistic and visual content is one
 of the hallmarks of computer vision. Tasks such as text-based image retrieval

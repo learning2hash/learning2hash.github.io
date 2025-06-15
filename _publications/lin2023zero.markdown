@@ -9,7 +9,7 @@ bibkey: lin2023zero
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2303.14348'}
   - {name: "Code", url: 'https://github.com/buptLinfy/ZSE-SBIR'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications']
 ---
 This paper studies the problem of zero-short sketch-based image retrieval
 (ZS-SBIR), however with two significant differentiators to prior art (i) we

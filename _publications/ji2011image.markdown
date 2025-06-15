@@ -8,7 +8,7 @@ citations: 0
 bibkey: ji2011image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1104.0579'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 This report presents the results and details of a content-based image
 retrieval project using the Top-surf descriptor. The experimental results are

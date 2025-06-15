@@ -8,7 +8,7 @@ citations: 0
 bibkey: li2025clean
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.21236'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Large-scale image retrieval using deep hashing has become increasingly
 popular due to the exponential growth of image data and the remarkable feature

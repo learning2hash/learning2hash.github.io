@@ -8,7 +8,7 @@ citations: 0
 bibkey: tokunaga2024pixel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2407.16174'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Compression', 'Datasets', 'Quantization']
+tags: ['Evaluation and Benchmarks', 'Evaluation Metrics', 'Efficient Learning', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
 ---
 By quantizing network weights and activations to low bitwidth, we can obtain
 hardware-friendly and energy-efficient networks. However, existing quantization

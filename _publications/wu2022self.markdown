@@ -8,7 +8,7 @@ citations: 2
 bibkey: wu2022self
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2206.09806'}
-tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Quantization']
 ---
 Unsupervised image retrieval aims to learn an efficient retrieval system
 without expensive data annotations, but most existing methods rely heavily on

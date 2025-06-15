@@ -8,7 +8,7 @@ citations: 13
 bibkey: schall2021benchmark
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.13122'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Benchmarks and Datasets', 'Hashing for Real-World Applications']
 ---
 Even though it has extensively been shown that retrieval specific training of
 deep neural networks is beneficial for nearest neighbor image search quality,

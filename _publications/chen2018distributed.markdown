@@ -8,7 +8,7 @@ citations: 5
 bibkey: chen2018distributed
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1804.04918'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Efficient Learning', 'Tools and Libraries', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 Collaborative filtering, especially latent factor model, has been popularly
 used in personalized recommendation. Latent factor model aims to learn user and

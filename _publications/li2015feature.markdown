@@ -8,7 +8,7 @@ citations: 509
 bibkey: li2015feature
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1511.03855'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Datasets', 'Deep Hashing', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Recent years have witnessed wide application of hashing for large-scale image
 retrieval. However, most existing hashing methods are based on hand-crafted

@@ -8,7 +8,7 @@ citations: 11
 bibkey: liu2019cross
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.07388'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Hashing has been widely studied for big data retrieval due to its low storage
 cost and fast query speed. Zero-shot hashing (ZSH) aims to learn a hashing

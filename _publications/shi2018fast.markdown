@@ -8,7 +8,7 @@ citations: 1
 bibkey: shi2018fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1806.00588'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 We present a GPU-based Locality Sensitive Hashing (LSH) algorithm to speed up
 beam search for sequence models. We utilize the winner-take-all (WTA) hash,

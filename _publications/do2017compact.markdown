@@ -8,7 +8,7 @@ citations: 14
 bibkey: do2017compact
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1712.02956'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Learning compact binary codes for image retrieval problem using deep neural
 networks has recently attracted increasing attention. However, training deep

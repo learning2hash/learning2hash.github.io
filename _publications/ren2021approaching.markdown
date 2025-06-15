@@ -8,7 +8,7 @@ citations: 13
 bibkey: ren2021approaching
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.12757'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 The huge domain gap between sketches and photos and the highly abstract
 sketch representations pose challenges for sketch-based image retrieval

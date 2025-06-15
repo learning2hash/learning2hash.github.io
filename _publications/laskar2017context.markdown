@@ -8,7 +8,7 @@ citations: 33
 bibkey: laskar2017context
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.01226'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 The current models of image representation based on Convolutional Neural
 Networks (CNN) have shown tremendous performance in image retrieval. Such

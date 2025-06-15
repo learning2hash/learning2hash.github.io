@@ -8,7 +8,7 @@ citations: 2
 bibkey: ye2015first
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1506.02184'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 With the prevalence of the commodity depth cameras, the new paradigm of user
 interfaces based on 3D motion capturing and recognition have dramatically

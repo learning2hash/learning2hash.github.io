@@ -8,7 +8,7 @@ citations: 0
 bibkey: shao2022johnson
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2209.01006'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 This paper investigates theoretical properties of subsampling and hashing as
 tools for approximate Euclidean norm-preserving embeddings for vectors with

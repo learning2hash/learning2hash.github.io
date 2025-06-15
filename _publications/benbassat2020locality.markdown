@@ -8,7 +8,7 @@ citations: 1
 bibkey: benbassat2020locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2001.01128'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications', 'ANN Search']
 ---
 Web application security has become a major concern in recent years, as more
 and more content and services are available online. A useful method for

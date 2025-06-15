@@ -9,7 +9,7 @@ bibkey: ede2020warwick
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2003.01113'}
   - {name: "Code", url: 'https://github.com/Jeffrey-Ede/datasets'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Benchmarks and Tools', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Has Code']
 ---
 Large, carefully partitioned datasets are essential to train neural networks
 and standardize performance benchmarks. As a result, we have set up new

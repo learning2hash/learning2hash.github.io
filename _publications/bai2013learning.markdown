@@ -8,7 +8,7 @@ citations: 10
 bibkey: bai2013learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1312.4740'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Image retrieval refers to finding relevant images from an image database for
 a query, which is considered difficult for the gap between low-level

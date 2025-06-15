@@ -8,7 +8,7 @@ citations: 0
 bibkey: duhan2024semantic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.06649'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Applications']
+tags: ['Evaluation Metrics', 'Tools and Libraries', 'ANN Search']
 ---
 This paper introduces a new semantic search algorithm that uses Word2Vec and
 Annoy Index to improve the efficiency of information retrieval from large

@@ -8,7 +8,7 @@ citations: 1
 bibkey: srinivasan2022curriculum
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.14525'}
-tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Shallow', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications']
 ---
 Aligning image and text encoders from scratch using contrastive learning
 requires large amounts of paired image-text data. We alleviate this need by

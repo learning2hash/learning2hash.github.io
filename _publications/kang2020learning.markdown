@@ -8,7 +8,7 @@ citations: 34
 bibkey: kang2020learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2010.10784'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'RecSys', 'Tools and Libraries']
 ---
 Embedding learning of categorical features (e.g. user/item IDs) is at the
 core of various recommendation models including matrix factorization and neural

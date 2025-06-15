@@ -8,7 +8,7 @@ citations: 3
 bibkey: klassen2011independence
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1112.3323'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Indexing']
 ---
 A tabulation-based hash function maps a key into d derived characters
 indexing random values in tables that are then combined with bitwise xor

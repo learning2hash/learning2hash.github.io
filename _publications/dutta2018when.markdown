@@ -8,7 +8,7 @@ citations: 6
 bibkey: dutta2018when
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1809.02680'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Carpooling, or sharing a ride with other passengers, holds immense potential
 for urban transportation. Ridesharing platforms enable such sharing of rides

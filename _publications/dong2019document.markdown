@@ -8,7 +8,7 @@ citations: 8
 bibkey: dong2019document
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.11078'}
-tags: ['Model Design', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Unimodal', 'Datasets', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Hashing is promising for large-scale information retrieval tasks thanks to
 the efficiency of distance evaluation between binary codes. Generative hashing

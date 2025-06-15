@@ -8,7 +8,7 @@ citations: 14
 bibkey: paria2020minimizing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.05665'}
-tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 Deep representation learning has become one of the most widely adopted
 approaches for visual search, recommendation, and identification. Retrieval of

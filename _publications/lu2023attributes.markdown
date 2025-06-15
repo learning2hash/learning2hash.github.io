@@ -8,7 +8,7 @@ citations: 11
 bibkey: lu2023attributes
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2311.06067'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 In recent years, hashing methods have been popular in the large-scale media
 search for low storage and strong representation capabilities. To describe

@@ -8,7 +8,7 @@ citations: 396
 bibkey: gordo2016end
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1610.07940'}
-tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Loss Functions', 'Applications', 'Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'Tools and Libraries', 'Learning Strategies', 'Quantization']
 ---
 While deep learning has become a key ingredient in the top performing methods
 for many computer vision tasks, it has failed so far to bring similar

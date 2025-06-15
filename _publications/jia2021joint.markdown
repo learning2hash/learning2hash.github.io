@@ -8,7 +8,7 @@ citations: 46
 bibkey: jia2021joint
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2104.12673'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 This paper studies the problem of novel category discovery on single- and
 multi-modal data with labels from different but relevant categories. We present

@@ -9,7 +9,7 @@ bibkey: hoe2021one
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.14449'}
   - {name: "Code", url: 'https://github.com/kamwoh/orthohash'}
-tags: ['Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Has Code', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization', 'Deep Hashing', 'Has Code']
 ---
 A deep hashing model typically has two main learning objectives: to make the
 learned binary hash codes discriminative and to minimize a quantization error.

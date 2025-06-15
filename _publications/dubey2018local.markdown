@@ -8,7 +8,7 @@ citations: 26
 bibkey: dubey2018local
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.07441'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Applications']
 ---
 The local descriptors have gained wide range of attention due to their
 enhanced discriminative abilities. It has been proved that the consideration of

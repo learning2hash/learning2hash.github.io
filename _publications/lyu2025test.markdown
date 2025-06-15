@@ -9,7 +9,7 @@ bibkey: lyu2025test
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.10699'}
   - {name: "Code", url: 'https://github.com/fanlyu/ttd'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Has Code', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Has Code']
 ---
 We introduce Test-Time Discovery (TTD) as a novel task that addresses class
 shifts during testing, requiring models to simultaneously identify emerging

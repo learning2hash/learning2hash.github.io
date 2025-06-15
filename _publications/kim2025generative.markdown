@@ -8,7 +8,7 @@ citations: 0
 bibkey: kim2025generative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.19868'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Quantization']
+tags: ['Evaluation Metrics', 'Quantization', 'Quantization and Compression', 'Tools and Libraries']
 ---
 Generative retrieval is an emerging approach in information retrieval that
 generates identifiers (IDs) of target data based on a query, providing an

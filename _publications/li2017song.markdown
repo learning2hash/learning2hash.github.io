@@ -8,7 +8,7 @@ citations: 9
 bibkey: li2017song
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1708.05851'}
-tags: ['Retrieval Models', 'Supervised', 'Deep', 'Cross-Modal']
+tags: ['Tools and Libraries']
 ---
 Image is usually taken for expressing some kinds of emotions or purposes,
 such as love, celebrating Christmas. There is another better way that combines

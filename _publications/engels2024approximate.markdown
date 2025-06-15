@@ -8,7 +8,7 @@ citations: 0
 bibkey: engels2024approximate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2402.00943'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Applications']
+tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Efficient Learning', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 We define and investigate the problem of \\(\textit\{c-approximate window
 search\}\\): approximate nearest neighbor search where each point in the dataset

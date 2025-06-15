@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhao2025privacy
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.17844'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 We study the problem of approximating Hamming distance in sublinear time
 under property-preserving hashing (PPH), where only hashed representations of

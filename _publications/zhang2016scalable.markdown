@@ -8,7 +8,7 @@ citations: 3
 bibkey: zhang2016scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.08740'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 Hashing method maps similar data to binary hashcodes with smaller hamming
 distance, and it has received a broad attention due to its low storage cost and

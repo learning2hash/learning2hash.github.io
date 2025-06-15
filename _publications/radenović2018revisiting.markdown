@@ -8,7 +8,7 @@ citations: 207
 bibkey: radenović2018revisiting
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.11285'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 In this paper we address issues with image retrieval benchmarking on standard
 and popular Oxford 5k and Paris 6k datasets. In particular, annotation errors,

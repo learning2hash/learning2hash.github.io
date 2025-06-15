@@ -8,7 +8,7 @@ citations: 0
 bibkey: liu2015accelerated
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.05186'}
-tags: ['Quantisation', 'Unimodal', 'Shallow', 'Datasets', 'Quantization']
+tags: ['Quantization', 'Quantization and Compression', 'Tools and Libraries']
 ---
 We propose a novel distance to calculate distance between high dimensional
 vector pairs, utilizing vector quantization generated encodings. Vector

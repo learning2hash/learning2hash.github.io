@@ -8,7 +8,7 @@ citations: 111
 bibkey: luo2020survey
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2003.03369'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Hashing', 'Datasets', 'Surveys and Reviews', 'Vector Indexing', 'Unsupervised Hashing', 'Deep Hashing', 'Quantization', 'Survey Paper', 'Supervised Hashing']
+tags: ['Hashing Methods', 'KDD', 'Survey Paper', 'Supervision Type', 'Survey', 'Supervision Types', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization', 'Deep Hashing']
 ---
 Nearest neighbor search aims to obtain the samples in the database with the
 smallest distances from them to the queries, which is a basic task in a range

@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhang2020survey
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2006.05627'}
-tags: ['Cross-Modal', 'Deep', 'Supervised Hashing', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Datasets', 'Surveys and Reviews', 'Deep Hashing', 'Supervised', 'Survey Paper', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Supervision Type', 'Survey', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Survey Paper', 'Deep Hashing']
 ---
 Hashing has been widely used in approximate nearest search for large-scale
 database retrieval for its computation and storage efficiency. Deep hashing,

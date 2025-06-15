@@ -8,7 +8,7 @@ citations: 1
 bibkey: pham2022locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2206.01382'}
-tags: ['Deep', 'Unsupervised', 'Retrieval Models', 'Unimodal', 'Vector Indexing', 'Graph-Based Methods', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals']
 ---
 We present Falconn++, a novel locality-sensitive filtering approach for
 approximate nearest neighbor search on angular distance. Falconn++ can filter

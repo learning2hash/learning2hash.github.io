@@ -8,7 +8,7 @@ citations: 2
 bibkey: bessa2023weighted
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2301.05811'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 We present a new approach for computing compact sketches that can be used to
 approximate the inner product between pairs of high-dimensional vectors. Based

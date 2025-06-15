@@ -8,7 +8,7 @@ citations: 92
 bibkey: bhunia2020sketch
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.10310'}
-tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Fine-grained sketch-based image retrieval (FG-SBIR) addresses the problem of
 retrieving a particular photo instance given a user's query sketch. Its

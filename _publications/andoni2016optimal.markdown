@@ -8,7 +8,7 @@ citations: 30
 bibkey: andoni2016optimal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1608.03580'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 [See the paper for the full abstract.]
   We show tight upper and lower bounds for time-space trade-offs for the

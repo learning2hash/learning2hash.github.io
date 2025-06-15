@@ -8,7 +8,7 @@ citations: 1
 bibkey: bronstein2011kernel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1111.0466'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 This paper presents a kernel formulation of the recently introduced diff-hash
 algorithm for the construction of similarity-sensitive hash functions. Our

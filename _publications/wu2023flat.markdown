@@ -9,7 +9,7 @@ bibkey: wu2023flat
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2309.16249'}
   - {name: "Code", url: 'https://github.com/pxiangwu/FORB/'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Has Code', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Has Code', 'Applications']
 ---
 Image retrieval is a fundamental task in computer vision. Despite recent
 advances in this field, many techniques have been evaluated on a limited number

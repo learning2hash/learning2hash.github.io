@@ -8,7 +8,7 @@ citations: 5
 bibkey: lai2017transductive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1711.02856'}
-tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Zero-shot Hashing (ZSH) is to learn hashing models for novel/target classes
 without training data, which is an important and challenging problem. Most

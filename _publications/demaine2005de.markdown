@@ -8,7 +8,7 @@ citations: 18
 bibkey: demaine2005de
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0512081'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We develop dynamic dictionaries on the word RAM that use asymptotically
 optimal space, up to constant factors, subject to insertions and deletions, and

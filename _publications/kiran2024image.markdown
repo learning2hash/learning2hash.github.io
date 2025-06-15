@@ -8,7 +8,7 @@ citations: 0
 bibkey: kiran2024image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.08618'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Loss Functions', 'Applications']
 ---
 Image retrieval methods rely on metric learning to train backbone feature
 extraction models that can extract discriminant queries and reference (gallery)

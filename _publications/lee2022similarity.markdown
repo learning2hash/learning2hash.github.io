@@ -8,7 +8,7 @@ citations: 0
 bibkey: lee2022similarity
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.03282'}
-tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Shallow', 'Compression', 'Datasets', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Efficient Learning', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 Sets have been used for modeling various types of objects (e.g., a document
 as the set of keywords in it and a customer as the set of the items that she

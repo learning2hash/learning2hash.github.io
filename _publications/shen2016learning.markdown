@@ -8,7 +8,7 @@ citations: 0
 bibkey: shen2016learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.04116'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Loss Functions']
 ---
 This paper proposes a generic formulation that significantly expedites the
 training and deployment of image classification models, particularly under the

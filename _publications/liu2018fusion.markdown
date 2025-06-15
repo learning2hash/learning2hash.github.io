@@ -8,7 +8,7 @@ citations: 0
 bibkey: liu2018fusion
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1810.00644'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Hashing has been widely used for efficient similarity search based on its
 query and storage efficiency. To obtain better precision, most studies focus on

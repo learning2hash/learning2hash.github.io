@@ -8,7 +8,7 @@ citations: 3
 bibkey: li2015min
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1503.01737'}
-tags: ['Unimodal', 'Shallow', 'Datasets', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'KDD', 'Applications', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 The min-max kernel is a generalization of the popular resemblance kernel
 (which is designed for binary data). In this paper, we demonstrate, through an

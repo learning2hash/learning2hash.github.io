@@ -8,7 +8,7 @@ citations: 129
 bibkey: khandelwal2020nearest
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2010.00710'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Training Strategy']
+tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 We introduce \\(k\\)-nearest-neighbor machine translation (\\(k\\)NN-MT), which
 predicts tokens with a nearest neighbor classifier over a large datastore of

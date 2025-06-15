@@ -8,7 +8,7 @@ citations: 21
 bibkey: jiang2014revisiting
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1411.4199'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 We present a simple but powerful reinterpretation of kernelized
 locality-sensitive hashing (KLSH), a general and popular method developed in

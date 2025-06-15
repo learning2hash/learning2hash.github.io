@@ -8,7 +8,7 @@ citations: 27
 bibkey: akhremtsev2017high
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1710.08231'}
-tags: ['Cross-Modal', 'Independent', 'Shallow']
+tags: ['Indexing and Efficiency']
 ---
 Partitioning graphs into blocks of roughly equal size such that few edges run
 between blocks is a frequently needed operation in processing graphs. Recently,

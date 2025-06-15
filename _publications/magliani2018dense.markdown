@@ -8,7 +8,7 @@ citations: 3
 bibkey: magliani2018dense
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1808.05022'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Hashing for Real-World Applications', 'Applications']
 ---
 The recent advances brought by deep learning allowed to improve the
 performance in image retrieval tasks. Through the many convolutional layers,

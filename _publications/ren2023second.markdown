@@ -8,7 +8,7 @@ citations: 0
 bibkey: ren2023second
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2305.00435'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 Interest point detection methods have received increasing attention and are
 widely used in computer vision tasks such as image retrieval and 3D

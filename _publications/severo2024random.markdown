@@ -8,7 +8,7 @@ citations: 0
 bibkey: severo2024random
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.00369'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Compression', 'Training Strategy', 'Applications']
+tags: ['Quantization and Compression', 'Applications', 'Approximate Nearest Neighbor Search']
 ---
 We present an optimal method for encoding cluster assignments of arbitrary
 data sets. Our method, Random Cycle Coding (RCC), encodes data sequentially and

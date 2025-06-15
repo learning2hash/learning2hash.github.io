@@ -8,7 +8,7 @@ citations: 2
 bibkey: desai2021semantically
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2103.06124'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'RecSys', 'Tools and Libraries']
 ---
 Deep learning-based models are utilized to achieve state-of-the-art
 performance for recommendation systems. A key challenge for these models is to

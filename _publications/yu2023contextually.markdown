@@ -8,7 +8,7 @@ citations: 0
 bibkey: yu2023contextually
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2312.07806'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Previous endeavors in self-supervised learning have enlightened the research
 of deep clustering from an instance discrimination perspective. Built upon this

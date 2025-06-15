@@ -8,7 +8,7 @@ citations: 4
 bibkey: chatfield2014efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1407.4764'}
-tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Training Strategy', 'Compression', 'Datasets', 'Quantization']
+tags: ['Evaluation Metrics', 'Quantization', 'Quantization and Compression', 'Tools and Libraries']
 ---
 We investigate the gains in precision and speed, that can be obtained by
 using Convolutional Networks (ConvNets) for on-the-fly retrieval - where

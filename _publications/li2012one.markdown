@@ -8,7 +8,7 @@ citations: 8
 bibkey: li2012one
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1208.1259'}
-tags: ['Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Efficient Learning', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Recently, the method of b-bit minwise hashing has been applied to large-scale
 linear learning and sublinear time near-neighbor search. The major drawback of

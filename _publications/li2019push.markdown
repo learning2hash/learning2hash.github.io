@@ -8,7 +8,7 @@ citations: 7
 bibkey: li2019push
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1909.00206'}
-tags: ['Cross-Modal', 'Quantization', 'Quantisation', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
 ---
 Current massive datasets demand light-weight access for analysis. Discrete
 hashing methods are thus beneficial because they map high-dimensional data to

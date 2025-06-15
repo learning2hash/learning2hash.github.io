@@ -9,7 +9,7 @@ bibkey: lu2021set
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.05872'}
   - {name: "Code", url: 'https://github.com/mint-vu/SLOSH}{https://github.com/mint-vu/SLOSH'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Has Code']
 ---
 Learning from set-structured data is an essential problem with many
 applications in machine learning and computer vision. This paper focuses on

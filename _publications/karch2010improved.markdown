@@ -8,7 +8,7 @@ citations: 4
 bibkey: karch2010improved
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1008.1191'}
-tags: ['Retrieval Models', 'Independent', 'Cross-Modal', 'Shallow']
+tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 We engineer an algorithm to solve the approximate dictionary matching
 problem. Given a list of words \\(\mathcal\{W\}\\), maximum distance \\(d\\) fixed at

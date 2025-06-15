@@ -8,7 +8,7 @@ citations: 46
 bibkey: berman2019unified
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.05509'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Learning Strategies', 'Loss Functions', 'Applications']
 ---
 MultiGrain is a network architecture producing compact vector representations
 that are suited both for image classification and particular object retrieval.

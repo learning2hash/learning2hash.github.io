@@ -8,7 +8,7 @@ citations: 10
 bibkey: lin2015tiny
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1511.03055'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Compression', 'Vector Indexing', 'Supervised', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 A typical image retrieval pipeline starts with the comparison of global
 descriptors from a large database to find a short list of candidate matches. A

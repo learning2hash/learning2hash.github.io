@@ -8,7 +8,7 @@ citations: 19
 bibkey: charikar2018hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1808.10530'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Given a set of points \\(P\subset \mathbb\{R\}^\{d\}\\) and a kernel \\(k\\), the Kernel
 Density Estimate at a point \\(x\in\mathbb\{R\}^\{d\}\\) is defined as

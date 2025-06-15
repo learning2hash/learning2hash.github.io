@@ -8,7 +8,7 @@ citations: 0
 bibkey: lav2020proximity
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.01793'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Tools and Libraries']
 ---
 We introduce a binary embedding framework, called Proximity Preserving Code
 (PPC), which learns similarity and dissimilarity between data points to create

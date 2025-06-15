@@ -9,7 +9,7 @@ bibkey: blumenstiel2024multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2403.02059'}
   - {name: "Code", url: 'https://github.com/IBM/remote-sensing-image-retrieval'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Compression', 'Datasets', 'Vector Indexing', 'Has Code', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Efficient Learning', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Has Code']
 ---
 Image retrieval enables an efficient search through vast amounts of satellite
 imagery and returns similar images to a query. Deep learning models can

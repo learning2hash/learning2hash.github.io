@@ -8,7 +8,7 @@ citations: 17
 bibkey: kuo2021patchwise
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2108.09368'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Benchmarks and Tools', 'Vector Indexing', 'Multi-Modal Hashing']
+tags: ['Evaluation Metrics', 'ANN Search']
 ---
 3D perception of object shapes from RGB image input is fundamental towards
 semantic scene understanding, grounding image-based perception in our spatially

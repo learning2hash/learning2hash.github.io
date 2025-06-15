@@ -8,7 +8,7 @@ citations: 17
 bibkey: sumbul2020deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.01613'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods']
 ---
 This chapter presents recent advances in content based image search and
 retrieval (CBIR) systems in remote sensing (RS) for fast and accurate

@@ -8,7 +8,7 @@ citations: 0
 bibkey: sheybani2025gotta
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2501.18780'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Collision-resistant cryptographic hash functions (CRHs) are crucial for
 security in modern systems but are optimized for standard CPUs. While heavily

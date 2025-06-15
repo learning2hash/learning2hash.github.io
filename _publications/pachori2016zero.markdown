@@ -8,7 +8,7 @@ citations: 0
 bibkey: pachori2016zero
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1610.02651'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Unsupervised Hashing', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 This paper provides a framework to hash images containing instances of
 unknown object classes. In many object recognition problems, we might have

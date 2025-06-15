@@ -8,7 +8,7 @@ citations: 0
 bibkey: lehmann2025combined
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2502.05613'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Randomised algorithms often employ methods that can fail and that are retried
 with independent randomness until they succeed. Randomised data structures

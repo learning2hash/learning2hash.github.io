@@ -8,7 +8,7 @@ citations: 0
 bibkey: jiang2025zero
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.07037'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Evaluation', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Hashing algorithms have been widely used in large-scale image retrieval
 tasks, especially for seen class data. Zero-shot hashing algorithms have been

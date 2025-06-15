@@ -8,7 +8,7 @@ citations: 6
 bibkey: chuklin2011effective
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1102.4712'}
-tags: ['Deep', 'Quantisation', 'Unimodal', 'Evaluation', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Survey', 'Hashing Fundamentals', 'Survey Paper']
 ---
 Suppose that we have two similar files stored on different computers. We need
 to send the file from the first computer to the second one trying to minimize

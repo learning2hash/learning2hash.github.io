@@ -9,7 +9,7 @@ bibkey: yuan2023semantic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.14637'}
   - {name: "Code", url: 'https://github.com/xandery-geek/SAAT'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Datasets', 'Vector Indexing', 'Has Code', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing', 'Has Code']
 ---
 Deep hashing has been intensively studied and successfully applied in
 large-scale image retrieval systems due to its efficiency and effectiveness.

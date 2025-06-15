@@ -8,7 +8,7 @@ citations: 1
 bibkey: shi2022learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2204.08569'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Survey', 'RecSys', 'Tools and Libraries', 'Hashing Fundamentals', 'Survey Paper']
 ---
 Hashing-based Recommender Systems (RSs) are widely studied to provide
 scalable services. The existing methods for the systems combine three modules

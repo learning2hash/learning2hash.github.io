@@ -8,7 +8,7 @@ citations: 2
 bibkey: jiang2023efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2307.04520'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Datasets', 'Vector Indexing', 'Graph-Based Methods', 'Quantization', 'Applications']
+tags: ['Applications', 'Efficient Learning', 'Indexing', 'Tools and Libraries', 'ANN Search']
 ---
 SfM (Structure from Motion) has been extensively used for UAV (Unmanned
 Aerial Vehicle) image orientation. Its efficiency is directly influenced by

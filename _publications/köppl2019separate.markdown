@@ -8,7 +8,7 @@ citations: 1
 bibkey: köppl2019separate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.00163'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 While separate chaining is a common strategy for resolving collisions in a
 hash table taught in most textbooks, compact hashing is a less common technique

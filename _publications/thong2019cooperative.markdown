@@ -8,7 +8,7 @@ citations: 1
 bibkey: thong2019cooperative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.01421'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 The goal of this paper is to retrieve an image based on instance, attribute
 and category similarity notions. Different from existing works, which usually

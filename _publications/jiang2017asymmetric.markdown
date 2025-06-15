@@ -8,7 +8,7 @@ citations: 156
 bibkey: jiang2017asymmetric
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.08325'}
-tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Hashing', 'Vector Indexing', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Supervision Type', 'Supervision Types', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing', 'Indexing and Efficiency']
 ---
 Hashing has been widely used for large-scale approximate nearest neighbor
 search because of its storage and search efficiency. Recent work has found that

@@ -8,7 +8,7 @@ citations: 0
 bibkey: shanehsazzadeh2020fixed
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2010.15065'}
-tags: ['Cross-Modal', 'Deep', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 The Basic Local Alignment Search Tool (BLAST) is currently the most popular
 method for searching databases of biological sequences. BLAST compares

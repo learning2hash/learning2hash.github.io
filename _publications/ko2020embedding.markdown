@@ -8,7 +8,7 @@ citations: 34
 bibkey: ko2020embedding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2003.02546'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Applications']
 ---
 Learning the distance metric between pairs of samples has been studied for
 image retrieval and clustering. With the remarkable success of pair-based

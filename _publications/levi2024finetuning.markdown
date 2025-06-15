@@ -8,7 +8,7 @@ citations: 0
 bibkey: levi2024finetuning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.18806'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 As working with large datasets becomes standard, the task of accurately
 retrieving images containing objects of interest by an open set textual query

@@ -8,7 +8,7 @@ citations: 7
 bibkey: malali2022learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.03838'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Datasets', 'Quantization', 'Similarity Learning']
+tags: ['Loss Functions', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
 ---
 We present a deep learning approach for learning the joint semantic
 embeddings of images and captions in a Euclidean space, such that the semantic

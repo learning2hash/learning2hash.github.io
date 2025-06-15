@@ -8,7 +8,7 @@ citations: 122
 bibkey: yang2019shared
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.07488'}
-tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization']
 ---
 With explosive growth of data volume and ever-increasing diversity of data
 modalities, cross-modal similarity search, which conducts nearest neighbor

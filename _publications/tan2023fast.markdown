@@ -8,7 +8,7 @@ citations: 0
 bibkey: tan2023fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2309.15479'}
-tags: ['Independent', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Unimodal', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Efficient Learning', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Locality-sensitive hashing (LSH) is an effective randomized technique widely
 used in many machine learning tasks. The cost of hashing is proportional to

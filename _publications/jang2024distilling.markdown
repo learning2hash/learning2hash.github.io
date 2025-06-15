@@ -8,7 +8,7 @@ citations: 0
 bibkey: jang2024distilling
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2405.14726'}
-tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Vector Indexing', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization']
 ---
 ``Learning to hash'' is a practical solution for efficient retrieval,
 offering fast search speed and low storage cost. It is widely applied in

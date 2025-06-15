@@ -8,7 +8,7 @@ citations: 31
 bibkey: wiggers2019image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1906.09513'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 This paper presents a novel approach for image retrieval and pattern spotting
 in document image collections. The manual feature engineering is avoided by

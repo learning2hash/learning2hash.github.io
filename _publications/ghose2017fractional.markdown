@@ -8,7 +8,7 @@ citations: 11
 bibkey: ghose2017fractional
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1801.00187'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 In this paper, a new texture descriptor named "Fractional Local Neighborhood
 Intensity Pattern" (FLNIP) has been proposed for content based image retrieval

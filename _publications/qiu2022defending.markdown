@@ -8,7 +8,7 @@ citations: 10
 bibkey: qiu2022defending
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2212.00325'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 Vertical Federated Learning (VFL) is a trending collaborative machine
 learning model training solution. Existing industrial frameworks employ secure

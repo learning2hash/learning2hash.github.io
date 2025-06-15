@@ -8,7 +8,7 @@ citations: 13
 bibkey: torres2021compact
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2104.10278'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Sketch-based image retrieval (SBIR) has undergone an increasing interest in
 the community of computer vision bringing high impact in real applications. For

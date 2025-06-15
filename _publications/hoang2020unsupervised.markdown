@@ -8,7 +8,7 @@ citations: 27
 bibkey: hoang2020unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2008.00223'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 This paper presents a novel framework, namely Deep Cross-modality Spectral
 Hashing (DCSH), to tackle the unsupervised learning problem of binary hash

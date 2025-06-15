@@ -8,7 +8,7 @@ citations: 8
 bibkey: guo2014tight
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1406.6920'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Uncategorized']
 ---
 In this paper, we study \\(w\\)-frameproof codes, which are equivalent to
 \\(\\{1,w\\}\\)-separating hash families. Our main results concern binary codes,

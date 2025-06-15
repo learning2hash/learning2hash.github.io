@@ -9,7 +9,7 @@ bibkey: chaudhuri2022cross
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.10486'}
   - {name: "Code", url: 'https://github.com/abhrac/xmodal-vit'}
-tags: ['Cross-Modal', 'Independent', 'Deep', 'Model Design', 'Retrieval Models', 'Has Code', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Has Code', 'Applications']
 ---
 Representation learning for sketch-based image retrieval has mostly been
 tackled by learning embeddings that discard modality-specific information. As

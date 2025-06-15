@@ -8,7 +8,7 @@ citations: 32
 bibkey: chowdhury2022fs
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2203.02113'}
-tags: ['Independent', 'Deep', 'Model Design', 'Retrieval Models', 'Unimodal', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 We advance sketch research to scenes with the first dataset of freehand scene
 sketches, FS-COCO. With practical applications in mind, we collect sketches

@@ -8,7 +8,7 @@ citations: 0
 bibkey: razavian2014visual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1412.6574'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications']
 ---
 This paper provides an extensive study on the availability of image
 representations based on convolutional networks (ConvNets) for the task of

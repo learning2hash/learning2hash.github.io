@@ -8,7 +8,7 @@ citations: 4
 bibkey: zhang2020deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.00944'}
-tags: ['Deep', 'Model Design', 'Unsupervised', 'Efficiency', 'Unimodal', 'Evaluation', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies']
 ---
 Recommendation efficiency and data sparsity problems have been regarded as
 two challenges of improving performance for online recommendation. Most of the

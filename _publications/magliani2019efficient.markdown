@@ -8,7 +8,7 @@ citations: 6
 bibkey: magliani2019efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.08668'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 The application of the diffusion in many computer vision and artificial
 intelligence projects has been shown to give excellent improvements in

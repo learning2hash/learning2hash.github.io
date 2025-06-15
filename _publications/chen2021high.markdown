@@ -8,7 +8,7 @@ citations: 0
 bibkey: chen2021high
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2102.10939'}
-tags: ['Unsupervised', 'Unimodal', 'Deep', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In this paper, we theoretically propose a new hashing scheme to establish the
 sparse Fourier transform in high-dimensional space. The estimation of the

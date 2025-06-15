@@ -8,7 +8,7 @@ citations: 41
 bibkey: hu2018from
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1802.02733'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Compression', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Benchmarks and Datasets', 'Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Deep convolutional neural networks (CNNs) have shown appealing performance on
 various computer vision tasks in recent years. This motivates people to deploy

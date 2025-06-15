@@ -8,7 +8,7 @@ citations: 0
 bibkey: mitzenmacher2015more
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1503.00658'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 With double hashing, for a key \\(x\\), one generates two hash values \\(f(x)\\) and
 \\(g(x)\\), and then uses combinations \\((f(x) +i g(x)) \bmod n\\) for \\(i=0,1,2,...\\)

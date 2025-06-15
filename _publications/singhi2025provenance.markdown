@@ -8,7 +8,7 @@ citations: 0
 bibkey: singhi2025provenance
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.11195'}
-tags: ['Cross-Modal', 'Deep', 'Compression', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Hashing Methods', 'Tools and Libraries']
 ---
 As AI-generated sensitive images become more prevalent, identifying their
 source is crucial for distinguishing them from real images. Conventional image

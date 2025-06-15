@@ -8,7 +8,7 @@ citations: 1
 bibkey: chen2019revisiting
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.08762'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Dynamic load balancing lies at the heart of distributed caching. Here, the
 goal is to assign objects (load) to servers (computing nodes) in a way that

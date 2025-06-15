@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhong2015deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1507.04437'}
-tags: ['Deep', 'Quantisation', 'Unimodal', 'Deep Hashing', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization', 'Deep Hashing']
 ---
 Hashing-based methods seek compact and efficient binary codes that preserve
 the neighborhood structure in the original data space. For most existing

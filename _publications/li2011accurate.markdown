@@ -8,7 +8,7 @@ citations: 5
 bibkey: li2011accurate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1108.0895'}
-tags: ['Deep', 'Unsupervised', 'Unimodal', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Minwise hashing is the standard technique in the context of search and
 databases for efficiently estimating set (e.g., high-dimensional 0/1 vector)

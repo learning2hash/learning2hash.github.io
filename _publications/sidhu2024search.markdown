@@ -8,7 +8,7 @@ citations: 0
 bibkey: sidhu2024search
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2409.18733'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 In this paper, we introduce SearchDet, a training-free long-tail object
 detection framework that significantly enhances open-vocabulary object

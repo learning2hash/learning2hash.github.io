@@ -8,7 +8,7 @@ citations: 3
 bibkey: botelho2007perfect
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0702159'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Perfect hash functions can potentially be used to compress data in connection
 with a variety of data management tasks. Though there has been considerable

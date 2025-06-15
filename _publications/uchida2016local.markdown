@@ -8,7 +8,7 @@ citations: 10
 bibkey: uchida2016local
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1607.08368'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Surveys and Reviews', 'Survey Paper', 'Applications']
+tags: ['Survey Paper', 'Survey', 'Tools and Libraries', 'Applications']
 ---
 With the advances in both stable interest region detectors and robust and
 distinctive descriptors, local feature-based image or object retrieval has

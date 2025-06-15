@@ -8,7 +8,7 @@ citations: 0
 bibkey: cong2023learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.00590'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Retrieval Models', 'Evaluation', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 Learning similarity between scene graphs and images aims to estimate a
 similarity score given a scene graph and an image. There is currently no

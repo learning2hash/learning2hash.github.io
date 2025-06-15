@@ -8,7 +8,7 @@ citations: 1
 bibkey: schall2019deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1909.09427'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Training Strategy', 'Similarity Learning']
+tags: ['Approximate Nearest Neighbor Search']
 ---
 In recent years, deep metric learning has achieved promising results in
 learning high dimensional semantic feature embeddings where the spatial

@@ -8,7 +8,7 @@ citations: 66
 bibkey: liu2019query
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.08623'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Vector Indexing', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Efficient Learning', 'Quantization and Compression', 'ANN Search', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization', 'Indexing and Efficiency']
 ---
 Hash based nearest neighbor search has become attractive in many
 applications. However, the quantization in hashing usually degenerates the

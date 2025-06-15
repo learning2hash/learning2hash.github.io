@@ -8,7 +8,7 @@ citations: 0
 bibkey: wei2022hyperbolic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2212.08904'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Hierarchical semantic structures, naturally existing in real-world datasets,
 can assist in capturing the latent distribution of data to learn robust hash

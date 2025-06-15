@@ -8,7 +8,7 @@ citations: 31
 bibkey: driemel2017locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.04040'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We study data structures for storing a set of polygonal curves in \\(\{\rm R\}^d\\)
 such that, given a query curve, we can efficiently retrieve similar curves from

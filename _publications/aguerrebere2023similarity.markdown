@@ -8,7 +8,7 @@ citations: 12
 bibkey: aguerrebere2023similarity
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.04759'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Compression', 'Quantization', 'Applications']
+tags: ['Quantization', 'Quantization and Compression', 'Applications', 'Approximate Nearest Neighbor Search']
 ---
 Nowadays, data is represented by vectors. Retrieving those vectors, among
 millions and billions, that are similar to a given query is a ubiquitous

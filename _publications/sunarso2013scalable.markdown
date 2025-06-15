@@ -8,7 +8,7 @@ citations: 2
 bibkey: sunarso2013scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1310.0883'}
-tags: ['Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Metagenomics is the study of environments through genetic sampling of their
 microbiota. Metagenomic studies produce large datasets that are estimated to

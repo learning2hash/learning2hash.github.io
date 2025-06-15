@@ -8,7 +8,7 @@ citations: 1
 bibkey: su2023beyond
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2311.18213'}
-tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Indexing', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 Two-tower models are a prevalent matching framework for recommendation, which
 have been widely deployed in industrial applications. The success of two-tower

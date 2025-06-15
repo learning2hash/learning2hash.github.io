@@ -8,7 +8,7 @@ citations: 3
 bibkey: kúdela2018extracting
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1804.10413'}
-tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Most of the current methods for mining parallel texts from the web assume
 that web pages of web sites share same structure across languages. We believe

@@ -8,7 +8,7 @@ citations: 0
 bibkey: lehmann2023sliding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.09283'}
-tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 We present \{\bf Sli\}ding Blo\{\bf ck\} Hashing (Slick), a simple hash table
 data structure that combines high performance with very good space efficiency.

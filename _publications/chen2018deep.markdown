@@ -8,7 +8,7 @@ citations: 4
 bibkey: chen2018deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1806.00974'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Deep embedding learning becomes more attractive for discriminative feature
 learning, but many methods still require hard-class mining, which is

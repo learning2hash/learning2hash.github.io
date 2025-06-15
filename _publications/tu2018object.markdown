@@ -8,7 +8,7 @@ citations: 6
 bibkey: tu2018object
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1811.09822'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Recently, similarity-preserving hashing methods have been extensively studied
 for large-scale image retrieval. Compared with unsupervised hashing, supervised

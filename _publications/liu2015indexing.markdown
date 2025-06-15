@@ -8,7 +8,7 @@ citations: 15
 bibkey: liu2015indexing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1508.00217'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 The convolutional neural network (CNN) features can give a good description
 of image content, which usually represent images with unique global vectors.

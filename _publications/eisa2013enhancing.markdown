@@ -8,7 +8,7 @@ citations: 2
 bibkey: eisa2013enhancing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1301.2542'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 In this paper, anew algorithm which is based on geometrical moments and local
 binary patterns (LBP) for content based image retrieval (CBIR) is proposed. In

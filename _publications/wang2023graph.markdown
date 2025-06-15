@@ -8,7 +8,7 @@ citations: 54
 bibkey: wang2023graph
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2301.02484'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Quantisation', 'Training Strategy', 'Hashing', 'Compression', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 Unsupervised hashing methods have attracted widespread attention with the
 explosive growth of large-scale data, which can greatly reduce storage and

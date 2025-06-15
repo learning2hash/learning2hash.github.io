@@ -8,7 +8,7 @@ citations: 10
 bibkey: eghbali2016fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1610.00574'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 Given a large dataset of binary codes and a binary query point, we address
 how to efficiently find \\(K\\) codes in the dataset that yield the largest cosine

@@ -8,7 +8,7 @@ citations: 0
 bibkey: masson2024constant
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2402.17549'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 Consistent range-hashing is a technique used in distributed systems, either
 directly or as a subroutine for consistent hashing, commonly to realize an even

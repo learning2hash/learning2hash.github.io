@@ -8,7 +8,7 @@ citations: 0
 bibkey: feng2023fine
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.02214'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Sketch-based image retrieval, which aims to use sketches as queries to
 retrieve images containing the same query instance, receives increasing

@@ -8,7 +8,7 @@ citations: 0
 bibkey: rustamov2025scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2502.20293'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Instance selection (IS) is important in machine learning for reducing dataset
 size while keeping key characteristics. Current IS methods often struggle with

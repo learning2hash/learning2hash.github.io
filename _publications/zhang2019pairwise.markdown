@@ -8,7 +8,7 @@ citations: 5
 bibkey: zhang2019pairwise
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.00643'}
-tags: ['Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Supervised', 'Similarity Learning', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Hashing method maps similar high-dimensional data to binary hashcodes with
 smaller hamming distance, and it has received broad attention due to its low

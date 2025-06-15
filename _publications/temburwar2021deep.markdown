@@ -8,7 +8,7 @@ citations: 2
 bibkey: temburwar2021deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2107.03648'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Evaluation Metrics', 'Hashing for Real-World Applications', 'Applications']
 ---
 Content-based image retrieval (CBIR) systems on pixel domain use low-level
 features, such as colour, texture and shape, to retrieve images. In this

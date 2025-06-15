@@ -9,7 +9,7 @@ bibkey: gupta2022medical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.02401'}
   - {name: "Code", url: 'https://github.com/deepaknlp/DLS'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Has Code', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Has Code']
 ---
 Nearest neighbor search (NNS) aims to locate the points in high-dimensional
 space that is closest to the query point. The brute-force approach for finding

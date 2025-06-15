@@ -8,7 +8,7 @@ citations: 49
 bibkey: bhunia2018novel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1801.00879'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 In this paper, we have proposed a novel feature descriptors combining color
 and texture information collectively. In our proposed color descriptor

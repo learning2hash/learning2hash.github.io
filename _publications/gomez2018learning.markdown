@@ -8,7 +8,7 @@ citations: 13
 bibkey: gomez2018learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1808.06368'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 In this paper we propose to learn a multimodal image and text embedding from
 Web and Social Media data, aiming to leverage the semantic knowledge learnt in

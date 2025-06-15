@@ -8,7 +8,7 @@ citations: 1
 bibkey: rafiei2023class
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.11734'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Applications']
 ---
 Using a discriminative representation obtained by supervised deep learning
 methods showed promising results on diverse Content-Based Image Retrieval

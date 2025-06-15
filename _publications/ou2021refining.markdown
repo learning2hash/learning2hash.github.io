@@ -8,7 +8,7 @@ citations: 1
 bibkey: ou2021refining
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.02867'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Existing unsupervised document hashing methods are mostly established on
 generative models. Due to the difficulties of capturing long dependency

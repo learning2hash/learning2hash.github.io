@@ -9,7 +9,7 @@ bibkey: wang2024weakly
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2404.04998'}
   - {name: "Code", url: 'https://github.com/gimpong/AAAI21-WSDHQ'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Conferences', 'Has Code', 'Quantization', 'Applications']
+tags: ['Loss Functions', 'Applications', 'AAAI', 'Quantization and Compression', 'Quantization', 'Has Code']
 ---
 Deep quantization methods have shown high efficiency on large-scale image
 retrieval. However, current models heavily rely on ground-truth information,

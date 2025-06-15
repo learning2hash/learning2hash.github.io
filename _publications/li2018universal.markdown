@@ -8,7 +8,7 @@ citations: 0
 bibkey: li2018universal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1808.02312'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 In this work we aim to develop a universal sketch grouper. That is, a grouper
 that can be applied to sketches of any category in any domain to group

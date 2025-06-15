@@ -8,7 +8,7 @@ citations: 36
 bibkey: knuth1998linear
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/9801103'}
-tags: ['Cross-Modal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Mallows and Riordan showed in 1968 that labeled trees with a small number of
 inversions are related to labeled graphs that are connected and sparse. Wright

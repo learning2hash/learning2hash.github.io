@@ -8,7 +8,7 @@ citations: 197
 bibkey: wu2018cycle
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1804.11013'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In this paper, we propose a novel deep generative approach to cross-modal
 retrieval to learn hash functions in the absence of paired training samples

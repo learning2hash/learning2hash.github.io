@@ -8,7 +8,7 @@ citations: 2
 bibkey: shi2019higher
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.11261'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Compression', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Sketching is a randomized dimensionality-reduction method that aims to
 preserve relevant information in large-scale datasets. Count sketch is a simple

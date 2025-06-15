@@ -8,7 +8,7 @@ citations: 0
 bibkey: duan2025enhancing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.17415'}
-tags: ['Model Design', 'Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'Approximate Nearest Neighbor Search']
 ---
 The rapid growth of video content demands efficient and precise retrieval
 systems. While vision-language models (VLMs) excel in representation learning,

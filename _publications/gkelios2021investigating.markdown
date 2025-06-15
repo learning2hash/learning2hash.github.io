@@ -8,7 +8,7 @@ citations: 23
 bibkey: gkelios2021investigating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2101.03771'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 This paper introduces a plug-and-play descriptor that can be effectively
 adopted for image retrieval tasks without prior initialization or preparation.

@@ -8,7 +8,7 @@ citations: 11
 bibkey: pibiri2022locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.13097'}
-tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Minimal perfect hashing is the problem of mapping a static set of \\(n\\)
 distinct keys into the address space \\(\\{1,\ldots,n\\}\\) bijectively. It is

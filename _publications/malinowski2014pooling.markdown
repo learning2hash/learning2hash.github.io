@@ -8,7 +8,7 @@ citations: 28
 bibkey: malinowski2014pooling
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1411.5190'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 Over the last two decades we have witnessed strong progress on modeling
 visual object classes, scenes and attributes that have significantly

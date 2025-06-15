@@ -8,7 +8,7 @@ citations: 27
 bibkey: zhan2021learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2110.05789'}
-tags: ['Model Design', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Unimodal', 'Shallow', 'Training Strategy', 'Compression', 'Vector Indexing', 'Quantization']
+tags: ['Evaluation Metrics', 'Quantization', 'Quantization and Compression', 'Approximate Nearest Neighbor Search']
 ---
 Dense Retrieval (DR) has achieved state-of-the-art first-stage ranking
 effectiveness. However, the efficiency of most existing DR models is limited by

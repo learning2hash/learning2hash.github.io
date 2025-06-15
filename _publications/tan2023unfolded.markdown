@@ -8,7 +8,7 @@ citations: 1
 bibkey: tan2023unfolded
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.02350'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Privacy and Security', 'RecSys', 'ANN Search', 'Hashing Fundamentals']
 ---
 Approximate nearest neighbour (ANN) search is an essential component of
 search engines, recommendation systems, etc. Many recent works focus on

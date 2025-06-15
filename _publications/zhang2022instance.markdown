@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhang2022instance
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2208.06119'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 Quality feature representation is key to instance image retrieval. To attain
 it, existing methods usually resort to a deep model pre-trained on benchmark

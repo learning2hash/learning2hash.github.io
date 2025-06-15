@@ -8,7 +8,7 @@ citations: 17
 bibkey: liu2015projection
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.04916'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Recently, very high-dimensional feature representations, e.g., Fisher Vector,
 have achieved excellent performance for visual recognition and retrieval.

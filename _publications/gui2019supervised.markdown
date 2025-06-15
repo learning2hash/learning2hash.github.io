@@ -8,7 +8,7 @@ citations: 70
 bibkey: gui2019supervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.03549'}
-tags: ['Deep', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Data-dependent hashing has recently attracted attention due to being able to
 support efficient retrieval and storage of high-dimensional data such as

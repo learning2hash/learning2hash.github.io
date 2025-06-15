@@ -8,7 +8,7 @@ citations: 0
 bibkey: emanuilov2025billion
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2501.13442'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing']
+tags: ['Indexing', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 This paper presents a novel approach for similarity search with complex
 filtering capabilities on billion-scale datasets, optimized for CPU inference.

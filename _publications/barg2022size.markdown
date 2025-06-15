@@ -8,7 +8,7 @@ citations: 0
 bibkey: barg2022size
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.07496'}
-tags: ['Cross-Modal', 'Shallow', 'Hashing', 'Quantisation']
+tags: ['Uncategorized']
 ---
 We address the maximum size of binary codes and binary constant weight codes
 with few distances. Previous works established a number of bounds for these

@@ -8,7 +8,7 @@ citations: 0
 bibkey: tang2025online
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.01309'}
-tags: ['Independent', 'Efficiency', 'Benchmarks and Tools', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals']
 ---
 Online zero-shot 3D instance segmentation of a progressively reconstructed
 scene is both a critical and challenging task for embodied applications. With

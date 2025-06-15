@@ -8,7 +8,7 @@ citations: 3
 bibkey: pansare2022learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2203.10135'}
-tags: ['Cross-Modal', 'Deep', 'Compression', 'Datasets', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 In deep learning, embeddings are widely used to represent categorical
 entities such as words, apps, and movies. An embedding layer maps each entity

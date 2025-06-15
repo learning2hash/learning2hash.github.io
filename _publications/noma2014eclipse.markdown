@@ -8,7 +8,7 @@ citations: 0
 bibkey: noma2014eclipse
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1406.3882'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals']
 ---
 The similarity searches that use high-dimensional feature vectors consisting
 of a vast amount of data have a wide range of application. One way of

@@ -8,7 +8,7 @@ citations: 3
 bibkey: liguori2016vector
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.09037'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Compression', 'Quantization']
+tags: ['Quantization', 'Quantization and Compression']
 ---
 This paper shows how to reduce the computational cost for a variety of common
 machine vision tasks by operating directly in the compressed domain,

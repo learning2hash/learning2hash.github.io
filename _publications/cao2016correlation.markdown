@@ -8,7 +8,7 @@ citations: 32
 bibkey: cao2016correlation
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1602.06697'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Vector Indexing', 'Quantization', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Quantization and Compression', 'ANN Search', 'Hashing Fundamentals', 'Quantization', 'Deep Hashing', 'Multi-Modal Hashing']
 ---
 Hashing is widely applied to approximate nearest neighbor search for
 large-scale multimodal retrieval with storage and computation efficiency.

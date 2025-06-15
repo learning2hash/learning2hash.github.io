@@ -8,7 +8,7 @@ citations: 2
 bibkey: laarhoven2017hypercube
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1702.05760'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 A celebrated technique for finding near neighbors for the angular distance
 involves using a set of \textit\{random\} hyperplanes to partition the space into

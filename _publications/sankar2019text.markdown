@@ -8,7 +8,7 @@ citations: 0
 bibkey: sankar2019text
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.05763'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Recently, there has been a strong interest in developing natural language
 applications that live on personal devices such as mobile phones, watches and

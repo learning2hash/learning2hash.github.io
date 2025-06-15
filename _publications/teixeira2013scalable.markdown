@@ -8,7 +8,7 @@ citations: 4
 bibkey: teixeira2013scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1310.4136'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Indexing', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Similarity search is critical for many database applications, including the
 increasingly popular online services for Content-Based Multimedia Retrieval

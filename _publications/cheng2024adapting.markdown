@@ -8,7 +8,7 @@ citations: 0
 bibkey: cheng2024adapting
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2405.03190'}
-tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Evaluation', 'Shallow', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 In the recent years, the dual-encoder vision-language models (\eg CLIP) have
 achieved remarkable text-to-image retrieval performance. However, we discover

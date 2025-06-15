@@ -8,7 +8,7 @@ citations: 0
 bibkey: weng2021online
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2108.02560'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 Online hashing methods usually learn the hash functions online, aiming to
 efficiently adapt to the data variations in the streaming environment. However,

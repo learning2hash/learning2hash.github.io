@@ -8,7 +8,7 @@ citations: 1
 bibkey: dhar2022linear
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2204.01665'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 We show that a randomly chosen linear map over a finite field gives a good
 hash function in the \\(\ell_\infty\\) sense. More concretely, consider a set \\(S

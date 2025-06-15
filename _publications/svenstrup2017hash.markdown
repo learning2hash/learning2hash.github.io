@@ -8,7 +8,7 @@ citations: 29
 bibkey: svenstrup2017hash
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1709.03933'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We present hash embeddings, an efficient method for representing words in a
 continuous vector form. A hash embedding may be seen as an interpolation

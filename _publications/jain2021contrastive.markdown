@@ -8,7 +8,7 @@ citations: 1
 bibkey: jain2021contrastive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2110.08872'}
-tags: ['Deep', 'Retrieval Models', 'Unimodal', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Loss Functions', 'Applications']
 ---
 Contrastive learning is a powerful technique to learn representations that
 are semantically distinctive and geometrically invariant. While most of the

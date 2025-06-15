@@ -8,7 +8,7 @@ citations: 0
 bibkey: agrell2023glued
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2312.00481'}
-tags: ['Unimodal', 'Quantization', 'Shallow', 'Quantisation']
+tags: ['Quantization', 'Quantization and Compression']
 ---
 40 years ago, Conway and Sloane proposed using the highly symmetrical
 Coxeter-Todd lattice \\(K_\{12\}\\) for quantization, and estimated its second

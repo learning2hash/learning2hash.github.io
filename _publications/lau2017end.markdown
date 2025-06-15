@@ -8,7 +8,7 @@ citations: 7
 bibkey: lau2017end
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1710.04802'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 We propose an end-to-end neural network to predict the geolocation of a
 tweet. The network takes as input a number of raw Twitter metadata such as the

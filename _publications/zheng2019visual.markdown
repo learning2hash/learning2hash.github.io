@@ -8,7 +8,7 @@ citations: 0
 bibkey: zheng2019visual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.07381'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 While there has been substantial progress in learning suitable distance
 metrics, these techniques in general lack transparency and decision reasoning,

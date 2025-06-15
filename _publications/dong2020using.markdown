@@ -8,7 +8,7 @@ citations: 4
 bibkey: dong2020using
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.09928'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Multi-Modal Hashing', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Image retrieval relies heavily on the quality of the data modeling and the
 distance measurement in the feature space. Building on the concept of image

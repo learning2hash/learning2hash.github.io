@@ -8,7 +8,7 @@ citations: 3
 bibkey: liu2019mutual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.00744'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Label information is widely used in hashing methods because of its
 effectiveness of improving the precision. The existing hashing methods always

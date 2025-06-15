@@ -8,7 +8,7 @@ citations: 3
 bibkey: fu2016auto
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1602.08127'}
-tags: ['Model Design', 'Retrieval Models', 'Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 Binary codes can be used to speed up nearest neighbor search tasks in large
 scale data sets as they are efficient for both storage and retrieval. In this

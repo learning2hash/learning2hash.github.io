@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhornyak2022autoencoding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2211.15894'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Model Design', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We present HashEncoding, a novel autoencoding architecture that leverages a
 non-parametric multiscale coordinate hash function to facilitate a per-pixel

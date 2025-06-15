@@ -8,7 +8,7 @@ citations: 0
 bibkey: ablayev2024quantum
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.11422'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In this work, we present a quantum query algorithm for searching a word of
 length \\(m\\) in an unsorted dictionary of size \\(n\\). The algorithm uses

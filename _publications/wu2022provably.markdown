@@ -8,7 +8,7 @@ citations: 3
 bibkey: wu2022provably
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2206.11225'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Evaluation', 'Shallow', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 Recent research works have shown that image retrieval models are vulnerable
 to adversarial attacks, where slightly modified test inputs could lead to

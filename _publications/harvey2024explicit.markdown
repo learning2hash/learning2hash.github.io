@@ -8,7 +8,7 @@ citations: 0
 bibkey: harvey2024explicit
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2405.08787'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Orthogonal arrays are a type of combinatorial design that were developed in
 the 1940s in the design of statistical experiments. In 1947, Rao proved a lower

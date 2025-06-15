@@ -8,7 +8,7 @@ citations: 1
 bibkey: mccauley2018adaptive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1804.05615'}
-tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 Similarity joins are a fundamental database operation. Given data sets S and
 R, the goal of a similarity join is to find all points x in S and y in R with

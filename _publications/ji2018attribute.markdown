@@ -8,7 +8,7 @@ citations: 70
 bibkey: ji2018attribute
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1802.01943'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Zero-Shot Hashing aims at learning a hashing model that is trained only by
 instances from seen categories but can generate well to those of unseen

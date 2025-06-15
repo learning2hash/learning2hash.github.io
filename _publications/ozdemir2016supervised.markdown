@@ -8,7 +8,7 @@ citations: 1
 bibkey: ozdemir2016supervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.07342'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'ANN Search']
 ---
 We propose an incremental strategy for learning hash functions with kernels
 for large-scale image search. Our method is based on a two-stage classification

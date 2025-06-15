@@ -8,7 +8,7 @@ citations: 4
 bibkey: chen2022locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2206.03097'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 Many bioinformatics applications involve bucketing a set of sequences where
 each sequence is allowed to be assigned into multiple buckets. To achieve both

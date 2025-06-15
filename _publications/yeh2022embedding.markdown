@@ -8,7 +8,7 @@ citations: 11
 bibkey: yeh2022embedding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2208.05648'}
-tags: ['Model Design', 'Unimodal', 'Shallow', 'Compression', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Hashing Methods']
 ---
 Graph neural networks (GNNs) are deep learning models designed specifically
 for graph data, and they typically rely on node features as the input to the

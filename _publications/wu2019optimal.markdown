@@ -8,7 +8,7 @@ citations: 30
 bibkey: wu2019optimal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1910.04334'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Evaluation Metrics']
 ---
 Recently, some infinite families of binary minimal and optimal linear codes
 are constructed from simplicial complexes by Hyun \{\em et al\}. Inspired by

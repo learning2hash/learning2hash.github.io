@@ -8,7 +8,7 @@ citations: 0
 bibkey: rychalska2020i
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2006.09979'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Recently, the Efficient Manifold Density Estimator (EMDE) model has been
 introduced. The model exploits Local Sensitive Hashing and Count-Min Sketch

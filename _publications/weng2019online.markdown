@@ -8,7 +8,7 @@ citations: 10
 bibkey: weng2019online
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.12125'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Online hashing methods are efficient in learning the hash functions from the
 streaming data. However, when the hash functions change, the binary codes for

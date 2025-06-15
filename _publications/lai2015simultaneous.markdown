@@ -8,7 +8,7 @@ citations: 587
 bibkey: lai2015simultaneous
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1504.03410'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization']
 ---
 Similarity-preserving hashing is a widely-used method for nearest neighbour
 search in large-scale image retrieval tasks. For most existing hashing methods,

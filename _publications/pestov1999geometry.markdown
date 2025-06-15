@@ -8,7 +8,7 @@ citations: 66
 bibkey: pestov1999geometry
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/9901004'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets']
+tags: ['Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 We suggest that the curse of dimensionality affecting the similarity-based
 search in large datasets is a manifestation of the phenomenon of concentration

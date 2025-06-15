@@ -8,7 +8,7 @@ citations: 6
 bibkey: amato2016aggregating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1608.00813'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications']
 ---
 Content-Based Image Retrieval based on local features is computationally
 expensive because of the complexity of both extraction and matching of local

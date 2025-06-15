@@ -8,7 +8,7 @@ citations: 0
 bibkey: kapralov2024adversarial
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2402.09707'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Locality-sensitive hashing~[Indyk,Motwani'98] is a classical data structure
 for approximate nearest neighbor search. It allows, after a close to linear

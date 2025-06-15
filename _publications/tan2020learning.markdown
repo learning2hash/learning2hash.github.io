@@ -8,7 +8,7 @@ citations: 64
 bibkey: tan2020learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2003.01917'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'RecSys', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Deep Hashing', 'Graph and Transformer Models']
 ---
 Graph representation learning has attracted much attention in supporting high
 quality candidate search at scale. Despite its effectiveness in learning

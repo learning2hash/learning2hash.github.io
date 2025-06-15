@@ -8,7 +8,7 @@ citations: 13
 bibkey: tizhoosh2016barcodes
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.05112'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Using content-based binary codes to tag digital images has emerged as a
 promising retrieval technology. Recently, Radon barcodes (RBCs) have been

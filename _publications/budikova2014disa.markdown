@@ -8,7 +8,7 @@ citations: 5
 bibkey: budikova2014disa
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1409.4627'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing']
+tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 This paper constitutes an extension to the report on DISA-MU team
 participation in the ImageCLEF 2014 Scalable Concept Image Annotation Task as

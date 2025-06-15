@@ -8,7 +8,7 @@ citations: 13
 bibkey: wei2023attribute
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2311.12894'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Our work focuses on tackling large-scale fine-grained image retrieval as
 ranking the images depicting the concept of interests (i.e., the same

@@ -8,7 +8,7 @@ citations: 0
 bibkey: dong2016image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1607.00464'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 This paper proposes a classification network to image semantic retrieval
 (NIST) framework to counter the image retrieval challenge. Our approach

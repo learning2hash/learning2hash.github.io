@@ -8,7 +8,7 @@ citations: 42
 bibkey: harandi2014expanding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1407.1123'}
-tags: ['Cross-Modal', 'Shallow', 'Vector Indexing', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 Modeling videos and image-sets as linear subspaces has proven beneficial for
 many visual recognition tasks. However, it also incurs challenges arising from

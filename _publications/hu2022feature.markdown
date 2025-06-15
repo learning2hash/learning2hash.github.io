@@ -9,7 +9,7 @@ bibkey: hu2022feature
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.09721'}
   - {name: "Code", url: 'https://github.com/conghuihu/UCDIR'}
-tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications', 'ANN Search']
 ---
 Current supervised cross-domain image retrieval methods can achieve excellent
 performance. However, the cost of data collection and labeling imposes an

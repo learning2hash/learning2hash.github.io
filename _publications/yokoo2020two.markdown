@@ -9,7 +9,7 @@ bibkey: yokoo2020two
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2003.11211'}
   - {name: "Code", url: 'https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Has Code', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications', 'ANN Search']
 ---
 We propose an efficient pipeline for large-scale landmark image retrieval
 that addresses the diversity of the dataset through two-stage discriminative

@@ -8,7 +8,7 @@ citations: 240
 bibkey: yang2015supervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1507.00101'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 This paper presents a simple yet effective supervised deep hash approach that
 constructs binary hash codes from labeled data for large-scale image search. We

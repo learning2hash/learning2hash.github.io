@@ -8,7 +8,7 @@ citations: 5
 bibkey: dellafiore2020improved
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2012.00620'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 For fixed integers \\(b\geq k\\), a problem of relevant interest in computer
 science and combinatorics is that of determining the asymptotic growth, with

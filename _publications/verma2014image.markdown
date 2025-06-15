@@ -8,7 +8,7 @@ citations: 1
 bibkey: verma2014image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1409.0749'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Content Based Image Retrieval(CBIR) is one of the important subfield in the
 field of Information Retrieval. The goal of a CBIR algorithm is to retrieve

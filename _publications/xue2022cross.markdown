@@ -8,7 +8,7 @@ citations: 5
 bibkey: xue2022cross
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.07572'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Efficient Learning', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Deep hashing has been widely applied to large-scale image retrieval tasks
 owing to efficient computation and low storage cost by encoding

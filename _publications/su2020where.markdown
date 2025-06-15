@@ -8,7 +8,7 @@ citations: 26
 bibkey: su2020where
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2010.13357'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 Fashion products typically feature in compositions of a variety of styles at
 different clothing parts. In order to distinguish images of different fashion

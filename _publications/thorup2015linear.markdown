@@ -8,7 +8,7 @@ citations: 0
 bibkey: thorup2015linear
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.04549'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Supervision Types', 'Hashing Methods', 'Supervision Type']
 ---
 These lecture notes show that linear probing takes expected constant time if
 the hash function is 5-independent. This result was first proved by Pagh et al.

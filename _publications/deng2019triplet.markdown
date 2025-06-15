@@ -8,7 +8,7 @@ citations: 333
 bibkey: deng2019triplet
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.02449'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Modality-Specific Hashing', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing', 'Multi-Modal Hashing']
 ---
 Given the benefits of its low storage requirements and high retrieval
 efficiency, hashing has recently received increasing attention. In

@@ -8,7 +8,7 @@ citations: 1
 bibkey: steorts2018probabilistic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1810.05497'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
+tags: ['Hashing Fundamentals', 'Survey Paper', 'Hashing Methods', 'Survey']
 ---
 Entity resolution seeks to merge databases as to remove duplicate entries
 where unique identifiers are typically unknown. We review modern blocking

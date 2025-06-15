@@ -8,7 +8,7 @@ citations: 4
 bibkey: jaiswal2022ood
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2211.12850'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Benchmarks and Tools', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Graph-Based Methods']
+tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Indexing and Efficiency']
 ---
 State-of-the-art algorithms for Approximate Nearest Neighbor Search (ANNS)
 such as DiskANN, FAISS-IVF, and HNSW build data dependent indices that offer

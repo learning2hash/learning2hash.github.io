@@ -8,7 +8,7 @@ citations: 15
 bibkey: talreja2019zero
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.02706'}
-tags: ['Cross-Modal', 'Deep', 'Deep Hashing', 'Supervised', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 In this paper, we present a novel architecture that integrates a deep hashing
 framework with a neural network decoder (NND) for application to face template

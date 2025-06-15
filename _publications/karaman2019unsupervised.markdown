@@ -8,7 +8,7 @@ citations: 10
 bibkey: karaman2019unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1903.01545'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Vector Indexing', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 We propose an unsupervised hashing method which aims to produce binary codes
 that preserve the ranking induced by a real-valued representation. Such compact

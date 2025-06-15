@@ -8,7 +8,7 @@ citations: 4
 bibkey: jose2020optimized
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2001.11400'}
-tags: ['Cross-Modal', 'Quantization', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
 ---
 In this paper we propose an approach for learning low dimensional optimized
 feature space with minimum intra-class variance and maximum inter-class

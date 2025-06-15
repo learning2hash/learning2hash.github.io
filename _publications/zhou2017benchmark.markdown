@@ -8,7 +8,7 @@ citations: 398
 bibkey: zhou2017benchmark
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1706.03424'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Surveys and Reviews', 'Supervised', 'Training Strategy', 'Survey Paper', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Survey', 'Tools and Libraries', 'Benchmarks and Datasets', 'Survey Paper']
 ---
 Remote sensing image retrieval(RSIR), which aims to efficiently retrieve data
 of interest from large collections of remote sensing data, is a fundamental

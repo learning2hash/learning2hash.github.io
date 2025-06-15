@@ -8,7 +8,7 @@ citations: 27
 bibkey: iscen2017fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.06935'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 Despite the success of deep learning on representing images for particular
 object retrieval, recent studies show that the learned representations still

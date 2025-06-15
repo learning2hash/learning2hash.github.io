@@ -8,7 +8,7 @@ citations: 1
 bibkey: lillis2017hierarchical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1712.04544'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Bytewise approximate matching algorithms have in recent years shown
 significant promise in de- tecting files that are similar at the byte level.

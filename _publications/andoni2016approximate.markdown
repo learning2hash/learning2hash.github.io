@@ -8,7 +8,7 @@ citations: 12
 bibkey: andoni2016approximate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.06222'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing']
+tags: ['ANN Search', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 We show that every symmetric normed space admits an efficient nearest
 neighbor search data structure with doubly-logarithmic approximation.

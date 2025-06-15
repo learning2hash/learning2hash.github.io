@@ -8,7 +8,7 @@ citations: 2
 bibkey: assadi2022tight
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.10556'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing', 'ANN Search']
 ---
 The monotone minimal perfect hash function (MMPHF) problem is the following
 indexing problem. Given a set \\(S= \\{s_1,\ldots,s_n\\}\\) of \\(n\\) distinct keys from

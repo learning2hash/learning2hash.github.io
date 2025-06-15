@@ -8,7 +8,7 @@ citations: 1
 bibkey: christiani2018confirmation
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1812.02603'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Locality-sensitive hashing (LSH), introduced by Indyk and Motwani in STOC
 '98, has been an extremely influential framework for nearest neighbor search in

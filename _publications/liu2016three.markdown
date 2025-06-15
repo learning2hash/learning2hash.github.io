@@ -8,7 +8,7 @@ citations: 1
 bibkey: liu2016three
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.07599'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Single feature is inefficient to describe content of an image, which is a
 shortcoming in traditional image retrieval task. We know that one image can be

@@ -8,7 +8,7 @@ citations: 11
 bibkey: raziperchikolaei2015optimizing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1501.05352'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 In supervised binary hashing, one wants to learn a function that maps a
 high-dimensional feature vector to a vector of binary codes, for application to

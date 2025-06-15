@@ -8,7 +8,7 @@ citations: 0
 bibkey: wei2024snap
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2408.14723'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Plant disease recognition is a critical task that ensures crop health and
 mitigates the damage caused by diseases. A handy tool that enables farmers to

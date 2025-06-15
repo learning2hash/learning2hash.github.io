@@ -8,7 +8,7 @@ citations: 1
 bibkey: barz2017automatic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1711.00953'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Hashing for Real-World Applications', 'Applications']
 ---
 Query images presented to content-based image retrieval systems often have
 various different interpretations, making it difficult to identify the search

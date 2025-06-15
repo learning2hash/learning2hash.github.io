@@ -8,7 +8,7 @@ citations: 7
 bibkey: ahle2017optimal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1704.02054'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We show that approximate similarity (near neighbour) search can be solved in
 high dimensions with performance matching state of the art (data independent)

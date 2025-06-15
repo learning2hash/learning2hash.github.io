@@ -8,7 +8,7 @@ citations: 2
 bibkey: chen2012greedy
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1205.0610'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'ANN Search']
 ---
 Multiple instance learning (MIL) has attracted great attention recently in
 machine learning community. However, most MIL algorithms are very slow and

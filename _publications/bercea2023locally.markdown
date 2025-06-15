@@ -8,7 +8,7 @@ citations: 3
 bibkey: bercea2023locally
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2308.14134'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Hashing is a common technique used in data processing, with a strong impact
 on the time and resources spent on computation. Hashing also affects the

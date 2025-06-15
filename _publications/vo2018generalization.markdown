@@ -8,7 +8,7 @@ citations: 13
 bibkey: vo2018generalization
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.03310'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 This work studies deep metric learning under small to medium scale data as we
 believe that better generalization could be a contributing factor to the

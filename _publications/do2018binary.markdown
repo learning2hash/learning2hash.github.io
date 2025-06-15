@@ -8,7 +8,7 @@ citations: 5
 bibkey: do2018binary
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1802.07437'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization', 'Deep Hashing']
 ---
 Learning compact binary codes for image retrieval task using deep neural
 networks has attracted increasing attention recently. However, training deep

@@ -9,7 +9,7 @@ bibkey: miao2024locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2402.12535'}
   - {name: "Code", url: 'https://github.com/Graph-COM/HEPT'}
-tags: ['Unimodal', 'Shallow', 'Has Code', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Has Code', 'Applications']
 ---
 This study introduces a novel transformer model optimized for large-scale
 point cloud processing in scientific domains such as high-energy physics (HEP)

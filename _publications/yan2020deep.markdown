@@ -8,7 +8,7 @@ citations: 353
 bibkey: yan2020deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.00169'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 Hashing is an efficient method for nearest neighbor search in large-scale
 data space by embedding high-dimensional feature descriptors into a similarity

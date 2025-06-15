@@ -8,7 +8,7 @@ citations: 7
 bibkey: wu2021online
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.04260'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications', 'Multi-Modal Hashing']
 ---
 With the vigorous development of multimedia equipment and applications,
 efficient retrieval of large-scale multi-modal data has become a trendy

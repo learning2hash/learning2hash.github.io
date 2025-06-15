@@ -8,7 +8,7 @@ citations: 68
 bibkey: xuan2018deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1808.04469'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 Learning embedding functions, which map semantically related inputs to nearby
 locations in a feature space supports a variety of classification and

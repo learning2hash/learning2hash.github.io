@@ -8,7 +8,7 @@ citations: 73
 bibkey: dai2017stochastic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1701.02815'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Learning-based binary hashing has become a powerful paradigm for fast search
 and retrieval in massive databases. However, due to the requirement of discrete

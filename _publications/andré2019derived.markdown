@@ -8,7 +8,7 @@ citations: 1
 bibkey: andré2019derived
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.06900'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Vector Indexing', 'Quantization']
+tags: ['Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'ANN Search', 'Quantization']
 ---
 High-dimensional Nearest Neighbor (NN) search is central in multimedia search
 systems. Product Quantization (PQ) is a widespread NN search technique which

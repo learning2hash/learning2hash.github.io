@@ -8,7 +8,7 @@ citations: 6
 bibkey: morgado2020deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.13912'}
-tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Deep Hashing']
 ---
 Image hash codes are produced by binarizing the embeddings of convolutional
 neural networks (CNN) trained for either classification or retrieval. While

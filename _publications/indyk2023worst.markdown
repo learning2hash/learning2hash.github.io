@@ -8,7 +8,7 @@ citations: 2
 bibkey: indyk2023worst
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.19126'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Graph-Based Methods']
+tags: ['ANN Search', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 Graph-based approaches to nearest neighbor search are popular and powerful
 tools for handling large datasets in practice, but they have limited

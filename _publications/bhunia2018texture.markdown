@@ -8,7 +8,7 @@ citations: 12
 bibkey: bhunia2018texture
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1811.01401'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 With the large-scale explosion of images and videos over the internet,
 efficient hashing methods have been developed to facilitate memory and time

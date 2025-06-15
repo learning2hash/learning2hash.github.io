@@ -8,7 +8,7 @@ citations: 1
 bibkey: jafari2022experimental
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2211.09093'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Indexing', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Finding similar data in high-dimensional spaces is one of the important tasks
 in multimedia applications. Approaches introduced to find exact searching

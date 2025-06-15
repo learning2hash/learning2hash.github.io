@@ -8,7 +8,7 @@ citations: 12
 bibkey: chakraborty2022r
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.00504'}
-tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 In this paper R-Theta Local Neighborhood Pattern (RTLNP) is proposed for
 facial image retrieval. RTLNP exploits relationships amongst the pixels in

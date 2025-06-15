@@ -8,7 +8,7 @@ citations: 9
 bibkey: feng2016deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1606.05381'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Hashing', 'Datasets', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies']
 ---
 In applications involving matching of image sets, the information from
 multiple images must be effectively exploited to represent each set.

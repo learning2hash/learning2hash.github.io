@@ -8,7 +8,7 @@ citations: 0
 bibkey: vaiwsri2021accurate
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2104.03018'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 The task of calculating similarities between strings held by different
 organizations without revealing these strings is an increasingly important

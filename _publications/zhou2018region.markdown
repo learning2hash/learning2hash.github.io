@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhou2018region
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1807.08634'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 Conventional remote sensing image retrieval (RSIR) systems usually perform
 single-label retrieval where each image is annotated by a single label

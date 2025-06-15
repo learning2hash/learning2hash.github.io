@@ -9,7 +9,7 @@ bibkey: le2020city
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2009.09255'}
   - {name: "Code", url: 'https://github.com/canhld94/Daejeon520'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Has Code', 'Applications']
 ---
 Visual place recognition is the task of recognizing a place depicted in an
 image based on its pure visual appearance without metadata. In visual place

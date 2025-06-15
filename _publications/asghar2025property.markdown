@@ -8,7 +8,7 @@ citations: 0
 bibkey: asghar2025property
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2504.16355'}
-tags: ['Cross-Modal', 'Unsupervised', 'Evaluation', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 Perceptual hashing is used to detect whether an input image is similar to a
 reference image with a variety of security applications. Recently, they have

@@ -8,7 +8,7 @@ citations: 10
 bibkey: hansen2019unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1906.00671'}
-tags: ['Independent', 'Model Design', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 Fast similarity search is a key component in large-scale information
 retrieval, where semantic hashing has become a popular strategy for

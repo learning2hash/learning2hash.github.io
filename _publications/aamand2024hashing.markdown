@@ -8,7 +8,7 @@ citations: 0
 bibkey: aamand2024hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2411.19394'}
-tags: ['Unsupervised', 'Cross-Modal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Hash-based sampling and estimation are common themes in computing. Using
 hashing for sampling gives us the coordination needed to compare samples from

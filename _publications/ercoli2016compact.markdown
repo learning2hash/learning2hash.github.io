@@ -8,7 +8,7 @@ citations: 36
 bibkey: ercoli2016compact
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1605.02892'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Hashing']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Approximate Nearest Neighbor Search', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 In this paper we present an efficient method for visual descriptors retrieval
 based on compact hash codes computed using a multiple k-means assignment. The

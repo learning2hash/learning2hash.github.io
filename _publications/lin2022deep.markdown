@@ -8,7 +8,7 @@ citations: 19
 bibkey: lin2022deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2203.09420'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Deep unsupervised hashing has been appreciated in the regime of image
 retrieval. However, most prior arts failed to detect the semantic components

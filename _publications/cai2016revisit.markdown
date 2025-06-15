@@ -8,7 +8,7 @@ citations: 23
 bibkey: cai2016revisit
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.07545'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'KDD', 'Approximate Nearest Neighbor Search', 'Indexing', 'ANN Search', 'Hashing Fundamentals']
 ---
 Approximate Nearest Neighbor Search (ANNS) is a fundamental problem in many
 areas of machine learning and data mining. During the past decade, numerous

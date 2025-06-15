@@ -8,7 +8,7 @@ citations: 0
 bibkey: oberst2024sliding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2409.20125'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 With hash tables being one of the most used data structures, Lehmann, Sanders
 and Walzer propose a novel, light-weight hash table, referred to as Slick Hash.

@@ -8,7 +8,7 @@ citations: 23
 bibkey: christiani2016set
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.07710'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 We consider the problem of approximate set similarity search under
 Braun-Blanquet similarity \\(B(\mathbf\{x\}, \mathbf\{y\}) = |\mathbf\{x\} \cap

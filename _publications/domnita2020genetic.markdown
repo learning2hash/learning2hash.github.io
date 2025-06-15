@@ -8,7 +8,7 @@ citations: 1
 bibkey: domnita2020genetic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.08311'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Indexing and Efficiency', 'Hashing Methods', 'Applications']
 ---
 The problem of fast items retrieval from a fixed collection is often
 encountered in most computer science areas, from operating system components to

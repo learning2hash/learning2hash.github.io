@@ -8,7 +8,7 @@ citations: 0
 bibkey: verma2025faster
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.06737'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Indexing', 'Tools and Libraries', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 This work suggests faster and space-efficient index construction algorithms
 for LSH for Euclidean distance (\textit\{a.k.a.\}~\ELSH) and cosine similarity

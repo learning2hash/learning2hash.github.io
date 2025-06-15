@@ -8,7 +8,7 @@ citations: 1
 bibkey: andoni2021learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2108.05433'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Indexing', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 The indexing algorithms for the high-dimensional nearest neighbor search
 (NNS) with the best worst-case guarantees are based on the randomized Locality

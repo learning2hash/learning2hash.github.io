@@ -9,7 +9,7 @@ bibkey: noh2016large
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.06321'}
   - {name: "Code", url: 'https://github.com/tensorflow/models/tree/master/research/delf'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Vector Indexing', 'Has Code', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications', 'ANN Search']
 ---
 We propose an attentive local feature descriptor suitable for large-scale
 image retrieval, referred to as DELF (DEep Local Feature). The new feature is

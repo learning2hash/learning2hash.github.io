@@ -8,7 +8,7 @@ citations: 1
 bibkey: agarwal2014novel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1504.03315'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Applications']
 ---
 Trademark Image Retrieval is playing a vital role as a part of CBIR System.
 Trademark is of great significance because it carries the status value of any

@@ -8,7 +8,7 @@ citations: 0
 bibkey: jayaram2024data
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2403.05041'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 We give new data-dependent locality sensitive hashing schemes (LSH) for the
 Earth Mover's Distance (\\(\mathsf\{EMD\}\\)), and as a result, improve the best

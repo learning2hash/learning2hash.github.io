@@ -8,7 +8,7 @@ citations: 0
 bibkey: morvan2017streaming
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1705.07661'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Deep']
+tags: ['Efficient Learning', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 In this paper, we address the problem of learning compact
 similarity-preserving embeddings for massive high-dimensional streams of data

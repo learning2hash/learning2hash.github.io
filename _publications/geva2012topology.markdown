@@ -8,7 +8,7 @@ citations: 6
 bibkey: geva2012topology
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1204.5373'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Supervised Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing']
 ---
 Performance comparisons between File Signatures and Inverted Files for text
 retrieval have previously shown several significant shortcomings of file

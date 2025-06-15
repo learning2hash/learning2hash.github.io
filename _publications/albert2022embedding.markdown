@@ -8,7 +8,7 @@ citations: 3
 bibkey: albert2022embedding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.01573'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Using search engines for web image retrieval is a tempting alternative to
 manual curation when creating an image dataset, but their main drawback remains

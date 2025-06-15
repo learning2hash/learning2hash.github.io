@@ -9,7 +9,7 @@ bibkey: chen2021independent
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.10112'}
   - {name: "Code", url: 'https://github.com/emdata-ailab/IDEAL'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Has Code', 'Similarity Learning', 'Applications']
+tags: ['Evaluation Metrics', 'Has Code', 'Applications']
 ---
 Many efforts have been devoted to designing sampling, mining, and weighting
 strategies in high-level deep metric learning (DML) loss objectives. However,

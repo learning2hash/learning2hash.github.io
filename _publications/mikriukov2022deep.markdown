@@ -9,7 +9,7 @@ bibkey: mikriukov2022deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.08125'}
   - {name: "Code", url: 'https://git.tu-berlin.de/rsim/duch'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Has Code', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Has Code', 'Multi-Modal Hashing']
 ---
 Due to the availability of large-scale multi-modal data (e.g., satellite
 images acquired by different sensors, text sentences, etc) archives, the

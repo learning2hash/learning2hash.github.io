@@ -8,7 +8,7 @@ citations: 0
 bibkey: valdenegrotoro2019implementing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1903.12270'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We propose a modification to Perlin noise which use computable hash functions
 instead of textures as lookup tables. We implemented the FNV1, Jenkins and

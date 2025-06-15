@@ -8,7 +8,7 @@ citations: 7
 bibkey: thorup2013k
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1302.5127'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 We show that linear probing requires 5-independent hash functions for
 expected constant-time performance, matching an upper bound of [Pagh et al.

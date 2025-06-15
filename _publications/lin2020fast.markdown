@@ -8,7 +8,7 @@ citations: 12
 bibkey: lin2020fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2012.00318'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Online image hashing has received increasing research attention recently,
 which processes large-scale data in a streaming fashion to update the hash

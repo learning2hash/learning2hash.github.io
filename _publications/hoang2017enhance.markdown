@@ -8,7 +8,7 @@ citations: 3
 bibkey: hoang2017enhance
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1704.01754'}
-tags: ['Model Design', 'Quantisation', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 We introduce a novel approach to improve unsupervised hashing. Specifically,
 we propose a very efficient embedding method: Gaussian Mixture Model embedding

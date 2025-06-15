@@ -9,7 +9,7 @@ bibkey: jeong2018efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1805.05809'}
   - {name: "Code", url: 'https://github.com/maestrojeong/Deep-Hash-Table-ICML18'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Efficiency', 'Evaluation', 'Shallow', 'Conferences', 'Datasets', 'Has Code', 'Similarity Learning']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Evaluation Metrics', 'Efficient Learning', 'ICML', 'Tools and Libraries', 'Benchmarks and Datasets', 'Has Code', 'Indexing and Efficiency']
 ---
 Embedding representation learning via neural networks is at the core
 foundation of modern similarity based search. While much effort has been put in

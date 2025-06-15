@@ -9,7 +9,7 @@ bibkey: neculai2022probabilistic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2204.05845'}
   - {name: "Code", url: 'https://github.com/andreineculai/MPC'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Benchmarks and Datasets', 'Has Code']
 ---
 Existing works in image retrieval often consider retrieving images with one
 or two query inputs, which do not generalize to multiple queries. In this work,

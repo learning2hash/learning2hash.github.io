@@ -8,7 +8,7 @@ citations: 6
 bibkey: lamberger2012memoryless
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1209.4255'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 In this paper we discuss the problem of generically finding near-collisions
 for cryptographic hash functions in a memoryless way. A common approach is to

@@ -8,7 +8,7 @@ citations: 2
 bibkey: knudsen2015largest
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1502.05729'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Randomized algorithms and data structures are often analyzed under the
 assumption of access to a perfect source of randomness. The most fundamental

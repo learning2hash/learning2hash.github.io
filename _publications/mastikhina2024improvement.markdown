@@ -8,7 +8,7 @@ citations: 0
 bibkey: mastikhina2024improvement
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2404.07624'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 This paper examines the graph partition problem and introduces a new metric,
 MSIDS (maximal sum of inner degrees squared). We establish its connection to

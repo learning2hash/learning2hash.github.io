@@ -8,7 +8,7 @@ citations: 2
 bibkey: kothawade2022object
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.01778'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Retrieving images with objects that are semantically similar to objects of
 interest (OOI) in a query image has many practical use cases. A few examples

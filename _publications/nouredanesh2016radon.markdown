@@ -8,7 +8,7 @@ citations: 6
 bibkey: nouredanesh2016radon
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.05118'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 In recent years, with the explosion of digital images on the Web,
 content-based retrieval has emerged as a significant research area. Shapes,

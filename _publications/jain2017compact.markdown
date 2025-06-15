@@ -8,7 +8,7 @@ citations: 5
 bibkey: jain2017compact
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1709.08103'}
-tags: ['Cross-Modal', 'Shallow', 'Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Fundamentals', 'Supervision Types', 'Hashing Methods', 'Supervision Type']
 ---
 Robust visual place recognition (VPR) requires scene representations that are
 invariant to various environmental challenges such as seasonal changes and

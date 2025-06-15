@@ -8,7 +8,7 @@ citations: 4
 bibkey: aumüller2019parameterless
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1906.12211'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow']
+tags: ['ANN Search']
 ---
 We present PUFFINN, a parameterless LSH-based index for solving the
 \\(k\\)-nearest neighbor problem with probabilistic guarantees. By parameterless we

@@ -8,7 +8,7 @@ citations: 427
 bibkey: weinberger2009feature
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0902.2206'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Empirical evidence suggests that hashing is an effective strategy for
 dimensionality reduction and practical nonparametric estimation. In this paper

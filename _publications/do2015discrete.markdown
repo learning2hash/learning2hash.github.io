@@ -8,7 +8,7 @@ citations: 10
 bibkey: do2015discrete
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1508.07148'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 This paper addresses the problem of learning binary hash codes for large
 scale image search by proposing a novel hashing method based on deep neural

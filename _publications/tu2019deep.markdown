@@ -8,7 +8,7 @@ citations: 56
 bibkey: tu2019deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1907.12490'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Due to their high retrieval efficiency and low storage cost, cross-modal
 hashing methods have attracted considerable attention. Generally, compared with

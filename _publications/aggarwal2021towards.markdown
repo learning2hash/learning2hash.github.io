@@ -9,7 +9,7 @@ bibkey: aggarwal2021towards
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.07622'}
   - {name: "Code", url: 'https://github.com/adobe-research/Cross-lingual-Test-Dataset-XTD10'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications', 'ANN Search']
 ---
 There has been a recent spike in interest in multi-modal Language and Vision
 problems. On the language side, most of these models primarily focus on English

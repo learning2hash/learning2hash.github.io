@@ -8,7 +8,7 @@ citations: 6
 bibkey: florindo2016fractal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.06435'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 This work presents a novel descriptor for texture images based on fractal
 geometry and its application to image analysis. The descriptors are provided by

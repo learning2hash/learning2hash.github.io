@@ -8,7 +8,7 @@ citations: 0
 bibkey: wei2024contrastive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2408.05711'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Supervision Type', 'Modality-Specific Hashing', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Implementing cross-modal hashing between 2D images and 3D point-cloud data is
 a growing concern in real-world retrieval systems. Simply applying existing

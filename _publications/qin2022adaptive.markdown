@@ -8,7 +8,7 @@ citations: 2
 bibkey: qin2022adaptive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2212.11408'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In this paper, we propose Adam-Hash: an adaptive and dynamic multi-resolution
 hashing data-structure for fast pairwise summation estimation. Given a data-set

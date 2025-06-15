@@ -8,7 +8,7 @@ citations: 4
 bibkey: fernandes2020locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2010.09393'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Privacy and Security', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Extended differential privacy, a generalization of standard differential
 privacy (DP) using a general metric, has been widely studied to provide

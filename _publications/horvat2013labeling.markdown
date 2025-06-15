@@ -8,7 +8,7 @@ citations: 2
 bibkey: horvat2013labeling
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1304.0954'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Applications', 'ANN Search']
 ---
 Repositories of images with semantic and emotion content descriptions are
 valuable tools in many areas such as Affective Computing and Human-Computer

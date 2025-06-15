@@ -8,7 +8,7 @@ citations: 23
 bibkey: liu2023hs
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2301.05430'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 An efficient solution to the large-scale recommender system is to represent
 users and items as binary hash codes in the Hamming space. Towards this end,

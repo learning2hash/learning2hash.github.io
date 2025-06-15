@@ -8,7 +8,7 @@ citations: 29
 bibkey: zhe2018deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.04137'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Similarity Learning', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Learning Strategies', 'Deep Hashing']
 ---
 Deep supervised hashing has emerged as an influential solution to large-scale
 semantic image retrieval problems in computer vision. In the light of recent

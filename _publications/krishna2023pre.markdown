@@ -9,7 +9,7 @@ bibkey: krishna2023pre
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2305.10438'}
   - {name: "Code", url: 'https://github.com/varunakk/IMAGINATOR'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Has Code', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Applications']
+tags: ['Has Code', 'Applications']
 ---
 Word embeddings, i.e., semantically meaningful vector representation of
 words, are largely influenced by the distributional hypothesis "You shall know

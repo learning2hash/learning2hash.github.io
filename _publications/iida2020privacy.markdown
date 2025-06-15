@@ -8,7 +8,7 @@ citations: 6
 bibkey: iida2020privacy
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.00270'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Compression', 'Supervised', 'Applications']
+tags: ['Quantization and Compression', 'Hashing for Real-World Applications', 'Applications']
 ---
 In this paper, we propose a novel content based-image retrieval scheme
 allowing the mixed use of encrypted and plain images for the first time. In the

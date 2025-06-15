@@ -8,7 +8,7 @@ citations: 0
 bibkey: niwa2022detection
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2208.05198'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Compression', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization and Compression', 'Privacy and Security', 'Hashing Methods']
 ---
 SNS providers are known to carry out the recompression and resizing of
 uploaded videos/images, but most conventional methods for detecting tampered

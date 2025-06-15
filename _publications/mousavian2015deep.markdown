@@ -4,11 +4,11 @@ title: 'Deep Convolutional Features For Image Based Retrieval And Scene Categori
 authors: Arsalan Mousavian, Jana Kosecka
 conference: "Arxiv"
 year: 2015
-citations: 0
+citations: 30
 bibkey: mousavian2015deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.06033'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Several recent approaches showed how the representations learned by
 Convolutional Neural Networks can be repurposed for novel tasks. Most commonly

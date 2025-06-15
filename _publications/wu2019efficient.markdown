@@ -8,7 +8,7 @@ citations: 7
 bibkey: wu2019efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1903.08690'}
-tags: ['Cross-Modal', 'Efficiency', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Methods', 'KDD', 'Efficient Learning', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Many emerging use cases of data mining and machine learning operate on large
 datasets with data from heterogeneous sources, specifically with both sparse

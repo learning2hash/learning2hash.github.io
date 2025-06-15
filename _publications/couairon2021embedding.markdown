@@ -8,7 +8,7 @@ citations: 10
 bibkey: couairon2021embedding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.03162'}
-tags: ['Cross-Modal', 'Model Design', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Latent text representations exhibit geometric regularities, such as the
 famous analogy: queen is to king what woman is to man. Such structured semantic

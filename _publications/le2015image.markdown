@@ -8,7 +8,7 @@ citations: 3
 bibkey: le2015image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1506.01165'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications']
 ---
 The paper approaches the binary signature for each image based on the
 percentage of the pixels in each color images, at the same time the paper

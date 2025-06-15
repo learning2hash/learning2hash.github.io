@@ -8,7 +8,7 @@ citations: 0
 bibkey: huang2015hash
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1508.03285'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Learning Strategies']
 ---
 In this paper we introduce a novel hash learning framework that has two main
 distinguishing features, when compared to past approaches. First, it utilizes

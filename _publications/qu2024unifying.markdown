@@ -8,7 +8,7 @@ citations: 0
 bibkey: qu2024unifying
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2406.05814'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 How humans can effectively and efficiently acquire images has always been a
 perennial question. A classic solution is text-to-image retrieval from an

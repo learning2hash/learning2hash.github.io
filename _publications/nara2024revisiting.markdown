@@ -8,7 +8,7 @@ citations: 0
 bibkey: nara2024revisiting
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2404.16398'}
-tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 Many image retrieval studies use metric learning to train an image encoder.
 However, metric learning cannot handle differences in users' preferences, and

@@ -8,7 +8,7 @@ citations: 55
 bibkey: spring2016scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1602.08194'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods', 'Tools and Libraries']
 ---
 Current deep learning architectures are growing larger in order to learn from
 complex datasets. These architectures require giant matrix multiplication

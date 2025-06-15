@@ -8,7 +8,7 @@ citations: 21
 bibkey: mafla2020fine
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2001.04732'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 Text contained in an image carries high-level semantics that can be exploited
 to achieve richer image understanding. In particular, the mere presence of text

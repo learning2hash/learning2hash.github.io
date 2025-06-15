@@ -8,7 +8,7 @@ citations: 8
 bibkey: barz2020content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.06490'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Surveys and Reviews', 'Supervised', 'Survey Paper', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Survey', 'Tools and Libraries', 'Survey Paper', 'Hashing for Real-World Applications']
 ---
 Content-based image retrieval has seen astonishing progress over the past
 decade, especially for the task of retrieving images of the same object that is

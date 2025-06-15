@@ -9,7 +9,7 @@ bibkey: jimenez2017class
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.02581'}
   - {name: "Code", url: 'http://imatge-upc.github.io/retrieval-2017-cam/'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Benchmarks and Datasets', 'Has Code']
 ---
 Image retrieval in realistic scenarios targets large dynamic datasets of
 unlabeled images. In these cases, training or fine-tuning a model every time

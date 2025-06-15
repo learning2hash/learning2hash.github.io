@@ -8,7 +8,7 @@ citations: 9
 bibkey: guruswami2018beating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1805.04151'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'ANN Search']
 ---
 We say a subset \\(C \subseteq \\{1,2,\dots,k\\}^n\\) is a \\(k\\)-hash code (also
 called \\(k\\)-separated) if for every subset of \\(k\\) codewords from \\(C\\), there

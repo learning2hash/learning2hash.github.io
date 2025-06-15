@@ -9,7 +9,7 @@ bibkey: gu2023language
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2312.01998'}
   - {name: "Code", url: 'https://github.com/navervision/lincir'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Has Code', 'Applications']
 ---
 Composed image retrieval (CIR) task takes a composed query of image and text,
 aiming to search relative images for both conditions. Conventional CIR

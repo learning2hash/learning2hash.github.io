@@ -8,7 +8,7 @@ citations: 52
 bibkey: qiu2021unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.06138'}
-tags: ['Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Many unsupervised hashing methods are implicitly established on the idea of
 reconstructing the input data, which basically encourages the hashing codes to

@@ -8,7 +8,7 @@ citations: 0
 bibkey: ishikawa2015pairwise
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1501.07422'}
-tags: ['Quantisation', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Quantization and Compression', 'ANN Search', 'Hashing Fundamentals', 'Quantization']
 ---
 Binary Hashing is widely used for effective approximate nearest neighbors
 search. Even though various binary hashing methods have been proposed, very few

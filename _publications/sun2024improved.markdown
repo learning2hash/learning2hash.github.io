@@ -8,7 +8,7 @@ citations: 1
 bibkey: sun2024improved
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2404.00774'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Training Strategy']
+tags: ['Evaluation Metrics', 'Indexing', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 This paper introduces SOAR: Spilling with Orthogonality-Amplified Residuals,
 a novel data indexing technique for approximate nearest neighbor (ANN) search.

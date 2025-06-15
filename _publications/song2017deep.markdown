@@ -9,7 +9,7 @@ bibkey: song2017deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.02112'}
   - {name: "Code", url: 'https://github.com/htconquer/ddh'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Has Code', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing', 'Has Code']
 ---
 Hashing methods have been widely used for applications of large-scale image
 retrieval and classification. Non-deep hashing methods using handcrafted

@@ -8,7 +8,7 @@ citations: 3
 bibkey: shlapentokhrothman2024region
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2402.02352'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 We investigate whether region-based representations are effective for
 recognition. Regions were once a mainstay in recognition approaches, but pixel

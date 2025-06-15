@@ -8,7 +8,7 @@ citations: 13
 bibkey: ertl2017superminhash
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1706.05698'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 This paper presents a new algorithm for calculating hash signatures of sets
 which can be directly used for Jaccard similarity estimation. The new approach

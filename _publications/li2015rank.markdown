@@ -8,7 +8,7 @@ citations: 2
 bibkey: li2015rank
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1503.05951'}
-tags: ['Quantization', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Quantization']
 ---
 The era of Big Data has spawned unprecedented interests in developing hashing
 algorithms for efficient storage and fast nearest neighbor search. Most

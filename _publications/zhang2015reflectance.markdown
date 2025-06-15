@@ -8,7 +8,7 @@ citations: 30
 bibkey: zhang2015reflectance
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1502.02092'}
-tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 We introduce a novel method for using reflectance to identify materials.
 Reflectance offers a unique signature of the material but is challenging to

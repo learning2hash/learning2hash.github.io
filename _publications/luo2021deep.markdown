@@ -8,7 +8,7 @@ citations: 1
 bibkey: luo2021deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.06125'}
-tags: ['Supervised', 'Cross-Modal', 'Deep', 'Supervised Hashing', 'Efficiency', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Unsupervised Hashing', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Hashing has been widely used in approximate nearest neighbor search for its
 storage and computational efficiency. Deep supervised hashing methods are not

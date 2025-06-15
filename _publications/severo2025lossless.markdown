@@ -9,7 +9,7 @@ bibkey: severo2025lossless
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2501.10479'}
   - {name: "Code", url: 'https://github.com/facebookresearch/vector_db_id_compression'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Vector Indexing', 'Has Code', 'Quantization']
+tags: ['Approximate Nearest Neighbor Search', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Quantization', 'Has Code']
 ---
 Approximate nearest neighbor search for vectors relies on indexes that are
 most often accessed from RAM. Therefore, storage is the factor limiting the

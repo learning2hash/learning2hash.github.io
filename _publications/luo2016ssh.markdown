@@ -8,7 +8,7 @@ citations: 12
 bibkey: luo2016ssh
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1610.07328'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Efficient Learning', 'Indexing', 'Hashing Fundamentals']
 ---
 Similarity search on time series is a frequent operation in large-scale
 data-driven applications. Sophisticated similarity measures are standard for

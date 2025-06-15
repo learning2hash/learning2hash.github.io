@@ -8,7 +8,7 @@ citations: 27
 bibkey: curtin2012fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1210.6287'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow']
+tags: ['Efficient Learning', 'Approximate Nearest Neighbor Search']
 ---
 The wide applicability of kernels makes the problem of max-kernel search
 ubiquitous and more general than the usual similarity search in metric spaces.

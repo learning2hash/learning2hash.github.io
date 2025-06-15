@@ -8,7 +8,7 @@ citations: 19
 bibkey: shao2018h
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.11385'}
-tags: ['Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 We present a novel spatial hashing based data structure to facilitate 3D
 shape analysis using convolutional neural networks (CNNs). Our method well

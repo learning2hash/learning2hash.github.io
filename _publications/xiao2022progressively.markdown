@@ -9,7 +9,7 @@ bibkey: xiao2022progressively
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.05409'}
   - {name: "Code", url: 'https://github.com/microsoft/BiDR'}
-tags: ['Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Vector Indexing', 'Has Code', 'Training Strategy']
+tags: ['Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Quantization', 'Has Code']
 ---
 Ad-hoc search calls for the selection of appropriate answers from a
 massive-scale corpus. Nowadays, the embedding-based retrieval (EBR) becomes a

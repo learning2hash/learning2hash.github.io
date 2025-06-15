@@ -8,7 +8,7 @@ citations: 139
 bibkey: zhang2018improved
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.02987'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Hash coding has been widely used in the approximate nearest neighbor search
 for large-scale image retrieval. Recently, many deep hashing methods have been

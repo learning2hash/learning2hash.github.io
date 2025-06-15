@@ -8,7 +8,7 @@ citations: 0
 bibkey: sain2020cross
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.15103'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 Sketch as an image search query is an ideal alternative to text in capturing
 the fine-grained visual details. Prior successes on fine-grained sketch-based

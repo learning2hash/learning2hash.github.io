@@ -8,7 +8,7 @@ citations: 3
 bibkey: dubey2024transformer
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2401.15362'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Quantization', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
 ---
 Unsupervised image retrieval aims to learn the important visual
 characteristics without any given level to retrieve the similar images for a

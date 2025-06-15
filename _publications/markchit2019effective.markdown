@@ -8,7 +8,7 @@ citations: 5
 bibkey: markchit2019effective
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.13325'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Indexing and Efficiency', 'Evaluation Metrics', 'Indexing', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Multi-Modal Hashing']
 ---
 To overcome the barrier of storage and computation, the hashing technique has
 been widely used for nearest neighbor search in multimedia retrieval

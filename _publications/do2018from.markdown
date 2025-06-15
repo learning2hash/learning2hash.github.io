@@ -8,7 +8,7 @@ citations: 21
 bibkey: do2018from
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1802.02899'}
-tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 In the large-scale image retrieval task, the two most important requirements
 are the discriminability of image representations and the efficiency in

@@ -9,7 +9,7 @@ bibkey: wang2020faster
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2008.06826'}
   - {name: "Code", url: 'https://github.com/wangguanan/light-reid'}
-tags: ['Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Has Code']
 ---
 Fast person re-identification (ReID) aims to search person images quickly and
 accurately. The main idea of recent fast ReID methods is the hashing algorithm,

@@ -9,7 +9,7 @@ bibkey: girish2023scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2309.15848'}
   - {name: "Code", url: 'http://shacira.github.io'}
-tags: ['Cross-Modal', 'Quantisation', 'Training Strategy', 'Shallow', 'Compression', 'Datasets', 'Has Code', 'Quantization', 'Applications']
+tags: ['Applications', 'Quantization and Compression', 'Tools and Libraries', 'Quantization', 'Has Code']
 ---
 Implicit Neural Representations (INR) or neural fields have emerged as a
 popular framework to encode multimedia signals such as images and radiance

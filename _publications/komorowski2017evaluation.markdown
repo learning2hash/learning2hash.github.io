@@ -8,7 +8,7 @@ citations: 0
 bibkey: komorowski2017evaluation
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.06825'}
-tags: ['Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 In this paper we evaluate performance of data-dependent hashing methods on
 binary data. The goal is to find a hashing method that can effectively produce

@@ -9,7 +9,7 @@ bibkey: liu2022universal
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2209.00179'}
   - {name: "Code", url: 'https://github.com/OpenMatch/UniVL-DR'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Has Code', 'Training Strategy', 'Multi-Modal Hashing', 'Applications']
+tags: ['Evaluation Metrics', 'Has Code', 'Applications']
 ---
 This paper presents Universal Vision-Language Dense Retrieval (UniVL-DR),
 which builds a unified model for multi-modal retrieval. UniVL-DR encodes

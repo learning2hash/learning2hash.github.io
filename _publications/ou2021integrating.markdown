@@ -8,7 +8,7 @@ citations: 0
 bibkey: ou2021integrating
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.13066'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 With the need of fast retrieval speed and small memory footprint, document
 hashing has been playing a crucial role in large-scale information retrieval.

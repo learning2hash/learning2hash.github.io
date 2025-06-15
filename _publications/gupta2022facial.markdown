@@ -8,7 +8,7 @@ citations: 1
 bibkey: gupta2022facial
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2205.15870'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Retrieving facial images from attributes plays a vital role in various
 systems such as face recognition and suspect identification. Compared to other

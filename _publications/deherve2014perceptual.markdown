@@ -8,7 +8,7 @@ citations: 0
 bibkey: deherve2014perceptual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1412.5517'}
-tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 This paper proposes a novel approach for storing and retrieving massive DNA
 sequences.. The method is based on a perceptual hash function, commonly used to

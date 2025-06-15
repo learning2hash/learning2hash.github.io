@@ -8,7 +8,7 @@ citations: 0
 bibkey: houen2022understanding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2205.01453'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Simple tabulation hashing dates back to Zobrist in 1970 and is defined as
 follows: Each key is viewed as \\(c\\) characters from some alphabet \\(\Sigma\\), we

@@ -8,7 +8,7 @@ citations: 0
 bibkey: allgood2020quantum
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.02911'}
-tags: ['Cross-Modal', 'Independent', 'Shallow']
+tags: ['Evaluation Metrics', 'Indexing and Efficiency']
 ---
 Quantum computing has evolved quickly in recent years and is showing
 significant benefits in a variety of fields, especially in the realm of

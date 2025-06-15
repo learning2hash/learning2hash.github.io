@@ -8,7 +8,7 @@ citations: 0
 bibkey: frei2023bounds
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2301.13832'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 In this paper, we analyze hashing from a worst-case perspective. To this end,
 we study a new property of hash families that is strongly related to d-perfect

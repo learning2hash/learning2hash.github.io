@@ -8,7 +8,7 @@ citations: 0
 bibkey: wang2023reliable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2303.12658'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Deep hashing has been extensively applied to massive image retrieval due to
 its efficiency and effectiveness. Recently, several adversarial attacks have

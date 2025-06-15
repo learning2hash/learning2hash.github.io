@@ -8,7 +8,7 @@ citations: 7
 bibkey: ali2020practical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2005.06580'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Given that a MAC address can uniquely identify a person or a vehicle,
 continuous tracking over a large geographical scale has raised serious privacy

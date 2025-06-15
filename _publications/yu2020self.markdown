@@ -8,7 +8,7 @@ citations: 0
 bibkey: yu2020self
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2012.03820'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Deep Hashing', 'Similarity Learning', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Due to its effectivity and efficiency, deep hashing approaches are widely
 used for large-scale visual search. However, it is still challenging to produce

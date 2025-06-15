@@ -8,7 +8,7 @@ citations: 2
 bibkey: zheng2023building
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.13677'}
-tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 To retrieve personalized campaigns and creatives while protecting user
 privacy, digital advertising is shifting from member-based identity to

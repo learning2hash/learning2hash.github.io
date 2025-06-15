@@ -8,7 +8,7 @@ citations: 2
 bibkey: zhao2018sorting
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1805.04272'}
-tags: ['Unimodal', 'Supervised', 'Deep']
+tags: ['Indexing and Efficiency']
 ---
 We propose an \\(O(N\cdot M)\\) sorting algorithm by Machine Learning method,
 which shows a huge potential sorting big data. This sorting algorithm can be

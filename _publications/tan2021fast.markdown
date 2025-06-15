@@ -8,7 +8,7 @@ citations: 13
 bibkey: tan2021fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.01713'}
-tags: ['Benchmarks and Tools', 'Unimodal', 'Shallow', 'Vector Indexing', 'Supervised']
+tags: ['Evaluation Metrics', 'Tools and Libraries', 'ANN Search']
 ---
 We propose a fast partial video copy detection framework in this paper. In
 this framework all frame features of the reference videos are organized in a

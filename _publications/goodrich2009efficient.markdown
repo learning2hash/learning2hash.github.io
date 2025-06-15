@@ -8,7 +8,7 @@ citations: 34
 bibkey: goodrich2009efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0908.4116'}
-tags: ['Cross-Modal', 'Supervised', 'Deep', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Authenticated data structures provide cryptographic proofs that their answers
 are as accurate as the author intended, even if the data structure is being

@@ -8,7 +8,7 @@ citations: 2
 bibkey: singh2019adversarially
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1907.00382'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Supervised Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Deep Hashing']
 ---
 The simple approach of retrieving a closest match of a query image from one
 in the gallery, compares an image pair using sum of absolute difference in

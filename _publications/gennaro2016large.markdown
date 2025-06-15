@@ -8,7 +8,7 @@ citations: 1
 bibkey: gennaro2016large
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.09687'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Indexing', 'Tools and Libraries', 'Applications']
 ---
 In this work, we propose an approach to index Deep Convolutional Neural
 Network Features to support efficient content-based retrieval on large image

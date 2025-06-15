@@ -8,7 +8,7 @@ citations: 57
 bibkey: zheng2014bayes
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1403.0284'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Quantization', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Quantization']
 ---
 The Bag-of-Words (BoW) representation is well applied to recent
 state-of-the-art image retrieval works. Typically, multiple vocabularies are

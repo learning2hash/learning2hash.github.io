@@ -8,7 +8,7 @@ citations: 0
 bibkey: rahmani2023improving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2305.03017'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 Our research investigates the recommendation of code examples to aid software
 developers, a practice that saves developers significant time by providing

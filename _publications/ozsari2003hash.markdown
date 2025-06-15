@@ -8,7 +8,7 @@ citations: 0
 bibkey: ozsari2003hash
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0310033'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
+tags: ['Hashing Fundamentals', 'Survey Paper', 'Hashing Methods', 'Survey']
 ---
 In this paper, we present a general review of hash functions in a
 cryptographic sense. We give special emphasis on some particular topics such as

@@ -8,7 +8,7 @@ citations: 119
 bibkey: shen2018zero
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.02284'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Retrieval Models', 'Evaluation', 'Datasets', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Recent studies show that large-scale sketch-based image retrieval (SBIR) can
 be efficiently tackled by cross-modal binary representation learning methods,

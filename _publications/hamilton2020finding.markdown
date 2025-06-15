@@ -8,7 +8,7 @@ citations: 3
 bibkey: hamilton2020finding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.07177'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'Approximate Nearest Neighbor Search']
 ---
 We introduce MosAIc, an interactive web app that allows users to find pairs
 of semantically related artworks that span different cultures, media, and

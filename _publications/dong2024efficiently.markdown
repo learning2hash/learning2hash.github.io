@@ -8,7 +8,7 @@ citations: 0
 bibkey: dong2024efficiently
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2405.19711'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 The challenge of estimating similarity between sets has been a significant
 concern in data science, finding diverse applications across various domains.

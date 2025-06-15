@@ -8,7 +8,7 @@ citations: 1
 bibkey: dereka2022deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2205.11195'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'ANN Search']
 ---
 Large-scale datasets are essential for the success of deep learning in image
 retrieval. However, manual assessment errors and semi-supervised annotation

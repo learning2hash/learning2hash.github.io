@@ -8,7 +8,7 @@ citations: 0
 bibkey: idliman2025entropy
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2501.18131'}
-tags: ['Cross-Modal', 'Supervised', 'Deep', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Entropy-based detection methodologies have gained significant attention due
 to their ability to analyze structural irregularities within executable files,

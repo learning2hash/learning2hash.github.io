@@ -8,7 +8,7 @@ citations: 4
 bibkey: adir2022privacy
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2203.14284'}
-tags: ['Cross-Modal', 'Datasets', 'Independent', 'Shallow']
+tags: ['Tools and Libraries']
 ---
 The amount of data stored in data repositories increases every year. This
 makes it challenging to link records between different datasets across

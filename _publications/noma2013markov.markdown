@@ -8,7 +8,7 @@ citations: 1
 bibkey: noma2013markov
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1303.4169'}
-tags: ['Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Approximate Nearest Neighbor Search']
 ---
 Since Hamming distances can be calculated by bitwise computations, they can
 be calculated with less computational load than L2 distances. Similarity

@@ -8,7 +8,7 @@ citations: 0
 bibkey: wang2020deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2008.03973'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Retrieval Models', 'Hashing', 'Datasets', 'Deep Hashing', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Deep hashing has shown promising results in image retrieval and recognition.
 Despite its success, most existing deep hashing approaches are rather similar:

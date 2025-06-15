@@ -8,7 +8,7 @@ citations: 37
 bibkey: ong2017siamese
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1702.00338'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications']
 ---
 This paper addresses the problem of large scale image retrieval, with the aim
 of accurately ranking the similarity of a large number of images to a given

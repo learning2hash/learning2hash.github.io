@@ -8,7 +8,7 @@ citations: 2
 bibkey: lu2018instance
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1811.11375'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Sketch has been employed as an effective communicative tool to express the
 abstract and intuitive meanings of object. Recognizing the free-hand sketch

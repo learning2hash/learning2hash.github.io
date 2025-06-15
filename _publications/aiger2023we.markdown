@@ -9,7 +9,7 @@ bibkey: aiger2023we
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.09012'}
   - {name: "Code", url: 'https://github.com/google-research/google-research/tree/master/cann'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code']
+tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'ANN Search', 'Tools and Libraries', 'Has Code']
 ---
 Large-scale visual localization systems continue to rely on 3D point clouds
 built from image collections using structure-from-motion. While the 3D points

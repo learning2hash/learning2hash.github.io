@@ -9,7 +9,7 @@ bibkey: quedenfeld2017variant
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1702.01703'}
   - {name: "Code", url: 'https://bitbucket.org/Quedenfeld/vatram-src/'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Has Code', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Has Code']
 ---
 DNA read mapping is a ubiquitous task in bioinformatics, and many tools have
 been developed to solve the read mapping problem. However, there are two trends

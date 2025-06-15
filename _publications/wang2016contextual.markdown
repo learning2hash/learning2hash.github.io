@@ -8,7 +8,7 @@ citations: 7
 bibkey: wang2016contextual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.02534'}
-tags: ['Retrieval Models', 'Unimodal', 'Supervised', 'Deep']
+tags: ['Approximate Nearest Neighbor Search']
 ---
 Measuring visual similarity is critical for image understanding. But what
 makes two images similar? Most existing work on visual similarity assumes that

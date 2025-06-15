@@ -8,7 +8,7 @@ citations: 0
 bibkey: van2015image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1506.00761'}
-tags: ['Cross-Modal', 'Model Design', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Evaluation Metrics', 'Applications']
 ---
 In this paper, we introduce an optimum approach for querying similar images
 on large digital-image databases. Our work is based on RBIR (region-based image

@@ -8,7 +8,7 @@ citations: 0
 bibkey: pathegama2024divergence
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2410.16459'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Universal hash functions map the output of a source to random strings over a
 finite alphabet, aiming to approximate the uniform distribution on the set of

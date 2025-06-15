@@ -8,7 +8,7 @@ citations: 11
 bibkey: mu2018towards
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1806.08896'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Evaluation Metrics', 'Hashing for Real-World Applications', 'Applications', 'ANN Search']
 ---
 In this paper, we describe our end-to-end content-based image retrieval
 system built upon Elasticsearch, a well-known and popular textual search

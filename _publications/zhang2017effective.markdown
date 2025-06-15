@@ -8,7 +8,7 @@ citations: 18
 bibkey: zhang2017effective
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1709.09304'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Multi-index fusion has demonstrated impressive performances in retrieval task
 by integrating different visual representations in a unified framework.

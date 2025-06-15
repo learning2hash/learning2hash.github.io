@@ -8,7 +8,7 @@ citations: 0
 bibkey: gilreath2004hash
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0408040'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 Sorting and hashing are two completely different concepts in computer
 science, and appear mutually exclusive to one another. Hashing is a search

@@ -8,7 +8,7 @@ citations: 131
 bibkey: yu2014circulant
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1405.3162'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Uncategorized']
 ---
 Binary embedding of high-dimensional data requires long codes to preserve the
 discriminative power of the input space. Traditional binary coding methods

@@ -8,7 +8,7 @@ citations: 13
 bibkey: fu2020deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2009.08012'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Combinatorial optimization (CO) has been a hot research topic because of its
 theoretic and practical importance. As a classic CO problem, deep hashing aims

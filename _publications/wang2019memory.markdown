@@ -8,7 +8,7 @@ citations: 33
 bibkey: wang2019memory
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.08977'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Applications', 'Approximate Nearest Neighbor Search']
 ---
 Estimating set similarity and detecting highly similar sets are fundamental
 problems in areas such as databases, machine learning, and information

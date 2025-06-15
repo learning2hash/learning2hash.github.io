@@ -8,7 +8,7 @@ citations: 0
 bibkey: silavong2021senatus
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.04473'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Machine learning on source code (MLOnCode) is a popular research field that
 has been driven by the availability of large-scale code repositories and the

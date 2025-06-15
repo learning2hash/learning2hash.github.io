@@ -8,7 +8,7 @@ citations: 19
 bibkey: jacques2016time
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1607.00816'}
-tags: ['Cross-Modal', 'Quantisation', 'Shallow', 'Compression', 'Quantization']
+tags: ['Evaluation Metrics', 'Quantization', 'Quantization and Compression']
 ---
 Recently, many works have focused on the characterization of non-linear
 dimensionality reduction methods obtained by quantizing linear embeddings,

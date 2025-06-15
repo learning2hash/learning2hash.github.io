@@ -8,7 +8,7 @@ citations: 0
 bibkey: veit2020improving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2011.08824'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Similarity Learning', 'Applications']
+tags: ['Applications']
 ---
 Modern image retrieval systems increasingly rely on the use of deep neural
 networks to learn embedding spaces in which distance encodes the relevance

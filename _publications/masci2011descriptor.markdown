@@ -8,7 +8,7 @@ citations: 17
 bibkey: masci2011descriptor
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1112.6291'}
-tags: ['Cross-Modal', 'Deep', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 Feature matching in omnidirectional vision systems is a challenging problem,
 mainly because complicated optical systems make the theoretical modelling of

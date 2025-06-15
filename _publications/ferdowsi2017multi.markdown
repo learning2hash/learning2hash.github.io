@@ -8,7 +8,7 @@ citations: 2
 bibkey: ferdowsi2017multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1710.11510'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Compression', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Quantization and Compression', 'ANN Search', 'Hashing Fundamentals']
 ---
 We present the multi-layer extension of the Sparse Ternary Codes (STC) for
 fast similarity search where we focus on the reconstruction of the database

@@ -8,7 +8,7 @@ citations: 29
 bibkey: ning2016scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.04614'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Indexing', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Quantization', 'Hashing for Real-World Applications']
 ---
 Fast Approximate Nearest Neighbor (ANN) search technique for high-dimensional
 feature indexing and retrieval is the crux of large-scale image retrieval. A

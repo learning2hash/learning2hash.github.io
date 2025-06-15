@@ -8,7 +8,7 @@ citations: 7
 bibkey: uchida2016image
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.08291'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 Recently, the Fisher vector representation of local features has attracted
 much attention because of its effectiveness in both image classification and

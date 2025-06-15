@@ -8,7 +8,7 @@ citations: 6
 bibkey: sharma2018improving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1812.01844'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 We propose a new class of data-independent locality-sensitive hashing (LSH)
 algorithms based on the fruit fly olfactory circuit. The fundamental difference

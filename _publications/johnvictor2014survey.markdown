@@ -8,7 +8,7 @@ citations: 0
 bibkey: johnvictor2014survey
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1402.4888'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Surveys and Reviews', 'Survey Paper', 'Applications']
+tags: ['Survey Paper', 'Survey', 'Indexing', 'Applications']
 ---
 Content based image retrieval, a technique which uses visual contents of
 image to search images from large scale image databases according to users'

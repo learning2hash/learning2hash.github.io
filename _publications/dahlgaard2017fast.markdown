@@ -8,7 +8,7 @@ citations: 16
 bibkey: dahlgaard2017fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1704.04370'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Evaluation Metrics', 'KDD', 'Applications', 'Approximate Nearest Neighbor Search']
 ---
 We consider the \\(\textit\{Similarity Sketching\}\\) problem: Given a universe
 \\([u] = \\{0,\ldots, u-1\\}\\) we want a random function \\(S\\) mapping subsets

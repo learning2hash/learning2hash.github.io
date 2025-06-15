@@ -8,7 +8,7 @@ citations: 3
 bibkey: najgebauer2015fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1504.06864'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications']
 ---
 This paper describes a method for searching for common sets of descriptors
 between collections of images. The presented method operates on local interest

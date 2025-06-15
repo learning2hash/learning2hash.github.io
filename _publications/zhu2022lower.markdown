@@ -9,7 +9,7 @@ bibkey: zhu2022lower
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.05899'}
   - {name: "Code", url: 'https://github.com/VL-Group/LBHash'}
-tags: ['Deep', 'Model Design', 'Independent', 'Efficiency', 'Unimodal', 'Has Code', 'Training Strategy', 'Similarity Learning', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Has Code']
 ---
 As a crucial approach for compact representation learning, hashing has
 achieved great success in effectiveness and efficiency. Numerous heuristic

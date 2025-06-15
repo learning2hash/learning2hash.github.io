@@ -8,7 +8,7 @@ citations: 28
 bibkey: bencohen2021semantic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.05926'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications']
 ---
 Training a neural network model for recognizing multiple labels associated
 with an image, including identifying unseen labels, is challenging, especially

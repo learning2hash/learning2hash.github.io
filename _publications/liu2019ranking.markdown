@@ -8,7 +8,7 @@ citations: 54
 bibkey: liu2019ranking
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.04450'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Cross-modal hashing has been receiving increasing interests for its low
 storage cost and fast query speed in multi-modal data retrievals. However, most

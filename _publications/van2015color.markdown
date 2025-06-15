@@ -8,7 +8,7 @@ citations: 0
 bibkey: van2015color
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1506.01166'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Applications']
+tags: ['Evaluation Metrics', 'Hashing for Real-World Applications', 'Applications']
 ---
 This chapter approaches the image retrieval system on the base of the colors
 of image. It creates fuzzy signature to describe the color of image on color

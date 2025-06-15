@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhan2025enhanced
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2502.15682'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 The objective in this paper is to improve the performance of text-to-image
 retrieval. To this end, we introduce a new framework that can boost the

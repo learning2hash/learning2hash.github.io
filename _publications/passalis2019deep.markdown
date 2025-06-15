@@ -8,7 +8,7 @@ citations: 1
 bibkey: passalis2019deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1901.05135'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Hashing for Real-World Applications', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Several deep supervised hashing techniques have been proposed to allow for
 efficiently querying large image databases. However, deep supervised image

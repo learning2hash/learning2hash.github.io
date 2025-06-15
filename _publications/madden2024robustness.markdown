@@ -8,7 +8,7 @@ citations: 0
 bibkey: madden2024robustness
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2406.00918'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Perceptual hashing algorithms (PHAs) are widely used for identifying illegal
 online content and are thus integral to various sensitive applications.

@@ -8,7 +8,7 @@ citations: 14
 bibkey: ma2022deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.11951'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Benchmarks and Tools', 'Datasets', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 As a novel deep learning model, gcForest has been widely used in various
 applications. However, the current multi-grained scanning of gcForest produces

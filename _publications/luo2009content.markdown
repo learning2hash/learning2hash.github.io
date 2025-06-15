@@ -8,7 +8,7 @@ citations: 12
 bibkey: luo2009content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0904.4041'}
-tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Hashing for Real-World Applications', 'Applications']
 ---
 The typical content-based image retrieval problem is to find images within a
 database that are similar to a given query image. This paper presents a

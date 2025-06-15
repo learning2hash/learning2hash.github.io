@@ -8,7 +8,7 @@ citations: 26
 bibkey: chadha2012comparative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1208.6335'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications']
 ---
 The aim of a Content-Based Image Retrieval (CBIR) system, also known as Query
 by Image Content (QBIC), is to help users to retrieve relevant images based on

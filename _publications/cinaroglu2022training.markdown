@@ -8,7 +8,7 @@ citations: 1
 bibkey: cinaroglu2022training
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2202.01212'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications']
 ---
 Vision based solutions for the localization of vehicles have become popular
 recently. We employ an image retrieval based visual localization approach. The

@@ -8,7 +8,7 @@ citations: 2
 bibkey: arponen2019semantic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.05602'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Using class labels to represent class similarity is a typical approach to
 training deep hashing systems for retrieval; samples from the same or different

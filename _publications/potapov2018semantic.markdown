@@ -8,7 +8,7 @@ citations: 8
 bibkey: potapov2018semantic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1806.06946'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 Image and video retrieval by their semantic content has been an important and
 challenging task for years, because it ultimately requires bridging the

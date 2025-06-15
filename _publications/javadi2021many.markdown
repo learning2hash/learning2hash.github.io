@@ -8,7 +8,7 @@ citations: 2
 bibkey: javadi2021many
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.05267'}
-tags: ['Cross-Modal', 'Deep', 'Datasets', 'Vector Indexing', 'Supervised']
+tags: ['Tools and Libraries', 'ANN Search']
 ---
 The portrayal of negative emotions such as anger can vary widely between
 cultures and contexts, depending on the acceptability of expressing full-blown

@@ -8,7 +8,7 @@ citations: 17
 bibkey: li2015fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1512.00442'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing', 'Tools and Libraries']
 ---
 Existing methods for retrieving k-nearest neighbours suffer from the curse of
 dimensionality. We argue this is caused in part by inherent deficiencies of

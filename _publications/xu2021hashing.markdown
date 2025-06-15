@@ -9,7 +9,7 @@ bibkey: xu2021hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.02225'}
   - {name: "Code", url: 'https://github.com/JerryXu0129/HHF'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Deep Hashing', 'Quantization', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'Benchmarks and Datasets', 'Quantization', 'Deep Hashing', 'Has Code']
 ---
 Deep hashing has shown promising performance in large-scale image retrieval.
 However, latent codes extracted by Deep Neural Networks (DNNs) will inevitably

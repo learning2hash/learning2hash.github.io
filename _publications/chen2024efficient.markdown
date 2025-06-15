@@ -8,7 +8,7 @@ citations: 0
 bibkey: chen2024efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2411.15438'}
-tags: ['Cross-Modal', 'Model Design', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'RecSys', 'ANN Search']
 ---
 Embedding models have become essential tools in both natural language
 processing and computer vision, enabling efficient semantic search,

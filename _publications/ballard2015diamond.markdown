@@ -8,7 +8,7 @@ citations: 16
 bibkey: ballard2015diamond
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1506.03872'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search']
 ---
 Given two sets of vectors, \\(A = \\{\{a_1\}, \dots, \{a_m\}\\}\\) and
 \\(B=\\{\{b_1\},\dots,\{b_n\}\\}\\), our problem is to find the top-\\(t\\) dot products,

@@ -8,7 +8,7 @@ citations: 2
 bibkey: doan2022cooperative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.04288'}
-tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Leveraging supervised information can lead to superior retrieval performance
 in the image hashing domain but the performance degrades significantly without

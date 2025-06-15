@@ -8,7 +8,7 @@ citations: 14
 bibkey: li2017fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.00440'}
-tags: ['Unsupervised', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing']
 ---
 Most exact methods for k-nearest neighbour search suffer from the curse of
 dimensionality; that is, their query times exhibit exponential dependence on

@@ -8,7 +8,7 @@ citations: 0
 bibkey: chen2017derandomized
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1702.03375'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In this paper, we study the maximum loads of explicit hash families in the
 \\(d\\)-choice schemes when allocating sequentially \\(n\\) balls into \\(n\\) bins. We

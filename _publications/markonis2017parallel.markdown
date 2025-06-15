@@ -8,7 +8,7 @@ citations: 0
 bibkey: markonis2017parallel
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1701.05596'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Image retrieval is a complex task that differs according to the context and
 the user requirements in any specific field, for example in a medical

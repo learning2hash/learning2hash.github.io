@@ -8,7 +8,7 @@ citations: 3
 bibkey: cartis2021hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.11815'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 The aim of this paper is two-fold: firstly, to present subspace embedding
 properties for \\(s\\)-hashing sketching matrices, with \\(s\geq 1\\), that are optimal

@@ -8,7 +8,7 @@ citations: 0
 bibkey: huang2019learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.08639'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'Hashing Fundamentals', 'Hashing for Real-World Applications']
 ---
 In this paper, we propose a novel hash learning approach that has the
 following main distinguishing features, when compared to past frameworks.

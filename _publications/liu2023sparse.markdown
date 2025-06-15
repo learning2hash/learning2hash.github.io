@@ -8,7 +8,7 @@ citations: 0
 bibkey: liu2023sparse
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.06928'}
-tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Hybrid and Advanced Models', 'Privacy and Security', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization']
 ---
 Unsupervised hashing has received extensive research focus on the past
 decade, which typically aims at preserving a predefined metric (i.e. Euclidean

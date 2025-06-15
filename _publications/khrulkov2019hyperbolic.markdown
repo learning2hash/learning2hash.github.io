@@ -8,7 +8,7 @@ citations: 187
 bibkey: khrulkov2019hyperbolic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.02239'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 Computer vision tasks such as image classification, image retrieval and
 few-shot learning are currently dominated by Euclidean and spherical

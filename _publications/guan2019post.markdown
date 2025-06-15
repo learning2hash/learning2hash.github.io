@@ -8,7 +8,7 @@ citations: 16
 bibkey: guan2019post
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.02079'}
-tags: ['Quantisation', 'Unimodal', 'Training Strategy', 'Shallow', 'Quantization']
+tags: ['Evaluation Metrics', 'Quantization', 'RecSys', 'Quantization and Compression']
 ---
 Continuous representations have been widely adopted in recommender systems
 where a large number of entities are represented using embedding vectors. As

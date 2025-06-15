@@ -8,7 +8,7 @@ citations: 1
 bibkey: guo2019deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.04007'}
-tags: ['Deep', 'Efficiency', 'Unimodal', 'Deep Hashing', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Deep Hashing']
 ---
 Network embedding is a promising way of network representation, facilitating
 many signed social network processing and analysis tasks such as link

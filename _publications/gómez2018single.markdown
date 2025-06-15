@@ -8,7 +8,7 @@ citations: 31
 bibkey: gómez2018single
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1808.09044'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Applications', 'ANN Search']
 ---
 Textual information found in scene images provides high level semantic
 information about the image and its context and it can be leveraged for better

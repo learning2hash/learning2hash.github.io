@@ -9,7 +9,7 @@ bibkey: liu2021fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.07128'}
   - {name: "Code", url: 'https://github.com/starxliu/FDDH'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Has Code', 'Quantization', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization', 'Has Code', 'Multi-Modal Hashing']
 ---
 Cross-modal hashing, favored for its effectiveness and efficiency, has
 received wide attention to facilitating efficient retrieval across different

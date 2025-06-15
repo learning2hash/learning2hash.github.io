@@ -8,7 +8,7 @@ citations: 4
 bibkey: breuel2007note
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0703101'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Vector Indexing']
+tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 A number of authors have described randomized algorithms for solving the
 epsilon-approximate nearest neighbor problem. In this note I point out that the

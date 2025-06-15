@@ -9,7 +9,7 @@ bibkey: chen2021simple
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.11628'}
   - {name: "Code", url: 'https://github.com/OrangeYHChen/TIPCB'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Has Code', 'Applications']
 ---
 Text-based person search is a sub-task in the field of image retrieval, which
 aims to retrieve target person images according to a given textual description.

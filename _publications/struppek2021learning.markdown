@@ -8,7 +8,7 @@ citations: 18
 bibkey: struppek2021learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2111.06628'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Benchmarks and Tools', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 Apple recently revealed its deep perceptual hashing system NeuralHash to
 detect child sexual abuse material (CSAM) on user devices before files are

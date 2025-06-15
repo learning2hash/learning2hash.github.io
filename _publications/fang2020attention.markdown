@@ -8,7 +8,7 @@ citations: 11
 bibkey: fang2020attention
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2012.03466'}
-tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Hashing', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Deep hashing methods have been proved to be effective for the large-scale
 medical image search assisting reference-based diagnosis for clinicians.

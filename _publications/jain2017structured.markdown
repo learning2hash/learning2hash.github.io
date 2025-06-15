@@ -8,7 +8,7 @@ citations: 61
 bibkey: jain2017structured
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1708.02932'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Compression', 'Deep Hashing', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization', 'Deep Hashing']
 ---
 For large-scale visual search, highly compressed yet meaningful
 representations of images are essential. Structured vector quantizers based on

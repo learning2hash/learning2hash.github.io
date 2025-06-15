@@ -8,7 +8,7 @@ citations: 68
 bibkey: li2020deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2012.12334'}
-tags: ['Supervised', 'Cross-Modal', 'Deep', 'Supervised Hashing', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Unsupervised Hashing', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Supervision Type', 'Indexing', 'Supervision Types', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Unsupervised hashing is important for indexing huge image or video
 collections without having expensive annotations available. Hashing aims to

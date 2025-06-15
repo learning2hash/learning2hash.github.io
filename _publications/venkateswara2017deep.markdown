@@ -8,7 +8,7 @@ citations: 6
 bibkey: venkateswara2017deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1706.07522'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 In recent years, deep neural networks have emerged as a dominant machine
 learning tool for a wide variety of application domains. However, training a

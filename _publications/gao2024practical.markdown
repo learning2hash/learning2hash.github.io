@@ -8,7 +8,7 @@ citations: 0
 bibkey: gao2024practical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2409.09913'}
-tags: ['Quantisation', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Vector Indexing', 'Quantization']
+tags: ['Approximate Nearest Neighbor Search', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Quantization']
 ---
 Approximate nearest neighbor (ANN) query in high-dimensional Euclidean space
 is a key operator in database systems. For this query, quantization is a

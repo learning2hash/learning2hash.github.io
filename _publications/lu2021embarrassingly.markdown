@@ -8,7 +8,7 @@ citations: 15
 bibkey: lu2021embarrassingly
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2101.00265'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Efficient Learning', 'Indexing', 'Tools and Libraries']
 ---
 Text-to-image retrieval is an essential task in cross-modal information
 retrieval, i.e., retrieving relevant images from a large and unlabelled dataset

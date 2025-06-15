@@ -8,7 +8,7 @@ citations: 89
 bibkey: shen2018content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1809.08433'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Applications']
+tags: ['Evaluation Metrics', 'Hashing for Real-World Applications', 'Applications']
 ---
 Content-based image retrieval (CBIR) is one of the fundamental image
 retrieval primitives. Its applications can be found in various areas, such as

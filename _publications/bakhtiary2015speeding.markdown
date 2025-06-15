@@ -8,7 +8,7 @@ citations: 0
 bibkey: bakhtiary2015speeding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1504.07488'}
-tags: ['Cross-Modal', 'Deep', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 In this paper we propose to use the Winner Takes All hashing technique to
 speed up forward propagation and backward propagation in fully connected layers

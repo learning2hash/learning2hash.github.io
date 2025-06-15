@@ -8,7 +8,7 @@ citations: 12
 bibkey: babaie2017retrieving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1701.00449'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Applications']
 ---
 The idea of Radon barcodes (RBC) has been introduced recently. In this paper,
 we propose a content-based image retrieval approach for big datasets based on

@@ -8,7 +8,7 @@ citations: 39
 bibkey: doan2022one
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2205.15721'}
-tags: ['Cross-Modal', 'Deep', 'Supervised Hashing', 'Quantisation', 'Retrieval Models', 'Vector Indexing', 'Deep Hashing', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'ANN Search', 'Hashing Fundamentals', 'Quantization', 'Deep Hashing']
 ---
 Image hashing is a principled approximate nearest neighbor approach to find
 similar items to a query in a large collection of images. Hashing aims to learn

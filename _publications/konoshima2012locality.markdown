@@ -8,7 +8,7 @@ citations: 3
 bibkey: konoshima2012locality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1209.5833'}
-tags: ['Deep', 'Retrieval Models', 'Unimodal', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Approximate Nearest Neighbor Search']
 ---
 We propose a learning method with feature selection for Locality-Sensitive
 Hashing. Locality-Sensitive Hashing converts feature vectors into bit arrays.

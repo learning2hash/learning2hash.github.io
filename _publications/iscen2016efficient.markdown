@@ -8,7 +8,7 @@ citations: 111
 bibkey: iscen2016efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.05113'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Evaluation Metrics', 'Indexing', 'Applications']
 ---
 Query expansion is a popular method to improve the quality of image retrieval
 with both conventional and CNN representations. It has been so far limited to

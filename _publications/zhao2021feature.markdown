@@ -8,7 +8,7 @@ citations: 21
 bibkey: zhao2021feature
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2110.04479'}
-tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Large-scale fine-grained image retrieval has two main problems. First, low
 dimensional feature embedding can fasten the retrieval process but bring

@@ -8,7 +8,7 @@ citations: 2
 bibkey: mitzenmacher2012balanced
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1209.5360'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Double hashing has recently found more common usage in schemes that use
 multiple hash functions. In double hashing, for an item \\(x\\), one generates two

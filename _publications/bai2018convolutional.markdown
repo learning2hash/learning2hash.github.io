@@ -8,7 +8,7 @@ citations: 26
 bibkey: bai2018convolutional
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1810.10866'}
-tags: ['Deep', 'Retrieval Models', 'Unimodal', 'Datasets', 'Supervised']
+tags: ['Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 We introduce GSimCNN (Graph Similarity Computation via Convolutional Neural
 Networks) for predicting the similarity score between two graphs. As the core

@@ -8,7 +8,7 @@ citations: 0
 bibkey: nejad2024saliency
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2411.08567'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 With the widespread adoption of digital devices equipped with cameras and the
 rapid development of Internet technology, numerous content-based image

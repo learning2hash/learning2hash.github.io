@@ -8,7 +8,7 @@ citations: 1
 bibkey: wang2023learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2308.13749'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Conferences', 'Applications']
+tags: ['ECCV', 'Evaluation Metrics', 'Applications']
 ---
 Patent retrieval has been attracting tremendous interest from researchers in
 intellectual property and information retrieval communities in the past

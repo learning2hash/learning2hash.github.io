@@ -8,7 +8,7 @@ citations: 2
 bibkey: garg2019nearly
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1909.03881'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
 ---
 Recently, kernelized locality sensitive hashcodes have been successfully
 employed as representations of natural language text, especially showing high

@@ -8,7 +8,7 @@ citations: 0
 bibkey: wu2022hierarchical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2204.11209'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Surveys and Reviews', 'Vector Indexing', 'Survey Paper', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'KDD', 'Applications', 'Survey', 'ANN Search', 'Hashing Fundamentals', 'Survey Paper']
 ---
 Data similarity (or distance) computation is a fundamental research topic
 which fosters a variety of similarity-based machine learning and data mining

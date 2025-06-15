@@ -8,7 +8,7 @@ citations: 0
 bibkey: li2014core
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1404.6216'}
-tags: ['Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 The term "CoRE kernel" stands for correlation-resemblance kernel. In many
 applications (e.g., vision), the data are often high-dimensional, sparse, and

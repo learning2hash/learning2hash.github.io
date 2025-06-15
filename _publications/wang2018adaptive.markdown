@@ -8,7 +8,7 @@ citations: 3
 bibkey: wang2018adaptive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.07360'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 Aggregating deep convolutional features into a global image vector has
 attracted sustained attention in image retrieval. In this paper, we propose an

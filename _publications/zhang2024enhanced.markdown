@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhang2024enhanced
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2409.00400'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'RecSys']
 ---
 In industrial recommendation systems on websites and apps, it is essential to
 recall and predict top-n results relevant to user interests from a content pool

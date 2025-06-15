@@ -8,7 +8,7 @@ citations: 31
 bibkey: mazloom2015semantic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1510.02899'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 We consider the problem of event detection in video for scenarios where only
 few, or even zero examples are available for training. For this challenging

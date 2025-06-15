@@ -8,7 +8,7 @@ citations: 27
 bibkey: gattupalli2018weakly
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1806.05804'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications', 'Deep Hashing']
 ---
 Many approaches to semantic image hashing have been formulated as supervised
 learning problems that utilize images and label information to learn the binary

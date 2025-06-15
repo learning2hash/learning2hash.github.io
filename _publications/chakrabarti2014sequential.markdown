@@ -8,7 +8,7 @@ citations: 8
 bibkey: chakrabarti2014sequential
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1412.3103'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods', 'Approximate Nearest Neighbor Search']
 ---
 All pairs similarity search is a problem where a set of data objects is given
 and the task is to find all pairs of objects that have similarity above a

@@ -8,7 +8,7 @@ citations: 13
 bibkey: talreja2019using
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.04139'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 With benefits of fast query speed and low storage cost, hashing-based image
 retrieval approaches have garnered considerable attention from the research

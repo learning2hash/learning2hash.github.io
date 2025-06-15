@@ -9,7 +9,7 @@ bibkey: li2023benchmark
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2305.17497'}
   - {name: "Code", url: 'https://github.com/zhuang-li/FACTUAL'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Has Code']
 ---
 Textual scene graph parsing has become increasingly important in various
 vision-language applications, including image caption evaluation and image

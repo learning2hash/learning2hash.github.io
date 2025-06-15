@@ -8,7 +8,7 @@ citations: 16
 bibkey: xu2020multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2003.10719'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Training Strategy', 'Shallow', 'Compression', 'Datasets', 'Quantization', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization']
 ---
 Hashing is an effective technique to address the large-scale recommendation
 problem, due to its high computation and storage efficiency on calculating the

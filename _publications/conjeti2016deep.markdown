@@ -8,7 +8,7 @@ citations: 3
 bibkey: conjeti2016deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.05400'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Quantisation', 'Retrieval Models', 'Hashing', 'Quantization', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization']
 ---
 Hashing aims at generating highly compact similarity preserving code words
 which are well suited for large-scale image retrieval tasks.

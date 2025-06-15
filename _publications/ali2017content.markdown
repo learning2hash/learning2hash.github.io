@@ -8,7 +8,7 @@ citations: 4
 bibkey: ali2017content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.08492'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications']
 ---
 One of the challenges in Content-Based Image Retrieval (CBIR) is to reduce
 the semantic gaps between low-level features and high-level semantic concepts.

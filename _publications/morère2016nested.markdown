@@ -8,7 +8,7 @@ citations: 12
 bibkey: morère2016nested
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.04595'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Vector Indexing', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'ANN Search']
 ---
 The goal of this work is the computation of very compact binary hashes for
 image instance retrieval. Our approach has two novel contributions. The first

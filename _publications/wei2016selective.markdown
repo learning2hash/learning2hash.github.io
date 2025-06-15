@@ -8,7 +8,7 @@ citations: 363
 bibkey: wei2016selective
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.04994'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
 ---
 Deep convolutional neural network models pre-trained for the ImageNet
 classification task have been successfully adopted to tasks in other domains,

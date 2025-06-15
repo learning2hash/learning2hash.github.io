@@ -8,7 +8,7 @@ citations: 63
 bibkey: silakari2009color
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0910.1849'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['KDD', 'Tools and Libraries', 'Applications']
 ---
 With the advancement in image capturing device, the image data been generated
 at high volume. If images are analyzed properly, they can reveal useful

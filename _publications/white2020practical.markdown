@@ -8,7 +8,7 @@ citations: 1
 bibkey: white2020practical
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.06860'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Blockchain is a relatively new technology that can be seen as a decentralised
 database. Blockchain systems heavily rely on cryptographic hash functions to

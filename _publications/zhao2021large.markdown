@@ -8,7 +8,7 @@ citations: 9
 bibkey: zhao2021large
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2102.04656'}
-tags: ['Deep', 'Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Vector Indexing', 'Hashing']
+tags: ['Evaluation Metrics', 'Efficient Learning', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 Graph-based approximate nearest neighbor search has attracted more and more
 attentions due to its online search advantages. Numbers of methods studying the

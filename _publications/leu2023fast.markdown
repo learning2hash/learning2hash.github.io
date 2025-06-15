@@ -8,7 +8,7 @@ citations: 0
 bibkey: leu2023fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2307.12448'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 Consistent hashing is a technique that can minimize key remapping when the
 number of hash buckets changes. The paper proposes a fast consistent hash

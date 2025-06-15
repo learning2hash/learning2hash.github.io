@@ -8,7 +8,7 @@ citations: 12
 bibkey: kaser2012strongly
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1202.4961'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We present fast strongly universal string hashing families: they can process
 data at a rate of 0.2 CPU cycle per byte. Maybe surprisingly, we find that

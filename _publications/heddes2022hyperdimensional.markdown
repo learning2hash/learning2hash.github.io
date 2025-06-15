@@ -8,7 +8,7 @@ citations: 3
 bibkey: heddes2022hyperdimensional
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2205.07850'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 Most cloud services and distributed applications rely on hashing algorithms
 that allow dynamic scaling of a robust and efficient hash table. Examples

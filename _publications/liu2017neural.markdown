@@ -8,7 +8,7 @@ citations: 0
 bibkey: liu2017neural
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.03957'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 This paper proposed a new explicit nonlinear dimensionality reduction using
 neural networks for image retrieval tasks. We first proposed a Quasi-curvature

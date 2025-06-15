@@ -8,7 +8,7 @@ citations: 10
 bibkey: cao2017transfer
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1712.04616'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Hybrid and Advanced Models', 'Privacy and Security', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Hashing is widely applied to large-scale image retrieval due to the storage
 and retrieval efficiency. Existing work on deep hashing assumes that the

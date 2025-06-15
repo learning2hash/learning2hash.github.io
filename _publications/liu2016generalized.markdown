@@ -8,7 +8,7 @@ citations: 1
 bibkey: liu2016generalized
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1609.05345'}
-tags: ['Quantisation', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Surveys and Reviews', 'Quantization', 'Survey Paper']
+tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Survey Paper', 'Survey', 'Quantization and Compression', 'Tools and Libraries', 'Quantization']
 ---
 Vector quantization is an essential tool for tasks involving large scale
 data, for example, large scale similarity search, which is crucial for

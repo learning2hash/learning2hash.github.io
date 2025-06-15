@@ -8,7 +8,7 @@ citations: 33
 bibkey: rubinstein2018hardness
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1803.00904'}
-tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Vector Indexing']
+tags: ['ANN Search', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 We prove conditional near-quadratic running time lower bounds for approximate
 Bichromatic Closest Pair with Euclidean, Manhattan, Hamming, or edit distance.

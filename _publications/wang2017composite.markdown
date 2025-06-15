@@ -8,7 +8,7 @@ citations: 17
 bibkey: wang2017composite
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1712.00955'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Quantization', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization', 'Indexing and Efficiency']
 ---
 This paper studies the compact coding approach to approximate nearest
 neighbor search. We introduce a composite quantization framework. It uses the

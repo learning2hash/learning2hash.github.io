@@ -8,7 +8,7 @@ citations: 5
 bibkey: pisov2018brain
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1810.09369'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications']
 ---
 Classification-based image retrieval systems are built by training
 convolutional neural networks (CNNs) on a relevant classification problem and

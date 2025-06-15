@@ -8,7 +8,7 @@ citations: 0
 bibkey: mehta2021exploring
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2110.06331'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Applications']
 ---
 Lesion images are frequently taken in open-set settings. Because of this, the
 image data generated is extremely varied in nature.It is difficult for a

@@ -8,7 +8,7 @@ citations: 0
 bibkey: annaji2009parallelization
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0910.4711'}
-tags: ['Deep', 'Quantisation', 'Unimodal', 'Training Strategy', 'Quantization']
+tags: ['Quantization', 'Quantization and Compression']
 ---
 This paper proposes a parallel approach for the Vector Quantization (VQ)
 problem in image processing. VQ deals with codebook generation from the input

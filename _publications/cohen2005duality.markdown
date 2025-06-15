@@ -8,7 +8,7 @@ citations: 2
 bibkey: cohen2005duality
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0507015'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Uncategorized']
 ---
 We investigate the packing and covering densities of linear and nonlinear
 binary codes, and establish a number of duality relationships between the

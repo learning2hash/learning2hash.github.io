@@ -8,7 +8,7 @@ citations: 436
 bibkey: zhang2015bit
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1508.04535'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Deep Hashing', 'Training Strategy', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Extracting informative image features and learning effective approximate
 hashing functions are two crucial steps in image retrieval . Conventional

@@ -8,7 +8,7 @@ citations: 1
 bibkey: esser2021faster
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2102.02597'}
-tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
 ---
 We study the Closest Pair Problem in Hamming metric, which asks to find the
 pair with the smallest Hamming distance in a collection of binary vectors. We

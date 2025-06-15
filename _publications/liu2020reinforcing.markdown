@@ -8,7 +8,7 @@ citations: 0
 bibkey: liu2020reinforcing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.11511'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 Due to the compelling efficiency in retrieval and storage,
 similarity-preserving hashing has been widely applied to approximate nearest

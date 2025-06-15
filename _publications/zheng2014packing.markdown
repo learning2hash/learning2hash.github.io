@@ -8,7 +8,7 @@ citations: 140
 bibkey: zheng2014packing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1402.2681'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Quantization', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
 ---
 In Bag-of-Words (BoW) based image retrieval, the SIFT visual word has a low
 discriminative power, so false positive matches occur prevalently. Apart from

@@ -8,7 +8,7 @@ citations: 11
 bibkey: bender2021iceberg
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.04548'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing and Efficiency']
 ---
 Despite being one of the oldest data structures in computer science, hash
 tables continue to be the focus of a great deal of both theoretical and

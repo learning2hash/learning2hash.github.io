@@ -8,7 +8,7 @@ citations: 7
 bibkey: bibak2020arbitrary
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2010.05420'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Evaluation', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Universal hash functions, discovered by Carter and Wegman in 1979, are of
 great importance in computer science with many applications. MMH\\(^*\\) is a

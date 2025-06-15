@@ -8,7 +8,7 @@ citations: 59
 bibkey: shankar2017deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1703.02344'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['RecSys', 'Tools and Libraries', 'Applications']
 ---
 In this paper, we present a unified end-to-end approach to build a large
 scale Visual Search and Recommendation system for e-commerce. Previous works

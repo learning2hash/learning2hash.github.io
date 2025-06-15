@@ -8,7 +8,7 @@ citations: 1
 bibkey: xu2019computing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.04477'}
-tags: ['Compression', 'Cross-Modal', 'Supervised', 'Deep']
+tags: ['Quantization and Compression']
 ---
 Deep Neural Networks have now achieved state-of-the-art results in a wide
 range of tasks including image classification, object detection and so on.

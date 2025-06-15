@@ -8,7 +8,7 @@ citations: 5
 bibkey: misraa2020multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2010.01666'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Multi-Modal Hashing', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications']
 ---
 Most real world applications of image retrieval such as Adobe Stock, which is
 a marketplace for stock photography and illustrations, need a way for users to

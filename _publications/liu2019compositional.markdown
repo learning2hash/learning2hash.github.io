@@ -8,7 +8,7 @@ citations: 7
 bibkey: liu2019compositional
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.03752'}
-tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'RecSys', 'Tools and Libraries']
 ---
 Efficiency is crucial to the online recommender systems. Representing users
 and items as binary vectors for Collaborative Filtering (CF) can achieve fast

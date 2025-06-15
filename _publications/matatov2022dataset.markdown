@@ -8,7 +8,7 @@ citations: 1
 bibkey: matatov2022dataset
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2203.07167'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Surveys and Reviews', 'Supervised', 'Survey Paper', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Survey', 'Tools and Libraries', 'Survey Paper']
 ---
 The massive spread of visual content through the web and social media poses
 both challenges and opportunities. Tracking visually-similar content is an

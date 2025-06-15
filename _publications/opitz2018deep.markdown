@@ -8,7 +8,7 @@ citations: 85
 bibkey: opitz2018deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1801.04815'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Tools and Libraries', 'Loss Functions', 'Applications']
 ---
 Learning similarity functions between image pairs with deep neural networks
 yields highly correlated activations of embeddings. In this work, we show how

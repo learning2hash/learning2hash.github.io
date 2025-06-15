@@ -8,7 +8,7 @@ citations: 3
 bibkey: teofili2019lucene
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1910.10208'}
-tags: ['Deep', 'Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Applications']
+tags: ['Applications', 'Indexing', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 We demonstrate three approaches for adapting the open-source Lucene search
 library to perform approximate nearest-neighbor search on arbitrary dense

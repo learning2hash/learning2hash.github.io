@@ -8,7 +8,7 @@ citations: 38
 bibkey: chaidaroon2017variational
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1708.03436'}
-tags: ['Model Design', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Supervised', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 As the amount of textual data has been rapidly increasing over the past
 decade, efficient similarity search methods have become a crucial component of

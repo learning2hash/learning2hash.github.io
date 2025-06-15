@@ -8,7 +8,7 @@ citations: 0
 bibkey: kokkala2015coloring
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.06913'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Uncategorized']
 ---
 Let \\(\chi_\{\bar\{k\}\}(n)\\) be the number of colors required to color the
 \\(n\\)-dimensional hypercube such that no two vertices with the same color are at

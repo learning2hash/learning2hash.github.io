@@ -8,7 +8,7 @@ citations: 607
 bibkey: chen2015compressing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1504.04788'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals']
 ---
 As deep nets are increasingly used in applications suited for mobile devices,
 a fundamental dilemma becomes apparent: the trend in deep learning is to grow

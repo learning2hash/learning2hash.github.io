@@ -8,7 +8,7 @@ citations: 27
 bibkey: tarawneh2018deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1812.05490'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Tools and Libraries', 'Efficient Learning', 'Applications']
 ---
 Facial image retrieval is a challenging task since faces have many similar
 features (areas), which makes it difficult for the retrieval systems to

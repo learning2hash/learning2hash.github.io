@@ -8,7 +8,7 @@ citations: 400
 bibkey: gordo2016deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.01325'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Training Strategy', 'Applications']
+tags: ['Indexing', 'Tools and Libraries', 'Applications']
 ---
 We propose a novel approach for instance-level image retrieval. It produces a
 global and compact fixed-length representation for each image by aggregating

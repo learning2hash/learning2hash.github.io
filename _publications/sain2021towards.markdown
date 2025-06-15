@@ -8,7 +8,7 @@ citations: 69
 bibkey: sain2021towards
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2103.15706'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Unsupervised', 'Retrieval Models', 'Multi-Modal Hashing', 'Applications']
+tags: ['Tools and Libraries', 'Applications']
 ---
 Sketch-based image retrieval (SBIR) is a cross-modal matching problem which
 is typically solved by learning a joint embedding space where the semantic

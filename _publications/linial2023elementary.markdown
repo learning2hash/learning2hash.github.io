@@ -8,7 +8,7 @@ citations: 0
 bibkey: linial2023elementary
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2303.16619'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Uncategorized']
 ---
 The asymptotic rate vs. distance problem is a long-standing fundamental
 problem in coding theory. The best upper bound to date was given in 1977 and

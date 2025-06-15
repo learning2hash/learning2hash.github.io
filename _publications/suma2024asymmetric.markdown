@@ -9,7 +9,7 @@ bibkey: suma2024asymmetric
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2408.03282'}
   - {name: "Code", url: 'https://github.com/pavelsuma/ames'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Has Code', 'Applications']
+tags: ['Evaluation Metrics', 'Efficient Learning', 'Has Code', 'Applications']
 ---
 This work investigates the problem of instance-level image retrieval
 re-ranking with the constraint of memory efficiency, ultimately aiming to limit

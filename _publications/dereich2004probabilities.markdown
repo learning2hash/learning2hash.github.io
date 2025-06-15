@@ -8,7 +8,7 @@ citations: 10
 bibkey: dereich2004probabilities
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/math/0402220'}
-tags: ['Unimodal', 'Quantization', 'Deep', 'Quantisation']
+tags: ['Quantization', 'Quantization and Compression']
 ---
 We investigate the Gaussian small ball probabilities with random centers,
 find their deterministic a.s.-equivalents and establish a relation to

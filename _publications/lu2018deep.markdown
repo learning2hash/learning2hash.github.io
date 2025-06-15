@@ -8,7 +8,7 @@ citations: 8
 bibkey: lu2018deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1806.03574'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Deep Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Efficient Learning', 'Indexing', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Many mobile systems and wearable devices, such as Virtual Reality (VR) or
 Augmented Reality (AR) headsets, lack a keyboard or touchscreen to type an ID

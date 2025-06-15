@@ -9,7 +9,7 @@ bibkey: artetxe2018massively
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1812.10464'}
   - {name: "Code", url: 'https://github.com/facebookresearch/LASER'}
-tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Has Code', 'Supervised']
+tags: ['ANN Search', 'Has Code', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 We introduce an architecture to learn joint multilingual sentence
 representations for 93 languages, belonging to more than 30 different families

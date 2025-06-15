@@ -8,7 +8,7 @@ citations: 10
 bibkey: wang2017supervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1704.02088'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Deep Hashing']
 ---
 Recently, hashing methods have been widely used in large-scale image
 retrieval. However, most existing hashing methods did not consider the

@@ -8,7 +8,7 @@ citations: 4
 bibkey: kumar2018automatic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1812.04215'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Indexing', 'Tools and Libraries', 'Benchmarks and Datasets', 'Hashing for Real-World Applications']
 ---
 Content-based image retrieval (CBIR) is one of the most active research areas
 in multimedia information retrieval. Given a query image, the task is to search

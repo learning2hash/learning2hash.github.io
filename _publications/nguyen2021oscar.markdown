@@ -8,7 +8,7 @@ citations: 10
 bibkey: nguyen2021oscar
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2108.03541'}
-tags: ['Cross-Modal', 'Shallow', 'Vector Indexing', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'ANN Search']
 ---
 Images tell powerful stories but cannot always be trusted. Matching images
 back to trusted sources (attribution) enables users to make a more informed

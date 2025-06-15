@@ -8,7 +8,7 @@ citations: 0
 bibkey: fernandez2022active
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.10620'}
-tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization']
 ---
 Image copy detection and retrieval from large databases leverage two
 components. First, a neural network maps an image to a vector representation,

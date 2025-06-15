@@ -8,7 +8,7 @@ citations: 18
 bibkey: iscen2014memory
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1412.3328'}
-tags: ['Retrieval Models', 'Unimodal', 'Independent', 'Shallow']
+tags: ['Indexing', 'Approximate Nearest Neighbor Search']
 ---
 We study an indexing architecture to store and search in a database of
 high-dimensional vectors from the perspective of statistical signal processing

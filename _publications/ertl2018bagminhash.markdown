@@ -8,7 +8,7 @@ citations: 29
 bibkey: ertl2018bagminhash
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1802.03914'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Minwise hashing has become a standard tool to calculate signatures which
 allow direct estimation of Jaccard similarities. While very efficient

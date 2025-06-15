@@ -8,7 +8,7 @@ citations: 0
 bibkey: ferragina2023learned
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2304.11012'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 A Monotone Minimal Perfect Hash Function (MMPHF) constructed on a set S of
 keys is a function that maps each key in S to its rank. On keys not in S, the

@@ -8,7 +8,7 @@ citations: 18
 bibkey: connor2016hilbert
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.08640'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Vector Indexing']
+tags: ['Indexing', 'ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 Most research into similarity search in metric spaces relies upon the
 triangle inequality property. This property allows the space to be arranged

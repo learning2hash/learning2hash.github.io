@@ -8,7 +8,7 @@ citations: 0
 bibkey: tian2017semi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1712.03404'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Modality-Specific Hashing', 'Hashing Methods', 'Multi-Modal Hashing']
 ---
 Retrieving nearest neighbors across correlated data in multiple modalities,
 such as image-text pairs on Facebook and video-tag pairs on YouTube, has become

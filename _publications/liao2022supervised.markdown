@@ -9,7 +9,7 @@ bibkey: liao2022supervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.01908'}
   - {name: "Code", url: 'https://github.com/Chris210634/metric-learning-using-contextual-similarity'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Has Code', 'Supervised', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Evaluation Metrics', 'Loss Functions', 'Has Code', 'Applications']
 ---
 There is extensive interest in metric learning methods for image retrieval.
 Many metric learning loss functions focus on learning a correct ranking of

@@ -8,7 +8,7 @@ citations: 12
 bibkey: li2023dual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2310.08009'}
-tags: ['Model Design', 'Retrieval Models', 'Unimodal', 'Shallow', 'Supervised', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 Unsupervised video hashing usually optimizes binary codes by learning to
 reconstruct input videos. Such reconstruction constraint spends much effort on

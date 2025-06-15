@@ -8,7 +8,7 @@ citations: 80
 bibkey: wang2014optimized
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1405.4054'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization', 'Hashing']
+tags: ['Approximate Nearest Neighbor Search', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Quantization']
 ---
 Product quantization-based approaches are effective to encode
 high-dimensional data points for approximate nearest neighbor search. The space

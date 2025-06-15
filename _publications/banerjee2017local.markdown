@@ -8,7 +8,7 @@ citations: 71
 bibkey: banerjee2017local
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1709.02463'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Applications']
+tags: ['Evaluation Metrics', 'Efficient Learning', 'Applications']
 ---
 In this paper, a new texture descriptor based on the local neighborhood
 intensity difference is proposed for content based image retrieval (CBIR). For

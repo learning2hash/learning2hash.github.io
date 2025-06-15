@@ -8,7 +8,7 @@ citations: 27
 bibkey: hoang2021multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.06489'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Evaluation', 'Datasets', 'Vector Indexing', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Multi-Modal Hashing']
 ---
 In this paper, we adopt the maximizing mutual information (MI) approach to
 tackle the problem of unsupervised learning of binary hash codes for efficient

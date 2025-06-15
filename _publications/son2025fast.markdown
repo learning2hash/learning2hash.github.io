@@ -9,7 +9,7 @@ bibkey: son2025fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2501.01046'}
   - {name: "Code", url: 'https://github.com/mcrl/FED}{https://github.com/mcrl/FED})'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Has Code', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Has Code', 'Tools and Libraries']
 ---
 Dataset deduplication plays a crucial role in enhancing data quality,
 ultimately improving the training performance and efficiency of large language

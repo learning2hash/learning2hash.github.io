@@ -8,7 +8,7 @@ citations: 19
 bibkey: zhao2022progressive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2204.11212'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Image retrieval with hybrid-modality queries, also known as composing text
 and image for image retrieval (CTI-IR), is a retrieval task where the search

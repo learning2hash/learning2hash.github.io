@@ -8,7 +8,7 @@ citations: 6
 bibkey: maier2016concurrent
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1601.04017'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Efficient Learning', 'Hashing Fundamentals', 'Indexing and Efficiency']
 ---
 Concurrent hash tables are one of the most important concurrent data
 structures with numerous applications. Since hash table accesses can dominate

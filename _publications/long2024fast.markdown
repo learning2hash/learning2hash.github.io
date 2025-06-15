@@ -9,7 +9,7 @@ bibkey: long2024fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2402.15276'}
   - {name: "Code", url: 'https://github.com/longkukuhi/CFIR'}
-tags: ['Cross-Modal', 'Model Design', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Has Code', 'Applications']
 ---
 Text-to-image retrieval aims to find the relevant images based on a text
 query, which is important in various use-cases, such as digital libraries,

@@ -8,7 +8,7 @@ citations: 8
 bibkey: luo2018collaborative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1809.09329'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 Hashing techniques are in great demand for a wide range of real-world
 applications such as image retrieval and network compression. Nevertheless,

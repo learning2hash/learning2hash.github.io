@@ -8,7 +8,7 @@ citations: 112
 bibkey: yang2016zero
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1606.05032'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Hashing has shown its efficiency and effectiveness in facilitating
 large-scale multimedia applications. Supervised knowledge e.g. semantic labels

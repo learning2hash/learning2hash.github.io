@@ -8,7 +8,7 @@ citations: 55
 bibkey: li2016learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.09161'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Applications', 'ANN Search']
 ---
 Real-world image recognition systems need to recognize tens of thousands of
 classes that constitute a plethora of visual concepts. The traditional approach

@@ -8,7 +8,7 @@ citations: 0
 bibkey: lin2016structured
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1602.06654'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Training Strategy', 'Similarity Learning', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies']
 ---
 Hashing methods aim to learn a set of hash functions which map the original
 features to compact binary codes with similarity preserving in the Hamming

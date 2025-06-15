@@ -8,7 +8,7 @@ citations: 5
 bibkey: li2012b
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1205.2958'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 In this paper, we study several critical issues which must be tackled before
 one can apply b-bit minwise hashing to the volumes of data often used

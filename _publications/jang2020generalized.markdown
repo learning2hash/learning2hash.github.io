@@ -8,7 +8,7 @@ citations: 35
 bibkey: jang2020generalized
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2002.11281'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Quantization', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
 ---
 Image retrieval methods that employ hashing or vector quantization have
 achieved great success by taking advantage of deep learning. However, these

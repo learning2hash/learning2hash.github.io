@@ -8,7 +8,7 @@ citations: 0
 bibkey: desai2024identity
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2406.14901'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing']
 ---
 Gene sequence search is a fundamental operation in computational genomics.
 Due to the petabyte scale of genome archives, most gene search systems now use

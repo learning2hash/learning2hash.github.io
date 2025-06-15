@@ -8,7 +8,7 @@ citations: 12
 bibkey: dahlgaard2014hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1411.7191'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 In this paper we analyze a hash function for \\(k\\)-partitioning a set into
 bins, obtaining strong concentration bounds for standard algorithms combining

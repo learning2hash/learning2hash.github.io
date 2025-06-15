@@ -8,7 +8,7 @@ citations: 3
 bibkey: sète2013some
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1306.1347'}
-tags: ['Unsupervised', 'Cross-Modal', 'Shallow', 'Vector Indexing']
+tags: ['ANN Search']
 ---
 Walsh introduced a generalisation of Faber polynomials to certain compact
 sets which need not be connected. We derive several equivalent representations

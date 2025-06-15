@@ -8,7 +8,7 @@ citations: 12
 bibkey: dai2022multi
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2201.05007'}
-tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Multi-Modal Hashing', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Fine-grained sketch-based image retrieval (FG-SBIR) addresses the problem of
 retrieving a particular photo in a given query sketch. However, its widespread

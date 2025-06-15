@@ -8,7 +8,7 @@ citations: 5
 bibkey: burlacu2021hash
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2107.10640'}
-tags: ['Unimodal', 'Shallow', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
 ---
 We introduce in this paper a runtime-efficient tree hashing algorithm for the
 identification of isomorphic subtrees, with two important applications in

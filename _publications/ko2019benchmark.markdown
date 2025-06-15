@@ -8,7 +8,7 @@ citations: 1
 bibkey: ko2019benchmark
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1907.11854'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Similarity Learning', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Many studies have been performed on metric learning, which has become a key
 ingredient in top-performing methods of instance-level image retrieval.

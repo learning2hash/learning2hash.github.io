@@ -8,7 +8,7 @@ citations: 52
 bibkey: wang2019supervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1902.00617'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Training Strategy', 'Shallow', 'Hashing', 'Datasets', 'Quantization', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization']
 ---
 In this paper, we address the problem of searching for semantically similar
 images from a large database. We present a compact coding approach, supervised

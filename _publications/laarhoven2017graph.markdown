@@ -8,7 +8,7 @@ citations: 5
 bibkey: laarhoven2017graph
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1712.03158'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing']
+tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 We take a first step towards a rigorous asymptotic analysis of graph-based
 approaches for finding (approximate) nearest neighbors in high-dimensional

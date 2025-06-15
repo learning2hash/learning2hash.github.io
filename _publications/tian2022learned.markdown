@@ -8,7 +8,7 @@ citations: 8
 bibkey: tian2022learned
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2204.10028'}
-tags: ['Deep', 'Unsupervised', 'Retrieval Models', 'Unimodal', 'Datasets', 'Vector Indexing']
+tags: ['Evaluation Metrics', 'Indexing', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 Indexing is an effective way to support efficient query processing in large
 databases. Recently the concept of learned index, which replaces or complements

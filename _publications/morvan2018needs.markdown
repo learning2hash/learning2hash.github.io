@@ -8,7 +8,7 @@ citations: 2
 bibkey: morvan2018needs
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1802.03936'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Quantization', 'Hashing']
+tags: ['Hashing Fundamentals', 'Quantization', 'Hashing Methods', 'Quantization and Compression']
 ---
 The aim of this paper is to endow the well-known family of hypercubic
 quantization hashing methods with theoretical guarantees. In hypercubic

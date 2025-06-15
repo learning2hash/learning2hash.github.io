@@ -8,7 +8,7 @@ citations: 2
 bibkey: yang2022federated
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.05525'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Training Strategy', 'Similarity Learning', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Deep Hashing']
 ---
 Deep hashing has been widely applied in large-scale data retrieval due to its
 superior retrieval efficiency and low storage cost. However, data are often

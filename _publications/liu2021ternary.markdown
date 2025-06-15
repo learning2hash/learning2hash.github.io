@@ -8,7 +8,7 @@ citations: 0
 bibkey: liu2021ternary
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2103.09173'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
 ---
 This paper proposes a novel ternary hash encoding for learning to hash
 methods, which provides a principled more efficient coding scheme with

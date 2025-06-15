@@ -8,7 +8,7 @@ citations: 0
 bibkey: hyvönen2015fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1509.06957'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Indexing', 'RecSys', 'ANN Search', 'Hashing Fundamentals']
 ---
 Efficient index structures for fast approximate nearest neighbor queries are
 required in many applications such as recommendation systems. In

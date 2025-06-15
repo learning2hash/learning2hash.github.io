@@ -8,7 +8,7 @@ citations: 9
 bibkey: taherkhani2020error
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2004.03378'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Cross-modal hashing facilitates mapping of heterogeneous multimedia data into
 a common Hamming space, which can beutilized for fast and flexible retrieval

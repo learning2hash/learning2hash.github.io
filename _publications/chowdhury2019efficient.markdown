@@ -8,7 +8,7 @@ citations: 2
 bibkey: chowdhury2019efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.09761'}
-tags: ['Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Supervised']
+tags: ['Indexing and Efficiency', 'Indexing', 'Tools and Libraries']
 ---
 This paper describes a new approach, called Terminological Bucket Indexing
 (TBI), for efficient indexing and retrieval of both nested and super terms

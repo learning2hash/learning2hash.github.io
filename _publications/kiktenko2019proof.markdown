@@ -8,7 +8,7 @@ citations: 1
 bibkey: kiktenko2019proof
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.12993'}
-tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 In the present work, a peculiar property of hash-based signatures allowing
 detection of their forgery event is explored. This property relies on the fact

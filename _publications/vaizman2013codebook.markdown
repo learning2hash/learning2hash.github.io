@@ -8,7 +8,7 @@ citations: 35
 bibkey: vaizman2013codebook
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1312.5457'}
-tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Quantization', 'Applications']
+tags: ['Applications', 'Indexing', 'Quantization and Compression', 'RecSys', 'ANN Search', 'Quantization']
 ---
 Digital music has become prolific in the web in recent decades. Automated
 recommendation systems are essential for users to discover music they love and

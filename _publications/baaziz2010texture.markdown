@@ -8,7 +8,7 @@ citations: 21
 bibkey: baaziz2010texture
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1012.5208'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Surveys and Reviews', 'Applications']
+tags: ['Survey Paper', 'Hashing for Real-World Applications', 'Applications']
 ---
 The advent of large scale multimedia databases has led to great challenges in
 content-based image retrieval (CBIR). Even though CBIR is considered an

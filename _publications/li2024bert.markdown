@@ -9,7 +9,7 @@ bibkey: li2024bert
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2404.08836'}
   - {name: "Code", url: 'https://github.com/leo4life2/algoml-final'}
-tags: ['Efficiency', 'Unimodal', 'Shallow', 'Has Code', 'Supervised', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Has Code']
 ---
 This study introduces a novel BERT-LSH model that incorporates Locality
 Sensitive Hashing (LSH) to approximate the attention mechanism in the BERT

@@ -8,7 +8,7 @@ citations: 1
 bibkey: islam2010miniature
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1008.3346'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Applications']
+tags: ['Indexing', 'Applications']
 ---
 Due to the rapid development of World Wide Web (WWW) and imaging technology,
 more and more images are available in the Internet and stored in databases.

@@ -8,7 +8,7 @@ citations: 1
 bibkey: mou2016refined
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.04571'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Near neighbor problems are fundamental in algorithms for high-dimensional
 Euclidean spaces. While classical approaches suffer from the curse of

@@ -8,7 +8,7 @@ citations: 2
 bibkey: gajic2019bag
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1908.02391'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Training a Siamese architecture for re-identification with a large number of
 identities is a challenging task due to the difficulty of finding relevant

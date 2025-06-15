@@ -8,7 +8,7 @@ citations: 22
 bibkey: yang2019feature
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.02325'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Deep Hashing', 'Supervised', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 In recent years, deep-networks-based hashing has become a leading approach
 for large-scale image retrieval. Most deep hashing approaches use the high

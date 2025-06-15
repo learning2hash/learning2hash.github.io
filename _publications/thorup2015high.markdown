@@ -8,7 +8,7 @@ citations: 21
 bibkey: thorup2015high
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1504.06804'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 These notes describe the most efficient hash functions currently known for
 hashing integers and strings. These modern hash functions are often an order of

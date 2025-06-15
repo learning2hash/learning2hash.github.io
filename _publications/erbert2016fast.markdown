@@ -8,7 +8,7 @@ citations: 4
 bibkey: erbert2016fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1607.06618'}
-tags: ['Cross-Modal', 'Supervised', 'Shallow']
+tags: ['Indexing and Efficiency']
 ---
 A basic task in bioinformatics is the counting of \\(k\\)-mers in genome strings.
 The \\(k\\)-mer counting problem is to build a histogram of all substrings of

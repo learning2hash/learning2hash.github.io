@@ -8,7 +8,7 @@ citations: 1
 bibkey: chen2023homomorphic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2302.03290'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 For avoiding the exposure of plaintexts in cloud environments, some
 homomorphic hashing algorithms have been proposed to generate the hash value of

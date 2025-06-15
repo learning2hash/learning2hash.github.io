@@ -8,7 +8,7 @@ citations: 1
 bibkey: zubarev2008wet
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/0808.2486'}
-tags: ['Cross-Modal', 'Quantisation', 'Benchmarks and Tools', 'Shallow', 'Vector Indexing']
+tags: ['ANN Search']
 ---
 We propose a new method to embed data in binary images, including scanned
 text, figures, and signatures. Our method relies on the concept of wet paper

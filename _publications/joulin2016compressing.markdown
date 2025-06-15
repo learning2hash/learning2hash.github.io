@@ -8,7 +8,7 @@ citations: 870
 bibkey: joulin2016compressing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.03651'}
-tags: ['Quantisation', 'Unimodal', 'Shallow', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization']
 ---
 We consider the problem of producing compact architectures for text
 classification, such that the full model fits in a limited amount of memory.

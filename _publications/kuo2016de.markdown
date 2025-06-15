@@ -8,7 +8,7 @@ citations: 4
 bibkey: kuo2016de
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1606.08999'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Hashing for Real-World Applications']
 ---
 Due to the prevalence of mobile devices, mobile search becomes a more
 convenient way than desktop search. Different from the traditional desktop

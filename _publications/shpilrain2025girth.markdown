@@ -8,7 +8,7 @@ citations: 0
 bibkey: shpilrain2025girth
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2502.13197'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
+tags: ['Hashing Fundamentals', 'Survey Paper', 'Hashing Methods', 'Survey']
 ---
 Cayley hash functions are based on a simple idea of using a pair of semigroup
 elements, A and B, to hash the 0 and 1 bit, respectively, and then to hash an

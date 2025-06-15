@@ -8,7 +8,7 @@ citations: 2
 bibkey: brogan2019dynamic
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1903.10019'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Hashing for Real-World Applications', 'Applications']
 ---
 Images from social media can reflect diverse viewpoints, heated arguments,
 and expressions of creativity, adding new complexity to retrieval tasks.

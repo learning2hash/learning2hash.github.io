@@ -8,7 +8,7 @@ citations: 5
 bibkey: magliani2018efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1806.05946'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Hashing for Real-World Applications']
 ---
 The problem of landmark recognition has achieved excellent results in
 small-scale datasets. When dealing with large-scale retrieval, issues that were

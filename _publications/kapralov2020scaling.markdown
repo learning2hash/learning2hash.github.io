@@ -8,7 +8,7 @@ citations: 7
 bibkey: kapralov2020scaling
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2003.09756'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Random binning features, introduced in the seminal paper of Rahimi and Recht
 (2007), are an efficient method for approximating a kernel matrix using

@@ -9,7 +9,7 @@ bibkey: ma2023let
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2312.09716'}
   - {name: "Code", url: 'https://github.com/Maryeon/whiten_mtd'}
-tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Has Code', 'Applications']
 ---
 Visual retrieval aims to search for the most relevant visual items, e.g.,
 images and videos, from a candidate gallery with a given query item. Accuracy

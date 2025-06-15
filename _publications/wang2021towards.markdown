@@ -8,7 +8,7 @@ citations: 0
 bibkey: wang2021towards
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2105.05130'}
-tags: ['Deep', 'Unsupervised', 'Unimodal', 'Vector Indexing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing']
 ---
 As data volumes continue to grow, clustering and outlier detection algorithms
 are becoming increasingly time-consuming. Classical index structures for

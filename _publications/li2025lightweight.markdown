@@ -8,7 +8,7 @@ citations: 0
 bibkey: li2025lightweight
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2502.19751'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Modality-Specific Hashing', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Deep online cross-modal hashing has gained much attention from researchers
 recently, as its promising applications with low storage requirement, fast

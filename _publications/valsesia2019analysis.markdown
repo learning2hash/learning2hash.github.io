@@ -8,7 +8,7 @@ citations: 3
 bibkey: valsesia2019analysis
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1909.01802'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 Embeddings provide compact representations of signals in order to perform
 efficient inference in a wide variety of tasks. In particular, random

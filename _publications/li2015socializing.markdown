@@ -8,7 +8,7 @@ citations: 141
 bibkey: li2015socializing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1503.08248'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Surveys and Reviews', 'Training Strategy', 'Survey Paper', 'Applications']
+tags: ['Survey Paper', 'Hashing for Real-World Applications', 'Survey', 'Applications']
 ---
 Where previous reviews on content-based image retrieval emphasize on what can
 be seen in an image to bridge the semantic gap, this survey considers what

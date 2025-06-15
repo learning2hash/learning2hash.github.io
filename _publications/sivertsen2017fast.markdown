@@ -8,7 +8,7 @@ citations: 0
 bibkey: sivertsen2017fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1707.06867'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing']
+tags: ['ANN Search', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 We show an analog to the Fast Johnson-Lindenstrauss Transform for Nearest
 Neighbor Preserving Embeddings in \\(ℓ₂\\). These are sparse, randomized

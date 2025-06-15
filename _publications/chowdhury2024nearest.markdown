@@ -8,7 +8,7 @@ citations: 0
 bibkey: chowdhury2024nearest
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2410.24114'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications']
 ---
 Multimodal models leverage large-scale pre-training to achieve strong but
 still imperfect performance on tasks such as image captioning, visual question

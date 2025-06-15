@@ -8,7 +8,7 @@ citations: 3
 bibkey: silcock2022noise
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2210.04261'}
-tags: ['Cross-Modal', 'Model Design', 'Evaluation', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 Identifying near duplicates within large, noisy text corpora has a myriad of
 applications that range from de-duplicating training datasets, reducing privacy

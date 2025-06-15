@@ -8,7 +8,7 @@ citations: 59
 bibkey: xu2017cross
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1705.09888'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Sketch-based image retrieval (SBIR) is challenging due to the inherent
 domain-gap between sketch and photo. Compared with pixel-perfect depictions of

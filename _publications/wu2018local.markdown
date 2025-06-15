@@ -8,7 +8,7 @@ citations: 3
 bibkey: wu2018local
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1809.07471'}
-tags: ['Unsupervised', 'Unimodal', 'Deep', 'Hashing']
+tags: ['Hashing Fundamentals', 'Indexing and Efficiency', 'Hashing Methods', 'Tools and Libraries']
 ---
 An important question that arises in the study of high dimensional vector
 representations learned from data is: given a set \\(\mathcal\{D\}\\) of vectors and

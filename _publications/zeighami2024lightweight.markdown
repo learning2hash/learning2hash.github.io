@@ -8,7 +8,7 @@ citations: 0
 bibkey: zeighami2024lightweight
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2409.02343'}
-tags: ['Model Design', 'Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications', 'ANN Search']
 ---
 \\(k\\)-Nearest Neighbor search on dense vector embeddings (\\(k\\)-NN retrieval)
 from pre-trained embedding models is the predominant retrieval method for text

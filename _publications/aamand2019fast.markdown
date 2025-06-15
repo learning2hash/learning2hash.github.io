@@ -8,7 +8,7 @@ citations: 2
 bibkey: aamand2019fast
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.00369'}
-tags: ['Cross-Modal', 'Supervised', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Previous work on tabulation hashing by Patrascu and Thorup from STOC'11 on
 simple tabulation and from SODA'13 on twisted tabulation offered Chernoff-style

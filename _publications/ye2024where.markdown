@@ -8,7 +8,7 @@ citations: 0
 bibkey: ye2024where
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.17007'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications', 'ANN Search']
 ---
 Cross-view geo-localization identifies the locations of street-view images by
 matching them with geo-tagged satellite images or OSM. However, most existing

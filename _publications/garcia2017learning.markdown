@@ -8,7 +8,7 @@ citations: 31
 bibkey: garcia2017learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1709.01353'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Supervised', 'Applications']
+tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications']
 ---
 Measuring visual similarity between two or more instances within a data
 distribution is a fundamental task in image retrieval. Theoretically,

@@ -9,7 +9,7 @@ bibkey: wu2024training
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2409.04918'}
   - {name: "Code", url: 'https://github.com/whats2000/WeiMoCIR'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications', 'ANN Search']
 ---
 Composed image retrieval (CIR), which formulates the query as a combination
 of a reference image and modified text, has emerged as a new form of image

@@ -8,7 +8,7 @@ citations: 1
 bibkey: fusy2023count
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2302.05245'}
-tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 Conservative Count-Min, an improved version of Count-Min sketch [Cormode,
 Muthukrishnan 2005], is an online-maintained hashing-based data structure

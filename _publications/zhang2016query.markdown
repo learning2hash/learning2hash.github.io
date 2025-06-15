@@ -8,7 +8,7 @@ citations: 46
 bibkey: zhang2016query
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.02541'}
-tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Evaluation', 'Datasets', 'Deep Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Hashing methods have attracted much attention for large scale image
 retrieval. Some deep hashing methods have achieved promising results by taking

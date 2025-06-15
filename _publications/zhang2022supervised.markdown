@@ -8,7 +8,7 @@ citations: 0
 bibkey: zhang2022supervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2206.14523'}
-tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Deep Hashing', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Quantization', 'Deep Hashing']
 ---
 Case-based Reasoning (CBR) on high-dimensional and heterogeneous data is a
 trending yet challenging and computationally expensive task in the real world.

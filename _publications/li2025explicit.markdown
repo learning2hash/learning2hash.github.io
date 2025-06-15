@@ -9,7 +9,7 @@ bibkey: li2025explicit
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2503.21309'}
   - {name: "Code", url: 'https://github.com/SDU-L/FineCIR.git'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Conferences', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'ECIR', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Has Code']
 ---
 Composed Image Retrieval (CIR) facilitates image retrieval through a
 multimodal query consisting of a reference image and modification text. The

@@ -8,7 +8,7 @@ citations: 45
 bibkey: paulin2016convolutional
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.00438'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Convolutional neural networks (CNNs) have recently received a lot of
 attention due to their ability to model local stationary structures in natural

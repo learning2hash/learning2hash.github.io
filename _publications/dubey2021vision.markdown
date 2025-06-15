@@ -9,7 +9,7 @@ bibkey: dubey2021vision
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.12564'}
   - {name: "Code", url: 'https://github.com/shivram1987/VisionTransformerHashing'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Hashing', 'Datasets', 'Has Code', 'Deep Hashing', 'Quantization', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization', 'Deep Hashing', 'Has Code', 'Graph and Transformer Models']
 ---
 Deep learning has shown a tremendous growth in hashing techniques for image
 retrieval. Recently, Transformer has emerged as a new architecture by utilizing

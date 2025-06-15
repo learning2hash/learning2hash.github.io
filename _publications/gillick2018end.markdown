@@ -8,7 +8,7 @@ citations: 81
 bibkey: gillick2018end
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1811.08008'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Similarity Learning']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Indexing', 'ANN Search']
 ---
 Most text-based information retrieval (IR) systems index objects by words or
 phrases. These discrete systems have been augmented by models that use

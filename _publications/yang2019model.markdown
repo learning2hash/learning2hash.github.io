@@ -8,7 +8,7 @@ citations: 4
 bibkey: yang2019model
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1905.03362'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Compression', 'Quantization', 'Applications']
+tags: ['Quantization', 'Quantization and Compression', 'Applications']
 ---
 Image retrieval utilizes image descriptors to retrieve the most similar
 images to a given query image. Convolutional neural network (CNN) is becoming

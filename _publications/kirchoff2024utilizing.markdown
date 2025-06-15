@@ -8,7 +8,7 @@ citations: 2
 bibkey: kirchoff2024utilizing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2402.07970'}
-tags: ['Unsupervised', 'Retrieval Models', 'Shallow', 'Cross-Modal']
+tags: ['Evaluation Metrics', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 Nearest neighbor-based similarity searching is a common task in chemistry,
 with notable use cases in drug discovery. Yet, some of the most commonly used

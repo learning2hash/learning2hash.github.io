@@ -8,7 +8,7 @@ citations: 3
 bibkey: li2011b
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1105.4385'}
-tags: ['Efficiency', 'Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 In this paper, we propose to (seamlessly) integrate b-bit minwise hashing
 with linear SVM to substantially improve the training (and testing) efficiency

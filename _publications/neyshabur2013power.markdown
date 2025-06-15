@@ -8,7 +8,7 @@ citations: 57
 bibkey: neyshabur2013power
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1311.7662'}
-tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
 ---
 When approximating binary similarity using the hamming distance between short
 binary hashes, we show that even if the similarity is symmetric, we can have

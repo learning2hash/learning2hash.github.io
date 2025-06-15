@@ -8,7 +8,7 @@ citations: 0
 bibkey: rabbani2023large
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2306.02563'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Indexing and Efficiency', 'Hashing Methods', 'Tools and Libraries']
 ---
 Locality-sensitive hashing (LSH) based frameworks have been used efficiently
 to select weight vectors in a dense hidden layer with high cosine similarity to

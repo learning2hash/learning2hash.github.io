@@ -8,7 +8,7 @@ citations: 0
 bibkey: choromanski2015efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1505.03190'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We present here new mechanisms for hashing data via binary embeddings.
 Contrary to most of the techniques presented before, the embedding matrix of

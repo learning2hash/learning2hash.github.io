@@ -8,7 +8,7 @@ citations: 1
 bibkey: ram2021federated
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2112.07157'}
-tags: ['Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy']
+tags: ['Efficient Learning', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
 ---
 The mathematical formalization of a neurological mechanism in the olfactory
 circuit of a fruit-fly as a locality sensitive hash (Flyhash) and bloom filter

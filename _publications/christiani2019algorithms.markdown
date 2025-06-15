@@ -8,7 +8,7 @@ citations: 0
 bibkey: christiani2019algorithms
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1906.09430'}
-tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Vector Indexing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
 ---
 We study the problem of approximate near neighbor (ANN) search and show the
 following results:

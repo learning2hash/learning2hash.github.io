@@ -9,7 +9,7 @@ bibkey: gella2016unsupervised
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1603.09188'}
   - {name: "Code", url: 'https://github.com/spandanagella/verse'}
-tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Applications']
+tags: ['Tools and Libraries', 'Has Code', 'Applications', 'ANN Search']
 ---
 We introduce a new task, visual sense disambiguation for verbs: given an
 image and a verb, assign the correct sense of the verb, i.e., the one that

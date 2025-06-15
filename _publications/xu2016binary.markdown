@@ -8,7 +8,7 @@ citations: 2
 bibkey: xu2016binary
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1612.01657'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
 ---
 The query-by-image video retrieval (QBIVR) task has been attracting
 considerable research attention recently. However, most existing methods

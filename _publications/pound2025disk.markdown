@@ -8,7 +8,7 @@ citations: 0
 bibkey: pound2025disk
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2504.05573'}
-tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Efficient Learning', 'Indexing', 'Tools and Libraries']
 ---
 Nearest neighbour search over dense vector collections has important
 applications in information retrieval, retrieval augmented generation (RAG),

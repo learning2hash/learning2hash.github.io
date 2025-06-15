@@ -8,7 +8,7 @@ citations: 2
 bibkey: lu2021deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2110.12478'}
-tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Quantization', 'Similarity Learning', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Quantization', 'Deep Hashing']
 ---
 Recently, deep hashing methods have been widely used in image retrieval task.
 Most existing deep hashing approaches adopt one-to-one quantization to reduce

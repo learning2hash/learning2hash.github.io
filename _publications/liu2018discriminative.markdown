@@ -8,7 +8,7 @@ citations: 4
 bibkey: liu2018discriminative
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1804.01233'}
-tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Training Strategy', 'Datasets', 'Vector Indexing', 'Quantization', 'Multi-Modal Hashing', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Quantization and Compression', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Learning Strategies', 'Quantization', 'Multi-Modal Hashing']
 ---
 Learning compact representation is vital and challenging for large scale
 multimedia data. Cross-view/cross-modal hashing for effective binary

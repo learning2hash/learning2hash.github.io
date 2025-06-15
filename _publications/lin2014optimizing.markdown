@@ -8,7 +8,7 @@ citations: 13
 bibkey: lin2014optimizing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1407.1151'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Hashing has proven a valuable tool for large-scale information retrieval.
 Despite much success, existing hashing methods optimize over simple objectives

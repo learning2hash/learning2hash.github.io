@@ -8,7 +8,7 @@ citations: 14
 bibkey: yu2015binary
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1511.06480'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
+tags: ['Uncategorized']
 ---
 Binary embeddings provide efficient and powerful ways to perform operations
 on large scale data. However binary embedding typically requires long codes in

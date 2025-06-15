@@ -8,7 +8,7 @@ citations: 77
 bibkey: zhu2017part
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1705.02145'}
-tags: ['Deep', 'Efficiency', 'Unimodal', 'Evaluation', 'Hashing', 'Datasets', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies', 'Deep Hashing']
 ---
 Large-scale is a trend in person re-identification (re-id). It is important
 that real-time search be performed in a large gallery. While previous methods

@@ -8,7 +8,7 @@ citations: 0
 bibkey: yang2020camera
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2007.14579'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Supervised', 'Hashing']
+tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Hashing for Real-World Applications']
 ---
 This paper presents a method for large-scale retrieval of piano sheet music
 images. Our work differs from previous studies on sheet music retrieval in two

@@ -8,7 +8,7 @@ citations: 0
 bibkey: ozdemir2016scalable
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1604.07335'}
-tags: ['Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Supervised', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 We propose a flexible procedure for large-scale image search by hash
 functions with kernels. Our method treats binary codes and pairwise semantic

@@ -8,7 +8,7 @@ citations: 22
 bibkey: hansen2020content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2006.00617'}
-tags: ['Independent', 'Model Design', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Vector Indexing', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'ANN Search']
 ---
 Content-aware recommendation approaches are essential for providing
 meaningful recommendations for \textit\{new\} (i.e., \textit\{cold-start\}) items

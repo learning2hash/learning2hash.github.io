@@ -8,7 +8,7 @@ citations: 24
 bibkey: naidan2015permutation
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1506.03163'}
-tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Evaluation', 'Shallow', 'Surveys and Reviews', 'Survey Paper']
+tags: ['Survey Paper', 'Evaluation Metrics', 'Survey']
 ---
 We survey permutation-based methods for approximate k-nearest neighbor
 search. In these methods, every data point is represented by a ranked list of

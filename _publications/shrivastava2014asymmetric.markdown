@@ -8,7 +8,7 @@ citations: 0
 bibkey: shrivastava2014asymmetric
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1411.3787'}
-tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Indexing', 'Tools and Libraries', 'Hashing Fundamentals']
 ---
 Minwise hashing (Minhash) is a widely popular indexing scheme in practice.
 Minhash is designed for estimating set resemblance and is known to be

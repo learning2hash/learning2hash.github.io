@@ -8,7 +8,7 @@ citations: 23
 bibkey: li2022adaptive
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.04214'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Hashing', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Cross-modal hashing is an important approach for multimodal data management
 and application. Existing unsupervised cross-modal hashing algorithms mainly

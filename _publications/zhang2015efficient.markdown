@@ -8,7 +8,7 @@ citations: 65
 bibkey: zhang2015efficient
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1511.04524'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 In this paper, we propose training very deep neural networks (DNNs) for
 supervised learning of hash codes. Existing methods in this context train

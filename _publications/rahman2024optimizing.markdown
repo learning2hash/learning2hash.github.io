@@ -8,7 +8,7 @@ citations: 0
 bibkey: rahman2024optimizing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2412.01555'}
-tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Benchmarks and Tools', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Vector Indexing', 'Quantization', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Quantization']
 ---
 Approximate Nearest Neighbor search is one of the keys to high-scale data
 retrieval performance in many applications. The work is a bridge between

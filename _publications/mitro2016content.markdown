@@ -8,7 +8,7 @@ citations: 10
 bibkey: mitro2016content
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1608.03811'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Applications']
+tags: ['Hashing for Real-World Applications', 'Applications']
 ---
 This paper functions as a tutorial for individuals interested to enter the
 field of information retrieval but wouldn't know where to begin from. It

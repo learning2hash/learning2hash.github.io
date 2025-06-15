@@ -9,7 +9,7 @@ bibkey: gao2019beyond
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1906.06698'}
   - {name: "Code", url: 'https://github.com/cfm-uestc/DPQ'}
-tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Has Code', 'Training Strategy', 'Applications']
+tags: ['Applications', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Quantization', 'Has Code']
 ---
 Product Quantization (PQ) has long been a mainstream for generating an
 exponentially large codebook at very low memory/time cost. Despite its success,

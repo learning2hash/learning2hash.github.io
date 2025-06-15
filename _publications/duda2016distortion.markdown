@@ -8,7 +8,7 @@ citations: 0
 bibkey: duda2016distortion
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1602.05889'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 One of the basic tasks in bioinformatics is localizing a short subsequence
 \\(S\\), read while sequencing, in a long reference sequence \\(R\\), like the human

@@ -8,7 +8,7 @@ citations: 60
 bibkey: roy2019metric
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1904.01258'}
-tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Deep Hashing', 'Training Strategy', 'Hashing']
+tags: ['Hashing Methods', 'Loss Functions', 'Evaluation Metrics', 'Hashing Fundamentals', 'Deep Hashing']
 ---
 Hashing methods have been recently found very effective in retrieval of
 remote sensing (RS) images due to their computational efficiency and fast

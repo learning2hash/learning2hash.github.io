@@ -8,7 +8,7 @@ citations: 17
 bibkey: dai2020convolutional
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2001.11692'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Supervised Hashing', 'Applications']
+tags: ['Loss Functions', 'Applications', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'Learning Strategies']
 ---
 Edit-distance-based string similarity search has many applications such as
 spell correction, data de-duplication, and sequence alignment. However,

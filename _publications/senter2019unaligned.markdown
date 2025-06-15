@@ -8,7 +8,7 @@ citations: 1
 bibkey: senter2019unaligned
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1909.06929'}
-tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Supervised']
+tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
 ---
 Gene annotation has traditionally required direct comparison of DNA sequences
 between an unknown gene and a database of known ones using string comparison

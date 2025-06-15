@@ -9,7 +9,7 @@ bibkey: reddy2022context
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2207.09070'}
   - {name: "Code", url: 'https://github.com/satoru2001/CUKDFIR'}
-tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Has Code', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Quantization and Compression', 'Tools and Libraries', 'Hashing Fundamentals', 'Quantization', 'Has Code']
 ---
 Existing data-dependent hashing methods use large backbone networks with
 millions of parameters and are computationally complex. Existing knowledge

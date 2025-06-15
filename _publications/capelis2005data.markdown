@@ -8,7 +8,7 @@ citations: 0
 bibkey: capelis2005data
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/cs/0501038'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
 ---
 Over the recent months it has become clear that the current generation of
 cryptographic hashing algorithms are insufficient to meet future needs. The ASH

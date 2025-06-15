@@ -8,7 +8,7 @@ citations: 8
 bibkey: sanakoyeu2021improving
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2109.04003'}
-tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Similarity Learning', 'Applications']
+tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
 ---
 Deep metric learning (DML) is a cornerstone of many computer vision
 applications. It aims at learning a mapping from the input domain to an

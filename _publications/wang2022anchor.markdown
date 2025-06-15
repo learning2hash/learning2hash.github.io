@@ -8,7 +8,7 @@ citations: 2
 bibkey: wang2022anchor
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2202.04327'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
+tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Modality-Specific Hashing', 'Tools and Libraries', 'Hashing Fundamentals', 'Multi-Modal Hashing']
 ---
 Cross-modal hashing still has some challenges needed to address: (1) most
 existing CMH methods take graphs as input to model data distribution. These

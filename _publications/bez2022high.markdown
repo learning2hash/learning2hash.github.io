@@ -8,7 +8,7 @@ citations: 0
 bibkey: bez2022high
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2212.09562'}
-tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Compression', 'Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Efficient Learning', 'Quantization and Compression', 'Hashing Fundamentals']
 ---
 A minimal perfect hash function (MPHF) bijectively maps a set S of objects to
 the first |S| integers. It can be used as a building block in databases and

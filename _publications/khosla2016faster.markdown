@@ -8,7 +8,7 @@ citations: 2
 bibkey: khosla2016faster
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1611.07786'}
-tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Hashing']
+tags: ['Hashing Fundamentals', 'Indexing and Efficiency', 'Hashing Methods', 'Tools and Libraries']
 ---
 Hash tables are ubiquitous in computer science for efficient access to large
 datasets. However, there is always a need for approaches that offer compact

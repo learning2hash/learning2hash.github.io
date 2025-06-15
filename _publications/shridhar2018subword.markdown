@@ -9,7 +9,7 @@ bibkey: shridhar2018subword
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1810.07150'}
   - {name: "Code", url: 'https://github.com/kumar-shridhar/Know-Your-Intent'}
-tags: ['Deep', 'Unimodal', 'Hashing', 'Datasets', 'Has Code', 'Supervised', 'Training Strategy', 'Supervised Hashing']
+tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Has Code']
 ---
 In this paper, we introduce the use of Semantic Hashing as embedding for the
 task of Intent Classification and achieve state-of-the-art performance on three

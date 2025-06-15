@@ -8,7 +8,7 @@ citations: 113
 bibkey: li2011hashing
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1106.0967'}
-tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
 ---
 In this paper, we first demonstrate that b-bit minwise hashing, whose
 estimators are positive definite kernels, can be naturally integrated with

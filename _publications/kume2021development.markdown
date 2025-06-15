@@ -8,7 +8,7 @@ citations: 2
 bibkey: kume2021development
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2110.12058'}
-tags: ['Cross-Modal', 'Quantisation', 'Benchmarks and Tools', 'Shallow', 'Vector Indexing']
+tags: ['Tools and Libraries', 'ANN Search']
 ---
 We introduce the RIKEN Microstructural Imaging Metadatabase, a semantic
 web-based imaging database in which image metadata are described using the

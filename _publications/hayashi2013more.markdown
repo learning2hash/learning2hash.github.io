@@ -8,7 +8,7 @@ citations: 53
 bibkey: hayashi2013more
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1311.5322'}
-tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods']
 ---
 We explicitly construct random hash functions for privacy amplification
 (extractors) that require smaller random seed lengths than the previous

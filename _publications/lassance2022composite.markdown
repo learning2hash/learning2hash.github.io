@@ -8,7 +8,7 @@ citations: 4
 bibkey: lassance2022composite
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2204.07023'}
-tags: ['Cross-Modal', 'Deep', 'Model Design', 'Quantisation', 'Retrieval Models', 'Vector Indexing', 'Graph-Based Methods', 'Quantization', 'Applications']
+tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Quantization']
 ---
 We propose a Composite Code Sparse Autoencoder (CCSA) approach for
 Approximate Nearest Neighbor (ANN) search of document representations based on

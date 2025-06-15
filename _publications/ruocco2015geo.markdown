@@ -8,7 +8,7 @@ citations: 4
 bibkey: ruocco2015geo
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1504.07350'}
-tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Applications']
+tags: ['Applications']
 ---
 Media sharing applications, such as Flickr and Panoramio, contain a large
 amount of pictures related to real life events. For this reason, the

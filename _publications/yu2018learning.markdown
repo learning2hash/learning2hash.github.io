@@ -8,7 +8,7 @@ citations: 2
 bibkey: yu2018learning
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1808.04152'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Quantization', 'Hashing']
+tags: ['Hashing Methods', 'Hashing Fundamentals', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
 ---
 Hashing techniques have been applied broadly in retrieval tasks due to their
 low storage requirements and high speed of processing. Many hashing methods

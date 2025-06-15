@@ -8,7 +8,7 @@ citations: 3
 bibkey: liao2020embedding
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2001.05314'}
-tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Compression', 'Quantization', 'Applications']
+tags: ['Quantization', 'Quantization and Compression', 'Applications']
 ---
 Continuous representation of words is a standard component in deep
 learning-based NLP models. However, representing a large vocabulary requires

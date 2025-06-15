@@ -8,7 +8,7 @@ citations: 1
 bibkey: garcíamarco2022free
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2203.17194'}
-tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
+tags: ['Uncategorized']
 ---
 In this work, we explore the relationship between free resolution of some
 monomial ideals and Generalized Hamming Weights (GHWs) of binary codes. More

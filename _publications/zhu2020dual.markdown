@@ -9,7 +9,7 @@ bibkey: zhu2020dual
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/2006.05586'}
   - {name: "Code", url: 'https://github.com/research2020-1/DSTDH'}
-tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
+tags: ['Hashing Methods', 'Applications', 'Indexing', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing', 'Has Code', 'Indexing and Efficiency']
 ---
 Social network stores and disseminates a tremendous amount of user shared
 images. Deep hashing is an efficient indexing technique to support large-scale

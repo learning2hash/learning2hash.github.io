@@ -8,7 +8,7 @@ citations: 11
 bibkey: wang2019deep
 additional_links:
   - {name: "Paper", url: 'https://arxiv.org/abs/1911.01565'}
-tags: ['Deep', 'Independent', 'Unimodal', 'Deep Hashing', 'Hashing']
+tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Deep Hashing']
 ---
 Existing deep hashing approaches fail to fully explore semantic correlations
 and neglect the effect of linguistic context on visual attention learning,
