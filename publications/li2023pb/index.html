@@ -52,9 +52,9 @@ alt="Web-Stat web statistics"></a></noscript>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Pb-hash Partitioned B-bit Hashing | Awesome Learning to Hash</title>
+<title>Pb-hash: Partitioned B-bit Hashing | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Pb-hash Partitioned B-bit Hashing" />
+<meta property="og:title" content="Pb-hash: Partitioned B-bit Hashing" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Many hashing algorithms including minwise hashing (MinHash), one permutation hashing (OPH), and consistent weighted sampling (CWS) generate integers of \(B\) bits. With \(k\) hashes for each data vector, the storage would be \(B\times k\) bits; and when used for large-scale learning, the model size would be \(2^B\times k\), which can be expensive. A standard strategy is to use only the lowest \(b\) bits out of the \(B\) bits and somewhat increase \(k\), the number of hashes. In this study, we propose to re-use the hashes by partitioning the \(B\) bits into \(m\) chunks, e.g., \(b\times m =B\). Correspondingly, the model size becomes \(m\times 2^b \times k\), which can be substantially smaller than the original \(2^B\times k\). Our theoretical analysis reveals that by partitioning the hash values into \(m\) chunks, the accuracy would drop. In other words, using \(m\) chunks of \(B/m\) bits would not be as accurate as directly using \(B\) bits. This is due to the correlation from re-using the same hash. On the other hand, our analysis also shows that the accuracy would not drop much for (e.g.,) \(m=2\sim 4\). In some regions, Pb-Hash still works well even for \(m\) much larger than 4. We expect Pb-Hash would be a good addition to the family of hashing methods/applications and benefit industrial practitioners. We verify the effectiveness of Pb-Hash in machine learning tasks, for linear SVM models as well as deep learning models. Since the hashed data are essentially categorical (ID) features, we follow the standard practice of using embedding tables for each hash. With Pb-Hash, we need to design an effective strategy to combine \(m\) embeddings. Our study provides an empirical evaluation on four pooling schemes: concatenation, max pooling, mean pooling, and product pooling. There is no definite answer which pooling would be always better and we leave that for future study." />
 <meta property="og:description" content="Many hashing algorithms including minwise hashing (MinHash), one permutation hashing (OPH), and consistent weighted sampling (CWS) generate integers of \(B\) bits. With \(k\) hashes for each data vector, the storage would be \(B\times k\) bits; and when used for large-scale learning, the model size would be \(2^B\times k\), which can be expensive. A standard strategy is to use only the lowest \(b\) bits out of the \(B\) bits and somewhat increase \(k\), the number of hashes. In this study, we propose to re-use the hashes by partitioning the \(B\) bits into \(m\) chunks, e.g., \(b\times m =B\). Correspondingly, the model size becomes \(m\times 2^b \times k\), which can be substantially smaller than the original \(2^B\times k\). Our theoretical analysis reveals that by partitioning the hash values into \(m\) chunks, the accuracy would drop. In other words, using \(m\) chunks of \(B/m\) bits would not be as accurate as directly using \(B\) bits. This is due to the correlation from re-using the same hash. On the other hand, our analysis also shows that the accuracy would not drop much for (e.g.,) \(m=2\sim 4\). In some regions, Pb-Hash still works well even for \(m\) much larger than 4. We expect Pb-Hash would be a good addition to the family of hashing methods/applications and benefit industrial practitioners. We verify the effectiveness of Pb-Hash in machine learning tasks, for linear SVM models as well as deep learning models. Since the hashed data are essentially categorical (ID) features, we follow the standard practice of using embedding tables for each hash. With Pb-Hash, we need to design an effective strategy to combine \(m\) embeddings. Our study provides an empirical evaluation on four pooling schemes: concatenation, max pooling, mean pooling, and product pooling. There is no definite answer which pooling would be always better and we leave that for future study." />
@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2023pb/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-15T01:58:21-05:00" />
+<meta property="article:published_time" content="2025-06-15T05:17:51-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Pb-hash Partitioned B-bit Hashing" />
+<meta property="twitter:title" content="Pb-hash: Partitioned B-bit Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-15T01:58:21-05:00","datePublished":"2025-06-15T01:58:21-05:00","description":"Many hashing algorithms including minwise hashing (MinHash), one permutation hashing (OPH), and consistent weighted sampling (CWS) generate integers of \\(B\\) bits. With \\(k\\) hashes for each data vector, the storage would be \\(B\\times k\\) bits; and when used for large-scale learning, the model size would be \\(2^B\\times k\\), which can be expensive. A standard strategy is to use only the lowest \\(b\\) bits out of the \\(B\\) bits and somewhat increase \\(k\\), the number of hashes. In this study, we propose to re-use the hashes by partitioning the \\(B\\) bits into \\(m\\) chunks, e.g., \\(b\\times m =B\\). Correspondingly, the model size becomes \\(m\\times 2^b \\times k\\), which can be substantially smaller than the original \\(2^B\\times k\\). Our theoretical analysis reveals that by partitioning the hash values into \\(m\\) chunks, the accuracy would drop. In other words, using \\(m\\) chunks of \\(B/m\\) bits would not be as accurate as directly using \\(B\\) bits. This is due to the correlation from re-using the same hash. On the other hand, our analysis also shows that the accuracy would not drop much for (e.g.,) \\(m=2\\sim 4\\). In some regions, Pb-Hash still works well even for \\(m\\) much larger than 4. We expect Pb-Hash would be a good addition to the family of hashing methods/applications and benefit industrial practitioners. We verify the effectiveness of Pb-Hash in machine learning tasks, for linear SVM models as well as deep learning models. Since the hashed data are essentially categorical (ID) features, we follow the standard practice of using embedding tables for each hash. With Pb-Hash, we need to design an effective strategy to combine \\(m\\) embeddings. Our study provides an empirical evaluation on four pooling schemes: concatenation, max pooling, mean pooling, and product pooling. There is no definite answer which pooling would be always better and we leave that for future study.","headline":"Pb-hash Partitioned B-bit Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2023pb/"},"url":"https://learning2hash.github.io/publications/li2023pb/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-15T05:17:51-05:00","datePublished":"2025-06-15T05:17:51-05:00","description":"Many hashing algorithms including minwise hashing (MinHash), one permutation hashing (OPH), and consistent weighted sampling (CWS) generate integers of \\(B\\) bits. With \\(k\\) hashes for each data vector, the storage would be \\(B\\times k\\) bits; and when used for large-scale learning, the model size would be \\(2^B\\times k\\), which can be expensive. A standard strategy is to use only the lowest \\(b\\) bits out of the \\(B\\) bits and somewhat increase \\(k\\), the number of hashes. In this study, we propose to re-use the hashes by partitioning the \\(B\\) bits into \\(m\\) chunks, e.g., \\(b\\times m =B\\). Correspondingly, the model size becomes \\(m\\times 2^b \\times k\\), which can be substantially smaller than the original \\(2^B\\times k\\). Our theoretical analysis reveals that by partitioning the hash values into \\(m\\) chunks, the accuracy would drop. In other words, using \\(m\\) chunks of \\(B/m\\) bits would not be as accurate as directly using \\(B\\) bits. This is due to the correlation from re-using the same hash. On the other hand, our analysis also shows that the accuracy would not drop much for (e.g.,) \\(m=2\\sim 4\\). In some regions, Pb-Hash still works well even for \\(m\\) much larger than 4. We expect Pb-Hash would be a good addition to the family of hashing methods/applications and benefit industrial practitioners. We verify the effectiveness of Pb-Hash in machine learning tasks, for linear SVM models as well as deep learning models. Since the hashed data are essentially categorical (ID) features, we follow the standard practice of using embedding tables for each hash. With Pb-Hash, we need to design an effective strategy to combine \\(m\\) embeddings. Our study provides an empirical evaluation on four pooling schemes: concatenation, max pooling, mean pooling, and product pooling. There is no definite answer which pooling would be always better and we leave that for future study.","headline":"Pb-hash: Partitioned B-bit Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2023pb/"},"url":"https://learning2hash.github.io/publications/li2023pb/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -156,22 +156,28 @@ function search() {
 
     <div class="content container">
       <div class="page mathjax-content">
-  <h1 class="page-title">Pb-hash Partitioned B-bit Hashing</h1>
-  <h5>Li Ping, Zhao Weijie. Arxiv 2023</h5>
+  <h1 class="page-title">Pb-hash: Partitioned B-bit Hashing</h1>
+  <h5>Ping Li, Weijie Zhao. Arxiv 2023</h5>
   
   <p>
     
       [<a href="https://arxiv.org/abs/2306.15944" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Pb-hash%20Partitioned%20B-bit%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Pb-hash%20Partitioned%20B-bit%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Pb-hash:%20Partitioned%20B-bit%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Pb-hash:%20Partitioned%20B-bit%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#ARXIV">ARXIV</a></span>
+      <span class="tag"><a href="/tags.html#Independent">Independent</a></span>
     
-      <span class="tag"><a href="/tags.html#Deep Learning">Deep Learning</a></span>
+      <span class="tag"><a href="/tags.html#Unimodal">Unimodal</a></span>
     
-      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
+      <span class="tag"><a href="/tags.html#Evaluation">Evaluation</a></span>
+    
+      <span class="tag"><a href="/tags.html#Shallow">Shallow</a></span>
+    
+      <span class="tag"><a href="/tags.html#Hashing">Hashing</a></span>
+    
+      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
     
   </p>
   
