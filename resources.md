@@ -4,10 +4,10 @@ title: Resources
 ---
 # Resources on Machine Learning for Hashing
 
-### Conferences and Workshops
+###🎤🧑‍🔬Conferences and Workshops
 
 - **[IJCNN 2025: Scalable and Deep Graph Learning and Mining](https://www.ijcnn.org/)**: Workshop including hashing methods applied to graph structures for retrieval and similarity.
-- 
+  
 - **[Practical Vector Search Challenge 2023](https://big-ann-benchmarks.com/neurips23.html)**: This challenge aims to push the boundaries of approximate nearest neighbor (ANN) search techniques and offers a platform for researchers and developers to benchmark their solutions on billion-scale datasets.
 
 - **[Billion-Scale Approximate Nearest Neighbor Search Challenge: NeurIPS'21 Competition Track](http://big-ann-benchmarks.com/index.html#call)**: Competitors must improve search accuracy and speed on extremely large datasets, providing valuable insights into the performance of state-of-the-art methods for nearest neighbor search.
@@ -24,7 +24,7 @@ title: Resources
 
 - **[SIAM International Conference on Data Mining (SDM)](https://www.siam.org/conferences/cm/conference/sdm22)**: SDM is an important conference for researchers in data mining, focusing on the latest developments in algorithms, data analysis, and big data applications. 
 
-### Introductory Video Material
+### 🎥📘 Introductory Video Material
 
 - **[Dr. Wu-Jun Li's tutorial slides](https://cs.nju.edu.cn/lwj/slides/L2H.pdf)**: These tutorial slides by Dr. Wu-Jun Li offer a comprehensive introduction to learning to hash (L2H) techniques. It's an excellent resource for anyone seeking a deep understanding of hashing from a technical perspective.
 
@@ -34,12 +34,12 @@ title: Resources
 
 - **[Hashing Algorithms for Large-Scale Machine Learning - 2017 Rice Machine Learning Workshop](https://www.youtube.com/embed/tQ0OJXowLJA)**: This video is a recording of a presentation from the 2017 Rice Machine Learning Workshop. It offers a detailed overview of various hashing algorithms used for large-scale machine learning.
 
-### Survey Papers
+### 📄🔬 Survey Papers
 
 For a deeper dive, these survey papers are excellent resources:
 
 - **[Learning to Hash for Recommendation: A Survey](https://arxiv.org/abs/2412.03875)** (2024): A dedicated overview of hashing-based methods used in recommender systems, from binary encodings to retrieval-aware deep architectures.
-- 
+  
 - **[Learning to Hash for Indexing Big Data - A Survey](https://arxiv.org/pdf/1509.05472.pdf)**: This comprehensive survey explores the evolution of hashing techniques for indexing and retrieving big data.
   
 - **[A Survey on Learning to Hash](https://arxiv.org/pdf/1606.00185.pdf)**: This survey provides a detailed overview of different learning-to-hash algorithms, categorized into unsupervised, semi-supervised, and supervised methods. 
@@ -51,9 +51,8 @@ For a deeper dive, these survey papers are excellent resources:
 - **[Deep Learning for Hashing: A Survey](https://arxiv.org/pdf/1909.06046.pdf)**: This survey provides an in-depth overview of deep learning-based hashing techniques, which have become increasingly popular for large-scale retrieval tasks.
 
 - **[Learning to Hash With Binary Deep Neural Networks: A Survey](https://www.sciencedirect.com/science/article/abs/pii/S016786552030208X)**: This survey focuses on binary deep neural networks and their use in learning to hash. It explores how these networks are trained to produce compact binary codes that can be used for efficient data retrieval in large-scale datasets.
-
   
-### Pre-Processed Datasets for Download
+### 🗃️📥 Pre-Processed Datasets for Download
 
 - **[CIFAR-10 Gist Features (.mat)](https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=0)**: This dataset contains GIST features extracted from the CIFAR-10 dataset, a popular image classification benchmark.
 
@@ -83,7 +82,7 @@ For a deeper dive, these survey papers are excellent resources:
 
 - **[GLUE Benchmark](https://gluebenchmark.com/)**: The General Language Understanding Evaluation (GLUE) benchmark consists of a variety of natural language processing tasks that test a model's understanding of language. While not traditionally used for image hashing, it provides valuable challenges for text-based hashing techniques.
 
-### Courses
+### 🎓📚 Courses
 
 Some university courses cover topics related to machine learning and efficient computing, with publicly available materials:
 
@@ -93,7 +92,7 @@ Some university courses cover topics related to machine learning and efficient c
   
 - **[CS276: Information Retrieval](https://web.stanford.edu/class/cs276/) at Stanford University**: A comprehensive course that covers the fundamental principles of information retrieval, including algorithms for vector similarity search and hashing.
 
-### Blog Posts
+### 📝📰  Blog Posts
 
 Blog posts are a great way to keep up with cutting-edge research. Here are some of our favorites:
 
@@ -115,7 +114,7 @@ Blog posts are a great way to keep up with cutting-edge research. Here are some 
 
 - **[What is Locality-Sensitive Hashing?](https://www.quora.com/What-is-locality-sensitive-hashing)**: This Quora discussion explains LSH in simple terms. It covers the core principles of how LSH works and why it is useful for approximate nearest neighbor search.
   
-### Hashing Software Packages
+### 🧩💾 Hashing Software Packages
 
 - **[Faiss (Facebook AI Similarity Search)](https://github.com/facebookresearch/faiss)**: Faiss is a high-performance library developed by Facebook AI Research (FAIR) for efficient similarity search and clustering of dense vectors. It is optimized for handling large-scale datasets and provides a range of indexing algorithms, including brute-force, approximate nearest neighbor search, and quantization techniques, making it widely used in machine learning and AI applications.
 
@@ -127,7 +126,7 @@ Blog posts are a great way to keep up with cutting-edge research. Here are some 
 
 - **[HNSWlib](https://github.com/nmslib/hnswlib)**: HNSWlib is an efficient implementation of Hierarchical Navigable Small World (HNSW) graphs, which provide fast approximate nearest neighbor search. This library is widely used for large-scale search tasks, offering low memory usage and high accuracy.
 
-### Books
+### 📚📖 Books
 
 Here are a few recommended books on large-scale machine learning:
 
