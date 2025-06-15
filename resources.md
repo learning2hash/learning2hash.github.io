@@ -6,6 +6,8 @@ title: Resources
 
 ### Conferences and Workshops
 
+- **[IJCNN 2025: Scalable and Deep Graph Learning and Mining](https://www.ijcnn.org/)**: Workshop including hashing methods applied to graph structures for retrieval and similarity.
+- 
 - **[Practical Vector Search Challenge 2023](https://big-ann-benchmarks.com/neurips23.html)**: This challenge aims to push the boundaries of approximate nearest neighbor (ANN) search techniques and offers a platform for researchers and developers to benchmark their solutions on billion-scale datasets.
 
 - **[Billion-Scale Approximate Nearest Neighbor Search Challenge: NeurIPS'21 Competition Track](http://big-ann-benchmarks.com/index.html#call)**: Competitors must improve search accuracy and speed on extremely large datasets, providing valuable insights into the performance of state-of-the-art methods for nearest neighbor search.
@@ -36,6 +38,8 @@ title: Resources
 
 For a deeper dive, these survey papers are excellent resources:
 
+- **[Learning to Hash for Recommendation: A Survey](https://arxiv.org/abs/2412.03875)** (2024): A dedicated overview of hashing-based methods used in recommender systems, from binary encodings to retrieval-aware deep architectures.
+- 
 - **[Learning to Hash for Indexing Big Data - A Survey](https://arxiv.org/pdf/1509.05472.pdf)**: This comprehensive survey explores the evolution of hashing techniques for indexing and retrieving big data.
   
 - **[A Survey on Learning to Hash](https://arxiv.org/pdf/1606.00185.pdf)**: This survey provides a detailed overview of different learning-to-hash algorithms, categorized into unsupervised, semi-supervised, and supervised methods. 
