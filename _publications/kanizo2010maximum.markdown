@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Maximum Bipartite Matching Size And Application To Cuckoo Hashing
-authors: Kanizo Yossi, Hay David, Keslassy Isaac
+title: 'Maximum Bipartite Matching Size And Application To Cuckoo Hashing'
+authors: Yossi Kanizo, David Hay, Isaac Keslassy
 conference: "Arxiv"
 year: 2010
+citations: 2
 bibkey: kanizo2010maximum
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1007.1946"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1007.1946'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
 ---
 Cuckoo hashing with a stash is a robust multiple choice hashing scheme with
 high memory utilization that can be used in many network device applications.

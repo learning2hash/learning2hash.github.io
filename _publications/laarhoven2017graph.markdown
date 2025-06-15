@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Graph-based Time-space Trade-offs For Approximate Near Neighbors
-authors: Laarhoven Thijs
-conference: ""
+title: 'Graph-based Time-space Trade-offs For Approximate Near Neighbors'
+authors: Thijs Laarhoven
+conference: "34th International Symposium on Computational Geometry (SoCG) pp. 571-5714 2018"
 year: 2017
+citations: 5
 bibkey: laarhoven2017graph
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1712.03158"}
-tags: ['Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1712.03158'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing']
 ---
 We take a first step towards a rigorous asymptotic analysis of graph-based
 approaches for finding (approximate) nearest neighbors in high-dimensional

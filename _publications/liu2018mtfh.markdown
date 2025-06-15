@@ -4,6 +4,7 @@ title: MTFH A Matrix Tri-factorization Hashing Framework For Efficient Cross-mod
 authors: Liu Xin, Hu Zhikai, Ling Haibin, Cheung Yiu-ming
 conference: "IEEE Transactions on Pattern Analysis and Machine Intelligence"
 year: 2018
+citations: 144
 bibkey: liu2018mtfh
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1805.01963"}

@@ -4,6 +4,7 @@ title: Practical And Optimal LSH For Angular Distance
 authors: Andoni A., Indyk, Laarhoven
 conference: "Arxiv"
 year: 2024
+citations: 238
 bibkey: andoni2024practical
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/5893-practical-and-optimal-lsh-for-angular-distance.pdf"}

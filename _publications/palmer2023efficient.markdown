@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Online String Matching Through Linked Weak Factors
-authors: Palmer Matthew N., Faro Simone, Scafiti Stefano
+title: 'Efficient Online String Matching Through Linked Weak Factors'
+authors: Matthew N. Palmer, Simone Faro, Stefano Scafiti
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: palmer2023efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2310.15711"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2310.15711'}
+tags: ['Cross-Modal', 'Shallow', 'Compression', 'Supervised', 'Hashing', 'Applications']
 ---
 Online string matching is a computational problem involving the search for
 patterns or substrings in a large text dataset, with the pattern and text being

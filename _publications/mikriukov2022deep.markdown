@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Deep Unsupervised Contrastive Hashing For Large-scale Cross-modal Text-image Retrieval In Remote Sensing
-authors: Mikriukov Georgii, Ravanbakhsh Mahdyar, Demir Begüm
+title: 'Deep Unsupervised Contrastive Hashing For Large-scale Cross-modal Text-image Retrieval In Remote Sensing'
+authors: Georgii Mikriukov, Mahdyar Ravanbakhsh, Begüm Demir
 conference: "Arxiv"
 year: 2022
+citations: 19
 bibkey: mikriukov2022deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2201.08125"}
-  - {name: "Code", url: "https://git.tu-berlin.de/rsim/duch"}
-tags: ['ARXIV', 'Cross Modal', 'Has Code', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2201.08125'}
+  - {name: "Code", url: 'https://git.tu-berlin.de/rsim/duch'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Has Code', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
 ---
 Due to the availability of large-scale multi-modal data (e.g., satellite
 images acquired by different sensors, text sentences, etc) archives, the

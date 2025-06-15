@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locality Sensitive Hashing For Efficient Similar Polygon Retrieval
-authors: Kaplan Haim, Tenenbaum Jay
+title: 'Locality Sensitive Hashing For Efficient Similar Polygon Retrieval'
+authors: Haim Kaplan, Jay Tenenbaum
 conference: "Arxiv"
 year: 2021
+citations: 1
 bibkey: kaplan2021locality
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2101.04339"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2101.04339'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
 ---
 Locality Sensitive Hashing (LSH) is an effective method of indexing a set of
 items to support efficient nearest neighbors queries in high-dimensional

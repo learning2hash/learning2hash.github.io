@@ -4,6 +4,7 @@ title: Hashpim High-throughput SHA-3 Via Memristive Digital Processing-in-memory
 authors: Oved Batel, Leitersdorf Orian, Ronen Ronny, Kvatinsky Shahar
 conference: "Arxiv"
 year: 2022
+citations: 1
 bibkey: oved2022hashpim
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2205.13559"}

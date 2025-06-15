@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Mutual Linear Regression-based Discrete Hashing
-authors: Liu Xingbo, Nie Xiushan, Yin Yilong
+title: 'Mutual Linear Regression-based Discrete Hashing'
+authors: Xingbo Liu, Xiushan Nie, Yilong Yin
 conference: "Arxiv"
 year: 2019
+citations: 3
 bibkey: liu2019mutual
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.00744"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.00744'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Label information is widely used in hashing methods because of its
 effectiveness of improving the precision. The existing hashing methods always

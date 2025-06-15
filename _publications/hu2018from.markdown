@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: From Hashing To Cnns Training Binaryweight Networks Via Hashing
-authors: Hu Qinghao, Wang Peisong, Cheng Jian
+title: 'From Hashing To Cnns: Training Binaryweight Networks Via Hashing'
+authors: Qinghao Hu, Peisong Wang, Jian Cheng
 conference: "Arxiv"
 year: 2018
+citations: 41
 bibkey: hu2018from
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1802.02733"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1802.02733'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Compression', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Deep convolutional neural networks (CNNs) have shown appealing performance on
 various computer vision tasks in recent years. This motivates people to deploy

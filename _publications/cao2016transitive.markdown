@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Transitive Hashing Network For Heterogeneous Multimedia Retrieval
-authors: Cao Zhangjie, Long Mingsheng, Yang Qiang
+title: 'Transitive Hashing Network For Heterogeneous Multimedia Retrieval'
+authors: Zhangjie Cao, Mingsheng Long, Qiang Yang
 conference: "Arxiv"
 year: 2016
+citations: 11
 bibkey: cao2016transitive
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1608.04307"}
-tags: ['ARXIV', 'Cross Modal', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1608.04307'}
+tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Datasets', 'Multi-Modal Hashing', 'Hashing']
 ---
 Hashing has been widely applied to large-scale multimedia retrieval due to
 the storage and retrieval efficiency. Cross-modal hashing enables efficient

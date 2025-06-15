@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: C-OPH Improving The Accuracy Of One Permutation Hashing (OPH) With Circulant Permutations
-authors: Li Xiaoyun, Li Ping
+title: 'C-OPH: Improving The Accuracy Of One Permutation Hashing (OPH) With Circulant Permutations'
+authors: Xiaoyun Li, Ping Li
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: li2021c
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2111.09544"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2111.09544'}
+tags: ['Deep', 'Independent', 'Unimodal', 'Vector Indexing', 'Hashing']
 ---
 Minwise hashing (MinHash) is a classical method for efficiently estimating
 the Jaccrad similarity in massive binary (0/1) data. To generate \\(K\\) hash

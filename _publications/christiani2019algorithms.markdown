@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Algorithms For Similarity Search And Pseudorandomness
-authors: Christiani Tobias
+title: 'Algorithms For Similarity Search And Pseudorandomness'
+authors: Tobias Christiani
 conference: "Arxiv"
 year: 2019
+citations: 0
 bibkey: christiani2019algorithms
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1906.09430"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1906.09430'}
+tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 We study the problem of approximate near neighbor (ANN) search and show the
 following results:

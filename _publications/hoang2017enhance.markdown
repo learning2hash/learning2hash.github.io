@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Enhance Feature Discrimination For Unsupervised Hashing
-authors: Hoang Tuan, Do Thanh-toan, Tan Dang-khoa Le, Cheung Ngai-man
+title: 'Enhance Feature Discrimination For Unsupervised Hashing'
+authors: Tuan Hoang, Thanh-toan Do, Dang-khoa Le Tan, Ngai-man Cheung
 conference: "Arxiv"
 year: 2017
+citations: 3
 bibkey: hoang2017enhance
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1704.01754"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1704.01754'}
+tags: ['Model Design', 'Quantisation', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing']
 ---
 We introduce a novel approach to improve unsupervised hashing. Specifically,
 we propose a very efficient embedding method: Gaussian Mixture Model embedding

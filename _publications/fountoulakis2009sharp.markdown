@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sharp Load Thresholds For Cuckoo Hashing
-authors: Fountoulakis Nikolaos, Panagiotou Konstantinos
+title: 'Sharp Load Thresholds For Cuckoo Hashing'
+authors: Nikolaos Fountoulakis, Konstantinos Panagiotou
 conference: "Arxiv"
 year: 2009
+citations: 19
 bibkey: fountoulakis2009sharp
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0910.5147"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0910.5147'}
+tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
 ---
 The paradigm of many choices has influenced significantly the design of
 efficient data structures and, most notably, hash tables. Cuckoo hashing is a

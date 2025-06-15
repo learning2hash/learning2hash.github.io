@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Large-scale Image Geo-localization Using Dominant Sets
-authors: Zemene Eyasu, Tariku Yonatan, Idrees Haroon, Prati Andrea, Pelillo Marcello, Shah Mubarak
+title: 'Large-scale Image Geo-localization Using Dominant Sets'
+authors: Eyasu Zemene et al.
 conference: "Arxiv"
 year: 2017
+citations: 30
 bibkey: zemene2017large
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1702.01238"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1702.01238'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing']
 ---
 This paper presents a new approach for the challenging problem of
 geo-locating an image using image matching in a structured database of

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Improving Similarity Search With High-dimensional Locality-sensitive Hashing
-authors: Sharma Jaiyam, Navlakha Saket
+title: 'Improving Similarity Search With High-dimensional Locality-sensitive Hashing'
+authors: Jaiyam Sharma, Saket Navlakha
 conference: "Arxiv"
 year: 2018
+citations: 6
 bibkey: sharma2018improving
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1812.01844"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1812.01844'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
 ---
 We propose a new class of data-independent locality-sensitive hashing (LSH)
 algorithms based on the fruit fly olfactory circuit. The fundamental difference

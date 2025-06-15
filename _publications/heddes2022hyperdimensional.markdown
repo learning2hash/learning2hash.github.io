@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hyperdimensional Hashing A Robust And Efficient Dynamic Hash Table
-authors: Heddes Mike, Nunes Igor, Givargis Tony, Nicolau Alexandru, Veidenbaum Alex
+title: 'Hyperdimensional Hashing: A Robust And Efficient Dynamic Hash Table'
+authors: Mike Heddes, Igor Nunes, Tony Givargis, Alexandru Nicolau, Alex Veidenbaum
 conference: "Arxiv"
 year: 2022
+citations: 3
 bibkey: heddes2022hyperdimensional
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2205.07850"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2205.07850'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Most cloud services and distributed applications rely on hashing algorithms
 that allow dynamic scaling of a robust and efficient hash table. Examples

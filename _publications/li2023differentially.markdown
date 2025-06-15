@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Differentially Private One Permutation Hashing And Bin-wise Consistent Weighted Sampling
-authors: Li Xiaoyun, Li Ping
+title: 'Differentially Private One Permutation Hashing And Bin-wise Consistent Weighted Sampling'
+authors: Xiaoyun Li, Ping Li
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: li2023differentially
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2306.07674"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2306.07674'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Minwise hashing (MinHash) is a standard algorithm widely used in the
 industry, for large-scale search and learning applications with the binary

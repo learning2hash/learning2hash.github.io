@@ -4,6 +4,7 @@ title: Streaming First Story Detection With Application To Twitter
 authors: Petrovic S., Osborne, Lavrenko
 conference: "Arxiv"
 year: 2024
+citations: 565
 bibkey: petrovic2024streaming
 additional_links:
   - {name: "Paper", url: "http://homepages.inf.ed.ac.uk/miles/papers/naacl10a.pdf"}

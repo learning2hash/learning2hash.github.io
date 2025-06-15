@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sub-linear Privacy-preserving Near-neighbor Search
-authors: Riazi M. Sadegh, Chen Beidi, Shrivastava Anshumali, Wallach Dan, Koushanfar Farinaz
+title: 'Sub-linear Privacy-preserving Near-neighbor Search'
+authors: M. Sadegh Riazi, Beidi Chen, Anshumali Shrivastava, Dan Wallach, Farinaz Koushanfar
 conference: "Arxiv"
 year: 2016
+citations: 11
 bibkey: riazi2016sub
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1612.01835"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1612.01835'}
+tags: ['Unimodal', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
 ---
 In Near-Neighbor Search (NNS), a new client queries a database (held by a
 server) for the most similar data (near-neighbors) given a certain similarity

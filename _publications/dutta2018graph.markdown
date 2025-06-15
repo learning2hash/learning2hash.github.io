@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Graph Kernels Based On High Order Graphlet Parsing And Hashing
-authors: Dutta Anjan, Sahbi Hichem
+title: 'Graph Kernels Based On High Order Graphlet Parsing And Hashing'
+authors: Anjan Dutta, Hichem Sahbi
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: dutta2018graph
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1803.00425"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1803.00425'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Vector Indexing', 'Graph-Based Methods', 'Hashing']
 ---
 Graph-based methods are known to be successful in many machine learning and
 pattern classification tasks. These methods consider semi-structured data as

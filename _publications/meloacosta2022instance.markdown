@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: An Instance Selection Algorithm For Big Data In High Imbalanced Datasets Based On LSH
-authors: Melo-acosta Germán E., Duitama-muñoz Freddy, Arias-londoño Julián D.
+title: 'An Instance Selection Algorithm For Big Data In High Imbalanced Datasets Based On LSH'
+authors: Germán E. Melo-acosta, Freddy Duitama-muñoz, Julián D. Arias-londoño
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: meloacosta2022instance
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2210.04310"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2210.04310'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Training of Machine Learning (ML) models in real contexts often deals with
 big data sets and high-class imbalance samples where the class of interest is

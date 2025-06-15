@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Towards Effective Top-n Hamming Search Via Bipartite Graph Contrastive Hashing
-authors: Chen Yankai, Fang Yixiang, Zhang Yifei, Ma Chenhao, Hong Yang, King Irwin
+title: 'Towards Effective Top-n Hamming Search Via Bipartite Graph Contrastive Hashing'
+authors: Yankai Chen et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: chen2024towards
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2408.09239"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2408.09239'}
+tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Hashing', 'Applications']
 ---
 Searching on bipartite graphs serves as a fundamental task for various
 real-world applications, such as recommendation systems, database retrieval,

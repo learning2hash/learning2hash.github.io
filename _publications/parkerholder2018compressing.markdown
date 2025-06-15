@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Compressing Deep Neural Networks A New Hashing Pipeline Using Kacs Random Walk Matrices
-authors: Parker-holder Jack, Gass Sam
+title: 'Compressing Deep Neural Networks: A New Hashing Pipeline Using Kac''s Random Walk Matrices'
+authors: Jack Parker-holder, Sam Gass
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: parkerholder2018compressing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1801.02764"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1801.02764'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing']
 ---
 The popularity of deep learning is increasing by the day. However, despite
 the recent advancements in hardware, deep neural networks remain

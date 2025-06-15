@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning-based Efficient Graph Similarity Computation Via Multi-scale Convolutional Set Matching
-authors: Bai Yunsheng, Ding Hao, Sun Yizhou, Wang Wei
+title: 'Learning-based Efficient Graph Similarity Computation Via Multi-scale Convolutional Set Matching'
+authors: Yunsheng Bai, Hao Ding, Yizhou Sun, Wei Wang
 conference: "Arxiv"
 year: 2018
+citations: 50
 bibkey: bai2018learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1809.04440"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1809.04440'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
 ---
 Graph similarity computation is one of the core operations in many
 graph-based applications, such as graph similarity search, graph database

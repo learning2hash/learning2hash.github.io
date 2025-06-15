@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Confirmation Sampling For Exact Nearest Neighbor Search
-authors: Christiani Tobias, Pagh Rasmus, Thorup Mikkel
+title: 'Confirmation Sampling For Exact Nearest Neighbor Search'
+authors: Tobias Christiani, Rasmus Pagh, Mikkel Thorup
 conference: "Arxiv"
 year: 2018
+citations: 1
 bibkey: christiani2018confirmation
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1812.02603"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1812.02603'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 Locality-sensitive hashing (LSH), introduced by Indyk and Motwani in STOC
 '98, has been an extremely influential framework for nearest neighbor search in

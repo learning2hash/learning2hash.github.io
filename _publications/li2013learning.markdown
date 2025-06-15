@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning Hash Functions Using Column Generation
-authors: Li Xi, Lin Guosheng, Shen Chunhua, Hengel Anton Van Den, Dick Anthony
+title: 'Learning Hash Functions Using Column Generation'
+authors: Xi Li, Guosheng Lin, Chunhua Shen, Anton Van Den Hengel, Anthony Dick
 conference: "Arxiv"
 year: 2013
+citations: 93
 bibkey: li2013learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1303.0339"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1303.0339'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Fast nearest neighbor searching is becoming an increasingly important tool in
 solving many large-scale problems. Recently a number of approaches to learning

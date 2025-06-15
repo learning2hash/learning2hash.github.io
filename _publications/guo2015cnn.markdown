@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: CNN Based Hashing For Image Retrieval
-authors: Guo Jinma, Li Jianmin
+title: 'CNN Based Hashing For Image Retrieval'
+authors: Jinma Guo, Jianmin Li
 conference: "Arxiv"
 year: 2015
+citations: 15
 bibkey: guo2015cnn
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1509.01354"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1509.01354'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Supervised Hashing', 'Applications']
 ---
 Along with data on the web increasing dramatically, hashing is becoming more
 and more popular as a method of approximate nearest neighbor search. Previous

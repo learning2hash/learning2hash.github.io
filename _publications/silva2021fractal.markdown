@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fractal Measures Of Image Local Features An Application To Texture Recognition
-authors: Silva Pedro M., Florindo Joao B.
+title: 'Fractal Measures Of Image Local Features: An Application To Texture Recognition'
+authors: Pedro M. Silva, Joao B. Florindo
 conference: "Arxiv"
 year: 2021
+citations: 8
 bibkey: silva2021fractal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2108.12491"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2108.12491'}
+tags: ['Cross-Modal', 'Benchmarks and Tools', 'Shallow', 'Vector Indexing', 'Supervised', 'Hashing']
 ---
 Here we propose a new method for the classification of texture images
 combining fractal measures (fractal dimension, multifractal spectrum and

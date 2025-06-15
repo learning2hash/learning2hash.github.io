@@ -4,6 +4,7 @@ title: Residual Quantization With Implicit Neural Codebooks
 authors: Huijben Iris A. M., Douze Matthijs, Muckley Matthew, Van Sloun Ruud J. G., Verbeek Jakob
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: huijben2024residual
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2401.14732"}

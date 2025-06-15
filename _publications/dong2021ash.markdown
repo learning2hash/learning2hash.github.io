@@ -4,6 +4,7 @@ title: ASH A Modern Framework For Parallel Spatial Hashing In 3D Perception
 authors: Dong Wei, Lao Yixing, Kaess Michael, Koltun Vladlen
 conference: "Arxiv"
 year: 2021
+citations: 8
 bibkey: dong2021ash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2110.00511"}

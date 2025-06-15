@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Quantum Algorithm To Locate Unknown Hashgrams
-authors: Allgood Nicholas R., Nicholas Charles K.
+title: 'A Quantum Algorithm To Locate Unknown Hashgrams'
+authors: Nicholas R. Allgood, Charles K. Nicholas
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: allgood2020quantum
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2005.02911"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2005.02911'}
+tags: ['Cross-Modal', 'Independent', 'Shallow']
 ---
 Quantum computing has evolved quickly in recent years and is showing
 significant benefits in a variety of fields, especially in the realm of

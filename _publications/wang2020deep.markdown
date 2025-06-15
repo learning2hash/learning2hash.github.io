@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Reinforcement Learning With Label Embedding Reward For Supervised Image Hashing
-authors: Wang Zhenzhen, Hong Weixiang, Yuan Junsong
+title: 'Deep Reinforcement Learning With Label Embedding Reward For Supervised Image Hashing'
+authors: Zhenzhen Wang, Weixiang Hong, Junsong Yuan
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: wang2020deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2008.03973"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2008.03973'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Retrieval Models', 'Hashing', 'Datasets', 'Deep Hashing', 'Supervised', 'Supervised Hashing', 'Applications']
 ---
 Deep hashing has shown promising results in image retrieval and recognition.
 Despite its success, most existing deep hashing approaches are rather similar:

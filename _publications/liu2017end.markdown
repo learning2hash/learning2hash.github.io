@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: End-to-end Binary Representation Learning Via Direct Binary Embedding
-authors: Liu Liu, Rahimpour Alireza, Taalimi Ali, Qi Hairong
+title: 'End-to-end Binary Representation Learning Via Direct Binary Embedding'
+authors: Liu Liu, Alireza Rahimpour, Ali Taalimi, Hairong Qi
 conference: "Arxiv"
 year: 2017
+citations: 5
 bibkey: liu2017end
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1703.04960"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1703.04960'}
+tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Quantization', 'Hashing', 'Applications']
 ---
 Learning binary representation is essential to large-scale computer vision
 tasks. Most existing algorithms require a separate quantization constraint to

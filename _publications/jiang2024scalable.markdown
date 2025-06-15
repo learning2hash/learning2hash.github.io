@@ -4,6 +4,7 @@ title: Scalable Graph Hashing With Feature Transformation
 authors: Jiang Q., Li
 conference: "Arxiv"
 year: 2024
+citations: 207
 bibkey: jiang2024scalable
 additional_links:
   - {name: "Paper", url: "http://cs.nju.edu.cn/lwj/paper/IJCAI15_SGH.pdf"}

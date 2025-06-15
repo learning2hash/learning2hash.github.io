@@ -4,6 +4,7 @@ title: Efficient Inferencing Of Compressed Deep Neural Networks
 authors: Vooturi Dharma Teja, Goyal Saurabh, Choudhury Anamitra R., Sabharwal Yogish, Verma Ashish
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: vooturi2017efficient
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1711.00244"}

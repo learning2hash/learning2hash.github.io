@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Instant Neural Graphics Primitives With A Multiresolution Hash Encoding
-authors: Müller Thomas, Evans Alex, Schied Christoph, Keller Alexander
-conference: "ACM Trans. Graph."
+title: 'Instant Neural Graphics Primitives With A Multiresolution Hash Encoding'
+authors: Thomas Müller, Alex Evans, Christoph Schied, Alexander Keller
+conference: "ACM Trans. Graph. 41 4 Article 102 (July 2022) 15 pages"
 year: 2022
+citations: 2117
 bibkey: müller2022instant
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2201.05989"}
-tags: ['Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2201.05989'}
+tags: ['Cross-Modal', 'Efficiency', 'Shallow', 'Supervised', 'Training Strategy']
 ---
 Neural graphics primitives, parameterized by fully connected neural networks,
 can be costly to train and evaluate. We reduce this cost with a versatile new

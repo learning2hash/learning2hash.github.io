@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: The Power Of Simple Tabulation Hashing
-authors: Patrascu Mihai, Thorup Mikkel
+title: 'The Power Of Simple Tabulation Hashing'
+authors: Mihai Patrascu, Mikkel Thorup
 conference: "Arxiv"
 year: 2010
+citations: 36
 bibkey: patrascu2010power
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1011.5200"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1011.5200'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Randomized algorithms are often enjoyed for their simplicity, but the hash
 functions used to yield the desired theoretical guarantees are often neither

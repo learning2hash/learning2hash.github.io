@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Multi Hash Embeddings In Spacy
-authors: Miranda Lester James, Kádár Ákos, Boyd Adriane, Van Landeghem Sofie, Søgaard Anders, Honnibal Matthew
+title: 'Multi Hash Embeddings In Spacy'
+authors: Lester James Miranda et al.
 conference: "Arxiv"
 year: 2022
+citations: 4
 bibkey: miranda2022multi
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2212.09255"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2212.09255'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Hashing']
 ---
 The distributed representation of symbols is one of the key technologies in
 machine learning systems today, playing a pivotal role in modern natural

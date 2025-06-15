@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Convolutional Neural Networks For Text Hashing
-authors: Xu Jiaming, Pengwang, Tian, Xu, Zhao, Wang, Hao
+authors: Xu Jiaming et al.
 conference: "Arxiv"
 year: 2024
+citations: 33
 bibkey: xu2024convolutional
 additional_links:
   - {name: "Paper", url: "http://ijcai.org/papers15/Papers/IJCAI15-197.pdf"}

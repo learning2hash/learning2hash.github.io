@@ -4,6 +4,7 @@ title: Gerbil A Fast And Memory-efficient k-mer Counter With Gpu-support
 authors: Erbert Marius, Rechner Steffen, Müller-hannemann Matthias
 conference: "Arxiv"
 year: 2016
+citations: 4
 bibkey: erbert2016gerbil
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1607.06618"}

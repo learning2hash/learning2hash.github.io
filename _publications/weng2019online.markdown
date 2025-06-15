@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Online Hashing With Efficient Updating Of Binary Codes
-authors: Weng Zhenyu, Zhu Yuesheng
+title: 'Online Hashing With Efficient Updating Of Binary Codes'
+authors: Zhenyu Weng, Yuesheng Zhu
 conference: "Arxiv"
 year: 2019
+citations: 10
 bibkey: weng2019online
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1911.12125"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent', 'Streaming Data']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1911.12125'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Applications']
 ---
 Online hashing methods are efficient in learning the hash functions from the
 streaming data. However, when the hash functions change, the binary codes for

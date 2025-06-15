@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Weakly Supervised Deep Image Hashing Through Tag Embeddings
-authors: Gattupalli Vijetha, Zhuo Yaoxin, Li Baoxin
+title: 'Weakly Supervised Deep Image Hashing Through Tag Embeddings'
+authors: Vijetha Gattupalli, Yaoxin Zhuo, Baoxin Li
 conference: "Arxiv"
 year: 2018
+citations: 27
 bibkey: gattupalli2018weakly
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1806.05804"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised', 'Weakly Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1806.05804'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Many approaches to semantic image hashing have been formulated as supervised
 learning problems that utilize images and label information to learn the binary

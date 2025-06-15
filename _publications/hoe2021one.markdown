@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: One Loss For All Deep Hashing With A Single Cosine Similarity Based Learning Objective
-authors: Hoe Jiun Tian, Ng Kam Woh, Zhang Tianyu, Chan Chee Seng, Song Yi-zhe, Xiang Tao
+title: 'One Loss For All: Deep Hashing With A Single Cosine Similarity Based Learning Objective'
+authors: Jiun Tian Hoe et al.
 conference: "Arxiv"
 year: 2021
+citations: 43
 bibkey: hoe2021one
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2109.14449"}
-  - {name: "Code", url: "https://github.com/kamwoh/orthohash"}
-tags: ['ARXIV', 'Has Code', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2109.14449'}
+  - {name: "Code", url: 'https://github.com/kamwoh/orthohash'}
+tags: ['Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Has Code', 'Deep Hashing', 'Training Strategy', 'Hashing']
 ---
 A deep hashing model typically has two main learning objectives: to make the
 learned binary hash codes discriminative and to minimize a quantization error.

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashgraph -- Scalable Hash Tables Using A Sparse Graph Data Structure
-authors: Green Oded
+title: 'Hashgraph -- Scalable Hash Tables Using A Sparse Graph Data Structure'
+authors: Oded Green
 conference: "Arxiv"
 year: 2019
+citations: 11
 bibkey: green2019hashgraph
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1907.02900"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1907.02900'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Applications']
 ---
 Hash tables are ubiquitous and used in a wide range of applications for
 efficient probing of large and unsorted data. If designed properly, hash-tables

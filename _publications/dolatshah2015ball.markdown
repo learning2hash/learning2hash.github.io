@@ -4,6 +4,7 @@ title: Ball-tree Efficient Spatial Indexing For Constrained Nearest-neighbor Sea
 authors: Dolatshah Mohamad, Hadian Ali, Minaei-bidgoli Behrouz
 conference: "Arxiv"
 year: 2015
+citations: 23
 bibkey: dolatshah2015ball
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1511.00628"}

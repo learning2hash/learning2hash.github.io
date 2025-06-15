@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Hashing For Signed Social Network Embedding
-authors: Guo Jia-nan, Mao Xian-ling, Jiang Xiao-jian, Sun Ying-xiang, Wei Wei, Huang He-yan
+title: 'Deep Hashing For Signed Social Network Embedding'
+authors: Jia-nan Guo et al.
 conference: "Arxiv"
 year: 2019
+citations: 1
 bibkey: guo2019deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1908.04007"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1908.04007'}
+tags: ['Deep', 'Efficiency', 'Unimodal', 'Deep Hashing', 'Supervised', 'Hashing']
 ---
 Network embedding is a promising way of network representation, facilitating
 many signed social network processing and analysis tasks such as link

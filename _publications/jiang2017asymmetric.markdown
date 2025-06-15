@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Asymmetric Deep Supervised Hashing
-authors: Jiang Qing-yuan, Li Wu-jun
+title: 'Asymmetric Deep Supervised Hashing'
+authors: Qing-yuan Jiang, Wu-jun Li
 conference: "Arxiv"
 year: 2017
+citations: 156
 bibkey: jiang2017asymmetric
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1707.08325"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1707.08325'}
+tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Hashing', 'Vector Indexing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Hashing has been widely used for large-scale approximate nearest neighbor
 search because of its storage and search efficiency. Recent work has found that

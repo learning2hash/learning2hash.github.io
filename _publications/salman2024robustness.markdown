@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: On The Robustness Of Malware Detectors To Adversarial Samples
-authors: Salman Muhammad, Zhao Benjamin Zi Hao, Asghar Hassan Jameel, Ikram Muhammad, Kaushik Sidharth, Kaafar Mohamed Ali
+authors: Salman Muhammad et al.
 conference: "Arxiv"
 year: 2024
+citations: 1
 bibkey: salman2024robustness
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2408.02310"}

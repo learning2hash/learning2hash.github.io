@@ -4,10 +4,11 @@ title: Supervised Hierarchical Cross-modal Hashing
 authors: Sun Changchang, Song, Feng, Zhao, Nie
 conference: "Arxiv"
 year: 2024
+citations: 43
 bibkey: sun2024supervised
 additional_links:
   - {name: "Paper", url: "https://xuemengsong.github.io/SIGIR2019_HiCHNet.pdf"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+tags: ['ARXIV', 'Cross Modal', 'Supervised', 'Supervised']
 ---
 Recently, due to the unprecedented growth of multimedia data,
 cross-modal hashing has gained increasing attention for the

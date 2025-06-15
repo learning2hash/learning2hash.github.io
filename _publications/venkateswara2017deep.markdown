@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Hashing Network For Unsupervised Domain Adaptation
-authors: Venkateswara Hemanth, Eusebio Jose, Chakraborty Shayok, Panchanathan Sethuraman
+title: 'Deep Hashing Network For Unsupervised Domain Adaptation'
+authors: Hemanth Venkateswara, Jose Eusebio, Shayok Chakraborty, Sethuraman Panchanathan
 conference: "Arxiv"
 year: 2017
+citations: 6
 bibkey: venkateswara2017deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1706.07522"}
-tags: ['ARXIV', 'Deep Learning', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1706.07522'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 In recent years, deep neural networks have emerged as a dominant machine
 learning tool for a wide variety of application domains. However, training a

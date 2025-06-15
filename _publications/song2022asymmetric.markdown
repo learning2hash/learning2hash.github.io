@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Asymmetric Hash Code Learning For Remote Sensing Image Retrieval
-authors: Song Weiwei, Gao Zhi, Dian Renwei, Ghamisi Pedram, Zhang Yongjun, Benediktsson Jón Atli
+title: 'Asymmetric Hash Code Learning For Remote Sensing Image Retrieval'
+authors: Weiwei Song et al.
 conference: "Arxiv"
 year: 2022
+citations: 32
 bibkey: song2022asymmetric
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2201.05772"}
-  - {name: "Code", url: "https://github.com/weiweisong415/Demo"}
-tags: ['ARXIV', 'Has Code', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2201.05772'}
+  - {name: "Code", url: 'https://github.com/weiweisong415/Demo'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Has Code', 'Deep Hashing', 'Hashing', 'Applications']
 ---
 Remote sensing image retrieval (RSIR), aiming at searching for a set of
 similar items to a given query image, is a very important task in remote

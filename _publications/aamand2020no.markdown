@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: No Repetition Fast Streaming With Highly Concentrated Hashing
-authors: Aamand Anders, Das Debarati, Kipouridis Evangelos, Knudsen Jakob B. T., Rasmussen Peter M. R., Thorup Mikkel
+title: 'No Repetition: Fast Streaming With Highly Concentrated Hashing'
+authors: Anders Aamand et al.
 conference: "Arxiv"
 year: 2020
+citations: 1
 bibkey: aamand2020no
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.01156"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.01156'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 To get estimators that work within a certain error bound with high
 probability, a common strategy is to design one that works with constant

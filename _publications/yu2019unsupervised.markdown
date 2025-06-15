@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Multi-modal Hashing For Cross-modal Retrieval
-authors: Yu Jun, Wu Xiao-jun
+title: 'Unsupervised Multi-modal Hashing For Cross-modal Retrieval'
+authors: Jun Yu, Xiao-jun Wu
 conference: "Arxiv"
 year: 2019
+citations: 9
 bibkey: yu2019unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.00726"}
-tags: ['ARXIV', 'Cross Modal', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.00726'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Multi-Modal Hashing', 'Supervised Hashing']
 ---
 With the advantage of low storage cost and high efficiency, hashing learning
 has received much attention in the domain of Big Data. In this paper, we

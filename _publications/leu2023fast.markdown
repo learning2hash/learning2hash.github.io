@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Consistent Hashing In Constant Time
-authors: Leu Eric
+title: 'Fast Consistent Hashing In Constant Time'
+authors: Eric Leu
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: leu2023fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2307.12448"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2307.12448'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Consistent hashing is a technique that can minimize key remapping when the
 number of hash buckets changes. The paper proposes a fast consistent hash

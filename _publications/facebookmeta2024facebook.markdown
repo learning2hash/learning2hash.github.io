@@ -4,6 +4,7 @@ title: Facebook Simsearchnet++
 authors: Facebook/meta Facebook/meta
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: facebookmeta2024facebook
 additional_links:
   - {name: "Paper", url: "https://ai.facebook.com/blog/using-ai-to-detect-covid-19-misinformation-and-exploitative-content"}

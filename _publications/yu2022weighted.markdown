@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Weighted Contrastive Hashing
-authors: Yu Jiaguo, Qiu Huming, Chen Dubing, Zhang Haofeng
+title: 'Weighted Contrastive Hashing'
+authors: Jiaguo Yu, Huming Qiu, Dubing Chen, Haofeng Zhang
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: yu2022weighted
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2209.14099"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2209.14099'}
+tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Supervised Hashing']
 ---
 The development of unsupervised hashing is advanced by the recent popular
 contrastive learning paradigm. However, previous contrastive learning-based

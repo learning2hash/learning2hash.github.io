@@ -4,10 +4,11 @@ title: Top Rank Supervised Binary Coding For Visual Search
 authors: Song Dongjin, Liu, Ji, Meyer, Smith
 conference: "Arxiv"
 year: 2024
+citations: 49
 bibkey: song2024top
 additional_links:
   - {name: "Paper", url: "http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Song_Top_Rank_Supervised_ICCV_2015_paper.pdf"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Supervised', 'Supervised']
 ---
 In recent years, binary coding techniques are becoming
 increasingly popular because of their high efficiency in handling large-scale computer vision applications. It has been

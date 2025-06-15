@@ -4,6 +4,7 @@ title: Incremental Sparse TFIDF Incremental Similarity With Bipartite Graphs
 authors: Sarmento Rui Portocarrero, Brazdil Pavel
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: sarmento2018incremental
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1811.11746"}

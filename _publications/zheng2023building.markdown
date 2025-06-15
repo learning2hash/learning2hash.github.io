@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Building K-anonymous User Cohorts With Consecutive Consistent Weighted Sampling (CCWS)
-authors: Zheng Xinyi, Zhao Weijie, Li Xiaoyun, Li Ping
+title: 'Building K-anonymous User Cohorts With\\ Consecutive Consistent Weighted Sampling (CCWS)'
+authors: Xinyi Zheng, Weijie Zhao, Xiaoyun Li, Ping Li
 conference: "Arxiv"
 year: 2023
+citations: 2
 bibkey: zheng2023building
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2304.13677"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2304.13677'}
+tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
 ---
 To retrieve personalized campaigns and creatives while protecting user
 privacy, digital advertising is shifting from member-based identity to

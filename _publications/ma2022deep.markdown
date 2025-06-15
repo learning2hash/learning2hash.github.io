@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Forest With Hashing Screening And Window Screening
-authors: Ma Pengfei, Wu Youxi, Li Yan, Guo Lei, Jiang He, Zhu Xingquan, Wu Xindong
+title: 'Deep Forest With Hashing Screening And Window Screening'
+authors: Pengfei Ma et al.
 conference: "Arxiv"
 year: 2022
+citations: 14
 bibkey: ma2022deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2207.11951"}
-tags: ['ARXIV', 'Deep Learning']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2207.11951'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Benchmarks and Tools', 'Datasets', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 As a novel deep learning model, gcForest has been widely used in various
 applications. However, the current multi-grained scanning of gcForest produces

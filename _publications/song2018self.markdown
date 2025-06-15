@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Self-supervised Video Hashing With Hierarchical Binary Auto-encoder
-authors: Song Jingkuan, Zhang Hanwang, Li Xiangpeng, Gao Lianli, Wang Meng, Hong Richang
+title: 'Self-supervised Video Hashing With Hierarchical Binary Auto-encoder'
+authors: Jingkuan Song et al.
 conference: "Arxiv"
 year: 2018
+citations: 219
 bibkey: song2018self
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1802.02305"}
-tags: ['ARXIV', 'Supervised', 'Video Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1802.02305'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Existing video hash functions are built on three isolated stages: frame
 pooling, relaxed learning, and binarization, which have not adequately explored

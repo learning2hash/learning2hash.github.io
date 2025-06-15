@@ -4,6 +4,7 @@ title: An NMF Perspective On Binary Hashing
 authors: Mukherjee Lopamudra, Ravi, Ithapu, Singh
 conference: "Arxiv"
 year: 2024
+citations: 7
 bibkey: mukherjee2024nmf
 additional_links:
   - {name: "Paper", url: "http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Mukherjee_An_NMF_Perspective_ICCV_2015_paper.pdf"}

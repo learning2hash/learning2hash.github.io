@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Coding For Random Projections And Approximate Near Neighbor Search
-authors: Li Ping, Mitzenmacher Michael, Shrivastava Anshumali
+title: 'Coding For Random Projections And Approximate Near Neighbor Search'
+authors: Ping Li, Michael Mitzenmacher, Anshumali Shrivastava
 conference: "Arxiv"
 year: 2014
+citations: 9
 bibkey: li2014coding
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1403.8144"}
-tags: ['ARXIV', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1403.8144'}
+tags: ['Quantisation', 'Unimodal', 'Training Strategy', 'Shallow', 'Quantization']
 ---
 This technical note compares two coding (quantization) schemes for random
 projections in the context of sub-linear time approximate near neighbor search.

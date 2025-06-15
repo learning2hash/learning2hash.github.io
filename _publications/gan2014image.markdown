@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Image Classification With A Deep Network Model Based On Compressive Sensing
-authors: Gan Yufei, Zhuo Tong, He Chu
+title: 'Image Classification With A Deep Network Model Based On Compressive Sensing'
+authors: Yufei Gan, Tong Zhuo, Chu He
 conference: "Arxiv"
 year: 2014
+citations: 5
 bibkey: gan2014image
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1409.7307"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1409.7307'}
+tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
 ---
 To simplify the parameter of the deep learning network, a cascaded
 compressive sensing model "CSNet" is implemented for image classification.

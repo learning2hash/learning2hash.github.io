@@ -4,6 +4,7 @@ title: Hamming Compatible Quantization For Hashing
 authors: Wang Z., Duan, Lin, Wang, Gao
 conference: "Arxiv"
 year: 2024
+citations: 20
 bibkey: wang2024hamming
 additional_links:
   - {name: "Paper", url: "http://www.ijcai.org/Proceedings/15/Papers/325.pdf"}

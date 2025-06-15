@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: LLC Accurate Multi-purpose Learnt Low-dimensional Binary Codes
-authors: Aditya Kusupati, Matthew Wallingford, Vivek Ramanujan, Raghav Somani, Jae Sung Park, Krishna Pillutla, Prateek Jain, Sham Kakade, Ali Farhadi
+authors: Aditya Kusupati et al.
 conference: "Neural Information Processing Systems"
 year: 2021
+citations: 0
 bibkey: kusupati2021llc
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2021/hash/c88d8d0a6097754525e02c2246d8d27f-Abstract.html"}

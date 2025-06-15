@@ -4,6 +4,7 @@ title: Variable Bit Quantisation For LSH
 authors: Moran S., Lavrenko, Osborne
 conference: "Arxiv"
 year: 2024
+citations: 21
 bibkey: moran2024variable
 additional_links:
   - {name: "Paper", url: "http://homepages.inf.ed.ac.uk/miles/papers/acl13.pdf"}

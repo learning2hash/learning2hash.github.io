@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: BERT-LSH Reducing Absolute Compute For Attention
-authors: Li Zezheng, Yip Kingston
+title: 'BERT-LSH: Reducing Absolute Compute For Attention'
+authors: Zezheng Li, Kingston Yip
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: li2024bert
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2404.08836"}
-  - {name: "Code", url: "https://github.com/leo4life2/algoml-final"}
-tags: ['ARXIV', 'Has Code', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2404.08836'}
+  - {name: "Code", url: 'https://github.com/leo4life2/algoml-final'}
+tags: ['Efficiency', 'Unimodal', 'Shallow', 'Has Code', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 This study introduces a novel BERT-LSH model that incorporates Locality
 Sensitive Hashing (LSH) to approximate the attention mechanism in the BERT

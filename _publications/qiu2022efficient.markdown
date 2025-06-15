@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Document Retrieval By End-to-end Refining And Quantizing BERT Embedding With Contrastive Product Quantization
-authors: Qiu Zexuan, Su Qinliang, Yu Jianxing, Si Shijing
-conference: "EMNLP"
+title: 'Efficient Document Retrieval By End-to-end Refining And Quantizing BERT Embedding With Contrastive Product Quantization'
+authors: Zexuan Qiu, Qinliang Su, Jianxing Yu, Shijing Si
+conference: "EMNLP 2022"
 year: 2022
+citations: 3
 bibkey: qiu2022efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2210.17170"}
-tags: ['Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2210.17170'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Vector Indexing', 'Quantization', 'Supervised Hashing']
 ---
 Efficient document retrieval heavily relies on the technique of semantic
 hashing, which learns a binary code for every document and employs Hamming

@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Microsoft COCO Common Objects In Context
-authors: Lin Tsung-yi, Maire, Belongie, Bourdev, Girshick, Hays, Perona, Ramanan, Zitnick, Dollar
+authors: Lin Tsung-yi et al.
 conference: "Arxiv"
 year: 2024
+citations: 19652
 bibkey: lin2024microsoft
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1405.0312"}

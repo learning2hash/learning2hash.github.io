@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: HM4 Hidden Markov Model With Memory Management For Visual Place Recognition
-authors: Doan Anh-dzung, Latif Yasir, Chin Tat-jun, Reid Ian
+title: 'HM4: Hidden Markov Model With Memory Management For Visual Place Recognition'
+authors: Anh-dzung Doan, Yasir Latif, Tat-jun Chin, Ian Reid
 conference: "Arxiv"
 year: 2020
+citations: 4
 bibkey: doan2020hidden
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2011.00450"}
-tags: ['ARXIV', 'LSH', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2011.00450'}
+tags: ['Cross-Modal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 Visual place recognition needs to be robust against appearance variability
 due to natural and man-made causes. Training data collection should thus be an

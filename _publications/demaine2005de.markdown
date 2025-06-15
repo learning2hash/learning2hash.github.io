@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: De Dictionariis Dynamicis Pauco Spatio Utentibus
-authors: Demaine Erik D., Der Heide Friedhelm Meyer Auf, Pagh Rasmus, Patrascu Mihai
+title: 'De Dictionariis Dynamicis Pauco Spatio Utentibus'
+authors: Erik D. Demaine, Friedhelm Meyer Auf Der Heide, Rasmus Pagh, Mihai Patrascu
 conference: "Arxiv"
 year: 2005
+citations: 18
 bibkey: demaine2005de
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/0512081"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/0512081'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 We develop dynamic dictionaries on the word RAM that use asymptotically
 optimal space, up to constant factors, subject to insertions and deletions, and

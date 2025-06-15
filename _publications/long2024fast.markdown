@@ -1,0 +1,32 @@
+---
+layout: publication
+title: 'CFIR: Fast And Effective Long-text To Image Retrieval For Large Corpora'
+authors: Zijun Long, Xuri Ge, Richard Mccreadie, Joemon Jose
+conference: "Arxiv"
+year: 2024
+citations: 2
+bibkey: long2024fast
+additional_links:
+  - {name: "Paper", url: 'https://arxiv.org/abs/2402.15276'}
+  - {name: "Code", url: 'https://github.com/longkukuhi/CFIR'}
+tags: ['Cross-Modal', 'Model Design', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Has Code', 'Supervised', 'Training Strategy', 'Applications']
+---
+Text-to-image retrieval aims to find the relevant images based on a text
+query, which is important in various use-cases, such as digital libraries,
+e-commerce, and multimedia databases. Although Multimodal Large Language Models
+(MLLMs) demonstrate state-of-the-art performance, they exhibit limitations in
+handling large-scale, diverse, and ambiguous real-world needs of retrieval, due
+to the computation cost and the injective embeddings they produce. This paper
+presents a two-stage Coarse-to-Fine Index-shared Retrieval (CFIR) framework,
+designed for fast and effective large-scale long-text to image retrieval. The
+first stage, Entity-based Ranking (ER), adapts to long-text query ambiguity by
+employing a multiple-queries-to-multiple-targets paradigm, facilitating
+candidate filtering for the next stage. The second stage, Summary-based
+Re-ranking (SR), refines these rankings using summarized queries. We also
+propose a specialized Decoupling-BEiT-3 encoder, optimized for handling
+ambiguous user needs and both stages, which also enhances computational
+efficiency through vector-based similarity inference. Evaluation on the AToMiC
+dataset reveals that CFIR surpasses existing MLLMs by up to 11.06% in
+Recall@1000, while reducing training and retrieval times by 68.75% and 99.79%,
+respectively. We will release our code to facilitate future research at
+https://github.com/longkukuhi/CFIR.

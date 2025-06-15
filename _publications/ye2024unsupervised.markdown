@@ -4,10 +4,11 @@ title: Unsupervised Few-bits Semantic Hashing With Implicit Topics Modeling
 authors: Ye Fanghua, Manotumruksa, Yilmaz
 conference: "Arxiv"
 year: 2024
+citations: 1
 bibkey: ye2024unsupervised
 additional_links:
   - {name: "Paper", url: "https://www.aclweb.org/anthology/2020.findings-emnlp.233.pdf"}
-tags: ['ARXIV', 'Unsupervised']
+tags: ['ARXIV', 'Unsupervised', 'Supervised']
 ---
 Semantic hashing is a powerful paradigm for
 representing texts as compact binary hash

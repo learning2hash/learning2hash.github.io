@@ -4,6 +4,7 @@ title: Maximum-margin Hamming Hashing
 authors: Kang Rong, Cao, (b), Wang, Yu
 conference: "Arxiv"
 year: 2024
+citations: 24
 bibkey: kang2024maximum
 additional_links:
   - {name: "Paper", url: "http://ise.thss.tsinghua.edu.cn/~mlong/doc/maximum-margin-hamming-hashing-iccv19.pdf"}

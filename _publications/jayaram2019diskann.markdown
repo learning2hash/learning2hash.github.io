@@ -4,6 +4,7 @@ title: Diskann Fast Accurate Billion-point Nearest Neighbor Search On A Single N
 authors: Suhas Jayaram Subramanya, Fnu Devvrit, Harsha Vardhan Simhadri, Ravishankar Krishnawamy, Rohan Kadekodi
 conference: "Neural Information Processing Systems"
 year: 2019
+citations: 34
 bibkey: jayaram2019diskann
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2019/hash/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Abstract.html"}

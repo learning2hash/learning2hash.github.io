@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Multi-level Spherical Locality Sensitive Hashing For Approximate Near Neighbors
-authors: Brooks Teresa Nicole, Almajalid Rania
+title: 'Multi-level Spherical Locality Sensitive Hashing For Approximate Near Neighbors'
+authors: Teresa Nicole Brooks, Rania Almajalid
 conference: "Arxiv"
 year: 2017
+citations: 1
 bibkey: brooks2017multi
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1709.03517"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1709.03517'}
+tags: ['Cross-Modal', 'Unsupervised', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 This paper introduces "Multi-Level Spherical LSH": parameter-free, a
 multi-level, data-dependant Locality Sensitive Hashing data structure for

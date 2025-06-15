@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hash Embeddings For Efficient Word Representations
-authors: Svenstrup Dan, Hansen Jonas Meinertz, Winther Ole
+title: 'Hash Embeddings For Efficient Word Representations'
+authors: Dan Svenstrup, Jonas Meinertz Hansen, Ole Winther
 conference: "Arxiv"
 year: 2017
+citations: 29
 bibkey: svenstrup2017hash
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1709.03933"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1709.03933'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 We present hash embeddings, an efficient method for representing words in a
 continuous vector form. A hash embedding may be seen as an interpolation

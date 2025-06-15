@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Modal-aware Features For Multimodal Hashing
-authors: Zeng Haien, Lai Hanjiang, Chu Hanlu, Tang Yong, Yin Jian
+title: 'Modal-aware Features For Multimodal Hashing'
+authors: Haien Zeng, Hanjiang Lai, Hanlu Chu, Yong Tang, Jian Yin
 conference: "Arxiv"
 year: 2019
+citations: 0
 bibkey: zeng2019modal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1911.08479"}
-tags: ['ARXIV', 'Cross Modal', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1911.08479'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Many retrieval applications can benefit from multiple modalities, e.g., text
 that contains images on Wikipedia, for which how to represent multimodal data

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Novel Block-dct And PCA Based Image Perceptual Hashing Algorithm
-authors: Jie Zeng
+title: 'A Novel Block-dct And PCA Based Image Perceptual Hashing Algorithm'
+authors: Zeng Jie
 conference: "Arxiv"
 year: 2013
+citations: 18
 bibkey: jie2013novel
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1306.4079"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1306.4079'}
+tags: ['Quantisation', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Image perceptual hashing finds applications in content indexing, large-scale
 image database management, certification and authentication and digital

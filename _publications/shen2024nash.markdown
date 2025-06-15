@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: NASH Toward End-to-end Neural Architecture For Generative Semantic Hashing
-authors: Shen Dinghan, Su, Chapfuwa, Wang, Wang, Carin, Henao
+authors: Shen Dinghan et al.
 conference: "Arxiv"
 year: 2024
+citations: 19
 bibkey: shen2024nash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/pdf/1805.05361.pdf"}
-tags: ['ARXIV', 'Supervised', 'Theory']
+tags: ['ARXIV', 'Supervised', 'Theory', 'Supervised']
 ---
 Semantic hashing has become a powerful paradigm for fast similarity search
 in many information retrieval systems.

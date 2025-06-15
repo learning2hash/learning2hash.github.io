@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Kernelized Hashcode Representations For Relation Extraction
-authors: Garg Sahil, Galstyan Aram, Steeg Greg Ver, Rish Irina, Cecchi Guillermo, Gao Shuyang
+title: 'Kernelized Hashcode Representations For Relation Extraction'
+authors: Sahil Garg et al.
 conference: "Arxiv"
 year: 2017
+citations: 1
 bibkey: garg2017kernelized
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1711.04044"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1711.04044'}
+tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Datasets', 'Hashing']
 ---
 Kernel methods have produced state-of-the-art results for a number of NLP
 tasks such as relation extraction, but suffer from poor scalability due to the

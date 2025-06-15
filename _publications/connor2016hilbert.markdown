@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hilbert Exclusion Improved Metric Search Through Finite Isometric Embeddings
-authors: Connor Richard, Cardillo Franco Alberto, Vadicamo Lucia, Rabitti Fausto
-conference: "ACM Transactions on Information Systems"
+title: 'Hilbert Exclusion: Improved Metric Search Through Finite Isometric Embeddings'
+authors: Richard Connor, Franco Alberto Cardillo, Lucia Vadicamo, Fausto Rabitti
+conference: "ACM Transactions on Information Systems (TOIS) 35 3 Article 17 (2016)"
 year: 2016
+citations: 18
 bibkey: connor2016hilbert
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1604.08640"}
-tags: []
+  - {name: "Paper", url: 'https://arxiv.org/abs/1604.08640'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Vector Indexing']
 ---
 Most research into similarity search in metric spaces relies upon the
 triangle inequality property. This property allows the space to be arranged

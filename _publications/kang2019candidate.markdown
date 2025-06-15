@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Candidate Generation With Binary Codes For Large-scale Top-n Recommendation
-authors: Kang Wang-cheng, Mcauley Julian
+title: 'Candidate Generation With Binary Codes For Large-scale Top-n Recommendation'
+authors: Wang-cheng Kang, Julian Mcauley
 conference: "Arxiv"
 year: 2019
+citations: 39
 bibkey: kang2019candidate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1909.05475"}
-tags: ['ARXIV', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1909.05475'}
+tags: ['Deep', 'Efficiency', 'Unimodal', 'Datasets', 'Supervised', 'Survey Paper', 'Hashing', 'Applications']
 ---
 Generating the Top-N recommendations from a large corpus is computationally
 expensive to perform at scale. Candidate generation and re-ranking based

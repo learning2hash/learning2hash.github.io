@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Stochastic Graphlet Embedding
-authors: Dutta Anjan, Sahbi Hichem
-conference: "IEEE TNNLS pages"
+title: 'Stochastic Graphlet Embedding'
+authors: Anjan Dutta, Hichem Sahbi
+conference: "IEEE TNNLS pages 1-14 2018"
 year: 2017
+citations: 11
 bibkey: dutta2017stochastic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1702.00156"}
-tags: ['Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1702.00156'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Vector Indexing', 'Graph-Based Methods', 'Hashing']
 ---
 Graph-based methods are known to be successful in many machine learning and
 pattern classification tasks. These methods consider semi-structured data as

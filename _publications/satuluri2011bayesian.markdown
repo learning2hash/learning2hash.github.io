@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Bayesian Locality Sensitive Hashing For Fast Similarity Search
-authors: Satuluri Venu, Parthasarathy Srinivasan
-conference: "PVLDB"
+title: 'Bayesian Locality Sensitive Hashing For Fast Similarity Search'
+authors: Venu Satuluri, Srinivasan Parthasarathy
+conference: "PVLDB 5(5)430-441 2012"
 year: 2011
+citations: 97
 bibkey: satuluri2011bayesian
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1110.1328"}
-tags: ['Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1110.1328'}
+tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
 ---
 Given a collection of objects and an associated similarity measure, the
 all-pairs similarity search problem asks us to find all pairs of objects with

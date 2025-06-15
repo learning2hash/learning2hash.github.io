@@ -4,6 +4,7 @@ title: Sampled Weighted Min-hashing For Large-scale Topic Mining
 authors: Fuentes-pineda Gibran, Meza-ruiz Ivan Vladimir
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: fuentespineda2015sampled
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1509.01771"}

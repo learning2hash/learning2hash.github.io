@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Vector Embeddings By Sequence Similarity And Context For Improved Compression Similarity Search Clustering Organization And Manipulation Of Cdna Libraries
-authors: Um Daniel H., Knowles David A., Kaiser Gail E.
+title: 'Vector Embeddings By Sequence Similarity And Context For Improved Compression, Similarity Search, Clustering, Organization, And Manipulation Of Cdna Libraries'
+authors: Daniel H. Um, David A. Knowles, Gail E. Kaiser
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: um2023vector
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2308.05118"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2308.05118'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Compression']
 ---
 This paper demonstrates the utility of organized numerical representations of
 genes in research involving flat string gene formats (i.e., FASTA/FASTQ5).

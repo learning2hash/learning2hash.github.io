@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Unsupervised Hashing With Latent Semantic Components
-authors: Lin Qinghong, Chen Xiaojun, Zhang Qin, Cai Shaotian, Zhao Wenzhe, Wang Hongfa
+title: 'Deep Unsupervised Hashing With Latent Semantic Components'
+authors: Qinghong Lin et al.
 conference: "Arxiv"
 year: 2022
+citations: 19
 bibkey: lin2022deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2203.09420"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2203.09420'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing']
 ---
 Deep unsupervised hashing has been appreciated in the regime of image
 retrieval. However, most prior arts failed to detect the semantic components

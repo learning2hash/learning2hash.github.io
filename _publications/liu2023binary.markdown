@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Binary Code Similarity Detection
-authors: Liu Zian
+title: 'Binary Code Similarity Detection'
+authors: Zian Liu
 conference: "Arxiv"
 year: 2023
+citations: 5
 bibkey: liu2023binary
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2308.02992"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2308.02992'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Binary code similarity detection is to detect the similarity of code at
 binary (assembly) level without source code. Existing works have their

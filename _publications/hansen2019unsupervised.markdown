@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Neural Generative Semantic Hashing
-authors: Hansen Casper, Hansen Christian, Simonsen Jakob Grue, Alstrup Stephen, Lioma Christina
+title: 'Unsupervised Neural Generative Semantic Hashing'
+authors: Casper Hansen, Christian Hansen, Jakob Grue Simonsen, Stephen Alstrup, Christina Lioma
 conference: "Arxiv"
 year: 2019
+citations: 10
 bibkey: hansen2019unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1906.00671"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1906.00671'}
+tags: ['Independent', 'Model Design', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Supervised Hashing']
 ---
 Fast similarity search is a key component in large-scale information
 retrieval, where semantic hashing has become a popular strategy for

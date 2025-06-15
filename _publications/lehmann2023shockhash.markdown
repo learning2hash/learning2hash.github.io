@@ -4,6 +4,7 @@ title: Shockhash Near Optimal-space Minimal Perfect Hashing Beyond Brute-force
 authors: Lehmann Hans-peter, Sanders Peter, Walzer Stefan
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: lehmann2023shockhash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2310.14959"}

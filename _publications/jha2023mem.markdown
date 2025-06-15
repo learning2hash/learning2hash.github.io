@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Mem-rec Memory Efficient Recommendation System Using Alternative Representation
-authors: Jha Gopi Krishna, Thomas Anthony, Jain Nilesh, Gobriel Sameh, Rosing Tajana, Iyer Ravi
+title: 'Mem-rec: Memory Efficient Recommendation System Using Alternative Representation'
+authors: Gopi Krishna Jha et al.
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: jha2023mem
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2305.07205"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2305.07205'}
+tags: ['Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Deep learning-based recommendation systems (e.g., DLRMs) are widely used AI
 models to provide high-quality personalized recommendations. Training data used

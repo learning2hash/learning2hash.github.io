@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Blockboost Scalable And Efficient Blocking Through Boosting
-authors: Ramos Thiago, Schuller, Okuno, Nissenbaum, Oliveira, Orenstein
+authors: Ramos Thiago et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: ramos2024blockboost
 additional_links:
   - {name: "Paper", url: "https://proceedings.mlr.press/v238/ramos24a/ramos24a.pdf"}

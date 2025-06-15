@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: NUS-WIDE A Real-world Web Image Database From National University Of Singapore
-authors: Chua T., Tang, Hong, Li, Luo, Zheng
+authors: Chua T. et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: chua2024nus
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/ftp://vista.eng.tau.ac.il/dropbox/Litman/NUS-WIDE%20Homepage/NUS-WIDE%20Homepage.html"}

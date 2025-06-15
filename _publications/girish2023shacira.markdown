@@ -4,6 +4,7 @@ title: SHACIRA Scalable Hash-grid Compression For Implicit Neural Representation
 authors: Girish Sharath, Shrivastava Abhinav, Gupta Kamal
 conference: "Arxiv"
 year: 2023
+citations: 18
 bibkey: girish2023shacira
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2309.15848"}

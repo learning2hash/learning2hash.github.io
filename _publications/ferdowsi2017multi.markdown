@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Multi-layer Network Based On Sparse Ternary Codes For Universal Vector Compression
-authors: Ferdowsi Sohrab, Voloshynovskiy Slava, Kostadinov Dimche
+title: 'A Multi-layer Network Based On Sparse Ternary Codes For Universal Vector Compression'
+authors: Sohrab Ferdowsi, Slava Voloshynovskiy, Dimche Kostadinov
 conference: "Arxiv"
 year: 2017
+citations: 2
 bibkey: ferdowsi2017multi
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1710.11510"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1710.11510'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Compression', 'Vector Indexing', 'Hashing']
 ---
 We present the multi-layer extension of the Sparse Ternary Codes (STC) for
 fast similarity search where we focus on the reconstruction of the database

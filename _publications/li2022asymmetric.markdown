@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Asymmetric Scalable Cross-modal Hashing
-authors: Li Wenyun, Pun Chi-man
+title: 'Asymmetric Scalable Cross-modal Hashing'
+authors: Wenyun Li, Chi-man Pun
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: li2022asymmetric
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2207.12650"}
-tags: ['ARXIV', 'Cross Modal', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2207.12650'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 Cross-modal hashing is a successful method to solve large-scale multimedia
 retrieval issue. A lot of matrix factorization-based hashing methods are

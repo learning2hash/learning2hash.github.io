@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Comparing Apples To Oranges A Scalable Solution With Heterogeneous Hashing
-authors: Ou M., Cui, Wang, Wang, Zhu, Yang
+authors: Ou M. et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: ou2024comparing
 additional_links:
   - {name: "Paper", url: "http://media.cs.tsinghua.edu.cn/~multimedia/cuipeng/papers/HeterogeneousHashing.pdf"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Filter Of Minhash For Image Similarity Measures
-authors: Long Jun, Liu Qunfeng, Yuan Xinpan, Zhang Chengyuan, Liu Junfeng
+title: 'A Filter Of Minhash For Image Similarity Measures'
+authors: Jun Long, Qunfeng Liu, Xinpan Yuan, Chengyuan Zhang, Junfeng Liu
 conference: "Arxiv"
 year: 2018
+citations: 1
 bibkey: long2018filter
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1807.02895"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1807.02895'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing', 'Applications']
 ---
 Image similarity measures play an important role in nearest neighbor search
 and duplicate detection for large-scale image datasets. Recently, Minwise

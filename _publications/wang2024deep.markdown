@@ -4,6 +4,7 @@ title: Deep Collaborative Discrete Hashing With Semantic-invariant Structure
 authors: Wang Zijian, Zhang, Huang
 conference: "Arxiv"
 year: 2024
+citations: 11
 bibkey: wang2024deep
 additional_links:
   - {name: "Paper", url: "https://dl.acm.org/citation.cfm?id=3331275"}

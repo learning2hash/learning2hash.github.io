@@ -1,12 +1,29 @@
 ---
 layout: publication
-title: Deep Supervised Hashing With Anchor Graph
-authors: Chen Yudong, Lai, Ding, Lin, Wong
+title: 'Deep Class-guided Hashing For Multi-label Cross-modal Retrieval'
+authors: Hao Chen, Lei Zhu, Xinghui Zhu
 conference: "Arxiv"
 year: 2024
+citations: 1
 bibkey: chen2024deep
 additional_links:
-  - {name: "Paper", url: "http://openaccess.thecvf.com/content_ICCV_2019/papers/Chen_Deep_Supervised_Hashing_With_Anchor_Graph_ICCV_2019_paper.pdf"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2410.15387'}
+  - {name: "Code", url: 'https://github.com/donnotnormal/DCGH'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Has Code', 'Deep Hashing', 'Multi-Modal Hashing', 'Supervised Hashing']
 ---
-Recently, a series of deep supervised hashing methods were proposed for binary code learning. However, due to the high computation cost and the limited hardware's memory, these methods will first select a subset from the training set, and then form a mini-batch data to update the network in each iteration. Therefore, the remaining labeled data cannot be fully utilized and the model cannot directly obtain the binary codes of the entire training set for retrieval. To address these problems, this paper proposes an interesting regularized deep model to seamlessly integrate the advantages of deep hashing and efficient binary code learning by using the anchor graph. As such, the deep features and label matrix can be jointly used to optimize the binary codes, and the network can obtain more discriminative feedback from the linear combinations of the learned bits. Moreover, we also reveal the algorithm mechanism and its computation essence. Experiments on three large-scale datasets indicate that the proposed method achieves better retrieval performance with less training time compared to previous deep hashing methods.
+Deep hashing, due to its low cost and efficient retrieval advantages, is
+widely valued in cross-modal retrieval. However, existing cross-modal hashing
+methods either explore the relationships between data points, which inevitably
+leads to intra-class dispersion, or explore the relationships between data
+points and categories while ignoring the preservation of inter-class structural
+relationships, resulting in the generation of suboptimal hash codes. How to
+maintain both intra-class aggregation and inter-class structural relationships,
+In response to this issue, this paper proposes a DCGH method. Specifically, we
+use proxy loss as the mainstay to maintain intra-class aggregation of data,
+combined with pairwise loss to maintain inter-class structural relationships,
+and on this basis, further propose a variance constraint to address the
+semantic bias issue caused by the combination. A large number of comparative
+experiments on three benchmark datasets show that the DCGH method has
+comparable or even better performance compared to existing cross-modal
+retrieval methods. The code for the implementation of our DCGH framework is
+available at https://github.com/donnotnormal/DCGH.

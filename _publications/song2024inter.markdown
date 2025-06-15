@@ -4,6 +4,7 @@ title: Inter-media Hashing For Large-scale Retrieval From Heterogeneous Data Sou
 authors: Song J., Yang, Yang, Huang, Shen
 conference: "Arxiv"
 year: 2024
+citations: 467
 bibkey: song2024inter
 additional_links:
   - {name: "Paper", url: "http://dl.acm.org/citation.cfm?id=2465274"}

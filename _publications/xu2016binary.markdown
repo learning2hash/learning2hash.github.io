@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Binary Subspace Coding For Query-by-image Video Retrieval
-authors: Xu Ruicong, Yang Yang, Luo Yadan, Shen Fumin, Huang Zi, Shen Heng Tao
+title: 'Binary Subspace Coding For Query-by-image Video Retrieval'
+authors: Ruicong Xu et al.
 conference: "Arxiv"
 year: 2016
+citations: 2
 bibkey: xu2016binary
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1612.01657"}
-tags: ['ARXIV', 'Independent', 'Video Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1612.01657'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing', 'Applications']
 ---
 The query-by-image video retrieval (QBIVR) task has been attracting
 considerable research attention recently. However, most existing methods

@@ -1,15 +1,17 @@
 ---
 layout: publication
-title: Transductive Zero-shot Hashing For Multilabel Image Retrieval
-authors: Zou Qin, Zhang Zheng, Cao Ling, Chen Long, Wang Song
-conference: "IEEE Transactions on Neural Networks and Learning Systems"
+title: 'Transductive Zero-shot Hashing For Multilabel Image Retrieval'
+authors: Qin Zou, Zheng Zhang, Ling Cao, Long Chen, Song Wang
+conference: "IEEE Transactions on Neural Networks and Learning Systems 2020"
 year: 2019
+citations: 10
 bibkey: zou2019transductive
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1911.07192"}
-tags: ['Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1911.07192'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Training Strategy', 'Datasets', 'Vector Indexing', 'Quantization', 'Similarity Learning', 'Hashing', 'Applications']
 ---
-Hash coding has been widely used in approximate nearest neighbor search for large-scale image retrieval. Given semantic annotations such as class labels
+Hash coding has been widely used in approximate nearest neighbor search for
+large-scale image retrieval. Given semantic annotations such as class labels
 and pairwise similarities of the training data, hashing methods can learn and
 generate effective and compact binary codes. While some newly introduced images
 may contain undefined semantic labels, which we call unseen images, zeor-shot

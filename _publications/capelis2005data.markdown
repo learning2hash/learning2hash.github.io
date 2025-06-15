@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Data Tastes Better Seasoned Introducing The ASH Family Of Hashing Algorithms
-authors: Capelis D. J.
+title: 'Data Tastes Better Seasoned: Introducing The ASH Family Of Hashing Algorithms'
+authors: D. J. Capelis
 conference: "Arxiv"
 year: 2005
+citations: 0
 bibkey: capelis2005data
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/0501038"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/0501038'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Over the recent months it has become clear that the current generation of
 cryptographic hashing algorithms are insufficient to meet future needs. The ASH

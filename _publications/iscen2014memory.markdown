@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Memory Vectors For Similarity Search In High-dimensional Spaces
-authors: Iscen Ahmet, Furon Teddy, Gripon Vincent, Rabbat Michael, Jégou Hervé
+title: 'Memory Vectors For Similarity Search In High-dimensional Spaces'
+authors: Ahmet Iscen, Teddy Furon, Vincent Gripon, Michael Rabbat, Hervé Jégou
 conference: "Arxiv"
 year: 2014
+citations: 18
 bibkey: iscen2014memory
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1412.3328"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1412.3328'}
+tags: ['Retrieval Models', 'Unimodal', 'Independent', 'Shallow']
 ---
 We study an indexing architecture to store and search in a database of
 high-dimensional vectors from the perspective of statistical signal processing

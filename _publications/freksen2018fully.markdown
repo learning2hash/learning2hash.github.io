@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fully Understanding The Hashing Trick
-authors: Freksen Casper Benjamin, Kamma Lior, Larsen Kasper Green
+title: 'Fully Understanding The Hashing Trick'
+authors: Casper Benjamin Freksen, Lior Kamma, Kasper Green Larsen
 conference: "Arxiv"
 year: 2018
+citations: 10
 bibkey: freksen2018fully
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1805.08539"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1805.08539'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing']
 ---
 Feature hashing, also known as \{\em the hashing trick\}, introduced by
 Weinberger et al. (2009), is one of the key techniques used in scaling-up

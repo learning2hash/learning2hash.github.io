@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning Compressed Embeddings For On-device Inference
-authors: Pansare Niketan, Katukuri Jay, Arora Aditya, Cipollone Frank, Shaik Riyaaz, Tokgozoglu Noyan, Venkataraman Chandru
+title: 'Learning Compressed Embeddings For On-device Inference'
+authors: Niketan Pansare et al.
 conference: "Arxiv"
 year: 2022
+citations: 3
 bibkey: pansare2022learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2203.10135"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2203.10135'}
+tags: ['Cross-Modal', 'Deep', 'Compression', 'Datasets', 'Supervised', 'Hashing', 'Applications']
 ---
 In deep learning, embeddings are widely used to represent categorical
 entities such as words, apps, and movies. An embedding layer maps each entity

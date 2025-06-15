@@ -4,10 +4,11 @@ title: Hashing For Distributed Data
 authors: Leng Cong, Wu, Cheng, Lu
 conference: "Arxiv"
 year: 2024
+citations: 30
 bibkey: leng2024hashing
 additional_links:
   - {name: "Paper", url: "http://jmlr.org/proceedings/papers/v37/leng15.pdf"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Supervised', 'Independent']
 ---
 Recently, hashing based approximate nearest
 neighbors search has attracted much attention.

@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Optimal Projection Guided Transfer Hashing For Image Retrieval
-authors: Liu Ji, Zhang Lei
+title: 'Optimal Projection Guided Transfer Hashing For Image Retrieval'
+authors: Ji Liu, Lei Zhang
 conference: "Arxiv"
 year: 2019
+citations: 12
 bibkey: liu2019optimal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1903.00252"}
-  - {name: "Code", url: "https://github.com/liuji93/GTH"}
-tags: ['ARXIV', 'Has Code', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1903.00252'}
+  - {name: "Code", url: 'https://github.com/liuji93/GTH'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Has Code', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Recently, learning to hash has been widely studied for image retrieval thanks
 to the computation and storage efficiency of binary codes. For most existing

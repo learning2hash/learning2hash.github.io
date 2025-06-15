@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Towards Optimal Discrete Online Hashing With Balanced Similarity
-authors: Lin Mingbao, Ji Rongrong, Liu Hong, Sun Xiaoshuai, Wu Yongjian, Wu Yunsheng
+title: 'Towards Optimal Discrete Online Hashing With Balanced Similarity'
+authors: Mingbao Lin et al.
 conference: "Arxiv"
 year: 2019
+citations: 35
 bibkey: lin2019towards
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1901.10185"}
-tags: ['ARXIV', 'Graph', 'Streaming Data', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1901.10185'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 When facing large-scale image datasets, online hashing serves as a promising
 solution for online retrieval and prediction tasks. It encodes the online

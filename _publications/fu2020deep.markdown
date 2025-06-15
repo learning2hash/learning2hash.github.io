@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Momentum Uncertainty Hashing
-authors: Fu Chaoyou, Wang Guoli, Wu Xiang, Zhang Qian, He Ran
+title: 'Deep Momentum Uncertainty Hashing'
+authors: Chaoyou Fu, Guoli Wang, Xiang Wu, Qian Zhang, Ran He
 conference: "Arxiv"
 year: 2020
+citations: 13
 bibkey: fu2020deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2009.08012"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2009.08012'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing']
 ---
 Combinatorial optimization (CO) has been a hot research topic because of its
 theoretic and practical importance. As a classic CO problem, deep hashing aims

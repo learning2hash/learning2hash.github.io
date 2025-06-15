@@ -4,6 +4,7 @@ title: Online Metric Learning And Fast Similarity Search
 authors: Prateek Jain, Brian Kulis, Inderjit Dhillon, Kristen Grauman
 conference: "Neural Information Processing Systems"
 year: 2008
+citations: 206
 bibkey: jain2008online
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2008/hash/aa68c75c4a77c87f97fb686b2f068676-Abstract.html"}

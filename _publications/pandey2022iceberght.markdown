@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Iceberght High Performance PMEM Hash Tables Through Stability And Low Associativity
-authors: Pandey Prashant, Bender Michael A., Conway Alex, Farach-colton Martín, Kuszmaul William, Tagliavini Guido, Johnson Rob
+authors: Pandey Prashant et al.
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: pandey2022iceberght
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2210.04068"}

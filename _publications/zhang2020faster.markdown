@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Faster Binary Embeddings For Preserving Euclidean Distances
-authors: Zhang Jinjie, Saab Rayan
+title: 'Faster Binary Embeddings For Preserving Euclidean Distances'
+authors: Jinjie Zhang, Rayan Saab
 conference: "Arxiv"
 year: 2020
+citations: 1
 bibkey: zhang2020faster
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2010.00712"}
-tags: ['ARXIV', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2010.00712'}
+tags: ['Quantisation', 'Unimodal', 'Evaluation', 'Shallow', 'Quantization', 'Hashing']
 ---
 We propose a fast, distance-preserving, binary embedding algorithm to
 transform a high-dimensional dataset \\(\mathcal\{T\}\subseteq\mathbb\{R\}^n\\) into

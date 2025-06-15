@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Collision And Preimage Resistance Of The Centera Content Address
-authors: Primmer Robert, D'halluin Carl
+title: 'Collision And Preimage Resistance Of The Centera Content Address'
+authors: Robert Primmer, Carl D'halluin
 conference: "Arxiv"
 year: 2013
+citations: 10
 bibkey: primmer2013collision
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1306.6020"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1306.6020'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Centera uses cryptographic hash functions as a means of addressing stored
 objects, thus creating a new class of data storage referred to as CAS (content

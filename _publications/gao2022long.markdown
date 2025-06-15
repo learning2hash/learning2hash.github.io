@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Long-tail Cross Modal Hashing
-authors: Gao Zijun, Wang Jun, Yu Guoxian, Yan Zhongmin, Domeniconi Carlotta, Zhang Jinglin
+title: 'Long-tail Cross Modal Hashing'
+authors: Zijun Gao et al.
 conference: "Arxiv"
 year: 2022
+citations: 7
 bibkey: gao2022long
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2211.15162"}
-tags: ['ARXIV', 'Cross Modal', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2211.15162'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Model Design', 'Datasets', 'Hashing']
 ---
 Existing Cross Modal Hashing (CMH) methods are mainly designed for balanced
 data, while imbalanced data with long-tail distribution is more general in

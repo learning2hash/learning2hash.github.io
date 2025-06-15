@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Binary Coding In Stream
-authors: Ghashami Mina, Abdullah Amirali
+title: 'Binary Coding In Stream'
+authors: Mina Ghashami, Amirali Abdullah
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: ghashami2015binary
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1503.06271"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1503.06271'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Training Strategy']
 ---
 Big data is becoming ever more ubiquitous, ranging over massive video
 repositories, document corpuses, image sets and Internet routing history.

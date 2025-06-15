@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Image Hashing By Minimizing Discrete Component-wise Wasserstein Distance
-authors: Doan Khoa D., Manchanda Saurav, Badirli Sarkhan, Reddy Chandan K.
+title: 'Image Hashing By Minimizing Discrete Component-wise Wasserstein Distance'
+authors: Khoa D. Doan, Saurav Manchanda, Sarkhan Badirli, Chandan K. Reddy
 conference: "Arxiv"
 year: 2020
+citations: 4
 bibkey: doan2020image
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2003.00134"}
-  - {name: "Code", url: "https://github.com/khoadoan/adversarial-hashing)"}
-tags: ['ARXIV', 'Has Code', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2003.00134'}
+  - {name: "Code", url: 'https://github.com/khoadoan/adversarial-hashing)'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Datasets', 'Has Code', 'Unsupervised Hashing', 'Hashing', 'Applications']
 ---
 Image hashing is one of the fundamental problems that demand both efficient
 and effective solutions for various practical scenarios. Adversarial

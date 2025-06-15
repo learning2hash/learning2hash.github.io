@@ -4,6 +4,7 @@ title: Xnor-net Imagenet Classification Using Binary Convolutional Neural Networ
 authors: Rastegari M., Ordonez, Redmon, Farhadi
 conference: "Arxiv"
 year: 2024
+citations: 1939
 bibkey: rastegari2024xnor
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1603.05279"}

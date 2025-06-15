@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sketch-based Manga Retrieval Using Manga109 Dataset
-authors: Matsui Yusuke, Ito Kota, Aramaki Yuji, Yamasaki Toshihiko, Aizawa Kiyoharu
-conference: "Multimedia Tools and Applications Volume"
+title: 'Sketch-based Manga Retrieval Using Manga109 Dataset'
+authors: Yusuke Matsui, Kota Ito, Yuji Aramaki, Toshihiko Yamasaki, Kiyoharu Aizawa
+conference: "Multimedia Tools and Applications Volume 76 Issue 20 2017"
 year: 2015
+citations: 975
 bibkey: matsui2015sketch
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1510.04389"}
-tags: ['Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1510.04389'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Quantization']
 ---
 Manga (Japanese comics) are popular worldwide. However, current e-manga
 archives offer very limited search support, including keyword-based search by

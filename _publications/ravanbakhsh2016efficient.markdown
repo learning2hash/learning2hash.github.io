@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Convolutional Neural Network With Binary Quantization Layer
-authors: Ravanbakhsh Mahdyar, Mousavi Hossein, Nabi Moin, Marcenaro Lucio, Regazzoni Carlo
+title: 'Efficient Convolutional Neural Network With Binary Quantization Layer'
+authors: Mahdyar Ravanbakhsh, Hossein Mousavi, Moin Nabi, Lucio Marcenaro, Carlo Regazzoni
 conference: "Arxiv"
 year: 2016
+citations: 1
 bibkey: ravanbakhsh2016efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1611.06764"}
-tags: ['ARXIV', 'CNN', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1611.06764'}
+tags: ['Unimodal', 'Quantization', 'Deep', 'Quantisation']
 ---
 In this paper we introduce a novel method for segmentation that can benefit
 from general semantics of Convolutional Neural Network (CNN). Our segmentation

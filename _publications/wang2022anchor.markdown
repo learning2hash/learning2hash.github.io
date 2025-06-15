@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Anchor Graph Structure Fusion Hashing For Cross-modal Similarity Search
-authors: Wang Lu, Yang Jie, Zareapoor Masoumeh, Zheng Zhonglong
+title: 'Anchor Graph Structure Fusion Hashing For Cross-modal Similarity Search'
+authors: Lu Wang, Jie Yang, Masoumeh Zareapoor, Zhonglong Zheng
 conference: "Arxiv"
 year: 2022
+citations: 2
 bibkey: wang2022anchor
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2202.04327"}
-tags: ['ARXIV', 'Cross Modal', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2202.04327'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 Cross-modal hashing still has some challenges needed to address: (1) most
 existing CMH methods take graphs as input to model data distribution. These

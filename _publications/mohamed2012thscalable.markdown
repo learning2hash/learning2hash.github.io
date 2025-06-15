@@ -4,6 +4,7 @@ title: Thscalable Distributed Trie Hashing
 authors: Mohamed Aridj, Eddine Zegour Djamel
 conference: "Arxiv"
 year: 2012
+citations: 0
 bibkey: mohamed2012thscalable
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1205.0439"}

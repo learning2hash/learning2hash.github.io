@@ -4,6 +4,7 @@ title: Content-aware Neural Hashing For Cold-start Recommendation
 authors: Hansen Casper, Hansen, Simonsen, Alstrup, Lioma
 conference: "Arxiv"
 year: 2024
+citations: 22
 bibkey: hansen2024content
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2006.00617"}

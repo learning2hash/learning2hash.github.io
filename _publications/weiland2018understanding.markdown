@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Understanding The Gist Of Images - Ranking Of Concepts For Multimedia Indexing
-authors: Weiland Lydia, Ponzetto Simone Paolo, Effelsberg Wolfgang, Dietz Laura
+title: 'Understanding The Gist Of Images - Ranking Of Concepts For Multimedia Indexing'
+authors: Lydia Weiland, Simone Paolo Ponzetto, Wolfgang Effelsberg, Laura Dietz
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: weiland2018understanding
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1809.08593"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1809.08593'}
+tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Evaluation', 'Datasets', 'Hashing']
 ---
 Nowadays, where multimedia data is continuously generated, stored, and
 distributed, multimedia indexing, with its purpose of group- ing similar data,

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Transfer Hashing With Privileged Information
-authors: Zhou Joey Tianyi, Xu Xinxing, Pan Sinno Jialin, Tsang Ivor W., Qin Zheng, Goh Rick Siow Mong
+title: 'Transfer Hashing With Privileged Information'
+authors: Joey Tianyi Zhou et al.
 conference: "Arxiv"
 year: 2016
+citations: 25
 bibkey: zhou2016transfer
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1605.04034"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1605.04034'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Training Strategy', 'Datasets', 'Vector Indexing', 'Quantization', 'Hashing', 'Applications']
 ---
 Most existing learning to hash methods assume that there are sufficient data,
 either labeled or unlabeled, on the domain of interest (i.e., the target

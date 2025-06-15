@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Additive Feature Hashing
-authors: Andrecut M.
+title: 'Additive Feature Hashing'
+authors: M. Andrecut
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: andrecut2021additive
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2102.03943"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2102.03943'}
+tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
 ---
 The hashing trick is a machine learning technique used to encode categorical
 features into a numerical vector representation of pre-defined fixed length. It

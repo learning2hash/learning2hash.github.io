@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Segment Hash Learning For Music Generation
-authors: Joslyn Kevin, Zhuang Naifan, Hua Kien A.
+title: 'Deep Segment Hash Learning For Music Generation'
+authors: Kevin Joslyn, Naifan Zhuang, Kien A. Hua
 conference: "Arxiv"
 year: 2018
+citations: 4
 bibkey: joslyn2018deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1805.12176"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1805.12176'}
+tags: ['Deep', 'Independent', 'Unimodal', 'Training Strategy', 'Hashing']
 ---
 Music generation research has grown in popularity over the past decade,
 thanks to the deep learning revolution that has redefined the landscape of

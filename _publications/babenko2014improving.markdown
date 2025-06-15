@@ -4,6 +4,7 @@ title: Improving Bilayer Product Quantization For Billion-scale Approximate Near
 authors: Babenko Artem, Lempitsky Victor
 conference: "Arxiv"
 year: 2014
+citations: 19
 bibkey: babenko2014improving
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1404.1831"}

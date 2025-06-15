@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: 2-bit Model Compression Of Deep Convolutional Neural Network On ASIC Engine For Image Retrieval
-authors: Yang Bin, Yang Lin, Li Xiaochun, Zhang Wenhan, Zhou Hua, Zhang Yequn, Ren Yongxiong, Shi Yinbo
+title: '2-bit Model Compression Of Deep Convolutional Neural Network On ASIC Engine For Image Retrieval'
+authors: Bin Yang et al.
 conference: "Arxiv"
 year: 2019
+citations: 4
 bibkey: yang2019model
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.03362"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.03362'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Compression', 'Quantization', 'Applications']
 ---
 Image retrieval utilizes image descriptors to retrieve the most similar
 images to a given query image. Convolutional neural network (CNN) is becoming

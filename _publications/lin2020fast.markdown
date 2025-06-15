@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Class-wise Updating For Online Hashing
-authors: Lin Mingbao, Ji Rongrong, Sun Xiaoshuai, Zhang Baochang, Huang Feiyue, Tian Yonghong, Tao Dacheng
+title: 'Fast Class-wise Updating For Online Hashing'
+authors: Mingbao Lin et al.
 conference: "Arxiv"
 year: 2020
+citations: 12
 bibkey: lin2020fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2012.00318"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2012.00318'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Online image hashing has received increasing research attention recently,
 which processes large-scale data in a streaming fashion to update the hash

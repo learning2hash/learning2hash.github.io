@@ -4,6 +4,7 @@ title: Re-randomized Densification For One Permutation Hashing And Bin-wise Cons
 authors: Ping Li, Xiaoyun Li, Cun-hui Zhang
 conference: "Neural Information Processing Systems"
 year: 2019
+citations: 7
 bibkey: li2019re
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2019/hash/9f067d8d6df2d4b8c64fb4c084d6c208-Abstract.html"}

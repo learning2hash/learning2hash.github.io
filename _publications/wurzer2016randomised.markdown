@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Randomised Relevance Model
-authors: Wurzer Dominik, Osborne Miles, Lavrenko Victor
+title: 'Randomised Relevance Model'
+authors: Dominik Wurzer, Miles Osborne, Victor Lavrenko
 conference: "Arxiv"
 year: 2016
+citations: 0
 bibkey: wurzer2016randomised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1607.02641"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1607.02641'}
+tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Hashing']
 ---
 Relevance Models are well-known retrieval models and capable of producing
 competitive results. However, because they use query expansion they can be very

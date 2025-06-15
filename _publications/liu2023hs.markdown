@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: HS-GCN Hamming Spatial Graph Convolutional Networks For Recommendation
-authors: Liu Han, Wei Yinwei, Yin Jianhua, Nie Liqiang
+title: 'HS-GCN: Hamming Spatial Graph Convolutional Networks For Recommendation'
+authors: Han Liu, Yinwei Wei, Jianhua Yin, Liqiang Nie
 conference: "Arxiv"
 year: 2023
+citations: 23
 bibkey: liu2023hs
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2301.05430"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2301.05430'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Datasets', 'Hashing', 'Applications']
 ---
 An efficient solution to the large-scale recommender system is to represent
 users and items as binary hash codes in the Hamming space. Towards this end,

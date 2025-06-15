@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Constant Sequence Extension For Fast Search Using Weighted Hamming Distance
-authors: Weng Zhenyu, Zhuang Huiping, Li Haizhou, Lin Zhiping
+title: 'Constant Sequence Extension For Fast Search Using Weighted Hamming Distance'
+authors: Zhenyu Weng, Huiping Zhuang, Haizhou Li, Zhiping Lin
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: weng2023constant
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2306.03612"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2306.03612'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Hashing']
 ---
 Representing visual data using compact binary codes is attracting increasing
 attention as binary codes are used as direct indices into hash table(s) for

@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Backdoor Attack On Hash-based Image Retrieval Via Clean-label Data Poisoning
-authors: Gao Kuofeng, Bai Jiawang, Chen Bin, Wu Dongxian, Xia Shu-tao
+title: 'Backdoor Attack On Hash-based Image Retrieval Via Clean-label Data Poisoning'
+authors: Kuofeng Gao, Jiawang Bai, Bin Chen, Dongxian Wu, Shu-tao Xia
 conference: "Arxiv"
 year: 2021
+citations: 3
 bibkey: gao2021backdoor
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2109.08868"}
-  - {name: "Code", url: "https://github.com/KuofengGao/CIBA"}
-tags: ['ARXIV', 'Has Code', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2109.08868'}
+  - {name: "Code", url: 'https://github.com/KuofengGao/CIBA'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Has Code', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 A backdoored deep hashing model is expected to behave normally on original
 query images and return the images with the target label when a specific

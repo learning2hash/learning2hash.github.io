@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Structured Learning Of Binary Codes With Column Generation
-authors: Lin Guosheng, Liu Fayao, Shen Chunhua, Wu Jianxin, Shen Heng Tao
+title: 'Structured Learning Of Binary Codes With Column Generation'
+authors: Guosheng Lin, Fayao Liu, Chunhua Shen, Jianxin Wu, Heng Tao Shen
 conference: "Arxiv"
 year: 2016
+citations: 0
 bibkey: lin2016structured
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1602.06654"}
-tags: ['ARXIV', 'Graph', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1602.06654'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Training Strategy', 'Similarity Learning', 'Supervised Hashing', 'Applications']
 ---
 Hashing methods aim to learn a set of hash functions which map the original
 features to compact binary codes with similarity preserving in the Hamming

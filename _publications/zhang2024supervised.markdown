@@ -4,10 +4,11 @@ title: Supervised Hashing With Latent Factor Models
 authors: Zhang P., Zhang, Li, Guo
 conference: "Arxiv"
 year: 2024
+citations: 193
 bibkey: zhang2024supervised
 additional_links:
   - {name: "Paper", url: "https://cs.nju.edu.cn/lwj/paper/SIGIR14_LFH.pdf"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Supervised', 'Supervised']
 ---
 Due to its low storage cost and fast query speed, hashing
 has been widely adopted for approximate nearest neighbor

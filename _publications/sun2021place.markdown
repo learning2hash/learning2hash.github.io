@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: 3rd Place A Global And Local Dual Retrieval Solution To Facebook AI Image Similarity Challenge
-authors: Sun Xinlong, Qin Yangyang, Xu Xuyuan, Gong Guoping, Fang Yang, Wang Yexin
+authors: Sun Xinlong et al.
 conference: "Arxiv"
 year: 2021
+citations: 1
 bibkey: sun2021place
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2112.02373"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Supervised', 'Self-Supervised']
 ---
 As a basic task of computer vision, image similarity retrieval is facing the
 challenge of large-scale data and image copy attacks. This paper presents our

@@ -4,6 +4,7 @@ title: Neighbourhood Preserving Quantisation For LSH
 authors: Moran S., Lavrenko, Osborne
 conference: "Arxiv"
 year: 2024
+citations: 11
 bibkey: moran2024neighbourhood
 additional_links:
   - {name: "Paper", url: "http://homepages.inf.ed.ac.uk/miles/papers/sigir13b.pdf"}

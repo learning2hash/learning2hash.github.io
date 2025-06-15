@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: The Many Faces Of Anger A Multicultural Video Dataset Of Negative Emotions In The Wild (mfa-wild)
-authors: Javadi Roya, Lim Angelica
+title: 'The Many Faces Of Anger: A Multicultural Video Dataset Of Negative Emotions In The Wild (mfa-wild)'
+authors: Roya Javadi, Angelica Lim
 conference: "Arxiv"
 year: 2021
+citations: 2
 bibkey: javadi2021many
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2112.05267"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2112.05267'}
+tags: ['Cross-Modal', 'Deep', 'Datasets', 'Vector Indexing', 'Supervised']
 ---
 The portrayal of negative emotions such as anger can vary widely between
 cultures and contexts, depending on the acceptability of expressing full-blown

@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Complementary Projection Hashing
-authors: Jin Z., Hu, Lin, Zhang, Lin, Cai, Li
+authors: Jin Z. et al.
 conference: "Arxiv"
 year: 2024
+citations: 38
 bibkey: jin2024complementary
 additional_links:
   - {name: "Paper", url: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.883.1565&rep=rep1&type=pdf"}

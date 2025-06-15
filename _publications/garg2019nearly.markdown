@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Nearly-unsupervised Hashcode Representations For Relation Extraction
-authors: Garg Sahil, Galstyan Aram, Steeg Greg Ver, Cecchi Guillermo
+title: 'Nearly-unsupervised Hashcode Representations For Relation Extraction'
+authors: Sahil Garg, Aram Galstyan, Greg Ver Steeg, Guillermo Cecchi
 conference: "Arxiv"
 year: 2019
+citations: 2
 bibkey: garg2019nearly
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1909.03881"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1909.03881'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Hashing']
 ---
 Recently, kernelized locality sensitive hashcodes have been successfully
 employed as representations of natural language text, especially showing high

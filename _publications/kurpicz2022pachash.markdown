@@ -4,6 +4,7 @@ title: Pachash Packed And Compressed Hash Tables
 authors: Kurpicz Florian, Lehmann Hans-peter, Sanders Peter
 conference: "Arxiv"
 year: 2022
+citations: 1
 bibkey: kurpicz2022pachash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2205.04745"}

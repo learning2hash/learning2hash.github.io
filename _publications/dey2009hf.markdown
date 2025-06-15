@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hf-hash Hash Functions Using Restricted HFE Challenge-1
-authors: Dey Dhananjoy, Mishra Prasanna Raghaw, Sengupta Indranath
+title: 'Hf-hash : Hash Functions Using Restricted HFE Challenge-1'
+authors: Dhananjoy Dey, Prasanna Raghaw Mishra, Indranath Sengupta
 conference: "Arxiv"
 year: 2009
+citations: 3
 bibkey: dey2009hf
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0909.1392"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0909.1392'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Compression', 'Hashing']
 ---
 Vulnerability of dedicated hash functions to various attacks has made the
 task of designing hash function much more challenging. This provides us a

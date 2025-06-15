@@ -4,6 +4,7 @@ title: Spectral Hashing
 authors: Yair Weiss, Antonio Torralba, Rob Fergus
 conference: "Neural Information Processing Systems"
 year: 2008
+citations: 2154
 bibkey: weiss2008spectral
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2008/hash/d58072be2820e8682c0a27c0518e805e-Abstract.html"}

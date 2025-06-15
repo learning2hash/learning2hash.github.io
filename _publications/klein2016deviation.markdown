@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deviation Results For Sparse Tables In Hashing With Linear Probing
-authors: Klein Thierry Imt, Lagnoux A Imt, Petit P Imt
+title: 'Deviation Results For Sparse Tables In Hashing With Linear Probing'
+authors: Thierry Imt Klein, A Imt Lagnoux, P Imt Petit
 conference: "Arxiv"
 year: 2016
+citations: 1
 bibkey: klein2016deviation
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1603.02235"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1603.02235'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 We consider the model of hashing with linear probing and we establish the
 moderate and large deviations for the total displacement in sparse tables. In

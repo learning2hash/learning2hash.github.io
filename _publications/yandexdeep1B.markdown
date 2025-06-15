@@ -4,6 +4,7 @@ title: "Yandex DEEP-1B"
 authors: Yandex
 conference: NeurIPS
 year: 2021
+citations: 0
 bibkey: yandexdeep1B
 additional_links:
    - {name: "URL", url: "https://research.yandex.com/datasets/biganns"}

@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Fedocr Communication-efficient Federated Learning For Scene Text Recognition
-authors: Zhang Wenqing, Qiu Yang, Bai Song, Zhang Rui, Wei Xiaolin, Bai Xiang
+authors: Zhang Wenqing et al.
 conference: "Arxiv"
 year: 2020
+citations: 3
 bibkey: zhang2020fedocr
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2007.11462"}

@@ -1,36 +1,22 @@
 ---
 layout: publication
-title: Learning To Hash For Indexing Big Data - A Survey
-authors: Wang Jun, Liu Wei, Kumar Sanjiv, Chang Shih-fu
+title: 'Learning Deep Structure-preserving Image-text Embeddings'
+authors: Liwei Wang, Yin Li, Svetlana Lazebnik
 conference: "Arxiv"
 year: 2015
+citations: 525
 bibkey: wang2015learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1509.05472"}
-tags: ['ARXIV', 'Deep Learning', 'LSH', 'Supervised', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1511.06078'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Multi-Modal Hashing', 'Similarity Learning', 'Applications']
 ---
-The explosive growth in big data has attracted much attention in designing
-efficient indexing and search methods recently. In many critical applications
-such as large-scale search and pattern matching, finding the nearest neighbors
-to a query is a fundamental research problem. However, the straightforward
-solution using exhaustive comparison is infeasible due to the prohibitive
-computational complexity and memory requirement. In response, Approximate
-Nearest Neighbor (ANN) search based on hashing techniques has become popular
-due to its promising performance in both efficiency and accuracy. Prior
-randomized hashing methods, e.g., Locality-Sensitive Hashing (LSH), explore
-data-independent hash functions with random projections or permutations.
-Although having elegant theoretic guarantees on the search quality in certain
-metric spaces, performance of randomized hashing has been shown insufficient in
-many real-world applications. As a remedy, new approaches incorporating
-data-driven learning methods in development of advanced hash functions have
-emerged. Such learning to hash methods exploit information such as data
-distributions or class labels when optimizing the hash codes or functions.
-Importantly, the learned hash codes are able to preserve the proximity of
-neighboring data in the original feature spaces in the hash code spaces. The
-goal of this paper is to provide readers with systematic understanding of
-insights, pros and cons of the emerging techniques. We provide a comprehensive
-survey of the learning to hash framework and representative techniques of
-various types, including unsupervised, semi-supervised, and supervised. In
-addition, we also summarize recent hashing approaches utilizing the deep
-learning models. Finally, we discuss the future direction and trends of
-research in this area.
+This paper proposes a method for learning joint embeddings of images and text
+using a two-branch neural network with multiple layers of linear projections
+followed by nonlinearities. The network is trained using a large margin
+objective that combines cross-view ranking constraints with within-view
+neighborhood structure preservation constraints inspired by metric learning
+literature. Extensive experiments show that our approach gains significant
+improvements in accuracy for image-to-text and text-to-image retrieval. Our
+method achieves new state-of-the-art results on the Flickr30K and MSCOCO
+image-sentence datasets and shows promise on the new task of phrase
+localization on the Flickr30K Entities dataset.

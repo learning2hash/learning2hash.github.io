@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Geometry And Clustering With Metrics Derived From Separable Bregman Divergences
-authors: Gomes-gonçalves Erika, Gzyl Henryk, Nielsen Frank
+title: 'Geometry And Clustering With Metrics Derived From Separable Bregman Divergences'
+authors: Erika Gomes-gonçalves, Henryk Gzyl, Frank Nielsen
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: gomesgonçalves2018geometry
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1810.10770"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1810.10770'}
+tags: ['Cross-Modal', 'Quantisation', 'Shallow', 'Vector Indexing', 'Quantization']
 ---
 Separable Bregman divergences induce Riemannian metric spaces that are
 isometric to the Euclidean space after monotone embeddings. We investigate

@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Streaming Encoding Algorithms For Scalable Hyperdimensional Computing
-authors: Thomas Anthony, Khaleghi Behnam, Jha Gopi Krishna, Dasgupta Sanjoy, Himayat Nageen, Iyer Ravi, Jain Nilesh, Rosing Tajana
+authors: Thomas Anthony et al.
 conference: "Arxiv"
 year: 2022
+citations: 3
 bibkey: thomas2022streaming
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2209.09868"}

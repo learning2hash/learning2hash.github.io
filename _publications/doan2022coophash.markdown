@@ -4,10 +4,11 @@ title: Coophash Cooperative Learning Of Multipurpose Descriptor And Contrastive 
 authors: Doan Khoa D., Xie Jianwen, Zhu Yaxuan, Zhao Yang, Li Ping
 conference: "Arxiv"
 year: 2022
+citations: 2
 bibkey: doan2022coophash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2210.04288"}
-tags: ['ARXIV', 'GAN', 'Supervised']
+tags: ['ARXIV', 'GAN', 'Supervised', 'Supervised']
 ---
 Leveraging supervised information can lead to superior retrieval performance
 in the image hashing domain but the performance degrades significantly without

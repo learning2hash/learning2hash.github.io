@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A New Hashing Based Nearest Neighbors Selection Technique For Big Datasets
-authors: Tchaye-kondi Jude, Zhai Yanlong, Zhu Liehuang
+title: 'A New Hashing Based Nearest Neighbors Selection Technique For Big Datasets'
+authors: Jude Tchaye-kondi, Yanlong Zhai, Liehuang Zhu
 conference: "Arxiv"
 year: 2020
+citations: 1
 bibkey: tchayekondi2020new
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.02290"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.02290'}
+tags: ['Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 KNN has the reputation to be the word simplest but efficient supervised
 learning algorithm used for either classification or regression. KNN prediction

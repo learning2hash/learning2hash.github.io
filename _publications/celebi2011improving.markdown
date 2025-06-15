@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Improving The Performance Of K-means For Color Quantization
-authors: Celebi M. Emre
-conference: "Image and Vision Computing"
+title: 'Improving The Performance Of K-means For Color Quantization'
+authors: M. Emre Celebi
+conference: "Image and Vision Computing 29 (2011) 260-271"
 year: 2011
+citations: 140
 bibkey: celebi2011improving
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1101.0395"}
-tags: ['Graph', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1101.0395'}
+tags: ['Cross-Modal', 'Quantisation', 'Shallow', 'Quantization', 'Applications']
 ---
 Color quantization is an important operation with many applications in
 graphics and image processing. Most quantization methods are essentially based

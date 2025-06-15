@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Refined Analysis Of LSH For Well-dispersed Data Points
-authors: Mou Wenlong, Wang Liwei
+title: 'A Refined Analysis Of LSH For Well-dispersed Data Points'
+authors: Wenlong Mou, Liwei Wang
 conference: "Arxiv"
 year: 2016
+citations: 1
 bibkey: mou2016refined
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1612.04571"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1612.04571'}
+tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
 ---
 Near neighbor problems are fundamental in algorithms for high-dimensional
 Euclidean spaces. While classical approaches suffer from the curse of

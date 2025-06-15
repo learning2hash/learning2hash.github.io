@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Multi-index Semantic Hashing
-authors: Hansen Christian, Hansen Casper, Simonsen Jakob Grue, Alstrup Stephen, Lioma Christina
+title: 'Unsupervised Multi-index Semantic Hashing'
+authors: Christian Hansen, Casper Hansen, Jakob Grue Simonsen, Stephen Alstrup, Christina Lioma
 conference: "Arxiv"
 year: 2021
+citations: 7
 bibkey: hansen2021unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2103.14460"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2103.14460'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing']
 ---
 Semantic hashing represents documents as compact binary vectors (hash codes)
 and allows both efficient and effective similarity search in large-scale

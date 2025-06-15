@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Variable-length Hashing
-authors: Yu Honghai, Moulin Pierre, Ng Hong Wei, Li Xiaoli
+title: 'Variable-length Hashing'
+authors: Honghai Yu, Pierre Moulin, Hong Wei Ng, Xiaoli Li
 conference: "Arxiv"
 year: 2016
+citations: 0
 bibkey: yu2016variable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1603.05414"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1603.05414'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Hashing']
 ---
 Hashing has emerged as a popular technique for large-scale similarity search.
 Most learning-based hashing methods generate compact yet correlated hash codes.

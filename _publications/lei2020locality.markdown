@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locality-sensitive Hashing Scheme Based On Longest Circular Co-substring
-authors: Lei Yifan, Huang Qiang, Kankanhalli Mohan, Tung Anthony K. H.
+title: 'Locality-sensitive Hashing Scheme Based On Longest Circular Co-substring'
+authors: Yifan Lei, Qiang Huang, Mohan Kankanhalli, Anthony K. H. Tung
 conference: "Arxiv"
 year: 2020
+citations: 21
 bibkey: lei2020locality
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.05345"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.05345'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing']
 ---
 Locality-Sensitive Hashing (LSH) is one of the most popular methods for
 \\(c\\)-Approximate Nearest Neighbor Search (\\(c\\)-ANNS) in high-dimensional spaces.

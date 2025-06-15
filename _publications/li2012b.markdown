@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: B-bit Minwise Hashing In Practice Large-scale Batch And Online Learning And Using Gpus For Fast Preprocessing With Simple Hash Functions
-authors: Li Ping, Shrivastava Anshumali, Konig Arnd Christian
+title: 'B-bit Minwise Hashing In Practice: Large-scale Batch And Online Learning And Using Gpus For Fast Preprocessing With Simple Hash Functions'
+authors: Ping Li, Anshumali Shrivastava, Arnd Christian Konig
 conference: "Arxiv"
 year: 2012
+citations: 5
 bibkey: li2012b
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1205.2958"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1205.2958'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 In this paper, we study several critical issues which must be tackled before
 one can apply b-bit minwise hashing to the volumes of data often used

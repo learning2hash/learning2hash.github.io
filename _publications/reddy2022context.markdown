@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Context Unaware Knowledge Distillation For Image Retrieval
-authors: Reddy Bytasandram Yaswanth, Dubey Shiv Ram, Sanodiya Rakesh Kumar, Karn Ravi Ranjan Prasad
+title: 'Context Unaware Knowledge Distillation For Image Retrieval'
+authors: Bytasandram Yaswanth Reddy, Shiv Ram Dubey, Rakesh Kumar Sanodiya, Ravi Ranjan Prasad Karn
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: reddy2022context
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2207.09070"}
-  - {name: "Code", url: "https://github.com/satoru2001/CUKDFIR}"}
-tags: ['ARXIV', 'Has Code', 'Image Retrieval', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2207.09070'}
+  - {name: "Code", url: 'https://github.com/satoru2001/CUKDFIR'}
+tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Has Code', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Existing data-dependent hashing methods use large backbone networks with
 millions of parameters and are computationally complex. Existing knowledge

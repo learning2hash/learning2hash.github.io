@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Zero-shot Deep Hashing And Neural Network Based Error Correction For Face Template Protection
-authors: Talreja Veeru, Valenti Matthew C., Nasrabadi Nasser M.
+title: 'Zero-shot Deep Hashing And Neural Network Based Error Correction For Face Template Protection'
+authors: Veeru Talreja, Matthew C. Valenti, Nasser M. Nasrabadi
 conference: "Arxiv"
 year: 2019
+citations: 15
 bibkey: talreja2019zero
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1908.02706"}
-tags: ['ARXIV', 'Cross Modal', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1908.02706'}
+tags: ['Cross-Modal', 'Deep', 'Deep Hashing', 'Supervised', 'Hashing']
 ---
 In this paper, we present a novel architecture that integrates a deep hashing
 framework with a neural network decoder (NND) for application to face template

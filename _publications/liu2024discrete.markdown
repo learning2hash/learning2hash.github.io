@@ -4,10 +4,11 @@ title: Discrete Graph Hashing
 authors: Liu W., Mu, Kumar, Chang
 conference: "Arxiv"
 year: 2024
+citations: 495
 bibkey: liu2024discrete
 additional_links:
   - {name: "Paper", url: "http://www.ee.columbia.edu/~wliu/NIPS14_dgh.pdf"}
-tags: ['ARXIV', 'Graph', 'Unsupervised']
+tags: ['ARXIV', 'Graph', 'Unsupervised', 'Supervised']
 ---
 Hashing has emerged as a popular technique for fast nearest neighbor search in gigantic
 databases. In particular, learning based hashing has received considerable

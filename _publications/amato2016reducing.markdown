@@ -4,6 +4,7 @@ title: On Reducing The Number Of Visual Words In The Bag-of-features Representat
 authors: Amato Giuseppe, Falchi Fabrizio, Gennaro Claudio
 conference: "VISAPP"
 year: 2016
+citations: 0
 bibkey: amato2016reducing
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1604.04142"}

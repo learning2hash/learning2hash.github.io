@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Iterative Universal Hash Function Generator For Minhashing
-authors: De Franca Fabricio Olivetti
+title: 'Iterative Universal Hash Function Generator For Minhashing'
+authors: Fabricio Olivetti De Franca
 conference: "Arxiv"
 year: 2014
+citations: 0
 bibkey: defranca2014iterative
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1401.6124"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1401.6124'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Hashing']
 ---
 Minhashing is a technique used to estimate the Jaccard Index between two sets
 by exploiting the probability of collision in a random permutation. In order to

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Survey On Deep Hashing For Image Retrieval
-authors: Zhang Xiaopeng
+title: 'A Survey On Deep Hashing For Image Retrieval'
+authors: Xiaopeng Zhang
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: zhang2020survey
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2006.05627"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Supervised', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2006.05627'}
+tags: ['Cross-Modal', 'Deep', 'Supervised Hashing', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Datasets', 'Surveys and Reviews', 'Deep Hashing', 'Supervised', 'Survey Paper', 'Hashing', 'Applications']
 ---
 Hashing has been widely used in approximate nearest search for large-scale
 database retrieval for its computation and storage efficiency. Deep hashing,

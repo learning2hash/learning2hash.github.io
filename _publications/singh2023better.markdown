@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Better Generalization With Semantic Ids A Case Study In Ranking For Recommendations
-authors: Singh Anima, Vu Trung, Mehta Nikhil, Keshavan Raghunandan, Sathiamoorthy Maheswaran, Zheng Yilin, Hong Lichan, Heldt Lukasz, Wei Li, Tandon Devansh, Chi Ed H., Yi Xinyang
+title: 'Better Generalization With Semantic Ids: A Case Study In Ranking For Recommendations'
+authors: Anima Singh et al.
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: singh2023better
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2306.08121"}
-tags: ['ARXIV', 'Case Study', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2306.08121'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Randomly-hashed item ids are used ubiquitously in recommendation models.
 However, the learned representations from random hashing prevents

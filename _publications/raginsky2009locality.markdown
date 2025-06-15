@@ -4,6 +4,7 @@ title: Locality-sensitive Binary Codes From Shift-invariant Kernels
 authors: Maxim Raginsky, Svetlana Lazebnik
 conference: "Neural Information Processing Systems"
 year: 2009
+citations: 632
 bibkey: raginsky2009locality
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2009/hash/a5e00132373a7031000fd987a3c9f87b-Abstract.html"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Search On Binary Codes By Weighted Hamming Distance
-authors: Weng Zhenyu, Zhu Yuesheng, Liu Ruixin
+title: 'Fast Search On Binary Codes By Weighted Hamming Distance'
+authors: Zhenyu Weng, Yuesheng Zhu, Ruixin Liu
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: weng2020fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2009.08591"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2009.08591'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing']
 ---
 Weighted Hamming distance, as a similarity measure between binary codes and
 binary queries, provides superior accuracy in search tasks than Hamming

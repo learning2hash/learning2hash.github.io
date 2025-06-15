@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Discrete Latent Factor Model For Cross-modal Hashing
-authors: Jiang Qing-yuan, Li Wu-jun
+title: 'Discrete Latent Factor Model For Cross-modal Hashing'
+authors: Qing-yuan Jiang, Wu-jun Li
 conference: "Arxiv"
 year: 2017
+citations: 135
 bibkey: jiang2017discrete
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1707.08322"}
-tags: ['ARXIV', 'Cross Modal', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1707.08322'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
 ---
 Due to its storage and retrieval efficiency, cross-modal hashing~(CMH) has
 been widely used for cross-modal similarity search in multimedia applications.

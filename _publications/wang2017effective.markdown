@@ -4,6 +4,7 @@ title: Effective Multi-query Expansions Collaborative Deep Networks For Robust L
 authors: Wang Yang, Lin Xuemin, Wu Lin, Zhang Wenjie
 conference: "Arxiv"
 year: 2017
+citations: 122
 bibkey: wang2017effective
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1701.05003"}

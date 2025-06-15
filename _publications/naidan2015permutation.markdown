@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Permutation Search Methods Are Efficient Yet Faster Search Is Possible
-authors: Naidan Bilegsaikhan, Boytsov Leonid, Nyberg Eric
+title: 'Permutation Search Methods Are Efficient, Yet Faster Search Is Possible'
+authors: Bilegsaikhan Naidan, Leonid Boytsov, Eric Nyberg
 conference: "Arxiv"
 year: 2015
+citations: 24
 bibkey: naidan2015permutation
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1506.03163"}
-tags: ['ARXIV', 'Graph', 'Independent', 'LSH', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1506.03163'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Evaluation', 'Shallow', 'Surveys and Reviews', 'Survey Paper']
 ---
 We survey permutation-based methods for approximate k-nearest neighbor
 search. In these methods, every data point is represented by a ranked list of

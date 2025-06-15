@@ -4,6 +4,7 @@ title: 80 Million Tiny Images A Large Dataset For Non-parametric Object And Scen
 authors: Torralba A., Freeman
 conference: "Arxiv"
 year: 2024
+citations: 1373
 bibkey: torralba2024million
 additional_links:
   - {name: "Paper", url: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.141.5995&rep=rep1&type=pdf"}

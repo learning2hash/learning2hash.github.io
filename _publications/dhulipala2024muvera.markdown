@@ -4,6 +4,7 @@ title: MUVERA Multi-vector Retrieval Via Fixed Dimensional Encodings
 authors: Dhulipala Laxman, Hadian Majid, Jayaram Rajesh, Lee Jason, Mirrokni Vahab
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: dhulipala2024muvera
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2405.19504"}

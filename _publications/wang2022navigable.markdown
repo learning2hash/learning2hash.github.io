@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Navigable Proximity Graph-driven Native Hybrid Queries With Structured And Unstructured Constraints
-authors: Wang Mengzhao, Lv Lingwei, Xu Xiaoliang, Wang Yuxiang, Yue Qiang, Ni Jiongkang
+authors: Wang Mengzhao et al.
 conference: "Arxiv"
 year: 2022
+citations: 4
 bibkey: wang2022navigable
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2203.13601"}

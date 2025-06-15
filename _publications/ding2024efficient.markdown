@@ -4,6 +4,7 @@ title: Efficient Retrieval With Learned Similarities
 authors: Ding Bailu, Zhai Jiaqi
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: ding2024efficient
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2407.15462"}

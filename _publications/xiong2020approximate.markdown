@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Approximate Nearest Neighbor Negative Contrastive Learning For Dense Text Retrieval
-authors: Xiong Lee, Xiong Chenyan, Li Ye, Tang Kwok-fung, Liu Jialin, Bennett Paul, Ahmed Junaid, Overwijk Arnold
+title: 'Approximate Nearest Neighbor Negative Contrastive Learning For Dense Text Retrieval'
+authors: Lee Xiong et al.
 conference: "Arxiv"
 year: 2020
+citations: 356
 bibkey: xiong2020approximate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2007.00808"}
-tags: ['ARXIV', 'Self Supervised', 'Text Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2007.00808'}
+tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Vector Indexing', 'Training Strategy']
 ---
 Conducting text retrieval in a dense learned representation space has many
 intriguing advantages over sparse retrieval. Yet the effectiveness of dense

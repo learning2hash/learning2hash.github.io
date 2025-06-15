@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Signal-to-noise Ratio A Robust Distance Metric For Deep Metric Learning
-authors: Yuan Tongtong, Deng Weihong, Tang Jian, Tang Yinan, Chen Binghui
+title: 'Signal-to-noise Ratio: A Robust Distance Metric For Deep Metric Learning'
+authors: Tongtong Yuan, Weihong Deng, Jian Tang, Yinan Tang, Binghui Chen
 conference: "Arxiv"
 year: 2019
+citations: 61
 bibkey: yuan2019signal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.02616"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.02616'}
+tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Similarity Learning', 'Hashing']
 ---
 Deep metric learning, which learns discriminative features to process image
 clustering and retrieval tasks, has attracted extensive attention in recent

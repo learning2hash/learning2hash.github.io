@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Visualizing Deep Similarity Networks
-authors: Stylianou Abby, Souvenir Richard, Pless Robert
+title: 'Visualizing Deep Similarity Networks'
+authors: Abby Stylianou, Richard Souvenir, Robert Pless
 conference: "Arxiv"
 year: 2019
+citations: 36
 bibkey: stylianou2019visualizing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1901.00536"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1901.00536'}
+tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Supervised', 'Similarity Learning']
 ---
 For convolutional neural network models that optimize an image embedding, we
 propose a method to highlight the regions of images that contribute most to

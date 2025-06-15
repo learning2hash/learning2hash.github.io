@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Creating Something From Nothing Unsupervised Knowledge Distillation For Cross-modal Hashing
-authors: Hu Hengtong, Xie Lingxi, Hong Richang, Tian Qi
+title: 'Creating Something From Nothing: Unsupervised Knowledge Distillation For Cross-modal Hashing'
+authors: Hengtong Hu, Lingxi Xie, Richang Hong, Qi Tian
 conference: "Arxiv"
 year: 2020
+citations: 101
 bibkey: hu2020creating
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.00280"}
-tags: ['ARXIV', 'Cross Modal', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.00280'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 In recent years, cross-modal hashing (CMH) has attracted increasing
 attentions, mainly because its potential ability of mapping contents from

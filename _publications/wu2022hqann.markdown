@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: HQANN Efficient And Robust Similarity Search For Hybrid Queries With Structured And Unstructured Constraints
-authors: Wu Wei, He Junlin, Qiao Yu, Fu Guoheng, Liu Li, Yu Jin
+authors: Wu Wei et al.
 conference: "Arxiv"
 year: 2022
+citations: 6
 bibkey: wu2022hqann
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2207.07940"}

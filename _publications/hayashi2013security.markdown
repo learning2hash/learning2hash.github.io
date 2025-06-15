@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Security Analysis Of Epsilon-almost Dual Universal2 Hash Functions Smoothing Of Min Entropy Vs. Smoothing Of Renyi Entropy Of Order 2
-authors: Hayashi Masahito
-conference: "IEEE Transactions on Information Theory Volume"
+title: 'Security Analysis Of Epsilon-almost Dual Universal2 Hash Functions: Smoothing Of Min Entropy Vs. Smoothing Of R\''enyi Entropy Of Order 2'
+authors: Masahito Hayashi
+conference: "IEEE Transactions on Information Theory Volume 62 Issue 6 3451 - 3476 (2016)"
 year: 2013
+citations: 0
 bibkey: hayashi2013security
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1309.1596"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1309.1596'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing']
 ---
 Recently, \\(\epsilon\\)-almost dual universal\\(_2\\) hash functions has been
 proposed as a new and wider class of hash functions. Using this class of hash

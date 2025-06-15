@@ -4,6 +4,7 @@ title: Cross-modal Similarity Learning Via Pairs Preferences And Active Supervis
 authors: Zhen Yi, Rai, Zha, Carin
 conference: "Arxiv"
 year: 2024
+citations: 3
 bibkey: zhen2024cross
 additional_links:
   - {name: "Paper", url: "http://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9648/10001/"}

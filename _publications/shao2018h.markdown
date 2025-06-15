@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: H-CNN Spatial Hashing Based CNN For 3D Shape Analysis
-authors: Shao Tianjia, Yang Yin, Weng Yanlin, Hou Qiming, Zhou Kun
+title: 'H-CNN: Spatial Hashing Based CNN For 3D Shape Analysis'
+authors: Tianjia Shao, Yin Yang, Yanlin Weng, Qiming Hou, Kun Zhou
 conference: "Arxiv"
 year: 2018
+citations: 19
 bibkey: shao2018h
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1803.11385"}
-tags: ['ARXIV', 'CNN', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1803.11385'}
+tags: ['Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 We present a novel spatial hashing based data structure to facilitate 3D
 shape analysis using convolutional neural networks (CNNs). Our method well

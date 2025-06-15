@@ -4,6 +4,7 @@ title: Super-bit Locality-sensitive Hashing
 authors: Jianqiu Ji, Jianmin Li, Shuicheng Yan, Bo Zhang, Qi Tian
 conference: "Neural Information Processing Systems"
 year: 2012
+citations: 104
 bibkey: ji2012super
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2012/hash/072b030ba126b2f4b2374f342be9ed44-Abstract.html"}

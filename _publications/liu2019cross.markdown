@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Cross-modal Zero-shot Hashing
-authors: Liu Xuanwu, Li Zhao, Wang Jun, Yu Guoxian, Domeniconi Carlotta, Zhang Xiangliang
+title: 'Cross-modal Zero-shot Hashing'
+authors: Xuanwu Liu et al.
 conference: "Arxiv"
 year: 2019
+citations: 11
 bibkey: liu2019cross
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1908.07388"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1908.07388'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 Hashing has been widely studied for big data retrieval due to its low storage
 cost and fast query speed. Zero-shot hashing (ZSH) aims to learn a hashing

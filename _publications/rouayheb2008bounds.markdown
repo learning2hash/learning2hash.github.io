@@ -4,6 +4,7 @@ title: Bounds On Codes Based On Graph Theory
 authors: Rouayheb Salim Y. El, Georghiades C. N., Soljanin E., Sprintson A.
 conference: "Arxiv"
 year: 2008
+citations: 12
 bibkey: rouayheb2008bounds
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/0806.4979"}

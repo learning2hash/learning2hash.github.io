@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Simultaneous Feature Aggregating And Hashing For Compact Binary Code Learning
-authors: Do Thanh-toan, Le Khoa, Hoang Tuan, Le Huu, Nguyen Tam V., Cheung Ngai-man
+title: 'Simultaneous Feature Aggregating And Hashing For Compact Binary Code Learning'
+authors: Thanh-toan Do et al.
 conference: "Arxiv"
 year: 2019
+citations: 19
 bibkey: do2019simultaneous
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.11820"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.11820'}
+tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Representing images by compact hash codes is an attractive approach for
 large-scale content-based image retrieval. In most state-of-the-art

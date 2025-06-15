@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Clustering The Sketch A Novel Approach To Embedding Table Compression
-authors: Tsang Henry Ling-hei, Ahle Thomas Dybdahl
+title: 'Clustering The Sketch: A Novel Approach To Embedding Table Compression'
+authors: Henry Ling-hei Tsang, Thomas Dybdahl Ahle
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: tsang2022clustering
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2210.05974"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2210.05974'}
+tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Compression', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Embedding tables are used by machine learning systems to work with
 categorical features. In modern Recommendation Systems, these tables can be

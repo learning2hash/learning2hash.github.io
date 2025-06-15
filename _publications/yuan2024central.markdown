@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Central Similarity Hashing For Efficient Image And Video Retrieval
-authors: Yuan Li, Wang, Zhang, Jie, Tay, Feng
+authors: Yuan Li et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: yuan2024central
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/pdf/1908.00347.pdf"}

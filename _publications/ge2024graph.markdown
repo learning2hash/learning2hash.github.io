@@ -4,10 +4,11 @@ title: Graph Cuts For Supervised Binary Coding
 authors: Ge T., He, Sun
 conference: "Arxiv"
 year: 2024
+citations: 33
 bibkey: ge2024graph
 additional_links:
   - {name: "Paper", url: "http://kaiminghe.com/publications/eccv14gcc.pdf"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+tags: ['ARXIV', 'Graph', 'Supervised', 'Supervised']
 ---
 Learning short binary codes is challenged by the inherent discrete
 nature of the problem. The graph cuts algorithm is a well-studied

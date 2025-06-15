@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Pb-hash Partitioned B-bit Hashing
-authors: Li Ping, Zhao Weijie
+title: 'Pb-hash: Partitioned B-bit Hashing'
+authors: Ping Li, Weijie Zhao
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: li2023pb
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2306.15944"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2306.15944'}
+tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Applications']
 ---
 Many hashing algorithms including minwise hashing (MinHash), one permutation
 hashing (OPH), and consistent weighted sampling (CWS) generate integers of \\(B\\)

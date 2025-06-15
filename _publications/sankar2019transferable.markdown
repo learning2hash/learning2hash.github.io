@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Transferable Neural Projection Representations
-authors: Sankar Chinnadhurai, Ravi Sujith, Kozareva Zornitsa
-conference: "Proc. of NAACL"
+title: 'Transferable Neural Projection Representations'
+authors: Chinnadhurai Sankar, Sujith Ravi, Zornitsa Kozareva
+conference: "Proc. of NAACL 2019"
 year: 2019
+citations: 0
 bibkey: sankar2019transferable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1906.01605"}
-tags: ['LSH', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1906.01605'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing']
 ---
 Neural word representations are at the core of many state-of-the-art natural
 language processing models. A widely used approach is to pre-train, store and

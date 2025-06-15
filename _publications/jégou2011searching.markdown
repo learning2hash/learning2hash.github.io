@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Searching In One Billion Vectors Re-rank With Source Coding
-authors: Jégou Hervé Inria - Irisa, Tavenard Romain Inria - Irisa, Douze Matthijs Inria Rhône-alpes / Ljk Laboratoire Jean Kuntzmann, Sed, Amsaleg Laurent Inria - Irisa
+title: 'Searching In One Billion Vectors: Re-rank With Source Coding'
+authors: Hervé Inria - Irisa Jégou, Romain Inria - Irisa Tavenard, Matthijs Inria Rhône-alpes / Ljk Laboratoire Jean Kuntzmann, Sed Douze, Laurent Inria - Irisa Amsaleg
 conference: "Arxiv"
 year: 2011
+citations: 168
 bibkey: jégou2011searching
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1102.3828"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1102.3828'}
+tags: ['Unimodal', 'Quantization', 'Shallow', 'Quantisation']
 ---
 Recent indexing techniques inspired by source coding have been shown
 successful to index billions of high-dimensional vectors in memory. In this

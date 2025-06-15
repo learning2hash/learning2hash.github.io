@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Representation Learning For Efficient And Effective Similarity Search And Recommendation
-authors: Hansen Casper
+title: 'Representation Learning For Efficient And Effective Similarity Search And Recommendation'
+authors: Casper Hansen
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: hansen2021representation
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2109.01815"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2109.01815'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Hashing', 'Applications']
 ---
 How data is represented and operationalized is critical for building
 computational solutions that are both effective and efficient. A common

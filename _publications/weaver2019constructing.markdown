@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Constructing Minimal Perfect Hash Functions Using SAT Technology
-authors: Weaver Sean, Heule Marijn
+title: 'Constructing Minimal Perfect Hash Functions Using SAT Technology'
+authors: Sean Weaver, Marijn Heule
 conference: "Arxiv"
 year: 2019
+citations: 2
 bibkey: weaver2019constructing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1911.10099"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1911.10099'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
 ---
 Minimal perfect hash functions (MPHFs) are used to provide efficient access
 to values of large dictionaries (sets of key-value pairs). Discovering new

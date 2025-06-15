@@ -4,6 +4,7 @@ title: Quantized Kernel Learning For Feature Matching
 authors: Danfeng Qin, Xuanli Chen, Matthieu Guillaumin, Luc V. Gool
 conference: "Neural Information Processing Systems"
 year: 2014
+citations: 10
 bibkey: qin2014quantized
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2014/hash/02522a2b2726fb0a03bb19f2d8d9524d-Abstract.html"}

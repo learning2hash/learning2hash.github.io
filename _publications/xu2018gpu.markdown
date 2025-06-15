@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: GPU Accelerated Cascade Hashing Image Matching For Large Scale 3D Reconstruction
-authors: Xu Tao, Sun Kun, Tao Wenbing
+title: 'GPU Accelerated Cascade Hashing Image Matching For Large Scale 3D Reconstruction'
+authors: Tao Xu, Kun Sun, Wenbing Tao
 conference: "Arxiv"
 year: 2018
+citations: 1
 bibkey: xu2018gpu
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1805.08995"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1805.08995'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Image feature point matching is a key step in Structure from Motion(SFM).
 However, it is becoming more and more time consuming because the number of

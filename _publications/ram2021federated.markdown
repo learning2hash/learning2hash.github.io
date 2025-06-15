@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Federated Nearest Neighbor Classification With A Colony Of Fruit-flies With Supplement
-authors: Ram Parikshit, Sinha Kaushik
+title: 'Federated Nearest Neighbor Classification With A Colony Of Fruit-flies: With Supplement'
+authors: Parikshit Ram, Kaushik Sinha
 conference: "Arxiv"
 year: 2021
+citations: 1
 bibkey: ram2021federated
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2112.07157"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2112.07157'}
+tags: ['Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy']
 ---
 The mathematical formalization of a neurological mechanism in the olfactory
 circuit of a fruit-fly as a locality sensitive hash (Flyhash) and bloom filter

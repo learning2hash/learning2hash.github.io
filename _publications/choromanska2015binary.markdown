@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Binary Embeddings With Structured Hashed Projections
-authors: Choromanska Anna, Choromanski Krzysztof, Bojarski Mariusz, Jebara Tony, Kumar Sanjiv, Lecun Yann
+title: 'Binary Embeddings With Structured Hashed Projections'
+authors: Anna Choromanska et al.
 conference: "Arxiv"
 year: 2015
+citations: 27
 bibkey: choromanska2015binary
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1511.05212"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1511.05212'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Compression', 'Hashing']
 ---
 We consider the hashing mechanism for constructing binary embeddings, that
 involves pseudo-random projections followed by nonlinear (sign function)

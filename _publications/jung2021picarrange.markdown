@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Picarrange -- Visually Sort Search And Explore Private Images On A Mac Computer
-authors: Jung Klaus, Barthel Kai Uwe, Hezel Nico, Schall Konstantin
+title: 'Picarrange -- Visually Sort, Search, And Explore Private Images On A Mac Computer'
+authors: Klaus Jung, Kai Uwe Barthel, Nico Hezel, Konstantin Schall
 conference: "Arxiv"
 year: 2021
+citations: 2
 bibkey: jung2021picarrange
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2111.13363"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2111.13363'}
+tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Surveys and Reviews', 'Supervised']
 ---
 The native macOS application PicArrange integrates state-of-the-art image
 sorting and similarity search to enable users to get a better overview of their

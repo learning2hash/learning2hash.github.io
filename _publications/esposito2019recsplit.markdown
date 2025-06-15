@@ -4,6 +4,7 @@ title: Recsplit Minimal Perfect Hashing Via Recursive Splitting
 authors: Esposito Emmanuel, Graf Thomas Mueller, Vigna Sebastiano
 conference: "Arxiv"
 year: 2019
+citations: 16
 bibkey: esposito2019recsplit
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1910.06416"}

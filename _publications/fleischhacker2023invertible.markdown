@@ -4,10 +4,11 @@ title: Invertible Bloom Lookup Tables With Less Memory And Randomness
 authors: Fleischhacker Nils, Larsen Kasper Green, Obremski Maciej, Simkin Mark
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: fleischhacker2023invertible
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2306.07583"}
-tags: ['ARXIV', 'Graph', 'Independent']
+tags: ['ARXIV', 'Graph', 'Independent', 'Independent']
 ---
 In this work we study Invertible Bloom Lookup Tables (IBLTs) with small
 failure probabilities. IBLTs are highly versatile data structures that have

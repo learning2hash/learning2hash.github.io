@@ -4,6 +4,7 @@ title: Instant Complexity Reduction In Cnns Using Locality-sensitive Hashing
 authors: Meiner Lukas, Mehnert Jens, Condurache Alexandru Paul
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: meiner2023instant
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2309.17211"}

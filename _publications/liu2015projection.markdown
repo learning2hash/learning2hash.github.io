@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Projection Bank From High-dimensional Data To Medium-length Binary Codes
-authors: Liu Li, Yu Mengyang, Shao Ling
+title: 'Projection Bank: From High-dimensional Data To Medium-length Binary Codes'
+authors: Li Liu, Mengyang Yu, Ling Shao
 conference: "Arxiv"
 year: 2015
+citations: 17
 bibkey: liu2015projection
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1509.04916"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1509.04916'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing', 'Applications']
 ---
 Recently, very high-dimensional feature representations, e.g., Fisher Vector,
 have achieved excellent performance for visual recognition and retrieval.

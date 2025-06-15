@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Zero-shot Sketch-image Hashing
-authors: Shen Yuming, Liu Li, Shen Fumin, Shao Ling
+title: 'Zero-shot Sketch-image Hashing'
+authors: Yuming Shen, Li Liu, Fumin Shen, Ling Shao
 conference: "Arxiv"
 year: 2018
+citations: 119
 bibkey: shen2018zero
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1803.02284"}
-tags: ['ARXIV', 'Cross Modal', 'Graph', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1803.02284'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Retrieval Models', 'Evaluation', 'Datasets', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
 ---
 Recent studies show that large-scale sketch-based image retrieval (SBIR) can
 be efficiently tackled by cross-modal binary representation learning methods,

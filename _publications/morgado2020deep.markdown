@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Hashing With Hash-consistent Large Margin Proxy Embeddings
-authors: Morgado Pedro, Li Yunsheng, Pereira Jose Costa, Saberian Mohammad, Vasconcelos Nuno
+title: 'Deep Hashing With Hash-consistent Large Margin Proxy Embeddings'
+authors: Pedro Morgado, Yunsheng Li, Jose Costa Pereira, Mohammad Saberian, Nuno Vasconcelos
 conference: "Arxiv"
 year: 2020
+citations: 6
 bibkey: morgado2020deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2007.13912"}
-tags: ['ARXIV', 'CNN', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2007.13912'}
+tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing']
 ---
 Image hash codes are produced by binarizing the embeddings of convolutional
 neural networks (CNN) trained for either classification or retrieval. While

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Adaptive Mapreduce Similarity Joins
-authors: Mccauley Samuel, Silvestri Francesco
+title: 'Adaptive Mapreduce Similarity Joins'
+authors: Samuel Mccauley, Francesco Silvestri
 conference: "Arxiv"
 year: 2018
+citations: 1
 bibkey: mccauley2018adaptive
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1804.05615"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1804.05615'}
+tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
 ---
 Similarity joins are a fundamental database operation. Given data sets S and
 R, the goal of a similarity join is to find all points x in S and y in R with

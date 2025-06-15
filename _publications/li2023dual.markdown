@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Dual-stream Knowledge-preserving Hashing For Unsupervised Video Retrieval
-authors: Li Pandeng, Xie Hongtao, Ge Jiannan, Zhang Lei, Min Shaobo, Zhang Yongdong
+title: 'Dual-stream Knowledge-preserving Hashing For Unsupervised Video Retrieval'
+authors: Pandeng Li et al.
 conference: "Arxiv"
 year: 2023
+citations: 12
 bibkey: li2023dual
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2310.08009"}
-tags: ['ARXIV', 'Unsupervised', 'Video Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2310.08009'}
+tags: ['Model Design', 'Retrieval Models', 'Unimodal', 'Shallow', 'Supervised', 'Hashing']
 ---
 Unsupervised video hashing usually optimizes binary codes by learning to
 reconstruct input videos. Such reconstruction constraint spends much effort on

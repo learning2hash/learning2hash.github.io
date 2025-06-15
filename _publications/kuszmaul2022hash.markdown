@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Hash Table Without Hash Functions And How To Get The Most Out Of Your Random Bits
-authors: Kuszmaul William
+title: 'A Hash Table Without Hash Functions, And How To Get The Most Out Of Your Random Bits'
+authors: William Kuszmaul
 conference: "Arxiv"
 year: 2022
+citations: 4
 bibkey: kuszmaul2022hash
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2209.06038"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2209.06038'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
 ---
 This paper considers the basic question of how strong of a probabilistic
 guarantee can a hash table, storing \\(n\\) \\((1 + \Theta(1)) log n\\)-bit key/value

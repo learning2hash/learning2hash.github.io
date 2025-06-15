@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Grayscale Image Authentication Using Neural Hashing
-authors: Kutlu Yakup, Yayık Apdullah
+title: 'Grayscale Image Authentication Using Neural Hashing'
+authors: Yakup Kutlu, Apdullah Yayık
 conference: "Arxiv"
 year: 2017
+citations: 1
 bibkey: kutlu2017grayscale
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1703.00726"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1703.00726'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Many different approaches for neural network based hash functions have been
 proposed. Statistical analysis must correlate security of them. This paper

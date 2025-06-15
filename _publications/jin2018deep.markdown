@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Saliency Hashing
-authors: Jin Sheng, Yao Hongxun, Sun Xiaoshuai, Zhou Shangchen, Zhang Lei, Hua Xiansheng
+title: 'Deep Saliency Hashing'
+authors: Sheng Jin et al.
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: jin2018deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1807.01459"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1807.01459'}
+tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Training Strategy', 'Datasets', 'Deep Hashing', 'Quantization', 'Hashing']
 ---
 In recent years, hashing methods have been proved to be effective and
 efficient for the large-scale Web media search. However, the existing general

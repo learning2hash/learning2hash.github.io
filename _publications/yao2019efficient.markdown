@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Discrete Supervised Hashing For Large-scale Cross-modal Retrieval
-authors: Yao Tao, Kong Xiangwei, Yan Lianshan, Tang Wenjing, Tian Qi
+title: 'Efficient Discrete Supervised Hashing For Large-scale Cross-modal Retrieval'
+authors: Tao Yao, Xiangwei Kong, Lianshan Yan, Wenjing Tang, Qi Tian
 conference: "Arxiv"
 year: 2019
+citations: 27
 bibkey: yao2019efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.01304"}
-tags: ['ARXIV', 'Cross Modal', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.01304'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Hashing', 'Datasets', 'Quantization', 'Multi-Modal Hashing', 'Supervised Hashing']
 ---
 Supervised cross-modal hashing has gained increasing research interest on
 large-scale retrieval task owning to its satisfactory performance and

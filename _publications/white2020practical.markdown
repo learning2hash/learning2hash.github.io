@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Practical Blockchain Framework Using Image Hashing For Image Authentication
-authors: White Cameron, Paul Manoranjan, Chakraborty Subrata
+title: 'A Practical Blockchain Framework Using Image Hashing For Image Authentication'
+authors: Cameron White, Manoranjan Paul, Subrata Chakraborty
 conference: "Arxiv"
 year: 2020
+citations: 1
 bibkey: white2020practical
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.06860"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.06860'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Blockchain is a relatively new technology that can be seen as a decentralised
 database. Blockchain systems heavily rely on cryptographic hash functions to

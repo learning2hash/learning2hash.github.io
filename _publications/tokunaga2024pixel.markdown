@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Pixel Embedding Fully Quantized Convolutional Neural Network With Differentiable Lookup Table
-authors: Tokunaga Hiroyuki, Nicholls Joel, Vazhenina Daria, Kanemura Atsunori
+title: 'Pixel Embedding: Fully Quantized Convolutional Neural Network With Differentiable Lookup Table'
+authors: Hiroyuki Tokunaga, Joel Nicholls, Daria Vazhenina, Atsunori Kanemura
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: tokunaga2024pixel
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2407.16174"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2407.16174'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Compression', 'Datasets', 'Quantization']
 ---
 By quantizing network weights and activations to low bitwidth, we can obtain
 hardware-friendly and energy-efficient networks. However, existing quantization

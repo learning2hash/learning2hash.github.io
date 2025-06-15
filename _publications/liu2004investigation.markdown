@@ -4,6 +4,7 @@ title: An Investigation Of Practical Approximate Nearest Neighbor Algorithms
 authors: Ting Liu, Andrew Moore, Ke Yang, Alexander Gray
 conference: "Neural Information Processing Systems"
 year: 2004
+citations: 373
 bibkey: liu2004investigation
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2004/hash/1102a326d5f7c9e04fc3c89d0ede88c9-Abstract.html"}

@@ -4,6 +4,7 @@ title: Hybridhash Hybrid Convolutional And Self-attention Deep Hashing For Image
 authors: He Chao, Wei Hongxi
 conference: "Arxiv"
 year: 2024
+citations: 2
 bibkey: he2024hybridhash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2405.07524"}

@@ -4,6 +4,7 @@ title: Quasi-metrics Similarities And Searches Aspects Of Geometry Of Protein Da
 authors: Stojmirovic Aleksandar
 conference: "Arxiv"
 year: 2008
+citations: 5
 bibkey: stojmirovic2008quasi
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/0810.5407"}

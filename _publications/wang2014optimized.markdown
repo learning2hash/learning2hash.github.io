@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Optimized Cartesian k-means
-authors: Wang Jianfeng, Wang Jingdong, Song Jingkuan, Xu Xin-shun, Shen Heng Tao, Li Shipeng
+title: 'Optimized Cartesian \(k\)-means'
+authors: Jianfeng Wang et al.
 conference: "Arxiv"
 year: 2014
+citations: 80
 bibkey: wang2014optimized
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1405.4054"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1405.4054'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization', 'Hashing']
 ---
 Product quantization-based approaches are effective to encode
 high-dimensional data points for approximate nearest neighbor search. The space

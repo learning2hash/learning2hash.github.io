@@ -4,6 +4,7 @@ title: Hashmod A Hashing Method For Scalable 3D Object Detection
 authors: Kehl Wadim, Tombari Federico, Navab Nassir, Ilic Slobodan, Lepetit Vincent
 conference: "Arxiv"
 year: 2016
+citations: 20
 bibkey: kehl2016hashmod
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1607.06062"}

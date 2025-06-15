@@ -4,6 +4,7 @@ title: Efficient Match Kernel Between Sets Of Features For Visual Recognition
 authors: Liefeng Bo, Cristian Sminchisescu
 conference: "Neural Information Processing Systems"
 year: 2009
+citations: 216
 bibkey: bo2009efficient
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2009/hash/4daa3db355ef2b0e64b472968cb70f0d-Abstract.html"}

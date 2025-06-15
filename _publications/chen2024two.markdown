@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: A Two-step Cross-modal Hashing By Exploiting Label Correlations And Preserving Similarity In Both Steps
-authors: Chen Zhen-duo, Wang, Li, Luo, Nie, Xin-shun
+authors: Chen Zhen-duo et al.
 conference: "Arxiv"
 year: 2024
+citations: 43
 bibkey: chen2024two
 additional_links:
   - {name: "Paper", url: "https://dl.acm.org/citation.cfm?id=3343031.3350862"}

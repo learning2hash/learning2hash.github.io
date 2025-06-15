@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Scalable Nearest Neighbor Search Based On Knn Graph
-authors: Zhao Wan-lei, Yang Jie, Deng Cheng-hao
+title: 'Scalable Nearest Neighbor Search Based On Knn Graph'
+authors: Wan-lei Zhao, Jie Yang, Cheng-hao Deng
 conference: "Arxiv"
 year: 2017
+citations: 7
 bibkey: zhao2017scalable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1701.08475"}
-tags: ['ARXIV', 'Graph', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1701.08475'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Compression', 'Quantization']
 ---
 Nearest neighbor search is known as a challenging issue that has been studied
 for several decades. Recently, this issue becomes more and more imminent in

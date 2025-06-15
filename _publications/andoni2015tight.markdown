@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Tight Lower Bounds For Data-dependent Locality-sensitive Hashing
-authors: Andoni Alexandr, Razenshteyn Ilya
+title: 'Tight Lower Bounds For Data-dependent Locality-sensitive Hashing'
+authors: Alexandr Andoni, Ilya Razenshteyn
 conference: "Arxiv"
 year: 2015
+citations: 21
 bibkey: andoni2015tight
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1507.04299"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1507.04299'}
+tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Vector Indexing', 'Hashing']
 ---
 We prove a tight lower bound for the exponent \\(\rho\\) for data-dependent
 Locality-Sensitive Hashing schemes, recently used to design efficient solutions

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Part-based Deep Hashing For Large-scale Person Re-identification
-authors: Zhu Fuqing, Kong Xiangwei, Zheng Liang, Fu Haiyan, Tian Qi
+title: 'Part-based Deep Hashing For Large-scale Person Re-identification'
+authors: Fuqing Zhu, Xiangwei Kong, Liang Zheng, Haiyan Fu, Qi Tian
 conference: "Arxiv"
 year: 2017
+citations: 77
 bibkey: zhu2017part
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1705.02145"}
-tags: ['ARXIV', 'Deep Learning']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1705.02145'}
+tags: ['Deep', 'Efficiency', 'Unimodal', 'Evaluation', 'Hashing', 'Datasets', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing']
 ---
 Large-scale is a trend in person re-identification (re-id). It is important
 that real-time search be performed in a large gallery. While previous methods

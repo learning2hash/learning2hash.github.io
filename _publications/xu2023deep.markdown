@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Lifelong Cross-modal Hashing
-authors: Xu Liming, Li Hanqi, Zheng Bochuan, Li Weisheng, Lv Jiancheng
+title: 'Deep Lifelong Cross-modal Hashing'
+authors: Liming Xu, Hanqi Li, Bochuan Zheng, Weisheng Li, Jiancheng Lv
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: xu2023deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2304.13357"}
-tags: ['ARXIV', 'Cross Modal', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2304.13357'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 Hashing methods have made significant progress in cross-modal retrieval tasks
 with fast query speed and low storage cost. Among them, deep learning-based
@@ -30,5 +31,5 @@ semantic similarity to supervise hash learning, and it has been proven that the
 similarity improves performance with detailed analysis. Experimental results on
 benchmark datasets show that the proposed methods achieves comparative
 performance comparing with recent state-of-the-art cross-modal hashing methods,
-and it yields substantial average increments over 20\% in retrieval accuracy
-and almost reduces over 80\% training time when new data arrives continuously.
+and it yields substantial average increments over 20% in retrieval accuracy
+and almost reduces over 80% training time when new data arrives continuously.

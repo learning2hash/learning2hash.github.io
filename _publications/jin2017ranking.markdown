@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Ranking Based Locality Sensitive Hashing Enabled Cancelable Biometrics Index-of-max Hashing
-authors: Jin Zhe, Lai Yen-lung, Hwang Jung-yeon, Kim Soohyung, Teoh Andrew Beng Jin
+title: 'Ranking Based Locality Sensitive Hashing Enabled Cancelable Biometrics: Index-of-max Hashing'
+authors: Zhe Jin, Yen-lung Lai, Jung-yeon Hwang, Soohyung Kim, Andrew Beng Jin Teoh
 conference: "Arxiv"
 year: 2017
+citations: 183
 bibkey: jin2017ranking
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1703.05455"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1703.05455'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 In this paper, we propose a ranking based locality sensitive hashing inspired
 two-factor cancelable biometrics, dubbed "Index-of-Max" (IoM) hashing for

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: An Efficient Hashing-based Ensemble Method For Collaborative Outlier Detection
-authors: Li Kitty, Pham Ninh
+title: 'An Efficient Hashing-based Ensemble Method For Collaborative Outlier Detection'
+authors: Kitty Li, Ninh Pham
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: li2022efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2201.06806"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2201.06806'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 In collaborative outlier detection, multiple participants exchange their
 local detectors trained on decentralized devices without exchanging their own

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learned Monotone Minimal Perfect Hashing
-authors: Ferragina Paolo, Lehmann Hans-peter, Sanders Peter, Vinciguerra Giorgio
+title: 'Learned Monotone Minimal Perfect Hashing'
+authors: Paolo Ferragina, Hans-peter Lehmann, Peter Sanders, Giorgio Vinciguerra
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: ferragina2023learned
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2304.11012"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2304.11012'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Hashing', 'Applications']
 ---
 A Monotone Minimal Perfect Hash Function (MMPHF) constructed on a set S of
 keys is a function that maps each key in S to its rank. On keys not in S, the

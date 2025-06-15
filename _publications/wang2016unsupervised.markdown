@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Cross-media Hashing With Structure Preservation
-authors: Wang Xiangyu, Chia Alex Yong-sang
+title: 'Unsupervised Cross-media Hashing With Structure Preservation'
+authors: Xiangyu Wang, Alex Yong-sang Chia
 conference: "Arxiv"
 year: 2016
+citations: 0
 bibkey: wang2016unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1603.05782"}
-tags: ['ARXIV', 'Cross Modal', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1603.05782'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
 ---
 Recent years have seen the exponential growth of heterogeneous multimedia
 data. The need for effective and accurate data retrieval from heterogeneous

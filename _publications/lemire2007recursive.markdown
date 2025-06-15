@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Recursive N-gram Hashing Is Pairwise Independent At Best
-authors: Lemire Daniel, Kaser Owen
-conference: "Computer Speech Language"
+title: 'Recursive N-gram Hashing Is Pairwise Independent, At Best'
+authors: Daniel Lemire, Owen Kaser
+conference: "Computer Speech Language 24(4) 698-710 (2010)"
 year: 2007
+citations: 20
 bibkey: lemire2007recursive
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0705.4676"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0705.4676'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Many applications use sequences of n consecutive symbols (n-grams). Hashing
 these n-grams can be a performance bottleneck. For more speed, recursive hash

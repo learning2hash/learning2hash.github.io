@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Nearbucket-lsh Efficient Similarity Search In P2P Networks
-authors: Kraus Naama, Carmel David, Keidar Idit, Orenbach Meni
+title: 'Nearbucket-lsh: Efficient Similarity Search In P2P Networks'
+authors: Naama Kraus, David Carmel, Idit Keidar, Meni Orenbach
 conference: "Arxiv"
 year: 2015
+citations: 5
 bibkey: kraus2015nearbucket
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1511.07148"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1511.07148'}
+tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Hashing']
 ---
 We present NearBucket-LSH, an effective algorithm for similarity search in
 large-scale distributed online social networks organized as peer-to-peer

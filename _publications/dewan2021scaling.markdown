@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Scaling Shared-memory Data Structures As Distributed Global-view Data Structures In The Partitioned Global Address Space Model
-authors: Dewan Garvit, Jenkins Louis
+title: 'Scaling Shared-memory Data Structures As Distributed Global-view Data Structures In The Partitioned Global Address Space Model'
+authors: Garvit Dewan, Louis Jenkins
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: dewan2021scaling
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2112.00068"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2112.00068'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow']
 ---
 The Partitioned Global Address Space (PGAS), a memory model in which the
 global address space is explicitly partitioned across compute nodes in a

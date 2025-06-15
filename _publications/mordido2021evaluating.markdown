@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Evaluating Post-training Compression In Gans Using Locality-sensitive Hashing
-authors: Mordido Gonçalo, Yang Haojin, Meinel Christoph
+title: 'Evaluating Post-training Compression In Gans Using Locality-sensitive Hashing'
+authors: Gonçalo Mordido, Haojin Yang, Christoph Meinel
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: mordido2021evaluating
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2103.11912"}
-tags: ['ARXIV', 'Independent', 'LSH', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2103.11912'}
+tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Training Strategy', 'Compression', 'Datasets', 'Quantization', 'Hashing']
 ---
 The analysis of the compression effects in generative adversarial networks
 (GANs) after training, i.e. without any fine-tuning, remains an unstudied,

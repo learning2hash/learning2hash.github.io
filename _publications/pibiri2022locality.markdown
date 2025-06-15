@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locality-preserving Minimal Perfect Hashing Of K-mers
-authors: Pibiri Giulio Ermanno, Shibuya Yoshihiro, Limasset Antoine
+title: 'Locality-preserving Minimal Perfect Hashing Of K-mers'
+authors: Giulio Ermanno Pibiri, Yoshihiro Shibuya, Antoine Limasset
 conference: "Arxiv"
 year: 2022
+citations: 11
 bibkey: pibiri2022locality
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2210.13097"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2210.13097'}
+tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
 ---
 Minimal perfect hashing is the problem of mapping a static set of \\(n\\)
 distinct keys into the address space \\(\\{1,\ldots,n\\}\\) bijectively. It is

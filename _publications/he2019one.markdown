@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: One Network For Multi-domains Domain Adaptive Hashing With Intersectant Generative Adversarial Network
-authors: He Tao, Li Yuan-fang, Gao Lianli, Zhang Dongxiang, Song Jingkuan
+title: 'One Network For Multi-domains: Domain Adaptive Hashing With Intersectant Generative Adversarial Network'
+authors: Tao He, Yuan-fang Li, Lianli Gao, Dongxiang Zhang, Jingkuan Song
 conference: "Arxiv"
 year: 2019
+citations: 6
 bibkey: he2019one
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1907.00612"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1907.00612'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Hashing', 'Applications']
 ---
 With the recent explosive increase of digital data, image recognition and
 retrieval become a critical practical application. Hashing is an effective

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Parallel And External-memory Construction Of Minimal Perfect Hash Functions With Pthash
-authors: Pibiri Giulio Ermanno, Trani Roberto
+title: 'Parallel And External-memory Construction Of Minimal Perfect Hash Functions With Pthash'
+authors: Giulio Ermanno Pibiri, Roberto Trani
 conference: "Arxiv"
 year: 2021
+citations: 8
 bibkey: pibiri2021parallel
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2106.02350"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2106.02350'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing', 'Applications']
 ---
 A function \\(f : U \to \\{0,\ldots,n-1\\}\\) is a minimal perfect hash function
 for a set \\(S \subseteq U\\) of size \\(n\\), if \\(f\\) bijectively maps \\(S\\) into the

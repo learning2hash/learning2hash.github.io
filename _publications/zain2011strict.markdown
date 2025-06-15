@@ -4,6 +4,7 @@ title: Strict Authentication Watermarking With JPEG Compression (SAW-JPEG) For M
 authors: Zain Jasni Mohamad
 conference: "European Journal of Scientific Research Volume"
 year: 2011
+citations: 10
 bibkey: zain2011strict
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1101.5188"}

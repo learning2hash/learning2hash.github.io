@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Semantic Hashing With Pairwise Reconstruction
-authors: Hansen Casper, Hansen Christian, Simonsen Jakob Grue, Alstrup Stephen, Lioma Christina
+title: 'Unsupervised Semantic Hashing With Pairwise Reconstruction'
+authors: Casper Hansen, Christian Hansen, Jakob Grue Simonsen, Stephen Alstrup, Christina Lioma
 conference: "Arxiv"
 year: 2020
+citations: 11
 bibkey: hansen2020unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2007.00380"}
-tags: ['ARXIV', 'Unsupervised', 'Weakly Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2007.00380'}
+tags: ['Independent', 'Model Design', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing']
 ---
 Semantic Hashing is a popular family of methods for efficient similarity
 search in large-scale datasets. In Semantic Hashing, documents are encoded as

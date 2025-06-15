@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Feature Learning Based Deep Supervised Hashing With Pairwise Labels
-authors: Li Wu-jun, Wang Sheng, Kang Wang-cheng
+title: 'Feature Learning Based Deep Supervised Hashing With Pairwise Labels'
+authors: Wu-jun Li, Sheng Wang, Wang-cheng Kang
 conference: "Arxiv"
 year: 2015
+citations: 509
 bibkey: li2015feature
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1511.03855"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1511.03855'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Datasets', 'Deep Hashing', 'Supervised', 'Supervised Hashing', 'Applications']
 ---
 Recent years have witnessed wide application of hashing for large-scale image
 retrieval. However, most existing hashing methods are based on hand-crafted

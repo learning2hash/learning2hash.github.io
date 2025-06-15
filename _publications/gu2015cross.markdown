@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Cross-modality Hashing With Partial Correspondence
-authors: Gu Yun, Xue Haoyang, Yang Jie
+title: 'Cross-modality Hashing With Partial Correspondence'
+authors: Yun Gu, Haoyang Xue, Jie Yang
 conference: "Arxiv"
 year: 2015
+citations: 2
 bibkey: gu2015cross
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1502.05224"}
-tags: ['ARXIV', 'Cross Modal']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1502.05224'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Vector Indexing', 'Multi-Modal Hashing', 'Hashing']
 ---
 Learning a hashing function for cross-media search is very desirable due to
 its low storage cost and fast query speed. However, the data crawled from

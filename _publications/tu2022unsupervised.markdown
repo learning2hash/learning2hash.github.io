@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Hashing With Semantic Concept Mining
-authors: Tu Rong-cheng, Mao Xian-ling, Lin Kevin Qinghong, Cai Chengfei, Qin Weize, Wang Hongfa, Wei Wei, Huang Heyan
+title: 'Unsupervised Hashing With Semantic Concept Mining'
+authors: Rong-cheng Tu et al.
 conference: "Arxiv"
 year: 2022
+citations: 8
 bibkey: tu2022unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2209.11475"}
-tags: ['ARXIV', 'CNN', 'Cross Modal', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2209.11475'}
+tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Recently, to improve the unsupervised image retrieval performance, plenty of
 unsupervised hashing methods have been proposed by designing a semantic

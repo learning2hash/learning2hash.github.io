@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning To Collide Recommendation System Model Compression With Learned Hash Functions
-authors: Ghaemmaghami Benjamin, Ozdal Mustafa, Komuravelli Rakesh, Korchev Dmitriy, Mudigere Dheevatsa, Nair Krishnakumar, Naumov Maxim
+title: 'Learning To Collide: Recommendation System Model Compression With Learned Hash Functions'
+authors: Benjamin Ghaemmaghami et al.
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: ghaemmaghami2022learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2203.15837"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2203.15837'}
+tags: ['Deep', 'Independent', 'Unimodal', 'Compression', 'Training Strategy', 'Hashing', 'Applications']
 ---
 A key characteristic of deep recommendation models is the immense memory
 requirements of their embedding tables. These embedding tables can often reach

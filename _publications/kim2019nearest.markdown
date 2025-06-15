@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Nearest Neighbor Search-based Bitwise Source Separation Using Discriminant Winner-take-all Hashing
-authors: Kim Sunwoo, Kim Minje
+title: 'Nearest Neighbor Search-based Bitwise Source Separation Using Discriminant Winner-take-all Hashing'
+authors: Sunwoo Kim, Minje Kim
 conference: "Arxiv"
 year: 2019
+citations: 0
 bibkey: kim2019nearest
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1908.09799"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1908.09799'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Hashing']
 ---
 We propose an iteration-free source separation algorithm based on
 Winner-Take-All (WTA) hash codes, which is a faster, yet accurate alternative

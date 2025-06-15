@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Sketchmate Deep Hashing For Million-scale Human Sketch Retrieval
-authors: Xu Peng, Huang Yongye, Yuan Tongtong, Pang Kaiyue, Song Yi-zhe, Xiang Tao, Hospedales Timothy M., Ma Zhanyu, Guo Jun
+authors: Xu Peng et al.
 conference: "Arxiv"
 year: 2018
+citations: 94
 bibkey: xu2018sketchmate
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1804.01401"}

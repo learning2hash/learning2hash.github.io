@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Genetic Algorithm Approach For Imagerepresentation Learning Through Color Quantization
-authors: Pereira Érico M., Torres Ricardo Da S., Santos Jefersson A. Dos
+title: 'A Genetic Algorithm Approach For Imagerepresentation Learning Through Color Quantization'
+authors: Érico M. Pereira, Ricardo Da S. Torres, Jefersson A. Dos Santos
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: pereira2017genetic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1711.06809"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1711.06809'}
+tags: ['Cross-Modal', 'Quantization', 'Deep', 'Model Design', 'Quantisation', 'Retrieval Models', 'Datasets', 'Training Strategy', 'Applications']
 ---
 Over the last decades, hand-crafted feature extractors have been used to
 encode image visual properties into feature vectors. Recently, data-driven

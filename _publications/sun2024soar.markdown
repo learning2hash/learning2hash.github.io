@@ -4,10 +4,11 @@ title: SOAR Improved Indexing For Approximate Nearest Neighbor Search
 authors: Sun Philip, Simcha David, Dopson Dave, Guo Ruiqi, Kumar Sanjiv
 conference: "Advances in Neural Information Processing Systems"
 year: 2024
+citations: 1
 bibkey: sun2024soar
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2404.00774"}
-tags: ['Independent', 'NEURIPS']
+tags: ['Independent', 'NEURIPS', 'Independent']
 ---
 This paper introduces SOAR: Spilling with Orthogonality-Amplified Residuals,
 a novel data indexing technique for approximate nearest neighbor (ANN) search.

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Self-supervised Asymmetric Deep Hashing With Margin-scalable Constraint
-authors: Yu Zhengyang, Wu Song, Dou Zhihao, Bakker Erwin M.
+title: 'Self-supervised Asymmetric Deep Hashing With Margin-scalable Constraint'
+authors: Zhengyang Yu, Song Wu, Zhihao Dou, Erwin M. Bakker
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: yu2020self
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2012.03820"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2012.03820'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Deep Hashing', 'Similarity Learning', 'Hashing']
 ---
 Due to its effectivity and efficiency, deep hashing approaches are widely
 used for large-scale visual search. However, it is still challenging to produce

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Collaborative Discrete Hashing With Semantic-invariant Structure
-authors: Wang Zijian, Zhang Zheng, Luo Yadan, Huang Zi
-conference: "SIGIR"
+title: 'Deep Collaborative Discrete Hashing With Semantic-invariant Structure'
+authors: Zijian Wang, Zheng Zhang, Yadan Luo, Zi Huang
+conference: "SIGIR 2019"
 year: 2019
+citations: 11
 bibkey: wang2019deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1911.01565"}
-tags: ['SIGIR']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1911.01565'}
+tags: ['Deep', 'Independent', 'Unimodal', 'Deep Hashing', 'Hashing']
 ---
 Existing deep hashing approaches fail to fully explore semantic correlations
 and neglect the effect of linguistic context on visual attention learning,

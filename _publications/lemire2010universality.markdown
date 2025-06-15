@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: The Universality Of Iterated Hashing Over Variable-length Strings
-authors: Lemire Daniel
-conference: "Discrete Applied Mathematics"
+title: 'The Universality Of Iterated Hashing Over Variable-length Strings'
+authors: Daniel Lemire
+conference: "Discrete Applied Mathematics 160 (4-5) 604--617 (2012)"
 year: 2010
+citations: 4
 bibkey: lemire2010universality
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1008.1715"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1008.1715'}
+tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
 ---
 Iterated hash functions process strings recursively, one character at a time.
 At each iteration, they compute a new hash value from the preceding hash value

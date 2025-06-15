@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Composite Correlation Quantization For Efficient Multimodal Retrieval
-authors: Long Mingsheng, Cao Yue, Wang Jianmin, Yu Philip S.
+title: 'Composite Correlation Quantization For Efficient Multimodal Retrieval'
+authors: Mingsheng Long, Yue Cao, Jianmin Wang, Philip S. Yu
 conference: "Arxiv"
 year: 2015
+citations: 114
 bibkey: long2015composite
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1504.04818"}
-tags: ['ARXIV', 'Cross Modal', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1504.04818'}
+tags: ['Quantization', 'Quantisation', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 Efficient similarity retrieval from large-scale multimodal database is
 pervasive in modern search engines and social networks. To support queries

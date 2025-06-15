@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Exploration Into Translation-equivariant Image Quantization
-authors: Shin Woncheol, Lee Gyubok, Lee Jiyoung, Lyou Eunyi, Lee Joonseok, Choi Edward
+title: 'Exploration Into Translation-equivariant Image Quantization'
+authors: Woncheol Shin et al.
 conference: "Arxiv"
 year: 2021
+citations: 1
 bibkey: shin2021exploration
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2112.00384"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2112.00384'}
+tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Training Strategy', 'Shallow', 'Quantization']
 ---
 This is an exploratory study that discovers the current image quantization
 (vector quantization) do not satisfy translation equivariance in the quantized

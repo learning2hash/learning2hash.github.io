@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Generalized Product Quantization Network For Semi-supervised Image Retrieval
-authors: Jang Young Kyun, Cho Nam Ik
+title: 'Generalized Product Quantization Network For Semi-supervised Image Retrieval'
+authors: Young Kyun Jang, Nam Ik Cho
 conference: "Arxiv"
 year: 2020
+citations: 35
 bibkey: jang2020generalized
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2002.11281"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2002.11281'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Quantization', 'Similarity Learning', 'Hashing', 'Applications']
 ---
 Image retrieval methods that employ hashing or vector quantization have
 achieved great success by taking advantage of deep learning. However, these

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Approximately Minwise Independence With Twisted Tabulation
-authors: Dahlgaard Søren, Thorup Mikkel
+title: 'Approximately Minwise Independence With Twisted Tabulation'
+authors: Søren Dahlgaard, Mikkel Thorup
 conference: "Arxiv"
 year: 2014
+citations: 7
 bibkey: dahlgaard2014approximately
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1404.6724"}
-tags: ['ARXIV', 'FOCS', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1404.6724'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
 ---
 A random hash function \\(h\\) is \\(\epsilon\\)-minwise if for any set \\(S\\),
 \\(|S|=n\\), and element \\(x\in S\\), \\(\Pr[h(x)=\min h(S)]=(1\pm\epsilon)/n\\).

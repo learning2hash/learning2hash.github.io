@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Query-adaptive Hash Code Ranking For Large-scale Multi-view Visual Search
-authors: Liu Xianglong, Huang Lei, Deng Cheng, Lang Bo, Tao Dacheng
+title: 'Query-adaptive Hash Code Ranking For Large-scale Multi-view Visual Search'
+authors: Xianglong Liu, Lei Huang, Cheng Deng, Bo Lang, Dacheng Tao
 conference: "Arxiv"
 year: 2019
+citations: 66
 bibkey: liu2019query
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.08623"}
-tags: ['ARXIV', 'Cross Modal', 'Graph', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.08623'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Vector Indexing', 'Quantization', 'Hashing', 'Applications']
 ---
 Hash based nearest neighbor search has become attractive in many
 applications. However, the quantization in hashing usually degenerates the

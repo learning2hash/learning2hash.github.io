@@ -4,6 +4,7 @@ title: Co-regularized Hashing For Multimodal Data
 authors: Zhen Y., Yeung
 conference: "Arxiv"
 year: 2024
+citations: 195
 bibkey: zhen2024co
 additional_links:
   - {name: "Paper", url: "http://papers.nips.cc/paper/4793-co-regularized-hashing-for-multimodal-data.pdf"}

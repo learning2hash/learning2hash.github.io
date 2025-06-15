@@ -4,6 +4,7 @@ title: Hamming Distance Metric Learning
 authors: Mohammad Norouzi, David J. Fleet, Russ R. Salakhutdinov
 conference: "Neural Information Processing Systems"
 year: 2012
+citations: 540
 bibkey: norouzi2012hamming
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2012/hash/59b90e1005a220e2ebc542eb9d950b1e-Abstract.html"}

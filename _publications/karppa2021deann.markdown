@@ -4,6 +4,7 @@ title: DEANN Speeding Up Kernel-density Estimation Using Approximate Nearest Nei
 authors: Karppa Matti, Aumüller Martin, Pagh Rasmus
 conference: "Arxiv"
 year: 2021
+citations: 2
 bibkey: karppa2021deann
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2107.02736"}

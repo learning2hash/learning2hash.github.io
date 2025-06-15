@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: When Similarity Digest Meets Vector Management System A Survey On Similarity Hash Function
-authors: Tang Zhushou, Tang Lingyi, Tang Keying, Tang Ruoying
+title: 'When Similarity Digest Meets Vector Management System: A Survey On Similarity Hash Function'
+authors: Zhushou Tang, Lingyi Tang, Keying Tang, Ruoying Tang
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: tang2021when
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2109.08789"}
-tags: ['ARXIV', 'Independent', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2109.08789'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
 ---
 The booming vector manage system calls for feasible similarity hash function
 as a front-end to perform similarity analysis. In this paper, we make a

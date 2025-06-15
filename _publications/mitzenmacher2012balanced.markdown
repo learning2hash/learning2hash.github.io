@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Balanced Allocations And Double Hashing
-authors: Mitzenmacher Michael
+title: 'Balanced Allocations And Double Hashing'
+authors: Michael Mitzenmacher
 conference: "Arxiv"
 year: 2012
+citations: 2
 bibkey: mitzenmacher2012balanced
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1209.5360"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1209.5360'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Double hashing has recently found more common usage in schemes that use
 multiple hash functions. In double hashing, for an item \\(x\\), one generates two

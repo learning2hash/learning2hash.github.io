@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On The Insertion Time Of Cuckoo Hashing
-authors: Fountoulakis Nikolaos, Panagiotou Konstantinos, Steger Angelika
+title: 'On The Insertion Time Of Cuckoo Hashing'
+authors: Nikolaos Fountoulakis, Konstantinos Panagiotou, Angelika Steger
 conference: "Arxiv"
 year: 2010
+citations: 11
 bibkey: fountoulakis2010insertion
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1006.1231"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1006.1231'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Cuckoo hashing is an efficient technique for creating large hash tables with
 high space utilization and guaranteed constant access times. There, each item

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Asymptotic Improvement Of The Gilbert-varshamov Bound On The Size Of Binary Codes
-authors: Jiang Tao, Vardy Alexander
-conference: "IEEE TRANSACTIONS ON INFORMATION THEORY vol."
+title: 'Asymptotic Improvement Of The Gilbert-varshamov Bound On The Size Of Binary Codes'
+authors: Tao Jiang, Alexander Vardy
+conference: "IEEE TRANSACTIONS ON INFORMATION THEORY vol. 50 No. 8 pp. 1655-1664 August 2004 (http://www.ieeexplore.ieee.org/iel5/18/29198/01317112.pdf)"
 year: 2004
+citations: 57
 bibkey: jiang2004asymptotic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/math/0404325"}
-tags: ['Graph', 'Theory']
+  - {name: "Paper", url: 'https://arxiv.org/abs/math/0404325'}
+tags: ['Cross-Modal', 'Shallow', 'Hashing', 'Quantisation']
 ---
 Given positive integers \\(n\\) and \\(d\\), let \\(A_2(n,d)\\) denote the maximum size
 of a binary code of length \\(n\\) and minimum distance \\(d\\). The well-known

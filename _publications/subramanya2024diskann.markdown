@@ -4,6 +4,7 @@ title: Diskann Fast Accurate Billion-point Nearest Neighbor Search On A Single N
 authors: Subramanya Suhas, Devvrit, Simhadri, Krishnawamy, Kadekodi
 conference: "Arxiv"
 year: 2024
+citations: 34
 bibkey: subramanya2024diskann
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper_files/paper/2019/file/09853c7fb1d3f8ee67a61b6bf4a7f8e6-Paper.pdf"}

@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Relevance Filtering For Embedding-based Retrieval
-authors: Rossi Nicholas, Lin Juexin, Liu Feng, Yang Zhen, Lee Tony, Magnani Alessandro, Liao Ciya
+authors: Rossi Nicholas et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: rossi2024relevance
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2408.04887"}

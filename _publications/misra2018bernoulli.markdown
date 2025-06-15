@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Bernoulli Embeddings For Graphs
-authors: Misra Vinith, Bhatia Sumit
+title: 'Bernoulli Embeddings For Graphs'
+authors: Vinith Misra, Sumit Bhatia
 conference: "Arxiv"
 year: 2018
+citations: 3
 bibkey: misra2018bernoulli
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1803.09211"}
-tags: ['ARXIV', 'Graph', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1803.09211'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Hashing', 'Datasets', 'Quantization', 'Supervised Hashing']
 ---
 Just as semantic hashing can accelerate information retrieval, binary valued
 embeddings can significantly reduce latency in the retrieval of graphical data.

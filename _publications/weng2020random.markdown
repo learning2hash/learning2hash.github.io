@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Random VLAD Based Deep Hashing For Efficient Image Retrieval
-authors: Weng Li, Ye Lingzhi, Tian Jiangmin, Cao Jiuwen, Wang Jianzhong
+title: 'Random VLAD Based Deep Hashing For Efficient Image Retrieval'
+authors: Li Weng, Lingzhi Ye, Jiangmin Tian, Jiuwen Cao, Jianzhong Wang
 conference: "Arxiv"
 year: 2020
+citations: 1
 bibkey: weng2020random
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2002.02333"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2002.02333'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Deep Hashing', 'Quantization', 'Hashing', 'Applications']
 ---
 Image hash algorithms generate compact binary representations that can be
 quickly matched by Hamming distance, thus become an efficient solution for

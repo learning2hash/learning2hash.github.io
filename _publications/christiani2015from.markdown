@@ -4,10 +4,11 @@ title: From Independence To Expansion And Back Again
 authors: Christiani Tobias, Pagh Rasmus, Thorup Mikkel
 conference: "Arxiv"
 year: 2015
+citations: 9
 bibkey: christiani2015from
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1506.03676"}
-tags: ['ARXIV', 'FOCS', 'Graph', 'Independent']
+tags: ['ARXIV', 'FOCS', 'Graph', 'Independent', 'Independent']
 ---
 We consider the following fundamental problems: (1) Constructing
 \\(k\\)-independent hash functions with a space-time tradeoff close to Siegel's

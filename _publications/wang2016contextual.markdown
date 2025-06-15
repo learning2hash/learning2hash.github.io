@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Contextual Visual Similarity
-authors: Wang Xiaofang, Kitani Kris M., Hebert Martial
+title: 'Contextual Visual Similarity'
+authors: Xiaofang Wang, Kris M. Kitani, Martial Hebert
 conference: "Arxiv"
 year: 2016
+citations: 7
 bibkey: wang2016contextual
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1612.02534"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1612.02534'}
+tags: ['Retrieval Models', 'Unimodal', 'Supervised', 'Deep']
 ---
 Measuring visual similarity is critical for image understanding. But what
 makes two images similar? Most existing work on visual similarity assumes that

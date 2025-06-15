@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On The Relationship Between Several Variants Of The Linear Hashing Conjecture
-authors: Westover Alek
+title: 'On The Relationship Between Several Variants Of The Linear Hashing Conjecture'
+authors: Alek Westover
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: westover2023relationship
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2307.13016"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2307.13016'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 In Linear Hashing (\\(\mathsf\{LH\}\\)) with \\(\beta\\) bins on a size \\(u\\) universe
 \\(\{\mathcal\{U\}=\\{0,1,\ldots, u-1\\}\}\\), items \\(\\{x_1,x_2,\ldots, x_n\\}\subset

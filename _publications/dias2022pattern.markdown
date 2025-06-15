@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Pattern Spotting And Image Retrieval In Historical Documents Using Deep Hashing
-authors: Dias Caio Da S., Britto Alceu De S. Jr., Barddal Jean P., Heutte Laurent, Koerich Alessandro L.
+title: 'Pattern Spotting And Image Retrieval In Historical Documents Using Deep Hashing'
+authors: Caio Da S. Dias, Alceu De S. Jr. Britto, Jean P. Barddal, Laurent Heutte, Alessandro L. Koerich
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: dias2022pattern
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2208.02397"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2208.02397'}
+tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Deep Hashing', 'Hashing', 'Applications']
 ---
 This paper presents a deep learning approach for image retrieval and pattern
 spotting in digital collections of historical documents. First, a region

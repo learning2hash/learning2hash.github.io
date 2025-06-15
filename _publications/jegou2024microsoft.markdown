@@ -4,6 +4,7 @@ title: Microsoft Turing-anns-1b
 authors: Jegou Herve
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: jegou2024microsoft
 additional_links:
   - {name: "Paper", url: "https://www.microsoft.com/en-us/research/publication/generic-intent-representation-in-web-search"}

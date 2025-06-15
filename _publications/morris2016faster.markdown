@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Faster Kernels For Graphs With Continuous Attributes Via Hashing
-authors: Morris Christopher, Kriege Nils M., Kersting Kristian, Mutzel Petra
+title: 'Faster Kernels For Graphs With Continuous Attributes Via Hashing'
+authors: Christopher Morris, Nils M. Kriege, Kristian Kersting, Petra Mutzel
 conference: "Arxiv"
 year: 2016
+citations: 48
 bibkey: morris2016faster
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1610.00064"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1610.00064'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing']
 ---
 While state-of-the-art kernels for graphs with discrete labels scale well to
 graphs with thousands of nodes, the few existing kernels for graphs with

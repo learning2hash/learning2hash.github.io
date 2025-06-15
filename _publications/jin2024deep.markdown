@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Deep Saliency Hashing For Fine-grained Retrieval
-authors: Jin Sheng, Yao, Sun, Zhou, Zhang, Hua
+authors: Jin Sheng et al.
 conference: "Arxiv"
 year: 2024
+citations: 50
 bibkey: jin2024deep
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/pdf/1807.01459.pdf"}

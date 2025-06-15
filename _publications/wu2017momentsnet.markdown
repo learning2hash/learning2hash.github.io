@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Momentsnet A Simple Learning-free Method For Binary Image Recognition
-authors: Wu Jiasong, Qiu Shijie, Kong Youyong, Chen Yang, Senhadji Lotfi, Shu Huazhong
+authors: Wu Jiasong et al.
 conference: "Arxiv"
 year: 2017
+citations: 10
 bibkey: wu2017momentsnet
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1702.06767"}

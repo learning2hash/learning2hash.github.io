@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Quantum Hashing Via Classical epsilon-universal Hashing Constructions
-authors: Ablayev Farid, Ablayev Marat
+title: 'Quantum Hashing Via Classical \(\epsilon\)-universal Hashing Constructions'
+authors: Farid Ablayev, Marat Ablayev
 conference: "Arxiv"
 year: 2014
+citations: 0
 bibkey: ablayev2014quantum
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1404.1503"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1404.1503'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 In the paper, we define the concept of the quantum hash generator and offer
 design, which allows to build a large amount of different quantum hash

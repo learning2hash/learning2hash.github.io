@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: From Average Embeddings To Nearest Neighbor Search
-authors: Andoni Alexandr, Cheikhi David
+title: 'From Average Embeddings To Nearest Neighbor Search'
+authors: Alexandr Andoni, David Cheikhi
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: andoni2021from
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2105.05761"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2105.05761'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 In this note, we show that one can use average embeddings, introduced
 recently in [Naor'20, arXiv:1905.01280], to obtain efficient algorithms for

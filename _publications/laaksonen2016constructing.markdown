@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Constructing Error-correcting Binary Codes Using Transitive Permutation Groups
-authors: Laaksonen Antti, Östergård Patric R. J.
+title: 'Constructing Error-correcting Binary Codes Using Transitive Permutation Groups'
+authors: Antti Laaksonen, Patric R. J. Östergård
 conference: "Arxiv"
 year: 2016
+citations: 1
 bibkey: laaksonen2016constructing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1604.06022"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1604.06022'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing']
 ---
 Let \\(A_2(n,d)\\) be the maximum size of a binary code of length \\(n\\) and minimum
 distance \\(d\\). In this paper we present the following new lower bounds:

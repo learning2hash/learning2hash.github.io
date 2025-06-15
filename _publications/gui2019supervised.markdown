@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Supervised Discrete Hashing With Relaxation
-authors: Gui Jie, Liu Tongliang, Sun Zhenan, Tao Dacheng, Tan Tieniu
+title: 'Supervised Discrete Hashing With Relaxation'
+authors: Jie Gui, Tongliang Liu, Zhenan Sun, Dacheng Tao, Tieniu Tan
 conference: "Arxiv"
 year: 2019
+citations: 70
 bibkey: gui2019supervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.03549"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.03549'}
+tags: ['Deep', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Datasets', 'Supervised', 'Hashing']
 ---
 Data-dependent hashing has recently attracted attention due to being able to
 support efficient retrieval and storage of high-dimensional data such as

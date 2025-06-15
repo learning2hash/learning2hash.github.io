@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Directed Graph Hashing
-authors: Helbling Caleb
+title: 'Directed Graph Hashing'
+authors: Caleb Helbling
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: helbling2020directed
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2002.06653"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2002.06653'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing', 'Applications']
 ---
 This paper presents several algorithms for hashing directed graphs. The
 algorithms given are capable of hashing entire graphs as well as assigning hash

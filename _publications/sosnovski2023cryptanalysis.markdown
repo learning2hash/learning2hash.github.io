@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Cryptanalysis Of A Cayley Hash Function Based On Affine Maps In One Variable Over A Finite Field
-authors: Sosnovski Bianca
+title: 'Cryptanalysis Of A Cayley Hash Function Based On Affine Maps In One Variable Over A Finite Field'
+authors: Bianca Sosnovski
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: sosnovski2023cryptanalysis
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2308.15765"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2308.15765'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Cayley hash functions are cryptographic hashes constructed from Cayley graphs
 of groups. The hash function proposed by Shpilrain and Sosnovski (2016), based

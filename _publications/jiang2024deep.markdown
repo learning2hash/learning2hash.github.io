@@ -4,6 +4,7 @@ title: Deep Cross-modal Hashing
 authors: Jiang Qing-yuan, Li
 conference: "Arxiv"
 year: 2024
+citations: 589
 bibkey: jiang2024deep
 additional_links:
   - {name: "Paper", url: "https://cs.nju.edu.cn/lwj/paper/CVPR17_DCMH.pdf"}

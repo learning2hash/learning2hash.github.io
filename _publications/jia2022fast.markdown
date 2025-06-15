@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Online Hashing With Multi-label Projection
-authors: Jia Wenzhe, Cao Yuan, Liu Junwei, Gui Jie
+title: 'Fast Online Hashing With Multi-label Projection'
+authors: Wenzhe Jia, Yuan Cao, Junwei Liu, Jie Gui
 conference: "Arxiv"
 year: 2022
+citations: 5
 bibkey: jia2022fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2212.03112"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2212.03112'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing']
 ---
 Hashing has been widely researched to solve the large-scale approximate
 nearest neighbor search problem owing to its time and storage superiority. In

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Prototype-based Layered Federated Cross-modal Hashing
-authors: Liu Jiale, Zhan Yu-wei, Luo Xin, Chen Zhen-duo, Wang Yongxin, Xu Xin-shun
+title: 'Prototype-based Layered Federated Cross-modal Hashing'
+authors: Jiale Liu et al.
 conference: "Arxiv"
 year: 2022
+citations: 2
 bibkey: liu2022prototype
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2210.15678"}
-tags: ['ARXIV', 'Cross Modal']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2210.15678'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Datasets', 'Vector Indexing', 'Multi-Modal Hashing', 'Hashing']
 ---
 Recently, deep cross-modal hashing has gained increasing attention. However,
 in many practical cases, data are distributed and cannot be collected due to

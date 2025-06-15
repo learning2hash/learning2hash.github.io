@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Approximate Nearest Neighbor Search With Window Filters
-authors: Engels Joshua, Landrum Benjamin, Yu Shangdi, Dhulipala Laxman, Shun Julian
+title: 'Approximate Nearest Neighbor Search With Window Filters'
+authors: Joshua Engels, Benjamin Landrum, Shangdi Yu, Laxman Dhulipala, Julian Shun
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: engels2024approximate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2402.00943"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2402.00943'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Applications']
 ---
 We define and investigate the problem of \\(\textit\{c-approximate window
 search\}\\): approximate nearest neighbor search where each point in the dataset

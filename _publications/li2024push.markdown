@@ -4,6 +4,7 @@ title: Push For Quantization Deep Fisher Hashing
 authors: Li Yunqiang, Pei, Zha, Gemert
 conference: "Arxiv"
 year: 2024
+citations: 7
 bibkey: li2024push
 additional_links:
   - {name: "Paper", url: "https://128.84.21.199/abs/1909.00206"}

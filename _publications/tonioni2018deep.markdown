@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Deep Learning Pipeline For Product Recognition On Store Shelves
-authors: Tonioni Alessio, Serra Eugenio, Di Stefano Luigi
+title: 'A Deep Learning Pipeline For Product Recognition On Store Shelves'
+authors: Alessio Tonioni, Eugenio Serra, Luigi Di Stefano
 conference: "Arxiv"
 year: 2018
+citations: 32
 bibkey: tonioni2018deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1810.01733"}
-tags: ['ARXIV', 'CNN', 'Deep Learning', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1810.01733'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Training Strategy', 'Applications']
 ---
 Recognition of grocery products in store shelves poses peculiar challenges.
 Firstly, the task mandates the recognition of an extremely high number of

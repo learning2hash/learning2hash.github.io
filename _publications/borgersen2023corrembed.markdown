@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Corrembed Evaluating Pre-trained Model Image Similarity Efficacy With A Novel Metric
-authors: Borgersen Karl Audun Kagnes, Goodwin Morten, Sharma Jivitesh, Aasmoe Tobias, Leonhardsen Mari, Rørvik Gro Herredsvela
+authors: Borgersen Karl Audun Kagnes et al.
 conference: "Arxiv"
 year: 2023
+citations: 3
 bibkey: borgersen2023corrembed
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2308.16126"}

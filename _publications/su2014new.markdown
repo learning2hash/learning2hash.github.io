@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A New Non-mds Hash Function Resisting Birthday Attack And Meet-in-the-middle Attack
-authors: Su Shenghui, Xie Tao, Lu Shuwang
-conference: "Theoretical Computer Science v"
+title: 'A New Non-mds Hash Function Resisting Birthday Attack And Meet-in-the-middle Attack'
+authors: Shenghui Su, Tao Xie, Shuwang Lu
+conference: "Theoretical Computer Science v654 Nov 2016 pp.128-142"
 year: 2014
+citations: 3
 bibkey: su2014new
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1408.5999"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1408.5999'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Compression', 'Vector Indexing', 'Hashing']
 ---
 To examine the integrity and authenticity of an IP address efficiently and
 economically, this paper proposes a new non-Merkle-Damgard structural (non-MDS)

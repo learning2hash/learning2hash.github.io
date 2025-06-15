@@ -4,10 +4,11 @@ title: Bit-scalable Deep Hashing With Regularized Similarity Learning For Image 
 authors: Zhang R., Lin, Zhang, Zuo, Zhang
 conference: "Arxiv"
 year: 2024
+citations: 436
 bibkey: zhang2024bit
 additional_links:
   - {name: "Paper", url: "http://arxiv.org/pdf/1508.04535v2.pdf"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Image Retrieval', 'Supervised', 'Supervised']
 ---
 Extracting informative image features and learning
 effective approximate hashing functions are two crucial steps in

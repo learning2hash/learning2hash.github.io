@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Kernelized Locality-sensitive Hashing For Semi-supervised Agglomerative Clustering
-authors: Xie Boyi, Zheng Shuheng
+title: 'Kernelized Locality-sensitive Hashing For Semi-supervised Agglomerative Clustering'
+authors: Boyi Xie, Shuheng Zheng
 conference: "Arxiv"
 year: 2013
+citations: 2
 bibkey: xie2013kernelized
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1301.3575"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1301.3575'}
+tags: ['Unimodal', 'Evaluation', 'Shallow', 'Supervised', 'Similarity Learning', 'Hashing']
 ---
 Large scale agglomerative clustering is hindered by computational burdens. We
 propose a novel scheme where exact inter-instance distance calculation is

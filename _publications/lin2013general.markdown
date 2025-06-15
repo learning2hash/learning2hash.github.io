@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A General Two-step Approach To Learning-based Hashing
-authors: Lin Guosheng, Shen Chunhua, Suter David, Hengel Anton Van Den
+title: 'A General Two-step Approach To Learning-based Hashing'
+authors: Guosheng Lin, Chunhua Shen, David Suter, Anton Van Den Hengel
 conference: "Arxiv"
 year: 2013
+citations: 126
 bibkey: lin2013general
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1309.1853"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1309.1853'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 Most existing approaches to hashing apply a single form of hash function, and
 an optimization process which is typically deeply coupled to this specific

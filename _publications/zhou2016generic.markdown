@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Generic Inverted Index Framework For Similarity Search On The GPU - Technical Report
-authors: Zhou Jingbo, Guo Qi, Jagadish H. V., Krčál Luboš, Liu Siyuan, Luan Wenhao, Tung Anthony K. H., Yang Yueji, Zheng Yuxin
+title: 'A Generic Inverted Index Framework For Similarity Search On The GPU - Technical Report'
+authors: Jingbo Zhou et al.
 conference: "Arxiv"
 year: 2016
+citations: 0
 bibkey: zhou2016generic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1603.08390"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1603.08390'}
+tags: ['Deep', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Hashing']
 ---
 We propose a novel generic inverted index framework on the GPU (called
 GENIE), aiming to reduce the programming complexity of the GPU for parallel

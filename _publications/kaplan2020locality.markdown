@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locality Sensitive Hashing For Set-queries Motivated By Group Recommendations
-authors: Kaplan Haim, Tenenbaum Jay
+title: 'Locality Sensitive Hashing For Set-queries, Motivated By Group Recommendations'
+authors: Haim Kaplan, Jay Tenenbaum
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: kaplan2020locality
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.07286"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.07286'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Locality Sensitive Hashing (LSH) is an effective method to index a set of
 points such that we can efficiently find the nearest neighbors of a query

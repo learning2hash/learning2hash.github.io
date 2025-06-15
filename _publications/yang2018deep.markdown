@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Attention-guided Hashing
-authors: Yang Zhan, Raymond Osolo Ian, Sun Wuqing, Long Jun
+title: 'Deep Attention-guided Hashing'
+authors: Zhan Yang, Osolo Ian Raymond, Wuqing Sun, Jun Long
 conference: "Arxiv"
 year: 2018
+citations: 17
 bibkey: yang2018deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1812.01404"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1812.01404'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing']
 ---
 With the rapid growth of multimedia data (e.g., image, audio and video etc.)
 on the web, learning-based hashing techniques such as Deep Supervised Hashing

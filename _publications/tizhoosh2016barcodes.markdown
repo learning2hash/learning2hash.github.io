@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Barcodes For Medical Image Retrieval Using Autoencoded Radon Transform
-authors: Tizhoosh Hamid R., Mitcheltree Christopher, Zhu Shujin, Dutta Shamak
+title: 'Barcodes For Medical Image Retrieval Using Autoencoded Radon Transform'
+authors: Hamid R. Tizhoosh, Christopher Mitcheltree, Shujin Zhu, Shamak Dutta
 conference: "Arxiv"
 year: 2016
+citations: 13
 bibkey: tizhoosh2016barcodes
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1609.05112"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1609.05112'}
+tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Using content-based binary codes to tag digital images has emerged as a
 promising retrieval technology. Recently, Radon barcodes (RBCs) have been

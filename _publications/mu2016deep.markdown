@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Hashing A Joint Approach For Image Signature Learning
-authors: Mu Yadong, Liu Zhu
+title: 'Deep Hashing: A Joint Approach For Image Signature Learning'
+authors: Yadong Mu, Zhu Liu
 conference: "Arxiv"
 year: 2016
+citations: 4
 bibkey: mu2016deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1608.03658"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1608.03658'}
+tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing']
 ---
 Similarity-based image hashing represents crucial technique for visual data
 storage reduction and expedited image search. Conventional hashing schemes

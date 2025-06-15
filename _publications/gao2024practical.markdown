@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Practical And Asymptotically Optimal Quantization Of High-dimensional Vectors In Euclidean Space For Approximate Nearest Neighbor Search
-authors: Gao Jianyang, Gou Yutong, Xu Yuexuan, Yang Yongyi, Long Cheng, Wong Raymond Chi-wing
+title: 'Practical And Asymptotically Optimal Quantization Of High-dimensional Vectors In Euclidean Space For Approximate Nearest Neighbor Search'
+authors: Jianyang Gao et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: gao2024practical
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2409.09913"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2409.09913'}
+tags: ['Quantisation', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Vector Indexing', 'Quantization']
 ---
 Approximate nearest neighbor (ANN) query in high-dimensional Euclidean space
 is a key operator in database systems. For this query, quantization is a

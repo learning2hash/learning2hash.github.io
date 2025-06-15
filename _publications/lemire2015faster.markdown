@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Faster 64-bit Universal Hashing Using Carry-less Multiplications
-authors: Lemire Daniel, Kaser Owen
-conference: "Journal of Cryptographic Engineering Volume"
+title: 'Faster 64-bit Universal Hashing Using Carry-less Multiplications'
+authors: Daniel Lemire, Owen Kaser
+conference: "Journal of Cryptographic Engineering Volume 6 Issue 3 pp 171-185 2016"
 year: 2015
+citations: 15
 bibkey: lemire2015faster
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1503.03465"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1503.03465'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Intel and AMD support the Carry-less Multiplication (CLMUL) instruction set
 in their x64 processors. We use CLMUL to implement an almost universal 64-bit

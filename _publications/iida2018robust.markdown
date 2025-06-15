@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Robust Image Identification For Double-compressed JPEG Images
-authors: Iida Kenta, Kiya Hitoshi
+title: 'Robust Image Identification For Double-compressed JPEG Images'
+authors: Kenta Iida, Hitoshi Kiya
 conference: "Arxiv"
 year: 2018
+citations: 1
 bibkey: iida2018robust
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1807.06928"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1807.06928'}
+tags: ['Cross-Modal', 'Deep', 'Compression', 'Supervised', 'Hashing', 'Applications']
 ---
 It is known that JPEG images uploaded to social networks (SNs) are mostly
 re-compressed by the social network providers. Because of such a situation, a

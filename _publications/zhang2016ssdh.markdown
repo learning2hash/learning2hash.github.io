@@ -4,10 +4,11 @@ title: SSDH Semi-supervised Deep Hashing For Large Scale Image Retrieval
 authors: Zhang Jian, Peng Yuxin
 conference: "Arxiv"
 year: 2016
+citations: 99
 bibkey: zhang2016ssdh
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1607.08477"}
-tags: ['ARXIV', 'Graph', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Graph', 'Image Retrieval', 'Supervised', 'Semi-Supervised']
 ---
 Hashing methods have been widely used for efficient similarity retrieval on
 large scale image database. Traditional hashing methods learn hash functions to

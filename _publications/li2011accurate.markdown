@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Accurate Estimators For Improving Minwise Hashing And B-bit Minwise Hashing
-authors: Li Ping, Konig Christian
+title: 'Accurate Estimators For Improving Minwise Hashing And B-bit Minwise Hashing'
+authors: Ping Li, Christian Konig
 conference: "Arxiv"
 year: 2011
+citations: 5
 bibkey: li2011accurate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1108.0895"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1108.0895'}
+tags: ['Deep', 'Unsupervised', 'Unimodal', 'Hashing', 'Applications']
 ---
 Minwise hashing is the standard technique in the context of search and
 databases for efficiently estimating set (e.g., high-dimensional 0/1 vector)

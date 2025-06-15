@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Similarity Search And Locality Sensitive Hashing Using Tcams
-authors: Shinde Rajendra, Goel Ashish, Gupta Pankaj, Dutta Debojyoti
+title: 'Similarity Search And Locality Sensitive Hashing Using Tcams'
+authors: Rajendra Shinde, Ashish Goel, Pankaj Gupta, Debojyoti Dutta
 conference: "Arxiv"
 year: 2010
+citations: 4
 bibkey: shinde2010similarity
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1006.3514"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1006.3514'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Similarity search methods are widely used as kernels in various machine
 learning applications. Nearest neighbor search (NNS) algorithms are often used

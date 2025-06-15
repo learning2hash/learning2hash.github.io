@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Derandomized Sparse Johnson-lindenstrauss Transform
-authors: Kane Daniel M., Nelson Jelani
+title: 'A Derandomized Sparse Johnson-lindenstrauss Transform'
+authors: Daniel M. Kane, Jelani Nelson
 conference: "Arxiv"
 year: 2010
+citations: 58
 bibkey: kane2010derandomized
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1006.3585"}
-tags: ['ARXIV', 'FOCS', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1006.3585'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing']
 ---
 Recent work of [Dasgupta-Kumar-Sarlos, STOC 2010] gave a sparse
 Johnson-Lindenstrauss transform and left as a main open question whether their

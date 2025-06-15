@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Two-way Linear Probing Revisited
-authors: Dalal Ketan, Devroye Luc, Malalla Ebrahim
+title: 'Two-way Linear Probing Revisited'
+authors: Ketan Dalal, Luc Devroye, Ebrahim Malalla
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: dalal2023two
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2309.05308"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2309.05308'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
 ---
 We introduce linear probing hashing schemes that construct a hash table of
 size \\(n\\), with constant load factor \\(\alpha\\), on which the worst-case

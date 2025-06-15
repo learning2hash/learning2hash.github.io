@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: CLIP Multi-modal Hashing A New Baseline CLIPMH
-authors: Zhu Jian, Sheng Mingkai, Ke Mingda, Huang Zhangmin, Chang Jingfei
+title: 'CLIP Multi-modal Hashing: A New Baseline CLIPMH'
+authors: Jian Zhu, Mingkai Sheng, Mingda Ke, Zhangmin Huang, Jingfei Chang
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: zhu2023clip
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2308.11797"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2308.11797'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Multi-Modal Hashing', 'Hashing']
 ---
 The multi-modal hashing method is widely used in multimedia retrieval. It can
 fuse multi-source data to generate binary hash code. However, the current

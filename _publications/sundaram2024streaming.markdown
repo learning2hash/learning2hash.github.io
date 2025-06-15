@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Streaming Similarity Search Over One Billion Tweets Using Parallel Locality-sensitive Hashing
-authors: Sundaram Narayanan, Turmukhametova, Satish, Mostak, Indyk, Dubey
+authors: Sundaram Narayanan et al.
 conference: "Arxiv"
 year: 2024
+citations: 71
 bibkey: sundaram2024streaming
 additional_links:
   - {name: "Paper", url: "http://www.vldb.org/pvldb/vol6/p1930-sundaram.pdf"}

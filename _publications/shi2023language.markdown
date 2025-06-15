@@ -4,6 +4,7 @@ title: Language Embedded 3D Gaussians For Open-vocabulary Scene Understanding
 authors: Shi Jin-chuan, Wang Miao, Duan Hao-bin, Guan Shao-hua
 conference: "Arxiv"
 year: 2023
+citations: 14
 bibkey: shi2023language
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2311.18482"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Semi-supervised Hashing For Semi-paired Cross-view Retrieval
-authors: Yu Jun, Wu Xiao-jun, Kittler Josef
+title: 'Semi-supervised Hashing For Semi-paired Cross-view Retrieval'
+authors: Jun Yu, Xiao-jun Wu, Josef Kittler
 conference: "Arxiv"
 year: 2018
+citations: 7
 bibkey: yu2018semi
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1806.07155"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1806.07155'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Datasets', 'Supervised', 'Supervised Hashing', 'Applications']
 ---
 Recently, hashing techniques have gained importance in large-scale retrieval
 tasks because of their retrieval speed. Most of the existing cross-view

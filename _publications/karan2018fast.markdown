@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Counting In Machine Learning Applications
-authors: Karan Subhadeep, Eichhorn Matthew, Hurlburt Blake, Iraci Grant, Zola Jaroslaw
+title: 'Fast Counting In Machine Learning Applications'
+authors: Subhadeep Karan, Matthew Eichhorn, Blake Hurlburt, Grant Iraci, Jaroslaw Zola
 conference: "Arxiv"
 year: 2018
+citations: 4
 bibkey: karan2018fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1804.04640"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1804.04640'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Applications']
 ---
 We propose scalable methods to execute counting queries in machine learning
 applications. To achieve memory and computational efficiency, we abstract

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Optimal Binary Linear Codes From Maximal Arcs
-authors: Heng Ziling, Ding Cunsheng, Wang Weiqiong
+title: 'Optimal Binary Linear Codes From Maximal Arcs'
+authors: Ziling Heng, Cunsheng Ding, Weiqiong Wang
 conference: "Arxiv"
 year: 2020
+citations: 22
 bibkey: heng2020optimal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2001.01049"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2001.01049'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 The binary Hamming codes with parameters \\([2^m-1, 2^m-1-m, 3]\\) are perfect.
 Their extended codes have parameters \\([2^m, 2^m-1-m, 4]\\) and are

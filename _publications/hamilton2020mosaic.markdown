@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Mosaic Finding Artistic Connections Across Culture With Conditional Image Retrieval
-authors: Hamilton Mark, Fu Stephanie, Lu Mindren, Bui Johnny, Bopp Darius, Chen Zhenbang, Tran Felix, Wang Margaret, Rogers Marina, Zhang Lei, Hoder Chris, Freeman William T.
+authors: Hamilton Mark et al.
 conference: "Arxiv"
 year: 2020
+citations: 3
 bibkey: hamilton2020mosaic
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2007.07177"}

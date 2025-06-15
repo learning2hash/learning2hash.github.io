@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Bilinear Supervised Hashing Based On 2D Image Features
-authors: Ding Yujuan, Wong Wai Kueng, Lai Zhihui, Zhang Zheng
+title: 'Bilinear Supervised Hashing Based On 2D Image Features'
+authors: Yujuan Ding, Wai Kueng Wong, Zhihui Lai, Zheng Zhang
 conference: "Arxiv"
 year: 2019
+citations: 13
 bibkey: ding2019bilinear
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1901.01474"}
-tags: ['ARXIV', 'CNN', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1901.01474'}
+tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing']
 ---
 Hashing has been recognized as an efficient representation learning method to
 effectively handle big data due to its low computational complexity and memory

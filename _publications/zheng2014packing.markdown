@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Packing And Padding Coupled Multi-index For Accurate Image Retrieval
-authors: Zheng Liang, Wang Shengjin, Liu Ziqiong, Tian Qi
+title: 'Packing And Padding: Coupled Multi-index For Accurate Image Retrieval'
+authors: Liang Zheng, Shengjin Wang, Ziqiong Liu, Qi Tian
 conference: "Arxiv"
 year: 2014
+citations: 140
 bibkey: zheng2014packing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1402.2681"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1402.2681'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Quantization', 'Applications']
 ---
 In Bag-of-Words (BoW) based image retrieval, the SIFT visual word has a low
 discriminative power, so false positive matches occur prevalently. Apart from

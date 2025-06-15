@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Exact Weighted Minwise Hashing In Constant Time
-authors: Shrivastava Anshumali
+title: 'Exact Weighted Minwise Hashing In Constant Time'
+authors: Anshumali Shrivastava
 conference: "Arxiv"
 year: 2016
+citations: 7
 bibkey: shrivastava2016exact
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1602.08393"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1602.08393'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Conferences', 'Datasets', 'Hashing']
 ---
 Weighted minwise hashing (WMH) is one of the fundamental subroutine, required
 by many celebrated approximation algorithms, commonly adopted in industrial

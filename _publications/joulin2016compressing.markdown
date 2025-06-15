@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fasttext.zip Compressing Text Classification Models
-authors: Joulin Armand, Grave Edouard, Bojanowski Piotr, Douze Matthijs, Jégou Hérve, Mikolov Tomas
+title: 'Fasttext.zip: Compressing Text Classification Models'
+authors: Armand Joulin et al.
 conference: "Arxiv"
 year: 2016
+citations: 870
 bibkey: joulin2016compressing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1612.03651"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1612.03651'}
+tags: ['Quantisation', 'Unimodal', 'Shallow', 'Quantization', 'Hashing']
 ---
 We consider the problem of producing compact architectures for text
 classification, such that the full model fits in a limited amount of memory.

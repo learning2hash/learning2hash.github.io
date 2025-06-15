@@ -4,10 +4,11 @@ title: Supervised Hashing Via Image Representation Learning
 authors: Xia R., Pan, Lai, Liu, Yan.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: xia2024supervised
 additional_links:
   - {name: "Paper", url: "http://ss.sysu.edu.cn/~py/papers/AAAI-CNNH.pdf"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Image Retrieval', 'Supervised', 'Supervised']
 ---
 Hashing is a popular approximate nearest neighbor
 search approach for large-scale image retrieval.

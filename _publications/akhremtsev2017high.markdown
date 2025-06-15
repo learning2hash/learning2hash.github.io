@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: High-quality Shared-memory Graph Partitioning
-authors: Akhremtsev Yaroslav, Sanders Peter, Schulz Christian
+title: 'High-quality Shared-memory Graph Partitioning'
+authors: Yaroslav Akhremtsev, Peter Sanders, Christian Schulz
 conference: "Arxiv"
 year: 2017
+citations: 27
 bibkey: akhremtsev2017high
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1710.08231"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1710.08231'}
+tags: ['Cross-Modal', 'Independent', 'Shallow']
 ---
 Partitioning graphs into blocks of roughly equal size such that few edges run
 between blocks is a frequently needed operation in processing graphs. Recently,

@@ -4,10 +4,11 @@ title: Deep Hashing Network For Efficient Similarity Retrieval
 authors: Zhu Han, Long, Wang, Cao
 conference: "Arxiv"
 year: 2024
+citations: 343
 bibkey: zhu2024deep
 additional_links:
   - {name: "Paper", url: "http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-hashing-network-aaai16.pdf"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised']
+tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised', 'Supervised']
 ---
 Due to the storage and retrieval efficiency, hashing has been widely deployed to approximate nearest neighbor search for large-scale multimedia retrieval. Supervised hashing, which improves the quality of hash coding by exploiting the semantic similarity on data pairs, has received increasing attention recently. For most existing supervised hashing methods for image retrieval, an image is first represented as a vector of hand-crafted or machine-learned features, followed by another separate quantization step that generates binary codes.
 However, suboptimal hash coding may be produced, because the quantization error is not statistically minimized and the feature representation is not optimally compatible with the binary coding. In this paper, we propose a novel Deep Hashing Network (DHN) architecture for supervised hashing, in which we jointly learn good image representation tailored to hash coding and formally control the quantization error.

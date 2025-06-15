@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Bitmap-based Indexing And Retrieval Of Similarity Search Image Queries
-authors: Jafari Omid, Nagarkar Parth, Montaño Jonathan
-conference: ""
+title: 'Efficient Bitmap-based Indexing And Retrieval Of Similarity Search Image Queries'
+authors: Omid Jafari, Parth Nagarkar, Jonathan Montaño
+conference: "2020 IEEE Southwest Symposium on Image Analysis and Interpretation (SSIAI) Albuquerque NM USA 2020 pp. 58-61"
 year: 2019
+citations: 0
 bibkey: jafari2019efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1912.07101"}
-tags: ['Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1912.07101'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Hashing', 'Applications']
 ---
 Finding similar images is a necessary operation in many multimedia
 applications. Images are often represented and stored as a set of

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On The Adversarial Robustness Of Locality-sensitive Hashing In Hamming Space
-authors: Kapralov Michael, Makarov Mikhail, Sohler Christian
+title: 'On The Adversarial Robustness Of Locality-sensitive Hashing In Hamming Space'
+authors: Michael Kapralov, Mikhail Makarov, Christian Sohler
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: kapralov2024adversarial
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2402.09707"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2402.09707'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Locality-sensitive hashing~[Indyk,Motwani'98] is a classical data structure
 for approximate nearest neighbor search. It allows, after a close to linear

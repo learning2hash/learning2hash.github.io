@@ -1,25 +1,24 @@
 ---
 layout: publication
-title: Towards Efficient Deep Hashing Retrieval Condensing Your Data Via Feature-embedding Matching
-authors: Feng Tao, Zhang Jie, Wang Peizheng, Wang Zhijie
+title: 'Towards Efficient Deep Hashing Retrieval: Condensing Your Data Via Feature-embedding Matching'
+authors: Tao Feng, Jie Zhang, Huashan Liu, Zhijie Wang, Shengyuan Pang
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: feng2023towards
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2305.18076"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2305.18076'}
+tags: ['Deep', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Datasets', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Hashing']
 ---
-The expenses involved in training state-of-the-art deep hashing retrieval
-models have witnessed an increase due to the adoption of more sophisticated
-models and large-scale datasets. Dataset Distillation (DD) or Dataset
-Condensation(DC) focuses on generating smaller synthetic dataset that retains
-the original information. Nevertheless, existing DD methods face challenges in
-maintaining a trade-off between accuracy and efficiency. And the
-state-of-the-art dataset distillation methods can not expand to all deep
-hashing retrieval methods. In this paper, we propose an efficient condensation
-framework that addresses these limitations by matching the feature-embedding
-between synthetic set and real set. Furthermore, we enhance the diversity of
-features by incorporating the strategies of early-stage augmented models and
-multi-formation. Extensive experiments provide compelling evidence of the
-remarkable superiority of our approach, both in terms of performance and
-efficiency, compared to state-of-the-art baseline methods.
+Deep hashing retrieval has gained widespread use in big data retrieval due to
+its robust feature extraction and efficient hashing process. However, training
+advanced deep hashing models has become more expensive due to complex
+optimizations and large datasets. Coreset selection and Dataset Condensation
+lower overall training costs by reducing the volume of training data without
+significantly compromising model accuracy for classification task. In this
+paper, we explore the effect of mainstream dataset condensation methods for
+deep hashing retrieval and propose IEM (Information-intensive feature Embedding
+Matching), which is centered on distribution matching and incorporates model
+and data augmentation techniques to further enhance the feature of hashing
+space. Extensive experiments demonstrate the superior performance and
+efficiency of our approach.

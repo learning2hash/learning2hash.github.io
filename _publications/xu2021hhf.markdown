@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: HHF Hashing-guided Hinge Function For Deep Hashing Retrieval
-authors: Xu Chengyin, Chai Zenghao, Xu Zhengzhuo, Li Hongjia, Zuo Qiruyi, Yang Lingyu, Yuan Chun
+authors: Xu Chengyin et al.
 conference: "Arxiv"
 year: 2021
+citations: 18
 bibkey: xu2021hhf
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2112.02225"}

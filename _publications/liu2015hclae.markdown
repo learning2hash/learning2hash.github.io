@@ -4,6 +4,7 @@ title: HCLAE High Capacity Locally Aggregating Encodings For Approximate Nearest
 authors: Liu Shicong, Shao Junru, Lu Hongtao
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: liu2015hclae
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1509.05194"}

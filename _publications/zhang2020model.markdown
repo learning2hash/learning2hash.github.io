@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Model Size Reduction Using Frequency Based Double Hashing For Recommender Systems
-authors: Zhang Caojin, Liu Yicun, Xie Yuanpu, Ktena Sofia Ira, Tejani Alykhan, Gupta Akshay, Myana Pranay Kumar, Dilipkumar Deepak, Paul Suvadip, Ihara Ikuhiro, Upadhyaya Prasang, Huszar Ferenc, Shi Wenzhe
+title: 'Model Size Reduction Using Frequency Based Double Hashing For Recommender Systems'
+authors: Caojin Zhang et al.
 conference: "Arxiv"
 year: 2020
+citations: 22
 bibkey: zhang2020model
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2007.14523"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2007.14523'}
+tags: ['Deep', 'Unimodal', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 Deep Neural Networks (DNNs) with sparse input features have been widely used
 in recommender systems in industry. These models have large memory requirements

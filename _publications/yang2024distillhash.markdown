@@ -4,10 +4,11 @@ title: Distillhash Unsupervised Deep Hashing By Distilling Data Pairs
 authors: Yang Erkun, Liu, Deng, Liu, Tao
 conference: "Arxiv"
 year: 2024
+citations: 121
 bibkey: yang2024distillhash
 additional_links:
   - {name: "Paper", url: "http://openaccess.thecvf.com/content_CVPR_2019/papers/Yang_DistillHash_Unsupervised_Deep_Hashing_by_Distilling_Data_Pairs_CVPR_2019_paper.pdf"}
-tags: ['ARXIV', 'Unsupervised']
+tags: ['ARXIV', 'Unsupervised', 'Supervised']
 ---
 Due to the high storage and search efficiency, hashing
 has become prevalent for large-scale similarity search. Particularly, deep hashing methods have greatly improved the

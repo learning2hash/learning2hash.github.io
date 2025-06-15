@@ -4,6 +4,7 @@ title: Fast Similarity Search Via Optimal Sparse Lifting
 authors: Wenye Li, Jingwei Mao, Yin Zhang, Shuguang Cui
 conference: "Neural Information Processing Systems"
 year: 2018
+citations: 16
 bibkey: li2018fast
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2018/hash/a8baa56554f96369ab93e4f3bb068c22-Abstract.html"}

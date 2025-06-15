@@ -4,6 +4,7 @@ title: Isotropic Hashing
 authors: Kong W., Li
 conference: "Arxiv"
 year: 2024
+citations: 260
 bibkey: kong2024isotropic
 additional_links:
   - {name: "Paper", url: "http://papers.nips.cc/paper/4846-isotropic-hashing.pdf"}

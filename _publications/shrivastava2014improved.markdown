@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Improved Asymmetric Locality Sensitive Hashing (ALSH) For Maximum Inner Product Search (MIPS)
-authors: Shrivastava Anshumali, Li Ping
+title: 'Improved Asymmetric Locality Sensitive Hashing (ALSH) For Maximum Inner Product Search (MIPS)'
+authors: Anshumali Shrivastava, Ping Li
 conference: "Arxiv"
 year: 2014
+citations: 54
 bibkey: shrivastava2014improved
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1410.5410"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1410.5410'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
 ---
 Recently it was shown that the problem of Maximum Inner Product Search (MIPS)
 is efficient and it admits provably sub-linear hashing algorithms. Asymmetric

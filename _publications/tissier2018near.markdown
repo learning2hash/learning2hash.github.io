@@ -4,6 +4,7 @@ title: Near-lossless Binarization Of Word Embeddings
 authors: Tissier Julien, Gravier Christophe, Habrard Amaury
 conference: "Arxiv"
 year: 2018
+citations: 12
 bibkey: tissier2018near
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1803.09065"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Analysis Of Sparsehash An Efficient Embedding Of Set-similarity Via Sparse Projections
-authors: Valsesia Diego, Fosson Sophie Marie, Ravazzi Chiara, Bianchi Tiziano, Magli Enrico
+title: 'Analysis Of Sparsehash: An Efficient Embedding Of Set-similarity Via Sparse Projections'
+authors: Diego Valsesia, Sophie Marie Fosson, Chiara Ravazzi, Tiziano Bianchi, Enrico Magli
 conference: "Arxiv"
 year: 2019
+citations: 3
 bibkey: valsesia2019analysis
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1909.01802"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1909.01802'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Hashing']
 ---
 Embeddings provide compact representations of signals in order to perform
 efficient inference in a wide variety of tasks. In particular, random

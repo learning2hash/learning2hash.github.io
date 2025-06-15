@@ -4,10 +4,11 @@ title: Feature Learning Based Deep Supervised Hashing With Pairwise Labels
 authors: Li Wu-jun, Kang
 conference: "Arxiv"
 year: 2024
+citations: 509
 bibkey: li2024feature
 additional_links:
   - {name: "Paper", url: "http://cs.nju.edu.cn/lwj/paper/IJCAI16_DPSH.pdf"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Image Retrieval', 'Supervised', 'Supervised']
 ---
 Recent years have witnessed wide application of
 hashing for large-scale image retrieval. However,

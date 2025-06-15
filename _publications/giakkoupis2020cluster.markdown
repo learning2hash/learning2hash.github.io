@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Cluster-and-conquer When Randomness Meets Graph Locality
-authors: Giakkoupis George Wide, Kermarrec Anne-marie Epfl, Ruas Olivier Spirals, Taïani François Wide, Irisa
+title: 'Cluster-and-conquer: When Randomness Meets Graph Locality'
+authors: George Wide Giakkoupis, Anne-marie Epfl Kermarrec, Olivier Spirals Ruas, François Wide, Irisa Taïani
 conference: "Arxiv"
 year: 2020
+citations: 1
 bibkey: giakkoupis2020cluster
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2010.11497"}
-tags: ['ARXIV', 'Graph', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2010.11497'}
+tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Applications']
 ---
 K-Nearest-Neighbors (KNN) graphs are central to many emblematic data mining
 and machine-learning applications. Some of the most efficient KNN graph

@@ -4,10 +4,11 @@ title: Asymmetric LSH (ALSH) For Sublinear Time Maximum Inner Product Search (MI
 authors: Shrivastava A., Li
 conference: "Arxiv"
 year: 2024
+citations: 267
 bibkey: shrivastava2024asymmetric
 additional_links:
   - {name: "Paper", url: "http://papers.nips.cc/paper/5329-asymmetric-lsh-alsh-for-sublinear-time-maximum-inner-product-search-mips.pdf"}
-tags: ['ARXIV', 'Independent', 'LSH']
+tags: ['ARXIV', 'Independent', 'LSH', 'Independent']
 ---
 We present the first provably sublinear time hashing algorithm for approximate
 Maximum Inner Product Search (MIPS). Searching with (un-normalized) inner

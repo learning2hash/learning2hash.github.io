@@ -4,10 +4,11 @@ title: Random Maximum Margin Hashing
 authors: Joly A., Buisson
 conference: "Arxiv"
 year: 2024
+citations: 95
 bibkey: joly2024random
 additional_links:
   - {name: "Paper", url: "https://hal.inria.fr/hal-00642178/document"}
-tags: ['ARXIV', 'Independent', 'LSH']
+tags: ['ARXIV', 'Independent', 'LSH', 'Independent']
 ---
 Following the success of hashing methods for multidimensional
 indexing, more and more works are interested

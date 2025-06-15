@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Optimizing Affinity-based Binary Hashing Using Auxiliary Coordinates
-authors: Raziperchikolaei Ramin, Carreira-perpiñán Miguel Á.
+title: 'Optimizing Affinity-based Binary Hashing Using Auxiliary Coordinates'
+authors: Ramin Raziperchikolaei, Miguel Á. Carreira-perpiñán
 conference: "Arxiv"
 year: 2015
+citations: 11
 bibkey: raziperchikolaei2015optimizing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1501.05352"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1501.05352'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 In supervised binary hashing, one wants to learn a function that maps a
 high-dimensional feature vector to a vector of binary codes, for application to

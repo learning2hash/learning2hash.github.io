@@ -4,6 +4,7 @@ title: Ann-benchmarks A Benchmarking Tool For Approximate Nearest Neighbor Algor
 authors: Aumüller Martin, Bernhardsson Erik, Faithfull Alexander
 conference: "Arxiv"
 year: 2018
+citations: 153
 bibkey: aumüller2018ann
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1807.05614"}

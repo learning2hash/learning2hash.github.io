@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: End-to-end Efficient Representation Learning Via Cascading Combinatorial Optimization
-authors: Jeong Yeonwoo, Kim Yoonsung, Song Hyun Oh
+title: 'End-to-end Efficient Representation Learning Via Cascading Combinatorial Optimization'
+authors: Yeonwoo Jeong, Yoonsung Kim, Hyun Oh Song
 conference: "Arxiv"
 year: 2019
+citations: 0
 bibkey: jeong2019end
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1902.10990"}
-tags: ['ARXIV', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1902.10990'}
+tags: ['Cross-Modal', 'Quantization', 'Model Design', 'Quantisation', 'Efficiency', 'Shallow', 'Datasets', 'Training Strategy']
 ---
 We develop hierarchically quantized efficient embedding representations for
 similarity-based search and show that this representation provides not only the

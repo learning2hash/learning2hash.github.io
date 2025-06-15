@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning A Deep ell_infty Encoder For Hashing
-authors: Wang Zhangyang, Yang Yingzhen, Chang Shiyu, Ling Qing, Huang Thomas S.
+title: 'Learning A Deep \(\ell_\infty\) Encoder For Hashing'
+authors: Zhangyang Wang, Yingzhen Yang, Shiyu Chang, Qing Ling, Thomas S. Huang
 conference: "Arxiv"
 year: 2016
+citations: 4
 bibkey: wang2016learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1604.01475"}
-tags: ['ARXIV', 'Deep Learning', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1604.01475'}
+tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Shallow', 'Hashing', 'Quantization', 'Supervised Hashing']
 ---
 We investigate the \\(\ell_\infty\\)-constrained representation which
 demonstrates robustness to quantization errors, utilizing the tool of deep

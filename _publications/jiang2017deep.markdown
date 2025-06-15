@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Discrete Supervised Hashing
-authors: Jiang Qing-yuan, Cui Xue, Li Wu-jun
+title: 'Deep Discrete Supervised Hashing'
+authors: Qing-yuan Jiang, Xue Cui, Wu-jun Li
 conference: "Arxiv"
 year: 2017
+citations: 94
 bibkey: jiang2017deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1707.09905"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1707.09905'}
+tags: ['Supervised', 'Cross-Modal', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Hashing has been widely used for large-scale search due to its low storage
 cost and fast query speed. By using supervised information, supervised hashing

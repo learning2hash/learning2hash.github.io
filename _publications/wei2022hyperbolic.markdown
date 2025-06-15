@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hyperbolic Hierarchical Contrastive Hashing
-authors: Wei Rukai, Liu Yu, Song Jingkuan, Xie Yanzhao, Zhou Ke
-conference: "Transaction on Image Processing"
+title: 'Hyperbolic Hierarchical Contrastive Hashing'
+authors: Rukai Wei, Yu Liu, Jingkuan Song, Yanzhao Xie, Ke Zhou
+conference: "Transaction on Image Processing 2024"
 year: 2022
+citations: 0
 bibkey: wei2022hyperbolic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2212.08904"}
-tags: ['ICIP', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2212.08904'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Supervised Hashing']
 ---
 Hierarchical semantic structures, naturally existing in real-world datasets,
 can assist in capturing the latent distribution of data to learn robust hash

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Projected Hamming Dissimilarity For Bit-level Importance Coding In Collaborative Filtering
-authors: Hansen Christian, Hansen Casper, Simonsen Jakob Grue, Lioma Christina
+title: 'Projected Hamming Dissimilarity For Bit-level Importance Coding In Collaborative Filtering'
+authors: Christian Hansen, Casper Hansen, Jakob Grue Simonsen, Christina Lioma
 conference: "Arxiv"
 year: 2021
+citations: 2
 bibkey: hansen2021projected
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2103.14455"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2103.14455'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing']
 ---
 When reasoning about tasks that involve large amounts of data, a common
 approach is to represent data items as objects in the Hamming space where

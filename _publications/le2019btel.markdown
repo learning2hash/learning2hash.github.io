@@ -4,6 +4,7 @@ title: BTEL A Binary Tree Encoding Approach For Visual Localization
 authors: Le Huu, Hoang Tuan, Milford Michael
 conference: "Arxiv"
 year: 2019
+citations: 4
 bibkey: le2019btel
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1906.11992"}

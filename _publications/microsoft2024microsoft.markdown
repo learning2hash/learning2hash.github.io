@@ -4,6 +4,7 @@ title: Microsoft SPACEV-1B
 authors: Microsoft Microsoft
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: microsoft2024microsoft
 additional_links:
   - {name: "Paper", url: "https://github.com/microsoft/SPTAG/tree/main/datasets/SPACEV1B"}

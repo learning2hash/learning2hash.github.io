@@ -4,6 +4,7 @@ title: A Non-alternating Graph Hashing Algorithm For Large Scale Image Search
 authors: Hemati Sobhan, Mehdizavareh, Chenouri, Tizhoosh
 conference: "Arxiv"
 year: 2024
+citations: 2
 bibkey: hemati2024non
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2012.13138"}

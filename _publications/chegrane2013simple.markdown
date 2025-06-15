@@ -4,6 +4,7 @@ title: Simple Compact And Robust Approximate String Dictionary
 authors: Chegrane Ibrahim, Belazzougui Djamal
 conference: "Arxiv"
 year: 2013
+citations: 4
 bibkey: chegrane2013simple
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1312.4678"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Linear-time Approximation Of The Earth Movers Distance
-authors: Jang Min-hee, Kim Sang-wook, Faloutsos Christos, Park Sunju
+title: 'A Linear-time Approximation Of The Earth Mover''s Distance'
+authors: Min-hee Jang, Sang-wook Kim, Christos Faloutsos, Sunju Park
 conference: "Arxiv"
 year: 2011
+citations: 0
 bibkey: jang2011linear
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1106.1521"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1106.1521'}
+tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Quantization', 'Applications']
 ---
 Color descriptors are one of the important features used in content-based
 image retrieval. The Dominant Color Descriptor (DCD) represents a few

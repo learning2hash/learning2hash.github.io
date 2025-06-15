@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning To Rank Binary Codes
-authors: Feng Jie, Liu Wei, Wang Yan
+title: 'Learning To Rank Binary Codes'
+authors: Jie Feng, Wei Liu, Yan Wang
 conference: "Arxiv"
 year: 2014
+citations: 1
 bibkey: feng2014learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1410.5524"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1410.5524'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Binary codes have been widely used in vision problems as a compact feature
 representation to achieve both space and time advantages. Various methods have

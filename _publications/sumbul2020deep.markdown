@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Learning For Image Search And Retrieval In Large Remote Sensing Archives
-authors: Sumbul Gencer, Kang Jian, Demir Begüm
+title: 'Deep Learning For Image Search And Retrieval In Large Remote Sensing Archives'
+authors: Gencer Sumbul, Jian Kang, Begüm Demir
 conference: "Arxiv"
 year: 2020
+citations: 17
 bibkey: sumbul2020deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.01613"}
-tags: ['ARXIV', 'Deep Learning']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.01613'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
 ---
 This chapter presents recent advances in content based image search and
 retrieval (CBIR) systems in remote sensing (RS) for fast and accurate

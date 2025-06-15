@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On Fast Bounded Locality Sensitive Hashing
-authors: Wygocki Piotr
+title: 'On Fast Bounded Locality Sensitive Hashing'
+authors: Piotr Wygocki
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: wygocki2017fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1704.05902"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1704.05902'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 In this paper, we examine the hash functions expressed as scalar products,
 i.e., \\(f(x)=<v,x>\\), for some bounded random vector \\(v\\). Such hash functions

@@ -4,6 +4,7 @@ title: Phase Transition For Parking Blocks Brownian Excursion And Coalescence
 authors: Chassaing Philippe Iec, Louchard Guy Ulb
 conference: "Random Structures Algorithms"
 year: 2005
+citations: 37
 bibkey: chassaing2005phase
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/math/0501060"}

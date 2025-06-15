@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Fine-grained Embedding Dimension Optimization During Training For Recommender Systems
-authors: Luo Qinyi, Wang Penghan, Zhang Wei, Lai Fan, Mao Jiachen, Wei Xiaohan, Song Jun, Tsai Wei-yu, Yang Shuai, Hu Yuxi, Qian Xuehai
+authors: Luo Qinyi et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: luo2024fine
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2401.04408"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locality-sensitive Hashing In Function Spaces
-authors: Shand Will, Becker Stephen
+title: 'Locality-sensitive Hashing In Function Spaces'
+authors: Will Shand, Stephen Becker
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: shand2020locality
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2002.03909"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2002.03909'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
 ---
 We discuss the problem of performing similarity search over function spaces.
 To perform search over such spaces in a reasonable amount of time, we use \{\it

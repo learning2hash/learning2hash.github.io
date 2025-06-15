@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Knn-embed Locally Smoothed Embedding Mixtures For Multi-interest Candidate Retrieval
-authors: El-kishky Ahmed, Markovich Thomas, Leung Kenny, Portman Frank, Haghighi Aria, Xiao Ying
+title: 'Knn-embed: Locally Smoothed Embedding Mixtures For Multi-interest Candidate Retrieval'
+authors: Ahmed El-kishky et al.
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: elkishky2022knn
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2205.06205"}
-tags: ['ARXIV', 'Graph', 'Text Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2205.06205'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Applications']
 ---
 Candidate retrieval is the first stage in recommendation systems, where a
 light-weight system is used to retrieve potentially relevant items for an input

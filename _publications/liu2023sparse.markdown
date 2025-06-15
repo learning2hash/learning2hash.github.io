@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sparse-inductive Generative Adversarial Hashing For Nearest Neighbor Search
-authors: Liu Hong
+title: 'Sparse-inductive Generative Adversarial Hashing For Nearest Neighbor Search'
+authors: Hong Liu
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: liu2023sparse
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2306.06928"}
-tags: ['ARXIV', 'Cross Modal', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2306.06928'}
+tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing']
 ---
 Unsupervised hashing has received extensive research focus on the past
 decade, which typically aims at preserving a predefined metric (i.e. Euclidean

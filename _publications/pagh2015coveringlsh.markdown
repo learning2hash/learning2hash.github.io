@@ -4,6 +4,7 @@ title: Coveringlsh Locality-sensitive Hashing Without False Negatives
 authors: Pagh Rasmus
 conference: "Arxiv"
 year: 2015
+citations: 1
 bibkey: pagh2015coveringlsh
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1507.03225"}

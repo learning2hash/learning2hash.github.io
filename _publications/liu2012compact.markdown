@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Compact Hyperplane Hashing With Bilinear Functions
-authors: Liu Wei Columbia University, Wang Jun Ibm T. J. Watson Research Center, Mu Yadong Columbia University, Kumar Sanjiv Google, Chang Shih-fu Columbia University
+title: 'Compact Hyperplane Hashing With Bilinear Functions'
+authors: Wei Columbia University Liu, Jun Ibm T. J. Watson Research Center Wang, Yadong Columbia University Mu, Sanjiv Google Kumar, Shih-fu Columbia University Chang
 conference: "Arxiv"
 year: 2012
+citations: 59
 bibkey: liu2012compact
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1206.4618"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1206.4618'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
 ---
 Hyperplane hashing aims at rapidly searching nearest points to a hyperplane,
 and has shown practical impact in scaling up active learning with SVMs.

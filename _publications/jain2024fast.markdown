@@ -4,6 +4,7 @@ title: Fast Similarity Search For Learned Metrics
 authors: Jain P., Kulis, Grauman
 conference: "Arxiv"
 year: 2024
+citations: 187
 bibkey: jain2024fast
 additional_links:
   - {name: "Paper", url: "https://www.cs.utexas.edu/~pjain/pubs/hashing_tr.pdf"}

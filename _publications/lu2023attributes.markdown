@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Attributes Grouping And Mining Hashing For Fine-grained Image Retrieval
-authors: Lu Xin, Chen Shikun, Cao Yichao, Zhou Xin, Lu Xiaobo
-conference: "Proceedings of the"
+title: 'Attributes Grouping And Mining Hashing For Fine-grained Image Retrieval'
+authors: Xin Lu, Shikun Chen, Yichao Cao, Xin Zhou, Xiaobo Lu
+conference: "Proceedings of the 31st ACM International Conference on on Multimedia (MM 23) 2023 6558-6566"
 year: 2023
+citations: 11
 bibkey: lu2023attributes
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2311.06067"}
-tags: ['AAAI', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2311.06067'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Hashing', 'Applications']
 ---
 In recent years, hashing methods have been popular in the large-scale media
 search for low storage and strong representation capabilities. To describe

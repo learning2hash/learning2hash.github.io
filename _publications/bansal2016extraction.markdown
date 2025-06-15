@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Extraction Of Layout Entities And Sub-layout Query-based Retrieval Of Document Images
-authors: Bansal Anukriti, Roy Sumantra Dutta, Harit Gaurav
+title: 'Extraction Of Layout Entities And Sub-layout Query-based Retrieval Of Document Images'
+authors: Anukriti Bansal, Sumantra Dutta Roy, Gaurav Harit
 conference: "Arxiv"
 year: 2016
+citations: 0
 bibkey: bansal2016extraction
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1609.02687"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1609.02687'}
+tags: ['Retrieval Models', 'Supervised', 'Shallow', 'Cross-Modal']
 ---
 Layouts and sub-layouts constitute an important clue while searching a
 document on the basis of its structure, or when textual content is

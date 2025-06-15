@@ -4,6 +4,7 @@ title: Exchnet A Unified Hashing Network For Large-scale Fine-grained Image Retr
 authors: Cui Quan, Jiang, Wei, Li, Yoshie
 conference: "Arxiv"
 year: 2024
+citations: 31
 bibkey: cui2024exchnet
 additional_links:
   - {name: "Paper", url: "http://www.weixiushen.com/publication/eccv20_ExchNet.pdf"}

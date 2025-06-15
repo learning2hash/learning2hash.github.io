@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Cross-modal Zero-shot Hashing By Label Attributes Embedding
-authors: Wang Runmin, Yu Guoxian, Liu Lei, Cui Lizhen, Domeniconi Carlotta, Zhang Xiangliang
+title: 'Cross-modal Zero-shot Hashing By Label Attributes Embedding'
+authors: Runmin Wang et al.
 conference: "Arxiv"
 year: 2021
+citations: 5
 bibkey: wang2021cross
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2111.04080"}
-tags: ['ARXIV', 'Cross Modal']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2111.04080'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 Cross-modal hashing (CMH) is one of the most promising methods in cross-modal
 approximate nearest neighbor search. Most CMH solutions ideally assume the

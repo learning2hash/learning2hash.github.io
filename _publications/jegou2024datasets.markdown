@@ -4,6 +4,7 @@ title: Datasets For Approximate Nearest Neighbor Search
 authors: Jegou Herve, Amsaleg
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: jegou2024datasets
 additional_links:
   - {name: "Paper", url: "http://corpus-texmex.irisa.fr/"}

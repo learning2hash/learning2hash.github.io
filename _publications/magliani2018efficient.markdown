@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Nearest Neighbors Search For Large-scale Landmark Recognition
-authors: Magliani Federico, Fontanini Tomaso, Prati Andrea
+title: 'Efficient Nearest Neighbors Search For Large-scale Landmark Recognition'
+authors: Federico Magliani, Tomaso Fontanini, Andrea Prati
 conference: "Arxiv"
 year: 2018
+citations: 5
 bibkey: magliani2018efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1806.05946"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1806.05946'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing']
 ---
 The problem of landmark recognition has achieved excellent results in
 small-scale datasets. When dealing with large-scale retrieval, issues that were

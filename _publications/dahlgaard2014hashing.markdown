@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing For Statistics Over K-partitions
-authors: Dahlgaard Søren, Knudsen Mathias Bæk Tejs, Rotenberg Eva, Thorup Mikkel
+title: 'Hashing For Statistics Over K-partitions'
+authors: Søren Dahlgaard, Mathias Bæk Tejs Knudsen, Eva Rotenberg, Mikkel Thorup
 conference: "Arxiv"
 year: 2014
+citations: 12
 bibkey: dahlgaard2014hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1411.7191"}
-tags: ['ARXIV', 'FOCS', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1411.7191'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
 ---
 In this paper we analyze a hash function for \\(k\\)-partitioning a set into
 bins, obtaining strong concentration bounds for standard algorithms combining

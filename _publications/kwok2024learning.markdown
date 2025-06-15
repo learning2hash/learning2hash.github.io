@@ -4,6 +4,7 @@ title: Learning To Hash With A Dimension Analysis-based Quantizer For Image Retr
 authors: Kwok Yuan
 conference: "Arxiv"
 year: 2024
+citations: 8
 bibkey: kwok2024learning
 additional_links:
   - {name: "Paper", url: "https://ieeexplore.ieee.org/document/9238437"}

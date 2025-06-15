@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Similarity Join Size Estimation Using Locality Sensitive Hashing
-authors: Lee Hongrae University Of British Columbia, Ng Raymond T. University Of British Columbia, Shim Kyuseok Seoul National University
-conference: "Proceedings of the VLDB Endowment"
+title: 'Similarity Join Size Estimation Using Locality Sensitive Hashing'
+authors: Hongrae University Of British Columbia Lee, Raymond T. University Of British Columbia Ng, Kyuseok Seoul National University Shim
+conference: "Proceedings of the VLDB Endowment (PVLDB) Vol. 4 No. 6 pp. 338-349 (2011)"
 year: 2011
+citations: 26
 bibkey: lee2011similarity
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1104.3212"}
-tags: ['Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1104.3212'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Similarity joins are important operations with a broad range of applications.
 In this paper, we study the problem of vector similarity join size estimation

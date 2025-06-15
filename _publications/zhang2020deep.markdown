@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Pairwise Hashing For Cold-start Recommendation
-authors: Zhang Yan, Tsang Ivor W., Yin Hongzhi, Yang Guowu, Lian Defu, Li Jingjing
-conference: ""
+title: 'Deep Pairwise Hashing For Cold-start Recommendation'
+authors: Yan Zhang et al.
+conference: "2020"
 year: 2020
+citations: 4
 bibkey: zhang2020deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2011.00944"}
-tags: ['Deep Learning']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2011.00944'}
+tags: ['Deep', 'Model Design', 'Unsupervised', 'Efficiency', 'Unimodal', 'Evaluation', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Recommendation efficiency and data sparsity problems have been regarded as
 two challenges of improving performance for online recommendation. Most of the

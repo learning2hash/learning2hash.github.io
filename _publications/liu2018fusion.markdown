@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fusion Hashing A General Framework For Self-improvement Of Hashing
-authors: Liu Xingbo, Nie Xiushan, Yin Yilong
+title: 'Fusion Hashing: A General Framework For Self-improvement Of Hashing'
+authors: Xingbo Liu, Xiushan Nie, Yilong Yin
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: liu2018fusion
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1810.00644"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1810.00644'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Hashing has been widely used for efficient similarity search based on its
 query and storage efficiency. To obtain better precision, most studies focus on

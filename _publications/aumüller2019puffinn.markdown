@@ -4,6 +4,7 @@ title: PUFFINN Parameterless And Universally Fast Finding Of Nearest Neighbors
 authors: Aumüller Martin, Christiani Tobias, Pagh Rasmus, Vesterli Michael
 conference: "Arxiv"
 year: 2019
+citations: 4
 bibkey: aumüller2019puffinn
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1906.12211"}

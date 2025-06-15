@@ -4,6 +4,7 @@ title: Pthash Revisiting FCH Minimal Perfect Hashing
 authors: Pibiri Giulio Ermanno, Trani Roberto
 conference: "SIGIR"
 year: 2021
+citations: 16
 bibkey: pibiri2021pthash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2104.10402"}

@@ -4,6 +4,7 @@ title: Minimal Loss Hashing
 authors: Norouzi M., Fleet
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: norouzi2024minimal
 additional_links:
   - {name: "Paper", url: "http://www.cs.toronto.edu/~norouzi/research/papers/min_loss_hashing.pdf"}

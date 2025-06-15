@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Coding For Random Projections
-authors: Li Ping, Mitzenmacher Michael, Shrivastava Anshumali
+title: 'Coding For Random Projections'
+authors: Ping Li, Michael Mitzenmacher, Anshumali Shrivastava
 conference: "Arxiv"
 year: 2013
+citations: 30
 bibkey: li2013coding
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1308.2218"}
-tags: ['ARXIV', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1308.2218'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Quantization', 'Applications']
 ---
 The method of random projections has become very popular for large-scale
 applications in statistical learning, information retrieval, bio-informatics

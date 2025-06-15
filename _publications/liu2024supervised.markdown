@@ -4,10 +4,11 @@ title: Supervised Hashing With Kernels
 authors: Liu W., Wang, Ji, Jiang, Chang
 conference: "Arxiv"
 year: 2024
+citations: 314
 bibkey: liu2024supervised
 additional_links:
   - {name: "Paper", url: "http://www.ee.columbia.edu/~wliu/CVPR12_ksh.pdf"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Supervised', 'Supervised']
 ---
 Recent years have witnessed the growing popularity of
 hashing in large-scale vision problems. It has been shown

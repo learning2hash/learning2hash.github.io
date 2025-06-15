@@ -4,10 +4,11 @@ title: SHREWD Semantic Hierarchy-based Relational Embeddings For Weakly-supervis
 authors: Arponen Heikki, Bishop Tom E
 conference: "Arxiv"
 year: 2019
+citations: 2
 bibkey: arponen2019shrewd
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1908.05602"}
-tags: ['ARXIV', 'Supervised', 'Weakly Supervised']
+tags: ['ARXIV', 'Supervised', 'Weakly Supervised', 'Supervised']
 ---
 Using class labels to represent class similarity is a typical approach to
 training deep hashing systems for retrieval; samples from the same or different

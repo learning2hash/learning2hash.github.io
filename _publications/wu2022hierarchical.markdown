@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hierarchical Locality Sensitive Hashing For Structured Data A Survey
-authors: Wu Wei, Li Bin
+title: 'Hierarchical Locality Sensitive Hashing For Structured Data: A Survey'
+authors: Wei Wu, Bin Li
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: wu2022hierarchical
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2204.11209"}
-tags: ['ARXIV', 'Graph', 'Independent', 'LSH', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2204.11209'}
+tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Surveys and Reviews', 'Vector Indexing', 'Survey Paper', 'Hashing', 'Applications']
 ---
 Data similarity (or distance) computation is a fundamental research topic
 which fosters a variety of similarity-based machine learning and data mining

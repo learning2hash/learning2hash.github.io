@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Semi-supervised Multimodal Hashing
-authors: Tian Dayong, Gong Maoguo, Zhou Deyun, Shi Jiao, Lei Yu
+title: 'Semi-supervised Multimodal Hashing'
+authors: Dayong Tian, Maoguo Gong, Deyun Zhou, Jiao Shi, Yu Lei
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: tian2017semi
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1712.03404"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1712.03404'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Hashing']
 ---
 Retrieving nearest neighbors across correlated data in multiple modalities,
 such as image-text pairs on Facebook and video-tag pairs on YouTube, has become

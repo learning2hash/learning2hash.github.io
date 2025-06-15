@@ -4,6 +4,7 @@ title: Cross-modal Deep Variational Hashing
 authors: Liong Venice, Lu, Tan, Zhou
 conference: "Arxiv"
 year: 2024
+citations: 61
 bibkey: liong2024cross
 additional_links:
   - {name: "Paper", url: "https://openaccess.thecvf.com/content_ICCV_2017/papers/Liong_Cross-Modal_Deep_Variational_ICCV_2017_paper.pdf"}

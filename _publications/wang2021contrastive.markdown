@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Contrastive Quantization With Code Memory For Unsupervised Image Retrieval
-authors: Wang Jinpeng, Zeng Ziyun, Chen Bin, Dai Tao, Xia Shu-tao
+title: 'Contrastive Quantization With Code Memory For Unsupervised Image Retrieval'
+authors: Jinpeng Wang, Ziyun Zeng, Bin Chen, Tao Dai, Shu-tao Xia
 conference: "Arxiv"
 year: 2021
+citations: 29
 bibkey: wang2021contrastive
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2109.05205"}
-  - {name: "Code", url: "https://github.com/gimpong/AAAI22-MeCoQ"}
-tags: ['ARXIV', 'Has Code', 'Image Retrieval', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2109.05205'}
+  - {name: "Code", url: 'https://github.com/gimpong/AAAI22-MeCoQ'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Conferences', 'Datasets', 'Vector Indexing', 'Has Code', 'Quantization', 'Hashing', 'Applications']
 ---
 The high efficiency in computation and storage makes hashing (including
 binary hashing and quantization) a common strategy in large-scale retrieval

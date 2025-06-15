@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Feature Hashing For Large Scale Multitask Learning
-authors: Weinberger Kilian, Dasgupta Anirban, Attenberg Josh, Langford John, Smola Alex
+title: 'Feature Hashing For Large Scale Multitask Learning'
+authors: Kilian Weinberger, Anirban Dasgupta, Josh Attenberg, John Langford, Alex Smola
 conference: "Arxiv"
 year: 2009
+citations: 427
 bibkey: weinberger2009feature
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0902.2206"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0902.2206'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing']
 ---
 Empirical evidence suggests that hashing is an effective strategy for
 dimensionality reduction and practical nonparametric estimation. In this paper

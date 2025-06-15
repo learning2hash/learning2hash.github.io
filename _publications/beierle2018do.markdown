@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Do You Like What I Like Similarity Estimation In Proximity-based Mobile Social Networks
-authors: Beierle Felix
+title: 'Do You Like What I Like? Similarity Estimation In Proximity-based Mobile Social Networks'
+authors: Felix Beierle
 conference: "Arxiv"
 year: 2018
+citations: 8
 bibkey: beierle2018do
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1805.07651"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1805.07651'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 While existing social networking services tend to connect people who know
 each other, people show a desire to also connect to yet unknown people in

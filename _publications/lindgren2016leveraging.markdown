@@ -4,6 +4,7 @@ title: Leveraging Sparsity For Efficient Submodular Data Summarization
 authors: Erik Lindgren, Shanshan Wu, Alexandros G. Dimakis
 conference: "Neural Information Processing Systems"
 year: 2016
+citations: 12
 bibkey: lindgren2016leveraging
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2016/hash/d43ab110ab2489d6b9b2caa394bf920f-Abstract.html"}

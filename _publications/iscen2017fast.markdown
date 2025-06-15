@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Spectral Ranking For Similarity Search
-authors: Iscen Ahmet, Avrithis Yannis, Tolias Giorgos, Furon Teddy, Chum Ondrej
+title: 'Fast Spectral Ranking For Similarity Search'
+authors: Ahmet Iscen, Yannis Avrithis, Giorgos Tolias, Teddy Furon, Ondrej Chum
 conference: "Arxiv"
 year: 2017
+citations: 27
 bibkey: iscen2017fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1703.06935"}
-tags: ['ARXIV', 'Deep Learning', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1703.06935'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets']
 ---
 Despite the success of deep learning on representing images for particular
 object retrieval, recent studies show that the learned representations still

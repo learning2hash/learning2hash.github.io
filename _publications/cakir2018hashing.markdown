@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing With Binary Matrix Pursuit
-authors: Cakir Fatih, He Kun, Sclaroff Stan
+title: 'Hashing With Binary Matrix Pursuit'
+authors: Fatih Cakir, Kun He, Stan Sclaroff
 conference: "Arxiv"
 year: 2018
+citations: 13
 bibkey: cakir2018hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1808.01990"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1808.01990'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
 ---
 We propose theoretical and empirical improvements for two-stage hashing
 methods. We first provide a theoretical analysis on the quality of the binary

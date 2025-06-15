@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sentence Embeddings And High-speed Similarity Search For Fast Computer Assisted Annotation Of Legal Documents
-authors: Westermann Hannes, Savelka Jaromir, Walker Vern R., Ashley Kevin D., Benyekhlef Karim
-conference: "Frontiers in Artificial Intelligence and Applications Volume"
+title: 'Sentence Embeddings And High-speed Similarity Search For Fast Computer Assisted Annotation Of Legal Documents'
+authors: Hannes Westermann, Jaromir Savelka, Vern R. Walker, Kevin D. Ashley, Karim Benyekhlef
+conference: "Frontiers in Artificial Intelligence and Applications Volume 334 Legal Knowledge and Information Systems 2020 pp. 164-173"
 year: 2021
+citations: 10
 bibkey: westermann2021sentence
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2112.11494"}
-tags: []
+  - {name: "Paper", url: 'https://arxiv.org/abs/2112.11494'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing']
 ---
 Human-performed annotation of sentences in legal documents is an important
 prerequisite to many machine learning based systems supporting legal tasks.

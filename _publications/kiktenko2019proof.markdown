@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Proof-of-forgery For Hash-based Signatures
-authors: Kiktenko E. O., Kudinov M. A., Bulychev A. A., Fedorov A. K.
-conference: "Proceedings of the"
+title: 'Proof-of-forgery For Hash-based Signatures'
+authors: E. O. Kiktenko, M. A. Kudinov, A. A. Bulychev, A. K. Fedorov
+conference: "Proceedings of the 18th International Conference on Security and Cryptography (SECRYPT 2021 July 6-8 2021)"
 year: 2019
+citations: 1
 bibkey: kiktenko2019proof
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.12993"}
-tags: ['AAAI', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.12993'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 In the present work, a peculiar property of hash-based signatures allowing
 detection of their forgery event is explored. This property relies on the fact

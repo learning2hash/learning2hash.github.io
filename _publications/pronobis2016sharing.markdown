@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sharing Hash Codes For Multiple Purposes
-authors: Pronobis Wikor, Panknin Danny, Kirschnick Johannes, Srinivasan Vignesh, Samek Wojciech, Markl Volker, Kaul Manohar, Mueller Klaus-robert, Nakajima Shinichi
+title: 'Sharing Hash Codes For Multiple Purposes'
+authors: Wikor Pronobis et al.
 conference: "Arxiv"
 year: 2016
+citations: 0
 bibkey: pronobis2016sharing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1609.03219"}
-tags: ['ARXIV', 'Independent', 'LSH', 'Video Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1609.03219'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 Locality sensitive hashing (LSH) is a powerful tool for sublinear-time
 approximate nearest neighbor search, and a variety of hashing schemes have been

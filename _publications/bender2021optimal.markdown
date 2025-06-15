@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On The Optimal Time/space Tradeoff For Hash Tables
-authors: Bender Michael A., Farach-colton Martín, Kuszmaul John, Kuszmaul William, Liu Mingmou
+title: 'On The Optimal Time/space Tradeoff For Hash Tables'
+authors: Michael A. Bender, Martín Farach-colton, John Kuszmaul, William Kuszmaul, Mingmou Liu
 conference: "Arxiv"
 year: 2021
+citations: 14
 bibkey: bender2021optimal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2111.00602"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2111.00602'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
 ---
 For nearly six decades, the central open question in the study of hash tables
 has been to determine the optimal achievable tradeoff curve between time and

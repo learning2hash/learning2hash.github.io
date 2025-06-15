@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Multimodal Diff-hash
-authors: Bronstein Michael M.
+title: 'Multimodal Diff-hash'
+authors: Michael M. Bronstein
 conference: "Arxiv"
 year: 2011
+citations: 0
 bibkey: bronstein2011multimodal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1111.1461"}
-tags: ['ARXIV', 'Cross Modal']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1111.1461'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Many applications require comparing multimodal data with different structure
 and dimensionality that cannot be compared directly. Recently, there has been

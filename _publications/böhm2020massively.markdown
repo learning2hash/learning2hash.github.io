@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Massively Parallel Graph Drawing And Representation Learning
-authors: Böhm Christian, Plant Claudia
-conference: "IEEE BigData"
+title: 'Massively Parallel Graph Drawing And Representation Learning'
+authors: Christian Böhm, Claudia Plant
+conference: "IEEE BigData 2020"
 year: 2020
+citations: 1
 bibkey: böhm2020massively
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2011.03479"}
-tags: ['Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2011.03479'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Model Design', 'Evaluation', 'Hashing']
 ---
 To fully exploit the performance potential of modern multi-core processors,
 machine learning and data mining algorithms for big data must be parallelized

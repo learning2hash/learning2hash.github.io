@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On The Difficulty Of Nearest Neighbor Search
-authors: He Junfeng Columbia University, Kumar Sanjiv Google Research, Chang Shih-fu Columbia University
+title: 'On The Difficulty Of Nearest Neighbor Search'
+authors: Junfeng Columbia University He, Sanjiv Google Research Kumar, Shih-fu Columbia University Chang
 conference: "Arxiv"
 year: 2012
+citations: 37
 bibkey: he2012difficulty
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1206.6411"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1206.6411'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 Fast approximate nearest neighbor (NN) search in large databases is becoming
 popular. Several powerful learning-based formulations have been proposed

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Self-supervised Adversarial Hashing Networks For Cross-modal Retrieval
-authors: Li Chao, Deng Cheng, Li Ning, Liu Wei, Gao Xinbo, Tao Dacheng
+title: 'Self-supervised Adversarial Hashing Networks For Cross-modal Retrieval'
+authors: Chao Li et al.
 conference: "Arxiv"
 year: 2018
+citations: 359
 bibkey: li2018self
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1804.01223"}
-tags: ['ARXIV', 'Cross Modal', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1804.01223'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Multi-Modal Hashing', 'Hashing']
 ---
 Thanks to the success of deep learning, cross-modal retrieval has made
 significant progress recently. However, there still remains a crucial

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Supervised Discrete Hashing And Its Analysis
-authors: Koutaki Gou, Shirai Keiichiro, Ambai Mitsuru
+title: 'Fast Supervised Discrete Hashing And Its Analysis'
+authors: Gou Koutaki, Keiichiro Shirai, Mitsuru Ambai
 conference: "Arxiv"
 year: 2016
+citations: 7
 bibkey: koutaki2016fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1611.10017"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1611.10017'}
+tags: ['Cross-Modal', 'Quantization', 'Quantisation', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
 ---
 In this paper, we propose a learning-based supervised discrete hashing
 method. Binary hashing is widely used for large-scale image retrieval as well

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: End-to-end Supervised Product Quantization For Image Search And Retrieval
-authors: Klein Benjamin, Wolf Lior
+title: 'End-to-end Supervised Product Quantization For Image Search And Retrieval'
+authors: Benjamin Klein, Lior Wolf
 conference: "Arxiv"
 year: 2017
+citations: 44
 bibkey: klein2017end
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1711.08589"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1711.08589'}
+tags: ['Cross-Modal', 'Deep', 'Supervised Hashing', 'Quantisation', 'Retrieval Models', 'Vector Indexing', 'Unsupervised Hashing', 'Quantization', 'Hashing']
 ---
 Product Quantization, a dictionary based hashing method, is one of the
 leading unsupervised hashing techniques. While it ignores the labels, it

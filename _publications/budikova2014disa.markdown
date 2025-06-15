@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: DISA At Imageclef 2014 Revised Search-based Image Annotation With Decaf Features
-authors: Budikova Petra, Botorek Jan, Batko Michal, Zezula Pavel
+title: 'DISA At Imageclef 2014 Revised: Search-based Image Annotation With Decaf Features'
+authors: Petra Budikova, Jan Botorek, Michal Batko, Pavel Zezula
 conference: "Arxiv"
 year: 2014
+citations: 5
 bibkey: budikova2014disa
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1409.4627"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1409.4627'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing']
 ---
 This paper constitutes an extension to the report on DISA-MU team
 participation in the ImageCLEF 2014 Scalable Concept Image Annotation Task as

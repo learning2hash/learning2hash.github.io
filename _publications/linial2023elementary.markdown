@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: An Elementary Proof Of The First LP Bound On The Rate Of Binary Codes
-authors: Linial Nati, Loyfer Elyassaf
+title: 'An Elementary Proof Of The First LP Bound On The Rate Of Binary Codes'
+authors: Nati Linial, Elyassaf Loyfer
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: linial2023elementary
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2303.16619"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2303.16619'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 The asymptotic rate vs. distance problem is a long-standing fundamental
 problem in coding theory. The best upper bound to date was given in 1977 and

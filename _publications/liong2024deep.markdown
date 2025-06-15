@@ -4,6 +4,7 @@ title: Deep Variational And Structural Hashing
 authors: Liong Venice, Lu, Duan, Tan
 conference: "Arxiv"
 year: 2024
+citations: 46
 bibkey: liong2024deep
 additional_links:
   - {name: "Paper", url: "http://ieeexplore.ieee.org/document/4031381/"}

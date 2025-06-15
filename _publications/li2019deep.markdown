@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Multi-index Hashing For Person Re-identification
-authors: Li Ming-wei, Jiang Qing-yuan, Li Wu-jun
+title: 'Deep Multi-index Hashing For Person Re-identification'
+authors: Ming-wei Li, Qing-yuan Jiang, Wu-jun Li
 conference: "Arxiv"
 year: 2019
+citations: 2
 bibkey: li2019deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.10980"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.10980'}
+tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Datasets', 'Supervised', 'Hashing']
 ---
 Traditional person re-identification (ReID) methods typically represent
 person images as real-valued features, which makes ReID inefficient when the

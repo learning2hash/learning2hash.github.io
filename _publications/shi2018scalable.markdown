@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Scalable Optimization Mechanism For Pairwise Based Discrete Hashing
-authors: Shi Xiaoshuang, Xing Fuyong, Zhang Zizhao, Sapkota Manish, Guo Zhenhua, Yang Lin
+title: 'A Scalable Optimization Mechanism For Pairwise Based Discrete Hashing'
+authors: Xiaoshuang Shi et al.
 conference: "Arxiv"
 year: 2018
+citations: 10
 bibkey: shi2018scalable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1811.10810"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1811.10810'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 Maintaining the pair similarity relationship among originally
 high-dimensional data into a low-dimensional binary space is a popular strategy

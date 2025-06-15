@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning Robust Hash Codes For Multiple Instance Image Retrieval
-authors: Conjeti Sailesh, Paschali Magdalini, Katouzian Amin, Navab Nassir
+title: 'Learning Robust Hash Codes For Multiple Instance Image Retrieval'
+authors: Sailesh Conjeti, Magdalini Paschali, Amin Katouzian, Nassir Navab
 conference: "Arxiv"
 year: 2017
+citations: 1
 bibkey: conjeti2017learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1703.05724"}
-tags: ['ARXIV', 'Graph', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1703.05724'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Benchmarks and Tools', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 In this paper, for the first time, we introduce a multiple instance (MI) deep
 hashing technique for learning discriminative hash codes with weak bag-level

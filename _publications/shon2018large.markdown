@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Large-scale Speaker Retrieval On Random Speaker Variability Subspace
-authors: Shon Suwon, Lee Younggun, Kim Taesu
+title: 'Large-scale Speaker Retrieval On Random Speaker Variability Subspace'
+authors: Suwon Shon, Younggun Lee, Taesu Kim
 conference: "Arxiv"
 year: 2018
+citations: 2
 bibkey: shon2018large
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1811.10812"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1811.10812'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing']
 ---
 This paper describes a fast speaker search system to retrieve segments of the
 same voice identity in the large-scale data. A recent study shows that Locality

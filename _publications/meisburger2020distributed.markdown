@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Distributed Tera-scale Similarity Search With MPI Provably Efficient Similarity Search Over Billions Without A Single Distance Computation
-authors: Meisburger Nicholas, Shrivastava Anshumali
+title: 'Distributed Tera-scale Similarity Search With MPI: Provably Efficient Similarity Search Over Billions Without A Single Distance Computation'
+authors: Nicholas Meisburger, Anshumali Shrivastava
 conference: "Arxiv"
 year: 2020
+citations: 2
 bibkey: meisburger2020distributed
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2008.03260"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2008.03260'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
 ---
 We present SLASH (Sketched LocAlity Sensitive Hashing), an MPI (Message
 Passing Interface) based distributed system for approximate similarity search

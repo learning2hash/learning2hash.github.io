@@ -4,6 +4,7 @@ title: New Hashing Algorithm For Use In TCP Reassembly Module Of IPS
 authors: Bagaria Sankalp
 conference: "Arxiv"
 year: 2015
+citations: 1
 bibkey: bagaria2015new
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1501.02062"}

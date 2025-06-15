@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Encode The Unseen Predictive Video Hashing For Scalable Mid-stream Retrieval
-authors: Yu Tong, Padoy Nicolas
+title: 'Encode The Unseen: Predictive Video Hashing For Scalable Mid-stream Retrieval'
+authors: Tong Yu, Nicolas Padoy
 conference: "Arxiv"
 year: 2020
+citations: 2
 bibkey: yu2020encode
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2009.14661"}
-tags: ['ARXIV', 'Video Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2009.14661'}
+tags: ['Model Design', 'Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
 ---
 This paper tackles a new problem in computer vision: mid-stream
 video-to-video retrieval. This task, which consists in searching a database for

@@ -4,6 +4,7 @@ title: Locality Sensitive Hashing A Comparison Of Hash Function Types And Queryi
 authors: Pauleve Loic, Jegou, Amsaleg
 conference: "Arxiv"
 year: 2024
+citations: 195
 bibkey: pauleve2024locality
 additional_links:
   - {name: "Paper", url: "https://hal.inria.fr/inria-00567191/document"}

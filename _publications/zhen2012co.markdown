@@ -4,6 +4,7 @@ title: Co-regularized Hashing For Multimodal Data
 authors: Yi Zhen, Dit-yan Yeung
 conference: "Neural Information Processing Systems"
 year: 2012
+citations: 195
 bibkey: zhen2012co
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2012/hash/5c04925674920eb58467fb52ce4ef728-Abstract.html"}

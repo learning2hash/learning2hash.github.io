@@ -4,6 +4,7 @@ title: FRESH Frechet Similarity With Hashing
 authors: Ceccarello Matteo, Driemel Anne, Silvestri Francesco
 conference: "Proc. of Algorithms and Data Structures Symposium"
 year: 2018
+citations: 6
 bibkey: ceccarello2018fresh
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1809.02350"}

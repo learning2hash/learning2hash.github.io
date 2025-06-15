@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Invariant Spectral Hashing Of Image Saliency Graph
-authors: Taquet Maxime, Jacques Laurent, De Vleeschouwer Christophe, Macq Benoit
+title: 'Invariant Spectral Hashing Of Image Saliency Graph'
+authors: Maxime Taquet, Laurent Jacques, Christophe De Vleeschouwer, Benoit Macq
 conference: "Arxiv"
 year: 2010
+citations: 1
 bibkey: taquet2010invariant
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1009.3029"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1009.3029'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Hashing', 'Applications']
 ---
 Image hashing is the process of associating a short vector of bits to an
 image. The resulting summaries are useful in many applications including image

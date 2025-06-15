@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On Binary Embedding Using Circulant Matrices
-authors: Yu Felix X., Bhaskara Aditya, Kumar Sanjiv, Gong Yunchao, Chang Shih-fu
+title: 'On Binary Embedding Using Circulant Matrices'
+authors: Felix X. Yu, Aditya Bhaskara, Sanjiv Kumar, Yunchao Gong, Shih-fu Chang
 conference: "Arxiv"
 year: 2015
+citations: 14
 bibkey: yu2015binary
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1511.06480"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1511.06480'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 Binary embeddings provide efficient and powerful ways to perform operations
 on large scale data. However binary embedding typically requires long codes in

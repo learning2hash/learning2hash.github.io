@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: An Approximate Coding-rate Versus Minimum Distance Formula For Binary Codes
-authors: Akhtman Yosef, Maunder Robert G., Hanzo Lajos
+title: 'An Approximate Coding-rate Versus Minimum Distance Formula For Binary Codes'
+authors: Yosef Akhtman, Robert G. Maunder, Lajos Hanzo
 conference: "Arxiv"
 year: 2012
+citations: 0
 bibkey: akhtman2012approximate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1206.6584"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1206.6584'}
+tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
 ---
 We devise an analytically simple as well as invertible approximate
 expression, which describes the relation between the minimum distance of a

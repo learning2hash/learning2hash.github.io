@@ -4,6 +4,7 @@ title: Model Optimization Boosting Framework For Linear Model Hash Learning
 authors: Liu Xingbo, Nie, Zhou, Nie, Yin
 conference: "Arxiv"
 year: 2024
+citations: 22
 bibkey: liu2024model
 additional_links:
   - {name: "Paper", url: "https://www.ncbi.nlm.nih.gov/pubmed/32031939"}

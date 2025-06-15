@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Hdidx High-dimensional Indexing For Efficient Approximate Nearest Neighbor Search
-authors: Wan Ji, Tang Sheng, Zhang Yongdong, Li Jintao, Wu Pengcheng, Hoi Steven C. H.
+authors: Wan Ji et al.
 conference: "Arxiv"
 year: 2015
+citations: 5
 bibkey: wan2015hdidx
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1510.01991"}

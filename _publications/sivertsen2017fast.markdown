@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Nearest Neighbor Preserving Embeddings
-authors: Sivertsen Johan
+title: 'Fast Nearest Neighbor Preserving Embeddings'
+authors: Johan Sivertsen
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: sivertsen2017fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1707.06867"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1707.06867'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing']
 ---
 We show an analog to the Fast Johnson-Lindenstrauss Transform for Nearest
 Neighbor Preserving Embeddings in \\(ℓ₂\\). These are sparse, randomized

@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: One Loss For All Deep Hashing With A Single Cosine Similarity Based Learning Objective
-authors: Hoe Jiun, Ng, Zhang, Chan Chee, Song Yi-zhe, Xiang Tao
+authors: Hoe Jiun et al.
 conference: "Arxiv"
 year: 2024
+citations: 43
 bibkey: hoe2024one
 additional_links:
   - {name: "Paper", url: "https://proceedings.neurips.cc/paper/2021/file/cbcb58ac2e496207586df2854b17995f-Paper.pdf"}

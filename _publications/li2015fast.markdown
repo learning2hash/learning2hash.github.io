@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast K-nearest Neighbour Search Via Dynamic Continuous Indexing
-authors: Li Ke, Malik Jitendra
+title: 'Fast K-nearest Neighbour Search Via Dynamic Continuous Indexing'
+authors: Ke Li, Jitendra Malik
 conference: "Arxiv"
 year: 2015
+citations: 17
 bibkey: li2015fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1512.00442"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1512.00442'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
 ---
 Existing methods for retrieving k-nearest neighbours suffer from the curse of
 dimensionality. We argue this is caused in part by inherent deficiencies of

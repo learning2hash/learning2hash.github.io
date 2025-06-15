@@ -4,6 +4,7 @@ title: Mlp-hash Protecting Face Templates Via Hashing Of Randomized Multi-layer 
 authors: Shahreza Hatef Otroshi, Hahn Vedrana Krivokuća, Marcel Sébastien
 conference: "Arxiv"
 year: 2022
+citations: 18
 bibkey: shahreza2022mlp
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2204.11054"}

@@ -4,10 +4,11 @@ title: On Hash-based Work Distribution Methods For Parallel Best-first Search
 authors: Jinnai Yuu, Fukunaga Alex
 conference: "Yuu Jinnai and Alex Fukunaga."
 year: 2017
+citations: 3
 bibkey: jinnai2017hash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1706.03254"}
-tags: ['Graph', 'Independent']
+tags: ['Graph', 'Independent', 'Independent']
 ---
 Parallel best-first search algorithms such as Hash Distributed A* (HDA*)
 distribute work among the processes using a global hash function. We analyze

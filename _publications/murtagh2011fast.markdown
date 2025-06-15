@@ -4,6 +4,7 @@ title: Fast Linear Time M-adic Hierarchical Clustering For Search And Retrieval 
 authors: Murtagh Fionn, Contreras Pedro
 conference: "P-Adic Numbers Ultrametric Analysis and Applications"
 year: 2011
+citations: 6
 bibkey: murtagh2011fast
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1111.6254"}

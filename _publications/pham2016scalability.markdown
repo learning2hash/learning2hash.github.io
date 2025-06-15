@@ -1,18 +1,19 @@
 ---
 layout: publication
-title: Scalability And Total Recall With Fast Coveringlsh
-authors: Pham Ninh, Pagh Rasmus
+title: 'Scalability And Total Recall With Fast Coveringlsh'
+authors: Ninh Pham, Rasmus Pagh
 conference: "Arxiv"
 year: 2016
+citations: 9
 bibkey: pham2016scalability
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1602.02620"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1602.02620'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
 ---
 Locality-sensitive hashing (LSH) has emerged as the dominant algorithmic
 technique for similarity search with strong performance guarantees in
 high-dimensional spaces. A drawback of traditional LSH schemes is that they may
-have *false negatives*, i.e., the recall is less than 100\%. This limits
+have *false negatives*, i.e., the recall is less than 100%. This limits
 the applicability of LSH in settings requiring precise performance guarantees.
 Building on the recent theoretical "CoveringLSH" construction that eliminates
 false negatives, we propose a fast and practical covering LSH scheme for

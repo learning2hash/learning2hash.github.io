@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Multiple Code Hashing For Efficient Image Retrieval
-authors: Li Ming-wei, Jiang Qing-yuan, Li Wu-jun
+title: 'Multiple Code Hashing For Efficient Image Retrieval'
+authors: Ming-wei Li, Qing-yuan Jiang, Wu-jun Li
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: li2020multiple
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2008.01503"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2008.01503'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Due to its low storage cost and fast query speed, hashing has been widely
 used in large-scale image retrieval tasks. Hash bucket search returns data

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Improved Residual Vector Quantization For High-dimensional Approximate Nearest Neighbor Search
-authors: Liu Shicong, Lu Hongtao, Shao Junru
+title: 'Improved Residual Vector Quantization For High-dimensional Approximate Nearest Neighbor Search'
+authors: Shicong Liu, Hongtao Lu, Junru Shao
 conference: "Arxiv"
 year: 2015
+citations: 2
 bibkey: liu2015improved
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1509.05195"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1509.05195'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization']
 ---
 Quantization methods have been introduced to perform large scale approximate
 nearest search tasks. Residual Vector Quantization (RVQ) is one of the

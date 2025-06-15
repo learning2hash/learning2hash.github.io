@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Individual Displacements In Hashing With Coalesced Chains
-authors: Janson Svante
+title: 'Individual Displacements In Hashing With Coalesced Chains'
+authors: Svante Janson
 conference: "Arxiv"
 year: 2005
+citations: 0
 bibkey: janson2005individual
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/math/0502232"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/math/0502232'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 We study the asymptotic distribution of the displacements in hashing with
 coalesced chains, for both late-insertion and early-insertion. Asymptotic

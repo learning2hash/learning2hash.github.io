@@ -4,6 +4,7 @@ title: Learning Hash Functions Using Column Generation
 authors: Li X., Lin, Shen, Hengel, Dick
 conference: "Arxiv"
 year: 2024
+citations: 93
 bibkey: li2024learning
 additional_links:
   - {name: "Paper", url: "http://www.jmlr.org/proceedings/papers/v28/li13a.pdf"}

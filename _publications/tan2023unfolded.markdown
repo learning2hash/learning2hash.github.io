@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unfolded Self-reconstruction LSH Towards Machine Unlearning In Approximate Nearest Neighbour Search
-authors: Tan Kim Yong, Lyu Yueming, Ong Yew Soon, Tsang Ivor W.
+title: 'Unfolded Self-reconstruction LSH: Towards Machine Unlearning In Approximate Nearest Neighbour Search'
+authors: Kim Yong Tan, Yueming Lyu, Yew Soon Ong, Ivor W. Tsang
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: tan2023unfolded
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2304.02350"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2304.02350'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Approximate nearest neighbour (ANN) search is an essential component of
 search engines, recommendation systems, etc. Many recent works focus on

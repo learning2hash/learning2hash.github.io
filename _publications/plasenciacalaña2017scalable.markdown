@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Scalable Prototype Selection By Genetic Algorithms And Hashing
-authors: Plasencia-calaña Yenisel, Orozco-alzate Mauricio, Méndez-vázquez Heydi, García-reyes Edel, Duin Robert P. W.
+title: 'Scalable Prototype Selection By Genetic Algorithms And Hashing'
+authors: Yenisel Plasencia-calaña, Mauricio Orozco-alzate, Heydi Méndez-vázquez, Edel García-reyes, Robert P. W. Duin
 conference: "Arxiv"
 year: 2017
+citations: 1
 bibkey: plasenciacalaña2017scalable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1712.09277"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1712.09277'}
+tags: ['Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Supervised', 'Hashing']
 ---
 Classification in the dissimilarity space has become a very active research
 area since it provides a possibility to learn from data given in the form of

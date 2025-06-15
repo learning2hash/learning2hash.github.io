@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Making Online Sketching Hashing Even Faster
-authors: Chen Xixian, Yang Haiqin, Zhao Shenglin, Lyu Michael R., King Irwin
-conference: "IEEE Transactions on Knowledge and Data Engineering"
+title: 'Making Online Sketching Hashing Even Faster'
+authors: Xixian Chen, Haiqin Yang, Shenglin Zhao, Michael R. Lyu, Irwin King
+conference: "IEEE Transactions on Knowledge and Data Engineering 2019"
 year: 2020
+citations: 13
 bibkey: chen2020making
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2010.04948"}
-tags: ['Streaming Data', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2010.04948'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Data-dependent hashing methods have demonstrated good performance in various
 machine learning applications to learn a low-dimensional representation from

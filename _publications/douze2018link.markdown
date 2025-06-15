@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Link And Code Fast Indexing With Graphs And Compact Regression Codes
-authors: Douze Matthijs, Sablayrolles Alexandre, Jégou Hervé
+title: 'Link And Code: Fast Indexing With Graphs And Compact Regression Codes'
+authors: Matthijs Douze, Alexandre Sablayrolles, Hervé Jégou
 conference: "Arxiv"
 year: 2018
+citations: 21
 bibkey: douze2018link
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1804.09996"}
-tags: ['ARXIV', 'Graph', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1804.09996'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Compression', 'Graph-Based Methods', 'Quantization']
 ---
 Similarity search approaches based on graph walks have recently attained
 outstanding speed-accuracy trade-offs, taking aside the memory requirements. In

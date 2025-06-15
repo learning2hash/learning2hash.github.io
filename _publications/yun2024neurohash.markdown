@@ -4,10 +4,11 @@ title: Neurohash A Hyperdimensional Neuro-symbolic Framework For Spatially-aware
 authors: Yun Sanggeon, Masukawa Ryozo, Jeong Sungheon, Imani Mohsen
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: yun2024neurohash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2404.11025"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Supervised', 'Self-Supervised']
 ---
 Customizable image retrieval from large datasets remains a critical
 challenge, particularly when preserving spatial relationships within images.

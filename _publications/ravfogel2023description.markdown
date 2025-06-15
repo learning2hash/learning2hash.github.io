@@ -4,6 +4,7 @@ title: Description-based Text Similarity
 authors: Ravfogel Shauli, Pyatkin Valentina, Cohen Amir Dn, Manevich Avshalom, Goldberg Yoav
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: ravfogel2023description
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2305.12517"}

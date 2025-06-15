@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Multi-modal Neural Embeddings Approach For Detecting Mobile Counterfeit Apps A Case Study On Google Play Store
-authors: Karunanayake Naveen, Rajasegaran Jathushan, Gunathillake Ashanie, Seneviratne Suranga, Jourjon Guillaume
+title: 'A Multi-modal Neural Embeddings Approach For Detecting Mobile Counterfeit Apps: A Case Study On Google Play Store'
+authors: Naveen Karunanayake, Jathushan Rajasegaran, Ashanie Gunathillake, Suranga Seneviratne, Guillaume Jourjon
 conference: "Arxiv"
 year: 2020
+citations: 7
 bibkey: karunanayake2020multi
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2006.02231"}
-tags: ['ARXIV', 'Case Study', 'Deep Learning']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2006.02231'}
+tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Evaluation', 'Datasets', 'Hashing']
 ---
 Counterfeit apps impersonate existing popular apps in attempts to misguide
 users to install them for various reasons such as collecting personal

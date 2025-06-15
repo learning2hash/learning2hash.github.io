@@ -4,10 +4,11 @@ title: Neighborhood Preserving Hashing For Scalable Video Retrieval
 authors: Li Shuyan, Chen, Lu, Li, Zhou
 conference: "Arxiv"
 year: 2024
+citations: 23
 bibkey: li2024neighborhood
 additional_links:
   - {name: "Paper", url: "https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Neighborhood_Preserving_Hashing_for_Scalable_Video_Retrieval_ICCV_2019_paper.pdf"}
-tags: ['ARXIV', 'Unsupervised', 'Video Retrieval']
+tags: ['ARXIV', 'Unsupervised', 'Video Retrieval', 'Supervised']
 ---
 In this paper, we propose a Neighborhood Preserving
 Hashing (NPH) method for scalable video retrieval in an

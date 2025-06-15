@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Effective Protocols For Low-distance File Synchronization
-authors: Chuklin Aleksandr
+title: 'Effective Protocols For Low-distance File Synchronization'
+authors: Aleksandr Chuklin
 conference: "Arxiv"
 year: 2011
+citations: 6
 bibkey: chuklin2011effective
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1102.4712"}
-tags: ['ARXIV', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1102.4712'}
+tags: ['Deep', 'Quantisation', 'Unimodal', 'Evaluation', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
 ---
 Suppose that we have two similar files stored on different computers. We need
 to send the file from the first computer to the second one trying to minimize

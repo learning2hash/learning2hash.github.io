@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning To Embed Semantic Similarity For Joint Image-text Retrieval
-authors: Malali Noam, Keller Yosi
+title: 'Learning To Embed Semantic Similarity For Joint Image-text Retrieval'
+authors: Noam Malali, Yosi Keller
 conference: "Arxiv"
 year: 2022
+citations: 7
 bibkey: malali2022learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2210.03838"}
-tags: ['ARXIV', 'Cross Modal', 'Deep Learning', 'Quantisation', 'Text Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2210.03838'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Datasets', 'Quantization', 'Similarity Learning']
 ---
 We present a deep learning approach for learning the joint semantic
 embeddings of images and captions in a Euclidean space, such that the semantic

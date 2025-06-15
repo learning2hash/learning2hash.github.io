@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: On The Maximal Independent Sets Of k-mers With The Edit Distance
-authors: Ma Leran, Chen Ke, Shao Mingfu
+title: 'On The Maximal Independent Sets Of \(k\)-mers With The Edit Distance'
+authors: Leran Ma, Ke Chen, Mingfu Shao
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: ma2023maximal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2303.10926"}
-  - {name: "Code", url: "https://github.com/Shao-Group/kmerspace"}
-tags: ['ARXIV', 'Graph', 'Has Code', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2303.10926'}
+  - {name: "Code", url: 'https://github.com/Shao-Group/kmerspace'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Has Code', 'Hashing', 'Applications']
 ---
 In computational biology, \\(k\\)-mers and edit distance are fundamental
 concepts. However, little is known about the metric space of all \\(k\\)-mers

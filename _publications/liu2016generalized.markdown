@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Generalized Residual Vector Quantization For Large Scale Data
-authors: Liu Shicong, Shao Junru, Lu Hongtao
+title: 'Generalized Residual Vector Quantization For Large Scale Data'
+authors: Shicong Liu, Junru Shao, Hongtao Lu
 conference: "Arxiv"
 year: 2016
+citations: 1
 bibkey: liu2016generalized
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1609.05345"}
-tags: ['ARXIV', 'Quantisation', 'Supervised', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1609.05345'}
+tags: ['Quantisation', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Surveys and Reviews', 'Quantization', 'Survey Paper']
 ---
 Vector quantization is an essential tool for tasks involving large scale
 data, for example, large scale similarity search, which is crucial for

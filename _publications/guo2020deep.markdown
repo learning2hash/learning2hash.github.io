@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Kernel Supervised Hashing For Node Classification In Structural Networks
-authors: Guo Jia-nan, Mao Xian-ling, Lin Shu-yang, Wei Wei, Huang Heyan
+title: 'Deep Kernel Supervised Hashing For Node Classification In Structural Networks'
+authors: Jia-nan Guo, Xian-ling Mao, Shu-yang Lin, Wei Wei, Heyan Huang
 conference: "Arxiv"
 year: 2020
+citations: 5
 bibkey: guo2020deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2010.13582"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2010.13582'}
+tags: ['Cross-Modal', 'Shallow', 'Hashing', 'Datasets', 'Vector Indexing', 'Supervised', 'Supervised Hashing', 'Applications']
 ---
 Node classification in structural networks has been proven to be useful in
 many real world applications. With the development of network embedding, the

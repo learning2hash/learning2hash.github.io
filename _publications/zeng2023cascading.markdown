@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Cascading Hierarchical Networks With Multi-task Balanced Loss For Fine-grained Hashing
-authors: Zeng Xianxian, Zheng Yanjun
+title: 'Cascading Hierarchical Networks With Multi-task Balanced Loss For Fine-grained Hashing'
+authors: Xianxian Zeng, Yanjun Zheng
 conference: "Arxiv"
 year: 2023
+citations: 2
 bibkey: zeng2023cascading
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2303.11274"}
-  - {name: "Code", url: "https://github.com/kaiba007/FG-CNET"}
-tags: ['ARXIV', 'Has Code', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2303.11274'}
+  - {name: "Code", url: 'https://github.com/kaiba007/FG-CNET'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Hashing']
 ---
 With the explosive growth in the number of fine-grained images in the
 Internet era, it has become a challenging problem to perform fast and efficient

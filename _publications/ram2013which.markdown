@@ -4,6 +4,7 @@ title: Which Space Partitioning Tree To Use For Search
 authors: Parikshit Ram, Alexander Gray
 conference: "Neural Information Processing Systems"
 year: 2013
+citations: 22
 bibkey: ram2013which
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2013/hash/a01a0380ca3c61428c26a231f0e49a09-Abstract.html"}

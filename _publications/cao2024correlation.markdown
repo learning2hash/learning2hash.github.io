@@ -4,10 +4,11 @@ title: Correlation Autoencoder Hashing For Supervised Cross-modal Search
 authors: Cao Yue, Long, Wang, Zhu
 conference: "Arxiv"
 year: 2024
+citations: 74
 bibkey: cao2024correlation
 additional_links:
   - {name: "Paper", url: "http://yue-cao.me/doc/correlation-autoencoder-hashing-cah-icmr16.pdf"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+tags: ['ARXIV', 'Cross Modal', 'Supervised', 'Supervised']
 ---
 Due to its storage and query efficiency, hashing has been widely
 applied to approximate nearest neighbor search from large-scale

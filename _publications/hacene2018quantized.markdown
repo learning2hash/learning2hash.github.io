@@ -4,6 +4,7 @@ title: Quantized Guided Pruning For Efficient Hardware Implementations Of Convol
 authors: Hacene Ghouthi Boukli Elec, Gripon Vincent Elec, Arzel Matthieu Elec, Farrugia Nicolas Elec, Bengio Yoshua Diro
 conference: "Arxiv"
 year: 2018
+citations: 14
 bibkey: hacene2018quantized
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1812.11337"}

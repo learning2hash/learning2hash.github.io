@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Nearest Keyword Set Search In Multi-dimensional Datasets
-authors: Singh Vishwakarma, Singh Ambuj K.
+title: 'Nearest Keyword Set Search In Multi-dimensional Datasets'
+authors: Vishwakarma Singh, Ambuj K. Singh
 conference: "Arxiv"
 year: 2014
+citations: 8
 bibkey: singh2014nearest
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1409.3867"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1409.3867'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Keyword-based search in text-rich multi-dimensional datasets facilitates many
 novel applications and tools. In this paper, we consider objects that are

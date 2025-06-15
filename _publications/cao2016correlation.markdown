@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Correlation Hashing Network For Efficient Cross-modal Retrieval
-authors: Cao Yue, Long Mingsheng, Wang Jianmin, Yu Philip S.
+title: 'Correlation Hashing Network For Efficient Cross-modal Retrieval'
+authors: Yue Cao, Mingsheng Long, Jianmin Wang, Philip S. Yu
 conference: "Arxiv"
 year: 2016
+citations: 32
 bibkey: cao2016correlation
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1602.06697"}
-tags: ['ARXIV', 'Cross Modal', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1602.06697'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Vector Indexing', 'Quantization', 'Multi-Modal Hashing', 'Hashing']
 ---
 Hashing is widely applied to approximate nearest neighbor search for
 large-scale multimodal retrieval with storage and computation efficiency.

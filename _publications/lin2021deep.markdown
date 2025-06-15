@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Self-adaptive Hashing For Image Retrieval
-authors: Lin Qinghong, Chen Xiaojun, Zhang Qin, Tian Shangxuan, Chen Yudong
+title: 'Deep Self-adaptive Hashing For Image Retrieval'
+authors: Qinghong Lin, Xiaojun Chen, Qin Zhang, Shangxuan Tian, Yudong Chen
 conference: "Arxiv"
 year: 2021
+citations: 11
 bibkey: lin2021deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2108.07094"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2108.07094'}
+tags: ['Cross-Modal', 'Deep', 'Supervised Hashing', 'Efficiency', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Unsupervised Hashing', 'Deep Hashing', 'Supervised', 'Hashing', 'Applications']
 ---
 Hashing technology has been widely used in image retrieval due to its
 computational and storage efficiency. Recently, deep unsupervised hashing

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locality-sensitive Hashing Without False Negatives For L_p
-authors: Pacuk Andrzej, Sankowski Piotr, Wegrzycki Karol, Wygocki Piotr
-conference: "Computing and Combinatorics -"
+title: 'Locality-sensitive Hashing Without False Negatives For L_p'
+authors: Andrzej Pacuk, Piotr Sankowski, Karol Wegrzycki, Piotr Wygocki
+conference: "Computing and Combinatorics - 22nd International Conference COCOON 2016 Ho Chi Minh City Vietnam August 2-4 2016 Proceedings pages 105--118"
 year: 2016
+citations: 20
 bibkey: pacuk2016locality
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1611.09317"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1611.09317'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 In this paper, we show a construction of locality-sensitive hash functions
 without false negatives, i.e., which ensure collision for every pair of points

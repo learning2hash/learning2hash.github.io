@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fixed-length Protein Embeddings Using Contextual Lenses
-authors: Shanehsazzadeh Amir, Belanger David, Dohan David
+title: 'Fixed-length Protein Embeddings Using Contextual Lenses'
+authors: Amir Shanehsazzadeh, David Belanger, David Dohan
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: shanehsazzadeh2020fixed
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2010.15065"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2010.15065'}
+tags: ['Cross-Modal', 'Deep', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 The Basic Local Alignment Search Tool (BLAST) is currently the most popular
 method for searching databases of biological sequences. BLAST compares

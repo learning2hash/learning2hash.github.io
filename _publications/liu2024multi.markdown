@@ -4,6 +4,7 @@ title: Multi-view Complementary Hash Tables For Nearest Neighbor Search
 authors: Liu Xianglong, Huang, Deng, Land
 conference: "Arxiv"
 year: 2024
+citations: 34
 bibkey: liu2024multi
 additional_links:
   - {name: "Paper", url: "http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Multi-View_Complementary_Hash_ICCV_2015_paper.pdf"}

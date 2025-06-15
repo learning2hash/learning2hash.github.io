@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Attribute-aware Deep Hashing With Self-consistency For Large-scale Fine-grained Image Retrieval
-authors: Wei Xiu-shen, Shen Yang, Sun Xuhao, Wang Peng, Peng Yuxin
+title: 'Attribute-aware Deep Hashing With Self-consistency For Large-scale Fine-grained Image Retrieval'
+authors: Xiu-shen Wei, Yang Shen, Xuhao Sun, Peng Wang, Yuxin Peng
 conference: "Arxiv"
 year: 2023
+citations: 13
 bibkey: wei2023attribute
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2311.12894"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2311.12894'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Hashing', 'Applications']
 ---
 Our work focuses on tackling large-scale fine-grained image retrieval as
 ranking the images depicting the concept of interests (i.e., the same

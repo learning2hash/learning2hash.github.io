@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Scalable Blocking For Very Large Databases
-authors: Borthwick Andrew, Ash Stephen, Pang Bin, Qureshi Shehzad, Jones Timothy
+title: 'Scalable Blocking For Very Large Databases'
+authors: Andrew Borthwick, Stephen Ash, Bin Pang, Shehzad Qureshi, Timothy Jones
 conference: "Arxiv"
 year: 2020
+citations: 1
 bibkey: borthwick2020scalable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2008.08285"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2008.08285'}
+tags: ['Unimodal', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
 ---
 In the field of database deduplication, the goal is to find approximately
 matching records within a database. Blocking is a typical stage in this process

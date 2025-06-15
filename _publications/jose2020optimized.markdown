@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Optimized Feature Space Learning For Generating Efficient Binary Codes For Image Retrieval
-authors: Jose Abin, Ottlik Erik Stefan, Rohlfing Christian, Ohm Jens-rainer
+title: 'Optimized Feature Space Learning For Generating Efficient Binary Codes For Image Retrieval'
+authors: Abin Jose, Erik Stefan Ottlik, Christian Rohlfing, Jens-rainer Ohm
 conference: "Arxiv"
 year: 2020
+citations: 4
 bibkey: jose2020optimized
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2001.11400"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2001.11400'}
+tags: ['Cross-Modal', 'Quantization', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 In this paper we propose an approach for learning low dimensional optimized
 feature space with minimum intra-class variance and maximum inter-class

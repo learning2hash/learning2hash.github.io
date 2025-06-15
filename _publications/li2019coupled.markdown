@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Coupled Cyclegan Unsupervised Hashing Network For Cross-modal Retrieval
-authors: Li Chao, Deng Cheng, Wang Lei, Xie De, Liu Xianglong
+title: 'Coupled Cyclegan: Unsupervised Hashing Network For Cross-modal Retrieval'
+authors: Chao Li, Cheng Deng, Lei Wang, De Xie, Xianglong Liu
 conference: "Arxiv"
 year: 2019
+citations: 88
 bibkey: li2019coupled
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1903.02149"}
-tags: ['ARXIV', 'Cross Modal', 'Deep Learning', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1903.02149'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Multi-Modal Hashing', 'Supervised Hashing']
 ---
 In recent years, hashing has attracted more and more attention owing to its
 superior capacity of low storage cost and high query efficiency in large-scale

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: One Loss For Quantization Deep Hashing With Discrete Wasserstein Distributional Matching
-authors: Doan Khoa D., Yang Peng, Li Ping
+title: 'One Loss For Quantization: Deep Hashing With Discrete Wasserstein Distributional Matching'
+authors: Khoa D. Doan, Peng Yang, Ping Li
 conference: "Arxiv"
 year: 2022
+citations: 39
 bibkey: doan2022one
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2205.15721"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2205.15721'}
+tags: ['Cross-Modal', 'Deep', 'Supervised Hashing', 'Quantisation', 'Retrieval Models', 'Vector Indexing', 'Deep Hashing', 'Quantization', 'Hashing']
 ---
 Image hashing is a principled approximate nearest neighbor approach to find
 similar items to a query in a large collection of images. Hashing aims to learn

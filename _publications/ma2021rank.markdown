@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Rank-consistency Deep Hashing For Scalable Multi-label Image Search
-authors: Ma Cheng, Lu Jiwen, Zhou Jie
-conference: "IEEE Transactions on Multimedia"
+title: 'Rank-consistency Deep Hashing For Scalable Multi-label Image Search'
+authors: Cheng Ma, Jiwen Lu, Jie Zhou
+conference: "IEEE Transactions on Multimedia 2020"
 year: 2021
+citations: 13
 bibkey: ma2021rank
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2102.01486"}
-tags: ['Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2102.01486'}
+tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing']
 ---
 As hashing becomes an increasingly appealing technique for large-scale image
 retrieval, multi-label hashing is also attracting more attention for the

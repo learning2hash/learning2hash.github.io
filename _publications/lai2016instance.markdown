@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Instance-aware Hashing For Multi-label Image Retrieval
-authors: Lai Hanjiang, Yan Pan, Shu Xiangbo, Wei Yunchao, Yan Shuicheng
+title: 'Instance-aware Hashing For Multi-label Image Retrieval'
+authors: Hanjiang Lai, Pan Yan, Xiangbo Shu, Yunchao Wei, Shuicheng Yan
 conference: "Arxiv"
 year: 2016
+citations: 118
 bibkey: lai2016instance
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1603.03234"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1603.03234'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Evaluation', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Supervised Hashing', 'Applications']
 ---
 Similarity-preserving hashing is a commonly used method for nearest neighbour
 search in large-scale image retrieval. For image retrieval, deep-networks-based

@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Badhash Invisible Backdoor Attacks Against Deep Hashing With Clean Label
-authors: Hu Shengshan, Zhou Ziqi, Zhang Yechao, Zhang Leo Yu, Zheng Yifeng, He Yuanyuan, Jin Hai
+authors: Hu Shengshan et al.
 conference: "Arxiv"
 year: 2022
+citations: 23
 bibkey: hu2022badhash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2207.00278"}

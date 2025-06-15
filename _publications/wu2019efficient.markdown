@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Inner Product Approximation In Hybrid Spaces
-authors: Wu Xiang, Guo Ruiqi, Simcha David, Dopson Dave, Kumar Sanjiv
+title: 'Efficient Inner Product Approximation In Hybrid Spaces'
+authors: Xiang Wu, Ruiqi Guo, David Simcha, Dave Dopson, Sanjiv Kumar
 conference: "Arxiv"
 year: 2019
+citations: 7
 bibkey: wu2019efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1903.08690"}
-tags: ['ARXIV', 'Cross Modal', 'LSH', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1903.08690'}
+tags: ['Cross-Modal', 'Efficiency', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
 ---
 Many emerging use cases of data mining and machine learning operate on large
 datasets with data from heterogeneous sources, specifically with both sparse

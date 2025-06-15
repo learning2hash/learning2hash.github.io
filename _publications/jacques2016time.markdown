@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Time For Dithering Fast And Quantized Random Embeddings Via The Restricted Isometry Property
-authors: Jacques Laurent, Cambareri Valerio
+title: 'Time For Dithering: Fast And Quantized Random Embeddings Via The Restricted Isometry Property'
+authors: Laurent Jacques, Valerio Cambareri
 conference: "Arxiv"
 year: 2016
+citations: 19
 bibkey: jacques2016time
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1607.00816"}
-tags: ['ARXIV', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1607.00816'}
+tags: ['Cross-Modal', 'Quantisation', 'Shallow', 'Compression', 'Quantization']
 ---
 Recently, many works have focused on the characterization of non-linear
 dimensionality reduction methods obtained by quantizing linear embeddings,

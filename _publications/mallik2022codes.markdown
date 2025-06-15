@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Codes From Incidence Matrices Of Hypergraphs
-authors: Mallik Sudipta, Yildiz Bahattin
+title: 'Codes From Incidence Matrices Of Hypergraphs'
+authors: Sudipta Mallik, Bahattin Yildiz
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: mallik2022codes
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2210.06733"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2210.06733'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Binary codes are constructed from incidence matrices of hypergraphs. A
 combinatroial description is given for the minimum distances of such codes via

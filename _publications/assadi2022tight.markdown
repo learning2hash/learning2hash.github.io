@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Tight Bounds For Monotone Minimal Perfect Hashing
-authors: Assadi Sepehr, Farach-colton Martin, Kuszmaul William
+title: 'Tight Bounds For Monotone Minimal Perfect Hashing'
+authors: Sepehr Assadi, Martin Farach-colton, William Kuszmaul
 conference: "Arxiv"
 year: 2022
+citations: 2
 bibkey: assadi2022tight
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2207.10556"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2207.10556'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 The monotone minimal perfect hash function (MMPHF) problem is the following
 indexing problem. Given a set \\(S= \\{s_1,\ldots,s_n\\}\\) of \\(n\\) distinct keys from

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Neural Locality Sensitive Hashing For Entity Blocking
-authors: Wang Runhui, Kong Luyang, Tao Yefan, Borthwick Andrew, Golac Davor, Johnson Henrik, Hijazi Shadie, Deng Dong, Zhang Yongfeng
+title: 'Neural Locality Sensitive Hashing For Entity Blocking'
+authors: Runhui Wang et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: wang2024neural
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2401.18064"}
-tags: ['ARXIV', 'LSH', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2401.18064'}
+tags: ['Deep', 'Unimodal', 'Evaluation', 'Datasets', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Locality-sensitive hashing (LSH) is a fundamental algorithmic technique
 widely employed in large-scale data processing applications, such as

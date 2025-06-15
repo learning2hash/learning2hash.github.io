@@ -4,6 +4,7 @@ title: Avscan2vec Feature Learning On Antivirus Scan Data For Production-scale M
 authors: Joyce Robert J., Patel Tirth, Nicholas Charles, Raff Edward
 conference: "Arxiv"
 year: 2023
+citations: 2
 bibkey: joyce2023feature
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2306.06228"}

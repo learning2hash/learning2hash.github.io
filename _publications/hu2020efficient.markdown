@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Approximate Nearest Neighbor Search For Multiple Weighted l_pleq2 Distance Functions
-authors: Hu Huan, Li Jianzhong
+title: 'Efficient Approximate Nearest Neighbor Search For Multiple Weighted \(l_{p\leq2}\) Distance Functions'
+authors: Huan Hu, Jianzhong Li
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: hu2020efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2011.11907"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2011.11907'}
+tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Nearest neighbor search is fundamental to a wide range of applications. Since
 the exact nearest neighbor search suffers from the "curse of dimensionality",

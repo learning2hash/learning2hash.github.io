@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locally Uniform Hashing
-authors: Bercea Ioana O., Beretta Lorenzo, Klausen Jonas, Houen Jakob Bæk Tejs, Thorup Mikkel
+title: 'Locally Uniform Hashing'
+authors: Ioana O. Bercea, Lorenzo Beretta, Jonas Klausen, Jakob Bæk Tejs Houen, Mikkel Thorup
 conference: "Arxiv"
 year: 2023
+citations: 3
 bibkey: bercea2023locally
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2308.14134"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2308.14134'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Hashing is a common technique used in data processing, with a strong impact
 on the time and resources spent on computation. Hashing also affects the

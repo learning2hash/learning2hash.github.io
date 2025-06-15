@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Cross-modal Hashing With Hashing Functions And Unified Hash Codes Jointly Learning
-authors: Tu Rong-cheng, Mao Xian-ling, Ma Bing, Hu Yong, Yan Tan, Wei Wei, Huang Heyan
+title: 'Deep Cross-modal Hashing With Hashing Functions And Unified Hash Codes Jointly Learning'
+authors: Rong-cheng Tu et al.
 conference: "Arxiv"
 year: 2019
+citations: 56
 bibkey: tu2019deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1907.12490"}
-tags: ['ARXIV', 'Cross Modal', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1907.12490'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 Due to their high retrieval efficiency and low storage cost, cross-modal
 hashing methods have attracted considerable attention. Generally, compared with

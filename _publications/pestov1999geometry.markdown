@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On The Geometry Of Similarity Search Dimensionality Curse And Concentration Of Measure
-authors: Pestov Vladimir
-conference: "Information Processing Letters"
+title: 'On The Geometry Of Similarity Search: Dimensionality Curse And Concentration Of Measure'
+authors: Vladimir Pestov
+conference: "Information Processing Letters 73 (2000) 47-51"
 year: 1999
+citations: 66
 bibkey: pestov1999geometry
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/9901004"}
-tags: ['NEURIPS']
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/9901004'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets']
 ---
 We suggest that the curse of dimensionality affecting the similarity-based
 search in large datasets is a manifestation of the phenomenon of concentration

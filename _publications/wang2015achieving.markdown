@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Achieving Arbitrary Locality And Availability In Binary Codes
-authors: Wang Anyu, Zhang Zhifang
+title: 'Achieving Arbitrary Locality And Availability In Binary Codes'
+authors: Anyu Wang, Zhifang Zhang
 conference: "Arxiv"
 year: 2015
+citations: 63
 bibkey: wang2015achieving
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1501.04264"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1501.04264'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 The \\(i\\)th coordinate of an \\((n,k)\\) code is said to have locality \\(r\\) and
 availability \\(t\\) if there exist \\(t\\) disjoint groups, each containing at most

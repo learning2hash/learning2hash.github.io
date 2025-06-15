@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Functional Hashing For Compressing Neural Networks
-authors: Shi Lei, Feng Shikun, Zhu Zhifan
+title: 'Functional Hashing For Compressing Neural Networks'
+authors: Lei Shi, Shikun Feng, Zhifan Zhu
 conference: "Arxiv"
 year: 2016
+citations: 1
 bibkey: shi2016functional
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1605.06560"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1605.06560'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Compression', 'Datasets', 'Hashing', 'Applications']
 ---
 As the complexity of deep neural networks (DNNs) trend to grow to absorb the
 increasing sizes of data, memory and energy consumption has been receiving more

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing-accelerated Graph Neural Networks For Link Prediction
-authors: Wu Wei, Li Bin, Luo Chuan, Nejdl Wolfgang
-conference: "The Web Conference"
+title: 'Hashing-accelerated Graph Neural Networks For Link Prediction'
+authors: Wei Wu, Bin Li, Chuan Luo, Wolfgang Nejdl
+conference: "The Web Conference 2021"
 year: 2021
+citations: 28
 bibkey: wu2021hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2105.14280"}
-tags: ['Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2105.14280'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 Networks are ubiquitous in the real world. Link prediction, as one of the key
 problems for network-structured data, aims to predict whether there exists a

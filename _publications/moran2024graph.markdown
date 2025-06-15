@@ -4,6 +4,7 @@ title: Graph Regularised Hashing
 authors: Moran S., Lavrenko
 conference: "Arxiv"
 year: 2024
+citations: 2
 bibkey: moran2024graph
 additional_links:
   - {name: "Paper", url: "http://seanjmoran.com/pdfs/grh_ecir15.pdf"}

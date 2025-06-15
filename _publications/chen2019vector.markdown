@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Vector And Line Quantization For Billion-scale Similarity Search On Gpus
-authors: Chen Wei, Chen Jincai, Zou Fuhao, Li Yuan-fang, Lu Ping, Wang Qiang, Zhao Wei
+title: 'Vector And Line Quantization For Billion-scale Similarity Search On Gpus'
+authors: Wei Chen et al.
 conference: "Arxiv"
 year: 2019
+citations: 5
 bibkey: chen2019vector
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1901.00275"}
-  - {name: "Code", url: "https://github.com/zjuchenwei/vector-line-quantization"}
-tags: ['ARXIV', 'Has Code', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1901.00275'}
+  - {name: "Code", url: 'https://github.com/zjuchenwei/vector-line-quantization'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Benchmarks and Tools', 'Evaluation', 'Efficiency', 'Datasets', 'Vector Indexing', 'Has Code', 'Quantization']
 ---
 Billion-scale high-dimensional approximate nearest neighbour (ANN) search has
 become an important problem for searching similar objects among the vast amount

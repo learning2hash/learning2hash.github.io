@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Transhash Transformer-based Hamming Hashing For Efficient Image Retrieval
-authors: Chen Yongbiao, Zhang Sheng, Liu Fangxin, Chang Zhigang, Ye Mang, Qi Zhengwei
+authors: Chen Yongbiao et al.
 conference: "Arxiv"
 year: 2021
+citations: 40
 bibkey: chen2021transhash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2105.01823"}

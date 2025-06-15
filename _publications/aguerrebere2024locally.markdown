@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locally-adaptive Quantization For Streaming Vector Search
-authors: Aguerrebere Cecilia, Hildebrand Mark, Bhati Ishwar Singh, Willke Theodore, Tepper Mariano
+title: 'Locally-adaptive Quantization For Streaming Vector Search'
+authors: Cecilia Aguerrebere, Mark Hildebrand, Ishwar Singh Bhati, Theodore Willke, Mariano Tepper
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: aguerrebere2024locally
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2402.02044"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2402.02044'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Compression', 'Quantization', 'Applications']
 ---
 Retrieving the most similar vector embeddings to a given query among a
 massive collection of vectors has long been a key component of countless

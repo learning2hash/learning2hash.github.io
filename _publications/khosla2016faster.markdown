@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Faster Algorithm For Cuckoo Insertion And Bipartite Matching In Large Graphs
-authors: Khosla Megha, Anand Avishek
-conference: "Algorithmica"
+title: 'A Faster Algorithm For Cuckoo Insertion And Bipartite Matching In Large Graphs'
+authors: Megha Khosla, Avishek Anand
+conference: "Algorithmica 2019"
 year: 2016
+citations: 2
 bibkey: khosla2016faster
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1611.07786"}
-tags: ['Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1611.07786'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Hashing']
 ---
 Hash tables are ubiquitous in computer science for efficient access to large
 datasets. However, there is always a need for approaches that offer compact

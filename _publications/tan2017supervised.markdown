@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Supervised Hashing With End-to-end Binary Deep Neural Network
-authors: Tan Dang-khoa Le, Do Thanh-toan, Cheung Ngai-man
+title: 'Supervised Hashing With End-to-end Binary Deep Neural Network'
+authors: Dang-khoa Le Tan, Thanh-toan Do, Ngai-man Cheung
 conference: "Arxiv"
 year: 2017
+citations: 1
 bibkey: tan2017supervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1711.08901"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1711.08901'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Datasets', 'Supervised', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Image hashing is a popular technique applied to large scale content-based
 visual retrieval due to its compact and efficient binary codes. Our work

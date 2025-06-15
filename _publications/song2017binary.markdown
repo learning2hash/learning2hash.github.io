@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Binary Generative Adversarial Networks For Image Retrieval
-authors: Song Jingkuan
+title: 'Binary Generative Adversarial Networks For Image Retrieval'
+authors: Jingkuan Song
 conference: "Arxiv"
 year: 2017
+citations: 96
 bibkey: song2017binary
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1708.04150"}
-  - {name: "Code", url: "https://github.com/htconquer/BGAN"}
-tags: ['ARXIV', 'GAN', 'Has Code', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1708.04150'}
+  - {name: "Code", url: 'https://github.com/htconquer/BGAN'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Has Code', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 The most striking successes in image retrieval using deep hashing have mostly
 involved discriminative models, which require labels. In this paper, we use
@@ -24,6 +25,6 @@ sign-activation strategy and a loss function steering the learning process,
 which consists of new models for adversarial loss, a content loss, and a
 neighborhood structure loss. Experimental results on standard datasets
 (CIFAR-10, NUSWIDE, and Flickr) demonstrate that our BGAN significantly
-outperforms existing hashing methods by up to 107\% in terms of~mAP (See Table
+outperforms existing hashing methods by up to 107% in terms of~mAP (See Table
 tab.res.map.comp) Our anonymous code is available at:
 https://github.com/htconquer/BGAN.

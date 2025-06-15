@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sliding Block (slick) Hashing An Implementation Benchmarks
-authors: Oberst Jan
+title: 'Sliding Block (slick) Hashing: An Implementation & Benchmarks'
+authors: Jan Oberst
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: oberst2024sliding
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2409.20125"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2409.20125'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 With hash tables being one of the most used data structures, Lehmann, Sanders
 and Walzer propose a novel, light-weight hash table, referred to as Slick Hash.

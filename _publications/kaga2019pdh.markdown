@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: PDH Probabilistic Deep Hashing Based On MAP Estimation Of Hamming Distance
-authors: Kaga Yosuke, Fujio Masakazu, Takahashi Kenta, Ohki Tetsushi, Nishigaki Masakatsu
-conference: ""
+title: 'PDH : Probabilistic Deep Hashing Based On MAP Estimation Of Hamming Distance'
+authors: Yosuke Kaga, Masakazu Fujio, Kenta Takahashi, Tetsushi Ohki, Masakatsu Nishigaki
+conference: "2019 26th IEEE International Conference on Image Processing (ICIP)"
 year: 2019
+citations: 0
 bibkey: kaga2019pdh
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.08501"}
-tags: ['Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.08501'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Evaluation', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 With the growth of image on the web, research on hashing which enables
 high-speed image retrieval has been actively studied. In recent years, various

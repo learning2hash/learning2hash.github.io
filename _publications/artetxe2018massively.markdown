@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Massively Multilingual Sentence Embeddings For Zero-shot Cross-lingual Transfer And Beyond
-authors: Artetxe Mikel, Schwenk Holger
+title: 'Massively Multilingual Sentence Embeddings For Zero-shot Cross-lingual Transfer And Beyond'
+authors: Mikel Artetxe, Holger Schwenk
 conference: "Arxiv"
 year: 2018
+citations: 288
 bibkey: artetxe2018massively
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1812.10464"}
-  - {name: "Code", url: "https://github.com/facebookresearch/LASER"}
-tags: ['ARXIV', 'Has Code', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1812.10464'}
+  - {name: "Code", url: 'https://github.com/facebookresearch/LASER'}
+tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Has Code', 'Supervised']
 ---
 We introduce an architecture to learn joint multilingual sentence
 representations for 93 languages, belonging to more than 30 different families

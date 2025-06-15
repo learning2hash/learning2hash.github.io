@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Large-scale Visual Search With Binary Distributed Graph At Alibaba
-authors: Zhao Kang, Pan Pan, Zheng Yun, Zhang Yanhao, Wang Changxu, Zhang Yingya, Xu Yinghui, Jin Rong
+title: 'Large-scale Visual Search With Binary Distributed Graph At Alibaba'
+authors: Kang Zhao et al.
 conference: "Arxiv"
 year: 2021
+citations: 9
 bibkey: zhao2021large
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2102.04656"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2102.04656'}
+tags: ['Deep', 'Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Vector Indexing', 'Hashing']
 ---
 Graph-based approximate nearest neighbor search has attracted more and more
 attentions due to its online search advantages. Numbers of methods studying the

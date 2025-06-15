@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Balancing Clusters To Reduce Response Time Variability In Large Scale Image Search
-authors: Tavenard Romain Inria - Irisa, Amsaleg Laurent Inria - Irisa, Jégou Hervé Inria - Irisa
+title: 'Balancing Clusters To Reduce Response Time Variability In Large Scale Image Search'
+authors: Romain Inria - Irisa Tavenard, Laurent Inria - Irisa Amsaleg, Hervé Inria - Irisa Jégou
 conference: "Arxiv"
 year: 2010
+citations: 10
 bibkey: tavenard2010balancing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1009.4739"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1009.4739'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing']
 ---
 Many algorithms for approximate nearest neighbor search in high-dimensional
 spaces partition the data into clusters. At query time, in order to avoid

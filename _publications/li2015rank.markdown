@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Rank Subspace Learning For Compact Hash Codes
-authors: Li Kai, Qi Guojun, Ye Jun, Hua Kien A.
+title: 'Rank Subspace Learning For Compact Hash Codes'
+authors: Kai Li, Guojun Qi, Jun Ye, Kien A. Hua
 conference: "Arxiv"
 year: 2015
+citations: 2
 bibkey: li2015rank
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1503.05951"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1503.05951'}
+tags: ['Quantization', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 The era of Big Data has spawned unprecedented interests in developing hashing
 algorithms for efficient storage and fast nearest neighbor search. Most

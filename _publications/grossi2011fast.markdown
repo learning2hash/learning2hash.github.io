@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Compressed Tries Through Path Decompositions
-authors: Grossi Roberto, Ottaviano Giuseppe
+title: 'Fast Compressed Tries Through Path Decompositions'
+authors: Roberto Grossi, Giuseppe Ottaviano
 conference: "Arxiv"
 year: 2011
+citations: 17
 bibkey: grossi2011fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1111.5220"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1111.5220'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Tries are popular data structures for storing a set of strings, where common
 prefixes are represented by common root-to-node paths. Over fifty years of

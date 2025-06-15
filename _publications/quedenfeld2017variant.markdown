@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Variant Tolerant Read Mapping Using Min-hashing
-authors: Quedenfeld Jens, Rahmann Sven
+title: 'Variant Tolerant Read Mapping Using Min-hashing'
+authors: Jens Quedenfeld, Sven Rahmann
 conference: "Arxiv"
 year: 2017
+citations: 4
 bibkey: quedenfeld2017variant
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1702.01703"}
-  - {name: "Code", url: "https://bitbucket.org/Quedenfeld/vatram-src/"}
-tags: ['ARXIV', 'Has Code']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1702.01703'}
+  - {name: "Code", url: 'https://bitbucket.org/Quedenfeld/vatram-src/'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Has Code', 'Hashing']
 ---
 DNA read mapping is a ubiquitous task in bioinformatics, and many tools have
 been developed to solve the read mapping problem. However, there are two trends

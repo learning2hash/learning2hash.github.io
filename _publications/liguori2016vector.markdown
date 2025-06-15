@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Vector Quantization For Machine Vision
-authors: Liguori Vincenzo
+title: 'Vector Quantization For Machine Vision'
+authors: Vincenzo Liguori
 conference: "Arxiv"
 year: 2016
+citations: 3
 bibkey: liguori2016vector
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1603.09037"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1603.09037'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Compression', 'Quantization']
 ---
 This paper shows how to reduce the computational cost for a variety of common
 machine vision tasks by operating directly in the compressed domain,

@@ -4,6 +4,7 @@ title: Learning To Hash With Binary Reconstructive Embeddings
 authors: Brian Kulis, Trevor Darrell
 conference: "Neural Information Processing Systems"
 year: 2009
+citations: 841
 bibkey: kulis2009learning
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2009/hash/6602294be910b1e3c4571bd98c4d5484-Abstract.html"}

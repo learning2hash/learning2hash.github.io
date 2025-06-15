@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Adaptive Asymmetric Label-guided Hashing For Multimedia Search
-authors: Long Yitian
+title: 'Adaptive Asymmetric Label-guided Hashing For Multimedia Search'
+authors: Yitian Long
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: long2022adaptive
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2207.12625"}
-tags: ['ARXIV', 'Cross Modal', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2207.12625'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Hashing', 'Quantization', 'Similarity Learning', 'Supervised Hashing']
 ---
 With the rapid growth of multimodal media data on the Web in recent years,
 hash learning methods as a way to achieve efficient and flexible cross-modal

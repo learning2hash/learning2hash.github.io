@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Bipartite Graph Convolutional Hashing For Effective And Efficient Top-n Search In Hamming Space
-authors: Chen Yankai, Fang Yixiang, Zhang Yifei, King Irwin
+title: 'Bipartite Graph Convolutional Hashing For Effective And Efficient Top-n Search In Hamming Space'
+authors: Yankai Chen, Yixiang Fang, Yifei Zhang, Irwin King
 conference: "Arxiv"
 year: 2023
+citations: 10
 bibkey: chen2023bipartite
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2304.00241"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2304.00241'}
+tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Datasets', 'Hashing', 'Applications']
 ---
 Searching on bipartite graphs is basal and versatile to many real-world Web
 applications, e.g., online recommendation, database retrieval, and

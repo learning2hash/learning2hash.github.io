@@ -4,6 +4,7 @@ title: Mementohash A Stateful Minimal Memory Best Performing Consistent Hash Alg
 authors: Coluzzi Massimo, Brocco Amos, Antonucci Alessandro, Leidi Tiziano
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: coluzzi2023mementohash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2306.09783"}

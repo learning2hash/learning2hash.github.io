@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Identification With Encrypted Biometric Data
-authors: Bringer Julien, Chabanne Herve, Kindarji Bruno
+title: 'Identification With Encrypted Biometric Data'
+authors: Julien Bringer, Herve Chabanne, Bruno Kindarji
 conference: "Arxiv"
 year: 2009
+citations: 34
 bibkey: bringer2009identification
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0901.1062"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0901.1062'}
+tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
 ---
 Biometrics make human identification possible with a sample of a biometric
 trait and an associated database. Classical identification techniques lead to

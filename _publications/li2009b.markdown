@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: B-bit Minwise Hashing
-authors: Li Ping, Konig Arnd Christian
+title: 'B-bit Minwise Hashing'
+authors: Ping Li, Arnd Christian Konig
 conference: "Arxiv"
 year: 2009
+citations: 119
 bibkey: li2009b
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0910.3349"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0910.3349'}
+tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Supervised', 'Hashing', 'Applications']
 ---
 This paper establishes the theoretical framework of b-bit minwise hashing.
 The original minwise hashing method has become a standard technique for

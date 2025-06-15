@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashed Binary Search Sampling For Convolutional Network Training With Large Overhead Image Patches
-authors: Lunga Dalton, Yang Lexie, Bhaduri Budhendra
+title: 'Hashed Binary Search Sampling For Convolutional Network Training With Large Overhead Image Patches'
+authors: Dalton Lunga, Lexie Yang, Budhendra Bhaduri
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: lunga2017hashed
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1707.05685"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1707.05685'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Training Strategy', 'Hashing']
 ---
 Very large overhead imagery associated with ground truth maps has the
 potential to generate billions of training image patches for machine learning

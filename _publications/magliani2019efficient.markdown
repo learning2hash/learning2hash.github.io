@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: An Efficient Approximate Knn Graph Method For Diffusion On Image Retrieval
-authors: Magliani Federico, Mcguinness Kevin, Mohedano Eva, Prati Andrea
+title: 'An Efficient Approximate Knn Graph Method For Diffusion On Image Retrieval'
+authors: Federico Magliani, Kevin Mcguinness, Eva Mohedano, Andrea Prati
 conference: "Arxiv"
 year: 2019
+citations: 6
 bibkey: magliani2019efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.08668"}
-tags: ['ARXIV', 'Graph', 'Image Retrieval', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.08668'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
 ---
 The application of the diffusion in many computer vision and artificial
 intelligence projects has been shown to give excellent improvements in

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Scalable Discrete Supervised Hash Learning With Asymmetric Matrix Factorization
-authors: Zhang Shifeng, Li Jianmin, Guo Jinma, Zhang Bo
+title: 'Scalable Discrete Supervised Hash Learning With Asymmetric Matrix Factorization'
+authors: Shifeng Zhang, Jianmin Li, Jinma Guo, Bo Zhang
 conference: "Arxiv"
 year: 2016
+citations: 3
 bibkey: zhang2016scalable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1609.08740"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1609.08740'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Hashing']
 ---
 Hashing method maps similar data to binary hashcodes with smaller hamming
 distance, and it has received a broad attention due to its low storage cost and

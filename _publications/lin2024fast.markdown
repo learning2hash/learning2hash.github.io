@@ -4,10 +4,11 @@ title: Fast Supervised Hashing With Decision Trees For High-dimensional Data
 authors: Lin Guosheng, Shen, Shi, Hengel, Suter.
 conference: "Arxiv"
 year: 2024
+citations: 297
 bibkey: lin2024fast
 additional_links:
   - {name: "Paper", url: "https://bitbucket.org/chhshen/fasthash/src"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+tags: ['ARXIV', 'Graph', 'Supervised', 'Supervised']
 ---
 Supervised hashing aims to map the original features to
 compact binary codes that are able to preserve label based

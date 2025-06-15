@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Dynamic Similarity Search On Integer Sketches
-authors: Kanda Shunsuke, Tabei Yasuo
+title: 'Dynamic Similarity Search On Integer Sketches'
+authors: Shunsuke Kanda, Yasuo Tabei
 conference: "Arxiv"
 year: 2020
+citations: 1
 bibkey: kanda2020dynamic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2009.11559"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2009.11559'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
 ---
 Similarity-preserving hashing is a core technique for fast similarity
 searches, and it randomly maps data points in a metric space to strings of

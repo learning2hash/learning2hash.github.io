@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Information-theoretic Hashing For Zero-shot Cross-modal Retrieval
-authors: Shi Yufeng, Yu Shujian, Xu Duanquan, You Xinge
+title: 'Information-theoretic Hashing For Zero-shot Cross-modal Retrieval'
+authors: Yufeng Shi, Shujian Yu, Duanquan Xu, Xinge You
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: shi2022information
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2209.12491"}
-tags: ['ARXIV', 'Cross Modal', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2209.12491'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
 ---
 Zero-shot cross-modal retrieval (ZS-CMR) deals with the retrieval problem
 among heterogenous data from unseen classes. Typically, to guarantee

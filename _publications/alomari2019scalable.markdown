@@ -4,6 +4,7 @@ title: Scalable Source Code Similarity Detection In Large Code Repositories
 authors: Alomari F, Harbi M
 conference: "EAI Endorsed Transactions on Scalable Information Systems Online first"
 year: 2019
+citations: 1
 bibkey: alomari2019scalable
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1907.11817"}

@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: More Robust Dense Retrieval With Contrastive Dual Learning
-authors: Li Yizhi, Liu Zhenghao, Xiong Chenyan, Liu Zhiyuan
+title: 'More Robust Dense Retrieval With Contrastive Dual Learning'
+authors: Yizhi Li, Zhenghao Liu, Chenyan Xiong, Zhiyuan Liu
 conference: "Arxiv"
 year: 2021
+citations: 16
 bibkey: li2021more
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2107.07773"}
-  - {name: "Code", url: "https://github.com/thunlp/DANCE"}
-tags: ['ARXIV', 'Has Code', 'Self Supervised', 'Text Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2107.07773'}
+  - {name: "Code", url: 'https://github.com/thunlp/DANCE'}
+tags: ['Deep', 'Retrieval Models', 'Unimodal', 'Vector Indexing', 'Has Code', 'Supervised', 'Training Strategy']
 ---
 Dense retrieval conducts text retrieval in the embedding space and has shown
 many advantages compared to sparse retrieval. Existing dense retrievers

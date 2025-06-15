@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Asymmetric Transfer Hashing With Adaptive Bipartite Graph Learning
-authors: Lu Jianglin, Zhou Jie, Chen Yudong, Pedrycz Witold, Hung Kwok-wai
+title: 'Asymmetric Transfer Hashing With Adaptive Bipartite Graph Learning'
+authors: Jianglin Lu, Jie Zhou, Yudong Chen, Witold Pedrycz, Kwok-wai Hung
 conference: "Arxiv"
 year: 2022
+citations: 8
 bibkey: lu2022asymmetric
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2206.12592"}
-tags: ['ARXIV', 'Cross Modal', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2206.12592'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 Thanks to the efficient retrieval speed and low storage consumption, learning
 to hash has been widely used in visual retrieval tasks. However, existing

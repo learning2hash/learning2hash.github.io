@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Cascade Hash Tables A Series Of Multilevel Double Hashing Schemes With O(1) Worst Case Lookup Time
-authors: Li Shaohua
+title: 'Cascade Hash Tables: A Series Of Multilevel Double Hashing Schemes With O(1) Worst Case Lookup Time'
+authors: Shaohua Li
 conference: "Arxiv"
 year: 2006
+citations: 0
 bibkey: li2006cascade
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/0608037"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/0608037'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 In this paper, the author proposes a series of multilevel double hashing
 schemes called cascade hash tables. They use several levels of hash tables. In

@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Search Efficient Binary Network Embedding
-authors: Zhang Daokun, Yin Jie, Zhu Xingquan, Zhang Chengqi
-conference: "TKDD-"
+title: 'Search Efficient Binary Network Embedding'
+authors: Daokun Zhang, Jie Yin, Xingquan Zhu, Chengqi Zhang
+conference: "TKDD-2021"
 year: 2019
+citations: 2
 bibkey: zhang2019search
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1901.04097"}
-  - {name: "Code", url: "https://github.com/daokunzhang/BinaryNE"}
-tags: ['Has Code', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1901.04097'}
+  - {name: "Code", url: 'https://github.com/daokunzhang/BinaryNE'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Has Code', 'Supervised', 'Hashing']
 ---
 Traditional network embedding primarily focuses on learning a continuous
 vector representation for each node, preserving network structure and/or node

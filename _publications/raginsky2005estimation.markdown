@@ -4,6 +4,7 @@ title: Estimation Of Intrinsic Dimensionality Using High-rate Vector Quantizatio
 authors: Maxim Raginsky, Svetlana Lazebnik
 conference: "Neural Information Processing Systems"
 year: 2005
+citations: 37
 bibkey: raginsky2005estimation
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2005/hash/892c3b1c6dccd52936e27cbd0ff683d6-Abstract.html"}

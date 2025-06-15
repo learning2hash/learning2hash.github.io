@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning Binary Codes And Binary Weights For Efficient Classification
-authors: Shen Fumin, Mu Yadong, Liu Wei, Yang Yang, Shen Heng Tao
+title: 'Learning Binary Codes And Binary Weights For Efficient Classification'
+authors: Fumin Shen, Yadong Mu, Wei Liu, Yang Yang, Heng Tao Shen
 conference: "Arxiv"
 year: 2016
+citations: 0
 bibkey: shen2016learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1603.04116"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1603.04116'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 This paper proposes a generic formulation that significantly expedites the
 training and deployment of image classification models, particularly under the

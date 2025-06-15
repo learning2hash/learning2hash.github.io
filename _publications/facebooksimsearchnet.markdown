@@ -4,6 +4,7 @@ title: "Facebook SimSearchNet++"
 authors: Facebook/Meta
 conference: NeurIPS
 year: 2021
+citations: 0
 bibkey: facebooksimsearchnet
 additional_links:
    - {name: "URL", url: "https://ai.facebook.com/blog/using-ai-to-detect-covid-19-misinformation-and-exploitative-content"}

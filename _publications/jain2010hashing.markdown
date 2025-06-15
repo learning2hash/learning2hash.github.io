@@ -4,6 +4,7 @@ title: Hashing Hyperplane Queries To Near Points With Applications To Large-scal
 authors: Prateek Jain, Sudheendra Vijayanarasimhan, Kristen Grauman
 conference: "Neural Information Processing Systems"
 year: 2010
+citations: 23
 bibkey: jain2010hashing
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2010/hash/470e7a4f017a5476afb7eeb3f8b96f9b-Abstract.html"}

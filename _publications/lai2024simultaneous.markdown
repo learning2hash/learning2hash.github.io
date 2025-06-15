@@ -4,10 +4,11 @@ title: Simultaneous Feature Learning And Hash Coding With Deep Neural Networks
 authors: Lai H., Pan, Liu, Yan
 conference: "Arxiv"
 year: 2024
+citations: 587
 bibkey: lai2024simultaneous
 additional_links:
   - {name: "Paper", url: "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lai_Simultaneous_Feature_Learning_2015_CVPR_paper.pdf"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised']
+tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised', 'Supervised']
 ---
 Similarity-preserving hashing is a widely-used method
 for nearest neighbour search in large-scale image retrieval

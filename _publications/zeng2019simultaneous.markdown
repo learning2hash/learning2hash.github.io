@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Simultaneous Region Localization And Hash Coding For Fine-grained Image Retrieval
-authors: Zeng Haien, Lai Hanjiang, Yin Jian
+title: 'Simultaneous Region Localization And Hash Coding For Fine-grained Image Retrieval'
+authors: Haien Zeng, Hanjiang Lai, Jian Yin
 conference: "Arxiv"
 year: 2019
+citations: 5
 bibkey: zeng2019simultaneous
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1911.08028"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1911.08028'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Hashing', 'Applications']
 ---
 Fine-grained image hashing is a challenging problem due to the difficulties
 of discriminative region localization and hash code generation. Most existing

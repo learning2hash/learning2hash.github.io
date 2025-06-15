@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Two Simple Full-text Indexes Based On The Suffix Array
-authors: Grabowski Szymon, Raniszewski Marcin
+title: 'Two Simple Full-text Indexes Based On The Suffix Array'
+authors: Szymon Grabowski, Marcin Raniszewski
 conference: "Arxiv"
 year: 2014
+citations: 3
 bibkey: grabowski2014two
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1405.5919"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1405.5919'}
+tags: ['Cross-Modal', 'Shallow', 'Compression', 'Datasets', 'Supervised']
 ---
 We propose two suffix array inspired full-text indexes. One, called SA-hash,
 augments the suffix array with a hash table to speed up pattern searches due to

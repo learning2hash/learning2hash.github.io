@@ -4,6 +4,7 @@ title: "The MNIST Database of Handwritten Digits"
 authors: Y. LeCun, C. Cortes, C. Burges
 conference: 
 year: 1999
+citations: 0
 bibkey: mnist1999mnist
 additional_links:
    - {name: "URL", url: "http://yann.lecun.com/exdb/mnist/"}

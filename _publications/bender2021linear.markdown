@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Linear Probing Revisited Tombstones Mark The Death Of Primary Clustering
-authors: Bender Michael A., Kuszmaul Bradley C., Kuszmaul William
+title: 'Linear Probing Revisited: Tombstones Mark The Death Of Primary Clustering'
+authors: Michael A. Bender, Bradley C. Kuszmaul, William Kuszmaul
 conference: "Arxiv"
 year: 2021
+citations: 3
 bibkey: bender2021linear
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2107.01250"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2107.01250'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
 ---
 First introduced in 1954, linear probing is one of the oldest data structures
 in computer science, and due to its unrivaled data locality, it continues to be

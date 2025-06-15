@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Instance-weighted Central Similarity For Multi-label Image Retrieval
-authors: Zhang Zhiwei, Peng Hanyu
+title: 'Instance-weighted Central Similarity For Multi-label Image Retrieval'
+authors: Zhiwei Zhang, Hanyu Peng
 conference: "Arxiv"
 year: 2021
+citations: 2
 bibkey: zhang2021instance
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2108.05274"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2108.05274'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Deep hashing has been widely applied to large-scale image retrieval by
 encoding high-dimensional data points into binary codes for efficient

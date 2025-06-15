@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Discriminative Cross-view Binary Representation Learning
-authors: Liu Liu, Qi Hairong
-conference: "WACV"
+title: 'Discriminative Cross-view Binary Representation Learning'
+authors: Liu Liu, Hairong Qi
+conference: "WACV2018"
 year: 2018
+citations: 4
 bibkey: liu2018discriminative
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1804.01233"}
-tags: ['CNN', 'Cross Modal', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1804.01233'}
+tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Training Strategy', 'Datasets', 'Vector Indexing', 'Quantization', 'Multi-Modal Hashing', 'Hashing', 'Applications']
 ---
 Learning compact representation is vital and challenging for large scale
 multimedia data. Cross-view/cross-modal hashing for effective binary

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Bilinear Random Projections For Locality-sensitive Binary Codes
-authors: Kim Saehoon, Choi Seungjin
+title: 'Bilinear Random Projections For Locality-sensitive Binary Codes'
+authors: Saehoon Kim, Seungjin Choi
 conference: "Arxiv"
 year: 2015
+citations: 12
 bibkey: kim2015bilinear
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1506.01092"}
-tags: ['ARXIV', 'Independent', 'LSH', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1506.01092'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Quantization', 'Hashing']
 ---
 Locality-sensitive hashing (LSH) is a popular data-independent indexing
 method for approximate similarity search, where random projections followed by

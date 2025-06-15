@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Supervised Hashing Leveraging Quadratic Spherical Mutual Information For Content-based Image Retrieval
-authors: Passalis Nikolaos, Tefas Anastasios
+title: 'Deep Supervised Hashing Leveraging Quadratic Spherical Mutual Information For Content-based Image Retrieval'
+authors: Nikolaos Passalis, Anastasios Tefas
 conference: "Arxiv"
 year: 2019
+citations: 1
 bibkey: passalis2019deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1901.05135"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1901.05135'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Supervised', 'Supervised Hashing', 'Applications']
 ---
 Several deep supervised hashing techniques have been proposed to allow for
 efficiently querying large image databases. However, deep supervised image

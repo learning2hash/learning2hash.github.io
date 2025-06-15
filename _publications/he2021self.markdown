@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Self-supervised Video Retrieval Transformer Network
-authors: He Xiangteng, Pan Yulin, Tang Mingqian, Lv Yiliang
+title: 'Self-supervised Video Retrieval Transformer Network'
+authors: Xiangteng He, Yulin Pan, Mingqian Tang, Yiliang Lv
 conference: "Arxiv"
 year: 2021
+citations: 3
 bibkey: he2021self
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2104.07993"}
-tags: ['ARXIV', 'Supervised', 'Video Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2104.07993'}
+tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Training Strategy']
 ---
 Content-based video retrieval aims to find videos from a large video database
 that are similar to or even near-duplicate of a given query video. Video

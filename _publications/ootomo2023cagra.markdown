@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: CAGRA Highly Parallel Graph Construction And Approximate Nearest Neighbor Search For Gpus
-authors: Ootomo Hiroyuki, Naruse Akira, Nolet Corey, Wang Ray, Feher Tamas, Wang Yong
+authors: Ootomo Hiroyuki et al.
 conference: "Arxiv"
 year: 2023
+citations: 5
 bibkey: ootomo2023cagra
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2308.15136"}

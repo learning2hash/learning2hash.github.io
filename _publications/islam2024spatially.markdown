@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Spatially Optimized Compact Deep Metric Learning Model For Similarity Search
-authors: Islam Md. Farhadul, Reza Md. Tanzim, Manab Meem Arafat, Mahin Mohammad Rakibul Hasan, Zabeen Sarah, Noor Jannatun
+authors: Islam Md. Farhadul et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: islam2024spatially
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2404.06593"}

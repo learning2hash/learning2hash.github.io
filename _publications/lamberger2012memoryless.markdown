@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Memoryless Near-collisions Revisited
-authors: Lamberger Mario, Teufl Elmar
+title: 'Memoryless Near-collisions, Revisited'
+authors: Mario Lamberger, Elmar Teufl
 conference: "Arxiv"
 year: 2012
+citations: 6
 bibkey: lamberger2012memoryless
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1209.4255"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1209.4255'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Vector Indexing', 'Hashing']
 ---
 In this paper we discuss the problem of generically finding near-collisions
 for cryptographic hash functions in a memoryless way. A common approach is to

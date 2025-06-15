@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Practice With Graph-based ANN Algorithms On Sparse Data Chi-square Two-tower Model HNSW Sign Cauchy Projections
-authors: Li Ping, Zhao Weijie, Wang Chao, Xia Qi, Wu Alice, Peng Lijun
+title: 'Practice With Graph-based ANN Algorithms On Sparse Data: Chi-square Two-tower Model, HNSW, Sign Cauchy Projections'
+authors: Ping Li et al.
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: li2023practice
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2306.07607"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2306.07607'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Graph-Based Methods', 'Applications']
 ---
 Sparse data are common. The traditional ``handcrafted'' features are often
 sparse. Embedding vectors from trained models can also be very sparse, for

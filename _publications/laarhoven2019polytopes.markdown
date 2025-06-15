@@ -4,6 +4,7 @@ title: Polytopes Lattices And Spherical Codes For The Nearest Neighbor Problem
 authors: Laarhoven Thijs
 conference: "ICALP"
 year: 2019
+citations: 1
 bibkey: laarhoven2019polytopes
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1907.04628"}

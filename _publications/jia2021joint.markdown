@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Joint Representation Learning And Novel Category Discovery On Single- And Multi-modal Data
-authors: Jia Xuhui, Han Kai, Zhu Yukun, Green Bradley
+title: 'Joint Representation Learning And Novel Category Discovery On Single- And Multi-modal Data'
+authors: Xuhui Jia, Kai Han, Yukun Zhu, Bradley Green
 conference: "Arxiv"
 year: 2021
+citations: 46
 bibkey: jia2021joint
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2104.12673"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2104.12673'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Datasets', 'Supervised', 'Hashing']
 ---
 This paper studies the problem of novel category discovery on single- and
 multi-modal data with labels from different but relevant categories. We present

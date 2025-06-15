@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning Better Encoding For Approximate Nearest Neighbor Search With Dictionary Annealing
-authors: Liu Shicong, Lu Hongtao
+title: 'Learning Better Encoding For Approximate Nearest Neighbor Search With Dictionary Annealing'
+authors: Shicong Liu, Hongtao Lu
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: liu2015learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1507.01442"}
-tags: ['ARXIV', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1507.01442'}
+tags: ['Quantization', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Training Strategy']
 ---
 We introduce a novel dictionary optimization method for high-dimensional
 vector quantization employed in approximate nearest neighbor (ANN) search.

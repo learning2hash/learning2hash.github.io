@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Similarity Sketching
-authors: Dahlgaard Søren, Langhede Mathias Bæk Tejs, Houen Jakob Bæk Tejs, Thorup Mikkel
+title: 'Fast Similarity Sketching'
+authors: Søren Dahlgaard, Mathias Bæk Tejs Langhede, Jakob Bæk Tejs Houen, Mikkel Thorup
 conference: "Arxiv"
 year: 2017
+citations: 16
 bibkey: dahlgaard2017fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1704.04370"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1704.04370'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Applications']
 ---
 We consider the \\(\textit\{Similarity Sketching\}\\) problem: Given a universe
 \\([u] = \\{0,\ldots, u-1\\}\\) we want a random function \\(S\\) mapping subsets

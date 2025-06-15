@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Multiscale Quantization For Fast Similarity Search
-authors: Xiang Wu, Ruiqi Guo, Ananda Theertha Suresh, Sanjiv Kumar, Daniel N. Holtmann-rice, David Simcha, Felix Yu
+authors: Xiang Wu et al.
 conference: "Neural Information Processing Systems"
 year: 2017
+citations: 47
 bibkey: wu2017multiscale
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2017/hash/b6617980ce90f637e68c3ebe8b9be745-Abstract.html"}

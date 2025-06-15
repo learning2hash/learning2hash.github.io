@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Comparing Apples To Apples In The Evaluation Of Binary Coding Methods
-authors: Rastegari Mohammad, Fakhraei Shobeir, Choi Jonghyun, Jacobs David, Davis Larry S.
+title: 'Comparing Apples To Apples In The Evaluation Of Binary Coding Methods'
+authors: Mohammad Rastegari, Shobeir Fakhraei, Jonghyun Choi, David Jacobs, Larry S. Davis
 conference: "Arxiv"
 year: 2014
+citations: 2
 bibkey: rastegari2014comparing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1405.1005"}
-tags: ['ARXIV', 'LSH', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1405.1005'}
+tags: ['Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Supervised']
 ---
 We discuss methodological issues related to the evaluation of unsupervised
 binary code construction methods for nearest neighbor search. These issues have

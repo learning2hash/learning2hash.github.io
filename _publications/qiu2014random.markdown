@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Random Forests Can Hash
-authors: Qiu Qiang, Sapiro Guillermo, Bronstein Alex
+title: 'Random Forests Can Hash'
+authors: Qiang Qiu, Guillermo Sapiro, Alex Bronstein
 conference: "Arxiv"
 year: 2014
+citations: 2
 bibkey: qiu2014random
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1412.5083"}
-tags: ['ARXIV', 'Deep Learning', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1412.5083'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
 ---
 Hash codes are a very efficient data representation needed to be able to cope
 with the ever growing amounts of data. We introduce a random forest semantic

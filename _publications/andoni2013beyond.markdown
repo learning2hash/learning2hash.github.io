@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Beyond Locality-sensitive Hashing
-authors: Andoni Alexandr, Indyk Piotr, Nguyen Huy L., Razenshteyn Ilya
+title: 'Beyond Locality-sensitive Hashing'
+authors: Alexandr Andoni, Piotr Indyk, Huy L. Nguyen, Ilya Razenshteyn
 conference: "Arxiv"
 year: 2013
+citations: 61
 bibkey: andoni2013beyond
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1306.1547"}
-tags: ['ARXIV', 'FOCS']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1306.1547'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 We present a new data structure for the c-approximate near neighbor problem
 (ANN) in the Euclidean space. For n points in R^d, our algorithm achieves

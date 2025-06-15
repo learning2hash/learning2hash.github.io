@@ -4,6 +4,7 @@ title: Binomialhash A Constant Time Minimal Memory Consistent Hash Algorithm
 authors: Coluzzi Massimo, Brocco Amos, Antonucci Alessandro
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: coluzzi2024binomialhash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2406.19836"}

@@ -4,6 +4,7 @@ title: Theory Of The GMM Kernel
 authors: Li Ping, Zhang Cun-hui
 conference: "Arxiv"
 year: 2016
+citations: 10
 bibkey: li2016theory
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1608.00550"}

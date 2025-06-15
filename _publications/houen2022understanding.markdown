@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Understanding The Moments Of Tabulation Hashing Via Chaoses
-authors: Houen Jakob Bæk Tejs, Thorup Mikkel
+title: 'Understanding The Moments Of Tabulation Hashing Via Chaoses'
+authors: Jakob Bæk Tejs Houen, Mikkel Thorup
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: houen2022understanding
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2205.01453"}
-tags: ['ARXIV', 'FOCS', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2205.01453'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Simple tabulation hashing dates back to Zobrist in 1970 and is defined as
 follows: Each key is viewed as \\(c\\) characters from some alphabet \\(\Sigma\\), we

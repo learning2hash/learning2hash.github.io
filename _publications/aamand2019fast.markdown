@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Hashing With Strong Concentration Bounds
-authors: Aamand Anders, Knudsen Jakob B. T., Knudsen Mathias B. T., Rasmussen Peter M. R., Thorup Mikkel
+title: 'Fast Hashing With Strong Concentration Bounds'
+authors: Anders Aamand, Jakob B. T. Knudsen, Mathias B. T. Knudsen, Peter M. R. Rasmussen, Mikkel Thorup
 conference: "Arxiv"
 year: 2019
+citations: 2
 bibkey: aamand2019fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.00369"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.00369'}
+tags: ['Cross-Modal', 'Supervised', 'Shallow', 'Hashing']
 ---
 Previous work on tabulation hashing by Patrascu and Thorup from STOC'11 on
 simple tabulation and from SODA'13 on twisted tabulation offered Chernoff-style

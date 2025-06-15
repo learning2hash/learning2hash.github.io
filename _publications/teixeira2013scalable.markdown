@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Scalable Locality-sensitive Hashing For Similarity Search In High-dimensional Large-scale Multimedia Datasets
-authors: Teixeira Thiago S. F. X., Teodoro George, Valle Eduardo, Saltz Joel H.
+title: 'Scalable Locality-sensitive Hashing For Similarity Search In High-dimensional, Large-scale Multimedia Datasets'
+authors: Thiago S. F. X. Teixeira, George Teodoro, Eduardo Valle, Joel H. Saltz
 conference: "Arxiv"
 year: 2013
+citations: 4
 bibkey: teixeira2013scalable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1310.4136"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1310.4136'}
+tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Similarity search is critical for many database applications, including the
 increasingly popular online services for Content-Based Multimedia Retrieval

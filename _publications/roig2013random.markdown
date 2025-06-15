@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Random Binary Mappings For Kernel Learning And Efficient SVM
-authors: Roig Gemma, Boix Xavier, Van Gool Luc
+title: 'Random Binary Mappings For Kernel Learning And Efficient SVM'
+authors: Gemma Roig, Xavier Boix, Luc Van Gool
 conference: "Arxiv"
 year: 2013
+citations: 1
 bibkey: roig2013random
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1307.5161"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1307.5161'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Evaluation', 'Datasets', 'Quantization']
 ---
 Support Vector Machines (SVMs) are powerful learners that have led to
 state-of-the-art results in various computer vision problems. SVMs suffer from

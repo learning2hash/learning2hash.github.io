@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Massively Parallel Path Space Filtering
-authors: Binder Nikolaus, Fricke Sascha, Keller Alexander
+title: 'Massively Parallel Path Space Filtering'
+authors: Nikolaus Binder, Sascha Fricke, Alexander Keller
 conference: "Arxiv"
 year: 2019
+citations: 5
 bibkey: binder2019massively
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1902.05942"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1902.05942'}
+tags: ['Cross-Modal', 'Shallow', 'Quantisation']
 ---
 Restricting path tracing to a small number of paths per pixel for performance
 reasons rarely achieves a satisfactory image quality for scenes of interest.

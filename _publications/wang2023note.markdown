@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Note On efficient Task-specific Data Valuation For Nearest Neighbor Algorithms
-authors: Wang Jiachen T., Jia Ruoxi
+title: 'A Note On "efficient Task-specific Data Valuation For Nearest Neighbor Algorithms"'
+authors: Jiachen T. Wang, Ruoxi Jia
 conference: "Arxiv"
 year: 2023
+citations: 95
 bibkey: wang2023note
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2304.04258"}
-tags: ['ARXIV', 'LSH', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2304.04258'}
+tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
 ---
 Data valuation is a growing research field that studies the influence of
 individual data points for machine learning (ML) models. Data Shapley, inspired

@@ -4,6 +4,7 @@ title: Polynomials A New Tool For Length Reduction In Binary Discrete Convolutio
 authors: Amir Amihood, Kapah Oren, Porat Ely, Rothschild Amir
 conference: "Arxiv"
 year: 2014
+citations: 3
 bibkey: amir2014polynomials
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1410.5607"}

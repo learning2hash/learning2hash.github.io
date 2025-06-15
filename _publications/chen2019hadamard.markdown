@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hadamard Codebook Based Deep Hashing
-authors: Chen Shen, Cao Liujuan, Lin Mingbao, Wang Yan, Sun Xiaoshuai, Wu Chenglin, Qiu Jingfei, Ji Rongrong
+title: 'Hadamard Codebook Based Deep Hashing'
+authors: Shen Chen et al.
 conference: "Arxiv"
 year: 2019
+citations: 3
 bibkey: chen2019hadamard
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1910.09182"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1910.09182'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Vector Indexing', 'Deep Hashing', 'Hashing', 'Applications']
 ---
 As an approximate nearest neighbor search technique, hashing has been widely
 applied in large-scale image retrieval due to its excellent efficiency. Most

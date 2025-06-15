@@ -4,6 +4,7 @@ title: Double-bit Quantisation For Hashing
 authors: Kong W., Li
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: kong2024double
 additional_links:
   - {name: "Paper", url: "https://www.aaai.org/ocs/index.php/AAAI/AAAI12/paper/viewFile/5080/5250"}

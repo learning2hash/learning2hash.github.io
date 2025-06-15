@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Perfect Consistent Hashing
-authors: Sackman Matthew
+title: 'Perfect Consistent Hashing'
+authors: Matthew Sackman
 conference: "Arxiv"
 year: 2015
+citations: 5
 bibkey: sackman2015perfect
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1503.04988"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1503.04988'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
 ---
 Consistent Hashing functions are widely used for load balancing across a
 variety of applications. However, the original presentation and typical

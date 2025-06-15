@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Convolutional Set Matching For Graph Similarity
-authors: Bai Yunsheng, Ding Hao, Sun Yizhou, Wang Wei
+title: 'Convolutional Set Matching For Graph Similarity'
+authors: Yunsheng Bai, Hao Ding, Yizhou Sun, Wei Wang
 conference: "Arxiv"
 year: 2018
+citations: 26
 bibkey: bai2018convolutional
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1810.10866"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1810.10866'}
+tags: ['Deep', 'Retrieval Models', 'Unimodal', 'Datasets', 'Supervised']
 ---
 We introduce GSimCNN (Graph Similarity Computation via Convolutional Neural
 Networks) for predicting the similarity score between two graphs. As the core

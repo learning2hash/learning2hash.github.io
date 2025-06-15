@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Tiny Descriptors For Image Retrieval With Unsupervised Triplet Hashing
-authors: Lin Jie, Morère Olivier, Petta Julie, Chandrasekhar Vijay, Veillard Antoine
+title: 'Tiny Descriptors For Image Retrieval With Unsupervised Triplet Hashing'
+authors: Jie Lin, Olivier Morère, Julie Petta, Vijay Chandrasekhar, Antoine Veillard
 conference: "Arxiv"
 year: 2015
+citations: 10
 bibkey: lin2015tiny
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1511.03055"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1511.03055'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Compression', 'Vector Indexing', 'Supervised', 'Similarity Learning', 'Hashing', 'Applications']
 ---
 A typical image retrieval pipeline starts with the comparison of global
 descriptors from a large database to find a short list of candidate matches. A

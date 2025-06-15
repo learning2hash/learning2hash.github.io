@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: An Enhanced Batch Query Architecture In Real-time Recommendation
-authors: Zhang Qiang, Teng Zhipeng, Wu Disheng, Wang Jiayin
-conference: "Arxiv"
+title: 'An Enhanced Batch Query Architecture In Real-time Recommendation'
+authors: Qiang Zhang, Zhipeng Teng, Disheng Wu, Jiayin Wang
+conference: "CIKM 24(2024) Pages 5078 - 5085"
 year: 2024
+citations: 0
 bibkey: zhang2024enhanced
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2409.00400"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2409.00400'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
 ---
 In industrial recommendation systems on websites and apps, it is essential to
 recall and predict top-n results relevant to user interests from a content pool

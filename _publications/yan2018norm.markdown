@@ -1,12 +1,25 @@
 ---
 layout: publication
-title: Norm-ranging LSH For Maximum Inner Product Search
-authors: Xiao Yan, Jinfeng Li, Xinyan Dai, Hongzhi Chen, James Cheng
-conference: "Neural Information Processing Systems"
+title: 'Norm-range Partition: A Universal Catalyst For LSH Based Maximum Inner Product Search (MIPS)'
+authors: Xiao Yan, Xinyan Dai, Jie Liu, Kaiwen Zhou, James Cheng
+conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: yan2018norm
 additional_links:
-  - {name: "Paper", url: "https://papers.nips.cc/paper/2018/hash/b60c5ab647a27045b462934977ccad9a-Abstract.html"}
-tags: ['Independent', 'LSH', 'NEURIPS', 'Theory']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1810.09104'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
 ---
-Neyshabur and Srebro proposed SIMPLE-LSH, which is the state-of-the-art hashing based algorithm for maximum inner product search (MIPS). We found that the performance of SIMPLE-LSH, in both theory and practice, suffers from long tails in the 2-norm distribution of real datasets. We propose NORM-RANGING LSH, which addresses the excessive normalization problem caused by long tails by partitioning a dataset into sub-datasets and building a hash index for each sub-dataset independently. We prove that NORM-RANGING LSH achieves lower query time complexity than SIMPLE-LSH under mild conditions. We also show that the idea of dataset partitioning can improve another hashing based MIPS algorithm. Experiments show that NORM-RANGING LSH probes much less items than SIMPLE-LSH at the same recall, thus significantly benefiting MIPS based applications.
+Recently, locality sensitive hashing (LSH) was shown to be effective for MIPS
+and several algorithms including \\(L_2\\)-ALSH, Sign-ALSH and Simple-LSH have been
+proposed. In this paper, we introduce the norm-range partition technique, which
+partitions the original dataset into sub-datasets containing items with similar
+2-norms and builds hash index independently for each sub-dataset. We prove that
+norm-range partition reduces the query processing complexity for all existing
+LSH based MIPS algorithms under mild conditions. The key to performance
+improvement is that norm-range partition allows to use smaller normalization
+factor most sub-datasets. For efficient query processing, we also formulate a
+unified framework to rank the buckets from the hash indexes of different
+sub-datasets. Experiments on real datasets show that norm-range partition
+significantly reduces the number of probed for LSH based MIPS algorithms when
+achieving the same recall.

@@ -4,6 +4,7 @@ title: Learning To Prune In Metric And Non-metric Spaces
 authors: Leonid Boytsov, Bilegsaikhan Naidan
 conference: "Neural Information Processing Systems"
 year: 2013
+citations: 19
 bibkey: boytsov2013learning
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2013/hash/fc8001f834f6a5f0561080d134d53d29-Abstract.html"}

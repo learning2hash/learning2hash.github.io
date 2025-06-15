@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Perceptual Hash Function To Store And Retrieve Large Scale DNA Sequences
-authors: De Herve Jocelyn De Goer, Kang Myoung-ah, Bailly Xavier, Nguifo Engelbert Mephu
+title: 'A Perceptual Hash Function To Store And Retrieve Large Scale DNA Sequences'
+authors: Jocelyn De Goer De Herve, Myoung-ah Kang, Xavier Bailly, Engelbert Mephu Nguifo
 conference: "Arxiv"
 year: 2014
+citations: 0
 bibkey: deherve2014perceptual
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1412.5517"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1412.5517'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing']
 ---
 This paper proposes a novel approach for storing and retrieving massive DNA
 sequences.. The method is based on a perceptual hash function, commonly used to

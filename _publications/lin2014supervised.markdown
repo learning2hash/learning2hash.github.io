@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Supervised Hashing Using Graph Cuts And Boosted Decision Trees
-authors: Lin Guosheng, Shen Chunhua, Hengel Anton Van Den
+title: 'Supervised Hashing Using Graph Cuts And Boosted Decision Trees'
+authors: Guosheng Lin, Chunhua Shen, Anton Van Den Hengel
 conference: "Arxiv"
 year: 2014
+citations: 75
 bibkey: lin2014supervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1408.5574"}
-tags: ['ARXIV', 'Graph', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1408.5574'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Vector Indexing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Embedding image features into a binary Hamming space can improve both the
 speed and accuracy of large-scale query-by-example image retrieval systems.

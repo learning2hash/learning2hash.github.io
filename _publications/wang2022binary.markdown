@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Binary Representation Via Jointly Personalized Sparse Hashing
-authors: Wang Xiaoqin, Chen Chen, Lan Rushi, Liu Licheng, Liu Zhenbing, Zhou Huiyu, Luo Xiaonan
+title: 'Binary Representation Via Jointly Personalized Sparse Hashing'
+authors: Xiaoqin Wang et al.
 conference: "Arxiv"
 year: 2022
+citations: 19
 bibkey: wang2022binary
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2208.14883"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2208.14883'}
+tags: ['Independent', 'Model Design', 'Efficiency', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing']
 ---
 Unsupervised hashing has attracted much attention for binary representation
 learning due to the requirement of economical storage and efficiency of binary

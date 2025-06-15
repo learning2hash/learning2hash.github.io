@@ -4,10 +4,11 @@ title: Creating Something From Nothing Unsupervised Knowledge Distillation For C
 authors: Hu Hengtong, Xie, Hong, Tian
 conference: "Arxiv"
 year: 2024
+citations: 101
 bibkey: hu2024creating
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/pdf/2004.00280.pdf"}
-tags: ['ARXIV', 'Cross Modal', 'Unsupervised']
+tags: ['ARXIV', 'Cross Modal', 'Unsupervised', 'Supervised']
 ---
 In recent years, cross-modal hashing (CMH) has attracted increasing attentions, mainly because its potential
 ability of mapping contents from different modalities, especially in vision and language, into the same space, so that

@@ -4,6 +4,7 @@ title: Searching With Quantization Approximate Nearest Neighbor Search Using Sho
 authors: Jegou H., Douze, Schmid
 conference: "Arxiv"
 year: 2024
+citations: 17
 bibkey: jegou2024searching
 additional_links:
   - {name: "Paper", url: "https://hal.inria.fr/inria-00410767/document/"}

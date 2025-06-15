@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Compactness Of Hashing Modes And Efficiency Beyond Merkle Tree
-authors: Andreeva Elena, Bhattacharyya Rishiraj, Roy Arnab
+title: 'Compactness Of Hashing Modes And Efficiency Beyond Merkle Tree'
+authors: Elena Andreeva, Rishiraj Bhattacharyya, Arnab Roy
 conference: "Arxiv"
 year: 2021
+citations: 4
 bibkey: andreeva2021compactness
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2104.15055"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2104.15055'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Compression', 'Hashing']
 ---
 We revisit the classical problem of designing optimally efficient
 cryptographically secure hash functions. Hash functions are traditionally

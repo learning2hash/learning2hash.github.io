@@ -4,10 +4,11 @@ title: Two Birds One Stone Jointly Learning Binary Code For Large-scale Face Ima
 authors: Li Yan, Wang, Liu, Jiang, Chen
 conference: "Arxiv"
 year: 2024
+citations: 31
 bibkey: li2024two
 additional_links:
   - {name: "Paper", url: "https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Li_Two_Birds_One_ICCV_2015_paper.pdf"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Image Retrieval', 'Supervised', 'Supervised']
 ---
 We address the challenging large-scale content-based
 face image retrieval problem, intended as searching images

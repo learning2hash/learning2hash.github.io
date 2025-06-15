@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Revisiting Kernelized Locality-sensitive Hashing For Improved Large-scale Image Retrieval
-authors: Jiang Ke, Que Qichao, Kulis Brian
+title: 'Revisiting Kernelized Locality-sensitive Hashing For Improved Large-scale Image Retrieval'
+authors: Ke Jiang, Qichao Que, Brian Kulis
 conference: "Arxiv"
 year: 2014
+citations: 21
 bibkey: jiang2014revisiting
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1411.4199"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1411.4199'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Supervised', 'Hashing', 'Applications']
 ---
 We present a simple but powerful reinterpretation of kernelized
 locality-sensitive hashing (KLSH), a general and popular method developed in

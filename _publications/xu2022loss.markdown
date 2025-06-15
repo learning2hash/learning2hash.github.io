@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Hyp^2 Loss Beyond Hypersphere Metric Space For Multi-label Image Retrieval
-authors: Xu Chengyin, Chai Zenghao, Xu Zhengzhuo, Yuan Chun, Fan Yanbo, Wang Jue
+authors: Xu Chengyin et al.
 conference: "Arxiv"
 year: 2022
+citations: 12
 bibkey: xu2022loss
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2208.06866"}

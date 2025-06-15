@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Experimental Analysis Of Machine Learning Techniques For Finding Search Radius In Locality Sensitive Hashing
-authors: Jafari Omid, Nagarkar Parth
+title: 'Experimental Analysis Of Machine Learning Techniques For Finding Search Radius In Locality Sensitive Hashing'
+authors: Omid Jafari, Parth Nagarkar
 conference: "Arxiv"
 year: 2022
+citations: 1
 bibkey: jafari2022experimental
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2211.09093"}
-tags: ['ARXIV', 'LSH', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2211.09093'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Hashing', 'Applications']
 ---
 Finding similar data in high-dimensional spaces is one of the important tasks
 in multimedia applications. Approaches introduced to find exact searching

@@ -4,6 +4,7 @@ title: Binary Code Ranking With Weighted Hamming Distance
 authors: Zhang Lei, Zhang, Tang, Lu, Tian
 conference: "Arxiv"
 year: 2024
+citations: 69
 bibkey: zhang2024binary
 additional_links:
   - {name: "Paper", url: "https://openaccess.thecvf.com/content_cvpr_2013/papers/Zhang_Binary_Code_Ranking_2013_CVPR_paper.pdf"}

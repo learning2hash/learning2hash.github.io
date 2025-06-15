@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning Hash Codes Via Hamming Distance Targets
-authors: Loncaric Martin, Liu Bowei, Weber Ryan
+title: 'Learning Hash Codes Via Hamming Distance Targets'
+authors: Martin Loncaric, Bowei Liu, Ryan Weber
 conference: "Arxiv"
 year: 2018
+citations: 4
 bibkey: loncaric2018learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1810.01008"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1810.01008'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 We present a powerful new loss function and training scheme for learning
 binary hash codes with any differentiable model and similarity function. Our

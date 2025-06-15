@@ -4,6 +4,7 @@ title: Fmhash Deep Hashing Of In-air-handwriting For User Identification
 authors: Lu Duo, Huang Dijiang, Rai Anshul
 conference: "Arxiv"
 year: 2018
+citations: 8
 bibkey: lu2018fmhash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1806.03574"}

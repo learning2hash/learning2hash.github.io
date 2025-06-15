@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Collision-resistant Hash Function Based On Composition Of Functions
-authors: Ndoundam Rene, Sadie Juvet Karnel
-conference: "ARIMA Vol."
+title: 'Collision-resistant Hash Function Based On Composition Of Functions'
+authors: Rene Ndoundam, Juvet Karnel Sadie
+conference: "ARIMA Vol. 14 - pp. 167-183 2011"
 year: 2011
+citations: 0
 bibkey: ndoundam2011collision
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1108.1478"}
-tags: ['Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1108.1478'}
+tags: ['Deep', 'Independent', 'Unimodal', 'Compression', 'Hashing']
 ---
 cryptographic hash function is a deterministic procedure that compresses an
 arbitrary block of numerical data and returns a fixed-size bit string. There

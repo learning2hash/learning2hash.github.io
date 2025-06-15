@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Bio-inspired Hashing For Unsupervised Similarity Search
-authors: Ryali Chaitanya K., Hopfield John J., Grinberg Leopold, Krotov Dmitry
-conference: "Proceedings of the International Conference on Machine Learning"
+title: 'Bio-inspired Hashing For Unsupervised Similarity Search'
+authors: Chaitanya K. Ryali, John J. Hopfield, Leopold Grinberg, Dmitry Krotov
+conference: "Proceedings of the International Conference on Machine Learning 2020 pp.8739-8750"
 year: 2020
+citations: 4
 bibkey: ryali2020bio
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2001.04907"}
-tags: ['ICML', 'LSH', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2001.04907'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 The fruit fly Drosophila's olfactory circuit has inspired a new locality
 sensitive hashing (LSH) algorithm, FlyHash. In contrast with classical LSH

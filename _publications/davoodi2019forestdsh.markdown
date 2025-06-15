@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Forestdsh A Universal Hash Design For Discrete Probability Distributions
-authors: Davoodi Arash Gholami, Chang Sean, Yoo Hyun Gon, Baweja Anubhav, Mongia Mihir, Mohimani Hosein
+authors: Davoodi Arash Gholami et al.
 conference: "DAMI"
 year: 2019
+citations: 0
 bibkey: davoodi2019forestdsh
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1905.04559"}

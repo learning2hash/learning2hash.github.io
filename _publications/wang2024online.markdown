@@ -4,6 +4,7 @@ title: Online Collective Matrix Factorization Hashing For Large-scale Cross-medi
 authors: Wang Di, Wang, An, Gao, Tian
 conference: "Arxiv"
 year: 2024
+citations: 46
 bibkey: wang2024online
 additional_links:
   - {name: "Paper", url: "https://dl.acm.org/doi/10.1145/3397271.3401132"}

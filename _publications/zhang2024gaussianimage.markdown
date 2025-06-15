@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Gaussianimage 1000 FPS Image Representation And Compression By 2D Gaussian Splatting
-authors: Zhang Xinjie, Ge Xingtong, Xu Tongda, He Dailan, Wang Yan, Qin Hongwei, Lu Guo, Geng Jing, Zhang Jun
+authors: Zhang Xinjie et al.
 conference: "Arxiv"
 year: 2024
+citations: 2
 bibkey: zhang2024gaussianimage
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2403.08551"}

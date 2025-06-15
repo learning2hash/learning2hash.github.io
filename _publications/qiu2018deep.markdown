@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Semantic Hashing With Generative Adversarial Networks
-authors: Qiu Zhaofan, Pan Yingwei, Yao Ting, Mei Tao
+title: 'Deep Semantic Hashing With Generative Adversarial Networks'
+authors: Zhaofan Qiu, Yingwei Pan, Ting Yao, Tao Mei
 conference: "Arxiv"
 year: 2018
+citations: 62
 bibkey: qiu2018deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1804.08275"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1804.08275'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Hashing has been a widely-adopted technique for nearest neighbor search in
 large-scale image retrieval tasks. Recent research has shown that leveraging

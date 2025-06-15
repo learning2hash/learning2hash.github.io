@@ -4,6 +4,7 @@ title: Simple Strategies For Recovering Inner Products From Coarsely Quantized R
 authors: Ping Li, Martin Slawski
 conference: "Neural Information Processing Systems"
 year: 2017
+citations: 8
 bibkey: li2017simple
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2017/hash/ea159dc9788ffac311592613b7f71fbb-Abstract.html"}

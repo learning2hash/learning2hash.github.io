@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: CHAIN Exploring Global-local Spatio-temporal Information For Improved Self-supervised Video Hashing
-authors: Wei Rukai, Liu Yu, Song Jingkuan, Cui Heng, Xie Yanzhao, Zhou Ke
+authors: Wei Rukai et al.
 conference: "Arxiv"
 year: 2023
+citations: 8
 bibkey: wei2023chain
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2310.18926"}
-tags: ['ARXIV', 'Supervised', 'Video Retrieval']
+tags: ['ARXIV', 'Supervised', 'Video Retrieval', 'Self-Supervised']
 ---
 Compressing videos into binary codes can improve retrieval speed and reduce
 storage overhead. However, learning accurate hash codes for video retrieval can

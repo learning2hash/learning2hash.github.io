@@ -4,6 +4,7 @@ title: A General Two-step Approach To Learning-based Hashing
 authors: Lin G., Shen, Suter, Hengel
 conference: "Arxiv"
 year: 2024
+citations: 126
 bibkey: lin2024general
 additional_links:
   - {name: "Paper", url: "http://arxiv.org/pdf/1309.1853v1.pdf"}

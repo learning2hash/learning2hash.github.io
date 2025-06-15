@@ -1,12 +1,29 @@
 ---
 layout: publication
-title: Efficient Training Of Very Deep Neural Networks For Supervised Hashing
-authors: Zhang Ziming, Chen, Saligrama
+title: 'Efficient And Effective Retrieval Of Dense-sparse Hybrid Vectors Using Graph-based Approximate Nearest Neighbor Search'
+authors: Haoyu Zhang et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: zhang2024efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1511.04524"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2410.20381'}
+tags: ['Deep', 'Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Vector Indexing']
 ---
-In this paper, we propose training very deep neural networks (DNNs) for supervised learning of hash codes. Existing methods in this context train relatively "shallow" networks limited by the issues arising in back propagation (e.e. vanishing gradients) as well as computational efficiency. We propose a novel and efficient training algorithm inspired by alternating direction method of multipliers (ADMM) that overcomes some of these limitations. Our method decomposes the training process into independent layer-wise local updates through auxiliary variables. Empirically we observe that our training algorithm always converges and its computational complexity is linearly proportional to the number of edges in the networks. Empirically we manage to train DNNs with 64 hidden layers and 1024 nodes per layer for supervised hashing in about 3 hours using a single GPU. Our proposed very deep supervised hashing (VDSH) method significantly outperforms the state-of-the-art on several benchmark datasets.
+ANNS for embedded vector representations of texts is commonly used in
+information retrieval, with two important information representations being
+sparse and dense vectors. While it has been shown that combining these
+representations improves accuracy, the current method of conducting sparse and
+dense vector searches separately suffers from low scalability and high system
+complexity. Alternatively, building a unified index faces challenges with
+accuracy and efficiency. To address these issues, we propose a graph-based ANNS
+algorithm for dense-sparse hybrid vectors. Firstly, we propose a distribution
+alignment method to improve accuracy, which pre-samples dense and sparse
+vectors to analyze their distance distribution statistic, resulting in a
+1%\\(\sim\\)9% increase in accuracy. Secondly, to improve efficiency, we design an
+adaptive two-stage computation strategy that initially computes dense distances
+only and later computes hybrid distances. Further, we prune the sparse vectors
+to speed up the calculation. Compared to naive implementation, we achieve
+\\(\sim2.1\times\\) acceleration. Thorough experiments show that our algorithm
+achieves 8.9x\\(\sim\\)11.7x throughput at equal accuracy compared to existing
+hybrid vector search algorithms.

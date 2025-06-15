@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Enhanced Discrete Multi-modal Hashing More Constraints Yet Less Time To Learn
-authors: Chen Yong, Zhang, Tian, Wang, Zhang, Li
+authors: Chen Yong et al.
 conference: "Arxiv"
 year: 2024
+citations: 29
 bibkey: chen2024enhanced
 additional_links:
   - {name: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/9095226"}

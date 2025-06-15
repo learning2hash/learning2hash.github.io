@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Triplet Quantization
-authors: Liu Bin, Cao Yue, Long Mingsheng, Wang Jianmin, Wang Jingdong
+title: 'Deep Triplet Quantization'
+authors: Bin Liu, Yue Cao, Mingsheng Long, Jianmin Wang, Jingdong Wang
 conference: "Arxiv"
 year: 2019
+citations: 106
 bibkey: liu2019deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1902.00153"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1902.00153'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Datasets', 'Deep Hashing', 'Quantization', 'Hashing', 'Applications']
 ---
 Deep hashing establishes efficient and effective image retrieval by
 end-to-end learning of deep representations and hash codes from similarity

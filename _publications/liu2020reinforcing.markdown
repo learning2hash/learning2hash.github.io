@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Reinforcing Short-length Hashing
-authors: Liu Xingbo, Nie Xiushan, Dai Qi, Huang Yupan, Yin Yilong
+title: 'Reinforcing Short-length Hashing'
+authors: Xingbo Liu, Xiushan Nie, Qi Dai, Yupan Huang, Yilong Yin
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: liu2020reinforcing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.11511"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.11511'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Similarity Learning', 'Hashing', 'Applications']
 ---
 Due to the compelling efficiency in retrieval and storage,
 similarity-preserving hashing has been widely applied to approximate nearest

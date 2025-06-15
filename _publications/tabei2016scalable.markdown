@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Scalable Similarity Search For Molecular Descriptors
-authors: Tabei Yasuo, Puglisi Simon J.
+title: 'Scalable Similarity Search For Molecular Descriptors'
+authors: Yasuo Tabei, Simon J. Puglisi
 conference: "Arxiv"
 year: 2016
+citations: 0
 bibkey: tabei2016scalable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1611.10045"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1611.10045'}
+tags: ['Retrieval Models', 'Unimodal', 'Supervised', 'Shallow']
 ---
 Similarity search over chemical compound databases is a fundamental task in
 the discovery and design of novel drug-like molecules. Such databases often

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Video Segment Copy Detection Using Memory Constrained Hierarchical Batch-normalized LSTM Autoencoder
-authors: Krishna Arjun, Ibrahim A S Akil Arif
+title: 'Video Segment Copy Detection Using Memory Constrained Hierarchical Batch-normalized LSTM Autoencoder'
+authors: Arjun Krishna, A S Akil Arif Ibrahim
 conference: "Arxiv"
 year: 2019
+citations: 0
 bibkey: krishna2019video
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1911.09518"}
-tags: ['ARXIV', 'Deep Learning', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1911.09518'}
+tags: ['Deep', 'Independent', 'Model Design', 'Unimodal', 'Hashing']
 ---
 In this report, we introduce a video hashing method for scalable video
 segment copy detection. The objective of video segment copy detection is to

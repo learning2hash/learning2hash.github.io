@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Efficient End-to-end Learning For Quantizable Representations
-authors: Jeong Yeonwoo, Song Hyun Oh
+title: 'Efficient End-to-end Learning For Quantizable Representations'
+authors: Yeonwoo Jeong, Hyun Oh Song
 conference: "Arxiv"
 year: 2018
+citations: 9
 bibkey: jeong2018efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1805.05809"}
-  - {name: "Code", url: "https://github.com/maestrojeong/Deep-Hash-Table-ICML18"}
-tags: ['ARXIV', 'Has Code', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1805.05809'}
+  - {name: "Code", url: 'https://github.com/maestrojeong/Deep-Hash-Table-ICML18'}
+tags: ['Cross-Modal', 'Independent', 'Model Design', 'Efficiency', 'Evaluation', 'Shallow', 'Conferences', 'Datasets', 'Has Code', 'Similarity Learning']
 ---
 Embedding representation learning via neural networks is at the core
 foundation of modern similarity based search. While much effort has been put in

@@ -4,6 +4,7 @@ title: Collective Deep Quantization For Efficient Cross-modal Retrieval
 authors: Cao Yue, Long, Wang, Liu
 conference: "Arxiv"
 year: 2024
+citations: 46
 bibkey: cao2024collective
 additional_links:
   - {name: "Paper", url: "http://yue-cao.me/doc/collective-deep-quantization-aaai17.pdf"}

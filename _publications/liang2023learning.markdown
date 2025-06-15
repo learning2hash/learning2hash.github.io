@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Learning Compact Compositional Embeddings Via Regularized Pruning For Recommendation
-authors: Liang Xurong, Chen Tong, Nguyen Quoc Viet Hung, Li Jianxin, Yin Hongzhi
+title: 'Learning Compact Compositional Embeddings Via Regularized Pruning For Recommendation'
+authors: Xurong Liang, Tong Chen, Quoc Viet Hung Nguyen, Jianxin Li, Hongzhi Yin
 conference: "Arxiv"
 year: 2023
+citations: 2
 bibkey: liang2023learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2309.03518"}
-  - {name: "Code", url: "https://github.com/xurong-liang/CERP"}
-tags: ['ARXIV', 'Has Code', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2309.03518'}
+  - {name: "Code", url: 'https://github.com/xurong-liang/CERP'}
+tags: ['Deep', 'Independent', 'Unimodal', 'Datasets', 'Has Code', 'Hashing', 'Applications']
 ---
 Latent factor models are the dominant backbones of contemporary recommender
 systems (RSs) given their performance advantages, where a unique vector

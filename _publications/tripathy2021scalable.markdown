@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Scalable Hash Table For NUMA Systems
-authors: Tripathy Alok, Green Oded
+title: 'Scalable Hash Table For NUMA Systems'
+authors: Alok Tripathy, Oded Green
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: tripathy2021scalable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2104.00792"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2104.00792'}
+tags: ['Unimodal', 'Independent', 'Applications', 'Shallow']
 ---
 Hash tables are used in a plethora of applications, including database
 operations, DNA sequencing, string searching, and many more. As such, there are

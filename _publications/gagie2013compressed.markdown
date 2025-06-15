@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Compressed Spaced Suffix Arrays
-authors: Gagie Travis, Manzini Giovanni, Valenzuela Daniel
+title: 'Compressed Spaced Suffix Arrays'
+authors: Travis Gagie, Giovanni Manzini, Daniel Valenzuela
 conference: "Arxiv"
 year: 2013
+citations: 2
 bibkey: gagie2013compressed
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1312.3422"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1312.3422'}
+tags: ['Retrieval Models', 'Independent', 'Cross-Modal', 'Shallow']
 ---
 Spaced seeds are important tools for similarity search in bioinformatics, and
 using several seeds together often significantly improves their performance.

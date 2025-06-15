@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Space-efficient Algorithms For Computing Minimal/shortest Unique Substrings
-authors: Mieno Takuya, Köppl Dominik, Nakashima Yuto, Inenaga Shunsuke, Bannai Hideo, Takeda Masayuki
+title: 'Space-efficient Algorithms For Computing Minimal/shortest Unique Substrings'
+authors: Takuya Mieno et al.
 conference: "Arxiv"
 year: 2019
+citations: 0
 bibkey: mieno2019space
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.12854"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.12854'}
+tags: ['Unimodal', 'Supervised', 'Shallow']
 ---
 Given a string \\(T\\) of length \\(n\\), a substring \\(u = T[i..j]\\) of \\(T\\) is called
 a shortest unique substring (SUS) for an interval \\([s,t]\\) if (a) \\(u\\) occurs

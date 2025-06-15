@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Combined Descriptors In Spatial Pyramid Domain For Image Classification
-authors: Hu Junlin, Guo Ping
+title: 'Combined Descriptors In Spatial Pyramid Domain For Image Classification'
+authors: Junlin Hu, Ping Guo
 conference: "Arxiv"
 year: 2012
+citations: 1
 bibkey: hu2012combined
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1210.0386"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1210.0386'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Datasets', 'Quantization']
 ---
 Recently spatial pyramid matching (SPM) with scale invariant feature
 transform (SIFT) descriptor has been successfully used in image classification.

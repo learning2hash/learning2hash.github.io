@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sparse Ternary Codes For Similarity Search Have Higher Coding Gain Than Dense Binary Codes
-authors: Ferdowsi Sohrab, Voloshynovskiy Slava, Kostadinov Dimche, Holotyak Taras
+title: 'Sparse Ternary Codes For Similarity Search Have Higher Coding Gain Than Dense Binary Codes'
+authors: Sohrab Ferdowsi, Slava Voloshynovskiy, Dimche Kostadinov, Taras Holotyak
 conference: "Arxiv"
 year: 2017
+citations: 8
 bibkey: ferdowsi2017sparse
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1701.07675"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1701.07675'}
+tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Vector Indexing', 'Hashing']
 ---
 This paper addresses the problem of Approximate Nearest Neighbor (ANN) search
 in pattern recognition where feature vectors in a database are encoded as

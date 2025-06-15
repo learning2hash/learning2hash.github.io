@@ -4,6 +4,7 @@ title: A Cuckoo Hashing Variant With Improved Memory Utilization And Insertion T
 authors: Porat Ely, Shalem Bar
 conference: "Arxiv"
 year: 2011
+citations: 3
 bibkey: porat2011cuckoo
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1104.5400"}

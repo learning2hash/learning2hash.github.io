@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On The Evaluation Metric For Hashing
-authors: Jiang Qing-yuan, Li Ming-wei, Li Wu-jun
+title: 'On The Evaluation Metric For Hashing'
+authors: Qing-yuan Jiang, Ming-wei Li, Wu-jun Li
 conference: "Arxiv"
 year: 2019
+citations: 4
 bibkey: jiang2019evaluation
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.10951"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.10951'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 Due to its low storage cost and fast query speed, hashing has been widely
 used for large-scale approximate nearest neighbor (ANN) search. Bucket search,

@@ -4,6 +4,7 @@ title: Very Sparse Random Projections
 authors: Li Ping, Hastie, Church
 conference: "Arxiv"
 year: 2024
+citations: 351
 bibkey: li2024very
 additional_links:
   - {name: "Paper", url: "https://web.stanford.edu/~hastie/Papers/Ping/KDD06_rp.pdf/"}

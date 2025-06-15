@@ -1,28 +1,25 @@
 ---
 layout: publication
-title: Compressing Convolutional Neural Networks
-authors: Chen Wenlin, Wilson James T., Tyree Stephen, Weinberger Kilian Q., Chen Yixin
+title: 'Compressing Neural Networks With The Hashing Trick'
+authors: Wenlin Chen, James T. Wilson, Stephen Tyree, Kilian Q. Weinberger, Yixin Chen
 conference: "Arxiv"
 year: 2015
+citations: 607
 bibkey: chen2015compressing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1506.04449"}
-tags: ['ARXIV', 'CNN', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1504.04788'}
+tags: ['Deep', 'Independent', 'Unimodal', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
 ---
-Convolutional neural networks (CNN) are increasingly used in many areas of
-computer vision. They are particularly attractive because of their ability to
-"absorb" great quantities of labeled data through millions of parameters.
-However, as model sizes increase, so do the storage and memory requirements of
-the classifiers. We present a novel network architecture, Frequency-Sensitive
-Hashed Nets (FreshNets), which exploits inherent redundancy in both
-convolutional layers and fully-connected layers of a deep learning model,
-leading to dramatic savings in memory and storage consumption. Based on the key
-observation that the weights of learned convolutional filters are typically
-smooth and low-frequency, we first convert filter weights to the frequency
-domain with a discrete cosine transform (DCT) and use a low-cost hash function
-to randomly group frequency parameters into hash buckets. All parameters
-assigned the same hash bucket share a single value learned with standard
-back-propagation. To further reduce model size we allocate fewer hash buckets
-to high-frequency components, which are generally less important. We evaluate
-FreshNets on eight data sets, and show that it leads to drastically better
-compressed performance than several relevant baselines.
+As deep nets are increasingly used in applications suited for mobile devices,
+a fundamental dilemma becomes apparent: the trend in deep learning is to grow
+models to absorb ever-increasing data set sizes; however mobile devices are
+designed with very little memory and cannot store such large models. We present
+a novel network architecture, HashedNets, that exploits inherent redundancy in
+neural networks to achieve drastic reductions in model sizes. HashedNets uses a
+low-cost hash function to randomly group connection weights into hash buckets,
+and all connections within the same hash bucket share a single parameter value.
+These parameters are tuned to adjust to the HashedNets weight sharing
+architecture with standard backprop during training. Our hashing procedure
+introduces no additional memory overhead, and we demonstrate on several
+benchmark data sets that HashedNets shrink the storage requirements of neural
+networks substantially while mostly preserving generalization performance.

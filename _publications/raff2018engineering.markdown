@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Engineering A Simplified 0-bit Consistent Weighted Sampling
-authors: Raff Edward, Sylvester Jared, Nicholas Charles
-conference: "In Proceedings of the"
+title: 'Engineering A Simplified 0-bit Consistent Weighted Sampling'
+authors: Edward Raff, Jared Sylvester, Charles Nicholas
+conference: "In Proceedings of the 27th ACM International Conference on Information and Knowledge Management. (2018) 1203-1212"
 year: 2018
+citations: 4
 bibkey: raff2018engineering
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1804.00069"}
-tags: ['COLT', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1804.00069'}
+tags: ['Cross-Modal', 'Efficiency', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
 ---
 The Min-Hashing approach to sketching has become an important tool in data
 analysis, information retrial, and classification. To apply it to real-valued

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: 2-bit Random Projections Nonlinear Estimators And Approximate Near Neighbor Search
-authors: Li Ping, Mitzenmacher Michael, Shrivastava Anshumali
+title: '2-bit Random Projections, Nonlinear Estimators, And Approximate Near Neighbor Search'
+authors: Ping Li, Michael Mitzenmacher, Anshumali Shrivastava
 conference: "Arxiv"
 year: 2016
+citations: 1
 bibkey: li2016random
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1602.06577"}
-tags: ['ARXIV', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1602.06577'}
+tags: ['Cross-Modal', 'Quantisation', 'Shallow', 'Quantization', 'Applications']
 ---
 The method of random projections has become a standard tool for machine
 learning, data mining, and search with massive data at Web scale. The effective

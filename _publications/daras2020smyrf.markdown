@@ -4,6 +4,7 @@ title: SMYRF - Efficient Attention Using Asymmetric Clustering
 authors: Giannis Daras, Nikita Kitaev, Augustus Odena, Alexandros G. Dimakis
 conference: "Neural Information Processing Systems"
 year: 2020
+citations: 12
 bibkey: daras2020smyrf
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2020/hash/47d40767c7e9df50249ebfd9c7cfff77-Abstract.html"}

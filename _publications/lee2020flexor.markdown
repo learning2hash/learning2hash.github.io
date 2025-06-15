@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Flexor Trainable Fractional Quantization
-authors: Dongsoo Lee, Se Jung Kwon, Byeongwook Kim, Yongkweon Jeon, Baeseong Park, Jeongin Yun
+authors: Dongsoo Lee et al.
 conference: "Neural Information Processing Systems"
 year: 2020
+citations: 9
 bibkey: lee2020flexor
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2020/hash/0e230b1a582d76526b7ad7fc62ae937d-Abstract.html"}

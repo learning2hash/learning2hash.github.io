@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Authenticated Data Structures For Graph Connectivity And Geometric Search Problems
-authors: Goodrich Michael T., Tamassia Roberto, Triandopoulos Nikos
+title: 'Efficient Authenticated Data Structures For Graph Connectivity And Geometric Search Problems'
+authors: Michael T. Goodrich, Roberto Tamassia, Nikos Triandopoulos
 conference: "Arxiv"
 year: 2009
+citations: 34
 bibkey: goodrich2009efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0908.4116"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0908.4116'}
+tags: ['Cross-Modal', 'Supervised', 'Deep', 'Hashing']
 ---
 Authenticated data structures provide cryptographic proofs that their answers
 are as accurate as the author intended, even if the data structure is being

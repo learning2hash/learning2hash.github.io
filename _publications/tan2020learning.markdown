@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning To Hash With Graph Neural Networks For Recommender Systems
-authors: Tan Qiaoyu, Liu Ninghao, Zhao Xing, Yang Hongxia, Zhou Jingren, Hu Xia
+title: 'Learning To Hash With Graph Neural Networks For Recommender Systems'
+authors: Qiaoyu Tan et al.
 conference: "Arxiv"
 year: 2020
+citations: 64
 bibkey: tan2020learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2003.01917"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2003.01917'}
+tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing']
 ---
 Graph representation learning has attracted much attention in supporting high
 quality candidate search at scale. Despite its effectiveness in learning

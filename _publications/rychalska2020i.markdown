@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: I Know Why You Like This Movie Interpretable Efficient Multimodal Recommender
-authors: Rychalska Barbara, Basaj Dominika, Dąbrowski Jacek, Daniluk Michał
+title: 'I Know Why You Like This Movie: Interpretable Efficient Multimodal Recommender'
+authors: Barbara Rychalska, Dominika Basaj, Jacek Dąbrowski, Michał Daniluk
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: rychalska2020i
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2006.09979"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2006.09979'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Hashing', 'Applications']
 ---
 Recently, the Efficient Manifold Density Estimator (EMDE) model has been
 introduced. The model exploits Local Sensitive Hashing and Count-Min Sketch

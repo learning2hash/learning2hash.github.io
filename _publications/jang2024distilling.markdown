@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Distilling Vision-language Pretraining For Efficient Cross-modal Retrieval
-authors: Jang Young Kyun, Kim Donghyun, Lim Ser-nam
+title: 'Distilling Vision-language Pretraining For Efficient Cross-modal Retrieval'
+authors: Young Kyun Jang, Donghyun Kim, Ser-nam Lim
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: jang2024distilling
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2405.14726"}
-tags: ['ARXIV', 'Cross Modal', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2405.14726'}
+tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Vector Indexing', 'Quantization', 'Hashing', 'Applications']
 ---
 ``Learning to hash'' is a practical solution for efficient retrieval,
 offering fast search speed and low storage cost. It is widely applied in

@@ -4,6 +4,7 @@ title: Fast Online Hashing With Multi-label Projection
 authors: Jia Wenzhe, Cao, Liu, Gui
 conference: "Arxiv"
 year: 2024
+citations: 5
 bibkey: jia2024fast
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2212.03112"}

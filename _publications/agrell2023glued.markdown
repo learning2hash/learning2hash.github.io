@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Glued Lattices Are Better Quantizers Than K_12
-authors: Agrell Erik, Pook-kolb Daniel, Allen Bruce
+title: 'Glued Lattices Are Better Quantizers Than \(K_{12}\)'
+authors: Erik Agrell, Daniel Pook-kolb, Bruce Allen
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: agrell2023glued
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2312.00481"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2312.00481'}
+tags: ['Unimodal', 'Quantization', 'Shallow', 'Quantisation']
 ---
 40 years ago, Conway and Sloane proposed using the highly symmetrical
 Coxeter-Todd lattice \\(K_\{12\}\\) for quantization, and estimated its second

@@ -4,6 +4,7 @@ title: Isotropic Hashing
 authors: Weihao Kong, Wu-jun Li
 conference: "Neural Information Processing Systems"
 year: 2012
+citations: 260
 bibkey: kong2012isotropic
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2012/hash/8c6744c9d42ec2cb9e8885b54ff744d0-Abstract.html"}

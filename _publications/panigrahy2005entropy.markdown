@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Entropy Based Nearest Neighbor Search In High Dimensions
-authors: Panigrahy Rina
+title: 'Entropy Based Nearest Neighbor Search In High Dimensions'
+authors: Rina Panigrahy
 conference: "Arxiv"
 year: 2005
+citations: 103
 bibkey: panigrahy2005entropy
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/0510019"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/0510019'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
 ---
 In this paper we study the problem of finding the approximate nearest
 neighbor of a query point in the high dimensional space, focusing on the

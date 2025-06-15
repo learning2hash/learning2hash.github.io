@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Improved Search In Hamming Space Using Deep Multi-index Hashing
-authors: Lai Hanjiang, Pan Yan
+title: 'Improved Search In Hamming Space Using Deep Multi-index Hashing'
+authors: Hanjiang Lai, Yan Pan
 conference: "Arxiv"
 year: 2017
+citations: 6
 bibkey: lai2017improved
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1710.06993"}
-tags: ['ARXIV', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1710.06993'}
+tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Hashing', 'Applications']
 ---
 Similarity-preserving hashing is a widely-used method for nearest neighbour
 search in large-scale image retrieval tasks. There has been considerable

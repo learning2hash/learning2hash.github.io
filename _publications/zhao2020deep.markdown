@@ -4,10 +4,11 @@ title: Deep Optimized Multiple Description Image Coding Via Scalar Quantization 
 authors: Zhao Lijun, Bai Huihui, Wang Anhong, Zhao Yao
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: zhao2020deep
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2001.03851"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+tags: ['ARXIV', 'Quantisation', 'Supervised', 'Self-Supervised']
 ---
 In this paper, we introduce a deep multiple description coding (MDC)
 framework optimized by minimizing multiple description (MD) compressive loss.

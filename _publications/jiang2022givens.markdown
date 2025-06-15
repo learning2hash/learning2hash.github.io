@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Givens Coordinate Descent Methods For Rotation Matrix Learning In Trainable Embedding Indexes
-authors: Jiang Yunjiang, Zhang Han, Qiu Yiming, Xiao Yun, Long Bo, Yang Wen-yun
-conference: "The Tenth International Conference on Learning Representations"
+title: 'Givens Coordinate Descent Methods For Rotation Matrix Learning In Trainable Embedding Indexes'
+authors: Yunjiang Jiang et al.
+conference: "The Tenth International Conference on Learning Representations (ICLR 2022)"
 year: 2022
+citations: 1
 bibkey: jiang2022givens
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2203.05082"}
-tags: ['ICML', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2203.05082'}
+tags: ['Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Vector Indexing', 'Training Strategy']
 ---
 Product quantization (PQ) coupled with a space rotation, is widely used in
 modern approximate nearest neighbor (ANN) search systems to significantly

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Spectral Toolkit Of Algorithms For Graphs Technical Report (2)
-authors: Macgregor Peter, Sun He
+title: 'Spectral Toolkit Of Algorithms For Graphs: Technical Report (2)'
+authors: Peter Macgregor, He Sun
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: macgregor2024spectral
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2407.07096"}
-tags: ['ARXIV', 'Graph', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2407.07096'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
 ---
 Spectral Toolkit of Algorithms for Graphs (STAG) is an open-source library
 for efficient graph algorithms. This technical report presents the newly

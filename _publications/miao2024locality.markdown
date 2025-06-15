@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Locality-sensitive Hashing-based Efficient Point Transformer With Applications In High-energy Physics
-authors: Miao Siqi, Lu Zhiyuan, Liu Mia, Duarte Javier, Li Pan
+title: 'Locality-sensitive Hashing-based Efficient Point Transformer With Applications In High-energy Physics'
+authors: Siqi Miao, Zhiyuan Lu, Mia Liu, Javier Duarte, Pan Li
 conference: "Arxiv"
 year: 2024
+citations: 1
 bibkey: miao2024locality
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2402.12535"}
-  - {name: "Code", url: "https://github.com/Graph-COM/HEPT"}
-tags: ['ARXIV', 'Deep Learning', 'Graph', 'Has Code', 'LSH', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2402.12535'}
+  - {name: "Code", url: 'https://github.com/Graph-COM/HEPT'}
+tags: ['Unimodal', 'Shallow', 'Has Code', 'Supervised', 'Hashing', 'Applications']
 ---
 This study introduces a novel transformer model optimized for large-scale
 point cloud processing in scientific domains such as high-energy physics (HEP)

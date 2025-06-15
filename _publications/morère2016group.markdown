@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Group Invariant Deep Representations For Image Instance Retrieval
-authors: Morère Olivier, Veillard Antoine, Lin Jie, Petta Julie, Chandrasekhar Vijay, Poggio Tomaso
+title: 'Group Invariant Deep Representations For Image Instance Retrieval'
+authors: Olivier Morère et al.
 conference: "Arxiv"
 year: 2016
+citations: 6
 bibkey: morère2016group
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1601.02093"}
-tags: ['ARXIV', 'CNN', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1601.02093'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Datasets', 'Quantization', 'Hashing']
 ---
 Most image instance retrieval pipelines are based on comparison of vectors
 known as global image descriptors between a query image and the database

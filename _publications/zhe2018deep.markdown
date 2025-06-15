@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Class-wise Hashing Semantics-preserving Hashing Via Class-wise Loss
-authors: Zhe Xuefei, Chen Shifeng, Yan Hong
+title: 'Deep Class-wise Hashing: Semantics-preserving Hashing Via Class-wise Loss'
+authors: Xuefei Zhe, Shifeng Chen, Hong Yan
 conference: "Arxiv"
 year: 2018
+citations: 29
 bibkey: zhe2018deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1803.04137"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1803.04137'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Similarity Learning', 'Supervised Hashing', 'Applications']
 ---
 Deep supervised hashing has emerged as an influential solution to large-scale
 semantic image retrieval problems in computer vision. In the light of recent

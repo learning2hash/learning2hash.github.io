@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Data-parallel Hashing Techniques For GPU Architectures
-authors: Lessley Brenton
+title: 'Data-parallel Hashing Techniques For GPU Architectures'
+authors: Brenton Lessley
 conference: "Arxiv"
 year: 2018
+citations: 24
 bibkey: lessley2018data
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1807.04345"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1807.04345'}
+tags: ['Deep', 'Independent', 'Unimodal', 'Surveys and Reviews', 'Hashing']
 ---
 Hash tables are one of the most fundamental data structures for effectively
 storing and accessing sparse data, with widespread usage in domains ranging

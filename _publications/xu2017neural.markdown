@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Neural Network-based Graph Embedding For Cross-platform Binary Code Similarity Detection
-authors: Xu Xiaojun, Liu Chang, Feng Qian, Yin Heng, Song Le, Song Dawn
+authors: Xu Xiaojun et al.
 conference: "Arxiv"
 year: 2017
+citations: 411
 bibkey: xu2017neural
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1708.06525"}

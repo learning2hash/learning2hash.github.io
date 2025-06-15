@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: I/o-efficient Similarity Join
-authors: Pagh Rasmus, Pham Ninh, Silvestri Francesco, Stöckel Morten
+title: 'I/o-efficient Similarity Join'
+authors: Rasmus Pagh, Ninh Pham, Francesco Silvestri, Morten Stöckel
 conference: "Arxiv"
 year: 2015
+citations: 12
 bibkey: pagh2015similarity
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1507.00552"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1507.00552'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 We present an I/O-efficient algorithm for computing similarity joins based on
 locality-sensitive hashing (LSH). In contrast to the filtering methods commonly

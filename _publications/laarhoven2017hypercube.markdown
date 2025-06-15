@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hypercube LSH For Approximate Near Neighbors
-authors: Laarhoven Thijs
-conference: ""
+title: 'Hypercube LSH For Approximate Near Neighbors'
+authors: Thijs Laarhoven
+conference: "42nd International Symposium on Mathematical Foundations of Computer Science (MFCS 2017) pp. 71-720 2017"
 year: 2017
+citations: 2
 bibkey: laarhoven2017hypercube
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1702.05760"}
-tags: ['Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1702.05760'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 A celebrated technique for finding near neighbors for the angular distance
 involves using a set of \textit\{random\} hyperplanes to partition the space into

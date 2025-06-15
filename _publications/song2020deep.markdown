@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Robust Multilevel Semantic Cross-modal Hashing
-authors: Song Ge, Zhao Jun, Tan Xiaoyang
+title: 'Deep Robust Multilevel Semantic Cross-modal Hashing'
+authors: Ge Song, Jun Zhao, Xiaoyang Tan
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: song2020deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2002.02698"}
-tags: ['ARXIV', 'Cross Modal', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2002.02698'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Multi-Modal Hashing', 'Supervised Hashing']
 ---
 Hashing based cross-modal retrieval has recently made significant progress.
 But straightforward embedding data from different modalities into a joint

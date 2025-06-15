@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing Based Contrastive Learning For Virtual Screening
-authors: Han Jin, Hong Yun, Li Wu-jun
+title: 'Hashing Based Contrastive Learning For Virtual Screening'
+authors: Jin Han, Yun Hong, Wu-jun Li
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: han2024hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2407.19790"}
-tags: ['ARXIV', 'Deep Learning', 'Self Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2407.19790'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
 ---
 Virtual screening (VS) is a critical step in computer-aided drug discovery,
 aiming to identify molecules that bind to a specific target receptor like

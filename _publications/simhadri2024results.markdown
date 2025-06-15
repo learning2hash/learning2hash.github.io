@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Results Of The Big ANN Neurips23 Competition
-authors: Simhadri Harsha Vardhan, Aumüller Martin, Ingber Amir, Douze Matthijs, Williams George, Manohar Magdalen Dobson, Baranchuk Dmitry, Liberty Edo, Liu Frank, Landrum Ben, Karjikar Mazin, Dhulipala Laxman, Chen Meng, Chen Yue, Ma Rui, Zhang Kai, Cai Yuzheng, Shi Jiayang, Chen Yizhuo, Zheng Weiguo, Wan Zihao, Yin Jie, Huang Ben
+authors: Simhadri Harsha Vardhan et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: simhadri2024results
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2409.17424"}

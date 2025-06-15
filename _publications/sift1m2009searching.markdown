@@ -4,6 +4,7 @@ title: "Searching with quantization: approximate nearest neighbor search using s
 authors: H. Jegou, M. Douze, C. Schmid
 conference: INRIA Technical Report
 year: 2009
+citations: 17
 bibkey: sift1m2009searching
 additional_links:
    - {name: "PDF", url: "https://hal.inria.fr/inria-00410767/document/"}

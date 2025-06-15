@@ -4,6 +4,7 @@ title: Hash Layers For Large Sparse Models
 authors: Stephen Roller, Sainbayar Sukhbaatar, Arthur Szlam, Jason Weston
 conference: "Neural Information Processing Systems"
 year: 2021
+citations: 47
 bibkey: roller2021hash
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2021/hash/92bf5e6240737e0326ea59846a83e076-Abstract.html"}

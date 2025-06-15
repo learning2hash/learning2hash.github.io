@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Scalable Protein Sequence Similarity Search Using Locality-sensitive Hashing And Mapreduce
-authors: Sunarso Freddie, Venugopal Srikumar, Lauro Federico
+title: 'Scalable Protein Sequence Similarity Search Using Locality-sensitive Hashing And Mapreduce'
+authors: Freddie Sunarso, Srikumar Venugopal, Federico Lauro
 conference: "Arxiv"
 year: 2013
+citations: 2
 bibkey: sunarso2013scalable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1310.0883"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1310.0883'}
+tags: ['Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
 ---
 Metagenomics is the study of environments through genetic sampling of their
 microbiota. Metagenomic studies produce large datasets that are estimated to

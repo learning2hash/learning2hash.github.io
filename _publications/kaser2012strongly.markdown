@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Strongly Universal String Hashing Is Fast
-authors: Kaser Owen, Lemire Daniel
-conference: "Computer Journal"
+title: 'Strongly Universal String Hashing Is Fast'
+authors: Owen Kaser, Daniel Lemire
+conference: "Computer Journal (2014) 57 (11) 1624-1638"
 year: 2012
+citations: 12
 bibkey: kaser2012strongly
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1202.4961"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1202.4961'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 We present fast strongly universal string hashing families: they can process
 data at a rate of 0.2 CPU cycle per byte. Maybe surprisingly, we find that

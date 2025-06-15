@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: SPANN Highly-efficient Billion-scale Approximate Nearest Neighborhood Search
-authors: Qi Chen, Bing Zhao, Haidong Wang, Mingqin Li, Chuanjie Liu, Zhiyong Zheng, Mao Yang, Jingdong Wang
+authors: Qi Chen et al.
 conference: "Neural Information Processing Systems"
 year: 2021
+citations: 0
 bibkey: chen2021spann
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2021/hash/299dc35e747eb77177d9cea10a802da2-Abstract.html"}

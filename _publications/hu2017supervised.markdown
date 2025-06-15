@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Supervised Hashing Based On Energy Minimization
-authors: Hu Zihao, Luo Xiyi, Lu Hongtao, Yu Yong
+title: 'Supervised Hashing Based On Energy Minimization'
+authors: Zihao Hu, Xiyi Luo, Hongtao Lu, Yong Yu
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: hu2017supervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1712.00573"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1712.00573'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Supervised Hashing']
 ---
 Recently, supervised hashing methods have attracted much attention since they
 can optimize retrieval speed and storage cost while preserving semantic

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Semantic Cluster Unary Loss For Efficient Deep Hashing
-authors: Zhang Shifeng, Li Jianmin, Zhang Bo
-conference: "IEEE Transactions on Image Processing"
+title: 'Semantic Cluster Unary Loss For Efficient Deep Hashing'
+authors: Shifeng Zhang, Jianmin Li, Bo Zhang
+conference: "IEEE Transactions on Image Processing 2019"
 year: 2018
+citations: 9
 bibkey: zhang2018semantic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1805.08705"}
-tags: ['Deep Learning', 'ICIP', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1805.08705'}
+tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing']
 ---
 Hashing method maps similar data to binary hashcodes with smaller hamming
 distance, which has received a broad attention due to its low storage cost and

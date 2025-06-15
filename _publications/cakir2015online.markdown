@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Online Supervised Hashing For Ever-growing Datasets
-authors: Cakir Fatih, Bargal Sarah Adel, Sclaroff Stan
+title: 'Online Supervised Hashing For Ever-growing Datasets'
+authors: Fatih Cakir, Sarah Adel Bargal, Stan Sclaroff
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: cakir2015online
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1511.03257"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1511.03257'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Supervised hashing methods are widely-used for nearest neighbor search in
 computer vision applications. Most state-of-the-art supervised hashing

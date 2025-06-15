@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Hashing Via Householder Quantization
-authors: Schwengber Lucas R., Resende Lucas, Orenstein Paulo, Oliveira Roberto I.
+title: 'Deep Hashing Via Householder Quantization'
+authors: Lucas R. Schwengber, Lucas Resende, Paulo Orenstein, Roberto I. Oliveira
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: schwengber2023deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2311.04207"}
-tags: ['ARXIV', 'Deep Learning', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2311.04207'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Deep Hashing', 'Quantization', 'Similarity Learning', 'Hashing']
 ---
 Hashing is at the heart of large-scale image similarity search, and recent
 methods have been substantially improved through deep learning techniques. Such

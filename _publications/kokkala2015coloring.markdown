@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Coloring Of The Square Of The 8-cube With 13 Colors
-authors: Kokkala Janne I., Östergård Patric R. J.
+title: 'A Coloring Of The Square Of The 8-cube With 13 Colors'
+authors: Janne I. Kokkala, Patric R. J. Östergård
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: kokkala2015coloring
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1509.06913"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1509.06913'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
 ---
 Let \\(\chi_\{\bar\{k\}\}(n)\\) be the number of colors required to color the
 \\(n\\)-dimensional hypercube such that no two vertices with the same color are at

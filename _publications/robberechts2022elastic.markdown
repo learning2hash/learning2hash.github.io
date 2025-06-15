@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Elastic Product Quantization For Time Series
-authors: Robberechts Pieter, Meert Wannes, Davis Jesse
+title: 'Elastic Product Quantization For Time Series'
+authors: Pieter Robberechts, Wannes Meert, Jesse Davis
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: robberechts2022elastic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2201.01856"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2201.01856'}
+tags: ['Quantisation', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Unimodal', 'Datasets', 'Quantization', 'Applications']
 ---
 Analyzing numerous or long time series is difficult in practice due to the
 high storage costs and computational requirements. Therefore, techniques have

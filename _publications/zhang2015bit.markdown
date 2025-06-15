@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Bit-scalable Deep Hashing With Regularized Similarity Learning For Image Retrieval And Person Re-identification
-authors: Zhang Ruimao, Lin Liang, Zhang Rui, Zuo Wangmeng, Zhang Lei
+title: 'Bit-scalable Deep Hashing With Regularized Similarity Learning For Image Retrieval And Person Re-identification'
+authors: Ruimao Zhang, Liang Lin, Rui Zhang, Wangmeng Zuo, Lei Zhang
 conference: "Arxiv"
 year: 2015
+citations: 436
 bibkey: zhang2015bit
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1508.04535"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1508.04535'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Deep Hashing', 'Training Strategy', 'Similarity Learning', 'Hashing', 'Applications']
 ---
 Extracting informative image features and learning effective approximate
 hashing functions are two crucial steps in image retrieval . Conventional

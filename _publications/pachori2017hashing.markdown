@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing In The Zero Shot Framework With Domain Adaptation
-authors: Pachori Shubham, Deshpande Ameya, Raman Shanmuganathan
+title: 'Hashing In The Zero Shot Framework With Domain Adaptation'
+authors: Shubham Pachori, Ameya Deshpande, Shanmuganathan Raman
 conference: "Arxiv"
 year: 2017
+citations: 22
 bibkey: pachori2017hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1702.01933"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1702.01933'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Hashing', 'Datasets', 'Vector Indexing', 'Quantization', 'Supervised Hashing', 'Applications']
 ---
 Techniques to learn hash codes which can store and retrieve large dimensional
 multimedia data efficiently have attracted broad research interests in the

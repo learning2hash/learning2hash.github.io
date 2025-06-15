@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Object Detection Based Deep Unsupervised Hashing
-authors: Tu Rong-cheng, Mao Xian-ling, Feng Bo-si, Bian Bing-bing, Ying Yu-shu
+title: 'Object Detection Based Deep Unsupervised Hashing'
+authors: Rong-cheng Tu, Xian-ling Mao, Bo-si Feng, Bing-bing Bian, Yu-shu Ying
 conference: "Arxiv"
 year: 2018
+citations: 6
 bibkey: tu2018object
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1811.09822"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1811.09822'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Recently, similarity-preserving hashing methods have been extensively studied
 for large-scale image retrieval. Compared with unsupervised hashing, supervised

@@ -4,10 +4,11 @@ title: Distillhash Unsupervised Deep Hashing By Distilling Data Pairs
 authors: Yang Erkun, Liu Tongliang, Deng Cheng, Liu Wei, Tao Dacheng
 conference: "Arxiv"
 year: 2019
+citations: 121
 bibkey: yang2019distillhash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1905.03465"}
-tags: ['ARXIV', 'Unsupervised']
+tags: ['ARXIV', 'Unsupervised', 'Supervised']
 ---
 Due to the high storage and search efficiency, hashing has become prevalent
 for large-scale similarity search. Particularly, deep hashing methods have

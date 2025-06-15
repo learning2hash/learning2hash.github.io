@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Non-alternating Graph Hashing Algorithm For Large Scale Image Search
-authors: Hemati Sobhan, Mehdizavareh Mohammad Hadi, Chenouri Shojaeddin, Tizhoosh Hamid R
+title: 'A Non-alternating Graph Hashing Algorithm For Large Scale Image Search'
+authors: Sobhan Hemati, Mohammad Hadi Mehdizavareh, Shojaeddin Chenouri, Hamid R Tizhoosh
 conference: "Arxiv"
 year: 2020
+citations: 2
 bibkey: hemati2020non
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2012.13138"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2012.13138'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 In the era of big data, methods for improving memory and computational
 efficiency have become crucial for successful deployment of technologies.

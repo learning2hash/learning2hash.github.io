@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: De-hashing Server-side Context-aware Feature Reconstruction For Mobile Visual Search
-authors: Kuo Yin-hsi, Hsu Winston H.
+title: 'De-hashing: Server-side Context-aware Feature Reconstruction For Mobile Visual Search'
+authors: Yin-hsi Kuo, Winston H. Hsu
 conference: "Arxiv"
 year: 2016
+citations: 4
 bibkey: kuo2016de
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1606.08999"}
-tags: ['ARXIV', 'Video Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1606.08999'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
 ---
 Due to the prevalence of mobile devices, mobile search becomes a more
 convenient way than desktop search. Different from the traditional desktop

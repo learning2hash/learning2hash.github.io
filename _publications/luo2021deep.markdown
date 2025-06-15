@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Unsupervised Hashing By Distilled Smooth Guidance
-authors: Luo Xiao, Ma Zeyu, Wu Daqing, Zhong Huasong, Chen Chong, Ma Jinwen, Deng Minghua
-conference: "ICME"
+title: 'Deep Unsupervised Hashing By Distilled Smooth Guidance'
+authors: Xiao Luo et al.
+conference: "ICME 2021"
 year: 2021
+citations: 1
 bibkey: luo2021deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2105.06125"}
-tags: ['Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2105.06125'}
+tags: ['Supervised', 'Cross-Modal', 'Deep', 'Supervised Hashing', 'Efficiency', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Unsupervised Hashing', 'Deep Hashing', 'Training Strategy', 'Hashing']
 ---
 Hashing has been widely used in approximate nearest neighbor search for its
 storage and computational efficiency. Deep supervised hashing methods are not

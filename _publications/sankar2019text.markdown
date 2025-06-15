@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On-device Text Representations Robust To Misspellings Via Projections
-authors: Sankar Chinnadhurai, Ravi Sujith, Kozareva Zornitsa
+title: 'On-device Text Representations Robust To Misspellings Via Projections'
+authors: Chinnadhurai Sankar, Sujith Ravi, Zornitsa Kozareva
 conference: "Arxiv"
 year: 2019
+citations: 0
 bibkey: sankar2019text
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1908.05763"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1908.05763'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Recently, there has been a strong interest in developing natural language
 applications that live on personal devices such as mobile phones, watches and

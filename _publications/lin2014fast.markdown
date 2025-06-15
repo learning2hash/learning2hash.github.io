@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Supervised Hashing With Decision Trees For High-dimensional Data
-authors: Lin Guosheng, Shen Chunhua, Shi Qinfeng, Hengel Anton Van Den, Suter David
+title: 'Fast Supervised Hashing With Decision Trees For High-dimensional Data'
+authors: Guosheng Lin, Chunhua Shen, Qinfeng Shi, Anton Van Den Hengel, David Suter
 conference: "Arxiv"
 year: 2014
+citations: 297
 bibkey: lin2014fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1404.1561"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1404.1561'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Training Strategy', 'Supervised Hashing']
 ---
 Supervised hashing aims to map the original features to compact binary codes
 that are able to preserve label based similarity in the Hamming space.

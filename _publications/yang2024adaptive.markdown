@@ -4,10 +4,11 @@ title: Adaptive Labeling For Deep Learning To Hash
 authors: Yang Huei-fang, Tu, Chen
 conference: "Arxiv"
 year: 2024
+citations: 6
 bibkey: yang2024adaptive
 additional_links:
   - {name: "Paper", url: "https://openaccess.thecvf.com/content_CVPRW_2019/papers/CEFRL/Yang_Adaptive_Labeling_for_Deep_Learning_to_Hash_CVPRW_2019_paper.pdf"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Supervised', 'Semi-Supervised']
 ---
 Hash function learning has been widely used for largescale image retrieval because of the efficiency of computation and storage. We introduce AdaLabelHash, a binary
 hash function learning approach via deep neural networks

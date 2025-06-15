@@ -4,6 +4,7 @@ title: Learning Category Trees For Id-based Recommendation Exploring The Power O
 authors: Liu Qijiong, Fan Lu, Xiao Jiaren, Zhu Jieming, Wu Xiao-ming
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: liu2023learning
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2308.16761"}

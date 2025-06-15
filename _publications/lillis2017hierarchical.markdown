@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hierarchical Bloom Filter Trees For Approximate Matching
-authors: Lillis David, Breitinger Frank, Scanlon Mark
+title: 'Hierarchical Bloom Filter Trees For Approximate Matching'
+authors: David Lillis, Frank Breitinger, Mark Scanlon
 conference: "Arxiv"
 year: 2017
+citations: 1
 bibkey: lillis2017hierarchical
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1712.04544"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1712.04544'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Bytewise approximate matching algorithms have in recent years shown
 significant promise in de- tecting files that are similar at the byte level.

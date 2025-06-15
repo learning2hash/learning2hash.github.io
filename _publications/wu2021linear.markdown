@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Linear-time Self Attention With Codeword Histogram For Efficient Recommendation
-authors: Wu Yongji, Lian Defu, Gong Neil Zhenqiang, Yin Lu, Yin Mingyang, Zhou Jingren, Yang Hongxia
+title: 'Linear-time Self Attention With Codeword Histogram For Efficient Recommendation'
+authors: Yongji Wu et al.
 conference: "Arxiv"
 year: 2021
+citations: 15
 bibkey: wu2021linear
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2105.14068"}
-tags: ['ARXIV', 'Independent', 'LSH', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2105.14068'}
+tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Shallow', 'Datasets', 'Quantization', 'Hashing', 'Applications']
 ---
 Self-attention has become increasingly popular in a variety of sequence
 modeling tasks from natural language processing to recommendation, due to its

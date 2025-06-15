@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: SIR Similar Image Retrieval For Product Search In E-commerce
-authors: Stanley Theban, Vanjara Nihar, Pan Yanxin, Pirogova Ekaterina, Chakraborty Swagata, Chaudhuri Abon
+authors: Stanley Theban et al.
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: stanley2020sir
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2009.13836"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Image Retrieval', 'Supervised', 'Supervised']
 ---
 We present a similar image retrieval (SIR) platform that is used to quickly
 discover visually similar products in a catalog of millions. Given the size,

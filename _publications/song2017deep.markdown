@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Deep Discrete Hashing With Self-supervised Pairwise Labels
-authors: Song Jingkuan, He Tao, Fan Hangbo, Gao Lianli
+title: 'Deep Discrete Hashing With Self-supervised Pairwise Labels'
+authors: Jingkuan Song, Tao He, Hangbo Fan, Lianli Gao
 conference: "Arxiv"
 year: 2017
+citations: 9
 bibkey: song2017deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1707.02112"}
-  - {name: "Code", url: "https://github.com/htconquer/ddh}"}
-tags: ['ARXIV', 'Has Code', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1707.02112'}
+  - {name: "Code", url: 'https://github.com/htconquer/ddh'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Has Code', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Hashing methods have been widely used for applications of large-scale image
 retrieval and classification. Non-deep hashing methods using handcrafted

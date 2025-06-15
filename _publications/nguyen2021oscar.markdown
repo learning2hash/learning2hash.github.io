@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Oscar-net Object-centric Scene Graph Attention For Image Attribution
-authors: Nguyen Eric, Bui Tu, Swaminathan Vishy, Collomosse John
+title: 'Oscar-net: Object-centric Scene Graph Attention For Image Attribution'
+authors: Eric Nguyen, Tu Bui, Vishy Swaminathan, John Collomosse
 conference: "Arxiv"
 year: 2021
+citations: 10
 bibkey: nguyen2021oscar
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2108.03541"}
-tags: ['ARXIV', 'Graph', 'Self Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2108.03541'}
+tags: ['Cross-Modal', 'Shallow', 'Vector Indexing', 'Supervised', 'Hashing']
 ---
 Images tell powerful stories but cannot always be trusted. Matching images
 back to trusted sources (attribution) enables users to make a more informed

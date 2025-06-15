@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Assessing The Effectiveness Of YARA Rules For Signature-based Malware Detection And Classification
-authors: Lockett Adam
+title: 'Assessing The Effectiveness Of YARA Rules For Signature-based Malware Detection And Classification'
+authors: Adam Lockett
 conference: "Arxiv"
 year: 2021
+citations: 4
 bibkey: lockett2021assessing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2111.13910"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2111.13910'}
+tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
 ---
 Malware often uses obfuscation techniques or is modified slightly to evade
 signature detection from antivirus software and malware analysis tools.

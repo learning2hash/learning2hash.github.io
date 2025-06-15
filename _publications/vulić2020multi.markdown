@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: Multi-simlex A Large-scale Evaluation Of Multilingual And Cross-lingual Lexical Semantic Similarity
-authors: Vulić Ivan, Baker Simon, Ponti Edoardo Maria, Petti Ulla, Leviant Ira, Wing Kelly, Majewska Olga, Bar Eden, Malone Matt, Poibeau Thierry, Reichart Roi, Korhonen Anna
+authors: Vulić Ivan et al.
 conference: "Arxiv"
 year: 2020
+citations: 24
 bibkey: vulić2020multi
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2003.04866"}
-tags: ['ARXIV', 'Supervised', 'Weakly Supervised']
+tags: ['ARXIV', 'Supervised', 'Weakly Supervised', 'Supervised']
 ---
 We introduce Multi-SimLex, a large-scale lexical resource and evaluation
 benchmark covering datasets for 12 typologically diverse languages, including

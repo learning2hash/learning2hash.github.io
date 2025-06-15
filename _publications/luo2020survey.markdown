@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Survey On Deep Hashing Methods
-authors: Luo Xiao, Wang Haixin, Wu Daqing, Chen Chong, Deng Minghua, Huang Jianqiang, Hua Xian-sheng
+title: 'A Survey On Deep Hashing Methods'
+authors: Xiao Luo et al.
 conference: "Arxiv"
 year: 2020
+citations: 111
 bibkey: luo2020survey
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2003.03369"}
-tags: ['ARXIV', 'Deep Learning', 'Quantisation', 'Supervised', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2003.03369'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Hashing', 'Datasets', 'Surveys and Reviews', 'Vector Indexing', 'Unsupervised Hashing', 'Deep Hashing', 'Quantization', 'Survey Paper', 'Supervised Hashing']
 ---
 Nearest neighbor search aims to obtain the samples in the database with the
 smallest distances from them to the queries, which is a basic task in a range

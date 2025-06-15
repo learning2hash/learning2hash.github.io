@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Heterogeneous Hashing For Face Video Retrieval
-authors: Qiao Shishi, Wang Ruiping, Shan Shiguang, Chen Xilin
-conference: "IEEE Transactions on Image Processing"
+title: 'Deep Heterogeneous Hashing For Face Video Retrieval'
+authors: Shishi Qiao, Ruiping Wang, Shiguang Shan, Xilin Chen
+conference: "IEEE Transactions on Image Processing 2019"
 year: 2019
+citations: 19
 bibkey: qiao2019deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1911.01048"}
-tags: ['Cross Modal', 'ICIP', 'Video Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1911.01048'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Retrieving videos of a particular person with face image as a query via
 hashing technique has many important applications. While face images are

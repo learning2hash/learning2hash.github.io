@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Gb-hash Hash Functions Using Groebner Basis
-authors: Dey Dhananjoy, Mishra1 Prasanna Raghaw, Sengupta Indranath
+title: 'Gb-hash : Hash Functions Using Groebner Basis'
+authors: Dhananjoy Dey, Prasanna Raghaw Mishra1, Indranath Sengupta
 conference: "Arxiv"
 year: 2010
+citations: 0
 bibkey: dey2010gb
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1011.5534"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1011.5534'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Compression', 'Hashing']
 ---
 In this paper we present an improved version of HF-hash, viz., GB-hash : Hash
 Functions Using Groebner Basis. In case of HF-hash, the compression function

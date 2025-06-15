@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Parallel Index-based Structural Graph Clustering And Its Approximation
-authors: Tseng Tom, Dhulipala Laxman, Shun Julian
+title: 'Parallel Index-based Structural Graph Clustering And Its Approximation'
+authors: Tom Tseng, Laxman Dhulipala, Julian Shun
 conference: "Arxiv"
 year: 2020
+citations: 14
 bibkey: tseng2020parallel
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2012.11188"}
-tags: ['ARXIV', 'Graph', 'LSH', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2012.11188'}
+tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
 ---
 SCAN (Structural Clustering Algorithm for Networks) is a well-studied, widely
 used graph clustering algorithm. For large graphs, however, sequential SCAN

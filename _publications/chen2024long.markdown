@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Long-tail Hashing
-authors: Chen Yong, Hou, Leng, Hu, Lin, Zhang
+authors: Chen Yong et al.
 conference: "Arxiv"
 year: 2024
+citations: 8
 bibkey: chen2024long
 additional_links:
   - {name: "Paper", url: "https://zhouchenlin.github.io/Publications/2021-SIGIR-Hashing.pdf"}

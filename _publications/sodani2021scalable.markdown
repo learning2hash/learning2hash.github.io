@@ -4,10 +4,11 @@ title: Scalable Reverse Image Search Engine For Nasaworldview
 authors: Sodani Abhigya, Levy Michael, Koul Anirudh, Kasam Meher Anand, Ganju Siddha
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: sodani2021scalable
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2108.04479"}
-tags: ['ARXIV', 'CNN', 'Supervised']
+tags: ['ARXIV', 'CNN', 'Supervised', 'Supervised']
 ---
 Researchers often spend weeks sifting through decades of unlabeled satellite
 imagery(on NASA Worldview) in order to develop datasets on which they can start

@@ -4,6 +4,7 @@ title: Note On Optimal Trees For Parallel Hash Functions
 authors: Atighehchi Kevin
 conference: "Arxiv"
 year: 2016
+citations: 1
 bibkey: atighehchi2016note
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1604.04206"}

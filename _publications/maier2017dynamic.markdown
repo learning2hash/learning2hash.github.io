@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Dynamic Space Efficient Hashing
-authors: Maier Tobias, Sanders Peter
+title: 'Dynamic Space Efficient Hashing'
+authors: Tobias Maier, Peter Sanders
 conference: "Arxiv"
 year: 2017
+citations: 9
 bibkey: maier2017dynamic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1705.00997"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1705.00997'}
+tags: ['Cross-Modal', 'Shallow', 'Hashing', 'Quantisation']
 ---
 We consider space efficient hash tables that can grow and shrink dynamically
 and are always highly space efficient, i.e., their space consumption is always
@@ -24,4 +25,4 @@ subtables which grow by doubling their size. The resulting inhomogeneity in
 subtable sizes is equalized by the flexibility available in bucket cuckoo
 hashing where each element can go to several buckets each of which containing
 several cells. Experiments indicate that DySECT works well with load factors up
-to 98\%. With up to 2.7 times better performance than the next best solution.
+to 98%. With up to 2.7 times better performance than the next best solution.

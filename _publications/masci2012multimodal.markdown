@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Multimodal Similarity-preserving Hashing
-authors: Masci Jonathan, Bronstein Michael M., Bronstein Alexander A., Schmidhuber Jürgen
+title: 'Multimodal Similarity-preserving Hashing'
+authors: Jonathan Masci, Michael M. Bronstein, Alexander A. Bronstein, Jürgen Schmidhuber
 conference: "Arxiv"
 year: 2012
+citations: 145
 bibkey: masci2012multimodal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1207.1522"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1207.1522'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Similarity Learning', 'Hashing']
 ---
 We introduce an efficient computational framework for hashing data belonging
 to multiple modalities into a single representation space where they become

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Robust Set Reconciliation Via Locality Sensitive Hashing
-authors: Mitzenmacher Michael, Morgan Tom
+title: 'Robust Set Reconciliation Via Locality Sensitive Hashing'
+authors: Michael Mitzenmacher, Tom Morgan
 conference: "Arxiv"
 year: 2018
+citations: 1
 bibkey: mitzenmacher2018robust
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1807.09694"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1807.09694'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 We consider variations of set reconciliation problems where two parties,
 Alice and Bob, each hold a set of points in a metric space, and the goal is for

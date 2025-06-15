@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Rediscovering Hashed Random Projections For Efficient Quantization Of Contextualized Sentence Embeddings
-authors: Hamster Ulf A., Lee Ji-ung, Geyken Alexander, Gurevych Iryna
+title: 'Rediscovering Hashed Random Projections For Efficient Quantization Of Contextualized Sentence Embeddings'
+authors: Ulf A. Hamster, Ji-ung Lee, Alexander Geyken, Iryna Gurevych
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: hamster2023rediscovering
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2304.02481"}
-tags: ['ARXIV', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2304.02481'}
+tags: ['Cross-Modal', 'Quantisation', 'Training Strategy', 'Shallow', 'Quantization']
 ---
 Training and inference on edge devices often requires an efficient setup due
 to computational limitations. While pre-computing data representations and

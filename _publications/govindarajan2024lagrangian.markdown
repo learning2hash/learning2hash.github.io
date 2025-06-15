@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Lagrangian Hashing For Compressed Neural Field Representations
-authors: Govindarajan Shrisudhan Ahan, Sambugaro Zeno Ahan, Akhmedkhan Ahan, Shabanov, Takikawa Towaki, Rebain Daniel, Sun Weiwei, Conci Nicola, Yi Kwang Moo, Tagliasacchi Andrea
+title: 'Lagrangian Hashing For Compressed Neural Field Representations'
+authors: Shrisudhan Ahan Govindarajan et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: govindarajan2024lagrangian
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2409.05334"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2409.05334'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 We present Lagrangian Hashing, a representation for neural fields combining
 the characteristics of fast training NeRF methods that rely on Eulerian grids

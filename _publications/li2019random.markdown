@@ -4,6 +4,7 @@ title: Random Projections With Asymmetric Quantization
 authors: Xiaoyun Li, Ping Li
 conference: "Neural Information Processing Systems"
 year: 2019
+citations: 11
 bibkey: li2019random
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2019/hash/a32d7eeaae19821fd9ce317f3ce952a7-Abstract.html"}

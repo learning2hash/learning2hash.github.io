@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Image2song Song Retrieval Via Bridging Image Content And Lyric Words
-authors: Li Xuelong, Hu Di, Lu Xiaoqiang
+title: 'Image2song: Song Retrieval Via Bridging Image Content And Lyric Words'
+authors: Xuelong Li, Di Hu, Xiaoqiang Lu
 conference: "Arxiv"
 year: 2017
+citations: 9
 bibkey: li2017song
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1708.05851"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1708.05851'}
+tags: ['Retrieval Models', 'Supervised', 'Deep', 'Cross-Modal']
 ---
 Image is usually taken for expressing some kinds of emotions or purposes,
 such as love, celebrating Christmas. There is another better way that combines

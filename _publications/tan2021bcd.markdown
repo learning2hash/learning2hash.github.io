@@ -4,6 +4,7 @@ title: BCD A Cross-architecture Binary Comparison Database Experiment Using Loca
 authors: Tan Haoxi
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: tan2021bcd
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2112.05492"}

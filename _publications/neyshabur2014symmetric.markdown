@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On Symmetric And Asymmetric Lshs For Inner Product Search
-authors: Neyshabur Behnam, Srebro Nathan
+title: 'On Symmetric And Asymmetric Lshs For Inner Product Search'
+authors: Behnam Neyshabur, Nathan Srebro
 conference: "Arxiv"
 year: 2014
+citations: 83
 bibkey: neyshabur2014symmetric
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1410.5518"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1410.5518'}
+tags: ['Unimodal', 'Independent', 'Shallow']
 ---
 We consider the problem of designing locality sensitive hashes (LSH) for
 inner product similarity, and of the power of asymmetric hashes in this

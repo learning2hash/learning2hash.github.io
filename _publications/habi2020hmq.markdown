@@ -4,6 +4,7 @@ title: HMQ Hardware Friendly Mixed Precision Quantization Block For Cnns
 authors: Habi Hai Victor, Jennings Roy H., Netzer Arnon
 conference: "Arxiv"
 year: 2020
+citations: 37
 bibkey: habi2020hmq
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2007.09952"}

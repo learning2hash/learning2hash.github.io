@@ -4,6 +4,7 @@ title: Embarrassingly Simple Binary Representation Learning
 authors: Shen Yuming, Qin, Chen Jiaxin, Liu, Zhu
 conference: "Arxiv"
 year: 2024
+citations: 14
 bibkey: shen2024embarrassingly
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/pdf/1908.09573.pdf"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Reinforcement Learning For Image Hashing
-authors: Peng Yuxin, Zhang Jian, Ye Zhaoda
+title: 'Deep Reinforcement Learning For Image Hashing'
+authors: Yuxin Peng, Jian Zhang, Zhaoda Ye
 conference: "Arxiv"
 year: 2018
+citations: 35
 bibkey: peng2018deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1802.02904"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1802.02904'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Hashing']
 ---
 Deep hashing methods have received much attention recently, which achieve
 promising results by taking advantage of the strong representation power of

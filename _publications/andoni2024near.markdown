@@ -4,6 +4,7 @@ title: Near-optimal Hashing Algorithms For Approximate Nearest Neighbor In High 
 authors: Andoni A., Indyk
 conference: "Arxiv"
 year: 2024
+citations: 707
 bibkey: andoni2024near
 additional_links:
   - {name: "Paper", url: "http://ieeexplore.ieee.org/document/4031381/"}

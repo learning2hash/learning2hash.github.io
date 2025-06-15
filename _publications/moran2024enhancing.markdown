@@ -4,6 +4,7 @@ title: Enhancing First Story Detection Using Word Embeddings
 authors: Moran S., Mccreadie, Macdonald, Ounis
 conference: "Arxiv"
 year: 2024
+citations: 16
 bibkey: moran2024enhancing
 additional_links:
   - {name: "Paper", url: "https://dl.acm.org/citation.cfm?id=2911451.2914719"}

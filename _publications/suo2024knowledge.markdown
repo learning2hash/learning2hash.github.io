@@ -1,0 +1,30 @@
+---
+layout: publication
+title: 'Knowledge-enhanced Dual-stream Zero-shot Composed Image Retrieval'
+authors: Yucheng Suo, Fan Ma, Linchao Zhu, Yi Yang
+conference: "Arxiv"
+year: 2024
+citations: 4
+bibkey: suo2024knowledge
+additional_links:
+  - {name: "Paper", url: 'https://arxiv.org/abs/2403.16005'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Applications']
+---
+We study the zero-shot Composed Image Retrieval (ZS-CIR) task, which is to
+retrieve the target image given a reference image and a description without
+training on the triplet datasets. Previous works generate pseudo-word tokens by
+projecting the reference image features to the text embedding space. However,
+they focus on the global visual representation, ignoring the representation of
+detailed attributes, e.g., color, object number and layout. To address this
+challenge, we propose a Knowledge-Enhanced Dual-stream zero-shot composed image
+retrieval framework (KEDs). KEDs implicitly models the attributes of the
+reference images by incorporating a database. The database enriches the
+pseudo-word tokens by providing relevant images and captions, emphasizing
+shared attribute information in various aspects. In this way, KEDs recognizes
+the reference image from diverse perspectives. Moreover, KEDs adopts an extra
+stream that aligns pseudo-word tokens with textual concepts, leveraging
+pseudo-triplets mined from image-text pairs. The pseudo-word tokens generated
+in this stream are explicitly aligned with fine-grained semantics in the text
+embedding space. Extensive experiments on widely used benchmarks, i.e.
+ImageNet-R, COCO object, Fashion-IQ and CIRR, show that KEDs outperforms
+previous zero-shot composed image retrieval methods.

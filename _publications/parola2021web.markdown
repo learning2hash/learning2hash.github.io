@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Web Image Search Engine Based On LSH Index And CNN Resnet50
-authors: Parola Marco, Nannini Alice, Poleggi Stefano
+title: 'Web Image Search Engine Based On LSH Index And CNN Resnet50'
+authors: Marco Parola, Alice Nannini, Stefano Poleggi
 conference: "Arxiv"
 year: 2021
+citations: 3
 bibkey: parola2021web
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2108.13301"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2108.13301'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Hashing', 'Applications']
 ---
 To implement a good Content Based Image Retrieval (CBIR) system, it is
 essential to adopt efficient search methods. One way to achieve this results is

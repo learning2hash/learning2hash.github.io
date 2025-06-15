@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Generalized Intersection Kernel
-authors: Li Ping
+title: 'Generalized Intersection Kernel'
+authors: Ping Li
 conference: "Arxiv"
 year: 2016
+citations: 0
 bibkey: li2016generalized
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1612.09283"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1612.09283'}
+tags: ['Cross-Modal', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
 ---
 Following the very recent line of work on the ``generalized min-max'' (GMM)
 kernel, this study proposes the ``generalized intersection'' (GInt) kernel and

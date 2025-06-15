@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Min-max Kernels
-authors: Li Ping
+title: 'Min-max Kernels'
+authors: Ping Li
 conference: "Arxiv"
 year: 2015
+citations: 3
 bibkey: li2015min
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1503.01737"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1503.01737'}
+tags: ['Unimodal', 'Shallow', 'Datasets', 'Supervised', 'Hashing', 'Applications']
 ---
 The min-max kernel is a generalization of the popular resemblance kernel
 (which is designed for binary data). In this paper, we demonstrate, through an

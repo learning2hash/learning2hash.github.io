@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Self-supervised Product Quantization For Deep Unsupervised Image Retrieval
-authors: Jang Young Kyun, Cho Nam Ik
+title: 'Self-supervised Product Quantization For Deep Unsupervised Image Retrieval'
+authors: Young Kyun Jang, Nam Ik Cho
 conference: "Arxiv"
 year: 2021
+citations: 51
 bibkey: jang2021self
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2109.02244"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2109.02244'}
+tags: ['Cross-Modal', 'Quantization', 'Quantisation', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Applications']
 ---
 Supervised deep learning-based hash and vector quantization are enabling fast
 and large-scale image retrieval systems. By fully exploiting label annotations,

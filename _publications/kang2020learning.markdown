@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning To Embed Categorical Features Without Embedding Tables For Recommendation
-authors: Kang Wang-cheng, Cheng Derek Zhiyuan, Yao Tiansheng, Yi Xinyang, Chen Ting, Hong Lichan, Chi Ed H.
+title: 'Learning To Embed Categorical Features Without Embedding Tables For Recommendation'
+authors: Wang-cheng Kang et al.
 conference: "Arxiv"
 year: 2020
+citations: 34
 bibkey: kang2020learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2010.10784"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2010.10784'}
+tags: ['Deep', 'Independent', 'Unimodal', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Embedding learning of categorical features (e.g. user/item IDs) is at the
 core of various recommendation models including matrix factorization and neural

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Multi-vector Dense Retrieval Using Bit Vectors
-authors: Nardini Franco Maria, Rulli Cosimo, Venturini Rossano
+title: 'Efficient Multi-vector Dense Retrieval Using Bit Vectors'
+authors: Franco Maria Nardini, Cosimo Rulli, Rossano Venturini
 conference: "Arxiv"
 year: 2024
+citations: 7
 bibkey: nardini2024efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2404.02805"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2404.02805'}
+tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Quantization']
 ---
 Dense retrieval techniques employ pre-trained large language models to build
 a high-dimensional representation of queries and passages. These

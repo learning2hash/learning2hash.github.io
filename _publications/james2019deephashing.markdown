@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deephashing Using Tripletloss
-authors: James Jithin
+title: 'Deephashing Using Tripletloss'
+authors: Jithin James
 conference: "Arxiv"
 year: 2019
+citations: 1
 bibkey: james2019deephashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1912.10822"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1912.10822'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Hashing', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Hashing is one of the most efficient techniques for approximate nearest
 neighbour search for large scale image retrieval. Most of the techniques are

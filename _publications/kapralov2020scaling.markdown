@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Scaling Up Kernel Ridge Regression Via Locality Sensitive Hashing
-authors: Kapralov Michael, Nouri Navid, Razenshteyn Ilya, Velingker Ameya, Zandieh Amir
+title: 'Scaling Up Kernel Ridge Regression Via Locality Sensitive Hashing'
+authors: Michael Kapralov, Navid Nouri, Ilya Razenshteyn, Ameya Velingker, Amir Zandieh
 conference: "Arxiv"
 year: 2020
+citations: 7
 bibkey: kapralov2020scaling
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2003.09756"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2003.09756'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
 ---
 Random binning features, introduced in the seminal paper of Rahimi and Recht
 (2007), are an efficient method for approximating a kernel matrix using

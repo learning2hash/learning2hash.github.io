@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast K-nn Search
-authors: Hyvönen Ville, Pitkänen Teemu, Tasoulis Sotiris, Jääsaari Elias, Tuomainen Risto, Wang Liang, Corander Jukka, Roos Teemu
-conference: "IEEE International Conference on Big Data"
+title: 'Fast K-nn Search'
+authors: Ville Hyvönen et al.
+conference: "IEEE International Conference on Big Data 2016 p. 881-888"
 year: 2015
+citations: 0
 bibkey: hyvönen2015fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1509.06957"}
-tags: ['ICML', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1509.06957'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Efficient index structures for fast approximate nearest neighbor queries are
 required in many applications such as recommendation systems. In

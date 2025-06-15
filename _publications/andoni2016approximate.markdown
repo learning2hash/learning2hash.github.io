@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Approximate Near Neighbors For General Symmetric Norms
-authors: Andoni Alexandr, Nguyen Huy L., Nikolov Aleksandar, Razenshteyn Ilya, Waingarten Erik
+title: 'Approximate Near Neighbors For General Symmetric Norms'
+authors: Alexandr Andoni, Huy L. Nguyen, Aleksandar Nikolov, Ilya Razenshteyn, Erik Waingarten
 conference: "Arxiv"
 year: 2016
+citations: 12
 bibkey: andoni2016approximate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1611.06222"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1611.06222'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing']
 ---
 We show that every symmetric normed space admits an efficient nearest
 neighbor search data structure with doubly-logarithmic approximation.

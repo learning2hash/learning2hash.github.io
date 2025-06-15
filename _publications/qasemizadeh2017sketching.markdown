@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sketching Word Vectors Through Hashing
-authors: Qasemizadeh Behrang, Kallmeyer Laura
+title: 'Sketching Word Vectors Through Hashing'
+authors: Behrang Qasemizadeh, Laura Kallmeyer
 conference: "Arxiv"
 year: 2017
+citations: 4
 bibkey: qasemizadeh2017sketching
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1705.04253"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1705.04253'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 We propose a new fast word embedding technique using hash functions. The
 method is a derandomization of a new type of random projections: By

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast And Exact Nearest Neighbor Search In Hamming Space On Full-text Search Engines
-authors: Mu Cun, Zhao Jun, Yang Guang, Yang Binwei, Yan Zheng
+title: 'Fast And Exact Nearest Neighbor Search In Hamming Space On Full-text Search Engines'
+authors: Cun Mu, Jun Zhao, Guang Yang, Binwei Yang, Zheng Yan
 conference: "Arxiv"
 year: 2019
+citations: 4
 bibkey: mu2019fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1902.08498"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1902.08498'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Hashing']
 ---
 A growing interest has been witnessed recently from both academia and
 industry in building nearest neighbor search (NNS) solutions on top of

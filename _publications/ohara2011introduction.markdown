@@ -4,6 +4,7 @@ title: Introduction To The Bag Of Features Paradigm For Image Classification And
 authors: O'hara Stephen, Draper Bruce A.
 conference: "Arxiv"
 year: 2011
+citations: 134
 bibkey: ohara2011introduction
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1101.3354"}

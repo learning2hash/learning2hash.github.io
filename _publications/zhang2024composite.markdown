@@ -4,6 +4,7 @@ title: Composite Hashing With Multiple Information Sources
 authors: Zhang D., Wang, Si
 conference: "Arxiv"
 year: 2024
+citations: 151
 bibkey: zhang2024composite
 additional_links:
   - {name: "Paper", url: "https://www.cs.purdue.edu/homes/lsi/SIGIR_2011B.pdf"}

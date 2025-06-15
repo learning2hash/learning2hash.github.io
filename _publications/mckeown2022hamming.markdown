@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hamming Distributions Of Popular Perceptual Hashing Techniques
-authors: Mckeown Sean, Buchanan William J
-conference: "DFRWS"
+title: 'Hamming Distributions Of Popular Perceptual Hashing Techniques'
+authors: Sean Mckeown, William J Buchanan
+conference: "DFRWS (Digital Forensics Research Conference) EU 2023 21-24 March 2023 Bonn Germany"
 year: 2022
+citations: 3
 bibkey: mckeown2022hamming
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2212.08035"}
-tags: []
+  - {name: "Paper", url: 'https://arxiv.org/abs/2212.08035'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 Content-based file matching has been widely deployed for decades, largely for
 the detection of sources of copyright infringement, extremist materials, and

@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Anchorhash A Scalable Consistent Hash
-authors: Mendelson Gal, Vargaftik Shay, Barabash Katherine, Lorenz Dean, Keslassy Isaac, Orda Ariel
+authors: Mendelson Gal et al.
 conference: "Arxiv"
 year: 2018
+citations: 15
 bibkey: mendelson2018anchorhash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1812.09674"}

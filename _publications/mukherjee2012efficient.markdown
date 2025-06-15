@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: An Efficient Cryptographic Hash Algorithm (BSA)
-authors: Mukherjee Subhabrata, Roy Bimal, Laha Anirban
-conference: "In Proceedings of The"
+title: 'An Efficient Cryptographic Hash Algorithm (BSA)'
+authors: Subhabrata Mukherjee, Bimal Roy, Anirban Laha
+conference: "In Proceedings of The 10th National Workshop on Cryptology (NWCR) 2010 PSG College of Technology PeelameduCoimbatore September 2-4 2010"
 year: 2012
+citations: 1
 bibkey: mukherjee2012efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1204.2798"}
-tags: ['COLT', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1204.2798'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Recent cryptanalytic attacks have exposed the vulnerabilities of some widely
 used cryptographic hash functions like MD5 and SHA-1. Attacks in the line of

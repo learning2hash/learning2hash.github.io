@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Improved Deep Classwise Hashing With Centers Similarity Learning For Image Retrieval
-authors: Zhang Ming, Yan Hong
+title: 'Improved Deep Classwise Hashing With Centers Similarity Learning For Image Retrieval'
+authors: Ming Zhang, Hong Yan
 conference: "Arxiv"
 year: 2021
+citations: 4
 bibkey: zhang2021improved
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2103.09442"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2103.09442'}
+tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Hashing', 'Datasets', 'Supervised', 'Similarity Learning', 'Supervised Hashing', 'Applications']
 ---
 Deep supervised hashing for image retrieval has attracted researchers'
 attention due to its high efficiency and superior retrieval performance. Most

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Bagminhash - Minwise Hashing Algorithm For Weighted Sets
-authors: Ertl Otmar
+title: 'Bagminhash - Minwise Hashing Algorithm For Weighted Sets'
+authors: Otmar Ertl
 conference: "Arxiv"
 year: 2018
+citations: 29
 bibkey: ertl2018bagminhash
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1802.03914"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1802.03914'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Minwise hashing has become a standard tool to calculate signatures which
 allow direct estimation of Jaccard similarities. While very efficient

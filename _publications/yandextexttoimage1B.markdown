@@ -4,6 +4,7 @@ title: "Yandex Text-to-Image-1B"
 authors: Yandex
 conference: NeurIPS
 year: 2021
+citations: 0
 bibkey: yandextexttoimage1B 
 additional_links:
    - {name: "URL", url: "https://research.yandex.com/datasets/biganns"}

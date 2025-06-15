@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Semantically Constrained Memory Allocation (SCMA) For Embedding In Efficient Recommendation Systems
-authors: Desai Aditya, Pan Yanzhou, Sun Kuangyuan, Chou Li, Shrivastava Anshumali
+title: 'Semantically Constrained Memory Allocation (SCMA) For Embedding In Efficient Recommendation Systems'
+authors: Aditya Desai, Yanzhou Pan, Kuangyuan Sun, Li Chou, Anshumali Shrivastava
 conference: "Arxiv"
 year: 2021
+citations: 2
 bibkey: desai2021semantically
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2103.06124"}
-tags: ['ARXIV', 'Deep Learning', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2103.06124'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Deep learning-based models are utilized to achieve state-of-the-art
 performance for recommendation systems. A key challenge for these models is to

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: The Usefulness Of Multilevel Hash Tables With Multiple Hash Functions In Large Databases
-authors: Akinwalle A. T., Ibharalu F. T.
-conference: "Ann. Univ. Tibiscus Comp. Sci. Series VII"
+title: 'The Usefulness Of Multilevel Hash Tables With Multiple Hash Functions In Large Databases'
+authors: A. T. Akinwalle, F. T. Ibharalu
+conference: "Ann. Univ. Tibiscus Comp. Sci. Series VII(2009)11-20"
 year: 2009
+citations: 1
 bibkey: akinwalle2009usefulness
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0905.4201"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0905.4201'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing']
 ---
 In this work, attempt is made to select three good hash functions which
 uniformly distribute hash values that permute their internal states and allow

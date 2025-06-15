@@ -4,6 +4,7 @@ title: Deep Hashing With Hash-consistent Large Margin Proxy Embeddings
 authors: Morgado Pedro, Li, Pereira, Saberian, Vasconcelos
 conference: "Arxiv"
 year: 2024
+citations: 6
 bibkey: morgado2024deep
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/pdf/2007.13912.pdf"}

@@ -4,6 +4,7 @@ title: Svcr An R Package For Support Vector Clustering Improved With Geometric H
 authors: Turenne Nicolas
 conference: "Arxiv"
 year: 2015
+citations: 1
 bibkey: turenne2015svcr
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1504.06080"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Linear Probing With Constant Independence
-authors: Pagh Anna, Pagh Rasmus, Ruzic Milan
+title: 'Linear Probing With Constant Independence'
+authors: Anna Pagh, Rasmus Pagh, Milan Ruzic
 conference: "Arxiv"
 year: 2006
+citations: 10
 bibkey: pagh2006linear
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/0612055"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/0612055'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Hashing with linear probing dates back to the 1950s, and is among the most
 studied algorithms. In recent years it has become one of the most important

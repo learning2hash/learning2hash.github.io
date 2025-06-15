@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Unsupervised Image Hashing By Maximizing Bit Entropy
-authors: Li Yunqiang, Van Gemert Jan
+title: 'Deep Unsupervised Image Hashing By Maximizing Bit Entropy'
+authors: Yunqiang Li, Jan Van Gemert
 conference: "Arxiv"
 year: 2020
+citations: 68
 bibkey: li2020deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2012.12334"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2012.12334'}
+tags: ['Supervised', 'Cross-Modal', 'Deep', 'Supervised Hashing', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Unsupervised Hashing', 'Deep Hashing', 'Training Strategy', 'Hashing']
 ---
 Unsupervised hashing is important for indexing huge image or video
 collections without having expensive annotations available. Hashing aims to

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Hashing With Lookups In Two Memory Accesses
-authors: Panigrahy Rina
+title: 'Efficient Hashing With Lookups In Two Memory Accesses'
+authors: Rina Panigrahy
 conference: "Arxiv"
 year: 2004
+citations: 47
 bibkey: panigrahy2004efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/0407023"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/0407023'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 The study of hashing is closely related to the analysis of balls and bins. It
 is well-known that instead of using a single hash function if we randomly hash

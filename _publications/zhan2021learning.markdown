@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning Discrete Representations Via Constrained Clustering For Effective And Efficient Dense Retrieval
-authors: Zhan Jingtao, Mao Jiaxin, Liu Yiqun, Guo Jiafeng, Zhang Min, Ma Shaoping
+title: 'Learning Discrete Representations Via Constrained Clustering For Effective And Efficient Dense Retrieval'
+authors: Jingtao Zhan et al.
 conference: "Arxiv"
 year: 2021
+citations: 27
 bibkey: zhan2021learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2110.05789"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2110.05789'}
+tags: ['Model Design', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Unimodal', 'Shallow', 'Training Strategy', 'Compression', 'Vector Indexing', 'Quantization']
 ---
 Dense Retrieval (DR) has achieved state-of-the-art first-stage ranking
 effectiveness. However, the efficiency of most existing DR models is limited by

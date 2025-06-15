@@ -4,10 +4,11 @@ title: Sequential Projection Learning For Hashing With Compact Codes
 authors: Wang J., Kumar, Chang
 conference: "Arxiv"
 year: 2024
+citations: 328
 bibkey: wang2024sequential
 additional_links:
   - {name: "Paper", url: "http://machinelearning.wustl.edu/mlpapers/paper_files/icml2010_WangKC10.pdf"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Supervised', 'Semi-Supervised']
 ---
 Hashing based Approximate Nearest Neighbor
 (ANN) search has attracted much attention

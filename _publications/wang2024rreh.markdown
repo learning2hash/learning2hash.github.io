@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: RREH Reconstruction Relations Embedded Hashing For Semi-paired Cross-modal Retrieval
-authors: Wang Jianzong, Shi Haoxiang, Luo Kaiyi, Zhang Xulong, Cheng Ning, Xiao Jing
+authors: Wang Jianzong et al.
 conference: "Arxiv"
 year: 2024
+citations: 1
 bibkey: wang2024rreh
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2405.17777"}
-tags: ['ARXIV', 'Cross Modal', 'Unsupervised']
+tags: ['ARXIV', 'Cross Modal', 'Unsupervised', 'Supervised']
 ---
 Known for efficient computation and easy storage, hashing has been
 extensively explored in cross-modal retrieval. The majority of current hashing

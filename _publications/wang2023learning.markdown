@@ -1,29 +1,23 @@
 ---
 layout: publication
-title: Learning Multi-stage Multi-grained Semantic Embeddings For E-commerce Search
-authors: Wang Binbin, Li Mingming, Zeng Zhixiong, Zhuo Jingwei, Wang Songlin, Xu Sulong, Long Bo, Yan Weipeng
+title: 'Learning Efficient Representations For Image-based Patent Retrieval'
+authors: Hongsong Wang, Yuqi Zhang
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: wang2023learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2303.11009"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2308.13749'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Conferences', 'Applications']
 ---
-Retrieving relevant items that match users' queries from billion-scale corpus
-forms the core of industrial e-commerce search systems, in which
-embedding-based retrieval (EBR) methods are prevailing. These methods adopt a
-two-tower framework to learn embedding vectors for query and item separately
-and thus leverage efficient approximate nearest neighbor (ANN) search to
-retrieve relevant items. However, existing EBR methods usually ignore
-inconsistent user behaviors in industrial multi-stage search systems, resulting
-in insufficient retrieval efficiency with a low commercial return. To tackle
-this challenge, we propose to improve EBR methods by learning Multi-level
-Multi-Grained Semantic Embeddings(MMSE). We propose the multi-stage information
-mining to exploit the ordered, clicked, unclicked and random sampled items in
-practical user behavior data, and then capture query-item similarity via a
-post-fusion strategy. We then propose multi-grained learning objectives that
-integrate the retrieval loss with global comparison ability and the ranking
-loss with local comparison ability to generate semantic embeddings. Both
-experiments on a real-world billion-scale dataset and online A/B tests verify
-the effectiveness of MMSE in achieving significant performance improvements on
-metrics such as offline recall and online conversion rate (CVR).
+Patent retrieval has been attracting tremendous interest from researchers in
+intellectual property and information retrieval communities in the past
+decades. However, most existing approaches rely on textual and metadata
+information of the patent, and content-based image-based patent retrieval is
+rarely investigated. Based on traits of patent drawing images, we present a
+simple and lightweight model for this task. Without bells and whistles, this
+approach significantly outperforms other counterparts on a large-scale
+benchmark and noticeably improves the state-of-the-art by 33.5% with the mean
+average precision (mAP) score. Further experiments reveal that this model can
+be elaborately scaled up to achieve a surprisingly high mAP of 93.5%. Our
+method ranks first in the ECCV 2022 Patent Diagram Image Retrieval Challenge.

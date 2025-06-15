@@ -4,6 +4,7 @@ title: Adaptive Quantization For Hashing An Information-based Approach To Learni
 authors: Xiong C., Chen, Chen, Johnson, Corso
 conference: "Arxiv"
 year: 2024
+citations: 8
 bibkey: xiong2024adaptive
 additional_links:
   - {name: "Paper", url: "https://www.cse.buffalo.edu//~jcorso/pubs/cxiong_SDM2014_adahash.pdf"}

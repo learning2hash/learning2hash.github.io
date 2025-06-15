@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Conditional Berry-esseen Bound And A Conditional Large Deviation Result Without Laplace Transform. Application To Hashing With Linear Probing
-authors: Klein Thierry, Lagnoux Agnès, Petit Pierre
+title: 'A Conditional Berry-esseen Bound And A Conditional Large Deviation Result Without Laplace Transform. Application To Hashing With Linear Probing'
+authors: Thierry Klein, Agnès Lagnoux, Pierre Petit
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: klein2015conditional
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1503.08848"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1503.08848'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 \noindent We study the asymptotic behavior of a sum of independent and
 identically distributed random variables conditioned by a sum of independent

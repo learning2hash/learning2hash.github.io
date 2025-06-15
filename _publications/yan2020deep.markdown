@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Multi-view Enhancement Hashing For Image Retrieval
-authors: Yan Chenggang, Gong Biao, Wei Yuxuan, Gao Yue
+title: 'Deep Multi-view Enhancement Hashing For Image Retrieval'
+authors: Chenggang Yan, Biao Gong, Yuxuan Wei, Yue Gao
 conference: "Arxiv"
 year: 2020
+citations: 353
 bibkey: yan2020deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2002.00169"}
-tags: ['ARXIV', 'Cross Modal', 'Deep Learning', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2002.00169'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
 ---
 Hashing is an efficient method for nearest neighbor search in large-scale
 data space by embedding high-dimensional feature descriptors into a similarity

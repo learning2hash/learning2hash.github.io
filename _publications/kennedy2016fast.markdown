@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Cross-polytope Locality-sensitive Hashing
-authors: Kennedy Christopher, Ward Rachel
+title: 'Fast Cross-polytope Locality-sensitive Hashing'
+authors: Christopher Kennedy, Rachel Ward
 conference: "Arxiv"
 year: 2016
+citations: 9
 bibkey: kennedy2016fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1602.06922"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1602.06922'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 We provide a variant of cross-polytope locality sensitive hashing with
 respect to angular distance which is provably optimal in asymptotic sensitivity

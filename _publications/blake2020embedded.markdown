@@ -4,6 +4,7 @@ title: Embedded Blockchains A Synthesis Of Blockchains Spread Spectrum Watermark
 authors: Blake Sam
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: blake2020embedded
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2009.00951"}

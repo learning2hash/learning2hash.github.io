@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: K-semstamp A Clustering-based Semantic Watermark For Detection Of Machine-generated Text
-authors: Hou Abe Bohan, Zhang Jingyu, Wang Yichen, Khashabi Daniel, He Tianxing
+title: 'K-semstamp: A Clustering-based Semantic Watermark For Detection Of Machine-generated Text'
+authors: Abe Bohan Hou, Jingyu Zhang, Yichen Wang, Daniel Khashabi, Tianxing He
 conference: "Arxiv"
 year: 2024
+citations: 1
 bibkey: hou2024k
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2402.11399"}
-tags: ['ARXIV', 'LSH', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2402.11399'}
+tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
 ---
 Recent watermarked generation algorithms inject detectable signatures during
 language generation to facilitate post-hoc detection. While token-level

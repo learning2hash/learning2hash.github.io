@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Data Hashing With Structured Binary Embeddings
-authors: Choromanski Krzysztof
+title: 'Efficient Data Hashing With Structured Binary Embeddings'
+authors: Krzysztof Choromanski
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: choromanski2015efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1505.03190"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1505.03190'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
 ---
 We present here new mechanisms for hashing data via binary embeddings.
 Contrary to most of the techniques presented before, the embedding matrix of

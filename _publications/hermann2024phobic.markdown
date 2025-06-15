@@ -4,6 +4,7 @@ title: PHOBIC Perfect Hashing With Optimized Bucket Sizes And Interleaved Coding
 authors: Hermann Stefan, Lehmann Hans-peter, Pibiri Giulio Ermanno, Sanders Peter, Walzer Stefan
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: hermann2024phobic
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2404.18497"}

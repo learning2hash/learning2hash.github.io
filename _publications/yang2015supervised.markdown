@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Supervised Learning Of Semantics-preserving Hash Via Deep Convolutional Neural Networks
-authors: Yang Huei-fang, Lin Kevin, Chen Chu-song
+title: 'Supervised Learning Of Semantics-preserving Hash Via Deep Convolutional Neural Networks'
+authors: Huei-fang Yang, Kevin Lin, Chu-song Chen
 conference: "Arxiv"
 year: 2015
+citations: 240
 bibkey: yang2015supervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1507.00101"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1507.00101'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing']
 ---
 This paper presents a simple yet effective supervised deep hash approach that
 constructs binary hash codes from labeled data for large-scale image search. We

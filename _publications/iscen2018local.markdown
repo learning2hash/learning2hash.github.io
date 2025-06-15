@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Local Orthogonal-group Testing
-authors: Iscen Ahmet, Chum Ondrej
+title: 'Local Orthogonal-group Testing'
+authors: Ahmet Iscen, Ondrej Chum
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: iscen2018local
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1807.09848"}
-tags: ['ARXIV', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1807.09848'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Applications']
 ---
 This work addresses approximate nearest neighbor search applied in the domain
 of large-scale image retrieval. Within the group testing framework we propose

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Feature Pyramid Hashing
-authors: Yang Yifan, Geng Libing, Lai Hanjiang, Pan Yan, Yin Jian
+title: 'Feature Pyramid Hashing'
+authors: Yifan Yang, Libing Geng, Hanjiang Lai, Yan Pan, Jian Yin
 conference: "Arxiv"
 year: 2019
+citations: 22
 bibkey: yang2019feature
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.02325"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.02325'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Deep Hashing', 'Supervised', 'Hashing', 'Applications']
 ---
 In recent years, deep-networks-based hashing has become a leading approach
 for large-scale image retrieval. Most deep hashing approaches use the high

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Note On Approximate Nearest Neighbor Methods
-authors: Breuel Thomas M.
+title: 'A Note On Approximate Nearest Neighbor Methods'
+authors: Thomas M. Breuel
 conference: "Arxiv"
 year: 2007
+citations: 4
 bibkey: breuel2007note
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/0703101"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/0703101'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Vector Indexing']
 ---
 A number of authors have described randomized algorithms for solving the
 epsilon-approximate nearest neighbor problem. In this note I point out that the

@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Unsupervised Contrastive Hashing For Cross-modal Retrieval In Remote Sensing
-authors: Mikriukov Georgii, Ravanbakhsh Mahdyar, Demir Begüm
+title: 'Unsupervised Contrastive Hashing For Cross-modal Retrieval In Remote Sensing'
+authors: Georgii Mikriukov, Mahdyar Ravanbakhsh, Begüm Demir
 conference: "Arxiv"
 year: 2022
+citations: 55
 bibkey: mikriukov2022unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2204.08707"}
-  - {name: "Code", url: "https://git.tu-berlin.de/rsim/duch"}
-tags: ['ARXIV', 'Cross Modal', 'Has Code', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2204.08707'}
+  - {name: "Code", url: 'https://git.tu-berlin.de/rsim/duch'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Has Code', 'Training Strategy', 'Hashing', 'Applications']
 ---
 The development of cross-modal retrieval systems that can search and retrieve
 semantically relevant data across different modalities based on a query in any

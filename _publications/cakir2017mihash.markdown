@@ -4,6 +4,7 @@ title: Mihash Online Hashing With Mutual Information
 authors: Cakir Fatih, He Kun, Bargal Sarah Adel, Sclaroff Stan
 conference: "Arxiv"
 year: 2017
+citations: 71
 bibkey: cakir2017mihash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1703.08919"}

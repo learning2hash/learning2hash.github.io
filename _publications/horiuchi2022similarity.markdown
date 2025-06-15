@@ -4,10 +4,11 @@ title: Similarity Search On Computational Notebooks
 authors: Horiuchi Misato Osaka University, Sasaki Yuya Osaka University, Xiao Chuan Osaka University, Onizuka Makoto Osaka University
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: horiuchi2022similarity
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2201.12786"}
-tags: ['ARXIV', 'Graph', 'Independent']
+tags: ['ARXIV', 'Graph', 'Independent', 'Independent']
 ---
 Computational notebook software such as Jupyter Notebook is popular for data
 science tasks. Numerous computational notebooks are available on the Web and

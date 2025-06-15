@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Similarity Indexing And Searching In High Dimensions
-authors: Zhong Yu
+title: 'Efficient Similarity Indexing And Searching In High Dimensions'
+authors: Yu Zhong
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: zhong2015efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1505.03090"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1505.03090'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Efficient indexing and searching of high dimensional data has been an area of
 active research due to the growing exploitation of high dimensional data and

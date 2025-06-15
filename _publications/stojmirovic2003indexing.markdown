@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Indexing Schemes For Similarity Search In Datasets Of Short Protein Fragments
-authors: Stojmirovic Aleksandar, Pestov Vladimir
-conference: "Information Systems"
+title: 'Indexing Schemes For Similarity Search In Datasets Of Short Protein Fragments'
+authors: Aleksandar Stojmirovic, Vladimir Pestov
+conference: "Information Systems 32 (2007) 1145-1165"
 year: 2003
+citations: 10
 bibkey: stojmirovic2003indexing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/0309005"}
-tags: []
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/0309005'}
+tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Benchmarks and Tools', 'Datasets', 'Vector Indexing']
 ---
 We propose a family of very efficient hierarchical indexing schemes for
 ungapped, score matrix-based similarity search in large datasets of short (4-12

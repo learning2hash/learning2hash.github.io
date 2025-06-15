@@ -4,6 +4,7 @@ title: Fast Low-rank Representation Based Spatial Pyramid Matching For Image Cla
 authors: Peng Xi, Yan Rui, Zhao Bo, Tang Huajin, Yi Zhang
 conference: "Knowledge based Systems"
 year: 2014
+citations: 19
 bibkey: peng2014fast
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1409.5786"}

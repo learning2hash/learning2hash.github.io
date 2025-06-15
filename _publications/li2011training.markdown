@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Training Logistic Regression And SVM On 200GB Data Using B-bit Minwise Hashing And Comparisons With Vowpal Wabbit (VW)
-authors: Li Ping, Shrivastava Anshumali, Konig Christian
+title: 'Training Logistic Regression And SVM On 200GB Data Using B-bit Minwise Hashing And Comparisons With Vowpal Wabbit (VW)'
+authors: Ping Li, Anshumali Shrivastava, Christian Konig
 conference: "Arxiv"
 year: 2011
+citations: 3
 bibkey: li2011training
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1108.3072"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1108.3072'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 We generated a dataset of 200 GB with 10^9 features, to test our recent b-bit
 minwise hashing algorithms for training very large-scale logistic regression

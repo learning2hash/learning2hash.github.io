@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Circulant Binary Embedding
-authors: Yu Felix X., Kumar Sanjiv, Gong Yunchao, Chang Shih-fu
+title: 'Circulant Binary Embedding'
+authors: Felix X. Yu, Sanjiv Kumar, Yunchao Gong, Shih-fu Chang
 conference: "Arxiv"
 year: 2014
+citations: 131
 bibkey: yu2014circulant
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1405.3162"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1405.3162'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 Binary embedding of high-dimensional data requires long codes to preserve the
 discriminative power of the input space. Traditional binary coding methods

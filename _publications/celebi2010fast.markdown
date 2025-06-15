@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Color Quantization Using Weighted Sort-means Clustering
-authors: Celebi M. Emre
-conference: "Journal of the Optical Society of America A"
+title: 'Fast Color Quantization Using Weighted Sort-means Clustering'
+authors: M. Emre Celebi
+conference: "Journal of the Optical Society of America A 26 (2009) 2434-2443"
 year: 2010
+citations: 15
 bibkey: celebi2010fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1011.0093"}
-tags: ['Graph', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1011.0093'}
+tags: ['Quantisation', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Quantization', 'Applications']
 ---
 Color quantization is an important operation with numerous applications in
 graphics and image processing. Most quantization methods are essentially based

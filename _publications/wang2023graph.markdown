@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Graph-collaborated Auto-encoder Hashing For Multi-view Binary Clustering
-authors: Wang Huibing, Yao Mingze, Jiang Guangqi, Mi Zetian, Fu Xianping
+title: 'Graph-collaborated Auto-encoder Hashing For Multi-view Binary Clustering'
+authors: Huibing Wang, Mingze Yao, Guangqi Jiang, Zetian Mi, Xianping Fu
 conference: "Arxiv"
 year: 2023
+citations: 54
 bibkey: wang2023graph
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2301.02484"}
-tags: ['ARXIV', 'Cross Modal', 'Graph', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2301.02484'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Quantisation', 'Training Strategy', 'Hashing', 'Compression', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing']
 ---
 Unsupervised hashing methods have attracted widespread attention with the
 explosive growth of large-scale data, which can greatly reduce storage and

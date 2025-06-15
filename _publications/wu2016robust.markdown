@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Robust Hashing For Multi-view Data Jointly Learning Low-rank Kernelized Similarity Consensus And Hash Functions
-authors: Wu Lin, Wang Yang
+title: 'Robust Hashing For Multi-view Data: Jointly Learning Low-rank Kernelized Similarity Consensus And Hash Functions'
+authors: Lin Wu, Yang Wang
 conference: "Arxiv"
 year: 2016
+citations: 30
 bibkey: wu2016robust
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1611.05521"}
-tags: ['ARXIV', 'Cross Modal', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1611.05521'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Learning hash functions/codes for similarity search over multi-view data is
 attracting increasing attention, where similar hash codes are assigned to the

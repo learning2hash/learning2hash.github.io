@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: "ImageNet: A large-scale hierarchical image database"
-authors: J. Deng, W. Dong, R. Socher, L. Li, K. Li, L. Fei-Fei
+authors: J. Deng et al.
 conference: CVPR
 year: 2009
+citations: 339
 bibkey: imagenet2009using
 additional_links:
    - {name: "URL", url: "http://www.image-net.org/"}

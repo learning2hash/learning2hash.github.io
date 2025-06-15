@@ -4,6 +4,7 @@ title: Foresthash Semantic Hashing With Shallow Random Forests And Tiny Convolut
 authors: Qiu Qiang, Lezama Jose, Bronstein Alex, Sapiro Guillermo
 conference: "Arxiv"
 year: 2017
+citations: 5
 bibkey: qiu2017foresthash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1711.08364"}

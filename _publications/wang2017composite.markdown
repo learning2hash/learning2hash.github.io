@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Composite Quantization
-authors: Wang Jingdong, Zhang Ting
+title: 'Composite Quantization'
+authors: Jingdong Wang, Ting Zhang
 conference: "Arxiv"
 year: 2017
+citations: 17
 bibkey: wang2017composite
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1712.00955"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1712.00955'}
+tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Quantization', 'Applications']
 ---
 This paper studies the compact coding approach to approximate nearest
 neighbor search. We introduce a composite quantization framework. It uses the

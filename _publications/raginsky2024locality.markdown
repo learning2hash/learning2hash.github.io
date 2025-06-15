@@ -4,6 +4,7 @@ title: Locality-sensitive Binary Codes From Shift-invariant Kernels
 authors: Raginsky M., Lazebnik
 conference: "Arxiv"
 year: 2024
+citations: 632
 bibkey: raginsky2024locality
 additional_links:
   - {name: "Paper", url: "http://papers.nips.cc/paper/3749-locality-sensitive-binary-codes-from-shift-invariant-kernels.pdf"}

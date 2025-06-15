@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Probminhash -- A Class Of Locality-sensitive Hash Algorithms For The (probability) Jaccard Similarity
-authors: Ertl Otmar
+title: 'Probminhash -- A Class Of Locality-sensitive Hash Algorithms For The (probability) Jaccard Similarity'
+authors: Otmar Ertl
 conference: "Arxiv"
 year: 2019
+citations: 14
 bibkey: ertl2019probminhash
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1911.00675"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1911.00675'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 The probability Jaccard similarity was recently proposed as a natural
 generalization of the Jaccard similarity to measure the proximity of sets whose

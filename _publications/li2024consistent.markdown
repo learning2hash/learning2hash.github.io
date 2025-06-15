@@ -4,6 +4,7 @@ title: 0-bit Consistent Weighted Sampling
 authors: Li P.
 conference: "Arxiv"
 year: 2024
+citations: 35
 bibkey: li2024consistent
 additional_links:
   - {name: "Paper", url: "http://www.stat.rutgers.edu/home/pingli/papers/0bitCWS.pdf"}

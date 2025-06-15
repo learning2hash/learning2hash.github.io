@@ -4,6 +4,7 @@ title: Fast Approximate Nearest-neighbor Field By Cascaded Spherical Hashing
 authors: Torres-xirau I., Salvador, Pérez-pellitero
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: torresxirau2024fast
 additional_links:
   - {name: "Paper", url: "https://perezpellitero.github.io/documents/TorresXirau2014Accv.pdf"}

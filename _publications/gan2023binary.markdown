@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Binary Embedding-based Retrieval At Tencent
-authors: Gan Yukang, Ge Yixiao, Zhou Chang, Su Shupeng, Xu Zhouchuan, Xu Xuyuan, Hui Quanchao, Chen Xiang, Wang Yexin, Shan Ying
+authors: Gan Yukang et al.
 conference: "Arxiv"
 year: 2023
+citations: 3
 bibkey: gan2023binary
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2302.08714"}

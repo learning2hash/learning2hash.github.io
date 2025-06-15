@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Multi-modal Mutual Information Maximization A Novel Approach For Unsupervised Deep Cross-modal Hashing
-authors: Hoang Tuan, Do Thanh-toan, Nguyen Tam V., Cheung Ngai-man
+title: 'Multi-modal Mutual Information Maximization: A Novel Approach For Unsupervised Deep Cross-modal Hashing'
+authors: Tuan Hoang, Thanh-toan Do, Tam V. Nguyen, Ngai-man Cheung
 conference: "Arxiv"
 year: 2021
+citations: 27
 bibkey: hoang2021multi
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2112.06489"}
-tags: ['ARXIV', 'Cross Modal', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2112.06489'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Evaluation', 'Datasets', 'Vector Indexing', 'Multi-Modal Hashing', 'Hashing']
 ---
 In this paper, we adopt the maximizing mutual information (MI) approach to
 tackle the problem of unsupervised learning of binary hash codes for efficient

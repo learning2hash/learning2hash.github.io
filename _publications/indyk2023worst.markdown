@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Worst-case Performance Of Popular Approximate Nearest Neighbor Search Implementations Guarantees And Limitations
-authors: Indyk Piotr, Xu Haike
+title: 'Worst-case Performance Of Popular Approximate Nearest Neighbor Search Implementations: Guarantees And Limitations'
+authors: Piotr Indyk, Haike Xu
 conference: "Arxiv"
 year: 2023
+citations: 2
 bibkey: indyk2023worst
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2310.19126"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2310.19126'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Graph-Based Methods']
 ---
 Graph-based approaches to nearest neighbor search are popular and powerful
 tools for handling large datasets in practice, but they have limited

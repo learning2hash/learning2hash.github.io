@@ -4,6 +4,7 @@ title: Focused Quantization For Sparse Cnns
 authors: Yiren Zhao, Xitong Gao, Daniel Bates, Robert Mullins, Cheng-zhong Xu
 conference: "Neural Information Processing Systems"
 year: 2019
+citations: 13
 bibkey: zhao2019focused
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2019/hash/58aaee7ae94b52697ad3b9275d46ec7f-Abstract.html"}

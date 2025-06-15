@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Shuffle And Learn Minimizing Mutual Information For Unsupervised Hashing
-authors: Liu Fangrui, Liu Zheng
+title: 'Shuffle And Learn: Minimizing Mutual Information For Unsupervised Hashing'
+authors: Fangrui Liu, Zheng Liu
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: liu2020shuffle
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2011.10239"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2011.10239'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Vector Indexing', 'Unsupervised Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Unsupervised binary representation allows fast data retrieval without any
 annotations, enabling practical application like fast person re-identification

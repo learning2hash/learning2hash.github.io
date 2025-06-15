@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: The Extended Edit Distance Metric
-authors: Fuad Muhammad Marwan Muhammad Valoria, Marteau Pierre-françois Valoria
-conference: "Content-Based Multimedia Indexing CBMI"
+title: 'The Extended Edit Distance Metric'
+authors: Muhammad Marwan Muhammad Valoria Fuad, Pierre-françois Valoria Marteau
+conference: "Content-Based Multimedia Indexing CBMI 2008 london United Kingdom (2008)"
 year: 2007
+citations: 8
 bibkey: fuad2007extended
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0709.4669"}
-tags: ['Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0709.4669'}
+tags: ['Retrieval Models', 'Unimodal', 'Supervised', 'Deep']
 ---
 Similarity search is an important problem in information retrieval. This
 similarity is based on a distance. Symbolic representation of time series has

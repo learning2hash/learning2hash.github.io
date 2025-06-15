@@ -4,6 +4,7 @@ title: Properties And Examples Of Faber--walsh Polynomials
 authors: Sète Olivier, Liesen Jörg
 conference: "Computational Methods and Function Theory Volume"
 year: 2015
+citations: 6
 bibkey: sète2015properties
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1502.07633"}

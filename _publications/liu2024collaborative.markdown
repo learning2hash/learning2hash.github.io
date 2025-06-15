@@ -4,6 +4,7 @@ title: Collaborative Hashing
 authors: Liu X., He, Deng, Lang
 conference: "Arxiv"
 year: 2024
+citations: 78
 bibkey: liu2024collaborative
 additional_links:
   - {name: "Paper", url: "http://www.nlsde.buaa.edu.cn/~xlliu/cvpr2014.pdf"}

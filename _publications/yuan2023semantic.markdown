@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Semantic-aware Adversarial Training For Reliable Deep Hashing Retrieval
-authors: Yuan Xu, Zhang Zheng, Wang Xunguang, Wu Lin
-conference: "IEEE Transactions on Information Forensics and Security vol."
+title: 'Semantic-aware Adversarial Training For Reliable Deep Hashing Retrieval'
+authors: Xu Yuan, Zheng Zhang, Xunguang Wang, Lin Wu
+conference: "IEEE Transactions on Information Forensics and Security vol. 18 pp. 4681-4694 2023"
 year: 2023
+citations: 20
 bibkey: yuan2023semantic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2310.14637"}
-  - {name: "Code", url: "https://github.com/xandery-geek/SAAT"}
-tags: ['Has Code', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2310.14637'}
+  - {name: "Code", url: 'https://github.com/xandery-geek/SAAT'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Datasets', 'Vector Indexing', 'Has Code', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Deep hashing has been intensively studied and successfully applied in
 large-scale image retrieval systems due to its efficiency and effectiveness.

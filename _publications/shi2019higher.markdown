@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Higher-order Count Sketch Dimensionality Reduction That Retains Efficient Tensor Operations
-authors: Shi Yang, Anandkumar Animashree
+title: 'Higher-order Count Sketch: Dimensionality Reduction That Retains Efficient Tensor Operations'
+authors: Yang Shi, Animashree Anandkumar
 conference: "Arxiv"
 year: 2019
+citations: 2
 bibkey: shi2019higher
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1901.11261"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1901.11261'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Compression', 'Datasets', 'Hashing']
 ---
 Sketching is a randomized dimensionality-reduction method that aims to
 preserve relevant information in large-scale datasets. Count sketch is a simple

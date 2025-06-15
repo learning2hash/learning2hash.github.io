@@ -4,10 +4,11 @@ title: Deep Polarized Network For Supervised Learning Of Accurate Binary Hashing
 authors: Fan Lixin, Ng, Ju, Zhang, Chan
 conference: "Arxiv"
 year: 2024
+citations: 76
 bibkey: fan2024deep
 additional_links:
   - {name: "Paper", url: "https://www.ijcai.org/proceedings/2020/0115.pdf"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Supervised', 'Supervised']
 ---
 This paper proposes a novel deep polarized network (DPN) for learning to hash, in which each channel in the network outputs is pushed far away
 from zero by employing a differentiable bit-wise hinge-like loss which is dubbed as polarization loss. Reformulated within a generic Hamming Distance Metric Learning framework [Norouzi et al.,

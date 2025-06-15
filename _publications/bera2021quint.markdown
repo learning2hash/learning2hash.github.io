@@ -4,6 +4,7 @@ title: QUINT Node Embedding Using Network Hashing
 authors: Bera Debajyoti, Pratap Rameshwar, Verma Bhisham Dev, Sen Biswadeep, Chakraborty Tanmoy
 conference: "Arxiv"
 year: 2021
+citations: 4
 bibkey: bera2021quint
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2109.04206"}

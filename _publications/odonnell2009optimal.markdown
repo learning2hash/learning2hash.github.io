@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Optimal Lower Bounds For Locality Sensitive Hashing (except When Q Is Tiny)
-authors: O'donnell Ryan, Wu Yi, Zhou Yuan
+title: 'Optimal Lower Bounds For Locality Sensitive Hashing (except When Q Is Tiny)'
+authors: Ryan O'donnell, Yi Wu, Yuan Zhou
 conference: "Arxiv"
 year: 2009
+citations: 31
 bibkey: odonnell2009optimal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0912.0250"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0912.0250'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 We study lower bounds for Locality Sensitive Hashing (LSH) in the strongest
 setting: point sets in \{0,1\}^d under the Hamming distance. Recall that here H

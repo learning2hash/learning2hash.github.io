@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Cycle-consistent Deep Generative Hashing For Cross-modal Retrieval
-authors: Wu Lin, Wang Yang, Shao Ling
+title: 'Cycle-consistent Deep Generative Hashing For Cross-modal Retrieval'
+authors: Lin Wu, Yang Wang, Ling Shao
 conference: "Arxiv"
 year: 2018
+citations: 197
 bibkey: wu2018cycle
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1804.11013"}
-tags: ['ARXIV', 'Cross Modal', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1804.11013'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Training Strategy', 'Hashing']
 ---
 In this paper, we propose a novel deep generative approach to cross-modal
 retrieval to learn hash functions in the absence of paired training samples

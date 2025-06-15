@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unconventional Application Of K-means For Distributed Approximate Similarity Search
-authors: Ortega Felipe, Algar Maria Jesus, De Diego Isaac Martín, Moguerza Javier M.
+title: 'Unconventional Application Of K-means For Distributed Approximate Similarity Search'
+authors: Felipe Ortega, Maria Jesus Algar, Isaac Martín De Diego, Javier M. Moguerza
 conference: "Arxiv"
 year: 2022
+citations: 4
 bibkey: ortega2022unconventional
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2208.02734"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2208.02734'}
+tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Vector Indexing', 'Applications']
 ---
 Similarity search based on a distance function in metric spaces is a
 fundamental problem for many applications. Queries for similar objects lead to

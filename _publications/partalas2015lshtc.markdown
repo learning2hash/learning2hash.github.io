@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: LSHTC A Benchmark For Large-scale Text Classification
-authors: Partalas Ioannis, Kosmopoulos Aris, Baskiotis Nicolas, Artieres Thierry, Paliouras George, Gaussier Eric, Androutsopoulos Ion, Amini Massih-reza, Galinari Patrick
+authors: Partalas Ioannis et al.
 conference: "Arxiv"
 year: 2015
+citations: 139
 bibkey: partalas2015lshtc
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1503.08581"}

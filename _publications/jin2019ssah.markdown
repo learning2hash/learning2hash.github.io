@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: SSAH Semi-supervised Adversarial Deep Hashing With Self-paced Hard Sample Generation
-authors: Jin Sheng, Zhou Shangchen, Liu Yao, Chen Chao, Sun Xiaoshuai, Yao Hongxun, Hua Xiansheng
+authors: Jin Sheng et al.
 conference: "Arxiv"
 year: 2019
+citations: 21
 bibkey: jin2019ssah
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1911.08688"}
-tags: ['ARXIV', 'GAN', 'Supervised']
+tags: ['ARXIV', 'GAN', 'Supervised', 'Semi-Supervised']
 ---
 Deep hashing methods have been proved to be effective and efficient for
 large-scale Web media search. The success of these data-driven methods largely

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Neural Quantization For Compressed-domain Similarity Search
-authors: Morozov Stanislav, Babenko Artem
+title: 'Unsupervised Neural Quantization For Compressed-domain Similarity Search'
+authors: Stanislav Morozov, Artem Babenko
 conference: "Arxiv"
 year: 2019
+citations: 16
 bibkey: morozov2019unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1908.03883"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1908.03883'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Compression', 'Datasets', 'Quantization', 'Applications']
 ---
 We tackle the problem of unsupervised visual descriptors compression, which
 is a key ingredient of large-scale image retrieval systems. While the deep

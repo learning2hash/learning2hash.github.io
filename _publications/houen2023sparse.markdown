@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Sparse Johnson-lindenstrauss Transform Using Fast Hashing
-authors: Houen Jakob Bæk Tejs, Thorup Mikkel
+title: 'A Sparse Johnson-lindenstrauss Transform Using Fast Hashing'
+authors: Jakob Bæk Tejs Houen, Mikkel Thorup
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: houen2023sparse
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2305.03110"}
-tags: ['ARXIV', 'FOCS', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2305.03110'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 The *Sparse Johnson-Lindenstrauss Transform* of Kane and Nelson (SODA
 2012) provides a linear dimensionality-reducing map \\(A \in \mathbb\{R\}^\{m \times

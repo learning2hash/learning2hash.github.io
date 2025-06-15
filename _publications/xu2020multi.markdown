@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Multi-feature Discrete Collaborative Filtering For Fast Cold-start Recommendation
-authors: Xu Yang, Zhu Lei, Cheng Zhiyong, Li Jingjing, Sun Jiande
+title: 'Multi-feature Discrete Collaborative Filtering For Fast Cold-start Recommendation'
+authors: Yang Xu, Lei Zhu, Zhiyong Cheng, Jingjing Li, Jiande Sun
 conference: "Arxiv"
 year: 2020
+citations: 16
 bibkey: xu2020multi
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2003.10719"}
-tags: ['ARXIV', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2003.10719'}
+tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Training Strategy', 'Shallow', 'Compression', 'Datasets', 'Quantization', 'Hashing', 'Applications']
 ---
 Hashing is an effective technique to address the large-scale recommendation
 problem, due to its high computation and storage efficiency on calculating the

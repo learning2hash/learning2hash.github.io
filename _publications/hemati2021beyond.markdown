@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Beyond Neighbourhood-preserving Transformations For Quantization-based Unsupervised Hashing
-authors: Hemati Sobhan, Tizhoosh H. R.
+title: 'Beyond Neighbourhood-preserving Transformations For Quantization-based Unsupervised Hashing'
+authors: Sobhan Hemati, H. R. Tizhoosh
 conference: "Arxiv"
 year: 2021
+citations: 2
 bibkey: hemati2021beyond
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2110.00216"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2110.00216'}
+tags: ['Cross-Modal', 'Quantisation', 'Training Strategy', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing']
 ---
 An effective unsupervised hashing algorithm leads to compact binary codes
 preserving the neighborhood structure of data as much as possible. One of the

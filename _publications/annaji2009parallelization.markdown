@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Parallelization Of The LBG Vector Quantization Algorithm For Shared Memory Systems
-authors: Annaji Rajashekar, Rao Shrisha
-conference: "International Journal of Image Processing vol."
+title: 'Parallelization Of The LBG Vector Quantization Algorithm For Shared Memory Systems'
+authors: Rajashekar Annaji, Shrisha Rao
+conference: "International Journal of Image Processing vol. 3 no. 4 July/August 2009 pp. 170-183"
 year: 2009
+citations: 0
 bibkey: annaji2009parallelization
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0910.4711"}
-tags: ['ICIP', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0910.4711'}
+tags: ['Deep', 'Quantisation', 'Unimodal', 'Training Strategy', 'Quantization']
 ---
 This paper proposes a parallel approach for the Vector Quantization (VQ)
 problem in image processing. VQ deals with codebook generation from the input

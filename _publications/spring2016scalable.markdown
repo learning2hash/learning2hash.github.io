@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Scalable And Sustainable Deep Learning Via Randomized Hashing
-authors: Spring Ryan, Shrivastava Anshumali
+title: 'Scalable And Sustainable Deep Learning Via Randomized Hashing'
+authors: Ryan Spring, Anshumali Shrivastava
 conference: "Arxiv"
 year: 2016
+citations: 55
 bibkey: spring2016scalable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1602.08194"}
-tags: ['ARXIV', 'Deep Learning', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1602.08194'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Current deep learning architectures are growing larger in order to learn from
 complex datasets. These architectures require giant matrix multiplication

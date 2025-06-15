@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Discriminative Supervised Hashing For Cross-modal Similarity Search
-authors: Yu Jun, Wu Xiao-jun, Kittler Josef
+title: 'Discriminative Supervised Hashing For Cross-modal Similarity Search'
+authors: Jun Yu, Xiao-jun Wu, Josef Kittler
 conference: "Arxiv"
 year: 2018
+citations: 10
 bibkey: yu2018discriminative
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1812.07660"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1812.07660'}
+tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Supervised', 'Supervised Hashing']
 ---
 With the advantage of low storage cost and high retrieval efficiency, hashing
 techniques have recently been an emerging topic in cross-modal similarity

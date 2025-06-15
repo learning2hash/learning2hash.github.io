@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: Progressive Generative Hashing For Image Retrieval
-authors: Ma Yuqing, He, Ding, Hu, Li, Liu
+authors: Ma Yuqing et al.
 conference: "Arxiv"
 year: 2024
+citations: 8
 bibkey: ma2024progressive
 additional_links:
   - {name: "Paper", url: "https://www.ijcai.org/proceedings/2018/0121.pdf"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+tags: ['ARXIV', 'Image Retrieval', 'Unsupervised', 'Supervised']
 ---
 Recent years have witnessed the success of the emerging hashing techniques in large-scale image
 retrieval. Owing to the great learning capacity,

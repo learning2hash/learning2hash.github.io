@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Metric Multi-view Hashing For Multimedia Retrieval
-authors: Zhu Jian, Huang Zhangmin, Ruan Xiaohu, Cui Yu, Cheng Yongli, Zeng Lingfang
+title: 'Deep Metric Multi-view Hashing For Multimedia Retrieval'
+authors: Jian Zhu et al.
 conference: "Arxiv"
 year: 2023
+citations: 6
 bibkey: zhu2023deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2304.06358"}
-tags: ['ARXIV', 'Cross Modal']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2304.06358'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Multi-Modal Hashing', 'Similarity Learning', 'Hashing']
 ---
 Learning the hash representation of multi-view heterogeneous data is an
 important task in multimedia retrieval. However, existing methods fail to

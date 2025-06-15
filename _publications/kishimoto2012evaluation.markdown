@@ -4,6 +4,7 @@ title: Evaluation Of A Simple Scalable Parallel Best-first Search Strategy
 authors: Kishimoto Akihiro, Fukunaga Alex, Botea Adi
 conference: "Artificial Intelligence"
 year: 2012
+citations: 18
 bibkey: kishimoto2012evaluation
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1201.3204"}

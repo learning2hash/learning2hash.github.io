@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sign-guided Bipartite Graph Hashing For Hamming Space Search
-authors: Wu Xueyi
+title: 'Sign-guided Bipartite Graph Hashing For Hamming Space Search'
+authors: Xueyi Wu
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: wu2024sign
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2405.02716"}
-tags: ['ARXIV', 'Graph', 'Self Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2405.02716'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Bipartite graph hashing (BGH) is extensively used for Top-K search in Hamming
 space at low storage and inference costs. Recent research adopts graph

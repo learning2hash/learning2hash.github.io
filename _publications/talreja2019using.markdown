@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Using Deep Cross Modal Hashing And Error Correcting Codes For Improving The Efficiency Of Attribute Guided Facial Image Retrieval
-authors: Talreja Veeru, Taherkhani Fariborz, Valenti Matthew C., Nasrabadi Nasser M.
+title: 'Using Deep Cross Modal Hashing And Error Correcting Codes For Improving The Efficiency Of Attribute Guided Facial Image Retrieval'
+authors: Veeru Talreja, Fariborz Taherkhani, Matthew C. Valenti, Nasser M. Nasrabadi
 conference: "Arxiv"
 year: 2019
+citations: 13
 bibkey: talreja2019using
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1902.04139"}
-tags: ['ARXIV', 'Cross Modal', 'Deep Learning', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1902.04139'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Deep Hashing', 'Hashing', 'Applications']
 ---
 With benefits of fast query speed and low storage cost, hashing-based image
 retrieval approaches have garnered considerable attention from the research

@@ -4,6 +4,7 @@ title: A Survey On Learning To Hash
 authors: Wang Jingdong, Zhang, Song, Sebe, Shen
 conference: "Arxiv"
 year: 2024
+citations: 696
 bibkey: wang2024survey
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/pdf/1606.00185.pdf"}

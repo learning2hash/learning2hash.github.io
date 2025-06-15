@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Integrating Semantics And Neighborhood Information With Graph-driven Generative Models For Document Retrieval
-authors: Ou Zijing, Su Qinliang, Yu Jianxing, Liu Bang, Wang Jingwen, Zhao Ruihui, Chen Changyou, Zheng Yefeng
-conference: "ACL"
+title: 'Integrating Semantics And Neighborhood Information With Graph-driven Generative Models For Document Retrieval'
+authors: Zijing Ou et al.
+conference: "ACL2021"
 year: 2021
+citations: 0
 bibkey: ou2021integrating
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2105.13066"}
-tags: ['Graph', 'SIGIR']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2105.13066'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 With the need of fast retrieval speed and small memory footprint, document
 hashing has been playing a crucial role in large-scale information retrieval.

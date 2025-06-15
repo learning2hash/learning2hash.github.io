@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Explicit Orthogonal Arrays And Universal Hashing With Arbitrary Parameters
-authors: Harvey Nicholas, Sahami Arvin
+title: 'Explicit Orthogonal Arrays And Universal Hashing With Arbitrary Parameters'
+authors: Nicholas Harvey, Arvin Sahami
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: harvey2024explicit
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2405.08787"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2405.08787'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Orthogonal arrays are a type of combinatorial design that were developed in
 the 1940s in the design of statistical experiments. In 1947, Rao proved a lower

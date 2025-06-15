@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: "Microsoft COCO: Common Objects in Context"
-authors: Tsung-Yi Lin, Michael Maire, Serge Belongie, Lubomir Bourdev, Ross Girshick, James Hays, Pietro Perona, Deva Ramanan, C. Lawrence Zitnick, Piotr Dollar
+authors: Tsung-Yi Lin et al.
 conference: 
 year: 2014
+citations: 19652
 bibkey: coco2014new
 additional_links:
    - {name: "Paper", url: "https://arxiv.org/abs/1405.0312"}

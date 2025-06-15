@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Approximate Nearest Neighbor Search Under Neural Similarity Metric For Large-scale Recommendation
-authors: Chen Rihan, Liu Bin, Zhu Han, Wang Yaoxuan, Li Qi, Ma Buting, Hua Qingbo, Jiang Jun, Xu Yunlong, Deng Hongbo, Zheng Bo
+authors: Chen Rihan et al.
 conference: "Arxiv"
 year: 2022
+citations: 10
 bibkey: chen2022approximate
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2202.10226"}

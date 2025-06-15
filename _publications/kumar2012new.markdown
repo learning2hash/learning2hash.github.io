@@ -4,6 +4,7 @@ title: A New Hybrid Jpeg Image Compression Scheme Using Symbol Reduction Techniq
 authors: Kumar Bheshaj, Thakur Kavita, Sinha G. R.
 conference: "Arxiv"
 year: 2012
+citations: 1
 bibkey: kumar2012new
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1202.4943"}

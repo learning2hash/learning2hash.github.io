@@ -4,6 +4,7 @@ title: Fast Compact And Highly Scalable Visual Place Recognition Through Sequenc
 authors: Garg Sourav, Milford Michael
 conference: "Arxiv"
 year: 2020
+citations: 14
 bibkey: garg2020fast
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2001.08434"}

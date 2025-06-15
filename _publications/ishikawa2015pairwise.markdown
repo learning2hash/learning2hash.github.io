@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Pairwise Rotation Hashing For High-dimensional Features
-authors: Ishikawa Kohta, Sato Ikuro, Ambai Mitsuru
+title: 'Pairwise Rotation Hashing For High-dimensional Features'
+authors: Kohta Ishikawa, Ikuro Sato, Mitsuru Ambai
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: ishikawa2015pairwise
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1501.07422"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1501.07422'}
+tags: ['Quantisation', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Quantization', 'Hashing']
 ---
 Binary Hashing is widely used for effective approximate nearest neighbors
 search. Even though various binary hashing methods have been proposed, very few

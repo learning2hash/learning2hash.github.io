@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Iceberg Hashing Optimizing Many Hash-table Criteria At Once
-authors: Bender Michael A., Conway Alex, Farach-colton Martín, Kuszmaul William, Tagliavini Guido
+title: 'Iceberg Hashing: Optimizing Many Hash-table Criteria At Once'
+authors: Michael A. Bender, Alex Conway, Martín Farach-colton, William Kuszmaul, Guido Tagliavini
 conference: "Arxiv"
 year: 2021
+citations: 11
 bibkey: bender2021iceberg
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2109.04548"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2109.04548'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Hashing']
 ---
 Despite being one of the oldest data structures in computer science, hash
 tables continue to be the focus of a great deal of both theoretical and

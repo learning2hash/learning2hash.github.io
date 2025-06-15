@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Geometric Covering Using Random Fields
-authors: Goncalves Felipe, Keren Daniel, Shahar Amit, Yehuda Gal
+title: 'Geometric Covering Using Random Fields'
+authors: Felipe Goncalves, Daniel Keren, Amit Shahar, Gal Yehuda
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: goncalves2023geometric
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2311.14082"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2311.14082'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 A set of vectors \\(S \subseteq \mathbb\{R\}^d\\) is
 \\((k_1,\epsilon)\\)-clusterable if there are \\(k_1\\) balls of radius

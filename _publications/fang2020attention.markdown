@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Attention-based Saliency Hashing For Ophthalmic Image Retrieval
-authors: Fang Jiansheng, Xu Yanwu, Zhang Xiaoqing, Hu Yan, Liu Jiang
+title: 'Attention-based Saliency Hashing For Ophthalmic Image Retrieval'
+authors: Jiansheng Fang, Yanwu Xu, Xiaoqing Zhang, Yan Hu, Jiang Liu
 conference: "Arxiv"
 year: 2020
+citations: 11
 bibkey: fang2020attention
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2012.03466"}
-tags: ['ARXIV', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2012.03466'}
+tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Hashing', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Deep hashing methods have been proved to be effective for the large-scale
 medical image search assisting reference-based diagnosis for clinicians.

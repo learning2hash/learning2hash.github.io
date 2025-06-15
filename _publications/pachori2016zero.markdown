@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Zero Shot Hashing
-authors: Pachori Shubham, Raman Shanmuganathan
+title: 'Zero Shot Hashing'
+authors: Shubham Pachori, Shanmuganathan Raman
 conference: "Arxiv"
 year: 2016
+citations: 0
 bibkey: pachori2016zero
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1610.02651"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1610.02651'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Unsupervised Hashing', 'Supervised Hashing']
 ---
 This paper provides a framework to hash images containing instances of
 unknown object classes. In many object recognition problems, we might have

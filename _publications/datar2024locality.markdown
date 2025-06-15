@@ -4,6 +4,7 @@ title: Locality-sensitive Hashing Scheme Based On P-stable Distributions
 authors: Datar M., Immorlica, Indyk, Mirrokni
 conference: "Arxiv"
 year: 2024
+citations: 1931
 bibkey: datar2024locality
 additional_links:
   - {name: "Paper", url: "https://dl.acm.org/citation.cfm?id=997857"}

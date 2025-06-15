@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Multi-resolution Hashing For Fast Pairwise Summations
-authors: Charikar Moses, Siminelakis Paris
+title: 'Multi-resolution Hashing For Fast Pairwise Summations'
+authors: Moses Charikar, Paris Siminelakis
 conference: "Arxiv"
 year: 2018
+citations: 2
 bibkey: charikar2018multi
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1807.07635"}
-tags: ['ARXIV', 'FOCS', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1807.07635'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Hashing', 'Applications']
 ---
 A basic computational primitive in the analysis of massive datasets is
 summing simple functions over a large number of objects. Modern applications

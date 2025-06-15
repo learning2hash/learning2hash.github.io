@@ -4,6 +4,7 @@ title: Group Sparse Coding
 authors: Samy Bengio, Fernando Pereira, Yoram Singer, Dennis Strelow
 conference: "Neural Information Processing Systems"
 year: 2009
+citations: 178
 bibkey: bengio2009group
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2009/hash/3b3dbaf68507998acd6a5a5254ab2d76-Abstract.html"}

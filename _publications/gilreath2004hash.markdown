@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hash Sort A Linear Time Complexity Multiple-dimensional Sort Algorithm
-authors: Gilreath William F.
-conference: "Proceedings of First Southern Symposium on Computing December"
+title: 'Hash Sort: A Linear Time Complexity Multiple-dimensional Sort Algorithm'
+authors: William F. Gilreath
+conference: "Proceedings of First Southern Symposium on Computing December 1998"
 year: 2004
+citations: 0
 bibkey: gilreath2004hash
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/0408040"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/0408040'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing', 'Applications']
 ---
 Sorting and hashing are two completely different concepts in computer
 science, and appear mutually exclusive to one another. Hashing is a search

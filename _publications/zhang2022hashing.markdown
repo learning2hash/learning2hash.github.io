@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing Learning With Hyper-class Representation
-authors: Zhang Shichao, Li Jiaye
+title: 'Hashing Learning With Hyper-class Representation'
+authors: Shichao Zhang, Jiaye Li
 conference: "Arxiv"
 year: 2022
+citations: 2
 bibkey: zhang2022hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2206.02334"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2206.02334'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
 ---
 Existing unsupervised hash learning is a kind of attribute-centered
 calculation. It may not accurately preserve the similarity between data. This

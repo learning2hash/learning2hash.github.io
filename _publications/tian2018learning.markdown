@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning Decorrelated Hashing Codes For Multimodal Retrieval
-authors: Tian Dayong
+title: 'Learning Decorrelated Hashing Codes For Multimodal Retrieval'
+authors: Dayong Tian
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: tian2018learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1803.00682"}
-tags: ['ARXIV', 'Cross Modal']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1803.00682'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Hashing']
 ---
 In social networks, heterogeneous multimedia data correlate to each other,
 such as videos and their corresponding tags in YouTube and image-text pairs in

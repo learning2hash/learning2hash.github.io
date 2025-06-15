@@ -4,6 +4,7 @@ title: Deep Center-based Dual-constrained Hashing For Discriminative Face Image 
 authors: Zhang Ming, Zhe, Yan
 conference: "Arxiv"
 year: 2024
+citations: 16
 bibkey: zhang2024deep
 additional_links:
   - {name: "Paper", url: "https://www.sciencedirect.com/science/article/abs/pii/S0031320321001631"}

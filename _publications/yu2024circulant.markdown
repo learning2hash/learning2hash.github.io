@@ -4,6 +4,7 @@ title: Circulant Binary Embedding
 authors: Yu F., Kumar, Gong, Chang
 conference: "Arxiv"
 year: 2024
+citations: 131
 bibkey: yu2024circulant
 additional_links:
   - {name: "Paper", url: "http://www.ee.columbia.edu/ln/dvmm/publications/14/yu2014_cbe.pdf"}

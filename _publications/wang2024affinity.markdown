@@ -4,6 +4,7 @@ title: Affinity Preserving Quantization For Hashing A Vector Quantization Approa
 authors: Wang Z., Duan, Huang, Gao
 conference: "Arxiv"
 year: 2024
+citations: 2
 bibkey: wang2024affinity
 additional_links:
   - {name: "Paper", url: "http://www.jdl.ac.cn/doc/2011/201612291012037194_affinity.pdf"}

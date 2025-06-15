@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Concurrent Hash Tables Fast And General(!)
-authors: Maier Tobias, Sanders Peter, Dementiev Roman
+title: 'Concurrent Hash Tables: Fast And General?(!)'
+authors: Tobias Maier, Peter Sanders, Roman Dementiev
 conference: "Arxiv"
 year: 2016
+citations: 6
 bibkey: maier2016concurrent
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1601.04017"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1601.04017'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Concurrent hash tables are one of the most important concurrent data
 structures with numerous applications. Since hash table accesses can dominate

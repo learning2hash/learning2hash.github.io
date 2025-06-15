@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Similarity Guided Deep Face Image Retrieval
-authors: Jang Young Kyun, Cho Nam Ik
+title: 'Similarity Guided Deep Face Image Retrieval'
+authors: Young Kyun Jang, Nam Ik Cho
 conference: "Arxiv"
 year: 2021
+citations: 3
 bibkey: jang2021similarity
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2107.05025"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2107.05025'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Face image retrieval, which searches for images of the same identity from the
 query input face image, is drawing more attention as the size of the image

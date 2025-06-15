@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Space-efficient Las Vegas Algorithms For K-SUM
-authors: Wang Joshua
+title: 'Space-efficient Las Vegas Algorithms For K-SUM'
+authors: Joshua Wang
 conference: "Arxiv"
 year: 2013
+citations: 2
 bibkey: wang2013space
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1303.1016"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1303.1016'}
+tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
 ---
 Using hashing techniques, this paper develops a family of space-efficient Las
 Vegas randomized algorithms for \\(k\\)-SUM problems. This family includes an

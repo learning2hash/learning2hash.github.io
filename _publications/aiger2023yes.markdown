@@ -4,6 +4,7 @@ title: Yes We CANN Constrained Approximate Nearest Neighbors For Local Feature-b
 authors: Aiger Dror, Araujo André, Lynen Simon
 conference: "Arxiv"
 year: 2023
+citations: 2
 bibkey: aiger2023yes
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2306.09012"}

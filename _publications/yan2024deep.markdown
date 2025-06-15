@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Deep Hashing By Discriminating Hard Examples
-authors: Yan Cheng, Pang, Bai, Shen, Zhou, Hancock
+authors: Yan Cheng et al.
 conference: "Arxiv"
 year: 2024
+citations: 25
 bibkey: yan2024deep
 additional_links:
   - {name: "Paper", url: "https://dl.acm.org/citation.cfm?id=3350927"}

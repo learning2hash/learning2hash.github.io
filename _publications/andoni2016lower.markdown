@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Lower Bounds On Time-space Trade-offs For Approximate Near Neighbors
-authors: Andoni Alexandr, Laarhoven Thijs, Razenshteyn Ilya, Waingarten Erik
+title: 'Lower Bounds On Time-space Trade-offs For Approximate Near Neighbors'
+authors: Alexandr Andoni, Thijs Laarhoven, Ilya Razenshteyn, Erik Waingarten
 conference: "Arxiv"
 year: 2016
+citations: 4
 bibkey: andoni2016lower
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1605.02701"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1605.02701'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 We show tight lower bounds for the entire trade-off between space and query
 time for the Approximate Near Neighbor search problem. Our lower bounds hold in

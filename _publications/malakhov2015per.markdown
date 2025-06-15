@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Per-bucket Concurrent Rehashing Algorithms
-authors: Malakhov Anton
+title: 'Per-bucket Concurrent Rehashing Algorithms'
+authors: Anton Malakhov
 conference: "Arxiv"
 year: 2015
+citations: 2
 bibkey: malakhov2015per
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1509.02235"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1509.02235'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 This paper describes a generic algorithm for concurrent resizing and
 on-demand per-bucket rehashing for an extensible hash table. In contrast to

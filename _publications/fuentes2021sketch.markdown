@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sketch-qnet A Quadruplet Convnet For Color Sketch-based Image Retrieval
-authors: Fuentes Anibal, Saavedra Jose M.
+title: 'Sketch-qnet: A Quadruplet Convnet For Color Sketch-based Image Retrieval'
+authors: Anibal Fuentes, Jose M. Saavedra
 conference: "Arxiv"
 year: 2021
+citations: 13
 bibkey: fuentes2021sketch
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2104.11130"}
-tags: ['ARXIV', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2104.11130'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Supervised', 'Supervised Hashing', 'Applications']
 ---
 Architectures based on siamese networks with triplet loss have shown
 outstanding performance on the image-based similarity search problem. This

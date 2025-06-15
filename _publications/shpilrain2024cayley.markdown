@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Cayley Hashing With Cookies
-authors: Shpilrain Vladimir, Sosnovski Bianca
+title: 'Cayley Hashing With Cookies'
+authors: Vladimir Shpilrain, Bianca Sosnovski
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: shpilrain2024cayley
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2402.04943"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2402.04943'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Cayley hash functions are based on a simple idea of using a pair of semigroup
 elements, A and B, to hash the 0 and 1 bit, respectively, and then to hash an

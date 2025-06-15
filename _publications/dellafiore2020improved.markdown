@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Improved Bounds For (bk)-hashing
-authors: Della Fiore Stefano, Costa Simone, Dalai Marco
+title: 'Improved Bounds For \((b,k)\)-hashing'
+authors: Stefano Della Fiore, Simone Costa, Marco Dalai
 conference: "Arxiv"
 year: 2020
+citations: 5
 bibkey: dellafiore2020improved
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2012.00620"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2012.00620'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Training Strategy', 'Hashing']
 ---
 For fixed integers \\(b\geq k\\), a problem of relevant interest in computer
 science and combinatorics is that of determining the asymptotic growth, with

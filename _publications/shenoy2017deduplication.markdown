@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deduplication In A Massive Clinical Note Dataset
-authors: Shenoy Sanjeev, Kuo Tsung-ting, Gabriel Rodney, Mcauley Julian, Hsu Chun-nan
+title: 'Deduplication In A Massive Clinical Note Dataset'
+authors: Sanjeev Shenoy, Tsung-ting Kuo, Rodney Gabriel, Julian Mcauley, Chun-nan Hsu
 conference: "Arxiv"
 year: 2017
+citations: 1
 bibkey: shenoy2017deduplication
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1704.05617"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1704.05617'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
 ---
 Duplication, whether exact or partial, is a common issue in many datasets. In
 clinical notes data, duplication (and near duplication) can arise for many

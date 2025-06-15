@@ -4,6 +4,7 @@ title: Dxhash A Scalable Consistent Hash Based On The Pseudo-random Sequence
 authors: Dong Chao, Wang Fang, Feng Dan
 conference: "Arxiv"
 year: 2021
+citations: 8
 bibkey: dong2021dxhash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2107.07930"}

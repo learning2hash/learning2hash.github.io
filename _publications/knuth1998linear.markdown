@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Linear Probing And Graphs
-authors: Knuth Donald E.
-conference: "Algorithmica"
+title: 'Linear Probing And Graphs'
+authors: Donald E. Knuth
+conference: "Algorithmica 22 (1998) no. 4 561--568"
 year: 1998
+citations: 36
 bibkey: knuth1998linear
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/9801103"}
-tags: ['Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/9801103'}
+tags: ['Cross-Modal', 'Supervised', 'Shallow', 'Hashing']
 ---
 Mallows and Riordan showed in 1968 that labeled trees with a small number of
 inversions are related to labeled graphs that are connected and sparse. Wright

@@ -4,6 +4,7 @@ title: Semantic Hashing
 authors: Salakhutdinov R., Hinton
 conference: "Arxiv"
 year: 2024
+citations: 829
 bibkey: salakhutdinov2024semantic
 additional_links:
   - {name: "Paper", url: "http://www.cs.utoronto.ca/~rsalakhu/papers/semantic_final.pdf"}

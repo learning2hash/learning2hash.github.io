@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Derandomized Balanced Allocation
-authors: Chen Xue
+title: 'Derandomized Balanced Allocation'
+authors: Xue Chen
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: chen2017derandomized
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1702.03375"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1702.03375'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 In this paper, we study the maximum loads of explicit hash families in the
 \\(d\\)-choice schemes when allocating sequentially \\(n\\) balls into \\(n\\) bins. We

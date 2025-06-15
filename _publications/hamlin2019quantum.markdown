@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Quantum Security Of Hash Functions And Property-preservation Of Iterated Hashing
-authors: Hamlin Ben, Song Fang
+title: 'Quantum Security Of Hash Functions And Property-preservation Of Iterated Hashing'
+authors: Ben Hamlin, Fang Song
 conference: "Arxiv"
 year: 2019
+citations: 4
 bibkey: hamlin2019quantum
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1902.08709"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1902.08709'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Compression', 'Hashing']
 ---
 This work contains two major parts: comprehensively studying the security
 notions of cryptographic hash functions against quantum attacks and the

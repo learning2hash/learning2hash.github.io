@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Shared Predictive Cross-modal Deep Quantization
-authors: Yang Erkun, Deng Cheng, Li Chao, Liu Wei, Li Jie, Tao Dacheng
+title: 'Shared Predictive Cross-modal Deep Quantization'
+authors: Erkun Yang et al.
 conference: "Arxiv"
 year: 2019
+citations: 122
 bibkey: yang2019shared
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.07488"}
-tags: ['ARXIV', 'Cross Modal', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.07488'}
+tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Hashing']
 ---
 With explosive growth of data volume and ever-increasing diversity of data
 modalities, cross-modal similarity search, which conducts nearest neighbor

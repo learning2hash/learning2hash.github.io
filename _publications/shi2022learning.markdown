@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning Similarity Preserving Binary Codes For Recommender Systems
-authors: Shi Yang, Chung Young-joo
+title: 'Learning Similarity Preserving Binary Codes For Recommender Systems'
+authors: Yang Shi, Young-joo Chung
 conference: "Arxiv"
 year: 2022
+citations: 1
 bibkey: shi2022learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2204.08569"}
-tags: ['ARXIV', 'Cross Modal', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2204.08569'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
 ---
 Hashing-based Recommender Systems (RSs) are widely studied to provide
 scalable services. The existing methods for the systems combine three modules

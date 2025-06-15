@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Compact Environment-invariant Codes For Robust Visual Place Recognition
-authors: Jain Unnat, Namboodiri Vinay P., Pandey Gaurav
+title: 'Compact Environment-invariant Codes For Robust Visual Place Recognition'
+authors: Unnat Jain, Vinay P. Namboodiri, Gaurav Pandey
 conference: "Arxiv"
 year: 2017
+citations: 5
 bibkey: jain2017compact
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1709.08103"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1709.08103'}
+tags: ['Cross-Modal', 'Shallow', 'Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing']
 ---
 Robust visual place recognition (VPR) requires scene representations that are
 invariant to various environmental challenges such as seasonal changes and

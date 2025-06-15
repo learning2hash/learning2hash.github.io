@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Cuckoo Hashing In Cryptography Optimal Parameters Robustness And Applications
-authors: Yeo Kevin
+title: 'Cuckoo Hashing In Cryptography: Optimal Parameters, Robustness And Applications'
+authors: Kevin Yeo
 conference: "Arxiv"
 year: 2023
+citations: 8
 bibkey: yeo2023cuckoo
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2306.11220"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2306.11220'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Cuckoo hashing is a powerful primitive that enables storing items using small
 space with efficient querying. At a high level, cuckoo hashing maps \\(n\\) items

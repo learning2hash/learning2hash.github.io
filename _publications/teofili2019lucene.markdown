@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Lucene For Approximate Nearest-neighbors Search On Arbitrary Dense Vectors
-authors: Teofili Tommaso, Lin Jimmy
+title: 'Lucene For Approximate Nearest-neighbors Search On Arbitrary Dense Vectors'
+authors: Tommaso Teofili, Jimmy Lin
 conference: "Arxiv"
 year: 2019
+citations: 3
 bibkey: teofili2019lucene
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1910.10208"}
-tags: ['ARXIV', 'Case Study', 'Deep Learning', 'LSH', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1910.10208'}
+tags: ['Deep', 'Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Applications']
 ---
 We demonstrate three approaches for adapting the open-source Lucene search
 library to perform approximate nearest-neighbor search on arbitrary dense

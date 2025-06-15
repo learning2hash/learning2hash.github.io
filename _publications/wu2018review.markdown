@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Review For Weighted Minhash Algorithms
-authors: Wu Wei, Li Bin, Chen Ling, Gao Junbin, Zhang Chengqi
+title: 'A Review For Weighted Minhash Algorithms'
+authors: Wei Wu, Bin Li, Ling Chen, Junbin Gao, Chengqi Zhang
 conference: "Arxiv"
 year: 2018
+citations: 17
 bibkey: wu2018review
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1811.04633"}
-tags: ['ARXIV', 'Independent', 'Quantisation', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1811.04633'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Surveys and Reviews', 'Quantization', 'Survey Paper', 'Hashing', 'Applications']
 ---
 Data similarity (or distance) computation is a fundamental research topic
 which underpins many high-level applications based on similarity measures in

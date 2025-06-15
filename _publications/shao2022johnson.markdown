@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Johnson-lindenstrauss Embeddings For Noisy Vectors -- Taking Advantage Of The Noise
-authors: Shao Zhen
+title: 'Johnson-lindenstrauss Embeddings For Noisy Vectors -- Taking Advantage Of The Noise'
+authors: Zhen Shao
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: shao2022johnson
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2209.01006"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2209.01006'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
 ---
 This paper investigates theoretical properties of subsampling and hashing as
 tools for approximate Euclidean norm-preserving embeddings for vectors with

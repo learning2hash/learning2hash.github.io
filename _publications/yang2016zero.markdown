@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Zero-shot Hashing Via Transferring Supervised Knowledge
-authors: Yang Yang, Chen Weilun, Luo Yadan, Shen Fumin, Shao Jie, Shen Heng Tao
+title: 'Zero-shot Hashing Via Transferring Supervised Knowledge'
+authors: Yang Yang et al.
 conference: "Arxiv"
 year: 2016
+citations: 112
 bibkey: yang2016zero
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1606.05032"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1606.05032'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Hashing has shown its efficiency and effectiveness in facilitating
 large-scale multimedia applications. Supervised knowledge e.g. semantic labels

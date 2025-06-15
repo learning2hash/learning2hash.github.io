@@ -4,6 +4,7 @@ title: Optimizing Ranking Measures For Compact Binary Code Learning
 authors: Lin Guosheng, Shen, Wu.
 conference: "Arxiv"
 year: 2024
+citations: 13
 bibkey: lin2024optimizing
 additional_links:
   - {name: "Paper", url: "http://link.springer.com/chapter/10.1007%2F978-3-319-10578-9_40"}

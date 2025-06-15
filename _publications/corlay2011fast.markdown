@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Fast Nearest Neighbor Search Algorithm Based On Vector Quantization
-authors: Corlay Sylvain Lpma
+title: 'A Fast Nearest Neighbor Search Algorithm Based On Vector Quantization'
+authors: Sylvain Lpma Corlay
 conference: "Arxiv"
 year: 2011
+citations: 4
 bibkey: corlay2011fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1105.4953"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1105.4953'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Quantization']
 ---
 In this article, we propose a new fast nearest neighbor search algorithm,
 based on vector quantization. Like many other branch and bound search

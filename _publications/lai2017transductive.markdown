@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Transductive Zero-shot Hashing Via Coarse-to-fine Similarity Mining
-authors: Lai Hanjiang, Pan Yan
+title: 'Transductive Zero-shot Hashing Via Coarse-to-fine Similarity Mining'
+authors: Hanjiang Lai, Yan Pan
 conference: "Arxiv"
 year: 2017
+citations: 5
 bibkey: lai2017transductive
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1711.02856"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1711.02856'}
+tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Zero-shot Hashing (ZSH) is to learn hashing models for novel/target classes
 without training data, which is an important and challenging problem. Most

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locally Linear Embedding Clustering Algorithm For Natural Imagery
-authors: Ziegelmeier Lori, Kirby Michael, Peterson Chris
+title: 'Locally Linear Embedding Clustering Algorithm For Natural Imagery'
+authors: Lori Ziegelmeier, Michael Kirby, Chris Peterson
 conference: "Arxiv"
 year: 2012
+citations: 2
 bibkey: ziegelmeier2012locally
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1202.4387"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1202.4387'}
+tags: ['Cross-Modal', 'Quantization', 'Shallow', 'Quantisation']
 ---
 The ability to characterize the color content of natural imagery is an
 important application of image processing. The pixel by pixel coloring of

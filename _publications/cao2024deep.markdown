@@ -4,6 +4,7 @@ title: Deep Cauchy Hashing For Hamming Space Retrieval
 authors: Cao Yue, Long, Liu, Wang
 conference: "Arxiv"
 year: 2024
+citations: 278
 bibkey: cao2024deep
 additional_links:
   - {name: "Paper", url: "http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-cauchy-hashing-cvpr18.pdf"}

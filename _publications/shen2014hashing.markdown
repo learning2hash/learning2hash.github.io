@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing On Nonlinear Manifolds
-authors: Shen Fumin, Shen Chunhua, Shi Qinfeng, Hengel Anton Van Den, Tang Zhenmin, Shen Heng Tao
+title: 'Hashing On Nonlinear Manifolds'
+authors: Fumin Shen et al.
 conference: "Arxiv"
 year: 2014
+citations: 124
 bibkey: shen2014hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1412.0826"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1412.0826'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Quantization', 'Hashing']
 ---
 Learning based hashing methods have attracted considerable attention due to
 their ability to greatly increase the scale at which existing algorithms may

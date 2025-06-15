@@ -4,6 +4,7 @@ title: FLASH Randomized Algorithms Accelerated Over CPU-GPU For Ultra-high Dimen
 authors: Wang Yiqiu, Shrivastava Anshumali, Wang Jonathan, Ryu Junghee
 conference: "Arxiv"
 year: 2017
+citations: 15
 bibkey: wang2017flash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1709.01190"}

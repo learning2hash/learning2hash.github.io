@@ -4,6 +4,7 @@ title: Practical Data-dependent Metric Compression With Provable Guarantees
 authors: Piotr Indyk, Ilya Razenshteyn, Tal Wagner
 conference: "Neural Information Processing Systems"
 year: 2017
+citations: 3
 bibkey: indyk2017practical
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2017/hash/49b8b4f95f02e055801da3b4f58e28b7-Abstract.html"}

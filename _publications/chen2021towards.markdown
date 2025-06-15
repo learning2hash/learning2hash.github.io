@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Towards Low-loss 1-bit Quantization Of User-item Representations For Top-k Recommendation
-authors: Chen Yankai, Zhang Yifei, Zhang Yingxue, Guo Huifeng, Li Jingjie, Tang Ruiming, He Xiuqiang, King Irwin
+authors: Chen Yankai et al.
 conference: "Arxiv"
 year: 2021
+citations: 1
 bibkey: chen2021towards
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2112.01944"}

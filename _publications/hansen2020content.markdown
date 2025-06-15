@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Content-aware Neural Hashing For Cold-start Recommendation
-authors: Hansen Casper, Hansen Christian, Simonsen Jakob Grue, Alstrup Stephen, Lioma Christina
+title: 'Content-aware Neural Hashing For Cold-start Recommendation'
+authors: Casper Hansen, Christian Hansen, Jakob Grue Simonsen, Stephen Alstrup, Christina Lioma
 conference: "Arxiv"
 year: 2020
+citations: 22
 bibkey: hansen2020content
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2006.00617"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2006.00617'}
+tags: ['Independent', 'Model Design', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Vector Indexing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Content-aware recommendation approaches are essential for providing
 meaningful recommendations for \textit\{new\} (i.e., \textit\{cold-start\}) items
@@ -22,8 +23,8 @@ information (i.e., it generates cold-start and seen item hash codes in the same
 manner). This contrasts existing state-of-the-art models, which treat the two
 item cases separately. The user hash codes are generated directly based on user
 id, through learning a user embedding matrix. We show experimentally that
-NeuHash-CF significantly outperforms state-of-the-art baselines by up to 12\%
-NDCG and 13\% MRR in cold-start recommendation settings, and up to 4\% in both
+NeuHash-CF significantly outperforms state-of-the-art baselines by up to 12%
+NDCG and 13% MRR in cold-start recommendation settings, and up to 4% in both
 NDCG and MRR in standard settings where all items are present while training.
 Our approach uses 2-4x shorter hash codes, while obtaining the same or better
 performance compared to the state of the art, thus consequently also enabling a

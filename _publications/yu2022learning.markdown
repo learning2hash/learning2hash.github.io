@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning To Hash Naturally Sorts
-authors: Yu Jiaguo, Shen Yuming, Wang Menghan, Zhang Haofeng, Torr Philip H. S.
+title: 'Learning To Hash Naturally Sorts'
+authors: Jiaguo Yu, Yuming Shen, Menghan Wang, Haofeng Zhang, Philip H. S. Torr
 conference: "Arxiv"
 year: 2022
+citations: 9
 bibkey: yu2022learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2201.13322"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2201.13322'}
+tags: ['Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Unimodal', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Training Strategy', 'Hashing']
 ---
 Learning to hash pictures a list-wise sorting problem. Its testing metrics,
 e.g., mean-average precision, count on a sorted candidate list ordered by

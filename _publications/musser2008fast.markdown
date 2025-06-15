@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Fast Generic Sequence Matching Algorithm
-authors: Musser David R., Nishanov Gor V.
+title: 'A Fast Generic Sequence Matching Algorithm'
+authors: David R. Musser, Gor V. Nishanov
 conference: "Arxiv"
 year: 2008
+citations: 9
 bibkey: musser2008fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0810.0264"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0810.0264'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
 ---
 A string matching -- and more generally, sequence matching -- algorithm is
 presented that has a linear worst-case computing time bound, a low worst-case

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Ranking-based Deep Cross-modal Hashing
-authors: Liu Xuanwu, Yu Guoxian, Domeniconi Carlotta, Wang Jun, Ren Yazhou, Guo Maozu
+title: 'Ranking-based Deep Cross-modal Hashing'
+authors: Xuanwu Liu et al.
 conference: "Arxiv"
 year: 2019
+citations: 54
 bibkey: liu2019ranking
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.04450"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.04450'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Multi-Modal Hashing', 'Hashing', 'Applications']
 ---
 Cross-modal hashing has been receiving increasing interests for its low
 storage cost and fast query speed in multi-modal data retrievals. However, most

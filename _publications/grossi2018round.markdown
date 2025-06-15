@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Round-hashing For Data Storage Distributed Servers And External-memory Tables
-authors: Grossi Roberto, Versari Luca
+title: 'Round-hashing For Data Storage: Distributed Servers And External-memory Tables'
+authors: Roberto Grossi, Luca Versari
 conference: "Arxiv"
 year: 2018
+citations: 2
 bibkey: grossi2018round
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1805.03158"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1805.03158'}
+tags: ['Benchmarks and Tools', 'Unimodal', 'Shallow', 'Vector Indexing', 'Supervised', 'Hashing']
 ---
 This paper proposes round-hashing, which is suitable for data storage on
 distributed servers and for implementing external-memory tables in which each

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Binary Codes For Tagging X-ray Images Via Deep De-noising Autoencoders
-authors: Sze-to Antonio, Tizhoosh Hamid R., Wong Andrew K. C.
+title: 'Binary Codes For Tagging X-ray Images Via Deep De-noising Autoencoders'
+authors: Antonio Sze-to, Hamid R. Tizhoosh, Andrew K. C. Wong
 conference: "Arxiv"
 year: 2016
+citations: 10
 bibkey: szeto2016binary
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1604.07060"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1604.07060'}
+tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
 ---
 A Content-Based Image Retrieval (CBIR) system which identifies similar
 medical images based on a query image can assist clinicians for more accurate

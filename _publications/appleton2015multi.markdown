@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Multi-probe Consistent Hashing
-authors: Appleton Ben, O'reilly Michael
+title: 'Multi-probe Consistent Hashing'
+authors: Ben Appleton, Michael O'reilly
 conference: "Arxiv"
 year: 2015
+citations: 12
 bibkey: appleton2015multi
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1505.00062"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1505.00062'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 We describe a consistent hashing algorithm which performs multiple lookups
 per key in a hash table of nodes. It requires no additional storage beyond the

@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Targeted Attack For Deep Hashing Based Retrieval
-authors: Bai Jiawang, Chen, Li, Wu, Guo, Xia, Yang
+authors: Bai Jiawang et al.
 conference: "Arxiv"
 year: 2024
+citations: 55
 bibkey: bai2024targeted
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2004.07955"}

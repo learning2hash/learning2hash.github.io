@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sparse Hashing For Scalable Approximate Model Counting Theory And Practice
-authors: Meel Kuldeep S., Akshay S.
+title: 'Sparse Hashing For Scalable Approximate Model Counting: Theory And Practice'
+authors: Kuldeep S. Meel, S. Akshay
 conference: "Arxiv"
 year: 2020
+citations: 4
 bibkey: meel2020sparse
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.14692"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.14692'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Hashing', 'Applications']
 ---
 Given a CNF formula F on n variables, the problem of model counting or #SAT
 is to compute the number of satisfying assignments of F . Model counting is a

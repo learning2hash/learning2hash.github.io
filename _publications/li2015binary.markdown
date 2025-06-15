@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Binary Speaker Embedding
-authors: Li Lantian, Wang Dong, Xing Chao, Yu Kaimin, Zheng Thomas Fang
+title: 'Binary Speaker Embedding'
+authors: Lantian Li, Dong Wang, Chao Xing, Kaimin Yu, Thomas Fang Zheng
 conference: "Arxiv"
 year: 2015
+citations: 4
 bibkey: li2015binary
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1510.05937"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1510.05937'}
+tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 The popular i-vector model represents speakers as low-dimensional continuous
 vectors (i-vectors), and hence it is a way of continuous speaker embedding. In

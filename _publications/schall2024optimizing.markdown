@@ -4,6 +4,7 @@ title: Optimizing CLIP Models For Image Retrieval With Maintained Joint-embeddin
 authors: Schall Konstantin, Barthel Kai Uwe, Hezel Nico, Jung Klaus
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: schall2024optimizing
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2409.01936"}

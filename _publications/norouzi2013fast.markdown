@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Exact Search In Hamming Space With Multi-index Hashing
-authors: Norouzi Mohammad, Punjani Ali, Fleet David J.
+title: 'Fast Exact Search In Hamming Space With Multi-index Hashing'
+authors: Mohammad Norouzi, Ali Punjani, David J. Fleet
 conference: "Arxiv"
 year: 2013
+citations: 119
 bibkey: norouzi2013fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1307.2982"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1307.2982'}
+tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
 ---
 There is growing interest in representing image data and feature descriptors
 using compact binary codes for fast near neighbor search. Although binary codes

@@ -4,6 +4,7 @@ title: Fliphash A Constant-time Consistent Range-hashing Algorithm
 authors: Masson Charles, Lee Homin K.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: masson2024fliphash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2402.17549"}

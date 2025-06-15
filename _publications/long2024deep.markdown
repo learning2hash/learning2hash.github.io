@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Deep Domain Adaptation Hashing With Adversarial Learning
-authors: Long Fuchen, Yao, Dai, Tian, Luo, Mei
+authors: Long Fuchen et al.
 conference: "Arxiv"
 year: 2024
+citations: 18
 bibkey: long2024deep
 additional_links:
   - {name: "Paper", url: "https://dl.acm.org/citation.cfm?id=3209999"}

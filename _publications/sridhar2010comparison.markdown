@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Comparison Of Modified Dual Ternary Indexing And Multi-key Hashing Algorithms For Music Information Retrieval
-authors: Sridhar Rajeswari Anna University-chennai, India, Amudha A. Anna University-chennai, India, Karthiga S. Anna University-chennai, India, T Geetha V Anna University-chennai, India
-conference: "International Journal of Artificial Intelligence Applications"
+title: 'Comparison Of Modified Dual Ternary Indexing And Multi-key Hashing Algorithms For Music Information Retrieval'
+authors: Rajeswari Anna University-chennai et al.
+conference: "International Journal of Artificial Intelligence Applications 1.3 (2010) 59-69"
 year: 2010
+citations: 0
 bibkey: sridhar2010comparison
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1007.5137"}
-tags: []
+  - {name: "Paper", url: 'https://arxiv.org/abs/1007.5137'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Supervised', 'Hashing']
 ---
 In this work we have compared two indexing algorithms that have been used to
 index and retrieve Carnatic music songs. We have compared a modified algorithm

@@ -4,6 +4,7 @@ title: Robust Homomorphic Video Hashing
 authors: Singh Priyanka
 conference: "Arxiv"
 year: 2020
+citations: 2
 bibkey: singh2020robust
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2009.01887"}

@@ -4,6 +4,7 @@ title: Harmonious Hashing
 authors: Xu B., Bu, Chen, He, Cai
 conference: "Arxiv"
 year: 2024
+citations: 49
 bibkey: xu2024harmonious
 additional_links:
   - {name: "Paper", url: "http://ijcai.org/papers13/Papers/IJCAI13-269.pdf"}

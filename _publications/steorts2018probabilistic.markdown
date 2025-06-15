@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Probabilistic Blocking With An Application To The Syrian Conflict
-authors: Steorts Rebecca C., Shrivastava Anshumali
-conference: "Steorts R.C. Shrivastava A."
+title: 'Probabilistic Blocking With An Application To The Syrian Conflict'
+authors: Rebecca C. Steorts, Anshumali Shrivastava
+conference: "Steorts R.C. Shrivastava A. (2018) Probabilistic Blocking with an Application to the Syrian Conflict. PSD (2018)"
 year: 2018
+citations: 1
 bibkey: steorts2018probabilistic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1810.05497"}
-tags: ['Independent', 'LSH', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1810.05497'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
 ---
 Entity resolution seeks to merge databases as to remove duplicate entries
 where unique identifiers are typically unknown. We review modern blocking

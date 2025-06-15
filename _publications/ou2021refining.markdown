@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Refining BERT Embeddings For Document Hashing Via Mutual Information Maximization
-authors: Ou Zijing, Su Qinliang, Yu Jianxing, Zhao Ruihui, Zheng Yefeng, Liu Bang
+title: 'Refining BERT Embeddings For Document Hashing Via Mutual Information Maximization'
+authors: Zijing Ou et al.
 conference: "Arxiv"
 year: 2021
+citations: 1
 bibkey: ou2021refining
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2109.02867"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2109.02867'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Supervised Hashing']
 ---
 Existing unsupervised document hashing methods are mostly established on
 generative models. Due to the difficulties of capturing long dependency

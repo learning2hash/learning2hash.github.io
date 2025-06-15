@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Double-hashing Algorithm For Frequency Estimation In Data Streams
-authors: Seleznev Nikita, Kumar Senthil, Bruss C. Bayan
+title: 'Double-hashing Algorithm For Frequency Estimation In Data Streams'
+authors: Nikita Seleznev, Senthil Kumar, C. Bayan Bruss
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: seleznev2022double
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2204.00650"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2204.00650'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Frequency estimation of elements is an important task for summarizing data
 streams and machine learning applications. The problem is often addressed by

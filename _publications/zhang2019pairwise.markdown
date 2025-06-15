@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Pairwise Teacher-student Network For Semi-supervised Hashing
-authors: Zhang Shifeng, Li Jianmin, Zhang Bo
+title: 'Pairwise Teacher-student Network For Semi-supervised Hashing'
+authors: Shifeng Zhang, Jianmin Li, Bo Zhang
 conference: "Arxiv"
 year: 2019
+citations: 5
 bibkey: zhang2019pairwise
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1902.00643"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1902.00643'}
+tags: ['Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Supervised', 'Similarity Learning', 'Supervised Hashing']
 ---
 Hashing method maps similar high-dimensional data to binary hashcodes with
 smaller hamming distance, and it has received broad attention due to its low

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On The Vc-dimension Of Binary Codes
-authors: Hu Sihuang, Weinberger Nir, Shayevitz Ofer
-conference: "SIAM J. Discrete Math."
+title: 'On The Vc-dimension Of Binary Codes'
+authors: Sihuang Hu, Nir Weinberger, Ofer Shayevitz
+conference: "SIAM J. Discrete Math. 32-3 (2018) pp. 2161-2171"
 year: 2017
+citations: 0
 bibkey: hu2017vc
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1703.01586"}
-tags: []
+  - {name: "Paper", url: 'https://arxiv.org/abs/1703.01586'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
 ---
 We investigate the asymptotic rates of length-\\(n\\) binary codes with
 VC-dimension at most \\(dn\\) and minimum distance at least \\(\delta n\\). Two upper

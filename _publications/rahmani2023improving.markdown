@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Improving Code Example Recommendations On Informal Documentation Using BERT And Query-aware LSH A Comparative Study
-authors: Rahmani Sajjad, Naghshzan Amirhossein, Guerrouj Latifa
+title: 'Improving Code Example Recommendations On Informal Documentation Using BERT And Query-aware LSH: A Comparative Study'
+authors: Sajjad Rahmani, Amirhossein Naghshzan, Latifa Guerrouj
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: rahmani2023improving
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2305.03017"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2305.03017'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Our research investigates the recommendation of code examples to aid software
 developers, a practice that saves developers significant time by providing
@@ -23,7 +24,7 @@ these two approaches across four parameters: HitRate, Mean Reciprocal Rank
 (MRR), Average Execution Time, and Relevance. Our study revealed that the
 Query-Aware (QA) approach showed superior performance over the Random
 Hyperplane-based (RH) method. Specifically, it exhibited a notable improvement
-of 20\% to 35\% in HitRate for query pairs compared to the RH approach.
+of 20% to 35% in HitRate for query pairs compared to the RH approach.
 Furthermore, the QA approach proved significantly more time-efficient, with its
 speed in creating hashing tables and assigning data samples to buckets being at
 least four times faster. It can return code examples within milliseconds,

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hierarchy Neighborhood Discriminative Hashing For An Unified View Of Single-label And Multi-label Image Retrieval
-authors: Ma Lei, Li Hongliang, Wu Qingbo, Meng Fanman, Ngan King Ngi
+title: 'Hierarchy Neighborhood Discriminative Hashing For An Unified View Of Single-label And Multi-label Image Retrieval'
+authors: Lei Ma, Hongliang Li, Qingbo Wu, Fanman Meng, King Ngi Ngan
 conference: "Arxiv"
 year: 2019
+citations: 2
 bibkey: ma2019hierarchy
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1901.03060"}
-tags: ['ARXIV', 'Graph', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1901.03060'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Supervised Hashing', 'Applications']
 ---
 Recently, deep supervised hashing methods have become popular for large-scale
 image retrieval task. To preserve the semantic similarity notion between

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Push For Quantization Deep Fisher Hashing
-authors: Li Yunqiang, Pei Wenjie, Zha Yufei, Van Gemert Jan
+title: 'Push For Quantization: Deep Fisher Hashing'
+authors: Yunqiang Li, Wenjie Pei, Yufei Zha, Jan Van Gemert
 conference: "Arxiv"
 year: 2019
+citations: 7
 bibkey: li2019push
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1909.00206"}
-tags: ['ARXIV', 'Deep Learning', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1909.00206'}
+tags: ['Cross-Modal', 'Quantization', 'Quantisation', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Current massive datasets demand light-weight access for analysis. Discrete
 hashing methods are thus beneficial because they map high-dimensional data to

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Ordinal Constrained Binary Code Learning For Nearest Neighbor Search
-authors: Liu Hong, Ji Rongrong, Wu Yongjian, Huang Feiyue
+title: 'Ordinal Constrained Binary Code Learning For Nearest Neighbor Search'
+authors: Hong Liu, Rongrong Ji, Yongjian Wu, Feiyue Huang
 conference: "Arxiv"
 year: 2016
+citations: 1
 bibkey: liu2016ordinal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1611.06362"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1611.06362'}
+tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Recent years have witnessed extensive attention in binary code learning,
 a.k.a. hashing, for nearest neighbor search problems. It has been seen that

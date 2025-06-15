@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient High-resolution Template Matching With Vector Quantized Nearest Neighbour Fields
-authors: Gupta Ankit, Sintorn Ida-maria
+title: 'Efficient High-resolution Template Matching With Vector Quantized Nearest Neighbour Fields'
+authors: Ankit Gupta, Ida-maria Sintorn
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: gupta2023efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2306.15010"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2306.15010'}
+tags: ['Quantisation', 'Unimodal', 'Shallow', 'Quantization', 'Applications']
 ---
 Template matching is a fundamental problem in computer vision with
 applications in fields including object detection, image registration, and

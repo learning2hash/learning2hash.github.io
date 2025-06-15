@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Supervised Online Hashing Via Similarity Distribution Learning
-authors: Lin Mingbao, Ji Rongrong, Chen Shen, Zheng Feng, Sun Xiaoshuai, Zhang Baochang, Cao Liujuan, Guo Guodong, Huang Feiyue
+title: 'Supervised Online Hashing Via Similarity Distribution Learning'
+authors: Mingbao Lin et al.
 conference: "Arxiv"
 year: 2019
+citations: 1
 bibkey: lin2019supervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.13382"}
-tags: ['ARXIV', 'Streaming Data', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.13382'}
+tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Online hashing has attracted extensive research attention when facing
 streaming data. Most online hashing methods, learning binary codes based on

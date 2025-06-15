@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Discrete Few-shot Learning For Pan Privacy
-authors: Gelbhart Roei, Rubinstein Benjamin I. P.
+title: 'Discrete Few-shot Learning For Pan Privacy'
+authors: Roei Gelbhart, Benjamin I. P. Rubinstein
 conference: "Arxiv"
 year: 2020
+citations: 1
 bibkey: gelbhart2020discrete
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2006.13120"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2006.13120'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 In this paper we present the first baseline results for the task of few-shot
 learning of discrete embedding vectors for image recognition. Few-shot learning

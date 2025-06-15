@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Unsupervised Hashing With Similarity Distribution Calibration
-authors: Ng Kam Woh, Zhu Xiatian, Hoe Jiun Tian, Chan Chee Seng, Zhang Tianyu, Song Yi-zhe, Xiang Tao
+title: 'Unsupervised Hashing With Similarity Distribution Calibration'
+authors: Kam Woh Ng et al.
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: ng2023unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2302.07669"}
-  - {name: "Code", url: "https://github.com/kamwoh/sdc"}
-tags: ['ARXIV', 'Has Code', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2302.07669'}
+  - {name: "Code", url: 'https://github.com/kamwoh/sdc'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing', 'Has Code', 'Unsupervised Hashing', 'Supervised Hashing']
 ---
 Unsupervised hashing methods typically aim to preserve the similarity between
 data points in a feature space by mapping them to binary hash codes. However,

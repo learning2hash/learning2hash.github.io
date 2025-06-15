@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Inductive Hashing On Manifolds
-authors: Shen Fumin, Shen Chunhua, Shi Qinfeng, Hengel Anton Van Den, Tang Zhenmin
+title: 'Inductive Hashing On Manifolds'
+authors: Fumin Shen, Chunhua Shen, Qinfeng Shi, Anton Van Den Hengel, Zhenmin Tang
 conference: "Arxiv"
 year: 2013
+citations: 184
 bibkey: shen2013inductive
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1303.7043"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1303.7043'}
+tags: ['Unsupervised', 'Cross-Modal', 'Deep', 'Hashing']
 ---
 Learning based hashing methods have attracted considerable attention due to
 their ability to greatly increase the scale at which existing algorithms may

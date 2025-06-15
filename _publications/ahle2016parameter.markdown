@@ -4,6 +4,7 @@ title: Parameter-free Locality Sensitive Hashing For Spherical Range Reporting
 authors: Ahle Thomas D., Aumüller Martin, Pagh Rasmus
 conference: "Arxiv"
 year: 2016
+citations: 12
 bibkey: ahle2016parameter
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1605.02673"}

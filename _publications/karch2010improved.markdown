@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Improved Fast Similarity Search In Dictionaries
-authors: Karch Daniel, Luxen Dennis, Sanders Peter
+title: 'Improved Fast Similarity Search In Dictionaries'
+authors: Daniel Karch, Dennis Luxen, Peter Sanders
 conference: "Arxiv"
 year: 2010
+citations: 4
 bibkey: karch2010improved
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1008.1191"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1008.1191'}
+tags: ['Retrieval Models', 'Independent', 'Cross-Modal', 'Shallow']
 ---
 We engineer an algorithm to solve the approximate dictionary matching
 problem. Given a list of words \\(\mathcal\{W\}\\), maximum distance \\(d\\) fixed at

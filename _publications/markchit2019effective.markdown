@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Effective And Efficient Indexing In Cross-modal Hashing-based Datasets
-authors: Markchit Sarawut, Chiu Chih-yi
+title: 'Effective And Efficient Indexing In Cross-modal Hashing-based Datasets'
+authors: Sarawut Markchit, Chih-yi Chiu
 conference: "Arxiv"
 year: 2019
+citations: 5
 bibkey: markchit2019effective
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.13325"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.13325'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Multi-Modal Hashing', 'Hashing', 'Applications']
 ---
 To overcome the barrier of storage and computation, the hashing technique has
 been widely used for nearest neighbor search in multimedia retrieval

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Multi-criteria Adversarial Detection In Deep Image Retrieval
-authors: Xiao Yanru, Wang Cong, Gao Xing
+title: 'Unsupervised Multi-criteria Adversarial Detection In Deep Image Retrieval'
+authors: Yanru Xiao, Cong Wang, Xing Gao
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: xiao2023unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2304.04228"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2304.04228'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Datasets', 'Deep Hashing', 'Quantization', 'Hashing', 'Applications']
 ---
 The vulnerability in the algorithm supply chain of deep learning has imposed
 new challenges to image retrieval systems in the downstream. Among a variety of

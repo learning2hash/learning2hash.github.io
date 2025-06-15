@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Improved Deep Hashing With Soft Pairwise Similarity For Multi-label Image Retrieval
-authors: Zhang Zheng, Zou Qin, Lin Yuewei, Chen Long, Wang Song
+title: 'Improved Deep Hashing With Soft Pairwise Similarity For Multi-label Image Retrieval'
+authors: Zheng Zhang, Qin Zou, Yuewei Lin, Long Chen, Song Wang
 conference: "Arxiv"
 year: 2018
+citations: 139
 bibkey: zhang2018improved
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1803.02987"}
-tags: ['ARXIV', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1803.02987'}
+tags: ['Cross-Modal', 'Deep', 'Unsupervised', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Similarity Learning', 'Hashing', 'Applications']
 ---
 Hash coding has been widely used in the approximate nearest neighbor search
 for large-scale image retrieval. Recently, many deep hashing methods have been

@@ -4,6 +4,7 @@ title: Pqtable Non-exhaustive Fast Search For Product-quantized Codes Using Hash
 authors: Matsui Yusuke, Yamasaki Toshihiko, Aizawa Kiyoharu
 conference: "Arxiv"
 year: 2017
+citations: 8
 bibkey: matsui2017pqtable
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1704.06556"}

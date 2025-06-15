@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Accelerated Distance Computation With Encoding Tree For High Dimensional Data
-authors: Liu Shicong, Shao Junru, Lu Hongtao
+title: 'Accelerated Distance Computation With Encoding Tree For High Dimensional Data'
+authors: Shicong Liu, Junru Shao, Hongtao Lu
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: liu2015accelerated
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1509.05186"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1509.05186'}
+tags: ['Quantisation', 'Unimodal', 'Shallow', 'Datasets', 'Quantization']
 ---
 We propose a novel distance to calculate distance between high dimensional
 vector pairs, utilizing vector quantization generated encodings. Vector

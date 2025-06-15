@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On Large-scale Retrieval Binary Or N-ary Coding
-authors: Najibi Mahyar, Rastegari Mohammad, Davis Larry S.
+title: 'On Large-scale Retrieval: Binary Or N-ary Coding?'
+authors: Mahyar Najibi, Mohammad Rastegari, Larry S. Davis
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: najibi2015large
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1509.06066"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1509.06066'}
+tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Quantization', 'Applications']
 ---
 The growing amount of data available in modern-day datasets makes the need to
 efficiently search and retrieve information. To make large-scale search

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Perfect Hashing For Data Management Applications
-authors: Botelho Fabiano C., Pagh Rasmus, Ziviani Nivio
+title: 'Perfect Hashing For Data Management Applications'
+authors: Fabiano C. Botelho, Rasmus Pagh, Nivio Ziviani
 conference: "Arxiv"
 year: 2007
+citations: 3
 bibkey: botelho2007perfect
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/0702159"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/0702159'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Perfect hash functions can potentially be used to compress data in connection
 with a variety of data management tasks. Though there has been considerable

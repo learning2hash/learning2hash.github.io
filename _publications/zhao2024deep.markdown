@@ -4,6 +4,7 @@ title: Deep Semantic Ranking Based Hashing For Multi-label Image Retrieval
 authors: Zhao F., Huang, Wang, Tan
 conference: "Arxiv"
 year: 2024
+citations: 66
 bibkey: zhao2024deep
 additional_links:
   - {name: "Paper", url: "http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zhao_Deep_Semantic_Ranking_2015_CVPR_paper.pdf"}

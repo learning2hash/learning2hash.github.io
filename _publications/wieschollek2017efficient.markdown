@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Large-scale Approximate Nearest Neighbor Search On The GPU
-authors: Wieschollek Patrick, Wang Oliver, Sorkine-hornung Alexander, Lensch Hendrik P. A.
-conference: "The IEEE Conference on Computer Vision and Pattern Recognition"
+title: 'Efficient Large-scale Approximate Nearest Neighbor Search On The GPU'
+authors: Patrick Wieschollek, Oliver Wang, Alexander Sorkine-hornung, Hendrik P. A. Lensch
+conference: "The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) pp. 2027 - 2035 (2016)"
 year: 2017
+citations: 33
 bibkey: wieschollek2017efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1702.05911"}
-tags: ['Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1702.05911'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization', 'Applications']
 ---
 We present a new approach for efficient approximate nearest neighbor (ANN)
 search in high dimensional spaces, extending the idea of Product Quantization.

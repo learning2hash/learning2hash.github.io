@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Dynamic Enumeration Of Similarity Joins
-authors: Agarwal Pankaj K., Hu Xiao, Sintos Stavros, Yang Jun
+title: 'Dynamic Enumeration Of Similarity Joins'
+authors: Pankaj K. Agarwal, Xiao Hu, Stavros Sintos, Jun Yang
 conference: "Arxiv"
 year: 2021
+citations: 2
 bibkey: agarwal2021dynamic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2105.01818"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2105.01818'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 This paper considers enumerating answers to similarity-join queries under
 dynamic updates: Given two sets of \\(n\\) points \\(A,B\\) in \\(\mathbb\{R\}^d\\), a metric

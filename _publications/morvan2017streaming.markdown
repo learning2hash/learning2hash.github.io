@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Streaming Binary Sketching Based On Subspace Tracking And Diagonal Uniformization
-authors: Morvan Anne, Souloumiac Antoine, Gouy-pailler Cédric, Atif Jamal
+title: 'Streaming Binary Sketching Based On Subspace Tracking And Diagonal Uniformization'
+authors: Anne Morvan, Antoine Souloumiac, Cédric Gouy-pailler, Jamal Atif
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: morvan2017streaming
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1705.07661"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1705.07661'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Deep']
 ---
 In this paper, we address the problem of learning compact
 similarity-preserving embeddings for massive high-dimensional streams of data

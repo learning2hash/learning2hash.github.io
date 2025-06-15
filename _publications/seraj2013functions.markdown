@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Functions With Diffusive Properties
-authors: Seraj Samer
+title: 'Functions With Diffusive Properties'
+authors: Samer Seraj
 conference: "Arxiv"
 year: 2013
+citations: 0
 bibkey: seraj2013functions
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1312.4568"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1312.4568'}
+tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
 ---
 While exploring desirable properties of hash functions in cryptography, the
 author was led to investigate three notions of functions with scattering or

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Compact Hash Codes For Efficient Visual Descriptors Retrieval In Large Scale Databases
-authors: Ercoli Simone, Bertini Marco, Del Bimbo Alberto
+title: 'Compact Hash Codes For Efficient Visual Descriptors Retrieval In Large Scale Databases'
+authors: Simone Ercoli, Marco Bertini, Alberto Del Bimbo
 conference: "Arxiv"
 year: 2016
+citations: 36
 bibkey: ercoli2016compact
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1605.02892"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1605.02892'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Hashing']
 ---
 In this paper we present an efficient method for visual descriptors retrieval
 based on compact hash codes computed using a multiple k-means assignment. The

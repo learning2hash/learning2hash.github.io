@@ -4,6 +4,7 @@ title: Hash3d Training-free Acceleration For 3D Generation
 authors: Yang Xingyi, Wang Xinchao
 conference: "Arxiv"
 year: 2024
+citations: 2
 bibkey: yang2024training
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2404.06091"}

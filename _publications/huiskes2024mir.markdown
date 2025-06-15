@@ -4,6 +4,7 @@ title: The MIR Flickr Retrieval Evaluation.
 authors: Huiskes M., Lew
 conference: "Arxiv"
 year: 2024
+citations: 1194
 bibkey: huiskes2024mir
 additional_links:
   - {name: "Paper", url: "http://press.liacs.nl/mirflickr/mirdownload.html"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Diving Deep Onto Discriminative Ensemble Of Histological Hashing Class-specific Manifold Learning For Multi-class Breast Carcinoma Taxonomy
-authors: Pratiher Sawon, Chattoraj Subhankar
+title: 'Diving Deep Onto Discriminative Ensemble Of Histological Hashing & Class-specific Manifold Learning For Multi-class Breast Carcinoma Taxonomy'
+authors: Sawon Pratiher, Subhankar Chattoraj
 conference: "Arxiv"
 year: 2018
+citations: 19
 bibkey: pratiher2018diving
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1806.06876"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1806.06876'}
+tags: ['Cross-Modal', 'Shallow', 'Surveys and Reviews', 'Supervised', 'Hashing']
 ---
 Histopathological images (HI) encrypt resolution dependent heterogeneous
 textures & diverse color distribution variability, manifesting in

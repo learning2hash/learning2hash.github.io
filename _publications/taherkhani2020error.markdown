@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Error-corrected Margin-based Deep Cross-modal Hashing For Facial Image Retrieval
-authors: Taherkhani Fariborz, Talreja Veeru, Valenti Matthew C., Nasrabadi Nasser M.
+title: 'Error-corrected Margin-based Deep Cross-modal Hashing For Facial Image Retrieval'
+authors: Fariborz Taherkhani, Veeru Talreja, Matthew C. Valenti, Nasser M. Nasrabadi
 conference: "Arxiv"
 year: 2020
+citations: 9
 bibkey: taherkhani2020error
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.03378"}
-tags: ['ARXIV', 'Cross Modal', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.03378'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing', 'Applications']
 ---
 Cross-modal hashing facilitates mapping of heterogeneous multimedia data into
 a common Hamming space, which can beutilized for fast and flexible retrieval

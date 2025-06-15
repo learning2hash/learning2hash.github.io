@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Indexing Of CNN Features For Large Scale Image Search
-authors: Liu Ruoyu, Zhao Yao, Wei Shikui, Yang Yi
+title: 'Indexing Of CNN Features For Large Scale Image Search'
+authors: Ruoyu Liu, Yao Zhao, Shikui Wei, Yi Yang
 conference: "Arxiv"
 year: 2015
+citations: 15
 bibkey: liu2015indexing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1508.00217"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1508.00217'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Quantization', 'Hashing', 'Applications']
 ---
 The convolutional neural network (CNN) features can give a good description
 of image content, which usually represent images with unique global vectors.

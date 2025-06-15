@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A High-dimensional Sparse Fourier Transform In The Continuous Setting
-authors: Chen Liang
-conference: "There are some minor errors in the previous version please refer to <Inverse problems"
+title: 'A High-dimensional Sparse Fourier Transform In The Continuous Setting'
+authors: Liang Chen
+conference: "There are some minor errors in the previous version please refer to <Inverse problems 2022 (38)for the correct version"
 year: 2021
+citations: 0
 bibkey: chen2021high
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2102.10939"}
-tags: []
+  - {name: "Paper", url: 'https://arxiv.org/abs/2102.10939'}
+tags: ['Unsupervised', 'Unimodal', 'Deep', 'Hashing']
 ---
 In this paper, we theoretically propose a new hashing scheme to establish the
 sparse Fourier transform in high-dimensional space. The estimation of the

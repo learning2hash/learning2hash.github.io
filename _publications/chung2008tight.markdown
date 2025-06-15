@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Tight Bounds For Hashing Block Sources
-authors: Chung Kai-min, Vadhan Salil
+title: 'Tight Bounds For Hashing Block Sources'
+authors: Kai-min Chung, Salil Vadhan
 conference: "Arxiv"
 year: 2008
+citations: 6
 bibkey: chung2008tight
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0806.1948"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0806.1948'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 It is known that if a 2-universal hash function \\(H\\) is applied to elements of
 a \{\em block source\} \\((X_1,...,X_T)\\), where each item \\(X_i\\) has enough

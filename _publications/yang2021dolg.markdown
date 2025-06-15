@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: DOLG Single-stage Image Retrieval With Deep Orthogonal Fusion Of Local And Global Features
-authors: Yang Min, He Dongliang, Fan Miao, Shi Baorong, Xue Xuetong, Li Fu, Ding Errui, Huang Jizhou
+authors: Yang Min et al.
 conference: "Arxiv"
 year: 2021
+citations: 107
 bibkey: yang2021dolg
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2108.02927"}

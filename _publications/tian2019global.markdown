@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Global Hashing System For Fast Image Search
-authors: Tian Dayong, Tao Dacheng
+title: 'Global Hashing System For Fast Image Search'
+authors: Dayong Tian, Dacheng Tao
 conference: "Arxiv"
 year: 2019
+citations: 10
 bibkey: tian2019global
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.08685"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.08685'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Hashing methods have been widely investigated for fast approximate nearest
 neighbor searching in large data sets. Most existing methods use binary vectors

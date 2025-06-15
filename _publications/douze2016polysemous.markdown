@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Polysemous Codes
-authors: Douze Matthijs, Jégou Hervé, Perronnin Florent
+title: 'Polysemous Codes'
+authors: Matthijs Douze, Hervé Jégou, Florent Perronnin
 conference: "Arxiv"
 year: 2016
+citations: 31
 bibkey: douze2016polysemous
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1609.01882"}
-tags: ['ARXIV', 'CNN', 'Graph', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1609.01882'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization', 'Hashing']
 ---
 This paper considers the problem of approximate nearest neighbor search in
 the compressed domain. We introduce polysemous codes, which offer both the

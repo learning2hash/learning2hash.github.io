@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Associative Memories To Accelerate Approximate Nearest Neighbor Search
-authors: Gripon Vincent, Löwe Matthias, Vermet Franck
+title: 'Associative Memories To Accelerate Approximate Nearest Neighbor Search'
+authors: Vincent Gripon, Matthias Löwe, Franck Vermet
 conference: "Arxiv"
 year: 2016
+citations: 5
 bibkey: gripon2016associative
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1611.05898"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1611.05898'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Quantization', 'Hashing']
 ---
 Nearest neighbor search is a very active field in machine learning for it
 appears in many application cases, including classification and object

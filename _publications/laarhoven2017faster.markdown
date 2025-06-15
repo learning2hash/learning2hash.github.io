@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Faster Tuple Lattice Sieving Using Spherical Locality-sensitive Filters
-authors: Laarhoven Thijs
+title: 'Faster Tuple Lattice Sieving Using Spherical Locality-sensitive Filters'
+authors: Thijs Laarhoven
 conference: "Arxiv"
 year: 2017
+citations: 2
 bibkey: laarhoven2017faster
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1705.02828"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1705.02828'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
 ---
 To overcome the large memory requirement of classical lattice sieving
 algorithms for solving hard lattice problems, Bai-Laarhoven-Stehl\'\{e\} [ANTS

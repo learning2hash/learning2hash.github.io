@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Vision Transformer Based Video Hashing Retrieval For Tracing The Source Of Fake Videos
-authors: Pei Pengfei, Zhao Xianfeng, Cao Yun, Li Jinchuan, Lai Xuyuan
+title: 'Vision Transformer Based Video Hashing Retrieval For Tracing The Source Of Fake Videos'
+authors: Pengfei Pei, Xianfeng Zhao, Yun Cao, Jinchuan Li, Xuyuan Lai
 conference: "Arxiv"
 year: 2021
+citations: 1
 bibkey: pei2021vision
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2112.08117"}
-  - {name: "Code", url: "https://github.com/lajlksdf/vtl}"}
-tags: ['ARXIV', 'Has Code']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2112.08117'}
+  - {name: "Code", url: 'https://github.com/lajlksdf/vtl'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Has Code', 'Supervised Hashing']
 ---
 In recent years, the spread of fake videos has brought great influence on
 individuals and even countries. It is important to provide robust and reliable

@@ -4,6 +4,7 @@ title: Linear Cross-modal Hashing For Efficient Multimedia Search
 authors: Zhu Xiaofeng, Huang, Shen, Zhao
 conference: "Arxiv"
 year: 2024
+citations: 224
 bibkey: zhu2024linear
 additional_links:
   - {name: "Paper", url: "https://dl.acm.org/citation.cfm?id=2502107"}

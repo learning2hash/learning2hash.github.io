@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Scalable Image Retrieval By Sparse Product Quantization
-authors: Ning Qingqun, Zhu Jianke, Zhong Zhiyuan, Hoi Steven C. H., Chen Chun
+title: 'Scalable Image Retrieval By Sparse Product Quantization'
+authors: Qingqun Ning, Jianke Zhu, Zhiyuan Zhong, Steven C. H. Hoi, Chun Chen
 conference: "Arxiv"
 year: 2016
+citations: 29
 bibkey: ning2016scalable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1603.04614"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1603.04614'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization', 'Applications']
 ---
 Fast Approximate Nearest Neighbor (ANN) search technique for high-dimensional
 feature indexing and retrieval is the crux of large-scale image retrieval. A

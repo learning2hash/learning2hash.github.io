@@ -4,6 +4,7 @@ title: Hashing With Binary Matrix Pursuit
 authors: Cakir F., He, Sclaroff
 conference: "Arxiv"
 year: 2024
+citations: 13
 bibkey: cakir2024hashing
 additional_links:
   - {name: "Paper", url: "http://openaccess.thecvf.com/content_ECCV_2018/html/Fatih_Cakir_Hashing_with_Binary_ECCV_2018_paper.html"}

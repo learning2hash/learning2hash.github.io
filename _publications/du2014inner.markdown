@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Inner Product Similarity Search Using Compositional Codes
-authors: Du Chao, Wang Jingdong
+title: 'Inner Product Similarity Search Using Compositional Codes'
+authors: Chao Du, Jingdong Wang
 conference: "Arxiv"
 year: 2014
+citations: 18
 bibkey: du2014inner
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1406.4966"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1406.4966'}
+tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets']
 ---
 This paper addresses the nearest neighbor search problem under inner product
 similarity and introduces a compact code-based approach. The idea is to

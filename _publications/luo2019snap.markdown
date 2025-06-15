@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Snap And Find Deep Discrete Cross-domain Garment Image Retrieval
-authors: Luo Yadan, Wang Ziwei, Huang Zi, Yang Yang, Lu Huimin
+title: 'Snap And Find: Deep Discrete Cross-domain Garment Image Retrieval'
+authors: Yadan Luo, Ziwei Wang, Zi Huang, Yang Yang, Huimin Lu
 conference: "Arxiv"
 year: 2019
+citations: 4
 bibkey: luo2019snap
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.02887"}
-tags: ['ARXIV', 'Cross Modal', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.02887'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Datasets', 'Hashing', 'Applications']
 ---
 With the increasing number of online stores, there is a pressing need for
 intelligent search systems to understand the item photos snapped by customers

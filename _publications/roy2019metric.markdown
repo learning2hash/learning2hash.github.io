@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Metric-learning Based Deep Hashing Network For Content Based Retrieval Of Remote Sensing Images
-authors: Roy Subhankar, Sangineto Enver, Demir Begüm, Sebe Nicu
+title: 'Metric-learning Based Deep Hashing Network For Content Based Retrieval Of Remote Sensing Images'
+authors: Subhankar Roy, Enver Sangineto, Begüm Demir, Nicu Sebe
 conference: "Arxiv"
 year: 2019
+citations: 60
 bibkey: roy2019metric
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.01258"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.01258'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Deep Hashing', 'Training Strategy', 'Hashing']
 ---
 Hashing methods have been recently found very effective in retrieval of
 remote sensing (RS) images due to their computational efficiency and fast

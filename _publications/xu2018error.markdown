@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Error Correction Maximization For Deep Image Hashing
-authors: Xu Xiang, Wang Xiaofang, Kitani Kris M.
+title: 'Error Correction Maximization For Deep Image Hashing'
+authors: Xiang Xu, Xiaofang Wang, Kris M. Kitani
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: xu2018error
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1808.01942"}
-tags: ['ARXIV', 'Deep Learning', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1808.01942'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Evaluation', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 We propose to use the concept of the Hamming bound to derive the optimal
 criteria for learning hash codes with a deep network. In particular, when the

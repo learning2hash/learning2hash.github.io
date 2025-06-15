@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: One-pass One-hash N-gram Statistics Estimation
-authors: Lemire Daniel, Kaser Owen
+title: 'One-pass, One-hash N-gram Statistics Estimation'
+authors: Daniel Lemire, Owen Kaser
 conference: "Arxiv"
 year: 2006
+citations: 1
 bibkey: lemire2006one
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/cs/0610010"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/cs/0610010'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
 ---
 In multimedia, text or bioinformatics databases, applications query sequences
 of n consecutive symbols called n-grams. Estimating the number of distinct

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locality-sensitive Hashing For Efficient Web Application Security Testing
-authors: Ben-bassat Ilan, Rokah Erez
-conference: "In Proceedings of the"
+title: 'Locality-sensitive Hashing For Efficient Web Application Security Testing'
+authors: Ilan Ben-bassat, Erez Rokah
+conference: "In Proceedings of the 5th International Conference on Information Systems Security and Privacy (ICISSP) pages 193-204 (2019)"
 year: 2020
+citations: 1
 bibkey: benbassat2020locality
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2001.01128"}
-tags: ['COLT', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2001.01128'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Web application security has become a major concern in recent years, as more
 and more content and services are available online. A useful method for

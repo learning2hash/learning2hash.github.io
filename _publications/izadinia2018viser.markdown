@@ -4,10 +4,11 @@ title: VISER Visual Self-regularization
 authors: Izadinia Hamid, Garrigues Pierre
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: izadinia2018viser
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1802.02568"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Supervised', 'Semi-Supervised']
 ---
 In this work, we propose the use of large set of unlabeled images as a source
 of regularization data for learning robust visual representation. Given a

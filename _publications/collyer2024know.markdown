@@ -4,6 +4,7 @@ title: Know Your Neighborhood General And Zero-shot Capable Binary Function Sear
 authors: Collyer Joshua, Watson Tim, Phillips Iain
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: collyer2024know
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2406.02606"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Active Image Indexing
-authors: Fernandez Pierre, Douze Matthijs, Jégou Hervé, Furon Teddy
+title: 'Active Image Indexing'
+authors: Pierre Fernandez, Matthijs Douze, Hervé Jégou, Teddy Furon
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: fernandez2022active
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2210.10620"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2210.10620'}
+tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Quantization', 'Hashing']
 ---
 Image copy detection and retrieval from large databases leverage two
 components. First, a neural network maps an image to a vector representation,
@@ -21,6 +22,6 @@ changes to the image before its release. The loss is back-propagated through
 the deep neural network back to the image, under perceptual constraints. These
 modifications make the image more retrievable. Our experiments show that the
 retrieval and copy detection of activated images is significantly improved. For
-instance, activation improves by \\(+40\%\\) the Recall1@1 on various image
+instance, activation improves by \\(+40%\\) the Recall1@1 on various image
 transformations, and for several popular indexing structures based on product
 quantization and locality sensitivity hashing.

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fusion-supervised Deep Cross-modal Hashing
-authors: Wang Li, Zhu Lei, Yu En, Sun Jiande, Zhang Huaxiang
+title: 'Fusion-supervised Deep Cross-modal Hashing'
+authors: Li Wang, Lei Zhu, En Yu, Jiande Sun, Huaxiang Zhang
 conference: "Arxiv"
 year: 2019
+citations: 13
 bibkey: wang2019fusion
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.11171"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.11171'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 Deep hashing has recently received attention in cross-modal retrieval for its
 impressive advantages. However, existing hashing methods for cross-modal

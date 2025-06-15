@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Large-scale Video Search With Efficient Temporal Voting Structure
-authors: Esen Ersin, Ozkan Savas, Atil Ilkay
+title: 'Large-scale Video Search With Efficient Temporal Voting Structure'
+authors: Ersin Esen, Savas Ozkan, Ilkay Atil
 conference: "Arxiv"
 year: 2016
+citations: 1
 bibkey: esen2016large
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1607.07160"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1607.07160'}
+tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Applications']
 ---
 In this work, we propose a fast content-based video querying system for
 large-scale video search. The proposed system is distinguished from similar

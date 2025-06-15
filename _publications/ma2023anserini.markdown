@@ -4,6 +4,7 @@ title: Anserini Gets Dense Retrieval Integration Of Lucenes HNSW Indexes
 authors: Ma Xueguang, Teofili Tommaso, Lin Jimmy
 conference: "Arxiv"
 year: 2023
+citations: 3
 bibkey: ma2023anserini
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2304.12139"}

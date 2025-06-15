@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Class Of Structured P2P Systems Supporting Browsing
-authors: Cohen Julien Lina
+title: 'A Class Of Structured P2P Systems Supporting Browsing'
+authors: Julien Lina Cohen
 conference: "Arxiv"
 year: 2009
+citations: 0
 bibkey: cohen2009class
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0907.1005"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0907.1005'}
+tags: ['Cross-Modal', 'Supervised', 'Deep']
 ---
 Browsing is a way of finding documents in a large amount of data which is
 complementary to querying and which is particularly suitable for multimedia

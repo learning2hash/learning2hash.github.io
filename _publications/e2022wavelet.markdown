@@ -4,6 +4,7 @@ title: Wavelet Feature Maps Compression For Image-to-image Cnns
 authors: Shahaf E. Finder, Yair Zohav, Maor Ashkenazi, Eran Treister
 conference: "Neural Information Processing Systems"
 year: 2022
+citations: 7
 bibkey: e2022wavelet
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper_files/paper/2022/hash/81f19c0e9f3e06c831630ab6662fd8ea-Abstract-Conference.html"}

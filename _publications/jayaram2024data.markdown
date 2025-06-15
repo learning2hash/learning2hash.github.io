@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Data-dependent LSH For The Earth Movers Distance
-authors: Jayaram Rajesh, Waingarten Erik, Zhang Tian
+title: 'Data-dependent LSH For The Earth Mover''s Distance'
+authors: Rajesh Jayaram, Erik Waingarten, Tian Zhang
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: jayaram2024data
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2403.05041"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2403.05041'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
 ---
 We give new data-dependent locality sensitive hashing schemes (LSH) for the
 Earth Mover's Distance (\\(\mathsf\{EMD\}\\)), and as a result, improve the best

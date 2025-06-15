@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On The Needs For Rotations In Hypercubic Quantization Hashing
-authors: Morvan Anne, Souloumiac Antoine, Choromanski Krzysztof, Gouy-pailler Cédric, Atif Jamal
+title: 'On The Needs For Rotations In Hypercubic Quantization Hashing'
+authors: Anne Morvan, Antoine Souloumiac, Krzysztof Choromanski, Cédric Gouy-pailler, Jamal Atif
 conference: "Arxiv"
 year: 2018
+citations: 2
 bibkey: morvan2018needs
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1802.03936"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1802.03936'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Quantization', 'Hashing']
 ---
 The aim of this paper is to endow the well-known family of hypercubic
 quantization hashing methods with theoretical guarantees. In hypercubic

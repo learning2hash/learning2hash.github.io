@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Multivariate Representation Learning For Information Retrieval
-authors: Zamani Hamed, Bendersky Michael
+title: 'Multivariate Representation Learning For Information Retrieval'
+authors: Hamed Zamani, Michael Bendersky
 conference: "Arxiv"
 year: 2023
+citations: 3
 bibkey: zamani2023multivariate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2304.14522"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2304.14522'}
+tags: ['Cross-Modal', 'Model Design', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing']
 ---
 Dense retrieval models use bi-encoder network architectures for learning
 query and document representations. These representations are often in the form

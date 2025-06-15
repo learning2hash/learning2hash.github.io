@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: More Analysis Of Double Hashing For Balanced Allocations
-authors: Mitzenmacher Michael
+title: 'More Analysis Of Double Hashing For Balanced Allocations'
+authors: Michael Mitzenmacher
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: mitzenmacher2015more
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1503.00658"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1503.00658'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 With double hashing, for a key \\(x\\), one generates two hash values \\(f(x)\\) and
 \\(g(x)\\), and then uses combinations \\((f(x) +i g(x)) \bmod n\\) for \\(i=0,1,2,...\\)

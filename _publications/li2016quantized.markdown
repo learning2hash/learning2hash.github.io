@@ -4,6 +4,7 @@ title: Quantized Random Projections And Non-linear Estimation Of Cosine Similari
 authors: Ping Li, Michael Mitzenmacher, Martin Slawski
 conference: "Neural Information Processing Systems"
 year: 2016
+citations: 4
 bibkey: li2016quantized
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2016/hash/186a157b2992e7daed3677ce8e9fe40f-Abstract.html"}

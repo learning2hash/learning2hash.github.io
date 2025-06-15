@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Prototype-supervised Adversarial Network For Targeted Attack Of Deep Hashing
-authors: Wang Xunguang, Zhang Zheng, Wu Baoyuan, Shen Fumin, Lu Guangming
+title: 'Prototype-supervised Adversarial Network For Targeted Attack Of Deep Hashing'
+authors: Xunguang Wang, Zheng Zhang, Baoyuan Wu, Fumin Shen, Guangming Lu
 conference: "Arxiv"
 year: 2021
+citations: 41
 bibkey: wang2021prototype
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2105.07553"}
-  - {name: "Code", url: "https://github.com/xunguangwang/ProS-GAN"}
-tags: ['ARXIV', 'GAN', 'Has Code', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2105.07553'}
+  - {name: "Code", url: 'https://github.com/xunguangwang/ProS-GAN'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Efficiency', 'Retrieval Models', 'Has Code', 'Deep Hashing', 'Hashing']
 ---
 Due to its powerful capability of representation learning and high-efficiency
 computation, deep hashing has made significant progress in large-scale image

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Can LSH (locality-sensitive Hashing) Be Replaced By Neural Network
-authors: Liu Renyang, Zhao Jun, Chu Xing, Liang Yu, Zhou Wei, He Jing
+title: 'Can LSH (locality-sensitive Hashing) Be Replaced By Neural Network?'
+authors: Renyang Liu et al.
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: liu2023can
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2310.09806"}
-tags: ['ARXIV', 'Graph', 'LSH', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2310.09806'}
+tags: ['Deep', 'Unimodal', 'Datasets', 'Supervised', 'Hashing']
 ---
 With the rapid development of GPU (Graphics Processing Unit) technologies and
 neural networks, we can explore more appropriate data structures and

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Diverse Yet Efficient Retrieval Using Hash Functions
-authors: Rao Vidyadhar, Jain Prateek, Jawahar C. V
+title: 'Diverse Yet Efficient Retrieval Using Hash Functions'
+authors: Vidyadhar Rao, Prateek Jain, C. V Jawahar
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: rao2015diverse
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1509.06553"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1509.06553'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Hashing']
 ---
 Typical retrieval systems have three requirements: a) Accurate retrieval
 i.e., the method should have high precision, b) Diverse retrieval, i.e., the

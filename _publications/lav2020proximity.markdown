@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Proximity Preserving Binary Code Using Signed Graph-cut
-authors: Lav Inbal, Avidan Shai, Singer Yoram, Hel-or Yacov
-conference: "AAAI Conference on Artificial Intelligence Feb."
+title: 'Proximity Preserving Binary Code Using Signed Graph-cut'
+authors: Inbal Lav, Shai Avidan, Yoram Singer, Yacov Hel-or
+conference: "AAAI Conference on Artificial Intelligence Feb. 2020"
 year: 2020
+citations: 0
 bibkey: lav2020proximity
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2002.01793"}
-tags: ['Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2002.01793'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
 ---
 We introduce a binary embedding framework, called Proximity Preserving Code
 (PPC), which learns similarity and dissimilarity between data points to create

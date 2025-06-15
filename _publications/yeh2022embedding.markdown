@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Embedding Compression With Hashing For Efficient Representation Learning In Large-scale Graph
-authors: Yeh Chin-chia Michael, Gu Mengting, Zheng Yan, Chen Huiyuan, Ebrahimi Javid, Zhuang Zhongfang, Wang Junpeng, Wang Liang, Zhang Wei
+title: 'Embedding Compression With Hashing For Efficient Representation Learning In Large-scale Graph'
+authors: Chin-chia Michael Yeh et al.
 conference: "Arxiv"
 year: 2022
+citations: 11
 bibkey: yeh2022embedding
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2208.05648"}
-tags: ['ARXIV', 'Deep Learning', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2208.05648'}
+tags: ['Model Design', 'Unimodal', 'Shallow', 'Compression', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 Graph neural networks (GNNs) are deep learning models designed specifically
 for graph data, and they typically rely on node features as the input to the

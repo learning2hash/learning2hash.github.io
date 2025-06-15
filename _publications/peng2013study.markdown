@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Study On Unsupervised Dictionary Learning And Feature Encoding For Action Classification
-authors: Peng Xiaojiang, Peng Qiang, Qiao Yu, Chen Junzhou, Afzal Mehtab
+title: 'A Study On Unsupervised Dictionary Learning And Feature Encoding For Action Classification'
+authors: Xiaojiang Peng, Qiang Peng, Yu Qiao, Junzhou Chen, Mehtab Afzal
 conference: "Arxiv"
 year: 2013
+citations: 2
 bibkey: peng2013study
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1309.0309"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1309.0309'}
+tags: ['Cross-Modal', 'Quantisation', 'Shallow', 'Datasets', 'Quantization']
 ---
 Many efforts have been devoted to develop alternative methods to traditional
 vector quantization in image domain such as sparse coding and soft-assignment.

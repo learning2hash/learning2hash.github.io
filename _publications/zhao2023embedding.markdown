@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: Embedding In Recommender Systems A Survey
-authors: Zhao Xiangyu, Wang Maolin, Zhao Xinjian, Li Jiansheng, Zhou Shucheng, Yin Dawei, Li Qing, Tang Jiliang, Guo Ruocheng
+authors: Zhao Xiangyu et al.
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: zhao2023embedding
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2310.18608"}
-tags: ['ARXIV', 'Graph', 'Quantisation', 'Supervised', 'Survey Paper']
+tags: ['ARXIV', 'Graph', 'Quantisation', 'Supervised', 'Survey Paper', 'Self-Supervised']
 ---
 Recommender systems have become an essential component of many online
 platforms, providing personalized recommendations to users. A crucial aspect is

@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Aisaq All-in-storage ANNS With Product Quantization For Dram-free Information Retrieval
-authors: Tatsuno Kento, Miyashita Daisuke, Ikeda Taiga, Ishiyama Kiyoshi, Sumiyoshi Kazunari, Deguchi Jun
+authors: Tatsuno Kento et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: tatsuno2024aisaq
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2404.06004"}

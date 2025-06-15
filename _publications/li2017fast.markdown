@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast K-nearest Neighbour Search Via Prioritized DCI
-authors: Li Ke, Malik Jitendra
+title: 'Fast K-nearest Neighbour Search Via Prioritized DCI'
+authors: Ke Li, Jitendra Malik
 conference: "Arxiv"
 year: 2017
+citations: 14
 bibkey: li2017fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1703.00440"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1703.00440'}
+tags: ['Unsupervised', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
 ---
 Most exact methods for k-nearest neighbour search suffer from the curse of
 dimensionality; that is, their query times exhibit exponential dependence on

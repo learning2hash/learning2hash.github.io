@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Compact Parallel Hash Tables On The GPU
-authors: Hegeman Steef, Wöltgens Daan, Wijs Anton, Laarman Alfons
+title: 'Compact Parallel Hash Tables On The GPU'
+authors: Steef Hegeman, Daan Wöltgens, Anton Wijs, Alfons Laarman
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: hegeman2024compact
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2406.09255"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2406.09255'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Hashing']
 ---
 On the GPU, hash table operation speed is determined in large part by cache
 line efficiency, and state-of-the-art hashing schemes thus divide tables into

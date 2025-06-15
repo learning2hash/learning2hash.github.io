@@ -4,6 +4,7 @@ title: Fpscreen A Rapid Similarity Search Tool For Massive Molecular Library Bas
 authors: Wang Lijun, Gong Jianbing, Zhang Yingxia, Liu Tianmou, Gao Junhui
 conference: "Arxiv"
 year: 2019
+citations: 0
 bibkey: wang2019fpscreen
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1906.06170"}

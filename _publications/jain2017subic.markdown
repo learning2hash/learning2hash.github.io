@@ -4,10 +4,11 @@ title: SUBIC A Supervised Structured Binary Code For Image Search
 authors: Jain Himalaya, Zepeda Joaquin, Pérez Patrick, Gribonval Rémi
 conference: "Arxiv"
 year: 2017
+citations: 61
 bibkey: jain2017subic
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1708.02932"}
-tags: ['ARXIV', 'Cross Modal', 'Deep Learning', 'Quantisation', 'Supervised']
+tags: ['ARXIV', 'Cross Modal', 'Deep Learning', 'Quantisation', 'Supervised', 'Supervised']
 ---
 For large-scale visual search, highly compressed yet meaningful
 representations of images are essential. Structured vector quantizers based on

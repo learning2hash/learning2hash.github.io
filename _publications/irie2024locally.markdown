@@ -4,6 +4,7 @@ title: Locally Linear Hashing For Extracting Non-linear Manifolds
 authors: Irie G., Li, Wu, Chang
 conference: "Arxiv"
 year: 2024
+citations: 69
 bibkey: irie2024locally
 additional_links:
   - {name: "Paper", url: "http://www.ee.columbia.edu/~zgli/papers/CVPR-2014-LLH.pdf"}

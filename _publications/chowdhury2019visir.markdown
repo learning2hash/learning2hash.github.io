@@ -4,6 +4,7 @@ title: VISIR Visual And Semantic Image Label Refinement
 authors: Chowdhury Sreyasi Nag, Tandon Niket, Ferhatosmanoglu Hakan, Weikum Gerhard
 conference: "ACM ISBN"
 year: 2019
+citations: 0
 bibkey: chowdhury2019visir
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1909.00741"}

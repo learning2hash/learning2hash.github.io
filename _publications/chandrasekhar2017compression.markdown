@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Compression Of Deep Neural Networks For Image Instance Retrieval
-authors: Chandrasekhar Vijay, Lin Jie, Liao Qianli, Morère Olivier, Veillard Antoine, Duan Lingyu, Poggio Tomaso
+title: 'Compression Of Deep Neural Networks For Image Instance Retrieval'
+authors: Vijay Chandrasekhar et al.
 conference: "Arxiv"
 year: 2017
+citations: 14
 bibkey: chandrasekhar2017compression
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1701.04923"}
-tags: ['ARXIV', 'CNN', 'Quantisation', 'Supervised', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1701.04923'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Compression', 'Quantization', 'Survey Paper', 'Applications']
 ---
 Image instance retrieval is the problem of retrieving images from a database
 which contain the same object. Convolutional Neural Network (CNN) based

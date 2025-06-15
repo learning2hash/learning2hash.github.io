@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Linear Hashing With ell_infty Guarantees And Two-sided Kakeya Bounds
-authors: Dhar Manik, Dvir Zeev
-conference: "TheoretiCS Volume"
+title: 'Linear Hashing With \(\ell_\infty\) Guarantees And Two-sided Kakeya Bounds'
+authors: Manik Dhar, Zeev Dvir
+conference: "TheoretiCS Volume 3 (April 3 2024) theoretics11529"
 year: 2022
+citations: 1
 bibkey: dhar2022linear
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2204.01665"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2204.01665'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 We show that a randomly chosen linear map over a finite field gives a good
 hash function in the \\(\ell_\infty\\) sense. More concretely, consider a set \\(S

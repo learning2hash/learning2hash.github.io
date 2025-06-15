@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Distributed Collaborative Hashing And Its Applications In Ant Financial
-authors: Chen Chaochao, Liu Ziqi, Zhao Peilin, Li Longfei, Zhou Jun, Li Xiaolong
+title: 'Distributed Collaborative Hashing And Its Applications In Ant Financial'
+authors: Chaochao Chen et al.
 conference: "Arxiv"
 year: 2018
+citations: 5
 bibkey: chen2018distributed
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1804.04918"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1804.04918'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Collaborative filtering, especially latent factor model, has been popularly
 used in personalized recommendation. Latent factor model aims to learn user and

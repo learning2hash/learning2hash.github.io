@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Conv-codes Audio Hashing For Bird Species Classification
-authors: Thakur Anshul, Sharma Pulkit, Abrol Vinayak, Rajan Padmanabhan
+title: 'Conv-codes: Audio Hashing For Bird Species Classification'
+authors: Anshul Thakur, Pulkit Sharma, Vinayak Abrol, Padmanabhan Rajan
 conference: "Arxiv"
 year: 2019
+citations: 2
 bibkey: thakur2019conv
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1902.02498"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1902.02498'}
+tags: ['Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 In this work, we propose a supervised, convex representation based audio
 hashing framework for bird species classification. The proposed framework

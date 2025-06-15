@@ -4,6 +4,7 @@ title: Manhattan Hashing For Large-scale Image Retrieval
 authors: Kong W., Li, Guo
 conference: "Arxiv"
 year: 2024
+citations: 72
 bibkey: kong2024manhattan
 additional_links:
   - {name: "Paper", url: "https://cs.nju.edu.cn/lwj/paper/SIGIR12_MH.pdf"}

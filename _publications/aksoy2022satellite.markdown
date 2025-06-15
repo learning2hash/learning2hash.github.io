@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Satellite Image Search In Agoraeo
-authors: Aksoy Ahmet Kerem, Dushev Pavel, Zacharatou Eleni Tzirita, Hemsen Holmer, Charfuelan Marcela, Quiané-ruiz Jorge-arnulfo, Demir Begüm, Markl Volker
+title: 'Satellite Image Search In Agoraeo'
+authors: Ahmet Kerem Aksoy et al.
 conference: "Arxiv"
 year: 2022
+citations: 6
 bibkey: aksoy2022satellite
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2208.10830"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2208.10830'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Deep Hashing', 'Similarity Learning', 'Hashing', 'Applications']
 ---
 The growing operational capability of global Earth Observation (EO) creates
 new opportunities for data-driven approaches to understand and protect our

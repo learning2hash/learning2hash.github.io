@@ -1,12 +1,27 @@
 ---
 layout: publication
-title: Hashing Algorithms For Large-scale Learning
-authors: Ping Li, Anshumali Shrivastava, Joshua Moore, Arnd König
-conference: "Neural Information Processing Systems"
+title: 'Hashing Algorithms For Large-scale Learning'
+authors: Ping Li, Anshumali Shrivastava, Joshua Moore, Arnd Christian Konig
+conference: "Arxiv"
 year: 2011
+citations: 113
 bibkey: li2011hashing
 additional_links:
-  - {name: "Paper", url: "https://papers.nips.cc/paper/2011/hash/0a1bf96b7165e962e90cb14648c9462d-Abstract.html"}
-tags: ['NEURIPS', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1106.0967'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
-Minwise hashing is a standard technique in the context of search for efficiently computing set similarities. The recent development of b-bit minwise hashing provides a  substantial improvement by storing only the lowest b bits of each hashed value. In this paper, we demonstrate that  b-bit minwise hashing can be naturally integrated with linear learning algorithms such as linear SVM and logistic regression, to solve large-scale and high-dimensional statistical learning tasks, especially when the data do not fit in memory.   We  compare \\(b\\)-bit minwise hashing with  the Count-Min (CM)  and  Vowpal Wabbit (VW) algorithms, which have essentially the same variances as random projections. Our theoretical and empirical comparisons illustrate that b-bit minwise hashing is significantly more accurate (at the same storage cost) than VW (and random projections) for binary data.
+In this paper, we first demonstrate that b-bit minwise hashing, whose
+estimators are positive definite kernels, can be naturally integrated with
+learning algorithms such as SVM and logistic regression. We adopt a simple
+scheme to transform the nonlinear (resemblance) kernel into linear (inner
+product) kernel; and hence large-scale problems can be solved extremely
+efficiently. Our method provides a simple effective solution to large-scale
+learning in massive and extremely high-dimensional datasets, especially when
+data do not fit in memory.
+  We then compare b-bit minwise hashing with the Vowpal Wabbit (VW) algorithm
+(which is related the Count-Min (CM) sketch). Interestingly, VW has the same
+variances as random projections. Our theoretical and empirical comparisons
+illustrate that usually \\(b\\)-bit minwise hashing is significantly more accurate
+(at the same storage) than VW (and random projections) in binary data.
+Furthermore, \\(b\\)-bit minwise hashing can be combined with VW to achieve further
+improvements in terms of training speed, especially when \\(b\\) is large.

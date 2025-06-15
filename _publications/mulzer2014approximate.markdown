@@ -4,6 +4,7 @@ title: Approximate K-flat Nearest Neighbor Search
 authors: Mulzer Wolfgang, Nguyen Huy L., Seiferth Paul, Stein Yannik
 conference: "Arxiv"
 year: 2014
+citations: 0
 bibkey: mulzer2014approximate
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1411.1519"}

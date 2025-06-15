@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Convolutional Hashing For Automated Scene Matching
-authors: Loncaric Martin, Liu Bowei, Weber Ryan
+title: 'Convolutional Hashing For Automated Scene Matching'
+authors: Martin Loncaric, Bowei Liu, Ryan Weber
 conference: "Arxiv"
 year: 2018
+citations: 1
 bibkey: loncaric2018convolutional
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1802.03101"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1802.03101'}
+tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Training Strategy', 'Hashing']
 ---
 We present a powerful new loss function and training scheme for learning
 binary hash functions. In particular, we demonstrate our method by creating for

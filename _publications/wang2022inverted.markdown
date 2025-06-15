@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Inverted Semantic-index For Image Retrieval
-authors: Wang Ying
+title: 'Inverted Semantic-index For Image Retrieval'
+authors: Ying Wang
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: wang2022inverted
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2206.12623"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2206.12623'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Compression', 'Vector Indexing', 'Quantization', 'Applications']
 ---
 This paper addresses the construction of inverted index for large-scale image
 retrieval. The inverted index proposed by J. Sivic brings a significant

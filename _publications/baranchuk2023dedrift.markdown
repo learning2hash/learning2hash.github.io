@@ -4,6 +4,7 @@ title: Dedrift Robust Similarity Search Under Content Drift
 authors: Baranchuk Dmitry, Douze Matthijs, Upadhyay Yash, Yalniz I. Zeki
 conference: "Arxiv"
 year: 2023
+citations: 2
 bibkey: baranchuk2023dedrift
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2308.02752"}

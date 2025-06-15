@@ -4,6 +4,7 @@ title: Jumpbackhash Say Goodbye To The Modulo Operation To Distribute Keys Unifo
 authors: Ertl Otmar
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: ertl2024jumpbackhash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2403.18682"}

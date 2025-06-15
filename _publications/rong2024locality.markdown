@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Locality-sensitive Hashing For Earthquake Detection A Case Study Of Scaling Data-driven Science
-authors: Rong Kexin, Yoon, Bergen, Elezabi, Bailis Peter, Levis, Beroza
+authors: Rong Kexin et al.
 conference: "Arxiv"
 year: 2024
+citations: 6
 bibkey: rong2024locality
 additional_links:
   - {name: "Paper", url: "http://www.vldb.org/pvldb/vol11/p1674-rong.pdf"}

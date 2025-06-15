@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Minimizing Flops To Learn Efficient Sparse Representations
-authors: Paria Biswajit, Yeh Chih-kuan, Yen Ian E. H., Xu Ning, Ravikumar Pradeep, Póczos Barnabás
+title: 'Minimizing Flops To Learn Efficient Sparse Representations'
+authors: Biswajit Paria et al.
 conference: "Arxiv"
 year: 2020
+citations: 14
 bibkey: paria2020minimizing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.05665"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.05665'}
+tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Quantization', 'Hashing', 'Applications']
 ---
 Deep representation learning has become one of the most widely adopted
 approaches for visual search, recommendation, and identification. Retrieval of

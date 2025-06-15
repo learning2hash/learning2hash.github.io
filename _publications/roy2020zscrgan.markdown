@@ -4,10 +4,11 @@ title: ZSCRGAN A Gan-based Expectation Maximization Model For Zero-shot Retrieva
 authors: Roy Anurag, Verma Vinay Kumar, Ghosh Kripabandhu, Ghosh Saptarshi
 conference: "Arxiv"
 year: 2020
+citations: 3
 bibkey: roy2020zscrgan
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2007.12212"}
-tags: ['ARXIV', 'Cross Modal', 'GAN', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'Cross Modal', 'GAN', 'Image Retrieval', 'Supervised', 'Supervised']
 ---
 Most existing algorithms for cross-modal Information Retrieval are based on a
 supervised train-test setup, where a model learns to align the mode of the

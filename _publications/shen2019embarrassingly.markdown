@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Embarrassingly Simple Binary Representation Learning
-authors: Shen Yuming, Qin Jie, Chen Jiaxin, Liu Li, Zhu Fan
+title: 'Embarrassingly Simple Binary Representation Learning'
+authors: Yuming Shen, Jie Qin, Jiaxin Chen, Li Liu, Fan Zhu
 conference: "Arxiv"
 year: 2019
+citations: 14
 bibkey: shen2019embarrassingly
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1908.09573"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1908.09573'}
+tags: ['Cross-Modal', 'Model Design', 'Training Strategy', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
 ---
 Recent binary representation learning models usually require sophisticated
 binary optimization, similarity measure or even generative models as

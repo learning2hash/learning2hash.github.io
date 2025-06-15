@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Beyond Product Quantization Deep Progressive Quantization For Image Retrieval
-authors: Gao Lianli, Zhu Xiaosu, Song Jingkuan, Zhao Zhou, Shen Heng Tao
-conference: "Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence"
+title: 'Beyond Product Quantization: Deep Progressive Quantization For Image Retrieval'
+authors: Lianli Gao, Xiaosu Zhu, Jingkuan Song, Zhou Zhao, Heng Tao Shen
+conference: "Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence 1 (2019) 723-729"
 year: 2019
+citations: 23
 bibkey: gao2019beyond
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1906.06698"}
-  - {name: "Code", url: "https://github.com/cfm-uestc/DPQ"}
-tags: ['Has Code', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1906.06698'}
+  - {name: "Code", url: 'https://github.com/cfm-uestc/DPQ'}
+tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Has Code', 'Training Strategy', 'Applications']
 ---
 Product Quantization (PQ) has long been a mainstream for generating an
 exponentially large codebook at very low memory/time cost. Despite its success,

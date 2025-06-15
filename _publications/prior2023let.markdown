@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Let Them Have CAKES A Cutting-edge Algorithm For Scalable Efficient And Exact Search On Big Data
-authors: Prior Morgan E., Howard Thomas J. Iii, Mclaughlin Oliver, Ferguson Terrence, Ishaq Najib, Daniels Noah M.
+authors: Prior Morgan E. et al.
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: prior2023let
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2309.05491"}

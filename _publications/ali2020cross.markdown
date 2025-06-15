@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Cross Hashing Anonymizing Encounters In Decentralised Contact Tracing Protocols
-authors: Ali Junade, Dyo Vladimir
+title: 'Cross Hashing: Anonymizing Encounters In Decentralised Contact Tracing Protocols'
+authors: Junade Ali, Vladimir Dyo
 conference: "Arxiv"
 year: 2020
+citations: 7
 bibkey: ali2020cross
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2005.12884"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2005.12884'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Hashing']
 ---
 During the COVID-19 (SARS-CoV-2) epidemic, Contact Tracing emerged as an
 essential tool for managing the epidemic. App-based solutions have emerged for

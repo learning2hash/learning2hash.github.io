@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Self-taught Hashing For Fast Similarity Search
-authors: Zhang Dell, Wang Jun, Cai Deng, Lu Jinsong
+title: 'Self-taught Hashing For Fast Similarity Search'
+authors: Dell Zhang, Jun Wang, Deng Cai, Jinsong Lu
 conference: "Arxiv"
 year: 2010
+citations: 252
 bibkey: zhang2010self
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1004.5370"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1004.5370'}
+tags: ['Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Supervised', 'Supervised Hashing', 'Applications']
 ---
 The ability of fast similarity search at large scale is of great importance
 to many Information Retrieval (IR) applications. A promising way to accelerate

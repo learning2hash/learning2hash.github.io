@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Training Of Triplet-based Deep Binary Embedding Networks
-authors: Zhuang Bohan, Lin Guosheng, Shen Chunhua, Reid Ian
+title: 'Fast Training Of Triplet-based Deep Binary Embedding Networks'
+authors: Bohan Zhuang, Guosheng Lin, Chunhua Shen, Ian Reid
 conference: "Arxiv"
 year: 2016
+citations: 86
 bibkey: zhuang2016fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1603.02844"}
-tags: ['ARXIV', 'CNN', 'Graph', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1603.02844'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Datasets', 'Supervised', 'Deep Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 In this paper, we aim to learn a mapping (or embedding) from images to a
 compact binary space in which Hamming distances correspond to a ranking measure

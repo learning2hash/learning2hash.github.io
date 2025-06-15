@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Billion-scale Similarity Search With Gpus
-authors: Johnson Jeff, Douze Matthijs, Jégou Hervé
+title: 'Billion-scale Similarity Search With Gpus'
+authors: Jeff Johnson, Matthijs Douze, Hervé Jégou
 conference: "Arxiv"
 year: 2017
+citations: 1351
 bibkey: johnson2017billion
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1702.08734"}
-tags: ['ARXIV', 'Graph', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1702.08734'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Quantization']
 ---
 Similarity search finds application in specialized database systems handling
 complex data such as images or videos, which are typically represented by

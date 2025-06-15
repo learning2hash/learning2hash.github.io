@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Nested Invariance Pooling And RBM Hashing For Image Instance Retrieval
-authors: Morère Olivier, Lin Jie, Veillard Antoine, Chandrasekhar Vijay, Poggio Tomaso
+title: 'Nested Invariance Pooling And RBM Hashing For Image Instance Retrieval'
+authors: Olivier Morère, Jie Lin, Antoine Veillard, Vijay Chandrasekhar, Tomaso Poggio
 conference: "Arxiv"
 year: 2016
+citations: 12
 bibkey: morère2016nested
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1603.04595"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1603.04595'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Datasets', 'Vector Indexing', 'Supervised', 'Hashing']
 ---
 The goal of this work is the computation of very compact binary hashes for
 image instance retrieval. Our approach has two novel contributions. The first

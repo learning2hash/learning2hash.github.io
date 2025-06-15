@@ -4,6 +4,7 @@ title: Approximate String Matching Theory And Applications (la Recherche Approch
 authors: Chegrane Ibrahim
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: chegrane2017approximate
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1701.08688"}

@@ -4,6 +4,7 @@ title: XNORBIN A 95 Top/s/w Hardware Accelerator For Binary Convolutional Neural
 authors: Bahou Andrawes Al, Karunaratne Geethan, Andri Renzo, Cavigelli Lukas, Benini Luca
 conference: "Arxiv"
 year: 2018
+citations: 28
 bibkey: bahou2018xnorbin
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1803.05849"}

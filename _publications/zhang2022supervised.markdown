@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Supervised Deep Hashing For High-dimensional And Heterogeneous Case-based Reasoning
-authors: Zhang Qi, Hu Liang, Shi Chongyang, Liu Ke, Cao Longbing
+title: 'Supervised Deep Hashing For High-dimensional And Heterogeneous Case-based Reasoning'
+authors: Qi Zhang, Liang Hu, Chongyang Shi, Ke Liu, Longbing Cao
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: zhang2022supervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2206.14523"}
-tags: ['ARXIV', 'Cross Modal', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2206.14523'}
+tags: ['Cross-Modal', 'Model Design', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Deep Hashing', 'Quantization', 'Hashing']
 ---
 Case-based Reasoning (CBR) on high-dimensional and heterogeneous data is a
 trending yet challenging and computationally expensive task in the real world.

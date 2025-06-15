@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Large-scale Distributed Learning Via Private On-device Locality-sensitive Hashing
-authors: Rabbani Tahseen, Bornstein Marco, Huang Furong
+title: 'Large-scale Distributed Learning Via Private On-device Locality-sensitive Hashing'
+authors: Tahseen Rabbani, Marco Bornstein, Furong Huang
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: rabbani2023large
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2306.02563"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2306.02563'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 Locality-sensitive hashing (LSH) based frameworks have been used efficiently
 to select weight vectors in a dense hidden layer with high cosine similarity to

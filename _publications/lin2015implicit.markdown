@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Implicit Sparse Code Hashing
-authors: Lin Tsung-yu, Ke Tsung-wei, Liu Tyng-luh
+title: 'Implicit Sparse Code Hashing'
+authors: Tsung-yu Lin, Tsung-wei Ke, Tyng-luh Liu
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: lin2015implicit
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1512.00130"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1512.00130'}
+tags: ['Cross-Modal', 'Shallow', 'Datasets', 'Supervised', 'Hashing']
 ---
 We address the problem of converting large-scale high-dimensional image data
 into binary codes so that approximate nearest-neighbor search over them can be

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Noise-robust De-duplication At Scale
-authors: Silcock Emily, D'amico-wong Luca, Yang Jinglin, Dell Melissa
+title: 'Noise-robust De-duplication At Scale'
+authors: Emily Silcock, Luca D'amico-wong, Jinglin Yang, Melissa Dell
 conference: "Arxiv"
 year: 2022
+citations: 3
 bibkey: silcock2022noise
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2210.04261"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2210.04261'}
+tags: ['Cross-Modal', 'Model Design', 'Evaluation', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Identifying near duplicates within large, noisy text corpora has a myriad of
 applications that range from de-duplicating training datasets, reducing privacy

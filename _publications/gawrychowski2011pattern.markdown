@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Pattern Matching In Lempel-ziv Compressed Strings Fast Simple And Deterministic
-authors: Gawrychowski Pawel
+title: 'Pattern Matching In Lempel-ziv Compressed Strings: Fast, Simple, And Deterministic'
+authors: Pawel Gawrychowski
 conference: "Arxiv"
 year: 2011
+citations: 15
 bibkey: gawrychowski2011pattern
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1104.4203"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1104.4203'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Compression', 'Hashing', 'Applications']
 ---
 Countless variants of the Lempel-Ziv compression are widely used in many
 real-life applications. This paper is concerned with a natural modification of

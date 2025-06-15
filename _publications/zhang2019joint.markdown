@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Joint Cluster Unary Loss For Efficient Cross-modal Hashing
-authors: Zhang Shifeng, Li Jianmin, Zhang Bo
+title: 'Joint Cluster Unary Loss For Efficient Cross-modal Hashing'
+authors: Shifeng Zhang, Jianmin Li, Bo Zhang
 conference: "Arxiv"
 year: 2019
+citations: 4
 bibkey: zhang2019joint
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1902.00644"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1902.00644'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Hashing', 'Datasets', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Supervised Hashing']
 ---
 With the rapid growth of various types of multimodal data, cross-modal deep
 hashing has received broad attention for solving cross-modal retrieval problems

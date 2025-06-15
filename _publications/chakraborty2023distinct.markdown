@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Distinct Elements In Streams An Algorithm For The (text) Book
-authors: Chakraborty Sourav, Vinodchandran N. V., Meel Kuldeep S.
-conference: "Apppeared in Proceedings of"
+title: 'Distinct Elements In Streams: An Algorithm For The (text) Book'
+authors: Sourav Chakraborty, N. V. Vinodchandran, Kuldeep S. Meel
+conference: "Apppeared in Proceedings of 30th Annual European Symposium on Algorithms (ESA 2022)"
 year: 2023
+citations: 0
 bibkey: chakraborty2023distinct
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2301.10191"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2301.10191'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Given a data stream \\(\mathcal\{A\} = \langle a_1, a_2, \ldots, a_m \rangle\\) of
 \\(m\\) elements where each \\(a_i \in [n]\\), the Distinct Elements problem is to

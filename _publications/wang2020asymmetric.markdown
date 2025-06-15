@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Asymmetric Correlation Quantization Hashing For Cross-modal Retrieval
-authors: Wang Lu, Yang Jie
+title: 'Asymmetric Correlation Quantization Hashing For Cross-modal Retrieval'
+authors: Lu Wang, Jie Yang
 conference: "Arxiv"
 year: 2020
+citations: 19
 bibkey: wang2020asymmetric
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2001.04625"}
-tags: ['ARXIV', 'Cross Modal', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2001.04625'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Datasets', 'Vector Indexing', 'Quantization', 'Multi-Modal Hashing', 'Hashing']
 ---
 Due to the superiority in similarity computation and database storage for
 large-scale multiple modalities data, cross-modal hashing methods have

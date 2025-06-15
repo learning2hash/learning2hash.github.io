@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Hashvfl Defending Against Data Reconstruction Attacks In Vertical Federated Learning
-authors: Qiu Pengyu, Zhang Xuhong, Ji Shouling, Fu Chong, Yang Xing, Wang Ting
+authors: Qiu Pengyu et al.
 conference: "Arxiv"
 year: 2022
+citations: 10
 bibkey: qiu2022hashvfl
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2212.00325"}

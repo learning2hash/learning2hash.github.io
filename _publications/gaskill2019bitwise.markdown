@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: The Bitwise Hashing Trick For Personalized Search
-authors: Gaskill Braddock
-conference: "Applied Artificial Intelligence Volume"
+title: 'The Bitwise Hashing Trick For Personalized Search'
+authors: Braddock Gaskill
+conference: "Applied Artificial Intelligence Volume 33 2019 - Issue 9 pages 829-837"
 year: 2019
+citations: 1
 bibkey: gaskill2019bitwise
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1910.08646"}
-tags: []
+  - {name: "Paper", url: 'https://arxiv.org/abs/1910.08646'}
+tags: ['Unimodal', 'Shallow', 'Supervised', 'Hashing', 'Applications']
 ---
 Many real world problems require fast and efficient lexical comparison of
 large numbers of short text strings. Search personalization is one such domain.

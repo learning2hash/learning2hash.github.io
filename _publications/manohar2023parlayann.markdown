@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Parlayann Scalable And Deterministic Parallel Graph-based Approximate Nearest Neighbor Search Algorithms
-authors: Manohar Magdalen Dobson, Shen Zheqi, Blelloch Guy E., Dhulipala Laxman, Gu Yan, Simhadri Harsha Vardhan, Sun Yihan
+authors: Manohar Magdalen Dobson et al.
 conference: "Arxiv"
 year: 2023
+citations: 4
 bibkey: manohar2023parlayann
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2305.04359"}

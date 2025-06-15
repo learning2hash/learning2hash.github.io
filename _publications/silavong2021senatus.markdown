@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Senatus -- A Fast And Accurate Code-to-code Recommendation Engine
-authors: Silavong Fran, Moran Sean, Georgiadis Antonios, Saphal Rohan, Otter Robert
+title: 'Senatus -- A Fast And Accurate Code-to-code Recommendation Engine'
+authors: Fran Silavong, Sean Moran, Antonios Georgiadis, Rohan Saphal, Robert Otter
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: silavong2021senatus
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2111.04473"}
-tags: ['ARXIV', 'Deep Learning', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2111.04473'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Machine learning on source code (MLOnCode) is a popular research field that
 has been driven by the availability of large-scale code repositories and the
@@ -30,7 +31,7 @@ while also counteracting the skewness in the snippet length distribution using
 novel abstract syntax tree-based feature scoring and selection algorithms. We
 evaluate Senatus and find the recommendations to be of higher quality than
 competing baselines, while achieving faster search. For example on the
-CodeSearchNet dataset Senatus improves performance by 31.21\% F1 and
+CodeSearchNet dataset Senatus improves performance by 31.21% F1 and
 147.9*x* faster query time compared to Facebook Aroma. Senatus also
-outperforms standard MinHash LSH by 29.2\% F1 and 51.02*x* faster query
+outperforms standard MinHash LSH by 29.2% F1 and 51.02*x* faster query
 time.

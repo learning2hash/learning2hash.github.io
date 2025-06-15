@@ -4,6 +4,7 @@ title: Hashnet Deep Learning To Hash By Continuation
 authors: Cao Zhangjie, Long Mingsheng, Wang Jianmin, Yu Philip S.
 conference: "Arxiv"
 year: 2017
+citations: 510
 bibkey: cao2017hashnet
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1702.00758"}

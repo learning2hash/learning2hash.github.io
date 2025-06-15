@@ -4,10 +4,11 @@ title: Avoiding Rotated Bitboards With Direct Lookup
 authors: Tannous Sam
 conference: "ICGA Journal Vol."
 year: 2007
+citations: 3
 bibkey: tannous2007avoiding
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/0704.3773"}
-tags: []
+tags: ['']
 ---
 This paper describes an approach for obtaining direct access to the attacked
 squares of sliding pieces without resorting to rotated bitboards. The technique

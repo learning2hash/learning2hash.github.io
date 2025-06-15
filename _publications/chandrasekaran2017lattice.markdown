@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Lattice-based Locality Sensitive Hashing Is Optimal
-authors: Chandrasekaran Karthekeyan, Dadush Daniel, Gandikota Venkata, Grigorescu Elena
+title: 'Lattice-based Locality Sensitive Hashing Is Optimal'
+authors: Karthekeyan Chandrasekaran, Daniel Dadush, Venkata Gandikota, Elena Grigorescu
 conference: "Arxiv"
 year: 2017
+citations: 1
 bibkey: chandrasekaran2017lattice
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1712.08558"}
-tags: ['ARXIV', 'FOCS', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1712.08558'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 Locality sensitive hashing (LSH) was introduced by Indyk and Motwani (STOC
 `98) to give the first sublinear time algorithm for the c-approximate nearest

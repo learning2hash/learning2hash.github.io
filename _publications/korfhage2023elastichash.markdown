@@ -4,6 +4,7 @@ title: Elastichash Semantic Image Similarity Search By Deep Hashing With Elastic
 authors: Korfhage Nikolaus, Mühling Markus, Freisleben Bernd
 conference: "The"
 year: 2023
+citations: 4
 bibkey: korfhage2023elastichash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2305.04710"}

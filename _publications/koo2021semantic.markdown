@@ -4,6 +4,7 @@ title: Semantic-aware Binary Code Representation With BERT
 authors: Koo Hyungjoon, Park Soyeon, Choi Daejin, Kim Taesoo
 conference: "Arxiv"
 year: 2021
+citations: 11
 bibkey: koo2021semantic
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2106.05478"}

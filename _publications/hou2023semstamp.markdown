@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Semstamp A Semantic Watermark With Paraphrastic Robustness For Text Generation
-authors: Hou Abe Bohan, Zhang Jingyu, He Tianxing, Wang Yichen, Chuang Yung-sung, Wang Hongwei, Shen Lingfeng, Van Durme Benjamin, Khashabi Daniel, Tsvetkov Yulia
+authors: Hou Abe Bohan et al.
 conference: "Arxiv"
 year: 2023
+citations: 5
 bibkey: hou2023semstamp
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2310.03991"}

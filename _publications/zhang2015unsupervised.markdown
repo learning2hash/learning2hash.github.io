@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Feature Learning For Dense Correspondences Across Scenes
-authors: Zhang Chao, Shen Chunhua, Shen Tingzhi
+title: 'Unsupervised Feature Learning For Dense Correspondences Across Scenes'
+authors: Chao Zhang, Chunhua Shen, Tingzhi Shen
 conference: "Arxiv"
 year: 2015
+citations: 7
 bibkey: zhang2015unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1501.00642"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1501.00642'}
+tags: ['Cross-Modal', 'Efficiency', 'Shallow', 'Supervised', 'Hashing']
 ---
 We propose a fast, accurate matching method for estimating dense pixel
 correspondences across scenes. It is a challenging problem to estimate dense

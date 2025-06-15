@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Perceptual Robust Hashing For Color Images With Canonical Correlation Analysis
-authors: Li Xinran, Qin Chuan, Qian Zhenxing, Yao Heng, Zhang Xinpeng
+title: 'Perceptual Robust Hashing For Color Images With Canonical Correlation Analysis'
+authors: Xinran Li, Chuan Qin, Zhenxing Qian, Heng Yao, Xinpeng Zhang
 conference: "Arxiv"
 year: 2020
+citations: 1
 bibkey: li2020perceptual
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2012.04312"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2012.04312'}
+tags: ['Cross-Modal', 'Supervised', 'Shallow', 'Hashing']
 ---
 In this paper, a novel perceptual image hashing scheme for color images is
 proposed based on ring-ribbon quadtree and color vector angle. First, original

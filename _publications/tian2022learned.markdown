@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Learned Index For Exact Similarity Search In Metric Spaces
-authors: Tian Yao, Yan Tingyun, Zhao Xi, Huang Kai, Zhou Xiaofang
+title: 'A Learned Index For Exact Similarity Search In Metric Spaces'
+authors: Yao Tian, Tingyun Yan, Xi Zhao, Kai Huang, Xiaofang Zhou
 conference: "Arxiv"
 year: 2022
+citations: 8
 bibkey: tian2022learned
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2204.10028"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2204.10028'}
+tags: ['Deep', 'Unsupervised', 'Retrieval Models', 'Unimodal', 'Datasets', 'Vector Indexing']
 ---
 Indexing is an effective way to support efficient query processing in large
 databases. Recently the concept of learned index, which replaces or complements

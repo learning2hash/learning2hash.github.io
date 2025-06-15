@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning To Break Deep Perceptual Hashing The Use Case Neuralhash
-authors: Struppek Lukas, Hintersdorf Dominik, Neider Daniel, Kersting Kristian
+title: 'Learning To Break Deep Perceptual Hashing: The Use Case Neuralhash'
+authors: Lukas Struppek, Dominik Hintersdorf, Daniel Neider, Kristian Kersting
 conference: "Arxiv"
 year: 2021
+citations: 18
 bibkey: struppek2021learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2111.06628"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2111.06628'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Benchmarks and Tools', 'Vector Indexing', 'Hashing']
 ---
 Apple recently revealed its deep perceptual hashing system NeuralHash to
 detect child sexual abuse material (CSAM) on user devices before files are

@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Unitail Detecting Reading And Matching In Retail Scene
-authors: Chen Fangyi, Zhang Han, Li Zaiwang, Dou Jiachen, Mo Shentong, Chen Hao, Zhang Yongxin, Ahmed Uzair, Zhu Chenchen, Savvides Marios
+authors: Chen Fangyi et al.
 conference: "Arxiv"
 year: 2022
+citations: 8
 bibkey: chen2022unitail
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2204.00298"}

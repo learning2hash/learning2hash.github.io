@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: "A New Approach to Cross-Modal Multimedia Retrieval"
-authors: N. Rasiwasia, J. Costa Pereira, E. Coviello, G. Doyle, G. Lanckriet, R.Levy and N. Vasconcelos
+authors: N. Rasiwasia et al.
 conference: ICME
 year: 2010
+citations: 954
 bibkey: wiki2010new
 additional_links:
    - {name: "PDF", url: "http://www.svcl.ucsd.edu/publications/conference/2010/acmmm/xmodal.pdf"}

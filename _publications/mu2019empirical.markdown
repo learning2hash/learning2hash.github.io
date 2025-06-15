@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: An Empirical Comparison Of FAISS And FENSHSES For Nearest Neighbor Search In Hamming Space
-authors: Mu Cun, Yang Binwei, Yan Zheng
+title: 'An Empirical Comparison Of FAISS And FENSHSES For Nearest Neighbor Search In Hamming Space'
+authors: Cun Mu, Binwei Yang, Zheng Yan
 conference: "Arxiv"
 year: 2019
+citations: 3
 bibkey: mu2019empirical
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1906.10095"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1906.10095'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Benchmarks and Tools', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 In this paper, we compare the performances of FAISS and FENSHSES on nearest
 neighbor search in Hamming space--a fundamental task with ubiquitous

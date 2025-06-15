@@ -4,6 +4,7 @@ title: EXTRA Explanation Ranking Datasets For Explainable Recommendation
 authors: Li Lei, Zhang Yongfeng, Chen Li
 conference: "Arxiv"
 year: 2021
+citations: 23
 bibkey: li2021extra
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2102.10315"}

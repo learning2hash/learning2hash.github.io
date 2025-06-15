@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Low-precision Quantization For Efficient Nearest Neighbor Search
-authors: Ko Anthony, Keivanloo Iman, Lakshman Vihan, Schkufza Eric
+title: 'Low-precision Quantization For Efficient Nearest Neighbor Search'
+authors: Anthony Ko, Iman Keivanloo, Vihan Lakshman, Eric Schkufza
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: ko2021low
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2110.08919"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2110.08919'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Quantization', 'Applications']
 ---
 Fast k-Nearest Neighbor search over real-valued vector spaces (KNN) is an
 important algorithmic task for information retrieval and recommendation

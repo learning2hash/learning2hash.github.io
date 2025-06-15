@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Data Structure For Representing A Graph Combination Of Linked List And Hash Table
-authors: Kolosovskiy Maxim A. Altai State Technical University, Russia
+title: 'Data Structure For Representing A Graph: Combination Of Linked List And Hash Table'
+authors: Maxim A. Altai State Technical University, Russia Kolosovskiy
 conference: "Arxiv"
 year: 2009
+citations: 3
 bibkey: kolosovskiy2009data
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/0908.3089"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/0908.3089'}
+tags: ['Unimodal', 'Independent', 'Shallow']
 ---
 In this article we discuss a data structure, which combines advantages of two
 different ways for representing graphs: adjacency matrix and collection of

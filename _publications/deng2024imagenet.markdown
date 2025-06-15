@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Imagenet A Large-scale Hierarchical Image Database
-authors: Deng J., Dong, Socher, Li, Li, Fei-fei
+authors: Deng J. et al.
 conference: "Arxiv"
 year: 2024
+citations: 339
 bibkey: deng2024imagenet
 additional_links:
   - {name: "Paper", url: "http://www.image-net.org/"}

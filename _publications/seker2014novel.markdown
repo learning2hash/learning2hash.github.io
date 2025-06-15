@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Novel String Distance Function Based On Most Frequent K Characters
-authors: Seker Sadi Evren, Altun Oguz, Ayan Uğur, Mert Cihan
-conference: "International Journal of Machine Learning and Computation"
+title: 'A Novel String Distance Function Based On Most Frequent K Characters'
+authors: Sadi Evren Seker, Oguz Altun, Uğur Ayan, Cihan Mert
+conference: "International Journal of Machine Learning and Computation (IJMLC) Issn 2010-3700 vol.4 is.2 pp.177-183 2014"
 year: 2014
+citations: 6
 bibkey: seker2014novel
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1401.6596"}
-tags: ['ICML', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1401.6596'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 This study aims to publish a novel similarity metric to increase the speed of
 comparison operations. Also the new metric is suitable for distance-based

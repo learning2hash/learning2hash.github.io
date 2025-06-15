@@ -4,6 +4,7 @@ title: Deephash Getting Regularization Depth And Fine-tuning Right
 authors: Lin Jie, Morere Olivier, Chandrasekhar Vijay, Veillard Antoine, Goh Hanlin
 conference: "Arxiv"
 year: 2015
+citations: 29
 bibkey: lin2015deephash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1501.04711"}

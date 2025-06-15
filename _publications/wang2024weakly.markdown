@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Weakly Supervised Deep Hyperspherical Quantization For Image Retrieval
-authors: Wang Jinpeng, Chen Bin, Zhang Qiang, Meng Zaiqiao, Liang Shangsong, Xia Shu-tao
+title: 'Weakly Supervised Deep Hyperspherical Quantization For Image Retrieval'
+authors: Jinpeng Wang et al.
 conference: "Arxiv"
 year: 2024
+citations: 9
 bibkey: wang2024weakly
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2404.04998"}
-  - {name: "Code", url: "https://github.com/gimpong/AAAI21-WSDHQ"}
-tags: ['ARXIV', 'Graph', 'Has Code', 'Image Retrieval', 'Quantisation', 'Supervised', 'Weakly Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2404.04998'}
+  - {name: "Code", url: 'https://github.com/gimpong/AAAI21-WSDHQ'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Conferences', 'Has Code', 'Quantization', 'Applications']
 ---
 Deep quantization methods have shown high efficiency on large-scale image
 retrieval. However, current models heavily rely on ground-truth information,

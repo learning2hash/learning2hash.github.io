@@ -4,6 +4,7 @@ title: The Lower Energy Consumption In Cryptocurrency Mining Processes By SHA-25
 authors: Orun Ahmet, Kurugollu Fatih
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: orun2023lower
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2401.10902"}

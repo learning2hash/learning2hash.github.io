@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: LANNS A Web-scale Approximate Nearest Neighbor Lookup System
-authors: Doshi Ishita, Das Dhritiman, Bhutani Ashish, Kumar Rajeev, Bhatt Rushi, Balasubramanian Niranjan
+authors: Doshi Ishita et al.
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: doshi2020lanns
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2010.09426"}

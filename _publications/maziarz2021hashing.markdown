@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing Modulo Alpha-equivalence
-authors: Maziarz Krzysztof, Ellis Tom, Lawrence Alan, Fitzgibbon Andrew, Jones Simon Peyton
+title: 'Hashing Modulo Alpha-equivalence'
+authors: Krzysztof Maziarz, Tom Ellis, Alan Lawrence, Andrew Fitzgibbon, Simon Peyton Jones
 conference: "Arxiv"
 year: 2021
+citations: 6
 bibkey: maziarz2021hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2105.02856"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2105.02856'}
+tags: ['Deep', 'Efficiency', 'Unimodal', 'Supervised', 'Hashing', 'Applications']
 ---
 In many applications one wants to identify identical subtrees of a program
 syntax tree. This identification should ideally be robust to alpha-renaming of

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Hashing Using Entropy Regularised Product Quantisation Network
-authors: Schlemper Jo, Caballero Jose, Aitken Andy, Van Amersfoort Joost
+title: 'Deep Hashing Using Entropy Regularised Product Quantisation Network'
+authors: Jo Schlemper, Jose Caballero, Andy Aitken, Joost Van Amersfoort
 conference: "Arxiv"
 year: 2019
+citations: 1
 bibkey: schlemper2019deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1902.03876"}
-tags: ['ARXIV', 'Deep Learning', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1902.03876'}
+tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Deep Hashing', 'Hashing']
 ---
 In large scale systems, approximate nearest neighbour search is a crucial
 algorithm to enable efficient data retrievals. Recently, deep learning-based

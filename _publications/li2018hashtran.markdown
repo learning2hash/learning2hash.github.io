@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Hashtran-dnn A Framework For Enhancing Robustness Of Deep Neural Networks Against Adversarial Malware Samples
-authors: Li Deqiang, Baral Ramesh, Li Tao, Wang Han, Li Qianmu, Xu Shouhuai
+authors: Li Deqiang et al.
 conference: "Arxiv"
 year: 2018
+citations: 18
 bibkey: li2018hashtran
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1809.06498"}

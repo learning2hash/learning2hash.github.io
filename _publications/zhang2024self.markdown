@@ -1,31 +1,33 @@
 ---
 layout: publication
-title: Self-taught Hashing For Fast Similarity Search
-authors: Zhang D., Wang, Cai, Lu
+title: 'Magiclens: Self-supervised Image Retrieval With Open-ended Instructions'
+authors: Kai Zhang et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: zhang2024self
 additional_links:
-  - {name: "Paper", url: "http://www.dcs.bbk.ac.uk/~dell/publications/dellzhang_sigir2010.pdf"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2403.19651'}
+  - {name: "Code", url: 'https://open-vision-language.github.io/MagicLens/'}
+tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Has Code', 'Supervised', 'Applications']
 ---
-The ability of fast similarity search at large scale is of great
-importance to many Information Retrieval (IR) applications.
-A promising way to accelerate similarity search is semantic
-hashing which designs compact binary codes for a large number
-of documents so that semantically similar documents
-are mapped to similar codes (within a short Hamming distance).
-Although some recently proposed techniques are
-able to generate high-quality codes for documents known
-in advance, obtaining the codes for previously unseen documents
-remains to be a very challenging problem. In this
-paper, we emphasise this issue and propose a novel SelfTaught
-Hashing (STH) approach to semantic hashing: we
-first find the optimal l-bit binary codes for all documents in
-the given corpus via unsupervised learning, and then train
-l classifiers via supervised learning to predict the l-bit code
-for any query document unseen before. Our experiments on
-three real-world text datasets show that the proposed approach
-using binarised Laplacian Eigenmap (LapEig) and
-linear Support Vector Machine (SVM) outperforms stateof-the-art
-techniques significantly.
+Image retrieval, i.e., finding desired images given a reference image,
+inherently encompasses rich, multi-faceted search intents that are difficult to
+capture solely using image-based measures. Recent works leverage text
+instructions to allow users to more freely express their search intents.
+However, they primarily focus on image pairs that are visually similar and/or
+can be characterized by a small set of pre-defined relations. The core thesis
+of this paper is that text instructions can enable retrieving images with
+richer relations beyond visual similarity. To show this, we introduce
+MagicLens, a series of self-supervised image retrieval models that support
+open-ended instructions. MagicLens is built on a key novel insight: image pairs
+that naturally occur on the same web pages contain a wide range of implicit
+relations (e.g., inside view of), and we can bring those implicit relations
+explicit by synthesizing instructions via foundation models. Trained on 36.7M
+(query image, instruction, target image) triplets with rich semantic relations
+mined from the web, MagicLens achieves results comparable with or better than
+prior best on eight benchmarks of various image retrieval tasks, while
+maintaining high parameter efficiency with a significantly smaller model size.
+Additional human analyses on a 1.4M-image unseen corpus further demonstrate the
+diversity of search intents supported by MagicLens. Code and models are
+publicly available at https://open-vision-language.github.io/MagicLens/.

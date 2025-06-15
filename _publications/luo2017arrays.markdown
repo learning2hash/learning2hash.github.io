@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Arrays Of (locality-sensitive) Count Estimators (ACE) High-speed Anomaly Detection Via Cache Lookups
-authors: Luo Chen, Shrivastava Anshumali
+title: 'Arrays Of (locality-sensitive) Count Estimators (ACE): High-speed Anomaly Detection Via Cache Lookups'
+authors: Chen Luo, Anshumali Shrivastava
 conference: "Arxiv"
 year: 2017
+citations: 5
 bibkey: luo2017arrays
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1706.06664"}
-tags: ['ARXIV', 'LSH', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1706.06664'}
+tags: ['Unimodal', 'Shallow', 'Conferences', 'Datasets', 'Supervised', 'Hashing']
 ---
 Anomaly detection is one of the frequent and important subroutines deployed
 in large-scale data processing systems. Even being a well-studied topic,

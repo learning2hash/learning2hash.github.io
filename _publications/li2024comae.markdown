@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: COMAE Comprehensive Attribute Exploration For Zero-shot Hashing
-authors: Li Yuqi, Long Qingqing, Zhou Yihang, Cao Ning, Liu Shuai, Zheng Fang, Zhu Zhihong, Ning Zhiyuan, Xiao Meng, Wang Xuezhi, Wang Pengfei, Zhou Yuanchun
+authors: Li Yuqi et al.
 conference: "Arxiv"
 year: 2024
+citations: 1
 bibkey: li2024comae
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2402.16424"}
-tags: ['ARXIV', 'Self Supervised']
+tags: ['ARXIV', 'Self Supervised', 'Independent']
 ---
 Zero-shot hashing (ZSH) has shown excellent success owing to its efficiency
 and generalization in large-scale retrieval scenarios. While considerable

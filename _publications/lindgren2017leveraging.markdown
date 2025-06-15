@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Leveraging Sparsity For Efficient Submodular Data Summarization
-authors: Lindgren Erik M., Wu Shanshan, Dimakis Alexandros G.
+title: 'Leveraging Sparsity For Efficient Submodular Data Summarization'
+authors: Erik M. Lindgren, Shanshan Wu, Alexandros G. Dimakis
 conference: "Arxiv"
 year: 2017
+citations: 12
 bibkey: lindgren2017leveraging
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1703.02690"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1703.02690'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 The facility location problem is widely used for summarizing large datasets
 and has additional applications in sensor placement, image retrieval, and

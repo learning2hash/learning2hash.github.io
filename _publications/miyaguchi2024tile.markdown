@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Tile Compression And Embeddings For Multi-label Classification In Geolifeclef 2024
-authors: Miyaguchi Anthony, Aphiwetsa Patcharapong, Mcduffie Mark
+title: 'Tile Compression And Embeddings For Multi-label Classification In Geolifeclef 2024'
+authors: Anthony Miyaguchi, Patcharapong Aphiwetsa, Mark Mcduffie
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: miyaguchi2024tile
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2407.06326"}
-  - {name: "Code", url: "https://github.com/dsgt-kaggle-clef/geolifeclef-2024"}
-tags: ['ARXIV', 'Has Code', 'LSH', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2407.06326'}
+  - {name: "Code", url: 'https://github.com/dsgt-kaggle-clef/geolifeclef-2024'}
+tags: ['Cross-Modal', 'Deep', 'Compression', 'Has Code', 'Supervised', 'Hashing']
 ---
 We explore methods to solve the multi-label classification task posed by the
 GeoLifeCLEF 2024 competition with the DS@GT team, which aims to predict the

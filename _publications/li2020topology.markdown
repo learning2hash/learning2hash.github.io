@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Topology-aware Hashing For Effective Control Flow Graph Similarity Analysis
-authors: Li Yuping, Jang Jiong, Ou Xinming
-conference: "In International Conference on Security and Privacy in Communication Systems pp."
+title: 'Topology-aware Hashing For Effective Control Flow Graph Similarity Analysis'
+authors: Yuping Li, Jiong Jang, Xinming Ou
+conference: "In International Conference on Security and Privacy in Communication Systems pp. 278-298. Springer Cham 2019"
 year: 2020
+citations: 3
 bibkey: li2020topology
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.06563"}
-tags: ['Graph', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.06563'}
+tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
 ---
 Control Flow Graph (CFG) similarity analysis is an essential technique for a
 variety of security analysis tasks, including malware detection and malware

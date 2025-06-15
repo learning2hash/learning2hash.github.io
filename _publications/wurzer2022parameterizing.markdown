@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Parameterizing Kterm Hashing
-authors: Wurzer Dominik, Qin Yumeng
-conference: "SIGIR"
+title: 'Parameterizing Kterm Hashing'
+authors: Dominik Wurzer, Yumeng Qin
+conference: "SIGIR 18 July 2018 Ann Arbor MI USA"
 year: 2022
+citations: 2
 bibkey: wurzer2022parameterizing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2208.01340"}
-tags: ['SIGIR']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2208.01340'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
 ---
 Kterm Hashing provides an innovative approach to novelty detection on massive
 data streams. Previous research focused on maximizing the efficiency of Kterm

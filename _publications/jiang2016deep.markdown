@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Cross-modal Hashing
-authors: Jiang Qing-yuan, Li Wu-jun
+title: 'Deep Cross-modal Hashing'
+authors: Qing-yuan Jiang, Wu-jun Li
 conference: "Arxiv"
 year: 2016
+citations: 589
 bibkey: jiang2016deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1602.02255"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1602.02255'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Datasets', 'Supervised', 'Multi-Modal Hashing', 'Hashing', 'Applications']
 ---
 Due to its low storage cost and fast query speed, cross-modal hashing (CMH)
 has been widely used for similarity search in multimedia retrieval

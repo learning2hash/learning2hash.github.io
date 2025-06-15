@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Accelerating Code Search With Deep Hashing And Code Classification
-authors: Gu Wenchao, Wang Yanlin, Du Lun, Zhang Hongyu, Han Shi, Zhang Dongmei, Lyu Michael R.
+title: 'Accelerating Code Search With Deep Hashing And Code Classification'
+authors: Wenchao Gu et al.
 conference: "Arxiv"
 year: 2022
+citations: 7
 bibkey: gu2022accelerating
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2203.15287"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2203.15287'}
+tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Deep Hashing', 'Supervised', 'Hashing']
 ---
 Code search is to search reusable code snippets from source code corpus based
 on natural languages queries. Deep learning-based methods of code search have

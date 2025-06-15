@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On Learning Semantic Representations For Million-scale Free-hand Sketches
-authors: Xu Peng, Huang Yongye, Yuan Tongtong, Xiang Tao, Hospedales Timothy M., Song Yi-zhe, Wang Liang
+title: 'On Learning Semantic Representations For Million-scale Free-hand Sketches'
+authors: Peng Xu et al.
 conference: "Arxiv"
 year: 2020
+citations: 4
 bibkey: xu2020learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2007.04101"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2007.04101'}
+tags: ['Deep', 'Model Design', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Deep Hashing', 'Hashing']
 ---
 In this paper, we study learning semantic representations for million-scale
 free-hand sketches. This is highly challenging due to the domain-unique traits

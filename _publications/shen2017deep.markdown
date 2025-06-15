@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Binaries Encoding Semantic-rich Cues For Efficient Textual-visual Cross Retrieval
-authors: Shen Yuming, Liu Li, Shao Ling, Song Jingkuan
+title: 'Deep Binaries: Encoding Semantic-rich Cues For Efficient Textual-visual Cross Retrieval'
+authors: Yuming Shen, Li Liu, Ling Shao, Jingkuan Song
 conference: "Arxiv"
 year: 2017
+citations: 40
 bibkey: shen2017deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1708.02531"}
-tags: ['ARXIV', 'Cross Modal']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1708.02531'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 Cross-modal hashing is usually regarded as an effective technique for
 large-scale textual-visual cross retrieval, where data from different

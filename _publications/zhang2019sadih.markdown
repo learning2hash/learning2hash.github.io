@@ -4,10 +4,11 @@ title: SADIH Semantic-aware Discrete Hashing
 authors: Zhang Zheng, Xie Guo-sen, Li Yang, Li Sheng, Huang Zi
 conference: "Arxiv"
 year: 2019
+citations: 13
 bibkey: zhang2019sadih
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1904.01739"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Supervised', 'Supervised']
 ---
 Due to its low storage cost and fast query speed, hashing has been recognized
 to accomplish similarity search in large-scale multimedia retrieval

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unified Functional Hashing In Automatic Machine Learning
-authors: Gillard Ryan, Jonany Stephen, Miao Yingjie, Munn Michael, De Souza Connal, Dungay Jonathan, Liang Chen, So David R., Le Quoc V., Real Esteban
+title: 'Unified Functional Hashing In Automatic Machine Learning'
+authors: Ryan Gillard et al.
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: gillard2023unified
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2302.05433"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2302.05433'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 The field of Automatic Machine Learning (AutoML) has recently attained
 impressive results, including the discovery of state-of-the-art machine

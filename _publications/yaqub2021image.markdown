@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Image-hashing-based Anomaly Detection For Privacy-preserving Online Proctoring
-authors: Yaqub Waheeb, Mohanty Manoranjan, Suleiman Basem
+title: 'Image-hashing-based Anomaly Detection For Privacy-preserving Online Proctoring'
+authors: Waheeb Yaqub, Manoranjan Mohanty, Basem Suleiman
 conference: "Arxiv"
 year: 2021
+citations: 2
 bibkey: yaqub2021image
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2107.09373"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2107.09373'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Online proctoring has become a necessity in online teaching. Video-based
 crowd-sourced online proctoring solutions are being used, where an exam-taking

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Analysis Of The New Standard Hash Function
-authors: Martín-fernández F, Caballero-gil P
-conference: "International Conference on Computer Aided Systems Theory"
+title: 'Analysis Of The New Standard Hash Function'
+authors: F Martín-fernández, P Caballero-gil
+conference: "International Conference on Computer Aided Systems Theory 142-149 2013"
 year: 2022
+citations: 2
 bibkey: martínfernández2022analysis
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2209.11857"}
-tags: ['Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2209.11857'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 On 2\\(^\{nd\}\\) October 2012 the NIST (National Institute of Standards and
 Technology) in the United States of America announced the new hashing algorithm

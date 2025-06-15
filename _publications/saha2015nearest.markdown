@@ -4,6 +4,7 @@ title: Nearest Neighbor Search In Complex Network For Community Detection
 authors: Saha Suman, Ghrera S. P.
 conference: "Arxiv"
 year: 2015
+citations: 1
 bibkey: saha2015nearest
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1511.07210"}

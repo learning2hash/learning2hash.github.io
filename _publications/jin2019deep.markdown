@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Semantic Multimodal Hashing Network For Scalable Image-text And Video-text Retrievals
-authors: Jin Lu, Li Zechao, Tang Jinhui
+title: 'Deep Semantic Multimodal Hashing Network For Scalable Image-text And Video-text Retrievals'
+authors: Lu Jin, Zechao Li, Jinhui Tang
 conference: "Arxiv"
 year: 2019
+citations: 66
 bibkey: jin2019deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1901.02662"}
-tags: ['ARXIV', 'CNN', 'Cross Modal', 'Supervised', 'Text Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1901.02662'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Efficiency', 'Retrieval Models', 'Deep Hashing', 'Training Strategy', 'Hashing']
 ---
 Hashing has been widely applied to multimodal retrieval on large-scale
 multimedia data due to its efficiency in computation and storage. In this

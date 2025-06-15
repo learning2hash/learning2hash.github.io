@@ -4,6 +4,7 @@ title: A Learning Framework For Nearest Neighbor Search
 authors: Lawrence Cayton, Sanjoy Dasgupta
 conference: "Neural Information Processing Systems"
 year: 2007
+citations: 28
 bibkey: cayton2007learning
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2007/hash/0d7de1aca9299fe63f3e0041f02638a3-Abstract.html"}

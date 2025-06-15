@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Memory-efficient Sketch Method For Estimating High Similarities In Streaming Sets
-authors: Wang Pinghui, Qi Yiyan, Zhang Yuanming, Zhai Qiaozhu, Wang Chenxu, Lui John C. S., Guan Xiaohong
+title: 'A Memory-efficient Sketch Method For Estimating High Similarities In Streaming Sets'
+authors: Pinghui Wang et al.
 conference: "Arxiv"
 year: 2019
+citations: 33
 bibkey: wang2019memory
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.08977"}
-tags: ['ARXIV', 'Independent', 'Streaming Data']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.08977'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Applications']
 ---
 Estimating set similarity and detecting highly similar sets are fundamental
 problems in areas such as databases, machine learning, and information

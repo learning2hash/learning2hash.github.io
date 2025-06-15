@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Vector Quantized Spectral Clustering Applied To Soybean Whole Genome Sequences
-authors: Shastri Aditya A., Ahuja Kapil, Ratnaparkhe Milind B., Shah Aditya, Gagrani Aishwary, Lal Anant
+title: 'Vector Quantized Spectral Clustering Applied To Soybean Whole Genome Sequences'
+authors: Aditya A. Shastri et al.
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: shastri2018vector
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1810.00398"}
-tags: ['ARXIV', 'Graph', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1810.00398'}
+tags: ['Cross-Modal', 'Quantization', 'Shallow', 'Quantisation']
 ---
 We develop a Vector Quantized Spectral Clustering (VQSC) algorithm that is a
 combination of Spectral Clustering (SC) and Vector Quantization (VQ) sampling

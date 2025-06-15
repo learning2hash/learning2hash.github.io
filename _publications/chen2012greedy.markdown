@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Greedy Multiple Instance Learning Via Codebook Learning And Nearest Neighbor Voting
-authors: Chen Gang, Corso Jason
+title: 'Greedy Multiple Instance Learning Via Codebook Learning And Nearest Neighbor Voting'
+authors: Gang Chen, Jason Corso
 conference: "Arxiv"
 year: 2012
+citations: 2
 bibkey: chen2012greedy
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1205.0610"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1205.0610'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization']
 ---
 Multiple instance learning (MIL) has attracted great attention recently in
 machine learning community. However, most MIL algorithms are very slow and

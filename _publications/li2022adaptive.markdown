@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Adaptive Structural Similarity Preserving For Unsupervised Cross Modal Hashing
-authors: Li Liang, Zheng Baihua, Sun Weiwei
+title: 'Adaptive Structural Similarity Preserving For Unsupervised Cross Modal Hashing'
+authors: Liang Li, Baihua Zheng, Weiwei Sun
 conference: "Arxiv"
 year: 2022
+citations: 23
 bibkey: li2022adaptive
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2207.04214"}
-tags: ['ARXIV', 'Cross Modal', 'Graph', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2207.04214'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Hashing', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Supervised Hashing']
 ---
 Cross-modal hashing is an important approach for multimodal data management
 and application. Existing unsupervised cross-modal hashing algorithms mainly

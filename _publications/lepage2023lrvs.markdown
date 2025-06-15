@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Lrvs-fashion Extending Visual Search With Referring Instructions
-authors: Lepage Simon, Mary Jérémie, Picard David
+title: 'Lrvs-fashion: Extending Visual Search With Referring Instructions'
+authors: Simon Lepage, Jérémie Mary, David Picard
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: lepage2023lrvs
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2306.02928"}
-tags: ['ARXIV', 'Supervised', 'Weakly Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2306.02928'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised']
 ---
 This paper introduces a new challenge for image similarity search in the
 context of fashion, addressing the inherent ambiguity in this domain stemming

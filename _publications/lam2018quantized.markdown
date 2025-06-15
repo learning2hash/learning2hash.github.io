@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Word2bits - Quantized Word Vectors
-authors: Lam Maximilian
+title: 'Word2bits - Quantized Word Vectors'
+authors: Maximilian Lam
 conference: "Arxiv"
 year: 2018
+citations: 27
 bibkey: lam2018quantized
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1803.05651"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1803.05651'}
+tags: ['Cross-Modal', 'Quantisation', 'Training Strategy', 'Shallow', 'Quantization']
 ---
 Word vectors require significant amounts of memory and storage, posing issues
 to resource limited devices like mobile phones and GPUs. We show that high

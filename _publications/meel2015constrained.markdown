@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Constrained Sampling And Counting Universal Hashing Meets SAT Solving
-authors: Meel Kuldeep S., Vardi Moshe, Chakraborty Supratik, Fremont Daniel J., Seshia Sanjit A., Fried Dror, Ivrii Alexander, Malik Sharad
+authors: Meel Kuldeep S. et al.
 conference: "Arxiv"
 year: 2015
+citations: 38
 bibkey: meel2015constrained
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1512.06633"}

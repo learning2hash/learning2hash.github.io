@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Accurate Deep Representation Quantization With Gradient Snapping Layer For Similarity Search
-authors: Liu Shicong, Lu Hongtao
+title: 'Accurate Deep Representation Quantization With Gradient Snapping Layer For Similarity Search'
+authors: Shicong Liu, Hongtao Lu
 conference: "Arxiv"
 year: 2016
+citations: 2
 bibkey: liu2016accurate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1610.09645"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1610.09645'}
+tags: ['Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Quantization']
 ---
 Recent advance of large scale similarity search involves using deeply learned
 representations to improve the search accuracy and use vector quantization

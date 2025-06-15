@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Locality Sensitive Hashing For Beam Search On GPU
-authors: Shi Xing, Xu Shizhen, Knight Kevin
+title: 'Fast Locality Sensitive Hashing For Beam Search On GPU'
+authors: Xing Shi, Shizhen Xu, Kevin Knight
 conference: "Arxiv"
 year: 2018
+citations: 1
 bibkey: shi2018fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1806.00588"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1806.00588'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
 ---
 We present a GPU-based Locality Sensitive Hashing (LSH) algorithm to speed up
 beam search for sequence models. We utilize the winner-take-all (WTA) hash,

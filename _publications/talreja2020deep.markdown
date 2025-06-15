@@ -4,6 +4,7 @@ title: Deep Hashing For Secure Multimodal Biometrics
 authors: Talreja Veeru, Valenti Matthew, Nasrabadi Nasser
 conference: "IEEE Transactions on Information Forensics and Securityvol."
 year: 2020
+citations: 61
 bibkey: talreja2020deep
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2012.14758"}

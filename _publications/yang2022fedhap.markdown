@@ -4,6 +4,7 @@ title: Fedhap Federated Hashing With Global Prototypes For Cross-silo Retrieval
 authors: Yang Meilin, Xu Jian, Liu Yang, Ding Wenbo
 conference: "Arxiv"
 year: 2022
+citations: 2
 bibkey: yang2022fedhap
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2207.05525"}

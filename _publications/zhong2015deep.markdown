@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Deep Hashing Learning Network
-authors: Zhong Guoqiang, Yang Pan, Wang Sijiang, Dong Junyu
+title: 'A Deep Hashing Learning Network'
+authors: Guoqiang Zhong, Pan Yang, Sijiang Wang, Junyu Dong
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: zhong2015deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1507.04437"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1507.04437'}
+tags: ['Deep', 'Quantisation', 'Unimodal', 'Deep Hashing', 'Quantization', 'Hashing']
 ---
 Hashing-based methods seek compact and efficient binary codes that preserve
 the neighborhood structure in the original data space. For most existing

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Optimal Las Vegas Locality Sensitive Data Structures
-authors: Ahle Thomas Dybdahl
+title: 'Optimal Las Vegas Locality Sensitive Data Structures'
+authors: Thomas Dybdahl Ahle
 conference: "Arxiv"
 year: 2017
+citations: 7
 bibkey: ahle2017optimal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1704.02054"}
-tags: ['ARXIV', 'LSH', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1704.02054'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 We show that approximate similarity (near neighbour) search can be solved in
 high dimensions with performance matching state of the art (data independent)

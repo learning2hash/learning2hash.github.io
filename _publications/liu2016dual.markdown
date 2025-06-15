@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Dual Purpose Hashing
-authors: Liu Haomiao, Wang Ruiping, Shan Shiguang, Chen Xilin
+title: 'Dual Purpose Hashing'
+authors: Haomiao Liu, Ruiping Wang, Shiguang Shan, Xilin Chen
 conference: "Arxiv"
 year: 2016
+citations: 1
 bibkey: liu2016dual
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1607.05529"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1607.05529'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Recent years have seen more and more demand for a unified framework to
 address multiple realistic image retrieval tasks concerning both category and

@@ -4,10 +4,11 @@ title: Using Paraphrases For Improving First Story Detection In News And Twitter
 authors: Petrovic S., Osborne, Lavrenko
 conference: "Arxiv"
 year: 2024
+citations: 91
 bibkey: petrovic2024using
 additional_links:
   - {name: "Paper", url: "http://homepages.inf.ed.ac.uk/miles/papers/naacl12.pdf"}
-tags: ['ARXIV', 'LSH', 'Supervised']
+tags: ['ARXIV', 'LSH', 'Supervised', 'Supervised']
 ---
 First story detection (FSD) involves identifying
 first stories about events from a continuous

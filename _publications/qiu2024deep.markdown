@@ -4,10 +4,11 @@ title: Deep Semantic Hashing With Generative Adversarial Networks
 authors: Qiu Zhaofan, Pan, Yao, Mei
 conference: "Arxiv"
 year: 2024
+citations: 62
 bibkey: qiu2024deep
 additional_links:
   - {name: "Paper", url: "http://zhaofanqiu.deepfun.club/papers/SIGIR17HASH.pdf"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Supervised']
+tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Supervised', 'Supervised']
 ---
 Hashing has been a widely-adopted technique for nearest
 neighbor search in large-scale image retrieval tasks. Recent research has shown that leveraging supervised information can

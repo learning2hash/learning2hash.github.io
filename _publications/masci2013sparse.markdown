@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sparse Similarity-preserving Hashing
-authors: Masci Jonathan, Bronstein Alex M., Bronstein Michael M., Sprechmann Pablo, Sapiro Guillermo
+title: 'Sparse Similarity-preserving Hashing'
+authors: Jonathan Masci, Alex M. Bronstein, Michael M. Bronstein, Pablo Sprechmann, Guillermo Sapiro
 conference: "Arxiv"
 year: 2013
+citations: 17
 bibkey: masci2013sparse
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1312.5479"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1312.5479'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Evaluation', 'Hashing']
 ---
 In recent years, a lot of attention has been devoted to efficient nearest
 neighbor search by means of similarity-preserving hashing. One of the plights

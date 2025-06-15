@@ -4,6 +4,7 @@ title: Moboost A Self-improvement Framework For Linear-based Hashing
 authors: Liu Xingbo, Nie, Xi, Zhu, Yin
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: liu2024moboost
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/MoBoost: A Self-improvement Framework for Linear-based Hashing"}

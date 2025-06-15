@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Pfeed Generating Near Real-time Personalized Feeds Using Precomputed Embedding Similarities
-authors: Gebre Binyam, Ranta Karoliina, Elzen Stef Van Den, Kuiper Ernst, Baars Thijs, Heskes Tom
+authors: Gebre Binyam et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: gebre2024pfeed
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2402.16073"}

@@ -4,6 +4,7 @@ title: MMH With Arbitrary Modulus Is Always Almost-universal
 authors: Bibak Khodakhast, Kapron Bruce M., Srinivasan Venkatesh
 conference: "Information Processing Letters"
 year: 2020
+citations: 7
 bibkey: bibak2020mmh
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2010.05420"}

@@ -4,6 +4,7 @@ title: Semantic Topic Multimodal Hashing For Cross-media Retrieval
 authors: Wang Di, Gao, He
 conference: "Arxiv"
 year: 2024
+citations: 149
 bibkey: wang2024semantic
 additional_links:
   - {name: "Paper", url: "http://ijcai.org/papers15/Papers/IJCAI15-546.pdf"}

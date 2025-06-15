@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Descriptor Learning For Omnidirectional Image Matching
-authors: Masci Jonathan, Migliore Davide, Bronstein Michael M., Schmidhuber Jürgen
+title: 'Descriptor Learning For Omnidirectional Image Matching'
+authors: Jonathan Masci, Davide Migliore, Michael M. Bronstein, Jürgen Schmidhuber
 conference: "Arxiv"
 year: 2011
+citations: 17
 bibkey: masci2011descriptor
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1112.6291"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1112.6291'}
+tags: ['Cross-Modal', 'Deep', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 Feature matching in omnidirectional vision systems is a challenging problem,
 mainly because complicated optical systems make the theoretical modelling of

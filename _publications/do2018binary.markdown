@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Binary Constrained Deep Hashing Network For Image Retrieval Without Manual Annotation
-authors: Do Thanh-toan, Hoang Tuan, Tan Dang-khoa Le, Pham Trung, Le Huu, Cheung Ngai-man, Reid Ian
+title: 'Binary Constrained Deep Hashing Network For Image Retrieval Without Manual Annotation'
+authors: Thanh-toan Do et al.
 conference: "Arxiv"
 year: 2018
+citations: 5
 bibkey: do2018binary
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1802.07437"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1802.07437'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Quantization', 'Hashing', 'Applications']
 ---
 Learning compact binary codes for image retrieval task using deep neural
 networks has attracted increasing attention recently. However, training deep

@@ -4,6 +4,7 @@ title: Edge Sampling And Graph Parameter Estimation Via Vertex Neighborhood Acce
 authors: Tětek Jakub, Thorup Mikkel
 conference: "Arxiv"
 year: 2021
+citations: 7
 bibkey: tětek2021edge
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2107.03821"}

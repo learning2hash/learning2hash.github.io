@@ -4,6 +4,7 @@ title: A Generalized Approach For Cancellable Template And Its Realization For M
 authors: Dong Xingbo, Jin Zhe, Wong Koksheik
 conference: "Arxiv"
 year: 2022
+citations: 2
 bibkey: dong2022generalized
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2203.01095"}

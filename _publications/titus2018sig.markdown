@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: SIG-DB Leveraging Homomorphic Encryption To Securely Interrogate Privately Held Genomic Databases
-authors: Titus Alexander J., Flower Audrey, Hagerty Patrick, Gamble Paul, Lewis Charlie, Stavish Todd, Oconnell Kevin P., Shipley Greg, Rogers Stephanie M.
+authors: Titus Alexander J. et al.
 conference: "PLoS Computational Biology;"
 year: 2018
+citations: 9
 bibkey: titus2018sig
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1803.09565"}
-tags: []
+tags: ['']
 ---
 Genomic data are becoming increasingly valuable as we develop methods to
 utilize the information at scale and gain a greater understanding of how

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: SCH-GAN Semi-supervised Cross-modal Hashing By Generative Adversarial Network
-authors: Zhang Jian, Peng Yuxin, Yuan Mingkuan
+title: 'SCH-GAN: Semi-supervised Cross-modal Hashing By Generative Adversarial Network'
+authors: Jian Zhang, Yuxin Peng, Mingkuan Yuan
 conference: "Arxiv"
 year: 2018
+citations: 94
 bibkey: zhang2018sch
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1802.02488"}
-tags: ['ARXIV', 'Cross Modal', 'GAN', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1802.02488'}
+tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 Cross-modal hashing aims to map heterogeneous multimedia data into a common
 Hamming space, which can realize fast and flexible retrieval across different

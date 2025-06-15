@@ -4,6 +4,7 @@ title: Hashencoding Autoencoding With Multiscale Coordinate Hashing
 authors: Zhornyak Lukas, Xu Zhengjie, Tang Haoran, Shi Jianbo
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: zhornyak2022hashencoding
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2211.15894"}

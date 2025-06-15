@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: An Improvement Of Degree-based Hashing (DBH) Graph Partition Method Using A Novel Metric
-authors: Mastikhina Anna, Senkevich Oleg, Sirotkin Dmitry, Demin Danila, Moiseev Stanislav
+title: 'An Improvement Of Degree-based Hashing (DBH) Graph Partition Method, Using A Novel Metric'
+authors: Anna Mastikhina, Oleg Senkevich, Dmitry Sirotkin, Danila Demin, Stanislav Moiseev
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: mastikhina2024improvement
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2404.07624"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2404.07624'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 This paper examines the graph partition problem and introduces a new metric,
 MSIDS (maximal sum of inner degrees squared). We establish its connection to

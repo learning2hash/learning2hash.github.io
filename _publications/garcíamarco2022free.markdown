@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Free Resolutions And Generalized Hamming Weights Of Binary Linear Codes
-authors: García-marco Ignacio, Márquez-corbella Irene, Martínez-moro Edgar, Pitones Yuriko
+title: 'Free Resolutions And Generalized Hamming Weights Of Binary Linear Codes'
+authors: Ignacio García-marco, Irene Márquez-corbella, Edgar Martínez-moro, Yuriko Pitones
 conference: "Arxiv"
 year: 2022
+citations: 1
 bibkey: garcíamarco2022free
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2203.17194"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2203.17194'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing']
 ---
 In this work, we explore the relationship between free resolution of some
 monomial ideals and Generalized Hamming Weights (GHWs) of binary codes. More

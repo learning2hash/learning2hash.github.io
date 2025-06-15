@@ -4,6 +4,7 @@ title: Ce-dedup Cost-effective Convolutional Neural Nets Training Based On Image
 authors: Li Xuan, Chang Liqiong, Liu Xue
 conference: "Arxiv"
 year: 2021
+citations: 4
 bibkey: li2021ce
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2109.00899"}

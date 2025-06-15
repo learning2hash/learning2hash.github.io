@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Simultaneous Feature Learning And Hash Coding With Deep Neural Networks
-authors: Lai Hanjiang, Pan Yan, Liu Ye, Yan Shuicheng
+title: 'Simultaneous Feature Learning And Hash Coding With Deep Neural Networks'
+authors: Hanjiang Lai, Yan Pan, Ye Liu, Shuicheng Yan
 conference: "Arxiv"
 year: 2015
+citations: 587
 bibkey: lai2015simultaneous
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1504.03410"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1504.03410'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing', 'Applications']
 ---
 Similarity-preserving hashing is a widely-used method for nearest neighbour
 search in large-scale image retrieval tasks. For most existing hashing methods,

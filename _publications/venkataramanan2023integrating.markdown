@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Integrating Visual And Semantic Similarity Using Hierarchies For Image Retrieval
-authors: Venkataramanan Aishwarya, Laviale Martin, Pradalier Cédric
+title: 'Integrating Visual And Semantic Similarity Using Hierarchies For Image Retrieval'
+authors: Aishwarya Venkataramanan, Martin Laviale, Cédric Pradalier
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: venkataramanan2023integrating
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2308.08431"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2308.08431'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Applications']
 ---
 Most of the research in content-based image retrieval (CBIR) focus on
 developing robust feature representations that can effectively retrieve

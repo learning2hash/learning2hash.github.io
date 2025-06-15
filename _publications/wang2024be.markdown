@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: To Be Continuous Or To Be Discrete Those Are Bits Of Questions
-authors: Wang Yiran, Utiyama Masao
+title: 'To Be Continuous, Or To Be Discrete, Those Are Bits Of Questions'
+authors: Yiran Wang, Masao Utiyama
 conference: "Arxiv"
 year: 2024
+citations: 1
 bibkey: wang2024be
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2406.07812"}
-tags: ['ARXIV', 'Deep Learning']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2406.07812'}
+tags: ['Deep', 'Independent', 'Unimodal', 'Training Strategy', 'Hashing']
 ---
 Recently, binary representation has been proposed as a novel representation
 that lies between continuous and discrete representations. It exhibits

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Supervised Quantization For Similarity Search
-authors: Wang Xiaojuan, Zhang Ting, Q Guo-jun, Tang Jinhui, Wang Jingdong
+title: 'Supervised Quantization For Similarity Search'
+authors: Xiaojuan Wang, Ting Zhang, Guo-jun Q, Jinhui Tang, Jingdong Wang
 conference: "Arxiv"
 year: 2019
+citations: 52
 bibkey: wang2019supervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1902.00617"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1902.00617'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Training Strategy', 'Shallow', 'Hashing', 'Datasets', 'Quantization', 'Supervised Hashing']
 ---
 In this paper, we address the problem of searching for semantically similar
 images from a large database. We present a compact coding approach, supervised

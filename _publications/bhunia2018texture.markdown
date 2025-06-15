@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Texture Synthesis Guided Deep Hashing For Texture Image Retrieval
-authors: Bhunia Ayan Kumar, Kishore Perla Sai Raj, Mukherjee Pranay, Das Abhirup, Roy Partha Pratim
+title: 'Texture Synthesis Guided Deep Hashing For Texture Image Retrieval'
+authors: Ayan Kumar Bhunia, Perla Sai Raj Kishore, Pranay Mukherjee, Abhirup Das, Partha Pratim Roy
 conference: "Arxiv"
 year: 2018
+citations: 12
 bibkey: bhunia2018texture
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1811.01401"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1811.01401'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Hashing', 'Applications']
 ---
 With the large-scale explosion of images and videos over the internet,
 efficient hashing methods have been developed to facilitate memory and time

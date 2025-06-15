@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Near-optimal Bounds For Binary Embeddings Of Arbitrary Sets
-authors: Oymak Samet, Recht Ben
+title: 'Near-optimal Bounds For Binary Embeddings Of Arbitrary Sets'
+authors: Samet Oymak, Ben Recht
 conference: "Arxiv"
 year: 2015
+citations: 31
 bibkey: oymak2015near
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1512.04433"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1512.04433'}
+tags: ['Unimodal', 'Shallow', 'Hashing', 'Quantisation']
 ---
 We study embedding a subset \\(K\\) of the unit sphere to the Hamming cube
 \\(\\{-1,+1\\}^m\\). We characterize the tradeoff between distortion and sample

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing For Similarity Search A Survey
-authors: Wang Jingdong, Shen Heng Tao, Song Jingkuan, Ji Jianqiu
+title: 'Hashing For Similarity Search: A Survey'
+authors: Jingdong Wang, Heng Tao Shen, Jingkuan Song, Jianqiu Ji
 conference: "Arxiv"
 year: 2014
+citations: 423
 bibkey: wang2014hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1408.2927"}
-tags: ['ARXIV', 'Independent', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1408.2927'}
+tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Surveys and Reviews', 'Survey Paper', 'Hashing']
 ---
 Similarity search (nearest neighbor search) is a problem of pursuing the data
 items whose distances to a query item are the smallest from a large database.

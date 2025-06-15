@@ -4,6 +4,7 @@ title: Kernelized Locality-sensitive Hashing For Scalable Image Search
 authors: Kulis B., Grauman
 conference: "Arxiv"
 year: 2024
+citations: 583
 bibkey: kulis2024kernelized
 additional_links:
   - {name: "Paper", url: "https://www.robots.ox.ac.uk/~vgg/rg/papers/klsh.pdf"}

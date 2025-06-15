@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hamming OCR A Locality Sensitive Hashing Neural Network For Scene Text Recognition
-authors: Li Bingcong, Tang Xin, Qi Xianbiao, Chen Yihao, Xiao Rong
+title: 'Hamming OCR: A Locality Sensitive Hashing Neural Network For Scene Text Recognition'
+authors: Bingcong Li, Xin Tang, Xianbiao Qi, Yihao Chen, Rong Xiao
 conference: "Arxiv"
 year: 2020
+citations: 5
 bibkey: li2020hamming
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2009.10874"}
-tags: ['ARXIV', 'LSH', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2009.10874'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Datasets', 'Hashing']
 ---
 Recently, inspired by Transformer, self-attention-based scene text
 recognition approaches have achieved outstanding performance. However, we find

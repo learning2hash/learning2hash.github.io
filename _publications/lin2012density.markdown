@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Density Sensitive Hashing
-authors: Lin Yue, Cai Deng, Li Cheng
+title: 'Density Sensitive Hashing'
+authors: Yue Lin, Deng Cai, Cheng Li
 conference: "Arxiv"
 year: 2012
+citations: 176
 bibkey: lin2012density
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1205.2930"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1205.2930'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing']
 ---
 Nearest neighbors search is a fundamental problem in various research fields
 like machine learning, data mining and pattern recognition. Recently,

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: The Faiss Library
-authors: Douze Matthijs, Guzhva Alexandr, Deng Chengqi, Johnson Jeff, Szilvasy Gergely, Mazaré Pierre-emmanuel, Lomeli Maria, Hosseini Lucas, Jégou Hervé
+title: 'The Faiss Library'
+authors: Matthijs Douze et al.
 conference: "Arxiv"
 year: 2024
+citations: 15
 bibkey: douze2024faiss
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2401.08281"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2401.08281'}
+tags: ['Independent', 'Retrieval Models', 'Benchmarks and Tools', 'Unimodal', 'Shallow', 'Vector Indexing', 'Training Strategy', 'Applications']
 ---
 Vector databases typically manage large collections of embedding vectors.
 Currently, AI applications are growing rapidly, and so is the number of

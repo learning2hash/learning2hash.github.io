@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Relative Nn-descent A Fast Index Construction For Graph-based Approximate Nearest Neighbor Search
-authors: Ono Naoki, Matsui Yusuke
+title: 'Relative Nn-descent: A Fast Index Construction For Graph-based Approximate Nearest Neighbor Search'
+authors: Naoki Ono, Yusuke Matsui
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: ono2023relative
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2310.20419"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2310.20419'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Graph-Based Methods']
 ---
 Approximate Nearest Neighbor Search (ANNS) is the task of finding the
 database vector that is closest to a given query vector. Graph-based ANNS is

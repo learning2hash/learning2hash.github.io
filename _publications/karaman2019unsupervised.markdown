@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Rank-preserving Hashing For Large-scale Image Retrieval
-authors: Karaman Svebor, Lin Xudong, Hu Xuefeng, Chang Shih-fu
+title: 'Unsupervised Rank-preserving Hashing For Large-scale Image Retrieval'
+authors: Svebor Karaman, Xudong Lin, Xuefeng Hu, Shih-fu Chang
 conference: "Arxiv"
 year: 2019
+citations: 10
 bibkey: karaman2019unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1903.01545"}
-tags: ['ARXIV', 'Graph', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1903.01545'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Vector Indexing', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 We propose an unsupervised hashing method which aims to produce binary codes
 that preserve the ranking induced by a real-valued representation. Such compact

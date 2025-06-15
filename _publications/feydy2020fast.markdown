@@ -4,6 +4,7 @@ title: Fast Geometric Learning With Symbolic Matrices
 authors: Jean Feydy, Alexis Glaunès, Benjamin Charlier, Michael Bronstein
 conference: "Neural Information Processing Systems"
 year: 2020
+citations: 13
 bibkey: feydy2020fast
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2020/hash/a6292668b36ef412fa3c4102d1311a62-Abstract.html"}

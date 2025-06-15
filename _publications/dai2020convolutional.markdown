@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Convolutional Embedding For Edit Distance
-authors: Dai Xinyan, Yan Xiao, Zhou Kaiwen, Wang Yuxuan, Yang Han, Cheng James
+title: 'Convolutional Embedding For Edit Distance'
+authors: Xinyan Dai et al.
 conference: "Arxiv"
 year: 2020
+citations: 17
 bibkey: dai2020convolutional
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2001.11692"}
-tags: ['ARXIV', 'CNN', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2001.11692'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Edit-distance-based string similarity search has many applications such as
 spell correction, data de-duplication, and sequence alignment. However,

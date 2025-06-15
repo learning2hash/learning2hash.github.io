@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locality-sensitive Hashing Does Not Guarantee Privacy! Attacks On Googles Floc And The Minhash Hierarchy System
-authors: Turati Florian Eth Zurich, Cotrini Carlos Eth Zurich, Kubicek Karel Eth Zurich, Basin David Eth Zurich
+title: 'Locality-sensitive Hashing Does Not Guarantee Privacy! Attacks On Google''s Floc And The Minhash Hierarchy System'
+authors: Florian Eth Zurich Turati, Carlos Eth Zurich Cotrini, Karel Eth Zurich Kubicek, David Eth Zurich Basin
 conference: "Arxiv"
 year: 2023
+citations: 4
 bibkey: turati2023locality
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2302.13635"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2302.13635'}
+tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
 ---
 Recently proposed systems aim at achieving privacy using locality-sensitive
 hashing. We show how these approaches fail by presenting attacks against two

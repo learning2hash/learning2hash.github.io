@@ -4,6 +4,7 @@ title: Hashgan Deep Learning To Hash With Pair Conditional Wasserstein GAN
 authors: Cao Yue, Long, Liu, Wang
 conference: "Arxiv"
 year: 2024
+citations: 79
 bibkey: cao2024hashgan
 additional_links:
   - {name: "Paper", url: "http://ise.thss.tsinghua.edu.cn/~mlong/doc/hashgan-cvpr18.pdf"}

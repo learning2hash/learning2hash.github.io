@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A New Approach To Analyzing Robin Hood Hashing
-authors: Mitzenmacher Michael
+title: 'A New Approach To Analyzing Robin Hood Hashing'
+authors: Michael Mitzenmacher
 conference: "Arxiv"
 year: 2014
+citations: 2
 bibkey: mitzenmacher2014new
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1401.7616"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1401.7616'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Robin Hood hashing is a variation on open addressing hashing designed to
 reduce the maximum search time as well as the variance in the search time for

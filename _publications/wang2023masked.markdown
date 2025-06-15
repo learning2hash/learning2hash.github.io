@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Masked Space-time Hash Encoding For Efficient Dynamic Scene Reconstruction
-authors: Wang Feng, Chen Zilong, Wang Guokang, Song Yafei, Liu Huaping
+title: 'Masked Space-time Hash Encoding For Efficient Dynamic Scene Reconstruction'
+authors: Feng Wang, Zilong Chen, Guokang Wang, Yafei Song, Huaping Liu
 conference: "Arxiv"
 year: 2023
+citations: 3
 bibkey: wang2023masked
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2310.17527"}
-  - {name: "Code", url: "https://github.com/masked-spacetime-hashing/msth"}
-tags: ['ARXIV', 'Cross Modal', 'Has Code', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2310.17527'}
+  - {name: "Code", url: 'https://github.com/masked-spacetime-hashing/msth'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Has Code', 'Training Strategy', 'Hashing']
 ---
 In this paper, we propose the Masked Space-Time Hash encoding (MSTH), a novel
 method for efficiently reconstructing dynamic 3D scenes from multi-view or

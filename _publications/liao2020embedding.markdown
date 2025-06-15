@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Embedding Compression With Isotropic Iterative Quantization
-authors: Liao Siyu, Chen Jie, Wang Yanzhi, Qiu Qinru, Yuan Bo
+title: 'Embedding Compression With Isotropic Iterative Quantization'
+authors: Siyu Liao, Jie Chen, Yanzhi Wang, Qinru Qiu, Bo Yuan
 conference: "Arxiv"
 year: 2020
+citations: 3
 bibkey: liao2020embedding
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2001.05314"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2001.05314'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Compression', 'Quantization', 'Applications']
 ---
 Continuous representation of words is a standard component in deep
 learning-based NLP models. However, representing a large vocabulary requires

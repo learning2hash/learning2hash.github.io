@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning Discriminative Hashing Codes For Cross-modal Retrieval Based On Multi-view Features
-authors: Yu Jun, Wu Xiao-jun, Kittler Josef
+title: 'Learning Discriminative Hashing Codes For Cross-modal Retrieval Based On Multi-view Features'
+authors: Jun Yu, Xiao-jun Wu, Josef Kittler
 conference: "Arxiv"
 year: 2018
+citations: 2
 bibkey: yu2018learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1808.04152"}
-tags: ['ARXIV', 'Cross Modal', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1808.04152'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Quantization', 'Hashing']
 ---
 Hashing techniques have been applied broadly in retrieval tasks due to their
 low storage requirements and high speed of processing. Many hashing methods

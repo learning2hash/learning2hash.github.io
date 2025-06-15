@@ -4,6 +4,7 @@ title: A Literature Study Of Embeddings On Source Code
 authors: Chen Zimin, Monperrus Martin
 conference: "Arxiv"
 year: 2019
+citations: 61
 bibkey: chen2019literature
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1904.03061"}

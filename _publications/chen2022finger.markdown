@@ -4,6 +4,7 @@ title: FINGER Fast Inference For Graph-based Approximate Nearest Neighbor Search
 authors: Chen Patrick H., Wei-cheng Chang, Hsiang-fu Yu, Dhillon Inderjit S., Cho-jui Hsieh
 conference: "Arxiv"
 year: 2022
+citations: 11
 bibkey: chen2022finger
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2206.11408"}

@@ -4,6 +4,7 @@ title: Spectral Hashing
 authors: Weiss Y., Torralba, Fergus
 conference: "Arxiv"
 year: 2024
+citations: 2154
 bibkey: weiss2024spectral
 additional_links:
   - {name: "Paper", url: "https://people.csail.mit.edu/torralba/publications/spectralhashing.pdf"}

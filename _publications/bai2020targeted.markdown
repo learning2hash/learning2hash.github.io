@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Targeted Attack For Deep Hashing Based Retrieval
-authors: Bai Jiawang, Chen Bin, Li Yiming, Wu Dongxian, Guo Weiwei, Xia Shu-tao, Yang En-hui
+title: 'Targeted Attack For Deep Hashing Based Retrieval'
+authors: Jiawang Bai et al.
 conference: "Arxiv"
 year: 2020
+citations: 55
 bibkey: bai2020targeted
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2004.07955"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent', 'Video Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2004.07955'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Evaluation', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 The deep hashing based retrieval method is widely adopted in large-scale
 image and video retrieval. However, there is little investigation on its

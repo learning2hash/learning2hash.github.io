@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Beyond SIFT Using Binary Features For Loop Closure Detection
-authors: Han Lei, Zhou Guyue, Xu Lan, Fang Lu
+title: 'Beyond SIFT Using Binary Features For Loop Closure Detection'
+authors: Lei Han, Guyue Zhou, Lan Xu, Lu Fang
 conference: "Arxiv"
 year: 2017
+citations: 6
 bibkey: han2017beyond
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1709.05833"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1709.05833'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing']
 ---
 In this paper a binary feature based Loop Closure Detection (LCD) method is
 proposed, which for the first time achieves higher precision-recall (PR)

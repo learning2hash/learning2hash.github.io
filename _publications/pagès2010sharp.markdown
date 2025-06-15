@@ -4,6 +4,7 @@ title: Sharp Rate For The Dual Quantization Problem
 authors: Pagès Gilles Lpma, Wilbertz Benedikt Lpma
 conference: "Arxiv"
 year: 2010
+citations: 2
 bibkey: pagès2010sharp
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1012.3441"}

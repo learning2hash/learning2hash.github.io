@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Rapid Person Re-identification Via Sub-space Consistency Regularization
-authors: Yin Qingze, Wang Guanan, Ding Guodong, Li Qilei, Gong Shaogang, Tang Zhenmin
+title: 'Rapid Person Re-identification Via Sub-space Consistency Regularization'
+authors: Qingze Yin et al.
 conference: "Arxiv"
 year: 2022
+citations: 1
 bibkey: yin2022rapid
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2207.05933"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2207.05933'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Hashing']
 ---
 Person Re-Identification (ReID) matches pedestrians across disjoint cameras.
 Existing ReID methods adopting real-value feature descriptors have achieved

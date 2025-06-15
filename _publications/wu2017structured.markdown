@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Structured Deep Hashing With Convolutional Neural Networks For Fast Person Re-identification
-authors: Wu Lin, Wang Yang
+title: 'Structured Deep Hashing With Convolutional Neural Networks For Fast Person Re-identification'
+authors: Lin Wu, Yang Wang
 conference: "Arxiv"
 year: 2017
+citations: 49
 bibkey: wu2017structured
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1702.04179"}
-tags: ['ARXIV', 'CNN', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1702.04179'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Evaluation', 'Shallow', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Given a pedestrian image as a query, the purpose of person re-identification
 is to identify the correct match from a large collection of gallery images

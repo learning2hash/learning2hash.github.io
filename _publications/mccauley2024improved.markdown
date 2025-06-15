@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Improved Space-efficient Approximate Nearest Neighbor Search Using Function Inversion
-authors: Mccauley Samuel
+title: 'Improved Space-efficient Approximate Nearest Neighbor Search Using Function Inversion'
+authors: Samuel Mccauley
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: mccauley2024improved
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2407.02468"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2407.02468'}
+tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 Approximate nearest neighbor search (ANN) data structures have widespread
 applications in machine learning, computational biology, and text processing.

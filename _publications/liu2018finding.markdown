@@ -4,6 +4,7 @@ title: On Finding Quantum Multi-collisions
 authors: Liu Qipeng, Zhandry Mark
 conference: "Arxiv"
 year: 2018
+citations: 21
 bibkey: liu2018finding
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1811.05385"}

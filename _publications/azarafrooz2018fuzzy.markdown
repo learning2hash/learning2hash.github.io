@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fuzzy Hashing As Perturbation-consistent Adversarial Kernel Embedding
-authors: Azarafrooz Ari, Brock John
+title: 'Fuzzy Hashing As Perturbation-consistent Adversarial Kernel Embedding'
+authors: Ari Azarafrooz, John Brock
 conference: "Arxiv"
 year: 2018
+citations: 1
 bibkey: azarafrooz2018fuzzy
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1812.07071"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1812.07071'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Measuring the similarity of two files is an important task in malware
 analysis, with fuzzy hash functions being a popular approach. Traditional fuzzy

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Query-adaptive Image Retrieval By Deep Weighted Hashing
-authors: Zhang Jian, Peng Yuxin
+title: 'Query-adaptive Image Retrieval By Deep Weighted Hashing'
+authors: Jian Zhang, Yuxin Peng
 conference: "Arxiv"
 year: 2016
+citations: 46
 bibkey: zhang2016query
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1612.02541"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1612.02541'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Evaluation', 'Datasets', 'Deep Hashing', 'Hashing', 'Applications']
 ---
 Hashing methods have attracted much attention for large scale image
 retrieval. Some deep hashing methods have achieved promising results by taking

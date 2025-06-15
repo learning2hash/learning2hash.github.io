@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Deep Hashing For Large-scale Visual Search
-authors: Xia Zhaoqiang, Feng Xiaoyi, Peng Jinye, Hadid Abdenour
-conference: ""
+title: 'Unsupervised Deep Hashing For Large-scale Visual Search'
+authors: Zhaoqiang Xia, Xiaoyi Feng, Jinye Peng, Abdenour Hadid
+conference: "2016 6th International Conference on Image Processing Theory Tools and Applications (IPTA)"
 year: 2016
+citations: 17
 bibkey: xia2016unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1602.00206"}
-tags: ['Cross Modal', 'Deep Learning', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1602.00206'}
+tags: ['Cross-Modal', 'Independent', 'Model Design', 'Shallow', 'Vector Indexing', 'Deep Hashing', 'Hashing']
 ---
 Learning based hashing plays a pivotal role in large-scale visual search.
 However, most existing hashing algorithms tend to learn shallow models that do

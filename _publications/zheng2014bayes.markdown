@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Bayes Merging Of Multiple Vocabularies For Scalable Image Retrieval
-authors: Zheng Liang, Wang Shengjin, Zhou Wengang, Tian Qi
+title: 'Bayes Merging Of Multiple Vocabularies For Scalable Image Retrieval'
+authors: Liang Zheng, Shengjin Wang, Wengang Zhou, Qi Tian
 conference: "Arxiv"
 year: 2014
+citations: 57
 bibkey: zheng2014bayes
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1403.0284"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1403.0284'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Quantization', 'Applications']
 ---
 The Bag-of-Words (BoW) representation is well applied to recent
 state-of-the-art image retrieval works. Typically, multiple vocabularies are

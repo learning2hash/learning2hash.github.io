@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Expanding The Family Of Grassmannian Kernels An Embedding Perspective
-authors: Harandi Mehrtash T., Salzmann Mathieu, Jayasumana Sadeep, Hartley Richard, Li Hongdong
+title: 'Expanding The Family Of Grassmannian Kernels: An Embedding Perspective'
+authors: Mehrtash T. Harandi, Mathieu Salzmann, Sadeep Jayasumana, Richard Hartley, Hongdong Li
 conference: "Arxiv"
 year: 2014
+citations: 42
 bibkey: harandi2014expanding
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1407.1123"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1407.1123'}
+tags: ['Cross-Modal', 'Shallow', 'Vector Indexing', 'Supervised', 'Hashing']
 ---
 Modeling videos and image-sets as linear subspaces has proven beneficial for
 many visual recognition tasks. However, it also incurs challenges arising from

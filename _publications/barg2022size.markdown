@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On The Size Of Maximal Binary Codes With 2 3 And 4 Distances
-authors: Barg Alexander, Glazyrin Alexey, Kao Wei-jiun, Lai Ching-yi, Tseng Pin-chieh, Yu Wei-hsuan
+title: 'On The Size Of Maximal Binary Codes With 2, 3, And 4 Distances'
+authors: Alexander Barg et al.
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: barg2022size
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2210.07496"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2210.07496'}
+tags: ['Cross-Modal', 'Shallow', 'Hashing', 'Quantisation']
 ---
 We address the maximum size of binary codes and binary constant weight codes
 with few distances. Previous works established a number of bounds for these

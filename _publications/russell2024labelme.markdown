@@ -4,10 +4,11 @@ title: Labelme A Database And Web-based Tool For Image Annotation
 authors: Russell B., Torralba, Murphy, Freeman
 conference: "Arxiv"
 year: 2024
+citations: 2814
 bibkey: russell2024labelme
 additional_links:
   - {name: "Paper", url: "http://people.csail.mit.edu/brussell/research/AIM-2005-025-new.pdf"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Supervised', 'Supervised']
 ---
 We seek to build a large collection of images with ground truth labels to be used for object
 detection and recognition research. Such data is useful for supervised learning and quantitative evaluation. To achieve this, we developed a web-based tool that allows easy image annotation

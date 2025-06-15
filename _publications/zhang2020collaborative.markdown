@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Collaborative Generative Hashing For Marketing And Fast Cold-start Recommendation
-authors: Zhang Yan, Tsang Ivor W., Duan Lixin
+title: 'Collaborative Generative Hashing For Marketing And Fast Cold-start Recommendation'
+authors: Yan Zhang, Ivor W. Tsang, Lixin Duan
 conference: "Arxiv"
 year: 2020
+citations: 6
 bibkey: zhang2020collaborative
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2011.00953"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2011.00953'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Datasets', 'Hashing', 'Applications']
 ---
 Cold-start has being a critical issue in recommender systems with the
 explosion of data in e-commerce. Most existing studies proposed to alleviate

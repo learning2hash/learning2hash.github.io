@@ -4,6 +4,7 @@ title: b-bit Sketch Trie Scalable Similarity Search On Integer Sketches
 authors: Kanda Shunsuke, Tabei Yasuo
 conference: "Arxiv"
 year: 2019
+citations: 3
 bibkey: kanda2019b
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1910.08278"}

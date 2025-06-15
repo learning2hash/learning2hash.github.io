@@ -4,6 +4,7 @@ title: SAH Shifting-aware Asymmetric Hashing For Reverse k-maximum Inner Product
 authors: Huang Qiang, Wang Yanhao, Tung Anthony K. H.
 conference: "Arxiv"
 year: 2022
+citations: 1
 bibkey: huang2022sah
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2211.12751"}

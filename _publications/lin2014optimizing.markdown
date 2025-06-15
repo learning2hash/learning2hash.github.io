@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Optimizing Ranking Measures For Compact Binary Code Learning
-authors: Lin Guosheng, Shen Chunhua, Wu Jianxin
+title: 'Optimizing Ranking Measures For Compact Binary Code Learning'
+authors: Guosheng Lin, Chunhua Shen, Jianxin Wu
 conference: "Arxiv"
 year: 2014
+citations: 13
 bibkey: lin2014optimizing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1407.1151"}
-tags: ['ARXIV', 'Deep Learning', 'Graph', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1407.1151'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Hashing has proven a valuable tool for large-scale information retrieval.
 Despite much success, existing hashing methods optimize over simple objectives

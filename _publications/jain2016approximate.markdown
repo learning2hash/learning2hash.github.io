@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Approximate Search With Quantized Sparse Representations
-authors: Jain Himalaya, Pérez Patrick, Gribonval Rémi, Zepeda Joaquin, Jégou Hervé
+title: 'Approximate Search With Quantized Sparse Representations'
+authors: Himalaya Jain, Patrick Pérez, Rémi Gribonval, Joaquin Zepeda, Hervé Jégou
 conference: "Arxiv"
 year: 2016
+citations: 8
 bibkey: jain2016approximate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1608.03308"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1608.03308'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Vector Indexing', 'Quantization']
 ---
 This paper tackles the task of storing a large collection of vectors, such as
 visual descriptors, and of searching in it. To this end, we propose to

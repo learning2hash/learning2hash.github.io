@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: On The Insertion Time Of Random Walk Cuckoo Hashing
-authors: Frieze Alan, Johansson Tony
+title: 'On The Insertion Time Of Random Walk Cuckoo Hashing'
+authors: Alan Frieze, Tony Johansson
 conference: "Arxiv"
 year: 2016
+citations: 3
 bibkey: frieze2016insertion
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1602.04652"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1602.04652'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Cuckoo Hashing is a hashing scheme invented by Pagh and Rodler. It uses
 \\(d\geq 2\\) distinct hash functions to insert items into the hash table. It has

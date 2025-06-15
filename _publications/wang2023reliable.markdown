@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Reliable And Efficient Evaluation Of Adversarial Robustness For Deep Hashing-based Retrieval
-authors: Wang Xunguang, Bai Jiawang, Xu Xinyue, Li Xiaomeng
+title: 'Reliable And Efficient Evaluation Of Adversarial Robustness For Deep Hashing-based Retrieval'
+authors: Xunguang Wang, Jiawang Bai, Xinyue Xu, Xiaomeng Li
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: wang2023reliable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2303.12658"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2303.12658'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Deep Hashing', 'Hashing', 'Applications']
 ---
 Deep hashing has been extensively applied to massive image retrieval due to
 its efficiency and effectiveness. Recently, several adversarial attacks have

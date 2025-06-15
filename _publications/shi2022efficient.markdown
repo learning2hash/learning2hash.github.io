@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Cross-modal Retrieval Via Deep Binary Hashing And Quantization
-authors: Shi Yang, Chung Young-joo
-conference: "BMVC"
+title: 'Efficient Cross-modal Retrieval Via Deep Binary Hashing And Quantization'
+authors: Yang Shi, Young-joo Chung
+conference: "BMVC 2021"
 year: 2022
+citations: 0
 bibkey: shi2022efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2202.10232"}
-tags: ['Cross Modal', 'Deep Learning', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2202.10232'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Deep Hashing', 'Quantization', 'Hashing']
 ---
 Cross-modal retrieval aims to search for data with similar semantic meanings
 across different content modalities. However, cross-modal retrieval requires

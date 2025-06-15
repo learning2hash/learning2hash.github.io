@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Lightweight-yet-efficient Revitalizing Ball-tree For Point-to-hyperplane Nearest Neighbor Search
-authors: Huang Qiang, Tung Anthony K. H.
+title: 'Lightweight-yet-efficient: Revitalizing Ball-tree For Point-to-hyperplane Nearest Neighbor Search'
+authors: Qiang Huang, Anthony K. H. Tung
 conference: "Arxiv"
 year: 2023
+citations: 5
 bibkey: huang2023lightweight
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2302.10626"}
-  - {name: "Code", url: "https://github.com/HuangQiang/BC-Tree}"}
-tags: ['ARXIV', 'Has Code']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2302.10626'}
+  - {name: "Code", url: 'https://github.com/HuangQiang/BC-Tree'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Has Code', 'Hashing', 'Applications']
 ---
 Finding the nearest neighbor to a hyperplane (or Point-to-Hyperplane Nearest
 Neighbor Search, simply P2HNNS) is a new and challenging problem with

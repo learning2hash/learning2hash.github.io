@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Stopping Rules For Bag-of-words Image Search And Its Application In Appearance-based Localization
-authors: Hajebi Kiana, Zhang Hong
+title: 'Stopping Rules For Bag-of-words Image Search And Its Application In Appearance-based Localization'
+authors: Kiana Hajebi, Hong Zhang
 conference: "Arxiv"
 year: 2013
+citations: 2
 bibkey: hajebi2013stopping
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1312.7414"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1312.7414'}
+tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Quantization', 'Applications']
 ---
 We propose a technique to improve the search efficiency of the bag-of-words
 (BoW) method for image retrieval. We introduce a notion of difficulty for the

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locality-sensitive Bucketing Functions For The Edit Distance
-authors: Chen Ke, Shao Mingfu
+title: 'Locality-sensitive Bucketing Functions For The Edit Distance'
+authors: Ke Chen, Mingfu Shao
 conference: "Arxiv"
 year: 2022
+citations: 4
 bibkey: chen2022locality
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2206.03097"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2206.03097'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Many bioinformatics applications involve bucketing a set of sequences where
 each sequence is allowed to be assigned into multiple buckets. To achieve both

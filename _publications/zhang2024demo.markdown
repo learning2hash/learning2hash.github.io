@@ -4,10 +4,11 @@ title: DEMO A Statistical Perspective For Efficient Image-text Matching
 authors: Zhang Fan, Hua Xian-sheng, Chen Chong, Luo Xiao
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: zhang2024demo
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2405.11496"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+tags: ['ARXIV', 'Cross Modal', 'Supervised', 'Self-Supervised']
 ---
 Image-text matching has been a long-standing problem, which seeks to connect
 vision and language through semantic understanding. Due to the capability to

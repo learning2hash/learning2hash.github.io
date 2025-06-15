@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Querying From Weighted Binary Codes
-authors: Weng Zhenyu, Zhu Yuesheng
+title: 'Efficient Querying From Weighted Binary Codes'
+authors: Zhenyu Weng, Yuesheng Zhu
 conference: "Arxiv"
 year: 2019
+citations: 1
 bibkey: weng2019efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1912.05006"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1912.05006'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Evaluation', 'Shallow', 'Datasets', 'Hashing']
 ---
 Binary codes are widely used to represent the data due to their small storage
 and efficient computation. However, there exists an ambiguity problem that lots

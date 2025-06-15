@@ -4,6 +4,7 @@ title: "The MIR Flickr Retrieval Evaluation."
 authors: M. J. Huiskes, M. S. Lew
 conference: MIR 
 year: 2008
+citations: 1194
 bibkey: mirflickr2008new
 additional_links:
    - {name: "URL", url: "http://press.liacs.nl/mirflickr/mirdownload.html"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Triangle Inequality For Cosine Similarity
-authors: Schubert Erich
+title: 'A Triangle Inequality For Cosine Similarity'
+authors: Erich Schubert
 conference: "Arxiv"
 year: 2021
+citations: 16
 bibkey: schubert2021triangle
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2107.04071"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2107.04071'}
+tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Supervised', 'Hashing']
 ---
 Similarity search is a fundamental problem for many data analysis techniques.
 Many efficient search techniques rely on the triangle inequality of metrics,

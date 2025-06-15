@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: A General Framework For Distributed Approximate Similarity Search With Arbitrary Distances
-authors: Garcia-morato Elena, Algar Maria Jesus, Alfaro Cesar, Ortega Felipe, Gomez Javier, Moguerza Javier M.
+authors: Garcia-morato Elena et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: garciamorato2024general
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2405.13795"}

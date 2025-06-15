@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Generative Semantic Hashing Enhanced Via Boltzmann Machines
-authors: Zheng Lin, Su Qinliang, Shen Dinghan, Chen Changyou
+title: 'Generative Semantic Hashing Enhanced Via Boltzmann Machines'
+authors: Lin Zheng, Qinliang Su, Dinghan Shen, Changyou Chen
 conference: "Arxiv"
 year: 2020
+citations: 2
 bibkey: zheng2020generative
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2006.08858"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2006.08858'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Vector Indexing', 'Training Strategy', 'Supervised Hashing']
 ---
 Generative semantic hashing is a promising technique for large-scale
 information retrieval thanks to its fast retrieval speed and small memory

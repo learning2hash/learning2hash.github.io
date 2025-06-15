@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Triplet Hashing For Fast Image Retrieval
-authors: Huang Shanshan, Xiong Yichao, Zhang Ya, Wang Jia
+title: 'Unsupervised Triplet Hashing For Fast Image Retrieval'
+authors: Shanshan Huang, Yichao Xiong, Ya Zhang, Jia Wang
 conference: "Arxiv"
 year: 2017
+citations: 36
 bibkey: huang2017unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1702.08798"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1702.08798'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing', 'Applications']
 ---
 Hashing has played a pivotal role in large-scale image retrieval. With the
 development of Convolutional Neural Network (CNN), hashing learning has shown

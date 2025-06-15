@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Standalone Fpga-based Miner For Lyra2rev2 Cryptocurrencies
-authors: Têtu Jean-françois, Trudeau Louis-charles, Van Beirendonck Michiel, Balatsoukas-stimming Alexios, Giard Pascal
+title: 'A Standalone Fpga-based Miner For Lyra2rev2 Cryptocurrencies'
+authors: Jean-françois Têtu, Louis-charles Trudeau, Michiel Van Beirendonck, Alexios Balatsoukas-stimming, Pascal Giard
 conference: "Arxiv"
 year: 2019
+citations: 6
 bibkey: têtu2019standalone
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.08792"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.08792'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Lyra2REv2 is a hashing algorithm that consists of a chain of individual
 hashing algorithms, and it is used as a proof-of-work function in several

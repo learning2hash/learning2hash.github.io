@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hard Example Guided Hashing For Image Retrieval
-authors: Su Hai, Han Meiyin, Liang Junle, Liang Jun, Yu Songsen
+title: 'Hard Example Guided Hashing For Image Retrieval'
+authors: Hai Su, Meiyin Han, Junle Liang, Jun Liang, Songsen Yu
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: su2021hard
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2112.13565"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2112.13565'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Compared with the traditional hashing methods, deep hashing methods generate
 hash codes with rich semantic information and greatly improves the performances

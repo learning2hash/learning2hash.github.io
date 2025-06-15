@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Asymmetric Hashing With Dual Semantic Regression And Class Structure Quantization
-authors: Lu Jianglin, Wang Hailing, Zhou Jie, Yan Mengfan, Wen Jiajun
+title: 'Deep Asymmetric Hashing With Dual Semantic Regression And Class Structure Quantization'
+authors: Jianglin Lu, Hailing Wang, Jie Zhou, Mengfan Yan, Jiajun Wen
 conference: "Arxiv"
 year: 2021
+citations: 2
 bibkey: lu2021deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2110.12478"}
-tags: ['ARXIV', 'Graph', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2110.12478'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Quantization', 'Similarity Learning', 'Hashing', 'Applications']
 ---
 Recently, deep hashing methods have been widely used in image retrieval task.
 Most existing deep hashing approaches adopt one-to-one quantization to reduce

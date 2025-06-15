@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Locality Sensitive Hashing With Extended Differential Privacy
-authors: Fernandes Natasha, Kawamoto Yusuke, Murakami Takao
-conference: "Proceedings of the"
+title: 'Locality Sensitive Hashing With Extended Differential Privacy'
+authors: Natasha Fernandes, Yusuke Kawamoto, Takao Murakami
+conference: "Proceedings of the 26th European Symposium on Research in Computer Security (ESORICS 2021) Part II Lecture Notes in Computer Science Vol. 12973 pp.563-583 2021"
 year: 2020
+citations: 4
 bibkey: fernandes2020locality
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2010.09393"}
-tags: ['AAAI', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2010.09393'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Datasets', 'Hashing', 'Applications']
 ---
 Extended differential privacy, a generalization of standard differential
 privacy (DP) using a general metric, has been widely studied to provide

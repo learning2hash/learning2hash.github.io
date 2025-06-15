@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Reliable Order-statistics-based Approximate Nearest Neighbor Search Algorithm
-authors: Verdoliva Luisa, Cozzolino Davide, Poggi Giovanni
+title: 'A Reliable Order-statistics-based Approximate Nearest Neighbor Search Algorithm'
+authors: Luisa Verdoliva, Davide Cozzolino, Giovanni Poggi
 conference: "Arxiv"
 year: 2015
+citations: 8
 bibkey: verdoliva2015reliable
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1509.03453"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1509.03453'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 We propose a new algorithm for fast approximate nearest neighbor search based
 on the properties of ordered vectors. Data vectors are classified based on the

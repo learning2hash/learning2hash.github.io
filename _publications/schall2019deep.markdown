@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Metric Learning Using Similarities From Nonlinear Rank Approximations
-authors: Schall Konstantin, Barthel Kai Uwe, Hezel Nico, Jung Klaus
+title: 'Deep Metric Learning Using Similarities From Nonlinear Rank Approximations'
+authors: Konstantin Schall, Kai Uwe Barthel, Nico Hezel, Klaus Jung
 conference: "Arxiv"
 year: 2019
+citations: 1
 bibkey: schall2019deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1909.09427"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1909.09427'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Training Strategy', 'Similarity Learning']
 ---
 In recent years, deep metric learning has achieved promising results in
 learning high dimensional semantic feature embeddings where the spatial

@@ -4,6 +4,7 @@ title: Divideclassify Fine-grained Classification For City-wide Visual Place Rec
 authors: Trivigno Gabriele, Berton Gabriele, Aragon Juan, Caputo Barbara, Masone Carlo
 conference: "Arxiv"
 year: 2023
+citations: 7
 bibkey: trivigno2023divideclassify
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2307.08417"}

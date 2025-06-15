@@ -4,6 +4,7 @@ title: "Datasets for approximate nearest neighbor search"
 authors: Herve Jegou, Laurent Amsaleg
 conference: 
 year: 2009
+citations: 0
 bibkey: bigann
 additional_links:
    - {name: "URL", url: "http://corpus-texmex.irisa.fr/"}

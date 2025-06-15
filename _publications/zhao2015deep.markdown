@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Semantic Ranking Based Hashing For Multi-label Image Retrieval
-authors: Zhao Fang, Huang Yongzhen, Wang Liang, Tan Tieniu
+title: 'Deep Semantic Ranking Based Hashing For Multi-label Image Retrieval'
+authors: Fang Zhao, Yongzhen Huang, Liang Wang, Tieniu Tan
 conference: "Arxiv"
 year: 2015
+citations: 66
 bibkey: zhao2015deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1501.06272"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1501.06272'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 With the rapid growth of web images, hashing has received increasing
 interests in large scale image retrieval. Research efforts have been devoted to

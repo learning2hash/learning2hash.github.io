@@ -4,10 +4,11 @@ title: Densifying One Permutation Hashing Via Rotation For Fast Near Neighbor Se
 authors: Shrivastava A., Li
 conference: "Arxiv"
 year: 2024
+citations: 86
 bibkey: shrivastava2024densifying
 additional_links:
   - {name: "Paper", url: "http://jmlr.org/proceedings/papers/v32/shrivastava14.pdf"}
-tags: ['ARXIV', 'Independent', 'LSH']
+tags: ['ARXIV', 'Independent', 'LSH', 'Independent']
 ---
 The query complexity of locality sensitive hashing
 (LSH) based similarity search is dominated

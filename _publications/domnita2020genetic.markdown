@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Genetic Algorithm For Obtaining Memory Constrained Near-perfect Hashing
-authors: Domnita Dan, Oprisa Ciprian
+title: 'A Genetic Algorithm For Obtaining Memory Constrained Near-perfect Hashing'
+authors: Dan Domnita, Ciprian Oprisa
 conference: "Arxiv"
 year: 2020
+citations: 1
 bibkey: domnita2020genetic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2007.08311"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2007.08311'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing', 'Applications']
 ---
 The problem of fast items retrieval from a fixed collection is often
 encountered in most computer science areas, from operating system components to

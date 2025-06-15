@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Approximate Nearest Neighbors In Limited Space
-authors: Indyk Piotr, Wagner Tal
+title: 'Approximate Nearest Neighbors In Limited Space'
+authors: Piotr Indyk, Tal Wagner
 conference: "Arxiv"
 year: 2018
+citations: 6
 bibkey: indyk2018approximate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1807.00112"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1807.00112'}
+tags: ['Deep', 'Independent', 'Retrieval Models', 'Unimodal', 'Vector Indexing']
 ---
 We consider the \\((1+\epsilon)\\)-approximate nearest neighbor search problem:
 given a set \\(X\\) of \\(n\\) points in a \\(d\\)-dimensional space, build a data

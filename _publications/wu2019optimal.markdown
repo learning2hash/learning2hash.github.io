@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Optimal Few-weight Codes From Simplicial Complexes
-authors: Wu Yansheng, Zhu Xiaomeng, Yue Qin
+title: 'Optimal Few-weight Codes From Simplicial Complexes'
+authors: Yansheng Wu, Xiaomeng Zhu, Qin Yue
 conference: "Arxiv"
 year: 2019
+citations: 30
 bibkey: wu2019optimal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1910.04334"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1910.04334'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Recently, some infinite families of binary minimal and optimal linear codes
 are constructed from simplicial complexes by Hyun \{\em et al\}. Inspired by

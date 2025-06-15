@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Exploring Auxiliary Context Discrete Semantic Transfer Hashing For Scalable Image Retrieval
-authors: Zhu Lei, Huang Zi, Li Zhihui, Xie Liang, Shen Heng Tao
+title: 'Exploring Auxiliary Context: Discrete Semantic Transfer Hashing For Scalable Image Retrieval'
+authors: Lei Zhu, Zi Huang, Zhihui Li, Liang Xie, Heng Tao Shen
 conference: "Arxiv"
 year: 2019
+citations: 128
 bibkey: zhu2019exploring
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.11207"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.11207'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 Unsupervised hashing can desirably support scalable content-based image
 retrieval (SCBIR) for its appealing advantages of semantic label independence,

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Optimization Of Tree Modes For Parallel Hash Functions A Case Study
-authors: Atighehchi Kevin, Rolland Robert
+title: 'Optimization Of Tree Modes For Parallel Hash Functions: A Case Study'
+authors: Kevin Atighehchi, Robert Rolland
 conference: "Arxiv"
 year: 2015
+citations: 14
 bibkey: atighehchi2015optimization
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1512.05864"}
-tags: ['ARXIV', 'Case Study', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1512.05864'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 This paper focuses on parallel hash functions based on tree modes of
 operation for an inner Variable-Input-Length function. This inner function can

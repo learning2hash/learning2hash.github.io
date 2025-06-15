@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Rescuing Deep Hashing From Dead Bits Problem
-authors: Zhao Shu, Wu Dayan, Zhou Yucan, Li Bo, Wang Weiping
+title: 'Rescuing Deep Hashing From Dead Bits Problem'
+authors: Shu Zhao, Dayan Wu, Yucan Zhou, Bo Li, Weiping Wang
 conference: "Arxiv"
 year: 2021
+citations: 3
 bibkey: zhao2021rescuing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2102.00648"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2102.00648'}
+tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Deep Hashing', 'Quantization', 'Hashing', 'Applications']
 ---
 Deep hashing methods have shown great retrieval accuracy and efficiency in
 large-scale image retrieval. How to optimize discrete hash bits is always the

@@ -4,6 +4,7 @@ title: Hash Function Based Secret Sharing Scheme Designs
 authors: Chum Chi Sing, Zhang Xiaowen
 conference: "Arxiv"
 year: 2011
+citations: 14
 bibkey: chum2011hash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1111.1278"}

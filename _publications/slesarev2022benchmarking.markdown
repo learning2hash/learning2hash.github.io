@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Benchmarking Hashing Algorithms For Load Balancing In A Distributed Database Environment
-authors: Slesarev Alexander, Mikhailov Mikhail, Chernishev George
+title: 'Benchmarking Hashing Algorithms For Load Balancing In A Distributed Database Environment'
+authors: Alexander Slesarev, Mikhail Mikhailov, George Chernishev
 conference: "Arxiv"
 year: 2022
+citations: 1
 bibkey: slesarev2022benchmarking
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2211.00741"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2211.00741'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Applications']
 ---
 Modern high load applications store data using multiple database instances.
 Such an architecture requires data consistency, and it is important to ensure

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Novel Incremental Cross-modal Hashing Approach
-authors: Mandal Devraj, Biswas Soma
+title: 'A Novel Incremental Cross-modal Hashing Approach'
+authors: Devraj Mandal, Soma Biswas
 conference: "Arxiv"
 year: 2020
+citations: 3
 bibkey: mandal2020novel
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2002.00677"}
-tags: ['ARXIV', 'Cross Modal', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2002.00677'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 Cross-modal retrieval deals with retrieving relevant items from one modality,
 when provided with a search query from another modality. Hashing techniques,

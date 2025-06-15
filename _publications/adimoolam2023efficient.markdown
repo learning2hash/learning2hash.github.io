@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Efficient Deduplication And Leakage Detection In Large Scale Image Datasets With A Focus On The Crowdai Mapping Challenge Dataset
-authors: Adimoolam Yeshwanth Kumar, Chatterjee Bodhiswatta, Poullis Charalambos, Averkiou Melinos
+title: 'Efficient Deduplication And Leakage Detection In Large Scale Image Datasets With A Focus On The Crowdai Mapping Challenge Dataset'
+authors: Yeshwanth Kumar Adimoolam, Bodhiswatta Chatterjee, Charalambos Poullis, Melinos Averkiou
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: adimoolam2023efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2304.02296"}
-  - {name: "Code", url: "https://github.com/yeshwanth95/CrowdAI_Hash_and_search"}
-tags: ['ARXIV', 'Deep Learning', 'Has Code', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2304.02296'}
+  - {name: "Code", url: 'https://github.com/yeshwanth95/CrowdAI_Hash_and_search'}
+tags: ['Deep', 'Unimodal', 'Datasets', 'Vector Indexing', 'Has Code', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 Recent advancements in deep learning and computer vision have led to
 widespread use of deep neural networks to extract building footprints from

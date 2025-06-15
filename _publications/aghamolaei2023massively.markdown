@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Massively-parallel Heat Map Sorting And Applications To Explainable Clustering
-authors: Aghamolaei Sepideh, Ghodsi Mohammad
+title: 'Massively-parallel Heat Map Sorting And Applications To Explainable Clustering'
+authors: Sepideh Aghamolaei, Mohammad Ghodsi
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: aghamolaei2023massively
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2309.07486"}
-tags: ['ARXIV', 'Graph', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2309.07486'}
+tags: ['Unsupervised', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Given a set of points labeled with \\(k\\) labels, we introduce the heat map
 sorting problem as reordering and merging the points and dimensions while

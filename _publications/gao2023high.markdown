@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: High-dimensional Approximate Nearest Neighbor Search With Reliable And Efficient Distance Comparison Operations
-authors: Gao Jianyang, Long Cheng
+title: 'High-dimensional Approximate Nearest Neighbor Search: With Reliable And Efficient Distance Comparison Operations'
+authors: Jianyang Gao, Cheng Long
 conference: "Arxiv"
 year: 2023
+citations: 21
 bibkey: gao2023high
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2303.09855"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2303.09855'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Vector Indexing']
 ---
 Approximate K nearest neighbor (AKNN) search is a fundamental and challenging
 problem. We observe that in high-dimensional space, the time consumption of

@@ -4,6 +4,7 @@ title: Ihashnet Iris Hashing Network Based On Efficient Multi-index Hashing
 authors: Singh Avantika, Vashist Chirag, Gaurav Pratyush, Nigam Aditya, Pratap Rameshwar
 conference: "Arxiv"
 year: 2020
+citations: 4
 bibkey: singh2020ihashnet
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2012.03881"}

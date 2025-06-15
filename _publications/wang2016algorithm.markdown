@@ -4,6 +4,7 @@ title: An Algorithm For L1 Nearest Neighbor Search Via Monotonic Embedding
 authors: Xinan Wang, Sanjoy Dasgupta
 conference: "Neural Information Processing Systems"
 year: 2016
+citations: 1
 bibkey: wang2016algorithm
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2016/hash/46922a0880a8f11f8f69cbb52b1396be-Abstract.html"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Principled Design Of Image Representation Towards Forensic Tasks
-authors: Qi Shuren, Zhang Yushu, Wang Chao, Zhou Jiantao, Cao Xiaochun
+title: 'A Principled Design Of Image Representation: Towards Forensic Tasks'
+authors: Shuren Qi, Yushu Zhang, Chao Wang, Jiantao Zhou, Xiaochun Cao
 conference: "Arxiv"
 year: 2022
+citations: 19
 bibkey: qi2022principled
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2203.00913"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2203.00913'}
+tags: ['Cross-Modal', 'Unsupervised', 'Shallow', 'Hashing', 'Applications']
 ---
 Image forensics is a rising topic as the trustworthy multimedia content is
 critical for modern society. Like other vision-related applications, forensic

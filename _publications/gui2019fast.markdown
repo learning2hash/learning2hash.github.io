@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Supervised Discrete Hashing
-authors: Gui Jie, Liu Tongliang, Sun Zhenan, Tao Dacheng, Tan Tieniu
+title: 'Fast Supervised Discrete Hashing'
+authors: Jie Gui, Tongliang Liu, Zhenan Sun, Dacheng Tao, Tieniu Tan
 conference: "Arxiv"
 year: 2019
+citations: 220
 bibkey: gui2019fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1904.03556"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1904.03556'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Learning-based hashing algorithms are ``hot topics" because they can greatly
 increase the scale at which existing methods operate. In this paper, we propose

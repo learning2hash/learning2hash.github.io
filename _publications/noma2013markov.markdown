@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Markov Chain Monte Carlo For Arrangement Of Hyperplanes In Locality-sensitive Hashing
-authors: Noma Yui, Konoshima Makiko
+title: 'Markov Chain Monte Carlo For Arrangement Of Hyperplanes In Locality-sensitive Hashing'
+authors: Yui Noma, Makiko Konoshima
 conference: "Arxiv"
 year: 2013
+citations: 1
 bibkey: noma2013markov
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1303.4169"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1303.4169'}
+tags: ['Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Supervised', 'Hashing']
 ---
 Since Hamming distances can be calculated by bitwise computations, they can
 be calculated with less computational load than L2 distances. Similarity

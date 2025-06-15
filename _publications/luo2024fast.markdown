@@ -1,14 +1,15 @@
 ---
 layout: publication
 title: Fast Scalable Supervised Hashing
-authors: Luo Xin, Nie, He, Wu, Chen, Xu
+authors: Luo Xin et al.
 conference: "Arxiv"
 year: 2024
+citations: 73
 bibkey: luo2024fast
 additional_links:
   - {name: "Paper", url: "http://staff.ustc.edu.cn/~hexn/papers/sigir18-hashing.pdf"}
   - {name: "Code", url: "https://lcbwlx.wixsite.com/fssh"}
-tags: ['ARXIV', 'Has Code', 'Supervised']
+tags: ['ARXIV', 'Has Code', 'Supervised', 'Supervised']
 ---
 Despite significant progress in supervised hashing, there are three
 common limitations of existing methods. First, most pioneer methods discretely learn hash codes bit by bit, making the learning

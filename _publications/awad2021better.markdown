@@ -4,6 +4,7 @@ title: Better GPU Hash Tables
 authors: Awad Muhammad A., Ashkiani Saman, Porumbescu Serban D., Farach-colton Martín, Owens John D.
 conference: "Arxiv"
 year: 2021
+citations: 2
 bibkey: awad2021better
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2108.07232"}

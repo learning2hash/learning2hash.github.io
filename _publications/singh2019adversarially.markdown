@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Adversarially Trained Deep Neural Semantic Hashing Scheme For Subjective Search In Fashion Inventory
-authors: Singh Saket, Sheet Debdoot, Dasgupta Mithun
+title: 'Adversarially Trained Deep Neural Semantic Hashing Scheme For Subjective Search In Fashion Inventory'
+authors: Saket Singh, Debdoot Sheet, Mithun Dasgupta
 conference: "Arxiv"
 year: 2019
+citations: 2
 bibkey: singh2019adversarially
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1907.00382"}
-tags: ['ARXIV', 'CNN', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1907.00382'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Hashing', 'Supervised Hashing']
 ---
 The simple approach of retrieving a closest match of a query image from one
 in the gallery, compares an image pair using sum of absolute difference in

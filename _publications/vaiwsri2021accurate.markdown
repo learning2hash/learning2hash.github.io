@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Accurate And Efficient Suffix Tree Based Privacy-preserving String Matching
-authors: Vaiwsri Sirintra, Ranbaduge Thilina, Christen Peter, Ng Kee Siong
+title: 'Accurate And Efficient Suffix Tree Based Privacy-preserving String Matching'
+authors: Sirintra Vaiwsri, Thilina Ranbaduge, Peter Christen, Kee Siong Ng
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: vaiwsri2021accurate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2104.03018"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2104.03018'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 The task of calculating similarities between strings held by different
 organizations without revealing these strings is an increasingly important

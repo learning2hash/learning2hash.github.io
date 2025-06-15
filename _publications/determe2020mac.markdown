@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: MAC Address Anonymization For Crowd Counting
-authors: Determe Jean-françois, Azzagnuni Sophia, Horlin François, De Doncker Philippe
-conference: "Algorithms"
+title: 'MAC Address Anonymization For Crowd Counting'
+authors: Jean-françois Determe, Sophia Azzagnuni, François Horlin, Philippe De Doncker
+conference: "Algorithms 15 no. 5 135 (2022)"
 year: 2020
+citations: 1
 bibkey: determe2020mac
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2009.09876"}
-tags: []
+  - {name: "Paper", url: 'https://arxiv.org/abs/2009.09876'}
+tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
 ---
 Research has shown that counting WiFi packets called probe requests (PRs)
 implicitly provides a proxy for the number of people in an area. In this paper,

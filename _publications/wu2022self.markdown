@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Self-supervised Consistent Quantization For Fully Unsupervised Image Retrieval
-authors: Wu Guile, Zhang Chao, Liwicki Stephan
+title: 'Self-supervised Consistent Quantization For Fully Unsupervised Image Retrieval'
+authors: Guile Wu, Chao Zhang, Stephan Liwicki
 conference: "Arxiv"
 year: 2022
+citations: 2
 bibkey: wu2022self
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2206.09806"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2206.09806'}
+tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Applications']
 ---
 Unsupervised image retrieval aims to learn an efficient retrieval system
 without expensive data annotations, but most existing methods rely heavily on

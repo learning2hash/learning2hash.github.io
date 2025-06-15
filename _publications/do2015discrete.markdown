@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Discrete Hashing With Deep Neural Network
-authors: Do Thanh-toan, Doan Anh-zung, Cheung Ngai-man
+title: 'Discrete Hashing With Deep Neural Network'
+authors: Thanh-toan Do, Anh-zung Doan, Ngai-man Cheung
 conference: "Arxiv"
 year: 2015
+citations: 10
 bibkey: do2015discrete
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1508.07148"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1508.07148'}
+tags: ['Deep', 'Independent', 'Unimodal', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing']
 ---
 This paper addresses the problem of learning binary hash codes for large
 scale image search by proposing a novel hashing method based on deep neural

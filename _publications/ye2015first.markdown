@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: First-take-all Temporal Order-preserving Hashing For 3D Action Videos
-authors: Ye Jun, Hu Hao, Li Kai, Qi Guo-jun, Hua Kien A.
+title: 'First-take-all: Temporal Order-preserving Hashing For 3D Action Videos'
+authors: Jun Ye, Hao Hu, Kai Li, Guo-jun Qi, Kien A. Hua
 conference: "Arxiv"
 year: 2015
+citations: 2
 bibkey: ye2015first
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1506.02184"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1506.02184'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing', 'Applications']
 ---
 With the prevalence of the commodity depth cameras, the new paradigm of user
 interfaces based on 3D motion capturing and recognition have dramatically

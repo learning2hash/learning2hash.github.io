@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Transfer Hashing For Adaptive Learning On Federated Streaming Data
-authors: Röder Manuel, Schleif Frank-michael
+title: 'Deep Transfer Hashing For Adaptive Learning On Federated Streaming Data'
+authors: Manuel Röder, Frank-michael Schleif
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: röder2024deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2409.12575"}
-tags: ['ARXIV', 'Streaming Data', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2409.12575'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Training Strategy', 'Hashing', 'Applications']
 ---
 This extended abstract explores the integration of federated learning with
 deep transfer hashing for distributed prediction tasks, emphasizing

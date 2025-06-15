@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Online Hashing
-authors: Huang Long-kai, Yang Qiang, Zheng Wei-shi
+title: 'Online Hashing'
+authors: Long-kai Huang, Qiang Yang, Wei-shi Zheng
 conference: "Arxiv"
 year: 2017
+citations: 44
 bibkey: huang2017online
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1704.01897"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1704.01897'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Although hash function learning algorithms have achieved great success in
 recent years, most existing hash models are off-line, which are not suitable

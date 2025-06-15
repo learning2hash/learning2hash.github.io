@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Triplet Hashing Network For Case-based Medical Image Retrieval
-authors: Fang Jiansheng, Fu Huazhu, Liu Jiang
+title: 'Deep Triplet Hashing Network For Case-based Medical Image Retrieval'
+authors: Jiansheng Fang, Huazhu Fu, Jiang Liu
 conference: "Arxiv"
 year: 2021
+citations: 52
 bibkey: fang2021deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2101.12346"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2101.12346'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Hashing', 'Applications']
 ---
 Deep hashing methods have been shown to be the most efficient approximate
 nearest neighbor search techniques for large-scale image retrieval. However,

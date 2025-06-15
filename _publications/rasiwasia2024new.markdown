@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: A New Approach To Cross-modal Multimedia Retrieval
-authors: Rasiwasia N., Pereira, Coviello, Doyle, Lanckriet, Vasconcelos
+authors: Rasiwasia N. et al.
 conference: "Arxiv"
 year: 2024
+citations: 954
 bibkey: rasiwasia2024new
 additional_links:
   - {name: "Paper", url: "http://www.svcl.ucsd.edu/publications/conference/2010/acmmm/xmodal.pdf"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Segmentation Of Objects By Hashing
-authors: Curtó J. D., Zarza I. C., Smola Alex, Van Gool Luc
+title: 'Segmentation Of Objects By Hashing'
+authors: J. D. Curtó, I. C. Zarza, Alex Smola, Luc Van Gool
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: curtó2017segmentation
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1702.08160"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1702.08160'}
+tags: ['Unimodal', 'Supervised', 'Deep', 'Hashing']
 ---
 We propose a novel approach to address the problem of Simultaneous Detection
 and Segmentation introduced in [Hariharan et al 2014]. Using the hierarchical

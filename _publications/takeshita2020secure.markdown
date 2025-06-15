@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Secure Single-server Nearly-identical Image Deduplication
-authors: Takeshita Jonathan, Karl Ryan, Jung Taeho
+title: 'Secure Single-server Nearly-identical Image Deduplication'
+authors: Jonathan Takeshita, Ryan Karl, Taeho Jung
 conference: "Arxiv"
 year: 2020
+citations: 16
 bibkey: takeshita2020secure
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2005.02330"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2005.02330'}
+tags: ['Cross-Modal', 'Efficiency', 'Shallow', 'Supervised', 'Hashing']
 ---
 Cloud computing is often utilized for file storage. Clients of cloud storage
 services want to ensure the privacy of their data, and both clients and servers

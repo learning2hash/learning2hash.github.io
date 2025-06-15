@@ -4,10 +4,11 @@ title: Learning Hash Functions For Cross-view Similarity Search
 authors: Kumar S., Udupa
 conference: "Arxiv"
 year: 2024
+citations: 438
 bibkey: kumar2024learning
 additional_links:
   - {name: "Paper", url: "http://research.microsoft.com/pubs/151205/ijcai11.pdf"}
-tags: ['ARXIV', 'Cross Modal', 'Independent']
+tags: ['ARXIV', 'Cross Modal', 'Independent', 'Independent']
 ---
 Many applications in Multilingual and Multimodal
 Information Access involve searching large

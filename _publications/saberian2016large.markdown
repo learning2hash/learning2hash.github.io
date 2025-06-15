@@ -4,6 +4,7 @@ title: Large Margin Discriminant Dimensionality Reduction In Prediction Space
 authors: Mohammad Saberian, Jose Costa Pereira, Can Xu, Jian Yang, Nuno Nvasconcelos
 conference: "Neural Information Processing Systems"
 year: 2016
+citations: 2
 bibkey: saberian2016large
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2016/hash/632cee946db83e7a52ce5e8d6f0fed35-Abstract.html"}

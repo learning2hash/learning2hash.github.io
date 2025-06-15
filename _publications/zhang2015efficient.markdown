@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Efficient Training Of Very Deep Neural Networks For Supervised Hashing
-authors: Zhang Ziming, Chen Yuting, Saligrama Venkatesh
+title: 'Efficient Training Of Very Deep Neural Networks For Supervised Hashing'
+authors: Ziming Zhang, Yuting Chen, Venkatesh Saligrama
 conference: "Arxiv"
 year: 2015
+citations: 65
 bibkey: zhang2015efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1511.04524"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1511.04524'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Shallow', 'Hashing', 'Datasets', 'Training Strategy', 'Supervised Hashing']
 ---
 In this paper, we propose training very deep neural networks (DNNs) for
 supervised learning of hash codes. Existing methods in this context train

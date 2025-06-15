@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Utilizing Low-dimensional Molecular Embeddings For Rapid Chemical Similarity Search
-authors: Kirchoff Kathryn E., Wellnitz James, Hochuli Joshua E., Maxfield Travis, Popov Konstantin I., Gomez Shawn, Tropsha Alexander
+title: 'Utilizing Low-dimensional Molecular Embeddings For Rapid Chemical Similarity Search'
+authors: Kathryn E. Kirchoff et al.
 conference: "Arxiv"
 year: 2024
+citations: 2
 bibkey: kirchoff2024utilizing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2402.07970"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2402.07970'}
+tags: ['Unsupervised', 'Retrieval Models', 'Shallow', 'Cross-Modal']
 ---
 Nearest neighbor-based similarity searching is a common task in chemistry,
 with notable use cases in drug discovery. Yet, some of the most commonly used

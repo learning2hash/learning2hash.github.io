@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Supervised Hashing With Triplet Labels
-authors: Wang Xiaofang, Shi Yi, Kitani Kris M.
+title: 'Deep Supervised Hashing With Triplet Labels'
+authors: Xiaofang Wang, Yi Shi, Kris M. Kitani
 conference: "Arxiv"
 year: 2016
+citations: 79
 bibkey: wang2016deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1612.03900"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1612.03900'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Hashing', 'Datasets', 'Vector Indexing', 'Deep Hashing', 'Supervised Hashing', 'Applications']
 ---
 Hashing is one of the most popular and powerful approximate nearest neighbor
 search techniques for large-scale image retrieval. Most traditional hashing

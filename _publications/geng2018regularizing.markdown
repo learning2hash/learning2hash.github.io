@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Regularizing Deep Hashing Networks Using GAN Generated Fake Images
-authors: Geng Libing, Pan Yan, Chen Jikai, Lai Hanjiang
+title: 'Regularizing Deep Hashing Networks Using GAN Generated Fake Images'
+authors: Libing Geng, Yan Pan, Jikai Chen, Hanjiang Lai
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: geng2018regularizing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1803.09466"}
-tags: ['ARXIV', 'GAN', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1803.09466'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Recently, deep-networks-based hashing (deep hashing) has become a leading
 approach for large-scale image retrieval. It aims to learn a compact bitwise

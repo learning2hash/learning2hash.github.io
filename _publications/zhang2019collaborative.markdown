@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Collaborative Quantization For Cross-modal Similarity Search
-authors: Zhang Ting, Wang Jingdong
+title: 'Collaborative Quantization For Cross-modal Similarity Search'
+authors: Ting Zhang, Jingdong Wang
 conference: "Arxiv"
 year: 2019
+citations: 46
 bibkey: zhang2019collaborative
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1902.00623"}
-tags: ['ARXIV', 'Cross Modal', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1902.00623'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Quantization', 'Hashing']
 ---
 Cross-modal similarity search is a problem about designing a search system
 supporting querying across content modalities, e.g., using an image to search

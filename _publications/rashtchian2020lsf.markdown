@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Lsf-join Locality Sensitive Filtering For Distributed All-pairs Set Similarity Under Skew
-authors: Rashtchian Cyrus, Sharma Aneesh, Woodruff David P.
+title: 'Lsf-join: Locality Sensitive Filtering For Distributed All-pairs Set Similarity Under Skew'
+authors: Cyrus Rashtchian, Aneesh Sharma, David P. Woodruff
 conference: "Arxiv"
 year: 2020
+citations: 3
 bibkey: rashtchian2020lsf
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2003.02972"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2003.02972'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Datasets', 'Hashing']
 ---
 All-pairs set similarity is a widely used data mining task, even for large
 and high-dimensional datasets. Traditionally, similarity search has focused on

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Pairwise Supervised Hashing With Bernoulli Variational Auto-encoder And Self-control Gradient Estimator
-authors: Dadaneh Siamak Zamani, Boluki Shahin, Yin Mingzhang, Zhou Mingyuan, Qian Xiaoning
-conference: "Uncertainty in Artificial Intelligence Conference"
+title: 'Pairwise Supervised Hashing With Bernoulli Variational Auto-encoder And Self-control Gradient Estimator'
+authors: Siamak Zamani Dadaneh, Shahin Boluki, Mingzhang Yin, Mingyuan Zhou, Xiaoning Qian
+conference: "Uncertainty in Artificial Intelligence Conference (UAI) 2020"
 year: 2020
+citations: 11
 bibkey: dadaneh2020pairwise
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2005.10477"}
-tags: ['Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2005.10477'}
+tags: ['Cross-Modal', 'Model Design', 'Retrieval Models', 'Shallow', 'Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing']
 ---
 Semantic hashing has become a crucial component of fast similarity search in
 many large-scale information retrieval systems, in particular, for text data.

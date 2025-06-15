@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Camera-based Piano Sheet Music Identification
-authors: Yang Daniel, Tsai Tj
+title: 'Camera-based Piano Sheet Music Identification'
+authors: Daniel Yang, Tj Tsai
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: yang2020camera
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2007.14579"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2007.14579'}
+tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Supervised', 'Hashing']
 ---
 This paper presents a method for large-scale retrieval of piano sheet music
 images. Our work differs from previous studies on sheet music retrieval in two

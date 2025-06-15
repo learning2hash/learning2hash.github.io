@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: Unsupervised Deep Hashing With Similarity-adaptive And Discrete Optimization
-authors: Shen Fumin, Xu, Liu, Yang, Huang, Shen
+authors: Shen Fumin et al.
 conference: "Arxiv"
 year: 2024
+citations: 316
 bibkey: shen2024unsupervised
 additional_links:
   - {name: "Paper", url: "http://cfm.uestc.edu.cn/~fshen/SADH.pdf"}
-tags: ['ARXIV', 'Graph', 'Unsupervised']
+tags: ['ARXIV', 'Graph', 'Unsupervised', 'Supervised']
 ---
 Recent vision and learning studies show that learning compact hash codes can facilitate massive data processing
 with significantly reduced storage and computation. Particularly, learning deep hash functions has greatly improved the retrieval

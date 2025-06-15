@@ -4,6 +4,7 @@ title: Space And Time Efficient Kernel Density Estimation In High Dimensions
 authors: Arturs Backurs, Piotr Indyk, Tal Wagner
 conference: "Neural Information Processing Systems"
 year: 2019
+citations: 27
 bibkey: backurs2019space
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/2019/hash/a2ce8f1706e52936dfad516c23904e3e-Abstract.html"}

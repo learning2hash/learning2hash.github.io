@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Semantic Deep Hashing
-authors: Jin Sheng
+title: 'Unsupervised Semantic Deep Hashing'
+authors: Sheng Jin
 conference: "Arxiv"
 year: 2018
+citations: 24
 bibkey: jin2018unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1803.06911"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1803.06911'}
+tags: ['Cross-Modal', 'Deep', 'Supervised Hashing', 'Quantisation', 'Retrieval Models', 'Efficiency', 'Training Strategy', 'Datasets', 'Vector Indexing', 'Unsupervised Hashing', 'Deep Hashing', 'Quantization', 'Hashing', 'Applications']
 ---
 In recent years, deep hashing methods have been proved to be efficient since
 it employs convolutional neural network to learn features and hashing codes

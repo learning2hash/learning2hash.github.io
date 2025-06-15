@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Sketches Image Analysis Web Image Search Engine Usinglsh Index And DNN Inceptionv3
-authors: Schiavo Alessio, Minutella Filippo, Daole Mattia, Gomez Marsha Gomez
+title: 'Sketches Image Analysis: Web Image Search Engine Usinglsh Index And DNN Inceptionv3'
+authors: Alessio Schiavo, Filippo Minutella, Mattia Daole, Marsha Gomez Gomez
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: schiavo2021sketches
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2105.01147"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2105.01147'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
 ---
 The adoption of an appropriate approximate similarity search method is an
 essential prereq-uisite for developing a fast and efficient CBIR system,

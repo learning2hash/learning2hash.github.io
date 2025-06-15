@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Manifold Hashing A Divide-and-conquer Approach For Semi-paired Unsupervised Cross-modal Retrieval
-authors: Shi Yufeng, You Xinge, Xu Jiamiao, Zheng Feng, Peng Qinmu, Ou Weihua
+title: 'Deep Manifold Hashing: A Divide-and-conquer Approach For Semi-paired Unsupervised Cross-modal Retrieval'
+authors: Yufeng Shi et al.
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: shi2022deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2209.12599"}
-tags: ['ARXIV', 'Cross Modal', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2209.12599'}
+tags: ['Cross-Modal', 'Independent', 'Efficiency', 'Retrieval Models', 'Shallow', 'Multi-Modal Hashing', 'Hashing']
 ---
 Hashing that projects data into binary codes has shown extraordinary talents
 in cross-modal retrieval due to its low storage usage and high query speed.

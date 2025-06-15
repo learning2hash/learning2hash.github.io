@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unaligned Sequence Similarity Search Using Deep Learning
-authors: Senter James K., Royalty Taylor M., Steen Andrew D., Sadovnik Amir
+title: 'Unaligned Sequence Similarity Search Using Deep Learning'
+authors: James K. Senter, Taylor M. Royalty, Andrew D. Steen, Amir Sadovnik
 conference: "Arxiv"
 year: 2019
+citations: 1
 bibkey: senter2019unaligned
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1909.06929"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1909.06929'}
+tags: ['Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Supervised']
 ---
 Gene annotation has traditionally required direct comparison of DNA sequences
 between an unknown gene and a database of known ones using string comparison

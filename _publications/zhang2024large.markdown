@@ -4,10 +4,11 @@ title: Large-scale Supervised Multimodal Hashing With Semantic Correlation Maxim
 authors: Zhang D., Li
 conference: "Arxiv"
 year: 2024
+citations: 293
 bibkey: zhang2024large
 additional_links:
   - {name: "Paper", url: "http://cs.nju.edu.cn/lwj/paper/AAAI14_SCM.pdf"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+tags: ['ARXIV', 'Cross Modal', 'Supervised', 'Supervised']
 ---
 Due to its low storage cost and fast query speed, hashing
 has been widely adopted for similarity search in multimedia

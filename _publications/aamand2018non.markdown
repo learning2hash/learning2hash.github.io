@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Non-empty Bins With Simple Tabulation Hashing
-authors: Aamand Anders, Thorup Mikkel
+title: 'Non-empty Bins With Simple Tabulation Hashing'
+authors: Anders Aamand, Mikkel Thorup
 conference: "Arxiv"
 year: 2018
+citations: 1
 bibkey: aamand2018non
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1810.13187"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1810.13187'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 We consider the hashing of a set \\(X\subseteq U\\) with \\(|X|=m\\) using a simple
 tabulation hash function \\(h:U\to [n]=\\{0,\dots,n-1\\}\\) and analyse the number of

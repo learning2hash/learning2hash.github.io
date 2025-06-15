@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Neighborhood Graph Search Using Cartesian Concatenation
-authors: Wang Jingdong, Wang Jing, Zeng Gang, Gan Rui, Li Shipeng, Guo Baining
+title: 'Fast Neighborhood Graph Search Using Cartesian Concatenation'
+authors: Jingdong Wang et al.
 conference: "Arxiv"
 year: 2013
+citations: 15
 bibkey: wang2013fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1312.3062"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1312.3062'}
+tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing']
 ---
 In this paper, we propose a new data structure for approximate nearest
 neighbor search. This structure augments the neighborhood graph with a bridge

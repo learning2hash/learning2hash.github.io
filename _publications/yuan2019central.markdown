@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Central Similarity Quantization For Efficient Image And Video Retrieval
-authors: Yuan Li, Wang Tao, Zhang Xiaopeng, Tay Francis Eh, Jie Zequn, Liu Wei, Feng Jiashi
+title: 'Central Similarity Quantization For Efficient Image And Video Retrieval'
+authors: Li Yuan et al.
 conference: "Arxiv"
 year: 2019
+citations: 252
 bibkey: yuan2019central
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1908.00347"}
-  - {name: "Code", url: "https://github.com/yuanli2333/Hadamard-Matrix-for-hashing}"}
-tags: ['ARXIV', 'Has Code', 'Independent', 'Quantisation', 'Video Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1908.00347'}
+  - {name: "Code", url: 'https://github.com/yuanli2333/Hadamard-Matrix-for-hashing'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Has Code', 'Quantization', 'Hashing']
 ---
 Existing data-dependent hashing methods usually learn hash functions from
 pairwise or triplet data relationships, which only capture the data similarity
@@ -29,5 +30,5 @@ generic and applicable to both image and video hashing scenarios. Extensive
 experiments on large-scale image and video retrieval tasks demonstrate that CSQ
 can generate cohesive hash codes for similar data pairs and dispersed hash
 codes for dissimilar pairs, achieving a noticeable boost in retrieval
-performance, i.e. 3\%-20\% in mAP over the previous state-of-the-arts. The code
+performance, i.e. 3%-20% in mAP over the previous state-of-the-arts. The code
 is at: \url\{https://github.com/yuanli2333/Hadamard-Matrix-for-hashing\}

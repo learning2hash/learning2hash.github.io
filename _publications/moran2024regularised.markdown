@@ -4,6 +4,7 @@ title: Regularised Cross-modal Hashing
 authors: Moran S., Lavrenko
 conference: "Arxiv"
 year: 2024
+citations: 14
 bibkey: moran2024regularised
 additional_links:
   - {name: "Paper", url: "http://seanjmoran.com/pdfs/cmh_sigir15.pdf"}

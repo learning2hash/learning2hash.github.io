@@ -4,6 +4,7 @@ title: A Showcase Of The Use Of Autoencoders In Feature Learning Applications
 authors: Charte David, Charte Francisco, Del Jesus María J., Herrera Francisco
 conference: "In From Bioinspired Systems and Biomedical Applications to Machine Learning/IWINAC"
 year: 2020
+citations: 3
 bibkey: charte2020showcase
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2005.04321"}

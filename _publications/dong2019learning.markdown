@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Learning Space Partitions For Nearest Neighbor Search
-authors: Dong Yihe, Indyk Piotr, Razenshteyn Ilya, Wagner Tal
+title: 'Learning Space Partitions For Nearest Neighbor Search'
+authors: Yihe Dong, Piotr Indyk, Ilya Razenshteyn, Tal Wagner
 conference: "Arxiv"
 year: 2019
+citations: 26
 bibkey: dong2019learning
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1901.08544"}
-tags: ['ARXIV', 'FOCS', 'Graph', 'LSH', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1901.08544'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Quantization', 'Hashing']
 ---
 Space partitions of \\(\mathbb\{R\}^d\\) underlie a vast and important class of
 fast nearest neighbor search (NNS) algorithms. Inspired by recent theoretical

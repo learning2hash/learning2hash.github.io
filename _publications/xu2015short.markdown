@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Short Text Hashing Improved By Integrating Multi-granularity Topics And Tags
-authors: Xu Jiaming, Xu Bo, Tian Guanhua, Zhao Jun, Wang Fangyuan, Hao Hongwei
+title: 'Short Text Hashing Improved By Integrating Multi-granularity Topics And Tags'
+authors: Jiaming Xu et al.
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: xu2015short
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1503.02801"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1503.02801'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
 ---
 Due to computational and storage efficiencies of compact binary codes,
 hashing has been widely used for large-scale similarity search. Unfortunately,

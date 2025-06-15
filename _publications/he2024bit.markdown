@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Bit-mask Robust Contrastive Knowledge Distillation For Unsupervised Semantic Hashing
-authors: He Liyang, Huang Zhenya, Liu Jiayu, Chen Enhong, Wang Fei, Sha Jing, Wang Shijin
+title: 'Bit-mask Robust Contrastive Knowledge Distillation For Unsupervised Semantic Hashing'
+authors: Liyang He et al.
 conference: "Arxiv"
 year: 2024
+citations: 2
 bibkey: he2024bit
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2403.06071"}
-  - {name: "Code", url: "https://github.com/hly1998/BRCD"}
-tags: ['ARXIV', 'Has Code', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2403.06071'}
+  - {name: "Code", url: 'https://github.com/hly1998/BRCD'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Hashing', 'Compression', 'Has Code', 'Training Strategy', 'Supervised Hashing']
 ---
 Unsupervised semantic hashing has emerged as an indispensable technique for
 fast image search, which aims to convert images into binary hash codes without

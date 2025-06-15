@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Spherical Quantization For Image Search
-authors: Eghbali Sepehr, Tahvildari Ladan
+title: 'Deep Spherical Quantization For Image Search'
+authors: Sepehr Eghbali, Ladan Tahvildari
 conference: "Arxiv"
 year: 2019
+citations: 23
 bibkey: eghbali2019deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1906.02865"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1906.02865'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Quantization', 'Hashing', 'Applications']
 ---
 Hashing methods, which encode high-dimensional images with compact discrete
 codes, have been widely applied to enhance large-scale image retrieval. In this

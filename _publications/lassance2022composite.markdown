@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Composite Code Sparse Autoencoders For First Stage Retrieval
-authors: Lassance Carlos, Formal Thibault, Clinchant Stephane
+title: 'Composite Code Sparse Autoencoders For First Stage Retrieval'
+authors: Carlos Lassance, Thibault Formal, Stephane Clinchant
 conference: "Arxiv"
 year: 2022
+citations: 4
 bibkey: lassance2022composite
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2204.07023"}
-tags: ['ARXIV', 'Graph', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2204.07023'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Quantisation', 'Retrieval Models', 'Vector Indexing', 'Graph-Based Methods', 'Quantization', 'Applications']
 ---
 We propose a Composite Code Sparse Autoencoder (CCSA) approach for
 Approximate Nearest Neighbor (ANN) search of document representations based on

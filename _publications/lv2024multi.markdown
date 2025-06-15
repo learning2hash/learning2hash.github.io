@@ -4,6 +4,7 @@ title: Multi-probe LSH Efficient Indexing For High-dimensional Similarity Search
 authors: Lv Q., Josephson, Wang, Charikar, Li
 conference: "Arxiv"
 year: 2024
+citations: 620
 bibkey: lv2024multi
 additional_links:
   - {name: "Paper", url: "http://www.cs.princeton.edu/cass/papers/mplsh_vldb07.pdf"}

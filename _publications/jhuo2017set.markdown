@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Set-to-set Hashing With Applications In Visual Recognition
-authors: Jhuo I-hong, Wang Jun
+title: 'Set-to-set Hashing With Applications In Visual Recognition'
+authors: I-hong Jhuo, Jun Wang
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: jhuo2017set
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1711.00888"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1711.00888'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Visual data, such as an image or a sequence of video frames, is often
 naturally represented as a point set. In this paper, we consider the

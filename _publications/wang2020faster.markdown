@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Faster Person Re-identification
-authors: Wang Guan'an, Gong Shaogang, Cheng Jian, Hou Zengguang
+title: 'Faster Person Re-identification'
+authors: Guan'an Wang, Shaogang Gong, Jian Cheng, Zengguang Hou
 conference: "Arxiv"
 year: 2020
+citations: 43
 bibkey: wang2020faster
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2008.06826"}
-  - {name: "Code", url: "https://github.com/wangguanan/light-reid"}
-tags: ['ARXIV', 'Has Code']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2008.06826'}
+  - {name: "Code", url: 'https://github.com/wangguanan/light-reid'}
+tags: ['Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Has Code', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 Fast person re-identification (ReID) aims to search person images quickly and
 accurately. The main idea of recent fast ReID methods is the hashing algorithm,

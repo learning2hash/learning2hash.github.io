@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Cophir A Test Collection For Content-based Image Retrieval
-authors: Bolettieri Paolo, Esuli Andrea, Falchi Fabrizio, Lucchese Claudio, Perego Raffaele, Piccioli Tommaso, Rabitti Fausto
+authors: Bolettieri Paolo et al.
 conference: "Arxiv"
 year: 2009
+citations: 150
 bibkey: bolettieri2009cophir
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/0905.4627"}

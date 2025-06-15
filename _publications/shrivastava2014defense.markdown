@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: In Defense Of Minhash Over Simhash
-authors: Shrivastava Anshumali, Li Ping
+title: 'In Defense Of Minhash Over Simhash'
+authors: Anshumali Shrivastava, Ping Li
 conference: "Arxiv"
 year: 2014
+citations: 65
 bibkey: shrivastava2014defense
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1407.4416"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1407.4416'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Hashing', 'Applications']
 ---
 MinHash and SimHash are the two widely adopted Locality Sensitive Hashing
 (LSH) algorithms for large-scale data processing applications. Deciding which

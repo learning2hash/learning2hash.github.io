@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Linear Probing With 5-independent Hashing
-authors: Thorup Mikkel
+title: 'Linear Probing With 5-independent Hashing'
+authors: Mikkel Thorup
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: thorup2015linear
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1509.04549"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1509.04549'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 These lecture notes show that linear probing takes expected constant time if
 the hash function is 5-independent. This result was first proved by Pagh et al.

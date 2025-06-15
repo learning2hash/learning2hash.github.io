@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: More Efficient Privacy Amplification With Less Random Seeds Via Dual Universal Hash Function
-authors: Hayashi Masahito, Tsurumaru Toyohiro
-conference: "IEEE Transactions on Information Theory Volume"
+title: 'More Efficient Privacy Amplification With Less Random Seeds Via Dual Universal Hash Function'
+authors: Masahito Hayashi, Toyohiro Tsurumaru
+conference: "IEEE Transactions on Information Theory Volume 62 Issue 4 2213 - 2232 (2016)"
 year: 2013
+citations: 53
 bibkey: hayashi2013more
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1311.5322"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1311.5322'}
+tags: ['Unimodal', 'Deep', 'Independent', 'Hashing']
 ---
 We explicitly construct random hash functions for privacy amplification
 (extractors) that require smaller random seed lengths than the previous

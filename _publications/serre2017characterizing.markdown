@@ -4,6 +4,7 @@ title: Characterizing And Enumerating Walsh-hadamard Transform Algorithms
 authors: Serre François, Püschel Markus
 conference: "Arxiv"
 year: 2017
+citations: 1
 bibkey: serre2017characterizing
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1710.08029"}

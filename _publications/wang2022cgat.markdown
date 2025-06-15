@@ -4,6 +4,7 @@ title: Cgat Center-guided Adversarial Training For Deep Hashing-based Retrieval
 authors: Wang Xunguang, Lin Yiqun, Li Xiaomeng
 conference: "Arxiv"
 year: 2022
+citations: 4
 bibkey: wang2022cgat
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2204.10779"}

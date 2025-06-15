@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Asymmetric Deep Semantic Quantization For Image Retrieval
-authors: Yang Zhan, Raymond Osolo Ian, Sun Wuqing, Long Jun
+title: 'Asymmetric Deep Semantic Quantization For Image Retrieval'
+authors: Zhan Yang, Osolo Ian Raymond, Wuqing Sun, Jun Long
 conference: "Arxiv"
 year: 2019
+citations: 5
 bibkey: yang2019asymmetric
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1903.12493"}
-tags: ['ARXIV', 'Deep Learning', 'Image Retrieval', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1903.12493'}
+tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Shallow', 'Datasets', 'Quantization', 'Hashing', 'Applications']
 ---
 Due to its fast retrieval and storage efficiency capabilities, hashing has
 been widely used in nearest neighbor retrieval tasks. By using deep learning

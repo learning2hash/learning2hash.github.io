@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Compositional Coding For Collaborative Filtering
-authors: Liu Chenghao, Lu Tao, Wang Xin, Cheng Zhiyong, Sun Jianling, Hoi Steven C. H.
+title: 'Compositional Coding For Collaborative Filtering'
+authors: Chenghao Liu et al.
 conference: "Arxiv"
 year: 2019
+citations: 7
 bibkey: liu2019compositional
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.03752"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.03752'}
+tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Efficiency is crucial to the online recommender systems. Representing users
 and items as binary vectors for Collaborative Filtering (CF) can achieve fast

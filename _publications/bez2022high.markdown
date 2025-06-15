@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: High Performance Construction Of Recsplit Based Minimal Perfect Hash Functions
-authors: Bez Dominik, Kurpicz Florian, Lehmann Hans-peter, Sanders Peter
+title: 'High Performance Construction Of Recsplit Based Minimal Perfect Hash Functions'
+authors: Dominik Bez, Florian Kurpicz, Hans-peter Lehmann, Peter Sanders
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: bez2022high
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2212.09562"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2212.09562'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Compression', 'Hashing']
 ---
 A minimal perfect hash function (MPHF) bijectively maps a set S of objects to
 the first |S| integers. It can be used as a building block in databases and

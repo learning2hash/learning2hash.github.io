@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Hierarchical Deep Hashing For Fast Large Scale Image Retrieval
-authors: Zhang Yongfei, Peng, Jingtao, Liu, Pu, Chen
+authors: Zhang Yongfei et al.
 conference: "Arxiv"
 year: 2024
+citations: 2
 bibkey: zhang2024hierarchical
 additional_links:
   - {name: "Paper", url: "https://ailb-web.ing.unimore.it/icpr/author/4095"}

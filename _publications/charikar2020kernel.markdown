@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Kernel Density Estimation Through Density Constrained Near Neighbor Search
-authors: Charikar Moses, Kapralov Michael, Nouri Navid, Siminelakis Paris
+title: 'Kernel Density Estimation Through Density Constrained Near Neighbor Search'
+authors: Moses Charikar, Michael Kapralov, Navid Nouri, Paris Siminelakis
 conference: "Arxiv"
 year: 2020
+citations: 2
 bibkey: charikar2020kernel
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2011.06997"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2011.06997'}
+tags: ['Deep', 'Unsupervised', 'Unimodal', 'Datasets', 'Hashing', 'Applications']
 ---
 In this paper we revisit the kernel density estimation problem: given a
 kernel \\(K(x, y)\\) and a dataset of \\(n\\) points in high dimensional Euclidean

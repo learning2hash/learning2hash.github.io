@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Instruction Sequence Expressions For The Secure Hash Algorithm SHA-256
-authors: Bergstra J. A., Middelburg C. A.
+title: 'Instruction Sequence Expressions For The Secure Hash Algorithm SHA-256'
+authors: J. A. Bergstra, C. A. Middelburg
 conference: "Arxiv"
 year: 2013
+citations: 10
 bibkey: bergstra2013instruction
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1308.0219"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1308.0219'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 The secure hash function SHA-256 is a function on bit strings. This means
 that its restriction to the bit strings of any given length can be computed by

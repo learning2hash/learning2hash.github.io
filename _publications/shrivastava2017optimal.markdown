@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Optimal Densification For Fast And Accurate Minwise Hashing
-authors: Shrivastava Anshumali
+title: 'Optimal Densification For Fast And Accurate Minwise Hashing'
+authors: Anshumali Shrivastava
 conference: "Arxiv"
 year: 2017
+citations: 27
 bibkey: shrivastava2017optimal
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1703.04664"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1703.04664'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Evaluation', 'Shallow', 'Conferences', 'Datasets', 'Hashing']
 ---
 Minwise hashing is a fundamental and one of the most successful hashing
 algorithm in the literature. Recent advances based on the idea of

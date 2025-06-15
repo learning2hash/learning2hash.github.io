@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Dual-level Semantic Transfer Deep Hashing For Efficient Social Image Retrieval
-authors: Zhu Lei, Cui Hui, Cheng Zhiyong, Li Jingjing, Zhang Zheng
+title: 'Dual-level Semantic Transfer Deep Hashing For Efficient Social Image Retrieval'
+authors: Lei Zhu, Hui Cui, Zhiyong Cheng, Jingjing Li, Zheng Zhang
 conference: "Arxiv"
 year: 2020
+citations: 35
 bibkey: zhu2020dual
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2006.05586"}
-  - {name: "Code", url: "https://github.com/research2020-1/DSTDH"}
-tags: ['ARXIV', 'Graph', 'Has Code', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2006.05586'}
+  - {name: "Code", url: 'https://github.com/research2020-1/DSTDH'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Has Code', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Social network stores and disseminates a tremendous amount of user shared
 images. Deep hashing is an efficient indexing technique to support large-scale

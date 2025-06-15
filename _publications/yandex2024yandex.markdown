@@ -4,6 +4,7 @@ title: Yandex DEEP-1B
 authors: Yandex Yandex
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: yandex2024yandex
 additional_links:
   - {name: "Paper", url: "https://research.yandex.com/datasets/biganns"}

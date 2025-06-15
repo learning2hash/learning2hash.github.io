@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Vit2hash Unsupervised Information-preserving Hashing
-authors: Gong Qinkang, Wang Liangdao, Lai Hanjiang, Pan Yan, Yin Jian
+title: 'Vit2hash: Unsupervised Information-preserving Hashing'
+authors: Qinkang Gong, Liangdao Wang, Hanjiang Lai, Yan Pan, Jian Yin
 conference: "Arxiv"
 year: 2022
+citations: 1
 bibkey: gong2022unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2201.05541"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2201.05541'}
+tags: ['Quantisation', 'Unimodal', 'Training Strategy', 'Shallow', 'Hashing', 'Compression', 'Datasets', 'Unsupervised Hashing', 'Quantization', 'Supervised Hashing']
 ---
 Unsupervised image hashing, which maps images into binary codes without
 supervision, is a compressor with a high compression rate. Hence, how to

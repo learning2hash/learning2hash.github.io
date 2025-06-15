@@ -4,6 +4,7 @@ title: Hamming Distance Metric Learning
 authors: Norouzi M., Fleet, Salakhutdinov
 conference: "Arxiv"
 year: 2024
+citations: 540
 bibkey: norouzi2024hamming
 additional_links:
   - {name: "Paper", url: "http://papers.nips.cc/paper/4808-hamming-distance-metric-learning.pdf"}

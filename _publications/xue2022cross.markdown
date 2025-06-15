@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Cross-scale Context Extracted Hashing For Fine-grained Image Binary Encoding
-authors: Xue Xuetong, Shi Jiaying, He Xinxue, Xu Shenghui, Pan Zhaoming
+title: 'Cross-scale Context Extracted Hashing For Fine-grained Image Binary Encoding'
+authors: Xuetong Xue, Jiaying Shi, Xinxue He, Shenghui Xu, Zhaoming Pan
 conference: "Arxiv"
 year: 2022
+citations: 5
 bibkey: xue2022cross
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2210.07572"}
-tags: ['ARXIV', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2210.07572'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Deep Hashing', 'Hashing', 'Applications']
 ---
 Deep hashing has been widely applied to large-scale image retrieval tasks
 owing to efficient computation and low storage cost by encoding

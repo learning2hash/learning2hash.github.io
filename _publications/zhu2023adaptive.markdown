@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Adaptive Confidence Multi-view Hashing For Multimedia Retrieval
-authors: Zhu Jian, Cui Yu, Huang Zhangmin, Li Xingyu, Liu Lei, Zeng Lingfang, Dai Li-rong
+title: 'Adaptive Confidence Multi-view Hashing For Multimedia Retrieval'
+authors: Jian Zhu et al.
 conference: "Arxiv"
 year: 2023
+citations: 3
 bibkey: zhu2023adaptive
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2312.07327"}
-  - {name: "Code", url: "https://github.com/HackerHyper/ACMVH"}
-tags: ['ARXIV', 'Cross Modal', 'Has Code', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2312.07327'}
+  - {name: "Code", url: 'https://github.com/HackerHyper/ACMVH'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Has Code', 'Multi-Modal Hashing', 'Hashing']
 ---
 The multi-view hash method converts heterogeneous data from multiple views
 into binary hash codes, which is one of the critical technologies in multimedia

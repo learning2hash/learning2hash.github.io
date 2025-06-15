@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hash Function Learning Via Codewords
-authors: Huang Yinjie, Georgiopoulos Michael, Anagnostopoulos Georgios C.
+title: 'Hash Function Learning Via Codewords'
+authors: Yinjie Huang, Michael Georgiopoulos, Georgios C. Anagnostopoulos
 conference: "Arxiv"
 year: 2015
+citations: 0
 bibkey: huang2015hash
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1508.03285"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1508.03285'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 In this paper we introduce a novel hash learning framework that has two main
 distinguishing features, when compared to past approaches. First, it utilizes

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Perceptual Hashing Applied To Tor Domains Recognition
-authors: Biswas Rubel, Vasco-carofilis Roberto A., Fernandez Eduardo Fidalgo, Martino Francisco Jáñez, Medina Pablo Blanco
+title: 'Perceptual Hashing Applied To Tor Domains Recognition'
+authors: Rubel Biswas, Roberto A. Vasco-carofilis, Eduardo Fidalgo Fernandez, Francisco Jáñez Martino, Pablo Blanco Medina
 conference: "Arxiv"
 year: 2020
+citations: 0
 bibkey: biswas2020perceptual
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2005.10090"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2005.10090'}
+tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
 ---
 The Tor darknet hosts different types of illegal content, which are monitored
 by cybersecurity agencies. However, manually classifying Tor content can be

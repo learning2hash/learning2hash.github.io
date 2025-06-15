@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Supervised Matrix Factorization For Cross-modality Hashing
-authors: Liu Hong, Ji Rongrong, Wu Yongjian, Hua Gang
+title: 'Supervised Matrix Factorization For Cross-modality Hashing'
+authors: Hong Liu, Rongrong Ji, Yongjian Wu, Gang Hua
 conference: "Arxiv"
 year: 2016
+citations: 65
 bibkey: liu2016supervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1603.05572"}
-tags: ['ARXIV', 'Cross Modal', 'Graph', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1603.05572'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Datasets', 'Quantization', 'Multi-Modal Hashing', 'Hashing']
 ---
 Matrix factorization has been recently utilized for the task of multi-modal
 hashing for cross-modality visual search, where basis functions are learned to

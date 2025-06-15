@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing With Binary Autoencoders
-authors: Carreira-perpiñán Miguel Á., Raziperchikolaei Ramin
+title: 'Hashing With Binary Autoencoders'
+authors: Miguel Á. Carreira-perpiñán, Ramin Raziperchikolaei
 conference: "Arxiv"
 year: 2015
+citations: 66
 bibkey: carreiraperpiñán2015hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1501.00756"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1501.00756'}
+tags: ['Cross-Modal', 'Independent', 'Model Design', 'Retrieval Models', 'Shallow', 'Training Strategy', 'Hashing', 'Applications']
 ---
 An attractive approach for fast search in image databases is binary hashing,
 where each high-dimensional, real-valued image is mapped onto a

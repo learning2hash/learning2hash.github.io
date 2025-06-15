@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Quantized Johnson Lindenstrauss Lemma The Finding Of Buffons Needle
-authors: Jacques Laurent
+title: 'A Quantized Johnson Lindenstrauss Lemma: The Finding Of Buffon''s Needle'
+authors: Laurent Jacques
 conference: "Arxiv"
 year: 2013
+citations: 19
 bibkey: jacques2013quantized
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1309.1507"}
-tags: ['ARXIV', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1309.1507'}
+tags: ['Cross-Modal', 'Quantization', 'Shallow', 'Quantisation']
 ---
 In 1733, Georges-Louis Leclerc, Comte de Buffon in France, set the ground of
 geometric probability theory by defining an enlightening problem: What is the

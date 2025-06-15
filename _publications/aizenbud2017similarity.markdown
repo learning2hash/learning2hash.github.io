@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Similarity Search Over Graphs Using Localized Spectral Analysis
-authors: Aizenbud Yariv, Averbuch Amir, Shabat Gil, Ziv Guy
+title: 'Similarity Search Over Graphs Using Localized Spectral Analysis'
+authors: Yariv Aizenbud, Amir Averbuch, Gil Shabat, Guy Ziv
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: aizenbud2017similarity
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1707.03311"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1707.03311'}
+tags: ['Unsupervised', 'Retrieval Models', 'Shallow', 'Cross-Modal']
 ---
 This paper provides a new similarity detection algorithm. Given an input set
 of multi-dimensional data points, where each data point is assumed to be

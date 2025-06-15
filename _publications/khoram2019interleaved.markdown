@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Interleaved Composite Quantization For High-dimensional Similarity Search
-authors: Khoram Soroosh, Wright Stephen J, Li Jing
+title: 'Interleaved Composite Quantization For High-dimensional Similarity Search'
+authors: Soroosh Khoram, Stephen J Wright, Jing Li
 conference: "Arxiv"
 year: 2019
+citations: 0
 bibkey: khoram2019interleaved
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1912.08756"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1912.08756'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization']
 ---
 Similarity search retrieves the nearest neighbors of a query vector from a
 dataset of high-dimensional vectors. As the size of the dataset grows, the cost

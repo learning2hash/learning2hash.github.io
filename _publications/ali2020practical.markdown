@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Practical Hash-based Anonymity For MAC Addresses
-authors: Ali Junade, Dyo Vladimir
+title: 'Practical Hash-based Anonymity For MAC Addresses'
+authors: Junade Ali, Vladimir Dyo
 conference: "Arxiv"
 year: 2020
+citations: 7
 bibkey: ali2020practical
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2005.06580"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2005.06580'}
+tags: ['Cross-Modal', 'Independent', 'Hashing', 'Shallow']
 ---
 Given that a MAC address can uniquely identify a person or a vehicle,
 continuous tracking over a large geographical scale has raised serious privacy

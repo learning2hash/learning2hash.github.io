@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Hashing-based Non-maximum Suppression For Crowded Object Detection
-authors: Wang Jianfeng, Yin Xi, Wang Lijuan, Zhang Lei
+title: 'Hashing-based Non-maximum Suppression For Crowded Object Detection'
+authors: Jianfeng Wang, Xi Yin, Lijuan Wang, Lei Zhang
 conference: "Arxiv"
 year: 2020
+citations: 6
 bibkey: wang2020hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2005.11426"}
-  - {name: "Code", url: "https://github.com/microsoft/hnms.git}"}
-tags: ['ARXIV', 'Has Code']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2005.11426'}
+  - {name: "Code", url: 'https://github.com/microsoft/hnms.git'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Datasets', 'Has Code', 'Hashing']
 ---
 In this paper, we propose an algorithm, named hashing-based non-maximum
 suppression (HNMS) to efficiently suppress the non-maximum boxes for object

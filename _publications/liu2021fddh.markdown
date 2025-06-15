@@ -4,6 +4,7 @@ title: FDDH Fast Discriminative Discrete Hashing For Large-scale Cross-modal Ret
 authors: Liu Xin, Wang Xingzhi, Cheung Yiu-ming
 conference: "IEEE Transactions on Neural Networks and Learning Systems"
 year: 2021
+citations: 46
 bibkey: liu2021fddh
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2105.07128"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Succinct Trit-array Trie For Scalable Trajectory Similarity Search
-authors: Kanda Shunsuke, Takeuchi Koh, Fujii Keisuke, Tabei Yasuo
+title: 'Succinct Trit-array Trie For Scalable Trajectory Similarity Search'
+authors: Shunsuke Kanda, Koh Takeuchi, Keisuke Fujii, Yasuo Tabei
 conference: "Arxiv"
 year: 2020
+citations: 9
 bibkey: kanda2020succinct
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2005.10917"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2005.10917'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing']
 ---
 Massive datasets of spatial trajectories representing the mobility of a
 diversity of moving objects are ubiquitous in research and industry. Similarity

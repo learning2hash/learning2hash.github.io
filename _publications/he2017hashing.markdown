@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing As Tie-aware Learning To Rank
-authors: He Kun, Cakir Fatih, Bargal Sarah Adel, Sclaroff Stan
+title: 'Hashing As Tie-aware Learning To Rank'
+authors: Kun He, Fatih Cakir, Sarah Adel Bargal, Stan Sclaroff
 conference: "Arxiv"
 year: 2017
+citations: 51
 bibkey: he2017hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1705.08562"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1705.08562'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 Hashing, or learning binary embeddings of data, is frequently used in nearest
 neighbor retrieval. In this paper, we develop learning to rank formulations for

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Using Apache Lucene To Search Vector Of Locally Aggregated Descriptors
-authors: Amato Giuseppe, Bolettieri Paolo, Falchi Fabrizio, Gennaro Claudio, Vadicamo Lucia
+title: 'Using Apache Lucene To Search Vector Of Locally Aggregated Descriptors'
+authors: Giuseppe Amato, Paolo Bolettieri, Fabrizio Falchi, Claudio Gennaro, Lucia Vadicamo
 conference: "Arxiv"
 year: 2016
+citations: 1
 bibkey: amato2016using
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1604.05576"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1604.05576'}
+tags: ['Retrieval Models', 'Unimodal', 'Independent', 'Shallow']
 ---
 Surrogate Text Representation (STR) is a profitable solution to efficient
 similarity search on metric space using conventional text search engines, such

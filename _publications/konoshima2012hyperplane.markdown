@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hyperplane Arrangements And Locality-sensitive Hashing With Lift
-authors: Konoshima Makiko, Noma Yui
+title: 'Hyperplane Arrangements And Locality-sensitive Hashing With Lift'
+authors: Makiko Konoshima, Yui Noma
 conference: "Arxiv"
 year: 2012
+citations: 2
 bibkey: konoshima2012hyperplane
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1212.6110"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1212.6110'}
+tags: ['Deep', 'Unimodal', 'Evaluation', 'Supervised', 'Hashing']
 ---
 Locality-sensitive hashing converts high-dimensional feature vectors, such as
 image and speech, into bit arrays and allows high-speed similarity calculation

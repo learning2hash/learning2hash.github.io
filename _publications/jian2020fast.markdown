@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Top-k Cosine Similarity Search Through Xor-friendly Binary Quantization On Gpus
-authors: Jian Xiaozheng, Lu Jianqiu, Yuan Zexi, Li Ao
+title: 'Fast Top-k Cosine Similarity Search Through Xor-friendly Binary Quantization On Gpus'
+authors: Xiaozheng Jian, Jianqiu Lu, Zexi Yuan, Ao Li
 conference: "Arxiv"
 year: 2020
+citations: 2
 bibkey: jian2020fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2008.02002"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2008.02002'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Quantization', 'Hashing']
 ---
 We explore the use of GPU for accelerating large scale nearest neighbor
 search and we propose a fast vector-quantization-based exhaustive nearest

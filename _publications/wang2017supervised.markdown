@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Supervised Deep Hashing For Hierarchical Labeled Data
-authors: Wang Dan, Huang Heyan, Lu Chi, Feng Bo-si, Nie Liqiang, Wen Guihua, Mao Xian-ling
+title: 'Supervised Deep Hashing For Hierarchical Labeled Data'
+authors: Dan Wang et al.
 conference: "Arxiv"
 year: 2017
+citations: 10
 bibkey: wang2017supervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1704.02088"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1704.02088'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Hashing']
 ---
 Recently, hashing methods have been widely used in large-scale image
 retrieval. However, most existing hashing methods did not consider the

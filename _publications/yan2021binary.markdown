@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Binary Code Based Hash Embedding For Web-scale Applications
-authors: Yan Bencheng, Wang Pengjie, Liu Jinquan, Lin Wei, Lee Kuang-chih, Xu Jian, Zheng Bo
+title: 'Binary Code Based Hash Embedding For Web-scale Applications'
+authors: Bencheng Yan et al.
 conference: "Arxiv"
 year: 2021
+citations: 8
 bibkey: yan2021binary
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2109.02471"}
-tags: ['ARXIV', 'Deep Learning']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2109.02471'}
+tags: ['Deep', 'Quantisation', 'Unimodal', 'Evaluation', 'Applications']
 ---
 Nowadays, deep learning models are widely adopted in web-scale applications
 such as recommender systems, and online advertising. In these applications,
@@ -21,6 +22,6 @@ Such a huge memory cost significantly holds back the effectiveness and
 usability of EDRMs. In this paper, we propose a binary code based hash
 embedding method which allows the size of the embedding table to be reduced in
 arbitrary scale without compromising too much performance. Experimental
-evaluation results show that one can still achieve 99\% performance even if the
+evaluation results show that one can still achieve 99% performance even if the
 embedding table size is reduced 1000\\(\times\\) smaller than the original one with
 our proposed method.

@@ -4,6 +4,7 @@ title: RAFIC Retrieval-augmented Few-shot Image Classification
 authors: Lin Hangfei, Miao Li, Ziai Amir
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: lin2023rafic
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2312.06868"}

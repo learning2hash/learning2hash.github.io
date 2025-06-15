@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Approximate Nearest Neighbor Search In ell_p
-authors: Nguyen Huy L.
+title: 'Approximate Nearest Neighbor Search In \(\ell_p\)'
+authors: Huy L. Nguyen
 conference: "Arxiv"
 year: 2013
+citations: 3
 bibkey: nguyen2013approximate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1306.3601"}
-tags: ['ARXIV', 'FOCS', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1306.3601'}
+tags: ['Unsupervised', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 We present a new locality sensitive hashing (LSH) algorithm for
 \\(c\\)-approximate nearest neighbor search in \\(\ell_p\\) with \\(1<p<2\\). For a

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: An Efficient Index For Visual Search In Appearance-based SLAM
-authors: Hajebi Kiana, Zhang Hong
+title: 'An Efficient Index For Visual Search In Appearance-based SLAM'
+authors: Kiana Hajebi, Hong Zhang
 conference: "Arxiv"
 year: 2013
+citations: 3
 bibkey: hajebi2013efficient
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1309.7170"}
-tags: ['ARXIV', 'Graph', 'Quantisation', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1309.7170'}
+tags: ['Cross-Modal', 'Quantisation', 'Efficiency', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Quantization']
 ---
 Vector-quantization can be a computationally expensive step in visual
 bag-of-words (BoW) search when the vocabulary is large. A BoW-based appearance

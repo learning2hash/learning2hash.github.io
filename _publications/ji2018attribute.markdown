@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Attribute-guided Network For Cross-modal Zero-shot Hashing
-authors: Ji Zhong, Sun Yuxin, Yu Yunlong, Pang Yanwei, Han Jungong
+title: 'Attribute-guided Network For Cross-modal Zero-shot Hashing'
+authors: Zhong Ji, Yuxin Sun, Yunlong Yu, Yanwei Pang, Jungong Han
 conference: "Arxiv"
 year: 2018
+citations: 70
 bibkey: ji2018attribute
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1802.01943"}
-tags: ['ARXIV', 'Cross Modal', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1802.01943'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Hashing', 'Applications']
 ---
 Zero-Shot Hashing aims at learning a hashing model that is trained only by
 instances from seen categories but can generate well to those of unseen

@@ -4,6 +4,7 @@ title: MILD Multi-index Hashing For Loop Closure Detection
 authors: Han Lei, Fang Lu
 conference: "Arxiv"
 year: 2017
+citations: 4
 bibkey: han2017mild
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1702.08780"}

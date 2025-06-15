@@ -4,6 +4,7 @@ title: Design Of Image Cryptosystem By Simultaneous Vq-compression And Shuffling
 authors: Pal Arup Kumar, Biswas G. P., Mukhopadhyay S.
 conference: "The International journal of Multimedia Its Applications"
 year: 2011
+citations: 1
 bibkey: pal2011design
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1111.7051"}

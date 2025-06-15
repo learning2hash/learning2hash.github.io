@@ -4,6 +4,7 @@ title: Similarity Search In High Dimensions Via Hashing
 authors: Gionis A., Indyk, Motwani
 conference: "Arxiv"
 year: 2024
+citations: 3202
 bibkey: gionis2024similarity
 additional_links:
   - {name: "Paper", url: "https://dl.acm.org/citation.cfm?id=997857"}

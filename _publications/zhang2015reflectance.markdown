@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Reflectance Hashing For Material Recognition
-authors: Zhang Hang, Dana Kristin, Nishino Ko
+title: 'Reflectance Hashing For Material Recognition'
+authors: Hang Zhang, Kristin Dana, Ko Nishino
 conference: "Arxiv"
 year: 2015
+citations: 30
 bibkey: zhang2015reflectance
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1502.02092"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1502.02092'}
+tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
 ---
 We introduce a novel method for using reflectance to identify materials.
 Reflectance offers a unique signature of the material but is challenging to

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Eclipse Hashing Alexandrov Compactification And Hashing With Hyperspheres For Fast Similarity Search
-authors: Noma Yui, Konoshima Makiko
+title: 'Eclipse Hashing: Alexandrov Compactification And Hashing With Hyperspheres For Fast Similarity Search'
+authors: Yui Noma, Makiko Konoshima
 conference: "Arxiv"
 year: 2014
+citations: 0
 bibkey: noma2014eclipse
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1406.3882"}
-tags: ['ARXIV', 'Graph', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1406.3882'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
 ---
 The similarity searches that use high-dimensional feature vectors consisting
 of a vast amount of data have a wide range of application. One way of

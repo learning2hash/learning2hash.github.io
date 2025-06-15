@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Hash Distillation For Image Retrieval
-authors: Jang Young Kyun, Gu Geonmo, Ko Byungsoo, Kang Isaac, Cho Nam Ik
+title: 'Deep Hash Distillation For Image Retrieval'
+authors: Young Kyun Jang, Geonmo Gu, Byungsoo Ko, Isaac Kang, Nam Ik Cho
 conference: "Arxiv"
 year: 2021
+citations: 22
 bibkey: jang2021deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2112.08816"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2112.08816'}
+tags: ['Cross-Modal', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Deep Hashing', 'Quantization', 'Similarity Learning', 'Hashing', 'Applications']
 ---
 In hash-based image retrieval systems, degraded or transformed inputs usually
 generate different codes from the original, deteriorating the retrieval

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Approximate Similarity Search Under Edit Distance Using Locality-sensitive Hashing
-authors: Mccauley Samuel
+title: 'Approximate Similarity Search Under Edit Distance Using Locality-sensitive Hashing'
+authors: Samuel Mccauley
 conference: "Arxiv"
 year: 2019
+citations: 2
 bibkey: mccauley2019approximate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1907.01600"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1907.01600'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 Edit distance similarity search, also called approximate pattern matching, is
 a fundamental problem with widespread database applications. The goal of the

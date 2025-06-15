@@ -4,6 +4,7 @@ title: Distilling Knowledge By Mimicking Features
 authors: Wang Guo-hua, Ge Yifan, Wu Jianxin
 conference: "Arxiv"
 year: 2020
+citations: 13
 bibkey: wang2020distilling
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2011.01424"}

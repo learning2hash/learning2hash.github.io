@@ -4,6 +4,7 @@ title: HAC Hash-grid Assisted Context For 3D Gaussian Splatting Compression
 authors: Chen Yihang, Wu Qianyi, Lin Weiyao, Harandi Mehrtash, Cai Jianfei
 conference: "ECCV"
 year: 2024
+citations: 9
 bibkey: chen2024hac
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2403.14530"}

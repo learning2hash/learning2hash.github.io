@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Open-set Language Identification
-authors: Malmasi Shervin
+title: 'Open-set Language Identification'
+authors: Shervin Malmasi
 conference: "Arxiv"
 year: 2017
+citations: 0
 bibkey: malmasi2017open
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1707.04817"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1707.04817'}
+tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
 ---
 We present the first open-set language identification experiments using
 one-class classification. We first highlight the shortcomings of traditional

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Improved Upper Bound On A(188)
-authors: Polak Sven
+title: 'Improved Upper Bound On A(18,8)'
+authors: Sven Polak
 conference: "Arxiv"
 year: 2016
+citations: 0
 bibkey: polak2016improved
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1612.02178"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1612.02178'}
+tags: ['Unimodal', 'Independent', 'Vector Indexing', 'Shallow']
 ---
 For nonnegative integers \\(n\\) and \\(d\\), let \\(A(n,d)\\) be the maximum cardinality
 of a binary code of length \\(n\\) and minimum distance at least \\(d\\). We consider a

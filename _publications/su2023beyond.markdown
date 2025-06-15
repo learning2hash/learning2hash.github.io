@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Beyond Two-tower Matching Learning Sparse Retrievable Cross-interactions For Recommendation
-authors: Su Liangcai, Yan Fan, Zhu Jieming, Xiao Xi, Duan Haoyi, Zhao Zhou, Dong Zhenhua, Tang Ruiming
+title: 'Beyond Two-tower Matching: Learning Sparse Retrievable Cross-interactions For Recommendation'
+authors: Liangcai Su et al.
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: su2023beyond
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2311.18213"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2311.18213'}
+tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Applications']
 ---
 Two-tower models are a prevalent matching framework for recommendation, which
 have been widely deployed in industrial applications. The success of two-tower

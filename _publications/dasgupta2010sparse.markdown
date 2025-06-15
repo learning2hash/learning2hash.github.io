@@ -4,6 +4,7 @@ title: A Sparse Johnson--lindenstrauss Transform
 authors: Dasgupta Anirban, Kumar Ravi, Sarlós Tamás
 conference: "Arxiv"
 year: 2010
+citations: 262
 bibkey: dasgupta2010sparse
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1004.4240"}

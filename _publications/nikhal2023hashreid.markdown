@@ -4,6 +4,7 @@ title: Hashreid Dynamic Network With Binary Codes For Efficient Person Re-identi
 authors: Nikhal Kshitij, Ma Yujunrong, Bhattacharyya Shuvra S., Riggan Benjamin S.
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: nikhal2023hashreid
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2308.11900"}

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Model-enhanced Vector Index
-authors: Zhang Hailin, Wang Yujing, Chen Qi, Chang Ruiheng, Zhang Ting, Miao Ziming, Hou Yingyan, Ding Yang, Miao Xupeng, Wang Haonan, Pang Bochen, Zhan Yuefeng, Sun Hao, Deng Weiwei, Zhang Qi, Yang Fan, Xie Xing, Yang Mao, Cui Bin
+title: 'Model-enhanced Vector Index'
+authors: Hailin Zhang et al.
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: zhang2023model
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2309.13335"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2309.13335'}
+tags: ['Deep', 'Quantisation', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Vector Indexing', 'Quantization']
 ---
 Embedding-based retrieval methods construct vector indices to search for
 document representations that are most similar to the query representations.

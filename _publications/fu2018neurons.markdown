@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Neurons Merging Layer Towards Progressive Redundancy Reduction For Deep Supervised Hashing
-authors: Fu Chaoyou, Song Liangchen, Wu Xiang, Wang Guoli, He Ran
+title: 'Neurons Merging Layer: Towards Progressive Redundancy Reduction For Deep Supervised Hashing'
+authors: Chaoyou Fu, Liangchen Song, Xiang Wu, Guoli Wang, Ran He
 conference: "Arxiv"
 year: 2018
+citations: 3
 bibkey: fu2018neurons
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1809.02302"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1809.02302'}
+tags: ['Cross-Modal', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Deep Hashing', 'Supervised', 'Supervised Hashing']
 ---
 Deep supervised hashing has become an active topic in information retrieval.
 It generates hashing bits by the output neurons of a deep hashing network.

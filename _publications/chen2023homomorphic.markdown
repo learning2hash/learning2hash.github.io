@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Homomorphic Hashing Based On Elliptic Curve Cryptography
-authors: Chen Abel C. H.
+title: 'Homomorphic Hashing Based On Elliptic Curve Cryptography'
+authors: Abel C. H. Chen
 conference: "Arxiv"
 year: 2023
+citations: 1
 bibkey: chen2023homomorphic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2302.03290"}
-tags: ['ARXIV', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2302.03290'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Shallow', 'Hashing']
 ---
 For avoiding the exposure of plaintexts in cloud environments, some
 homomorphic hashing algorithms have been proposed to generate the hash value of

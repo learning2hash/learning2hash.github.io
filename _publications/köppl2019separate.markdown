@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Separate Chaining Meets Compact Hashing
-authors: Köppl Dominik
+title: 'Separate Chaining Meets Compact Hashing'
+authors: Dominik Köppl
 conference: "Arxiv"
 year: 2019
+citations: 1
 bibkey: köppl2019separate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.00163"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.00163'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing']
 ---
 While separate chaining is a common strategy for resolving collisions in a
 hash table taught in most textbooks, compact hashing is a less common technique

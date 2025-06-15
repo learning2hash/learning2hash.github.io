@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Meta Cross-modal Hashing On Long-tailed Data
-authors: Wang Runmin, Yu Guoxian, Domeniconi Carlotta, Zhang Xiangliang
+title: 'Meta Cross-modal Hashing On Long-tailed Data'
+authors: Runmin Wang, Guoxian Yu, Carlotta Domeniconi, Xiangliang Zhang
 conference: "Arxiv"
 year: 2021
+citations: 1
 bibkey: wang2021meta
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2111.04086"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2111.04086'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Datasets', 'Vector Indexing', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 Due to the advantage of reducing storage while speeding up query time on big
 heterogeneous data, cross-modal hashing has been extensively studied for

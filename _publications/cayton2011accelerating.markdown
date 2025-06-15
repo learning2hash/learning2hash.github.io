@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Accelerating Nearest Neighbor Search On Manycore Systems
-authors: Cayton Lawrence
-conference: "In Proceedings of the"
+title: 'Accelerating Nearest Neighbor Search On Manycore Systems'
+authors: Lawrence Cayton
+conference: "In Proceedings of the 2012 IEEE 26th International Parallel and Distributed Processing Symposium (IPDPS 12). IEEE Computer Society Washington DC USA 402-413"
 year: 2011
+citations: 29
 bibkey: cayton2011accelerating
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1103.2635"}
-tags: ['COLT', 'Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1103.2635'}
+tags: ['Cross-Modal', 'Unsupervised', 'Efficiency', 'Retrieval Models', 'Shallow', 'Datasets']
 ---
 We develop methods for accelerating metric similarity search that are
 effective on modern hardware. Our algorithms factor into easily parallelizable

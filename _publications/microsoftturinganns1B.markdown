@@ -4,6 +4,7 @@ title: "Microsoft Turing-ANNS-1B"
 authors: Herve Jegou
 conference: NeurIPS
 year: 2021
+citations: 0
 bibkey: microsoftturinganns1B 
 additional_links:
    - {name: "URL", url: "https://www.microsoft.com/en-us/research/publication/generic-intent-representation-in-web-search"}

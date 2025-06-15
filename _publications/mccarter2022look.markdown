@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Look-ups Are Not (yet) All You Need For Deep Learning Inference
-authors: Mccarter Calvin, Dronen Nicholas
+title: 'Look-ups Are Not (yet) All You Need For Deep Learning Inference'
+authors: Calvin Mccarter, Nicholas Dronen
 conference: "Arxiv"
 year: 2022
+citations: 1
 bibkey: mccarter2022look
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2207.05808"}
-tags: ['ARXIV', 'Deep Learning', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2207.05808'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Training Strategy', 'Hashing']
 ---
 Fast approximations to matrix multiplication have the potential to
 dramatically reduce the cost of neural network inference. Recent work on

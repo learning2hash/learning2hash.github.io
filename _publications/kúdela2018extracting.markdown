@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Extracting Parallel Paragraphs From Common Crawl
-authors: Kúdela Jakub, Holubová Irena, Bojar Ondřej
-conference: "The Prague Bulletin of Mathematical Linguistics Volume"
+title: 'Extracting Parallel Paragraphs From Common Crawl'
+authors: Jakub Kúdela, Irena Holubová, Ondřej Bojar
+conference: "The Prague Bulletin of Mathematical Linguistics Volume 107 Issue 1 Pages 39-56 ISSN (Online) 1804-0462 (2017)"
 year: 2018
+citations: 3
 bibkey: kúdela2018extracting
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1804.10413"}
-tags: ['Graph']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1804.10413'}
+tags: ['Unimodal', 'Supervised', 'Shallow', 'Hashing']
 ---
 Most of the current methods for mining parallel texts from the web assume
 that web pages of web sites share same structure across languages. We believe

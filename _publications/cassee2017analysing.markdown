@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Analysing The Performance Of GPU Hash Tables For State Space Exploration
-authors: Cassee Nathan Eindhoven University Of Technology, Eindhoven, The Netherlands, Wijs Anton Eindhoven University Of Technology, Eindhoven, The Netherlands
-conference: "EPTCS"
+title: 'Analysing The Performance Of GPU Hash Tables For State Space Exploration'
+authors: Nathan Eindhoven University Of Technology et al.
+conference: "EPTCS 263 2017 pp. 1-15"
 year: 2017
+citations: 5
 bibkey: cassee2017analysing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1712.09494"}
-tags: ['Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1712.09494'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Applications']
 ---
 In the past few years, General Purpose Graphics Processors (GPUs) have been
 used to significantly speed up numerous applications. One of the areas in which

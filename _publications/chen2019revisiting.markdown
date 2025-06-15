@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Revisiting Consistent Hashing With Bounded Loads
-authors: Chen John, Coleman Ben, Shrivastava Anshumali
+title: 'Revisiting Consistent Hashing With Bounded Loads'
+authors: John Chen, Ben Coleman, Anshumali Shrivastava
 conference: "Arxiv"
 year: 2019
+citations: 1
 bibkey: chen2019revisiting
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1908.08762"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1908.08762'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 Dynamic load balancing lies at the heart of distributed caching. Here, the
 goal is to assign objects (load) to servers (computing nodes) in a way that

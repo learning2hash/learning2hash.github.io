@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Fast Randomized Algorithm For Massive Text Normalization
-authors: Jiang Nan, Luo Chen, Lakshman Vihan, Dattatreya Yesh, Xue Yexiang
+title: 'A Fast Randomized Algorithm For Massive Text Normalization'
+authors: Nan Jiang, Chen Luo, Vihan Lakshman, Yesh Dattatreya, Yexiang Xue
 conference: "Arxiv"
 year: 2021
+citations: 1
 bibkey: jiang2021fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2110.03024"}
-tags: ['ARXIV', 'LSH', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2110.03024'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Evaluation', 'Shallow', 'Datasets', 'Vector Indexing', 'Hashing']
 ---
 Many popular machine learning techniques in natural language processing and
 data mining rely heavily on high-quality text sources. However real-world text

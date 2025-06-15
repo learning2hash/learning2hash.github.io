@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Codebook Based Audio Feature Representation For Music Information Retrieval
-authors: Vaizman Yonatan, Mcfee Brian, Lanckriet Gert
+title: 'Codebook Based Audio Feature Representation For Music Information Retrieval'
+authors: Yonatan Vaizman, Brian Mcfee, Gert Lanckriet
 conference: "Arxiv"
 year: 2013
+citations: 35
 bibkey: vaizman2013codebook
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1312.5457"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1312.5457'}
+tags: ['Quantisation', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Quantization', 'Applications']
 ---
 Digital music has become prolific in the web in recent decades. Automated
 recommendation systems are essential for users to discover music they love and

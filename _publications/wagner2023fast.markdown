@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Fast Private Kernel Density Estimation Via Locality Sensitive Quantization
-authors: Wagner Tal, Naamad Yonatan, Mishra Nina
+title: 'Fast Private Kernel Density Estimation Via Locality Sensitive Quantization'
+authors: Tal Wagner, Yonatan Naamad, Nina Mishra
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: wagner2023fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2307.01877"}
-tags: ['ARXIV', 'Independent', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2307.01877'}
+tags: ['Quantisation', 'Unimodal', 'Shallow', 'Datasets', 'Vector Indexing', 'Quantization', 'Hashing']
 ---
 We study efficient mechanisms for differentially private kernel density
 estimation (DP-KDE). Prior work for the Gaussian kernel described algorithms

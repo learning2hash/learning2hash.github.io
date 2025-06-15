@@ -4,6 +4,7 @@ title: Multidimensional Spectral Hashing
 authors: Weiss Y., Fergus, Torralba
 conference: "Arxiv"
 year: 2024
+citations: 68
 bibkey: weiss2024multidimensional
 additional_links:
   - {name: "Paper", url: "http://people.csail.mit.edu/torralba/publications/msh_eccv12.pdf"}

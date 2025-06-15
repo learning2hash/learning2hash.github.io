@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Hashing With Triplet Quantization Loss
-authors: Zhou Yuefu, Huang Shanshan, Zhang Ya, Wang Yanfeng
+title: 'Deep Hashing With Triplet Quantization Loss'
+authors: Yuefu Zhou, Shanshan Huang, Ya Zhang, Yanfeng Wang
 conference: "Arxiv"
 year: 2017
+citations: 3
 bibkey: zhou2017deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1710.11445"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1710.11445'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Shallow', 'Datasets', 'Deep Hashing', 'Quantization', 'Hashing']
 ---
 With the explosive growth of image databases, deep hashing, which learns
 compact binary descriptors for images, has become critical for fast image

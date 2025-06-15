@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Image Set Hashing
-authors: Feng Jie, Karaman Svebor, Jhuo I-hong, Chang Shih-fu
+title: 'Deep Image Set Hashing'
+authors: Jie Feng, Svebor Karaman, I-hong Jhuo, Shih-fu Chang
 conference: "Arxiv"
 year: 2016
+citations: 9
 bibkey: feng2016deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1606.05381"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1606.05381'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Evaluation', 'Hashing', 'Datasets', 'Supervised', 'Supervised Hashing', 'Applications']
 ---
 In applications involving matching of image sets, the information from
 multiple images must be effectively exploited to represent each set.

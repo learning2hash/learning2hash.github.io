@@ -4,10 +4,11 @@ title: Hihpq Hierarchical Hyperbolic Product Quantization For Unsupervised Image
 authors: Qiu Zexuan, Liu Jiahong, Chen Yankai, King Irwin
 conference: "Arxiv"
 year: 2024
+citations: 3
 bibkey: qiu2024hihpq
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2401.07212"}
-tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Unsupervised']
+tags: ['ARXIV', 'Image Retrieval', 'Quantisation', 'Unsupervised', 'Supervised']
 ---
 Existing unsupervised deep product quantization methods primarily aim for the
 increased similarity between different views of the identical image, whereas

@@ -4,6 +4,7 @@ title: Hashing Hyperplane Queries To Near Points With Applications To Large-scal
 authors: Jain P., Vijayanarasimhan, Grauman
 conference: "Arxiv"
 year: 2024
+citations: 23
 bibkey: jain2024hashing
 additional_links:
   - {name: "Paper", url: "https://papers.nips.cc/paper/4088-hashing-hyperplane-queries-to-near-points-with-applications-to-large-scale-active-learning.pdf"}

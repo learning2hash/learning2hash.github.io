@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Hashing Learning For Visual And Semantic Retrieval Of Remote Sensing Images
-authors: Song Weiwei, Li Shutao, Benediktsson Jon Atli
+title: 'Deep Hashing Learning For Visual And Semantic Retrieval Of Remote Sensing Images'
+authors: Weiwei Song, Shutao Li, Jon Atli Benediktsson
 conference: "Arxiv"
 year: 2019
+citations: 56
 bibkey: song2019deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1909.04614"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1909.04614'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Independent', 'Retrieval Models', 'Datasets', 'Deep Hashing', 'Training Strategy', 'Hashing', 'Applications']
 ---
 Driven by the urgent demand for managing remote sensing big data, large-scale
 remote sensing image retrieval (RSIR) attracts increasing attention in the

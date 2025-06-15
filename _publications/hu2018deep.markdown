@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep LDA Hashing
-authors: Hu Di, Nie Feiping, Li Xuelong
+title: 'Deep LDA Hashing'
+authors: Di Hu, Feiping Nie, Xuelong Li
 conference: "Arxiv"
 year: 2018
+citations: 0
 bibkey: hu2018deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1810.03402"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1810.03402'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Supervised Hashing']
 ---
 The conventional supervised hashing methods based on classification do not
 entirely meet the requirements of hashing technique, but Linear Discriminant

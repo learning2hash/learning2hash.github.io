@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Stacked Quantizers For Compositional Vector Compression
-authors: Martinez Julieta, Hoos Holger H., Little James J.
+title: 'Stacked Quantizers For Compositional Vector Compression'
+authors: Julieta Martinez, Holger H. Hoos, James J. Little
 conference: "Arxiv"
 year: 2014
+citations: 38
 bibkey: martinez2014stacked
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1411.2173"}
-tags: ['ARXIV', 'Quantisation', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1411.2173'}
+tags: ['Quantisation', 'Unimodal', 'Shallow', 'Compression', 'Datasets', 'Vector Indexing', 'Quantization', 'Hashing']
 ---
 Recently, Babenko and Lempitsky introduced Additive Quantization (AQ), a
 generalization of Product Quantization (PQ) where a non-independent set of

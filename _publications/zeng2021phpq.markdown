@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: PHPQ Pyramid Hybrid Pooling Quantization For Efficient Fine-grained Image Retrieval
-authors: Zeng Ziyun, Wang Jinpeng, Chen Bin, Dai Tao, Xia Shu-tao, Wang Zhi
+authors: Zeng Ziyun et al.
 conference: "Pattern Recognition Letters Volume"
 year: 2021
+citations: 7
 bibkey: zeng2021phpq
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2109.05206"}

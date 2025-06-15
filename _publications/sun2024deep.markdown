@@ -4,6 +4,7 @@ title: Deep Normalized Cross-modal Hashing With Bi-direction Relation Reasoning
 authors: Sun Changchang, Latapie, Liu, Yan
 conference: "Arxiv"
 year: 2024
+citations: 25
 bibkey: sun2024deep
 additional_links:
   - {name: "Paper", url: "https://openaccess.thecvf.com/content/CVPR2022W/ODRUM/papers/Sun_Deep_Normalized_Cross-Modal_Hashing_With_Bi-Direction_Relation_Reasoning_CVPRW_2022_paper.pdf"}

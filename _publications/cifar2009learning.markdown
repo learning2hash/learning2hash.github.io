@@ -4,12 +4,13 @@ title: "Learning Multiple Layers of Features from Tiny Images"
 authors: A. Krizhevsky
 conference: University of Toronto
 year: 2009
+citations: 24415
 bibkey: cifar2009learning
 additional_links:
    - {name: "PDF", url: "https://www.cs.toronto.edu/~kriz/learning-features-2009-TR.pdf"}
    - {name: "URL", url: "https://www.cs.toronto.edu/~kriz/cifar.html"}
    - {name: "Features", url: "https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=0&m="}
-tags: ['Dataset', 'Supervised']
+tags: ['Dataset', 'Supervised', 'Supervised']
 ---
 Groups at MIT and NYU have collected a dataset of millions of tiny colour images from the web. It
 is, in principle, an excellent dataset for unsupervised training of deep generative models, but previous

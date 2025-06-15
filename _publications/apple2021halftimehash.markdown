@@ -4,6 +4,7 @@ title: Halftimehash Modern Hashing Without 64-bit Multipliers Or Finite Fields
 authors: Apple Jim
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: apple2021halftimehash
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2104.08865"}

@@ -4,6 +4,7 @@ title: Topsig Topology Preserving Document Signatures
 authors: Geva Shlomo, De Vries Christopher M.
 conference: "Arxiv"
 year: 2012
+citations: 6
 bibkey: geva2012topsig
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1204.5373"}

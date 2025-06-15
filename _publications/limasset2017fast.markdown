@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Fast And Scalable Minimal Perfect Hashing For Massive Key Sets
-authors: Limasset Antoine, Rizk Guillaume, Chikhi Rayan, Peterlongo Pierre
+title: 'Fast And Scalable Minimal Perfect Hashing For Massive Key Sets'
+authors: Antoine Limasset, Guillaume Rizk, Rayan Chikhi, Pierre Peterlongo
 conference: "Arxiv"
 year: 2017
+citations: 38
 bibkey: limasset2017fast
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1702.03154"}
-  - {name: "Code", url: "https://github.com/rizkg/BBHash"}
-tags: ['ARXIV', 'Has Code', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1702.03154'}
+  - {name: "Code", url: 'https://github.com/rizkg/BBHash'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Has Code', 'Hashing']
 ---
 Minimal perfect hash functions provide space-efficient and collision-free
 hashing on static sets. Existing algorithms and implementations that build such

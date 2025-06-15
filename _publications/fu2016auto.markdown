@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Auto-jacobin Auto-encoder Jacobian Binary Hashing
-authors: Fu Xiping, Mccane Brendan, Mills Steven, Albert Michael, Szymanski Lech
+title: 'Auto-jacobin: Auto-encoder Jacobian Binary Hashing'
+authors: Xiping Fu, Brendan Mccane, Steven Mills, Michael Albert, Lech Szymanski
 conference: "Arxiv"
 year: 2016
+citations: 3
 bibkey: fu2016auto
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1602.08127"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1602.08127'}
+tags: ['Model Design', 'Retrieval Models', 'Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 Binary codes can be used to speed up nearest neighbor search tasks in large
 scale data sets as they are efficient for both storage and retrieval. In this

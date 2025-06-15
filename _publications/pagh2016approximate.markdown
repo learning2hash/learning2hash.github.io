@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Approximate Furthest Neighbor With Application To Annulus Query
-authors: Pagh Rasmus, Silvestri Francesco, Sivertsen Johan, Skala Matthew
-conference: "Information Systems Available online"
+title: 'Approximate Furthest Neighbor With Application To Annulus Query'
+authors: Rasmus Pagh, Francesco Silvestri, Johan Sivertsen, Matthew Skala
+conference: "Information Systems Available online 22 July 2016 ISSN 0306-4379"
 year: 2016
+citations: 7
 bibkey: pagh2016approximate
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1611.07303"}
-tags: ['Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1611.07303'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Applications']
 ---
 Much recent work has been devoted to approximate nearest neighbor queries.
 Motivated by applications in recommender systems, we consider approximate

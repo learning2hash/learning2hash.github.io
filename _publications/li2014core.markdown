@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Core Kernels
-authors: Li Ping
+title: 'Core Kernels'
+authors: Ping Li
 conference: "Arxiv"
 year: 2014
+citations: 0
 bibkey: li2014core
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1404.6216"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1404.6216'}
+tags: ['Unimodal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
 ---
 The term "CoRE kernel" stands for correlation-resemblance kernel. In many
 applications (e.g., vision), the data are often high-dimensional, sparse, and

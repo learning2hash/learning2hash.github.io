@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Online Enhanced Semantic Hashing Towards Effective And Efficient Retrieval For Streaming Multi-modal Data
-authors: Wu Xiao-ming, Luo Xin, Zhan Yu-wei, Ding Chen-lu, Chen Zhen-duo, Xu Xin-shun
+title: 'Online Enhanced Semantic Hashing: Towards Effective And Efficient Retrieval For Streaming Multi-modal Data'
+authors: Xiao-ming Wu et al.
 conference: "Arxiv"
 year: 2021
+citations: 7
 bibkey: wu2021online
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2109.04260"}
-tags: ['ARXIV', 'Streaming Data']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2109.04260'}
+tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Hashing', 'Supervised', 'Training Strategy', 'Multi-Modal Hashing', 'Supervised Hashing', 'Applications']
 ---
 With the vigorous development of multimedia equipment and applications,
 efficient retrieval of large-scale multi-modal data has become a trendy

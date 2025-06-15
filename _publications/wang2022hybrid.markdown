@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Hybrid Contrastive Quantization For Efficient Cross-view Video Retrieval
-authors: Wang Jinpeng, Chen Bin, Liao Dongliang, Zeng Ziyun, Li Gongfu, Xia Shu-tao, Xu Jin
+title: 'Hybrid Contrastive Quantization For Efficient Cross-view Video Retrieval'
+authors: Jinpeng Wang et al.
 conference: "Arxiv"
 year: 2022
+citations: 6
 bibkey: wang2022hybrid
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2202.03384"}
-  - {name: "Code", url: "https://github.com/gimpong/WWW22-HCQ"}
-tags: ['ARXIV', 'Cross Modal', 'Has Code', 'Quantisation', 'Self Supervised', 'Video Retrieval']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2202.03384'}
+  - {name: "Code", url: 'https://github.com/gimpong/WWW22-HCQ'}
+tags: ['Cross-Modal', 'Deep', 'Model Design', 'Quantisation', 'Retrieval Models', 'Benchmarks and Tools', 'Efficiency', 'Compression', 'Datasets', 'Vector Indexing', 'Has Code', 'Quantization']
 ---
 With the recent boom of video-based social platforms (e.g., YouTube and
 TikTok), video retrieval using sentence queries has become an important demand

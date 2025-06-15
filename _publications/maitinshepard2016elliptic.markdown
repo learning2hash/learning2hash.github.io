@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Elliptic Curve Multiset Hash
-authors: Maitin-shepard Jeremy, Tibouchi Mehdi, Aranha Diego
+title: 'Elliptic Curve Multiset Hash'
+authors: Jeremy Maitin-shepard, Mehdi Tibouchi, Diego Aranha
 conference: "Arxiv"
 year: 2016
+citations: 5
 bibkey: maitinshepard2016elliptic
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1601.06502"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1601.06502'}
+tags: ['Cross-Modal', 'Independent', 'Evaluation', 'Shallow', 'Hashing', 'Applications']
 ---
 A homomorphic, or incremental, multiset hash function, associates a hash
 value to arbitrary collections of objects (with possible repetitions) in such a

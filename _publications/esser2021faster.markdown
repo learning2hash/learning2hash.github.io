@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Faster Algorithm For Finding Closest Pairs In Hamming Metric
-authors: Esser Andre, Kübler Robert, Zweydinger Floyd
+title: 'A Faster Algorithm For Finding Closest Pairs In Hamming Metric'
+authors: Andre Esser, Robert Kübler, Floyd Zweydinger
 conference: "Arxiv"
 year: 2021
+citations: 1
 bibkey: esser2021faster
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2102.02597"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2102.02597'}
+tags: ['Independent', 'Unimodal', 'Evaluation', 'Shallow', 'Hashing']
 ---
 We study the Closest Pair Problem in Hamming metric, which asks to find the
 pair with the smallest Hamming distance in a collection of binary vectors. We

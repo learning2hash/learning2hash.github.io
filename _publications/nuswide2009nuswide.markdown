@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: "NUS-WIDE: a real-world web image database from National University of Singapore"
-authors: T. Chua, J. Tang, R. Hong, H. Li, Z. Luo, Y. Zheng
+authors: T. Chua et al.
 conference: CIVR
 year: 2009
+citations: 0
 bibkey: nuswide2009nuswide
 additional_links:
    - {name: "URL", url: "ftp://vista.eng.tau.ac.il/dropbox/Litman/NUS-WIDE%20Homepage/NUS-WIDE%20Homepage.html"}

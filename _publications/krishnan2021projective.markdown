@@ -4,6 +4,7 @@ title: Projective Clustering Product Quantization
 authors: Krishnan Aditya, Liberty Edo
 conference: "Arxiv"
 year: 2021
+citations: 2
 bibkey: krishnan2021projective
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2112.02179"}

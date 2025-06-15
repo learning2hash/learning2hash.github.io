@@ -4,6 +4,7 @@ title: Improving Style Similarity Metrics Of 3D Shapes
 authors: Dev Kapil, Lau Manfred
 conference: "Arxiv"
 year: 2015
+citations: 2
 bibkey: dev2015improving
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1512.08826"}

@@ -4,6 +4,7 @@ title: Separated Variational Hashing Networks For Cross-modal Retrieval
 authors: Hu Peng, Wang, Zhen, Peng
 conference: "Arxiv"
 year: 2024
+citations: 26
 bibkey: hu2024separated
 additional_links:
   - {name: "Paper", url: "https://dl.acm.org/citation.cfm?id=3351078"}

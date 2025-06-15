@@ -4,6 +4,7 @@ title: Variable-length Quantization Strategy For Hashing
 authors: Shi Yang, Nie, Zhou, Xi, Yin
 conference: "Arxiv"
 year: 2024
+citations: 1
 bibkey: shi2024variable
 additional_links:
   - {name: "Paper", url: "https://ieeexplore.ieee.org/document/8803270"}

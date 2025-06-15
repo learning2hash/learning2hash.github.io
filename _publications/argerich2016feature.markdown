@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hash2vec Feature Hashing For Word Embeddings
-authors: Argerich Luis, Zaffaroni Joaquín Torré, Cano Matías J
-conference: ""
+title: 'Hash2vec, Feature Hashing For Word Embeddings'
+authors: Luis Argerich, Joaquín Torré Zaffaroni, Matías J Cano
+conference: "45 JAIIO - ASAI 2016 - ISSN 2451-7585 - Pages 33-40"
 year: 2016
+citations: 9
 bibkey: argerich2016feature
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1608.08940"}
-tags: ['Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1608.08940'}
+tags: ['Cross-Modal', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing', 'Applications']
 ---
 In this paper we propose the application of feature hashing to create word
 embeddings for natural language processing. Feature hashing has been used

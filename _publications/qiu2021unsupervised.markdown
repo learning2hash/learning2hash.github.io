@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Hashing With Contrastive Information Bottleneck
-authors: Qiu Zexuan, Su Qinliang, Ou Zijing, Yu Jianxing, Chen Changyou
+title: 'Unsupervised Hashing With Contrastive Information Bottleneck'
+authors: Zexuan Qiu, Qinliang Su, Zijing Ou, Jianxing Yu, Changyou Chen
 conference: "Arxiv"
 year: 2021
+citations: 52
 bibkey: qiu2021unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2105.06138"}
-tags: ['ARXIV', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2105.06138'}
+tags: ['Unimodal', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Supervised', 'Training Strategy', 'Supervised Hashing']
 ---
 Many unsupervised hashing methods are implicitly established on the idea of
 reconstructing the input data, which basically encourages the hashing codes to

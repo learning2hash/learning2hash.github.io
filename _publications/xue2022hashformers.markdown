@@ -4,10 +4,11 @@ title: Hashformers Towards Vocabulary-independent Pre-trained Transformers
 authors: Xue Huiyin, Aletras Nikolaos
 conference: "Arxiv"
 year: 2022
+citations: 0
 bibkey: xue2022hashformers
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2210.07904"}
-tags: ['ARXIV', 'Independent']
+tags: ['ARXIV', 'Independent', 'Independent']
 ---
 Transformer-based pre-trained language models are vocabulary-dependent,
 mapping by default each token to its corresponding embedding. This one-to-one

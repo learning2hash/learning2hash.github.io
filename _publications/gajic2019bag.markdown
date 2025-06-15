@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Bag Of Negatives For Siamese Architectures
-authors: Gajic Bojana, Amato Ariel, Baldrich Ramon, Gatta Carlo
+title: 'Bag Of Negatives For Siamese Architectures'
+authors: Bojana Gajic, Ariel Amato, Ramon Baldrich, Carlo Gatta
 conference: "Arxiv"
 year: 2019
+citations: 2
 bibkey: gajic2019bag
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1908.02391"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1908.02391'}
+tags: ['Cross-Modal', 'Independent', 'Shallow', 'Datasets', 'Training Strategy', 'Hashing']
 ---
 Training a Siamese architecture for re-identification with a large number of
 identities is a challenging task due to the difficulty of finding relevant

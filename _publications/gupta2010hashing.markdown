@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing Image Patches For Zooming
-authors: Gupta Mithun Das
+title: 'Hashing Image Patches For Zooming'
+authors: Mithun Das Gupta
 conference: "Arxiv"
 year: 2010
+citations: 2
 bibkey: gupta2010hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1004.3980"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1004.3980'}
+tags: ['Unimodal', 'Independent', 'Hashing', 'Shallow']
 ---
 In this paper we present a Bayesian image zooming/super-resolution algorithm
 based on a patch based representation. We work on a patch based model with

@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Triplet Similarity Embedding For Face Verification
-authors: Sankaranarayanan Swami, Alavi Azadeh, Chellappa Rama
+title: 'Triplet Similarity Embedding For Face Verification'
+authors: Swami Sankaranarayanan, Azadeh Alavi, Rama Chellappa
 conference: "Arxiv"
 year: 2016
+citations: 47
 bibkey: sankaranarayanan2016triplet
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1602.03418"}
-tags: ['ARXIV', 'CNN']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1602.03418'}
+tags: ['Deep', 'Unimodal', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 In this work, we present an unconstrained face verification algorithm and
 evaluate it on the recently released IJB-A dataset that aims to push the

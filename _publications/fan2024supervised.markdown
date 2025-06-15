@@ -4,10 +4,11 @@ title: Supervised Binary Hash Code Learning With Jensen Shannon Divergence
 authors: Fan Lixin
 conference: "Arxiv"
 year: 2024
+citations: 6
 bibkey: fan2024supervised
 additional_links:
   - {name: "Paper", url: "http://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Fan_Supervised_Binary_Hash_2013_ICCV_paper.pdf"}
-tags: ['ARXIV', 'Supervised']
+tags: ['ARXIV', 'Supervised', 'Supervised']
 ---
 This paper proposes to learn binary hash codes within
 a statistical learning framework, in which an upper bound

@@ -4,6 +4,7 @@ title: Learning Binary Codes For High-dimensional Data Using Bilinear Projection
 authors: Gong Y., Kumar, Rowley, Lazebnik
 conference: "Arxiv"
 year: 2024
+citations: 121
 bibkey: gong2024learning
 additional_links:
   - {name: "Paper", url: "http://sanjivk.com/bilinearHashing_CVPR13.pdf"}

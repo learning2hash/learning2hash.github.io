@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Regular And Almost Universal Hashing An Efficient Implementation
-authors: Ivanchykhin Dmytro, Ignatchenko Sergey, Lemire Daniel
-conference: "Software Practice and Experience"
+title: 'Regular And Almost Universal Hashing: An Efficient Implementation'
+authors: Dmytro Ivanchykhin, Sergey Ignatchenko, Daniel Lemire
+conference: "Software Practice and Experience 47 (10) 2017"
 year: 2016
+citations: 3
 bibkey: ivanchykhin2016regular
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1609.09840"}
-tags: ['Graph', 'Independent', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1609.09840'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Surveys and Reviews', 'Training Strategy', 'Survey Paper', 'Hashing']
 ---
 Random hashing can provide guarantees regarding the performance of data
 structures such as hash tables---even in an adversarial setting. Many existing

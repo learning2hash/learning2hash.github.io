@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Anti-sparse Coding For Approximate Nearest Neighbor Search
-authors: Jégou Hervé Inria - Irisa, Furon Teddy Inria - Irisa, Fuchs Jean-jacques Inria - Irisa
+title: 'Anti-sparse Coding For Approximate Nearest Neighbor Search'
+authors: Hervé Inria - Irisa Jégou, Teddy Inria - Irisa Furon, Jean-jacques Inria - Irisa Fuchs
 conference: "Arxiv"
 year: 2011
+citations: 29
 bibkey: jégou2011anti
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1110.3767"}
-tags: ['ARXIV', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1110.3767'}
+tags: ['Independent', 'Retrieval Models', 'Unimodal', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 This paper proposes a binarization scheme for vectors of high dimension based
 on the recent concept of anti-sparse coding, and shows its excellent

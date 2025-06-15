@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: EFANNA An Extremely Fast Approximate Nearest Neighbor Search Algorithm Based On Knn Graph
-authors: Fu Cong, Cai Deng
+title: 'EFANNA : An Extremely Fast Approximate Nearest Neighbor Search Algorithm Based On Knn Graph'
+authors: Cong Fu, Deng Cai
 conference: "Arxiv"
 year: 2016
+citations: 65
 bibkey: fu2016efanna
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1609.07228"}
-tags: ['ARXIV', 'Graph', 'Independent']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1609.07228'}
+tags: ['Independent', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Vector Indexing', 'Hashing']
 ---
 Approximate nearest neighbor (ANN) search is a fundamental problem in many
 areas of data mining, machine learning and computer vision. The performance of

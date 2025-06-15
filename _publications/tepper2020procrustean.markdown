@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Procrustean Orthogonal Sparse Hashing
-authors: Tepper Mariano, Sengupta Dipanjan, Willke Ted
+title: 'Procrustean Orthogonal Sparse Hashing'
+authors: Mariano Tepper, Dipanjan Sengupta, Ted Willke
 conference: "Arxiv"
 year: 2020
+citations: 1
 bibkey: tepper2020procrustean
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2006.04847"}
-tags: ['ARXIV', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2006.04847'}
+tags: ['Cross-Modal', 'Efficiency', 'Retrieval Models', 'Shallow', 'Supervised', 'Training Strategy', 'Hashing']
 ---
 Hashing is one of the most popular methods for similarity search because of
 its speed and efficiency. Dense binary hashing is prevalent in the literature.

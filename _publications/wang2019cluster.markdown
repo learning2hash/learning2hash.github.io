@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Cluster-wise Unsupervised Hashing For Cross-modal Similarity Search
-authors: Wang Lu, Yang Jie
+title: 'Cluster-wise Unsupervised Hashing For Cross-modal Similarity Search'
+authors: Lu Wang, Jie Yang
 conference: "Arxiv"
 year: 2019
+citations: 21
 bibkey: wang2019cluster
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1911.07923"}
-tags: ['ARXIV', 'Cross Modal', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1911.07923'}
+tags: ['Cross-Modal', 'Independent', 'Retrieval Models', 'Shallow', 'Hashing', 'Datasets', 'Unsupervised Hashing', 'Training Strategy', 'Multi-Modal Hashing', 'Supervised Hashing', 'Applications']
 ---
 Large-scale cross-modal hashing similarity retrieval has attracted more and
 more attention in modern search applications such as search engines and

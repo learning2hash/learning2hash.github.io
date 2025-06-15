@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Towards A Model For LSH
-authors: Wang Li
+title: 'Towards A Model For LSH'
+authors: Li Wang
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: wang2021towards
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2105.05130"}
-tags: ['ARXIV', 'Independent', 'LSH']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2105.05130'}
+tags: ['Deep', 'Unsupervised', 'Unimodal', 'Vector Indexing', 'Hashing']
 ---
 As data volumes continue to grow, clustering and outlier detection algorithms
 are becoming increasingly time-consuming. Classical index structures for

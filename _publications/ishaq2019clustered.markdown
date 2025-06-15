@@ -4,6 +4,7 @@ title: Clustered Hierarchical Entropy-scaling Search Of Astronomical And Biologi
 authors: Ishaq Najib, Student George, Daniels Noah M.
 conference: "Arxiv"
 year: 2019
+citations: 3
 bibkey: ishaq2019clustered
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1908.08551"}

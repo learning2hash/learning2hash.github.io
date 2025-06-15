@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hardness Of Approximate Nearest Neighbor Search
-authors: Rubinstein Aviad
+title: 'Hardness Of Approximate Nearest Neighbor Search'
+authors: Aviad Rubinstein
 conference: "Arxiv"
 year: 2018
+citations: 33
 bibkey: rubinstein2018hardness
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1803.00904"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1803.00904'}
+tags: ['Unsupervised', 'Efficiency', 'Unimodal', 'Retrieval Models', 'Shallow', 'Vector Indexing']
 ---
 We prove conditional near-quadratic running time lower bounds for approximate
 Bichromatic Closest Pair with Euclidean, Manhattan, Hamming, or edit distance.

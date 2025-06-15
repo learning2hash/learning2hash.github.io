@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Hadamard Matrix Guided Online Hashing
-authors: Lin Mingbao, Ji Rongrong, Liu Hong, Sun Xiaoshuai, Chen Shen, Tian Qi
+title: 'Hadamard Matrix Guided Online Hashing'
+authors: Mingbao Lin et al.
 conference: "Arxiv"
 year: 2019
+citations: 32
 bibkey: lin2019hadamard
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.04454"}
-  - {name: "Code", url: "https://github.com/lmbxmu/mycode"}
-tags: ['ARXIV', 'Has Code', 'LSH', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.04454'}
+  - {name: "Code", url: 'https://github.com/lmbxmu/mycode'}
+tags: ['Deep', 'Independent', 'Efficiency', 'Unimodal', 'Vector Indexing', 'Has Code', 'Training Strategy', 'Hashing']
 ---
 Online image hashing has attracted increasing research attention recently,
 which receives large-scale data in a streaming manner to update the hash

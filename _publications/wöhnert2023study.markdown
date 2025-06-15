@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Study On The Use Of Perceptual Hashing To Detect Manipulation Of Embedded Messages In Images
-authors: Wöhnert Sven-jannik, Wöhnert Kai Hendrik, Almamedov Eldar, Frank Carsten, Skwarek Volker
+title: 'A Study On The Use Of Perceptual Hashing To Detect Manipulation Of Embedded Messages In Images'
+authors: Sven-jannik Wöhnert, Kai Hendrik Wöhnert, Eldar Almamedov, Carsten Frank, Volker Skwarek
 conference: "Arxiv"
 year: 2023
+citations: 0
 bibkey: wöhnert2023study
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2303.00092"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2303.00092'}
+tags: ['Independent', 'Unimodal', 'Shallow', 'Compression', 'Hashing']
 ---
 Typically, metadata of images are stored in a specific data segment of the
 image file. However, to securely detect changes, data can also be embedded

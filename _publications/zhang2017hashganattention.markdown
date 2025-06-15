@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Hashganattention-aware Deep Adversarial Hashing For Cross Modal Retrieval
-authors: Zhang Xi, Zhou Siyu, Feng Jiashi, Lai Hanjiang, Li Bo, Pan Yan, Yin Jian, Yan Shuicheng
+authors: Zhang Xi et al.
 conference: "Arxiv"
 year: 2017
+citations: 106
 bibkey: zhang2017hashganattention
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1711.09347"}

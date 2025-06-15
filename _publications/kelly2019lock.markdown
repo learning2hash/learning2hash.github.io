@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Lock-free Hopscotch Hashing
-authors: Kelly Robert, Pearlmutter Barak A., Maguire Phil
+title: 'Lock-free Hopscotch Hashing'
+authors: Robert Kelly, Barak A. Pearlmutter, Phil Maguire
 conference: "Arxiv"
 year: 2019
+citations: 4
 bibkey: kelly2019lock
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1911.03028"}
-tags: ['ARXIV']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1911.03028'}
+tags: ['Unimodal', 'Shallow', 'Compression', 'Supervised', 'Hashing']
 ---
 In this paper we present a lock-free version of Hopscotch Hashing. Hopscotch
 Hashing is an open addressing algorithm originally proposed by Herlihy, Shavit,

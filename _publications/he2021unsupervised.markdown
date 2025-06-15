@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Unsupervised Domain-adaptive Hash For Networks
-authors: He Tao, Gao Lianli, Song Jingkuan, Li Yuan-fang
+title: 'Unsupervised Domain-adaptive Hash For Networks'
+authors: Tao He, Lianli Gao, Jingkuan Song, Yuan-fang Li
 conference: "Arxiv"
 year: 2021
+citations: 0
 bibkey: he2021unsupervised
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2108.09136"}
-tags: ['ARXIV', 'Cross Modal', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2108.09136'}
+tags: ['Cross-Modal', 'Deep', 'Efficiency', 'Retrieval Models', 'Evaluation', 'Hashing', 'Supervised', 'Supervised Hashing', 'Applications']
 ---
 Abundant real-world data can be naturally represented by large-scale
 networks, which demands efficient and effective learning algorithms. At the

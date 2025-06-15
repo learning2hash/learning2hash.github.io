@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Hashing Geographical Point Data Using The Space-filling H-curve
-authors: Netay Igor V.
+title: 'Hashing Geographical Point Data Using The Space-filling H-curve'
+authors: Igor V. Netay
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: netay2024hashing
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2403.16216"}
-tags: ['ARXIV', 'Graph', 'Unsupervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2403.16216'}
+tags: ['Unsupervised', 'Cross-Modal', 'Deep', 'Hashing']
 ---
 We construct geohashing procedure based on using of space-filling H-curve.
 This curve provides a way to construct geohash with less computations than the

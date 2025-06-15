@@ -4,6 +4,7 @@ title: Fast Binary Embeddings And Quantized Compressed Sensing With Structured M
 authors: Huynh Thang, Saab Rayan
 conference: "Arxiv"
 year: 2018
+citations: 12
 bibkey: huynh2018fast
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/1801.08639"}

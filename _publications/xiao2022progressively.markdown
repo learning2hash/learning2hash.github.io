@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: Progressively Optimized Bi-granular Document Representation For Scalable Embedding Based Retrieval
-authors: Xiao Shitao, Liu Zheng, Han Weihao, Zhang Jianjin, Shao Yingxia, Lian Defu, Li Chaozhuo, Sun Hao, Deng Denvy, Zhang Liangjie, Zhang Qi, Xie Xing
+title: 'Progressively Optimized Bi-granular Document Representation For Scalable Embedding Based Retrieval'
+authors: Shitao Xiao et al.
 conference: "Arxiv"
 year: 2022
+citations: 11
 bibkey: xiao2022progressively
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2201.05409"}
-  - {name: "Code", url: "https://github.com/microsoft/BiDR"}
-tags: ['ARXIV', 'Deep Learning', 'Has Code', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2201.05409'}
+  - {name: "Code", url: 'https://github.com/microsoft/BiDR'}
+tags: ['Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Unimodal', 'Vector Indexing', 'Has Code', 'Training Strategy']
 ---
 Ad-hoc search calls for the selection of appropriate answers from a
 massive-scale corpus. Nowadays, the embedding-based retrieval (EBR) becomes a

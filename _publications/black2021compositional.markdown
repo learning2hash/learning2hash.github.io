@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Compositional Sketch Search
-authors: Black Alexander, Bui Tu, Mai Long, Jin Hailin, Collomosse John
+title: 'Compositional Sketch Search'
+authors: Alexander Black, Tu Bui, Long Mai, Hailin Jin, John Collomosse
 conference: "Arxiv"
 year: 2021
+citations: 1
 bibkey: black2021compositional
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2106.08009"}
-tags: ['ARXIV', 'CNN', 'Image Retrieval', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2106.08009'}
+tags: ['Cross-Modal', 'Quantization', 'Deep', 'Quantisation', 'Retrieval Models', 'Training Strategy', 'Supervised Hashing', 'Applications']
 ---
 We present an algorithm for searching image collections using free-hand
 sketches that describe the appearance and relative positions of multiple

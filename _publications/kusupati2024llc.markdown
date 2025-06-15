@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: LLC Accurate Multi-purpose Learnt Low-dimensional Binary Codes
-authors: Kusupati Aditya, Wallingford, Ramanujan, Somani, Park, Pillutla, Jain, Kakade, Farhadi
+authors: Kusupati Aditya et al.
 conference: "Arxiv"
 year: 2024
+citations: 0
 bibkey: kusupati2024llc
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/pdf/2106.01487"}

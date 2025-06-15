@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Instance-level Sketch-based Retrieval By Deep Triplet Classification Siamese Network
-authors: Lu Peng, Lin Hangyu, Fu Yanwei, Gong Shaogang, Jiang Yu-gang, Xue Xiangyang
+title: 'Instance-level Sketch-based Retrieval By Deep Triplet Classification Siamese Network'
+authors: Peng Lu et al.
 conference: "Arxiv"
 year: 2018
+citations: 2
 bibkey: lu2018instance
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1811.11375"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1811.11375'}
+tags: ['Cross-Modal', 'Deep', 'Retrieval Models', 'Datasets', 'Supervised', 'Training Strategy', 'Applications']
 ---
 Sketch has been employed as an effective communicative tool to express the
 abstract and intuitive meanings of object. Recognizing the free-hand sketch

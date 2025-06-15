@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Derived Codebooks For High-accuracy Nearest Neighbor Search
-authors: André Fabien, Kermarrec Anne-marie, Scouarnec Nicolas Le
+title: 'Derived Codebooks For High-accuracy Nearest Neighbor Search'
+authors: Fabien André, Anne-marie Kermarrec, Nicolas Le Scouarnec
 conference: "Arxiv"
 year: 2019
+citations: 1
 bibkey: andré2019derived
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1905.06900"}
-tags: ['ARXIV', 'Quantisation']
+  - {name: "Paper", url: 'https://arxiv.org/abs/1905.06900'}
+tags: ['Cross-Modal', 'Quantisation', 'Retrieval Models', 'Evaluation', 'Shallow', 'Vector Indexing', 'Quantization']
 ---
 High-dimensional Nearest Neighbor (NN) search is central in multimedia search
 systems. Product Quantization (PQ) is a widespread NN search technique which

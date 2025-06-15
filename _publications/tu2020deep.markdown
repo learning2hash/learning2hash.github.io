@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: Deep Cross-modal Hashing Via Margin-dynamic-softmax Loss
-authors: Tu Rong-cheng, Mao Xian-ling, Tu Rongxin, Bian Binbin, Wei Wei, Huang Heyan
+title: 'Deep Cross-modal Hashing Via Margin-dynamic-softmax Loss'
+authors: Rong-cheng Tu et al.
 conference: "Arxiv"
 year: 2020
+citations: 2
 bibkey: tu2020deep
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2011.03451"}
-tags: ['ARXIV', 'Cross Modal', 'Supervised']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2011.03451'}
+tags: ['Cross-Modal', 'Deep', 'Independent', 'Efficiency', 'Retrieval Models', 'Training Strategy', 'Multi-Modal Hashing', 'Hashing']
 ---
 Due to their high retrieval efficiency and low storage cost for cross-modal
 search task, cross-modal hashing methods have attracted considerable attention.

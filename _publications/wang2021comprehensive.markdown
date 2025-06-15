@@ -1,13 +1,14 @@
 ---
 layout: publication
-title: A Comprehensive Survey And Experimental Comparison Of Graph-based Approximate Nearest Neighbor Search
-authors: Wang Mengzhao, Xu Xiaoliang, Yue Qiang, Wang Yuxiang
+title: 'A Comprehensive Survey And Experimental Comparison Of Graph-based Approximate Nearest Neighbor Search'
+authors: Mengzhao Wang, Xiaoliang Xu, Qiang Yue, Yuxiang Wang
 conference: "Arxiv"
 year: 2021
+citations: 110
 bibkey: wang2021comprehensive
 additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2101.12631"}
-tags: ['ARXIV', 'Graph', 'Survey Paper']
+  - {name: "Paper", url: 'https://arxiv.org/abs/2101.12631'}
+tags: ['Cross-Modal', 'Unsupervised', 'Retrieval Models', 'Evaluation', 'Shallow', 'Datasets', 'Surveys and Reviews', 'Vector Indexing', 'Survey Paper', 'Applications']
 ---
 Approximate nearest neighbor search (ANNS) constitutes an important operation
 in a multitude of applications, including recommendation systems, information

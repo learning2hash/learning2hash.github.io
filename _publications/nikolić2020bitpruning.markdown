@@ -1,9 +1,10 @@
 ---
 layout: publication
 title: Bitpruning Learning Bitlengths For Aggressive And Accurate Quantization
-authors: Nikolić Miloš, Hacene Ghouthi Boukli, Bannon Ciaran, Lascorz Alberto Delmas, Courbariaux Matthieu, Bengio Yoshua, Gripon Vincent, Moshovos Andreas
+authors: Nikolić Miloš et al.
 conference: "Arxiv"
 year: 2020
+citations: 2
 bibkey: nikolić2020bitpruning
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2002.03090"}

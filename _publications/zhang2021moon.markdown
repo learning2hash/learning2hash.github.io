@@ -4,6 +4,7 @@ title: MOON Multi-hash Codes Joint Learning For Cross-media Retrieval
 authors: Zhang Donglin, Wu Xiao-jun, Yin He-feng, Kittler Josef
 conference: "Arxiv"
 year: 2021
+citations: 10
 bibkey: zhang2021moon
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2109.00883"}

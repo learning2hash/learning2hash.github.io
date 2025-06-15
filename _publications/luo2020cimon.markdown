@@ -1,13 +1,14 @@
 ---
 layout: publication
 title: CIMON Towards High-quality Hash Codes
-authors: Luo Xiao, Wu Daqing, Ma Zeyu, Chen Chong, Deng Minghua, Ma Jinwen, Jin Zhongming, Huang Jianqiang, Hua Xian-sheng
+authors: Luo Xiao et al.
 conference: "Arxiv"
 year: 2020
+citations: 25
 bibkey: luo2020cimon
 additional_links:
   - {name: "Paper", url: "https://arxiv.org/abs/2010.07804"}
-tags: ['ARXIV', 'Unsupervised']
+tags: ['ARXIV', 'Unsupervised', 'Supervised']
 ---
 Recently, hashing is widely used in approximate nearest neighbor search for
 its storage and computational efficiency. Most of the unsupervised hashing
