@@ -7,8 +7,8 @@ year: 2019
 citations: 19
 bibkey: do2019simultaneous
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.11820'}]
-tags: [Applications, Unsupervised, Supervised, Hashing Methods, Benchmarks and Datasets,
-  Evaluation Metrics]
+tags: [Applications, Unsupervised, Supervised, Hashing Methods, Evaluation Metrics,
+  Benchmarks and Datasets]
 ---
 Representing images by compact hash codes is an attractive approach for
 large-scale content-based image retrieval. In most state-of-the-art

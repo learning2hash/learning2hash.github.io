@@ -7,7 +7,7 @@ year: 2017
 citations: 30
 bibkey: deng2017learning
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.10211'}]
-tags: [Applications, Benchmarks and Datasets, Deep Hashing]
+tags: [Applications, Benchmarks and Datasets, Loss Functions]
 ---
 Fabric image retrieval is beneficial to many applications including clothing
 searching, online shopping and cloth modeling. Learning pairwise image

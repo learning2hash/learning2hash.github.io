@@ -8,7 +8,7 @@ year: 2024
 citations: 0
 bibkey: collyer2024know
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.02606'}]
-tags: [Graph, Supervised, Deep Hashing, ANN Search]
+tags: [Graph, Supervised]
 ---
 Binary code similarity detection is an important problem with applications in
 areas like malware analysis, vulnerability research and plagiarism detection.

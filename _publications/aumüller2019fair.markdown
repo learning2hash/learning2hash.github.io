@@ -7,7 +7,7 @@ year: 2019
 citations: 11
 bibkey: "aum\xFCller2019fair"
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.01859'}]
-tags: [Hashing Methods, ANN Search, Applications, Evaluation Metrics]
+tags: [Hashing Methods, ANN Search, Evaluation Metrics, Applications]
 ---
 Similarity search is a fundamental algorithmic primitive, widely used in many
 computer science disciplines. There are several variants of the similarity

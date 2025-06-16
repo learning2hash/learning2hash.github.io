@@ -7,8 +7,8 @@ year: 2015
 citations: 0
 bibkey: cakir2015online
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1511.03257'}]
-tags: [Applications, Indexing, ANN Search, Evaluation Metrics, Supervised, Hashing
-    Methods]
+tags: [Applications, Indexing, ANN Search, Supervised, Hashing Methods, Evaluation
+    Metrics]
 ---
 Supervised hashing methods are widely-used for nearest neighbor search in
 computer vision applications. Most state-of-the-art supervised hashing

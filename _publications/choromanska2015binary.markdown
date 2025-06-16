@@ -7,8 +7,7 @@ year: 2015
 citations: 27
 bibkey: choromanska2015binary
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1511.05212'}]
-tags: [Hashing Methods, Evaluation Metrics, Deep Hashing, Efficient Learning, ANN
-    Search]
+tags: [Hashing Methods, Evaluation Metrics, Deep Hashing, Efficient Learning]
 ---
 We consider the hashing mechanism for constructing binary embeddings, that
 involves pseudo-random projections followed by nonlinear (sign function)

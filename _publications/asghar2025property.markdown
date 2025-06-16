@@ -8,7 +8,7 @@ year: 2025
 citations: 0
 bibkey: asghar2025property
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.16355'}]
-tags: [Hashing Methods, Applications, Evaluation Metrics]
+tags: [Applications, Hashing Methods, Evaluation Metrics]
 ---
 Perceptual hashing is used to detect whether an input image is similar to a
 reference image with a variety of security applications. Recently, they have

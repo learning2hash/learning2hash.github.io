@@ -8,7 +8,7 @@ citations: 2
 bibkey: busolin2024early
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.04981'}, {name: Code,
     url: 'https://github.com/francescobusolin/faiss_pEE'}]
-tags: [Efficient Learning, Unsupervised, Has Code]
+tags: [Efficient Learning, Unsupervised, Hashing Methods]
 ---
 Learned dense representations are a popular family of techniques for encoding
 queries and documents using high-dimensional embeddings, which enable retrieval

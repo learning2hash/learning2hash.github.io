@@ -8,7 +8,7 @@ year: 2021
 citations: 1
 bibkey: chen2021towards
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.01944'}]
-tags: [Quantization, Efficiency and Optimization, Applications]
+tags: [Quantization, Efficiency and Optimization]
 ---
 Due to the promising advantages in space compression and inference
 acceleration, quantized representation learning for recommender systems has

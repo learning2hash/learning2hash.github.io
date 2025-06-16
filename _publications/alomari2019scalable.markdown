@@ -7,7 +7,7 @@ year: 2019
 citations: 1
 bibkey: alomari2019scalable
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.11817'}]
-tags: [Graph, Hashing Methods, ANN Search, Efficient Learning]
+tags: [Graph, ANN Search, Hashing Methods]
 ---
 Source code similarity are increasingly used in application development to
 identify clones, isolate bugs, and find copy-rights violations. Similar code

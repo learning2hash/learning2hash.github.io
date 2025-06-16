@@ -7,7 +7,7 @@ year: 2017
 citations: 13
 bibkey: cai2017revisit
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.06016'}]
-tags: [Applications, Unsupervised, Deep Hashing, ANN Search, Hashing Methods]
+tags: [Applications, Deep Hashing, ANN Search, Unsupervised, Hashing Methods]
 ---
 There is a growing trend in studying deep hashing methods for content-based
 image retrieval (CBIR), where hash functions and binary codes are learnt using

@@ -7,7 +7,7 @@ year: 2018
 citations: 21
 bibkey: douze2018link
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.09996'}]
-tags: [Indexing, Quantization]
+tags: [Indexing, Quantization, Evaluation Metrics]
 ---
 Similarity search approaches based on graph walks have recently attained
 outstanding speed-accuracy trade-offs, taking aside the memory requirements. In

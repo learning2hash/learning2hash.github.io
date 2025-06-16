@@ -7,7 +7,7 @@ year: 2011
 citations: 0
 bibkey: bronstein2011multimodal
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1111.1461'}]
-tags: [Applications, ANN Search, Hashing Methods, Multi-Modal Hashing]
+tags: [Multi-Modal Hashing, Hashing Methods, ANN Search, Applications]
 ---
 Many applications require comparing multimodal data with different structure
 and dimensionality that cannot be compared directly. Recently, there has been

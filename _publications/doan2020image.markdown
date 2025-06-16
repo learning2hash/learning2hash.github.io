@@ -8,8 +8,7 @@ citations: 4
 bibkey: doan2020image
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.00134'}, {name: Code,
     url: 'https://github.com/khoadoan/adversarial-hashing)'}]
-tags: [Applications, Hashing Methods, Deep Hashing, Loss Functions, Efficient Learning,
-  Tools and Libraries]
+tags: [Applications, Hashing Methods, Deep Hashing, Loss Functions, Tools and Libraries]
 ---
 Image hashing is one of the fundamental problems that demand both efficient
 and effective solutions for various practical scenarios. Adversarial

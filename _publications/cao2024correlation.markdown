@@ -7,7 +7,7 @@ year: 2024
 citations: 74
 bibkey: cao2024correlation
 additional_links: [{name: Paper, url: 'http://yue-cao.me/doc/correlation-autoencoder-hashing-cah-icmr16.pdf'}]
-tags: [Cross Modal, Supervised, Deep Hashing, ANN Search, Evaluation Metrics, Applications]
+tags: [Cross Modal, Supervised, Deep Hashing, ANN Search, Evaluation Metrics]
 ---
 Due to its storage and query efficiency, hashing has been widely
 applied to approximate nearest neighbor search from large-scale

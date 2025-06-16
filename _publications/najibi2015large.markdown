@@ -1,0 +1,25 @@
+---
+layout: publication
+title: 'On Large-scale Retrieval: Binary Or N-ary Coding?'
+authors: Mahyar Najibi, Mohammad Rastegari, Larry S. Davis
+conference: Arxiv
+year: 2015
+citations: 0
+bibkey: najibi2015large
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1509.06066'}]
+tags: [Applications, Indexing, Quantization]
+---
+The growing amount of data available in modern-day datasets makes the need to
+efficiently search and retrieve information. To make large-scale search
+feasible, Distance Estimation and Subset Indexing are the main approaches.
+Although binary coding has been popular for implementing both techniques, n-ary
+coding (known as Product Quantization) is also very effective for Distance
+Estimation. However, their relative performance has not been studied for Subset
+Indexing. We investigate whether binary or n-ary coding works better under
+different retrieval strategies. This leads to the design of a new n-ary coding
+method, "Linear Subspace Quantization (LSQ)" which, unlike other n-ary
+encoders, can be used as a similarity-preserving embedding. Experiments on
+image retrieval show that when Distance Estimation is used, n-ary LSQ
+outperforms other methods. However, when Subset Indexing is applied,
+interestingly, binary codings are more effective and binary LSQ achieves the
+best accuracy.

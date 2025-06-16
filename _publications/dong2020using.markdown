@@ -7,7 +7,7 @@ year: 2020
 citations: 4
 bibkey: dong2020using
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.09928'}]
-tags: [Applications, Multi-Modal Hashing]
+tags: [Applications, Tools and Libraries, Multi-Modal Hashing]
 ---
 Image retrieval relies heavily on the quality of the data modeling and the
 distance measurement in the feature space. Building on the concept of image

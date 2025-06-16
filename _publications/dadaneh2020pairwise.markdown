@@ -9,7 +9,8 @@ year: 2020
 citations: 11
 bibkey: dadaneh2020pairwise
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.10477'}]
-tags: [ANN Search, Loss Functions, Supervised, Hashing Methods]
+tags: [Hashing Methods, Deep Hashing, Loss Functions, Supervised, ANN Search, Evaluation
+    Metrics]
 ---
 Semantic hashing has become a crucial component of fast similarity search in
 many large-scale information retrieval systems, in particular, for text data.

@@ -8,7 +8,7 @@ citations: 14
 bibkey: do2017compact
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.02956'}]
 tags: [Deep Hashing, Unsupervised, Supervised, Hashing Methods, ANN Search, Evaluation
-    Metrics, Benchmarks and Datasets]
+    Metrics, Benchmarks and Datasets, Applications]
 ---
 Learning compact binary codes for image retrieval problem using deep neural
 networks has recently attracted increasing attention. However, training deep

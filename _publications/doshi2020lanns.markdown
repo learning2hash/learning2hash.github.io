@@ -7,7 +7,7 @@ year: 2020
 citations: 0
 bibkey: doshi2020lanns
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.09426'}]
-tags: [ANN Search, Efficient Learning]
+tags: [ANN Search]
 ---
 Nearest neighbor search (NNS) has a wide range of applications in information
 retrieval, computer vision, machine learning, databases, and other areas.

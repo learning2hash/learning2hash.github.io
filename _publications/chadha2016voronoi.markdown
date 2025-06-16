@@ -8,7 +8,7 @@ year: 2016
 citations: 27
 bibkey: chadha2016voronoi
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.08906'}]
-tags: [Applications, Evaluation Metrics, Quantization]
+tags: [Applications, Evaluation Metrics, Quantization, Deep Hashing]
 ---
 We investigate the problem of image retrieval based on visual queries when
 the latter comprise arbitrary regions-of-interest (ROI) rather than entire

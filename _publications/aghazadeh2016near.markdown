@@ -7,7 +7,7 @@ year: 2016
 citations: 0
 bibkey: aghazadeh2016near
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.03836'}]
-tags: [Hashing Methods, Indexing, Efficient Learning]
+tags: [Hashing Methods, Indexing, Quantization]
 ---
 We develop a scalable algorithm to learn binary hash codes for indexing
 large-scale datasets. Near-isometric binary hashing (NIBH) is a data-dependent

@@ -8,7 +8,7 @@ year: 2023
 citations: 10
 bibkey: chen2023bipartite
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.00241'}]
-tags: [Hashing Methods, Applications, Efficient Learning]
+tags: [Applications, Hashing Methods, Deep Hashing, Efficient Learning]
 ---
 Searching on bipartite graphs is basal and versatile to many real-world Web
 applications, e.g., online recommendation, database retrieval, and

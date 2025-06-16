@@ -7,7 +7,7 @@ year: 2020
 citations: 13
 bibkey: chen2020making
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.04948'}]
-tags: [Hashing Methods, Applications, Evaluation Metrics, Efficient Learning]
+tags: [Hashing Methods, Evaluation Metrics, Applications, Efficient Learning]
 ---
 Data-dependent hashing methods have demonstrated good performance in various
 machine learning applications to learn a low-dimensional representation from

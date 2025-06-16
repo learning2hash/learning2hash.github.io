@@ -8,7 +8,7 @@ year: 2017
 citations: 1
 bibkey: depalma2017distributed
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.00206'}]
-tags: [Hashing Methods, Efficient Learning, Applications]
+tags: [Hashing Methods, Efficient Learning, Tools and Libraries]
 ---
 The availability of massive healthcare data repositories calls for efficient
 tools for data-driven medicine. We introduce a distributed system for
