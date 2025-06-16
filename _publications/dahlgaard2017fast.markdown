@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Fast Similarity Sketching'
-authors: Søren Dahlgaard, Mathias Bæk Tejs Langhede, Jakob Bæk Tejs Houen, Mikkel Thorup
-conference: "Arxiv"
+title: Fast Similarity Sketching
+authors: "S\xF8ren Dahlgaard, Mathias B\xE6k Tejs Langhede, Jakob B\xE6k Tejs Houen,\
+  \ Mikkel Thorup"
+conference: Arxiv
 year: 2017
 citations: 16
 bibkey: dahlgaard2017fast
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1704.04370'}
-tags: ['Evaluation Metrics', 'KDD', 'Applications', 'Approximate Nearest Neighbor Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.04370'}]
+tags: [Applications, Evaluation Metrics]
 ---
 We consider the \\(\textit\{Similarity Sketching\}\\) problem: Given a universe
 \\([u] = \\{0,\ldots, u-1\\}\\) we want a random function \\(S\\) mapping subsets

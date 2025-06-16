@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Fast And Bayes-consistent Nearest Neighbors'
+title: Fast And Bayes-consistent Nearest Neighbors
 authors: Klim Efremenko, Aryeh Kontorovich, Moshe Noivirt
-conference: "Arxiv"
+conference: Arxiv
 year: 2019
 citations: 1
 bibkey: efremenko2019fast
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1910.05270'}
-tags: ['Hashing Fundamentals', 'Hashing Methods']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.05270'}]
+tags: [Hashing Methods, ANN Search, Efficient Learning]
 ---
 Research on nearest-neighbor methods tends to focus somewhat dichotomously
 either on the statistical or the computational aspects -- either on, say, Bayes

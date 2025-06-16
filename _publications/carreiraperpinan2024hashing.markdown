@@ -2,13 +2,12 @@
 layout: publication
 title: Hashing With Binary Autoencoders
 authors: Carreira-perpinan M., Raziperchikolaei
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 66
 bibkey: carreiraperpinan2024hashing
-additional_links:
-  - {name: "Paper", url: "https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Carreira-Perpinan_Hashing_With_Binary_2015_CVPR_paper.pdf"}
-tags: ['ARXIV', 'Image Retrieval', 'Unsupervised']
+additional_links: [{name: Paper, url: 'https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Carreira-Perpinan_Hashing_With_Binary_2015_CVPR_paper.pdf'}]
+tags: [Hashing Methods, Unsupervised, Image Retrieval]
 ---
 An attractive approach for fast search in image
 databases is binary hashing, where each high-dimensional,

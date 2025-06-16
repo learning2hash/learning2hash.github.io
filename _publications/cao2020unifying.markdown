@@ -1,15 +1,14 @@
 ---
 layout: publication
-title: 'Unifying Deep Local And Global Features For Image Search'
+title: Unifying Deep Local And Global Features For Image Search
 authors: Bingyi Cao, Andre Araujo, Jack Sim
-conference: "Arxiv"
+conference: Arxiv
 year: 2020
 citations: 226
 bibkey: cao2020unifying
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2001.05027'}
-  - {name: "Code", url: 'https://github.com/tensorflow/models/tree/master/research/delf'}
-tags: ['Tools and Libraries', 'Has Code', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.05027'}, {name: Code,
+    url: 'https://github.com/tensorflow/models/tree/master/research/delf'}]
+tags: [Applications, Tools and Libraries]
 ---
 Image retrieval is the problem of searching an image database for items that
 are similar to a query image. To address this task, two main types of image

@@ -1,15 +1,15 @@
 ---
 layout: publication
-title: 'Vector And Line Quantization For Billion-scale Similarity Search On Gpus'
+title: Vector And Line Quantization For Billion-scale Similarity Search On Gpus
 authors: Wei Chen et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2019
 citations: 5
 bibkey: chen2019vector
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1901.00275'}
-  - {name: "Code", url: 'https://github.com/zjuchenwei/vector-line-quantization'}
-tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets', 'Quantization', 'Has Code', 'Indexing and Efficiency']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.00275'}, {name: Code,
+    url: 'https://github.com/zjuchenwei/vector-line-quantization'}]
+tags: [Quantization, Indexing, ANN Search, Evaluation Metrics, Benchmarks and Datasets,
+  Tools and Libraries]
 ---
 Billion-scale high-dimensional approximate nearest neighbour (ANN) search has
 become an important problem for searching similar objects among the vast amount

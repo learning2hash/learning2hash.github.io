@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Accelerated Nearest Neighbor Search With Quick ADC'
-authors: Fabien Technicolor André, Anne-marie Inria Kermarrec, Nicolas Le Technicolor Scouarnec
-conference: "Arxiv"
+title: Accelerated Nearest Neighbor Search With Quick ADC
+authors: "Fabien Technicolor Andr\xE9, Anne-marie Inria Kermarrec, Nicolas Le Technicolor\
+  \ Scouarnec"
+conference: Arxiv
 year: 2017
 citations: 17
-bibkey: andré2017accelerated
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1704.07355'}
-tags: ['Evaluation Metrics', 'Efficient Learning', 'Quantization and Compression', 'ANN Search', 'Quantization']
+bibkey: "andr\xE92017accelerated"
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.07355'}]
+tags: [ANN Search, Efficient Learning, Quantization, Evaluation Metrics]
 ---
 Efficient Nearest Neighbor (NN) search in high-dimensional spaces is a
 foundation of many multimedia retrieval systems. Because it offers low

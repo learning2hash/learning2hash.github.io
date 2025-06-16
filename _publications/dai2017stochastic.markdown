@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Stochastic Generative Hashing'
+title: Stochastic Generative Hashing
 authors: Bo Dai, Ruiqi Guo, Sanjiv Kumar, Niao He, Le Song
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 73
 bibkey: dai2017stochastic
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1701.02815'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.02815'}]
+tags: [Hashing Methods, Efficient Learning]
 ---
 Learning-based binary hashing has become a powerful paradigm for fast search
 and retrieval in massive databases. However, due to the requirement of discrete

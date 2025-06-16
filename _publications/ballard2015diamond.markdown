@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Diamond Sampling For Approximate Maximum All-pairs Dot-product (MAD) Search'
+title: Diamond Sampling For Approximate Maximum All-pairs Dot-product (MAD) Search
 authors: Grey Ballard, Ali Pinar, Tamara G. Kolda, C. Seshadhri
-conference: "ICDM 2015 Proceedings of the 2015 IEEE International Conference on Data Mining pp. 11-20 November 2015"
+conference: ICDM 2015 Proceedings of the 2015 IEEE International Conference on Data
+  Mining pp. 11-20 November 2015
 year: 2015
 citations: 16
 bibkey: ballard2015diamond
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1506.03872'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1506.03872'}]
+tags: [Applications, Hashing Methods, ANN Search]
 ---
 Given two sets of vectors, \\(A = \\{\{a_1\}, \dots, \{a_m\}\\}\\) and
 \\(B=\\{\{b_1\},\dots,\{b_n\}\\}\\), our problem is to find the top-\\(t\\) dot products,

@@ -2,13 +2,12 @@
 layout: publication
 title: 'When Hashing Met Matching: Efficient Spatio-temporal Search For Ridesharing'
 authors: Chinmoy Dutta
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 6
 bibkey: dutta2018when
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1809.02680'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.02680'}]
+tags: [Hashing Methods, ANN Search, Efficient Learning]
 ---
 Carpooling, or sharing a ride with other passengers, holds immense potential
 for urban transportation. Ridesharing platforms enable such sharing of rides

@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: 'Binary Constrained Deep Hashing Network For Image Retrieval Without Manual Annotation'
+title: Binary Constrained Deep Hashing Network For Image Retrieval Without Manual
+  Annotation
 authors: Thanh-toan Do et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 5
 bibkey: do2018binary
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1802.07437'}
-tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization', 'Deep Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.07437'}]
+tags: [Applications, Deep Hashing, Quantization, ANN Search, Evaluation Metrics, Benchmarks
+    and Datasets, Hashing Methods]
 ---
 Learning compact binary codes for image retrieval task using deep neural
 networks has attracted increasing attention recently. However, training deep

@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Video Retrieval Based On Deep Convolutional Neural Network'
+title: Video Retrieval Based On Deep Convolutional Neural Network
 authors: Yj Dong, Jg Li
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 14
 bibkey: dong2017video
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1712.00133'}
-tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Tools and Libraries', 'Hashing Fundamentals', 'Learning Strategies']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.00133'}]
+tags: [Applications, Hashing Methods, Loss Functions, Deep Hashing]
 ---
 Recently, with the enormous growth of online videos, fast video retrieval
 research has received increasing attention. As an extension of image hashing

@@ -2,13 +2,12 @@
 layout: publication
 title: Dartminhash Fast Sketching For Weighted Sets
 authors: Christiani Tobias
-conference: "Arxiv"
+conference: Arxiv
 year: 2020
 citations: 4
 bibkey: christiani2020dartminhash
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2005.11547"}
-tags: ['ARXIV', 'Independent', 'Independent']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.11547'}]
+tags: [Hashing Methods, ANN Search, Efficient Learning]
 ---
 Weighted minwise hashing is a standard dimensionality reduction technique
 with applications to similarity search and large-scale kernel machines. We

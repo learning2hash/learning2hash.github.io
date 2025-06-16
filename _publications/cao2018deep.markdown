@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Deep Priority Hashing'
+title: Deep Priority Hashing
 authors: Zhangjie Cao, Ziping Sun, Mingsheng Long, Jianmin Wang, Philip S. Yu
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 33
 bibkey: cao2018deep
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1809.01238'}
-tags: ['Hashing Methods', 'Loss Functions', 'Applications', 'Hashing Fundamentals', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization', 'Deep Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.01238'}]
+tags: [Applications, Deep Hashing, Quantization, Loss Functions, Benchmarks and Datasets,
+  Hashing Methods]
 ---
 Deep hashing enables image retrieval by end-to-end learning of deep
 representations and hash codes from training data with pairwise similarity

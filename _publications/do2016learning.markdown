@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Learning To Hash With Binary Deep Neural Network'
+title: Learning To Hash With Binary Deep Neural Network
 authors: Thanh-toan Do, Anh-dzung Doan, Ngai-man Cheung
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 96
 bibkey: do2016learning
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1607.05140'}
-tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.05140'}]
+tags: [Unsupervised, Supervised, Hashing Methods, Evaluation Metrics, Benchmarks and
+    Datasets]
 ---
 This work proposes deep network models and learning algorithms for
 unsupervised and supervised binary hashing. Our novel network design constrains

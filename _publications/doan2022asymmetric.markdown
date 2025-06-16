@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Asymmetric Hashing For Fast Ranking Via Neural Network Measures'
+title: Asymmetric Hashing For Fast Ranking Via Neural Network Measures
 authors: Khoa Doan, Shulong Tan, Weijie Zhao, Ping Li
-conference: "Arxiv"
+conference: Arxiv
 year: 2022
 citations: 1
 bibkey: doan2022asymmetric
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2211.00619'}
-tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'RecSys', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.00619'}]
+tags: [ANN Search, Hashing Methods, Evaluation Metrics, Deep Hashing]
 ---
 Fast item ranking is an important task in recommender systems. In previous
 works, graph-based Approximate Nearest Neighbor (ANN) approaches have

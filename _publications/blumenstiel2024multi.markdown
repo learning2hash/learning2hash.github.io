@@ -1,15 +1,14 @@
 ---
 layout: publication
-title: 'Multi-spectral Remote Sensing Image Retrieval Using Geospatial Foundation Models'
+title: Multi-spectral Remote Sensing Image Retrieval Using Geospatial Foundation Models
 authors: Benedikt Blumenstiel, Viktoria Moor, Romeo Kienzler, Thomas Brunschwiler
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 0
 bibkey: blumenstiel2024multi
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2403.02059'}
-  - {name: "Code", url: 'https://github.com/IBM/remote-sensing-image-retrieval'}
-tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Efficient Learning', 'Quantization and Compression', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Has Code']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.02059'}, {name: Code,
+    url: 'https://github.com/IBM/remote-sensing-image-retrieval'}]
+tags: [Applications, ANN Search, Efficient Learning, Evaluation Metrics, Hashing Methods]
 ---
 Image retrieval enables an efficient search through vast amounts of satellite
 imagery and returns similar images to a query. Deep learning models can

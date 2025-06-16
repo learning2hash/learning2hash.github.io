@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'The Faiss Library'
+title: The Faiss Library
 authors: Matthijs Douze et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 15
 bibkey: douze2024faiss
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2401.08281'}
-tags: ['Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.08281'}]
+tags: [Applications, Indexing, Evaluation Metrics, Tools and Libraries]
 ---
 Vector databases typically manage large collections of embedding vectors.
 Currently, AI applications are growing rapidly, and so is the number of

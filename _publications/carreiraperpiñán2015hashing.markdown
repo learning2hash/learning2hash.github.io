@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Hashing With Binary Autoencoders'
-authors: Miguel Á. Carreira-perpiñán, Ramin Raziperchikolaei
-conference: "Arxiv"
+title: Hashing With Binary Autoencoders
+authors: "Miguel \xC1. Carreira-perpi\xF1\xE1n, Ramin Raziperchikolaei"
+conference: Arxiv
 year: 2015
 citations: 66
-bibkey: carreiraperpiñán2015hashing
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1501.00756'}
-tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
+bibkey: "carreiraperpi\xF1\xE1n2015hashing"
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1501.00756'}]
+tags: [Applications, Hashing Methods, Evaluation Metrics, Deep Hashing, Loss Functions]
 ---
 An attractive approach for fast search in image databases is binary hashing,
 where each high-dimensional, real-valued image is mapped onto a

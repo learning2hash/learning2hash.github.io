@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Towards Effective Top-n Hamming Search Via Bipartite Graph Contrastive Hashing'
+title: Towards Effective Top-n Hamming Search Via Bipartite Graph Contrastive Hashing
 authors: Yankai Chen et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 0
 bibkey: chen2024towards
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2408.09239'}
-tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'RecSys', 'Hashing Fundamentals']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.09239'}]
+tags: [Applications, Evaluation Metrics, Supervised, Hashing Methods]
 ---
 Searching on bipartite graphs serves as a fundamental task for various
 real-world applications, such as recommendation systems, database retrieval,

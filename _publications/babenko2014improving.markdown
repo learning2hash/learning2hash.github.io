@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: Improving Bilayer Product Quantization For Billion-scale Approximate Nearest Neighbors In High Dimensions
+title: Improving Bilayer Product Quantization For Billion-scale Approximate Nearest
+  Neighbors In High Dimensions
 authors: Babenko Artem, Lempitsky Victor
-conference: "Arxiv"
+conference: Arxiv
 year: 2014
 citations: 19
 bibkey: babenko2014improving
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1404.1831"}
-tags: ['ARXIV', 'Quantisation']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1404.1831'}]
+tags: [Quantization, ANN Search, Efficiency and Optimization]
 ---
 The top-performing systems for billion-scale high-dimensional approximate
 nearest neighbor (ANN) search are all based on two-layer architectures that

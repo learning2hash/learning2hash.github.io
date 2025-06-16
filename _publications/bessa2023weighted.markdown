@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Weighted Minwise Hashing Beats Linear Sketching For Inner Product Estimation'
+title: Weighted Minwise Hashing Beats Linear Sketching For Inner Product Estimation
 authors: Aline Bessa et al.
-conference: "In Proceedings of the ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems (PODS) 2023"
+conference: In Proceedings of the ACM SIGMOD-SIGACT-SIGAI Symposium on Principles
+  of Database Systems (PODS) 2023
 year: 2023
 citations: 2
 bibkey: bessa2023weighted
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2301.05811'}
-tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.05811'}]
+tags: [Hashing Methods, Applications]
 ---
 We present a new approach for computing compact sketches that can be used to
 approximate the inner product between pairs of high-dimensional vectors. Based

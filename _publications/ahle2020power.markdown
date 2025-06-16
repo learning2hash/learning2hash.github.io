@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'The Power Of Hashing With Mersenne Primes'
-authors: Thomas Dybdahl Ahle, Jakob Tejs Bæk Knudsen, Mikkel Thorup
-conference: "Arxiv"
+title: The Power Of Hashing With Mersenne Primes
+authors: "Thomas Dybdahl Ahle, Jakob Tejs B\xE6k Knudsen, Mikkel Thorup"
+conference: Arxiv
 year: 2020
 citations: 0
 bibkey: ahle2020power
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2008.08654'}
-tags: ['Hashing Fundamentals', 'Hashing Methods']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.08654'}]
+tags: [Hashing Methods]
 ---
 The classic way of computing a \\(k\\)-universal hash function is to use a random
 degree-\\((k-1)\\) polynomial over a prime field \\(\mathbb Z_p\\). For a fast

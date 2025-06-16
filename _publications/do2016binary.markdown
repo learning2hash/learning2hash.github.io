@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Binary Hashing With Semidefinite Relaxation And Augmented Lagrangian'
+title: Binary Hashing With Semidefinite Relaxation And Augmented Lagrangian
 authors: Thanh-toan Do, Anh-dzung Doan, Duc-thanh Nguyen, Ngai-man Cheung
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 12
 bibkey: do2016binary
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1607.05396'}
-tags: ['Hashing Methods', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.05396'}]
+tags: [Unsupervised, Supervised, Hashing Methods, Benchmarks and Datasets, Evaluation
+    Metrics]
 ---
 This paper proposes two approaches for inferencing binary codes in two-step
 (supervised, unsupervised) hashing. We first introduce an unified formulation

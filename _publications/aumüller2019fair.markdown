@@ -1,14 +1,13 @@
 ---
 layout: publication
 title: 'Fair Near Neighbor Search: Independent Range Sampling In High Dimensions'
-authors: Martin Aumüller, Rasmus Pagh, Francesco Silvestri
-conference: "Arxiv"
+authors: "Martin Aum\xFCller, Rasmus Pagh, Francesco Silvestri"
+conference: Arxiv
 year: 2019
 citations: 11
-bibkey: aumüller2019fair
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1906.01859'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
+bibkey: "aum\xFCller2019fair"
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.01859'}]
+tags: [Hashing Methods, ANN Search, Applications, Evaluation Metrics]
 ---
 Similarity search is a fundamental algorithmic primitive, widely used in many
 computer science disciplines. There are several variants of the similarity

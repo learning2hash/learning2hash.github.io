@@ -2,13 +2,12 @@
 layout: publication
 title: 'Mihash: Online Hashing With Mutual Information'
 authors: Fatih Cakir, Kun He, Sarah Adel Bargal, Stan Sclaroff
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 71
 bibkey: cakir2017online
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1703.08919'}
-tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals', 'Indexing and Efficiency']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.08919'}]
+tags: [Applications, Hashing Methods, Evaluation Metrics]
 ---
 Learning-based hashing methods are widely used for nearest neighbor
 retrieval, and recently, online hashing methods have demonstrated good

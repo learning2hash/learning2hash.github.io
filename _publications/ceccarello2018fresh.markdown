@@ -2,13 +2,12 @@
 layout: publication
 title: FRESH Frechet Similarity With Hashing
 authors: Ceccarello Matteo, Driemel Anne, Silvestri Francesco
-conference: "Proc. of Algorithms and Data Structures Symposium"
+conference: Proc. of Algorithms and Data Structures Symposium
 year: 2018
 citations: 6
 bibkey: ceccarello2018fresh
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1809.02350"}
-tags: ['Independent']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.02350'}]
+tags: [Hashing Methods, ANN Search, Efficient Learning]
 ---
 This paper studies the \\(r\\)-range search problem for curves under the
 continuous Fr\'echet distance: given a dataset \\(S\\) of \\(n\\) polygonal curves and

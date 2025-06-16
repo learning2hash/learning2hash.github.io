@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Voronoi-based Compact Image Descriptors: Efficient Region-of-interest Retrieval With VLAD And Deep-learning-based Descriptors'
+title: 'Voronoi-based Compact Image Descriptors: Efficient Region-of-interest Retrieval
+  With VLAD And Deep-learning-based Descriptors'
 authors: Aaron Chadha, Yiannis Andreopoulos
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 27
 bibkey: chadha2016voronoi
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1611.08906'}
-tags: ['Tools and Libraries', 'Evaluation Metrics', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.08906'}]
+tags: [Applications, Evaluation Metrics, Quantization]
 ---
 We investigate the problem of image retrieval based on visual queries when
 the latter comprise arbitrary regions-of-interest (ROI) rather than entire

@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Distributed Stratified Locality Sensitive Hashing For Critical Event Prediction In The Cloud'
+title: Distributed Stratified Locality Sensitive Hashing For Critical Event Prediction
+  In The Cloud
 authors: Alessandro De Palma, Erik Hemberg, Una-may O'reilly
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 1
 bibkey: depalma2017distributed
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1712.00206'}
-tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.00206'}]
+tags: [Hashing Methods, Efficient Learning, Applications]
 ---
 The availability of massive healthcare data repositories calls for efficient
 tools for data-driven medicine. We introduce a distributed system for

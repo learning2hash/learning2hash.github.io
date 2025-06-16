@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Towards Evaluating Gaussian Blurring In Perceptual Hashing As A Facial Image Filter'
+title: Towards Evaluating Gaussian Blurring In Perceptual Hashing As A Facial Image
+  Filter
 authors: Yigit Alparslan, Ken Alparslan, Mannika Kshettry, Louis Kratz
-conference: "Arxiv"
+conference: Arxiv
 year: 2020
 citations: 4
 bibkey: alparslan2020towards
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2002.00140'}
-tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'ANN Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.00140'}]
+tags: [Hashing Methods, Evaluation Metrics, ANN Search]
 ---
 With the growth in social media, there is a huge amount of images of faces
 available on the internet. Often, people use other people's pictures on their

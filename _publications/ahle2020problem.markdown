@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'On The Problem Of \(p_1^{-1}\) In Locality-sensitive Hashing'
+title: On The Problem Of \(p_1^{-1}\) In Locality-sensitive Hashing
 authors: Thomas Dybdahl Ahle
-conference: "Arxiv"
+conference: Arxiv
 year: 2020
 citations: 2
 bibkey: ahle2020problem
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2005.12065'}
-tags: ['Hashing Fundamentals', 'Hashing Methods']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.12065'}]
+tags: [Hashing Methods, ANN Search, Efficient Learning]
 ---
 A Locality-Sensitive Hash (LSH) function is called
 \\((r,cr,p_1,p_2)\\)-sensitive, if two data-points with a distance less than \\(r\\)

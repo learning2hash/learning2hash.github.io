@@ -2,13 +2,12 @@
 layout: publication
 title: 'Exchnet: A Unified Hashing Network For Large-scale Fine-grained Image Retrieval'
 authors: Quan Cui, Qing-yuan Jiang, Xiu-shen Wei, Wu-jun Li, Osamu Yoshie
-conference: "Arxiv"
+conference: Arxiv
 year: 2020
 citations: 31
 bibkey: cui2020unified
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2008.01369'}
-tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.01369'}]
+tags: [Applications, Deep Hashing, ANN Search, Hashing Methods]
 ---
 Retrieving content relevant images from a large-scale fine-grained dataset
 could suffer from intolerably slow query speed and highly redundant storage

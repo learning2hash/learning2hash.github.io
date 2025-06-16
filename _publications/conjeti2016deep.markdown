@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Deep Residual Hashing'
+title: Deep Residual Hashing
 authors: Sailesh Conjeti, Abhijit Guha Roy, Amin Katouzian, Nassir Navab
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 3
 bibkey: conjeti2016deep
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1612.05400'}
-tags: ['Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Hashing Fundamentals', 'Quantization']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.05400'}]
+tags: [Applications, Hashing Methods, Quantization, Supervised, Loss Functions]
 ---
 Hashing aims at generating highly compact similarity preserving code words
 which are well suited for large-scale image retrieval tasks.

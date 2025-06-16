@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Near-isometric Binary Hashing For Large-scale Datasets'
+title: Near-isometric Binary Hashing For Large-scale Datasets
 authors: Amirali Aghazadeh, Andrew Lan, Anshumali Shrivastava, Richard Baraniuk
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 0
 bibkey: aghazadeh2016near
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1603.03836'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.03836'}]
+tags: [Hashing Methods, Indexing, Efficient Learning]
 ---
 We develop a scalable algorithm to learn binary hash codes for indexing
 large-scale datasets. Near-isometric binary hashing (NIBH) is a data-dependent

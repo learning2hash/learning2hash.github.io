@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Set Similarity Search Beyond Minhash'
+title: Set Similarity Search Beyond Minhash
 authors: Tobias Christiani, Rasmus Pagh
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
-citations: 23
+citations: 24
 bibkey: christiani2016set
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1612.07710'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.07710'}]
+tags: [Hashing Methods, ANN Search]
 ---
 We consider the problem of approximate set similarity search under
 Braun-Blanquet similarity \\(B(\mathbf\{x\}, \mathbf\{y\}) = |\mathbf\{x\} \cap

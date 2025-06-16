@@ -2,13 +2,12 @@
 layout: publication
 title: Collective Deep Quantization For Efficient Cross-modal Retrieval
 authors: Cao Yue, Long, Wang, Liu
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 46
 bibkey: cao2024collective
-additional_links:
-  - {name: "Paper", url: "http://yue-cao.me/doc/collective-deep-quantization-aaai17.pdf"}
-tags: ['ARXIV', 'Cross Modal', 'Quantisation']
+additional_links: [{name: Paper, url: 'http://yue-cao.me/doc/collective-deep-quantization-aaai17.pdf'}]
+tags: [Quantization, Cross Modal, Efficient Learning]
 ---
 Cross-modal similarity retrieval is a problem about designing a retrieval system that supports querying across
 content modalities, e.g., using an image to retrieve for

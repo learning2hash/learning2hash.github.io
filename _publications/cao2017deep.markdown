@@ -2,13 +2,12 @@
 layout: publication
 title: 'Hashnet: Deep Learning To Hash By Continuation'
 authors: Zhangjie Cao, Mingsheng Long, Jianmin Wang, Philip S. Yu
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 510
 bibkey: cao2017deep
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1702.00758'}
-tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.00758'}]
+tags: [ANN Search, Hashing Methods, Deep Hashing, Evaluation Metrics]
 ---
 Learning to hash has been widely applied to approximate nearest neighbor
 search for large-scale multimedia retrieval, due to its computation efficiency

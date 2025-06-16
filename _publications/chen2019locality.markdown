@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Locality-sensitive Hashing For F-divergences: Mutual Information Loss And Beyond'
+title: 'Locality-sensitive Hashing For F-divergences: Mutual Information Loss And
+  Beyond'
 authors: Lin Chen, Hossein Esfandiari, Thomas Fu, Vahab S. Mirrokni
-conference: "Arxiv"
+conference: Arxiv
 year: 2019
 citations: 4
 bibkey: chen2019locality
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1910.12414'}
-tags: ['Hashing Methods', 'KDD', 'Applications', 'Approximate Nearest Neighbor Search', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.12414'}]
+tags: [Hashing Methods, ANN Search, Applications]
 ---
 Computing approximate nearest neighbors in high dimensional spaces is a
 central problem in large-scale data mining with a wide range of applications in

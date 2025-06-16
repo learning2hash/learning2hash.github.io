@@ -1,15 +1,15 @@
 ---
 layout: publication
-title: 'Deep Class-guided Hashing For Multi-label Cross-modal Retrieval'
+title: Deep Class-guided Hashing For Multi-label Cross-modal Retrieval
 authors: Hao Chen, Lei Zhu, Xinghui Zhu
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 1
 bibkey: chen2024deep
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2410.15387'}
-  - {name: "Code", url: 'https://github.com/donnotnormal/DCGH'}
-tags: ['Hashing Methods', 'Loss Functions', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing', 'Has Code', 'Multi-Modal Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.15387'}, {name: Code,
+    url: 'https://github.com/donnotnormal/DCGH'}]
+tags: [Deep Hashing, Multi-Modal Hashing, Loss Functions, Benchmarks and Datasets,
+  Hashing Methods]
 ---
 Deep hashing, due to its low cost and efficient retrieval advantages, is
 widely valued in cross-modal retrieval. However, existing cross-modal hashing

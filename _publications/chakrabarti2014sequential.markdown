@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Sequential Hypothesis Tests For Adaptive Locality Sensitive Hashing'
+title: Sequential Hypothesis Tests For Adaptive Locality Sensitive Hashing
 authors: Aniket Chakrabarti, Srinivasan Parthasarathy
-conference: "Arxiv"
+conference: Arxiv
 year: 2014
 citations: 8
 bibkey: chakrabarti2014sequential
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1412.3103'}
-tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods', 'Approximate Nearest Neighbor Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1412.3103'}]
+tags: [Efficient Learning, Hashing Methods, ANN Search]
 ---
 All pairs similarity search is a problem where a set of data objects is given
 and the task is to find all pairs of objects that have similarity above a

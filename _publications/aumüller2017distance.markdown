@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Distance-sensitive Hashing'
-authors: Martin Aumüller, Tobias Christiani, Rasmus Pagh, Francesco Silvestri
-conference: "Arxiv"
+title: Distance-sensitive Hashing
+authors: "Martin Aum\xFCller, Tobias Christiani, Rasmus Pagh, Francesco Silvestri"
+conference: Arxiv
 year: 2017
 citations: 13
-bibkey: aumüller2017distance
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1703.07867'}
-tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
+bibkey: "aum\xFCller2017distance"
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.07867'}]
+tags: [Hashing Methods, ANN Search, Applications]
 ---
 Locality-sensitive hashing (LSH) is an important tool for managing
 high-dimensional noisy or uncertain data, for example in connection with data

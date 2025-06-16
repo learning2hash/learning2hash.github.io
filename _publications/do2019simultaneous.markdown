@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Simultaneous Feature Aggregating And Hashing For Compact Binary Code Learning'
+title: Simultaneous Feature Aggregating And Hashing For Compact Binary Code Learning
 authors: Thanh-toan Do et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2019
 citations: 19
 bibkey: do2019simultaneous
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1904.11820'}
-tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Supervision Type', 'Supervision Types', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Hashing for Real-World Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.11820'}]
+tags: [Applications, Unsupervised, Supervised, Hashing Methods, Benchmarks and Datasets,
+  Evaluation Metrics]
 ---
 Representing images by compact hash codes is an attractive approach for
 large-scale content-based image retrieval. In most state-of-the-art

@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Revisiting The Inverted Indices For Billion-scale Approximate Nearest Neighbors'
+title: Revisiting The Inverted Indices For Billion-scale Approximate Nearest Neighbors
 authors: Dmitry Baranchuk, Artem Babenko, Yury Malkov
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 47
 bibkey: baranchuk2018revisiting
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1802.02422'}
-tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Tools and Libraries', 'ANN Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02422'}]
+tags: [Indexing, ANN Search, Evaluation Metrics]
 ---
 This work addresses the problem of billion-scale nearest neighbor search. The
 state-of-the-art retrieval systems for billion-scale databases are currently

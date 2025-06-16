@@ -2,13 +2,12 @@
 layout: publication
 title: LANNS A Web-scale Approximate Nearest Neighbor Lookup System
 authors: Doshi Ishita et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2020
 citations: 0
 bibkey: doshi2020lanns
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2010.09426"}
-tags: ['ARXIV']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.09426'}]
+tags: [ANN Search, Efficient Learning]
 ---
 Nearest neighbor search (NNS) has a wide range of applications in information
 retrieval, computer vision, machine learning, databases, and other areas.

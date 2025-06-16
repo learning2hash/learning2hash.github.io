@@ -2,13 +2,12 @@
 layout: publication
 title: 'CRH: A Simple Benchmark Approach To Continuous Hashing'
 authors: Miao Cheng, Ah Chung Tsoi
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 2
 bibkey: cheng2018simple
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1810.05730'}
-tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.05730'}]
+tags: [Hashing Methods, Evaluation Metrics]
 ---
 In recent years, the distinctive advancement of handling huge data promotes
 the evolution of ubiquitous computing and analysis technologies. With the

@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: Know Your Neighborhood General And Zero-shot Capable Binary Function Search Powered By Call Graphlets
+title: Know Your Neighborhood General And Zero-shot Capable Binary Function Search
+  Powered By Call Graphlets
 authors: Collyer Joshua, Watson Tim, Phillips Iain
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 0
 bibkey: collyer2024know
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2406.02606"}
-tags: ['ARXIV', 'Graph', 'Supervised']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.02606'}]
+tags: [Graph, Supervised, Deep Hashing, ANN Search]
 ---
 Binary code similarity detection is an important problem with applications in
 areas like malware analysis, vulnerability research and plagiarism detection.

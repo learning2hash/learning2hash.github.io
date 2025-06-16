@@ -2,13 +2,12 @@
 layout: publication
 title: 'DVHN: A Deep Hashing Framework For Large-scale Vehicle Re-identification'
 authors: Yongbiao Chen et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2021
 citations: 3
 bibkey: chen2021deep
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2112.04937'}
-tags: ['Hashing Methods', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.04937'}]
+tags: [Deep Hashing, ANN Search, Evaluation Metrics, Hashing Methods]
 ---
 In this paper, we make the very first attempt to investigate the integration
 of deep hash learning with vehicle re-identification. We propose a deep

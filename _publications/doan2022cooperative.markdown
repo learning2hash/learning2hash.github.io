@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Coophash: Cooperative Learning Of Multipurpose Descriptor And Contrastive Pair Generator Via Variational MCMC Teaching For Supervised Image Hashing'
+title: 'Coophash: Cooperative Learning Of Multipurpose Descriptor And Contrastive
+  Pair Generator Via Variational MCMC Teaching For Supervised Image Hashing'
 authors: Khoa D. Doan, Jianwen Xie, Yaxuan Zhu, Yang Zhao, Ping Li
-conference: "Arxiv"
+conference: Arxiv
 year: 2022
 citations: 2
 bibkey: doan2022cooperative
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2210.04288'}
-tags: ['Hashing Methods', 'Supervision Type', 'Supervision Types', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.04288'}]
+tags: [Hashing Methods, Deep Hashing, Supervised]
 ---
 Leveraging supervised information can lead to superior retrieval performance
 in the image hashing domain but the performance degrades significantly without

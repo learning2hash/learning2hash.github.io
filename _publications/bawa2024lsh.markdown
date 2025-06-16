@@ -2,13 +2,12 @@
 layout: publication
 title: LSH Forest Self-tuning Indexes For Similarity Search
 authors: Bawa M., Condie, Ganesan
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 0
 bibkey: bawa2024lsh
-additional_links:
-  - {name: "Paper", url: "http://infolab.stanford.edu/~bawa/Pub/similarity.pdf"}
-tags: ['ARXIV', 'Independent', 'LSH']
+additional_links: [{name: Paper, url: 'http://infolab.stanford.edu/~bawa/Pub/similarity.pdf'}]
+tags: [Hashing Methods, ANN Search, Indexing, Efficient Learning]
 ---
 We consider the problem of indexing high-dimensional data for answering (approximate) similarity-search queries. Similarity indexes prove to be important in a wide variety of settings: Web search
 engines desire fast, parallel, main-memory-based indexes for similarity search on text data; database systems desire disk-based similarity indexes for high-dimensional data, including text and images;

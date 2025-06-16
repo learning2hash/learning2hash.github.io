@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Learning Embeddings For Product Visual Search With Triplet Loss And Online Sampling'
+title: Learning Embeddings For Product Visual Search With Triplet Loss And Online
+  Sampling
 authors: Eric Dodds et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 4
 bibkey: dodds2018learning
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1810.04652'}
-tags: ['Learning Strategies', 'Tools and Libraries', 'Loss Functions', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.04652'}]
+tags: [Applications, Loss Functions]
 ---
 In this paper, we propose learning an embedding function for content-based
 image retrieval within the e-commerce domain using the triplet loss and an

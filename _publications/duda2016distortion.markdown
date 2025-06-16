@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Distortion-resistant Hashing For Rapid Search Of Similar DNA Subsequence'
+title: Distortion-resistant Hashing For Rapid Search Of Similar DNA Subsequence
 authors: Jarek Duda
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 0
 bibkey: duda2016distortion
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1602.05889'}
-tags: ['Hashing Fundamentals', 'Hashing Methods']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.05889'}]
+tags: [Hashing Methods, ANN Search]
 ---
 One of the basic tasks in bioinformatics is localizing a short subsequence
 \\(S\\), read while sequencing, in a long reference sequence \\(R\\), like the human

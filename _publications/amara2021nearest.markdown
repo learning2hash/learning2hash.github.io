@@ -1,14 +1,13 @@
 ---
 layout: publication
 title: 'Nearest Neighbor Search With Compact Codes: A Decoder Perspective'
-authors: Kenza Amara, Matthijs Douze, Alexandre Sablayrolles, Hervé Jégou
-conference: "Arxiv"
+authors: "Kenza Amara, Matthijs Douze, Alexandre Sablayrolles, Herv\xE9 J\xE9gou"
+conference: Arxiv
 year: 2021
 citations: 1
 bibkey: amara2021nearest
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2112.09568'}
-tags: ['Hashing Methods', 'Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Quantization']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.09568'}]
+tags: [Quantization, ANN Search, Hashing Methods, Evaluation Metrics]
 ---
 Modern approaches for fast retrieval of similar vectors on billion-scaled
 datasets rely on compressed-domain approaches such as binary sketches or

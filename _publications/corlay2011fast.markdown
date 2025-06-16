@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'A Fast Nearest Neighbor Search Algorithm Based On Vector Quantization'
+title: A Fast Nearest Neighbor Search Algorithm Based On Vector Quantization
 authors: Sylvain Lpma Corlay
-conference: "Arxiv"
+conference: Arxiv
 year: 2011
 citations: 4
 bibkey: corlay2011fast
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1105.4953'}
-tags: ['Quantization', 'Quantization and Compression', 'ANN Search', 'Approximate Nearest Neighbor Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1105.4953'}]
+tags: [ANN Search, Quantization]
 ---
 In this article, we propose a new fast nearest neighbor search algorithm,
 based on vector quantization. Like many other branch and bound search

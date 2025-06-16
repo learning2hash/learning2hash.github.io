@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Ai-based Copyright Detection Of An Image In A Video Using Degree Of Similarity And Image Hashing'
+title: Ai-based Copyright Detection Of An Image In A Video Using Degree Of Similarity
+  And Image Hashing
 authors: Ashutosh, Rahul Jashvantbhai Pandya
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 0
 bibkey: ashutosh2024ai
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2407.09504'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.09504'}]
+tags: [Hashing Methods, ANN Search, Deep Hashing, Applications]
 ---
 The expanse of information available over the internet makes it difficult to
 identify whether a specific work is a replica or a duplication of a protected

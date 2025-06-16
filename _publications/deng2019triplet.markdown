@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Triplet-based Deep Hashing Network For Cross-modal Retrieval'
+title: Triplet-based Deep Hashing Network For Cross-modal Retrieval
 authors: Cheng Deng, Zhaojia Chen, Xianglong Liu, Xinbo Gao, Dacheng Tao
-conference: "Arxiv"
+conference: Arxiv
 year: 2019
 citations: 333
 bibkey: deng2019triplet
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1904.02449'}
-tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Modality-Specific Hashing', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing', 'Multi-Modal Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02449'}]
+tags: [Applications, Deep Hashing, ANN Search, Multi-Modal Hashing, Hashing Methods,
+  Loss Functions]
 ---
 Given the benefits of its low storage requirements and high retrieval
 efficiency, hashing has recently received increasing attention. In

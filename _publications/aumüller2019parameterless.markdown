@@ -1,14 +1,13 @@
 ---
 layout: publication
 title: 'PUFFINN: Parameterless And Universally Fast Finding Of Nearest Neighbors'
-authors: Martin Aumüller, Tobias Christiani, Rasmus Pagh, Michael Vesterli
-conference: "Arxiv"
+authors: "Martin Aum\xFCller, Tobias Christiani, Rasmus Pagh, Michael Vesterli"
+conference: Arxiv
 year: 2019
 citations: 4
-bibkey: aumüller2019parameterless
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1906.12211'}
-tags: ['ANN Search']
+bibkey: "aum\xFCller2019parameterless"
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.12211'}]
+tags: [ANN Search]
 ---
 We present PUFFINN, a parameterless LSH-based index for solving the
 \\(k\\)-nearest neighbor problem with probabilistic guarantees. By parameterless we

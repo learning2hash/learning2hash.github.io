@@ -2,13 +2,12 @@
 layout: publication
 title: 'MUVERA: Multi-vector Retrieval Via Fixed Dimensional Encodings'
 authors: Laxman Dhulipala, Majid Hadian, Rajesh Jayaram, Jason Lee, Vahab Mirrokni
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 0
 bibkey: dhulipala2024multi
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2405.19504'}
-tags: ['Benchmarks and Datasets', 'Evaluation Metrics', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.19504'}]
+tags: [Evaluation Metrics, Benchmarks and Datasets, Tools and Libraries]
 ---
 Neural embedding models have become a fundamental component of modern
 information retrieval (IR) pipelines. These models produce a single embedding

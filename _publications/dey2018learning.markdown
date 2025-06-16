@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Learning Cross-modal Deep Embeddings For Multi-object Image Retrieval Using Text And Sketch'
+title: Learning Cross-modal Deep Embeddings For Multi-object Image Retrieval Using
+  Text And Sketch
 authors: Sounak Dey et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 17
 bibkey: dey2018learning
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1804.10819'}
-tags: ['Tools and Libraries', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.10819'}]
+tags: [Multi-Modal Hashing, Applications]
 ---
 In this work we introduce a cross modal image retrieval system that allows
 both text and sketch as input modalities for the query. A cross-modal deep

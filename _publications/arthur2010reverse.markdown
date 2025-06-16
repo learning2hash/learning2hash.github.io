@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Reverse Nearest Neighbors Search In High Dimensions Using Locality-sensitive Hashing'
+title: Reverse Nearest Neighbors Search In High Dimensions Using Locality-sensitive
+  Hashing
 authors: David Arthur, Steve Y. Oudot
-conference: "Arxiv"
+conference: Arxiv
 year: 2010
 citations: 3
 bibkey: arthur2010reverse
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1011.4955'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1011.4955'}]
+tags: [ANN Search, Hashing Methods]
 ---
 We investigate the problem of finding reverse nearest neighbors efficiently.
 Although provably good solutions exist for this problem in low or fixed

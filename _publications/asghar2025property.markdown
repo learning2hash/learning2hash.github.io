@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Property-preserving Hashing For \(\ell_1\)-distance Predicates: Applications To Countering Adversarial Input Attacks'
+title: 'Property-preserving Hashing For \(\ell_1\)-distance Predicates: Applications
+  To Countering Adversarial Input Attacks'
 authors: Hassan Asghar, Chenhan Zhang, Dali Kaafar
-conference: "Arxiv"
+conference: Arxiv
 year: 2025
 citations: 0
 bibkey: asghar2025property
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2504.16355'}
-tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2504.16355'}]
+tags: [Hashing Methods, Applications, Evaluation Metrics]
 ---
 Perceptual hashing is used to detect whether an input image is similar to a
 reference image with a variety of security applications. Recently, they have

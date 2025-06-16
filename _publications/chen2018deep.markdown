@@ -2,13 +2,12 @@
 layout: publication
 title: 'ALMN: Deep Embedding Learning With Geometrical Virtual Point Generating'
 authors: Binghui Chen, Weihong Deng
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 4
 bibkey: chen2018deep
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1806.00974'}
-tags: ['Tools and Libraries', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.00974'}]
+tags: [Applications, Loss Functions]
 ---
 Deep embedding learning becomes more attractive for discriminative feature
 learning, but many methods still require hard-class mining, which is

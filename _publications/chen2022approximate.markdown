@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: Approximate Nearest Neighbor Search Under Neural Similarity Metric For Large-scale Recommendation
+title: Approximate Nearest Neighbor Search Under Neural Similarity Metric For Large-scale
+  Recommendation
 authors: Chen Rihan et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2022
 citations: 10
 bibkey: chen2022approximate
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2202.10226"}
-tags: ['ARXIV', 'Cross Modal', 'Graph', 'Supervised']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.10226'}]
+tags: [ANN Search, Graph, Supervised, Applications]
 ---
 Model-based methods for recommender systems have been studied extensively for
 years. Modern recommender systems usually resort to 1) representation learning

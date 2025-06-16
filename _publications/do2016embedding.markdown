@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Embedding Based On Function Approximation For Large Scale Image Search'
+title: Embedding Based On Function Approximation For Large Scale Image Search
 authors: Thanh-toan Do, Ngai-man Cheung
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 21
 bibkey: do2016embedding
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1605.06914'}
-tags: ['Evaluation Metrics', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.06914'}]
+tags: [Applications, Evaluation Metrics]
 ---
 The objective of this paper is to design an embedding method that maps local
 features describing an image (e.g. SIFT) to a higher dimensional representation

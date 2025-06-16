@@ -2,13 +2,12 @@
 layout: publication
 title: Long-tail Hashing
 authors: Chen Yong et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 8
 bibkey: chen2024long
-additional_links:
-  - {name: "Paper", url: "https://zhouchenlin.github.io/Publications/2021-SIGIR-Hashing.pdf"}
-tags: ['ARXIV', 'Image Retrieval', 'Supervised']
+additional_links: [{name: Paper, url: 'https://zhouchenlin.github.io/Publications/2021-SIGIR-Hashing.pdf'}]
+tags: [Deep Hashing, Supervised, Image Retrieval, Loss Functions]
 ---
 Hashing, which represents data items as compact binary codes, has
 been becoming a more and more popular technique, e.g., for large-scale image retrieval, owing to its super fast search speed as well

@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Generic LSH Families For The Angular Distance Based On Johnson-lindenstrauss Projections And Feature Hashing LSH'
+title: Generic LSH Families For The Angular Distance Based On Johnson-lindenstrauss
+  Projections And Feature Hashing LSH
 authors: Luis Argerich, Natalia Golmar
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 1
 bibkey: argerich2017generic
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1704.04684'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.04684'}]
+tags: [Hashing Methods, Tools and Libraries]
 ---
 In this paper we propose the creation of generic LSH families for the angular
 distance based on Johnson-Lindenstrauss projections. We show that feature

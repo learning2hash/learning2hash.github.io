@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Simultaneous Feature Aggregating And Hashing For Large-scale Image Search'
+title: Simultaneous Feature Aggregating And Hashing For Large-scale Image Search
 authors: Thanh-toan Do, Dang-khoa Le Tan, Trung T. Pham, Ngai-man Cheung
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 24
 bibkey: do2017simultaneous
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1704.00860'}
-tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.00860'}]
+tags: [Hashing Methods, Evaluation Metrics, Benchmarks and Datasets]
 ---
 In most state-of-the-art hashing-based visual search systems, local image
 descriptors of an image are first aggregated as a single feature vector. This

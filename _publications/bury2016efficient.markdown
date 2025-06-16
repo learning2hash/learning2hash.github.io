@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Efficient Similarity Search In Dynamic Data Streams'
+title: Efficient Similarity Search In Dynamic Data Streams
 authors: Marc Bury, Chris Schwiegelshohn, Mara Sorella
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 0
 bibkey: bury2016efficient
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1605.03949'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.03949'}]
+tags: [Hashing Methods, ANN Search, Efficient Learning]
 ---
 The Jaccard index is an important similarity measure for item sets and
 Boolean data. On large datasets, an exact similarity computation is often

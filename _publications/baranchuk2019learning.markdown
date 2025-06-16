@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Learning To Route In Similarity Graphs'
+title: Learning To Route In Similarity Graphs
 authors: Dmitry Baranchuk, Dmitry Persiyanov, Anton Sinitsin, Artem Babenko
-conference: "Arxiv"
+conference: Arxiv
 year: 2019
 citations: 8
 bibkey: baranchuk2019learning
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1905.10987'}
-tags: ['Uncategorized']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.10987'}]
+tags: [ANN Search, Efficient Learning]
 ---
 Recently similarity graphs became the leading paradigm for efficient nearest
 neighbor search, outperforming traditional tree-based and LSH-based methods.

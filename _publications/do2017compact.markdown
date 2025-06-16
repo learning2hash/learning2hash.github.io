@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Compact Hash Code Learning With Binary Deep Neural Network'
+title: Compact Hash Code Learning With Binary Deep Neural Network
 authors: Thanh-toan Do, Tuan Hoang, Dang-khoa Le Tan, Anh-dzung Doan, Ngai-man Cheung
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 14
 bibkey: do2017compact
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1712.02956'}
-tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.02956'}]
+tags: [Deep Hashing, Unsupervised, Supervised, Hashing Methods, ANN Search, Evaluation
+    Metrics, Benchmarks and Datasets]
 ---
 Learning compact binary codes for image retrieval problem using deep neural
 networks has recently attracted increasing attention. However, training deep

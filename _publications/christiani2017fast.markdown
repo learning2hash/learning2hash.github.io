@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Fast Locality-sensitive Hashing Frameworks For Approximate Near Neighbor Search'
+title: Fast Locality-sensitive Hashing Frameworks For Approximate Near Neighbor Search
 authors: Tobias Christiani
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 10
 bibkey: christiani2017fast
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1708.07586'}
-tags: ['Hashing Fundamentals', 'Indexing and Efficiency', 'Hashing Methods', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.07586'}]
+tags: [Hashing Methods, ANN Search]
 ---
 The Indyk-Motwani Locality-Sensitive Hashing (LSH) framework (STOC 1998) is a
 general technique for constructing a data structure to answer approximate near

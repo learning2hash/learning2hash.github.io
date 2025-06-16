@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'A Hash-based Co-clustering Algorithm For Categorical Data'
-authors: Fabricio Olivetti De França
-conference: "Arxiv"
+title: A Hash-based Co-clustering Algorithm For Categorical Data
+authors: "Fabricio Olivetti De Fran\xE7a"
+conference: Arxiv
 year: 2014
 citations: 12
-bibkey: defrança2014hash
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1407.7753'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'KDD']
+bibkey: "defran\xE7a2014hash"
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1407.7753'}]
+tags: [Hashing Methods, KDD]
 ---
 Many real-life data are described by categorical attributes without a
 pre-classification. A common data mining method used to extract information

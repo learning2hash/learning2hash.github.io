@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Training Vision Transformers For Image Retrieval'
-authors: Alaaeldin El-nouby, Natalia Neverova, Ivan Laptev, Hervé Jégou
-conference: "Arxiv"
+title: Training Vision Transformers For Image Retrieval
+authors: "Alaaeldin El-nouby, Natalia Neverova, Ivan Laptev, Herv\xE9 J\xE9gou"
+conference: Arxiv
 year: 2021
 citations: 120
 bibkey: elnouby2021training
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2102.05644'}
-tags: ['Evaluation Metrics', 'Loss Functions', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.05644'}]
+tags: [Applications, Evaluation Metrics, Loss Functions]
 ---
 Transformers have shown outstanding results for natural language
 understanding and, more recently, for image classification. We here extend this

@@ -2,13 +2,12 @@
 layout: publication
 title: Collective Matrix Factorization Hashing For Multimodal Data
 authors: Ding G., Guo, Zhou
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 495
 bibkey: ding2024collective
-additional_links:
-  - {name: "Paper", url: "http://ise.thss.tsinghua.edu.cn/MIG/CVPR2014%20Collective%20Matrix%20Factorization%20Hashing%20for%20Multimodal%20Data.pdf"}
-tags: ['ARXIV', 'Cross Modal', 'Independent']
+additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/MIG/CVPR2014%20Collective%20Matrix%20Factorization%20Hashing%20for%20Multimodal%20Data.pdf'}]
+tags: [Multi-Modal Hashing, Hashing Methods, ANN Search, Evaluation Metrics]
 ---
 Nearest neighbor search methods based on hashing have
 attracted considerable attention for effective and efficient

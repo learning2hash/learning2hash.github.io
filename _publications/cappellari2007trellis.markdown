@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Trellis-coded Quantization Based On Maximum-hamming-distance Binary Codes'
+title: Trellis-coded Quantization Based On Maximum-hamming-distance Binary Codes
 authors: Lorenzo Cappellari
-conference: "Arxiv"
+conference: Arxiv
 year: 2007
 citations: 0
 bibkey: cappellari2007trellis
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/0704.1411'}
-tags: ['Quantization', 'Quantization and Compression']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0704.1411'}]
+tags: [Quantization]
 ---
 Most design approaches for trellis-coded quantization take advantage of the
 duality of trellis-coded quantization with trellis-coded modulation, and use

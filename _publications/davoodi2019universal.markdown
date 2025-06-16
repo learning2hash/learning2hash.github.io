@@ -2,13 +2,12 @@
 layout: publication
 title: 'Forestdsh: A Universal Hash Design For Discrete Probability Distributions'
 authors: Arash Gholami Davoodi et al.
-conference: "DAMI 2020"
+conference: DAMI 2020
 year: 2019
 citations: 0
 bibkey: davoodi2019universal
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1905.04559'}
-tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.04559'}]
+tags: [Hashing Methods, ANN Search, Applications, Evaluation Metrics]
 ---
 In this paper, we consider the problem of classification of \\(M\\) high
 dimensional queries \\(y^1,\cdots,y^M\in B^S\\) to \\(N\\) high dimensional classes

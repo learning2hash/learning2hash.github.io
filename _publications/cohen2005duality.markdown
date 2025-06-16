@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Duality Between Packings And Coverings Of The Hamming Space'
-authors: Gérard Cohen, Alexander Vardy
-conference: "Arxiv"
+title: Duality Between Packings And Coverings Of The Hamming Space
+authors: "G\xE9rard Cohen, Alexander Vardy"
+conference: Arxiv
 year: 2005
 citations: 2
 bibkey: cohen2005duality
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/cs/0507015'}
-tags: ['Uncategorized']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/cs/0507015'}]
+tags: [Hashing Methods, Quantization]
 ---
 We investigate the packing and covering densities of linear and nonlinear
 binary codes, and establish a number of duality relationships between the

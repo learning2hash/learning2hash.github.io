@@ -1,15 +1,15 @@
 ---
 layout: publication
-title: 'Vision Transformer Hashing For Image Retrieval'
+title: Vision Transformer Hashing For Image Retrieval
 authors: Shiv Ram Dubey, Satish Kumar Singh, Wei-ta Chu
-conference: "Arxiv"
+conference: Arxiv
 year: 2021
 citations: 48
 bibkey: dubey2021vision
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2109.12564'}
-  - {name: "Code", url: 'https://github.com/shivram1987/VisionTransformerHashing'}
-tags: ['Hashing Methods', 'Applications', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization', 'Deep Hashing', 'Has Code', 'Graph and Transformer Models']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.12564'}, {name: Code,
+    url: 'https://github.com/shivram1987/VisionTransformerHashing'}]
+tags: [Applications, Deep Hashing, Quantization, Graph and Transformer Models, Supervised,
+  Benchmarks and Datasets, Hashing Methods]
 ---
 Deep learning has shown a tremendous growth in hashing techniques for image
 retrieval. Recently, Transformer has emerged as a new architecture by utilizing

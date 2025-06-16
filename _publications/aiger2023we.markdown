@@ -1,15 +1,15 @@
 ---
 layout: publication
-title: 'Yes, We CANN: Constrained Approximate Nearest Neighbors For Local Feature-based Visual Localization'
-authors: Dror Aiger, André Araujo, Simon Lynen
-conference: "Arxiv"
+title: 'Yes, We CANN: Constrained Approximate Nearest Neighbors For Local Feature-based
+  Visual Localization'
+authors: "Dror Aiger, Andr\xE9 Araujo, Simon Lynen"
+conference: Arxiv
 year: 2023
 citations: 2
 bibkey: aiger2023we
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2306.09012'}
-  - {name: "Code", url: 'https://github.com/google-research/google-research/tree/master/cann'}
-tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'ANN Search', 'Tools and Libraries', 'Has Code']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.09012'}, {name: Code,
+    url: 'https://github.com/google-research/google-research/tree/master/cann'}]
+tags: [ANN Search, Evaluation Metrics, Tools and Libraries]
 ---
 Large-scale visual localization systems continue to rely on 3D point clouds
 built from image collections using structure-from-motion. While the 3D points

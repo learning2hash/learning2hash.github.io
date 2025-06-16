@@ -1,15 +1,15 @@
 ---
 layout: publication
-title: 'Learning-based Dimensionality Reduction For Computing Compact And Effective Local Feature Descriptors'
+title: Learning-based Dimensionality Reduction For Computing Compact And Effective
+  Local Feature Descriptors
 authors: Hao Dong et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2022
 citations: 3
 bibkey: dong2022learning
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2209.13586'}
-  - {name: "Code", url: 'https://github.com/PRBonn/descriptor-dr'}
-tags: ['Has Code', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.13586'}, {name: Code,
+    url: 'https://github.com/PRBonn/descriptor-dr'}]
+tags: [Applications, Unsupervised, Supervised]
 ---
 A distinctive representation of image patches in form of features is a key
 component of many computer vision and robotics tasks, such as image matching,

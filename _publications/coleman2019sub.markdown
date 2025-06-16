@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Sub-linear Memory Sketches For Near Neighbor Search On Streaming Data'
+title: Sub-linear Memory Sketches For Near Neighbor Search On Streaming Data
 authors: Benjamin Coleman, Richard G. Baraniuk, Anshumali Shrivastava
-conference: "Arxiv"
+conference: Arxiv
 year: 2019
 citations: 3
 bibkey: coleman2019sub
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1902.06687'}
-tags: ['Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'ANN Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.06687'}]
+tags: [ANN Search, Evaluation Metrics, Tools and Libraries]
 ---
 We present the first sublinear memory sketch that can be queried to find the
 nearest neighbors in a dataset. Our online sketching algorithm compresses an N

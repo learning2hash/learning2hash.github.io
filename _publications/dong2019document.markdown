@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Document Hashing With Mixture-prior Generative Models'
+title: Document Hashing With Mixture-prior Generative Models
 authors: Wei Dong, Qinliang Su, Dinghan Shen, Changyou Chen
-conference: "Arxiv"
+conference: Arxiv
 year: 2019
 citations: 8
 bibkey: dong2019document
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1908.11078'}
-tags: ['Hashing Methods', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.11078'}]
+tags: [Unsupervised, Hashing Methods, Benchmarks and Datasets, Evaluation Metrics]
 ---
 Hashing is promising for large-scale information retrieval tasks thanks to
 the efficiency of distance evaluation between binary codes. Generative hashing

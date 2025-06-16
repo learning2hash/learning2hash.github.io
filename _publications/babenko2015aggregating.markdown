@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Aggregating Deep Convolutional Features For Image Retrieval'
+title: Aggregating Deep Convolutional Features For Image Retrieval
 authors: Artem Babenko, Victor Lempitsky
-conference: "Arxiv"
+conference: Arxiv
 year: 2015
 citations: 235
 bibkey: babenko2015aggregating
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1510.07493'}
-tags: ['Evaluation Metrics', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1510.07493'}]
+tags: [Applications, Evaluation Metrics]
 ---
 Several recent works have shown that image descriptors produced by deep
 convolutional neural networks provide state-of-the-art performance for image

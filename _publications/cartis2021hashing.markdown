@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Hashing Embeddings Of Optimal Dimension, With Applications To Linear Least Squares'
+title: Hashing Embeddings Of Optimal Dimension, With Applications To Linear Least
+  Squares
 authors: Coralia Cartis, Jan Fiala, Zhen Shao
-conference: "Arxiv"
+conference: Arxiv
 year: 2021
 citations: 3
 bibkey: cartis2021hashing
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2105.11815'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.11815'}]
+tags: [Hashing Methods, Applications]
 ---
 The aim of this paper is two-fold: firstly, to present subspace embedding
 properties for \\(s\\)-hashing sketching matrices, with \\(s\geq 1\\), that are optimal

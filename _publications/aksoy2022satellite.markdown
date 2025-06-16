@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Satellite Image Search In Agoraeo'
+title: Satellite Image Search In Agoraeo
 authors: Ahmet Kerem Aksoy et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2022
 citations: 6
 bibkey: aksoy2022satellite
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2208.10830'}
-tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Hashing for Real-World Applications', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing', 'Indexing and Efficiency']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.10830'}]
+tags: [Applications, ANN Search, Hashing Methods, Deep Hashing]
 ---
 The growing operational capability of global Earth Observation (EO) creates
 new opportunities for data-driven approaches to understand and protect our

@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Clustering Is Efficient For Approximate Maximum Inner Product Search'
+title: Clustering Is Efficient For Approximate Maximum Inner Product Search
 authors: Alex Auvolat, Sarath Chandar, Pascal Vincent, Hugo Larochelle, Yoshua Bengio
-conference: "Arxiv"
+conference: Arxiv
 year: 2015
 citations: 29
 bibkey: auvolat2015clustering
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1507.05910'}
-tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Efficient Learning', 'RecSys', 'Hashing Fundamentals']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1507.05910'}]
+tags: [Efficient Learning, Hashing Methods, Evaluation Metrics, Applications]
 ---
 Efficient Maximum Inner Product Search (MIPS) is an important task that has a
 wide applicability in recommendation systems and classification with a large

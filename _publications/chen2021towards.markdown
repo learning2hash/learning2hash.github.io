@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: Towards Low-loss 1-bit Quantization Of User-item Representations For Top-k Recommendation
+title: Towards Low-loss 1-bit Quantization Of User-item Representations For Top-k
+  Recommendation
 authors: Chen Yankai et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2021
 citations: 1
 bibkey: chen2021towards
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2112.01944"}
-tags: ['ARXIV', 'Graph', 'Quantisation']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.01944'}]
+tags: [Quantization, Efficiency and Optimization, Applications]
 ---
 Due to the promising advantages in space compression and inference
 acceleration, quantized representation learning for recommender systems has

@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Locality-sensitive Hashing Of Curves'
+title: Locality-sensitive Hashing Of Curves
 authors: Anne Driemel, Francesco Silvestri
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 31
 bibkey: driemel2017locality
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1703.04040'}
-tags: ['Hashing Fundamentals', 'Hashing Methods']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.04040'}]
+tags: [Hashing Methods, ANN Search]
 ---
 We study data structures for storing a set of polygonal curves in \\(\{\rm R\}^d\\)
 such that, given a query curve, we can efficiently retrieve similar curves from

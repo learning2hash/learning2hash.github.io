@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Piecewise-linear Manifolds For Deep Metric Learning'
+title: Piecewise-linear Manifolds For Deep Metric Learning
 authors: Shubhang Bhatnagar, Narendra Ahuja
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 0
 bibkey: bhatnagar2024piecewise
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2403.14977'}
-tags: ['Evaluation Metrics', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.14977'}]
+tags: [Applications, Unsupervised, Evaluation Metrics, Supervised]
 ---
 Unsupervised deep metric learning (UDML) focuses on learning a semantic
 representation space using only unlabeled data. This challenging problem

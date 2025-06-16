@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'From Selective Deep Convolutional Features To Compact Binary Representations For Image Retrieval'
+title: From Selective Deep Convolutional Features To Compact Binary Representations
+  For Image Retrieval
 authors: Thanh-toan Do et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 21
 bibkey: do2018from
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1802.02899'}
-tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Hashing Fundamentals']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02899'}]
+tags: [Applications, Hashing Methods, Evaluation Metrics]
 ---
 In the large-scale image retrieval task, the two most important requirements
 are the discriminability of image representations and the efficiency in

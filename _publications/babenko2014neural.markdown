@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Neural Codes For Image Retrieval'
+title: Neural Codes For Image Retrieval
 authors: Artem Babenko, Anton Slesarev, Alexandr Chigorin, Victor Lempitsky
-conference: "Arxiv"
+conference: Arxiv
 year: 2014
 citations: 618
 bibkey: babenko2014neural
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1404.1777'}
-tags: ['Evaluation Metrics', 'Quantization and Compression', 'Tools and Libraries', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1404.1777'}]
+tags: [Applications, Evaluation Metrics, Quantization]
 ---
 It has been shown that the activations invoked by an image within the top
 layers of a large convolutional neural network provide a high-level descriptor

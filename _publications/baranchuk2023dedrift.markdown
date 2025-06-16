@@ -2,13 +2,12 @@
 layout: publication
 title: Dedrift Robust Similarity Search Under Content Drift
 authors: Baranchuk Dmitry, Douze Matthijs, Upadhyay Yash, Yalniz I. Zeki
-conference: "Arxiv"
+conference: Arxiv
 year: 2023
 citations: 2
 bibkey: baranchuk2023dedrift
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2308.02752"}
-tags: ['ARXIV']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.02752'}]
+tags: [ANN Search, Quantization, Indexing, Efficient Learning]
 ---
 The statistical distribution of content uploaded and searched on media
 sharing sites changes over time due to seasonal, sociological and technical

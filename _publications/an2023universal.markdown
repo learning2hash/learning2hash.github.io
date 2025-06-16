@@ -2,14 +2,14 @@
 layout: publication
 title: 'Unicom: Universal And Compact Representation Learning For Image Retrieval'
 authors: Xiang An et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2023
 citations: 10
 bibkey: an2023universal
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2304.05884'}
-  - {name: "Code", url: 'https://github.com/deepglint/unicom'}
-tags: ['Applications', 'Evaluation Metrics', 'Tools and Libraries', 'Benchmarks and Datasets', 'Has Code']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.05884'}, {name: Code,
+    url: 'https://github.com/deepglint/unicom'}]
+tags: [Applications, Unsupervised, Supervised, Benchmarks and Datasets, Tools and
+    Libraries]
 ---
 Modern image retrieval methods typically rely on fine-tuning pre-trained
 encoders to extract image-level descriptors. However, the most widely used

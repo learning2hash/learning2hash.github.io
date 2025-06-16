@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Hashing-based-estimators For Kernel Density In High Dimensions'
+title: Hashing-based-estimators For Kernel Density In High Dimensions
 authors: Moses Charikar, Paris Siminelakis
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 19
 bibkey: charikar2018hashing
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1808.10530'}
-tags: ['Hashing Fundamentals', 'Hashing Methods']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.10530'}]
+tags: [Hashing Methods, ANN Search, Efficient Learning]
 ---
 Given a set of points \\(P\subset \mathbb\{R\}^\{d\}\\) and a kernel \\(k\\), the Kernel
 Density Estimate at a point \\(x\in\mathbb\{R\}^\{d\}\\) is defined as

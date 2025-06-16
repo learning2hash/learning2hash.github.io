@@ -2,13 +2,12 @@
 layout: publication
 title: 'Efficient Ternary Weight Embedding Model: Bridging Scalability And Performance'
 authors: Jiayi Chen et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 0
 bibkey: chen2024efficient
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2411.15438'}
-tags: ['Tools and Libraries', 'Evaluation Metrics', 'RecSys', 'ANN Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.15438'}]
+tags: [ANN Search, Evaluation Metrics, Tools and Libraries]
 ---
 Embedding models have become essential tools in both natural language
 processing and computer vision, enabling efficient semantic search,

@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'An Ensemble Diversity Approach To Supervised Binary Hashing'
-authors: Miguel Á. Carreira-perpiñán, Ramin Raziperchikolaei
-conference: "Arxiv"
+title: An Ensemble Diversity Approach To Supervised Binary Hashing
+authors: "Miguel \xC1. Carreira-perpi\xF1\xE1n, Ramin Raziperchikolaei"
+conference: Arxiv
 year: 2016
 citations: 8
-bibkey: carreiraperpiñán2016ensemble
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1602.01557'}
-tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Learning Strategies']
+bibkey: "carreiraperpi\xF1\xE1n2016ensemble"
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.01557'}]
+tags: [Applications, Hashing Methods, Evaluation Metrics, Supervised]
 ---
 Binary hashing is a well-known approach for fast approximate nearest-neighbor
 search in information retrieval. Much work has focused on affinity-based

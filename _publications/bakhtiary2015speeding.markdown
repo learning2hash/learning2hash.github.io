@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Speeding Up Neural Networks For Large Scale Classification Using WTA Hashing'
+title: Speeding Up Neural Networks For Large Scale Classification Using WTA Hashing
 authors: Amir H. Bakhtiary, Agata Lapedriza, David Masip
-conference: "Arxiv"
+conference: Arxiv
 year: 2015
-citations: 0
+citations: 2
 bibkey: bakhtiary2015speeding
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1504.07488'}
-tags: ['Hashing Fundamentals', 'Hashing Methods']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1504.07488'}]
+tags: [Hashing Methods, Deep Hashing, Efficient Learning]
 ---
 In this paper we propose to use the Winner Takes All hashing technique to
 speed up forward propagation and backward propagation in fully connected layers

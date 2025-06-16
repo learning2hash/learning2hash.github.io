@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Graph Kernels Based On High Order Graphlet Parsing And Hashing'
+title: Graph Kernels Based On High Order Graphlet Parsing And Hashing
 authors: Anjan Dutta, Hichem Sahbi
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 0
 bibkey: dutta2018graph
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1803.00425'}
-tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'ANN Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.00425'}]
+tags: [Hashing Methods, ANN Search, Evaluation Metrics]
 ---
 Graph-based methods are known to be successful in many machine learning and
 pattern classification tasks. These methods consider semi-structured data as

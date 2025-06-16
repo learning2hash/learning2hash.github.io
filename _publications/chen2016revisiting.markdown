@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Revisiting Winner Take All (WTA) Hashing For Sparse Datasets'
+title: Revisiting Winner Take All (WTA) Hashing For Sparse Datasets
 authors: Beidi Chen, Anshumali Shrivastava
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 3
 bibkey: chen2016revisiting
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1612.01834'}
-tags: ['Hashing Fundamentals', 'Tools and Libraries', 'Hashing Methods', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.01834'}]
+tags: [Applications, Hashing Methods]
 ---
 WTA (Winner Take All) hashing has been successfully applied in many large
 scale vision applications. This hashing scheme was tailored to take advantage

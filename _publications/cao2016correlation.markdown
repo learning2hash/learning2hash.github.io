@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Correlation Hashing Network For Efficient Cross-modal Retrieval'
+title: Correlation Hashing Network For Efficient Cross-modal Retrieval
 authors: Yue Cao, Mingsheng Long, Jianmin Wang, Philip S. Yu
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 32
 bibkey: cao2016correlation
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1602.06697'}
-tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Modality-Specific Hashing', 'Quantization and Compression', 'ANN Search', 'Hashing Fundamentals', 'Quantization', 'Deep Hashing', 'Multi-Modal Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.06697'}]
+tags: [Deep Hashing, Quantization, ANN Search, Multi-Modal Hashing, Loss Functions,
+  Evaluation Metrics, Hashing Methods]
 ---
 Hashing is widely applied to approximate nearest neighbor search for
 large-scale multimodal retrieval with storage and computation efficiency.

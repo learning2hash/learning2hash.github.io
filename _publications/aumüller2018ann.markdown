@@ -1,14 +1,13 @@
 ---
 layout: publication
 title: Ann-benchmarks A Benchmarking Tool For Approximate Nearest Neighbor Algorithms
-authors: Aumüller Martin, Bernhardsson Erik, Faithfull Alexander
-conference: "Arxiv"
+authors: "Aum\xFCller Martin, Bernhardsson Erik, Faithfull Alexander"
+conference: Arxiv
 year: 2018
 citations: 153
-bibkey: aumüller2018ann
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1807.05614"}
-tags: ['ARXIV']
+bibkey: "aum\xFCller2018ann"
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.05614'}]
+tags: [ANN Search, Evaluation Metrics, Tools and Libraries, Benchmarks and Datasets]
 ---
 This paper describes ANN-Benchmarks, a tool for evaluating the performance of
 in-memory approximate nearest neighbor algorithms. It provides a standard

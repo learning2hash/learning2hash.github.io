@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Learning Global And Local Consistent Representations For Unsupervised Image Retrieval Via Deep Graph Diffusion Networks'
+title: Learning Global And Local Consistent Representations For Unsupervised Image
+  Retrieval Via Deep Graph Diffusion Networks
 authors: Zhiyong Dou, Haotian Cui, Lin Zhang, Bo Wang
-conference: "Arxiv"
+conference: Arxiv
 year: 2020
 citations: 7
 bibkey: dou2020learning
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2001.01284'}
-tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Evaluation Metrics', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.01284'}]
+tags: [Applications, Unsupervised, Evaluation Metrics, Benchmarks and Datasets]
 ---
 Diffusion has shown great success in improving accuracy of unsupervised image
 retrieval systems by utilizing high-order structures of image manifold.

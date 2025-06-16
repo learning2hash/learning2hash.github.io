@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Online Supervised Hashing For Ever-growing Datasets'
+title: Online Supervised Hashing For Ever-growing Datasets
 authors: Fatih Cakir, Sarah Adel Bargal, Stan Sclaroff
-conference: "Arxiv"
+conference: Arxiv
 year: 2015
 citations: 0
 bibkey: cakir2015online
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1511.03257'}
-tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Indexing', 'Supervision Type', 'Supervision Types', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Indexing and Efficiency']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1511.03257'}]
+tags: [Applications, Indexing, ANN Search, Evaluation Metrics, Supervised, Hashing
+    Methods]
 ---
 Supervised hashing methods are widely-used for nearest neighbor search in
 computer vision applications. Most state-of-the-art supervised hashing

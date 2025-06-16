@@ -1,14 +1,13 @@
 ---
 layout: publication
 title: Parameter-free Locality Sensitive Hashing For Spherical Range Reporting
-authors: Ahle Thomas D., Aumüller Martin, Pagh Rasmus
-conference: "Arxiv"
+authors: "Ahle Thomas D., Aum\xFCller Martin, Pagh Rasmus"
+conference: Arxiv
 year: 2016
 citations: 12
 bibkey: ahle2016parameter
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1605.02673"}
-tags: ['ARXIV', 'Independent', 'LSH']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.02673'}]
+tags: [LSH, ANN Search]
 ---
 We present a data structure for *spherical range reporting* on a point set
 \\(S\\), i.e., reporting all points in \\(S\\) that lie within radius \\(r\\) of a given

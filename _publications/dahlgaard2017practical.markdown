@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Practical Hash Functions For Similarity Estimation And Dimensionality Reduction'
-authors: Søren Dahlgaard, Mathias Bæk Tejs Knudsen, Mikkel Thorup
-conference: "Arxiv"
+title: Practical Hash Functions For Similarity Estimation And Dimensionality Reduction
+authors: "S\xF8ren Dahlgaard, Mathias B\xE6k Tejs Knudsen, Mikkel Thorup"
+conference: Arxiv
 year: 2017
 citations: 16
 bibkey: dahlgaard2017practical
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1711.08797'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'ICML', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08797'}]
+tags: [Applications, Hashing Methods, ANN Search, ICML]
 ---
 Hashing is a basic tool for dimensionality reduction employed in several
 aspects of machine learning. However, the perfomance analysis is often carried

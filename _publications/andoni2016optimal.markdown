@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Optimal Hashing-based Time-space Trade-offs For Approximate Near Neighbors'
+title: Optimal Hashing-based Time-space Trade-offs For Approximate Near Neighbors
 authors: Alexandr Andoni, Thijs Laarhoven, Ilya Razenshteyn, Erik Waingarten
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 30
 bibkey: andoni2016optimal
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1608.03580'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.03580'}]
+tags: [Hashing Methods, ANN Search]
 ---
 [See the paper for the full abstract.]
   We show tight upper and lower bounds for time-space trade-offs for the

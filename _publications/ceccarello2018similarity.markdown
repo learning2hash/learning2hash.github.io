@@ -2,13 +2,12 @@
 layout: publication
 title: 'FRESH: Fr\''echet Similarity With Hashing'
 authors: Matteo Ceccarello, Anne Driemel, Francesco Silvestri
-conference: "Proc. of Algorithms and Data Structures Symposium (WADS) 2019"
+conference: Proc. of Algorithms and Data Structures Symposium (WADS) 2019
 year: 2018
 citations: 6
 bibkey: ceccarello2018similarity
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1809.02350'}
-tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.02350'}]
+tags: [Hashing Methods, Evaluation Metrics, ANN Search]
 ---
 This paper studies the \\(r\\)-range search problem for curves under the
 continuous Fr\'echet distance: given a dataset \\(S\\) of \\(n\\) polygonal curves and

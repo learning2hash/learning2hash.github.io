@@ -2,13 +2,12 @@
 layout: publication
 title: Fast Binary Embeddings With Gaussian Circulant Matrices Improved Bounds
 authors: Dirksen Sjoerd, Stollenwerk Alexander
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 5
 bibkey: dirksen2016fast
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1608.06498"}
-tags: ['ARXIV']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.06498'}]
+tags: [Hashing Methods, Efficient Learning]
 ---
 We consider the problem of encoding a finite set of vectors into a small
 number of bits while approximately retaining information on the angular

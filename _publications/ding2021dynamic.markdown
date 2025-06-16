@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Dynamic Texture Recognition Using PDV Hashing And Dictionary Learning On Multi-scale Volume Local Binary Pattern'
+title: Dynamic Texture Recognition Using PDV Hashing And Dictionary Learning On Multi-scale
+  Volume Local Binary Pattern
 authors: Ruxin Ding, Jianfeng Ren, Heng Yu, Jiawei Li
-conference: "Arxiv"
+conference: Arxiv
 year: 2021
 citations: 3
 bibkey: ding2021dynamic
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2111.12315'}
-tags: ['Hashing Fundamentals', 'Evaluation Metrics', 'Hashing Methods', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.12315'}]
+tags: [Hashing Methods, Evaluation Metrics]
 ---
 Spatial-temporal local binary pattern (STLBP) has been widely used in dynamic
 texture recognition. STLBP often encounters the high-dimension problem as its

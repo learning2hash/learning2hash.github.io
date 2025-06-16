@@ -2,13 +2,12 @@
 layout: publication
 title: Deep Cauchy Hashing For Hamming Space Retrieval
 authors: Cao Yue, Long, Liu, Wang
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 278
 bibkey: cao2024deep
-additional_links:
-  - {name: "Paper", url: "http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-cauchy-hashing-cvpr18.pdf"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent']
+additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-cauchy-hashing-cvpr18.pdf'}]
+tags: [Deep Hashing, ANN Search, Loss Functions, Benchmarks and Datasets, Applications]
 ---
 Due to its computation efficiency and retrieval quality,
 hashing has been widely applied to approximate nearest

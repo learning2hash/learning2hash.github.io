@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Similarity Search In The Blink Of An Eye With Compressed Indices'
+title: Similarity Search In The Blink Of An Eye With Compressed Indices
 authors: Cecilia Aguerrebere, Ishwar Bhati, Mark Hildebrand, Mariano Tepper, Ted Willke
-conference: "Arxiv"
+conference: Arxiv
 year: 2023
 citations: 12
 bibkey: aguerrebere2023similarity
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2304.04759'}
-tags: ['Quantization', 'Quantization and Compression', 'Applications', 'Approximate Nearest Neighbor Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.04759'}]
+tags: [Applications, Quantization, ANN Search]
 ---
 Nowadays, data is represented by vectors. Retrieving those vectors, among
 millions and billions, that are similar to a given query is a ubiquitous

@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Learning To Hash Robustly, Guaranteed'
+title: Learning To Hash Robustly, Guaranteed
 authors: Alexandr Andoni, Daniel Beaglehole
-conference: "Arxiv"
+conference: Arxiv
 year: 2021
 citations: 1
 bibkey: andoni2021learning
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2108.05433'}
-tags: ['Hashing Methods', 'Evaluation Metrics', 'Indexing', 'Hashing Fundamentals', 'Tools and Libraries', 'ANN Search', 'Benchmarks and Datasets']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.05433'}]
+tags: [Hashing Methods, Indexing, ANN Search, Evaluation Metrics, Benchmarks and Datasets]
 ---
 The indexing algorithms for the high-dimensional nearest neighbor search
 (NNS) with the best worst-case guarantees are based on the randomized Locality

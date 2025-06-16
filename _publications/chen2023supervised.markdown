@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Supervised Auto-encoding Twin-bottleneck Hashing'
-authors: Yuan Chen, Stéphane Marchand-maillet
-conference: "Arxiv"
+title: Supervised Auto-encoding Twin-bottleneck Hashing
+authors: "Yuan Chen, St\xE9phane Marchand-maillet"
+conference: Arxiv
 year: 2023
 citations: 0
 bibkey: chen2023supervised
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2306.11122'}
-tags: ['Hashing Methods', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.11122'}]
+tags: [Deep Hashing, ANN Search, Supervised, Hashing Methods]
 ---
 Deep hashing has shown to be a complexity-efficient solution for the
 Approximate Nearest Neighbor search problem in high dimensional space. Many

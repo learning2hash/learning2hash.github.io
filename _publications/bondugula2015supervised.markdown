@@ -2,13 +2,13 @@
 layout: publication
 title: 'SHOE: Supervised Hashing With Output Embeddings'
 authors: Sravanthi Bondugula, Varun Manjunatha, Larry S. Davis, David Doermann
-conference: "Arxiv"
+conference: Arxiv
 year: 2015
 citations: 0
 bibkey: bondugula2015supervised
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1502.00030'}
-tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Efficient Learning', 'Supervision Type', 'Supervision Types', 'Quantization and Compression', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1502.00030'}]
+tags: [Applications, Efficient Learning, Evaluation Metrics, Supervised, Benchmarks
+    and Datasets, Hashing Methods]
 ---
 We present a supervised binary encoding scheme for image retrieval that
 learns projections by taking into account similarity between classes obtained

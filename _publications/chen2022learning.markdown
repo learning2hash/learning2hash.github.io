@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Learning Binarized Graph Representations With Multi-faceted Quantization Reinforcement For Top-k Recommendation'
+title: Learning Binarized Graph Representations With Multi-faceted Quantization Reinforcement
+  For Top-k Recommendation
 authors: Yankai Chen et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2022
 citations: 21
 bibkey: chen2022learning
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2206.02115'}
-tags: ['Evaluation Metrics', 'Quantization and Compression', 'RecSys', 'Tools and Libraries', 'Quantization']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.02115'}]
+tags: [Quantization, Evaluation Metrics, Applications]
 ---
 Learning vectorized embeddings is at the core of various recommender systems
 for user-item matching. To perform efficient online inference, representation

@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Adversarial Collision Attacks On Image Hashing Functions'
+title: Adversarial Collision Attacks On Image Hashing Functions
 authors: Brian Dolhansky, Cristian Canton Ferrer
-conference: "Arxiv"
+conference: Arxiv
 year: 2020
 citations: 9
 bibkey: dolhansky2020adversarial
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2011.09473'}
-tags: ['Hashing Fundamentals', 'Hashing Methods']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.09473'}]
+tags: [Hashing Methods, Privacy and Security]
 ---
 Hashing images with a perceptual algorithm is a common approach to solving
 duplicate image detection problems. However, perceptual image hashing

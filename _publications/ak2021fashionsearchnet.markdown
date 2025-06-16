@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Fashionsearchnet-v2: Learning Attribute Representations With Localization For Image Retrieval With Attribute Manipulation'
+title: 'Fashionsearchnet-v2: Learning Attribute Representations With Localization
+  For Image Retrieval With Attribute Manipulation'
 authors: Kenan E. Ak, Joo Hwee Lim, Ying Sun, Jo Yew Tham, Ashraf A. Kassim
-conference: "Arxiv"
+conference: Arxiv
 year: 2021
 citations: 4
 bibkey: ak2021fashionsearchnet
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2111.14145'}
-tags: ['Tools and Libraries', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.14145'}]
+tags: [Applications, Supervised, Loss Functions]
 ---
 The focus of this paper is on the problem of image retrieval with attribute
 manipulation. Our proposed work is able to manipulate the desired attributes of

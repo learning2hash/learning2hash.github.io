@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: 'Transformer-based Clipped Contrastive Quantization Learning For Unsupervised Image Retrieval'
+title: Transformer-based Clipped Contrastive Quantization Learning For Unsupervised
+  Image Retrieval
 authors: Ayush Dubey, Shiv Ram Dubey, Satish Kumar Singh, Wei-ta Chu
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 3
 bibkey: dubey2024transformer
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2401.15362'}
-tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Quantization and Compression', 'Tools and Libraries', 'Benchmarks and Datasets', 'Quantization']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.15362'}]
+tags: [Applications, Unsupervised, Quantization, Evaluation Metrics, Benchmarks and
+    Datasets, Hashing Methods]
 ---
 Unsupervised image retrieval aims to learn the important visual
 characteristics without any given level to retrieve the similar images for a

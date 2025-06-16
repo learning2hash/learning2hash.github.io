@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Sampling A Near Neighbor In High Dimensions -- Who Is The Fairest Of Them All?'
-authors: Martin Aumüller, Sariel Har-peled, Sepideh Mahabadi, Rasmus Pagh, Francesco Silvestri
-conference: "Arxiv"
+title: Sampling A Near Neighbor In High Dimensions -- Who Is The Fairest Of Them All?
+authors: "Martin Aum\xFCller, Sariel Har-peled, Sepideh Mahabadi, Rasmus Pagh, Francesco\
+  \ Silvestri"
+conference: Arxiv
 year: 2021
 citations: 4
-bibkey: aumüller2021sampling
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2101.10905'}
-tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'Hashing Fundamentals']
+bibkey: "aum\xFCller2021sampling"
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.10905'}]
+tags: [Hashing Methods, Applications, ANN Search]
 ---
 Similarity search is a fundamental algorithmic primitive, widely used in many
 computer science disciplines. Given a set of points \\(S\\) and a radius parameter

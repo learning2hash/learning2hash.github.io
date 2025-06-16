@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'A Revisit Of Hashing Algorithms For Approximate Nearest Neighbor Search'
+title: A Revisit Of Hashing Algorithms For Approximate Nearest Neighbor Search
 authors: Deng Cai
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 23
 bibkey: cai2016revisit
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1612.07545'}
-tags: ['Hashing Methods', 'KDD', 'Approximate Nearest Neighbor Search', 'Indexing', 'ANN Search', 'Hashing Fundamentals']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.07545'}]
+tags: [Indexing, Hashing Methods, ANN Search, KDD]
 ---
 Approximate Nearest Neighbor Search (ANNS) is a fundamental problem in many
 areas of machine learning and data mining. During the past decade, numerous

@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: 'QUINT: Node Embedding Using Network Hashing'
-authors: Debajyoti Bera, Rameshwar Pratap, Bhisham Dev Verma, Biswadeep Sen, Tanmoy Chakraborty
-conference: "Arxiv"
+authors: Debajyoti Bera, Rameshwar Pratap, Bhisham Dev Verma, Biswadeep Sen, Tanmoy
+  Chakraborty
+conference: Arxiv
 year: 2021
 citations: 4
 bibkey: bera2021node
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2109.04206'}
-tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.04206'}]
+tags: [Hashing Methods, Efficient Learning]
 ---
 Representation learning using network embedding has received tremendous
 attention due to its efficacy to solve downstream tasks. Popular embedding

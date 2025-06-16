@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Supermodular Locality Sensitive Hashes'
+title: Supermodular Locality Sensitive Hashes
 authors: Maxim Berman, Matthew B. Blaschko
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 1
 bibkey: berman2018supermodular
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1807.06686'}
-tags: ['Uncategorized']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.06686'}]
+tags: [Hashing Methods, ANN Search, Efficient Learning]
 ---
 In this work, we show deep connections between Locality Sensitive Hashability
 and submodular analysis. We show that the LSHablility of the most commonly

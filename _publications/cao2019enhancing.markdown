@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Enhancing Remote Sensing Image Retrieval With Triplet Deep Metric Learning Network'
+title: Enhancing Remote Sensing Image Retrieval With Triplet Deep Metric Learning
+  Network
 authors: Rui Cao et al.
-conference: "International Journal of Remote Sensing 2020 Vol. 41 No. 2 pp. 740-751"
+conference: International Journal of Remote Sensing 2020 Vol. 41 No. 2 pp. 740-751
 year: 2019
 citations: 79
 bibkey: cao2019enhancing
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1902.05818'}
-tags: ['Benchmarks and Datasets', 'Tools and Libraries', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.05818'}]
+tags: [Applications, Supervised, Unsupervised, Loss Functions, Benchmarks and Datasets]
 ---
 With the rapid growing of remotely sensed imagery data, there is a high
 demand for effective and efficient image retrieval tools to manage and exploit

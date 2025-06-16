@@ -2,13 +2,12 @@
 layout: publication
 title: Efficient Retrieval With Learned Similarities
 authors: Ding Bailu, Zhai Jiaqi
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 0
 bibkey: ding2024efficient
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2407.15462"}
-tags: ['ARXIV', 'Supervised']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.15462'}]
+tags: [Supervised, ANN Search]
 ---
 Retrieval plays a fundamental role in recommendation systems, search, and
 natural language processing by efficiently finding relevant items from a large

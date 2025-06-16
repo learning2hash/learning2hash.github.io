@@ -2,13 +2,12 @@
 layout: publication
 title: Hashgan Deep Learning To Hash With Pair Conditional Wasserstein GAN
 authors: Cao Yue, Long, Liu, Wang
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 79
 bibkey: cao2024hashgan
-additional_links:
-  - {name: "Paper", url: "http://ise.thss.tsinghua.edu.cn/~mlong/doc/hashgan-cvpr18.pdf"}
-tags: ['ARXIV', 'Deep Learning', 'GAN', 'Image Retrieval', 'Supervised']
+additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/~mlong/doc/hashgan-cvpr18.pdf'}]
+tags: [Deep Hashing, ANN Search, Supervised, Benchmarks and Datasets]
 ---
 Deep learning to hash improves image retrieval performance by end-to-end representation learning and hash coding from training data with pairwise similarity information.
 Subject to the scarcity of similarity information that is often

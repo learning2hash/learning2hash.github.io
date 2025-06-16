@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Efficient On-the-fly Category Retrieval Using Convnets And Gpus'
+title: Efficient On-the-fly Category Retrieval Using Convnets And Gpus
 authors: Ken Chatfield, Karen Simonyan, Andrew Zisserman
-conference: "Arxiv"
+conference: Arxiv
 year: 2014
 citations: 4
 bibkey: chatfield2014efficient
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1407.4764'}
-tags: ['Evaluation Metrics', 'Quantization', 'Quantization and Compression', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1407.4764'}]
+tags: [Quantization, Evaluation Metrics, Tools and Libraries]
 ---
 We investigate the gains in precision and speed, that can be obtained by
 using Convolutional Networks (ConvNets) for on-the-fly retrieval - where

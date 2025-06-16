@@ -2,14 +2,13 @@
 layout: publication
 title: 'SPANN: Highly-efficient Billion-scale Approximate Nearest Neighbor Search'
 authors: Qi Chen et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2021
 citations: 4
 bibkey: chen2021highly
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2111.08566'}
-  - {name: "Code", url: 'https://github.com/microsoft/SPTAG'}
-tags: ['Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'Indexing', 'Tools and Libraries', 'ANN Search', 'Has Code']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.08566'}, {name: Code,
+    url: 'https://github.com/microsoft/SPTAG'}]
+tags: [ANN Search, Indexing, Evaluation Metrics, Tools and Libraries]
 ---
 The in-memory algorithms for approximate nearest neighbor search (ANNS) have
 achieved great success for fast high-recall search, but are extremely expensive

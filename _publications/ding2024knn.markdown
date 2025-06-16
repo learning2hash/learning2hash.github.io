@@ -2,13 +2,13 @@
 layout: publication
 title: Knn Hashing With Factorized Neighborhood Representation
 authors: Ding Kun, Huo, Fan, Pan
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 9
 bibkey: ding2024knn
-additional_links:
-  - {name: "Paper", url: "http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Ding_kNN_Hashing_With_ICCV_2015_paper.pdf"}
-tags: ['ARXIV', 'Supervised', 'Supervised']
+additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Ding_kNN_Hashing_With_ICCV_2015_paper.pdf'}]
+tags: [Supervised, Hashing Methods, ANN Search, Evaluation Metrics, Benchmarks and
+    Datasets]
 ---
 Hashing is very effective for many tasks in reducing the
 processing time and in compressing massive databases. Although lots of approaches have been developed to learn

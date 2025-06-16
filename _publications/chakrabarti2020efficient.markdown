@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Efficient Image Retrieval Using Multi Neural Hash Codes And Bloom Filters'
+title: Efficient Image Retrieval Using Multi Neural Hash Codes And Bloom Filters
 authors: Sourin Chakrabarti
-conference: "Arxiv"
+conference: Arxiv
 year: 2020
 citations: 0
 bibkey: chakrabarti2020efficient
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2011.03234'}
-tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.03234'}]
+tags: [Applications, ANN Search, Hashing Methods, Efficient Learning]
 ---
 This paper aims to deliver an efficient and modified approach for image
 retrieval using multiple neural hash codes and limiting the number of queries

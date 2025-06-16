@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'High-dimensional Simplexes For Supermetric Search'
+title: High-dimensional Simplexes For Supermetric Search
 authors: Richard Connor, Lucia Vadicamo, Fausto Rabitti
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 13
 bibkey: connor2017high
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1707.08370'}
-tags: ['ANN Search', 'Approximate Nearest Neighbor Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.08370'}]
+tags: [ANN Search, Indexing, Efficient Learning]
 ---
 In 1953, Blumenthal showed that every semi-metric space that is isometrically
 embeddable in a Hilbert space has the n-point property; we have previously

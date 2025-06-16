@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'A Framework For Similarity Search With Space-time Tradeoffs Using Locality-sensitive Filtering'
+title: A Framework For Similarity Search With Space-time Tradeoffs Using Locality-sensitive
+  Filtering
 authors: Tobias Christiani
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 12
 bibkey: christiani2016framework
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1605.02687'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.02687'}]
+tags: [Hashing Methods, ANN Search]
 ---
 We present a framework for similarity search based on Locality-Sensitive
 Filtering (LSF), generalizing the Indyk-Motwani (STOC 1998) Locality-Sensitive

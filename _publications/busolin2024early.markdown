@@ -1,15 +1,14 @@
 ---
 layout: publication
-title: 'Early Exit Strategies For Approximate K-nn Search In Dense Retrieval'
+title: Early Exit Strategies For Approximate K-nn Search In Dense Retrieval
 authors: Francesco Busolin et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 2
 bibkey: busolin2024early
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2408.04981'}
-  - {name: "Code", url: 'https://github.com/francescobusolin/faiss_pEE'}
-tags: ['Efficient Learning', 'Has Code']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.04981'}, {name: Code,
+    url: 'https://github.com/francescobusolin/faiss_pEE'}]
+tags: [Efficient Learning, Unsupervised, Has Code]
 ---
 Learned dense representations are a popular family of techniques for encoding
 queries and documents using high-dimensional embeddings, which enable retrieval

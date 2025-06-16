@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Fast Approximate Furthest Neighbors With Data-dependent Hashing'
+title: Fast Approximate Furthest Neighbors With Data-dependent Hashing
 authors: Ryan R. Curtin, Andrew B. Gardner
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 0
 bibkey: curtin2016fast
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1605.09784'}
-tags: ['Hashing Fundamentals', 'Efficient Learning', 'Hashing Methods', 'Tools and Libraries']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.09784'}]
+tags: [Efficient Learning, Hashing Methods, ANN Search]
 ---
 We present a novel hashing strategy for approximate furthest neighbor search
 that selects projection bases using the data distribution. This strategy leads

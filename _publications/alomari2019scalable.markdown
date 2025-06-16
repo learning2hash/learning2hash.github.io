@@ -2,13 +2,12 @@
 layout: publication
 title: Scalable Source Code Similarity Detection In Large Code Repositories
 authors: Alomari F, Harbi M
-conference: "EAI Endorsed Transactions on Scalable Information Systems Online first"
+conference: EAI Endorsed Transactions on Scalable Information Systems Online first
 year: 2019
 citations: 1
 bibkey: alomari2019scalable
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/1907.11817"}
-tags: ['Graph']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.11817'}]
+tags: [Graph, Hashing Methods, ANN Search, Efficient Learning]
 ---
 Source code similarity are increasingly used in application development to
 identify clones, isolate bugs, and find copy-rights violations. Similar code

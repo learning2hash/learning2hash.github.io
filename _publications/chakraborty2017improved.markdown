@@ -1,15 +1,14 @@
 ---
 layout: publication
-title: 'An Improved Video Analysis Using Context Based Extension Of LSH'
+title: An Improved Video Analysis Using Context Based Extension Of LSH
 authors: Angana Chakraborty, Sanghamitra Bandyopadhyay
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 0
 bibkey: chakraborty2017improved
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1705.03933'}
-  - {name: "Code", url: 'http://www.isical.ac.in/~bioinfo_miu/conLSH/conLSH.html'}
-tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Tools and Libraries', 'ANN Search', 'Hashing Fundamentals', 'Has Code']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.03933'}, {name: Code,
+    url: 'http://www.isical.ac.in/~bioinfo_miu/conLSH/conLSH.html'}]
+tags: [Applications, ANN Search, Hashing Methods]
 ---
 Locality Sensitive Hashing (LSH) based algorithms have already shown their
 promise in finding approximate nearest neighbors in high dimen- sional data

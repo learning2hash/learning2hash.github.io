@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Mean Local Group Average Precision (mlgap): A New Performance Metric For Hashing-based Retrieval'
+title: 'Mean Local Group Average Precision (mlgap): A New Performance Metric For Hashing-based
+  Retrieval'
 authors: Pak Lun Kevin Ding, Yikang Li, Baoxin Li
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 4
 bibkey: ding2018mean
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1811.09763'}
-tags: ['Hashing Methods', 'Applications', 'Evaluation Metrics', 'Efficient Learning', 'Hashing Fundamentals']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.09763'}]
+tags: [Applications, Evaluation Metrics, Hashing Methods]
 ---
 The research on hashing techniques for visual data is gaining increased
 attention in recent years due to the need for compact representations

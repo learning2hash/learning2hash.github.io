@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Transfer Adversarial Hashing For Hamming Space Retrieval'
+title: Transfer Adversarial Hashing For Hamming Space Retrieval
 authors: Zhangjie Cao, Mingsheng Long, Chao Huang, Jianmin Wang
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 10
 bibkey: cao2017transfer
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1712.04616'}
-tags: ['Hashing Methods', 'Applications', 'Hybrid and Advanced Models', 'Privacy and Security', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.04616'}]
+tags: [Applications, Deep Hashing, ANN Search, Hashing Methods, Loss Functions]
 ---
 Hashing is widely applied to large-scale image retrieval due to the storage
 and retrieval efficiency. Existing work on deep hashing assumes that the

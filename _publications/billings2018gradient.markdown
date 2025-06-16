@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Gradient Augmented Information Retrieval With Autoencoders And Semantic Hashing'
+title: Gradient Augmented Information Retrieval With Autoencoders And Semantic Hashing
 authors: Sean Billings
-conference: "Arxiv"
+conference: Arxiv
 year: 2018
 citations: 0
 bibkey: billings2018gradient
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1803.04494'}
-tags: ['Hashing Fundamentals', 'Hashing Methods']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.04494'}]
+tags: [Hashing Methods, Deep Hashing, ANN Search, Evaluation Metrics]
 ---
 This paper will explore the use of autoencoders for semantic hashing in the
 context of Information Retrieval. This paper will summarize how to efficiently

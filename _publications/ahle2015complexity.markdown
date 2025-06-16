@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'On The Complexity Of Inner Product Similarity Join'
+title: On The Complexity Of Inner Product Similarity Join
 authors: Thomas D. Ahle, Rasmus Pagh, Ilya Razenshteyn, Francesco Silvestri
-conference: "Arxiv"
+conference: Arxiv
 year: 2015
 citations: 22
 bibkey: ahle2015complexity
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1510.02824'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'Indexing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1510.02824'}]
+tags: [Indexing, Hashing Methods]
 ---
 A number of tasks in classification, information retrieval, recommendation
 systems, and record linkage reduce to the core problem of inner product

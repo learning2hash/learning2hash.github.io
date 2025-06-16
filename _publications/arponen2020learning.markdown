@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Learning To Hash With Semantic Similarity Metrics And Empirical KL Divergence'
+title: Learning To Hash With Semantic Similarity Metrics And Empirical KL Divergence
 authors: Heikki Arponen, Tom E. Bishop
-conference: "Arxiv"
+conference: Arxiv
 year: 2020
 citations: 0
 bibkey: arponen2020learning
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2005.04917'}
-tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'Tools and Libraries', 'Benchmarks and Datasets']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.04917'}]
+tags: [Applications, Evaluation Metrics, Supervised, Benchmarks and Datasets, Hashing
+    Methods, Loss Functions]
 ---
 Learning to hash is an efficient paradigm for exact and approximate nearest
 neighbor search from massive databases. Binary hash codes are typically

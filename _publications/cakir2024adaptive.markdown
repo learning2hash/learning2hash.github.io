@@ -2,13 +2,13 @@
 layout: publication
 title: Adaptive Hashing For Fast Similarity Search
 authors: Cakir F., Sclaroff
-conference: "Arxiv"
+conference: Arxiv
 year: 2024
 citations: 60
 bibkey: cakir2024adaptive
-additional_links:
-  - {name: "Paper", url: "https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Cakir_Adaptive_Hashing_for_ICCV_2015_paper.pdf"}
-tags: ['ARXIV', 'Image Retrieval', 'Independent', 'Streaming Data']
+additional_links: [{name: Paper, url: 'https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Cakir_Adaptive_Hashing_for_ICCV_2015_paper.pdf'}]
+tags: [Hashing Methods, ANN Search, Applications, Efficient Learning, Supervision
+    Type]
 ---
 With the staggering growth in image and video datasets,
 algorithms that provide fast similarity search and compact

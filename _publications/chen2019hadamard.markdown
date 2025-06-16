@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Hadamard Codebook Based Deep Hashing'
+title: Hadamard Codebook Based Deep Hashing
 authors: Shen Chen et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2019
 citations: 3
 bibkey: chen2019hadamard
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1910.09182'}
-tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Evaluation Metrics', 'ANN Search', 'Hashing Fundamentals', 'Deep Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.09182'}]
+tags: [Applications, Deep Hashing, ANN Search, Evaluation Metrics, Supervised, Hashing
+    Methods]
 ---
 As an approximate nearest neighbor search technique, hashing has been widely
 applied in large-scale image retrieval due to its excellent efficiency. Most

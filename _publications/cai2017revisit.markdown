@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'A Revisit On Deep Hashings For Large-scale Content Based Image Retrieval'
+title: A Revisit On Deep Hashings For Large-scale Content Based Image Retrieval
 authors: Deng Cai, Xiuye Gu, Chaoqi Wang
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 13
 bibkey: cai2017revisit
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1711.06016'}
-tags: ['Hashing Methods', 'Applications', 'Approximate Nearest Neighbor Search', 'Supervision Type', 'Supervision Types', 'ANN Search', 'Tools and Libraries', 'Hashing Fundamentals', 'Deep Hashing', 'Indexing and Efficiency']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.06016'}]
+tags: [Applications, Unsupervised, Deep Hashing, ANN Search, Hashing Methods]
 ---
 There is a growing trend in studying deep hashing methods for content-based
 image retrieval (CBIR), where hash functions and binary codes are learnt using

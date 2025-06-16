@@ -2,13 +2,13 @@
 layout: publication
 title: 'Transhash: Transformer-based Hamming Hashing For Efficient Image Retrieval'
 authors: Yongbiao Chen et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2021
 citations: 40
 bibkey: chen2021transformer
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2105.01823'}
-tags: ['Evaluation and Benchmarks', 'Hashing Methods', 'Applications', 'Evaluation Metrics', 'Hashing Fundamentals', 'ANN Search', 'Tools and Libraries', 'Benchmarks and Datasets', 'Deep Hashing']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.01823'}]
+tags: [Applications, Deep Hashing, ANN Search, Evaluation Metrics, Benchmarks and
+    Datasets, Hashing Methods]
 ---
 Deep hamming hashing has gained growing popularity in approximate nearest
 neighbour search for large-scale image retrieval. Until now, the deep hashing

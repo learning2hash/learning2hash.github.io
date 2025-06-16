@@ -2,13 +2,12 @@
 layout: publication
 title: 'State Of The Art: Image Hashing'
 authors: Rubel Biswas, Pablo Blanco-medina
-conference: "Arxiv"
+conference: Arxiv
 year: 2021
 citations: 4
 bibkey: biswas2021state
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2108.11794'}
-tags: ['Hashing Methods', 'Applications', 'Survey', 'Hashing Fundamentals', 'Survey Paper']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.11794'}]
+tags: [Applications, Hashing Methods, Survey Paper]
 ---
 Perceptual image hashing methods are often applied in various objectives,
 such as image retrieval, finding duplicate or near-duplicate images, and

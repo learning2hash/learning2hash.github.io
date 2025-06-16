@@ -2,13 +2,12 @@
 layout: publication
 title: 'No Repetition: Fast Streaming With Highly Concentrated Hashing'
 authors: Anders Aamand et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2020
 citations: 1
 bibkey: aamand2020no
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2004.01156'}
-tags: ['Hashing Fundamentals', 'Hashing Methods']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.01156'}]
+tags: [Hashing Methods, Efficient Learning]
 ---
 To get estimators that work within a certain error bound with high
 probability, a common strategy is to design one that works with constant

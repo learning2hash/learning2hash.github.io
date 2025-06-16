@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Aggregating Binary Local Descriptors For Image Retrieval'
+title: Aggregating Binary Local Descriptors For Image Retrieval
 authors: Giuseppe Amato, Fabrizio Falchi, Lucia Vadicamo
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 6
 bibkey: amato2016aggregating
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1608.00813'}
-tags: ['Hashing for Real-World Applications', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.00813'}]
+tags: [Applications, Hashing Methods, Deep Hashing, Efficient Learning]
 ---
 Content-Based Image Retrieval based on local features is computationally
 expensive because of the complexity of both extraction and matching of local

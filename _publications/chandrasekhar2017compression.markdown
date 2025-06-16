@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Compression Of Deep Neural Networks For Image Instance Retrieval'
+title: Compression Of Deep Neural Networks For Image Instance Retrieval
 authors: Vijay Chandrasekhar et al.
-conference: "Arxiv"
+conference: Arxiv
 year: 2017
 citations: 14
 bibkey: chandrasekhar2017compression
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1701.04923'}
-tags: ['Survey Paper', 'Quantization', 'Quantization and Compression', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.04923'}]
+tags: [Applications, Quantization]
 ---
 Image instance retrieval is the problem of retrieving images from a database
 which contain the same object. Convolutional Neural Network (CNN) based

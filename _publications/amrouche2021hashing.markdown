@@ -1,14 +1,13 @@
 ---
 layout: publication
-title: 'Hashing And Metric Learning For Charged Particle Tracking'
+title: Hashing And Metric Learning For Charged Particle Tracking
 authors: Sabrina Amrouche, Moritz Kiehn, Tobias Golling, Andreas Salzburger
-conference: "Arxiv"
+conference: Arxiv
 year: 2021
 citations: 5
 bibkey: amrouche2021hashing
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/2101.06428'}
-tags: ['Hashing Fundamentals', 'Hashing Methods', 'ANN Search', 'Approximate Nearest Neighbor Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.06428'}]
+tags: [ANN Search, Hashing Methods, Loss Functions]
 ---
 We propose a novel approach to charged particle tracking at high intensity
 particle colliders based on Approximate Nearest Neighbors search. With hundreds

@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Content-based Image Retrieval Based On Late Fusion Of Binary And Local Descriptors'
+title: Content-based Image Retrieval Based On Late Fusion Of Binary And Local Descriptors
 authors: Nouman Ali et al.
-conference: "International Journal of Computer Science and Information Security (IJCSIS) Volume 14 Issue 11 Publication date 2016/11"
+conference: International Journal of Computer Science and Information Security (IJCSIS)
+  Volume 14 Issue 11 Publication date 2016/11
 year: 2017
 citations: 4
 bibkey: ali2017content
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1703.08492'}
-tags: ['Hashing for Real-World Applications', 'Applications']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.08492'}]
+tags: [Applications]
 ---
 One of the challenges in Content-Based Image Retrieval (CBIR) is to reduce
 the semantic gaps between low-level features and high-level semantic concepts.

@@ -1,14 +1,15 @@
 ---
 layout: publication
-title: A Generalized Approach For Cancellable Template And Its Realization For Minutia Cylinder-code
+title: A Generalized Approach For Cancellable Template And Its Realization For Minutia
+  Cylinder-code
 authors: Dong Xingbo, Jin Zhe, Wong Koksheik
-conference: "Arxiv"
+conference: Arxiv
 year: 2022
 citations: 2
 bibkey: dong2022generalized
-additional_links:
-  - {name: "Paper", url: "https://arxiv.org/abs/2203.01095"}
-tags: ['ARXIV']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.01095'}]
+tags: [Hashing Methods, Indexing, Applications, Benchmarks and Datasets, Privacy and
+    Security]
 ---
 Hashing technology gains much attention in protecting the biometric template
 lately. For instance, Index-of-Max (IoM), a recent reported hashing technique,

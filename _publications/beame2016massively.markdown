@@ -1,14 +1,14 @@
 ---
 layout: publication
-title: 'Massively-parallel Similarity Join, Edge-isoperimetry, And Distance Correlations On The Hypercube'
+title: Massively-parallel Similarity Join, Edge-isoperimetry, And Distance Correlations
+  On The Hypercube
 authors: Paul Beame, Cyrus Rashtchian
-conference: "Arxiv"
+conference: Arxiv
 year: 2016
 citations: 1
 bibkey: beame2016massively
-additional_links:
-  - {name: "Paper", url: 'https://arxiv.org/abs/1611.04999'}
-tags: ['Evaluation Metrics', 'Tools and Libraries', 'Approximate Nearest Neighbor Search']
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.04999'}]
+tags: [Evaluation Metrics]
 ---
 We study distributed protocols for finding all pairs of similar vectors in a
 large dataset. Our results pertain to a variety of discrete metrics, and we
