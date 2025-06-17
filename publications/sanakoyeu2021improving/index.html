@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+<!-- Begin Web-Stat code v 7.0 -->
+<span id="wts2185304"></span>
+<script>var wts=document.createElement('script');wts.async=true;
+wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+wts.onload = function(){ wtslog7(2185304,4); };
+</script><noscript><a href="https://www.web-stat.com">
+<img src="https://app.ardalio.com/7/4/2185304.png" 
+alt="Web-Stat web statistics"></a></noscript>
+<!-- End Web-Stat code v 7.0 -->
+  <!-- Hotjar Tracking Code for https://learning2hash.github.io/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1843243,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109544763-1');
+</script>
+<script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["\\(","\\)"]],
+        displayMath: [["\\[","\\]"]],
+      },
+      options: {
+        processHtmlClass: "mathjax-content",
+        processEscapes: true,
+      }
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Improving Deep Metric Learning By Divide And Conquer | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Improving Deep Metric Learning By Divide And Conquer" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Deep metric learning (DML) is a cornerstone of many computer vision applications. It aims at learning a mapping from the input domain to an embedding space, where semantically similar objects are located nearby and dissimilar objects far from another. The target similarity on the training data is defined by user in form of ground-truth class labels. However, while the embedding space learns to mimic the user-provided similarity on the training data, it should also generalize to novel categories not seen during training. Besides user-provided groundtruth training labels, a lot of additional visual factors (such as viewpoint changes or shape peculiarities) exist and imply different notions of similarity between objects, affecting the generalization on the images unseen during training. However, existing approaches usually directly learn a single embedding space on all available training data, struggling to encode all different types of relationships, and do not generalize well. We propose to build a more expressive representation by jointly splitting the embedding space and the data hierarchically into smaller sub-parts. We successively focus on smaller subsets of the training data, reducing its variance and learning a different embedding subspace for each data subset. Moreover, the subspaces are learned jointly to cover not only the intricacies, but the breadth of the data as well. Only after that, we build the final embedding from the subspaces in the conquering stage. The proposed algorithm acts as a transparent wrapper that can be placed around arbitrary existing DML methods. Our approach significantly improves upon the state-of-the-art on image retrieval, clustering, and re-identification tasks evaluated using CUB200-2011, CARS196, Stanford Online Products, In-shop Clothes, and PKU VehicleID datasets." />
+<meta property="og:description" content="Deep metric learning (DML) is a cornerstone of many computer vision applications. It aims at learning a mapping from the input domain to an embedding space, where semantically similar objects are located nearby and dissimilar objects far from another. The target similarity on the training data is defined by user in form of ground-truth class labels. However, while the embedding space learns to mimic the user-provided similarity on the training data, it should also generalize to novel categories not seen during training. Besides user-provided groundtruth training labels, a lot of additional visual factors (such as viewpoint changes or shape peculiarities) exist and imply different notions of similarity between objects, affecting the generalization on the images unseen during training. However, existing approaches usually directly learn a single embedding space on all available training data, struggling to encode all different types of relationships, and do not generalize well. We propose to build a more expressive representation by jointly splitting the embedding space and the data hierarchically into smaller sub-parts. We successively focus on smaller subsets of the training data, reducing its variance and learning a different embedding subspace for each data subset. Moreover, the subspaces are learned jointly to cover not only the intricacies, but the breadth of the data as well. Only after that, we build the final embedding from the subspaces in the conquering stage. The proposed algorithm acts as a transparent wrapper that can be placed around arbitrary existing DML methods. Our approach significantly improves upon the state-of-the-art on image retrieval, clustering, and re-identification tasks evaluated using CUB200-2011, CARS196, Stanford Online Products, In-shop Clothes, and PKU VehicleID datasets." />
+<link rel="canonical" href="https://learning2hash.github.io/publications/sanakoyeu2021improving/" />
+<meta property="og:url" content="https://learning2hash.github.io/publications/sanakoyeu2021improving/" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-06-17T02:04:17-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Improving Deep Metric Learning By Divide And Conquer" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-17T02:04:17-05:00","datePublished":"2025-06-17T02:04:17-05:00","description":"Deep metric learning (DML) is a cornerstone of many computer vision applications. It aims at learning a mapping from the input domain to an embedding space, where semantically similar objects are located nearby and dissimilar objects far from another. The target similarity on the training data is defined by user in form of ground-truth class labels. However, while the embedding space learns to mimic the user-provided similarity on the training data, it should also generalize to novel categories not seen during training. Besides user-provided groundtruth training labels, a lot of additional visual factors (such as viewpoint changes or shape peculiarities) exist and imply different notions of similarity between objects, affecting the generalization on the images unseen during training. However, existing approaches usually directly learn a single embedding space on all available training data, struggling to encode all different types of relationships, and do not generalize well. We propose to build a more expressive representation by jointly splitting the embedding space and the data hierarchically into smaller sub-parts. We successively focus on smaller subsets of the training data, reducing its variance and learning a different embedding subspace for each data subset. Moreover, the subspaces are learned jointly to cover not only the intricacies, but the breadth of the data as well. Only after that, we build the final embedding from the subspaces in the conquering stage. The proposed algorithm acts as a transparent wrapper that can be placed around arbitrary existing DML methods. Our approach significantly improves upon the state-of-the-art on image retrieval, clustering, and re-identification tasks evaluated using CUB200-2011, CARS196, Stanford Online Products, In-shop Clothes, and PKU VehicleID datasets.","headline":"Improving Deep Metric Learning By Divide And Conquer","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sanakoyeu2021improving/"},"url":"https://learning2hash.github.io/publications/sanakoyeu2021improving/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.svg">
+  <link rel="search" href="/public/opensearchdescription.xml" 
+      type="application/opensearchdescription+xml" 
+      title="learning2hash" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <a href='/contributing.html' class='ribbon'>Add your paper to Learning2Hash</a>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Awesome Learning to Hash
+        </a>
+      </h1>
+      <p class="lead">A Webpage dedicated to the latest research on Hash Function Learning. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="sidebar-item">
+        <p style="font-size: 12px">
+          Search related work 
+          <input type='text' id='searchTarget' size="16"/> 
+          <button onClick="search();">Go</button>
+        </p>
+      </div>
+      <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item" href="/topic-viz.html">Topic-based Explorer</a>
+      <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item" href="/resources.html">Resources, Courses &#38; Events</a>
+      <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
+    </nav>
+
+    <div class="sidebar-item">
+      <p style="font-size: 12px">
+        Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
+        <span style="font-size: 9px">
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+$("#searchTarget").keydown(function (e) {	
+  if (e.keyCode == 13) {
+    search();
+  }
+});
+
+function search() {
+  try {
+    ga('send', 'event', 'search', 'search', $("#searchTarget").val());
+  } finally {
+    window.location = "/papers.html#" + $("#searchTarget").val();
+  }
+}
+</script>
+
+
+    <div class="content container">
+      <div class="page mathjax-content">
+  <h1 class="page-title">Improving Deep Metric Learning By Divide And Conquer</h1>
+  <h5>Artsiom Sanakoyeu, Pingchuan Ma, Vadim Tschernezki, Björn Ommer. Arxiv 2021</h5>
+  
+  <p>
+    
+      [<a href="https://arxiv.org/abs/2109.04003" target="_blank">Paper</a>]
+    
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Improving%20Deep%20Metric%20Learning%20By%20Divide%20And%20Conquer' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Improving%20Deep%20Metric%20Learning%20By%20Divide%20And%20Conquer' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    <br/>
+    
+      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+    
+      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+    
+      <span class="tag"><a href="/tags.html#Tools and Libraries">Tools and Libraries</a></span>
+    
+  </p>
+  
+  <p><p>Deep metric learning (DML) is a cornerstone of many computer vision
+applications. It aims at learning a mapping from the input domain to an
+embedding space, where semantically similar objects are located nearby and
+dissimilar objects far from another. The target similarity on the training data
+is defined by user in form of ground-truth class labels. However, while the
+embedding space learns to mimic the user-provided similarity on the training
+data, it should also generalize to novel categories not seen during training.
+Besides user-provided groundtruth training labels, a lot of additional visual
+factors (such as viewpoint changes or shape peculiarities) exist and imply
+different notions of similarity between objects, affecting the generalization
+on the images unseen during training. However, existing approaches usually
+directly learn a single embedding space on all available training data,
+struggling to encode all different types of relationships, and do not
+generalize well. We propose to build a more expressive representation by
+jointly splitting the embedding space and the data hierarchically into smaller
+sub-parts. We successively focus on smaller subsets of the training data,
+reducing its variance and learning a different embedding subspace for each data
+subset. Moreover, the subspaces are learned jointly to cover not only the
+intricacies, but the breadth of the data as well. Only after that, we build the
+final embedding from the subspaces in the conquering stage. The proposed
+algorithm acts as a transparent wrapper that can be placed around arbitrary
+existing DML methods. Our approach significantly improves upon the
+state-of-the-art on image retrieval, clustering, and re-identification tasks
+evaluated using CUB200-2011, CARS196, Stanford Online Products, In-shop
+Clothes, and PKU VehicleID datasets.</p>
+</p>
+
+  <h6>Similar Work</h6>
+  <p>
+    <ul id="relwork"></ul>
+  </p>
+
+  <script defer>
+    $(document).ready(function() {
+      $.getJSON("/publications-metadata/sanakoyeu2021improving.json", function(data) {
+        var num_papers = data.length;
+        var html = "";
+        for (var i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function() {
+        console.error("Failed to load related work metadata.");
+      });
+    });
+  </script>
+
+</div>
+
+    </div>
+
+  </body>
+</html>
