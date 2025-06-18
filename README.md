@@ -7,74 +7,80 @@
 
 ---
 
-**A curated, structured, and searchable resource for Learning to Hash and Approximate Nearest Neighbor (ANN) research.**
+**Explore the field of Learning to Hash with structure and clarity.**  
+A visual, searchable map of key papers on hashing methods, ANN search, quantization, and vector indexing.
 
 🔗 **Live site:** [learning2hash.github.io](https://learning2hash.github.io)
 
 ---
 
-## 📘 About
+## 🧭 Why This Exists
 
-The *Learning to Hash* field powers fast similarity search, image retrieval, vector quantization, and efficient indexing. But the literature is vast and scattered.
+Learning to Hash is a foundational area in efficient similarity search, powering applications in large-scale retrieval, vision, and information systems.
 
-This project brings it together in one place:
-- 🧠 **Paper taxonomy** of key methods (binary hashing, deep hashing, quantization, etc.)
-- 📅 **Chronological and clustered views** of foundational and recent papers
-- 🧪 Highlighting methods by supervision type, modality, and algorithm class
-- 🔍 Search and filter by technique, topic, or citation
+But the literature is fragmented across subfields and venues. It’s hard to get a clear picture of the landscape.
+
+**Learning to Hash** solves that by providing an **interactive, structured interface** to the field — with categories, tags, search, and taxonomy across modalities and methods.
 
 ---
 
 ## ✨ Features
 
-- 📚 Categorized research papers with bib keys, tags, and abstracts  
-- 🧭 Explore hashing methods across supervised, unsupervised, deep, and multimodal setups  
-- 🧱 Quantization, indexing, and retrieval models clearly separated  
-- 📌 Curated conference list, datasets, tools, and survey papers  
-- 🔄 Updated regularly with community feedback and recent literature
+- 📌 **Taxonomy of methods:** Binary hashing, deep hashing, quantization, indexing, multimodal
+- 🔍 **Search:** Instantly find papers by title, authors, tags, or topics  
+- 🧠 **Clustered tagging:** Group papers by supervision level, modality, and algorithmic approach  
+- 🗂️ **Categorized views:** Hashing vs Quantization vs Indexing, clearly separated  
+- 🚫 **No ads, no subscriptions — just structured research access**
 
 ---
 
-## 🌐 Explore It
+## 🖼️ Screenshots
 
-Visit the site: [https://learning2hash.github.io](https://learning2hash.github.io)
-
----
-
-## 📂 Project Structure
-
-- `data/`: Metadata, tags, and taxonomy YAML files  
-- `papers/`: Markdown pages for each paper  
-- `scripts/`: Python helpers for generating content from arXiv metadata  
-- `index.html`: Homepage with interactive content, filtering, and search
+![screenshot](https://learning2hash.github.io/assets/preview.png)  
+*A visual literature review of the Learning to Hash field*
 
 ---
 
-## 🤝 Contributing
+## 🚀 Get Started
 
-Spotted a missing paper or misclassification?
-
-1. Fork this repo
-2. Add or update entries in the data files
-3. Submit a pull request or open an issue
-
-We’re especially looking for:
-- Recent papers from top-tier venues (CVPR, NeurIPS, ICCV, etc.)
-- Corrections to tag assignments or categories
-- Suggestions for tools, benchmarks, or taxonomy improvements
+Visit: [https://learning2hash.github.io](https://learning2hash.github.io)
 
 ---
 
-## ⭐ Support the Project
+## 🛠️ How It Works
 
-- Star this repo ⭐️  
-- Share the site with friends and colleagues  
-- Contribute to its growth with your knowledge or papers
+This site is statically hosted using GitHub Pages and built with:
+- Python backend (for parsing arXiv data and generating markdown)
+- Jekyll and JavaScript for the frontend
+- YAML-based taxonomy and metadata files
+
+All entries are manually curated and auto-generated from structured data.
+
+---
+
+## 📬 Contributing
+
+Want to improve it or suggest new papers?
+
+1. Fork the repo
+2. Add a markdown file for the paper or update `taxonomy.yaml`
+3. Submit a pull request
+
+You can also open an issue with suggestions or corrections — contributions are welcome!
+
+---
+
+## ⭐ Support & Share
+
+If this project helps you:
+- Give it a ⭐ on GitHub
+- Share the site with others in the ANN / CV / ML community
+- Suggest recent papers, tools, or ideas to include
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **GNU General Public License v3.0** – see the [LICENSE](./LICENSE) file for full terms.
+This project is licensed under the **GNU General Public License v3.0** – see the [LICENSE](./LICENSE) file for details.
 
 ---
