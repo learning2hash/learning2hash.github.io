@@ -3,12 +3,14 @@ layout: default
 title: Visualization of Publications on Learning to Hash
 description: A tSNE visualization of all the Learning to Hash Papers with Clustering
 ---
-
 <h2>2D Map of Papers</h2>
 <p>Each dot represents one paper in this survey. Hover your mouse over each point to look
 at the details. Click on a point to go to the paper information page.</p>
-<div style="text-align: right;">
-  <label>Search </label><input type="text" spellcheck="false" id="filtermap"/>
+<div style="text-align: right; margin-bottom: 10px;">
+  <label>Search </label>
+  <input type="text" spellcheck="false" id="filtermap"/>
+  <button id="clearSearch">Clear</button>
+  <span id="matchCount" style="margin-left: 10px;">Matching papers: 0</span>
 </div>
 
 <!-- Added time slider for temporal animation -->
@@ -91,6 +93,11 @@ var filteredData = [];
 d3.json('./tsne_clustered.json').then(function(data) {
   allData = data;
 
+  d3.select("#clearSearch").on("click", function() {
+  d3.select("#filtermap").property("value", "");
+  updateVisualization();
+  });
+  
   // Convert 'year' and 'citations' fields to numbers
   allData.forEach(function(d) {
     d.year = parseInt(d.year);
@@ -167,13 +174,12 @@ d3.json('./tsne_clustered.json').then(function(data) {
     updateVisualization();
   });
 
-  // Search functionality
-  d3.select("#filtermap").on("keyup", function(e) {
-    var searchTerm = d3.select("#filtermap").property("value").toLocaleLowerCase();
-    var allPoints = zoomLayer.selectAll("circle");
-    allPoints.filter(dd => !isMatch(dd, searchTerm)).style("fill", function(d) { return color(d.cluster); });
-    allPoints.filter(dd => isMatch(dd, searchTerm)).style("fill", "#aa0000");
+  let debounceTimer;
+  d3.select("#filtermap").on("keyup", function() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(updateVisualization, 200);
   });
+  
 
   // Pan and Zoom Controls
   var panAmount = 50; // Amount of pixels to pan by
@@ -203,15 +209,19 @@ d3.json('./tsne_clustered.json').then(function(data) {
   });
 
   d3.select("#sizeByCitations").on("change", updateVisualization);
-  
+
   // Update visualization function
   function updateVisualization() {
     var selectedYear = +d3.select("#yearRange").property("value");
     var searchTerm = d3.select("#filtermap").property("value").toLocaleLowerCase();
 
     // Filter data based on selected year
-    filteredData = allData.filter(d => d.year <= selectedYear);
-
+    filteredData = allData.filter(d => {
+        const yearMatch = d.year <= selectedYear;
+        const textMatch = !searchTerm || isMatch(d, searchTerm);
+        return yearMatch && textMatch;
+    });
+    
     // Bind data
     var circles = zoomLayer.selectAll("circle")
       .data(filteredData, d => d.key); // Use d.key as the identifier
@@ -253,7 +263,8 @@ d3.json('./tsne_clustered.json').then(function(data) {
         .on("mousemove", mousemove)
         .on("mouseleave", mouseleave)
         .on("click", click_link);
+  
+  d3.select("#matchCount").text("Matching papers: " + filteredData.length);
   }
 });
 </script>
-
