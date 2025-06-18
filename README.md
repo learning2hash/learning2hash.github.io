@@ -34,10 +34,9 @@ But the literature is fragmented across subfields and venues. It’s hard to get
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ Overview
 
-![screenshot](https://learning2hash.github.io/assets/preview.png)  
-*A visual literature review of the Learning to Hash field*
+![screenshot](https://learning2hash.github.io/carousel.png)  
 
 ---
 
