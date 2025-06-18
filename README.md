@@ -36,7 +36,7 @@ But the literature is fragmented across subfields and venues. It’s hard to get
 
 ## 🖼️ Overview
 
-![screenshot](https://learning2hash.github.io/carousel.png)  
+<img src="https://learning2hash.github.io/carousel.png" alt="screenshot" width="70%"/>
 
 ---
 
