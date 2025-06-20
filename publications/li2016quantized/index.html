@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2016quantized/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Quantized Random Projections And Non-linear Estimation Of Cosine Similarity" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Random projections constitute a simple, yet effective technique for dimensionality reduction with applications in learning and search problems. In the present paper, we consider the problem of estimating cosine similarities when the projected data undergo scalar quantization to \\(b\\) bits. We here argue that the maximum likelihood estimator (MLE) is a principled approach to deal with the non-linearity resulting from quantization, and subsequently study its computational and statistical properties. A specific focus is on the on the trade-off between bit depth and the number of projections given a fixed budget of bits for storage or transmission. Along the way, we also touch upon the existence of a qualitative counterpart to the Johnson-Lindenstrauss lemma in the presence of quantization.","headline":"Quantized Random Projections And Non-linear Estimation Of Cosine Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2016quantized/"},"url":"https://learning2hash.github.io/publications/li2016quantized/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Random projections constitute a simple, yet effective technique for dimensionality reduction with applications in learning and search problems. In the present paper, we consider the problem of estimating cosine similarities when the projected data undergo scalar quantization to \\(b\\) bits. We here argue that the maximum likelihood estimator (MLE) is a principled approach to deal with the non-linearity resulting from quantization, and subsequently study its computational and statistical properties. A specific focus is on the on the trade-off between bit depth and the number of projections given a fixed budget of bits for storage or transmission. Along the way, we also touch upon the existence of a qualitative counterpart to the Johnson-Lindenstrauss lemma in the presence of quantization.","headline":"Quantized Random Projections And Non-linear Estimation Of Cosine Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2016quantized/"},"url":"https://learning2hash.github.io/publications/li2016quantized/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,48 +153,53 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Quantized Random Projections And Non-linear Estimation Of Cosine Similarity</h1>
-  <h5>Ping Li, Michael Mitzenmacher, Martin Slawski. Neural Information Processing Systems 2016</h5>
+  <h5>
+  Ping Li, Michael Mitzenmacher, Martin Slawski. Neural Information Processing Systems 2016
   
+    – <span>4 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://papers.nips.cc/paper/2016/hash/186a157b2992e7daed3677ce8e9fe40f-Abstract.html" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Quantized%20Random%20Projections%20And%20Non-linear%20Estimation%20Of%20Cosine%20Similarity' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Quantized%20Random%20Projections%20And%20Non-linear%20Estimation%20Of%20Cosine%20Similarity' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Quantized Random Projections And Non-linear Estimation Of Cosine Similarity' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Quantized Random Projections And Non-linear Estimation Of Cosine Similarity' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Quantization">Quantization</a></span>
+      <tag><a href="/tags.html#Quantization">Quantization</a></tag>
     
-      <span class="tag"><a href="/tags.html#Efficient Learning">Efficient Learning</a></span>
+      <tag><a href="/tags.html#Efficient Learning">Efficient Learning</a></tag>
     
-      <span class="tag"><a href="/tags.html#ANN Search">ANN Search</a></span>
+      <tag><a href="/tags.html#ANN Search">ANN Search</a></tag>
     
   </p>
-  
   <p><p>Random projections constitute a simple, yet effective technique for dimensionality reduction with applications in learning and search problems. In the present paper, we consider the problem of estimating cosine similarities when the projected data undergo scalar quantization to \(b\) bits. We here argue that the maximum likelihood estimator (MLE) is a principled approach to deal with the non-linearity resulting from quantization, and subsequently study its computational and statistical properties. A specific focus is on the on the trade-off between bit depth and the number of projections given a fixed budget of bits for storage or transmission. Along the way, we also touch upon the existence of a qualitative counterpart to the Johnson-Lindenstrauss lemma in the presence of quantization.</p>
 </p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/li2016quantized.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/li2016quantized.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

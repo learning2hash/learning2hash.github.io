@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/kumar2018deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Barcodes For Fast Retrieval Of Histopathology Scans" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"We investigate the concept of deep barcodes and propose two methods to generate them in order to expedite the process of classification and retrieval of histopathology images. Since binary search is computationally less expensive, in terms of both speed and storage, deep barcodes could be useful when dealing with big data retrieval. Our experiments use the dataset Kimia Path24 to test three pre-trained networks for image retrieval. The dataset consists of 27,055 training images in 24 different classes with large variability, and 1,325 test images for testing. Apart from the high-speed and efficiency, results show a surprising retrieval accuracy of 71.62% for deep barcodes, as compared to 68.91% for deep features and 68.53% for compressed deep features.","headline":"Deep Barcodes For Fast Retrieval Of Histopathology Scans","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kumar2018deep/"},"url":"https://learning2hash.github.io/publications/kumar2018deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"We investigate the concept of deep barcodes and propose two methods to generate them in order to expedite the process of classification and retrieval of histopathology images. Since binary search is computationally less expensive, in terms of both speed and storage, deep barcodes could be useful when dealing with big data retrieval. Our experiments use the dataset Kimia Path24 to test three pre-trained networks for image retrieval. The dataset consists of 27,055 training images in 24 different classes with large variability, and 1,325 test images for testing. Apart from the high-speed and efficiency, results show a surprising retrieval accuracy of 71.62% for deep barcodes, as compared to 68.91% for deep features and 68.53% for compressed deep features.","headline":"Deep Barcodes For Fast Retrieval Of Histopathology Scans","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kumar2018deep/"},"url":"https://learning2hash.github.io/publications/kumar2018deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Deep Barcodes For Fast Retrieval Of Histopathology Scans</h1>
-  <h5>Meghana Dinesh Kumar, Morteza Babaie, Hamid Tizhoosh. Arxiv 2018</h5>
+  <h5>
+  Meghana Dinesh Kumar, Morteza Babaie, Hamid Tizhoosh. Arxiv 2018
   
+    – <span>13 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1805.08833" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Deep%20Barcodes%20For%20Fast%20Retrieval%20Of%20Histopathology%20Scans' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Deep%20Barcodes%20For%20Fast%20Retrieval%20Of%20Histopathology%20Scans' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Deep Barcodes For Fast Retrieval Of Histopathology Scans' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Deep Barcodes For Fast Retrieval Of Histopathology Scans' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+      <tag><a href="/tags.html#Applications">Applications</a></tag>
     
-      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+      <tag><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></tag>
     
-      <span class="tag"><a href="/tags.html#Efficient Learning">Efficient Learning</a></span>
+      <tag><a href="/tags.html#Efficient Learning">Efficient Learning</a></tag>
     
   </p>
-  
   <p><p>We investigate the concept of deep barcodes and propose two methods to
 generate them in order to expedite the process of classification and retrieval
 of histopathology images. Since binary search is computationally less
@@ -188,23 +191,25 @@ deep features.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/kumar2018deep.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/kumar2018deep.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

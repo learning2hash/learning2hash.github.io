@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/schlegel2018hamming/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="HBST: A Hamming Distance Embedding Binary Search Tree For Visual Place Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Reliable and efficient Visual Place Recognition is a major building block of modern SLAM systems. Leveraging on our prior work, in this paper we present a Hamming Distance embedding Binary Search Tree (HBST) approach for binary Descriptor Matching and Image Retrieval. HBST allows for descriptor Search and Insertion in logarithmic time by exploiting particular properties of binary Feature descriptors. We support the idea behind our search structure with a thorough analysis on the exploited descriptor properties and their effects on completeness and complexity of search and insertion. To validate our claims we conducted comparative experiments for HBST and several state-of-the-art methods on a broad range of publicly available datasets. HBST is available as a compact open-source C++ header-only library.","headline":"HBST: A Hamming Distance Embedding Binary Search Tree For Visual Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/schlegel2018hamming/"},"url":"https://learning2hash.github.io/publications/schlegel2018hamming/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Reliable and efficient Visual Place Recognition is a major building block of modern SLAM systems. Leveraging on our prior work, in this paper we present a Hamming Distance embedding Binary Search Tree (HBST) approach for binary Descriptor Matching and Image Retrieval. HBST allows for descriptor Search and Insertion in logarithmic time by exploiting particular properties of binary Feature descriptors. We support the idea behind our search structure with a thorough analysis on the exploited descriptor properties and their effects on completeness and complexity of search and insertion. To validate our claims we conducted comparative experiments for HBST and several state-of-the-art methods on a broad range of publicly available datasets. HBST is available as a compact open-source C++ header-only library.","headline":"HBST: A Hamming Distance Embedding Binary Search Tree For Visual Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/schlegel2018hamming/"},"url":"https://learning2hash.github.io/publications/schlegel2018hamming/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">HBST: A Hamming Distance Embedding Binary Search Tree For Visual Place Recognition</h1>
-  <h5>Dominik Schlegel, Giorgio Grisetti. IEEE Robotics and Automation Letters (Volume 3 Issue 4 Oct. 2018 Pages 3741 - 3748) 2018</h5>
+  <h5>
+  Dominik Schlegel, Giorgio Grisetti. IEEE Robotics and Automation Letters (Volume 3 Issue 4 Oct. 2018 Pages 3741 - 3748) 2018
   
+    – <span>42 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1802.09261" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=HBST:%20A%20Hamming%20Distance%20Embedding%20Binary%20Search%20Tree%20For%20Visual%20Place%20Recognition' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=HBST:%20A%20Hamming%20Distance%20Embedding%20Binary%20Search%20Tree%20For%20Visual%20Place%20Recognition' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=HBST: A Hamming Distance Embedding Binary Search Tree For Visual Place Recognition' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=HBST: A Hamming Distance Embedding Binary Search Tree For Visual Place Recognition' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+      <tag><a href="/tags.html#Applications">Applications</a></tag>
     
-      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+      <tag><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></tag>
     
-      <span class="tag"><a href="/tags.html#Tools and Libraries">Tools and Libraries</a></span>
+      <tag><a href="/tags.html#Tools and Libraries">Tools and Libraries</a></tag>
     
   </p>
-  
   <p><p>Reliable and efficient Visual Place Recognition is a major building block of
 modern SLAM systems. Leveraging on our prior work, in this paper we present a
 Hamming Distance embedding Binary Search Tree (HBST) approach for binary
@@ -188,23 +191,25 @@ open-source C++ header-only library.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/schlegel2018hamming.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/schlegel2018hamming.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

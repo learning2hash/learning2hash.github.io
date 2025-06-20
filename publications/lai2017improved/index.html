@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/lai2017improved/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Improved Search In Hamming Space Using Deep Multi-index Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Similarity-preserving hashing is a widely-used method for nearest neighbour search in large-scale image retrieval tasks. There has been considerable research on generating efficient image representation via the deep-network-based hashing methods. However, the issue of efficient searching in the deep representation space remains largely unsolved. To this end, we propose a simple yet efficient deep-network-based multi-index hashing method for simultaneously learning the powerful image representation and the efficient searching. To achieve these two goals, we introduce the multi-index hashing (MIH) mechanism into the proposed deep architecture, which divides the binary codes into multiple substrings. Due to the non-uniformly distributed codes will result in inefficiency searching, we add the two balanced constraints at feature-level and instance-level, respectively. Extensive evaluations on several benchmark image retrieval datasets show that the learned balanced binary codes bring dramatic speedups and achieve comparable performance over the existing baselines.","headline":"Improved Search In Hamming Space Using Deep Multi-index Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lai2017improved/"},"url":"https://learning2hash.github.io/publications/lai2017improved/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Similarity-preserving hashing is a widely-used method for nearest neighbour search in large-scale image retrieval tasks. There has been considerable research on generating efficient image representation via the deep-network-based hashing methods. However, the issue of efficient searching in the deep representation space remains largely unsolved. To this end, we propose a simple yet efficient deep-network-based multi-index hashing method for simultaneously learning the powerful image representation and the efficient searching. To achieve these two goals, we introduce the multi-index hashing (MIH) mechanism into the proposed deep architecture, which divides the binary codes into multiple substrings. Due to the non-uniformly distributed codes will result in inefficiency searching, we add the two balanced constraints at feature-level and instance-level, respectively. Extensive evaluations on several benchmark image retrieval datasets show that the learned balanced binary codes bring dramatic speedups and achieve comparable performance over the existing baselines.","headline":"Improved Search In Hamming Space Using Deep Multi-index Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lai2017improved/"},"url":"https://learning2hash.github.io/publications/lai2017improved/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,30 +153,33 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Improved Search In Hamming Space Using Deep Multi-index Hashing</h1>
-  <h5>Hanjiang Lai, Yan Pan. Arxiv 2017</h5>
+  <h5>
+  Hanjiang Lai, Yan Pan. Arxiv 2017
   
+    – <span>6 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1710.06993" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Improved%20Search%20In%20Hamming%20Space%20Using%20Deep%20Multi-index%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Improved%20Search%20In%20Hamming%20Space%20Using%20Deep%20Multi-index%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Improved Search In Hamming Space Using Deep Multi-index Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Improved Search In Hamming Space Using Deep Multi-index Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+      <tag><a href="/tags.html#Applications">Applications</a></tag>
     
-      <span class="tag"><a href="/tags.html#Efficient Learning">Efficient Learning</a></span>
+      <tag><a href="/tags.html#Efficient Learning">Efficient Learning</a></tag>
     
-      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+      <tag><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></tag>
     
-      <span class="tag"><a href="/tags.html#Benchmarks and Datasets">Benchmarks and Datasets</a></span>
+      <tag><a href="/tags.html#Benchmarks and Datasets">Benchmarks and Datasets</a></tag>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
   </p>
-  
   <p><p>Similarity-preserving hashing is a widely-used method for nearest neighbour
 search in large-scale image retrieval tasks. There has been considerable
 research on generating efficient image representation via the
@@ -196,23 +199,25 @@ the existing baselines.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/lai2017improved.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/lai2017improved.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

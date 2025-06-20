@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/maji2020cbir/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="CBIR Using Features Derived By Deep Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"In a Content Based Image Retrieval (CBIR) System, the task is to retrieve similar images from a large database given a query image. The usual procedure is to extract some useful features from the query image, and retrieve images which have similar set of features. For this purpose, a suitable similarity measure is chosen, and images with high similarity scores are retrieved. Naturally the choice of these features play a very important role in the success of this system, and high level features are required to reduce the semantic gap. In this paper, we propose to use features derived from pre-trained network models from a deep-learning convolution network trained for a large image classification problem. This approach appears to produce vastly superior results for a variety of databases, and it outperforms many contemporary CBIR systems. We analyse the retrieval time of the method, and also propose a pre-clustering of the database based on the above-mentioned features which yields comparable results in a much shorter time in most of the cases.","headline":"CBIR Using Features Derived By Deep Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/maji2020cbir/"},"url":"https://learning2hash.github.io/publications/maji2020cbir/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"In a Content Based Image Retrieval (CBIR) System, the task is to retrieve similar images from a large database given a query image. The usual procedure is to extract some useful features from the query image, and retrieve images which have similar set of features. For this purpose, a suitable similarity measure is chosen, and images with high similarity scores are retrieved. Naturally the choice of these features play a very important role in the success of this system, and high level features are required to reduce the semantic gap. In this paper, we propose to use features derived from pre-trained network models from a deep-learning convolution network trained for a large image classification problem. This approach appears to produce vastly superior results for a variety of databases, and it outperforms many contemporary CBIR systems. We analyse the retrieval time of the method, and also propose a pre-clustering of the database based on the above-mentioned features which yields comparable results in a much shorter time in most of the cases.","headline":"CBIR Using Features Derived By Deep Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/maji2020cbir/"},"url":"https://learning2hash.github.io/publications/maji2020cbir/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,22 +153,25 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">CBIR Using Features Derived By Deep Learning</h1>
-  <h5>Subhadip Maji, Smarajit Bose. Arxiv 2020</h5>
+  <h5>
+  Subhadip Maji, Smarajit Bose. Arxiv 2020
   
+    – <span>25 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/2002.07877" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=CBIR%20Using%20Features%20Derived%20By%20Deep%20Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=CBIR%20Using%20Features%20Derived%20By%20Deep%20Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=CBIR Using Features Derived By Deep Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=CBIR Using Features Derived By Deep Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+      <tag><a href="/tags.html#Applications">Applications</a></tag>
     
   </p>
-  
   <p><p>In a Content Based Image Retrieval (CBIR) System, the task is to retrieve
 similar images from a large database given a query image. The usual procedure
 is to extract some useful features from the query image, and retrieve images
@@ -188,23 +191,25 @@ yields comparable results in a much shorter time in most of the cases.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/maji2020cbir.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/maji2020cbir.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/gordo2016deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Image Retrieval: Learning Global Representations For Image Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"We propose a novel approach for instance-level image retrieval. It produces a global and compact fixed-length representation for each image by aggregating many region-wise descriptors. In contrast to previous works employing pre-trained deep networks as a black box to produce features, our method leverages a deep architecture trained for the specific task of image retrieval. Our contribution is twofold: (i) we leverage a ranking framework to learn convolution and projection weights that are used to build the region features; and (ii) we employ a region proposal network to learn which regions should be pooled to form the final global descriptor. We show that using clean training data is key to the success of our approach. To that aim, we use a large scale but noisy landmark dataset and develop an automatic cleaning approach. The proposed architecture produces a global image representation in a single forward pass. Our approach significantly outperforms previous approaches based on global descriptors on standard datasets. It even surpasses most prior works based on costly local descriptor indexing and spatial verification. Additional material is available at www.xrce.xerox.com/Deep-Image-Retrieval.","headline":"Deep Image Retrieval: Learning Global Representations For Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gordo2016deep/"},"url":"https://learning2hash.github.io/publications/gordo2016deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"We propose a novel approach for instance-level image retrieval. It produces a global and compact fixed-length representation for each image by aggregating many region-wise descriptors. In contrast to previous works employing pre-trained deep networks as a black box to produce features, our method leverages a deep architecture trained for the specific task of image retrieval. Our contribution is twofold: (i) we leverage a ranking framework to learn convolution and projection weights that are used to build the region features; and (ii) we employ a region proposal network to learn which regions should be pooled to form the final global descriptor. We show that using clean training data is key to the success of our approach. To that aim, we use a large scale but noisy landmark dataset and develop an automatic cleaning approach. The proposed architecture produces a global image representation in a single forward pass. Our approach significantly outperforms previous approaches based on global descriptors on standard datasets. It even surpasses most prior works based on costly local descriptor indexing and spatial verification. Additional material is available at www.xrce.xerox.com/Deep-Image-Retrieval.","headline":"Deep Image Retrieval: Learning Global Representations For Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gordo2016deep/"},"url":"https://learning2hash.github.io/publications/gordo2016deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Deep Image Retrieval: Learning Global Representations For Image Search</h1>
-  <h5>Albert Gordo, Jon Almazan, Jerome Revaud, Diane Larlus. Arxiv 2016</h5>
+  <h5>
+  Albert Gordo, Jon Almazan, Jerome Revaud, Diane Larlus. Arxiv 2016
   
+    – <span>400 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1604.01325" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Deep%20Image%20Retrieval:%20Learning%20Global%20Representations%20For%20Image%20Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Deep%20Image%20Retrieval:%20Learning%20Global%20Representations%20For%20Image%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Deep Image Retrieval: Learning Global Representations For Image Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Deep Image Retrieval: Learning Global Representations For Image Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+      <tag><a href="/tags.html#Applications">Applications</a></tag>
     
-      <span class="tag"><a href="/tags.html#Indexing">Indexing</a></span>
+      <tag><a href="/tags.html#Indexing">Indexing</a></tag>
     
-      <span class="tag"><a href="/tags.html#Deep Hashing">Deep Hashing</a></span>
+      <tag><a href="/tags.html#Deep Hashing">Deep Hashing</a></tag>
     
   </p>
-  
   <p><p>We propose a novel approach for instance-level image retrieval. It produces a
 global and compact fixed-length representation for each image by aggregating
 many region-wise descriptors. In contrast to previous works employing
@@ -193,23 +196,25 @@ material is available at www.xrce.xerox.com/Deep-Image-Retrieval.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/gordo2016deep.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/gordo2016deep.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

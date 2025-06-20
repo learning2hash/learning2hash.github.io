@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/wu2022efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="HQANN: Efficient And Robust Similarity Search For Hybrid Queries With Structured And Unstructured Constraints" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"The in-memory approximate nearest neighbor search (ANNS) algorithms have achieved great success for fast high-recall query processing, but are extremely inefficient when handling hybrid queries with unstructured (i.e., feature vectors) and structured (i.e., related attributes) constraints. In this paper, we present HQANN, a simple yet highly efficient hybrid query processing framework which can be easily embedded into existing proximity graph-based ANNS algorithms. We guarantee both low latency and high recall by leveraging navigation sense among attributes and fusing vector similarity search with attribute filtering. Experimental results on both public and in-house datasets demonstrate that HQANN is 10x faster than the state-of-the-art hybrid ANNS solutions to reach the same recall quality and its performance is hardly affected by the complexity of attributes. It can reach 99% recall@10 in just around 50 microseconds On GLOVE-1.2M with thousands of attribute constraints.","headline":"HQANN: Efficient And Robust Similarity Search For Hybrid Queries With Structured And Unstructured Constraints","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2022efficient/"},"url":"https://learning2hash.github.io/publications/wu2022efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"The in-memory approximate nearest neighbor search (ANNS) algorithms have achieved great success for fast high-recall query processing, but are extremely inefficient when handling hybrid queries with unstructured (i.e., feature vectors) and structured (i.e., related attributes) constraints. In this paper, we present HQANN, a simple yet highly efficient hybrid query processing framework which can be easily embedded into existing proximity graph-based ANNS algorithms. We guarantee both low latency and high recall by leveraging navigation sense among attributes and fusing vector similarity search with attribute filtering. Experimental results on both public and in-house datasets demonstrate that HQANN is 10x faster than the state-of-the-art hybrid ANNS solutions to reach the same recall quality and its performance is hardly affected by the complexity of attributes. It can reach 99% recall@10 in just around 50 microseconds On GLOVE-1.2M with thousands of attribute constraints.","headline":"HQANN: Efficient And Robust Similarity Search For Hybrid Queries With Structured And Unstructured Constraints","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2022efficient/"},"url":"https://learning2hash.github.io/publications/wu2022efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,24 +153,27 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">HQANN: Efficient And Robust Similarity Search For Hybrid Queries With Structured And Unstructured Constraints</h1>
-  <h5>Wei Wu et al.. Arxiv 2022</h5>
+  <h5>
+  Wei Wu et al.. Arxiv 2022
   
+    – <span>6 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/2207.07940" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=HQANN:%20Efficient%20And%20Robust%20Similarity%20Search%20For%20Hybrid%20Queries%20With%20Structured%20And%20Unstructured%20Constraints' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=HQANN:%20Efficient%20And%20Robust%20Similarity%20Search%20For%20Hybrid%20Queries%20With%20Structured%20And%20Unstructured%20Constraints' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=HQANN: Efficient And Robust Similarity Search For Hybrid Queries With Structured And Unstructured Constraints' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=HQANN: Efficient And Robust Similarity Search For Hybrid Queries With Structured And Unstructured Constraints' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#ANN Search">ANN Search</a></span>
+      <tag><a href="/tags.html#ANN Search">ANN Search</a></tag>
     
-      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+      <tag><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></tag>
     
   </p>
-  
   <p><p>The in-memory approximate nearest neighbor search (ANNS) algorithms have
 achieved great success for fast high-recall query processing, but are extremely
 inefficient when handling hybrid queries with unstructured (i.e., feature
@@ -188,23 +191,25 @@ around 50 microseconds On GLOVE-1.2M with thousands of attribute constraints.</p
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/wu2022efficient.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/wu2022efficient.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

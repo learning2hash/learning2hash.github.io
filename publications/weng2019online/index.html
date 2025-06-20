@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/weng2019online/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Online Hashing With Efficient Updating Of Binary Codes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Online hashing methods are efficient in learning the hash functions from the streaming data. However, when the hash functions change, the binary codes for the database have to be recomputed to guarantee the retrieval accuracy. Recomputing the binary codes by accumulating the whole database brings a timeliness challenge to the online retrieval process. In this paper, we propose a novel online hashing framework to update the binary codes efficiently without accumulating the whole database. In our framework, the hash functions are fixed and the projection functions are introduced to learn online from the streaming data. Therefore, inefficient updating of the binary codes by accumulating the whole database can be transformed to efficient updating of the binary codes by projecting the binary codes into another binary space. The queries and the binary code database are projected asymmetrically to further improve the retrieval accuracy. The experiments on two multi-label image databases demonstrate the effectiveness and the efficiency of our method for multi-label image retrieval.","headline":"Online Hashing With Efficient Updating Of Binary Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weng2019online/"},"url":"https://learning2hash.github.io/publications/weng2019online/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Online hashing methods are efficient in learning the hash functions from the streaming data. However, when the hash functions change, the binary codes for the database have to be recomputed to guarantee the retrieval accuracy. Recomputing the binary codes by accumulating the whole database brings a timeliness challenge to the online retrieval process. In this paper, we propose a novel online hashing framework to update the binary codes efficiently without accumulating the whole database. In our framework, the hash functions are fixed and the projection functions are introduced to learn online from the streaming data. Therefore, inefficient updating of the binary codes by accumulating the whole database can be transformed to efficient updating of the binary codes by projecting the binary codes into another binary space. The queries and the binary code database are projected asymmetrically to further improve the retrieval accuracy. The experiments on two multi-label image databases demonstrate the effectiveness and the efficiency of our method for multi-label image retrieval.","headline":"Online Hashing With Efficient Updating Of Binary Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weng2019online/"},"url":"https://learning2hash.github.io/publications/weng2019online/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Online Hashing With Efficient Updating Of Binary Codes</h1>
-  <h5>Zhenyu Weng, Yuesheng Zhu. Arxiv 2019</h5>
+  <h5>
+  Zhenyu Weng, Yuesheng Zhu. Arxiv 2019
   
+    – <span>10 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1911.12125" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Online%20Hashing%20With%20Efficient%20Updating%20Of%20Binary%20Codes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Online%20Hashing%20With%20Efficient%20Updating%20Of%20Binary%20Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Online Hashing With Efficient Updating Of Binary Codes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Online Hashing With Efficient Updating Of Binary Codes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+      <tag><a href="/tags.html#Applications">Applications</a></tag>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+      <tag><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></tag>
     
   </p>
-  
   <p><p>Online hashing methods are efficient in learning the hash functions from the
 streaming data. However, when the hash functions change, the binary codes for
 the database have to be recomputed to guarantee the retrieval accuracy.
@@ -192,23 +195,25 @@ image retrieval.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/weng2019online.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/weng2019online.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

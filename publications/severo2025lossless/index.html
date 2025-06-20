@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/severo2025lossless/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Lossless Compression Of Vector Ids For Approximate Nearest Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Approximate nearest neighbor search for vectors relies on indexes that are most often accessed from RAM. Therefore, storage is the factor limiting the size of the database that can be served from a machine. Lossy vector compression, i.e., embedding quantization, has been applied extensively to reduce the size of indexes. However, for inverted file and graph-based indices, auxiliary data such as vector ids and links (edges) can represent most of the storage cost. We introduce and evaluate lossless compression schemes for these cases. These approaches are based on asymmetric numeral systems or wavelet trees that exploit the fact that the ordering of ids is irrelevant within the data structures. In some settings, we are able to compress the vector ids by a factor 7, with no impact on accuracy or search runtime. On billion-scale datasets, this results in a reduction of 30% of the index size. Furthermore, we show that for some datasets, these methods can also compress the quantized vector codes losslessly, by exploiting sub-optimalities in the original quantization algorithm. The source code for our approach available at https://github.com/facebookresearch/vector_db_id_compression.","headline":"Lossless Compression Of Vector Ids For Approximate Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/severo2025lossless/"},"url":"https://learning2hash.github.io/publications/severo2025lossless/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Approximate nearest neighbor search for vectors relies on indexes that are most often accessed from RAM. Therefore, storage is the factor limiting the size of the database that can be served from a machine. Lossy vector compression, i.e., embedding quantization, has been applied extensively to reduce the size of indexes. However, for inverted file and graph-based indices, auxiliary data such as vector ids and links (edges) can represent most of the storage cost. We introduce and evaluate lossless compression schemes for these cases. These approaches are based on asymmetric numeral systems or wavelet trees that exploit the fact that the ordering of ids is irrelevant within the data structures. In some settings, we are able to compress the vector ids by a factor 7, with no impact on accuracy or search runtime. On billion-scale datasets, this results in a reduction of 30% of the index size. Furthermore, we show that for some datasets, these methods can also compress the quantized vector codes losslessly, by exploiting sub-optimalities in the original quantization algorithm. The source code for our approach available at https://github.com/facebookresearch/vector_db_id_compression.","headline":"Lossless Compression Of Vector Ids For Approximate Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/severo2025lossless/"},"url":"https://learning2hash.github.io/publications/severo2025lossless/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,28 +153,31 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Lossless Compression Of Vector Ids For Approximate Nearest Neighbor Search</h1>
-  <h5>Daniel Severo, Giuseppe Ottaviano, Matthew Muckley, Karen Ullrich, Matthijs Douze. Arxiv 2025</h5>
+  <h5>
+  Daniel Severo, Giuseppe Ottaviano, Matthew Muckley, Karen Ullrich, Matthijs Douze. Arxiv 2025
   
+    – <span>0 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/2501.10479" target="_blank">Paper</a>]
     
       [<a href="https://github.com/facebookresearch/vector_db_id_compression" target="_blank">Code</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Lossless%20Compression%20Of%20Vector%20Ids%20For%20Approximate%20Nearest%20Neighbor%20Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Lossless%20Compression%20Of%20Vector%20Ids%20For%20Approximate%20Nearest%20Neighbor%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Lossless Compression Of Vector Ids For Approximate Nearest Neighbor Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Lossless Compression Of Vector Ids For Approximate Nearest Neighbor Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#ANN Search">ANN Search</a></span>
+      <tag><a href="/tags.html#ANN Search">ANN Search</a></tag>
     
-      <span class="tag"><a href="/tags.html#Quantization">Quantization</a></span>
+      <tag><a href="/tags.html#Quantization">Quantization</a></tag>
     
-      <span class="tag"><a href="/tags.html#Tools and Libraries">Tools and Libraries</a></span>
+      <tag><a href="/tags.html#Tools and Libraries">Tools and Libraries</a></tag>
     
   </p>
-  
   <p><p>Approximate nearest neighbor search for vectors relies on indexes that are
 most often accessed from RAM. Therefore, storage is the factor limiting the
 size of the database that can be served from a machine. Lossy vector
@@ -195,23 +198,25 @@ https://github.com/facebookresearch/vector_db_id_compression.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/severo2025lossless.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/severo2025lossless.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

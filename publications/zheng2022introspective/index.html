@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/zheng2022introspective/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Introspective Deep Metric Learning For Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"This paper proposes an introspective deep metric learning (IDML) framework for uncertainty-aware comparisons of images. Conventional deep metric learning methods produce confident semantic distances between images regardless of the uncertainty level. However, we argue that a good similarity model should consider the semantic discrepancies with caution to better deal with ambiguous images for more robust training. To achieve this, we propose to represent an image using not only a semantic embedding but also an accompanying uncertainty embedding, which describes the semantic characteristics and ambiguity of an image, respectively. We further propose an introspective similarity metric to make similarity judgments between images considering both their semantic differences and ambiguities. The proposed IDML framework improves the performance of deep metric learning through uncertainty modeling and attains state-of-the-art results on the widely used CUB-200-2011, Cars196, and Stanford Online Products datasets for image retrieval and clustering. We further provide an in-depth analysis of our framework to demonstrate the effectiveness and reliability of IDML. Code is available at: https://github.com/wzzheng/IDML.","headline":"Introspective Deep Metric Learning For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zheng2022introspective/"},"url":"https://learning2hash.github.io/publications/zheng2022introspective/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"This paper proposes an introspective deep metric learning (IDML) framework for uncertainty-aware comparisons of images. Conventional deep metric learning methods produce confident semantic distances between images regardless of the uncertainty level. However, we argue that a good similarity model should consider the semantic discrepancies with caution to better deal with ambiguous images for more robust training. To achieve this, we propose to represent an image using not only a semantic embedding but also an accompanying uncertainty embedding, which describes the semantic characteristics and ambiguity of an image, respectively. We further propose an introspective similarity metric to make similarity judgments between images considering both their semantic differences and ambiguities. The proposed IDML framework improves the performance of deep metric learning through uncertainty modeling and attains state-of-the-art results on the widely used CUB-200-2011, Cars196, and Stanford Online Products datasets for image retrieval and clustering. We further provide an in-depth analysis of our framework to demonstrate the effectiveness and reliability of IDML. Code is available at: https://github.com/wzzheng/IDML.","headline":"Introspective Deep Metric Learning For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zheng2022introspective/"},"url":"https://learning2hash.github.io/publications/zheng2022introspective/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Introspective Deep Metric Learning For Image Retrieval</h1>
-  <h5>Wenzhao Zheng, Chengkun Wang, Jie Zhou, Jiwen Lu. Arxiv 2022</h5>
+  <h5>
+  Wenzhao Zheng, Chengkun Wang, Jie Zhou, Jiwen Lu. Arxiv 2022
   
+    – <span>0 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/2205.04449" target="_blank">Paper</a>]
     
       [<a href="https://github.com/wzzheng/IDML" target="_blank">Code</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Introspective%20Deep%20Metric%20Learning%20For%20Image%20Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Introspective%20Deep%20Metric%20Learning%20For%20Image%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Introspective Deep Metric Learning For Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Introspective Deep Metric Learning For Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+      <tag><a href="/tags.html#Applications">Applications</a></tag>
     
-      <span class="tag"><a href="/tags.html#Tools and Libraries">Tools and Libraries</a></span>
+      <tag><a href="/tags.html#Tools and Libraries">Tools and Libraries</a></tag>
     
   </p>
-  
   <p><p>This paper proposes an introspective deep metric learning (IDML) framework
 for uncertainty-aware comparisons of images. Conventional deep metric learning
 methods produce confident semantic distances between images regardless of the
@@ -193,23 +196,25 @@ reliability of IDML. Code is available at: https://github.com/wzzheng/IDML.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/zheng2022introspective.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/zheng2022introspective.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/carreiraperpi%C3%B1%C3%A1n2015hashing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hashing With Binary Autoencoders" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"An attractive approach for fast search in image databases is binary hashing, where each high-dimensional, real-valued image is mapped onto a low-dimensional, binary vector and the search is done in this binary space. Finding the optimal hash function is difficult because it involves binary constraints, and most approaches approximate the optimization by relaxing the constraints and then binarizing the result. Here, we focus on the binary autoencoder model, which seeks to reconstruct an image from the binary code produced by the hash function. We show that the optimization can be simplified with the method of auxiliary coordinates. This reformulates the optimization as alternating two easier steps: one that learns the encoder and decoder separately, and one that optimizes the code for each image. Image retrieval experiments, using precision/recall and a measure of code utilization, show the resulting hash function outperforms or is competitive with state-of-the-art methods for binary hashing.","headline":"Hashing With Binary Autoencoders","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/carreiraperpi%C3%B1%C3%A1n2015hashing/"},"url":"https://learning2hash.github.io/publications/carreiraperpi%C3%B1%C3%A1n2015hashing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"An attractive approach for fast search in image databases is binary hashing, where each high-dimensional, real-valued image is mapped onto a low-dimensional, binary vector and the search is done in this binary space. Finding the optimal hash function is difficult because it involves binary constraints, and most approaches approximate the optimization by relaxing the constraints and then binarizing the result. Here, we focus on the binary autoencoder model, which seeks to reconstruct an image from the binary code produced by the hash function. We show that the optimization can be simplified with the method of auxiliary coordinates. This reformulates the optimization as alternating two easier steps: one that learns the encoder and decoder separately, and one that optimizes the code for each image. Image retrieval experiments, using precision/recall and a measure of code utilization, show the resulting hash function outperforms or is competitive with state-of-the-art methods for binary hashing.","headline":"Hashing With Binary Autoencoders","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/carreiraperpi%C3%B1%C3%A1n2015hashing/"},"url":"https://learning2hash.github.io/publications/carreiraperpi%C3%B1%C3%A1n2015hashing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,30 +153,33 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Hashing With Binary Autoencoders</h1>
-  <h5>Miguel Á. Carreira-perpiñán, Ramin Raziperchikolaei. Arxiv 2015</h5>
+  <h5>
+  Miguel Á. Carreira-perpiñán, Ramin Raziperchikolaei. Arxiv 2015
   
+    – <span>66 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1501.00756" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Hashing%20With%20Binary%20Autoencoders' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Hashing%20With%20Binary%20Autoencoders' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Hashing With Binary Autoencoders' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Hashing With Binary Autoencoders' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+      <tag><a href="/tags.html#Applications">Applications</a></tag>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+      <tag><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></tag>
     
-      <span class="tag"><a href="/tags.html#Deep Hashing">Deep Hashing</a></span>
+      <tag><a href="/tags.html#Deep Hashing">Deep Hashing</a></tag>
     
-      <span class="tag"><a href="/tags.html#Loss Functions">Loss Functions</a></span>
+      <tag><a href="/tags.html#Loss Functions">Loss Functions</a></tag>
     
   </p>
-  
   <p><p>An attractive approach for fast search in image databases is binary hashing,
 where each high-dimensional, real-valued image is mapped onto a
 low-dimensional, binary vector and the search is done in this binary space.
@@ -195,23 +198,25 @@ methods for binary hashing.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/carreiraperpiñán2015hashing.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/carreiraperpiñán2015hashing.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

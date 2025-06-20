@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhong2015efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient Similarity Indexing And Searching In High Dimensions" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Efficient indexing and searching of high dimensional data has been an area of active research due to the growing exploitation of high dimensional data and the vulnerability of traditional search methods to the curse of dimensionality. This paper presents a new approach for fast and effective searching and indexing of high dimensional features using random partitions of the feature space. Experiments on both handwritten digits and 3-D shape descriptors have shown the proposed algorithm to be highly effective and efficient in indexing and searching real data sets of several hundred dimensions. We also compare its performance to that of the state-of-the-art locality sensitive hashing algorithm.","headline":"Efficient Similarity Indexing And Searching In High Dimensions","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhong2015efficient/"},"url":"https://learning2hash.github.io/publications/zhong2015efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Efficient indexing and searching of high dimensional data has been an area of active research due to the growing exploitation of high dimensional data and the vulnerability of traditional search methods to the curse of dimensionality. This paper presents a new approach for fast and effective searching and indexing of high dimensional features using random partitions of the feature space. Experiments on both handwritten digits and 3-D shape descriptors have shown the proposed algorithm to be highly effective and efficient in indexing and searching real data sets of several hundred dimensions. We also compare its performance to that of the state-of-the-art locality sensitive hashing algorithm.","headline":"Efficient Similarity Indexing And Searching In High Dimensions","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhong2015efficient/"},"url":"https://learning2hash.github.io/publications/zhong2015efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Efficient Similarity Indexing And Searching In High Dimensions</h1>
-  <h5>Yu Zhong. Arxiv 2015</h5>
+  <h5>
+  Yu Zhong. Arxiv 2015
   
+    – <span>0 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1505.03090" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Efficient%20Similarity%20Indexing%20And%20Searching%20In%20High%20Dimensions' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Efficient%20Similarity%20Indexing%20And%20Searching%20In%20High%20Dimensions' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Efficient Similarity Indexing And Searching In High Dimensions' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Efficient Similarity Indexing And Searching In High Dimensions' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Indexing">Indexing</a></span>
+      <tag><a href="/tags.html#Indexing">Indexing</a></tag>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#ANN Search">ANN Search</a></span>
+      <tag><a href="/tags.html#ANN Search">ANN Search</a></tag>
     
   </p>
-  
   <p><p>Efficient indexing and searching of high dimensional data has been an area of
 active research due to the growing exploitation of high dimensional data and
 the vulnerability of traditional search methods to the curse of dimensionality.
@@ -187,23 +190,25 @@ algorithm.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/zhong2015efficient.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/zhong2015efficient.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

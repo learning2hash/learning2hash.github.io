@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/tan2023fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast Locality Sensitive Hashing With Theoretical Guarantee" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Locality-sensitive hashing (LSH) is an effective randomized technique widely used in many machine learning tasks. The cost of hashing is proportional to data dimensions, and thus often the performance bottleneck when dimensionality is high and the number of hash functions involved is large. Surprisingly, however, little work has been done to improve the efficiency of LSH computation. In this paper, we design a simple yet efficient LSH scheme, named FastLSH, under l2 norm. By combining random sampling and random projection, FastLSH reduces the time complexity from O(n) to O(m) (m&lt;n), where n is the data dimensionality and m is the number of sampled dimensions. Moreover, FastLSH has provable LSH property, which distinguishes it from the non-LSH fast sketches. We conduct comprehensive experiments over a collection of real and synthetic datasets for the nearest neighbor search task. Experimental results demonstrate that FastLSH is on par with the state-of-the-arts in terms of answer quality, space occupation and query efficiency, while enjoying up to 80x speedup in hash function evaluation. We believe that FastLSH is a promising alternative to the classic LSH scheme.","headline":"Fast Locality Sensitive Hashing With Theoretical Guarantee","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tan2023fast/"},"url":"https://learning2hash.github.io/publications/tan2023fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Locality-sensitive hashing (LSH) is an effective randomized technique widely used in many machine learning tasks. The cost of hashing is proportional to data dimensions, and thus often the performance bottleneck when dimensionality is high and the number of hash functions involved is large. Surprisingly, however, little work has been done to improve the efficiency of LSH computation. In this paper, we design a simple yet efficient LSH scheme, named FastLSH, under l2 norm. By combining random sampling and random projection, FastLSH reduces the time complexity from O(n) to O(m) (m&lt;n), where n is the data dimensionality and m is the number of sampled dimensions. Moreover, FastLSH has provable LSH property, which distinguishes it from the non-LSH fast sketches. We conduct comprehensive experiments over a collection of real and synthetic datasets for the nearest neighbor search task. Experimental results demonstrate that FastLSH is on par with the state-of-the-arts in terms of answer quality, space occupation and query efficiency, while enjoying up to 80x speedup in hash function evaluation. We believe that FastLSH is a promising alternative to the classic LSH scheme.","headline":"Fast Locality Sensitive Hashing With Theoretical Guarantee","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tan2023fast/"},"url":"https://learning2hash.github.io/publications/tan2023fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Fast Locality Sensitive Hashing With Theoretical Guarantee</h1>
-  <h5>Zongyuan Tan, Hongya Wang, Bo Xu, Minjie Luo, Ming Du. Arxiv 2023</h5>
+  <h5>
+  Zongyuan Tan, Hongya Wang, Bo Xu, Minjie Luo, Ming Du. Arxiv 2023
   
+    – <span>0 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/2309.15479" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Fast%20Locality%20Sensitive%20Hashing%20With%20Theoretical%20Guarantee' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Fast%20Locality%20Sensitive%20Hashing%20With%20Theoretical%20Guarantee' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Fast Locality Sensitive Hashing With Theoretical Guarantee' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Fast Locality Sensitive Hashing With Theoretical Guarantee' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#ANN Search">ANN Search</a></span>
+      <tag><a href="/tags.html#ANN Search">ANN Search</a></tag>
     
-      <span class="tag"><a href="/tags.html#Efficient Learning">Efficient Learning</a></span>
+      <tag><a href="/tags.html#Efficient Learning">Efficient Learning</a></tag>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
   </p>
-  
   <p><p>Locality-sensitive hashing (LSH) is an effective randomized technique widely
 used in many machine learning tasks. The cost of hashing is proportional to
 data dimensions, and thus often the performance bottleneck when dimensionality
@@ -193,23 +196,25 @@ alternative to the classic LSH scheme.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/tan2023fast.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/tan2023fast.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

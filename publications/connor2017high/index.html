@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/connor2017high/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="High-dimensional Simplexes For Supermetric Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"In 1953, Blumenthal showed that every semi-metric space that is isometrically embeddable in a Hilbert space has the n-point property; we have previously called such spaces supermetric spaces. Although this is a strictly stronger property than triangle inequality, it is nonetheless closely related and many useful metric spaces possess it. These include Euclidean, Cosine and Jensen-Shannon spaces of any dimension. A simple corollary of the n-point property is that, for any (n+1) objects sampled from the space, there exists an n-dimensional simplex in Euclidean space whose edge lengths correspond to the distances among the objects. We show how the construction of such simplexes in higher dimensions can be used to give arbitrarily tight lower and upper bounds on distances within the original space. This allows the construction of an n-dimensional Euclidean space, from which lower and upper bounds of the original space can be calculated, and which is itself an indexable space with the n-point property. For similarity search, the engineering tradeoffs are good: we show significant reductions in data size and metric cost with little loss of accuracy, leading to a significant overall improvement in search performance.","headline":"High-dimensional Simplexes For Supermetric Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/connor2017high/"},"url":"https://learning2hash.github.io/publications/connor2017high/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"In 1953, Blumenthal showed that every semi-metric space that is isometrically embeddable in a Hilbert space has the n-point property; we have previously called such spaces supermetric spaces. Although this is a strictly stronger property than triangle inequality, it is nonetheless closely related and many useful metric spaces possess it. These include Euclidean, Cosine and Jensen-Shannon spaces of any dimension. A simple corollary of the n-point property is that, for any (n+1) objects sampled from the space, there exists an n-dimensional simplex in Euclidean space whose edge lengths correspond to the distances among the objects. We show how the construction of such simplexes in higher dimensions can be used to give arbitrarily tight lower and upper bounds on distances within the original space. This allows the construction of an n-dimensional Euclidean space, from which lower and upper bounds of the original space can be calculated, and which is itself an indexable space with the n-point property. For similarity search, the engineering tradeoffs are good: we show significant reductions in data size and metric cost with little loss of accuracy, leading to a significant overall improvement in search performance.","headline":"High-dimensional Simplexes For Supermetric Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/connor2017high/"},"url":"https://learning2hash.github.io/publications/connor2017high/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">High-dimensional Simplexes For Supermetric Search</h1>
-  <h5>Richard Connor, Lucia Vadicamo, Fausto Rabitti. Arxiv 2017</h5>
+  <h5>
+  Richard Connor, Lucia Vadicamo, Fausto Rabitti. Arxiv 2017
   
+    – <span>13 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1707.08370" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=High-dimensional%20Simplexes%20For%20Supermetric%20Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=High-dimensional%20Simplexes%20For%20Supermetric%20Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=High-dimensional Simplexes For Supermetric Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=High-dimensional Simplexes For Supermetric Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#ANN Search">ANN Search</a></span>
+      <tag><a href="/tags.html#ANN Search">ANN Search</a></tag>
     
-      <span class="tag"><a href="/tags.html#Indexing">Indexing</a></span>
+      <tag><a href="/tags.html#Indexing">Indexing</a></tag>
     
-      <span class="tag"><a href="/tags.html#Efficient Learning">Efficient Learning</a></span>
+      <tag><a href="/tags.html#Efficient Learning">Efficient Learning</a></tag>
     
   </p>
-  
   <p><p>In 1953, Blumenthal showed that every semi-metric space that is isometrically
 embeddable in a Hilbert space has the n-point property; we have previously
 called such spaces supermetric spaces. Although this is a strictly stronger
@@ -194,23 +197,25 @@ performance.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/connor2017high.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/connor2017high.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

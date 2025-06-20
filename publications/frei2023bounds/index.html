@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/frei2023bounds/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Bounds For C-ideal Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"In this paper, we analyze hashing from a worst-case perspective. To this end, we study a new property of hash families that is strongly related to d-perfect hashing, namely c-ideality. On the one hand, this notion generalizes the definition of perfect hashing, which has been studied extensively; on the other hand, it provides a direct link to the notion of c-approximativity. We focus on the usually neglected case where the average load \\alpha is at least 1 and prove upper and lower parametrized bounds on the minimal size of c-ideal hash families. As an aside, we show how c-ideality helps to analyze the advice complexity of hashing. The concept of advice, introduced a decade ago, lets us measure the information content of an online problem. We prove hashing’s advice complexity to be linear in the hash table size.","headline":"Bounds For C-ideal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/frei2023bounds/"},"url":"https://learning2hash.github.io/publications/frei2023bounds/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"In this paper, we analyze hashing from a worst-case perspective. To this end, we study a new property of hash families that is strongly related to d-perfect hashing, namely c-ideality. On the one hand, this notion generalizes the definition of perfect hashing, which has been studied extensively; on the other hand, it provides a direct link to the notion of c-approximativity. We focus on the usually neglected case where the average load \\alpha is at least 1 and prove upper and lower parametrized bounds on the minimal size of c-ideal hash families. As an aside, we show how c-ideality helps to analyze the advice complexity of hashing. The concept of advice, introduced a decade ago, lets us measure the information content of an online problem. We prove hashing’s advice complexity to be linear in the hash table size.","headline":"Bounds For C-ideal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/frei2023bounds/"},"url":"https://learning2hash.github.io/publications/frei2023bounds/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,22 +153,25 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Bounds For C-ideal Hashing</h1>
-  <h5>Fabian Frei, David Wehner. Arxiv 2023</h5>
+  <h5>
+  Fabian Frei, David Wehner. Arxiv 2023
   
+    – <span>0 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/2301.13832" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Bounds%20For%20C-ideal%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Bounds%20For%20C-ideal%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Bounds For C-ideal Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Bounds For C-ideal Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
   </p>
-  
   <p><p>In this paper, we analyze hashing from a worst-case perspective. To this end,
 we study a new property of hash families that is strongly related to d-perfect
 hashing, namely c-ideality. On the one hand, this notion generalizes the
@@ -185,23 +188,25 @@ to be linear in the hash table size.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/frei2023bounds.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/frei2023bounds.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

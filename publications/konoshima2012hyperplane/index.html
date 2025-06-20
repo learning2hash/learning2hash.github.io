@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/konoshima2012hyperplane/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hyperplane Arrangements And Locality-sensitive Hashing With Lift" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Locality-sensitive hashing converts high-dimensional feature vectors, such as image and speech, into bit arrays and allows high-speed similarity calculation with the Hamming distance. There is a hashing scheme that maps feature vectors to bit arrays depending on the signs of the inner products between feature vectors and the normal vectors of hyperplanes placed in the feature space. This hashing can be seen as a discretization of the feature space by hyperplanes. If labels for data are given, one can determine the hyperplanes by using learning algorithms. However, many proposed learning methods do not consider the hyperplanes’ offsets. Not doing so decreases the number of partitioned regions, and the correlation between Hamming distances and Euclidean distances becomes small. In this paper, we propose a lift map that converts learning algorithms without the offsets to the ones that take into account the offsets. With this method, the learning methods without the offsets give the discretizations of spaces as if it takes into account the offsets. For the proposed method, we input several high-dimensional feature data sets and studied the relationship between the statistical characteristics of data, the number of hyperplanes, and the effect of the proposed method.","headline":"Hyperplane Arrangements And Locality-sensitive Hashing With Lift","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/konoshima2012hyperplane/"},"url":"https://learning2hash.github.io/publications/konoshima2012hyperplane/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Locality-sensitive hashing converts high-dimensional feature vectors, such as image and speech, into bit arrays and allows high-speed similarity calculation with the Hamming distance. There is a hashing scheme that maps feature vectors to bit arrays depending on the signs of the inner products between feature vectors and the normal vectors of hyperplanes placed in the feature space. This hashing can be seen as a discretization of the feature space by hyperplanes. If labels for data are given, one can determine the hyperplanes by using learning algorithms. However, many proposed learning methods do not consider the hyperplanes’ offsets. Not doing so decreases the number of partitioned regions, and the correlation between Hamming distances and Euclidean distances becomes small. In this paper, we propose a lift map that converts learning algorithms without the offsets to the ones that take into account the offsets. With this method, the learning methods without the offsets give the discretizations of spaces as if it takes into account the offsets. For the proposed method, we input several high-dimensional feature data sets and studied the relationship between the statistical characteristics of data, the number of hyperplanes, and the effect of the proposed method.","headline":"Hyperplane Arrangements And Locality-sensitive Hashing With Lift","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/konoshima2012hyperplane/"},"url":"https://learning2hash.github.io/publications/konoshima2012hyperplane/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,24 +153,27 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Hyperplane Arrangements And Locality-sensitive Hashing With Lift</h1>
-  <h5>Makiko Konoshima, Yui Noma. Arxiv 2012</h5>
+  <h5>
+  Makiko Konoshima, Yui Noma. Arxiv 2012
   
+    – <span>2 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1212.6110" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Hyperplane%20Arrangements%20And%20Locality-sensitive%20Hashing%20With%20Lift' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Hyperplane%20Arrangements%20And%20Locality-sensitive%20Hashing%20With%20Lift' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Hyperplane Arrangements And Locality-sensitive Hashing With Lift' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Hyperplane Arrangements And Locality-sensitive Hashing With Lift' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+      <tag><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></tag>
     
   </p>
-  
   <p><p>Locality-sensitive hashing converts high-dimensional feature vectors, such as
 image and speech, into bit arrays and allows high-speed similarity calculation
 with the Hamming distance. There is a hashing scheme that maps feature vectors
@@ -192,23 +195,25 @@ the effect of the proposed method.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/konoshima2012hyperplane.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/konoshima2012hyperplane.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

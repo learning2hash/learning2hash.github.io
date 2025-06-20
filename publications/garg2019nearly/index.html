@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/garg2019nearly/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Nearly-unsupervised Hashcode Representations For Relation Extraction" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Recently, kernelized locality sensitive hashcodes have been successfully employed as representations of natural language text, especially showing high relevance to biomedical relation extraction tasks. In this paper, we propose to optimize the hashcode representations in a nearly unsupervised manner, in which we only use data points, but not their class labels, for learning. The optimized hashcode representations are then fed to a supervised classifier following the prior work. This nearly unsupervised approach allows fine-grained optimization of each hash function, which is particularly suitable for building hashcode representations generalizing from a training set to a test set. We empirically evaluate the proposed approach for biomedical relation extraction tasks, obtaining significant accuracy improvements w.r.t. state-of-the-art supervised and semi-supervised approaches.","headline":"Nearly-unsupervised Hashcode Representations For Relation Extraction","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/garg2019nearly/"},"url":"https://learning2hash.github.io/publications/garg2019nearly/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Recently, kernelized locality sensitive hashcodes have been successfully employed as representations of natural language text, especially showing high relevance to biomedical relation extraction tasks. In this paper, we propose to optimize the hashcode representations in a nearly unsupervised manner, in which we only use data points, but not their class labels, for learning. The optimized hashcode representations are then fed to a supervised classifier following the prior work. This nearly unsupervised approach allows fine-grained optimization of each hash function, which is particularly suitable for building hashcode representations generalizing from a training set to a test set. We empirically evaluate the proposed approach for biomedical relation extraction tasks, obtaining significant accuracy improvements w.r.t. state-of-the-art supervised and semi-supervised approaches.","headline":"Nearly-unsupervised Hashcode Representations For Relation Extraction","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/garg2019nearly/"},"url":"https://learning2hash.github.io/publications/garg2019nearly/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Nearly-unsupervised Hashcode Representations For Relation Extraction</h1>
-  <h5>Sahil Garg, Aram Galstyan, Greg Ver Steeg, Guillermo Cecchi. Arxiv 2019</h5>
+  <h5>
+  Sahil Garg, Aram Galstyan, Greg Ver Steeg, Guillermo Cecchi. Arxiv 2019
   
+    – <span>2 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1909.03881" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Nearly-unsupervised%20Hashcode%20Representations%20For%20Relation%20Extraction' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Nearly-unsupervised%20Hashcode%20Representations%20For%20Relation%20Extraction' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Nearly-unsupervised Hashcode Representations For Relation Extraction' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Nearly-unsupervised Hashcode Representations For Relation Extraction' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#Unsupervised">Unsupervised</a></span>
+      <tag><a href="/tags.html#Unsupervised">Unsupervised</a></tag>
     
-      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
+      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
     
   </p>
-  
   <p><p>Recently, kernelized locality sensitive hashcodes have been successfully
 employed as representations of natural language text, especially showing high
 relevance to biomedical relation extraction tasks. In this paper, we propose to
@@ -189,23 +192,25 @@ supervised and semi-supervised approaches.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/garg2019nearly.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/garg2019nearly.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

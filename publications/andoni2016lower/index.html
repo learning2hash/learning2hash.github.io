@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/andoni2016lower/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Lower Bounds On Time-space Trade-offs For Approximate Near Neighbors" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"We show tight lower bounds for the entire trade-off between space and query time for the Approximate Near Neighbor search problem. Our lower bounds hold in a restricted model of computation, which captures all hashing-based approaches. In articular, our lower bound matches the upper bound recently shown in [Laarhoven 2015] for the random instance on a Euclidean sphere (which we show in fact extends to the entire space \\(\\mathbb{R}^d\\) using the techniques from [Andoni, Razenshteyn 2015]). We also show tight, unconditional cell-probe lower bounds for one and two probes, improving upon the best known bounds from [Panigrahy, Talwar, Wieder 2010]. In particular, this is the first space lower bound (for any static data structure) for two probes which is not polynomially smaller than for one probe. To show the result for two probes, we establish and exploit a connection to locally-decodable codes.","headline":"Lower Bounds On Time-space Trade-offs For Approximate Near Neighbors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/andoni2016lower/"},"url":"https://learning2hash.github.io/publications/andoni2016lower/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"We show tight lower bounds for the entire trade-off between space and query time for the Approximate Near Neighbor search problem. Our lower bounds hold in a restricted model of computation, which captures all hashing-based approaches. In articular, our lower bound matches the upper bound recently shown in [Laarhoven 2015] for the random instance on a Euclidean sphere (which we show in fact extends to the entire space \\(\\mathbb{R}^d\\) using the techniques from [Andoni, Razenshteyn 2015]). We also show tight, unconditional cell-probe lower bounds for one and two probes, improving upon the best known bounds from [Panigrahy, Talwar, Wieder 2010]. In particular, this is the first space lower bound (for any static data structure) for two probes which is not polynomially smaller than for one probe. To show the result for two probes, we establish and exploit a connection to locally-decodable codes.","headline":"Lower Bounds On Time-space Trade-offs For Approximate Near Neighbors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/andoni2016lower/"},"url":"https://learning2hash.github.io/publications/andoni2016lower/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,24 +153,27 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Lower Bounds On Time-space Trade-offs For Approximate Near Neighbors</h1>
-  <h5>Alexandr Andoni, Thijs Laarhoven, Ilya Razenshteyn, Erik Waingarten. Arxiv 2016</h5>
+  <h5>
+  Alexandr Andoni, Thijs Laarhoven, Ilya Razenshteyn, Erik Waingarten. Arxiv 2016
   
+    – <span>4 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1605.02701" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Lower%20Bounds%20On%20Time-space%20Trade-offs%20For%20Approximate%20Near%20Neighbors' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Lower%20Bounds%20On%20Time-space%20Trade-offs%20For%20Approximate%20Near%20Neighbors' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Lower Bounds On Time-space Trade-offs For Approximate Near Neighbors' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Lower Bounds On Time-space Trade-offs For Approximate Near Neighbors' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#ANN Search">ANN Search</a></span>
+      <tag><a href="/tags.html#ANN Search">ANN Search</a></tag>
     
   </p>
-  
   <p><p>We show tight lower bounds for the entire trade-off between space and query
 time for the Approximate Near Neighbor search problem. Our lower bounds hold in
 a restricted model of computation, which captures all hashing-based approaches.
@@ -188,23 +191,25 @@ locally-decodable codes.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/andoni2016lower.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/andoni2016lower.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2016generalized/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Generalized Residual Vector Quantization For Large Scale Data" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Vector quantization is an essential tool for tasks involving large scale data, for example, large scale similarity search, which is crucial for content-based information retrieval and analysis. In this paper, we propose a novel vector quantization framework that iteratively minimizes quantization error. First, we provide a detailed review on a relevant vector quantization method named \\textit{residual vector quantization} (RVQ). Next, we propose \\textit{generalized residual vector quantization} (GRVQ) to further improve over RVQ. Many vector quantization methods can be viewed as the special cases of our proposed framework. We evaluate GRVQ on several large scale benchmark datasets for large scale search, classification and object retrieval. We compared GRVQ with existing methods in detail. Extensive experiments demonstrate our GRVQ framework substantially outperforms existing methods in term of quantization accuracy and computation efficiency.","headline":"Generalized Residual Vector Quantization For Large Scale Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2016generalized/"},"url":"https://learning2hash.github.io/publications/liu2016generalized/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Vector quantization is an essential tool for tasks involving large scale data, for example, large scale similarity search, which is crucial for content-based information retrieval and analysis. In this paper, we propose a novel vector quantization framework that iteratively minimizes quantization error. First, we provide a detailed review on a relevant vector quantization method named \\textit{residual vector quantization} (RVQ). Next, we propose \\textit{generalized residual vector quantization} (GRVQ) to further improve over RVQ. Many vector quantization methods can be viewed as the special cases of our proposed framework. We evaluate GRVQ on several large scale benchmark datasets for large scale search, classification and object retrieval. We compared GRVQ with existing methods in detail. Extensive experiments demonstrate our GRVQ framework substantially outperforms existing methods in term of quantization accuracy and computation efficiency.","headline":"Generalized Residual Vector Quantization For Large Scale Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2016generalized/"},"url":"https://learning2hash.github.io/publications/liu2016generalized/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,24 +153,27 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Generalized Residual Vector Quantization For Large Scale Data</h1>
-  <h5>Shicong Liu, Junru Shao, Hongtao Lu. Arxiv 2016</h5>
+  <h5>
+  Shicong Liu, Junru Shao, Hongtao Lu. Arxiv 2016
   
+    – <span>1 citation</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1609.05345" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Generalized%20Residual%20Vector%20Quantization%20For%20Large%20Scale%20Data' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Generalized%20Residual%20Vector%20Quantization%20For%20Large%20Scale%20Data' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Generalized Residual Vector Quantization For Large Scale Data' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Generalized Residual Vector Quantization For Large Scale Data' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Quantization">Quantization</a></span>
+      <tag><a href="/tags.html#Quantization">Quantization</a></tag>
     
-      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+      <tag><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></tag>
     
   </p>
-  
   <p><p>Vector quantization is an essential tool for tasks involving large scale
 data, for example, large scale similarity search, which is crucial for
 content-based information retrieval and analysis. In this paper, we propose a
@@ -188,23 +191,25 @@ term of quantization accuracy and computation efficiency.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/liu2016generalized.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/liu2016generalized.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

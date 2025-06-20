@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/jang2021deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Hash Distillation For Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"In hash-based image retrieval systems, degraded or transformed inputs usually generate different codes from the original, deteriorating the retrieval accuracy. To mitigate this issue, data augmentation can be applied during training. However, even if augmented samples of an image are similar in real feature space, the quantization can scatter them far away in Hamming space. This results in representation discrepancies that can impede training and degrade performance. In this work, we propose a novel self-distilled hashing scheme to minimize the discrepancy while exploiting the potential of augmented data. By transferring the hash knowledge of the weakly-transformed samples to the strong ones, we make the hash code insensitive to various transformations. We also introduce hash proxy-based similarity learning and binary cross entropy-based quantization loss to provide fine quality hash codes. Ultimately, we construct a deep hashing framework that not only improves the existing deep hashing approaches, but also achieves the state-of-the-art retrieval results. Extensive experiments are conducted and confirm the effectiveness of our work.","headline":"Deep Hash Distillation For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jang2021deep/"},"url":"https://learning2hash.github.io/publications/jang2021deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"In hash-based image retrieval systems, degraded or transformed inputs usually generate different codes from the original, deteriorating the retrieval accuracy. To mitigate this issue, data augmentation can be applied during training. However, even if augmented samples of an image are similar in real feature space, the quantization can scatter them far away in Hamming space. This results in representation discrepancies that can impede training and degrade performance. In this work, we propose a novel self-distilled hashing scheme to minimize the discrepancy while exploiting the potential of augmented data. By transferring the hash knowledge of the weakly-transformed samples to the strong ones, we make the hash code insensitive to various transformations. We also introduce hash proxy-based similarity learning and binary cross entropy-based quantization loss to provide fine quality hash codes. Ultimately, we construct a deep hashing framework that not only improves the existing deep hashing approaches, but also achieves the state-of-the-art retrieval results. Extensive experiments are conducted and confirm the effectiveness of our work.","headline":"Deep Hash Distillation For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jang2021deep/"},"url":"https://learning2hash.github.io/publications/jang2021deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,30 +153,33 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Deep Hash Distillation For Image Retrieval</h1>
-  <h5>Young Kyun Jang, Geonmo Gu, Byungsoo Ko, Isaac Kang, Nam Ik Cho. Arxiv 2021</h5>
+  <h5>
+  Young Kyun Jang, Geonmo Gu, Byungsoo Ko, Isaac Kang, Nam Ik Cho. Arxiv 2021
   
+    – <span>22 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/2112.08816" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Deep%20Hash%20Distillation%20For%20Image%20Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Deep%20Hash%20Distillation%20For%20Image%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Deep Hash Distillation For Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Deep Hash Distillation For Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+      <tag><a href="/tags.html#Applications">Applications</a></tag>
     
-      <span class="tag"><a href="/tags.html#Deep Hashing">Deep Hashing</a></span>
+      <tag><a href="/tags.html#Deep Hashing">Deep Hashing</a></tag>
     
-      <span class="tag"><a href="/tags.html#Quantization">Quantization</a></span>
+      <tag><a href="/tags.html#Quantization">Quantization</a></tag>
     
-      <span class="tag"><a href="/tags.html#Loss Functions">Loss Functions</a></span>
+      <tag><a href="/tags.html#Loss Functions">Loss Functions</a></tag>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
   </p>
-  
   <p><p>In hash-based image retrieval systems, degraded or transformed inputs usually
 generate different codes from the original, deteriorating the retrieval
 accuracy. To mitigate this issue, data augmentation can be applied during
@@ -196,23 +199,25 @@ Extensive experiments are conducted and confirm the effectiveness of our work.</
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/jang2021deep.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/jang2021deep.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

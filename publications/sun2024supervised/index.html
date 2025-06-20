@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/sun2024supervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Supervised Hierarchical Cross-modal Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Recently, due to the unprecedented growth of multimedia data, cross-modal hashing has gained increasing attention for the efficient cross-media retrieval. Typically, existing methods on crossmodal hashing treat labels of one instance independently but overlook the correlations among labels. Indeed, in many real-world scenarios, like the online fashion domain, instances (items) are labeled with a set of categories correlated by certain hierarchy. In this paper, we propose a new end-to-end solution for supervised cross-modal hashing, named HiCHNet, which explicitly exploits the hierarchical labels of instances. In particular, by the pre-established label hierarchy, we comprehensively characterize each modality of the instance with a set of layer-wise hash representations. In essence, hash codes are encouraged to not only preserve the layerwise semantic similarities encoded by the label hierarchy, but also retain the hierarchical discriminative capabilities. Due to the lack of benchmark datasets, apart from adapting the existing dataset FashionVC from fashion domain, we create a dataset from the online fashion platform Ssense consisting of 15, 696 image-text pairs labeled by 32 hierarchical categories. Extensive experiments on two real-world datasets demonstrate the superiority of our model over the state-of-the-art methods.","headline":"Supervised Hierarchical Cross-modal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sun2024supervised/"},"url":"https://learning2hash.github.io/publications/sun2024supervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Recently, due to the unprecedented growth of multimedia data, cross-modal hashing has gained increasing attention for the efficient cross-media retrieval. Typically, existing methods on crossmodal hashing treat labels of one instance independently but overlook the correlations among labels. Indeed, in many real-world scenarios, like the online fashion domain, instances (items) are labeled with a set of categories correlated by certain hierarchy. In this paper, we propose a new end-to-end solution for supervised cross-modal hashing, named HiCHNet, which explicitly exploits the hierarchical labels of instances. In particular, by the pre-established label hierarchy, we comprehensively characterize each modality of the instance with a set of layer-wise hash representations. In essence, hash codes are encouraged to not only preserve the layerwise semantic similarities encoded by the label hierarchy, but also retain the hierarchical discriminative capabilities. Due to the lack of benchmark datasets, apart from adapting the existing dataset FashionVC from fashion domain, we create a dataset from the online fashion platform Ssense consisting of 15, 696 image-text pairs labeled by 32 hierarchical categories. Extensive experiments on two real-world datasets demonstrate the superiority of our model over the state-of-the-art methods.","headline":"Supervised Hierarchical Cross-modal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sun2024supervised/"},"url":"https://learning2hash.github.io/publications/sun2024supervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,28 +153,31 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Supervised Hierarchical Cross-modal Hashing</h1>
-  <h5>Sun Changchang, Song, Feng, Zhao, Nie. Arxiv 2024</h5>
+  <h5>
+  Sun Changchang, Song, Feng, Zhao, Nie. Arxiv 2024
   
+    – <span>43 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://xuemengsong.github.io/SIGIR2019_HiCHNet.pdf" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Supervised%20Hierarchical%20Cross-modal%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Supervised%20Hierarchical%20Cross-modal%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Supervised Hierarchical Cross-modal Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Supervised Hierarchical Cross-modal Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Cross Modal">Cross Modal</a></span>
+      <tag><a href="/tags.html#Cross Modal">Cross Modal</a></tag>
     
-      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
+      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
     
-      <span class="tag"><a href="/tags.html#Multi-Modal Hashing">Multi-Modal Hashing</a></span>
+      <tag><a href="/tags.html#Multi-Modal Hashing">Multi-Modal Hashing</a></tag>
     
-      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+      <tag><a href="/tags.html#Applications">Applications</a></tag>
     
   </p>
-  
   <p><p>Recently, due to the unprecedented growth of multimedia data,
 cross-modal hashing has gained increasing attention for the
 efficient cross-media retrieval. Typically, existing methods on crossmodal hashing treat labels of one instance independently but
@@ -198,23 +201,25 @@ over the state-of-the-art methods.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/sun2024supervised.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/sun2024supervised.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

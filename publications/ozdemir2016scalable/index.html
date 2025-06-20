@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/ozdemir2016scalable/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Scalable Gaussian Processes For Supervised Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"We propose a flexible procedure for large-scale image search by hash functions with kernels. Our method treats binary codes and pairwise semantic similarity as latent and observed variables, respectively, in a probabilistic model based on Gaussian processes for binary classification. We present an efficient inference algorithm with the sparse pseudo-input Gaussian process (SPGP) model and parallelization. Experiments on three large-scale image dataset demonstrate the effectiveness of the proposed hashing method, Gaussian Process Hashing (GPH), for short binary codes and the datasets without predefined classes in comparison to the state-of-the-art supervised hashing methods.","headline":"Scalable Gaussian Processes For Supervised Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ozdemir2016scalable/"},"url":"https://learning2hash.github.io/publications/ozdemir2016scalable/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"We propose a flexible procedure for large-scale image search by hash functions with kernels. Our method treats binary codes and pairwise semantic similarity as latent and observed variables, respectively, in a probabilistic model based on Gaussian processes for binary classification. We present an efficient inference algorithm with the sparse pseudo-input Gaussian process (SPGP) model and parallelization. Experiments on three large-scale image dataset demonstrate the effectiveness of the proposed hashing method, Gaussian Process Hashing (GPH), for short binary codes and the datasets without predefined classes in comparison to the state-of-the-art supervised hashing methods.","headline":"Scalable Gaussian Processes For Supervised Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ozdemir2016scalable/"},"url":"https://learning2hash.github.io/publications/ozdemir2016scalable/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Scalable Gaussian Processes For Supervised Hashing</h1>
-  <h5>Bahadir Ozdemir, Larry S. Davis. Arxiv 2016</h5>
+  <h5>
+  Bahadir Ozdemir, Larry S. Davis. Arxiv 2016
   
+    – <span>0 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1604.07335" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Scalable%20Gaussian%20Processes%20For%20Supervised%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Scalable%20Gaussian%20Processes%20For%20Supervised%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Scalable Gaussian Processes For Supervised Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Scalable Gaussian Processes For Supervised Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
+      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
     
-      <span class="tag"><a href="/tags.html#Efficient Learning">Efficient Learning</a></span>
+      <tag><a href="/tags.html#Efficient Learning">Efficient Learning</a></tag>
     
   </p>
-  
   <p><p>We propose a flexible procedure for large-scale image search by hash
 functions with kernels. Our method treats binary codes and pairwise semantic
 similarity as latent and observed variables, respectively, in a probabilistic
@@ -187,23 +190,25 @@ methods.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/ozdemir2016scalable.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/ozdemir2016scalable.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

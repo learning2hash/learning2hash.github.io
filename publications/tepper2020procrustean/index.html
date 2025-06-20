@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/tepper2020procrustean/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Procrustean Orthogonal Sparse Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Hashing is one of the most popular methods for similarity search because of its speed and efficiency. Dense binary hashing is prevalent in the literature. Recently, insect olfaction was shown to be structurally and functionally analogous to sparse hashing [6]. Here, we prove that this biological mechanism is the solution to a well-posed optimization problem. Furthermore, we show that orthogonality increases the accuracy of sparse hashing. Next, we present a novel method, Procrustean Orthogonal Sparse Hashing (POSH), that unifies these findings, learning an orthogonal transform from training data compatible with the sparse hashing mechanism. We provide theoretical evidence of the shortcomings of Optimal Sparse Lifting (OSL) [22] and BioHash [30], two related olfaction-inspired methods, and propose two new methods, Binary OSL and SphericalHash, to address these deficiencies. We compare POSH, Binary OSL, and SphericalHash to several state-of-the-art hashing methods and provide empirical results for the superiority of the proposed methods across a wide range of standard benchmarks and parameter settings.","headline":"Procrustean Orthogonal Sparse Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tepper2020procrustean/"},"url":"https://learning2hash.github.io/publications/tepper2020procrustean/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Hashing is one of the most popular methods for similarity search because of its speed and efficiency. Dense binary hashing is prevalent in the literature. Recently, insect olfaction was shown to be structurally and functionally analogous to sparse hashing [6]. Here, we prove that this biological mechanism is the solution to a well-posed optimization problem. Furthermore, we show that orthogonality increases the accuracy of sparse hashing. Next, we present a novel method, Procrustean Orthogonal Sparse Hashing (POSH), that unifies these findings, learning an orthogonal transform from training data compatible with the sparse hashing mechanism. We provide theoretical evidence of the shortcomings of Optimal Sparse Lifting (OSL) [22] and BioHash [30], two related olfaction-inspired methods, and propose two new methods, Binary OSL and SphericalHash, to address these deficiencies. We compare POSH, Binary OSL, and SphericalHash to several state-of-the-art hashing methods and provide empirical results for the superiority of the proposed methods across a wide range of standard benchmarks and parameter settings.","headline":"Procrustean Orthogonal Sparse Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tepper2020procrustean/"},"url":"https://learning2hash.github.io/publications/tepper2020procrustean/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,24 +153,27 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Procrustean Orthogonal Sparse Hashing</h1>
-  <h5>Mariano Tepper, Dipanjan Sengupta, Ted Willke. Arxiv 2020</h5>
+  <h5>
+  Mariano Tepper, Dipanjan Sengupta, Ted Willke. Arxiv 2020
   
+    – <span>1 citation</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/2006.04847" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Procrustean%20Orthogonal%20Sparse%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Procrustean%20Orthogonal%20Sparse%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Procrustean Orthogonal Sparse Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Procrustean Orthogonal Sparse Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+      <tag><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></tag>
     
   </p>
-  
   <p><p>Hashing is one of the most popular methods for similarity search because of
 its speed and efficiency. Dense binary hashing is prevalent in the literature.
 Recently, insect olfaction was shown to be structurally and functionally
@@ -190,23 +193,25 @@ standard benchmarks and parameter settings.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/tepper2020procrustean.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/tepper2020procrustean.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

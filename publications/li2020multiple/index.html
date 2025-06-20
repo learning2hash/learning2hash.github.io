@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2020multiple/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multiple Code Hashing For Efficient Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Due to its low storage cost and fast query speed, hashing has been widely used in large-scale image retrieval tasks. Hash bucket search returns data points within a given Hamming radius to each query, which can enable search at a constant or sub-linear time cost. However, existing hashing methods cannot achieve satisfactory retrieval performance for hash bucket search in complex scenarios, since they learn only one hash code for each image. More specifically, by using one hash code to represent one image, existing methods might fail to put similar image pairs to the buckets with a small Hamming distance to the query when the semantic information of images is complex. As a result, a large number of hash buckets need to be visited for retrieving similar images, based on the learned codes. This will deteriorate the efficiency of hash bucket search. In this paper, we propose a novel hashing framework, called multiple code hashing (MCH), to improve the performance of hash bucket search. The main idea of MCH is to learn multiple hash codes for each image, with each code representing a different region of the image. Furthermore, we propose a deep reinforcement learning algorithm to learn the parameters in MCH. To the best of our knowledge, this is the first work that proposes to learn multiple hash codes for each image in image retrieval. Experiments demonstrate that MCH can achieve a significant improvement in hash bucket search, compared with existing methods that learn only one hash code for each image.","headline":"Multiple Code Hashing For Efficient Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2020multiple/"},"url":"https://learning2hash.github.io/publications/li2020multiple/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Due to its low storage cost and fast query speed, hashing has been widely used in large-scale image retrieval tasks. Hash bucket search returns data points within a given Hamming radius to each query, which can enable search at a constant or sub-linear time cost. However, existing hashing methods cannot achieve satisfactory retrieval performance for hash bucket search in complex scenarios, since they learn only one hash code for each image. More specifically, by using one hash code to represent one image, existing methods might fail to put similar image pairs to the buckets with a small Hamming distance to the query when the semantic information of images is complex. As a result, a large number of hash buckets need to be visited for retrieving similar images, based on the learned codes. This will deteriorate the efficiency of hash bucket search. In this paper, we propose a novel hashing framework, called multiple code hashing (MCH), to improve the performance of hash bucket search. The main idea of MCH is to learn multiple hash codes for each image, with each code representing a different region of the image. Furthermore, we propose a deep reinforcement learning algorithm to learn the parameters in MCH. To the best of our knowledge, this is the first work that proposes to learn multiple hash codes for each image in image retrieval. Experiments demonstrate that MCH can achieve a significant improvement in hash bucket search, compared with existing methods that learn only one hash code for each image.","headline":"Multiple Code Hashing For Efficient Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2020multiple/"},"url":"https://learning2hash.github.io/publications/li2020multiple/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,28 +153,31 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Multiple Code Hashing For Efficient Image Retrieval</h1>
-  <h5>Ming-wei Li, Qing-yuan Jiang, Wu-jun Li. Arxiv 2020</h5>
+  <h5>
+  Ming-wei Li, Qing-yuan Jiang, Wu-jun Li. Arxiv 2020
   
+    – <span>0 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/2008.01503" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Multiple%20Code%20Hashing%20For%20Efficient%20Image%20Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Multiple%20Code%20Hashing%20For%20Efficient%20Image%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Multiple Code Hashing For Efficient Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Multiple Code Hashing For Efficient Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+      <tag><a href="/tags.html#Applications">Applications</a></tag>
     
-      <span class="tag"><a href="/tags.html#ANN Search">ANN Search</a></span>
+      <tag><a href="/tags.html#ANN Search">ANN Search</a></tag>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#Deep Hashing">Deep Hashing</a></span>
+      <tag><a href="/tags.html#Deep Hashing">Deep Hashing</a></tag>
     
   </p>
-  
   <p><p>Due to its low storage cost and fast query speed, hashing has been widely
 used in large-scale image retrieval tasks. Hash bucket search returns data
 points within a given Hamming radius to each query, which can enable search at
@@ -200,23 +203,25 @@ each image.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/li2020multiple.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/li2020multiple.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

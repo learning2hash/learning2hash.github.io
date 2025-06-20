@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/jang2021similarity/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Similarity Guided Deep Face Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Face image retrieval, which searches for images of the same identity from the query input face image, is drawing more attention as the size of the image database increases rapidly. In order to conduct fast and accurate retrieval, a compact hash code-based methods have been proposed, and recently, deep face image hashing methods with supervised classification training have shown outstanding performance. However, classification-based scheme has a disadvantage in that it cannot reveal complex similarities between face images into the hash code learning. In this paper, we attempt to improve the face image retrieval quality by proposing a Similarity Guided Hashing (SGH) method, which gently considers self and pairwise-similarity simultaneously. SGH employs various data augmentations designed to explore elaborate similarities between face images, solving both intra and inter identity-wise difficulties. Extensive experimental results on the protocols with existing benchmarks and an additionally proposed large scale higher resolution face image dataset demonstrate that our SGH delivers state-of-the-art retrieval performance.","headline":"Similarity Guided Deep Face Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jang2021similarity/"},"url":"https://learning2hash.github.io/publications/jang2021similarity/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Face image retrieval, which searches for images of the same identity from the query input face image, is drawing more attention as the size of the image database increases rapidly. In order to conduct fast and accurate retrieval, a compact hash code-based methods have been proposed, and recently, deep face image hashing methods with supervised classification training have shown outstanding performance. However, classification-based scheme has a disadvantage in that it cannot reveal complex similarities between face images into the hash code learning. In this paper, we attempt to improve the face image retrieval quality by proposing a Similarity Guided Hashing (SGH) method, which gently considers self and pairwise-similarity simultaneously. SGH employs various data augmentations designed to explore elaborate similarities between face images, solving both intra and inter identity-wise difficulties. Extensive experimental results on the protocols with existing benchmarks and an additionally proposed large scale higher resolution face image dataset demonstrate that our SGH delivers state-of-the-art retrieval performance.","headline":"Similarity Guided Deep Face Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jang2021similarity/"},"url":"https://learning2hash.github.io/publications/jang2021similarity/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,30 +153,33 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Similarity Guided Deep Face Image Retrieval</h1>
-  <h5>Young Kyun Jang, Nam Ik Cho. Arxiv 2021</h5>
+  <h5>
+  Young Kyun Jang, Nam Ik Cho. Arxiv 2021
   
+    – <span>3 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/2107.05025" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Similarity%20Guided%20Deep%20Face%20Image%20Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Similarity%20Guided%20Deep%20Face%20Image%20Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Similarity Guided Deep Face Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Similarity Guided Deep Face Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Applications">Applications</a></span>
+      <tag><a href="/tags.html#Applications">Applications</a></tag>
     
-      <span class="tag"><a href="/tags.html#ANN Search">ANN Search</a></span>
+      <tag><a href="/tags.html#ANN Search">ANN Search</a></tag>
     
-      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
+      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+      <tag><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></tag>
     
   </p>
-  
   <p><p>Face image retrieval, which searches for images of the same identity from the
 query input face image, is drawing more attention as the size of the image
 database increases rapidly. In order to conduct fast and accurate retrieval, a
@@ -196,23 +199,25 @@ demonstrate that our SGH delivers state-of-the-art retrieval performance.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/jang2021similarity.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/jang2021similarity.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

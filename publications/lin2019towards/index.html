@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/lin2019towards/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Towards Optimal Discrete Online Hashing With Balanced Similarity" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"When facing large-scale image datasets, online hashing serves as a promising solution for online retrieval and prediction tasks. It encodes the online streaming data into compact binary codes, and simultaneously updates the hash functions to renew codes of the existing dataset. To this end, the existing methods update hash functions solely based on the new data batch, without investigating the correlation between such new data and the existing dataset. In addition, existing works update the hash functions using a relaxation process in its corresponding approximated continuous space. And it remains as an open problem to directly apply discrete optimizations in online hashing. In this paper, we propose a novel supervised online hashing method, termed Balanced Similarity for Online Discrete Hashing (BSODH), to solve the above problems in a unified framework. BSODH employs a well-designed hashing algorithm to preserve the similarity between the streaming data and the existing dataset via an asymmetric graph regularization. We further identify the “data-imbalance” problem brought by the constructed asymmetric graph, which restricts the application of discrete optimization in our problem. Therefore, a novel balanced similarity is further proposed, which uses two equilibrium factors to balance the similar and dissimilar weights and eventually enables the usage of discrete optimizations. Extensive experiments conducted on three widely-used benchmarks demonstrate the advantages of the proposed method over the state-of-the-art methods.","headline":"Towards Optimal Discrete Online Hashing With Balanced Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2019towards/"},"url":"https://learning2hash.github.io/publications/lin2019towards/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"When facing large-scale image datasets, online hashing serves as a promising solution for online retrieval and prediction tasks. It encodes the online streaming data into compact binary codes, and simultaneously updates the hash functions to renew codes of the existing dataset. To this end, the existing methods update hash functions solely based on the new data batch, without investigating the correlation between such new data and the existing dataset. In addition, existing works update the hash functions using a relaxation process in its corresponding approximated continuous space. And it remains as an open problem to directly apply discrete optimizations in online hashing. In this paper, we propose a novel supervised online hashing method, termed Balanced Similarity for Online Discrete Hashing (BSODH), to solve the above problems in a unified framework. BSODH employs a well-designed hashing algorithm to preserve the similarity between the streaming data and the existing dataset via an asymmetric graph regularization. We further identify the “data-imbalance” problem brought by the constructed asymmetric graph, which restricts the application of discrete optimization in our problem. Therefore, a novel balanced similarity is further proposed, which uses two equilibrium factors to balance the similar and dissimilar weights and eventually enables the usage of discrete optimizations. Extensive experiments conducted on three widely-used benchmarks demonstrate the advantages of the proposed method over the state-of-the-art methods.","headline":"Towards Optimal Discrete Online Hashing With Balanced Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2019towards/"},"url":"https://learning2hash.github.io/publications/lin2019towards/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Towards Optimal Discrete Online Hashing With Balanced Similarity</h1>
-  <h5>Mingbao Lin et al.. Arxiv 2019</h5>
+  <h5>
+  Mingbao Lin et al.. Arxiv 2019
   
+    – <span>35 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1901.10185" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Towards%20Optimal%20Discrete%20Online%20Hashing%20With%20Balanced%20Similarity' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Towards%20Optimal%20Discrete%20Online%20Hashing%20With%20Balanced%20Similarity' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Towards Optimal Discrete Online Hashing With Balanced Similarity' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Towards Optimal Discrete Online Hashing With Balanced Similarity' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
+      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
     
-      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+      <tag><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></tag>
     
   </p>
-  
   <p><p>When facing large-scale image datasets, online hashing serves as a promising
 solution for online retrieval and prediction tasks. It encodes the online
 streaming data into compact binary codes, and simultaneously updates the hash
@@ -198,23 +201,25 @@ the state-of-the-art methods.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/lin2019towards.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/lin2019towards.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

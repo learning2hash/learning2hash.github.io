@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/sundaram2024streaming/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Streaming Similarity Search Over One Billion Tweets Using Parallel Locality-sensitive Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Finding nearest neighbors has become an important operation on databases, with applications to text search, multimedia indexing, and many other areas. One popular algorithm for similarity search, especially for high dimensional data (where spatial indexes like kdtrees do not perform well) is Locality Sensitive Hashing (LSH), an approximation algorithm for finding similar objects. In this paper, we describe a new variant of LSH, called Parallel LSH (PLSH) designed to be extremely efficient, capable of scaling out on multiple nodes and multiple cores, and which supports highthroughput streaming of new data. Our approach employs several novel ideas, including: cache-conscious hash table layout, using a 2-level merge algorithm for hash table construction; an efficient algorithm for duplicate elimination during hash-table querying; an insert-optimized hash table structure and efficient data expiration algorithm for streaming data; and a performance model that accurately estimates performance of the algorithm and can be used to optimize parameter settings. We show that on a workload where we perform similarity search on a dataset of &gt; 1 Billion tweets, with hundreds of millions of new tweets per day, we can achieve query times of 1–2.5 ms. We show that this is an order of magnitude faster than existing indexing schemes, such as inverted indexes. To the best of our knowledge, this is the fastest implementation of LSH, with table construction times up to 3.7x faster and query times that are 8.3x faster than a basic implementation.","headline":"Streaming Similarity Search Over One Billion Tweets Using Parallel Locality-sensitive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sundaram2024streaming/"},"url":"https://learning2hash.github.io/publications/sundaram2024streaming/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Finding nearest neighbors has become an important operation on databases, with applications to text search, multimedia indexing, and many other areas. One popular algorithm for similarity search, especially for high dimensional data (where spatial indexes like kdtrees do not perform well) is Locality Sensitive Hashing (LSH), an approximation algorithm for finding similar objects. In this paper, we describe a new variant of LSH, called Parallel LSH (PLSH) designed to be extremely efficient, capable of scaling out on multiple nodes and multiple cores, and which supports highthroughput streaming of new data. Our approach employs several novel ideas, including: cache-conscious hash table layout, using a 2-level merge algorithm for hash table construction; an efficient algorithm for duplicate elimination during hash-table querying; an insert-optimized hash table structure and efficient data expiration algorithm for streaming data; and a performance model that accurately estimates performance of the algorithm and can be used to optimize parameter settings. We show that on a workload where we perform similarity search on a dataset of &gt; 1 Billion tweets, with hundreds of millions of new tweets per day, we can achieve query times of 1–2.5 ms. We show that this is an order of magnitude faster than existing indexing schemes, such as inverted indexes. To the best of our knowledge, this is the fastest implementation of LSH, with table construction times up to 3.7x faster and query times that are 8.3x faster than a basic implementation.","headline":"Streaming Similarity Search Over One Billion Tweets Using Parallel Locality-sensitive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sundaram2024streaming/"},"url":"https://learning2hash.github.io/publications/sundaram2024streaming/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Streaming Similarity Search Over One Billion Tweets Using Parallel Locality-sensitive Hashing</h1>
-  <h5>Sundaram Narayanan et al.. Arxiv 2024</h5>
+  <h5>
+  Sundaram Narayanan et al.. Arxiv 2024
   
+    – <span>71 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="http://www.vldb.org/pvldb/vol6/p1930-sundaram.pdf" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Streaming%20Similarity%20Search%20Over%20One%20Billion%20Tweets%20Using%20Parallel%20Locality-sensitive%20Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Streaming%20Similarity%20Search%20Over%20One%20Billion%20Tweets%20Using%20Parallel%20Locality-sensitive%20Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Streaming Similarity Search Over One Billion Tweets Using Parallel Locality-sensitive Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Streaming Similarity Search Over One Billion Tweets Using Parallel Locality-sensitive Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#ANN Search">ANN Search</a></span>
+      <tag><a href="/tags.html#ANN Search">ANN Search</a></tag>
     
-      <span class="tag"><a href="/tags.html#Efficient Learning">Efficient Learning</a></span>
+      <tag><a href="/tags.html#Efficient Learning">Efficient Learning</a></tag>
     
   </p>
-  
   <p><p>Finding nearest neighbors has become an important operation on databases, with applications to text search, multimedia indexing,
 and many other areas. One popular algorithm for similarity search, especially for high dimensional data (where spatial indexes like kdtrees do not perform well) is Locality Sensitive Hashing (LSH), an
 approximation algorithm for finding similar objects. In this paper, we describe a new variant of LSH, called Parallel
@@ -188,23 +191,25 @@ with table construction times up to 3.7x faster and query times that are 8.3x fa
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/sundaram2024streaming.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/sundaram2024streaming.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

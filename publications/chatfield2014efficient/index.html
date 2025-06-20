@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/chatfield2014efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient On-the-fly Category Retrieval Using Convnets And Gpus" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"We investigate the gains in precision and speed, that can be obtained by using Convolutional Networks (ConvNets) for on-the-fly retrieval - where classifiers are learnt at run time for a textual query from downloaded images, and used to rank large image or video datasets. We make three contributions: (i) we present an evaluation of state-of-the-art image representations for object category retrieval over standard benchmark datasets containing 1M+ images; (ii) we show that ConvNets can be used to obtain features which are incredibly performant, and yet much lower dimensional than previous state-of-the-art image representations, and that their dimensionality can be reduced further without loss in performance by compression using product quantization or binarization. Consequently, features with the state-of-the-art performance on large-scale datasets of millions of images can fit in the memory of even a commodity GPU card; (iii) we show that an SVM classifier can be learnt within a ConvNet framework on a GPU in parallel with downloading the new training images, allowing for a continuous refinement of the model as more images become available, and simultaneous training and ranking. The outcome is an on-the-fly system that significantly outperforms its predecessors in terms of: precision of retrieval, memory requirements, and speed, facilitating accurate on-the-fly learning and ranking in under a second on a single GPU.","headline":"Efficient On-the-fly Category Retrieval Using Convnets And Gpus","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chatfield2014efficient/"},"url":"https://learning2hash.github.io/publications/chatfield2014efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"We investigate the gains in precision and speed, that can be obtained by using Convolutional Networks (ConvNets) for on-the-fly retrieval - where classifiers are learnt at run time for a textual query from downloaded images, and used to rank large image or video datasets. We make three contributions: (i) we present an evaluation of state-of-the-art image representations for object category retrieval over standard benchmark datasets containing 1M+ images; (ii) we show that ConvNets can be used to obtain features which are incredibly performant, and yet much lower dimensional than previous state-of-the-art image representations, and that their dimensionality can be reduced further without loss in performance by compression using product quantization or binarization. Consequently, features with the state-of-the-art performance on large-scale datasets of millions of images can fit in the memory of even a commodity GPU card; (iii) we show that an SVM classifier can be learnt within a ConvNet framework on a GPU in parallel with downloading the new training images, allowing for a continuous refinement of the model as more images become available, and simultaneous training and ranking. The outcome is an on-the-fly system that significantly outperforms its predecessors in terms of: precision of retrieval, memory requirements, and speed, facilitating accurate on-the-fly learning and ranking in under a second on a single GPU.","headline":"Efficient On-the-fly Category Retrieval Using Convnets And Gpus","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chatfield2014efficient/"},"url":"https://learning2hash.github.io/publications/chatfield2014efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Efficient On-the-fly Category Retrieval Using Convnets And Gpus</h1>
-  <h5>Ken Chatfield, Karen Simonyan, Andrew Zisserman. Arxiv 2014</h5>
+  <h5>
+  Ken Chatfield, Karen Simonyan, Andrew Zisserman. Arxiv 2014
   
+    – <span>4 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1407.4764" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Efficient%20On-the-fly%20Category%20Retrieval%20Using%20Convnets%20And%20Gpus' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Efficient%20On-the-fly%20Category%20Retrieval%20Using%20Convnets%20And%20Gpus' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Efficient On-the-fly Category Retrieval Using Convnets And Gpus' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Efficient On-the-fly Category Retrieval Using Convnets And Gpus' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Quantization">Quantization</a></span>
+      <tag><a href="/tags.html#Quantization">Quantization</a></tag>
     
-      <span class="tag"><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></span>
+      <tag><a href="/tags.html#Evaluation Metrics">Evaluation Metrics</a></tag>
     
-      <span class="tag"><a href="/tags.html#Tools and Libraries">Tools and Libraries</a></span>
+      <tag><a href="/tags.html#Tools and Libraries">Tools and Libraries</a></tag>
     
   </p>
-  
   <p><p>We investigate the gains in precision and speed, that can be obtained by
 using Convolutional Networks (ConvNets) for on-the-fly retrieval - where
 classifiers are learnt at run time for a textual query from downloaded images,
@@ -197,23 +200,25 @@ on a single GPU.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/chatfield2014efficient.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/chatfield2014efficient.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/nikoli%C4%872020bitpruning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Bitpruning Learning Bitlengths For Aggressive And Accurate Quantization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Neural networks have demonstrably achieved state-of-the art accuracy using low-bitlength integer quantization, yielding both execution time and energy benefits on existing hardware designs that support short bitlengths. However, the question of finding the minimum bitlength for a desired accuracy remains open. We introduce a training method for minimizing inference bitlength at any granularity while maintaining accuracy. Namely, we propose a regularizer that penalizes large bitlength representations throughout the architecture and show how it can be modified to minimize other quantifiable criteria, such as number of operations or memory footprint. We demonstrate that our method learns thrifty representations while maintaining accuracy. With ImageNet, the method produces an average per layer bitlength of 4.13, 3.76 and 4.36 bits on AlexNet, ResNet18 and MobileNet V2 respectively, remaining within 2.0%, 0.5% and 0.5% of the base TOP-1 accuracy.","headline":"Bitpruning Learning Bitlengths For Aggressive And Accurate Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/nikoli%C4%872020bitpruning/"},"url":"https://learning2hash.github.io/publications/nikoli%C4%872020bitpruning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Neural networks have demonstrably achieved state-of-the art accuracy using low-bitlength integer quantization, yielding both execution time and energy benefits on existing hardware designs that support short bitlengths. However, the question of finding the minimum bitlength for a desired accuracy remains open. We introduce a training method for minimizing inference bitlength at any granularity while maintaining accuracy. Namely, we propose a regularizer that penalizes large bitlength representations throughout the architecture and show how it can be modified to minimize other quantifiable criteria, such as number of operations or memory footprint. We demonstrate that our method learns thrifty representations while maintaining accuracy. With ImageNet, the method produces an average per layer bitlength of 4.13, 3.76 and 4.36 bits on AlexNet, ResNet18 and MobileNet V2 respectively, remaining within 2.0%, 0.5% and 0.5% of the base TOP-1 accuracy.","headline":"Bitpruning Learning Bitlengths For Aggressive And Accurate Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/nikoli%C4%872020bitpruning/"},"url":"https://learning2hash.github.io/publications/nikoli%C4%872020bitpruning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,26 +153,29 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Bitpruning Learning Bitlengths For Aggressive And Accurate Quantization</h1>
-  <h5>Nikolić Miloš et al.. Arxiv 2020</h5>
+  <h5>
+  Nikolić Miloš et al.. Arxiv 2020
   
+    – <span>2 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/2002.03090" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Bitpruning%20Learning%20Bitlengths%20For%20Aggressive%20And%20Accurate%20Quantization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Bitpruning%20Learning%20Bitlengths%20For%20Aggressive%20And%20Accurate%20Quantization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Bitpruning Learning Bitlengths For Aggressive And Accurate Quantization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Bitpruning Learning Bitlengths For Aggressive And Accurate Quantization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Quantization">Quantization</a></span>
+      <tag><a href="/tags.html#Quantization">Quantization</a></tag>
     
-      <span class="tag"><a href="/tags.html#Supervised">Supervised</a></span>
+      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
     
-      <span class="tag"><a href="/tags.html#Efficient Learning">Efficient Learning</a></span>
+      <tag><a href="/tags.html#Efficient Learning">Efficient Learning</a></tag>
     
   </p>
-  
   <p><p>Neural networks have demonstrably achieved state-of-the art accuracy using
 low-bitlength integer quantization, yielding both execution time and energy
 benefits on existing hardware designs that support short bitlengths. However,
@@ -190,23 +193,25 @@ the base TOP-1 accuracy.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/nikolić2020bitpruning.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/nikolić2020bitpruning.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 

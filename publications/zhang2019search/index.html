@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2019search/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-06-18T12:12:30-05:00" />
+<meta property="article:published_time" content="2025-06-20T09:56:32-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Search Efficient Binary Network Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-18T12:12:30-05:00","datePublished":"2025-06-18T12:12:30-05:00","description":"Traditional network embedding primarily focuses on learning a continuous vector representation for each node, preserving network structure and/or node content information, such that off-the-shelf machine learning algorithms can be easily applied to the vector-format node representations for network analysis. However, the learned continuous vector representations are inefficient for large-scale similarity search, which often involves finding nearest neighbors measured by distance or similarity in a continuous vector space. In this paper, we propose a search efficient binary network embedding algorithm called BinaryNE to learn a binary code for each node, by simultaneously modeling node context relations and node attribute relations through a three-layer neural network. BinaryNE learns binary node representations through a stochastic gradient descent based online learning algorithm. The learned binary encoding not only reduces memory usage to represent each node, but also allows fast bit-wise comparisons to support faster node similarity search than using Euclidean distance or other distance measures. Extensive experiments and comparisons demonstrate that BinaryNE not only delivers more than 25 times faster search speed, but also provides comparable or better search quality than traditional continuous vector based network embedding methods. The binary codes learned by BinaryNE also render competitive performance on node classification and node clustering tasks. The source code of this paper is available at https://github.com/daokunzhang/BinaryNE.","headline":"Search Efficient Binary Network Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2019search/"},"url":"https://learning2hash.github.io/publications/zhang2019search/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-20T09:56:32-05:00","datePublished":"2025-06-20T09:56:32-05:00","description":"Traditional network embedding primarily focuses on learning a continuous vector representation for each node, preserving network structure and/or node content information, such that off-the-shelf machine learning algorithms can be easily applied to the vector-format node representations for network analysis. However, the learned continuous vector representations are inefficient for large-scale similarity search, which often involves finding nearest neighbors measured by distance or similarity in a continuous vector space. In this paper, we propose a search efficient binary network embedding algorithm called BinaryNE to learn a binary code for each node, by simultaneously modeling node context relations and node attribute relations through a three-layer neural network. BinaryNE learns binary node representations through a stochastic gradient descent based online learning algorithm. The learned binary encoding not only reduces memory usage to represent each node, but also allows fast bit-wise comparisons to support faster node similarity search than using Euclidean distance or other distance measures. Extensive experiments and comparisons demonstrate that BinaryNE not only delivers more than 25 times faster search speed, but also provides comparable or better search quality than traditional continuous vector based network embedding methods. The binary codes learned by BinaryNE also render competitive performance on node classification and node clustering tasks. The source code of this paper is available at https://github.com/daokunzhang/BinaryNE.","headline":"Search Efficient Binary Network Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2019search/"},"url":"https://learning2hash.github.io/publications/zhang2019search/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -153,30 +153,33 @@ function search() {
 
 
     <div class="content container">
-      <div class="page mathjax-content">
+      <div class="page">
   <h1 class="page-title">Search Efficient Binary Network Embedding</h1>
-  <h5>Daokun Zhang, Jie Yin, Xingquan Zhu, Chengqi Zhang. TKDD-2021 2019</h5>
+  <h5>
+  Daokun Zhang, Jie Yin, Xingquan Zhu, Chengqi Zhang. TKDD-2021 2019
   
+    – <span>2 citations</span>
+  
+  </h5>
   <p>
     
       [<a href="https://arxiv.org/abs/1901.04097" target="_blank">Paper</a>]
     
       [<a href="https://github.com/daokunzhang/BinaryNE" target="_blank">Code</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Search%20Efficient%20Binary%20Network%20Embedding' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Search%20Efficient%20Binary%20Network%20Embedding' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Search Efficient Binary Network Embedding' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Search Efficient Binary Network Embedding' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <span class="tag"><a href="/tags.html#Efficient Learning">Efficient Learning</a></span>
+      <tag><a href="/tags.html#Efficient Learning">Efficient Learning</a></tag>
     
-      <span class="tag"><a href="/tags.html#Hashing Methods">Hashing Methods</a></span>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
-      <span class="tag"><a href="/tags.html#Deep Hashing">Deep Hashing</a></span>
+      <tag><a href="/tags.html#Deep Hashing">Deep Hashing</a></tag>
     
-      <span class="tag"><a href="/tags.html#ANN Search">ANN Search</a></span>
+      <tag><a href="/tags.html#ANN Search">ANN Search</a></tag>
     
   </p>
-  
   <p><p>Traditional network embedding primarily focuses on learning a continuous
 vector representation for each node, preserving network structure and/or node
 content information, such that off-the-shelf machine learning algorithms can be
@@ -202,23 +205,25 @@ https://github.com/daokunzhang/BinaryNE.</p>
 
   <h6>Similar Work</h6>
   <p>
-    <ul id="relwork"></ul>
+    <ul id="relwork">
+
+    </ul>
   </p>
 
-  <script defer>
-    $(document).ready(function() {
-      $.getJSON("/publications-metadata/zhang2019search.json", function(data) {
-        var num_papers = data.length;
-        var html = "";
-        for (var i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function() {
-        console.error("Failed to load related work metadata.");
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/zhang2019search.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
       });
-    });
   </script>
+
 
 </div>
 
