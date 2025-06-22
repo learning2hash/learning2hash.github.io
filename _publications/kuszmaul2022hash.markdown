@@ -1,0 +1,34 @@
+---
+layout: publication
+title: A Hash Table Without Hash Functions, And How To Get The Most Out Of Your Random
+  Bits
+authors: William Kuszmaul
+conference: Arxiv
+year: 2022
+citations: 5
+bibkey: kuszmaul2022hash
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.06038'}]
+tags: [Hashing Methods]
+---
+This paper considers the basic question of how strong of a probabilistic
+guarantee can a hash table, storing \\(n\\) \\((1 + \Theta(1)) log n\\)-bit key/value
+pairs, offer? Past work on this question has been bottlenecked by limitations
+of the known families of hash functions: The only hash tables to achieve
+failure probabilities less than \\(1 / 2^\{\polylog n\}\\) require access to
+fully-random hash functions -- if the same hash tables are implemented using
+the known explicit families of hash functions, their failure probabilities
+become \\(1 / \poly(n)\\).
+  To get around these obstacles, we show how to construct a randomized data
+structure that has the same guarantees as a hash table, but that *avoids
+the direct use of hash functions*. Building on this, we are able to construct a
+hash table using \\(O(n)\\) random bits that achieves failure probability \\(1 /
+n^\{n^\{1 - \epsilon\}\}\\) for an arbitrary positive constant \\(\epsilon\\).
+  In fact, we show that this guarantee can even be achieved by a *succinct
+dictionary*, that is, by a dictionary that uses space within a \\(1 + o(1)\\)
+factor of the information-theoretic optimum.
+  Finally we also construct a succinct hash table whose probabilistic
+guarantees fall on a different extreme, offering a failure probability of \\(1 /
+\poly(n)\\) while using only \\(\tilde\{O\}(log n)\\) random bits. This latter result
+matches (up to low-order terms) a guarantee previously achieved by
+Dietzfelbinger et al., but with increased space efficiency and with several
+surprising technical components.
