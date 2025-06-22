@@ -1,0 +1,13 @@
+---
+layout: publication
+title: Moboost A Self-improvement Framework For Linear-based Hashing
+authors: Liu Xingbo, Nie, Xi, Zhu, Yin
+conference: Arxiv
+year: 2024
+citations: 0
+bibkey: liu2024moboost
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/MoBoost: A Self-improvement
+      Framework for Linear-based Hashing'}]
+tags: [ARXIV, Independent]
+---
+The linear model is commonly utilized in hashing methods owing to its efficiency. To obtain better accuracy, linear-based hashing methods focus on designing a generalized linear objective function with different constraints or penalty terms that consider neighborhood information. In this study, we propose a novel generalized framework called Model Boost (MoBoost), which can achieve the self-improvement of the linear-based hashing. The proposed MoBoost is used to improve model parameter optimization for linear-based hashing methods without adding new constraints or penalty terms. In the proposed MoBoost, given a linear-based hashing method, we first execute the method several times to get several different hash codes for training samples, and then combine these different hash codes into one set utilizing one novel fusion strategy. Based on this set of hash codes, we learn some new parameters for the linear hash function that can significantly improve accuracy. The proposed MoBoost can be generally adopted in existing linear-based hashing methods, achieving more precise and stable performance compared to the original methods while imposing negligible added expenditure in terms of time and space. Extensive experiments are performed based on three benchmark datasets, and the results demonstrate the superior performance of the proposed framework.

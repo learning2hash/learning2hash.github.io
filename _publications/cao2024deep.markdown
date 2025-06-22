@@ -1,0 +1,27 @@
+---
+layout: publication
+title: Deep Cauchy Hashing For Hamming Space Retrieval
+authors: Cao Yue, Long, Liu, Wang
+conference: Arxiv
+year: 2024
+citations: 278
+bibkey: cao2024deep
+additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-cauchy-hashing-cvpr18.pdf'}]
+tags: [ARXIV, Image Retrieval, Independent]
+---
+Due to its computation efficiency and retrieval quality,
+hashing has been widely applied to approximate nearest
+neighbor search for large-scale image retrieval, while deep
+hashing further improves the retrieval quality by end-toend representation learning and hash coding. With compact
+hash codes, Hamming space retrieval enables the most efficient constant-time search that returns data points within a
+given Hamming radius to each query, by hash table lookups
+instead of linear scan. However, subject to the weak capability of concentrating relevant images to be within a small
+Hamming ball due to mis-specified loss functions, existing deep hashing methods may underperform for Hamming
+space retrieval.  This work presents Deep Cauchy Hashing
+(DCH), a novel deep hashing model that generates compact
+and concentrated binary hash codes to enable efficient and
+effective Hamming space retrieval. The main idea is to design a pairwise cross-entropy loss based on Cauchy distribution, which penalizes significantly on similar image pairs
+with Hamming distance larger than the given Hamming radius threshold. Comprehensive experiments demonstrate
+that DCH can generate highly concentrated hash codes and
+yield state-of-the-art Hamming space retrieval performance
+on three datasets, NUS-WIDE, CIFAR-10, and MS-COCO.

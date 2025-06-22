@@ -1,0 +1,23 @@
+---
+layout: publication
+title: 'Random Cycle Coding: Lossless Compression Of Cluster Assignments Via Bits-back
+  Coding'
+authors: Daniel Severo, Ashish Khisti, Alireza Makhzani
+conference: Arxiv
+year: 2024
+citations: 0
+bibkey: severo2024random
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.00369'}]
+tags: [Applications]
+---
+We present an optimal method for encoding cluster assignments of arbitrary
+data sets. Our method, Random Cycle Coding (RCC), encodes data sequentially and
+sends assignment information as cycles of the permutation defined by the order
+of encoded elements. RCC does not require any training and its worst-case
+complexity scales quasi-linearly with the size of the largest cluster. We
+characterize the achievable bit rates as a function of cluster sizes and number
+of elements, showing RCC consistently outperforms previous methods while
+requiring less compute and memory resources. Experiments show RCC can save up
+to 2 bytes per element when applied to vector databases, and removes the need
+for assigning integer ids to identify vectors, translating to savings of up to
+70% in vector database systems for similarity search applications.

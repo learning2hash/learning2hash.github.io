@@ -1,0 +1,12 @@
+---
+layout: publication
+title: Co-regularized Hashing For Multimodal Data
+authors: Yi Zhen, Dit-yan Yeung
+conference: Neural Information Processing Systems
+year: 2012
+citations: 195
+bibkey: zhen2012co
+additional_links: [{name: Paper, url: 'https://papers.nips.cc/paper/2012/hash/5c04925674920eb58467fb52ce4ef728-Abstract.html'}]
+tags: [Cross Modal, Dataset, Independent, NEURIPS]
+---
+Hashing-based methods provide a very promising approach to large-scale similarity search.  To obtain compact hash codes, a recent trend seeks to learn the hash functions from data automatically.  In this paper, we study hash function learning in the context of multimodal data.  We propose a novel multimodal hash function learning method, called Co-Regularized Hashing (CRH), based on a boosted co-regularization framework.  The hash functions for each bit of the hash codes are learned by solving DC (difference of convex functions) programs, while the learning for multiple bits proceeds via a boosting procedure so that the bias introduced by the hash functions can be sequentially minimized.  We empirically compare CRH with two state-of-the-art multimodal hash function learning methods on two publicly available data sets.
