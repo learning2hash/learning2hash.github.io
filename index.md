@@ -58,4 +58,4 @@ For more detailed introductory material, visit our [*Resources*](resources.html)
 
 The field of learning to hash is rapidly evolving, and this website aims to stay current by inviting contributions from researchers. If you come across new work in this area, you can easily add it by creating a markdown file and submitting a pull request through our GitHub page. For full instructions, visit the [*Contributing* section](contributing.html).
 
-Copyright © [Sean Moran](https://sjmoran.github.io/) 2024. All opinions are my own.
+Copyright © [Sean Moran](https://sjmoran.github.io/) 2025. All opinions are my own.
