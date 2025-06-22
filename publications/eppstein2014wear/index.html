@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+<!-- Begin Web-Stat code v 7.0 -->
+<span id="wts2185304"></span>
+<script>var wts=document.createElement('script');wts.async=true;
+wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+wts.onload = function(){ wtslog7(2185304,4); };
+</script><noscript><a href="https://www.web-stat.com">
+<img src="https://app.ardalio.com/7/4/2185304.png" 
+alt="Web-Stat web statistics"></a></noscript>
+<!-- End Web-Stat code v 7.0 -->
+  <!-- Hotjar Tracking Code for https://learning2hash.github.io/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1843243,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109544763-1');
+</script>
+<script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["\\(","\\)"]],
+        displayMath: [["\\[","\\]"]],
+      },
+      options: {
+        processHtmlClass: "mathjax-content",
+        processEscapes: true,
+      }
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Wear Minimization For Cuckoo Hashing: How Not To Throw A Lot Of Eggs Into One Basket | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="Wear Minimization For Cuckoo Hashing: How Not To Throw A Lot Of Eggs Into One Basket" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="We study wear-leveling techniques for cuckoo hashing, showing that it is possible to achieve a memory wear bound of \(loglog n+O(1)\) after the insertion of \(n\) items into a table of size \(Cn\) for a suitable constant \(C\) using cuckoo hashing. Moreover, we study our cuckoo hashing method empirically, showing that it significantly improves on the memory wear performance for classic cuckoo hashing and linear probing in practice." />
+<meta property="og:description" content="We study wear-leveling techniques for cuckoo hashing, showing that it is possible to achieve a memory wear bound of \(loglog n+O(1)\) after the insertion of \(n\) items into a table of size \(Cn\) for a suitable constant \(C\) using cuckoo hashing. Moreover, we study our cuckoo hashing method empirically, showing that it significantly improves on the memory wear performance for classic cuckoo hashing and linear probing in practice." />
+<link rel="canonical" href="https://learning2hash.github.io/publications/eppstein2014wear/" />
+<meta property="og:url" content="https://learning2hash.github.io/publications/eppstein2014wear/" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-06-22T10:01:51-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Wear Minimization For Cuckoo Hashing: How Not To Throw A Lot Of Eggs Into One Basket" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-06-22T10:01:51-05:00","datePublished":"2025-06-22T10:01:51-05:00","description":"We study wear-leveling techniques for cuckoo hashing, showing that it is possible to achieve a memory wear bound of \\(loglog n+O(1)\\) after the insertion of \\(n\\) items into a table of size \\(Cn\\) for a suitable constant \\(C\\) using cuckoo hashing. Moreover, we study our cuckoo hashing method empirically, showing that it significantly improves on the memory wear performance for classic cuckoo hashing and linear probing in practice.","headline":"Wear Minimization For Cuckoo Hashing: How Not To Throw A Lot Of Eggs Into One Basket","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/eppstein2014wear/"},"url":"https://learning2hash.github.io/publications/eppstein2014wear/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.svg">
+  <link rel="search" href="/public/opensearchdescription.xml" 
+      type="application/opensearchdescription+xml" 
+      title="learning2hash" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <a href='/contributing.html' class='ribbon'>Add your paper to Learning2Hash</a>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Awesome Learning to Hash
+        </a>
+      </h1>
+      <p class="lead">A Webpage dedicated to the latest research on Hash Function Learning. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="sidebar-item">
+        <p style="font-size: 12px">
+          Search related work 
+          <input type='text' id='searchTarget' size="16"/> 
+          <button onClick="search();">Go</button>
+        </p>
+      </div>
+      <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item" href="/topic-viz.html">Topic-based Explorer</a>
+      <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item" href="/resources.html">Resources, Courses &#38; Events</a>
+      <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
+    </nav>
+
+    <div class="sidebar-item">
+      <p style="font-size: 12px">
+        Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
+        <span style="font-size: 9px">
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+$("#searchTarget").keydown(function (e) {	
+  if (e.keyCode == 13) {
+    search();
+  }
+});
+
+function search() {
+  try {
+    ga('send', 'event', 'search', 'search', $("#searchTarget").val());
+  } finally {
+    window.location = "/papers.html#" + $("#searchTarget").val();
+  }
+}
+</script>
+
+
+    <div class="content container">
+      <div class="page">
+  <h1 class="page-title">Wear Minimization For Cuckoo Hashing: How Not To Throw A Lot Of Eggs Into One Basket</h1>
+  <h5>
+  David Eppstein, Michael T. Goodrich, Michael Mitzenmacher, Paweł Pszona. Arxiv 2014
+  
+    – <span>7 citations</span>
+  
+  </h5>
+  <p>
+    
+      [<a href="https://arxiv.org/abs/1404.0286" target="_blank">Paper</a>]
+    
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Wear Minimization For Cuckoo Hashing: How Not To Throw A Lot Of Eggs Into One Basket' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Wear Minimization For Cuckoo Hashing: How Not To Throw A Lot Of Eggs Into One Basket' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    <br/>
+    
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
+    
+  </p>
+  <p><p>We study wear-leveling techniques for cuckoo hashing, showing that it is
+possible to achieve a memory wear bound of \(loglog n+O(1)\) after the
+insertion of \(n\) items into a table of size \(Cn\) for a suitable constant \(C\)
+using cuckoo hashing. Moreover, we study our cuckoo hashing method empirically,
+showing that it significantly improves on the memory wear performance for
+classic cuckoo hashing and linear probing in practice.</p>
+</p>
+
+  <h6>Similar Work</h6>
+  <p>
+    <ul id="relwork">
+
+    </ul>
+  </p>
+
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/eppstein2014wear.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
+      });
+  </script>
+
+
+</div>
+
+    </div>
+
+  </body>
+</html>
