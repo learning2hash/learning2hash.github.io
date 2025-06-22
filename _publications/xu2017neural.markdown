@@ -1,0 +1,30 @@
+---
+layout: publication
+title: Neural Network-based Graph Embedding For Cross-platform Binary Code Similarity
+  Detection
+authors: Xu Xiaojun et al.
+conference: Arxiv
+year: 2017
+citations: 411
+bibkey: xu2017neural
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.06525'}]
+tags: [Graph and Transformer Models, Supervised, Has Code]
+---
+The problem of cross-platform binary code similarity detection aims at
+detecting whether two binary functions coming from different platforms are
+similar or not. It has many security applications, including plagiarism
+detection, malware detection, vulnerability search, etc. Existing approaches
+rely on approximate graph matching algorithms, which are inevitably slow and
+sometimes inaccurate, and hard to adapt to a new task. To address these issues,
+in this work, we propose a novel neural network-based approach to compute the
+embedding, i.e., a numeric vector, based on the control flow graph of each
+binary function, then the similarity detection can be done efficiently by
+measuring the distance between the embeddings for two functions. We implement a
+prototype called Gemini. Our extensive evaluation shows that Gemini outperforms
+the state-of-the-art approaches by large margins with respect to similarity
+detection accuracy. Further, Gemini can speed up prior art's embedding
+generation time by 3 to 4 orders of magnitude and reduce the required training
+time from more than 1 week down to 30 minutes to 10 hours. Our real world case
+studies demonstrate that Gemini can identify significantly more vulnerable
+firmware images than the state-of-the-art, i.e., Genius. Our research showcases
+a successful application of deep learning on computer security problems.

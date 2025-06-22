@@ -1,0 +1,23 @@
+---
+layout: publication
+title: Reflectance Hashing For Material Recognition
+authors: Hang Zhang, Kristin Dana, Ko Nishino
+conference: Arxiv
+year: 2015
+citations: 30
+bibkey: zhang2015reflectance
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1502.02092'}]
+tags: [Hashing Methods, ANN Search, Applications, Has Code]
+---
+We introduce a novel method for using reflectance to identify materials.
+Reflectance offers a unique signature of the material but is challenging to
+measure and use for recognizing materials due to its high-dimensionality. In
+this work, one-shot reflectance is captured using a unique optical camera
+measuring \{\it reflectance disks\} where the pixel coordinates correspond to
+surface viewing angles. The reflectance has class-specific stucture and angular
+gradients computed in this reflectance space reveal the material class.
+  These reflectance disks encode discriminative information for efficient and
+accurate material recognition. We introduce a framework called reflectance
+hashing that models the reflectance disks with dictionary learning and binary
+hashing. We demonstrate the effectiveness of reflectance hashing for material
+recognition with a number of real-world materials.

@@ -1,0 +1,24 @@
+---
+layout: publication
+title: Object Detection Based Deep Unsupervised Hashing
+authors: Rong-cheng Tu, Xian-ling Mao, Bo-si Feng, Bing-bing Bian, Yu-shu Ying
+conference: Arxiv
+year: 2018
+citations: 6
+bibkey: tu2018object
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.09822'}]
+tags: [Applications, Unsupervised, Deep Hashing, Hashing Methods]
+---
+Recently, similarity-preserving hashing methods have been extensively studied
+for large-scale image retrieval. Compared with unsupervised hashing, supervised
+hashing methods for labeled data have usually better performance by utilizing
+semantic label information. Intuitively, for unlabeled data, it will improve
+the performance of unsupervised hashing methods if we can first mine some
+supervised semantic 'label information' from unlabeled data and then
+incorporate the 'label information' into the training process. Thus, in this
+paper, we propose a novel Object Detection based Deep Unsupervised Hashing
+method (ODDUH). Specifically, a pre-trained object detection model is utilized
+to mining supervised 'label information', which is used to guide the learning
+process to generate high-quality hash codes.Extensive experiments on two public
+datasets demonstrate that the proposed method outperforms the state-of-the-art
+unsupervised hashing methods in the image retrieval task.
