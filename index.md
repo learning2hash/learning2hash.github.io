@@ -6,7 +6,7 @@ comments: true
 # Awesome Papers on Learning to Hash
 
 ### 🌐 Check Out Our Sister Site on Large Language Models
-Explore our related resource, focusing on Large Language Models, at [LLM Bible](https://llm-bible.github.io).
+Explore our related resource, focusing on Large Language Models, at [Awesome LLM Papers](https://awesome-llm-papers.github.io).
 
 ### 🏷 Browse Papers by Tag
 
