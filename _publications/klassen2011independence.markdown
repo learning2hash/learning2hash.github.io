@@ -1,0 +1,23 @@
+---
+layout: publication
+title: Independence Of Tabulation-based Hash Classes
+authors: Toryn Qwyllyn Klassen, Philipp Woelfel
+conference: Arxiv
+year: 2011
+citations: 3
+bibkey: klassen2011independence
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1112.3323'}]
+tags: [Indexing, Hashing Methods, Evaluation Metrics]
+---
+A tabulation-based hash function maps a key into d derived characters
+indexing random values in tables that are then combined with bitwise xor
+operations to give the hash. Thorup and Zhang (2004) presented d-wise
+independent tabulation-based hash classes that use linear maps over finite
+fields to map a key, considered as a vector (a,b), to derived characters. We
+show that a variant where the derived characters are a+b*i for i=0,..., q-1
+(using integer arithmetic) yielding (2d-1)-wise independence. Our analysis is
+based on an algebraic property that characterizes k-wise independence of
+tabulation-based hashing schemes, and combines this characterization with a
+geometric argument. We also prove a non-trivial lower bound on the number of
+derived characters necessary for k-wise independence with our and related hash
+classes.
