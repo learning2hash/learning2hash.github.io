@@ -1,0 +1,30 @@
+---
+layout: publication
+title: Sequential Projection Learning For Hashing With Compact Codes
+authors: Wang J., Kumar, Chang
+conference: No Venue
+year: 2025
+bibkey: wang2025sequential
+citations: 328
+additional_links: [{name: Paper, url: 'http://machinelearning.wustl.edu/mlpapers/paper_files/icml2010_WangKC10.pdf'}]
+tags: [Datasets, Evaluation, Compact Codes, HASHING Methods, Locality Sensitive HASHING,
+  Efficiency And Optimization]
+---
+Hashing based Approximate Nearest Neighbor
+(ANN) search has attracted much attention
+due to its fast query time and drastically
+reduced storage. However, most of the hashing
+methods either use random projections or
+extract principal directions from the data to
+derive hash functions. The resulting embedding
+suffers from poor discrimination when
+compact codes are used. In this paper, we
+propose a novel data-dependent projection
+learning method such that each hash function
+is designed to correct the errors made by
+the previous one sequentially. The proposed
+method easily adapts to both unsupervised
+and semi-supervised scenarios and shows significant
+performance gains over the state-ofthe-art
+methods on two large datasets containing
+up to 1 million points.
