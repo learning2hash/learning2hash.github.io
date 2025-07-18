@@ -1,1 +1,1 @@
-[["kong2025isotropic", "Isotropic Hashing"], ["shi2025variable", "Variable-length Quantization Strategy For Hashing"], ["kong2025double", "Double-bit Quantisation For Hashing"], ["wang2025hamming", "Hamming Compatible Quantization For Hashing"]]
+[["kong2025isotropic", "Isotropic Hashing"], ["wang2025hamming", "Hamming Compatible Quantization For Hashing"], ["wang2025affinity", "Affinity Preserving Quantization For Hashing: A Vector Quantization Approach To Learning Compact Binary Codes"], ["xu2025harmonious", "Harmonious Hashing"]]

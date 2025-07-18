@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+<!-- Begin Web-Stat code v 7.0 -->
+<span id="wts2185304"></span>
+<script>var wts=document.createElement('script');wts.async=true;
+wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+wts.onload = function(){ wtslog7(2185304,4); };
+</script><noscript><a href="https://www.web-stat.com">
+<img src="https://app.ardalio.com/7/4/2185304.png" 
+alt="Web-Stat web statistics"></a></noscript>
+<!-- End Web-Stat code v 7.0 -->
+  <!-- Hotjar Tracking Code for https://learning2hash.github.io/ -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1843243,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-109544763-1');
+</script>
+<script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [["\\(","\\)"]],
+        displayMath: [["\\[","\\]"]],
+      },
+      options: {
+        processHtmlClass: "mathjax-content",
+        processEscapes: true,
+      }
+    };
+  </script>
+  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
+
+  <!-- Enable responsiveness on mobile devices-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>A Hash Table Without Hash Functions, And How To Get The Most Out Of Your Random Bits | Awesome Learning to Hash</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="A Hash Table Without Hash Functions, And How To Get The Most Out Of Your Random Bits" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This paper considers the basic question of how strong of a probabilistic guarantee can a hash table, storing \(n\) \((1 + \Theta(1)) log n\)-bit key/value pairs, offer? Past work on this question has been bottlenecked by limitations of the known families of hash functions: The only hash tables to achieve failure probabilities less than \(1 / 2^{\polylog n}\) require access to fully-random hash functions – if the same hash tables are implemented using the known explicit families of hash functions, their failure probabilities become \(1 / \poly(n)\). To get around these obstacles, we show how to construct a randomized data structure that has the same guarantees as a hash table, but that avoids the direct use of hash functions. Building on this, we are able to construct a hash table using \(O(n)\) random bits that achieves failure probability \(1 / n^{n^{1 - \epsilon}}\) for an arbitrary positive constant \(\epsilon\). In fact, we show that this guarantee can even be achieved by a succinct dictionary, that is, by a dictionary that uses space within a \(1 + o(1)\) factor of the information-theoretic optimum. Finally we also construct a succinct hash table whose probabilistic guarantees fall on a different extreme, offering a failure probability of \(1 / \poly(n)\) while using only \(\tilde{O}(log n)\) random bits. This latter result matches (up to low-order terms) a guarantee previously achieved by Dietzfelbinger et al., but with increased space efficiency and with several surprising technical components." />
+<meta property="og:description" content="This paper considers the basic question of how strong of a probabilistic guarantee can a hash table, storing \(n\) \((1 + \Theta(1)) log n\)-bit key/value pairs, offer? Past work on this question has been bottlenecked by limitations of the known families of hash functions: The only hash tables to achieve failure probabilities less than \(1 / 2^{\polylog n}\) require access to fully-random hash functions – if the same hash tables are implemented using the known explicit families of hash functions, their failure probabilities become \(1 / \poly(n)\). To get around these obstacles, we show how to construct a randomized data structure that has the same guarantees as a hash table, but that avoids the direct use of hash functions. Building on this, we are able to construct a hash table using \(O(n)\) random bits that achieves failure probability \(1 / n^{n^{1 - \epsilon}}\) for an arbitrary positive constant \(\epsilon\). In fact, we show that this guarantee can even be achieved by a succinct dictionary, that is, by a dictionary that uses space within a \(1 + o(1)\) factor of the information-theoretic optimum. Finally we also construct a succinct hash table whose probabilistic guarantees fall on a different extreme, offering a failure probability of \(1 / \poly(n)\) while using only \(\tilde{O}(log n)\) random bits. This latter result matches (up to low-order terms) a guarantee previously achieved by Dietzfelbinger et al., but with increased space efficiency and with several surprising technical components." />
+<link rel="canonical" href="https://learning2hash.github.io/publications/kuszmaul2022hash/" />
+<meta property="og:url" content="https://learning2hash.github.io/publications/kuszmaul2022hash/" />
+<meta property="og:site_name" content="Awesome Learning to Hash" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2025-07-18T05:15:23-05:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="A Hash Table Without Hash Functions, And How To Get The Most Out Of Your Random Bits" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-18T05:15:23-05:00","datePublished":"2025-07-18T05:15:23-05:00","description":"This paper considers the basic question of how strong of a probabilistic guarantee can a hash table, storing \\(n\\) \\((1 + \\Theta(1)) log n\\)-bit key/value pairs, offer? Past work on this question has been bottlenecked by limitations of the known families of hash functions: The only hash tables to achieve failure probabilities less than \\(1 / 2^{\\polylog n}\\) require access to fully-random hash functions – if the same hash tables are implemented using the known explicit families of hash functions, their failure probabilities become \\(1 / \\poly(n)\\). To get around these obstacles, we show how to construct a randomized data structure that has the same guarantees as a hash table, but that avoids the direct use of hash functions. Building on this, we are able to construct a hash table using \\(O(n)\\) random bits that achieves failure probability \\(1 / n^{n^{1 - \\epsilon}}\\) for an arbitrary positive constant \\(\\epsilon\\). In fact, we show that this guarantee can even be achieved by a succinct dictionary, that is, by a dictionary that uses space within a \\(1 + o(1)\\) factor of the information-theoretic optimum. Finally we also construct a succinct hash table whose probabilistic guarantees fall on a different extreme, offering a failure probability of \\(1 / \\poly(n)\\) while using only \\(\\tilde{O}(log n)\\) random bits. This latter result matches (up to low-order terms) a guarantee previously achieved by Dietzfelbinger et al., but with increased space efficiency and with several surprising technical components.","headline":"A Hash Table Without Hash Functions, And How To Get The Most Out Of Your Random Bits","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kuszmaul2022hash/"},"url":"https://learning2hash.github.io/publications/kuszmaul2022hash/"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/public/css/poole.css">
+  <link rel="stylesheet" href="/public/css/syntax.css">
+  <link rel="stylesheet" href="/public/css/hyde.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  <!-- Icons -->
+  <link rel="shortcut icon" href="/public/favicon.svg">
+  <link rel="search" href="/public/opensearchdescription.xml" 
+      type="application/opensearchdescription+xml" 
+      title="learning2hash" />
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+</head>
+
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <body class="theme-base-0c layout-reverse">
+
+    <a href='/contributing.html' class='ribbon'>Add your paper to Learning2Hash</a>
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <h1>
+        <a href="/">
+          Awesome Learning to Hash
+        </a>
+      </h1>
+      <p class="lead">A Webpage dedicated to the latest research on Hash Function Learning. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="sidebar-item">
+        <p style="font-size: 12px">
+          Search related work 
+          <input type='text' id='searchTarget' size="16"/> 
+          <button onClick="search();">Go</button>
+        </p>
+      </div>
+      <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
+      <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
+      <a class="sidebar-nav-item" href="/topic-viz.html">Topic-based Explorer</a>
+      <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item" href="/resources.html">Resources, Courses &#38; Events</a>
+      <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
+    </nav>
+
+    <div class="sidebar-item">
+      <p style="font-size: 12px">
+        Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
+        <span style="font-size: 9px">
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
+        </span>
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+$("#searchTarget").keydown(function (e) {	
+  if (e.keyCode == 13) {
+    search();
+  }
+});
+
+function search() {
+  try {
+    ga('send', 'event', 'search', 'search', $("#searchTarget").val());
+  } finally {
+    window.location = "/papers.html#" + $("#searchTarget").val();
+  }
+}
+</script>
+
+
+    <div class="content container">
+      <div class="page">
+  <h1 class="page-title">A Hash Table Without Hash Functions, And How To Get The Most Out Of Your Random Bits</h1>
+  <h5>
+  Kuszmaul William. 2022 IEEE 63rd Annual Symposium on Foundations of Computer Science (FOCS) 2022
+  
+    – <span>5 citations</span>
+  
+  </h5>
+  <p>
+    
+      [<a href="https://arxiv.org/abs/2209.06038" target="_blank">Paper</a>]
+    
+    &nbsp;<a href='http://scholar.google.com/scholar?q=A Hash Table Without Hash Functions, And How To Get The Most Out Of Your Random Bits' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=A Hash Table Without Hash Functions, And How To Get The Most Out Of Your Random Bits' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    <br/>
+    
+      <tag><a href="/tags.html#TACL">TACL</a></tag>
+    
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
+    
+      <tag><a href="/tags.html#Efficiency And Optimization">Efficiency And Optimization</a></tag>
+    
+  </p>
+  <p><p>This paper considers the basic question of how strong of a probabilistic
+guarantee can a hash table, storing \(n\) \((1 + \Theta(1)) log n\)-bit key/value
+pairs, offer? Past work on this question has been bottlenecked by limitations
+of the known families of hash functions: The only hash tables to achieve
+failure probabilities less than \(1 / 2^{\polylog n}\) require access to
+fully-random hash functions – if the same hash tables are implemented using
+the known explicit families of hash functions, their failure probabilities
+become \(1 / \poly(n)\).
+  To get around these obstacles, we show how to construct a randomized data
+structure that has the same guarantees as a hash table, but that <em>avoids
+the direct use of hash functions</em>. Building on this, we are able to construct a
+hash table using \(O(n)\) random bits that achieves failure probability \(1 /
+n^{n^{1 - \epsilon}}\) for an arbitrary positive constant \(\epsilon\).
+  In fact, we show that this guarantee can even be achieved by a <em>succinct
+dictionary</em>, that is, by a dictionary that uses space within a \(1 + o(1)\)
+factor of the information-theoretic optimum.
+  Finally we also construct a succinct hash table whose probabilistic
+guarantees fall on a different extreme, offering a failure probability of \(1 /
+\poly(n)\) while using only \(\tilde{O}(log n)\) random bits. This latter result
+matches (up to low-order terms) a guarantee previously achieved by
+Dietzfelbinger et al., but with increased space efficiency and with several
+surprising technical components.</p>
+</p>
+
+  <h6>Similar Work</h6>
+  <p>
+    <ul id="relwork">
+
+    </ul>
+  </p>
+
+ <script>  
+    $(document).ready(
+      function() {
+        $.getJSON("/publications-metadata/kuszmaul2022hash.json", function(data) {
+          num_papers = data.length;
+          html = "";
+          for (let i=0; i < num_papers; i++) {
+              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
+          }
+          $("#relwork").append(html);
+        });
+      });
+  </script>
+
+
+</div>
+
+    </div>
+
+  </body>
+</html>
