@@ -1,0 +1,28 @@
+---
+layout: publication
+title: On Approximate Nearest Neighbour Selection For Multi-stage Dense Retrieval
+authors: Macdonald Craig, Tonellotto Nicola
+conference: Proceedings of the 30th ACM International Conference on Information &amp;
+  Knowledge Management
+year: 2021
+bibkey: macdonald2021approximate
+citations: 14
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.11480'}]
+tags: [Efficiency And Optimization, Vector Indexing, CIKM, Similarity Search]
+---
+Dense retrieval, which describes the use of contextualised language models
+such as BERT to identify documents from a collection by leveraging approximate
+nearest neighbour (ANN) techniques, has been increasing in popularity. Two
+families of approaches have emerged, depending on whether documents and queries
+are represented by single or multiple embeddings. ColBERT, the exemplar of the
+latter, uses an ANN index and approximate scores to identify a set of candidate
+documents for each query embedding, which are then re-ranked using accurate
+document representations. In this manner, a large number of documents can be
+retrieved for each query, hindering the efficiency of the approach. In this
+work, we investigate the use of ANN scores for ranking the candidate documents,
+in order to decrease the number of candidate documents being fully scored.
+Experiments conducted on the MSMARCO passage ranking corpus demonstrate that,
+by cutting of the candidate set by using the approximate scores to only 200
+documents, we can still obtain an effective ranking without statistically
+significant differences in effectiveness, and resulting in a 2x speedup in
+efficiency.
