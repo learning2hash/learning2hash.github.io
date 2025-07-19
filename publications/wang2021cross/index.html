@@ -52,21 +52,21 @@ alt="Web-Stat web statistics"></a></noscript>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Cross-batch Negative Sampling For Training Two-tower Recommenders | Awesome Learning to Hash</title>
+<title>Cross-modal Zero-shot Hashing by Label Attributes Embedding | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Cross-batch Negative Sampling For Training Two-tower Recommenders" />
+<meta property="og:title" content="Cross-modal Zero-shot Hashing by Label Attributes Embedding" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="The two-tower architecture has been widely applied for learning item and user representations, which is important for large-scale recommender systems. Many two-tower models are trained using various in-batch negative sampling strategies, where the effects of such strategies inherently rely on the size of mini-batches. However, training two-tower models with a large batch size is inefficient, as it demands a large volume of memory for item and user contents and consumes a lot of time for feature encoding. Interestingly, we find that neural encoders can output relatively stable features for the same input after warming up in the training process. Based on such facts, we propose a simple yet effective sampling strategy called Cross-Batch Negative Sampling (CBNS), which takes advantage of the encoded item embeddings from recent mini-batches to boost the model training. Both theoretical analysis and empirical evaluations demonstrate the effectiveness and the efficiency of CBNS." />
-<meta property="og:description" content="The two-tower architecture has been widely applied for learning item and user representations, which is important for large-scale recommender systems. Many two-tower models are trained using various in-batch negative sampling strategies, where the effects of such strategies inherently rely on the size of mini-batches. However, training two-tower models with a large batch size is inefficient, as it demands a large volume of memory for item and user contents and consumes a lot of time for feature encoding. Interestingly, we find that neural encoders can output relatively stable features for the same input after warming up in the training process. Based on such facts, we propose a simple yet effective sampling strategy called Cross-Batch Negative Sampling (CBNS), which takes advantage of the encoded item embeddings from recent mini-batches to boost the model training. Both theoretical analysis and empirical evaluations demonstrate the effectiveness and the efficiency of CBNS." />
+<meta name="description" content="Cross-modal hashing (CMH) is one of the most promising methods in cross-modal approximate nearest neighbor search. Most CMH solutions ideally assume the labels of training and testing set are identical. However, the assumption is often violated, causing a zero-shot CMH problem. Recent efforts to address this issue focus on transferring knowledge from the seen classes to the unseen ones using label attributes. However, the attributes are isolated from the features of multi-modal data. To reduce the information gap, we introduce an approach called LAEH (Label Attributes Embedding for zero-shot cross-modal Hashing). LAEH first gets the initial semantic attribute vectors of labels by word2vec model and then uses a transformation network to transform them into a common subspace. Next, it leverages the hash vectors and the feature similarity matrix to guide the feature extraction network of different modalities. At the same time, LAEH uses the attribute similarity as the supplement of label similarity to rectify the label embedding and common subspace. Experiments show that LAEH outperforms related representative zero-shot and cross-modal hashing methods." />
+<meta property="og:description" content="Cross-modal hashing (CMH) is one of the most promising methods in cross-modal approximate nearest neighbor search. Most CMH solutions ideally assume the labels of training and testing set are identical. However, the assumption is often violated, causing a zero-shot CMH problem. Recent efforts to address this issue focus on transferring knowledge from the seen classes to the unseen ones using label attributes. However, the attributes are isolated from the features of multi-modal data. To reduce the information gap, we introduce an approach called LAEH (Label Attributes Embedding for zero-shot cross-modal Hashing). LAEH first gets the initial semantic attribute vectors of labels by word2vec model and then uses a transformation network to transform them into a common subspace. Next, it leverages the hash vectors and the feature similarity matrix to guide the feature extraction network of different modalities. At the same time, LAEH uses the attribute similarity as the supplement of label similarity to rectify the label embedding and common subspace. Experiments show that LAEH outperforms related representative zero-shot and cross-modal hashing methods." />
 <link rel="canonical" href="https://learning2hash.github.io/publications/wang2021cross/" />
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2021cross/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-07-19T04:35:27-05:00" />
+<meta property="article:published_time" content="2025-07-19T12:09:04-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Cross-batch Negative Sampling For Training Two-tower Recommenders" />
+<meta property="twitter:title" content="Cross-modal Zero-shot Hashing by Label Attributes Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-19T04:35:27-05:00","datePublished":"2025-07-19T04:35:27-05:00","description":"The two-tower architecture has been widely applied for learning item and user representations, which is important for large-scale recommender systems. Many two-tower models are trained using various in-batch negative sampling strategies, where the effects of such strategies inherently rely on the size of mini-batches. However, training two-tower models with a large batch size is inefficient, as it demands a large volume of memory for item and user contents and consumes a lot of time for feature encoding. Interestingly, we find that neural encoders can output relatively stable features for the same input after warming up in the training process. Based on such facts, we propose a simple yet effective sampling strategy called Cross-Batch Negative Sampling (CBNS), which takes advantage of the encoded item embeddings from recent mini-batches to boost the model training. Both theoretical analysis and empirical evaluations demonstrate the effectiveness and the efficiency of CBNS.","headline":"Cross-batch Negative Sampling For Training Two-tower Recommenders","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2021cross/"},"url":"https://learning2hash.github.io/publications/wang2021cross/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-19T12:09:04-05:00","datePublished":"2025-07-19T12:09:04-05:00","description":"Cross-modal hashing (CMH) is one of the most promising methods in cross-modal approximate nearest neighbor search. Most CMH solutions ideally assume the labels of training and testing set are identical. However, the assumption is often violated, causing a zero-shot CMH problem. Recent efforts to address this issue focus on transferring knowledge from the seen classes to the unseen ones using label attributes. However, the attributes are isolated from the features of multi-modal data. To reduce the information gap, we introduce an approach called LAEH (Label Attributes Embedding for zero-shot cross-modal Hashing). LAEH first gets the initial semantic attribute vectors of labels by word2vec model and then uses a transformation network to transform them into a common subspace. Next, it leverages the hash vectors and the feature similarity matrix to guide the feature extraction network of different modalities. At the same time, LAEH uses the attribute similarity as the supplement of label similarity to rectify the label embedding and common subspace. Experiments show that LAEH outperforms related representative zero-shot and cross-modal hashing methods.","headline":"Cross-modal Zero-shot Hashing by Label Attributes Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2021cross/"},"url":"https://learning2hash.github.io/publications/wang2021cross/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -154,41 +154,43 @@ function search() {
 
     <div class="content container">
       <div class="page">
-  <h1 class="page-title">Cross-batch Negative Sampling For Training Two-tower Recommenders</h1>
+  <h1 class="page-title">Cross-modal Zero-shot Hashing by Label Attributes Embedding</h1>
   <h5>
-  Wang Jinpeng, Zhu Jieming, He Xiuqiang. Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval 2021
+  Wang et al.. Proceedings of the 44th International ACM SIGIR Conference on Research and Development in Information Retrieval 2021
   
     – <span>28 citations</span>
   
   </h5>
   <p>
     
-      [<a href="https://arxiv.org/abs/2110.15154" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2111.04080" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Cross-batch Negative Sampling For Training Two-tower Recommenders' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Cross-batch Negative Sampling For Training Two-tower Recommenders' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Cross-modal Zero-shot Hashing by Label Attributes Embedding' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Cross-modal Zero-shot Hashing by Label Attributes Embedding' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
       <tag><a href="/tags.html#SIGIR">SIGIR</a></tag>
     
-      <tag><a href="/tags.html#Text Retrieval">Text Retrieval</a></tag>
+      <tag><a href="/tags.html#Few Shot & Zero Shot">Few Shot & Zero Shot</a></tag>
     
-      <tag><a href="/tags.html#Recommender Systems">Recommender Systems</a></tag>
+      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
     
   </p>
-  <p><p>The two-tower architecture has been widely applied for learning item and user
-representations, which is important for large-scale recommender systems. Many
-two-tower models are trained using various in-batch negative sampling
-strategies, where the effects of such strategies inherently rely on the size of
-mini-batches. However, training two-tower models with a large batch size is
-inefficient, as it demands a large volume of memory for item and user contents
-and consumes a lot of time for feature encoding. Interestingly, we find that
-neural encoders can output relatively stable features for the same input after
-warming up in the training process. Based on such facts, we propose a simple
-yet effective sampling strategy called Cross-Batch Negative Sampling (CBNS),
-which takes advantage of the encoded item embeddings from recent mini-batches
-to boost the model training. Both theoretical analysis and empirical
-evaluations demonstrate the effectiveness and the efficiency of CBNS.</p>
+  <p><p>Cross-modal hashing (CMH) is one of the most promising methods in cross-modal
+approximate nearest neighbor search. Most CMH solutions ideally assume the
+labels of training and testing set are identical. However, the assumption is
+often violated, causing a zero-shot CMH problem. Recent efforts to address this
+issue focus on transferring knowledge from the seen classes to the unseen ones
+using label attributes. However, the attributes are isolated from the features
+of multi-modal data. To reduce the information gap, we introduce an approach
+called LAEH (Label Attributes Embedding for zero-shot cross-modal Hashing).
+LAEH first gets the initial semantic attribute vectors of labels by word2vec
+model and then uses a transformation network to transform them into a common
+subspace. Next, it leverages the hash vectors and the feature similarity matrix
+to guide the feature extraction network of different modalities. At the same
+time, LAEH uses the attribute similarity as the supplement of label similarity
+to rectify the label embedding and common subspace. Experiments show that LAEH
+outperforms related representative zero-shot and cross-modal hashing methods.</p>
 </p>
 
   <h6>Similar Work</h6>
