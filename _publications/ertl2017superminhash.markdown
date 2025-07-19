@@ -1,0 +1,16 @@
+---
+layout: publication
+title: Superminhash - A New Minwise Hashing Algorithm For Jaccard Similarity Estimation
+authors: Ertl Otmar
+conference: Arxiv
+year: 2017
+bibkey: ertl2017superminhash
+citations: 13
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.05698'}]
+tags: [Locality Sensitive Hashing, Hashing Methods]
+---
+This paper presents a new algorithm for calculating hash signatures of sets
+which can be directly used for Jaccard similarity estimation. The new approach
+is an improvement over the MinHash algorithm, because it has a better runtime
+behavior and the resulting signatures allow a more precise estimation of the
+Jaccard index.

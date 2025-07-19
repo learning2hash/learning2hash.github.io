@@ -1,0 +1,31 @@
+---
+layout: publication
+title: SSH (sketch, Shingle, & Hash) For Indexing Massive-scale Time Series
+authors: Luo Chen, Shrivastava Anshumali
+conference: Data Mining and Knowledge Discovery
+year: 2016
+bibkey: luo2016ssh
+citations: 18
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.07328'}]
+---
+Similarity search on time series is a frequent operation in large-scale
+data-driven applications. Sophisticated similarity measures are standard for
+time series matching, as they are usually misaligned. Dynamic Time Warping or
+DTW is the most widely used similarity measure for time series because it
+combines alignment and matching at the same time. However, the alignment makes
+DTW slow. To speed up the expensive similarity search with DTW, branch and
+bound based pruning strategies are adopted. However, branch and bound based
+pruning are only useful for very short queries (low dimensional time series),
+and the bounds are quite weak for longer queries. Due to the loose bounds
+branch and bound pruning strategy boils down to a brute-force search.
+  To circumvent this issue, we design SSH (Sketch, Shingle, & Hashing), an
+efficient and approximate hashing scheme which is much faster than the
+state-of-the-art branch and bound searching technique: the UCR suite. SSH uses
+a novel combination of sketching, shingling and hashing techniques to produce
+(probabilistic) indexes which align (near perfectly) with DTW similarity
+measure. The generated indexes are then used to create hash buckets for
+sub-linear search. Our results show that SSH is very effective for longer time
+sequence and prunes around 95% candidates, leading to the massive speedup in
+search with DTW. Empirical results on two large-scale benchmark time series
+data show that our proposed method can be around 20 times faster than the
+state-of-the-art package (UCR suite) without any significant loss in accuracy.

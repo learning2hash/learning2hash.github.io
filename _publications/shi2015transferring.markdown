@@ -1,0 +1,26 @@
+---
+layout: publication
+title: Transferring A Semantic Representation For Person Re-identification And Search
+authors: Shi Zhiyuan, Hospedales Timothy M., Xiang Tao
+conference: 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2015
+bibkey: shi2015transferring
+citations: 192
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.03725'}]
+tags: [Similarity Search, CVPR]
+---
+Learning semantic attributes for person re-identification and
+description-based person search has gained increasing interest due to
+attributes' great potential as a pose and view-invariant representation.
+However, existing attribute-centric approaches have thus far underperformed
+state-of-the-art conventional approaches. This is due to their non-scalable
+need for extensive domain (camera) specific annotation. In this paper we
+present a new semantic attribute learning approach for person re-identification
+and search. Our model is trained on existing fashion photography datasets --
+either weakly or strongly labelled. It can then be transferred and adapted to
+provide a powerful semantic description of surveillance person detections,
+without requiring any surveillance domain supervision. The resulting
+representation is useful for both unsupervised and supervised person
+re-identification, achieving state-of-the-art and near state-of-the-art
+performance respectively. Furthermore, as a semantic representation it allows
+description-based person search to be integrated within the same framework.

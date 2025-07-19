@@ -1,0 +1,25 @@
+---
+layout: publication
+title: Deep Metric Learning Beyond Binary Supervision
+authors: Kim et al.
+conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2019
+bibkey: kim2019deep
+citations: 87
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.09626'}]
+tags: [Distance Metric Learning, CVPR]
+---
+Metric Learning for visual similarity has mostly adopted binary supervision
+indicating whether a pair of images are of the same class or not. Such a binary
+indicator covers only a limited subset of image relations, and is not
+sufficient to represent semantic similarity between images described by
+continuous and/or structured labels such as object poses, image captions, and
+scene graphs. Motivated by this, we present a novel method for deep metric
+learning using continuous labels. First, we propose a new triplet loss that
+allows distance ratios in the label space to be preserved in the learned metric
+space. The proposed loss thus enables our model to learn the degree of
+similarity rather than just the order. Furthermore, we design a triplet mining
+strategy adapted to metric learning with continuous labels. We address three
+different image retrieval tasks with continuous labels in terms of human poses,
+room layouts and image captions, and demonstrate the superior performance of
+our approach compared to previous methods.
