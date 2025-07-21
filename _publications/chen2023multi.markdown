@@ -1,0 +1,29 @@
+---
+layout: publication
+title: Multi-Level Visual Similarity Based Personalized Tourist Attraction Recommendation
+  Using Geo-Tagged Photos
+authors: Chen et al.
+conference: ACM Transactions on Knowledge Discovery from Data
+year: 2023
+bibkey: chen2023multi
+citations: 6
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.08275'}]
+tags: ["Recommender-Systems"]
+---
+Geo-tagged photo based tourist attraction recommendation can discover users'
+travel preferences from their taken photos, so as to recommend suitable tourist
+attractions to them. However, existing visual content based methods cannot
+fully exploit the user and tourist attraction information of photos to extract
+visual features, and do not differentiate the significances of different
+photos. In this paper, we propose multi-level visual similarity based
+personalized tourist attraction recommendation using geo-tagged photos (MEAL).
+MEAL utilizes the visual contents of photos and interaction behavior data to
+obtain the final embeddings of users and tourist attractions, which are then
+used to predict the visit probabilities. Specifically, by crossing the user and
+tourist attraction information of photos, we define four visual similarity
+levels and introduce a corresponding quintuplet loss to embed the visual
+contents of photos. In addition, to capture the significances of different
+photos, we exploit the self-attention mechanism to obtain the visual
+representations of users and tourist attractions. We conducted experiments on a
+dataset crawled from Flickr, and the experimental results proved the advantage
+of this method.

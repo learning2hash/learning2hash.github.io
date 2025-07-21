@@ -1,0 +1,36 @@
+---
+layout: publication
+title: Binary Representation via Jointly Personalized Sparse Hashing
+authors: Wang et al.
+conference: ACM Transactions on Multimedia Computing, Communications, and Applications
+year: 2022
+bibkey: wang2022binary
+citations: 18
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.14883'}]
+tags: ["Hashing-Methods"]
+---
+Unsupervised hashing has attracted much attention for binary representation
+learning due to the requirement of economical storage and efficiency of binary
+codes. It aims to encode high-dimensional features in the Hamming space with
+similarity preservation between instances. However, most existing methods learn
+hash functions in manifold-based approaches. Those methods capture the local
+geometric structures (i.e., pairwise relationships) of data, and lack
+satisfactory performance in dealing with real-world scenarios that produce
+similar features (e.g. color and shape) with different semantic information. To
+address this challenge, in this work, we propose an effective unsupervised
+method, namely Jointly Personalized Sparse Hashing (JPSH), for binary
+representation learning. To be specific, firstly, we propose a novel
+personalized hashing module, i.e., Personalized Sparse Hashing (PSH). Different
+personalized subspaces are constructed to reflect category-specific attributes
+for different clusters, adaptively mapping instances within the same cluster to
+the same Hamming space. In addition, we deploy sparse constraints for different
+personalized subspaces to select important features. We also collect the
+strengths of the other clusters to build the PSH module with avoiding
+over-fitting. Then, to simultaneously preserve semantic and pairwise
+similarities in our JPSH, we incorporate the PSH and manifold-based hash
+learning into the seamless formulation. As such, JPSH not only distinguishes
+the instances from different clusters, but also preserves local neighborhood
+structures within the cluster. Finally, an alternating optimization algorithm
+is adopted to iteratively capture analytical solutions of the JPSH model.
+Extensive experiments on four benchmark datasets verify that the JPSH
+outperforms several hashing algorithms on the similarity search task.
