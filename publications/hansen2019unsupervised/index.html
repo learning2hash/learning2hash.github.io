@@ -52,21 +52,21 @@ alt="Web-Stat web statistics"></a></noscript>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Unsupervised Neural Generative Semantic Hashing | Awesome Learning to Hash</title>
+<title>Unsupervised Semantic Hashing with Pairwise Reconstruction | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Unsupervised Neural Generative Semantic Hashing" />
+<meta property="og:title" content="Unsupervised Semantic Hashing with Pairwise Reconstruction" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Fast similarity search is a key component in large-scale information retrieval, where semantic hashing has become a popular strategy for representing documents as binary hash codes. Recent advances in this area have been obtained through neural network based models: generative models trained by learning to reconstruct the original documents. We present a novel unsupervised generative semantic hashing approach, \textit{Ranking based Semantic Hashing} (RBSH) that consists of both a variational and a ranking based component. Similarly to variational autoencoders, the variational component is trained to reconstruct the original document conditioned on its generated hash code, and as in prior work, it only considers documents individually. The ranking component solves this limitation by incorporating inter-document similarity into the hash code generation, modelling document ranking through a hinge loss. To circumvent the need for labelled data to compute the hinge loss, we use a weak labeller and thus keep the approach fully unsupervised. Extensive experimental evaluation on four publicly available datasets against traditional baselines and recent state-of-the-art methods for semantic hashing shows that RBSH significantly outperforms all other methods across all evaluated hash code lengths. In fact, RBSH hash codes are able to perform similarly to state-of-the-art hash codes while using 2-4x fewer bits." />
-<meta property="og:description" content="Fast similarity search is a key component in large-scale information retrieval, where semantic hashing has become a popular strategy for representing documents as binary hash codes. Recent advances in this area have been obtained through neural network based models: generative models trained by learning to reconstruct the original documents. We present a novel unsupervised generative semantic hashing approach, \textit{Ranking based Semantic Hashing} (RBSH) that consists of both a variational and a ranking based component. Similarly to variational autoencoders, the variational component is trained to reconstruct the original document conditioned on its generated hash code, and as in prior work, it only considers documents individually. The ranking component solves this limitation by incorporating inter-document similarity into the hash code generation, modelling document ranking through a hinge loss. To circumvent the need for labelled data to compute the hinge loss, we use a weak labeller and thus keep the approach fully unsupervised. Extensive experimental evaluation on four publicly available datasets against traditional baselines and recent state-of-the-art methods for semantic hashing shows that RBSH significantly outperforms all other methods across all evaluated hash code lengths. In fact, RBSH hash codes are able to perform similarly to state-of-the-art hash codes while using 2-4x fewer bits." />
+<meta name="description" content="Semantic Hashing is a popular family of methods for efficient similarity search in large-scale datasets. In Semantic Hashing, documents are encoded as short binary vectors (i.e., hash codes), such that semantic similarity can be efficiently computed using the Hamming distance. Recent state-of-the-art approaches have utilized weak supervision to train better performing hashing models. Inspired by this, we present Semantic Hashing with Pairwise Reconstruction (PairRec), which is a discrete variational autoencoder based hashing model. PairRec first encodes weakly supervised training pairs (a query document and a semantically similar document) into two hash codes, and then learns to reconstruct the same query document from both of these hash codes (i.e., pairwise reconstruction). This pairwise reconstruction enables our model to encode local neighbourhood structures within the hash code directly through the decoder. We experimentally compare PairRec to traditional and state-of-the-art approaches, and obtain significant performance improvements in the task of document similarity search." />
+<meta property="og:description" content="Semantic Hashing is a popular family of methods for efficient similarity search in large-scale datasets. In Semantic Hashing, documents are encoded as short binary vectors (i.e., hash codes), such that semantic similarity can be efficiently computed using the Hamming distance. Recent state-of-the-art approaches have utilized weak supervision to train better performing hashing models. Inspired by this, we present Semantic Hashing with Pairwise Reconstruction (PairRec), which is a discrete variational autoencoder based hashing model. PairRec first encodes weakly supervised training pairs (a query document and a semantically similar document) into two hash codes, and then learns to reconstruct the same query document from both of these hash codes (i.e., pairwise reconstruction). This pairwise reconstruction enables our model to encode local neighbourhood structures within the hash code directly through the decoder. We experimentally compare PairRec to traditional and state-of-the-art approaches, and obtain significant performance improvements in the task of document similarity search." />
 <link rel="canonical" href="https://learning2hash.github.io/publications/hansen2019unsupervised/" />
 <meta property="og:url" content="https://learning2hash.github.io/publications/hansen2019unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-07-21T09:41:06-05:00" />
+<meta property="article:published_time" content="2025-07-21T11:22:52-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Unsupervised Neural Generative Semantic Hashing" />
+<meta property="twitter:title" content="Unsupervised Semantic Hashing with Pairwise Reconstruction" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-21T09:41:06-05:00","datePublished":"2025-07-21T09:41:06-05:00","description":"Fast similarity search is a key component in large-scale information retrieval, where semantic hashing has become a popular strategy for representing documents as binary hash codes. Recent advances in this area have been obtained through neural network based models: generative models trained by learning to reconstruct the original documents. We present a novel unsupervised generative semantic hashing approach, \\textit{Ranking based Semantic Hashing} (RBSH) that consists of both a variational and a ranking based component. Similarly to variational autoencoders, the variational component is trained to reconstruct the original document conditioned on its generated hash code, and as in prior work, it only considers documents individually. The ranking component solves this limitation by incorporating inter-document similarity into the hash code generation, modelling document ranking through a hinge loss. To circumvent the need for labelled data to compute the hinge loss, we use a weak labeller and thus keep the approach fully unsupervised. Extensive experimental evaluation on four publicly available datasets against traditional baselines and recent state-of-the-art methods for semantic hashing shows that RBSH significantly outperforms all other methods across all evaluated hash code lengths. In fact, RBSH hash codes are able to perform similarly to state-of-the-art hash codes while using 2-4x fewer bits.","headline":"Unsupervised Neural Generative Semantic Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hansen2019unsupervised/"},"url":"https://learning2hash.github.io/publications/hansen2019unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-21T11:22:52-05:00","datePublished":"2025-07-21T11:22:52-05:00","description":"Semantic Hashing is a popular family of methods for efficient similarity search in large-scale datasets. In Semantic Hashing, documents are encoded as short binary vectors (i.e., hash codes), such that semantic similarity can be efficiently computed using the Hamming distance. Recent state-of-the-art approaches have utilized weak supervision to train better performing hashing models. Inspired by this, we present Semantic Hashing with Pairwise Reconstruction (PairRec), which is a discrete variational autoencoder based hashing model. PairRec first encodes weakly supervised training pairs (a query document and a semantically similar document) into two hash codes, and then learns to reconstruct the same query document from both of these hash codes (i.e., pairwise reconstruction). This pairwise reconstruction enables our model to encode local neighbourhood structures within the hash code directly through the decoder. We experimentally compare PairRec to traditional and state-of-the-art approaches, and obtain significant performance improvements in the task of document similarity search.","headline":"Unsupervised Semantic Hashing with Pairwise Reconstruction","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hansen2019unsupervised/"},"url":"https://learning2hash.github.io/publications/hansen2019unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -154,7 +154,7 @@ function search() {
 
     <div class="content container">
       <div class="page">
-  <h1 class="page-title">Unsupervised Neural Generative Semantic Hashing</h1>
+  <h1 class="page-title">Unsupervised Semantic Hashing with Pairwise Reconstruction</h1>
   <h5>
   Hansen et al.. Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval 2019
   
@@ -163,25 +163,24 @@ function search() {
   </h5>
   <p>
     
-      [<a href="https://arxiv.org/abs/1906.00671/" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2007.00380" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Unsupervised Neural Generative Semantic Hashing' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Unsupervised Neural Generative Semantic Hashing' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Unsupervised Semantic Hashing with Pairwise Reconstruction' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Unsupervised Semantic Hashing with Pairwise Reconstruction' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
-    
-      <tag><a href="/tags.html#SIGIR">SIGIR</a></tag>
-    
-      <tag><a href="/tags.html#Unsupervised">Unsupervised</a></tag>
-    
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
-    
-      <tag><a href="/tags.html#Hashing-Methods">Hashing-Methods</a></tag>
     
       <tag><a href="/tags.html#Text-Retrieval">Text-Retrieval</a></tag>
     
+      <tag><a href="/tags.html#Unsupervised">Unsupervised</a></tag>
+    
+      <tag><a href="/tags.html#Hashing-Methods">Hashing-Methods</a></tag>
+    
+      <tag><a href="/tags.html#SIGIR">SIGIR</a></tag>
+    
+      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+    
   </p>
-  <p><p>Fast similarity search is a key component in large-scale information retrieval, where semantic hashing has become a popular strategy for representing documents as binary hash codes. Recent advances in this area have been obtained through neural network based models: generative models trained by learning to reconstruct the original documents. We present a novel unsupervised generative semantic hashing approach, \textit{Ranking based Semantic Hashing} (RBSH) that consists of both a variational and a ranking based component. Similarly to variational autoencoders, the variational component is trained to reconstruct the original document conditioned on its generated hash code, and as in prior work, it only considers documents individually. The ranking component solves this limitation by incorporating inter-document similarity into the hash code generation, modelling document ranking through a hinge loss. To circumvent the need for labelled data to compute the hinge loss, we use a weak labeller and thus keep the approach fully unsupervised.
-Extensive experimental evaluation on four publicly available datasets against traditional baselines and recent state-of-the-art methods for semantic hashing shows that RBSH significantly outperforms all other methods across all evaluated hash code lengths. In fact, RBSH hash codes are able to perform similarly to state-of-the-art hash codes while using 2-4x fewer bits.</p>
+  <p><p>Semantic Hashing is a popular family of methods for efficient similarity search in large-scale datasets. In Semantic Hashing, documents are encoded as short binary vectors (i.e., hash codes), such that semantic similarity can be efficiently computed using the Hamming distance. Recent state-of-the-art approaches have utilized weak supervision to train better performing hashing models. Inspired by this, we present Semantic Hashing with Pairwise Reconstruction (PairRec), which is a discrete variational autoencoder based hashing model. PairRec first encodes weakly supervised training pairs (a query document and a semantically similar document) into two hash codes, and then learns to reconstruct the same query document from both of these hash codes (i.e., pairwise reconstruction). This pairwise reconstruction enables our model to encode local neighbourhood structures within the hash code directly through the decoder. We experimentally compare PairRec to traditional and state-of-the-art approaches, and obtain significant performance improvements in the task of document similarity search.</p>
 </p>
 
   <h6>Similar Work</h6>
