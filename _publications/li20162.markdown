@@ -1,0 +1,34 @@
+---
+layout: publication
+title: 2-Bit Random Projections, NonLinear Estimators, and Approximate Near Neighbor
+  Search
+authors: Li Ping, Mitzenmacher Michael, Shrivastava Anshumali
+conference: Neurocomputing
+year: 2016
+bibkey: li20162
+citations: 5
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.06577'}]
+tags: ["Locality Sensitive Hashing"]
+---
+The method of random projections has become a standard tool for machine
+learning, data mining, and search with massive data at Web scale. The effective
+use of random projections requires efficient coding schemes for quantizing
+(real-valued) projected data into integers. In this paper, we focus on a simple
+2-bit coding scheme. In particular, we develop accurate nonlinear estimators of
+data similarity based on the 2-bit strategy. This work will have important
+practical applications. For example, in the task of near neighbor search, a
+crucial step (often called re-ranking) is to compute or estimate data
+similarities once a set of candidate data points have been identified by hash
+table techniques. This re-ranking step can take advantage of the proposed
+coding scheme and estimator.
+  As a related task, in this paper, we also study a simple uniform quantization
+scheme for the purpose of building hash tables with projected data. Our
+analysis shows that typically only a small number of bits are needed. For
+example, when the target similarity level is high, 2 or 3 bits might be
+sufficient. When the target similarity level is not so high, it is preferable
+to use only 1 or 2 bits. Therefore, a 2-bit scheme appears to be overall a good
+choice for the task of sublinear time approximate near neighbor search via hash
+tables.
+  Combining these results, we conclude that 2-bit random projections should be
+recommended for approximate near neighbor search and similarity estimation.
+Extensive experimental results are provided.
