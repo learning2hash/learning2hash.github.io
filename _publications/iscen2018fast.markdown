@@ -1,0 +1,24 @@
+---
+layout: publication
+title: Fast Spectral Ranking for Similarity Search
+authors: Iscen et al.
+conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+year: 2018
+bibkey: iscen2018fast
+citations: 37
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.06935'}]
+tags: ["Similarity-Search", "CVPR"]
+---
+Despite the success of deep learning on representing images for particular
+object retrieval, recent studies show that the learned representations still
+lie on manifolds in a high dimensional space. This makes the Euclidean nearest
+neighbor search biased for this task. Exploring the manifolds online remains
+expensive even if a nearest neighbor graph has been computed offline. This work
+introduces an explicit embedding reducing manifold search to Euclidean search
+followed by dot product similarity search. This is equivalent to linear graph
+filtering of a sparse signal in the frequency domain. To speed up online
+search, we compute an approximate Fourier basis of the graph offline. We
+improve the state of art on particular object retrieval datasets including the
+challenging Instre dataset containing small objects. At a scale of 10^5 images,
+the offline cost is only a few hours, while query time is comparable to
+standard similarity search.
