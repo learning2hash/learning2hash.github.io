@@ -1,0 +1,29 @@
+---
+layout: publication
+title: Candidate Generation with Binary Codes for Large-Scale Top-N Recommendation
+authors: Kang Wang-cheng, Mcauley Julian
+conference: Proceedings of the 28th ACM International Conference on Information and
+  Knowledge Management
+year: 2019
+bibkey: kang2019candidate
+citations: 53
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.05475'}]
+tags: ["Scalability", "CIKM", "Compact-Codes", "Recommender-Systems"]
+---
+Generating the Top-N recommendations from a large corpus is computationally
+expensive to perform at scale. Candidate generation and re-ranking based
+approaches are often adopted in industrial settings to alleviate efficiency
+problems. However it remains to be fully studied how well such schemes
+approximate complete rankings (or how many candidates are required to achieve a
+good approximation), or to develop systematic approaches to generate
+high-quality candidates efficiently. In this paper, we seek to investigate
+these questions via proposing a candidate generation and re-ranking based
+framework (CIGAR), which first learns a preference-preserving binary embedding
+for building a hash table to retrieve candidates, and then learns to re-rank
+the candidates using real-valued ranking models with a candidate-oriented
+objective. We perform a comprehensive study on several large-scale real-world
+datasets consisting of millions of users/items and hundreds of millions of
+interactions. Our results show that CIGAR significantly boosts the Top-N
+accuracy against state-of-the-art recommendation models, while reducing the
+query time by orders of magnitude. We hope that this work could draw more
+attention to the candidate generation problem in recommender systems.

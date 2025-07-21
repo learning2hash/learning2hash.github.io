@@ -1,0 +1,38 @@
+---
+layout: publication
+title: Single-shot Embedding Dimension Search in Recommender System
+authors: Qu et al.
+conference: Proceedings of the 45th International ACM SIGIR Conference on Research
+  and Development in Information Retrieval
+year: 2022
+bibkey: qu2022single
+citations: 14
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.03281'}]
+tags: ["SIGIR", "Recommender-Systems"]
+---
+As a crucial component of most modern deep recommender systems, feature
+embedding maps high-dimensional sparse user/item features into low-dimensional
+dense embeddings. However, these embeddings are usually assigned a unified
+dimension, which suffers from the following issues: (1) high memory usage and
+computation cost. (2) sub-optimal performance due to inferior dimension
+assignments. In order to alleviate the above issues, some works focus on
+automated embedding dimension search by formulating it as hyper-parameter
+optimization or embedding pruning problems. However, they either require
+well-designed search space for hyperparameters or need time-consuming
+optimization procedures. In this paper, we propose a Single-Shot Embedding
+Dimension Search method, called SSEDS, which can efficiently assign dimensions
+for each feature field via a single-shot embedding pruning operation while
+maintaining the recommendation accuracy of the model. Specifically, it
+introduces a criterion for identifying the importance of each embedding
+dimension for each feature field. As a result, SSEDS could automatically obtain
+mixed-dimensional embeddings by explicitly reducing redundant embedding
+dimensions based on the corresponding dimension importance ranking and the
+predefined parameter budget. Furthermore, the proposed SSEDS is model-agnostic,
+meaning that it could be integrated into different base recommendation models.
+The extensive offline experiments are conducted on two widely used public
+datasets for CTR prediction tasks, and the results demonstrate that SSEDS can
+still achieve strong recommendation performance even if it has reduced 90%
+parameters. Moreover, SSEDS has also been deployed on the WeChat Subscription
+platform for practical recommendation services. The 7-day online A/B test
+results show that SSEDS can significantly improve the performance of the online
+recommendation model.
