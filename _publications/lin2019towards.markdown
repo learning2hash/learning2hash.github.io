@@ -1,0 +1,32 @@
+---
+layout: publication
+title: Towards Optimal Discrete Online Hashing with Balanced Similarity
+authors: Lin et al.
+conference: Proceedings of the AAAI Conference on Artificial Intelligence
+year: 2019
+bibkey: lin2019towards
+citations: 50
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.10185'}]
+tags: ["AAAI", "Hashing Methods"]
+---
+When facing large-scale image datasets, online hashing serves as a promising
+solution for online retrieval and prediction tasks. It encodes the online
+streaming data into compact binary codes, and simultaneously updates the hash
+functions to renew codes of the existing dataset. To this end, the existing
+methods update hash functions solely based on the new data batch, without
+investigating the correlation between such new data and the existing dataset.
+In addition, existing works update the hash functions using a relaxation
+process in its corresponding approximated continuous space. And it remains as
+an open problem to directly apply discrete optimizations in online hashing. In
+this paper, we propose a novel supervised online hashing method, termed
+Balanced Similarity for Online Discrete Hashing (BSODH), to solve the above
+problems in a unified framework. BSODH employs a well-designed hashing
+algorithm to preserve the similarity between the streaming data and the
+existing dataset via an asymmetric graph regularization. We further identify
+the "data-imbalance" problem brought by the constructed asymmetric graph, which
+restricts the application of discrete optimization in our problem. Therefore, a
+novel balanced similarity is further proposed, which uses two equilibrium
+factors to balance the similar and dissimilar weights and eventually enables
+the usage of discrete optimizations. Extensive experiments conducted on three
+widely-used benchmarks demonstrate the advantages of the proposed method over
+the state-of-the-art methods.
