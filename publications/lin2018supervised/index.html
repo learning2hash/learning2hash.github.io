@@ -52,21 +52,21 @@ alt="Web-Stat web statistics"></a></noscript>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Supervised Online Hashing Via Hadamard Codebook Learning | Awesome Learning to Hash</title>
+<title>Supervised Online Hashing via Similarity Distribution Learning | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Supervised Online Hashing Via Hadamard Codebook Learning" />
+<meta property="og:title" content="Supervised Online Hashing via Similarity Distribution Learning" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="In recent years, binary code learning, a.k.a hashing, has received extensive attention in large-scale multimedia retrieval. It aims to encode high-dimensional data points to binary codes, hence the original high-dimensional metric space can be efficiently approximated via Hamming space. However, most existing hashing methods adopted offline batch learning, which is not suitable to handle incremental datasets with streaming data or new instances. In contrast, the robustness of the existing online hashing remains as an open problem, while the embedding of supervised/semantic information hardly boosts the performance of the online hashing, mainly due to the defect of unknown category numbers in supervised learning. In this paper, we proposed an online hashing scheme, termed Hadamard Codebook based Online Hashing (HCOH), which aims to solve the above problems towards robust and supervised online hashing. In particular, we first assign an appropriate high-dimensional binary codes to each class label, which is generated randomly by Hadamard codes to each class label, which is generated randomly by Hadamard codes. Subsequently, LSH is adopted to reduce the length of such Hadamard codes in accordance with the hash bits, which can adapt the predefined binary codes online, and theoretically guarantee the semantic similarity. Finally, we consider the setting of stochastic data acquisition, which facilitates our method to efficiently learn the corresponding hashing functions via stochastic gradient descend (SGD) online. Notably, the proposed HCOH can be embedded with supervised labels and it not limited to a predefined category number. Extensive experiments on three widely-used benchmarks demonstrate the merits of the proposed scheme over the state-of-the-art methods. The code is available at https://github.com/lmbxmu/mycode/tree/master/2018ACMMM_HCOH." />
-<meta property="og:description" content="In recent years, binary code learning, a.k.a hashing, has received extensive attention in large-scale multimedia retrieval. It aims to encode high-dimensional data points to binary codes, hence the original high-dimensional metric space can be efficiently approximated via Hamming space. However, most existing hashing methods adopted offline batch learning, which is not suitable to handle incremental datasets with streaming data or new instances. In contrast, the robustness of the existing online hashing remains as an open problem, while the embedding of supervised/semantic information hardly boosts the performance of the online hashing, mainly due to the defect of unknown category numbers in supervised learning. In this paper, we proposed an online hashing scheme, termed Hadamard Codebook based Online Hashing (HCOH), which aims to solve the above problems towards robust and supervised online hashing. In particular, we first assign an appropriate high-dimensional binary codes to each class label, which is generated randomly by Hadamard codes to each class label, which is generated randomly by Hadamard codes. Subsequently, LSH is adopted to reduce the length of such Hadamard codes in accordance with the hash bits, which can adapt the predefined binary codes online, and theoretically guarantee the semantic similarity. Finally, we consider the setting of stochastic data acquisition, which facilitates our method to efficiently learn the corresponding hashing functions via stochastic gradient descend (SGD) online. Notably, the proposed HCOH can be embedded with supervised labels and it not limited to a predefined category number. Extensive experiments on three widely-used benchmarks demonstrate the merits of the proposed scheme over the state-of-the-art methods. The code is available at https://github.com/lmbxmu/mycode/tree/master/2018ACMMM_HCOH." />
+<meta name="description" content="Online hashing has attracted extensive research attention when facing streaming data. Most online hashing methods, learning binary codes based on pairwise similarities of training instances, fail to capture the semantic relationship, and suffer from a poor generalization in large-scale applications due to large variations. In this paper, we propose to model the similarity distributions between the input data and the hashing codes, upon which a novel supervised online hashing method, dubbed as Similarity Distribution based Online Hashing (SDOH), is proposed, to keep the intrinsic semantic relationship in the produced Hamming space. Specifically, we first transform the discrete similarity matrix into a probability matrix via a Gaussian-based normalization to address the extremely imbalanced distribution issue. And then, we introduce a scaling Student t-distribution to solve the challenging initialization problem, and efficiently bridge the gap between the known and unknown distributions. Lastly, we align the two distributions via minimizing the Kullback-Leibler divergence (KL-diverence) with stochastic gradient descent (SGD), by which an intuitive similarity constraint is imposed to update hashing model on the new streaming data with a powerful generalizing ability to the past data. Extensive experiments on three widely-used benchmarks validate the superiority of the proposed SDOH over the state-of-the-art methods in the online retrieval task." />
+<meta property="og:description" content="Online hashing has attracted extensive research attention when facing streaming data. Most online hashing methods, learning binary codes based on pairwise similarities of training instances, fail to capture the semantic relationship, and suffer from a poor generalization in large-scale applications due to large variations. In this paper, we propose to model the similarity distributions between the input data and the hashing codes, upon which a novel supervised online hashing method, dubbed as Similarity Distribution based Online Hashing (SDOH), is proposed, to keep the intrinsic semantic relationship in the produced Hamming space. Specifically, we first transform the discrete similarity matrix into a probability matrix via a Gaussian-based normalization to address the extremely imbalanced distribution issue. And then, we introduce a scaling Student t-distribution to solve the challenging initialization problem, and efficiently bridge the gap between the known and unknown distributions. Lastly, we align the two distributions via minimizing the Kullback-Leibler divergence (KL-diverence) with stochastic gradient descent (SGD), by which an intuitive similarity constraint is imposed to update hashing model on the new streaming data with a powerful generalizing ability to the past data. Extensive experiments on three widely-used benchmarks validate the superiority of the proposed SDOH over the state-of-the-art methods in the online retrieval task." />
 <link rel="canonical" href="https://learning2hash.github.io/publications/lin2018supervised/" />
 <meta property="og:url" content="https://learning2hash.github.io/publications/lin2018supervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-07-22T09:23:12-05:00" />
+<meta property="article:published_time" content="2025-07-22T10:51:00-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Supervised Online Hashing Via Hadamard Codebook Learning" />
+<meta property="twitter:title" content="Supervised Online Hashing via Similarity Distribution Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-22T09:23:12-05:00","datePublished":"2025-07-22T09:23:12-05:00","description":"In recent years, binary code learning, a.k.a hashing, has received extensive attention in large-scale multimedia retrieval. It aims to encode high-dimensional data points to binary codes, hence the original high-dimensional metric space can be efficiently approximated via Hamming space. However, most existing hashing methods adopted offline batch learning, which is not suitable to handle incremental datasets with streaming data or new instances. In contrast, the robustness of the existing online hashing remains as an open problem, while the embedding of supervised/semantic information hardly boosts the performance of the online hashing, mainly due to the defect of unknown category numbers in supervised learning. In this paper, we proposed an online hashing scheme, termed Hadamard Codebook based Online Hashing (HCOH), which aims to solve the above problems towards robust and supervised online hashing. In particular, we first assign an appropriate high-dimensional binary codes to each class label, which is generated randomly by Hadamard codes to each class label, which is generated randomly by Hadamard codes. Subsequently, LSH is adopted to reduce the length of such Hadamard codes in accordance with the hash bits, which can adapt the predefined binary codes online, and theoretically guarantee the semantic similarity. Finally, we consider the setting of stochastic data acquisition, which facilitates our method to efficiently learn the corresponding hashing functions via stochastic gradient descend (SGD) online. Notably, the proposed HCOH can be embedded with supervised labels and it not limited to a predefined category number. Extensive experiments on three widely-used benchmarks demonstrate the merits of the proposed scheme over the state-of-the-art methods. The code is available at https://github.com/lmbxmu/mycode/tree/master/2018ACMMM_HCOH.","headline":"Supervised Online Hashing Via Hadamard Codebook Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2018supervised/"},"url":"https://learning2hash.github.io/publications/lin2018supervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-22T10:51:00-05:00","datePublished":"2025-07-22T10:51:00-05:00","description":"Online hashing has attracted extensive research attention when facing streaming data. Most online hashing methods, learning binary codes based on pairwise similarities of training instances, fail to capture the semantic relationship, and suffer from a poor generalization in large-scale applications due to large variations. In this paper, we propose to model the similarity distributions between the input data and the hashing codes, upon which a novel supervised online hashing method, dubbed as Similarity Distribution based Online Hashing (SDOH), is proposed, to keep the intrinsic semantic relationship in the produced Hamming space. Specifically, we first transform the discrete similarity matrix into a probability matrix via a Gaussian-based normalization to address the extremely imbalanced distribution issue. And then, we introduce a scaling Student t-distribution to solve the challenging initialization problem, and efficiently bridge the gap between the known and unknown distributions. Lastly, we align the two distributions via minimizing the Kullback-Leibler divergence (KL-diverence) with stochastic gradient descent (SGD), by which an intuitive similarity constraint is imposed to update hashing model on the new streaming data with a powerful generalizing ability to the past data. Extensive experiments on three widely-used benchmarks validate the superiority of the proposed SDOH over the state-of-the-art methods in the online retrieval task.","headline":"Supervised Online Hashing via Similarity Distribution Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2018supervised/"},"url":"https://learning2hash.github.io/publications/lin2018supervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -154,51 +154,50 @@ function search() {
 
     <div class="content container">
       <div class="page">
-  <h1 class="page-title">Supervised Online Hashing Via Hadamard Codebook Learning</h1>
+  <h1 class="page-title">Supervised Online Hashing via Similarity Distribution Learning</h1>
   <h5>
-  Lin et al.. Proceedings of the 26th ACM international conference on Multimedia 2018
+  Lin Mingbao, Ji Rongrong, Chen Shen, Zheng Feng, Sun Xiaoshuai, Zhang Baochang, Cao Liujuan, Guo Guodong, Huang Feiyue. Proceedings of the 26th ACM international conference on Multimedia 2018
   
     – <span>64 citations</span>
   
   </h5>
   <p>
     
-      [<a href="https://arxiv.org/abs/1905.03694" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1905.13382" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Supervised Online Hashing Via Hadamard Codebook Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Supervised Online Hashing Via Hadamard Codebook Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Supervised Online Hashing via Similarity Distribution Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Supervised Online Hashing via Similarity Distribution Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
-    
-      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
     
       <tag><a href="/tags.html#Hashing-Methods">Hashing-Methods</a></tag>
     
+      <tag><a href="/tags.html#Scalability">Scalability</a></tag>
+    
+      <tag><a href="/tags.html#Supervised">Supervised</a></tag>
+    
+      <tag><a href="/tags.html#Compact-Codes">Compact-Codes</a></tag>
+    
   </p>
-  <p><p>In recent years, binary code learning, a.k.a hashing, has received extensive
-attention in large-scale multimedia retrieval. It aims to encode
-high-dimensional data points to binary codes, hence the original
-high-dimensional metric space can be efficiently approximated via Hamming
-space. However, most existing hashing methods adopted offline batch learning,
-which is not suitable to handle incremental datasets with streaming data or new
-instances. In contrast, the robustness of the existing online hashing remains
-as an open problem, while the embedding of supervised/semantic information
-hardly boosts the performance of the online hashing, mainly due to the defect
-of unknown category numbers in supervised learning. In this paper, we proposed
-an online hashing scheme, termed Hadamard Codebook based Online Hashing (HCOH),
-which aims to solve the above problems towards robust and supervised online
-hashing. In particular, we first assign an appropriate high-dimensional binary
-codes to each class label, which is generated randomly by Hadamard codes to
-each class label, which is generated randomly by Hadamard codes. Subsequently,
-LSH is adopted to reduce the length of such Hadamard codes in accordance with
-the hash bits, which can adapt the predefined binary codes online, and
-theoretically guarantee the semantic similarity. Finally, we consider the
-setting of stochastic data acquisition, which facilitates our method to
-efficiently learn the corresponding hashing functions via stochastic gradient
-descend (SGD) online. Notably, the proposed HCOH can be embedded with
-supervised labels and it not limited to a predefined category number. Extensive
-experiments on three widely-used benchmarks demonstrate the merits of the
-proposed scheme over the state-of-the-art methods. The code is available at
-https://github.com/lmbxmu/mycode/tree/master/2018ACMMM_HCOH.</p>
+  <p><p>Online hashing has attracted extensive research attention when facing
+streaming data. Most online hashing methods, learning binary codes based on
+pairwise similarities of training instances, fail to capture the semantic
+relationship, and suffer from a poor generalization in large-scale applications
+due to large variations. In this paper, we propose to model the similarity
+distributions between the input data and the hashing codes, upon which a novel
+supervised online hashing method, dubbed as Similarity Distribution based
+Online Hashing (SDOH), is proposed, to keep the intrinsic semantic relationship
+in the produced Hamming space. Specifically, we first transform the discrete
+similarity matrix into a probability matrix via a Gaussian-based normalization
+to address the extremely imbalanced distribution issue. And then, we introduce
+a scaling Student t-distribution to solve the challenging initialization
+problem, and efficiently bridge the gap between the known and unknown
+distributions. Lastly, we align the two distributions via minimizing the
+Kullback-Leibler divergence (KL-diverence) with stochastic gradient descent
+(SGD), by which an intuitive similarity constraint is imposed to update hashing
+model on the new streaming data with a powerful generalizing ability to the
+past data. Extensive experiments on three widely-used benchmarks validate the
+superiority of the proposed SDOH over the state-of-the-art methods in the
+online retrieval task.</p>
 </p>
 
   <h6>Similar Work</h6>
