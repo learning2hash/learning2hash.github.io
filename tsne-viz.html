@@ -61,8 +61,6 @@ at the details. Click on a point to go to the paper information page.</p>
   </div>
 </div>
 
-<div id="paperviz"></div>
-
 Please consider <a href="/contributing.html">contributing</a> by updating
 the information of existing papers or adding new work.
 
@@ -119,11 +117,6 @@ var filteredData = [];
 d3.json('./tsne_clustered.json').then(function(data) {
   allData = data;
 
-  d3.select("#clearSearch").on("click", function() {
-  d3.select("#filtermap").property("value", "");
-  updateVisualization();
-  });
-  
   // Convert 'year' and 'citations' fields to numbers
   allData.forEach(function(d) {
     d.year = parseInt(d.year);
@@ -293,6 +286,12 @@ d3.json('./tsne_clustered.json').then(function(data) {
   
   d3.select("#matchCount").text("Matching papers: " + filteredData.length);
   }
+});
+
+// ✅ Now updateVisualization is available
+d3.select("#clearSearch").on("click", function() {
+  d3.select("#filtermap").property("value", "");
+  updateVisualization();
 });
 
 let selectedCluster = null; // Track clicked cluster
