@@ -1,0 +1,25 @@
+---
+layout: publication
+title: View N-gram Network For 3D Object Retrieval
+authors: He Xinwei, Huang Tengteng, Bai Song, Bai Xiang
+conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
+year: 2019
+bibkey: he2019view
+citations: 57
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.01958'}]
+tags: ["Efficiency", "ICCV", "Tools-&-Libraries", "Datasets"]
+short_authors: He et al.
+---
+How to aggregate multi-view representations of a 3D object into an
+informative and discriminative one remains a key challenge for multi-view 3D
+object retrieval. Existing methods either use view-wise pooling strategies
+which neglect the spatial information across different views or employ
+recurrent neural networks which may face the efficiency problem. To address
+these issues, we propose an effective and efficient framework called View
+N-gram Network (VNN). Inspired by n-gram models in natural language processing,
+VNN divides the view sequence into a set of visual n-grams, which involve
+overlapping consecutive view sub-sequences. By doing so, spatial information
+across multiple views is captured, which helps to learn a discriminative global
+embedding for each 3D object. Experiments on 3D shape retrieval benchmarks,
+including ModelNet10, ModelNet40 and ShapeNetCore55 datasets, demonstrate the
+superiority of our proposed method.

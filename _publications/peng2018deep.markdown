@@ -1,0 +1,35 @@
+---
+layout: publication
+title: Deep Reinforcement Learning For Image Hashing
+authors: Peng Yuxin, Zhang Jian, Ye Zhaoda
+conference: IEEE Transactions on Multimedia
+year: 2019
+bibkey: peng2018deep
+citations: 44
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02904'}]
+tags: ["Hashing-Methods", "Image-Retrieval", "Datasets", "Compact-Codes", "Neural-Hashing"]
+short_authors: Peng Yuxin, Zhang Jian, Ye Zhaoda
+---
+Deep hashing methods have received much attention recently, which achieve
+promising results by taking advantage of the strong representation power of
+deep networks. However, most existing deep hashing methods learn a whole set of
+hashing functions independently, while ignore the correlations between
+different hashing functions that can promote the retrieval accuracy greatly.
+Inspired by the sequential decision ability of deep reinforcement learning, we
+propose a new Deep Reinforcement Learning approach for Image Hashing (DRLIH).
+Our proposed DRLIH approach models the hashing learning problem as a sequential
+decision process, which learns each hashing function by correcting the errors
+imposed by previous ones and promotes retrieval accuracy. To the best of our
+knowledge, this is the first work to address hashing problem from deep
+reinforcement learning perspective. The main contributions of our proposed
+DRLIH approach can be summarized as follows: (1) We propose a deep
+reinforcement learning hashing network. In the proposed network, we utilize
+recurrent neural network (RNN) as agents to model the hashing functions, which
+take actions of projecting images into binary codes sequentially, so that the
+current hashing function learning can take previous hashing functions' error
+into account. (2) We propose a sequential learning strategy based on proposed
+DRLIH. We define the state as a tuple of internal features of RNN's hidden
+layers and image features, which can reflect history decisions made by the
+agents. We also propose an action group method to enhance the correlation of
+hash functions in the same group. Experiments on three widely-used datasets
+demonstrate the effectiveness of our proposed DRLIH approach.

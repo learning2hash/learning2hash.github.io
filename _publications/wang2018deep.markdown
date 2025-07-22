@@ -1,0 +1,33 @@
+---
+layout: publication
+title: Deep Metric Learning By Online Soft Mining And Class-aware Attention
+authors: Wang Xinshao, Hua Yang, Kodirov Elyor, Hu Guosheng, Robertson Neil M.
+conference: Proceedings of the AAAI Conference on Artificial Intelligence
+year: 2019
+bibkey: wang2018deep
+citations: 45
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.01459'}]
+tags: ["AAAI", "Evaluation", "Distance-Metric-Learning", "Datasets"]
+short_authors: Wang et al.
+---
+Deep metric learning aims to learn a deep embedding that can capture the
+semantic similarity of data points. Given the availability of massive training
+samples, deep metric learning is known to suffer from slow convergence due to a
+large fraction of trivial samples. Therefore, most existing methods generally
+resort to sample mining strategies for selecting nontrivial samples to
+accelerate convergence and improve performance. In this work, we identify two
+critical limitations of the sample mining methods, and provide solutions for
+both of them. First, previous mining methods assign one binary score to each
+sample, i.e., dropping or keeping it, so they only selects a subset of relevant
+samples in a mini-batch. Therefore, we propose a novel sample mining method,
+called Online Soft Mining (OSM), which assigns one continuous score to each
+sample to make use of all samples in the mini-batch. OSM learns extended
+manifolds that preserve useful intraclass variances by focusing on more similar
+positives. Second, the existing methods are easily influenced by outliers as
+they are generally included in the mined subset. To address this, we introduce
+Class-Aware Attention (CAA) that assigns little attention to abnormal data
+samples. Furthermore, by combining OSM and CAA, we propose a novel weighted
+contrastive loss to learn discriminative embeddings. Extensive experiments on
+two fine-grained visual categorisation datasets and two video-based person
+re-identification benchmarks show that our method significantly outperforms the
+state-of-the-art.

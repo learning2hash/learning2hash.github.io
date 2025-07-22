@@ -1,0 +1,30 @@
+---
+layout: publication
+title: Long-tail Cross Modal Hashing
+authors: Gao Zijun, Wang Jun, Yu Guoxian, Yan Zhongmin, Domeniconi Carlotta, Zhang
+  Jinglin
+conference: Proceedings of the AAAI Conference on Artificial Intelligence
+year: 2023
+bibkey: gao2022long
+citations: 5
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15162'}]
+tags: ["AAAI", "Evaluation", "Hashing-Methods", "Datasets"]
+short_authors: Gao et al.
+---
+Existing Cross Modal Hashing (CMH) methods are mainly designed for balanced
+data, while imbalanced data with long-tail distribution is more general in
+real-world. Several long-tail hashing methods have been proposed but they can
+not adapt for multi-modal data, due to the complex interplay between labels and
+individuality and commonality information of multi-modal data. Furthermore, CMH
+methods mostly mine the commonality of multi-modal data to learn hash codes,
+which may override tail labels encoded by the individuality of respective
+modalities. In this paper, we propose LtCMH (Long-tail CMH) to handle
+imbalanced multi-modal data. LtCMH firstly adopts auto-encoders to mine the
+individuality and commonality of different modalities by minimizing the
+dependency between the individuality of respective modalities and by enhancing
+the commonality of these modalities. Then it dynamically combines the
+individuality and commonality with direct features extracted from respective
+modalities to create meta features that enrich the representation of tail
+labels, and binaries meta features to generate hash codes. LtCMH significantly
+outperforms state-of-the-art baselines on long-tail datasets and holds a better
+(or comparable) performance on datasets with balanced labels.
