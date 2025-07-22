@@ -56,8 +56,8 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta name="generator" content="Jekyll v4.2.2" />
 <meta property="og:title" content="Contributing" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A Webpage dedicated to the latest research on Hash Function Learning. Maintained by Sean Moran." />
-<meta property="og:description" content="A Webpage dedicated to the latest research on Hash Function Learning. Maintained by Sean Moran." />
+<meta name="description" content="How to contribute to this website." />
+<meta property="og:description" content="How to contribute to this website." />
 <link rel="canonical" href="https://learning2hash.github.io/contributing.html" />
 <meta property="og:url" content="https://learning2hash.github.io/contributing.html" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
@@ -65,7 +65,7 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Contributing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A Webpage dedicated to the latest research on Hash Function Learning. Maintained by Sean Moran.","headline":"Contributing","url":"https://learning2hash.github.io/contributing.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"How to contribute to this website.","headline":"Contributing","url":"https://learning2hash.github.io/contributing.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -152,46 +152,108 @@ function search() {
 
 
     <div class="content container">
-      <h2 id="contributing-share-your-work-with-the-community">Contributing: Share Your Work with the Community</h2>
+      <div class="page">
+  <h1 class="page-title">Contributing</h1>
+  <h3 id="adding-a-publication">Adding a publication</h3>
 
-<p>Learning2hash is a growing library of research on hashing techniques and their applications in machine learning. If you’ve written a paper or know of an important work that’s missing from this site, you can contribute directly by adding your publication.</p>
+<p>Contributions of new or missing publications are very welcome. To contribute, simply fill in the form below and your paper will appear in front of <strong>thousands</strong> of researchers in the field:</p>
 
-<h3 id="how-to-contribute">How to Contribute</h3>
-<p>Simply fill out the form below to submit your paper:</p>
-
-<form action="https://formkeep.com/f/19e9d9f2c33e" accept-charset="UTF-8" enctype="multipart/form-data" method="POST" class="contribution-form">
-  <input type="text" name="email" class="contribution-input" placeholder="Your Email Address" required="" /><br /><br />
+<form id="contribution-form" class="contribution-form">
+  <input type="email" name="email" class="contribution-input" placeholder="Your Email Address" required="" /><br /><br />
   <input type="text" name="title" class="contribution-input" placeholder="Paper Title" required="" /><br /><br />
   <input type="text" name="authors" class="contribution-input" placeholder="Paper Authors" required="" /><br /><br />
   <input type="text" name="conference" class="contribution-input" placeholder="Conference Name" required="" /><br /><br />
   <input type="text" name="date" class="contribution-input" placeholder="Year" required="" /><br /><br />
-  <input type="text" name="paper" class="contribution-input" placeholder="Link to paper PDF" required="" /><br /><br />
-  <input type="text" name="code" class="contribution-input" placeholder="Link to code (e.g. Github)" required="" /><br /><br />
+  <input type="url" name="paper" class="contribution-input" placeholder="Link to paper PDF" required="" /><br /><br />
+  <input type="url" name="code" class="contribution-input" placeholder="Link to code (e.g. GitHub)" required="" /><br /><br />
   <textarea name="abstract" class="contribution-textarea" placeholder="Paper Abstract" required=""></textarea><br /><br />
   <button type="submit" class="contribution-button">Submit</button>
+  <p id="contribution-message" style="margin-top: 20px; font-weight: bold;"></p>
 </form>
-<hr />
-
-<h3 id="stay-connected">Stay Connected</h3>
-<p>Join our growing community by starring our GitHub repository:</p>
-
-<iframe src="https://ghbtns.com/github-btn.html?user=learning2hash&amp;repo=learning2hash.github.io&amp;type=star&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
 
 <style>
-  form {
+  .contribution-form {
     width: 90%;
     margin: auto;
     max-width: 700px;
   }
 
+  .contribution-input {
+    width: 100%;
+    font-weight: bold;
+    border: 2px solid #000;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .contribution-textarea {
+    width: 100%;
+    height: 300px;
+    font-weight: bold;
+    border: 2px solid #000;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .contribution-button {
+    font-weight: bold;
+    color: black;
+    border: 2px solid #000;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+
   @media (max-width: 768px) {
-    input, textarea, button {
+    .contribution-input, .contribution-textarea, .contribution-button {
       width: 100%;
       max-width: none;
     }
   }
 </style>
 
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("contribution-form");
+  const message = document.getElementById("contribution-message");
+
+  form.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const formData = new FormData(form);
+    const payload = new URLSearchParams();
+
+    for (const pair of formData.entries()) {
+      payload.append(pair[0], pair[1]);
+    }
+
+    fetch("https://awesome-llm-papers.tinyapps.run/contribute", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: payload
+    })
+    .then(response => response.json())
+    .then(data => {
+      if (data.status === "success") {
+        message.textContent = "✅ Submission successful!";
+        message.style.color = "green";
+        form.reset();
+      } else {
+        message.textContent = "⚠️ " + (data.error || "Submission failed.");
+        message.style.color = "red";
+      }
+    })
+    .catch(error => {
+      console.error("Error submitting contribution:", error);
+      message.textContent = "❌ Something went wrong. Please try again.";
+      message.style.color = "red";
+    });
+  });
+});
+</script>
+
+
+</div>
 
     </div>
 
