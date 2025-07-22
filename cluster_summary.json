@@ -1,42 +1,9 @@
 {
-  "4": [
-    {
-      "tag": "hashing",
-      "count": 0.063
-    },
-    {
-      "tag": "hash",
-      "count": 0.043
-    },
-    {
-      "tag": "code",
-      "count": 0.043
-    },
-    {
-      "tag": "binary",
-      "count": 0.042
-    }
-  ],
+  "4": [],
   "6": [
     {
       "tag": "image",
       "count": 0.082
-    },
-    {
-      "tag": "cnn",
-      "count": 0.066
-    },
-    {
-      "tag": "medical",
-      "count": 0.052
-    },
-    {
-      "tag": "descriptor",
-      "count": 0.05
-    },
-    {
-      "tag": "feature",
-      "count": 0.042
     }
   ],
   "7": [],
@@ -44,74 +11,27 @@
     {
       "tag": "graph",
       "count": 0.179
-    },
-    {
-      "tag": "node",
-      "count": 0.042
     }
   ],
-  "2": [
-    {
-      "tag": "lsh",
-      "count": 0.055
-    },
-    {
-      "tag": "time",
-      "count": 0.045
-    },
-    {
-      "tag": "neighbor",
-      "count": 0.042
-    }
-  ],
+  "2": [],
   "5": [
     {
       "tag": "video",
       "count": 0.092
     }
   ],
-  "0": [
-    {
-      "tag": "image",
-      "count": 0.057
-    }
-  ],
-  "1": [
-    {
-      "tag": "hash",
-      "count": 0.055
-    }
-  ],
+  "0": [],
+  "1": [],
   "3": [
     {
       "tag": "document",
       "count": 0.078
-    },
-    {
-      "tag": "model",
-      "count": 0.04
     }
   ],
   "8": [
     {
       "tag": "hashing",
       "count": 0.082
-    },
-    {
-      "tag": "hash",
-      "count": 0.056
-    },
-    {
-      "tag": "code",
-      "count": 0.053
-    },
-    {
-      "tag": "semantic",
-      "count": 0.043
-    },
-    {
-      "tag": "label",
-      "count": 0.041
     }
   ]
 }
