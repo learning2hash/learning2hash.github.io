@@ -1,0 +1,29 @@
+---
+layout: publication
+title: Cross Modal Retrieval with Querybank Normalisation
+authors: Bogolin Simion-vlad, Croitoru Ioana, Jin Hailin, Liu Yang, Albanie Samuel
+conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2022
+bibkey: bogolin2021cross
+citations: 58
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.12777'}]
+tags: ["Tools-&-Libraries", "Datasets", "CVPR", "Scalability", "Evaluation", "Multimodal-Retrieval"]
+short_authors: Bogolin et al.
+---
+Profiting from large-scale training datasets, advances in neural architecture
+design and efficient inference, joint embeddings have become the dominant
+approach for tackling cross-modal retrieval. In this work we first show that,
+despite their effectiveness, state-of-the-art joint embeddings suffer
+significantly from the longstanding "hubness problem" in which a small number
+of gallery embeddings form the nearest neighbours of many queries. Drawing
+inspiration from the NLP literature, we formulate a simple but effective
+framework called Querybank Normalisation (QB-Norm) that re-normalises query
+similarities to account for hubs in the embedding space. QB-Norm improves
+retrieval performance without requiring retraining. Differently from prior
+work, we show that QB-Norm works effectively without concurrent access to any
+test set queries. Within the QB-Norm framework, we also propose a novel
+similarity normalisation method, the Dynamic Inverted Softmax, that is
+significantly more robust than existing approaches. We showcase QB-Norm across
+a range of cross modal retrieval models and benchmarks where it consistently
+enhances strong baselines beyond the state of the art. Code is available at
+https://vladbogo.github.io/QB-Norm/.

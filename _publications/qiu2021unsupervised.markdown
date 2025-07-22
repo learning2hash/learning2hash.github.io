@@ -1,0 +1,31 @@
+---
+layout: publication
+title: Unsupervised Hashing with Contrastive Information Bottleneck
+authors: Qiu Zexuan, Su Qinliang, Ou Zijing, Yu Jianxing, Chen Changyou
+conference: Proceedings of the Thirtieth International Joint Conference on Artificial
+  Intelligence
+year: 2021
+bibkey: qiu2021unsupervised
+citations: 51
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.06138'}]
+tags: ["Evaluation", "Datasets", "Unsupervised", "AAAI", "Hashing-Methods", "Tools-&-Libraries", "Neural-Hashing", "IJCAI", "Supervised"]
+short_authors: Qiu et al.
+---
+Many unsupervised hashing methods are implicitly established on the idea of
+reconstructing the input data, which basically encourages the hashing codes to
+retain as much information of original data as possible. However, this
+requirement may force the models spending lots of their effort on
+reconstructing the unuseful background information, while ignoring to preserve
+the discriminative semantic information that is more important for the hashing
+task. To tackle this problem, inspired by the recent success of contrastive
+learning in learning continuous representations, we propose to adapt this
+framework to learn binary hashing codes. Specifically, we first propose to
+modify the objective function to meet the specific requirement of hashing and
+then introduce a probabilistic binary representation layer into the model to
+facilitate end-to-end training of the entire model. We further prove the strong
+connection between the proposed contrastive-learning-based hashing method and
+the mutual information, and show that the proposed model can be considered
+under the broader framework of the information bottleneck (IB). Under this
+perspective, a more general hashing model is naturally obtained. Extensive
+experimental results on three benchmark image datasets demonstrate that the
+proposed hashing method significantly outperforms existing baselines.
