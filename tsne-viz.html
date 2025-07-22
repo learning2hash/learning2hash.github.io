@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Visualization of Publications on Learning to Hash
-description: A tSNE visualization of all the Learning to Hash Papers with Clustering
+title: Visualization of Publications on Large Language Models
+description: A tSNE visualization of all the Large Language Model Papers with Clustering
 ---
 
 <style>
@@ -17,6 +17,19 @@ description: A tSNE visualization of all the Learning to Hash Papers with Cluste
 }
 #cluster-sidebar {
   min-width: 220px;
+}
+
+#cluster-legend .legend-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  flex: 1 1 200px;
+  transition: background-color 0.2s;
+}
+#cluster-legend .legend-item:hover {
+  background-color: #f0f0f0;
 }
 </style>
 
@@ -52,13 +65,12 @@ at the details. Click on a point to go to the paper information page.</p>
   <button id="pan_down">Pan Down</button>
 </div>
 
-<div style="display: flex; align-items: flex-start;">
-  <div id="paperviz"></div>
-  <div id="cluster-sidebar" style="width: 250px; padding-left: 20px;">
-    <h3 style="margin-top: 0;">🧭 Cluster Legend</h3>
-    <button id="resetClusters" style="margin-bottom: 10px;">Show All Clusters</button>
-    <div id="cluster-legend"></div>
-  </div>
+<div id="paperviz" style="margin-bottom: 20px;"></div>
+
+<div id="cluster-sidebar" style="max-width: 800px; margin: 0 auto; font-family: sans-serif;">
+  <h3 style="margin-top: 0;">🧭 Cluster Legend</h3>
+  <button id="resetClusters" style="margin-bottom: 10px;">Show All Clusters</button>
+  <div id="cluster-legend" style="display: flex; flex-wrap: wrap; gap: 20px;"></div>
 </div>
 
 Please consider <a href="/contributing.html">contributing</a> by updating
@@ -335,3 +347,4 @@ d3.json('cluster_summary.json').then(function(summary) {
   });
 });
 </script>
+
