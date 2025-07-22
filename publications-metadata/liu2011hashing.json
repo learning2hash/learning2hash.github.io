@@ -1,1 +1,1 @@
-[["liu2011hashing", "Hashing with Graphs"], ["weiss2008spectral", "Spectral Hashing"], ["weiss2025spectral", "Spectral Hashing"], ["liu2025discrete", "Discrete Graph Hashing"]]
+[["weiss2008spectral", "Spectral Hashing"], ["liu2014discrete", "Discrete Graph Hashing"], ["weiss2012multidimensional", "Multidimensional Spectral Hashing"], ["ding2015knn", "kNN Hashing with Factorized Neighborhood Representation"]]
