@@ -11,14 +11,6 @@
     {
       "tag": "code",
       "count": 0.055
-    },
-    {
-      "tag": "semantic",
-      "count": 0.038
-    },
-    {
-      "tag": "binary",
-      "count": 0.034
     }
   ],
   "0": [
@@ -29,18 +21,6 @@
     {
       "tag": "dense",
       "count": 0.059
-    },
-    {
-      "tag": "embeddings",
-      "count": 0.031
-    },
-    {
-      "tag": "word",
-      "count": 0.028
-    },
-    {
-      "tag": "text",
-      "count": 0.027
     }
   ],
   "1": [
@@ -77,14 +57,6 @@
     {
       "tag": "code",
       "count": 0.042
-    },
-    {
-      "tag": "hashing",
-      "count": 0.039
-    },
-    {
-      "tag": "function",
-      "count": 0.039
     }
   ],
   "7": [
@@ -95,40 +67,12 @@
     {
       "tag": "time",
       "count": 0.04
-    },
-    {
-      "tag": "point",
-      "count": 0.036
-    },
-    {
-      "tag": "neighbor",
-      "count": 0.036
-    },
-    {
-      "tag": "algorithm",
-      "count": 0.035
     }
   ],
   "3": [
     {
       "tag": "image",
       "count": 0.042
-    },
-    {
-      "tag": "recipe",
-      "count": 0.039
-    },
-    {
-      "tag": "visual",
-      "count": 0.031
-    },
-    {
-      "tag": "text",
-      "count": 0.029
-    },
-    {
-      "tag": "fashion",
-      "count": 0.025
     }
   ],
   "8": [
@@ -139,62 +83,13 @@
     {
       "tag": "image",
       "count": 0.05
-    },
-    {
-      "tag": "metric",
-      "count": 0.037
-    },
-    {
-      "tag": "embedding",
-      "count": 0.032
-    },
-    {
-      "tag": "learning",
-      "count": 0.031
     }
   ],
-  "6": [
-    {
-      "tag": "modality",
-      "count": 0.031
-    },
-    {
-      "tag": "text",
-      "count": 0.03
-    },
-    {
-      "tag": "similarity",
-      "count": 0.024
-    },
-    {
-      "tag": "video",
-      "count": 0.022
-    },
-    {
-      "tag": "alignment",
-      "count": 0.021
-    }
-  ],
+  "6": [],
   "9": [
     {
       "tag": "graph",
       "count": 0.088
-    },
-    {
-      "tag": "index",
-      "count": 0.03
-    },
-    {
-      "tag": "search",
-      "count": 0.028
-    },
-    {
-      "tag": "algorithm",
-      "count": 0.026
-    },
-    {
-      "tag": "neighbor",
-      "count": 0.026
     }
   ],
   "5": [
@@ -205,18 +100,6 @@
     {
       "tag": "video",
       "count": 0.044
-    },
-    {
-      "tag": "deep",
-      "count": 0.039
-    },
-    {
-      "tag": "hashing",
-      "count": 0.036
-    },
-    {
-      "tag": "retrieval",
-      "count": 0.022
     }
   ]
 }
