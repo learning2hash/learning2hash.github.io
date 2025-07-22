@@ -45,7 +45,7 @@ jobs:
       run: |
           python ${{ github.workspace }}/etc/summarize_clusters.py \
               ${{ github.workspace }}/_site/tsne_clustered.json \
-              ${{ github.workspace }}/_site/data/cluster_summary.json
+              ${{ github.workspace }}/_site/cluster_summary.json
               
     - name: Compute topics
       run: |
