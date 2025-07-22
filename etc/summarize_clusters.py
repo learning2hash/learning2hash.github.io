@@ -107,7 +107,7 @@ def summarize_by_keywords(data, top_n=5, min_idf_diff=0.01):
     cluster_summary = {}
     for cluster, indices in cluster_indices.items():
         if not indices:
-            cluster_summary[cluster] = [{"keyword": "N/A", "score": 0}]
+            cluster_summary[cluster] = [{"tag": "N/A", "count": 0}]
             continue
 
         # Mean TF-IDF vector for the cluster
@@ -127,7 +127,7 @@ def summarize_by_keywords(data, top_n=5, min_idf_diff=0.01):
                 discriminative_scores.append((kw, diff))
 
         sorted_discriminative = sorted(discriminative_scores, key=lambda x: x[1], reverse=True)
-        cluster_summary[cluster] = [{"keyword": kw, "score": round(score, 3)} for kw, score in sorted_discriminative[:top_n]]
+        cluster_summary[cluster] = [{"tag": kw, "count": round(score, 3)} for kw, score in sorted_discriminative[:top_n]]
 
     return cluster_summary
 
