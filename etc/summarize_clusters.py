@@ -1,9 +1,32 @@
 #!/usr/bin/env python3
 
 import json
+import argparse
 from collections import defaultdict, Counter
 
-def summarize_tags_by_cluster(input_file="tsne_clustered.json", output_file="cluster_summary.json", top_n=5):
+def summarize_tags_by_cluster(input_file, output_file, top_n=5):
+    """
+    Summarize top tags for each t-SNE cluster from a JSON file.
+
+    Parameters
+    ----------
+    input_file : str
+        Path to the input JSON file containing t-SNE embeddings and tags.
+    output_file : str
+        Path to the output JSON file where the cluster summary will be saved.
+    top_n : int, optional
+        Number of top tags to include per cluster. Defaults to 5.
+
+    Notes
+    -----
+    The cluster summary is a dictionary with cluster IDs as keys and a list of
+    top tags as values, where each tag is represented as a dictionary with keys
+    "tag" and "count".
+
+    Example
+    -------
+    >>> summarize_tags_by_cluster("tsne_clustered.json", "cluster_summary.json")
+    """
     with open(input_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
@@ -28,4 +51,10 @@ def summarize_tags_by_cluster(input_file="tsne_clustered.json", output_file="clu
     print(f"✅ Cluster summary saved to {output_file}")
 
 if __name__ == "__main__":
-    summarize_tags_by_cluster()
+    parser = argparse.ArgumentParser(description="Summarize top tags for each t-SNE cluster.")
+    parser.add_argument("input_file", help="Path to the input clustered JSON file (e.g., tsne_clustered.json)")
+    parser.add_argument("output_file", help="Path to the output cluster summary JSON file (e.g., cluster_summary.json)")
+    parser.add_argument("--top_n", type=int, default=5, help="Number of top tags to include per cluster (default: 5)")
+    args = parser.parse_args()
+
+    summarize_tags_by_cluster(args.input_file, args.output_file, args.top_n)
