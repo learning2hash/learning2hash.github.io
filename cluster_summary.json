@@ -1,37 +1,222 @@
 {
-  "4": [],
+  "4": [
+    {
+      "tag": "hashing",
+      "count": 0.063
+    },
+    {
+      "tag": "hash",
+      "count": 0.043
+    },
+    {
+      "tag": "code",
+      "count": 0.043
+    },
+    {
+      "tag": "binary",
+      "count": 0.042
+    },
+    {
+      "tag": "function",
+      "count": 0.024
+    }
+  ],
   "6": [
     {
       "tag": "image",
       "count": 0.082
+    },
+    {
+      "tag": "cnn",
+      "count": 0.066
+    },
+    {
+      "tag": "medical",
+      "count": 0.052
+    },
+    {
+      "tag": "descriptor",
+      "count": 0.05
+    },
+    {
+      "tag": "feature",
+      "count": 0.042
     }
   ],
-  "7": [],
+  "7": [
+    {
+      "tag": "text",
+      "count": 0.033
+    },
+    {
+      "tag": "modality",
+      "count": 0.033
+    },
+    {
+      "tag": "similarity",
+      "count": 0.03
+    },
+    {
+      "tag": "image",
+      "count": 0.025
+    },
+    {
+      "tag": "alignment",
+      "count": 0.023
+    }
+  ],
   "9": [
     {
       "tag": "graph",
       "count": 0.179
+    },
+    {
+      "tag": "node",
+      "count": 0.042
+    },
+    {
+      "tag": "algorithm",
+      "count": 0.025
+    },
+    {
+      "tag": "scene",
+      "count": 0.022
+    },
+    {
+      "tag": "neighbor",
+      "count": 0.022
     }
   ],
-  "2": [],
+  "2": [
+    {
+      "tag": "lsh",
+      "count": 0.055
+    },
+    {
+      "tag": "time",
+      "count": 0.045
+    },
+    {
+      "tag": "neighbor",
+      "count": 0.042
+    },
+    {
+      "tag": "distance",
+      "count": 0.039
+    },
+    {
+      "tag": "point",
+      "count": 0.037
+    }
+  ],
   "5": [
     {
       "tag": "video",
       "count": 0.092
+    },
+    {
+      "tag": "product",
+      "count": 0.034
+    },
+    {
+      "tag": "visual",
+      "count": 0.034
+    },
+    {
+      "tag": "embedding",
+      "count": 0.032
+    },
+    {
+      "tag": "image",
+      "count": 0.032
     }
   ],
-  "0": [],
-  "1": [],
+  "0": [
+    {
+      "tag": "image",
+      "count": 0.057
+    },
+    {
+      "tag": "feature",
+      "count": 0.029
+    },
+    {
+      "tag": "loss",
+      "count": 0.025
+    },
+    {
+      "tag": "metric",
+      "count": 0.024
+    },
+    {
+      "tag": "descriptor",
+      "count": 0.023
+    }
+  ],
+  "1": [
+    {
+      "tag": "hash",
+      "count": 0.055
+    },
+    {
+      "tag": "hashing",
+      "count": 0.033
+    },
+    {
+      "tag": "algorithm",
+      "count": 0.033
+    },
+    {
+      "tag": "function",
+      "count": 0.031
+    },
+    {
+      "tag": "table",
+      "count": 0.03
+    }
+  ],
   "3": [
     {
       "tag": "document",
       "count": 0.078
+    },
+    {
+      "tag": "model",
+      "count": 0.04
+    },
+    {
+      "tag": "corpus",
+      "count": 0.031
+    },
+    {
+      "tag": "dense",
+      "count": 0.027
+    },
+    {
+      "tag": "word",
+      "count": 0.025
     }
   ],
   "8": [
     {
       "tag": "hashing",
       "count": 0.082
+    },
+    {
+      "tag": "hash",
+      "count": 0.056
+    },
+    {
+      "tag": "code",
+      "count": 0.053
+    },
+    {
+      "tag": "semantic",
+      "count": 0.043
+    },
+    {
+      "tag": "label",
+      "count": 0.041
     }
   ]
 }

@@ -64,7 +64,7 @@ def lemmatize_text(text):
     tokens = word_tokenize(text.lower())
     return " ".join([lemmatizer.lemmatize(token) for token in tokens if token.isalpha()])
 
-def summarize_by_keywords(data, top_n=5, min_idf_diff=0.07):
+def summarize_by_keywords(data, top_n=5, min_idf_diff=0.01):
     """
     Summarize clusters by discriminative lemmatized keywords using TF-IDF.
 
