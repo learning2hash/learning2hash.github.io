@@ -152,7 +152,23 @@ function search() {
 
 
     <div class="content container">
-      <h2>2D Map of Papers</h2>
+      <style>
+#cluster-sidebar {
+  font-family: sans-serif;
+}
+.legend-item:hover {
+  background-color: #eee;
+  border-radius: 4px;
+}
+#paperviz {
+  flex: 1;
+}
+#cluster-sidebar {
+  min-width: 220px;
+}
+</style>
+
+<h2>2D Map of Papers</h2>
 <p>Each dot represents one paper in this survey. Hover your mouse over each point to look
 at the details. Click on a point to go to the paper information page.</p>
 <div style="text-align: right; margin-bottom: 10px;">
@@ -184,7 +200,14 @@ at the details. Click on a point to go to the paper information page.</p>
   <button id="pan_down">Pan Down</button>
 </div>
 
-<div id="paperviz"></div>
+<div style="display: flex; align-items: flex-start;">
+  <div id="paperviz"></div>
+  <div id="cluster-sidebar" style="width: 250px; padding-left: 20px;">
+    <h3 style="margin-top: 0;">🧭 Cluster Legend</h3>
+    <button id="resetClusters" style="margin-bottom: 10px;">Show All Clusters</button>
+    <div id="cluster-legend"></div>
+  </div>
+</div>
 
 Please consider <a href="/contributing.html">contributing</a> by updating
 the information of existing papers or adding new work.
@@ -242,11 +265,6 @@ var filteredData = [];
 d3.json('./tsne_clustered.json').then(function(data) {
   allData = data;
 
-  d3.select("#clearSearch").on("click", function() {
-  d3.select("#filtermap").property("value", "");
-  updateVisualization();
-  });
-  
   // Convert 'year' and 'citations' fields to numbers
   allData.forEach(function(d) {
     d.year = parseInt(d.year);
@@ -366,9 +384,10 @@ d3.json('./tsne_clustered.json').then(function(data) {
 
     // Filter data based on selected year
     filteredData = allData.filter(d => {
-        const yearMatch = d.year <= selectedYear;
-        const textMatch = !searchTerm || isMatch(d, searchTerm);
-        return yearMatch && textMatch;
+      const yearMatch = d.year <= selectedYear;
+      const textMatch = !searchTerm || isMatch(d, searchTerm);
+      const clusterMatch = selectedCluster === null || String(d.cluster) === String(selectedCluster);
+      return yearMatch && textMatch && clusterMatch;
     });
     
     // Bind data
@@ -415,6 +434,53 @@ d3.json('./tsne_clustered.json').then(function(data) {
   
   d3.select("#matchCount").text("Matching papers: " + filteredData.length);
   }
+});
+
+// ✅ Now updateVisualization is available
+d3.select("#clearSearch").on("click", function() {
+  d3.select("#filtermap").property("value", "");
+  updateVisualization();
+});
+
+let selectedCluster = null; // Track clicked cluster
+
+// Render the sidebar legend
+d3.json('cluster_summary.json').then(function(summary) {
+  const legendContainer = d3.select("#cluster-legend");
+
+  Object.entries(summary).forEach(([cluster, tags]) => {
+    const item = legendContainer.append("div")
+      .attr("class", "legend-item")
+      .style("cursor", "pointer")
+      .style("margin-bottom", "10px")
+      .style("border-left", `6px solid ${color(cluster)}`)
+      .style("padding-left", "8px")
+      .on("click", function() {
+        if (selectedCluster === cluster) {
+          selectedCluster = null; // toggle off
+        } else {
+          selectedCluster = cluster;
+        }
+        updateVisualization();
+      });
+
+    item.append("div")
+      .style("font-weight", "bold")
+      .text(`Cluster ${cluster}`);
+
+    tags.forEach(tag => {
+      item.append("div")
+        .style("font-size", "12px")
+        .style("margin-left", "5px")
+        .text(`${tag.tag} (${tag.count})`);
+    });
+  });
+
+  // Reset button to clear cluster filter
+  d3.select("#resetClusters").on("click", function() {
+    selectedCluster = null;
+    updateVisualization();
+  });
 });
 </script>
 
