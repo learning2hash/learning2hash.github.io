@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Visualization of Publications on Large Language Models
-description: A tSNE visualization of all the Large Language Model Papers with Clustering
+title: Visualization of Publications on Learning to Hash 
+description: A tSNE visualization of all the Learning to Hash Papers with Clustering
 ---
 
 <style>
@@ -21,11 +21,11 @@ description: A tSNE visualization of all the Large Language Model Papers with Cl
 
 #cluster-legend .legend-item {
   background-color: #f9f9f9;
-  padding: 10px;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  min-width: 200px;
-  flex: 1 1 200px;
+  padding: 6px 8px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  flex: 1 1 180px;
+  font-size: 13px;
   transition: background-color 0.2s;
 }
 #cluster-legend .legend-item:hover {
@@ -336,8 +336,8 @@ d3.json('cluster_summary.json').then(function(summary) {
       item.append("div")
         .style("font-size", "12px")
         .style("margin-left", "5px")
-        .text(`${tag.tag} (${tag.count})`);
-    });
+        .text(tag.tag);
+      });
   });
 
   // Reset button to clear cluster filter
