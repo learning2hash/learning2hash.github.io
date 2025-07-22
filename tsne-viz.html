@@ -52,20 +52,20 @@ alt="Web-Stat web statistics"></a></noscript>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Visualization of Publications on Learning to Hash | Awesome Learning to Hash</title>
+<title>Visualization of Publications on Large Language Models | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Visualization of Publications on Learning to Hash" />
+<meta property="og:title" content="Visualization of Publications on Large Language Models" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A tSNE visualization of all the Learning to Hash Papers with Clustering" />
-<meta property="og:description" content="A tSNE visualization of all the Learning to Hash Papers with Clustering" />
+<meta name="description" content="A tSNE visualization of all the Large Language Model Papers with Clustering" />
+<meta property="og:description" content="A tSNE visualization of all the Large Language Model Papers with Clustering" />
 <link rel="canonical" href="https://learning2hash.github.io/tsne-viz.html" />
 <meta property="og:url" content="https://learning2hash.github.io/tsne-viz.html" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Visualization of Publications on Learning to Hash" />
+<meta property="twitter:title" content="Visualization of Publications on Large Language Models" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A tSNE visualization of all the Learning to Hash Papers with Clustering","headline":"Visualization of Publications on Learning to Hash","url":"https://learning2hash.github.io/tsne-viz.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"A tSNE visualization of all the Large Language Model Papers with Clustering","headline":"Visualization of Publications on Large Language Models","url":"https://learning2hash.github.io/tsne-viz.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -166,6 +166,19 @@ function search() {
 #cluster-sidebar {
   min-width: 220px;
 }
+
+#cluster-legend .legend-item {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  flex: 1 1 200px;
+  transition: background-color 0.2s;
+}
+#cluster-legend .legend-item:hover {
+  background-color: #f0f0f0;
+}
 </style>
 
 <h2>2D Map of Papers</h2>
@@ -200,13 +213,12 @@ at the details. Click on a point to go to the paper information page.</p>
   <button id="pan_down">Pan Down</button>
 </div>
 
-<div style="display: flex; align-items: flex-start;">
-  <div id="paperviz"></div>
-  <div id="cluster-sidebar" style="width: 250px; padding-left: 20px;">
-    <h3 style="margin-top: 0;">🧭 Cluster Legend</h3>
-    <button id="resetClusters" style="margin-bottom: 10px;">Show All Clusters</button>
-    <div id="cluster-legend"></div>
-  </div>
+<div id="paperviz" style="margin-bottom: 20px;"></div>
+
+<div id="cluster-sidebar" style="max-width: 800px; margin: 0 auto; font-family: sans-serif;">
+  <h3 style="margin-top: 0;">🧭 Cluster Legend</h3>
+  <button id="resetClusters" style="margin-bottom: 10px;">Show All Clusters</button>
+  <div id="cluster-legend" style="display: flex; flex-wrap: wrap; gap: 20px;"></div>
 </div>
 
 Please consider <a href="/contributing.html">contributing</a> by updating
@@ -483,6 +495,7 @@ d3.json('cluster_summary.json').then(function(summary) {
   });
 });
 </script>
+
 
     </div>
 
