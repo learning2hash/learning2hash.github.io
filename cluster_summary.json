@@ -1,222 +1,222 @@
 {
-  "4": [
+  "6": [
     {
       "tag": "hashing",
-      "count": 0.063
+      "count": 0.087
     },
     {
       "tag": "hash",
-      "count": 0.043
+      "count": 0.077
     },
     {
       "tag": "code",
-      "count": 0.043
+      "count": 0.054
     },
     {
-      "tag": "binary",
-      "count": 0.042
+      "tag": "semantic",
+      "count": 0.035
     },
     {
-      "tag": "function",
-      "count": 0.024
-    }
-  ],
-  "6": [
-    {
-      "tag": "image",
-      "count": 0.082
-    },
-    {
-      "tag": "cnn",
-      "count": 0.066
-    },
-    {
-      "tag": "medical",
-      "count": 0.052
-    },
-    {
-      "tag": "descriptor",
-      "count": 0.05
-    },
-    {
-      "tag": "feature",
-      "count": 0.042
-    }
-  ],
-  "7": [
-    {
-      "tag": "text",
+      "tag": "supervised",
       "count": 0.033
-    },
-    {
-      "tag": "modality",
-      "count": 0.033
-    },
-    {
-      "tag": "similarity",
-      "count": 0.03
-    },
-    {
-      "tag": "image",
-      "count": 0.025
-    },
-    {
-      "tag": "alignment",
-      "count": 0.023
     }
   ],
   "9": [
     {
       "tag": "graph",
-      "count": 0.179
+      "count": 0.127
     },
     {
       "tag": "node",
-      "count": 0.042
+      "count": 0.036
     },
     {
       "tag": "algorithm",
-      "count": 0.025
-    },
-    {
-      "tag": "scene",
-      "count": 0.022
+      "count": 0.029
     },
     {
       "tag": "neighbor",
-      "count": 0.022
+      "count": 0.026
+    },
+    {
+      "tag": "anns",
+      "count": 0.016
     }
   ],
-  "2": [
+  "7": [
     {
-      "tag": "lsh",
-      "count": 0.055
+      "tag": "document",
+      "count": 0.057
     },
     {
-      "tag": "time",
-      "count": 0.045
+      "tag": "dense",
+      "count": 0.035
     },
     {
-      "tag": "neighbor",
-      "count": 0.042
+      "tag": "model",
+      "count": 0.032
     },
     {
-      "tag": "distance",
-      "count": 0.039
+      "tag": "user",
+      "count": 0.024
     },
     {
-      "tag": "point",
-      "count": 0.037
+      "tag": "token",
+      "count": 0.02
     }
   ],
   "5": [
     {
-      "tag": "video",
-      "count": 0.092
+      "tag": "image",
+      "count": 0.05
     },
     {
-      "tag": "product",
-      "count": 0.034
+      "tag": "text",
+      "count": 0.045
+    },
+    {
+      "tag": "sketch",
+      "count": 0.04
     },
     {
       "tag": "visual",
-      "count": 0.034
+      "count": 0.031
     },
     {
-      "tag": "embedding",
-      "count": 0.032
-    },
-    {
-      "tag": "image",
-      "count": 0.032
+      "tag": "video",
+      "count": 0.03
     }
   ],
   "0": [
     {
       "tag": "image",
-      "count": 0.057
-    },
-    {
-      "tag": "feature",
-      "count": 0.029
-    },
-    {
-      "tag": "loss",
-      "count": 0.025
-    },
-    {
-      "tag": "metric",
-      "count": 0.024
+      "count": 0.076
     },
     {
       "tag": "descriptor",
-      "count": 0.023
-    }
-  ],
-  "1": [
-    {
-      "tag": "hash",
       "count": 0.055
     },
     {
-      "tag": "hashing",
-      "count": 0.033
+      "tag": "feature",
+      "count": 0.04
     },
     {
-      "tag": "algorithm",
-      "count": 0.033
+      "tag": "cnn",
+      "count": 0.037
     },
     {
-      "tag": "function",
+      "tag": "medical",
+      "count": 0.028
+    }
+  ],
+  "4": [
+    {
+      "tag": "lsh",
+      "count": 0.055
+    },
+    {
+      "tag": "neighbor",
+      "count": 0.036
+    },
+    {
+      "tag": "time",
+      "count": 0.032
+    },
+    {
+      "tag": "point",
       "count": 0.031
     },
     {
-      "tag": "table",
-      "count": 0.03
+      "tag": "distance",
+      "count": 0.031
     }
   ],
   "3": [
     {
-      "tag": "document",
-      "count": 0.078
+      "tag": "music",
+      "count": 0.037
     },
     {
-      "tag": "model",
-      "count": 0.04
+      "tag": "product",
+      "count": 0.032
     },
     {
-      "tag": "corpus",
-      "count": 0.031
+      "tag": "embedding",
+      "count": 0.028
     },
     {
-      "tag": "dense",
+      "tag": "audio",
+      "count": 0.025
+    },
+    {
+      "tag": "fashion",
+      "count": 0.024
+    }
+  ],
+  "1": [
+    {
+      "tag": "image",
+      "count": 0.05
+    },
+    {
+      "tag": "deep",
+      "count": 0.035
+    },
+    {
+      "tag": "metric",
+      "count": 0.033
+    },
+    {
+      "tag": "feature",
       "count": 0.027
     },
     {
-      "tag": "word",
-      "count": 0.025
+      "tag": "network",
+      "count": 0.026
+    }
+  ],
+  "2": [
+    {
+      "tag": "memory",
+      "count": 0.039
+    },
+    {
+      "tag": "vector",
+      "count": 0.037
+    },
+    {
+      "tag": "index",
+      "count": 0.031
+    },
+    {
+      "tag": "algorithm",
+      "count": 0.026
+    },
+    {
+      "tag": "sparse",
+      "count": 0.022
     }
   ],
   "8": [
     {
-      "tag": "hashing",
-      "count": 0.082
-    },
-    {
-      "tag": "hash",
-      "count": 0.056
+      "tag": "binary",
+      "count": 0.054
     },
     {
       "tag": "code",
-      "count": 0.053
-    },
-    {
-      "tag": "semantic",
-      "count": 0.043
-    },
-    {
-      "tag": "label",
       "count": 0.041
+    },
+    {
+      "tag": "hashing",
+      "count": 0.038
+    },
+    {
+      "tag": "hash",
+      "count": 0.033
+    },
+    {
+      "tag": "hamming",
+      "count": 0.025
     }
   ]
 }
