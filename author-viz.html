@@ -6,7 +6,7 @@ description: Explore prolific authors and their contributions across Learning To
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
-  Discover leading contributors in LLM research. Sort by paper count or citations, and click “Details” to explore their work.
+  Discover leading contributors in Learning to Hash research. Sort by paper count or citations, and click “Details” to explore their work.
 </p>
 
 <table id="author-table" class="display stripe hover" style="width:100%">
@@ -39,7 +39,7 @@ fetch('author_stats.json')
         info.total_citations,
         info.tags.map(tag => {
           const urlTag = encodeURIComponent(tag.replace(/\s+/g, '-'));
-          return `<a href="https://awesome-llm-papers.github.io/tags.html#${urlTag}" target="_blank" style="text-decoration: none;">
+          return `<a href="https://learning2hash.github.io/tags.html#${urlTag}" target="_blank" style="text-decoration: none;">
                     <span 
                       title="Click to explore papers tagged '${tag}'"
                       style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px; color:#000; cursor:pointer;">
@@ -61,7 +61,7 @@ fetch('author_stats.json')
 
       const papersList = info.papers.map(p =>
         `<li style="margin-bottom:6px;">
-          <a href="https://awesome-llm-papers.github.io/publications/${p.bibkey}/" target="_blank" style="font-weight:600; text-decoration:none;">
+          <a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" style="font-weight:600; text-decoration:none;">
             ${p.title}
           </a> <span style="color:#777;">(${p.year}) – ${p.citations} citations</span>
         </li>`
