@@ -52,9 +52,9 @@ alt="Web-Stat web statistics"></a></noscript>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Visualization of Publications on Learning To Hash | Awesome Learning to Hash</title>
+<title>Visualization of Publications on Learning to Hash | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Visualization of Publications on Learning To Hash" />
+<meta property="og:title" content="Visualization of Publications on Learning to Hash" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="A tSNE visualization of all the Learning to Hash Papers with Clustering" />
 <meta property="og:description" content="A tSNE visualization of all the Learning to Hash Papers with Clustering" />
@@ -63,9 +63,9 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Visualization of Publications on Learning To Hash" />
+<meta property="twitter:title" content="Visualization of Publications on Learning to Hash" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"A tSNE visualization of all the Learning to Hash Papers with Clustering","headline":"Visualization of Publications on Learning To Hash","url":"https://learning2hash.github.io/tsne-viz.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"A tSNE visualization of all the Learning to Hash Papers with Clustering","headline":"Visualization of Publications on Learning to Hash","url":"https://learning2hash.github.io/tsne-viz.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -365,8 +365,18 @@ d3.json('./tsne_clustered.json').then(function(data) {
     d3.select("#matchCount").text("Matching papers: " + filteredData.length);
   };
 
-  updateVisualization();
+  // Apply initial zoom-out transformation BEFORE updateVisualization()
+  const initialZoomTransform = d3.zoomIdentity
+    .translate(width / 2, height / 2)
+    .scale(0.6)
+    .translate(-width / 2, -height / 2);
+  
+  svg.call(zoom.transform, initialZoomTransform);
+  currentTransform = initialZoomTransform;
 
+  // Now render data with the zoomed-out view
+  updateVisualization();
+  
   d3.select("#yearRange").on("input", function() {
     d3.select("#yearLabel").text(this.value);
     updateVisualization();
