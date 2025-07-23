@@ -32,6 +32,13 @@ jobs:
       run: |
           python -c "import nltk; nltk.download('punkt'); nltk.download('punkt_tab'); nltk.download('stopwords'); nltk.download('wordnet'); nltk.download('omw-1.4')"
 
+    - name: Extract Author Stats
+      run: |
+              python ${{ github.workspace }}/etc/extract_author_stats.py \
+                  --markdown_dir ${{ github.workspace }}/_publications \
+                  --output_dir ${{ github.workspace }}/_site/ \
+                  --output_filename author_stats.json  
+              
     - name: Compute tSNE Embeddings
       run: |
           python ${{ github.workspace }}/etc/compute_embeddings.py ${{ github.workspace }}/_site/paper-abstracts.json ${{ github.workspace }}/_site/tsne.json
