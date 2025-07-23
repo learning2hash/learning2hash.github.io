@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Ultra-high Dimensional Sparse Representations With Binarization For Efficient
+  Text Retrieval
+authors: Jang Kyoung-rok, Kang Junmo, Hong Giwon, Myaeng Sung-hyon, Park Joohee, Yoon
+  Taewon, Seo Heecheol
+conference: Proceedings of the 2021 Conference on Empirical Methods in Natural Language
+  Processing
+year: 2021
+bibkey: jang2021ultra
+citations: 9
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.07198'}]
+tags: ["EMNLP", "Efficiency", "Hybrid ANN Methods", "Memory Efficiency"]
+short_authors: Jang et al.
+---
+The semantic matching capabilities of neural information retrieval can
+ameliorate synonymy and polysemy problems of symbolic approaches. However,
+neural models' dense representations are more suitable for re-ranking, due to
+their inefficiency. Sparse representations, either in symbolic or latent form,
+are more efficient with an inverted index. Taking the merits of the sparse and
+dense representations, we propose an ultra-high dimensional (UHD)
+representation scheme equipped with directly controllable sparsity. UHD's large
+capacity and minimal noise and interference among the dimensions allow for
+binarized representations, which are highly efficient for storage and search.
+Also proposed is a bucketing method, where the embeddings from multiple layers
+of BERT are selected/merged to represent diverse linguistic aspects. We test
+our models with MS MARCO and TREC CAR, showing that our models outperforms
+other sparse models

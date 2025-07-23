@@ -1,0 +1,31 @@
+---
+layout: publication
+title: Rethinking Preventing Class-collapsing In Metric Learning With Margin-based
+  Losses
+authors: Levi Elad, Xiao Tete, Wang Xiaolong, Darrell Trevor
+conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
+year: 2021
+bibkey: levi2020rethinking
+citations: 15
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.05162'}]
+tags: ["Distance Metric Learning", "ICCV", "Image Retrieval"]
+short_authors: Levi et al.
+---
+Metric learning seeks perceptual embeddings where visually similar instances
+are close and dissimilar instances are apart, but learned representations can
+be sub-optimal when the distribution of intra-class samples is diverse and
+distinct sub-clusters are present. Although theoretically with optimal
+assumptions, margin-based losses such as the triplet loss and margin loss have
+a diverse family of solutions. We theoretically prove and empirically show that
+under reasonable noise assumptions, margin-based losses tend to project all
+samples of a class with various modes onto a single point in the embedding
+space, resulting in a class collapse that usually renders the space ill-sorted
+for classification or retrieval. To address this problem, we propose a simple
+modification to the embedding losses such that each sample selects its nearest
+same-class counterpart in a batch as the positive element in the tuple. This
+allows for the presence of multiple sub-clusters within each class. The
+adaptation can be integrated into a wide range of metric learning losses. The
+proposed sampling method demonstrates clear benefits on various fine-grained
+image retrieval datasets over a variety of existing losses; qualitative
+retrieval results show that samples with similar visual patterns are indeed
+closer in the embedding space.

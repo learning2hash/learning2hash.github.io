@@ -1,0 +1,31 @@
+---
+layout: publication
+title: Similarity Search In The Blink Of An Eye With Compressed Indices
+authors: Aguerrebere Cecilia, Bhati Ishwar, Hildebrand Mark, Tepper Mariano, Willke
+  Ted
+conference: Proceedings of the VLDB Endowment
+year: 2023
+bibkey: aguerrebere2023similarity
+citations: 15
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.04759'}]
+tags: ["Evaluation", "Graph-based ANN", "Large-Scale Search", "Memory Efficiency", "Quantization", "Scalability", "Similarity Search"]
+short_authors: Aguerrebere et al.
+---
+Nowadays, data is represented by vectors. Retrieving those vectors, among
+millions and billions, that are similar to a given query is a ubiquitous
+problem, known as similarity search, of relevance for a wide range of
+applications. Graph-based indices are currently the best performing techniques
+for billion-scale similarity search. However, their random-access memory
+pattern presents challenges to realize their full potential. In this work, we
+present new techniques and systems for creating faster and smaller graph-based
+indices. To this end, we introduce a novel vector compression method,
+Locally-adaptive Vector Quantization (LVQ), that uses per-vector scaling and
+scalar quantization to improve search performance with fast similarity
+computations and a reduced effective bandwidth, while decreasing memory
+footprint and barely impacting accuracy. LVQ, when combined with a new
+high-performance computing system for graph-based similarity search,
+establishes the new state of the art in terms of performance and memory
+footprint. For billions of vectors, LVQ outcompetes the second-best
+alternatives: (1) in the low-memory regime, by up to 20.7x in throughput with
+up to a 3x memory footprint reduction, and (2) in the high-throughput regime by
+5.8x with 1.4x less memory.

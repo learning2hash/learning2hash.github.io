@@ -1,0 +1,38 @@
+---
+layout: publication
+title: 'Mm-embed: Universal Multimodal Retrieval With Multimodal Llms'
+authors: Lin Sheng-chieh, Lee Chankyu, Shoeybi Mohammad, Lin Jimmy, Catanzaro Bryan,
+  Ping Wei
+conference: Arxiv
+year: 2024
+bibkey: lin2024mm
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.02571'}]
+tags: ["Datasets", "Evaluation", "Few-shot & Zero-shot", "Multimodal Retrieval", "Text Retrieval"]
+short_authors: Lin et al.
+---
+State-of-the-art retrieval models typically address a straightforward search
+scenario, in which retrieval tasks are fixed (e.g., finding a passage to answer
+a specific question) and only a single modality is supported for both queries
+and retrieved results. This paper introduces techniques for advancing
+information retrieval with multimodal large language models (MLLMs), enabling a
+broader search scenario, termed universal multimodal retrieval, where multiple
+modalities and diverse retrieval tasks are accommodated. To this end, we first
+study fine-tuning an MLLM as a bi-encoder retriever on 10 datasets with 16
+retrieval tasks. Our empirical results show that the fine-tuned MLLM retriever
+is capable of understanding challenging queries, composed of both text and
+image, but it underperforms compared to a smaller CLIP retriever in cross-modal
+retrieval tasks due to the modality bias exhibited by MLLMs. To address the
+issue, we propose modality-aware hard negative mining to mitigate the modality
+bias exhibited by MLLM retrievers. Second, we propose continuously fine-tuning
+the universal multimodal retriever to enhance its text retrieval capability
+while preserving multimodal retrieval capability. As a result, our model,
+MM-Embed, achieves state-of-the-art performance on the multimodal retrieval
+benchmark M-BEIR, which spans multiple domains and tasks, while also surpassing
+the state-of-the-art text retrieval model, NV-Embed-v1, on the MTEB retrieval
+benchmark. We also explore prompting the off-the-shelf MLLMs as zero-shot
+rerankers to refine the ranking of the candidates from the multimodal
+retriever. We find that, through prompt-and-reranking, MLLMs can further
+improve multimodal retrieval when the user queries (e.g., text-image composed
+queries) are more complex and challenging to understand. These findings also
+pave the way for advancing universal multimodal retrieval in the future.

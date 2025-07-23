@@ -1,0 +1,31 @@
+---
+layout: publication
+title: Learning Cross-modal Embeddings With Adversarial Networks For Cooking Recipes
+  And Food Images
+authors: Wang Hao, Sahoo Doyen, Liu Chenghao, Lim Ee-peng, Hoi Steven C. H.
+conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2019
+bibkey: wang2019learning
+citations: 127
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.01273'}]
+tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Multimodal Retrieval", "Robustness"]
+short_authors: Wang et al.
+---
+Food computing is playing an increasingly important role in human daily life,
+and has found tremendous applications in guiding human behavior towards smart
+food consumption and healthy lifestyle. An important task under the
+food-computing umbrella is retrieval, which is particularly helpful for health
+related applications, where we are interested in retrieving important
+information about food (e.g., ingredients, nutrition, etc.). In this paper, we
+investigate an open research task of cross-modal retrieval between cooking
+recipes and food images, and propose a novel framework Adversarial Cross-Modal
+Embedding (ACME) to resolve the cross-modal retrieval task in food domains.
+Specifically, the goal is to learn a common embedding feature space between the
+two modalities, in which our approach consists of several novel ideas: (i)
+learning by using a new triplet loss scheme together with an effective sampling
+strategy, (ii) imposing modality alignment using an adversarial learning
+strategy, and (iii) imposing cross-modal translation consistency such that the
+embedding of one modality is able to recover some important information of
+corresponding instances in the other modality. ACME achieves the
+state-of-the-art performance on the benchmark Recipe1M dataset, validating the
+efficacy of the proposed technique.

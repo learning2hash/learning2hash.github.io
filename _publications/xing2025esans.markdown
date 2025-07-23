@@ -1,0 +1,29 @@
+---
+layout: publication
+title: 'ESANS: Effective And Semantic-aware Negative Sampling For Large-scale Retrieval
+  Systems'
+authors: Xing Haibo, Matsuyama Kanefumi, Deng Hao, Hu Jinxin, Zhang Yu, Zeng Xiaoyi
+conference: Proceedings of the ACM on Web Conference 2025
+year: 2025
+bibkey: xing2025esans
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.16077'}]
+tags: ["Efficiency", "Evaluation", "Large-Scale Search", "Recommender Systems", "Scalability"]
+short_authors: Xing et al.
+---
+Industrial recommendation systems typically involve a two-stage process:
+retrieval and ranking, which aims to match users with millions of items. In the
+retrieval stage, classic embedding-based retrieval (EBR) methods depend on
+effective negative sampling techniques to enhance both performance and
+efficiency. However, existing techniques often suffer from false negatives,
+high cost for ensuring sampling quality and semantic information deficiency. To
+address these limitations, we propose Effective and Semantic-Aware Negative
+Sampling (ESANS), which integrates two key components: Effective Dense
+Interpolation Strategy (EDIS) and Multimodal Semantic-Aware Clustering (MSAC).
+EDIS generates virtual samples within the low-dimensional embedding space to
+improve the diversity and density of the sampling distribution while minimizing
+computational costs. MSAC refines the negative sampling distribution by
+hierarchically clustering item representations based on multimodal information
+(visual, textual, behavioral), ensuring semantic consistency and reducing false
+negatives. Extensive offline and online experiments demonstrate the superior
+efficiency and performance of ESANS.
