@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Visualization of Publications on Learning To Hash
+title: Visualization of Publications on Learning to Hash 
 description: A tSNE visualization of all the Learning to Hash Papers with Clustering
 ---
 
@@ -217,8 +217,18 @@ d3.json('./tsne_clustered.json').then(function(data) {
     d3.select("#matchCount").text("Matching papers: " + filteredData.length);
   };
 
-  updateVisualization();
+  // Apply initial zoom-out transformation BEFORE updateVisualization()
+  const initialZoomTransform = d3.zoomIdentity
+    .translate(width / 2, height / 2)
+    .scale(0.6)
+    .translate(-width / 2, -height / 2);
+  
+  svg.call(zoom.transform, initialZoomTransform);
+  currentTransform = initialZoomTransform;
 
+  // Now render data with the zoomed-out view
+  updateVisualization();
+  
   d3.select("#yearRange").on("input", function() {
     d3.select("#yearLabel").text(this.value);
     updateVisualization();
