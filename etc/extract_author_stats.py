@@ -57,7 +57,7 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
     # Finalize output
     for author in author_stats:
         # Keep only the top 5 tags
-        top_tags = [tag for tag, _ in author_stats[author]["tags"].most_common(5)]
+        top_tags = [tag for tag, _ in author_stats[author]["tags"].most_common(3)]
         author_stats[author]["tags"] = top_tags
 
     os.makedirs(output_dir, exist_ok=True)
