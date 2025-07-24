@@ -104,7 +104,7 @@ fetch('author_stats.json')
           info.degree?.toFixed(2) ?? '—',
           info.pagerank?.toFixed(4) ?? '—',
           info.clustering?.toFixed(2) ?? '—',
-          `<span class="sparkline">${spark}</span>`,
+          `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
           tags,
           `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
         ];
@@ -127,7 +127,27 @@ fetch('author_stats.json')
 
     // draw sparklines on draw
     function drawSparks() {
-      $('.sparkline').sparkline('html', { type:'bar', height:'30px', barWidth:7, barSpacing:2 });
+      $('.sparkline').each(function() {
+        const $el = $(this);
+        const values = $el.text().split(',').map(Number);
+        const years = $el.data('years')?.toString().split(',') || [];
+    
+        const tooltipLookup = {};
+        years.forEach((year, i) => {
+          tooltipLookup[i] = year;
+        });
+    
+        $el.sparkline(values, {
+          type: 'bar',
+          height: '30px',
+          barWidth: 7,
+          barSpacing: 2,
+          tooltipFormat: '{{value}} papers in {{offset:years}}',
+          tooltipValueLookups: {
+            years: tooltipLookup
+          }
+        });
+      });
     }
     drawSparks();
     table.on('draw', drawSparks);
@@ -206,3 +226,4 @@ fetch('author_stats.json')
   });
   });
 </script>
+
