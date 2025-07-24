@@ -6,7 +6,7 @@ description: Explore prolific authors and their contributions across Learning To
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
-  Discover leading contributors in Learning to Hash research. Sort by paper count or citations, and expand “Details” to explore their work.
+  Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, and expand “Details” to explore their work.
 </p>
 
 <table id="author-table" class="display stripe hover" style="width:100%">
@@ -15,7 +15,8 @@ description: Explore prolific authors and their contributions across Learning To
       <th data-priority="1">👤 Author</th>
       <th data-priority="3">📄 Papers</th>
       <th data-priority="4">📊 Citations</th>
-      <th data-priority="5">🏷️ Tags</th>
+      <th data-priority="5">📈 Timeline</th>
+      <th data-priority="6">🏷️ Tags</th>
       <th data-priority="2">🔎 Details</th>
     </tr>
   </thead>
@@ -27,22 +28,33 @@ description: Explore prolific authors and their contributions across Learning To
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css"/>
 <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"/>
 
-<!-- jQuery + DataTables JS + Buttons + Responsive -->
+<!-- jQuery + DataTables JS + Buttons + Responsive + Sparkline -->
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js"></script>
 <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparkline/2.4.0/jquery.sparkline.min.js"></script>
 
 <script>
 fetch('author_stats.json')
   .then(response => response.json())
   .then(data => {
-    const table = $('#author-table').DataTable({
-      data: Object.entries(data).map(([author, info]) => [
+    const rows = Object.entries(data).map(([author, info]) => {
+      // Build sparkline data: counts per year
+      const yearCounts = {};
+      info.papers.forEach(p => {
+        const y = p.year;
+        yearCounts[y] = (yearCounts[y] || 0) + 1;
+      });
+      const sortedYears = Object.keys(yearCounts).sort();
+      const sparkData = sortedYears.map(y => yearCounts[y]).join(',');
+
+      return [
         `<strong>${author}</strong>`,
         info.paper_count,
         info.total_citations,
+        `<span class="sparkline" title="${sortedYears.join(',')}">${sparkData}</span>`,
         info.tags.map(tag => {
           const urlTag = encodeURIComponent(tag.replace(/\s+/g, '-'));
           return `
@@ -52,18 +64,23 @@ fetch('author_stats.json')
               </span>
             </a>`;
         }).join(' '),
-        '<button class="toggle-details">+</button>'
-      ]),
-      order: [[1, 'desc']],
-      dom: 'Bfrtip',       // show buttons
-      buttons: [ 'colvis' ],
+        '<button class="toggle-details" style="padding:4px 8px;">+</button>'
+      ];
+    });
+
+    const table = $('#author-table').DataTable({
+      data: rows,
+      order: [[1, 'desc']],  // sort by Papers descending
+      dom: 'Bfrtip',
+      buttons: ['colvis'],
       responsive: {
         details: {
-          renderer: function(api, rowIdx, columns) {
-            const authorHTML = columns[0].data;
+          renderer: function(api, rowIdx) {
+            const dataRow = api.row(rowIdx).data();
+            const authorHTML = dataRow[0];
             const author = authorHTML.replace(/<[^>]+>/g, '');
-            const info = data[author] || {};
-            if (!info.papers) return false;
+            const info = data[author];
+            if (!info || !info.papers) return false;
             return `<ul style="padding-left:20px; margin:0;">
               ${info.papers.map(p => `
                 <li style="margin-bottom:6px;">
@@ -77,14 +94,27 @@ fetch('author_stats.json')
         }
       },
       columnDefs: [
-        { targets: 4, orderable: false },
+        { targets: [3,5], orderable: false },
         { responsivePriority: 1, targets: 0 },
-        { responsivePriority: 2, targets: 4 },
+        { responsivePriority: 2, targets: 5 },
         { responsivePriority: 3, targets: 1 },
         { responsivePriority: 4, targets: 2 },
-        { responsivePriority: 5, targets: 3 }
+        { responsivePriority: 5, targets: 3 },
+        { responsivePriority: 6, targets: 4 }
       ]
     });
+
+    // Initialize sparklines on first draw and on subsequent draws
+    function drawSparklines() {
+      $('.sparkline').sparkline('html', {
+        type: 'bar',
+        height: '30px',
+        barWidth: 7,
+        barSpacing: 2
+      });
+    }
+    drawSparklines();
+    table.on('draw', drawSparklines);
 
     // Expand row on button click
     $('#author-table tbody').on('click', 'button.toggle-details', function() {
