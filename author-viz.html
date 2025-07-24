@@ -157,6 +157,12 @@ fetch('author_stats.json')
         .attr('fill', d => color(data[d.id]?.community))
         .attr('stroke', d => d.id === author ? 'red' : 'black')
         .attr('stroke-width', d => d.id === author ? 2 : 0.5)
+        .style('cursor', 'pointer')
+        .on('click', (event, d) => {
+          if (data[d.id]) {
+            showNetwork(d.id);  // 🔁 load new graph with clicked node as center
+          }
+        })
         .append('title')
         .text(d => {
           const node = data[d.id];
