@@ -173,6 +173,9 @@ function search() {
       <th data-priority="1">👤 Author</th>
       <th data-priority="3">📄 Papers</th>
       <th data-priority="4">📊 Citations</th>
+      <th title="🧩 Number of direct co-author connections (degree centrality).">🧩 Connections</th>
+      <th title="🔝 Author influence score based on PageRank algorithm.">🔝 PageRank</th>
+      <th title="🔄 Measures how tightly the author's co-authors are interconnected.">🔄 Clustering</th>
       <th data-priority="5">📈 Paper Count Timeline</th>
       <th data-priority="6">🏷️ Tags</th>
       <th data-priority="2">🔗 Network</th>
@@ -180,13 +183,20 @@ function search() {
   </thead>
   <tbody></tbody>
 </table>
-
+<p style="font-size: 0.9em; margin-top: 1em;">
+  🧩 <strong>Connections</strong>: Number of direct co-author links (degree centrality).<br>
+  🔝 <strong>PageRank</strong>: Influence score based on network structure.<br>
+  🔄 <strong>Clustering</strong>: Indicates how interconnected the author’s co-authors are.<br>
+  ℹ️ Hover over an author’s name to see additional network metrics like betweenness and community.
+</p>
 <!-- Modal for network graph -->
 <div id="network-modal" style="display:none; position:fixed; top:5%; left:5%; width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000;">
   <button id="modal-close" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
   <svg id="network-svg" width="100%" height="100%"></svg>
 </div>
-
+<div id="network-legend" style="display:none; font-size: 0.85em; margin-top: 8px; padding-left: 5%; padding-right: 5%;">
+  ⭕ <strong>Circle size</strong> ∝ PageRank score · 🎨 <strong>Color</strong> = Community · 🔴 Red border = selected author
+</div>
 <!-- CSS for DataTables, Buttons, Responsive -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css"/>
@@ -236,13 +246,16 @@ fetch('author_stats.json')
       const nameCell = `<span style="background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="title="Community ${info.community} • Betweenness ${betweenness.toFixed(3)}\n(Betweenness measures how central this author is in the co-author network.)"">${author}</span>`;
       const tags = info.tags.map(tag => `<span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>`).join(' ');
       return [
-        nameCell,
-        info.paper_count,
-        info.total_citations,
-        `<span class="sparkline">${spark}</span>`,
-        tags,
-        `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
-      ];
+          nameCell,
+          info.paper_count,
+          info.total_citations,
+          info.degree?.toFixed(2) ?? '—',
+          info.pagerank?.toFixed(4) ?? '—',
+          info.clustering?.toFixed(2) ?? '—',
+          `<span class="sparkline">${spark}</span>`,
+          tags,
+          `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
+        ];
     });
 
     // initialize DataTable with first 100 rows shown
@@ -254,9 +267,9 @@ fetch('author_stats.json')
       pageLength: 100,
       lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
       columnDefs: [
-        { targets: [3,5], orderable: false },
+        { targets: [6, 8], orderable: false },  // timeline & network
         { responsivePriority: 1, targets: 0 },
-        { responsivePriority: 2, targets: 5 }
+        { responsivePriority: 2, targets: 8 }
       ]
     });
 
@@ -280,13 +293,28 @@ fetch('author_stats.json')
         .force('center', d3.forceCenter(w/2, h/2));
       svg.append('g').selectAll('line').data(links).enter().append('line').attr('stroke','#999');
       const nd = svg.append('g').selectAll('circle').data(nodes).enter()
-        .append('circle').attr('r', d=>d.id===author?10:6)
-        .attr('fill', d=>color(data[d.id]?.community))
-        .call(d3.drag()
-          .on('start', e=>{ if(!e.active) sim.alphaTarget(0.3).restart(); e.subject.fx=e.subject.x; e.subject.fy=e.subject.y; })
-          .on('drag', e=>{ e.subject.fx=e.x; e.subject.fy=e.y; })
-          .on('end', e=>{ if(!e.active) sim.alphaTarget(0); e.subject.fx=null; e.subject.fy=null; })
-        );
+        .append('circle')
+        .attr('r', d => {
+          const rank = data[d.id]?.pagerank ?? 0.001;
+          return 4 + Math.sqrt(rank * 500);  // scale PageRank to radius
+        })
+        .attr('fill', d => color(data[d.id]?.community))
+        .attr('stroke', d => d.id === author ? 'red' : 'black')
+        .attr('stroke-width', d => d.id === author ? 2 : 0.5)
+        .append('title')
+        .text(d => {
+          const node = data[d.id];
+          return node
+            ? `${d.id}
+      Community: ${node.community}
+      Degree: ${node.degree?.toFixed(2)}
+      Betweenness: ${node.betweenness?.toFixed(3)}
+      Closeness: ${node.closeness?.toFixed(3)}
+      Eigenvector: ${node.eigenvector?.toFixed(3)}
+      PageRank: ${node.pagerank?.toFixed(4)}
+      Clustering: ${node.clustering?.toFixed(2)}`
+            : d.id;
+        });
       svg.append('g').selectAll('text').data(nodes).enter().append('text')
         .text(d=>d.id).attr('font-size','10px').attr('dx',8).attr('dy',4);
       sim.on('tick', ()=>{
@@ -296,11 +324,16 @@ fetch('author_stats.json')
         svg.selectAll('text').attr('x', d=>d.x).attr('y', d=>d.y);
       });
       $('#network-modal').show();
+      $('#network-legend').show();
     }
     $('#author-table').on('click','button.net-btn', function(){ showNetwork($(this).data('author')); });
-    $('#modal-close').on('click', ()=>$('#network-modal').hide());
+    $('#modal-close').on('click', () => {
+    $('#network-modal').hide();
+    $('#network-legend').hide();
+  });
   });
 </script>
+
 
     </div>
 
