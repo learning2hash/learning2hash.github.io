@@ -1,0 +1,36 @@
+---
+layout: publication
+title: 'X-CLIP: End-to-end Multi-grained Contrastive Learning For Video-text Retrieval'
+authors: Yiwei Ma, Guohai Xu, Xiaoshuai Sun, Ming Yan, Ji Zhang, Rongrong Ji
+conference: Proceedings of the 30th ACM International Conference on Multimedia
+year: 2022
+bibkey: ma2022x
+citations: 157
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.07285'}]
+tags: ["Evaluation", "Multimodal Retrieval", "Self-Supervised", "Text Retrieval", "Video Retrieval"]
+short_authors: Ma et al.
+---
+Video-text retrieval has been a crucial and fundamental task in multi-modal
+research. The development of video-text retrieval has been considerably
+promoted by large-scale multi-modal contrastive pre-training, which primarily
+focuses on coarse-grained or fine-grained contrast. However, cross-grained
+contrast, which is the contrast between coarse-grained representations and
+fine-grained representations, has rarely been explored in prior research.
+Compared with fine-grained or coarse-grained contrasts, cross-grained contrast
+calculate the correlation between coarse-grained features and each fine-grained
+feature, and is able to filter out the unnecessary fine-grained features guided
+by the coarse-grained feature during similarity calculation, thus improving the
+accuracy of retrieval. To this end, this paper presents a novel multi-grained
+contrastive model, namely X-CLIP, for video-text retrieval. However, another
+challenge lies in the similarity aggregation problem, which aims to aggregate
+fine-grained and cross-grained similarity matrices to instance-level
+similarity. To address this challenge, we propose the Attention Over Similarity
+Matrix (AOSM) module to make the model focus on the contrast between essential
+frames and words, thus lowering the impact of unnecessary frames and words on
+retrieval results. With multi-grained contrast and the proposed AOSM module,
+X-CLIP achieves outstanding performance on five widely-used video-text
+retrieval datasets, including MSR-VTT (49.3 R@1), MSVD (50.4 R@1), LSMDC (26.1
+R@1), DiDeMo (47.8 R@1) and ActivityNet (46.2 R@1). It outperforms the previous
+state-of-theart by +6.3%, +6.6%, +11.1%, +6.7%, +3.8% relative improvements on
+these benchmarks, demonstrating the superiority of multi-grained contrast and
+AOSM.

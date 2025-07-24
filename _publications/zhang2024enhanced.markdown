@@ -1,0 +1,33 @@
+---
+layout: publication
+title: An Enhanced Batch Query Architecture In Real-time Recommendation
+authors: Qiang Zhang, Zhipeng Teng, Disheng Wu, Jiayin Wang
+conference: Proceedings of the 33rd ACM International Conference on Information and
+  Knowledge Management
+year: 2024
+bibkey: zhang2024enhanced
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.00400'}]
+tags: ["CIKM", "Efficiency", "Evaluation", "Recommender Systems"]
+short_authors: Zhang et al.
+---
+In industrial recommendation systems on websites and apps, it is essential to
+recall and predict top-n results relevant to user interests from a content pool
+of billions within milliseconds. To cope with continuous data growth and
+improve real-time recommendation performance, we have designed and implemented
+a high-performance batch query architecture for real-time recommendation
+systems. Our contributions include optimizing hash structures with a
+cacheline-aware probing method to enhance coalesced hashing, as well as the
+implementation of a hybrid storage key-value service built upon it. Our
+experiments indicate this approach significantly surpasses conventional hash
+tables in batch query throughput, achieving up to 90% of the query throughput
+of random memory access when incorporating parallel optimization. The support
+for NVMe, integrating two-tier storage for hot and cold data, notably reduces
+resource consumption. Additionally, the system facilitates dynamic updates,
+automated sharding of attributes and feature embedding tables, and introduces
+innovative protocols for consistency in batch queries, thereby enhancing the
+effectiveness of real-time incremental learning updates. This architecture has
+been deployed and in use in the bilibili recommendation system for over a year,
+a video content community with hundreds of millions of users, supporting 10x
+increase in model computation with minimal resource growth, improving outcomes
+while preserving the system's real-time performance.

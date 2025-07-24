@@ -1,0 +1,26 @@
+---
+layout: publication
+title: Video-text Retrieval By Supervised Sparse Multi-grained Learning
+authors: Yimu Wang, Peng Shi
+conference: 'Findings of the Association for Computational Linguistics: EMNLP 2023'
+year: 2023
+bibkey: wang2023video
+citations: 4
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.09473'}]
+tags: ["EMNLP", "Supervised", "Text Retrieval", "Tools & Libraries"]
+short_authors: Yimu Wang, Peng Shi
+---
+While recent progress in video-text retrieval has been advanced by the
+exploration of better representation learning, in this paper, we present a
+novel multi-grained sparse learning framework, S3MA, to learn an aligned sparse
+space shared between the video and the text for video-text retrieval. The
+shared sparse space is initialized with a finite number of sparse concepts,
+each of which refers to a number of words. With the text data at hand, we learn
+and update the shared sparse space in a supervised manner using the proposed
+similarity and alignment losses. Moreover, to enable multi-grained alignment,
+we incorporate frame representations for better modeling the video modality and
+calculating fine-grained and coarse-grained similarities. Benefiting from the
+learned shared sparse space and multi-grained similarities, extensive
+experiments on several video-text retrieval benchmarks demonstrate the
+superiority of S3MA over existing methods. Our code is available at
+https://github.com/yimuwangcs/Better_Cross_Modal_Retrieval.
