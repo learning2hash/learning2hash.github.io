@@ -6,7 +6,7 @@ comments: true
 permalink: /
 ---
 
-# 🔐 Awesome Papers on Learning to Hash
+# Awesome Papers on Learning to Hash
 
 <p style="font-size: 1.2em;">A curated, living collection of research on hashing-based approximate nearest neighbour search — across vision, NLP, bioinformatics, and beyond.</p>
 
