@@ -11,6 +11,13 @@ description: Explore prolific authors and their contributions across Learning To
   and click “View” to explore each author’s co-author graph.
 </p>
 
+<p style="font-size: 0.95em;">
+  🔍 Authors are color-coded by community. 
+  <span title="Betweenness centrality measures how often an author lies on the shortest paths between other authors. High values suggest strategic or well-connected positions.">
+    ℹ️ Authors with a red border have high betweenness — they're highly connected in the co-author network.
+  </span>
+</p>
+
 <table id="author-table" class="display stripe hover" style="width:100%">
   <thead>
     <tr>
@@ -64,7 +71,8 @@ fetch('author_stats.json')
       const spark = years.map(y => counts[y]).join(',');
       const betweenness = info.betweenness ?? 0;
       const border = betweenness > threshold ? ' border:2px solid red;' : '';
-      const nameCell = `<span style="background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community}, Betweenness ${betweenness.toFixed(3)}">${author}</span>`;
+    
+      const nameCell = `<span style="background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="title="Community ${info.community} • Betweenness ${betweenness.toFixed(3)}\n(Betweenness measures how central this author is in the co-author network.)"">${author}</span>`;
       const tags = info.tags.map(tag => `<span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>`).join(' ');
       return [
         nameCell,
