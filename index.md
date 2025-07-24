@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Awesome Papers on Learning to Hash
+title: "Awesome Papers on Learning to Hash: A Curated, Evolving Resource"
+description: "Explore the latest research in learning to hash, including key papers, topic tags, taxonomy-based organization, applications, and community contributions — a living literature review for ANN and hashing methods."
 comments: true
+permalink: /
 ---
 
 # 🔐 Awesome Papers on Learning to Hash
