@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import re
 import yaml
 import json
 import argparse
@@ -10,115 +11,148 @@ from community import community_louvain
 
 
 def collate_author_statistics(markdown_dir, output_dir="output", output_filename="author_stats.json"):
-    # Initial collection of per-author stats
+    """
+    Collate author statistics from markdown files in a directory.
+
+    Reads markdown files, extracts metadata, and computes:
+      - Paper count, citations, top tags
+      - Publication timeline (sparkline data)
+      - Author age (last_year - first_year)
+      - Co-author relationships and count
+      - Louvain communities and betweenness centrality
+
+    Output JSON structure per author:
+    {
+      "paper_count": int,
+      "total_citations": int,
+      "tags": [top 5 tags],
+      "papers": [{title, year, citations, bibkey}, ...],
+      "age": int,
+      "coauthors": [list of names],
+      "coauthor_count": int,
+      "community": int,
+      "betweenness": float
+    }
+    """
+    # Initialize stats
     author_stats = defaultdict(lambda: {
         "paper_count": 0,
         "total_citations": 0,
         "tags": Counter(),
-        "papers": [],               # List of dicts with title, year, citations, bibkey
-        "coauthors": set()          # Temporary set of distinct co-authors
+        "papers": [],
+        "coauthors": set()
     })
 
-    # Scan markdown files
+    # Read markdown files
     for filename in os.listdir(markdown_dir):
-        if not (filename.endswith(".markdown") or filename.endswith(".md")):
+        if not filename.endswith(('.markdown', '.md')):
             continue
-
-        filepath = os.path.join(markdown_dir, filename)
-        with open(filepath, 'r', encoding='utf-8') as f:
+        path = os.path.join(markdown_dir, filename)
+        with open(path, 'r', encoding='utf-8') as f:
             content = f.read()
-
         if not content.startswith('---'):
             continue
-
         try:
-            yaml_part = content.split('---')[1]
-            metadata = yaml.safe_load(yaml_part)
+            yaml_part = content.split('---', 2)[1]
+            meta = yaml.safe_load(yaml_part)
         except Exception as e:
-            print(f"❌ Error parsing {filename}: {e}")
+            print(f"Error parsing {filename}: {e}")
             continue
 
-        # Normalize authors into list
-        authors = metadata.get("authors", [])
-        if isinstance(authors, str):
-            authors = [a.strip() for a in authors.split(",") if a.strip()]
+        # Normalize authors robustly (handle commas, 'and', and whitespace)
+        raw_authors = meta.get('authors', '')
+        authors = []
+        if isinstance(raw_authors, str):
+            # replace any ' and ' or ';' with commas, then split
+            unified = re.sub(r"\s+and\s+|;", ',', raw_authors)
+            for part in unified.split(','):
+                name = part.strip()
+                if not name:
+                    continue
+                # collapse internal whitespace to single spaces
+                name = re.sub(r"\s+", ' ', name)
+                authors.append(name)
+        elif isinstance(raw_authors, list):
+            for part in raw_authors:
+                if not isinstance(part, str):
+                    continue
+                name = part.strip()
+                if not name:
+                    continue
+                name = re.sub(r"\s+", ' ', name)
+                authors.append(name)
 
-        title = metadata.get("title", "Unknown Title")
-        year = metadata.get("year", "Unknown Year")
-        citations = metadata.get("citations", 0) or 0
-        tags = metadata.get("tags", []) or []
-        bibkey = metadata.get("bibkey", os.path.splitext(filename)[0])
+        title = meta.get('title', 'Unknown Title')
+        year = meta.get('year', 'Unknown Year')
+        citations = meta.get('citations', 0) or 0
+        tags = meta.get('tags', []) or []
+        bibkey = meta.get('bibkey', os.path.splitext(filename)[0])
 
         # Update stats
         for author in authors:
-            stat = author_stats[author]
-            stat["paper_count"] += 1
-            stat["total_citations"] += citations
-            stat["tags"].update(tags)
-            stat["papers"].append({
-                "title": title,
-                "year": year,
-                "citations": citations,
-                "bibkey": bibkey
+            st = author_stats[author]
+            st['paper_count'] += 1
+            st['total_citations'] += citations
+            st['tags'].update(tags)
+            st['papers'].append({
+                'title': title,
+                'year': year,
+                'citations': citations,
+                'bibkey': bibkey
             })
+        # Track coauthors
+        for a in authors:
+            for b in authors:
+                if a != b:
+                    author_stats[a]['coauthors'].add(b)
 
-        # Build co-author relationships
-        for author in authors:
-            for coauthor in authors:
-                if coauthor != author:
-                    author_stats[author]["coauthors"].add(coauthor)
-
-    # Build full co-author graph
+    # Build global graph
     G = nx.Graph()
-    for author, stat in author_stats.items():
+    for author, st in author_stats.items():
         G.add_node(author)
-        for co in stat["coauthors"]:
+        for co in st['coauthors']:
             G.add_edge(author, co)
 
-    # Compute communities via Louvain
+    # Community & centrality
     partition = community_louvain.best_partition(G)
-    # Compute betweenness centrality
     bc = nx.betweenness_centrality(G)
 
     # Finalize output
-    for author, stat in author_stats.items():
+    out = {}
+    for author, st in author_stats.items():
         # Top 5 tags
-        stat["tags"] = [tag for tag, _ in stat["tags"].most_common(5)]
+        tags_top = [t for t, _ in st['tags'].most_common(5)]
+        # Age
+        yrs = [int(p['year']) for p in st['papers'] if str(p['year']).isdigit()]
+        age = max(yrs) - min(yrs) if yrs else 0
+        # Coauthors
+        co_list = sorted(st['coauthors'])
 
-        # Compute age
-        years = []
-        for p in stat["papers"]:
-            try:
-                y = int(p.get("year", 0))
-                years.append(y)
-            except:
-                continue
-        stat["age"] = max(years) - min(years) if years else 0
-
-        # Co-author list and count
-        co_list = sorted(stat["coauthors"])
-        stat["coauthors"] = co_list
-        stat["coauthor_count"] = len(co_list)
-
-        # Add community and betweenness
-        stat["community"] = int(partition.get(author, 0))
-        stat["betweenness"] = bc.get(author, 0.0)
+        out[author] = {
+            'paper_count': st['paper_count'],
+            'total_citations': st['total_citations'],
+            'tags': tags_top,
+            'papers': st['papers'],
+            'age': age,
+            'coauthors': co_list,
+            'coauthor_count': len(co_list),
+            'community': int(partition.get(author, 0)),
+            'betweenness': bc.get(author, 0.0)
+        }
 
     # Write JSON
     os.makedirs(output_dir, exist_ok=True)
-    output_path = os.path.join(output_dir, output_filename)
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(author_stats, f, indent=2)
+    out_path = os.path.join(output_dir, output_filename)
+    with open(out_path, 'w', encoding='utf-8') as f:
+        json.dump(out, f, indent=2)
+    print(f"Author stats written to {out_path}")
+    return out_path
 
-    print(f"✅ Author stats saved to {output_path}")
-    return output_path
 
-
-if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Extract author statistics from markdown files.")
-    parser.add_argument("--markdown_dir", required=True, help="Path to directory containing markdown files.")
-    parser.add_argument("--output_dir", default="output", help="Directory to write the output JSON.")
-    parser.add_argument("--output_filename", default="author_stats.json", help="Name of the output JSON file.")
-
-    args = parser.parse_args()
+if __name__ == '__main__':
+    p = argparse.ArgumentParser()
+    p.add_argument('--markdown_dir', required=True)
+    p.add_argument('--output_dir', default='output')
+    p.add_argument('--output_filename', default='author_stats.json')
+    args = p.parse_args()
     collate_author_statistics(args.markdown_dir, args.output_dir, args.output_filename)
