@@ -56,7 +56,7 @@ description: Explore prolific authors and their contributions across Learning To
 fetch('author_stats.json')
   .then(res => res.json())
   .then(data => {
-    const authors = Object.keys(data);
+    const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
     const communities = [...new Set(authors.map(a => data[a].community))];
     const color = d3.scaleOrdinal(d3.schemeCategory10).domain(communities);
     const betwVals = authors.map(a => data[a].betweenness);
