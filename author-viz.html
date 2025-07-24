@@ -6,7 +6,9 @@ description: Explore prolific authors and their contributions across Learning To
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
-  Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, and expand “Details” to explore their work.
+  Discover leading contributors in Learning to Hash research.
+  Sort by paper count, citations, or timeline sparkline, color-coded by community,
+  and click “Network” to explore each author’s co-author graph.
 </p>
 
 <table id="author-table" class="display stripe hover" style="width:100%">
@@ -17,109 +19,127 @@ description: Explore prolific authors and their contributions across Learning To
       <th data-priority="4">📊 Citations</th>
       <th data-priority="5">📈 Timeline</th>
       <th data-priority="6">🏷️ Tags</th>
-      <th data-priority="2">🔎 Details</th>
+      <th data-priority="2">🔗 Network</th>
     </tr>
   </thead>
   <tbody></tbody>
 </table>
 
-<!-- DataTables CSS + Buttons & Responsive extensions -->
+<!-- Modal for network graph -->
+<div id="network-modal" style="display:none; position:fixed; top:5%; left:5%; width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000;">
+  <button id="modal-close" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+  <svg id="network-svg" width="100%" height="100%"></svg>
+</div>
+
+<!-- CSS for DataTables, Buttons, Responsive -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css"/>
 <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"/>
 
-<!-- jQuery + DataTables JS + Buttons + Responsive + Sparkline -->
+<!-- JS libraries: jQuery, DataTables, Buttons, Responsive, Sparkline, D3 -->
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js"></script>
 <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparkline/2.4.0/jquery.sparkline.min.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
 
 <script>
 fetch('author_stats.json')
-  .then(response => response.json())
+  .then(res => res.json())
   .then(data => {
-    const rows = Object.entries(data).map(([author, info]) => {
-      // Build sparkline data: counts per year
-      const yearCounts = {};
-      info.papers.forEach(p => {
-        const y = p.year;
-        yearCounts[y] = (yearCounts[y] || 0) + 1;
-      });
-      const sortedYears = Object.keys(yearCounts).sort();
-      const sparkData = sortedYears.map(y => yearCounts[y]).join(',');
+    const authors = Object.keys(data);
+    // extract communities and betweenness values
+    const communities = [...new Set(authors.map(a => data[a].community))];
+    const color = d3.scaleOrdinal(d3.schemeCategory10).domain(communities);
+    const betwVals = authors.map(a => data[a].betweenness);
+    const threshold = d3.quantile(betwVals.sort(d3.ascending), 0.8);
 
+    // prepare table rows
+    const rows = authors.map(author => {
+      const info = data[author];
+      // sparkline data
+      const counts = {};
+      info.papers.forEach(p => counts[p.year] = (counts[p.year]||0) + 1);
+      const years = Object.keys(counts).sort();
+      const spark = years.map(y => counts[y]).join(',');
+      // styled author label
+      const border = info.betweenness > threshold ? ' border:2px solid red;' : '';
+      const nameCell = `<span style="background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community}, Betweenness ${info.betweenness.toFixed(3)}">${author}</span>`;
+      // tags
+      const tags = info.tags.map(tag => `<span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>`).join(' ');
       return [
-        `<strong>${author}</strong>`,
+        nameCell,
         info.paper_count,
         info.total_citations,
-        `<span class="sparkline" title="${sortedYears.join(',')}">${sparkData}</span>`,
-        info.tags.map(tag => {
-          const urlTag = encodeURIComponent(tag.replace(/\s+/g, '-'));
-          return `
-            <a href="https://learning2hash.github.io/tags.html#${urlTag}" target="_blank" style="text-decoration:none;">
-              <span title="Explore '${tag}'" style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px; color:#000; cursor:pointer;">
-                🏷️ ${tag}
-              </span>
-            </a>`;
-        }).join(' '),
-        '<button class="toggle-details" style="padding:4px 8px;">+</button>'
+        `<span class="sparkline">${spark}</span>`,
+        tags,
+        `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
       ];
     });
 
+    // initialize DataTable
     const table = $('#author-table').DataTable({
       data: rows,
-      order: [[1, 'desc']],  // sort by Papers descending
       dom: 'Bfrtip',
       buttons: ['colvis'],
       responsive: {
-        details: {
-          renderer: function(api, rowIdx) {
-            const dataRow = api.row(rowIdx).data();
-            const authorHTML = dataRow[0];
-            const author = authorHTML.replace(/<[^>]+>/g, '');
-            const info = data[author];
-            if (!info || !info.papers) return false;
-            return `<ul style="padding-left:20px; margin:0;">
-              ${info.papers.map(p => `
-                <li style="margin-bottom:6px;">
-                  <a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" style="font-weight:600; text-decoration:none;">
-                    ${p.title}
-                  </a> <span style="color:#777;">(${p.year}, ${p.citations} cites)</span>
-                </li>
-              `).join('')}
-            </ul>`;
-          }
-        }
+        details: false  // use custom expansion only
       },
+      order: [[1, 'desc']],
       columnDefs: [
         { targets: [3,5], orderable: false },
         { responsivePriority: 1, targets: 0 },
-        { responsivePriority: 2, targets: 5 },
-        { responsivePriority: 3, targets: 1 },
-        { responsivePriority: 4, targets: 2 },
-        { responsivePriority: 5, targets: 3 },
-        { responsivePriority: 6, targets: 4 }
+        { responsivePriority: 2, targets: 5 }
       ]
     });
 
-    // Initialize sparklines on first draw and on subsequent draws
-    function drawSparklines() {
-      $('.sparkline').sparkline('html', {
-        type: 'bar',
-        height: '30px',
-        barWidth: 7,
-        barSpacing: 2
-      });
+    // draw sparklines
+    function drawSparks() {
+      $('.sparkline').sparkline('html', {type:'bar', height:'30px', barWidth:7, barSpacing:2});
     }
-    drawSparklines();
-    table.on('draw', drawSparklines);
+    drawSparks();
+    table.on('draw', drawSparks);
 
-    // Expand row on button click
-    $('#author-table tbody').on('click', 'button.toggle-details', function() {
-      const tr = $(this).closest('tr');
-      table.row(tr).responsive.expand();
-    });
+    // network modal functions
+    function showNetwork(author) {
+      const info = data[author];
+      const nodes = [{id:author}].concat(info.coauthors.map(c=>({id:c})));  
+      const links = info.coauthors.map(c=>({source:author, target:c}));
+      const svg = d3.select('#network-svg');
+      svg.selectAll('*').remove();
+      const w = svg.node().clientWidth, h = svg.node().clientHeight;
+      const sim = d3.forceSimulation(nodes)
+        .force('link', d3.forceLink(links).id(d=>d.id).distance(80))
+        .force('charge', d3.forceManyBody().strength(-200))
+        .force('center', d3.forceCenter(w/2, h/2));
+      // draw links
+      svg.append('g').selectAll('line').data(links).enter()
+         .append('line').attr('stroke','#999');
+      // draw nodes
+      const nd = svg.append('g').selectAll('circle').data(nodes).enter()
+         .append('circle').attr('r', d=>d.id===author?10:6)
+         .attr('fill', d=>color(data[d.id]?.community))
+         .call(d3.drag()
+           .on('start', e=>{ if(!e.active) sim.alphaTarget(0.3).restart(); e.subject.fx=e.subject.x; e.subject.fy=e.subject.y; })
+           .on('drag', e=>{ e.subject.fx=e.x; e.subject.fy=e.y; })
+           .on('end', e=>{ if(!e.active) sim.alphaTarget(0); e.subject.fx=null; e.subject.fy=null; })
+         );
+      // labels
+      svg.append('g').selectAll('text').data(nodes).enter()
+         .append('text').text(d=>d.id).attr('font-size','10px').attr('dx',8).attr('dy',4);
+      // tick update
+      sim.on('tick', ()=>{
+        svg.selectAll('line')
+           .attr('x1', d=>d.source.x).attr('y1', d=>d.source.y)
+           .attr('x2', d=>d.target.x).attr('y2', d=>d.target.y);
+        nd.attr('cx', d=>d.x).attr('cy', d=>d.y);
+        svg.selectAll('text').attr('x', d=>d.x).attr('y', d=>d.y);
+      });
+      $('#network-modal').show();
+    }
+    $('#author-table').on('click','button.net-btn', function(){ showNetwork($(this).data('author')); });
+    $('#modal-close').on('click', ()=>$('#network-modal').hide());
   });
 </script>
