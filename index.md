@@ -22,7 +22,7 @@ permalink: /
 {% endfor %}
 {% assign rawtags = rawtags | uniq | sort %}
 <p style="margin: 1em 0;">
-{% for tag in rawtags %}<tag style="display: inline-block; margin: 0.2em 0.5em;"><a href="/tags.html#{{ tag }}">#{{ tag }}</a></tag> {% endfor %}
+{% for tag in rawtags %}<tag style="display: inline-block; margin: 0.2em 0.5em;"><a href="/tags.html#{{ tag }}">#{{ tag }}</a></tag>{% endfor %}
 </p>
 
 ---
