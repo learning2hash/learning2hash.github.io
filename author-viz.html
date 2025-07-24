@@ -45,6 +45,12 @@ description: Explore prolific authors and their contributions across Learning To
   <button id="modal-close" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
   <svg id="network-svg" width="100%" height="100%"></svg>
 </div>
+<!-- Modal for paper list -->
+<div id="papers-modal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
+  <button id="papers-close" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+  <h3 id="papers-title">Papers by Author</h3>
+  <ul id="papers-list" style="font-size:0.95em;"></ul>
+</div>
 <div id="network-legend" style="display:none; font-size: 0.85em; margin-top: 8px; padding-left: 5%; padding-right: 5%;">
   ⭕ <strong>Circle size</strong> ∝ PageRank score · 🎨 <strong>Color</strong> = Community · 🔴 Red border = selected author
 </div>
@@ -93,8 +99,7 @@ fetch('author_stats.json')
       const spark = years.map(y => counts[y]).join(',');
       const betweenness = info.betweenness ?? 0;
       const border = betweenness > threshold ? ' border:2px solid red;' : '';
-    
-      const nameCell = `<span style="background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="title="Community ${info.community} • Betweenness ${betweenness.toFixed(3)}\n(Betweenness measures how central this author is in the co-author network.)"">${author}</span>`;
+      const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community} • Betweenness ${betweenness.toFixed(3)}">${author}</span>`;
       const tags = info.tags.map(tag => `<span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>`).join(' ');
       return [
           nameCell,
@@ -178,6 +183,21 @@ fetch('author_stats.json')
       $('#network-legend').show();
     }
     $('#author-table').on('click','button.net-btn', function(){ showNetwork($(this).data('author')); });
+    $('#author-table').on('click', '.author-name', function() {
+        const author = $(this).data('author');
+        const info = data[author];
+        const papers = info.papers || [];
+      
+        $('#papers-title').text(`📄 Papers by ${author}`);
+        $('#papers-list').html(
+          papers.map(p => `<li><strong>${p.title}</strong> (${p.year})</li>`).join('')
+        );
+      
+        $('#papers-modal').show();
+      });
+      $('#papers-close').on('click', () => {
+        $('#papers-modal').hide();
+      });
     $('#modal-close').on('click', () => {
     $('#network-modal').hide();
     $('#network-legend').hide();
