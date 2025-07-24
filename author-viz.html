@@ -79,7 +79,6 @@ fetch('author_stats.json')
     const table = $('#author-table').DataTable({
       data: rows,
       dom: 'Bfrtip',
-      buttons: ['colvis'],
       responsive: { details: false },
       order: [[1, 'desc']],
       pageLength: 100,
