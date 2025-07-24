@@ -166,7 +166,7 @@ function search() {
       <th data-priority="1">👤 Author</th>
       <th data-priority="3">📄 Papers</th>
       <th data-priority="4">📊 Citations</th>
-      <th data-priority="5">📈 Timeline</th>
+      <th data-priority="5">📈 Paper Count Timeline</th>
       <th data-priority="6">🏷️ Tags</th>
       <th data-priority="2">🔗 Network</th>
     </tr>
@@ -211,8 +211,9 @@ fetch('author_stats.json')
       info.papers.forEach(p => counts[p.year] = (counts[p.year]||0) + 1);
       const years = Object.keys(counts).sort();
       const spark = years.map(y => counts[y]).join(',');
-      const border = info.betweenness > threshold ? ' border:2px solid red;' : '';
-      const nameCell = `<span style="background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community}, Betweenness ${info.betweenness.toFixed(3)}">${author}</span>`;
+      const betweenness = info.betweenness ?? 0;
+      const border = betweenness > threshold ? ' border:2px solid red;' : '';
+      const nameCell = `<span style="background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community}, Betweenness ${betweenness.toFixed(3)}">${author}</span>`;
       const tags = info.tags.map(tag => `<span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>`).join(' ');
       return [
         nameCell,
