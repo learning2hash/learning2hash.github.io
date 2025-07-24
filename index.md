@@ -43,11 +43,11 @@ Explore the literature by topic. Use the tags below to navigate research on supe
 
 ### 🤔 What is Learning to Hash?
 <p>
-<a href="https://en.wikipedia.org/wiki/Nearest_neighbor_search">Nearest neighbour search</a> involves identifying similar items within large datasets. Learning to hash improves this process by mapping data into compact binary hash codes that preserve similarity relationships — facilitating efficient, memory-conscious retrieval.
+<a href="https://en.wikipedia.org/wiki/Nearest_neighbor_search">Nearest neighbour search</a> involves retrieving similar items from large datasets, often in high-dimensional spaces. <strong>Learning to Hash (L2H)</strong> enhances this process by learning compact representations—typically binary codes, but sometimes real-valued or quantized forms—that preserve semantic or structural similarity. These representations enable fast and memory-efficient approximate retrieval by avoiding exhaustive comparisons.
 </p>
 
 <p>
-These methods underpin a wide range of systems, from multimedia search and recommendation engines to scientific data analysis pipelines.
+Learning to Hash techniques underpin a broad range of applications, including large-scale multimedia retrieval, recommendation systems, source code search, scientific data mining, and real-time anomaly detection.
 </p>
 
 #### 🔬 Selected Applications
@@ -63,7 +63,7 @@ These methods underpin a wide range of systems, from multimedia search and recom
 
 ### 🧩 How Hashing Works
 <p>
-Learning to hash involves training a model to encode data points into binary hash codes. These codes are then used to assign items to buckets in one or more hash tables. During retrieval, only the relevant buckets are searched — reducing computational overhead significantly compared to exhaustive search.
+Learning to hash involves training a model to encode data points into compact representations, often binary hash codes. These are used to index items into hash tables. During retrieval, only a subset of nearby buckets are examined, significantly reducing the search space compared to exhaustive nearest neighbour methods.
 </p>
 
 <p align="center">
@@ -73,9 +73,9 @@ Learning to hash involves training a model to encode data points into binary has
 
 ---
 
-### 🤝 Contributing to the Collection
+### 🤝 Contribute to the Collection
 <p>
-This site is maintained as a community resource. If you have authored or come across a relevant paper, we encourage you to contribute via our submission form or GitHub pull request. See the <a href="contributing.html">Contributing</a> page for details.
+This site is maintained as a community-driven literature review. If you have authored or come across a relevant paper, we encourage you to contribute via our submission form or GitHub pull request. See the <a href="contributing.html">Contributing</a> page for details.
 </p>
 
 <p>
