@@ -15,9 +15,8 @@ A curated and continuously updated collection of academic papers on hashing-base
 ---
 
 ### 🏷 Browse Papers by Tag
-<p>
-Explore the literature by topic. Use the tags below to navigate research on supervised hashing, deep binary embeddings, quantization, indexing strategies, and other relevant themes:
-</p>
+
+Explore the latest research by browsing papers categorized by tags. Select a tag below to dive deeper into specific topics within the field of learning to hash:
 
 {% assign rawtags = Array.new %}
 {% for publication in site.publications %}
@@ -25,6 +24,7 @@ Explore the literature by topic. Use the tags below to navigate research on supe
   {% assign rawtags = rawtags | concat: ttags %}  
 {% endfor %}
 {% assign rawtags = rawtags | uniq | sort %}
+{% for tag in rawtags %}<tag><a href="/tags.html#{{ tag }}">{{ tag }}</a></tag> {% endfor %}
 
 ---
 
