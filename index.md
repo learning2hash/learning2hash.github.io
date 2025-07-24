@@ -1,19 +1,23 @@
 ---
 layout: default
 title: "Awesome Papers on Learning to Hash: A Curated, Evolving Resource"
-description: "Explore the latest research in learning to hash, including key papers, topic tags, taxonomy-based organization, applications, and community contributions — a living literature review for ANN and hashing methods."
+description: "Explore recent research in learning to hash, including key publications, topic tags, taxonomy-driven organization, real-world applications, and community contributions — a living literature review for approximate nearest neighbour methods."
 comments: true
 permalink: /
 ---
 
 # Awesome Papers on Learning to Hash
 
-<p style="font-size: 1.2em;">A curated, living collection of research on hashing-based approximate nearest neighbour search — across vision, NLP, bioinformatics, and beyond.</p>
+<p style="font-size: 1.2em;">
+A curated and continuously updated collection of academic papers on hashing-based approximate nearest neighbour (ANN) search, spanning applications in computer vision, natural language processing, bioinformatics, and related domains.
+</p>
 
 ---
 
 ### 🏷 Browse Papers by Tag
-<p>Quickly explore the latest research by topic. Click a tag below to dive into supervised hashing, deep binary embeddings, quantization, indexing techniques, and more:</p>
+<p>
+Explore the literature by topic. Use the tags below to navigate research on supervised hashing, deep binary embeddings, quantization, indexing strategies, and other relevant themes:
+</p>
 
 {% assign rawtags = Array.new %}
 {% for publication in site.publications %}
@@ -29,44 +33,54 @@ permalink: /
 
 ### 📚 What This Site Offers
 <ul style="font-size: 1em;">
-  <li>🔍 Search and browse 2000+ curated papers organized by topic and taxonomy</li>
-  <li>📈 Discover trends in supervised, unsupervised, deep, and quantized hashing</li>
-  <li>🧠 Explore research applications from audio and image retrieval to code search and earthquake detection</li>
-  <li>📎 Contribute your own papers and help keep the field current</li>
+  <li>🔍 Access over 2,000 curated publications, organized by topic and methodological taxonomy</li>
+  <li>📈 Identify emerging trends in supervised, unsupervised, deep, and quantized hashing methods</li>
+  <li>🧠 Examine real-world applications including audio retrieval, source code search, and geospatial monitoring</li>
+  <li>📎 Contribute to the resource by submitting new papers or updates</li>
 </ul>
 
 ---
 
 ### 🤔 What is Learning to Hash?
-<p><a href="https://en.wikipedia.org/wiki/Nearest_neighbor_search">Nearest Neighbour Search</a> is about finding similar items in large datasets. Learning to hash improves this process by encoding data into binary hash codes that preserve similarity — enabling fast, memory-efficient retrieval.</p>
+<p>
+<a href="https://en.wikipedia.org/wiki/Nearest_neighbor_search">Nearest neighbour search</a> involves identifying similar items within large datasets. Learning to hash improves this process by mapping data into compact binary hash codes that preserve similarity relationships — facilitating efficient, memory-conscious retrieval.
+</p>
 
-<p>These techniques power everything from image search and source code recommendation to seismic monitoring and malware detection.</p>
+<p>
+These methods underpin a wide range of systems, from multimedia search and recommendation engines to scientific data analysis pipelines.
+</p>
 
-#### 🔬 Applications in Action
+#### 🔬 Selected Applications
 <ul>
-  <li><strong><a href="https://arxiv.org/abs/2111.04473">Source Code Search</a></strong> – MinHash for code recommendations</li>
-  <li><strong><a href="https://openreview.net/pdf?id=rkgNKkHtvB">Efficient Transformers</a></strong> – Using LSH to reduce training cost</li>
-  <li><strong><a href="https://eng.uber.com/lsh/">Fraud Detection at Uber</a></strong> – LSH for spatial anomaly detection</li>
-  <li><strong><a href="https://www.aclweb.org/anthology/P14-5007">Event Tracking</a></strong> – Social media monitoring via hashing</li>
-  <li><strong><a href="https://ai.google/research/pubs/pub34634">Image Retrieval</a></strong> – Google’s large-scale visual indexing with LSH</li>
+  <li><strong><a href="https://arxiv.org/abs/2111.04473">Source Code Search</a></strong> – MinHash applied to large-scale code recommendation</li>
+  <li><strong><a href="https://openreview.net/pdf?id=rkgNKkHtvB">Efficient Transformers</a></strong> – Locality-Sensitive Hashing (LSH) for computational efficiency</li>
+  <li><strong><a href="https://eng.uber.com/lsh/">Fraud Detection</a></strong> – Spatial anomaly detection using LSH at Uber</li>
+  <li><strong><a href="https://www.aclweb.org/anthology/P14-5007">Event Tracking</a></strong> – Social media monitoring through similarity-preserving hashing</li>
+  <li><strong><a href="https://ai.google/research/pubs/pub34634">Image Retrieval</a></strong> – Scalable visual indexing with LSH at Google</li>
 </ul>
 
 ---
 
 ### 🧩 How Hashing Works
-<p>Learning to hash maps input data into binary hash codes. These are then used to index points into hash tables. At query time, only nearby hash buckets are searched — dramatically reducing computation compared to brute-force approaches.</p>
+<p>
+Learning to hash involves training a model to encode data points into binary hash codes. These codes are then used to assign items to buckets in one or more hash tables. During retrieval, only the relevant buckets are searched — reducing computational overhead significantly compared to exhaustive search.
+</p>
 
 <p align="center">
   <img src="/public/media/hashing.png?raw=true" alt="Locality Sensitive Hashing (LSH)" width="600" style="max-width: 100%; border-radius: 10px;"/>
-  <br><em>Visual example of LSH. From the <a href="https://learning2hash.github.io/cite.html">PhD thesis of Sean Moran</a>.</em>
+  <br><em>Example of LSH in action, from the <a href="https://learning2hash.github.io/cite.html">PhD thesis of Sean Moran</a>.</em>
 </p>
 
 ---
 
-### 🤝 Help Curate the Field
-<p>This project is a community-driven literature review. If you’ve written or discovered a new paper, you can submit it with a simple form or pull request. See the <a href="contributing.html">Contributing page</a> for instructions.</p>
+### 🤝 Contributing to the Collection
+<p>
+This site is maintained as a community resource. If you have authored or come across a relevant paper, we encourage you to contribute via our submission form or GitHub pull request. See the <a href="contributing.html">Contributing</a> page for details.
+</p>
 
-<p>Want to go deeper? Check out the full list of contributions on the <a href="/papers.html">All Papers</a> page or explore our <a href="/resources.html">Resources</a> section for primers and background.</p>
+<p>
+To explore further, view the full set of indexed papers on the <a href="/papers.html">All Papers</a> page, or visit the <a href="/resources.html">Resources</a> section for foundational materials and curated tools.
+</p>
 
 ---
 
