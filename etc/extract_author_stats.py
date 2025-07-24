@@ -116,6 +116,12 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
     # Community & centrality
     partition = community_louvain.best_partition(G)
     bc = nx.betweenness_centrality(G)
+    # Additional centrality and clustering metrics
+    deg_centrality = nx.degree_centrality(G)
+    closeness = nx.closeness_centrality(G)
+    eigenvector = nx.eigenvector_centrality(G, max_iter=1000)
+    pagerank = nx.pagerank(G)
+    clustering = nx.clustering(G)
 
     # Finalize output
     out = {}
@@ -137,7 +143,12 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
             'coauthors': co_list,
             'coauthor_count': len(co_list),
             'community': int(partition.get(author, 0)),
-            'betweenness': bc.get(author, 0.0)
+            'betweenness': bc.get(author, 0.0),
+            'degree': deg_centrality.get(author, 0.0),
+            'closeness': closeness.get(author, 0.0),
+            'eigenvector': eigenvector.get(author, 0.0),
+            'pagerank': pagerank.get(author, 0.0),
+            'clustering': clustering.get(author, 0.0)
         }
 
     # Write JSON
