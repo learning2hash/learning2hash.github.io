@@ -58,7 +58,19 @@ fetch('author_stats.json')
   .then(data => {
     const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
     const communities = [...new Set(authors.map(a => data[a].community))];
-    const color = d3.scaleOrdinal(d3.schemeCategory10).domain(communities);
+    const pastelColors = [
+    '#A1C9F4', // pastel blue
+    '#FFB482', // pastel orange
+    '#8DE5A1', // pastel green
+    '#FF9F9A', // pastel red
+    '#D0BBFF', // pastel purple
+    '#DEBB9B', // light tan
+    '#FAB0E4', // soft pink
+    '#CFCFCF', // light grey
+    '#B9F2F0', // mint
+    '#FFFEA3'  // light yellow
+    ];
+    const color = d3.scaleOrdinal(pastelColors).domain(communities);
     const betwVals = authors.map(a => data[a].betweenness);
     const threshold = d3.quantile(betwVals.sort(d3.ascending), 0.8);
 
