@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Explore Learning To Hash papers by Author
-description: Explore prolific authors and their contributions across Learning To Hash research
+title: Explore LLM papers by Author
+description: Explore prolific authors and their contributions across LLM research
 ---
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
-  Discover leading contributors in Learning to Hash research.
+  Discover leading contributors in LLM research.
   Sort by paper count, citations, or timeline sparkline, color-coded by community,
-  and click “Network” to explore each author’s co-author graph.
+  and click “View” to explore each author’s co-author graph.
 </p>
 
 <table id="author-table" class="display stripe hover" style="width:100%">
@@ -50,7 +50,6 @@ fetch('author_stats.json')
   .then(res => res.json())
   .then(data => {
     const authors = Object.keys(data);
-    // extract communities and betweenness values
     const communities = [...new Set(authors.map(a => data[a].community))];
     const color = d3.scaleOrdinal(d3.schemeCategory10).domain(communities);
     const betwVals = authors.map(a => data[a].betweenness);
@@ -59,15 +58,12 @@ fetch('author_stats.json')
     // prepare table rows
     const rows = authors.map(author => {
       const info = data[author];
-      // sparkline data
       const counts = {};
       info.papers.forEach(p => counts[p.year] = (counts[p.year]||0) + 1);
       const years = Object.keys(counts).sort();
       const spark = years.map(y => counts[y]).join(',');
-      // styled author label
       const border = info.betweenness > threshold ? ' border:2px solid red;' : '';
       const nameCell = `<span style="background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community}, Betweenness ${info.betweenness.toFixed(3)}">${author}</span>`;
-      // tags
       const tags = info.tags.map(tag => `<span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>`).join(' ');
       return [
         nameCell,
@@ -79,15 +75,15 @@ fetch('author_stats.json')
       ];
     });
 
-    // initialize DataTable
+    // initialize DataTable with first 100 rows shown
     const table = $('#author-table').DataTable({
       data: rows,
       dom: 'Bfrtip',
       buttons: ['colvis'],
-      responsive: {
-        details: false  // use custom expansion only
-      },
+      responsive: { details: false },
       order: [[1, 'desc']],
+      pageLength: 100,
+      lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
       columnDefs: [
         { targets: [3,5], orderable: false },
         { responsivePriority: 1, targets: 0 },
@@ -95,45 +91,38 @@ fetch('author_stats.json')
       ]
     });
 
-    // draw sparklines
+    // draw sparklines on draw
     function drawSparks() {
-      $('.sparkline').sparkline('html', {type:'bar', height:'30px', barWidth:7, barSpacing:2});
+      $('.sparkline').sparkline('html', { type:'bar', height:'30px', barWidth:7, barSpacing:2 });
     }
     drawSparks();
     table.on('draw', drawSparks);
 
-    // network modal functions
+    // network modal logic
     function showNetwork(author) {
       const info = data[author];
-      const nodes = [{id:author}].concat(info.coauthors.map(c=>({id:c})));  
+      const nodes = [{id:author}].concat(info.coauthors.map(c=>({id:c})));
       const links = info.coauthors.map(c=>({source:author, target:c}));
-      const svg = d3.select('#network-svg');
-      svg.selectAll('*').remove();
+      const svg = d3.select('#network-svg'); svg.selectAll('*').remove();
       const w = svg.node().clientWidth, h = svg.node().clientHeight;
       const sim = d3.forceSimulation(nodes)
         .force('link', d3.forceLink(links).id(d=>d.id).distance(80))
         .force('charge', d3.forceManyBody().strength(-200))
         .force('center', d3.forceCenter(w/2, h/2));
-      // draw links
-      svg.append('g').selectAll('line').data(links).enter()
-         .append('line').attr('stroke','#999');
-      // draw nodes
+      svg.append('g').selectAll('line').data(links).enter().append('line').attr('stroke','#999');
       const nd = svg.append('g').selectAll('circle').data(nodes).enter()
-         .append('circle').attr('r', d=>d.id===author?10:6)
-         .attr('fill', d=>color(data[d.id]?.community))
-         .call(d3.drag()
-           .on('start', e=>{ if(!e.active) sim.alphaTarget(0.3).restart(); e.subject.fx=e.subject.x; e.subject.fy=e.subject.y; })
-           .on('drag', e=>{ e.subject.fx=e.x; e.subject.fy=e.y; })
-           .on('end', e=>{ if(!e.active) sim.alphaTarget(0); e.subject.fx=null; e.subject.fy=null; })
-         );
-      // labels
-      svg.append('g').selectAll('text').data(nodes).enter()
-         .append('text').text(d=>d.id).attr('font-size','10px').attr('dx',8).attr('dy',4);
-      // tick update
+        .append('circle').attr('r', d=>d.id===author?10:6)
+        .attr('fill', d=>color(data[d.id]?.community))
+        .call(d3.drag()
+          .on('start', e=>{ if(!e.active) sim.alphaTarget(0.3).restart(); e.subject.fx=e.subject.x; e.subject.fy=e.subject.y; })
+          .on('drag', e=>{ e.subject.fx=e.x; e.subject.fy=e.y; })
+          .on('end', e=>{ if(!e.active) sim.alphaTarget(0); e.subject.fx=null; e.subject.fy=null; })
+        );
+      svg.append('g').selectAll('text').data(nodes).enter().append('text')
+        .text(d=>d.id).attr('font-size','10px').attr('dx',8).attr('dy',4);
       sim.on('tick', ()=>{
-        svg.selectAll('line')
-           .attr('x1', d=>d.source.x).attr('y1', d=>d.source.y)
-           .attr('x2', d=>d.target.x).attr('y2', d=>d.target.y);
+        svg.selectAll('line').attr('x1', d=>d.source.x).attr('y1', d=>d.source.y)
+                        .attr('x2', d=>d.target.x).attr('y2', d=>d.target.y);
         nd.attr('cx', d=>d.x).attr('cy', d=>d.y);
         svg.selectAll('text').attr('x', d=>d.x).attr('y', d=>d.y);
       });
