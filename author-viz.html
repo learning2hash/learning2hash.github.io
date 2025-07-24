@@ -52,20 +52,20 @@ alt="Web-Stat web statistics"></a></noscript>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Explore Learning To Hash papers by Author | Awesome Learning to Hash</title>
+<title>Explore Learning to Hash papers by Author | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Explore Learning To Hash papers by Author" />
+<meta property="og:title" content="Explore Learning to Hash papers by Author" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Explore prolific authors and their contributions across Learning To Hash research" />
-<meta property="og:description" content="Explore prolific authors and their contributions across Learning To Hash research" />
+<meta name="description" content="Explore prolific authors and their contributions across Learning to Hash research" />
+<meta property="og:description" content="Explore prolific authors and their contributions across Learning to Hash research" />
 <link rel="canonical" href="https://learning2hash.github.io/author-viz.html" />
 <meta property="og:url" content="https://learning2hash.github.io/author-viz.html" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Explore Learning To Hash papers by Author" />
+<meta property="twitter:title" content="Explore Learning to Hash papers by Author" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Explore prolific authors and their contributions across Learning To Hash research","headline":"Explore Learning To Hash papers by Author","url":"https://learning2hash.github.io/author-viz.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Explore prolific authors and their contributions across Learning to Hash research","headline":"Explore Learning to Hash papers by Author","url":"https://learning2hash.github.io/author-viz.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,16 +155,15 @@ function search() {
     <div class="content container">
       <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
-  Discover leading contributors in Learning To Hash research.
+  Discover leading contributors in Learning to Hash research.
   Sort by paper count, citations, or timeline sparkline, color-coded by community,
   and click “View” to explore each author’s co-author graph.
 </p>
 
 <p style="font-size: 0.95em;">
-  🔍 Authors are color-coded by <strong>community</strong>, which refers to clusters of authors who frequently collaborate with each other in the co-author network. These communities are automatically detected using a graph clustering algorithm that groups closely connected authors.
-  <span title="Betweenness centrality measures how often an author lies on the shortest paths between other authors. High values suggest strategic or well-connected positions.">
-    ℹ️ Authors with a red border have high betweenness — they're highly connected in the co-author network.
-  </span>
+  🔍 Authors are color-coded by <strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high <span title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>, indicating strong connectivity.  
+  🧩 <strong>Connections</strong>: co-author links. 🔝 <strong>PageRank</strong>: influence. 🔄 <strong>Clustering</strong>: co-author interconnectivity.  
+  ℹ️ Hover over names for detailed network stats.
 </p>
 
 <table id="author-table" class="display stripe hover" style="width:100%">
@@ -183,17 +182,13 @@ function search() {
   </thead>
   <tbody></tbody>
 </table>
-<p style="font-size: 0.9em; margin-top: 1em;">
-  🧩 <strong>Connections</strong>: Number of direct co-author links (degree centrality).<br>
-  🔝 <strong>PageRank</strong>: Influence score based on network structure.<br>
-  🔄 <strong>Clustering</strong>: Indicates how interconnected the author’s co-authors are.<br>
-  ℹ️ Hover over an author’s name to see additional network metrics like betweenness and community.
-</p>
+
 <!-- Modal for network graph -->
 <div id="network-modal" style="display:none; position:fixed; top:50%; left:50%; transform: translate(-50%, -50%); width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000; box-shadow: 0 4px 20px rgba(0,0,0,0.2); border-radius: 10px;">
   <button id="modal-close" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
   <svg id="network-svg" width="100%" height="100%"></svg>
 </div>
+
 <!-- Modal for paper list -->
 <div id="papers-modal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
   <button id="papers-close" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
@@ -203,6 +198,7 @@ function search() {
 <div id="network-legend" style="display:none; font-size: 0.85em; margin-top: 8px; padding-left: 5%; padding-right: 5%;">
   ⭕ <strong>Circle size</strong> ∝ PageRank score · 🎨 <strong>Color</strong> = Community · 🔴 Red border = selected author
 </div>
+
 <!-- CSS for DataTables, Buttons, Responsive -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css"/>
@@ -359,7 +355,6 @@ fetch('author_stats.json')
   });
   });
 </script>
-
 
     </div>
 
