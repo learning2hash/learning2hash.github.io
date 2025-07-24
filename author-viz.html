@@ -155,27 +155,33 @@ function search() {
     <div class="content container">
       <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
-  Discover leading contributors in Learning to Hash research. Sort by paper count or citations, and click “Details” to explore their work.
+  Discover leading contributors in Learning to Hash research. Sort by paper count or citations, and expand “Details” to explore their work.
 </p>
 
 <table id="author-table" class="display stripe hover" style="width:100%">
   <thead>
     <tr>
-      <th>👤 Author</th>
-      <th>📄 Papers</th>
-      <th>📊 Citations</th>
-      <th>🏷️ Tags</th>
-      <th>🔎 Details</th>
+      <th data-priority="1">👤 Author</th>
+      <th data-priority="3">📄 Papers</th>
+      <th data-priority="4">📊 Citations</th>
+      <th data-priority="5">🏷️ Tags</th>
+      <th data-priority="2">🔎 Details</th>
     </tr>
   </thead>
   <tbody></tbody>
 </table>
 
-<!-- Load jQuery + DataTables -->
+<!-- DataTables CSS + Buttons & Responsive extensions -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
-<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/dataTables.jqueryui.min.css"/>
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css"/>
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"/>
+
+<!-- jQuery + DataTables JS + Buttons + Responsive -->
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
 
 <script>
 fetch('author_stats.json')
@@ -183,62 +189,56 @@ fetch('author_stats.json')
   .then(data => {
     const table = $('#author-table').DataTable({
       data: Object.entries(data).map(([author, info]) => [
-        `<span style="font-weight: 600;">${author}</span>`,
+        `<strong>${author}</strong>`,
         info.paper_count,
         info.total_citations,
         info.tags.map(tag => {
           const urlTag = encodeURIComponent(tag.replace(/\s+/g, '-'));
-          return `<a href="https://learning2hash.github.io/tags.html#${urlTag}" target="_blank" style="text-decoration: none;">
-                    <span 
-                      title="Click to explore papers tagged '${tag}'"
-                      style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px; color:#000; cursor:pointer;">
-                      🏷️ ${tag}
-                    </span>
-                  </a>`;
+          return `
+            <a href="https://learning2hash.github.io/tags.html#${urlTag}" target="_blank" style="text-decoration:none;">
+              <span title="Explore '${tag}'" style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px; color:#000; cursor:pointer;">
+                🏷️ ${tag}
+              </span>
+            </a>`;
         }).join(' '),
-        `<button class="show-details" data-author="${author}" style="padding:4px 8px;">Show</button>`
+        '<button class="toggle-details">+</button>'
       ]),
       order: [[1, 'desc']],
+      dom: 'Bfrtip',       // show buttons
+      buttons: [ 'colvis' ],
+      responsive: {
+        details: {
+          renderer: function(api, rowIdx, columns) {
+            const authorHTML = columns[0].data;
+            const author = authorHTML.replace(/<[^>]+>/g, '');
+            const info = data[author] || {};
+            if (!info.papers) return false;
+            return `<ul style="padding-left:20px; margin:0;">
+              ${info.papers.map(p => `
+                <li style="margin-bottom:6px;">
+                  <a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" style="font-weight:600; text-decoration:none;">
+                    ${p.title}
+                  </a> <span style="color:#777;">(${p.year}, ${p.citations} cites)</span>
+                </li>
+              `).join('')}
+            </ul>`;
+          }
+        }
+      },
       columnDefs: [
-        { targets: 4, orderable: false }  // Disable sorting on "Details" column
+        { targets: 4, orderable: false },
+        { responsivePriority: 1, targets: 0 },
+        { responsivePriority: 2, targets: 4 },
+        { responsivePriority: 3, targets: 1 },
+        { responsivePriority: 4, targets: 2 },
+        { responsivePriority: 5, targets: 3 }
       ]
     });
 
-    $('#author-table tbody').on('click', 'button.show-details', function () {
-      const author = $(this).data('author');
-      const info = data[author];
-
-      const papersList = info.papers.map(p =>
-        `<li style="margin-bottom:6px;">
-          <a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" style="font-weight:600; text-decoration:none;">
-            ${p.title}
-          </a> <span style="color:#777;">(${p.year}) – ${p.citations} citations</span>
-        </li>`
-      ).join("");
-
-      const html = `
-        <html>
-        <head>
-          <title>${author} – LLM Papers</title>
-          <style>
-            body { font-family: sans-serif; padding: 20px; line-height: 1.5; }
-            h2 { margin-bottom: 10px; }
-            ul { padding-left: 20px; }
-          </style>
-        </head>
-        <body>
-          <h2>${author}</h2>
-          <p><strong>Total Papers:</strong> ${info.paper_count}</p>
-          <p><strong>Total Citations:</strong> ${info.total_citations}</p>
-          <p><strong>Tags:</strong> ${info.tags.join(', ')}</p>
-          <ul>${papersList}</ul>
-        </body>
-        </html>
-      `;
-
-      const popup = window.open("", "_blank", "width=600,height=600,scrollbars=yes");
-      popup.document.write(html);
-      popup.document.close();
+    // Expand row on button click
+    $('#author-table tbody').on('click', 'button.toggle-details', function() {
+      const tr = $(this).closest('tr');
+      table.row(tr).responsive.expand();
     });
   });
 </script>
