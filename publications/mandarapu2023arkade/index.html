@@ -62,11 +62,11 @@ alt="Web-Stat web statistics"></a></noscript>
 <meta property="og:url" content="https://learning2hash.github.io/publications/mandarapu2023arkade/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-07-23T14:43:55-05:00" />
+<meta property="article:published_time" content="2025-07-24T03:08:31-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Arkade: K-nearest Neighbor Search With Non-euclidean Distances Using GPU Ray Tracing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-23T14:43:55-05:00","datePublished":"2025-07-23T14:43:55-05:00","description":"High-performance implementations of \\(k\\)-Nearest Neighbor Search (\\(k\\)NN) in low dimensions use tree-based data structures. Tree algorithms are hard to parallelize on GPUs due to their irregularity. However, newer Nvidia GPUs offer hardware support for tree operations through ray-tracing cores. Recent works have proposed using RT cores to implement \\(k\\)NN search, but they all have a hardware-imposed constraint on the distance metric used in the search – the Euclidean distance. We propose and implement two reductions to support \\(k\\)NN for a broad range of distances other than the Euclidean distance: Arkade Filter-Refine and Arkade Monotone Transformation, each of which allows non-Euclidean distance-based nearest neighbor queries to be performed in terms of the Euclidean distance. With our reductions, we observe that \\(k\\)NN search time speedups range between \\(1.6\\)x-\\(200\\)x and \\(1.3\\)x-\\(33.1\\)x over various state-of-the-art GPU shader core and RT core baselines, respectively. In evaluation, we provide several insights on RT architectures’ ability to efficiently build and traverse the tree by analyzing the \\(k\\)NN search time trends.","headline":"Arkade: K-nearest Neighbor Search With Non-euclidean Distances Using GPU Ray Tracing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mandarapu2023arkade/"},"url":"https://learning2hash.github.io/publications/mandarapu2023arkade/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-24T03:08:31-05:00","datePublished":"2025-07-24T03:08:31-05:00","description":"High-performance implementations of \\(k\\)-Nearest Neighbor Search (\\(k\\)NN) in low dimensions use tree-based data structures. Tree algorithms are hard to parallelize on GPUs due to their irregularity. However, newer Nvidia GPUs offer hardware support for tree operations through ray-tracing cores. Recent works have proposed using RT cores to implement \\(k\\)NN search, but they all have a hardware-imposed constraint on the distance metric used in the search – the Euclidean distance. We propose and implement two reductions to support \\(k\\)NN for a broad range of distances other than the Euclidean distance: Arkade Filter-Refine and Arkade Monotone Transformation, each of which allows non-Euclidean distance-based nearest neighbor queries to be performed in terms of the Euclidean distance. With our reductions, we observe that \\(k\\)NN search time speedups range between \\(1.6\\)x-\\(200\\)x and \\(1.3\\)x-\\(33.1\\)x over various state-of-the-art GPU shader core and RT core baselines, respectively. In evaluation, we provide several insights on RT architectures’ ability to efficiently build and traverse the tree by analyzing the \\(k\\)NN search time trends.","headline":"Arkade: K-nearest Neighbor Search With Non-euclidean Distances Using GPU Ray Tracing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mandarapu2023arkade/"},"url":"https://learning2hash.github.io/publications/mandarapu2023arkade/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -157,7 +157,7 @@ function search() {
       <div class="page">
   <h1 class="page-title">Arkade: K-nearest Neighbor Search With Non-euclidean Distances Using GPU Ray Tracing</h1>
   <h5>
-  Mandarapu Durga, Nagarajan Vani, Pelenitsyn Artem, Kulkarni Milind. Proceedings of the 38th ACM International Conference on Supercomputing 2024
+  Durga Mandarapu, Vani Nagarajan, Artem Pelenitsyn, Milind Kulkarni. Proceedings of the 38th ACM International Conference on Supercomputing 2024
   
     – <span>5 citations</span>
   
@@ -172,15 +172,9 @@ function search() {
     
       <tag><a href="/tags.html#Distance Metric Learning">Distance Metric Learning</a></tag>
     
-      <tag><a href="/tags.html#Efficiency">Efficiency</a></tag>
-    
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Large-Scale Search">Large-Scale Search</a></tag>
-    
-      <tag><a href="/tags.html#Similarity Search">Similarity Search</a></tag>
-    
-      <tag><a href="/tags.html#Tree-based ANN">Tree-based ANN</a></tag>
+      <tag><a href="/tags.html#Tree Based ANN">Tree Based ANN</a></tag>
     
   </p>
   <p><p>High-performance implementations of \(k\)-Nearest Neighbor Search (\(k\)NN) in

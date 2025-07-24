@@ -1,33 +1,33 @@
 {
-  "9": [
-    {
-      "tag": "hashing",
-      "count": 0.103
-    },
+  "1": [
     {
       "tag": "hash",
-      "count": 0.088
+      "count": 0.062
+    },
+    {
+      "tag": "hashing",
+      "count": 0.059
     },
     {
       "tag": "code",
-      "count": 0.063
-    },
-    {
-      "tag": "binary",
       "count": 0.035
     },
     {
-      "tag": "function",
-      "count": 0.03
-    }
-  ],
-  "1": [
-    {
-      "tag": "graph",
-      "count": 0.133
+      "tag": "data",
+      "count": 0.024
     },
     {
-      "tag": "node",
+      "tag": "function",
+      "count": 0.019
+    }
+  ],
+  "6": [
+    {
+      "tag": "graph",
+      "count": 0.112
+    },
+    {
+      "tag": "neighbor",
       "count": 0.03
     },
     {
@@ -35,188 +35,188 @@
       "count": 0.029
     },
     {
-      "tag": "neighbor",
-      "count": 0.023
+      "tag": "index",
+      "count": 0.028
     },
     {
-      "tag": "anns",
-      "count": 0.02
+      "tag": "node",
+      "count": 0.025
+    }
+  ],
+  "3": [
+    {
+      "tag": "document",
+      "count": 0.078
+    },
+    {
+      "tag": "dense",
+      "count": 0.051
+    },
+    {
+      "tag": "model",
+      "count": 0.027
+    },
+    {
+      "tag": "language",
+      "count": 0.026
+    },
+    {
+      "tag": "multilingual",
+      "count": 0.024
     }
   ],
   "5": [
     {
-      "tag": "document",
-      "count": 0.054
+      "tag": "video",
+      "count": 0.086
     },
     {
-      "tag": "model",
+      "tag": "image",
+      "count": 0.056
+    },
+    {
+      "tag": "cnn",
+      "count": 0.042
+    },
+    {
+      "tag": "medical",
+      "count": 0.037
+    },
+    {
+      "tag": "convolutional",
       "count": 0.031
+    }
+  ],
+  "4": [
+    {
+      "tag": "recipe",
+      "count": 0.049
     },
     {
-      "tag": "dense",
-      "count": 0.031
+      "tag": "music",
+      "count": 0.046
     },
     {
-      "tag": "language",
-      "count": 0.027
+      "tag": "product",
+      "count": 0.044
     },
     {
-      "tag": "embeddings",
-      "count": 0.023
+      "tag": "fashion",
+      "count": 0.041
+    },
+    {
+      "tag": "item",
+      "count": 0.037
+    }
+  ],
+  "2": [
+    {
+      "tag": "image",
+      "count": 0.05
+    },
+    {
+      "tag": "hashing",
+      "count": 0.032
+    },
+    {
+      "tag": "similarity",
+      "count": 0.022
+    },
+    {
+      "tag": "feature",
+      "count": 0.022
+    },
+    {
+      "tag": "semantic",
+      "count": 0.021
+    }
+  ],
+  "7": [
+    {
+      "tag": "lsh",
+      "count": 0.048
+    },
+    {
+      "tag": "neighbor",
+      "count": 0.041
+    },
+    {
+      "tag": "distance",
+      "count": 0.036
+    },
+    {
+      "tag": "point",
+      "count": 0.036
+    },
+    {
+      "tag": "algorithm",
+      "count": 0.035
     }
   ],
   "0": [
     {
+      "tag": "image",
+      "count": 0.067
+    },
+    {
       "tag": "text",
-      "count": 0.038
+      "count": 0.041
     },
     {
       "tag": "visual",
       "count": 0.032
     },
     {
-      "tag": "image",
-      "count": 0.031
+      "tag": "retrieval",
+      "count": 0.027
     },
     {
-      "tag": "recipe",
-      "count": 0.03
-    },
-    {
-      "tag": "textual",
+      "tag": "object",
       "count": 0.024
     }
   ],
   "8": [
     {
+      "tag": "sketch",
+      "count": 0.046
+    },
+    {
       "tag": "image",
-      "count": 0.072
-    },
-    {
-      "tag": "descriptor",
-      "count": 0.063
-    },
-    {
-      "tag": "cnn",
       "count": 0.045
     },
     {
-      "tag": "feature",
-      "count": 0.044
-    },
-    {
-      "tag": "medical",
-      "count": 0.038
-    }
-  ],
-  "3": [
-    {
-      "tag": "lsh",
-      "count": 0.054
-    },
-    {
-      "tag": "neighbor",
-      "count": 0.04
-    },
-    {
-      "tag": "distance",
-      "count": 0.037
-    },
-    {
-      "tag": "time",
-      "count": 0.034
-    },
-    {
-      "tag": "point",
-      "count": 0.034
-    }
-  ],
-  "6": [
-    {
-      "tag": "image",
-      "count": 0.059
-    },
-    {
-      "tag": "sketch",
-      "count": 0.038
+      "tag": "training",
+      "count": 0.028
     },
     {
       "tag": "learning",
-      "count": 0.027
+      "count": 0.023
     },
     {
       "tag": "metric",
-      "count": 0.027
-    },
-    {
-      "tag": "visual",
-      "count": 0.026
+      "count": 0.021
     }
   ],
-  "2": [
+  "9": [
     {
-      "tag": "video",
-      "count": 0.053
-    },
-    {
-      "tag": "similarity",
-      "count": 0.029
-    },
-    {
-      "tag": "semantic",
-      "count": 0.022
-    },
-    {
-      "tag": "deep",
-      "count": 0.019
-    },
-    {
-      "tag": "label",
-      "count": 0.018
-    }
-  ],
-  "7": [
-    {
-      "tag": "memory",
-      "count": 0.047
-    },
-    {
-      "tag": "vector",
-      "count": 0.038
-    },
-    {
-      "tag": "index",
-      "count": 0.034
-    },
-    {
-      "tag": "search",
-      "count": 0.024
-    },
-    {
-      "tag": "dense",
-      "count": 0.024
-    }
-  ],
-  "4": [
-    {
-      "tag": "image",
-      "count": 0.054
+      "tag": "hashing",
+      "count": 0.072
     },
     {
       "tag": "binary",
-      "count": 0.039
+      "count": 0.058
     },
     {
       "tag": "code",
-      "count": 0.021
+      "count": 0.052
     },
     {
-      "tag": "hashing",
-      "count": 0.02
+      "tag": "hash",
+      "count": 0.043
     },
     {
-      "tag": "feature",
-      "count": 0.018
+      "tag": "deep",
+      "count": 0.029
     }
   ]
 }
