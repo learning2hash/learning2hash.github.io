@@ -1,0 +1,27 @@
+---
+layout: publication
+title: Dynamic Similarity Search On Integer Sketches
+authors: Shunsuke Kanda, Yasuo Tabei
+conference: ACM Journal of Experimental Algorithmics
+year: 2020
+bibkey: kanda2020dynamic
+citations: 7
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.11559'}]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Scalability", "Similarity Search"]
+short_authors: Shunsuke Kanda, Yasuo Tabei
+---
+Similarity-preserving hashing is a core technique for fast similarity
+searches, and it randomly maps data points in a metric space to strings of
+discrete symbols (i.e., sketches) in the Hamming space. While traditional
+hashing techniques produce binary sketches, recent ones produce integer
+sketches for preserving various similarity measures. However, most similarity
+search methods are designed for binary sketches and inefficient for integer
+sketches. Moreover, most methods are either inapplicable or inefficient for
+dynamic datasets, although modern real-world datasets are updated over time. We
+propose dynamic filter trie (DyFT), a dynamic similarity search method for both
+binary and integer sketches. An extensive experimental analysis using large
+real-world datasets shows that DyFT performs superiorly with respect to
+scalability, time performance, and memory efficiency. For example, on a huge
+dataset of 216 million data points, DyFT performs a similarity search 6,000
+times faster than a state-of-the-art method while reducing to one-thirteenth in
+memory.

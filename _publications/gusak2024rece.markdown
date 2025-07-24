@@ -1,0 +1,25 @@
+---
+layout: publication
+title: 'RECE: Reduced Cross-entropy Loss For Large-catalogue Sequential Recommenders'
+authors: Danil Gusak, Gleb Mezentsev, Ivan Oseledets, Evgeny Frolov
+conference: Proceedings of the 33rd ACM International Conference on Information and
+  Knowledge Management
+year: 2024
+bibkey: gusak2024rece
+citations: 2
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.02354'}]
+tags: ["CIKM", "Evaluation", "Memory Efficiency", "Recommender Systems", "Scalability"]
+short_authors: Gusak et al.
+---
+Scalability is a major challenge in modern recommender systems. In sequential
+recommendations, full Cross-Entropy (CE) loss achieves state-of-the-art
+recommendation quality but consumes excessive GPU memory with large item
+catalogs, limiting its practicality. Using a GPU-efficient locality-sensitive
+hashing-like algorithm for approximating large tensor of logits, this paper
+introduces a novel RECE (REduced Cross-Entropy) loss. RECE significantly
+reduces memory consumption while allowing one to enjoy the state-of-the-art
+performance of full CE loss. Experimental results on various datasets show that
+RECE cuts training peak memory usage by up to 12 times compared to existing
+methods while retaining or exceeding performance metrics of CE loss. The
+approach also opens up new possibilities for large-scale applications in other
+domains.
