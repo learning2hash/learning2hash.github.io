@@ -25,9 +25,6 @@ Explore the literature by topic. Use the tags below to navigate research on supe
   {% assign rawtags = rawtags | concat: ttags %}  
 {% endfor %}
 {% assign rawtags = rawtags | uniq | sort %}
-<p style="margin: 1em 0;">
-{% for tag in rawtags %}<tag style="display: inline-block; margin: 0.2em 0.5em;"><a href="/tags.html#{{ tag }}">#{{ tag }}</a></tag>{% endfor %}
-</p>
 
 ---
 
