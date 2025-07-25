@@ -14,7 +14,12 @@ description: Explore prolific authors and their contributions across Learning to
   🧩 <strong>Connections</strong>: co-author links. 🔝 <strong>PageRank</strong>: influence. 🔄 <strong>Clustering</strong>: co-author interconnectivity. ℹ️ Hover over names for detailed network stats.
 </p>
 
-<table id="author-table" class="display stripe hover" style="width:100%">
+<!-- Loading Indicator -->
+<div id="loading">
+  <p>Loading Author Network...</p>
+</div>
+
+<table id="author-table" class="display stripe hover" style="width:100%; display:none;">
   <thead>
     <tr>
       <th data-priority="1">👤 Author</th>
@@ -52,6 +57,23 @@ description: Explore prolific authors and their contributions across Learning to
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css"/>
 <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"/>
 
+<style>
+  #loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    text-align: center;
+    z-index: 1000;
+    background: white;
+    padding: 1em 2em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+</style>
+
 <!-- JS libs -->
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
@@ -65,12 +87,17 @@ description: Explore prolific authors and their contributions across Learning to
 <script>
 let authorData;
 
-// Fetch data and initialize
 fetch('author_stats.json')
   .then(res => res.json())
-  .then(data => { authorData = data; initAuthorTable(data); })
+  .then(data => {
+    authorData = data;
+    $('#loading').hide();
+    $('#author-table').show();
+    initAuthorTable(data);
+  })
   .catch(err => {
     console.error('Error loading author stats', err);
+    $('#loading').hide();
     $('#author-table').after('<div style="color:red; margin-top:10px;">Error loading author data.</div>');
   });
 
