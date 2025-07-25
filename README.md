@@ -1,7 +1,7 @@
 # 🔑 Learning to Hash
 
 [![Website](https://img.shields.io/badge/Live%20Site-learning2hash.github.io-blue)](https://learning2hash.github.io)
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC--BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![Stars](https://img.shields.io/github/stars/learning2hash/learning2hash.github.io?style=social)](https://github.com/learning2hash/learning2hash.github.io/stargazers)
 [![Issues](https://img.shields.io/github/issues/learning2hash/learning2hash.github.io)](https://github.com/learning2hash/learning2hash.github.io/issues)
 
@@ -80,8 +80,8 @@ If this project helps you:
 
 ## 📄 License
 
-This project is licensed under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** license.  
-Commercial use is prohibited without explicit permission.  
+This project is licensed under the **GNU General Public License v3.0**.  
+You may use, modify, and share this code, but any redistributed or derivative work must also be licensed under GPLv3.  
 See the [LICENSE](./LICENSE) file for details.
 
 ---
