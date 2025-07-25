@@ -54,16 +54,15 @@ the information of existing papers or adding new work.
   </tbody>
 </table>
 
-<!-- CSS Styles -->
 <style>
   /* Hide the table initially */
-
   #allPapers {
-  display: none;
-  table-layout: fixed;
-  width: 100%;
+    display: none;
+    table-layout: fixed;
+    width: 100%;
   }
-  /* Style the loading indicator */
+
+  /* Styled loading indicator (matches Author Explorer style) */
   #loading {
     position: fixed;
     top: 50%;
@@ -71,6 +70,12 @@ the information of existing papers or adding new work.
     transform: translate(-50%, -50%);
     font-size: 1.5em;
     text-align: center;
+    z-index: 1000;
+    background: white;
+    padding: 1em 2em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
 </style>
 
