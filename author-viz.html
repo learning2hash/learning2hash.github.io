@@ -183,28 +183,28 @@ function search() {
   <tbody></tbody>
 </table>
 
-<!-- Modal for network graph -->
-<div id="network-modal" style="display:none; position:fixed; top:50%; left:50%; transform: translate(-50%, -50%); width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000; box-shadow: 0 4px 20px rgba(0,0,0,0.2); border-radius: 10px;">
-  <button id="modal-close" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+<!-- Modals -->
+<div id="network-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform: translate(-50%, -50%); width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000; box-shadow: 0 4px 20px rgba(0,0,0,0.2); border-radius: 10px;">
+  <button id="modal-close" aria-label="Close graph modal" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
   <svg id="network-svg" width="100%" height="100%"></svg>
 </div>
 
-<!-- Modal for paper list -->
-<div id="papers-modal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
-  <button id="papers-close" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+<div id="papers-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
+  <button id="papers-close" aria-label="Close papers list" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
   <h3 id="papers-title">Papers by Author</h3>
   <ul id="papers-list" style="font-size:0.95em;"></ul>
 </div>
+
 <div id="network-legend" style="display:none; font-size: 0.85em; margin-top: 8px; padding-left: 5%; padding-right: 5%;">
   ⭕ <strong>Circle size</strong> ∝ PageRank score · 🎨 <strong>Color</strong> = Community · 🔴 Red border = selected author
 </div>
 
-<!-- CSS for DataTables, Buttons, Responsive -->
+<!-- CSS -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css"/>
 <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"/>
 
-<!-- JS libraries: jQuery, DataTables, Buttons, Responsive, Sparkline, D3 -->
+<!-- JS libs -->
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
@@ -213,169 +213,174 @@ function search() {
 <script src="https://cdn.jsdelivr.net/npm/jquery-sparkline@2.4.0/jquery.sparkline.min.js"></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 
+<!-- Main Initialization -->
 <script>
+let authorData;
+
+// Fetch data and initialize the table
 fetch('author_stats.json')
   .then(res => res.json())
   .then(data => {
-    const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
-    const communities = [...new Set(authors.map(a => data[a].community))];
-    const pastelColors = [
-    '#A1C9F4', // pastel blue
-    '#FFB482', // pastel orange
-    '#8DE5A1', // pastel green
-    '#FF9F9A', // pastel red
-    '#D0BBFF', // pastel purple
-    '#DEBB9B', // light tan
-    '#FAB0E4', // soft pink
-    '#CFCFCF', // light grey
-    '#B9F2F0', // mint
-    '#FFFEA3'  // light yellow
+    authorData = data;
+    initAuthorTable(data);
+  })
+  .catch(err => {
+    console.error('Failed to load author stats:', err);
+    $('#author-table').after('<div style="color:red; font-weight:bold; margin-top:10px;">Error loading author data.</div>');
+  });
+
+function initAuthorTable(data) {
+  const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
+  const communities = [...new Set(authors.map(a => data[a].community))];
+  const pastelColors = [
+    '#A1C9F4','#FFB482','#8DE5A1','#FF9F9A','#D0BBFF',
+    '#DEBB9B','#FAB0E4','#CFCFCF','#B9F2F0','#FFFEA3'
+  ];
+  const color = d3.scaleOrdinal(pastelColors).domain(communities);
+  const betwVals = authors.map(a => data[a].betweenness);
+  const threshold = d3.quantile(betwVals.sort(d3.ascending), 0.8);
+
+  // Build rows
+  const rows = authors.map(author => {
+    const info = data[author];
+    const counts = {};
+    info.papers.forEach(p => counts[p.year] = (counts[p.year]||0) + 1);
+    const years = Object.keys(counts).sort();
+    const spark = years.map(y => counts[y]).join(',');
+    const border = (info.betweenness||0) > threshold ? ' border:2px solid red;' : '';
+
+    const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community} • Betweenness ${info.betweenness.toFixed(3)}">${author}</span>`;
+    const tags = info.tags.map(tag => `<span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>`).join(' ');
+
+    return [
+      nameCell,
+      info.paper_count,
+      info.total_citations,
+      info.degree?.toFixed(2) ?? '—',
+      info.pagerank?.toFixed(4) ?? '—',
+      info.clustering?.toFixed(2) ?? '—',
+      `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
+      tags,
+      `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
     ];
-    const color = d3.scaleOrdinal(pastelColors).domain(communities);
-    const betwVals = authors.map(a => data[a].betweenness);
-    const threshold = d3.quantile(betwVals.sort(d3.ascending), 0.8);
-
-    // prepare table rows
-    const rows = authors.map(author => {
-      const info = data[author];
-      const counts = {};
-      info.papers.forEach(p => counts[p.year] = (counts[p.year]||0) + 1);
-      const years = Object.keys(counts).sort();
-      const spark = years.map(y => counts[y]).join(',');
-      const betweenness = info.betweenness ?? 0;
-      const border = betweenness > threshold ? ' border:2px solid red;' : '';
-      const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community} • Betweenness ${betweenness.toFixed(3)}">${author}</span>`;
-      const tags = info.tags.map(tag => `<span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>`).join(' ');
-      return [
-          nameCell,
-          info.paper_count,
-          info.total_citations,
-          info.degree?.toFixed(2) ?? '—',
-          info.pagerank?.toFixed(4) ?? '—',
-          info.clustering?.toFixed(2) ?? '—',
-          `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
-          tags,
-          `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
-        ];
-    });
-
-    // initialize DataTable with first 100 rows shown
-    const table = $('#author-table').DataTable({
-      data: rows,
-      dom: 'Bfrtip',
-      responsive: { details: false },
-      order: [[1, 'desc']],
-      pageLength: 100,
-      lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
-      columnDefs: [
-        { targets: [6, 8], orderable: false },  // timeline & network
-        { responsivePriority: 1, targets: 0 },
-        { responsivePriority: 2, targets: 8 }
-      ]
-    });
-
-    // draw sparklines on draw
-    function drawSparks() {
-      $('.sparkline').each(function() {
-        const $el = $(this);
-        const values = $el.text().split(',').map(Number);
-        const years = $el.data('years')?.toString().split(',') || [];
-    
-        const tooltipLookup = {};
-        years.forEach((year, i) => {
-          tooltipLookup[i] = year;
-        });
-    
-        $el.sparkline(values, {
-          type: 'bar',
-          height: '30px',
-          barWidth: 7,
-          barSpacing: 2,
-          tooltipFormat: ' papers in ',
-          tooltipValueLookups: {
-            years: tooltipLookup
-          }
-        });
-      });
-    }
-    drawSparks();
-    table.on('draw', drawSparks);
-
-    // network modal logic
-    function showNetwork(author) {
-      const info = data[author];
-      const nodes = [{id:author}].concat(info.coauthors.map(c=>({id:c})));
-      const links = info.coauthors.map(c=>({source:author, target:c}));
-      const svg = d3.select('#network-svg'); svg.selectAll('*').remove();
-      const w = svg.node().clientWidth, h = svg.node().clientHeight;
-      const sim = d3.forceSimulation(nodes)
-        .force('link', d3.forceLink(links).id(d=>d.id).distance(80))
-        .force('charge', d3.forceManyBody().strength(-200))
-        .force('center', d3.forceCenter(w/2, h/2));
-      svg.append('g').selectAll('line').data(links).enter().append('line').attr('stroke','#999');
-      const nd = svg.append('g').selectAll('circle').data(nodes).enter()
-        .append('circle')
-        .attr('r', d => {
-          const rank = data[d.id]?.pagerank ?? 0.001;
-          return 4 + Math.sqrt(rank * 500);  // scale PageRank to radius
-        })
-        .attr('fill', d => color(data[d.id]?.community))
-        .attr('stroke', d => d.id === author ? 'red' : 'black')
-        .attr('stroke-width', d => d.id === author ? 2 : 0.5)
-        .style('cursor', 'pointer')
-        .on('click', (event, d) => {
-          if (data[d.id]) {
-            showNetwork(d.id);  // 🔁 load new graph with clicked node as center
-          }
-        })
-        .append('title')
-        .text(d => {
-          const node = data[d.id];
-          return node
-            ? `${d.id}
-      Community: ${node.community}
-      Degree: ${node.degree?.toFixed(2)}
-      Betweenness: ${node.betweenness?.toFixed(3)}
-      Closeness: ${node.closeness?.toFixed(3)}
-      Eigenvector: ${node.eigenvector?.toFixed(3)}
-      PageRank: ${node.pagerank?.toFixed(4)}
-      Clustering: ${node.clustering?.toFixed(2)}`
-            : d.id;
-        });
-      svg.append('g').selectAll('text').data(nodes).enter().append('text')
-        .text(d=>d.id).attr('font-size','10px').attr('dx',8).attr('dy',4);
-      sim.on('tick', ()=>{
-        svg.selectAll('line').attr('x1', d=>d.source.x).attr('y1', d=>d.source.y)
-                        .attr('x2', d=>d.target.x).attr('y2', d=>d.target.y);
-        nd.attr('cx', d=>d.x).attr('cy', d=>d.y);
-        svg.selectAll('text').attr('x', d=>d.x).attr('y', d=>d.y);
-      });
-      $('#network-modal').show();
-      $('#network-legend').show();
-    }
-    $('#author-table').on('click','button.net-btn', function(){ showNetwork($(this).data('author')); });
-    $('#author-table').on('click', '.author-name', function() {
-        const author = $(this).data('author');
-        const info = data[author];
-        const papers = info.papers || [];
-      
-        $('#papers-title').text(`📄 Papers by ${author}`);
-        $('#papers-list').html(
-          papers.map(p => `<li><strong>${p.title}</strong> (${p.year})</li>`).join('')
-        );
-      
-        $('#papers-modal').show();
-      });
-      $('#papers-close').on('click', () => {
-        $('#papers-modal').hide();
-      });
-    $('#modal-close').on('click', () => {
-    $('#network-modal').hide();
-    $('#network-legend').hide();
   });
+
+  // Initialize DataTable
+  const table = $('#author-table').DataTable({
+    data: rows,
+    dom: 'Bfrtip',
+    responsive: { details: false },
+    order: [[1, 'desc']],
+    pageLength: 100,
+    lengthMenu: [[10,25,50,100,-1],[10,25,50,100,'All']],
+    columnDefs: [
+      { targets: [6,8], orderable: false },
+      { responsivePriority: 1, targets: 0 },
+      { responsivePriority: 2, targets: 8 }
+    ]
   });
+
+  // Sparklines
+  function drawSparks() {
+    $('.sparkline').each(function() {
+      const $el = $(this);
+      const values = $el.text().split(',').map(Number);
+      const years = ($el.attr('data-years')|| '').split(',');
+      const lookup = {};
+      years.forEach((y,i) => { lookup[i] = y; });
+
+      $el.sparkline(values, {
+        type: 'bar',
+        height: '30px',
+        barWidth: 7,
+        barSpacing: 2,
+        tooltipFormat: ' papers in ',
+        tooltipValueLookups: { offset: lookup }
+      });
+    });
+  }
+  drawSparks();
+  table.on('draw', drawSparks);
+
+  // Event bindings
+  $('#author-table').on('click', 'button.net-btn', function() {
+    showNetwork($(this).data('author'));
+  });
+
+  $('#author-table').on('click', '.author-name', function() {
+    const au = $(this).data('author');
+    const info = data[au];
+    $('#papers-title').text(`📄 Papers by ${au}`);
+    $('#papers-list').html(
+      (info.papers||[]).map(
+        p => `<li><strong>${p.title}</strong> (${p.year})</li>`
+      ).join('')
+    );
+    $('#papers-modal').show();
+  });
+
+  // Close handlers
+  $('#modal-close').on('click', () => {
+    $('#network-modal,#network-legend').hide();
+  });
+  $('#papers-close').on('click', () => {
+    $('#papers-modal').hide();
+  });
+}
+
+function showNetwork(author) {
+  $('#network-modal, #network-legend').show();
+  const data = authorData;
+  const svg = d3.select('#network-svg');
+  svg.selectAll('*').remove();
+  const info = data[author];
+  const nodes = [{id: author}].concat(info.coauthors.map(c => ({id: c})));
+  const links = info.coauthors.map(c => ({ source: author, target: c }));
+  const { width: w, height: h } = svg.node().getBoundingClientRect();
+  
+  const sim = d3.forceSimulation(nodes)
+    .force('link', d3.forceLink(links).id(d => d.id).distance(80))
+    .force('charge', d3.forceManyBody().strength(-200))
+    .force('center', d3.forceCenter(w/2, h/2));
+
+  svg.append('g')
+    .selectAll('line')
+    .data(links)
+    .enter().append('line')
+      .attr('stroke', '#999');
+
+  const nd = svg.append('g')
+    .selectAll('circle')
+    .data(nodes)
+    .enter().append('circle')
+      .attr('r', d => 4 + Math.sqrt((data[d.id]?.pagerank||0.001) * 500))
+      .attr('fill', d => d3.schemePastel1[data[d.id]?.community % 10])
+      .attr('stroke', d => d.id===author? 'red':'black')
+      .attr('stroke-width', d => d.id===author? 2:0.5)
+      .style('cursor','pointer')
+      .on('click',(e,d)=> showNetwork(d.id))
+    .append('title')
+      .text(d => `${d.id}\nPageRank: ${(data[d.id]?.pagerank||0).toFixed(4)}`);
+
+  svg.append('g')
+    .selectAll('text')
+    .data(nodes)
+    .enter().append('text')
+      .text(d=>d.id)
+      .attr('font-size','10px')
+      .attr('dx',8).attr('dy',4);
+
+  sim.on('tick', () => {
+    svg.selectAll('line')
+      .attr('x1', d=>d.source.x).attr('y1', d=>d.source.y)
+      .attr('x2', d=>d.target.x).attr('y2', d=>d.target.y);
+    svg.selectAll('circle')
+      .attr('cx', d=>d.x).attr('cy', d=>d.y);
+    svg.selectAll('text')
+      .attr('x', d=>d.x).attr('y', d=>d.y);
+  });
+}
 </script>
-
 
     </div>
 
