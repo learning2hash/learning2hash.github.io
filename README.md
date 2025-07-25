@@ -1,7 +1,7 @@
 # 🔑 Learning to Hash
 
 [![Website](https://img.shields.io/badge/Live%20Site-learning2hash.github.io-blue)](https://learning2hash.github.io)
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC--BY--NC%204.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
 [![Stars](https://img.shields.io/github/stars/learning2hash/learning2hash.github.io?style=social)](https://github.com/learning2hash/learning2hash.github.io/stargazers)
 [![Issues](https://img.shields.io/github/issues/learning2hash/learning2hash.github.io)](https://github.com/learning2hash/learning2hash.github.io/issues)
 
@@ -26,7 +26,7 @@ But the literature is fragmented across subfields and venues. It’s hard to get
 
 ## ✨ Features
 
-- 📌 **Taxonomy of methods:** Binary hashing, deep hashing, quantization, indexing, multimodal
+- 📌 **Taxonomy of methods:** Binary hashing, deep hashing, quantization, indexing, multimodal  
 - 🔍 **Search:** Instantly find papers by title, authors, tags, or topics  
 - 🧠 **Clustered tagging:** Group papers by supervision level, modality, and algorithmic approach  
 - 🗂️ **Categorized views:** Hashing vs Quantization vs Indexing, clearly separated  
@@ -61,9 +61,9 @@ All entries are manually curated and auto-generated from structured data.
 
 Want to improve it or suggest new papers?
 
-1. Fork the repo
-2. Add a markdown file for the paper or update `taxonomy.yaml`
-3. Submit a pull request
+1. Fork the repo  
+2. Add a markdown file for the paper or update `taxonomy.yaml`  
+3. Submit a pull request  
 
 You can also open an issue with suggestions or corrections — contributions are welcome!
 
@@ -72,14 +72,16 @@ You can also open an issue with suggestions or corrections — contributions are
 ## ⭐ Support & Share
 
 If this project helps you:
-- Give it a ⭐ on GitHub
-- Share the site with others in the ANN / CV / ML community
+- Give it a ⭐ on GitHub  
+- Share the site with others in the ANN / CV / ML community  
 - Suggest recent papers, tools, or ideas to include
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **GNU General Public License v3.0** – see the [LICENSE](./LICENSE) file for details.
+This project is licensed under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)** license.  
+Commercial use is prohibited without explicit permission.  
+See the [LICENSE](./LICENSE) file for details.
 
 ---
