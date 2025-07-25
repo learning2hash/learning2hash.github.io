@@ -116,6 +116,8 @@ Blog posts are a great way to keep up with cutting-edge research. Here are some 
   
 ### 🧩💾 Hashing Software Packages
 
+- **[Rensa (beowolx) – High‑performance MinHash](https://github.com/beowolx/rensa)**: A Rust‑based MinHash implementation with Python bindings, designed for fast similarity estimation and deduplication of large datasets. Benchmarks show it's up to ~40 × faster than the popular `datasketch` library while using less memory.
+  
 - **[Faiss (Facebook AI Similarity Search)](https://github.com/facebookresearch/faiss)**: Faiss is a high-performance library developed by Facebook AI Research (FAIR) for efficient similarity search and clustering of dense vectors. It is optimized for handling large-scale datasets and provides a range of indexing algorithms, including brute-force, approximate nearest neighbor search, and quantization techniques, making it widely used in machine learning and AI applications.
 
 - **[Annoy (Approximate Nearest Neighbors Oh Yeah)](https://github.com/spotify/annoy)**: Annoy is a fast and lightweight C++ library developed by Spotify for performing approximate nearest neighbor search in high-dimensional spaces. It is particularly well-suited for applications requiring quick retrieval of similar vectors, such as music recommendation systems, and is optimized for read-heavy tasks with low memory overhead.
