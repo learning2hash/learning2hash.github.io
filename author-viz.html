@@ -100,9 +100,9 @@ function initAuthorTable(data) {
       nameCell,
       info.paper_count,
       info.total_citations,
-      info.degree?.toFixed(2) || '—',
-      info.pagerank?.toFixed(4) || '—',
-      info.clustering?.toFixed(2) || '—',
+      info.degree !== undefined && info.degree !== null ? info.degree.toFixed(2) : '—',
+      info.pagerank !== undefined && info.pagerank !== null ? info.pagerank.toExponential(2) : '—',
+      info.clustering !== undefined && info.clustering !== null ? info.clustering.toFixed(2) : '—',
       `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
       tagsHtml,
       `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
