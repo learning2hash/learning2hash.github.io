@@ -14,27 +14,10 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
     """
     Collate author statistics from markdown files in a directory.
 
-    Reads markdown files, extracts metadata, and computes:
-      - Paper count, citations, top tags
-      - Publication timeline (sparkline data)
-      - Author age (last_year - first_year)
-      - Co-author relationships and count
-      - Louvain communities and betweenness centrality
-
-    Output JSON structure per author:
-    {
-      "paper_count": int,
-      "total_citations": int,
-      "tags": [top 5 tags],
-      "papers": [{title, year, citations, bibkey}, ...],
-      "age": int,
-      "coauthors": [list of names],
-      "coauthor_count": int,
-      "community": int,
-      "betweenness": float
-    }
+    Filters out authors with 1 paper and <50 citations.
+    Removes costly graph operations like eigenvector and pagerank.
+    Approximates betweenness centrality (k=100).
     """
-    # Initialize stats
     author_stats = defaultdict(lambda: {
         "paper_count": 0,
         "total_citations": 0,
@@ -43,7 +26,6 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
         "coauthors": set()
     })
 
-    # Read markdown files
     for filename in os.listdir(markdown_dir):
         if not filename.endswith(('.markdown', '.md')):
             continue
@@ -59,17 +41,14 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
             print(f"Error parsing {filename}: {e}")
             continue
 
-        # Normalize authors robustly (handle commas, 'and', and whitespace)
         raw_authors = meta.get('authors', '')
         authors = []
         if isinstance(raw_authors, str):
-            # replace any ' and ' or ';' with commas, then split
             unified = re.sub(r"\s+and\s+|;", ',', raw_authors)
             for part in unified.split(','):
                 name = part.strip()
                 if not name:
                     continue
-                # collapse internal whitespace to single spaces
                 name = re.sub(r"\s+", ' ', name)
                 authors.append(name)
         elif isinstance(raw_authors, list):
@@ -88,7 +67,6 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
         tags = meta.get('tags', []) or []
         bibkey = meta.get('bibkey', os.path.splitext(filename)[0])
 
-        # Update stats
         for author in authors:
             st = author_stats[author]
             st['paper_count'] += 1
@@ -100,38 +78,41 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
                 'citations': citations,
                 'bibkey': bibkey
             })
-        # Track coauthors
         for a in authors:
             for b in authors:
                 if a != b:
                     author_stats[a]['coauthors'].add(b)
 
-    # Build global graph
     G = nx.Graph()
     for author, st in author_stats.items():
         G.add_node(author)
         for co in st['coauthors']:
             G.add_edge(author, co)
 
-    # Community & centrality
-    partition = community_louvain.best_partition(G)
-    bc = nx.betweenness_centrality(G)
-    # Additional centrality and clustering metrics
-    deg_centrality = nx.degree_centrality(G)
-    closeness = nx.closeness_centrality(G)
-    eigenvector = nx.eigenvector_centrality(G, max_iter=1000)
-    pagerank = nx.pagerank(G)
-    clustering = nx.clustering(G)
+    print(f"Graph has {G.number_of_nodes()} nodes and {G.number_of_edges()} edges")
 
-    # Finalize output
+    if G.number_of_nodes() == 0:
+        print("⚠️ No valid authors or papers found.")
+        partition = {}
+        bc = {}
+        degree = {}
+        closeness = {}
+        clustering = {}
+    else:
+        partition = community_louvain.best_partition(G)
+        bc = nx.betweenness_centrality(G, k=100)  # Approximate
+        degree = dict(G.degree())
+        closeness = nx.closeness_centrality(G)
+        clustering = nx.clustering(G)
+
     out = {}
     for author, st in author_stats.items():
-        # Top 5 tags
+        if st['paper_count'] == 1 and st['total_citations'] < 50:
+            continue
+
         tags_top = [t for t, _ in st['tags'].most_common(5)]
-        # Age
         yrs = [int(p['year']) for p in st['papers'] if str(p['year']).isdigit()]
         age = max(yrs) - min(yrs) if yrs else 0
-        # Coauthors
         co_list = sorted(st['coauthors'])
 
         out[author] = {
@@ -144,16 +125,20 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
             'coauthor_count': len(co_list),
             'community': int(partition.get(author, 0)),
             'betweenness': bc.get(author, 0.0),
-            'degree': deg_centrality.get(author, 0.0),
+            'degree': degree.get(author, 0),
             'closeness': closeness.get(author, 0.0),
-            'eigenvector': eigenvector.get(author, 0.0),
-            'pagerank': pagerank.get(author, 0.0),
             'clustering': clustering.get(author, 0.0)
         }
 
-    # Write JSON
     os.makedirs(output_dir, exist_ok=True)
     out_path = os.path.join(output_dir, output_filename)
+
+    # Optional: write compressed output
+    # import gzip
+    # with gzip.open(out_path + '.gz', 'wt', encoding='utf-8') as f:
+    #     json.dump(out, f, indent=2)
+    # print(f"Compressed author stats written to {out_path}.gz")
+
     with open(out_path, 'w', encoding='utf-8') as f:
         json.dump(out, f, indent=2)
     print(f"Author stats written to {out_path}")
