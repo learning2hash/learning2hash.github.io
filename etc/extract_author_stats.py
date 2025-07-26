@@ -14,7 +14,7 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
     """
     Collate author statistics from markdown files in a directory.
 
-    Filters out authors with 1 paper and <50 citations.
+    Graph calculations are restricted to authors with more than 1 paper or >= 50 citations.
     Removes costly graph operations like eigenvector and pagerank.
     Approximates betweenness centrality (k=100).
     """
@@ -83,16 +83,24 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
                 if a != b:
                     author_stats[a]['coauthors'].add(b)
 
+    # Define high-impact authors for graph calculations
+    filtered_authors = {
+        name for name, stats in author_stats.items()
+        if not (stats['paper_count'] == 1 and stats['total_citations'] < 50)
+    }
+
+    # Build filtered graph
     G = nx.Graph()
-    for author, st in author_stats.items():
+    for author in filtered_authors:
         G.add_node(author)
-        for co in st['coauthors']:
-            G.add_edge(author, co)
+        for co in author_stats[author]['coauthors']:
+            if co in filtered_authors:
+                G.add_edge(author, co)
 
     print(f"Graph has {G.number_of_nodes()} nodes and {G.number_of_edges()} edges")
 
     if G.number_of_nodes() == 0:
-        print("⚠️ No valid authors or papers found.")
+        print("⚠️ No valid graph authors found.")
         partition = {}
         bc = {}
         degree = {}
@@ -100,11 +108,12 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
         clustering = {}
     else:
         partition = community_louvain.best_partition(G)
-        bc = nx.betweenness_centrality(G, k=100)  # Approximate
+        bc = nx.betweenness_centrality(G, k=100)
         degree = dict(G.degree())
         closeness = nx.closeness_centrality(G)
         clustering = nx.clustering(G)
 
+    # Final output
     out = {}
     for author, st in author_stats.items():
         if st['paper_count'] == 1 and st['total_citations'] < 50:
@@ -113,7 +122,9 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
         tags_top = [t for t, _ in st['tags'].most_common(5)]
         yrs = [int(p['year']) for p in st['papers'] if str(p['year']).isdigit()]
         age = max(yrs) - min(yrs) if yrs else 0
-        co_list = sorted(st['coauthors'])
+        co_list = sorted(
+            co for co in st['coauthors'] if co in filtered_authors
+        )
 
         out[author] = {
             'paper_count': st['paper_count'],
