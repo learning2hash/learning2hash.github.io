@@ -83,6 +83,13 @@ description: Explore prolific authors and their contributions across Learning to
   }
 </style>
 
+<style>
+  .highlight {
+    background-color: #fffbcc !important;
+    transition: background-color 0.5s ease;
+  }
+</style>
+
 <!-- JS libs -->
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
@@ -256,19 +263,39 @@ function showNetwork(author){
     .attr('stroke-width', 1);
 
   svg.append('g')
-    .selectAll('circle')
-    .data(nodes)
-    .enter()
-    .append('circle')
-    .attr('r', d => 4 + Math.sqrt((authorData[d.id]?.pagerank || 0.001) * 500))
-    .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
-    .attr('stroke', d => d.id === author ? 'red' : '#333')
-    .attr('stroke-width', d => 2 - 0.5 * d.depth)
-    .style('cursor', 'pointer')
-    .on('click', (e, d) => showNetwork(d.id))
-    .append('title')
-    .text(d => `${d.id}\nPageRank: ${(authorData[d.id]?.pagerank || 0).toFixed(4)}\nDepth: ${d.depth}`);
-
+  .selectAll('circle')
+  .data(nodes)
+  .enter()
+  .append('circle')
+  .attr('r', d => 4 + Math.sqrt((authorData[d.id]?.pagerank || 0.001) * 500))
+  .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
+  .attr('stroke', d => d.id === author ? 'red' : '#333')
+  .attr('stroke-width', d => 2 - 0.5 * d.depth)
+  .style('cursor', 'pointer')
+  .on('click', (e, d) => showNetwork(d.id))
+  .on('dblclick', (e, d) => {
+    $('#network-modal,#network-legend').hide(); // Close modal
+    const table = $('#author-table').DataTable();
+    const rowIndex = table
+      .rows()
+      .indexes()
+      .toArray()
+      .find(i => {
+        const nameHtml = table.cell(i, 0).data();
+        return nameHtml.includes(`data-author="${d.id}"`);
+      });
+    if (rowIndex !== undefined) {
+      table.page(table.row(rowIndex).index() / table.page.len() | 0).draw(false); // Go to correct page
+      const tr = $(table.row(rowIndex).node());
+      $('html, body').animate({
+        scrollTop: tr.offset().top - 100
+      }, 600);
+      tr.addClass('highlight');
+      setTimeout(() => tr.removeClass('highlight'), 2000);
+    }
+  })
+  .append('title')
+  .text(d => `${d.id}\nPageRank: ${(authorData[d.id]?.pagerank || 0).toFixed(4)}\nDepth: ${d.depth}`);
   svg.append('g')
     .selectAll('text')
     .data(nodes)
@@ -297,5 +324,35 @@ function showNetwork(author){
       .attr('font-size', '14px')
       .text('⚠️ Truncated: Too many nodes to display fully.');
   }
+  
+ // Add legend
+ const legendData = [
+  '🖱️ Single-click: Expand author’s local graph',
+  '🖱️ Double-click: Jump to table row for author',
+  '🎨 Node color: Community',
+  '🔴 Red border: Selected author'
+ ];
+
+const legendGroup = svg.append('g')
+  .attr('transform', `translate(20, ${h - 130})`);
+
+legendGroup.append('rect')
+  .attr('x', -10)
+  .attr('y', -20)
+  .attr('width', 260)
+  .attr('height', 90)
+  .attr('fill', '#f9f9f9')
+  .attr('stroke', '#ccc')
+  .attr('rx', 8)
+  .attr('ry', 8);
+
+legendGroup.selectAll('text')
+  .data(legendData)
+  .enter()
+  .append('text')
+  .attr('y', (d, i) => i * 18)
+  .attr('font-size', '12px')
+  .attr('fill', '#333')
+  .text(d => d);
 }
 </script>
