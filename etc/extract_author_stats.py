@@ -15,7 +15,7 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
     Collate author statistics from markdown files in a directory.
 
     Optimized to reduce file size:
-    - Replaces titles with bibkeys in paper lists
+    - Replaces bibkeys with titles in paper lists
     - Keeps only top 10 cited papers per author
     - Rounds float stats
     - Truncates coauthor lists
@@ -66,7 +66,7 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
         year = meta.get('year', 'Unknown Year')
         citations = meta.get('citations', 0) or 0
         tags = meta.get('tags', []) or []
-        bibkey = meta.get('bibkey', os.path.splitext(filename)[0])
+        title = meta.get('title', os.path.splitext(filename)[0])
 
         for author in authors:
             st = author_stats[author]
@@ -76,7 +76,7 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
             st['papers'].append({
                 'year': year,
                 'citations': citations,
-                'bibkey': bibkey
+                'title': title
             })
         for a in authors:
             for b in authors:
@@ -124,7 +124,7 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
         )[:20]  # Limit coauthors
 
         top_papers = sorted(st['papers'], key=lambda p: p['citations'], reverse=True)[:10]
-        paper_refs = [{'bibkey': p['bibkey'], 'citations': p['citations'], 'year': p['year']} for p in top_papers]
+        paper_refs = [{'title': p['title'], 'citations': p['citations'], 'year': p['year']} for p in top_papers]
 
         out[author] = {
             'paper_count': st['paper_count'],
