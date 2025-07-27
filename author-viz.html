@@ -175,23 +175,25 @@ function initAuthorTable(data) {
   });
 
   function drawSparks() {
-    $('.sparkline').each(function(){
-      const $el = $(this);
-      const values = $el.text().split(',').map(Number);
-      const years = ($el.attr('data-years')||'').split(',');
-      const lookup = {};
-      years.forEach((y,i)=>{ lookup[i]=y; });
-      $el.sparkline(values, {
-        type: 'bar',
-        height: '30px',
-        barWidth: 7,
-        barSpacing: 2,
-        tooltipFormat: '{{value}} papers in {{offset}}',
-        tooltipValueLookups: {
-          offset: lookup
-        }
-      });
-  }
+  $('.sparkline').each(function(){
+    const $el = $(this);
+    const values = $el.text().split(',').map(Number);
+    const years = ($el.attr('data-years')||'').split(',');
+    const lookup = {};
+    years.forEach((y,i)=>{ lookup[i]=y; });
+    $el.sparkline(values, {
+      type: 'bar',
+      height: '30px',
+      barWidth: 7,
+      barSpacing: 2,
+      tooltipFormat: '{{value}} papers in {{offset}}',
+      tooltipValueLookups: {
+        offset: lookup
+      }
+    });
+   }); // closes .each()
+  }     // closes drawSparks()
+
   drawSparks(); table.on('draw', drawSparks);
 
   $('#author-table').on('click','button.net-btn',function(){ showNetwork($(this).data('author')); });
@@ -211,7 +213,7 @@ function initAuthorTable(data) {
     if (author) showNetwork(author);
   });
 }
-
+}
 function getSubgraph(author, radius = 2, maxNodes = 150) {
   const visited = new Set();
   const queue = [{ id: author, depth: 0 }];
