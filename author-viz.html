@@ -213,7 +213,7 @@ function initAuthorTable(data) {
     if (author) showNetwork(author);
   });
 }
-}
+
 function getSubgraph(author, radius = 2, maxNodes = 150) {
   const visited = new Set();
   const queue = [{ id: author, depth: 0 }];
