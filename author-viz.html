@@ -116,39 +116,33 @@ function initAuthorTable(data) {
   const betwVals = authors.map(a => data[a].betweenness);
   const threshold = d3.quantile(betwVals.sort(d3.ascending), 0.8);
 
-  
   const rows = authors.map(author => {
     const info = data[author];
     const counts = {};
     info.papers.forEach(p => counts[p.year] = (counts[p.year] || 0) + 1);
-    
     const allYears = Object.keys(counts).map(Number);
     const minYear = Math.min(...allYears);
     const maxYear = Math.max(...allYears);
-    
     const years = [];
     const values = [];
     for (let y = minYear; y <= maxYear; y++) {
       years.push(y.toString());
       values.push(counts[y] || 0);
     }
-    
     const spark = values.join(',');
-    const border = (info.betweenness||0) > threshold ? ' border:2px solid red;' : '';
-
+    const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
     const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community} • Betweenness ${info.betweenness.toFixed(3)}">${author}</span>`;
     const tagsHtml = info.tags.map(tag => {
       const frag = encodeURIComponent(tag);
       return `<a href="https://awesome-llm-papers.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;"><span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span></a>`;
     }).join(' ');
-
     return [
       nameCell,
       info.paper_count,
       info.total_citations,
-      info.degree !== undefined && info.degree !== null ? info.degree.toFixed(2) : '—',
-      info.pagerank !== undefined && info.pagerank !== null ? info.pagerank.toExponential(2) : '—',
-      info.clustering !== undefined && info.clustering !== null ? info.clustering.toFixed(2) : '—',
+      info.degree?.toFixed(2) ?? '—',
+      info.pagerank?.toExponential(2) ?? '—',
+      info.clustering?.toFixed(2) ?? '—',
       `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
       tagsHtml,
       `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
@@ -159,46 +153,49 @@ function initAuthorTable(data) {
     data: rows,
     dom: 'Bfrtip',
     responsive: { details: false },
-    order: [[1,'desc']],
+    order: [[1, 'desc']],
     pageLength: 100,
-    lengthMenu: [[10,25,50,100,-1],[10,25,50,100,'All']],
-    columnDefs: [ { targets:[6,8], orderable:false },{ responsivePriority:1,targets:0},{ responsivePriority:2,targets:8} ]
+    lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
+    columnDefs: [{ targets: [6, 8], orderable: false }, { responsivePriority: 1, targets: 0 }, { responsivePriority: 2, targets: 8 }]
   });
 
   function drawSparks() {
-  $('.sparkline').each(function(){
-    const $el = $(this);
-    const values = $el.text().split(',').map(Number);
-    const years = ($el.attr('data-years')||'').split(',');
-
-    $el.sparkline(values, {
-      type: 'bar',
-      height: '30px',
-      barWidth: 7,
-      barSpacing: 2,
-      tooltipFormatter: function(sp, options, fields) {
-        const idx = fields[0].offset;
-        const val = fields[0].value;
-        const year = years[idx] || 'Unknown';
-        return `${val} papers in ${year}`;
-      }
+    $('.sparkline').each(function () {
+      const $el = $(this);
+      const values = $el.text().split(',').map(Number);
+      const years = ($el.attr('data-years') || '').split(',');
+      $el.sparkline(values, {
+        type: 'bar',
+        height: '30px',
+        barWidth: 7,
+        barSpacing: 2,
+        tooltipFormatter: (sp, options, fields) => {
+          const idx = fields[0].offset;
+          const val = fields[0].value;
+          const year = years[idx] || 'Unknown';
+          return `${val} papers in ${year}`;
+        }
+      });
     });
-  });
   }
   drawSparks(); table.on('draw', drawSparks);
 
-  $('#author-table').on('click','button.net-btn',function(){ showNetwork($(this).data('author')); });
-  $('#author-table').on('click','.author-name',function(){
+  $('#author-table').on('click', 'button.net-btn', function () {
+    showNetwork($(this).data('author'));
+  });
+
+  $('#author-table').on('click', '.author-name', function () {
     const au = $(this).data('author');
     const info = data[au];
     $('#papers-title').text(`📄 Papers by ${au}`);
-    $('#papers-list').html(
-      (info.papers||[]).map(p=>`<li><a href="https://awesome-llm-papers.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})</li>`).join('')
-    );
+    $('#papers-list').html((info.papers || []).map(p =>
+      `<li><a href="https://awesome-llm-papers.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})</li>`
+    ).join(''));
     $('#papers-modal').show();
   });
-  $('#modal-close').on('click',()=>$('#network-modal,#network-legend').hide());
-  $('#papers-close').on('click',()=>$('#papers-modal').hide());
+
+  $('#modal-close').on('click', () => $('#network-modal,#network-legend').hide());
+  $('#papers-close').on('click', () => $('#papers-modal').hide());
 }
 
 function getSubgraph(author, radius = 2, maxNodes = 150) {
@@ -209,47 +206,36 @@ function getSubgraph(author, radius = 2, maxNodes = 150) {
   while (queue.length && nodes.size < maxNodes) {
     const { id, depth } = queue.shift();
     if (visited.has(id) || depth > radius || !authorData[id]) continue;
-
     visited.add(id);
     nodes.set(id, { id, depth });
-
-    const coauthors = authorData[id].coauthors || [];
-    coauthors.forEach(c => {
-      if (!visited.has(c)) {
-        queue.push({ id: c, depth: depth + 1 });
-      }
+    (authorData[id].coauthors || []).forEach(c => {
+      if (!visited.has(c)) queue.push({ id: c, depth: depth + 1 });
     });
   }
 
   const nodeList = [...nodes.values()];
   const nodeIds = new Set(nodeList.map(n => n.id));
   const linkList = [];
-
   nodeList.forEach(n => {
-    const src = n.id;
-    (authorData[src]?.coauthors || []).forEach(target => {
-      if (nodeIds.has(target)) {
-        linkList.push({ source: src, target });
-      }
+    (authorData[n.id]?.coauthors || []).forEach(target => {
+      if (nodeIds.has(target)) linkList.push({ source: n.id, target });
     });
   });
 
   return { nodes: nodeList, links: linkList, tooLarge: queue.length > 0 };
 }
 
-function showNetwork(author){
+function showNetwork(author) {
   $('#network-modal,#network-legend').show();
   $('#network-svg').data('current-author', author);
-  const radius = 1;
-  
   const svg = d3.select('#network-svg'); svg.selectAll('*').remove();
-  const { nodes, links, tooLarge } = getSubgraph(author, radius);
-
+  const { nodes, links, tooLarge } = getSubgraph(author, 1);
   const { width: w, height: h } = svg.node().getBoundingClientRect();
+
   const sim = d3.forceSimulation(nodes)
     .force('link', d3.forceLink(links).id(d => d.id).distance(80))
     .force('charge', d3.forceManyBody().strength(-180))
-    .force('center', d3.forceCenter(w/2, h/2));
+    .force('center', d3.forceCenter(w / 2, h / 2));
 
   svg.append('g')
     .selectAll('line')
@@ -259,40 +245,39 @@ function showNetwork(author){
     .attr('stroke', '#aaa')
     .attr('stroke-width', 1);
 
-  svg.append('g')
-  .selectAll('circle')
-  .data(nodes)
-  .enter()
-  .append('circle')
-  .attr('r', d => 4 + Math.sqrt((authorData[d.id]?.pagerank || 0.001) * 500))
-  .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
-  .attr('stroke', d => d.id === author ? 'red' : '#333')
-  .attr('stroke-width', d => 2 - 0.5 * d.depth)
-  .style('cursor', 'pointer')
-  .on('click', (e, d) => showNetwork(d.id))
-  .on('dblclick', (e, d) => {
-    $('#network-modal,#network-legend').hide(); // Close modal
-    const table = $('#author-table').DataTable();
-    const rowIndex = table
-      .rows()
-      .indexes()
-      .toArray()
-      .find(i => {
-        const nameHtml = table.cell(i, 0).data();
-        return nameHtml.includes(`data-author="${d.id}"`);
+  const circleSelection = svg.append('g')
+    .selectAll('circle')
+    .data(nodes)
+    .enter()
+    .append('circle')
+    .attr('r', d => 4 + Math.sqrt((authorData[d.id]?.pagerank || 0.001) * 500))
+    .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
+    .attr('stroke', d => d.id === author ? 'red' : '#333')
+    .attr('stroke-width', d => 2 - 0.5 * d.depth)
+    .style('cursor', 'pointer')
+    .on('click', (e, d) => showNetwork(d.id))
+    .on('dblclick', function (event, d) {
+      $('#network-modal,#network-legend').hide();
+      const table = $('#author-table').DataTable();
+      const searchAttr = `data-author="${d.id}"`;
+      const rowIndex = table.rows().indexes().toArray().find(i => {
+        const cellData = table.cell(i, 0).data();
+        return typeof cellData === 'string' && cellData.includes(searchAttr);
       });
-    if (rowIndex !== undefined) {
-      table.page(table.row(rowIndex).index() / table.page.len() | 0).draw(false); // Go to correct page
-      const tr = $(table.row(rowIndex).node());
-      $('html, body').animate({
-        scrollTop: tr.offset().top - 100
-      }, 600);
-      tr.addClass('highlight');
-      setTimeout(() => tr.removeClass('highlight'), 2000);
-    }
-  })
-  .append('title')
-  .text(d => `${d.id}\nPageRank: ${(authorData[d.id]?.pagerank || 0).toFixed(4)}\nDepth: ${d.depth}`);
+      if (rowIndex !== undefined) {
+        const pageIndex = Math.floor(rowIndex / table.page.len());
+        table.page(pageIndex).draw(false);
+        const rowNode = table.row(rowIndex).node();
+        const $row = $(rowNode);
+        $('html, body').animate({ scrollTop: $row.offset().top - 100 }, 600);
+        $row.addClass('highlight');
+        setTimeout(() => $row.removeClass('highlight'), 2000);
+      }
+    });
+
+  circleSelection.append('title')
+    .text(d => `${d.id}\nPageRank: ${(authorData[d.id]?.pagerank || 0).toFixed(4)}\nDepth: ${d.depth}`);
+
   svg.append('g')
     .selectAll('text')
     .data(nodes)
@@ -315,43 +300,41 @@ function showNetwork(author){
 
   if (tooLarge) {
     svg.append('text')
-      .attr('x', 10)
-      .attr('y', 20)
+      .attr('x', 10).attr('y', 20)
       .attr('fill', 'red')
       .attr('font-size', '14px')
       .text('⚠️ Truncated: Too many nodes to display fully.');
   }
-  
- // Add legend
- const legendData = [
-  '🖱️ Single-click: Expand author’s local graph',
-  '🖱️ Double-click: Jump to table row for author',
-  '🎨 Node color: Community',
-  '🔴 Red border: Selected author'
- ];
 
-const legendGroup = svg.append('g')
-  .attr('transform', `translate(20, ${h - 130})`);
+  const legendData = [
+    '🖱️ Single-click: Expand author’s local graph',
+    '🖱️ Double-click: Jump to table row for author',
+    '🎨 Node color: Community',
+    '🔴 Red border: Selected author'
+  ];
 
-legendGroup.append('rect')
-  .attr('x', -10)
-  .attr('y', -20)
-  .attr('width', 260)
-  .attr('height', legendData.length * 20)
-  .attr('fill', '#f9f9f9')
-  .attr('stroke', '#ccc')
-  .attr('rx', 8)
-  .attr('ry', 8);
+  const legendGroup = svg.append('g')
+    .attr('transform', `translate(20, ${h - 130})`);
 
-legendGroup.selectAll('text')
-  .data(legendData)
-  .enter()
-  .append('text')
-  .attr('x', 0)
-  .attr('y', (d, i) => i * 18)
-  .attr('dy', '1em')
-  .attr('font-size', '12px')
-  .attr('fill', '#333')
-  .text(d => d);
+  legendGroup.append('rect')
+    .attr('x', -10)
+    .attr('y', -20)
+    .attr('width', 260)
+    .attr('height', legendData.length * 20)
+    .attr('fill', '#f9f9f9')
+    .attr('stroke', '#ccc')
+    .attr('rx', 8)
+    .attr('ry', 8);
+
+  legendGroup.selectAll('text')
+    .data(legendData)
+    .enter()
+    .append('text')
+    .attr('x', 0)
+    .attr('y', (d, i) => i * 18)
+    .attr('dy', '1em')
+    .attr('font-size', '12px')
+    .attr('fill', '#333')
+    .text(d => d);
 }
 </script>
