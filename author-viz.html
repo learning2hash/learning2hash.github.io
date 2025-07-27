@@ -181,8 +181,16 @@ function initAuthorTable(data) {
       const years = ($el.attr('data-years')||'').split(',');
       const lookup = {};
       years.forEach((y,i)=>{ lookup[i]=y; });
-      $el.sparkline(values, { type:'bar', height:'30px', barWidth:7, barSpacing:2, tooltipFormat:'{{value}} papers in {{offset:offset}}', tooltipValueLookups:{ offset:lookup }});
-    });
+      $el.sparkline(values, {
+        type: 'bar',
+        height: '30px',
+        barWidth: 7,
+        barSpacing: 2,
+        tooltipFormat: '{{value}} papers in {{offset}}',
+        tooltipValueLookups: {
+          offset: lookup
+        }
+      });
   }
   drawSparks(); table.on('draw', drawSparks);
 
