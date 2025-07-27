@@ -118,17 +118,8 @@ function initAuthorTable(data) {
 
   const rows = authors.map(author => {
     const info = data[author];
-    const counts = {};
-    info.papers.forEach(p => counts[p.year] = (counts[p.year] || 0) + 1);
-    const allYears = Object.keys(counts).map(Number);
-    const minYear = Math.min(...allYears);
-    const maxYear = Math.max(...allYears);
-    const years = [];
-    const values = [];
-    for (let y = minYear; y <= maxYear; y++) {
-      years.push(y.toString());
-      values.push(counts[y] || 0);
-    }
+    const years = (info.sparkline_years || []).map(y => y.toString());
+    const values = info.sparkline_values || [];
     const spark = values.join(',');
     const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
     const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community} • Betweenness ${info.betweenness.toFixed(3)}">${author}</span>`;
