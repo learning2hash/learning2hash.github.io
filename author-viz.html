@@ -58,6 +58,10 @@ description: Explore prolific authors and their contributions across Learning to
 <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"/>
 
 <style>
+  #network-modal, #papers-modal {
+  transition: opacity 0.3s ease;
+  }
+  
   #loading {
     position: fixed;
     top: 50%;
@@ -125,7 +129,7 @@ function initAuthorTable(data) {
     const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community} • Betweenness ${info.betweenness.toFixed(3)}">${author}</span>`;
     const tagsHtml = info.tags.map(tag => {
       const frag = encodeURIComponent(tag);
-      return `<a href="https://awesome-llm-papers.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;"><span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span></a>`;
+      return `<a href="https://learning2hash.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;"><span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span></a>`;
     }).join(' ');
     return [
       nameCell,
@@ -180,12 +184,12 @@ function initAuthorTable(data) {
     const info = data[au];
     $('#papers-title').text(`📄 Papers by ${au}`);
     $('#papers-list').html((info.papers || []).map(p =>
-      `<li><a href="https://awesome-llm-papers.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})</li>`
+      `<li><a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})</li>`
     ).join(''));
     $('#papers-modal').show();
   });
 
-  $('#modal-close').on('click', () => $('#network-modal,#network-legend').hide());
+  $('#modal-close').on('click', () => $('#network-modal, #network-legend').fadeOut(200));
   $('#papers-close').on('click', () => $('#papers-modal').hide());
 }
 
@@ -217,7 +221,7 @@ function getSubgraph(author, radius = 2, maxNodes = 150) {
 }
 
 function showNetwork(author) {
-  $('#network-modal,#network-legend').show();
+  $('#network-modal, #network-legend').fadeIn(200);
   $('#network-svg').data('current-author', author);
   const svg = d3.select('#network-svg'); svg.selectAll('*').remove();
   const { nodes, links, tooLarge } = getSubgraph(author, 1);
@@ -248,12 +252,13 @@ function showNetwork(author) {
     .style('cursor', 'pointer')
     .on('click', (e, d) => showNetwork(d.id))
     .on('dblclick', function (event, d) {
-      $('#network-modal,#network-legend').hide();
+      $('#network-modal, #network-legend').fadeOut(200);
       const table = $('#author-table').DataTable();
       const searchAttr = `data-author="${d.id}"`;
       const rowIndex = table.rows().indexes().toArray().find(i => {
-        const cellData = table.cell(i, 0).data();
-        return typeof cellData === 'string' && cellData.includes(searchAttr);
+        const $cell = $('<div>').html(table.cell(i, 0).data());
+        const rawText = $cell.text().trim().toLowerCase();
+        return rawText.includes(d.id.trim().toLowerCase());
       });
       if (rowIndex !== undefined) {
         const pageIndex = Math.floor(rowIndex / table.page.len());
@@ -305,25 +310,24 @@ function showNetwork(author) {
   ];
 
   const legendGroup = svg.append('g')
-    .attr('transform', `translate(20, ${h - 130})`);
-
+  .attr('transform', `translate(20, ${h - 130})`);
+  
   legendGroup.append('rect')
     .attr('x', -10)
     .attr('y', -20)
-    .attr('width', 260)
-    .attr('height', legendData.length * 20)
+    .attr('width', 280)
+    .attr('height', legendData.length * 24)
     .attr('fill', '#f9f9f9')
     .attr('stroke', '#ccc')
     .attr('rx', 8)
     .attr('ry', 8);
-
+  
   legendGroup.selectAll('text')
     .data(legendData)
     .enter()
     .append('text')
     .attr('x', 0)
-    .attr('y', (d, i) => i * 18)
-    .attr('dy', '1em')
+    .attr('y', (d, i) => i * 22 + 5)
     .attr('font-size', '12px')
     .attr('fill', '#333')
     .text(d => d);
