@@ -1,6 +1,6 @@
 certifi==2020.12.5
 chardet==4.0.0
-idna==2.10
+idna==3.7
 joblib==1.0.0
 numpy==1.19.5
 pandas==1.1.5
