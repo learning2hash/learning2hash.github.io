@@ -126,6 +126,21 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
         top_papers = sorted(st['papers'], key=lambda p: p['citations'], reverse=True)[:10]
         paper_refs = [{'title': p['title'], 'citations': p['citations'], 'year': p['year']} for p in top_papers]
 
+        # Sparkline computation
+        year_counts = Counter()
+        for p in st['papers']:
+            if str(p['year']).isdigit():
+                year_counts[int(p['year'])] += 1
+
+        if year_counts:
+            min_year = min(year_counts.keys())
+            max_year = max(year_counts.keys())
+            spark_years = list(range(min_year, max_year + 1))
+            spark_values = [year_counts.get(y, 0) for y in spark_years]
+        else:
+            spark_years = []
+            spark_values = []
+
         out[author] = {
             'paper_count': st['paper_count'],
             'total_citations': st['total_citations'],
@@ -138,7 +153,11 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
             'betweenness': round(bc.get(author, 0.0), 3),
             'degree': degree.get(author, 0),
             'closeness': round(closeness.get(author, 0.0), 3),
-            'clustering': round(clustering.get(author, 0.0), 3)
+            'clustering': round(clustering.get(author, 0.0), 3),
+
+            # 🆕 Add sparkline fields
+            'sparkline_years': spark_years,
+            'sparkline_values': spark_values
         }
 
     os.makedirs(output_dir, exist_ok=True)
