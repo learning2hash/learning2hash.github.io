@@ -199,10 +199,6 @@ function initAuthorTable(data) {
   });
   $('#modal-close').on('click',()=>$('#network-modal,#network-legend').hide());
   $('#papers-close').on('click',()=>$('#papers-modal').hide());
-  $('#radius-selector').on('change', function () {
-    const author = $('#network-svg').data('current-author');
-    if (author) showNetwork(author);
-  });
 }
 
 function getSubgraph(author, radius = 2, maxNodes = 150) {
