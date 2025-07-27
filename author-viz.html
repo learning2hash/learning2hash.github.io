@@ -52,15 +52,6 @@ description: Explore prolific authors and their contributions across Learning to
   ⭕ <strong>Circle size</strong> ∝ PageRank · 🎨 <strong>Color</strong> = Community · 🔴 Red border = selected author
 </div>
 
-<div id="radius-controls" style="display:none; font-size:0.9em; padding:10px 5%; margin-top:10px;">
-  🔍 Expand Radius:
-  <select id="radius-selector" style="margin-left:8px;">
-    <option value="1">1 (Direct co-authors)</option>
-    <option value="2" selected>2</option>
-    <option value="3">3</option>
-  </select>
-</div>
-
 <!-- CSS -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css"/>
@@ -251,10 +242,10 @@ function getSubgraph(author, radius = 2, maxNodes = 150) {
 }
 
 function showNetwork(author){
-  $('#network-modal,#network-legend,#radius-controls').show();
+  $('#network-modal,#network-legend').show();
   $('#network-svg').data('current-author', author);
-  const radius = parseInt($('#radius-selector').val() || "2", 10);
-
+  const radius = 1;
+  
   const svg = d3.select('#network-svg'); svg.selectAll('*').remove();
   const { nodes, links, tooLarge } = getSubgraph(author, radius);
 
@@ -350,7 +341,7 @@ legendGroup.append('rect')
   .attr('x', -10)
   .attr('y', -20)
   .attr('width', 260)
-  .attr('height', 90)
+  .attr('height', legendData.length * 20)
   .attr('fill', '#f9f9f9')
   .attr('stroke', '#ccc')
   .attr('rx', 8)
@@ -360,7 +351,9 @@ legendGroup.selectAll('text')
   .data(legendData)
   .enter()
   .append('text')
+  .attr('x', 0)
   .attr('y', (d, i) => i * 18)
+  .attr('dy', '1em')
   .attr('font-size', '12px')
   .attr('fill', '#333')
   .text(d => d);
