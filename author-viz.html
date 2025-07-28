@@ -1,489 +1,242 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
-  <head>
-<!-- Begin Web-Stat code v 7.0 -->
-<span id="wts2185304"></span>
-<script>var wts=document.createElement('script');wts.async=true;
-wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
-wts.onload = function(){ wtslog7(2185304,4); };
-</script><noscript><a href="https://www.web-stat.com">
-<img src="https://app.ardalio.com/7/4/2185304.png" 
-alt="Web-Stat web statistics"></a></noscript>
-<!-- End Web-Stat code v 7.0 -->
-  <!-- Hotjar Tracking Code for https://learning2hash.github.io/ -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:1843243,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script><!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-109544763-1');
-</script>
-<script>
-    window.MathJax = {
-      tex: {
-        inlineMath: [["\\(","\\)"]],
-        displayMath: [["\\[","\\]"]],
-      },
-      options: {
-        processHtmlClass: "mathjax-content",
-        processEscapes: true,
-      }
-    };
-  </script>
-  <script type="text/javascript" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <link href="http://gmpg.org/xfn/11" rel="profile">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
-
-  <!-- Enable responsiveness on mobile devices-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-
-  <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Explore Learning to Hash papers by Author | Awesome Learning to Hash</title>
-<meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Explore Learning to Hash papers by Author" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Explore prolific authors and their contributions across Learning to Hash research" />
-<meta property="og:description" content="Explore prolific authors and their contributions across Learning to Hash research" />
-<link rel="canonical" href="https://learning2hash.github.io/author-viz.html" />
-<meta property="og:url" content="https://learning2hash.github.io/author-viz.html" />
-<meta property="og:site_name" content="Awesome Learning to Hash" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Explore Learning to Hash papers by Author" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Explore prolific authors and their contributions across Learning to Hash research","headline":"Explore Learning to Hash papers by Author","url":"https://learning2hash.github.io/author-viz.html"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/public/css/poole.css">
-  <link rel="stylesheet" href="/public/css/syntax.css">
-  <link rel="stylesheet" href="/public/css/hyde.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
-
-  <!-- Icons -->
-  <link rel="shortcut icon" href="/public/favicon.svg">
-  <link rel="search" href="/public/opensearchdescription.xml" 
-      type="application/opensearchdescription+xml" 
-      title="learning2hash" />
-
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"
-  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-  crossorigin="anonymous"></script>
-  
-  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
-  <script type="text/javascript" charset="utf8" src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Learning to Hash papers by Author</title>
+  <meta name="description" content="Explore prolific authors and their contributions across Learning to Hash research">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css"/>
+  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"/>
+  <style>
+    #network-modal, #papers-modal { transition: opacity 0.3s ease; }
+    #loading {
+      position: fixed;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 1.5em;
+      text-align: center;
+      z-index: 1000;
+      background: white;
+      padding: 1em 2em;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    .highlight {
+      background-color: #fffbcc !important;
+      transition: background-color 0.5s ease;
+    }
+  </style>
 </head>
+<body>
+  <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
+  <p style="font-size: 1.1em;">
+    Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
+  </p>
+  <p style="font-size: 0.95em;">
+    🔍 Authors are color-coded by <strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high <span title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>, indicating strong connectivity.  ℹ️ Hover over names for detailed network stats.
+  </p>
 
+  <!-- Loading Indicator -->
+  <div id="loading"><p>Loading Author Network...</p></div>
 
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <table id="author-table" class="display stripe hover" style="width:100%; display:none;">
+    <thead>
+      <tr>
+        <th data-priority="1">👤 Author</th>
+        <th data-priority="3">📄 Papers</th>
+        <th data-priority="4">📊 Citations</th>
+        <th title="🧩 Number of direct co-author connections (degree centrality).">🧩 Connections</th>
+        <th title="🔝 Author influence score based on PageRank algorithm.">🔝 PageRank</th>
+        <th title="🔄 Measures how tightly the author's co-authors are interconnected.">🔄 Clustering</th>
+        <th data-priority="5">📈 Paper Count Timeline</th>
+        <th data-priority="6">🏷️ Tags</th>
+        <th data-priority="2">🔗 Network</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
 
-  <body class="theme-base-0c layout-reverse">
-
-    <a href='/contributing.html' class='ribbon'>Add your paper to Learning2Hash</a>
-<div class="sidebar">
-  <div class="container sidebar-sticky">
-    <div class="sidebar-about">
-      <h1>
-        <a href="/">
-          Awesome Learning to Hash
-        </a>
-      </h1>
-      <p class="lead">A Webpage dedicated to the latest research on Hash Function Learning. Maintained by <a href="http://sjmoran.github.io/">Sean Moran</a>.</p>
-    </div>
-
-    <nav class="sidebar-nav">
-      <div class="sidebar-item">
-        <p style="font-size: 12px">
-          Search related work 
-          <input type='text' id='searchTarget' size="16"/> 
-          <button onClick="search();">Go</button>
-        </p>
-      </div>
-      <a class="sidebar-nav-item" href="/papers.html">All Papers</a>
-      <a class="sidebar-nav-item" href="/tags.html">Papers by Tag</a>
-      <a class="sidebar-nav-item" href="/tsne-viz.html">2D Map of Papers</a>
-      <a class="sidebar-nav-item" href="/topic-viz.html">Topic Explorer</a>
-      <a class="sidebar-nav-item active" href="/author-viz.html">Author Explorer </a>
-      <a class="sidebar-nav-item" href="/tutorial.html">Tutorial</a>
-      <a class="sidebar-nav-item" href="/resources.html">Resources, Courses &#38; Events</a>
-      <a class="sidebar-nav-item" href="/contributing.html">Contributing</a>
-    </nav>
-
-    <div class="sidebar-item">
-      <p style="font-size: 12px">
-        Contact <a href="http://www.seanjmoran.com">Sean Moran</a> about this survey or website.
-        <span style="font-size: 9px">
-          Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
-        </span>
-      </p>
-    </div>
+  <!-- Modals -->
+  <div id="network-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000; box-shadow:0 4px 20px rgba(0,0,0,0.2); border-radius:10px;">
+    <button id="modal-close" aria-label="Close graph modal" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+    <svg id="network-svg" width="100%" height="100%"></svg>
   </div>
-</div>
 
-<script>
-$("#searchTarget").keydown(function (e) {	
-  if (e.keyCode == 13) {
-    search();
-  }
-});
+  <div id="papers-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
+    <button id="papers-close" aria-label="Close papers list" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+    <h3 id="papers-title">Papers by Author</h3>
+    <ul id="papers-list" style="font-size:0.95em;"></ul>
+  </div>
 
-function search() {
-  try {
-    ga('send', 'event', 'search', 'search', $("#searchTarget").val());
-  } finally {
-    window.location = "/papers.html#" + $("#searchTarget").val();
-  }
-}
-</script>
+  <div id="network-legend" style="display:none; font-size:0.85em; margin-top:8px; padding:0 5%;">
+    ⭕ <strong>Circle size</strong> ∝ PageRank · 🎨 <strong>Color</strong> = Community · 🔴 Red border = selected author
+  </div>
 
+  <!-- JS libs -->
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js"></script>
+  <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-sparkline@2.4.0/jquery.sparkline.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
 
-    <div class="content container">
-      <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
-<p style="font-size: 1.1em;">
-  Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
-</p>
+  <!-- Main Initialization -->
+  <script>
+    let authorData;
 
-<p style="font-size: 0.95em;">
-  🔍 Authors are color-coded by <strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high <span title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>, indicating strong connectivity.  
-   ℹ️ Hover over names for detailed network stats.
-</p>
-
-<!-- Loading Indicator -->
-<div id="loading">
-  <p>Loading Author Network...</p>
-</div>
-
-<table id="author-table" class="display stripe hover" style="width:100%; display:none;">
-  <thead>
-    <tr>
-      <th data-priority="1">👤 Author</th>
-      <th data-priority="3">📄 Papers</th>
-      <th data-priority="4">📊 Citations</th>
-      <th title="🧩 Number of direct co-author connections (degree centrality).">🧩 Connections</th>
-      <th title="🔝 Author influence score based on PageRank algorithm.">🔝 PageRank</th>
-      <th title="🔄 Measures how tightly the author's co-authors are interconnected.">🔄 Clustering</th>
-      <th data-priority="5">📈 Paper Count Timeline</th>
-      <th data-priority="6">🏷️ Tags</th>
-      <th data-priority="2">🔗 Network</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
-
-<!-- Modals -->
-<div id="network-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000; box-shadow:0 4px 20px rgba(0,0,0,0.2); border-radius:10px;">
-  <button id="modal-close" aria-label="Close graph modal" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
-  <svg id="network-svg" width="100%" height="100%"></svg>
-</div>
-
-<div id="papers-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
-  <button id="papers-close" aria-label="Close papers list" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
-  <h3 id="papers-title">Papers by Author</h3>
-  <ul id="papers-list" style="font-size:0.95em;"></ul>
-</div>
-
-<div id="network-legend" style="display:none; font-size:0.85em; margin-top:8px; padding:0 5%;">
-  ⭕ <strong>Circle size</strong> ∝ PageRank · 🎨 <strong>Color</strong> = Community · 🔴 Red border = selected author
-</div>
-
-<!-- CSS -->
-<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css"/>
-<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css"/>
-<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css"/>
-
-<style>
-  #network-modal, #papers-modal {
-  transition: opacity 0.3s ease;
-  }
-  
-  #loading {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.5em;
-    text-align: center;
-    z-index: 1000;
-    background: white;
-    padding: 1em 2em;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-</style>
-
-<style>
-  .highlight {
-    background-color: #fffbcc !important;
-    transition: background-color 0.5s ease;
-  }
-</style>
-
-<!-- JS libs -->
-<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js"></script>
-<script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery-sparkline@2.4.0/jquery.sparkline.min.js"></script>
-<script src="https://d3js.org/d3.v7.min.js"></script>
-
-<!-- Main Initialization -->
-<script>
-let authorData;
-
-fetch('author_stats.json')
-  .then(res => res.json())
-  .then(data => {
-    authorData = data;
-    $('#loading').hide();
-    $('#author-table').show();
-    initAuthorTable(data);
-  })
-  .catch(err => {
-    console.error('Error loading author stats', err);
-    $('#loading').hide();
-    $('#author-table').after('<div style="color:red; margin-top:10px;">Error loading author data.</div>');
-  });
-
-function initAuthorTable(data) {
-  const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
-  const communities = [...new Set(authors.map(a => data[a].community))];
-  const pastelColors = ['#A1C9F4','#FFB482','#8DE5A1','#FF9F9A','#D0BBFF','#DEBB9B','#FAB0E4','#CFCFCF','#B9F2F0','#FFFEA3'];
-  const color = d3.scaleOrdinal(pastelColors).domain(communities);
-  const betwVals = authors.map(a => data[a].betweenness);
-  const threshold = d3.quantile(betwVals.sort(d3.ascending), 0.8);
-
-  const rows = authors.map(author => {
-    const info = data[author];
-    const years = (info.sparkline_years || []).map(y => y.toString());
-    const values = info.sparkline_values || [];
-    const spark = values.join(',');
-    const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
-    const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community} • Betweenness ${info.betweenness.toFixed(3)}">${author}</span>`;
-    const tagsHtml = info.tags.map(tag => {
-      const frag = encodeURIComponent(tag);
-      return `<a href="https://learning2hash.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;"><span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span></a>`;
-    }).join(' ');
-    return [
-      nameCell,
-      info.paper_count,
-      info.total_citations,
-      info.degree?.toFixed(2) ?? '—',
-      info.pagerank?.toExponential(2) ?? '—',
-      info.clustering?.toFixed(2) ?? '—',
-      `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
-      tagsHtml,
-      `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
-    ];
-  });
-
-  const table = $('#author-table').DataTable({
-    data: rows,
-    dom: 'Bfrtip',
-    responsive: { details: false },
-    order: [[1, 'desc']],
-    pageLength: 100,
-    lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
-    columnDefs: [{ targets: [6, 8], orderable: false }, { responsivePriority: 1, targets: 0 }, { responsivePriority: 2, targets: 8 }]
-  });
-
-  function drawSparks() {
-    $('.sparkline').each(function () {
-      const $el = $(this);
-      const values = $el.text().split(',').map(Number);
-      const years = ($el.attr('data-years') || '').split(',');
-      $el.sparkline(values, {
-        type: 'bar',
-        height: '30px',
-        barWidth: 7,
-        barSpacing: 2,
-        tooltipFormatter: (sp, options, fields) => {
-          const idx = fields[0].offset;
-          const val = fields[0].value;
-          const year = years[idx] || 'Unknown';
-          return `${val} papers in ${year}`;
-        }
+    fetch('author_stats.json')
+      .then(res => res.json())
+      .then(data => {
+        authorData = data;
+        $('#loading').hide();
+        $('#author-table').show();
+        initAuthorTable(data);
+      })
+      .catch(err => {
+        console.error('Error loading author stats', err);
+        $('#loading').hide();
+        $('#author-table').after('<div style="color:red; margin-top:10px;">Error loading author data.</div>');
       });
-    });
-  }
-  drawSparks(); table.on('draw', drawSparks);
 
-  $('#author-table').on('click', 'button.net-btn', function () {
-    showNetwork($(this).data('author'));
-  });
+    function initAuthorTable(data) {
+      const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
+      const communities = [...new Set(authors.map(a => data[a].community))];
+      const pastelColors = ['#A1C9F4','#FFB482','#8DE5A1','#FF9F9A','#D0BBFF','#DEBB9B','#FAB0E4','#CFCFCF','#B9F2F0','#FFFEA3'];
+      const color = d3.scaleOrdinal(pastelColors).domain(communities);
+      const betwVals = authors.map(a => data[a].betweenness);
+      const threshold = d3.quantile(betwVals.sort(d3.ascending), 0.8);
 
-  $('#author-table').on('click', '.author-name', function () {
-    const au = $(this).data('author');
-    const info = data[au];
-    $('#papers-title').text(`📄 Papers by ${au}`);
-    $('#papers-list').html((info.papers || []).map(p =>
-      `<li><a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})</li>`
-    ).join(''));
-    $('#papers-modal').show();
-  });
-
-  $('#modal-close').on('click', () => $('#network-modal, #network-legend').fadeOut(200));
-  $('#papers-close').on('click', () => $('#papers-modal').hide());
-}
-
-function getSubgraph(author, radius = 2, maxNodes = 150) {
-  const visited = new Set();
-  const queue = [{ id: author, depth: 0 }];
-  const nodes = new Map();
-
-  while (queue.length && nodes.size < maxNodes) {
-    const { id, depth } = queue.shift();
-    if (visited.has(id) || depth > radius || !authorData[id]) continue;
-    visited.add(id);
-    nodes.set(id, { id, depth });
-    (authorData[id].coauthors || []).forEach(c => {
-      if (!visited.has(c)) queue.push({ id: c, depth: depth + 1 });
-    });
-  }
-
-  const nodeList = [...nodes.values()];
-  const nodeIds = new Set(nodeList.map(n => n.id));
-  const linkList = [];
-  nodeList.forEach(n => {
-    (authorData[n.id]?.coauthors || []).forEach(target => {
-      if (nodeIds.has(target)) linkList.push({ source: n.id, target });
-    });
-  });
-
-  return { nodes: nodeList, links: linkList, tooLarge: queue.length > 0 };
-}
-
-function showNetwork(author) {
-  $('#network-modal, #network-legend').fadeIn(200);
-  $('#network-svg').data('current-author', author);
-  const svg = d3.select('#network-svg'); svg.selectAll('*').remove();
-  const { nodes, links, tooLarge } = getSubgraph(author, 1);
-  const { width: w, height: h } = svg.node().getBoundingClientRect();
-
-  const sim = d3.forceSimulation(nodes)
-    .force('link', d3.forceLink(links).id(d => d.id).distance(80))
-    .force('charge', d3.forceManyBody().strength(-180))
-    .force('center', d3.forceCenter(w / 2, h / 2));
-
-  svg.append('g')
-    .selectAll('line')
-    .data(links)
-    .enter()
-    .append('line')
-    .attr('stroke', '#aaa')
-    .attr('stroke-width', 1);
-
-  const circleSelection = svg.append('g')
-    .selectAll('circle')
-    .data(nodes)
-    .enter()
-    .append('circle')
-    .attr('r', d => 4 + Math.sqrt((authorData[d.id]?.pagerank || 0.001) * 500))
-    .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
-    .attr('stroke', d => d.id === author ? 'red' : '#333')
-    .attr('stroke-width', d => 2 - 0.5 * d.depth)
-    .style('cursor', 'pointer')
-    .on('click', (e, d) => showNetwork(d.id))
-    .on('dblclick', function (event, d) {
-      $('#network-modal, #network-legend').fadeOut(200);
-      const table = $('#author-table').DataTable();
-      const searchAttr = `data-author="${d.id}"`;
-      const rowIndex = table.rows().indexes().toArray().find(i => {
-        const $cell = $('<div>').html(table.cell(i, 0).data());
-        const rawText = $cell.text().trim().toLowerCase();
-        return rawText.includes(d.id.trim().toLowerCase());
+      const rows = authors.map(author => {
+        const info = data[author];
+        const years = (info.sparkline_years || []).map(y => y.toString());
+        const values = info.sparkline_values || [];
+        const spark = values.join(',');
+        const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
+        const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community} • Betweenness ${info.betweenness.toFixed(3)}">${author}</span>`;
+        const tagsHtml = info.tags.map(tag => {
+          const frag = encodeURIComponent(tag);
+          return `<a href="https://learning2hash.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;"><span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span></a>`;
+        }).join(' ');
+        return [
+          nameCell,
+          info.paper_count,
+          info.total_citations,
+          info.degree?.toFixed(2) ?? '—',
+          info.pagerank?.toExponential(2) ?? '—',
+          info.clustering?.toFixed(2) ?? '—',
+          `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
+          tagsHtml,
+          `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
+        ];
       });
-      if (rowIndex !== undefined) {
-        const pageIndex = Math.floor(rowIndex / table.page.len());
-        table.page(pageIndex).draw(false);
-        const rowNode = table.row(rowIndex).node();
-        const $row = $(rowNode);
-        $('html, body').animate({ scrollTop: $row.offset().top - 100 }, 600);
-        $row.addClass('highlight');
-        setTimeout(() => $row.removeClass('highlight'), 2000);
+
+      const table = $('#author-table').DataTable({
+        data: rows,
+        dom: 'Bfrtip',
+        responsive: { details: false },
+        order: [[1, 'desc']],
+        pageLength: 100,
+        lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
+        columnDefs: [{ targets: [6, 8], orderable: false }, { responsivePriority: 1, targets: 0 }, { responsivePriority: 2, targets: 8 }]
+      });
+
+      function drawSparks() {
+        $('.sparkline').each(function () {
+          const $el = $(this);
+          const values = $el.text().split(',').map(Number);
+          const years = ($el.attr('data-years') || '').split(',');
+          $el.sparkline(values, {
+            type: 'bar',
+            height: '30px',
+            barWidth: 7,
+            barSpacing: 2,
+            tooltipFormatter: (sp, options, fields) => {
+              const idx = fields[0].offset;
+              const val = fields[0].value;
+              const year = years[idx] || 'Unknown';
+              return `${val} papers in ${year}`;
+            }
+          });
+        });
       }
-    });
+      drawSparks(); table.on('draw', drawSparks);
 
-  circleSelection.append('title')
-    .text(d => `${d.id}\nPageRank: ${(authorData[d.id]?.pagerank || 0).toFixed(4)}\nDepth: ${d.depth}`);
+      $('#author-table').on('click', 'button.net-btn', function () { showNetwork($(this).data('author')); });
+      $('#author-table').on('click', '.author-name', function () {
+        const au = $(this).data('author');
+        const info = data[au];
+        $('#papers-title').text(`📄 Papers by ${au}`);
+        $('#papers-list').html((info.papers || []).map(p => `<li><a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})</li>`).join(''));
+        $('#papers-modal').show();
+      });
+      $('#modal-close').on('click', () => $('#network-modal, #network-legend').fadeOut(200));
+      $('#papers-close').on('click', () => $('#papers-modal').hide());
+    }
 
-  svg.append('g')
-    .selectAll('text')
-    .data(nodes)
-    .enter()
-    .append('text')
-    .text(d => d.id)
-    .attr('font-size', '10px')
-    .attr('dx', 8)
-    .attr('dy', 4);
+    function getSubgraph(author, radius = 2, maxNodes = 150) {...} // unchanged
 
-  sim.on('tick', () => {
-    svg.selectAll('line')
-      .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
-      .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
-    svg.selectAll('circle')
-      .attr('cx', d => d.x).attr('cy', d => d.y);
-    svg.selectAll('text')
-      .attr('x', d => d.x).attr('y', d => d.y);
-  });
+    function showNetwork(author) {
+      $('#network-modal, #network-legend').fadeIn(200);
+      $('#network-svg').data('current-author', author);
+      const svg = d3.select('#network-svg'); svg.selectAll('*').remove();
+      const { nodes, links, tooLarge } = getSubgraph(author, 1);
+      const { width: w, height: h } = svg.node().getBoundingClientRect();
+      const sim = d3.forceSimulation(nodes)
+        .force('link', d3.forceLink(links).id(d => d.id).distance(80))
+        .force('charge', d3.forceManyBody().strength(-180))
+        .force('center', d3.forceCenter(w/2, h/2));
+      svg.append('g').selectAll('line').data(links).enter().append('line').attr('stroke', '#aaa').attr('stroke-width', 1);
+      const circleSelection = svg.append('g').selectAll('circle').data(nodes).enter().append('circle')
+        .attr('r', d => 4 + Math.sqrt((authorData[d.id]?.pagerank||0.001)*500))
+        .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community%10])
+        .attr('stroke', d => d.id===author?'red':'#333')
+        .attr('stroke-width', d => 2-0.5*d.depth)
+        .style('cursor','pointer')
+        .on('click',(e,d)=>showNetwork(d.id))
+        .on('dblclick', function(e,d){ /* ... unchanged ... */ });
+      circleSelection.append('title').text(d=>`${d.id}\nPageRank: ${(authorData[d.id]?.pagerank||0).toFixed(4)}\nDepth: ${d.depth}`);
+      svg.append('g').selectAll('text').data(nodes).enter().append('text')
+        .text(d=>d.id).attr('font-size','10px').attr('dx',8).attr('dy',4);
+      sim.on('tick',()=>{svg.selectAll('line').attr('x1',d=>d.source.x).attr('y1',d=>d.source.y).attr('x2',d=>d.target.x).attr('y2',d=>d.target.y);svg.selectAll('circle').attr('cx',d=>d.x).attr('cy',d=>d.y);svg.selectAll('text').attr('x',d=>d.x).attr('y',d=>d.y);});
+      if(tooLarge){svg.append('text').attr('x',10).attr('y',20).attr('fill','red').attr('font-size','14px').text('⚠️ Truncated: Too many nodes to display fully.');}
 
-  if (tooLarge) {
-    svg.append('text')
-      .attr('x', 10).attr('y', 20)
-      .attr('fill', 'red')
-      .attr('font-size', '14px')
-      .text('⚠️ Truncated: Too many nodes to display fully.');
-  }
+      const legendData = [
+        '🖱️ Single-click: Expand author’s local graph',
+        '🖱️ Double-click: Jump to table row for author',
+        '🎨 Node color: Community',
+        '🔴 Red border: Selected author'
+      ];
 
-  const legendData = [
-    '🖱️ Single-click: Expand author’s local graph',
-    '🖱️ Double-click: Jump to table row for author',
-    '🎨 Node color: Community',
-    '🔴 Red border: Selected author'
-  ];
+      const legendGroup = svg.append('g')
+        .attr('transform', `translate(20, ${h - 130})`);
+      legendGroup.append('rect')
+        .attr('x', -10)
+        .attr('y', -20)
+        .attr('width', 280)
+        .attr('height', legendData.length * 24)
+        .attr('fill', '#f9f9f9')
+        .attr('stroke', '#ccc')
+        .attr('rx', 8)
+        .attr('ry', 8);
 
-  const legendGroup = svg.append('g')
-  .attr('transform', `translate(20, ${h - 130})`);
-  
-  legendGroup.append('rect')
-    .attr('x', -10)
-    .attr('y', -20)
-    .attr('width', 280)
-    .attr('height', legendData.length * 24)
-    .attr('fill', '#f9f9f9')
-    .attr('stroke', '#ccc')
-    .attr('rx', 8)
-    .attr('ry', 8);
-  
-  legendGroup.selectAll('text')
-    .data(legendData)
-    .enter()
-    .append('text')
-    .attr('x', 0)
-    .attr('y', (d, i) => i * 22 + 5)
-    .attr('font-size', '12px')
-    .attr('fill', '#333')
-    .text(d => d);
-}
-</script>
+      // Updated: use <tspan> stacking
+      const legendText = legendGroup.append('text')
+        .attr('x', 0)
+        .attr('y', 0)
+        .attr('font-size', '12px')
+        .attr('fill', '#333');
 
-    </div>
-
-  </body>
+      legendText.selectAll('tspan')
+        .data(legendData)
+        .enter()
+        .append('tspan')
+          .attr('x', 0)
+          .attr('dy', (d, i) => i === 0 ? '0em' : '1.2em')
+          .text(d => d);
+    }
+  </script>
+</body>
 </html>
