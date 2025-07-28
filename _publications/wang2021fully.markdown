@@ -1,0 +1,27 @@
+---
+layout: publication
+title: Fully Hyperbolic Graph Convolution Network For Recommendation
+authors: Liping Wang, Fenyu Hu, Shu Wu, Liang Wang
+conference: Proceedings of the 30th ACM International Conference on Information &amp;
+  Knowledge Management
+year: 2021
+bibkey: wang2021fully
+citations: 21
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.04607'}]
+tags: ["CIKM", "Recommender Systems"]
+short_authors: Wang et al.
+---
+Recently, Graph Convolution Network (GCN) based methods have achieved
+outstanding performance for recommendation. These methods embed users and items
+in Euclidean space, and perform graph convolution on user-item interaction
+graphs. However, real-world datasets usually exhibit tree-like hierarchical
+structures, which make Euclidean space less effective in capturing user-item
+relationship. In contrast, hyperbolic space, as a continuous analogue of a
+tree-graph, provides a promising alternative. In this paper, we propose a fully
+hyperbolic GCN model for recommendation, where all operations are performed in
+hyperbolic space. Utilizing the advantage of hyperbolic space, our method is
+able to embed users/items with less distortion and capture user-item
+interaction relationship more accurately. Extensive experiments on public
+benchmark datasets show that our method outperforms both Euclidean and
+hyperbolic counterparts and requires far lower embedding dimensionality to
+achieve comparable performance.

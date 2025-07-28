@@ -1,0 +1,27 @@
+---
+layout: publication
+title: Zero-shot Learning Via Joint Latent Similarity Embedding
+authors: Ziming Zhang, Venkatesh Saligrama
+conference: 2015 IEEE International Conference on Computer Vision (ICCV)
+year: 2015
+bibkey: zhang2015zero
+citations: 581
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1511.04512'}]
+tags: ["Few Shot & Zero Shot", "ICCV"]
+short_authors: Ziming Zhang, Venkatesh Saligrama
+---
+Zero-shot recognition (ZSR) deals with the problem of predicting class labels
+for target domain instances based on source domain side information (e.g.
+attributes) of unseen classes. We formulate ZSR as a binary prediction problem.
+Our resulting classifier is class-independent. It takes an arbitrary pair of
+source and target domain instances as input and predicts whether or not they
+come from the same class, i.e. whether there is a match. We model the posterior
+probability of a match since it is a sufficient statistic and propose a latent
+probabilistic model in this context. We develop a joint discriminative learning
+framework based on dictionary learning to jointly learn the parameters of our
+model for both domains, which ultimately leads to our class-independent
+classifier. Many of the existing embedding methods can be viewed as special
+cases of our probabilistic model. On ZSR our method shows 4.90% improvement
+over the state-of-the-art in accuracy averaged across four benchmark datasets.
+We also adapt ZSR method for zero-shot retrieval and show 22.45% improvement
+accordingly in mean average precision (mAP).

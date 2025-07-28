@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Discrete Semantic Tokenization For Deep CTR Prediction
+authors: Qijiong Liu, Hengchang Hu, Jiahao Wu, Jieming Zhu, Min-yen Kan, Xiao-ming
+  Wu
+conference: Companion Proceedings of the ACM Web Conference 2024
+year: 2024
+bibkey: liu2024discrete
+citations: 2
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.08206'}]
+tags: ["Efficiency", "Recommender Systems"]
+short_authors: Liu et al.
+---
+Incorporating item content information into click-through rate (CTR)
+prediction models remains a challenge, especially with the time and space
+constraints of industrial scenarios. The content-encoding paradigm, which
+integrates user and item encoders directly into CTR models, prioritizes space
+over time. In contrast, the embedding-based paradigm transforms item and user
+semantics into latent embeddings, subsequently caching them to optimize
+processing time at the expense of space. In this paper, we introduce a new
+semantic-token paradigm and propose a discrete semantic tokenization approach,
+namely UIST, for user and item representation. UIST facilitates swift training
+and inference while maintaining a conservative memory footprint. Specifically,
+UIST quantizes dense embedding vectors into discrete tokens with shorter
+lengths and employs a hierarchical mixture inference module to weigh the
+contribution of each user--item token pair. Our experimental results on news
+recommendation showcase the effectiveness and efficiency (about 200-fold space
+compression) of UIST for CTR prediction.

@@ -1,0 +1,31 @@
+---
+layout: publication
+title: Entity-agnostic Representation Learning For Parameter-efficient Knowledge Graph
+  Embedding
+authors: Mingyang Chen, Wen Zhang, Zhen Yao, Yushan Zhu, Yang Gao, Jeff Z. Pan, Huajun
+  Chen
+conference: Proceedings of the AAAI Conference on Artificial Intelligence
+year: 2023
+bibkey: chen2023entity
+citations: 4
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.01849'}]
+tags: ["AAAI", "Efficiency"]
+short_authors: Chen et al.
+---
+We propose an entity-agnostic representation learning method for handling the
+problem of inefficient parameter storage costs brought by embedding knowledge
+graphs. Conventional knowledge graph embedding methods map elements in a
+knowledge graph, including entities and relations, into continuous vector
+spaces by assigning them one or multiple specific embeddings (i.e., vector
+representations). Thus the number of embedding parameters increases linearly as
+the growth of knowledge graphs. In our proposed model, Entity-Agnostic
+Representation Learning (EARL), we only learn the embeddings for a small set of
+entities and refer to them as reserved entities. To obtain the embeddings for
+the full set of entities, we encode their distinguishable information from
+their connected relations, k-nearest reserved entities, and multi-hop
+neighbors. We learn universal and entity-agnostic encoders for transforming
+distinguishable information into entity embeddings. This approach allows our
+proposed EARL to have a static, efficient, and lower parameter count than
+conventional knowledge graph embedding methods. Experimental results show that
+EARL uses fewer parameters and performs better on link prediction tasks than
+baselines, reflecting its parameter efficiency.

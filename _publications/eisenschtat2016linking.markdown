@@ -1,0 +1,27 @@
+---
+layout: publication
+title: Linking Image And Text With 2-way Nets
+authors: Aviv Eisenschtat, Lior Wolf
+conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2017
+bibkey: eisenschtat2016linking
+citations: 185
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.07973'}]
+tags: ["CVPR"]
+short_authors: Aviv Eisenschtat, Lior Wolf
+---
+Linking two data sources is a basic building block in numerous computer
+vision problems. Canonical Correlation Analysis (CCA) achieves this by
+utilizing a linear optimizer in order to maximize the correlation between the
+two views. Recent work makes use of non-linear models, including deep learning
+techniques, that optimize the CCA loss in some feature space. In this paper, we
+introduce a novel, bi-directional neural network architecture for the task of
+matching vectors from two data sources. Our approach employs two tied neural
+network channels that project the two views into a common, maximally correlated
+space using the Euclidean loss. We show a direct link between the
+correlation-based loss and Euclidean loss, enabling the use of Euclidean loss
+for correlation maximization. To overcome common Euclidean regression
+optimization problems, we modify well-known techniques to our problem,
+including batch normalization and dropout. We show state of the art results on
+a number of computer vision matching tasks including MNIST image matching and
+sentence-image matching on the Flickr8k, Flickr30k and COCO datasets.

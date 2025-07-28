@@ -1,0 +1,23 @@
+---
+layout: publication
+title: Unconstrained Foreground Object Search
+authors: Yinan Zhao, Brian Price, Scott Cohen, Danna Gurari
+conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
+year: 2019
+bibkey: zhao2019unconstrained
+citations: 8
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.03675'}]
+tags: ["ICCV"]
+short_authors: Zhao et al.
+---
+Many people search for foreground objects to use when editing images. While
+existing methods can retrieve candidates to aid in this, they are constrained
+to returning objects that belong to a pre-specified semantic class. We instead
+propose a novel problem of unconstrained foreground object (UFO) search and
+introduce a solution that supports efficient search by encoding the background
+image in the same latent space as the candidate foreground objects. A key
+contribution of our work is a cost-free, scalable approach for creating a
+large-scale training dataset with a variety of foreground objects of differing
+semantic categories per image location. Quantitative and human-perception
+experiments with two diverse datasets demonstrate the advantage of our UFO
+search solution over related baselines.

@@ -1,0 +1,27 @@
+---
+layout: publication
+title: Fine-grained Action Retrieval Through Multiple Parts-of-speech Embeddings
+authors: Michael Wray, Diane Larlus, Gabriela Csurka, Dima Damen
+conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
+year: 2019
+bibkey: wray2019fine
+citations: 130
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.03477'}]
+tags: ["ICCV", "Multimodal Retrieval"]
+short_authors: Wray et al.
+---
+We address the problem of cross-modal fine-grained action retrieval between
+text and video. Cross-modal retrieval is commonly achieved through learning a
+shared embedding space, that can indifferently embed modalities. In this paper,
+we propose to enrich the embedding by disentangling parts-of-speech (PoS) in
+the accompanying captions. We build a separate multi-modal embedding space for
+each PoS tag. The outputs of multiple PoS embeddings are then used as input to
+an integrated multi-modal space, where we perform action retrieval. All
+embeddings are trained jointly through a combination of PoS-aware and
+PoS-agnostic losses. Our proposal enables learning specialised embedding spaces
+that offer multiple views of the same embedded entities.
+  We report the first retrieval results on fine-grained actions for the
+large-scale EPIC dataset, in a generalised zero-shot setting. Results show the
+advantage of our approach for both video-to-text and text-to-video action
+retrieval. We also demonstrate the benefit of disentangling the PoS for the
+generic task of cross-modal video retrieval on the MSR-VTT dataset.

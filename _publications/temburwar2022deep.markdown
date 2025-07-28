@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Deep Learning Based Image Retrieval In The JPEG Compressed Domain
+authors: Shrikant Temburwar, Bulla Rajesh, Mohammed Javed
+conference: Lecture Notes in Electrical Engineering
+year: 2022
+bibkey: temburwar2022deep
+citations: 4
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.03648'}]
+tags: ["Image Retrieval"]
+short_authors: Shrikant Temburwar, Bulla Rajesh, Mohammed Javed
+---
+Content-based image retrieval (CBIR) systems on pixel domain use low-level
+features, such as colour, texture and shape, to retrieve images. In this
+context, two types of image representations i.e. local and global image
+features have been studied in the literature. Extracting these features from
+pixel images and comparing them with images from the database is very
+time-consuming. Therefore, in recent years, there has been some effort to
+accomplish image analysis directly in the compressed domain with lesser
+computations. Furthermore, most of the images in our daily transactions are
+stored in the JPEG compressed format. Therefore, it would be ideal if we could
+retrieve features directly from the partially decoded or compressed data and
+use them for retrieval. Here, we propose a unified model for image retrieval
+which takes DCT coefficients as input and efficiently extracts global and local
+features directly in the JPEG compressed domain for accurate image retrieval.
+The experimental findings indicate that our proposed model performed similarly
+to the current DELG model which takes RGB features as an input with reference
+to mean average precision while having a faster training and retrieval speed.

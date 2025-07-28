@@ -1,0 +1,30 @@
+---
+layout: publication
+title: Language-only Efficient Training Of Zero-shot Composed Image Retrieval
+authors: Geonmo Gu, Sanghyuk Chun, Wonjae Kim, Yoohoon Kang, Sangdoo Yun
+conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2024
+bibkey: gu2023language
+citations: 8
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.01998'}]
+tags: ["CVPR", "Few Shot & Zero Shot", "Image Retrieval"]
+short_authors: Gu et al.
+---
+Composed image retrieval (CIR) task takes a composed query of image and text,
+aiming to search relative images for both conditions. Conventional CIR
+approaches need a training dataset composed of triplets of query image, query
+text, and target image, which is very expensive to collect. Several recent
+works have worked on the zero-shot (ZS) CIR paradigm to tackle the issue
+without using pre-collected triplets. However, the existing ZS-CIR methods show
+limited backbone scalability and generalizability due to the lack of diversity
+of the input texts during training. We propose a novel CIR framework, only
+using language for its training. Our LinCIR (Language-only training for CIR)
+can be trained only with text datasets by a novel self-supervision named
+self-masking projection (SMP). We project the text latent embedding to the
+token embedding space and construct a new text by replacing the keyword tokens
+of the original text. Then, we let the new and original texts have the same
+latent embedding vector. With this simple strategy, LinCIR is surprisingly
+efficient and highly effective; LinCIR with CLIP ViT-G backbone is trained in
+48 minutes and shows the best ZS-CIR performances on four different CIR
+benchmarks, CIRCO, GeneCIS, FashionIQ, and CIRR, even outperforming supervised
+method on FashionIQ. Code is available at https://github.com/navervision/lincir

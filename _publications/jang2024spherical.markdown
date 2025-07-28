@@ -1,0 +1,34 @@
+---
+layout: publication
+title: Spherical Linear Interpolation And Text-anchoring For Zero-shot Composed Image
+  Retrieval
+authors: Young Kyun Jang, Dat Huynh, Ashish Shah, Wen-kai Chen, Ser-nam Lim
+conference: Lecture Notes in Computer Science
+year: 2024
+bibkey: jang2024spherical
+citations: 2
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.00571'}]
+tags: ["Few Shot & Zero Shot", "Image Retrieval"]
+short_authors: Jang et al.
+---
+Composed Image Retrieval (CIR) is a complex task that retrieves images using
+a query, which is configured with an image and a caption that describes desired
+modifications to that image. Supervised CIR approaches have shown strong
+performance, but their reliance on expensive manually-annotated datasets
+restricts their scalability and broader applicability. To address these issues,
+previous studies have proposed pseudo-word token-based Zero-Shot CIR (ZS-CIR)
+methods, which utilize a projection module to map images to word tokens.
+However, we conjecture that this approach has a downside: the projection module
+distorts the original image representation and confines the resulting composed
+embeddings to the text-side. In order to resolve this, we introduce a novel
+ZS-CIR method that uses Spherical Linear Interpolation (Slerp) to directly
+merge image and text representations by identifying an intermediate embedding
+of both. Furthermore, we introduce Text-Anchored-Tuning (TAT), a method that
+fine-tunes the image encoder while keeping the text encoder fixed. TAT closes
+the modality gap between images and text, making the Slerp process much more
+effective. Notably, the TAT method is not only efficient in terms of the scale
+of the training dataset and training time, but it also serves as an excellent
+initial checkpoint for training supervised CIR models, thereby highlighting its
+wider potential. The integration of the Slerp-based ZS-CIR with a TAT-tuned
+model enables our approach to deliver state-of-the-art retrieval performance
+across CIR benchmarks.

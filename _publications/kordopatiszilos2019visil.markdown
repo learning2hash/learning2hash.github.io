@@ -1,0 +1,31 @@
+---
+layout: publication
+title: 'Visil: Fine-grained Spatio-temporal Video Similarity Learning'
+authors: Giorgos Kordopatis-zilos, Symeon Papadopoulos, Ioannis Patras, Ioannis Kompatsiaris
+conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
+year: 2019
+bibkey: kordopatiszilos2019visil
+citations: 67
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.07410'}]
+tags: ["Distance Metric Learning", "ICCV", "Video Retrieval"]
+short_authors: Kordopatis-zilos et al.
+---
+In this paper we introduce ViSiL, a Video Similarity Learning architecture
+that considers fine-grained Spatio-Temporal relations between pairs of videos
+-- such relations are typically lost in previous video retrieval approaches
+that embed the whole frame or even the whole video into a vector descriptor
+before the similarity estimation. By contrast, our Convolutional Neural Network
+(CNN)-based approach is trained to calculate video-to-video similarity from
+refined frame-to-frame similarity matrices, so as to consider both intra- and
+inter-frame relations. In the proposed method, pairwise frame similarity is
+estimated by applying Tensor Dot (TD) followed by Chamfer Similarity (CS) on
+regional CNN frame features - this avoids feature aggregation before the
+similarity calculation between frames. Subsequently, the similarity matrix
+between all video frames is fed to a four-layer CNN, and then summarized using
+Chamfer Similarity (CS) into a video-to-video similarity score -- this avoids
+feature aggregation before the similarity calculation between videos and
+captures the temporal similarity patterns between matching frame sequences. We
+train the proposed network using a triplet loss scheme and evaluate it on five
+public benchmark datasets on four different video retrieval problems where we
+demonstrate large improvements in comparison to the state of the art. The
+implementation of ViSiL is publicly available.
