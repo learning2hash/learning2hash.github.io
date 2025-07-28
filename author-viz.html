@@ -1,90 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Explore Learning to Hash papers by Author</title>
-  <meta name="description" content="Explore prolific authors and their contributions across Learning to Hash research" />
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
-  <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css" />
-  <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" />
-  <style>
-    #network-modal, #papers-modal {
-      transition: opacity 0.3s ease;
-    }
-    #loading {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 1.5em;
-      text-align: center;
-      z-index: 1000;
-      background: white;
-      padding: 1em 2em;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    }
-    .highlight {
-      background-color: #fffbcc !important;
-      transition: background-color 0.5s ease;
-    }
-  </style>
-</head>
-<body>
-  <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
-  <p style="font-size: 1.1em;">
-    Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
-  </p>
-  <p style="font-size: 0.95em;">
-    🔍 Authors are color-coded by <strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high <span title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>, indicating strong connectivity. ℹ️ Hover over names for detailed network stats.
-  </p>
+---
+layout: default
+title: Explore Learning to Hash papers by Author
+description: Explore prolific authors and their contributions across Learning to Hash research
+---
 
-  <!-- Loading Indicator -->
-  <div id="loading"><p>Loading Author Network...</p></div>
+<h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
+<p style="font-size: 1.1em;">
+  Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
+</p>
+<p style="font-size: 0.95em;">
+  🔍 Authors are color-coded by <strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high <span title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>, indicating strong connectivity. ℹ️ Hover over names for detailed network stats.
+</p>
 
-  <table id="author-table" class="display stripe hover" style="width:100%; display:none;">
-    <thead>
-      <tr>
-        <th data-priority="1">👤 Author</th>
-        <th data-priority="3">📄 Papers</th>
-        <th data-priority="4">📊 Citations</th>
-        <th title="🧩 Number of direct co-author connections (degree centrality).">🧩 Connections</th>
-        <th title="🔝 Author influence score based on PageRank algorithm.">🔝 PageRank</th>
-        <th title="🔄 Measures how tightly the author's co-authors are interconnected.">🔄 Clustering</th>
-        <th data-priority="5">📈 Paper Count Timeline</th>
-        <th data-priority="6">🏷️ Tags</th>
-        <th data-priority="2">🔗 Network</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+<!-- Loading Indicator -->
+<div id="loading"><p>Loading Author Network...</p></div>
 
-  <!-- Modals -->
-  <div id="network-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000; box-shadow:0 4px 20px rgba(0,0,0,0.2); border-radius:10px;">
-    <button id="modal-close" aria-label="Close graph modal" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
-    <svg id="network-svg" width="100%" height="100%"></svg>
-  </div>
+<table id="author-table" class="display stripe hover" style="width:100%; display:none;">
+  <thead>
+    <tr>
+      <th data-priority="1">👤 Author</th>
+      <th data-priority="3">📄 Papers</th>
+      <th data-priority="4">📊 Citations</th>
+      <th title="🧩 Number of direct co-author connections (degree centrality).">🧩 Connections</th>
+      <th title="🔝 Author influence score based on PageRank algorithm.">🔝 PageRank</th>
+      <th title="🔄 Measures how tightly the author's co-authors are interconnected.">🔄 Clustering</th>
+      <th data-priority="5">📈 Paper Count Timeline</th>
+      <th data-priority="6">🏷️ Tags</th>
+      <th data-priority="2">🔗 Network</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
 
-  <div id="papers-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
-    <button id="papers-close" aria-label="Close papers list" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
-    <h3 id="papers-title">Papers by Author</h3>
-    <ul id="papers-list" style="font-size:0.95em;"></ul>
-  </div>
+<!-- Modals -->
+<div id="network-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000; box-shadow:0 4px 20px rgba(0,0,0,0.2); border-radius:10px;">
+  <button id="modal-close" aria-label="Close graph modal" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+  <svg id="network-svg" width="100%" height="100%"></svg>
+</div>
 
-  <div id="network-legend" style="display:none; font-size:0.85em; margin-top:8px; padding:0 5%;">
-    ⭕ <strong>Circle size</strong> ∝ PageRank · 🎨 <strong>Color</strong> = Community · 🔴 Red border = selected author
-  </div>
+<div id="papers-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
+  <button id="papers-close" aria-label="Close papers list" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+  <h3 id="papers-title">Papers by Author</h3>
+  <ul id="papers-list" style="font-size:0.95em;"></ul>
+</div>
 
-  <!-- JS libs -->
-  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-  <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-  <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
-  <script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js"></script>
-  <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery-sparkline@2.4.0/jquery.sparkline.min.js"></script>
-  <script src="https://d3js.org/d3.v7.min.js"></script>
+<div id="network-legend" style="display:none; font-size:0.85em; margin-top:8px; padding:0 5%;">
+  ⭕ <strong>Circle size</strong> ∝ PageRank · 🎨 <strong>Color</strong> = Community · 🔴 Red border = selected author
+</div>
+
+<!-- External CSS -->
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css" />
+<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" />
+
+<style>
+  #network-modal, #papers-modal {
+    transition: opacity 0.3s ease;
+  }
+  #loading {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5em;
+    text-align: center;
+    z-index: 1000;
+    background: white;
+    padding: 1em 2em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  .highlight {
+    background-color: #fffbcc !important;
+    transition: background-color 0.5s ease;
+  }
+</style>
+
+<!-- JS Dependencies -->
+<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-sparkline@2.4.0/jquery.sparkline.min.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
 
   <!-- Main Script -->
   <script>
@@ -263,10 +263,18 @@
 
       sim.on('tick', () => {
         svg.selectAll('line')
-          .attr('x1', d => d.source.x).attr('y1', d => d.source.y)
-          .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
-        svg.selectAll('circle').attr('cx', d => d.x).attr('cy', d => d.y);
-        svg.selectAll('text').attr('x', d => d.x).attr('y', d => d.y);
+          .attr('x1', d => d.source?.x || 0)
+          .attr('y1', d => d.source?.y || 0)
+          .attr('x2', d => d.target?.x || 0)
+          .attr('y2', d => d.target?.y || 0);
+      
+        svg.selectAll('circle')
+          .attr('cx', d => d.x || 0)
+          .attr('cy', d => d.y || 0);
+      
+        svg.selectAll('text')
+          .attr('x', d => d.x || 0)
+          .attr('y', d => d.y || 0);
       });
 
       if (tooLarge) {
@@ -306,5 +314,3 @@
         .text(d => d);
     }
   </script>
-</body>
-</html>
