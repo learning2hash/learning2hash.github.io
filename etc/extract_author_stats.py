@@ -67,6 +67,7 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
         citations = meta.get('citations', 0) or 0
         tags = meta.get('tags', []) or []
         title = meta.get('title', os.path.splitext(filename)[0])
+        bibkey = meta.get('bibkey', os.path.splitext(filename)[0])
 
         for author in authors:
             st = author_stats[author]
@@ -74,10 +75,11 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
             st['total_citations'] += citations
             st['tags'].update(tags)
             st['papers'].append({
-                'year': year,
-                'citations': citations,
-                'title': title
-            })
+            'year': year,
+            'citations': citations,
+            'title': title,
+            'bibkey': bibkey
+        })
         for a in authors:
             for b in authors:
                 if a != b:
@@ -123,8 +125,13 @@ def collate_author_statistics(markdown_dir, output_dir="output", output_filename
             co for co in st['coauthors'] if co in filtered_authors
         )[:20]  # Limit coauthors
 
-        top_papers = sorted(st['papers'], key=lambda p: p['citations'], reverse=True)[:10]
-        paper_refs = [{'title': p['title'], 'citations': p['citations'], 'year': p['year']} for p in top_papers]
+        top_papers = sorted(st['papers'], key=lambda p: p['citations'], reverse=True)[:15]
+        paper_refs = [{
+            'title': p['title'],
+            'citations': p['citations'],
+            'year': p['year'],
+            'bibkey': p.get('bibkey')
+        } for p in top_papers]
 
         # Sparkline computation
         year_counts = Counter()
