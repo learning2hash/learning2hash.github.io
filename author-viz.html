@@ -40,7 +40,7 @@ description: Explore prolific authors and their contributions across Learning to
 
 <div id="papers-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
   <button id="papers-close" aria-label="Close papers list" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
-  <h3 id="papers-title">Papers by Author</h3>
+  <h3 id="papers-title">Sample Papers by Author</h3>
   <ul id="papers-list" style="font-size:0.95em;"></ul>
 </div>
 
@@ -236,6 +236,16 @@ description: Explore prolific authors and their contributions across Learning to
       const svg = d3.select('#network-svg');
       svg.selectAll('*').remove();
 
+      const zoomGroup = svg.append('g').attr('class', 'zoom-layer');
+      
+      const zoom = d3.zoom()
+        .scaleExtent([0.5, 2])
+        .on('zoom', event => {
+          zoomGroup.attr('transform', event.transform);
+        });
+      
+      svg.call(zoom);
+      
       const { nodes, links, tooLarge } = getSubgraph(author, 1);
       const { width: w, height: h } = svg.node().getBoundingClientRect();
 
@@ -244,23 +254,62 @@ description: Explore prolific authors and their contributions across Learning to
         .force('charge', d3.forceManyBody().strength(-180))
         .force('center', d3.forceCenter(w / 2, h / 2));
 
-      svg.append('g').selectAll('line').data(links).enter().append('line')
+      zoomGroup.append('g').selectAll('line').data(links).enter().append('line')
         .attr('stroke', '#aaa').attr('stroke-width', 1);
 
-      const circleSelection = svg.append('g').selectAll('circle').data(nodes).enter().append('circle')
-        .attr('r', d => 4 + Math.sqrt((authorData[d.id]?.pagerank || 0.001) * 500))
-        .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
-        .attr('stroke', d => d.id === author ? 'red' : '#333')
-        .attr('stroke-width', d => 2 - 0.5 * d.depth)
-        .style('cursor', 'pointer')
-        .on('click', (e, d) => showNetwork(d.id));
+      const circleSelection = zoomGroup.append('g').selectAll('circle').data(nodes).enter().append('circle')
+  .attr('r', d => 4 + Math.sqrt((authorData[d.id]?.pagerank || 0.001) * 500))
+  .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
+  .attr('stroke', d => d.id === author ? 'red' : '#333')
+  .attr('stroke-width', d => 2 - 0.5 * d.depth)
+  .style('cursor', 'pointer')
+  .on('click', (e, d) => {
+    e.stopPropagation();
+    e.preventDefault();
+    showNetwork(d.id);
 
+    setTimeout(() => {
+      const svgEl = svg.node();
+      const { width, height } = svgEl.getBoundingClientRect();
+      const x = d.x ?? 0;
+      const y = d.y ?? 0;
+
+      svg.transition().duration(500).call(
+        zoom.transform,
+        d3.zoomIdentity
+          .translate(width / 2, height / 2)
+          .scale(1)
+          .translate(-x, -y)
+      );
+    }, 500);
+  })
+  .on('dblclick', (e, d) => {
+    e.preventDefault();
+    e.stopPropagation();
+
+    const authorRow = $(`.author-name[data-author="${d.id}"]`);
+    if (authorRow.length) {
+      $('html, body').animate({
+        scrollTop: authorRow.offset().top - 100
+      }, 500);
+      authorRow.addClass('highlight');
+      setTimeout(() => authorRow.removeClass('highlight'), 1500);
+    }
+      });
+      
       circleSelection.append('title')
         .text(d => `${d.id}\nPageRank: ${(authorData[d.id]?.pagerank || 0).toFixed(4)}\nDepth: ${d.depth}`);
-
-      svg.append('g').selectAll('text').data(nodes).enter().append('text')
-        .text(d => d.id).attr('font-size', '10px').attr('dx', 8).attr('dy', 4);
-
+      
+      const textSelection = zoomGroup.append('g')
+        .selectAll('text')
+        .data(nodes)
+        .enter()
+        .append('text')
+        .text(d => d.id)
+        .attr('font-size', '10px')
+        .attr('dx', 8)
+        .attr('dy', 4);
+      
       sim.on('tick', () => {
         svg.selectAll('line')
           .attr('x1', d => d.source?.x || 0)
@@ -272,8 +321,8 @@ description: Explore prolific authors and their contributions across Learning to
           .attr('cx', d => d.x || 0)
           .attr('cy', d => d.y || 0);
       
-        svg.selectAll('text')
-          .attr('x', d => d.x || 0)
+        textSelection
+          .attr('x', d => (d.x || 0) + 6)
           .attr('y', d => d.y || 0);
       });
 
@@ -291,7 +340,7 @@ description: Explore prolific authors and their contributions across Learning to
         '🔴 Red border: Selected author'
       ];
 
-      const legendGroup = svg.append('g')
+      const legendGroup = zoomGroup.append('g')
         .attr('transform', `translate(20, ${h - 130})`);
 
       legendGroup.append('rect')
@@ -312,5 +361,20 @@ description: Explore prolific authors and their contributions across Learning to
         .attr('x', 0)
         .attr('dy', (d, i) => i === 0 ? '0em' : '1.2em')
         .text(d => d);
+
+      setTimeout(() => {
+      const selected = nodes.find(n => n.id === author);
+      if (selected) {
+        const svgEl = svg.node();
+        const { width, height } = svgEl.getBoundingClientRect();
+        svg.transition().duration(500).call(
+          zoom.transform,
+          d3.zoomIdentity
+            .translate(width / 2, height / 2)
+            .scale(1)
+            .translate(-selected.x, -selected.y)
+        );
+      }
+    }, 500);
     }
   </script>
