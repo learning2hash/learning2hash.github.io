@@ -356,7 +356,7 @@ function search() {
       $('#author-table').on('click', '.author-name', function () {
         const au = $(this).data('author');
         const info = data[au];
-        $('#papers-title').text(`📄 Papers by ${au}`);
+        $('#papers-title').text(`📄 Sample Papers by ${au}`);
         $('#papers-list').html((info.papers || []).map(p => `<li><a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})</li>`).join(''));
         $('#papers-modal').show();
       });
