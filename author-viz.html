@@ -12,7 +12,12 @@ description: Explore prolific authors and their contributions across Learning to
   🔍 Authors are color-coded by <strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high <span title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>, indicating strong connectivity.  
 </p>
 <p style="font-size: 0.95em;">
-  ℹ️ Hover over author names or nodes to view detailed stats, including paper count, total citations, unique co-authors, <span title="Number of direct co-author connections.">degree</span>, <span title="Average inverse distance to all others in the network.">closeness</span>, <span title="How interconnected the author's collaborators are.">clustering</span>, <span title="Influence as a bridge between communities.">betweenness</span>, <span title="Relative importance based on network structure.">pagerank</span>, and active years.
+  ℹ️ Hover over author names or nodes to view detailed stats, including paper count, total citations, unique co-authors, 
+  <span title="Number of direct co-author connections.">degree</span>, 
+  <span title="How close the author is, on average, to all other authors in the network. A higher score means shorter paths to others and quicker access to information.">closeness</span>, 
+  <span title="How interconnected the author's collaborators are.">clustering</span>, 
+  <span title="Influence as a bridge between communities.">betweenness</span>, 
+  and active years.
 </p>
 
 <!-- Loading Indicator -->
@@ -48,10 +53,6 @@ description: Explore prolific authors and their contributions across Learning to
   <button id="papers-close" aria-label="Close papers list" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
   <h3 id="papers-title">Sample Papers by Author</h3>
   <ul id="papers-list" style="font-size:0.95em;"></ul>
-</div>
-
-<div id="network-legend" style="display:none; font-size:0.85em; margin-top:8px; padding:0 5%;">
-  ⭕ <strong>Circle size</strong> ∝ PageRank · 🎨 <strong>Color</strong> = Community · 🔴 Red border = selected author
 </div>
 
 <!-- External CSS -->
@@ -230,9 +231,7 @@ description: Explore prolific authors and their contributions across Learning to
 
         const node = {
           id,
-          depth,
-          pagerank: authorData[id].pagerank ?? 0,
-          community: authorData[id].community ?? 0,
+          depth
         };
 
         nodes.push(node);
@@ -285,15 +284,15 @@ description: Explore prolific authors and their contributions across Learning to
         .attr('stroke', '#aaa').attr('stroke-width', 1);
 
       const circleSelection = zoomGroup.append('g').selectAll('circle').data(nodes).enter().append('circle')
-  .attr('r', d => 4 + Math.sqrt((authorData[d.id]?.pagerank || 0.001) * 500))
-  .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
-  .attr('stroke', d => d.id === author ? 'red' : '#333')
-  .attr('stroke-width', d => 2 - 0.5 * d.depth)
-  .style('cursor', 'pointer')
-  .on('click', (e, d) => {
-    e.stopPropagation();
-    e.preventDefault();
-    showNetwork(d.id);
+      .attr('r', d => 4 + Math.sqrt(authorData[d.id]?.degree || 1))
+      .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
+      .attr('stroke', d => d.id === author ? 'red' : '#333')
+      .attr('stroke-width', d => 2 - 0.5 * d.depth)
+      .style('cursor', 'pointer')
+      .on('click', (e, d) => {
+      e.stopPropagation();
+      e.preventDefault();
+      showNetwork(d.id);
 
     setTimeout(() => {
       const svgEl = svg.node();
@@ -324,9 +323,9 @@ description: Explore prolific authors and their contributions across Learning to
     }
       });
       
-      circleSelection.append('title')
-      .text(d => {
-        const info = authorData[d.id] || {};
+     circleSelection.append('title')
+    .text(d => {
+    const info = authorData[d.id] || {};
         return `${d.id}
     📄 Papers: ${info.paper_count ?? '—'}
     📊 Citations: ${info.total_citations ?? '—'}
@@ -334,6 +333,7 @@ description: Explore prolific authors and their contributions across Learning to
     🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
     🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}
     🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
+    🌈 Community: ${info.community ?? '—'}
     ⏳ Active Years: ${info.age ?? '—'}`;
       });
           
