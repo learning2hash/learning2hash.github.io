@@ -381,9 +381,21 @@ description: Explore prolific authors and their contributions across Learning to
       const legendGroup = zoomGroup.append('g')
         .attr('transform', `translate(20, ${h - 130})`);
 
+      const tempText = svg.append('text')
+        .attr('font-size', '12px')
+        .style('visibility', 'hidden');
+
+      let maxWidth = 0;
+      legendData.forEach(line => {
+        tempText.text(line);
+        const width = tempText.node().getComputedTextLength();
+        if (width > maxWidth) maxWidth = width;
+      });
+      tempText.remove();
+    
       legendGroup.append('rect')
         .attr('x', -10).attr('y', -20)
-        .attr('width', 280)
+        .attr('width', maxWidth + 20)  // add padding
         .attr('height', legendData.length * 24)
         .attr('fill', '#f9f9f9')
         .attr('stroke', '#ccc')
