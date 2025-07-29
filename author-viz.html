@@ -305,14 +305,24 @@ function search() {
       const table = $('#author-table').DataTable({
         data: rows,
         dom: 'Bfrtip',
-        responsive: { details: false },
-        order: [[1, 'desc']],
+        responsive: { details: true }, // Enables + button for hidden columns on small screens
+        order: [[1, 'desc']], // Sort by Papers
         pageLength: 100,
         lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
         columnDefs: [
-          { targets: [9, 10, 11], orderable: false }, // Paper Count Timeline, Tags, Network
-          { responsivePriority: 1, targets: 0 },      // Author
-          { responsivePriority: 2, targets: 11 }      // Network button
+          { targets: [9, 10, 11], orderable: false }, // Timeline, Tags, Network
+          { responsivePriority: 1, targets: 0 },  // 👤 Author
+          { responsivePriority: 2, targets: 11 }, // 🔗 Network
+          { responsivePriority: 3, targets: 1 },  // 📄 Papers
+          { responsivePriority: 4, targets: 2 },  // 📊 Citations
+          { responsivePriority: 5, targets: 9 },  // 📈 Timeline
+          { responsivePriority: 6, targets: 10 }, // 🏷️ Tags
+          { responsivePriority: 7, targets: 3 },  // 👥 Co-authors
+          { responsivePriority: 8, targets: 4 },  // 🧩 Degree
+          { responsivePriority: 9, targets: 5 },  // 🔁 Closeness
+          { responsivePriority: 10, targets: 6 }, // 🔄 Clustering
+          { responsivePriority: 11, targets: 7 }, // 🔀 Betweenness
+          { responsivePriority: 12, targets: 8 }, // ⏳ Age
         ]
       });
 
