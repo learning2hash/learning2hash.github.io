@@ -1,15 +1,17 @@
 ---
 layout: default
 title: Explore Learning to Hash papers by Author
-description: Explore prolific Learning to Hash  and their contributions across LLM research
+description: Explore prolific authors and their contributions across Learning to Hash research
 ---
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
-  Discover leading contributors in Learning to Hash  research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
+  Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
 </p>
 <p style="font-size: 0.95em;">
   🔍 Authors are color-coded by <strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high <span title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>, indicating strong connectivity.  
+</p>
+<p style="font-size: 0.95em;">
   ℹ️ Hover over author names or nodes to view detailed stats, including paper count, total citations, unique co-authors, <span title="Number of direct co-author connections.">degree</span>, <span title="Average inverse distance to all others in the network.">closeness</span>, <span title="How interconnected the author's collaborators are.">clustering</span>, <span title="Influence as a bridge between communities.">betweenness</span>, <span title="Relative importance based on network structure.">pagerank</span>, and active years.
 </p>
 
@@ -122,7 +124,15 @@ description: Explore prolific Learning to Hash  and their contributions across L
         const values = info.sparkline_values || [];
         const spark = values.join(',');
         const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
-        const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community} • Betweenness ${info.betweenness.toFixed(3)}">${author}</span>`;
+        const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="${author}
+          📄 Papers: ${info.paper_count ?? '—'}
+          📊 Citations: ${info.total_citations ?? '—'}
+          👥 Co-authors: ${info.coauthor_count ?? '—'}
+          🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
+          🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
+          🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}
+          🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
+          ⏳ Active Years: ${info.age ?? '—'}">${author}</span>`;
         const tagsHtml = info.tags.map(tag => {
           const frag = encodeURIComponent(tag);
           return `<a href="https://learning2hash.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;"><span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span></a>`;
@@ -310,12 +320,10 @@ description: Explore prolific Learning to Hash  and their contributions across L
         return `${d.id}
     📄 Papers: ${info.paper_count ?? '—'}
     📊 Citations: ${info.total_citations ?? '—'}
-    👥 Co-authors: ${info.coauthor_count ?? '—'}
     🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
     🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
     🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}
     🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
-    📈 PageRank: ${info.pagerank?.toFixed(4) ?? '—'}
     ⏳ Active Years: ${info.age ?? '—'}`;
       });
           
@@ -353,10 +361,11 @@ description: Explore prolific Learning to Hash  and their contributions across L
       }
 
       const legendData = [
-        '🖱️ Single-click: Expand author’s local graph',
-        '🖱️ Double-click: Jump to table row for author',
-        '🎨 Node color: Community',
-        '🔴 Red border: Selected author'
+        '🖱️ Single-click: Expand author\'s local co-author network',
+        '🖲️ Double-click: Highlight and scroll to author in the table',
+        '👆 Hover: View detailed author statistics (papers, citations, network metrics)',
+        '🌈 Node color: Indicates author\'s community (cluster of frequent collaborators)',
+        '🔴 Red border: Marks the currently selected author'
       ];
 
       const legendGroup = zoomGroup.append('g')
