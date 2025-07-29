@@ -158,7 +158,10 @@ function search() {
   Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
 </p>
 <p style="font-size: 0.95em;">
-  🔍 Authors are color-coded by <strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high <span title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>, indicating strong connectivity. ℹ️ Hover over names for detailed network stats.
+  🔍 Authors are color-coded by <strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high <span title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>, indicating strong connectivity.  
+</p>
+<p style="font-size: 0.95em;">
+  ℹ️ Hover over author names or nodes to view detailed stats, including paper count, total citations, unique co-authors, <span title="Number of direct co-author connections.">degree</span>, <span title="Average inverse distance to all others in the network.">closeness</span>, <span title="How interconnected the author's collaborators are.">clustering</span>, <span title="Influence as a bridge between communities.">betweenness</span>, <span title="Relative importance based on network structure.">pagerank</span>, and active years.
 </p>
 
 <!-- Loading Indicator -->
@@ -170,8 +173,12 @@ function search() {
       <th data-priority="1">👤 Author</th>
       <th data-priority="3">📄 Papers</th>
       <th data-priority="4">📊 Citations</th>
-      <th title="🧩 Number of direct co-author connections (degree centrality).">🧩 Connections</th>
-      <th title="🔄 Measures how tightly the author's co-authors are interconnected.">🔄 Clustering</th>
+      <th data-priority="7" title="👥 Unique co-authors this author has worked with">👥 Co-authors</th>
+      <th data-priority="8" title="🧩 Number of direct connections (degree)">🧩 Degree</th>
+      <th data-priority="9" title="🔁 Closeness centrality (inverse average shortest path)">🔁 Closeness</th>
+      <th data-priority="10" title="🔄 Clustering coefficient (triangle density)">🔄 Clustering</th>
+      <th data-priority="11" title="🔀 Betweenness centrality (bridge importance)">🔀 Betweenness</th>
+      <th data-priority="12" title="⏳ Years active since first recorded paper">⏳ Age</th>
       <th data-priority="5">📈 Paper Count Timeline</th>
       <th data-priority="6">🏷️ Tags</th>
       <th data-priority="2">🔗 Network</th>
@@ -266,21 +273,33 @@ function search() {
         const values = info.sparkline_values || [];
         const spark = values.join(',');
         const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
-        const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="Community ${info.community} • Betweenness ${info.betweenness.toFixed(3)}">${author}</span>`;
+        const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="${author}
+          📄 Papers: ${info.paper_count ?? '—'}
+          📊 Citations: ${info.total_citations ?? '—'}
+          👥 Co-authors: ${info.coauthor_count ?? '—'}
+          🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
+          🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
+          🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}
+          🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
+          ⏳ Active Years: ${info.age ?? '—'}">${author}</span>`;
         const tagsHtml = info.tags.map(tag => {
           const frag = encodeURIComponent(tag);
           return `<a href="https://learning2hash.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;"><span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span></a>`;
         }).join(' ');
         return [
-            nameCell,
-            info.paper_count,
-            info.total_citations,
-            info.degree?.toFixed(2) ?? '—',
-            info.clustering?.toFixed(2) ?? '—',
-            `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
-            tagsHtml,
-            `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
-          ];
+          nameCell,
+          info.paper_count,
+          info.total_citations,
+          info.coauthor_count ?? '—',
+          info.degree?.toFixed(2) ?? '—',
+          info.closeness?.toFixed(3) ?? '—',
+          info.clustering?.toFixed(2) ?? '—',
+          info.betweenness?.toFixed(4) ?? '—',
+          info.age ?? '—',
+          `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
+          tagsHtml,
+          `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
+        ];
       });
 
       const table = $('#author-table').DataTable({
@@ -291,9 +310,9 @@ function search() {
         pageLength: 100,
         lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
         columnDefs: [
-          { targets: [6, 7], orderable: false },  // Changed 8 → 7
-          { responsivePriority: 1, targets: 0 },
-          { responsivePriority: 2, targets: 7 }   // Changed 8 → 7
+          { targets: [9, 10, 11], orderable: false }, // Paper Count Timeline, Tags, Network
+          { responsivePriority: 1, targets: 0 },      // Author
+          { responsivePriority: 2, targets: 11 }      // Network button
         ]
       });
 
@@ -445,8 +464,18 @@ function search() {
       });
       
       circleSelection.append('title')
-        .text(d => `${d.id}\nPageRank: ${(authorData[d.id]?.pagerank || 0).toFixed(4)}\nDepth: ${d.depth}`);
-      
+      .text(d => {
+        const info = authorData[d.id] || {};
+        return `${d.id}
+    📄 Papers: ${info.paper_count ?? '—'}
+    📊 Citations: ${info.total_citations ?? '—'}
+    🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
+    🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
+    🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}
+    🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
+    ⏳ Active Years: ${info.age ?? '—'}`;
+      });
+          
       const textSelection = zoomGroup.append('g')
         .selectAll('text')
         .data(nodes)
@@ -481,10 +510,11 @@ function search() {
       }
 
       const legendData = [
-        '🖱️ Single-click: Expand author’s local graph',
-        '🖱️ Double-click: Jump to table row for author',
-        '🎨 Node color: Community',
-        '🔴 Red border: Selected author'
+        '🖱️ Single-click: Expand author\'s local co-author network',
+        '🖲️ Double-click: Highlight and scroll to author in the table',
+        '👆 Hover: View detailed author statistics (papers, citations, network metrics)',
+        '🌈 Node color: Indicates author\'s community (cluster of frequent collaborators)',
+        '🔴 Red border: Marks the currently selected author'
       ];
 
       const legendGroup = zoomGroup.append('g')
