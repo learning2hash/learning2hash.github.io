@@ -22,7 +22,6 @@ description: Explore prolific authors and their contributions across Learning to
       <th data-priority="3">📄 Papers</th>
       <th data-priority="4">📊 Citations</th>
       <th title="🧩 Number of direct co-author connections (degree centrality).">🧩 Connections</th>
-      <th title="🔝 Author influence score based on PageRank algorithm.">🔝 PageRank</th>
       <th title="🔄 Measures how tightly the author's co-authors are interconnected.">🔄 Clustering</th>
       <th data-priority="5">📈 Paper Count Timeline</th>
       <th data-priority="6">🏷️ Tags</th>
@@ -124,16 +123,15 @@ description: Explore prolific authors and their contributions across Learning to
           return `<a href="https://learning2hash.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;"><span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span></a>`;
         }).join(' ');
         return [
-          nameCell,
-          info.paper_count,
-          info.total_citations,
-          info.degree?.toFixed(2) ?? '—',
-          info.pagerank?.toExponential(2) ?? '—',
-          info.clustering?.toFixed(2) ?? '—',
-          `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
-          tagsHtml,
-          `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
-        ];
+            nameCell,
+            info.paper_count,
+            info.total_citations,
+            info.degree?.toFixed(2) ?? '—',
+            info.clustering?.toFixed(2) ?? '—',
+            `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
+            tagsHtml,
+            `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
+          ];
       });
 
       const table = $('#author-table').DataTable({
@@ -144,7 +142,7 @@ description: Explore prolific authors and their contributions across Learning to
         pageLength: 100,
         lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
         columnDefs: [
-          { targets: [6, 8], orderable: false },
+          { targets: [6, 8], orderable: false },  // Update these indexes if columns change
           { responsivePriority: 1, targets: 0 },
           { responsivePriority: 2, targets: 8 }
         ]
