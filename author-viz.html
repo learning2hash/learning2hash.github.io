@@ -7,7 +7,7 @@ description: Explore prolific authors and their contributions across Learning to
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
-  Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
+  Discover leading contributors in Learning to Hash LLM research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
 </p>
 <p style="font-size: 0.95em;">
   🔍 Authors are color-coded by 
@@ -66,7 +66,33 @@ description: Explore prolific authors and their contributions across Learning to
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" />
 <style>
+.tooltip-wrapper {
+  position: relative;
+  display: inline-block;
+}
 
+.tooltip-content {
+  visibility: hidden;
+  background-color: #f9f9f9;
+  color: #000;
+  text-align: left;
+  border-radius: 6px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  position: absolute;
+  z-index: 100;
+  width: max-content;
+  max-width: 280px;
+  top: 120%; /* push below element */
+  left: 0;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  font-size: 0.85em;
+  white-space: pre-line;
+}
+
+.tooltip-wrapper:hover .tooltip-content {
+  visibility: visible;
+}
   #author-table tbody td:nth-child(2) {
 	  cursor: pointer;
 	  color: #0074D9;
@@ -121,7 +147,13 @@ description: Explore prolific authors and their contributions across Learning to
   		<div style="color:red; margin-top:10px;">Error loading author data.</div>
 	  `);
     });
-	
+
+    function toTitleCase(name) {
+	  return name
+	    .split(' ')
+	    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+	    .join(' ');
+    }
     function initAuthorTable(data) {
       const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
       const communities = [...new Set(authors.map(a => data[a].community))];
@@ -137,21 +169,27 @@ description: Explore prolific authors and their contributions across Learning to
         const spark = values.join(',');
         const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
 	const googleQuery = encodeURIComponent(`${author} AI`);
+	const displayName = toTitleCase(author);
 	const nameCell = `
-	  <a href="https://www.google.com/search?q=${googleQuery}" target="_blank" rel="noopener"
-	     class="author-name" data-author="${author}"
-	     style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px; text-decoration:none; color:black; display:inline-block;${border}"
-	     title="${author}
-	📄 Papers: ${info.paper_count ?? '—'}
-	📊 Citations: ${info.total_citations ?? '—'}
-	👥 Co-authors: ${info.coauthor_count ?? '—'}
-	🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
-	🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
-	🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}
-	🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
-	⏳ Active Years: ${info.age ?? '—'}">
-	    ${author}
-	  </a>`;
+		  <span class="tooltip-wrapper">
+		    <a href="https://www.google.com/search?q=${googleQuery}" target="_blank" rel="noopener"
+		       class="author-name"
+		       data-author="${author}"
+		       style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px; text-decoration:none; color:black; display:inline-block;${border}">
+		      ${displayName}
+		    </a>
+		    <span class="tooltip-content">
+		      ${author}<br>
+		      📄 Papers: ${info.paper_count ?? '—'}<br>
+		      📊 Citations: ${info.total_citations ?? '—'}<br>
+		      👥 Co-authors: ${info.coauthor_count ?? '—'}<br>
+		      🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}<br>
+		      🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}<br>
+		      🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}<br>
+		      🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}<br>
+		      ⏳ Active Years: ${info.age ?? '—'}
+		    </span>
+		  </span>`;
         const tagsHtml = info.tags.map(tag => {
           const frag = encodeURIComponent(tag);
           return `
@@ -256,7 +294,7 @@ description: Explore prolific authors and their contributions across Learning to
 	  const rowIdx = $('#author-table').DataTable().row(this).index();
 	  const author = $('#author-table').DataTable().cell(rowIdx, 0).nodes().to$().find('.author-name').data('author');
 	  const info = data[author];
-	  $('#papers-title').text(`📄 Sample Papers by ${author}`);
+	  $('#papers-title').text(`📄 Sample Papers by ${toTitleCase(author)}`);
 	  $('#papers-list').html((info.papers || []).map(p => `
 	    <li>
 	      <a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})
@@ -364,18 +402,41 @@ description: Explore prolific authors and their contributions across Learning to
 
   })
   .on('click', (e, d) => {
-  e.preventDefault();
-  e.stopPropagation();
-
-  if (!e.shiftKey) return; // Only activate on Shift+Click
-
-  const authorName = d.id;
-  const table = $('#author-table').DataTable();
-
-  // First try direct match on already visible rows
-  const rowIndex = table.rows({ search: 'applied' }).eq(0).filter(function (idx) {
-    const cell = table.cell(idx, 0).node();
-    return $(cell).find('.author-name').data('author') === authorName;
+	  if (!e.shiftKey) return;
+	
+	const authorName = d.id;
+	const table = $('#author-table').DataTable();
+	
+	// Always clear any filtering
+	table.search('').draw();
+	
+	// Find the row index of the exact author
+	const rowIndex = table.rows().eq(0).filter(function (idx) {
+	  const cell = table.cell(idx, 0).node();
+	  const cellAuthor = $(cell).find('.author-name').data('author');
+	  return cellAuthor === authorName;
+	});
+	
+	if (rowIndex.length > 0) {
+	  const rowIdx = rowIndex[0];
+	
+	  // Jump to the correct page
+	  table.page(Math.floor(rowIdx / table.page.len())).draw('page');
+	
+	  setTimeout(() => {
+	    const cell = table.cell(rowIdx, 0).node();
+	    const $authorRow = $(cell).find('.author-name');
+	
+	    if ($authorRow.length) {
+	      $('html, body').animate({ scrollTop: $authorRow.offset().top - 100 }, 500);
+	      $authorRow.addClass('highlight');
+	      setTimeout(() => $authorRow.removeClass('highlight'), 1500);
+	      $('#network-modal').fadeOut(200);
+	    }
+	  }, 300);
+	} else {
+	  console.warn(`Could not find author row for ${authorName}`);
+	}
   });
 
   if (rowIndex.length > 0) {
@@ -409,7 +470,7 @@ description: Explore prolific authors and their contributions across Learning to
     .text(d => {
     const info = authorData[d.id] || {};
         return `${d.id}
-    📄 Papers: ${`<span title="Click to view papers by ${author}">${info.paper_count}</span>` ?? '—'}
+    📄 Papers: ${info.paper_count ?? '—'}
     📊 Citations: ${info.total_citations ?? '—'}
     🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
     🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
@@ -453,12 +514,12 @@ description: Explore prolific authors and their contributions across Learning to
       }
 
       const legendData = [
-	  '🖱️ Single-click: Expand author\'s local co-author network',
-	  '⇧+🖱️ Shift+Click: Highlight and scroll to author in the table',
-	  '👆 Hover: View detailed author statistics (papers, citations, network metrics)',
-	  '🌈 Node color: Indicates author\'s community (cluster of frequent collaborators)',
-	  '🔴 Red border: Marks the currently selected author',
-	  '📏 Node size: Scaled by number of direct co-authors (degree)'
+	  '🖱️ Single-click: Expand author\'s network',
+	  '⇧+🖱️ Shift+Click: Jump to author in table',
+	  '👆 Hover: View author statistics',
+	  '🌈 Node color: Indicates author\'s community',
+	  '🔴 Red border: Marks current author',
+	  '📏 Node size: Scaled by co-authors'
 	];
       const tempText = svg.append('text')
         .attr('font-size', '12px')
