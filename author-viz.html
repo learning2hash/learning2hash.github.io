@@ -130,16 +130,22 @@ description: Explore prolific authors and their contributions across  Learning t
         const values = info.sparkline_values || [];
         const spark = values.join(',');
         const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
-        const nameCell = `
-	<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="${author}
-          📄 Papers: ${info.paper_count ?? '—'}
-          📊 Citations: ${info.total_citations ?? '—'}
-          👥 Co-authors: ${info.coauthor_count ?? '—'}
-          🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
-          🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
-          🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}
-          🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
-          ⏳ Active Years: ${info.age ?? '—'}">${author}</span>`;
+	const googleQuery = encodeURIComponent(`${author} AI Hashing`);
+	const nameCell = `
+	  <a href="https://www.google.com/search?q=${googleQuery}" target="_blank" rel="noopener"
+	     class="author-name" data-author="${author}"
+	     style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px; text-decoration:none; color:black; display:inline-block;${border}"
+	     title="${author}
+	📄 Papers: ${info.paper_count ?? '—'}
+	📊 Citations: ${info.total_citations ?? '—'}
+	👥 Co-authors: ${info.coauthor_count ?? '—'}
+	🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
+	🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
+	🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}
+	🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
+	⏳ Active Years: ${info.age ?? '—'}">
+	    ${author}
+	  </a>`;
         const tagsHtml = info.tags.map(tag => {
           const frag = encodeURIComponent(tag);
           return `
