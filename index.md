@@ -30,7 +30,7 @@ Explore the latest research by browsing papers categorized by tags. Select a tag
 
 ### 📚 What This Site Offers
 <ul style="font-size: 1em;">
-  <li>🔍 Access over 2,000 curated publications, organized by topic and methodological taxonomy</li>
+  <li>🔍 Access over 3,000 curated publications, organized by topic and methodological taxonomy</li>
   <li>📈 Identify emerging trends in supervised, unsupervised, deep, and quantized hashing methods</li>
   <li>🧠 Examine real-world applications including audio retrieval, source code search, and geospatial monitoring</li>
   <li>📎 Contribute to the resource by submitting new papers or updates</li>
