@@ -258,12 +258,13 @@ function search() {
         initAuthorTable(data);
       })
       .catch(err => {
-        console.error('Error loading author stats', err);
-        $('#loading').hide();
-        $('#author-table').after('
-	<div style="color:red; margin-top:10px;">Error loading author data.</div>');
-      });
-
+	  console.error('Error loading author stats', err);
+	  $('#loading').hide();
+	  $('#author-table').after(`
+  		<div style="color:red; margin-top:10px;">Error loading author data.</div>
+	  `);
+    });
+	
     function initAuthorTable(data) {
       const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
       const communities = [...new Set(authors.map(a => data[a].community))];
@@ -278,7 +279,7 @@ function search() {
         const values = info.sparkline_values || [];
         const spark = values.join(',');
         const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
-	const googleQuery = encodeURIComponent(`${author} AI Hashing`);
+	const googleQuery = encodeURIComponent(`${author} AI`);
 	const nameCell = `
 	  <a href="https://www.google.com/search?q=${googleQuery}" target="_blank" rel="noopener"
 	     class="author-name" data-author="${author}"
