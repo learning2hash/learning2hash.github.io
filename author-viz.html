@@ -1,10 +1,8 @@
 ---
 layout: default
 title: Explore Learning to Hash papers by Author
-description: Explore prolific authors and their contributions across  Learning to Hash research
+description: Explore prolific authors and their contributions across Learning to Hash research
 ---
-
-
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
   Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
@@ -110,12 +108,13 @@ description: Explore prolific authors and their contributions across  Learning t
         initAuthorTable(data);
       })
       .catch(err => {
-        console.error('Error loading author stats', err);
-        $('#loading').hide();
-        $('#author-table').after('
-	<div style="color:red; margin-top:10px;">Error loading author data.</div>');
-      });
-
+	  console.error('Error loading author stats', err);
+	  $('#loading').hide();
+	  $('#author-table').after(`
+  		<div style="color:red; margin-top:10px;">Error loading author data.</div>
+	  `);
+    });
+	
     function initAuthorTable(data) {
       const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
       const communities = [...new Set(authors.map(a => data[a].community))];
@@ -130,7 +129,7 @@ description: Explore prolific authors and their contributions across  Learning t
         const values = info.sparkline_values || [];
         const spark = values.join(',');
         const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
-	const googleQuery = encodeURIComponent(`${author} AI Hashing`);
+	const googleQuery = encodeURIComponent(`${author} AI`);
 	const nameCell = `
 	  <a href="https://www.google.com/search?q=${googleQuery}" target="_blank" rel="noopener"
 	     class="author-name" data-author="${author}"
