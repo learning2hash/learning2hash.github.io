@@ -1,66 +1,72 @@
 ---
 layout: default
 title: Explore Learning to Hash papers by Author
-description: Explore prolific authors and their contributions across Learning to Hash research
+description: Explore prolific authors and their contributions across  Learning to Hash research
 ---
+
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
   Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
 </p>
 <p style="font-size: 0.95em;">
-  🔍 Authors are color-coded by <strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high <span title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>, indicating strong connectivity.  
+  🔍 Authors are color-coded by 
+	<strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high 
+	<span title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>, indicating strong connectivity.  
+
 </p>
 <p style="font-size: 0.95em;">
   ℹ️ Hover over author names or nodes to view detailed stats, including paper count, total citations, unique co-authors, 
-  <span title="Number of direct co-author connections.">degree</span>, 
-  <span title="How close the author is, on average, to all other authors in the network. A higher score means shorter paths to others and quicker access to information.">closeness</span>, 
-  <span title="How interconnected the author's collaborators are.">clustering</span>, 
-  <span title="Influence as a bridge between communities.">betweenness</span>, 
+  
+	<span title="Number of direct co-author connections.">degree</span>, 
+  
+	<span title="How close the author is, on average, to all other authors in the network. A higher score means shorter paths to others and quicker access to information.">closeness</span>, 
+  
+	<span title="How interconnected the author's collaborators are.">clustering</span>, 
+  
+	<span title="Influence as a bridge between communities.">betweenness</span>, 
   and active years.
+
 </p>
-
 <!-- Loading Indicator -->
-<div id="loading"><p>Loading Author Network...</p></div>
-
+<div id="loading">
+	<p>Loading Author Network...</p>
+</div>
 <table id="author-table" class="display stripe hover" style="width:100%; display:none;">
-  <thead>
-    <tr>
-      <th data-priority="1">👤 Author</th>
-      <th data-priority="3">📄 Papers</th>
-      <th data-priority="4">📊 Citations</th>
-      <th data-priority="7" title="👥 Unique co-authors this author has worked with">👥 Co-authors</th>
-      <th data-priority="8" title="🧩 Number of direct connections (degree)">🧩 Degree</th>
-      <th data-priority="9" title="🔁 Closeness centrality (inverse average shortest path)">🔁 Closeness</th>
-      <th data-priority="10" title="🔄 Clustering coefficient (triangle density)">🔄 Clustering</th>
-      <th data-priority="11" title="🔀 Betweenness centrality (bridge importance)">🔀 Betweenness</th>
-      <th data-priority="12" title="⏳ Years active since first recorded paper">⏳ Age</th>
-      <th data-priority="5">📈 Paper Count Timeline</th>
-      <th data-priority="6">🏷️ Tags</th>
-      <th data-priority="2">🔗 Network</th>
-    </tr>
-  </thead>
-  <tbody></tbody>
+	<thead>
+		<tr>
+			<th data-priority="1">👤 Author</th>
+			<th data-priority="3">📄 Papers</th>
+			<th data-priority="4">📊 Citations</th>
+			<th data-priority="7" title="👥 Unique co-authors this author has worked with">👥 Co-authors</th>
+			<th data-priority="8" title="🧩 Number of direct connections (degree)">🧩 Degree</th>
+			<th data-priority="9" title="🔁 Closeness centrality (inverse average shortest path)">🔁 Closeness</th>
+			<th data-priority="10" title="🔄 Clustering coefficient (triangle density)">🔄 Clustering</th>
+			<th data-priority="11" title="🔀 Betweenness centrality (bridge importance)">🔀 Betweenness</th>
+			<th data-priority="12" title="⏳ Years active since first recorded paper">⏳ Age</th>
+			<th data-priority="5">📈 Paper Count Timeline</th>
+			<th data-priority="6">🏷️ Tags</th>
+			<th data-priority="2">🔗 Network</th>
+		</tr>
+	</thead>
+	<tbody></tbody>
 </table>
-
 <!-- Modals -->
 <div id="network-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000; box-shadow:0 4px 20px rgba(0,0,0,0.2); border-radius:10px;">
-  <button id="modal-close" aria-label="Close graph modal" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
-  <svg id="network-svg" width="100%" height="100%"></svg>
+	<button id="modal-close" aria-label="Close graph modal" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+	<svg id="network-svg" width="100%" height="100%"></svg>
 </div>
-
 <div id="papers-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
-  <button id="papers-close" aria-label="Close papers list" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
-  <h3 id="papers-title">Sample Papers by Author</h3>
-  <ul id="papers-list" style="font-size:0.95em;"></ul>
+	<button id="papers-close" aria-label="Close papers list" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+	<h3 id="papers-title">Sample Papers by Author</h3>
+	<ul id="papers-list" style="font-size:0.95em;"></ul>
 </div>
-
 <!-- External CSS -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" />
-
 <style>
+
   #network-modal, #papers-modal {
     transition: opacity 0.3s ease;
   }
@@ -83,7 +89,6 @@ description: Explore prolific authors and their contributions across Learning to
     transition: background-color 0.5s ease;
   }
 </style>
-
 <!-- JS Dependencies -->
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
@@ -92,9 +97,8 @@ description: Explore prolific authors and their contributions across Learning to
 <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-sparkline@2.4.0/jquery.sparkline.min.js"></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
-
-  <!-- Main Script -->
-  <script>
+<!-- Main Script -->
+<script>
     let authorData;
 
     fetch('author_stats.json')
@@ -108,7 +112,8 @@ description: Explore prolific authors and their contributions across Learning to
       .catch(err => {
         console.error('Error loading author stats', err);
         $('#loading').hide();
-        $('#author-table').after('<div style="color:red; margin-top:10px;">Error loading author data.</div>');
+        $('#author-table').after('
+	<div style="color:red; margin-top:10px;">Error loading author data.</div>');
       });
 
     function initAuthorTable(data) {
@@ -125,7 +130,8 @@ description: Explore prolific authors and their contributions across Learning to
         const values = info.sparkline_values || [];
         const spark = values.join(',');
         const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
-        const nameCell = `<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="${author}
+        const nameCell = `
+	<span class="author-name" data-author="${author}" style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px;${border}" title="${author}
           📄 Papers: ${info.paper_count ?? '—'}
           📊 Citations: ${info.total_citations ?? '—'}
           👥 Co-authors: ${info.coauthor_count ?? '—'}
@@ -136,7 +142,10 @@ description: Explore prolific authors and their contributions across Learning to
           ⏳ Active Years: ${info.age ?? '—'}">${author}</span>`;
         const tagsHtml = info.tags.map(tag => {
           const frag = encodeURIComponent(tag);
-          return `<a href="https://learning2hash.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;"><span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span></a>`;
+          return `
+	<a href="https://learning2hash.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;">
+		<span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>
+	</a>`;
         }).join(' ');
         return [
           nameCell,
@@ -148,9 +157,11 @@ description: Explore prolific authors and their contributions across Learning to
           info.clustering?.toFixed(2) ?? '—',
           info.betweenness?.toFixed(4) ?? '—',
           info.age ?? '—',
-          `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
+          `
+	<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
           tagsHtml,
-          `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
+          `
+	<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
         ];
       });
 
@@ -209,7 +220,10 @@ description: Explore prolific authors and their contributions across Learning to
         const au = $(this).data('author');
         const info = data[au];
         $('#papers-title').text(`📄 Sample Papers by ${au}`);
-        $('#papers-list').html((info.papers || []).map(p => `<li><a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})</li>`).join(''));
+        $('#papers-list').html((info.papers || []).map(p => `
+	<li>
+		<a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})
+	</li>`).join(''));
         $('#papers-modal').show();
       });
 
@@ -275,11 +289,27 @@ description: Explore prolific authors and their contributions across Learning to
       const { nodes, links, tooLarge } = getSubgraph(author, 1);
       const { width: w, height: h } = svg.node().getBoundingClientRect();
 
+      setTimeout(() => {
+        const svgEl = svg.node();
+        const { width, height } = svgEl.getBoundingClientRect();
+        const x = d.x ?? 0;
+        const y = d.y ?? 0;
+  
+        svg.transition().duration(500).call(
+          zoom.transform,
+          d3.zoomIdentity
+            .translate(width / 2, height / 2)
+            .scale(1)
+            .translate(-x, -y)
+        );
+      }, 500);
+      
       const sim = d3.forceSimulation(nodes)
-        .force('link', d3.forceLink(links).id(d => d.id).distance(80))
-        .force('charge', d3.forceManyBody().strength(-180))
+        .force('link', d3.forceLink(links).id(d => d.id).distance(200))     // ↑ Increase link distance
+        .force('charge', d3.forceManyBody().strength(-300))                // ↑ Increase node repulsion
+        .force('collision', d3.forceCollide().radius(d => 12).strength(1)) // ⛔ Prevent overlap
         .force('center', d3.forceCenter(w / 2, h / 2));
-
+            
       zoomGroup.append('g').selectAll('line').data(links).enter().append('line')
         .attr('stroke', '#aaa').attr('stroke-width', 1);
 
@@ -294,34 +324,42 @@ description: Explore prolific authors and their contributions across Learning to
       e.preventDefault();
       showNetwork(d.id);
 
-    setTimeout(() => {
-      const svgEl = svg.node();
-      const { width, height } = svgEl.getBoundingClientRect();
-      const x = d.x ?? 0;
-      const y = d.y ?? 0;
 
-      svg.transition().duration(500).call(
-        zoom.transform,
-        d3.zoomIdentity
-          .translate(width / 2, height / 2)
-          .scale(1)
-          .translate(-x, -y)
-      );
-    }, 500);
   })
-  .on('dblclick', (e, d) => {
+    .on('dblclick', (e, d) => {
     e.preventDefault();
     e.stopPropagation();
-
-    const authorRow = $(`.author-name[data-author="${d.id}"]`);
-    if (authorRow.length) {
-      $('html, body').animate({
-        scrollTop: authorRow.offset().top - 100
-      }, 500);
-      authorRow.addClass('highlight');
-      setTimeout(() => authorRow.removeClass('highlight'), 1500);
+  
+    const authorName = d.id;
+    const table = $('#author-table').DataTable();
+  
+    // Find the row index of the author
+    const rowIndex = table.rows().eq(0).filter(function (idx) {
+      const cell = table.cell(idx, 0).node();
+      return $(cell).find('.author-name').data('author') === authorName;
+    });
+  
+    if (rowIndex.length > 0) {
+      const rowIdx = rowIndex[0];
+  
+      // Go to the correct page
+      table.page(Math.floor(rowIdx / table.page.len())).draw('page');
+  
+      setTimeout(() => {
+        const cell = table.cell(rowIdx, 0).node();
+        const $authorRow = $(cell).find('.author-name');
+  
+        if ($authorRow.length) {
+          $('html, body').animate({
+            scrollTop: $authorRow.offset().top - 100
+          }, 500);
+  
+          $authorRow.addClass('highlight');
+          setTimeout(() => $authorRow.removeClass('highlight'), 1500);
+        }
+      }, 300); // slight delay for page draw
     }
-      });
+  });
       
      circleSelection.append('title')
     .text(d => {
@@ -375,7 +413,8 @@ description: Explore prolific authors and their contributions across Learning to
         '🖲️ Double-click: Highlight and scroll to author in the table',
         '👆 Hover: View detailed author statistics (papers, citations, network metrics)',
         '🌈 Node color: Indicates author\'s community (cluster of frequent collaborators)',
-        '🔴 Red border: Marks the currently selected author'
+        '🔴 Red border: Marks the currently selected author',
+        '📏 Node size: Scaled by number of direct co-authors (degree)'
       ];
 
       const legendGroup = zoomGroup.append('g')
@@ -427,4 +466,5 @@ description: Explore prolific authors and their contributions across Learning to
       }
     }, 500);
     }
-  </script>
+  
+</script>
