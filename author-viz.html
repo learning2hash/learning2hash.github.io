@@ -3,9 +3,11 @@ layout: default
 title: Explore Learning to Hash papers by Author
 description: Explore prolific authors and their contributions across Learning to Hash research
 ---
+
+
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
-  Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
+  Discover leading contributors in Learning to Hash  research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
 </p>
 <p style="font-size: 0.95em;">
   🔍 Authors are color-coded by 
@@ -310,11 +312,11 @@ description: Explore prolific authors and their contributions across Learning to
       }, 500);
       
       const sim = d3.forceSimulation(nodes)
-        .force('link', d3.forceLink(links).id(d => d.id).distance(200))     // ↑ Increase link distance
-        .force('charge', d3.forceManyBody().strength(-300))                // ↑ Increase node repulsion
-        .force('collision', d3.forceCollide().radius(d => 12).strength(1)) // ⛔ Prevent overlap
-        .force('center', d3.forceCenter(w / 2, h / 2));
-            
+	  .force('link', d3.forceLink(links).id(d => d.id).distance(280))     // ⬅️ Increase this
+	  .force('charge', d3.forceManyBody().strength(-400))                // ⬅️ More negative = more spacing
+	  .force('collision', d3.forceCollide().radius(d => 18).strength(1)) // ⬅️ Bump up the radius
+	  .force('center', d3.forceCenter(w / 2, h / 2));
+	            
       zoomGroup.append('g').selectAll('line').data(links).enter().append('line')
         .attr('stroke', '#aaa').attr('stroke-width', 1);
 
@@ -331,40 +333,55 @@ description: Explore prolific authors and their contributions across Learning to
 
 
   })
-    .on('dblclick', (e, d) => {
-    e.preventDefault();
-    e.stopPropagation();
-  
-    const authorName = d.id;
-    const table = $('#author-table').DataTable();
-  
-    // Find the row index of the author
-    const rowIndex = table.rows().eq(0).filter(function (idx) {
-      const cell = table.cell(idx, 0).node();
-      return $(cell).find('.author-name').data('author') === authorName;
-    });
-  
-    if (rowIndex.length > 0) {
-      const rowIdx = rowIndex[0];
-  
-      // Go to the correct page
-      table.page(Math.floor(rowIdx / table.page.len())).draw('page');
-  
-      setTimeout(() => {
-        const cell = table.cell(rowIdx, 0).node();
-        const $authorRow = $(cell).find('.author-name');
-  
-        if ($authorRow.length) {
-          $('html, body').animate({
-            scrollTop: $authorRow.offset().top - 100
-          }, 500);
-  
-          $authorRow.addClass('highlight');
-          setTimeout(() => $authorRow.removeClass('highlight'), 1500);
-        }
-      }, 300); // slight delay for page draw
-    }
+  .on('dblclick', (e, d) => {
+  e.preventDefault();
+  e.stopPropagation();
+
+  const authorName = d.id;
+  const table = $('#author-table').DataTable();
+
+  // First try direct match on already visible rows
+  const rowIndex = table.rows({ search: 'applied' }).eq(0).filter(function (idx) {
+    const cell = table.cell(idx, 0).node();
+    return $(cell).find('.author-name').data('author') === authorName;
   });
+
+  if (rowIndex.length > 0) {
+    const rowIdx = rowIndex[0];
+
+    // Move to the correct page
+    table.page(Math.floor(rowIdx / table.page.len())).draw('page');
+
+    setTimeout(() => {
+	  const cell = table.cell(rowIdx, 0).node();
+	  const $authorRow = $(cell).find('.author-name');
+	  if ($authorRow.length) {
+	    $('html, body').animate({
+	      scrollTop: $authorRow.offset().top - 100
+	    }, 500);
+	    $authorRow.addClass('highlight');
+	    setTimeout(() => $authorRow.removeClass('highlight'), 1500);
+	    $('#network-modal').fadeOut(200); // 👈 add this
+	  }
+	}, 300);
+  } else {
+    // Fallback: use search to locate and highlight the author
+    table.search(authorName).draw();
+
+    setTimeout(() => {
+      const $authorRow = $(`.author-name[data-author="${authorName}"]`);
+      if ($authorRow.length) {
+        $('html, body').animate({
+          scrollTop: $authorRow.offset().top - 100
+        }, 500);
+
+        $authorRow.addClass('highlight');
+        setTimeout(() => $authorRow.removeClass('highlight'), 1500);
+      }
+    }, 400);
+  }
+}); 
+  
       
      circleSelection.append('title')
     .text(d => {
@@ -421,10 +438,7 @@ description: Explore prolific authors and their contributions across Learning to
         '🔴 Red border: Marks the currently selected author',
         '📏 Node size: Scaled by number of direct co-authors (degree)'
       ];
-
-      const legendGroup = zoomGroup.append('g')
-        .attr('transform', `translate(20, ${h - 130})`);
-
+	    
       const tempText = svg.append('text')
         .attr('font-size', '12px')
         .style('visibility', 'hidden');
@@ -436,25 +450,37 @@ description: Explore prolific authors and their contributions across Learning to
         if (width > maxWidth) maxWidth = width;
       });
       tempText.remove();
-    
+
+      const legendPadding = 20;
+      const legendWidth = maxWidth + 20;  
+      const legendX = Math.max(legendPadding, 0);
+      const legendY = h - (legendData.length * 30 + 40);
+
+      const legendGroup = zoomGroup.append('g')
+        .attr('transform', `translate(${legendX}, ${legendY})`);
+
       legendGroup.append('rect')
-        .attr('x', -10).attr('y', -20)
-        .attr('width', maxWidth + 20)  // add padding
-        .attr('height', legendData.length * 24)
-        .attr('fill', '#f9f9f9')
-        .attr('stroke', '#ccc')
-        .attr('rx', 8).attr('ry', 8);
+	  .attr('x', 0)
+	  .attr('y', -20)
+	  .attr('width', legendWidth)
+	  .attr('height', legendData.length * 30)
+	  .attr('fill', '#f9f9f9')
+	  .attr('stroke', '#ccc')
+	  .attr('rx', 8)
+	  .attr('ry', 8);
 
       const legendText = legendGroup.append('text')
-        .attr('x', 0).attr('y', 0)
-        .attr('font-size', '12px').attr('fill', '#333');
+	  .attr('x', 10)  // slight padding
+	  .attr('y', 0)
+	  .attr('font-size', '12px')
+	  .attr('fill', '#333');
 
       legendText.selectAll('tspan')
-        .data(legendData)
-        .enter().append('tspan')
-        .attr('x', 0)
-        .attr('dy', (d, i) => i === 0 ? '0em' : '1.2em')
-        .text(d => d);
+	  .data(legendData)
+	  .enter().append('tspan')
+	  .attr('x', 10)
+	  .attr('dy', (d, i) => i === 0 ? '0em' : '1.8em')
+	  .text(d => d);
 
       setTimeout(() => {
       const selected = nodes.find(n => n.id === author);
