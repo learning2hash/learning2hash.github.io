@@ -7,7 +7,7 @@ description: Explore prolific authors and their contributions across Learning to
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
-  Discover leading contributors in Learning to Hash  research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
+  Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
 </p>
 <p style="font-size: 0.95em;">
   🔍 Authors are color-coded by 
@@ -36,7 +36,7 @@ description: Explore prolific authors and their contributions across Learning to
 	<thead>
 		<tr>
 			<th data-priority="1">👤 Author</th>
-			<th data-priority="3">📄 Papers</th>
+			<th data-priority="3" title="Click to view sample papers">📄 Papers 🔍</th>
 			<th data-priority="4">📊 Citations</th>
 			<th data-priority="7" title="👥 Unique co-authors this author has worked with">👥 Co-authors</th>
 			<th data-priority="8" title="🧩 Number of direct connections (degree)">🧩 Degree</th>
@@ -67,6 +67,11 @@ description: Explore prolific authors and their contributions across Learning to
 <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" />
 <style>
 
+  #author-table tbody td:nth-child(2) {
+	  cursor: pointer;
+	  color: #0074D9;
+	  text-decoration: underline;
+		}
   #network-modal, #papers-modal {
     transition: opacity 0.3s ease;
   }
@@ -358,9 +363,11 @@ description: Explore prolific authors and their contributions across Learning to
 
 
   })
-  .on('dblclick', (e, d) => {
+  .on('click', (e, d) => {
   e.preventDefault();
   e.stopPropagation();
+
+  if (!e.shiftKey) return; // Only activate on Shift+Click
 
   const authorName = d.id;
   const table = $('#author-table').DataTable();
@@ -373,46 +380,36 @@ description: Explore prolific authors and their contributions across Learning to
 
   if (rowIndex.length > 0) {
     const rowIdx = rowIndex[0];
-
-    // Move to the correct page
     table.page(Math.floor(rowIdx / table.page.len())).draw('page');
 
     setTimeout(() => {
-	  const cell = table.cell(rowIdx, 0).node();
-	  const $authorRow = $(cell).find('.author-name');
-	  if ($authorRow.length) {
-	    $('html, body').animate({
-	      scrollTop: $authorRow.offset().top - 100
-	    }, 500);
-	    $authorRow.addClass('highlight');
-	    setTimeout(() => $authorRow.removeClass('highlight'), 1500);
-	    $('#network-modal').fadeOut(200); // 👈 add this
-	  }
-	}, 300);
+      const cell = table.cell(rowIdx, 0).node();
+      const $authorRow = $(cell).find('.author-name');
+      if ($authorRow.length) {
+        $('html, body').animate({ scrollTop: $authorRow.offset().top - 100 }, 500);
+        $authorRow.addClass('highlight');
+        setTimeout(() => $authorRow.removeClass('highlight'), 1500);
+        $('#network-modal').fadeOut(200);
+      }
+    }, 300);
   } else {
-    // Fallback: use search to locate and highlight the author
     table.search(authorName).draw();
 
     setTimeout(() => {
       const $authorRow = $(`.author-name[data-author="${authorName}"]`);
       if ($authorRow.length) {
-        $('html, body').animate({
-          scrollTop: $authorRow.offset().top - 100
-        }, 500);
-
+        $('html, body').animate({ scrollTop: $authorRow.offset().top - 100 }, 500);
         $authorRow.addClass('highlight');
         setTimeout(() => $authorRow.removeClass('highlight'), 1500);
       }
     }, 400);
   }
-}); 
-  
-      
+  });
      circleSelection.append('title')
     .text(d => {
     const info = authorData[d.id] || {};
         return `${d.id}
-    📄 Papers: ${info.paper_count ?? '—'}
+    📄 Papers: ${`<span title="Click to view papers by ${author}">${info.paper_count}</span>` ?? '—'}
     📊 Citations: ${info.total_citations ?? '—'}
     🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
     🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
@@ -456,14 +453,13 @@ description: Explore prolific authors and their contributions across Learning to
       }
 
       const legendData = [
-        '🖱️ Single-click: Expand author\'s local co-author network',
-        '🖲️ Double-click: Highlight and scroll to author in the table',
-        '👆 Hover: View detailed author statistics (papers, citations, network metrics)',
-        '🌈 Node color: Indicates author\'s community (cluster of frequent collaborators)',
-        '🔴 Red border: Marks the currently selected author',
-        '📏 Node size: Scaled by number of direct co-authors (degree)'
-      ];
-	    
+	  '🖱️ Single-click: Expand author\'s local co-author network',
+	  '⇧+🖱️ Shift+Click: Highlight and scroll to author in the table',
+	  '👆 Hover: View detailed author statistics (papers, citations, network metrics)',
+	  '🌈 Node color: Indicates author\'s community (cluster of frequent collaborators)',
+	  '🔴 Red border: Marks the currently selected author',
+	  '📏 Node size: Scaled by number of direct co-authors (degree)'
+	];
       const tempText = svg.append('text')
         .attr('font-size', '12px')
         .style('visibility', 'hidden');
