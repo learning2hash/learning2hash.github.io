@@ -195,7 +195,31 @@ description: Explore prolific authors and their contributions across Learning to
           { responsivePriority: 12, targets: 8 }, // ⏳ Age
         ]
       });
+      setTimeout(() => {
+	  // Iterate over column visibility buttons inside the dropdown
+	  $('.dt-button-collection .buttons-columnVisibility').each(function () {
+	    const label = $(this).text().trim();
+	    const tooltipMap = {
+	      "👤 Author": "Author's full name",
+	      "📄 Papers": "Number of papers authored",
+	      "📊 Citations": "Total number of citations",
+	      "👥 Co-authors": "Unique collaborators this author has worked with",
+	      "🧩 Degree": "Number of direct co-author connections",
+	      "🔁 Closeness": "Proximity to other authors in the network",
+	      "🔄 Clustering": "Density of connections among co-authors",
+	      "🔀 Betweenness": "Importance as a bridge in the network",
+	      "⏳ Age": "Years active since first paper",
+	      "📈 Paper Count Timeline": "Publication trend over years",
+	      "🏷️ Tags": "Research areas the author contributes to",
+	      "🔗 Network": "Visualize co-author network"
+    };
 
+    if (tooltipMap[label]) {
+      $(this).attr('title', tooltipMap[label]);
+    }
+  });
+}, 500); // Give it a moment to render first
+	    
       function drawSparks() {
         $('.sparkline').each(function () {
           const $el = $(this);
@@ -223,16 +247,17 @@ description: Explore prolific authors and their contributions across Learning to
         showNetwork($(this).data('author'));
       });
 
-      $('#author-table').on('click', '.author-name', function () {
-        const au = $(this).data('author');
-        const info = data[au];
-        $('#papers-title').text(`📄 Sample Papers by ${au}`);
-        $('#papers-list').html((info.papers || []).map(p => `
-	<li>
-		<a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})
-	</li>`).join(''));
-        $('#papers-modal').show();
-      });
+      $('#author-table').on('click', 'tbody td:nth-child(2)', function () {
+	  const rowIdx = $('#author-table').DataTable().row(this).index();
+	  const author = $('#author-table').DataTable().cell(rowIdx, 0).nodes().to$().find('.author-name').data('author');
+	  const info = data[author];
+	  $('#papers-title').text(`📄 Sample Papers by ${author}`);
+	  $('#papers-list').html((info.papers || []).map(p => `
+	    <li>
+	      <a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})
+	    </li>`).join(''));
+	  $('#papers-modal').show();
+	});
 
       $('#modal-close').on('click', () => $('#network-modal, #network-legend').fadeOut(200));
       $('#papers-close').on('click', () => $('#papers-modal').hide());
