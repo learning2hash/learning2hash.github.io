@@ -7,100 +7,113 @@ description: Explore prolific authors and their contributions across Learning to
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
-  Discover leading contributors in Learning to Hash LLM research. Sort by paper count, citations, or timeline sparkline, color-coded by community, and click “View” to explore each author’s co-author graph.
+  Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by
+  community, and click “View” to explore each author’s co-author graph.
 </p>
 <p style="font-size: 0.95em;">
-  🔍 Authors are color-coded by 
-	<strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high 
-	<span title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>, indicating strong connectivity.  
+  🔍 Authors are color-coded by
+  <strong>community</strong>—clusters of frequent collaborators detected via graph algorithms. A red border marks high
+  <span
+    title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>,
+  indicating strong connectivity.
 
 </p>
 <p style="font-size: 0.95em;">
-  ℹ️ Hover over author names or nodes to view detailed stats, including paper count, total citations, unique co-authors, 
-  
-	<span title="Number of direct co-author connections.">degree</span>, 
-  
-	<span title="How close the author is, on average, to all other authors in the network. A higher score means shorter paths to others and quicker access to information.">closeness</span>, 
-  
-	<span title="How interconnected the author's collaborators are.">clustering</span>, 
-  
-	<span title="Influence as a bridge between communities.">betweenness</span>, 
+  ℹ️ Hover over author names or nodes to view detailed stats, including paper count, total citations, unique co-authors,
+
+  <span title="Number of direct co-author connections.">degree</span>,
+
+  <span
+    title="How close the author is, on average, to all other authors in the network. A higher score means shorter paths to others and quicker access to information.">closeness</span>,
+
+  <span title="How interconnected the author's collaborators are.">clustering</span>,
+
+  <span title="Influence as a bridge between communities.">betweenness</span>,
   and active years.
 
 </p>
 <!-- Loading Indicator -->
 <div id="loading">
-	<p>Loading Author Network...</p>
+  <p>Loading Author Network...</p>
 </div>
 <table id="author-table" class="display stripe hover" style="width:100%; display:none;">
-	<thead>
-		<tr>
-			<th data-priority="1">👤 Author</th>
-			<th data-priority="3" title="Click to view sample papers">📄 Papers 🔍</th>
-			<th data-priority="4">📊 Citations</th>
-			<th data-priority="7" title="👥 Unique co-authors this author has worked with">👥 Co-authors</th>
-			<th data-priority="8" title="🧩 Number of direct connections (degree)">🧩 Degree</th>
-			<th data-priority="9" title="🔁 Closeness centrality (inverse average shortest path)">🔁 Closeness</th>
-			<th data-priority="10" title="🔄 Clustering coefficient (triangle density)">🔄 Clustering</th>
-			<th data-priority="11" title="🔀 Betweenness centrality (bridge importance)">🔀 Betweenness</th>
-			<th data-priority="12" title="⏳ Years active since first recorded paper">⏳ Age</th>
-			<th data-priority="5">📈 Paper Count Timeline</th>
-			<th data-priority="6">🏷️ Tags</th>
-			<th data-priority="2">🔗 Network</th>
-		</tr>
-	</thead>
-	<tbody></tbody>
+  <thead>
+    <tr>
+      <th data-priority="1">👤 Author</th>
+      <th data-priority="3" title="Click to view sample papers">📄 Papers 🔍</th>
+      <th data-priority="4">📊 Citations</th>
+      <th data-priority="7" title="👥 Unique co-authors this author has worked with">👥 Co-authors</th>
+      <th data-priority="8" title="🧩 Number of direct connections (degree)">🧩 Degree</th>
+      <th data-priority="9" title="🔁 Closeness centrality (inverse average shortest path)">🔁 Closeness</th>
+      <th data-priority="10" title="🔄 Clustering coefficient (triangle density)">🔄 Clustering</th>
+      <th data-priority="11" title="🔀 Betweenness centrality (bridge importance)">🔀 Betweenness</th>
+      <th data-priority="12" title="⏳ Years active since first recorded paper">⏳ Age</th>
+      <th data-priority="5">📈 Paper Count Timeline</th>
+      <th data-priority="6">🏷️ Tags</th>
+      <th data-priority="2">🔗 Network</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
 </table>
 <!-- Modals -->
-<div id="network-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000; box-shadow:0 4px 20px rgba(0,0,0,0.2); border-radius:10px;">
-	<button id="modal-close" aria-label="Close graph modal" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
-	<svg id="network-svg" width="100%" height="100%"></svg>
+<div id="network-modal" role="dialog" aria-modal="true"
+  style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000; box-shadow:0 4px 20px rgba(0,0,0,0.2); border-radius:10px;">
+  <button id="modal-close" aria-label="Close graph modal"
+    style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+  <svg id="network-svg" width="100%" height="100%"></svg>
 </div>
-<div id="papers-modal" role="dialog" aria-modal="true" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
-	<button id="papers-close" aria-label="Close papers list" style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
-	<h3 id="papers-title">Sample Papers by Author</h3>
-	<ul id="papers-list" style="font-size:0.95em;"></ul>
+<div id="papers-modal" role="dialog" aria-modal="true"
+  style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
+  <button id="papers-close" aria-label="Close papers list"
+    style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
+  <h3 id="papers-title">Sample Papers by Author</h3>
+  <ul id="papers-list" style="font-size:0.95em;"></ul>
 </div>
 <!-- External CSS -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" />
 <style>
-.tooltip-wrapper {
-  position: relative;
-  display: inline-block;
-}
+  .tooltip-wrapper {
+    position: relative;
+    display: inline-block;
+  }
 
-.tooltip-content {
-  visibility: hidden;
-  background-color: #f9f9f9;
-  color: #000;
-  text-align: left;
-  border-radius: 6px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  position: absolute;
-  z-index: 100;
-  width: max-content;
-  max-width: 280px;
-  top: 120%; /* push below element */
-  left: 0;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-  font-size: 0.85em;
-  white-space: pre-line;
-}
+  .tooltip-content {
+    visibility: hidden;
+    background-color: #f9f9f9;
+    color: #000;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    position: absolute;
+    z-index: 100;
+    width: max-content;
+    max-width: 280px;
+    top: 120%;
+    /* push below element */
+    left: 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    font-size: 0.85em;
+    white-space: pre-line;
+  }
 
-.tooltip-wrapper:hover .tooltip-content {
-  visibility: visible;
-}
+  .tooltip-wrapper:hover .tooltip-content {
+    visibility: visible;
+  }
+
   #author-table tbody td:nth-child(2) {
-	  cursor: pointer;
-	  color: #0074D9;
-	  text-decoration: underline;
-		}
-  #network-modal, #papers-modal {
+    cursor: pointer;
+    color: #0074D9;
+    text-decoration: underline;
+  }
+
+  #network-modal,
+  #papers-modal {
     transition: opacity 0.3s ease;
   }
+
   #loading {
     position: fixed;
     top: 50%;
@@ -115,6 +128,7 @@ description: Explore prolific authors and their contributions across Learning to
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
+
   .highlight {
     background-color: #fffbcc !important;
     transition: background-color 0.5s ease;
@@ -130,47 +144,47 @@ description: Explore prolific authors and their contributions across Learning to
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <!-- Main Script -->
 <script>
-    let authorData;
+  let authorData;
 
-    fetch('author_stats.json')
-      .then(res => res.json())
-      .then(data => {
-        authorData = data;
-        $('#loading').hide();
-        $('#author-table').show();
-        initAuthorTable(data);
-      })
-      .catch(err => {
-	  console.error('Error loading author stats', err);
-	  $('#loading').hide();
-	  $('#author-table').after(`
+  fetch('author_stats.json')
+    .then(res => res.json())
+    .then(data => {
+      authorData = data;
+      $('#loading').hide();
+      $('#author-table').show();
+      initAuthorTable(data);
+    })
+    .catch(err => {
+      console.error('Error loading author stats', err);
+      $('#loading').hide();
+      $('#author-table').after(`
   		<div style="color:red; margin-top:10px;">Error loading author data.</div>
 	  `);
     });
 
-    function toTitleCase(name) {
-	  return name
-	    .split(' ')
-	    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-	    .join(' ');
-    }
-    function initAuthorTable(data) {
-      const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
-      const communities = [...new Set(authors.map(a => data[a].community))];
-      const pastelColors = ['#A1C9F4', '#FFB482', '#8DE5A1', '#FF9F9A', '#D0BBFF', '#DEBB9B', '#FAB0E4', '#CFCFCF', '#B9F2F0', '#FFFEA3'];
-      const color = d3.scaleOrdinal(pastelColors).domain(communities);
-      const betwVals = authors.map(a => data[a].betweenness);
-      const threshold = d3.quantile(betwVals.sort(d3.ascending), 0.8);
+  function toTitleCase(name) {
+    return name
+      .split(' ')
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(' ');
+  }
+  function initAuthorTable(data) {
+    const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
+    const communities = [...new Set(authors.map(a => data[a].community))];
+    const pastelColors = ['#A1C9F4', '#FFB482', '#8DE5A1', '#FF9F9A', '#D0BBFF', '#DEBB9B', '#FAB0E4', '#CFCFCF', '#B9F2F0', '#FFFEA3'];
+    const color = d3.scaleOrdinal(pastelColors).domain(communities);
+    const betwVals = authors.map(a => data[a].betweenness);
+    const threshold = d3.quantile(betwVals.sort(d3.ascending), 0.8);
 
-      const rows = authors.map(author => {
-        const info = data[author];
-        const years = (info.sparkline_years || []).map(y => y.toString());
-        const values = info.sparkline_values || [];
-        const spark = values.join(',');
-        const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
-	const googleQuery = encodeURIComponent(`${author} AI`);
-	const displayName = toTitleCase(author);
-	const nameCell = `
+    const rows = authors.map(author => {
+      const info = data[author];
+      const years = (info.sparkline_years || []).map(y => y.toString());
+      const values = info.sparkline_values || [];
+      const spark = values.join(',');
+      const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
+      const googleQuery = encodeURIComponent(`${author} AI`);
+      const displayName = toTitleCase(author);
+      const nameCell = `
 		  <span class="tooltip-wrapper">
 		    <a href="https://www.google.com/search?q=${googleQuery}" target="_blank" rel="noopener"
 		       class="author-name"
@@ -190,286 +204,286 @@ description: Explore prolific authors and their contributions across Learning to
 		      ⏳ Active Years: ${info.age ?? '—'}
 		    </span>
 		  </span>`;
-        const tagsHtml = info.tags.map(tag => {
-          const frag = encodeURIComponent(tag);
-          return `
+      const tagsHtml = info.tags.map(tag => {
+        const frag = encodeURIComponent(tag);
+        return `
 	<a href="https://learning2hash.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;">
 		<span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>
 	</a>`;
-        }).join(' ');
-        return [
-          nameCell,
-          info.paper_count,
-          info.total_citations,
-          info.coauthor_count ?? '—',
-          info.degree?.toFixed(2) ?? '—',
-          info.closeness?.toFixed(3) ?? '—',
-          info.clustering?.toFixed(2) ?? '—',
-          info.betweenness?.toFixed(4) ?? '—',
-          info.age ?? '—',
-          `
+      }).join(' ');
+      return [
+        nameCell,
+        info.paper_count,
+        info.total_citations,
+        info.coauthor_count ?? '—',
+        info.degree?.toFixed(2) ?? '—',
+        info.closeness?.toFixed(3) ?? '—',
+        info.clustering?.toFixed(2) ?? '—',
+        info.betweenness?.toFixed(4) ?? '—',
+        info.age ?? '—',
+        `
 	<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
-          tagsHtml,
-          `
+        tagsHtml,
+        `
 	<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
-        ];
-      });
+      ];
+    });
 
-      const table = $('#author-table').DataTable({
-        data: rows,
-        dom: 'Bfrtip',
-        responsive: { details: true }, // Enables + button for hidden columns on small screens
-        order: [[1, 'desc']], // Sort by Papers
-        pageLength: 100,
-        lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
-        columnDefs: [
-          { targets: [9, 10, 11], orderable: false }, // Timeline, Tags, Network
-          { responsivePriority: 1, targets: 0 },  // 👤 Author
-          { responsivePriority: 2, targets: 11 }, // 🔗 Network
-          { responsivePriority: 3, targets: 1 },  // 📄 Papers
-          { responsivePriority: 4, targets: 2 },  // 📊 Citations
-          { responsivePriority: 5, targets: 9 },  // 📈 Timeline
-          { responsivePriority: 6, targets: 10 }, // 🏷️ Tags
-          { responsivePriority: 7, targets: 3 },  // 👥 Co-authors
-          { responsivePriority: 8, targets: 4 },  // 🧩 Degree
-          { responsivePriority: 9, targets: 5 },  // 🔁 Closeness
-          { responsivePriority: 10, targets: 6 }, // 🔄 Clustering
-          { responsivePriority: 11, targets: 7 }, // 🔀 Betweenness
-          { responsivePriority: 12, targets: 8 }, // ⏳ Age
-        ]
-      });
-      setTimeout(() => {
-	  // Iterate over column visibility buttons inside the dropdown
-	  $('.dt-button-collection .buttons-columnVisibility').each(function () {
-	    const label = $(this).text().trim();
-	    const tooltipMap = {
-	      "👤 Author": "Author's full name",
-	      "📄 Papers": "Number of papers authored",
-	      "📊 Citations": "Total number of citations",
-	      "👥 Co-authors": "Unique collaborators this author has worked with",
-	      "🧩 Degree": "Number of direct co-author connections",
-	      "🔁 Closeness": "Proximity to other authors in the network",
-	      "🔄 Clustering": "Density of connections among co-authors",
-	      "🔀 Betweenness": "Importance as a bridge in the network",
-	      "⏳ Age": "Years active since first paper",
-	      "📈 Paper Count Timeline": "Publication trend over years",
-	      "🏷️ Tags": "Research areas the author contributes to",
-	      "🔗 Network": "Visualize co-author network"
-    };
+    const table = $('#author-table').DataTable({
+      data: rows,
+      dom: 'Bfrtip',
+      responsive: { details: true }, // Enables + button for hidden columns on small screens
+      order: [[1, 'desc']], // Sort by Papers
+      pageLength: 100,
+      lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
+      columnDefs: [
+        { targets: [9, 10, 11], orderable: false }, // Timeline, Tags, Network
+        { responsivePriority: 1, targets: 0 },  // 👤 Author
+        { responsivePriority: 2, targets: 11 }, // 🔗 Network
+        { responsivePriority: 3, targets: 1 },  // 📄 Papers
+        { responsivePriority: 4, targets: 2 },  // 📊 Citations
+        { responsivePriority: 5, targets: 9 },  // 📈 Timeline
+        { responsivePriority: 6, targets: 10 }, // 🏷️ Tags
+        { responsivePriority: 7, targets: 3 },  // 👥 Co-authors
+        { responsivePriority: 8, targets: 4 },  // 🧩 Degree
+        { responsivePriority: 9, targets: 5 },  // 🔁 Closeness
+        { responsivePriority: 10, targets: 6 }, // 🔄 Clustering
+        { responsivePriority: 11, targets: 7 }, // 🔀 Betweenness
+        { responsivePriority: 12, targets: 8 }, // ⏳ Age
+      ]
+    });
+    setTimeout(() => {
+      // Iterate over column visibility buttons inside the dropdown
+      $('.dt-button-collection .buttons-columnVisibility').each(function () {
+        const label = $(this).text().trim();
+        const tooltipMap = {
+          "👤 Author": "Author's full name",
+          "📄 Papers": "Number of papers authored",
+          "📊 Citations": "Total number of citations",
+          "👥 Co-authors": "Unique collaborators this author has worked with",
+          "🧩 Degree": "Number of direct co-author connections",
+          "🔁 Closeness": "Proximity to other authors in the network",
+          "🔄 Clustering": "Density of connections among co-authors",
+          "🔀 Betweenness": "Importance as a bridge in the network",
+          "⏳ Age": "Years active since first paper",
+          "📈 Paper Count Timeline": "Publication trend over years",
+          "🏷️ Tags": "Research areas the author contributes to",
+          "🔗 Network": "Visualize co-author network"
+        };
 
-    if (tooltipMap[label]) {
-      $(this).attr('title', tooltipMap[label]);
-    }
-  });
-}, 500); // Give it a moment to render first
-	    
-      function drawSparks() {
-        $('.sparkline').each(function () {
-          const $el = $(this);
-          const values = $el.text().split(',').map(Number);
-          const years = ($el.attr('data-years') || '').split(',');
-          $el.sparkline(values, {
-            type: 'bar',
-            height: '30px',
-            barWidth: 7,
-            barSpacing: 2,
-            tooltipFormatter: (sp, options, fields) => {
-              const idx = fields[0].offset;
-              const val = fields[0].value;
-              const year = years[idx] || 'Unknown';
-              return `${val} papers in ${year}`;
-            }
-          });
+        if (tooltipMap[label]) {
+          $(this).attr('title', tooltipMap[label]);
+        }
+      });
+    }, 500); // Give it a moment to render first
+
+    function drawSparks() {
+      $('.sparkline').each(function () {
+        const $el = $(this);
+        const values = $el.text().split(',').map(Number);
+        const years = ($el.attr('data-years') || '').split(',');
+        $el.sparkline(values, {
+          type: 'bar',
+          height: '30px',
+          barWidth: 7,
+          barSpacing: 2,
+          tooltipFormatter: (sp, options, fields) => {
+            const idx = fields[0].offset;
+            const val = fields[0].value;
+            const year = years[idx] || 'Unknown';
+            return `${val} papers in ${year}`;
+          }
         });
-      }
-
-      drawSparks();
-      table.on('draw', drawSparks);
-
-      $('#author-table').on('click', 'button.net-btn', function () {
-        showNetwork($(this).data('author'));
       });
+    }
 
-      $('#author-table').on('click', 'tbody td:nth-child(2)', function () {
-	  const rowIdx = $('#author-table').DataTable().row(this).index();
-	  const author = $('#author-table').DataTable().cell(rowIdx, 0).nodes().to$().find('.author-name').data('author');
-	  const info = data[author];
-	  $('#papers-title').text(`📄 Sample Papers by ${toTitleCase(author)}`);
-	  $('#papers-list').html((info.papers || []).map(p => `
+    drawSparks();
+    table.on('draw', drawSparks);
+
+    $('#author-table').on('click', 'button.net-btn', function () {
+      showNetwork($(this).data('author'));
+    });
+
+    $('#author-table').on('click', 'tbody td:nth-child(2)', function () {
+      const rowIdx = $('#author-table').DataTable().row(this).index();
+      const author = $('#author-table').DataTable().cell(rowIdx, 0).nodes().to$().find('.author-name').data('author');
+      const info = data[author];
+      $('#papers-title').text(`📄 Sample Papers by ${toTitleCase(author)}`);
+      $('#papers-list').html((info.papers || []).map(p => `
 	    <li>
 	      <a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})
 	    </li>`).join(''));
-	  $('#papers-modal').show();
-	});
+      $('#papers-modal').show();
+    });
 
-      $('#modal-close').on('click', () => $('#network-modal, #network-legend').fadeOut(200));
-      $('#papers-close').on('click', () => $('#papers-modal').hide());
-    }
+    $('#modal-close').on('click', () => $('#network-modal, #network-legend').fadeOut(200));
+    $('#papers-close').on('click', () => $('#papers-modal').hide());
+  }
 
-    function getSubgraph(author, radius = 2, maxNodes = 150) {
-      const visited = new Set();
-      const queue = [{ id: author, depth: 0 }];
-      const nodes = [];
-      const links = [];
-      const nodeIndex = new Map();
+  function getSubgraph(author, radius = 2, maxNodes = 150) {
+    const visited = new Set();
+    const queue = [{ id: author, depth: 0 }];
+    const nodes = [];
+    const links = [];
+    const nodeIndex = new Map();
 
-      while (queue.length > 0 && nodes.length < maxNodes) {
-        const { id, depth } = queue.shift();
-        if (!authorData[id] || visited.has(id)) continue;
-        visited.add(id);
+    while (queue.length > 0 && nodes.length < maxNodes) {
+      const { id, depth } = queue.shift();
+      if (!authorData[id] || visited.has(id)) continue;
+      visited.add(id);
 
-        const node = {
-          id,
-          depth
-        };
+      const node = {
+        id,
+        depth
+      };
 
-        nodes.push(node);
-        nodeIndex.set(id, node);
+      nodes.push(node);
+      nodeIndex.set(id, node);
 
-        if (depth < radius && Array.isArray(authorData[id].coauthors)) {
-          for (const co of authorData[id].coauthors) {
-            if (!authorData[co]) continue;
+      if (depth < radius && Array.isArray(authorData[id].coauthors)) {
+        for (const co of authorData[id].coauthors) {
+          if (!authorData[co]) continue;
 
-            if (!links.some(l => (l.source === id && l.target === co) || (l.source === co && l.target === id))) {
-              links.push({ source: id, target: co });
-            }
+          if (!links.some(l => (l.source === id && l.target === co) || (l.source === co && l.target === id))) {
+            links.push({ source: id, target: co });
+          }
 
-            if (!visited.has(co) && !queue.some(q => q.id === co)) {
-              queue.push({ id: co, depth: depth + 1 });
-            }
+          if (!visited.has(co) && !queue.some(q => q.id === co)) {
+            queue.push({ id: co, depth: depth + 1 });
           }
         }
       }
-
-      const tooLarge = queue.length > 0 || nodes.length >= maxNodes;
-      return { nodes, links, tooLarge };
     }
 
-    function showNetwork(author) {
-      $('#network-modal, #network-legend').fadeIn(200);
-      $('#network-svg').data('current-author', author);
-      const svg = d3.select('#network-svg');
-      svg.selectAll('*').remove();
+    const tooLarge = queue.length > 0 || nodes.length >= maxNodes;
+    return { nodes, links, tooLarge };
+  }
 
-      const zoomGroup = svg.append('g').attr('class', 'zoom-layer');
-      
-      const zoom = d3.zoom()
-        .scaleExtent([0.5, 2])
-        .on('zoom', event => {
-          zoomGroup.attr('transform', event.transform);
-        });
-      
-      svg.call(zoom);
-      
-      const { nodes, links, tooLarge } = getSubgraph(author, 1);
-      const { width: w, height: h } = svg.node().getBoundingClientRect();
+  function showNetwork(author) {
+    $('#network-modal, #network-legend').fadeIn(200);
+    $('#network-svg').data('current-author', author);
+    const svg = d3.select('#network-svg');
+    svg.selectAll('*').remove();
 
-      setTimeout(() => {
-        const svgEl = svg.node();
-        const { width, height } = svgEl.getBoundingClientRect();
-        const x = d.x ?? 0;
-        const y = d.y ?? 0;
-  
-        svg.transition().duration(500).call(
-          zoom.transform,
-          d3.zoomIdentity
-            .translate(width / 2, height / 2)
-            .scale(1)
-            .translate(-x, -y)
-        );
-      }, 500);
-      
-      const sim = d3.forceSimulation(nodes)
-	  .force('link', d3.forceLink(links).id(d => d.id).distance(280))     // ⬅️ Increase this
-	  .force('charge', d3.forceManyBody().strength(-400))                // ⬅️ More negative = more spacing
-	  .force('collision', d3.forceCollide().radius(d => 18).strength(1)) // ⬅️ Bump up the radius
-	  .force('center', d3.forceCenter(w / 2, h / 2));
-	            
-      zoomGroup.append('g').selectAll('line').data(links).enter().append('line')
-        .attr('stroke', '#aaa').attr('stroke-width', 1);
+    const zoomGroup = svg.append('g').attr('class', 'zoom-layer');
 
-      const circleSelection = zoomGroup.append('g').selectAll('circle').data(nodes).enter().append('circle')
+    const zoom = d3.zoom()
+      .scaleExtent([0.5, 2])
+      .on('zoom', event => {
+        zoomGroup.attr('transform', event.transform);
+      });
+
+    svg.call(zoom);
+
+    const { nodes, links, tooLarge } = getSubgraph(author, 1);
+    const { width: w, height: h } = svg.node().getBoundingClientRect();
+
+    setTimeout(() => {
+      const svgEl = svg.node();
+      const { width, height } = svgEl.getBoundingClientRect();
+      const x = d.x ?? 0;
+      const y = d.y ?? 0;
+
+      svg.transition().duration(500).call(
+        zoom.transform,
+        d3.zoomIdentity
+          .translate(width / 2, height / 2)
+          .scale(1)
+          .translate(-x, -y)
+      );
+    }, 500);
+
+    const sim = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(links).id(d => d.id).distance(280))     // ⬅️ Increase this
+      .force('charge', d3.forceManyBody().strength(-400))                // ⬅️ More negative = more spacing
+      .force('collision', d3.forceCollide().radius(d => 18).strength(1)) // ⬅️ Bump up the radius
+      .force('center', d3.forceCenter(w / 2, h / 2));
+
+    zoomGroup.append('g').selectAll('line').data(links).enter().append('line')
+      .attr('stroke', '#aaa').attr('stroke-width', 1);
+
+    const circleSelection = zoomGroup.append('g').selectAll('circle').data(nodes).enter().append('circle')
       .attr('r', d => 4 + Math.sqrt(authorData[d.id]?.degree || 1))
       .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
       .attr('stroke', d => d.id === author ? 'red' : '#333')
       .attr('stroke-width', d => 2 - 0.5 * d.depth)
       .style('cursor', 'pointer')
       .on('click', (e, d) => {
-      e.stopPropagation();
-      e.preventDefault();
-      showNetwork(d.id);
+        e.stopPropagation();
+        e.preventDefault();
+        showNetwork(d.id);
 
 
-  })
-  .on('click', (e, d) => {
-	  if (!e.shiftKey) return;
-	
-	const authorName = d.id;
-	const table = $('#author-table').DataTable();
-	
-	// Always clear any filtering
-	table.search('').draw();
-	
-	// Find the row index of the exact author
-	const rowIndex = table.rows().eq(0).filter(function (idx) {
-	  const cell = table.cell(idx, 0).node();
-	  const cellAuthor = $(cell).find('.author-name').data('author');
-	  return cellAuthor === authorName;
-	});
-	
-	if (rowIndex.length > 0) {
-	  const rowIdx = rowIndex[0];
-	
-	  // Jump to the correct page
-	  table.page(Math.floor(rowIdx / table.page.len())).draw('page');
-	
-	  setTimeout(() => {
-	    const cell = table.cell(rowIdx, 0).node();
-	    const $authorRow = $(cell).find('.author-name');
-	
-	    if ($authorRow.length) {
-	      $('html, body').animate({ scrollTop: $authorRow.offset().top - 100 }, 500);
-	      $authorRow.addClass('highlight');
-	      setTimeout(() => $authorRow.removeClass('highlight'), 1500);
-	      $('#network-modal').fadeOut(200);
-	    }
-	  }, 300);
-	} else {
-	  console.warn(`Could not find author row for ${authorName}`);
-	}
-  });
+      })
+      .on('click', (e, d) => {
+        if (!e.shiftKey) return;
 
-  if (rowIndex.length > 0) {
-    const rowIdx = rowIndex[0];
-    table.page(Math.floor(rowIdx / table.page.len())).draw('page');
+        const authorName = d.id;
+        const table = $('#author-table').DataTable();
 
-    setTimeout(() => {
-      const cell = table.cell(rowIdx, 0).node();
-      const $authorRow = $(cell).find('.author-name');
-      if ($authorRow.length) {
-        $('html, body').animate({ scrollTop: $authorRow.offset().top - 100 }, 500);
-        $authorRow.addClass('highlight');
-        setTimeout(() => $authorRow.removeClass('highlight'), 1500);
-        $('#network-modal').fadeOut(200);
-      }
-    }, 300);
-  } else {
-    table.search(authorName).draw();
+        // Always clear any filtering
+        table.search('').draw();
 
-    setTimeout(() => {
-      const $authorRow = $(`.author-name[data-author="${authorName}"]`);
-      if ($authorRow.length) {
-        $('html, body').animate({ scrollTop: $authorRow.offset().top - 100 }, 500);
-        $authorRow.addClass('highlight');
-        setTimeout(() => $authorRow.removeClass('highlight'), 1500);
-      }
-    }, 400);
-  }
-  });
-     circleSelection.append('title')
+        // Find the row index of the exact author
+        const rowIndex = table.rows().eq(0).filter(function (idx) {
+          const cell = table.cell(idx, 0).node();
+          const cellAuthor = $(cell).find('.author-name').data('author');
+          return cellAuthor === authorName;
+        });
+
+        if (rowIndex.length > 0) {
+          const rowIdx = rowIndex[0];
+
+          // Jump to the correct page
+          table.page(Math.floor(rowIdx / table.page.len())).draw('page');
+
+          setTimeout(() => {
+            const cell = table.cell(rowIdx, 0).node();
+            const $authorRow = $(cell).find('.author-name');
+
+            if ($authorRow.length) {
+              $('html, body').animate({ scrollTop: $authorRow.offset().top - 100 }, 500);
+              $authorRow.addClass('highlight');
+              setTimeout(() => $authorRow.removeClass('highlight'), 1500);
+              $('#network-modal').fadeOut(200);
+            }
+          }, 300);
+        } else {
+          console.warn(`Could not find author row for ${authorName}`);
+        }
+      });
+
+    if (rowIndex.length > 0) {
+      const rowIdx = rowIndex[0];
+      table.page(Math.floor(rowIdx / table.page.len())).draw('page');
+
+      setTimeout(() => {
+        const cell = table.cell(rowIdx, 0).node();
+        const $authorRow = $(cell).find('.author-name');
+        if ($authorRow.length) {
+          $('html, body').animate({ scrollTop: $authorRow.offset().top - 100 }, 500);
+          $authorRow.addClass('highlight');
+          setTimeout(() => $authorRow.removeClass('highlight'), 1500);
+          $('#network-modal').fadeOut(200);
+        }
+      }, 300);
+    } else {
+      table.search(authorName).draw();
+
+      setTimeout(() => {
+        const $authorRow = $(`.author-name[data-author="${authorName}"]`);
+        if ($authorRow.length) {
+          $('html, body').animate({ scrollTop: $authorRow.offset().top - 100 }, 500);
+          $authorRow.addClass('highlight');
+          setTimeout(() => $authorRow.removeClass('highlight'), 1500);
+        }
+      }, 400);
+    }
+  };
+  circleSelection.append('title')
     .text(d => {
-    const info = authorData[d.id] || {};
-        return `${d.id}
+      const info = authorData[d.id] || {};
+      return `${d.id}
     📄 Papers: ${info.paper_count ?? '—'}
     📊 Citations: ${info.total_citations ?? '—'}
     🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
@@ -478,106 +492,105 @@ description: Explore prolific authors and their contributions across Learning to
     🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
     🌈 Community: ${info.community ?? '—'}
     ⏳ Active Years: ${info.age ?? '—'}`;
-      });
-          
-      const textSelection = zoomGroup.append('g')
-        .selectAll('text')
-        .data(nodes)
-        .enter()
-        .append('text')
-        .text(d => d.id)
-        .attr('font-size', '10px')
-        .attr('dx', 8)
-        .attr('dy', 4);
-      
-      sim.on('tick', () => {
-        svg.selectAll('line')
-          .attr('x1', d => d.source?.x || 0)
-          .attr('y1', d => d.source?.y || 0)
-          .attr('x2', d => d.target?.x || 0)
-          .attr('y2', d => d.target?.y || 0);
-      
-        svg.selectAll('circle')
-          .attr('cx', d => d.x || 0)
-          .attr('cy', d => d.y || 0);
-      
-        textSelection
-          .attr('x', d => (d.x || 0) + 6)
-          .attr('y', d => d.y || 0);
-      });
+    });
 
-      if (tooLarge) {
-        svg.append('text')
-          .attr('x', 10).attr('y', 20).attr('fill', 'red')
-          .attr('font-size', '14px')
-          .text('⚠️ Truncated: Too many nodes to display fully.');
-      }
+  const textSelection = zoomGroup.append('g')
+    .selectAll('text')
+    .data(nodes)
+    .enter()
+    .append('text')
+    .text(d => d.id)
+    .attr('font-size', '10px')
+    .attr('dx', 8)
+    .attr('dy', 4);
 
-      const legendData = [
-	  '🖱️ Single-click: Expand author\'s network',
-	  '⇧+🖱️ Shift+Click: Jump to author in table',
-	  '👆 Hover: View author statistics',
-	  '🌈 Node color: Indicates author\'s community',
-	  '🔴 Red border: Marks current author',
-	  '📏 Node size: Scaled by co-authors'
-	];
-      const tempText = svg.append('text')
-        .attr('font-size', '12px')
-        .style('visibility', 'hidden');
+  sim.on('tick', () => {
+    svg.selectAll('line')
+      .attr('x1', d => d.source?.x || 0)
+      .attr('y1', d => d.source?.y || 0)
+      .attr('x2', d => d.target?.x || 0)
+      .attr('y2', d => d.target?.y || 0);
 
-      let maxWidth = 0;
-      legendData.forEach(line => {
-        tempText.text(line);
-        const width = tempText.node().getComputedTextLength();
-        if (width > maxWidth) maxWidth = width;
-      });
-      tempText.remove();
+    svg.selectAll('circle')
+      .attr('cx', d => d.x || 0)
+      .attr('cy', d => d.y || 0);
 
-      const legendPadding = 20;
-      const legendWidth = maxWidth + 20;  
-      const legendX = Math.max(legendPadding, 0);
-      const legendY = h - (legendData.length * 30 + 40);
+    textSelection
+      .attr('x', d => (d.x || 0) + 6)
+      .attr('y', d => d.y || 0);
+  });
 
-      const legendGroup = zoomGroup.append('g')
-        .attr('transform', `translate(${legendX}, ${legendY})`);
+  if (tooLarge) {
+    svg.append('text')
+      .attr('x', 10).attr('y', 20).attr('fill', 'red')
+      .attr('font-size', '14px')
+      .text('⚠️ Truncated: Too many nodes to display fully.');
+  }
 
-      legendGroup.append('rect')
-	  .attr('x', 0)
-	  .attr('y', -20)
-	  .attr('width', legendWidth)
-	  .attr('height', legendData.length * 30)
-	  .attr('fill', '#f9f9f9')
-	  .attr('stroke', '#ccc')
-	  .attr('rx', 8)
-	  .attr('ry', 8);
+  const legendData = [
+    '🖱️ Single-click: Expand author\'s network',
+    '⇧+🖱️ Shift+Click: Jump to author in table',
+    '👆 Hover: View author statistics',
+    '🌈 Node color: Indicates author\'s community',
+    '🔴 Red border: Marks current author',
+    '📏 Node size: Scaled by co-authors'
+  ];
+  const tempText = svg.append('text')
+    .attr('font-size', '12px')
+    .style('visibility', 'hidden');
 
-      const legendText = legendGroup.append('text')
-	  .attr('x', 10)  // slight padding
-	  .attr('y', 0)
-	  .attr('font-size', '12px')
-	  .attr('fill', '#333');
+  let maxWidth = 0;
+  legendData.forEach(line => {
+    tempText.text(line);
+    const width = tempText.node().getComputedTextLength();
+    if (width > maxWidth) maxWidth = width;
+  });
+  tempText.remove();
 
-      legendText.selectAll('tspan')
-	  .data(legendData)
-	  .enter().append('tspan')
-	  .attr('x', 10)
-	  .attr('dy', (d, i) => i === 0 ? '0em' : '1.8em')
-	  .text(d => d);
+  const legendPadding = 20;
+  const legendWidth = maxWidth + 20;
+  const legendX = Math.max(legendPadding, 0);
+  const legendY = h - (legendData.length * 30 + 40);
 
-      setTimeout(() => {
-      const selected = nodes.find(n => n.id === author);
-      if (selected) {
-        const svgEl = svg.node();
-        const { width, height } = svgEl.getBoundingClientRect();
-        svg.transition().duration(500).call(
-          zoom.transform,
-          d3.zoomIdentity
-            .translate(width / 2, height / 2)
-            .scale(1)
-            .translate(-selected.x, -selected.y)
-        );
-      }
-    }, 500);
+  const legendGroup = zoomGroup.append('g')
+    .attr('transform', `translate(${legendX}, ${legendY})`);
+
+  legendGroup.append('rect')
+    .attr('x', 0)
+    .attr('y', -20)
+    .attr('width', legendWidth)
+    .attr('height', legendData.length * 30)
+    .attr('fill', '#f9f9f9')
+    .attr('stroke', '#ccc')
+    .attr('rx', 8)
+    .attr('ry', 8);
+
+  const legendText = legendGroup.append('text')
+    .attr('x', 10)  // slight padding
+    .attr('y', 0)
+    .attr('font-size', '12px')
+    .attr('fill', '#333');
+
+  legendText.selectAll('tspan')
+    .data(legendData)
+    .enter().append('tspan')
+    .attr('x', 10)
+    .attr('dy', (d, i) => i === 0 ? '0em' : '1.8em')
+    .text(d => d);
+
+  setTimeout(() => {
+    const selected = nodes.find(n => n.id === author);
+    if (selected) {
+      const svgEl = svg.node();
+      const { width, height } = svgEl.getBoundingClientRect();
+      svg.transition().duration(500).call(
+        zoom.transform,
+        d3.zoomIdentity
+          .translate(width / 2, height / 2)
+          .scale(1)
+          .translate(-selected.x, -selected.y)
+      );
     }
-  
+  }, 500);
+
 </script>
