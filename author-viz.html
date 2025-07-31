@@ -415,33 +415,11 @@ description: Explore prolific authors and their contributions across Learning to
 
       // If Shift key is held, jump to author in table
       if (e.shiftKey) {
-	const authorName = d.id.trim();
-        const table = $('#author-table').DataTable();
-
-        table.search('').draw();
-
-        const rowIndex = table.rows().eq(0).filter(function (idx) {
-	  const cell = table.cell(idx, 0).node();
-	  const cellAuthor = $(cell).find('.author-name').data('author').trim();
-	  return (cellAuthor || '').toLowerCase().trim() === (authorName || '').toLowerCase().trim();
-	});
-
-        if (rowIndex.length > 0) {
-          const rowIdx = rowIndex[0];
-          table.page(Math.floor(rowIdx / table.page.len())).draw('page');
-
-          table.one('draw', function () {
-            const cell = table.cell(rowIdx, 0).node();
-            const $authorRow = $(cell).find('.author-name');
-            if ($authorRow.length) {
-              $('#network-modal').fadeOut(200);
-              $('html, body').animate({ scrollTop: $authorRow.offset().top - 100 }, 500);
-              $authorRow.addClass('highlight');
-              setTimeout(() => $authorRow.removeClass('highlight'), 1500);
-            }
-          });
-        }
-      }
+	  const authorName = d.id.trim();
+	  const table = $('#author-table').DataTable();
+	  table.search(authorName).draw();
+	  $('#network-modal').fadeOut(200);
+	}
     });
 
     // ✅ Now attach title tooltips correctly
