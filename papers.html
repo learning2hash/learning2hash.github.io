@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Search all Publications on Machine Learning for Hashing
-description: A list of research papers for machine learning models for hashing.
+title: Search all Publications on Learning to Hash
+description: A list of research papers for Learning to Hash.
 ---
 
 Search across all paper titles, abstracts, and authors by using the search field.
@@ -17,13 +17,14 @@ the information of existing papers or adding new work.
 <table id="allPapers">
 <thead>
   <tr>
-    <th>Year</th>
-    <th>Title</th>
-    <th>Authors</th>
-    <th>Venue</th>
-    <th>Citations</th>
-    <th>Abstract</th>
-    <th>Tags</th>
+  <th>Year</th>
+  <th>Title</th>
+  <th>Short Authors</th>
+  <th style="display: none;"></th>
+  <th>Venue</th>
+  <th>Citations</th>
+  <th>Abstract</th>
+  <th>Tags</th>
   </tr>
   </thead>
   <tbody>
@@ -40,6 +41,7 @@ the information of existing papers or adding new work.
       </span>
     </td>
     <td>{{ publication.short_authors }}</td> 
+    <td style="display: none;">{{ publication.authors }}</td>
     <td>{{ publication.conference }}</td>
     <td>{{ publication.citations | default: 0 }}</td>
     <td>{{ publication.content }}</td>
@@ -54,6 +56,7 @@ the information of existing papers or adding new work.
   </tbody>
 </table>
 
+<!-- CSS Styles -->
 <style>
   /* Hide the table initially */
   #allPapers {
@@ -110,16 +113,16 @@ the information of existing papers or adding new work.
       searching: true,
       order: [[0, 'desc'], [4, 'desc']],  // Default sort: Year desc, then Citations desc
       columnDefs: [
-        {
-          targets: [5, 6],  // Adjusted for new column indices
-          visible: false,
-          searchable: true
-        },
-        {
-          targets: 4,  // Citation count column
-          type: 'num'
-        }
-      ],
+      {
+        targets: [3, 6, 7],  // 3 = full authors, 6 = abstract, 7 = tags
+        visible: false,
+        searchable: true
+      },
+      {
+        targets: 5,  // Citations
+        type: 'num'
+      }
+     ],
       // Callback when DataTable is initialized
       initComplete: function(settings, json) {
         // Hide the loading indicator
@@ -139,4 +142,5 @@ the information of existing papers or adding new work.
     searchTable();
   });
 </script>
+
 
