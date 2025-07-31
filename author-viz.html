@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Explore Learning to Hash papers by Author
-description: Explore prolific authors and their contributions across Learning to Hash research
+description: Explore prolific authors and their contributions across Learning to Hash  research
 ---
 
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
-  Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by
+  Discover leading contributors in Learning to Hash  research. Sort by paper count, citations, or timeline sparkline, color-coded by
   community, and click “View” to explore each author’s co-author graph.
 </p>
 <p style="font-size: 0.95em;">
@@ -378,21 +378,6 @@ description: Explore prolific authors and their contributions across Learning to
     const { nodes, links, tooLarge } = getSubgraph(author, 1);
     const { width: w, height: h } = svg.node().getBoundingClientRect();
 
-    setTimeout(() => {
-      const svgEl = svg.node();
-      const { width, height } = svgEl.getBoundingClientRect();
-      const x = d.x ?? 0;
-      const y = d.y ?? 0;
-
-      svg.transition().duration(500).call(
-        zoom.transform,
-        d3.zoomIdentity
-          .translate(width / 2, height / 2)
-          .scale(1)
-          .translate(-x, -y)
-      );
-    }, 500);
-
     const sim = d3.forceSimulation(nodes)
       .force('link', d3.forceLink(links).id(d => d.id).distance(280))     // ⬅️ Increase this
       .force('charge', d3.forceManyBody().strength(-400))                // ⬅️ More negative = more spacing
@@ -403,55 +388,30 @@ description: Explore prolific authors and their contributions across Learning to
       .attr('stroke', '#aaa').attr('stroke-width', 1);
 
     const circleSelection = zoomGroup.append('g').selectAll('circle').data(nodes).enter().append('circle')
-      .attr('r', d => 4 + Math.sqrt(authorData[d.id]?.degree || 1))
-      .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
-      .attr('stroke', d => d.id === author ? 'red' : '#333')
-      .attr('stroke-width', d => 2 - 0.5 * d.depth)
-      .style('cursor', 'pointer')
-      .on('click', (e, d) => {
-        e.stopPropagation();
-        e.preventDefault();
-        showNetwork(d.id);
+  .attr('r', d => 4 + Math.sqrt(authorData[d.id]?.degree || 1))
+  .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
+  .attr('stroke', d => d.id === author ? 'red' : '#333')
+  .attr('stroke-width', d => 2 - 0.5 * d.depth)
+  .style('cursor', 'pointer')
+  circleSelection.on('click', (e, d) => {
+  e.stopPropagation();
+  e.preventDefault();
 
+  // Always expand author's network
+  showNetwork(d.id);
 
-      })
-      .on('click', (e, d) => {
-        if (!e.shiftKey) return;
+  // If Shift key is held, jump to author in table
+  if (e.shiftKey) {
+    const authorName = d.id;
+    const table = $('#author-table').DataTable();
 
-        const authorName = d.id;
-        const table = $('#author-table').DataTable();
+    table.search('').draw();
 
-        // Always clear any filtering
-        table.search('').draw();
-
-        // Find the row index of the exact author
-        const rowIndex = table.rows().eq(0).filter(function (idx) {
-          const cell = table.cell(idx, 0).node();
-          const cellAuthor = $(cell).find('.author-name').data('author');
-          return cellAuthor === authorName;
-        });
-
-        if (rowIndex.length > 0) {
-          const rowIdx = rowIndex[0];
-
-          // Jump to the correct page
-          table.page(Math.floor(rowIdx / table.page.len())).draw('page');
-
-          setTimeout(() => {
-            const cell = table.cell(rowIdx, 0).node();
-            const $authorRow = $(cell).find('.author-name');
-
-            if ($authorRow.length) {
-              $('html, body').animate({ scrollTop: $authorRow.offset().top - 100 }, 500);
-              $authorRow.addClass('highlight');
-              setTimeout(() => $authorRow.removeClass('highlight'), 1500);
-              $('#network-modal').fadeOut(200);
-            }
-          }, 300);
-        } else {
-          console.warn(`Could not find author row for ${authorName}`);
-        }
-      });
+    const rowIndex = table.rows().eq(0).filter(function (idx) {
+      const cell = table.cell(idx, 0).node();
+      const cellAuthor = $(cell).find('.author-name').data('author');
+      return cellAuthor === authorName;
+    });
 
     if (rowIndex.length > 0) {
       const rowIdx = rowIndex[0];
@@ -479,20 +439,23 @@ description: Explore prolific authors and their contributions across Learning to
         }
       }, 400);
     }
-  };
-  circleSelection.append('title')
-    .text(d => {
-      const info = authorData[d.id] || {};
-      return `${d.id}
-    📄 Papers: ${info.paper_count ?? '—'}
-    📊 Citations: ${info.total_citations ?? '—'}
-    🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
-    🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
-    🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}
-    🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
-    🌈 Community: ${info.community ?? '—'}
-    ⏳ Active Years: ${info.age ?? '—'}`;
-    });
+  }
+});
+// ✅ Now attach title tooltips correctly
+circleSelection.append('title')
+  .text(d => {
+    const info = authorData[d.id] || {};
+    return `${d.id}
+📄 Papers: ${info.paper_count ?? '—'}
+📊 Citations: ${info.total_citations ?? '—'}
+🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
+🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}
+🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}
+🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
+🌈 Community: ${info.community ?? '—'}
+⏳ Active Years: ${info.age ?? '—'}`;
+  });
+    
 
   const textSelection = zoomGroup.append('g')
     .selectAll('text')
@@ -578,19 +541,19 @@ description: Explore prolific authors and their contributions across Learning to
     .attr('dy', (d, i) => i === 0 ? '0em' : '1.8em')
     .text(d => d);
 
-  setTimeout(() => {
-    const selected = nodes.find(n => n.id === author);
-    if (selected) {
-      const svgEl = svg.node();
-      const { width, height } = svgEl.getBoundingClientRect();
-      svg.transition().duration(500).call(
-        zoom.transform,
-        d3.zoomIdentity
-          .translate(width / 2, height / 2)
-          .scale(1)
-          .translate(-selected.x, -selected.y)
-      );
-    }
-  }, 500);
+setTimeout(() => {
+  const selected = nodes.find(n => n.id === author);
+  if (selected) {
+    const svgEl = svg.node();
+    const { width, height } = svgEl.getBoundingClientRect();
+    svg.transition().duration(500).call(
+      zoom.transform,
+      d3.zoomIdentity
+        .translate(width / 2, height / 2)
+        .scale(1)
+        .translate(-selected.x, -selected.y)
+    );
+  }
+}, 500);
 
 </script>
