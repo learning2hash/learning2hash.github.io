@@ -86,7 +86,14 @@ var updateVisualization = () => {}; // declared globally
 
 var isMatch = function(d, searchTerm) {
   if (searchTerm.length < 3) return false;
-  var allText = (d.title + " " + d.abstract + " " + d.tags.join(" ")).toLocaleLowerCase();
+  var allText = (
+    d.title + " " +
+    d.abstract + " " +
+    d.tags.join(" ") + " " +
+    (d.authors || []).join(" ") + " " +
+    (d.conference || "") + " " +
+    (d.key || "")
+  ).toLocaleLowerCase();
   return allText.indexOf(searchTerm) !== -1;
 };
 
