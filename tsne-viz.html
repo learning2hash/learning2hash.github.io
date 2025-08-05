@@ -235,15 +235,18 @@ var updateVisualization = () => {}; // declared globally
 
 var isMatch = function(d, searchTerm) {
   if (searchTerm.length < 3) return false;
-  var allText = (
+
+  const allText = (
     d.title + " " +
     d.abstract + " " +
     d.tags.join(" ") + " " +
-    (d.authors || []).join(" ") + " " +
+    (Array.isArray(d.authors) ? d.authors : [d.authors || ""]).join(" ")  + " " +
     (d.conference || "") + " " +
-    (d.key || "")
+    (d.key || "") + " " +
+    (d.year || "")
   ).toLocaleLowerCase();
-  return allText.indexOf(searchTerm) !== -1;
+
+  return allText.includes(searchTerm);
 };
 
 var margin = {top: 10, right: 130, bottom: 30, left: 60},
