@@ -5,7 +5,15 @@ layout: default
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
   <h5>
-  {{ page.authors }}. {{ page.conference }} {{ page.year }}
+  {% if page.authors %}
+    {% if page.authors[0] %}
+      {{ page.authors | join: ", " }}
+    {% else %}
+      {{ page.authors }}
+    {% endif %}
+  {% endif %}
+  {% if page.conference %}. {{ page.conference }}{% endif %}
+  {% if page.year %} {{ page.year }}{% endif %}
   {% if page.citations %}
     – <span>{{ page.citations }} citation{% if page.citations != 1 %}s{% endif %}</span>
   {% endif %}
