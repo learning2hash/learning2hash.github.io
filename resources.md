@@ -115,28 +115,108 @@ Blog posts are a great way to keep up with cutting-edge research. Here are some 
 - **[Introduction to Locality-Sensitive Hashing (Great Visualizations)](http://tylerneylon.com/a/lsh1/)**: This tutorial, rich with visual aids, provides an easy-to-follow introduction to Locality-Sensitive Hashing (LSH). 
 
 - **[What is Locality-Sensitive Hashing?](https://www.quora.com/What-is-locality-sensitive-hashing)**: This Quora discussion explains LSH in simple terms. It covers the core principles of how LSH works and why it is useful for approximate nearest neighbor search.
-  
+
 ### 🧩💾 Hashing Software Packages
 
-- **[Rensa (beowolx) – High‑performance MinHash](https://github.com/beowolx/rensa)**: A Rust‑based MinHash implementation with Python bindings, designed for fast similarity estimation and deduplication of large datasets. Benchmarks show it's up to ~40 × faster than the popular `datasketch` library while using less memory.
+#### 📦 Hashing Algorithms
+
+- **[Deep Hashing Toolbox](https://github.com/thulab/DeepHash)**: An open-source implementation designed for learning to hash with deep neural networks. Useful for deep similarity search research.
   
-- **[Faiss (Facebook AI Similarity Search)](https://github.com/facebookresearch/faiss)**: Faiss is a high-performance library developed by Facebook AI Research (FAIR) for efficient similarity search and clustering of dense vectors. It is optimized for handling large-scale datasets and provides a range of indexing algorithms, including brute-force, approximate nearest neighbor search, and quantization techniques, making it widely used in machine learning and AI applications.
+- **[Rensa (beowolx) – High‑performance MinHash](https://github.com/beowolx/rensa)**: A Rust‑based MinHash implementation with Python bindings. Fast and memory-efficient for deduplication tasks.
 
-- **[Annoy (Approximate Nearest Neighbors Oh Yeah)](https://github.com/spotify/annoy)**: Annoy is a fast and lightweight C++ library developed by Spotify for performing approximate nearest neighbor search in high-dimensional spaces. It is particularly well-suited for applications requiring quick retrieval of similar vectors, such as music recommendation systems, and is optimized for read-heavy tasks with low memory overhead.
+- **[Deep Supervised Hashing (DSH)](https://github.com/yxtay/Deep-Supervised-Hashing)**: A PyTorch implementation of Deep Supervised Hashing, which learns compact binary codes using supervision for high retrieval performance.
 
-- **[Deep Hashing Toolbox](https://github.com/thulab/DeepHash)**: Deep Hashing Toolbox is an open-source implementation designed for learning to hash with deep neural networks. This toolbox is a valuable resource for researchers working on deep learning-driven similarity search tasks.
+- **[HashNet](https://github.com/thuml/HashNet)**: Implements HashNet, a deep hashing method that handles imbalanced data distributions and learns binary hash codes end-to-end.
 
-- **[NMSLIB](https://github.com/nmslib/nmslib)**: NMSLIB (Non-Metric Space Library) is a cross-platform library designed for approximate nearest neighbor search in non-metric spaces. NMSLIB is commonly used in search engines, recommendation systems, and machine learning pipelines.
+#### 🏗️ Indexing / ANN Libraries
 
-- **[HNSWlib](https://github.com/nmslib/hnswlib)**: HNSWlib is an efficient implementation of Hierarchical Navigable Small World (HNSW) graphs, which provide fast approximate nearest neighbor search. This library is widely used for large-scale search tasks, offering low memory usage and high accuracy.
+- **[Faiss (Facebook AI Similarity Search)](https://github.com/facebookresearch/faiss)**: A powerful library by Facebook AI Research for efficient similarity search of dense vectors. Supports PQ, IVF, HNSW, and more.
+
+- **[Annoy (Approximate Nearest Neighbors Oh Yeah)](https://github.com/spotify/annoy)**: A C++/Python library from Spotify for fast approximate nearest neighbor search. Optimized for read-heavy workloads.
+
+- **[NMSLIB](https://github.com/nmslib/nmslib)**: A cross-platform library for similarity search in non-metric spaces. Frequently used in search and recommendation systems.
+
+- **[HNSWlib](https://github.com/nmslib/hnswlib)**: Implements Hierarchical Navigable Small World (HNSW) graphs for fast and accurate ANN search.
+
+- **[ScaNN (Scalable Nearest Neighbors)](https://github.com/google-research/google-research/tree/master/scann)**: Developed by Google Research, ScaNN is optimized for vector similarity search at production scale using quantization and reordering.
+
+#### 🛠️ Vector Databases
+
+- **[Milvus](https://milvus.io/)**: A production-ready open-source vector database for similarity search. Supports multiple ANN algorithms and distributed deployments.
+
+- **[Weaviate](https://weaviate.io/)**: An open-source vector database with semantic search capabilities, supporting hybrid search, classification, and modules like CLIP and OpenAI.
+
+- **[Qdrant](https://qdrant.tech/)**: A fast and scalable vector database written in Rust. Provides gRPC and REST APIs and supports filtering and payload-based search.
+
+### 🧪📊 Benchmarking Tools and Leaderboards
+
+#### 🧪 ANN-Benchmarks: Comparing Nearest Neighbor Libraries
+[![GitHub Repo](https://img.shields.io/github/stars/erikbern/ann-benchmarks?style=social)](https://github.com/erikbern/ann-benchmarks)
+
+**[ANN-Benchmarks](https://github.com/erikbern/ann-benchmarks)** is the standard benchmarking framework for evaluating Approximate Nearest Neighbor (ANN) algorithms on a wide range of datasets and distance metrics.
+
+It includes:
+- Dockerized runners for 30+ ANN libraries including FAISS, HNSWlib, NMSLIB, Annoy, ScaNN, Milvus, and more.
+- Scripts to run and visualize benchmarking results.
+- Precomputed datasets in HDF5 format for fair and reproducible evaluation.
+
+📄 Related Paper: [Aumüller et al. (2019)](https://arxiv.org/abs/1807.05614)
+
+#### 🗃️ Evaluated Libraries on ANN-Benchmarks
+Some key evaluated libraries:
+- [FAISS](https://github.com/facebookresearch/faiss)
+- [HNSWlib](https://github.com/nmslib/hnswlib)
+- [Annoy](https://github.com/spotify/annoy)
+- [ScaNN](https://github.com/google-research/google-research/tree/master/scann)
+- [NMSLIB](https://github.com/nmslib/nmslib)
+- [Weaviate](https://github.com/weaviate/weaviate)
+- [Milvus](https://github.com/milvus-io/milvus)
+- [Qdrant](https://github.com/qdrant/qdrant)
+- [Elastiknn](https://github.com/alexklibisz/elastiknn)
+- [SPTAG (Microsoft)](https://github.com/microsoft/SPTAG)
+- [DiskANN (Microsoft)](https://github.com/microsoft/diskann)
+- [PyNNDescent](https://github.com/lmcinnes/pynndescent)
+- [FLANN](https://github.com/flann-lib/flann)
+
+Full list: [github.com/erikbern/ann-benchmarks#evaluated](https://github.com/erikbern/ann-benchmarks#evaluated)
+
+#### 📥 Precomputed Benchmark Datasets
+All datasets are split into train/test sets with ground truth for top-100 neighbors:
+
+| Dataset      | Dim | Train/Test       | Distance  | Download |
+|--------------|-----|------------------|-----------|----------|
+| DEEP1B       | 96  | 9.9M / 10k        | Angular   | [HDF5](http://ann-benchmarks.com/deep-image-96-angular.hdf5) |
+| Fashion-MNIST| 784 | 60k / 10k         | Euclidean | [HDF5](http://ann-benchmarks.com/fashion-mnist-784-euclidean.hdf5) |
+| SIFT         | 128 | 1M / 10k          | Euclidean | [HDF5](http://ann-benchmarks.com/sift-128-euclidean.hdf5) |
+| GIST         | 960 | 1M / 1k           | Euclidean | [HDF5](http://ann-benchmarks.com/gist-960-euclidean.hdf5) |
+| NYTimes      | 256 | 290k / 10k        | Angular   | [HDF5](http://ann-benchmarks.com/nytimes-256-angular.hdf5) |
+| GloVe (25–200d)| — | 1.18M / 10k      | Angular   | [Link](https://github.com/erikbern/ann-benchmarks#datasets) |
+| Last.fm      | 65  | 292k / 50k        | Angular   | [HDF5](http://ann-benchmarks.com/lastfm-64-dot.hdf5) |
+| COCO-I2I     | 512 | 113k / 10k        | Angular   | [HDF5](https://github.com/fabiocarrara/str-encoders/releases/download/v0.1.3/coco-i2i-512-angular.hdf5) |
+| COCO-T2I     | 512 | 113k / 10k        | Angular   | [HDF5](https://github.com/fabiocarrara/str-encoders/releases/download/v0.1.3/coco-t2i-512-angular.hdf5) |
+
+More: [ann-benchmarks.com](http://ann-benchmarks.com)
+
+#### 🧠 Related Projects
+
+- **[Billion-Scale ANN Leaderboard](https://big-ann-benchmarks.com/leaderboard.html)**: Continuously updated leaderboard comparing the performance of various billion-scale approximate nearest neighbor methods across recall, latency, and memory tradeoffs.
 
 ### 📚📖 Books
 
 Here are a few recommended books on large-scale machine learning:
 
-- **[Mining of Massive Datasets](http://www.mmds.org/)**: This book covers a wide range of large-scale data mining topics, including graph processing, machine learning algorithms, and large-scale search. It features a detailed section on Locality-Sensitive Hashing (LSH), explaining how LSH can be used to efficiently index and retrieve data in large datasets. This is a fundamental resource for understanding data mining techniques at scale.
+- **[Mining of Massive Datasets](http://www.mmds.org/)**: This classic book explores large-scale data mining techniques, including graph processing, clustering, recommendation, and Locality-Sensitive Hashing (LSH). It's a core resource for anyone working on scalable algorithms for big data.
 
-- **[Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/information-retrieval-book.html)**: A classic textbook in the field of information retrieval, authored by leading experts, it covers the full spectrum of data indexing and retrieval techniques. The book explores topics such as vector space models, relevance ranking, and search algorithms, with sections dedicated to hashing techniques for efficient data retrieval.
+- **[Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/information-retrieval-book.html)**: Authored by Manning, Raghavan, and Schütze, this book is essential reading for understanding search engines, indexing, relevance, and vector space models — including chapters on hashing for text retrieval.
 
-- **[Efficient Processing of Deep Neural Networks](https://link.springer.com/book/10.1007/978-3-031-01766-7)**: This book provides a thorough exploration of various techniques for optimizing and processing deep neural networks. It covers both the theoretical foundations and practical implementations for improving the efficiency of DNNs, including model compression, quantization, and hashing for efficient data storage and retrieval. It is essential for researchers focused on the intersection of deep learning and efficient computation.
+- **[Efficient Processing of Deep Neural Networks](https://link.springer.com/book/10.1007/978-3-031-01766-7)**: A practical and theoretical guide to optimizing deep neural networks for deployment. It covers model compression, quantization, and hashing, making it highly relevant for efficient deep hashing research.
+
+- **[Learning from Data](http://work.caltech.edu/telecourse.html)** by Yaser S. Abu-Mostafa et al.: A concise, intuitive introduction to the principles of supervised learning and generalization theory — foundational for understanding supervised hashing methods.
+
+- **[Similarity Search: The Metric Space Approach](https://link.springer.com/book/10.1007/3-540-44520-1)** by Zezula et al.: A foundational text on similarity search in metric spaces, offering deep insight into indexing and retrieval techniques that predate modern hashing but remain highly relevant.
+
+- **[Foundations of Data Science](https://www.cs.cornell.edu/jeh/book.pdf)** by Blum, Hopcroft, and Kannan: A mathematically rigorous treatment of data science topics, including high-dimensional geometry, random projections, and algorithms that underlie LSH and related hashing techniques.
+
+- **[Deep Learning](https://www.deeplearningbook.org/)** by Goodfellow, Bengio, and Courville: The definitive book on deep learning. While not specific to hashing, it provides the theoretical backbone for understanding the neural network architectures used in deep supervised hashing models.
+
 
