@@ -135,7 +135,6 @@ Blog posts are a great way to keep up with cutting-edge research. Here are some 
 ### 🧪📊 Benchmarking Tools and Leaderboards
 
 #### 🧪 ANN-Benchmarks: Comparing Nearest Neighbor Libraries
-[![GitHub Repo](https://img.shields.io/github/stars/erikbern/ann-benchmarks?style=social)](https://github.com/erikbern/ann-benchmarks)
 
 **[ANN-Benchmarks](https://github.com/erikbern/ann-benchmarks)** is the standard benchmarking framework for evaluating Approximate Nearest Neighbor (ANN) algorithms on a wide range of datasets and distance metrics.
 
@@ -183,7 +182,7 @@ More: [ann-benchmarks.com](http://ann-benchmarks.com)
 
 #### 🧠 Related Projects
 
-- **[Billion-Scale ANN Leaderboard](https://big-ann-benchmarks.com/leaderboard.html)**: Continuously updated leaderboard comparing the performance of various billion-scale approximate nearest neighbor methods across recall, latency, and memory tradeoffs.
+- **[Billion-Scale ANN Leaderboard](https://big-ann-benchmarks.com/neurips23.html)**: Continuously updated leaderboard comparing the performance of various billion-scale approximate nearest neighbor methods across recall, latency, and memory tradeoffs.
 
 ### 📚📖 Books
 
