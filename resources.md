@@ -96,6 +96,8 @@ Some university courses cover topics related to machine learning and efficient c
 
 Blog posts are a great way to keep up with cutting-edge research. Here are some of our favorites:
 
+- **[ANN-Benchmarks](https://ann-benchmarks.com/index.html)**: A standard benchmarking platform for evaluating the performance of Approximate Nearest Neighbor (ANN) algorithms on a range of real-world and synthetic datasets. Continuously updated and widely cited, it provides reproducible results for comparison across indexing methods and libraries.
+ 
 - **[Learning to Hash — Finding the Needle in the Haystack with AI](https://medium.com/@sean.j.moran/learning-to-hash-finding-the-needle-in-the-haystack-with-ai-24a15f85de0e)**: This blog post, authored by Sean Moran, provides a beginner-friendly introduction to the concept of learning to hash, focusing on how AI techniques like deep learning can improve approximate nearest neighbor search.
 
 - **[Fast Near-Duplicate Image Search Using Locality-Sensitive Hashing](https://towardsdatascience.com/fast-near-duplicate-image-search-using-locality-sensitive-hashing-d4c16058efcb)**: This post explains how Locality-Sensitive Hashing (LSH) can be applied to find near-duplicate images efficiently. 
