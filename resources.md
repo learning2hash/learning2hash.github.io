@@ -4,7 +4,17 @@ title: Resources
 ---
 # Resources on Machine Learning for Hashing
 
-###🎤🧑‍🔬Conferences and Workshops
+### 🎥📘 Introductory Video Material
+
+- **[Dr. Wu-Jun Li's tutorial slides](https://cs.nju.edu.cn/lwj/slides/L2H.pdf)**: These tutorial slides by Dr. Wu-Jun Li offer a comprehensive introduction to learning to hash (L2H) techniques. It's an excellent resource for anyone seeking a deep understanding of hashing from a technical perspective.
+
+- **[Intro to LSH - Part 1](https://www.youtube.com/watch?v=Arni-zkqMBA)**: In this video, Dr. Victor Lavrenko provides an introduction to Locality-Sensitive Hashing (LSH). Part 1 covers the basic concepts and intuition behind LSH, making it accessible for beginners.
+
+- **[Intro to LSH - Part 2](https://www.youtube.com/watch?v=dgH0NP8Qxa8)**: Part 2 of Dr. Lavrenko's LSH series dives deeper into the mathematics and mechanics of how LSH works. 
+
+- **[Hashing Algorithms for Large-Scale Machine Learning - 2017 Rice Machine Learning Workshop](https://www.youtube.com/embed/tQ0OJXowLJA)**: This video is a recording of a presentation from the 2017 Rice Machine Learning Workshop. It offers a detailed overview of various hashing algorithms used for large-scale machine learning.
+
+### 🎤🧑‍🔬Conferences and Workshops
 
 - **[IJCNN 2025: Scalable and Deep Graph Learning and Mining](https://www.ijcnn.org/)**: Workshop including hashing methods applied to graph structures for retrieval and similarity.
   
@@ -24,16 +34,6 @@ title: Resources
 
 - **[SIAM International Conference on Data Mining (SDM)](https://www.siam.org/conferences/cm/conference/sdm22)**: SDM is an important conference for researchers in data mining, focusing on the latest developments in algorithms, data analysis, and big data applications. 
 
-### 🎥📘 Introductory Video Material
-
-- **[Dr. Wu-Jun Li's tutorial slides](https://cs.nju.edu.cn/lwj/slides/L2H.pdf)**: These tutorial slides by Dr. Wu-Jun Li offer a comprehensive introduction to learning to hash (L2H) techniques. It's an excellent resource for anyone seeking a deep understanding of hashing from a technical perspective.
-
-- **[Intro to LSH - Part 1](https://www.youtube.com/watch?v=Arni-zkqMBA)**: In this video, Dr. Victor Lavrenko provides an introduction to Locality-Sensitive Hashing (LSH). Part 1 covers the basic concepts and intuition behind LSH, making it accessible for beginners.
-
-- **[Intro to LSH - Part 2](https://www.youtube.com/watch?v=dgH0NP8Qxa8)**: Part 2 of Dr. Lavrenko's LSH series dives deeper into the mathematics and mechanics of how LSH works. 
-
-- **[Hashing Algorithms for Large-Scale Machine Learning - 2017 Rice Machine Learning Workshop](https://www.youtube.com/embed/tQ0OJXowLJA)**: This video is a recording of a presentation from the 2017 Rice Machine Learning Workshop. It offers a detailed overview of various hashing algorithms used for large-scale machine learning.
-
 ### 📄🔬 Survey Papers
 
 For a deeper dive, these survey papers are excellent resources:
@@ -51,47 +51,31 @@ For a deeper dive, these survey papers are excellent resources:
 - **[Deep Learning for Hashing: A Survey](https://arxiv.org/pdf/1909.06046.pdf)**: This survey provides an in-depth overview of deep learning-based hashing techniques, which have become increasingly popular for large-scale retrieval tasks.
 
 - **[Learning to Hash With Binary Deep Neural Networks: A Survey](https://www.sciencedirect.com/science/article/abs/pii/S016786552030208X)**: This survey focuses on binary deep neural networks and their use in learning to hash. It explores how these networks are trained to produce compact binary codes that can be used for efficient data retrieval in large-scale datasets.
-  
-### 🗃️📥 Pre-Processed Datasets for Download
-
-- **[CIFAR-10 Gist Features (.mat)](https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=0)**: This dataset contains GIST features extracted from the CIFAR-10 dataset, a popular image classification benchmark.
-
-- **[LabelMe Gist Features (.mat)](https://www.dropbox.com/s/dwixb9ry4zwvcp9/LabelMe_gist.mat?dl=0)**: A set of GIST features extracted from the LabelMe dataset, which includes a large collection of labeled images. 
-
-- **[MNIST Pixel Features (.mat)](https://www.dropbox.com/s/x3j6ik6kvnw95h3/MNIST_gnd_release.mat?dl=0)**: This dataset contains pixel-level features extracted from the MNIST dataset, a benchmark for handwritten digit recognition. 
-
-- **[SIFT 1M Features (.mat)](https://www.dropbox.com/s/29f6r7pqevfy2ck/sift1m.mat?dl=0)**: This dataset consists of SIFT (Scale-Invariant Feature Transform) descriptors for one million image patches, commonly used in image matching and retrieval tasks.
-
-- **[20 Newsgroups (.mat)](https://www.dropbox.com/s/wql7m8wuvn9efhj/20Newsgroups.mat?dl=0)**: This dataset contains features extracted from the 20 Newsgroups text dataset, a collection of approximately 20,000 documents categorized into 20 different newsgroups.
-  
-- **[TDT2 (.mat)](https://www.dropbox.com/s/qasz8z3sr1pjqog/TDT2.mat?dl=0)**: This dataset includes features from the Topic Detection and Tracking (TDT2) dataset, designed for research on text retrieval and clustering. 
-
-- **[BIGANN Dataset](http://corpus-texmex.irisa.fr/)**: The BIGANN dataset includes SIFT descriptors extracted from a large collection of images. It is widely used for benchmarking large-scale approximate nearest neighbor (ANN) search algorithms.
-
-- **[Facebook SimSearchNet++](https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/FB_ssnpp_database.u8bin)**: A large-scale dataset developed by Facebook for the SimSearchNet++ model, which is used to benchmark billion-scale similarity search algorithms in the context of AI and machine learning applications.
-
-- **[Microsoft SPACEV-1B](https://github.com/microsoft/SPTAG/tree/master/datasets/SPACEV1B)**: This dataset from Microsoft includes one billion vectors for testing large-scale similarity search algorithms. It is a benchmark for efficient vector retrieval systems and helps evaluate ANN algorithms' performance.
-
-- **[Yandex DEEP-1B](https://research.yandex.com/datasets/biganns)**: The DEEP-1B dataset from Yandex consists of one billion deep image descriptors for benchmarking approximate nearest neighbor search algorithms. It provides a challenging, large-scale benchmark for evaluating hashing and ANN methods.
-
-- **[Yandex Text-to-Image-1B](https://research.yandex.com/datasets/biganns)**: A dataset that includes one billion text-to-image matching features, useful for evaluating and benchmarking similarity search techniques that bridge the gap between text and image modalities.
-
-- **[Deep1B Dataset](https://github.com/facebookresearch/faiss/wiki/Indexing-1B-vectors)**: The Deep1B dataset contains one billion deep representations of images, widely used in large-scale similarity search benchmarks.
-
-- **[DEEP-10M](https://research.yandex.com/datasets)**: A smaller variant of the DEEP-1B dataset, containing 10 million deep image descriptors.
-
-- **[GLUE Benchmark](https://gluebenchmark.com/)**: The General Language Understanding Evaluation (GLUE) benchmark consists of a variety of natural language processing tasks that test a model's understanding of language. While not traditionally used for image hashing, it provides valuable challenges for text-based hashing techniques.
 
 ### 🎓📚 Courses
 
 Some university courses cover topics related to machine learning and efficient computing, with publicly available materials:
 
-- **[Extreme Computing](http://www.inf.ed.ac.uk/teaching/courses/exc/index_17-18.html) at the University of Edinburgh**: This course focuses on the challenges and techniques involved in building and scaling systems for processing massive datasets. 
+- **[Extreme Computing](http://www.inf.ed.ac.uk/teaching/courses/exc/index_17-18.html)** (University of Edinburgh): Focuses on the challenges and techniques involved in building and scaling systems for processing massive datasets.
 
-- **[Text Technologies for Data Science](https://www.inf.ed.ac.uk/teaching/courses/tts/) at the University of Edinburgh**: This course covers the processing, analysis, and modeling of textual data in data science applications. It includes topics such as text mining, natural language processing, and information retrieval, with a focus on how these techniques can be used to extract insights from large text corpora.
-  
-- **[CS276: Information Retrieval](https://web.stanford.edu/class/cs276/) at Stanford University**: A comprehensive course that covers the fundamental principles of information retrieval, including algorithms for vector similarity search and hashing.
+- **[Text Technologies for Data Science](https://www.inf.ed.ac.uk/teaching/courses/tts/)** (University of Edinburgh): Covers processing, analysis, and modeling of textual data. Includes topics in text mining, NLP, and information retrieval — with relevance to similarity search and hashing.
 
+- **[CS276: Information Retrieval](https://web.stanford.edu/class/cs276/)** (Stanford University): A comprehensive, foundational course covering algorithms for vector similarity search, ranking, indexing, and hashing.
+
+#### 🧠 DeepLearning.AI Short Courses on Vector Search & ANN
+
+- **[Vector Databases: from Embeddings to Applications](https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/?utm_source=chatgpt.com)**: Learn how vector databases work (dense vs sparse search, multilingual embeddings, hybrid search) with real-world applications using Weaviate. *(~55 min)*
+
+- **[Retrieval Optimization: from Tokenization to Vector Quantization](https://learn.deeplearning.ai/courses/retrieval-optimization-from-tokenization-to-vector-quantization/lesson/lpcaz/introduction?utm_source=chatgpt.com)**: Deep dive into ANN performance tuning — covering HNSW, product/scalar/binary quantization, and index compression techniques. Created with Qdrant.
+
+- **[Building Applications with Vector Databases](https://www.deeplearning.ai/short-courses/building-applications-vector-databases/?utm_source=chatgpt.com)**: Hands-on course for building RAG, semantic search, hybrid retrieval, and anomaly detection apps using Pinecone.
+
+- **[Retrieval Augmented Generation (RAG)](https://www.deeplearning.ai/courses/retrieval-augmented-generation-rag/?utm_source=chatgpt.com)**: Explore architectures and implementation of RAG pipelines using vector indices, chunking, retrieval filtering, and prompt design.
+
+- **[Knowledge Graphs for RAG](https://www.deeplearning.ai/short-courses/knowledge-graphs-rag/?utm_source=chatgpt.com)**: Learn how to connect vector embeddings with structured data using Neo4j to improve retrieval in multimodal and structured RAG systems.
+
+- **[Prompt Compression and Query Optimization](https://www.deeplearning.ai/short-courses/prompt-compression-and-query-optimization/?utm_source=chatgpt.com)**: Covers retrieval latency reduction via query filtering, projection, re-ranking, and prompt shortening — with examples using MongoDB Atlas Vector Search.
+ 
 ### 📝📰  Blog Posts
 
 Blog posts are a great way to keep up with cutting-edge research. Here are some of our favorites:
@@ -218,5 +202,36 @@ Here are a few recommended books on large-scale machine learning:
 - **[Foundations of Data Science](https://www.cs.cornell.edu/jeh/book.pdf)** by Blum, Hopcroft, and Kannan: A mathematically rigorous treatment of data science topics, including high-dimensional geometry, random projections, and algorithms that underlie LSH and related hashing techniques.
 
 - **[Deep Learning](https://www.deeplearningbook.org/)** by Goodfellow, Bengio, and Courville: The definitive book on deep learning. While not specific to hashing, it provides the theoretical backbone for understanding the neural network architectures used in deep supervised hashing models.
+
+### 🗃️📥 Pre-Processed Datasets for Download
+
+- **[CIFAR-10 Gist Features (.mat)](https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=0)**: This dataset contains GIST features extracted from the CIFAR-10 dataset, a popular image classification benchmark.
+
+- **[LabelMe Gist Features (.mat)](https://www.dropbox.com/s/dwixb9ry4zwvcp9/LabelMe_gist.mat?dl=0)**: A set of GIST features extracted from the LabelMe dataset, which includes a large collection of labeled images. 
+
+- **[MNIST Pixel Features (.mat)](https://www.dropbox.com/s/x3j6ik6kvnw95h3/MNIST_gnd_release.mat?dl=0)**: This dataset contains pixel-level features extracted from the MNIST dataset, a benchmark for handwritten digit recognition. 
+
+- **[SIFT 1M Features (.mat)](https://www.dropbox.com/s/29f6r7pqevfy2ck/sift1m.mat?dl=0)**: This dataset consists of SIFT (Scale-Invariant Feature Transform) descriptors for one million image patches, commonly used in image matching and retrieval tasks.
+
+- **[20 Newsgroups (.mat)](https://www.dropbox.com/s/wql7m8wuvn9efhj/20Newsgroups.mat?dl=0)**: This dataset contains features extracted from the 20 Newsgroups text dataset, a collection of approximately 20,000 documents categorized into 20 different newsgroups.
+  
+- **[TDT2 (.mat)](https://www.dropbox.com/s/qasz8z3sr1pjqog/TDT2.mat?dl=0)**: This dataset includes features from the Topic Detection and Tracking (TDT2) dataset, designed for research on text retrieval and clustering. 
+
+- **[BIGANN Dataset](http://corpus-texmex.irisa.fr/)**: The BIGANN dataset includes SIFT descriptors extracted from a large collection of images. It is widely used for benchmarking large-scale approximate nearest neighbor (ANN) search algorithms.
+
+- **[Facebook SimSearchNet++](https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/FB_ssnpp_database.u8bin)**: A large-scale dataset developed by Facebook for the SimSearchNet++ model, which is used to benchmark billion-scale similarity search algorithms in the context of AI and machine learning applications.
+
+- **[Microsoft SPACEV-1B](https://github.com/microsoft/SPTAG/tree/master/datasets/SPACEV1B)**: This dataset from Microsoft includes one billion vectors for testing large-scale similarity search algorithms. It is a benchmark for efficient vector retrieval systems and helps evaluate ANN algorithms' performance.
+
+- **[Yandex DEEP-1B](https://research.yandex.com/datasets/biganns)**: The DEEP-1B dataset from Yandex consists of one billion deep image descriptors for benchmarking approximate nearest neighbor search algorithms. It provides a challenging, large-scale benchmark for evaluating hashing and ANN methods.
+
+- **[Yandex Text-to-Image-1B](https://research.yandex.com/datasets/biganns)**: A dataset that includes one billion text-to-image matching features, useful for evaluating and benchmarking similarity search techniques that bridge the gap between text and image modalities.
+
+- **[Deep1B Dataset](https://github.com/facebookresearch/faiss/wiki/Indexing-1B-vectors)**: The Deep1B dataset contains one billion deep representations of images, widely used in large-scale similarity search benchmarks.
+
+- **[DEEP-10M](https://research.yandex.com/datasets)**: A smaller variant of the DEEP-1B dataset, containing 10 million deep image descriptors.
+
+- **[GLUE Benchmark](https://gluebenchmark.com/)**: The General Language Understanding Evaluation (GLUE) benchmark consists of a variety of natural language processing tasks that test a model's understanding of language. While not traditionally used for image hashing, it provides valuable challenges for text-based hashing techniques.
+
 
 
