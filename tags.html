@@ -1,33 +1,43 @@
 ---
 layout: default
 title: Publications by Tag
-description: A list of research papers for machine learning models for hashing.
+description: A list of Learning to Hash research papers.
 ---
 {% assign rawtags = Array.new %}
 {% for publication in site.publications %}
-  {% assign ttags = publication.tags  %}  
-  {% assign rawtags = rawtags | concat: ttags %}  
+  {% assign ttags = publication.tags %}
+  {% assign rawtags = rawtags | concat: ttags %}
 {% endfor %}
-{% assign rawtags = rawtags | uniq | sort %}
+{% assign rawtags = rawtags | uniq | sort_natural %}
 
 <h1>Publications by Tag</h1>
 <p>
 The following tags appear in the publications listed in the review:
 </p>
-{% for tag in rawtags %}<tag><a href="/tags.html#{{ tag }}">{{ tag }}</a></tag> {% endfor %}
+{% for tag in rawtags %}
+  <tag><a href="/tags.html#{{ tag }}">{{ tag }}</a></tag>
+{% endfor %}
 
 <h2>Tags</h2>
 <p>See below a list of all tags and the related papers</p>
 
-
-{% assign sortedPublications =  site.publications | sort: "authors" | sort: "year"%}
+{% assign sortedPublications = site.publications | sort: "authors" | sort: "year" %}
 {% for tag in rawtags %}
-   <h3>🏷 {{ tag }} <a id="{{ tag }}"></a></h3>
-   <ul>
-   {% for publication in sortedPublications %}
-     {% if publication.tags contains tag %}
-       <li> <a href="{{ publication.url | prepend: site.baseurl }}">{{publication.title}}</a> {{ publication.authors }} </li>
-     {% endif %}
-   {% endfor %}
-   </ul>
+  <h3>🏷 {{ tag }} <a id="{{ tag }}"></a></h3>
+  <ul>
+    {% for publication in sortedPublications %}
+      {% if publication.tags contains tag %}
+        <li>
+          <a href="{{ publication.url | prepend: site.baseurl }}">{{ publication.title }}</a>
+          {% if publication.authors %}
+            {% if publication.authors[0] %}
+              {{ publication.authors | join: ", " }}
+            {% else %}
+              {{ publication.authors }}
+            {% endif %}
+          {% endif %}
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
 {% endfor %}
