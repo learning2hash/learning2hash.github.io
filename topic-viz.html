@@ -4,6 +4,8 @@ title: Explore Learning to Hash Papers by Topic
 description: Interactive topic model explorer — adjust topic weights to see the most relevant papers
 ---
 
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 <h2>Topic Explorer</h2>
 <p>
   This page uses topic modelling to group Learning to Hash  papers by their most important themes.
@@ -22,6 +24,12 @@ description: Interactive topic model explorer — adjust topic weights to see th
             <path d="M7 5l6 5-6 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
           <span><strong>Topic weights</strong></span>
+          <button
+            type="button"
+            class="info"
+            aria-label="Tip: Increase a slider to upweight that topic; Reset all returns sliders to zero."
+            data-tooltip="Increase a slider to upweight that topic. ‘Reset all’ returns every slider to zero. Top results update live."
+          >ⓘ</button>
         </span>
         <span class="summary-meta">
           <span id="activeSummary" class="small" aria-live="polite">No active weights</span>
@@ -50,39 +58,23 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
 <style>
   /* ========= Full-bleed utilities ========= */
-  .full-bleed {
-    width: 100vw;
-    position: relative;
-    left: 50%;
-    right: 50%;
-    margin-left: -50vw;
-    margin-right: -50vw;
-  }
-  .full-bleed .inner {
-    max-width: 1400px;   /* adjust to taste */
-    margin: 0 auto;
-    padding: 0 12px;     /* subtle gutter */
-  }
+  .full-bleed { width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; }
+  .full-bleed .inner { max-width: 1400px; margin: 0 auto; padding: 0 12px; }
   .full-bleed, .full-bleed * { overflow: visible; }
 
   /* ========= Panel ========= */
   .topic-panel {
-    border: 1px solid #ececf2; border-radius: .75rem; background: #fff; margin: .5rem 0 1rem;
-    width: 100%;
+    border: 1px solid #ececf2; border-radius: .75rem; background: #fff; margin: .5rem 0 1rem; width: 100%;
   }
   .topic-panel > summary {
-    list-style: none; cursor: pointer;
-    display: flex; align-items: center; justify-content: space-between;
-    gap: .75rem; padding: .6rem .75rem; font-weight: 600;
-    user-select: none;
+    list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between;
+    gap: .75rem; padding: .6rem .75rem; font-weight: 600; user-select: none; flex-wrap: wrap;
   }
   .topic-panel > summary:hover { background: #fafbff; }
-  .topic-panel > summary:focus-visible {
-    outline: none; box-shadow: inset 0 0 0 3px rgba(26,115,232,.25); border-radius: .7rem;
-  }
+  .topic-panel > summary:focus-visible { outline: none; box-shadow: inset 0 0 0 3px rgba(26,115,232,.25); border-radius: .7rem; }
   .topic-panel[open] > summary { border-bottom: 1px solid #f0f0f0; }
 
-  .summary-left { display:flex; align-items:center; gap:.5rem; }
+  .summary-left { display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; }
   .summary-caret { transition: transform .18s ease; transform-origin: 50% 50%; }
   .topic-panel[open] .summary-caret { transform: rotate(90deg); }
 
@@ -91,122 +83,112 @@ description: Interactive topic model explorer — adjust topic weights to see th
   .summary-hint { color:#6b7280; font-size:.85rem; opacity:.9; }
 
   /* First-load nudge */
-  @keyframes nudge {
-    0%,100% { transform: translateX(0); }
-    30% { transform: translateX(2px); }
-    60% { transform: translateX(-2px); }
-  }
+  @keyframes nudge { 0%,100%{transform:translateX(0)} 30%{transform:translateX(2px)} 60%{transform:translateX(-2px)} }
   .topic-panel.nudge .summary-caret { animation: nudge 700ms ease-in-out 2; }
 
   /* Actions row */
   .topic-actions { display:flex; align-items:center; gap:.5rem; padding:.5rem .75rem 0; }
-  #resetAll {
-    padding:.3rem .55rem; border:1px solid #d9dbe3; border-radius:.4rem; background:#f8f9fb; cursor:pointer;
-  }
+  #resetAll { padding:.35rem .6rem; border:1px solid #d9dbe3; border-radius:.45rem; background:#f8f9fb; cursor:pointer; }
   #resetAll:hover { background:#eef2f7; }
 
-  /* ========= Topic grid — fill available horizontal space ========= */
+  /* ========= Topic grid ========= */
   .topic-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* packs tighter than auto-fit */
-    gap: .6rem .7rem;
-    padding: .6rem .75rem .8rem;
-    width: 100%;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: .6rem .7rem; padding: .6rem .75rem .8rem; width: 100%;
   }
-  @media (min-width: 1200px) {
-    .topic-grid { grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); }
-  }
-  @media (min-width: 1600px) {
-    .topic-grid { grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); }
-  }
+  @media (min-width: 1200px) { .topic-grid { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); } }
+  @media (min-width: 1600px) { .topic-grid { grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); } }
 
   /* ========= Topic row ========= */
   .topic-row {
     display: grid;
-    grid-template-columns: 1fr minmax(180px, 1fr) auto; /* label | slider grows | value */
+    grid-template-columns: 1fr minmax(180px, 1fr) auto; /* pill | slider | value */
     align-items: center;
     gap: .45rem .6rem;
-    background: #fff;
-    border-radius: .6rem;
-    border: 1px solid #ececf2;
-    padding: .35rem .5rem;
-    width: 100%;
+    background: #fff; border-radius: .6rem; border: 1px solid #ececf2; padding: .35rem .5rem; width: 100%;
+  }
+  /* Stack on narrow screens: pill on top, slider below, value inline at end */
+  @media (max-width: 640px) {
+    .topic-row { grid-template-columns: 1fr; grid-auto-flow: row; }
+    .topic-row .val { justify-self: end; }
   }
 
-  /* Wider pill label */
+  /* ====== Tag pill (stacked lines to minimize width) ====== */
   .topic-row .tag-chip {
-    text-decoration: none;
-    border-radius: 999px;
-    padding: .1rem .5rem;
-    background: #f6f7f9;
-    border: 1px solid #e6e8ec;
-    display: inline-flex;
-    align-items: center;
-    gap: .25rem;
-    font-size: .65rem;
-    line-height: 1.2;
-    color: inherit;
-    white-space: nowrap;
-    max-width: 60ch;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    text-decoration: none; border-radius: .6rem; padding: .3rem .5rem; background: #f6f7f9; border: 1px solid #e6e8ec;
+    display: inline-block; font-size: .67rem; line-height: 1.15; color: inherit;
+    max-width: 100%; white-space: normal; /* allow wrapping */
   }
+  .topic-row .tag-chip .line { display:block; }
   .topic-row .tag-chip:hover { background: #f0f3f7; }
 
-  /* Slider track fills its column */
+  /* Slider track fills its column (touch-friendly) */
   .topic-row input[type="range"] {
-    width: 100%;
-    -webkit-appearance: none; appearance: none;
-    height: 8px; border-radius: 999px;
-    background: linear-gradient(90deg, #ddd, #eee);
-    vertical-align: middle;
+    width: 100%; -webkit-appearance: none; appearance: none;
+    height: 10px; border-radius: 999px; background: linear-gradient(90deg, #ddd, #eee); vertical-align: middle; touch-action: none;
   }
   .topic-row input[type="range"]:focus { outline: none; }
   .topic-row input[type="range"]:focus-visible { box-shadow: 0 0 0 3px #1a73e84d; }
   .topic-row input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none; appearance: none;
-    width: 14px; height: 14px; border-radius: 50%;
-    background: #1a73e8; border: 2px solid #fff;
-    box-shadow: 0 0 0 2px #1a73e880; cursor: grab;
+    -webkit-appearance: none; appearance: none; width: 20px; height: 20px; border-radius: 50%;
+    background: #1a73e8; border: 2px solid #fff; box-shadow: 0 0 0 2px #1a73e880; cursor: grab;
   }
   .topic-row input[type="range"]::-moz-range-thumb {
-    width: 14px; height: 14px; border-radius: 50%;
-    background: #1a73e8; border: 2px solid #fff;
-    box-shadow: 0 0 0 2px #1a73e880; cursor: grab;
+    width: 20px; height: 20px; border-radius: 50%; background: #1a73e8; border: 2px solid #fff; box-shadow: 0 0 0 2px #1a73e880; cursor: grab;
   }
-  .topic-row .val {
-    min-width: 2ch; text-align: right; font-variant-numeric: tabular-nums;
-    font-size: .78rem; opacity: .8;
-  }
+  .topic-row .val { min-width: 2ch; text-align: right; font-variant-numeric: tabular-nums; font-size: .78rem; opacity: .8; }
 
   /* ========= Publications list — responsive grid ========= */
   .pub-list {
-    margin: 0; padding-left: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
-    gap: .5rem .8rem;
-    width: 100%;
+    margin: 0; padding-left: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: .5rem .8rem; width: 100%;
   }
-  @media (min-width: 1400px) {
-    .pub-list { grid-template-columns: repeat(auto-fill, minmax(440px, 1fr)); }
-  }
+  @media (min-width: 1400px) { .pub-list { grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); } }
   .pub-list li { list-style: none; margin: 0; }
   .pub-list a { font-weight: 600; }
 
   /* ========= Small text helpers ========= */
   .small { color:#6b7280; font-size:.9em; }
+
+  /* Tooltip button (same pattern as other pages) */
+  .info {
+    display:inline-flex; align-items:center; justify-content:center; width:18px; height:18px; line-height:18px; border-radius:50%;
+    border:1px solid #999; background:#f8f8f8; font-size:.75rem; font-weight:700; cursor:pointer; padding:0; position:relative;
+  }
+  .info:focus { outline: none; box-shadow: 0 0 0 2px rgba(26,115,232,.25); }
+  .info[data-tooltip]::after {
+    content: attr(data-tooltip); position:absolute; left: 50%; transform: translateX(-50%); bottom: calc(100% + 8px);
+    white-space: nowrap; max-width: 80vw; text-wrap: wrap; background:#222; color:#fff; padding:.35rem .5rem; border-radius:4px; font-size:.78rem;
+    opacity:0; visibility:hidden; transition:opacity .15s ease; z-index:20;
+  }
+  .info[data-tooltip]::before {
+    content:''; position:absolute; left:50%; transform:translateX(-50%); bottom: calc(100% + 3px); border:6px solid transparent; border-top-color:#222;
+    opacity:0; visibility:hidden; transition:opacity .15s ease; z-index:20;
+  }
+  .info:hover::after, .info:hover::before,
+  .info:focus::after, .info:focus::before,
+  .info[data-show]::after, .info[data-show]::before { opacity:1; visibility:visible; }
 </style>
 
 <script>
+  // Tap-to-toggle tooltip on mobile (same pattern as other pages)
+  document.addEventListener('click', function(e){
+    const isInfo = e.target.closest('.info[data-tooltip]');
+    document.querySelectorAll('.info[data-show]').forEach(el => { if (el !== isInfo) el.removeAttribute('data-show'); });
+    if (isInfo) { e.preventDefault(); isInfo.toggleAttribute('data-show'); }
+  }, { passive: false });
+
   var all_papers = null;
   var num_topics = -1;
 
+  // Build a stacked-label pill: each keyword on its own line
   function makeTopicRow(words, idx) {
     const id = 'topicSlider' + idx;
     const label = words.join(', ');
+    const stacked = words.map(w => `<span class="line">${w}</span>`).join('');
     return `
       <div class="topic-row" data-idx="${idx}" data-text="${label.toLowerCase()}">
-        <span class="tag-chip" title="${label}">${label}</span>
+        <span class="tag-chip" title="${label}">${stacked}</span>
         <input type="range" min="0" max="10" value="0" id="${id}" aria-label="Weight for topic ${idx+1}: ${label}">
         <span class="val" id="${id}Val">0</span>
       </div>
@@ -270,9 +252,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
     for (let i = 0; i < Math.min(N, paper_idxs.length); i++) {
       const data = all_papers[paper_idxs[i][0]];
-      $list.append(
-        `<li><a href="/publications/${data.key}">${data.title}</a>. ${data.year || ''}</li>`
-      );
+      $list.append(`<li><a href="/publications/${data.key}">${data.title}</a>. ${data.year || ''}</li>`);
     }
     updateActiveSummary();
   }
@@ -322,9 +302,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
       setTimeout(() => panel.classList.remove('nudge'), 1600);
 
       const hint = document.getElementById('expandHint');
-      function syncHint() {
-        hint.textContent = panel.open ? 'Click to collapse' : 'Click to expand';
-      }
+      function syncHint() { hint.textContent = panel.open ? 'Click to collapse' : 'Click to expand'; }
       syncHint();
       panel.addEventListener('toggle', syncHint);
     });
