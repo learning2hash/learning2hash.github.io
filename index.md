@@ -12,9 +12,6 @@ permalink: /
 A curated and continuously updated collection of academic papers on hashing-based approximate nearest neighbour (ANN) search, spanning applications in computer vision, natural language processing, bioinformatics, and related domains.
 </p>
 
----
-
-<!-- === MATCH 'Publications by Tag' CHIP STYLE === -->
 <style>
 .tag-cloud {
   display:flex;
