@@ -1,43 +1,294 @@
 ---
 layout: default
 title: Publications by Tag
-description: A list of Learning to Hash research papers.
+description: Explore tags for Learning to Hash research papers
 ---
-{% assign rawtags = Array.new %}
-{% for publication in site.publications %}
-  {% assign ttags = publication.tags %}
-  {% assign rawtags = rawtags | concat: ttags %}
-{% endfor %}
-{% assign rawtags = rawtags | uniq | sort_natural %}
 
-<h1>Publications by Tag</h1>
-<p>
-The following tags appear in the publications listed in the review:
-</p>
+<a id="top"></a>
+
+<style>
+/* ---- Compact, neutral control style (matches previous page) ---- */
+.controls { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.6rem; margin:.6rem 0 .9rem; }
+.search { display:flex; align-items:flex-start; gap:.6rem; flex-wrap:wrap; }
+.search label { font-weight:700; font-size:.85rem; }
+.search input {
+  width: 200px;
+  padding: .25rem .4rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  font-size: .85rem;
+  background-color: #f8f9fa;
+}
+.search input:focus { outline:none; border-color:#0c5fce; box-shadow:0 0 0 2px rgba(26,115,232,.25); }
+.search button {
+  padding: .25rem .5rem;
+  font-size: .85rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  background: #f8f9fa;
+  cursor: pointer;
+}
+.search button:hover { background:#e2e2e2; }
+
+/* ---- Tag cloud & chips — match Open Source Tools grey chips ---- */
+.tag-cloud { display:flex; flex-wrap:wrap; gap:.5rem .75rem; margin:.4rem 0 .8rem; }
+.tag-cloud a {
+  text-decoration:none;
+  border-radius:999px;
+  padding:.15rem .45rem;
+  background:#f6f7f9;
+  border:1px solid #e6e8ec;
+  display:inline-flex;
+  align-items:center;
+  gap:.35rem;
+  font-size:.75rem;             /* same size as tools page */
+  line-height:1.1;
+  color:#6b7280;                /* grey font like tools page */
+  font-weight:500;
+}
+.tag-cloud a:hover { background:#f0f3f7; color:#4b5563; }
+.tag-cloud a:focus { outline:none; box-shadow:0 0 0 3px rgba(26,115,232,.25); }
+
+/* --- FORCE neutral chip color in all link states (no blue/purple) --- */
+.tag-cloud a,
+.tag-cloud a:link,
+.tag-cloud a:visited,
+.tag-cloud a:hover,
+.tag-cloud a:active {
+  color:#6b7280 !important;
+  text-decoration:none !important;
+}
+
+/* Optional: keep slight size variation but stay compact */
+.tag-badge { font-size:.75rem; opacity:.8; font-variant-numeric: tabular-nums; }
+.tag-size-1 { font-size:.75rem; }
+.tag-size-2 { font-size:.8rem; }
+.tag-size-3 { font-size:.86rem; }
+.tag-size-4 { font-size:.92rem; }
+.tag-size-5 { font-size:.98rem; }
+
+/* ---- Sections ---- */
+.tag-section { margin:.8rem 0 1rem; border:1px solid #eee; border-radius:.6rem; background:#fff; }
+.tag-section summary {
+  cursor:pointer; list-style:none; padding:.5rem .75rem; font-weight:600;
+  display:flex; align-items:center; gap:.5rem;
+}
+.tag-section[open] summary { border-bottom:1px solid #f0f0f0; }
+
+/* Tag chip inside summaries — same grey look */
+.tag-chip {
+  display:inline-flex; align-items:center; gap:.35rem;
+  background:#f6f7f9; border:1px solid #e6e8ec;
+  padding:.15rem .45rem; border-radius:999px; font-weight:500; font-size:.75rem; line-height:1.1;
+  color:#6b7280; /* grey font */
+}
+.tag-chip:hover { background:#f0f3f7; color:#4b5563; }
+.tag-chip:focus { outline:none; box-shadow:0 0 0 3px rgba(26,115,232,.25); }
+
+.tag-count { font-size:.72rem; opacity:.7; font-variant-numeric: tabular-nums; }
+.tag-list { padding:.5rem .75rem .75rem; }
+
+/* ---- Publication items ---- */
+.pub-list { margin:0; padding:0 0 0 1rem; }
+.pub-list li { margin:.3rem 0 .45rem; }
+.pub-list a { font-weight:600; }
+.pub-meta { font-size:.85em; color:#6b7280; display:inline; }
+.pub-authors { font-size:.85em; color:#4b5563; }
+
+/* ---- A→Z jump links ---- */
+.alpha { display:flex; flex-wrap:wrap; gap:.25rem; }
+.alpha a {
+  font-variant:all-small-caps; font-weight:600; font-size:.85rem; color:#374151; text-decoration:none;
+  padding:.05rem .3rem; border-radius:.3rem;
+}
+.alpha a:hover { background:#f1f5f9; }
+/* keep alpha neutral in visited state too */
+.alpha a:link,
+.alpha a:visited { color:#374151; }
+
+/* neutralize “#” anchor link color next to tag headings */
+.tag-section .anchor:link,
+.tag-section .anchor:visited { color:#9ca3af; }
+
+/* ---- Small text helpers ---- */
+.small { color:#6b7280; font-size:.9em; }
+.anchor { text-decoration:none; color:#9ca3af; }
+.back-top { font-size:.9em; }
+</style>
+
+{% assign rawtags = site.publications | map:'tags' | join:',' | split:',' | uniq | sort_natural %}
+
+{% assign tag_counts_csv = '' %}
+{% assign min_count = 999999 %}
+{% assign max_count = 0 %}
 {% for tag in rawtags %}
-  <tag><a href="/tags.html#{{ tag }}">{{ tag }}</a></tag>
+  {% assign count = site.publications | where_exp: "p", "p.tags contains tag" | size %}
+  {% capture tag_counts_csv %}{{ tag_counts_csv }}{{ tag }}|{{ count }},{% endcapture %}
+  {% if count > max_count %}{% assign max_count = count %}{% endif %}
+  {% if count < min_count %}{% assign min_count = count %}{% endif %}
 {% endfor %}
+{% assign tag_counts = tag_counts_csv | split: ',' %}
+{% assign range = max_count | minus: min_count %}
+{% assign step = range | divided_by: 5 %}
+{% if step == 0 %}{% assign step = 1 %}{% endif %}
 
-<h2>Tags</h2>
-<p>See below a list of all tags and the related papers</p>
+<h2>Publications by Tag</h2>
+<p>Browse tags, filter instantly, and expand a tag to see its papers.</p>
 
-{% assign sortedPublications = site.publications | sort: "authors" | sort: "year" %}
-{% for tag in rawtags %}
-  <h3>🏷 {{ tag }} <a id="{{ tag }}"></a></h3>
-  <ul>
-    {% for publication in sortedPublications %}
-      {% if publication.tags contains tag %}
-        <li>
-          <a href="{{ publication.url | prepend: site.baseurl }}">{{ publication.title }}</a>
-          {% if publication.authors %}
-            {% if publication.authors[0] %}
-              {{ publication.authors | join: ", " }}
-            {% else %}
-              {{ publication.authors }}
-            {% endif %}
-          {% endif %}
-        </li>
+<div class="controls">
+  <!-- Instant tag search -->
+  <div class="search">
+    <label for="tagSearch"><strong>Search</strong></label>
+    <input id="tagSearch" type="text" placeholder="🔍 Search…" />
+    <button id="resetSearch" type="button">Clear</button>
+    <span id="tagVisibleCount" class="small"></span>
+  </div>
+
+  <!-- A→Z jump links -->
+  {% assign initials = '' %}
+  {% for tag in rawtags %}
+    {% assign first = tag | slice: 0,1 | upcase %}
+    {% unless initials contains first %}
+      {% capture initials %}{{ initials }}{{ first }},{% endcapture %}
+    {% endunless %}
+  {% endfor %}
+  {% assign initials = initials | split: ',' | uniq | sort %}
+  <nav class="alpha" aria-label="Jump to first-letter groups">
+    {% for ch in initials %}
+      {% if ch != '' %}
+        <a href="#letter-{{ ch }}">{{ ch }}</a>
       {% endif %}
     {% endfor %}
-  </ul>
+  </nav>
+</div>
+
+<!-- Tag cloud -->
+<div id="tagCloud" class="tag-cloud">
+  {% for pair in tag_counts %}
+    {% if pair != '' %}
+      {% assign parts = pair | split: '|' %}
+      {% assign tag = parts[0] %}
+      {% assign count = parts[1] | plus: 0 %}
+      {% assign level = count | minus: min_count | divided_by: step | plus: 1 %}
+      {% if level > 5 %}{% assign level = 5 %}{% endif %}
+      {% assign first = tag | slice: 0,1 | upcase %}
+      <a class="tag-entry tag-size-{{ level }}" data-name="{{ tag | downcase }}" data-initial="{{ first }}" href="#{{ tag | uri_escape }}">
+        {{ tag }} <span class="tag-badge">({{ count }})</span>
+      </a>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<h2>Tags</h2>
+<p class="small">Expand a tag to view all related publications.</p>
+
+{% assign sortedPublications = site.publications | sort: "year" | reverse %}
+
+{% assign current_initial = '' %}
+{% for pair in tag_counts %}
+  {% if pair != '' %}
+    {% assign parts = pair | split: '|' %}
+    {% assign tag = parts[0] %}
+    {% assign count = parts[1] | plus: 0 %}
+
+    {% assign first = tag | slice: 0,1 | upcase %}
+    {% if first != current_initial %}
+      {% unless forloop.first %}
+        <div style="height:.4rem;"></div>
+      {% endunless %}
+      <h3 id="letter-{{ first }}" class="small">— {{ first }} —</h3>
+      {% assign current_initial = first %}
+    {% endif %}
+
+    <details class="tag-section" id="{{ tag }}">
+      <summary>
+        <span class="tag-chip">{{ tag }}</span>
+        <span class="tag-count">{{ count }} paper{% if count != 1 %}s{% endif %}</span>
+        <a class="anchor" href="#{{ tag }}" title="Copy link" aria-label="Copy direct link">#</a>
+      </summary>
+      <div class="tag-list">
+        <ul class="pub-list">
+          {% for publication in sortedPublications %}
+            {% if publication.tags contains tag %}
+              <li>
+                <a href="{{ publication.url | relative_url }}">{{ publication.title }}</a>
+                <span class="pub-meta">
+                  {% if publication.year %} ({{ publication.year }}){% endif %}
+                  {% if publication.conference %} • {{ publication.conference }}{% endif %}
+                  {% if publication.citations %} • {{ publication.citations }} citations{% endif %}
+                </span>
+                {% if publication.authors %}
+                  <div class="pub-authors">
+                    {% assign a_count = publication.authors | size %}
+                    {% if a_count > 0 %}
+                      {% assign shown_authors = publication.authors | slice: 0, 3 | join: ", " %}
+                      {{ shown_authors }}{% if a_count > 3 %} et&nbsp;al.{% endif %}
+                    {% else %}
+                      {{ publication.authors }}
+                    {% endif %}
+                  </div>
+                {% endif %}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <div class="back-top"><a href="#top">Back to top ↑</a></div>
+      </div>
+    </details>
+  {% endif %}
 {% endfor %}
+
+<script>
+(function(){
+  const input = document.getElementById('tagSearch');
+  const resetBtn = document.getElementById('resetSearch');
+  const entries = Array.from(document.querySelectorAll('.tag-entry'));
+  const visibleCount = document.getElementById('tagVisibleCount');
+
+  function updateVisibleCount() {
+    const n = entries.filter(el => el.style.display !== 'none').length;
+    visibleCount.textContent = n + ' tag' + (n === 1 ? '' : 's');
+  }
+
+  function filter() {
+    const q = (input.value || '').trim().toLowerCase();
+    entries.forEach(el => {
+      const name = el.dataset.name;
+      el.style.display = (!q || name.includes(q)) ? '' : 'none';
+    });
+    updateVisibleCount();
+  }
+
+  input.addEventListener('input', filter);
+
+  resetBtn.addEventListener('click', () => {
+    input.value = '';
+    filter();
+    input.focus();
+  });
+
+  /* Keep keyboard niceties; no on-page tip text shown */
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+      e.preventDefault();
+      input.focus();
+    } else if (e.key === 'Escape') {
+      input.value = '';
+      filter();
+    }
+  });
+
+  function openHashTarget() {
+    const id = decodeURIComponent(location.hash.replace('#',''));
+    if (!id) return;
+    const details = document.getElementById(id);
+    if (details && details.tagName.toLowerCase() === 'details') {
+      details.open = true;
+      details.scrollIntoView({behavior:'smooth', block:'start'});
+    }
+  }
+  window.addEventListener('hashchange', openHashTarget);
+  openHashTarget();
+  updateVisibleCount();
+})();
+</script>
