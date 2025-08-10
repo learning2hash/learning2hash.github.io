@@ -1,58 +1,314 @@
 ---
 layout: default
-title: Explore Learning to Hash papers with Topics
-description: A topic model for the papers in the Learning to Hash survey
+title: Explore Learning to Hash Papers by Topic
+description: Interactive topic model explorer — adjust topic weights to see the most relevant papers
 ---
-<h2>Topic-based Explorer</h2>
-<p>Using topic-modelling the following topics have been extracted. The top stemmed words apprear below. 
-  Please change the slider to present the papers that mostly related to the appropriate topics</p>
-<div id="topicslider">
-</div>
+
+<h2>Topic Explorer</h2>
 <p>
-<ul id="toppapers">
+  This page uses topic modelling to group Learning to Hash papers by their most important themes.  
+  Use the sliders to change topic importance and see the top matching papers update instantly.
+</p>
+
+<!-- Topic Filters (expanded by default) -->
+<details id="topicPanel" class="topic-panel" open>
+  <summary>
+    <span class="summary-left">
+      <!-- Chevron icon (rotates when open) -->
+      <svg class="summary-caret" width="14" height="14" viewBox="0 0 20 20" aria-hidden="true">
+        <path d="M7 5l6 5-6 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <span><strong>Topic weights</strong></span>
+    </span>
+    <span class="summary-meta">
+      <span id="activeSummary" class="small" aria-live="polite">No active weights</span>
+      <span id="expandHint" class="summary-hint" aria-hidden="true">Click to collapse</span>
+    </span>
+  </summary>
+
+  <div class="topic-actions">
+    <button id="resetAll" type="button" aria-label="Reset all topic sliders">Reset all</button>
+  </div>
+
+  <!-- Topic controls -->
+  <div id="topicslider" class="topic-grid" aria-live="polite"></div>
+</details>
+
+<ul id="toppapers" class="pub-list">
   <li>Please move the sliders to look at the papers.</li>
 </ul>
-</p>
+
+<style>
+  /* Panel */
+  .topic-panel {
+    border: 1px solid #ececf2; border-radius: .75rem; background: #fff; margin: .5rem 0 1rem;
+    width: 100%;
+  }
+  .topic-panel > summary {
+    list-style: none; cursor: pointer;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: .75rem; padding: .6rem .75rem; font-weight: 600;
+    user-select: none;
+  }
+  .topic-panel > summary:hover { background: #fafbff; }
+  .topic-panel > summary:focus-visible {
+    outline: none; box-shadow: inset 0 0 0 3px rgba(26,115,232,.25); border-radius: .7rem;
+  }
+  .topic-panel[open] > summary { border-bottom: 1px solid #f0f0f0; }
+
+  .summary-left { display:flex; align-items:center; gap:.5rem; }
+  .summary-caret { transition: transform .18s ease; transform-origin: 50% 50%; }
+  .topic-panel[open] .summary-caret { transform: rotate(90deg); }
+
+  .summary-meta { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; }
+  .summary-meta .small { font-weight: 400; }
+  .summary-hint { color:#6b7280; font-size:.85rem; opacity:.9; }
+
+  /* First-load nudge */
+  @keyframes nudge {
+    0%,100% { transform: translateX(0); }
+    30% { transform: translateX(2px); }
+    60% { transform: translateX(-2px); }
+  }
+  .topic-panel.nudge .summary-caret { animation: nudge 700ms ease-in-out 2; }
+
+  /* Actions row */
+  .topic-actions { display:flex; align-items:center; gap:.5rem; padding:.5rem .75rem 0; }
+  #resetAll { padding:.3rem .55rem; }
+
+  /* Topic grid — fill available horizontal space */
+  .topic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* responsive fill */
+    gap: .6rem .7rem;
+    padding: .6rem .75rem .8rem;
+    max-height: none;
+    overflow: visible;
+    width: 100%;
+  }
+  @media (min-width: 1100px) {
+    .topic-grid { grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); }
+  }
+  @media (min-width: 1400px) {
+    .topic-grid { grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); }
+  }
+
+  /* Compact topic row, slider column stretches */
+  .topic-row {
+    display: grid;
+    grid-template-columns: 1fr minmax(180px, 1fr) auto; /* label | slider grows | value */
+    align-items: center;
+    gap: .45rem .6rem;
+    background: #fff;
+    border-radius: .6rem;
+    border: 1px solid #ececf2;
+    padding: .35rem .5rem;
+    width: 100%;
+  }
+
+  /* Wider pill */
+  .topic-row .tag-chip {
+    text-decoration: none;
+    border-radius: 999px;
+    padding: .1rem .5rem;
+    background: #f6f7f9;
+    border: 1px solid #e6e8ec;
+    display: inline-flex;
+    align-items: center;
+    gap: .25rem;
+    font-size: .65rem;
+    line-height: 1.2;
+    color: inherit;
+    white-space: nowrap;
+    max-width: 60ch;      /* allow longer */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .topic-row .tag-chip:hover { background: #f0f3f7; }
+
+  /* Slider now fills its grid track */
+  .topic-row input[type="range"] {
+    width: 100%;
+    -webkit-appearance: none; appearance: none;
+    height: 8px; border-radius: 999px;
+    background: linear-gradient(90deg, #ddd, #eee);
+    vertical-align: middle;
+  }
+  .topic-row input[type="range"]:focus { outline: none; }
+  .topic-row input[type="range"]:focus-visible { box-shadow: 0 0 0 3px #1a73e84d; }
+  .topic-row input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; appearance: none;
+    width: 14px; height: 14px; border-radius: 50%;
+    background: #1a73e8; border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #1a73e880; cursor: grab;
+  }
+  .topic-row input[type="range"]::-moz-range-thumb {
+    width: 14px; height: 14px; border-radius: 50%;
+    background: #1a73e8; border: 2px solid #fff;
+    box-shadow: 0 0 0 2px #1a73e880; cursor: grab;
+  }
+  .topic-row .val {
+    min-width: 2ch; text-align: right; font-variant-numeric: tabular-nums;
+    font-size: .78rem; opacity: .8;
+  }
+
+  /* Publications list — make it a responsive grid */
+  .pub-list {
+    margin: 0; padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: .5rem .8rem;
+    width: 100%;
+  }
+  @media (min-width: 1200px) {
+    .pub-list { grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); }
+  }
+  .pub-list li {
+    list-style: none;
+    margin: 0;
+  }
+  .pub-list a { font-weight: 600; }
+  .small { color:#6b7280; font-size:.9em; }
+</style>
+
 <script>
   var all_papers = null;
   var num_topics = -1;
 
-  $(document).ready(
-    function() {
-      $.getJSON('/topics.json', function(data) {
-        all_papers=data.paper_data;
-        num_topics = data.topics.length;
-        html = "";
-        for (let i=0; i < num_topics; i++) {
-            html += '<tag style="white-space: nowrap;">'+ data.topics[i].join(", ") +' <input type="range" min="0" max="10" value="0" style="width:50px" id="topicSlider'+i+'"></tag> '
-        }
-        $("#topicslider").append(html);
-        for (let i=0; i < num_topics; i++) {
-          $("#topicSlider"+i).on("change", renderPapers);
-        }
-      });
-    });
+  function makeTopicRow(words, idx) {
+    const id = 'topicSlider' + idx;
+    const label = words.join(', ');
+    return `
+      <div class="topic-row" data-idx="${idx}" data-text="${label.toLowerCase()}">
+        <span class="tag-chip" title="${label}">${label}</span>
+        <input type="range" min="0" max="10" value="0" id="${id}" aria-label="Weight for topic ${idx+1}: ${label}">
+        <span class="val" id="${id}Val">0</span>
+      </div>
+    `;
+  }
+
+  function hasActiveWeights() {
+    for (let i = 0; i < num_topics; i++) {
+      const w = Number(document.getElementById('topicSlider' + i).value) || 0;
+      if (w > 0) return true;
+    }
+    return false;
+  }
 
   function scorePaper(paper_id) {
     let score = 0;
-    topic_dist = all_papers[paper_id].topic_distr;
-    for (let i=0; i < num_topics; i++) {
-      score += $("#topicSlider"+i).val() * topic_dist[i];
+    const topic_dist = all_papers[paper_id].topic_distr;
+    for (let i = 0; i < num_topics; i++) {
+      const w = Number(document.getElementById('topicSlider' + i).value) || 0;
+      score += w * (topic_dist[i] || 0);
     }
     return score;
   }
 
-  function renderPapers(e, u) {
-    paper_idxs = [];
-    for (let i=0; i < all_papers.length; i++) {
-      paper_idxs.push([i, scorePaper(i)]);
+  function updateActiveSummary() {
+    const parts = [];
+    for (let i = 0; i < num_topics; i++) {
+      const w = Number(document.getElementById('topicSlider' + i).value) || 0;
+      if (w > 0) parts.push(`#${i+1}:${w}`);
     }
-    paper_idxs = paper_idxs.sort(function(a,b){return b[1] - a[1]});
-    
-    $("#toppapers").text("");
-    for (let i=0; i < 20; i++) {
-      data = all_papers[paper_idxs[i][0]];
-      $("#toppapers").append("<li><a href='/publications/"+data.key+"'>"+ data.title +"</a>. " + data.year + "</li>");
-    }
+    document.getElementById('activeSummary').textContent =
+      parts.length ? `Active weights: ${parts.join('  ')}` : 'No active weights';
   }
+
+  function renderPapers() {
+    const $list = $("#toppapers").empty();
+
+    if (!hasActiveWeights()) {
+      $list.append('<li>Please move the sliders to look at the papers.</li>');
+      updateActiveSummary();
+      return;
+    }
+
+    const N = 20;
+    const paper_idxs = [];
+    let maxScore = 0;
+
+    for (let i = 0; i < all_papers.length; i++) {
+      const s = scorePaper(i);
+      paper_idxs.push([i, s]);
+      if (s > maxScore) maxScore = s;
+    }
+
+    if (maxScore <= 0) {
+      $list.append('<li>No matches for the current topic weights. Try increasing one or two sliders.</li>');
+      updateActiveSummary();
+      return;
+    }
+
+    paper_idxs.sort((a, b) => b[1] - a[1]);
+
+    for (let i = 0; i < Math.min(N, paper_idxs.length); i++) {
+      const data = all_papers[paper_idxs[i][0]];
+      $list.append(
+        `<li><a href="/publications/${data.key}">${data.title}</a>. ${data.year || ''}</li>`
+      );
+    }
+    updateActiveSummary();
+  }
+
+  function resetAll() {
+    for (let i = 0; i < num_topics; i++) {
+      const el = document.getElementById('topicSlider' + i);
+      el.value = 0;
+      document.getElementById('topicSlider' + i + 'Val').textContent = '0';
+    }
+    renderPapers();
+  }
+
+  $(document).ready(function() {
+    $.getJSON('/topics.json', function(data) {
+      all_papers = data.paper_data;
+      num_topics = data.topics.length;
+
+      // Build the grid
+      let html = '';
+      for (let i = 0; i < num_topics; i++) {
+        html += makeTopicRow(data.topics[i], i);
+      }
+      $("#topicslider").html(html);
+
+      // Slider events
+      for (let i = 0; i < num_topics; i++) {
+        const id = 'topicSlider' + i;
+        $("#" + id).on("input change", function() {
+          document.getElementById(id + 'Val').textContent = String(this.value);
+          renderPapers();
+        });
+      }
+
+      // Reset
+      $("#resetAll").on("click", resetAll);
+
+      // First render
+      renderPapers();
+
+      // Keep the panel OPEN by default
+      const panel = document.getElementById('topicPanel');
+      panel.open = true;
+
+      // Nudge + hint
+      panel.classList.add('nudge');
+      setTimeout(() => panel.classList.remove('nudge'), 1600);
+
+      const hint = document.getElementById('expandHint');
+      function syncHint() {
+        hint.textContent = panel.open ? 'Click to collapse' : 'Click to expand';
+      }
+      syncHint();
+      panel.addEventListener('toggle', syncHint);
+    });
+  });
+
+  // Keyboard shortcuts
+  document.addEventListener('keydown', (e) => {
+    if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'r') {
+      e.preventDefault();
+      resetAll();
+    }
+  });
 </script>
