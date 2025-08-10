@@ -6,40 +6,66 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
 <h2>Topic Explorer</h2>
 <p>
-  This page uses topic modelling to group Learning to Hash papers by their most important themes.  
+  This page uses topic modelling to group Learning to Hash  papers by their most important themes.
   Use the sliders to change topic importance and see the top matching papers update instantly.
 </p>
 
-<!-- Topic Filters (expanded by default) -->
-<details id="topicPanel" class="topic-panel" open>
-  <summary>
-    <span class="summary-left">
-      <!-- Chevron icon (rotates when open) -->
-      <svg class="summary-caret" width="14" height="14" viewBox="0 0 20 20" aria-hidden="true">
-        <path d="M7 5l6 5-6 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-      </svg>
-      <span><strong>Topic weights</strong></span>
-    </span>
-    <span class="summary-meta">
-      <span id="activeSummary" class="small" aria-live="polite">No active weights</span>
-      <span id="expandHint" class="summary-hint" aria-hidden="true">Click to collapse</span>
-    </span>
-  </summary>
+<!-- ===== Full-bleed Topic Panel ===== -->
+<div class="full-bleed">
+  <div class="inner">
+    <!-- Topic Filters (expanded by default) -->
+    <details id="topicPanel" class="topic-panel" open>
+      <summary>
+        <span class="summary-left">
+          <!-- Chevron icon (rotates when open) -->
+          <svg class="summary-caret" width="14" height="14" viewBox="0 0 20 20" aria-hidden="true">
+            <path d="M7 5l6 5-6 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg>
+          <span><strong>Topic weights</strong></span>
+        </span>
+        <span class="summary-meta">
+          <span id="activeSummary" class="small" aria-live="polite">No active weights</span>
+          <span id="expandHint" class="summary-hint" aria-hidden="true">Click to collapse</span>
+        </span>
+      </summary>
 
-  <div class="topic-actions">
-    <button id="resetAll" type="button" aria-label="Reset all topic sliders">Reset all</button>
+      <div class="topic-actions">
+        <button id="resetAll" type="button" aria-label="Reset all topic sliders">Reset all</button>
+      </div>
+
+      <!-- Topic controls -->
+      <div id="topicslider" class="topic-grid" aria-live="polite"></div>
+    </details>
   </div>
+</div>
 
-  <!-- Topic controls -->
-  <div id="topicslider" class="topic-grid" aria-live="polite"></div>
-</details>
-
-<ul id="toppapers" class="pub-list">
-  <li>Please move the sliders to look at the papers.</li>
-</ul>
+<!-- ===== Full-bleed Results ===== -->
+<div class="full-bleed">
+  <div class="inner">
+    <ul id="toppapers" class="pub-list">
+      <li>Please move the sliders to look at the papers.</li>
+    </ul>
+  </div>
+</div>
 
 <style>
-  /* Panel */
+  /* ========= Full-bleed utilities ========= */
+  .full-bleed {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+  .full-bleed .inner {
+    max-width: 1400px;   /* adjust to taste */
+    margin: 0 auto;
+    padding: 0 12px;     /* subtle gutter */
+  }
+  .full-bleed, .full-bleed * { overflow: visible; }
+
+  /* ========= Panel ========= */
   .topic-panel {
     border: 1px solid #ececf2; border-radius: .75rem; background: #fff; margin: .5rem 0 1rem;
     width: 100%;
@@ -74,26 +100,27 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
   /* Actions row */
   .topic-actions { display:flex; align-items:center; gap:.5rem; padding:.5rem .75rem 0; }
-  #resetAll { padding:.3rem .55rem; }
+  #resetAll {
+    padding:.3rem .55rem; border:1px solid #d9dbe3; border-radius:.4rem; background:#f8f9fb; cursor:pointer;
+  }
+  #resetAll:hover { background:#eef2f7; }
 
-  /* Topic grid — fill available horizontal space */
+  /* ========= Topic grid — fill available horizontal space ========= */
   .topic-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* responsive fill */
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* packs tighter than auto-fit */
     gap: .6rem .7rem;
     padding: .6rem .75rem .8rem;
-    max-height: none;
-    overflow: visible;
     width: 100%;
   }
-  @media (min-width: 1100px) {
-    .topic-grid { grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); }
+  @media (min-width: 1200px) {
+    .topic-grid { grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); }
   }
-  @media (min-width: 1400px) {
-    .topic-grid { grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); }
+  @media (min-width: 1600px) {
+    .topic-grid { grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); }
   }
 
-  /* Compact topic row, slider column stretches */
+  /* ========= Topic row ========= */
   .topic-row {
     display: grid;
     grid-template-columns: 1fr minmax(180px, 1fr) auto; /* label | slider grows | value */
@@ -106,7 +133,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
     width: 100%;
   }
 
-  /* Wider pill */
+  /* Wider pill label */
   .topic-row .tag-chip {
     text-decoration: none;
     border-radius: 999px;
@@ -120,13 +147,13 @@ description: Interactive topic model explorer — adjust topic weights to see th
     line-height: 1.2;
     color: inherit;
     white-space: nowrap;
-    max-width: 60ch;      /* allow longer */
+    max-width: 60ch;
     overflow: hidden;
     text-overflow: ellipsis;
   }
   .topic-row .tag-chip:hover { background: #f0f3f7; }
 
-  /* Slider now fills its grid track */
+  /* Slider track fills its column */
   .topic-row input[type="range"] {
     width: 100%;
     -webkit-appearance: none; appearance: none;
@@ -152,22 +179,21 @@ description: Interactive topic model explorer — adjust topic weights to see th
     font-size: .78rem; opacity: .8;
   }
 
-  /* Publications list — make it a responsive grid */
+  /* ========= Publications list — responsive grid ========= */
   .pub-list {
     margin: 0; padding-left: 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
     gap: .5rem .8rem;
     width: 100%;
   }
-  @media (min-width: 1200px) {
-    .pub-list { grid-template-columns: repeat(auto-fit, minmax(440px, 1fr)); }
+  @media (min-width: 1400px) {
+    .pub-list { grid-template-columns: repeat(auto-fill, minmax(440px, 1fr)); }
   }
-  .pub-list li {
-    list-style: none;
-    margin: 0;
-  }
+  .pub-list li { list-style: none; margin: 0; }
   .pub-list a { font-weight: 600; }
+
+  /* ========= Small text helpers ========= */
   .small { color:#6b7280; font-size:.9em; }
 </style>
 
