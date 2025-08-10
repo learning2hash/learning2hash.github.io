@@ -14,18 +14,57 @@ A curated and continuously updated collection of academic papers on hashing-base
 
 ---
 
+<!-- === MATCH 'Publications by Tag' CHIP STYLE === -->
+<style>
+.tag-cloud {
+  display:flex;
+  flex-wrap:wrap;
+  gap:.5rem .75rem;
+  margin:.4rem 0 .8rem;
+}
+.tag-cloud a {
+  text-decoration:none;
+  border-radius:999px;
+  padding:.15rem .45rem;
+  background:#f6f7f9;
+  border:1px solid #e6e8ec;
+  display:inline-flex;
+  align-items:center;
+  gap:.35rem;
+  font-size:.75rem;
+  line-height:1.1;
+  color:#6b7280;
+  font-weight:500;
+}
+.tag-cloud a:hover { background:#f0f3f7; color:#4b5563; }
+.tag-cloud a:focus { outline:none; box-shadow:0 0 0 3px rgba(26,115,232,.25); }
+.tag-cloud a,
+.tag-cloud a:link,
+.tag-cloud a:visited,
+.tag-cloud a:hover,
+.tag-cloud a:active {
+  color:#6b7280 !important;
+  text-decoration:none !important;
+}
+</style>
+
+---
+
 ### 🏷 Browse Papers by Tag
 
-Explore the latest research by browsing papers categorized by tags. Select a tag below to dive deeper into specific topics within the field of learning to hash:
+<p>Explore the latest research by browsing papers categorized by tags. Select a tag below to dive deeper into specific topics within the field of learning to hash:</p>
 
+<div class="tag-cloud">
 {% assign rawtags = Array.new %}
 {% for publication in site.publications %}
-  {% assign ttags = publication.tags  %}  
-  {% assign rawtags = rawtags | concat: ttags %}  
+  {% assign ttags = publication.tags %}
+  {% assign rawtags = rawtags | concat: ttags %}
 {% endfor %}
 {% assign rawtags = rawtags | uniq | sort %}
-{% for tag in rawtags %}<tag><a href="/tags.html#{{ tag }}">{{ tag }}</a></tag> {% endfor %}
-
+{% for tag in rawtags %}
+  <a href="/tags.html#{{ tag | uri_escape }}">{{ tag }}</a>
+{% endfor %}
+</div>
 ---
 
 ### 📚 What This Site Offers
