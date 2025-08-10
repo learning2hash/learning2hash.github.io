@@ -3,9 +3,8 @@ layout: default
 title: Explore Learning to Hash papers by Author
 description: Explore prolific authors and their contributions across Learning to Hash research
 ---
-
-<h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
-<p style="font-size: 1.1em;">
+<h2>Author Explorer</h2>
+<p>
   Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by
   community, and click “View” to explore each author’s co-author graph.
 </p>
@@ -15,17 +14,14 @@ description: Explore prolific authors and their contributions across Learning to
   <span
     title="Betweenness centrality measures how often an author lies on the shortest paths between others. High values suggest strategic or well-connected positions.">betweenness</span>,
   indicating strong connectivity.
+</p>
 
 <p style="font-size: 0.95em;">
   ℹ️ Hover over author names or nodes to view detailed stats, including paper count, total citations, unique co-authors,
-
   <span class="hover-explainer" title="Number of direct co-author connections.">degree</span>,
-
   <span class="hover-explainer"
     title="How close the author is, on average, to all other authors in the network. A higher score means shorter paths to others and quicker access to information.">closeness</span>,
-
   <span class="hover-explainer" title="How interconnected the author's collaborators are.">clustering</span>,
-
   <span class="hover-explainer"
     title="Measures how often an author appears on the shortest path between other pairs of authors. High betweenness suggests the author plays a key bridging role, connecting otherwise distant parts of the network.">betweenness</span>,
   and active years.
@@ -35,6 +31,7 @@ description: Explore prolific authors and their contributions across Learning to
 <div id="loading">
   <p>Loading Author Network...</p>
 </div>
+
 <table id="author-table" class="display stripe hover" style="width:100%; display:none;">
   <thead>
     <tr>
@@ -54,6 +51,7 @@ description: Explore prolific authors and their contributions across Learning to
   </thead>
   <tbody></tbody>
 </table>
+
 <!-- Modals -->
 <div id="network-modal" role="dialog" aria-modal="true"
   style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000; box-shadow:0 4px 20px rgba(0,0,0,0.2); border-radius:10px;">
@@ -61,29 +59,30 @@ description: Explore prolific authors and their contributions across Learning to
     style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
   <svg id="network-svg" width="100%" height="100%"></svg>
 </div>
+
 <div id="papers-modal" role="dialog" aria-modal="true"
-  style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
+  style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0, 0, 0, 0.2); z-index:10001;">
   <button id="papers-close" aria-label="Close papers list"
     style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
   <h3 id="papers-title">Sample Papers by Author</h3>
   <ul id="papers-list" style="font-size:0.95em;"></ul>
 </div>
+
 <!-- External CSS -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css" />
 <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" />
+
 <style>
-  .tooltip-wrapper {
-    position: relative;
-    display: inline-block;
-  }
+  .tooltip-wrapper { position: relative; display: inline-block; }
 
   .hover-explainer {
-	  text-decoration: dotted underline;
-	  cursor: help;
-	  color: #0056b3;
-	  font-weight: 500;
-   }
+    text-decoration: dotted underline;
+    cursor: help;
+    color: #0056b3;
+    font-weight: 500;
+  }
+
   .tooltip-content {
     visibility: hidden;
     background-color: #f9f9f9;
@@ -97,16 +96,12 @@ description: Explore prolific authors and their contributions across Learning to
     width: max-content;
     max-width: 280px;
     top: 120%;
-    /* push below element */
     left: 0;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     font-size: 0.85em;
     white-space: pre-line;
   }
-
-  .tooltip-wrapper:hover .tooltip-content {
-    visibility: visible;
-  }
+  .tooltip-wrapper:hover .tooltip-content { visibility: visible; }
 
   #author-table tbody td:nth-child(2) {
     cursor: pointer;
@@ -114,35 +109,55 @@ description: Explore prolific authors and their contributions across Learning to
     text-decoration: underline;
   }
 
-  #network-modal,
-  #papers-modal {
-    transition: opacity 0.3s ease;
-  }
-
-  #network-modal {
-    overflow: auto;
-  }
+  #network-modal, #papers-modal { transition: opacity 0.3s ease; }
+  #network-modal { overflow: auto; }
 
   #loading {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.5em;
-    text-align: center;
-    z-index: 1000;
-    background: white;
-    padding: 1em 2em;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    font-size: 1.5em; text-align: center; z-index: 1000;
+    background: white; padding: 1em 2em; border: 1px solid #ccc;
+    border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);
   }
 
-  .highlight {
-    background-color: #fffbcc !important;
-    transition: background-color 0.5s ease;
+  .highlight { background-color: #fffbcc !important; transition: background-color 0.5s ease; }
+
+  /* === Compact DataTables search + reset (same look/feel as other pages) === */
+  .dataTables_wrapper .dataTables_filter {
+    float: none !important;
+    text-align: left !important;
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    margin: 0 0 .5rem 0;
+    padding: 0;
+    width: 100%;
+    flex-wrap: wrap;
   }
+  #author-table_filter label { font-weight:700; font-size:.85rem; display:flex; align-items:center; gap:.6rem; }
+  #author-table_filter input {
+    width: 200px;
+    padding: .25rem .4rem;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: .85rem;
+    background-color: #f8f9fa;
+  }
+  #author-table_filter input:focus {
+    outline: none;
+    border-color: #0c5fce;
+    box-shadow: 0 0 0 2px rgba(26,115,232,.25);
+  }
+  #resetSearchAuthors {
+    padding: .25rem .4rem;
+    font-size: .85rem;
+    border-radius: 4px;
+    border: 1px solid #aaa;
+    background: #f0f0f0;
+    cursor: pointer;
+  }
+  #resetSearchAuthors:hover { background: #e2e2e2; }
 </style>
+
 <!-- JS Dependencies -->
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
@@ -151,6 +166,7 @@ description: Explore prolific authors and their contributions across Learning to
 <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/jquery-sparkline@2.4.0/jquery.sparkline.min.js"></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
+
 <!-- Main Script -->
 <script>
   let authorData;
@@ -166,9 +182,7 @@ description: Explore prolific authors and their contributions across Learning to
     .catch(err => {
       console.error('Error loading author stats', err);
       $('#loading').hide();
-      $('#author-table').after(`
-  		<div style="color:red; margin-top:10px;">Error loading author data.</div>
-	  `);
+      $('#author-table').after('<div style="color:red; margin-top:10px;">Error loading author data.</div>');
     });
 
   function toTitleCase(name) {
@@ -177,6 +191,7 @@ description: Explore prolific authors and their contributions across Learning to
       .map(word => word.charAt(0).toUpperCase() + word.slice(1))
       .join(' ');
   }
+
   function initAuthorTable(data) {
     const authors = Object.keys(data).filter(name => name.trim().split(/\s+/).length > 1);
     const communities = [...new Set(authors.map(a => data[a].community))];
@@ -193,33 +208,36 @@ description: Explore prolific authors and their contributions across Learning to
       const border = (info.betweenness || 0) > threshold ? ' border:2px solid red;' : '';
       const googleQuery = encodeURIComponent(`${author} AI`);
       const displayName = toTitleCase(author);
+
       const nameCell = `
-		  <span class="tooltip-wrapper">
-		    <a href="https://www.google.com/search?q=${googleQuery}" target="_blank" rel="noopener"
-		       class="author-name"
-		       data-author="${author}"
-		       style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px; text-decoration:none; color:black; display:inline-block;${border}">
-		      ${displayName}
-		    </a>
-		    <span class="tooltip-content">
-		      ${author}<br>
-		      📄 Papers: ${info.paper_count ?? '—'}<br>
-		      📊 Citations: ${info.total_citations ?? '—'}<br>
-		      👥 Co-authors: ${info.coauthor_count ?? '—'}<br>
-		      🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}<br>
-		      🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}<br>
-		      🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}<br>
-		      🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}<br>
-		      ⏳ Active Years: ${info.age ?? '—'}
-		    </span>
-		  </span>`;
-      const tagsHtml = info.tags.map(tag => {
+        <span class="tooltip-wrapper">
+          <a href="https://www.google.com/search?q=${googleQuery}" target="_blank" rel="noopener"
+            class="author-name"
+            data-author="${author}"
+            style="cursor:pointer; background:${color(info.community)}; padding:2px 6px; border-radius:4px; text-decoration:none; color:black; display:inline-block;${border}">
+            ${displayName}
+          </a>
+          <span class="tooltip-content">
+            ${author}<br>
+            📄 Papers: ${info.paper_count ?? '—'}<br>
+            📊 Citations: ${info.total_citations ?? '—'}<br>
+            👥 Co-authors: ${info.coauthor_count ?? '—'}<br>
+            🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}<br>
+            🔄 Clustering: ${info.clustering?.toFixed(2) ?? '—'}<br>
+            🔀 Betweenness: ${info.betweenness?.toFixed(4) ?? '—'}<br>
+            🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}<br>
+            ⏳ Active Years: ${info.age ?? '—'}
+          </span>
+        </span>`;
+
+      const tagsHtml = (info.tags || []).map(tag => {
         const frag = encodeURIComponent(tag);
         return `
-	<a href="https://learning2hash.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;">
-		<span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>
-	</a>`;
+          <a href="https://awesome-llm-papers.github.io/tags.html#${frag}" target="_blank" rel="noopener" style="text-decoration:none; display:inline-block;">
+            <span style="background:#f2f2f2; padding:2px 6px; border-radius:5px; margin-right:4px;">🏷️ ${tag}</span>
+          </a>`;
       }).join(' ');
+
       return [
         nameCell,
         info.paper_count,
@@ -230,11 +248,9 @@ description: Explore prolific authors and their contributions across Learning to
         info.clustering?.toFixed(2) ?? '—',
         info.betweenness?.toFixed(4) ?? '—',
         info.age ?? '—',
-        `
-	<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
+        `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
         tagsHtml,
-        `
-	<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
+        `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
       ];
     });
 
@@ -259,10 +275,29 @@ description: Explore prolific authors and their contributions across Learning to
         { responsivePriority: 10, targets: 6 },
         { responsivePriority: 11, targets: 7 },
         { responsivePriority: 12, targets: 8 },
-      ]
+      ],
+      initComplete: function () {
+        // Placeholder
+        const $filter = $('#author-table_filter');
+        const $label = $filter.find('label');
+        const $input = $label.find('input');
+        $input.attr('placeholder', '🔍 Search authors…');
+
+        // Add Reset button to the right of the search input (same row)
+        if (!document.getElementById('resetSearchAuthors')) {
+          $('<button id="resetSearchAuthors" type="button">Clear</button>').insertAfter($input);
+        }
+
+        // Reset behavior: clear global search and refocus
+        $('#resetSearchAuthors').on('click', function(){
+          $input.val('');
+          table.search('').columns().search('').draw();
+          $input.trigger('focus');
+        });
+      }
     });
 
-    // ✅ Listen for the visibility menu being shown
+    // Column visibility tooltip wiring
     $(document).on('click', '.buttons-columnVisibility', function () {
       setTimeout(() => {
         $('.dt-button-collection .buttons-columnVisibility').each(function () {
@@ -281,14 +316,12 @@ description: Explore prolific authors and their contributions across Learning to
             "🏷️ Tags": "Research areas the author contributes to",
             "🔗 Network": "Visualize co-author network"
           };
-
           const tooltip = tooltipMap[label];
-          if (tooltip) {
-            $(this).attr('title', tooltip);
-          }
+          if (tooltip) $(this).attr('title', tooltip);
         });
-      }, 50); // slight delay ensures dropdown is rendered
+      }, 50);
     });
+
     function drawSparks() {
       $('.sparkline').each(function () {
         const $el = $(this);
@@ -322,9 +355,9 @@ description: Explore prolific authors and their contributions across Learning to
       const info = data[author];
       $('#papers-title').text(`📄 Sample Papers by ${toTitleCase(author)}`);
       $('#papers-list').html((info.papers || []).map(p => `
-	    <li>
-	      <a href="https://learning2hash.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})
-	    </li>`).join(''));
+        <li>
+          <a href="https://awesome-llm-papers.github.io/publications/${p.bibkey}/" target="_blank" rel="noopener">${p.title}</a> (${p.year})
+        </li>`).join(''));
       $('#papers-modal').show();
     });
 
@@ -344,11 +377,7 @@ description: Explore prolific authors and their contributions across Learning to
       if (!authorData[id] || visited.has(id)) continue;
       visited.add(id);
 
-      const node = {
-        id,
-        depth
-      };
-
+      const node = { id, depth };
       nodes.push(node);
       nodeIndex.set(id, node);
 
@@ -359,7 +388,6 @@ description: Explore prolific authors and their contributions across Learning to
           if (!links.some(l => (l.source === id && l.target === co) || (l.source === co && l.target === id))) {
             links.push({ source: id, target: co });
           }
-
           if (!visited.has(co) && !queue.some(q => q.id === co)) {
             queue.push({ id: co, depth: depth + 1 });
           }
@@ -381,9 +409,7 @@ description: Explore prolific authors and their contributions across Learning to
 
     const zoom = d3.zoom()
       .scaleExtent([0.5, 2])
-      .on('zoom', event => {
-        zoomGroup.attr('transform', event.transform);
-      });
+      .on('zoom', event => { zoomGroup.attr('transform', event.transform); });
 
     svg.call(zoom);
 
@@ -391,9 +417,9 @@ description: Explore prolific authors and their contributions across Learning to
     const { width: w, height: h } = svg.node().getBoundingClientRect();
 
     const sim = d3.forceSimulation(nodes)
-      .force('link', d3.forceLink(links).id(d => d.id).distance(280))     // ⬅️ Increase this
-      .force('charge', d3.forceManyBody().strength(-400))                // ⬅️ More negative = more spacing
-      .force('collision', d3.forceCollide().radius(d => 18).strength(1)) // ⬅️ Bump up the radius
+      .force('link', d3.forceLink(links).id(d => d.id).distance(280))
+      .force('charge', d3.forceManyBody().strength(-400))
+      .force('collision', d3.forceCollide().radius(d => 18).strength(1))
       .force('center', d3.forceCenter(w / 2, h / 2));
 
     zoomGroup.append('g').selectAll('line').data(links).enter().append('line')
@@ -404,29 +430,30 @@ description: Explore prolific authors and their contributions across Learning to
       .attr('fill', d => d3.schemePastel1[authorData[d.id]?.community % 10])
       .attr('stroke', d => d.id === author ? 'red' : '#333')
       .attr('stroke-width', d => 2 - 0.5 * d.depth)
-      .style('cursor', 'pointer')
+      .style('cursor', 'pointer');
 
+    // Click to expand; Shift+Double-Click to jump to table
     circleSelection.on('click', (e, d) => {
-      e.stopPropagation();
-      e.preventDefault();
-
-      // Always expand author's network
+      if (e.shiftKey) return;
+      e.stopPropagation(); e.preventDefault();
       showNetwork(d.id);
-
-      // If Shift key is held, jump to author in table
-      if (e.shiftKey) {
-	  const authorName = d.id.trim();
-	  const table = $('#author-table').DataTable();
-	  table.search(authorName).draw();
-	  $('#network-modal').fadeOut(200);
-	}
     });
 
-    // ✅ Now attach title tooltips correctly
-    circleSelection.append('title')
-      .text(d => {
-        const info = authorData[d.id] || {};
-        return `${d.id}
+    circleSelection.on('dblclick', (e, d) => {
+      e.stopPropagation(); e.preventDefault();
+      if (e.shiftKey) {
+        const authorName = d.id.trim();
+        const table = $('#author-table').DataTable();
+        table.search(authorName).draw();
+        $('#network-modal').fadeOut(200);
+      } else {
+        showNetwork(d.id);
+      }
+    });
+
+    circleSelection.append('title').text(d => {
+      const info = authorData[d.id] || {};
+      return `${d.id}
 📄 Papers: ${info.paper_count ?? '—'}
 📊 Citations: ${info.total_citations ?? '—'}
 🧩 Degree: ${info.degree?.toFixed(2) ?? '—'}
@@ -435,8 +462,7 @@ description: Explore prolific authors and their contributions across Learning to
 🔁 Closeness: ${info.closeness?.toFixed(3) ?? '—'}
 🌈 Community: ${info.community ?? '—'}
 ⏳ Active Years: ${info.age ?? '—'}`;
-      });
-
+    });
 
     const textSelection = zoomGroup.append('g')
       .selectAll('text')
@@ -473,54 +499,30 @@ description: Explore prolific authors and their contributions across Learning to
 
     const legendData = [
       '🖱️ Single-click: Expand author\'s network',
-      '⇧+🖱️ Shift+Click: Jump to author in table',
+      '⇧+🖱️ Shift+Double-Click: Jump to author in table',
       '👆 Hover: View author statistics',
       '🌈 Node color: Indicates author\'s community',
       '🔴 Red border: Marks current author',
       '📏 Node size: Scaled by co-authors'
     ];
-    const tempText = svg.append('text')
-      .attr('font-size', '12px')
-      .style('visibility', 'hidden');
 
+    const tempText = svg.append('text').attr('font-size', '12px').style('visibility', 'hidden');
     let maxWidth = 0;
-    legendData.forEach(line => {
-      tempText.text(line);
-      const width = tempText.node().getComputedTextLength();
-      if (width > maxWidth) maxWidth = width;
-    });
+    legendData.forEach(line => { tempText.text(line); maxWidth = Math.max(maxWidth, tempText.node().getComputedTextLength()); });
     tempText.remove();
 
-    const legendPadding = 20;
-    const legendWidth = maxWidth + 20;
-    const legendX = Math.max(legendPadding, 0);
-    const legendY = h - (legendData.length * 30 + 40);
+    const lineHeight = 18, padding = 10;
+    const legendWidth = maxWidth + padding * 2;
+    const legendHeight = legendData.length * lineHeight + padding * 2;
 
-    const legendGroup = zoomGroup.append('g')
-      .attr('transform', `translate(${legendX}, ${legendY})`);
+    const { width: w2, height: h2 } = svg.node().getBoundingClientRect();
+    const legendX = Math.max(10, (w2 - legendWidth) / 2);
+    const legendY = h2 - legendHeight - 10;
 
-    legendGroup.append('rect')
-      .attr('x', 0)
-      .attr('y', -20)
-      .attr('width', legendWidth)
-      .attr('height', legendData.length * 30)
-      .attr('fill', '#f9f9f9')
-      .attr('stroke', '#ccc')
-      .attr('rx', 8)
-      .attr('ry', 8);
-
-    const legendText = legendGroup.append('text')
-      .attr('x', 10)  // slight padding
-      .attr('y', 0)
-      .attr('font-size', '12px')
-      .attr('fill', '#333');
-
-    legendText.selectAll('tspan')
-      .data(legendData)
-      .enter().append('tspan')
-      .attr('x', 10)
-      .attr('dy', (d, i) => i === 0 ? '0em' : '1.8em')
-      .text(d => d);
+    const legendGroup = svg.append('g').attr('transform', `translate(${legendX}, ${legendY})`);
+    legendGroup.append('rect').attr('width', legendWidth).attr('height', legendHeight).attr('fill', '#f9f9f9').attr('stroke', '#ccc').attr('rx', 8).attr('ry', 8);
+    const legendText = legendGroup.append('text').attr('x', padding).attr('y', padding + 12).attr('font-size', '12px').attr('fill', '#333');
+    legendText.selectAll('tspan').data(legendData).enter().append('tspan').attr('x', padding).attr('dy', (d, i) => i === 0 ? 0 : lineHeight).text(d => d);
 
     setTimeout(() => {
       const selected = nodes.find(n => n.id === author);
@@ -528,11 +530,8 @@ description: Explore prolific authors and their contributions across Learning to
         const svgEl = svg.node();
         const { width, height } = svgEl.getBoundingClientRect();
         svg.transition().duration(500).call(
-          zoom.transform,
-          d3.zoomIdentity
-            .translate(width / 2, height / 2)
-            .scale(1)
-            .translate(-selected.x, -selected.y)
+          d3.zoom().transform,
+          d3.zoomIdentity.translate(width / 2, height / 2).scale(1).translate(-selected.x, -selected.y)
         );
       }
     }, 500);
