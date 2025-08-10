@@ -1,10 +1,13 @@
 ---
 layout: default
 title: Visualization of Publications on Learning to Hash
-description: An interactive t-SNE map of Learning to Hash with global search, a year-range slider, a cluster legend, and optional node sizing by citations.
+description: An interactive t-SNE map of Learning to Hash papers with global search, a year-range slider, a cluster legend, and optional node sizing by citations.
 ---
 
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
 <style>
+/* Sidebar + legend */
 #cluster-sidebar { font-family: sans-serif; }
 .legend-item:hover { background-color: #eee; border-radius: 4px; }
 #paperviz { flex: 1; }
@@ -21,11 +24,11 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 .global-search .group { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
 .global-search label { font-weight:700; font-size:0.85rem; }
 .global-search input {
-  width: 200px;
-  padding: 0.25rem 0.4rem;
+  width: 240px; max-width: 100%;
+  padding: 0.4rem 0.5rem;
   border: 1px solid #aaa;
   border-radius: 4px;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   background-color: #f8f9fa;
 }
 .global-search input:focus {
@@ -34,7 +37,7 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
   box-shadow: 0 0 0 2px rgba(26,115,232,.25);
 }
 .global-search button {
-  padding: 0.25rem 0.4rem;
+  padding: 0.35rem 0.55rem;
   font-size: 0.85rem;
   border-radius: 4px;
   border: 1px solid #aaa;
@@ -44,37 +47,27 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 .global-search button:hover { background: #e2e2e2; }
 .global-search .meta { margin-left:auto; display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
 
-/* --- Year range sliders --- */
+/* --- Year range sliders (mobile-friendly) --- */
 #time-slider { user-select: none; }
-#time-slider .year-hint {
-  font-size: .85rem; color: #333; display: inline-flex; gap: .5rem; align-items: center; margin-left: .5rem;
-}
-#time-slider .year-hint .arrow { display:inline-block; opacity:.7; }
-@keyframes nudge-left { 0%,100%{ transform: translateX(0);} 50%{ transform: translateX(-6px);} }
-@keyframes nudge-right{ 0%,100%{ transform: translateX(0);} 50%{ transform: translateX(6px);} }
-#time-slider.nudge .arrow.left  { animation: nudge-left 900ms ease-in-out 2; }
-#time-slider.nudge .arrow.right { animation: nudge-right 900ms ease-in-out 2; }
-
 .range-row { display:flex; gap:12px; align-items:center; margin-top:.25rem; flex-wrap:wrap; }
 .range-values { display:flex; align-items:center; gap:.4rem; margin-top:.25rem; }
-
 #yearMin, #yearMax {
-  width: 200px; -webkit-appearance:none; appearance:none; height: 6px; border-radius: 999px;
-  background: linear-gradient(90deg, #ddd, #eee); vertical-align: middle;
-  border: 1px solid #aaa;
+  width: 320px; max-width:100%;
+  -webkit-appearance:none; appearance:none; height: 10px; border-radius: 999px;
+  background: linear-gradient(90deg, #ddd, #eee); vertical-align: middle; border: 1px solid #aaa;
+  touch-action: none; /* prevents page scroll fighting while dragging */
 }
 #yearMin:focus, #yearMax:focus { outline: none; }
 #yearMin:focus-visible, #yearMax:focus-visible { box-shadow: 0 0 0 2px #1a73e84d; }
 #yearMin::-webkit-slider-thumb, #yearMax::-webkit-slider-thumb {
-  -webkit-appearance: none; appearance: none; width: 14px; height: 14px; border-radius: 50%;
+  -webkit-appearance: none; appearance: none; width: 22px; height: 22px; border-radius: 50%;
   background: #1a73e8; border: 2px solid #fff; box-shadow: 0 0 0 1px #1a73e880; cursor: grab;
 }
 #yearMin::-moz-range-thumb, #yearMax::-moz-range-thumb {
-  width: 14px; height: 14px; border-radius: 50%;
-  background:#1a73e8; border:2px solid #fff; box-shadow:0 0 0 1px #1a73e880; cursor: grab;
+  width: 22px; height: 22px; border-radius: 50%; background:#1a73e8; border:2px solid #fff; box-shadow:0 0 0 1px #1a73e880; cursor: grab;
 }
 #yearReset {
-  padding: 0.25rem 0.4rem;
+  padding: 0.35rem 0.55rem;
   font-size: 0.85rem;
   border-radius: 4px;
   border: 1px solid #aaa;
@@ -83,11 +76,50 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 }
 #yearReset:hover { background: #e2e2e2; }
 #yearMinLabel, #yearMaxLabel { font-weight: 600; }
+
+/* Tooltip button (for year-range hint) */
+.info {
+  display:inline-flex; align-items:center; justify-content:center;
+  width:18px; height:18px; line-height:18px; border-radius:50%;
+  border:1px solid #999; background:#f8f8f8; font-size:.75rem; font-weight:700;
+  cursor:pointer; padding:0; position:relative; margin-left:.35rem;
+}
+.info:focus { outline: none; box-shadow: 0 0 0 2px rgba(26,115,232,.25); }
+.info[data-tooltip]::after {
+  content: attr(data-tooltip);
+  position:absolute; left: 50%; transform: translateX(-50%);
+  bottom: calc(100% + 8px);
+  white-space: nowrap; max-width: 80vw; text-wrap: wrap;
+  background:#222; color:#fff; padding:.35rem .5rem; border-radius:4px; font-size:.78rem;
+  opacity:0; visibility:hidden; transition:opacity .15s ease; z-index:20;
+}
+.info[data-tooltip]::before {
+  content:''; position:absolute; left:50%; transform:translateX(-50%);
+  bottom: calc(100% + 3px); border:6px solid transparent; border-top-color:#222;
+  opacity:0; visibility:hidden; transition:opacity .15s ease; z-index:20;
+}
+.info:hover::after, .info:hover::before,
+.info:focus::after, .info:focus::before,
+.info[data-show]::after, .info[data-show]::before {
+  opacity:1; visibility:visible;
+}
+
+/* Controls wrap on mobile */
+#controls { display:flex; flex-wrap:wrap; gap:8px; }
+#controls button { padding:.35rem .55rem; border:1px solid #aaa; border-radius:4px; background:#f7f7f7; cursor:pointer; }
+#controls button:hover { background:#eee; }
+
+/* Responsive tweaks */
+@media (max-width: 680px) {
+  .global-search input { width:100%; }
+  .range-row { flex-direction:column; align-items:stretch; gap:10px; }
+  #paperviz { min-height: 360px; }
+}
 </style>
 
 <h2>2D Map of Papers</h2>
 <p>
-Each dot represents a paper in this collection, positioned using t-SNE based on its content. Use the search bar to filter by title, authors, abstract, or tags, and the year-range slider to narrow results over time.
+  Each dot represents a paper in this collection, positioned using t-SNE based on its content. Use the search bar to filter by title, authors, abstract, or tags, and the year-range slider to narrow results over time.
 </p>
 
 <!-- Updated search bar -->
@@ -103,15 +135,19 @@ Each dot represents a paper in this collection, positioned using t-SNE based on 
 </div>
 
 <div id="time-slider" style="margin-bottom: 10px;">
-  <label for="yearMin"><strong>Year range</strong></label>
-  <span class="year-hint" aria-hidden="true">
-    <span class="arrow left">⇠</span> Drag the <strong>left</strong> circle for start year,
-    drag the <strong>right</strong> circle for end year <span class="arrow right">⇢</span>
-  </span>
+  <label for="yearMin" style="font-weight:700; display:inline-flex; align-items:center;">
+    Year range
+    <button
+      type="button"
+      class="info"
+      aria-label="Tip: drag the left handle for the start year, and the right handle for the end year."
+      data-tooltip="Drag the left handle for the start year; the right handle for the end year."
+    >ⓘ</button>
+  </label>
   <div class="range-row">
     <input type="range" id="yearMin" step="1" aria-label="Minimum year (drag left handle)"/>
     <input type="range" id="yearMax" step="1" aria-label="Maximum year (drag right handle)"/>
-    <button id="yearReset" type="button" aria-label="Reset year range to full">Reset</button>
+    <button id="yearReset" type="button" aria-label="Reset year range to full">Clear</button>
   </div>
   <div class="range-values">
     <span id="yearMinLabel">—</span><span style="opacity:.6;">–</span><span id="yearMaxLabel">—</span>
@@ -146,8 +182,8 @@ Each dot represents a paper in this collection, positioned using t-SNE based on 
 </div>
 
 <p>
-Please consider <a href="/contributing.html">contributing</a> by updating
-the information of existing papers or adding new work.
+  Please consider <a href="/contributing.html">contributing</a> by updating
+  the information of existing papers or adding new work.
 </p>
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.js"></script>
@@ -155,6 +191,18 @@ the information of existing papers or adding new work.
 <script src="https://d3js.org/d3.v6.js"></script>
 
 <script>
+/* ----------------- Tap-to-toggle for tooltip (mobile) ----------------- */
+document.addEventListener('click', function(e){
+  const isInfo = e.target.closest('.info[data-tooltip]');
+  document.querySelectorAll('.info[data-show]').forEach(el => {
+    if (el !== isInfo) el.removeAttribute('data-show');
+  });
+  if (isInfo) {
+    e.preventDefault();
+    isInfo.toggleAttribute('data-show');
+  }
+}, { passive: false });
+
 /* ----------------- State ----------------- */
 var allData = [];
 var filteredData = [];
@@ -206,6 +254,7 @@ var tooltip = d3.select("#paperviz")
   .attr("class", "tooltip")
   .style("background-color", "rgb(81, 81, 81)")
   .style("width", "420px")
+  .style("max-width", "90vw")
   .style("color", "white")
   .style("border-width", "0px")
   .style("border-radius", "10px")
@@ -262,7 +311,6 @@ function setStateFromURL() {
   const p = new URLSearchParams(location.search);
   if (p.get("q")) d3.select("#filtermap").property("value", p.get("q"));
 
-  // Back-compat: if ?year=YYYY is present, treat it as ymax with full-range min
   const yearParam = p.get("year");
   const yminParam = p.get("ymin");
   const ymaxParam = p.get("ymax");
@@ -300,7 +348,7 @@ function applyInitialZoom() {
 function resize() {
   const parent = document.getElementById("paperviz");
   const w = Math.max(540, parent.clientWidth) - margin.left - margin.right - 20;
-  const h = Math.max(380, Math.round(w * 0.66));
+  const h = Math.max(360, Math.round(w * 0.66));
   width = w; height = h;
 
   d3.select("#paperviz svg")
@@ -354,11 +402,6 @@ Promise.all([
 
   // If URL has state, apply it now (may overwrite)
   setStateFromURL();
-
-  // Nudge the slider hint on first load to signal "drag me"
-  const ts = document.getElementById("time-slider");
-  ts.classList.add("nudge");
-  setTimeout(() => ts.classList.remove("nudge"), 2200);
 
   // Build legend
   const legendContainer = d3.select("#cluster-legend");
