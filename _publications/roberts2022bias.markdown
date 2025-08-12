@@ -1,0 +1,27 @@
+---
+layout: publication
+title: On The Bias-variance Characteristics Of LIME And SHAP In High Sparsity Movie
+  Recommendation Explanation Tasks
+authors: Claudia V. Roberts, Ehtsham Elahi, Ashok Chandrashekar
+conference: Arxiv
+year: 2022
+bibkey: roberts2022bias
+citations: 2
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.04784'}]
+tags: ["Recommender Systems"]
+short_authors: Claudia V. Roberts, Ehtsham Elahi, Ashok Chandrashekar
+---
+We evaluate two popular local explainability techniques, LIME and SHAP, on a
+movie recommendation task. We discover that the two methods behave very
+differently depending on the sparsity of the data set. LIME does better than
+SHAP in dense segments of the data set and SHAP does better in sparse segments.
+We trace this difference to the differing bias-variance characteristics of the
+underlying estimators of LIME and SHAP. We find that SHAP exhibits lower
+variance in sparse segments of the data compared to LIME. We attribute this
+lower variance to the completeness constraint property inherent in SHAP and
+missing in LIME. This constraint acts as a regularizer and therefore increases
+the bias of the SHAP estimator but decreases its variance, leading to a
+favorable bias-variance trade-off especially in high sparsity data settings.
+With this insight, we introduce the same constraint into LIME and formulate a
+novel local explainabilty framework called Completeness-Constrained LIME
+(CLIMB) that is superior to LIME and much faster than SHAP.

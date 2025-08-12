@@ -1,0 +1,25 @@
+---
+layout: publication
+title: Learning To Select Base Classes For Few-shot Classification
+authors: Linjun Zhou, Peng Cui, Xu Jia, Shiqiang Yang, Qi Tian
+conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2020
+bibkey: zhou2020learning
+citations: 23
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.00315'}]
+tags: ["CVPR", "Few Shot & Zero Shot"]
+short_authors: Zhou et al.
+---
+Few-shot learning has attracted intensive research attention in recent years.
+Many methods have been proposed to generalize a model learned from provided
+base classes to novel classes, but no previous work studies how to select base
+classes, or even whether different base classes will result in different
+generalization performance of the learned model. In this paper, we utilize a
+simple yet effective measure, the Similarity Ratio, as an indicator for the
+generalization performance of a few-shot model. We then formulate the base
+class selection problem as a submodular optimization problem over Similarity
+Ratio. We further provide theoretical analysis on the optimization lower bound
+of different optimization methods, which could be used to identify the most
+appropriate algorithm for different experimental settings. The extensive
+experiments on ImageNet, Caltech256 and CUB-200-2011 demonstrate that our
+proposed method is effective in selecting a better base dataset.

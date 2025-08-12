@@ -1,0 +1,39 @@
+---
+layout: publication
+title: Compositional Coding For Collaborative Filtering
+authors: Chenghao Liu, Tao Lu, Xin Wang, Zhiyong Cheng, Jianling Sun, Steven C. H.
+  Hoi
+conference: Proceedings of the 42nd International ACM SIGIR Conference on Research
+  and Development in Information Retrieval
+year: 2019
+bibkey: liu2019compositional
+citations: 15
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.03752'}]
+tags: ["Recommender Systems", "SIGIR"]
+short_authors: Liu et al.
+---
+Efficiency is crucial to the online recommender systems. Representing users
+and items as binary vectors for Collaborative Filtering (CF) can achieve fast
+user-item affinity computation in the Hamming space, in recent years, we have
+witnessed an emerging research effort in exploiting binary hashing techniques
+for CF methods. However, CF with binary codes naturally suffers from low
+accuracy due to limited representation capability in each bit, which impedes it
+from modeling complex structure of the data.
+  In this work, we attempt to improve the efficiency without hurting the model
+performance by utilizing both the accuracy of real-valued vectors and the
+efficiency of binary codes to represent users/items. In particular, we propose
+the Compositional Coding for Collaborative Filtering (CCCF) framework, which
+not only gains better recommendation efficiency than the state-of-the-art
+binarized CF approaches but also achieves even higher accuracy than the
+real-valued CF method. Specifically, CCCF innovatively represents each
+user/item with a set of binary vectors, which are associated with a sparse
+real-value weight vector. Each value of the weight vector encodes the
+importance of the corresponding binary vector to the user/item. The continuous
+weight vectors greatly enhances the representation capability of binary codes,
+and its sparsity guarantees the processing speed. Furthermore, an integer
+weight approximation scheme is proposed to further accelerate the speed. Based
+on the CCCF framework, we design an efficient discrete optimization algorithm
+to learn its parameters. Extensive experiments on three real-world datasets
+show that our method outperforms the state-of-the-art binarized CF methods
+(even achieves better performance than the real-valued CF method) by a large
+margin in terms of both recommendation accuracy and efficiency.

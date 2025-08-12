@@ -1,0 +1,26 @@
+---
+layout: publication
+title: Revisiting Sparse Retrieval For Few-shot Entity Linking
+authors: Yulin Chen, Zhenran Xu, Baotian Hu, Min Zhang
+conference: Proceedings of the 2023 Conference on Empirical Methods in Natural Language
+  Processing
+year: 2023
+bibkey: chen2023revisiting
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.12444'}]
+tags: ["EMNLP", "Few Shot & Zero Shot"]
+short_authors: Chen et al.
+---
+Entity linking aims to link ambiguous mentions to their corresponding
+entities in a knowledge base. One of the key challenges comes from insufficient
+labeled data for specific domains. Although dense retrievers have achieved
+excellent performance on several benchmarks, their performance decreases
+significantly when only a limited amount of in-domain labeled data is
+available. In such few-shot setting, we revisit the sparse retrieval method,
+and propose an ELECTRA-based keyword extractor to denoise the mention context
+and construct a better query expression. For training the extractor, we propose
+a distant supervision method to automatically generate training data based on
+overlapping tokens between mention contexts and entity descriptions.
+Experimental results on the ZESHEL dataset demonstrate that the proposed method
+outperforms state-of-the-art models by a significant margin across all test
+domains, showing the effectiveness of keyword-enhanced sparse retrieval.

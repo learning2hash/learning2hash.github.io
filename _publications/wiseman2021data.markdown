@@ -1,0 +1,24 @@
+---
+layout: publication
+title: Data-to-text Generation By Splicing Together Nearest Neighbors
+authors: Sam Wiseman, Arturs Backurs, Karl Stratos
+conference: Proceedings of the 2021 Conference on Empirical Methods in Natural Language
+  Processing
+year: 2021
+bibkey: wiseman2021data
+citations: 8
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.08248'}]
+tags: ["EMNLP"]
+short_authors: Sam Wiseman, Arturs Backurs, Karl Stratos
+---
+We propose to tackle data-to-text generation tasks by directly splicing
+together retrieved segments of text from "neighbor" source-target pairs. Unlike
+recent work that conditions on retrieved neighbors but generates text
+token-by-token, left-to-right, we learn a policy that directly manipulates
+segments of neighbor text, by inserting or replacing them in partially
+constructed generations. Standard techniques for training such a policy require
+an oracle derivation for each generation, and we prove that finding the
+shortest such derivation can be reduced to parsing under a particular weighted
+context-free grammar. We find that policies learned in this way perform on par
+with strong baselines in terms of automatic and human evaluation, but allow for
+more interpretable and controllable generation.

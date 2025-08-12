@@ -1,0 +1,28 @@
+---
+layout: publication
+title: '3d-queryis: A Query-based Framework For 3D Instance Segmentation'
+authors: Jiaheng Liu, Tong He, Honghui Yang, Rui Su, Jiayi Tian, Junran Wu, Hongcheng
+  Guo, Ke Xu, Wanli Ouyang
+conference: Arxiv
+year: 2022
+bibkey: liu20223d
+citations: 11
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.09375'}]
+tags: []
+short_authors: Liu et al.
+---
+Previous top-performing methods for 3D instance segmentation often maintain
+inter-task dependencies and the tendency towards a lack of robustness. Besides,
+inevitable variations of different datasets make these methods become
+particularly sensitive to hyper-parameter values and manifest poor
+generalization capability. In this paper, we address the aforementioned
+challenges by proposing a novel query-based method, termed as 3D-QueryIS, which
+is detector-free, semantic segmentation-free, and cluster-free. Specifically,
+we propose to generate representative points in an implicit manner, and use
+them together with the initial queries to generate the informative instance
+queries. Then, the class and binary instance mask predictions can be produced
+by simply applying MLP layers on top of the instance queries and the extracted
+point cloud embeddings. Thus, our 3D-QueryIS is free from the accumulated
+errors caused by the inter-task dependencies. Extensive experiments on multiple
+benchmark datasets demonstrate the effectiveness and efficiency of our proposed
+3D-QueryIS method.

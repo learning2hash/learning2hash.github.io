@@ -1,0 +1,27 @@
+---
+layout: publication
+title: 'Uninformed Students: Student-teacher Anomaly Detection With Discriminative
+  Latent Embeddings'
+authors: Paul Bergmann, Michael Fauser, David Sattlegger, Carsten Steger
+conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2020
+bibkey: bergmann2019uninformed
+citations: 581
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.02357'}]
+tags: ["CVPR"]
+short_authors: Bergmann et al.
+---
+We introduce a powerful student-teacher framework for the challenging problem
+of unsupervised anomaly detection and pixel-precise anomaly segmentation in
+high-resolution images. Student networks are trained to regress the output of a
+descriptive teacher network that was pretrained on a large dataset of patches
+from natural images. This circumvents the need for prior data annotation.
+Anomalies are detected when the outputs of the student networks differ from
+that of the teacher network. This happens when they fail to generalize outside
+the manifold of anomaly-free training data. The intrinsic uncertainty in the
+student networks is used as an additional scoring function that indicates
+anomalies. We compare our method to a large number of existing deep learning
+based methods for unsupervised anomaly detection. Our experiments demonstrate
+improvements over state-of-the-art methods on a number of real-world datasets,
+including the recently introduced MVTec Anomaly Detection dataset that was
+specifically designed to benchmark anomaly segmentation algorithms.

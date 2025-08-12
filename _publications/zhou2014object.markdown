@@ -1,0 +1,25 @@
+---
+layout: publication
+title: Object Detectors Emerge In Deep Scene Cnns
+authors: Bolei Zhou, Aditya Khosla, Agata Lapedriza, Aude Oliva, Antonio Torralba
+conference: Arxiv
+year: 2014
+bibkey: zhou2014object
+citations: 754
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1412.6856'}]
+tags: []
+short_authors: Zhou et al.
+---
+With the success of new computational architectures for visual processing,
+such as convolutional neural networks (CNN) and access to image databases with
+millions of labeled examples (e.g., ImageNet, Places), the state of the art in
+computer vision is advancing rapidly. One important factor for continued
+progress is to understand the representations that are learned by the inner
+layers of these deep architectures. Here we show that object detectors emerge
+from training CNNs to perform scene classification. As scenes are composed of
+objects, the CNN for scene classification automatically discovers meaningful
+objects detectors, representative of the learned scene categories. With object
+detectors emerging as a result of learning to recognize scenes, our work
+demonstrates that the same network can perform both scene recognition and
+object localization in a single forward-pass, without ever having been
+explicitly taught the notion of objects.

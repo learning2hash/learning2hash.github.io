@@ -1,0 +1,29 @@
+---
+layout: publication
+title: Gender-preserving Debiasing For Pre-trained Word Embeddings
+authors: Masahiro Kaneko, Danushka Bollegala
+conference: Proceedings of the 57th Annual Meeting of the Association for Computational
+  Linguistics
+year: 2019
+bibkey: kaneko2019gender
+citations: 109
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.00742'}]
+tags: []
+short_authors: Masahiro Kaneko, Danushka Bollegala
+---
+Word embeddings learnt from massive text collections have demonstrated
+significant levels of discriminative biases such as gender, racial or ethnic
+biases, which in turn bias the down-stream NLP applications that use those word
+embeddings. Taking gender-bias as a working example, we propose a debiasing
+method that preserves non-discriminative gender-related information, while
+removing stereotypical discriminative gender biases from pre-trained word
+embeddings. Specifically, we consider four types of information:
+*feminine*, *masculine*, *gender-neutral* and
+*stereotypical*, which represent the relationship between gender vs. bias,
+and propose a debiasing method that (a) preserves the gender-related
+information in feminine and masculine words, (b) preserves the neutrality in
+gender-neutral words, and (c) removes the biases from stereotypical words.
+Experimental results on several previously proposed benchmark datasets show
+that our proposed method can debias pre-trained word embeddings better than
+existing SoTA methods proposed for debiasing word embeddings while preserving
+gender-related but non-discriminative information.

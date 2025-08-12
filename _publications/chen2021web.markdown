@@ -1,0 +1,30 @@
+---
+layout: publication
+title: Web-scale Generic Object Detection At Microsoft Bing
+authors: Stephen Xi Chen, Saurajit Mukherjee, Unmesh Phadke, Tingting Wang, Junwon
+  Park, Ravi Theja Yada
+conference: Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery &amp;
+  Data Mining
+year: 2021
+bibkey: chen2021web
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.01814'}]
+tags: ["Efficiency", "Image Retrieval", "KDD", "Scalability"]
+short_authors: Chen et al.
+---
+In this paper, we present Generic Object Detection (GenOD), one of the
+largest object detection systems deployed to a web-scale general visual search
+engine that can detect over 900 categories for all Microsoft Bing Visual Search
+queries in near real-time. It acts as a fundamental visual query understanding
+service that provides object-centric information and shows gains in multiple
+production scenarios, improving upon domain-specific models. We discuss the
+challenges of collecting data, training, deploying and updating such a
+large-scale object detection model with multiple dependencies. We discuss a
+data collection pipeline that reduces per-bounding box labeling cost by 81.5%
+and latency by 61.2% while improving on annotation quality. We show that GenOD
+can improve weighted average precision by over 20% compared to multiple
+domain-specific models. We also improve the model update agility by nearly 2
+times with the proposed disjoint detector training compared to joint
+fine-tuning. Finally we demonstrate how GenOD benefits visual search
+applications by significantly improving object-level search relevance by 54.9%
+and user engagement by 59.9%.

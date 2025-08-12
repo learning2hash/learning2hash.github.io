@@ -1,0 +1,33 @@
+---
+layout: publication
+title: '"wikily" Supervised Neural Translation Tailored To Cross-lingual Tasks'
+authors: Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Tanti Wijaya
+conference: Proceedings of the 2021 Conference on Empirical Methods in Natural Language
+  Processing
+year: 2021
+bibkey: rasooli2021wikily
+citations: 3
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.08384'}]
+tags: ["EMNLP", "Supervised"]
+short_authors: Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Tanti Wijaya
+---
+We present a simple but effective approach for leveraging Wikipedia for
+neural machine translation as well as cross-lingual tasks of image captioning
+and dependency parsing without using any direct supervision from external
+parallel data or supervised models in the target language. We show that first
+sentences and titles of linked Wikipedia pages, as well as cross-lingual image
+captions, are strong signals for a seed parallel data to extract bilingual
+dictionaries and cross-lingual word embeddings for mining parallel text from
+Wikipedia. Our final model achieves high BLEU scores that are close to or
+sometimes higher than strong supervised baselines in low-resource languages;
+e.g. supervised BLEU of 4.0 versus 12.1 from our model in English-to-Kazakh.
+Moreover, we tailor our wikily supervised translation models to unsupervised
+image captioning, and cross-lingual dependency parser transfer. In image
+captioning, we train a multi-tasking machine translation and image captioning
+pipeline for Arabic and English from which the Arabic training data is a
+translated version of the English captioning data, using our wikily-supervised
+translation models. Our captioning results on Arabic are slightly better than
+that of its supervised model. In dependency parsing, we translate a large
+amount of monolingual text, and use it as artificial training data in an
+annotation projection framework. We show that our model outperforms recent work
+on cross-lingual transfer of dependency parsers.

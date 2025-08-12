@@ -1,0 +1,33 @@
+---
+layout: publication
+title: 'Egoobjects: A Large-scale Egocentric Dataset For Fine-grained Object Understanding'
+authors: Chenchen Zhu, Fanyi Xiao, Andres Alvarado, Yasmine Babaei, Jiabo Hu, Hichem
+  El-Mohri, Sean Chang Culatana, Roshan Sumbaly, Zhicheng Yan
+conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
+year: 2023
+bibkey: zhu2023egoobjects
+citations: 5
+additional_links: [{name: Code, url: 'https://github.com/facebookresearch/EgoObjects'},
+  {name: Paper, url: 'https://arxiv.org/abs/2309.08816'}]
+tags: ["Datasets", "ICCV", "Scalability"]
+short_authors: Zhu et al.
+---
+Object understanding in egocentric visual data is arguably a fundamental
+research topic in egocentric vision. However, existing object datasets are
+either non-egocentric or have limitations in object categories, visual content,
+and annotation granularities. In this work, we introduce EgoObjects, a
+large-scale egocentric dataset for fine-grained object understanding. Its Pilot
+version contains over 9K videos collected by 250 participants from 50+
+countries using 4 wearable devices, and over 650K object annotations from 368
+object categories. Unlike prior datasets containing only object category
+labels, EgoObjects also annotates each object with an instance-level
+identifier, and includes over 14K unique object instances. EgoObjects was
+designed to capture the same object under diverse background complexities,
+surrounding objects, distance, lighting and camera motion. In parallel to the
+data collection, we conducted data annotation by developing a multi-stage
+federated annotation process to accommodate the growing nature of the dataset.
+To bootstrap the research on EgoObjects, we present a suite of 4 benchmark
+tasks around the egocentric object understanding, including a novel instance
+level- and the classical category level object detection. Moreover, we also
+introduce 2 novel continual learning object detection tasks. The dataset and
+API are available at https://github.com/facebookresearch/EgoObjects.

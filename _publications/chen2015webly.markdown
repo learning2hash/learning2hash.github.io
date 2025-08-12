@@ -1,0 +1,24 @@
+---
+layout: publication
+title: Webly Supervised Learning Of Convolutional Networks
+authors: Xinlei Chen, Abhinav Gupta
+conference: 2015 IEEE International Conference on Computer Vision (ICCV)
+year: 2015
+bibkey: chen2015webly
+citations: 320
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1505.01554'}]
+tags: ["ICCV", "Supervised"]
+short_authors: Xinlei Chen, Abhinav Gupta
+---
+We present an approach to utilize large amounts of web data for learning
+CNNs. Specifically inspired by curriculum learning, we present a two-step
+approach for CNN training. First, we use easy images to train an initial visual
+representation. We then use this initial CNN and adapt it to harder, more
+realistic images by leveraging the structure of data and categories. We
+demonstrate that our two-stage CNN outperforms a fine-tuned CNN trained on
+ImageNet on Pascal VOC 2012. We also demonstrate the strength of webly
+supervised learning by localizing objects in web images and training a R-CNN
+style detector. It achieves the best performance on VOC 2007 where no VOC
+training data is used. Finally, we show our approach is quite robust to noise
+and performs comparably even when we use image search results from March 2013
+(pre-CNN image search era).

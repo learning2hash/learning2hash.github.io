@@ -1,0 +1,31 @@
+---
+layout: publication
+title: 'ELITE: Encoding Visual Concepts Into Textual Embeddings For Customized Text-to-image
+  Generation'
+authors: Yuxiang Wei, Yabo Zhang, Zhilong Ji, Jinfeng Bai, Lei Zhang, Wangmeng Zuo
+conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
+year: 2023
+bibkey: wei2023elite
+citations: 108
+additional_links: [{name: Code, url: 'https://github.com/csyxwei/ELITE'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2302.13848'}]
+tags: ["ICCV"]
+short_authors: Wei et al.
+---
+In addition to the unprecedented ability in imaginary creation, large
+text-to-image models are expected to take customized concepts in image
+generation. Existing works generally learn such concepts in an
+optimization-based manner, yet bringing excessive computation or memory burden.
+In this paper, we instead propose a learning-based encoder, which consists of a
+global and a local mapping networks for fast and accurate customized
+text-to-image generation. In specific, the global mapping network projects the
+hierarchical features of a given image into multiple new words in the textual
+word embedding space, i.e., one primary word for well-editable concept and
+other auxiliary words to exclude irrelevant disturbances (e.g., background). In
+the meantime, a local mapping network injects the encoded patch features into
+cross attention layers to provide omitted details, without sacrificing the
+editability of primary concepts. We compare our method with existing
+optimization-based approaches on a variety of user-defined concepts, and
+demonstrate that our method enables high-fidelity inversion and more robust
+editability with a significantly faster encoding process. Our code is publicly
+available at https://github.com/csyxwei/ELITE.

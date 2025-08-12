@@ -1,0 +1,22 @@
+---
+layout: publication
+title: Barnes-hut-sne
+authors: Laurens van Der Maaten
+conference: Arxiv
+year: 2013
+bibkey: vandermaaten2013barnes
+citations: 62
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1301.3342'}]
+tags: []
+short_authors: Laurens van Der Maaten
+---
+The paper presents an O(N log N)-implementation of t-SNE -- an embedding
+technique that is commonly used for the visualization of high-dimensional data
+in scatter plots and that normally runs in O(N^2). The new implementation uses
+vantage-point trees to compute sparse pairwise similarities between the input
+data objects, and it uses a variant of the Barnes-Hut algorithm - an algorithm
+used by astronomers to perform N-body simulations - to approximate the forces
+between the corresponding points in the embedding. Our experiments show that
+the new algorithm, called Barnes-Hut-SNE, leads to substantial computational
+advantages over standard t-SNE, and that it makes it possible to learn
+embeddings of data sets with millions of objects.

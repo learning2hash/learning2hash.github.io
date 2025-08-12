@@ -1,0 +1,25 @@
+---
+layout: publication
+title: Privacy-preserving Image Features Via Adversarial Affine Subspace Embeddings
+authors: "Mihai Dusmanu, Johannes L. Sch\xF6nberger, Sudipta N. Sinha, Marc Pollefeys"
+conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2021
+bibkey: dusmanu2020privacy
+citations: 25
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.06634'}]
+tags: ["CVPR"]
+short_authors: Dusmanu et al.
+---
+Many computer vision systems require users to upload image features to the
+cloud for processing and storage. These features can be exploited to recover
+sensitive information about the scene or subjects, e.g., by reconstructing the
+appearance of the original image. To address this privacy concern, we propose a
+new privacy-preserving feature representation. The core idea of our work is to
+drop constraints from each feature descriptor by embedding it within an affine
+subspace containing the original feature as well as adversarial feature
+samples. Feature matching on the privacy-preserving representation is enabled
+based on the notion of subspace-to-subspace distance. We experimentally
+demonstrate the effectiveness of our method and its high practical relevance
+for the applications of visual localization and mapping as well as face
+authentication. Compared to the original features, our approach makes it
+significantly more difficult for an adversary to recover private information.

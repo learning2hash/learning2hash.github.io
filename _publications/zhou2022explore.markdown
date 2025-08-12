@@ -1,0 +1,30 @@
+---
+layout: publication
+title: 'Explore Spatio-temporal Aggregation For Insubstantial Object Detection: Benchmark
+  Dataset And Baseline'
+authors: Kailai Zhou, Yibo Wang, Tao Lv, Yunqian Li, Linsen Chen, Qiu Shen, Xun Cao
+conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2022
+bibkey: zhou2022explore
+citations: 11
+additional_links: [{name: Code, url: 'https://github.com/CalayZhou/IOD-Video'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2206.11459'}]
+tags: ["CVPR"]
+short_authors: Zhou et al.
+---
+We endeavor on a rarely explored task named Insubstantial Object Detection
+(IOD), which aims to localize the object with following characteristics: (1)
+amorphous shape with indistinct boundary; (2) similarity to surroundings; (3)
+absence in color. Accordingly, it is far more challenging to distinguish
+insubstantial objects in a single static frame and the collaborative
+representation of spatial and temporal information is crucial. Thus, we
+construct an IOD-Video dataset comprised of 600 videos (141,017 frames)
+covering various distances, sizes, visibility, and scenes captured by different
+spectral ranges. In addition, we develop a spatio-temporal aggregation
+framework for IOD, in which different backbones are deployed and a
+spatio-temporal aggregation loss (STAloss) is elaborately designed to leverage
+the consistency along the time axis. Experiments conducted on IOD-Video dataset
+demonstrate that spatio-temporal aggregation can significantly improve the
+performance of IOD. We hope our work will attract further researches into this
+valuable yet challenging task. The code will be available at:
+https://github.com/CalayZhou/IOD-Video.

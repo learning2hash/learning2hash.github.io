@@ -1,0 +1,34 @@
+---
+layout: publication
+title: 'Clip-branches: Interactive Fine-tuning For Text-image Retrieval'
+authors: "Christian L\xFClf, Denis Mayr Lima Martins, Marcos Antonio Vaz Salles, Yongluan\
+  \ Zhou, Fabian Gieseke"
+conference: Proceedings of the 47th International ACM SIGIR Conference on Research
+  and Development in Information Retrieval
+year: 2024
+bibkey: "l\xFClf2024clip"
+citations: 2
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.13322'}]
+tags: ["Image Retrieval", "SIGIR"]
+short_authors: "L\xFClf et al."
+---
+The advent of text-image models, most notably CLIP, has significantly
+transformed the landscape of information retrieval. These models enable the
+fusion of various modalities, such as text and images. One significant outcome
+of CLIP is its capability to allow users to search for images using text as a
+query, as well as vice versa. This is achieved via a joint embedding of images
+and text data that can, for instance, be used to search for similar items.
+Despite efficient query processing techniques such as approximate nearest
+neighbor search, the results may lack precision and completeness. We introduce
+CLIP-Branches, a novel text-image search engine built upon the CLIP
+architecture. Our approach enhances traditional text-image search engines by
+incorporating an interactive fine-tuning phase, which allows the user to
+further concretize the search query by iteratively defining positive and
+negative examples. Our framework involves training a classification model given
+the additional user feedback and essentially outputs all positively classified
+instances of the entire data catalog. By building upon recent techniques, this
+inference phase, however, is not implemented by scanning the entire data
+catalog, but by employing efficient index structures pre-built for the data.
+Our results show that the fine-tuned results can improve the initial search
+outputs in terms of relevance and accuracy while maintaining swift response
+times

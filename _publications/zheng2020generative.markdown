@@ -1,0 +1,30 @@
+---
+layout: publication
+title: Generative Semantic Hashing Enhanced Via Boltzmann Machines
+authors: Lin Zheng, Qinliang Su, Dinghan Shen, Changyou Chen
+conference: Proceedings of the 58th Annual Meeting of the Association for Computational
+  Linguistics
+year: 2020
+bibkey: zheng2020generative
+citations: 10
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.08858'}]
+tags: ["Hashing Methods", "Neural Hashing"]
+short_authors: Zheng et al.
+---
+Generative semantic hashing is a promising technique for large-scale
+information retrieval thanks to its fast retrieval speed and small memory
+footprint. For the tractability of training, existing generative-hashing
+methods mostly assume a factorized form for the posterior distribution,
+enforcing independence among the bits of hash codes. From the perspectives of
+both model representation and code space size, independence is always not the
+best assumption. In this paper, to introduce correlations among the bits of
+hash codes, we propose to employ the distribution of Boltzmann machine as the
+variational posterior. To address the intractability issue of training, we
+first develop an approximate method to reparameterize the distribution of a
+Boltzmann machine by augmenting it as a hierarchical concatenation of a
+Gaussian-like distribution and a Bernoulli distribution. Based on that, an
+asymptotically-exact lower bound is further derived for the evidence lower
+bound (ELBO). With these novel techniques, the entire model can be optimized
+efficiently. Extensive experimental results demonstrate that by effectively
+modeling correlations among different bits within a hash code, our model can
+achieve significant performance gains.

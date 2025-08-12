@@ -1,0 +1,35 @@
+---
+layout: publication
+title: When Semantic Segmentation Meets Frequency Aliasing
+authors: Linwei Chen, Lin Gu, Ying Fu
+conference: Arxiv
+year: 2024
+bibkey: chen2024when
+citations: 0
+additional_links: [{name: Code, url: 'https://github.com/Linwei-Chen/Seg-Aliasing'},
+  {name: Paper, url: 'https://arxiv.org/abs/2403.09065'}]
+tags: []
+short_authors: Linwei Chen, Lin Gu, Ying Fu
+---
+Despite recent advancements in semantic segmentation, where and what pixels
+are hard to segment remains largely unexplored. Existing research only
+separates an image into easy and hard regions and empirically observes the
+latter are associated with object boundaries. In this paper, we conduct a
+comprehensive analysis of hard pixel errors, categorizing them into three
+types: false responses, merging mistakes, and displacements. Our findings
+reveal a quantitative association between hard pixels and aliasing, which is
+distortion caused by the overlapping of frequency components in the Fourier
+domain during downsampling. To identify the frequencies responsible for
+aliasing, we propose using the equivalent sampling rate to calculate the
+Nyquist frequency, which marks the threshold for aliasing. Then, we introduce
+the aliasing score as a metric to quantify the extent of aliasing. While
+positively correlated with the proposed aliasing score, three types of hard
+pixels exhibit different patterns. Here, we propose two novel de-aliasing
+filter (DAF) and frequency mixing (FreqMix) modules to alleviate aliasing
+degradation by accurately removing or adjusting frequencies higher than the
+Nyquist frequency. The DAF precisely removes the frequencies responsible for
+aliasing before downsampling, while the FreqMix dynamically selects
+high-frequency components within the encoder block. Experimental results
+demonstrate consistent improvements in semantic segmentation and low-light
+instance segmentation tasks. The code is available at:
+https://github.com/Linwei-Chen/Seg-Aliasing.

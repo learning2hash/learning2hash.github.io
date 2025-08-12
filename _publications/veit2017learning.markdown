@@ -1,0 +1,31 @@
+---
+layout: publication
+title: Learning From Noisy Large-scale Datasets With Minimal Supervision
+authors: Andreas Veit, Neil Alldrin, Gal Chechik, Ivan Krasin, Abhinav Gupta, Serge
+  Belongie
+conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2017
+bibkey: veit2017learning
+citations: 470
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.01619'}]
+tags: ["CVPR", "Datasets", "Scalability"]
+short_authors: Veit et al.
+---
+We present an approach to effectively use millions of images with noisy
+annotations in conjunction with a small subset of cleanly-annotated images to
+learn powerful image representations. One common approach to combine clean and
+noisy data is to first pre-train a network using the large noisy dataset and
+then fine-tune with the clean dataset. We show this approach does not fully
+leverage the information contained in the clean set. Thus, we demonstrate how
+to use the clean annotations to reduce the noise in the large dataset before
+fine-tuning the network using both the clean set and the full set with reduced
+noise. The approach comprises a multi-task network that jointly learns to clean
+noisy annotations and to accurately classify images. We evaluate our approach
+on the recently released Open Images dataset, containing ~9 million images,
+multiple annotations per image and over 6000 unique classes. For the small
+clean set of annotations we use a quarter of the validation set with ~40k
+images. Our results demonstrate that the proposed approach clearly outperforms
+direct fine-tuning across all major categories of classes in the Open Image
+dataset. Further, our approach is particularly effective for a large number of
+classes with wide range of noise in annotations (20-80% false positive
+annotations).

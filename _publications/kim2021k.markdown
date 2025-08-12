@@ -1,0 +1,26 @@
+---
+layout: publication
+title: 'K-hairstyle: A Large-scale Korean Hairstyle Dataset For Virtual Hair Editing
+  And Hairstyle Classification'
+authors: Taewoo Kim, Chaeyeon Chung, Sunghyun Park, Gyojung Gu, Keonmin Nam, Wonzo
+  Choe, Jaesung Lee, Jaegul Choo
+conference: 2021 IEEE International Conference on Image Processing (ICIP)
+year: 2021
+bibkey: kim2021k
+citations: 12
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.06288'}]
+tags: ["Datasets"]
+short_authors: Kim et al.
+---
+The hair and beauty industry is a fast-growing industry. This led to the
+development of various applications, such as virtual hair dyeing or hairstyle
+transfer, to satisfy the customer's needs. Although several hairstyle datasets
+are available for these applications, they often consist of a relatively small
+number of images with low resolution, thus limiting their performance on
+high-quality hair editing. In response, we introduce a novel large-scale Korean
+hairstyle dataset, K-hairstyle, containing 500,000 high-resolution images. In
+addition, K-hairstyle includes various hair attributes annotated by Korean
+expert hairstylists as well as hair segmentation masks. We validate the
+effectiveness of our dataset via several applications, such as hair dyeing,
+hairstyle transfer, and hairstyle classification. K-hairstyle is publicly
+available at https://psh01087.github.io/K-Hairstyle/.

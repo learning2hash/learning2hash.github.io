@@ -1,0 +1,32 @@
+---
+layout: publication
+title: Data-free Knowledge Distillation For Fine-grained Visual Categorization
+authors: Renrong Shao, Wei Zhang, Jianhua Yin, Jun Wang
+conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
+year: 2023
+bibkey: shao2023data
+citations: 6
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.12037'}]
+tags: ["ICCV"]
+short_authors: Shao et al.
+---
+Data-free knowledge distillation (DFKD) is a promising approach for
+addressing issues related to model compression, security privacy, and
+transmission restrictions. Although the existing methods exploiting DFKD have
+achieved inspiring achievements in coarse-grained classification, in practical
+applications involving fine-grained classification tasks that require more
+detailed distinctions between similar categories, sub-optimal results are
+obtained. To address this issue, we propose an approach called DFKD-FGVC that
+extends DFKD to fine-grained visual categorization~(FGVC) tasks. Our approach
+utilizes an adversarial distillation framework with attention generator, mixed
+high-order attention distillation, and semantic feature contrast learning.
+Specifically, we introduce a spatial-wise attention mechanism to the generator
+to synthesize fine-grained images with more details of discriminative parts. We
+also utilize the mixed high-order attention mechanism to capture complex
+interactions among parts and the subtle differences among discriminative
+features of the fine-grained categories, paying attention to both local
+features and semantic context relationships. Moreover, we leverage the teacher
+and student models of the distillation framework to contrast high-level
+semantic feature maps in the hyperspace, comparing variances of different
+categories. We evaluate our approach on three widely-used FGVC benchmarks
+(Aircraft, Cars196, and CUB200) and demonstrate its superior performance.

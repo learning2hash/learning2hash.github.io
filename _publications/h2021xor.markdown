@@ -1,0 +1,30 @@
+---
+layout: publication
+title: Xor-based Codes For Private Information Retrieval With Private Side Information
+authors: Murali Krishnan K. H., J. Harshan
+conference: Arxiv
+year: 2021
+bibkey: h2021xor
+citations: 3
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.05788'}]
+tags: []
+short_authors: Murali Krishnan K. H., J. Harshan
+---
+We consider the problem of Private Information Retrieval with Private Side
+Information (PIR-PSI), wherein a user wants to retrieve a file from replication
+based non-colluding databases by using the prior knowledge of a subset of the
+files stored on the databases. The PIR-PSI framework ensures that the privacy
+of the demand and the side information are jointly preserved, thereby finding
+potential applications when multiple files have to be downloaded spread across
+different time-instants. Although the capacity of the PIR-PSI setting is known,
+we observe that the underlying capacity achieving code construction uses
+Maximum Distance Separable (MDS) codes thereby contributing to high
+computational complexity when retrieving the demand. Pointing at this drawback
+of MDS-based PIR-PSI codes, we propose XOR-based PIR-PSI codes for a simple yet
+non-trivial setting of two non-colluding databases and two side information
+files at the user. While our codes offer substantial reduction in complexity
+when compared to MDS based codes, the code-rate marginally falls short of the
+capacity of the PIR-PSI setting. Nevertheless, we show that our code-rate is
+strictly higher than that of XOR-based codes for PIR with no side information,
+thereby implying that our codes can be useful when downloading multiple files
+in a sequential manner, instead of applying XOR-based PIR codes on each file.

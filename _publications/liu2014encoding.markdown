@@ -1,0 +1,36 @@
+---
+layout: publication
+title: Encoding High Dimensional Local Features By Sparse Coding Based Fisher Vectors
+authors: Lingqiao Liu, Chunhua Shen, Lei Wang, Anton van Den Hengel, Chao Wang
+conference: Arxiv
+year: 2014
+bibkey: liu2014encoding
+citations: 67
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1411.6406'}]
+tags: []
+short_authors: Liu et al.
+---
+Deriving from the gradient vector of a generative model of local features,
+Fisher vector coding (FVC) has been identified as an effective coding method
+for image classification. Most, if not all, % FVC implementations employ the
+Gaussian mixture model (GMM) to characterize the generation process of local
+features. This choice has shown to be sufficient for traditional low
+dimensional local features, e.g., SIFT; and typically, good performance can be
+achieved with only a few hundred Gaussian distributions. However, the same
+number of Gaussians is insufficient to model the feature space spanned by
+higher dimensional local features, which have become popular recently. In order
+to improve the modeling capacity for high dimensional features, it turns out to
+be inefficient and computationally impractical to simply increase the number of
+Gaussians. In this paper, we propose a model in which each local feature is
+drawn from a Gaussian distribution whose mean vector is sampled from a
+subspace. With certain approximation, this model can be converted to a sparse
+coding procedure and the learning/inference problems can be readily solved by
+standard sparse coding methods. By calculating the gradient vector of the
+proposed model, we derive a new fisher vector encoding strategy, termed Sparse
+Coding based Fisher Vector Coding (SCFVC). Moreover, we adopt the recently
+developed Deep Convolutional Neural Network (CNN) descriptor as a high
+dimensional local feature and implement image classification with the proposed
+SCFVC. Our experimental evaluations demonstrate that our method not only
+significantly outperforms the traditional GMM based Fisher vector encoding but
+also achieves the state-of-the-art performance in generic object recognition,
+indoor scene, and fine-grained image classification problems.

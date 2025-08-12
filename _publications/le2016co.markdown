@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Co-localization With Category-consistent Features And Geodesic Distance Propagation
+authors: Hieu Le, Chen-ping Yu, Gregory Zelinsky, Dimitris Samaras
+conference: 2017 IEEE International Conference on Computer Vision Workshops (ICCVW)
+year: 2017
+bibkey: le2016co
+citations: 12
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.03236'}]
+tags: ["ICCV"]
+short_authors: Le et al.
+---
+Co-localization is the problem of localizing objects of the same class using
+only the set of images that contain them. This is a challenging task because
+the object detector must be built without negative examples that can lead to
+more informative supervision signals. The main idea of our method is to cluster
+the feature space of a generically pre-trained CNN, to find a set of CNN
+features that are consistently and highly activated for an object category,
+which we call category-consistent CNN features. Then, we propagate their
+combined activation map using superpixel geodesic distances for
+co-localization. In our first set of experiments, we show that the proposed
+method achieves state-of-the-art performance on three related benchmarks:
+PASCAL 2007, PASCAL-2012, and the Object Discovery dataset. We also show that
+our method is able to detect and localize truly unseen categories, on six
+held-out ImageNet categories with accuracy that is significantly higher than
+previous state-of-the-art. Our intuitive approach achieves this success without
+any region proposals or object detectors and can be based on a CNN that was
+pre-trained purely on image classification tasks without further fine-tuning.

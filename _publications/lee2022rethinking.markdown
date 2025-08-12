@@ -1,0 +1,35 @@
+---
+layout: publication
+title: Rethinking Few-shot Object Detection On A Multi-domain Benchmark
+authors: Kibok Lee, Hao Yang, Satyaki Chakraborty, Zhaowei Cai, Gurumurthy Swaminathan,
+  Avinash Ravichandran, Onkar Dabeer
+conference: Lecture Notes in Computer Science
+year: 2022
+bibkey: lee2022rethinking
+citations: 9
+additional_links: [{name: Code, url: 'https://github.com/amazon-research/few-shot-object-detection-benchmark'},
+  {name: Paper, url: 'https://arxiv.org/abs/2207.11169'}]
+tags: ["Few Shot & Zero Shot"]
+short_authors: Lee et al.
+---
+Most existing works on few-shot object detection (FSOD) focus on a setting
+where both pre-training and few-shot learning datasets are from a similar
+domain. However, few-shot algorithms are important in multiple domains; hence
+evaluation needs to reflect the broad applications. We propose a Multi-dOmain
+Few-Shot Object Detection (MoFSOD) benchmark consisting of 10 datasets from a
+wide range of domains to evaluate FSOD algorithms. We comprehensively analyze
+the impacts of freezing layers, different architectures, and different
+pre-training datasets on FSOD performance. Our empirical results show several
+key factors that have not been explored in previous works: 1) contrary to
+previous belief, on a multi-domain benchmark, fine-tuning (FT) is a strong
+baseline for FSOD, performing on par or better than the state-of-the-art (SOTA)
+algorithms; 2) utilizing FT as the baseline allows us to explore multiple
+architectures, and we found them to have a significant impact on down-stream
+few-shot tasks, even with similar pre-training performances; 3) by decoupling
+pre-training and few-shot learning, MoFSOD allows us to explore the impact of
+different pre-training datasets, and the right choice can boost the performance
+of the down-stream tasks significantly. Based on these findings, we list
+possible avenues of investigation for improving FSOD performance and propose
+two simple modifications to existing algorithms that lead to SOTA performance
+on the MoFSOD benchmark. The code is available at
+https://github.com/amazon-research/few-shot-object-detection-benchmark.

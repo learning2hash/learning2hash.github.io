@@ -1,0 +1,26 @@
+---
+layout: publication
+title: The 1st Tiny Object Detection Challenge:methods And Results
+authors: Xuehui Yu, Zhenjun Han, Yuqi Gong, Nan Jiang, Jian Zhao, Qixiang Ye, Jie
+  Chen, Yuan Feng, Bin Zhang, Xiaodi Wang, Ying Xin, Jingwei Liu, Mingyuan Mao, Sheng
+  Xu, Baochang Zhang, Shumin Han, Cheng Gao, Wei Tang, Lizuo Jin, Mingbo Hong, Yuchao
+  Yang, Shuiwang Li, Huan Luo, Qijun Zhao, Humphrey Shi
+conference: Arxiv
+year: 2020
+bibkey: yu20201st
+citations: 4
+additional_links: [{name: Code, url: 'https://github.com/ucas-vg/TinyBenchmark'},
+  {name: Paper, url: 'https://arxiv.org/abs/2009.07506'}]
+tags: ["Datasets", "Evaluation"]
+short_authors: Yu et al.
+---
+The 1st Tiny Object Detection (TOD) Challenge aims to encourage research in
+developing novel and accurate methods for tiny object detection in images which
+have wide views, with a current focus on tiny person detection. The TinyPerson
+dataset was used for the TOD Challenge and is publicly released. It has 1610
+images and 72651 box-levelannotations. Around 36 participating teams from the
+globe competed inthe 1st TOD Challenge. In this paper, we provide a brief
+summary of the1st TOD Challenge including brief introductions to the top three
+methods.The submission leaderboard will be reopened for researchers that
+areinterested in the TOD challenge. The benchmark dataset and other information
+can be found at: https://github.com/ucas-vg/TinyBenchmark.

@@ -1,0 +1,30 @@
+---
+layout: publication
+title: On Learning Semantic Representations For Million-scale Free-hand Sketches
+authors: Peng Xu, Yongye Huang, Tongtong Yuan, Tao Xiang, Timothy M. Hospedales, Yi-Zhe
+  Song, Liang Wang
+conference: Arxiv
+year: 2020
+bibkey: xu2020learning
+citations: 4
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.04101'}]
+tags: ["Datasets", "Evaluation", "Scalability"]
+short_authors: Xu et al.
+---
+In this paper, we study learning semantic representations for million-scale
+free-hand sketches. This is highly challenging due to the domain-unique traits
+of sketches, e.g., diverse, sparse, abstract, noisy. We propose a dual-branch
+CNNRNN network architecture to represent sketches, which simultaneously encodes
+both the static and temporal patterns of sketch strokes. Based on this
+architecture, we further explore learning the sketch-oriented semantic
+representations in two challenging yet practical settings, i.e., hashing
+retrieval and zero-shot recognition on million-scale sketches. Specifically, we
+use our dual-branch architecture as a universal representation framework to
+design two sketch-specific deep models: (i) We propose a deep hashing model for
+sketch retrieval, where a novel hashing loss is specifically designed to
+accommodate both the abstract and messy traits of sketches. (ii) We propose a
+deep embedding model for sketch zero-shot recognition, via collecting a
+large-scale edge-map dataset and proposing to extract a set of semantic vectors
+from edge-maps as the semantic knowledge for sketch zero-shot domain alignment.
+Both deep models are evaluated by comprehensive experiments on million-scale
+sketches and outperform the state-of-the-art competitors.

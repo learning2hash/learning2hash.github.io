@@ -1,0 +1,22 @@
+---
+layout: publication
+title: 'BM25S: Orders Of Magnitude Faster Lexical Search Via Eager Sparse Scoring'
+authors: "Xing Han L\xF9"
+conference: Arxiv
+year: 2024
+bibkey: "l\xF92024bm25s"
+citations: 3
+additional_links: [{name: Code, url: 'https://github.com/xhluca/bm25s'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2407.03618'}]
+tags: ["Efficiency"]
+short_authors: "Xing Han L\xF9"
+---
+We introduce BM25S, an efficient Python-based implementation of BM25 that
+only depends on Numpy and Scipy. BM25S achieves up to a 500x speedup compared
+to the most popular Python-based framework by eagerly computing BM25 scores
+during indexing and storing them into sparse matrices. It also achieves
+considerable speedups compared to highly optimized Java-based implementations,
+which are used by popular commercial products. Finally, BM25S reproduces the
+exact implementation of five BM25 variants based on Kamphuis et al. (2020) by
+extending eager scoring to non-sparse variants using a novel score shifting
+method. The code can be found at https://github.com/xhluca/bm25s

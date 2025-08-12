@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Few-shot Object Detection With Attention-rpn And Multi-relation Detector
+authors: Qi Fan, Wei Zhuo, Chi-keung Tang, Yu-wing Tai
+conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2020
+bibkey: fan2019few
+citations: 526
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.01998'}]
+tags: ["CVPR", "Few Shot & Zero Shot"]
+short_authors: Fan et al.
+---
+Conventional methods for object detection typically require a substantial
+amount of training data and preparing such high-quality training data is very
+labor-intensive. In this paper, we propose a novel few-shot object detection
+network that aims at detecting objects of unseen categories with only a few
+annotated examples. Central to our method are our Attention-RPN, Multi-Relation
+Detector and Contrastive Training strategy, which exploit the similarity
+between the few shot support set and query set to detect novel objects while
+suppressing false detection in the background. To train our network, we
+contribute a new dataset that contains 1000 categories of various objects with
+high-quality annotations. To the best of our knowledge, this is one of the
+first datasets specifically designed for few-shot object detection. Once our
+few-shot network is trained, it can detect objects of unseen categories without
+further training or fine-tuning. Our method is general and has a wide range of
+potential applications. We produce a new state-of-the-art performance on
+different datasets in the few-shot setting. The dataset link is
+https://github.com/fanq15/Few-Shot-Object-Detection-Dataset.

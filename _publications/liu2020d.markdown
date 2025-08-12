@@ -1,0 +1,32 @@
+---
+layout: publication
+title: 'D-unet: A Dual-encoder U-net For Image Splicing Forgery Detection And Localization'
+authors: Bo Liu, Ranglei Wu, Xiuli Bi, Bin Xiao, Weisheng Li, Guoyin Wang, Xinbo Gao
+conference: Arxiv
+year: 2020
+bibkey: liu2020d
+citations: 17
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.01821'}]
+tags: ["Evaluation"]
+short_authors: Liu et al.
+---
+Recently, many detection methods based on convolutional neural networks
+(CNNs) have been proposed for image splicing forgery detection. Most of these
+detection methods focus on the local patches or local objects. In fact, image
+splicing forgery detection is a global binary classification task that
+distinguishes the tampered and non-tampered regions by image fingerprints.
+However, some specific image contents are hardly retained by CNN-based
+detection networks, but if included, would improve the detection accuracy of
+the networks. To resolve these issues, we propose a novel network called
+dual-encoder U-Net (D-Unet) for image splicing forgery detection, which employs
+an unfixed encoder and a fixed encoder. The unfixed encoder autonomously learns
+the image fingerprints that differentiate between the tampered and non-tampered
+regions, whereas the fixed encoder intentionally provides the direction
+information that assists the learning and detection of the network. This
+dual-encoder is followed by a spatial pyramid global-feature extraction module
+that expands the global insight of D-Unet for classifying the tampered and
+non-tampered regions more accurately. In an experimental comparison study of
+D-Unet and state-of-the-art methods, D-Unet outperformed the other methods in
+image-level and pixel-level detection, without requiring pre-training or
+training on a large number of forgery images. Moreover, it was stably robust to
+different attacks.

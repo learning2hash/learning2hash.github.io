@@ -1,0 +1,32 @@
+---
+layout: publication
+title: 'Taxoenrich: Self-supervised Taxonomy Completion Via Structure-semantic Representations'
+authors: Minhao Jiang, Xiangchen Song, Jieyu Zhang, Jiawei Han
+conference: Proceedings of the ACM Web Conference 2022
+year: 2022
+bibkey: jiang2022taxoenrich
+citations: 25
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.04887'}]
+tags: ["Self-Supervised"]
+short_authors: Jiang et al.
+---
+Taxonomies are fundamental to many real-world applications in various
+domains, serving as structural representations of knowledge. To deal with the
+increasing volume of new concepts needed to be organized as taxonomies,
+researchers turn to automatically completion of an existing taxonomy with new
+concepts. In this paper, we propose TaxoEnrich, a new taxonomy completion
+framework, which effectively leverages both semantic features and structural
+information in the existing taxonomy and offers a better representation of
+candidate position to boost the performance of taxonomy completion.
+Specifically, TaxoEnrich consists of four components: (1)
+taxonomy-contextualized embedding which incorporates both semantic meanings of
+concept and taxonomic relations based on powerful pretrained language models;
+(2) a taxonomy-aware sequential encoder which learns candidate position
+representations by encoding the structural information of taxonomy; (3) a
+query-aware sibling encoder which adaptively aggregates candidate siblings to
+augment candidate position representations based on their importance to the
+query-position matching; (4) a query-position matching model which extends
+existing work with our new candidate position representations. Extensive
+experiments on four large real-world datasets from different domains show that
+\TaxoEnrich achieves the best performance among all evaluation metrics and
+outperforms previous state-of-the-art methods by a large margin.

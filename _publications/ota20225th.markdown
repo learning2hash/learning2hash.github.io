@@ -1,0 +1,22 @@
+---
+layout: publication
+title: 5th Place Solution To Kaggle Google Universal Image Embedding Competition
+authors: Noriaki Ota, Shingo Yokoi, Shinsuke Yamaoka
+conference: Arxiv
+year: 2022
+bibkey: ota20225th
+citations: 2
+additional_links: [{name: Code, url: 'https://github.com/riron1206/kaggle-Google-Universal-Image-Embedding-Competition-5th-Place-Solution'},
+  {name: Paper, url: 'https://arxiv.org/abs/2210.09495'}]
+tags: ["Datasets"]
+short_authors: Noriaki Ota, Shingo Yokoi, Shinsuke Yamaoka
+---
+In this paper, we present our solution, which placed 5th in the kaggle Google
+Universal Image Embedding Competition in 2022. We use the ViT-H visual encoder
+of CLIP from the openclip repository as a backbone and train a head model
+composed of BatchNormalization and Linear layers using ArcFace. The dataset
+used was a subset of products10K, GLDv2, GPR1200, and Food101. And applying TTA
+for part of images also improves the score. With this method, we achieve a
+score of 0.684 on the public and 0.688 on the private leaderboard. Our code is
+available.
+https://github.com/riron1206/kaggle-Google-Universal-Image-Embedding-Competition-5th-Place-Solution

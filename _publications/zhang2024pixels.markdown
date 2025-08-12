@@ -1,0 +1,28 @@
+---
+layout: publication
+title: 'From Pixels To Tokens: Byte-pair Encoding On Quantized Visual Modalities'
+authors: Wanpeng Zhang, Zilong Xie, Yicheng Feng, Yijiang Li, Xingrun Xing, Sipeng
+  Zheng, Zongqing Lu
+conference: Arxiv
+year: 2024
+bibkey: zhang2024pixels
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.02155'}]
+tags: []
+short_authors: Zhang et al.
+---
+Multimodal Large Language Models have made significant strides in integrating
+visual and textual information, yet they often struggle with effectively
+aligning these modalities. We introduce a novel image tokenizer that bridges
+this gap by applying the principle of Byte-Pair Encoding (BPE) to visual data.
+Unlike conventional approaches that rely on separate visual encoders, our
+method directly incorporates structural prior information into image tokens,
+mirroring the successful tokenization strategies used in text-only Large
+Language Models. This innovative approach enables Transformer models to more
+effectively learn and reason across modalities. Through theoretical analysis
+and extensive experiments, we demonstrate that our BPE Image Tokenizer
+significantly enhances MLLMs' multimodal understanding capabilities, even with
+limited training data. Leveraging this method, we develop Being-VL-0, a model
+that demonstrates superior performance across various benchmarks and shows
+promising scalability, potentially paving the way for more efficient and
+capable multimodal foundation models.

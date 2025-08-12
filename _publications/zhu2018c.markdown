@@ -1,0 +1,32 @@
+---
+layout: publication
+title: 'C-DLSI: An Extended LSI Tailored For Federated Text Retrieval'
+authors: Qijun Zhu, Dandan Li, Dik Lun Lee
+conference: Arxiv
+year: 2018
+bibkey: zhu2018c
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.02579'}]
+tags: ["Text Retrieval"]
+short_authors: Qijun Zhu, Dandan Li, Dik Lun Lee
+---
+As the web expands in data volume and in geographical distribution,
+centralized search methods become inefficient, leading to increasing interest
+in cooperative information retrieval, e.g., federated text retrieval (FTR).
+Different from existing centralized information retrieval (IR) methods, in
+which search is done on a logically centralized document collection, FTR is
+composed of a number of peers, each of which is a complete search engine by
+itself. To process a query, FTR requires firstly the identification of
+promising peers that host the relevant documents and secondly the retrieval of
+the most relevant documents from the selected peers. Most of the existing
+methods only apply traditional IR techniques that treat each text collection as
+a single large document and utilize term matching to rank the collections. In
+this paper, we formalize the problem and identify the properties of FTR, and
+analyze the feasibility of extending LSI with clustering to adapt to FTR, based
+on which a novel approach called Cluster-based Distributed Latent Semantic
+Indexing (C-DLSI) is proposed. C-DLSI distinguishes the topics of a peer with
+clustering, captures the local LSI spaces within the clusters, and consider the
+relations among these LSI spaces, thus providing more precise characterization
+of the peer. Accordingly, novel descriptors of the peers and a compatible local
+text retrieval are proposed. The experimental results show that C-DLSI
+outperforms existing methods.

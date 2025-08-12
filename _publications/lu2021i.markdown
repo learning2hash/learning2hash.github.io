@@ -1,0 +1,32 @@
+---
+layout: publication
+title: 'I-nema: A Biological Image Dataset For Nematode Recognition'
+authors: Xuequan Lu, Yihao Wang, Sheldon Fung, Xue Qing
+conference: Arxiv
+year: 2021
+bibkey: lu2021i
+citations: 5
+additional_links: [{name: Code, url: 'https://github.com/xuequanlu/I-Nema'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2103.08335'}]
+tags: ["Datasets"]
+short_authors: Lu et al.
+---
+Nematode worms are one of most abundant metazoan groups on the earth,
+occupying diverse ecological niches. Accurate recognition or identification of
+nematodes are of great importance for pest control, soil ecology,
+bio-geography, habitat conservation and against climate changes. Computer
+vision and image processing have witnessed a few successes in species
+recognition of nematodes; however, it is still in great demand. In this paper,
+we identify two main bottlenecks: (1) the lack of a publicly available imaging
+dataset for diverse species of nematodes (especially the species only found in
+natural environment) which requires considerable human resources in field work
+and experts in taxonomy, and (2) the lack of a standard benchmark of
+state-of-the-art deep learning techniques on this dataset which demands the
+discipline background in computer science. With these in mind, we propose an
+image dataset consisting of diverse nematodes (both laboratory cultured and
+naturally isolated), which, to our knowledge, is the first time in the
+community. We further set up a species recognition benchmark by employing
+state-of-the-art deep learning networks on this dataset. We discuss the
+experimental results, compare the recognition accuracy of different networks,
+and show the challenges of our dataset. We make our dataset publicly available
+at: https://github.com/xuequanlu/I-Nema

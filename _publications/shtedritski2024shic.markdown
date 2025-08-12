@@ -1,0 +1,29 @@
+---
+layout: publication
+title: 'SHIC: Shape-image Correspondences With No Keypoint Supervision'
+authors: Aleksandar Shtedritski, Christian Rupprecht, Andrea Vedaldi
+conference: Lecture Notes in Computer Science
+year: 2024
+bibkey: shtedritski2024shic
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.18907'}]
+tags: []
+short_authors: Aleksandar Shtedritski, Christian Rupprecht, Andrea Vedaldi
+---
+Canonical surface mapping generalizes keypoint detection by assigning each
+pixel of an object to a corresponding point in a 3D template. Popularised by
+DensePose for the analysis of humans, authors have since attempted to apply the
+concept to more categories, but with limited success due to the high cost of
+manual supervision. In this work, we introduce SHIC, a method to learn
+canonical maps without manual supervision which achieves better results than
+supervised methods for most categories. Our idea is to leverage foundation
+computer vision models such as DINO and Stable Diffusion that are open-ended
+and thus possess excellent priors over natural categories. SHIC reduces the
+problem of estimating image-to-template correspondences to predicting
+image-to-image correspondences using features from the foundation models. The
+reduction works by matching images of the object to non-photorealistic renders
+of the template, which emulates the process of collecting manual annotations
+for this task. These correspondences are then used to supervise high-quality
+canonical maps for any object of interest. We also show that image generators
+can further improve the realism of the template views, which provide an
+additional source of supervision for the model.

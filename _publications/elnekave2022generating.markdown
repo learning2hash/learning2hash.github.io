@@ -1,0 +1,27 @@
+---
+layout: publication
+title: Generating Natural Images With Direct Patch Distributions Matching
+authors: Ariel Elnekave, Yair Weiss
+conference: Lecture Notes in Computer Science
+year: 2022
+bibkey: elnekave2022generating
+citations: 11
+additional_links: [{name: Code, url: 'https://github.com/ariel415el/GPDM'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2203.11862'}]
+tags: []
+short_authors: Ariel Elnekave, Yair Weiss
+---
+Many traditional computer vision algorithms generate realistic images by
+requiring that each patch in the generated image be similar to a patch in a
+training image and vice versa. Recently, this classical approach has been
+replaced by adversarial training with a patch discriminator. The adversarial
+approach avoids the computational burden of finding nearest neighbors of
+patches but often requires very long training times and may fail to match the
+distribution of patches. In this paper we leverage the recently developed
+Sliced Wasserstein Distance and develop an algorithm that explicitly and
+efficiently minimizes the distance between patch distributions in two images.
+Our method is conceptually simple, requires no training and can be implemented
+in a few lines of codes. On a number of image generation tasks we show that our
+results are often superior to single-image-GANs, require no training, and can
+generate high quality images in a few seconds. Our implementation is available
+at https://github.com/ariel415el/GPDM

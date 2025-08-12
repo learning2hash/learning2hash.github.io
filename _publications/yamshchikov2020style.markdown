@@ -1,0 +1,24 @@
+---
+layout: publication
+title: 'Style-transfer And Paraphrase: Looking For A Sensible Semantic Similarity
+  Metric'
+authors: Ivan P. Yamshchikov, Viacheslav Shibaev, Nikolay Khlebnikov, Alexey Tikhonov
+conference: Proceedings of the AAAI Conference on Artificial Intelligence
+year: 2021
+bibkey: yamshchikov2020style
+citations: 30
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.05001'}]
+tags: ["AAAI", "Distance Metric Learning"]
+short_authors: Yamshchikov et al.
+---
+The rapid development of such natural language processing tasks as style
+transfer, paraphrase, and machine translation often calls for the use of
+semantic similarity metrics. In recent years a lot of methods to measure the
+semantic similarity of two short texts were developed. This paper provides a
+comprehensive analysis for more than a dozen of such methods. Using a new
+dataset of fourteen thousand sentence pairs human-labeled according to their
+semantic similarity, we demonstrate that none of the metrics widely used in the
+literature is close enough to human judgment in these tasks. A number of
+recently proposed metrics provide comparable results, yet Word Mover Distance
+is shown to be the most reasonable solution to measure semantic similarity in
+reformulated texts at the moment.

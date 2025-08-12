@@ -1,0 +1,23 @@
+---
+layout: publication
+title: An \(11/6\)-approximation Algorithm For Vertex Cover On String Graphs
+authors: "\xC9douard Bonnet, Pawe\u0142 Rz\u0105\u017Cewski"
+conference: Arxiv
+year: 2024
+bibkey: bonnet202411
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.18820'}]
+tags: []
+short_authors: "\xC9douard Bonnet, Pawe\u0142 Rz\u0105\u017Cewski"
+---
+We present a 1.8334-approximation algorithm for Vertex Cover on string graphs
+given with a representation, which takes polynomial time in the size of the
+representation; the exact approximation factor is \(11/6\). Recently, the barrier
+of 2 was broken by Lokshtanov et al. [SoGC '24] with a 1.9999-approximation
+algorithm. Thus we increase by three orders of magnitude the distance of the
+approximation ratio to the trivial bound of 2. Our algorithm is very simple.
+The intricacies reside in its analysis, where we mainly establish that string
+graphs without odd cycles of length at most 11 are 8-colorable. Previously,
+Chudnovsky, Scott, and Seymour [JCTB '21] showed that string graphs without odd
+cycles of length at most 7 are 80-colorable, and string graphs without odd
+cycles of length at most 5 have bounded chromatic number.

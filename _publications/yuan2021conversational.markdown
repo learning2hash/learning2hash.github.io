@@ -1,0 +1,28 @@
+---
+layout: publication
+title: Conversational Fashion Image Retrieval Via Multiturn Natural Language Feedback
+authors: Yifei Yuan, Wai Lam
+conference: Proceedings of the 44th International ACM SIGIR Conference on Research
+  and Development in Information Retrieval
+year: 2021
+bibkey: yuan2021conversational
+citations: 32
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2106.04128'}]
+tags: ["Image Retrieval", "SIGIR"]
+short_authors: Yifei Yuan, Wai Lam
+---
+We study the task of conversational fashion image retrieval via multiturn
+natural language feedback. Most previous studies are based on single-turn
+settings. Existing models on multiturn conversational fashion image retrieval
+have limitations, such as employing traditional models, and leading to
+ineffective performance. We propose a novel framework that can effectively
+handle conversational fashion image retrieval with multiturn natural language
+feedback texts. One characteristic of the framework is that it searches for
+candidate images based on exploitation of the encoded reference image and
+feedback text information together with the conversation history. Furthermore,
+the image fashion attribute information is leveraged via a mutual attention
+strategy. Since there is no existing fashion dataset suitable for the multiturn
+setting of our task, we derive a large-scale multiturn fashion dataset via
+additional manual annotation efforts on an existing single-turn dataset. The
+experiments show that our proposed model significantly outperforms existing
+state-of-the-art methods.

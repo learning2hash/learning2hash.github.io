@@ -1,0 +1,26 @@
+---
+layout: publication
+title: 'RGB No More: Minimally-decoded JPEG Vision Transformers'
+authors: Jeongsoo Park, Justin Johnson
+conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2023
+bibkey: park2022rgb
+citations: 3
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.16421'}]
+tags: ["CVPR"]
+short_authors: Jeongsoo Park, Justin Johnson
+---
+Most neural networks for computer vision are designed to infer using RGB
+images. However, these RGB images are commonly encoded in JPEG before saving to
+disk; decoding them imposes an unavoidable overhead for RGB networks. Instead,
+our work focuses on training Vision Transformers (ViT) directly from the
+encoded features of JPEG. This way, we can avoid most of the decoding overhead,
+accelerating data load. Existing works have studied this aspect but they focus
+on CNNs. Due to how these encoded features are structured, CNNs require heavy
+modification to their architecture to accept such data. Here, we show that this
+is not the case for ViTs. In addition, we tackle data augmentation directly on
+these encoded features, which to our knowledge, has not been explored in-depth
+for training in this setting. With these two improvements -- ViT and data
+augmentation -- we show that our ViT-Ti model achieves up to 39.2% faster
+training and 17.9% faster inference with no accuracy loss compared to the RGB
+counterpart.

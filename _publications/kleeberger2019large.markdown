@@ -1,0 +1,24 @@
+---
+layout: publication
+title: Large-scale 6D Object Pose Estimation Dataset For Industrial Bin-picking
+authors: Kilian Kleeberger, Christian Landgraf, Marco F. Huber
+conference: 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems
+  (IROS)
+year: 2019
+bibkey: kleeberger2019large
+citations: 77
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.12125'}]
+tags: ["Datasets", "IROS"]
+short_authors: Kilian Kleeberger, Christian Landgraf, Marco F. Huber
+---
+In this paper, we introduce a new public dataset for 6D object pose
+estimation and instance segmentation for industrial bin-picking. The dataset
+comprises both synthetic and real-world scenes. For both, point clouds, depth
+images, and annotations comprising the 6D pose (position and orientation), a
+visibility score, and a segmentation mask for each object are provided. Along
+with the raw data, a method for precisely annotating real-world scenes is
+proposed. To the best of our knowledge, this is the first public dataset for 6D
+object pose estimation and instance segmentation for bin-picking containing
+sufficiently annotated data for learning-based approaches. Furthermore, it is
+one of the largest public datasets for object pose estimation in general. The
+dataset is publicly available at http://www.bin-picking.ai/en/dataset.html.

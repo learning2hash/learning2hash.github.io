@@ -1,0 +1,32 @@
+---
+layout: publication
+title: 'Vector Of Locally-aggregated Word Embeddings (VLAWE): A Novel Document-level
+  Representation'
+authors: Radu Tudor Ionescu, Andrei M. Butnaru
+conference: Arxiv
+year: 2019
+bibkey: ionescu2019vector
+citations: 9
+additional_links: [{name: Code, url: 'https://github.com/raduionescu/vlawe-boswe/'},
+  {name: Paper, url: 'https://arxiv.org/abs/1902.08850'}]
+tags: []
+short_authors: Radu Tudor Ionescu, Andrei M. Butnaru
+---
+In this paper, we propose a novel representation for text documents based on
+aggregating word embedding vectors into document embeddings. Our approach is
+inspired by the Vector of Locally-Aggregated Descriptors used for image
+representation, and it works as follows. First, the word embeddings gathered
+from a collection of documents are clustered by k-means in order to learn a
+codebook of semnatically-related word embeddings. Each word embedding is then
+associated to its nearest cluster centroid (codeword). The Vector of
+Locally-Aggregated Word Embeddings (VLAWE) representation of a document is then
+computed by accumulating the differences between each codeword vector and each
+word vector (from the document) associated to the respective codeword. We plug
+the VLAWE representation, which is learned in an unsupervised manner, into a
+classifier and show that it is useful for a diverse set of text classification
+tasks. We compare our approach with a broad range of recent state-of-the-art
+methods, demonstrating the effectiveness of our approach. Furthermore, we
+obtain a considerable improvement on the Movie Review data set, reporting an
+accuracy of 93.3%, which represents an absolute gain of 10% over the
+state-of-the-art approach. Our code is available at
+https://github.com/raduionescu/vlawe-boswe/.

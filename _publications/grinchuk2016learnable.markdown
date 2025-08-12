@@ -1,0 +1,31 @@
+---
+layout: publication
+title: Learnable Visual Markers
+authors: Oleg Grinchuk, Vadim Lebedev, Victor Lempitsky
+conference: Arxiv
+year: 2016
+bibkey: grinchuk2016learnable
+citations: 6
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.09237'}]
+tags: []
+short_authors: Oleg Grinchuk, Vadim Lebedev, Victor Lempitsky
+---
+We propose a new approach to designing visual markers (analogous to QR-codes,
+markers for augmented reality, and robotic fiducial tags) based on the advances
+in deep generative networks. In our approach, the markers are obtained as color
+images synthesized by a deep network from input bit strings, whereas another
+deep network is trained to recover the bit strings back from the photos of
+these markers. The two networks are trained simultaneously in a joint
+backpropagation process that takes characteristic photometric and geometric
+distortions associated with marker fabrication and marker scanning into
+account. Additionally, a stylization loss based on statistics of activations in
+a pretrained classification network can be inserted into the learning in order
+to shift the marker appearance towards some texture prototype. In the
+experiments, we demonstrate that the markers obtained using our approach are
+capable of retaining bit strings that are long enough to be practical. The
+ability to automatically adapt markers according to the usage scenario and the
+desired capacity as well as the ability to combine information encoding with
+artistic stylization are the unique properties of our approach. As a byproduct,
+our approach provides an insight on the structure of patterns that are most
+suitable for recognition by ConvNets and on their ability to distinguish
+composite patterns.

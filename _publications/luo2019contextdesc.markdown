@@ -1,0 +1,27 @@
+---
+layout: publication
+title: 'Contextdesc: Local Descriptor Augmentation With Cross-modality Context'
+authors: Zixin Luo, Tianwei Shen, Lei Zhou, Jiahui Zhang, Yao Yao, Shiwei Li, Tian
+  Fang, Long Quan
+conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2019
+bibkey: luo2019contextdesc
+citations: 200
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.04084'}]
+tags: ["CVPR"]
+short_authors: Luo et al.
+---
+Most existing studies on learning local features focus on the patch-based
+descriptions of individual keypoints, whereas neglecting the spatial relations
+established from their keypoint locations. In this paper, we go beyond the
+local detail representation by introducing context awareness to augment
+off-the-shelf local feature descriptors. Specifically, we propose a unified
+learning framework that leverages and aggregates the cross-modality contextual
+information, including (i) visual context from high-level image representation,
+and (ii) geometric context from 2D keypoint distribution. Moreover, we propose
+an effective N-pair loss that eschews the empirical hyper-parameter search and
+improves the convergence. The proposed augmentation scheme is lightweight
+compared with the raw local feature description, meanwhile improves remarkably
+on several large-scale benchmarks with diversified scenes, which demonstrates
+both strong practicality and generalization ability in geometric matching
+applications.

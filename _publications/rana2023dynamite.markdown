@@ -1,0 +1,28 @@
+---
+layout: publication
+title: 'Dynamite: Dynamic Query Bootstrapping For Multi-object Interactive Segmentation
+  Transformer'
+authors: Amit Kumar Rana, Sabarinath Mahadevan, Alexander Hermans, Bastian Leibe
+conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
+year: 2023
+bibkey: rana2023dynamite
+citations: 4
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.06668'}]
+tags: ["ICCV"]
+short_authors: Rana et al.
+---
+Most state-of-the-art instance segmentation methods rely on large amounts of
+pixel-precise ground-truth annotations for training, which are expensive to
+create. Interactive segmentation networks help generate such annotations based
+on an image and the corresponding user interactions such as clicks. Existing
+methods for this task can only process a single instance at a time and each
+user interaction requires a full forward pass through the entire deep network.
+We introduce a more efficient approach, called DynaMITe, in which we represent
+user interactions as spatio-temporal queries to a Transformer decoder with a
+potential to segment multiple object instances in a single iteration. Our
+architecture also alleviates any need to re-compute image features during
+refinement, and requires fewer interactions for segmenting multiple instances
+in a single image when compared to other methods. DynaMITe achieves
+state-of-the-art results on multiple existing interactive segmentation
+benchmarks, and also on the new multi-instance benchmark that we propose in
+this paper.

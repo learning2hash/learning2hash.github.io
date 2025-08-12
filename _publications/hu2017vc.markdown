@@ -1,0 +1,18 @@
+---
+layout: publication
+title: On The Vc-dimension Of Binary Codes
+authors: Sihuang Hu, Nir Weinberger, Ofer Shayevitz
+conference: 2017 IEEE International Symposium on Information Theory (ISIT)
+year: 2017
+bibkey: hu2017vc
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.01586'}]
+tags: ["Compact Codes"]
+short_authors: Sihuang Hu, Nir Weinberger, Ofer Shayevitz
+---
+We investigate the asymptotic rates of length-\(n\) binary codes with
+VC-dimension at most \(dn\) and minimum distance at least \(\delta n\). Two upper
+bounds are obtained, one as a simple corollary of a result by Haussler and the
+other via a shortening approach combining Sauer-Shelah lemma and the linear
+programming bound. Two lower bounds are given using Gilbert-Varshamov type
+arguments over constant-weight and Markov-type sets.
