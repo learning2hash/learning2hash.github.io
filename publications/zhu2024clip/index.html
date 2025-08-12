@@ -52,21 +52,21 @@ alt="Web-Stat web statistics"></a></noscript>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>CLIP Multi-modal Hashing For Multimedia Retrieval | Awesome Learning to Hash</title>
+<title>CLIP-VIS: Adapting CLIP For Open-vocabulary Video Instance Segmentation | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="CLIP Multi-modal Hashing For Multimedia Retrieval" />
+<meta property="og:title" content="CLIP-VIS: Adapting CLIP For Open-vocabulary Video Instance Segmentation" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Multi-modal hashing methods are widely used in multimedia retrieval, which can fuse multi-source data to generate binary hash code. However, the individual backbone networks have limited feature expression capabilities and are not jointly pre-trained on large-scale unsupervised multi-modal data, resulting in low retrieval accuracy. To address this issue, we propose a novel CLIP Multi-modal Hashing (CLIPMH) method. Our method employs the CLIP framework to extract both text and vision features and then fuses them to generate hash code. Due to enhancement on each modal feature, our method has great improvement in the retrieval performance of multi-modal hashing methods. Compared with state-of-the-art unsupervised and supervised multi-modal hashing methods, experiments reveal that the proposed CLIPMH can significantly improve performance (a maximum increase of 8.38% in mAP)." />
-<meta property="og:description" content="Multi-modal hashing methods are widely used in multimedia retrieval, which can fuse multi-source data to generate binary hash code. However, the individual backbone networks have limited feature expression capabilities and are not jointly pre-trained on large-scale unsupervised multi-modal data, resulting in low retrieval accuracy. To address this issue, we propose a novel CLIP Multi-modal Hashing (CLIPMH) method. Our method employs the CLIP framework to extract both text and vision features and then fuses them to generate hash code. Due to enhancement on each modal feature, our method has great improvement in the retrieval performance of multi-modal hashing methods. Compared with state-of-the-art unsupervised and supervised multi-modal hashing methods, experiments reveal that the proposed CLIPMH can significantly improve performance (a maximum increase of 8.38% in mAP)." />
+<meta name="description" content="Open-vocabulary video instance segmentation strives to segment and track instances belonging to an open set of categories in a videos. The vision-language model Contrastive Language-Image Pre-training (CLIP) has shown robust zero-shot classification ability in image-level open-vocabulary tasks. In this paper, we propose a simple encoder-decoder network, called CLIP-VIS, to adapt CLIP for open-vocabulary video instance segmentation. Our CLIP-VIS adopts frozen CLIP and introduces three modules, including class-agnostic mask generation, temporal topK-enhanced matching, and weighted open-vocabulary classification. Given a set of initial queries, class-agnostic mask generation introduces a pixel decoder and a transformer decoder on CLIP pre-trained image encoder to predict query masks and corresponding object scores and mask IoU scores. Then, temporal topK-enhanced matching performs query matching across frames using the K mostly matched frames. Finally, weighted open-vocabulary classification first employs mask pooling to generate query visual features from CLIP pre-trained image encoder, and second performs weighted classification using object scores and mask IoU scores. Our CLIP-VIS does not require the annotations of instance categories and identities. The experiments are performed on various video instance segmentation datasets, which demonstrate the effectiveness of our proposed method, especially for novel categories. When using ConvNeXt-B as backbone, our CLIP-VIS achieves the AP and APn scores of 32.2% and 40.2% on the validation set of LV-VIS dataset, which outperforms OV2Seg by 11.1% and 23.9% respectively. We will release the source code and models at https://github.com/zwq456/CLIP-VIS.git." />
+<meta property="og:description" content="Open-vocabulary video instance segmentation strives to segment and track instances belonging to an open set of categories in a videos. The vision-language model Contrastive Language-Image Pre-training (CLIP) has shown robust zero-shot classification ability in image-level open-vocabulary tasks. In this paper, we propose a simple encoder-decoder network, called CLIP-VIS, to adapt CLIP for open-vocabulary video instance segmentation. Our CLIP-VIS adopts frozen CLIP and introduces three modules, including class-agnostic mask generation, temporal topK-enhanced matching, and weighted open-vocabulary classification. Given a set of initial queries, class-agnostic mask generation introduces a pixel decoder and a transformer decoder on CLIP pre-trained image encoder to predict query masks and corresponding object scores and mask IoU scores. Then, temporal topK-enhanced matching performs query matching across frames using the K mostly matched frames. Finally, weighted open-vocabulary classification first employs mask pooling to generate query visual features from CLIP pre-trained image encoder, and second performs weighted classification using object scores and mask IoU scores. Our CLIP-VIS does not require the annotations of instance categories and identities. The experiments are performed on various video instance segmentation datasets, which demonstrate the effectiveness of our proposed method, especially for novel categories. When using ConvNeXt-B as backbone, our CLIP-VIS achieves the AP and APn scores of 32.2% and 40.2% on the validation set of LV-VIS dataset, which outperforms OV2Seg by 11.1% and 23.9% respectively. We will release the source code and models at https://github.com/zwq456/CLIP-VIS.git." />
 <link rel="canonical" href="https://learning2hash.github.io/publications/zhu2024clip/" />
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhu2024clip/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-12T09:50:12-05:00" />
+<meta property="article:published_time" content="2025-08-12T10:59:29-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="CLIP Multi-modal Hashing For Multimedia Retrieval" />
+<meta property="twitter:title" content="CLIP-VIS: Adapting CLIP For Open-vocabulary Video Instance Segmentation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-12T09:50:12-05:00","datePublished":"2025-08-12T09:50:12-05:00","description":"Multi-modal hashing methods are widely used in multimedia retrieval, which can fuse multi-source data to generate binary hash code. However, the individual backbone networks have limited feature expression capabilities and are not jointly pre-trained on large-scale unsupervised multi-modal data, resulting in low retrieval accuracy. To address this issue, we propose a novel CLIP Multi-modal Hashing (CLIPMH) method. Our method employs the CLIP framework to extract both text and vision features and then fuses them to generate hash code. Due to enhancement on each modal feature, our method has great improvement in the retrieval performance of multi-modal hashing methods. Compared with state-of-the-art unsupervised and supervised multi-modal hashing methods, experiments reveal that the proposed CLIPMH can significantly improve performance (a maximum increase of 8.38% in mAP).","headline":"CLIP Multi-modal Hashing For Multimedia Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2024clip/"},"url":"https://learning2hash.github.io/publications/zhu2024clip/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-12T10:59:29-05:00","datePublished":"2025-08-12T10:59:29-05:00","description":"Open-vocabulary video instance segmentation strives to segment and track instances belonging to an open set of categories in a videos. The vision-language model Contrastive Language-Image Pre-training (CLIP) has shown robust zero-shot classification ability in image-level open-vocabulary tasks. In this paper, we propose a simple encoder-decoder network, called CLIP-VIS, to adapt CLIP for open-vocabulary video instance segmentation. Our CLIP-VIS adopts frozen CLIP and introduces three modules, including class-agnostic mask generation, temporal topK-enhanced matching, and weighted open-vocabulary classification. Given a set of initial queries, class-agnostic mask generation introduces a pixel decoder and a transformer decoder on CLIP pre-trained image encoder to predict query masks and corresponding object scores and mask IoU scores. Then, temporal topK-enhanced matching performs query matching across frames using the K mostly matched frames. Finally, weighted open-vocabulary classification first employs mask pooling to generate query visual features from CLIP pre-trained image encoder, and second performs weighted classification using object scores and mask IoU scores. Our CLIP-VIS does not require the annotations of instance categories and identities. The experiments are performed on various video instance segmentation datasets, which demonstrate the effectiveness of our proposed method, especially for novel categories. When using ConvNeXt-B as backbone, our CLIP-VIS achieves the AP and APn scores of 32.2% and 40.2% on the validation set of LV-VIS dataset, which outperforms OV2Seg by 11.1% and 23.9% respectively. We will release the source code and models at https://github.com/zwq456/CLIP-VIS.git.","headline":"CLIP-VIS: Adapting CLIP For Open-vocabulary Video Instance Segmentation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2024clip/"},"url":"https://learning2hash.github.io/publications/zhu2024clip/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,11 +155,11 @@ function search() {
 
     <div class="content container">
       <div class="page">
-  <h1 class="page-title">CLIP Multi-modal Hashing For Multimedia Retrieval</h1>
+  <h1 class="page-title">CLIP-VIS: Adapting CLIP For Open-vocabulary Video Instance Segmentation</h1>
   <h5>
   
     
-      Jian Zhu, Mingkai Sheng, Zhangmin Huang, Jingfei Chang, Jinling Jiang, Jian Long, Cheng Luo, Lei Liu
+      Wenqi Zhu, Jiale Cao, Jin Xie, Shuangming Yang, Yanwei Pang
     
   
   . IEEE Transactions on Circuits and Systems for Video Technology
@@ -170,27 +170,40 @@ function search() {
   </h5>
   <p>
     
-      [<a href="https://arxiv.org/abs/2410.07783" target="_blank">Paper</a>]
+      [<a href="https://github.com/zwq456/CLIP-VIS.git" target="_blank">Code</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=CLIP Multi-modal Hashing For Multimedia Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=CLIP Multi-modal Hashing For Multimedia Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+      [<a href="https://arxiv.org/abs/2403.12455" target="_blank">Paper</a>]
+    
+    &nbsp;<a href='http://scholar.google.com/scholar?q=CLIP-VIS: Adapting CLIP For Open-vocabulary Video Instance Segmentation' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=CLIP-VIS: Adapting CLIP For Open-vocabulary Video Instance Segmentation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
-      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
+      <tag><a href="/tags.html#Few Shot & Zero Shot">Few Shot & Zero Shot</a></tag>
     
   </p>
-  <p><p>Multi-modal hashing methods are widely used in multimedia retrieval, which
-can fuse multi-source data to generate binary hash code. However, the
-individual backbone networks have limited feature expression capabilities and
-are not jointly pre-trained on large-scale unsupervised multi-modal data,
-resulting in low retrieval accuracy. To address this issue, we propose a novel
-CLIP Multi-modal Hashing (CLIPMH) method. Our method employs the CLIP framework
-to extract both text and vision features and then fuses them to generate hash
-code. Due to enhancement on each modal feature, our method has great
-improvement in the retrieval performance of multi-modal hashing methods.
-Compared with state-of-the-art unsupervised and supervised multi-modal hashing
-methods, experiments reveal that the proposed CLIPMH can significantly improve
-performance (a maximum increase of 8.38% in mAP).</p>
+  <p><p>Open-vocabulary video instance segmentation strives to segment and track
+instances belonging to an open set of categories in a videos. The
+vision-language model Contrastive Language-Image Pre-training (CLIP) has shown
+robust zero-shot classification ability in image-level open-vocabulary tasks.
+In this paper, we propose a simple encoder-decoder network, called CLIP-VIS, to
+adapt CLIP for open-vocabulary video instance segmentation. Our CLIP-VIS adopts
+frozen CLIP and introduces three modules, including class-agnostic mask
+generation, temporal topK-enhanced matching, and weighted open-vocabulary
+classification. Given a set of initial queries, class-agnostic mask generation
+introduces a pixel decoder and a transformer decoder on CLIP pre-trained image
+encoder to predict query masks and corresponding object scores and mask IoU
+scores. Then, temporal topK-enhanced matching performs query matching across
+frames using the K mostly matched frames. Finally, weighted open-vocabulary
+classification first employs mask pooling to generate query visual features
+from CLIP pre-trained image encoder, and second performs weighted
+classification using object scores and mask IoU scores. Our CLIP-VIS does not
+require the annotations of instance categories and identities. The experiments
+are performed on various video instance segmentation datasets, which
+demonstrate the effectiveness of our proposed method, especially for novel
+categories. When using ConvNeXt-B as backbone, our CLIP-VIS achieves the AP and
+APn scores of 32.2% and 40.2% on the validation set of LV-VIS dataset, which
+outperforms OV2Seg by 11.1% and 23.9% respectively. We will release the source
+code and models at https://github.com/zwq456/CLIP-VIS.git.</p>
 </p>
 
   <h6>Similar Work</h6>

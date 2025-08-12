@@ -52,21 +52,21 @@ alt="Web-Stat web statistics"></a></noscript>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Tcdesc: Learning Topology Consistent Descriptors For Image Matching | Awesome Learning to Hash</title>
+<title>Tcdesc: Learning Topology Consistent Descriptors | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Tcdesc: Learning Topology Consistent Descriptors For Image Matching" />
+<meta property="og:title" content="Tcdesc: Learning Topology Consistent Descriptors" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="The constraint of neighborhood consistency or local consistency is widely used for robust image matching. In this paper, we focus on learning neighborhood topology consistent descriptors (TCDesc), while former works of learning descriptors, such as HardNet and DSM, only consider point-to-point Euclidean distance among descriptors and totally neglect neighborhood information of descriptors. To learn topology consistent descriptors, first we propose the linear combination weights to depict the topological relationship between center descriptor and its kNN descriptors, where the difference between center descriptor and the linear combination of its kNN descriptors is minimized. Then we propose the global mapping function which maps the local linear combination weights to the global topology vector and define the topology distance of matching descriptors as l1 distance between their topology vectors. Last we employ adaptive weighting strategy to jointly minimize topology distance and Euclidean distance, which automatically adjust the weight or attention of two distances in triplet loss. Our method has the following two advantages: (1) We are the first to consider neighborhood information of descriptors, while former works mainly focus on neighborhood consistency of feature points; (2) Our method can be applied in any former work of learning descriptors by triplet loss. Experimental results verify the generalization of our method: We can improve the performances of both HardNet and DSM on several benchmarks." />
-<meta property="og:description" content="The constraint of neighborhood consistency or local consistency is widely used for robust image matching. In this paper, we focus on learning neighborhood topology consistent descriptors (TCDesc), while former works of learning descriptors, such as HardNet and DSM, only consider point-to-point Euclidean distance among descriptors and totally neglect neighborhood information of descriptors. To learn topology consistent descriptors, first we propose the linear combination weights to depict the topological relationship between center descriptor and its kNN descriptors, where the difference between center descriptor and the linear combination of its kNN descriptors is minimized. Then we propose the global mapping function which maps the local linear combination weights to the global topology vector and define the topology distance of matching descriptors as l1 distance between their topology vectors. Last we employ adaptive weighting strategy to jointly minimize topology distance and Euclidean distance, which automatically adjust the weight or attention of two distances in triplet loss. Our method has the following two advantages: (1) We are the first to consider neighborhood information of descriptors, while former works mainly focus on neighborhood consistency of feature points; (2) Our method can be applied in any former work of learning descriptors by triplet loss. Experimental results verify the generalization of our method: We can improve the performances of both HardNet and DSM on several benchmarks." />
+<meta name="description" content="Triplet loss is widely used for learning local descriptors from image patch. However, triplet loss only minimizes the Euclidean distance between matching descriptors and maximizes that between the non-matching descriptors, which neglects the topology similarity between two descriptor sets. In this paper, we propose topology measure besides Euclidean distance to learn topology consistent descriptors by considering kNN descriptors of positive sample. First we establish a novel topology vector for each descriptor followed by Locally Linear Embedding (LLE) to indicate the topological relation among the descriptor and its kNN descriptors. Then we define topology distance between descriptors as the difference of their topology vectors. Last we employ the dynamic weighting strategy to fuse Euclidean distance and topology distance of matching descriptors and take the fusion result as the positive sample distance in the triplet loss. Experimental results on several benchmarks show that our method performs better than state-of-the-arts results and effectively improves the performance of triplet loss." />
+<meta property="og:description" content="Triplet loss is widely used for learning local descriptors from image patch. However, triplet loss only minimizes the Euclidean distance between matching descriptors and maximizes that between the non-matching descriptors, which neglects the topology similarity between two descriptor sets. In this paper, we propose topology measure besides Euclidean distance to learn topology consistent descriptors by considering kNN descriptors of positive sample. First we establish a novel topology vector for each descriptor followed by Locally Linear Embedding (LLE) to indicate the topological relation among the descriptor and its kNN descriptors. Then we define topology distance between descriptors as the difference of their topology vectors. Last we employ the dynamic weighting strategy to fuse Euclidean distance and topology distance of matching descriptors and take the fusion result as the positive sample distance in the triplet loss. Experimental results on several benchmarks show that our method performs better than state-of-the-arts results and effectively improves the performance of triplet loss." />
 <link rel="canonical" href="https://learning2hash.github.io/publications/pan2020tcdesc/" />
 <meta property="og:url" content="https://learning2hash.github.io/publications/pan2020tcdesc/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-12T09:50:12-05:00" />
+<meta property="article:published_time" content="2025-08-12T10:59:29-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Tcdesc: Learning Topology Consistent Descriptors For Image Matching" />
+<meta property="twitter:title" content="Tcdesc: Learning Topology Consistent Descriptors" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-12T09:50:12-05:00","datePublished":"2025-08-12T09:50:12-05:00","description":"The constraint of neighborhood consistency or local consistency is widely used for robust image matching. In this paper, we focus on learning neighborhood topology consistent descriptors (TCDesc), while former works of learning descriptors, such as HardNet and DSM, only consider point-to-point Euclidean distance among descriptors and totally neglect neighborhood information of descriptors. To learn topology consistent descriptors, first we propose the linear combination weights to depict the topological relationship between center descriptor and its kNN descriptors, where the difference between center descriptor and the linear combination of its kNN descriptors is minimized. Then we propose the global mapping function which maps the local linear combination weights to the global topology vector and define the topology distance of matching descriptors as l1 distance between their topology vectors. Last we employ adaptive weighting strategy to jointly minimize topology distance and Euclidean distance, which automatically adjust the weight or attention of two distances in triplet loss. Our method has the following two advantages: (1) We are the first to consider neighborhood information of descriptors, while former works mainly focus on neighborhood consistency of feature points; (2) Our method can be applied in any former work of learning descriptors by triplet loss. Experimental results verify the generalization of our method: We can improve the performances of both HardNet and DSM on several benchmarks.","headline":"Tcdesc: Learning Topology Consistent Descriptors For Image Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pan2020tcdesc/"},"url":"https://learning2hash.github.io/publications/pan2020tcdesc/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-12T10:59:29-05:00","datePublished":"2025-08-12T10:59:29-05:00","description":"Triplet loss is widely used for learning local descriptors from image patch. However, triplet loss only minimizes the Euclidean distance between matching descriptors and maximizes that between the non-matching descriptors, which neglects the topology similarity between two descriptor sets. In this paper, we propose topology measure besides Euclidean distance to learn topology consistent descriptors by considering kNN descriptors of positive sample. First we establish a novel topology vector for each descriptor followed by Locally Linear Embedding (LLE) to indicate the topological relation among the descriptor and its kNN descriptors. Then we define topology distance between descriptors as the difference of their topology vectors. Last we employ the dynamic weighting strategy to fuse Euclidean distance and topology distance of matching descriptors and take the fusion result as the positive sample distance in the triplet loss. Experimental results on several benchmarks show that our method performs better than state-of-the-arts results and effectively improves the performance of triplet loss.","headline":"Tcdesc: Learning Topology Consistent Descriptors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pan2020tcdesc/"},"url":"https://learning2hash.github.io/publications/pan2020tcdesc/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,11 +155,11 @@ function search() {
 
     <div class="content container">
       <div class="page">
-  <h1 class="page-title">Tcdesc: Learning Topology Consistent Descriptors For Image Matching</h1>
+  <h1 class="page-title">Tcdesc: Learning Topology Consistent Descriptors</h1>
   <h5>
   
     
-      Honghu Pan, Fanyang Meng, Nana Fan, Zhenyu He
+      Honghu Pan, Fanyang Meng, Zhenyu He, Yongsheng Liang, Wei Liu
     
   
   . Arxiv
@@ -170,36 +170,30 @@ function search() {
   </h5>
   <p>
     
-      [<a href="https://arxiv.org/abs/2009.07036" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2006.03254" target="_blank">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Tcdesc: Learning Topology Consistent Descriptors For Image Matching' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Tcdesc: Learning Topology Consistent Descriptors For Image Matching' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Tcdesc: Learning Topology Consistent Descriptors' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Tcdesc: Learning Topology Consistent Descriptors' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
       <tag><a href="/tags.html#Distance Metric Learning">Distance Metric Learning</a></tag>
     
   </p>
-  <p><p>The constraint of neighborhood consistency or local consistency is widely
-used for robust image matching. In this paper, we focus on learning
-neighborhood topology consistent descriptors (TCDesc), while former works of
-learning descriptors, such as HardNet and DSM, only consider point-to-point
-Euclidean distance among descriptors and totally neglect neighborhood
-information of descriptors. To learn topology consistent descriptors, first we
-propose the linear combination weights to depict the topological relationship
-between center descriptor and its kNN descriptors, where the difference between
-center descriptor and the linear combination of its kNN descriptors is
-minimized. Then we propose the global mapping function which maps the local
-linear combination weights to the global topology vector and define the
-topology distance of matching descriptors as l1 distance between their topology
-vectors. Last we employ adaptive weighting strategy to jointly minimize
-topology distance and Euclidean distance, which automatically adjust the weight
-or attention of two distances in triplet loss. Our method has the following two
-advantages: (1) We are the first to consider neighborhood information of
-descriptors, while former works mainly focus on neighborhood consistency of
-feature points; (2) Our method can be applied in any former work of learning
-descriptors by triplet loss. Experimental results verify the generalization of
-our method: We can improve the performances of both HardNet and DSM on several
-benchmarks.</p>
+  <p><p>Triplet loss is widely used for learning local descriptors from image patch.
+However, triplet loss only minimizes the Euclidean distance between matching
+descriptors and maximizes that between the non-matching descriptors, which
+neglects the topology similarity between two descriptor sets. In this paper, we
+propose topology measure besides Euclidean distance to learn topology
+consistent descriptors by considering kNN descriptors of positive sample. First
+we establish a novel topology vector for each descriptor followed by Locally
+Linear Embedding (LLE) to indicate the topological relation among the
+descriptor and its kNN descriptors. Then we define topology distance between
+descriptors as the difference of their topology vectors. Last we employ the
+dynamic weighting strategy to fuse Euclidean distance and topology distance of
+matching descriptors and take the fusion result as the positive sample distance
+in the triplet loss. Experimental results on several benchmarks show that our
+method performs better than state-of-the-arts results and effectively improves
+the performance of triplet loss.</p>
 </p>
 
   <h6>Similar Work</h6>

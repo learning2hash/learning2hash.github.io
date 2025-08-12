@@ -52,21 +52,21 @@ alt="Web-Stat web statistics"></a></noscript>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Revisiting Metric Learning For Few-shot Image Classification | Awesome Learning to Hash</title>
+<title>Revisiting Local Descriptor Based Image-to-class Measure For Few-shot Learning | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Revisiting Metric Learning For Few-shot Image Classification" />
+<meta property="og:title" content="Revisiting Local Descriptor Based Image-to-class Measure For Few-shot Learning" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="The goal of few-shot learning is to recognize new visual concepts with just a few amount of labeled samples in each class. Recent effective metric-based few-shot approaches employ neural networks to learn a feature similarity comparison between query and support examples. However, the importance of feature embedding, i.e., exploring the relationship among training samples, is neglected. In this work, we present a simple yet powerful baseline for few-shot classification by emphasizing the importance of feature embedding. Specifically, we revisit the classical triplet network from deep metric learning, and extend it into a deep K-tuplet network for few-shot learning, utilizing the relationship among the input samples to learn a general representation learning via episode-training. Once trained, our network is able to extract discriminative features for unseen novel categories and can be seamlessly incorporated with a non-linear distance metric function to facilitate the few-shot classification. Our result on the miniImageNet benchmark outperforms other metric-based few-shot classification methods. More importantly, when evaluated on completely different datasets (Caltech-101, CUB-200, Stanford Dogs and Cars) using the model trained with miniImageNet, our method significantly outperforms prior methods, demonstrating its superior capability to generalize to unseen classes." />
-<meta property="og:description" content="The goal of few-shot learning is to recognize new visual concepts with just a few amount of labeled samples in each class. Recent effective metric-based few-shot approaches employ neural networks to learn a feature similarity comparison between query and support examples. However, the importance of feature embedding, i.e., exploring the relationship among training samples, is neglected. In this work, we present a simple yet powerful baseline for few-shot classification by emphasizing the importance of feature embedding. Specifically, we revisit the classical triplet network from deep metric learning, and extend it into a deep K-tuplet network for few-shot learning, utilizing the relationship among the input samples to learn a general representation learning via episode-training. Once trained, our network is able to extract discriminative features for unseen novel categories and can be seamlessly incorporated with a non-linear distance metric function to facilitate the few-shot classification. Our result on the miniImageNet benchmark outperforms other metric-based few-shot classification methods. More importantly, when evaluated on completely different datasets (Caltech-101, CUB-200, Stanford Dogs and Cars) using the model trained with miniImageNet, our method significantly outperforms prior methods, demonstrating its superior capability to generalize to unseen classes." />
+<meta name="description" content="Few-shot learning in image classification aims to learn a classifier to classify images when only few training examples are available for each class. Recent work has achieved promising classification performance, where an image-level feature based measure is usually used. In this paper, we argue that a measure at such a level may not be effective enough in light of the scarcity of examples in few-shot learning. Instead, we think a local descriptor based image-to-class measure should be taken, inspired by its surprising success in the heydays of local invariant features. Specifically, building upon the recent episodic training mechanism, we propose a Deep Nearest Neighbor Neural Network (DN4 in short) and train it in an end-to-end manner. Its key difference from the literature is the replacement of the image-level feature based measure in the final layer by a local descriptor based image-to-class measure. This measure is conducted online via a (k)-nearest neighbor search over the deep local descriptors of convolutional feature maps. The proposed DN4 not only learns the optimal deep local descriptors for the image-to-class measure, but also utilizes the higher efficiency of such a measure in the case of example scarcity, thanks to the exchangeability of visual patterns across the images in the same class. Our work leads to a simple, effective, and computationally efficient framework for few-shot learning. Experimental study on benchmark datasets consistently shows its superiority over the related state-of-the-art, with the largest absolute improvement of (17%) over the next best. The source code can be available from \UrlFont{https://github.com/WenbinLee/DN4.git}." />
+<meta property="og:description" content="Few-shot learning in image classification aims to learn a classifier to classify images when only few training examples are available for each class. Recent work has achieved promising classification performance, where an image-level feature based measure is usually used. In this paper, we argue that a measure at such a level may not be effective enough in light of the scarcity of examples in few-shot learning. Instead, we think a local descriptor based image-to-class measure should be taken, inspired by its surprising success in the heydays of local invariant features. Specifically, building upon the recent episodic training mechanism, we propose a Deep Nearest Neighbor Neural Network (DN4 in short) and train it in an end-to-end manner. Its key difference from the literature is the replacement of the image-level feature based measure in the final layer by a local descriptor based image-to-class measure. This measure is conducted online via a (k)-nearest neighbor search over the deep local descriptors of convolutional feature maps. The proposed DN4 not only learns the optimal deep local descriptors for the image-to-class measure, but also utilizes the higher efficiency of such a measure in the case of example scarcity, thanks to the exchangeability of visual patterns across the images in the same class. Our work leads to a simple, effective, and computationally efficient framework for few-shot learning. Experimental study on benchmark datasets consistently shows its superiority over the related state-of-the-art, with the largest absolute improvement of (17%) over the next best. The source code can be available from \UrlFont{https://github.com/WenbinLee/DN4.git}." />
 <link rel="canonical" href="https://learning2hash.github.io/publications/li2019revisiting/" />
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2019revisiting/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-12T09:50:12-05:00" />
+<meta property="article:published_time" content="2025-08-12T10:59:29-05:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Revisiting Metric Learning For Few-shot Image Classification" />
+<meta property="twitter:title" content="Revisiting Local Descriptor Based Image-to-class Measure For Few-shot Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-12T09:50:12-05:00","datePublished":"2025-08-12T09:50:12-05:00","description":"The goal of few-shot learning is to recognize new visual concepts with just a few amount of labeled samples in each class. Recent effective metric-based few-shot approaches employ neural networks to learn a feature similarity comparison between query and support examples. However, the importance of feature embedding, i.e., exploring the relationship among training samples, is neglected. In this work, we present a simple yet powerful baseline for few-shot classification by emphasizing the importance of feature embedding. Specifically, we revisit the classical triplet network from deep metric learning, and extend it into a deep K-tuplet network for few-shot learning, utilizing the relationship among the input samples to learn a general representation learning via episode-training. Once trained, our network is able to extract discriminative features for unseen novel categories and can be seamlessly incorporated with a non-linear distance metric function to facilitate the few-shot classification. Our result on the miniImageNet benchmark outperforms other metric-based few-shot classification methods. More importantly, when evaluated on completely different datasets (Caltech-101, CUB-200, Stanford Dogs and Cars) using the model trained with miniImageNet, our method significantly outperforms prior methods, demonstrating its superior capability to generalize to unseen classes.","headline":"Revisiting Metric Learning For Few-shot Image Classification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2019revisiting/"},"url":"https://learning2hash.github.io/publications/li2019revisiting/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-12T10:59:29-05:00","datePublished":"2025-08-12T10:59:29-05:00","description":"Few-shot learning in image classification aims to learn a classifier to classify images when only few training examples are available for each class. Recent work has achieved promising classification performance, where an image-level feature based measure is usually used. In this paper, we argue that a measure at such a level may not be effective enough in light of the scarcity of examples in few-shot learning. Instead, we think a local descriptor based image-to-class measure should be taken, inspired by its surprising success in the heydays of local invariant features. Specifically, building upon the recent episodic training mechanism, we propose a Deep Nearest Neighbor Neural Network (DN4 in short) and train it in an end-to-end manner. Its key difference from the literature is the replacement of the image-level feature based measure in the final layer by a local descriptor based image-to-class measure. This measure is conducted online via a (k)-nearest neighbor search over the deep local descriptors of convolutional feature maps. The proposed DN4 not only learns the optimal deep local descriptors for the image-to-class measure, but also utilizes the higher efficiency of such a measure in the case of example scarcity, thanks to the exchangeability of visual patterns across the images in the same class. Our work leads to a simple, effective, and computationally efficient framework for few-shot learning. Experimental study on benchmark datasets consistently shows its superiority over the related state-of-the-art, with the largest absolute improvement of (17%) over the next best. The source code can be available from \\UrlFont{https://github.com/WenbinLee/DN4.git}.","headline":"Revisiting Local Descriptor Based Image-to-class Measure For Few-shot Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2019revisiting/"},"url":"https://learning2hash.github.io/publications/li2019revisiting/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -155,11 +155,11 @@ function search() {
 
     <div class="content container">
       <div class="page">
-  <h1 class="page-title">Revisiting Metric Learning For Few-shot Image Classification</h1>
+  <h1 class="page-title">Revisiting Local Descriptor Based Image-to-class Measure For Few-shot Learning</h1>
   <h5>
   
     
-      Xiaomeng Li, Lequan Yu, Chi-wing Fu, Meng Fang, Pheng-ann Heng
+      Wenbin Li, Lei Wang, Jinglin Xu, Jing Huo, Yang Gao, Jiebo Luo
     
   
   . 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
@@ -170,38 +170,41 @@ function search() {
   </h5>
   <p>
     
-      [<a href="https://arxiv.org/abs/1907.03123" target="_blank">Paper</a>]
+      [<a href="https://github.com/WenbinLee/DN4.git\" target="_blank">Code</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Revisiting Metric Learning For Few-shot Image Classification' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Revisiting Metric Learning For Few-shot Image Classification' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+      [<a href="https://arxiv.org/abs/1903.12290" target="_blank">Paper</a>]
+    
+    &nbsp;<a href='http://scholar.google.com/scholar?q=Revisiting Local Descriptor Based Image-to-class Measure For Few-shot Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
+    &nbsp;<a href='https://www.semanticscholar.org/search?q=Revisiting Local Descriptor Based Image-to-class Measure For Few-shot Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
     <br/>
     
       <tag><a href="/tags.html#CVPR">CVPR</a></tag>
     
-      <tag><a href="/tags.html#Distance Metric Learning">Distance Metric Learning</a></tag>
-    
       <tag><a href="/tags.html#Few Shot & Zero Shot">Few Shot & Zero Shot</a></tag>
     
   </p>
-  <p><p>The goal of few-shot learning is to recognize new visual concepts with just a
-few amount of labeled samples in each class. Recent effective metric-based
-few-shot approaches employ neural networks to learn a feature similarity
-comparison between query and support examples. However, the importance of
-feature embedding, i.e., exploring the relationship among training samples, is
-neglected. In this work, we present a simple yet powerful baseline for few-shot
-classification by emphasizing the importance of feature embedding.
-Specifically, we revisit the classical triplet network from deep metric
-learning, and extend it into a deep K-tuplet network for few-shot learning,
-utilizing the relationship among the input samples to learn a general
-representation learning via episode-training. Once trained, our network is able
-to extract discriminative features for unseen novel categories and can be
-seamlessly incorporated with a non-linear distance metric function to
-facilitate the few-shot classification. Our result on the miniImageNet
-benchmark outperforms other metric-based few-shot classification methods. More
-importantly, when evaluated on completely different datasets (Caltech-101,
-CUB-200, Stanford Dogs and Cars) using the model trained with miniImageNet, our
-method significantly outperforms prior methods, demonstrating its superior
-capability to generalize to unseen classes.</p>
+  <p><p>Few-shot learning in image classification aims to learn a classifier to
+classify images when only few training examples are available for each class.
+Recent work has achieved promising classification performance, where an
+image-level feature based measure is usually used. In this paper, we argue that
+a measure at such a level may not be effective enough in light of the scarcity
+of examples in few-shot learning. Instead, we think a local descriptor based
+image-to-class measure should be taken, inspired by its surprising success in
+the heydays of local invariant features. Specifically, building upon the recent
+episodic training mechanism, we propose a Deep Nearest Neighbor Neural Network
+(DN4 in short) and train it in an end-to-end manner. Its key difference from
+the literature is the replacement of the image-level feature based measure in
+the final layer by a local descriptor based image-to-class measure. This
+measure is conducted online via a (k)-nearest neighbor search over the deep
+local descriptors of convolutional feature maps. The proposed DN4 not only
+learns the optimal deep local descriptors for the image-to-class measure, but
+also utilizes the higher efficiency of such a measure in the case of example
+scarcity, thanks to the exchangeability of visual patterns across the images in
+the same class. Our work leads to a simple, effective, and computationally
+efficient framework for few-shot learning. Experimental study on benchmark
+datasets consistently shows its superiority over the related state-of-the-art,
+with the largest absolute improvement of (17%) over the next best. The source
+code can be available from \UrlFont{https://github.com/WenbinLee/DN4.git}.</p>
 </p>
 
   <h6>Similar Work</h6>

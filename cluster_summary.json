@@ -1,222 +1,222 @@
 {
-  "3": [
-    {
-      "tag": "hashing",
-      "count": 0.12
-    },
-    {
-      "tag": "hash",
-      "count": 0.082
-    },
-    {
-      "tag": "code",
-      "count": 0.067
-    },
-    {
-      "tag": "binary",
-      "count": 0.06
-    },
-    {
-      "tag": "data",
-      "count": 0.038
-    }
-  ],
-  "0": [
-    {
-      "tag": "algorithm",
-      "count": 0.055
-    },
-    {
-      "tag": "neighbor",
-      "count": 0.048
-    },
-    {
-      "tag": "search",
-      "count": 0.04
-    },
-    {
-      "tag": "lsh",
-      "count": 0.038
-    },
-    {
-      "tag": "nearest",
-      "count": 0.037
-    }
-  ],
-  "8": [
-    {
-      "tag": "image",
-      "count": 0.051
-    },
-    {
-      "tag": "learning",
-      "count": 0.049
-    },
-    {
-      "tag": "metric",
-      "count": 0.048
-    },
-    {
-      "tag": "class",
-      "count": 0.038
-    },
-    {
-      "tag": "sample",
-      "count": 0.031
-    }
-  ],
-  "4": [
-    {
-      "tag": "document",
-      "count": 0.073
-    },
-    {
-      "tag": "entity",
-      "count": 0.051
-    },
-    {
-      "tag": "dense",
-      "count": 0.048
-    },
-    {
-      "tag": "word",
-      "count": 0.047
-    },
-    {
-      "tag": "embeddings",
-      "count": 0.04
-    }
-  ],
-  "2": [
-    {
-      "tag": "descriptor",
-      "count": 0.096
-    },
-    {
-      "tag": "image",
-      "count": 0.07
-    },
-    {
-      "tag": "place",
-      "count": 0.046
-    },
-    {
-      "tag": "feature",
-      "count": 0.043
-    },
-    {
-      "tag": "local",
-      "count": 0.041
-    }
-  ],
-  "1": [
-    {
-      "tag": "music",
-      "count": 0.061
-    },
-    {
-      "tag": "fashion",
-      "count": 0.052
-    },
-    {
-      "tag": "item",
-      "count": 0.04
-    },
-    {
-      "tag": "recommendation",
-      "count": 0.039
-    },
-    {
-      "tag": "audio",
-      "count": 0.037
-    }
-  ],
-  "7": [
-    {
-      "tag": "text",
-      "count": 0.065
-    },
-    {
-      "tag": "image",
-      "count": 0.047
-    },
-    {
-      "tag": "video",
-      "count": 0.045
-    },
-    {
-      "tag": "retrieval",
-      "count": 0.041
-    },
-    {
-      "tag": "visual",
-      "count": 0.034
-    }
-  ],
-  "6": [
-    {
-      "tag": "recommendation",
-      "count": 0.06
-    },
-    {
-      "tag": "graph",
-      "count": 0.057
-    },
-    {
-      "tag": "embedding",
-      "count": 0.048
-    },
-    {
-      "tag": "item",
-      "count": 0.047
-    },
-    {
-      "tag": "user",
-      "count": 0.037
-    }
-  ],
   "9": [
     {
       "tag": "hashing",
-      "count": 0.078
-    },
-    {
-      "tag": "deep",
-      "count": 0.049
+      "count": 0.096
     },
     {
       "tag": "hash",
-      "count": 0.048
+      "count": 0.059
     },
     {
-      "tag": "code",
-      "count": 0.046
+      "tag": "binary",
+      "count": 0.036
     },
     {
       "tag": "image",
-      "count": 0.039
+      "count": 0.035
+    },
+    {
+      "tag": "code",
+      "count": 0.035
     }
   ],
   "5": [
     {
-      "tag": "sketch",
-      "count": 0.089
+      "tag": "code",
+      "count": 0.064
+    },
+    {
+      "tag": "string",
+      "count": 0.06
+    },
+    {
+      "tag": "length",
+      "count": 0.035
+    },
+    {
+      "tag": "bound",
+      "count": 0.035
+    },
+    {
+      "tag": "algorithm",
+      "count": 0.029
+    }
+  ],
+  "3": [
+    {
+      "tag": "random",
+      "count": 0.078
+    },
+    {
+      "tag": "point",
+      "count": 0.033
+    },
+    {
+      "tag": "probability",
+      "count": 0.031
+    },
+    {
+      "tag": "prove",
+      "count": 0.028
+    },
+    {
+      "tag": "measure",
+      "count": 0.027
+    }
+  ],
+  "8": [
+    {
+      "tag": "object",
+      "count": 0.074
+    },
+    {
+      "tag": "segmentation",
+      "count": 0.053
+    },
+    {
+      "tag": "detection",
+      "count": 0.037
     },
     {
       "tag": "person",
-      "count": 0.084
+      "count": 0.035
     },
     {
-      "tag": "sbir",
-      "count": 0.032
-    },
-    {
-      "tag": "object",
+      "tag": "instance",
       "count": 0.026
+    }
+  ],
+  "0": [
+    {
+      "tag": "entity",
+      "count": 0.061
+    },
+    {
+      "tag": "word",
+      "count": 0.049
+    },
+    {
+      "tag": "embeddings",
+      "count": 0.039
+    },
+    {
+      "tag": "language",
+      "count": 0.035
+    },
+    {
+      "tag": "document",
+      "count": 0.03
+    }
+  ],
+  "1": [
+    {
+      "tag": "descriptor",
+      "count": 0.072
+    },
+    {
+      "tag": "image",
+      "count": 0.045
     },
     {
       "tag": "feature",
+      "count": 0.034
+    },
+    {
+      "tag": "local",
+      "count": 0.028
+    },
+    {
+      "tag": "place",
+      "count": 0.025
+    }
+  ],
+  "4": [
+    {
+      "tag": "style",
+      "count": 0.067
+    },
+    {
+      "tag": "image",
+      "count": 0.055
+    },
+    {
+      "tag": "sketch",
+      "count": 0.045
+    },
+    {
+      "tag": "fashion",
+      "count": 0.036
+    },
+    {
+      "tag": "visual",
+      "count": 0.033
+    }
+  ],
+  "2": [
+    {
+      "tag": "image",
+      "count": 0.05
+    },
+    {
+      "tag": "learning",
+      "count": 0.043
+    },
+    {
+      "tag": "class",
+      "count": 0.032
+    },
+    {
+      "tag": "classification",
+      "count": 0.026
+    },
+    {
+      "tag": "visual",
       "count": 0.024
+    }
+  ],
+  "6": [
+    {
+      "tag": "music",
+      "count": 0.054
+    },
+    {
+      "tag": "video",
+      "count": 0.04
+    },
+    {
+      "tag": "sentiment",
+      "count": 0.026
+    },
+    {
+      "tag": "social",
+      "count": 0.022
+    },
+    {
+      "tag": "tweet",
+      "count": 0.021
+    }
+  ],
+  "7": [
+    {
+      "tag": "graph",
+      "count": 0.047
+    },
+    {
+      "tag": "algorithm",
+      "count": 0.038
+    },
+    {
+      "tag": "data",
+      "count": 0.035
+    },
+    {
+      "tag": "search",
+      "count": 0.026
+    },
+    {
+      "tag": "neighbor",
+      "count": 0.026
     }
   ]
 }
