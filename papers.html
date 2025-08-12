@@ -1,260 +1,240 @@
 ---
 layout: default
 title: Search all Publications on Learning to Hash
-description: A list of research papers for Learning to Hash
+description: A list of research papers for Learning to Hash.
 ---
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <h2>Search Publications</h2>
 <p>
-Search across all papers in this collection. Use the search bar to filter by <strong>title</strong>, 
-<strong>authors</strong>, <strong>abstract</strong>, or <strong>tags</strong>, and adjust the <strong>year range</strong> slider to narrow results over time.
+  Search across all papers in this collection. Use the search bar to filter by <strong>title</strong> 
+  and <strong>authors</strong>. Click a title to open the paper’s page.
 </p>
 
 <!-- Loading Indicator -->
-<div id="loading">
+<div id="loading" aria-live="polite">
   <p>Loading Paper List...</p>
 </div>
 
-<!-- Container for search + year filter -->
-<div id="searchYearContainer" style="display:none; margin-bottom:1rem;">
-  <!-- DataTables automatically renders its filter; we restyle to match global-search -->
-  <div id="paperSearch"></div>
-
-  <!-- Year Range Filter -->
-  <div id="yearFilter" class="year-filter" style="margin-top:1rem;">
-    <label for="minYear" style="font-weight:700;">Year range</label>
-    <div class="year-hint" aria-hidden="true">
-      <span class="arrow left">⇠</span> Drag the <strong>left</strong> circle for start year, 
-      drag the <strong>right</strong> circle for end year <span class="arrow right">⇢</span>
-    </div>
-
-    <div class="year-values">
-      <span id="yearMinLabel">—</span>
-      <span class="dash">–</span>
-      <span id="yearMaxLabel">—</span>
-      <button id="yearClear" type="button" aria-label="Clear year filter">Reset</button>
-    </div>
-
-    <div class="slider-row">
-      <input id="minYear" type="range" step="1" aria-label="Minimum year (drag left handle)"/>
-      <input id="maxYear" type="range" step="1" aria-label="Maximum year (drag right handle)"/>
-    </div>
+<!-- Search control -->
+<div class="controls">
+  <div class="search">
+    <label for="globalSearch"><strong>Search</strong></label>
+    <input id="globalSearch" type="search" placeholder="🔍 Search papers…" inputmode="search" />
+    <button id="resetSearch" type="button">Clear</button>
   </div>
 </div>
 
-<!-- Data Table -->
-<table id="allPapers">
-  <thead>
-    <tr>
-      <th>Year</th>
-      <th>Title</th>
-      <th>Short Authors</th>
-      <th style="display: none;"></th>
-      <th>Venue</th>
-      <th>Citations</th>
-      <th>Abstract</th>
-      <th>Tags</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% assign publicationsByYear = site.publications | sort: "year" | group_by: "year" %}
-    {% for year in publicationsByYear reversed %}
-      {% for publication in year.items %}
-      <tr>
-        <td>{{ publication.year }}</td>
-        <td>
-          <a href="{{ publication.url | prepend: site.baseurl }}">{{ publication.title }}</a>
-          <span class="externallinks">
-            &nbsp;<a href='http://scholar.google.com/scholar?q={{ publication.title }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/google-scholar.png" alt="Google Scholar"/></a>
-            <a href='https://www.semanticscholar.org/search?q={{ publication.title }}' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png" alt="Semantic Scholar"/></a>
-          </span>
-        </td>
-        <td>{{ publication.short_authors }}</td>
-        <td style="display: none;">{{ publication.authors }}</td>
-        <td>{{ publication.conference }}</td>
-        <td>{{ publication.citations | default: 0 }}</td>
-        <td>{{ publication.content }}</td>
-        <td>
-          {% for tag in publication.tags %}
-            {{ tag }} 
+<!-- ===== Constrain to content column and prevent sidebar bleed ===== -->
+<div class="content-bound">
+  <div class="table-wrap">
+    <table id="allPapers" class="display stripe hover" style="display:none; width:100%;">
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Title</th>
+          <th>Authors</th>
+          <th>Citations</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% assign publicationsByYear = site.publications | sort: "year" | group_by: "year" %}
+        {% for year in publicationsByYear reversed %}
+          {% for publication in year.items %}
+          <tr>
+            <td data-order="{{ publication.year | default: 0 }}">{{ publication.year }}</td>
+            <td>
+              <a href="{{ publication.url | prepend: site.baseurl }}">{{ publication.title }}</a>
+            </td>
+            <td>{{ publication.short_authors }}</td>
+            <td data-order="{{ publication.citations | default: 0 }}">{{ publication.citations | default: 0 }}</td>
+          </tr>
           {% endfor %}
-        </td>
-      </tr>
-      {% endfor %}
-    {% endfor %}
-  </tbody>
-</table>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
 
 <style>
-  #allPapers { display: none; table-layout: fixed; width: 100%; }
+  :root{
+    --sidebar-width: 0px;
+    --page-gutter: clamp(12px, 2vw, 24px);
+  }
+
+  /* Controls */
+  .controls { display:flex; flex-wrap:wrap; align-items:flex-start; gap:.6rem; margin:.6rem 0 .9rem; }
+  .search { display:flex; align-items:flex-start; gap:.6rem; flex-wrap:wrap; }
+  .search label { font-weight:700; font-size:.85rem; }
+  .search input[type="search"] {
+    width: 260px; max-width: 100%;
+    padding:.25rem .4rem; border:1px solid #aaa; border-radius:4px; font-size:.9rem; background-color:#f8f9fa;
+  }
+  .search input:focus { outline:none; border-color:#0c5fce; box-shadow:0 0 0 2px rgba(26,115,232,.25); }
+  .search button {
+    padding:.25rem .5rem; font-size:.85rem; border:1px solid #aaa; border-radius:4px; background:#f8f9fa; cursor:pointer;
+  }
+  .search button:hover { background:#e2e2e2; }
+
+  /* Keep strictly inside content column (no bleed under sidebar) */
+  .content-bound{
+    width:100%;
+    max-width: min(100%, calc(100vw - var(--sidebar-width) - var(--page-gutter)));
+    box-sizing: border-box;
+  }
+
+  /* No forced horizontal scroll */
+  .table-wrap{ width:100%; overflow-x: clip; }
+
+  /* DataTables: prevent auto min-widths and allow wrapping */
+  table.dataTable {
+    width: 100% !important;
+    table-layout: fixed;           /* critical: lets us control column widths */
+    border-collapse: collapse;
+    font-size: 0.95rem;
+  }
+
+  /* Column widths: Year & Citations narrow, Title/Authors flexible */
+  #allPapers th:nth-child(1), #allPapers td:nth-child(1) { width: 6ch; }  /* Year */
+  #allPapers th:nth-child(4), #allPapers td:nth-child(4) { width: 8ch; }  /* Citations */
+
+  /* Let Title & Authors take the remaining space */
+  #allPapers th:nth-child(2), #allPapers td:nth-child(2),
+  #allPapers th:nth-child(3), #allPapers td:nth-child(3) { width: auto; }
+
+  /* Wrap text nicely; no header nowrap */
+  table.dataTable thead th { white-space: normal !important; }
+  table.dataTable tbody td { white-space: normal !important; word-break: break-word; overflow-wrap: anywhere; }
+
+  /* Right-align numeric columns */
+  #allPapers td:nth-child(1), #allPapers th:nth-child(1),
+  #allPapers td:nth-child(4), #allPapers th:nth-child(4) {
+    text-align:right; font-variant-numeric: tabular-nums;
+  }
+
+  /* Slightly smaller text on narrower screens to keep all columns visible */
+  @media (max-width: 900px) {
+    table.dataTable { font-size: 0.9rem; }
+  }
+  @media (max-width: 600px) {
+    table.dataTable { font-size: 0.85rem; }
+  }
+
+  /* Loading overlay */
   #loading {
     position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
-    font-size: 1.5em; text-align: center; z-index: 1000; background: white;
-    padding: 1em 2em; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.1);
+    font-size: 1.05em; text-align: center; z-index: 1000; background: white;
+    padding: .8em 1.2em; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.08);
   }
-
-  /* ==== Global search (match the t-SNE page exactly) ==== */
-  .global-search { display:flex; align-items:flex-start; justify-content:space-between; gap:.6rem; flex-wrap:wrap; margin-bottom: 10px; }
-  .global-search .group { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
-  .global-search label { font-weight:700; font-size:0.85rem; }
-  .global-search input {
-    width: 200px;
-    padding: 0.25rem 0.4rem;
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    font-size: 0.85rem;
-    background-color: #f8f9fa;
-  }
-  .global-search input:focus {
-    outline: none;
-    border-color: #0c5fce;
-    box-shadow: 0 0 0 2px rgba(26,115,232,.25);
-  }
-  .global-search button {
-    padding: 0.25rem 0.4rem;
-    font-size: 0.85rem;
-    border-radius: 4px;
-    border: 1px solid #aaa;
-    background: #f0f0f0;
-    cursor: pointer;
-  }
-  .global-search button:hover { background: #e2e2e2; }
-
-  /* Apply the same look to the DataTables filter */
-  .dataTables_wrapper .dataTables_filter {
-    float: none !important;
-    text-align: left !important;
-    display: flex;
-    align-items: center;
-    gap: .6rem;
-    margin: 0 0 .5rem 0;
-    padding: 0;
-    width: 100%;
-    flex-wrap: wrap;
-  }
-  /* Make the DT filter adopt global-search layout */
-  #allPapers_filter.global-search { justify-content: flex-start; }
-  #allPapers_filter.global-search label { display:flex; align-items:center; gap:.6rem; }
-
-  /* Year filter */
-  .year-filter { user-select: none; }
-  .year-filter .year-values { display: flex; align-items: center; gap: 8px; margin: .25rem 0 .5rem; }
-  .year-filter .year-values .dash { opacity: .6; }
-  .year-filter #yearClear { padding:.25rem .4rem; font-size:.85rem; border:1px solid #aaa; border-radius:4px; background:#f0f0f0; cursor:pointer; }
-  .year-filter #yearClear:hover { background:#e2e2e2; }
-  .year-filter .slider-row { display:flex; gap:12px; align-items:center; flex-wrap:wrap; }
-  .year-filter input[type="range"] {
-    width: 260px; -webkit-appearance:none; appearance:none; height: 8px; border-radius: 999px;
-    background: linear-gradient(90deg, #ddd, #eee); position: relative; border:1px solid #aaa;
-  }
-  .year-filter input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance:none; appearance:none; width: 14px; height: 14px; border-radius:50%;
-    background:#1a73e8; border: 2px solid white; box-shadow: 0 0 0 1px #1a73e880; cursor: grab;
-  }
-  .year-filter input[type="range"]::-moz-range-thumb {
-    width: 14px; height: 14px; border-radius:50%; background:#1a73e8; border: 2px solid white;
-    box-shadow: 0 0 0 1px #1a73e880; cursor: grab;
-  }
-  .year-filter .year-hint { font-size:.85rem; color:#333; display:flex; gap:.5rem; align-items:center; margin:.25rem 0 .25rem; }
-  .year-filter .year-hint .arrow { display:inline-block; opacity:.7; }
 </style>
 
-<!-- jQuery + DataTables -->
+<!-- jQuery FIRST (no defer to guarantee $ exists) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+<!-- DataTables CSS/JS (no Responsive plugin; we’re keeping all columns visible) -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+<script defer src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+<!-- Dynamic sidebar width (no hardcoding) -->
+<script>
+(function () {
+  function findSidebar() {
+    return document.querySelector('#sidebar, .sidebar, aside[role="complementary"], aside.sidebar');
+  }
+  function setSidebarWidth() {
+    const el = findSidebar();
+    const w = el ? Math.round(el.getBoundingClientRect().width) : 0;
+    document.documentElement.style.setProperty('--sidebar-width', w + 'px');
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setSidebarWidth, { once: true });
+  } else {
+    setSidebarWidth();
+  }
+  window.addEventListener('resize', setSidebarWidth);
+  const sidebar = findSidebar();
+  if (sidebar && 'ResizeObserver' in window) {
+    const ro = new ResizeObserver(setSidebarWidth);
+    ro.observe(sidebar);
+  }
+  if ('MutationObserver' in window) {
+    const mo = new MutationObserver(setSidebarWidth);
+    mo.observe(document.body, { attributes: true, childList: true, subtree: true });
+  }
+})();
+</script>
 
 <script>
   var datatable;
 
-  // Year-range filter hook
-  $.fn.dataTable.ext.search.push(function(settings, data) {
-    if (settings.nTable.id !== 'allPapers') return true;
-    var y = parseInt(data[0], 10);
-    var min = parseInt(document.getElementById('minYear')?.value, 10);
-    var max = parseInt(document.getElementById('maxYear')?.value, 10);
-    if (isNaN(y)) return false;
-    if (isNaN(min) || isNaN(max)) return true;
-    return y >= min && y <= max;
-  });
+  const debounce = (fn, ms=120) => { let t; return (...args)=>{ clearTimeout(t); t=setTimeout(()=>fn.apply(this,args),ms); }; };
 
-  function syncYearSliders() {
-    var minEl = document.getElementById('minYear');
-    var maxEl = document.getElementById('maxYear');
-    var min = parseInt(minEl.value, 10);
-    var max = parseInt(maxEl.value, 10);
-    if (min > max) {
-      if (document.activeElement === minEl) maxEl.value = min;
-      else minEl.value = max;
-    }
-    document.getElementById('yearMinLabel').textContent = minEl.value;
-    document.getElementById('yearMaxLabel').textContent = maxEl.value;
-    if (datatable) datatable.draw(false);
-  }
-
-  $(document).ready(function() {
-    $('#loading').show();
-
+  function initTable(){
     datatable = $('#allPapers').DataTable({
-      paging: false,
-      pageLength: 100,
+      paging: true,
+      pageLength: 50,
+      lengthMenu: [25, 50, 100, 250],
       searching: true,
-      order: [[0, 'desc'], [4, 'desc']],
+      order: [[3, 'desc']], // Citations desc (now column 4)
+      autoWidth: false,       // respect our CSS widths
+      deferRender: true,
+      stateSave: true,
+      scrollX: false,         // no horizontal scroll
+      responsive: false,      // keep all columns always visible
+      dom: 't<"bottom"ip>',
       columnDefs: [
-        { targets: [3, 6, 7], visible: false, searchable: true },
-        { targets: 5, type: 'num' }
+        { targets: 0, type: 'num' }, // Year
+        { targets: 3, type: 'num' }  // Citations
       ],
       initComplete: function() {
+        const api = this.api();
+
         $('#loading').hide();
         $('#allPapers').show();
-        $('#searchYearContainer').show();
 
-        // Make the DataTables filter look like the global-search group
-        var $filter = $('#allPapers_filter');
-        $filter.addClass('global-search'); // adopt same block styling
+        // External search box
+        const externalInput = document.getElementById('globalSearch');
+        const doSearch = debounce(() => { api.search(externalInput.value).draw(false); }, 80);
+        externalInput.addEventListener('input', doSearch);
 
-        var $label = $filter.find('label');
-        // Replace the label's text node (usually "Search:") with "Search"
-        var textNode = $label.contents().filter(function(){ return this.nodeType === 3; }).get(0);
-        if (textNode) { textNode.nodeValue = 'Search '; } else { $label.prepend('Search '); }
+        // Clear search
+        function clearSearch() { externalInput.value=''; api.search('').draw(false); externalInput.focus(); }
+        $('#resetSearch').on('click', clearSearch);
 
-        var $input = $label.find('input');
-        $input.attr('placeholder', '🔍 Search papers…');
+        // Recalc widths after draw
+        api.columns.adjust().draw(false);
 
-        // Add a Reset button identical to the other page
-        if (!document.getElementById('searchReset')) {
-          $('<button id="searchReset" type="button">Clear</button>').insertAfter($input);
-        }
-        $('#searchReset').on('click', function(){
-          $input.val('');
-          datatable.search('').draw();
-          $input.trigger('focus');
+        // Keyboard niceties
+        document.addEventListener('keydown', (e) => {
+          if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+            e.preventDefault();
+            externalInput.focus();
+          } else if (e.key === 'Escape') {
+            clearSearch();
+          }
         });
-
-        // Compute min/max years from column 0
-        var years = this.api().column(0).data().toArray()
-          .map(v => parseInt(v, 10)).filter(v => !isNaN(v));
-        var absoluteMin = Math.min.apply(null, years);
-        var absoluteMax = Math.max.apply(null, years);
-
-        var minEl = document.getElementById('minYear');
-        var maxEl = document.getElementById('maxYear');
-        minEl.min = absoluteMin; minEl.max = absoluteMax; minEl.value = absoluteMin;
-        maxEl.min = absoluteMin; maxEl.max = absoluteMax; maxEl.value = absoluteMax;
-        document.getElementById('yearMinLabel').textContent = minEl.value;
-        document.getElementById('yearMaxLabel').textContent = maxEl.value;
-
-        minEl.addEventListener('input', syncYearSliders);
-        maxEl.addEventListener('input', syncYearSliders);
-        document.getElementById('yearClear').addEventListener('click', function(){
-          minEl.value = absoluteMin;
-          maxEl.value = absoluteMax;
-          syncYearSliders();
-        });
-
-        // Ensure column widths computed after showing containers
-        this.api().columns.adjust().draw(false);
       }
     });
-  });
+
+    // Recalc on resize/orientation
+    const recalc = debounce(function(){
+      if ($.fn.dataTable.isDataTable('#allPapers')) {
+        const api = $('#allPapers').DataTable();
+        api.columns.adjust();
+      }
+    }, 100);
+    window.addEventListener('resize', recalc);
+    window.addEventListener('orientationchange', recalc);
+  }
+
+  // Kick off once DataTables is ready
+  (function whenReady(){
+    if (window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable) {
+      $('#loading').show();
+      initTable();
+    } else {
+      setTimeout(whenReady, 30);
+    }
+  })();
 </script>
