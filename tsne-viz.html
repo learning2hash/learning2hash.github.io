@@ -1,206 +1,240 @@
 ---
 layout: default
 title: Visualization of Publications on Learning to Hash
-description: An interactive t-SNE map of Learning to Hash papers with global search, a year-range slider, a cluster legend, and optional node sizing by citations.
+description: An interactive t-SNE map of Learning to Hash with global search, a cluster legend, and optional node sizing by citations.
 ---
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <style>
-/* Sidebar + legend */
-#cluster-sidebar { font-family: sans-serif; }
-.legend-item:hover { background-color: #eee; border-radius: 4px; }
-#paperviz { flex: 1; }
-#cluster-sidebar { min-width: 220px; }
+/* ====== No hardcoded widths — everything fluid ====== */
+
+/* Let content naturally fill its column; JS will cap max-width to avoid overlapping site sidebar */
+.full-bleed-right{
+  width:100%;
+  margin:0;
+}
+.full-bleed-right > * { max-width:none !important; }
+
+/* Map container grows with parent; friendly min height but fluid */
+#paperviz {
+  width:100%;
+  position:relative;
+  min-height: 50vh;        /* proportional, no fixed px */
+  background:#fff;
+  border:1px solid #eee; border-radius:8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.035);
+}
+
+/* Legend block now sits UNDER the map, full width and responsive */
+#cluster-legend-wrapper{
+  margin-top:16px;
+  padding: 12px;
+  border:1px solid #eee; border-radius:8px; background:#fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.035);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* 👉 Four legend items per row, fixed for all screen sizes */
+#cluster-legend {
+  display:grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap:12px;
+}
+
+/* Smaller legend text per request */
 #cluster-legend .legend-item {
-  background-color: #f9f9f9; padding: 6px 8px; border-radius: 4px;
-  box-shadow: 0 1px 2px rgba(0,0,0,.05); flex: 1 1 180px; font-size: 13px; transition: background-color .2s;
+  background:#f9f9f9;
+  padding:10px 12px;
+  border-radius:8px;
+  box-shadow: 0 1px 2px rgba(0,0,0,.05);
+  transition: background-color .2s, transform .12s ease;
+  cursor:pointer;
+  font-size: .86rem;       /* was .92rem */
+  line-height: 1.35;
 }
-#cluster-legend .legend-item:hover { background-color: #f0f0f0; }
-.tooltip { pointer-events: none; }
+#cluster-legend .legend-item:hover { background:#f0f3f7; transform: translateY(-1px); }
+#cluster-legend .legend-title {
+  font-weight: 600;
+  margin-bottom: 6px;
+  font-size: .9rem;        /* slightly smaller to match reduced item size */
+}
+#cluster-legend .legend-tag {
+  font-size: .78rem;       /* was .82rem */
+  opacity: .9;
+  margin-left: 6px;
+}
 
-/* ==== Global search ==== */
-.global-search { display:flex; align-items:flex-start; justify-content:space-between; gap:.6rem; flex-wrap:wrap; margin-bottom: 10px; }
-.global-search .group { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
-.global-search label { font-weight:700; font-size:0.85rem; }
-.global-search input {
-  width: 240px; max-width: 100%;
-  padding: 0.4rem 0.5rem;
-  border: 1px solid #aaa;
-  border-radius: 4px;
-  font-size: 0.9rem;
-  background-color: #f8f9fa;
-}
-.global-search input:focus {
-  outline: none;
-  border-color: #0c5fce;
-  box-shadow: 0 0 0 2px rgba(26,115,232,.25);
-}
-.global-search button {
-  padding: 0.35rem 0.55rem;
-  font-size: 0.85rem;
-  border-radius: 4px;
-  border: 1px solid #aaa;
-  background: #f0f0f0;
-  cursor: pointer;
-}
-.global-search button:hover { background: #e2e2e2; }
-.global-search .meta { margin-left:auto; display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+/* Tooltip */
+.tooltip { pointer-events:none; }
 
-/* --- Year range sliders (mobile-friendly) --- */
-#time-slider { user-select: none; }
-.range-row { display:flex; gap:12px; align-items:center; margin-top:.25rem; flex-wrap:wrap; }
-.range-values { display:flex; align-items:center; gap:.4rem; margin-top:.25rem; }
-#yearMin, #yearMax {
-  width: 320px; max-width:100%;
-  -webkit-appearance:none; appearance:none; height: 10px; border-radius: 999px;
-  background: linear-gradient(90deg, #ddd, #eee); vertical-align: middle; border: 1px solid #aaa;
-  touch-action: none; /* prevents page scroll fighting while dragging */
+/* Controls — compact, neutral, fluid */
+.controls { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:.6rem; margin:.6rem 0 .9rem; }
+.search { display:flex; align-items:flex-start; gap:.6rem; flex-wrap:wrap; }
+.search label { font-weight:700; font-size:.85rem; }
+.search input[type="search"], .search input[type="text"] {
+  width: clamp(180px, 28vw, 420px);
+  padding:.25rem .4rem; border:1px solid #aaa; border-radius:4px; font-size:.85rem; background:#f8f9fa;
 }
-#yearMin:focus, #yearMax:focus { outline: none; }
-#yearMin:focus-visible, #yearMax:focus-visible { box-shadow: 0 0 0 2px #1a73e84d; }
-#yearMin::-webkit-slider-thumb, #yearMax::-webkit-slider-thumb {
-  -webkit-appearance: none; appearance: none; width: 22px; height: 22px; border-radius: 50%;
-  background: #1a73e8; border: 2px solid #fff; box-shadow: 0 0 0 1px #1a73e880; cursor: grab;
-}
-#yearMin::-moz-range-thumb, #yearMax::-moz-range-thumb {
-  width: 22px; height: 22px; border-radius: 50%; background:#1a73e8; border:2px solid #fff; box-shadow:0 0 0 1px #1a73e880; cursor: grab;
-}
-#yearReset {
-  padding: 0.35rem 0.55rem;
-  font-size: 0.85rem;
-  border-radius: 4px;
-  border: 1px solid #aaa;
-  background: #f0f0f0;
-  cursor: pointer;
-}
-#yearReset:hover { background: #e2e2e2; }
-#yearMinLabel, #yearMaxLabel { font-weight: 600; }
+.search input:focus { outline:none; border-color:#0c5fce; box-shadow:0 0 0 2px rgba(26,115,232,.25); }
+.search button { padding:.25rem .5rem; font-size:.85rem; border:1px solid #aaa; border-radius:4px; background:#f8f9fa; cursor:pointer; }
+.search button:hover { background:#e2e2e2; }
+.small { color:#6b7280; font-size:.9em; }
+.dash { opacity:.6; }
 
-/* Tooltip button (for year-range hint) */
+/* Map controls */
+#controls { display:flex; flex-wrap:wrap; gap:8px; }
+#controls button { padding:.35rem .55rem; border:1px solid #aaa; border-radius:4px; background:#f7f7f7; cursor:pointer; }
+#controls button:hover { background:#eee; }
+
+/* Tooltip button for any hints */
 .info {
   display:inline-flex; align-items:center; justify-content:center;
   width:18px; height:18px; line-height:18px; border-radius:50%;
   border:1px solid #999; background:#f8f8f8; font-size:.75rem; font-weight:700;
   cursor:pointer; padding:0; position:relative; margin-left:.35rem;
 }
-.info:focus { outline: none; box-shadow: 0 0 0 2px rgba(26,115,232,.25); }
+.info:focus { outline:none; box-shadow:0 0 0 2px rgba(26,115,232,.25); }
 .info[data-tooltip]::after {
   content: attr(data-tooltip);
-  position:absolute; left: 50%; transform: translateX(-50%);
-  bottom: calc(100% + 8px);
-  white-space: nowrap; max-width: 80vw; text-wrap: wrap;
+  position:absolute; left:50%; transform:translateX(-50%); bottom: calc(100% + 8px);
+  white-space:normal; max-width:min(36ch, 90vw); line-height:1.35;
   background:#222; color:#fff; padding:.35rem .5rem; border-radius:4px; font-size:.78rem;
   opacity:0; visibility:hidden; transition:opacity .15s ease; z-index:20;
 }
 .info[data-tooltip]::before {
-  content:''; position:absolute; left:50%; transform:translateX(-50%);
-  bottom: calc(100% + 3px); border:6px solid transparent; border-top-color:#222;
-  opacity:0; visibility:hidden; transition:opacity .15s ease; z-index:20;
+  content:''; position:absolute; left:50%; transform:translateX(-50%); bottom: calc(100% + 3px);
+  border:6px solid transparent; border-top-color:#222; opacity:0; visibility:hidden; transition:opacity .15s ease; z-index:20;
 }
 .info:hover::after, .info:hover::before,
 .info:focus::after, .info:focus::before,
-.info[data-show]::after, .info[data-show]::before {
-  opacity:1; visibility:visible;
-}
+.info[data-show]::after, .info[data-show]::before { opacity:1; visibility:visible; }
 
-/* Controls wrap on mobile */
-#controls { display:flex; flex-wrap:wrap; gap:8px; }
-#controls button { padding:.35rem .55rem; border:1px solid #aaa; border-radius:4px; background:#f7f7f7; cursor:pointer; }
-#controls button:hover { background:#eee; }
-
-/* Responsive tweaks */
-@media (max-width: 680px) {
-  .global-search input { width:100%; }
-  .range-row { flex-direction:column; align-items:stretch; gap:10px; }
+/* Narrow screens */
+@media (max-width: 680px){
+  .search input[type="text"] { width:100%; }
   #paperviz { min-height: 360px; }
 }
 </style>
 
 <h2>2D Map of Papers</h2>
 <p>
-  Each dot represents a paper in this collection, positioned using t-SNE based on its content. Use the search bar to filter by title, authors, abstract, or tags, and the year-range slider to narrow results over time.
+  Each dot represents a paper in this collection, positioned using t-SNE based on its content. Use the search bar to filter by title, authors, abstract, or tags.
 </p>
 
-<!-- Updated search bar -->
-<div class="global-search" role="search">
-  <div class="group">
-    <label for="filtermap">Search</label>
-    <input type="text" spellcheck="false" id="filtermap" placeholder="🔍 Search papers…" aria-label="Search papers" />
-    <button id="clearSearch" type="button">Clear</button>
+<div class="full-bleed-right">
+  <!-- Unified controls -->
+  <div class="controls" role="search">
+    <div class="search">
+      <label for="filtermap"><strong>Search</strong></label>
+      <input type="text" spellcheck="false" id="filtermap" placeholder="🔍 Search papers…" aria-label="Search papers" />
+      <button id="clearSearch" type="button">Clear</button>
+      <span id="matchCount" class="small"></span>
+    </div>
   </div>
-  <div class="meta">
-    <span id="matchCount">Matching papers: 0</span>
+
+  <!-- Map controls -->
+  <div class="controls" style="margin-top:-.4rem;">
+    <div class="search">
+      <label><strong>View</strong></label>
+      <div id="controls">
+        <button id="zoom_in">Zoom In</button>
+        <button id="zoom_out">Zoom Out</button>
+        <button id="pan_left">Pan Left</button>
+        <button id="pan_right">Pan Right</button>
+        <button id="pan_up">Pan Up</button>
+        <button id="pan_down">Pan Down</button>
+        <button id="reset_view">Reset View</button>
+      </div>
+    </div>
+    <div class="search" style="margin-left:auto;">
+      <label for="sizeByCitations"><strong>Size by</strong></label>
+      <div>
+        <input type="checkbox" id="sizeByCitations" /> <span class="small">Citations</span>
+      </div>
+    </div>
   </div>
-</div>
 
-<div id="time-slider" style="margin-bottom: 10px;">
-  <label for="yearMin" style="font-weight:700; display:inline-flex; align-items:center;">
-    Year range
-    <button
-      type="button"
-      class="info"
-      aria-label="Tip: drag the left handle for the start year, and the right handle for the end year."
-      data-tooltip="Drag the left handle for the start year; the right handle for the end year."
-    >ⓘ</button>
-  </label>
-  <div class="range-row">
-    <input type="range" id="yearMin" step="1" aria-label="Minimum year (drag left handle)"/>
-    <input type="range" id="yearMax" step="1" aria-label="Maximum year (drag right handle)"/>
-    <button id="yearReset" type="button" aria-label="Reset year range to full">Clear</button>
+  <!-- Map -->
+  <div id="paperviz">
+    <div id="loadingViz" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
+      Loading visualization...
+    </div>
   </div>
-  <div class="range-values">
-    <span id="yearMinLabel">—</span><span style="opacity:.6;">–</span><span id="yearMaxLabel">—</span>
-  </div>
-</div>
 
-<div style="margin-bottom: 10px;">
-  <label for="sizeByCitations">Size by Citations:</label>
-  <input type="checkbox" id="sizeByCitations" />
-</div>
-
-<div id="controls" style="margin-bottom: 10px;">
-  <button id="zoom_in">Zoom In</button>
-  <button id="zoom_out">Zoom Out</button>
-  <button id="pan_left">Pan Left</button>
-  <button id="pan_right">Pan Right</button>
-  <button id="pan_up">Pan Up</button>
-  <button id="pan_down">Pan Down</button>
-  <button id="reset_view">Reset View</button>
-</div>
-
-<div id="paperviz" style="margin-bottom: 20px; position: relative; min-height: 420px;">
-  <div id="loadingViz" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
-    Loading visualization...
-  </div>
-</div>
-
-<div id="cluster-sidebar" style="max-width: 800px; margin: 0 auto; font-family: sans-serif;">
-  <h3 style="margin-top: 0;">🧭 Cluster Legend</h3>
-  <button id="resetClusters" style="margin-bottom: 10px;">Show All Clusters</button>
-  <div id="cluster-legend" style="display: flex; flex-wrap: wrap; gap: 20px;"></div>
+  <!-- Legend UNDER the map -->
+  <section id="cluster-legend-wrapper" aria-label="Cluster Legend">
+    <h3 style="margin: 0 0 8px;">🧭 Cluster Legend</h3>
+    <button id="resetClusters" style="margin-bottom:10px;">Show All Clusters</button>
+    <div id="cluster-legend"></div>
+  </section>
 </div>
 
 <p>
-  Please consider <a href="/contributing.html">contributing</a> by updating
-  the information of existing papers or adding new work.
+  Please consider <a href="/contributing.html">contributing</a> by updating the information of existing papers or adding new work.
 </p>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.0/dist/umd/popper.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/tippy.js@6/dist/tippy.umd.min.js"></script>
 <script src="https://d3js.org/d3.v6.js"></script>
 
 <script>
+/* ----------------- Dynamic width: expand to the real site sidebar (no hardcoding) ----------------- */
+(function dynamicFullBleed(){
+  const container = document.querySelector('.full-bleed-right');
+  if (!container) return;
+
+  function findRealSidebar(){
+    // Try common patterns but EXCLUDE our legend wrapper
+    const cands = Array.from(document.querySelectorAll('aside, [class*="sidebar"], [id*="sidebar"]'))
+      .filter(el => el.id !== 'cluster-legend-wrapper' && !el.closest('#cluster-legend-wrapper'));
+    // Choose the one visually to the right of our container
+    const cr = container.getBoundingClientRect();
+    let best=null, bestLeft=Infinity;
+    for (const el of cands){
+      const r = el.getBoundingClientRect();
+      if (r.left > cr.left && r.left < bestLeft && r.width > 0 && r.height > 0) {
+        best = el; bestLeft = r.left;
+      }
+    }
+    return best;
+  }
+
+  function updateMaxWidth(){
+    const cr = container.getBoundingClientRect();
+    const sidebar = findRealSidebar();
+    const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
+
+    // Default: allow full viewport width from the container's left edge
+    let maxPx = vw - cr.left;
+
+    // If we detected a sidebar to the right, cap at its left edge
+    if (sidebar){
+      const sr = sidebar.getBoundingClientRect();
+      maxPx = Math.max(0, sr.left - cr.left);
+    }
+
+    // Apply as an inline max-width (no CSS variables needed)
+    container.style.maxWidth = maxPx + 'px';
+  }
+
+  const ro = new ResizeObserver(updateMaxWidth);
+  ro.observe(document.documentElement);
+  ro.observe(container);
+
+  // Also watch a likely site sidebar if present
+  const maybeSidebar = findRealSidebar();
+  if (maybeSidebar) ro.observe(maybeSidebar);
+
+  window.addEventListener('resize', updateMaxWidth);
+  window.addEventListener('orientationchange', updateMaxWidth);
+  document.addEventListener('DOMContentLoaded', updateMaxWidth);
+  updateMaxWidth();
+})();
+
 /* ----------------- Tap-to-toggle for tooltip (mobile) ----------------- */
 document.addEventListener('click', function(e){
   const isInfo = e.target.closest('.info[data-tooltip]');
-  document.querySelectorAll('.info[data-show]').forEach(el => {
-    if (el !== isInfo) el.removeAttribute('data-show');
-  });
-  if (isInfo) {
-    e.preventDefault();
-    isInfo.toggleAttribute('data-show');
-  }
+  document.querySelectorAll('.info[data-show]').forEach(el => { if (el !== isInfo) el.removeAttribute('data-show'); });
+  if (isInfo) { e.preventDefault(); isInfo.toggleAttribute('data-show'); }
 }, { passive: false });
 
 /* ----------------- State ----------------- */
@@ -210,23 +244,19 @@ var selectedCluster = null;
 var updateVisualization = () => {};
 var currentTransform = d3.zoomIdentity;
 
-/* Store absolute min/max year for reset */
-var YEAR_ABS_MIN = 2000;
-var YEAR_ABS_MAX = 2023;
-
 /* ----------------- Search helper ----------------- */
 var isMatch = function(d, searchTerm) {
   return searchTerm.length >= 3 && d._searchText.includes(searchTerm);
 };
 
 /* ----------------- Layout / D3 base ----------------- */
-var margin = {top: 10, right: 130, bottom: 30, left: 60};
-var width = 600 - margin.left - margin.right;
-var height = 500 - margin.top - margin.bottom;
+var margin = {top: 10, right: 24, bottom: 30, left: 40};
+var width = 320 - margin.left - margin.right;   // initial; ResizeObserver fixes immediately
+var height = 260 - margin.top - margin.bottom;
 
 var svg = d3.select("#paperviz")
   .append("svg")
-    .attr("width", width + margin.left + margin.right + 100)
+    .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -234,18 +264,18 @@ var svg = d3.select("#paperviz")
 var zoomLayer = svg.append("g");
 var color = d3.scaleOrdinal(d3.schemeCategory10);
 
-/* Scales in outer scope so ResizeObserver can update their ranges */
+/* Keep domains generous; TSNE coordinates should fit here */
 var x = d3.scaleLinear().domain([-25, 25]).range([0, width]);
 var y = d3.scaleLinear().domain([-25, 25]).range([height, 0]);
 
 var zoom = d3.zoom()
-  .scaleExtent([0.5, 20])
+  .scaleExtent([0.4, 20]) // allow a wider zoom-out range
   .on("zoom", function(event) {
     currentTransform = event.transform;
     zoomLayer.attr("transform", event.transform);
   });
 
-svg.call(zoom);
+d3.select("#paperviz svg").call(zoom);
 
 /* Tooltip */
 var tooltip = d3.select("#paperviz")
@@ -253,8 +283,7 @@ var tooltip = d3.select("#paperviz")
   .style("opacity", 0)
   .attr("class", "tooltip")
   .style("background-color", "rgb(81, 81, 81)")
-  .style("width", "420px")
-  .style("max-width", "90vw")
+  .style("max-width", "min(90vw, 42ch)")
   .style("color", "white")
   .style("border-width", "0px")
   .style("border-radius", "10px")
@@ -262,7 +291,6 @@ var tooltip = d3.select("#paperviz")
   .style("position", "absolute");
 
 var mouseover = function() { tooltip.style("opacity", 1); };
-
 var mousemove = function(event, d) {
   const tags = (d.tags || []).slice(0, 6).map(t => `<tag>${t}</tag>`).join(" ");
   tooltip.html(`
@@ -292,67 +320,51 @@ var mousemove = function(event, d) {
 
   tooltip.style("left", left + "px").style("top", top + "px");
 };
-
 var mouseleave = function() { tooltip.style("opacity", 0); };
-var click_link = function(event, d) {
-  window.location.href = "/publications/" + d.key + "/";
-};
+var click_link = function(event, d) { window.location.href = "/publications/" + d.key + "/"; };
 
 /* ----------------- URL State helpers ----------------- */
 function getState() {
   return {
     q: d3.select("#filtermap").property("value"),
-    ymin: d3.select("#yearMin").property("value"),
-    ymax: d3.select("#yearMax").property("value"),
     cluster: selectedCluster
   };
 }
 function setStateFromURL() {
   const p = new URLSearchParams(location.search);
   if (p.get("q")) d3.select("#filtermap").property("value", p.get("q"));
-
-  const yearParam = p.get("year");
-  const yminParam = p.get("ymin");
-  const ymaxParam = p.get("ymax");
-
-  if (yminParam) d3.select("#yearMin").property("value", +yminParam);
-  if (ymaxParam) d3.select("#yearMax").property("value", +ymaxParam);
-  if (!yminParam && yearParam) d3.select("#yearMin").property("value", YEAR_ABS_MIN);
-  if (!ymaxParam && yearParam) d3.select("#yearMax").property("value", +yearParam);
-
-  d3.select("#yearMinLabel").text(d3.select("#yearMin").property("value"));
-  d3.select("#yearMaxLabel").text(d3.select("#yearMax").property("value"));
+  const c = p.get("cluster");
+  if (c !== null && c !== undefined) selectedCluster = c;
 }
 function pushState() {
   const s = getState();
   const p = new URLSearchParams();
   if (s.q) p.set("q", s.q);
-  if (s.ymin) p.set("ymin", s.ymin);
-  if (s.ymax) p.set("ymax", s.ymax);
   if (s.cluster !== null && s.cluster !== undefined && s.cluster !== "null") p.set("cluster", s.cluster);
   const u = `${location.pathname}?${p.toString()}`;
   history.replaceState(null, "", u);
 }
 
 /* ----------------- Initial zoom / reset ----------------- */
+/* More zoomed out by default */
 function applyInitialZoom() {
   const t = d3.zoomIdentity
     .translate(width / 2, height / 2)
-    .scale(0.6)
+    .scale(0.45)  // was 0.6 — lower = more zoomed out
     .translate(-width / 2, -height / 2);
-  svg.call(zoom.transform, t);
+  d3.select("#paperviz svg").call(zoom.transform, t);
   currentTransform = t;
 }
 
 /* ----------------- ResizeObserver for responsiveness ----------------- */
 function resize() {
   const parent = document.getElementById("paperviz");
-  const w = Math.max(540, parent.clientWidth) - margin.left - margin.right - 20;
-  const h = Math.max(360, Math.round(w * 0.66));
+  const w = Math.max(280, parent.clientWidth) - margin.left - margin.right;
+  const h = Math.max(260, Math.round(w * 0.66));
   width = w; height = h;
 
   d3.select("#paperviz svg")
-    .attr("width", width + margin.left + margin.right + 100)
+    .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom);
 
   x.range([0, width]);
@@ -362,6 +374,7 @@ function resize() {
 }
 const ro = new ResizeObserver(resize);
 ro.observe(document.getElementById("paperviz"));
+resize();
 
 /* ----------------- Data load & visualization ----------------- */
 Promise.all([
@@ -388,22 +401,10 @@ Promise.all([
     ].join(" ").toLowerCase();
   });
 
-  // Year slider min/max from data
-  var years = allData.map(d => d.year).filter(v => !isNaN(v));
-  var minYear = d3.min(years) || 2000;
-  var maxYear = d3.max(years) || 2023;
-  YEAR_ABS_MIN = minYear;
-  YEAR_ABS_MAX = maxYear;
-
-  d3.select("#yearMin").attr("min", minYear).attr("max", maxYear).property("value", minYear);
-  d3.select("#yearMax").attr("min", minYear).attr("max", maxYear).property("value", maxYear);
-  d3.select("#yearMinLabel").text(minYear);
-  d3.select("#yearMaxLabel").text(maxYear);
-
-  // If URL has state, apply it now (may overwrite)
+  // If URL has state, apply it now
   setStateFromURL();
 
-  // Build legend
+  // Build legend dynamically
   const legendContainer = d3.select("#cluster-legend");
   const countsByCluster = d3.rollup(allData, v => v.length, d => String(d.cluster));
 
@@ -411,20 +412,26 @@ Promise.all([
     const count = countsByCluster.get(String(cluster)) || 0;
     const item = legendContainer.append("div")
       .attr("class", "legend-item")
-      .style("cursor", "pointer")
-      .style("margin-bottom", "10px")
       .style("border-left", `6px solid ${color(cluster)}`)
       .style("padding-left", "8px")
       .on("click", function() {
+        // Keep selection using the RAW cluster id (0-based), only the label shows 1-based.
         selectedCluster = (selectedCluster === cluster ? null : cluster);
         legendContainer.selectAll(".legend-item").style("outline", "none");
         if (selectedCluster !== null) d3.select(this).style("outline", "2px solid #ddd");
         updateVisualization();
       });
 
-    item.append("div").style("font-weight", "bold").text(`Cluster ${cluster} (${count})`);
+    // Display label as 1-based and include "papers" in parentheses
+    const displayCluster = (Number(cluster) + 1);
+    item.append("div")
+      .attr("class", "legend-title")
+      .text(`Cluster ${displayCluster} (${count} papers)`);
+
     (tags || []).slice(0, 6).forEach(tag => {
-      item.append("div").style("font-size", "12px").style("margin-left", "5px").text(tag.tag);
+      item.append("div")
+        .attr("class", "legend-tag")
+        .text(tag.tag);
     });
   });
 
@@ -434,32 +441,14 @@ Promise.all([
     updateVisualization();
   });
 
-  // Update function
+  // Update function (no year filtering)
   updateVisualization = function() {
-    var minSel = +d3.select("#yearMin").property("value");
-    var maxSel = +d3.select("#yearMax").property("value");
-
-    if (minSel > maxSel) {
-      const active = document.activeElement && document.activeElement.id;
-      if (active === 'yearMin') {
-        d3.select("#yearMax").property("value", minSel);
-        maxSel = minSel;
-      } else {
-        d3.select("#yearMin").property("value", maxSel);
-        minSel = maxSel;
-      }
-    }
-    d3.select("#yearMinLabel").text(minSel);
-    d3.select("#yearMaxLabel").text(maxSel);
-
     var searchTerm = (d3.select("#filtermap").property("value") || "").toLowerCase();
 
     filteredData = allData.filter(d => {
-      const y = d.year;
-      const yearMatch = isNaN(y) ? true : (y >= minSel && y <= maxSel);
       const textMatch = !searchTerm || isMatch(d, searchTerm);
       const clusterMatch = (selectedCluster === null) || (String(d.cluster) === String(selectedCluster));
-      return yearMatch && textMatch && clusterMatch;
+      return textMatch && clusterMatch;
     });
 
     var circles = zoomLayer.selectAll("circle").data(filteredData, d => d.key);
@@ -517,17 +506,6 @@ Promise.all([
   updateVisualization();
 
   // UI bindings
-  d3.select("#yearMin").on("input", updateVisualization);
-  d3.select("#yearMax").on("input", updateVisualization);
-
-  d3.select("#yearReset").on("click", function() {
-    d3.select("#yearMin").property("value", YEAR_ABS_MIN);
-    d3.select("#yearMax").property("value", YEAR_ABS_MAX);
-    d3.select("#yearMinLabel").text(YEAR_ABS_MIN);
-    d3.select("#yearMaxLabel").text(YEAR_ABS_MAX);
-    updateVisualization();
-  });
-
   let debounceTimer;
   d3.select("#filtermap").on("keyup", function() {
     clearTimeout(debounceTimer);
