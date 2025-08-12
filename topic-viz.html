@@ -8,18 +8,18 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
 <h2>Topic Explorer</h2>
 <p>
-  This page uses topic modelling to group Learning to Hash  papers by their most important themes.
+  This page uses topic modelling to group Learning to Hash papers by their most important themes.
   Use the sliders to change topic importance and see the top matching papers update instantly.
 </p>
 
-<!-- ===== Full-bleed Topic Panel ===== -->
-<div class="full-bleed">
-  <div class="inner">
+<!-- ===== Full-bleed-to-right wrapper so sliders can use width up to sidebar ===== -->
+<div class="full-bleed-right">
+  <!-- ===== Compact, content-safe containers ===== -->
+  <div class="content-wrap">
     <!-- Topic Filters (expanded by default) -->
     <details id="topicPanel" class="topic-panel" open>
       <summary>
         <span class="summary-left">
-          <!-- Chevron icon (rotates when open) -->
           <svg class="summary-caret" width="14" height="14" viewBox="0 0 20 20" aria-hidden="true">
             <path d="M7 5l6 5-6 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
           </svg>
@@ -31,134 +31,200 @@ description: Interactive topic model explorer — adjust topic weights to see th
             data-tooltip="Increase a slider to upweight that topic. ‘Reset all’ returns every slider to zero. Top results update live."
           >ⓘ</button>
         </span>
+
         <span class="summary-meta">
           <span id="activeSummary" class="small" aria-live="polite">No active weights</span>
+          <button id="resetAll" type="button" class="reset-inline" aria-label="Reset all topic sliders">Reset all</button>
           <span id="expandHint" class="summary-hint" aria-hidden="true">Click to collapse</span>
         </span>
       </summary>
-
-      <div class="topic-actions">
-        <button id="resetAll" type="button" aria-label="Reset all topic sliders">Reset all</button>
-      </div>
 
       <!-- Topic controls -->
       <div id="topicslider" class="topic-grid" aria-live="polite"></div>
     </details>
   </div>
-</div>
 
-<!-- ===== Full-bleed Results ===== -->
-<div class="full-bleed">
-  <div class="inner">
+  <div class="content-wrap">
     <ul id="toppapers" class="pub-list">
-      <li>Please move the sliders to look at the papers.</li>
+      <li class="always-nowrap hint">Please move the sliders to look at the papers.</li>
     </ul>
   </div>
 </div>
 
 <style>
-  /* ========= Full-bleed utilities ========= */
-  .full-bleed { width: 100vw; position: relative; left: 50%; right: 50%; margin-left: -50vw; margin-right: -50vw; }
-  .full-bleed .inner { max-width: 1400px; margin: 0 auto; padding: 0 12px; }
-  .full-bleed, .full-bleed * { overflow: visible; }
+  :root{
+    /* JS sets --sidebar-width dynamically (0 if no sidebar) */
+    --sidebar-width: 0px;
+    --page-gutter: clamp(12px, 2vw, 24px);
+  }
 
-  /* ========= Panel ========= */
+  .full-bleed-right {
+    width: 100%;
+    max-width: min(100%, calc(100vw - var(--sidebar-width) - var(--page-gutter)));
+    margin-right: auto;
+    box-sizing: border-box;
+  }
+
+  .content-wrap { width: 100%; max-width: 100%; overflow: visible; }
+
+  /* ========= Compact Panel ========= */
   .topic-panel {
-    border: 1px solid #ececf2; border-radius: .75rem; background: #fff; margin: .5rem 0 1rem; width: 100%;
+    border: 1px solid #ececf2; border-radius: .6rem; background: #fff;
+    margin: .35rem 0 .6rem; width: 100%;
   }
   .topic-panel > summary {
     list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between;
-    gap: .75rem; padding: .6rem .75rem; font-weight: 600; user-select: none; flex-wrap: wrap;
+    gap: .5rem; padding: .45rem .6rem; font-weight: 600; user-select: none; flex-wrap: wrap;
   }
   .topic-panel > summary:hover { background: #fafbff; }
-  .topic-panel > summary:focus-visible { outline: none; box-shadow: inset 0 0 0 3px rgba(26,115,232,.25); border-radius: .7rem; }
+  .topic-panel > summary:focus-visible { outline: none; box-shadow: inset 0 0 0 2px rgba(26,115,232,.22); border-radius: .55rem; }
   .topic-panel[open] > summary { border-bottom: 1px solid #f0f0f0; }
 
-  .summary-left { display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; }
+  .summary-left { display:flex; align-items:center; gap:.45rem; flex-wrap:wrap; }
   .summary-caret { transition: transform .18s ease; transform-origin: 50% 50%; }
   .topic-panel[open] .summary-caret { transform: rotate(90deg); }
 
-  .summary-meta { display: flex; align-items: center; gap: .6rem; flex-wrap: wrap; }
-  .summary-meta .small { font-weight: 400; }
-  .summary-hint { color:#6b7280; font-size:.85rem; opacity:.9; }
+  .summary-meta { display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; }
+  .summary-hint { color:#6b7280; font-size:.8rem; opacity:.9; }
+  .small { color:#6b7280; font-size:.85rem; }
 
-  /* First-load nudge */
   @keyframes nudge { 0%,100%{transform:translateX(0)} 30%{transform:translateX(2px)} 60%{transform:translateX(-2px)} }
   .topic-panel.nudge .summary-caret { animation: nudge 700ms ease-in-out 2; }
 
-  /* Actions row */
-  .topic-actions { display:flex; align-items:center; gap:.5rem; padding:.5rem .75rem 0; }
-  #resetAll { padding:.35rem .6rem; border:1px solid #d9dbe3; border-radius:.45rem; background:#f8f9fb; cursor:pointer; }
-  #resetAll:hover { background:#eef2f7; }
-
-  /* ========= Topic grid ========= */
-  .topic-grid {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: .6rem .7rem; padding: .6rem .75rem .8rem; width: 100%;
+  .reset-inline {
+    padding: .25rem .5rem; border:1px solid #d9dbe3; border-radius:.4rem; background:#f8f9fb;
+    font-size:.8rem; line-height:1; cursor:pointer;
   }
-  @media (min-width: 1200px) { .topic-grid { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); } }
-  @media (min-width: 1600px) { .topic-grid { grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); } }
+  .reset-inline:hover { background:#eef2f7; }
 
-  /* ========= Topic row ========= */
+  /* ========= Slider grid: 3 per row ========= */
+  .topic-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: .55rem .65rem;
+    padding: .55rem .6rem .6rem;
+    width: 100%;
+  }
+  @media (max-width: 1100px) {
+    .topic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+  @media (max-width: 640px) {
+    .topic-grid { grid-template-columns: 1fr; }
+  }
+
+  /* ========= Topic row: label on top; slider beneath; value to the right of slider ========= */
   .topic-row {
     display: grid;
-    grid-template-columns: 1fr minmax(180px, 1fr) auto; /* pill | slider | value */
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "label label"
+      "slider val";
     align-items: center;
-    gap: .45rem .6rem;
-    background: #fff; border-radius: .6rem; border: 1px solid #ececf2; padding: .35rem .5rem; width: 100%;
-  }
-  /* Stack on narrow screens: pill on top, slider below, value inline at end */
-  @media (max-width: 640px) {
-    .topic-row { grid-template-columns: 1fr; grid-auto-flow: row; }
-    .topic-row .val { justify-self: end; }
+    gap: .35rem .5rem; /* row gap then column gap */
+    background: #fff; border-radius: .6rem; border: 1px solid #ececf2; padding: .6rem .6rem; width: 100%;
+    overflow: hidden;
   }
 
-  /* ====== Tag pill (stacked lines to minimize width) ====== */
   .topic-row .tag-chip {
-    text-decoration: none; border-radius: .6rem; padding: .3rem .5rem; background: #f6f7f9; border: 1px solid #e6e8ec;
-    display: inline-block; font-size: .67rem; line-height: 1.15; color: inherit;
-    max-width: 100%; white-space: normal; /* allow wrapping */
+    grid-area: label;
+    display:inline-block; 
+    box-sizing:border-box; 
+    max-width: 100%;
+    white-space: normal; 
+    overflow-wrap:anywhere; 
+    word-break: break-word; 
+    hyphens:auto;
+    text-decoration:none; 
+    border-radius:.45rem; 
+    padding:.15rem .4rem;
+    background:#f6f7f9; 
+    border:1px solid #e6e8ec;
+    font-size: clamp(.65rem, .85vw, .85rem);
+    line-height: 1.15; 
+    color: inherit;
+    margin: 0;
+    width: 100%;
   }
-  .topic-row .tag-chip .line { display:block; }
-  .topic-row .tag-chip:hover { background: #f0f3f7; }
+  .topic-row .tag-chip .line { display:inline; }
+  .topic-row .tag-chip .sep { opacity:.6; padding:0 .25ch; }
 
-  /* Slider track fills its column (touch-friendly) */
+  .slider-wrap{
+    grid-area: slider;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .topic-row .val {
+    grid-area: val;
+    min-width: 2ch; text-align: right; font-variant-numeric: tabular-nums;
+    font-size: .8rem; opacity: .85; padding-left: .1rem;
+    justify-self: end;
+  }
+
+  /* ===== Compact slider ===== */
   .topic-row input[type="range"] {
-    width: 100%; -webkit-appearance: none; appearance: none;
-    height: 10px; border-radius: 999px; background: linear-gradient(90deg, #ddd, #eee); vertical-align: middle; touch-action: none;
+    width: 100%;
+    min-width: 0;
+    display: inline-block;
+    -webkit-appearance: none; appearance: none;
+    height: 6px; border-radius: 999px; background: linear-gradient(90deg, #ddd, #eee);
+    margin: 0; padding: 0; vertical-align: middle; touch-action: none;
   }
   .topic-row input[type="range"]:focus { outline: none; }
-  .topic-row input[type="range"]:focus-visible { box-shadow: 0 0 0 3px #1a73e84d; }
+  .topic-row input[type="range"]:focus-visible { box-shadow: 0 0 0 2px #1a73e84d; }
+
   .topic-row input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none; appearance: none; width: 20px; height: 20px; border-radius: 50%;
-    background: #1a73e8; border: 2px solid #fff; box-shadow: 0 0 0 2px #1a73e880; cursor: grab;
+    -webkit-appearance: none; appearance: none; width: 14px; height: 14px; border-radius: 50%;
+    background: #1a73e8; border: 2px solid #fff; box-shadow: 0 0 0 1px #1a73e880; cursor: grab; margin-top: -4px;
   }
   .topic-row input[type="range"]::-moz-range-thumb {
-    width: 20px; height: 20px; border-radius: 50%; background: #1a73e8; border: 2px solid #fff; box-shadow: 0 0 0 2px #1a73e880; cursor: grab;
+    width: 14px; height: 14px; border-radius: 50%; background:#1a73e8; border: 2px solid #fff; box-shadow: 0 0 0 1px #1a73e880; cursor: grab;
   }
-  .topic-row .val { min-width: 2ch; text-align: right; font-variant-numeric: tabular-nums; font-size: .78rem; opacity: .8; }
+  .topic-row input[type="range"]::-moz-range-track { height: 6px; border-radius: 999px; background: #e9eaee; }
 
-  /* ========= Publications list — responsive grid ========= */
+  /* ========= Publications list (fluid grid) ========= */
   .pub-list {
-    margin: 0; padding-left: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-    gap: .5rem .8rem; width: 100%;
+    margin: 0; padding-left: 0;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: .45rem .6rem; width: 100%;
+    align-items: start;
   }
-  @media (min-width: 1400px) { .pub-list { grid-template-columns: repeat(auto-fill, minmax(420px, 1fr)); } }
-  .pub-list li { list-style: none; margin: 0; }
-  .pub-list a { font-weight: 600; }
+  @media (min-width: 1400px) {
+    .pub-list { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+  }
+  .pub-list li { 
+    list-style: none; 
+    margin: 0; 
+    min-width: 0;                 /* allow content to shrink/wrap in grid */
+    white-space: normal;          /* default: let titles wrap */
+    overflow-wrap: anywhere;      /* break long tokens/URLs */
+    word-break: break-word;
+  }
+  .pub-list li.always-nowrap {     /* keep specific items (placeholder) to one line */
+    white-space: nowrap;
+  }
+  .pub-list li.hint {              /* subtle hint style */
+    color: #6b7280;
+    opacity: .95;
+  }
+  .pub-list a { 
+    font-weight: 600; 
+    overflow-wrap:anywhere; 
+    word-break:break-word; 
+  }
 
-  /* ========= Small text helpers ========= */
-  .small { color:#6b7280; font-size:.9em; }
-
-  /* Tooltip button (same pattern as other pages) */
+  /* Info icon + tooltip */
   .info {
     display:inline-flex; align-items:center; justify-content:center; width:18px; height:18px; line-height:18px; border-radius:50%;
-    border:1px solid #999; background:#f8f8f8; font-size:.75rem; font-weight:700; cursor:pointer; padding:0; position:relative;
+    border:1px solid #999; background:#f8f8f8; font-size:.72rem; font-weight:700; cursor:pointer; padding:0; position:relative;
   }
   .info:focus { outline: none; box-shadow: 0 0 0 2px rgba(26,115,232,.25); }
   .info[data-tooltip]::after {
     content: attr(data-tooltip); position:absolute; left: 50%; transform: translateX(-50%); bottom: calc(100% + 8px);
-    white-space: nowrap; max-width: 80vw; text-wrap: wrap; background:#222; color:#fff; padding:.35rem .5rem; border-radius:4px; font-size:.78rem;
+    white-space: normal; max-width: 80vw; background:#222; color:#fff; padding:.35rem .5rem; border-radius:4px; font-size:.75rem;
     opacity:0; visibility:hidden; transition:opacity .15s ease; z-index:20;
   }
   .info[data-tooltip]::before {
@@ -170,8 +236,28 @@ description: Interactive topic model explorer — adjust topic weights to see th
   .info[data-show]::after, .info[data-show]::before { opacity:1; visibility:visible; }
 </style>
 
+<!-- Dynamic sidebar width (no hardcoding) -->
 <script>
-  // Tap-to-toggle tooltip on mobile (same pattern as other pages)
+(function(){
+  function findSidebar(){
+    return document.querySelector('#sidebar, .sidebar, aside[role="complementary"], aside.sidebar');
+  }
+  function setSidebarWidth(){
+    const el = findSidebar();
+    const w = el ? Math.round(el.getBoundingClientRect().width) : 0;
+    document.documentElement.style.setProperty('--sidebar-width', w + 'px');
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setSidebarWidth, { once:true });
+  } else { setSidebarWidth(); }
+  window.addEventListener('resize', setSidebarWidth);
+  const s = findSidebar();
+  if (s && 'ResizeObserver' in window) new ResizeObserver(setSidebarWidth).observe(s);
+})();
+</script>
+
+<script>
+  // Info tooltip toggle (click or focus)
   document.addEventListener('click', function(e){
     const isInfo = e.target.closest('.info[data-tooltip]');
     document.querySelectorAll('.info[data-show]').forEach(el => { if (el !== isInfo) el.removeAttribute('data-show'); });
@@ -181,15 +267,18 @@ description: Interactive topic model explorer — adjust topic weights to see th
   var all_papers = null;
   var num_topics = -1;
 
-  // Build a stacked-label pill: each keyword on its own line
   function makeTopicRow(words, idx) {
     const id = 'topicSlider' + idx;
     const label = words.join(', ');
-    const stacked = words.map(w => `<span class="line">${w}</span>`).join('');
+    const inline = words.map((w,i) =>
+      `<span class="line">${w}</span>${i < words.length-1 ? '<span class="sep">·</span>' : ''}`
+    ).join(' ');
     return `
       <div class="topic-row" data-idx="${idx}" data-text="${label.toLowerCase()}">
-        <span class="tag-chip" title="${label}">${stacked}</span>
-        <input type="range" min="0" max="10" value="0" id="${id}" aria-label="Weight for topic ${idx+1}: ${label}">
+        <span class="tag-chip" title="${label}">${inline}</span>
+        <div class="slider-wrap">
+          <input type="range" min="0" max="10" value="0" id="${id}" aria-label="Weight for topic ${idx+1}: ${label}">
+        </div>
         <span class="val" id="${id}Val">0</span>
       </div>
     `;
@@ -227,7 +316,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
     const $list = $("#toppapers").empty();
 
     if (!hasActiveWeights()) {
-      $list.append('<li>Please move the sliders to look at the papers.</li>');
+      $list.append('<li class="always-nowrap hint">Please move the sliders to look at the papers.</li>');
       updateActiveSummary();
       return;
     }
@@ -243,7 +332,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
     }
 
     if (maxScore <= 0) {
-      $list.append('<li>No matches for the current topic weights. Try increasing one or two sliders.</li>');
+      $list.append('<li class="always-nowrap hint">No matches for the current topic weights. Try increasing one or two sliders.</li>');
       updateActiveSummary();
       return;
     }
@@ -271,14 +360,12 @@ description: Interactive topic model explorer — adjust topic weights to see th
       all_papers = data.paper_data;
       num_topics = data.topics.length;
 
-      // Build the grid
       let html = '';
       for (let i = 0; i < num_topics; i++) {
         html += makeTopicRow(data.topics[i], i);
       }
       $("#topicslider").html(html);
 
-      // Slider events
       for (let i = 0; i < num_topics; i++) {
         const id = 'topicSlider' + i;
         $("#" + id).on("input change", function() {
@@ -287,17 +374,12 @@ description: Interactive topic model explorer — adjust topic weights to see th
         });
       }
 
-      // Reset
-      $("#resetAll").on("click", resetAll);
+      document.getElementById('resetAll').addEventListener('click', resetAll);
 
-      // First render
       renderPapers();
 
-      // Keep the panel OPEN by default
       const panel = document.getElementById('topicPanel');
       panel.open = true;
-
-      // Nudge + hint
       panel.classList.add('nudge');
       setTimeout(() => panel.classList.remove('nudge'), 1600);
 
@@ -308,7 +390,6 @@ description: Interactive topic model explorer — adjust topic weights to see th
     });
   });
 
-  // Keyboard shortcuts
   document.addEventListener('keydown', (e) => {
     if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'r') {
       e.preventDefault();
