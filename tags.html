@@ -224,7 +224,7 @@ description: Explore tags for Learning to Hash research papers
 </div>
 
 <h2>Tags</h2>
-<p class="small">Collapsed view shows the first {{ LIMIT_PER_TAG }}. Click a tag to expand and see <strong>all</strong> papers.</p>
+<p class="small">Click a tag to expand and see <strong>all</strong> papers.</p>
 
 {% assign sortedPublications = site.publications | sort: "year" | reverse %}
 
@@ -261,17 +261,64 @@ description: Explore tags for Learning to Hash research papers
                   {% if publication.conference %} • {{ publication.conference }}{% endif %}
                   {% if publication.citations %} • {{ publication.citations }} citations{% endif %}
                 </span>
-                {% if publication.authors %}
-                  <div class="pub-authors">
-                    {% comment %} Keeping just the first author to reduce DOM size. {% endcomment %}
-                    {% assign a_count = publication.authors | size %}
-                    {% if a_count > 0 %}
-                      {% assign first_author = publication.authors | slice: 0, 1 | join: ", " %}
-                      {{ first_author }}{% if a_count > 1 %} et&nbsp;al.{% endif %}
-                    {% else %}
-                      {{ publication.authors }}
+                {% comment %}
+                  Robust author rendering:
+                  - Prefer short_authors if present
+                  - Else handle authors as YAML list or comma-separated string
+                  - Trim whitespace
+                  - Skip consortium/team labels for display when possible
+                  - If first author looks like an initial (<=2 chars) and there are more authors, list all
+                {% endcomment %}
+                {% if publication.short_authors and publication.short_authors != '' %}
+                  <div class="pub-authors">{{ publication.short_authors }}</div>
+                {% elsif publication.authors %}
+                  {% assign authors_raw = publication.authors %}
+
+                  {%- comment -%} Detect if authors_raw is an array by attempting a join {%- endcomment -%}
+                  {% capture joined %}{{ authors_raw | join: '||' }}{% endcapture %}
+                  {% if joined contains '||' %}
+                    {% assign authors_list = authors_raw %}
+                  {% else %}
+                    {% assign authors_list = authors_raw | split: ',' %}
+                  {% endif %}
+
+                  {%- comment -%} Build a trimmed copy of authors_list {%- endcomment -%}
+                  {% assign _acc = '' %}
+                  {% for a in authors_list %}
+                    {% assign a2 = a | strip %}
+                    {% if a2 != '' %}
+                      {% if forloop.first %}
+                        {% assign _acc = a2 %}
+                      {% else %}
+                        {% assign _acc = _acc | append: '||' | append: a2 %}
+                      {% endif %}
                     {% endif %}
-                  </div>
+                  {% endfor %}
+                  {% assign authors_list = _acc | split: '||' %}
+                  {% assign a_count = authors_list | size %}
+                  {% assign first_author = authors_list | first %}
+
+                  {%- comment -%} Handle team/consortium first entries {%- endcomment -%}
+                  {% assign is_team = false %}
+                  {% if first_author contains 'Team' or first_author contains 'Consortium' or first_author contains 'Group' or first_author contains 'Collaboration' %}
+                    {% assign is_team = true %}
+                  {% endif %}
+
+                  {% if is_team and a_count > 1 %}
+                    {% assign display_author = authors_list[1] %}
+                  {% else %}
+                    {% assign display_author = first_author %}
+                  {% endif %}
+
+                  {% if display_author | size <= 2 and a_count > 1 %}
+                    <div class="pub-authors">
+                      {%- for a in authors_list -%}{{ a }}{%- if forloop.last == false -%}, {%- endif -%}{%- endfor -%}
+                    </div>
+                  {% else %}
+                    <div class="pub-authors">
+                      {{ display_author }}{% if a_count > 1 %} et&nbsp;al.{% endif %}
+                    </div>
+                  {% endif %}
                 {% endif %}
               </li>
             {% endif %}
