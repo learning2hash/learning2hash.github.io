@@ -44,6 +44,19 @@ description: Interactive topic model explorer — adjust topic weights to see th
     </details>
   </div>
 
+  <!-- Results controls -->
+  <div class="content-wrap" style="display:flex; align-items:center; gap:.5rem; margin:.25rem 0 .5rem;">
+    <label for="resultCount" class="small"><strong>Show top</strong></label>
+    <select id="resultCount" aria-label="Select number of results to display">
+      <option value="20" selected>20</option>
+      <option value="50">50</option>
+      <option value="100">100</option>
+      <option value="200">200</option>
+      <option value="all">All</option>
+    </select>
+    <span id="resultMeta" class="small" aria-live="polite"></span>
+  </div>
+
   <div class="content-wrap">
     <ul id="toppapers" class="pub-list">
       <li class="always-nowrap hint">Please move the sliders to look at the papers.</li>
@@ -112,7 +125,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
     .topic-grid { grid-template-columns: 1fr; }
   }
 
-  /* ========= Topic row: label on top; slider beneath; value to the right of slider ========= */
+  /* ========= Topic row ========= */
   .topic-row {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -121,7 +134,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
       "label label"
       "slider val";
     align-items: center;
-    gap: .35rem .5rem; /* row gap then column gap */
+    gap: .35rem .5rem;
     background: #fff; border-radius: .6rem; border: 1px solid #ececf2; padding: .6rem .6rem; width: 100%;
     overflow: hidden;
   }
@@ -198,15 +211,15 @@ description: Interactive topic model explorer — adjust topic weights to see th
   .pub-list li { 
     list-style: none; 
     margin: 0; 
-    min-width: 0;                 /* allow content to shrink/wrap in grid */
-    white-space: normal;          /* default: let titles wrap */
-    overflow-wrap: anywhere;      /* break long tokens/URLs */
+    min-width: 0;
+    white-space: normal;
+    overflow-wrap: anywhere;
     word-break: break-word;
   }
-  .pub-list li.always-nowrap {     /* keep specific items (placeholder) to one line */
+  .pub-list li.always-nowrap {
     white-space: nowrap;
   }
-  .pub-list li.hint {              /* subtle hint style */
+  .pub-list li.hint {
     color: #6b7280;
     opacity: .95;
   }
@@ -267,6 +280,18 @@ description: Interactive topic model explorer — adjust topic weights to see th
   var all_papers = null;
   var num_topics = -1;
 
+  // NEW: result count state (20/50/100/200/'all')
+  var RESULTS_N = '20';
+
+  function getUrlParam(name) {
+    const params = new URLSearchParams(window.location.search);
+    return params.get(name);
+  }
+
+  function isValidResultN(v){
+    return v === 'all' || ['20','50','100','200'].includes(v);
+  }
+
   function makeTopicRow(words, idx) {
     const id = 'topicSlider' + idx;
     const label = words.join(', ');
@@ -318,10 +343,11 @@ description: Interactive topic model explorer — adjust topic weights to see th
     if (!hasActiveWeights()) {
       $list.append('<li class="always-nowrap hint">Please move the sliders to look at the papers.</li>');
       updateActiveSummary();
+      const meta = document.getElementById('resultMeta');
+      if (meta) meta.textContent = '';
       return;
     }
 
-    const N = 20;
     const paper_idxs = [];
     let maxScore = 0;
 
@@ -334,15 +360,23 @@ description: Interactive topic model explorer — adjust topic weights to see th
     if (maxScore <= 0) {
       $list.append('<li class="always-nowrap hint">No matches for the current topic weights. Try increasing one or two sliders.</li>');
       updateActiveSummary();
+      const meta = document.getElementById('resultMeta');
+      if (meta) meta.textContent = '';
       return;
     }
 
     paper_idxs.sort((a, b) => b[1] - a[1]);
 
-    for (let i = 0; i < Math.min(N, paper_idxs.length); i++) {
+    const total = paper_idxs.length;
+    const limit = (RESULTS_N === 'all') ? total : Math.min(Number(RESULTS_N), total);
+
+    for (let i = 0; i < limit; i++) {
       const data = all_papers[paper_idxs[i][0]];
-      $list.append(`<li><a href="/publications/${data.key}">${data.title}</a>. ${data.year || ''}</li>`);
+      $("#toppapers").append(`<li><a href="/publications/${data.key}">${data.title}</a>. ${data.year || ''}</li>`);
     }
+
+    const meta = document.getElementById('resultMeta');
+    if (meta) meta.textContent = `${limit} of ${total} papers shown`;
     updateActiveSummary();
   }
 
@@ -356,6 +390,22 @@ description: Interactive topic model explorer — adjust topic weights to see th
   }
 
   $(document).ready(function() {
+    // Preselect results via URL param ?n=20|50|100|200|all
+    const nParam = getUrlParam('n');
+    const rcEl = document.getElementById('resultCount');
+    if (nParam && isValidResultN(nParam)) {
+      rcEl.value = nParam;
+      RESULTS_N = nParam;
+    } else {
+      RESULTS_N = rcEl.value;
+    }
+
+    // Change handler for results selector
+    rcEl.addEventListener('change', () => {
+      RESULTS_N = rcEl.value;
+      renderPapers();
+    });
+
     $.getJSON('/topics.json', function(data) {
       all_papers = data.paper_data;
       num_topics = data.topics.length;
