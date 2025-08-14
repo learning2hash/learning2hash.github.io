@@ -34,7 +34,22 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
         <span class="summary-meta">
           <span id="activeSummary" class="small" aria-live="polite">No active weights</span>
+
           <button id="resetAll" type="button" class="reset-inline" aria-label="Reset all topic sliders">Reset all</button>
+
+          <!-- Inline results control (moved here, to the right of Reset all) -->
+          <span class="result-inline">
+            <label for="resultCount" class="small inline"><strong>Show top</strong></label>
+            <select id="resultCount" aria-label="Select number of results to display">
+              <option value="20" selected>20</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+              <option value="200">200</option>
+              <option value="all">All</option>
+            </select>
+            <span id="resultMeta" class="small" aria-live="polite"></span>
+          </span>
+
           <span id="expandHint" class="summary-hint" aria-hidden="true">Click to collapse</span>
         </span>
       </summary>
@@ -44,18 +59,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
     </details>
   </div>
 
-  <!-- Results controls -->
-  <div class="content-wrap" style="display:flex; align-items:center; gap:.5rem; margin:.25rem 0 .5rem;">
-    <label for="resultCount" class="small"><strong>Show top</strong></label>
-    <select id="resultCount" aria-label="Select number of results to display">
-      <option value="20" selected>20</option>
-      <option value="50">50</option>
-      <option value="100">100</option>
-      <option value="200">200</option>
-      <option value="all">All</option>
-    </select>
-    <span id="resultMeta" class="small" aria-live="polite"></span>
-  </div>
+  <!-- Removed separate Results controls block (now inline in header) -->
 
   <div class="content-wrap">
     <ul id="toppapers" class="pub-list">
@@ -100,6 +104,15 @@ description: Interactive topic model explorer — adjust topic weights to see th
   .summary-meta { display:flex; align-items:center; gap:.5rem; flex-wrap:wrap; }
   .summary-hint { color:#6b7280; font-size:.8rem; opacity:.9; }
   .small { color:#6b7280; font-size:.85rem; }
+
+  /* Inline results control styling */
+  .result-inline {
+    display:flex; align-items:center; gap:.4rem; flex-wrap:wrap;
+  }
+  .result-inline .inline { margin-right:.25rem; }
+  #resultCount {
+    padding:.2rem .35rem; font-size:.85rem; border:1px solid #d9dbe3; border-radius:.35rem; background:#fff;
+  }
 
   @keyframes nudge { 0%,100%{transform:translateX(0)} 30%{transform:translateX(2px)} 60%{transform:translateX(-2px)} }
   .topic-panel.nudge .summary-caret { animation: nudge 700ms ease-in-out 2; }
@@ -348,16 +361,16 @@ description: Interactive topic model explorer — adjust topic weights to see th
       return;
     }
 
+    // Only consider papers with a strictly positive score (epsilon guards floating pt noise)
+    const EPS = 1e-9;
     const paper_idxs = [];
-    let maxScore = 0;
 
     for (let i = 0; i < all_papers.length; i++) {
       const s = scorePaper(i);
-      paper_idxs.push([i, s]);
-      if (s > maxScore) maxScore = s;
+      if (s > EPS) paper_idxs.push([i, s]);
     }
 
-    if (maxScore <= 0) {
+    if (paper_idxs.length === 0) {
       $list.append('<li class="always-nowrap hint">No matches for the current topic weights. Try increasing one or two sliders.</li>');
       updateActiveSummary();
       const meta = document.getElementById('resultMeta');
