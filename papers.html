@@ -173,8 +173,8 @@ description: A list of research papers for Learning to Hash.
   function initTable(){
     datatable = $('#allPapers').DataTable({
       paging: true,
-      pageLength: 50,
-      lengthMenu: [25, 50, 100, 250],
+      pageLength: 2000,
+      lengthMenu: [25, 50, 100, 250, 1000, 2000],
       searching: true,
       order: [[3, 'desc']], // Citations desc (now column 4)
       autoWidth: false,       // respect our CSS widths
