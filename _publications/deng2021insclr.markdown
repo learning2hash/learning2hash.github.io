@@ -1,0 +1,26 @@
+---
+layout: publication
+title: 'Insclr: Improving Instance Retrieval With Self-supervision'
+authors: Zelu Deng, Yujie Zhong, Sheng Guo, Weilin Huang
+conference: Proceedings of the AAAI Conference on Artificial Intelligence
+year: 2022
+bibkey: deng2021insclr
+citations: 11
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.01390'}]
+tags: ["AAAI", "Evaluation", "Self-Supervised"]
+short_authors: Deng et al.
+---
+This work aims at improving instance retrieval with self-supervision. We find
+that fine-tuning using the recently developed self-supervised (SSL) learning
+methods, such as SimCLR and MoCo, fails to improve the performance of instance
+retrieval. In this work, we identify that the learnt representations for
+instance retrieval should be invariant to large variations in viewpoint and
+background etc., whereas self-augmented positives applied by the current SSL
+methods can not provide strong enough signals for learning robust
+instance-level representations. To overcome this problem, we propose InsCLR, a
+new SSL method that builds on the \textit\{instance-level\} contrast, to learn
+the intra-class invariance by dynamically mining meaningful pseudo positive
+samples from both mini-batches and a memory bank during training. Extensive
+experiments demonstrate that InsCLR achieves similar or even better performance
+than the state-of-the-art SSL methods on instance retrieval. Code is available
+at https://github.com/zeludeng/insclr.
