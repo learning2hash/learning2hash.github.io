@@ -12,7 +12,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
   Use the sliders to change topic importance and see the top matching papers update instantly.
 </p>
 
-<!-- ===== Full-bleed-to-right wrapper so sliders can use width up to sidebar ===== -->
+<!-- ===== Centered, safe wrapper (no sidebar math) ===== -->
 <div class="full-bleed-right">
   <!-- ===== Compact, content-safe containers ===== -->
   <div class="content-wrap">
@@ -70,16 +70,18 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
 <style>
   :root{
-    /* JS sets --sidebar-width dynamically (0 if no sidebar) */
-    --sidebar-width: 0px;
     --page-gutter: clamp(12px, 2vw, 24px);
   }
 
+  /* Centered wrapper with gutters; no sidebar subtraction */
   .full-bleed-right {
-    width: 100%;
-    max-width: min(100%, calc(100vw - var(--sidebar-width) - var(--page-gutter)));
-    margin-right: auto;
     box-sizing: border-box;
+    width: 100%;
+    max-width: 1200px; /* tweak if you want wider/narrower on desktop */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--page-gutter);
+    padding-right: var(--page-gutter);
   }
 
   .content-wrap { width: 100%; max-width: 100%; overflow: visible; }
@@ -261,26 +263,6 @@ description: Interactive topic model explorer — adjust topic weights to see th
   .info:focus::after, .info:focus::before,
   .info[data-show]::after, .info[data-show]::before { opacity:1; visibility:visible; }
 </style>
-
-<!-- Dynamic sidebar width (no hardcoding) -->
-<script>
-(function(){
-  function findSidebar(){
-    return document.querySelector('#sidebar, .sidebar, aside[role="complementary"], aside.sidebar');
-  }
-  function setSidebarWidth(){
-    const el = findSidebar();
-    const w = el ? Math.round(el.getBoundingClientRect().width) : 0;
-    document.documentElement.style.setProperty('--sidebar-width', w + 'px');
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', setSidebarWidth, { once:true });
-  } else { setSidebarWidth(); }
-  window.addEventListener('resize', setSidebarWidth);
-  const s = findSidebar();
-  if (s && 'ResizeObserver' in window) new ResizeObserver(setSidebarWidth).observe(s);
-})();
-</script>
 
 <script>
   // Info tooltip toggle (click or focus)
