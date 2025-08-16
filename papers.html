@@ -90,7 +90,7 @@ description: A list of research papers for Learning to Hash.
   /* DataTables: prevent auto min-widths and allow wrapping */
   table.dataTable {
     width: 100% !important;
-    table-layout: fixed;           /* critical: lets us control column widths */
+    table-layout: fixed;           /* control column widths */
     border-collapse: collapse;
     font-size: 0.95rem;
   }
@@ -121,18 +121,21 @@ description: A list of research papers for Learning to Hash.
     table.dataTable { font-size: 0.85rem; }
   }
 
-  /* Loading overlay */
+  /* Loading overlay (lower z-index to avoid odd mobile pinning) */
   #loading {
     position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
-    font-size: 1.05em; text-align: center; z-index: 1000; background: white;
+    font-size: 1.05em; text-align: center; z-index: 10; background: white;
     padding: .8em 1.2em; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.08);
   }
+
+  /* Fallback: show plain table if DataTables fails or times out */
+  #allPapers.fallback-visible { display: table !important; }
 </style>
 
 <!-- jQuery FIRST (no defer to guarantee $ exists) -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<!-- DataTables CSS/JS (no Responsive plugin; we’re keeping all columns visible) -->
+<!-- DataTables CSS/JS -->
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
 <script defer src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 
@@ -165,35 +168,68 @@ description: A list of research papers for Learning to Hash.
 })();
 </script>
 
+<!-- Mobile-friendly DataTables bootstrap with graceful fallback -->
 <script>
-  var datatable;
+  // Utility: debounce
+  const debounce = (fn, ms = 120) => { let t; return (...args) => { clearTimeout(t); t = setTimeout(() => fn.apply(this, args), ms); }; };
 
-  const debounce = (fn, ms=120) => { let t; return (...args)=>{ clearTimeout(t); t=setTimeout(()=>fn.apply(this,args),ms); }; };
+  // Detect mobile-ish viewport
+  const isNarrow = () => window.matchMedia("(max-width: 768px)").matches;
 
-  function initTable(){
-    datatable = $('#allPapers').DataTable({
+  // Safety fallback: if DataTables never becomes available or init is too slow, show plain table
+  function fallbackToPlainTable(reason) {
+    try {
+      console.warn("[Papers] Falling back to plain table:", reason);
+      const loader = document.getElementById('loading');
+      if (loader) loader.style.display = 'none';
+      const tbl = document.getElementById('allPapers');
+      if (tbl) tbl.classList.add('fallback-visible');
+    } catch(e) {}
+  }
+
+  function initTable() {
+    if (!window.jQuery || !window.jQuery.fn) {
+      fallbackToPlainTable("jQuery missing");
+      return;
+    }
+    if (!window.jQuery.fn.dataTable) {
+      fallbackToPlainTable("DataTables missing");
+      return;
+    }
+
+    const pageLen = isNarrow() ? 75 : 200;  // lighter default for mobile
+    const lengths  = isNarrow()
+      ? [25, 50, 75, 100, 250]
+      : [25, 50, 100, 250, 1000, 2000];
+
+    // Show loader now (in case user navigated back with cached state)
+    $('#loading').show();
+
+    const dt = $('#allPapers').DataTable({
       paging: true,
-      pageLength: 2000,
-      lengthMenu: [25, 50, 100, 250, 1000, 2000],
+      pageLength: pageLen,
+      lengthMenu: lengths,
       searching: true,
-      order: [[3, 'desc']], // Citations desc (now column 4)
-      autoWidth: false,       // respect our CSS widths
+      order: [[3, 'desc']],    // Citations desc
+      autoWidth: false,
       deferRender: true,
       stateSave: true,
-      scrollX: false,         // no horizontal scroll
-      responsive: false,      // keep all columns always visible
+      scrollX: false,
+      responsive: false,
+      orderClasses: false,     // fewer reflows on large tables
       dom: 't<"bottom"ip>',
       columnDefs: [
         { targets: 0, type: 'num' }, // Year
         { targets: 3, type: 'num' }  // Citations
       ],
-      initComplete: function() {
+      initComplete: function () {
         const api = this.api();
 
+        // Hide loader & reveal table
         $('#loading').hide();
         $('#allPapers').show();
 
-        // External search box
+        // External search
         const externalInput = document.getElementById('globalSearch');
         const doSearch = debounce(() => { api.search(externalInput.value).draw(false); }, 80);
         externalInput.addEventListener('input', doSearch);
@@ -202,10 +238,10 @@ description: A list of research papers for Learning to Hash.
         function clearSearch() { externalInput.value=''; api.search('').draw(false); externalInput.focus(); }
         $('#resetSearch').on('click', clearSearch);
 
-        // Recalc widths after draw
+        // Adjust columns after first draw (and after orientation changes)
         api.columns.adjust().draw(false);
 
-        // Keyboard niceties
+        // Keyboard shortcuts
         document.addEventListener('keydown', (e) => {
           if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
             e.preventDefault();
@@ -217,24 +253,51 @@ description: A list of research papers for Learning to Hash.
       }
     });
 
-    // Recalc on resize/orientation
+    // Recalc on resize/orientation with debounce
     const recalc = debounce(function(){
       if ($.fn.dataTable.isDataTable('#allPapers')) {
-        const api = $('#allPapers').DataTable();
-        api.columns.adjust();
+        $('#allPapers').DataTable().columns.adjust();
       }
     }, 100);
     window.addEventListener('resize', recalc);
     window.addEventListener('orientationchange', recalc);
   }
 
-  // Kick off once DataTables is ready
-  (function whenReady(){
-    if (window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable) {
-      $('#loading').show();
-      initTable();
-    } else {
-      setTimeout(whenReady, 30);
-    }
+  // Kickoff with robust readiness + timeouts
+  (function bootstrap() {
+    // 1) Wait for DataTables to load (deferred) OR bail out after 5s
+    const start = Date.now();
+    (function waitForDT() {
+      if (window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable) {
+        // 2) On mobile, defer init until after load/idle to keep first paint snappy
+        const doInit = () => initTable();
+        if (isNarrow()) {
+          if ('requestIdleCallback' in window) {
+            requestIdleCallback(doInit, { timeout: 1500 });
+          } else {
+            setTimeout(doInit, 300); // gentle delay for mobile
+          }
+        } else {
+          doInit();
+        }
+      } else if (Date.now() - start > 5000) {
+        fallbackToPlainTable("DataTables not ready after 5s");
+      } else {
+        setTimeout(waitForDT, 50);
+      }
+    })();
+
+    // 3) Absolute fallback: if *initComplete* didn't fire within 8s, show plain table
+    setTimeout(() => {
+      const tbl = document.getElementById('allPapers');
+      if (tbl && getComputedStyle(tbl).display === 'none') {
+        fallbackToPlainTable("init timeout");
+      } else {
+        const loader = document.getElementById('loading');
+        if (loader && getComputedStyle(loader).display !== 'none') {
+          loader.style.display = 'none';
+        }
+      }
+    }, 8000);
   })();
 </script>
