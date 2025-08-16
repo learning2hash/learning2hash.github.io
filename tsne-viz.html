@@ -7,14 +7,22 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <style>
-/* ====== No hardcoded widths — everything fluid ====== */
+/* ====== Simple, safe container (no sidebar subtraction) ====== */
+:root{ --page-gutter: clamp(12px, 2vw, 24px); }
 
-/* Let content naturally fill its column; JS will cap max-width to avoid overlapping site sidebar */
+/* Centered wrapper with comfy gutters */
 .full-bleed-right{
+  box-sizing:border-box;
   width:100%;
-  margin:0;
+  max-width:1200px;          /* adjust if you want wider/narrower on desktop */
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:var(--page-gutter);
+  padding-right:var(--page-gutter);
 }
-.full-bleed-right > * { max-width:none !important; }
+
+/* Children can be full width inside this container */
+.full-bleed-right > * { max-width: 100% !important; }
 
 /* Map container grows with parent; friendly min height but fluid */
 #paperviz {
@@ -26,7 +34,7 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
   box-shadow: 0 1px 2px rgba(0,0,0,.035);
 }
 
-/* Legend block now sits UNDER the map, full width and responsive */
+/* Legend block sits UNDER the map, full width and responsive */
 #cluster-legend-wrapper{
   margin-top:16px;
   padding: 12px;
@@ -35,14 +43,14 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
 }
 
-/* 👉 Four legend items per row, fixed for all screen sizes */
+/* Responsive legend grid so it never squeezes layout */
 #cluster-legend {
   display:grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap:12px;
 }
 
-/* Smaller legend text per request */
+/* Smaller legend text */
 #cluster-legend .legend-item {
   background:#f9f9f9;
   padding:10px 12px;
@@ -54,16 +62,8 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
   line-height: 1.35;
 }
 #cluster-legend .legend-item:hover { background:#f0f3f7; transform: translateY(-1px); }
-#cluster-legend .legend-title {
-  font-weight: 600;
-  margin-bottom: 6px;
-  font-size: .9rem;        /* slightly smaller to match reduced item size */
-}
-#cluster-legend .legend-tag {
-  font-size: .78rem;       /* was .82rem */
-  opacity: .9;
-  margin-left: 6px;
-}
+#cluster-legend .legend-title { font-weight: 600; margin-bottom: 6px; font-size: .9rem; }
+#cluster-legend .legend-tag { font-size: .78rem; opacity: .9; margin-left: 6px; }
 
 /* Tooltip */
 .tooltip { pointer-events:none; }
@@ -177,59 +177,6 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 <script src="https://d3js.org/d3.v6.js"></script>
 
 <script>
-/* ----------------- Dynamic width: expand to the real site sidebar (no hardcoding) ----------------- */
-(function dynamicFullBleed(){
-  const container = document.querySelector('.full-bleed-right');
-  if (!container) return;
-
-  function findRealSidebar(){
-    // Try common patterns but EXCLUDE our legend wrapper
-    const cands = Array.from(document.querySelectorAll('aside, [class*="sidebar"], [id*="sidebar"]'))
-      .filter(el => el.id !== 'cluster-legend-wrapper' && !el.closest('#cluster-legend-wrapper'));
-    // Choose the one visually to the right of our container
-    const cr = container.getBoundingClientRect();
-    let best=null, bestLeft=Infinity;
-    for (const el of cands){
-      const r = el.getBoundingClientRect();
-      if (r.left > cr.left && r.left < bestLeft && r.width > 0 && r.height > 0) {
-        best = el; bestLeft = r.left;
-      }
-    }
-    return best;
-  }
-
-  function updateMaxWidth(){
-    const cr = container.getBoundingClientRect();
-    const sidebar = findRealSidebar();
-    const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-
-    // Default: allow full viewport width from the container's left edge
-    let maxPx = vw - cr.left;
-
-    // If we detected a sidebar to the right, cap at its left edge
-    if (sidebar){
-      const sr = sidebar.getBoundingClientRect();
-      maxPx = Math.max(0, sr.left - cr.left);
-    }
-
-    // Apply as an inline max-width (no CSS variables needed)
-    container.style.maxWidth = maxPx + 'px';
-  }
-
-  const ro = new ResizeObserver(updateMaxWidth);
-  ro.observe(document.documentElement);
-  ro.observe(container);
-
-  // Also watch a likely site sidebar if present
-  const maybeSidebar = findRealSidebar();
-  if (maybeSidebar) ro.observe(maybeSidebar);
-
-  window.addEventListener('resize', updateMaxWidth);
-  window.addEventListener('orientationchange', updateMaxWidth);
-  document.addEventListener('DOMContentLoaded', updateMaxWidth);
-  updateMaxWidth();
-})();
-
 /* ----------------- Tap-to-toggle for tooltip (mobile) ----------------- */
 document.addEventListener('click', function(e){
   const isInfo = e.target.closest('.info[data-tooltip]');
