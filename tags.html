@@ -7,18 +7,20 @@ description: Explore tags for Learning to Hash research papers
 <a id="top"></a>
 
 <style>
-/* ---- Dynamic layout tokens (no hardcoded sidebar width) ---- */
+/* ---- Simple, stable layout tokens (no sidebar math) ---- */
 :root{
-  --sidebar-width: 0px;                 /* set dynamically by JS below if a sidebar exists */
   --page-gutter: clamp(12px, 2vw, 24px);
 }
 
-/* Constrain content to avoid overlapping a right sidebar; full width on mobile */
+/* Centered container with comfy gutters; never squeezes to a tiny column */
 .page-boundary{
-  width:100%;
-  max-width:min(100%, calc(100vw - var(--sidebar-width) - var(--page-gutter)));
-  margin-right:auto;
-  box-sizing:border-box;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1200px;                /* tweak width to your taste */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--page-gutter);
+  padding-right: var(--page-gutter);
 }
 
 /* ---- Compact, neutral control style (matches previous page) ---- */
@@ -152,7 +154,7 @@ description: Explore tags for Learning to Hash research papers
   .controls { gap:.5rem; }
 }
 
-/* ====== NEW: limit to 12 items only when collapsed; show all when open ====== */
+/* ====== Limit to 12 items when collapsed; show all when open ====== */
 .tag-section:not([open]) .pub-list li:nth-child(n+13) { display:none; }
 .tag-section[open] .limited-note { display:none; }
 </style>
@@ -335,28 +337,6 @@ description: Explore tags for Learning to Hash research papers
   {% endif %}
 {% endfor %}
 </div> <!-- /.page-boundary -->
-
-<!-- Dynamic sidebar width (no hardcoding) -->
-<script>
-(function(){
-  function findSidebar(){
-    return document.querySelector('#sidebar, .sidebar, aside[role="complementary"], aside.sidebar');
-  }
-  function setSidebarWidth(){
-    const el = findSidebar();
-    const w = el ? Math.round(el.getBoundingClientRect().width) : 0;
-    document.documentElement.style.setProperty('--sidebar-width', w + 'px');
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', setSidebarWidth, { once:true });
-  } else {
-    setSidebarWidth();
-  }
-  window.addEventListener('resize', setSidebarWidth);
-  const s = findSidebar();
-  if (s && 'ResizeObserver' in window) new ResizeObserver(setSidebarWidth).observe(s);
-})();
-</script>
 
 <script>
 (function(){
