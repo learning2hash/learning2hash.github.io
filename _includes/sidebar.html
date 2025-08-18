@@ -40,18 +40,35 @@
   </div>
 </div>
 
-<script>
-$("#searchTarget").keydown(function (e) {	
-  if (e.keyCode == 13) {
-    search();
+<script defer>
+document.addEventListener('DOMContentLoaded', function () {
+  function doSearch() {
+    const el = document.getElementById('searchTarget');
+    if (!el) return;
+    const q = el.value.trim();
+    try { if (typeof ga === 'function') ga('send', 'event', 'search', 'search', q); } catch(e) {}
+    window.location = "{{ '/papers.html' | relative_url }}#" + encodeURIComponent(q);
   }
-});
 
-function search() {
-  try {
-    ga('send', 'event', 'search', 'search', $("#searchTarget").val());
-  } finally {
-    window.location = "{% link papers.html %}#" + $("#searchTarget").val();
+  // jQuery path if loaded
+  if (window.jQuery) {
+    $('#searchTarget').on('keydown', function (e) {
+      if (e.key === 'Enter') doSearch();
+    });
+    document.querySelector('.sidebar-item button')?.addEventListener('click', doSearch);
+  } else {
+    // vanilla fallback
+    const input = document.getElementById('searchTarget');
+    const btn = document.querySelector('.sidebar-item button');
+    if (input) {
+      input.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter') doSearch();
+      });
+    }
+    if (btn) btn.addEventListener('click', doSearch);
   }
-}
+
+  // keep global for inline onClick="search()"
+  window.search = doSearch;
+});
 </script>
