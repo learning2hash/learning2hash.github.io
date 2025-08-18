@@ -92,11 +92,16 @@ description: A list of research papers for Learning to Hash.
     width:100%;
     border-collapse: collapse;
     font-size: 0.95rem;
-    table-layout: fixed; /* makes mobile wrapping predictable */
+    table-layout: fixed; /* default; relaxed on small screens below */
+  }
+
+  /* Relax fixed layout on narrow screens so Safari can measure columns */
+  @media (max-width: 768px){
+    table#allPapers { table-layout: auto; }
   }
 
   /* Column widths: Year & Citations narrow, Title/Authors flexible */
-  #allPapers th:nth-child(1), #allPapers td:nth-child(1) { width: 6ch; }  /* Year */
+  #allPars th:nth-child(1), #allPapers td:nth-child(1) { width: 6ch; }  /* Year */
   #allPapers th:nth-child(4), #allPapers td:nth-child(4) { width: 8ch; }  /* Citations */
 
   /* Let Title & Authors take the remaining space */
@@ -124,8 +129,8 @@ description: A list of research papers for Learning to Hash.
     padding: .8em 1.2em; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.08);
   }
 
-  /* During enhancement, hide the table to avoid flicker; plain table shows if enhancement times out */
-  .is-enhancing #allPapers { visibility: hidden; }
+  /* Keep layout measurable during enhancement */
+  .is-enhancing #allPapers { opacity: 0; }  /* was visibility:hidden */
 </style>
 
 <!-- jQuery & DataTables -->
@@ -174,8 +179,8 @@ description: A list of research papers for Learning to Hash.
     // Defaults per device
     const PAGE_LEN   = isMobile ? 50 : 200; // default initially shown
     const LENGTH_MENU = isMobile
-      ? [25, 50, 75, 100]                 // cap at 100 on mobile
-      : [25, 50, 100, 250, 1000, 2000];   // keep 2000 on desktop
+      ? [25, 50, 75, 100]
+      : [25, 50, 100, 250, 1000, 2000];
 
     // Fallback to plain table if enhancement stalls
     const FALLBACK_MS = 3500;
@@ -192,7 +197,6 @@ description: A list of research papers for Learning to Hash.
       clearTimeout(fallbackTimer);
 
       const dt = jQuery('#allPapers').DataTable({
-        // IMPORTANT: no "data:" here — we enhance existing DOM rows rendered by Jekyll
         paging: true,
         pageLength: PAGE_LEN,
         lengthMenu: LENGTH_MENU,
@@ -222,8 +226,8 @@ description: A list of research papers for Learning to Hash.
           if (input) input.addEventListener('input', debounce(() => api.search(input.value).draw(false), 80));
           if (reset) reset.addEventListener('click', () => { if (!input) return; input.value=''; api.search('').draw(false); input.focus(); });
 
-          // One-time adjust after first draw
-          api.columns.adjust().draw(false);
+          // iOS nudge: adjust once more after paint
+          setTimeout(() => api.columns.adjust().draw(false), 60);
         }
       });
 
@@ -243,14 +247,17 @@ description: A list of research papers for Learning to Hash.
     $docEl.classList.add('is-enhancing');
     if (loaderEl) loaderEl.style.display = 'block';
 
-    // Wait for DataTables to exist, then init
+    // Wait for DataTables to exist, then init after layout is painted (iOS-safe)
     const start = Date.now();
+    function safeInit() {
+      // double rAF to ensure layout pass before measuring widths
+      requestAnimationFrame(() => requestAnimationFrame(init));
+    }
     (function waitForDT() {
       if (window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable) {
-        // iOS can skip requestIdleCallback; use small timeout on mobile
-        if (isMobile) setTimeout(init, 150);
-        else if ('requestIdleCallback' in window) requestIdleCallback(init, { timeout: 1500 });
-        else setTimeout(init, 0);
+        if (isMobile) setTimeout(safeInit, 150);           // tiny delay on mobile
+        else if ('requestIdleCallback' in window) requestIdleCallback(safeInit, { timeout: 1500 });
+        else safeInit();
       } else if (Date.now() - start < 8000) {
         setTimeout(waitForDT, 50);
       } // else: fallback already revealed the plain table
