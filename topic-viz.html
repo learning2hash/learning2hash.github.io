@@ -8,11 +8,11 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
 <h2>Topic Explorer</h2>
 <p>
-  This page uses topic modelling to group Learning to Hash papers by their most important themes.
+  This page uses topic modelling to group Large Language Model papers by their most important themes.
   Use the sliders to change topic importance and see the top matching papers update instantly.
 </p>
 
-<!-- ===== Centered, safe wrapper (no sidebar math) ===== -->
+<!-- ===== Full-bleed-to-right wrapper (now just a centered container) ===== -->
 <div class="full-bleed-right">
   <!-- ===== Compact, content-safe containers ===== -->
   <div class="content-wrap">
@@ -59,8 +59,6 @@ description: Interactive topic model explorer — adjust topic weights to see th
     </details>
   </div>
 
-  <!-- Removed separate Results controls block (now inline in header) -->
-
   <div class="content-wrap">
     <ul id="toppapers" class="pub-list">
       <li class="always-nowrap hint">Please move the sliders to look at the papers.</li>
@@ -73,11 +71,11 @@ description: Interactive topic model explorer — adjust topic weights to see th
     --page-gutter: clamp(12px, 2vw, 24px);
   }
 
-  /* Centered wrapper with gutters; no sidebar subtraction */
+  /* Centered, mobile-safe container (no sidebar subtraction) */
   .full-bleed-right {
     box-sizing: border-box;
     width: 100%;
-    max-width: 1200px; /* tweak if you want wider/narrower on desktop */
+    max-width: 1200px;            /* tweak if you want wider/narrower on desktop */
     margin-left: auto;
     margin-right: auto;
     padding-left: var(--page-gutter);
@@ -108,9 +106,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
   .small { color:#6b7280; font-size:.85rem; }
 
   /* Inline results control styling */
-  .result-inline {
-    display:flex; align-items:center; gap:.4rem; flex-wrap:wrap;
-  }
+  .result-inline { display:flex; align-items:center; gap:.4rem; flex-wrap:wrap; }
   .result-inline .inline { margin-right:.25rem; }
   #resultCount {
     padding:.2rem .35rem; font-size:.85rem; border:1px solid #d9dbe3; border-radius:.35rem; background:#fff;
@@ -156,20 +152,20 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
   .topic-row .tag-chip {
     grid-area: label;
-    display:inline-block; 
-    box-sizing:border-box; 
+    display:inline-block;
+    box-sizing:border-box;
     max-width: 100%;
-    white-space: normal; 
-    overflow-wrap:anywhere; 
-    word-break: break-word; 
+    white-space: normal;
+    overflow-wrap:anywhere;
+    word-break: break-word;
     hyphens:auto;
-    text-decoration:none; 
-    border-radius:.45rem; 
+    text-decoration:none;
+    border-radius:.45rem;
     padding:.15rem .4rem;
-    background:#f6f7f9; 
+    background:#f6f7f9;
     border:1px solid #e6e8ec;
     font-size: clamp(.65rem, .85vw, .85rem);
-    line-height: 1.15; 
+    line-height: 1.15;
     color: inherit;
     margin: 0;
     width: 100%;
@@ -223,26 +219,17 @@ description: Interactive topic model explorer — adjust topic weights to see th
   @media (min-width: 1400px) {
     .pub-list { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
   }
-  .pub-list li { 
-    list-style: none; 
-    margin: 0; 
+  .pub-list li {
+    list-style: none;
+    margin: 0;
     min-width: 0;
     white-space: normal;
     overflow-wrap: anywhere;
     word-break: break-word;
   }
-  .pub-list li.always-nowrap {
-    white-space: nowrap;
-  }
-  .pub-list li.hint {
-    color: #6b7280;
-    opacity: .95;
-  }
-  .pub-list a { 
-    font-weight: 600; 
-    overflow-wrap:anywhere; 
-    word-break:break-word; 
-  }
+  .pub-list li.always-nowrap { white-space: nowrap; }
+  .pub-list li.hint { color: #6b7280; opacity: .95; }
+  .pub-list a { font-weight: 600; overflow-wrap:anywhere; word-break:break-word; }
 
   /* Info icon + tooltip */
   .info {
@@ -264,8 +251,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
   .info[data-show]::after, .info[data-show]::before { opacity:1; visibility:visible; }
 </style>
 
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<!-- Removed sidebar width script -->
 
 <script>
   // Info tooltip toggle (click or focus)
@@ -346,7 +332,6 @@ description: Interactive topic model explorer — adjust topic weights to see th
       return;
     }
 
-    // Only consider papers with a strictly positive score (epsilon guards floating pt noise)
     const EPS = 1e-9;
     const paper_idxs = [];
 
@@ -388,7 +373,6 @@ description: Interactive topic model explorer — adjust topic weights to see th
   }
 
   $(document).ready(function() {
-    // Preselect results via URL param ?n=20|50|100|200|all
     const nParam = getUrlParam('n');
     const rcEl = document.getElementById('resultCount');
     if (nParam && isValidResultN(nParam)) {
@@ -398,7 +382,6 @@ description: Interactive topic model explorer — adjust topic weights to see th
       RESULTS_N = rcEl.value;
     }
 
-    // Change handler for results selector
     rcEl.addEventListener('change', () => {
       RESULTS_N = rcEl.value;
       renderPapers();
@@ -409,9 +392,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
       num_topics = data.topics.length;
 
       let html = '';
-      for (let i = 0; i < num_topics; i++) {
-        html += makeTopicRow(data.topics[i], i);
-      }
+      for (let i = 0; i < num_topics; i++) html += makeTopicRow(data.topics[i], i);
       $("#topicslider").html(html);
 
       for (let i = 0; i < num_topics; i++) {
