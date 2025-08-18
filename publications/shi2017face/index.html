@@ -5,11 +5,16 @@
 <head>
   <!-- Analytics & trackers (leave as-is) -->
   <span id="wts2185304"></span>
-  <script>var wts=document.createElement('script');wts.async=true;
-  wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
-  wts.onload=function(){ wtslog7(2185304,4); };</script>
-  <noscript><a href="https://www.web-stat.com">
-  <img src="https://app.ardalio.com/7/4/2185304.png" alt="Web-Stat web statistics"></a></noscript>
+  <script>
+    var wts=document.createElement('script');wts.async=true;
+    wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+    wts.onload=function(){ wtslog7(2185304,4); };
+  </script>
+  <noscript>
+    <a href="https://www.web-stat.com">
+      <img src="https://app.ardalio.com/7/4/2185304.png" alt="Web-Stat web statistics">
+    </a>
+  </noscript>
 
   <script>
     (function(h,o,t,j,a,r){
@@ -42,11 +47,14 @@
   <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
 
-  <!-- Single viewport (remove duplicates from pages) -->
+  <!-- Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- ✅ Manual SEO keywords (specific to Learning to Hash) -->
+  <meta name="keywords" content="learning to hash, machine learning, hashing, approximate nearest neighbour search, ANN, LSH, locality sensitive hashing, vector quantization, deep hashing, binary embeddings, information retrieval, similarity search">
+
+  <!-- ✅ Jekyll SEO plugin (title, description, canonical, OG/Twitter, JSON-LD) -->
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Face Clustering: Representation And Pairwise Constraints | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
@@ -58,11 +66,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/shi2017face/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-18T12:18:36-05:00" />
+<meta property="article:published_time" content="2025-08-18T12:28:47-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Face Clustering: Representation And Pairwise Constraints" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:18:36-05:00","datePublished":"2025-08-18T12:18:36-05:00","description":"Clustering face images according to their identity has two important applications: (i) grouping a collection of face images when no external labels are associated with images, and (ii) indexing for efficient large scale face retrieval. The clustering problem is composed of two key parts: face representation and choice of similarity for grouping faces. We first propose a representation based on ResNet, which has been shown to perform very well in image classification problems. Given this representation, we design a clustering algorithm, Conditional Pairwise Clustering (ConPaC), which directly estimates the adjacency matrix only based on the similarity between face images. This allows a dynamic selection of number of clusters and retains pairwise similarity between faces. ConPaC formulates the clustering problem as a Conditional Random Field (CRF) model and uses Loopy Belief Propagation to find an approximate solution for maximizing the posterior probability of the adjacency matrix. Experimental results on two benchmark face datasets (LFW and IJB-B) show that ConPaC outperforms well known clustering algorithms such as k-means, spectral clustering and approximate rank-order. Additionally, our algorithm can naturally incorporate pairwise constraints to obtain a semi-supervised version that leads to improved clustering performance. We also propose an k-NN variant of ConPaC, which has a linear time complexity given a k-NN graph, suitable for large datasets.","headline":"Face Clustering: Representation And Pairwise Constraints","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shi2017face/"},"url":"https://learning2hash.github.io/publications/shi2017face/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:28:47-05:00","datePublished":"2025-08-18T12:28:47-05:00","description":"Clustering face images according to their identity has two important applications: (i) grouping a collection of face images when no external labels are associated with images, and (ii) indexing for efficient large scale face retrieval. The clustering problem is composed of two key parts: face representation and choice of similarity for grouping faces. We first propose a representation based on ResNet, which has been shown to perform very well in image classification problems. Given this representation, we design a clustering algorithm, Conditional Pairwise Clustering (ConPaC), which directly estimates the adjacency matrix only based on the similarity between face images. This allows a dynamic selection of number of clusters and retains pairwise similarity between faces. ConPaC formulates the clustering problem as a Conditional Random Field (CRF) model and uses Loopy Belief Propagation to find an approximate solution for maximizing the posterior probability of the adjacency matrix. Experimental results on two benchmark face datasets (LFW and IJB-B) show that ConPaC outperforms well known clustering algorithms such as k-means, spectral clustering and approximate rank-order. Additionally, our algorithm can naturally incorporate pairwise constraints to obtain a semi-supervised version that leads to improved clustering performance. We also propose an k-NN variant of ConPaC, which has a linear time complexity given a k-NN graph, suitable for large datasets.","headline":"Face Clustering: Representation And Pairwise Constraints","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shi2017face/"},"url":"https://learning2hash.github.io/publications/shi2017face/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -76,7 +84,7 @@
   <link rel="shortcut icon" href="/public/favicon.svg">
   <link rel="search" href="/public/opensearchdescription.xml" type="application/opensearchdescription+xml" title="learning2hash" />
 
-  <!-- ✅ Single, modern jQuery + DataTables (CSS first, then JS). No other jQuery/DT anywhere. -->
+  <!-- ✅ Single, modern jQuery + DataTables -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
   <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" defer></script>

@@ -5,11 +5,16 @@
 <head>
   <!-- Analytics & trackers (leave as-is) -->
   <span id="wts2185304"></span>
-  <script>var wts=document.createElement('script');wts.async=true;
-  wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
-  wts.onload=function(){ wtslog7(2185304,4); };</script>
-  <noscript><a href="https://www.web-stat.com">
-  <img src="https://app.ardalio.com/7/4/2185304.png" alt="Web-Stat web statistics"></a></noscript>
+  <script>
+    var wts=document.createElement('script');wts.async=true;
+    wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+    wts.onload=function(){ wtslog7(2185304,4); };
+  </script>
+  <noscript>
+    <a href="https://www.web-stat.com">
+      <img src="https://app.ardalio.com/7/4/2185304.png" alt="Web-Stat web statistics">
+    </a>
+  </noscript>
 
   <script>
     (function(h,o,t,j,a,r){
@@ -42,11 +47,14 @@
   <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
 
-  <!-- Single viewport (remove duplicates from pages) -->
+  <!-- Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- ✅ Manual SEO keywords (specific to Learning to Hash) -->
+  <meta name="keywords" content="learning to hash, machine learning, hashing, approximate nearest neighbour search, ANN, LSH, locality sensitive hashing, vector quantization, deep hashing, binary embeddings, information retrieval, similarity search">
+
+  <!-- ✅ Jekyll SEO plugin (title, description, canonical, OG/Twitter, JSON-LD) -->
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Item Cold Start Recommendation Via Adversarial Variational Auto-encoder Warm-up | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
@@ -58,11 +66,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2023item/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-18T12:18:36-05:00" />
+<meta property="article:published_time" content="2025-08-18T12:28:47-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Item Cold Start Recommendation Via Adversarial Variational Auto-encoder Warm-up" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:18:36-05:00","datePublished":"2025-08-18T12:18:36-05:00","description":"The gap between the randomly initialized item ID embedding and the well-trained warm item ID embedding makes the cold items hard to suit the recommendation system, which is trained on the data of historical warm items. To alleviate the performance decline of new items recommendation, the distribution of the new item ID embedding should be close to that of the historical warm items. To achieve this goal, we propose an Adversarial Variational Auto-encoder Warm-up model (AVAEW) to generate warm-up item ID embedding for cold items. Specifically, we develop a conditional variational auto-encoder model to leverage the side information of items for generating the warm-up item ID embedding. Particularly, we introduce an adversarial module to enforce the alignment between warm-up item ID embedding distribution and historical item ID embedding distribution. We demonstrate the effectiveness and compatibility of the proposed method by extensive offline experiments on public datasets and online A/B tests on a real-world large-scale news recommendation platform.","headline":"Item Cold Start Recommendation Via Adversarial Variational Auto-encoder Warm-up","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2023item/"},"url":"https://learning2hash.github.io/publications/zhang2023item/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:28:47-05:00","datePublished":"2025-08-18T12:28:47-05:00","description":"The gap between the randomly initialized item ID embedding and the well-trained warm item ID embedding makes the cold items hard to suit the recommendation system, which is trained on the data of historical warm items. To alleviate the performance decline of new items recommendation, the distribution of the new item ID embedding should be close to that of the historical warm items. To achieve this goal, we propose an Adversarial Variational Auto-encoder Warm-up model (AVAEW) to generate warm-up item ID embedding for cold items. Specifically, we develop a conditional variational auto-encoder model to leverage the side information of items for generating the warm-up item ID embedding. Particularly, we introduce an adversarial module to enforce the alignment between warm-up item ID embedding distribution and historical item ID embedding distribution. We demonstrate the effectiveness and compatibility of the proposed method by extensive offline experiments on public datasets and online A/B tests on a real-world large-scale news recommendation platform.","headline":"Item Cold Start Recommendation Via Adversarial Variational Auto-encoder Warm-up","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2023item/"},"url":"https://learning2hash.github.io/publications/zhang2023item/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -76,7 +84,7 @@
   <link rel="shortcut icon" href="/public/favicon.svg">
   <link rel="search" href="/public/opensearchdescription.xml" type="application/opensearchdescription+xml" title="learning2hash" />
 
-  <!-- ✅ Single, modern jQuery + DataTables (CSS first, then JS). No other jQuery/DT anywhere. -->
+  <!-- ✅ Single, modern jQuery + DataTables -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
   <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" defer></script>

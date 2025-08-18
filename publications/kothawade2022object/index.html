@@ -5,11 +5,16 @@
 <head>
   <!-- Analytics & trackers (leave as-is) -->
   <span id="wts2185304"></span>
-  <script>var wts=document.createElement('script');wts.async=true;
-  wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
-  wts.onload=function(){ wtslog7(2185304,4); };</script>
-  <noscript><a href="https://www.web-stat.com">
-  <img src="https://app.ardalio.com/7/4/2185304.png" alt="Web-Stat web statistics"></a></noscript>
+  <script>
+    var wts=document.createElement('script');wts.async=true;
+    wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+    wts.onload=function(){ wtslog7(2185304,4); };
+  </script>
+  <noscript>
+    <a href="https://www.web-stat.com">
+      <img src="https://app.ardalio.com/7/4/2185304.png" alt="Web-Stat web statistics">
+    </a>
+  </noscript>
 
   <script>
     (function(h,o,t,j,a,r){
@@ -42,11 +47,14 @@
   <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
 
-  <!-- Single viewport (remove duplicates from pages) -->
+  <!-- Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- ✅ Manual SEO keywords (specific to Learning to Hash) -->
+  <meta name="keywords" content="learning to hash, machine learning, hashing, approximate nearest neighbour search, ANN, LSH, locality sensitive hashing, vector quantization, deep hashing, binary embeddings, information retrieval, similarity search">
+
+  <!-- ✅ Jekyll SEO plugin (title, description, canonical, OG/Twitter, JSON-LD) -->
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Object-level Targeted Selection Via Deep Template Matching | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
@@ -58,11 +66,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kothawade2022object/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-18T12:18:36-05:00" />
+<meta property="article:published_time" content="2025-08-18T12:28:47-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Object-level Targeted Selection Via Deep Template Matching" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:18:36-05:00","datePublished":"2025-08-18T12:18:36-05:00","description":"Retrieving images with objects that are semantically similar to objects of interest (OOI) in a query image has many practical use cases. A few examples include fixing failures like false negatives/positives of a learned model or mitigating class imbalance in a dataset. The targeted selection task requires finding the relevant data from a large-scale pool of unlabeled data. Manual mining at this scale is infeasible. Further, the OOI are often small and occupy less than 1% of image area, are occluded, and co-exist with many semantically different objects in cluttered scenes. Existing semantic image retrieval methods often focus on mining for larger sized geographical landmarks, and/or require extra labeled data, such as images/image-pairs with similar objects, for mining images with generic objects. We propose a fast and robust template matching algorithm in the DNN feature space, that retrieves semantically similar images at the object-level from a large unlabeled pool of data. We project the region(s) around the OOI in the query image to the DNN feature space for use as the template. This enables our method to focus on the semantics of the OOI without requiring extra labeled data. In the context of autonomous driving, we evaluate our system for targeted selection by using failure cases of object detectors as OOI. We demonstrate its efficacy on a large unlabeled dataset with 2.2M images and show high recall in mining for images with small-sized OOI. We compare our method against a well-known semantic image retrieval method, which also does not require extra labeled data. Lastly, we show that our method is flexible and retrieves images with one or more semantically different co-occurring OOI seamlessly.","headline":"Object-level Targeted Selection Via Deep Template Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kothawade2022object/"},"url":"https://learning2hash.github.io/publications/kothawade2022object/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:28:47-05:00","datePublished":"2025-08-18T12:28:47-05:00","description":"Retrieving images with objects that are semantically similar to objects of interest (OOI) in a query image has many practical use cases. A few examples include fixing failures like false negatives/positives of a learned model or mitigating class imbalance in a dataset. The targeted selection task requires finding the relevant data from a large-scale pool of unlabeled data. Manual mining at this scale is infeasible. Further, the OOI are often small and occupy less than 1% of image area, are occluded, and co-exist with many semantically different objects in cluttered scenes. Existing semantic image retrieval methods often focus on mining for larger sized geographical landmarks, and/or require extra labeled data, such as images/image-pairs with similar objects, for mining images with generic objects. We propose a fast and robust template matching algorithm in the DNN feature space, that retrieves semantically similar images at the object-level from a large unlabeled pool of data. We project the region(s) around the OOI in the query image to the DNN feature space for use as the template. This enables our method to focus on the semantics of the OOI without requiring extra labeled data. In the context of autonomous driving, we evaluate our system for targeted selection by using failure cases of object detectors as OOI. We demonstrate its efficacy on a large unlabeled dataset with 2.2M images and show high recall in mining for images with small-sized OOI. We compare our method against a well-known semantic image retrieval method, which also does not require extra labeled data. Lastly, we show that our method is flexible and retrieves images with one or more semantically different co-occurring OOI seamlessly.","headline":"Object-level Targeted Selection Via Deep Template Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kothawade2022object/"},"url":"https://learning2hash.github.io/publications/kothawade2022object/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -76,7 +84,7 @@
   <link rel="shortcut icon" href="/public/favicon.svg">
   <link rel="search" href="/public/opensearchdescription.xml" type="application/opensearchdescription+xml" title="learning2hash" />
 
-  <!-- ✅ Single, modern jQuery + DataTables (CSS first, then JS). No other jQuery/DT anywhere. -->
+  <!-- ✅ Single, modern jQuery + DataTables -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
   <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" defer></script>

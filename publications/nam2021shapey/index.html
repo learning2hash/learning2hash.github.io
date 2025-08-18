@@ -5,11 +5,16 @@
 <head>
   <!-- Analytics & trackers (leave as-is) -->
   <span id="wts2185304"></span>
-  <script>var wts=document.createElement('script');wts.async=true;
-  wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
-  wts.onload=function(){ wtslog7(2185304,4); };</script>
-  <noscript><a href="https://www.web-stat.com">
-  <img src="https://app.ardalio.com/7/4/2185304.png" alt="Web-Stat web statistics"></a></noscript>
+  <script>
+    var wts=document.createElement('script');wts.async=true;
+    wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+    wts.onload=function(){ wtslog7(2185304,4); };
+  </script>
+  <noscript>
+    <a href="https://www.web-stat.com">
+      <img src="https://app.ardalio.com/7/4/2185304.png" alt="Web-Stat web statistics">
+    </a>
+  </noscript>
 
   <script>
     (function(h,o,t,j,a,r){
@@ -42,11 +47,14 @@
   <link href="https://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta charset="utf-8">
-  <meta name="keywords" content="machine learning, hashing, approximate nearest neighbour search, lsh, learning-to-hash">
 
-  <!-- Single viewport (remove duplicates from pages) -->
+  <!-- Viewport -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- ✅ Manual SEO keywords (specific to Learning to Hash) -->
+  <meta name="keywords" content="learning to hash, machine learning, hashing, approximate nearest neighbour search, ANN, LSH, locality sensitive hashing, vector quantization, deep hashing, binary embeddings, information retrieval, similarity search">
+
+  <!-- ✅ Jekyll SEO plugin (title, description, canonical, OG/Twitter, JSON-LD) -->
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>Shapey: Measuring Shape Recognition Capacity Using Nearest Neighbor Matching | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
@@ -58,11 +66,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/nam2021shapey/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-18T12:18:36-05:00" />
+<meta property="article:published_time" content="2025-08-18T12:28:47-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Shapey: Measuring Shape Recognition Capacity Using Nearest Neighbor Matching" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:18:36-05:00","datePublished":"2025-08-18T12:18:36-05:00","description":"Object recognition in humans depends primarily on shape cues. We have developed a new approach to measuring the shape recognition performance of a vision system based on nearest neighbor view matching within the system’s embedding space. Our performance benchmark, ShapeY, allows for precise control of task difficulty, by enforcing that view matching span a specified degree of 3D viewpoint change and/or appearance change. As a first test case we measured the performance of ResNet50 pre-trained on ImageNet. Matching error rates were high. For example, a 27 degree change in object pitch led ResNet50 to match the incorrect object 45% of the time. Appearance changes were also highly disruptive. Examination of false matches indicates that ResNet50’s embedding space is severely “tangled”. These findings suggest ShapeY can be a useful tool for charting the progress of artificial vision systems towards human-level shape recognition capabilities.","headline":"Shapey: Measuring Shape Recognition Capacity Using Nearest Neighbor Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/nam2021shapey/"},"url":"https://learning2hash.github.io/publications/nam2021shapey/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:28:47-05:00","datePublished":"2025-08-18T12:28:47-05:00","description":"Object recognition in humans depends primarily on shape cues. We have developed a new approach to measuring the shape recognition performance of a vision system based on nearest neighbor view matching within the system’s embedding space. Our performance benchmark, ShapeY, allows for precise control of task difficulty, by enforcing that view matching span a specified degree of 3D viewpoint change and/or appearance change. As a first test case we measured the performance of ResNet50 pre-trained on ImageNet. Matching error rates were high. For example, a 27 degree change in object pitch led ResNet50 to match the incorrect object 45% of the time. Appearance changes were also highly disruptive. Examination of false matches indicates that ResNet50’s embedding space is severely “tangled”. These findings suggest ShapeY can be a useful tool for charting the progress of artificial vision systems towards human-level shape recognition capabilities.","headline":"Shapey: Measuring Shape Recognition Capacity Using Nearest Neighbor Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/nam2021shapey/"},"url":"https://learning2hash.github.io/publications/nam2021shapey/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -76,7 +84,7 @@
   <link rel="shortcut icon" href="/public/favicon.svg">
   <link rel="search" href="/public/opensearchdescription.xml" type="application/opensearchdescription+xml" title="learning2hash" />
 
-  <!-- ✅ Single, modern jQuery + DataTables (CSS first, then JS). No other jQuery/DT anywhere. -->
+  <!-- ✅ Single, modern jQuery + DataTables -->
   <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
   <script src="https://code.jquery.com/jquery-3.7.0.min.js" defer></script>
   <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js" defer></script>
