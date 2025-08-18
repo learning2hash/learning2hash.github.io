@@ -4,8 +4,6 @@ title: Search all Publications on Learning to Hash
 description: A list of research papers for Learning to Hash.
 ---
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
 <h2>Search Publications</h2>
 <p>
   Search across all papers in this collection. Use the search bar to filter by <strong>title</strong> 
@@ -130,49 +128,15 @@ description: A list of research papers for Learning to Hash.
   }
 </style>
 
-<!-- jQuery & DataTables (single, modern versions only) -->
-<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-
-<!-- Dynamic sidebar width (kept) -->
-<script>
-(function () {
-  function findSidebar() {
-    return document.querySelector('#sidebar, .sidebar, aside[role="complementary"], aside.sidebar');
-  }
-  function setSidebarWidth() {
-    const el = findSidebar();
-    const w = el ? Math.round(el.getBoundingClientRect().width) : 0;
-    document.documentElement.style.setProperty('--sidebar-width', w + 'px');
-  }
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', setSidebarWidth, { once: true });
-  } else {
-    setSidebarWidth();
-  }
-  window.addEventListener('resize', setSidebarWidth);
-  const sidebar = findSidebar();
-  if (sidebar && 'ResizeObserver' in window) {
-    const ro = new ResizeObserver(setSidebarWidth);
-    ro.observe(sidebar);
-  }
-  if ('MutationObserver' in window) {
-    const mo = new MutationObserver(setSidebarWidth);
-    mo.observe(document.body, { attributes: true, childList: true, subtree: true });
-  }
-})();
-</script>
-
 <!-- DataTables init (mobile + desktop), iOS-safe timing & guards -->
 <script>
 (function () {
   const loaderEl = document.getElementById('loading');
 
   function initDataTables() {
-    // Guard: single jQuery & plugin present
-    if (!window.jQuery) { console.error("jQuery missing"); return; }
-    if (!jQuery.fn || !jQuery.fn.dataTable) { console.error("DataTables missing"); return; }
+    // Guards (helps surface any lingering duplicate/old includes)
+    if (!window.jQuery) { console.error("jQuery missing"); loaderEl && (loaderEl.style.display='none'); return; }
+    if (!jQuery.fn || !jQuery.fn.dataTable) { console.error("DataTables missing"); loaderEl && (loaderEl.style.display='none'); return; }
     if (jQuery.fn.dataTable.isDataTable('#allPapers')) return; // avoid double init
 
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
@@ -218,13 +182,12 @@ description: A list of research papers for Learning to Hash.
     window.addEventListener('orientationchange', recalc);
   }
 
-  // Show table quickly; hide loader once init completes
-  // Use double rAF to ensure layout is painted before plugin measures widths (iOS-safe)
+  // Ensure layout is painted before measuring (double rAF is iOS-safe)
   function safeInit() {
     requestAnimationFrame(() => requestAnimationFrame(initDataTables));
   }
 
-  // If DOM ready, init now; otherwise wait
+  // Wait for DOM; DataTables JS is loaded via head.html with defer
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', safeInit, { once: true });
   } else {
