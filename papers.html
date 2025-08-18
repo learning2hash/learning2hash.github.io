@@ -164,50 +164,44 @@ description: A list of research papers for Learning to Hash.
 })();
 </script>
 
-<!-- Mobile-friendly DataTables bootstrap with robust fallback -->
+<!-- DataTables bootstrap with mobile cap = 100/page and desktop max = 2000/page -->
 <script>
   (function () {
     const $docEl = document.documentElement;
     const loaderEl = document.getElementById('loading');
-    const isNarrow = () => window.matchMedia("(max-width: 768px)").matches;
 
-    // Start in "enhancing" mode to avoid flash-of-unstyled-filtering
-    $docEl.classList.add('is-enhancing');
-    if (loaderEl) loaderEl.style.display = 'block';
+    // Detect mobile-ish viewport (CSS-driven; no UA sniffing)
+    const isMobile = matchMedia('(max-width: 768px)').matches;
 
-    // Show plain table if we can't enhance quickly
-    const PLAIN_TABLE_TIMEOUT_MS = 3500; // faster fallback on mobile
-    const plainTimer = setTimeout(() => {
-      $docEl.classList.remove('is-enhancing'); // reveal plain table
+    // Defaults per device
+    const PAGE_LEN   = isMobile ? 50 : 200; // default rows initially shown
+    const LENGTH_MENU = isMobile
+      ? [25, 50, 75, 100]                 // cap at 100 on mobile
+      : [25, 50, 100, 250, 1000, 2000];   // keep 2000 on desktop
+
+    // Fallback to plain table if enhancement stalls
+    const FALLBACK_MS = 3500;
+    const fallbackTimer = setTimeout(() => {
+      $docEl.classList.remove('is-enhancing');
       if (loaderEl) loaderEl.style.display = 'none';
-    }, PLAIN_TABLE_TIMEOUT_MS);
+    }, FALLBACK_MS);
 
-    // Debounce utility
-    const debounce = (fn, ms = 120) => { let t; return (...args) => { clearTimeout(t); t = setTimeout(() => fn.apply(this, args), ms); }; };
+    const debounce = (fn, ms = 100) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
 
-    // Initialize DataTables (idempotent guard)
-    let initialized = false;
-    function initDataTable() {
-      if (initialized) return;
+    function init() {
       if (!(window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable)) return;
 
-      initialized = true;
-      clearTimeout(plainTimer);
-
-      const pageLen = isNarrow() ? 50 : 200;
-      const lengths  = isNarrow()
-        ? [25, 50, 75, 100, 250]
-        : [25, 50, 100, 250, 1000, 2000];
+      clearTimeout(fallbackTimer);
 
       const dt = jQuery('#allPapers').DataTable({
         paging: true,
-        pageLength: pageLen,
-        lengthMenu: lengths,
+        pageLength: PAGE_LEN,
+        lengthMenu: LENGTH_MENU,
         searching: true,
         order: [[3, 'desc']],    // Citations desc
         autoWidth: false,
         deferRender: true,
-        stateSave: true,
+        stateSave: !isMobile,     // lighter on mobile
         scrollX: false,
         responsive: false,
         orderClasses: false,
@@ -219,74 +213,48 @@ description: A list of research papers for Learning to Hash.
         initComplete: function () {
           const api = this.api();
 
-          // Reveal enhanced table & hide loader
+          // Reveal table & hide loader
           $docEl.classList.remove('is-enhancing');
           if (loaderEl) loaderEl.style.display = 'none';
 
-          // Wire external search
-          const externalInput = document.getElementById('globalSearch');
-          const doSearch = debounce(() => { api.search(externalInput.value).draw(false); }, 80);
-          if (externalInput) {
-            externalInput.addEventListener('input', doSearch);
-          }
+          // External search hookup
+          const input = document.getElementById('globalSearch');
+          const reset = document.getElementById('resetSearch');
+          if (input) input.addEventListener('input', debounce(() => api.search(input.value).draw(false), 80));
+          if (reset) reset.addEventListener('click', () => { if (!input) return; input.value=''; api.search('').draw(false); input.focus(); });
 
-          // Clear search
-          function clearSearch() { if (!externalInput) return; externalInput.value=''; api.search('').draw(false); externalInput.focus(); }
-          const resetBtn = document.getElementById('resetSearch');
-          if (resetBtn) resetBtn.addEventListener('click', clearSearch);
-
-          // Adjust columns after first draw (and after orientation changes)
+          // One-time adjust after first draw
           api.columns.adjust().draw(false);
-
-          // Keyboard shortcuts
-          document.addEventListener('keydown', (e) => {
-            if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
-              e.preventDefault();
-              externalInput && externalInput.focus();
-            } else if (e.key === 'Escape') {
-              clearSearch();
-            }
-          });
         }
       });
 
-      // Recalc on resize/orientation with debounce
-      const recalc = debounce(function(){
-        if (jQuery.fn.dataTable.isDataTable('#allPapers')) {
-          jQuery('#allPapers').DataTable().columns.adjust();
-        }
-      }, 100);
+      // Light resize handling
+      const recalc = (() => {
+        let t; return () => { clearTimeout(t); t = setTimeout(() => {
+          if (jQuery.fn.dataTable.isDataTable('#allPapers')) {
+            jQuery('#allPapers').DataTable().columns.adjust();
+          }
+        }, 120); };
+      })();
       window.addEventListener('resize', recalc);
       window.addEventListener('orientationchange', recalc);
     }
 
-    // Try to init ASAP after scripts load
-    function tryInitLoop(maxMs = 8000) {
-      const start = Date.now();
-      (function wait() {
-        if (window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable) {
-          // On mobile, prefer a brief setTimeout (iOS may ignore requestIdleCallback)
-          if (isNarrow()) {
-            setTimeout(initDataTable, 200);
-          } else if ('requestIdleCallback' in window) {
-            requestIdleCallback(initDataTable, { timeout: 1500 });
-          } else {
-            setTimeout(initDataTable, 0);
-          }
-        } else if (Date.now() - start > maxMs) {
-          // Give up; plain table already revealed by timeout
-          if (loaderEl) loaderEl.style.display = 'none';
-        } else {
-          setTimeout(wait, 50);
-        }
-      })();
-    }
+    // Start “enhancing” (avoid flicker)
+    $docEl.classList.add('is-enhancing');
+    if (loaderEl) loaderEl.style.display = 'block';
 
-    // Kick off when DOM is ready
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', tryInitLoop, { once: true });
-    } else {
-      tryInitLoop();
-    }
+    // Wait for DataTables to exist, then init
+    const start = Date.now();
+    (function waitForDT() {
+      if (window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable) {
+        // iOS can skip requestIdleCallback; use small timeout on mobile
+        if (isMobile) setTimeout(init, 150);
+        else if ('requestIdleCallback' in window) requestIdleCallback(init, { timeout: 1500 });
+        else setTimeout(init, 0);
+      } else if (Date.now() - start < 8000) {
+        setTimeout(waitForDT, 50);
+      } // else: fallback already revealed the plain table
+    })();
   })();
 </script>
