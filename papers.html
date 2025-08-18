@@ -4,7 +4,6 @@ title: Search all Publications on Learning to Hash
 description: A list of research papers for Learning to Hash.
 ---
 
-<!-- If your base layout already sets the viewport, you can remove this line -->
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <h2>Search Publications</h2>
@@ -93,7 +92,7 @@ description: A list of research papers for Learning to Hash.
     width:100%;
     border-collapse: collapse;
     font-size: 0.95rem;
-    table-layout: fixed; /* default for desktop; relaxed on mobile below */
+    table-layout: fixed; /* default; relaxed on small screens below */
   }
 
   /* Relax fixed layout on narrow screens so Safari can measure columns */
@@ -131,7 +130,7 @@ description: A list of research papers for Learning to Hash.
   }
 </style>
 
-<!-- jQuery & DataTables (desktop only; mobile will skip init) -->
+<!-- jQuery & DataTables (single, modern versions only) -->
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
@@ -165,96 +164,71 @@ description: A list of research papers for Learning to Hash.
 })();
 </script>
 
-<!-- Progressive enhancement: plain table on mobile; DataTables on desktop -->
+<!-- DataTables init (mobile + desktop), iOS-safe timing & guards -->
 <script>
 (function () {
   const loaderEl = document.getElementById('loading');
-  const isMobile = window.matchMedia('(max-width: 768px)').matches;
-
-  const debounce = (fn, ms = 120) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
-
-  function plainTableSearch() {
-    // simple client-side search for mobile
-    const input = document.getElementById('globalSearch');
-    const reset = document.getElementById('resetSearch');
-    const tbody = document.querySelector('#allPapers tbody');
-    const rows = Array.from(tbody.querySelectorAll('tr'));
-
-    // default sort by Citations desc to mimic desktop behavior
-    rows.sort((a,b) => {
-      const av = parseInt(a.cells[3]?.getAttribute('data-order') || a.cells[3]?.textContent || '0', 10) || 0;
-      const bv = parseInt(b.cells[3]?.getAttribute('data-order') || b.cells[3]?.textContent || '0', 10) || 0;
-      return bv - av;
-    }).forEach(tr => tbody.appendChild(tr));
-
-    const norm = s => (s || '').toLowerCase();
-    const apply = q => {
-      const m = norm(q);
-      rows.forEach(tr => {
-        const title = norm(tr.cells[1]?.innerText);
-        const authors = norm(tr.cells[2]?.innerText);
-        tr.style.display = (!m || title.includes(m) || authors.includes(m)) ? '' : 'none';
-      });
-    };
-
-    if (input) input.addEventListener('input', debounce(() => apply(input.value), 80));
-    if (reset) reset.addEventListener('click', () => { if (!input) return; input.value=''; apply(''); input.focus(); });
-
-    apply(''); // initial render
-  }
 
   function initDataTables() {
-    if (!(window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable)) return;
+    // Guard: single jQuery & plugin present
+    if (!window.jQuery) { console.error("jQuery missing"); return; }
+    if (!jQuery.fn || !jQuery.fn.dataTable) { console.error("DataTables missing"); return; }
+    if (jQuery.fn.dataTable.isDataTable('#allPapers')) return; // avoid double init
 
-    jQuery(function(){
-      const dt = jQuery('#allPapers').DataTable({
-        paging: true,
-        pageLength: 200,
-        lengthMenu: [25, 50, 100, 250, 1000, 2000],
-        searching: true,
-        order: [[3, 'desc']],    // Citations desc
-        autoWidth: true,
-        deferRender: true,
-        stateSave: true,
-        scrollX: true,           // wide tables scroll horizontally on desktop
-        responsive: false,
-        orderClasses: false,
-        dom: 't<"bottom"ip>',
-        columnDefs: [
-          { targets: 0, type: 'num' }, // Year
-          { targets: 3, type: 'num' }  // Citations
-        ],
-        initComplete: function () {
-          const api = this.api();
-          if (loaderEl) loaderEl.style.display = 'none';
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    const PAGE_LEN   = isMobile ? 50 : 200;
+    const LENGTH_MENU = isMobile ? [25, 50, 75, 100] : [25, 50, 100, 250, 1000, 2000];
 
-          const input = document.getElementById('globalSearch');
-          const reset = document.getElementById('resetSearch');
-          if (input) input.addEventListener('input', debounce(() => api.search(input.value).draw(false), 80));
-          if (reset) reset.addEventListener('click', () => { if (!input) return; input.value=''; api.search('').draw(false); input.focus(); });
+    const dt = jQuery('#allPapers').DataTable({
+      paging: true,
+      pageLength: PAGE_LEN,
+      lengthMenu: LENGTH_MENU,
+      searching: true,
+      order: [[3, 'desc']],    // Citations desc
+      autoWidth: true,
+      deferRender: true,
+      stateSave: !isMobile,     // lighter on mobile
+      scrollX: true,            // allow horizontal scroll if needed
+      responsive: false,        // (no responsive extension loaded)
+      orderClasses: false,
+      dom: 't<"bottom"ip>',
+      columnDefs: [
+        { targets: 0, type: 'num' }, // Year
+        { targets: 3, type: 'num' }  // Citations
+      ],
+      initComplete: function () {
+        const api = this.api();
+        if (loaderEl) loaderEl.style.display = 'none';
 
-          api.columns.adjust().draw(false);
-          setTimeout(() => api.columns.adjust().draw(false), 60); // Safari/Chrome nudge
-        }
-      });
+        // External search hookup
+        const input = document.getElementById('globalSearch');
+        const reset = document.getElementById('resetSearch');
+        const debounce = (fn, ms = 100) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
+        if (input) input.addEventListener('input', debounce(() => api.search(input.value).draw(false), 80));
+        if (reset) reset.addEventListener('click', () => { if (!input) return; input.value=''; api.search('').draw(false); input.focus(); });
 
-      const recalc = (() => { let t; return () => {
-        clearTimeout(t); t=setTimeout(() => dt.columns.adjust(), 120);
-      };})();
-      window.addEventListener('resize', recalc);
-      window.addEventListener('orientationchange', recalc);
+        // iOS nudge: adjust after paint
+        setTimeout(() => api.columns.adjust().draw(false), 60);
+      }
     });
+
+    // Recalculate on rotate/resize
+    const recalc = (() => { let t; return () => { clearTimeout(t); t=setTimeout(() => dt.columns.adjust(), 120); }; })();
+    window.addEventListener('resize', recalc);
+    window.addEventListener('orientationchange', recalc);
   }
 
-  // Always show the table; hide the loader ASAP
-  if (loaderEl) loaderEl.style.display = 'none';
+  // Show table quickly; hide loader once init completes
+  // Use double rAF to ensure layout is painted before plugin measures widths (iOS-safe)
+  function safeInit() {
+    requestAnimationFrame(() => requestAnimationFrame(initDataTables));
+  }
 
-  if (isMobile) {
-    // Mobile: skip DataTables entirely (avoids hidden-measure bugs); enable simple search
-    plainTableSearch();
+  // If DOM ready, init now; otherwise wait
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', safeInit, { once: true });
   } else {
-    // Desktop: use DataTables features
-    initDataTables();
+    safeInit();
   }
 })();
 </script>
