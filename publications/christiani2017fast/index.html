@@ -3,30 +3,26 @@
 
   <!-- _includes/head.html -->
 <head>
-  <!-- Analytics & trackers (leave as-is) -->
-  <span id="wts2185304"></span>
+  <!-- Begin Web-Stat code v 7.0 -->
+  <span id="wts2052863"></span>
+  <script>var wts=document.createElement('script');wts.async=true;
+  wts.src='https://app.wts2.one/log7.js';document.head.appendChild(wts);
+  wts.onload = function(){ wtslog7(2052863,2); };
+  </script><noscript><a href="https://www.web-stat.com">
+  <img src="https://app.wts2.one/7/2/2052863.png" 
+  alt="Web-Stat web statistics"></a></noscript>
+  <!-- End Web-Stat code v 7.0 -->
+    <!-- Hotjar Tracking Code for https://learning2hash.github.io/ -->
   <script>
-    var wts=document.createElement('script');wts.async=true;
-    wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
-    wts.onload=function(){ wtslog7(2185304,4); };
-  </script>
-  <noscript>
-    <a href="https://www.web-stat.com">
-      <img src="https://app.ardalio.com/7/4/2185304.png" alt="Web-Stat web statistics">
-    </a>
-  </noscript>
-
-  <script>
-    (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:1843243,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-  </script>
-
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:1843243,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script><!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -66,11 +62,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/christiani2017fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-18T12:28:47-05:00" />
+<meta property="article:published_time" content="2025-08-18T12:32:11-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast Locality-sensitive Hashing Frameworks For Approximate Near Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:28:47-05:00","datePublished":"2025-08-18T12:28:47-05:00","description":"The Indyk-Motwani Locality-Sensitive Hashing (LSH) framework (STOC 1998) is a general technique for constructing a data structure to answer approximate near neighbor queries by using a distribution \\(\\mathcal{H}\\) over locality-sensitive hash functions that partition space. For a collection of \\(n\\) points, after preprocessing, the query time is dominated by \\(O(n^{\\rho} log n)\\) evaluations of hash functions from \\(\\mathcal{H}\\) and \\(O(n^{\\rho})\\) hash table lookups and distance computations where \\(\\rho \\in (0,1)\\) is determined by the locality-sensitivity properties of \\(\\mathcal{H}\\). It follows from a recent result by Dahlgaard et al. (FOCS 2017) that the number of locality-sensitive hash functions can be reduced to \\(O(log^2 n)\\), leaving the query time to be dominated by \\(O(n^{\\rho})\\) distance computations and \\(O(n^{\\rho} log n)\\) additional word-RAM operations. We state this result as a general framework and provide a simpler analysis showing that the number of lookups and distance computations closely match the Indyk-Motwani framework, making it a viable replacement in practice. Using ideas from another locality-sensitive hashing framework by Andoni and Indyk (SODA 2006) we are able to reduce the number of additional word-RAM operations to \\(O(n^\\rho)\\).","headline":"Fast Locality-sensitive Hashing Frameworks For Approximate Near Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/christiani2017fast/"},"url":"https://learning2hash.github.io/publications/christiani2017fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:32:11-05:00","datePublished":"2025-08-18T12:32:11-05:00","description":"The Indyk-Motwani Locality-Sensitive Hashing (LSH) framework (STOC 1998) is a general technique for constructing a data structure to answer approximate near neighbor queries by using a distribution \\(\\mathcal{H}\\) over locality-sensitive hash functions that partition space. For a collection of \\(n\\) points, after preprocessing, the query time is dominated by \\(O(n^{\\rho} log n)\\) evaluations of hash functions from \\(\\mathcal{H}\\) and \\(O(n^{\\rho})\\) hash table lookups and distance computations where \\(\\rho \\in (0,1)\\) is determined by the locality-sensitivity properties of \\(\\mathcal{H}\\). It follows from a recent result by Dahlgaard et al. (FOCS 2017) that the number of locality-sensitive hash functions can be reduced to \\(O(log^2 n)\\), leaving the query time to be dominated by \\(O(n^{\\rho})\\) distance computations and \\(O(n^{\\rho} log n)\\) additional word-RAM operations. We state this result as a general framework and provide a simpler analysis showing that the number of lookups and distance computations closely match the Indyk-Motwani framework, making it a viable replacement in practice. Using ideas from another locality-sensitive hashing framework by Andoni and Indyk (SODA 2006) we are able to reduce the number of additional word-RAM operations to \\(O(n^\\rho)\\).","headline":"Fast Locality-sensitive Hashing Frameworks For Approximate Near Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/christiani2017fast/"},"url":"https://learning2hash.github.io/publications/christiani2017fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 

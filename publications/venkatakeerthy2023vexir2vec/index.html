@@ -3,30 +3,26 @@
 
   <!-- _includes/head.html -->
 <head>
-  <!-- Analytics & trackers (leave as-is) -->
-  <span id="wts2185304"></span>
+  <!-- Begin Web-Stat code v 7.0 -->
+  <span id="wts2052863"></span>
+  <script>var wts=document.createElement('script');wts.async=true;
+  wts.src='https://app.wts2.one/log7.js';document.head.appendChild(wts);
+  wts.onload = function(){ wtslog7(2052863,2); };
+  </script><noscript><a href="https://www.web-stat.com">
+  <img src="https://app.wts2.one/7/2/2052863.png" 
+  alt="Web-Stat web statistics"></a></noscript>
+  <!-- End Web-Stat code v 7.0 -->
+    <!-- Hotjar Tracking Code for https://learning2hash.github.io/ -->
   <script>
-    var wts=document.createElement('script');wts.async=true;
-    wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
-    wts.onload=function(){ wtslog7(2185304,4); };
-  </script>
-  <noscript>
-    <a href="https://www.web-stat.com">
-      <img src="https://app.ardalio.com/7/4/2185304.png" alt="Web-Stat web statistics">
-    </a>
-  </noscript>
-
-  <script>
-    (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:1843243,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-  </script>
-
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:1843243,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script><!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -66,11 +62,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/venkatakeerthy2023vexir2vec/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-18T12:28:47-05:00" />
+<meta property="article:published_time" content="2025-08-18T12:32:11-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Vexir2vec: An Architecture-neutral Embedding Framework For Binary Similarity" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:28:47-05:00","datePublished":"2025-08-18T12:28:47-05:00","description":"Binary similarity involves determining whether two binary programs exhibit similar functionality, often originating from the same source code. In this work, we propose VexIR2Vec, an approach for binary similarity using VEX-IR, an architecture-neutral Intermediate Representation (IR). We extract the embeddings from sequences of basic blocks, termed peepholes, derived by random walks on the control-flow graph. The peepholes are normalized using transformations inspired by compiler optimizations. The VEX-IR Normalization Engine mitigates, with these transformations, the architectural and compiler-induced variations in binaries while exposing semantic similarities. We then learn the vocabulary of representations at the entity level of the IR using the knowledge graph embedding techniques in an unsupervised manner. This vocabulary is used to derive function embeddings for similarity assessment using VexNet, a feed-forward Siamese network designed to position similar functions closely and separate dissimilar ones in an n-dimensional space. This approach is amenable for both diffing and searching tasks, ensuring robustness against Out-Of-Vocabulary (OOV) issues. We evaluate VexIR2Vec on a dataset comprising 2.7M functions and 15.5K binaries from 7 projects compiled across 12 compilers targeting x86 and ARM architectures. In diffing experiments, VexIR2Vec outperforms the nearest baselines by (40%), (18%), (21%), and (60%) in cross-optimization, cross-compilation, cross-architecture, and obfuscation settings, respectively. In the searching experiment, VexIR2Vec achieves a mean average precision of (0.76), outperforming the nearest baseline by (46%). Our framework is highly scalable and is built as a lightweight, multi-threaded, parallel library using only open-source tools. VexIR2Vec is (3.1)-(3.5 \\times) faster than the closest baselines and orders-of-magnitude faster than other tools.","headline":"Vexir2vec: An Architecture-neutral Embedding Framework For Binary Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/venkatakeerthy2023vexir2vec/"},"url":"https://learning2hash.github.io/publications/venkatakeerthy2023vexir2vec/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:32:11-05:00","datePublished":"2025-08-18T12:32:11-05:00","description":"Binary similarity involves determining whether two binary programs exhibit similar functionality, often originating from the same source code. In this work, we propose VexIR2Vec, an approach for binary similarity using VEX-IR, an architecture-neutral Intermediate Representation (IR). We extract the embeddings from sequences of basic blocks, termed peepholes, derived by random walks on the control-flow graph. The peepholes are normalized using transformations inspired by compiler optimizations. The VEX-IR Normalization Engine mitigates, with these transformations, the architectural and compiler-induced variations in binaries while exposing semantic similarities. We then learn the vocabulary of representations at the entity level of the IR using the knowledge graph embedding techniques in an unsupervised manner. This vocabulary is used to derive function embeddings for similarity assessment using VexNet, a feed-forward Siamese network designed to position similar functions closely and separate dissimilar ones in an n-dimensional space. This approach is amenable for both diffing and searching tasks, ensuring robustness against Out-Of-Vocabulary (OOV) issues. We evaluate VexIR2Vec on a dataset comprising 2.7M functions and 15.5K binaries from 7 projects compiled across 12 compilers targeting x86 and ARM architectures. In diffing experiments, VexIR2Vec outperforms the nearest baselines by (40%), (18%), (21%), and (60%) in cross-optimization, cross-compilation, cross-architecture, and obfuscation settings, respectively. In the searching experiment, VexIR2Vec achieves a mean average precision of (0.76), outperforming the nearest baseline by (46%). Our framework is highly scalable and is built as a lightweight, multi-threaded, parallel library using only open-source tools. VexIR2Vec is (3.1)-(3.5 \\times) faster than the closest baselines and orders-of-magnitude faster than other tools.","headline":"Vexir2vec: An Architecture-neutral Embedding Framework For Binary Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/venkatakeerthy2023vexir2vec/"},"url":"https://learning2hash.github.io/publications/venkatakeerthy2023vexir2vec/"}</script>
 <!-- End Jekyll SEO tag -->
 
 

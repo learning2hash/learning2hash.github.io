@@ -3,30 +3,26 @@
 
   <!-- _includes/head.html -->
 <head>
-  <!-- Analytics & trackers (leave as-is) -->
-  <span id="wts2185304"></span>
+  <!-- Begin Web-Stat code v 7.0 -->
+  <span id="wts2052863"></span>
+  <script>var wts=document.createElement('script');wts.async=true;
+  wts.src='https://app.wts2.one/log7.js';document.head.appendChild(wts);
+  wts.onload = function(){ wtslog7(2052863,2); };
+  </script><noscript><a href="https://www.web-stat.com">
+  <img src="https://app.wts2.one/7/2/2052863.png" 
+  alt="Web-Stat web statistics"></a></noscript>
+  <!-- End Web-Stat code v 7.0 -->
+    <!-- Hotjar Tracking Code for https://learning2hash.github.io/ -->
   <script>
-    var wts=document.createElement('script');wts.async=true;
-    wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
-    wts.onload=function(){ wtslog7(2185304,4); };
-  </script>
-  <noscript>
-    <a href="https://www.web-stat.com">
-      <img src="https://app.ardalio.com/7/4/2185304.png" alt="Web-Stat web statistics">
-    </a>
-  </noscript>
-
-  <script>
-    (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:1843243,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-  </script>
-
+      (function(h,o,t,j,a,r){
+          h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+          h._hjSettings={hjid:1843243,hjsv:6};
+          a=o.getElementsByTagName('head')[0];
+          r=o.createElement('script');r.async=1;
+          r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+          a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+  </script><!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109544763-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -66,11 +62,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/woodbridge2018detecting/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-18T12:28:47-05:00" />
+<meta property="article:published_time" content="2025-08-18T12:32:11-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Detecting Homoglyph Attacks With A Siamese Neural Network" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:28:47-05:00","datePublished":"2025-08-18T12:28:47-05:00","description":"A homoglyph (name spoofing) attack is a common technique used by adversaries to obfuscate file and domain names. This technique creates process or domain names that are visually similar to legitimate and recognized names. For instance, an attacker may create malware with the name svch0st.exe so that in a visual inspection of running processes or a directory listing, the process or file name might be mistaken as the Windows system process svchost.exe. There has been limited published research on detecting homoglyph attacks. Current approaches rely on string comparison algorithms (such as Levenshtein distance) that result in computationally heavy solutions with a high number of false positives. In addition, there is a deficiency in the number of publicly available datasets for reproducible research, with most datasets focused on phishing attacks, in which homoglyphs are not always used. This paper presents a fundamentally different solution to this problem using a Siamese convolutional neural network (CNN). Rather than leveraging similarity based on character swaps and deletions, this technique uses a learned metric on strings rendered as images: a CNN learns features that are optimized to detect visual similarity of the rendered strings. The trained model is used to convert thousands of potentially targeted process or domain names to feature vectors. These feature vectors are indexed using randomized KD-Trees to make similarity searches extremely fast with minimal computational processing. This technique shows a considerable 13% to 45% improvement over baseline techniques in terms of area under the receiver operating characteristic curve (ROC AUC). In addition, we provide both code and data to further future research.","headline":"Detecting Homoglyph Attacks With A Siamese Neural Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/woodbridge2018detecting/"},"url":"https://learning2hash.github.io/publications/woodbridge2018detecting/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-18T12:32:11-05:00","datePublished":"2025-08-18T12:32:11-05:00","description":"A homoglyph (name spoofing) attack is a common technique used by adversaries to obfuscate file and domain names. This technique creates process or domain names that are visually similar to legitimate and recognized names. For instance, an attacker may create malware with the name svch0st.exe so that in a visual inspection of running processes or a directory listing, the process or file name might be mistaken as the Windows system process svchost.exe. There has been limited published research on detecting homoglyph attacks. Current approaches rely on string comparison algorithms (such as Levenshtein distance) that result in computationally heavy solutions with a high number of false positives. In addition, there is a deficiency in the number of publicly available datasets for reproducible research, with most datasets focused on phishing attacks, in which homoglyphs are not always used. This paper presents a fundamentally different solution to this problem using a Siamese convolutional neural network (CNN). Rather than leveraging similarity based on character swaps and deletions, this technique uses a learned metric on strings rendered as images: a CNN learns features that are optimized to detect visual similarity of the rendered strings. The trained model is used to convert thousands of potentially targeted process or domain names to feature vectors. These feature vectors are indexed using randomized KD-Trees to make similarity searches extremely fast with minimal computational processing. This technique shows a considerable 13% to 45% improvement over baseline techniques in terms of area under the receiver operating characteristic curve (ROC AUC). In addition, we provide both code and data to further future research.","headline":"Detecting Homoglyph Attacks With A Siamese Neural Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/woodbridge2018detecting/"},"url":"https://learning2hash.github.io/publications/woodbridge2018detecting/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
