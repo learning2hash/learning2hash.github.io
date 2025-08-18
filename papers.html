@@ -4,6 +4,7 @@ title: Search all Publications on Learning to Hash
 description: A list of research papers for Learning to Hash.
 ---
 
+<!-- If your base layout already sets the viewport, you can remove this line -->
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 <h2>Search Publications</h2>
@@ -87,12 +88,12 @@ description: A list of research papers for Learning to Hash.
   /* Allow horizontal scroll if needed on tiny screens */
   .table-wrap{ width:100%; overflow-x:auto; -webkit-overflow-scrolling: touch; }
 
-  /* Base table look (applies pre/post enhancement) */
+  /* Base table look */
   table#allPapers {
     width:100%;
     border-collapse: collapse;
     font-size: 0.95rem;
-    table-layout: fixed; /* default; relaxed on small screens below */
+    table-layout: fixed; /* default for desktop; relaxed on mobile below */
   }
 
   /* Relax fixed layout on narrow screens so Safari can measure columns */
@@ -101,7 +102,7 @@ description: A list of research papers for Learning to Hash.
   }
 
   /* Column widths: Year & Citations narrow, Title/Authors flexible */
-  #allPars th:nth-child(1), #allPapers td:nth-child(1) { width: 6ch; }  /* Year */
+  #allPapers th:nth-child(1), #allPapers td:nth-child(1) { width: 6ch; }  /* Year */
   #allPapers th:nth-child(4), #allPapers td:nth-child(4) { width: 8ch; }  /* Citations */
 
   /* Let Title & Authors take the remaining space */
@@ -128,12 +129,9 @@ description: A list of research papers for Learning to Hash.
     font-size: 1.05em; text-align: center; z-index: 10; background: white;
     padding: .8em 1.2em; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.08);
   }
-
-  /* Keep layout measurable during enhancement */
-  .is-enhancing #allPapers { opacity: 0; }  /* was visibility:hidden */
 </style>
 
-<!-- jQuery & DataTables -->
+<!-- jQuery & DataTables (desktop only; mobile will skip init) -->
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
 <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
@@ -167,45 +165,58 @@ description: A list of research papers for Learning to Hash.
 })();
 </script>
 
-<!-- DataTables bootstrap (enhance existing DOM) -->
+<!-- Progressive enhancement: plain table on mobile; DataTables on desktop -->
 <script>
-  (function () {
-    const $docEl = document.documentElement;
-    const loaderEl = document.getElementById('loading');
+(function () {
+  const loaderEl = document.getElementById('loading');
+  const isMobile = window.matchMedia('(max-width: 768px)').matches;
 
-    // Detect mobile-ish viewport (CSS-driven; no UA sniffing)
-    const isMobile = matchMedia('(max-width: 768px)').matches;
+  const debounce = (fn, ms = 120) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
 
-    // Defaults per device
-    const PAGE_LEN   = isMobile ? 50 : 200; // default initially shown
-    const LENGTH_MENU = isMobile
-      ? [25, 50, 75, 100]
-      : [25, 50, 100, 250, 1000, 2000];
+  function plainTableSearch() {
+    // simple client-side search for mobile
+    const input = document.getElementById('globalSearch');
+    const reset = document.getElementById('resetSearch');
+    const tbody = document.querySelector('#allPapers tbody');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
 
-    // Fallback to plain table if enhancement stalls
-    const FALLBACK_MS = 3500;
-    const fallbackTimer = setTimeout(() => {
-      $docEl.classList.remove('is-enhancing');
-      if (loaderEl) loaderEl.style.display = 'none';
-    }, FALLBACK_MS);
+    // default sort by Citations desc to mimic desktop behavior
+    rows.sort((a,b) => {
+      const av = parseInt(a.cells[3]?.getAttribute('data-order') || a.cells[3]?.textContent || '0', 10) || 0;
+      const bv = parseInt(b.cells[3]?.getAttribute('data-order') || b.cells[3]?.textContent || '0', 10) || 0;
+      return bv - av;
+    }).forEach(tr => tbody.appendChild(tr));
 
-    const debounce = (fn, ms = 100) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
+    const norm = s => (s || '').toLowerCase();
+    const apply = q => {
+      const m = norm(q);
+      rows.forEach(tr => {
+        const title = norm(tr.cells[1]?.innerText);
+        const authors = norm(tr.cells[2]?.innerText);
+        tr.style.display = (!m || title.includes(m) || authors.includes(m)) ? '' : 'none';
+      });
+    };
 
-    function init() {
-      if (!(window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable)) return;
+    if (input) input.addEventListener('input', debounce(() => apply(input.value), 80));
+    if (reset) reset.addEventListener('click', () => { if (!input) return; input.value=''; apply(''); input.focus(); });
 
-      clearTimeout(fallbackTimer);
+    apply(''); // initial render
+  }
 
+  function initDataTables() {
+    if (!(window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable)) return;
+
+    jQuery(function(){
       const dt = jQuery('#allPapers').DataTable({
         paging: true,
-        pageLength: PAGE_LEN,
-        lengthMenu: LENGTH_MENU,
+        pageLength: 200,
+        lengthMenu: [25, 50, 100, 250, 1000, 2000],
         searching: true,
         order: [[3, 'desc']],    // Citations desc
-        autoWidth: false,
+        autoWidth: true,
         deferRender: true,
-        stateSave: !isMobile,     // lighter on mobile
-        scrollX: false,
+        stateSave: true,
+        scrollX: true,           // wide tables scroll horizontally on desktop
         responsive: false,
         orderClasses: false,
         dom: 't<"bottom"ip>',
@@ -215,52 +226,35 @@ description: A list of research papers for Learning to Hash.
         ],
         initComplete: function () {
           const api = this.api();
-
-          // Reveal table & hide loader
-          $docEl.classList.remove('is-enhancing');
           if (loaderEl) loaderEl.style.display = 'none';
 
-          // External search hookup
           const input = document.getElementById('globalSearch');
           const reset = document.getElementById('resetSearch');
           if (input) input.addEventListener('input', debounce(() => api.search(input.value).draw(false), 80));
           if (reset) reset.addEventListener('click', () => { if (!input) return; input.value=''; api.search('').draw(false); input.focus(); });
 
-          // iOS nudge: adjust once more after paint
-          setTimeout(() => api.columns.adjust().draw(false), 60);
+          api.columns.adjust().draw(false);
+          setTimeout(() => api.columns.adjust().draw(false), 60); // Safari/Chrome nudge
         }
       });
 
-      // Light resize handling
-      const recalc = (() => {
-        let t; return () => { clearTimeout(t); t = setTimeout(() => {
-          if (jQuery.fn.dataTable.isDataTable('#allPapers')) {
-            jQuery('#allPapers').DataTable().columns.adjust();
-          }
-        }, 120); };
-      })();
+      const recalc = (() => { let t; return () => {
+        clearTimeout(t); t=setTimeout(() => dt.columns.adjust(), 120);
+      };})();
       window.addEventListener('resize', recalc);
       window.addEventListener('orientationchange', recalc);
-    }
+    });
+  }
 
-    // Start “enhancing” (avoid flicker)
-    $docEl.classList.add('is-enhancing');
-    if (loaderEl) loaderEl.style.display = 'block';
+  // Always show the table; hide the loader ASAP
+  if (loaderEl) loaderEl.style.display = 'none';
 
-    // Wait for DataTables to exist, then init after layout is painted (iOS-safe)
-    const start = Date.now();
-    function safeInit() {
-      // double rAF to ensure layout pass before measuring widths
-      requestAnimationFrame(() => requestAnimationFrame(init));
-    }
-    (function waitForDT() {
-      if (window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable) {
-        if (isMobile) setTimeout(safeInit, 150);           // tiny delay on mobile
-        else if ('requestIdleCallback' in window) requestIdleCallback(safeInit, { timeout: 1500 });
-        else safeInit();
-      } else if (Date.now() - start < 8000) {
-        setTimeout(waitForDT, 50);
-      } // else: fallback already revealed the plain table
-    })();
-  })();
+  if (isMobile) {
+    // Mobile: skip DataTables entirely (avoids hidden-measure bugs); enable simple search
+    plainTableSearch();
+  } else {
+    // Desktop: use DataTables features
+    initDataTables();
+  }
+})();
 </script>
