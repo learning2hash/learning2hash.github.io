@@ -67,8 +67,19 @@ description: A searchable list of open-source Learning to Hash tools
     white-space:nowrap; vertical-align:top; overflow:hidden; text-overflow:ellipsis;
   }
 
+  /* Make Description a single-column block and clamp lines */
   #tools-table td:nth-child(4){
-    white-space:normal; line-height:1.35; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; overflow:hidden;
+    white-space:normal;
+    line-height:1.35;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+    overflow:hidden;
+
+    /* prevent accidental multi-column layout from any global CSS */
+    -webkit-column-count:1; column-count:1;
+    -webkit-column-gap:normal; column-gap:normal;
+    -webkit-column-rule:initial; column-rule:initial;
   }
 
   #tools-table th:nth-child(3), #tools-table td:nth-child(3),
@@ -85,11 +96,31 @@ description: A searchable list of open-source Learning to Hash tools
 
   .dataTables_filter{ display:none !important; }
 
+  /* Tag filter bar */
   #tagFilter{ margin:1rem 0 .75rem; display:flex; flex-wrap:wrap; gap:.5rem .75rem; max-width:100%; box-sizing:border-box; }
-  .tag-chip{ text-decoration:none; border-radius:999px; padding:.2rem .6rem; background:#f6f7f9; border:1px solid #e6e8ec; display:inline-flex; align-items:center; gap:.35rem; font-size:.8rem; line-height:1.1; cursor:pointer; user-select:none; color:inherit; font-weight:500; }
-  .tag-chip .count{ font-size:.75rem; opacity:.8; font-variant-numeric:tabular-nums; }
+  .tag-chip{
+    text-decoration:none; border-radius:999px; padding:.2rem .6rem; background:#f6f7f9; border:1px solid #e6e8ec;
+    display:inline-flex; align-items:center; gap:.35rem;
+    font-size:.78rem;                 /* ↓ smaller default */
+    line-height:1.05; cursor:pointer; user-select:none; color:inherit; font-weight:500;
+  }
+  .tag-chip .count{ font-size:.72rem; opacity:.8; font-variant-numeric:tabular-nums; }
   .tag-chip:hover{ background:#f0f3f7; }
   .tag-chip.active{ background:#eef3ff; border-color:#b7ccff; box-shadow:0 0 0 1px #dbe7ff inset; font-weight:600; }
+
+  /* Even smaller tags **inside the table** so more fit on small screens */
+  .tags-display .tag-chip{
+    font-size:.70rem;                 /* ↓ compact for table cells */
+    padding:.15rem .45rem;
+    gap:.25rem;
+    line-height:1.0;
+  }
+  @media (max-width: 640px){
+    .tags-display .tag-chip{
+      font-size:.66rem;               /* ↓ extra-compact on phones */
+      padding:.12rem .40rem;
+    }
+  }
 
   table.dataTable th.dt-nowrap, table.dataTable td.dt-nowrap { white-space:nowrap; }
 
