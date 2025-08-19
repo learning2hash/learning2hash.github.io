@@ -35,7 +35,6 @@ description: A searchable list of open-source Learning to Hash tools
       <th data-priority="3">Tags</th>
       <th data-priority="2">Stars</th>
       <th data-priority="1">Description</th>
-      <th data-priority="4">Updated</th>
     </tr>
   </thead>
   <tbody></tbody>
@@ -57,11 +56,11 @@ description: A searchable list of open-source Learning to Hash tools
     table-layout:fixed;
   }
 
-  #tools-table th:nth-child(1), #tools-table td:nth-child(1){ width:24%; } /* Repo */
-  #tools-table th:nth-child(2), #tools-table td:nth-child(2){ width:22%; } /* Tags */
+  /* Column widths (4 columns now) */
+  #tools-table th:nth-child(1), #tools-table td:nth-child(1){ width:26%; } /* Repo */
+  #tools-table th:nth-child(2), #tools-table td:nth-child(2){ width:24%; } /* Tags */
   #tools-table th:nth-child(3), #tools-table td:nth-child(3){ width:10%; } /* Stars */
-  #tools-table th:nth-child(4), #tools-table td:nth-child(4){ width:32%; } /* Description */
-  #tools-table th:nth-child(5), #tools-table td:nth-child(5){ width:12%; } /* Updated */
+  #tools-table th:nth-child(4), #tools-table td:nth-child(4){ width:40%; } /* Description */
 
   #tools-table th:not(:nth-child(4)), #tools-table td:not(:nth-child(4)){
     white-space:nowrap; vertical-align:top; overflow:hidden; text-overflow:ellipsis;
@@ -82,8 +81,7 @@ description: A searchable list of open-source Learning to Hash tools
     -webkit-column-rule:initial; column-rule:initial;
   }
 
-  #tools-table th:nth-child(3), #tools-table td:nth-child(3),
-  #tools-table th:nth-child(5), #tools-table td:nth-child(5){ text-align:right; }
+  #tools-table th:nth-child(3), #tools-table td:nth-child(3){ text-align:right; }
 
   .controls{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.6rem; margin:.6rem 0 .9rem; }
   .search{ display:flex; align-items:flex-start; gap:.6rem; flex-wrap:wrap; }
@@ -101,23 +99,23 @@ description: A searchable list of open-source Learning to Hash tools
   .tag-chip{
     text-decoration:none; border-radius:999px; padding:.2rem .6rem; background:#f6f7f9; border:1px solid #e6e8ec;
     display:inline-flex; align-items:center; gap:.35rem;
-    font-size:.78rem;                 /* ↓ smaller default */
+    font-size:.78rem;
     line-height:1.05; cursor:pointer; user-select:none; color:inherit; font-weight:500;
   }
   .tag-chip .count{ font-size:.72rem; opacity:.8; font-variant-numeric:tabular-nums; }
   .tag-chip:hover{ background:#f0f3f7; }
   .tag-chip.active{ background:#eef3ff; border-color:#b7ccff; box-shadow:0 0 0 1px #dbe7ff inset; font-weight:600; }
 
-  /* Even smaller tags **inside the table** so more fit on small screens */
+  /* Smaller tags inside the table */
   .tags-display .tag-chip{
-    font-size:.70rem;                 /* ↓ compact for table cells */
+    font-size:.70rem;
     padding:.15rem .45rem;
     gap:.25rem;
     line-height:1.0;
   }
   @media (max-width: 640px){
     .tags-display .tag-chip{
-      font-size:.66rem;               /* ↓ extra-compact on phones */
+      font-size:.66rem;
       padding:.12rem .40rem;
     }
   }
@@ -278,8 +276,7 @@ description: A searchable list of open-source Learning to Hash tools
     updateVisibleCount();
   }
 
-  // Custom filter: if ACTIVE_TAG is set, only show rows whose tag list includes it.
-  // Raw tags are read from a single wrapper span via data-rawtags (no extra hidden spans).
+  // Tag filter hook
   $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
     if (!datatable || !ACTIVE_TAG) return true;
     const node = datatable.row(dataIndex).node();
@@ -304,7 +301,7 @@ description: A searchable list of open-source Learning to Hash tools
         const tags = parseAllTags(tool.all_tags || tool.subcat || tool.category || '');
         const tagsJoined = tags.join('|');
 
-        // Single wrapper with data-rawtags (no hidden second span)
+        // Single wrapper with data-rawtags
         const chips = `<span class="tags-display" data-rawtags="${tagsJoined.replace(/"/g,'&quot;')}">
           ${tags.length
             ? tags.slice(0, 12).map(t => `<span class="tag-chip" tabindex="-1" aria-hidden="true">${t}</span>`).join(' ')
@@ -316,10 +313,9 @@ description: A searchable list of open-source Learning to Hash tools
 
         return [
           `<a href="${repo_url}" target="_blank" rel="noopener noreferrer">${github}</a>`, // Repo
-          chips,                                                                            // Tags (chips; raw stored in data-rawtags)
+          chips,                                                                            // Tags
           starsNum,                                                                         // Stars
-          descCell,                                                                         // Description
-          (tool.updated_at || "")                                                           // Updated
+          descCell                                                                          // Description
         ];
       });
 
@@ -329,8 +325,7 @@ description: A searchable list of open-source Learning to Hash tools
           { title: "Repo", className: 'dt-nowrap' },
           { title: "Tags" },
           { title: "Stars", className: 'dt-nowrap' },
-          { title: "Description" },
-          { title: "Updated", className: 'dt-nowrap' }
+          { title: "Description" }
         ],
         responsive: { details: { type: 'inline' } },
         autoWidth: false,
@@ -342,8 +337,7 @@ description: A searchable list of open-source Learning to Hash tools
           { responsivePriority: 1, targets: 0 },
           { responsivePriority: 2, targets: 2 },
           { responsivePriority: 3, targets: 3 },
-          { responsivePriority: 4, targets: 1 },
-          { responsivePriority: 5, targets: 4 }
+          { responsivePriority: 4, targets: 1 }
         ],
         initComplete: function () {
           datatable = this.api();
