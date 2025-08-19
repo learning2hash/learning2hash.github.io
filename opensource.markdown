@@ -141,10 +141,10 @@ description: A searchable list of open-source Learning to Hash tools
 <script>
   var datatable;
   var searchInitialized = false;
-  var ACTIVE_TAG = null;
+  // Now supports multiple selected tags (AND logic)
+  var ACTIVE_TAGS = new Set();
 
   function normTag(t){ return (t || '').trim(); }
-
   function parseAllTags(s){
     if (!s) return [];
     return s.split(/[,;|]/).map(normTag).filter(Boolean);
@@ -156,20 +156,45 @@ description: A searchable list of open-source Learning to Hash tools
     if (el) el.textContent = datatable.rows({ filter: 'applied' }).count() + ' rows';
   }
 
+  function setHashFromActive(){
+    const tags = Array.from(ACTIVE_TAGS);
+    if (tags.length === 0) {
+      history.replaceState(null,'',location.pathname + location.search);
+    } else {
+      location.hash = 'tag=' + encodeURIComponent(tags.join(','));
+    }
+  }
+
   function applyHash() {
     if (!datatable || !searchInitialized) return;
     const raw = decodeURIComponent((window.location.hash || '').replace(/^#/, ''));
-    const tagMatch = raw.match(/^tag=(.+)$/i);
+    const match = raw.match(/^tag=(.+)$/i);
 
-    if (tagMatch && tagMatch[1]) {
-      const want = tagMatch[1];
-      const chip = Array.from(document.querySelectorAll('#tagFilter .tag-chip'))
-        .find(el => (el.dataset.tag || '') === want);
-      if (chip) chip.click();
+    // Clear UI selection
+    document.querySelectorAll('#tagFilter .tag-chip').forEach(el=>{
+      el.classList.remove('active');
+      el.setAttribute('aria-pressed','false');
+    });
+    ACTIVE_TAGS.clear();
+
+    if (match && match[1]) {
+      const wanted = match[1].split(',').map(normTag).filter(Boolean);
+      wanted.forEach(tag=>{
+        const chip = Array.from(document.querySelectorAll('#tagFilter .tag-chip'))
+          .find(el => (el.dataset.tag || '') === tag);
+        if (chip) {
+          chip.classList.add('active');
+          chip.setAttribute('aria-pressed','true');
+          ACTIVE_TAGS.add(tag);
+        }
+      });
+      datatable.draw();
+      updateVisibleCount();
       return;
     }
+    // No hash → clear table search (but leave text input alone)
     datatable.columns().search('');
-    datatable.search(raw).draw();
+    datatable.search('').draw();
     updateVisibleCount();
   }
 
@@ -188,12 +213,13 @@ description: A searchable list of open-source Learning to Hash tools
     const bar = document.getElementById('tagFilter');
     bar.innerHTML = '';
 
+    // “All” chip (acts as clear)
     const allChip = document.createElement('span');
-    allChip.className = 'tag-chip active';
+    allChip.className = 'tag-chip';
     allChip.dataset.tag = '';
     allChip.role = 'button';
     allChip.tabIndex = 0;
-    allChip.setAttribute('aria-pressed', 'true');
+    allChip.setAttribute('aria-pressed', 'false');
     allChip.innerHTML = `All <span class="count">(${total})</span>`;
     bar.appendChild(allChip);
 
@@ -208,33 +234,43 @@ description: A searchable list of open-source Learning to Hash tools
       bar.appendChild(chip);
     });
 
-    function activateChip(chip){
+    function toggleChip(chip){
       const tag = chip.dataset.tag;
-      ACTIVE_TAG = (tag === '') ? null : String(tag);
-
-      bar.querySelectorAll('.tag-chip').forEach(el => {
-        el.classList.remove('active'); el.setAttribute('aria-pressed','false');
-      });
-      chip.classList.add('active'); chip.setAttribute('aria-pressed','true');
-
-      if (window.toolsSearchInput) window.toolsSearchInput.value = '';
-
-      datatable.search('');
-      datatable.columns().search('');
-
-      if (ACTIVE_TAG === null) {
+      if (tag === '') {
+        // “All” clears selection
+        ACTIVE_TAGS.clear();
+        bar.querySelectorAll('.tag-chip').forEach(el => {
+          el.classList.remove('active'); el.setAttribute('aria-pressed','false');
+        });
         datatable.draw();
-        history.replaceState(null, '', location.pathname + location.search);
-      } else {
-        datatable.draw();
-        location.hash = 'tag=' + encodeURIComponent(ACTIVE_TAG);
+        setHashFromActive();
+        updateVisibleCount();
+        return;
       }
+
+      // Toggle this tag
+      if (ACTIVE_TAGS.has(tag)) {
+        ACTIVE_TAGS.delete(tag);
+        chip.classList.remove('active');
+        chip.setAttribute('aria-pressed','false');
+      } else {
+        ACTIVE_TAGS.add(tag);
+        chip.classList.add('active');
+        chip.setAttribute('aria-pressed','true');
+      }
+
+      // Keep “All” visually off when any tags are active
+      const all = bar.querySelector('.tag-chip[data-tag=""]');
+      if (all) { all.classList.remove('active'); all.setAttribute('aria-pressed','false'); }
+
+      datatable.draw();
+      setHashFromActive();
       updateVisibleCount();
     }
 
     bar.addEventListener('click', e => {
       const chip = e.target.closest('.tag-chip');
-      if (chip) activateChip(chip);
+      if (chip) toggleChip(chip);
     });
 
     bar.style.display = '';
@@ -252,9 +288,11 @@ description: A searchable list of open-source Learning to Hash tools
       const q = (toolsSearchInput.value || '').trim();
 
       if (q) {
-        const bar = document.getElementById('tagFilter');
-        const all = bar && (bar.querySelector('.tag-chip[data-tag=""]') || bar.querySelector('.tag-chip'));
-        if (all && !all.classList.contains('active')) all.click();
+        // When typing, clear tag selection to avoid confusion
+        ACTIVE_TAGS.clear();
+        document.querySelectorAll('#tagFilter .tag-chip').forEach(el=>{
+          el.classList.remove('active'); el.setAttribute('aria-pressed','false');
+        });
         history.replaceState(null, '', location.pathname + location.search);
       }
 
@@ -264,7 +302,10 @@ description: A searchable list of open-source Learning to Hash tools
 
     toolsSearchInput.addEventListener('input', doSearch);
     toolsResetBtn.addEventListener('click', () => {
-      toolsSearchInput.value=''; datatable.search('').draw(); updateVisibleCount(); toolsSearchInput.focus();
+      toolsSearchInput.value='';
+      datatable.search('').draw();
+      updateVisibleCount();
+      toolsSearchInput.focus();
     });
 
     document.addEventListener('keydown', (e) => {
@@ -276,14 +317,41 @@ description: A searchable list of open-source Learning to Hash tools
     updateVisibleCount();
   }
 
-  // Tag filter hook
+  // Custom filter: require each row to include ALL selected tags (case-insensitive)
   $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
-    if (!datatable || !ACTIVE_TAG) return true;
+    if (!datatable || ACTIVE_TAGS.size === 0) return true;
     const node = datatable.row(dataIndex).node();
     const holder = node && node.querySelector('.tags-display');
     const raw = holder ? (holder.dataset.rawtags || '') : '';
-    const tokens = raw.split('|').map(normTag).filter(Boolean);
-    return tokens.map(t => t.toLowerCase()).includes(ACTIVE_TAG.toLowerCase());
+    const tokens = raw.split('|').map(t => t.trim().toLowerCase()).filter(Boolean);
+
+    for (const t of ACTIVE_TAGS) {
+      if (!tokens.includes(String(t).toLowerCase())) return false;
+    }
+    return true;
+  });
+
+  // Clicking a tag chip inside the table toggles it in the filter bar
+  document.addEventListener('click', function(e){
+    const chip = e.target.closest('#tools-table .tags-display .tag-chip');
+    if (!chip) return;
+    const tagText = chip.textContent.trim();
+
+    // Find the matching chip in the filter bar (create if not present)
+    const bar = document.getElementById('tagFilter');
+    let barChip = Array.from(bar.querySelectorAll('.tag-chip')).find(el => (el.dataset.tag || '') === tagText);
+    if (!barChip && tagText) {
+      // Create a new chip if tag wasn't in counts (rare)
+      barChip = document.createElement('span');
+      barChip.className = 'tag-chip';
+      barChip.dataset.tag = tagText;
+      barChip.role = 'button';
+      barChip.tabIndex = 0;
+      barChip.setAttribute('aria-pressed','false');
+      barChip.textContent = tagText;
+      bar.appendChild(barChip);
+    }
+    if (barChip) barChip.click();
   });
 
   $(document).ready(function () {
