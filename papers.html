@@ -4,8 +4,6 @@ title: Search all Publications on Learning to Hash
 description: A list of research papers for Learning to Hash.
 ---
 
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-
 <h2>Search Publications</h2>
 <p>
   Search across all papers in this collection. Use the search bar to filter by <strong>title</strong> 
@@ -87,12 +85,17 @@ description: A list of research papers for Learning to Hash.
   /* Allow horizontal scroll if needed on tiny screens */
   .table-wrap{ width:100%; overflow-x:auto; -webkit-overflow-scrolling: touch; }
 
-  /* Base table look (applies pre/post enhancement) */
+  /* Base table look */
   table#allPapers {
     width:100%;
     border-collapse: collapse;
     font-size: 0.95rem;
-    table-layout: fixed; /* makes mobile wrapping predictable */
+    table-layout: fixed; /* default; relaxed on small screens below */
+  }
+
+  /* Relax fixed layout on narrow screens so Safari can measure columns */
+  @media (max-width: 768px){
+    table#allPapers { table-layout: auto; }
   }
 
   /* Column widths: Year & Citations narrow, Title/Authors flexible */
@@ -123,137 +126,72 @@ description: A list of research papers for Learning to Hash.
     font-size: 1.05em; text-align: center; z-index: 10; background: white;
     padding: .8em 1.2em; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.08);
   }
-
-  /* During enhancement, hide the table to avoid flicker; plain table shows if enhancement times out */
-  .is-enhancing #allPapers { visibility: hidden; }
 </style>
 
-<!-- jQuery & DataTables -->
-<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-
-<!-- Dynamic sidebar width (kept) -->
+<!-- DataTables init (mobile + desktop), iOS-safe timing & guards -->
 <script>
 (function () {
-  function findSidebar() {
-    return document.querySelector('#sidebar, .sidebar, aside[role="complementary"], aside.sidebar');
+  const loaderEl = document.getElementById('loading');
+
+  function initDataTables() {
+    // Guards (helps surface any lingering duplicate/old includes)
+    if (!window.jQuery) { console.error("jQuery missing"); loaderEl && (loaderEl.style.display='none'); return; }
+    if (!jQuery.fn || !jQuery.fn.dataTable) { console.error("DataTables missing"); loaderEl && (loaderEl.style.display='none'); return; }
+    if (jQuery.fn.dataTable.isDataTable('#allPapers')) return; // avoid double init
+
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    const PAGE_LEN   = isMobile ? 50 : 200;
+    const LENGTH_MENU = isMobile ? [25, 50, 75, 100] : [25, 50, 100, 250, 1000, 2000];
+
+    const dt = jQuery('#allPapers').DataTable({
+      paging: true,
+      pageLength: PAGE_LEN,
+      lengthMenu: LENGTH_MENU,
+      searching: true,
+      order: [[3, 'desc']],    // Citations desc
+      autoWidth: true,
+      deferRender: true,
+      stateSave: !isMobile,     // lighter on mobile
+      scrollX: true,            // allow horizontal scroll if needed
+      responsive: false,        // (no responsive extension loaded)
+      orderClasses: false,
+      dom: 't<"bottom"ip>',
+      columnDefs: [
+        { targets: 0, type: 'num' }, // Year
+        { targets: 3, type: 'num' }  // Citations
+      ],
+      initComplete: function () {
+        const api = this.api();
+        if (loaderEl) loaderEl.style.display = 'none';
+
+        // External search hookup
+        const input = document.getElementById('globalSearch');
+        const reset = document.getElementById('resetSearch');
+        const debounce = (fn, ms = 100) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
+        if (input) input.addEventListener('input', debounce(() => api.search(input.value).draw(false), 80));
+        if (reset) reset.addEventListener('click', () => { if (!input) return; input.value=''; api.search('').draw(false); input.focus(); });
+
+        // iOS nudge: adjust after paint
+        setTimeout(() => api.columns.adjust().draw(false), 60);
+      }
+    });
+
+    // Recalculate on rotate/resize
+    const recalc = (() => { let t; return () => { clearTimeout(t); t=setTimeout(() => dt.columns.adjust(), 120); }; })();
+    window.addEventListener('resize', recalc);
+    window.addEventListener('orientationchange', recalc);
   }
-  function setSidebarWidth() {
-    const el = findSidebar();
-    const w = el ? Math.round(el.getBoundingClientRect().width) : 0;
-    document.documentElement.style.setProperty('--sidebar-width', w + 'px');
+
+  // Ensure layout is painted before measuring (double rAF is iOS-safe)
+  function safeInit() {
+    requestAnimationFrame(() => requestAnimationFrame(initDataTables));
   }
+
+  // Wait for DOM; DataTables JS is loaded via head.html with defer
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', setSidebarWidth, { once: true });
+    document.addEventListener('DOMContentLoaded', safeInit, { once: true });
   } else {
-    setSidebarWidth();
-  }
-  window.addEventListener('resize', setSidebarWidth);
-  const sidebar = findSidebar();
-  if (sidebar && 'ResizeObserver' in window) {
-    const ro = new ResizeObserver(setSidebarWidth);
-    ro.observe(sidebar);
-  }
-  if ('MutationObserver' in window) {
-    const mo = new MutationObserver(setSidebarWidth);
-    mo.observe(document.body, { attributes: true, childList: true, subtree: true });
+    safeInit();
   }
 })();
-</script>
-
-<!-- DataTables bootstrap (enhance existing DOM) -->
-<script>
-  (function () {
-    const $docEl = document.documentElement;
-    const loaderEl = document.getElementById('loading');
-
-    // Detect mobile-ish viewport (CSS-driven; no UA sniffing)
-    const isMobile = matchMedia('(max-width: 768px)').matches;
-
-    // Defaults per device
-    const PAGE_LEN   = isMobile ? 50 : 200; // default initially shown
-    const LENGTH_MENU = isMobile
-      ? [25, 50, 75, 100]                 // cap at 100 on mobile
-      : [25, 50, 100, 250, 1000, 2000];   // keep 2000 on desktop
-
-    // Fallback to plain table if enhancement stalls
-    const FALLBACK_MS = 3500;
-    const fallbackTimer = setTimeout(() => {
-      $docEl.classList.remove('is-enhancing');
-      if (loaderEl) loaderEl.style.display = 'none';
-    }, FALLBACK_MS);
-
-    const debounce = (fn, ms = 100) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
-
-    function init() {
-      if (!(window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable)) return;
-
-      clearTimeout(fallbackTimer);
-
-      const dt = jQuery('#allPapers').DataTable({
-        // IMPORTANT: no "data:" here — we enhance existing DOM rows rendered by Jekyll
-        paging: true,
-        pageLength: PAGE_LEN,
-        lengthMenu: LENGTH_MENU,
-        searching: true,
-        order: [[3, 'desc']],    // Citations desc
-        autoWidth: false,
-        deferRender: true,
-        stateSave: !isMobile,     // lighter on mobile
-        scrollX: false,
-        responsive: false,
-        orderClasses: false,
-        dom: 't<"bottom"ip>',
-        columnDefs: [
-          { targets: 0, type: 'num' }, // Year
-          { targets: 3, type: 'num' }  // Citations
-        ],
-        initComplete: function () {
-          const api = this.api();
-
-          // Reveal table & hide loader
-          $docEl.classList.remove('is-enhancing');
-          if (loaderEl) loaderEl.style.display = 'none';
-
-          // External search hookup
-          const input = document.getElementById('globalSearch');
-          const reset = document.getElementById('resetSearch');
-          if (input) input.addEventListener('input', debounce(() => api.search(input.value).draw(false), 80));
-          if (reset) reset.addEventListener('click', () => { if (!input) return; input.value=''; api.search('').draw(false); input.focus(); });
-
-          // One-time adjust after first draw
-          api.columns.adjust().draw(false);
-        }
-      });
-
-      // Light resize handling
-      const recalc = (() => {
-        let t; return () => { clearTimeout(t); t = setTimeout(() => {
-          if (jQuery.fn.dataTable.isDataTable('#allPapers')) {
-            jQuery('#allPapers').DataTable().columns.adjust();
-          }
-        }, 120); };
-      })();
-      window.addEventListener('resize', recalc);
-      window.addEventListener('orientationchange', recalc);
-    }
-
-    // Start “enhancing” (avoid flicker)
-    $docEl.classList.add('is-enhancing');
-    if (loaderEl) loaderEl.style.display = 'block';
-
-    // Wait for DataTables to exist, then init
-    const start = Date.now();
-    (function waitForDT() {
-      if (window.jQuery && window.jQuery.fn && window.jQuery.fn.dataTable) {
-        // iOS can skip requestIdleCallback; use small timeout on mobile
-        if (isMobile) setTimeout(init, 150);
-        else if ('requestIdleCallback' in window) requestIdleCallback(init, { timeout: 1500 });
-        else setTimeout(init, 0);
-      } else if (Date.now() - start < 8000) {
-        setTimeout(waitForDT, 50);
-      } // else: fallback already revealed the plain table
-    })();
-  })();
 </script>

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Explore Learning to Hash papers by Author
-description: Explore prolific authors and their contributions across Learning to Hash research
+description: Explore prolific authors and their contributions across Learning to Hash  research
 ---
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
@@ -133,17 +133,15 @@ description: Explore prolific authors and their contributions across Learning to
   .highlight { background-color: #fffbcc !important; transition: background-color 0.5s ease; }
 </style>
 
-<!-- JS Dependencies -->
-<script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js"></script>
-<script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery-sparkline@2.4.0/jquery.sparkline.min.js"></script>
-<script src="https://d3js.org/d3.v7.min.js"></script>
+<!-- Extras not in head: keep these, but defer them -->
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js" defer></script>
+<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js" defer></script>
+<script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery-sparkline@2.4.0/jquery.sparkline.min.js" defer></script>
+<script src="https://d3js.org/d3.v7.min.js" defer></script>
 
-<!-- Main Script -->
-<script>
+<!-- Main Script (deferred so it runs after all of the above + head scripts) -->
+<script defer>
   let authorData;
   let authorTable; // global for search bar access
 
