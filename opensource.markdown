@@ -267,7 +267,7 @@ description: A searchable list of open-source Learning to Hash tools
   $(document).ready(function () {
     $('#loading').show();
 
-    d3.csv("llama_police.csv").then(function (data) {
+    d3.csv("github_topics.csv").then(function (data) {
       const rows = data.map(function (tool) {
         const github = (tool.repo || "").trim();
         const repo_url = "https://github.com/" + github;
