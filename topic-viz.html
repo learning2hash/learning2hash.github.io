@@ -232,7 +232,7 @@ document.addEventListener('DOMContentLoaded', function () {
   .full-bleed-right {
     box-sizing: border-box;
     width: 100%;
-    max-width: 1200px;            /* tweak if you want wider/narrower on desktop */
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: var(--page-gutter);
@@ -408,9 +408,8 @@ document.addEventListener('DOMContentLoaded', function () {
   .info[data-show]::after, .info[data-show]::before { opacity:1; visibility:visible; }
 </style>
 
-<!-- Removed sidebar width script -->
-
-<script defer>
+<!-- Inline script is now a module (defers) and waits for DOMContentLoaded -->
+<script type="module">
   // Info tooltip toggle (click or focus)
   document.addEventListener('click', function(e){
     const isInfo = e.target.closest('.info[data-tooltip]');
@@ -418,11 +417,11 @@ document.addEventListener('DOMContentLoaded', function () {
     if (isInfo) { e.preventDefault(); isInfo.toggleAttribute('data-show'); }
   }, { passive: false });
 
-  var all_papers = null;
-  var num_topics = -1;
+  let all_papers = null;
+  let num_topics = -1;
 
   // NEW: result count state (20/50/100/200/'all')
-  var RESULTS_N = '20';
+  let RESULTS_N = '20';
 
   function getUrlParam(name) {
     const params = new URLSearchParams(window.location.search);
@@ -529,7 +528,8 @@ document.addEventListener('DOMContentLoaded', function () {
     renderPapers();
   }
 
-  $(document).ready(function() {
+  // Wait until DOM is ready (ensures all deferred scripts, including jQuery, have run)
+  window.addEventListener('DOMContentLoaded', function () {
     const nParam = getUrlParam('n');
     const rcEl = document.getElementById('resultCount');
     if (nParam && isValidResultN(nParam)) {
@@ -544,6 +544,7 @@ document.addEventListener('DOMContentLoaded', function () {
       renderPapers();
     });
 
+    // Load topics.json (respect baseurl)
     $.getJSON('/topics.json', function(data) {
       all_papers = data.paper_data;
       num_topics = data.topics.length;
@@ -576,6 +577,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
 
+  // Keyboard: Cmd/Ctrl + R to reset sliders (prevent page refresh)
   document.addEventListener('keydown', (e) => {
     if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'r') {
       e.preventDefault();
