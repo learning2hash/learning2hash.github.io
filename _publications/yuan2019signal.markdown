@@ -1,0 +1,34 @@
+---
+layout: publication
+title: 'Signal-to-noise Ratio: A Robust Distance Metric For Deep Metric Learning'
+authors: Tongtong Yuan, Weihong Deng, Jian Tang, Yinan Tang, Binghui Chen
+conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2019
+bibkey: yuan2019signal
+citations: 81
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02616'}]
+tags: [Hashing Methods, CVPR, Distance Metric Learning, Neural Hashing]
+short_authors: Yuan et al.
+---
+Deep metric learning, which learns discriminative features to process image
+clustering and retrieval tasks, has attracted extensive attention in recent
+years. A number of deep metric learning methods, which ensure that similar
+examples are mapped close to each other and dissimilar examples are mapped
+farther apart, have been proposed to construct effective structures for loss
+functions and have shown promising results. In this paper, different from the
+approaches on learning the loss structures, we propose a robust SNR distance
+metric based on Signal-to-Noise Ratio (SNR) for measuring the similarity of
+image pairs for deep metric learning. By exploring the properties of our SNR
+distance metric from the view of geometry space and statistical theory, we
+analyze the properties of our metric and show that it can preserve the semantic
+similarity between image pairs, which well justify its suitability for deep
+metric learning. Compared with Euclidean distance metric, our SNR distance
+metric can further jointly reduce the intra-class distances and enlarge the
+inter-class distances for learned features. Leveraging our SNR distance metric,
+we propose Deep SNR-based Metric Learning (DSML) to generate discriminative
+feature embeddings. By extensive experiments on three widely adopted
+benchmarks, including CARS196, CUB200-2011 and CIFAR10, our DSML has shown its
+superiority over other state-of-the-art methods. Additionally, we extend our
+SNR distance metric to deep hashing learning, and conduct experiments on two
+benchmarks, including CIFAR10 and NUS-WIDE, to demonstrate the effectiveness
+and generality of our SNR distance metric.
