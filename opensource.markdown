@@ -56,7 +56,7 @@ description: A searchable list of open-source Learning to Hash tools
     table-layout:fixed;
   }
 
-  /* Column widths (4 columns now) */
+  /* Column widths (4 columns) */
   #tools-table th:nth-child(1), #tools-table td:nth-child(1){ width:26%; } /* Repo */
   #tools-table th:nth-child(2), #tools-table td:nth-child(2){ width:24%; } /* Tags */
   #tools-table th:nth-child(3), #tools-table td:nth-child(3){ width:10%; } /* Stars */
@@ -79,6 +79,23 @@ description: A searchable list of open-source Learning to Hash tools
     -webkit-column-count:1; column-count:1;
     -webkit-column-gap:normal; column-gap:normal;
     -webkit-column-rule:initial; column-rule:initial;
+  }
+
+  /* HARD override: stop any theme multi-column leakage into Description */
+  #tools-table td:nth-child(4),
+  #tools-table td:nth-child(4) * {
+    -webkit-column-count: 1 !important;
+    -moz-column-count: 1 !important;
+    column-count: 1 !important;
+    -webkit-columns: auto !important;
+    -moz-columns: auto !important;
+    columns: auto !important;
+    -webkit-column-gap: normal !important;
+    -moz-column-gap: normal !important;
+    column-gap: normal !important;
+    -webkit-column-rule: initial !important;
+    -moz-column-rule: initial !important;
+    column-rule: initial !important;
   }
 
   #tools-table th:nth-child(3), #tools-table td:nth-child(3){ text-align:right; }
@@ -141,12 +158,14 @@ description: A searchable list of open-source Learning to Hash tools
 <script>
   var datatable;
   var searchInitialized = false;
-  // Now supports multiple selected tags (AND logic)
+  // multiple selected tags (AND logic)
   var ACTIVE_TAGS = new Set();
 
   function normTag(t){ return (t || '').trim(); }
   function parseAllTags(s){
     if (!s) return [];
+    // normalize JSON-ish lists like "['a','b']" or '["a","b"]'
+    s = String(s).replace(/^\s*\[|\]\s*$/g, '').replace(/['"]/g, '');
     return s.split(/[,;|]/).map(normTag).filter(Boolean);
   }
 
@@ -317,13 +336,29 @@ description: A searchable list of open-source Learning to Hash tools
     updateVisibleCount();
   }
 
-  // Custom filter: require each row to include ALL selected tags (case-insensitive)
+  // Custom filter: require each row to include ALL selected tags (case-insensitive).
   $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
     if (!datatable || ACTIVE_TAGS.size === 0) return true;
-    const node = datatable.row(dataIndex).node();
+
+    // Prefer DOM data-rawtags for robustness
+    const node   = datatable.row(dataIndex).node();
     const holder = node && node.querySelector('.tags-display');
-    const raw = holder ? (holder.dataset.rawtags || '') : '';
-    const tokens = raw.split('|').map(t => t.trim().toLowerCase()).filter(Boolean);
+    let tokens   = [];
+
+    if (holder && holder.dataset.rawtags !== undefined) {
+      tokens = String(holder.dataset.rawtags || '')
+        .split('|')
+        .map(t => t.trim().toLowerCase())
+        .filter(Boolean);
+    } else {
+      // Fallback: parse the Tags column HTML
+      const html = data[1] || '';
+      const div  = document.createElement('div');
+      div.innerHTML = html;
+      tokens = Array.from(div.querySelectorAll('.tag-chip'))
+        .map(x => x.textContent.trim().toLowerCase())
+        .filter(Boolean);
+    }
 
     for (const t of ACTIVE_TAGS) {
       if (!tokens.includes(String(t).toLowerCase())) return false;
@@ -369,8 +404,8 @@ description: A searchable list of open-source Learning to Hash tools
         const tags = parseAllTags(tool.all_tags || tool.subcat || tool.category || '');
         const tagsJoined = tags.join('|');
 
-        // Single wrapper with data-rawtags
-        const chips = `<span class="tags-display" data-rawtags="${tagsJoined.replace(/"/g,'&quot;')}">
+        // Single wrapper with data-rawtags (always present, even if empty)
+        const chips = `<span class="tags-display" data-rawtags="${(tagsJoined || '').replace(/"/g,'&quot;')}">
           ${tags.length
             ? tags.slice(0, 12).map(t => `<span class="tag-chip" tabindex="-1" aria-hidden="true">${t}</span>`).join(' ')
             : `<span class="tag-chip" tabindex="-1" aria-hidden="true">Uncategorized</span>`}
@@ -391,7 +426,7 @@ description: A searchable list of open-source Learning to Hash tools
         data: rows,
         columns: [
           { title: "Repo", className: 'dt-nowrap' },
-          { title: "Tags" },
+          { title: "Tags", searchable: false },  // prevent odd interactions with text search
           { title: "Stars", className: 'dt-nowrap' },
           { title: "Description" }
         ],
