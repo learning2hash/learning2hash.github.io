@@ -68,19 +68,38 @@ description: A searchable list of open-source Learning to Hash tools
     white-space:nowrap; vertical-align:top; overflow:hidden; text-overflow:ellipsis;
   }
 
-  /* Description as one block, no multi-column leakage */
-  #tools-table td:nth-child(4){
-    white-space:normal; line-height:1.35;
-    display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:3; overflow:hidden;
-    -webkit-column-count:1; column-count:1;
-    -webkit-column-gap:normal; column-gap:normal;
-    -webkit-column-rule:initial; column-rule:initial;
+  /* Global nuke: stop any theme multi-column leakage anywhere inside the table */
+  #tools-table, #tools-table * {
+    -webkit-column-count: 1 !important;
+    -moz-column-count: 1 !important;
+    column-count: 1 !important;
+
+    -webkit-column-width: auto !important;
+    -moz-column-width: auto !important;
+    column-width: auto !important;
+
+    -webkit-columns: auto !important;
+    -moz-columns: auto !important;
+    columns: auto !important;
+
+    -webkit-column-gap: normal !important;
+    -moz-column-gap: normal !important;
+    column-gap: normal !important;
+
+    -webkit-column-rule: initial !important;
+    -moz-column-rule: initial !important;
+    column-rule: initial !important;
   }
-  #tools-table td:nth-child(4), #tools-table td:nth-child(4) * {
-    -webkit-column-count: 1 !important; -moz-column-count: 1 !important; column-count: 1 !important;
-    -webkit-columns: auto !important; -moz-columns: auto !important; columns: auto !important;
-    -webkit-column-gap: normal !important; -moz-column-gap: normal !important; column-gap: normal !important;
-    -webkit-column-rule: initial !important; -moz-column-rule: initial !important; column-rule: initial !important;
+
+  /* Description block: clamp lines and keep to one column */
+  #tools-table td:nth-child(4) .desc{
+    display:block;
+    white-space:normal;
+    line-height:1.35;
+    overflow:hidden;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
   }
 
   #tools-table th:nth-child(3), #tools-table td:nth-child(3){ text-align:right; }
@@ -115,10 +134,10 @@ description: A searchable list of open-source Learning to Hash tools
 
   table.dataTable th.dt-nowrap, table.dataTable td.dt-nowrap { white-space:nowrap; }
 
-  @media (max-width: 1024px){ #tools-table td:nth-child(4){ -webkit-line-clamp:4; } }
+  @media (max-width: 1024px){ #tools-table td:nth-child(4) .desc{ -webkit-line-clamp:4; } }
   @media (max-width: 640px){
     .search input{ width:clamp(170px, 60vw, 85vw); }
-    #tools-table td:nth-child(4){ -webkit-line-clamp:6; }
+    #tools-table td:nth-child(4) .desc{ -webkit-line-clamp:6; }
     #tools-table td:nth-child(1) a{ word-break:break-word; }
   }
 </style>
@@ -260,11 +279,10 @@ description: A searchable list of open-source Learning to Hash tools
   }
 
   // External search bar
-  let toolsSearchInput, toolsResetBtn, toolsVisibleCount;
+  let toolsSearchInput, toolsResetBtn;
   function initToolsSearchBar(){
     toolsSearchInput = document.getElementById('toolsSearch');
     toolsResetBtn = document.getElementById('resetToolsSearch');
-    toolsVisibleCount = document.getElementById('toolsVisibleCount');
 
     function doSearch(){
       if (!datatable) return;
@@ -366,11 +384,11 @@ description: A searchable list of open-source Learning to Hash tools
         </span>`;
 
         const escapedTitle = desc_full.replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-        const descCell = `<span title="${escapedTitle}">${desc_short}</span>`;
+        const descCell = `<div class="desc" title="${escapedTitle}">${desc_short}</div>`; /* <-- wrap to stop extra column */
 
         return [
           `<a href="${repo_url}" target="_blank" rel="noopener noreferrer">${github}</a>`, // Repo
-          chips,                                                                            // Category (as chip)
+          chips,                                                                            // Category
           starsNum,                                                                         // Stars
           descCell                                                                          // Description
         ];
