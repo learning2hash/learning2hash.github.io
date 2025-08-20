@@ -56,13 +56,20 @@ description: A searchable list of open-source Learning to Hash tools
     border-collapse:collapse;
   }
 
-  /* ✅ Allow ALL cells (and headers) to wrap cleanly */
-  #tools-table td,
-  #tools-table th {
+  /* ✅ Table body cells wrap */
+  #tools-table td {
     white-space: normal !important;
     word-break: break-word;
     overflow-wrap: anywhere;
     vertical-align: top;
+  }
+
+  /* ❌ Prevent wrapping in headers */
+  #tools-table th {
+    white-space: nowrap !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
   }
 
   /* Keep Stars right-aligned */
