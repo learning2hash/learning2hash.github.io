@@ -145,6 +145,7 @@ description: A searchable list of open-source Learning to Hash tools
 <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 
+{% raw %}
 <script>
   var datatable;
   var searchInitialized = false;
@@ -221,7 +222,12 @@ description: A searchable list of open-source Learning to Hash tools
     allChip.role = 'button';
     allChip.tabIndex = 0;
     allChip.setAttribute('aria-pressed', 'false');
-    allChip.innerHTML = 'All <span class="count">(' + total + ')</span>';
+    // safer: textContent + appended count span
+    allChip.textContent = 'All';
+    const allCount = document.createElement('span');
+    allCount.className = 'count';
+    allCount.textContent = ' (' + total + ')';
+    allChip.appendChild(allCount);
     bar.appendChild(allChip);
 
     entries.forEach(function(pair) {
@@ -232,7 +238,12 @@ description: A searchable list of open-source Learning to Hash tools
       chip.role = 'button';
       chip.tabIndex = 0;
       chip.setAttribute('aria-pressed', 'false');
-      chip.innerHTML = sanitizeForHTMLInScript(tag) + ' <span class="count">(' + cnt + ')</span>';
+      // safer: textContent + appended count span
+      chip.textContent = tag;
+      const countSpan = document.createElement('span');
+      countSpan.className = 'count';
+      countSpan.textContent = ' (' + cnt + ')';
+      chip.appendChild(countSpan);
       bar.appendChild(chip);
     });
 
@@ -353,7 +364,7 @@ description: A searchable list of open-source Learning to Hash tools
   function sanitizeForHTMLInScript(str){
     if (str === null || str === undefined) return '';
     return String(str)
-      .replace(/&/g, '&amp;')
+      .replace(/&/g, '&amp;')   // must be first
       .replace(/</g, '&lt;')
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
@@ -452,3 +463,4 @@ description: A searchable list of open-source Learning to Hash tools
 
   $(window).on('hashchange', function () { applyHash(); });
 </script>
+{% endraw %}
