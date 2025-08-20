@@ -2,6 +2,7 @@
 layout: publication
 title: "Add title here"
 authors: F. LastName, F. LastName
+short_authors: F. LastName, F. LastName
 conference: Optional
 year: 2000
 bibkey: sameAsFilename
