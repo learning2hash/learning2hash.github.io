@@ -11,7 +11,7 @@ description: A searchable list of open-source Learning to Hash tools
 
 <!-- Loading Indicator -->
 <div id="loading" role="status" aria-live="polite">
-  <p>Loading Open Source Learning to Hash Tools ...</p>
+  <p>Loading Tools Explorer ...</p>
 </div>
 
 <!-- Controls -->
