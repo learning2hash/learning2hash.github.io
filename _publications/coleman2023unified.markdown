@@ -1,0 +1,37 @@
+---
+layout: publication
+title: 'Unified Embedding: Battle-tested Feature Representations For Web-scale ML
+  Systems'
+authors: Benjamin Coleman, Wang-Cheng Kang, Matthew Fahrbach, Ruoxi Wang, Lichan Hong,
+  Ed H. Chi, Derek Zhiyuan Cheng
+conference: Proceedings of the 37th Annual Conference on Neural Information Processing
+  Systems (NeurIPS 2023) 56234-56255
+year: 2023
+bibkey: coleman2023unified
+citations: 3
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.12102'}]
+tags: [Recommender Systems, Large-Scale Search, NeurIPS, Datasets, Scalability, Evaluation,
+  Tools & Libraries]
+short_authors: Coleman et al.
+---
+Learning high-quality feature embeddings efficiently and effectively is
+critical for the performance of web-scale machine learning systems. A typical
+model ingests hundreds of features with vocabularies on the order of millions
+to billions of tokens. The standard approach is to represent each feature value
+as a d-dimensional embedding, introducing hundreds of billions of parameters
+for extremely high-cardinality features. This bottleneck has led to substantial
+progress in alternative embedding algorithms. Many of these methods, however,
+make the assumption that each feature uses an independent embedding table. This
+work introduces a simple yet highly effective framework, Feature Multiplexing,
+where one single representation space is used across many different categorical
+features. Our theoretical and empirical analysis reveals that multiplexed
+embeddings can be decomposed into components from each constituent feature,
+allowing models to distinguish between features. We show that multiplexed
+representations lead to Pareto-optimal parameter-accuracy tradeoffs for three
+public benchmark datasets. Further, we propose a highly practical approach
+called Unified Embedding with three major benefits: simplified feature
+configuration, strong adaptation to dynamic data distributions, and
+compatibility with modern hardware. Unified embedding gives significant
+improvements in offline and online metrics compared to highly competitive
+baselines across five web-scale search, ads, and recommender systems, where it
+serves billions of users across the world in industry-leading products.

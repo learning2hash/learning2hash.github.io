@@ -1,0 +1,34 @@
+---
+layout: publication
+title: 'FACTUAL: A Benchmark For Faithful And Consistent Textual Scene Graph Parsing'
+authors: Zhuang Li, Yuyang Chai, Terry Yue Zhuo, Lizhen Qu, Gholamreza Haffari, Fei
+  Li, Donghong Ji, Quan Hung Tran
+conference: 'Findings of the Association for Computational Linguistics: ACL 2023'
+year: 2023
+bibkey: li2023factual
+citations: 4
+additional_links: [{name: Code, url: 'https://github.com/zhuang-li/FACTUAL'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2305.17497'}]
+tags: [Datasets, ACL, Evaluation, Few-shot & Zero-shot, Image Retrieval]
+short_authors: Li et al.
+---
+Textual scene graph parsing has become increasingly important in various
+vision-language applications, including image caption evaluation and image
+retrieval. However, existing scene graph parsers that convert image captions
+into scene graphs often suffer from two types of errors. First, the generated
+scene graphs fail to capture the true semantics of the captions or the
+corresponding images, resulting in a lack of faithfulness. Second, the
+generated scene graphs have high inconsistency, with the same semantics
+represented by different annotations.
+  To address these challenges, we propose a novel dataset, which involves
+re-annotating the captions in Visual Genome (VG) using a new intermediate
+representation called FACTUAL-MR. FACTUAL-MR can be directly converted into
+faithful and consistent scene graph annotations. Our experimental results
+clearly demonstrate that the parser trained on our dataset outperforms existing
+approaches in terms of faithfulness and consistency. This improvement leads to
+a significant performance boost in both image caption evaluation and zero-shot
+image retrieval tasks. Furthermore, we introduce a novel metric for measuring
+scene graph similarity, which, when combined with the improved scene graph
+parser, achieves state-of-the-art (SOTA) results on multiple benchmark datasets
+for the aforementioned tasks. The code and dataset are available at
+https://github.com/zhuang-li/FACTUAL .

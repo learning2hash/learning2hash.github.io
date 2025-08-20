@@ -1,0 +1,31 @@
+---
+layout: publication
+title: Probabilistic Embeddings For Cross-modal Retrieval
+authors: Sanghyuk Chun, Seong Joon Oh, Rafael Sampaio de Rezende, Yannis Kalantidis,
+  Diane Larlus
+conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2021
+bibkey: chun2021probabilistic
+citations: 169
+additional_links: [{name: Code, url: 'https://github.com/naver-ai/pcme'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2101.05068'}]
+tags: [Multimodal Retrieval, Evaluation, Datasets, CVPR]
+short_authors: Chun et al.
+---
+Cross-modal retrieval methods build a common representation space for samples
+from multiple modalities, typically from the vision and the language domains.
+For images and their captions, the multiplicity of the correspondences makes
+the task particularly challenging. Given an image (respectively a caption),
+there are multiple captions (respectively images) that equally make sense. In
+this paper, we argue that deterministic functions are not sufficiently powerful
+to capture such one-to-many correspondences. Instead, we propose to use
+Probabilistic Cross-Modal Embedding (PCME), where samples from the different
+modalities are represented as probabilistic distributions in the common
+embedding space. Since common benchmarks such as COCO suffer from
+non-exhaustive annotations for cross-modal matches, we propose to additionally
+evaluate retrieval on the CUB dataset, a smaller yet clean database where all
+possible image-caption pairs are annotated. We extensively ablate PCME and
+demonstrate that it not only improves the retrieval performance over its
+deterministic counterpart but also provides uncertainty estimates that render
+the embeddings more interpretable. Code is available at
+https://github.com/naver-ai/pcme

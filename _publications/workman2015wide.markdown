@@ -1,0 +1,25 @@
+---
+layout: publication
+title: Wide-area Image Geolocalization With Aerial Reference Imagery
+authors: Scott Workman, Richard Souvenir, Nathan Jacobs
+conference: 2015 IEEE International Conference on Computer Vision (ICCV)
+year: 2015
+bibkey: workman2015wide
+citations: 280
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1510.03743'}]
+tags: [Evaluation, Datasets, ICCV]
+short_authors: Scott Workman, Richard Souvenir, Nathan Jacobs
+---
+We propose to use deep convolutional neural networks to address the problem
+of cross-view image geolocalization, in which the geolocation of a ground-level
+query image is estimated by matching to georeferenced aerial images. We use
+state-of-the-art feature representations for ground-level images and introduce
+a cross-view training approach for learning a joint semantic feature
+representation for aerial images. We also propose a network architecture that
+fuses features extracted from aerial images at multiple spatial scales. To
+support training these networks, we introduce a massive database that contains
+pairs of aerial and ground-level images from across the United States. Our
+methods significantly out-perform the state of the art on two benchmark
+datasets. We also show, qualitatively, that the proposed feature
+representations are discriminative at both local and continental spatial
+scales.
