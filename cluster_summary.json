@@ -1,104 +1,104 @@
 {
-  "9": [
+  "2": [
     {
       "tag": "hashing",
-      "count": 0.083
+      "count": 0.123
     },
     {
       "tag": "hash",
-      "count": 0.061
+      "count": 0.088
     },
     {
       "tag": "code",
-      "count": 0.056
-    },
-    {
-      "tag": "modality",
-      "count": 0.039
+      "count": 0.064
     },
     {
       "tag": "binary",
-      "count": 0.038
+      "count": 0.056
+    },
+    {
+      "tag": "data",
+      "count": 0.04
     }
   ],
-  "0": [
+  "6": [
     {
       "tag": "algorithm",
-      "count": 0.053
+      "count": 0.052
     },
     {
       "tag": "neighbor",
       "count": 0.049
     },
     {
-      "tag": "nearest",
-      "count": 0.039
+      "tag": "search",
+      "count": 0.041
     },
     {
-      "tag": "search",
-      "count": 0.039
+      "tag": "nearest",
+      "count": 0.038
     },
     {
       "tag": "lsh",
-      "count": 0.035
+      "count": 0.034
     }
   ],
-  "1": [
+  "4": [
     {
       "tag": "metric",
       "count": 0.05
     },
     {
-      "tag": "image",
-      "count": 0.048
+      "tag": "learning",
+      "count": 0.042
     },
     {
-      "tag": "learning",
-      "count": 0.043
+      "tag": "image",
+      "count": 0.04
     },
     {
       "tag": "class",
-      "count": 0.037
+      "count": 0.034
     },
     {
       "tag": "sample",
-      "count": 0.03
+      "count": 0.028
     }
   ],
-  "2": [
+  "5": [
     {
       "tag": "document",
-      "count": 0.075
+      "count": 0.07
     },
     {
       "tag": "entity",
-      "count": 0.053
+      "count": 0.051
     },
     {
       "tag": "dense",
-      "count": 0.048
+      "count": 0.047
     },
     {
       "tag": "word",
-      "count": 0.044
+      "count": 0.041
     },
     {
       "tag": "embeddings",
-      "count": 0.036
+      "count": 0.035
     }
   ],
-  "6": [
+  "3": [
     {
       "tag": "descriptor",
       "count": 0.094
     },
     {
       "tag": "image",
-      "count": 0.07
+      "count": 0.071
     },
     {
       "tag": "feature",
-      "count": 0.048
+      "count": 0.046
     },
     {
       "tag": "place",
@@ -109,114 +109,114 @@
       "count": 0.039
     }
   ],
-  "4": [
-    {
-      "tag": "hashing",
-      "count": 0.09
-    },
-    {
-      "tag": "deep",
-      "count": 0.062
-    },
-    {
-      "tag": "hash",
-      "count": 0.055
-    },
-    {
-      "tag": "code",
-      "count": 0.052
-    },
-    {
-      "tag": "image",
-      "count": 0.04
-    }
-  ],
-  "3": [
-    {
-      "tag": "video",
-      "count": 0.051
-    },
-    {
-      "tag": "text",
-      "count": 0.043
-    },
-    {
-      "tag": "retrieval",
-      "count": 0.034
-    },
-    {
-      "tag": "music",
-      "count": 0.032
-    },
-    {
-      "tag": "image",
-      "count": 0.03
-    }
-  ],
   "8": [
     {
-      "tag": "hashing",
-      "count": 0.087
+      "tag": "music",
+      "count": 0.072
     },
     {
-      "tag": "binary",
-      "count": 0.07
+      "tag": "fashion",
+      "count": 0.059
     },
     {
-      "tag": "hash",
-      "count": 0.065
+      "tag": "audio",
+      "count": 0.041
     },
     {
-      "tag": "code",
-      "count": 0.051
+      "tag": "item",
+      "count": 0.04
     },
     {
-      "tag": "function",
-      "count": 0.033
+      "tag": "artist",
+      "count": 0.029
     }
   ],
   "7": [
     {
-      "tag": "recommendation",
-      "count": 0.081
+      "tag": "hashing",
+      "count": 0.07
     },
     {
-      "tag": "item",
-      "count": 0.062
-    },
-    {
-      "tag": "user",
-      "count": 0.054
-    },
-    {
-      "tag": "graph",
-      "count": 0.049
-    },
-    {
-      "tag": "embedding",
-      "count": 0.046
-    }
-  ],
-  "5": [
-    {
-      "tag": "sketch",
-      "count": 0.064
-    },
-    {
-      "tag": "person",
-      "count": 0.058
+      "tag": "deep",
+      "count": 0.05
     },
     {
       "tag": "image",
-      "count": 0.039
+      "count": 0.048
     },
     {
-      "tag": "scene",
-      "count": 0.039
+      "tag": "hash",
+      "count": 0.044
     },
+    {
+      "tag": "code",
+      "count": 0.043
+    }
+  ],
+  "0": [
     {
       "tag": "text",
-      "count": 0.028
+      "count": 0.068
+    },
+    {
+      "tag": "image",
+      "count": 0.049
+    },
+    {
+      "tag": "video",
+      "count": 0.046
+    },
+    {
+      "tag": "retrieval",
+      "count": 0.042
+    },
+    {
+      "tag": "visual",
+      "count": 0.034
+    }
+  ],
+  "1": [
+    {
+      "tag": "recommendation",
+      "count": 0.067
+    },
+    {
+      "tag": "graph",
+      "count": 0.055
+    },
+    {
+      "tag": "item",
+      "count": 0.049
+    },
+    {
+      "tag": "user",
+      "count": 0.043
+    },
+    {
+      "tag": "embedding",
+      "count": 0.042
+    }
+  ],
+  "9": [
+    {
+      "tag": "sketch",
+      "count": 0.096
+    },
+    {
+      "tag": "person",
+      "count": 0.086
+    },
+    {
+      "tag": "sbir",
+      "count": 0.04
+    },
+    {
+      "tag": "image",
+      "count": 0.027
+    },
+    {
+      "tag": "style",
+      "count": 0.027
     }
   ]
 }
