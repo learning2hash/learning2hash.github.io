@@ -24,7 +24,6 @@ description: A list of research papers for Learning to Hash.
   </div>
 </div>
 
-<!-- ===== Constrain to content column and prevent sidebar bleed ===== -->
 <div class="content-bound">
   <div class="table-wrap">
     <table id="allPapers" class="display stripe hover" style="width:100%;">
@@ -36,21 +35,7 @@ description: A list of research papers for Learning to Hash.
           <th>Citations</th>
         </tr>
       </thead>
-      <tbody>
-        {% assign publicationsByYear = site.publications | sort: "year" | group_by: "year" %}
-        {% for year in publicationsByYear reversed %}
-          {% for publication in year.items %}
-          <tr>
-            <td data-order="{{ publication.year | default: 0 }}">{{ publication.year }}</td>
-            <td>
-              <a href="{{ publication.url | prepend: site.baseurl }}">{{ publication.title }}</a>
-            </td>
-            <td>{{ publication.short_authors }}</td>
-            <td data-order="{{ publication.citations | default: 0 }}">{{ publication.citations | default: 0 }}</td>
-          </tr>
-          {% endfor %}
-        {% endfor %}
-      </tbody>
+      <tbody><!-- rows added via JS --></tbody>
     </table>
   </div>
 </div>
@@ -60,8 +45,6 @@ description: A list of research papers for Learning to Hash.
     --sidebar-width: 0px;
     --page-gutter: clamp(12px, 2vw, 24px);
   }
-
-  /* Controls */
   .controls { display:flex; flex-wrap:wrap; align-items:flex-start; gap:.6rem; margin:.6rem 0 .9rem; }
   .search { display:flex; align-items:flex-start; gap:.6rem; flex-wrap:wrap; }
   .search label { font-weight:700; font-size:.85rem; }
@@ -70,57 +53,34 @@ description: A list of research papers for Learning to Hash.
     padding:.25rem .4rem; border:1px solid #aaa; border-radius:4px; font-size:.9rem; background-color:#f8f9fa;
   }
   .search input:focus { outline:none; border-color:#0c5fce; box-shadow:0 0 0 2px rgba(26,115,232,.25); }
-  .search button {
-    padding:.25rem .5rem; font-size:.85rem; border:1px solid #aaa; border-radius:4px; background:#f8f9fa; cursor:pointer;
-  }
+  .search button { padding:.25rem .5rem; font-size:.85rem; border:1px solid #aaa; border-radius:4px; background:#f8f9fa; cursor:pointer; }
   .search button:hover { background:#e2e2e2; }
 
-  /* Keep strictly inside content column (no bleed under sidebar) */
   .content-bound{
     width:100%;
     max-width: min(100%, calc(100vw - var(--sidebar-width) - var(--page-gutter)));
     box-sizing: border-box;
   }
-
-  /* Allow horizontal scroll if needed on tiny screens */
   .table-wrap{ width:100%; overflow-x:auto; -webkit-overflow-scrolling: touch; }
 
-  /* Base table look */
-  table#allPapers {
-    width:100%;
-    border-collapse: collapse;
-    font-size: 0.95rem;
-    table-layout: fixed; /* default; relaxed on small screens below */
-  }
+  table#allPapers { width:100%; border-collapse: collapse; font-size: 0.95rem; table-layout: fixed; }
+  @media (max-width: 768px){ table#allPapers { table-layout: auto; } }
 
-  /* Relax fixed layout on narrow screens so Safari can measure columns */
-  @media (max-width: 768px){
-    table#allPapers { table-layout: auto; }
-  }
-
-  /* Column widths: Year & Citations narrow, Title/Authors flexible */
   #allPapers th:nth-child(1), #allPapers td:nth-child(1) { width: 6ch; }  /* Year */
   #allPapers th:nth-child(4), #allPapers td:nth-child(4) { width: 8ch; }  /* Citations */
-
-  /* Let Title & Authors take the remaining space */
   #allPapers th:nth-child(2), #allPapers td:nth-child(2),
   #allPapers th:nth-child(3), #allPapers td:nth-child(3) { width: auto; }
-
-  /* Wrap text nicely; no header nowrap */
   #allPapers thead th { white-space: normal; }
   #allPapers tbody td { white-space: normal; word-break: break-word; overflow-wrap: anywhere; }
 
-  /* Right-align numeric columns */
   #allPapers td:nth-child(1), #allPapers th:nth-child(1),
   #allPapers td:nth-child(4), #allPapers th:nth-child(4) {
     text-align:right; font-variant-numeric: tabular-nums;
   }
 
-  /* Slightly smaller text on narrower screens */
   @media (max-width: 900px) { #allPapers { font-size: 0.9rem; } }
   @media (max-width: 600px) { #allPapers { font-size: 0.85rem; } }
 
-  /* Loading overlay */
   #loading {
     position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
     font-size: 1.05em; text-align: center; z-index: 10; background: white;
@@ -128,22 +88,73 @@ description: A list of research papers for Learning to Hash.
   }
 </style>
 
-<!-- DataTables init (mobile + desktop), iOS-safe timing & guards -->
 <script>
 (function () {
   const loaderEl = document.getElementById('loading');
+  const input = document.getElementById('globalSearch');
+  const reset = document.getElementById('resetSearch');
 
-  function initDataTables() {
-    // Guards (helps surface any lingering duplicate/old includes)
-    if (!window.jQuery) { console.error("jQuery missing"); loaderEl && (loaderEl.style.display='none'); return; }
-    if (!jQuery.fn || !jQuery.fn.dataTable) { console.error("DataTables missing"); loaderEl && (loaderEl.style.display='none'); return; }
-    if (jQuery.fn.dataTable.isDataTable('#allPapers')) return; // avoid double init
+  // Adjust this if your paper pages aren't /publications/<key>:
+  const PAGE_URL_PREFIX = '{{ site.baseurl }}' + '/publications/';
+  const PAGE_URL_SUFFIX = ''; // e.g. '.html' if needed
+
+  async function loadJSON() {
+    // Fetch from repo root
+    const res = await fetch('{{ site.baseurl }}/paper-abstracts.json', { cache: 'force-cache' });
+    if (!res.ok) throw new Error('Failed to load paper-abstracts.json');
+    return res.json();
+  }
+
+  function toNumber(x) {
+    if (x === null || x === undefined) return 0;
+    if (typeof x === 'number') return x;
+    // Strip commas and non-digits
+    const n = String(x).replace(/,/g, '').match(/-?\d+(\.\d+)?/);
+    return n ? Number(n[0]) : 0;
+  }
+
+  function hasDT() {
+    return window.jQuery && jQuery.fn && jQuery.fn.dataTable;
+  }
+
+  function buildTable(rows) {
+    // Transform JSON into the minimal fields we need
+    const data = rows.map(r => {
+      const year = toNumber(r.year);
+      const citations = toNumber(r.citations);
+      const key = r.key || '';
+      const title = (r.title || '').trim();
+      const authors = Array.isArray(r.authors) ? r.authors.join(', ').trim() : (r.authors || '').trim();
+
+      // Build a link from the key; if you have a direct r.url field, prefer that.
+      const url = (r.url && String(r.url)) || (key ? (PAGE_URL_PREFIX + encodeURIComponent(key) + PAGE_URL_SUFFIX) : null);
+
+      return {
+        year,
+        title,
+        title_link: url ? `<a href="${url}">${escapeHtml(title)}</a>` : escapeHtml(title),
+        authors,
+        citations
+      };
+    });
 
     const isMobile = window.matchMedia('(max-width: 768px)').matches;
     const PAGE_LEN   = isMobile ? 50 : 200;
     const LENGTH_MENU = isMobile ? [25, 50, 75, 100] : [25, 50, 100, 250, 1000, 2000];
 
     const dt = jQuery('#allPapers').DataTable({
+      data,
+      columns: [
+        { data: 'year' },
+        { data: 'title_link' },
+        { data: 'authors' },
+        { data: 'citations' },
+      ],
+      columnDefs: [
+        { targets: 1, render: (data)=>data, orderable: true }, // title_link is safe HTML we built
+        { targets: [0,3], type: 'num', searchable: false },    // Year & Citations not searchable
+        { targets: [1,2], searchable: true }                   // Title & Authors searchable
+      ],
       paging: true,
       pageLength: PAGE_LEN,
       lengthMenu: LENGTH_MENU,
@@ -151,47 +162,56 @@ description: A list of research papers for Learning to Hash.
       order: [[3, 'desc']],    // Citations desc
       autoWidth: true,
       deferRender: true,
-      stateSave: !isMobile,     // lighter on mobile
-      scrollX: true,            // allow horizontal scroll if needed
-      responsive: false,        // (no responsive extension loaded)
+      stateSave: !isMobile,
+      scrollX: true,
+      responsive: false,
       orderClasses: false,
       dom: 't<"bottom"ip>',
-      columnDefs: [
-        { targets: 0, type: 'num' }, // Year
-        { targets: 3, type: 'num' }  // Citations
-      ],
       initComplete: function () {
         const api = this.api();
         if (loaderEl) loaderEl.style.display = 'none';
 
-        // External search hookup
-        const input = document.getElementById('globalSearch');
-        const reset = document.getElementById('resetSearch');
+        // External search box -> search ONLY Title & Authors (since Year/Citations are non-searchable)
         const debounce = (fn, ms = 100) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
         if (input) input.addEventListener('input', debounce(() => api.search(input.value).draw(false), 80));
         if (reset) reset.addEventListener('click', () => { if (!input) return; input.value=''; api.search('').draw(false); input.focus(); });
 
-        // iOS nudge: adjust after paint
+        // iOS layout nudge
         setTimeout(() => api.columns.adjust().draw(false), 60);
       }
     });
 
-    // Recalculate on rotate/resize
+    // Resize/rotate recalculation
     const recalc = (() => { let t; return () => { clearTimeout(t); t=setTimeout(() => dt.columns.adjust(), 120); }; })();
     window.addEventListener('resize', recalc);
     window.addEventListener('orientationchange', recalc);
   }
 
-  // Ensure layout is painted before measuring (double rAF is iOS-safe)
-  function safeInit() {
-    requestAnimationFrame(() => requestAnimationFrame(initDataTables));
+  // Simple HTML escaper for titles
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 
-  // Wait for DOM; DataTables JS is loaded via head.html with defer
+  async function start() {
+    try {
+      if (!hasDT()) throw new Error('DataTables missing');
+      const rows = await loadJSON();
+      buildTable(rows);
+    } catch (err) {
+      console.error(err);
+      if (loaderEl) loaderEl.innerHTML = '<p>Sorry, failed to load papers.</p>';
+    }
+  }
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', safeInit, { once: true });
+    document.addEventListener('DOMContentLoaded', start, { once: true });
   } else {
-    safeInit();
+    start();
   }
 })();
 </script>
