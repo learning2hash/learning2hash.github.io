@@ -1,0 +1,34 @@
+---
+layout: publication
+title: 'Balance Act: Mitigating Hubness In Cross-modal Retrieval With Query And Gallery
+  Banks'
+authors: Yimu Wang, Xiangru Jian, Bo Xue
+conference: Proceedings of the 2023 Conference on Empirical Methods in Natural Language
+  Processing
+year: 2023
+bibkey: wang2023balance
+citations: 4
+additional_links: [{name: Code, url: 'https://github.com/yimuwangcs/Better_Cross_Modal_Retrieval.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2310.11612'}]
+tags: [Multimodal Retrieval, Re-ranking, Tools & Libraries, Evaluation, EMNLP]
+short_authors: Yimu Wang, Xiangru Jian, Bo Xue
+---
+In this work, we present a post-processing solution to address the hubness
+problem in cross-modal retrieval, a phenomenon where a small number of gallery
+data points are frequently retrieved, resulting in a decline in retrieval
+performance. We first theoretically demonstrate the necessity of incorporating
+both the gallery and query data for addressing hubness as hubs always exhibit
+high similarity with gallery and query data. Second, building on our
+theoretical results, we propose a novel framework, Dual Bank Normalization
+(DBNorm). While previous work has attempted to alleviate hubness by only
+utilizing the query samples, DBNorm leverages two banks constructed from the
+query and gallery samples to reduce the occurrence of hubs during inference.
+Next, to complement DBNorm, we introduce two novel methods, dual inverted
+softmax and dual dynamic inverted softmax, for normalizing similarity based on
+the two banks. Specifically, our proposed methods reduce the similarity between
+hubs and queries while improving the similarity between non-hubs and queries.
+Finally, we present extensive experimental results on diverse language-grounded
+benchmarks, including text-image, text-video, and text-audio, demonstrating the
+superior performance of our approaches compared to previous methods in
+addressing hubness and boosting retrieval performance. Our code is available at
+https://github.com/yimuwangcs/Better_Cross_Modal_Retrieval.
