@@ -12,6 +12,7 @@ title:
   "abstract": {{ publication.content | jsonify }},
   "tags": {{ publication.tags | jsonify }},
   "authors": {{ publication.authors | jsonify }}
+  "short_authors": {{ publication.short_authors | jsonify }}
 }
 {% if forloop.rindex0 > 0 %},{% endif %}
 {% endfor %}
