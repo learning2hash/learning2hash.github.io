@@ -378,17 +378,18 @@ document.addEventListener('DOMContentLoaded', function () {
     allChip.role = 'button';
     allChip.tabIndex = 0;
     allChip.setAttribute('aria-pressed', 'false');
-    allChip.innerHTML = `All <span class="count">(${total})</span>`;
+    allChip.innerHTML = 'All <span class="count">(' + total + ')</span>';
     bar.appendChild(allChip);
 
-    entries.forEach(([tag, cnt]) => {
+    entries.forEach(function(pair) {
+      var tag = pair[0], cnt = pair[1];
       const chip = document.createElement('span');
       chip.className = 'tag-chip';
       chip.dataset.tag = (tag === 'Uncategorized') ? 'Uncategorized' : tag;
       chip.role = 'button';
       chip.tabIndex = 0;
       chip.setAttribute('aria-pressed', 'false');
-      chip.innerHTML = `${tag} <span class="count">(${cnt})</span>`;
+      chip.innerHTML = sanitizeForHTMLInScript(tag) + ' <span class="count">(' + cnt + ')</span>';
       bar.appendChild(chip);
     });
 
@@ -397,7 +398,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (tag === '') {
         ACTIVE_TAGS.clear();
-        bar.querySelectorAll('.tag-chip').forEach(el => {
+        bar.querySelectorAll('.tag-chip').forEach(function(el){
           el.classList.remove('active'); el.setAttribute('aria-pressed','false');
         });
         datatable.draw();
@@ -424,7 +425,7 @@ document.addEventListener('DOMContentLoaded', function () {
       updateVisibleCount();
     }
 
-    bar.addEventListener('click', e => {
+    bar.addEventListener('click', function(e){
       const chip = e.target.closest('.tag-chip');
       if (chip) toggleChip(chip);
     });
@@ -444,7 +445,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (q) {
         ACTIVE_TAGS.clear();
-        document.querySelectorAll('#tagFilter .tag-chip').forEach(el=>{
+        document.querySelectorAll('#tagFilter .tag-chip').forEach(function(el){
           el.classList.remove('active'); el.setAttribute('aria-pressed','false');
         });
         history.replaceState(null, '', location.pathname + location.search);
@@ -456,14 +457,14 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     toolsSearchInput.addEventListener('input', doSearch);
-    toolsResetBtn.addEventListener('click', () => {
+    toolsResetBtn.addEventListener('click', function () {
       toolsSearchInput.value='';
       datatable.search('').column(1).search('').draw();
       updateVisibleCount();
       toolsSearchInput.focus();
     });
 
-    document.addEventListener('keydown', (e) => {
+    document.addEventListener('keydown', function (e) {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); toolsSearchInput.focus(); }
       else if (e.key === 'Escape') { toolsSearchInput.value=''; datatable.search('').column(1).search('').draw(); updateVisibleCount(); }
     });
@@ -491,7 +492,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const tagText = chip.textContent.trim();
 
     const bar = document.getElementById('tagFilter');
-    let barChip = Array.from(bar.querySelectorAll('.tag-chip')).find(el => (el.dataset.tag || '') === tagText);
+    let barChip = Array.from(bar.querySelectorAll('.tag-chip')).find(function(el){ return (el.dataset.tag || '') === tagText; });
     if (!barChip && tagText) {
       barChip = document.createElement('span');
       barChip.className = 'tag-chip';
@@ -505,91 +506,110 @@ document.addEventListener('DOMContentLoaded', function () {
     if (barChip) barChip.click();
   });
 
-  $(document).ready(function () {
-    $('#loading').show();
+  // --- Sanitizer to prevent EOF due to </script>
+<p>, backticks, etc. —
+  function sanitizeForHTMLInScript(str){
+    if (str === null || str === undefined) return ‘’;
+    return String(str)
+      .replace(/&amp;/g, ‘&amp;’)
+      .replace(/&lt;/g, ‘&lt;’)
+      .replace(/&gt;/g, ‘&gt;’)
+      .replace(/”/g, ‘"’)
+      .replace(/’/g, ‘'’)
+      .replace(/`/g, ‘`’)
+      .replace(/&lt;\/script&gt;/gi, ‘&lt;\/script&gt;’);
+  }</p>
 
-    d3.csv("github_topics.csv").then(function (data) {
-      const rows = data.map(function (tool) {
-        const github = (tool.repo || "").trim();
-        const repo_url = "https://github.com/" + github;
-        const desc_full = (tool.description || "").trim();
-        const desc_short = desc_full.length > 400 ? (desc_full.substring(0, 400) + "…") : desc_full;
-        const starsNum = tool.stars ? +tool.stars : 0;
+<p>$(document).ready(function () {
+    $(‘#loading’).show();</p>
 
-        const category = (tool.category || '').trim() || 'Uncategorized';
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>d3.csv("github_topics.csv").then(function (data) {
+  const rows = data.map(function (tool) {
+    const github = (tool.repo || "").trim();
+    const repo_url = "https://github.com/" + encodeURI(github);
 
-        const chips = `<span class="tags-display">
-          <span class="tag-chip" tabindex="-1" aria-hidden="true">${category}</span>
-        </span>`;
+    // Sanitize description for safe embedding in template strings &amp; HTML
+    const desc_raw = (tool.description || "").trim();
+    const desc_safe = sanitizeForHTMLInScript(desc_raw);
+    const desc_short = desc_safe.length &gt; 400 ? (desc_safe.substring(0, 400) + "…") : desc_safe;
 
-        const escapedTitle = desc_full.replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-        const descCell = `<div class="desc" title="${escapedTitle}">${desc_short}</div>`;
+    const starsNum = tool.stars ? +tool.stars : 0;
 
-        return [
-          `<a href="${repo_url}" target="_blank" rel="noopener noreferrer">${github}</a>`, // Repo
-          chips,                                                                            // Category
-          starsNum,                                                                         // Stars
-          descCell                                                                          // Description
-        ];
-      });
+    const category_raw = (tool.category || '').trim() || 'Uncategorized';
+    const category_safe = sanitizeForHTMLInScript(category_raw);
 
-      const dt = $('#tools-table').DataTable({
-        data: rows,
-        columns: [
-          { title: "Repo" },           // responsivePriority 1
-          { title: "Category" },       // responsivePriority 4
-          { title: "Stars" },          // responsivePriority 2
-          { title: "Description" }     // responsivePriority 3
-        ],
-        responsive: {
-          details: {
-            type: 'inline',
-            target: 'tr'
-          },
-          breakpoints: [
-            { name: 'desktop', width: Infinity },
-            { name: 'laptop',  width: 1440 },
-            { name: 'tablet',  width: 1024 },
-            { name: 'phone',   width: 640 }
-          ]
-        },
-        autoWidth: false,
-        paging: false,
-        searching: true,
-        order: [[2, 'desc']],
-        columnDefs: [
-          { targets: 2, type: 'num' },
-          { responsivePriority: 1, targets: 0 }, // Repo (keep)
-          { responsivePriority: 2, targets: 2 }, // Stars
-          { responsivePriority: 3, targets: 3 }, // Description
-          { responsivePriority: 4, targets: 1 }  // Category (hide first)
-        ],
-        initComplete: function () {
-          datatable = this.api();
+    const chips =
+      '&lt;span class="tags-display"&gt;' +
+        '&lt;span class="tag-chip" tabindex="-1" aria-hidden="true"&gt;' + category_safe + '&lt;/span&gt;' +
+      '&lt;/span&gt;';
 
-          $('#loading').hide();
-          $('#tools-table').show();
-          searchInitialized = true;
+    const escapedTitle = desc_safe; // already sanitized
+    const descCell = '&lt;div class="desc" title="' + escapedTitle + '"&gt;' + desc_short + '&lt;/div&gt;';
 
-          buildTagFilter(data);
-          initToolsSearchBar();
-          applyHash();
-
-          datatable.on('draw', updateVisibleCount);
-          updateVisibleCount();
-        }
-      });
-
-    }).catch(function (error) {
-      console.error("Error loading github_topics.csv:", error);
-      $('#tools-table').after(`<div style="color:red; margin-top:10px;">Failed to load data.</div>`);
-      $('#loading').hide();
-    });
+    return [
+      '&lt;a href="' + repo_url + '" target="_blank" rel="noopener noreferrer"&gt;' + sanitizeForHTMLInScript(github) + '&lt;/a&gt;', // Repo
+      chips,                                                                                                            // Category
+      starsNum,                                                                                                         // Stars
+      descCell                                                                                                          // Description
+    ];
   });
 
-  $(window).on('hashchange', function () { applyHash(); });
-</script>
+  const dt = $('#tools-table').DataTable({
+    data: rows,
+    columns: [
+      { title: "Repo" },           // responsivePriority 1
+      { title: "Category" },       // responsivePriority 4
+      { title: "Stars" },          // responsivePriority 2
+      { title: "Description" }     // responsivePriority 3
+    ],
+    responsive: {
+      details: {
+        type: 'inline',
+        target: 'tr'
+      },
+      breakpoints: [
+        { name: 'desktop', width: Infinity },
+        { name: 'laptop',  width: 1440 },
+        { name: 'tablet',  width: 1024 },
+        { name: 'phone',   width: 640 }
+      ]
+    },
+    autoWidth: false,
+    paging: false,
+    searching: true,
+    order: [[2, 'desc']],
+    columnDefs: [
+      { targets: 2, type: 'num' },
+      { responsivePriority: 1, targets: 0 }, // Repo (keep)
+      { responsivePriority: 2, targets: 2 }, // Stars
+      { responsivePriority: 3, targets: 3 }, // Description
+      { responsivePriority: 4, targets: 1 }  // Category (hide first)
+    ],
+    initComplete: function () {
+      datatable = this.api();
 
+      $('#loading').hide();
+      $('#tools-table').show();
+      searchInitialized = true;
+
+      buildTagFilter(data);
+      initToolsSearchBar();
+      applyHash();
+
+      datatable.on('draw', updateVisibleCount);
+      updateVisibleCount();
+    }
+  });
+
+}).catch(function (error) {
+  console.error("Error loading github_topics.csv:", error);
+  $('#tools-table').after('&lt;div style="color:red; margin-top:10px;"&gt;Failed to load data.&lt;/div&gt;');
+  $('#loading').hide();
+});   });
+</code></pre></div></div>
+
+<p>$(window).on(‘hashchange’, function () { applyHash(); });
+&lt;/script&gt;</p>
 
     </div>
 
