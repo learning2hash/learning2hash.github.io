@@ -216,17 +216,18 @@ description: A searchable list of open-source Learning to Hash tools
     allChip.role = 'button';
     allChip.tabIndex = 0;
     allChip.setAttribute('aria-pressed', 'false');
-    allChip.innerHTML = `All <span class="count">(${total})</span>`;
+    allChip.innerHTML = 'All <span class="count">(' + total + ')</span>';
     bar.appendChild(allChip);
 
-    entries.forEach(([tag, cnt]) => {
+    entries.forEach(function(pair) {
+      var tag = pair[0], cnt = pair[1];
       const chip = document.createElement('span');
       chip.className = 'tag-chip';
       chip.dataset.tag = (tag === 'Uncategorized') ? 'Uncategorized' : tag;
       chip.role = 'button';
       chip.tabIndex = 0;
       chip.setAttribute('aria-pressed', 'false');
-      chip.innerHTML = `${tag} <span class="count">(${cnt})</span>`;
+      chip.innerHTML = sanitizeForHTMLInScript(tag) + ' <span class="count">(' + cnt + ')</span>';
       bar.appendChild(chip);
     });
 
@@ -235,7 +236,7 @@ description: A searchable list of open-source Learning to Hash tools
 
       if (tag === '') {
         ACTIVE_TAGS.clear();
-        bar.querySelectorAll('.tag-chip').forEach(el => {
+        bar.querySelectorAll('.tag-chip').forEach(function(el){
           el.classList.remove('active'); el.setAttribute('aria-pressed','false');
         });
         datatable.draw();
@@ -262,7 +263,7 @@ description: A searchable list of open-source Learning to Hash tools
       updateVisibleCount();
     }
 
-    bar.addEventListener('click', e => {
+    bar.addEventListener('click', function(e){
       const chip = e.target.closest('.tag-chip');
       if (chip) toggleChip(chip);
     });
@@ -282,7 +283,7 @@ description: A searchable list of open-source Learning to Hash tools
 
       if (q) {
         ACTIVE_TAGS.clear();
-        document.querySelectorAll('#tagFilter .tag-chip').forEach(el=>{
+        document.querySelectorAll('#tagFilter .tag-chip').forEach(function(el){
           el.classList.remove('active'); el.setAttribute('aria-pressed','false');
         });
         history.replaceState(null, '', location.pathname + location.search);
@@ -294,14 +295,14 @@ description: A searchable list of open-source Learning to Hash tools
     }
 
     toolsSearchInput.addEventListener('input', doSearch);
-    toolsResetBtn.addEventListener('click', () => {
+    toolsResetBtn.addEventListener('click', function () {
       toolsSearchInput.value='';
       datatable.search('').column(1).search('').draw();
       updateVisibleCount();
       toolsSearchInput.focus();
     });
 
-    document.addEventListener('keydown', (e) => {
+    document.addEventListener('keydown', function (e) {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); toolsSearchInput.focus(); }
       else if (e.key === 'Escape') { toolsSearchInput.value=''; datatable.search('').column(1).search('').draw(); updateVisibleCount(); }
     });
@@ -329,7 +330,7 @@ description: A searchable list of open-source Learning to Hash tools
     const tagText = chip.textContent.trim();
 
     const bar = document.getElementById('tagFilter');
-    let barChip = Array.from(bar.querySelectorAll('.tag-chip')).find(el => (el.dataset.tag || '') === tagText);
+    let barChip = Array.from(bar.querySelectorAll('.tag-chip')).find(function(el){ return (el.dataset.tag || '') === tagText; });
     if (!barChip && tagText) {
       barChip = document.createElement('span');
       barChip.className = 'tag-chip';
@@ -343,31 +344,50 @@ description: A searchable list of open-source Learning to Hash tools
     if (barChip) barChip.click();
   });
 
+  // --- Sanitizer to prevent EOF due to </script>, backticks, etc. ---
+  function sanitizeForHTMLInScript(str){
+    if (str === null || str === undefined) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;')
+      .replace(/`/g, '&#96;')
+      .replace(/<\/script>/gi, '<\\/script>');
+  }
+
   $(document).ready(function () {
     $('#loading').show();
 
     d3.csv("github_topics.csv").then(function (data) {
       const rows = data.map(function (tool) {
         const github = (tool.repo || "").trim();
-        const repo_url = "https://github.com/" + github;
-        const desc_full = (tool.description || "").trim();
-        const desc_short = desc_full.length > 400 ? (desc_full.substring(0, 400) + "…") : desc_full;
+        const repo_url = "https://github.com/" + encodeURI(github);
+
+        // Sanitize description for safe embedding in template strings & HTML
+        const desc_raw = (tool.description || "").trim();
+        const desc_safe = sanitizeForHTMLInScript(desc_raw);
+        const desc_short = desc_safe.length > 400 ? (desc_safe.substring(0, 400) + "…") : desc_safe;
+
         const starsNum = tool.stars ? +tool.stars : 0;
 
-        const category = (tool.category || '').trim() || 'Uncategorized';
+        const category_raw = (tool.category || '').trim() || 'Uncategorized';
+        const category_safe = sanitizeForHTMLInScript(category_raw);
 
-        const chips = `<span class="tags-display">
-          <span class="tag-chip" tabindex="-1" aria-hidden="true">${category}</span>
-        </span>`;
+        const chips =
+          '<span class="tags-display">' +
+            '<span class="tag-chip" tabindex="-1" aria-hidden="true">' + category_safe + '</span>' +
+          '</span>';
 
-        const escapedTitle = desc_full.replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-        const descCell = `<div class="desc" title="${escapedTitle}">${desc_short}</div>`;
+        const escapedTitle = desc_safe; // already sanitized
+        const descCell = '<div class="desc" title="' + escapedTitle + '">' + desc_short + '</div>';
 
         return [
-          `<a href="${repo_url}" target="_blank" rel="noopener noreferrer">${github}</a>`, // Repo
-          chips,                                                                            // Category
-          starsNum,                                                                         // Stars
-          descCell                                                                          // Description
+          '<a href="' + repo_url + '" target="_blank" rel="noopener noreferrer">' + sanitizeForHTMLInScript(github) + '</a>', // Repo
+          chips,                                                                                                            // Category
+          starsNum,                                                                                                         // Stars
+          descCell                                                                                                          // Description
         ];
       });
 
@@ -420,7 +440,7 @@ description: A searchable list of open-source Learning to Hash tools
 
     }).catch(function (error) {
       console.error("Error loading github_topics.csv:", error);
-      $('#tools-table').after(`<div style="color:red; margin-top:10px;">Failed to load data.</div>`);
+      $('#tools-table').after('<div style="color:red; margin-top:10px;">Failed to load data.</div>');
       $('#loading').hide();
     });
   });
