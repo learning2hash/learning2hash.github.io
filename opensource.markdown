@@ -14,27 +14,27 @@ description: A searchable list of open-source Learning to Hash tools
   <p>Loading Open Source Learning to Hash Tools ...</p>
 </div>
 
-<!-- Styled search bar -->
+<!-- Controls -->
 <div class="controls" id="toolsControls" style="display:none;">
   <div class="search">
     <label for="toolsSearch"><strong>Search</strong></label>
-    <input id="toolsSearch" type="search" placeholder="🔍 Search repo, tags, description…" inputmode="search" />
+    <input id="toolsSearch" type="search" placeholder="🔍 Search repo, category, description…" inputmode="search" />
     <button id="resetToolsSearch" type="button" aria-label="Clear search">Clear</button>
     <span id="toolsVisibleCount" class="small" aria-live="polite"></span>
   </div>
 </div>
 
-<!-- Tag Cloud / Filter -->
-<div id="tagFilter" aria-label="Filter by Tag" style="display:none;"></div>
+<!-- Category Filter -->
+<div id="tagFilter" aria-label="Filter by Category" style="display:none;"></div>
 
 <!-- Data Table -->
 <table id="tools-table" class="display stripe hover" style="width:100%; display:none;">
   <thead>
     <tr>
-      <th data-priority="1">Repo</th>
-      <th data-priority="3">Tags</th>
-      <th data-priority="2">Stars</th>
-      <th data-priority="1">Description</th>
+      <th>Repo</th>
+      <th>Category</th>
+      <th>Stars</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody></tbody>
@@ -49,41 +49,33 @@ description: A searchable list of open-source Learning to Hash tools
     box-shadow:0 2px 10px rgba(0,0,0,.08);
   }
 
+  /* Let Responsive calculate widths */
   #tools-table{
     display:none;
     width:100%;
     border-collapse:collapse;
-    table-layout:fixed;
   }
 
-  /* Column widths (4 columns) */
-  #tools-table th:nth-child(1), #tools-table td:nth-child(1){ width:26%; } /* Repo */
-  #tools-table th:nth-child(2), #tools-table td:nth-child(2){ width:24%; } /* Tags */
-  #tools-table th:nth-child(3), #tools-table td:nth-child(3){ width:10%; } /* Stars */
-  #tools-table th:nth-child(4), #tools-table td:nth-child(4){ width:40%; } /* Description */
-
-  #tools-table th:not(:nth-child(4)), #tools-table td:not(:nth-child(4)){
-    white-space:nowrap; vertical-align:top; overflow:hidden; text-overflow:ellipsis;
+  /* ✅ Allow ONLY data cells to wrap cleanly */
+  #tools-table td {
+    white-space: normal !important;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    vertical-align: top;
   }
 
-  /* Make Description a single-column block and clamp lines */
-  #tools-table td:nth-child(4){
-    white-space:normal;
-    line-height:1.35;
-    display:-webkit-box;
-    -webkit-box-orient:vertical;
-    -webkit-line-clamp:3;
-    overflow:hidden;
-
-    /* prevent accidental multi-column layout from any global CSS */
-    -webkit-column-count:1; column-count:1;
-    -webkit-column-gap:normal; column-gap:normal;
-    -webkit-column-rule:initial; column-rule:initial;
+  /* 🚫 Keep headers on one line */
+  #tools-table th {
+    white-space: nowrap !important;
+    vertical-align: top;
   }
+  
+  /* Keep Stars right-aligned */
+  #tools-table th:nth-child(3),
+  #tools-table td:nth-child(3){ text-align:right; }
 
-  /* HARD override: stop any theme multi-column leakage into Description */
-  #tools-table td:nth-child(4),
-  #tools-table td:nth-child(4) * {
+  /* Prevent any theme multi-column flow inside table */
+  #tools-table, #tools-table * {
     -webkit-column-count: 1 !important;
     -moz-column-count: 1 !important;
     column-count: 1 !important;
@@ -98,7 +90,15 @@ description: A searchable list of open-source Learning to Hash tools
     column-rule: initial !important;
   }
 
-  #tools-table th:nth-child(3), #tools-table td:nth-child(3){ text-align:right; }
+  /* Description clamp (still wraps across lines) */
+  #tools-table td:nth-child(4) .desc{
+    display:block;
+    line-height:1.35;
+    overflow:hidden;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    -webkit-line-clamp:3;
+  }
 
   .controls{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.6rem; margin:.6rem 0 .9rem; }
   .search{ display:flex; align-items:flex-start; gap:.6rem; flex-wrap:wrap; }
@@ -116,34 +116,24 @@ description: A searchable list of open-source Learning to Hash tools
   .tag-chip{
     text-decoration:none; border-radius:999px; padding:.2rem .6rem; background:#f6f7f9; border:1px solid #e6e8ec;
     display:inline-flex; align-items:center; gap:.35rem;
-    font-size:.78rem;
-    line-height:1.05; cursor:pointer; user-select:none; color:inherit; font-weight:500;
+    font-size:.78rem; line-height:1.05; cursor:pointer; user-select:none; color:inherit; font-weight:500;
   }
   .tag-chip .count{ font-size:.72rem; opacity:.8; font-variant-numeric:tabular-nums; }
   .tag-chip:hover{ background:#f0f3f7; }
   .tag-chip.active{ background:#eef3ff; border-color:#b7ccff; box-shadow:0 0 0 1px #dbe7ff inset; font-weight:600; }
 
-  /* Smaller tags inside the table */
-  .tags-display .tag-chip{
-    font-size:.70rem;
-    padding:.15rem .45rem;
-    gap:.25rem;
-    line-height:1.0;
-  }
+  /* Category chips inside the table, wrap nicely */
+  .tags-display{ display:flex; flex-wrap:wrap; gap:.25rem .35rem; }
+  .tags-display .tag-chip{ font-size:.70rem; padding:.15rem .45rem; gap:.25rem; line-height:1.0; }
   @media (max-width: 640px){
-    .tags-display .tag-chip{
-      font-size:.66rem;
-      padding:.12rem .40rem;
-    }
+    .tags-display .tag-chip{ font-size:.66rem; padding:.12rem .40rem; }
   }
 
-  table.dataTable th.dt-nowrap, table.dataTable td.dt-nowrap { white-space:nowrap; }
-
-  @media (max-width: 1024px){ #tools-table td:nth-child(4){ -webkit-line-clamp:4; } }
+  @media (max-width: 1024px){ #tools-table td:nth-child(4) .desc{ -webkit-line-clamp:4; } }
   @media (max-width: 640px){
     .search input{ width:clamp(170px, 60vw, 85vw); }
-    #tools-table td:nth-child(4){ -webkit-line-clamp:6; }
-    #tools-table td:nth-child(1) a{ word-break:break-word; }
+    #tools-table td:nth-child(4) .desc{ -webkit-line-clamp:6; }
+    #tools-table td:nth-child(1) a{ word-break: break-word; }
   }
 </style>
 
@@ -155,19 +145,15 @@ description: A searchable list of open-source Learning to Hash tools
 <script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
 <script src="https://d3js.org/d3.v7.min.js"></script>
 
+{% raw %}
 <script>
   var datatable;
   var searchInitialized = false;
-  // multiple selected tags (AND logic)
+
+  // Multi-select OR logic
   var ACTIVE_TAGS = new Set();
 
   function normTag(t){ return (t || '').trim(); }
-  function parseAllTags(s){
-    if (!s) return [];
-    // normalize JSON-ish lists like "['a','b']" or '["a","b"]'
-    s = String(s).replace(/^\s*\[|\]\s*$/g, '').replace(/['"]/g, '');
-    return s.split(/[,;|]/).map(normTag).filter(Boolean);
-  }
 
   function updateVisibleCount(){
     if (!datatable) return;
@@ -189,7 +175,6 @@ description: A searchable list of open-source Learning to Hash tools
     const raw = decodeURIComponent((window.location.hash || '').replace(/^#/, ''));
     const match = raw.match(/^tag=(.+)$/i);
 
-    // Clear UI selection
     document.querySelectorAll('#tagFilter .tag-chip').forEach(el=>{
       el.classList.remove('active');
       el.setAttribute('aria-pressed','false');
@@ -211,7 +196,6 @@ description: A searchable list of open-source Learning to Hash tools
       updateVisibleCount();
       return;
     }
-    // No hash → clear table search (but leave text input alone)
     datatable.columns().search('');
     datatable.search('').draw();
     updateVisibleCount();
@@ -222,43 +206,53 @@ description: A searchable list of open-source Learning to Hash tools
     let total = 0;
 
     fromData.forEach(d => {
-      const tags = parseAllTags(d.all_tags || d.subcat || d.category || '');
-      if (tags.length === 0) { total += 1; counts['Uncategorized'] = (counts['Uncategorized'] || 0) + 1; return; }
+      const cat = normTag(d.category) || 'Uncategorized';
       total += 1;
-      tags.forEach(t => { counts[t] = (counts[t] || 0) + 1; });
+      counts[cat] = (counts[cat] || 0) + 1;
     });
 
     const entries = Object.entries(counts).sort((a,b) => b[1] - a[1]);
     const bar = document.getElementById('tagFilter');
     bar.innerHTML = '';
 
-    // “All” chip (acts as clear)
+    // “All” chip
     const allChip = document.createElement('span');
     allChip.className = 'tag-chip';
     allChip.dataset.tag = '';
     allChip.role = 'button';
     allChip.tabIndex = 0;
     allChip.setAttribute('aria-pressed', 'false');
-    allChip.innerHTML = `All <span class="count">(${total})</span>`;
+    // safer: textContent + appended count span
+    allChip.textContent = 'All';
+    const allCount = document.createElement('span');
+    allCount.className = 'count';
+    allCount.textContent = ' (' + total + ')';
+    allChip.appendChild(allCount);
     bar.appendChild(allChip);
 
-    entries.forEach(([tag, cnt]) => {
+    entries.forEach(function(pair) {
+      var tag = pair[0], cnt = pair[1];
       const chip = document.createElement('span');
       chip.className = 'tag-chip';
-      chip.dataset.tag = tag === 'Uncategorized' ? '' : tag;
+      chip.dataset.tag = (tag === 'Uncategorized') ? 'Uncategorized' : tag;
       chip.role = 'button';
       chip.tabIndex = 0;
       chip.setAttribute('aria-pressed', 'false');
-      chip.innerHTML = `${tag} <span class="count">(${cnt})</span>`;
+      // safer: textContent + appended count span
+      chip.textContent = tag;
+      const countSpan = document.createElement('span');
+      countSpan.className = 'count';
+      countSpan.textContent = ' (' + cnt + ')';
+      chip.appendChild(countSpan);
       bar.appendChild(chip);
     });
 
     function toggleChip(chip){
       const tag = chip.dataset.tag;
+
       if (tag === '') {
-        // “All” clears selection
         ACTIVE_TAGS.clear();
-        bar.querySelectorAll('.tag-chip').forEach(el => {
+        bar.querySelectorAll('.tag-chip').forEach(function(el){
           el.classList.remove('active'); el.setAttribute('aria-pressed','false');
         });
         datatable.draw();
@@ -267,7 +261,6 @@ description: A searchable list of open-source Learning to Hash tools
         return;
       }
 
-      // Toggle this tag
       if (ACTIVE_TAGS.has(tag)) {
         ACTIVE_TAGS.delete(tag);
         chip.classList.remove('active');
@@ -278,7 +271,6 @@ description: A searchable list of open-source Learning to Hash tools
         chip.setAttribute('aria-pressed','true');
       }
 
-      // Keep “All” visually off when any tags are active
       const all = bar.querySelector('.tag-chip[data-tag=""]');
       if (all) { all.classList.remove('active'); all.setAttribute('aria-pressed','false'); }
 
@@ -287,7 +279,7 @@ description: A searchable list of open-source Learning to Hash tools
       updateVisibleCount();
     }
 
-    bar.addEventListener('click', e => {
+    bar.addEventListener('click', function(e){
       const chip = e.target.closest('.tag-chip');
       if (chip) toggleChip(chip);
     });
@@ -295,24 +287,23 @@ description: A searchable list of open-source Learning to Hash tools
     bar.style.display = '';
   }
 
-  // External search bar wiring
-  let toolsSearchInput, toolsResetBtn, toolsVisibleCount;
+  // External search bar
+  let toolsSearchInput, toolsResetBtn;
   function initToolsSearchBar(){
     toolsSearchInput = document.getElementById('toolsSearch');
     toolsResetBtn = document.getElementById('resetToolsSearch');
-    toolsVisibleCount = document.getElementById('toolsVisibleCount');
 
     function doSearch(){
       if (!datatable) return;
       const q = (toolsSearchInput.value || '').trim();
 
       if (q) {
-        // When typing, clear tag selection to avoid confusion
         ACTIVE_TAGS.clear();
-        document.querySelectorAll('#tagFilter .tag-chip').forEach(el=>{
+        document.querySelectorAll('#tagFilter .tag-chip').forEach(function(el){
           el.classList.remove('active'); el.setAttribute('aria-pressed','false');
         });
         history.replaceState(null, '', location.pathname + location.search);
+        datatable.column(1).search('');
       }
 
       datatable.search(q).draw();
@@ -320,63 +311,43 @@ description: A searchable list of open-source Learning to Hash tools
     }
 
     toolsSearchInput.addEventListener('input', doSearch);
-    toolsResetBtn.addEventListener('click', () => {
+    toolsResetBtn.addEventListener('click', function () {
       toolsSearchInput.value='';
-      datatable.search('').draw();
+      datatable.search('').column(1).search('').draw();
       updateVisibleCount();
       toolsSearchInput.focus();
     });
 
-    document.addEventListener('keydown', (e) => {
+    document.addEventListener('keydown', function (e) {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); toolsSearchInput.focus(); }
-      else if (e.key === 'Escape') { toolsSearchInput.value=''; datatable.search('').draw(); updateVisibleCount(); }
+      else if (e.key === 'Escape') { toolsSearchInput.value=''; datatable.search('').column(1).search('').draw(); updateVisibleCount(); }
     });
 
     document.getElementById('toolsControls').style.display = '';
     updateVisibleCount();
   }
 
-  // Custom filter: require each row to include ALL selected tags (case-insensitive).
-  $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
-    if (!datatable || ACTIVE_TAGS.size === 0) return true;
+  // Custom filter: OR match of ACTIVE_TAGS against Category text (column 1)
+  $.fn.dataTable.ext.search.push(function(settings, data) {
+    if (!datatable) return true;
+    if (ACTIVE_TAGS.size === 0) return true;
 
-    // Prefer DOM data-rawtags for robustness
-    const node   = datatable.row(dataIndex).node();
-    const holder = node && node.querySelector('.tags-display');
-    let tokens   = [];
-
-    if (holder && holder.dataset.rawtags !== undefined) {
-      tokens = String(holder.dataset.rawtags || '')
-        .split('|')
-        .map(t => t.trim().toLowerCase())
-        .filter(Boolean);
-    } else {
-      // Fallback: parse the Tags column HTML
-      const html = data[1] || '';
-      const div  = document.createElement('div');
-      div.innerHTML = html;
-      tokens = Array.from(div.querySelectorAll('.tag-chip'))
-        .map(x => x.textContent.trim().toLowerCase())
-        .filter(Boolean);
-    }
-
+    const catText = String(data[1] || '').replace(/<[^>]+>/g, '').trim().toLowerCase();
     for (const t of ACTIVE_TAGS) {
-      if (!tokens.includes(String(t).toLowerCase())) return false;
+      if (catText === String(t).toLowerCase()) return true;
     }
-    return true;
+    return false;
   });
 
-  // Clicking a tag chip inside the table toggles it in the filter bar
+  // Clicking a category chip inside the table toggles it in the filter bar
   document.addEventListener('click', function(e){
     const chip = e.target.closest('#tools-table .tags-display .tag-chip');
     if (!chip) return;
     const tagText = chip.textContent.trim();
 
-    // Find the matching chip in the filter bar (create if not present)
     const bar = document.getElementById('tagFilter');
-    let barChip = Array.from(bar.querySelectorAll('.tag-chip')).find(el => (el.dataset.tag || '') === tagText);
+    let barChip = Array.from(bar.querySelectorAll('.tag-chip')).find(function(el){ return (el.dataset.tag || '') === tagText; });
     if (!barChip && tagText) {
-      // Create a new chip if tag wasn't in counts (rare)
       barChip = document.createElement('span');
       barChip.className = 'tag-chip';
       barChip.dataset.tag = tagText;
@@ -389,58 +360,83 @@ description: A searchable list of open-source Learning to Hash tools
     if (barChip) barChip.click();
   });
 
+  // --- Sanitizer to prevent EOF due to </script>, backticks, etc. ---
+  function sanitizeForHTMLInScript(str){
+    if (str === null || str === undefined) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')   // must be first
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;')
+      .replace(/`/g, '&#96;')
+      .replace(/<\/script>/gi, '<\\/script>');
+  }
+
   $(document).ready(function () {
     $('#loading').show();
 
     d3.csv("github_topics.csv").then(function (data) {
       const rows = data.map(function (tool) {
         const github = (tool.repo || "").trim();
-        const repo_url = "https://github.com/" + github;
-        const desc_full = (tool.description || "").trim();
-        const desc_short = desc_full.length > 400 ? (desc_full.substring(0, 400) + "…") : desc_full;
+        const repo_url = "https://github.com/" + encodeURI(github);
+
+        // Sanitize description for safe embedding in template strings & HTML
+        const desc_raw = (tool.description || "").trim();
+        const desc_safe = sanitizeForHTMLInScript(desc_raw);
+        const desc_short = desc_safe.length > 400 ? (desc_safe.substring(0, 400) + "…") : desc_safe;
+
         const starsNum = tool.stars ? +tool.stars : 0;
 
-        // Prefer all_tags; fallback to subcat/category
-        const tags = parseAllTags(tool.all_tags || tool.subcat || tool.category || '');
-        const tagsJoined = tags.join('|');
+        const category_raw = (tool.category || '').trim() || 'Uncategorized';
+        const category_safe = sanitizeForHTMLInScript(category_raw);
 
-        // Single wrapper with data-rawtags (always present, even if empty)
-        const chips = `<span class="tags-display" data-rawtags="${(tagsJoined || '').replace(/"/g,'&quot;')}">
-          ${tags.length
-            ? tags.slice(0, 12).map(t => `<span class="tag-chip" tabindex="-1" aria-hidden="true">${t}</span>`).join(' ')
-            : `<span class="tag-chip" tabindex="-1" aria-hidden="true">Uncategorized</span>`}
-        </span>`;
+        const chips =
+          '<span class="tags-display">' +
+            '<span class="tag-chip" tabindex="-1" aria-hidden="true">' + category_safe + '</span>' +
+          '</span>';
 
-        const escapedTitle = desc_full.replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-        const descCell = `<span title="${escapedTitle}">${desc_short}</span>`;
+        const escapedTitle = desc_safe; // already sanitized
+        const descCell = '<div class="desc" title="' + escapedTitle + '">' + desc_short + '</div>';
 
         return [
-          `<a href="${repo_url}" target="_blank" rel="noopener noreferrer">${github}</a>`, // Repo
-          chips,                                                                            // Tags
-          starsNum,                                                                         // Stars
-          descCell                                                                          // Description
+          '<a href="' + repo_url + '" target="_blank" rel="noopener noreferrer">' + sanitizeForHTMLInScript(github) + '</a>', // Repo
+          chips,                                                                                                            // Category
+          starsNum,                                                                                                         // Stars
+          descCell                                                                                                          // Description
         ];
       });
 
       const dt = $('#tools-table').DataTable({
         data: rows,
         columns: [
-          { title: "Repo", className: 'dt-nowrap' },
-          { title: "Tags", searchable: false },  // prevent odd interactions with text search
-          { title: "Stars", className: 'dt-nowrap' },
-          { title: "Description" }
+          { title: "Repo" },           // responsivePriority 1
+          { title: "Category" },       // responsivePriority 4
+          { title: "Stars" },          // responsivePriority 2
+          { title: "Description" }     // responsivePriority 3
         ],
-        responsive: { details: { type: 'inline' } },
+        responsive: {
+          details: {
+            type: 'inline',
+            target: 'tr'
+          },
+          breakpoints: [
+            { name: 'desktop', width: Infinity },
+            { name: 'laptop',  width: 1440 },
+            { name: 'tablet',  width: 1024 },
+            { name: 'phone',   width: 640 }
+          ]
+        },
         autoWidth: false,
         paging: false,
         searching: true,
         order: [[2, 'desc']],
         columnDefs: [
           { targets: 2, type: 'num' },
-          { responsivePriority: 1, targets: 0 },
-          { responsivePriority: 2, targets: 2 },
-          { responsivePriority: 3, targets: 3 },
-          { responsivePriority: 4, targets: 1 }
+          { responsivePriority: 1, targets: 0 }, // Repo (keep)
+          { responsivePriority: 2, targets: 2 }, // Stars
+          { responsivePriority: 3, targets: 3 }, // Description
+          { responsivePriority: 4, targets: 1 }  // Category (hide first)
         ],
         initComplete: function () {
           datatable = this.api();
@@ -460,10 +456,11 @@ description: A searchable list of open-source Learning to Hash tools
 
     }).catch(function (error) {
       console.error("Error loading github_topics.csv:", error);
-      $('#tools-table').after(`<div style="color:red; margin-top:10px;">Failed to load data.</div>`);
+      $('#tools-table').after('<div style="color:red; margin-top:10px;">Failed to load data.</div>');
       $('#loading').hide();
     });
   });
 
   $(window).on('hashchange', function () { applyHash(); });
 </script>
+{% endraw %}
