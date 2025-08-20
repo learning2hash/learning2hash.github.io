@@ -317,18 +317,35 @@ description: A searchable list of open-source Learning to Hash tools
     updateVisibleCount();
   }
 
-  // Custom filter: OR match of ACTIVE_TAGS against Category text (column 1)
-  $.fn.dataTable.ext.search.push(function(settings, data) {
-    if (!datatable) return true;
-    if (ACTIVE_TAGS.size === 0) return true;
+  $.fn.dataTable.ext.search = $.fn.dataTable.ext.search.filter(fn => false); // clear previous filters if any
+  $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
+  // Only run for our tools table
+  if (!settings.nTable || settings.nTable.id !== 'tools-table') return true;
 
-    const catText = String(data[1] || '').replace(/<[^>]+>/g, '').trim().toLowerCase();
-    for (const t of ACTIVE_TAGS) {
-      if (catText === String(t).toLowerCase()) return true;
+  // If no active tags, don't filter
+  if (!ACTIVE_TAGS || ACTIVE_TAGS.size === 0) return true;
+
+  // Prefer DOM cell text (handles chips/HTML/Responsive), fallback to data[]
+  let catText = '';
+  try {
+    const cell = settings.aoData?.[dataIndex]?.anCells?.[1];
+    if (cell && cell.textContent) {
+      catText = cell.textContent;
+    } else {
+      catText = String(data[1] || '');
     }
-    return false;
-  });
+  } catch (_) {
+    catText = String(data[1] || '');
+  }
+  catText = catText.replace(/\s+/g, ' ').trim().toLowerCase();
 
+  // Exact match against any selected tag (case-insensitive)
+  for (const t of ACTIVE_TAGS) {
+    if (catText === String(t).trim().toLowerCase()) return true;
+  }
+  return false;
+});
+  
   // Clicking a category chip inside the table toggles it in the filter bar
   document.addEventListener('click', function(e){
     const chip = e.target.closest('#tools-table .tags-display .tag-chip');
