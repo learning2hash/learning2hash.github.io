@@ -35,6 +35,7 @@ description: A searchable list of open-source Learning to Hash tools
       <th data-priority="3">Category</th>
       <th data-priority="2">Stars</th>
       <th data-priority="1">Description</th>
+      <th style="display:none;">cats</th> <!-- hidden helper column for filtering -->
     </tr>
   </thead>
   <tbody></tbody>
@@ -59,13 +60,22 @@ description: A searchable list of open-source Learning to Hash tools
   /* Column widths (Repo | Category | Stars | Description) */
   #tools-table th:nth-child(1), #tools-table td:nth-child(1){ width:30%; } /* Repo */
   #tools-table th:nth-child(2), #tools-table td:nth-child(2){ width:14%; } /* Category */
-  #tools-table th:nth-child(3), #tools-table td:nth-child(3){ width:12%; } /* Stars (wider so header never clips) */
+  #tools-table th:nth-child(3), #tools-table td:nth-child(3){ width:12%; } /* Stars */
   #tools-table th:nth-child(4), #tools-table td:nth-child(4){ width:44%; } /* Description */
 
-  /* Headers: allow full visibility; Cells: ellipsis where needed */
+  /* Headers */
   #tools-table th{ white-space:nowrap; overflow:visible; text-overflow:clip; }
-  #tools-table td:not(:nth-child(4)){
+
+  /* Only Repo + Stars stay no-wrap; allow Category to wrap chips */
+  #tools-table td:nth-child(1),
+  #tools-table td:nth-child(3){
     white-space:nowrap; vertical-align:top; overflow:hidden; text-overflow:ellipsis;
+  }
+
+  /* Category column: allow wrapping */
+  #tools-table td:nth-child(2){
+    white-space:normal; vertical-align:top;
+    word-break:break-word;
   }
 
   /* Global nuke: stop any theme multi-column leakage anywhere inside the table */
@@ -115,7 +125,7 @@ description: A searchable list of open-source Learning to Hash tools
 
   .dataTables_filter{ display:none !important; }
 
-  /* Category filter bar */
+  /* Tag filter bar */
   #tagFilter{ margin:1rem 0 .75rem; display:flex; flex-wrap:wrap; gap:.5rem .75rem; max-width:100%; box-sizing:border-box; }
   .tag-chip{
     text-decoration:none; border-radius:999px; padding:.2rem .6rem; background:#f6f7f9; border:1px solid #e6e8ec;
@@ -126,7 +136,8 @@ description: A searchable list of open-source Learning to Hash tools
   .tag-chip:hover{ background:#f0f3f7; }
   .tag-chip.active{ background:#eef3ff; border-color:#b7ccff; box-shadow:0 0 0 1px #dbe7ff inset; font-weight:600; }
 
-  /* Smaller category chips inside the table */
+  /* Category chips inside the table, and make them wrap nicely */
+  .tags-display{ display:flex; flex-wrap:wrap; gap:.25rem .35rem; }
   .tags-display .tag-chip{ font-size:.70rem; padding:.15rem .45rem; gap:.25rem; line-height:1.0; }
   @media (max-width: 640px){
     .tags-display .tag-chip{ font-size:.66rem; padding:.12rem .40rem; }
@@ -317,28 +328,11 @@ description: A searchable list of open-source Learning to Hash tools
     updateVisibleCount();
   }
 
-  // Custom filter: row must include ALL selected categories (case-insensitive)
+  // Custom filter uses hidden "cats" column (index 4) for rock-solid matching
   $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
     if (!datatable || ACTIVE_TAGS.size === 0) return true;
-
-    const node = datatable.row(dataIndex).node();
-    const holder = node && node.querySelector('.tags-display');
-    let tokens = [];
-
-    if (holder && holder.dataset.rawtags !== undefined) {
-      tokens = String(holder.dataset.rawtags || '')
-        .split('|')
-        .map(t => t.trim().toLowerCase())
-        .filter(Boolean);
-    } else {
-      const html = data[1] || '';
-      const div  = document.createElement('div');
-      div.innerHTML = html;
-      tokens = Array.from(div.querySelectorAll('.tag-chip'))
-        .map(x => x.textContent.trim().toLowerCase())
-        .filter(Boolean);
-    }
-
+    const catsCell = (data[4] || ''); // e.g., "Hashing|Datasets"
+    const tokens = catsCell.split('|').map(s => s.trim().toLowerCase()).filter(Boolean);
     for (const t of ACTIVE_TAGS) {
       if (!tokens.includes(String(t).toLowerCase())) return false;
     }
@@ -377,20 +371,23 @@ description: A searchable list of open-source Learning to Hash tools
         const desc_short = desc_full.length > 400 ? (desc_full.substring(0, 400) + "…") : desc_full;
         const starsNum = tool.stars ? +tool.stars : 0;
 
-        // Single category only
+        // Single category only in your CSV
         const category = (tool.category || '').trim() || 'Uncategorized';
-        const chips = `<span class="tags-display" data-rawtags="${category.replace(/"/g,'&quot;')}">
+        const catsHidden = category; // what the filter uses internally
+
+        const chips = `<span class="tags-display">
           <span class="tag-chip" tabindex="-1" aria-hidden="true">${category}</span>
         </span>`;
 
         const escapedTitle = desc_full.replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-        const descCell = `<div class="desc" title="${escapedTitle}">${desc_short}</div>`; /* <-- wrap to stop extra column */
+        const descCell = `<div class="desc" title="${escapedTitle}">${desc_short}</div>`;
 
         return [
           `<a href="${repo_url}" target="_blank" rel="noopener noreferrer">${github}</a>`, // Repo
-          chips,                                                                            // Category
+          chips,                                                                            // Category (chips, wrapped)
           starsNum,                                                                         // Stars
-          descCell                                                                          // Description
+          descCell,                                                                         // Description
+          catsHidden                                                                        // HIDDEN cats column
         ];
       });
 
@@ -400,7 +397,8 @@ description: A searchable list of open-source Learning to Hash tools
           { title: "Repo", className: 'dt-nowrap' },
           { title: "Category", searchable: false },
           { title: "Stars", className: 'dt-nowrap' },
-          { title: "Description" }
+          { title: "Description" },
+          { title: "cats", visible: false, searchable: false } // hidden helper
         ],
         responsive: { details: { type: 'inline' } },
         autoWidth: false,
