@@ -31,10 +31,10 @@ description: A searchable list of open-source Learning to Hash tools
 <table id="tools-table" class="display stripe hover" style="width:100%; display:none;">
   <thead>
     <tr>
-      <th data-priority="1">Repo</th>
-      <th data-priority="4">Category</th>
-      <th data-priority="2">Stars</th>
-      <th data-priority="3">Description</th>
+      <th>Repo</th>
+      <th>Category</th>
+      <th>Stars</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody></tbody>
@@ -49,27 +49,27 @@ description: A searchable list of open-source Learning to Hash tools
     box-shadow:0 2px 10px rgba(0,0,0,.08);
   }
 
-  /* Let Responsive control widths — no fixed table layout, no fixed column widths */
+  /* Let Responsive calculate widths */
   #tools-table{
     display:none;
     width:100%;
     border-collapse:collapse;
   }
 
-  /* Headers */
-  #tools-table th{ white-space:nowrap; overflow:visible; text-overflow:clip; }
-
-  /* Keep Repo + Stars on one line with ellipsis; allow Category/Description to wrap */
-  #tools-table td:nth-child(1),
-  #tools-table td:nth-child(3){
-    white-space:nowrap; vertical-align:top; overflow:hidden; text-overflow:ellipsis;
-  }
-  #tools-table td:nth-child(2),
-  #tools-table td:nth-child(4){
-    white-space:normal; vertical-align:top; word-break:break-word;
+  /* ✅ Allow ALL cells (and headers) to wrap cleanly */
+  #tools-table td,
+  #tools-table th {
+    white-space: normal !important;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    vertical-align: top;
   }
 
-  /* Global nuke to prevent theme multi-column flow in cells */
+  /* Keep Stars right-aligned */
+  #tools-table th:nth-child(3),
+  #tools-table td:nth-child(3){ text-align:right; }
+
+  /* Prevent any theme multi-column flow inside table */
   #tools-table, #tools-table * {
     -webkit-column-count: 1 !important;
     -moz-column-count: 1 !important;
@@ -85,18 +85,15 @@ description: A searchable list of open-source Learning to Hash tools
     column-rule: initial !important;
   }
 
-  /* Description clamp */
+  /* Description clamp (still wraps across lines) */
   #tools-table td:nth-child(4) .desc{
     display:block;
-    white-space:normal;
     line-height:1.35;
     overflow:hidden;
     display:-webkit-box;
     -webkit-box-orient:vertical;
     -webkit-line-clamp:3;
   }
-
-  #tools-table th:nth-child(3), #tools-table td:nth-child(3){ text-align:right; }
 
   .controls{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.6rem; margin:.6rem 0 .9rem; }
   .search{ display:flex; align-items:flex-start; gap:.6rem; flex-wrap:wrap; }
@@ -127,13 +124,11 @@ description: A searchable list of open-source Learning to Hash tools
     .tags-display .tag-chip{ font-size:.66rem; padding:.12rem .40rem; }
   }
 
-  table.dataTable th.dt-nowrap, table.dataTable td.dt-nowrap { white-space:nowrap; }
-
   @media (max-width: 1024px){ #tools-table td:nth-child(4) .desc{ -webkit-line-clamp:4; } }
   @media (max-width: 640px){
     .search input{ width:clamp(170px, 60vw, 85vw); }
     #tools-table td:nth-child(4) .desc{ -webkit-line-clamp:6; }
-    #tools-table td:nth-child(1) a{ word-break:break-word; }
+    #tools-table td:nth-child(1) a{ word-break: break-word; }
   }
 </style>
 
@@ -379,17 +374,16 @@ description: A searchable list of open-source Learning to Hash tools
       const dt = $('#tools-table').DataTable({
         data: rows,
         columns: [
-          { title: "Repo", className: 'dt-nowrap' },     // priority 1
-          { title: "Category", searchable: true },       // priority 4
-          { title: "Stars", className: 'dt-nowrap' },    // priority 2
-          { title: "Description" }                       // priority 3
+          { title: "Repo" },           // responsivePriority 1
+          { title: "Category" },       // responsivePriority 4
+          { title: "Stars" },          // responsivePriority 2
+          { title: "Description" }     // responsivePriority 3
         ],
         responsive: {
           details: {
-            type: 'inline',  // show hidden cells beneath the row
+            type: 'inline',
             target: 'tr'
           },
-          // helpful breakpoints; priorities decide what hides first
           breakpoints: [
             { name: 'desktop', width: Infinity },
             { name: 'laptop',  width: 1440 },
@@ -431,4 +425,5 @@ description: A searchable list of open-source Learning to Hash tools
     });
   });
 
-  $(window).on('hash
+  $(window).on('hashchange', function () { applyHash(); });
+</script>
