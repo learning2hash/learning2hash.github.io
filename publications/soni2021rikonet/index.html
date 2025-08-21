@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/soni2021rikonet/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Rikonet: A Novel Anime Recommendation Engine" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Anime is quite well-received today, especially among the younger generations. With many genres of available shows, more and more people are increasingly getting attracted to this niche section of the entertainment industry. As anime has recently garnered mainstream attention, we have insufficient information regarding users’ penchant and watching habits. Therefore, it is an uphill task to build a recommendation engine for this relatively obscure entertainment medium. In this attempt, we have built a novel hybrid recommendation system that could act both as a recommendation system and as a means of exploring new anime genres and titles. We have analyzed the general trends in this field and the users’ watching habits for coming up with our efficacious solution. Our solution employs deep autoencoders for the tasks of predicting ratings and generating embeddings. Following this, we formed clusters using the embeddings of the anime titles. These clusters form the search space for anime with similarities and are used to find anime similar to the ones liked and disliked by the user. This method, combined with the predicted ratings, forms the novel hybrid filter. In this article, we have demonstrated this idea and compared the performance of our implemented model with the existing state-of-the-art techniques.","headline":"Rikonet: A Novel Anime Recommendation Engine","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/soni2021rikonet/"},"url":"https://learning2hash.github.io/publications/soni2021rikonet/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Anime is quite well-received today, especially among the younger generations. With many genres of available shows, more and more people are increasingly getting attracted to this niche section of the entertainment industry. As anime has recently garnered mainstream attention, we have insufficient information regarding users’ penchant and watching habits. Therefore, it is an uphill task to build a recommendation engine for this relatively obscure entertainment medium. In this attempt, we have built a novel hybrid recommendation system that could act both as a recommendation system and as a means of exploring new anime genres and titles. We have analyzed the general trends in this field and the users’ watching habits for coming up with our efficacious solution. Our solution employs deep autoencoders for the tasks of predicting ratings and generating embeddings. Following this, we formed clusters using the embeddings of the anime titles. These clusters form the search space for anime with similarities and are used to find anime similar to the ones liked and disliked by the user. This method, combined with the predicted ratings, forms the novel hybrid filter. In this article, we have demonstrated this idea and compared the performance of our implemented model with the existing state-of-the-art techniques.","headline":"Rikonet: A Novel Anime Recommendation Engine","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/soni2021rikonet/"},"url":"https://learning2hash.github.io/publications/soni2021rikonet/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,31 +164,36 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Rikonet: A Novel Anime Recommendation Engine</h1>
+
   <h5>
-  
     
-      Badal Soni, Debangan Thakuria, Nilutpal Nath, Navarun Das, Bhaskarananda Boro
+      Soni et al.
     
-  
-  . Arxiv
-   2021
-  
-    – <span>2 citations</span>
-  
+    . Arxiv
+     2021
+    
+      – <span>2 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2106.12970" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2106.12970" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Rikonet: A Novel Anime Recommendation Engine' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Rikonet: A Novel Anime Recommendation Engine' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Rikonet:%20A%20Novel%20Anime%20Recommendation%20Engine" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Rikonet:%20A%20Novel%20Anime%20Recommendation%20Engine" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Recommender Systems">Recommender Systems</a></tag>
+      <tag><a href="/tags.html#Recommender%20Systems">Recommender Systems</a></tag>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
   </p>
+
   <p><p>Anime is quite well-received today, especially among the younger generations.
 With many genres of available shows, more and more people are increasingly
 getting attracted to this niche section of the entertainment industry. As anime
@@ -210,27 +215,24 @@ techniques.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/soni2021rikonet.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/soni2021rikonet.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

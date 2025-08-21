@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yan2020image/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Image Retrieval For Structure-from-motion Via Graph Convolutional Network" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Conventional image retrieval techniques for Structure-from-Motion (SfM) suffer from the limit of effectively recognizing repetitive patterns and cannot guarantee to create just enough match pairs with high precision and high recall. In this paper, we present a novel retrieval method based on Graph Convolutional Network (GCN) to generate accurate pairwise matches without costly redundancy. We formulate image retrieval task as a node binary classification problem in graph data: a node is marked as positive if it shares the scene overlaps with the query image. The key idea is that we find that the local context in feature space around a query image contains rich information about the matchable relation between this image and its neighbors. By constructing a subgraph surrounding the query image as input data, we adopt a learnable GCN to exploit whether nodes in the subgraph have overlapping regions with the query photograph. Experiments demonstrate that our method performs remarkably well on the challenging dataset of highly ambiguous and duplicated scenes. Besides, compared with state-of-the-art matchable retrieval methods, the proposed approach significantly reduces useless attempted matches without sacrificing the accuracy and completeness of reconstruction.","headline":"Image Retrieval For Structure-from-motion Via Graph Convolutional Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yan2020image/"},"url":"https://learning2hash.github.io/publications/yan2020image/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Conventional image retrieval techniques for Structure-from-Motion (SfM) suffer from the limit of effectively recognizing repetitive patterns and cannot guarantee to create just enough match pairs with high precision and high recall. In this paper, we present a novel retrieval method based on Graph Convolutional Network (GCN) to generate accurate pairwise matches without costly redundancy. We formulate image retrieval task as a node binary classification problem in graph data: a node is marked as positive if it shares the scene overlaps with the query image. The key idea is that we find that the local context in feature space around a query image contains rich information about the matchable relation between this image and its neighbors. By constructing a subgraph surrounding the query image as input data, we adopt a learnable GCN to exploit whether nodes in the subgraph have overlapping regions with the query photograph. Experiments demonstrate that our method performs remarkably well on the challenging dataset of highly ambiguous and duplicated scenes. Besides, compared with state-of-the-art matchable retrieval methods, the proposed approach significantly reduces useless attempted matches without sacrificing the accuracy and completeness of reconstruction.","headline":"Image Retrieval For Structure-from-motion Via Graph Convolutional Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yan2020image/"},"url":"https://learning2hash.github.io/publications/yan2020image/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Image Retrieval For Structure-from-motion Via Graph Convolutional Network</h1>
+
   <h5>
-  
     
-      Shen Yan, Yang Pen, Shiming Lai, Yu Liu, Maojun Zhang
+      Yan et al.
     
-  
-  . Information Sciences
-   2021
-  
-    – <span>19 citations</span>
-  
+    . Information Sciences
+     2021
+    
+      – <span>19 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2009.08049" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2009.08049" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Image Retrieval For Structure-from-motion Via Graph Convolutional Network' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Image Retrieval For Structure-from-motion Via Graph Convolutional Network' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Image%20Retrieval%20For%20Structure-from-motion%20Via%20Graph%20Convolutional%20Network" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Image%20Retrieval%20For%20Structure-from-motion%20Via%20Graph%20Convolutional%20Network" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
-      <tag><a href="/tags.html#Image Retrieval">Image Retrieval</a></tag>
+      <tag><a href="/tags.html#Image%20Retrieval">Image Retrieval</a></tag>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
   </p>
+
   <p><p>Conventional image retrieval techniques for Structure-from-Motion (SfM)
 suffer from the limit of effectively recognizing repetitive patterns and cannot
 guarantee to create just enough match pairs with high precision and high
@@ -211,27 +216,24 @@ sacrificing the accuracy and completeness of reconstruction.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/yan2020image.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/yan2020image.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chen2022fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast And Exact Fixed-radius Neighbor Search Based On Sorting" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Fixed-radius near neighbor search is a fundamental data operation that retrieves all data points within a user-specified distance to a query point. There are efficient algorithms that can provide fast approximate query responses, but they often have a very compute-intensive indexing phase and require careful parameter tuning. Therefore, exact brute force and tree-based search methods are still widely used. Here we propose a new fixed-radius near neighbor search method, called SNN, that significantly improves over brute force and tree-based methods in terms of index and query time, provably returns exact results, and requires no parameter tuning. SNN exploits a sorting of the data points by their first principal component to prune the query search space. Further speedup is gained from an efficient implementation using high-level Basic Linear Algebra Subprograms (BLAS). We provide theoretical analysis of our method and demonstrate its practical performance when used stand-alone and when applied within the DBSCAN clustering algorithm.","headline":"Fast And Exact Fixed-radius Neighbor Search Based On Sorting","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2022fast/"},"url":"https://learning2hash.github.io/publications/chen2022fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Fixed-radius near neighbor search is a fundamental data operation that retrieves all data points within a user-specified distance to a query point. There are efficient algorithms that can provide fast approximate query responses, but they often have a very compute-intensive indexing phase and require careful parameter tuning. Therefore, exact brute force and tree-based search methods are still widely used. Here we propose a new fixed-radius near neighbor search method, called SNN, that significantly improves over brute force and tree-based methods in terms of index and query time, provably returns exact results, and requires no parameter tuning. SNN exploits a sorting of the data points by their first principal component to prune the query search space. Further speedup is gained from an efficient implementation using high-level Basic Linear Algebra Subprograms (BLAS). We provide theoretical analysis of our method and demonstrate its practical performance when used stand-alone and when applied within the DBSCAN clustering algorithm.","headline":"Fast And Exact Fixed-radius Neighbor Search Based On Sorting","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2022fast/"},"url":"https://learning2hash.github.io/publications/chen2022fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Fast And Exact Fixed-radius Neighbor Search Based On Sorting</h1>
+
   <h5>
-  
     
       Xinye Chen, Stefan Güttel
     
-  
-  . PeerJ Computer Science
-   2024
-  
-    – <span>4 citations</span>
-  
+    . PeerJ Computer Science
+     2024
+    
+      – <span>4 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2212.07679" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2212.07679" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Fast And Exact Fixed-radius Neighbor Search Based On Sorting' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Fast And Exact Fixed-radius Neighbor Search Based On Sorting' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Fast%20And%20Exact%20Fixed-radius%20Neighbor%20Search%20Based%20On%20Sorting" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Fast%20And%20Exact%20Fixed-radius%20Neighbor%20Search%20Based%20On%20Sorting" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Tree-based ANN">Tree-based ANN</a></tag>
+      <tag><a href="/tags.html#Tree-based%20ANN">Tree-based ANN</a></tag>
     
       <tag><a href="/tags.html#Efficiency">Efficiency</a></tag>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
   </p>
+
   <p><p>Fixed-radius near neighbor search is a fundamental data operation that
 retrieves all data points within a user-specified distance to a query point.
 There are efficient algorithms that can provide fast approximate query
@@ -208,27 +213,24 @@ applied within the DBSCAN clustering algorithm.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/chen2022fast.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/chen2022fast.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

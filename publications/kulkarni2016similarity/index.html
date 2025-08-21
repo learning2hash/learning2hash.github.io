@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kulkarni2016similarity/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Similarity Preserving Compressions Of High Dimensional Sparse Data" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"The rise of internet has resulted in an explosion of data consisting of millions of articles, images, songs, and videos. Most of this data is high dimensional and sparse. The need to perform an efficient search for similar objects in such high dimensional big datasets is becoming increasingly common. Even with the rapid growth in computing power, the brute-force search for such a task is impractical and at times impossible. Therefore it is quite natural to investigate the techniques that compress the dimension of the data-set while preserving the similarity between data objects. In this work, we propose an efficient compression scheme mapping binary vectors into binary vectors and simultaneously preserving Hamming distance and Inner Product. The length of our compression depends only on the sparsity and is independent of the dimension of the data. Moreover our schemes provide one-shot solution for Hamming distance and Inner Product, and work in the streaming setting as well. In contrast with the “local projection” strategies used by most of the previous schemes, our scheme combines (using sparsity) the following two strategies: (1.) Partitioning the dimensions into several buckets, (2.) Then obtaining “global linear summaries” in each of these buckets. We generalize our scheme for real-valued data and obtain compressions for Euclidean distance, Inner Product, and (k)-way Inner Product.","headline":"Similarity Preserving Compressions Of High Dimensional Sparse Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kulkarni2016similarity/"},"url":"https://learning2hash.github.io/publications/kulkarni2016similarity/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"The rise of internet has resulted in an explosion of data consisting of millions of articles, images, songs, and videos. Most of this data is high dimensional and sparse. The need to perform an efficient search for similar objects in such high dimensional big datasets is becoming increasingly common. Even with the rapid growth in computing power, the brute-force search for such a task is impractical and at times impossible. Therefore it is quite natural to investigate the techniques that compress the dimension of the data-set while preserving the similarity between data objects. In this work, we propose an efficient compression scheme mapping binary vectors into binary vectors and simultaneously preserving Hamming distance and Inner Product. The length of our compression depends only on the sparsity and is independent of the dimension of the data. Moreover our schemes provide one-shot solution for Hamming distance and Inner Product, and work in the streaming setting as well. In contrast with the “local projection” strategies used by most of the previous schemes, our scheme combines (using sparsity) the following two strategies: (1.) Partitioning the dimensions into several buckets, (2.) Then obtaining “global linear summaries” in each of these buckets. We generalize our scheme for real-valued data and obtain compressions for Euclidean distance, Inner Product, and (k)-way Inner Product.","headline":"Similarity Preserving Compressions Of High Dimensional Sparse Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kulkarni2016similarity/"},"url":"https://learning2hash.github.io/publications/kulkarni2016similarity/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,31 +164,36 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Similarity Preserving Compressions Of High Dimensional Sparse Data</h1>
+
   <h5>
-  
     
       Raghav Kulkarni, Rameshwar Pratap
     
-  
-  . Arxiv
-   2016
-  
-    – <span>3 citations</span>
-  
+    . Arxiv
+     2016
+    
+      – <span>3 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1612.06057" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1612.06057" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Similarity Preserving Compressions Of High Dimensional Sparse Data' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Similarity Preserving Compressions Of High Dimensional Sparse Data' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Similarity%20Preserving%20Compressions%20Of%20High%20Dimensional%20Sparse%20Data" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Similarity%20Preserving%20Compressions%20Of%20High%20Dimensional%20Sparse%20Data" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Distance Metric Learning">Distance Metric Learning</a></tag>
+      <tag><a href="/tags.html#Distance%20Metric%20Learning">Distance Metric Learning</a></tag>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
   </p>
+
   <p><p>The rise of internet has resulted in an explosion of data consisting of
 millions of articles, images, songs, and videos. Most of this data is high
 dimensional and sparse. The need to perform an efficient search for similar
@@ -211,27 +216,24 @@ for Euclidean distance, Inner Product, and (k)-way Inner Product.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/kulkarni2016similarity.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/kulkarni2016similarity.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

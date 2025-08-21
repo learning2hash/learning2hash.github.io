@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/vo2017revisiting/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Revisiting IM2GPS In The Deep Learning Era" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Image geolocalization, inferring the geographic location of an image, is a challenging computer vision problem with many potential applications. The recent state-of-the-art approach to this problem is a deep image classification approach in which the world is spatially divided into cells and a deep network is trained to predict the correct cell for a given image. We propose to combine this approach with the original Im2GPS approach in which a query image is matched against a database of geotagged images and the location is inferred from the retrieved set. We estimate the geographic location of a query image by applying kernel density estimation to the locations of its nearest neighbors in the reference database. Interestingly, we find that the best features for our retrieval task are derived from networks trained with classification loss even though we do not use a classification approach at test time. Training with classification loss outperforms several deep feature learning methods (e.g. Siamese networks with contrastive of triplet loss) more typical for retrieval applications. Our simple approach achieves state-of-the-art geolocalization accuracy while also requiring significantly less training data.","headline":"Revisiting IM2GPS In The Deep Learning Era","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/vo2017revisiting/"},"url":"https://learning2hash.github.io/publications/vo2017revisiting/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Image geolocalization, inferring the geographic location of an image, is a challenging computer vision problem with many potential applications. The recent state-of-the-art approach to this problem is a deep image classification approach in which the world is spatially divided into cells and a deep network is trained to predict the correct cell for a given image. We propose to combine this approach with the original Im2GPS approach in which a query image is matched against a database of geotagged images and the location is inferred from the retrieved set. We estimate the geographic location of a query image by applying kernel density estimation to the locations of its nearest neighbors in the reference database. Interestingly, we find that the best features for our retrieval task are derived from networks trained with classification loss even though we do not use a classification approach at test time. Training with classification loss outperforms several deep feature learning methods (e.g. Siamese networks with contrastive of triplet loss) more typical for retrieval applications. Our simple approach achieves state-of-the-art geolocalization accuracy while also requiring significantly less training data.","headline":"Revisiting IM2GPS In The Deep Learning Era","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/vo2017revisiting/"},"url":"https://learning2hash.github.io/publications/vo2017revisiting/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Revisiting IM2GPS In The Deep Learning Era</h1>
+
   <h5>
-  
     
       Nam Vo, Nathan Jacobs, James Hays
     
-  
-  . 2017 IEEE International Conference on Computer Vision (ICCV)
-   2017
-  
-    – <span>118 citations</span>
-  
+    . 2017 IEEE International Conference on Computer Vision (ICCV)
+     2017
+    
+      – <span>118 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1705.04838" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1705.04838" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Revisiting IM2GPS In The Deep Learning Era' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Revisiting IM2GPS In The Deep Learning Era' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Revisiting%20IM2GPS%20In%20The%20Deep%20Learning%20Era" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Revisiting%20IM2GPS%20In%20The%20Deep%20Learning%20Era" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Distance Metric Learning">Distance Metric Learning</a></tag>
+      <tag><a href="/tags.html#Distance%20Metric%20Learning">Distance Metric Learning</a></tag>
     
-      <tag><a href="/tags.html#Neural Hashing">Neural Hashing</a></tag>
+      <tag><a href="/tags.html#Neural%20Hashing">Neural Hashing</a></tag>
     
       <tag><a href="/tags.html#ICCV">ICCV</a></tag>
     
   </p>
+
   <p><p>Image geolocalization, inferring the geographic location of an image, is a
 challenging computer vision problem with many potential applications. The
 recent state-of-the-art approach to this problem is a deep image classification
@@ -210,27 +215,24 @@ accuracy while also requiring significantly less training data.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/vo2017revisiting.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/vo2017revisiting.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

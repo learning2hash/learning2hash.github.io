@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/schmidt2019improving/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Improving A Tf-idf Weighted Document Vector Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"We examine a number of methods to compute a dense vector embedding for a document in a corpus, given a set of word vectors such as those from word2vec or GloVe. We describe two methods that can improve upon a simple weighted sum, that are optimal in the sense that they maximizes a particular weighted cosine similarity measure. We consider several weighting functions, including inverse document frequency (idf), smooth inverse frequency (SIF), and the sub-sampling function used in word2vec. We find that idf works best for our applications. We also use common component removal proposed by Arora et al. as a post-process and find it is helpful in most cases. We compare these embeddings variations to the doc2vec embedding on a new evaluation task using TripAdvisor reviews, and also on the CQADupStack benchmark from the literature.","headline":"Improving A Tf-idf Weighted Document Vector Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/schmidt2019improving/"},"url":"https://learning2hash.github.io/publications/schmidt2019improving/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"We examine a number of methods to compute a dense vector embedding for a document in a corpus, given a set of word vectors such as those from word2vec or GloVe. We describe two methods that can improve upon a simple weighted sum, that are optimal in the sense that they maximizes a particular weighted cosine similarity measure. We consider several weighting functions, including inverse document frequency (idf), smooth inverse frequency (SIF), and the sub-sampling function used in word2vec. We find that idf works best for our applications. We also use common component removal proposed by Arora et al. as a post-process and find it is helpful in most cases. We compare these embeddings variations to the doc2vec embedding on a new evaluation task using TripAdvisor reviews, and also on the CQADupStack benchmark from the literature.","headline":"Improving A Tf-idf Weighted Document Vector Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/schmidt2019improving/"},"url":"https://learning2hash.github.io/publications/schmidt2019improving/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Improving A Tf-idf Weighted Document Vector Embedding</h1>
+
   <h5>
-  
     
       Craig W. Schmidt
     
-  
-  . Arxiv
-   2019
-  
-    – <span>11 citations</span>
-  
+    . Arxiv
+     2019
+    
+      – <span>11 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1902.09875" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1902.09875" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Improving A Tf-idf Weighted Document Vector Embedding' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Improving A Tf-idf Weighted Document Vector Embedding' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Improving%20A%20Tf-idf%20Weighted%20Document%20Vector%20Embedding" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Improving%20A%20Tf-idf%20Weighted%20Document%20Vector%20Embedding" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
   </p>
+
   <p><p>We examine a number of methods to compute a dense vector embedding for a
 document in a corpus, given a set of word vectors such as those from word2vec
 or GloVe. We describe two methods that can improve upon a simple weighted sum,
@@ -203,27 +208,24 @@ benchmark from the literature.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/schmidt2019improving.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/schmidt2019improving.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

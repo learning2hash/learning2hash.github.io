@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/tseytlin2021hotel/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hotel Recognition Via Latent Image Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"We approach the problem of hotel recognition with deep metric learning. We overview the existing approaches and propose a modification to Contrastive loss called Contrastive-Triplet loss. We construct a robust pipeline for benchmarking metric learning models and perform experiments on Hotels-50K and CUB200 datasets. Contrastive-Triplet loss is shown to achieve better retrieval on Hotels-50k. We open-source our code.","headline":"Hotel Recognition Via Latent Image Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tseytlin2021hotel/"},"url":"https://learning2hash.github.io/publications/tseytlin2021hotel/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"We approach the problem of hotel recognition with deep metric learning. We overview the existing approaches and propose a modification to Contrastive loss called Contrastive-Triplet loss. We construct a robust pipeline for benchmarking metric learning models and perform experiments on Hotels-50K and CUB200 datasets. Contrastive-Triplet loss is shown to achieve better retrieval on Hotels-50k. We open-source our code.","headline":"Hotel Recognition Via Latent Image Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tseytlin2021hotel/"},"url":"https://learning2hash.github.io/publications/tseytlin2021hotel/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Hotel Recognition Via Latent Image Embedding</h1>
+
   <h5>
-  
     
       Boris Tseytlin, Ilya Makarov
     
-  
-  . Lecture Notes in Computer Science
-   2021
-  
-    – <span>7 citations</span>
-  
+    . Lecture Notes in Computer Science
+     2021
+    
+      – <span>7 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2106.08042" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2106.08042" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Hotel Recognition Via Latent Image Embedding' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Hotel Recognition Via Latent Image Embedding' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Hotel%20Recognition%20Via%20Latent%20Image%20Embedding" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Hotel%20Recognition%20Via%20Latent%20Image%20Embedding" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Distance Metric Learning">Distance Metric Learning</a></tag>
+      <tag><a href="/tags.html#Distance%20Metric%20Learning">Distance Metric Learning</a></tag>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
-      <tag><a href="/tags.html#Survey Paper">Survey Paper</a></tag>
+      <tag><a href="/tags.html#Survey%20Paper">Survey Paper</a></tag>
     
   </p>
+
   <p><p>We approach the problem of hotel recognition with deep metric learning. We
 overview the existing approaches and propose a modification to Contrastive loss
 called Contrastive-Triplet loss. We construct a robust pipeline for
@@ -200,27 +205,24 @@ on Hotels-50k. We open-source our code.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/tseytlin2021hotel.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/tseytlin2021hotel.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

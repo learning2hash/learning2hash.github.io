@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zeng2022automatic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Automatic Biomedical Term Clustering By Learning Fine-grained Term Representations" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Term clustering is important in biomedical knowledge graph construction. Using similarities between terms embedding is helpful for term clustering. State-of-the-art term embeddings leverage pretrained language models to encode terms, and use synonyms and relation knowledge from knowledge graphs to guide contrastive learning. These embeddings provide close embeddings for terms belonging to the same concept. However, from our probing experiments, these embeddings are not sensitive to minor textual differences which leads to failure for biomedical term clustering. To alleviate this problem, we adjust the sampling strategy in pretraining term embeddings by providing dynamic hard positive and negative samples during contrastive learning to learn fine-grained representations which result in better biomedical term clustering. We name our proposed method as CODER++, and it has been applied in clustering biomedical concepts in the newly released Biomedical Knowledge Graph named BIOS.","headline":"Automatic Biomedical Term Clustering By Learning Fine-grained Term Representations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zeng2022automatic/"},"url":"https://learning2hash.github.io/publications/zeng2022automatic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Term clustering is important in biomedical knowledge graph construction. Using similarities between terms embedding is helpful for term clustering. State-of-the-art term embeddings leverage pretrained language models to encode terms, and use synonyms and relation knowledge from knowledge graphs to guide contrastive learning. These embeddings provide close embeddings for terms belonging to the same concept. However, from our probing experiments, these embeddings are not sensitive to minor textual differences which leads to failure for biomedical term clustering. To alleviate this problem, we adjust the sampling strategy in pretraining term embeddings by providing dynamic hard positive and negative samples during contrastive learning to learn fine-grained representations which result in better biomedical term clustering. We name our proposed method as CODER++, and it has been applied in clustering biomedical concepts in the newly released Biomedical Knowledge Graph named BIOS.","headline":"Automatic Biomedical Term Clustering By Learning Fine-grained Term Representations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zeng2022automatic/"},"url":"https://learning2hash.github.io/publications/zeng2022automatic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,31 +164,36 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Automatic Biomedical Term Clustering By Learning Fine-grained Term Representations</h1>
+
   <h5>
-  
     
       Sihang Zeng, Zheng Yuan, Sheng Yu
     
-  
-  . Proceedings of the 21st Workshop on Biomedical Language Processing
-   2022
-  
-    – <span>2 citations</span>
-  
+    . Proceedings of the 21st Workshop on Biomedical Language Processing
+     2022
+    
+      – <span>2 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2204.00391" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2204.00391" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Automatic Biomedical Term Clustering By Learning Fine-grained Term Representations' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Automatic Biomedical Term Clustering By Learning Fine-grained Term Representations' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Automatic%20Biomedical%20Term%20Clustering%20By%20Learning%20Fine-grained%20Term%20Representations" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Automatic%20Biomedical%20Term%20Clustering%20By%20Learning%20Fine-grained%20Term%20Representations" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Graph-based ANN">Graph-based ANN</a></tag>
+      <tag><a href="/tags.html#Graph-based%20ANN">Graph-based ANN</a></tag>
     
       <tag><a href="/tags.html#Self-Supervised">Self-Supervised</a></tag>
     
   </p>
+
   <p><p>Term clustering is important in biomedical knowledge graph construction.
 Using similarities between terms embedding is helpful for term clustering.
 State-of-the-art term embeddings leverage pretrained language models to encode
@@ -205,27 +210,24 @@ concepts in the newly released Biomedical Knowledge Graph named BIOS.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/zeng2022automatic.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/zeng2022automatic.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

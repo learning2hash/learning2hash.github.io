@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yuqi20212nd/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="2nd Place Solution To Google Landmark Retrieval 2021" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"This paper presents the 2nd place solution to the Google Landmark Retrieval 2021 Competition on Kaggle. The solution is based on a baseline with training tricks from person re-identification, a continent-aware sampling strategy is presented to select training images according to their country tags and a Landmark-Country aware reranking is proposed for the retrieval task. With these contributions, we achieve 0.52995 mAP@100 on private leaderboard. Code available at https://github.com/WesleyZhang1991/Google_Landmark_Retrieval_2021_2nd_Place_Solution","headline":"2nd Place Solution To Google Landmark Retrieval 2021","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yuqi20212nd/"},"url":"https://learning2hash.github.io/publications/yuqi20212nd/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"This paper presents the 2nd place solution to the Google Landmark Retrieval 2021 Competition on Kaggle. The solution is based on a baseline with training tricks from person re-identification, a continent-aware sampling strategy is presented to select training images according to their country tags and a Landmark-Country aware reranking is proposed for the retrieval task. With these contributions, we achieve 0.52995 mAP@100 on private leaderboard. Code available at https://github.com/WesleyZhang1991/Google_Landmark_Retrieval_2021_2nd_Place_Solution","headline":"2nd Place Solution To Google Landmark Retrieval 2021","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yuqi20212nd/"},"url":"https://learning2hash.github.io/publications/yuqi20212nd/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,31 +164,36 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">2nd Place Solution To Google Landmark Retrieval 2021</h1>
+
   <h5>
-  
     
-      Zhang Yuqi, Xu Xianzhe, Chen Weihua, Wang Yaohua, Zhang Fangyi, Wang Fan, Li Hao
+      Yuqi et al.
     
-  
-  . Arxiv
-   2021
-  
-    – <span>0 citations</span>
-  
+    . Arxiv
+     2021
+    
+      – <span>0 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://github.com/WesleyZhang1991/Google_Landmark_Retrieval_2021_2nd_Place_Solution" target="_blank">Code</a>]
+      [<a href="https://github.com/WesleyZhang1991/Google_Landmark_Retrieval_2021_2nd_Place_Solution" target="_blank" rel="noopener noreferrer">Code</a>]
     
-      [<a href="https://arxiv.org/abs/2110.04294" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2110.04294" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=2nd Place Solution To Google Landmark Retrieval 2021' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=2nd Place Solution To Google Landmark Retrieval 2021' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=2nd%20Place%20Solution%20To%20Google%20Landmark%20Retrieval%202021" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=2nd%20Place%20Solution%20To%20Google%20Landmark%20Retrieval%202021" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
   </p>
+
   <p><p>This paper presents the 2nd place solution to the Google Landmark Retrieval
 2021 Competition on Kaggle. The solution is based on a baseline with training
 tricks from person re-identification, a continent-aware sampling strategy is
@@ -200,27 +205,24 @@ https://github.com/WesleyZhang1991/Google_Landmark_Retrieval_2021_2nd_Place_Solu
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/yuqi20212nd.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/yuqi20212nd.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/paulius2020a/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Motion Taxonomy For Manipulation Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"To represent motions from a mechanical point of view, this paper explores motion embedding using the motion taxonomy. With this taxonomy, manipulations can be described and represented as binary strings called motion codes. Motion codes capture mechanical properties, such as contact type and trajectory, that should be used to define suitable distance metrics between motions or loss functions for deep learning and reinforcement learning. Motion codes can also be used to consolidate aliases or cluster motion types that share similar properties. Using existing data sets as a reference, we discuss how motion codes can be created and assigned to actions that are commonly seen in activities of daily living based on intuition as well as real data. Motion codes are compared to vectors from pre-trained Word2Vec models, and we show that motion codes maintain distances that closely match the reality of manipulation.","headline":"A Motion Taxonomy For Manipulation Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/paulius2020a/"},"url":"https://learning2hash.github.io/publications/paulius2020a/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"To represent motions from a mechanical point of view, this paper explores motion embedding using the motion taxonomy. With this taxonomy, manipulations can be described and represented as binary strings called motion codes. Motion codes capture mechanical properties, such as contact type and trajectory, that should be used to define suitable distance metrics between motions or loss functions for deep learning and reinforcement learning. Motion codes can also be used to consolidate aliases or cluster motion types that share similar properties. Using existing data sets as a reference, we discuss how motion codes can be created and assigned to actions that are commonly seen in activities of daily living based on intuition as well as real data. Motion codes are compared to vectors from pre-trained Word2Vec models, and we show that motion codes maintain distances that closely match the reality of manipulation.","headline":"A Motion Taxonomy For Manipulation Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/paulius2020a/"},"url":"https://learning2hash.github.io/publications/paulius2020a/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">A Motion Taxonomy For Manipulation Embedding</h1>
+
   <h5>
-  
     
       David Paulius, Nicholas Eales, Yu Sun
     
-  
-  . Robotics: Science and Systems XVI
-   2020
-  
-    – <span>21 citations</span>
-  
+    . Robotics: Science and Systems XVI
+     2020
+    
+      – <span>21 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2007.06695" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2007.06695" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=A Motion Taxonomy For Manipulation Embedding' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=A Motion Taxonomy For Manipulation Embedding' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=A%20Motion%20Taxonomy%20For%20Manipulation%20Embedding" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=A%20Motion%20Taxonomy%20For%20Manipulation%20Embedding" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#RSS">RSS</a></tag>
     
-      <tag><a href="/tags.html#Distance Metric Learning">Distance Metric Learning</a></tag>
+      <tag><a href="/tags.html#Distance%20Metric%20Learning">Distance Metric Learning</a></tag>
     
-      <tag><a href="/tags.html#Neural Hashing">Neural Hashing</a></tag>
+      <tag><a href="/tags.html#Neural%20Hashing">Neural Hashing</a></tag>
     
   </p>
+
   <p><p>To represent motions from a mechanical point of view, this paper explores
 motion embedding using the motion taxonomy. With this taxonomy, manipulations
 can be described and represented as binary strings called motion codes. Motion
@@ -207,27 +212,24 @@ manipulation.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/paulius2020a.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/paulius2020a.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

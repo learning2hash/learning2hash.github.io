@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/fornoni2021bridging/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Bridging The Gap Between Object Detection And User Intent Via Query-modulation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"When interacting with objects through cameras, or pictures, users often have a specific intent. For example, they may want to perform a visual search. With most object detection models relying on image pixels as their sole input, undesired results are not uncommon. Most typically: lack of a high-confidence detection on the object of interest, or detection with a wrong class label. The issue is especially severe when operating capacity-constrained mobile object detectors on-device. In this paper we investigate techniques to modulate mobile detectors to explicitly account for the user intent, expressed as an embedding of a simple query. Compared to standard detectors, query-modulated detectors show superior performance at detecting objects for a given user query. Thanks to large-scale training data synthesized from standard object detection annotations, query-modulated detectors also outperform a specialized referring expression recognition system. Query-modulated detectors can also be trained to simultaneously solve for both localizing a user query and standard detection, even outperforming standard mobile detectors at the canonical COCO task.","headline":"Bridging The Gap Between Object Detection And User Intent Via Query-modulation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fornoni2021bridging/"},"url":"https://learning2hash.github.io/publications/fornoni2021bridging/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"When interacting with objects through cameras, or pictures, users often have a specific intent. For example, they may want to perform a visual search. With most object detection models relying on image pixels as their sole input, undesired results are not uncommon. Most typically: lack of a high-confidence detection on the object of interest, or detection with a wrong class label. The issue is especially severe when operating capacity-constrained mobile object detectors on-device. In this paper we investigate techniques to modulate mobile detectors to explicitly account for the user intent, expressed as an embedding of a simple query. Compared to standard detectors, query-modulated detectors show superior performance at detecting objects for a given user query. Thanks to large-scale training data synthesized from standard object detection annotations, query-modulated detectors also outperform a specialized referring expression recognition system. Query-modulated detectors can also be trained to simultaneously solve for both localizing a user query and standard detection, even outperforming standard mobile detectors at the canonical COCO task.","headline":"Bridging The Gap Between Object Detection And User Intent Via Query-modulation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fornoni2021bridging/"},"url":"https://learning2hash.github.io/publications/fornoni2021bridging/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Bridging The Gap Between Object Detection And User Intent Via Query-modulation</h1>
+
   <h5>
-  
     
-      Marco Fornoni, Chaochao Yan, Liangchen Luo, Kimberly Wilber, Alex Stark, Yin Cui, Boqing Gong, Andrew Howard
+      Fornoni et al.
     
-  
-  . Arxiv
-   2021
-  
-    – <span>1 citation</span>
-  
+    . Arxiv
+     2021
+    
+      – <span>1 citation</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2106.10258" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2106.10258" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Bridging The Gap Between Object Detection And User Intent Via Query-modulation' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Bridging The Gap Between Object Detection And User Intent Via Query-modulation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Bridging%20The%20Gap%20Between%20Object%20Detection%20And%20User%20Intent%20Via%20Query-modulation" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Bridging%20The%20Gap%20Between%20Object%20Detection%20And%20User%20Intent%20Via%20Query-modulation" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Image Retrieval">Image Retrieval</a></tag>
+      <tag><a href="/tags.html#Image%20Retrieval">Image Retrieval</a></tag>
     
       <tag><a href="/tags.html#Scalability">Scalability</a></tag>
     
   </p>
+
   <p><p>When interacting with objects through cameras, or pictures, users often have
 a specific intent. For example, they may want to perform a visual search. With
 most object detection models relying on image pixels as their sole input,
@@ -209,27 +214,24 @@ even outperforming standard mobile detectors at the canonical COCO task.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/fornoni2021bridging.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/fornoni2021bridging.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

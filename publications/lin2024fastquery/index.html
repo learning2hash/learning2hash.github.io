@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lin2024fastquery/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fastquery: Communication-efficient Embedding Table Query For Private LLM Inference" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"With the fast evolution of large language models (LLMs), privacy concerns with user queries arise as they may contain sensitive information. Private inference based on homomorphic encryption (HE) has been proposed to protect user query privacy. However, a private embedding table query has to be formulated as a HE-based matrix-vector multiplication problem and suffers from enormous computation and communication overhead. We observe the overhead mainly comes from the neglect of 1) the one-hot nature of user queries and 2) the robustness of the embedding table to low bit-width quantization noise. Hence, in this paper, we propose a private embedding table query optimization framework, dubbed FastQuery. FastQuery features a communication-aware embedding table quantization algorithm and a one-hot-aware dense packing algorithm to simultaneously reduce both the computation and communication costs. Compared to prior-art HE-based frameworks, e.g., Cheetah, Iron, and Bumblebee, FastQuery achieves more than (4.3\\times), (2.7\\times), (1.3\\times) latency reduction, respectively and more than (75.7\\times), (60.2\\times), (20.2\\times) communication reduction, respectively, on both LLAMA-7B and LLAMA-30B.","headline":"Fastquery: Communication-efficient Embedding Table Query For Private LLM Inference","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2024fastquery/"},"url":"https://learning2hash.github.io/publications/lin2024fastquery/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"With the fast evolution of large language models (LLMs), privacy concerns with user queries arise as they may contain sensitive information. Private inference based on homomorphic encryption (HE) has been proposed to protect user query privacy. However, a private embedding table query has to be formulated as a HE-based matrix-vector multiplication problem and suffers from enormous computation and communication overhead. We observe the overhead mainly comes from the neglect of 1) the one-hot nature of user queries and 2) the robustness of the embedding table to low bit-width quantization noise. Hence, in this paper, we propose a private embedding table query optimization framework, dubbed FastQuery. FastQuery features a communication-aware embedding table quantization algorithm and a one-hot-aware dense packing algorithm to simultaneously reduce both the computation and communication costs. Compared to prior-art HE-based frameworks, e.g., Cheetah, Iron, and Bumblebee, FastQuery achieves more than (4.3\\times), (2.7\\times), (1.3\\times) latency reduction, respectively and more than (75.7\\times), (60.2\\times), (20.2\\times) communication reduction, respectively, on both LLAMA-7B and LLAMA-30B.","headline":"Fastquery: Communication-efficient Embedding Table Query For Private LLM Inference","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2024fastquery/"},"url":"https://learning2hash.github.io/publications/lin2024fastquery/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Fastquery: Communication-efficient Embedding Table Query For Private LLM Inference</h1>
+
   <h5>
-  
     
-      Chenqi Lin, Tianshi Xu, Zebin Yang, Runsheng Wang, Ru Huang, Meng Li
+      Lin et al.
     
-  
-  . Arxiv
-   2024
-  
-    – <span>0 citations</span>
-  
+    . Arxiv
+     2024
+    
+      – <span>0 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2405.16241" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2405.16241" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Fastquery: Communication-efficient Embedding Table Query For Private LLM Inference' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Fastquery: Communication-efficient Embedding Table Query For Private LLM Inference' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Fastquery:%20Communication-efficient%20Embedding%20Table%20Query%20For%20Private%20LLM%20Inference" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Fastquery:%20Communication-efficient%20Embedding%20Table%20Query%20For%20Private%20LLM%20Inference" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Quantization">Quantization</a></tag>
     
-      <tag><a href="/tags.html#Tools & Libraries">Tools & Libraries</a></tag>
+      <tag><a href="/tags.html#Tools%20&%20Libraries">Tools & Libraries</a></tag>
     
       <tag><a href="/tags.html#Robustness">Robustness</a></tag>
     
   </p>
+
   <p><p>With the fast evolution of large language models (LLMs), privacy concerns
 with user queries arise as they may contain sensitive information. Private
 inference based on homomorphic encryption (HE) has been proposed to protect
@@ -210,27 +215,24 @@ communication reduction, respectively, on both LLAMA-7B and LLAMA-30B.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/lin2024fastquery.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/lin2024fastquery.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ma2020fine/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fine-grained Fashion Similarity Learning By Attribute-specific Embedding Network" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"This paper strives to learn fine-grained fashion similarity. In this similarity paradigm, one should pay more attention to the similarity in terms of a specific design/attribute among fashion items, which has potential values in many fashion related applications such as fashion copyright protection. To this end, we propose an Attribute-Specific Embedding Network (ASEN) to jointly learn multiple attribute-specific embeddings in an end-to-end manner, thus measure the fine-grained similarity in the corresponding space. With two attention modules, i.e., Attribute-aware Spatial Attention and Attribute-aware Channel Attention, ASEN is able to locate the related regions and capture the essential patterns under the guidance of the specified attribute, thus make the learned attribute-specific embeddings better reflect the fine-grained similarity. Extensive experiments on four fashion-related datasets show the effectiveness of ASEN for fine-grained fashion similarity learning and its potential for fashion reranking.","headline":"Fine-grained Fashion Similarity Learning By Attribute-specific Embedding Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ma2020fine/"},"url":"https://learning2hash.github.io/publications/ma2020fine/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"This paper strives to learn fine-grained fashion similarity. In this similarity paradigm, one should pay more attention to the similarity in terms of a specific design/attribute among fashion items, which has potential values in many fashion related applications such as fashion copyright protection. To this end, we propose an Attribute-Specific Embedding Network (ASEN) to jointly learn multiple attribute-specific embeddings in an end-to-end manner, thus measure the fine-grained similarity in the corresponding space. With two attention modules, i.e., Attribute-aware Spatial Attention and Attribute-aware Channel Attention, ASEN is able to locate the related regions and capture the essential patterns under the guidance of the specified attribute, thus make the learned attribute-specific embeddings better reflect the fine-grained similarity. Extensive experiments on four fashion-related datasets show the effectiveness of ASEN for fine-grained fashion similarity learning and its potential for fashion reranking.","headline":"Fine-grained Fashion Similarity Learning By Attribute-specific Embedding Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ma2020fine/"},"url":"https://learning2hash.github.io/publications/ma2020fine/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,24 +164,28 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Fine-grained Fashion Similarity Learning By Attribute-specific Embedding Network</h1>
+
   <h5>
-  
     
-      Zhe Ma, Jianfeng Dong, Yao Zhang, Zhongzi Long, Yuan He, Hui Xue, Shouling Ji
+      Ma et al.
     
-  
-  . Proceedings of the AAAI Conference on Artificial Intelligence
-   2020
-  
-    – <span>48 citations</span>
-  
+    . Proceedings of the AAAI Conference on Artificial Intelligence
+     2020
+    
+      – <span>48 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2002.02814" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2002.02814" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Fine-grained Fashion Similarity Learning By Attribute-specific Embedding Network' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Fine-grained Fashion Similarity Learning By Attribute-specific Embedding Network' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Fine-grained%20Fashion%20Similarity%20Learning%20By%20Attribute-specific%20Embedding%20Network" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Fine-grained%20Fashion%20Similarity%20Learning%20By%20Attribute-specific%20Embedding%20Network" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#AAAI">AAAI</a></tag>
@@ -189,6 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
   </p>
+
   <p><p>This paper strives to learn fine-grained fashion similarity. In this
 similarity paradigm, one should pay more attention to the similarity in terms
 of a specific design/attribute among fashion items, which has potential values
@@ -206,27 +211,24 @@ potential for fashion reranking.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/ma2020fine.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/ma2020fine.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

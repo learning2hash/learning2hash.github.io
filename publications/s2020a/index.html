@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/s2020a/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Bag Of Visual Words Model For Medical Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Medical Image Retrieval is a challenging field in Visual information retrieval, due to the multi-dimensional and multi-modal context of the underlying content. Traditional models often fail to take the intrinsic characteristics of data into consideration, and have thus achieved limited accuracy when applied to medical images. The Bag of Visual Words (BoVW) is a technique that can be used to effectively represent intrinsic image features in vector space, so that applications like image classification and similar-image search can be optimized. In this paper, we present a MedIR approach based on the BoVW model for content-based medical image retrieval. As medical images as multi-dimensional, they exhibit underlying cluster and manifold information which enhances semantic relevance and allows for label uniformity. Hence, the BoVW features extracted for each image are used to train a supervised machine learning classifier based on positive and negative training images, for extending content based image retrieval. During experimental validation, the proposed model performed very well, achieving a Mean Average Precision of 88.89% during top-3 image retrieval experiments.","headline":"A Bag Of Visual Words Model For Medical Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/s2020a/"},"url":"https://learning2hash.github.io/publications/s2020a/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Medical Image Retrieval is a challenging field in Visual information retrieval, due to the multi-dimensional and multi-modal context of the underlying content. Traditional models often fail to take the intrinsic characteristics of data into consideration, and have thus achieved limited accuracy when applied to medical images. The Bag of Visual Words (BoVW) is a technique that can be used to effectively represent intrinsic image features in vector space, so that applications like image classification and similar-image search can be optimized. In this paper, we present a MedIR approach based on the BoVW model for content-based medical image retrieval. As medical images as multi-dimensional, they exhibit underlying cluster and manifold information which enhances semantic relevance and allows for label uniformity. Hence, the BoVW features extracted for each image are used to train a supervised machine learning classifier based on positive and negative training images, for extending content based image retrieval. During experimental validation, the proposed model performed very well, achieving a Mean Average Precision of 88.89% during top-3 image retrieval experiments.","headline":"A Bag Of Visual Words Model For Medical Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/s2020a/"},"url":"https://learning2hash.github.io/publications/s2020a/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">A Bag Of Visual Words Model For Medical Image Retrieval</h1>
+
   <h5>
-  
     
       Sowmya Kamath S, Karthik K
     
-  
-  . Arxiv
-   2020
-  
-    – <span>1 citation</span>
-  
+    . Arxiv
+     2020
+    
+      – <span>1 citation</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2007.09464" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2007.09464" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=A Bag Of Visual Words Model For Medical Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=A Bag Of Visual Words Model For Medical Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=A%20Bag%20Of%20Visual%20Words%20Model%20For%20Medical%20Image%20Retrieval" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=A%20Bag%20Of%20Visual%20Words%20Model%20For%20Medical%20Image%20Retrieval" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
       <tag><a href="/tags.html#Supervised">Supervised</a></tag>
     
-      <tag><a href="/tags.html#Image Retrieval">Image Retrieval</a></tag>
+      <tag><a href="/tags.html#Image%20Retrieval">Image Retrieval</a></tag>
     
   </p>
+
   <p><p>Medical Image Retrieval is a challenging field in Visual information
 retrieval, due to the multi-dimensional and multi-modal context of the
 underlying content. Traditional models often fail to take the intrinsic
@@ -210,27 +215,24 @@ proposed model performed very well, achieving a Mean Average Precision of
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/s2020a.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/s2020a.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

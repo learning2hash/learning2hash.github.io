@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/newmangriffis2017second/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Second-order Word Embeddings From Nearest Neighbor Topological Features" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"We introduce second-order vector representations of words, induced from nearest neighborhood topological features in pre-trained contextual word embeddings. We then analyze the effects of using second-order embeddings as input features in two deep natural language processing models, for named entity recognition and recognizing textual entailment, as well as a linear model for paraphrase recognition. Surprisingly, we find that nearest neighbor information alone is sufficient to capture most of the performance benefits derived from using pre-trained word embeddings. Furthermore, second-order embeddings are able to handle highly heterogeneous data better than first-order representations, though at the cost of some specificity. Additionally, augmenting contextual embeddings with second-order information further improves model performance in some cases. Due to variance in the random initializations of word embeddings, utilizing nearest neighbor features from multiple first-order embedding samples can also contribute to downstream performance gains. Finally, we identify intriguing characteristics of second-order embedding spaces for further research, including much higher density and different semantic interpretations of cosine similarity.","headline":"Second-order Word Embeddings From Nearest Neighbor Topological Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/newmangriffis2017second/"},"url":"https://learning2hash.github.io/publications/newmangriffis2017second/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"We introduce second-order vector representations of words, induced from nearest neighborhood topological features in pre-trained contextual word embeddings. We then analyze the effects of using second-order embeddings as input features in two deep natural language processing models, for named entity recognition and recognizing textual entailment, as well as a linear model for paraphrase recognition. Surprisingly, we find that nearest neighbor information alone is sufficient to capture most of the performance benefits derived from using pre-trained word embeddings. Furthermore, second-order embeddings are able to handle highly heterogeneous data better than first-order representations, though at the cost of some specificity. Additionally, augmenting contextual embeddings with second-order information further improves model performance in some cases. Due to variance in the random initializations of word embeddings, utilizing nearest neighbor features from multiple first-order embedding samples can also contribute to downstream performance gains. Finally, we identify intriguing characteristics of second-order embedding spaces for further research, including much higher density and different semantic interpretations of cosine similarity.","headline":"Second-order Word Embeddings From Nearest Neighbor Topological Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/newmangriffis2017second/"},"url":"https://learning2hash.github.io/publications/newmangriffis2017second/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,31 +164,36 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Second-order Word Embeddings From Nearest Neighbor Topological Features</h1>
+
   <h5>
-  
     
       Denis Newman-Griffis, Eric Fosler-Lussier
     
-  
-  . Arxiv
-   2017
-  
-    – <span>7 citations</span>
-  
+    . Arxiv
+     2017
+    
+      – <span>7 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1705.08488" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1705.08488" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Second-order Word Embeddings From Nearest Neighbor Topological Features' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Second-order Word Embeddings From Nearest Neighbor Topological Features' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Second-order%20Word%20Embeddings%20From%20Nearest%20Neighbor%20Topological%20Features" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Second-order%20Word%20Embeddings%20From%20Nearest%20Neighbor%20Topological%20Features" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Distance Metric Learning">Distance Metric Learning</a></tag>
+      <tag><a href="/tags.html#Distance%20Metric%20Learning">Distance Metric Learning</a></tag>
     
   </p>
+
   <p><p>We introduce second-order vector representations of words, induced from
 nearest neighborhood topological features in pre-trained contextual word
 embeddings. We then analyze the effects of using second-order embeddings as
@@ -209,27 +214,24 @@ different semantic interpretations of cosine similarity.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/newmangriffis2017second.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/newmangriffis2017second.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

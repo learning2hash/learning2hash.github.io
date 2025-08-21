@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/matatov2022dataset/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Dataset And Case Studies For Visual Near-duplicates Detection In The Context Of Social Media" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"The massive spread of visual content through the web and social media poses both challenges and opportunities. Tracking visually-similar content is an important task for studying and analyzing social phenomena related to the spread of such content. In this paper, we address this need by building a dataset of social media images and evaluating visual near-duplicates retrieval methods based on image retrieval and several advanced visual feature extraction methods. We evaluate the methods using a large-scale dataset of images we crawl from social media and their manipulated versions we generated, presenting promising results in terms of recall. We demonstrate the potential of this method in two case studies: one that shows the value of creating systems supporting manual content review, and another that demonstrates the usefulness of automatic large-scale data analysis.","headline":"Dataset And Case Studies For Visual Near-duplicates Detection In The Context Of Social Media","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/matatov2022dataset/"},"url":"https://learning2hash.github.io/publications/matatov2022dataset/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"The massive spread of visual content through the web and social media poses both challenges and opportunities. Tracking visually-similar content is an important task for studying and analyzing social phenomena related to the spread of such content. In this paper, we address this need by building a dataset of social media images and evaluating visual near-duplicates retrieval methods based on image retrieval and several advanced visual feature extraction methods. We evaluate the methods using a large-scale dataset of images we crawl from social media and their manipulated versions we generated, presenting promising results in terms of recall. We demonstrate the potential of this method in two case studies: one that shows the value of creating systems supporting manual content review, and another that demonstrates the usefulness of automatic large-scale data analysis.","headline":"Dataset And Case Studies For Visual Near-duplicates Detection In The Context Of Social Media","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/matatov2022dataset/"},"url":"https://learning2hash.github.io/publications/matatov2022dataset/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,27 +164,31 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Dataset And Case Studies For Visual Near-duplicates Detection In The Context Of Social Media</h1>
+
   <h5>
-  
     
       Hana Matatov, Mor Naaman, Ofra Amir
     
-  
-  . Arxiv
-   2022
-  
-    – <span>1 citation</span>
-  
+    . Arxiv
+     2022
+    
+      – <span>1 citation</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2203.07167" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2203.07167" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Dataset And Case Studies For Visual Near-duplicates Detection In The Context Of Social Media' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Dataset And Case Studies For Visual Near-duplicates Detection In The Context Of Social Media' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Dataset%20And%20Case%20Studies%20For%20Visual%20Near-duplicates%20Detection%20In%20The%20Context%20Of%20Social%20Media" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Dataset%20And%20Case%20Studies%20For%20Visual%20Near-duplicates%20Detection%20In%20The%20Context%20Of%20Social%20Media" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Survey Paper">Survey Paper</a></tag>
+      <tag><a href="/tags.html#Survey%20Paper">Survey Paper</a></tag>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
@@ -192,9 +196,10 @@ document.addEventListener('DOMContentLoaded', function () {
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Image Retrieval">Image Retrieval</a></tag>
+      <tag><a href="/tags.html#Image%20Retrieval">Image Retrieval</a></tag>
     
   </p>
+
   <p><p>The massive spread of visual content through the web and social media poses
 both challenges and opportunities. Tracking visually-similar content is an
 important task for studying and analyzing social phenomena related to the
@@ -210,27 +215,24 @@ of automatic large-scale data analysis.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/matatov2022dataset.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/matatov2022dataset.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

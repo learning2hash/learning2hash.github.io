@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/sankaranarayanan2016triplet/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Triplet Similarity Embedding For Face Verification" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"In this work, we present an unconstrained face verification algorithm and evaluate it on the recently released IJB-A dataset that aims to push the boundaries of face verification methods. The proposed algorithm couples a deep CNN-based approach with a low-dimensional discriminative embedding learnt using triplet similarity constraints in a large margin fashion. Aside from yielding performance improvement, this embedding provides significant advantages in terms of memory and post-processing operations like hashing and visualization. Experiments on the IJB-A dataset show that the proposed algorithm outperforms state of the art methods in verification and identification metrics, while requiring less training time.","headline":"Triplet Similarity Embedding For Face Verification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sankaranarayanan2016triplet/"},"url":"https://learning2hash.github.io/publications/sankaranarayanan2016triplet/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"In this work, we present an unconstrained face verification algorithm and evaluate it on the recently released IJB-A dataset that aims to push the boundaries of face verification methods. The proposed algorithm couples a deep CNN-based approach with a low-dimensional discriminative embedding learnt using triplet similarity constraints in a large margin fashion. Aside from yielding performance improvement, this embedding provides significant advantages in terms of memory and post-processing operations like hashing and visualization. Experiments on the IJB-A dataset show that the proposed algorithm outperforms state of the art methods in verification and identification metrics, while requiring less training time.","headline":"Triplet Similarity Embedding For Face Verification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sankaranarayanan2016triplet/"},"url":"https://learning2hash.github.io/publications/sankaranarayanan2016triplet/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,35 +164,40 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Triplet Similarity Embedding For Face Verification</h1>
+
   <h5>
-  
     
       Swami Sankaranarayanan, Azadeh Alavi, Rama Chellappa
     
-  
-  . Arxiv
-   2016
-  
-    – <span>47 citations</span>
-  
+    . Arxiv
+     2016
+    
+      – <span>47 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1602.03418" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1602.03418" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Triplet Similarity Embedding For Face Verification' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Triplet Similarity Embedding For Face Verification' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Triplet%20Similarity%20Embedding%20For%20Face%20Verification" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Triplet%20Similarity%20Embedding%20For%20Face%20Verification" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
+      <tag><a href="/tags.html#Hashing%20Methods">Hashing Methods</a></tag>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
       <tag><a href="/tags.html#Re-ranking">Re-ranking</a></tag>
     
   </p>
+
   <p><p>In this work, we present an unconstrained face verification algorithm and
 evaluate it on the recently released IJB-A dataset that aims to push the
 boundaries of face verification methods. The proposed algorithm couples a deep
@@ -206,27 +211,24 @@ requiring less training time.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/sankaranarayanan2016triplet.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/sankaranarayanan2016triplet.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

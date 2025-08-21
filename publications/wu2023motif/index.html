@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wu2023motif/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Motif-centric Representation Learning For Symbolic Music" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Music motif, as a conceptual building block of composition, is crucial for music structure analysis and automatic composition. While human listeners can identify motifs easily, existing computational models fall short in representing motifs and their developments. The reason is that the nature of motifs is implicit, and the diversity of motif variations extends beyond simple repetitions and modulations. In this study, we aim to learn the implicit relationship between motifs and their variations via representation learning, using the Siamese network architecture and a pretraining and fine-tuning pipeline. A regularization-based method, VICReg, is adopted for pretraining, while contrastive learning is used for fine-tuning. Experimental results on a retrieval-based task show that these two methods complement each other, yielding an improvement of 12.6% in the area under the precision-recall curve. Lastly, we visualize the acquired motif representations, offering an intuitive comprehension of the overall structure of a music piece. As far as we know, this work marks a noteworthy step forward in computational modeling of music motifs. We believe that this work lays the foundations for future applications of motifs in automatic music composition and music information retrieval.","headline":"Motif-centric Representation Learning For Symbolic Music","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2023motif/"},"url":"https://learning2hash.github.io/publications/wu2023motif/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Music motif, as a conceptual building block of composition, is crucial for music structure analysis and automatic composition. While human listeners can identify motifs easily, existing computational models fall short in representing motifs and their developments. The reason is that the nature of motifs is implicit, and the diversity of motif variations extends beyond simple repetitions and modulations. In this study, we aim to learn the implicit relationship between motifs and their variations via representation learning, using the Siamese network architecture and a pretraining and fine-tuning pipeline. A regularization-based method, VICReg, is adopted for pretraining, while contrastive learning is used for fine-tuning. Experimental results on a retrieval-based task show that these two methods complement each other, yielding an improvement of 12.6% in the area under the precision-recall curve. Lastly, we visualize the acquired motif representations, offering an intuitive comprehension of the overall structure of a music piece. As far as we know, this work marks a noteworthy step forward in computational modeling of music motifs. We believe that this work lays the foundations for future applications of motifs in automatic music composition and music information retrieval.","headline":"Motif-centric Representation Learning For Symbolic Music","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2023motif/"},"url":"https://learning2hash.github.io/publications/wu2023motif/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,24 +164,28 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Motif-centric Representation Learning For Symbolic Music</h1>
+
   <h5>
-  
     
       Yuxuan Wu, Roger B. Dannenberg, Gus Xia
     
-  
-  . Arxiv
-   2023
-  
-    – <span>0 citations</span>
-  
+    . Arxiv
+     2023
+    
+      – <span>0 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2309.10597" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2309.10597" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Motif-centric Representation Learning For Symbolic Music' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Motif-centric Representation Learning For Symbolic Music' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Motif-centric%20Representation%20Learning%20For%20Symbolic%20Music" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Motif-centric%20Representation%20Learning%20For%20Symbolic%20Music" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
@@ -189,6 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#Self-Supervised">Self-Supervised</a></tag>
     
   </p>
+
   <p><p>Music motif, as a conceptual building block of composition, is crucial for
 music structure analysis and automatic composition. While human listeners can
 identify motifs easily, existing computational models fall short in
@@ -209,27 +214,24 @@ of motifs in automatic music composition and music information retrieval.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/wu2023motif.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/wu2023motif.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/brodu2006spherical/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Spherical Indexing For Neighborhood Queries" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"This is an algorithm for finding neighbors when the objects can freely move and have no predefined position. The query consists in finding neighbors for a center location and a given radius. Space is discretized in cubic cells. This algorithm introduces a direct spherical indexing that gives the list of all cells making up the query sphere, for any radius and any center location. It can additionally take in account both cyclic and non-cyclic regions of interest. Finding only the K nearest neighbors naturally benefits from the spherical indexing by minimally running through the sphere from center to edge, and reducing the maximum distance when K neighbors have been found.","headline":"Spherical Indexing For Neighborhood Queries","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/brodu2006spherical/"},"url":"https://learning2hash.github.io/publications/brodu2006spherical/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"This is an algorithm for finding neighbors when the objects can freely move and have no predefined position. The query consists in finding neighbors for a center location and a given radius. Space is discretized in cubic cells. This algorithm introduces a direct spherical indexing that gives the list of all cells making up the query sphere, for any radius and any center location. It can additionally take in account both cyclic and non-cyclic regions of interest. Finding only the K nearest neighbors naturally benefits from the spherical indexing by minimally running through the sphere from center to edge, and reducing the maximum distance when K neighbors have been found.","headline":"Spherical Indexing For Neighborhood Queries","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/brodu2006spherical/"},"url":"https://learning2hash.github.io/publications/brodu2006spherical/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Spherical Indexing For Neighborhood Queries</h1>
+
   <h5>
-  
     
       Nicolas Brodu
     
-  
-  . Arxiv
-   2006
-  
-    – <span>1 citation</span>
-  
+    . Arxiv
+     2006
+    
+      – <span>1 citation</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/cs/0608108" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/cs/0608108" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Spherical Indexing For Neighborhood Queries' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Spherical Indexing For Neighborhood Queries' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Spherical%20Indexing%20For%20Neighborhood%20Queries" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Spherical%20Indexing%20For%20Neighborhood%20Queries" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Uncategorized">Uncategorized</a></tag>
     
   </p>
+
   <p><p>This is an algorithm for finding neighbors when the objects can freely move
 and have no predefined position. The query consists in finding neighbors for a
 center location and a given radius. Space is discretized in cubic cells. This
@@ -199,27 +204,24 @@ and reducing the maximum distance when K neighbors have been found.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/brodu2006spherical.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/brodu2006spherical.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

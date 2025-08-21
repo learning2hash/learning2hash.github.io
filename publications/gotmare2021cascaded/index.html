@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/gotmare2021cascaded/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Cascaded Fast And Slow Models For Efficient Semantic Code Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"The goal of natural language semantic code search is to retrieve a semantically relevant code snippet from a fixed set of candidates using a natural language query. Existing approaches are neither effective nor efficient enough towards a practical semantic code search system. In this paper, we propose an efficient and accurate semantic code search framework with cascaded fast and slow models, in which a fast transformer encoder model is learned to optimize a scalable index for fast retrieval followed by learning a slow classification-based re-ranking model to improve the performance of the top K results from the fast retrieval. To further reduce the high memory cost of deploying two separate models in practice, we propose to jointly train the fast and slow model based on a single transformer encoder with shared parameters. The proposed cascaded approach is not only efficient and scalable, but also achieves state-of-the-art results with an average mean reciprocal ranking (MRR) score of 0.7795 (across 6 programming languages) as opposed to the previous state-of-the-art result of 0.713 MRR on the CodeSearchNet benchmark.","headline":"Cascaded Fast And Slow Models For Efficient Semantic Code Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gotmare2021cascaded/"},"url":"https://learning2hash.github.io/publications/gotmare2021cascaded/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"The goal of natural language semantic code search is to retrieve a semantically relevant code snippet from a fixed set of candidates using a natural language query. Existing approaches are neither effective nor efficient enough towards a practical semantic code search system. In this paper, we propose an efficient and accurate semantic code search framework with cascaded fast and slow models, in which a fast transformer encoder model is learned to optimize a scalable index for fast retrieval followed by learning a slow classification-based re-ranking model to improve the performance of the top K results from the fast retrieval. To further reduce the high memory cost of deploying two separate models in practice, we propose to jointly train the fast and slow model based on a single transformer encoder with shared parameters. The proposed cascaded approach is not only efficient and scalable, but also achieves state-of-the-art results with an average mean reciprocal ranking (MRR) score of 0.7795 (across 6 programming languages) as opposed to the previous state-of-the-art result of 0.713 MRR on the CodeSearchNet benchmark.","headline":"Cascaded Fast And Slow Models For Efficient Semantic Code Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gotmare2021cascaded/"},"url":"https://learning2hash.github.io/publications/gotmare2021cascaded/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,39 +164,44 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Cascaded Fast And Slow Models For Efficient Semantic Code Search</h1>
+
   <h5>
-  
     
-      Akhilesh Deepak Gotmare, Junnan Li, Shafiq Joty, Steven C. H. Hoi
+      Gotmare et al.
     
-  
-  . Arxiv
-   2021
-  
-    – <span>7 citations</span>
-  
+    . Arxiv
+     2021
+    
+      – <span>7 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2110.07811" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2110.07811" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Cascaded Fast And Slow Models For Efficient Semantic Code Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Cascaded Fast And Slow Models For Efficient Semantic Code Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Cascaded%20Fast%20And%20Slow%20Models%20For%20Efficient%20Semantic%20Code%20Search" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Cascaded%20Fast%20And%20Slow%20Models%20For%20Efficient%20Semantic%20Code%20Search" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Efficiency">Efficiency</a></tag>
     
       <tag><a href="/tags.html#Re-ranking">Re-ranking</a></tag>
     
-      <tag><a href="/tags.html#Hybrid ANN Methods">Hybrid ANN Methods</a></tag>
+      <tag><a href="/tags.html#Hybrid%20ANN%20Methods">Hybrid ANN Methods</a></tag>
     
       <tag><a href="/tags.html#Scalability">Scalability</a></tag>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Tools & Libraries">Tools & Libraries</a></tag>
+      <tag><a href="/tags.html#Tools%20&%20Libraries">Tools & Libraries</a></tag>
     
   </p>
+
   <p><p>The goal of natural language semantic code search is to retrieve a
 semantically relevant code snippet from a fixed set of candidates using a
 natural language query. Existing approaches are neither effective nor efficient
@@ -215,27 +220,24 @@ state-of-the-art result of 0.713 MRR on the CodeSearchNet benchmark.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/gotmare2021cascaded.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/gotmare2021cascaded.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

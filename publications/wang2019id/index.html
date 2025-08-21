@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2019id/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Id-aware Quality For Set-based Person Re-identification" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Set-based person re-identification (SReID) is a matching problem that aims to verify whether two sets are of the same identity (ID). Existing SReID models typically generate a feature representation per image and aggregate them to represent the set as a single embedding. However, they can easily be perturbed by noises–perceptually/semantically low quality images–which are inevitable due to imperfect tracking/detection systems, or overfit to trivial images. In this work, we present a novel and simple solution to this problem based on ID-aware quality that measures the perceptual and semantic quality of images guided by their ID information. Specifically, we propose an ID-aware Embedding that consists of two key components: (1) Feature learning attention that aims to learn robust image embeddings by focusing on ‘medium’ hard images. This way it can prevent overfitting to trivial images, and alleviate the influence of outliers. (2) Feature fusion attention is to fuse image embeddings in the set to obtain the set-level embedding. It ignores noisy information and pays more attention to discriminative images to aggregate more discriminative information. Experimental results on four datasets show that our method outperforms state-of-the-art approaches despite the simplicity of our approach.","headline":"Id-aware Quality For Set-based Person Re-identification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2019id/"},"url":"https://learning2hash.github.io/publications/wang2019id/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Set-based person re-identification (SReID) is a matching problem that aims to verify whether two sets are of the same identity (ID). Existing SReID models typically generate a feature representation per image and aggregate them to represent the set as a single embedding. However, they can easily be perturbed by noises–perceptually/semantically low quality images–which are inevitable due to imperfect tracking/detection systems, or overfit to trivial images. In this work, we present a novel and simple solution to this problem based on ID-aware quality that measures the perceptual and semantic quality of images guided by their ID information. Specifically, we propose an ID-aware Embedding that consists of two key components: (1) Feature learning attention that aims to learn robust image embeddings by focusing on ‘medium’ hard images. This way it can prevent overfitting to trivial images, and alleviate the influence of outliers. (2) Feature fusion attention is to fuse image embeddings in the set to obtain the set-level embedding. It ignores noisy information and pays more attention to discriminative images to aggregate more discriminative information. Experimental results on four datasets show that our method outperforms state-of-the-art approaches despite the simplicity of our approach.","headline":"Id-aware Quality For Set-based Person Re-identification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2019id/"},"url":"https://learning2hash.github.io/publications/wang2019id/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Id-aware Quality For Set-based Person Re-identification</h1>
+
   <h5>
-  
     
-      Xinshao Wang, Elyor Kodirov, Yang Hua, Neil M. Robertson
+      Wang et al.
     
-  
-  . Arxiv
-   2019
-  
-    – <span>3 citations</span>
-  
+    . Arxiv
+     2019
+    
+      – <span>3 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1911.09143" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1911.09143" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Id-aware Quality For Set-based Person Re-identification' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Id-aware Quality For Set-based Person Re-identification' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Id-aware%20Quality%20For%20Set-based%20Person%20Re-identification" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Id-aware%20Quality%20For%20Set-based%20Person%20Re-identification" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
   </p>
+
   <p><p>Set-based person re-identification (SReID) is a matching problem that aims to
 verify whether two sets are of the same identity (ID). Existing SReID models
 typically generate a feature representation per image and aggregate them to
@@ -207,27 +212,24 @@ outperforms state-of-the-art approaches despite the simplicity of our approach.<
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/wang2019id.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/wang2019id.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

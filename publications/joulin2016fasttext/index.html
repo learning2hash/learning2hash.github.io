@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/joulin2016fasttext/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fasttext.zip: Compressing Text Classification Models" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"We consider the problem of producing compact architectures for text classification, such that the full model fits in a limited amount of memory. After considering different solutions inspired by the hashing literature, we propose a method built upon product quantization to store word embeddings. While the original technique leads to a loss in accuracy, we adapt this method to circumvent quantization artefacts. Our experiments carried out on several benchmarks show that our approach typically requires two orders of magnitude less memory than fastText while being only slightly inferior with respect to accuracy. As a result, it outperforms the state of the art by a good margin in terms of the compromise between memory usage and accuracy.","headline":"Fasttext.zip: Compressing Text Classification Models","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/joulin2016fasttext/"},"url":"https://learning2hash.github.io/publications/joulin2016fasttext/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"We consider the problem of producing compact architectures for text classification, such that the full model fits in a limited amount of memory. After considering different solutions inspired by the hashing literature, we propose a method built upon product quantization to store word embeddings. While the original technique leads to a loss in accuracy, we adapt this method to circumvent quantization artefacts. Our experiments carried out on several benchmarks show that our approach typically requires two orders of magnitude less memory than fastText while being only slightly inferior with respect to accuracy. As a result, it outperforms the state of the art by a good margin in terms of the compromise between memory usage and accuracy.","headline":"Fasttext.zip: Compressing Text Classification Models","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/joulin2016fasttext/"},"url":"https://learning2hash.github.io/publications/joulin2016fasttext/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Fasttext.zip: Compressing Text Classification Models</h1>
+
   <h5>
-  
     
-      Armand Joulin, Edouard Grave, Piotr Bojanowski, Matthijs Douze, Hérve Jégou, Tomas Mikolov
+      Joulin et al.
     
-  
-  . Arxiv
-   2016
-  
-    – <span>875 citations</span>
-  
+    . Arxiv
+     2016
+    
+      – <span>875 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1612.03651" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1612.03651" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Fasttext.zip: Compressing Text Classification Models' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Fasttext.zip: Compressing Text Classification Models' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Fasttext.zip:%20Compressing%20Text%20Classification%20Models" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Fasttext.zip:%20Compressing%20Text%20Classification%20Models" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Quantization">Quantization</a></tag>
     
-      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
+      <tag><a href="/tags.html#Hashing%20Methods">Hashing Methods</a></tag>
     
-      <tag><a href="/tags.html#Memory Efficiency">Memory Efficiency</a></tag>
+      <tag><a href="/tags.html#Memory%20Efficiency">Memory Efficiency</a></tag>
     
   </p>
+
   <p><p>We consider the problem of producing compact architectures for text
 classification, such that the full model fits in a limited amount of memory.
 After considering different solutions inspired by the hashing literature, we
@@ -204,27 +209,24 @@ terms of the compromise between memory usage and accuracy.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/joulin2016fasttext.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/joulin2016fasttext.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

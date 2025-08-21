@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chen2022two/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Two-stream Hierarchical Similarity Reasoning For Image-text Matching" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Reasoning-based approaches have demonstrated their powerful ability for the task of image-text matching. In this work, two issues are addressed for image-text matching. First, for reasoning processing, conventional approaches have no ability to find and use multi-level hierarchical similarity information. To solve this problem, a hierarchical similarity reasoning module is proposed to automatically extract context information, which is then co-exploited with local interaction information for efficient reasoning. Second, previous approaches only consider learning single-stream similarity alignment (i.e., image-to-text level or text-to-image level), which is inadequate to fully use similarity information for image-text matching. To address this issue, a two-stream architecture is developed to decompose image-text matching into image-to-text level and text-to-image level similarity computation. These two issues are investigated by a unifying framework that is trained in an end-to-end manner, namely two-stream hierarchical similarity reasoning network. The extensive experiments performed on the two benchmark datasets of MSCOCO and Flickr30K show the superiority of the proposed approach as compared to existing state-of-the-art methods.","headline":"Two-stream Hierarchical Similarity Reasoning For Image-text Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2022two/"},"url":"https://learning2hash.github.io/publications/chen2022two/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Reasoning-based approaches have demonstrated their powerful ability for the task of image-text matching. In this work, two issues are addressed for image-text matching. First, for reasoning processing, conventional approaches have no ability to find and use multi-level hierarchical similarity information. To solve this problem, a hierarchical similarity reasoning module is proposed to automatically extract context information, which is then co-exploited with local interaction information for efficient reasoning. Second, previous approaches only consider learning single-stream similarity alignment (i.e., image-to-text level or text-to-image level), which is inadequate to fully use similarity information for image-text matching. To address this issue, a two-stream architecture is developed to decompose image-text matching into image-to-text level and text-to-image level similarity computation. These two issues are investigated by a unifying framework that is trained in an end-to-end manner, namely two-stream hierarchical similarity reasoning network. The extensive experiments performed on the two benchmark datasets of MSCOCO and Flickr30K show the superiority of the proposed approach as compared to existing state-of-the-art methods.","headline":"Two-stream Hierarchical Similarity Reasoning For Image-text Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2022two/"},"url":"https://learning2hash.github.io/publications/chen2022two/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Two-stream Hierarchical Similarity Reasoning For Image-text Matching</h1>
+
   <h5>
-  
     
-      Ran Chen, Hanli Wang, Lei Wang, Sam Kwong
+      Chen et al.
     
-  
-  . Arxiv
-   2022
-  
-    – <span>5 citations</span>
-  
+    . Arxiv
+     2022
+    
+      – <span>5 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2203.05349" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2203.05349" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Two-stream Hierarchical Similarity Reasoning For Image-text Matching' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Two-stream Hierarchical Similarity Reasoning For Image-text Matching' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Two-stream%20Hierarchical%20Similarity%20Reasoning%20For%20Image-text%20Matching" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Two-stream%20Hierarchical%20Similarity%20Reasoning%20For%20Image-text%20Matching" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Tools & Libraries">Tools & Libraries</a></tag>
+      <tag><a href="/tags.html#Tools%20&%20Libraries">Tools & Libraries</a></tag>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
   </p>
+
   <p><p>Reasoning-based approaches have demonstrated their powerful ability for the
 task of image-text matching. In this work, two issues are addressed for
 image-text matching. First, for reasoning processing, conventional approaches
@@ -211,27 +216,24 @@ as compared to existing state-of-the-art methods.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/chen2022two.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/chen2022two.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

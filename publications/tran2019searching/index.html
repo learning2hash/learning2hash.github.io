@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/tran2019searching/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Searching For Apparel Products From Images In The Wild" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"In this age of social media, people often look at what others are wearing. In particular, Instagram and Twitter influencers often provide images of themselves wearing different outfits and their followers are often inspired to buy similar clothes.We propose a system to automatically find the closest visually similar clothes in the online Catalog (street-to-shop searching). The problem is challenging since the original images are taken under different pose and lighting conditions. The system initially localizes high-level descriptive regions (top, bottom, wristwear. . . ) using multiple CNN detectors such as YOLO and SSD that are trained specifically for apparel domain. It then classifies these regions into more specific regions such as t-shirts, tunic or dresses. Finally, a feature embedding learned using a multi-task function is recovered for every item and then compared with corresponding items in the online Catalog database and ranked according to distance. We validate our approach component-wise using benchmark datasets and end-to-end using human evaluation.","headline":"Searching For Apparel Products From Images In The Wild","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tran2019searching/"},"url":"https://learning2hash.github.io/publications/tran2019searching/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"In this age of social media, people often look at what others are wearing. In particular, Instagram and Twitter influencers often provide images of themselves wearing different outfits and their followers are often inspired to buy similar clothes.We propose a system to automatically find the closest visually similar clothes in the online Catalog (street-to-shop searching). The problem is challenging since the original images are taken under different pose and lighting conditions. The system initially localizes high-level descriptive regions (top, bottom, wristwear. . . ) using multiple CNN detectors such as YOLO and SSD that are trained specifically for apparel domain. It then classifies these regions into more specific regions such as t-shirts, tunic or dresses. Finally, a feature embedding learned using a multi-task function is recovered for every item and then compared with corresponding items in the online Catalog database and ranked according to distance. We validate our approach component-wise using benchmark datasets and end-to-end using human evaluation.","headline":"Searching For Apparel Products From Images In The Wild","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tran2019searching/"},"url":"https://learning2hash.github.io/publications/tran2019searching/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,24 +164,28 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Searching For Apparel Products From Images In The Wild</h1>
+
   <h5>
-  
     
-      Son Tran, Ming Du, Sampath Chanda, R. Manmatha, Cj Taylor
+      Tran et al.
     
-  
-  . Arxiv
-   2019
-  
-    – <span>4 citations</span>
-  
+    . Arxiv
+     2019
+    
+      – <span>4 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1907.02244" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1907.02244" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Searching For Apparel Products From Images In The Wild' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Searching For Apparel Products From Images In The Wild' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Searching%20For%20Apparel%20Products%20From%20Images%20In%20The%20Wild" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Searching%20For%20Apparel%20Products%20From%20Images%20In%20The%20Wild" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
@@ -189,6 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
   </p>
+
   <p><p>In this age of social media, people often look at what others are wearing. In
 particular, Instagram and Twitter influencers often provide images of
 themselves wearing different outfits and their followers are often inspired to
@@ -207,27 +212,24 @@ evaluation.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/tran2019searching.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/tran2019searching.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/parravicini2021scaling/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Scaling Up HBM Efficiency Of Top-k Spmv For Approximate Embedding Similarity On Fpgas" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Top-K SpMV is a key component of similarity-search on sparse embeddings. This sparse workload does not perform well on general-purpose NUMA systems that employ traditional caching strategies. Instead, modern FPGA accelerator cards have a few tricks up their sleeve. We introduce a Top-K SpMV FPGA design that leverages reduced precision and a novel packet-wise CSR matrix compression, enabling custom data layouts and delivering bandwidth efficiency often unreachable even in architectures with higher peak bandwidth. With HBM-based boards, we are 100x faster than a multi-threaded CPU implementation and 2x faster than a GPU with 20% higher bandwidth, with 14.2x higher power-efficiency.","headline":"Scaling Up HBM Efficiency Of Top-k Spmv For Approximate Embedding Similarity On Fpgas","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/parravicini2021scaling/"},"url":"https://learning2hash.github.io/publications/parravicini2021scaling/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Top-K SpMV is a key component of similarity-search on sparse embeddings. This sparse workload does not perform well on general-purpose NUMA systems that employ traditional caching strategies. Instead, modern FPGA accelerator cards have a few tricks up their sleeve. We introduce a Top-K SpMV FPGA design that leverages reduced precision and a novel packet-wise CSR matrix compression, enabling custom data layouts and delivering bandwidth efficiency often unreachable even in architectures with higher peak bandwidth. With HBM-based boards, we are 100x faster than a multi-threaded CPU implementation and 2x faster than a GPU with 20% higher bandwidth, with 14.2x higher power-efficiency.","headline":"Scaling Up HBM Efficiency Of Top-k Spmv For Approximate Embedding Similarity On Fpgas","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/parravicini2021scaling/"},"url":"https://learning2hash.github.io/publications/parravicini2021scaling/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,24 +164,28 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Scaling Up HBM Efficiency Of Top-k Spmv For Approximate Embedding Similarity On Fpgas</h1>
+
   <h5>
-  
     
-      Alberto Parravicini, Luca Giuseppe Cellamare, Marco Siracusa, Marco Domenico Santambrogio
+      Parravicini et al.
     
-  
-  . 2021 58th ACM/IEEE Design Automation Conference (DAC)
-   2021
-  
-    – <span>9 citations</span>
-  
+    . 2021 58th ACM/IEEE Design Automation Conference (DAC)
+     2021
+    
+      – <span>9 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2103.04808" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2103.04808" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Scaling Up HBM Efficiency Of Top-k Spmv For Approximate Embedding Similarity On Fpgas' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Scaling Up HBM Efficiency Of Top-k Spmv For Approximate Embedding Similarity On Fpgas' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Scaling%20Up%20HBM%20Efficiency%20Of%20Top-k%20Spmv%20For%20Approximate%20Embedding%20Similarity%20On%20Fpgas" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Scaling%20Up%20HBM%20Efficiency%20Of%20Top-k%20Spmv%20For%20Approximate%20Embedding%20Similarity%20On%20Fpgas" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
@@ -189,6 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#Efficiency">Efficiency</a></tag>
     
   </p>
+
   <p><p>Top-K SpMV is a key component of similarity-search on sparse embeddings. This
 sparse workload does not perform well on general-purpose NUMA systems that
 employ traditional caching strategies. Instead, modern FPGA accelerator cards
@@ -202,27 +207,24 @@ power-efficiency.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/parravicini2021scaling.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/parravicini2021scaling.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

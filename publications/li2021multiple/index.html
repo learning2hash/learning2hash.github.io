@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2021multiple/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multiple Convolutional Features In Siamese Networks For Object Tracking" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Siamese trackers demonstrated high performance in object tracking due to their balance between accuracy and speed. Unlike classification-based CNNs, deep similarity networks are specifically designed to address the image similarity problem, and thus are inherently more appropriate for the tracking task. However, Siamese trackers mainly use the last convolutional layers for similarity analysis and target search, which restricts their performance. In this paper, we argue that using a single convolutional layer as feature representation is not an optimal choice in a deep similarity framework. We present a Multiple Features-Siamese Tracker (MFST), a novel tracking algorithm exploiting several hierarchical feature maps for robust tracking. Since convolutional layers provide several abstraction levels in characterizing an object, fusing hierarchical features allows to obtain a richer and more efficient representation of the target. Moreover, we handle the target appearance variations by calibrating the deep features extracted from two different CNN models. Based on this advanced feature representation, our method achieves high tracking accuracy, while outperforming the standard siamese tracker on object tracking benchmarks. The source code and trained models are available at https://github.com/zhenxili96/MFST.","headline":"Multiple Convolutional Features In Siamese Networks For Object Tracking","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2021multiple/"},"url":"https://learning2hash.github.io/publications/li2021multiple/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Siamese trackers demonstrated high performance in object tracking due to their balance between accuracy and speed. Unlike classification-based CNNs, deep similarity networks are specifically designed to address the image similarity problem, and thus are inherently more appropriate for the tracking task. However, Siamese trackers mainly use the last convolutional layers for similarity analysis and target search, which restricts their performance. In this paper, we argue that using a single convolutional layer as feature representation is not an optimal choice in a deep similarity framework. We present a Multiple Features-Siamese Tracker (MFST), a novel tracking algorithm exploiting several hierarchical feature maps for robust tracking. Since convolutional layers provide several abstraction levels in characterizing an object, fusing hierarchical features allows to obtain a richer and more efficient representation of the target. Moreover, we handle the target appearance variations by calibrating the deep features extracted from two different CNN models. Based on this advanced feature representation, our method achieves high tracking accuracy, while outperforming the standard siamese tracker on object tracking benchmarks. The source code and trained models are available at https://github.com/zhenxili96/MFST.","headline":"Multiple Convolutional Features In Siamese Networks For Object Tracking","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2021multiple/"},"url":"https://learning2hash.github.io/publications/li2021multiple/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Multiple Convolutional Features In Siamese Networks For Object Tracking</h1>
+
   <h5>
-  
     
       Zhenxi Li, Guillaume-Alexandre Bilodeau, Wassim Bouachir
     
-  
-  . Machine Vision and Applications
-   2021
-  
-    – <span>6 citations</span>
-  
+    . Machine Vision and Applications
+     2021
+    
+      – <span>6 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://github.com/zhenxili96/MFST." target="_blank">Code</a>]
+      [<a href="https://github.com/zhenxili96/MFST." target="_blank" rel="noopener noreferrer">Code</a>]
     
-      [<a href="https://arxiv.org/abs/2103.01222" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2103.01222" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Multiple Convolutional Features In Siamese Networks For Object Tracking' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Multiple Convolutional Features In Siamese Networks For Object Tracking' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Multiple%20Convolutional%20Features%20In%20Siamese%20Networks%20For%20Object%20Tracking" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Multiple%20Convolutional%20Features%20In%20Siamese%20Networks%20For%20Object%20Tracking" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Tools & Libraries">Tools & Libraries</a></tag>
+      <tag><a href="/tags.html#Tools%20&%20Libraries">Tools & Libraries</a></tag>
     
   </p>
+
   <p><p>Siamese trackers demonstrated high performance in object tracking due to
 their balance between accuracy and speed. Unlike classification-based CNNs,
 deep similarity networks are specifically designed to address the image
@@ -212,27 +217,24 @@ available at https://github.com/zhenxili96/MFST.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/li2021multiple.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/li2021multiple.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

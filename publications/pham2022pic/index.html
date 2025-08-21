@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/pham2022pic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"While contextualized word embeddings have been a de-facto standard, learning contextualized phrase embeddings is less explored and being hindered by the lack of a human-annotated benchmark that tests machine understanding of phrase semantics given a context sentence or paragraph (instead of phrases alone). To fill this gap, we propose PiC – a dataset of ~28K of noun phrases accompanied by their contextual Wikipedia pages and a suite of three tasks for training and evaluating phrase embeddings. Training on PiC improves ranking models’ accuracy and remarkably pushes span-selection (SS) models (i.e., predicting the start and end index of the target phrase) near-human accuracy, which is 95% Exact Match (EM) on semantic search given a query phrase and a passage. Interestingly, we find evidence that such impressive performance is because the SS models learn to better capture the common meaning of a phrase regardless of its actual context. SotA models perform poorly in distinguishing two senses of the same phrase in two contexts (~60% EM) and in estimating the similarity between two different phrases in the same context (~70% EM).","headline":"Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pham2022pic/"},"url":"https://learning2hash.github.io/publications/pham2022pic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"While contextualized word embeddings have been a de-facto standard, learning contextualized phrase embeddings is less explored and being hindered by the lack of a human-annotated benchmark that tests machine understanding of phrase semantics given a context sentence or paragraph (instead of phrases alone). To fill this gap, we propose PiC – a dataset of ~28K of noun phrases accompanied by their contextual Wikipedia pages and a suite of three tasks for training and evaluating phrase embeddings. Training on PiC improves ranking models’ accuracy and remarkably pushes span-selection (SS) models (i.e., predicting the start and end index of the target phrase) near-human accuracy, which is 95% Exact Match (EM) on semantic search given a query phrase and a passage. Interestingly, we find evidence that such impressive performance is because the SS models learn to better capture the common meaning of a phrase regardless of its actual context. SotA models perform poorly in distinguishing two senses of the same phrase in two contexts (~60% EM) and in estimating the similarity between two different phrases in the same context (~70% EM).","headline":"Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pham2022pic/"},"url":"https://learning2hash.github.io/publications/pham2022pic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,24 +164,28 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search</h1>
+
   <h5>
-  
     
-      Thang M. Pham, Seunghyun Yoon, Trung Bui, Anh Nguyen
+      Pham et al.
     
-  
-  . Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics
-   2023
-  
-    – <span>2 citations</span>
-  
+    . Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics
+     2023
+    
+      – <span>2 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2207.09068" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2207.09068" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Pic:%20A%20Phrase-in-context%20Dataset%20For%20Phrase%20Understanding%20And%20Semantic%20Search" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Pic:%20A%20Phrase-in-context%20Dataset%20For%20Phrase%20Understanding%20And%20Semantic%20Search" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
@@ -193,6 +197,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
   </p>
+
   <p><p>While contextualized word embeddings have been a de-facto standard, learning
 contextualized phrase embeddings is less explored and being hindered by the
 lack of a human-annotated benchmark that tests machine understanding of phrase
@@ -211,27 +216,24 @@ between two different phrases in the same context (~70% EM).</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/pham2022pic.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/pham2022pic.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

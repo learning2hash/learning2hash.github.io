@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/gieseke2015bigger/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Bigger Buffer K-d Trees On Multi-many-core Systems" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"A buffer k-d tree is a k-d tree variant for massively-parallel nearest neighbor search. While providing valuable speed-ups on modern many-core devices in case both a large number of reference and query points are given, buffer k-d trees are limited by the amount of points that can fit on a single device. In this work, we show how to modify the original data structure and the associated workflow to make the overall approach capable of dealing with massive data sets. We further provide a simple yet efficient way of using multiple devices given in a single workstation. The applicability of the modified framework is demonstrated in the context of astronomy, a field that is faced with huge amounts of data.","headline":"Bigger Buffer K-d Trees On Multi-many-core Systems","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gieseke2015bigger/"},"url":"https://learning2hash.github.io/publications/gieseke2015bigger/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"A buffer k-d tree is a k-d tree variant for massively-parallel nearest neighbor search. While providing valuable speed-ups on modern many-core devices in case both a large number of reference and query points are given, buffer k-d trees are limited by the amount of points that can fit on a single device. In this work, we show how to modify the original data structure and the associated workflow to make the overall approach capable of dealing with massive data sets. We further provide a simple yet efficient way of using multiple devices given in a single workstation. The applicability of the modified framework is demonstrated in the context of astronomy, a field that is faced with huge amounts of data.","headline":"Bigger Buffer K-d Trees On Multi-many-core Systems","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gieseke2015bigger/"},"url":"https://learning2hash.github.io/publications/gieseke2015bigger/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,31 +164,36 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Bigger Buffer K-d Trees On Multi-many-core Systems</h1>
+
   <h5>
-  
     
-      Fabian Gieseke, Cosmin Eugen Oancea, Ashish Mahabal, Christian Igel, Tom Heskes
+      Gieseke et al.
     
-  
-  . Arxiv
-   2015
-  
-    – <span>4 citations</span>
-  
+    . Arxiv
+     2015
+    
+      – <span>4 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1512.02831" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1512.02831" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Bigger Buffer K-d Trees On Multi-many-core Systems' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Bigger Buffer K-d Trees On Multi-many-core Systems' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Bigger%20Buffer%20K-d%20Trees%20On%20Multi-many-core%20Systems" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Bigger%20Buffer%20K-d%20Trees%20On%20Multi-many-core%20Systems" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Tools & Libraries">Tools & Libraries</a></tag>
+      <tag><a href="/tags.html#Tools%20&%20Libraries">Tools & Libraries</a></tag>
     
-      <tag><a href="/tags.html#Tree-based ANN">Tree-based ANN</a></tag>
+      <tag><a href="/tags.html#Tree-based%20ANN">Tree-based ANN</a></tag>
     
   </p>
+
   <p><p>A buffer k-d tree is a k-d tree variant for massively-parallel nearest
 neighbor search. While providing valuable speed-ups on modern many-core devices
 in case both a large number of reference and query points are given, buffer k-d
@@ -202,27 +207,24 @@ amounts of data.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/gieseke2015bigger.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/gieseke2015bigger.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/nazir2020cosine/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Cosine Similarity Of Multimodal Content Vectors For TV Programmes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Multimodal information originates from a variety of sources: audiovisual files, textual descriptions, and metadata. We show how one can represent the content encoded by each individual source using vectors, how to combine the vectors via middle and late fusion techniques, and how to compute the semantic similarities between the contents. Our vectorial representations are built from spectral features and Bags of Audio Words, for audio, LSI topics and Doc2vec embeddings for subtitles, and the categorical features, for metadata. We implement our model on a dataset of BBC TV programmes and evaluate the fused representations to provide recommendations. The late fused similarity matrices significantly improve the precision and diversity of recommendations.","headline":"Cosine Similarity Of Multimodal Content Vectors For TV Programmes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/nazir2020cosine/"},"url":"https://learning2hash.github.io/publications/nazir2020cosine/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Multimodal information originates from a variety of sources: audiovisual files, textual descriptions, and metadata. We show how one can represent the content encoded by each individual source using vectors, how to combine the vectors via middle and late fusion techniques, and how to compute the semantic similarities between the contents. Our vectorial representations are built from spectral features and Bags of Audio Words, for audio, LSI topics and Doc2vec embeddings for subtitles, and the categorical features, for metadata. We implement our model on a dataset of BBC TV programmes and evaluate the fused representations to provide recommendations. The late fused similarity matrices significantly improve the precision and diversity of recommendations.","headline":"Cosine Similarity Of Multimodal Content Vectors For TV Programmes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/nazir2020cosine/"},"url":"https://learning2hash.github.io/publications/nazir2020cosine/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Cosine Similarity Of Multimodal Content Vectors For TV Programmes</h1>
+
   <h5>
-  
     
-      Saba Nazir, Taner Cagali, Chris Newell, Mehrnoosh Sadrzadeh
+      Nazir et al.
     
-  
-  . Arxiv
-   2020
-  
-    – <span>1 citation</span>
-  
+    . Arxiv
+     2020
+    
+      – <span>1 citation</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2009.11129" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2009.11129" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Cosine Similarity Of Multimodal Content Vectors For TV Programmes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Cosine Similarity Of Multimodal Content Vectors For TV Programmes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Cosine%20Similarity%20Of%20Multimodal%20Content%20Vectors%20For%20TV%20Programmes" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Cosine%20Similarity%20Of%20Multimodal%20Content%20Vectors%20For%20TV%20Programmes" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Distance Metric Learning">Distance Metric Learning</a></tag>
+      <tag><a href="/tags.html#Distance%20Metric%20Learning">Distance Metric Learning</a></tag>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
   </p>
+
   <p><p>Multimodal information originates from a variety of sources: audiovisual
 files, textual descriptions, and metadata. We show how one can represent the
 content encoded by each individual source using vectors, how to combine the
@@ -204,27 +209,24 @@ significantly improve the precision and diversity of recommendations.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/nazir2020cosine.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/nazir2020cosine.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

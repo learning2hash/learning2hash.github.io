@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2018design/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The Design And Implementation Of A Real Time Visual Search System On JD E-commerce Platform" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"We present the design and implementation of a visual search system for real time image retrieval on JD.com, the world’s third largest and China’s largest e-commerce site. We demonstrate that our system can support real time visual search with hundreds of billions of product images at sub-second timescales and handle frequent image updates through distributed hierarchical architecture and efficient indexing methods. We hope that sharing our practice with our real production system will inspire the middleware community’s interest and appreciation for building practical large scale systems for emerging applications, such as ecommerce visual search.","headline":"The Design And Implementation Of A Real Time Visual Search System On JD E-commerce Platform","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2018design/"},"url":"https://learning2hash.github.io/publications/li2018design/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"We present the design and implementation of a visual search system for real time image retrieval on JD.com, the world’s third largest and China’s largest e-commerce site. We demonstrate that our system can support real time visual search with hundreds of billions of product images at sub-second timescales and handle frequent image updates through distributed hierarchical architecture and efficient indexing methods. We hope that sharing our practice with our real production system will inspire the middleware community’s interest and appreciation for building practical large scale systems for emerging applications, such as ecommerce visual search.","headline":"The Design And Implementation Of A Real Time Visual Search System On JD E-commerce Platform","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2018design/"},"url":"https://learning2hash.github.io/publications/li2018design/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">The Design And Implementation Of A Real Time Visual Search System On JD E-commerce Platform</h1>
+
   <h5>
-  
     
-      Jie Li, Haifeng Liu, Chuanghua Gui, Jianyu Chen, Zhenyun Ni, Ning Wang
+      Li et al.
     
-  
-  . Proceedings of the 19th International Middleware Conference Industry
-   2018
-  
-    – <span>36 citations</span>
-  
+    . Proceedings of the 19th International Middleware Conference Industry
+     2018
+    
+      – <span>36 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1908.07389" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1908.07389" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=The Design And Implementation Of A Real Time Visual Search System On JD E-commerce Platform' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=The Design And Implementation Of A Real Time Visual Search System On JD E-commerce Platform' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=The%20Design%20And%20Implementation%20Of%20A%20Real%20Time%20Visual%20Search%20System%20On%20JD%20E-commerce%20Platform" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=The%20Design%20And%20Implementation%20Of%20A%20Real%20Time%20Visual%20Search%20System%20On%20JD%20E-commerce%20Platform" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Image Retrieval">Image Retrieval</a></tag>
+      <tag><a href="/tags.html#Image%20Retrieval">Image Retrieval</a></tag>
     
   </p>
+
   <p><p>We present the design and implementation of a visual search system for real
 time image retrieval on JD.com, the world’s third largest and China’s largest
 e-commerce site. We demonstrate that our system can support real time visual
@@ -199,27 +204,24 @@ applications, such as ecommerce visual search.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/li2018design.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/li2018design.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

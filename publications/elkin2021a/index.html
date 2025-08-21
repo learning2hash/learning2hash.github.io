@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/elkin2021a/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A New Near-linear Time Algorithm For K-nearest Neighbor Search Using A Compressed Cover Tree" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Given a reference set (R) of (n) points and a query set (Q) of (m) points in a metric space, this paper studies an important problem of finding (k)-nearest neighbors of every point (q \\in Q) in the set (R) in a near-linear time. In the paper at ICML 2006, Beygelzimer, Kakade, and Langford introduced a cover tree on (R) and attempted to prove that this tree can be built in (O(nlog n)) time while the nearest neighbor search can be done in (O(nlog m)) time with a hidden dimensionality factor. This paper fills a substantial gap in the past proofs of time complexity by defining a simpler compressed cover tree on the reference set (R). The first new algorithm constructs a compressed cover tree in (O(n log n)) time. The second new algorithm finds all (k)-nearest neighbors of all points from (Q) using a compressed cover tree in time (O(m(k+log n)log k)) with a hidden dimensionality factor depending on point distributions of the given sets (R,Q) but not on their sizes.","headline":"A New Near-linear Time Algorithm For K-nearest Neighbor Search Using A Compressed Cover Tree","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/elkin2021a/"},"url":"https://learning2hash.github.io/publications/elkin2021a/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Given a reference set (R) of (n) points and a query set (Q) of (m) points in a metric space, this paper studies an important problem of finding (k)-nearest neighbors of every point (q \\in Q) in the set (R) in a near-linear time. In the paper at ICML 2006, Beygelzimer, Kakade, and Langford introduced a cover tree on (R) and attempted to prove that this tree can be built in (O(nlog n)) time while the nearest neighbor search can be done in (O(nlog m)) time with a hidden dimensionality factor. This paper fills a substantial gap in the past proofs of time complexity by defining a simpler compressed cover tree on the reference set (R). The first new algorithm constructs a compressed cover tree in (O(n log n)) time. The second new algorithm finds all (k)-nearest neighbors of all points from (Q) using a compressed cover tree in time (O(m(k+log n)log k)) with a hidden dimensionality factor depending on point distributions of the given sets (R,Q) but not on their sizes.","headline":"A New Near-linear Time Algorithm For K-nearest Neighbor Search Using A Compressed Cover Tree","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/elkin2021a/"},"url":"https://learning2hash.github.io/publications/elkin2021a/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">A New Near-linear Time Algorithm For K-nearest Neighbor Search Using A Compressed Cover Tree</h1>
+
   <h5>
-  
     
       Yury Elkin, Vitaliy Kurlin
     
-  
-  . Arxiv
-   2021
-  
-    – <span>4 citations</span>
-  
+    . Arxiv
+     2021
+    
+      – <span>4 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2111.15478" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2111.15478" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=A New Near-linear Time Algorithm For K-nearest Neighbor Search Using A Compressed Cover Tree' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=A New Near-linear Time Algorithm For K-nearest Neighbor Search Using A Compressed Cover Tree' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=A%20New%20Near-linear%20Time%20Algorithm%20For%20K-nearest%20Neighbor%20Search%20Using%20A%20Compressed%20Cover%20Tree" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=A%20New%20Near-linear%20Time%20Algorithm%20For%20K-nearest%20Neighbor%20Search%20Using%20A%20Compressed%20Cover%20Tree" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Tree-based ANN">Tree-based ANN</a></tag>
+      <tag><a href="/tags.html#Tree-based%20ANN">Tree-based ANN</a></tag>
     
   </p>
+
   <p><p>Given a reference set (R) of (n) points and a query set (Q) of (m) points in
 a metric space, this paper studies an important problem of finding (k)-nearest
 neighbors of every point (q \in Q) in the set (R) in a near-linear time. In the
@@ -203,27 +208,24 @@ given sets (R,Q) but not on their sizes.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/elkin2021a.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/elkin2021a.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

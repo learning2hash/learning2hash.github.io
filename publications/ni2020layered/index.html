@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ni2020layered/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Layered Graph Embedding For Entity Recommendation Using Wikipedia In The Yahoo! Knowledge Graph" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"In this paper, we describe an embedding-based entity recommendation framework for Wikipedia that organizes Wikipedia into a collection of graphs layered on top of each other, learns complementary entity representations from their topology and content, and combines them with a lightweight learning-to-rank approach to recommend related entities on Wikipedia. Through offline and online evaluations, we show that the resulting embeddings and recommendations perform well in terms of quality and user engagement. Balancing simplicity and quality, this framework provides default entity recommendations for English and other languages in the Yahoo! Knowledge Graph, which Wikipedia is a core subset of.","headline":"Layered Graph Embedding For Entity Recommendation Using Wikipedia In The Yahoo! Knowledge Graph","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ni2020layered/"},"url":"https://learning2hash.github.io/publications/ni2020layered/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"In this paper, we describe an embedding-based entity recommendation framework for Wikipedia that organizes Wikipedia into a collection of graphs layered on top of each other, learns complementary entity representations from their topology and content, and combines them with a lightweight learning-to-rank approach to recommend related entities on Wikipedia. Through offline and online evaluations, we show that the resulting embeddings and recommendations perform well in terms of quality and user engagement. Balancing simplicity and quality, this framework provides default entity recommendations for English and other languages in the Yahoo! Knowledge Graph, which Wikipedia is a core subset of.","headline":"Layered Graph Embedding For Entity Recommendation Using Wikipedia In The Yahoo! Knowledge Graph","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ni2020layered/"},"url":"https://learning2hash.github.io/publications/ni2020layered/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,31 +164,36 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Layered Graph Embedding For Entity Recommendation Using Wikipedia In The Yahoo! Knowledge Graph</h1>
+
   <h5>
-  
     
       Chien-Chun Ni, Kin Sum Liu, Nicolas Torzec
     
-  
-  . Companion Proceedings of the Web Conference 2020
-   2020
-  
-    – <span>27 citations</span>
-  
+    . Companion Proceedings of the Web Conference 2020
+     2020
+    
+      – <span>27 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2004.06842" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2004.06842" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Layered Graph Embedding For Entity Recommendation Using Wikipedia In The Yahoo! Knowledge Graph' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Layered Graph Embedding For Entity Recommendation Using Wikipedia In The Yahoo! Knowledge Graph' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Layered%20Graph%20Embedding%20For%20Entity%20Recommendation%20Using%20Wikipedia%20In%20The%20Yahoo!%20Knowledge%20Graph" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Layered%20Graph%20Embedding%20For%20Entity%20Recommendation%20Using%20Wikipedia%20In%20The%20Yahoo!%20Knowledge%20Graph" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Recommender Systems">Recommender Systems</a></tag>
+      <tag><a href="/tags.html#Recommender%20Systems">Recommender Systems</a></tag>
     
-      <tag><a href="/tags.html#Tools & Libraries">Tools & Libraries</a></tag>
+      <tag><a href="/tags.html#Tools%20&%20Libraries">Tools & Libraries</a></tag>
     
   </p>
+
   <p><p>In this paper, we describe an embedding-based entity recommendation framework
 for Wikipedia that organizes Wikipedia into a collection of graphs layered on
 top of each other, learns complementary entity representations from their
@@ -201,27 +206,24 @@ languages in the Yahoo! Knowledge Graph, which Wikipedia is a core subset of.</p
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/ni2020layered.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/ni2020layered.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

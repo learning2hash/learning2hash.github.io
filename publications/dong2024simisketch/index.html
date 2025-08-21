@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dong2024simisketch/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Simisketch: Efficiently Estimating Similarity Of Streaming Multisets" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"The challenge of estimating similarity between sets has been a significant concern in data science, finding diverse applications across various domains. However, previous approaches, such as MinHash, have predominantly centered around hashing techniques, which are well-suited for sets but less naturally adaptable to multisets, a common occurrence in scenarios like network streams and text data. Moreover, with the increasing prevalence of data arriving in streaming patterns, many existing methods struggle to handle cases where set items are presented in a continuous stream. Consequently, our focus in this paper is on the challenging scenario of multisets with item streams. To address this, we propose SimiSketch, a sketching algorithm designed to tackle this specific problem. The paper begins by presenting two simpler versions that employ intuitive sketches for similarity estimation. Subsequently, we formally introduce SimiSketch and leverage SALSA to enhance accuracy. To validate our algorithms, we conduct extensive testing on synthetic datasets, real-world network traffic, and text articles. Our experiment shows that compared with the state-of-the-art, SimiSketch can improve the accuracy by up to 42 times, and increase the throughput by up to 360 times. The complete source code is open-sourced and available on GitHub for reference.","headline":"Simisketch: Efficiently Estimating Similarity Of Streaming Multisets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2024simisketch/"},"url":"https://learning2hash.github.io/publications/dong2024simisketch/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"The challenge of estimating similarity between sets has been a significant concern in data science, finding diverse applications across various domains. However, previous approaches, such as MinHash, have predominantly centered around hashing techniques, which are well-suited for sets but less naturally adaptable to multisets, a common occurrence in scenarios like network streams and text data. Moreover, with the increasing prevalence of data arriving in streaming patterns, many existing methods struggle to handle cases where set items are presented in a continuous stream. Consequently, our focus in this paper is on the challenging scenario of multisets with item streams. To address this, we propose SimiSketch, a sketching algorithm designed to tackle this specific problem. The paper begins by presenting two simpler versions that employ intuitive sketches for similarity estimation. Subsequently, we formally introduce SimiSketch and leverage SALSA to enhance accuracy. To validate our algorithms, we conduct extensive testing on synthetic datasets, real-world network traffic, and text articles. Our experiment shows that compared with the state-of-the-art, SimiSketch can improve the accuracy by up to 42 times, and increase the throughput by up to 360 times. The complete source code is open-sourced and available on GitHub for reference.","headline":"Simisketch: Efficiently Estimating Similarity Of Streaming Multisets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2024simisketch/"},"url":"https://learning2hash.github.io/publications/dong2024simisketch/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Simisketch: Efficiently Estimating Similarity Of Streaming Multisets</h1>
+
   <h5>
-  
     
-      Fenghao Dong, Yang He, Yutong Liang, Zirui Liu, Yuhan Wu, Peiqing Chen, Tong Yang
+      Dong et al.
     
-  
-  . Arxiv
-   2024
-  
-    – <span>0 citations</span>
-  
+    . Arxiv
+     2024
+    
+      – <span>0 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2405.19711" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2405.19711" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Simisketch: Efficiently Estimating Similarity Of Streaming Multisets' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Simisketch: Efficiently Estimating Similarity Of Streaming Multisets' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Simisketch:%20Efficiently%20Estimating%20Similarity%20Of%20Streaming%20Multisets" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Simisketch:%20Efficiently%20Estimating%20Similarity%20Of%20Streaming%20Multisets" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Locality Sensitive Hashing">Locality Sensitive Hashing</a></tag>
+      <tag><a href="/tags.html#Locality%20Sensitive%20Hashing">Locality Sensitive Hashing</a></tag>
     
-      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
+      <tag><a href="/tags.html#Hashing%20Methods">Hashing Methods</a></tag>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
   </p>
+
   <p><p>The challenge of estimating similarity between sets has been a significant
 concern in data science, finding diverse applications across various domains.
 However, previous approaches, such as MinHash, have predominantly centered
@@ -212,27 +217,24 @@ open-sourced and available on GitHub for reference.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/dong2024simisketch.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/dong2024simisketch.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

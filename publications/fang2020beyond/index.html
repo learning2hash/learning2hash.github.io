@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/fang2020beyond/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Beyond Lexical: A Semantic Retrieval Framework For Textual Searchengine" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Search engine has become a fundamental component in various web and mobile applications. Retrieving relevant documents from the massive datasets is challenging for a search engine system, especially when faced with verbose or tail queries. In this paper, we explore a vector space search framework for document retrieval. Specifically, we trained a deep semantic matching model so that each query and document can be encoded as a low dimensional embedding. Our model was trained based on BERT architecture. We deployed a fast k-nearest-neighbor index service for online serving. Both offline and online metrics demonstrate that our method improved retrieval performance and search quality considerably, particularly for tail","headline":"Beyond Lexical: A Semantic Retrieval Framework For Textual Searchengine","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fang2020beyond/"},"url":"https://learning2hash.github.io/publications/fang2020beyond/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Search engine has become a fundamental component in various web and mobile applications. Retrieving relevant documents from the massive datasets is challenging for a search engine system, especially when faced with verbose or tail queries. In this paper, we explore a vector space search framework for document retrieval. Specifically, we trained a deep semantic matching model so that each query and document can be encoded as a low dimensional embedding. Our model was trained based on BERT architecture. We deployed a fast k-nearest-neighbor index service for online serving. Both offline and online metrics demonstrate that our method improved retrieval performance and search quality considerably, particularly for tail","headline":"Beyond Lexical: A Semantic Retrieval Framework For Textual Searchengine","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fang2020beyond/"},"url":"https://learning2hash.github.io/publications/fang2020beyond/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,35 +164,40 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Beyond Lexical: A Semantic Retrieval Framework For Textual Searchengine</h1>
+
   <h5>
-  
     
-      Kuan Fang, Long Zhao, Zhan Shen, Ruixing Wang, Rikang Zhour, Liwen Fan
+      Fang et al.
     
-  
-  . Arxiv
-   2020
-  
-    – <span>1 citation</span>
-  
+    . Arxiv
+     2020
+    
+      – <span>1 citation</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2008.03917" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2008.03917" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Beyond Lexical: A Semantic Retrieval Framework For Textual Searchengine' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Beyond Lexical: A Semantic Retrieval Framework For Textual Searchengine' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Beyond%20Lexical:%20A%20Semantic%20Retrieval%20Framework%20For%20Textual%20Searchengine" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Beyond%20Lexical:%20A%20Semantic%20Retrieval%20Framework%20For%20Textual%20Searchengine" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Text Retrieval">Text Retrieval</a></tag>
+      <tag><a href="/tags.html#Text%20Retrieval">Text Retrieval</a></tag>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Tools & Libraries">Tools & Libraries</a></tag>
+      <tag><a href="/tags.html#Tools%20&%20Libraries">Tools & Libraries</a></tag>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
   </p>
+
   <p><p>Search engine has become a fundamental component in various web and mobile
 applications. Retrieving relevant documents from the massive datasets is
 challenging for a search engine system, especially when faced with verbose or
@@ -206,27 +211,24 @@ quality considerably, particularly for tail</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/fang2020beyond.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/fang2020beyond.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

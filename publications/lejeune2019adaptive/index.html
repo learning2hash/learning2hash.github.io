@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lejeune2019adaptive/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Adaptive Estimation For Approximate K-nearest-neighbor Computations" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Algorithms often carry out equally many computations for “easy” and “hard” problem instances. In particular, algorithms for finding nearest neighbors typically have the same running time regardless of the particular problem instance. In this paper, we consider the approximate k-nearest-neighbor problem, which is the problem of finding a subset of O(k) points in a given set of points that contains the set of k nearest neighbors of a given query point. We propose an algorithm based on adaptively estimating the distances, and show that it is essentially optimal out of algorithms that are only allowed to adaptively estimate distances. We then demonstrate both theoretically and experimentally that the algorithm can achieve significant speedups relative to the naive method.","headline":"Adaptive Estimation For Approximate K-nearest-neighbor Computations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lejeune2019adaptive/"},"url":"https://learning2hash.github.io/publications/lejeune2019adaptive/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Algorithms often carry out equally many computations for “easy” and “hard” problem instances. In particular, algorithms for finding nearest neighbors typically have the same running time regardless of the particular problem instance. In this paper, we consider the approximate k-nearest-neighbor problem, which is the problem of finding a subset of O(k) points in a given set of points that contains the set of k nearest neighbors of a given query point. We propose an algorithm based on adaptively estimating the distances, and show that it is essentially optimal out of algorithms that are only allowed to adaptively estimate distances. We then demonstrate both theoretically and experimentally that the algorithm can achieve significant speedups relative to the naive method.","headline":"Adaptive Estimation For Approximate K-nearest-neighbor Computations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lejeune2019adaptive/"},"url":"https://learning2hash.github.io/publications/lejeune2019adaptive/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Adaptive Estimation For Approximate K-nearest-neighbor Computations</h1>
+
   <h5>
-  
     
       Daniel Lejeune, Richard G. Baraniuk, Reinhard Heckel
     
-  
-  . Proceedings of Machine Learning Research 89 (2019)3099-3107
-   2019
-  
-    – <span>8 citations</span>
-  
+    . Proceedings of Machine Learning Research 89 (2019)3099-3107
+     2019
+    
+      – <span>8 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1902.09465" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1902.09465" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Adaptive Estimation For Approximate K-nearest-neighbor Computations' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Adaptive Estimation For Approximate K-nearest-neighbor Computations' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Adaptive%20Estimation%20For%20Approximate%20K-nearest-neighbor%20Computations" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Adaptive%20Estimation%20For%20Approximate%20K-nearest-neighbor%20Computations" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Uncategorized">Uncategorized</a></tag>
     
   </p>
+
   <p><p>Algorithms often carry out equally many computations for “easy” and “hard”
 problem instances. In particular, algorithms for finding nearest neighbors
 typically have the same running time regardless of the particular problem
@@ -201,27 +206,24 @@ the naive method.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/lejeune2019adaptive.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/lejeune2019adaptive.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kim2023expand/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Expand-and-quantize: Unsupervised Semantic Segmentation Using High-dimensional Space And Product Quantization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Unsupervised semantic segmentation (USS) aims to discover and recognize meaningful categories without any labels. For a successful USS, two key abilities are required: 1) information compression and 2) clustering capability. Previous methods have relied on feature dimension reduction for information compression, however, this approach may hinder the process of clustering. In this paper, we propose a novel USS framework called Expand-and-Quantize Unsupervised Semantic Segmentation (EQUSS), which combines the benefits of high-dimensional spaces for better clustering and product quantization for effective information compression. Our extensive experiments demonstrate that EQUSS achieves state-of-the-art results on three standard benchmarks. In addition, we analyze the entropy of USS features, which is the first step towards understanding USS from the perspective of information theory.","headline":"Expand-and-quantize: Unsupervised Semantic Segmentation Using High-dimensional Space And Product Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kim2023expand/"},"url":"https://learning2hash.github.io/publications/kim2023expand/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Unsupervised semantic segmentation (USS) aims to discover and recognize meaningful categories without any labels. For a successful USS, two key abilities are required: 1) information compression and 2) clustering capability. Previous methods have relied on feature dimension reduction for information compression, however, this approach may hinder the process of clustering. In this paper, we propose a novel USS framework called Expand-and-Quantize Unsupervised Semantic Segmentation (EQUSS), which combines the benefits of high-dimensional spaces for better clustering and product quantization for effective information compression. Our extensive experiments demonstrate that EQUSS achieves state-of-the-art results on three standard benchmarks. In addition, we analyze the entropy of USS features, which is the first step towards understanding USS from the perspective of information theory.","headline":"Expand-and-quantize: Unsupervised Semantic Segmentation Using High-dimensional Space And Product Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kim2023expand/"},"url":"https://learning2hash.github.io/publications/kim2023expand/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,35 +164,40 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Expand-and-quantize: Unsupervised Semantic Segmentation Using High-dimensional Space And Product Quantization</h1>
+
   <h5>
-  
     
-      Jiyoung Kim, Kyuhong Shim, Insu Lee, Byonghyo Shim
+      Kim et al.
     
-  
-  . Proceedings of the AAAI Conference on Artificial Intelligence
-   2024
-  
-    – <span>2 citations</span>
-  
+    . Proceedings of the AAAI Conference on Artificial Intelligence
+     2024
+    
+      – <span>2 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2312.07342" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2312.07342" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Expand-and-quantize: Unsupervised Semantic Segmentation Using High-dimensional Space And Product Quantization' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Expand-and-quantize: Unsupervised Semantic Segmentation Using High-dimensional Space And Product Quantization' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Expand-and-quantize:%20Unsupervised%20Semantic%20Segmentation%20Using%20High-dimensional%20Space%20And%20Product%20Quantization" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Expand-and-quantize:%20Unsupervised%20Semantic%20Segmentation%20Using%20High-dimensional%20Space%20And%20Product%20Quantization" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Quantization">Quantization</a></tag>
     
       <tag><a href="/tags.html#AAAI">AAAI</a></tag>
     
-      <tag><a href="/tags.html#Tools & Libraries">Tools & Libraries</a></tag>
+      <tag><a href="/tags.html#Tools%20&%20Libraries">Tools & Libraries</a></tag>
     
       <tag><a href="/tags.html#Unsupervised">Unsupervised</a></tag>
     
   </p>
+
   <p><p>Unsupervised semantic segmentation (USS) aims to discover and recognize
 meaningful categories without any labels. For a successful USS, two key
 abilities are required: 1) information compression and 2) clustering
@@ -209,27 +214,24 @@ theory.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/kim2023expand.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/kim2023expand.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

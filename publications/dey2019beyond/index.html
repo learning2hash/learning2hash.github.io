@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dey2019beyond/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Beyond Visual Semantics: Exploring The Role Of Scene Text In Image Understanding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Images with visual and scene text content are ubiquitous in everyday life. However, current image interpretation systems are mostly limited to using only the visual features, neglecting to leverage the scene text content. In this paper, we propose to jointly use scene text and visual channels for robust semantic interpretation of images. We do not only extract and encode visual and scene text cues, but also model their interplay to generate a contextual joint embedding with richer semantics. The contextual embedding thus generated is applied to retrieval and classification tasks on multimedia images, with scene text content, to demonstrate its effectiveness. In the retrieval framework, we augment our learned text-visual semantic representation with scene text cues, to mitigate vocabulary misses that may have occurred during the semantic embedding. To deal with irrelevant or erroneous recognition of scene text, we also apply query-based attention to our text channel. We show how the multi-channel approach, involving visual semantics and scene text, improves upon state of the art.","headline":"Beyond Visual Semantics: Exploring The Role Of Scene Text In Image Understanding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dey2019beyond/"},"url":"https://learning2hash.github.io/publications/dey2019beyond/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Images with visual and scene text content are ubiquitous in everyday life. However, current image interpretation systems are mostly limited to using only the visual features, neglecting to leverage the scene text content. In this paper, we propose to jointly use scene text and visual channels for robust semantic interpretation of images. We do not only extract and encode visual and scene text cues, but also model their interplay to generate a contextual joint embedding with richer semantics. The contextual embedding thus generated is applied to retrieval and classification tasks on multimedia images, with scene text content, to demonstrate its effectiveness. In the retrieval framework, we augment our learned text-visual semantic representation with scene text cues, to mitigate vocabulary misses that may have occurred during the semantic embedding. To deal with irrelevant or erroneous recognition of scene text, we also apply query-based attention to our text channel. We show how the multi-channel approach, involving visual semantics and scene text, improves upon state of the art.","headline":"Beyond Visual Semantics: Exploring The Role Of Scene Text In Image Understanding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dey2019beyond/"},"url":"https://learning2hash.github.io/publications/dey2019beyond/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Beyond Visual Semantics: Exploring The Role Of Scene Text In Image Understanding</h1>
+
   <h5>
-  
     
-      Arka Ujjal Dey, Suman Kumar Ghosh, Ernest Valveny, Gaurav Harit
+      Dey et al.
     
-  
-  . Pattern Recognition Letters
-   2021
-  
-    – <span>23 citations</span>
-  
+    . Pattern Recognition Letters
+     2021
+    
+      – <span>23 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1905.10622" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1905.10622" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Beyond Visual Semantics: Exploring The Role Of Scene Text In Image Understanding' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Beyond Visual Semantics: Exploring The Role Of Scene Text In Image Understanding' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Beyond%20Visual%20Semantics:%20Exploring%20The%20Role%20Of%20Scene%20Text%20In%20Image%20Understanding" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Beyond%20Visual%20Semantics:%20Exploring%20The%20Role%20Of%20Scene%20Text%20In%20Image%20Understanding" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Tools & Libraries">Tools & Libraries</a></tag>
+      <tag><a href="/tags.html#Tools%20&%20Libraries">Tools & Libraries</a></tag>
     
   </p>
+
   <p><p>Images with visual and scene text content are ubiquitous in everyday life.
 However, current image interpretation systems are mostly limited to using only
 the visual features, neglecting to leverage the scene text content. In this
@@ -205,27 +210,24 @@ upon state of the art.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/dey2019beyond.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/dey2019beyond.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

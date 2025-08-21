@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/huang2024unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unsupervised Multilingual Dense Retrieval Via Generative Pseudo Labeling" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Dense retrieval methods have demonstrated promising performance in multilingual information retrieval, where queries and documents can be in different languages. However, dense retrievers typically require a substantial amount of paired data, which poses even greater challenges in multilingual scenarios. This paper introduces UMR, an Unsupervised Multilingual dense Retriever trained without any paired data. Our approach leverages the sequence likelihood estimation capabilities of multilingual language models to acquire pseudo labels for training dense retrievers. We propose a two-stage framework which iteratively improves the performance of multilingual dense retrievers. Experimental results on two benchmark datasets show that UMR outperforms supervised baselines, showcasing the potential of training multilingual retrievers without paired data, thereby enhancing their practicality. Our source code, data, and models are publicly available at https://github.com/MiuLab/UMR","headline":"Unsupervised Multilingual Dense Retrieval Via Generative Pseudo Labeling","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/huang2024unsupervised/"},"url":"https://learning2hash.github.io/publications/huang2024unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Dense retrieval methods have demonstrated promising performance in multilingual information retrieval, where queries and documents can be in different languages. However, dense retrievers typically require a substantial amount of paired data, which poses even greater challenges in multilingual scenarios. This paper introduces UMR, an Unsupervised Multilingual dense Retriever trained without any paired data. Our approach leverages the sequence likelihood estimation capabilities of multilingual language models to acquire pseudo labels for training dense retrievers. We propose a two-stage framework which iteratively improves the performance of multilingual dense retrievers. Experimental results on two benchmark datasets show that UMR outperforms supervised baselines, showcasing the potential of training multilingual retrievers without paired data, thereby enhancing their practicality. Our source code, data, and models are publicly available at https://github.com/MiuLab/UMR","headline":"Unsupervised Multilingual Dense Retrieval Via Generative Pseudo Labeling","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/huang2024unsupervised/"},"url":"https://learning2hash.github.io/publications/huang2024unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,26 +164,30 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Unsupervised Multilingual Dense Retrieval Via Generative Pseudo Labeling</h1>
+
   <h5>
-  
     
-      Chao-Wei Huang, Chen-An Li, Tsu-Yuan Hsu, Chen-Yu Hsu, Yun-Nung Chen
+      Huang et al.
     
-  
-  . Arxiv
-   2024
-  
-    – <span>1 citation</span>
-  
+    . Arxiv
+     2024
+    
+      – <span>1 citation</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://github.com/MiuLab/UMR" target="_blank">Code</a>]
+      [<a href="https://github.com/MiuLab/UMR" target="_blank" rel="noopener noreferrer">Code</a>]
     
-      [<a href="https://arxiv.org/abs/2403.03516" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2403.03516" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Unsupervised Multilingual Dense Retrieval Via Generative Pseudo Labeling' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Unsupervised Multilingual Dense Retrieval Via Generative Pseudo Labeling' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Unsupervised%20Multilingual%20Dense%20Retrieval%20Via%20Generative%20Pseudo%20Labeling" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Unsupervised%20Multilingual%20Dense%20Retrieval%20Via%20Generative%20Pseudo%20Labeling" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
@@ -194,9 +198,10 @@ document.addEventListener('DOMContentLoaded', function () {
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Tools & Libraries">Tools & Libraries</a></tag>
+      <tag><a href="/tags.html#Tools%20&%20Libraries">Tools & Libraries</a></tag>
     
   </p>
+
   <p><p>Dense retrieval methods have demonstrated promising performance in
 multilingual information retrieval, where queries and documents can be in
 different languages. However, dense retrievers typically require a substantial
@@ -214,27 +219,24 @@ https://github.com/MiuLab/UMR</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/huang2024unsupervised.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/huang2024unsupervised.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

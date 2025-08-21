@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/gu2018unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"In social media like Twitter, hashtags carry a lot of semantic information and can be easily distinguished from the main text. Exploring and visualizing the space of hashtags in a meaningful way can offer important insights into a dataset, especially in crisis situations. In this demonstration paper, we present a functioning prototype, HashViz, that ingests a corpus of tweets collected in the aftermath of a crisis situation (such as the Las Vegas shootings) and uses the fastText bag-of-tricks semantic embedding algorithm (from Facebook Research) to embed words and hashtags into a vector space. Hashtag vectors obtained in this way can be visualized using the t-SNE dimensionality reduction algorithm in 2D. Although multiple Twitter visualization platforms exist, HashViz is distinguished by being simple, scalable, interactive and portable enough to be deployed on a server for million-tweet corpora collected in the aftermath of arbitrary disasters, without special-purpose installation, technical expertise, manual supervision or costly software or infrastructure investment. Although simple, we show that HashViz offers an intuitive way to summarize, and gain insight into, a developing crisis situation. HashViz is also completely unsupervised, requiring no manual inputs to go from a raw corpus to a visualization and search interface. Using the recent Las Vegas mass shooting massacre as a case study, we illustrate the potential of HashViz using only a web browser on the client side.","headline":"Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gu2018unsupervised/"},"url":"https://learning2hash.github.io/publications/gu2018unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"In social media like Twitter, hashtags carry a lot of semantic information and can be easily distinguished from the main text. Exploring and visualizing the space of hashtags in a meaningful way can offer important insights into a dataset, especially in crisis situations. In this demonstration paper, we present a functioning prototype, HashViz, that ingests a corpus of tweets collected in the aftermath of a crisis situation (such as the Las Vegas shootings) and uses the fastText bag-of-tricks semantic embedding algorithm (from Facebook Research) to embed words and hashtags into a vector space. Hashtag vectors obtained in this way can be visualized using the t-SNE dimensionality reduction algorithm in 2D. Although multiple Twitter visualization platforms exist, HashViz is distinguished by being simple, scalable, interactive and portable enough to be deployed on a server for million-tweet corpora collected in the aftermath of arbitrary disasters, without special-purpose installation, technical expertise, manual supervision or costly software or infrastructure investment. Although simple, we show that HashViz offers an intuitive way to summarize, and gain insight into, a developing crisis situation. HashViz is also completely unsupervised, requiring no manual inputs to go from a raw corpus to a visualization and search interface. Using the recent Las Vegas mass shooting massacre as a case study, we illustrate the potential of HashViz using only a web browser on the client side.","headline":"Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gu2018unsupervised/"},"url":"https://learning2hash.github.io/publications/gu2018unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,24 +164,28 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics</h1>
+
   <h5>
-  
     
       Yao Gu, Mayank Kejriwal
     
-  
-  . Arxiv
-   2018
-  
-    – <span>1 citation</span>
-  
+    . Arxiv
+     2018
+    
+      – <span>1 citation</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1801.05906" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1801.05906" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Unsupervised%20Hashtag%20Retrieval%20And%20Visualization%20For%20Crisis%20Informatics" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Unsupervised%20Hashtag%20Retrieval%20And%20Visualization%20For%20Crisis%20Informatics" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
@@ -189,6 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#Unsupervised">Unsupervised</a></tag>
     
   </p>
+
   <p><p>In social media like Twitter, hashtags carry a lot of semantic information
 and can be easily distinguished from the main text. Exploring and visualizing
 the space of hashtags in a meaningful way can offer important insights into a
@@ -213,27 +218,24 @@ side.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/gu2018unsupervised.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/gu2018unsupervised.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

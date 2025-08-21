@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/teofili2019lucene/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Lucene For Approximate Nearest-neighbors Search On Arbitrary Dense Vectors" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"We demonstrate three approaches for adapting the open-source Lucene search library to perform approximate nearest-neighbor search on arbitrary dense vectors, using similarity search on word embeddings as a case study. At its core, Lucene is built around inverted indexes of a document collection’s (sparse) term-document matrix, which is incompatible with the lower-dimensional dense vectors that are common in deep learning applications. We evaluate three techniques to overcome these challenges that can all be natively integrated into Lucene: the creation of documents populated with fake words, LSH applied to lexical realizations of dense vectors, and k-d trees coupled with dimensionality reduction. Experiments show that the “fake words” approach represents the best balance between effectiveness and efficiency. These techniques are integrated into the Anserini open-source toolkit and made available to the community.","headline":"Lucene For Approximate Nearest-neighbors Search On Arbitrary Dense Vectors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/teofili2019lucene/"},"url":"https://learning2hash.github.io/publications/teofili2019lucene/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"We demonstrate three approaches for adapting the open-source Lucene search library to perform approximate nearest-neighbor search on arbitrary dense vectors, using similarity search on word embeddings as a case study. At its core, Lucene is built around inverted indexes of a document collection’s (sparse) term-document matrix, which is incompatible with the lower-dimensional dense vectors that are common in deep learning applications. We evaluate three techniques to overcome these challenges that can all be natively integrated into Lucene: the creation of documents populated with fake words, LSH applied to lexical realizations of dense vectors, and k-d trees coupled with dimensionality reduction. Experiments show that the “fake words” approach represents the best balance between effectiveness and efficiency. These techniques are integrated into the Anserini open-source toolkit and made available to the community.","headline":"Lucene For Approximate Nearest-neighbors Search On Arbitrary Dense Vectors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/teofili2019lucene/"},"url":"https://learning2hash.github.io/publications/teofili2019lucene/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,39 +164,44 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Lucene For Approximate Nearest-neighbors Search On Arbitrary Dense Vectors</h1>
+
   <h5>
-  
     
       Tommaso Teofili, Jimmy Lin
     
-  
-  . Arxiv
-   2019
-  
-    – <span>3 citations</span>
-  
+    . Arxiv
+     2019
+    
+      – <span>3 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1910.10208" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1910.10208" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Lucene For Approximate Nearest-neighbors Search On Arbitrary Dense Vectors' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Lucene For Approximate Nearest-neighbors Search On Arbitrary Dense Vectors' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Lucene%20For%20Approximate%20Nearest-neighbors%20Search%20On%20Arbitrary%20Dense%20Vectors" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Lucene%20For%20Approximate%20Nearest-neighbors%20Search%20On%20Arbitrary%20Dense%20Vectors" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Efficiency">Efficiency</a></tag>
     
-      <tag><a href="/tags.html#Tree-based ANN">Tree-based ANN</a></tag>
+      <tag><a href="/tags.html#Tree-based%20ANN">Tree-based ANN</a></tag>
     
-      <tag><a href="/tags.html#Locality Sensitive Hashing">Locality Sensitive Hashing</a></tag>
+      <tag><a href="/tags.html#Locality%20Sensitive%20Hashing">Locality Sensitive Hashing</a></tag>
     
-      <tag><a href="/tags.html#Tools & Libraries">Tools & Libraries</a></tag>
+      <tag><a href="/tags.html#Tools%20&%20Libraries">Tools & Libraries</a></tag>
     
-      <tag><a href="/tags.html#Similarity Search">Similarity Search</a></tag>
+      <tag><a href="/tags.html#Similarity%20Search">Similarity Search</a></tag>
     
-      <tag><a href="/tags.html#Neural Hashing">Neural Hashing</a></tag>
+      <tag><a href="/tags.html#Neural%20Hashing">Neural Hashing</a></tag>
     
   </p>
+
   <p><p>We demonstrate three approaches for adapting the open-source Lucene search
 library to perform approximate nearest-neighbor search on arbitrary dense
 vectors, using similarity search on word embeddings as a case study. At its
@@ -213,27 +218,24 @@ available to the community.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/teofili2019lucene.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/teofili2019lucene.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zvedeniouk2010angle/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Angle Tree: Nearest Neighbor Search In High Dimensions With Low Intrinsic Dimensionality" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"We propose an extension of tree-based space-partitioning indexing structures for data with low intrinsic dimensionality embedded in a high dimensional space. We call this extension an Angle Tree. Our extension can be applied to both classical kd-trees as well as the more recent rp-trees. The key idea of our approach is to store the angle (the “dihedral angle”) between the data region (which is a low dimensional manifold) and the random hyperplane that splits the region (the “splitter”). We show that the dihedral angle can be used to obtain a tight lower bound on the distance between the query point and any point on the opposite side of the splitter. This in turn can be used to efficiently prune the search space. We introduce a novel randomized strategy to efficiently calculate the dihedral angle with a high degree of accuracy. Experiments and analysis on real and synthetic data sets shows that the Angle Tree is the most efficient known indexing structure for nearest neighbor queries in terms of preprocessing and space usage while achieving high accuracy and fast search time.","headline":"Angle Tree: Nearest Neighbor Search In High Dimensions With Low Intrinsic Dimensionality","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zvedeniouk2010angle/"},"url":"https://learning2hash.github.io/publications/zvedeniouk2010angle/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"We propose an extension of tree-based space-partitioning indexing structures for data with low intrinsic dimensionality embedded in a high dimensional space. We call this extension an Angle Tree. Our extension can be applied to both classical kd-trees as well as the more recent rp-trees. The key idea of our approach is to store the angle (the “dihedral angle”) between the data region (which is a low dimensional manifold) and the random hyperplane that splits the region (the “splitter”). We show that the dihedral angle can be used to obtain a tight lower bound on the distance between the query point and any point on the opposite side of the splitter. This in turn can be used to efficiently prune the search space. We introduce a novel randomized strategy to efficiently calculate the dihedral angle with a high degree of accuracy. Experiments and analysis on real and synthetic data sets shows that the Angle Tree is the most efficient known indexing structure for nearest neighbor queries in terms of preprocessing and space usage while achieving high accuracy and fast search time.","headline":"Angle Tree: Nearest Neighbor Search In High Dimensions With Low Intrinsic Dimensionality","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zvedeniouk2010angle/"},"url":"https://learning2hash.github.io/publications/zvedeniouk2010angle/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Angle Tree: Nearest Neighbor Search In High Dimensions With Low Intrinsic Dimensionality</h1>
+
   <h5>
-  
     
       Ilia Zvedeniouk, Sanjay Chawla
     
-  
-  . Arxiv
-   2010
-  
-    – <span>0 citations</span>
-  
+    . Arxiv
+     2010
+    
+      – <span>0 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1003.5474" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1003.5474" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Angle Tree: Nearest Neighbor Search In High Dimensions With Low Intrinsic Dimensionality' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Angle Tree: Nearest Neighbor Search In High Dimensions With Low Intrinsic Dimensionality' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Angle%20Tree:%20Nearest%20Neighbor%20Search%20In%20High%20Dimensions%20With%20Low%20Intrinsic%20Dimensionality" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Angle%20Tree:%20Nearest%20Neighbor%20Search%20In%20High%20Dimensions%20With%20Low%20Intrinsic%20Dimensionality" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Tree-based ANN">Tree-based ANN</a></tag>
+      <tag><a href="/tags.html#Tree-based%20ANN">Tree-based ANN</a></tag>
     
   </p>
+
   <p><p>We propose an extension of tree-based space-partitioning indexing structures
 for data with low intrinsic dimensionality embedded in a high dimensional
 space. We call this extension an Angle Tree. Our extension can be applied to
@@ -205,27 +210,24 @@ and fast search time.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/zvedeniouk2010angle.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/zvedeniouk2010angle.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/raven2024self/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Self-supervised Vision Transformers For Writer Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"While methods based on Vision Transformers (ViT) have achieved state-of-the-art performance in many domains, they have not yet been applied successfully in the domain of writer retrieval. The field is dominated by methods using handcrafted features or features extracted from Convolutional Neural Networks. In this work, we bridge this gap and present a novel method that extracts features from a ViT and aggregates them using VLAD encoding. The model is trained in a self-supervised fashion without any need for labels. We show that extracting local foreground features is superior to using the ViT’s class token in the context of writer retrieval. We evaluate our method on two historical document collections. We set a new state-at-of-art performance on the Historical-WI dataset (83.1% mAP), and the HisIR19 dataset (95.0% mAP). Additionally, we demonstrate that our ViT feature extractor can be directly applied to modern datasets such as the CVL database (98.6% mAP) without any fine-tuning.","headline":"Self-supervised Vision Transformers For Writer Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/raven2024self/"},"url":"https://learning2hash.github.io/publications/raven2024self/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"While methods based on Vision Transformers (ViT) have achieved state-of-the-art performance in many domains, they have not yet been applied successfully in the domain of writer retrieval. The field is dominated by methods using handcrafted features or features extracted from Convolutional Neural Networks. In this work, we bridge this gap and present a novel method that extracts features from a ViT and aggregates them using VLAD encoding. The model is trained in a self-supervised fashion without any need for labels. We show that extracting local foreground features is superior to using the ViT’s class token in the context of writer retrieval. We evaluate our method on two historical document collections. We set a new state-at-of-art performance on the Historical-WI dataset (83.1% mAP), and the HisIR19 dataset (95.0% mAP). Additionally, we demonstrate that our ViT feature extractor can be directly applied to modern datasets such as the CVL database (98.6% mAP) without any fine-tuning.","headline":"Self-supervised Vision Transformers For Writer Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/raven2024self/"},"url":"https://learning2hash.github.io/publications/raven2024self/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,24 +164,28 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Self-supervised Vision Transformers For Writer Retrieval</h1>
+
   <h5>
-  
     
       Tim Raven, Arthur Matei, Gernot A. Fink
     
-  
-  . Lecture Notes in Computer Science
-   2024
-  
-    – <span>1 citation</span>
-  
+    . Lecture Notes in Computer Science
+     2024
+    
+      – <span>1 citation</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2409.00751" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2409.00751" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Self-supervised Vision Transformers For Writer Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Self-supervised Vision Transformers For Writer Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Self-supervised%20Vision%20Transformers%20For%20Writer%20Retrieval" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Self-supervised%20Vision%20Transformers%20For%20Writer%20Retrieval" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
@@ -193,6 +197,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#Self-Supervised">Self-Supervised</a></tag>
     
   </p>
+
   <p><p>While methods based on Vision Transformers (ViT) have achieved
 state-of-the-art performance in many domains, they have not yet been applied
 successfully in the domain of writer retrieval. The field is dominated by
@@ -210,27 +215,24 @@ fine-tuning.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/raven2024self.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/raven2024self.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

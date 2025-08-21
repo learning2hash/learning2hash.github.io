@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2023learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Generalized Hybrid Proximity Representation For Image Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Recently, deep metric learning techniques received attention, as the learned distance representations are useful to capture the similarity relationship among samples and further improve the performance of various of supervised or unsupervised learning tasks. We propose a novel supervised metric learning method that can learn the distance metrics in both geometric and probabilistic space for image recognition. In contrast to the previous metric learning methods which usually focus on learning the distance metrics in Euclidean space, our proposed method is able to learn better distance representation in a hybrid approach. To achieve this, we proposed a Generalized Hybrid Metric Loss (GHM-Loss) to learn the general hybrid proximity features from the image data by controlling the trade-off between geometric proximity and probabilistic proximity. To evaluate the effectiveness of our method, we first provide theoretical derivations and proofs of the proposed loss function, then we perform extensive experiments on two public datasets to show the advantage of our method compared to other state-of-the-art metric learning methods.","headline":"Learning Generalized Hybrid Proximity Representation For Image Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2023learning/"},"url":"https://learning2hash.github.io/publications/li2023learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Recently, deep metric learning techniques received attention, as the learned distance representations are useful to capture the similarity relationship among samples and further improve the performance of various of supervised or unsupervised learning tasks. We propose a novel supervised metric learning method that can learn the distance metrics in both geometric and probabilistic space for image recognition. In contrast to the previous metric learning methods which usually focus on learning the distance metrics in Euclidean space, our proposed method is able to learn better distance representation in a hybrid approach. To achieve this, we proposed a Generalized Hybrid Metric Loss (GHM-Loss) to learn the general hybrid proximity features from the image data by controlling the trade-off between geometric proximity and probabilistic proximity. To evaluate the effectiveness of our method, we first provide theoretical derivations and proofs of the proposed loss function, then we perform extensive experiments on two public datasets to show the advantage of our method compared to other state-of-the-art metric learning methods.","headline":"Learning Generalized Hybrid Proximity Representation For Image Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2023learning/"},"url":"https://learning2hash.github.io/publications/li2023learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,24 +164,28 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Learning Generalized Hybrid Proximity Representation For Image Recognition</h1>
+
   <h5>
-  
     
       Zhiyuan Li, Anca Ralescu
     
-  
-  . 2022 IEEE 34th International Conference on Tools with Artificial Intelligence (ICTAI)
-   2022
-  
-    – <span>3 citations</span>
-  
+    . 2022 IEEE 34th International Conference on Tools with Artificial Intelligence (ICTAI)
+     2022
+    
+      – <span>3 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2301.13459" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2301.13459" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Learning Generalized Hybrid Proximity Representation For Image Recognition' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Learning Generalized Hybrid Proximity Representation For Image Recognition' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Learning%20Generalized%20Hybrid%20Proximity%20Representation%20For%20Image%20Recognition" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Learning%20Generalized%20Hybrid%20Proximity%20Representation%20For%20Image%20Recognition" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
@@ -192,9 +196,10 @@ document.addEventListener('DOMContentLoaded', function () {
     
       <tag><a href="/tags.html#Supervised">Supervised</a></tag>
     
-      <tag><a href="/tags.html#Distance Metric Learning">Distance Metric Learning</a></tag>
+      <tag><a href="/tags.html#Distance%20Metric%20Learning">Distance Metric Learning</a></tag>
     
   </p>
+
   <p><p>Recently, deep metric learning techniques received attention, as the learned
 distance representations are useful to capture the similarity relationship
 among samples and further improve the performance of various of supervised or
@@ -213,27 +218,24 @@ our method compared to other state-of-the-art metric learning methods.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/li2023learning.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/li2023learning.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

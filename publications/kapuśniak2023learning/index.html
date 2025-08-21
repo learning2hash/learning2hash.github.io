@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kapu%C5%9Bniak2023learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Genomic Sequence Representations Using Graph Neural Networks Over De Bruijn Graphs" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"The rapid expansion of genomic sequence data calls for new methods to achieve robust sequence representations. Existing techniques often neglect intricate structural details, emphasizing mainly contextual information. To address this, we developed k-mer embeddings that merge contextual and structural string information by enhancing De Bruijn graphs with structural similarity connections. Subsequently, we crafted a self-supervised method based on Contrastive Learning that employs a heterogeneous Graph Convolutional Network encoder and constructs positive pairs based on node similarities. Our embeddings consistently outperform prior techniques for Edit Distance Approximation and Closest String Retrieval tasks.","headline":"Learning Genomic Sequence Representations Using Graph Neural Networks Over De Bruijn Graphs","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kapu%C5%9Bniak2023learning/"},"url":"https://learning2hash.github.io/publications/kapu%C5%9Bniak2023learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"The rapid expansion of genomic sequence data calls for new methods to achieve robust sequence representations. Existing techniques often neglect intricate structural details, emphasizing mainly contextual information. To address this, we developed k-mer embeddings that merge contextual and structural string information by enhancing De Bruijn graphs with structural similarity connections. Subsequently, we crafted a self-supervised method based on Contrastive Learning that employs a heterogeneous Graph Convolutional Network encoder and constructs positive pairs based on node similarities. Our embeddings consistently outperform prior techniques for Edit Distance Approximation and Closest String Retrieval tasks.","headline":"Learning Genomic Sequence Representations Using Graph Neural Networks Over De Bruijn Graphs","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kapu%C5%9Bniak2023learning/"},"url":"https://learning2hash.github.io/publications/kapu%C5%9Bniak2023learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,24 +164,28 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Learning Genomic Sequence Representations Using Graph Neural Networks Over De Bruijn Graphs</h1>
+
   <h5>
-  
     
-      Kacper Kapuśniak, Manuel Burger, Gunnar Rätsch, Amir Joudaki
+      Kapuśniak et al.
     
-  
-  . Arxiv
-   2023
-  
-    – <span>0 citations</span>
-  
+    . Arxiv
+     2023
+    
+      – <span>0 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2312.03865" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2312.03865" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Learning Genomic Sequence Representations Using Graph Neural Networks Over De Bruijn Graphs' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Learning Genomic Sequence Representations Using Graph Neural Networks Over De Bruijn Graphs' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Learning%20Genomic%20Sequence%20Representations%20Using%20Graph%20Neural%20Networks%20Over%20De%20Bruijn%20Graphs" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Learning%20Genomic%20Sequence%20Representations%20Using%20Graph%20Neural%20Networks%20Over%20De%20Bruijn%20Graphs" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Supervised">Supervised</a></tag>
@@ -189,6 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#Self-Supervised">Self-Supervised</a></tag>
     
   </p>
+
   <p><p>The rapid expansion of genomic sequence data calls for new methods to achieve
 robust sequence representations. Existing techniques often neglect intricate
 structural details, emphasizing mainly contextual information. To address this,
@@ -202,27 +207,24 @@ Approximation and Closest String Retrieval tasks.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/kapuśniak2023learning.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/kapuśniak2023learning.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

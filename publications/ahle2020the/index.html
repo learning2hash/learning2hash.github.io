@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ahle2020the/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The Power Of Hashing With Mersenne Primes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"The classic way of computing a (k)-universal hash function is to use a random degree-((k-1)) polynomial over a prime field (\\mathbb Z_p). For a fast computation of the polynomial, the prime (p) is often chosen as a Mersenne prime (p=2^b-1). In this paper, we show that there are other nice advantages to using Mersenne primes. Our view is that the hash function’s output is a (b)-bit integer that is uniformly distributed in (\\{0, \\dots, 2^b-1\\}), except that (p) (the all \\texttt1s value in binary) is missing. Uniform bit strings have many nice properties, such as splitting into substrings which gives us two or more hash functions for the cost of one, while preserving strong theoretical qualities. We call this trick “Two for one” hashing, and we demonstrate it on 4-universal hashing in the classic Count Sketch algorithm for second-moment estimation. We also provide a new fast branch-free code for division and modulus with Mersenne primes. Contrasting our analytic work, this code generalizes to any Pseudo-Mersenne primes (p=2^b-c) for small (c).","headline":"The Power Of Hashing With Mersenne Primes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ahle2020the/"},"url":"https://learning2hash.github.io/publications/ahle2020the/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"The classic way of computing a (k)-universal hash function is to use a random degree-((k-1)) polynomial over a prime field (\\mathbb Z_p). For a fast computation of the polynomial, the prime (p) is often chosen as a Mersenne prime (p=2^b-1). In this paper, we show that there are other nice advantages to using Mersenne primes. Our view is that the hash function’s output is a (b)-bit integer that is uniformly distributed in (\\{0, \\dots, 2^b-1\\}), except that (p) (the all \\texttt1s value in binary) is missing. Uniform bit strings have many nice properties, such as splitting into substrings which gives us two or more hash functions for the cost of one, while preserving strong theoretical qualities. We call this trick “Two for one” hashing, and we demonstrate it on 4-universal hashing in the classic Count Sketch algorithm for second-moment estimation. We also provide a new fast branch-free code for division and modulus with Mersenne primes. Contrasting our analytic work, this code generalizes to any Pseudo-Mersenne primes (p=2^b-c) for small (c).","headline":"The Power Of Hashing With Mersenne Primes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ahle2020the/"},"url":"https://learning2hash.github.io/publications/ahle2020the/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">The Power Of Hashing With Mersenne Primes</h1>
+
   <h5>
-  
     
       Thomas Dybdahl Ahle, Jakob Tejs Bæk Knudsen, Mikkel Thorup
     
-  
-  . Arxiv
-   2020
-  
-    – <span>0 citations</span>
-  
+    . Arxiv
+     2020
+    
+      – <span>0 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2008.08654" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2008.08654" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=The Power Of Hashing With Mersenne Primes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=The Power Of Hashing With Mersenne Primes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=The%20Power%20Of%20Hashing%20With%20Mersenne%20Primes" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=The%20Power%20Of%20Hashing%20With%20Mersenne%20Primes" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
+      <tag><a href="/tags.html#Hashing%20Methods">Hashing Methods</a></tag>
     
   </p>
+
   <p><p>The classic way of computing a (k)-universal hash function is to use a random
 degree-((k-1)) polynomial over a prime field (\mathbb Z_p). For a fast
 computation of the polynomial, the prime (p) is often chosen as a Mersenne
@@ -205,27 +210,24 @@ Pseudo-Mersenne primes (p=2^b-c) for small (c).</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/ahle2020the.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/ahle2020the.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

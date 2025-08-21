@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/cappelletti2021grape/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="GRAPE For Fast And Scalable Graph Processing And Random Walk-based Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Graph Representation Learning (GRL) methods opened new avenues for addressing complex, real-world problems represented by graphs. However, many graphs used in these applications comprise millions of nodes and billions of edges and are beyond the capabilities of current methods and software implementations. We present GRAPE, a software resource for graph processing and embedding that can scale with big graphs by using specialized and smart data structures, algorithms, and a fast parallel implementation of random walk-based methods. Compared with state-of-the-art software resources, GRAPE shows an improvement of orders of magnitude in empirical space and time complexity, as well as a competitive edge and node label prediction performance. GRAPE comprises about 1.7 million well-documented lines of Python and Rust code and provides 69 node embedding methods, 25 inference models, a collection of efficient graph processing utilities and over 80,000 graphs from the literature and other sources. Standardized interfaces allow seamless integration of third-party libraries, while ready-to-use and modular pipelines permit an easy-to-use evaluation of GRL methods, therefore also positioning GRAPE as a software resource to perform a fair comparison between methods and libraries for graph processing and embedding.","headline":"GRAPE For Fast And Scalable Graph Processing And Random Walk-based Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/cappelletti2021grape/"},"url":"https://learning2hash.github.io/publications/cappelletti2021grape/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Graph Representation Learning (GRL) methods opened new avenues for addressing complex, real-world problems represented by graphs. However, many graphs used in these applications comprise millions of nodes and billions of edges and are beyond the capabilities of current methods and software implementations. We present GRAPE, a software resource for graph processing and embedding that can scale with big graphs by using specialized and smart data structures, algorithms, and a fast parallel implementation of random walk-based methods. Compared with state-of-the-art software resources, GRAPE shows an improvement of orders of magnitude in empirical space and time complexity, as well as a competitive edge and node label prediction performance. GRAPE comprises about 1.7 million well-documented lines of Python and Rust code and provides 69 node embedding methods, 25 inference models, a collection of efficient graph processing utilities and over 80,000 graphs from the literature and other sources. Standardized interfaces allow seamless integration of third-party libraries, while ready-to-use and modular pipelines permit an easy-to-use evaluation of GRL methods, therefore also positioning GRAPE as a software resource to perform a fair comparison between methods and libraries for graph processing and embedding.","headline":"GRAPE For Fast And Scalable Graph Processing And Random Walk-based Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/cappelletti2021grape/"},"url":"https://learning2hash.github.io/publications/cappelletti2021grape/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">GRAPE For Fast And Scalable Graph Processing And Random Walk-based Embedding</h1>
+
   <h5>
-  
     
-      Luca Cappelletti, Tommaso Fontana, Elena Casiraghi, Vida Ravanmehr, Tiffany J. Callahan, Carlos Cano, Marcin P. Joachimiak, Christopher J. Mungall, Peter N. Robinson, Justin Reese, Giorgio Valentini
+      Cappelletti et al.
     
-  
-  . Nature Computational Science
-   2023
-  
-    – <span>22 citations</span>
-  
+    . Nature Computational Science
+     2023
+    
+      – <span>22 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2110.06196" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2110.06196" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=GRAPE For Fast And Scalable Graph Processing And Random Walk-based Embedding' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=GRAPE For Fast And Scalable Graph Processing And Random Walk-based Embedding' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=GRAPE%20For%20Fast%20And%20Scalable%20Graph%20Processing%20And%20Random%20Walk-based%20Embedding" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=GRAPE%20For%20Fast%20And%20Scalable%20Graph%20Processing%20And%20Random%20Walk-based%20Embedding" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
   </p>
+
   <p><p>Graph Representation Learning (GRL) methods opened new avenues for addressing
 complex, real-world problems represented by graphs. However, many graphs used
 in these applications comprise millions of nodes and billions of edges and are
@@ -208,27 +213,24 @@ processing and embedding.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/cappelletti2021grape.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/cappelletti2021grape.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

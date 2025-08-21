@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/pasch2024multilingual/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multilingual De-duplication Strategies: Applying Scalable Similarity Search With Monolingual &amp; Multilingual Embedding Models" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"This paper addresses the deduplication of multilingual textual data using advanced NLP tools. We compare a two-step method involving translation to English followed by embedding with mpnet, and a multilingual embedding model (distiluse). The two-step approach achieved a higher F1 score (82% vs. 60%), particularly with less widely used languages, which can be increased up to 89% by leveraging expert rules based on domain knowledge. We also highlight limitations related to token length constraints and computational efficiency. Our methodology suggests improvements for future multilingual deduplication tasks.","headline":"Multilingual De-duplication Strategies: Applying Scalable Similarity Search With Monolingual &amp; Multilingual Embedding Models","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pasch2024multilingual/"},"url":"https://learning2hash.github.io/publications/pasch2024multilingual/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"This paper addresses the deduplication of multilingual textual data using advanced NLP tools. We compare a two-step method involving translation to English followed by embedding with mpnet, and a multilingual embedding model (distiluse). The two-step approach achieved a higher F1 score (82% vs. 60%), particularly with less widely used languages, which can be increased up to 89% by leveraging expert rules based on domain knowledge. We also highlight limitations related to token length constraints and computational efficiency. Our methodology suggests improvements for future multilingual deduplication tasks.","headline":"Multilingual De-duplication Strategies: Applying Scalable Similarity Search With Monolingual &amp; Multilingual Embedding Models","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pasch2024multilingual/"},"url":"https://learning2hash.github.io/publications/pasch2024multilingual/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Multilingual De-duplication Strategies: Applying Scalable Similarity Search With Monolingual & Multilingual Embedding Models</h1>
+
   <h5>
-  
     
       Stefan Pasch, Dimitirios Petridis, Jannic Cutura
     
-  
-  . Arxiv
-   2024
-  
-    – <span>1 citation</span>
-  
+    . Arxiv
+     2024
+    
+      – <span>1 citation</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2406.13695" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2406.13695" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Multilingual De-duplication Strategies: Applying Scalable Similarity Search With Monolingual & Multilingual Embedding Models' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Multilingual De-duplication Strategies: Applying Scalable Similarity Search With Monolingual & Multilingual Embedding Models' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Multilingual%20De-duplication%20Strategies:%20Applying%20Scalable%20Similarity%20Search%20With%20Monolingual%20&%20Multilingual%20Embedding%20Models" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Multilingual%20De-duplication%20Strategies:%20Applying%20Scalable%20Similarity%20Search%20With%20Monolingual%20&%20Multilingual%20Embedding%20Models" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Efficiency">Efficiency</a></tag>
     
   </p>
+
   <p><p>This paper addresses the deduplication of multilingual textual data using
 advanced NLP tools. We compare a two-step method involving translation to
 English followed by embedding with mpnet, and a multilingual embedding model
@@ -199,27 +204,24 @@ tasks.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/pasch2024multilingual.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/pasch2024multilingual.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

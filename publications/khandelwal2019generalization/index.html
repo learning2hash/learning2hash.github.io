@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/khandelwal2019generalization/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Generalization Through Memorization: Nearest Neighbor Language Models" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"We introduce (k)NN-LMs, which extend a pre-trained neural language model (LM) by linearly interpolating it with a (k)-nearest neighbors ((k)NN) model. The nearest neighbors are computed according to distance in the pre-trained LM embedding space, and can be drawn from any text collection, including the original LM training data. Applying this augmentation to a strong Wikitext-103 LM, with neighbors drawn from the original training set, our (k)NN-LM achieves a new state-of-the-art perplexity of 15.79 - a 2.9 point improvement with no additional training. We also show that this approach has implications for efficiently scaling up to larger training sets and allows for effective domain adaptation, by simply varying the nearest neighbor datastore, again without further training. Qualitatively, the model is particularly helpful in predicting rare patterns, such as factual knowledge. Together, these results strongly suggest that learning similarity between sequences of text is easier than predicting the next word, and that nearest neighbor search is an effective approach for language modeling in the long tail.","headline":"Generalization Through Memorization: Nearest Neighbor Language Models","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/khandelwal2019generalization/"},"url":"https://learning2hash.github.io/publications/khandelwal2019generalization/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"We introduce (k)NN-LMs, which extend a pre-trained neural language model (LM) by linearly interpolating it with a (k)-nearest neighbors ((k)NN) model. The nearest neighbors are computed according to distance in the pre-trained LM embedding space, and can be drawn from any text collection, including the original LM training data. Applying this augmentation to a strong Wikitext-103 LM, with neighbors drawn from the original training set, our (k)NN-LM achieves a new state-of-the-art perplexity of 15.79 - a 2.9 point improvement with no additional training. We also show that this approach has implications for efficiently scaling up to larger training sets and allows for effective domain adaptation, by simply varying the nearest neighbor datastore, again without further training. Qualitatively, the model is particularly helpful in predicting rare patterns, such as factual knowledge. Together, these results strongly suggest that learning similarity between sequences of text is easier than predicting the next word, and that nearest neighbor search is an effective approach for language modeling in the long tail.","headline":"Generalization Through Memorization: Nearest Neighbor Language Models","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/khandelwal2019generalization/"},"url":"https://learning2hash.github.io/publications/khandelwal2019generalization/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Generalization Through Memorization: Nearest Neighbor Language Models</h1>
+
   <h5>
-  
     
-      Urvashi Khandelwal, Omer Levy, Dan Jurafsky, Luke Zettlemoyer, Mike Lewis
+      Khandelwal et al.
     
-  
-  . Arxiv
-   2019
-  
-    – <span>214 citations</span>
-  
+    . Arxiv
+     2019
+    
+      – <span>214 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1911.00172" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1911.00172" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Generalization Through Memorization: Nearest Neighbor Language Models' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Generalization Through Memorization: Nearest Neighbor Language Models' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Generalization%20Through%20Memorization:%20Nearest%20Neighbor%20Language%20Models" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Generalization%20Through%20Memorization:%20Nearest%20Neighbor%20Language%20Models" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Uncategorized">Uncategorized</a></tag>
     
   </p>
+
   <p><p>We introduce (k)NN-LMs, which extend a pre-trained neural language model (LM)
 by linearly interpolating it with a (k)-nearest neighbors ((k)NN) model. The
 nearest neighbors are computed according to distance in the pre-trained LM
@@ -205,27 +210,24 @@ approach for language modeling in the long tail.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/khandelwal2019generalization.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/khandelwal2019generalization.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

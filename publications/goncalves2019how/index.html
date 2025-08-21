@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/goncalves2019how/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="How Big Can Style Be? Addressing High Dimensionality For Recommending With Style" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Using embeddings as representations of products is quite commonplace in recommender systems, either by extracting the semantic embeddings of text descriptions, user sessions, collaborative relationships, or product images. In this paper, we present an approach to extract style embeddings for using in fashion recommender systems, with a special focus on style information such as textures, prints, material, etc. The main issue of using such a type of embeddings is its high dimensionality. So, we propose feature reduction solutions alongside the investigation of its influence in the overall task of recommending products of the same style based on their main image. The feature reduction we propose allows for reducing the embedding vector from 600k features to 512, leading to a memory reduction of 99.91% without critically compromising the quality of the recommendations.","headline":"How Big Can Style Be? Addressing High Dimensionality For Recommending With Style","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/goncalves2019how/"},"url":"https://learning2hash.github.io/publications/goncalves2019how/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Using embeddings as representations of products is quite commonplace in recommender systems, either by extracting the semantic embeddings of text descriptions, user sessions, collaborative relationships, or product images. In this paper, we present an approach to extract style embeddings for using in fashion recommender systems, with a special focus on style information such as textures, prints, material, etc. The main issue of using such a type of embeddings is its high dimensionality. So, we propose feature reduction solutions alongside the investigation of its influence in the overall task of recommending products of the same style based on their main image. The feature reduction we propose allows for reducing the embedding vector from 600k features to 512, leading to a memory reduction of 99.91% without critically compromising the quality of the recommendations.","headline":"How Big Can Style Be? Addressing High Dimensionality For Recommending With Style","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/goncalves2019how/"},"url":"https://learning2hash.github.io/publications/goncalves2019how/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">How Big Can Style Be? Addressing High Dimensionality For Recommending With Style</h1>
+
   <h5>
-  
     
       Diogo Goncalves, Liweu Liu, Ana Magalhães
     
-  
-  . Arxiv
-   2019
-  
-    – <span>2 citations</span>
-  
+    . Arxiv
+     2019
+    
+      – <span>2 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1908.10642" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1908.10642" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=How Big Can Style Be? Addressing High Dimensionality For Recommending With Style' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=How Big Can Style Be? Addressing High Dimensionality For Recommending With Style' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=How%20Big%20Can%20Style%20Be?%20Addressing%20High%20Dimensionality%20For%20Recommending%20With%20Style" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=How%20Big%20Can%20Style%20Be?%20Addressing%20High%20Dimensionality%20For%20Recommending%20With%20Style" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Recommender Systems">Recommender Systems</a></tag>
+      <tag><a href="/tags.html#Recommender%20Systems">Recommender Systems</a></tag>
     
   </p>
+
   <p><p>Using embeddings as representations of products is quite commonplace in
 recommender systems, either by extracting the semantic embeddings of text
 descriptions, user sessions, collaborative relationships, or product images. In
@@ -202,27 +207,24 @@ compromising the quality of the recommendations.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/goncalves2019how.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/goncalves2019how.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

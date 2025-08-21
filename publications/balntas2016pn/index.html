@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/balntas2016pn/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Pn-net: Conjoined Triple Deep Network For Learning Local Image Descriptors" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"In this paper we propose a new approach for learning local descriptors for matching image patches. It has recently been demonstrated that descriptors based on convolutional neural networks (CNN) can significantly improve the matching performance. Unfortunately their computational complexity is prohibitive for any practical application. We address this problem and propose a CNN based descriptor with improved matching performance, significantly reduced training and execution time, as well as low dimensionality. We propose to train the network with triplets of patches that include a positive and negative pairs. To that end we introduce a new loss function that exploits the relations within the triplets. We compare our approach to recently introduced MatchNet and DeepCompare and demonstrate the advantages of our descriptor in terms of performance, memory footprint and speed i.e. when run in GPU, the extraction time of our 128 dimensional feature is comparable to the fastest available binary descriptors such as BRIEF and ORB.","headline":"Pn-net: Conjoined Triple Deep Network For Learning Local Image Descriptors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/balntas2016pn/"},"url":"https://learning2hash.github.io/publications/balntas2016pn/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"In this paper we propose a new approach for learning local descriptors for matching image patches. It has recently been demonstrated that descriptors based on convolutional neural networks (CNN) can significantly improve the matching performance. Unfortunately their computational complexity is prohibitive for any practical application. We address this problem and propose a CNN based descriptor with improved matching performance, significantly reduced training and execution time, as well as low dimensionality. We propose to train the network with triplets of patches that include a positive and negative pairs. To that end we introduce a new loss function that exploits the relations within the triplets. We compare our approach to recently introduced MatchNet and DeepCompare and demonstrate the advantages of our descriptor in terms of performance, memory footprint and speed i.e. when run in GPU, the extraction time of our 128 dimensional feature is comparable to the fastest available binary descriptors such as BRIEF and ORB.","headline":"Pn-net: Conjoined Triple Deep Network For Learning Local Image Descriptors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/balntas2016pn/"},"url":"https://learning2hash.github.io/publications/balntas2016pn/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,31 +164,36 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Pn-net: Conjoined Triple Deep Network For Learning Local Image Descriptors</h1>
+
   <h5>
-  
     
-      Vassileios Balntas, Edward Johns, Lilian Tang, Krystian Mikolajczyk
+      Balntas et al.
     
-  
-  . Arxiv
-   2016
-  
-    – <span>165 citations</span>
-  
+    . Arxiv
+     2016
+    
+      – <span>165 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1601.05030" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1601.05030" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Pn-net: Conjoined Triple Deep Network For Learning Local Image Descriptors' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Pn-net: Conjoined Triple Deep Network For Learning Local Image Descriptors' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Pn-net:%20Conjoined%20Triple%20Deep%20Network%20For%20Learning%20Local%20Image%20Descriptors" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Pn-net:%20Conjoined%20Triple%20Deep%20Network%20For%20Learning%20Local%20Image%20Descriptors" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Memory Efficiency">Memory Efficiency</a></tag>
+      <tag><a href="/tags.html#Memory%20Efficiency">Memory Efficiency</a></tag>
     
   </p>
+
   <p><p>In this paper we propose a new approach for learning local descriptors for
 matching image patches. It has recently been demonstrated that descriptors
 based on convolutional neural networks (CNN) can significantly improve the
@@ -206,27 +211,24 @@ fastest available binary descriptors such as BRIEF and ORB.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/balntas2016pn.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/balntas2016pn.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

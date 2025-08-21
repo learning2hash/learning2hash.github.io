@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/castorena2020learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Spatial Relationships Between Samples Of Patent Image Shapes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Binary image based classification and retrieval of documents of an intellectual nature is a very challenging problem. Variations in the binary image generation mechanisms which are subject to the document artisan designer including drawing style, view-point, inclusion of multiple image components are plausible causes for increasing the complexity of the problem. In this work, we propose a method suitable to binary images which bridges some of the successes of deep learning (DL) to alleviate the problems introduced by the aforementioned variations. The method consists on extracting the shape of interest from the binary image and applying a non-Euclidean geometric neural-net architecture to learn the local and global spatial relationships of the shape. Empirical results show that our method is in some sense invariant to the image generation mechanism variations and achieves results outperforming existing methods in a patent image dataset benchmark.","headline":"Learning Spatial Relationships Between Samples Of Patent Image Shapes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/castorena2020learning/"},"url":"https://learning2hash.github.io/publications/castorena2020learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Binary image based classification and retrieval of documents of an intellectual nature is a very challenging problem. Variations in the binary image generation mechanisms which are subject to the document artisan designer including drawing style, view-point, inclusion of multiple image components are plausible causes for increasing the complexity of the problem. In this work, we propose a method suitable to binary images which bridges some of the successes of deep learning (DL) to alleviate the problems introduced by the aforementioned variations. The method consists on extracting the shape of interest from the binary image and applying a non-Euclidean geometric neural-net architecture to learn the local and global spatial relationships of the shape. Empirical results show that our method is in some sense invariant to the image generation mechanism variations and achieves results outperforming existing methods in a patent image dataset benchmark.","headline":"Learning Spatial Relationships Between Samples Of Patent Image Shapes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/castorena2020learning/"},"url":"https://learning2hash.github.io/publications/castorena2020learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,35 +164,40 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Learning Spatial Relationships Between Samples Of Patent Image Shapes</h1>
+
   <h5>
-  
     
       Juan Castorena, Manish Bhattarai, Diane Oyen
     
-  
-  . 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
-   2020
-  
-    – <span>1 citation</span>
-  
+    . 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)
+     2020
+    
+      – <span>1 citation</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2004.05713" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2004.05713" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Learning Spatial Relationships Between Samples Of Patent Image Shapes' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Learning Spatial Relationships Between Samples Of Patent Image Shapes' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Learning%20Spatial%20Relationships%20Between%20Samples%20Of%20Patent%20Image%20Shapes" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Learning%20Spatial%20Relationships%20Between%20Samples%20Of%20Patent%20Image%20Shapes" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
-      <tag><a href="/tags.html#Neural Hashing">Neural Hashing</a></tag>
+      <tag><a href="/tags.html#Neural%20Hashing">Neural Hashing</a></tag>
     
       <tag><a href="/tags.html#CVPR">CVPR</a></tag>
     
   </p>
+
   <p><p>Binary image based classification and retrieval of documents of an
 intellectual nature is a very challenging problem. Variations in the binary
 image generation mechanisms which are subject to the document artisan designer
@@ -209,27 +214,24 @@ existing methods in a patent image dataset benchmark.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/castorena2020learning.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/castorena2020learning.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

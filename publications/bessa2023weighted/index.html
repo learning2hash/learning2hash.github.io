@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/bessa2023weighted/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Weighted Minwise Hashing Beats Linear Sketching For Inner Product Estimation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"We present a new approach for computing compact sketches that can be used to approximate the inner product between pairs of high-dimensional vectors. Based on the Weighted MinHash algorithm, our approach admits strong accuracy guarantees that improve on the guarantees of popular linear sketching approaches for inner product estimation, such as CountSketch and Johnson-Lindenstrauss projection. Specifically, while our method admits guarantees that exactly match linear sketching for dense vectors, it yields significantly lower error for sparse vectors with limited overlap between non-zero entries. Such vectors arise in many applications involving sparse data. They are also important in increasingly popular dataset search applications, where inner product sketches are used to estimate data covariance, conditional means, and other quantities involving columns in unjoined tables. We complement our theoretical results by showing that our approach empirically outperforms existing linear sketches and unweighted hashing-based sketches for sparse vectors.","headline":"Weighted Minwise Hashing Beats Linear Sketching For Inner Product Estimation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bessa2023weighted/"},"url":"https://learning2hash.github.io/publications/bessa2023weighted/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"We present a new approach for computing compact sketches that can be used to approximate the inner product between pairs of high-dimensional vectors. Based on the Weighted MinHash algorithm, our approach admits strong accuracy guarantees that improve on the guarantees of popular linear sketching approaches for inner product estimation, such as CountSketch and Johnson-Lindenstrauss projection. Specifically, while our method admits guarantees that exactly match linear sketching for dense vectors, it yields significantly lower error for sparse vectors with limited overlap between non-zero entries. Such vectors arise in many applications involving sparse data. They are also important in increasingly popular dataset search applications, where inner product sketches are used to estimate data covariance, conditional means, and other quantities involving columns in unjoined tables. We complement our theoretical results by showing that our approach empirically outperforms existing linear sketches and unweighted hashing-based sketches for sparse vectors.","headline":"Weighted Minwise Hashing Beats Linear Sketching For Inner Product Estimation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bessa2023weighted/"},"url":"https://learning2hash.github.io/publications/bessa2023weighted/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Weighted Minwise Hashing Beats Linear Sketching For Inner Product Estimation</h1>
+
   <h5>
-  
     
-      Aline Bessa, Majid Daliri, Juliana Freire, Cameron Musco, Christopher Musco, Aécio Santos, Haoxiang Zhang
+      Bessa et al.
     
-  
-  . Proceedings of the 42nd ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems
-   2023
-  
-    – <span>2 citations</span>
-  
+    . Proceedings of the 42nd ACM SIGMOD-SIGACT-SIGAI Symposium on Principles of Database Systems
+     2023
+    
+      – <span>2 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2301.05811" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2301.05811" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Weighted Minwise Hashing Beats Linear Sketching For Inner Product Estimation' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Weighted Minwise Hashing Beats Linear Sketching For Inner Product Estimation' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Weighted%20Minwise%20Hashing%20Beats%20Linear%20Sketching%20For%20Inner%20Product%20Estimation" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Weighted%20Minwise%20Hashing%20Beats%20Linear%20Sketching%20For%20Inner%20Product%20Estimation" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Locality Sensitive Hashing">Locality Sensitive Hashing</a></tag>
+      <tag><a href="/tags.html#Locality%20Sensitive%20Hashing">Locality Sensitive Hashing</a></tag>
     
-      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
+      <tag><a href="/tags.html#Hashing%20Methods">Hashing Methods</a></tag>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
   </p>
+
   <p><p>We present a new approach for computing compact sketches that can be used to
 approximate the inner product between pairs of high-dimensional vectors. Based
 on the Weighted MinHash algorithm, our approach admits strong accuracy
@@ -209,27 +214,24 @@ hashing-based sketches for sparse vectors.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/bessa2023weighted.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/bessa2023weighted.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

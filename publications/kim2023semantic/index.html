@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kim2023semantic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Semantic-preserving Augmentation For Robust Image-text Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Image text retrieval is a task to search for the proper textual descriptions of the visual world and vice versa. One challenge of this task is the vulnerability to input image and text corruptions. Such corruptions are often unobserved during the training, and degrade the retrieval model decision quality substantially. In this paper, we propose a novel image text retrieval technique, referred to as robust visual semantic embedding (RVSE), which consists of novel image-based and text-based augmentation techniques called semantic preserving augmentation for image (SPAugI) and text (SPAugT). Since SPAugI and SPAugT change the original data in a way that its semantic information is preserved, we enforce the feature extractors to generate semantic aware embedding vectors regardless of the corruption, improving the model robustness significantly. From extensive experiments using benchmark datasets, we show that RVSE outperforms conventional retrieval schemes in terms of image-text retrieval performance.","headline":"Semantic-preserving Augmentation For Robust Image-text Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kim2023semantic/"},"url":"https://learning2hash.github.io/publications/kim2023semantic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Image text retrieval is a task to search for the proper textual descriptions of the visual world and vice versa. One challenge of this task is the vulnerability to input image and text corruptions. Such corruptions are often unobserved during the training, and degrade the retrieval model decision quality substantially. In this paper, we propose a novel image text retrieval technique, referred to as robust visual semantic embedding (RVSE), which consists of novel image-based and text-based augmentation techniques called semantic preserving augmentation for image (SPAugI) and text (SPAugT). Since SPAugI and SPAugT change the original data in a way that its semantic information is preserved, we enforce the feature extractors to generate semantic aware embedding vectors regardless of the corruption, improving the model robustness significantly. From extensive experiments using benchmark datasets, we show that RVSE outperforms conventional retrieval schemes in terms of image-text retrieval performance.","headline":"Semantic-preserving Augmentation For Robust Image-text Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kim2023semantic/"},"url":"https://learning2hash.github.io/publications/kim2023semantic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,27 +164,31 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Semantic-preserving Augmentation For Robust Image-text Retrieval</h1>
+
   <h5>
-  
     
-      Sunwoo Kim, Kyuhong Shim, Luong Trung Nguyen, Byonghyo Shim
+      Kim et al.
     
-  
-  . ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
-   2023
-  
-    – <span>2 citations</span>
-  
+    . ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+     2023
+    
+      – <span>2 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2303.05692" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2303.05692" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Semantic-preserving Augmentation For Robust Image-text Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Semantic-preserving Augmentation For Robust Image-text Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Semantic-preserving%20Augmentation%20For%20Robust%20Image-text%20Retrieval" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Semantic-preserving%20Augmentation%20For%20Robust%20Image-text%20Retrieval" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Text Retrieval">Text Retrieval</a></tag>
+      <tag><a href="/tags.html#Text%20Retrieval">Text Retrieval</a></tag>
     
       <tag><a href="/tags.html#Robustness">Robustness</a></tag>
     
@@ -195,6 +199,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
   </p>
+
   <p><p>Image text retrieval is a task to search for the proper textual descriptions
 of the visual world and vice versa. One challenge of this task is the
 vulnerability to input image and text corruptions. Such corruptions are often
@@ -212,27 +217,24 @@ of image-text retrieval performance.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/kim2023semantic.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/kim2023semantic.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

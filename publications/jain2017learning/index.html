@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jain2017learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning A Complete Image Indexing Pipeline" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"To work at scale, a complete image indexing system comprises two components: An inverted file index to restrict the actual search to only a subset that should contain most of the items relevant to the query; An approximate distance computation mechanism to rapidly scan these lists. While supervised deep learning has recently enabled improvements to the latter, the former continues to be based on unsupervised clustering in the literature. In this work, we propose a first system that learns both components within a unifying neural framework of structured binary encoding.","headline":"Learning A Complete Image Indexing Pipeline","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jain2017learning/"},"url":"https://learning2hash.github.io/publications/jain2017learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"To work at scale, a complete image indexing system comprises two components: An inverted file index to restrict the actual search to only a subset that should contain most of the items relevant to the query; An approximate distance computation mechanism to rapidly scan these lists. While supervised deep learning has recently enabled improvements to the latter, the former continues to be based on unsupervised clustering in the literature. In this work, we propose a first system that learns both components within a unifying neural framework of structured binary encoding.","headline":"Learning A Complete Image Indexing Pipeline","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jain2017learning/"},"url":"https://learning2hash.github.io/publications/jain2017learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,27 +164,31 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Learning A Complete Image Indexing Pipeline</h1>
+
   <h5>
-  
     
-      Himalaya Jain, Joaquin Zepeda, Patrick Pérez, Rémi Gribonval
+      Jain et al.
     
-  
-  . 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
-   2018
-  
-    – <span>14 citations</span>
-  
+    . 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+     2018
+    
+      – <span>14 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1712.04480" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1712.04480" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Learning A Complete Image Indexing Pipeline' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Learning A Complete Image Indexing Pipeline' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Learning%20A%20Complete%20Image%20Indexing%20Pipeline" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Learning%20A%20Complete%20Image%20Indexing%20Pipeline" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Hashing Methods">Hashing Methods</a></tag>
+      <tag><a href="/tags.html#Hashing%20Methods">Hashing Methods</a></tag>
     
       <tag><a href="/tags.html#CVPR">CVPR</a></tag>
     
@@ -192,11 +196,12 @@ document.addEventListener('DOMContentLoaded', function () {
     
       <tag><a href="/tags.html#Supervised">Supervised</a></tag>
     
-      <tag><a href="/tags.html#Vector Indexing">Vector Indexing</a></tag>
+      <tag><a href="/tags.html#Vector%20Indexing">Vector Indexing</a></tag>
     
-      <tag><a href="/tags.html#Tools & Libraries">Tools & Libraries</a></tag>
+      <tag><a href="/tags.html#Tools%20&%20Libraries">Tools & Libraries</a></tag>
     
   </p>
+
   <p><p>To work at scale, a complete image indexing system comprises two components:
 An inverted file index to restrict the actual search to only a subset that
 should contain most of the items relevant to the query; An approximate distance
@@ -208,27 +213,24 @@ framework of structured binary encoding.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/jain2017learning.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/jain2017learning.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

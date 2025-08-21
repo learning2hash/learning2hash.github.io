@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2022zero/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Zero-shot Image Captioning By Anchor-augmented Vision-language Space Alignment" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"CLIP (Contrastive Language-Image Pre-Training) has shown remarkable zero-shot transfer capabilities in cross-modal correlation tasks such as visual classification and image retrieval. However, its performance in cross-modal generation tasks like zero-shot image captioning remains unsatisfied. In this work, we discuss that directly employing CLIP for zero-shot image captioning relies more on the textual modality in context and largely ignores the visual information, which we call contextual language prior. To address this, we propose Cross-modal Language Models (CLMs) to facilitate unsupervised cross-modal learning. We further propose Anchor Augment to guide the generative model’s attention to the fine-grained information in the representation of CLIP. Experiments on MS COCO and Flickr 30K validate the promising performance of proposed approach in both captioning quality and computational efficiency.","headline":"Zero-shot Image Captioning By Anchor-augmented Vision-language Space Alignment","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2022zero/"},"url":"https://learning2hash.github.io/publications/wang2022zero/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"CLIP (Contrastive Language-Image Pre-Training) has shown remarkable zero-shot transfer capabilities in cross-modal correlation tasks such as visual classification and image retrieval. However, its performance in cross-modal generation tasks like zero-shot image captioning remains unsatisfied. In this work, we discuss that directly employing CLIP for zero-shot image captioning relies more on the textual modality in context and largely ignores the visual information, which we call contextual language prior. To address this, we propose Cross-modal Language Models (CLMs) to facilitate unsupervised cross-modal learning. We further propose Anchor Augment to guide the generative model’s attention to the fine-grained information in the representation of CLIP. Experiments on MS COCO and Flickr 30K validate the promising performance of proposed approach in both captioning quality and computational efficiency.","headline":"Zero-shot Image Captioning By Anchor-augmented Vision-language Space Alignment","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2022zero/"},"url":"https://learning2hash.github.io/publications/wang2022zero/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,24 +164,28 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Zero-shot Image Captioning By Anchor-augmented Vision-language Space Alignment</h1>
+
   <h5>
-  
     
-      Junyang Wang, Yi Zhang, Ming Yan, Ji Zhang, Jitao Sang
+      Wang et al.
     
-  
-  . Arxiv
-   2022
-  
-    – <span>4 citations</span>
-  
+    . Arxiv
+     2022
+    
+      – <span>4 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2211.07275" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2211.07275" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Zero-shot Image Captioning By Anchor-augmented Vision-language Space Alignment' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Zero-shot Image Captioning By Anchor-augmented Vision-language Space Alignment' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Zero-shot%20Image%20Captioning%20By%20Anchor-augmented%20Vision-language%20Space%20Alignment" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Zero-shot%20Image%20Captioning%20By%20Anchor-augmented%20Vision-language%20Space%20Alignment" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Efficiency">Efficiency</a></tag>
@@ -190,11 +194,12 @@ document.addEventListener('DOMContentLoaded', function () {
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
-      <tag><a href="/tags.html#Few-shot & Zero-shot">Few-shot & Zero-shot</a></tag>
+      <tag><a href="/tags.html#Few-shot%20&%20Zero-shot">Few-shot & Zero-shot</a></tag>
     
-      <tag><a href="/tags.html#Image Retrieval">Image Retrieval</a></tag>
+      <tag><a href="/tags.html#Image%20Retrieval">Image Retrieval</a></tag>
     
   </p>
+
   <p><p>CLIP (Contrastive Language-Image Pre-Training) has shown remarkable zero-shot
 transfer capabilities in cross-modal correlation tasks such as visual
 classification and image retrieval. However, its performance in cross-modal
@@ -210,27 +215,24 @@ of proposed approach in both captioning quality and computational efficiency.</p
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/wang2022zero.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/wang2022zero.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

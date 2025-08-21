@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhu2022adaptive/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Adaptive Local-component-aware Graph Convolutional Network For One-shot Skeleton-based Action Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Skeleton-based action recognition receives increasing attention because the skeleton representations reduce the amount of training data by eliminating visual information irrelevant to actions. To further improve the sample efficiency, meta-learning-based one-shot learning solutions were developed for skeleton-based action recognition. These methods find the nearest neighbor according to the similarity between instance-level global average embedding. However, such measurement holds unstable representativity due to inadequate generalized learning on local invariant and noisy features, while intuitively, more fine-grained recognition usually relies on determining key local body movements. To address this limitation, we present the Adaptive Local-Component-aware Graph Convolutional Network, which replaces the comparison metric with a focused sum of similarity measurements on aligned local embedding of action-critical spatial/temporal segments. Comprehensive one-shot experiments on the public benchmark of NTU-RGB+D 120 indicate that our method provides a stronger representation than the global embedding and helps our model reach state-of-the-art.","headline":"Adaptive Local-component-aware Graph Convolutional Network For One-shot Skeleton-based Action Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2022adaptive/"},"url":"https://learning2hash.github.io/publications/zhu2022adaptive/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Skeleton-based action recognition receives increasing attention because the skeleton representations reduce the amount of training data by eliminating visual information irrelevant to actions. To further improve the sample efficiency, meta-learning-based one-shot learning solutions were developed for skeleton-based action recognition. These methods find the nearest neighbor according to the similarity between instance-level global average embedding. However, such measurement holds unstable representativity due to inadequate generalized learning on local invariant and noisy features, while intuitively, more fine-grained recognition usually relies on determining key local body movements. To address this limitation, we present the Adaptive Local-Component-aware Graph Convolutional Network, which replaces the comparison metric with a focused sum of similarity measurements on aligned local embedding of action-critical spatial/temporal segments. Comprehensive one-shot experiments on the public benchmark of NTU-RGB+D 120 indicate that our method provides a stronger representation than the global embedding and helps our model reach state-of-the-art.","headline":"Adaptive Local-component-aware Graph Convolutional Network For One-shot Skeleton-based Action Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2022adaptive/"},"url":"https://learning2hash.github.io/publications/zhu2022adaptive/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,24 +164,28 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Adaptive Local-component-aware Graph Convolutional Network For One-shot Skeleton-based Action Recognition</h1>
+
   <h5>
-  
     
-      Anqi Zhu, Qiuhong Ke, Mingming Gong, James Bailey
+      Zhu et al.
     
-  
-  . 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-   2023
-  
-    – <span>17 citations</span>
-  
+    . 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
+     2023
+    
+      – <span>17 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2209.10073" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2209.10073" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Adaptive Local-component-aware Graph Convolutional Network For One-shot Skeleton-based Action Recognition' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Adaptive Local-component-aware Graph Convolutional Network For One-shot Skeleton-based Action Recognition' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Adaptive%20Local-component-aware%20Graph%20Convolutional%20Network%20For%20One-shot%20Skeleton-based%20Action%20Recognition" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Adaptive%20Local-component-aware%20Graph%20Convolutional%20Network%20For%20One-shot%20Skeleton-based%20Action%20Recognition" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Efficiency">Efficiency</a></tag>
@@ -189,6 +193,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
   </p>
+
   <p><p>Skeleton-based action recognition receives increasing attention because the
 skeleton representations reduce the amount of training data by eliminating
 visual information irrelevant to actions. To further improve the sample
@@ -208,27 +213,24 @@ our model reach state-of-the-art.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/zhu2022adaptive.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/zhu2022adaptive.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

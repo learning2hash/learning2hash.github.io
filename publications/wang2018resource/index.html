@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2018resource/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Resource Aware Person Re-identification Across Multiple Resolutions" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Not all people are equally easy to identify: color statistics might be enough for some cases while others might require careful reasoning about high- and low-level details. However, prevailing person re-identification(re-ID) methods use one-size-fits-all high-level embeddings from deep convolutional networks for all cases. This might limit their accuracy on difficult examples or makes them needlessly expensive for the easy ones. To remedy this, we present a new person re-ID model that combines effective embeddings built on multiple convolutional network layers, trained with deep-supervision. On traditional re-ID benchmarks, our method improves substantially over the previous state-of-the-art results on all five datasets that we evaluate on. We then propose two new formulations of the person re-ID problem under resource-constraints, and show how our model can be used to effectively trade off accuracy and computation in the presence of resource constraints. Code and pre-trained models are available at https://github.com/mileyan/DARENet.","headline":"Resource Aware Person Re-identification Across Multiple Resolutions","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2018resource/"},"url":"https://learning2hash.github.io/publications/wang2018resource/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Not all people are equally easy to identify: color statistics might be enough for some cases while others might require careful reasoning about high- and low-level details. However, prevailing person re-identification(re-ID) methods use one-size-fits-all high-level embeddings from deep convolutional networks for all cases. This might limit their accuracy on difficult examples or makes them needlessly expensive for the easy ones. To remedy this, we present a new person re-ID model that combines effective embeddings built on multiple convolutional network layers, trained with deep-supervision. On traditional re-ID benchmarks, our method improves substantially over the previous state-of-the-art results on all five datasets that we evaluate on. We then propose two new formulations of the person re-ID problem under resource-constraints, and show how our model can be used to effectively trade off accuracy and computation in the presence of resource constraints. Code and pre-trained models are available at https://github.com/mileyan/DARENet.","headline":"Resource Aware Person Re-identification Across Multiple Resolutions","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2018resource/"},"url":"https://learning2hash.github.io/publications/wang2018resource/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,26 +164,30 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Resource Aware Person Re-identification Across Multiple Resolutions</h1>
+
   <h5>
-  
     
-      Yan Wang, Lequn Wang, Yurong You, Xu Zou, Vincent Chen, Serena Li, Gao Huang, Bharath Hariharan, Kilian Q. Weinberger
+      Wang et al.
     
-  
-  . 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
-   2018
-  
-    – <span>262 citations</span>
-  
+    . 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+     2018
+    
+      – <span>262 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://github.com/mileyan/DARENet." target="_blank">Code</a>]
+      [<a href="https://github.com/mileyan/DARENet." target="_blank" rel="noopener noreferrer">Code</a>]
     
-      [<a href="https://arxiv.org/abs/1805.08805" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1805.08805" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Resource Aware Person Re-identification Across Multiple Resolutions' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Resource Aware Person Re-identification Across Multiple Resolutions' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Resource%20Aware%20Person%20Re-identification%20Across%20Multiple%20Resolutions" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Resource%20Aware%20Person%20Re-identification%20Across%20Multiple%20Resolutions" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
@@ -191,6 +195,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#CVPR">CVPR</a></tag>
     
   </p>
+
   <p><p>Not all people are equally easy to identify: color statistics might be enough
 for some cases while others might require careful reasoning about high- and
 low-level details. However, prevailing person re-identification(re-ID) methods
@@ -208,27 +213,24 @@ pre-trained models are available at https://github.com/mileyan/DARENet.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/wang2018resource.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/wang2018resource.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

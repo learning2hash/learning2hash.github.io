@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2020large/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Large-scale Real-time Personalized Similar Product Recommendations" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Similar product recommendation is one of the most common scenes in e-commerce. Many recommendation algorithms such as item-to-item Collaborative Filtering are working on measuring item similarities. In this paper, we introduce our real-time personalized algorithm to model product similarity and real-time user interests. We also introduce several other baseline algorithms including an image-similarity-based method, item-to-item collaborative filtering, and item2vec, and compare them on our large-scale real-world e-commerce dataset. The algorithms which achieve good offline results are also tested on the online e-commerce website. Our personalized method achieves a 10% improvement on the add-cart number in the real-world e-commerce scenario.","headline":"Large-scale Real-time Personalized Similar Product Recommendations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2020large/"},"url":"https://learning2hash.github.io/publications/liu2020large/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Similar product recommendation is one of the most common scenes in e-commerce. Many recommendation algorithms such as item-to-item Collaborative Filtering are working on measuring item similarities. In this paper, we introduce our real-time personalized algorithm to model product similarity and real-time user interests. We also introduce several other baseline algorithms including an image-similarity-based method, item-to-item collaborative filtering, and item2vec, and compare them on our large-scale real-world e-commerce dataset. The algorithms which achieve good offline results are also tested on the online e-commerce website. Our personalized method achieves a 10% improvement on the add-cart number in the real-world e-commerce scenario.","headline":"Large-scale Real-time Personalized Similar Product Recommendations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2020large/"},"url":"https://learning2hash.github.io/publications/liu2020large/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,27 +164,31 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Large-scale Real-time Personalized Similar Product Recommendations</h1>
+
   <h5>
-  
     
-      Zhi Liu, Yan Huang, Jing Gao, Li Chen, Dong Li
+      Liu et al.
     
-  
-  . Arxiv
-   2020
-  
-    – <span>0 citations</span>
-  
+    . Arxiv
+     2020
+    
+      – <span>0 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2004.05716" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2004.05716" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Large-scale Real-time Personalized Similar Product Recommendations' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Large-scale Real-time Personalized Similar Product Recommendations' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Large-scale%20Real-time%20Personalized%20Similar%20Product%20Recommendations" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Large-scale%20Real-time%20Personalized%20Similar%20Product%20Recommendations" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
-      <tag><a href="/tags.html#Recommender Systems">Recommender Systems</a></tag>
+      <tag><a href="/tags.html#Recommender%20Systems">Recommender Systems</a></tag>
     
       <tag><a href="/tags.html#Efficiency">Efficiency</a></tag>
     
@@ -193,6 +197,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#Scalability">Scalability</a></tag>
     
   </p>
+
   <p><p>Similar product recommendation is one of the most common scenes in
 e-commerce. Many recommendation algorithms such as item-to-item Collaborative
 Filtering are working on measuring item similarities. In this paper, we
@@ -206,27 +211,24 @@ improvement on the add-cart number in the real-world e-commerce scenario.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/liu2020large.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/liu2020large.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

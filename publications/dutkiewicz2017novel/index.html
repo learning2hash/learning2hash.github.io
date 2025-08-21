@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dutkiewicz2017novel/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Novel Ranking-based Lexical Similarity Measure For Word Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Distributional semantics models derive word space from linguistic items in context. Meaning is obtained by defining a distance measure between vectors corresponding to lexical entities. Such vectors present several problems. In this paper we provide a guideline for post process improvements to the baseline vectors. We focus on refining the similarity aspect, address imperfections of the model by applying the hubness reduction method, implementing relational knowledge into the model, and providing a new ranking similarity definition that give maximum weight to the top 1 component value. This feature ranking is similar to the one used in information retrieval. All these enrichments outperform current literature results for joint ESL and TOEF sets comparison. Since single word embedding is a basic element of any semantic task one can expect a significant improvement of results for these tasks. Moreover, our improved method of text processing can be translated to continuous distributed representation of biological sequences for deep proteomics and genomics.","headline":"Novel Ranking-based Lexical Similarity Measure For Word Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dutkiewicz2017novel/"},"url":"https://learning2hash.github.io/publications/dutkiewicz2017novel/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Distributional semantics models derive word space from linguistic items in context. Meaning is obtained by defining a distance measure between vectors corresponding to lexical entities. Such vectors present several problems. In this paper we provide a guideline for post process improvements to the baseline vectors. We focus on refining the similarity aspect, address imperfections of the model by applying the hubness reduction method, implementing relational knowledge into the model, and providing a new ranking similarity definition that give maximum weight to the top 1 component value. This feature ranking is similar to the one used in information retrieval. All these enrichments outperform current literature results for joint ESL and TOEF sets comparison. Since single word embedding is a basic element of any semantic task one can expect a significant improvement of results for these tasks. Moreover, our improved method of text processing can be translated to continuous distributed representation of biological sequences for deep proteomics and genomics.","headline":"Novel Ranking-based Lexical Similarity Measure For Word Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dutkiewicz2017novel/"},"url":"https://learning2hash.github.io/publications/dutkiewicz2017novel/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,29 +164,34 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Novel Ranking-based Lexical Similarity Measure For Word Embedding</h1>
+
   <h5>
-  
     
       Jakub Dutkiewicz, Czesław Jędrzejek
     
-  
-  . Arxiv
-   2017
-  
-    – <span>0 citations</span>
-  
+    . Arxiv
+     2017
+    
+      – <span>0 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1712.08439" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1712.08439" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Novel Ranking-based Lexical Similarity Measure For Word Embedding' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Novel Ranking-based Lexical Similarity Measure For Word Embedding' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Novel%20Ranking-based%20Lexical%20Similarity%20Measure%20For%20Word%20Embedding" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Novel%20Ranking-based%20Lexical%20Similarity%20Measure%20For%20Word%20Embedding" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
   </p>
+
   <p><p>Distributional semantics models derive word space from linguistic items in
 context. Meaning is obtained by defining a distance measure between vectors
 corresponding to lexical entities. Such vectors present several problems. In
@@ -204,27 +209,24 @@ representation of biological sequences for deep proteomics and genomics.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/dutkiewicz2017novel.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/dutkiewicz2017novel.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

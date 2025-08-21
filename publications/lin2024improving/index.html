@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lin2024improving/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Improving Biomedical Entity Linking With Retrieval-enhanced Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Biomedical entity linking (BioEL) has achieved remarkable progress with the help of pre-trained language models. However, existing BioEL methods usually struggle to handle rare and difficult entities due to long-tailed distribution. To address this limitation, we introduce a new scheme (k)NN-BioEL, which provides a BioEL model with the ability to reference similar instances from the entire training corpus as clues for prediction, thus improving the generalization capabilities. Moreover, we design a contrastive learning objective with dynamic hard negative sampling (DHNS) that improves the quality of the retrieved neighbors during inference. Extensive experimental results show that (k)NN-BioEL outperforms state-of-the-art baselines on several datasets.","headline":"Improving Biomedical Entity Linking With Retrieval-enhanced Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2024improving/"},"url":"https://learning2hash.github.io/publications/lin2024improving/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Biomedical entity linking (BioEL) has achieved remarkable progress with the help of pre-trained language models. However, existing BioEL methods usually struggle to handle rare and difficult entities due to long-tailed distribution. To address this limitation, we introduce a new scheme (k)NN-BioEL, which provides a BioEL model with the ability to reference similar instances from the entire training corpus as clues for prediction, thus improving the generalization capabilities. Moreover, we design a contrastive learning objective with dynamic hard negative sampling (DHNS) that improves the quality of the retrieved neighbors during inference. Extensive experimental results show that (k)NN-BioEL outperforms state-of-the-art baselines on several datasets.","headline":"Improving Biomedical Entity Linking With Retrieval-enhanced Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2024improving/"},"url":"https://learning2hash.github.io/publications/lin2024improving/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,24 +164,28 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Improving Biomedical Entity Linking With Retrieval-enhanced Learning</h1>
+
   <h5>
-  
     
-      Zhenxi Lin, Ziheng Zhang, Xian Wu, Yefeng Zheng
+      Lin et al.
     
-  
-  . ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
-   2024
-  
-    – <span>1 citation</span>
-  
+    . ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)
+     2024
+    
+      – <span>1 citation</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/2312.09806" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/2312.09806" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Improving Biomedical Entity Linking With Retrieval-enhanced Learning' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Improving Biomedical Entity Linking With Retrieval-enhanced Learning' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Improving%20Biomedical%20Entity%20Linking%20With%20Retrieval-enhanced%20Learning" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Improving%20Biomedical%20Entity%20Linking%20With%20Retrieval-enhanced%20Learning" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
@@ -191,6 +195,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <tag><a href="/tags.html#Self-Supervised">Self-Supervised</a></tag>
     
   </p>
+
   <p><p>Biomedical entity linking (BioEL) has achieved remarkable progress with the
 help of pre-trained language models. However, existing BioEL methods usually
 struggle to handle rare and difficult entities due to long-tailed distribution.
@@ -205,27 +210,24 @@ datasets.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/lin2024improving.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/lin2024improving.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

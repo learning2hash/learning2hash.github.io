@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2019unicoder/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unicoder-vl: A Universal Encoder For Vision And Language By Cross-modal Pre-training" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"We propose Unicoder-VL, a universal encoder that aims to learn joint representations of vision and language in a pre-training manner. Borrow ideas from cross-lingual pre-trained models, such as XLM and Unicoder, both visual and linguistic contents are fed into a multi-layer Transformer for the cross-modal pre-training, where three pre-trained tasks are employed, including Masked Language Modeling (MLM), Masked Object Classification (MOC) and Visual-linguistic Matching (VLM). The first two tasks learn context-aware representations for input tokens based on linguistic and visual contents jointly. The last task tries to predict whether an image and a text describe each other. After pretraining on large-scale image-caption pairs, we transfer Unicoder-VL to caption-based image-text retrieval and visual commonsense reasoning, with just one additional output layer. We achieve state-of-the-art or comparable results on both two tasks and show the powerful ability of the cross-modal pre-training.","headline":"Unicoder-vl: A Universal Encoder For Vision And Language By Cross-modal Pre-training","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2019unicoder/"},"url":"https://learning2hash.github.io/publications/li2019unicoder/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"We propose Unicoder-VL, a universal encoder that aims to learn joint representations of vision and language in a pre-training manner. Borrow ideas from cross-lingual pre-trained models, such as XLM and Unicoder, both visual and linguistic contents are fed into a multi-layer Transformer for the cross-modal pre-training, where three pre-trained tasks are employed, including Masked Language Modeling (MLM), Masked Object Classification (MOC) and Visual-linguistic Matching (VLM). The first two tasks learn context-aware representations for input tokens based on linguistic and visual contents jointly. The last task tries to predict whether an image and a text describe each other. After pretraining on large-scale image-caption pairs, we transfer Unicoder-VL to caption-based image-text retrieval and visual commonsense reasoning, with just one additional output layer. We achieve state-of-the-art or comparable results on both two tasks and show the powerful ability of the cross-modal pre-training.","headline":"Unicoder-vl: A Universal Encoder For Vision And Language By Cross-modal Pre-training","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2019unicoder/"},"url":"https://learning2hash.github.io/publications/li2019unicoder/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Unicoder-vl: A Universal Encoder For Vision And Language By Cross-modal Pre-training</h1>
+
   <h5>
-  
     
-      Gen Li, Nan Duan, Yuejian Fang, Ming Gong, Daxin Jiang, Ming Zhou
+      Li et al.
     
-  
-  . Proceedings of the AAAI Conference on Artificial Intelligence
-   2020
-  
-    – <span>702 citations</span>
-  
+    . Proceedings of the AAAI Conference on Artificial Intelligence
+     2020
+    
+      – <span>702 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1908.06066" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1908.06066" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Unicoder-vl: A Universal Encoder For Vision And Language By Cross-modal Pre-training' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Unicoder-vl: A Universal Encoder For Vision And Language By Cross-modal Pre-training' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Unicoder-vl:%20A%20Universal%20Encoder%20For%20Vision%20And%20Language%20By%20Cross-modal%20Pre-training" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Unicoder-vl:%20A%20Universal%20Encoder%20For%20Vision%20And%20Language%20By%20Cross-modal%20Pre-training" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#AAAI">AAAI</a></tag>
     
       <tag><a href="/tags.html#Scalability">Scalability</a></tag>
     
-      <tag><a href="/tags.html#Text Retrieval">Text Retrieval</a></tag>
+      <tag><a href="/tags.html#Text%20Retrieval">Text Retrieval</a></tag>
     
   </p>
+
   <p><p>We propose Unicoder-VL, a universal encoder that aims to learn joint
 representations of vision and language in a pre-training manner. Borrow ideas
 from cross-lingual pre-trained models, such as XLM and Unicoder, both visual
@@ -208,27 +213,24 @@ cross-modal pre-training.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/li2019unicoder.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/li2019unicoder.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

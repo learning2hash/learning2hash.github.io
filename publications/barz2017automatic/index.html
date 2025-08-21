@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/barz2017automatic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Automatic Query Image Disambiguation For Content-based Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Query images presented to content-based image retrieval systems often have various different interpretations, making it difficult to identify the search objective pursued by the user. We propose a technique for overcoming this ambiguity, while keeping the amount of required user interaction at a minimum. To achieve this, the neighborhood of the query image is divided into coherent clusters from which the user may choose the relevant ones. A novel feedback integration technique is then employed to re-rank the entire database with regard to both the user feedback and the original query. We evaluate our approach on the publicly available MIRFLICKR-25K dataset, where it leads to a relative improvement of average precision by 23% over the baseline retrieval, which does not distinguish between different image senses.","headline":"Automatic Query Image Disambiguation For Content-based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/barz2017automatic/"},"url":"https://learning2hash.github.io/publications/barz2017automatic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Query images presented to content-based image retrieval systems often have various different interpretations, making it difficult to identify the search objective pursued by the user. We propose a technique for overcoming this ambiguity, while keeping the amount of required user interaction at a minimum. To achieve this, the neighborhood of the query image is divided into coherent clusters from which the user may choose the relevant ones. A novel feedback integration technique is then employed to re-rank the entire database with regard to both the user feedback and the original query. We evaluate our approach on the publicly available MIRFLICKR-25K dataset, where it leads to a relative improvement of average precision by 23% over the baseline retrieval, which does not distinguish between different image senses.","headline":"Automatic Query Image Disambiguation For Content-based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/barz2017automatic/"},"url":"https://learning2hash.github.io/publications/barz2017automatic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,33 +164,38 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Automatic Query Image Disambiguation For Content-based Image Retrieval</h1>
+
   <h5>
-  
     
       Björn Barz, Joachim Denzler
     
-  
-  . Proceedings of the 13th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications
-   2018
-  
-    – <span>2 citations</span>
-  
+    . Proceedings of the 13th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications
+     2018
+    
+      – <span>2 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1711.00953" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1711.00953" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Automatic Query Image Disambiguation For Content-based Image Retrieval' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Automatic Query Image Disambiguation For Content-based Image Retrieval' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Automatic%20Query%20Image%20Disambiguation%20For%20Content-based%20Image%20Retrieval" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Automatic%20Query%20Image%20Disambiguation%20For%20Content-based%20Image%20Retrieval" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Datasets">Datasets</a></tag>
     
-      <tag><a href="/tags.html#Image Retrieval">Image Retrieval</a></tag>
+      <tag><a href="/tags.html#Image%20Retrieval">Image Retrieval</a></tag>
     
       <tag><a href="/tags.html#Evaluation">Evaluation</a></tag>
     
   </p>
+
   <p><p>Query images presented to content-based image retrieval systems often have
 various different interpretations, making it difficult to identify the search
 objective pursued by the user. We propose a technique for overcoming this
@@ -205,27 +210,24 @@ which does not distinguish between different image senses.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/barz2017automatic.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/barz2017automatic.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>

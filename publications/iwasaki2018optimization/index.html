@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/iwasaki2018optimization/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:03:39-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:04:15-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Optimization Of Indexing Based On K-nearest Neighbor Graph For Proximity Search In High-dimensional Data" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:03:39-05:00","datePublished":"2025-08-21T05:03:39-05:00","description":"Searching for high-dimensional vector data with high accuracy is an inevitable search technology for various types of data. Graph-based indexes are known to reduce the query time for high-dimensional data. To further improve the query time by using graphs, we focused on the indegrees and outdegrees of graphs. While a sufficient number of incoming edges (indegrees) are indispensable for increasing search accuracy, an excessive number of outgoing edges (outdegrees) should be suppressed so as to not increase the query time. Therefore, we propose three degree-adjustment methods: static degree adjustment of not only outdegrees but also indegrees, dynamic degree adjustment with which outdegrees are determined by the search accuracy users require, and path adjustment to remove edges that have alternative search paths to reduce outdegrees. We also show how to obtain optimal degree-adjustment parameters and that our methods outperformed previous methods for image and textual data.","headline":"Optimization Of Indexing Based On K-nearest Neighbor Graph For Proximity Search In High-dimensional Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/iwasaki2018optimization/"},"url":"https://learning2hash.github.io/publications/iwasaki2018optimization/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:04:15-05:00","datePublished":"2025-08-21T05:04:15-05:00","description":"Searching for high-dimensional vector data with high accuracy is an inevitable search technology for various types of data. Graph-based indexes are known to reduce the query time for high-dimensional data. To further improve the query time by using graphs, we focused on the indegrees and outdegrees of graphs. While a sufficient number of incoming edges (indegrees) are indispensable for increasing search accuracy, an excessive number of outgoing edges (outdegrees) should be suppressed so as to not increase the query time. Therefore, we propose three degree-adjustment methods: static degree adjustment of not only outdegrees but also indegrees, dynamic degree adjustment with which outdegrees are determined by the search accuracy users require, and path adjustment to remove edges that have alternative search paths to reduce outdegrees. We also show how to obtain optimal degree-adjustment parameters and that our methods outperformed previous methods for image and textual data.","headline":"Optimization Of Indexing Based On K-nearest Neighbor Graph For Proximity Search In High-dimensional Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/iwasaki2018optimization/"},"url":"https://learning2hash.github.io/publications/iwasaki2018optimization/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -164,31 +164,36 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="content container">
       <div class="page">
   <h1 class="page-title">Optimization Of Indexing Based On K-nearest Neighbor Graph For Proximity Search In High-dimensional Data</h1>
+
   <h5>
-  
     
       Masajiro Iwasaki, Daisuke Miyazaki
     
-  
-  . Arxiv
-   2018
-  
-    – <span>39 citations</span>
-  
+    . Arxiv
+     2018
+    
+      – <span>39 citations</span>
+    
   </h5>
+
   <p>
     
-      [<a href="https://arxiv.org/abs/1810.07355" target="_blank">Paper</a>]
+      [<a href="https://arxiv.org/abs/1810.07355" target="_blank" rel="noopener noreferrer">Paper</a>]
     
-    &nbsp;<a href='http://scholar.google.com/scholar?q=Optimization Of Indexing Based On K-nearest Neighbor Graph For Proximity Search In High-dimensional Data' target="_blank"><img  style="display: inline; margin: 0;" src="/public/media/google-scholar.png"/></a>
-    &nbsp;<a href='https://www.semanticscholar.org/search?q=Optimization Of Indexing Based On K-nearest Neighbor Graph For Proximity Search In High-dimensional Data' target="_blank"><img style="display: inline; margin: 0;" src="/public/media/semscholar.png"/></a>
+    &nbsp;<a href="https://scholar.google.com/scholar?q=Optimization%20Of%20Indexing%20Based%20On%20K-nearest%20Neighbor%20Graph%20For%20Proximity%20Search%20In%20High-dimensional%20Data" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/google-scholar.png" alt="Search on Google Scholar"/>
+    </a>
+    &nbsp;<a href="https://www.semanticscholar.org/search?q=Optimization%20Of%20Indexing%20Based%20On%20K-nearest%20Neighbor%20Graph%20For%20Proximity%20Search%20In%20High-dimensional%20Data" target="_blank" rel="noopener noreferrer">
+      <img style="display:inline; margin:0;" src="/public/media/semscholar.png" alt="Search on Semantic Scholar"/>
+    </a>
     <br/>
     
       <tag><a href="/tags.html#Efficiency">Efficiency</a></tag>
     
-      <tag><a href="/tags.html#Graph-based ANN">Graph-based ANN</a></tag>
+      <tag><a href="/tags.html#Graph-based%20ANN">Graph-based ANN</a></tag>
     
   </p>
+
   <p><p>Searching for high-dimensional vector data with high accuracy is an
 inevitable search technology for various types of data. Graph-based indexes are
 known to reduce the query time for high-dimensional data. To further improve
@@ -205,27 +210,24 @@ that our methods outperformed previous methods for image and textual data.</p>
 </p>
 
   <h6>Similar Work</h6>
-  <p>
-    <ul id="relwork">
+  <ul id="relwork"></ul>
 
-    </ul>
-  </p>
-
- <script>  
-    $(document).ready(
-      function() {
-        $.getJSON("/publications-metadata/iwasaki2018optimization.json", function(data) {
-          num_papers = data.length;
-          html = "";
-          for (let i=0; i < num_papers; i++) {
-              html += '<li><a href="/publications/' + data[i][0] + '">'+ data[i][1] +'</a></li>'
-          }
-          $("#relwork").append(html);
-        });
+  <script defer>
+    $(function () {
+      $.getJSON(
+        "/publications-metadata/iwasaki2018optimization.json"
+      ).done(function (data) {
+        const num_papers = data.length;
+        let html = "";
+        for (let i = 0; i < num_papers; i++) {
+          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
+        }
+        $("#relwork").append(html);
+      }).fail(function (jqXHR, textStatus) {
+        console.warn("Failed to load similar work JSON:", textStatus);
       });
+    });
   </script>
-
-
 </div>
 
     </div>
