@@ -1,0 +1,23 @@
+---
+layout: publication
+title: Semi-supervised Deep Learning By Metric Embedding
+authors: Elad Hoffer, Nir Ailon
+conference: Arxiv
+year: 2016
+bibkey: hoffer2016semi
+citations: 28
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1611.01449'}]
+tags: ["Neural Hashing", "Supervised"]
+short_authors: Elad Hoffer, Nir Ailon
+---
+Deep networks are successfully used as classification models yielding
+state-of-the-art results when trained on a large number of labeled samples.
+These models, however, are usually much less suited for semi-supervised
+problems because of their tendency to overfit easily when trained on small
+amounts of data. In this work we will explore a new training objective that is
+targeting a semi-supervised regime with only a small subset of labeled data.
+This criterion is based on a deep metric embedding over distance relations
+within the set of labeled samples, together with constraints over the
+embeddings of the unlabeled set. The final learned representations are
+discriminative in euclidean space, and hence can be used with subsequent
+nearest-neighbor classification using the labeled samples.

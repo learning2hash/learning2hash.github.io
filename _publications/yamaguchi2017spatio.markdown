@@ -1,0 +1,25 @@
+---
+layout: publication
+title: Spatio-temporal Person Retrieval Via Natural Language Queries
+authors: Masataka Yamaguchi, Kuniaki Saito, Yoshitaka Ushiku, Tatsuya Harada
+conference: 2017 IEEE International Conference on Computer Vision (ICCV)
+year: 2017
+bibkey: yamaguchi2017spatio
+citations: 68
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.07945'}]
+tags: ["Datasets", "ICCV", "Multimodal Retrieval"]
+short_authors: Yamaguchi et al.
+---
+In this paper, we address the problem of spatio-temporal person retrieval
+from multiple videos using a natural language query, in which we output a tube
+(i.e., a sequence of bounding boxes) which encloses the person described by the
+query. For this problem, we introduce a novel dataset consisting of videos
+containing people annotated with bounding boxes for each second and with five
+natural language descriptions. To retrieve the tube of the person described by
+a given natural language query, we design a model that combines methods for
+spatio-temporal human detection and multimodal retrieval. We conduct
+comprehensive experiments to compare a variety of tube and text representations
+and multimodal retrieval methods, and present a strong baseline in this task as
+well as demonstrate the efficacy of our tube representation and multimodal
+feature embedding technique. Finally, we demonstrate the versatility of our
+model by applying it to two other important tasks.
