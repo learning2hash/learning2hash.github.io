@@ -8,9 +8,10 @@ layout: default
   <h5>
     {% if page.authors %}
     {% for author in page.authors %}
-      <a href="https://scholar.google.com/scholar?q={{ author | uri_escape }}" target="_blank" rel="noopener noreferrer">
-        {{ author }}
-      </a>{% if forloop.last == false %}, {% endif %}
+    <a href="https://scholar.google.com/scholar?q={{ author | uri_escape }}" 
+       target="_blank" rel="noopener noreferrer">
+      {{ author }}
+    </a>{% unless forloop.last %}, {% endunless %}
     {% endfor %}
     {% endif %}
     {% if page.conference %}. {{ page.conference }}{% endif %}
