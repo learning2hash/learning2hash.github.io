@@ -28,14 +28,13 @@ description: A list of research papers for Learning to Hash.
   <div class="table-wrap">
     <table id="allPapers" class="display stripe hover" style="width:100%;">
       <thead>
-      <tr>
-        <th>Year</th>
-        <th>Title</th>
-        <th>Authors</th>
-        <th>Citations</th>
-        <th style="display:none;">Authors (full, hidden)</th>
-      </tr>
-    </thead>
+        <tr>
+          <th>Year</th>
+          <th>Title</th>
+          <th>Authors</th>
+          <th>Citations</th>
+        </tr>
+      </thead>
       <tbody><!-- rows added via JS --></tbody>
     </table>
   </div>
@@ -109,93 +108,13 @@ description: A list of research papers for Learning to Hash.
   function toNumber(x) {
     if (x === null || x === undefined) return 0;
     if (typeof x === 'number') return x;
-    // Strip commas and non-digits
-    const n = String(x).replace(/,/g, '').match(/-?\d+(\.\d+)?/);
+    const n = String(x).replace(/,/g, '').match(/-?\\d+(\\.\\d+)?/);
     return n ? Number(n[0]) : 0;
   }
 
   function hasDT() {
     return window.jQuery && jQuery.fn && jQuery.fn.dataTable;
   }
-
-  function buildTable(rows) {
-  // Transform JSON into the minimal fields we need
-  const data = rows.map(r => {
-    const year = toNumber(r.year);
-    const citations = toNumber(r.citations);
-    const key = r.key || '';
-    const title = (r.title || '').trim();
-    const short_authors = Array.isArray(r.short_authors)
-      ? r.short_authors.join(', ').trim()
-      : (r.short_authors || '').trim();
-    const authors = Array.isArray(r.authors)
-      ? r.authors.join(', ').trim()
-      : (r.authors || '').trim();
-
-    const url = (r.url && String(r.url)) ||
-      (key ? (PAGE_URL_PREFIX + encodeURIComponent(key) + PAGE_URL_SUFFIX) : null);
-
-    return {
-      year,
-      title,
-      title_link: url ? `<a href="${url}">${escapeHtml(title)}</a>` : escapeHtml(title),
-      short_authors,
-      authors,   // keep full authors hidden but searchable
-      citations
-    };
-  });
-
-  const isMobile = window.matchMedia('(max-width: 768px)').matches;
-  const PAGE_LEN   = isMobile ? 50 : 200;
-  const LENGTH_MENU = isMobile ? [25, 50, 75, 100] : [25, 50, 100, 250, 1000, 2000];
-
-  const dt = jQuery('#allPapers').DataTable({
-    data,
-    columns: [
-      { data: 'year' },
-      { data: 'title_link' },
-      { data: 'short_authors' },   // show short authors in the visible column
-      { data: 'citations' },
-      { data: 'authors', visible: false, searchable: true } // hidden full authors
-    ],
-    columnDefs: [
-      { targets: 1, render: (data)=>data, orderable: true },
-      { targets: [0,3], type: 'num', searchable: false },  // Year & Citations not searchable
-      { targets: [1,2,4], searchable: true }               // Title, short_authors, and hidden authors searchable
-    ],
-    paging: true,
-    pageLength: PAGE_LEN,
-    lengthMenu: LENGTH_MENU,
-    searching: true,
-    order: [[3, 'desc']],    // Citations desc
-    autoWidth: true,
-    deferRender: true,
-    stateSave: !isMobile,
-    scrollX: true,
-    responsive: false,
-    orderClasses: false,
-    dom: 't<"bottom"ip>',
-    initComplete: function () {
-      const api = this.api();
-      if (loaderEl) loaderEl.style.display = 'none';
-
-      const debounce = (fn, ms = 100) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
-      if (input) input.addEventListener('input', debounce(() => api.search(input.value).draw(false), 80));
-      if (reset) reset.addEventListener('click', () => {
-        if (!input) return;
-        input.value='';
-        api.search('').draw(false);
-        input.focus();
-      });
-
-      setTimeout(() => api.columns.adjust().draw(false), 60);
-    }
-  });
-
-  const recalc = (() => { let t; return () => { clearTimeout(t); t=setTimeout(() => dt.columns.adjust(), 120); }; })();
-  window.addEventListener('resize', recalc);
-  window.addEventListener('orientationchange', recalc);
-}
 
   // Simple HTML escaper for titles
   function escapeHtml(s) {
@@ -205,6 +124,96 @@ description: A list of research papers for Learning to Hash.
       .replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;')
       .replace(/'/g, '&#39;');
+  }
+
+  function buildTable(rows) {
+    // Shape each row with robust author display + full authors for filtering
+    const data = rows.map(r => {
+      const year = toNumber(r.year);
+      const citations = toNumber(r.citations);
+      const key = r.key || '';
+      const title = (r.title || '').trim();
+
+      const short_authors_raw = Array.isArray(r.short_authors)
+        ? r.short_authors.join(', ')
+        : (r.short_authors || '');
+      const authors_raw = Array.isArray(r.authors)
+        ? r.authors.join(', ')
+        : (r.authors || '');
+
+      const short_authors = short_authors_raw.trim();
+      const authors_full = authors_raw.trim();
+      const authors_display = short_authors || authors_full || '—';
+
+      const url = (r.url && String(r.url)) ||
+        (key ? (PAGE_URL_PREFIX + encodeURIComponent(key) + PAGE_URL_SUFFIX) : null);
+
+      return {
+        year,
+        title,
+        title_link: url ? `<a href="${url}">${escapeHtml(title)}</a>` : escapeHtml(title),
+        authors_display,
+        authors_full,
+        citations
+      };
+    });
+
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    const PAGE_LEN   = isMobile ? 50 : 200;
+    const LENGTH_MENU = isMobile ? [25, 50, 75, 100] : [25, 50, 100, 250, 1000, 2000];
+
+    const dt = jQuery('#allPapers').DataTable({
+      data,
+      columns: [
+        { data: 'year' },
+        { data: 'title_link' },
+        {
+          data: null,
+          render: (row, type) => {
+            // Use full authors for filtering/sorting; short/fallback for display
+            if (type === 'filter' || type === 'sort') return row.authors_full || '';
+            return row.authors_display || '';
+          },
+          searchable: true
+        },
+        { data: 'citations' }
+      ],
+      columnDefs: [
+        { targets: 1, render: (data) => data, orderable: true },
+        { targets: [0,3], type: 'num', searchable: false }
+      ],
+      paging: true,
+      pageLength: PAGE_LEN,
+      lengthMenu: LENGTH_MENU,
+      searching: true,
+      order: [[3, 'desc']],    // Citations desc
+      autoWidth: true,
+      deferRender: true,
+      stateSave: !isMobile,
+      scrollX: true,
+      responsive: false,
+      orderClasses: false,
+      dom: 't<"bottom"ip>',
+      initComplete: function () {
+        const api = this.api();
+        if (loaderEl) loaderEl.style.display = 'none';
+
+        const debounce = (fn, ms = 100) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
+        if (input) input.addEventListener('input', debounce(() => api.search(input.value).draw(false), 80));
+        if (reset) reset.addEventListener('click', () => {
+          if (!input) return;
+          input.value = '';
+          api.search('').draw(false);
+          input.focus();
+        });
+
+        setTimeout(() => api.columns.adjust().draw(false), 60);
+      }
+    });
+
+    const recalc = (() => { let t; return () => { clearTimeout(t); t=setTimeout(() => dt.columns.adjust(), 120); }; })();
+    window.addEventListener('resize', recalc);
+    window.addEventListener('orientationchange', recalc);
   }
 
   async function start() {
