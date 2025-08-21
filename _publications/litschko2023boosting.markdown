@@ -1,0 +1,31 @@
+---
+layout: publication
+title: Boosting Zero-shot Cross-lingual Retrieval By Training On Artificially Code-switched
+  Data
+authors: Robert Litschko, Ekaterina Artemova, Barbara Plank
+conference: 'Findings of the Association for Computational Linguistics: ACL 2023'
+year: 2023
+bibkey: litschko2023boosting
+citations: 2
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05295'}]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
+short_authors: Robert Litschko, Ekaterina Artemova, Barbara Plank
+---
+Transferring information retrieval (IR) models from a high-resource language
+(typically English) to other languages in a zero-shot fashion has become a
+widely adopted approach. In this work, we show that the effectiveness of
+zero-shot rankers diminishes when queries and documents are present in
+different languages. Motivated by this, we propose to train ranking models on
+artificially code-switched data instead, which we generate by utilizing
+bilingual lexicons. To this end, we experiment with lexicons induced from (1)
+cross-lingual word embeddings and (2) parallel Wikipedia page titles. We use
+the mMARCO dataset to extensively evaluate reranking models on 36 language
+pairs spanning Monolingual IR (MoIR), Cross-lingual IR (CLIR), and Multilingual
+IR (MLIR). Our results show that code-switching can yield consistent and
+substantial gains of 5.1 MRR@10 in CLIR and 3.9 MRR@10 in MLIR, while
+maintaining stable performance in MoIR. Encouragingly, the gains are especially
+pronounced for distant languages (up to 2x absolute gain). We further show that
+our approach is robust towards the ratio of code-switched tokens and also
+extends to unseen languages. Our results demonstrate that training on
+code-switched data is a cheap and effective way of generalizing zero-shot
+rankers for cross-lingual and multilingual retrieval.

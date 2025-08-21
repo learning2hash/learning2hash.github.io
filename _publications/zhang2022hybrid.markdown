@@ -1,0 +1,33 @@
+---
+layout: publication
+title: Hybrid Inverted Index Is A Robust Accelerator For Dense Retrieval
+authors: Peitian Zhang, Zheng Liu, Shitao Xiao, Zhicheng Dou, Jing Yao
+conference: Proceedings of the 2023 Conference on Empirical Methods in Natural Language
+  Processing
+year: 2023
+bibkey: zhang2022hybrid
+citations: 3
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.05521'}]
+tags: ["EMNLP", "Efficiency", "Unsupervised", "Vector Indexing"]
+short_authors: Zhang et al.
+---
+Inverted file structure is a common technique for accelerating dense
+retrieval. It clusters documents based on their embeddings; during searching,
+it probes nearby clusters w.r.t. an input query and only evaluates documents
+within them by subsequent codecs, thus avoiding the expensive cost of
+exhaustive traversal. However, the clustering is always lossy, which results in
+the miss of relevant documents in the probed clusters and hence degrades
+retrieval quality. In contrast, lexical matching, such as overlaps of salient
+terms, tends to be strong feature for identifying relevant documents. In this
+work, we present the Hybrid Inverted Index (HI\\(^2\\)), where the embedding
+clusters and salient terms work collaboratively to accelerate dense retrieval.
+To make best of both effectiveness and efficiency, we devise a cluster selector
+and a term selector, to construct compact inverted lists and efficiently
+searching through them. Moreover, we leverage simple unsupervised algorithms as
+well as end-to-end knowledge distillation to learn these two modules, with the
+latter further boosting the effectiveness. Based on comprehensive experiments
+on popular retrieval benchmarks, we verify that clusters and terms indeed
+complement each other, enabling HI\\(^2\\) to achieve lossless retrieval quality
+with competitive efficiency across various index settings. Our code and
+checkpoint are publicly available at
+https://github.com/namespace-Pt/Adon/tree/HI2.
