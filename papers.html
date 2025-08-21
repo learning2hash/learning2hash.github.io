@@ -135,7 +135,9 @@ description: A list of research papers for Learning to Hash.
     return {
       year,
       title,
-      title_link: url ? <a href="${url}">${escapeHtml(title)}</a> : escapeHtml(title),
+      title_link: url
+        ? `<a href="${url}">${escapeHtml(title)}</a>`
+        : escapeHtml(title),
       short_authors,
       authors,   // keep full authors hidden but searchable
       citations
