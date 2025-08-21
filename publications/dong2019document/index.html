@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dong2019document/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Document Hashing With Mixture-prior Generative Models" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"Hashing is promising for large-scale information retrieval tasks thanks to the efficiency of distance evaluation between binary codes. Generative hashing is often used to generate hashing codes in an unsupervised way. However, existing generative hashing methods only considered the use of simple priors, like Gaussian and Bernoulli priors, which limits these methods to further improve their performance. In this paper, two mixture-prior generative models are proposed, under the objective to produce high-quality hashing codes for documents. Specifically, a Gaussian mixture prior is first imposed onto the variational auto-encoder (VAE), followed by a separate step to cast the continuous latent representation of VAE into binary code. To avoid the performance loss caused by the separate casting, a model using a Bernoulli mixture prior is further developed, in which an end-to-end training is admitted by resorting to the straight-through (ST) discrete gradient estimator. Experimental results on several benchmark datasets demonstrate that the proposed methods, especially the one using Bernoulli mixture priors, consistently outperform existing ones by a substantial margin.","headline":"Document Hashing With Mixture-prior Generative Models","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2019document/"},"url":"https://learning2hash.github.io/publications/dong2019document/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"Hashing is promising for large-scale information retrieval tasks thanks to the efficiency of distance evaluation between binary codes. Generative hashing is often used to generate hashing codes in an unsupervised way. However, existing generative hashing methods only considered the use of simple priors, like Gaussian and Bernoulli priors, which limits these methods to further improve their performance. In this paper, two mixture-prior generative models are proposed, under the objective to produce high-quality hashing codes for documents. Specifically, a Gaussian mixture prior is first imposed onto the variational auto-encoder (VAE), followed by a separate step to cast the continuous latent representation of VAE into binary code. To avoid the performance loss caused by the separate casting, a model using a Bernoulli mixture prior is further developed, in which an end-to-end training is admitted by resorting to the straight-through (ST) discrete gradient estimator. Experimental results on several benchmark datasets demonstrate that the proposed methods, especially the one using Bernoulli mixture priors, consistently outperform existing ones by a substantial margin.","headline":"Document Hashing With Mixture-prior Generative Models","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2019document/"},"url":"https://learning2hash.github.io/publications/dong2019document/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -227,20 +227,32 @@ consistently outperform existing ones by a substantial margin.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/dong2019document.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/dong2019document.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

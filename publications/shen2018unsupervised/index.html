@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/shen2018unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unsupervised Deep Hashing With Similarity-adaptive And Discrete Optimization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"Recent vision and learning studies show that learning compact hash codes can facilitate massive data processing with significantly reduced storage and computation. Particularly, learning deep hash functions has greatly improved the retrieval performance, typically under the semantic supervision. In contrast, current unsupervised deep hashing algorithms can hardly achieve satisfactory performance due to either the relaxed optimization or absence of similarity-sensitive objective. In this work, we propose a simple yet effective unsupervised hashing framework, named Similarity-Adaptive Deep Hashing (SADH), which alternatingly proceeds over three training modules: deep hash model training, similarity graph updating and binary code optimization. The key difference from the widely-used two-step hashing method is that the output representations of the learned deep model help update the similarity graph matrix, which is then used to improve the subsequent code optimization. In addition, for producing high-quality binary codes, we devise an effective discrete optimization algorithm which can directly handle the binary constraints with a general hashing loss. Extensive experiments validate the efficacy of SADH, which consistently outperforms the state-of-the-arts by large gaps.","headline":"Unsupervised Deep Hashing With Similarity-adaptive And Discrete Optimization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shen2018unsupervised/"},"url":"https://learning2hash.github.io/publications/shen2018unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"Recent vision and learning studies show that learning compact hash codes can facilitate massive data processing with significantly reduced storage and computation. Particularly, learning deep hash functions has greatly improved the retrieval performance, typically under the semantic supervision. In contrast, current unsupervised deep hashing algorithms can hardly achieve satisfactory performance due to either the relaxed optimization or absence of similarity-sensitive objective. In this work, we propose a simple yet effective unsupervised hashing framework, named Similarity-Adaptive Deep Hashing (SADH), which alternatingly proceeds over three training modules: deep hash model training, similarity graph updating and binary code optimization. The key difference from the widely-used two-step hashing method is that the output representations of the learned deep model help update the similarity graph matrix, which is then used to improve the subsequent code optimization. In addition, for producing high-quality binary codes, we devise an effective discrete optimization algorithm which can directly handle the binary constraints with a general hashing loss. Extensive experiments validate the efficacy of SADH, which consistently outperforms the state-of-the-arts by large gaps.","headline":"Unsupervised Deep Hashing With Similarity-adaptive And Discrete Optimization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shen2018unsupervised/"},"url":"https://learning2hash.github.io/publications/shen2018unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -219,20 +219,32 @@ experiments validate the efficacy of SADH, which consistently outperforms the st
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/shen2018unsupervised.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/shen2018unsupervised.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

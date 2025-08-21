@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/godi2021movingfashion/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Movingfashion: A Benchmark For The Video-to-shop Challenge" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"Retrieving clothes which are worn in social media videos (Instagram, TikTok) is the latest frontier of e-fashion, referred to as “video-to-shop” in the computer vision literature. In this paper we present MovingFashion, the first publicly available dataset to cope with this challenge. MovingFashion is composed of 14855 social videos, each one of them associated to e-commerce “shop” images where the corresponding clothing items are clearly portrayed. In addition, we present a network for retrieving the shop images in this scenario, dubbed SEAM Match-RCNN. The model is trained by image-to-video domain adaptation, allowing to use video sequences where only their association with a shop image is given, eliminating the need of millions of annotated bounding boxes. SEAM Match-RCNN builds an embedding, where an attention-based weighted sum of few frames (10) of a social video is enough to individuate the correct product within the first 5 retrieved items in a 14K+ shop element gallery with an accuracy of 80%. This provides the best performance on MovingFashion, comparing exhaustively against the related state-of-the-art approaches and alternative baselines.","headline":"Movingfashion: A Benchmark For The Video-to-shop Challenge","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/godi2021movingfashion/"},"url":"https://learning2hash.github.io/publications/godi2021movingfashion/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"Retrieving clothes which are worn in social media videos (Instagram, TikTok) is the latest frontier of e-fashion, referred to as “video-to-shop” in the computer vision literature. In this paper we present MovingFashion, the first publicly available dataset to cope with this challenge. MovingFashion is composed of 14855 social videos, each one of them associated to e-commerce “shop” images where the corresponding clothing items are clearly portrayed. In addition, we present a network for retrieving the shop images in this scenario, dubbed SEAM Match-RCNN. The model is trained by image-to-video domain adaptation, allowing to use video sequences where only their association with a shop image is given, eliminating the need of millions of annotated bounding boxes. SEAM Match-RCNN builds an embedding, where an attention-based weighted sum of few frames (10) of a social video is enough to individuate the correct product within the first 5 retrieved items in a 14K+ shop element gallery with an accuracy of 80%. This provides the best performance on MovingFashion, comparing exhaustively against the related state-of-the-art approaches and alternative baselines.","headline":"Movingfashion: A Benchmark For The Video-to-shop Challenge","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/godi2021movingfashion/"},"url":"https://learning2hash.github.io/publications/godi2021movingfashion/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -215,20 +215,32 @@ alternative baselines.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/godi2021movingfashion.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/godi2021movingfashion.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

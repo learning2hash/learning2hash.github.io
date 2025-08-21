@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/cakaloglu2018text/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Text Embeddings For Retrieval From A Large Knowledge Base" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"Text embedding representing natural language documents in a semantic vector space can be used for document retrieval using nearest neighbor lookup. In order to study the feasibility of neural models specialized for retrieval in a semantically meaningful way, we suggest the use of the Stanford Question Answering Dataset (SQuAD) in an open-domain question answering context, where the first task is to find paragraphs useful for answering a given question. First, we compare the quality of various text-embedding methods on the performance of retrieval and give an extensive empirical comparison on the performance of various non-augmented base embedding with, and without IDF weighting. Our main results are that by training deep residual neural models, specifically for retrieval purposes, can yield significant gains when it is used to augment existing embeddings. We also establish that deeper models are superior to this task. The best base baseline embeddings augmented by our learned neural approach improves the top-1 paragraph recall of the system by 14%.","headline":"Text Embeddings For Retrieval From A Large Knowledge Base","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/cakaloglu2018text/"},"url":"https://learning2hash.github.io/publications/cakaloglu2018text/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"Text embedding representing natural language documents in a semantic vector space can be used for document retrieval using nearest neighbor lookup. In order to study the feasibility of neural models specialized for retrieval in a semantically meaningful way, we suggest the use of the Stanford Question Answering Dataset (SQuAD) in an open-domain question answering context, where the first task is to find paragraphs useful for answering a given question. First, we compare the quality of various text-embedding methods on the performance of retrieval and give an extensive empirical comparison on the performance of various non-augmented base embedding with, and without IDF weighting. Our main results are that by training deep residual neural models, specifically for retrieval purposes, can yield significant gains when it is used to augment existing embeddings. We also establish that deeper models are superior to this task. The best base baseline embeddings augmented by our learned neural approach improves the top-1 paragraph recall of the system by 14%.","headline":"Text Embeddings For Retrieval From A Large Knowledge Base","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/cakaloglu2018text/"},"url":"https://learning2hash.github.io/publications/cakaloglu2018text/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -216,20 +216,32 @@ learned neural approach improves the top-1 paragraph recall of the system by
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/cakaloglu2018text.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/cakaloglu2018text.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

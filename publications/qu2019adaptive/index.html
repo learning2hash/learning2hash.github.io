@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/qu2019adaptive/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Adaptive Loss-aware Quantization For Multi-bit Networks" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"We investigate the compression of deep neural networks by quantizing their weights and activations into multiple binary bases, known as multi-bit networks (MBNs), which accelerate the inference and reduce the storage for the deployment on low-resource mobile and embedded platforms. We propose Adaptive Loss-aware Quantization (ALQ), a new MBN quantization pipeline that is able to achieve an average bitwidth below one-bit without notable loss in inference accuracy. Unlike previous MBN quantization solutions that train a quantizer by minimizing the error to reconstruct full precision weights, ALQ directly minimizes the quantization-induced error on the loss function involving neither gradient approximation nor full precision maintenance. ALQ also exploits strategies including adaptive bitwidth, smooth bitwidth reduction, and iterative trained quantization to allow a smaller network size without loss in accuracy. Experiment results on popular image datasets show that ALQ outperforms state-of-the-art compressed networks in terms of both storage and accuracy. Code is available at https://github.com/zqu1992/ALQ","headline":"Adaptive Loss-aware Quantization For Multi-bit Networks","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/qu2019adaptive/"},"url":"https://learning2hash.github.io/publications/qu2019adaptive/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"We investigate the compression of deep neural networks by quantizing their weights and activations into multiple binary bases, known as multi-bit networks (MBNs), which accelerate the inference and reduce the storage for the deployment on low-resource mobile and embedded platforms. We propose Adaptive Loss-aware Quantization (ALQ), a new MBN quantization pipeline that is able to achieve an average bitwidth below one-bit without notable loss in inference accuracy. Unlike previous MBN quantization solutions that train a quantizer by minimizing the error to reconstruct full precision weights, ALQ directly minimizes the quantization-induced error on the loss function involving neither gradient approximation nor full precision maintenance. ALQ also exploits strategies including adaptive bitwidth, smooth bitwidth reduction, and iterative trained quantization to allow a smaller network size without loss in accuracy. Experiment results on popular image datasets show that ALQ outperforms state-of-the-art compressed networks in terms of both storage and accuracy. Code is available at https://github.com/zqu1992/ALQ","headline":"Adaptive Loss-aware Quantization For Multi-bit Networks","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/qu2019adaptive/"},"url":"https://learning2hash.github.io/publications/qu2019adaptive/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -218,20 +218,32 @@ accuracy. Code is available at https://github.com/zqu1992/ALQ</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/qu2019adaptive.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/qu2019adaptive.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

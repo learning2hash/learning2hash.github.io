@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2018omnidirectional/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Omnidirectional CNN For Visual Place Recognition And Navigation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"( )Visual place recognition is challenging, especially when only a few place exemplars are given. To mitigate the challenge, we consider place recognition method using omnidirectional cameras and propose a novel Omnidirectional Convolutional Neural Network (O-CNN) to handle severe camera pose variation. Given a visual input, the task of the O-CNN is not to retrieve the matched place exemplar, but to retrieve the closest place exemplar and estimate the relative distance between the input and the closest place. With the ability to estimate relative distance, a heuristic policy is proposed to navigate a robot to the retrieved closest place. Note that the network is designed to take advantage of the omnidirectional view by incorporating circular padding and rotation invariance. To train a powerful O-CNN, we build a virtual world for training on a large scale. We also propose a continuous lifted structured feature embedding loss to learn the concept of distance efficiently. Finally, our experimental results confirm that our method achieves state-of-the-art accuracy and speed with both the virtual world and real-world datasets.","headline":"Omnidirectional CNN For Visual Place Recognition And Navigation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2018omnidirectional/"},"url":"https://learning2hash.github.io/publications/wang2018omnidirectional/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"( )Visual place recognition is challenging, especially when only a few place exemplars are given. To mitigate the challenge, we consider place recognition method using omnidirectional cameras and propose a novel Omnidirectional Convolutional Neural Network (O-CNN) to handle severe camera pose variation. Given a visual input, the task of the O-CNN is not to retrieve the matched place exemplar, but to retrieve the closest place exemplar and estimate the relative distance between the input and the closest place. With the ability to estimate relative distance, a heuristic policy is proposed to navigate a robot to the retrieved closest place. Note that the network is designed to take advantage of the omnidirectional view by incorporating circular padding and rotation invariance. To train a powerful O-CNN, we build a virtual world for training on a large scale. We also propose a continuous lifted structured feature embedding loss to learn the concept of distance efficiently. Finally, our experimental results confirm that our method achieves state-of-the-art accuracy and speed with both the virtual world and real-world datasets.","headline":"Omnidirectional CNN For Visual Place Recognition And Navigation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2018omnidirectional/"},"url":"https://learning2hash.github.io/publications/wang2018omnidirectional/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -214,20 +214,32 @@ accuracy and speed with both the virtual world and real-world datasets.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/wang2018omnidirectional.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/wang2018omnidirectional.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/hartel2023darkdiff/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Darkdiff: Explainable Web Page Similarity Of TOR Onion Sites" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"In large-scale data analysis, near-duplicates are often a problem. For example, with two near-duplicate phishing emails, a difference in the salutation (Mr versus Ms) is not essential, but whether it is bank A or B is important. The state-of-the-art in near-duplicate detection is a black box approach (MinHash), so one only knows that emails are near-duplicates, but not why. We present DarkDiff, which can efficiently detect near-duplicates while providing the reason why there is a near-duplicate. We have developed DarkDiff to detect near-duplicates of homepages on the Darkweb. DarkDiff works well on those pages because they resemble the clear web of the past.","headline":"Darkdiff: Explainable Web Page Similarity Of TOR Onion Sites","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hartel2023darkdiff/"},"url":"https://learning2hash.github.io/publications/hartel2023darkdiff/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"In large-scale data analysis, near-duplicates are often a problem. For example, with two near-duplicate phishing emails, a difference in the salutation (Mr versus Ms) is not essential, but whether it is bank A or B is important. The state-of-the-art in near-duplicate detection is a black box approach (MinHash), so one only knows that emails are near-duplicates, but not why. We present DarkDiff, which can efficiently detect near-duplicates while providing the reason why there is a near-duplicate. We have developed DarkDiff to detect near-duplicates of homepages on the Darkweb. DarkDiff works well on those pages because they resemble the clear web of the past.","headline":"Darkdiff: Explainable Web Page Similarity Of TOR Onion Sites","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hartel2023darkdiff/"},"url":"https://learning2hash.github.io/publications/hartel2023darkdiff/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -208,20 +208,32 @@ those pages because they resemble the clear web of the past.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/hartel2023darkdiff.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/hartel2023darkdiff.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

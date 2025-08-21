@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yu2022federated/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Federated Graph-based Networks With Shared Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"Nowadays, user privacy is becoming an issue that cannot be bypassed for system developers, especially for that of web applications where data can be easily transferred through internet. Thankfully, federated learning proposes an innovative method to train models with distributed devices while data are kept in local storage. However, unlike general neural networks, although graph-based networks have achieved great success in classification tasks and advanced recommendation system, its high performance relies on the rich context provided by a graph structure, which is vulnerable when data attributes are incomplete. Therefore, the latter becomes a realistic problem when implementing federated learning for graph-based networks. Knowing that data embedding is a representation in a different space, we propose our Federated Graph-based Networks with Shared Embedding (Feras), which uses shared embedding data to train the network and avoids the direct sharing of original data. A solid theoretical proof of the convergence of Feras is given in this work. Experiments on different datasets (PPI, Flickr, Reddit) are conducted to show the efficiency of Feras for centralized learning. Finally, Feras enables the training of current graph-based models in the federated learning framework for privacy concern.","headline":"Federated Graph-based Networks With Shared Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yu2022federated/"},"url":"https://learning2hash.github.io/publications/yu2022federated/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"Nowadays, user privacy is becoming an issue that cannot be bypassed for system developers, especially for that of web applications where data can be easily transferred through internet. Thankfully, federated learning proposes an innovative method to train models with distributed devices while data are kept in local storage. However, unlike general neural networks, although graph-based networks have achieved great success in classification tasks and advanced recommendation system, its high performance relies on the rich context provided by a graph structure, which is vulnerable when data attributes are incomplete. Therefore, the latter becomes a realistic problem when implementing federated learning for graph-based networks. Knowing that data embedding is a representation in a different space, we propose our Federated Graph-based Networks with Shared Embedding (Feras), which uses shared embedding data to train the network and avoids the direct sharing of original data. A solid theoretical proof of the convergence of Feras is given in this work. Experiments on different datasets (PPI, Flickr, Reddit) are conducted to show the efficiency of Feras for centralized learning. Finally, Feras enables the training of current graph-based models in the federated learning framework for privacy concern.","headline":"Federated Graph-based Networks With Shared Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yu2022federated/"},"url":"https://learning2hash.github.io/publications/yu2022federated/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -225,20 +225,32 @@ privacy concern.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/yu2022federated.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/yu2022federated.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

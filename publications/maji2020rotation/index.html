@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/maji2020rotation/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Rotation Invariant Deep CBIR" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"Introduction of Convolutional Neural Networks has improved results on almost every image-based problem and Content-Based Image Retrieval is not an exception. But the CNN features, being rotation invariant, creates problems to build a rotation-invariant CBIR system. Though rotation-invariant features can be hand-engineered, the retrieval accuracy is very low because by hand engineering only low-level features can be created, unlike deep learning models that create high-level features along with low-level features. This paper shows a novel method to build a rotational invariant CBIR system by introducing a deep learning orientation angle detection model along with the CBIR feature extraction model. This paper also highlights that this rotation invariant deep CBIR can retrieve images from a large dataset in real-time.","headline":"Rotation Invariant Deep CBIR","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/maji2020rotation/"},"url":"https://learning2hash.github.io/publications/maji2020rotation/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"Introduction of Convolutional Neural Networks has improved results on almost every image-based problem and Content-Based Image Retrieval is not an exception. But the CNN features, being rotation invariant, creates problems to build a rotation-invariant CBIR system. Though rotation-invariant features can be hand-engineered, the retrieval accuracy is very low because by hand engineering only low-level features can be created, unlike deep learning models that create high-level features along with low-level features. This paper shows a novel method to build a rotational invariant CBIR system by introducing a deep learning orientation angle detection model along with the CBIR feature extraction model. This paper also highlights that this rotation invariant deep CBIR can retrieve images from a large dataset in real-time.","headline":"Rotation Invariant Deep CBIR","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/maji2020rotation/"},"url":"https://learning2hash.github.io/publications/maji2020rotation/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -214,20 +214,32 @@ CBIR can retrieve images from a large dataset in real-time.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/maji2020rotation.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/maji2020rotation.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

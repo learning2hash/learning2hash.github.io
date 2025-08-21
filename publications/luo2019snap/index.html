@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/luo2019snap/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Snap And Find: Deep Discrete Cross-domain Garment Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"With the increasing number of online stores, there is a pressing need for intelligent search systems to understand the item photos snapped by customers and search against large-scale product databases to find their desired items. However, it is challenging for conventional retrieval systems to match up the item photos captured by customers and the ones officially released by stores, especially for garment images. To bridge the customer- and store- provided garment photos, existing studies have been widely exploiting the clothing attributes (\\textit{e.g.,} black) and landmarks (\\textit{e.g.,} collar) to learn a common embedding space for garment representations. Unfortunately they omit the sequential correlation of attributes and consume large quantity of human labors to label the landmarks. In this paper, we propose a deep multi-task cross-domain hashing termed \\textit{DMCH}, in which cross-domain embedding and sequential attribute learning are modeled simultaneously. Sequential attribute learning not only provides the semantic guidance for embedding, but also generates rich attention on discriminative local details (\\textit{e.g.,} black buttons) of clothing items without requiring extra landmark labels. This leads to promising performance and 306(\\times) boost on efficiency when compared with the state-of-the-art models, which is demonstrated through rigorous experiments on two public fashion datasets.","headline":"Snap And Find: Deep Discrete Cross-domain Garment Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/luo2019snap/"},"url":"https://learning2hash.github.io/publications/luo2019snap/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"With the increasing number of online stores, there is a pressing need for intelligent search systems to understand the item photos snapped by customers and search against large-scale product databases to find their desired items. However, it is challenging for conventional retrieval systems to match up the item photos captured by customers and the ones officially released by stores, especially for garment images. To bridge the customer- and store- provided garment photos, existing studies have been widely exploiting the clothing attributes (\\textit{e.g.,} black) and landmarks (\\textit{e.g.,} collar) to learn a common embedding space for garment representations. Unfortunately they omit the sequential correlation of attributes and consume large quantity of human labors to label the landmarks. In this paper, we propose a deep multi-task cross-domain hashing termed \\textit{DMCH}, in which cross-domain embedding and sequential attribute learning are modeled simultaneously. Sequential attribute learning not only provides the semantic guidance for embedding, but also generates rich attention on discriminative local details (\\textit{e.g.,} black buttons) of clothing items without requiring extra landmark labels. This leads to promising performance and 306(\\times) boost on efficiency when compared with the state-of-the-art models, which is demonstrated through rigorous experiments on two public fashion datasets.","headline":"Snap And Find: Deep Discrete Cross-domain Garment Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/luo2019snap/"},"url":"https://learning2hash.github.io/publications/luo2019snap/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -226,20 +226,32 @@ demonstrated through rigorous experiments on two public fashion datasets.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/luo2019snap.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/luo2019snap.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

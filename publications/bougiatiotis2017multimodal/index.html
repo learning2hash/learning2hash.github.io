@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/bougiatiotis2017multimodal/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multimodal Content Representation And Similarity Ranking Of Movies" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"In this paper we examine the existence of correlation between movie similarity and low level features from respective movie content. In particular, we demonstrate the extraction of multi-modal representation models of movies based on subtitles, audio and metadata mining. We emphasize our research in topic modeling of movies based on their subtitles. In order to demonstrate the proposed content representation approach, we have built a small dataset of 160 widely known movies. We assert movie similarities, as propagated by the singular modalities and fusion models, in the form of recommendation rankings. We showcase a novel topic model browser for movies that allows for exploration of the different aspects of similarities between movies and an information retrieval system for movie similarity based on multi-modal content.","headline":"Multimodal Content Representation And Similarity Ranking Of Movies","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bougiatiotis2017multimodal/"},"url":"https://learning2hash.github.io/publications/bougiatiotis2017multimodal/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"In this paper we examine the existence of correlation between movie similarity and low level features from respective movie content. In particular, we demonstrate the extraction of multi-modal representation models of movies based on subtitles, audio and metadata mining. We emphasize our research in topic modeling of movies based on their subtitles. In order to demonstrate the proposed content representation approach, we have built a small dataset of 160 widely known movies. We assert movie similarities, as propagated by the singular modalities and fusion models, in the form of recommendation rankings. We showcase a novel topic model browser for movies that allows for exploration of the different aspects of similarities between movies and an information retrieval system for movie similarity based on multi-modal content.","headline":"Multimodal Content Representation And Similarity Ranking Of Movies","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bougiatiotis2017multimodal/"},"url":"https://learning2hash.github.io/publications/bougiatiotis2017multimodal/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -210,20 +210,32 @@ retrieval system for movie similarity based on multi-modal content.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/bougiatiotis2017multimodal.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/bougiatiotis2017multimodal.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

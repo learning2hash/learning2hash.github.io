@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/silveria2020exploratory/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Exploratory Search With Sentence Embeddings" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"Exploratory search aims to guide users through a corpus rather than pinpointing exact information. We propose an exploratory search system based on hierarchical clusters and document summaries using sentence embeddings. With sentence embeddings, we represent documents as the mean of their embedded sentences, extract summaries containing sentences close to this document representation and extract keyphrases close to the document representation. To evaluate our search system, we scrape our personal search history over the past year and report our experience with the system. We then discuss motivating use cases of an exploratory search system of this nature and conclude with possible directions of future work.","headline":"Exploratory Search With Sentence Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/silveria2020exploratory/"},"url":"https://learning2hash.github.io/publications/silveria2020exploratory/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"Exploratory search aims to guide users through a corpus rather than pinpointing exact information. We propose an exploratory search system based on hierarchical clusters and document summaries using sentence embeddings. With sentence embeddings, we represent documents as the mean of their embedded sentences, extract summaries containing sentences close to this document representation and extract keyphrases close to the document representation. To evaluate our search system, we scrape our personal search history over the past year and report our experience with the system. We then discuss motivating use cases of an exploratory search system of this nature and conclude with possible directions of future work.","headline":"Exploratory Search With Sentence Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/silveria2020exploratory/"},"url":"https://learning2hash.github.io/publications/silveria2020exploratory/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -207,20 +207,32 @@ directions of future work.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/silveria2020exploratory.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/silveria2020exploratory.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

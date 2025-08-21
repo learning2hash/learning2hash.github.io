@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/severo2025lossless/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Lossless Compression Of Vector Ids For Approximate Nearest Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"Approximate nearest neighbor search for vectors relies on indexes that are most often accessed from RAM. Therefore, storage is the factor limiting the size of the database that can be served from a machine. Lossy vector compression, i.e., embedding quantization, has been applied extensively to reduce the size of indexes. However, for inverted file and graph-based indices, auxiliary data such as vector ids and links (edges) can represent most of the storage cost. We introduce and evaluate lossless compression schemes for these cases. These approaches are based on asymmetric numeral systems or wavelet trees that exploit the fact that the ordering of ids is irrelevant within the data structures. In some settings, we are able to compress the vector ids by a factor 7, with no impact on accuracy or search runtime. On billion-scale datasets, this results in a reduction of 30% of the index size. Furthermore, we show that for some datasets, these methods can also compress the quantized vector codes losslessly, by exploiting sub-optimalities in the original quantization algorithm. The source code for our approach available at https://github.com/facebookresearch/vector_db_id_compression.","headline":"Lossless Compression Of Vector Ids For Approximate Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/severo2025lossless/"},"url":"https://learning2hash.github.io/publications/severo2025lossless/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"Approximate nearest neighbor search for vectors relies on indexes that are most often accessed from RAM. Therefore, storage is the factor limiting the size of the database that can be served from a machine. Lossy vector compression, i.e., embedding quantization, has been applied extensively to reduce the size of indexes. However, for inverted file and graph-based indices, auxiliary data such as vector ids and links (edges) can represent most of the storage cost. We introduce and evaluate lossless compression schemes for these cases. These approaches are based on asymmetric numeral systems or wavelet trees that exploit the fact that the ordering of ids is irrelevant within the data structures. In some settings, we are able to compress the vector ids by a factor 7, with no impact on accuracy or search runtime. On billion-scale datasets, this results in a reduction of 30% of the index size. Furthermore, we show that for some datasets, these methods can also compress the quantized vector codes losslessly, by exploiting sub-optimalities in the original quantization algorithm. The source code for our approach available at https://github.com/facebookresearch/vector_db_id_compression.","headline":"Lossless Compression Of Vector Ids For Approximate Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/severo2025lossless/"},"url":"https://learning2hash.github.io/publications/severo2025lossless/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -227,20 +227,32 @@ https://github.com/facebookresearch/vector_db_id_compression.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/severo2025lossless.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/severo2025lossless.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>

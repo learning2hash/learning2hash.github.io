@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/bai2018learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T05:27:26-05:00" />
+<meta property="article:published_time" content="2025-08-21T05:35:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning-based Efficient Graph Similarity Computation Via Multi-scale Convolutional Set Matching" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:27:26-05:00","datePublished":"2025-08-21T05:27:26-05:00","description":"Graph similarity computation is one of the core operations in many graph-based applications, such as graph similarity search, graph database analysis, graph clustering, etc. Since computing the exact distance/similarity between two graphs is typically NP-hard, a series of approximate methods have been proposed with a trade-off between accuracy and speed. Recently, several data-driven approaches based on neural networks have been proposed, most of which model the graph-graph similarity as the inner product of their graph-level representations, with different techniques proposed for generating one embedding per graph. However, using one fixed-dimensional embedding per graph may fail to fully capture graphs in varying sizes and link structures, a limitation that is especially problematic for the task of graph similarity computation, where the goal is to find the fine-grained difference between two graphs. In this paper, we address the problem of graph similarity computation from another perspective, by directly matching two sets of node embeddings without the need to use fixed-dimensional vectors to represent whole graphs for their similarity computation. The model, GraphSim, achieves the state-of-the-art performance on four real-world graph datasets under six out of eight settings (here we count a specific dataset and metric combination as one setting), compared to existing popular methods for approximate Graph Edit Distance (GED) and Maximum Common Subgraph (MCS) computation.","headline":"Learning-based Efficient Graph Similarity Computation Via Multi-scale Convolutional Set Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bai2018learning/"},"url":"https://learning2hash.github.io/publications/bai2018learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T05:35:42-05:00","datePublished":"2025-08-21T05:35:42-05:00","description":"Graph similarity computation is one of the core operations in many graph-based applications, such as graph similarity search, graph database analysis, graph clustering, etc. Since computing the exact distance/similarity between two graphs is typically NP-hard, a series of approximate methods have been proposed with a trade-off between accuracy and speed. Recently, several data-driven approaches based on neural networks have been proposed, most of which model the graph-graph similarity as the inner product of their graph-level representations, with different techniques proposed for generating one embedding per graph. However, using one fixed-dimensional embedding per graph may fail to fully capture graphs in varying sizes and link structures, a limitation that is especially problematic for the task of graph similarity computation, where the goal is to find the fine-grained difference between two graphs. In this paper, we address the problem of graph similarity computation from another perspective, by directly matching two sets of node embeddings without the need to use fixed-dimensional vectors to represent whole graphs for their similarity computation. The model, GraphSim, achieves the state-of-the-art performance on four real-world graph datasets under six out of eight settings (here we count a specific dataset and metric combination as one setting), compared to existing popular methods for approximate Graph Edit Distance (GED) and Maximum Common Subgraph (MCS) computation.","headline":"Learning-based Efficient Graph Similarity Computation Via Multi-scale Convolutional Set Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bai2018learning/"},"url":"https://learning2hash.github.io/publications/bai2018learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -225,20 +225,32 @@ Distance (GED) and Maximum Common Subgraph (MCS) computation.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <script defer>
-    $(function () {
-      $.getJSON(
-        "/publications-metadata/bai2018learning.json"
-      ).done(function (data) {
-        const num_papers = data.length;
-        let html = "";
-        for (let i = 0; i < num_papers; i++) {
-          html += '<li><a href="/publications/' + data[i][0] + '">' + data[i][1] + '</a></li>';
-        }
-        $("#relwork").append(html);
-      }).fail(function (jqXHR, textStatus) {
-        console.warn("Failed to load similar work JSON:", textStatus);
-      });
+  <!-- Vanilla JS: no jQuery needed -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var relwork = document.getElementById('relwork');
+      if (!relwork) return;
+
+      var metaPath = "/publications-metadata/bai2018learning.json";
+
+      fetch(metaPath, { credentials: 'same-origin' })
+        .then(function (res) {
+          if (!res.ok) throw new Error(res.status + " " + res.statusText);
+          return res.json();
+        })
+        .then(function (data) {
+          if (!Array.isArray(data)) return;
+          relwork.innerHTML = data
+            .map(function (d) {
+              var slug = d[0];
+              var title = d[1];
+              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+            })
+            .join('');
+        })
+        .catch(function (err) {
+          console.warn("Failed to load similar work JSON:", err);
+        });
     });
   </script>
 </div>
