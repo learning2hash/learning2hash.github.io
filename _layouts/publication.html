@@ -6,10 +6,12 @@ layout: default
   <h1 class="page-title">{{ page.title }}</h1>
 
   <h5>
-    {% if page.short_authors %}
-      {{ page.short_authors }}
-    {% elsif page.authors %}
-      {{ page.authors | join: ", " }}
+    {% if page.authors %}
+    {% for author in page.authors %}
+      <a href="https://scholar.google.com/scholar?q={{ author | uri_escape }}" target="_blank" rel="noopener noreferrer">
+        {{ author }}
+      </a>{% if forloop.last == false %}, {% endif %}
+    {% endfor %}
     {% endif %}
     {% if page.conference %}. {{ page.conference }}{% endif %}
     {% if page.year %} {{ page.year }}{% endif %}
