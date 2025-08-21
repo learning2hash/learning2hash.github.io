@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/meng2021fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-08-21T06:32:09-05:00" />
+<meta property="article:published_time" content="2025-08-21T07:06:01-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast Nearest Neighbor Machine Translation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T06:32:09-05:00","datePublished":"2025-08-21T06:32:09-05:00","description":"Though nearest neighbor Machine Translation (\\(k\\)NN-MT) \\citep{khandelwal2020nearest} has proved to introduce significant performance boosts over standard neural MT systems, it is prohibitively slow since it uses the entire reference corpus as the datastore for the nearest neighbor search. This means each step for each beam in the beam search has to search over the entire reference corpus. \\(k\\)NN-MT is thus two-orders slower than vanilla MT models, making it hard to be applied to real-world applications, especially online services. In this work, we propose Fast \\(k\\)NN-MT to address this issue. Fast \\(k\\)NN-MT constructs a significantly smaller datastore for the nearest neighbor search: for each word in a source sentence, Fast \\(k\\)NN-MT first selects its nearest token-level neighbors, which is limited to tokens that are the same as the query token. Then at each decoding step, in contrast to using the entire corpus as the datastore, the search space is limited to target tokens corresponding to the previously selected reference source tokens. This strategy avoids search through the whole datastore for nearest neighbors and drastically improves decoding efficiency. Without loss of performance, Fast \\(k\\)NN-MT is two-orders faster than \\(k\\)NN-MT, and is only two times slower than the standard NMT model. Fast \\(k\\)NN-MT enables the practical use of \\(k\\)NN-MT systems in real-world MT applications. The code is available at https://github.com/ShannonAI/fast-knn-nmt","headline":"Fast Nearest Neighbor Machine Translation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/meng2021fast/"},"url":"https://learning2hash.github.io/publications/meng2021fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-08-21T07:06:01-05:00","datePublished":"2025-08-21T07:06:01-05:00","description":"Though nearest neighbor Machine Translation (\\(k\\)NN-MT) \\citep{khandelwal2020nearest} has proved to introduce significant performance boosts over standard neural MT systems, it is prohibitively slow since it uses the entire reference corpus as the datastore for the nearest neighbor search. This means each step for each beam in the beam search has to search over the entire reference corpus. \\(k\\)NN-MT is thus two-orders slower than vanilla MT models, making it hard to be applied to real-world applications, especially online services. In this work, we propose Fast \\(k\\)NN-MT to address this issue. Fast \\(k\\)NN-MT constructs a significantly smaller datastore for the nearest neighbor search: for each word in a source sentence, Fast \\(k\\)NN-MT first selects its nearest token-level neighbors, which is limited to tokens that are the same as the query token. Then at each decoding step, in contrast to using the entire corpus as the datastore, the search space is limited to target tokens corresponding to the previously selected reference source tokens. This strategy avoids search through the whole datastore for nearest neighbors and drastically improves decoding efficiency. Without loss of performance, Fast \\(k\\)NN-MT is two-orders faster than \\(k\\)NN-MT, and is only two times slower than the standard NMT model. Fast \\(k\\)NN-MT enables the practical use of \\(k\\)NN-MT systems in real-world MT applications. The code is available at https://github.com/ShannonAI/fast-knn-nmt","headline":"Fast Nearest Neighbor Machine Translation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/meng2021fast/"},"url":"https://learning2hash.github.io/publications/meng2021fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -167,7 +167,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   <h5>
     
-      Meng et al.
+    
+      <a href="https://scholar.google.com/scholar?q=Yuxian%20Meng,%20Xiaoya%20Li,%20Xiayu%20Zheng,%20Fei%20Wu,%20Xiaofei%20Sun,%20Tianwei%20Zhang,%20Jiwei%20Li" target="_blank" rel="noopener noreferrer">
+        Yuxian Meng, Xiaoya Li, Xiayu Zheng, Fei Wu, Xiaofei Sun, Tianwei Zhang, Jiwei Li
+      </a>
+    
     
     . Findings of the Association for Computational Linguistics: ACL 2022
      2022
