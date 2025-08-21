@@ -292,7 +292,9 @@ document.addEventListener('DOMContentLoaded', function () {
     return {
       year,
       title,
-      title_link: url ? <a href="${url}">${escapeHtml(title)}</a> : escapeHtml(title),
+      title_link: url
+        ? `<a href="${url}">${escapeHtml(title)}</a>`
+        : escapeHtml(title),
       short_authors,
       authors,   // keep full authors hidden but searchable
       citations
