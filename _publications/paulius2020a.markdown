@@ -1,0 +1,25 @@
+---
+layout: publication
+title: A Motion Taxonomy For Manipulation Embedding
+authors: David Paulius, Nicholas Eales, Yu Sun
+conference: 'Robotics: Science and Systems XVI'
+year: 2020
+bibkey: paulius2020a
+citations: 21
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.06695'}]
+tags: ["Distance Metric Learning", "Neural Hashing", "RSS"]
+short_authors: David Paulius, Nicholas Eales, Yu Sun
+---
+To represent motions from a mechanical point of view, this paper explores
+motion embedding using the motion taxonomy. With this taxonomy, manipulations
+can be described and represented as binary strings called motion codes. Motion
+codes capture mechanical properties, such as contact type and trajectory, that
+should be used to define suitable distance metrics between motions or loss
+functions for deep learning and reinforcement learning. Motion codes can also
+be used to consolidate aliases or cluster motion types that share similar
+properties. Using existing data sets as a reference, we discuss how motion
+codes can be created and assigned to actions that are commonly seen in
+activities of daily living based on intuition as well as real data. Motion
+codes are compared to vectors from pre-trained Word2Vec models, and we show
+that motion codes maintain distances that closely match the reality of
+manipulation.
