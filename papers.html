@@ -124,7 +124,9 @@ description: A list of research papers for Learning to Hash.
     const citations = toNumber(r.citations);
     const key = r.key || '';
     const title = (r.title || '').trim();
-    const short_authors = r.short_authors;
+    const short_authors = r.short_authors || (Array.isArray(r.authors)
+    ? r.authors.slice(0, 3).join(', ') + (r.authors.length > 3 ? ' et al.' : '')
+    : (r.authors || ''));
     const authors = Array.isArray(r.authors)
       ? r.authors.join(', ').trim()
       : (r.authors || '').trim();
