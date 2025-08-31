@@ -5,11 +5,7 @@ comments: true
 ---
 # Needles, Haystacks and Hashing: Smarter Search with AI
 
-[![Sean Moran](https://miro.medium.com/v2/resize:fill:64:64/1*lpM71JFYJa_mjPFMCmaEZA.png)](/@sean.j.moran?source=post_page---byline--24a15f85de0e---------------------------------------)[Sean Moran](/@sean.j.moran?source=post_page---byline--24a15f85de0e---------------------------------------)20 min read·Jan 11, 202451
-
-[Listen](/plans?dimension=post_audio_button&postId=24a15f85de0e&source=upgrade_membership---post_audio_button-----------------------------------------)Share
-
-More
+🔗 [Read on Medium](https://medium.com/@sean.j.moran/learning-to-hash-finding-the-needle-in-the-haystack-with-ai-24a15f85de0e)
 
 ## **How to find What You’re Looking For — Fast**
 
