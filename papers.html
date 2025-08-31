@@ -19,7 +19,7 @@ description: A list of research papers for Learning to Hash.
 <div class="controls">
   <div class="search">
     <label for="globalSearch"><strong>Search</strong></label>
-    <input id="globalSearch" type="search" placeholder="🔍 Search papers…" inputmode="search" />
+    <input id="globalSearch" type="search" placeholder="Search papers…" inputmode="search" />
     <button id="resetSearch" type="button">Clear</button>
   </div>
 </div>
@@ -99,6 +99,20 @@ description: A list of research papers for Learning to Hash.
   const PAGE_URL_PREFIX = '{{ site.baseurl }}' + '/publications/';
   const PAGE_URL_SUFFIX = ''; // e.g. '.html' if needed
 
+  // --- Hash/query helpers (enable deep-link search from sidebar) ---
+  function readHashQuery() {
+    const raw = window.location.hash ? window.location.hash.slice(1) : '';
+    if (!raw) return '';
+    try { return decodeURIComponent(raw.replace(/\+/g, ' ')); } catch { return raw; }
+  }
+  function setHash(q) {
+    if (q && q.trim().length) {
+      history.replaceState(null, '', '#' + encodeURIComponent(q.trim()));
+    } else {
+      history.replaceState(null, '', location.pathname + location.search);
+    }
+  }
+
   async function loadJSON() {
     // Fetch from repo root
     const res = await fetch('{{ site.baseurl }}/paper-abstracts.json', { cache: 'force-cache' });
@@ -109,7 +123,6 @@ description: A list of research papers for Learning to Hash.
   function toNumber(x) {
     if (x === null || x === undefined) return 0;
     if (typeof x === 'number') return x;
-    // Strip commas and non-digits
     const n = String(x).replace(/,/g, '').match(/-?\d+(\.\d+)?/);
     return n ? Number(n[0]) : 0;
   }
@@ -117,87 +130,6 @@ description: A list of research papers for Learning to Hash.
   function hasDT() {
     return window.jQuery && jQuery.fn && jQuery.fn.dataTable;
   }
-
-  function buildTable(rows) {
-  // Transform JSON into the minimal fields we need
-  const data = rows.map(r => {
-    const year = toNumber(r.year);
-    const citations = toNumber(r.citations);
-    const key = r.key || '';
-    const title = (r.title || '').trim();
-    const short_authors = r.short_authors || (Array.isArray(r.authors)
-    ? r.authors.slice(0, 3).join(', ') + (r.authors.length > 3 ? ' et al.' : '')
-    : (r.authors || ''));
-    const authors = Array.isArray(r.authors)
-      ? r.authors.join(', ').trim()
-      : (r.authors || '').trim();
-
-    const url = (r.url && String(r.url)) ||
-      (key ? (PAGE_URL_PREFIX + encodeURIComponent(key) + PAGE_URL_SUFFIX) : null);
-
-    return {
-      year,
-      title,
-      title_link: url
-        ? `<a href="${url}">${escapeHtml(title)}</a>`
-        : escapeHtml(title),
-      short_authors,
-      authors,   // keep full authors hidden but searchable
-      citations
-    };
-  });
-
-  const isMobile = window.matchMedia('(max-width: 768px)').matches;
-  const PAGE_LEN   = isMobile ? 50 : 200;
-  const LENGTH_MENU = isMobile ? [25, 50, 75, 100] : [25, 50, 100, 250, 1000, 2000];
-
-  const dt = jQuery('#allPapers').DataTable({
-    data,
-    columns: [
-      { data: 'year' },
-      { data: 'title_link' },
-      { data: 'short_authors' },   // show short authors in the visible column
-      { data: 'citations' },
-      { data: 'authors', visible: false, searchable: true } // hidden full authors
-    ],
-    columnDefs: [
-      { targets: 1, render: (data)=>data, orderable: true },
-      { targets: [0,3], type: 'num', searchable: false },  // Year & Citations not searchable
-      { targets: [1,2,4], searchable: true }               // Title, short_authors, and hidden authors searchable
-    ],
-    paging: true,
-    pageLength: PAGE_LEN,
-    lengthMenu: LENGTH_MENU,
-    searching: true,
-    order: [[3, 'desc']],    // Citations desc
-    autoWidth: true,
-    deferRender: true,
-    stateSave: !isMobile,
-    scrollX: true,
-    responsive: false,
-    orderClasses: false,
-    dom: 't<"bottom"ip>',
-    initComplete: function () {
-      const api = this.api();
-      if (loaderEl) loaderEl.style.display = 'none';
-
-      const debounce = (fn, ms = 100) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
-      if (input) input.addEventListener('input', debounce(() => api.search(input.value).draw(false), 80));
-      if (reset) reset.addEventListener('click', () => {
-        if (!input) return;
-        input.value='';
-        api.search('').draw(false);
-        input.focus();
-      });
-
-      setTimeout(() => api.columns.adjust().draw(false), 60);
-    }
-  });
-
-  const recalc = (() => { let t; return () => { clearTimeout(t); t=setTimeout(() => dt.columns.adjust(), 120); }; })();
-  window.addEventListener('resize', recalc);
-  window.addEventListener('orientationchange', recalc);
-}
 
   // Simple HTML escaper for titles
   function escapeHtml(s) {
@@ -209,11 +141,129 @@ description: A list of research papers for Learning to Hash.
       .replace(/'/g, '&#39;');
   }
 
+  function buildTable(rows, initialQuery) {
+    // Transform JSON into the minimal fields we need
+    const data = rows.map(r => {
+      const year = toNumber(r.year);
+      const citations = toNumber(r.citations);
+      const key = r.key || '';
+      const title = (r.title || '').trim();
+      const short_authors = r.short_authors || (Array.isArray(r.authors)
+        ? r.authors.slice(0, 3).join(', ') + (r.authors.length > 3 ? ' et al.' : '')
+        : (r.authors || ''));
+      const authors = Array.isArray(r.authors)
+        ? r.authors.join(', ').trim()
+        : (r.authors || '').trim();
+
+      const url = (r.url && String(r.url)) ||
+        (key ? (PAGE_URL_PREFIX + encodeURIComponent(key) + PAGE_URL_SUFFIX) : null);
+
+      return {
+        year,
+        title,
+        title_link: url
+          ? `<a href="${url}">${escapeHtml(title)}</a>`
+          : escapeHtml(title),
+        short_authors,
+        authors,   // keep full authors hidden but searchable
+        citations
+      };
+    });
+
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    const PAGE_LEN   = isMobile ? 50 : 200;
+    const LENGTH_MENU = isMobile ? [25, 50, 75, 100] : [25, 50, 100, 250, 1000, 2000];
+
+    const dt = jQuery('#allPapers').DataTable({
+      data,
+      columns: [
+        { data: 'year' },
+        { data: 'title_link' },
+        { data: 'short_authors' },   // show short authors in the visible column
+        { data: 'citations' },
+        { data: 'authors', visible: false, searchable: true } // hidden full authors
+      ],
+      columnDefs: [
+        { targets: 1, render: (data)=>data, orderable: true },
+        { targets: [0,3], type: 'num', searchable: false },  // Year & Citations not searchable
+        { targets: [1,2,4], searchable: true }               // Title, short_authors, and hidden authors searchable
+      ],
+      paging: true,
+      pageLength: PAGE_LEN,
+      lengthMenu: LENGTH_MENU,
+      searching: true,
+      order: [[3, 'desc']],    // Citations desc
+      autoWidth: true,
+      deferRender: true,
+      stateSave: !isMobile,
+      scrollX: true,
+      responsive: false,
+      orderClasses: false,
+      dom: 't<"bottom"ip>',
+      initComplete: function () {
+        const api = this.api();
+        if (loaderEl) loaderEl.style.display = 'none';
+
+        // Debounce helper
+        const debounce = (fn, ms = 120) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
+
+        // Apply initial hash query (from sidebar "Go" link)
+        if (typeof initialQuery === 'string' && initialQuery.length) {
+          if (input) input.value = initialQuery;
+          api.search(initialQuery).draw(false);
+        }
+
+        // Keep hash and table in sync when user types here
+        const applyFromInput = debounce(() => {
+          const q = input ? input.value : '';
+          api.search(q).draw(false);
+          setHash(q);
+        }, 120);
+
+        if (input) {
+          input.addEventListener('input', applyFromInput);
+          // Submit on Enter without jumping focus
+          input.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+              e.preventDefault();
+              applyFromInput();
+            }
+          });
+        }
+
+        if (reset) reset.addEventListener('click', () => {
+          if (!input) return;
+          input.value = '';
+          api.search('').draw(false);
+          setHash('');
+          input.focus();
+        });
+
+        // React to #hash changes (e.g. user clicks sidebar button or shares a link)
+        window.addEventListener('hashchange', () => {
+          const q = readHashQuery();
+          if (input) input.value = q;
+          api.search(q).draw(false);
+        });
+
+        // Resize fixes
+        setTimeout(() => api.columns.adjust().draw(false), 60);
+      }
+    });
+
+    // Adjust columns on viewport changes
+    const recalc = (() => { let t; return () => { clearTimeout(t); t=setTimeout(() => dt.columns.adjust(), 120); }; })();
+    window.addEventListener('resize', recalc);
+    window.addEventListener('orientationchange', recalc);
+  }
+
   async function start() {
     try {
       if (!hasDT()) throw new Error('DataTables missing');
+      const initialQuery = readHashQuery();
+      if (input && initialQuery) input.value = initialQuery;
       const rows = await loadJSON();
-      buildTable(rows);
+      buildTable(rows, initialQuery);
     } catch (err) {
       console.error(err);
       if (loaderEl) loaderEl.innerHTML = '<p>Sorry, failed to load papers.</p>';
