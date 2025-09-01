@@ -2,7 +2,7 @@
 layout: publication
 title: '"where Am I?" Scene Retrieval With Language'
 authors: Jiaqi Chen, Daniel Barath, Iro Armeni, Marc Pollefeys, Hermann Blum
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2024
 bibkey: chen2024where
 citations: 0

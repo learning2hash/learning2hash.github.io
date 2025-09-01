@@ -1,29 +1,32 @@
 ---
 layout: publication
-title: Improving Distantly-supervised Entity Typing With Compact Latent Space Clustering
-authors: Bo Chen, Xiaotao Gu, Yufeng Hu, Siliang Tang, Guoping Hu, Yueting Zhuang,
-  Xiang Ren
-conference: Proceedings of the 2019 Conference of the North
+title: Improving Deep Visual Representation For Person Re-identification By Global
+  And Local Image-language Association
+authors: Dapeng Chen, Hongsheng Li, Xihui Liu, Yantao Shen, Zejian Yuan, Xiaogang
+  Wang
+conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2019
 bibkey: chen2019improving
-citations: 20
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.06475'}]
+citations: 12
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.01571'}]
 tags: ["Efficiency", "Evaluation", "Supervised"]
 short_authors: Chen et al.
 ---
-Recently, distant supervision has gained great success on Fine-grained Entity
-Typing (FET). Despite its efficiency in reducing manual labeling efforts, it
-also brings the challenge of dealing with false entity type labels, as distant
-supervision assigns labels in a context agnostic manner. Existing works
-alleviated this issue with partial-label loss, but usually suffer from
-confirmation bias, which means the classifier fit a pseudo data distribution
-given by itself. In this work, we propose to regularize distantly supervised
-models with Compact Latent Space Clustering (CLSC) to bypass this problem and
-effectively utilize noisy data yet. Our proposed method first dynamically
-constructs a similarity graph of different entity mentions; infer the labels of
-noisy instances via label propagation. Based on the inferred labels, mention
-embeddings are updated accordingly to encourage entity mentions with close
-semantics to form a compact cluster in the embedding space,thus leading to
-better classification performance. Extensive experiments on standard benchmarks
-show that our CLSC model consistently outperforms state-of-the-art distantly
-supervised entity typing systems by a significant margin.
+Person re-identification is an important task that requires learning
+discriminative visual features for distinguishing different person identities.
+Diverse auxiliary information has been utilized to improve the visual feature
+learning. In this paper, we propose to exploit natural language description as
+additional training supervisions for effective visual features. Compared with
+other auxiliary information, language can describe a specific person from more
+compact and semantic visual aspects, thus is complementary to the pixel-level
+image data. Our method not only learns better global visual feature with the
+supervision of the overall description but also enforces semantic consistencies
+between local visual and linguistic features, which is achieved by building
+global and local image-language associations. The global image-language
+association is established according to the identity labels, while the local
+association is based upon the implicit correspondences between image regions
+and noun phrases. Extensive experiments demonstrate the effectiveness of
+employing language as training supervisions with the two association schemes.
+Our method achieves state-of-the-art performance without utilizing any
+auxiliary information during testing and shows better performance than other
+joint embedding methods for the image-language association.

@@ -5,7 +5,7 @@ authors: Mohammadreza Zolfaghari, Yi Zhu, Peter Gehler, Thomas Brox
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: zolfaghari2021crossclr
-citations: 95
+citations: 96
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.14910'}]
 tags: ["Datasets", "Distance Metric Learning", "ICCV", "Self-Supervised", "Text Retrieval"]
 short_authors: Zolfaghari et al.

@@ -5,7 +5,7 @@ authors: Song Liu, Haoqi Fan, Shengsheng Qian, Yiru Chen, Wenkui Ding, Zhongyuan
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: liu2021hit
-citations: 135
+citations: 137
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.15049'}]
 tags: ["Datasets", "Evaluation", "ICCV", "Scalability", "Text Retrieval"]
 short_authors: Liu et al.

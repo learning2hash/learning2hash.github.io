@@ -6,7 +6,7 @@ authors: Junyu Luo, Yusheng Zhao, Xiao Luo, Zhiping Xiao, Wei Ju, Li Shen, Dache
 conference: IEEE Transactions on Image Processing
 year: 2025
 bibkey: luo2025cross
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2505.13907'}]
 tags: ["Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Unsupervised"]
 short_authors: Luo et al.

@@ -1,34 +1,26 @@
 ---
 layout: publication
-title: Learning Tuple Compatibility For Conditional Outfitrecommendation
-authors: Xuewen Yang, Dongliang Xie, Xin Wang, Jiangbo Yuan, Wanying Ding, Pengyun
-  Yan
-conference: ACM Multimedia 2020
+title: 'Learning To Separate: Detecting Heavily-occluded Objects In Urban Scenes'
+authors: Chenhongyi Yang, Vitaly Ablavsky, Kaihong Wang, Qi Feng, Margrit Betke
+conference: ACM Transactions on Multimedia Computing, Communications, and Applications
 year: 2020
 bibkey: yang2020learning
-citations: 4
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.08189'}]
+citations: 28
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.01674'}]
 tags: ["Datasets", "Recommender Systems", "Similarity Search"]
 short_authors: Yang et al.
 ---
-Outfit recommendation requires the answers of some challenging outfit
-compatibility questions such as 'Which pair of boots and school bag go well
-with my jeans and sweater?'. It is more complicated than conventional
-similarity search, and needs to consider not only visual aesthetics but also
-the intrinsic fine-grained and multi-category nature of fashion items. Some
-existing approaches solve the problem through sequential models or learning
-pair-wise distances between items. However, most of them only consider coarse
-category information in defining fashion compatibility while neglecting the
-fine-grained category information often desired in practical applications. To
-better define the fashion compatibility and more flexibly meet different needs,
-we propose a novel problem of learning compatibility among multiple tuples
-(each consisting of an item and category pair), and recommending fashion items
-following the category choices from customers. Our contributions include: 1)
-Designing a Mixed Category Attention Net (MCAN) which integrates both
-fine-grained and coarse category information into recommendation and learns the
-compatibility among fashion tuples. MCAN can explicitly and effectively
-generate diverse and controllable recommendations based on need. 2)
-Contributing a new dataset IQON, which follows eastern culture and can be used
-to test the generalization of recommendation systems. Our extensive experiments
-on a reference dataset Polyvore and our dataset IQON demonstrate that our
-method significantly outperforms state-of-the-art recommendation methods.
+While visual object detection with deep learning has received much attention
+in the past decade, cases when heavy intra-class occlusions occur have not been
+studied thoroughly. In this work, we propose a Non-Maximum-Suppression (NMS)
+algorithm that dramatically improves the detection recall while maintaining
+high precision in scenes with heavy occlusions. Our NMS algorithm is derived
+from a novel embedding mechanism, in which the semantic and geometric features
+of the detected boxes are jointly exploited. The embedding makes it possible to
+determine whether two heavily-overlapping boxes belong to the same object in
+the physical world. Our approach is particularly useful for car detection and
+pedestrian detection in urban scenes where occlusions often happen. We show the
+effectiveness of our approach by creating a model called SG-Det (short for
+Semantics and Geometry Detection) and testing SG-Det on two widely-adopted
+datasets, KITTI and CityPersons for which it achieves state-of-the-art
+performance.

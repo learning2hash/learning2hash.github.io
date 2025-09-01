@@ -1,30 +1,32 @@
 ---
 layout: publication
-title: 'Cross-modal Food Retrieval: Learning A Joint Embedding Of Food Images And
-  Recipes With Semantic Consistency And Attention Mechanism'
-authors: Hao Wang, Doyen Sahoo, Chenghao Liu, Ke Shu, Palakorn Achananuparp, Ee-Peng
-  Lim, Steven C. H. Hoi
-conference: IEEE Transactions on Multimedia
-year: 2021
+title: Cross-batch Memory For Embedding Learning
+authors: Xun Wang, Haozhi Zhang, Weilin Huang, Matthew R. Scott
+conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
+year: 2020
 bibkey: wang2020cross
-citations: 40
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.03955'}]
+citations: 220
+additional_links: [{name: Code, url: 'https://github.com/MalongTech/research-xbm.'},
+  {name: Paper, url: 'https://arxiv.org/abs/1912.06798'}]
 tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Scalability"]
 short_authors: Wang et al.
 ---
-Food retrieval is an important task to perform analysis of food-related
-information, where we are interested in retrieving relevant information about
-the queried food item such as ingredients, cooking instructions, etc. In this
-paper, we investigate cross-modal retrieval between food images and cooking
-recipes. The goal is to learn an embedding of images and recipes in a common
-feature space, such that the corresponding image-recipe embeddings lie close to
-one another. Two major challenges in addressing this problem are 1) large
-intra-variance and small inter-variance across cross-modal food data; and 2)
-difficulties in obtaining discriminative recipe representations. To address
-these two problems, we propose Semantic-Consistent and Attention-based Networks
-(SCAN), which regularize the embeddings of the two modalities through aligning
-output semantic probabilities. Besides, we exploit a self-attention mechanism
-to improve the embedding of recipes. We evaluate the performance of the
-proposed method on the large-scale Recipe1M dataset, and show that we can
-outperform several state-of-the-art cross-modal retrieval strategies for food
-images and cooking recipes by a significant margin.
+Mining informative negative instances are of central importance to deep
+metric learning (DML), however this task is intrinsically limited by mini-batch
+training, where only a mini-batch of instances is accessible at each iteration.
+In this paper, we identify a "slow drift" phenomena by observing that the
+embedding features drift exceptionally slow even as the model parameters are
+updating throughout the training process. This suggests that the features of
+instances computed at preceding iterations can be used to considerably
+approximate their features extracted by the current model. We propose a
+cross-batch memory (XBM) mechanism that memorizes the embeddings of past
+iterations, allowing the model to collect sufficient hard negative pairs across
+multiple mini-batches - even over the whole dataset. Our XBM can be directly
+integrated into a general pair-based DML framework, where the XBM augmented DML
+can boost performance considerably. In particular, without bells and whistles,
+a simple contrastive loss with our XBM can have large R@1 improvements of
+12%-22.5% on three large-scale image retrieval datasets, surpassing the most
+sophisticated state-of-the-art methods, by a large margin. Our XBM is
+conceptually simple, easy to implement - using several lines of codes, and is
+memory efficient - with a negligible 0.2 GB extra GPU memory. Code is available
+at: https://github.com/MalongTech/research-xbm.

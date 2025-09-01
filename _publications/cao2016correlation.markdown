@@ -5,7 +5,7 @@ authors: Yue Cao, Mingsheng Long, Jianmin Wang, Philip S. Yu
 conference: Procedings of the British Machine Vision Conference 2017
 year: 2017
 bibkey: cao2016correlation
-citations: 62
+citations: 64
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.06697'}]
 tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Scalability"]
 short_authors: Cao et al.
