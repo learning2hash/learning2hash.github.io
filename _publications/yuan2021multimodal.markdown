@@ -6,7 +6,7 @@ authors: Xin Yuan, Zhe Lin, Jason Kuen, Jianming Zhang, Yilin Wang, Michael Mair
 conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2021
 bibkey: yuan2021multimodal
-citations: 125
+citations: 128
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.12836'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Multimodal Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Yuan et al.

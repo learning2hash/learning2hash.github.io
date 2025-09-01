@@ -6,9 +6,10 @@ conference: Proceedings of the 17th Conference of the European Chapter of the As
   for Computational Linguistics
 year: 2023
 bibkey: muennighoff2022mteb
-citations: 167
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.07316'}]
-tags: ["Datasets", "Eacl", "Evaluation"]
+citations: 186
+additional_links: [{name: Code, url: 'https://github.com/embeddings-benchmark/mteb.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2210.07316'}]
+tags: ["Datasets", "Evaluation"]
 short_authors: Muennighoff et al.
 ---
 Text embeddings are commonly evaluated on a small set of datasets from a

@@ -5,7 +5,7 @@ authors: Khoi Pham, Chuong Huynh, Ser-Nam Lim, Abhinav Shrivastava
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: pham2024composing
-citations: 11
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.11820'}]
 tags: ["CVPR", "Evaluation", "Text Retrieval"]
 short_authors: Pham et al.

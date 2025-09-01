@@ -6,7 +6,7 @@ authors: Rohit Girdhar, Alaaeldin El-Nouby, Zhuang Liu, Mannat Singh, Kalyan Vas
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: girdhar2023imagebind
-citations: 332
+citations: 355
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05665'}]
 tags: ["CVPR", "Few Shot & Zero Shot", "Multimodal Retrieval", "Supervised"]
 short_authors: Girdhar et al.

@@ -2,13 +2,12 @@
 layout: publication
 title: Semantic Residual For Multimodal Unified Discrete Representation
 authors: Hai Huang, Shulei Wang, Yan Xia
-conference: ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech
-  and Signal Processing (ICASSP)
-year: 2025
+conference: Arxiv
+year: 2024
 bibkey: huang2024semantic
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.19128'}]
-tags: ["Evaluation", "Few Shot & Zero Shot", "ICASSP", "Quantization", "Tools & Libraries"]
+tags: ["Evaluation", "Few Shot & Zero Shot", "Quantization", "Tools & Libraries"]
 short_authors: Hai Huang, Shulei Wang, Yan Xia
 ---
 Recent research in the domain of multimodal unified representations

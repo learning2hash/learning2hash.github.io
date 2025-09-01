@@ -7,7 +7,7 @@ conference: Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery
   Data Mining
 year: 2022
 bibkey: gao2022clusterea
-citations: 29
+citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.10312'}]
 tags: ["Datasets", "KDD", "Scalability", "Tools & Libraries"]
 short_authors: Gao et al.

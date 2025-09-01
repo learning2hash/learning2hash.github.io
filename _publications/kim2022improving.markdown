@@ -5,7 +5,7 @@ authors: Dongwon Kim, Namyup Kim, Suha Kwak
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: kim2022improving
-citations: 28
+citations: 29
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.16761'}]
 tags: ["CVPR", "Datasets", "Multimodal Retrieval"]
 short_authors: Dongwon Kim, Namyup Kim, Suha Kwak

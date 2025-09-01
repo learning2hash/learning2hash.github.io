@@ -7,7 +7,7 @@ authors: Zhiqiang Yuan, Wenkai Zhang, Kun Fu, Xuan Li, Chubo Deng, Hongqi Wang, 
 conference: IEEE Transactions on Geoscience and Remote Sensing
 year: 2021
 bibkey: yuan2022exploring
-citations: 110
+citations: 118
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.09868'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Yuan et al.

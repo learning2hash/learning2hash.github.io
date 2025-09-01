@@ -6,7 +6,7 @@ conference: Proceedings of the 43rd International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2020
 bibkey: dai2020convolutional
-citations: 7
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.11692'}]
 tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Neural Hashing", "SIGIR", "Similarity Search"]
 short_authors: Dai et al.

@@ -6,7 +6,7 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2022
 bibkey: neculai2022probabilistic
-citations: 21
+citations: 22
 additional_links: [{name: Code, url: 'https://github.com/andreineculai/MPC.'}, {name: Paper,
     url: 'https://arxiv.org/abs/2204.05845'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval"]

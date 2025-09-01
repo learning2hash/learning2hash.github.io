@@ -6,7 +6,7 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2022
 bibkey: shukor2022transformer
-citations: 23
+citations: 22
 additional_links: [{name: Code, url: 'https://github.com/mshukor/TFood'}, {name: Paper,
     url: 'https://arxiv.org/abs/2204.09730'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Scalability", "Similarity Search", "Tools & Libraries"]

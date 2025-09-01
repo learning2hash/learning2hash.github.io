@@ -6,7 +6,7 @@ authors: Ding Jiang, Mang Ye
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: jiang2023cross
-citations: 120
+citations: 129
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.12501'}]
 tags: ["CVPR", "Datasets", "Tools & Libraries"]
 short_authors: Ding Jiang, Mang Ye

@@ -6,7 +6,7 @@ authors: Elad Levi, Tete Xiao, Xiaolong Wang, Trevor Darrell
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: levi2020rethinking
-citations: 15
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.05162'}]
 tags: ["Datasets", "Distance Metric Learning", "ICCV", "Image Retrieval"]
 short_authors: Levi et al.

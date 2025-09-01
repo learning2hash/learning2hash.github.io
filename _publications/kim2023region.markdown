@@ -5,7 +5,7 @@ authors: Dahun Kim, Anelia Angelova, Weicheng Kuo
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: kim2023region
-citations: 40
+citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.07011'}]
 tags: ["CVPR", "Few Shot & Zero Shot", "Text Retrieval"]
 short_authors: Dahun Kim, Anelia Angelova, Weicheng Kuo

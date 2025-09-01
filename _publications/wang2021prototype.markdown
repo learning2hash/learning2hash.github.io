@@ -5,7 +5,7 @@ authors: Xunguang Wang, Zheng Zhang, Baoyuan Wu, Fumin Shen, Guangming Lu
 conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2021
 bibkey: wang2021prototype
-citations: 43
+citations: 44
 additional_links: [{name: Code, url: 'https://github.com/xunguangwang/ProS-GAN'},
   {name: Paper, url: 'https://arxiv.org/abs/2105.07553'}]
 tags: ["CVPR", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Robustness", "Scalability", "Supervised", "Tools & Libraries"]

@@ -2,7 +2,7 @@
 layout: publication
 title: Efficient Image Retrieval Via Decoupling Diffusion Into Online And Offline
   Processing
-authors: Fan Yang, Ryota Hinami, Yusuke Matsui, Steven Ly, Shin'ichi Satoh
+authors: Fan Yang, Ryota Hinami, Yusuke Matsui, Steven Ly, Shin'Ichi Satoh
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2019
 bibkey: yang2018efficient

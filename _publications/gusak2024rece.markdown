@@ -6,7 +6,7 @@ conference: Proceedings of the 33rd ACM International Conference on Information 
   Knowledge Management
 year: 2024
 bibkey: gusak2024rece
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.02354'}]
 tags: ["CIKM", "Datasets", "Evaluation", "Hashing Methods", "Memory Efficiency", "Recommender Systems", "Scalability"]
 short_authors: Gusak et al.

@@ -7,7 +7,7 @@ authors: Anima Singh, Trung Vu, Nikhil Mehta, Raghunandan Keshavan, Maheswaran S
 conference: 18th ACM Conference on Recommender Systems
 year: 2024
 bibkey: singh2023better
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.08121'}]
 tags: ["Hashing Methods", "Recommender Systems"]
 short_authors: Singh et al.

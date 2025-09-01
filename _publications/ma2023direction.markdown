@@ -6,7 +6,7 @@ authors: Qing Ma, Jiancheng Pan, Cong Bai
 conference: IEEE Transactions on Geoscience and Remote Sensing
 year: 2024
 bibkey: ma2023direction
-citations: 11
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.08276'}]
 tags: ["Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Qing Ma, Jiancheng Pan, Cong Bai

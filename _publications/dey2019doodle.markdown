@@ -5,7 +5,7 @@ authors: Sounak Dey, Pau Riba, Anjan Dutta, Josep Llados, Yi-Zhe Song
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: dey2019doodle
-citations: 74
+citations: 75
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.03451'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Dey et al.

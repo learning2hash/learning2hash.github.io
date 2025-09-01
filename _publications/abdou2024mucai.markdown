@@ -3,7 +3,7 @@ layout: publication
 title: 'Mucai At Wojoodner 2024: Arabic Named Entity Recognition With Nearest Neighbor
   Search'
 authors: Ahmed Abdou, Tasneem Mohsen
-conference: Arxiv
+conference: Proceedings of The Second Arabic Natural Language Processing Conference
 year: 2024
 bibkey: abdou2024mucai
 citations: 0

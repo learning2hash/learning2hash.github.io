@@ -2,7 +2,7 @@
 layout: publication
 title: Bio-inspired Hashing For Unsupervised Similarity Search
 authors: Chaitanya K. Ryali, John J. Hopfield, Leopold Grinberg, Dmitry Krotov
-conference: Arxiv
+conference: Proceedings of the International Conference on Machine Learning 2020 pp.8739-8750
 year: 2020
 bibkey: ryali2020bio
 citations: 4

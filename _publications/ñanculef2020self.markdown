@@ -1,14 +1,15 @@
 ---
 layout: publication
 title: Self-supervised Bernoulli Autoencoders For Semi-supervised Hashing
-authors: "Ricardo \xD1anculef, Francisco Mena, Antonio Macaluso, Stefano Lodi, Claudio\
+authors: "Ricardo \xD1anculef, Francisco Mena, Antonio MacAluso, Stefano Lodi, Claudio\
   \ Sartori"
 conference: Lecture Notes in Computer Science
 year: 2021
 bibkey: "\xF1anculef2020self"
 citations: 5
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.08799'}]
-tags: ["Evaluation", "Hashing Methods", "Neural Hashing", "Robustness", "Scalability", "Self-Supervised", "Similarity Search", "Supervised", "Text Retrieval", "Unsupervised"]
+additional_links: [{name: Code, url: 'https://github.com/amacaluso/SSB-VAE.'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2007.08799'}]
+tags: ["Evaluation", "Hashing Methods", "Neural Hashing", "Robustness", "Scalability", "Self-Supervised", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: "\xD1anculef et al."
 ---
 Semantic hashing is an emerging technique for large-scale similarity search

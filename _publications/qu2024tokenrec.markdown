@@ -5,7 +5,7 @@ authors: Haohao Qu, Wenqi Fan, Zihuai Zhao, Qing Li
 conference: Arxiv
 year: 2024
 bibkey: qu2024tokenrec
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.10450'}]
 tags: ["Recommender Systems", "Scalability", "Similarity Search", "Tools & Libraries"]
 short_authors: Qu et al.

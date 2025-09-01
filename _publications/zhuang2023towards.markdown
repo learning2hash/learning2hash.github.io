@@ -6,7 +6,7 @@ authors: Jiamin Zhuang, Jing Yu, Yang Ding, Xiangyan Qu, Yue Hu
 conference: IEEE Transactions on Multimedia
 year: 2023
 bibkey: zhuang2023towards
-citations: 4
+citations: 5
 additional_links: [{name: Code, url: 'https://github.com/Zjamie813/SelfAlign.'}, {
     name: Paper, url: 'https://arxiv.org/abs/2308.14009'}]
 tags: ["Datasets", "Efficiency", "Self-Supervised", "Similarity Search", "Supervised", "Text Retrieval", "Tools & Libraries"]

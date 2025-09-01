@@ -2,13 +2,13 @@
 layout: publication
 title: 'Document Haystacks: Vision-language Reasoning Over Piles Of 1000+ Documents'
 authors: Jun Chen, Dannong Xu, Junjie Fei, Chun-Mei Feng, Mohamed Elhoseiny
-conference: Arxiv
-year: 2024
+conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2025
 bibkey: chen2024document
 citations: 0
 additional_links: [{name: Code, url: 'https://github.com/Vision-CAIR/dochaystacks'},
   {name: Paper, url: 'https://arxiv.org/abs/2411.16740'}]
-tags: ["Datasets", "Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
+tags: ["CVPR", "Datasets", "Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
 short_authors: Chen et al.
 ---
 Large multimodal models (LMMs) have achieved impressive progress in

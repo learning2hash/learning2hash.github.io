@@ -5,7 +5,7 @@ authors: Liang Zheng, Yi Yang, Qi Tian
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2017
 bibkey: zheng2016sift
-citations: 709
+citations: 711
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.01807'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Survey Paper"]
 short_authors: Liang Zheng, Yi Yang, Qi Tian

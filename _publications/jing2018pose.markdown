@@ -5,7 +5,7 @@ authors: Ya Jing, Chenyang Si, Junbo Wang, Wei Wang, Liang Wang, Tieniu Tan
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2020
 bibkey: jing2018pose
-citations: 130
+citations: 134
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.08440'}]
 tags: ["AAAI", "Datasets"]
 short_authors: Jing et al.

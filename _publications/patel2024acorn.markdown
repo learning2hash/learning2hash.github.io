@@ -6,7 +6,7 @@ authors: Liana Patel, Peter Kraft, Carlos Guestrin, Matei Zaharia
 conference: Proceedings of the ACM on Management of Data
 year: 2024
 bibkey: patel2024acorn
-citations: 13
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.04871'}]
 tags: ["Datasets", "Evaluation", "Graph Based ANN"]
 short_authors: Patel et al.

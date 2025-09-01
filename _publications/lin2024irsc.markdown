@@ -6,7 +6,7 @@ authors: Hai Lin, Shaoxiong Zhan, Junyou Su, Haitao Zheng, Hui Wang
 conference: Arxiv
 year: 2024
 bibkey: lin2024irsc
-citations: 0
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/Jasaxion/IRSC_Benchmark'},
   {name: Paper, url: 'https://arxiv.org/abs/2409.15763'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]

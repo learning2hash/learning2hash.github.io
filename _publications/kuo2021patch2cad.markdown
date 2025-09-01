@@ -6,7 +6,7 @@ authors: Weicheng Kuo, Anelia Angelova, Tsung-Yi Lin, Angela Dai
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: kuo2021patch2cad
-citations: 21
+citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.09368'}]
 tags: ["ICCV", "Scalability"]
 short_authors: Kuo et al.

@@ -5,7 +5,7 @@ authors: "Xinye Chen, Stefan G\xFCttel"
 conference: PeerJ Computer Science
 year: 2024
 bibkey: chen2022fast
-citations: 4
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.07679'}]
 tags: ["Efficiency", "Evaluation", "Tree Based ANN"]
 short_authors: "Xinye Chen, Stefan G\xFCttel"

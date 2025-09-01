@@ -5,8 +5,9 @@ authors: Liu Liu, Hongdong Li, Yuchao Dai
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: liu2018stochastic
-citations: 96
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.08779'}]
+citations: 98
+additional_links: [{name: Code, url: 'https://github.com/Liumouliu/deepIBL.'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1808.08779'}]
 tags: ["Distance Metric Learning", "Evaluation", "ICCV", "Scalability"]
 short_authors: Liu Liu, Hongdong Li, Yuchao Dai
 ---

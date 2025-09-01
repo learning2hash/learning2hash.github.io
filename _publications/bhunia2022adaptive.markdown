@@ -6,7 +6,7 @@ authors: Ayan Kumar Bhunia, Aneeshan Sain, Parth Shah, Animesh Gupta, Pinaki Nat
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: bhunia2022adaptive
-citations: 20
+citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.01723'}]
 tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
 short_authors: Bhunia et al.

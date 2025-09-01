@@ -5,7 +5,7 @@ authors: Scott Reed, Zeynep Akata, Bernt Schiele, Honglak Lee
 conference: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2016
 bibkey: reed2016learning
-citations: 749
+citations: 750
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.05395'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Reed et al.

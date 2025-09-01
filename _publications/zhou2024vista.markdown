@@ -6,7 +6,7 @@ conference: 'Proceedings of the 62nd Annual Meeting of the Association for Compu
   Linguistics (Volume 1: Long Papers)'
 year: 2024
 bibkey: zhou2024vista
-citations: 0
+citations: 2
 additional_links: [{name: Code, url: 'https://github.com/FlagOpen/FlagEmbedding.'},
   {name: Paper, url: 'https://arxiv.org/abs/2406.04292'}]
 tags: ["Few Shot & Zero Shot", "Supervised"]

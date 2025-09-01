@@ -5,7 +5,7 @@ authors: Patsorn Sangkloy, Wittawat Jitkrittum, Diyi Yang, James Hays
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: sangkloy2022a
-citations: 24
+citations: 25
 additional_links: [{name: Code, url: 'https://janesjanes.github.io/tsbir/.'}, {name: Paper,
     url: 'https://arxiv.org/abs/2208.03354'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Large Scale Search"]

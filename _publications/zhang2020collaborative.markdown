@@ -5,7 +5,7 @@ authors: Yan Zhang, Ivor W. Tsang, Lixin Duan
 conference: IEEE Intelligent Systems
 year: 2020
 bibkey: zhang2020collaborative
-citations: 6
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.00953'}]
 tags: ["Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "Recommender Systems", "Scalability", "Tools & Libraries"]
 short_authors: Yan Zhang, Ivor W. Tsang, Lixin Duan

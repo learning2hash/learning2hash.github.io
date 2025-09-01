@@ -5,7 +5,7 @@ authors: Yiyu Chen, Zheyi Fan, Zhaoru Chen, Yixuan Zhu
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: chen2023ca
-citations: 6
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.10605'}]
 tags: ["CVPR", "Distance Metric Learning", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Chen et al.

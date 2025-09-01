@@ -7,9 +7,10 @@ authors: Xiaoman Qi, Panpan Zhu, Yuebin Wang, Liqiang Zhang, Junhuan Peng, Mengf
 conference: ISPRS Journal of Photogrammetry and Remote Sensing
 year: 2020
 bibkey: qi2020mlrsnet
-citations: 102
+citations: 106
 additional_links: [{name: Code, url: 'https://github.com/cugbrs/MLRSNet.git.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2010.00243'}]
+    name: Other, url: 'https://data.mendeley.com/datasets/7j9bv9vwsx/2'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2010.00243'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Qi et al.
 ---

@@ -3,7 +3,8 @@ layout: publication
 title: 'Any Information Is Just Worth One Single Screenshot: Unifying Search With
   Visualized Information Retrieval'
 authors: Ze Liu, Zhengyang Liang, Junjie Zhou, Zheng Liu, Defu Lian
-conference: Arxiv
+conference: 'Proceedings of the 63rd Annual Meeting of the Association for Computational
+  Linguistics (Volume 1: Long Papers)'
 year: 2025
 bibkey: liu2025any
 citations: 0

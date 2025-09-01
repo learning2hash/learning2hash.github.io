@@ -5,7 +5,7 @@ authors: "Jeff Johnson, Matthijs Douze, Herv\xE9 J\xE9gou"
 conference: IEEE Transactions on Big Data
 year: 2019
 bibkey: johnson2017billion
-citations: 2024
+citations: 2069
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.08734'}]
 tags: ["Datasets", "Evaluation", "Large Scale Search", "Quantization", "Scalability", "Similarity Search"]
 short_authors: "Jeff Johnson, Matthijs Douze, Herv\xE9 J\xE9gou"

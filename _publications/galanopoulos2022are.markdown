@@ -7,7 +7,8 @@ conference: Lecture Notes in Computer Science
 year: 2023
 bibkey: galanopoulos2022are
 citations: 11
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.11351'}]
+additional_links: [{name: Code, url: 'https://github.com/bmezaris/TextToVideoRetrieval-TtimesV'},
+  {name: Paper, url: 'https://arxiv.org/abs/2211.11351'}]
 tags: ["Datasets", "Evaluation", "Scalability", "Video Retrieval"]
 short_authors: Damianos Galanopoulos, Vasileios Mezaris
 ---

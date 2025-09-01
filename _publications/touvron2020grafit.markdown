@@ -6,7 +6,7 @@ authors: "Hugo Touvron, Alexandre Sablayrolles, Matthijs Douze, Matthieu Cord, H
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: touvron2020grafit
-citations: 57
+citations: 59
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.12982'}]
 tags: ["Datasets", "ICCV", "Self-Supervised", "Supervised"]
 short_authors: Touvron et al.

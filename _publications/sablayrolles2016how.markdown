@@ -8,7 +8,7 @@ year: 2017
 bibkey: sablayrolles2016how
 citations: 97
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1609.06753'}]
-tags: ["Compact Codes", "Evaluation", "Hashing Methods", "ICASSP", "Neural Hashing", "Supervised", "Unsupervised"]
+tags: ["Compact Codes", "Evaluation", "Hashing Methods", "ICASSP", "Supervised", "Unsupervised"]
 short_authors: Sablayrolles et al.
 ---
 Hashing produces compact representations for documents, to perform tasks like

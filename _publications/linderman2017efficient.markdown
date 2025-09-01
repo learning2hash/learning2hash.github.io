@@ -3,10 +3,10 @@ layout: publication
 title: Efficient Algorithms For T-distributed Stochastic Neighborhood Embedding
 authors: George C. Linderman, Manas Rachh, Jeremy G. Hoskins, Stefan Steinerberger,
   Yuval Kluger
-conference: Arxiv
+conference: Nature Methods
 year: 2017
 bibkey: linderman2017efficient
-citations: 192
+citations: 193
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.09005'}]
 tags: ["Datasets"]
 short_authors: Linderman et al.

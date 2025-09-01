@@ -6,7 +6,7 @@ authors: Liang Zheng, Hengheng Zhang, Shaoyan Sun, Manmohan Chandraker, Yi Yang,
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2017
 bibkey: zheng2016person
-citations: 752
+citations: 759
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.02531'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Scalability"]
 short_authors: Zheng et al.

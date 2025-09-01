@@ -6,7 +6,7 @@ authors: S. Kalra, C. Choi, S. Shah, L. Pantanowitz, H. R. Tizhoosh
 conference: Medical Image Analysis
 year: 2020
 bibkey: kalra2019yottixel
-citations: 115
+citations: 117
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.08748'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Kalra et al.

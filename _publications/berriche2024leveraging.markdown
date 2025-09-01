@@ -5,7 +5,7 @@ authors: Aymene Berriche, Mehdi Adjal Zakaria, Riyadh Baghdadi
 conference: Lecture Notes in Computer Science
 year: 2025
 bibkey: berriche2024leveraging
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.13747'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Aymene Berriche, Mehdi Adjal Zakaria, Riyadh Baghdadi

@@ -2,10 +2,10 @@
 layout: publication
 title: 'Aeye: A Visualization Tool For Image Datasets'
 authors: "Florian Gr\xF6tschla, Luca A. Lanzend\xF6rfer, Marco Calzavara, Roger Wattenhofer"
-conference: Arxiv
+conference: 2024 IEEE Visualization and Visual Analytics (VIS)
 year: 2024
 bibkey: "gr\xF6tschla2024aeye"
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2408.04072'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: "Gr\xF6tschla et al."

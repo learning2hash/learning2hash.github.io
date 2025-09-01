@@ -5,7 +5,7 @@ authors: Ahmet Iscen, Giorgos Tolias, Yannis Avrithis, Ondrej Chum
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: iscen2018mining
-citations: 112
+citations: 113
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.11095'}]
 tags: ["CVPR", "Distance Metric Learning", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Iscen et al.

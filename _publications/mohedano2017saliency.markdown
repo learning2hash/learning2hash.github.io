@@ -1,12 +1,13 @@
 ---
 layout: publication
 title: Saliency Weighted Convolutional Features For Instance Search
-authors: Eva Mohedano, Kevin Mcguinness, Xavier Giro-i-nieto, Noel E. O'connor
+authors: Eva Mohedano, Kevin McGuinness, Xavier Giro-I-Nieto, Noel E. O'Connor
 conference: 2018 International Conference on Content-Based Multimedia Indexing (CBMI)
 year: 2018
 bibkey: mohedano2017saliency
 citations: 37
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.10795'}]
+additional_links: [{name: Code, url: 'https://imatge-upc.github.io/salbow/'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1711.10795'}]
 tags: ["Evaluation", "Tools & Libraries"]
 short_authors: Mohedano et al.
 ---

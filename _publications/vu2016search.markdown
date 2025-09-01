@@ -5,7 +5,7 @@ authors: Thanh Vu, Dat Quoc Nguyen, Mark Johnson, Dawei Song, Alistair Willis
 conference: Lecture Notes in Computer Science
 year: 2017
 bibkey: vu2016search
-citations: 48
+citations: 49
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.03597'}]
 tags: ["Evaluation"]
 short_authors: Vu et al.

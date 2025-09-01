@@ -3,7 +3,7 @@ layout: publication
 title: Retrieving And Highlighting Action With Spatiotemporal Reference
 authors: Seito Kasai, Yuchi Ishikawa, Masaki Hayashi, Yoshimitsu Aoki, Kensho Hara,
   Hirokatsu Kataoka
-conference: 2020 IEEE International Conference on Image Processing (ICIP)
+conference: Arxiv
 year: 2020
 bibkey: kasai2020retrieving
 citations: 0

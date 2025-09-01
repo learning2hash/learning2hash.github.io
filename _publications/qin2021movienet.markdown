@@ -7,7 +7,8 @@ conference: ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speec
 year: 2023
 bibkey: qin2021movienet
 citations: 3
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.02500'}]
+additional_links: [{name: Code, url: 'https://github.com/ZhengPeng7/GLCNet.'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2112.02500'}]
 tags: ["Datasets", "ICASSP", "Scalability"]
 short_authors: Qin et al.
 ---

@@ -6,7 +6,7 @@ authors: Ginger Delmas, Rafael Sampaio de Rezende, Gabriela Csurka, Diane Larlus
 conference: Arxiv
 year: 2022
 bibkey: delmas2022artemis
-citations: 26
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.08101'}]
 tags: ["Image Retrieval"]
 short_authors: Delmas et al.

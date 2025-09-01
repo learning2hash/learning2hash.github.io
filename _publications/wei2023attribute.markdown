@@ -6,7 +6,7 @@ authors: Xiu-Shen Wei, Yang Shen, Xuhao Sun, Peng Wang, Yuxin Peng
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2023
 bibkey: wei2023attribute
-citations: 17
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.12894'}]
 tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Wei et al.

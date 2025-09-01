@@ -5,7 +5,7 @@ authors: Yang Xu, Lei Zhu, Zhiyong Cheng, Jingjing Li, Jiande Sun
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2020
 bibkey: xu2020multi
-citations: 21
+citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.10719'}]
 tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Quantization", "Recommender Systems", "Scalability"]
 short_authors: Xu et al.

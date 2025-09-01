@@ -6,7 +6,7 @@ authors: Debajyoti Bera, Rameshwar Pratap, Bhisham Dev Verma, Biswadeep Sen, Tan
 conference: IEEE Transactions on Knowledge and Data Engineering
 year: 2021
 bibkey: bera2021quint
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.04206'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods"]
 short_authors: Bera et al.

@@ -6,7 +6,7 @@ authors: Prabhat Agarwal, Minhazul Islam Sk, Nikil Pancha, Kurchi Subhra Hazra, 
 conference: Companion Proceedings of the ACM Web Conference 2024
 year: 2024
 bibkey: agarwal2024omnisearchsage
-citations: 1
+citations: 2
 additional_links: [{name: Code, url: 'https://github.com/pinterest/atg-research/tree/main/omnisearchsage.'},
   {name: Paper, url: 'https://arxiv.org/abs/2404.16260'}]
 tags: ["Efficiency"]

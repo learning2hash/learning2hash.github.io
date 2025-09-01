@@ -5,7 +5,7 @@ authors: Mang Ye, Xu Zhang, Pong C. Yuen, Shih-Fu Chang
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: ye2019unsupervised
-citations: 570
+citations: 575
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.03436'}]
 tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Supervised", "Unsupervised"]
 short_authors: Ye et al.

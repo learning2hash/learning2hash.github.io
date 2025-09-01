@@ -6,7 +6,7 @@ authors: Ruoxi Jia, David Dao, Boxin Wang, Frances Ann Hubis, Nezihe Merve Gurel
 conference: Proceedings of the VLDB Endowment
 year: 2019
 bibkey: jia2019efficient
-citations: 129
+citations: 132
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.08619'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Jia et al.

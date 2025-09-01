@@ -6,8 +6,9 @@ authors: Jerome Revaud, Jon Almazan, Rafael Sampaio de Rezende, Cesar Roberto de
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: revaud2019learning
-citations: 348
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.07589'}]
+citations: 349
+additional_links: [{name: Other, url: 'https://europe.naverlabs.com/Deep-Image-Retrieval/'},
+  {name: Paper, url: 'https://arxiv.org/abs/1906.07589'}]
 tags: ["Evaluation", "ICCV", "Image Retrieval"]
 short_authors: Revaud et al.
 ---

@@ -5,7 +5,7 @@ authors: Jiaming Xu, Bo Xu, Peng Wang, Suncong Zheng, Guanhua Tian, Jun Zhao, Bo
 conference: Neural Networks
 year: 2017
 bibkey: xu2017self
-citations: 208
+citations: 209
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.00185'}]
 tags: ["Compact Codes", "Datasets", "Tools & Libraries", "Unsupervised"]
 short_authors: Xu et al.

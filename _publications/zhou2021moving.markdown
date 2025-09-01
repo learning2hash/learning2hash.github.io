@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: 'Moving Towards Centers: Re-ranking With Attention And Memory For Re-identification'
-authors: Yunhao Zhou, Yi Wang, Lap-pui Chau
+authors: Yunhao Zhou, Yi Wang, Lap-Pui Chau
 conference: IEEE Transactions on Multimedia
 year: 2022
 bibkey: zhou2021moving
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.01447'}]
 tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Scalability"]
-short_authors: Yunhao Zhou, Yi Wang, Lap-pui Chau
+short_authors: Yunhao Zhou, Yi Wang, Lap-Pui Chau
 ---
 Re-ranking utilizes contextual information to optimize the initial ranking
 list of person or vehicle re-identification (re-ID), which boosts the retrieval

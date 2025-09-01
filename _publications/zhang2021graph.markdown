@@ -8,7 +8,7 @@ year: 2022
 bibkey: zhang2021graph
 citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.02220'}]
-tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Graph Based ANN", "Hybrid ANN Methods", "ICASSP", "Re-Ranking"]
+tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Graph Based ANN", "Hybrid ANN Methods", "ICASSP", "Neural Hashing", "Re-Ranking"]
 short_authors: Zhang et al.
 ---
 Nowadays, deep learning is widely applied to extract features for similarity

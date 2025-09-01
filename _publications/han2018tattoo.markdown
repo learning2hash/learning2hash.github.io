@@ -5,7 +5,7 @@ authors: Hu Han, Jie Li, Anil K. Jain, Shiguang Shan, Xilin Chen
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2019
 bibkey: han2018tattoo
-citations: 43
+citations: 45
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.00218'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Han et al.

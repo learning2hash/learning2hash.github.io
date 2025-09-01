@@ -5,7 +5,7 @@ authors: Yan Zhang, Ivor W. Tsang, Hongzhi Yin, Guowu Yang, Defu Lian, Jingjing 
 conference: IEEE Transactions on Knowledge and Data Engineering
 year: 2020
 bibkey: zhang2020deep
-citations: 9
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.00944'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Recommender Systems", "Tools & Libraries"]
 short_authors: Zhang et al.

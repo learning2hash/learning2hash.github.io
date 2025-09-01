@@ -5,7 +5,7 @@ authors: "Matthijs Douze, Alexandre Sablayrolles, Herv\xE9 J\xE9gou"
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: douze2018link
-citations: 31
+citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.09996'}]
 tags: ["CVPR", "Evaluation", "Large Scale Search", "Quantization", "Scalability", "Similarity Search"]
 short_authors: "Matthijs Douze, Alexandre Sablayrolles, Herv\xE9 J\xE9gou"

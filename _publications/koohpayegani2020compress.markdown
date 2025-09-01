@@ -5,7 +5,7 @@ authors: Soroush Abbasi Koohpayegani, Ajinkya Tejankar, Hamed Pirsiavash
 conference: Arxiv
 year: 2020
 bibkey: koohpayegani2020compress
-citations: 33
+citations: 34
 additional_links: [{name: Code, url: 'https://github.com/UMBCvision/CompRess'}, {
     name: Paper, url: 'https://arxiv.org/abs/2010.14713'}]
 tags: ["Evaluation", "Self-Supervised", "Supervised"]

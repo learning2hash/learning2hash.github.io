@@ -5,7 +5,7 @@ authors: Tolga Bolukbasi, Kai-Wei Chang, James Zou, Venkatesh Saligrama, Adam Ka
 conference: Arxiv
 year: 2016
 bibkey: bolukbasi2016man
-citations: 1428
+citations: 1434
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.06520'}]
 tags: ["Evaluation", "Tools & Libraries"]
 short_authors: Bolukbasi et al.

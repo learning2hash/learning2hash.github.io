@@ -7,7 +7,7 @@ conference: Proceedings of the 5th International Workshop on Historical Document
   and Processing
 year: 2019
 bibkey: "\xFAbeda2019pattern"
-citations: 8
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.08580'}]
 tags: ["Datasets"]
 short_authors: "\xDAbeda et al."

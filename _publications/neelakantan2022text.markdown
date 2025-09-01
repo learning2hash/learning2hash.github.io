@@ -9,7 +9,7 @@ authors: Arvind Neelakantan, Tao Xu, Raul Puri, Alec Radford, Jesse Michael Han,
 conference: Arxiv
 year: 2022
 bibkey: neelakantan2022text
-citations: 110
+citations: 112
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.10005'}]
 tags: ["Datasets", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Neelakantan et al.

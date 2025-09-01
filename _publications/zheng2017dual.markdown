@@ -1,12 +1,12 @@
 ---
 layout: publication
 title: Dual-path Convolutional Image-text Embeddings With Instance Loss
-authors: Zhedong Zheng, Liang Zheng, Michael Garrett, Yi Yang, Mingliang Xu, Yi-dong
+authors: Zhedong Zheng, Liang Zheng, Michael Garrett, Yi Yang, Mingliang Xu, Yi-Dong
   Shen
 conference: ACM Transactions on Multimedia Computing, Communications, and Applications
 year: 2020
 bibkey: zheng2017dual
-citations: 127
+citations: 128
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.05535'}]
 tags: ["Datasets", "Unsupervised"]
 short_authors: Zheng et al.

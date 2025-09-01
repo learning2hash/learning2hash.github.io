@@ -6,7 +6,7 @@ conference: ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speec
   and Signal Processing (ICASSP)
 year: 2024
 bibkey: stewart2023emotion
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.12610'}]
 tags: ["ICASSP", "Multimodal Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Stewart et al.

@@ -2,7 +2,7 @@
 layout: publication
 title: 'Crisp: Leveraging Tread Depth Maps For Enhanced Crime-scene Shoeprint Matching'
 authors: Samia Shafique, Shu Kong, Charless Fowlkes
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2024
 bibkey: shafique2024crisp
 citations: 0

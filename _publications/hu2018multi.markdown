@@ -2,14 +2,14 @@
 layout: publication
 title: Multi-shot Person Re-identification Through Set Distance With Visual Distributional
   Representation
-authors: Ting-yao Hu, Xiaojun Chang, Alexander G. Hauptmann
+authors: Ting-Yao Hu, Xiaojun Chang, Alexander G. Hauptmann
 conference: Proceedings of the 2019 on International Conference on Multimedia Retrieval
 year: 2019
 bibkey: hu2018multi
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.01119'}]
 tags: ["Datasets", "Multimodal Retrieval"]
-short_authors: Ting-yao Hu, Xiaojun Chang, Alexander G. Hauptmann
+short_authors: Ting-Yao Hu, Xiaojun Chang, Alexander G. Hauptmann
 ---
 Person re-identification aims to identify a specific person at distinct times
 and locations. It is challenging because of occlusion, illumination, and

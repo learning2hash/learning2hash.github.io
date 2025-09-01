@@ -6,7 +6,7 @@ authors: Hengtong Hu, Lingxi Xie, Richang Hong, Qi Tian
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: hu2020creating
-citations: 117
+citations: 119
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.00280'}]
 tags: ["CVPR", "Datasets", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Hu et al.

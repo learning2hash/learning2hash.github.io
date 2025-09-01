@@ -6,7 +6,7 @@ authors: Chen Bao, Xudong Zhang, Jiazhou Chen, Yongwei Miao
 conference: Multimedia Tools and Applications
 year: 2022
 bibkey: bao2022mmfl
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.15128'}]
 tags: ["Datasets", "Image Retrieval", "Tools & Libraries"]
 short_authors: Bao et al.

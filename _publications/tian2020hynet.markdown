@@ -6,7 +6,7 @@ authors: Yurun Tian, Axel Barroso-Laguna, Tony Ng, Vassileios Balntas, Krystian 
 conference: Arxiv
 year: 2020
 bibkey: tian2020hynet
-citations: 33
+citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.10202'}]
 tags: ["Distance Metric Learning"]
 short_authors: Tian et al.

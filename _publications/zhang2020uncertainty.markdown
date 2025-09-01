@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Uncertainty-aware Few-shot Image Classification
-authors: Zhizheng Zhang, Cuiling Lan, Wenjun Zeng, Zhibo Chen, Shih-fu Chang
+authors: Zhizheng Zhang, Cuiling Lan, Wenjun Zeng, Zhibo Chen, Shih-Fu Chang
 conference: Proceedings of the Thirtieth International Joint Conference on Artificial
   Intelligence
 year: 2021

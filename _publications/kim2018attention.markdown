@@ -5,7 +5,7 @@ authors: Wonsik Kim, Bhavya Goyal, Kunal Chawla, Jungmin Lee, Keunjoo Kwon
 conference: Lecture Notes in Computer Science
 year: 2018
 bibkey: kim2018attention
-citations: 239
+citations: 240
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.00382'}]
 tags: ["Distance Metric Learning", "Image Retrieval"]
 short_authors: Kim et al.

@@ -7,7 +7,7 @@ conference: 2019 18th IEEE International Conference On Machine Learning And Appl
   (ICMLA)
 year: 2019
 bibkey: bruss2019deeptrax
-citations: 34
+citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.07225'}]
 tags: ["Datasets", "Tools & Libraries"]
 short_authors: Bruss et al.

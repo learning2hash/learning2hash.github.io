@@ -3,7 +3,7 @@ layout: publication
 title: Retrieval Augmented Image Harmonization
 authors: Haolin Wang, Ming Liu, Zifei Yan, Chao Zhou, Longan Xiao, Wangmeng Zuo
 conference: Arxiv
-year: 2025
+year: 2024
 bibkey: wang2024retrieval
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.13916'}]

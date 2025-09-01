@@ -5,7 +5,7 @@ authors: Zheyuan Liu, Cristian Rodriguez-Opazo, Damien Teney, Stephen Gould
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: liu2021image
-citations: 108
+citations: 116
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.04024'}]
 tags: ["Datasets", "ICCV", "Image Retrieval"]
 short_authors: Liu et al.

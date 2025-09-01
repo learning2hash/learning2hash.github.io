@@ -6,7 +6,7 @@ authors: Stamatis Outsios, Konstantinos Skianis, Polykarpos Meladianos, Christos
 conference: Arxiv
 year: 2018
 bibkey: outsios2018word
-citations: 8
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.06694'}]
 tags: ["Scalability"]
 short_authors: Outsios et al.

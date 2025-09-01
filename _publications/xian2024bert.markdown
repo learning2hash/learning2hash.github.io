@@ -5,7 +5,7 @@ authors: Jiarong Xian, Jibao Yuan, Peiwei Zheng, Dexian Chen, Nie Yuntao
 conference: Arxiv
 year: 2024
 bibkey: xian2024bert
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2404.01582'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Tools & Libraries"]
 short_authors: Xian et al.

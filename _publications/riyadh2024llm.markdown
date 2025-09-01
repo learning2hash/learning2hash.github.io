@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2024
 bibkey: riyadh2024llm
 citations: 0
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.18819'}]
+additional_links: [{name: Other, url: 'https://engineering.grab.com/llm-assisted-vector-similarity-search'},
+  {name: Paper, url: 'https://arxiv.org/abs/2412.18819'}]
 tags: ["Datasets", "Efficiency", "Similarity Search"]
 short_authors: Riyadh et al.
 ---

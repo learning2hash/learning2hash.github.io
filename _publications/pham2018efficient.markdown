@@ -2,14 +2,14 @@
 layout: publication
 title: Efficient Texture Retrieval Using Multiscale Local Extrema Descriptors And
   Covariance Embedding
-authors: Minh-tan Pham
+authors: Minh-Tan Pham
 conference: Lecture Notes in Computer Science
 year: 2019
 bibkey: pham2018efficient
 citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.01124'}]
 tags: ["Evaluation", "Tools & Libraries"]
-short_authors: Minh-tan Pham
+short_authors: Minh-Tan Pham
 ---
 This paper presents an efficient method for texture retrieval using
 multiscale feature extraction and embedding based on the local extrema

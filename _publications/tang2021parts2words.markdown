@@ -7,7 +7,8 @@ conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2023
 bibkey: tang2021parts2words
 citations: 4
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.01872'}]
+additional_links: [{name: Code, url: 'https://github.com/JLUtangchuan/Parts2Words.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2107.01872'}]
 tags: ["CVPR", "Datasets"]
 short_authors: Tang et al.
 ---

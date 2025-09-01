@@ -7,7 +7,7 @@ conference: Proceedings of the 44th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2021
 bibkey: srinivasan2021wit
-citations: 130
+citations: 134
 additional_links: [{name: Code, url: 'https://github.com/google-research-datasets/wit'},
   {name: Paper, url: 'https://arxiv.org/abs/2103.01913'}]
 tags: ["Datasets", "Evaluation", "SIGIR", "Text Retrieval"]

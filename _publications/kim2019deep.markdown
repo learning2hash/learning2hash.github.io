@@ -5,7 +5,7 @@ authors: Sungyeon Kim, Minkyo Seo, Ivan Laptev, Minsu Cho, Suha Kwak
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: kim2019deep
-citations: 88
+citations: 89
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.09626'}]
 tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Kim et al.

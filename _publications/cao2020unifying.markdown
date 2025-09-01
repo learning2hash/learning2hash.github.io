@@ -5,7 +5,7 @@ authors: Bingyi Cao, Andre Araujo, Jack Sim
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: cao2020unifying
-citations: 293
+citations: 294
 additional_links: [{name: Code, url: 'https://github.com/tensorflow/models/tree/master/research/delf'},
   {name: Paper, url: 'https://arxiv.org/abs/2001.05027'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]

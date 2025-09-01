@@ -5,7 +5,7 @@ authors: Xiaofang Wang, Yi Shi, Kris M. Kitani
 conference: Lecture Notes in Computer Science
 year: 2017
 bibkey: wang2016deep
-citations: 192
+citations: 195
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.03900'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Supervised"]
 short_authors: Xiaofang Wang, Yi Shi, Kris M. Kitani

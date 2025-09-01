@@ -7,7 +7,7 @@ year: 2019
 bibkey: dubey2017local
 citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.09518'}]
-tags: ["Datasets", "Evaluation", "Robustness", "Scalability", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Neural Hashing", "Robustness", "Scalability", "Tools & Libraries"]
 short_authors: Shiv Ram Dubey
 ---
 Face recognition is still a very demanding area of research. This problem

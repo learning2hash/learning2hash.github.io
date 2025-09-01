@@ -1,13 +1,13 @@
 ---
 layout: publication
 title: 'Colbertv2: Effective And Efficient Retrieval Via Lightweight Late Interaction'
-authors: Keshav Santhanam, Omar Khattab, Jon Saad-falcon, Christopher Potts, Matei
+authors: Keshav Santhanam, Omar Khattab, Jon Saad-Falcon, Christopher Potts, Matei
   Zaharia
 conference: 'Proceedings of the 2022 Conference of the North American Chapter of the
   Association for Computational Linguistics: Human Language Technologies'
 year: 2022
 bibkey: santhanam2021colbertv2
-citations: 163
+citations: 178
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.01488'}]
 tags: ["NAACL", "Similarity Search"]
 short_authors: Santhanam et al.
@@ -24,4 +24,4 @@ compression mechanism with a denoised supervision strategy to simultaneously
 improve the quality and space footprint of late interaction. We evaluate
 ColBERTv2 across a wide range of benchmarks, establishing state-of-the-art
 quality within and outside the training domain while reducing the space
-footprint of late interaction models by 6--10\\(\times\\).
+footprint of late interaction models by 6--10\(\times\).

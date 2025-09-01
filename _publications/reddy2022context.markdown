@@ -7,7 +7,8 @@ conference: Lecture Notes in Networks and Systems
 year: 2023
 bibkey: reddy2022context
 citations: 1
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.09070'}]
+additional_links: [{name: Code, url: 'https://github.com/satoru2001/CUKDFIR.'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2207.09070'}]
 tags: ["Efficiency", "Hashing Methods", "Image Retrieval", "Quantization"]
 short_authors: Reddy et al.
 ---

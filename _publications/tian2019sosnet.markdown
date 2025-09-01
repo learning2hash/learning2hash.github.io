@@ -5,7 +5,7 @@ authors: Yurun Tian, Xin Yu, Bin Fan, Fuchao Wu, Huub Heijnen, Vassileios Balnta
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: tian2019sosnet
-citations: 320
+citations: 321
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.05019'}]
 tags: ["CVPR", "Evaluation"]
 short_authors: Tian et al.

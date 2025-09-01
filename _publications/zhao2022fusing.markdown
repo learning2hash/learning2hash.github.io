@@ -6,7 +6,7 @@ authors: Chen Zhao, Yinlin Hu, Mathieu Salzmann
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: zhao2022fusing
-citations: 9
+citations: 10
 additional_links: [{name: Code, url: 'https://sailor-z.github.io/projects/Unseen_Object_Pose.html.'},
   {name: Paper, url: 'https://arxiv.org/abs/2203.08472'}]
 tags: ["Datasets", "Efficiency", "Neural Hashing"]

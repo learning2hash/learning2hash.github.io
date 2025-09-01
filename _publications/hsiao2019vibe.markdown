@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: 'Vibe: Dressing For Diverse Body Shapes'
-authors: Wei-lin Hsiao, Kristen Grauman
+authors: Wei-Lin Hsiao, Kristen Grauman
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: hsiao2019vibe
-citations: 33
+citations: 34
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.06697'}]
 tags: ["CVPR", "Datasets", "Recommender Systems"]
-short_authors: Wei-lin Hsiao, Kristen Grauman
+short_authors: Wei-Lin Hsiao, Kristen Grauman
 ---
 Body shape plays an important role in determining what garments will best
 suit a given person, yet today's clothing recommendation methods take a "one

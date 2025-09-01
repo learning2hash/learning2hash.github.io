@@ -2,12 +2,12 @@
 layout: publication
 title: Deep Region Hashing For Efficient Large-scale Instance Search From Images
 authors: Jingkuan Song, Tao He, Lianli Gao, Xing Xu, Heng Tao Shen
-conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
+conference: Arxiv
 year: 2017
 bibkey: song2017deep
-citations: 308
+citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1701.07901'}]
-tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
 short_authors: Song et al.
 ---
 Instance Search (INS) is a fundamental problem for many applications, while

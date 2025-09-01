@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: Image Super-resolution Via Feature-augmented Random Forest
-authors: Hailiang Li, Kin-man Lam, Miaohui Wang
+authors: Hailiang Li, Kin-Man Lam, Miaohui Wang
 conference: 'Signal Processing: Image Communication'
 year: 2018
 bibkey: li2017image
-citations: 16
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.05248'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Unsupervised"]
-short_authors: Hailiang Li, Kin-man Lam, Miaohui Wang
+short_authors: Hailiang Li, Kin-Man Lam, Miaohui Wang
 ---
 Recent random-forest (RF)-based image super-resolution approaches inherit
 some properties from dictionary-learning-based algorithms, but the

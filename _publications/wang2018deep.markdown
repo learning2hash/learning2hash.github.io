@@ -5,7 +5,7 @@ authors: Xinshao Wang, Yang Hua, Elyor Kodirov, Guosheng Hu, Neil M. Robertson
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2019
 bibkey: wang2018deep
-citations: 45
+citations: 46
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.01459'}]
 tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Wang et al.

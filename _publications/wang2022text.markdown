@@ -6,7 +6,7 @@ authors: Liang Wang, Nan Yang, Xiaolong Huang, Binxing Jiao, Linjun Yang, Daxin 
 conference: Arxiv
 year: 2022
 bibkey: wang2022text
-citations: 74
+citations: 78
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.03533'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Scalability", "Supervised"]
 short_authors: Wang et al.

@@ -5,7 +5,7 @@ authors: Shweta Mahajan, Teresa Botschen, Iryna Gurevych, Stefan Roth
 conference: 2019 IEEE/CVF International Conference on Computer Vision Workshop (ICCVW)
 year: 2019
 bibkey: mahajan2019joint
-citations: 8
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.06635'}]
 tags: ["Datasets", "ICCV", "Multimodal Retrieval", "Supervised"]
 short_authors: Mahajan et al.

@@ -2,13 +2,14 @@
 layout: publication
 title: Unsupervised Contrastive Hashing For Cross-modal Retrieval In Remote Sensing
 authors: "Georgii Mikriukov, Mahdyar Ravanbakhsh, Beg\xFCm Demir"
-conference: 2022 IEEE International Conference on Image Processing (ICIP)
+conference: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speech
+  and Signal Processing (ICASSP)
 year: 2022
 bibkey: mikriukov2022unsupervised
-citations: 5
+citations: 55
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/duch.'}, {name: Paper,
     url: 'https://arxiv.org/abs/2204.08707'}]
-tags: ["Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Robustness", "Scalability", "Similarity Search", "Unsupervised"]
+tags: ["Hashing Methods", "ICASSP", "Image Retrieval", "Multimodal Retrieval", "Robustness", "Scalability", "Similarity Search", "Unsupervised"]
 short_authors: "Georgii Mikriukov, Mahdyar Ravanbakhsh, Beg\xFCm Demir"
 ---
 The development of cross-modal retrieval systems that can search and retrieve

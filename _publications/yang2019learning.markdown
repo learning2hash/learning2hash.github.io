@@ -12,7 +12,7 @@ tags: ["Datasets"]
 short_authors: Yang et al.
 ---
 In this paper, we propose to learn shared semantic space with correlation
-alignment (\\(\{S\}^\{3\}CA\\)) for multimodal data representations, which aligns
+alignment (\(\{S\}^\{3\}CA\)) for multimodal data representations, which aligns
 nonlinear correlations of multimodal data distributions in deep neural networks
 designed for heterogeneous data. In the context of cross-modal (event)
 retrieval, we design a neural network with convolutional layers and
@@ -27,5 +27,5 @@ between heterogeneous data samples can be measured directly. In addition, we
 contribute a Wiki-Flickr Event dataset, where the multimodal data samples are
 not describing each other in pairs like the existing paired datasets, but all
 of them are describing semantic events. Extensive experiments conducted on both
-paired and unpaired datasets manifest the effectiveness of \\(\{S\}^\{3\}CA\\),
+paired and unpaired datasets manifest the effectiveness of \(\{S\}^\{3\}CA\),
 outperforming the state-of-the-art methods.

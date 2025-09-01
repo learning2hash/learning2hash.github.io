@@ -7,7 +7,7 @@ conference: 'Proceedings of the 61st Annual Meeting of the Association for Compu
   Linguistics (Volume 1: Long Papers)'
 year: 2023
 bibkey: liu2023towards
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.17371'}]
 tags: ["Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Liu et al.

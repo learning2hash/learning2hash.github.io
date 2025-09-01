@@ -5,7 +5,7 @@ authors: Xinyu Zhang, Xueguang Ma, Peng Shi, Jimmy Lin
 conference: Proceedings of the 1st Workshop on Multilingual Representation Learning
 year: 2021
 bibkey: zhang2021mr
-citations: 25
+citations: 27
 additional_links: [{name: Code, url: 'https://github.com/castorini/mr.tydi.'}, {name: Paper,
     url: 'https://arxiv.org/abs/2108.08787'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]

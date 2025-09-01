@@ -5,7 +5,7 @@ authors: Yash Patel, Giorgos Tolias, Jiri Matas
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: patel2021recall
-citations: 29
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.11179'}]
 tags: ["CVPR", "Distance Metric Learning", "Evaluation"]
 short_authors: Yash Patel, Giorgos Tolias, Jiri Matas

@@ -6,7 +6,8 @@ conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2019
 bibkey: teichmann2018detect
 citations: 118
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.01584'}]
+additional_links: [{name: Code, url: 'https://github.com/tensorflow/models/tree/master/research/delf.'},
+  {name: Paper, url: 'https://arxiv.org/abs/1812.01584'}]
 tags: ["CVPR", "Datasets", "Image Retrieval"]
 short_authors: Teichmann et al.
 ---
@@ -17,8 +18,8 @@ However, due to the lack of bounding-box datasets for objects of interest among
 retrieval benchmarks, most recent work on regional representations has focused
 on either uniform or class-agnostic region selection. In this paper, we first
 fill the void by providing a new dataset of landmark bounding boxes, based on
-the Google Landmarks dataset, that includes \\(86k\\) images with manually curated
-boxes from \\(15k\\) unique landmarks. Then, we demonstrate how a trained landmark
+the Google Landmarks dataset, that includes \(86k\) images with manually curated
+boxes from \(15k\) unique landmarks. Then, we demonstrate how a trained landmark
 detector, using our new dataset, can be leveraged to index image regions and
 improve retrieval accuracy while being much more efficient than existing
 regional methods. In addition, we introduce a novel regional aggregated

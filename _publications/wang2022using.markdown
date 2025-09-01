@@ -5,7 +5,7 @@ authors: Peiqi Wang, William M. Wells, Seth Berkowitz, Steven Horng, Polina Goll
 conference: Lecture Notes in Computer Science
 year: 2023
 bibkey: wang2022using
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.05561'}]
 tags: ["Multimodal Retrieval", "Self-Supervised", "Tools & Libraries"]
 short_authors: Wang et al.

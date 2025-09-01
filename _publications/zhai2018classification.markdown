@@ -5,7 +5,7 @@ authors: Andrew Zhai, Hao-Yu Wu
 conference: Arxiv
 year: 2018
 bibkey: zhai2018classification
-citations: 132
+citations: 133
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.12649'}]
 tags: ["Compact Codes", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Andrew Zhai, Hao-Yu Wu

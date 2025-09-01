@@ -6,7 +6,7 @@ authors: Yongbiao Chen, Sheng Zhang, Fangxin Liu, Zhigang Chang, Mang Ye, Zhengw
 conference: Proceedings of the 2022 International Conference on Multimedia Retrieval
 year: 2022
 bibkey: chen2021transhash
-citations: 38
+citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.01823'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing", "Scalability", "Tools & Libraries"]
 short_authors: Chen et al.

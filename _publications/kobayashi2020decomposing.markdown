@@ -7,7 +7,7 @@ authors: Kazuma Kobayashi, Ryuichiro Hataya, Yusuke Kurose, Tatsuya Harada, Ryuj
 conference: Medical Image Analysis
 year: 2021
 bibkey: kobayashi2020decomposing
-citations: 31
+citations: 32
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.06224'}]
 tags: ["Image Retrieval", "Similarity Search"]
 short_authors: Kobayashi et al.

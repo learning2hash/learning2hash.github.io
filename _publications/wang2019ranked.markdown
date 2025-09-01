@@ -5,7 +5,7 @@ authors: Xinshao Wang, Yang Hua, Elyor Kodirov, Neil M. Robertson
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: wang2019ranked
-citations: 233
+citations: 236
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.03238'}]
 tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Wang et al.

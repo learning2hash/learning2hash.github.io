@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: Superpixel-based Color Transfer
-authors: "R\xE9mi Giraud, Vinh-thong Ta, Nicolas Papadakis"
+authors: "R\xE9mi Giraud, Vinh-Thong Ta, Nicolas Papadakis"
 conference: 2017 IEEE International Conference on Image Processing (ICIP)
 year: 2017
 bibkey: giraud2019superpixel
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1903.06010'}]
 tags: ["Tools & Libraries"]
-short_authors: "R\xE9mi Giraud, Vinh-thong Ta, Nicolas Papadakis"
+short_authors: "R\xE9mi Giraud, Vinh-Thong Ta, Nicolas Papadakis"
 ---
 In this work, we propose a fast superpixel-based color transfer method (SCT)
 between two images. Superpixels enable to decrease the image dimension and to

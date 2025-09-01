@@ -5,7 +5,7 @@ authors: Pieter Hartel, Eljo Haspels, Mark van Staalduinen, Octavio Texeira
 conference: Arxiv
 year: 2023
 bibkey: hartel2023darkdiff
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.12134'}]
 tags: ["Locality-Sensitive-Hashing", "Scalability"]
 short_authors: Hartel et al.

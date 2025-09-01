@@ -5,7 +5,7 @@ authors: Haoran Wang, Ying Zhang, Zhong Ji, Yanwei Pang, Lin Ma
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: wang2020consensus
-citations: 149
+citations: 150
 additional_links: [{name: Code, url: 'https://github.com/BruceW91/CVSE.'}, {name: Paper,
     url: 'https://arxiv.org/abs/2007.08883'}]
 tags: ["Datasets", "Text Retrieval"]

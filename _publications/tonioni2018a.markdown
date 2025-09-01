@@ -6,7 +6,7 @@ conference: 2018 IEEE International Conference on Image Processing, Applications
   Systems (IPAS)
 year: 2018
 bibkey: tonioni2018a
-citations: 43
+citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.01733'}]
 tags: ["Evaluation", "Image Retrieval", "Neural Hashing", "Similarity Search"]
 short_authors: Alessio Tonioni, Eugenio Serra, Luigi di Stefano

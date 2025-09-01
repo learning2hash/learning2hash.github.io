@@ -6,7 +6,7 @@ conference: Proceedings of the 43rd International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2020
 bibkey: li2020hierarchical
-citations: 100
+citations: 103
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.12566'}]
 tags: ["Datasets", "Evaluation", "Recommender Systems", "SIGIR", "Tools & Libraries"]
 short_authors: Li et al.

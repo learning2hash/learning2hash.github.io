@@ -2,7 +2,7 @@
 layout: publication
 title: Retrieval Robust To Object Motion Blur
 authors: Rong Zou, Marc Pollefeys, Denys Rozumnyi
-conference: Arxiv
+conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: zou2024retrieval
 citations: 0

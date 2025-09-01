@@ -6,7 +6,7 @@ conference: Proceedings of the 7th International Conference on Pattern Recogniti
   Applications and Methods
 year: 2018
 bibkey: lasserre2018studio2shop
-citations: 11
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1807.00556'}]
 tags: ["Evaluation"]
 short_authors: Julia Lasserre, Katharina Rasch, Roland Vollgraf

@@ -7,7 +7,8 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2022
 bibkey: yang2021unleashing
 citations: 25
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.00317'}]
+additional_links: [{name: Code, url: 'https://github.com/Frost-Yang-99/UP-ReID.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2112.00317'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Robustness", "Self-Supervised", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Yang et al.
 ---
@@ -22,7 +23,7 @@ attempt to address two critical issues for learning fine-grained ReID features:
 (1) the augmentations in CL pipeline may distort the discriminative clues in
 person images. (2) the fine-grained local features of person images are not
 fully-explored. Therefore, we introduce an intra-identity
-(I\\(^2\\)-)regularization in the UP-ReID, which is instantiated as two constraints
+(I\(^2\)-)regularization in the UP-ReID, which is instantiated as two constraints
 coming from global image aspect and local patch aspect: a global consistency is
 enforced between augmented and original person images to increase robustness to
 augmentation, while an intrinsic contrastive constraint among local patches of

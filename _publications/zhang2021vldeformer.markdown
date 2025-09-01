@@ -6,7 +6,7 @@ authors: Lisai Zhang, Hongfa Wu, Qingcai Chen, Yimeng Deng, Zhonghua Li, Dejiang
 conference: Knowledge-Based Systems
 year: 2022
 bibkey: zhang2021vldeformer
-citations: 18
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.11338'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Zhang et al.
@@ -27,6 +27,6 @@ plays the role of single modal indexing, which is to some extent like the term
 indexing of a text SE. The model learns cross-modal knowledge from
 early-interaction pre-training and is then decomposed into an individual
 encoder. The decomposition requires only small target datasets for supervision
-and achieves both \\(1000+\\) times acceleration and less than \\(0.6\\)% average
+and achieves both \(1000+\) times acceleration and less than \(0.6\)% average
 recall drop. VLDeformer also outperforms state-of-the-art visual-semantic
 embedding methods on COCO and Flickr30k.

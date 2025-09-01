@@ -6,7 +6,7 @@ authors: Ji Zhang, Yannis Kalantidis, Marcus Rohrbach, Manohar Paluri, Ahmed Elg
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2019
 bibkey: zhang2018large
-citations: 141
+citations: 142
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.10660'}]
 tags: ["AAAI", "Datasets", "Evaluation", "Scalability"]
 short_authors: Zhang et al.

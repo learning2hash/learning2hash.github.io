@@ -9,7 +9,7 @@ year: 2023
 bibkey: singh2022simultaneously
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.11060'}]
-tags: ["Efficiency", "Evaluation", "Hashing Methods", "ICASSP", "Self-Supervised", "Supervised", "Tools & Libraries", "Unsupervised"]
+tags: ["Efficiency", "Evaluation", "Hashing Methods", "ICASSP", "Neural Hashing", "Self-Supervised", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Anup Singh, Kris Demuynck, Vipul Arora
 ---
 Audio fingerprinting systems must efficiently and robustly identify query

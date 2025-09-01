@@ -7,8 +7,9 @@ authors: Qihua Feng, Peiya Li, Zhixun Lu, Chaozhuo Li, Zefang Wang, Zhiquan Liu,
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2024
 bibkey: feng2022evit
-citations: 14
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.14657'}]
+citations: 17
+additional_links: [{name: Code, url: 'https://github.com/onlinehuazai/EViT.'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2208.14657'}]
 tags: ["Efficiency", "Evaluation", "Image Retrieval", "Privacy & Security", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Feng et al.
 ---

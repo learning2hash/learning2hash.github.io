@@ -1,8 +1,8 @@
 ---
 layout: publication
 title: Tracking Persons-of-interest Via Unsupervised Representation Adaptation
-authors: Shun Zhang, Jia-bin Huang, Jongwoo Lim, Yihong Gong, Jinjun Wang, Narendra
-  Ahuja, Ming-hsuan Yang
+authors: Shun Zhang, Jia-Bin Huang, Jongwoo Lim, Yihong Gong, Jinjun Wang, Narendra
+  Ahuja, Ming-Hsuan Yang
 conference: International Journal of Computer Vision
 year: 2019
 bibkey: zhang2017tracking

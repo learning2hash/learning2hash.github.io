@@ -1,12 +1,12 @@
 ---
 layout: publication
 title: Learning Contrastive Representation For Semantic Correspondence
-authors: Taihong Xiao, Sifei Liu, Shalini de Mello, Zhiding Yu, Jan Kautz, Ming-hsuan
+authors: Taihong Xiao, Sifei Liu, Shalini de Mello, Zhiding Yu, Jan Kautz, Ming-Hsuan
   Yang
 conference: International Journal of Computer Vision
 year: 2022
 bibkey: xiao2021learning
-citations: 14
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.10967'}]
 tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Xiao et al.

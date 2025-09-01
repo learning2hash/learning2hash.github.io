@@ -8,7 +8,7 @@ year: 2017
 bibkey: spring2016scalable
 citations: 108
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.08194'}]
-tags: ["Datasets", "Efficiency", "Hashing Methods", "KDD", "Scalability"]
+tags: ["Datasets", "Efficiency", "Hashing Methods", "KDD", "Neural Hashing", "Scalability"]
 short_authors: Ryan Spring, Anshumali Shrivastava
 ---
 Current deep learning architectures are growing larger in order to learn from

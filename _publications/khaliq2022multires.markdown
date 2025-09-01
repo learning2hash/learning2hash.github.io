@@ -6,7 +6,7 @@ authors: Ahmad Khaliq, Michael Milford, Sourav Garg
 conference: IEEE Robotics and Automation Letters
 year: 2022
 bibkey: khaliq2022multires
-citations: 37
+citations: 38
 additional_links: [{name: Code, url: 'https://github.com/Ahmedest61/MultiRes-NetVLAD.'},
   {name: Paper, url: 'https://arxiv.org/abs/2202.09146'}]
 tags: ["Datasets", "Evaluation"]

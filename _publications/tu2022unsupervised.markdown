@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: Unsupervised Hashing With Semantic Concept Mining
-authors: Rong-cheng Tu, Xian-ling Mao, Kevin Qinghong Lin, Chengfei Cai, Weize Qin,
+authors: Rong-Cheng Tu, Xian-Ling Mao, Kevin Qinghong Lin, Chengfei Cai, Weize Qin,
   Hongfa Wang, Wei Wei, Heyan Huang
 conference: Proceedings of the ACM on Management of Data
 year: 2023
 bibkey: tu2022unsupervised
 citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.11475'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Unsupervised"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Tu et al.
 ---
 Recently, to improve the unsupervised image retrieval performance, plenty of

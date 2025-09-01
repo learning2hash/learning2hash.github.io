@@ -7,7 +7,8 @@ conference: Proceedings of the ACM on Web Conference 2025
 year: 2025
 bibkey: wu2024graphhash
 citations: 0
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.17245'}]
+additional_links: [{name: Code, url: 'https://github.com/snap-research/GraphHash.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2412.17245'}]
 tags: ["Efficiency", "Evaluation", "Graph Based ANN", "Hashing Methods", "Recommender Systems"]
 short_authors: Wu et al.
 ---

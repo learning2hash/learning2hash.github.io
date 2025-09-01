@@ -3,10 +3,10 @@ layout: publication
 title: Pattern Spotting And Image Retrieval In Historical Documents Using Deep Hashing
 authors: Caio da S. Dias, Alceu de S. Britto, Jean P. Barddal, Laurent Heutte, Alessandro
   L. Koerich
-conference: Arxiv
+conference: 2022 IEEE International Conference on Systems, Man, and Cybernetics (SMC)
 year: 2022
 bibkey: dias2022pattern
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.02397'}]
 tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "Memory Efficiency", "Neural Hashing"]
 short_authors: Dias et al.

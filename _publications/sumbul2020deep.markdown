@@ -5,7 +5,7 @@ authors: "Gencer Sumbul, Jian Kang, Beg\xFCm Demir"
 conference: Deep Learning for the Earth Sciences
 year: 2021
 bibkey: sumbul2020deep
-citations: 24
+citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.01613'}]
 tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: "Gencer Sumbul, Jian Kang, Beg\xFCm Demir"

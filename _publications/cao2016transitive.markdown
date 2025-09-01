@@ -5,7 +5,7 @@ authors: Zhangjie Cao, Mingsheng Long, Qiang Yang
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2017
 bibkey: cao2016transitive
-citations: 25
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.04307'}]
 tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Zhangjie Cao, Mingsheng Long, Qiang Yang

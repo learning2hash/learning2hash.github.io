@@ -6,7 +6,7 @@ authors: "Towaki Takikawa, Thomas M\xFCller, Merlin Nimier-David, Alex Evans, Sa
 conference: SIGGRAPH Asia 2023 Conference Papers
 year: 2023
 bibkey: takikawa2023compact
-citations: 9
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.17241'}]
 tags: ["Evaluation", "Memory Efficiency", "Quantization", "Tools & Libraries"]
 short_authors: Takikawa et al.

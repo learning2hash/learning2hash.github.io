@@ -5,7 +5,7 @@ authors: Christopher Morris, Nils M. Kriege, Kristian Kersting, Petra Mutzel
 conference: 2016 IEEE 16th International Conference on Data Mining (ICDM)
 year: 2016
 bibkey: morris2016faster
-citations: 87
+citations: 89
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.00064'}]
 tags: ["Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Morris et al.

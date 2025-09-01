@@ -2,7 +2,7 @@
 layout: publication
 title: Revolutionizing Text-to-image Retrieval As Autoregressive Token-to-voken Generation
 authors: Yongqi Li, Hongru Cai, Wenjie Wang, Leigang Qu, Yinwei Wei, Wenjie Li, Liqiang
-  Nie, Tat-seng Chua
+  Nie, Tat-Seng Chua
 conference: Proceedings of the 48th International ACM SIGIR Conference on Research
   and Development in Information Retrieval
 year: 2025

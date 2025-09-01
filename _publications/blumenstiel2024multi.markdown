@@ -8,7 +8,7 @@ bibkey: blumenstiel2024multi
 citations: 2
 additional_links: [{name: Code, url: 'https://github.com/IBM/remote-sensing-image-retrieval.'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.02059'}]
-tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "RSS"]
+tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Blumenstiel et al.
 ---
 Image retrieval enables an efficient search through vast amounts of satellite

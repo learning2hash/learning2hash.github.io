@@ -7,7 +7,7 @@ authors: Dongfang Liu, Yiming Cui, Liqi Yan, Christos Mousas, Baijian Yang, Ying
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2021
 bibkey: liu2020densernet
-citations: 119
+citations: 120
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2012.02366'}]
 tags: ["AAAI", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Liu et al.

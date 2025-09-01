@@ -7,7 +7,7 @@ year: 2018
 bibkey: iscen2017fast
 citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.06935'}]
-tags: ["CVPR", "Datasets", "Efficiency", "Similarity Search"]
+tags: ["CVPR", "Datasets", "Efficiency", "Neural Hashing", "Similarity Search"]
 short_authors: Iscen et al.
 ---
 Despite the success of deep learning on representing images for particular

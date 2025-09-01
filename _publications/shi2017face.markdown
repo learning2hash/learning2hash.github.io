@@ -5,7 +5,7 @@ authors: Yichun Shi, Charles Otto, Anil K. Jain
 conference: IEEE Transactions on Information Forensics and Security
 year: 2018
 bibkey: shi2017face
-citations: 107
+citations: 108
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.05067'}]
 tags: ["Datasets", "Evaluation", "Supervised"]
 short_authors: Yichun Shi, Charles Otto, Anil K. Jain

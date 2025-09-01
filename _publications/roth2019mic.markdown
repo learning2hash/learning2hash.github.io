@@ -5,7 +5,7 @@ authors: "Karsten Roth, Biagio Brattoli, Bj\xF6rn Ommer"
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: roth2019mic
-citations: 92
+citations: 93
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.11574'}]
 tags: ["Distance Metric Learning", "ICCV"]
 short_authors: "Karsten Roth, Biagio Brattoli, Bj\xF6rn Ommer"

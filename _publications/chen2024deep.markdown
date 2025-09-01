@@ -5,8 +5,9 @@ authors: Hao Chen, Lei Zhu, Xinghui Zhu
 conference: Applied Sciences
 year: 2025
 bibkey: chen2024deep
-citations: 1
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.15387'}]
+citations: 2
+additional_links: [{name: Code, url: 'https://github.com/donnotnormal/DCGH.'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2410.15387'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Similarity Search", "Tools & Libraries"]
 short_authors: Hao Chen, Lei Zhu, Xinghui Zhu
 ---

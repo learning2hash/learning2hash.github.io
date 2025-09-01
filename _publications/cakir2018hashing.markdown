@@ -5,9 +5,9 @@ authors: Fatih Cakir, Kun He, Sarah Adel Bargal, Stan Sclaroff
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2019
 bibkey: cakir2018hashing
-citations: 91
+citations: 93
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.00974'}]
-tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Video Retrieval"]
+tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Supervised", "Video Retrieval"]
 short_authors: Cakir et al.
 ---
 Binary vector embeddings enable fast nearest neighbor retrieval in large

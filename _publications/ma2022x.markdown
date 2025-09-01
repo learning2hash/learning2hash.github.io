@@ -5,7 +5,7 @@ authors: Yiwei Ma, Guohai Xu, Xiaoshuai Sun, Ming Yan, Ji Zhang, Rongrong Ji
 conference: Proceedings of the 30th ACM International Conference on Multimedia
 year: 2022
 bibkey: ma2022x
-citations: 157
+citations: 165
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.07285'}]
 tags: ["Datasets", "Evaluation", "Scalability", "Self-Supervised", "Text Retrieval"]
 short_authors: Ma et al.

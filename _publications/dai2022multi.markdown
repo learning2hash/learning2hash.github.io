@@ -6,7 +6,7 @@ authors: Dawei Dai, Xiaoyu Tang, Shuyin Xia, Yingge Liu, Guoyin Wang, Zizhong Ch
 conference: Arxiv
 year: 2022
 bibkey: dai2022multi
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.05007'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Dai et al.

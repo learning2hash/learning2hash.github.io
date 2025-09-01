@@ -7,7 +7,7 @@ authors: Shitao Xiao, Zheng Liu, Weihao Han, Jianjin Zhang, Yingxia Shao, Defu L
 conference: Proceedings of the ACM Web Conference 2022
 year: 2022
 bibkey: xiao2022progressively
-citations: 14
+citations: 15
 additional_links: [{name: Code, url: 'https://github.com/microsoft/BiDR.'}, {name: Paper,
     url: 'https://arxiv.org/abs/2201.05409'}]
 tags: ["Evaluation", "Large Scale Search", "Neural Hashing", "Quantization", "Scalability", "Tools & Libraries", "Vector Indexing"]

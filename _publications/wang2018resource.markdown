@@ -6,7 +6,7 @@ authors: Yan Wang, Lequn Wang, Yurong You, Xu Zou, Vincent Chen, Serena Li, Gao 
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: wang2018resource
-citations: 262
+citations: 264
 additional_links: [{name: Code, url: 'https://github.com/mileyan/DARENet.'}, {name: Paper,
     url: 'https://arxiv.org/abs/1805.08805'}]
 tags: ["CVPR", "Datasets"]

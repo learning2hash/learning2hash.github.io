@@ -5,7 +5,7 @@ authors: Hang Yu, Jiahao Wen, Zhedong Zheng
 conference: IEEE Transactions on Information Forensics and Security
 year: 2025
 bibkey: yu2025camel
-citations: 0
+citations: 1
 additional_links: [{name: Code, url: 'https://github.com/Jahawn-Wen/CAMeL-reID.'},
   {name: Paper, url: 'https://arxiv.org/abs/2504.18782'}]
 tags: ["Privacy & Security", "Robustness", "Scalability", "Tools & Libraries"]

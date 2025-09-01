@@ -5,7 +5,7 @@ authors: Erkun Yang, Tongliang Liu, Cheng Deng, Wei Liu, Dacheng Tao
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: yang2019distillhash
-citations: 149
+citations: 150
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.03465'}]
 tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Scalability", "Similarity Search", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Yang et al.

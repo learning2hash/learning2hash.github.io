@@ -6,7 +6,7 @@ conference: Proceedings of the 32nd ACM International Conference on Information 
   Knowledge Management
 year: 2023
 bibkey: ma2023anserini
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.12139'}]
 tags: ["CIKM", "Datasets", "Graph Based ANN", "Tools & Libraries"]
 short_authors: Xueguang Ma, Tommaso Teofili, Jimmy Lin

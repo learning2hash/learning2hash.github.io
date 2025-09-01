@@ -8,7 +8,8 @@ conference: 2023 IEEE International Conference on Robotics and Automation (ICRA)
 year: 2023
 bibkey: dong2022learning
 citations: 4
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.13586'}]
+additional_links: [{name: Code, url: 'https://github.com/PRBonn/descriptor-dr.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2209.13586'}]
 tags: ["ICRA", "Image Retrieval", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Dong et al.
 ---

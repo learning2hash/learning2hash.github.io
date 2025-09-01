@@ -5,7 +5,7 @@ authors: Rohit Girdhar, David F. Fouhey, Mikel Rodriguez, Abhinav Gupta
 conference: Lecture Notes in Computer Science
 year: 2016
 bibkey: girdhar2016learning
-citations: 648
+citations: 650
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.08637'}]
 tags: ["Uncategorized"]
 short_authors: Girdhar et al.

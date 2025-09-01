@@ -10,15 +10,15 @@ additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.05049'}]
 tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Daniyar Chumbalov, Lucas Maystre, Matthias Grossglauser
 ---
-We consider the problem of finding a target object \\(t\\) using pairwise
+We consider the problem of finding a target object \(t\) using pairwise
 comparisons, by asking an oracle questions of the form *"Which object from
-the pair \\((i,j)\\) is more similar to \\(t\\)?"*. Objects live in a space of latent
+the pair \((i,j)\) is more similar to \(t\)?"*. Objects live in a space of latent
 features, from which the oracle generates noisy answers. First, we consider the
 \{\em non-blind\} setting where these features are accessible. We propose a new
 Bayesian comparison-based search algorithm with noisy answers; it has low
 computational complexity yet is efficient in the number of queries. We provide
 theoretical guarantees, deriving the form of the optimal query and proving
-almost sure convergence to the target \\(t\\). Second, we consider the *blind*
+almost sure convergence to the target \(t\). Second, we consider the *blind*
 setting, where the object features are hidden from the search algorithm. In
 this setting, we combine our search method and a new distributional triplet
 embedding algorithm into one scalable learning framework called

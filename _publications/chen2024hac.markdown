@@ -5,7 +5,7 @@ authors: Yihang Chen, Qianyi Wu, Weiyao Lin, Mehrtash Harandi, Jianfei Cai
 conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: chen2024hac
-citations: 5
+citations: 6
 additional_links: [{name: Code, url: 'https://github.com/YihangChen-ee/HAC'}, {name: Paper,
     url: 'https://arxiv.org/abs/2403.14530'}]
 tags: ["Evaluation", "Hashing Methods", "Quantization", "Tools & Libraries"]

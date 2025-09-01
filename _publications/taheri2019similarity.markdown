@@ -7,7 +7,7 @@ authors: Rahim Taheri, Meysam Ghahramani, Reza Javidan, Mohammad Shojafar, Zahra
 conference: Future Generation Computer Systems
 year: 2019
 bibkey: taheri2019similarity
-citations: 192
+citations: 193
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.05759'}]
 tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Taheri et al.

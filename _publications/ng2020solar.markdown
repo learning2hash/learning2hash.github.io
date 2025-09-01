@@ -5,7 +5,7 @@ authors: Tony Ng, Vassileios Balntas, Yurun Tian, Krystian Mikolajczyk
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: ng2020solar
-citations: 98
+citations: 99
 additional_links: [{name: Code, url: 'http://github.com/tonyngjichun/SOLAR'}, {name: Paper,
     url: 'https://arxiv.org/abs/2001.08972'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]

@@ -5,7 +5,7 @@ authors: Yue Lu, Congqi Cao, Yanning Zhang
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2022
 bibkey: lu2021learnable
-citations: 23
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.07839'}]
 tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Scalability", "Self-Supervised"]
 short_authors: Yue Lu, Congqi Cao, Yanning Zhang

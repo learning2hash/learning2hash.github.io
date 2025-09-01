@@ -8,9 +8,9 @@ conference: Proceedings of the 29th ACM SIGPLAN Annual Symposium on Principles a
   Practice of Parallel Programming
 year: 2024
 bibkey: manohar2023parlayann
-citations: 6
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.04359'}]
-tags: ["Datasets", "Evaluation", "Graph Based ANN", "Large Scale Search", "Scalability", "Similarity Search", "Tools & Libraries"]
+tags: ["Datasets", "Evaluation", "Graph Based ANN", "Large Scale Search", "Neural Hashing", "Scalability", "Similarity Search", "Tools & Libraries"]
 short_authors: Manohar et al.
 ---
 Approximate nearest-neighbor search (ANNS) algorithms are a key part of the

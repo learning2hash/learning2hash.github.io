@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: 'Cluster-and-conquer: When Randomness Meets Graph Locality'
-authors: "George Giakkoupis, Anne-marie Kermarrec, Olivier Ruas, Fran\xE7ois Ta\xEF\
+authors: "George Giakkoupis, Anne-Marie Kermarrec, Olivier Ruas, Fran\xE7ois Ta\xEF\
   ani"
 conference: 2021 IEEE 37th International Conference on Data Engineering (ICDE)
 year: 2021

@@ -6,7 +6,8 @@ conference: International Journal of Computer Vision
 year: 2020
 bibkey: lin2019hadamard
 citations: 41
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.04454'}]
+additional_links: [{name: Code, url: 'https://github.com/lmbxmu/mycode.'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1905.04454'}]
 tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Locality-Sensitive-Hashing", "Scalability", "Supervised"]
 short_authors: Lin et al.
 ---

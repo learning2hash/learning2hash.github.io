@@ -6,7 +6,7 @@ authors: "Georgii Mikriukov, Mahdyar Ravanbakhsh, Beg\xFCm Demir"
 conference: Arxiv
 year: 2022
 bibkey: mikriukov2022deep
-citations: 19
+citations: 20
 additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/duch.'}, {name: Paper,
     url: 'https://arxiv.org/abs/2201.08125'}]
 tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Robustness", "Scalability", "Unsupervised"]

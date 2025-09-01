@@ -6,7 +6,7 @@ authors: "Manuel Faysse, Hugues Sibille, Tony Wu, Bilel Omrani, Gautier Viaud, C
 conference: Arxiv
 year: 2024
 bibkey: faysse2024colpali
-citations: 0
+citations: 1
 additional_links: [{name: Code, url: 'https://hf.co/vidore.'}, {name: Paper, url: 'https://arxiv.org/abs/2407.01449'}]
 tags: ["Evaluation", "Text Retrieval"]
 short_authors: Faysse et al.

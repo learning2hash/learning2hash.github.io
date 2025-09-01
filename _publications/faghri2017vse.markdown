@@ -5,7 +5,7 @@ authors: Fartash Faghri, David J. Fleet, Jamie Ryan Kiros, Sanja Fidler
 conference: Arxiv
 year: 2017
 bibkey: faghri2017vse
-citations: 562
+citations: 564
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.05612'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Faghri et al.

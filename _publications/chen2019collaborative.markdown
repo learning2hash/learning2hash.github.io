@@ -5,7 +5,7 @@ authors: Chih-Ming Chen, Chuan-Ju Wang, Ming-Feng Tsai, Yi-Hsuan Yang
 conference: The World Wide Web Conference
 year: 2019
 bibkey: chen2019collaborative
-citations: 90
+citations: 91
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.06188'}]
 tags: ["Datasets", "Evaluation", "Recommender Systems", "Scalability", "Tools & Libraries"]
 short_authors: Chen et al.

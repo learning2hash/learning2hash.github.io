@@ -6,7 +6,8 @@ conference: 2020 25th International Conference on Pattern Recognition (ICPR)
 year: 2021
 bibkey: messina2020transformer
 citations: 56
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.09144'}]
+additional_links: [{name: Code, url: 'https://github.com/mesnico/TERN.'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2004.09144'}]
 tags: ["Datasets", "Image Retrieval", "Scalability"]
 short_authors: Messina et al.
 ---

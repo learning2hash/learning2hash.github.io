@@ -7,7 +7,8 @@ conference: IEEE Robotics and Automation Letters
 year: 2025
 bibkey: hausler2024pair
 citations: 1
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2410.06614'}]
+additional_links: [{name: Code, url: 'https://csiro-robotics.github.io/Pair-VPR.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2410.06614'}]
 tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Stephen Hausler, Peyman Moghadam
 ---

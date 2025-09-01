@@ -5,7 +5,7 @@ authors: Zhangjie Cao, Mingsheng Long, Jianmin Wang, Philip S. Yu
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: cao2017hashnet
-citations: 643
+citations: 649
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.00758'}]
 tags: ["Efficiency", "Evaluation", "Hashing Methods", "ICCV", "Neural Hashing", "Scalability"]
 short_authors: Cao et al.

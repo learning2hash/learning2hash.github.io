@@ -5,7 +5,7 @@ authors: Xu Yuan, Zheng Zhang, Xunguang Wang, Lin Wu
 conference: IEEE Transactions on Information Forensics and Security
 year: 2023
 bibkey: yuan2023semantic
-citations: 13
+citations: 14
 additional_links: [{name: Code, url: 'https://github.com/xandery-geek/SAAT.'}, {name: Paper,
     url: 'https://arxiv.org/abs/2310.14637'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness", "Scalability"]

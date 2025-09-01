@@ -2,14 +2,14 @@
 layout: publication
 title: Compositional Embeddings Using Complementary Partitions For Memory-efficient
   Recommendation Systems
-authors: Hao-jun Michael Shi, Dheevatsa Mudigere, Maxim Naumov, Jiyan Yang
+authors: Hao-Jun Michael Shi, Dheevatsa Mudigere, Maxim Naumov, Jiyan Yang
 conference: Proceedings of the 26th ACM SIGKDD International Conference on Knowledge
   Discovery &amp; Data Mining
 year: 2020
 bibkey: shi2019compositional
 citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.02107'}]
-tags: ["Evaluation", "Hashing Methods", "KDD", "Recommender Systems"]
+tags: ["Evaluation", "Hashing Methods", "KDD", "Neural Hashing", "Recommender Systems"]
 short_authors: Shi et al.
 ---
 Modern deep learning-based recommendation systems exploit hundreds to

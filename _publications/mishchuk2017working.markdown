@@ -5,7 +5,7 @@ authors: Anastasiya Mishchuk, Dmytro Mishkin, Filip Radenovic, Jiri Matas
 conference: Arxiv
 year: 2017
 bibkey: mishchuk2017working
-citations: 264
+citations: 267
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.10872'}]
 tags: ["Evaluation"]
 short_authors: Mishchuk et al.

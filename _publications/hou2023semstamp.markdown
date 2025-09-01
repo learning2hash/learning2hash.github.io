@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: 'Semstamp: A Semantic Watermark With Paraphrastic Robustness For Text Generation'
-authors: Abe Bohan Hou, Jingyu Zhang, Tianxing He, Yichen Wang, Yung-sung Chuang,
+authors: Abe Bohan Hou, Jingyu Zhang, Tianxing He, Yichen Wang, Yung-Sung Chuang,
   Hongwei Wang, Lingfeng Shen, Benjamin van Durme, Daniel Khashabi, Yulia Tsvetkov
 conference: 'Proceedings of the 2024 Conference of the North American Chapter of the
   Association for Computational Linguistics: Human Language Technologies (Volume 1:

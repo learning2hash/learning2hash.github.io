@@ -2,7 +2,7 @@
 layout: publication
 title: Sharing Hash Codes For Multiple Purposes
 authors: Wikor Pronobis, Danny Panknin, Johannes Kirschnick, Vignesh Srinivasan, Wojciech
-  Samek, Volker Markl, Manohar Kaul, Klaus-robert Mueller, Shinichi Nakajima
+  Samek, Volker Markl, Manohar Kaul, Klaus-Robert Mueller, Shinichi Nakajima
 conference: Japanese Journal of Statistics and Data Science
 year: 2018
 bibkey: pronobis2016sharing

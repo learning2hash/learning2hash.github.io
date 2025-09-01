@@ -6,7 +6,7 @@ authors: Jianan Jiang, Hao Tang, Zhilin Jiang, Weiren Yu, di Wu
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2025
 bibkey: jiang2024arnet
-citations: 0
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.11551'}]
 tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Scalability", "Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: Jiang et al.

@@ -3,10 +3,10 @@ layout: publication
 title: Deep Reinforcement Learning With Label Embedding Reward For Supervised Image
   Hashing
 authors: Zhenzhen Wang, Weixiang Hong, Junsong Yuan
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2020
 bibkey: wang2020deep
-citations: 9
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2008.03973'}]
 tags: ["Compact Codes", "Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
 short_authors: Zhenzhen Wang, Weixiang Hong, Junsong Yuan

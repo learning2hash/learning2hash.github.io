@@ -6,7 +6,7 @@ authors: Lin Wu, Yang Wang, Junbin Gao, Xue Li
 conference: IEEE Transactions on Multimedia
 year: 2018
 bibkey: wu2018where
-citations: 235
+citations: 239
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.01911'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Wu et al.

@@ -6,8 +6,9 @@ authors: Delong Liu, Haiwen Li, Zhicheng Zhao, Yuan Dong
 conference: Neural Networks
 year: 2024
 bibkey: liu2023text
-citations: 1
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2307.09059'}]
+citations: 2
+additional_links: [{name: Code, url: 'https://github.com/Delong-liu-bupt/SEN.'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2307.09059'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Tools & Libraries"]
 short_authors: Liu et al.
 ---

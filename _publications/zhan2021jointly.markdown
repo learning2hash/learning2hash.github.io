@@ -7,7 +7,7 @@ conference: Proceedings of the 30th ACM International Conference on Information 
   Knowledge Management
 year: 2021
 bibkey: zhan2021jointly
-citations: 58
+citations: 60
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.00644'}]
 tags: ["CIKM", "Efficiency", "Evaluation", "Quantization"]
 short_authors: Zhan et al.

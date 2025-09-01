@@ -6,7 +6,7 @@ conference: Arxiv
 year: 2016
 bibkey: curtin2016fast
 citations: 0
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.09784'}]
+additional_links: [{name: Other, url: 'http://www.mlpack.org'}, {name: Paper, url: 'https://arxiv.org/abs/1605.09784'}]
 tags: ["Efficiency", "Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Ryan R. Curtin, Andrew B. Gardner
 ---

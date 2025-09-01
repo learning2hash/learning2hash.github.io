@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: 'Beyond Triplet Loss: Meta Prototypical N-tuple Loss For Person Re-identification'
-authors: Zhizheng Zhang, Cuiling Lan, Wenjun Zeng, Zhibo Chen, Shih-fu Chang
+authors: Zhizheng Zhang, Cuiling Lan, Wenjun Zeng, Zhibo Chen, Shih-Fu Chang
 conference: IEEE Transactions on Multimedia
 year: 2021
 bibkey: zhang2020beyond

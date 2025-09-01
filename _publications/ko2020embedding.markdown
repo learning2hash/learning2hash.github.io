@@ -5,7 +5,7 @@ authors: Byungsoo Ko, Geonmo Gu
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: ko2020embedding
-citations: 47
+citations: 48
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.02546'}]
 tags: ["CVPR", "Distance Metric Learning", "Image Retrieval", "Re-Ranking"]
 short_authors: Byungsoo Ko, Geonmo Gu

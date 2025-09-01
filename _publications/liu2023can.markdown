@@ -5,7 +5,7 @@ authors: Renyang Liu, Jun Zhao, Xing Chu, Yu Liang, Wei Zhou, Jing He
 conference: Soft Computing
 year: 2023
 bibkey: liu2023can
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.09806'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Memory Efficiency"]
 short_authors: Liu et al.

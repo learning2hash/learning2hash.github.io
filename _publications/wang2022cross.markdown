@@ -6,7 +6,7 @@ authors: Yabing Wang, Jianfeng Dong, Tianxiang Liang, Minsong Zhang, Rui Cai, Xu
 conference: Proceedings of the 30th ACM International Conference on Multimedia
 year: 2022
 bibkey: wang2022cross
-citations: 19
+citations: 20
 additional_links: [{name: Code, url: 'https://github.com/HuiGuanLab/nrccr.'}, {name: Paper,
     url: 'https://arxiv.org/abs/2208.12526'}]
 tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Robustness", "Tools & Libraries", "Unsupervised"]

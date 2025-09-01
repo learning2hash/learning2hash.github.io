@@ -5,7 +5,7 @@ authors: Wenbin Li, Lei Wang, Jinglin Xu, Jing Huo, Yang Gao, Jiebo Luo
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: li2019revisiting
-citations: 574
+citations: 579
 additional_links: [{name: Code, url: 'https://github.com/WenbinLee/DN4.git\'}, {name: Paper,
     url: 'https://arxiv.org/abs/1903.12290'}]
 tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]

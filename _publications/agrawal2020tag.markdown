@@ -5,7 +5,7 @@ authors: Suraj Agrawal, Dwaipayan Roy, Mandar Mitra
 conference: Information Processing &amp; Management
 year: 2021
 bibkey: agrawal2020tag
-citations: 21
+citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.06389'}]
 tags: ["Datasets", "Recommender Systems"]
 short_authors: Suraj Agrawal, Dwaipayan Roy, Mandar Mitra

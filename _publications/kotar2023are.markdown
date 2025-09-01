@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2023
 bibkey: kotar2023are
 citations: 1
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.00750'}]
+additional_links: [{name: Other, url: 'https://s-tian.github.io/projects/cute/'},
+  {name: Paper, url: 'https://arxiv.org/abs/2311.00750'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Self-Supervised", "Supervised", "Survey Paper"]
 short_authors: Kotar et al.
 ---

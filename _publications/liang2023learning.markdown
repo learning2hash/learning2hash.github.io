@@ -5,7 +5,7 @@ authors: Xurong Liang, Tong Chen, Quoc Viet Hung Nguyen, Jianxin Li, Hongzhi Yin
 conference: 2023 IEEE International Conference on Data Mining (ICDM)
 year: 2023
 bibkey: liang2023learning
-citations: 2
+citations: 3
 additional_links: [{name: Code, url: 'https://github.com/xurong-liang/CERP.'}, {name: Paper,
     url: 'https://arxiv.org/abs/2309.03518'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Recommender Systems", "Tools & Libraries"]

@@ -6,7 +6,7 @@ conference: 2021 IEEE 4th International Conference on Multimedia Information Pro
   and Retrieval (MIPR)
 year: 2021
 bibkey: singh2020robust
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.01887'}]
 tags: ["Hashing Methods"]
 short_authors: Priyanka Singh

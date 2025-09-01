@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Similarity Search For Efficient Active Learning And Search Of Rare Concepts
-authors: Cody Coleman, Edward Chou, Julian Katz-samuels, Sean Culatana, Peter Bailis,
+authors: Cody Coleman, Edward Chou, Julian Katz-Samuels, Sean Culatana, Peter Bailis,
   Alexander C. Berg, Robert Nowak, Roshan Sumbaly, Matei Zaharia, I. Zeki Yalniz
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2022

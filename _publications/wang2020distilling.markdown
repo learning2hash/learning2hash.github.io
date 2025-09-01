@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: Distilling Knowledge By Mimicking Features
-authors: Guo-hua Wang, Yifan Ge, Jianxin Wu
+authors: Guo-Hua Wang, Yifan Ge, Jianxin Wu
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2021
 bibkey: wang2020distilling
-citations: 21
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.01424'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
-short_authors: Guo-hua Wang, Yifan Ge, Jianxin Wu
+short_authors: Guo-Hua Wang, Yifan Ge, Jianxin Wu
 ---
 Knowledge distillation (KD) is a popular method to train efficient networks
 ("student") with the help of high-capacity networks ("teacher"). Traditional

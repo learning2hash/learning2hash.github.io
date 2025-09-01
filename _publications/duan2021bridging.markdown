@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: 'Bridging Gap Between Image Pixels And Semantics Via Supervision: A Survey'
-authors: Jiali Duan, C. -c. Jay Kuo
+authors: Jiali Duan, C. -C. Jay Kuo
 conference: APSIPA Transactions on Signal and Information Processing
 year: 2022
 bibkey: duan2021bridging
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.13757'}]
 tags: ["Datasets", "Distance Metric Learning", "Image Retrieval", "Supervised", "Survey Paper"]
-short_authors: Jiali Duan, C. -c. Jay Kuo
+short_authors: Jiali Duan, C. -C. Jay Kuo
 ---
 The fact that there exists a gap between low-level features and semantic
 meanings of images, called the semantic gap, is known for decades. Resolution

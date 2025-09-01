@@ -6,7 +6,7 @@ authors: Cong Fu, Chao Xiang, Changxu Wang, Deng Cai
 conference: Proceedings of the VLDB Endowment
 year: 2019
 bibkey: fu2017fast
-citations: 222
+citations: 227
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.00143'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Scalability"]
 short_authors: Fu et al.

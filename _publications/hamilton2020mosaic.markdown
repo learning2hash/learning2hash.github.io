@@ -8,7 +8,7 @@ authors: Mark Hamilton, Stephanie Fu, Mindren Lu, Johnny Bui, Darius Bopp, Zhenb
 conference: Arxiv
 year: 2020
 bibkey: hamilton2020mosaic
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.07177'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Robustness", "Similarity Search"]
 short_authors: Hamilton et al.

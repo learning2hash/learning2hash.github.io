@@ -6,7 +6,7 @@ authors: Alexander Long, Wei Yin, Thalaiyasingam Ajanthan, Vu Nguyen, Pulak Purk
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: long2022retrieval
-citations: 40
+citations: 42
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2202.11233'}]
 tags: ["CVPR", "Datasets", "Evaluation"]
 short_authors: Long et al.

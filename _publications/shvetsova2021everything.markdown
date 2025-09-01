@@ -6,7 +6,7 @@ authors: Nina Shvetsova, Brian Chen, Andrew Rouditchenko, Samuel Thomas, Brian K
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: shvetsova2021everything
-citations: 98
+citations: 100
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.04446'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Video Retrieval"]
 short_authors: Shvetsova et al.

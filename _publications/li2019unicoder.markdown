@@ -5,7 +5,7 @@ authors: Gen Li, Nan Duan, Yuejian Fang, Ming Gong, Daxin Jiang, Ming Zhou
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2020
 bibkey: li2019unicoder
-citations: 702
+citations: 706
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.06066'}]
 tags: ["AAAI", "Scalability", "Text Retrieval"]
 short_authors: Li et al.

@@ -7,8 +7,9 @@ authors: Junqiao Zhao, Fenglin Zhang, Yingfeng Cai, Gengxuan Tian, Wenjie Mu, Ch
 conference: IEEE Robotics and Automation Letters
 year: 2024
 bibkey: zhao2023learning
-citations: 2
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.11467'}]
+citations: 4
+additional_links: [{name: Code, url: 'https://github.com/tiev-tongji/Spatio-Temporal-SeqVPR.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2305.11467'}]
 tags: ["Datasets", "Evaluation", "Robustness"]
 short_authors: Zhao et al.
 ---

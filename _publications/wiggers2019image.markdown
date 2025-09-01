@@ -6,7 +6,7 @@ authors: Kelly L. Wiggers, Alceu S. Britto, Laurent Heutte, Alessandro L. Koeric
 conference: 2019 International Joint Conference on Neural Networks (IJCNN)
 year: 2019
 bibkey: wiggers2019image
-citations: 38
+citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1906.09513'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Wiggers et al.

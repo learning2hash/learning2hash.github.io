@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: Dynamic Sampling For Deep Metric Learning
-authors: Chang-hui Liang, Wan-lei Zhao, Run-qing Chen
+authors: Chang-Hui Liang, Wan-Lei Zhao, Run-Qing Chen
 conference: Pattern Recognition Letters
 year: 2021
 bibkey: liang2020dynamic
 citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.11624'}]
 tags: ["Distance Metric Learning", "Evaluation"]
-short_authors: Chang-hui Liang, Wan-lei Zhao, Run-qing Chen
+short_authors: Chang-Hui Liang, Wan-Lei Zhao, Run-Qing Chen
 ---
 Deep metric learning maps visually similar images onto nearby locations and
 visually dissimilar images apart from each other in an embedding manifold. The

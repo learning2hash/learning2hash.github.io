@@ -6,7 +6,7 @@ authors: Xintong Han, Zuxuan Wu, Phoenix X. Huang, Xiao Zhang, Menglong Zhu, Yua
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: han2017automatic
-citations: 182
+citations: 184
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.01311'}]
 tags: ["Datasets", "Evaluation", "ICCV"]
 short_authors: Han et al.

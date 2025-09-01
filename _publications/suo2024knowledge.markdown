@@ -5,7 +5,7 @@ authors: Yucheng Suo, Fan Ma, Linchao Zhu, Yi Yang
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: suo2024knowledge
-citations: 3
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.16005'}]
 tags: ["CVPR", "Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
 short_authors: Suo et al.

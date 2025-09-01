@@ -6,8 +6,9 @@ authors: Li Yuan, Tao Wang, Xiaopeng Zhang, Francis Eh Tay, Zequn Jie, Wei Liu, 
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: yuan2019central
-citations: 288
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.00347'}]
+citations: 300
+additional_links: [{name: Code, url: 'https://github.com/yuanli2333/Hadamard-Matrix-for-hashing'},
+  {name: Paper, url: 'https://arxiv.org/abs/1908.00347'}]
 tags: ["CVPR", "Distance Metric Learning", "Efficiency", "Evaluation", "Hashing Methods", "Quantization", "Scalability", "Video Retrieval"]
 short_authors: Yuan et al.
 ---

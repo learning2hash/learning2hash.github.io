@@ -6,7 +6,7 @@ authors: Solmaz Seyed Monir, Irene Lau, Shubing Yang, Dongfang Zhao
 conference: Arxiv
 year: 2024
 bibkey: monir2024vectorsearch
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.17383'}]
 tags: ["Datasets", "Neural Hashing", "Scalability", "Text Retrieval"]
 short_authors: Monir et al.

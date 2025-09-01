@@ -2,7 +2,8 @@
 layout: publication
 title: Enhancing Lexicon-based Text Embeddings With Large Language Models
 authors: Yibin Lei, Tao Shen, Yu Cao, Andrew Yates
-conference: Arxiv
+conference: 'Proceedings of the 63rd Annual Meeting of the Association for Computational
+  Linguistics (Volume 1: Long Papers)'
 year: 2025
 bibkey: lei2025enhancing
 citations: 0

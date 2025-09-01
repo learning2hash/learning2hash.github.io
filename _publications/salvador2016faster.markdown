@@ -6,7 +6,7 @@ conference: 2016 IEEE Conference on Computer Vision and Pattern Recognition Work
   (CVPRW)
 year: 2016
 bibkey: salvador2016faster
-citations: 121
+citations: 122
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.08893'}]
 tags: ["CVPR", "Evaluation"]
 short_authors: Salvador et al.

@@ -6,7 +6,7 @@ authors: "Hatef Otroshi Shahreza, Vedrana Krivoku\u0107a Hahn, S\xE9bastien Marc
 conference: 2023 31st European Signal Processing Conference (EUSIPCO)
 year: 2023
 bibkey: shahreza2022mlp
-citations: 18
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.11054'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods"]
 short_authors: "Hatef Otroshi Shahreza, Vedrana Krivoku\u0107a Hahn, S\xE9bastien\

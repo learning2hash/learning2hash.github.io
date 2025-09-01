@@ -6,7 +6,7 @@ conference: Proceedings of the 30th ACM International Conference on Information 
   Knowledge Management
 year: 2021
 bibkey: tonellotto2021query
-citations: 16
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.10341'}]
 tags: ["CIKM", "Efficiency"]
 short_authors: Nicola Tonellotto, Craig MacDonald

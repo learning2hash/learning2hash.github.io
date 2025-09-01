@@ -6,8 +6,9 @@ authors: Qianyu Guo, Hongtong Gong, Xujun Wei, Yanwei Fu, Weifeng Ge, Yizhou Yu,
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2023
 bibkey: guo2022rankdnn
-citations: 15
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15320'}]
+citations: 16
+additional_links: [{name: Code, url: 'https://github.com/guoqianyu-alberta/RankDNN.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2211.15320'}]
 tags: ["AAAI", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Re-Ranking"]
 short_authors: Guo et al.
 ---

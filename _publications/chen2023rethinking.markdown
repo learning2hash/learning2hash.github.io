@@ -6,7 +6,7 @@ conference: Proceedings of the 46th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2023
 bibkey: chen2023rethinking
-citations: 15
+citations: 16
 additional_links: [{name: Code, url: 'https://github.com/cwj1412/MSCOCO-Flikcr30K_FG,'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.10824'}]
 tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "SIGIR", "Survey Paper", "Text Retrieval"]

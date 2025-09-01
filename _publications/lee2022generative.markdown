@@ -6,7 +6,7 @@ conference: Proceedings of the 2022 Conference on Empirical Methods in Natural L
   Processing
 year: 2022
 bibkey: lee2022generative
-citations: 6
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.13596'}]
 tags: ["Datasets", "EMNLP", "Evaluation", "Text Retrieval"]
 short_authors: Lee et al.

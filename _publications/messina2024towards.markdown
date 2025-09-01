@@ -2,12 +2,13 @@
 layout: publication
 title: 'Towards Identity-aware Cross-modal Retrieval: A Dataset And A Baseline'
 authors: Nicola Messina, Lucia Vadicamo, Leo Maltese, Claudio Gennaro
-conference: Lecture Notes in Computer Science
-year: 2025
+conference: Arxiv
+year: 2024
 bibkey: messina2024towards
 citations: 0
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.21009'}]
-tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Scalability"]
+additional_links: [{name: Code, url: 'https://github.com/mesnico/IdCLIP.'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2412.21009'}]
+tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Messina et al.
 ---
 Recent advancements in deep learning have significantly enhanced

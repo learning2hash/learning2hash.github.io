@@ -6,7 +6,7 @@ authors: Ayan Kumar Bhunia, Yongxin Yang, Timothy M. Hospedales, Tao Xiang, Yi-Z
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: bhunia2020sketch
-citations: 108
+citations: 110
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.10310'}]
 tags: ["CVPR", "Datasets", "Efficiency", "Image Retrieval", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Bhunia et al.

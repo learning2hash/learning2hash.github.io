@@ -2,8 +2,9 @@
 layout: publication
 title: Class Anchor Margin Loss For Content-based Image Retrieval
 authors: Alexandru Ghita, Radu Tudor Ionescu
-conference: Arxiv
-year: 2023
+conference: Proceedings of the 16th International Conference on Agents and Artificial
+  Intelligence
+year: 2024
 bibkey: ghita2023class
 citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.00630'}]

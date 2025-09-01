@@ -5,7 +5,7 @@ authors: Lukas Struppek, Dominik Hintersdorf, Daniel Neider, Kristian Kersting
 conference: 2022 ACM Conference on Fairness Accountability and Transparency
 year: 2022
 bibkey: struppek2021learning
-citations: 117
+citations: 118
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.06628'}]
 tags: ["Hashing Methods"]
 short_authors: Struppek et al.

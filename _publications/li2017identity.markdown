@@ -5,7 +5,7 @@ authors: Shuang Li, Tong Xiao, Hongsheng Li, Wei Yang, Xiaogang Wang
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: li2017identity
-citations: 243
+citations: 245
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.01988'}]
 tags: ["Datasets", "ICCV", "Tools & Libraries"]
 short_authors: Li et al.

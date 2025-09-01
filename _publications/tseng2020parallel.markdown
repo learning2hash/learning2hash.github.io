@@ -25,10 +25,10 @@ Furthermore, we apply locality-sensitive hashing (LSH) to design a novel
 approximate SCAN algorithm and prove guarantees for its clustering behavior.
   We present an experimental evaluation of our algorithms on large real-world
 graphs. On a 48-core machine with two-way hyper-threading, our parallel index
-construction achieves 50--151\\(\times\\) speedup over the construction of
+construction achieves 50--151\(\times\) speedup over the construction of
 GS*-Index. In fact, even on a single thread, our index construction algorithm
 is faster than GS*-Index. Our parallel index query implementation achieves
-5--32\\(\times\\) speedup over GS*-Index queries across a range of SCAN parameter
+5--32\(\times\) speedup over GS*-Index queries across a range of SCAN parameter
 values, and our implementation is always faster than ppSCAN, a state-of-the-art
 parallel SCAN algorithm. Moreover, our experiments show that applying LSH
 results in faster index construction while maintaining good clustering quality.

@@ -5,7 +5,7 @@ authors: Qiaoyu Tan, Ninghao Liu, Xing Zhao, Hongxia Yang, Jingren Zhou, Xia Hu
 conference: Proceedings of The Web Conference 2020
 year: 2020
 bibkey: tan2020learning
-citations: 77
+citations: 79
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.01917'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "Recommender Systems", "Tools & Libraries"]
 short_authors: Tan et al.

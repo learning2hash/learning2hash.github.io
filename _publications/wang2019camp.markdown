@@ -6,7 +6,7 @@ authors: Zihao Wang, Xihui Liu, Hongsheng Li, Lu Sheng, Junjie Yan, Xiaogang Wan
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: wang2019camp
-citations: 296
+citations: 298
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.05506'}]
 tags: ["ICCV", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Wang et al.

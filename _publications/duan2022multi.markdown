@@ -6,7 +6,7 @@ authors: Jiali Duan, Liqun Chen, Son Tran, Jinyu Yang, Yi Xu, Belinda Zeng, Tris
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: duan2022multi
-citations: 39
+citations: 40
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.00048'}]
 tags: ["CVPR", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Duan et al.

@@ -5,7 +5,7 @@ authors: Zhe Wang, Zhiyuan Fang, Jun Wang, Yezhou Yang
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: wang2020vitaa
-citations: 145
+citations: 151
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.07327'}]
 tags: ["Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Wang et al.

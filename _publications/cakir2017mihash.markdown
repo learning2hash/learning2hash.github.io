@@ -5,7 +5,7 @@ authors: Fatih Cakir, Kun He, Sarah Adel Bargal, Stan Sclaroff
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: cakir2017mihash
-citations: 99
+citations: 100
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.08919'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "ICCV", "Image Retrieval"]
 short_authors: Cakir et al.

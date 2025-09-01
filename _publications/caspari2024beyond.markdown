@@ -7,7 +7,7 @@ authors: Laura Caspari, Kanishka Ghosh Dastidar, Saber Zerhoudi, Jelena Mitrovic
 conference: Arxiv
 year: 2024
 bibkey: caspari2024beyond
-citations: 1
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2407.08275'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Caspari et al.

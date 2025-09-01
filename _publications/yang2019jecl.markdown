@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: 'JECL: Joint Embedding And Cluster Learning For Image-text Pairs'
-authors: Sean T. Yang, Kuan-hao Huang, Bill Howe
+authors: Sean T. Yang, Kuan-Hao Huang, Bill Howe
 conference: 2020 25th International Conference on Pattern Recognition (ICPR)
 year: 2021
 bibkey: yang2019jecl
 citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.01860'}]
 tags: ["Datasets", "Evaluation"]
-short_authors: Sean T. Yang, Kuan-hao Huang, Bill Howe
+short_authors: Sean T. Yang, Kuan-Hao Huang, Bill Howe
 ---
 We propose JECL, a method for clustering image-caption pairs by training
 parallel encoders with regularized clustering and alignment objectives,

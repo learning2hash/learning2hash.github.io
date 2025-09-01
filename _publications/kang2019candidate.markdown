@@ -6,7 +6,7 @@ conference: Proceedings of the 28th ACM International Conference on Information 
   Knowledge Management
 year: 2019
 bibkey: kang2019candidate
-citations: 53
+citations: 54
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.05475'}]
 tags: ["CIKM", "Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "Hybrid ANN Methods", "Re-Ranking", "Recommender Systems", "Scalability", "Tools & Libraries"]
 short_authors: Wang-Cheng Kang, Julian McAuley

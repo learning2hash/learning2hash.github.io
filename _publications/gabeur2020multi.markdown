@@ -5,7 +5,7 @@ authors: Valentin Gabeur, Chen Sun, Karteek Alahari, Cordelia Schmid
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: gabeur2020multi
-citations: 492
+citations: 496
 additional_links: [{name: Code, url: 'http://thoth.inrialpes.fr/research/MMT.'}, {
     name: Paper, url: 'https://arxiv.org/abs/2007.10639'}]
 tags: ["Datasets", "Tools & Libraries", "Video Retrieval"]

@@ -6,7 +6,7 @@ authors: Karan Desai, Maximilian Nickel, Tanmay Rajpurohit, Justin Johnson, Rama
 conference: Arxiv
 year: 2023
 bibkey: desai2023hyperbolic
-citations: 0
+citations: 2
 additional_links: [{name: Code, url: 'https://www.github.com/facebookresearch/meru'},
   {name: Paper, url: 'https://arxiv.org/abs/2304.09172'}]
 tags: ["Datasets", "Evaluation", "Scalability", "Text Retrieval"]

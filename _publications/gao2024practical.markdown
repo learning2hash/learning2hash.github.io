@@ -2,7 +2,7 @@
 layout: publication
 title: Practical And Asymptotically Optimal Quantization Of High-dimensional Vectors
   In Euclidean Space For Approximate Nearest Neighbor Search
-authors: Jianyang Gao, Yutong Gou, Yuexuan Xu, Yongyi Yang, Cheng Long, Raymond Chi-wing
+authors: Jianyang Gao, Yutong Gou, Yuexuan Xu, Yongyi Yang, Cheng Long, Raymond Chi-Wing
   Wong
 conference: Proceedings of the ACM on Management of Data
 year: 2025

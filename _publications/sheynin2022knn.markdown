@@ -6,7 +6,7 @@ authors: Shelly Sheynin, Oron Ashual, Adam Polyak, Uriel Singer, Oran Gafni, Eli
 conference: Arxiv
 year: 2022
 bibkey: sheynin2022knn
-citations: 26
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.02849'}]
 tags: ["Datasets", "Robustness", "Scalability"]
 short_authors: Sheynin et al.

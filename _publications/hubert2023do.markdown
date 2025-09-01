@@ -5,8 +5,9 @@ authors: Nicolas Hubert, Heiko Paulheim, Armelle Brun, Davy Monticolo
 conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: hubert2023do
-citations: 2
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.10370'}]
+citations: 3
+additional_links: [{name: Code, url: 'https://github.com/nicolas-hbt/similar-embeddings/.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2312.10370'}]
 tags: ["Datasets", "Recommender Systems"]
 short_authors: Hubert et al.
 ---

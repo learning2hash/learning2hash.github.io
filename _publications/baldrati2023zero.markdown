@@ -5,7 +5,7 @@ authors: Alberto Baldrati, Lorenzo Agnolucci, Marco Bertini, Alberto del Bimbo
 conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2023
 bibkey: baldrati2023zero
-citations: 38
+citations: 43
 additional_links: [{name: Code, url: 'https://github.com/miccunifi/SEARLE.'}, {name: Paper,
     url: 'https://arxiv.org/abs/2303.15247'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "ICCV", "Image Retrieval", "Supervised"]

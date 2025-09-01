@@ -5,7 +5,7 @@ authors: "Oriane Sim\xE9oni, Yannis Avrithis, Ondrej Chum"
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: "sim\xE9oni2019local"
-citations: 70
+citations: 71
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.06358'}]
 tags: ["CVPR", "Evaluation", "Image Retrieval"]
 short_authors: "Oriane Sim\xE9oni, Yannis Avrithis, Ondrej Chum"

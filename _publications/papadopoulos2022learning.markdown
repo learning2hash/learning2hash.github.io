@@ -6,7 +6,7 @@ authors: Dim P. Papadopoulos, Enrique Mora, Nadiia Chepurko, Kuan Wei Huang, Fer
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: papadopoulos2022learning
-citations: 30
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.16071'}]
 tags: ["CVPR", "Multimodal Retrieval"]
 short_authors: Papadopoulos et al.

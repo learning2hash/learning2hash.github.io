@@ -6,7 +6,7 @@ conference: Proceedings of the 46th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2023
 bibkey: qu2023learnable
-citations: 12
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.12570'}]
 tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "SIGIR", "Text Retrieval"]
 short_authors: Qu et al.

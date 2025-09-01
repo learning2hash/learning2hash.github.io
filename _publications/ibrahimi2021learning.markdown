@@ -5,7 +5,7 @@ authors: "Sarah Ibrahimi, Arnaud Sors, Rafael Sampaio de Rezende, St\xE9phane Cl
 conference: 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
 year: 2022
 bibkey: ibrahimi2021learning
-citations: 11
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.10453'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Ibrahimi et al.

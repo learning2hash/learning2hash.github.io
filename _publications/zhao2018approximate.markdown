@@ -5,7 +5,7 @@ authors: Wan-Lei Zhao, Hui Wang, Chong-Wah Ngo
 conference: Arxiv
 year: 2018
 bibkey: zhao2018approximate
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.03032'}]
 tags: ["Graph Based ANN"]
 short_authors: Wan-Lei Zhao, Hui Wang, Chong-Wah Ngo

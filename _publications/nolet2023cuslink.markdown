@@ -6,8 +6,9 @@ authors: Corey J. Nolet, Divye Gala, Alex Fender, Mahesh Doijade, Joe Eaton, Edw
 conference: Lecture Notes in Computer Science
 year: 2023
 bibkey: nolet2023cuslink
-citations: 3
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.16354'}]
+citations: 4
+additional_links: [{name: Other, url: 'https://docs.rapids.ai/api/cuml/latest/api/%23agglomerative-clustering'},
+  {name: Paper, url: 'https://arxiv.org/abs/2306.16354'}]
 tags: ["Graph Based ANN", "Tools & Libraries"]
 short_authors: Nolet et al.
 ---

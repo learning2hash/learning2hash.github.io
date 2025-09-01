@@ -6,7 +6,7 @@ authors: Zhanghui Kuang, Yiming Gao, Guanbin Li, Ping Luo, Yimin Chen, Liang Lin
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: kuang2019fashion
-citations: 87
+citations: 89
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.11754'}]
 tags: ["Evaluation", "ICCV"]
 short_authors: Kuang et al.

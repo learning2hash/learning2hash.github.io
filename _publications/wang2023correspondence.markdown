@@ -5,7 +5,7 @@ authors: Xu Wang, Dezhong Peng, Ming Yan, Peng Hu
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2023
 bibkey: wang2023correspondence
-citations: 7
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.06081'}]
 tags: ["AAAI", "Datasets", "Evaluation", "Image Retrieval", "Unsupervised"]
 short_authors: Wang et al.

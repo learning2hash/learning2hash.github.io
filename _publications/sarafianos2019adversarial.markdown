@@ -5,7 +5,7 @@ authors: Nikolaos Sarafianos, Xiang Xu, Ioannis A. Kakadiaris
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: sarafianos2019adversarial
-citations: 210
+citations: 214
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.10534'}]
 tags: ["Datasets", "Evaluation", "ICCV", "Robustness"]
 short_authors: Nikolaos Sarafianos, Xiang Xu, Ioannis A. Kakadiaris

@@ -2,7 +2,7 @@
 layout: publication
 title: 'Hilbert Exclusion: Improved Metric Search Through Finite Isometric Embeddings'
 authors: Richard Connor, Franco Alberto Cardillo, Lucia Vadicamo, Fausto Rabitti
-conference: ACM Transactions on Information Systems (TOIS) 35 3 Article 17 (2016)
+conference: ACM Transactions on Information Systems
 year: 2016
 bibkey: connor2016hilbert
 citations: 18

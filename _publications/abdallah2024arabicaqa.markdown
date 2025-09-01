@@ -7,7 +7,7 @@ conference: Proceedings of the 47th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2024
 bibkey: abdallah2024arabicaqa
-citations: 7
+citations: 8
 additional_links: [{name: Code, url: 'https://github.com/DataScienceUIBK/ArabicaQA.'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.17848'}]
 tags: ["Datasets", "Evaluation", "SIGIR", "Scalability", "Text Retrieval"]

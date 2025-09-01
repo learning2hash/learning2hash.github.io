@@ -6,7 +6,7 @@ conference: Proceedings of the 2022 Conference on Empirical Methods in Natural L
   Processing
 year: 2022
 bibkey: wang2022english
-citations: 9
+citations: 12
 additional_links: [{name: Code, url: 'https://github.com/yaushian/mSimCSE.'}, {name: Paper,
     url: 'https://arxiv.org/abs/2211.06127'}]
 tags: ["EMNLP", "Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]

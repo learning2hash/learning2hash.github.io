@@ -5,7 +5,7 @@ authors: Xinjiang Wang, Zeyu Liu, Yu Hu, Wei Xi, Wenxian Yu, Danping Zou
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: wang2022featurebooster
-citations: 15
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15069'}]
 tags: ["CVPR", "Evaluation"]
 short_authors: Wang et al.

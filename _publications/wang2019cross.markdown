@@ -5,7 +5,7 @@ authors: Sijin Wang, Ruiping Wang, Ziwei Yao, Shiguang Shan, Xilin Chen
 conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2020
 bibkey: wang2019cross
-citations: 219
+citations: 220
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.05134'}]
 tags: ["Text Retrieval"]
 short_authors: Wang et al.

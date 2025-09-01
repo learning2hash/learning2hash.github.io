@@ -6,7 +6,7 @@ authors: Chao Zhang, Shiwei Wu, Haoxin Zhang, Tong Xu, Yan Gao, Yao Hu, di Wu, E
 conference: Companion Proceedings of the ACM Web Conference 2024
 year: 2024
 bibkey: zhang2024notellm
-citations: 6
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.01744'}]
 tags: ["Recommender Systems", "Self-Supervised", "Tools & Libraries"]
 short_authors: Zhang et al.

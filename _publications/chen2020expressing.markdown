@@ -6,7 +6,7 @@ authors: Tianlang Chen, Jiebo Luo
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2020
 bibkey: chen2020expressing
-citations: 58
+citations: 59
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.08510'}]
 tags: ["AAAI", "Datasets", "Evaluation"]
 short_authors: Tianlang Chen, Jiebo Luo

@@ -6,7 +6,7 @@ authors: Jianjun Lei, Yuxin Song, Bo Peng, Zhanyu Ma, Ling Shao, Yi-Zhe Song
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2019
 bibkey: lei2019semi
-citations: 49
+citations: 52
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.04470'}]
 tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: Lei et al.

@@ -5,7 +5,7 @@ authors: "Thomas M\xFCller, Alex Evans, Christoph Schied, Alexander Keller"
 conference: ACM Transactions on Graphics
 year: 2022
 bibkey: "m\xFCller2022instant"
-citations: 2098
+citations: 2196
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.05989'}]
 tags: ["Efficiency"]
 short_authors: "M\xFCller et al."

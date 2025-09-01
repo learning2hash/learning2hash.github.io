@@ -5,7 +5,7 @@ authors: Wenzhao Zheng, Borui Zhang, Jiwen Lu, Jie Zhou
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: zheng2021deep
-citations: 36
+citations: 37
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2108.10026'}]
 tags: ["Datasets", "Distance Metric Learning", "ICCV", "Tools & Libraries"]
 short_authors: Zheng et al.

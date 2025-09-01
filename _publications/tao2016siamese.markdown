@@ -5,7 +5,7 @@ authors: Ran Tao, Efstratios Gavves, Arnold W. M. Smeulders
 conference: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2016
 bibkey: tao2016siamese
-citations: 1119
+citations: 1121
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1605.05863'}]
 tags: ["CVPR", "Evaluation"]
 short_authors: Ran Tao, Efstratios Gavves, Arnold W. M. Smeulders

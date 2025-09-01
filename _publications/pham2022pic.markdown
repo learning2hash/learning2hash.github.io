@@ -8,7 +8,7 @@ year: 2023
 bibkey: pham2022pic
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.09068'}]
-tags: ["Datasets", "Eacl", "Evaluation"]
+tags: ["Datasets", "Evaluation"]
 short_authors: Pham et al.
 ---
 While contextualized word embeddings have been a de-facto standard, learning

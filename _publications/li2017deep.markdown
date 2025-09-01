@@ -2,10 +2,10 @@
 layout: publication
 title: Deep Supervised Discrete Hashing
 authors: Qi Li, Zhenan Sun, Ran He, Tieniu Tan
-conference: No Venue
+conference: Arxiv
 year: 2017
 bibkey: li2017deep
-citations: 171
+citations: 172
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.10999'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Tools & Libraries", "Video Retrieval"]
 short_authors: Li et al.

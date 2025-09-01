@@ -6,7 +6,7 @@ authors: "Maxim Berman, Herv\xE9 J\xE9gou, Andrea Vedaldi, Iasonas Kokkinos, Mat
 conference: Arxiv
 year: 2019
 bibkey: berman2019multigrain
-citations: 46
+citations: 47
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.05509'}]
 tags: ["Image Retrieval"]
 short_authors: Berman et al.

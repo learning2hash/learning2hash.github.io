@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: Semantic Granularity Metric Learning For Visual Search
-authors: Dipu Manandhar, Muhammet Bastan, Kim-hui Yap
+authors: Dipu Manandhar, Muhammet Bastan, Kim-Hui Yap
 conference: Journal of Visual Communication and Image Representation
 year: 2020
 bibkey: manandhar2019semantic
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.06047'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
-short_authors: Dipu Manandhar, Muhammet Bastan, Kim-hui Yap
+short_authors: Dipu Manandhar, Muhammet Bastan, Kim-Hui Yap
 ---
 Deep metric learning applied to various applications has shown promising
 results in identification, retrieval and recognition. Existing methods often do

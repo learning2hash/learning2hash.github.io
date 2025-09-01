@@ -2,8 +2,8 @@
 layout: publication
 title: On Background Bias In Deep Metric Learning
 authors: Konstantin Kobs, Andreas Hotho
-conference: Arxiv
-year: 2022
+conference: Fifteenth International Conference on Machine Vision (ICMV 2022)
+year: 2023
 bibkey: kobs2022on
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.01615'}]

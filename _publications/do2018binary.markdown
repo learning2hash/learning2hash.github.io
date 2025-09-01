@@ -2,7 +2,7 @@
 layout: publication
 title: Binary Constrained Deep Hashing Network For Image Retrieval Without Manual
   Annotation
-authors: Thanh-toan Do, Tuan Hoang, Dang-khoa Le Tan, Trung Pham, Huu Le, Ngai-man
+authors: Thanh-Toan Do, Tuan Hoang, Dang-Khoa Le Tan, Trung Pham, Huu Le, Ngai-Man
   Cheung, Ian Reid
 conference: 2019 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2019

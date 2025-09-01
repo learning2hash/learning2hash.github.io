@@ -2,13 +2,12 @@
 layout: publication
 title: A Data-driven Strategy To Combine Word Embeddings In Information Retrieval
 authors: Alfredo Silva, Marcelo Mendoza
-conference: 8th International Conference on Artificial Intelligence and Applications
-  (AIAP 2021) January 23 ~ 24 2021 Zurich Switzerland
+conference: Computer Science &amp; Information Technology (CS &amp; IT)
 year: 2021
 bibkey: silva2021a
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.12788'}]
-tags: ["AAAI", "Evaluation"]
+tags: ["Evaluation"]
 short_authors: Alfredo Silva, Marcelo Mendoza
 ---
 Word embeddings are vital descriptors of words in unigram representations of

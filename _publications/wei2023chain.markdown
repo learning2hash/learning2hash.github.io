@@ -6,7 +6,7 @@ authors: Rukai Wei, Yu Liu, Jingkuan Song, Heng Cui, Yanzhao Xie, Ke Zhou
 conference: Proceedings of the 31st ACM International Conference on Multimedia
 year: 2023
 bibkey: wei2023chain
-citations: 5
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.18926'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Self-Supervised", "Supervised", "Tools & Libraries", "Video Retrieval"]
 short_authors: Wei et al.

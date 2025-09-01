@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Compact Hash Code Learning With Binary Deep Neural Network
-authors: Thanh-toan Do, Tuan Hoang, Dang-khoa Le Tan, Anh-dzung Doan, Ngai-man Cheung
+authors: Thanh-Toan Do, Tuan Hoang, Dang-Khoa Le Tan, Anh-Dzung Doan, Ngai-Man Cheung
 conference: IEEE Transactions on Multimedia
 year: 2019
 bibkey: do2017compact

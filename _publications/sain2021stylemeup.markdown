@@ -5,7 +5,7 @@ authors: Aneeshan Sain, Ayan Kumar Bhunia, Yongxin Yang, Tao Xiang, Yi-Zhe Song
 conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2021
 bibkey: sain2021stylemeup
-citations: 86
+citations: 89
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.15706'}]
 tags: ["CVPR", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Sain et al.

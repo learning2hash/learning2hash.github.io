@@ -5,7 +5,7 @@ authors: Xuri Ge, Fuhai Chen, Songpei Xu, Fuxiang Tao, Joemon M. Jose
 conference: 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
 year: 2023
 bibkey: ge2022cross
-citations: 29
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.08908'}]
 tags: ["Evaluation"]
 short_authors: Ge et al.

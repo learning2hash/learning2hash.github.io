@@ -5,7 +5,7 @@ authors: Jian-Nan Su, Min Gan, Guang-Yong Chen, Jia-Li Yin, C. L. Philip Chen
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2022
 bibkey: su2022global
-citations: 33
+citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2212.01057'}]
 tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Su et al.

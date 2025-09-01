@@ -2,12 +2,12 @@
 layout: publication
 title: 'Imagine And Seek: Improving Composed Image Retrieval With An Imagined Proxy'
 authors: You Li, Fan Ma, Yi Yang
-conference: Arxiv
-year: 2024
+conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+year: 2025
 bibkey: li2024imagine
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.16752'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
+tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: You Li, Fan Ma, Yi Yang
 ---
 The Zero-shot Composed Image Retrieval (ZSCIR) requires retrieving images

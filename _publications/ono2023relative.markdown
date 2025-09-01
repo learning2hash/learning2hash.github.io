@@ -6,7 +6,7 @@ authors: Naoki Ono, Yusuke Matsui
 conference: Proceedings of the 31st ACM International Conference on Multimedia
 year: 2023
 bibkey: ono2023relative
-citations: 3
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.20419'}]
 tags: ["Datasets", "Evaluation", "Graph Based ANN"]
 short_authors: Naoki Ono, Yusuke Matsui

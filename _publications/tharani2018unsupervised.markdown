@@ -3,7 +3,7 @@ layout: publication
 title: Unsupervised Deep Features For Remote Sensing Image Matching Via Discriminator
   Network
 authors: Mohbat Tharani, Numan Khurshid, Murtaza Taj
-conference: Arxiv
+conference: IEEE Transactions on Geoscience and Remote Sensing
 year: 2018
 bibkey: tharani2018unsupervised
 citations: 5

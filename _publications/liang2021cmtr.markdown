@@ -2,7 +2,7 @@
 layout: publication
 title: 'CMTR: Cross-modality Transformer For Visible-infrared Person Re-identification'
 authors: Tengfei Liang, Yi Jin, Yajun Gao, Wu Liu, Songhe Feng, Tao Wang, Yidong Li
-conference: 2023 IEEE Transactions on Multimedia (TMM)
+conference: IEEE Transactions on Multimedia
 year: 2021
 bibkey: liang2021cmtr
 citations: 15

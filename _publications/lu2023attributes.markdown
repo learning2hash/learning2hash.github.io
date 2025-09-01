@@ -5,7 +5,7 @@ authors: Xin Lu, Shikun Chen, Yichao Cao, Xin Zhou, Xiaobo Lu
 conference: Proceedings of the 31st ACM International Conference on Multimedia
 year: 2023
 bibkey: lu2023attributes
-citations: 10
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.06067'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability"]
 short_authors: Lu et al.

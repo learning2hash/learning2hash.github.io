@@ -1,12 +1,12 @@
 ---
 layout: publication
 title: 'VMCML: Video And Music Matching Via Cross-modality Lifting'
-authors: Yi-shan Lee, Wei-cheng Tseng, Fu-en Wang, Min Sun
+authors: Yi-Shan Lee, Wei-Cheng Tseng, Fu-En Wang, Min Sun
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
   (CVPRW)
 year: 2024
 bibkey: lee2023vmcml
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.12379'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Recommender Systems", "Scalability", "Tools & Libraries"]
 short_authors: Lee et al.

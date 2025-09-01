@@ -5,7 +5,7 @@ authors: Yan Feng, Bin Chen, Tao Dai, Shutao Xia
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2020
 bibkey: feng2020adversarial
-citations: 43
+citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.11374'}]
 tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Quantization", "Robustness", "Scalability"]
 short_authors: Feng et al.

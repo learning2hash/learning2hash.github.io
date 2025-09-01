@@ -5,7 +5,7 @@ authors: Antoine Miech, Jean-Baptiste Alayrac, Ivan Laptev, Josef Sivic, Andrew 
 conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2021
 bibkey: miech2021thinking
-citations: 111
+citations: 112
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.16553'}]
 tags: ["CVPR", "Datasets", "Hybrid ANN Methods", "Re-Ranking", "Scalability", "Similarity Search"]
 short_authors: Miech et al.

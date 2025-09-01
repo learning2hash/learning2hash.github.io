@@ -2,11 +2,11 @@
 layout: publication
 title: 'Learning Category Trees For Id-based Recommendation: Exploring The Power Of
   Differentiable Vector Quantization'
-authors: Qijiong Liu, Lu Fan, Jiaren Xiao, Jieming Zhu, Xiao-ming Wu
+authors: Qijiong Liu, Lu Fan, Jiaren Xiao, Jieming Zhu, Xiao-Ming Wu
 conference: Proceedings of the ACM Web Conference 2024
 year: 2024
 bibkey: liu2023learning
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.16761'}]
 tags: ["Quantization", "Recommender Systems", "Tools & Libraries"]
 short_authors: Liu et al.

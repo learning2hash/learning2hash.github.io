@@ -5,8 +5,9 @@ authors: Jacek Komorowski
 conference: 2021 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2021
 bibkey: komorowski2020minkloc3d
-citations: 152
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.04530'}]
+citations: 156
+additional_links: [{name: Code, url: 'https://github.com/jac99/MinkLoc3D'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2011.04530'}]
 tags: ["Evaluation", "Scalability"]
 short_authors: Jacek Komorowski
 ---

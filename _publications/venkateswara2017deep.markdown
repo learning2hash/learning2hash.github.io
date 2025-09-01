@@ -5,7 +5,7 @@ authors: Hemanth Venkateswara, Jose Eusebio, Shayok Chakraborty, Sethuraman Panc
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2017
 bibkey: venkateswara2017deep
-citations: 1712
+citations: 1727
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.07522'}]
 tags: ["CVPR", "Datasets", "Efficiency", "Hashing Methods", "Neural Hashing", "Tools & Libraries", "Unsupervised"]
 short_authors: Venkateswara et al.

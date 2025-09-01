@@ -5,7 +5,7 @@ authors: Kush Juvekar, Anupam Purwar
 conference: Arxiv
 year: 2024
 bibkey: juvekar2024cos
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.00638'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Kush Juvekar, Anupam Purwar

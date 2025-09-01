@@ -5,7 +5,7 @@ authors: Zhengqing Zang, Chenyu Lin, Chenwei Tang, Tao Wang, Jiancheng Lv
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2024
 bibkey: zang2024zero
-citations: 2
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.18233'}]
 tags: ["AAAI", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Scalability"]
 short_authors: Zang et al.

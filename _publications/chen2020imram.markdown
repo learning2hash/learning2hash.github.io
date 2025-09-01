@@ -6,7 +6,7 @@ authors: Hui Chen, Guiguang Ding, Xudong Liu, Zijia Lin, Ji Liu, Jungong Han
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: chen2020imram
-citations: 337
+citations: 341
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.03772'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Text Retrieval"]
 short_authors: Chen et al.

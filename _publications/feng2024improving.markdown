@@ -6,7 +6,7 @@ authors: Zhangchi Feng, Richong Zhang, Zhijie Nie
 conference: Proceedings of the 32nd ACM International Conference on Multimedia
 year: 2024
 bibkey: feng2024improving
-citations: 2
+citations: 4
 additional_links: [{name: Code, url: 'https://github.com/BUAADreamer/SPN4CIR.'}, {
     name: Paper, url: 'https://arxiv.org/abs/2404.11317'}]
 tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised", "Tools & Libraries"]

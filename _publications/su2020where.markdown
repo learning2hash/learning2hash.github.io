@@ -6,7 +6,7 @@ authors: Haibo Su, Peng Wang, Lingqiao Liu, Hui Li, Zhen Li, Yanning Zhang
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2020
 bibkey: su2020where
-citations: 32
+citations: 33
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.13357'}]
 tags: ["Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Su et al.

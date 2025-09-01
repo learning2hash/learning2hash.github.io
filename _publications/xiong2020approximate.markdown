@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Approximate Nearest Neighbor Negative Contrastive Learning For Dense Text Retrieval
-authors: Lee Xiong, Chenyan Xiong, Ye Li, Kwok-fung Tang, Jialin Liu, Paul Bennett,
+authors: Lee Xiong, Chenyan Xiong, Ye Li, Kwok-Fung Tang, Jialin Liu, Paul Bennett,
   Junaid Ahmed, Arnold Overwijk
 conference: Arxiv
 year: 2021

@@ -6,7 +6,7 @@ conference: Proceedings of the 2016 ACM on International Conference on Multimedi
   Retrieval
 year: 2016
 bibkey: cao2025correlation
-citations: 98
+citations: 99
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1602.06697'}]
 tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Scalability", "Supervised"]
 short_authors: Cao et al.

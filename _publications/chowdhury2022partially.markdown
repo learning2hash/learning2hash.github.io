@@ -6,7 +6,7 @@ authors: Pinaki Nath Chowdhury, Ayan Kumar Bhunia, Viswanatha Reddy Gajjala, Ane
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: chowdhury2022partially
-citations: 22
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.14804'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Chowdhury et al.

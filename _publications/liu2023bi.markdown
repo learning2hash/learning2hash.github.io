@@ -5,8 +5,9 @@ authors: Zheyuan Liu, Weixuan Sun, Yicong Hong, Damien Teney, Stephen Gould
 conference: 2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
 year: 2024
 bibkey: liu2023bi
-citations: 13
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.16604'}]
+citations: 17
+additional_links: [{name: Code, url: 'https://github.com/Cuberick-Orion/Bi-Blip4CIR.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2303.16604'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Liu et al.
 ---

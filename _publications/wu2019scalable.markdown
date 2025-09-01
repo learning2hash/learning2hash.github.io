@@ -6,8 +6,9 @@ conference: Proceedings of the 2020 Conference on Empirical Methods in Natural L
   Processing (EMNLP)
 year: 2020
 bibkey: wu2019scalable
-citations: 290
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.03814'}]
+citations: 295
+additional_links: [{name: Code, url: 'https://github.com/facebookresearch/BLINK.'},
+  {name: Paper, url: 'https://arxiv.org/abs/1911.03814'}]
 tags: ["EMNLP", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Wu et al.
 ---

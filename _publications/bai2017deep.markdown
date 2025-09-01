@@ -5,7 +5,7 @@ authors: Xiang Bai, Mingkun Yang, Tengteng Huang, Zhiyong Dou, Rui Yu, Yongchao 
 conference: Pattern Recognition
 year: 2019
 bibkey: bai2017deep
-citations: 220
+citations: 221
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.10658'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Tools & Libraries"]
 short_authors: Bai et al.

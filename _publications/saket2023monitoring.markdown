@@ -6,7 +6,7 @@ conference: Proceedings of the 47th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2024
 bibkey: saket2023monitoring
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.15265'}]
 tags: ["Efficiency", "Recommender Systems", "SIGIR", "Scalability"]
 short_authors: Srijan Saket, Olivier Jeunen, Md. Danish Kalim
@@ -27,7 +27,7 @@ updates, explore the relationship between embeddings and popularity bias, and
 highlight their impact on user engagement metrics. Our study unveils the
 contrast in the number of interactions needed to achieve mature embeddings in a
 batch learning setup versus a real-time one, identifies the point of highest
-information updates, and explores the distribution of \\(ℓ₂\\)-norms across the
+information updates, and explores the distribution of \(ℓ₂\)-norms across the
 two competing learning modes. Utilizing a production system deployed on a
 large-scale short-video app with over 180 million users, our findings offer
 insights into designing effective recommendation systems and enhancing user

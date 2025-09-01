@@ -6,7 +6,7 @@ authors: Wei Zhong, Jheng-Hong Yang, Yuqing Xie, Jimmy Lin
 conference: 'Findings of the Association for Computational Linguistics: EMNLP 2022'
 year: 2022
 bibkey: zhong2022evaluating
-citations: 12
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.11163'}]
 tags: ["Datasets", "EMNLP", "Efficiency"]
 short_authors: Zhong et al.

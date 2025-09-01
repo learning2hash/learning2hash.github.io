@@ -2,7 +2,7 @@
 layout: publication
 title: 'Fedstyle: Style-based Federated Learning Crowdsourcing Framework For Art Commissions'
 authors: Changjuan Ran, Yeting Guo, Fang Liu, Shenglan Cui, Yunfan Ye
-conference: 2024 IEEE International Conference on Multimedia and Expo (ICME)
+conference: Arxiv
 year: 2024
 bibkey: ran2024fedstyle
 citations: 0

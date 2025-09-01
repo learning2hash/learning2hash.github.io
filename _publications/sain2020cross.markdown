@@ -5,7 +5,7 @@ authors: Aneeshan Sain, Ayan Kumar Bhunia, Yongxin Yang, Tao Xiang, Yi-Zhe Song
 conference: Arxiv
 year: 2020
 bibkey: sain2020cross
-citations: 21
+citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.15103'}]
 tags: ["Image Retrieval"]
 short_authors: Sain et al.

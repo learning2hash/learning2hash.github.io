@@ -7,7 +7,7 @@ conference: Proceedings of the 43rd International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2020
 bibkey: gao2020fashionbert
-citations: 102
+citations: 104
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.09801'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Multimodal Retrieval", "SIGIR"]
 short_authors: Gao et al.

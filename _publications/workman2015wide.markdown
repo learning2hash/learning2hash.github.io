@@ -5,7 +5,7 @@ authors: Scott Workman, Richard Souvenir, Nathan Jacobs
 conference: 2015 IEEE International Conference on Computer Vision (ICCV)
 year: 2015
 bibkey: workman2015wide
-citations: 280
+citations: 284
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1510.03743'}]
 tags: ["Datasets", "Evaluation", "ICCV"]
 short_authors: Scott Workman, Richard Souvenir, Nathan Jacobs

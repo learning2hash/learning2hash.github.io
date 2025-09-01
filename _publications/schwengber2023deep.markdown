@@ -5,7 +5,7 @@ authors: Lucas R. Schwengber, Lucas Resende, Paulo Orenstein, Roberto I. Oliveir
 conference: Arxiv
 year: 2023
 bibkey: schwengber2023deep
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.04207'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Neural Hashing", "Quantization", "Scalability", "Similarity Search", "Unsupervised"]
 short_authors: Schwengber et al.

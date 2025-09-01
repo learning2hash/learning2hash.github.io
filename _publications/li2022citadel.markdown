@@ -2,14 +2,15 @@
 layout: publication
 title: 'CITADEL: Conditional Token Interaction Via Dynamic Lexical Routing For Efficient
   And Effective Multi-vector Retrieval'
-authors: Minghan Li, Sheng-chieh Lin, Barlas Oguz, Asish Ghoshal, Jimmy Lin, Yashar
-  Mehdad, Wen-tau Yih, Xilun Chen
+authors: Minghan Li, Sheng-Chieh Lin, Barlas Oguz, Asish Ghoshal, Jimmy Lin, Yashar
+  Mehdad, Wen-Tau Yih, Xilun Chen
 conference: 'Proceedings of the 61st Annual Meeting of the Association for Computational
   Linguistics (Volume 1: Long Papers)'
 year: 2023
 bibkey: li2022citadel
-citations: 5
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.10411'}]
+citations: 6
+additional_links: [{name: Code, url: 'https://github.com/facebookresearch/dpr-scale.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2211.10411'}]
 tags: ["Evaluation"]
 short_authors: Li et al.
 ---

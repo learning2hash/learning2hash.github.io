@@ -5,8 +5,9 @@ authors: Zhong Ji, Zhihao Li, Yan Zhang, Haoran Wang, Yanwei Pang, Xuelong Li
 conference: Neural Networks
 year: 2024
 bibkey: ji2023hierarchical
-citations: 8
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.14460'}]
+citations: 9
+additional_links: [{name: Code, url: 'https://github.com/LZH-053/HMRN.'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2306.14460'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Ji et al.
 ---

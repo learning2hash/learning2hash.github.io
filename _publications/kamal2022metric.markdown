@@ -7,7 +7,7 @@ year: 2023
 bibkey: kamal2022metric
 citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15197'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Recommender Systems", "Scalability"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Neural Hashing", "Recommender Systems", "Scalability"]
 short_authors: Imam Mustafa Kamal, Hyerim Bae, Ling Liu
 ---
 With the emergence of deep learning, metric learning has gained significant

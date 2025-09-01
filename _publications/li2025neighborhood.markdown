@@ -1,0 +1,25 @@
+---
+layout: publication
+title: Neighborhood Preserving Hashing For Scalable Video Retrieval
+authors: Shuyan Li, Chen, Lu, Li, Zhou
+conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
+year: 2019
+bibkey: li2025neighborhood
+citations: 41
+additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Neighborhood_Preserving_Hashing_for_Scalable_Video_Retrieval_ICCV_2019_paper.pdf'}]
+tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "ICCV", "Unsupervised", "Video Retrieval"]
+short_authors: Li et al.
+---
+In this paper, we propose a Neighborhood Preserving
+Hashing (NPH) method for scalable video retrieval in an
+unsupervised manner. Unlike most existing deep video
+hashing methods which indiscriminately compress an entire video into a binary code, we embed the spatial-temporal
+neighborhood information into the encoding network such
+that the neighborhood-relevant visual content of a video can
+be preferentially encoded into a binary code under the guidance of the neighborhood information. Specifically, we propose a neighborhood attention mechanism which focuses
+on partial useful content of each input frame conditioned
+on the neighborhood information. We then integrate the
+neighborhood attention mechanism into an RNN-based reconstruction scheme to encourage the binary codes to capture the spatial-temporal structure in a video which is consistent with that in the neighborhood. As a consequence, the
+learned hashing functions can map similar videos to similar
+binary codes. Extensive experiments on three widely-used
+benchmark datasets validate the effectiveness of our proposed approach.

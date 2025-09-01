@@ -6,7 +6,7 @@ authors: Cheng Jiang, Sitian Qian
 conference: Arxiv
 year: 2025
 bibkey: jiang2025application
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.16237'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Cheng Jiang, Sitian Qian

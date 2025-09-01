@@ -3,7 +3,7 @@ layout: publication
 title: 'Scenegraphloc: Cross-modal Coarse Visual Localization On 3D Scene Graphs'
 authors: "Yang Miao, Francis Engelmann, Olga Vysotska, Federico Tombari, Marc Pollefeys,\
   \ D\xE1niel B\xE9la Bar\xE1th"
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2024
 bibkey: miao2024scenegraphloc
 citations: 0

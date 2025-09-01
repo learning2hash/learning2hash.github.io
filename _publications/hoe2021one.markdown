@@ -4,10 +4,10 @@ title: 'One Loss For All: Deep Hashing With A Single Cosine Similarity Based Lea
   Objective'
 authors: Jiun Tian Hoe, Kam Woh Ng, Tianyu Zhang, Chee Seng Chan, Yi-Zhe Song, Tao
   Xiang
-conference: No Venue
+conference: Arxiv
 year: 2021
 bibkey: hoe2021one
-citations: 46
+citations: 48
 additional_links: [{name: Code, url: 'https://github.com/kamwoh/orthohash'}, {name: Paper,
     url: 'https://arxiv.org/abs/2109.14449'}]
 tags: ["Distance Metric Learning", "Hashing Methods", "Neural Hashing", "Quantization", "Scalability"]

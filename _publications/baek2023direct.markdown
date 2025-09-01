@@ -6,7 +6,7 @@ conference: 'Proceedings of the 61st Annual Meeting of the Association for Compu
   Linguistics (Volume 1: Long Papers)'
 year: 2023
 bibkey: baek2023direct
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.12416'}]
 tags: ["Tools & Libraries"]
 short_authors: Baek et al.

@@ -8,7 +8,8 @@ conference: International Journal of Multimedia Information Retrieval
 year: 2018
 bibkey: dorfer2017end
 citations: 32
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.06979'}]
+additional_links: [{name: Code, url: 'https://github.com/CPJKU/cca_layer'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1705.06979'}]
 tags: ["Few Shot & Zero Shot", "Text Retrieval"]
 short_authors: Dorfer et al.
 ---

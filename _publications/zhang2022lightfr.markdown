@@ -6,7 +6,7 @@ authors: Honglei Zhang, Fangyuan Luo, Jun Wu, Xiangnan He, Yidong Li
 conference: ACM Transactions on Information Systems
 year: 2022
 bibkey: zhang2022lightfr
-citations: 43
+citations: 48
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2206.11743'}]
 tags: ["Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "Recommender Systems", "Scalability", "Similarity Search", "Tools & Libraries"]
 short_authors: Zhang et al.

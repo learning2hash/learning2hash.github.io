@@ -7,7 +7,7 @@ authors: Shashank Rajput, Nikhil Mehta, Anima Singh, Raghunandan H. Keshavan, Tr
 conference: Arxiv
 year: 2023
 bibkey: rajput2023recommender
-citations: 17
+citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.05065'}]
 tags: ["Datasets", "Evaluation", "Recommender Systems", "Scalability"]
 short_authors: Rajput et al.

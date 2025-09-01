@@ -5,7 +5,7 @@ authors: Sanping Zhou, Jinjun Wang, Rui Shi, Qiqi Hou, Yihong Gong, Nanning Zhen
 conference: IEEE Transactions on Multimedia
 year: 2017
 bibkey: zhou2017large
-citations: 72
+citations: 73
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.05512'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Neural Hashing"]
 short_authors: Zhou et al.

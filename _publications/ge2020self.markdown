@@ -5,7 +5,7 @@ authors: Yixiao Ge, Haibo Wang, Feng Zhu, Rui Zhao, Hongsheng Li
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: ge2020self
-citations: 107
+citations: 108
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2006.03926'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Ge et al.

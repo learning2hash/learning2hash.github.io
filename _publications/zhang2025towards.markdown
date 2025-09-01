@@ -3,7 +3,8 @@ layout: publication
 title: Towards Text-image Interleaved Retrieval
 authors: Xin Zhang, Ziqi Dai, Yongqi Li, Yanzhao Zhang, Dingkun Long, Pengjun Xie,
   Meishan Zhang, Jun Yu, Wenjie Li, Min Zhang
-conference: Arxiv
+conference: 'Proceedings of the 63rd Annual Meeting of the Association for Computational
+  Linguistics (Volume 1: Long Papers)'
 year: 2025
 bibkey: zhang2025towards
 citations: 0

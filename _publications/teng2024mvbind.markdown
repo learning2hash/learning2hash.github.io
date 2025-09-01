@@ -3,8 +3,7 @@ layout: publication
 title: 'MVBIND: Self-supervised Music Recommendation For Videos Via Embedding Space
   Binding'
 authors: Jiajie Teng, Huiyu Duan, Yucheng Zhu, Sijing Wu, Guangtao Zhai
-conference: 2024 IEEE International Conference on Visual Communications and Image
-  Processing (VCIP)
+conference: Arxiv
 year: 2024
 bibkey: teng2024mvbind
 citations: 0

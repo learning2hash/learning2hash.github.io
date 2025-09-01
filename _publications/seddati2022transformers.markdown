@@ -5,7 +5,7 @@ authors: "Omar Seddati, St\xE9phane Dupont, Sa\xEFd Mahmoudi, Thierry Dutoit"
 conference: Arxiv
 year: 2022
 bibkey: seddati2022transformers
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.06629'}]
 tags: ["Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Seddati et al.

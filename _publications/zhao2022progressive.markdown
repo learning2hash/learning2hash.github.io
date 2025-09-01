@@ -6,7 +6,7 @@ conference: Proceedings of the 45th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2022
 bibkey: zhao2022progressive
-citations: 21
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.11212'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "SIGIR", "Self-Supervised", "Supervised", "Text Retrieval"]
 short_authors: Yida Zhao, Yuqing Song, Qin Jin

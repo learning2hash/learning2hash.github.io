@@ -7,7 +7,7 @@ conference: ICASSP 2020 - 2020 IEEE International Conference on Acoustics, Speec
   and Signal Processing (ICASSP)
 year: 2020
 bibkey: kim2020boosted
-citations: 9
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.06239'}]
 tags: ["Compact Codes", "Evaluation", "Hashing Methods", "ICASSP", "Locality-Sensitive-Hashing", "Neural Hashing"]
 short_authors: Sunwoo Kim, Haici Yang, Minje Kim

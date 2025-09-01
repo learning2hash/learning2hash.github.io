@@ -8,7 +8,7 @@ conference: 'Proceedings of the 59th Annual Meeting of the Association for Compu
   (Volume 1: Long Papers)'
 year: 2021
 bibkey: lu2021visualsparta
-citations: 18
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.00265'}]
 tags: ["Datasets", "Efficiency", "Image Retrieval", "Multimodal Retrieval", "Scalability"]
 short_authors: Xiaopeng Lu, Tiancheng Zhao, Kyusong Lee

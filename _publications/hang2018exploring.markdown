@@ -6,7 +6,7 @@ conference: Proceedings of the 24th ACM SIGKDD International Conference on Knowl
   Discovery &amp; Data Mining
 year: 2018
 bibkey: hang2018exploring
-citations: 53
+citations: 54
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.06912'}]
 tags: ["Datasets", "Evaluation", "Graph Based ANN", "KDD"]
 short_authors: Mengyue Hang, Ian Pytlarz, Jennifer Neville

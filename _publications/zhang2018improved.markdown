@@ -5,7 +5,7 @@ authors: Zheng Zhang, Qin Zou, Yuewei Lin, Long Chen, Song Wang
 conference: IEEE Transactions on Multimedia
 year: 2019
 bibkey: zhang2018improved
-citations: 144
+citations: 147
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.02987'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Zhang et al.

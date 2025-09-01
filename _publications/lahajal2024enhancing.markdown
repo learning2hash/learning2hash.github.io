@@ -6,7 +6,7 @@ authors: Naresh Kumar Lahajal, Harini S
 conference: Arxiv
 year: 2024
 bibkey: lahajal2024enhancing
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.13613'}]
 tags: ["Datasets", "Few Shot & Zero Shot", "Image Retrieval", "Scalability"]
 short_authors: Naresh Kumar Lahajal, Harini S

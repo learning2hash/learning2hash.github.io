@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Sampling A Near Neighbor In High Dimensions -- Who Is The Fairest Of Them All?
-authors: "Martin Aum\xFCller, Sariel Har-peled, Sepideh Mahabadi, Rasmus Pagh, Francesco\
+authors: "Martin Aum\xFCller, Sariel Har-Peled, Sepideh Mahabadi, Rasmus Pagh, Francesco\
   \ Silvestri"
 conference: ACM Transactions on Database Systems
 year: 2022
@@ -12,12 +12,12 @@ tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sens
 short_authors: "Aum\xFCller et al."
 ---
 Similarity search is a fundamental algorithmic primitive, widely used in many
-computer science disciplines. Given a set of points \\(S\\) and a radius parameter
-\\(r>0\\), the \\(r\\)-near neighbor (\\(r\\)-NN) problem asks for a data structure that,
-given any query point \\(q\\), returns a point \\(p\\) within distance at most \\(r\\) from
-\\(q\\). In this paper, we study the \\(r\\)-NN problem in the light of individual
+computer science disciplines. Given a set of points \(S\) and a radius parameter
+\(r>0\), the \(r\)-near neighbor (\(r\)-NN) problem asks for a data structure that,
+given any query point \(q\), returns a point \(p\) within distance at most \(r\) from
+\(q\). In this paper, we study the \(r\)-NN problem in the light of individual
 fairness and providing equal opportunities: all points that are within distance
-\\(r\\) from the query should have the same probability to be returned. In the
+\(r\) from the query should have the same probability to be returned. In the
 low-dimensional case, this problem was first studied by Hu, Qiao, and Tao (PODS
 2014). Locality sensitive hashing (LSH), the theoretically strongest approach
 to similarity search in high dimensions, does not provide such a fairness

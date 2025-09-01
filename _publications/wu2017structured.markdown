@@ -6,7 +6,7 @@ authors: Lin Wu, Yang Wang
 conference: Computer Vision and Image Understanding
 year: 2017
 bibkey: wu2017structured
-citations: 71
+citations: 72
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.04179'}]
 tags: ["Efficiency", "Hashing Methods", "Neural Hashing", "Tools & Libraries"]
 short_authors: Lin Wu, Yang Wang

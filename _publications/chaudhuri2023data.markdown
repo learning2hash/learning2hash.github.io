@@ -5,7 +5,7 @@ authors: Abhra Chaudhuri, Ayan Kumar Bhunia, Yi-Zhe Song, Anjan Dutta
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: chaudhuri2023data
-citations: 14
+citations: 15
 additional_links: [{name: Code, url: 'https://github.com/abhrac/data-free-sbir.'},
   {name: Paper, url: 'https://arxiv.org/abs/2303.07775'}]
 tags: ["CVPR", "Datasets", "Image Retrieval", "Neural Hashing"]

@@ -2,7 +2,7 @@
 layout: publication
 title: Optimized Feature Space Learning For Generating Efficient Binary Codes For
   Image Retrieval
-authors: Abin Jose, Erik Stefan Ottlik, Christian Rohlfing, Jens-rainer Ohm
+authors: Abin Jose, Erik Stefan Ottlik, Christian Rohlfing, Jens-Rainer Ohm
 conference: 'Signal Processing: Image Communication'
 year: 2021
 bibkey: jose2020optimized

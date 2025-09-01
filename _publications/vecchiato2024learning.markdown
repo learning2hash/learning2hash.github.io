@@ -2,13 +2,12 @@
 layout: publication
 title: Learning Cluster Representatives For Approximate Nearest Neighbor Search
 authors: Thomas Vecchiato
-conference: Proceedings of the 47th International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
+conference: Arxiv
 year: 2024
 bibkey: vecchiato2024learning
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.05921'}]
-tags: ["Datasets", "SIGIR"]
+tags: ["Datasets"]
 short_authors: Thomas Vecchiato
 ---
 Developing increasingly efficient and accurate algorithms for approximate

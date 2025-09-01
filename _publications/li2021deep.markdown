@@ -2,11 +2,11 @@
 layout: publication
 title: 'Deep Metric Learning For Few-shot Image Classification: A Review Of Recent
   Developments'
-authors: Xiaoxu Li, Xiaochen Yang, Zhanyu Ma, Jing-hao Xue
+authors: Xiaoxu Li, Xiaochen Yang, Zhanyu Ma, Jing-Hao Xue
 conference: Pattern Recognition
 year: 2023
 bibkey: li2021deep
-citations: 123
+citations: 135
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.08149'}]
 tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Survey Paper"]
 short_authors: Li et al.

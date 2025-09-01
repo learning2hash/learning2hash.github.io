@@ -7,7 +7,7 @@ conference: Proceedings of the 31st ACM SIGSOFT International Symposium on Softw
   Testing and Analysis
 year: 2022
 bibkey: wang2022jtrans
-citations: 80
+citations: 84
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2205.12713'}]
 tags: ["Compact Codes", "Datasets", "Evaluation"]
 short_authors: Wang et al.

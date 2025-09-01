@@ -5,7 +5,7 @@ authors: "Filip Radenovi\u0107, Giorgos Tolias, Ond\u0159ej Chum"
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2018
 bibkey: "radenovi\u01072017fine"
-citations: 1184
+citations: 1197
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.02512'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: "Filip Radenovi\u0107, Giorgos Tolias, Ond\u0159ej Chum"

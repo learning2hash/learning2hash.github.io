@@ -5,7 +5,7 @@ authors: Jiaxin Bai, Zihao Wang, Hongming Zhang, Yangqiu Song
 conference: 'Findings of the Association for Computational Linguistics: NAACL 2022'
 year: 2022
 bibkey: bai2022query2particles
-citations: 13
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.12847'}]
 tags: ["Evaluation", "NAACL"]
 short_authors: Bai et al.

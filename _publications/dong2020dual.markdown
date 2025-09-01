@@ -6,7 +6,7 @@ authors: Jianfeng Dong, Xirong Li, Chaoxi Xu, Xun Yang, Gang Yang, Xun Wang, Men
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2021
 bibkey: dong2020dual
-citations: 179
+citations: 180
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.05381'}]
 tags: ["Datasets", "Evaluation", "Video Retrieval"]
 short_authors: Dong et al.

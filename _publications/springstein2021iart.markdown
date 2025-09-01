@@ -4,7 +4,7 @@ title: 'Iart: A Search Engine For Art-historical Images To Support Research In T
   Humanities'
 authors: "Matthias Springstein, Stefanie Schneider, Javad Rahnama, Eyke H\xFCllermeier,\
   \ Hubertus Kohle, Ralph Ewerth"
-conference: ACM Multimedia Conference 2021
+conference: Proceedings of the 29th ACM International Conference on Multimedia
 year: 2021
 bibkey: springstein2021iart
 citations: 0

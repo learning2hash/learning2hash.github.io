@@ -2,14 +2,15 @@
 layout: publication
 title: Training-free Zero-shot Composed Image Retrieval Via Weighted Modality Fusion
   And Similarity
-authors: Ren-di Wu, Yu-yen Lin, Huei-fang Yang
+authors: Ren-di Wu, Yu-Yen Lin, Huei-Fang Yang
 conference: Communications in Computer and Information Science
 year: 2025
 bibkey: wu2024training
 citations: 0
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.04918'}]
+additional_links: [{name: Code, url: 'https://github.com/whats2000/WeiMoCIR.'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2409.04918'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Scalability", "Supervised"]
-short_authors: Ren-di Wu, Yu-yen Lin, Huei-fang Yang
+short_authors: Ren-di Wu, Yu-Yen Lin, Huei-Fang Yang
 ---
 Composed image retrieval (CIR), which formulates the query as a combination
 of a reference image and modified text, has emerged as a new form of image

@@ -2,11 +2,11 @@
 layout: publication
 title: 'MTFH: A Matrix Tri-factorization Hashing Framework For Efficient Cross-modal
   Retrieval'
-authors: Xin Liu, Zhikai Hu, Haibin Ling, Yiu-ming Cheung
+authors: Xin Liu, Zhikai Hu, Haibin Ling, Yiu-Ming Cheung
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2019
 bibkey: liu2018mtfh
-citations: 175
+citations: 178
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1805.01963'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Memory Efficiency", "Multimodal Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Liu et al.

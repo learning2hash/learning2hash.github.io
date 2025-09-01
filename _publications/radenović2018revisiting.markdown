@@ -6,7 +6,7 @@ authors: "Filip Radenovi\u0107, Ahmet Iscen, Giorgos Tolias, Yannis Avrithis, On
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: "radenovi\u01072018revisiting"
-citations: 339
+citations: 345
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.11285'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: "Radenovi\u0107 et al."

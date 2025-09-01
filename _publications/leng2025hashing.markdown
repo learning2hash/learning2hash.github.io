@@ -1,0 +1,27 @@
+---
+layout: publication
+title: Hashing For Distributed Data
+authors: Cong Leng, Wu, Cheng, Lu
+conference: No Venue
+year: 2015
+bibkey: leng2025hashing
+citations: 30
+additional_links: [{name: Paper, url: 'http://jmlr.org/proceedings/papers/v37/leng15.pdf'}]
+tags: ["Datasets", "Evaluation", "Hashing Methods"]
+short_authors: Leng et al.
+---
+Recently, hashing based approximate nearest
+neighbors search has attracted much attention.
+Extensive centralized hashing algorithms have
+been proposed and achieved promising performance. However, due to the large scale of many
+applications, the data is often stored or even collected in a distributed manner. Learning hash
+functions by aggregating all the data into a fusion
+center is infeasible because of the prohibitively
+expensive communication and computation overhead.
+In this paper, we develop a novel hashing
+model to learn hash functions in a distributed setting. We cast a centralized hashing model as a
+set of subproblems with consensus constraints.
+We find these subproblems can be analytically
+solved in parallel on the distributed compute nodes. Since no training data is transmitted across
+the nodes in the learning process, the communication cost of our model is independent to the data size. Extensive experiments on several large
+scale datasets containing up to 100 million samples demonstrate the efficacy of our method.

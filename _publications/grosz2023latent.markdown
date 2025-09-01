@@ -5,7 +5,7 @@ authors: Steven A. Grosz, Anil K. Jain
 conference: IEEE Transactions on Information Forensics and Security
 year: 2023
 bibkey: grosz2023latent
-citations: 6
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.13800'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Steven A. Grosz, Anil K. Jain

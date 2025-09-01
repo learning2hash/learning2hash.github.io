@@ -5,7 +5,7 @@ authors: Albert Gordo, Jon Almazan, Jerome Revaud, Diane Larlus
 conference: Lecture Notes in Computer Science
 year: 2016
 bibkey: gordo2016deep
-citations: 753
+citations: 754
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.01325'}]
 tags: ["Datasets", "Image Retrieval", "Tools & Libraries"]
 short_authors: Gordo et al.

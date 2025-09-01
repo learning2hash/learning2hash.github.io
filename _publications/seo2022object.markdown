@@ -5,7 +5,7 @@ authors: Jinhwan Seo, Wonho Bae, Danica J. Sutherland, Junhyug Noh, Daijin Kim
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: seo2022object
-citations: 23
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.07576'}]
 tags: ["Distance Metric Learning", "Self-Supervised", "Supervised"]
 short_authors: Seo et al.

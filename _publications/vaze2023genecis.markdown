@@ -5,8 +5,9 @@ authors: Sagar Vaze, Nicolas Carion, Ishan Misra
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: vaze2023genecis
-citations: 7
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.07969'}]
+citations: 8
+additional_links: [{name: Other, url: 'https://sgvaze.github.io/genecis/.'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2306.07969'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Sagar Vaze, Nicolas Carion, Ishan Misra
 ---

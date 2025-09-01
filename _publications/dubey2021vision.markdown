@@ -1,14 +1,15 @@
 ---
 layout: publication
 title: Vision Transformer Hashing For Image Retrieval
-authors: Shiv Ram Dubey, Satish Kumar Singh, Wei-ta Chu
+authors: Shiv Ram Dubey, Satish Kumar Singh, Wei-Ta Chu
 conference: 2022 IEEE International Conference on Multimedia and Expo (ICME)
 year: 2022
 bibkey: dubey2021vision
-citations: 47
-additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2109.12564'}]
+citations: 48
+additional_links: [{name: Code, url: 'https://github.com/shivram1987/VisionTransformerHashing.'},
+  {name: Paper, url: 'https://arxiv.org/abs/2109.12564'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Supervised"]
-short_authors: Shiv Ram Dubey, Satish Kumar Singh, Wei-ta Chu
+short_authors: Shiv Ram Dubey, Satish Kumar Singh, Wei-Ta Chu
 ---
 Deep learning has shown a tremendous growth in hashing techniques for image
 retrieval. Recently, Transformer has emerged as a new architecture by utilizing

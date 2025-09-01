@@ -3,12 +3,13 @@ layout: publication
 title: Where Are We In Embedding Spaces? A Comprehensive Analysis On Network Embedding
   Approaches For Recommender Systems
 authors: Sixiao Zhang, Hongxu Chen, Xiao Ming, Lizhen Cui, Hongzhi Yin, Guandong Xu
-conference: Arxiv
+conference: Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery &amp;
+  Data Mining
 year: 2021
 bibkey: zhang2021where
 citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.08908'}]
-tags: ["Datasets", "Evaluation", "Recommender Systems"]
+tags: ["Datasets", "Evaluation", "KDD", "Recommender Systems"]
 short_authors: Zhang et al.
 ---
 Hyperbolic space and hyperbolic embeddings are becoming a popular research

@@ -6,7 +6,7 @@ authors: Qingqing Huang, Aren Jansen, Joonseok Lee, Ravi Ganti, Judith Yue Li, D
 conference: Arxiv
 year: 2022
 bibkey: huang2022mulan
-citations: 26
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.12415'}]
 tags: ["Few Shot & Zero Shot", "Multimodal Retrieval"]
 short_authors: Huang et al.

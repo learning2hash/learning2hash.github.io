@@ -5,7 +5,7 @@ authors: Yupeng Hou, Jiacheng Li, Zhankui He, An Yan, Xiusi Chen, Julian McAuley
 conference: Arxiv
 year: 2024
 bibkey: hou2024bridging
-citations: 11
+citations: 14
 additional_links: [{name: Code, url: 'https://github.com/hyp1231/AmazonReviews2023.'},
   {name: Paper, url: 'https://arxiv.org/abs/2403.03952'}]
 tags: ["Datasets", "Evaluation", "Recommender Systems"]

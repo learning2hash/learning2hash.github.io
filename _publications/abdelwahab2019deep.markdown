@@ -5,7 +5,7 @@ authors: Ahmed Abdelwahab, Niels Landwehr
 conference: Neural Processing Letters
 year: 2022
 bibkey: abdelwahab2019deep
-citations: 13
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.01933'}]
 tags: ["Distance Metric Learning"]
 short_authors: Ahmed Abdelwahab, Niels Landwehr

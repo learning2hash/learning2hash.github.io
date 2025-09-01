@@ -5,7 +5,7 @@ authors: Shiv Ram Dubey, Snehasis Mukherjee
 conference: Multimedia Tools and Applications
 year: 2019
 bibkey: dubey2018ldop
-citations: 38
+citations: 39
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.07441'}]
 tags: ["Evaluation", "Image Retrieval", "Robustness", "Tools & Libraries"]
 short_authors: Shiv Ram Dubey, Snehasis Mukherjee

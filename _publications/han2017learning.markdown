@@ -5,7 +5,7 @@ authors: Xintong Han, Zuxuan Wu, Yu-Gang Jiang, Larry S. Davis
 conference: Proceedings of the 25th ACM international conference on Multimedia
 year: 2017
 bibkey: han2017learning
-citations: 385
+citations: 386
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.05691'}]
 tags: ["Datasets", "Recommender Systems", "Tools & Libraries"]
 short_authors: Han et al.

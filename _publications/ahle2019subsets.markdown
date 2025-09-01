@@ -22,14 +22,14 @@ optimally exploiting the information present in the sets as well as their
 complements, and doing so asymmetrically between queries and stored sets. Doing
 so we improve upon the best previous work: MinHash [J. Discrete Algorithms
 1998], SimHash [STOC 2002], Spherical LSF [SODA 2016, 2017] and Chosen Path
-[STOC 2017] by as much as a factor \\(n^\{0.14\}\\) in both time and space; or in the
+[STOC 2017] by as much as a factor \(n^\{0.14\}\) in both time and space; or in the
 near-constant time regime, in space, by an arbitrarily large polynomial factor.
   Turning the geometric concept, based on Boolean supermajority functions, into
-a practical algorithm requires ideas from branching random walks on \\(\mathbb
-Z^2\\), for which we give the first non-asymptotic near tight analysis.
+a practical algorithm requires ideas from branching random walks on \(\mathbb
+Z^2\), for which we give the first non-asymptotic near tight analysis.
   Our lower bounds follow from new hypercontractive arguments, which can be
 seen as characterizing the exact family of similarity search problems for which
 supermajorities are optimal. The optimality holds for among all hashing based
 data structures in the random setting, and by reductions, for 1 cell and 2 cell
 probe data structures. As a side effect, we obtain new hypercontractive bounds
-on the directed noise operator \\(T^\{p_1 \to p_2\}_\rho\\).
+on the directed noise operator \(T^\{p_1 \to p_2\}_\rho\).

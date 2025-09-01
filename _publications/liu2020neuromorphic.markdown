@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Neuromorphic Computing For Content-based Image Retrieval
-authors: Te-yuan Liu, Ata Mahjoubfar, Daniel Prusinski, Luis Stevens
+authors: Te-Yuan Liu, Ata Mahjoubfar, Daniel Prusinski, Luis Stevens
 conference: PLOS ONE
 year: 2022
 bibkey: liu2020neuromorphic

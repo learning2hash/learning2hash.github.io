@@ -6,7 +6,7 @@ conference: 2024 IEEE/CVF Winter Conference on Applications of Computer Vision W
   (WACVW)
 year: 2024
 bibkey: nizan2023k
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.17695'}]
 tags: ["Datasets"]
 short_authors: Ori Nizan, Ayellet Tal

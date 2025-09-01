@@ -6,7 +6,7 @@ authors: "Armand Joulin, Edouard Grave, Piotr Bojanowski, Matthijs Douze, H\xE9r
 conference: Arxiv
 year: 2016
 bibkey: joulin2016fasttext
-citations: 875
+citations: 882
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.03651'}]
 tags: ["Hashing Methods", "Memory Efficiency", "Quantization"]
 short_authors: Joulin et al.

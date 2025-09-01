@@ -5,7 +5,7 @@ authors: Liwei Wang, Yin Li, Jing Huang, Svetlana Lazebnik
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2018
 bibkey: wang2017learning
-citations: 529
+citations: 533
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1704.03470'}]
 tags: ["Datasets"]
 short_authors: Wang et al.

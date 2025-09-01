@@ -2,8 +2,8 @@
 layout: publication
 title: Cross-modality Sub-image Retrieval Using Contrastive Multimodal Image Representations
 authors: "Eva Breznik, Elisabeth Wetzer, Joakim Lindblad, Nata\u0161a Sladoje"
-conference: Arxiv
-year: 2022
+conference: Scientific Reports
+year: 2024
 bibkey: breznik2022cross
 citations: 3
 additional_links: [{name: Code, url: 'https://github.com/MIDA-group/CrossModal_ImgRetrieval.'},

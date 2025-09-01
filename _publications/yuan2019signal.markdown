@@ -5,7 +5,7 @@ authors: Tongtong Yuan, Weihong Deng, Jian Tang, Yinan Tang, Binghui Chen
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: yuan2019signal
-citations: 81
+citations: 82
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02616'}]
 tags: ["CVPR", "Distance Metric Learning", "Hashing Methods", "Neural Hashing"]
 short_authors: Yuan et al.

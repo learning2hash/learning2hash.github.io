@@ -3,12 +3,13 @@ layout: publication
 title: Topological And Semantic Graph-based Author Disambiguation On DBLP Data In
   Neo4j
 authors: Valentina Franzoni, Michele Lepri, Alfredo Milani
-conference: AIKE 2018 239-243
+conference: 2018 IEEE First International Conference on Artificial Intelligence and
+  Knowledge Engineering (AIKE)
 year: 2019
 bibkey: franzoni2019topological
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.08977'}]
-tags: ["Evaluation", "Graph Based ANN"]
+tags: ["AAAI", "Evaluation", "Graph Based ANN"]
 short_authors: Valentina Franzoni, Michele Lepri, Alfredo Milani
 ---
 In this work, we introduce a novel method for entity resolution author

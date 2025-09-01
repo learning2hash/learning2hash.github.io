@@ -6,7 +6,7 @@ authors: Shengshan Hu, Ziqi Zhou, Yechao Zhang, Leo Yu Zhang, Yifeng Zheng, Yuan
 conference: Proceedings of the 30th ACM International Conference on Multimedia
 year: 2022
 bibkey: hu2022badhash
-citations: 26
+citations: 27
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.00278'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness", "Scalability", "Self-Supervised"]
 short_authors: Hu et al.

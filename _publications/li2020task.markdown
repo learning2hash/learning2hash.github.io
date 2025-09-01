@@ -5,7 +5,7 @@ authors: Fengling Li, Tong Wang, Lei Zhu, Zheng Zhang, Xinhua Wang
 conference: Knowledge-Based Systems
 year: 2021
 bibkey: li2020task
-citations: 17
+citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.00197'}]
 tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Supervised", "Tools & Libraries"]
 short_authors: Li et al.

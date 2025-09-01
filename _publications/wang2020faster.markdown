@@ -5,7 +5,7 @@ authors: Guan'An Wang, Shaogang Gong, Jian Cheng, Zengguang Hou
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: wang2020faster
-citations: 54
+citations: 55
 additional_links: [{name: Code, url: 'https://github.com/wangguanan/light-reid.'},
   {name: Paper, url: 'https://arxiv.org/abs/2008.06826'}]
 tags: ["Compact Codes", "Datasets", "Hashing Methods", "Tools & Libraries"]

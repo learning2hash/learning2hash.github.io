@@ -14,7 +14,7 @@ short_authors: Ju Sun, Yuqian Zhang, John Wright
 Motivated by vision tasks such as robust face and object recognition, we
 consider the following general problem: given a collection of low-dimensional
 linear subspaces in a high-dimensional ambient (image) space, and a query point
-(image), efficiently determine the nearest subspace to the query in \\(\ell^1\\)
+(image), efficiently determine the nearest subspace to the query in \(\ell^1\)
 distance. In contrast to the naive exhaustive search which entails large-scale
 linear programs, we show that the computational burden can be cut down
 significantly by a simple two-stage algorithm: (1) projecting the query and

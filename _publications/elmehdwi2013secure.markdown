@@ -5,7 +5,7 @@ authors: Yousef Elmehdwi, Bharath K. Samanthula, Wei Jiang
 conference: 2014 IEEE 30th International Conference on Data Engineering
 year: 2014
 bibkey: elmehdwi2013secure
-citations: 359
+citations: 361
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1307.4824'}]
 tags: ["Efficiency"]
 short_authors: Yousef Elmehdwi, Bharath K. Samanthula, Wei Jiang

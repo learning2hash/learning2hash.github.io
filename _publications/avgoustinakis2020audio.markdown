@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Audio-based Near-duplicate Video Retrieval With Audio Similarity Learning
-authors: Pavlos Avgoustinakis, Giorgos Kordopatis-zilos, Symeon Papadopoulos, Andreas
+authors: Pavlos Avgoustinakis, Giorgos Kordopatis-Zilos, Symeon Papadopoulos, Andreas
   L. Symeonidis, Ioannis Kompatsiaris
 conference: 2020 25th International Conference on Pattern Recognition (ICPR)
 year: 2021

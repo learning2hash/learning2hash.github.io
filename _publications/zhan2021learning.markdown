@@ -7,7 +7,7 @@ conference: Proceedings of the Fifteenth ACM International Conference on Web Sea
   and Data Mining
 year: 2022
 bibkey: zhan2021learning
-citations: 34
+citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.05789'}]
 tags: ["Efficiency", "Quantization", "Vector Indexing"]
 short_authors: Zhan et al.

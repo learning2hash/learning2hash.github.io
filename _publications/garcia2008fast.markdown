@@ -6,7 +6,7 @@ conference: 2008 IEEE Computer Society Conference on Computer Vision and Pattern
   Workshops
 year: 2008
 bibkey: garcia2008fast
-citations: 446
+citations: 447
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/0804.1448'}]
 tags: ["CVPR", "Tools & Libraries"]
 short_authors: Vincent Garcia, Eric Debreuve, Michel Barlaud

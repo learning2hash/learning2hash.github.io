@@ -3,7 +3,7 @@ layout: publication
 title: 'Locality-sensitive Hashing For F-divergences: Mutual Information Loss And
   Beyond'
 authors: Lin Chen, Hossein Esfandiari, Thomas Fu, Vahab S. Mirrokni
-conference: No Venue
+conference: Arxiv
 year: 2019
 bibkey: chen2019locality
 citations: 4

@@ -5,7 +5,7 @@ authors: Ryota Hinami, Yusuke Matsui, Shin'Ichi Satoh
 conference: Proceedings of the 25th ACM international conference on Multimedia
 year: 2017
 bibkey: hinami2017region
-citations: 22
+citations: 23
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.09106'}]
 tags: ["Hybrid ANN Methods", "Image Retrieval", "Neural Hashing", "Re-Ranking", "Recommender Systems"]
 short_authors: Ryota Hinami, Yusuke Matsui, Shin'Ichi Satoh

@@ -6,7 +6,7 @@ authors: Yifan Sun, Changmao Cheng, Yuhan Zhang, Chi Zhang, Liang Zheng, Zhongda
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: sun2020circle
-citations: 787
+citations: 790
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.10857'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Sun et al.

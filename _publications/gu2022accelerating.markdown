@@ -7,7 +7,7 @@ conference: 'Proceedings of the 60th Annual Meeting of the Association for Compu
   Linguistics (Volume 1: Long Papers)'
 year: 2022
 bibkey: gu2022accelerating
-citations: 10
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2203.15287'}]
 tags: ["Efficiency", "Hashing Methods", "Neural Hashing"]
 short_authors: Gu et al.

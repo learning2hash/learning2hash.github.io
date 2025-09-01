@@ -5,7 +5,7 @@ authors: Hong Xuan, Abby Stylianou, Robert Pless
 conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2020
 bibkey: xuan2019improved
-citations: 131
+citations: 134
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.04370'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Hong Xuan, Abby Stylianou, Robert Pless

@@ -5,7 +5,7 @@ authors: Dan Andrei Ganea, Bas Boom, Ronald Poppe
 conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2021
 bibkey: ganea2021incremental
-citations: 55
+citations: 57
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.05312'}]
 tags: ["CVPR", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Dan Andrei Ganea, Bas Boom, Ronald Poppe

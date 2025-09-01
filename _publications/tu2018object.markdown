@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: Object Detection Based Deep Unsupervised Hashing
-authors: Rong-cheng Tu, Xian-ling Mao, Bo-si Feng, Bing-bing Bian, Yu-shu Ying
+authors: Rong-Cheng Tu, Xian-Ling Mao, Bo-Si Feng, Bing-Bing Bian, Yu-Shu Ying
 conference: Proceedings of the Twenty-Eighth International Joint Conference on Artificial
   Intelligence
 year: 2019
 bibkey: tu2018object
 citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.09822'}]
-tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods", "IJCAI", "Image Retrieval", "Neural Hashing", "Scalability", "Supervised", "Unsupervised"]
+tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods", "IJCAI", "Image Retrieval", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Tu et al.
 ---
 Recently, similarity-preserving hashing methods have been extensively studied

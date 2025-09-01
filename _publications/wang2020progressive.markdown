@@ -5,7 +5,7 @@ authors: Xiaodong Wang, Zhedong Zheng, Yang He, Fei Yan, Zhiqiang Zeng, Yi Yang
 conference: IEEE Transactions on Multimedia
 year: 2023
 bibkey: wang2020progressive
-citations: 50
+citations: 51
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.08878'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Wang et al.

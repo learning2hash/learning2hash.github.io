@@ -5,7 +5,7 @@ authors: Jian Zhang, Yuxin Peng
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2017
 bibkey: zhang2016ssdh
-citations: 150
+citations: 151
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.08477'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Similarity Search", "Supervised"]
 short_authors: Jian Zhang, Yuxin Peng

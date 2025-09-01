@@ -7,7 +7,7 @@ year: 2017
 bibkey: gordo2016end
 citations: 532
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1610.07940'}]
-tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Quantization", "Scalability"]
+tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Neural Hashing", "Quantization", "Scalability"]
 short_authors: Gordo et al.
 ---
 While deep learning has become a key ingredient in the top performing methods

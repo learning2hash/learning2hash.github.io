@@ -5,7 +5,7 @@ authors: Aviad Moreshet, Yosi Keller
 conference: Computer Vision and Image Understanding
 year: 2024
 bibkey: moreshet2021attention
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.11247'}]
 tags: ["Uncategorized"]
 short_authors: Aviad Moreshet, Yosi Keller

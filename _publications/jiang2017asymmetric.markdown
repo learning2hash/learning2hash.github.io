@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: Asymmetric Deep Supervised Hashing
-authors: Qing-yuan Jiang, Wu-jun Li
+authors: Qing-Yuan Jiang, Wu-Jun Li
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2018
 bibkey: jiang2017asymmetric
-citations: 250
+citations: 251
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1707.08325'}]
 tags: ["AAAI", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Scalability", "Supervised"]
-short_authors: Qing-yuan Jiang, Wu-jun Li
+short_authors: Qing-Yuan Jiang, Wu-Jun Li
 ---
 Hashing has been widely used for large-scale approximate nearest neighbor
 search because of its storage and search efficiency. Recent work has found that

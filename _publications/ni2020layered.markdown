@@ -6,7 +6,7 @@ authors: Chien-Chun Ni, Kin Sum Liu, Nicolas Torzec
 conference: Companion Proceedings of the Web Conference 2020
 year: 2020
 bibkey: ni2020layered
-citations: 27
+citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2004.06842'}]
 tags: ["Recommender Systems", "Tools & Libraries"]
 short_authors: Chien-Chun Ni, Kin Sum Liu, Nicolas Torzec

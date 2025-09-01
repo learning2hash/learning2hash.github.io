@@ -5,9 +5,9 @@ authors: Frederik Pahde, Mihai Puscas, Tassilo Klein, Moin Nabi
 conference: 2021 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2021
 bibkey: pahde2020multimodal
-citations: 82
+citations: 83
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.08899'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Tools & Libraries"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Neural Hashing", "Tools & Libraries"]
 short_authors: Pahde et al.
 ---
 Although providing exceptional results for many computer vision tasks,

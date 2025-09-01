@@ -7,7 +7,7 @@ authors: Sicheng Zhao, Yaxian Li, Xingxu Yao, Weizhi Nie, Pengfei Xu, Jufeng Yan
 conference: Proceedings of the 28th ACM International Conference on Multimedia
 year: 2020
 bibkey: zhao2020emotion
-citations: 24
+citations: 26
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2009.05103'}]
 tags: ["Datasets", "Distance Metric Learning", "Scalability"]
 short_authors: Zhao et al.

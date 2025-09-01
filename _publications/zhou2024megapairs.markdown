@@ -6,7 +6,7 @@ authors: Junjie Zhou, Zheng Liu, Ze Liu, Shitao Xiao, Yueze Wang, Bo Zhao, Chen 
 conference: Arxiv
 year: 2024
 bibkey: zhou2024megapairs
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.14475'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Multimodal Retrieval"]
 short_authors: Zhou et al.

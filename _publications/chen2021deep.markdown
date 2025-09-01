@@ -6,9 +6,9 @@ authors: Wei Chen, Yu Liu, Weiping Wang, Erwin Bakker, Theodoros Georgiou, Paul 
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2022
 bibkey: chen2021deep
-citations: 122
+citations: 125
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2101.11282'}]
-tags: ["Efficiency", "Evaluation", "Image Retrieval", "Survey Paper"]
+tags: ["Efficiency", "Evaluation", "Image Retrieval", "Neural Hashing", "Survey Paper"]
 short_authors: Chen et al.
 ---
 In recent years a vast amount of visual content has been generated and shared

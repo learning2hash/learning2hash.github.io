@@ -6,7 +6,7 @@ authors: Yu. A. Malkov, D. A. Yashunin
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2018
 bibkey: malkov2016efficient
-citations: 1091
+citations: 1120
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1603.09320'}]
 tags: ["Evaluation", "Graph Based ANN"]
 short_authors: Yu. A. Malkov, D. A. Yashunin

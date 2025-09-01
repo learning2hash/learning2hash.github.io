@@ -5,7 +5,7 @@ authors: Nam Vo, James Hays
 conference: Lecture Notes in Computer Science
 year: 2016
 bibkey: vo2016localizing
-citations: 247
+citations: 249
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1608.00161'}]
 tags: ["Datasets", "Efficiency", "Scalability"]
 short_authors: Nam Vo, James Hays

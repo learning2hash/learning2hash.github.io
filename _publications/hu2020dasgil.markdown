@@ -5,7 +5,7 @@ authors: Hanjiang Hu, Zhijian Qiao, Ming Cheng, Zhe Liu, Hesheng Wang
 conference: IEEE Transactions on Image Processing
 year: 2020
 bibkey: hu2020dasgil
-citations: 48
+citations: 49
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.00573'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Robustness", "Scalability"]
 short_authors: Hu et al.

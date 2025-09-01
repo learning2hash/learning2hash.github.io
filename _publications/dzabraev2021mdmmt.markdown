@@ -6,7 +6,7 @@ conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2021
 bibkey: dzabraev2021mdmmt
-citations: 108
+citations: 111
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.10699'}]
 tags: ["CVPR", "Datasets", "Video Retrieval"]
 short_authors: Dzabraev et al.

@@ -5,7 +5,7 @@ authors: Yicong Tian, Chen Chen, Mubarak Shah
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2017
 bibkey: tian2017cross
-citations: 179
+citations: 180
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1703.07815'}]
 tags: ["CVPR", "Datasets", "Tools & Libraries"]
 short_authors: Yicong Tian, Chen Chen, Mubarak Shah

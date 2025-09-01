@@ -5,7 +5,7 @@ authors: Pengfei Ma, Youxi Wu, Yan Li, Lei Guo, He Jiang, Xingquan Zhu, Xindong 
 conference: ACM Transactions on Knowledge Discovery from Data
 year: 2022
 bibkey: ma2022deep
-citations: 16
+citations: 17
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.11951'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing"]
 short_authors: Ma et al.
