@@ -303,7 +303,8 @@ document.addEventListener('DOMContentLoaded', function () {
     const data = rows.map(r => {
       const year = toNumber(r.year);
       const citations = toNumber(r.citations);
-      const key = r.key || '';
+      const key = (r.key || '').toLowerCase();   // normalize once here
+
       const title = (r.title || '').trim();
       const short_authors = r.short_authors || (Array.isArray(r.authors)
         ? r.authors.slice(0, 3).join(', ') + (r.authors.length > 3 ? ' et al.' : '')
@@ -312,7 +313,6 @@ document.addEventListener('DOMContentLoaded', function () {
         ? r.authors.join(', ').trim()
         : (r.authors || '').trim();
 
-      const key = (r.key || '').toLowerCase();   // normalize once here
 
       const url = (r.url && String(r.url)) ||
         (key ? (PAGE_URL_PREFIX + encodeURIComponent(key) + PAGE_URL_SUFFIX) : null);
