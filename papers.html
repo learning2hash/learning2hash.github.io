@@ -155,6 +155,8 @@ description: A list of research papers for Learning to Hash.
         ? r.authors.join(', ').trim()
         : (r.authors || '').trim();
 
+      const key = (r.key || '').toLowerCase();   // normalize once here
+
       const url = (r.url && String(r.url)) ||
         (key ? (PAGE_URL_PREFIX + encodeURIComponent(key) + PAGE_URL_SUFFIX) : null);
 
