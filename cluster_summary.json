@@ -1,12 +1,12 @@
 {
-  "2": [
+  "7": [
     {
       "tag": "hashing",
-      "count": 0.119
+      "count": 0.118
     },
     {
       "tag": "hash",
-      "count": 0.09
+      "count": 0.091
     },
     {
       "tag": "code",
@@ -24,48 +24,48 @@
   "4": [
     {
       "tag": "lsh",
-      "count": 0.057
+      "count": 0.054
     },
     {
       "tag": "point",
-      "count": 0.043
+      "count": 0.042
     },
     {
       "tag": "algorithm",
-      "count": 0.038
+      "count": 0.039
+    },
+    {
+      "tag": "set",
+      "count": 0.036
     },
     {
       "tag": "neighbor",
       "count": 0.035
-    },
-    {
-      "tag": "data",
-      "count": 0.033
     }
   ],
-  "9": [
+  "0": [
     {
       "tag": "image",
-      "count": 0.052
+      "count": 0.055
     },
     {
       "tag": "metric",
-      "count": 0.05
+      "count": 0.048
     },
     {
       "tag": "learning",
-      "count": 0.041
+      "count": 0.04
     },
     {
       "tag": "class",
-      "count": 0.034
+      "count": 0.033
     },
     {
       "tag": "sample",
-      "count": 0.031
+      "count": 0.029
     }
   ],
-  "7": [
+  "5": [
     {
       "tag": "document",
       "count": 0.072
@@ -87,76 +87,54 @@
       "count": 0.034
     }
   ],
-  "6": [
+  "1": [
     {
       "tag": "search",
-      "count": 0.058
+      "count": 0.055
     },
     {
       "tag": "algorithm",
-      "count": 0.052
-    },
-    {
-      "tag": "neighbor",
       "count": 0.049
     },
     {
-      "tag": "nearest",
-      "count": 0.043
-    },
-    {
-      "tag": "index",
-      "count": 0.037
-    }
-  ],
-  "1": [
-    {
-      "tag": "descriptor",
-      "count": 0.093
-    },
-    {
-      "tag": "image",
-      "count": 0.067
-    },
-    {
-      "tag": "place",
+      "tag": "neighbor",
       "count": 0.048
     },
     {
-      "tag": "feature",
-      "count": 0.047
+      "tag": "nearest",
+      "count": 0.041
     },
     {
-      "tag": "local",
-      "count": 0.04
+      "tag": "index",
+      "count": 0.036
     }
   ],
-  "3": [
+  "6": [
     {
-      "tag": "text",
-      "count": 0.053
+      "tag": "descriptor",
+      "count": 0.098
     },
     {
-      "tag": "video",
+      "tag": "image",
+      "count": 0.066
+    },
+    {
+      "tag": "place",
+      "count": 0.049
+    },
+    {
+      "tag": "feature",
       "count": 0.046
     },
     {
-      "tag": "retrieval",
-      "count": 0.038
-    },
-    {
-      "tag": "music",
-      "count": 0.034
-    },
-    {
-      "tag": "multimodal",
-      "count": 0.034
+      "tag": "local",
+      "count": 0.042
     }
   ],
-  "0": [
+  "8": [
     {
       "tag": "recommendation",
-      "count": 0.074
+      "count": 0.073
     },
     {
       "tag": "item",
@@ -164,7 +142,7 @@
     },
     {
       "tag": "user",
-      "count": 0.052
+      "count": 0.053
     },
     {
       "tag": "embedding",
@@ -175,36 +153,58 @@
       "count": 0.038
     }
   ],
-  "5": [
+  "3": [
+    {
+      "tag": "text",
+      "count": 0.055
+    },
+    {
+      "tag": "video",
+      "count": 0.045
+    },
+    {
+      "tag": "retrieval",
+      "count": 0.039
+    },
+    {
+      "tag": "music",
+      "count": 0.033
+    },
+    {
+      "tag": "multimodal",
+      "count": 0.033
+    }
+  ],
+  "9": [
     {
       "tag": "sketch",
-      "count": 0.071
+      "count": 0.073
     },
     {
       "tag": "person",
-      "count": 0.066
+      "count": 0.068
     },
     {
       "tag": "image",
-      "count": 0.036
+      "count": 0.035
     },
     {
       "tag": "sbir",
-      "count": 0.031
+      "count": 0.032
     },
     {
       "tag": "scene",
-      "count": 0.028
+      "count": 0.025
     }
   ],
-  "8": [
+  "2": [
     {
       "tag": "hashing",
-      "count": 0.081
+      "count": 0.082
     },
     {
       "tag": "deep",
-      "count": 0.053
+      "count": 0.054
     },
     {
       "tag": "code",
