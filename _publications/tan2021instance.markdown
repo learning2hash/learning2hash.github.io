@@ -6,8 +6,7 @@ conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: tan2021instance
 citations: 71
-additional_links: [{name: Code, url: 'https://github.com/uvavision/RerankingTransformer.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2103.12236'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2103.12236'}]
 tags: ["Datasets", "ICCV", "Image Retrieval", "Re-Ranking", "Supervised"]
 short_authors: Fuwen Tan, Jiangbo Yuan, Vicente Ordonez
 ---

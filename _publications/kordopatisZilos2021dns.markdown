@@ -7,8 +7,7 @@ conference: International Journal of Computer Vision
 year: 2022
 bibkey: kordopatisZilos2021dns
 citations: 27
-additional_links: [{name: Code, url: 'https://github.com/mever-team/distill-and-select.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2106.13266'}]
+additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2106.13266'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Scalability", "Tools & Libraries", "Video Retrieval"]
 short_authors: Kordopatis-Zilos et al.
 ---

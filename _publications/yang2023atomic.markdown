@@ -9,8 +9,7 @@ conference: Proceedings of the 46th International ACM SIGIR Conference on Resear
 year: 2023
 bibkey: yang2023atomic
 citations: 4
-additional_links: [{name: Code, url: 'https://github.com/TREC-AToMiC/AToMiC.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2304.01961'}]
+additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2304.01961'}]
 tags: ["Datasets", "Multimodal Retrieval", "SIGIR", "Scalability", "Text Retrieval"]
 short_authors: Yang et al.
 ---

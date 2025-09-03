@@ -7,8 +7,7 @@ conference: Proceedings of the 17th Conference of the European Chapter of the As
 year: 2023
 bibkey: muennighoff2022mteb
 citations: 186
-additional_links: [{name: Code, url: 'https://github.com/embeddings-benchmark/mteb.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2210.07316'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.07316'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Muennighoff et al.
 ---

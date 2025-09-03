@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2024
 bibkey: lin2024enhancing
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/linty5/CCBIR'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2403.14287'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2403.14287'}]
 tags: ["Image Retrieval"]
 short_authors: Tingyu Lin, Robert Sablatnig
 ---

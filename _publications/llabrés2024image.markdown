@@ -6,8 +6,7 @@ conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: "llabr\xE9s2024image"
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/llabres/library-dataset'},
-  {name: Paper, url: 'https://arxiv.org/abs/2407.19812'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2407.19812'}]
 tags: ["Datasets", "Scalability", "Tools & Libraries"]
 short_authors: "Llabr\xE9s et al."
 ---

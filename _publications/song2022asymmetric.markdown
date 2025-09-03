@@ -7,8 +7,7 @@ conference: IEEE Transactions on Geoscience and Remote Sensing
 year: 2022
 bibkey: song2022asymmetric
 citations: 44
-additional_links: [{name: Code, url: 'https://github.com/weiweisong415/Demo'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2201.05772'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2201.05772'}]
 tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Supervised"]
 short_authors: Song et al.
 ---

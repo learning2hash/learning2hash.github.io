@@ -6,8 +6,7 @@ conference: 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (
 year: 2025
 bibkey: wei2024breaking
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/weitong8591/vop.git.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2406.16204'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2406.16204'}]
 tags: ["Image Retrieval", "Scalability"]
 short_authors: Wei et al.
 ---

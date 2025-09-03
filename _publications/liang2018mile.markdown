@@ -6,8 +6,7 @@ conference: Proceedings of the International AAAI Conference on Web and Social M
 year: 2021
 bibkey: liang2018mile
 citations: 45
-additional_links: [{name: Code, url: 'https://github.com/jiongqian/MILE.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/1802.09612'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1802.09612'}]
 tags: ["AAAI", "Datasets", "Scalability", "Tools & Libraries"]
 short_authors: Jiongqian Liang, Saket Gurukar, Srinivasan Parthasarathy
 ---

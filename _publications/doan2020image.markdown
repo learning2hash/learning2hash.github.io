@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2020
 bibkey: doan2020image
 citations: 4
-additional_links: [{name: Code, url: 'https://github.com/khoadoan/adversarial-hashing'},
-  {name: Paper, url: 'https://arxiv.org/abs/2003.00134'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2003.00134'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Robustness", "Scalability"]
 short_authors: Doan et al.
 ---

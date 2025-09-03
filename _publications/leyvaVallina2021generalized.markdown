@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2021
 bibkey: leyvaVallina2021generalized
 citations: 14
-additional_links: [{name: Code, url: 'https://github.com/marialeyvallina/generalized_contrastive_loss.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2103.06638'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2103.06638'}]
 tags: ["Datasets", "Distance Metric Learning"]
 short_authors: "Mar\xEDa Leyva-Vallina, Nicola Strisciuglio, Nicolai Petkov"
 ---

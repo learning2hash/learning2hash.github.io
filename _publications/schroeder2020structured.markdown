@@ -6,7 +6,7 @@ conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2020
 bibkey: schroeder2020structured
-citations: 50
+citations: 52
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.06653'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Brigit Schroeder, Subarna Tripathi

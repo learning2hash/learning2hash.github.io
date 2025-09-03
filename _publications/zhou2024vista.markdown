@@ -7,8 +7,7 @@ conference: 'Proceedings of the 62nd Annual Meeting of the Association for Compu
 year: 2024
 bibkey: zhou2024vista
 citations: 2
-additional_links: [{name: Code, url: 'https://github.com/FlagOpen/FlagEmbedding.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2406.04292'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2406.04292'}]
 tags: ["Few Shot & Zero Shot", "Supervised"]
 short_authors: Zhou et al.
 ---

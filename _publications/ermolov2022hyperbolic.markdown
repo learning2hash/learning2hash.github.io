@@ -7,8 +7,7 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2022
 bibkey: ermolov2022hyperbolic
 citations: 65
-additional_links: [{name: Code, url: 'https://github.com/htdt/hyp_metric.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2203.10833'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2203.10833'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Ermolov et al.
 ---

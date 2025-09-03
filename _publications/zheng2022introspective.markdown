@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2022
 bibkey: zheng2022introspective
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/wzzheng/IDML.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2205.04449'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2205.04449'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Zheng et al.
 ---

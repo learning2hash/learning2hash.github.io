@@ -7,8 +7,7 @@ conference: IEEE Transactions on Multimedia
 year: 2021
 bibkey: somandepalli2020robust
 citations: 6
-additional_links: [{name: Other, url: 'https://sail.usc.edu/~ccmi/multiface.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2008.11289'}]
+additional_links: [{name: Other, url: 'https://sail'}, {name: Paper, url: 'https://arxiv.org/abs/2008.11289'}]
 tags: ["Datasets", "Evaluation", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Krishna Somandepalli, Rajat Hebbar, Shrikanth Narayanan
 ---

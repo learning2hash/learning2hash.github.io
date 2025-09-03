@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2024
 bibkey: agnolucci2024isearle
 citations: 1
-additional_links: [{name: Code, url: 'https://github.com/miccunifi/SEARLE.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2405.02951'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2405.02951'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Supervised"]
 short_authors: Agnolucci et al.
 ---

@@ -7,8 +7,7 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2022
 bibkey: shen2021learning
 citations: 8
-additional_links: [{name: Code, url: 'http://imagine.enpc.fr/~shenx/SegSwap/.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2110.15904'}]
+additional_links: [{name: Code, url: 'http://imagine'}, {name: Paper, url: 'https://arxiv.org/abs/2110.15904'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Unsupervised"]
 short_authors: Shen et al.
 ---

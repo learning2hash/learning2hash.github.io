@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2015
 bibkey: ustinova2015multiregion
 citations: 36
-additional_links: [{name: Code, url: 'https://github.com/madkn/MultiregionBilinearCNN-ReId.'},
-  {name: Paper, url: 'https://arxiv.org/abs/1512.05300'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1512.05300'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Evgeniya Ustinova, Yaroslav Ganin, Victor Lempitsky
 ---

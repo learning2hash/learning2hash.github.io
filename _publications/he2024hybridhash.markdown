@@ -7,8 +7,7 @@ conference: Proceedings of the 2024 International Conference on Multimedia Retri
 year: 2024
 bibkey: he2024hybridhash
 citations: 6
-additional_links: [{name: Code, url: 'https://github.com/shuaichaochao/HybridHash.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2405.07524'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2405.07524'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Chao He, Hongxi Wei
 ---

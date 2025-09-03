@@ -5,7 +5,7 @@ authors: Kai Cao, Dinh-Luan Nguyen, Cori Tymoszek, A. K. Jain
 conference: IEEE Transactions on Information Forensics and Security
 year: 2019
 bibkey: cao2018end
-citations: 65
+citations: 67
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.10213'}]
 tags: ["Efficiency", "Evaluation", "Quantization"]
 short_authors: Cao et al.

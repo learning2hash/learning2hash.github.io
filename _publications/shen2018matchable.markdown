@@ -6,9 +6,8 @@ authors: Tianwei Shen, Zixin Luo, Lei Zhou, Runze Zhang, Siyu Zhu, Tian Fang, Lo
 conference: Lecture Notes in Computer Science
 year: 2019
 bibkey: shen2018matchable
-citations: 49
-additional_links: [{name: Code, url: 'https://github.com/hlzz/mirror.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/1811.10343'}]
+citations: 50
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1811.10343'}]
 tags: ["Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Shen et al.
 ---

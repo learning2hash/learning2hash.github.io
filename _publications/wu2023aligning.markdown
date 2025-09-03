@@ -6,8 +6,7 @@ conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2023
 bibkey: wu2023aligning
 citations: 63
-additional_links: [{name: Code, url: 'https://github.com/wusize/ovdet.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2302.13996'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2302.13996'}]
 tags: ["CVPR", "Datasets", "Scalability"]
 short_authors: Wu et al.
 ---

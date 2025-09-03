@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2020
 bibkey: ma2020robust
 citations: 10
-additional_links: [{name: Code, url: 'https://github.com/mameng1/GraphLineMatching.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2004.04993'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2004.04993'}]
 tags: ["Evaluation", "Graph Based ANN"]
 short_authors: Quanmeng Ma, Guang Jiang, Dianzhi Lai
 ---

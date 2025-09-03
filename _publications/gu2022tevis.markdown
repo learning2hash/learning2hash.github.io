@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2023
 bibkey: gu2022tevis
 citations: 1
-additional_links: [{name: Code, url: 'https://ruc-aimind.github.io/projects/TeViS/'},
-  {name: Paper, url: 'https://arxiv.org/abs/2301.00135'}]
+additional_links: [{name: Code, url: 'https://ruc-aimind'}, {name: Paper, url: 'https://arxiv.org/abs/2301.00135'}]
 tags: ["Datasets", "Evaluation", "Quantization"]
 short_authors: Gu et al.
 ---

@@ -7,8 +7,7 @@ conference: IEEE Transactions on Multimedia
 year: 2022
 bibkey: xu2021hhf
 citations: 16
-additional_links: [{name: Code, url: 'https://github.com/JerryXu0129/HHF.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2112.02225'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2112.02225'}]
 tags: ["Distance Metric Learning", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Scalability"]
 short_authors: Xu et al.
 ---

@@ -7,8 +7,7 @@ conference: 2023 IEEE International Conference on Robotics and Automation (ICRA)
 year: 2023
 bibkey: chen2022place
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/rover-xingyu/PROCA.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2211.11439'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2211.11439'}]
 tags: ["ICRA", "Unsupervised"]
 short_authors: Yue Chen, Xingyu Chen, Yicen Li
 ---

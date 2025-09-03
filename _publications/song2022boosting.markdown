@@ -6,8 +6,7 @@ conference: 2023 IEEE/CVF Winter Conference on Applications of Computer Vision (
 year: 2023
 bibkey: song2022boosting
 citations: 28
-additional_links: [{name: Code, url: 'https://github.com/dealicious-inc/DToP.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2210.11909'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.11909'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Song et al.
 ---

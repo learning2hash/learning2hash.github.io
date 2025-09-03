@@ -9,8 +9,7 @@ conference: 'KDD ''23: The 29th ACM SIGKDD Conference on Knowledge Discovery and
 year: 2023
 bibkey: yang2023batchsampler
 citations: 6
-additional_links: [{name: Code, url: 'https://github.com/THUDM/BatchSampler\'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2306.03355'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2306.03355'}]
 tags: ["Datasets", "Evaluation", "Graph Based ANN", "KDD", "Self-Supervised", "Supervised"]
 short_authors: Yang et al.
 ---

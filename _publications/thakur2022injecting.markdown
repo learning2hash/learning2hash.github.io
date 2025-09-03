@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2022
 bibkey: thakur2022injecting
 citations: 6
-additional_links: [{name: Code, url: 'https://github.com/thakur-nandan/income.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2205.11498'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2205.11498'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot", "Memory Efficiency", "Quantization", "Supervised", "Unsupervised"]
 short_authors: Nandan Thakur, Nils Reimers, Jimmy Lin
 ---

@@ -6,8 +6,7 @@ conference: 2018 International Conference on Content-Based Multimedia Indexing (
 year: 2018
 bibkey: mohedano2017saliency
 citations: 37
-additional_links: [{name: Code, url: 'https://imatge-upc.github.io/salbow/'}, {name: Paper,
-    url: 'https://arxiv.org/abs/1711.10795'}]
+additional_links: [{name: Code, url: 'https://imatge-upc'}, {name: Paper, url: 'https://arxiv.org/abs/1711.10795'}]
 tags: ["Evaluation", "Tools & Libraries"]
 short_authors: Mohedano et al.
 ---

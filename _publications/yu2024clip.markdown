@@ -6,8 +6,7 @@ conference: IEEE Transactions on Multimedia
 year: 2025
 bibkey: yu2024clip
 citations: 10
-additional_links: [{name: Code, url: 'https://github.com/nengdong96/CSDN.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2401.05806'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2401.05806'}]
 tags: ["Uncategorized"]
 short_authors: Yu et al.
 ---

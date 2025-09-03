@@ -2,12 +2,11 @@
 layout: publication
 title: Retrieval Robust To Object Motion Blur
 authors: Rong Zou, Marc Pollefeys, Denys Rozumnyi
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2024
 bibkey: zou2024retrieval
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/Rong-Zou/Retrieval-Robust-to-Object-Motion-Blur.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2404.18025'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2404.18025'}]
 tags: ["Datasets", "Scalability"]
 short_authors: Rong Zou, Marc Pollefeys, Denys Rozumnyi
 ---

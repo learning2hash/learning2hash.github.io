@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2024
 bibkey: li2024bert
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/leo4life2/algoml-final'},
-  {name: Paper, url: 'https://arxiv.org/abs/2404.08836'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2404.08836'}]
 tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Zezheng Li, Kingston Yip
 ---

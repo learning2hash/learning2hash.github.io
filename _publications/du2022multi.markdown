@@ -7,8 +7,7 @@ conference: Proceedings of the Sixteenth ACM International Conference on Web Sea
 year: 2023
 bibkey: du2022multi
 citations: 11
-additional_links: [{name: Code, url: 'https://github.com/duyali2000/MQMC.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2212.11471'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2212.11471'}]
 tags: ["Datasets", "Evaluation", "Scalability"]
 short_authors: Du et al.
 ---

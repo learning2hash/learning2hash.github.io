@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2021
 bibkey: shrivastava2021clip
 citations: 1
-additional_links: [{name: Code, url: 'https://github.com/4m4n5/CLIP-Lite'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2112.07133'}]
+additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2112.07133'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Self-Supervised", "Supervised", "Text Retrieval"]
 short_authors: Shrivastava et al.
 ---

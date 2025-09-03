@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2020
 bibkey: le2020city
 citations: 4
-additional_links: [{name: Code, url: 'https://github.com/canhld94/Daejeon520'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2009.09255'}]
+additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2009.09255'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Duc Canh Le, Chan Hyun Youn
 ---

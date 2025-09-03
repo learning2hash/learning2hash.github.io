@@ -7,8 +7,7 @@ conference: Proceedings of the 47th International ACM SIGIR Conference on Resear
 year: 2024
 bibkey: long2024cfir
 citations: 3
-additional_links: [{name: Code, url: 'https://github.com/longkukuhi/CFIR.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2402.15276'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2402.15276'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Multimodal Retrieval", "Re-Ranking", "SIGIR", "Scalability", "Tools & Libraries"]
 short_authors: Long et al.
 ---

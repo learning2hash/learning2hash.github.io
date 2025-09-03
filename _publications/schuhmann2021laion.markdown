@@ -6,7 +6,7 @@ authors: Christoph Schuhmann, Richard Vencu, Romain Beaumont, Robert Kaczmarczyk
 conference: Arxiv
 year: 2021
 bibkey: schuhmann2021laion
-citations: 319
+citations: 323
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.02114'}]
 tags: ["Datasets", "Few Shot & Zero Shot", "Similarity Search"]
 short_authors: Schuhmann et al.

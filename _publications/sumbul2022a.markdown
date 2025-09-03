@@ -7,8 +7,7 @@ conference: IGARSS 2022 - 2022 IEEE International Geoscience and Remote Sensing 
 year: 2022
 bibkey: sumbul2022a
 citations: 1
-additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/RS-JCIF.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2201.06459'}]
+additional_links: [{name: Code, url: 'https://git'}, {name: Paper, url: 'https://arxiv.org/abs/2201.06459'}]
 tags: ["Hashing Methods", "Image Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Sumbul et al.
 ---

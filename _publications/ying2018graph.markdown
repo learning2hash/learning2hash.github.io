@@ -7,7 +7,7 @@ conference: Proceedings of the 24th ACM SIGKDD International Conference on Knowl
   Discovery &amp; Data Mining
 year: 2018
 bibkey: ying2018graph
-citations: 3197
+citations: 3208
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1806.01973'}]
 tags: ["Evaluation", "Graph Based ANN", "KDD", "Large Scale Search", "Neural Hashing", "Recommender Systems", "Robustness", "Scalability"]
 short_authors: Ying et al.

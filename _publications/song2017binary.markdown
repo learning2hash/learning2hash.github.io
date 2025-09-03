@@ -6,8 +6,7 @@ conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2018
 bibkey: song2017binary
 citations: 164
-additional_links: [{name: Code, url: 'https://github.com/htconquer/BGAN.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/1708.04150'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1708.04150'}]
 tags: ["AAAI", "Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness", "Tools & Libraries", "Unsupervised"]
 short_authors: Jingkuan Song
 ---

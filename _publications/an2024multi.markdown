@@ -6,8 +6,7 @@ conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: an2024multi
 citations: 3
-additional_links: [{name: Code, url: 'https://github.com/deepglint/unicom'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2407.17331'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2407.17331'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Scalability", "Self-Supervised", "Text Retrieval"]
 short_authors: An et al.
 ---

@@ -7,8 +7,7 @@ conference: 2021 IEEE Winter Conference on Applications of Computer Vision (WACV
 year: 2021
 bibkey: mafla2020stacmr
 citations: 25
-additional_links: [{name: Code, url: 'http://europe.naverlabs.com/stacmr'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2012.04329'}]
+additional_links: [{name: Code, url: 'http://europe'}, {name: Paper, url: 'https://arxiv.org/abs/2012.04329'}]
 tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Mafla et al.
 ---

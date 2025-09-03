@@ -7,8 +7,7 @@ conference: The 41st International ACM SIGIR Conference on Research &amp; Develo
 year: 2018
 bibkey: luo2018fast
 citations: 90
-additional_links: [{name: Code, url: 'https://lcbwlx.wixsite.com/fssh.'}, {name: Paper,
-    url: 'http://staff.ustc.edu.cn/~hexn/papers/sigir18-hashing.pdf'}]
+additional_links: [{name: Code, url: 'https://lcbwlx'}, {name: Paper, url: 'http://staff.ustc.edu.cn/~hexn/papers/sigir18-hashing.pdf'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "SIGIR", "Scalability", "Supervised"]
 short_authors: Luo et al.
 ---

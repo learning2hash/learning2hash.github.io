@@ -7,8 +7,7 @@ conference: Proceedings of the 2021 ACM SIGIR International Conference on Theory
 year: 2021
 bibkey: li2021more
 citations: 23
-additional_links: [{name: Code, url: 'https://github.com/thunlp/DANCE.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2107.07773'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2107.07773'}]
 tags: ["Evaluation", "SIGIR", "Self-Supervised", "Text Retrieval"]
 short_authors: Li et al.
 ---

@@ -7,8 +7,7 @@ conference: 2023 IEEE 39th International Conference on Data Engineering (ICDE)
 year: 2023
 bibkey: huang2023lightweight
 citations: 4
-additional_links: [{name: Code, url: 'https://github.com/HuangQiang/BC-Tree.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2302.10626'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2302.10626'}]
 tags: ["Hashing Methods", "Tree Based ANN"]
 short_authors: Qiang Huang, Anthony K. H. Tung
 ---

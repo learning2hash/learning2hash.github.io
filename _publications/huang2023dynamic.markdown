@@ -6,8 +6,7 @@ conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2024
 bibkey: huang2023dynamic
 citations: 4
-additional_links: [{name: Code, url: 'https://github.com/fuxianghuang1/DWC.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2312.06179'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2312.06179'}]
 tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Huang et al.
 ---

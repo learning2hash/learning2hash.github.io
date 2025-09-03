@@ -6,7 +6,7 @@ conference: 2022 Proceedings of the Symposium on Algorithm Engineering and Exper
   (ALENEX)
 year: 2022
 bibkey: dobson2021parallel
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.04182'}]
 tags: ["Efficiency", "Evaluation", "Tree Based ANN"]
 short_authors: Magdalen Dobson, Guy Blelloch

@@ -6,8 +6,7 @@ conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2019
 bibkey: teichmann2018detect
 citations: 118
-additional_links: [{name: Code, url: 'https://github.com/tensorflow/models/tree/master/research/delf.'},
-  {name: Paper, url: 'https://arxiv.org/abs/1812.01584'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1812.01584'}]
 tags: ["CVPR", "Datasets", "Image Retrieval"]
 short_authors: Teichmann et al.
 ---

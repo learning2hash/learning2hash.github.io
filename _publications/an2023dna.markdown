@@ -8,8 +8,7 @@ conference: Proceedings of the 2023 Conference on Empirical Methods in Natural L
 year: 2023
 bibkey: an2023dna
 citations: 2
-additional_links: [{name: Code, url: 'https://github.com/Lackel/DNA.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2310.10151'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2310.10151'}]
 tags: ["Datasets", "EMNLP", "Evaluation", "Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: An et al.
 ---

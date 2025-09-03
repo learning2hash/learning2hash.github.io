@@ -8,8 +8,7 @@ conference: Proceedings of the 33rd ACM International Conference on Information 
 year: 2024
 bibkey: busolin2024early
 citations: 2
-additional_links: [{name: Code, url: 'https://github.com/francescobusolin/faiss_pEE'},
-  {name: Paper, url: 'https://arxiv.org/abs/2408.04981'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2408.04981'}]
 tags: ["CIKM", "Efficiency", "Similarity Search", "Unsupervised"]
 short_authors: Busolin et al.
 ---

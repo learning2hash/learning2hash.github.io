@@ -8,8 +8,7 @@ conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2023
 bibkey: chowdhury2022scenetrilogy
 citations: 21
-additional_links: [{name: Other, url: 'http://www.pinakinathc.me/scenetrilogy'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2204.11964'}]
+additional_links: [{name: Other, url: 'http://www'}, {name: Paper, url: 'https://arxiv.org/abs/2204.11964'}]
 tags: ["CVPR"]
 short_authors: Chowdhury et al.
 ---

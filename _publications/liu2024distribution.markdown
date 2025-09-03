@@ -6,8 +6,7 @@ conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2025
 bibkey: liu2024distribution
 citations: 1
-additional_links: [{name: Code, url: 'https://github.com/LiuJinyu1229/DCGMH.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2412.11216'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2412.11216'}]
 tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Liu et al.
 ---

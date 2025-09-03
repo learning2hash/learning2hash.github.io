@@ -7,8 +7,7 @@ conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2019
 bibkey: yu2019learning
 citations: 121
-additional_links: [{name: Code, url: 'https://github.com/yulu0724/EmbeddingDistillation.'},
-  {name: Paper, url: 'https://arxiv.org/abs/1904.03624'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1904.03624'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Supervised"]
 short_authors: Yu et al.
 ---

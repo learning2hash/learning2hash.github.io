@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2023
 bibkey: lebailly2023cribo
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/tileb1/CrIBo.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2310.07855'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2310.07855'}]
 tags: ["Datasets", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Lebailly et al.
 ---

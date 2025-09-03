@@ -7,8 +7,7 @@ conference: 'Proceedings of the 62nd Annual Meeting of the Association for Compu
 year: 2024
 bibkey: geigle2023babel
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/gregor-ge/Babel-ImageNet'},
-  {name: Paper, url: 'https://arxiv.org/abs/2306.08658'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2306.08658'}]
 tags: ["Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
 short_authors: "Gregor Geigle, Radu Timofte, Goran Glava\u0161"
 ---

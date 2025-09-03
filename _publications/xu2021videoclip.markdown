@@ -7,9 +7,8 @@ conference: Proceedings of the 2021 Conference on Empirical Methods in Natural L
   Processing
 year: 2021
 bibkey: xu2021videoclip
-citations: 271
-additional_links: [{name: Code, url: 'https://github.com/pytorch/fairseq/tree/main/examples/MMPT.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2109.14084'}]
+citations: 275
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2109.14084'}]
 tags: ["EMNLP", "Evaluation", "Few Shot & Zero Shot", "Supervised", "Video Retrieval"]
 short_authors: Xu et al.
 ---

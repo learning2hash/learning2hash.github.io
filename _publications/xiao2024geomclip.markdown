@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2024
 bibkey: xiao2024geomclip
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/xiaocui3737/GeomCLIP'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2411.10821'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2411.10821'}]
 tags: ["Datasets", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Xiao et al.
 ---

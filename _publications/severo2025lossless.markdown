@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2025
 bibkey: severo2025lossless
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/facebookresearch/vector_db_id_compression.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2501.10479'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2501.10479'}]
 tags: ["Datasets", "Graph Based ANN", "Large Scale Search", "Memory Efficiency", "Quantization", "Scalability", "Vector Indexing"]
 short_authors: Severo et al.
 ---

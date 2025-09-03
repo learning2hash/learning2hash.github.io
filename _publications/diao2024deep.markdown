@@ -6,8 +6,7 @@ conference: IEEE Transactions on Image Processing
 year: 2024
 bibkey: diao2024deep
 citations: 1
-additional_links: [{name: Code, url: 'https://github.com/Paranioar/DBL.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2404.18114'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2404.18114'}]
 tags: ["Distance Metric Learning", "Evaluation", "Self-Supervised"]
 short_authors: Diao et al.
 ---

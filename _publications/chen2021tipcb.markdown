@@ -8,8 +8,7 @@ conference: Neurocomputing
 year: 2022
 bibkey: chen2021tipcb
 citations: 117
-additional_links: [{name: Code, url: 'https://github.com/OrangeYHChen/TIPCB.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2105.11628'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2105.11628'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Chen et al.
 ---

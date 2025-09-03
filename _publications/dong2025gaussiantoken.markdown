@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2025
 bibkey: dong2025gaussiantoken
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/ChrisDong-THU/GaussianToken.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2501.15619'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2501.15619'}]
 tags: ["Quantization", "Tools & Libraries"]
 short_authors: Dong et al.
 ---

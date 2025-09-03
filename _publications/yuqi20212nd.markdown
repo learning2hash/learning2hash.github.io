@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2021
 bibkey: yuqi20212nd
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/WesleyZhang1991/Google_Landmark_Retrieval_2021_2nd_Place_Solution'},
-  {name: Paper, url: 'https://arxiv.org/abs/2110.04294'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2110.04294'}]
 tags: ["Evaluation"]
 short_authors: Yuqi et al.
 ---

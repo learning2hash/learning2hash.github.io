@@ -8,8 +8,7 @@ conference: IEEE Transactions on Knowledge and Data Engineering
 year: 2023
 bibkey: liu2022wl
 citations: 9
-additional_links: [{name: Code, url: 'https://github.com/ChenPengGang/WLAlignCode.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2212.14182'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2212.14182'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Liu et al.
 ---

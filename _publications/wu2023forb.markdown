@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2023
 bibkey: wu2023forb
 citations: 1
-additional_links: [{name: Code, url: 'https://github.com/pxiangwu/FORB/.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2309.16249'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2309.16249'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Wu et al.
 ---

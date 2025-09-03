@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2021
 bibkey: gao2021backdoor
 citations: 3
-additional_links: [{name: Code, url: 'https://github.com/KuofengGao/CIBA.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2109.08868'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2109.08868'}]
 tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness"]
 short_authors: Gao et al.
 ---

@@ -7,8 +7,7 @@ conference: Knowledge-Based Systems
 year: 2025
 bibkey: chen2025ambiguity
 citations: 1
-additional_links: [{name: Code, url: 'https://github.com/Image-Text-Matching/AAHR'},
-  {name: Paper, url: 'https://arxiv.org/abs/2507.09256'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2507.09256'}]
 tags: ["Datasets", "Efficiency", "Self-Supervised", "Tools & Libraries"]
 short_authors: Chen et al.
 ---

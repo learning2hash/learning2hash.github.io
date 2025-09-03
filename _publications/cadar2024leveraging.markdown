@@ -8,8 +8,7 @@ conference: Arxiv
 year: 2024
 bibkey: cadar2024leveraging
 citations: 0
-additional_links: [{name: Code, url: 'https://www.verlab.dcc.ufmg.br/descriptors/reasoning_accv24'},
-  {name: Paper, url: 'https://arxiv.org/abs/2410.09533'}]
+additional_links: [{name: Code, url: 'https://www'}, {name: Paper, url: 'https://arxiv.org/abs/2410.09533'}]
 tags: ["Evaluation", "Similarity Search"]
 short_authors: Cadar et al.
 ---

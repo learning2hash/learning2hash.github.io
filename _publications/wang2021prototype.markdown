@@ -6,8 +6,7 @@ conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2021
 bibkey: wang2021prototype
 citations: 44
-additional_links: [{name: Code, url: 'https://github.com/xunguangwang/ProS-GAN'},
-  {name: Paper, url: 'https://arxiv.org/abs/2105.07553'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2105.07553'}]
 tags: ["CVPR", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Robustness", "Scalability", "Supervised", "Tools & Libraries"]
 short_authors: Wang et al.
 ---

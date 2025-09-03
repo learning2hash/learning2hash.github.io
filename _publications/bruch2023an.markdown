@@ -6,7 +6,7 @@ authors: Sebastian Bruch, Franco Maria Nardini, Amir Ingber, Edo Liberty
 conference: ACM Transactions on Information Systems
 year: 2023
 bibkey: bruch2023an
-citations: 6
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.10622'}]
 tags: ["Datasets", "Evaluation", "Memory Efficiency"]
 short_authors: Bruch et al.

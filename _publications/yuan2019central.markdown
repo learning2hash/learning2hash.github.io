@@ -7,8 +7,7 @@ conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2020
 bibkey: yuan2019central
 citations: 300
-additional_links: [{name: Code, url: 'https://github.com/yuanli2333/Hadamard-Matrix-for-hashing'},
-  {name: Paper, url: 'https://arxiv.org/abs/1908.00347'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1908.00347'}]
 tags: ["CVPR", "Distance Metric Learning", "Efficiency", "Evaluation", "Hashing Methods", "Quantization", "Scalability", "Video Retrieval"]
 short_authors: Yuan et al.
 ---

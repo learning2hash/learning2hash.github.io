@@ -8,8 +8,7 @@ conference: Arxiv
 year: 2024
 bibkey: mehta2024catlip
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/apple/corenet.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2404.15653'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2404.15653'}]
 tags: ["Distance Metric Learning", "Large Scale Search", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Mehta et al.
 ---

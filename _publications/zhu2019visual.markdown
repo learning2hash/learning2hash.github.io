@@ -6,8 +6,7 @@ conference: IEEE Transactions on Image Processing
 year: 2021
 bibkey: zhu2019visual
 citations: 25
-additional_links: [{name: Code, url: 'https://github.com/Jeff-Zilence/Explain_Metric_Learning.'},
-  {name: Paper, url: 'https://arxiv.org/abs/1909.12977'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1909.12977'}]
 tags: ["Distance Metric Learning", "Evaluation", "Tools & Libraries"]
 short_authors: Sijie Zhu, Taojiannan Yang, Chen Chen
 ---

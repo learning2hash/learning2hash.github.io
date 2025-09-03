@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2024
 bibkey: zhu2024fast
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/RichardZhu123/ferns\'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2405.04435'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2405.04435'}]
 tags: ["Evaluation", "Tree Based ANN"]
 short_authors: Richard Zhu
 ---

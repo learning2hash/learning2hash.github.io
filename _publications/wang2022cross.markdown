@@ -7,8 +7,7 @@ conference: Proceedings of the 30th ACM International Conference on Multimedia
 year: 2022
 bibkey: wang2022cross
 citations: 20
-additional_links: [{name: Code, url: 'https://github.com/HuiGuanLab/nrccr.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2208.12526'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2208.12526'}]
 tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Robustness", "Tools & Libraries", "Unsupervised"]
 short_authors: Wang et al.
 ---

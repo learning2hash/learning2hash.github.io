@@ -7,8 +7,7 @@ conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: singha2024elevating
 citations: 2
-additional_links: [{name: Code, url: 'https://mainaksingha01.github.io/SpLIP/'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2407.04207'}]
+additional_links: [{name: Code, url: 'https://mainaksingha01'}, {name: Paper, url: 'https://arxiv.org/abs/2407.04207'}]
 tags: ["Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Singha et al.
 ---

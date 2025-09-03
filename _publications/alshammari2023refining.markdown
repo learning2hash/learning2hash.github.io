@@ -6,7 +6,7 @@ authors: Mashaan Alshammari, John Stavrakakis, Masahiro Takatsuka
 conference: Pattern Recognition
 year: 2021
 bibkey: alshammari2023refining
-citations: 40
+citations: 41
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2302.11296'}]
 tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Quantization"]
 short_authors: Mashaan Alshammari, John Stavrakakis, Masahiro Takatsuka

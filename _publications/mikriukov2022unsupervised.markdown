@@ -7,8 +7,7 @@ conference: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speec
 year: 2022
 bibkey: mikriukov2022unsupervised
 citations: 55
-additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/duch.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2204.08707'}]
+additional_links: [{name: Code, url: 'https://git'}, {name: Paper, url: 'https://arxiv.org/abs/2204.08707'}]
 tags: ["Hashing Methods", "ICASSP", "Image Retrieval", "Multimodal Retrieval", "Robustness", "Scalability", "Similarity Search", "Unsupervised"]
 short_authors: "Georgii Mikriukov, Mahdyar Ravanbakhsh, Beg\xFCm Demir"
 ---

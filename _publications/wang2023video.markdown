@@ -6,8 +6,7 @@ conference: 'Findings of the Association for Computational Linguistics: EMNLP 20
 year: 2023
 bibkey: wang2023video
 citations: 4
-additional_links: [{name: Code, url: 'https://github.com/yimuwangcs/Better_Cross_Modal_Retrieval.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2302.09473'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2302.09473'}]
 tags: ["EMNLP", "Supervised", "Text Retrieval", "Tools & Libraries"]
 short_authors: Yimu Wang, Peng Shi
 ---

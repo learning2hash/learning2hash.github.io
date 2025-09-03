@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2017
 bibkey: quedenfeld2017variant
 citations: 4
-additional_links: [{name: Code, url: 'https://bitbucket.org/Quedenfeld/vatram-src/.'},
-  {name: Paper, url: 'https://arxiv.org/abs/1702.01703'}]
+additional_links: [{name: Code, url: 'https://bitbucket'}, {name: Paper, url: 'https://arxiv.org/abs/1702.01703'}]
 tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Jens Quedenfeld, Sven Rahmann
 ---

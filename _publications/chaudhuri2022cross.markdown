@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2022
 bibkey: chaudhuri2022cross
 citations: 2
-additional_links: [{name: Code, url: 'https://github.com/abhrac/xmodal-vit.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2210.10486'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.10486'}]
 tags: ["Image Retrieval", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Chaudhuri et al.
 ---

@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2021
 bibkey: seidenschwarz2021learning
 citations: 23
-additional_links: [{name: Code, url: 'https://github.com/dvl-tum/intra_batch_connections.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2102.07753'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2102.07753'}]
 tags: ["Datasets", "Distance Metric Learning", "Image Retrieval"]
 short_authors: "Jenny Seidenschwarz, Ismail Elezi, Laura Leal-Taix\xE9"
 ---

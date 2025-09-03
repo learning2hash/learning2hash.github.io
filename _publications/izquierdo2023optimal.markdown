@@ -6,8 +6,7 @@ conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2024
 bibkey: izquierdo2023optimal
 citations: 27
-additional_links: [{name: Code, url: 'https://github.com/serizba/salad.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2311.15937'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2311.15937'}]
 tags: ["CVPR", "Datasets", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Sergio Izquierdo, Javier Civera
 ---

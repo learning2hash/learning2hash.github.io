@@ -5,7 +5,7 @@ authors: A. Andoni, Indyk
 conference: Communications of the ACM
 year: 2008
 bibkey: andoni2008near
-citations: 1422
+citations: 1423
 additional_links: [{name: Paper, url: 'http://ieeexplore.ieee.org/document/4031381/'}]
 tags: ["Efficiency", "Hashing Methods"]
 short_authors: A. Andoni, Indyk

@@ -7,8 +7,7 @@ conference: Proceedings of the 2023 Conference on Empirical Methods in Natural L
 year: 2023
 bibkey: zhang2022hybrid
 citations: 3
-additional_links: [{name: Code, url: 'https://github.com/namespace-Pt/Adon/tree/HI2.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2210.05521'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.05521'}]
 tags: ["EMNLP", "Efficiency", "Unsupervised", "Vector Indexing"]
 short_authors: Zhang et al.
 ---

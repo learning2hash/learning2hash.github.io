@@ -8,8 +8,7 @@ conference: Arxiv
 year: 2021
 bibkey: li2021supervision
 citations: 95
-additional_links: [{name: Code, url: 'https://github.com/Sense-GVT/DeCLIP'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2110.05208'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2110.05208'}]
 tags: ["Datasets", "Few Shot & Zero Shot", "Scalability", "Tools & Libraries"]
 short_authors: Li et al.
 ---

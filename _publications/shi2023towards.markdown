@@ -6,8 +6,7 @@ conference: Advances in Artificial Intelligence and Machine Learning
 year: 2024
 bibkey: shi2023towards
 citations: 0
-additional_links: [{name: Paper, url: 'https://dx.doi.org/10.54364/AAIML.2024.41111'},
-  {name: Paper, url: 'https://arxiv.org/abs/2312.07419'}]
+additional_links: [{name: Other, url: 'https://dx'}, {name: Paper, url: 'https://arxiv.org/abs/2312.07419'}]
 tags: ["Uncategorized"]
 short_authors: Shi et al.
 ---

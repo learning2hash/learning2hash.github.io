@@ -6,8 +6,7 @@ conference: Lecture Notes in Computer Science
 year: 2025
 bibkey: florek2024efficient
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/morrisfl/UniFEx.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2409.13513'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2409.13513'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Florek et al.
 ---

@@ -6,7 +6,7 @@ authors: Dan Ruta, Saeid Motiian, Baldo Faieta, Zhe Lin, Hailin Jin, Alex Filipk
 conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: ruta2021aladin
-citations: 28
+citations: 29
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.09776'}]
 tags: ["Datasets", "ICCV", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Ruta et al.

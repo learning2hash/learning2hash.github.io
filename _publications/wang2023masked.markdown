@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2023
 bibkey: wang2023masked
 citations: 3
-additional_links: [{name: Code, url: 'https://github.com/masked-spacetime-hashing/msth'},
-  {name: Paper, url: 'https://arxiv.org/abs/2310.17527'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2310.17527'}]
 tags: ["Hashing Methods"]
 short_authors: Wang et al.
 ---

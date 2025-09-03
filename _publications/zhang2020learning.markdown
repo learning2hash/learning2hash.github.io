@@ -7,8 +7,7 @@ conference: Proceedings of the 2020 Conference on Empirical Methods in Natural L
 year: 2020
 bibkey: zhang2020learning
 citations: 23
-additional_links: [{name: Code, url: 'https://sha-lab.github.io/DG.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2010.02949'}]
+additional_links: [{name: Code, url: 'https://sha-lab'}, {name: Paper, url: 'https://arxiv.org/abs/2010.02949'}]
 tags: ["Datasets", "EMNLP", "Image Retrieval"]
 short_authors: Zhang et al.
 ---

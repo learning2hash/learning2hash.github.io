@@ -7,8 +7,7 @@ conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2023
 bibkey: zhu2023coarse
 citations: 6
-additional_links: [{name: Code, url: 'https://github.com/bassyess/CFCD.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2308.04008'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2308.04008'}]
 tags: ["Efficiency", "Evaluation", "ICCV", "Image Retrieval", "Re-Ranking", "Tools & Libraries"]
 short_authors: Zhu et al.
 ---

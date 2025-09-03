@@ -5,9 +5,8 @@ authors: Ziyang Wang, Yi-Lin Sung, Feng Cheng, Gedas Bertasius, Mohit Bansal
 conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2023
 bibkey: wang2023unified
-citations: 23
-additional_links: [{name: Code, url: 'https://github.com/Ziyang412/UCoFiA.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2309.10091'}]
+citations: 24
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2309.10091'}]
 tags: ["ICCV", "Text Retrieval", "Video Retrieval"]
 short_authors: Wang et al.
 ---

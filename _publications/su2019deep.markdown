@@ -7,8 +7,7 @@ conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: su2019deep
 citations: 261
-additional_links: [{name: Code, url: 'https://github.com/zzs1994/DJSRH/blob/master/page_image/DJRSH.png?raw=true'},
-  {name: Paper, url: 'http://openaccess.thecvf.com/content_ICCV_2019/papers/Su_Deep_Joint-Semantics_Reconstructing_Hashing_for_Large-Scale_Unsupervised_Cross-Modal_Retrieval_ICCV_2019_paper.pdf'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'http://openaccess.thecvf.com/content_ICCV_2019/papers/Su_Deep_Joint-Semantics_Reconstructing_Hashing_for_Large-Scale_Unsupervised_Cross-Modal_Retrieval_ICCV_2019_paper.pdf'}]
 tags: ["Compact Codes", "Evaluation", "Hashing Methods", "ICCV", "Multimodal Retrieval", "Scalability", "Tools & Libraries", "Unsupervised"]
 short_authors: Shupeng Su, Zhong, Zhang
 ---

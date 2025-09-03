@@ -7,8 +7,7 @@ conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2020
 bibkey: weyand2020google
 citations: 236
-additional_links: [{name: Code, url: 'https://github.com/cvdfoundation/google-landmark.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2004.01804'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2004.01804'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval", "Scalability"]
 short_authors: Weyand et al.
 ---

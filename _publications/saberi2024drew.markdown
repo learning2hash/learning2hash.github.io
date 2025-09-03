@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2024
 bibkey: saberi2024drew
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/mehrdadsaberi/DREW'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2406.02836'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2406.02836'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Similarity Search"]
 short_authors: Saberi et al.
 ---

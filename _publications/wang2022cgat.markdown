@@ -6,8 +6,7 @@ conference: Proceedings of the ACM Web Conference 2023
 year: 2023
 bibkey: wang2022cgat
 citations: 4
-additional_links: [{name: Code, url: 'https://github.com/xunguangwang/CgAT.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2204.10779'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2204.10779'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness"]
 short_authors: Xunguang Wang, Yiqun Lin, Xiaomeng Li
 ---

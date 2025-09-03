@@ -8,8 +8,7 @@ conference: Arxiv
 year: 2022
 bibkey: elKishky2022knn
 citations: 1
-additional_links: [{name: Code, url: 'https://huggingface.co/datasets/Twitter/TwitterFollowGraph'},
-  {name: Paper, url: 'https://arxiv.org/abs/2205.06205'}]
+additional_links: [{name: Other, url: 'https://huggingface'}, {name: Paper, url: 'https://arxiv.org/abs/2205.06205'}]
 tags: ["Datasets", "Evaluation", "Recommender Systems"]
 short_authors: El-Kishky et al.
 ---

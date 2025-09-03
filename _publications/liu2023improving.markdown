@@ -6,8 +6,8 @@ conference: Pattern Recognition
 year: 2024
 bibkey: liu2023improving
 citations: 1
-additional_links: [{name: Code, url: 'https://github.com/AkonLau/LTC\'}, {name: Code,
-    url: 'https://github.com/AkonLau/LTC\'}, {name: Paper, url: 'https://arxiv.org/abs/2305.18680'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Code, url: 'https://github'},
+  {name: Paper, url: 'https://arxiv.org/abs/2305.18680'}]
 tags: ["CVPR", "Distance Metric Learning"]
 short_authors: Liu et al.
 ---

@@ -7,8 +7,7 @@ conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: park2023clustering
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/noparkee/Graph-Clustering-based-DG'},
-  {name: Paper, url: 'https://arxiv.org/abs/2310.02692'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2310.02692'}]
 tags: ["Datasets", "Evaluation", "Graph Based ANN", "Scalability"]
 short_authors: Park et al.
 ---

@@ -6,8 +6,7 @@ conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2023
 bibkey: chaudhuri2023data
 citations: 15
-additional_links: [{name: Code, url: 'https://github.com/abhrac/data-free-sbir.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2303.07775'}]
+additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2303.07775'}]
 tags: ["CVPR", "Datasets", "Image Retrieval", "Neural Hashing"]
 short_authors: Chaudhuri et al.
 ---

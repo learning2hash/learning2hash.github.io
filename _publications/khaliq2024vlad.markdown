@@ -6,8 +6,7 @@ conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: khaliq2024vlad
 citations: 2
-additional_links: [{name: Code, url: 'https://github.com/Ahmedest61/VLAD-BuFF/.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2409.19293'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2409.19293'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Khaliq et al.
 ---

@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2022
 bibkey: li2022learning
 citations: 3
-additional_links: [{name: Code, url: 'https://github.com/jordane95/dual-cross-encoder'},
-  {name: Paper, url: 'https://arxiv.org/abs/2208.04232'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2208.04232'}]
 tags: ["Efficiency"]
 short_authors: Li et al.
 ---

@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2024
 bibkey: zheng2024towards
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/xzheng01/Asymmetric-Data-Shapley.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2411.00388'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2411.00388'}]
 tags: ["Datasets", "Supervised", "Tools & Libraries"]
 short_authors: Zheng et al.
 ---

@@ -7,8 +7,7 @@ conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2021
 bibkey: yu2021deep
 citations: 138
-additional_links: [{name: Code, url: 'https://github.com/Atmegal/DGCPN.'}, {name: Paper,
-    url: 'https://ojs.aaai.org/index.php/AAAI/article/view/16592/16399'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://ojs.aaai.org/index.php/AAAI/article/view/16592/16399'}]
 tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods", "Quantization", "Unsupervised"]
 short_authors: Yu et al.
 ---

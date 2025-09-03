@@ -6,8 +6,7 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2022
 bibkey: zhang2022attributable
 citations: 12
-additional_links: [{name: Code, url: 'https://github.com/zbr17/AVSL.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2203.14932'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2203.14932'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---

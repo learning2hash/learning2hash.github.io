@@ -6,8 +6,7 @@ conference: International Journal of Computer Vision
 year: 2023
 bibkey: choudhury2021the
 citations: 7
-additional_links: [{name: Code, url: 'https://github.com/subhc/clever'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2111.03651'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2111.03651'}]
 tags: ["Datasets", "Multimodal Retrieval"]
 short_authors: Choudhury et al.
 ---

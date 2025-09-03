@@ -5,7 +5,7 @@ authors: Michael Wray, Diane Larlus, Gabriela Csurka, Dima Damen
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: wray2019fine
-citations: 131
+citations: 132
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.03477'}]
 tags: ["Datasets", "Few Shot & Zero Shot", "ICCV", "Multimodal Retrieval", "Scalability", "Video Retrieval"]
 short_authors: Wray et al.

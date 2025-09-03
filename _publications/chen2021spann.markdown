@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2021
 bibkey: chen2021spann
 citations: 4
-additional_links: [{name: Code, url: 'https://github.com/microsoft/SPTAG\'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2111.08566'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2111.08566'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hybrid ANN Methods", "Large Scale Search", "Scalability"]
 short_authors: Chen et al.
 ---

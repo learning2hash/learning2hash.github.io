@@ -6,8 +6,7 @@ conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2022
 bibkey: deng2021insclr
 citations: 11
-additional_links: [{name: Code, url: 'https://github.com/zeludeng/insclr.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2112.01390'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2112.01390'}]
 tags: ["AAAI", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Deng et al.
 ---

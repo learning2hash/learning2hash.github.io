@@ -6,8 +6,7 @@ conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2024
 bibkey: aliBey2024boq
 citations: 1
-additional_links: [{name: Code, url: 'https://github.com/amaralibey/Bag-of-Queries.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2405.07364'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2405.07364'}]
 tags: ["CVPR", "Evaluation", "Scalability"]
 short_authors: "Amar Ali-Bey, Brahim Chaib-Draa, Philippe Gigu\xE8re"
 ---

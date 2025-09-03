@@ -8,8 +8,7 @@ conference: Arxiv
 year: 2021
 bibkey: chen2021augnet
 citations: 5
-additional_links: [{name: Code, url: 'https://github.com/chenmingxiang110/AugNet.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2106.06250'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2106.06250'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Neural Hashing", "Supervised", "Unsupervised"]
 short_authors: Chen et al.
 ---

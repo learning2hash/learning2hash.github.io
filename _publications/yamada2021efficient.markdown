@@ -8,8 +8,7 @@ conference: 'Proceedings of the 59th Annual Meeting of the Association for Compu
 year: 2021
 bibkey: yamada2021efficient
 citations: 46
-additional_links: [{name: Code, url: 'https://github.com/studio-ousia/bpr.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2106.00882'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2106.00882'}]
 tags: ["Compact Codes", "Hashing Methods"]
 short_authors: Ikuya Yamada, Akari Asai, Hannaneh Hajishirzi
 ---

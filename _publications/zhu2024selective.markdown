@@ -6,8 +6,7 @@ conference: Proceedings of the 32nd ACM International Conference on Multimedia
 year: 2024
 bibkey: zhu2024selective
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/zhuhsingyuu/SSP'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2407.16977'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2407.16977'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Zhu et al.
 ---

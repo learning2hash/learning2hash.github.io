@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2023
 bibkey: diFrancesco2023gatsy
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/difra100/GATSY-Music_Artist_Similarity.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2311.00635'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2311.00635'}]
 tags: ["Datasets", "Evaluation", "Recommender Systems", "Tools & Libraries"]
 short_authors: Francesco et al.
 ---

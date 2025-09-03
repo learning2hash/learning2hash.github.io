@@ -5,9 +5,8 @@ authors: Kuang-Huei Lee, Xi Chen, Gang Hua, Houdong Hu, Xiaodong He
 conference: Lecture Notes in Computer Science
 year: 2018
 bibkey: lee2018stacked
-citations: 1161
-additional_links: [{name: Code, url: 'https://github.com/kuanghuei/SCAN.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/1803.08024'}]
+citations: 1163
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1803.08024'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Lee et al.
 ---

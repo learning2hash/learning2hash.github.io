@@ -6,8 +6,7 @@ conference: Information Systems
 year: 2019
 bibkey: "aum\xFCller2018ann"
 citations: 199
-additional_links: [{name: Other, url: 'http://ann-benchmarks.com'}, {name: Paper,
-    url: 'https://arxiv.org/abs/1807.05614'}]
+additional_links: [{name: Other, url: 'http://ann-benchmarks'}, {name: Paper, url: 'https://arxiv.org/abs/1807.05614'}]
 tags: ["Evaluation", "Similarity Search", "Survey Paper"]
 short_authors: "Martin Aum\xFCller, Erik Bernhardsson, Alexander Faithfull"
 ---

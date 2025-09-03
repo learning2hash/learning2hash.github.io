@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2024
 bibkey: fervers2024statewide
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/fferflo/statewide-visual-geolocalization.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2409.16763'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2409.16763'}]
 tags: ["Evaluation"]
 short_authors: Fervers et al.
 ---

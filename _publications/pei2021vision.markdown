@@ -7,8 +7,7 @@ conference: Security and Communication Networks
 year: 2023
 bibkey: pei2021vision
 citations: 4
-additional_links: [{name: Code, url: 'https://github.com/lajlksdf/vtl.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2112.08117'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2112.08117'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods"]
 short_authors: Pei et al.
 ---

@@ -7,8 +7,7 @@ conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2021
 bibkey: chun2021probabilistic
 citations: 172
-additional_links: [{name: Code, url: 'https://github.com/naver-ai/pcme'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2101.05068'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2101.05068'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Multimodal Retrieval"]
 short_authors: Chun et al.
 ---

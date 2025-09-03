@@ -6,8 +6,7 @@ conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2023
 bibkey: leyvaVallina2023data
 citations: 25
-additional_links: [{name: Code, url: 'https://github.com/marialeyvallina/generalized_contrastive_loss'},
-  {name: Paper, url: 'https://arxiv.org/abs/2303.11739'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2303.11739'}]
 tags: ["CVPR", "Datasets", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Maria Leyva-Vallina, Nicola Strisciuglio, Nicolai Petkov
 ---

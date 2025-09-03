@@ -5,7 +5,7 @@ authors: Dmitry Baranchuk, Artem Babenko, Yury Malkov
 conference: Lecture Notes in Computer Science
 year: 2018
 bibkey: baranchuk2018revisiting
-citations: 67
+citations: 69
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.02422'}]
 tags: ["Datasets", "Evaluation", "Large Scale Search", "Scalability", "Tools & Libraries", "Vector Indexing"]
 short_authors: Dmitry Baranchuk, Artem Babenko, Yury Malkov

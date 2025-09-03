@@ -6,8 +6,7 @@ conference: IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing 
 year: 2023
 bibkey: henkel2023annotation
 citations: 1
-additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/ANNEAL.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2306.11605'}]
+additional_links: [{name: Code, url: 'https://git'}, {name: Paper, url: 'https://arxiv.org/abs/2306.11605'}]
 tags: ["Distance Metric Learning", "Image Retrieval"]
 short_authors: Henkel et al.
 ---

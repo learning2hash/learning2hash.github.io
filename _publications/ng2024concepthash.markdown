@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2024
 bibkey: ng2024concepthash
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/kamwoh/concepthash.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2406.08457'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2406.08457'}]
 tags: ["Hashing Methods", "Image Retrieval"]
 short_authors: Ng et al.
 ---

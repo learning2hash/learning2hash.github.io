@@ -8,8 +8,7 @@ conference: Proceedings of the 48th International ACM SIGIR Conference on Resear
 year: 2025
 bibkey: hu2025alphafuse
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/Hugo-Chinn/AlphaFuse.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2504.19218'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2504.19218'}]
 tags: ["Datasets", "Evaluation", "Recommender Systems", "SIGIR", "Tools & Libraries"]
 short_authors: Hu et al.
 ---

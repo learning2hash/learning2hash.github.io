@@ -5,9 +5,8 @@ authors: Joshua J. Engelsma, Anil K. Jain, Vishnu Naresh Boddeti
 conference: IEEE Transactions on Biometrics, Behavior, and Identity Science
 year: 2022
 bibkey: engelsma2020hers
-citations: 36
-additional_links: [{name: Code, url: 'https://github.com/human-analysis/hers-encrypted-image-search'},
-  {name: Paper, url: 'https://arxiv.org/abs/2003.12197'}]
+citations: 37
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2003.12197'}]
 tags: ["Compact Codes", "Datasets", "Image Retrieval", "Privacy & Security"]
 short_authors: Joshua J. Engelsma, Anil K. Jain, Vishnu Naresh Boddeti
 ---

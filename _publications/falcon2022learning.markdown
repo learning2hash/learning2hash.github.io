@@ -6,8 +6,7 @@ conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: falcon2022learning
 citations: 2
-additional_links: [{name: Code, url: 'https://github.com/aranciokov/ranp.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2203.08688'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2203.08688'}]
 tags: ["Datasets", "Evaluation", "Video Retrieval"]
 short_authors: Alex Falcon, Giuseppe Serra, Oswald Lanz
 ---

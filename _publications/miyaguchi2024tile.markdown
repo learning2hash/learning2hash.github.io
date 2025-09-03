@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2024
 bibkey: miyaguchi2024tile
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/dsgt-kaggle-clef/geolifeclef-2024.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2407.06326'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2407.06326'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Self-Supervised", "Supervised"]
 short_authors: Anthony Miyaguchi, Patcharapong Aphiwetsa, Mark McDuffie
 ---

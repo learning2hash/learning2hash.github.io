@@ -6,8 +6,7 @@ conference: Lecture Notes in Computer Science
 year: 2023
 bibkey: wang2022reasoning
 citations: 14
-additional_links: [{name: Code, url: 'https://github.com/zjunlp/KNN-KG.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2201.05575'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2201.05575'}]
 tags: ["Evaluation"]
 short_authors: Wang et al.
 ---

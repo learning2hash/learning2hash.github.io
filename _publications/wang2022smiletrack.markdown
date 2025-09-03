@@ -7,8 +7,7 @@ conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2024
 bibkey: wang2022smiletrack
 citations: 29
-additional_links: [{name: Code, url: 'https://github.com/pingyang1117/SMILEtrack_Official'},
-  {name: Paper, url: 'https://arxiv.org/abs/2211.08824'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2211.08824'}]
 tags: ["AAAI", "Datasets", "Evaluation"]
 short_authors: Wang et al.
 ---

@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2018
 bibkey: jeong2018efficient
 citations: 9
-additional_links: [{name: Code, url: 'https://github.com/maestrojeong/Deep-Hash-Table-ICML18'},
-  {name: Paper, url: 'https://arxiv.org/abs/1805.05809'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1805.05809'}]
 tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Hashing Methods"]
 short_authors: Yeonwoo Jeong, Hyun Oh Song
 ---

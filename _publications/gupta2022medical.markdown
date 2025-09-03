@@ -6,8 +6,7 @@ conference: Knowledge-Based Systems
 year: 2023
 bibkey: gupta2022medical
 citations: 7
-additional_links: [{name: Code, url: 'https://github.com/deepaknlp/DLS.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2210.02401'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.02401'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Gupta et al.
 ---

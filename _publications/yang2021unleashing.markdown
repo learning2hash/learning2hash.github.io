@@ -7,8 +7,7 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2022
 bibkey: yang2021unleashing
 citations: 25
-additional_links: [{name: Code, url: 'https://github.com/Frost-Yang-99/UP-ReID.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2112.00317'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2112.00317'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Robustness", "Self-Supervised", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Yang et al.
 ---

@@ -7,7 +7,7 @@ conference: Arxiv
 year: 2022
 bibkey: grosz2022minutiae
 citations: 9
-additional_links: [{name: Code, url: 'https://github.com/tba.'}, {name: Paper, url: 'https://arxiv.org/abs/2210.13994'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.13994'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Grosz et al.
 ---

@@ -7,8 +7,7 @@ conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2025
 bibkey: xiao2024flair
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/ExplainableML/flair'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2412.03561'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2412.03561'}]
 tags: ["CVPR", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval"]
 short_authors: Xiao et al.
 ---

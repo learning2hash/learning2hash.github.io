@@ -5,7 +5,7 @@ authors: Urvashi Khandelwal, Omer Levy, Dan Jurafsky, Luke Zettlemoyer, Mike Lew
 conference: Arxiv
 year: 2019
 bibkey: khandelwal2019generalization
-citations: 214
+citations: 215
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.00172'}]
 tags: ["Uncategorized"]
 short_authors: Khandelwal et al.

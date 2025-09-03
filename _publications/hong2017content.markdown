@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2017
 bibkey: hong2017content
 citations: 10
-additional_links: [{name: Code, url: 'https://github.com/csehong/VM-NET'}, {name: Paper,
-    url: 'https://arxiv.org/abs/1704.06761'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1704.06761'}]
 tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Scalability"]
 short_authors: Sungeun Hong, Woobin Im, Hyun S. Yang
 ---

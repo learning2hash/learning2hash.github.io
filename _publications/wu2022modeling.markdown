@@ -8,8 +8,7 @@ conference: Proceedings of the Sixteenth ACM International Conference on Web Sea
 year: 2023
 bibkey: wu2022modeling
 citations: 9
-additional_links: [{name: Code, url: 'https://github.com/wutaiqiang/GER-WSDM2023.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2211.10991'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2211.10991'}]
 tags: ["Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Wu et al.
 ---

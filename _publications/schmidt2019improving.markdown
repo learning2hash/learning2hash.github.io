@@ -5,7 +5,7 @@ authors: Craig W. Schmidt
 conference: Arxiv
 year: 2019
 bibkey: schmidt2019improving
-citations: 11
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.09875'}]
 tags: ["Evaluation"]
 short_authors: Craig W. Schmidt

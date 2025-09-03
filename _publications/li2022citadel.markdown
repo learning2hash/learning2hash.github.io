@@ -9,8 +9,7 @@ conference: 'Proceedings of the 61st Annual Meeting of the Association for Compu
 year: 2023
 bibkey: li2022citadel
 citations: 6
-additional_links: [{name: Code, url: 'https://github.com/facebookresearch/dpr-scale.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2211.10411'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2211.10411'}]
 tags: ["Evaluation"]
 short_authors: Li et al.
 ---

@@ -6,8 +6,7 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2022
 bibkey: bogolin2021cross
 citations: 60
-additional_links: [{name: Code, url: 'https://vladbogo.github.io/QB-Norm/.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2112.12777'}]
+additional_links: [{name: Code, url: 'https://vladbogo'}, {name: Paper, url: 'https://arxiv.org/abs/2112.12777'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Multimodal Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Bogolin et al.
 ---

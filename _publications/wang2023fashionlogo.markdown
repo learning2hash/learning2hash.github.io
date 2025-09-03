@@ -2,9 +2,8 @@
 layout: publication
 title: 'Fashionlogo: Prompting Multimodal Large Language Models For Fashion Logo Embeddings'
 authors: Zhen Wang, da Li, Yulin Su, Min Yang, Minghui Qiu, Walton Wang
-conference: Proceedings of the 33rd ACM International Conference on Information and
-  Knowledge Management
-year: 2024
+conference: Arxiv
+year: 2023
 bibkey: wang2023fashionlogo
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2308.09012'}]

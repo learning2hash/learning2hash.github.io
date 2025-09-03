@@ -7,8 +7,7 @@ conference: Proceedings of the Twenty-Eighth International Joint Conference on A
 year: 2019
 bibkey: song2019deep
 citations: 17
-additional_links: [{name: Code, url: 'https://github.com/cfm-uestc/DRQ.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/1906.06699'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1906.06699'}]
 tags: ["AAAI", "Compact Codes", "Datasets", "Evaluation", "IJCAI", "Image Retrieval", "Quantization", "Tools & Libraries"]
 short_authors: Song et al.
 ---

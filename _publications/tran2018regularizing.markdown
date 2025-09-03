@@ -7,8 +7,7 @@ conference: Proceedings of the 27th ACM International Conference on Information 
 year: 2018
 bibkey: tran2018regularizing
 citations: 64
-additional_links: [{name: Code, url: 'https://github.com/thanhdtran/RME.git.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/1809.00979'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1809.00979'}]
 tags: ["CIKM", "Datasets", "Evaluation", "Recommender Systems"]
 short_authors: Tran et al.
 ---

@@ -6,8 +6,7 @@ conference: Proceedings of the 32nd ACM International Conference on Multimedia
 year: 2024
 bibkey: li2024t2vindexer
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/Lilidamowang/T2VIndexer-generativeSearch.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2408.11432'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2408.11432'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Text Retrieval", "Video Retrieval"]
 short_authors: Li et al.
 ---

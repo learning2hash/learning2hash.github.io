@@ -6,8 +6,7 @@ conference: IEEE Robotics and Automation Letters
 year: 2025
 bibkey: szilagyi2025slag
 citations: 0
-additional_links: [{name: Other, url: 'https://slag-project.github.io/.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2505.08124'}]
+additional_links: [{name: Other, url: 'https://slag-project'}, {name: Paper, url: 'https://arxiv.org/abs/2505.08124'}]
 tags: ["Datasets", "Efficiency", "Scalability", "Tools & Libraries"]
 short_authors: Laszlo Szilagyi, Francis Engelmann, Jeannette Bohg
 ---

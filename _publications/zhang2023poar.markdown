@@ -6,8 +6,7 @@ conference: Proceedings of the 31st ACM International Conference on Multimedia
 year: 2023
 bibkey: zhang2023poar
 citations: 3
-additional_links: [{name: Code, url: 'https://github.com/IvyYZ/POAR.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2303.14643'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2303.14643'}]
 tags: ["Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---

@@ -8,8 +8,7 @@ conference: ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speec
 year: 2024
 bibkey: zhu2023adaptive
 citations: 2
-additional_links: [{name: Code, url: 'https://github.com/HackerHyper/ACMVH.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2312.07327'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2312.07327'}]
 tags: ["Datasets", "Hashing Methods", "ICASSP"]
 short_authors: Zhu et al.
 ---

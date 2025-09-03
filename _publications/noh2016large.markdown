@@ -6,8 +6,7 @@ conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: noh2016large
 citations: 819
-additional_links: [{name: Code, url: 'https://github.com/tensorflow/models/tree/master/research/delf'},
-  {name: Paper, url: 'https://arxiv.org/abs/1612.06321'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1612.06321'}]
 tags: ["Datasets", "ICCV", "Image Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Noh et al.
 ---

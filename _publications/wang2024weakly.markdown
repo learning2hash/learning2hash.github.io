@@ -7,8 +7,7 @@ conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2021
 bibkey: wang2024weakly
 citations: 9
-additional_links: [{name: Code, url: 'https://github.com/gimpong/AAAI21-WSDHQ.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2404.04998'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2404.04998'}]
 tags: ["AAAI", "Efficiency", "Evaluation", "Image Retrieval", "Quantization", "Scalability", "Supervised"]
 short_authors: Wang et al.
 ---

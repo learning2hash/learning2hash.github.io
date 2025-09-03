@@ -5,9 +5,8 @@ authors: Xun Wang, Haozhi Zhang, Weilin Huang, Matthew R. Scott
 conference: 2020 IEEE Winter Conference on Applications of Computer Vision (WACV)
 year: 2020
 bibkey: wang2020cross
-citations: 220
-additional_links: [{name: Code, url: 'https://github.com/MalongTech/research-xbm.'},
-  {name: Paper, url: 'https://arxiv.org/abs/1912.06798'}]
+citations: 221
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1912.06798'}]
 tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Scalability"]
 short_authors: Wang et al.
 ---

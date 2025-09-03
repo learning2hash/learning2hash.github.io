@@ -6,8 +6,7 @@ conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2019
 bibkey: liu2019optimal
 citations: 33
-additional_links: [{name: Code, url: 'https://github.com/liuji93/GTH.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/1903.00252'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1903.00252'}]
 tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Ji Liu, Lei Zhang
 ---

@@ -7,8 +7,7 @@ conference: Proceedings of the 47th International ACM SIGIR Conference on Resear
 year: 2024
 bibkey: liang2024lightweight
 citations: 4
-additional_links: [{name: Code, url: 'https://github.com/xurong-liang/LEGCF.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2403.18479'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2403.18479'}]
 tags: ["Datasets", "Evaluation", "Recommender Systems", "SIGIR", "Tools & Libraries"]
 short_authors: Liang et al.
 ---

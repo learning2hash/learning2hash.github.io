@@ -9,8 +9,7 @@ conference: 'Proceedings of the 2020 Conference on Empirical Methods in Natural 
 year: 2020
 bibkey: yamada2018wikipedia2vec
 citations: 161
-additional_links: [{name: Code, url: 'https://wikipedia2vec.github.io.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/1812.06280'}]
+additional_links: [{name: Code, url: 'https://wikipedia2vec'}, {name: Paper, url: 'https://arxiv.org/abs/1812.06280'}]
 tags: ["Datasets", "EMNLP", "Evaluation", "Tools & Libraries"]
 short_authors: Yamada et al.
 ---

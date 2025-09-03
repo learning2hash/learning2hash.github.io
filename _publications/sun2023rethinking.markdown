@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2023
 bibkey: sun2023rethinking
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/OpenMatch/ANCE-Tele.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2304.05845'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2304.05845'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Supervised"]
 short_authors: Sun et al.
 ---

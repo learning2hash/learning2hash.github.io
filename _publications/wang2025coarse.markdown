@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2025
 bibkey: wang2025coarse
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/htyjers/C2F-MetaEmbed.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2501.11870'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2501.11870'}]
 tags: ["Recommender Systems"]
 short_authors: Wang et al.
 ---

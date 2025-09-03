@@ -6,7 +6,7 @@ conference: Proceedings of the 2024 ACM SIGPLAN International Symposium on Memor
   Management
 year: 2024
 bibkey: shrestha2023espn
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.05417'}]
 tags: ["Hybrid ANN Methods", "Re-Ranking", "Scalability", "Similarity Search"]
 short_authors: Susav Shrestha, Narasimha Reddy, Zongwang Li

@@ -8,8 +8,7 @@ conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2023
 bibkey: kordopatisZilos2023self
 citations: 10
-additional_links: [{name: Code, url: 'https://github.com/gkordo/s2vs'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2304.03378'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2304.03378'}]
 tags: ["CVPR", "Evaluation", "Self-Supervised", "Supervised"]
 short_authors: Kordopatis-Zilos et al.
 ---

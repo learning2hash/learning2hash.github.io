@@ -8,7 +8,7 @@ conference: 'Proceedings of the 61st Annual Meeting of the Association for Compu
 year: 2023
 bibkey: tasawong2023typo
 citations: 2
-additional_links: [{name: Code, url: 'https://github.'}, {name: Paper, url: 'https://arxiv.org/abs/2306.10348'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2306.10348'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Tasawong et al.
 ---

@@ -7,8 +7,7 @@ conference: Proceedings of the 2024 Conference on Empirical Methods in Natural L
 year: 2024
 bibkey: huang2024pairdistill
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/MiuLab/PairDistill'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2410.01383'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2410.01383'}]
 tags: ["Datasets", "EMNLP", "Evaluation"]
 short_authors: Chao-Wei Huang, Yun-Nung Chen
 ---

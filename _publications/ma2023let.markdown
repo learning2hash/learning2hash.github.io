@@ -7,8 +7,7 @@ conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2024
 bibkey: ma2023let
 citations: 2
-additional_links: [{name: Code, url: 'https://github.com/Maryeon/whiten_mtd.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2312.09716'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2312.09716'}]
 tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Image Retrieval", "Tools & Libraries", "Video Retrieval"]
 short_authors: Ma et al.
 ---

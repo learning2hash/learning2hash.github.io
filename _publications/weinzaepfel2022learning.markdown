@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2022
 bibkey: weinzaepfel2022learning
 citations: 11
-additional_links: [{name: Code, url: 'https://github.com/naver/FIRe.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2201.13182'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2201.13182'}]
 tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Memory Efficiency"]
 short_authors: Weinzaepfel et al.
 ---

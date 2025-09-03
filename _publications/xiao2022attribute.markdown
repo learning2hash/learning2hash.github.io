@@ -6,8 +6,7 @@ conference: IEEE Access
 year: 2024
 bibkey: xiao2022attribute
 citations: 2
-additional_links: [{name: Code, url: 'https://github.com/Dr-LingXiao/AG-MAN.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2301.13014'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2301.13014'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Ling Xiao, Toshihiko Yamasaki
 ---

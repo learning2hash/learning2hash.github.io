@@ -6,8 +6,7 @@ conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2025
 bibkey: chen2024document
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/Vision-CAIR/dochaystacks'},
-  {name: Paper, url: 'https://arxiv.org/abs/2411.16740'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2411.16740'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Scalability", "Text Retrieval", "Tools & Libraries"]
 short_authors: Chen et al.
 ---

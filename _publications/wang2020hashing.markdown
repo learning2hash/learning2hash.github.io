@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2020
 bibkey: wang2020hashing
 citations: 6
-additional_links: [{name: Code, url: 'https://github.com/microsoft/hnms.git.'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2005.11426'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2005.11426'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods"]
 short_authors: Wang et al.
 ---

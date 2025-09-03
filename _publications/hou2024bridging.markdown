@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2024
 bibkey: hou2024bridging
 citations: 14
-additional_links: [{name: Code, url: 'https://github.com/hyp1231/AmazonReviews2023.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2403.03952'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2403.03952'}]
 tags: ["Datasets", "Evaluation", "Recommender Systems"]
 short_authors: Hou et al.
 ---

@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2024
 bibkey: wang2024symmetric
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/xqwang14/SMS-Loss/tree/main'},
-  {name: Paper, url: 'https://arxiv.org/abs/2406.12256'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2406.12256'}]
 tags: ["Evaluation", "Text Retrieval"]
 short_authors: Xiaoqi Wang, Yi Wang, Lap-Pui Chau
 ---

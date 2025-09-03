@@ -7,8 +7,7 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2022
 bibkey: neculai2022probabilistic
 citations: 22
-additional_links: [{name: Code, url: 'https://github.com/andreineculai/MPC.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2204.05845'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2204.05845'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Andrei Neculai, Yanbei Chen, Zeynep Akata
 ---

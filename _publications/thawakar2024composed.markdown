@@ -7,8 +7,7 @@ conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2024
 bibkey: thawakar2024composed
 citations: 2
-additional_links: [{name: Code, url: 'https://github.com/OmkarThawakar/composed-video-retrieval'},
-  {name: Paper, url: 'https://arxiv.org/abs/2403.16997'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2403.16997'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries", "Video Retrieval"]
 short_authors: Thawakar et al.
 ---

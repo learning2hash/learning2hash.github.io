@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2023
 bibkey: adaloglou2023exploring
 citations: 1
-additional_links: [{name: Code, url: 'https://github.com/HHU-MMBS/TEMI-official-BMVC2023.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2303.17896'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2303.17896'}]
 tags: ["Self-Supervised", "Supervised"]
 short_authors: Adaloglou et al.
 ---

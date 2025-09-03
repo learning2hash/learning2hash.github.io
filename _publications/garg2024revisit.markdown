@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2024
 bibkey: garg2024revisit
 citations: 1
-additional_links: [{name: Code, url: 'https://github.com/AnyLoc/Revisit-Anything.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2409.18049'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2409.18049'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Garg et al.
 ---

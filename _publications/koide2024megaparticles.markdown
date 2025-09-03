@@ -3,7 +3,7 @@ layout: publication
 title: 'Megaparticles: Range-based 6-dof Monte Carlo Localization With Gpu-accelerated
   Stein Particle Filter'
 authors: Kenji Koide, Shuji Oishi, Masashi Yokozuka, Atsuhiko Banno
-conference: Arxiv
+conference: 2024 IEEE International Conference on Robotics and Automation (ICRA)
 year: 2024
 bibkey: koide2024megaparticles
 citations: 0

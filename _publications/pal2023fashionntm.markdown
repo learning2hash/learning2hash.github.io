@@ -7,8 +7,7 @@ conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2023
 bibkey: pal2023fashionntm
 citations: 2
-additional_links: [{name: Other, url: 'https://sites.google.com/eng.ucsd.edu/fashionntm'},
-  {name: Paper, url: 'https://arxiv.org/abs/2308.10170'}]
+additional_links: [{name: Other, url: 'https://sites'}, {name: Paper, url: 'https://arxiv.org/abs/2308.10170'}]
 tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval", "Tools & Libraries"]
 short_authors: Pal et al.
 ---

@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2023
 bibkey: desai2023heterogeneous
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/apd10/FLCF\'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2311.01722'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2311.01722'}]
 tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing", "Recommender Systems"]
 short_authors: Desai et al.
 ---

@@ -9,8 +9,7 @@ conference: Proceedings of the 19th International Conference on Content-based Mu
 year: 2022
 bibkey: messina2022aladin
 citations: 20
-additional_links: [{name: Code, url: 'https://github.com/mesnico/ALADIN.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2207.14757'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2207.14757'}]
 tags: ["Efficiency", "Multimodal Retrieval", "Scalability", "Similarity Search"]
 short_authors: Messina et al.
 ---

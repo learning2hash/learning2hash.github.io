@@ -8,8 +8,7 @@ conference: Arxiv
 year: 2023
 bibkey: "bo\u0161njak2023semppl"
 citations: 2
-additional_links: [{name: Code, url: 'https://github.com/deepmind/semppl'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2301.05158'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2301.05158'}]
 tags: ["Evaluation", "Robustness", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: "Bo\u0161njak et al."
 ---

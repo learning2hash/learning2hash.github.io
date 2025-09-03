@@ -7,8 +7,7 @@ conference: Arxiv
 year: 2024
 bibkey: wang2023multi
 citations: 1
-additional_links: [{name: Code, url: 'https://github.com/ddw2AIGROUP2CQUPT/MGRL.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2401.00371'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2401.00371'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Wang et al.
 ---

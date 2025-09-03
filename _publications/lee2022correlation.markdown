@@ -6,8 +6,7 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2022
 bibkey: lee2022correlation
 citations: 59
-additional_links: [{name: Code, url: 'https://github.com/sungonce/CVNet.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2204.01458'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2204.01458'}]
 tags: ["CVPR", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking"]
 short_authors: Lee et al.
 ---

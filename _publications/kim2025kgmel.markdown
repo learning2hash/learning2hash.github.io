@@ -7,8 +7,7 @@ conference: Proceedings of the 48th International ACM SIGIR Conference on Resear
 year: 2025
 bibkey: kim2025kgmel
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/juyeonnn/KGMEL.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2504.15135'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2504.15135'}]
 tags: ["Datasets", "Evaluation", "SIGIR", "Self-Supervised", "Tools & Libraries"]
 short_authors: Kim et al.
 ---

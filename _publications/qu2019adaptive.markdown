@@ -6,8 +6,7 @@ conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2020
 bibkey: qu2019adaptive
 citations: 39
-additional_links: [{name: Code, url: 'https://github.com/zqu1992/ALQ'}, {name: Paper,
-    url: 'https://arxiv.org/abs/1912.08883'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1912.08883'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Quantization"]
 short_authors: Qu et al.
 ---

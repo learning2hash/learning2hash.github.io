@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2022
 bibkey: wu2022learning
 citations: 6
-additional_links: [{name: Code, url: 'https://github.com/overwindows/SemanticCodeSearch.git.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2201.11313'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2201.11313'}]
 tags: ["Evaluation"]
 short_authors: Chen Wu, Ming Yan
 ---

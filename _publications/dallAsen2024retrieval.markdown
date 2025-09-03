@@ -2,7 +2,8 @@
 layout: publication
 title: Retrieval-enriched Zero-shot Image Classification In Low-resource Domains
 authors: Nicola Dall'Asen, Yiming Wang, Enrico Fini, Elisa Ricci
-conference: Arxiv
+conference: Proceedings of the 2024 Conference on Empirical Methods in Natural Language
+  Processing
 year: 2024
 bibkey: dallAsen2024retrieval
 citations: 0

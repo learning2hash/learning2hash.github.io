@@ -6,8 +6,7 @@ conference: Proceedings of the 26th ACM international conference on Multimedia
 year: 2018
 bibkey: lin2019supervised
 citations: 65
-additional_links: [{name: Code, url: 'https://github.com/lmbxmu/mycode/tree/master/2018ACMMM_HCOH.'},
-  {name: Paper, url: 'https://arxiv.org/abs/1905.03694'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1905.03694'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Robustness", "Scalability", "Supervised"]
 short_authors: Lin et al.
 ---

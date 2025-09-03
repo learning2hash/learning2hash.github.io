@@ -5,7 +5,7 @@ authors: Nam Vo, Nathan Jacobs, James Hays
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: vo2017revisiting
-citations: 121
+citations: 122
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.04838'}]
 tags: ["Distance Metric Learning", "ICCV", "Neural Hashing"]
 short_authors: Nam Vo, Nathan Jacobs, James Hays

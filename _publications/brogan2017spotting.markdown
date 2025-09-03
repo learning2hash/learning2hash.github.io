@@ -8,8 +8,7 @@ conference: 2017 IEEE International Conference on Image Processing (ICIP)
 year: 2017
 bibkey: brogan2017spotting
 citations: 10
-additional_links: [{name: Other, url: 'https://www.nist.gov/itl/iad/mig/nimble-challenge'},
-  {name: Paper, url: 'https://arxiv.org/abs/1705.00604'}]
+additional_links: [{name: Other, url: 'https://www'}, {name: Paper, url: 'https://arxiv.org/abs/1705.00604'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Scalability", "Text Retrieval"]
 short_authors: Brogan et al.
 ---

@@ -6,8 +6,7 @@ conference: Arxiv
 year: 2021
 bibkey: han2021text
 citations: 36
-additional_links: [{name: Code, url: 'https://github.com/BrandonHanx/TextReID.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2110.10807'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2110.10807'}]
 tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Scalability", "Self-Supervised", "Tools & Libraries"]
 short_authors: Han et al.
 ---

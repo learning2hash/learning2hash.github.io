@@ -9,8 +9,7 @@ conference: Proceedings of the 46th International ACM SIGIR Conference on Resear
 year: 2023
 bibkey: dong2023from
 citations: 9
-additional_links: [{name: Code, url: 'https://github.com/HuiGuanLab/RPF.'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2305.10260'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2305.10260'}]
 tags: ["Datasets", "SIGIR", "Tools & Libraries"]
 short_authors: Dong et al.
 ---

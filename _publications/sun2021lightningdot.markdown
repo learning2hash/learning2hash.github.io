@@ -8,8 +8,7 @@ conference: 'Proceedings of the 2021 Conference of the North American Chapter of
 year: 2021
 bibkey: sun2021lightningdot
 citations: 73
-additional_links: [{name: Code, url: 'https://github.com/intersun/LightningDOT.'},
-  {name: Paper, url: 'https://arxiv.org/abs/2103.08784'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2103.08784'}]
 tags: ["Efficiency", "Hybrid ANN Methods", "NAACL", "Re-Ranking", "Scalability", "Text Retrieval"]
 short_authors: Sun et al.
 ---

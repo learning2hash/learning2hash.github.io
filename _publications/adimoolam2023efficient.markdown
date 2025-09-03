@@ -8,8 +8,7 @@ conference: Arxiv
 year: 2023
 bibkey: adimoolam2023efficient
 citations: 1
-additional_links: [{name: Code, url: 'https://github.com/yeshwanth95/CrowdAI_Hash_and_search'},
-  {name: Paper, url: 'https://arxiv.org/abs/2304.02296'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2304.02296'}]
 tags: ["Datasets", "Hashing Methods", "Neural Hashing"]
 short_authors: Adimoolam et al.
 ---

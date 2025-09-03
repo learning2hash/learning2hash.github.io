@@ -6,8 +6,7 @@ conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2025
 bibkey: lin2025neighborretr
 citations: 0
-additional_links: [{name: Code, url: 'https://github.com/zzezze/NeighborRetr'}, {
-    name: Paper, url: 'https://arxiv.org/abs/2503.10526'}]
+additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2503.10526'}]
 tags: ["CVPR", "Evaluation", "Multimodal Retrieval"]
 short_authors: Lin et al.
 ---
