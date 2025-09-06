@@ -288,7 +288,15 @@ document.addEventListener('DOMContentLoaded', function () {
     border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   .highlight { background-color: #fffbcc !important; transition: background-color 0.5s ease; }
+
+  /* Prevent sparkline canvases from collapsing on mobile */
+  .sparkline { display:inline-block; min-width: 80px; }
+  .jqstooltip { max-width: 100% !important; }
 </style>
+
+<!-- Core JS (ensure jQuery & DataTables core are present BEFORE plugins) -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
 
 <!-- Extras not in head: keep these, but defer them -->
 <script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js" defer></script>
@@ -423,12 +431,14 @@ document.addEventListener('DOMContentLoaded', function () {
       lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
       columnDefs: [
         { targets: [9, 10, 11], orderable: false },
-        { responsivePriority: 1, targets: 0 },
-        { responsivePriority: 2, targets: 11 },
-        { responsivePriority: 3, targets: 1 },
-        { responsivePriority: 4, targets: 2 },
-        { responsivePriority: 5, targets: 9 },
-        { responsivePriority: 6, targets: 10 },
+
+        /* Make the sparkline column stay visible on small screens */
+        { responsivePriority: 1, targets: 0 },   // 👤 Author
+        { responsivePriority: 2, targets: 9 },   // 📈 Paper Count Timeline (keep!)
+        { responsivePriority: 3, targets: 11 },  // 🔗 Network
+        { responsivePriority: 4, targets: 1 },   // 📄 Papers
+        { responsivePriority: 5, targets: 2 },   // 📊 Citations
+        { responsivePriority: 6, targets: 10 },  // 🏷️ Tags
         { responsivePriority: 7, targets: 3 },
         { responsivePriority: 8, targets: 4 },
         { responsivePriority: 9, targets: 5 },
@@ -441,10 +451,15 @@ document.addEventListener('DOMContentLoaded', function () {
     function drawSparks() {
       $('.sparkline').each(function () {
         const $el = $(this);
-        const values = $el.text().split(',').map(Number);
+        const values = ($el.text() || '').split(',').filter(s => s.length).map(Number);
         const years = ($el.attr('data-years') || '').split(',');
+        const width = Math.max(80, (values.length * 9)); // barWidth(7)+barSpacing(2) ≈ 9px per bar
         $el.sparkline(values, {
-          type: 'bar', height: '30px', barWidth: 7, barSpacing: 2,
+          type: 'bar',
+          width: width,
+          height: '30px',
+          barWidth: 7,
+          barSpacing: 2,
           tooltipFormatter: (sp, options, fields) => {
             const idx = fields[0].offset;
             const val = fields[0].value;
@@ -455,8 +470,10 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     }
 
+    // Initial render + re-render on table draw and responsive events
     drawSparks();
-    authorTable.on('draw', drawSparks);
+    authorTable.on('draw responsive-display responsive-resize', drawSparks);
+    $(window).on('resize', () => { drawSparks(); });
 
     $('#author-table').on('click', 'button.net-btn', function () {
       showNetwork($(this).data('author'));
@@ -489,7 +506,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-  /* ===== Network code unchanged (uses showNetwork + d3) ===== */
+  /* ===== Network code ===== */
   function getSubgraph(author, radius = 2, maxNodes = 150) {
     const visited = new Set();
     const queue = [{ id: author, depth: 0 }];
