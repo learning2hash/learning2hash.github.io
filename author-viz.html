@@ -249,6 +249,9 @@ description: Explore prolific authors and their contributions across Learning to
                 </a>`;
       }).join(' ');
 
+      // NOTE: sparkline now stores data in attributes (no innerText)
+      const sparkCell = `<span class="sparkline" data-years="${years.join(',')}" data-values="${spark}"></span>`;
+
       return [
         nameCell,
         info.paper_count,
@@ -259,7 +262,7 @@ description: Explore prolific authors and their contributions across Learning to
         info.clustering?.toFixed(2) ?? '—',
         info.betweenness?.toFixed(4) ?? '—',
         info.age ?? '—',
-        `<span class="sparkline" data-years="${years.join(',')}">${spark}</span>`,
+        sparkCell,
         tagsHtml,
         `<button class="net-btn" data-author="${author}" style="padding:4px 8px; cursor:pointer;">View</button>`
       ];
@@ -276,8 +279,10 @@ description: Explore prolific authors and their contributions across Learning to
         { targets: [9, 10, 11], orderable: false },
 
         /* Make the sparkline column stay visible on small screens */
+        { className: 'all', targets: 9 },   // 👈 ensures sparkline never moves to child row
+
         { responsivePriority: 1, targets: 0 },   // 👤 Author
-        { responsivePriority: 2, targets: 9 },   // 📈 Paper Count Timeline (keep!)
+        { responsivePriority: 2, targets: 9 },   // 📈 Paper Count Timeline
         { responsivePriority: 3, targets: 11 },  // 🔗 Network
         { responsivePriority: 4, targets: 1 },   // 📄 Papers
         { responsivePriority: 5, targets: 2 },   // 📊 Citations
@@ -291,33 +296,52 @@ description: Explore prolific authors and their contributions across Learning to
       ]
     });
 
-    function drawSparks() {
-      $('.sparkline').each(function () {
-        const $el = $(this);
-        const values = ($el.text() || '').split(',').filter(s => s.length).map(Number);
-        const years = ($el.attr('data-years') || '').split(',');
-        const width = Math.max(80, (values.length * 9)); // barWidth(7)+barSpacing(2) ≈ 9px per bar
-        $el.sparkline(values, {
-          type: 'bar',
-          width: width,
-          height: '30px',
-          barWidth: 7,
-          barSpacing: 2,
-          tooltipFormatter: (sp, options, fields) => {
-            const idx = fields[0].offset;
-            const val = fields[0].value;
-            const year = years[idx] || 'Unknown';
-            return `${val} papers in ${year}`;
-          }
-        });
+    /* ---------- Sparkline helpers (robust on mobile & in child rows) ---------- */
+    function initSparkline($el) {
+      const valuesAttr = $el.attr('data-values') || '';
+      const values = valuesAttr.split(',').filter(Boolean).map(Number);
+      const years = ($el.attr('data-years') || '').split(',');
+
+      // Compute a width that works even after responsive reflow
+      const computed = $el.width() || 0;
+      const width = Math.max(computed, values.length * 9, 80); // 9px ≈ 7 bar + 2 spacing
+
+      $el.sparkline(values, {
+        type: 'bar',
+        width: width,
+        height: '30px',
+        barWidth: 7,
+        barSpacing: 2,
+        tooltipFormatter: (sp, options, fields) => {
+          const idx = fields[0].offset;
+          const val = fields[0].value;
+          const year = years[idx] || 'Unknown';
+          return `${val} papers in ${year}`;
+        }
       });
     }
 
-    // Initial render + re-render on table draw and responsive events
-    drawSparks();
-    authorTable.on('draw responsive-display responsive-resize', drawSparks);
-    $(window).on('resize', () => { drawSparks(); });
+    function drawSparks(scope) {
+      (scope ? $(scope) : $(document)).find('.sparkline').each(function () {
+        initSparkline($(this));
+      });
+    }
 
+    // Initial render + re-render on table draw/resize
+    drawSparks(document);
+    authorTable.on('draw responsive-resize', () => drawSparks(document));
+    $(window).on('resize', () => drawSparks(document));
+
+    // Re-render when a row is expanded into a child row
+    authorTable.on('responsive-display', (e, dt, row, show) => {
+      if (show) {
+        const $child = $(row.node()).next('tr.child');
+        // Allow layout to settle so widths are non-zero
+        setTimeout(() => drawSparks($child), 0);
+      }
+    });
+
+    /* ---------- Row interactions ---------- */
     $('#author-table').on('click', 'button.net-btn', function () {
       showNetwork($(this).data('author'));
     });
