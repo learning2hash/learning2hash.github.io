@@ -6,7 +6,7 @@ authors: Luca Massarelli, Giuseppe Antonio di Luna, Fabio Petroni, Leonardo Quer
 conference: Lecture Notes in Computer Science
 year: 2019
 bibkey: massarelli2018safe
-citations: 162
+citations: 163
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.05296'}]
 tags: ["Compact Codes", "Evaluation"]
 short_authors: Massarelli et al.

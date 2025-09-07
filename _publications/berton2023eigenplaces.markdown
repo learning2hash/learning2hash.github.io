@@ -5,7 +5,7 @@ authors: Gabriele Berton, Gabriele Trivigno, Barbara Caputo, Carlo Masone
 conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2023
 bibkey: berton2023eigenplaces
-citations: 35
+citations: 36
 additional_links: [{name: Code, url: 'https://github'}, {name: Code, url: 'https://github'},
   {name: Paper, url: 'https://arxiv.org/abs/2308.10832'}]
 tags: ["Datasets", "ICCV", "Image Retrieval", "Robustness"]

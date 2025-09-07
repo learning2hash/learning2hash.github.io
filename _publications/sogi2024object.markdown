@@ -2,7 +2,7 @@
 layout: publication
 title: Object-aware Query Perturbation For Cross-modal Image-text Retrieval
 authors: Naoya Sogi, Takashi Shibata, Makoto Terao
-conference: Lecture Notes in Computer Science
+conference: Arxiv
 year: 2024
 bibkey: sogi2024object
 citations: 0

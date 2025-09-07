@@ -3,8 +3,8 @@ layout: publication
 title: Lightweight Fingerprints For Fast Approximate Keyword Matching Using Bitwise
   Operations
 authors: "Aleksander Cis\u0142ak, Szymon Grabowski"
-conference: Arxiv
-year: 2017
+conference: Computing and Informatics
+year: 2019
 bibkey: "cis\u0142ak2017lightweight"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.08475'}]

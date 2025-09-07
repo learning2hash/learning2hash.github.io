@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Hashing For Compact Binary Codes Learning
-authors: V. Liong, Lu, Wang, Moulin, Zhou
+authors: V. Liong, J. Lu, G. Wang, P. Moulin, J. Zhou
 conference: 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2015
 bibkey: liong2025deep

@@ -5,7 +5,7 @@ authors: Xingyu Zhu, Beier Zhu, Yi Tan, Shuo Wang, Yanbin Hao, Hanwang Zhang
 conference: Proceedings of the 32nd ACM International Conference on Multimedia
 year: 2024
 bibkey: zhu2024selective
-citations: 0
+citations: 1
 additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2407.16977'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Zhu et al.

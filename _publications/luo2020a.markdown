@@ -6,7 +6,7 @@ authors: Xiao Luo, Haixin Wang, Daqing Wu, Chong Chen, Minghua Deng, Jianqiang H
 conference: ACM Transactions on Knowledge Discovery from Data
 year: 2022
 bibkey: luo2020a
-citations: 129
+citations: 130
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.03369'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Quantization", "Self-Supervised", "Supervised", "Survey Paper", "Unsupervised"]
 short_authors: Luo et al.

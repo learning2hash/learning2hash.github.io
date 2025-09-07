@@ -6,7 +6,7 @@ conference: Proceedings of the 17th Conference of the European Chapter of the As
   for Computational Linguistics
 year: 2023
 bibkey: muennighoff2022mteb
-citations: 186
+citations: 189
 additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.07316'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Muennighoff et al.

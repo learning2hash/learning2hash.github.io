@@ -6,7 +6,7 @@ authors: Rong-Cheng Tu, Xian-Ling Mao, Bing Ma, Yong Hu, Tan Yan, Wei Wei, Heyan
 conference: IEEE Transactions on Knowledge and Data Engineering
 year: 2020
 bibkey: tu2019deep
-citations: 63
+citations: 64
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.12490'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Tools & Libraries"]
 short_authors: Tu et al.

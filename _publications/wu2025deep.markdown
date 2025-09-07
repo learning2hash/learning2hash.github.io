@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Supervised Hashing For Multi-label And Large-scale Image Retrieval
-authors: Dayan Wu, Lin, Li, Ye, Wang
+authors: Dayan Wu, Zheng Lin, Bo Li, Mingzhen Ye, Weiping Wang
 conference: Proceedings of the 2017 ACM on International Conference on Multimedia
   Retrieval
 year: 2017

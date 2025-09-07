@@ -5,7 +5,7 @@ authors: Guo-Hua Wang, Yifan Ge, Jianxin Wu
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2021
 bibkey: wang2020distilling
-citations: 23
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.01424'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Guo-Hua Wang, Yifan Ge, Jianxin Wu

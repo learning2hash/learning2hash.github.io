@@ -6,7 +6,7 @@ authors: Songyou Peng, Kyle Genova, Chiyu "max" Jiang, Andrea Tagliasacchi, Marc
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: peng2022openscene
-citations: 138
+citations: 139
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2211.15654'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Peng et al.

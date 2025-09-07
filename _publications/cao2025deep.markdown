@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Visual-semantic Hashing For Cross-modal Retrieval
-authors: Yue Cao, Long, Wang, Yang, Yu
+authors: Yue Cao, Mingsheng Long, Jianmin Wang, Qiang Yang, Philip Yu
 conference: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge
   Discovery and Data Mining
 year: 2016

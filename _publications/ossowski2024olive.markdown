@@ -2,7 +2,8 @@
 layout: publication
 title: 'OLIVE: Object Level In-context Visual Embeddings'
 authors: Timothy Ossowski, Junjie Hu
-conference: Arxiv
+conference: 'Proceedings of the 62nd Annual Meeting of the Association for Computational
+  Linguistics (Volume 1: Long Papers)'
 year: 2024
 bibkey: ossowski2024olive
 citations: 0

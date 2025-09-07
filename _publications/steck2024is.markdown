@@ -5,7 +5,7 @@ authors: Harald Steck, Chaitanya Ekanadham, Nathan Kallus
 conference: Companion Proceedings of the ACM Web Conference 2024
 year: 2024
 bibkey: steck2024is
-citations: 42
+citations: 43
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.05440'}]
 tags: ["Uncategorized"]
 short_authors: Harald Steck, Chaitanya Ekanadham, Nathan Kallus

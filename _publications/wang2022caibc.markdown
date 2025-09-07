@@ -7,7 +7,7 @@ authors: Zijie Wang, Aichun Zhu, Jingyi Xue, Xili Wan, Chao Liu, Tian Wang, Yife
 conference: Proceedings of the 30th ACM International Conference on Multimedia
 year: 2022
 bibkey: wang2022caibc
-citations: 69
+citations: 70
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.05773'}]
 tags: ["Datasets", "Evaluation", "Scalability", "Supervised"]
 short_authors: Wang et al.

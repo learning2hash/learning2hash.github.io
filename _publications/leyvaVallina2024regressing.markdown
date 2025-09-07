@@ -2,12 +2,12 @@
 layout: publication
 title: Regressing Transformers For Data-efficient Visual Place Recognition
 authors: "Mar\xEDa Leyva-Vallina, Nicola Strisciuglio, Nicolai Petkov"
-conference: Arxiv
+conference: 2024 IEEE International Conference on Robotics and Automation (ICRA)
 year: 2024
 bibkey: leyvaVallina2024regressing
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.16304'}]
-tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking", "Self-Supervised"]
+tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "ICRA", "Re-Ranking", "Self-Supervised"]
 short_authors: "Mar\xEDa Leyva-Vallina, Nicola Strisciuglio, Nicolai Petkov"
 ---
 Visual place recognition is a critical task in computer vision, especially

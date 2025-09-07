@@ -5,7 +5,7 @@ authors: Shengcai Liao, Ling Shao
 conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2022
 bibkey: liao2021graph
-citations: 89
+citations: 90
 additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2104.01546'}]
 tags: ["CVPR", "Distance Metric Learning", "Efficiency", "Scalability"]
 short_authors: Shengcai Liao, Ling Shao

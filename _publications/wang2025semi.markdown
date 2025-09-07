@@ -1,14 +1,14 @@
 ---
 layout: publication
 title: Semi-supervised Hashing For Scalable Image Retrieval
-authors: J. Wang, Kumar, Chang
+authors: J. Wang, S. Kumar, And Chang
 conference: 2010 IEEE Computer Society Conference on Computer Vision and Pattern Recognition
 year: 2010
 bibkey: wang2025semi
 citations: 626
 additional_links: [{name: Paper, url: 'http://www.sanjivk.com/SSH_CVPR10.pdf'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
-short_authors: J. Wang, Kumar, Chang
+short_authors: J. Wang, S. Kumar, And Chang
 ---
 Large scale image search has recently attracted considerable
 attention due to easy availability of huge amounts of

@@ -6,7 +6,7 @@ conference: Proceedings of the 2017 ACM on Conference on Information and Knowled
   Management
 year: 2017
 bibkey: zhang2017name
-citations: 114
+citations: 115
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.02287'}]
 tags: ["CIKM", "Evaluation"]
 short_authors: Baichuan Zhang, Mohammad Al Hasan

@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Adaptive Labeling For Deep Learning To Hash
-authors: Huei-Fang Yang, Tu, Chen
+authors: Huei-Fang Yang, Cheng-Hao Tu, Chu-Song Chen
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops
   (CVPRW)
 year: 2019
@@ -9,7 +9,7 @@ bibkey: yang2025adaptive
 citations: 8
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_CVPRW_2019/papers/CEFRL/Yang_Adaptive_Labeling_for_Deep_Learning_to_Hash_CVPRW_2019_paper.pdf'}]
 tags: ["CVPR", "Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised"]
-short_authors: Huei-Fang Yang, Tu, Chen
+short_authors: Huei-Fang Yang, Cheng-Hao Tu, Chu-Song Chen
 ---
 Hash function learning has been widely used for largescale image retrieval because of the efficiency of computation and storage. We introduce AdaLabelHash, a binary
 hash function learning approach via deep neural networks

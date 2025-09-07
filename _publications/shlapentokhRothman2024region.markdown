@@ -6,7 +6,7 @@ authors: Michal Shlapentokh-Rothman, Ansel Blume, Yao Xiao, Yuqun Wu, Sethuraman
 conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2024
 bibkey: shlapentokhRothman2024region
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.02352'}]
 tags: ["CVPR", "Evaluation", "Image Retrieval", "Unsupervised"]
 short_authors: Shlapentokh-Rothman et al.

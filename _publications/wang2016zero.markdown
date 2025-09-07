@@ -5,7 +5,7 @@ authors: Qian Wang, Ke Chen
 conference: International Journal of Computer Vision
 year: 2017
 bibkey: wang2016zero
-citations: 168
+citations: 171
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.02104'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Supervised", "Tools & Libraries"]
 short_authors: Qian Wang, Ke Chen

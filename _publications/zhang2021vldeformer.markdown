@@ -6,7 +6,7 @@ authors: Lisai Zhang, Hongfa Wu, Qingcai Chen, Yimeng Deng, Zhonghua Li, Dejiang
 conference: Knowledge-Based Systems
 year: 2022
 bibkey: zhang2021vldeformer
-citations: 19
+citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.11338'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Zhang et al.

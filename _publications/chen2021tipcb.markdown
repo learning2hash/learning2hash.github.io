@@ -7,7 +7,7 @@ authors: Yuhao Chen, Guoqing Zhang, Yujiang Lu, Zhenxing Wang, Yuhui Zheng, Ruil
 conference: Neurocomputing
 year: 2022
 bibkey: chen2021tipcb
-citations: 117
+citations: 118
 additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2105.11628'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Chen et al.

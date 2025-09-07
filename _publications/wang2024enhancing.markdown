@@ -6,7 +6,7 @@ conference: ICASSP 2024 - 2024 IEEE International Conference on Acoustics, Speec
   and Signal Processing (ICASSP)
 year: 2024
 bibkey: wang2024enhancing
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2401.09725'}]
 tags: ["Datasets", "Evaluation", "ICASSP", "Text Retrieval"]
 short_authors: Zuhui Wang, Yunting Yin, I. V. Ramakrishnan

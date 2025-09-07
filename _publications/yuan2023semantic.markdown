@@ -5,7 +5,7 @@ authors: Xu Yuan, Zheng Zhang, Xunguang Wang, Lin Wu
 conference: IEEE Transactions on Information Forensics and Security
 year: 2023
 bibkey: yuan2023semantic
-citations: 14
+citations: 15
 additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2310.14637'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness", "Scalability"]
 short_authors: Yuan et al.

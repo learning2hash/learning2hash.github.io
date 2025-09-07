@@ -7,7 +7,7 @@ authors: Hailin Zhang, Zirui Liu, Boxuan Chen, Yikai Zhao, Tong Zhao, Tong Yang,
 conference: Proceedings of the ACM on Management of Data
 year: 2024
 bibkey: zhang2023cafe
-citations: 9
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.03256'}]
 tags: ["Datasets", "Efficiency", "Memory Efficiency", "Neural Hashing", "Recommender Systems", "Scalability", "Tools & Libraries"]
 short_authors: Zhang et al.

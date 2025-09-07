@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Hashing Via Discrepancy Minimization
-authors: Zhixiang Chen, Yuan, Lu*, Tian, Zhou
+authors: Zhixiang Chen, Xin Yuan, Jiwen Lu*, Qi Tian, And Zhou
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: chen2025deep

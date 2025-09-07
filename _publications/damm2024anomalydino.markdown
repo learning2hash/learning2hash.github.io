@@ -5,7 +5,7 @@ authors: Simon Damm, Mike Laszkiewicz, Johannes Lederer, Asja Fischer
 conference: 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
 year: 2025
 bibkey: damm2024anomalydino
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2405.14529'}]
 tags: ["Evaluation", "Few Shot & Zero Shot"]
 short_authors: Damm et al.

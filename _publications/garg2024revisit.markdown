@@ -3,7 +3,7 @@ layout: publication
 title: 'Revisit Anything: Visual Place Recognition Via Image Segment Retrieval'
 authors: Kartik Garg, Sai Shubodh Puligilla, Shishir Kolathaya, Madhava Krishna, Sourav
   Garg
-conference: Arxiv
+conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: garg2024revisit
 citations: 1

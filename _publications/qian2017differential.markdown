@@ -2,7 +2,7 @@
 layout: publication
 title: Differential Geometric Retrieval Of Deep Features
 authors: Y Qian, E Vazquez, B Sengupta
-conference: Arxiv
+conference: 2017 IEEE International Conference on Data Mining Workshops (ICDMW)
 year: 2017
 bibkey: qian2017differential
 citations: 2

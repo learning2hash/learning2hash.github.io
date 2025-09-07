@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Deep Hashing With Active Pairwise Supervision
-authors: Ziwei Wang, Zheng, Lu, Zhou
+authors: Ziwei Wang, Quan Zheng, Jiwen Lu, And Zhou
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: wang2025deep

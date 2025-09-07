@@ -5,7 +5,7 @@ authors: "Amar Ali-Bey, Brahim Chaib-Draa, Philippe Gigu\xE8re"
 conference: Neurocomputing
 year: 2022
 bibkey: alibey2022gsv
-citations: 59
+citations: 60
 additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.10239'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Scalability", "Supervised"]
 short_authors: "Amar Ali-Bey, Brahim Chaib-Draa, Philippe Gigu\xE8re"

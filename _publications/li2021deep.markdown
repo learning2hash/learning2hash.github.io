@@ -6,7 +6,7 @@ authors: Xiaoxu Li, Xiaochen Yang, Zhanyu Ma, Jing-Hao Xue
 conference: Pattern Recognition
 year: 2023
 bibkey: li2021deep
-citations: 135
+citations: 138
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.08149'}]
 tags: ["CVPR", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Survey Paper"]
 short_authors: Li et al.

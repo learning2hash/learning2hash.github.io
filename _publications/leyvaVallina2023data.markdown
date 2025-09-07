@@ -5,7 +5,7 @@ authors: Maria Leyva-Vallina, Nicola Strisciuglio, Nicolai Petkov
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: leyvaVallina2023data
-citations: 25
+citations: 26
 additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2303.11739'}]
 tags: ["CVPR", "Datasets", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Maria Leyva-Vallina, Nicola Strisciuglio, Nicolai Petkov

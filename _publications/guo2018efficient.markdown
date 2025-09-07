@@ -5,7 +5,7 @@ authors: Yiluan Guo, Ngai-Man Cheung
 conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: guo2018efficient
-citations: 88
+citations: 89
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.11353'}]
 tags: ["CVPR", "Evaluation"]
 short_authors: Yiluan Guo, Ngai-Man Cheung

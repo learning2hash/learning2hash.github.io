@@ -6,7 +6,7 @@ authors: Yankai Chen, Yixiang Fang, Yifei Zhang, Irwin King
 conference: Proceedings of the ACM Web Conference 2023
 year: 2023
 bibkey: chen2023bipartite
-citations: 15
+citations: 16
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2304.00241'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Recommender Systems"]
 short_authors: Chen et al.

@@ -6,7 +6,7 @@ authors: Cecilia Aguerrebere, Mark Hildebrand, Ishwar Singh Bhati, Theodore Will
 conference: Arxiv
 year: 2024
 bibkey: aguerrebere2024locally
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.02044'}]
 tags: ["Evaluation", "Quantization", "Similarity Search", "Tools & Libraries"]
 short_authors: Aguerrebere et al.

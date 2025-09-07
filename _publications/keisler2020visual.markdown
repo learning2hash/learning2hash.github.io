@@ -6,7 +6,7 @@ authors: Ryan Keisler, Samuel W. Skillman, Sunny Gonnabathula, Justin Poehnelt, 
 conference: Computer Vision and Image Understanding
 year: 2019
 bibkey: keisler2020visual
-citations: 21
+citations: 22
 additional_links: [{name: Other, url: 'https://search'}, {name: Paper, url: 'https://arxiv.org/abs/2002.02624'}]
 tags: ["Efficiency", "Image Retrieval"]
 short_authors: Keisler et al.

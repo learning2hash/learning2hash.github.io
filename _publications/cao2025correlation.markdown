@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: Correlation Autoencoder Hashing For Supervised Cross-modal Search
-authors: Yue Cao, Long, Wang, Zhu
+authors: Yue Cao, Mingsheng Long, Jianmin Wang, Han Zhu
 conference: Proceedings of the 2016 ACM on International Conference on Multimedia
   Retrieval
 year: 2016

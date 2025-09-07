@@ -1,11 +1,11 @@
 ---
 layout: publication
 title: A Survey On Learning To Hash
-authors: Jingdong Wang, Zhang, Song, Sebe, Shen
+authors: Jingdong Wang, Ting Zhang, Jingkuan Song, Nicu Sebe, And Shen
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2017
 bibkey: wang2025a
-citations: 935
+citations: 936
 additional_links: [{name: Paper, url: 'https://arxiv.org/pdf/1606.00185.pdf'}]
 tags: ["Evaluation", "Hashing Methods", "Quantization", "Survey Paper"]
 short_authors: Wang et al.
