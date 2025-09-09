@@ -1,0 +1,14 @@
+---
+layout: publication
+title: A Semantically-aware Relevance Measure For Content-based Medical Image Retrieval
+  Evaluation
+authors: Xiaoyang Wei, Camille Kurtz, Florence Cloppet
+conference: No Venue
+year: 2021
+bibkey: wei2021a
+citations: 7
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2506.13509'}]
+tags: ["Datasets", "Evaluation", "Image Retrieval"]
+short_authors: Xiaoyang Wei, Camille Kurtz, Florence Cloppet
+---
+Performance evaluation for Content-Based Image Retrieval (CBIR) remains a crucial but unsolved problem today especially in the medical domain. Various evaluation metrics have been discussed in the literature to solve this problem. Most of the existing metrics (e.g., precision, recall) are adapted from classification tasks which require manual labels as ground truth. However, such labels are often expensive and unavailable in specific thematic domains. Furthermore, medical images are usually associated with (radiological) case reports or annotated with descriptive captions in literature figures, such text contains information that can help to assess CBIR.Several researchers have argued that the medical concepts hidden in the text can serve as the basis for CBIR evaluation purpose. However, these works often consider these medical concepts as independent and isolated labels while in fact the subtle relationships between various concepts are neglected. In this work, we introduce the use of knowledge graphs to measure the distance between various medical concepts and propose a novel relevance measure for the evaluation of CBIR by defining an approximate matching-based relevance score between two sets of medical concepts which allows us to indirectly measure the similarity between medical images.We quantitatively demonstrate the effectiveness and feasibility of our relevance measure using a public dataset.
