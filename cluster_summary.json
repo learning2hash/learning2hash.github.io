@@ -1,30 +1,30 @@
 {
-  "3": [
+  "0": [
     {
-      "tag": "lsh",
-      "count": 0.054
+      "tag": "neighbor",
+      "count": 0.05
     },
     {
       "tag": "algorithm",
-      "count": 0.041
+      "count": 0.049
+    },
+    {
+      "tag": "nearest",
+      "count": 0.039
+    },
+    {
+      "tag": "search",
+      "count": 0.038
     },
     {
       "tag": "point",
-      "count": 0.04
-    },
-    {
-      "tag": "neighbor",
       "count": 0.037
-    },
-    {
-      "tag": "set",
-      "count": 0.034
     }
   ],
-  "7": [
+  "1": [
     {
       "tag": "image",
-      "count": 0.052
+      "count": 0.054
     },
     {
       "tag": "metric",
@@ -40,65 +40,43 @@
     },
     {
       "tag": "sample",
-      "count": 0.032
+      "count": 0.031
     }
   ],
-  "4": [
+  "2": [
     {
       "tag": "document",
       "count": 0.07
     },
     {
       "tag": "entity",
-      "count": 0.048
-    },
-    {
-      "tag": "dense",
-      "count": 0.044
-    },
-    {
-      "tag": "word",
-      "count": 0.042
-    },
-    {
-      "tag": "embeddings",
-      "count": 0.033
-    }
-  ],
-  "8": [
-    {
-      "tag": "algorithm",
-      "count": 0.052
-    },
-    {
-      "tag": "search",
       "count": 0.049
     },
     {
-      "tag": "neighbor",
-      "count": 0.046
+      "tag": "dense",
+      "count": 0.045
     },
     {
-      "tag": "graph",
-      "count": 0.044
+      "tag": "word",
+      "count": 0.043
     },
     {
-      "tag": "nearest",
-      "count": 0.04
+      "tag": "embeddings",
+      "count": 0.034
     }
   ],
-  "0": [
+  "7": [
     {
       "tag": "descriptor",
       "count": 0.093
     },
     {
       "tag": "image",
-      "count": 0.068
+      "count": 0.069
     },
     {
       "tag": "feature",
-      "count": 0.047
+      "count": 0.049
     },
     {
       "tag": "place",
@@ -109,113 +87,135 @@
       "count": 0.04
     }
   ],
-  "1": [
+  "6": [
     {
       "tag": "hashing",
-      "count": 0.11
+      "count": 0.1
     },
     {
       "tag": "hash",
-      "count": 0.08
+      "count": 0.076
     },
     {
       "tag": "code",
-      "count": 0.065
+      "count": 0.055
     },
     {
-      "tag": "binary",
-      "count": 0.057
-    },
-    {
-      "tag": "data",
-      "count": 0.036
-    }
-  ],
-  "2": [
-    {
-      "tag": "text",
-      "count": 0.051
-    },
-    {
-      "tag": "video",
-      "count": 0.046
-    },
-    {
-      "tag": "retrieval",
+      "tag": "semantic",
       "count": 0.038
     },
     {
-      "tag": "multimodal",
-      "count": 0.034
-    },
-    {
       "tag": "modality",
-      "count": 0.033
+      "count": 0.037
     }
   ],
   "9": [
     {
-      "tag": "recommendation",
-      "count": 0.075
+      "tag": "hashing",
+      "count": 0.062
     },
     {
-      "tag": "item",
-      "count": 0.066
+      "tag": "binary",
+      "count": 0.052
     },
     {
-      "tag": "user",
-      "count": 0.054
+      "tag": "hash",
+      "count": 0.049
     },
     {
-      "tag": "embedding",
-      "count": 0.041
-    },
-    {
-      "tag": "graph",
+      "tag": "code",
       "count": 0.035
+    },
+    {
+      "tag": "data",
+      "count": 0.032
     }
   ],
-  "6": [
+  "8": [
     {
-      "tag": "sketch",
-      "count": 0.073
+      "tag": "text",
+      "count": 0.048
     },
     {
-      "tag": "person",
-      "count": 0.067
+      "tag": "video",
+      "count": 0.045
     },
     {
-      "tag": "image",
-      "count": 0.038
-    },
-    {
-      "tag": "scene",
+      "tag": "retrieval",
       "count": 0.037
     },
     {
-      "tag": "sbir",
+      "tag": "multimodal",
+      "count": 0.033
+    },
+    {
+      "tag": "music",
       "count": 0.032
+    }
+  ],
+  "4": [
+    {
+      "tag": "recommendation",
+      "count": 0.078
+    },
+    {
+      "tag": "item",
+      "count": 0.064
+    },
+    {
+      "tag": "user",
+      "count": 0.055
+    },
+    {
+      "tag": "embedding",
+      "count": 0.045
+    },
+    {
+      "tag": "graph",
+      "count": 0.042
+    }
+  ],
+  "3": [
+    {
+      "tag": "sketch",
+      "count": 0.069
+    },
+    {
+      "tag": "person",
+      "count": 0.063
+    },
+    {
+      "tag": "image",
+      "count": 0.039
+    },
+    {
+      "tag": "sbir",
+      "count": 0.03
+    },
+    {
+      "tag": "scene",
+      "count": 0.029
     }
   ],
   "5": [
     {
       "tag": "hashing",
-      "count": 0.084
+      "count": 0.094
     },
     {
       "tag": "deep",
-      "count": 0.054
+      "count": 0.06
     },
     {
       "tag": "hash",
-      "count": 0.051
+      "count": 0.057
     },
     {
       "tag": "code",
-      "count": 0.049
+      "count": 0.055
     },
     {
-      "tag": "image",
+      "tag": "binary",
       "count": 0.039
     }
   ]
