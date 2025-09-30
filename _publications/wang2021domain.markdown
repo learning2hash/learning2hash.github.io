@@ -7,7 +7,8 @@ conference: Proceedings of the Thirtieth International Joint Conference on Artif
 year: 2021
 bibkey: wang2021domain
 citations: 29
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2106.11841'}]
+additional_links: [{name: Code, url: 'https://github.com/haowang1992/DSN'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2106.11841'}]
 tags: ["AAAI", "Datasets", "Few Shot & Zero Shot", "IJCAI", "Image Retrieval"]
 short_authors: Wang et al.
 ---

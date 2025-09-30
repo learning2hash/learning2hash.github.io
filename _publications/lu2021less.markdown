@@ -8,7 +8,8 @@ conference: Arxiv
 year: 2021
 bibkey: lu2021less
 citations: 2
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2102.09206'}]
+additional_links: [{name: Code, url: 'https://github.com/microsoft/SEED-Encoder/'},
+  {name: Paper, url: 'https://arxiv.org/abs/2102.09206'}]
 tags: ["Few Shot & Zero Shot", "Recommender Systems"]
 short_authors: Lu et al.
 ---

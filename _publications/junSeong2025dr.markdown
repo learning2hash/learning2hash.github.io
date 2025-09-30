@@ -8,7 +8,8 @@ conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2025
 bibkey: junSeong2025dr
 citations: 0
-additional_links: [{name: Other, url: 'https://drsplat'}, {name: Paper, url: 'https://arxiv.org/abs/2502.16652'}]
+additional_links: [{name: Other, url: 'https://drsplat.github.io/'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2502.16652'}]
 tags: ["CVPR", "Quantization", "Scalability"]
 short_authors: Jun-Seong et al.
 ---

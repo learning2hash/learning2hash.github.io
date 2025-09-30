@@ -7,7 +7,8 @@ conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: kim2024visage
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2312.04885'}]
+additional_links: [{name: Code, url: 'https://github.com/KimHanjung/VISAGE'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2312.04885'}]
 tags: ["Datasets"]
 short_authors: Kim et al.
 ---

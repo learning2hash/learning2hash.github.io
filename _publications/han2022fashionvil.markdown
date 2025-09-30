@@ -6,7 +6,8 @@ conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: han2022fashionvil
 citations: 32
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2207.08150'}]
+additional_links: [{name: Code, url: 'https://github.com/BrandonHanx/mmf'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2207.08150'}]
 tags: ["Image Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Han et al.
 ---

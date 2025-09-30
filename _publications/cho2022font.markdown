@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2022
 bibkey: cho2022font
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2211.10967'}]
+additional_links: [{name: Code, url: 'https://github.com/junhocho/paired-glyph-matching'},
+  {name: Paper, url: 'https://arxiv.org/abs/2211.10967'}]
 tags: ["Evaluation"]
 short_authors: Junho Cho, Kyuewang Lee, Jin Young Choi
 ---

@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2020
 bibkey: aggarwal2020towards
 citations: 16
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2012.05107'}]
+additional_links: [{name: Code, url: 'https://github.com/adobe-research/Cross-lingual-Test-Dataset-XTD10'},
+  {name: Paper, url: 'https://arxiv.org/abs/2012.05107'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Pranav Aggarwal, Ajinkya Kale
 ---

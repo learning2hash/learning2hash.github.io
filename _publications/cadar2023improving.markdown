@@ -7,7 +7,8 @@ conference: Pattern Recognition Letters
 year: 2023
 bibkey: cadar2023improving
 citations: 3
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2309.00434'}]
+additional_links: [{name: Code, url: 'https://github.com/verlab/LearningToDetect_PRL_2023'},
+  {name: Paper, url: 'https://arxiv.org/abs/2309.00434'}]
 tags: ["Uncategorized"]
 short_authors: Cadar et al.
 ---

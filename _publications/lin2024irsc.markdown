@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2024
 bibkey: lin2024irsc
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2409.15763'}]
+additional_links: [{name: Code, url: 'https://github.com/Jasaxion/IRSC_Benchmark'},
+  {name: Paper, url: 'https://arxiv.org/abs/2409.15763'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Lin et al.
 ---

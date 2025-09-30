@@ -7,7 +7,8 @@ conference: ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speec
 year: 2021
 bibkey: ma2021hierarchical
 citations: 4
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2102.09375'}]
+additional_links: [{name: Code, url: 'https://github.com/liufh1/hsl'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2102.09375'}]
 tags: ["Datasets", "ICASSP", "Image Retrieval", "Scalability"]
 short_authors: Ma et al.
 ---

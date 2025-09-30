@@ -6,7 +6,8 @@ conference: 2023 IEEE International Conference on Data Mining (ICDM)
 year: 2023
 bibkey: liang2023learning
 citations: 3
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2309.03518'}]
+additional_links: [{name: Code, url: 'https://github.com/xurong-liang/CERP'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2309.03518'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Recommender Systems", "Tools & Libraries"]
 short_authors: Liang et al.
 ---

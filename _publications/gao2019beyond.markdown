@@ -7,7 +7,8 @@ conference: Proceedings of the Twenty-Eighth International Joint Conference on A
 year: 2019
 bibkey: gao2019beyond
 citations: 28
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1906.06698'}]
+additional_links: [{name: Code, url: 'https://github.com/cfm-uestc/DPQ'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1906.06698'}]
 tags: ["AAAI", "Datasets", "Evaluation", "IJCAI", "Image Retrieval", "Quantization", "Tools & Libraries"]
 short_authors: Gao et al.
 ---

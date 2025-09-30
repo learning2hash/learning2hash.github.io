@@ -6,7 +6,8 @@ conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2020
 bibkey: milbich2020sharing
 citations: 22
-additional_links: [{name: Other, url: 'https://ieeexplore'}, {name: Paper, url: 'https://arxiv.org/abs/2004.05582'}]
+additional_links: [{name: Other, url: 'https://ieeexplore.ieee.org/document/9141449'},
+  {name: Paper, url: 'https://arxiv.org/abs/2004.05582'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Milbich et al.
 ---

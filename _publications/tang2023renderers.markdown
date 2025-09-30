@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2023
 bibkey: tang2023renderers
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2306.10721'}]
+additional_links: [{name: Code, url: 'https://github.com/michaelwilliamtang/golden-retriever'},
+  {name: Paper, url: 'https://arxiv.org/abs/2306.10721'}]
 tags: ["Distance Metric Learning", "Few Shot & Zero Shot"]
 short_authors: Michael Tang, David Shustin
 ---

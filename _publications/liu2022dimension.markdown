@@ -7,7 +7,8 @@ conference: Proceedings of the 2022 Conference on Empirical Methods in Natural L
 year: 2022
 bibkey: liu2022dimension
 citations: 3
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2205.03284'}]
+additional_links: [{name: Code, url: 'https://github.com/NEUIR/ConAE'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2205.03284'}]
 tags: ["EMNLP", "Evaluation"]
 short_authors: Liu et al.
 ---

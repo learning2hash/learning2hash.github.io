@@ -8,7 +8,8 @@ conference: 'SIGIR ''21: The 44th International ACM SIGIR Conference on Research
 year: 2021
 bibkey: tahmasebzadeh2021geowine
 citations: 7
-additional_links: [{name: Other, url: 'http://cleopatra'}, {name: Paper, url: 'https://arxiv.org/abs/2104.14994'}]
+additional_links: [{name: Other, url: 'http://cleopatra.ijs.si/geowine/'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2104.14994'}]
 tags: ["Datasets", "Multimodal Retrieval", "SIGIR"]
 short_authors: Tahmasebzadeh et al.
 ---

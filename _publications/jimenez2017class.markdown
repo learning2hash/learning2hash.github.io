@@ -6,7 +6,8 @@ conference: Procedings of the British Machine Vision Conference 2017
 year: 2017
 bibkey: jimenez2017class
 citations: 71
-additional_links: [{name: Code, url: 'http://imatge-upc'}, {name: Paper, url: 'https://arxiv.org/abs/1707.02581'}]
+additional_links: [{name: Code, url: 'http://imatge-upc.github.io/retrieval-2017-cam/'},
+  {name: Paper, url: 'https://arxiv.org/abs/1707.02581'}]
 tags: ["Datasets", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Unsupervised"]
 short_authors: Albert Jimenez, Jose M. Alvarez, Xavier Giro-I-Nieto
 ---

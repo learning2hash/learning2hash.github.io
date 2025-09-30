@@ -7,7 +7,8 @@ conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2025
 bibkey: zou2025prompthash
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2503.16064'}]
+additional_links: [{name: Code, url: 'https://github.com/ShiShuMo/PromptHash'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2503.16064'}]
 tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Self-Supervised", "Tools & Libraries"]
 short_authors: Qiang Zou, Shuli Cheng, Jiayi Chen
 ---

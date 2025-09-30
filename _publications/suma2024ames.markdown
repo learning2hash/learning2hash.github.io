@@ -7,7 +7,8 @@ conference: Lecture Notes in Computer Science
 year: 2024
 bibkey: suma2024ames
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2408.03282'}]
+additional_links: [{name: Code, url: 'https://github.com/pavelsuma/ames'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2408.03282'}]
 tags: ["Efficiency", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Memory Efficiency", "Re-Ranking"]
 short_authors: Suma et al.
 ---

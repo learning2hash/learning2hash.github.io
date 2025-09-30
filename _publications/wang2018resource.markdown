@@ -7,7 +7,8 @@ conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: wang2018resource
 citations: 264
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1805.08805'}]
+additional_links: [{name: Code, url: 'https://github.com/mileyan/DARENet'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1805.08805'}]
 tags: ["CVPR", "Datasets"]
 short_authors: Wang et al.
 ---

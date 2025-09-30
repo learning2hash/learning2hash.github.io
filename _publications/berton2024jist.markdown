@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2024
 bibkey: berton2024jist
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2403.19787'}]
+additional_links: [{name: Code, url: 'https://github.com/ga1i13o/JIST'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2403.19787'}]
 tags: ["Tools & Libraries"]
 short_authors: Berton et al.
 ---

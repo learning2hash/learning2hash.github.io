@@ -9,7 +9,8 @@ conference: 'RecSys ''25: Proceedings of the Nineteenth ACM Conference on Recomm
 year: 2025
 bibkey: "kasalick\xFD2025the"
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2505.11388'}]
+additional_links: [{name: Code, url: 'https://github.com/recombee/CompresSAE'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2505.11388'}]
 tags: ["Efficiency", "Evaluation", "Large Scale Search", "Recommender Systems", "Scalability"]
 short_authors: "Kasalick\xFD et al."
 ---

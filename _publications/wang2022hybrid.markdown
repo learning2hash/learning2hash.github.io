@@ -7,7 +7,8 @@ conference: Proceedings of the ACM Web Conference 2022
 year: 2022
 bibkey: wang2022hybrid
 citations: 5
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2202.03384'}]
+additional_links: [{name: Code, url: 'https://github.com/gimpong/WWW22-HCQ'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2202.03384'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Quantization", "Robustness", "Scalability", "Self-Supervised", "Tools & Libraries", "Video Retrieval"]
 short_authors: Wang et al.
 ---

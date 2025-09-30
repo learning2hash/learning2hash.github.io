@@ -6,7 +6,8 @@ conference: IGARSS 2024 - 2024 IEEE International Geoscience and Remote Sensing 
 year: 2024
 bibkey: blumenstiel2024multi
 citations: 2
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2403.02059'}]
+additional_links: [{name: Code, url: 'https://github.com/IBM/remote-sensing-image-retrieval'},
+  {name: Paper, url: 'https://arxiv.org/abs/2403.02059'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Blumenstiel et al.
 ---

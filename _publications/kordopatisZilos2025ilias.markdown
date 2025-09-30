@@ -8,7 +8,8 @@ conference: Arxiv
 year: 2025
 bibkey: kordopatisZilos2025ilias
 citations: 0
-additional_links: [{name: Other, url: 'https://vrg'}, {name: Paper, url: 'https://arxiv.org/abs/2502.11748'}]
+additional_links: [{name: Other, url: 'https://vrg.fel.cvut.cz/ilias/'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2502.11748'}]
 tags: ["Datasets", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Scalability"]
 short_authors: Kordopatis-Zilos et al.
 ---

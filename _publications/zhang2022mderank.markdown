@@ -8,7 +8,8 @@ conference: 'Findings of the Association for Computational Linguistics: ACL 2022
 year: 2022
 bibkey: zhang2022mderank
 citations: 34
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2110.06651'}]
+additional_links: [{name: Code, url: 'https://github.com/LinhanZ/mderank'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2110.06651'}]
 tags: ["Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Zhang et al.
 ---

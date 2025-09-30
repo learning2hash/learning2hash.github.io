@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2021
 bibkey: stein2021self
 citations: 13
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2110.13151'}]
+additional_links: [{name: Code, url: 'https://github.com/georgestein/galaxy_search'},
+  {name: Paper, url: 'https://arxiv.org/abs/2110.13151'}]
 tags: ["Datasets", "Self-Supervised", "Similarity Search", "Supervised"]
 short_authors: Stein et al.
 ---

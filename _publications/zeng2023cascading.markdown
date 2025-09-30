@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2023
 bibkey: zeng2023cascading
 citations: 2
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2303.11274'}]
+additional_links: [{name: Code, url: 'https://github.com/kaiba007/FG-CNET'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2303.11274'}]
 tags: ["Datasets", "Efficiency", "Hashing Methods", "Scalability"]
 short_authors: Xianxian Zeng, Yanjun Zheng
 ---

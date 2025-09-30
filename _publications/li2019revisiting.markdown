@@ -6,7 +6,8 @@ conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2019
 bibkey: li2019revisiting
 citations: 579
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1903.12290'}]
+additional_links: [{name: Code, url: 'https://github.com/WenbinLee/DN4.git\'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1903.12290'}]
 tags: ["CVPR", "Datasets", "Efficiency", "Evaluation", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Li et al.
 ---

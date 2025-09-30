@@ -6,7 +6,8 @@ conference: Proceedings of the 2025 International Conference on Multimedia Retri
 year: 2025
 bibkey: he2025mambahash
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2506.16353'}]
+additional_links: [{name: Code, url: 'https://github.com/shuaichaochao/MambaHash.git'},
+  {name: Paper, url: 'https://arxiv.org/abs/2506.16353'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Chao He, Hongxi Wei
 ---

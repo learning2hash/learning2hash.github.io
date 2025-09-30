@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2016
 bibkey: kim2016pixelsne
 citations: 5
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1611.02568'}]
+additional_links: [{name: Code, url: 'https://github.com/awesome-davian/PixelSNE'},
+  {name: Paper, url: 'https://arxiv.org/abs/1611.02568'}]
 tags: ["Evaluation", "Scalability", "Tree Based ANN"]
 short_authors: Kim et al.
 ---

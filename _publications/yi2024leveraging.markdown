@@ -6,7 +6,8 @@ conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2024
 bibkey: yi2024leveraging
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2404.17753'}]
+additional_links: [{name: Code, url: 'https://github.com/YCaigogogo/CVPR24-CODER'},
+  {name: Paper, url: 'https://arxiv.org/abs/2404.17753'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Self-Supervised"]
 short_authors: Yi et al.
 ---

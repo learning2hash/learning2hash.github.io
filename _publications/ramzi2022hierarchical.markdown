@@ -7,7 +7,8 @@ conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: ramzi2022hierarchical
 citations: 4
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2207.04873'}]
+additional_links: [{name: Code, url: 'https://github.com/elias-ramzi/HAPPIER'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2207.04873'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval"]
 short_authors: Ramzi et al.
 ---

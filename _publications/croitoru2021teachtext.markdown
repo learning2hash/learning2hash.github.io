@@ -7,7 +7,8 @@ conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: croitoru2021teachtext
 citations: 109
-additional_links: [{name: Code, url: 'https://www'}, {name: Paper, url: 'https://arxiv.org/abs/2104.08271'}]
+additional_links: [{name: Code, url: 'https://www.robots.ox.ac.uk/~vgg/research/teachtext/'},
+  {name: Paper, url: 'https://arxiv.org/abs/2104.08271'}]
 tags: ["Datasets", "Evaluation", "ICCV", "Scalability", "Video Retrieval"]
 short_authors: Croitoru et al.
 ---

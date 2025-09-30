@@ -8,7 +8,8 @@ conference: Proceedings of the 2023 Conference on Empirical Methods in Natural L
 year: 2023
 bibkey: wang2023balance
 citations: 4
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2310.11612'}]
+additional_links: [{name: Code, url: 'https://github.com/yimuwangcs/Better_Cross_Modal_Retrieval'},
+  {name: Paper, url: 'https://arxiv.org/abs/2310.11612'}]
 tags: ["EMNLP", "Evaluation", "Multimodal Retrieval", "Re-Ranking", "Tools & Libraries"]
 short_authors: Yimu Wang, Xiangru Jian, Bo Xue
 ---

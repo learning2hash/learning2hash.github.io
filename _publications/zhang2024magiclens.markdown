@@ -7,8 +7,8 @@ conference: Arxiv
 year: 2024
 bibkey: zhang2024magiclens
 citations: 0
-additional_links: [{name: Code, url: 'https://open-vision-language'}, {name: Paper,
-    url: 'https://arxiv.org/abs/2403.19651'}]
+additional_links: [{name: Code, url: 'https://open-vision-language.github.io/MagicLens/'},
+  {name: Paper, url: 'https://arxiv.org/abs/2403.19651'}]
 tags: ["Efficiency", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Zhang et al.
 ---

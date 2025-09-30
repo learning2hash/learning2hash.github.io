@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2024
 bibkey: vendrow2024inquire
 citations: 0
-additional_links: [{name: Code, url: 'https://inquire-benchmark'}, {name: Paper, url: 'https://arxiv.org/abs/2411.02537'}]
+additional_links: [{name: Code, url: 'https://inquire-benchmark.github.io'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2411.02537'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Re-Ranking"]
 short_authors: Vendrow et al.
 ---

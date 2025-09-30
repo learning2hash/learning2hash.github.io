@@ -8,7 +8,8 @@ conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2025
 bibkey: lian2025autossvh
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2504.03587'}]
+additional_links: [{name: Code, url: 'https://github.com/EliSpectre/CVPR25-AutoSSVH'},
+  {name: Paper, url: 'https://arxiv.org/abs/2504.03587'}]
 tags: ["CVPR", "Efficiency", "Hashing Methods", "Robustness", "Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: Lian et al.
 ---

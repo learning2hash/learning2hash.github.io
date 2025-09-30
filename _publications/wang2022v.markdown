@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2022
 bibkey: wang2022v
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2207.12994'}]
+additional_links: [{name: Code, url: 'https://github.com/WangWenhao0716/V2L\'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2207.12994'}]
 tags: ["Distance Metric Learning", "Image Retrieval", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Wang et al.
 ---

@@ -7,7 +7,8 @@ conference: 'Findings of the Association for Computational Linguistics: ACL 2023
 year: 2023
 bibkey: li2023factual
 citations: 5
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2305.17497'}]
+additional_links: [{name: Code, url: 'https://github.com/zhuang-li/FACTUAL'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2305.17497'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval"]
 short_authors: Li et al.
 ---

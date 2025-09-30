@@ -7,7 +7,8 @@ conference: 2022 IEEE International Conference on Image Processing (ICIP)
 year: 2022
 bibkey: mikriukov2022an
 citations: 5
-additional_links: [{name: Code, url: 'https://git'}, {name: Paper, url: 'https://arxiv.org/abs/2202.13117'}]
+additional_links: [{name: Code, url: 'https://git.tu-berlin.de/rsim/chnr'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2202.13117'}]
 tags: ["Hashing Methods", "Robustness", "Text Retrieval", "Unsupervised"]
 short_authors: "Georgii Mikriukov, Mahdyar Ravanbakhsh, Beg\xFCm Demir"
 ---

@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2023
 bibkey: wu2023mofi
 citations: 3
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2306.07952'}]
+additional_links: [{name: Code, url: 'https://github.com/apple/ml-mofi'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2306.07952'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Wu et al.
 ---

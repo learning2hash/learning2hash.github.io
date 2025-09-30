@@ -7,7 +7,8 @@ conference: Proceedings of the 2022 Conference on Empirical Methods in Natural L
 year: 2022
 bibkey: wang2022english
 citations: 12
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2211.06127'}]
+additional_links: [{name: Code, url: 'https://github.com/yaushian/mSimCSE'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2211.06127'}]
 tags: ["EMNLP", "Evaluation", "Self-Supervised", "Supervised", "Unsupervised"]
 short_authors: Yau-Shian Wang, Ashley Wu, Graham Neubig
 ---

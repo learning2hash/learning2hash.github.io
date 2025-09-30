@@ -8,7 +8,8 @@ conference: 'Proceedings of the 62nd Annual Meeting of the Association for Compu
 year: 2024
 bibkey: zhang2024text
 citations: 6
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2406.03210'}]
+additional_links: [{name: Code, url: 'https://github.com/zyang1580/BinLLM'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2406.03210'}]
 tags: ["Evaluation", "Recommender Systems"]
 short_authors: Zhang et al.
 ---

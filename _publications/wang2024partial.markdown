@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2024
 bibkey: wang2024partial
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2411.10261'}]
+additional_links: [{name: Code, url: 'https://github.com/lanfeng4659/PSTR'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2411.10261'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Text Retrieval"]
 short_authors: Wang et al.
 ---

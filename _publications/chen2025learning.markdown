@@ -7,7 +7,8 @@ conference: ACM Transactions on Information Systems
 year: 2025
 bibkey: chen2025learning
 citations: 0
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2506.02750'}]
+additional_links: [{name: Code, url: 'https://github.com/QueYork/BiGeaR-SS'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2506.02750'}]
 tags: ["Datasets", "Evaluation", "Memory Efficiency", "Quantization", "Recommender Systems", "Tools & Libraries"]
 short_authors: Chen et al.
 ---

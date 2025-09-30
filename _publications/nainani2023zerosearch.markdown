@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2023
 bibkey: nainani2023zerosearch
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2305.00715'}]
+additional_links: [{name: Code, url: 'https://github.com/NainaniJatinZ/zero-search'},
+  {name: Paper, url: 'https://arxiv.org/abs/2305.00715'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Jatin Nainani, Abhishek Mazumdar, Viraj Sheth
 ---

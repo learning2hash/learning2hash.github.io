@@ -7,7 +7,8 @@ conference: Companion Proceedings of the ACM Web Conference 2024
 year: 2024
 bibkey: agarwal2024omnisearchsage
 citations: 2
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2404.16260'}]
+additional_links: [{name: Code, url: 'https://github.com/pinterest/atg-research/tree/main/omnisearchsage'},
+  {name: Paper, url: 'https://arxiv.org/abs/2404.16260'}]
 tags: ["Efficiency"]
 short_authors: Agarwal et al.
 ---

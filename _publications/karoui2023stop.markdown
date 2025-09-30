@@ -7,7 +7,8 @@ conference: 'Proceedings of the 61st Annual Meeting of the Association for Compu
 year: 2023
 bibkey: karoui2023stop
 citations: 2
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2306.16774'}]
+additional_links: [{name: Code, url: 'https://github.com/Yasminekaroui/CliCoTea'},
+  {name: Paper, url: 'https://arxiv.org/abs/2306.16774'}]
 tags: ["Evaluation", "Few Shot & Zero Shot", "Text Retrieval"]
 short_authors: Karoui et al.
 ---

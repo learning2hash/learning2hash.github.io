@@ -9,7 +9,8 @@ conference: ICASSP 2022 - 2022 IEEE International Conference on Acoustics, Speec
 year: 2022
 bibkey: bhattacharyya2022visual
 citations: 2
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2201.08951'}]
+additional_links: [{name: Code, url: 'https://github.com/AutoVision-cloud/SSL-ViT-lowlabel-highdata'},
+  {name: Paper, url: 'https://arxiv.org/abs/2201.08951'}]
 tags: ["Datasets", "Distance Metric Learning", "Few Shot & Zero Shot", "ICASSP", "Image Retrieval", "Self-Supervised", "Supervised"]
 short_authors: Bhattacharyya et al.
 ---

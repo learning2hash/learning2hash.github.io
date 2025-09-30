@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2022
 bibkey: liu2022universal
 citations: 4
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2209.00179'}]
+additional_links: [{name: Code, url: 'https://github.com/OpenMatch/UniVL-DR'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2209.00179'}]
 tags: ["Evaluation", "Image Retrieval", "Text Retrieval"]
 short_authors: Liu et al.
 ---

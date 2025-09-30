@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2022
 bibkey: liao2022supervised
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.01908'}]
+additional_links: [{name: Code, url: 'https://github.com/Chris210634/metric-learning-using-contextual-similarity'},
+  {name: Paper, url: 'https://arxiv.org/abs/2210.01908'}]
 tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval", "Supervised"]
 short_authors: Christopher Liao, Theodoros Tsiligkaridis, Brian Kulis
 ---

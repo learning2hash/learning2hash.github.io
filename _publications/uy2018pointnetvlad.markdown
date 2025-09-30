@@ -6,7 +6,8 @@ conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
 year: 2018
 bibkey: uy2018pointnetvlad
 citations: 489
-additional_links: [{name: Code, url: 'http://github'}, {name: Paper, url: 'https://arxiv.org/abs/1804.03492'}]
+additional_links: [{name: Code, url: 'http://github.com/mikacuy/pointnetvlad/'}, {
+    name: Paper, url: 'https://arxiv.org/abs/1804.03492'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Scalability"]
 short_authors: Mikaela Angelina Uy, Gim Hee Lee
 ---

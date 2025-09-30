@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2023
 bibkey: ng2023unsupervised
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2302.07669'}]
+additional_links: [{name: Code, url: 'https://github.com/kamwoh/sdc'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2302.07669'}]
 tags: ["Hashing Methods", "Supervised", "Unsupervised"]
 short_authors: Ng et al.
 ---

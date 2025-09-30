@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2020
 bibkey: warmerdam2020going
 citations: 0
-additional_links: [{name: Other, url: 'https://rasahq'}, {name: Paper, url: 'https://arxiv.org/abs/2009.02113'}]
+additional_links: [{name: Other, url: 'https://rasahq.github.io/whatlies/'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2009.02113'}]
 tags: ["Tools & Libraries"]
 short_authors: Vincent D. Warmerdam, Thomas Kober, Rachael Tatman
 ---

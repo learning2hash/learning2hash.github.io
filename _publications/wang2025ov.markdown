@@ -8,7 +8,8 @@ conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2025
 bibkey: wang2025ov
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2405.17913'}]
+additional_links: [{name: Code, url: 'https://github.com/xiaomoguhz/OV-DQUO'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2405.17913'}]
 tags: ["AAAI", "Evaluation", "Self-Supervised"]
 short_authors: Wang et al.
 ---

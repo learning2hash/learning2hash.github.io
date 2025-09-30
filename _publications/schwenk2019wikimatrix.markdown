@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2019
 bibkey: schwenk2019wikimatrix
 citations: 152
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1907.05791'}]
+additional_links: [{name: Code, url: 'https://github.com/facebookresearch/LASER/tree/master/tasks/WikiMatrix'},
+  {name: Paper, url: 'https://arxiv.org/abs/1907.05791'}]
 tags: ["Uncategorized"]
 short_authors: Schwenk et al.
 ---

@@ -8,7 +8,8 @@ conference: Proceedings of the ACM Web Conference 2024
 year: 2024
 bibkey: he2024bit
 citations: 3
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2403.06071'}]
+additional_links: [{name: Code, url: 'https://github.com/hly1998/BRCD'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2403.06071'}]
 tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Unsupervised"]
 short_authors: He et al.
 ---

@@ -6,7 +6,8 @@ conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2019
 bibkey: wang2019multi
 citations: 743
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1904.06627'}]
+additional_links: [{name: Code, url: 'https://github.com/MalongTech/research-ms-loss'},
+  {name: Paper, url: 'https://arxiv.org/abs/1904.06627'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Tools & Libraries"]
 short_authors: Wang et al.
 ---

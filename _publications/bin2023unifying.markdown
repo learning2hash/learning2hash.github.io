@@ -6,7 +6,8 @@ conference: Proceedings of the 31st ACM International Conference on Multimedia
 year: 2023
 bibkey: bin2023unifying
 citations: 18
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2308.04343'}]
+additional_links: [{name: Code, url: 'https://github.com/LuminosityX/HAT'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2308.04343'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Tools & Libraries"]
 short_authors: Bin et al.
 ---

@@ -6,7 +6,8 @@ conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: li2019visual
 citations: 499
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1909.02701'}]
+additional_links: [{name: Code, url: 'https://github.com/KunpengLi1994/VSRN'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1909.02701'}]
 tags: ["Datasets", "Evaluation", "ICCV", "Image Retrieval"]
 short_authors: Li et al.
 ---

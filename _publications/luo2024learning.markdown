@@ -6,7 +6,7 @@ conference: Arxiv
 year: 2024
 bibkey: luo2024learning
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Code, url: 'https://github'},
+additional_links: [{name: Code, url: 'https://github.com/Luo-Fangyuan/HashRec\'},
   {name: Paper, url: 'https://arxiv.org/abs/2412.03875'}]
 tags: ["Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Recommender Systems", "Scalability", "Survey Paper"]
 short_authors: Luo et al.

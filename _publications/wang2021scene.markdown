@@ -6,7 +6,8 @@ conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2021
 bibkey: wang2021scene
 citations: 41
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2104.01552'}]
+additional_links: [{name: Code, url: 'https://github.com/lanfeng4659/STR-TDSL'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2104.01552'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Text Retrieval", "Tools & Libraries"]
 short_authors: Wang et al.
 ---

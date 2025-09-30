@@ -6,7 +6,8 @@ conference: Lecture Notes in Computer Science
 year: 2023
 bibkey: leveni2023hashing
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2505.10873'}]
+additional_links: [{name: Code, url: 'https://github.com/ineveLoppiliF/Hashing-for-Structure-based-Anomaly-Detection'},
+  {name: Paper, url: 'https://arxiv.org/abs/2505.10873'}]
 tags: ["Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Leveni et al.
 ---

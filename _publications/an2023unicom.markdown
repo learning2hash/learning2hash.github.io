@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2023
 bibkey: an2023unicom
 citations: 10
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2304.05884'}]
+additional_links: [{name: Code, url: 'https://github.com/deepglint/unicom'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2304.05884'}]
 tags: ["Datasets", "Image Retrieval", "Scalability", "Supervised", "Unsupervised"]
 short_authors: An et al.
 ---

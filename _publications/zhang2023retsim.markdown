@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2023
 bibkey: zhang2023retsim
 citations: 0
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2311.17264'}]
+additional_links: [{name: Code, url: 'https://github.com/google/unisim'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2311.17264'}]
 tags: ["Datasets", "Evaluation", "Locality-Sensitive-Hashing", "Neural Hashing", "Robustness", "Text Retrieval"]
 short_authors: Zhang et al.
 ---

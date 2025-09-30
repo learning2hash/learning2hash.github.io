@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2024
 bibkey: li2024location
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2401.02187'}]
+additional_links: [{name: Code, url: 'https://github.com/haonan-li/LAMB'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2401.02187'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Haonan Li, Martin Tomko, Timothy Baldwin
 ---

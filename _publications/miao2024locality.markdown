@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2024
 bibkey: miao2024locality
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2402.12535'}]
+additional_links: [{name: Code, url: 'https://github.com/Graph-COM/HEPT'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2402.12535'}]
 tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Neural Hashing", "Scalability"]
 short_authors: Miao et al.
 ---

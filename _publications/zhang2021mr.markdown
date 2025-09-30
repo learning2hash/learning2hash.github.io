@@ -6,7 +6,8 @@ conference: Proceedings of the 1st Workshop on Multilingual Representation Learn
 year: 2021
 bibkey: zhang2021mr
 citations: 27
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2108.08787'}]
+additional_links: [{name: Code, url: 'https://github.com/castorini/mr.tydi'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2108.08787'}]
 tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Zhang et al.
 ---

@@ -6,7 +6,8 @@ conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2020
 bibkey: zhu2020dual
 citations: 39
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2006.05586'}]
+additional_links: [{name: Code, url: 'https://github.com/research2020-1/DSTDH'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2006.05586'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Memory Efficiency", "Neural Hashing", "Scalability", "Tools & Libraries", "Unsupervised"]
 short_authors: Zhu et al.
 ---

@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2021
 bibkey: tan2021bcd
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2112.05492'}]
+additional_links: [{name: Code, url: 'https://github.com/h4sh5/bcddb'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2112.05492'}]
 tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Tools & Libraries"]
 short_authors: Haoxi Tan
 ---

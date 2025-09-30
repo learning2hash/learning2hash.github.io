@@ -8,7 +8,8 @@ conference: Arxiv
 year: 2020
 bibkey: fu2020hard
 citations: 6
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2010.12238'}]
+additional_links: [{name: Code, url: 'https://github.com/3D-FRONT-FUTURE/IBSR-texture'},
+  {name: Paper, url: 'https://arxiv.org/abs/2010.12238'}]
 tags: ["Distance Metric Learning", "Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Fu et al.
 ---

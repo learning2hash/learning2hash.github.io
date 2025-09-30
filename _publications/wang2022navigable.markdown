@@ -8,7 +8,8 @@ conference: Arxiv
 year: 2022
 bibkey: wang2022navigable
 citations: 4
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2203.13601'}]
+additional_links: [{name: Code, url: 'https://github.com/AshenOn3/NHQ'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2203.13601'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Similarity Search", "Tools & Libraries"]
 short_authors: Wang et al.
 ---

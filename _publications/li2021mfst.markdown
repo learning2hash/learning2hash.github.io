@@ -6,7 +6,8 @@ conference: 2020 25th International Conference on Pattern Recognition (ICPR)
 year: 2021
 bibkey: li2021mfst
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2103.00810'}]
+additional_links: [{name: Code, url: 'https://github.com/zhenxili96/MFST'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2103.00810'}]
 tags: ["Evaluation", "Tools & Libraries"]
 short_authors: Zhenxi Li, Guillaume-Alexandre Bilodeau, Wassim Bouachir
 ---

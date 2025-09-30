@@ -7,7 +7,8 @@ conference: Proceedings of the VLDB Endowment
 year: 2025
 bibkey: hu2025hakes
 citations: 0
-additional_links: [{name: Other, url: 'https://www'}, {name: Paper, url: 'https://arxiv.org/abs/2505.12524'}]
+additional_links: [{name: Other, url: 'https://www.comp.nus.edu.sg/~dbsystem/hakes/'},
+  {name: Paper, url: 'https://arxiv.org/abs/2505.12524'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Graph Based ANN", "Neural Hashing", "Similarity Search", "Vector Indexing"]
 short_authors: Hu et al.
 ---

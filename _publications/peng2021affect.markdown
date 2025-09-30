@@ -9,7 +9,8 @@ conference: 2021 16th IEEE International Conference on Automatic Face and Gestur
 year: 2021
 bibkey: peng2021affect
 citations: 3
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2111.15271'}]
+additional_links: [{name: Code, url: 'https://github.com/KPeng9510/Affect-DML'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2111.15271'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Peng et al.
 ---

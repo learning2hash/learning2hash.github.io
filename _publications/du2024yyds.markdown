@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2024
 bibkey: du2024yyds
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2403.04183'}]
+additional_links: [{name: Code, url: 'https://github.com/dyhBUPT/YYDS'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2403.04183'}]
 tags: ["Datasets", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Yunhao Du, Zhicheng Zhao, Fei Su
 ---

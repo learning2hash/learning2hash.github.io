@@ -6,7 +6,7 @@ conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2019
 bibkey: chen2019hybrid
 citations: 66
-additional_links: [{name: Code, url: 'http://www'}, {name: Paper, url: 'https://arxiv.org/abs/1907.11832'}]
+additional_links: [{name: Code, url: 'http://www.bhchen.cn'}, {name: Paper, url: 'https://arxiv.org/abs/1907.11832'}]
 tags: ["CVPR", "Distance Metric Learning", "Few Shot & Zero Shot", "Image Retrieval", "Tools & Libraries"]
 short_authors: Binghui Chen, Weihong Deng
 ---

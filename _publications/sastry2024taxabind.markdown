@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2024
 bibkey: sastry2024taxabind
 citations: 2
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2411.00683'}]
+additional_links: [{name: Code, url: 'https://github.com/mvrl/TaxaBind'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2411.00683'}]
 tags: ["Datasets", "Few Shot & Zero Shot", "Neural Hashing"]
 short_authors: Sastry et al.
 ---

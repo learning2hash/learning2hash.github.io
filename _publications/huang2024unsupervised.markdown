@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2024
 bibkey: huang2024unsupervised
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2403.03516'}]
+additional_links: [{name: Code, url: 'https://github.com/MiuLab/UMR'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2403.03516'}]
 tags: ["Datasets", "Evaluation", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Huang et al.
 ---

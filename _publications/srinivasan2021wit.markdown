@@ -8,7 +8,8 @@ conference: Proceedings of the 44th International ACM SIGIR Conference on Resear
 year: 2021
 bibkey: srinivasan2021wit
 citations: 135
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2103.01913'}]
+additional_links: [{name: Code, url: 'https://github.com/google-research-datasets/wit'},
+  {name: Paper, url: 'https://arxiv.org/abs/2103.01913'}]
 tags: ["Datasets", "Evaluation", "SIGIR", "Text Retrieval"]
 short_authors: Srinivasan et al.
 ---

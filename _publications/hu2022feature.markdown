@@ -6,7 +6,8 @@ conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: hu2022feature
 citations: 12
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2207.09721'}]
+additional_links: [{name: Code, url: 'https://github.com/conghuihu/UCDIR'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2207.09721'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Conghui Hu, Gim Hee Lee
 ---

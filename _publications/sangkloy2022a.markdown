@@ -6,7 +6,8 @@ conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: sangkloy2022a
 citations: 25
-additional_links: [{name: Code, url: 'https://janesjanes'}, {name: Paper, url: 'https://arxiv.org/abs/2208.03354'}]
+additional_links: [{name: Code, url: 'https://janesjanes.github.io/tsbir/'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2208.03354'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Large Scale Search"]
 short_authors: Sangkloy et al.
 ---

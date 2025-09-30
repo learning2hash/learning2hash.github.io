@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2024
 bibkey: chen2024magicpig
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2410.16179'}]
+additional_links: [{name: Code, url: 'https://github.com/Infini-AI-Lab/MagicPIG'},
+  {name: Paper, url: 'https://arxiv.org/abs/2410.16179'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Chen et al.
 ---

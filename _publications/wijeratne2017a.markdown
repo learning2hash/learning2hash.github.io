@@ -6,7 +6,8 @@ conference: Proceedings of the International Conference on Web Intelligence
 year: 2017
 bibkey: wijeratne2017a
 citations: 42
-additional_links: [{name: Other, url: 'http://emojinet'}, {name: Paper, url: 'https://arxiv.org/abs/1707.04653'}]
+additional_links: [{name: Other, url: 'http://emojinet.knoesis.org/'}, {name: Paper,
+    url: 'https://arxiv.org/abs/1707.04653'}]
 tags: ["Datasets"]
 short_authors: Wijeratne et al.
 ---

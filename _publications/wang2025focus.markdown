@@ -8,7 +8,8 @@ conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2025
 bibkey: wang2025focus
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2504.09881'}]
+additional_links: [{name: Code, url: 'https://github.com/chenshunpeng/FoL'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2504.09881'}]
 tags: ["AAAI", "Datasets", "Efficiency", "Evaluation", "Hybrid ANN Methods", "Image Retrieval", "Re-Ranking", "Supervised"]
 short_authors: Wang et al.
 ---

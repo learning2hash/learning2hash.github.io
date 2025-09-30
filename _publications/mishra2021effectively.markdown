@@ -7,7 +7,8 @@ conference: 2021 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2021
 bibkey: mishra2021effectively
 citations: 4
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2105.01695'}]
+additional_links: [{name: Code, url: 'https://github.com/samarth4149/PAN'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2105.01695'}]
 tags: ["Datasets", "Evaluation", "ICCV"]
 short_authors: Mishra et al.
 ---

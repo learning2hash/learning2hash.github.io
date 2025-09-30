@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2024
 bibkey: berton2024earthloc
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2403.06758'}]
+additional_links: [{name: Code, url: 'https://github.com/gmberton/EarthLoc'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2403.06758'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Image Retrieval"]
 short_authors: Berton et al.
 ---

@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2024
 bibkey: ye2024where
 citations: 0
-additional_links: [{name: Other, url: 'https://yejy53'}, {name: Paper, url: 'https://arxiv.org/abs/2412.17007'}]
+additional_links: [{name: Other, url: 'https://yejy53.github.io/CVG-Text/'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2412.17007'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Text Retrieval"]
 short_authors: Ye et al.
 ---

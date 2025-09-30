@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2022
 bibkey: wang2022k
 citations: 10
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2203.17103'}]
+additional_links: [{name: Code, url: 'https://github.com/ShannonAI/KNN-NER'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2203.17103'}]
 tags: ["Datasets", "Few Shot & Zero Shot", "Tools & Libraries"]
 short_authors: Wang et al.
 ---

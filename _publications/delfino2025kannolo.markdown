@@ -7,7 +7,8 @@ conference: Lecture Notes in Computer Science
 year: 2025
 bibkey: delfino2025kannolo
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2501.06121'}]
+additional_links: [{name: Code, url: 'https://github.com/TusKANNy/kannolo'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2501.06121'}]
 tags: ["Distance Metric Learning", "Evaluation", "Quantization", "Recommender Systems", "Tools & Libraries"]
 short_authors: Delfino et al.
 ---

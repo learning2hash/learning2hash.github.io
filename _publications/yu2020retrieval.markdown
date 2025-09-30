@@ -7,7 +7,8 @@ conference: 2020 15th IEEE International Conference on Automatic Face and Gestur
 year: 2020
 bibkey: yu2020retrieval
 citations: 13
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2006.00174'}]
+additional_links: [{name: Code, url: 'https://github.com/gniknoil/FG2020-kinship'},
+  {name: Paper, url: 'https://arxiv.org/abs/2006.00174'}]
 tags: ["Datasets", "Distance Metric Learning"]
 short_authors: Yu et al.
 ---

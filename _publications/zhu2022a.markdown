@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2022
 bibkey: zhu2022a
 citations: 2
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.05899'}]
+additional_links: [{name: Code, url: 'https://github.com/VL-Group/LBHash'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2210.05899'}]
 tags: ["Distance Metric Learning", "Efficiency", "Evaluation", "Hashing Methods"]
 short_authors: Zhu et al.
 ---

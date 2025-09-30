@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2023
 bibkey: alibey2023global
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2302.14217'}]
+additional_links: [{name: Code, url: 'https://github.com/amaralibey/GPM'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2302.14217'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Scalability"]
 short_authors: "Amar Ali-Bey, Brahim Chaib-Draa, Philippe Gigu\xE8re"
 ---

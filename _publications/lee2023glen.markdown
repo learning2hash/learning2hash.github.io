@@ -7,7 +7,8 @@ conference: Proceedings of the 2023 Conference on Empirical Methods in Natural L
 year: 2023
 bibkey: lee2023glen
 citations: 3
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2311.03057'}]
+additional_links: [{name: Code, url: 'https://github.com/skleee/GLEN'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2311.03057'}]
 tags: ["Datasets", "EMNLP", "Evaluation", "Text Retrieval", "Vector Indexing"]
 short_authors: Sunkyung Lee, Minjin Choi, Jongwuk Lee
 ---

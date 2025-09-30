@@ -7,7 +7,8 @@ conference: 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2024
 bibkey: zhang2024kp
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2403.10099'}]
+additional_links: [{name: Code, url: 'https://github.com/lolrudy/KP-RED'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2403.10099'}]
 tags: ["CVPR", "Datasets", "Tools & Libraries"]
 short_authors: Zhang et al.
 ---

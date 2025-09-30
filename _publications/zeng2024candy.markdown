@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2024
 bibkey: zeng2024candy
 citations: 0
-additional_links: [{name: Other, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2406.19651'}]
+additional_links: [{name: Code, url: 'https://github.com/intellistream/candy'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2406.19651'}]
 tags: ["Datasets", "Efficiency", "Evaluation"]
 short_authors: Zeng et al.
 ---

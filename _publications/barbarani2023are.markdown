@@ -8,7 +8,8 @@ conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2023
 bibkey: barbarani2023are
 citations: 9
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2304.05887'}]
+additional_links: [{name: Code, url: 'https://github.com/gbarbarani/re-ranking-for-VPR'},
+  {name: Paper, url: 'https://arxiv.org/abs/2304.05887'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Hybrid ANN Methods", "Re-Ranking"]
 short_authors: Barbarani et al.
 ---

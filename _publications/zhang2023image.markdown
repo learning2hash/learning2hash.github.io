@@ -6,7 +6,8 @@ conference: 2023 IEEE International Conference on Multimedia and Expo (ICME)
 year: 2023
 bibkey: zhang2023image
 citations: 3
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2304.10254'}]
+additional_links: [{name: Code, url: 'https://github.com/ZhangXu0963/VSL'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2304.10254'}]
 tags: ["Datasets", "Evaluation", "Multimodal Retrieval", "Text Retrieval"]
 short_authors: Zhang et al.
 ---

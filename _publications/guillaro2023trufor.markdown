@@ -8,7 +8,8 @@ conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2023
 bibkey: guillaro2023trufor
 citations: 75
-additional_links: [{name: Code, url: 'https://grip-unina'}, {name: Paper, url: 'https://arxiv.org/abs/2212.10957'}]
+additional_links: [{name: Code, url: 'https://grip-unina.github.io/TruFor/'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2212.10957'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Neural Hashing", "Self-Supervised", "Supervised", "Tools & Libraries"]
 short_authors: Guillaro et al.
 ---

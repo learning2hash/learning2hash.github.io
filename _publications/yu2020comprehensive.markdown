@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2020
 bibkey: yu2020comprehensive
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2012.13538'}]
+additional_links: [{name: Code, url: 'https://github.com/Atmegal/DGCPN'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2012.13538'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Quantization", "Unsupervised"]
 short_authors: Yu et al.
 ---

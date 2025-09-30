@@ -6,7 +6,8 @@ conference: 2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
 year: 2025
 bibkey: matsui2025lotusfilter
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2506.04790'}]
+additional_links: [{name: Code, url: 'https://github.com/matsui528/lotf'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2506.04790'}]
 tags: ["CVPR", "Re-Ranking"]
 short_authors: Yusuke Matsui
 ---

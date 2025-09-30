@@ -7,7 +7,8 @@ conference: 2023 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2023
 bibkey: shao2023global
 citations: 24
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2308.06954'}]
+additional_links: [{name: Code, url: 'https://github.com/ShihaoShao-GH/SuperGlobal'},
+  {name: Paper, url: 'https://arxiv.org/abs/2308.06954'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "ICCV", "Image Retrieval", "Scalability"]
 short_authors: Shao et al.
 ---

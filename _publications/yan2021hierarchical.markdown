@@ -7,7 +7,8 @@ conference: ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speec
 year: 2021
 bibkey: yan2021hierarchical
 citations: 32
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2102.09186'}]
+additional_links: [{name: Code, url: 'https://github.com/YanLiqi/HAF'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2102.09186'}]
 tags: ["Evaluation", "ICASSP", "Image Retrieval", "Scalability", "Self-Supervised", "Supervised"]
 short_authors: Yan et al.
 ---

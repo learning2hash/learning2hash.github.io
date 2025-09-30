@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2023
 bibkey: desai2023hyperbolic
 citations: 2
-additional_links: [{name: Code, url: 'https://www'}, {name: Paper, url: 'https://arxiv.org/abs/2304.09172'}]
+additional_links: [{name: Code, url: 'https://www.github.com/facebookresearch/meru'},
+  {name: Paper, url: 'https://arxiv.org/abs/2304.09172'}]
 tags: ["Datasets", "Evaluation", "Scalability", "Text Retrieval"]
 short_authors: Desai et al.
 ---

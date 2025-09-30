@@ -6,7 +6,8 @@ conference: Proceedings of the 2024 SIAM International Conference on Data Mining
 year: 2024
 bibkey: cheng2024an
 citations: 6
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2309.06789'}]
+additional_links: [{name: Code, url: 'https://github.com/westlake-repl/PixelRec'},
+  {name: Paper, url: 'https://arxiv.org/abs/2309.06789'}]
 tags: ["Datasets", "Recommender Systems"]
 short_authors: Cheng et al.
 ---

@@ -7,7 +7,8 @@ conference: ACM Transactions on Multimedia Computing, Communications, and Applic
 year: 2023
 bibkey: baldrati2023composed
 citations: 19
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2308.11485'}]
+additional_links: [{name: Code, url: 'https://github.com/ABaldrati/CLIP4Cir'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2308.11485'}]
 tags: ["Datasets", "Image Retrieval", "Scalability", "Self-Supervised"]
 short_authors: Baldrati et al.
 ---

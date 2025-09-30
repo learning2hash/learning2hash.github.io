@@ -6,7 +6,8 @@ conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: gabeur2020multi
 citations: 497
-additional_links: [{name: Code, url: 'http://thoth'}, {name: Paper, url: 'https://arxiv.org/abs/2007.10639'}]
+additional_links: [{name: Code, url: 'http://thoth.inrialpes.fr/research/MMT'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2007.10639'}]
 tags: ["Datasets", "Tools & Libraries", "Video Retrieval"]
 short_authors: Gabeur et al.
 ---

@@ -6,7 +6,8 @@ conference: Machine Vision and Applications
 year: 2021
 bibkey: li2021multiple
 citations: 6
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2103.01222'}]
+additional_links: [{name: Code, url: 'https://github.com/zhenxili96/MFST'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2103.01222'}]
 tags: ["Evaluation", "Tools & Libraries"]
 short_authors: Zhenxi Li, Guillaume-Alexandre Bilodeau, Wassim Bouachir
 ---

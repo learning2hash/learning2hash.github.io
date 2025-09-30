@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2021
 bibkey: chen2021ideal
 citations: 1
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2105.10112'}]
+additional_links: [{name: Code, url: 'https://github.com/emdata-ailab/IDEAL*'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2105.10112'}]
 tags: ["Distance Metric Learning", "Evaluation", "Image Retrieval"]
 short_authors: Chen et al.
 ---

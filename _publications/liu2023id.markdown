@@ -7,7 +7,8 @@ conference: Arxiv
 year: 2023
 bibkey: liu2023id
 citations: 1
-additional_links: [{name: Code, url: 'https://anonymous'}, {name: Paper, url: 'https://arxiv.org/abs/2311.05956'}]
+additional_links: [{name: Code, url: 'https://anonymous.4open.science/r/IDSF-code/'},
+  {name: Paper, url: 'https://arxiv.org/abs/2311.05956'}]
 tags: ["Datasets", "Evaluation", "Recommender Systems", "Self-Supervised"]
 short_authors: Liu et al.
 ---

@@ -6,7 +6,8 @@ conference: Arxiv
 year: 2025
 bibkey: jeong20254bit
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2501.10534'}]
+additional_links: [{name: Code, url: 'https://github.com/taeheej/4bit-Quantization-in-Vector-Embedding-for-RAG'},
+  {name: Paper, url: 'https://arxiv.org/abs/2501.10534'}]
 tags: ["Evaluation", "Quantization"]
 short_authors: Taehee Jeong
 ---
