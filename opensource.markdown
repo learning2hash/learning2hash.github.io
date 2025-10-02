@@ -101,13 +101,14 @@ description: A searchable list of open-source Learning to Hash tools
   .tags-display .tag-chip{ font-size:.70rem; padding:.15rem .45rem; gap:.25rem; line-height:1.0; }
 </style>
 
-<!-- Dependencies -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
-<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" />
-<script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js"></script>
-<script src="https://d3js.org/d3.v7.min.js"></script>
+<!-- Dependencies (self-hosted to survive corporate blockers). 
+     Put these files under /assets/vendor/ in your repo. -->
+<script src="{{ '/assets/vendor/jquery-3.6.0.min.js' | relative_url }}" defer></script>
+<link rel="stylesheet" href="{{ '/assets/vendor/datatables-1.13.6.min.css' | relative_url }}">
+<script src="{{ '/assets/vendor/datatables-1.13.6.min.js' | relative_url }}" defer></script>
+<link rel="stylesheet" href="{{ '/assets/vendor/dataTables.responsive-2.5.0.min.css' | relative_url }}">
+<script src="{{ '/assets/vendor/dataTables.responsive-2.5.0.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/vendor/d3.v7.min.js' | relative_url }}" defer></script>
 
 <script>
   var datatable;
@@ -152,10 +153,18 @@ description: A searchable list of open-source Learning to Hash tools
     updateVisibleCount();
   }
 
-  $(document).ready(function () {
-    $('#loading').show();
+  document.addEventListener('DOMContentLoaded', function () {
+    const loading = document.getElementById('loading');
+    if (!window.jQuery) { if (loading) loading.innerHTML = '<p style="color:#b00020">Failed to load: jQuery missing.</p>'; return; }
+    if (!jQuery.fn || !jQuery.fn.dataTable) { if (loading) loading.innerHTML = '<p style="color:#b00020">Failed to load: DataTables missing.</p>'; return; }
+    if (!window.d3 || !d3.csv) { if (loading) loading.innerHTML = '<p style="color:#b00020">Failed to load: D3 missing.</p>'; return; }
 
-    d3.csv("github_topics.csv").then(function (data) {
+    jQuery('#loading').show();
+
+    // Base-path safe CSV (works at / or under subfolders)
+    const CSV_URL = "{{ '/github_topics.csv' | relative_url }}";
+
+    d3.csv(CSV_URL).then(function (data) {
       const rows = data.map(function (tool) {
         const github = (tool.repo || "").trim();
         const repo_url = "https://github.com/" + github;
@@ -181,7 +190,7 @@ description: A searchable list of open-source Learning to Hash tools
         ];
       });
 
-      const dt = $('#tools-table').DataTable({
+      const dt = jQuery('#tools-table').DataTable({
         data: rows,
         columns: [
           { title: "Repo" },
@@ -213,18 +222,20 @@ description: A searchable list of open-source Learning to Hash tools
         ],
         initComplete: function () {
           datatable = this.api();
-          $('#loading').hide();
-          $('#tools-table').show();
+          jQuery('#loading').hide();
+          jQuery('#tools-table').show();
           initToolsSearchBar();
           datatable.on('draw', updateVisibleCount);
+          // Adjust measurements in case table was hidden
+          setTimeout(() => { datatable.columns().every(() => {}); datatable.columns.adjust().responsive.recalc(); }, 0);
           updateVisibleCount();
         }
       });
 
     }).catch(function (error) {
-      console.error("Error loading github_topics.csv:", error);
-      $('#tools-table').after(`<div style="color:red; margin-top:10px;">Failed to load data.</div>`);
-      $('#loading').hide();
+      console.error("Error loading CSV:", error);
+      jQuery('#tools-table').after(`<div style="color:red; margin-top:10px;">Failed to load data (CSV unreachable or blocked).</div>`);
+      jQuery('#loading').hide();
     });
   });
 </script>
