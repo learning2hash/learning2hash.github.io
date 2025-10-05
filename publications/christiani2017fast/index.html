@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/christiani2017fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T06:13:47-05:00" />
+<meta property="article:published_time" content="2025-10-05T06:48:55-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast Locality-sensitive Hashing Frameworks For Approximate Near Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:13:47-05:00","datePublished":"2025-10-05T06:13:47-05:00","description":"The Indyk-Motwani Locality-Sensitive Hashing (LSH) framework (STOC 1998) is a general technique for constructing a data structure to answer approximate near neighbor queries by using a distribution (\\mathcal{H}) over locality-sensitive hash functions that partition space. For a collection of (n) points, after preprocessing, the query time is dominated by (O(n^{\\rho} log n)) evaluations of hash functions from (\\mathcal{H}) and (O(n^{\\rho})) hash table lookups and distance computations where (\\rho \\in (0,1)) is determined by the locality-sensitivity properties of (\\mathcal{H}). It follows from a recent result by Dahlgaard et al. (FOCS 2017) that the number of locality-sensitive hash functions can be reduced to (O(log^2 n)), leaving the query time to be dominated by (O(n^{\\rho})) distance computations and (O(n^{\\rho} log n)) additional word-RAM operations. We state this result as a general framework and provide a simpler analysis showing that the number of lookups and distance computations closely match the Indyk-Motwani framework, making it a viable replacement in practice. Using ideas from another locality-sensitive hashing framework by Andoni and Indyk (SODA 2006) we are able to reduce the number of additional word-RAM operations to (O(n^\\rho)).","headline":"Fast Locality-sensitive Hashing Frameworks For Approximate Near Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/christiani2017fast/"},"url":"https://learning2hash.github.io/publications/christiani2017fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:48:55-05:00","datePublished":"2025-10-05T06:48:55-05:00","description":"The Indyk-Motwani Locality-Sensitive Hashing (LSH) framework (STOC 1998) is a general technique for constructing a data structure to answer approximate near neighbor queries by using a distribution (\\mathcal{H}) over locality-sensitive hash functions that partition space. For a collection of (n) points, after preprocessing, the query time is dominated by (O(n^{\\rho} log n)) evaluations of hash functions from (\\mathcal{H}) and (O(n^{\\rho})) hash table lookups and distance computations where (\\rho \\in (0,1)) is determined by the locality-sensitivity properties of (\\mathcal{H}). It follows from a recent result by Dahlgaard et al. (FOCS 2017) that the number of locality-sensitive hash functions can be reduced to (O(log^2 n)), leaving the query time to be dominated by (O(n^{\\rho})) distance computations and (O(n^{\\rho} log n)) additional word-RAM operations. We state this result as a general framework and provide a simpler analysis showing that the number of lookups and distance computations closely match the Indyk-Motwani framework, making it a viable replacement in practice. Using ideas from another locality-sensitive hashing framework by Andoni and Indyk (SODA 2006) we are able to reduce the number of additional word-RAM operations to (O(n^\\rho)).","headline":"Fast Locality-sensitive Hashing Frameworks For Approximate Near Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/christiani2017fast/"},"url":"https://learning2hash.github.io/publications/christiani2017fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -228,19 +228,24 @@ additional word-RAM operations to (O(n^\rho)).</p>
   <!-- Share Buttons -->
   <h6>Share this Paper</h6>
   <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
-    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
-    <button id="share-copy" title="Copy Link">🔗</button>
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
   </div>
 
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work section
+      // Similar work loading
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/christiani2017fast.json";
-
         fetch(metaPath, { credentials: 'same-origin' })
           .then(function (res) {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -261,7 +266,7 @@ additional word-RAM operations to (O(n^\rho)).</p>
           });
       }
 
-      // Share buttons
+      // Share button logic
       const pageUrl = encodeURIComponent(window.location.href);
       const pageTitle = encodeURIComponent(document.title);
 
@@ -271,20 +276,22 @@ additional word-RAM operations to (O(n^\rho)).</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
         });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            alert('✅ Link copied to clipboard!');
+            // Brief, non-blocking feedback
+            copyBtn.classList.add('copied');
+            setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
         });
       }
@@ -293,19 +300,31 @@ additional word-RAM operations to (O(n^\rho)).</p>
 
   <!-- Optional CSS -->
   <style>
-    .share-buttons button {
+    .share-buttons {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .icon-btn {
       background: #f2f2f2;
       border: none;
-      border-radius: 6px;
-      margin-right: 6px;
+      border-radius: 8px;
       padding: 6px 10px;
-      font-size: 1.2em;
       cursor: pointer;
-      transition: background 0.2s;
+      transition: background 0.2s, transform 0.05s;
+      line-height: 0; /* tight around the icon */
     }
-    .share-buttons button:hover {
-      background: #e0e0e0;
+    .icon-btn:hover { background: #e7e7e7; }
+    .icon-btn:active { transform: translateY(1px); }
+    .icon-btn img {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
     }
+    /* Subtle visual confirmation on copy */
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

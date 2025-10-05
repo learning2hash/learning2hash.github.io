@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ji2018attribute/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T06:13:47-05:00" />
+<meta property="article:published_time" content="2025-10-05T06:48:55-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Attribute-guided Network For Cross-modal Zero-shot Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:13:47-05:00","datePublished":"2025-10-05T06:13:47-05:00","description":"Zero-Shot Hashing aims at learning a hashing model that is trained only by instances from seen categories but can generate well to those of unseen categories. Typically, it is achieved by utilizing a semantic embedding space to transfer knowledge from seen domain to unseen domain. Existing efforts mainly focus on single-modal retrieval task, especially Image-Based Image Retrieval (IBIR). However, as a highlighted research topic in the field of hashing, cross-modal retrieval is more common in real world applications. To address the Cross-Modal Zero-Shot Hashing (CMZSH) retrieval task, we propose a novel Attribute-Guided Network (AgNet), which can perform not only IBIR, but also Text-Based Image Retrieval (TBIR). In particular, AgNet aligns different modal data into a semantically rich attribute space, which bridges the gap caused by modality heterogeneity and zero-shot setting. We also design an effective strategy that exploits the attribute to guide the generation of hash codes for image and text within the same network. Extensive experimental results on three benchmark datasets (AwA, SUN, and ImageNet) demonstrate the superiority of AgNet on both cross-modal and single-modal zero-shot image retrieval tasks.","headline":"Attribute-guided Network For Cross-modal Zero-shot Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ji2018attribute/"},"url":"https://learning2hash.github.io/publications/ji2018attribute/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:48:55-05:00","datePublished":"2025-10-05T06:48:55-05:00","description":"Zero-Shot Hashing aims at learning a hashing model that is trained only by instances from seen categories but can generate well to those of unseen categories. Typically, it is achieved by utilizing a semantic embedding space to transfer knowledge from seen domain to unseen domain. Existing efforts mainly focus on single-modal retrieval task, especially Image-Based Image Retrieval (IBIR). However, as a highlighted research topic in the field of hashing, cross-modal retrieval is more common in real world applications. To address the Cross-Modal Zero-Shot Hashing (CMZSH) retrieval task, we propose a novel Attribute-Guided Network (AgNet), which can perform not only IBIR, but also Text-Based Image Retrieval (TBIR). In particular, AgNet aligns different modal data into a semantically rich attribute space, which bridges the gap caused by modality heterogeneity and zero-shot setting. We also design an effective strategy that exploits the attribute to guide the generation of hash codes for image and text within the same network. Extensive experimental results on three benchmark datasets (AwA, SUN, and ImageNet) demonstrate the superiority of AgNet on both cross-modal and single-modal zero-shot image retrieval tasks.","headline":"Attribute-guided Network For Cross-modal Zero-shot Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ji2018attribute/"},"url":"https://learning2hash.github.io/publications/ji2018attribute/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -232,19 +232,24 @@ retrieval tasks.</p>
   <!-- Share Buttons -->
   <h6>Share this Paper</h6>
   <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
-    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
-    <button id="share-copy" title="Copy Link">🔗</button>
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
   </div>
 
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work section
+      // Similar work loading
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/ji2018attribute.json";
-
         fetch(metaPath, { credentials: 'same-origin' })
           .then(function (res) {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -265,7 +270,7 @@ retrieval tasks.</p>
           });
       }
 
-      // Share buttons
+      // Share button logic
       const pageUrl = encodeURIComponent(window.location.href);
       const pageTitle = encodeURIComponent(document.title);
 
@@ -275,20 +280,22 @@ retrieval tasks.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
         });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            alert('✅ Link copied to clipboard!');
+            // Brief, non-blocking feedback
+            copyBtn.classList.add('copied');
+            setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
         });
       }
@@ -297,19 +304,31 @@ retrieval tasks.</p>
 
   <!-- Optional CSS -->
   <style>
-    .share-buttons button {
+    .share-buttons {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .icon-btn {
       background: #f2f2f2;
       border: none;
-      border-radius: 6px;
-      margin-right: 6px;
+      border-radius: 8px;
       padding: 6px 10px;
-      font-size: 1.2em;
       cursor: pointer;
-      transition: background 0.2s;
+      transition: background 0.2s, transform 0.05s;
+      line-height: 0; /* tight around the icon */
     }
-    .share-buttons button:hover {
-      background: #e0e0e0;
+    .icon-btn:hover { background: #e7e7e7; }
+    .icon-btn:active { transform: translateY(1px); }
+    .icon-btn img {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
     }
+    /* Subtle visual confirmation on copy */
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/han2024crd/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T06:13:47-05:00" />
+<meta property="article:published_time" content="2025-10-05T06:48:55-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="CRD: Collaborative Representation Distance For Practical Anomaly Detection" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:13:47-05:00","datePublished":"2025-10-05T06:13:47-05:00","description":"Visual defect detection plays an important role in intelligent industry. Patch based methods consider visual images as a collection of image patches according to positions, which have stronger discriminative ability for small defects in products, e.g. scratches on pills. However, the nearest neighbor search for the query image and the stored patches will occupy (O(n)) complexity in terms of time and space requirements, posing strict challenges for deployment in edge environments. In this paper, we propose an alternative approach to the distance calculation of image patches via collaborative representation models. Starting from the nearest neighbor distance with (L_0) constraint, we relax the constraint to (L_2) constraint and solve the distance quickly in close-formed without actually accessing the original stored collection of image patches. Furthermore, we point out that the main computational burden of this close-formed solution can be pre-computed by high-performance server before deployment. Consequently, the distance calculation on edge devices only requires a simple matrix multiplication, which is extremely lightweight and GPU-friendly. Performance on real industrial scenarios demonstrates that compared to the existing state-of-the-art methods, this distance achieves several hundred times improvement in computational efficiency with slight performance drop, while greatly reducing memory overhead.","headline":"CRD: Collaborative Representation Distance For Practical Anomaly Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/han2024crd/"},"url":"https://learning2hash.github.io/publications/han2024crd/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:48:55-05:00","datePublished":"2025-10-05T06:48:55-05:00","description":"Visual defect detection plays an important role in intelligent industry. Patch based methods consider visual images as a collection of image patches according to positions, which have stronger discriminative ability for small defects in products, e.g. scratches on pills. However, the nearest neighbor search for the query image and the stored patches will occupy (O(n)) complexity in terms of time and space requirements, posing strict challenges for deployment in edge environments. In this paper, we propose an alternative approach to the distance calculation of image patches via collaborative representation models. Starting from the nearest neighbor distance with (L_0) constraint, we relax the constraint to (L_2) constraint and solve the distance quickly in close-formed without actually accessing the original stored collection of image patches. Furthermore, we point out that the main computational burden of this close-formed solution can be pre-computed by high-performance server before deployment. Consequently, the distance calculation on edge devices only requires a simple matrix multiplication, which is extremely lightweight and GPU-friendly. Performance on real industrial scenarios demonstrates that compared to the existing state-of-the-art methods, this distance achieves several hundred times improvement in computational efficiency with slight performance drop, while greatly reducing memory overhead.","headline":"CRD: Collaborative Representation Distance For Practical Anomaly Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/han2024crd/"},"url":"https://learning2hash.github.io/publications/han2024crd/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -227,19 +227,24 @@ overhead.</p>
   <!-- Share Buttons -->
   <h6>Share this Paper</h6>
   <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
-    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
-    <button id="share-copy" title="Copy Link">🔗</button>
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
   </div>
 
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work section
+      // Similar work loading
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/han2024crd.json";
-
         fetch(metaPath, { credentials: 'same-origin' })
           .then(function (res) {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -260,7 +265,7 @@ overhead.</p>
           });
       }
 
-      // Share buttons
+      // Share button logic
       const pageUrl = encodeURIComponent(window.location.href);
       const pageTitle = encodeURIComponent(document.title);
 
@@ -270,20 +275,22 @@ overhead.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
         });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            alert('✅ Link copied to clipboard!');
+            // Brief, non-blocking feedback
+            copyBtn.classList.add('copied');
+            setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
         });
       }
@@ -292,19 +299,31 @@ overhead.</p>
 
   <!-- Optional CSS -->
   <style>
-    .share-buttons button {
+    .share-buttons {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .icon-btn {
       background: #f2f2f2;
       border: none;
-      border-radius: 6px;
-      margin-right: 6px;
+      border-radius: 8px;
       padding: 6px 10px;
-      font-size: 1.2em;
       cursor: pointer;
-      transition: background 0.2s;
+      transition: background 0.2s, transform 0.05s;
+      line-height: 0; /* tight around the icon */
     }
-    .share-buttons button:hover {
-      background: #e0e0e0;
+    .icon-btn:hover { background: #e7e7e7; }
+    .icon-btn:active { transform: translateY(1px); }
+    .icon-btn img {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
     }
+    /* Subtle visual confirmation on copy */
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

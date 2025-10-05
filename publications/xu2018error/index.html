@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/xu2018error/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T06:13:47-05:00" />
+<meta property="article:published_time" content="2025-10-05T06:48:55-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Error Correction Maximization For Deep Image Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:13:47-05:00","datePublished":"2025-10-05T06:13:47-05:00","description":"We propose to use the concept of the Hamming bound to derive the optimal criteria for learning hash codes with a deep network. In particular, when the number of binary hash codes (typically the number of image categories) and code length are known, it is possible to derive an upper bound on the minimum Hamming distance between the hash codes. This upper bound can then be used to define the loss function for learning hash codes. By encouraging the margin (minimum Hamming distance) between the hash codes of different image categories to match the upper bound, we are able to learn theoretically optimal hash codes. Our experiments show that our method significantly outperforms competing deep learning-based approaches and obtains top performance on benchmark datasets.","headline":"Error Correction Maximization For Deep Image Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xu2018error/"},"url":"https://learning2hash.github.io/publications/xu2018error/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:48:55-05:00","datePublished":"2025-10-05T06:48:55-05:00","description":"We propose to use the concept of the Hamming bound to derive the optimal criteria for learning hash codes with a deep network. In particular, when the number of binary hash codes (typically the number of image categories) and code length are known, it is possible to derive an upper bound on the minimum Hamming distance between the hash codes. This upper bound can then be used to define the loss function for learning hash codes. By encouraging the margin (minimum Hamming distance) between the hash codes of different image categories to match the upper bound, we are able to learn theoretically optimal hash codes. Our experiments show that our method significantly outperforms competing deep learning-based approaches and obtains top performance on benchmark datasets.","headline":"Error Correction Maximization For Deep Image Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xu2018error/"},"url":"https://learning2hash.github.io/publications/xu2018error/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -224,19 +224,24 @@ datasets.</p>
   <!-- Share Buttons -->
   <h6>Share this Paper</h6>
   <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
-    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
-    <button id="share-copy" title="Copy Link">🔗</button>
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
   </div>
 
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work section
+      // Similar work loading
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/xu2018error.json";
-
         fetch(metaPath, { credentials: 'same-origin' })
           .then(function (res) {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -257,7 +262,7 @@ datasets.</p>
           });
       }
 
-      // Share buttons
+      // Share button logic
       const pageUrl = encodeURIComponent(window.location.href);
       const pageTitle = encodeURIComponent(document.title);
 
@@ -267,20 +272,22 @@ datasets.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
         });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            alert('✅ Link copied to clipboard!');
+            // Brief, non-blocking feedback
+            copyBtn.classList.add('copied');
+            setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
         });
       }
@@ -289,19 +296,31 @@ datasets.</p>
 
   <!-- Optional CSS -->
   <style>
-    .share-buttons button {
+    .share-buttons {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .icon-btn {
       background: #f2f2f2;
       border: none;
-      border-radius: 6px;
-      margin-right: 6px;
+      border-radius: 8px;
       padding: 6px 10px;
-      font-size: 1.2em;
       cursor: pointer;
-      transition: background 0.2s;
+      transition: background 0.2s, transform 0.05s;
+      line-height: 0; /* tight around the icon */
     }
-    .share-buttons button:hover {
-      background: #e0e0e0;
+    .icon-btn:hover { background: #e7e7e7; }
+    .icon-btn:active { transform: translateY(1px); }
+    .icon-btn img {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
     }
+    /* Subtle visual confirmation on copy */
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

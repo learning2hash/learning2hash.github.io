@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ahle2019subsets/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T06:13:47-05:00" />
+<meta property="article:published_time" content="2025-10-05T06:48:55-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Subsets And Supermajorities: Optimal Hashing-based Set Similarity Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:13:47-05:00","datePublished":"2025-10-05T06:13:47-05:00","description":"We formulate and optimally solve a new generalized Set Similarity Search problem, which assumes the size of the database and query sets are known in advance. By creating polylog copies of our data-structure, we optimally solve any symmetric Approximate Set Similarity Search problem, including approximate versions of Subset Search, Maximum Inner Product Search (MIPS), Jaccard Similarity Search and Partial Match. Our algorithm can be seen as a natural generalization of previous work on Set as well as Euclidean Similarity Search, but conceptually it differs by optimally exploiting the information present in the sets as well as their complements, and doing so asymmetrically between queries and stored sets. Doing so we improve upon the best previous work: MinHash [J. Discrete Algorithms 1998], SimHash [STOC 2002], Spherical LSF [SODA 2016, 2017] and Chosen Path [STOC 2017] by as much as a factor (n^{0.14}) in both time and space; or in the near-constant time regime, in space, by an arbitrarily large polynomial factor. Turning the geometric concept, based on Boolean supermajority functions, into a practical algorithm requires ideas from branching random walks on (\\mathbb Z^2), for which we give the first non-asymptotic near tight analysis. Our lower bounds follow from new hypercontractive arguments, which can be seen as characterizing the exact family of similarity search problems for which supermajorities are optimal. The optimality holds for among all hashing based data structures in the random setting, and by reductions, for 1 cell and 2 cell probe data structures. As a side effect, we obtain new hypercontractive bounds on the directed noise operator (T^{p_1 \\to p_2}_\\rho).","headline":"Subsets And Supermajorities: Optimal Hashing-based Set Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ahle2019subsets/"},"url":"https://learning2hash.github.io/publications/ahle2019subsets/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:48:55-05:00","datePublished":"2025-10-05T06:48:55-05:00","description":"We formulate and optimally solve a new generalized Set Similarity Search problem, which assumes the size of the database and query sets are known in advance. By creating polylog copies of our data-structure, we optimally solve any symmetric Approximate Set Similarity Search problem, including approximate versions of Subset Search, Maximum Inner Product Search (MIPS), Jaccard Similarity Search and Partial Match. Our algorithm can be seen as a natural generalization of previous work on Set as well as Euclidean Similarity Search, but conceptually it differs by optimally exploiting the information present in the sets as well as their complements, and doing so asymmetrically between queries and stored sets. Doing so we improve upon the best previous work: MinHash [J. Discrete Algorithms 1998], SimHash [STOC 2002], Spherical LSF [SODA 2016, 2017] and Chosen Path [STOC 2017] by as much as a factor (n^{0.14}) in both time and space; or in the near-constant time regime, in space, by an arbitrarily large polynomial factor. Turning the geometric concept, based on Boolean supermajority functions, into a practical algorithm requires ideas from branching random walks on (\\mathbb Z^2), for which we give the first non-asymptotic near tight analysis. Our lower bounds follow from new hypercontractive arguments, which can be seen as characterizing the exact family of similarity search problems for which supermajorities are optimal. The optimality holds for among all hashing based data structures in the random setting, and by reductions, for 1 cell and 2 cell probe data structures. As a side effect, we obtain new hypercontractive bounds on the directed noise operator (T^{p_1 \\to p_2}_\\rho).","headline":"Subsets And Supermajorities: Optimal Hashing-based Set Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ahle2019subsets/"},"url":"https://learning2hash.github.io/publications/ahle2019subsets/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -232,19 +232,24 @@ on the directed noise operator (T^{p_1 \to p_2}_\rho).</p>
   <!-- Share Buttons -->
   <h6>Share this Paper</h6>
   <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
-    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
-    <button id="share-copy" title="Copy Link">🔗</button>
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
   </div>
 
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work section
+      // Similar work loading
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/ahle2019subsets.json";
-
         fetch(metaPath, { credentials: 'same-origin' })
           .then(function (res) {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -265,7 +270,7 @@ on the directed noise operator (T^{p_1 \to p_2}_\rho).</p>
           });
       }
 
-      // Share buttons
+      // Share button logic
       const pageUrl = encodeURIComponent(window.location.href);
       const pageTitle = encodeURIComponent(document.title);
 
@@ -275,20 +280,22 @@ on the directed noise operator (T^{p_1 \to p_2}_\rho).</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
         });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            alert('✅ Link copied to clipboard!');
+            // Brief, non-blocking feedback
+            copyBtn.classList.add('copied');
+            setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
         });
       }
@@ -297,19 +304,31 @@ on the directed noise operator (T^{p_1 \to p_2}_\rho).</p>
 
   <!-- Optional CSS -->
   <style>
-    .share-buttons button {
+    .share-buttons {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .icon-btn {
       background: #f2f2f2;
       border: none;
-      border-radius: 6px;
-      margin-right: 6px;
+      border-radius: 8px;
       padding: 6px 10px;
-      font-size: 1.2em;
       cursor: pointer;
-      transition: background 0.2s;
+      transition: background 0.2s, transform 0.05s;
+      line-height: 0; /* tight around the icon */
     }
-    .share-buttons button:hover {
-      background: #e0e0e0;
+    .icon-btn:hover { background: #e7e7e7; }
+    .icon-btn:active { transform: translateY(1px); }
+    .icon-btn img {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
     }
+    /* Subtle visual confirmation on copy */
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 
