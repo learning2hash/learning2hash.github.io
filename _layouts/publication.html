@@ -21,17 +21,16 @@ layout: default
     {% endif %}
   </h5>
 
-  <!-- Share Buttons (moved near top) -->
-  <h6>Share this Paper</h6>
-  <div class="share-buttons" style="margin-bottom: 1em;">
+  <!-- Minimal Inline Share Buttons -->
+  <div class="share-buttons">
     <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon">
     </button>
     <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon">
     </button>
     <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+      <img src="/public/media/link.svg" alt="Copy link icon">
     </button>
   </div>
 
@@ -59,28 +58,22 @@ layout: default
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work loading
+      // Load similar work dynamically
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/{{ page.path | replace_first: '_publications/', '' | replace: '.markdown', '' | replace: '.md', '' }}.json";
         fetch(metaPath, { credentials: 'same-origin' })
-          .then(function (res) {
+          .then(res => {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
             return res.json();
           })
-          .then(function (data) {
+          .then(data => {
             if (!Array.isArray(data)) return;
             relwork.innerHTML = data
-              .map(function (d) {
-                var slug = d[0];
-                var title = d[1];
-                return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
-              })
+              .map(d => `<li><a href="/publications/${d[0]}">${d[1]}</a></li>`)
               .join('');
           })
-          .catch(function (err) {
-            console.warn("Failed to load similar work JSON:", err);
-          });
+          .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
       // Share button logic
@@ -114,30 +107,47 @@ layout: default
     });
   </script>
 
-  <!-- Optional CSS -->
+  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
-      gap: 8px;
+      gap: 6px;
       align-items: center;
+      margin: 0.4em 0 1em 0;
+      opacity: 0.9;
       flex-wrap: wrap;
     }
+
     .icon-btn {
-      background: #f2f2f2;
+      background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px 10px;
+      padding: 6px;
       cursor: pointer;
-      transition: background 0.2s, transform 0.05s;
+      transition: all 0.15s ease;
       line-height: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-    .icon-btn:hover { background: #e7e7e7; }
-    .icon-btn:active { transform: translateY(1px); }
+
     .icon-btn img {
-      width: 20px;
-      height: 20px;
-      vertical-align: middle;
+      width: 18px;
+      height: 18px;
+      opacity: 0.65;
+      display: block;        /* ✅ removes bottom space */
     }
-    .icon-btn.copied { background: #d9f7e6; }
+
+    .icon-btn:hover {
+      background: #e9e9e9;
+    }
+
+    .icon-btn:hover img {
+      opacity: 1;
+    }
+
+    .icon-btn.copied {
+      background: #d9f7e6;
+    }
   </style>
 </div>
