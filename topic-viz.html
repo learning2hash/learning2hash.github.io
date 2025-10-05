@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Explore Large Language Model Papers by Topic
+title: Explore Learning to Hash Papers by Topic
 description: Interactive topic model explorer — adjust topic weights to see the most relevant papers
 ---
 
@@ -8,7 +8,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
 <h2>Topic Explorer</h2>
 <p>
-  This page uses topic modelling to group Large Language Model papers by their most important themes.
+  This page uses topic modelling to group Learning to Hash papers by their most important themes.
   Use the sliders to change topic importance and see the top matching papers update instantly.
 </p>
 
@@ -278,17 +278,21 @@ description: Interactive topic model explorer — adjust topic weights to see th
     return v === 'all' || ['20','50','100','200'].includes(v);
   }
 
+  function escapeAttr(s){
+    return String(s).replace(/"/g, '&quot;');
+  }
+
   function makeTopicRow(words, idx) {
     const id = 'topicSlider' + idx;
-    the label = words.join(', ');
+    const label = words.join(', ');
     const inline = words.map((w,i) =>
       `<span class="line">${w}</span>${i < words.length-1 ? '<span class="sep">·</span>' : ''}`
     ).join(' ');
     return `
-      <div class="topic-row" data-idx="${idx}" data-text="${label.toLowerCase()}">
-        <span class="tag-chip" title="${label}">${inline}</span>
+      <div class="topic-row" data-idx="${idx}" data-text="${escapeAttr(label.toLowerCase())}">
+        <span class="tag-chip" title="${escapeAttr(label)}">${inline}</span>
         <div class="slider-wrap">
-          <input type="range" min="0" max="10" value="0" id="${id}" aria-label="Weight for topic ${idx+1}: ${label}">
+          <input type="range" min="0" max="10" value="0" id="${id}" aria-label="Weight for topic ${idx+1}: ${escapeAttr(label)}">
         </div>
         <span class="val" id="${id}Val">0</span>
       </div>
@@ -392,7 +396,8 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
     // Load topics.json (respect baseurl)
     $.getJSON('{{ site.baseurl }}/topics.json', function(data) {
-      all_papers = data.paper_data;
+      // paper_data may be an object keyed by id; normalize to array if needed
+      all_papers = Array.isArray(data.paper_data) ? data.paper_data : Object.values(data.paper_data || {});
       num_topics = data.topics.length;
 
       let html = '';
