@@ -1,30 +1,30 @@
 {
   "0": [
     {
-      "tag": "lsh",
-      "count": 0.056
+      "tag": "neighbor",
+      "count": 0.05
     },
     {
       "tag": "algorithm",
-      "count": 0.042
+      "count": 0.049
+    },
+    {
+      "tag": "nearest",
+      "count": 0.039
+    },
+    {
+      "tag": "search",
+      "count": 0.038
     },
     {
       "tag": "point",
-      "count": 0.041
-    },
-    {
-      "tag": "neighbor",
-      "count": 0.035
-    },
-    {
-      "tag": "time",
-      "count": 0.032
+      "count": 0.037
     }
   ],
-  "2": [
+  "1": [
     {
       "tag": "image",
-      "count": 0.053
+      "count": 0.054
     },
     {
       "tag": "metric",
@@ -40,17 +40,17 @@
     },
     {
       "tag": "sample",
-      "count": 0.03
+      "count": 0.031
     }
   ],
-  "5": [
+  "2": [
     {
       "tag": "document",
       "count": 0.07
     },
     {
       "tag": "entity",
-      "count": 0.048
+      "count": 0.049
     },
     {
       "tag": "dense",
@@ -62,43 +62,21 @@
     },
     {
       "tag": "embeddings",
-      "count": 0.033
+      "count": 0.034
     }
   ],
-  "3": [
-    {
-      "tag": "search",
-      "count": 0.052
-    },
-    {
-      "tag": "algorithm",
-      "count": 0.051
-    },
-    {
-      "tag": "neighbor",
-      "count": 0.047
-    },
-    {
-      "tag": "graph",
-      "count": 0.041
-    },
-    {
-      "tag": "nearest",
-      "count": 0.041
-    }
-  ],
-  "6": [
+  "7": [
     {
       "tag": "descriptor",
       "count": 0.093
     },
     {
       "tag": "image",
-      "count": 0.067
+      "count": 0.069
     },
     {
       "tag": "feature",
-      "count": 0.048
+      "count": 0.049
     },
     {
       "tag": "place",
@@ -109,32 +87,54 @@
       "count": 0.04
     }
   ],
-  "8": [
+  "6": [
     {
       "tag": "hashing",
-      "count": 0.11
+      "count": 0.1
     },
     {
       "tag": "hash",
-      "count": 0.078
+      "count": 0.076
     },
     {
       "tag": "code",
-      "count": 0.065
+      "count": 0.055
+    },
+    {
+      "tag": "semantic",
+      "count": 0.038
+    },
+    {
+      "tag": "modality",
+      "count": 0.037
+    }
+  ],
+  "9": [
+    {
+      "tag": "hashing",
+      "count": 0.062
     },
     {
       "tag": "binary",
-      "count": 0.057
+      "count": 0.052
+    },
+    {
+      "tag": "hash",
+      "count": 0.049
+    },
+    {
+      "tag": "code",
+      "count": 0.035
     },
     {
       "tag": "data",
-      "count": 0.036
+      "count": 0.032
     }
   ],
-  "1": [
+  "8": [
     {
       "tag": "text",
-      "count": 0.05
+      "count": 0.048
     },
     {
       "tag": "video",
@@ -146,17 +146,17 @@
     },
     {
       "tag": "multimodal",
-      "count": 0.032
+      "count": 0.033
     },
     {
-      "tag": "modality",
+      "tag": "music",
       "count": 0.032
     }
   ],
-  "7": [
+  "4": [
     {
       "tag": "recommendation",
-      "count": 0.077
+      "count": 0.078
     },
     {
       "tag": "item",
@@ -164,25 +164,25 @@
     },
     {
       "tag": "user",
-      "count": 0.054
+      "count": 0.055
     },
     {
       "tag": "embedding",
-      "count": 0.042
+      "count": 0.045
     },
     {
       "tag": "graph",
-      "count": 0.038
+      "count": 0.042
     }
   ],
-  "9": [
+  "3": [
     {
       "tag": "sketch",
-      "count": 0.071
+      "count": 0.069
     },
     {
       "tag": "person",
-      "count": 0.065
+      "count": 0.063
     },
     {
       "tag": "image",
@@ -190,33 +190,33 @@
     },
     {
       "tag": "sbir",
-      "count": 0.031
+      "count": 0.03
     },
     {
       "tag": "scene",
-      "count": 0.03
+      "count": 0.029
     }
   ],
-  "4": [
+  "5": [
     {
       "tag": "hashing",
-      "count": 0.085
+      "count": 0.094
     },
     {
       "tag": "deep",
-      "count": 0.055
+      "count": 0.06
     },
     {
       "tag": "hash",
-      "count": 0.053
+      "count": 0.057
     },
     {
       "tag": "code",
-      "count": 0.048
+      "count": 0.055
     },
     {
-      "tag": "image",
-      "count": 0.037
+      "tag": "binary",
+      "count": 0.039
     }
   ]
 }
