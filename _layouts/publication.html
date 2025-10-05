@@ -21,6 +21,20 @@ layout: default
     {% endif %}
   </h5>
 
+  <!-- Share Buttons (moved near top) -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
+  </div>
+
   <p>
     {% for additional_link in page.additional_links %}
       [<a href="{{ additional_link.url }}" target="_blank" rel="noopener noreferrer">{{ additional_link.name }}</a>]
@@ -41,20 +55,6 @@ layout: default
 
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
-
-  <!-- Share Buttons -->
-  <h6>Share this Paper</h6>
-  <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
-  </div>
 
   <!-- Vanilla JS -->
   <script>
@@ -106,7 +106,6 @@ layout: default
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
             copyBtn.classList.add('copied');
             setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
@@ -130,17 +129,15 @@ layout: default
       padding: 6px 10px;
       cursor: pointer;
       transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      line-height: 0;
     }
     .icon-btn:hover { background: #e7e7e7; }
     .icon-btn:active { transform: translateY(1px); }
     .icon-btn img {
-      display: inline-block;
       width: 20px;
       height: 20px;
       vertical-align: middle;
     }
-    /* Subtle visual confirmation on copy */
     .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
