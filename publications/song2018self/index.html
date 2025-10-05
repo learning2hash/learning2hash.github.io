@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/song2018self/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T06:50:05-05:00" />
+<meta property="article:published_time" content="2025-10-05T09:22:11-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Self-supervised Video Hashing With Hierarchical Binary Auto-encoder" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:50:05-05:00","datePublished":"2025-10-05T06:50:05-05:00","description":"Existing video hash functions are built on three isolated stages: frame pooling, relaxed learning, and binarization, which have not adequately explored the temporal order of video frames in a joint binary optimization model, resulting in severe information loss. In this paper, we propose a novel unsupervised video hashing framework dubbed Self-Supervised Video Hashing (SSVH), that is able to capture the temporal nature of videos in an end-to-end learning-to-hash fashion. We specifically address two central problems: 1) how to design an encoder-decoder architecture to generate binary codes for videos; and 2) how to equip the binary codes with the ability of accurate video retrieval. We design a hierarchical binary autoencoder to model the temporal dependencies in videos with multiple granularities, and embed the videos into binary codes with less computations than the stacked architecture. Then, we encourage the binary codes to simultaneously reconstruct the visual content and neighborhood structure of the videos. Experiments on two real-world datasets (FCVID and YFCC) show that our SSVH method can significantly outperform the state-of-the-art methods and achieve the currently best performance on the task of unsupervised video retrieval.","headline":"Self-supervised Video Hashing With Hierarchical Binary Auto-encoder","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/song2018self/"},"url":"https://learning2hash.github.io/publications/song2018self/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T09:22:11-05:00","datePublished":"2025-10-05T09:22:11-05:00","description":"Existing video hash functions are built on three isolated stages: frame pooling, relaxed learning, and binarization, which have not adequately explored the temporal order of video frames in a joint binary optimization model, resulting in severe information loss. In this paper, we propose a novel unsupervised video hashing framework dubbed Self-Supervised Video Hashing (SSVH), that is able to capture the temporal nature of videos in an end-to-end learning-to-hash fashion. We specifically address two central problems: 1) how to design an encoder-decoder architecture to generate binary codes for videos; and 2) how to equip the binary codes with the ability of accurate video retrieval. We design a hierarchical binary autoencoder to model the temporal dependencies in videos with multiple granularities, and embed the videos into binary codes with less computations than the stacked architecture. Then, we encourage the binary codes to simultaneously reconstruct the visual content and neighborhood structure of the videos. Experiments on two real-world datasets (FCVID and YFCC) show that our SSVH method can significantly outperform the state-of-the-art methods and achieve the currently best performance on the task of unsupervised video retrieval.","headline":"Self-supervised Video Hashing With Hierarchical Binary Auto-encoder","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/song2018self/"},"url":"https://learning2hash.github.io/publications/song2018self/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -181,6 +181,20 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </h5>
 
+  <!-- Share Buttons (moved near top) -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
+  </div>
+
   <p>
     
       [<a href="https://arxiv.org/abs/1802.02305" target="_blank" rel="noopener noreferrer">Paper</a>]
@@ -235,20 +249,6 @@ of unsupervised video retrieval.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Share Buttons -->
-  <h6>Share this Paper</h6>
-  <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
-  </div>
-
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -299,7 +299,6 @@ of unsupervised video retrieval.</p>
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
             copyBtn.classList.add('copied');
             setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
@@ -323,17 +322,15 @@ of unsupervised video retrieval.</p>
       padding: 6px 10px;
       cursor: pointer;
       transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      line-height: 0;
     }
     .icon-btn:hover { background: #e7e7e7; }
     .icon-btn:active { transform: translateY(1px); }
     .icon-btn img {
-      display: inline-block;
       width: 20px;
       height: 20px;
       vertical-align: middle;
     }
-    /* Subtle visual confirmation on copy */
     .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/shrivastava2014densifying/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T06:50:05-05:00" />
+<meta property="article:published_time" content="2025-10-05T09:22:11-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Densifying One Permutation Hashing Via Rotation For Fast Near Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:50:05-05:00","datePublished":"2025-10-05T06:50:05-05:00","description":"The query complexity of locality sensitive hashing (LSH) based similarity search is dominated by the number of hash evaluations, and this number grows with the data size (Indyk &amp; Motwani, 1998). In industrial applications such as search where the data are often high-dimensional and binary (e.g., text n-grams), minwise hashing is widely adopted, which requires applying a large number of permutations on the data. This is costly in computation and energy-consumption. In this paper, we propose a hashing technique which generates all the necessary hash evaluations needed for similarity search, using one single permutation. The heart of the proposed hash function is a “rotation” scheme which densifies the sparse sketches of one permutation hashing (Li et al., 2012) in an unbiased fashion thereby maintaining the LSH property. This makes the obtained sketches suitable for hash table construction. This idea of rotation presented in this paper could be of independent interest for densifying other types of sparse sketches. Using our proposed hashing method, the query time of a (K, L)-parameterized LSH is reduced from the typical O(dKL) complexity to merely O(KL + dL), where d is the number of nonzeros of the data vector, K is the number of hashes in each hash table, and L is the number of hash tables. Our experimental evaluation on real data confirms that the proposed scheme significantly reduces the query processing time over minwise hashing without loss in retrieval accuracies.","headline":"Densifying One Permutation Hashing Via Rotation For Fast Near Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shrivastava2014densifying/"},"url":"https://learning2hash.github.io/publications/shrivastava2014densifying/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T09:22:11-05:00","datePublished":"2025-10-05T09:22:11-05:00","description":"The query complexity of locality sensitive hashing (LSH) based similarity search is dominated by the number of hash evaluations, and this number grows with the data size (Indyk &amp; Motwani, 1998). In industrial applications such as search where the data are often high-dimensional and binary (e.g., text n-grams), minwise hashing is widely adopted, which requires applying a large number of permutations on the data. This is costly in computation and energy-consumption. In this paper, we propose a hashing technique which generates all the necessary hash evaluations needed for similarity search, using one single permutation. The heart of the proposed hash function is a “rotation” scheme which densifies the sparse sketches of one permutation hashing (Li et al., 2012) in an unbiased fashion thereby maintaining the LSH property. This makes the obtained sketches suitable for hash table construction. This idea of rotation presented in this paper could be of independent interest for densifying other types of sparse sketches. Using our proposed hashing method, the query time of a (K, L)-parameterized LSH is reduced from the typical O(dKL) complexity to merely O(KL + dL), where d is the number of nonzeros of the data vector, K is the number of hashes in each hash table, and L is the number of hash tables. Our experimental evaluation on real data confirms that the proposed scheme significantly reduces the query processing time over minwise hashing without loss in retrieval accuracies.","headline":"Densifying One Permutation Hashing Via Rotation For Fast Near Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shrivastava2014densifying/"},"url":"https://learning2hash.github.io/publications/shrivastava2014densifying/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -181,6 +181,20 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </h5>
 
+  <!-- Share Buttons (moved near top) -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
+  </div>
+
   <p>
     
       [<a href="http://jmlr.org/proceedings/papers/v32/shrivastava14.pdf" target="_blank" rel="noopener noreferrer">Paper</a>]
@@ -240,20 +254,6 @@ hashing without loss in retrieval accuracies.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Share Buttons -->
-  <h6>Share this Paper</h6>
-  <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
-  </div>
-
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -304,7 +304,6 @@ hashing without loss in retrieval accuracies.</p>
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
             copyBtn.classList.add('copied');
             setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
@@ -328,17 +327,15 @@ hashing without loss in retrieval accuracies.</p>
       padding: 6px 10px;
       cursor: pointer;
       transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      line-height: 0;
     }
     .icon-btn:hover { background: #e7e7e7; }
     .icon-btn:active { transform: translateY(1px); }
     .icon-btn img {
-      display: inline-block;
       width: 20px;
       height: 20px;
       vertical-align: middle;
     }
-    /* Subtle visual confirmation on copy */
     .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>

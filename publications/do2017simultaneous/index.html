@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/do2017simultaneous/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T06:50:05-05:00" />
+<meta property="article:published_time" content="2025-10-05T09:22:11-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Simultaneous Feature Aggregating And Hashing For Large-scale Image Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:50:05-05:00","datePublished":"2025-10-05T06:50:05-05:00","description":"In most state-of-the-art hashing-based visual search systems, local image descriptors of an image are first aggregated as a single feature vector. This feature vector is then subjected to a hashing function that produces a binary hash code. In previous work, the aggregating and the hashing processes are designed independently. In this paper, we propose a novel framework where feature aggregating and hashing are designed simultaneously and optimized jointly. Specifically, our joint optimization produces aggregated representations that can be better reconstructed by some binary codes. This leads to more discriminative binary hash codes and improved retrieval accuracy. In addition, we also propose a fast version of the recently-proposed Binary Autoencoder to be used in our proposed framework. We perform extensive retrieval experiments on several benchmark datasets with both SIFT and convolutional features. Our results suggest that the proposed framework achieves significant improvements over the state of the art.","headline":"Simultaneous Feature Aggregating And Hashing For Large-scale Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/do2017simultaneous/"},"url":"https://learning2hash.github.io/publications/do2017simultaneous/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T09:22:11-05:00","datePublished":"2025-10-05T09:22:11-05:00","description":"In most state-of-the-art hashing-based visual search systems, local image descriptors of an image are first aggregated as a single feature vector. This feature vector is then subjected to a hashing function that produces a binary hash code. In previous work, the aggregating and the hashing processes are designed independently. In this paper, we propose a novel framework where feature aggregating and hashing are designed simultaneously and optimized jointly. Specifically, our joint optimization produces aggregated representations that can be better reconstructed by some binary codes. This leads to more discriminative binary hash codes and improved retrieval accuracy. In addition, we also propose a fast version of the recently-proposed Binary Autoencoder to be used in our proposed framework. We perform extensive retrieval experiments on several benchmark datasets with both SIFT and convolutional features. Our results suggest that the proposed framework achieves significant improvements over the state of the art.","headline":"Simultaneous Feature Aggregating And Hashing For Large-scale Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/do2017simultaneous/"},"url":"https://learning2hash.github.io/publications/do2017simultaneous/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -181,6 +181,20 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </h5>
 
+  <!-- Share Buttons (moved near top) -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
+  </div>
+
   <p>
     
       [<a href="https://arxiv.org/abs/1704.00860" target="_blank" rel="noopener noreferrer">Paper</a>]
@@ -229,20 +243,6 @@ achieves significant improvements over the state of the art.</p>
 
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
-
-  <!-- Share Buttons -->
-  <h6>Share this Paper</h6>
-  <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
-  </div>
 
   <!-- Vanilla JS -->
   <script>
@@ -294,7 +294,6 @@ achieves significant improvements over the state of the art.</p>
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
             copyBtn.classList.add('copied');
             setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
@@ -318,17 +317,15 @@ achieves significant improvements over the state of the art.</p>
       padding: 6px 10px;
       cursor: pointer;
       transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      line-height: 0;
     }
     .icon-btn:hover { background: #e7e7e7; }
     .icon-btn:active { transform: translateY(1px); }
     .icon-btn img {
-      display: inline-block;
       width: 20px;
       height: 20px;
       vertical-align: middle;
     }
-    /* Subtle visual confirmation on copy */
     .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>

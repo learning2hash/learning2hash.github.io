@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ng2023unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T06:50:05-05:00" />
+<meta property="article:published_time" content="2025-10-05T09:22:11-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unsupervised Hashing With Similarity Distribution Calibration" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:50:05-05:00","datePublished":"2025-10-05T06:50:05-05:00","description":"Unsupervised hashing methods typically aim to preserve the similarity between data points in a feature space by mapping them to binary hash codes. However, these methods often overlook the fact that the similarity between data points in the continuous feature space may not be preserved in the discrete hash code space, due to the limited similarity range of hash codes. The similarity range is bounded by the code length and can lead to a problem known as similarity collapse. That is, the positive and negative pairs of data points become less distinguishable from each other in the hash space. To alleviate this problem, in this paper a novel Similarity Distribution Calibration (SDC) method is introduced. SDC aligns the hash code similarity distribution towards a calibration distribution (e.g., beta distribution) with sufficient spread across the entire similarity range, thus alleviating the similarity collapse problem. Extensive experiments show that our SDC outperforms significantly the state-of-the-art alternatives on coarse category-level and instance-level image retrieval. Code is available at https://github.com/kamwoh/sdc.","headline":"Unsupervised Hashing With Similarity Distribution Calibration","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ng2023unsupervised/"},"url":"https://learning2hash.github.io/publications/ng2023unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T09:22:11-05:00","datePublished":"2025-10-05T09:22:11-05:00","description":"Unsupervised hashing methods typically aim to preserve the similarity between data points in a feature space by mapping them to binary hash codes. However, these methods often overlook the fact that the similarity between data points in the continuous feature space may not be preserved in the discrete hash code space, due to the limited similarity range of hash codes. The similarity range is bounded by the code length and can lead to a problem known as similarity collapse. That is, the positive and negative pairs of data points become less distinguishable from each other in the hash space. To alleviate this problem, in this paper a novel Similarity Distribution Calibration (SDC) method is introduced. SDC aligns the hash code similarity distribution towards a calibration distribution (e.g., beta distribution) with sufficient spread across the entire similarity range, thus alleviating the similarity collapse problem. Extensive experiments show that our SDC outperforms significantly the state-of-the-art alternatives on coarse category-level and instance-level image retrieval. Code is available at https://github.com/kamwoh/sdc.","headline":"Unsupervised Hashing With Similarity Distribution Calibration","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ng2023unsupervised/"},"url":"https://learning2hash.github.io/publications/ng2023unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -181,6 +181,20 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </h5>
 
+  <!-- Share Buttons (moved near top) -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
+  </div>
+
   <p>
     
       [<a href="https://github.com/kamwoh/sdc" target="_blank" rel="noopener noreferrer">Code</a>]
@@ -222,20 +236,6 @@ retrieval. Code is available at https://github.com/kamwoh/sdc.</p>
 
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
-
-  <!-- Share Buttons -->
-  <h6>Share this Paper</h6>
-  <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
-  </div>
 
   <!-- Vanilla JS -->
   <script>
@@ -287,7 +287,6 @@ retrieval. Code is available at https://github.com/kamwoh/sdc.</p>
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
             copyBtn.classList.add('copied');
             setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
@@ -311,17 +310,15 @@ retrieval. Code is available at https://github.com/kamwoh/sdc.</p>
       padding: 6px 10px;
       cursor: pointer;
       transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      line-height: 0;
     }
     .icon-btn:hover { background: #e7e7e7; }
     .icon-btn:active { transform: translateY(1px); }
     .icon-btn img {
-      display: inline-block;
       width: 20px;
       height: 20px;
       vertical-align: middle;
     }
-    /* Subtle visual confirmation on copy */
     .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>

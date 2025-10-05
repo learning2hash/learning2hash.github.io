@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2023can/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T06:50:05-05:00" />
+<meta property="article:published_time" content="2025-10-05T09:22:11-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Can LSH (locality-sensitive Hashing) Be Replaced By Neural Network?" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:50:05-05:00","datePublished":"2025-10-05T06:50:05-05:00","description":"With the rapid development of GPU (Graphics Processing Unit) technologies and neural networks, we can explore more appropriate data structures and algorithms. Recent progress shows that neural networks can partly replace traditional data structures. In this paper, we proposed a novel DNN (Deep Neural Network)-based learned locality-sensitive hashing, called LLSH, to efficiently and flexibly map high-dimensional data to low-dimensional space. LLSH replaces the traditional LSH (Locality-sensitive Hashing) function families with parallel multi-layer neural networks, which reduces the time and memory consumption and guarantees query accuracy simultaneously. The proposed LLSH demonstrate the feasibility of replacing the hash index with learning-based neural networks and open a new door for developers to design and configure data organization more accurately to improve information-searching performance. Extensive experiments on different types of datasets show the superiority of the proposed method in query accuracy, time consumption, and memory usage.","headline":"Can LSH (locality-sensitive Hashing) Be Replaced By Neural Network?","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2023can/"},"url":"https://learning2hash.github.io/publications/liu2023can/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T09:22:11-05:00","datePublished":"2025-10-05T09:22:11-05:00","description":"With the rapid development of GPU (Graphics Processing Unit) technologies and neural networks, we can explore more appropriate data structures and algorithms. Recent progress shows that neural networks can partly replace traditional data structures. In this paper, we proposed a novel DNN (Deep Neural Network)-based learned locality-sensitive hashing, called LLSH, to efficiently and flexibly map high-dimensional data to low-dimensional space. LLSH replaces the traditional LSH (Locality-sensitive Hashing) function families with parallel multi-layer neural networks, which reduces the time and memory consumption and guarantees query accuracy simultaneously. The proposed LLSH demonstrate the feasibility of replacing the hash index with learning-based neural networks and open a new door for developers to design and configure data organization more accurately to improve information-searching performance. Extensive experiments on different types of datasets show the superiority of the proposed method in query accuracy, time consumption, and memory usage.","headline":"Can LSH (locality-sensitive Hashing) Be Replaced By Neural Network?","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2023can/"},"url":"https://learning2hash.github.io/publications/liu2023can/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -181,6 +181,20 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </h5>
 
+  <!-- Share Buttons (moved near top) -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
+  </div>
+
   <p>
     
       [<a href="https://arxiv.org/abs/2310.09806" target="_blank" rel="noopener noreferrer">Paper</a>]
@@ -224,20 +238,6 @@ memory usage.</p>
 
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
-
-  <!-- Share Buttons -->
-  <h6>Share this Paper</h6>
-  <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
-  </div>
 
   <!-- Vanilla JS -->
   <script>
@@ -289,7 +289,6 @@ memory usage.</p>
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
             copyBtn.classList.add('copied');
             setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
@@ -313,17 +312,15 @@ memory usage.</p>
       padding: 6px 10px;
       cursor: pointer;
       transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      line-height: 0;
     }
     .icon-btn:hover { background: #e7e7e7; }
     .icon-btn:active { transform: translateY(1px); }
     .icon-btn img {
-      display: inline-block;
       width: 20px;
       height: 20px;
       vertical-align: middle;
     }
-    /* Subtle visual confirmation on copy */
     .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>

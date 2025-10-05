@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/gu2018unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T06:50:05-05:00" />
+<meta property="article:published_time" content="2025-10-05T09:22:11-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:50:05-05:00","datePublished":"2025-10-05T06:50:05-05:00","description":"In social media like Twitter, hashtags carry a lot of semantic information and can be easily distinguished from the main text. Exploring and visualizing the space of hashtags in a meaningful way can offer important insights into a dataset, especially in crisis situations. In this demonstration paper, we present a functioning prototype, HashViz, that ingests a corpus of tweets collected in the aftermath of a crisis situation (such as the Las Vegas shootings) and uses the fastText bag-of-tricks semantic embedding algorithm (from Facebook Research) to embed words and hashtags into a vector space. Hashtag vectors obtained in this way can be visualized using the t-SNE dimensionality reduction algorithm in 2D. Although multiple Twitter visualization platforms exist, HashViz is distinguished by being simple, scalable, interactive and portable enough to be deployed on a server for million-tweet corpora collected in the aftermath of arbitrary disasters, without special-purpose installation, technical expertise, manual supervision or costly software or infrastructure investment. Although simple, we show that HashViz offers an intuitive way to summarize, and gain insight into, a developing crisis situation. HashViz is also completely unsupervised, requiring no manual inputs to go from a raw corpus to a visualization and search interface. Using the recent Las Vegas mass shooting massacre as a case study, we illustrate the potential of HashViz using only a web browser on the client side.","headline":"Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gu2018unsupervised/"},"url":"https://learning2hash.github.io/publications/gu2018unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T09:22:11-05:00","datePublished":"2025-10-05T09:22:11-05:00","description":"In social media like Twitter, hashtags carry a lot of semantic information and can be easily distinguished from the main text. Exploring and visualizing the space of hashtags in a meaningful way can offer important insights into a dataset, especially in crisis situations. In this demonstration paper, we present a functioning prototype, HashViz, that ingests a corpus of tweets collected in the aftermath of a crisis situation (such as the Las Vegas shootings) and uses the fastText bag-of-tricks semantic embedding algorithm (from Facebook Research) to embed words and hashtags into a vector space. Hashtag vectors obtained in this way can be visualized using the t-SNE dimensionality reduction algorithm in 2D. Although multiple Twitter visualization platforms exist, HashViz is distinguished by being simple, scalable, interactive and portable enough to be deployed on a server for million-tweet corpora collected in the aftermath of arbitrary disasters, without special-purpose installation, technical expertise, manual supervision or costly software or infrastructure investment. Although simple, we show that HashViz offers an intuitive way to summarize, and gain insight into, a developing crisis situation. HashViz is also completely unsupervised, requiring no manual inputs to go from a raw corpus to a visualization and search interface. Using the recent Las Vegas mass shooting massacre as a case study, we illustrate the potential of HashViz using only a web browser on the client side.","headline":"Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gu2018unsupervised/"},"url":"https://learning2hash.github.io/publications/gu2018unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -181,6 +181,20 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </h5>
 
+  <!-- Share Buttons (moved near top) -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
+  </div>
+
   <p>
     
       [<a href="https://arxiv.org/abs/1801.05906" target="_blank" rel="noopener noreferrer">Paper</a>]
@@ -224,20 +238,6 @@ side.</p>
 
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
-
-  <!-- Share Buttons -->
-  <h6>Share this Paper</h6>
-  <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
-  </div>
 
   <!-- Vanilla JS -->
   <script>
@@ -289,7 +289,6 @@ side.</p>
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
             copyBtn.classList.add('copied');
             setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
@@ -313,17 +312,15 @@ side.</p>
       padding: 6px 10px;
       cursor: pointer;
       transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      line-height: 0;
     }
     .icon-btn:hover { background: #e7e7e7; }
     .icon-btn:active { transform: translateY(1px); }
     .icon-btn img {
-      display: inline-block;
       width: 20px;
       height: 20px;
       vertical-align: middle;
     }
-    /* Subtle visual confirmation on copy */
     .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
