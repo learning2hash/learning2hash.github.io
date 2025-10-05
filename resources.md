@@ -38,6 +38,8 @@ title: Resources
 
 For a deeper dive, these survey papers are excellent resources:
 
+- **[Learning-Based Hashing for Approximate Nearest Neighbour (ANN) Search: Foundations and Early Advances](/papers/Learning_Based_Hashing_for_ANN_Search__Foundations_and_Early_Advances.pdf)** (Moran, 2025): A foundational survey introducing the core principles of learning-based hashing for ANN search. 
+
 - **[Learning to Hash for Recommendation: A Survey](https://arxiv.org/abs/2412.03875)** (2024): A dedicated overview of hashing-based methods used in recommender systems, from binary encodings to retrieval-aware deep architectures.
   
 - **[Learning to Hash for Indexing Big Data - A Survey](https://arxiv.org/pdf/1509.05472.pdf)**: This comprehensive survey explores the evolution of hashing techniques for indexing and retrieving big data.
