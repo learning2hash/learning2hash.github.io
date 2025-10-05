@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2019sadih/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T05:55:01-05:00" />
+<meta property="article:published_time" content="2025-10-05T05:58:11-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="SADIH: Semantic-aware Discrete Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:55:01-05:00","datePublished":"2025-10-05T05:55:01-05:00","description":"Due to its low storage cost and fast query speed, hashing has been recognized to accomplish similarity search in large-scale multimedia retrieval applications. Particularly supervised hashing has recently received considerable research attention by leveraging the label information to preserve the pairwise similarities of data points in the Hamming space. However, there still remain two crucial bottlenecks: 1) the learning process of the full pairwise similarity preservation is computationally unaffordable and unscalable to deal with big data; 2) the available category information of data are not well-explored to learn discriminative hash functions. To overcome these challenges, we propose a unified Semantic-Aware DIscrete Hashing (SADIH) framework, which aims to directly embed the transformed semantic information into the asymmetric similarity approximation and discriminative hashing function learning. Specifically, a semantic-aware latent embedding is introduced to asymmetrically preserve the full pairwise similarities while skillfully handle the cumbersome n times n pairwise similarity matrix. Meanwhile, a semantic-aware autoencoder is developed to jointly preserve the data structures in the discriminative latent semantic space and perform data reconstruction. Moreover, an efficient alternating optimization algorithm is proposed to solve the resulting discrete optimization problem. Extensive experimental results on multiple large-scale datasets demonstrate that our SADIH can clearly outperform the state-of-the-art baselines with the additional benefit of lower computational costs.","headline":"SADIH: Semantic-aware Discrete Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2019sadih/"},"url":"https://learning2hash.github.io/publications/zhang2019sadih/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:58:11-05:00","datePublished":"2025-10-05T05:58:11-05:00","description":"Due to its low storage cost and fast query speed, hashing has been recognized to accomplish similarity search in large-scale multimedia retrieval applications. Particularly supervised hashing has recently received considerable research attention by leveraging the label information to preserve the pairwise similarities of data points in the Hamming space. However, there still remain two crucial bottlenecks: 1) the learning process of the full pairwise similarity preservation is computationally unaffordable and unscalable to deal with big data; 2) the available category information of data are not well-explored to learn discriminative hash functions. To overcome these challenges, we propose a unified Semantic-Aware DIscrete Hashing (SADIH) framework, which aims to directly embed the transformed semantic information into the asymmetric similarity approximation and discriminative hashing function learning. Specifically, a semantic-aware latent embedding is introduced to asymmetrically preserve the full pairwise similarities while skillfully handle the cumbersome n times n pairwise similarity matrix. Meanwhile, a semantic-aware autoencoder is developed to jointly preserve the data structures in the discriminative latent semantic space and perform data reconstruction. Moreover, an efficient alternating optimization algorithm is proposed to solve the resulting discrete optimization problem. Extensive experimental results on multiple large-scale datasets demonstrate that our SADIH can clearly outperform the state-of-the-art baselines with the additional benefit of lower computational costs.","headline":"SADIH: Semantic-aware Discrete Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2019sadih/"},"url":"https://learning2hash.github.io/publications/zhang2019sadih/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -241,19 +241,24 @@ benefit of lower computational costs.</p>
   <!-- Share Buttons -->
   <h6>Share this Paper</h6>
   <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
-    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
-    <button id="share-copy" title="Copy Link">🔗</button>
+    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
+      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
+    </button>
+    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
+      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
+    </button>
+    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
+    </button>
   </div>
 
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work section
+      // Similar work loading
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/zhang2019sadih.json";
-
         fetch(metaPath, { credentials: 'same-origin' })
           .then(function (res) {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -274,7 +279,7 @@ benefit of lower computational costs.</p>
           });
       }
 
-      // Share buttons
+      // Share button logic
       const pageUrl = encodeURIComponent(window.location.href);
       const pageTitle = encodeURIComponent(document.title);
 
@@ -284,20 +289,22 @@ benefit of lower computational costs.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
         });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            alert('✅ Link copied to clipboard!');
+            // Brief, non-blocking feedback
+            copyBtn.classList.add('copied');
+            setTimeout(() => copyBtn.classList.remove('copied'), 900);
           });
         });
       }
@@ -306,19 +313,31 @@ benefit of lower computational costs.</p>
 
   <!-- Optional CSS -->
   <style>
-    .share-buttons button {
+    .share-buttons {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .icon-btn {
       background: #f2f2f2;
       border: none;
-      border-radius: 6px;
-      margin-right: 6px;
+      border-radius: 8px;
       padding: 6px 10px;
-      font-size: 1.2em;
       cursor: pointer;
-      transition: background 0.2s;
+      transition: background 0.2s, transform 0.05s;
+      line-height: 0; /* tight around the icon */
     }
-    .share-buttons button:hover {
-      background: #e0e0e0;
+    .icon-btn:hover { background: #e7e7e7; }
+    .icon-btn:active { transform: translateY(1px); }
+    .icon-btn img {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
     }
+    /* Subtle visual confirmation on copy */
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 
