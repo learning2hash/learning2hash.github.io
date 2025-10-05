@@ -38,9 +38,9 @@
 
   <!-- ✅ Jekyll SEO plugin (title, description, canonical, OG/Twitter, JSON-LD) -->
   <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Explore Large Language Model Papers by Topic | Awesome Learning to Hash</title>
+<title>Explore Learning to Hash Papers by Topic | Awesome Learning to Hash</title>
 <meta name="generator" content="Jekyll v4.2.2" />
-<meta property="og:title" content="Explore Large Language Model Papers by Topic" />
+<meta property="og:title" content="Explore Learning to Hash Papers by Topic" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Interactive topic model explorer — adjust topic weights to see the most relevant papers" />
 <meta property="og:description" content="Interactive topic model explorer — adjust topic weights to see the most relevant papers" />
@@ -49,9 +49,9 @@
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Explore Large Language Model Papers by Topic" />
+<meta property="twitter:title" content="Explore Learning to Hash Papers by Topic" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","description":"Interactive topic model explorer — adjust topic weights to see the most relevant papers","headline":"Explore Large Language Model Papers by Topic","url":"https://learning2hash.github.io/topic-viz.html"}</script>
+{"@context":"https://schema.org","@type":"WebPage","description":"Interactive topic model explorer — adjust topic weights to see the most relevant papers","headline":"Explore Learning to Hash Papers by Topic","url":"https://learning2hash.github.io/topic-viz.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 <h2>Topic Explorer</h2>
 <p>
-  This page uses topic modelling to group Large Language Model papers by their most important themes.
+  This page uses topic modelling to group Learning to Hash papers by their most important themes.
   Use the sliders to change topic importance and see the top matching papers update instantly.
 </p>
 
@@ -435,17 +435,21 @@ document.addEventListener('DOMContentLoaded', function () {
     return v === 'all' || ['20','50','100','200'].includes(v);
   }
 
+  function escapeAttr(s){
+    return String(s).replace(/"/g, '&quot;');
+  }
+
   function makeTopicRow(words, idx) {
     const id = 'topicSlider' + idx;
-    the label = words.join(', ');
+    const label = words.join(', ');
     const inline = words.map((w,i) =>
       `<span class="line">${w}</span>${i < words.length-1 ? '<span class="sep">·</span>' : ''}`
     ).join(' ');
     return `
-      <div class="topic-row" data-idx="${idx}" data-text="${label.toLowerCase()}">
-        <span class="tag-chip" title="${label}">${inline}</span>
+      <div class="topic-row" data-idx="${idx}" data-text="${escapeAttr(label.toLowerCase())}">
+        <span class="tag-chip" title="${escapeAttr(label)}">${inline}</span>
         <div class="slider-wrap">
-          <input type="range" min="0" max="10" value="0" id="${id}" aria-label="Weight for topic ${idx+1}: ${label}">
+          <input type="range" min="0" max="10" value="0" id="${id}" aria-label="Weight for topic ${idx+1}: ${escapeAttr(label)}">
         </div>
         <span class="val" id="${id}Val">0</span>
       </div>
@@ -549,7 +553,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Load topics.json (respect baseurl)
     $.getJSON('/topics.json', function(data) {
-      all_papers = data.paper_data;
+      // paper_data may be an object keyed by id; normalize to array if needed
+      all_papers = Array.isArray(data.paper_data) ? data.paper_data : Object.values(data.paper_data || {});
       num_topics = data.topics.length;
 
       let html = '';
