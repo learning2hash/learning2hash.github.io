@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Explore Learning to Hash Papers by Topic
+title: Explore Large Language Model Papers by Topic
 description: Interactive topic model explorer — adjust topic weights to see the most relevant papers
 ---
 
@@ -8,7 +8,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
 <h2>Topic Explorer</h2>
 <p>
-  This page uses topic modelling to group Learning to Hash papers by their most important themes.
+  This page uses topic modelling to group Large Language Model papers by their most important themes.
   Use the sliders to change topic importance and see the top matching papers update instantly.
 </p>
 
@@ -251,6 +251,9 @@ description: Interactive topic model explorer — adjust topic weights to see th
   .info[data-show]::after, .info[data-show]::before { opacity:1; visibility:visible; }
 </style>
 
+<!-- Self-hosted vendor assets -->
+<script src="{{ '/assets/vendor/jquery-3.6.0.min.js' | relative_url }}" defer></script>
+
 <!-- Inline script is now a module (defers) and waits for DOMContentLoaded -->
 <script type="module">
   // Info tooltip toggle (click or focus)
@@ -277,7 +280,7 @@ description: Interactive topic model explorer — adjust topic weights to see th
 
   function makeTopicRow(words, idx) {
     const id = 'topicSlider' + idx;
-    const label = words.join(', ');
+    the label = words.join(', ');
     const inline = words.map((w,i) =>
       `<span class="line">${w}</span>${i < words.length-1 ? '<span class="sep">·</span>' : ''}`
     ).join(' ');
