@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jiang2024hycir/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T01:15:30-05:00" />
+<meta property="article:published_time" content="2025-10-05T05:43:13-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hycir: Boosting Zero-shot Composed Image Retrieval With Synthetic Labels" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T01:15:30-05:00","datePublished":"2025-10-05T01:15:30-05:00","description":"Composed Image Retrieval (CIR) aims to retrieve images based on a query image with text. Current Zero-Shot CIR (ZS-CIR) methods try to solve CIR tasks without using expensive triplet-labeled training datasets. However, the gap between ZS-CIR and triplet-supervised CIR is still large. In this work, we propose Hybrid CIR (HyCIR), which uses synthetic labels to boost the performance of ZS-CIR. A new label Synthesis pipeline for CIR (SynCir) is proposed, in which only unlabeled images are required. First, image pairs are extracted based on visual similarity. Second, query text is generated for each image pair based on vision-language model and LLM. Third, the data is further filtered in language space based on semantic similarity. To improve ZS-CIR performance, we propose a hybrid training strategy to work with both ZS-CIR supervision and synthetic CIR triplets. Two kinds of contrastive learning are adopted. One is to use large-scale unlabeled image dataset to learn an image-to-text mapping with good generalization. The other is to use synthetic CIR triplets to learn a better mapping for CIR tasks. Our approach achieves SOTA zero-shot performance on the common CIR benchmarks: CIRR and CIRCO.","headline":"Hycir: Boosting Zero-shot Composed Image Retrieval With Synthetic Labels","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jiang2024hycir/"},"url":"https://learning2hash.github.io/publications/jiang2024hycir/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:43:13-05:00","datePublished":"2025-10-05T05:43:13-05:00","description":"Composed Image Retrieval (CIR) aims to retrieve images based on a query image with text. Current Zero-Shot CIR (ZS-CIR) methods try to solve CIR tasks without using expensive triplet-labeled training datasets. However, the gap between ZS-CIR and triplet-supervised CIR is still large. In this work, we propose Hybrid CIR (HyCIR), which uses synthetic labels to boost the performance of ZS-CIR. A new label Synthesis pipeline for CIR (SynCir) is proposed, in which only unlabeled images are required. First, image pairs are extracted based on visual similarity. Second, query text is generated for each image pair based on vision-language model and LLM. Third, the data is further filtered in language space based on semantic similarity. To improve ZS-CIR performance, we propose a hybrid training strategy to work with both ZS-CIR supervision and synthetic CIR triplets. Two kinds of contrastive learning are adopted. One is to use large-scale unlabeled image dataset to learn an image-to-text mapping with good generalization. The other is to use synthetic CIR triplets to learn a better mapping for CIR tasks. Our approach achieves SOTA zero-shot performance on the common CIR benchmarks: CIRR and CIRCO.","headline":"Hycir: Boosting Zero-shot Composed Image Retrieval With Synthetic Labels","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jiang2024hycir/"},"url":"https://learning2hash.github.io/publications/jiang2024hycir/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -230,34 +230,88 @@ SOTA zero-shot performance on the common CIR benchmarks: CIRR and CIRCO.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS: no jQuery needed -->
+  <!-- Share Buttons -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
+  </div>
+
+  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Similar work section
       var relwork = document.getElementById('relwork');
-      if (!relwork) return;
+      if (relwork) {
+        var metaPath = "/publications-metadata/jiang2024hycir.json";
 
-      var metaPath = "/publications-metadata/jiang2024hycir.json";
+        fetch(metaPath, { credentials: 'same-origin' })
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + " " + res.statusText);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!Array.isArray(data)) return;
+            relwork.innerHTML = data
+              .map(function (d) {
+                var slug = d[0];
+                var title = d[1];
+                return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+              })
+              .join('');
+          })
+          .catch(function (err) {
+            console.warn("Failed to load similar work JSON:", err);
+          });
+      }
 
-      fetch(metaPath, { credentials: 'same-origin' })
-        .then(function (res) {
-          if (!res.ok) throw new Error(res.status + " " + res.statusText);
-          return res.json();
-        })
-        .then(function (data) {
-          if (!Array.isArray(data)) return;
-          relwork.innerHTML = data
-            .map(function (d) {
-              var slug = d[0];
-              var title = d[1];
-              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
-            })
-            .join('');
-        })
-        .catch(function (err) {
-          console.warn("Failed to load similar work JSON:", err);
+      // Share buttons
+      const pageUrl = encodeURIComponent(window.location.href);
+      const pageTitle = encodeURIComponent(document.title);
+
+      const twitterBtn = document.getElementById('share-twitter');
+      const linkedinBtn = document.getElementById('share-linkedin');
+      const copyBtn = document.getElementById('share-copy');
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', () => {
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
+      }
+
+      if (linkedinBtn) {
+        linkedinBtn.addEventListener('click', () => {
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            alert('✅ Link copied to clipboard!');
+          });
+        });
+      }
     });
   </script>
+
+  <!-- Optional CSS -->
+  <style>
+    .share-buttons button {
+      background: #f2f2f2;
+      border: none;
+      border-radius: 6px;
+      margin-right: 6px;
+      padding: 6px 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .share-buttons button:hover {
+      background: #e0e0e0;
+    }
+  </style>
 </div>
 
     </div>

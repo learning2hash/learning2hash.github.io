@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/obraczka2021eager/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T01:15:30-05:00" />
+<meta property="article:published_time" content="2025-10-05T05:43:13-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="EAGER: Embedding-assisted Entity Resolution For Knowledge Graphs" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T01:15:30-05:00","datePublished":"2025-10-05T01:15:30-05:00","description":"Entity Resolution (ER) is a constitutional part for integrating different knowledge graphs in order to identify entities referring to the same real-world object. A promising approach is the use of graph embeddings for ER in order to determine the similarity of entities based on the similarity of their graph neighborhood. The similarity computations for such embeddings translates to calculating the distance between them in the embedding space which is comparatively simple. However, previous work has shown that the use of graph embeddings alone is not sufficient to achieve high ER quality. We therefore propose a more comprehensive ER approach for knowledge graphs called EAGER (Embedding-Assisted Knowledge Graph Entity Resolution) to flexibly utilize both the similarity of graph embeddings and attribute values within a supervised machine learning approach. We evaluate our approach on 23 benchmark datasets with differently sized and structured knowledge graphs and use hypothesis tests to ensure statistical significance of our results. Furthermore we compare our approach with state-of-the-art ER solutions, where our approach yields competitive results for table-oriented ER problems and shallow knowledge graphs but much better results for deeper knowledge graphs.","headline":"EAGER: Embedding-assisted Entity Resolution For Knowledge Graphs","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/obraczka2021eager/"},"url":"https://learning2hash.github.io/publications/obraczka2021eager/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:43:13-05:00","datePublished":"2025-10-05T05:43:13-05:00","description":"Entity Resolution (ER) is a constitutional part for integrating different knowledge graphs in order to identify entities referring to the same real-world object. A promising approach is the use of graph embeddings for ER in order to determine the similarity of entities based on the similarity of their graph neighborhood. The similarity computations for such embeddings translates to calculating the distance between them in the embedding space which is comparatively simple. However, previous work has shown that the use of graph embeddings alone is not sufficient to achieve high ER quality. We therefore propose a more comprehensive ER approach for knowledge graphs called EAGER (Embedding-Assisted Knowledge Graph Entity Resolution) to flexibly utilize both the similarity of graph embeddings and attribute values within a supervised machine learning approach. We evaluate our approach on 23 benchmark datasets with differently sized and structured knowledge graphs and use hypothesis tests to ensure statistical significance of our results. Furthermore we compare our approach with state-of-the-art ER solutions, where our approach yields competitive results for table-oriented ER problems and shallow knowledge graphs but much better results for deeper knowledge graphs.","headline":"EAGER: Embedding-assisted Entity Resolution For Knowledge Graphs","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/obraczka2021eager/"},"url":"https://learning2hash.github.io/publications/obraczka2021eager/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -223,34 +223,88 @@ but much better results for deeper knowledge graphs.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS: no jQuery needed -->
+  <!-- Share Buttons -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
+  </div>
+
+  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Similar work section
       var relwork = document.getElementById('relwork');
-      if (!relwork) return;
+      if (relwork) {
+        var metaPath = "/publications-metadata/obraczka2021eager.json";
 
-      var metaPath = "/publications-metadata/obraczka2021eager.json";
+        fetch(metaPath, { credentials: 'same-origin' })
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + " " + res.statusText);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!Array.isArray(data)) return;
+            relwork.innerHTML = data
+              .map(function (d) {
+                var slug = d[0];
+                var title = d[1];
+                return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+              })
+              .join('');
+          })
+          .catch(function (err) {
+            console.warn("Failed to load similar work JSON:", err);
+          });
+      }
 
-      fetch(metaPath, { credentials: 'same-origin' })
-        .then(function (res) {
-          if (!res.ok) throw new Error(res.status + " " + res.statusText);
-          return res.json();
-        })
-        .then(function (data) {
-          if (!Array.isArray(data)) return;
-          relwork.innerHTML = data
-            .map(function (d) {
-              var slug = d[0];
-              var title = d[1];
-              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
-            })
-            .join('');
-        })
-        .catch(function (err) {
-          console.warn("Failed to load similar work JSON:", err);
+      // Share buttons
+      const pageUrl = encodeURIComponent(window.location.href);
+      const pageTitle = encodeURIComponent(document.title);
+
+      const twitterBtn = document.getElementById('share-twitter');
+      const linkedinBtn = document.getElementById('share-linkedin');
+      const copyBtn = document.getElementById('share-copy');
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', () => {
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
+      }
+
+      if (linkedinBtn) {
+        linkedinBtn.addEventListener('click', () => {
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            alert('✅ Link copied to clipboard!');
+          });
+        });
+      }
     });
   </script>
+
+  <!-- Optional CSS -->
+  <style>
+    .share-buttons button {
+      background: #f2f2f2;
+      border: none;
+      border-radius: 6px;
+      margin-right: 6px;
+      padding: 6px 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .share-buttons button:hover {
+      background: #e0e0e0;
+    }
+  </style>
 </div>
 
     </div>

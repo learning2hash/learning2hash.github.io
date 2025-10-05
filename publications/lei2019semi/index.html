@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lei2019semi/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T01:15:30-05:00" />
+<meta property="article:published_time" content="2025-10-05T05:43:13-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Semi-heterogeneous Three-way Joint Embedding Network For Sketch-based Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T01:15:30-05:00","datePublished":"2025-10-05T01:15:30-05:00","description":"Sketch-based image retrieval (SBIR) is a challenging task due to the large cross-domain gap between sketches and natural images. How to align abstract sketches and natural images into a common high-level semantic space remains a key problem in SBIR. In this paper, we propose a novel semi-heterogeneous three-way joint embedding network (Semi3-Net), which integrates three branches (a sketch branch, a natural image branch, and an edgemap branch) to learn more discriminative cross-domain feature representations for the SBIR task. The key insight lies with how we cultivate the mutual and subtle relationships amongst the sketches, natural images, and edgemaps. A semi-heterogeneous feature mapping is designed to extract bottom features from each domain, where the sketch and edgemap branches are shared while the natural image branch is heterogeneous to the other branches. In addition, a joint semantic embedding is introduced to embed the features from different domains into a common high-level semantic space, where all of the three branches are shared. To further capture informative features common to both natural images and the corresponding edgemaps, a co-attention model is introduced to conduct common channel-wise feature recalibration between different domains. A hybrid-loss mechanism is designed to align the three branches, where an alignment loss and a sketch-edgemap contrastive loss are presented to encourage the network to learn invariant cross-domain representations. Experimental results on two widely used category-level datasets (Sketchy and TU-Berlin Extension) demonstrate that the proposed method outperforms state-of-the-art methods.","headline":"Semi-heterogeneous Three-way Joint Embedding Network For Sketch-based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lei2019semi/"},"url":"https://learning2hash.github.io/publications/lei2019semi/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:43:13-05:00","datePublished":"2025-10-05T05:43:13-05:00","description":"Sketch-based image retrieval (SBIR) is a challenging task due to the large cross-domain gap between sketches and natural images. How to align abstract sketches and natural images into a common high-level semantic space remains a key problem in SBIR. In this paper, we propose a novel semi-heterogeneous three-way joint embedding network (Semi3-Net), which integrates three branches (a sketch branch, a natural image branch, and an edgemap branch) to learn more discriminative cross-domain feature representations for the SBIR task. The key insight lies with how we cultivate the mutual and subtle relationships amongst the sketches, natural images, and edgemaps. A semi-heterogeneous feature mapping is designed to extract bottom features from each domain, where the sketch and edgemap branches are shared while the natural image branch is heterogeneous to the other branches. In addition, a joint semantic embedding is introduced to embed the features from different domains into a common high-level semantic space, where all of the three branches are shared. To further capture informative features common to both natural images and the corresponding edgemaps, a co-attention model is introduced to conduct common channel-wise feature recalibration between different domains. A hybrid-loss mechanism is designed to align the three branches, where an alignment loss and a sketch-edgemap contrastive loss are presented to encourage the network to learn invariant cross-domain representations. Experimental results on two widely used category-level datasets (Sketchy and TU-Berlin Extension) demonstrate that the proposed method outperforms state-of-the-art methods.","headline":"Semi-heterogeneous Three-way Joint Embedding Network For Sketch-based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lei2019semi/"},"url":"https://learning2hash.github.io/publications/lei2019semi/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -228,34 +228,88 @@ demonstrate that the proposed method outperforms state-of-the-art methods.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS: no jQuery needed -->
+  <!-- Share Buttons -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
+  </div>
+
+  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Similar work section
       var relwork = document.getElementById('relwork');
-      if (!relwork) return;
+      if (relwork) {
+        var metaPath = "/publications-metadata/lei2019semi.json";
 
-      var metaPath = "/publications-metadata/lei2019semi.json";
+        fetch(metaPath, { credentials: 'same-origin' })
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + " " + res.statusText);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!Array.isArray(data)) return;
+            relwork.innerHTML = data
+              .map(function (d) {
+                var slug = d[0];
+                var title = d[1];
+                return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+              })
+              .join('');
+          })
+          .catch(function (err) {
+            console.warn("Failed to load similar work JSON:", err);
+          });
+      }
 
-      fetch(metaPath, { credentials: 'same-origin' })
-        .then(function (res) {
-          if (!res.ok) throw new Error(res.status + " " + res.statusText);
-          return res.json();
-        })
-        .then(function (data) {
-          if (!Array.isArray(data)) return;
-          relwork.innerHTML = data
-            .map(function (d) {
-              var slug = d[0];
-              var title = d[1];
-              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
-            })
-            .join('');
-        })
-        .catch(function (err) {
-          console.warn("Failed to load similar work JSON:", err);
+      // Share buttons
+      const pageUrl = encodeURIComponent(window.location.href);
+      const pageTitle = encodeURIComponent(document.title);
+
+      const twitterBtn = document.getElementById('share-twitter');
+      const linkedinBtn = document.getElementById('share-linkedin');
+      const copyBtn = document.getElementById('share-copy');
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', () => {
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
+      }
+
+      if (linkedinBtn) {
+        linkedinBtn.addEventListener('click', () => {
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            alert('✅ Link copied to clipboard!');
+          });
+        });
+      }
     });
   </script>
+
+  <!-- Optional CSS -->
+  <style>
+    .share-buttons button {
+      background: #f2f2f2;
+      border: none;
+      border-radius: 6px;
+      margin-right: 6px;
+      padding: 6px 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .share-buttons button:hover {
+      background: #e0e0e0;
+    }
+  </style>
 </div>
 
     </div>

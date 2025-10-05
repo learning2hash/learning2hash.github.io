@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2023item/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T01:15:30-05:00" />
+<meta property="article:published_time" content="2025-10-05T05:43:13-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Item Cold Start Recommendation Via Adversarial Variational Auto-encoder Warm-up" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T01:15:30-05:00","datePublished":"2025-10-05T01:15:30-05:00","description":"The gap between the randomly initialized item ID embedding and the well-trained warm item ID embedding makes the cold items hard to suit the recommendation system, which is trained on the data of historical warm items. To alleviate the performance decline of new items recommendation, the distribution of the new item ID embedding should be close to that of the historical warm items. To achieve this goal, we propose an Adversarial Variational Auto-encoder Warm-up model (AVAEW) to generate warm-up item ID embedding for cold items. Specifically, we develop a conditional variational auto-encoder model to leverage the side information of items for generating the warm-up item ID embedding. Particularly, we introduce an adversarial module to enforce the alignment between warm-up item ID embedding distribution and historical item ID embedding distribution. We demonstrate the effectiveness and compatibility of the proposed method by extensive offline experiments on public datasets and online A/B tests on a real-world large-scale news recommendation platform.","headline":"Item Cold Start Recommendation Via Adversarial Variational Auto-encoder Warm-up","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2023item/"},"url":"https://learning2hash.github.io/publications/zhang2023item/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:43:13-05:00","datePublished":"2025-10-05T05:43:13-05:00","description":"The gap between the randomly initialized item ID embedding and the well-trained warm item ID embedding makes the cold items hard to suit the recommendation system, which is trained on the data of historical warm items. To alleviate the performance decline of new items recommendation, the distribution of the new item ID embedding should be close to that of the historical warm items. To achieve this goal, we propose an Adversarial Variational Auto-encoder Warm-up model (AVAEW) to generate warm-up item ID embedding for cold items. Specifically, we develop a conditional variational auto-encoder model to leverage the side information of items for generating the warm-up item ID embedding. Particularly, we introduce an adversarial module to enforce the alignment between warm-up item ID embedding distribution and historical item ID embedding distribution. We demonstrate the effectiveness and compatibility of the proposed method by extensive offline experiments on public datasets and online A/B tests on a real-world large-scale news recommendation platform.","headline":"Item Cold Start Recommendation Via Adversarial Variational Auto-encoder Warm-up","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2023item/"},"url":"https://learning2hash.github.io/publications/zhang2023item/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -225,34 +225,88 @@ platform.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS: no jQuery needed -->
+  <!-- Share Buttons -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
+  </div>
+
+  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Similar work section
       var relwork = document.getElementById('relwork');
-      if (!relwork) return;
+      if (relwork) {
+        var metaPath = "/publications-metadata/zhang2023item.json";
 
-      var metaPath = "/publications-metadata/zhang2023item.json";
+        fetch(metaPath, { credentials: 'same-origin' })
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + " " + res.statusText);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!Array.isArray(data)) return;
+            relwork.innerHTML = data
+              .map(function (d) {
+                var slug = d[0];
+                var title = d[1];
+                return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+              })
+              .join('');
+          })
+          .catch(function (err) {
+            console.warn("Failed to load similar work JSON:", err);
+          });
+      }
 
-      fetch(metaPath, { credentials: 'same-origin' })
-        .then(function (res) {
-          if (!res.ok) throw new Error(res.status + " " + res.statusText);
-          return res.json();
-        })
-        .then(function (data) {
-          if (!Array.isArray(data)) return;
-          relwork.innerHTML = data
-            .map(function (d) {
-              var slug = d[0];
-              var title = d[1];
-              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
-            })
-            .join('');
-        })
-        .catch(function (err) {
-          console.warn("Failed to load similar work JSON:", err);
+      // Share buttons
+      const pageUrl = encodeURIComponent(window.location.href);
+      const pageTitle = encodeURIComponent(document.title);
+
+      const twitterBtn = document.getElementById('share-twitter');
+      const linkedinBtn = document.getElementById('share-linkedin');
+      const copyBtn = document.getElementById('share-copy');
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', () => {
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
+      }
+
+      if (linkedinBtn) {
+        linkedinBtn.addEventListener('click', () => {
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            alert('✅ Link copied to clipboard!');
+          });
+        });
+      }
     });
   </script>
+
+  <!-- Optional CSS -->
+  <style>
+    .share-buttons button {
+      background: #f2f2f2;
+      border: none;
+      border-radius: 6px;
+      margin-right: 6px;
+      padding: 6px 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .share-buttons button:hover {
+      background: #e0e0e0;
+    }
+  </style>
 </div>
 
     </div>

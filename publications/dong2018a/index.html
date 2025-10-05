@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dong2018a/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T01:15:30-05:00" />
+<meta property="article:published_time" content="2025-10-05T05:43:13-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Generalized Approach For Cancellable Template And Its Realization For Minutia Cylinder-code" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T01:15:30-05:00","datePublished":"2025-10-05T01:15:30-05:00","description":"Hashing technology gains much attention in protecting the biometric template lately. For instance, Index-of-Max (IoM), a recent reported hashing technique, is a ranking-based locality sensitive hashing technique, which illustrates the feasibility to protect the ordered and fixed-length biometric template. However, biometric templates are not always in the form of ordered and fixed-length, rather it may be an unordered and variable size point set e.g. fingerprint minutiae, which restricts the usage of the traditional hashing technology. In this paper, we proposed a generalized version of IoM hashing namely gIoM, and therefore the unordered and variable size biometric template can be used. We demonstrate a realization using a well-known variable size feature vector, fingerprint Minutia Cylinder-Code (MCC). The gIoM transforms MCC into index domain to form indexing-based feature representation. Consequently, the inversion of MCC from the transformed representation is computational infeasible, thus to achieve non-invertibility while the performance is preserved. Public fingerprint databases FVC2002 and FVC2004 are employed for experiment as benchmark to demonstrate a fair comparison with other methods. Moreover, the security and privacy analysis suggest that gIoM meets the criteria of template protection: non-invertibility, revocability, and non-linkability.","headline":"A Generalized Approach For Cancellable Template And Its Realization For Minutia Cylinder-code","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2018a/"},"url":"https://learning2hash.github.io/publications/dong2018a/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:43:13-05:00","datePublished":"2025-10-05T05:43:13-05:00","description":"Hashing technology gains much attention in protecting the biometric template lately. For instance, Index-of-Max (IoM), a recent reported hashing technique, is a ranking-based locality sensitive hashing technique, which illustrates the feasibility to protect the ordered and fixed-length biometric template. However, biometric templates are not always in the form of ordered and fixed-length, rather it may be an unordered and variable size point set e.g. fingerprint minutiae, which restricts the usage of the traditional hashing technology. In this paper, we proposed a generalized version of IoM hashing namely gIoM, and therefore the unordered and variable size biometric template can be used. We demonstrate a realization using a well-known variable size feature vector, fingerprint Minutia Cylinder-Code (MCC). The gIoM transforms MCC into index domain to form indexing-based feature representation. Consequently, the inversion of MCC from the transformed representation is computational infeasible, thus to achieve non-invertibility while the performance is preserved. Public fingerprint databases FVC2002 and FVC2004 are employed for experiment as benchmark to demonstrate a fair comparison with other methods. Moreover, the security and privacy analysis suggest that gIoM meets the criteria of template protection: non-invertibility, revocability, and non-linkability.","headline":"A Generalized Approach For Cancellable Template And Its Realization For Minutia Cylinder-code","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2018a/"},"url":"https://learning2hash.github.io/publications/dong2018a/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -225,34 +225,88 @@ non-linkability.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS: no jQuery needed -->
+  <!-- Share Buttons -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
+  </div>
+
+  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Similar work section
       var relwork = document.getElementById('relwork');
-      if (!relwork) return;
+      if (relwork) {
+        var metaPath = "/publications-metadata/dong2018a.json";
 
-      var metaPath = "/publications-metadata/dong2018a.json";
+        fetch(metaPath, { credentials: 'same-origin' })
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + " " + res.statusText);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!Array.isArray(data)) return;
+            relwork.innerHTML = data
+              .map(function (d) {
+                var slug = d[0];
+                var title = d[1];
+                return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+              })
+              .join('');
+          })
+          .catch(function (err) {
+            console.warn("Failed to load similar work JSON:", err);
+          });
+      }
 
-      fetch(metaPath, { credentials: 'same-origin' })
-        .then(function (res) {
-          if (!res.ok) throw new Error(res.status + " " + res.statusText);
-          return res.json();
-        })
-        .then(function (data) {
-          if (!Array.isArray(data)) return;
-          relwork.innerHTML = data
-            .map(function (d) {
-              var slug = d[0];
-              var title = d[1];
-              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
-            })
-            .join('');
-        })
-        .catch(function (err) {
-          console.warn("Failed to load similar work JSON:", err);
+      // Share buttons
+      const pageUrl = encodeURIComponent(window.location.href);
+      const pageTitle = encodeURIComponent(document.title);
+
+      const twitterBtn = document.getElementById('share-twitter');
+      const linkedinBtn = document.getElementById('share-linkedin');
+      const copyBtn = document.getElementById('share-copy');
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', () => {
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
+      }
+
+      if (linkedinBtn) {
+        linkedinBtn.addEventListener('click', () => {
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            alert('✅ Link copied to clipboard!');
+          });
+        });
+      }
     });
   </script>
+
+  <!-- Optional CSS -->
+  <style>
+    .share-buttons button {
+      background: #f2f2f2;
+      border: none;
+      border-radius: 6px;
+      margin-right: 6px;
+      padding: 6px 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .share-buttons button:hover {
+      background: #e0e0e0;
+    }
+  </style>
 </div>
 
     </div>

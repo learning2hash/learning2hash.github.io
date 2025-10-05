@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/mihajlovic2019finding/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T01:15:30-05:00" />
+<meta property="article:published_time" content="2025-10-05T05:43:13-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Finding The Most Similar Textual Documents Using Case-based Reasoning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T01:15:30-05:00","datePublished":"2025-10-05T01:15:30-05:00","description":"In recent years, huge amounts of unstructured textual data on the Internet are a big difficulty for AI algorithms to provide the best recommendations for users and their search queries. Since the Internet became widespread, a lot of research has been done in the field of Natural Language Processing (NLP) and machine learning. Almost every solution transforms documents into Vector Space Models (VSM) in order to apply AI algorithms over them. One such approach is based on Case-Based Reasoning (CBR). Therefore, the most important part of those systems is to compute the similarity between numerical data points. In 2016, the new similarity TS-SS metric is proposed, which showed state-of-the-art results in the field of textual mining for unsupervised learning. However, no one before has investigated its performances for supervised learning (classification task). In this work, we devised a CBR system capable of finding the most similar documents for a given query aiming to investigate performances of the new state-of-the-art metric, TS-SS, in addition to the two other geometrical similarity measures — Euclidean distance and Cosine similarity — that showed the best predictive results over several benchmark corpora. The results show surprising inappropriateness of TS-SS measure for high dimensional features.","headline":"Finding The Most Similar Textual Documents Using Case-based Reasoning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mihajlovic2019finding/"},"url":"https://learning2hash.github.io/publications/mihajlovic2019finding/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:43:13-05:00","datePublished":"2025-10-05T05:43:13-05:00","description":"In recent years, huge amounts of unstructured textual data on the Internet are a big difficulty for AI algorithms to provide the best recommendations for users and their search queries. Since the Internet became widespread, a lot of research has been done in the field of Natural Language Processing (NLP) and machine learning. Almost every solution transforms documents into Vector Space Models (VSM) in order to apply AI algorithms over them. One such approach is based on Case-Based Reasoning (CBR). Therefore, the most important part of those systems is to compute the similarity between numerical data points. In 2016, the new similarity TS-SS metric is proposed, which showed state-of-the-art results in the field of textual mining for unsupervised learning. However, no one before has investigated its performances for supervised learning (classification task). In this work, we devised a CBR system capable of finding the most similar documents for a given query aiming to investigate performances of the new state-of-the-art metric, TS-SS, in addition to the two other geometrical similarity measures — Euclidean distance and Cosine similarity — that showed the best predictive results over several benchmark corpora. The results show surprising inappropriateness of TS-SS measure for high dimensional features.","headline":"Finding The Most Similar Textual Documents Using Case-based Reasoning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mihajlovic2019finding/"},"url":"https://learning2hash.github.io/publications/mihajlovic2019finding/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -226,34 +226,88 @@ TS-SS measure for high dimensional features.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS: no jQuery needed -->
+  <!-- Share Buttons -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
+  </div>
+
+  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Similar work section
       var relwork = document.getElementById('relwork');
-      if (!relwork) return;
+      if (relwork) {
+        var metaPath = "/publications-metadata/mihajlovic2019finding.json";
 
-      var metaPath = "/publications-metadata/mihajlovic2019finding.json";
+        fetch(metaPath, { credentials: 'same-origin' })
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + " " + res.statusText);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!Array.isArray(data)) return;
+            relwork.innerHTML = data
+              .map(function (d) {
+                var slug = d[0];
+                var title = d[1];
+                return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+              })
+              .join('');
+          })
+          .catch(function (err) {
+            console.warn("Failed to load similar work JSON:", err);
+          });
+      }
 
-      fetch(metaPath, { credentials: 'same-origin' })
-        .then(function (res) {
-          if (!res.ok) throw new Error(res.status + " " + res.statusText);
-          return res.json();
-        })
-        .then(function (data) {
-          if (!Array.isArray(data)) return;
-          relwork.innerHTML = data
-            .map(function (d) {
-              var slug = d[0];
-              var title = d[1];
-              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
-            })
-            .join('');
-        })
-        .catch(function (err) {
-          console.warn("Failed to load similar work JSON:", err);
+      // Share buttons
+      const pageUrl = encodeURIComponent(window.location.href);
+      const pageTitle = encodeURIComponent(document.title);
+
+      const twitterBtn = document.getElementById('share-twitter');
+      const linkedinBtn = document.getElementById('share-linkedin');
+      const copyBtn = document.getElementById('share-copy');
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', () => {
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
+      }
+
+      if (linkedinBtn) {
+        linkedinBtn.addEventListener('click', () => {
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            alert('✅ Link copied to clipboard!');
+          });
+        });
+      }
     });
   </script>
+
+  <!-- Optional CSS -->
+  <style>
+    .share-buttons button {
+      background: #f2f2f2;
+      border: none;
+      border-radius: 6px;
+      margin-right: 6px;
+      padding: 6px 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .share-buttons button:hover {
+      background: #e0e0e0;
+    }
+  </style>
 </div>
 
     </div>

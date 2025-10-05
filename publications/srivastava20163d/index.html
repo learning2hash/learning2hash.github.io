@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/srivastava20163d/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T01:15:30-05:00" />
+<meta property="article:published_time" content="2025-10-05T05:43:13-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="3D Binary Signatures" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T01:15:30-05:00","datePublished":"2025-10-05T01:15:30-05:00","description":"In this paper, we propose a novel binary descriptor for 3D point clouds. The proposed descriptor termed as 3D Binary Signature (3DBS) is motivated from the matching efficiency of the binary descriptors for 2D images. 3DBS describes keypoints from point clouds with a binary vector resulting in extremely fast matching. The method uses keypoints from standard keypoint detectors. The descriptor is built by constructing a Local Reference Frame and aligning a local surface patch accordingly. The local surface patch constitutes of identifying nearest neighbours based upon an angular constraint among them. The points are ordered with respect to the distance from the keypoints. The normals of the ordered pairs of these keypoints are projected on the axes and the relative magnitude is used to assign a binary digit. The vector thus constituted is used as a signature for representing the keypoints. The matching is done by using hamming distance. We show that 3DBS outperforms state of the art descriptors on various evaluation metrics.","headline":"3D Binary Signatures","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/srivastava20163d/"},"url":"https://learning2hash.github.io/publications/srivastava20163d/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:43:13-05:00","datePublished":"2025-10-05T05:43:13-05:00","description":"In this paper, we propose a novel binary descriptor for 3D point clouds. The proposed descriptor termed as 3D Binary Signature (3DBS) is motivated from the matching efficiency of the binary descriptors for 2D images. 3DBS describes keypoints from point clouds with a binary vector resulting in extremely fast matching. The method uses keypoints from standard keypoint detectors. The descriptor is built by constructing a Local Reference Frame and aligning a local surface patch accordingly. The local surface patch constitutes of identifying nearest neighbours based upon an angular constraint among them. The points are ordered with respect to the distance from the keypoints. The normals of the ordered pairs of these keypoints are projected on the axes and the relative magnitude is used to assign a binary digit. The vector thus constituted is used as a signature for representing the keypoints. The matching is done by using hamming distance. We show that 3DBS outperforms state of the art descriptors on various evaluation metrics.","headline":"3D Binary Signatures","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/srivastava20163d/"},"url":"https://learning2hash.github.io/publications/srivastava20163d/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -218,34 +218,88 @@ art descriptors on various evaluation metrics.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS: no jQuery needed -->
+  <!-- Share Buttons -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
+  </div>
+
+  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Similar work section
       var relwork = document.getElementById('relwork');
-      if (!relwork) return;
+      if (relwork) {
+        var metaPath = "/publications-metadata/srivastava20163d.json";
 
-      var metaPath = "/publications-metadata/srivastava20163d.json";
+        fetch(metaPath, { credentials: 'same-origin' })
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + " " + res.statusText);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!Array.isArray(data)) return;
+            relwork.innerHTML = data
+              .map(function (d) {
+                var slug = d[0];
+                var title = d[1];
+                return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+              })
+              .join('');
+          })
+          .catch(function (err) {
+            console.warn("Failed to load similar work JSON:", err);
+          });
+      }
 
-      fetch(metaPath, { credentials: 'same-origin' })
-        .then(function (res) {
-          if (!res.ok) throw new Error(res.status + " " + res.statusText);
-          return res.json();
-        })
-        .then(function (data) {
-          if (!Array.isArray(data)) return;
-          relwork.innerHTML = data
-            .map(function (d) {
-              var slug = d[0];
-              var title = d[1];
-              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
-            })
-            .join('');
-        })
-        .catch(function (err) {
-          console.warn("Failed to load similar work JSON:", err);
+      // Share buttons
+      const pageUrl = encodeURIComponent(window.location.href);
+      const pageTitle = encodeURIComponent(document.title);
+
+      const twitterBtn = document.getElementById('share-twitter');
+      const linkedinBtn = document.getElementById('share-linkedin');
+      const copyBtn = document.getElementById('share-copy');
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', () => {
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
+      }
+
+      if (linkedinBtn) {
+        linkedinBtn.addEventListener('click', () => {
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            alert('✅ Link copied to clipboard!');
+          });
+        });
+      }
     });
   </script>
+
+  <!-- Optional CSS -->
+  <style>
+    .share-buttons button {
+      background: #f2f2f2;
+      border: none;
+      border-radius: 6px;
+      margin-right: 6px;
+      padding: 6px 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .share-buttons button:hover {
+      background: #e0e0e0;
+    }
+  </style>
 </div>
 
     </div>

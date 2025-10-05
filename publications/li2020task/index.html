@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2020task/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T01:15:30-05:00" />
+<meta property="article:published_time" content="2025-10-05T05:43:13-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Task-adaptive Asymmetric Deep Cross-modal Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T01:15:30-05:00","datePublished":"2025-10-05T01:15:30-05:00","description":"Supervised cross-modal hashing aims to embed the semantic correlations of heterogeneous modality data into the binary hash codes with discriminative semantic labels. Because of its advantages on retrieval and storage efficiency, it is widely used for solving efficient cross-modal retrieval. However, existing researches equally handle the different tasks of cross-modal retrieval, and simply learn the same couple of hash functions in a symmetric way for them. Under such circumstance, the uniqueness of different cross-modal retrieval tasks are ignored and sub-optimal performance may be brought. Motivated by this, we present a Task-adaptive Asymmetric Deep Cross-modal Hashing (TA-ADCMH) method in this paper. It can learn task-adaptive hash functions for two sub-retrieval tasks via simultaneous modality representation and asymmetric hash learning. Unlike previous cross-modal hashing approaches, our learning framework jointly optimizes semantic preserving that transforms deep features of multimedia data into binary hash codes, and the semantic regression which directly regresses query modality representation to explicit label. With our model, the binary codes can effectively preserve semantic correlations across different modalities, meanwhile, adaptively capture the query semantics. The superiority of TA-ADCMH is proved on two standard datasets from many aspects.","headline":"Task-adaptive Asymmetric Deep Cross-modal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2020task/"},"url":"https://learning2hash.github.io/publications/li2020task/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:43:13-05:00","datePublished":"2025-10-05T05:43:13-05:00","description":"Supervised cross-modal hashing aims to embed the semantic correlations of heterogeneous modality data into the binary hash codes with discriminative semantic labels. Because of its advantages on retrieval and storage efficiency, it is widely used for solving efficient cross-modal retrieval. However, existing researches equally handle the different tasks of cross-modal retrieval, and simply learn the same couple of hash functions in a symmetric way for them. Under such circumstance, the uniqueness of different cross-modal retrieval tasks are ignored and sub-optimal performance may be brought. Motivated by this, we present a Task-adaptive Asymmetric Deep Cross-modal Hashing (TA-ADCMH) method in this paper. It can learn task-adaptive hash functions for two sub-retrieval tasks via simultaneous modality representation and asymmetric hash learning. Unlike previous cross-modal hashing approaches, our learning framework jointly optimizes semantic preserving that transforms deep features of multimedia data into binary hash codes, and the semantic regression which directly regresses query modality representation to explicit label. With our model, the binary codes can effectively preserve semantic correlations across different modalities, meanwhile, adaptively capture the query semantics. The superiority of TA-ADCMH is proved on two standard datasets from many aspects.","headline":"Task-adaptive Asymmetric Deep Cross-modal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2020task/"},"url":"https://learning2hash.github.io/publications/li2020task/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -235,34 +235,88 @@ from many aspects.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS: no jQuery needed -->
+  <!-- Share Buttons -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
+  </div>
+
+  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Similar work section
       var relwork = document.getElementById('relwork');
-      if (!relwork) return;
+      if (relwork) {
+        var metaPath = "/publications-metadata/li2020task.json";
 
-      var metaPath = "/publications-metadata/li2020task.json";
+        fetch(metaPath, { credentials: 'same-origin' })
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + " " + res.statusText);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!Array.isArray(data)) return;
+            relwork.innerHTML = data
+              .map(function (d) {
+                var slug = d[0];
+                var title = d[1];
+                return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+              })
+              .join('');
+          })
+          .catch(function (err) {
+            console.warn("Failed to load similar work JSON:", err);
+          });
+      }
 
-      fetch(metaPath, { credentials: 'same-origin' })
-        .then(function (res) {
-          if (!res.ok) throw new Error(res.status + " " + res.statusText);
-          return res.json();
-        })
-        .then(function (data) {
-          if (!Array.isArray(data)) return;
-          relwork.innerHTML = data
-            .map(function (d) {
-              var slug = d[0];
-              var title = d[1];
-              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
-            })
-            .join('');
-        })
-        .catch(function (err) {
-          console.warn("Failed to load similar work JSON:", err);
+      // Share buttons
+      const pageUrl = encodeURIComponent(window.location.href);
+      const pageTitle = encodeURIComponent(document.title);
+
+      const twitterBtn = document.getElementById('share-twitter');
+      const linkedinBtn = document.getElementById('share-linkedin');
+      const copyBtn = document.getElementById('share-copy');
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', () => {
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
+      }
+
+      if (linkedinBtn) {
+        linkedinBtn.addEventListener('click', () => {
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            alert('✅ Link copied to clipboard!');
+          });
+        });
+      }
     });
   </script>
+
+  <!-- Optional CSS -->
+  <style>
+    .share-buttons button {
+      background: #f2f2f2;
+      border: none;
+      border-radius: 6px;
+      margin-right: 6px;
+      padding: 6px 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .share-buttons button:hover {
+      background: #e0e0e0;
+    }
+  </style>
 </div>
 
     </div>

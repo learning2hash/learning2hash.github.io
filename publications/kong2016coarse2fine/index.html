@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kong2016coarse2fine/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T01:15:30-05:00" />
+<meta property="article:published_time" content="2025-10-05T05:43:13-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Coarse2fine: Two-layer Fusion For Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T01:15:30-05:00","datePublished":"2025-10-05T01:15:30-05:00","description":"This paper addresses the problem of large-scale image retrieval. We propose a two-layer fusion method which takes advantage of global and local cues and ranks database images from coarse to fine (C2F). Departing from the previous methods fusing multiple image descriptors simultaneously, C2F is featured by a layered procedure composed by filtering and refining. In particular, C2F consists of three components. 1) Distractor filtering. With holistic representations, noise images are filtered out from the database, so the number of candidate images to be used for comparison with the query can be greatly reduced. 2) Adaptive weighting. For a certain query, the similarity of candidate images can be estimated by holistic similarity scores in complementary to the local ones. 3) Candidate refining. Accurate retrieval is conducted via local features, combining the pre-computed adaptive weights. Experiments are presented on two benchmarks, i.e., Holidays and Ukbench datasets. We show that our method outperforms recent fusion methods in terms of storage consumption and computation complexity, and that the accuracy is competitive to the state-of-the-arts.","headline":"Coarse2fine: Two-layer Fusion For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kong2016coarse2fine/"},"url":"https://learning2hash.github.io/publications/kong2016coarse2fine/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:43:13-05:00","datePublished":"2025-10-05T05:43:13-05:00","description":"This paper addresses the problem of large-scale image retrieval. We propose a two-layer fusion method which takes advantage of global and local cues and ranks database images from coarse to fine (C2F). Departing from the previous methods fusing multiple image descriptors simultaneously, C2F is featured by a layered procedure composed by filtering and refining. In particular, C2F consists of three components. 1) Distractor filtering. With holistic representations, noise images are filtered out from the database, so the number of candidate images to be used for comparison with the query can be greatly reduced. 2) Adaptive weighting. For a certain query, the similarity of candidate images can be estimated by holistic similarity scores in complementary to the local ones. 3) Candidate refining. Accurate retrieval is conducted via local features, combining the pre-computed adaptive weights. Experiments are presented on two benchmarks, i.e., Holidays and Ukbench datasets. We show that our method outperforms recent fusion methods in terms of storage consumption and computation complexity, and that the accuracy is competitive to the state-of-the-arts.","headline":"Coarse2fine: Two-layer Fusion For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kong2016coarse2fine/"},"url":"https://learning2hash.github.io/publications/kong2016coarse2fine/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -224,34 +224,88 @@ competitive to the state-of-the-arts.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS: no jQuery needed -->
+  <!-- Share Buttons -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
+  </div>
+
+  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Similar work section
       var relwork = document.getElementById('relwork');
-      if (!relwork) return;
+      if (relwork) {
+        var metaPath = "/publications-metadata/kong2016coarse2fine.json";
 
-      var metaPath = "/publications-metadata/kong2016coarse2fine.json";
+        fetch(metaPath, { credentials: 'same-origin' })
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + " " + res.statusText);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!Array.isArray(data)) return;
+            relwork.innerHTML = data
+              .map(function (d) {
+                var slug = d[0];
+                var title = d[1];
+                return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+              })
+              .join('');
+          })
+          .catch(function (err) {
+            console.warn("Failed to load similar work JSON:", err);
+          });
+      }
 
-      fetch(metaPath, { credentials: 'same-origin' })
-        .then(function (res) {
-          if (!res.ok) throw new Error(res.status + " " + res.statusText);
-          return res.json();
-        })
-        .then(function (data) {
-          if (!Array.isArray(data)) return;
-          relwork.innerHTML = data
-            .map(function (d) {
-              var slug = d[0];
-              var title = d[1];
-              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
-            })
-            .join('');
-        })
-        .catch(function (err) {
-          console.warn("Failed to load similar work JSON:", err);
+      // Share buttons
+      const pageUrl = encodeURIComponent(window.location.href);
+      const pageTitle = encodeURIComponent(document.title);
+
+      const twitterBtn = document.getElementById('share-twitter');
+      const linkedinBtn = document.getElementById('share-linkedin');
+      const copyBtn = document.getElementById('share-copy');
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', () => {
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
+      }
+
+      if (linkedinBtn) {
+        linkedinBtn.addEventListener('click', () => {
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            alert('✅ Link copied to clipboard!');
+          });
+        });
+      }
     });
   </script>
+
+  <!-- Optional CSS -->
+  <style>
+    .share-buttons button {
+      background: #f2f2f2;
+      border: none;
+      border-radius: 6px;
+      margin-right: 6px;
+      padding: 6px 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .share-buttons button:hover {
+      background: #e0e0e0;
+    }
+  </style>
 </div>
 
     </div>

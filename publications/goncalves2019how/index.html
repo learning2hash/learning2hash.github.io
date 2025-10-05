@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/goncalves2019how/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T01:15:30-05:00" />
+<meta property="article:published_time" content="2025-10-05T05:43:13-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="How Big Can Style Be? Addressing High Dimensionality For Recommending With Style" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T01:15:30-05:00","datePublished":"2025-10-05T01:15:30-05:00","description":"Using embeddings as representations of products is quite commonplace in recommender systems, either by extracting the semantic embeddings of text descriptions, user sessions, collaborative relationships, or product images. In this paper, we present an approach to extract style embeddings for using in fashion recommender systems, with a special focus on style information such as textures, prints, material, etc. The main issue of using such a type of embeddings is its high dimensionality. So, we propose feature reduction solutions alongside the investigation of its influence in the overall task of recommending products of the same style based on their main image. The feature reduction we propose allows for reducing the embedding vector from 600k features to 512, leading to a memory reduction of 99.91% without critically compromising the quality of the recommendations.","headline":"How Big Can Style Be? Addressing High Dimensionality For Recommending With Style","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/goncalves2019how/"},"url":"https://learning2hash.github.io/publications/goncalves2019how/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:43:13-05:00","datePublished":"2025-10-05T05:43:13-05:00","description":"Using embeddings as representations of products is quite commonplace in recommender systems, either by extracting the semantic embeddings of text descriptions, user sessions, collaborative relationships, or product images. In this paper, we present an approach to extract style embeddings for using in fashion recommender systems, with a special focus on style information such as textures, prints, material, etc. The main issue of using such a type of embeddings is its high dimensionality. So, we propose feature reduction solutions alongside the investigation of its influence in the overall task of recommending products of the same style based on their main image. The feature reduction we propose allows for reducing the embedding vector from 600k features to 512, leading to a memory reduction of 99.91% without critically compromising the quality of the recommendations.","headline":"How Big Can Style Be? Addressing High Dimensionality For Recommending With Style","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/goncalves2019how/"},"url":"https://learning2hash.github.io/publications/goncalves2019how/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -214,34 +214,88 @@ compromising the quality of the recommendations.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS: no jQuery needed -->
+  <!-- Share Buttons -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
+  </div>
+
+  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Similar work section
       var relwork = document.getElementById('relwork');
-      if (!relwork) return;
+      if (relwork) {
+        var metaPath = "/publications-metadata/goncalves2019how.json";
 
-      var metaPath = "/publications-metadata/goncalves2019how.json";
+        fetch(metaPath, { credentials: 'same-origin' })
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + " " + res.statusText);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!Array.isArray(data)) return;
+            relwork.innerHTML = data
+              .map(function (d) {
+                var slug = d[0];
+                var title = d[1];
+                return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+              })
+              .join('');
+          })
+          .catch(function (err) {
+            console.warn("Failed to load similar work JSON:", err);
+          });
+      }
 
-      fetch(metaPath, { credentials: 'same-origin' })
-        .then(function (res) {
-          if (!res.ok) throw new Error(res.status + " " + res.statusText);
-          return res.json();
-        })
-        .then(function (data) {
-          if (!Array.isArray(data)) return;
-          relwork.innerHTML = data
-            .map(function (d) {
-              var slug = d[0];
-              var title = d[1];
-              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
-            })
-            .join('');
-        })
-        .catch(function (err) {
-          console.warn("Failed to load similar work JSON:", err);
+      // Share buttons
+      const pageUrl = encodeURIComponent(window.location.href);
+      const pageTitle = encodeURIComponent(document.title);
+
+      const twitterBtn = document.getElementById('share-twitter');
+      const linkedinBtn = document.getElementById('share-linkedin');
+      const copyBtn = document.getElementById('share-copy');
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', () => {
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
+      }
+
+      if (linkedinBtn) {
+        linkedinBtn.addEventListener('click', () => {
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            alert('✅ Link copied to clipboard!');
+          });
+        });
+      }
     });
   </script>
+
+  <!-- Optional CSS -->
+  <style>
+    .share-buttons button {
+      background: #f2f2f2;
+      border: none;
+      border-radius: 6px;
+      margin-right: 6px;
+      padding: 6px 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .share-buttons button:hover {
+      background: #e0e0e0;
+    }
+  </style>
 </div>
 
     </div>

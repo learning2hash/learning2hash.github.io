@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/sumbul2022a/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T01:15:30-05:00" />
+<meta property="article:published_time" content="2025-10-05T05:43:13-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Novel Framework To Jointly Compress And Index Remote Sensing Images For Efficient Content-based Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T01:15:30-05:00","datePublished":"2025-10-05T01:15:30-05:00","description":"Remote sensing (RS) images are usually stored in compressed format to reduce the storage size of the archives. Thus, existing content-based image retrieval (CBIR) systems in RS require decoding images before applying CBIR (which is computationally demanding in the case of large-scale CBIR problems). To address this problem, in this paper, we present a joint framework that simultaneously learns RS image compression and indexing. Thus, it eliminates the need for decoding RS images before applying CBIR. The proposed framework is made up of two modules. The first module compresses RS images based on an auto-encoder architecture. The second module produces hash codes with a high discrimination capability by employing soft pairwise, bit-balancing and classification loss functions. We also introduce a two stage learning strategy with gradient manipulation techniques to obtain image representations that are compatible with both RS image indexing and compression. Experimental results show the efficacy of the proposed framework when compared to widely used approaches in RS. The code of the proposed framework is available at https://git.tu-berlin.de/rsim/RS-JCIF.","headline":"A Novel Framework To Jointly Compress And Index Remote Sensing Images For Efficient Content-based Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sumbul2022a/"},"url":"https://learning2hash.github.io/publications/sumbul2022a/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:43:13-05:00","datePublished":"2025-10-05T05:43:13-05:00","description":"Remote sensing (RS) images are usually stored in compressed format to reduce the storage size of the archives. Thus, existing content-based image retrieval (CBIR) systems in RS require decoding images before applying CBIR (which is computationally demanding in the case of large-scale CBIR problems). To address this problem, in this paper, we present a joint framework that simultaneously learns RS image compression and indexing. Thus, it eliminates the need for decoding RS images before applying CBIR. The proposed framework is made up of two modules. The first module compresses RS images based on an auto-encoder architecture. The second module produces hash codes with a high discrimination capability by employing soft pairwise, bit-balancing and classification loss functions. We also introduce a two stage learning strategy with gradient manipulation techniques to obtain image representations that are compatible with both RS image indexing and compression. Experimental results show the efficacy of the proposed framework when compared to widely used approaches in RS. The code of the proposed framework is available at https://git.tu-berlin.de/rsim/RS-JCIF.","headline":"A Novel Framework To Jointly Compress And Index Remote Sensing Images For Efficient Content-based Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sumbul2022a/"},"url":"https://learning2hash.github.io/publications/sumbul2022a/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -226,34 +226,88 @@ https://git.tu-berlin.de/rsim/RS-JCIF.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS: no jQuery needed -->
+  <!-- Share Buttons -->
+  <h6>Share this Paper</h6>
+  <div class="share-buttons" style="margin-bottom: 1em;">
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
+  </div>
+
+  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
+      // Similar work section
       var relwork = document.getElementById('relwork');
-      if (!relwork) return;
+      if (relwork) {
+        var metaPath = "/publications-metadata/sumbul2022a.json";
 
-      var metaPath = "/publications-metadata/sumbul2022a.json";
+        fetch(metaPath, { credentials: 'same-origin' })
+          .then(function (res) {
+            if (!res.ok) throw new Error(res.status + " " + res.statusText);
+            return res.json();
+          })
+          .then(function (data) {
+            if (!Array.isArray(data)) return;
+            relwork.innerHTML = data
+              .map(function (d) {
+                var slug = d[0];
+                var title = d[1];
+                return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
+              })
+              .join('');
+          })
+          .catch(function (err) {
+            console.warn("Failed to load similar work JSON:", err);
+          });
+      }
 
-      fetch(metaPath, { credentials: 'same-origin' })
-        .then(function (res) {
-          if (!res.ok) throw new Error(res.status + " " + res.statusText);
-          return res.json();
-        })
-        .then(function (data) {
-          if (!Array.isArray(data)) return;
-          relwork.innerHTML = data
-            .map(function (d) {
-              var slug = d[0];
-              var title = d[1];
-              return '<li><a href="/publications/' + slug + '">' + title + '</a></li>';
-            })
-            .join('');
-        })
-        .catch(function (err) {
-          console.warn("Failed to load similar work JSON:", err);
+      // Share buttons
+      const pageUrl = encodeURIComponent(window.location.href);
+      const pageTitle = encodeURIComponent(document.title);
+
+      const twitterBtn = document.getElementById('share-twitter');
+      const linkedinBtn = document.getElementById('share-linkedin');
+      const copyBtn = document.getElementById('share-copy');
+
+      if (twitterBtn) {
+        twitterBtn.addEventListener('click', () => {
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
+      }
+
+      if (linkedinBtn) {
+        linkedinBtn.addEventListener('click', () => {
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
+        });
+      }
+
+      if (copyBtn) {
+        copyBtn.addEventListener('click', () => {
+          navigator.clipboard.writeText(window.location.href).then(() => {
+            alert('✅ Link copied to clipboard!');
+          });
+        });
+      }
     });
   </script>
+
+  <!-- Optional CSS -->
+  <style>
+    .share-buttons button {
+      background: #f2f2f2;
+      border: none;
+      border-radius: 6px;
+      margin-right: 6px;
+      padding: 6px 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .share-buttons button:hover {
+      background: #e0e0e0;
+    }
+  </style>
 </div>
 
     </div>
