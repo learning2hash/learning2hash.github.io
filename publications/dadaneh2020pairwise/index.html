@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dadaneh2020pairwise/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T05:58:11-05:00" />
+<meta property="article:published_time" content="2025-10-05T06:13:47-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Pairwise Supervised Hashing With Bernoulli Variational Auto-encoder And Self-control Gradient Estimator" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:58:11-05:00","datePublished":"2025-10-05T05:58:11-05:00","description":"Semantic hashing has become a crucial component of fast similarity search in many large-scale information retrieval systems, in particular, for text data. Variational auto-encoders (VAEs) with binary latent variables as hashing codes provide state-of-the-art performance in terms of precision for document retrieval. We propose a pairwise loss function with discrete latent VAE to reward within-class similarity and between-class dissimilarity for supervised hashing. Instead of solving the optimization relying on existing biased gradient estimators, an unbiased low-variance gradient estimator is adopted to optimize the hashing function by evaluating the non-differentiable loss function over two correlated sets of binary hashing codes to control the variance of gradient estimates. This new semantic hashing framework achieves superior performance compared to the state-of-the-arts, as demonstrated by our comprehensive experiments.","headline":"Pairwise Supervised Hashing With Bernoulli Variational Auto-encoder And Self-control Gradient Estimator","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dadaneh2020pairwise/"},"url":"https://learning2hash.github.io/publications/dadaneh2020pairwise/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:13:47-05:00","datePublished":"2025-10-05T06:13:47-05:00","description":"Semantic hashing has become a crucial component of fast similarity search in many large-scale information retrieval systems, in particular, for text data. Variational auto-encoders (VAEs) with binary latent variables as hashing codes provide state-of-the-art performance in terms of precision for document retrieval. We propose a pairwise loss function with discrete latent VAE to reward within-class similarity and between-class dissimilarity for supervised hashing. Instead of solving the optimization relying on existing biased gradient estimators, an unbiased low-variance gradient estimator is adopted to optimize the hashing function by evaluating the non-differentiable loss function over two correlated sets of binary hashing codes to control the variance of gradient estimates. This new semantic hashing framework achieves superior performance compared to the state-of-the-arts, as demonstrated by our comprehensive experiments.","headline":"Pairwise Supervised Hashing With Bernoulli Variational Auto-encoder And Self-control Gradient Estimator","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dadaneh2020pairwise/"},"url":"https://learning2hash.github.io/publications/dadaneh2020pairwise/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -230,24 +230,19 @@ comprehensive experiments.</p>
   <!-- Share Buttons -->
   <h6>Share this Paper</h6>
   <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
   </div>
 
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work loading
+      // Similar work section
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/dadaneh2020pairwise.json";
+
         fetch(metaPath, { credentials: 'same-origin' })
           .then(function (res) {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -268,7 +263,7 @@ comprehensive experiments.</p>
           });
       }
 
-      // Share button logic
+      // Share buttons
       const pageUrl = encodeURIComponent(window.location.href);
       const pageTitle = encodeURIComponent(document.title);
 
@@ -278,22 +273,20 @@ comprehensive experiments.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
         });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
-            copyBtn.classList.add('copied');
-            setTimeout(() => copyBtn.classList.remove('copied'), 900);
+            alert('✅ Link copied to clipboard!');
           });
         });
       }
@@ -302,31 +295,19 @@ comprehensive experiments.</p>
 
   <!-- Optional CSS -->
   <style>
-    .share-buttons {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .icon-btn {
+    .share-buttons button {
       background: #f2f2f2;
       border: none;
-      border-radius: 8px;
+      border-radius: 6px;
+      margin-right: 6px;
       padding: 6px 10px;
+      font-size: 1.2em;
       cursor: pointer;
-      transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      transition: background 0.2s;
     }
-    .icon-btn:hover { background: #e7e7e7; }
-    .icon-btn:active { transform: translateY(1px); }
-    .icon-btn img {
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      vertical-align: middle;
+    .share-buttons button:hover {
+      background: #e0e0e0;
     }
-    /* Subtle visual confirmation on copy */
-    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

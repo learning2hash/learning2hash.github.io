@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhu2016deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T05:58:11-05:00" />
+<meta property="article:published_time" content="2025-10-05T06:13:47-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Hashing Network For Efficient Similarity Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:58:11-05:00","datePublished":"2025-10-05T05:58:11-05:00","description":"Due to the storage and retrieval efficiency, hashing has been widely deployed to approximate nearest neighbor search for large-scale multimedia retrieval. Supervised hashing, which improves the quality of hash coding by exploiting the semantic similarity on data pairs, has received increasing attention recently. For most existing supervised hashing methods for image retrieval, an image is first represented as a vector of hand-crafted or machine-learned features, followed by another separate quantization step that generates binary codes. However, suboptimal hash coding may be produced, because the quantization error is not statistically minimized and the feature representation is not optimally compatible with the binary coding. In this paper, we propose a novel Deep Hashing Network (DHN) architecture for supervised hashing, in which we jointly learn good image representation tailored to hash coding and formally control the quantization error. The DHN model constitutes four key components: (1) a sub-network with multiple convolution-pooling layers to capture image representations; (2) a fully-connected hashing layer to generate compact binary hash codes; (3) a pairwise cross-entropy loss layer for similarity-preserving learning; and (4) a pairwise quantization loss for controlling hashing quality. Extensive experiments on standard image retrieval datasets show the proposed DHN model yields substantial boosts over latest state-of-the-art hashing methods.","headline":"Deep Hashing Network For Efficient Similarity Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2016deep/"},"url":"https://learning2hash.github.io/publications/zhu2016deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:13:47-05:00","datePublished":"2025-10-05T06:13:47-05:00","description":"Due to the storage and retrieval efficiency, hashing has been widely deployed to approximate nearest neighbor search for large-scale multimedia retrieval. Supervised hashing, which improves the quality of hash coding by exploiting the semantic similarity on data pairs, has received increasing attention recently. For most existing supervised hashing methods for image retrieval, an image is first represented as a vector of hand-crafted or machine-learned features, followed by another separate quantization step that generates binary codes. However, suboptimal hash coding may be produced, because the quantization error is not statistically minimized and the feature representation is not optimally compatible with the binary coding. In this paper, we propose a novel Deep Hashing Network (DHN) architecture for supervised hashing, in which we jointly learn good image representation tailored to hash coding and formally control the quantization error. The DHN model constitutes four key components: (1) a sub-network with multiple convolution-pooling layers to capture image representations; (2) a fully-connected hashing layer to generate compact binary hash codes; (3) a pairwise cross-entropy loss layer for similarity-preserving learning; and (4) a pairwise quantization loss for controlling hashing quality. Extensive experiments on standard image retrieval datasets show the proposed DHN model yields substantial boosts over latest state-of-the-art hashing methods.","headline":"Deep Hashing Network For Efficient Similarity Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2016deep/"},"url":"https://learning2hash.github.io/publications/zhu2016deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -228,24 +228,19 @@ The DHN model constitutes four key components: (1) a sub-network with multiple c
   <!-- Share Buttons -->
   <h6>Share this Paper</h6>
   <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
   </div>
 
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work loading
+      // Similar work section
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/zhu2016deep.json";
+
         fetch(metaPath, { credentials: 'same-origin' })
           .then(function (res) {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -266,7 +261,7 @@ The DHN model constitutes four key components: (1) a sub-network with multiple c
           });
       }
 
-      // Share button logic
+      // Share buttons
       const pageUrl = encodeURIComponent(window.location.href);
       const pageTitle = encodeURIComponent(document.title);
 
@@ -276,22 +271,20 @@ The DHN model constitutes four key components: (1) a sub-network with multiple c
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
         });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
-            copyBtn.classList.add('copied');
-            setTimeout(() => copyBtn.classList.remove('copied'), 900);
+            alert('✅ Link copied to clipboard!');
           });
         });
       }
@@ -300,31 +293,19 @@ The DHN model constitutes four key components: (1) a sub-network with multiple c
 
   <!-- Optional CSS -->
   <style>
-    .share-buttons {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .icon-btn {
+    .share-buttons button {
       background: #f2f2f2;
       border: none;
-      border-radius: 8px;
+      border-radius: 6px;
+      margin-right: 6px;
       padding: 6px 10px;
+      font-size: 1.2em;
       cursor: pointer;
-      transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      transition: background 0.2s;
     }
-    .icon-btn:hover { background: #e7e7e7; }
-    .icon-btn:active { transform: translateY(1px); }
-    .icon-btn img {
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      vertical-align: middle;
+    .share-buttons button:hover {
+      background: #e0e0e0;
     }
-    /* Subtle visual confirmation on copy */
-    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

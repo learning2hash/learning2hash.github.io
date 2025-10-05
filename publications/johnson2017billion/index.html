@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/johnson2017billion/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T05:58:11-05:00" />
+<meta property="article:published_time" content="2025-10-05T06:13:47-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Billion-scale Similarity Search With Gpus" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:58:11-05:00","datePublished":"2025-10-05T05:58:11-05:00","description":"Similarity search finds application in specialized database systems handling complex data such as images or videos, which are typically represented by high-dimensional features and require specific indexing structures. This paper tackles the problem of better utilizing GPUs for this task. While GPUs excel at data-parallel tasks, prior approaches are bottlenecked by algorithms that expose less parallelism, such as k-min selection, or make poor use of the memory hierarchy. We propose a design for k-selection that operates at up to 55% of theoretical peak performance, enabling a nearest neighbor implementation that is 8.5x faster than prior GPU state of the art. We apply it in different similarity search scenarios, by proposing optimized design for brute-force, approximate and compressed-domain search based on product quantization. In all these setups, we outperform the state of the art by large margins. Our implementation enables the construction of a high accuracy k-NN graph on 95 million images from the Yfcc100M dataset in 35 minutes, and of a graph connecting 1 billion vectors in less than 12 hours on 4 Maxwell Titan X GPUs. We have open-sourced our approach for the sake of comparison and reproducibility.","headline":"Billion-scale Similarity Search With Gpus","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/johnson2017billion/"},"url":"https://learning2hash.github.io/publications/johnson2017billion/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:13:47-05:00","datePublished":"2025-10-05T06:13:47-05:00","description":"Similarity search finds application in specialized database systems handling complex data such as images or videos, which are typically represented by high-dimensional features and require specific indexing structures. This paper tackles the problem of better utilizing GPUs for this task. While GPUs excel at data-parallel tasks, prior approaches are bottlenecked by algorithms that expose less parallelism, such as k-min selection, or make poor use of the memory hierarchy. We propose a design for k-selection that operates at up to 55% of theoretical peak performance, enabling a nearest neighbor implementation that is 8.5x faster than prior GPU state of the art. We apply it in different similarity search scenarios, by proposing optimized design for brute-force, approximate and compressed-domain search based on product quantization. In all these setups, we outperform the state of the art by large margins. Our implementation enables the construction of a high accuracy k-NN graph on 95 million images from the Yfcc100M dataset in 35 minutes, and of a graph connecting 1 billion vectors in less than 12 hours on 4 Maxwell Titan X GPUs. We have open-sourced our approach for the sake of comparison and reproducibility.","headline":"Billion-scale Similarity Search With Gpus","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/johnson2017billion/"},"url":"https://learning2hash.github.io/publications/johnson2017billion/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -232,24 +232,19 @@ our approach for the sake of comparison and reproducibility.</p>
   <!-- Share Buttons -->
   <h6>Share this Paper</h6>
   <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
   </div>
 
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work loading
+      // Similar work section
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/johnson2017billion.json";
+
         fetch(metaPath, { credentials: 'same-origin' })
           .then(function (res) {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -270,7 +265,7 @@ our approach for the sake of comparison and reproducibility.</p>
           });
       }
 
-      // Share button logic
+      // Share buttons
       const pageUrl = encodeURIComponent(window.location.href);
       const pageTitle = encodeURIComponent(document.title);
 
@@ -280,22 +275,20 @@ our approach for the sake of comparison and reproducibility.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
         });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
-            copyBtn.classList.add('copied');
-            setTimeout(() => copyBtn.classList.remove('copied'), 900);
+            alert('✅ Link copied to clipboard!');
           });
         });
       }
@@ -304,31 +297,19 @@ our approach for the sake of comparison and reproducibility.</p>
 
   <!-- Optional CSS -->
   <style>
-    .share-buttons {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .icon-btn {
+    .share-buttons button {
       background: #f2f2f2;
       border: none;
-      border-radius: 8px;
+      border-radius: 6px;
+      margin-right: 6px;
       padding: 6px 10px;
+      font-size: 1.2em;
       cursor: pointer;
-      transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      transition: background 0.2s;
     }
-    .icon-btn:hover { background: #e7e7e7; }
-    .icon-btn:active { transform: translateY(1px); }
-    .icon-btn img {
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      vertical-align: middle;
+    .share-buttons button:hover {
+      background: #e0e0e0;
     }
-    /* Subtle visual confirmation on copy */
-    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

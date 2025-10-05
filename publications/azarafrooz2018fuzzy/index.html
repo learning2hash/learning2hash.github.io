@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/azarafrooz2018fuzzy/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T05:58:11-05:00" />
+<meta property="article:published_time" content="2025-10-05T06:13:47-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fuzzy Hashing As Perturbation-consistent Adversarial Kernel Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:58:11-05:00","datePublished":"2025-10-05T05:58:11-05:00","description":"Measuring the similarity of two files is an important task in malware analysis, with fuzzy hash functions being a popular approach. Traditional fuzzy hash functions are data agnostic: they do not learn from a particular dataset how to determine similarity; their behavior is fixed across all datasets. In this paper, we demonstrate that fuzzy hash functions can be learned in a novel minimax training framework and that these learned fuzzy hash functions outperform traditional fuzzy hash functions at the file similarity task for Portable Executable files. In our approach, hash digests can be extracted from the kernel embeddings of two kernel networks, trained in a minimax framework, where the roles of players during training (i.e adversary versus generator) alternate along with the input data. We refer to this new minimax architecture as perturbation-consistent. The similarity score for a pair of files is the utility of the minimax game in equilibrium. Our experiments show that learned fuzzy hash functions generalize well, capable of determining that two files are similar even when one of those files was generated using insertion and deletion operations.","headline":"Fuzzy Hashing As Perturbation-consistent Adversarial Kernel Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/azarafrooz2018fuzzy/"},"url":"https://learning2hash.github.io/publications/azarafrooz2018fuzzy/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:13:47-05:00","datePublished":"2025-10-05T06:13:47-05:00","description":"Measuring the similarity of two files is an important task in malware analysis, with fuzzy hash functions being a popular approach. Traditional fuzzy hash functions are data agnostic: they do not learn from a particular dataset how to determine similarity; their behavior is fixed across all datasets. In this paper, we demonstrate that fuzzy hash functions can be learned in a novel minimax training framework and that these learned fuzzy hash functions outperform traditional fuzzy hash functions at the file similarity task for Portable Executable files. In our approach, hash digests can be extracted from the kernel embeddings of two kernel networks, trained in a minimax framework, where the roles of players during training (i.e adversary versus generator) alternate along with the input data. We refer to this new minimax architecture as perturbation-consistent. The similarity score for a pair of files is the utility of the minimax game in equilibrium. Our experiments show that learned fuzzy hash functions generalize well, capable of determining that two files are similar even when one of those files was generated using insertion and deletion operations.","headline":"Fuzzy Hashing As Perturbation-consistent Adversarial Kernel Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/azarafrooz2018fuzzy/"},"url":"https://learning2hash.github.io/publications/azarafrooz2018fuzzy/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -227,24 +227,19 @@ operations.</p>
   <!-- Share Buttons -->
   <h6>Share this Paper</h6>
   <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
   </div>
 
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work loading
+      // Similar work section
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/azarafrooz2018fuzzy.json";
+
         fetch(metaPath, { credentials: 'same-origin' })
           .then(function (res) {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -265,7 +260,7 @@ operations.</p>
           });
       }
 
-      // Share button logic
+      // Share buttons
       const pageUrl = encodeURIComponent(window.location.href);
       const pageTitle = encodeURIComponent(document.title);
 
@@ -275,22 +270,20 @@ operations.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
         });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
-            copyBtn.classList.add('copied');
-            setTimeout(() => copyBtn.classList.remove('copied'), 900);
+            alert('✅ Link copied to clipboard!');
           });
         });
       }
@@ -299,31 +292,19 @@ operations.</p>
 
   <!-- Optional CSS -->
   <style>
-    .share-buttons {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .icon-btn {
+    .share-buttons button {
       background: #f2f2f2;
       border: none;
-      border-radius: 8px;
+      border-radius: 6px;
+      margin-right: 6px;
       padding: 6px 10px;
+      font-size: 1.2em;
       cursor: pointer;
-      transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      transition: background 0.2s;
     }
-    .icon-btn:hover { background: #e7e7e7; }
-    .icon-btn:active { transform: translateY(1px); }
-    .icon-btn img {
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      vertical-align: middle;
+    .share-buttons button:hover {
+      background: #e0e0e0;
     }
-    /* Subtle visual confirmation on copy */
-    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

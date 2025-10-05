@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/karaman2019unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T05:58:11-05:00" />
+<meta property="article:published_time" content="2025-10-05T06:13:47-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unsupervised Rank-preserving Hashing For Large-scale Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:58:11-05:00","datePublished":"2025-10-05T05:58:11-05:00","description":"We propose an unsupervised hashing method which aims to produce binary codes that preserve the ranking induced by a real-valued representation. Such compact hash codes enable the complete elimination of real-valued feature storage and allow for significant reduction of the computation complexity and storage cost of large-scale image retrieval applications. Specifically, we learn a neural network-based model, which transforms the input representation into a binary representation. We formalize the training objective of the network in an intuitive and effective way, considering each training sample as a query and aiming to obtain the same retrieval results using the produced hash codes as those obtained with the original features. This training formulation directly optimizes the hashing model for the target usage of the hash codes it produces. We further explore the addition of a decoder trained to obtain an approximated reconstruction of the original features. At test time, we retrieved the most promising database samples with an efficient graph-based search procedure using only our hash codes and perform re-ranking using the reconstructed features, thus without needing to access the original features at all. Experiments conducted on multiple publicly available large-scale datasets show that our method consistently outperforms all compared state-of-the-art unsupervised hashing methods and that the reconstruction procedure can effectively boost the search accuracy with a minimal constant additional cost.","headline":"Unsupervised Rank-preserving Hashing For Large-scale Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/karaman2019unsupervised/"},"url":"https://learning2hash.github.io/publications/karaman2019unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:13:47-05:00","datePublished":"2025-10-05T06:13:47-05:00","description":"We propose an unsupervised hashing method which aims to produce binary codes that preserve the ranking induced by a real-valued representation. Such compact hash codes enable the complete elimination of real-valued feature storage and allow for significant reduction of the computation complexity and storage cost of large-scale image retrieval applications. Specifically, we learn a neural network-based model, which transforms the input representation into a binary representation. We formalize the training objective of the network in an intuitive and effective way, considering each training sample as a query and aiming to obtain the same retrieval results using the produced hash codes as those obtained with the original features. This training formulation directly optimizes the hashing model for the target usage of the hash codes it produces. We further explore the addition of a decoder trained to obtain an approximated reconstruction of the original features. At test time, we retrieved the most promising database samples with an efficient graph-based search procedure using only our hash codes and perform re-ranking using the reconstructed features, thus without needing to access the original features at all. Experiments conducted on multiple publicly available large-scale datasets show that our method consistently outperforms all compared state-of-the-art unsupervised hashing methods and that the reconstruction procedure can effectively boost the search accuracy with a minimal constant additional cost.","headline":"Unsupervised Rank-preserving Hashing For Large-scale Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/karaman2019unsupervised/"},"url":"https://learning2hash.github.io/publications/karaman2019unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -247,24 +247,19 @@ search accuracy with a minimal constant additional cost.</p>
   <!-- Share Buttons -->
   <h6>Share this Paper</h6>
   <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
   </div>
 
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work loading
+      // Similar work section
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/karaman2019unsupervised.json";
+
         fetch(metaPath, { credentials: 'same-origin' })
           .then(function (res) {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -285,7 +280,7 @@ search accuracy with a minimal constant additional cost.</p>
           });
       }
 
-      // Share button logic
+      // Share buttons
       const pageUrl = encodeURIComponent(window.location.href);
       const pageTitle = encodeURIComponent(document.title);
 
@@ -295,22 +290,20 @@ search accuracy with a minimal constant additional cost.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
         });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
-            copyBtn.classList.add('copied');
-            setTimeout(() => copyBtn.classList.remove('copied'), 900);
+            alert('✅ Link copied to clipboard!');
           });
         });
       }
@@ -319,31 +312,19 @@ search accuracy with a minimal constant additional cost.</p>
 
   <!-- Optional CSS -->
   <style>
-    .share-buttons {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .icon-btn {
+    .share-buttons button {
       background: #f2f2f2;
       border: none;
-      border-radius: 8px;
+      border-radius: 6px;
+      margin-right: 6px;
       padding: 6px 10px;
+      font-size: 1.2em;
       cursor: pointer;
-      transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      transition: background 0.2s;
     }
-    .icon-btn:hover { background: #e7e7e7; }
-    .icon-btn:active { transform: translateY(1px); }
-    .icon-btn img {
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      vertical-align: middle;
+    .share-buttons button:hover {
+      background: #e0e0e0;
     }
-    /* Subtle visual confirmation on copy */
-    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

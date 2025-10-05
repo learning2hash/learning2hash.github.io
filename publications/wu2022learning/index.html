@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wu2022learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T05:58:11-05:00" />
+<meta property="article:published_time" content="2025-10-05T06:13:47-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Deep Semantic Model For Code Search Using Codesearchnet Corpus" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T05:58:11-05:00","datePublished":"2025-10-05T05:58:11-05:00","description":"Semantic code search is the task of retrieving relevant code snippet given a natural language query. Different from typical information retrieval tasks, code search requires to bridge the semantic gap between the programming language and natural language, for better describing intrinsic concepts and semantics. Recently, deep neural network for code search has been a hot research topic. Typical methods for neural code search first represent the code snippet and query text as separate embeddings, and then use vector distance (e.g. dot-product or cosine) to calculate the semantic similarity between them. There exist many different ways for aggregating the variable length of code or query tokens into a learnable embedding, including bi-encoder, cross-encoder, and poly-encoder. The goal of the query encoder and code encoder is to produce embeddings that are close with each other for a related pair of query and the corresponding desired code snippet, in which the choice and design of encoder is very significant. In this paper, we propose a novel deep semantic model which makes use of the utilities of not only the multi-modal sources, but also feature extractors such as self-attention, the aggregated vectors, combination of the intermediate representations. We apply the proposed model to tackle the CodeSearchNet challenge about semantic code search. We align cross-lingual embedding for multi-modality learning with large batches and hard example mining, and combine different learned representations for better enhancing the representation learning. Our model is trained on CodeSearchNet corpus and evaluated on the held-out data, the final model achieves 0.384 NDCG and won the first place in this benchmark. Models and code are available at https://github.com/overwindows/SemanticCodeSearch.git.","headline":"Learning Deep Semantic Model For Code Search Using Codesearchnet Corpus","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2022learning/"},"url":"https://learning2hash.github.io/publications/wu2022learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T06:13:47-05:00","datePublished":"2025-10-05T06:13:47-05:00","description":"Semantic code search is the task of retrieving relevant code snippet given a natural language query. Different from typical information retrieval tasks, code search requires to bridge the semantic gap between the programming language and natural language, for better describing intrinsic concepts and semantics. Recently, deep neural network for code search has been a hot research topic. Typical methods for neural code search first represent the code snippet and query text as separate embeddings, and then use vector distance (e.g. dot-product or cosine) to calculate the semantic similarity between them. There exist many different ways for aggregating the variable length of code or query tokens into a learnable embedding, including bi-encoder, cross-encoder, and poly-encoder. The goal of the query encoder and code encoder is to produce embeddings that are close with each other for a related pair of query and the corresponding desired code snippet, in which the choice and design of encoder is very significant. In this paper, we propose a novel deep semantic model which makes use of the utilities of not only the multi-modal sources, but also feature extractors such as self-attention, the aggregated vectors, combination of the intermediate representations. We apply the proposed model to tackle the CodeSearchNet challenge about semantic code search. We align cross-lingual embedding for multi-modality learning with large batches and hard example mining, and combine different learned representations for better enhancing the representation learning. Our model is trained on CodeSearchNet corpus and evaluated on the held-out data, the final model achieves 0.384 NDCG and won the first place in this benchmark. Models and code are available at https://github.com/overwindows/SemanticCodeSearch.git.","headline":"Learning Deep Semantic Model For Code Search Using Codesearchnet Corpus","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2022learning/"},"url":"https://learning2hash.github.io/publications/wu2022learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -232,24 +232,19 @@ https://github.com/overwindows/SemanticCodeSearch.git.</p>
   <!-- Share Buttons -->
   <h6>Share this Paper</h6>
   <div class="share-buttons" style="margin-bottom: 1em;">
-    <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
-      <img src="/public/media/x.svg" alt="X (Twitter) icon" width="20" height="20">
-    </button>
-    <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
-      <img src="/public/media/linkedin.svg" alt="LinkedIn icon" width="20" height="20">
-    </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon" width="20" height="20">
-    </button>
+    <button id="share-twitter" title="Share on X (Twitter)">🐦</button>
+    <button id="share-linkedin" title="Share on LinkedIn">💼</button>
+    <button id="share-copy" title="Copy Link">🔗</button>
   </div>
 
   <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Similar work loading
+      // Similar work section
       var relwork = document.getElementById('relwork');
       if (relwork) {
         var metaPath = "/publications-metadata/wu2022learning.json";
+
         fetch(metaPath, { credentials: 'same-origin' })
           .then(function (res) {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -270,7 +265,7 @@ https://github.com/overwindows/SemanticCodeSearch.git.</p>
           });
       }
 
-      // Share button logic
+      // Share buttons
       const pageUrl = encodeURIComponent(window.location.href);
       const pageTitle = encodeURIComponent(document.title);
 
@@ -280,22 +275,20 @@ https://github.com/overwindows/SemanticCodeSearch.git.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank');
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank');
         });
       }
 
       if (copyBtn) {
         copyBtn.addEventListener('click', () => {
           navigator.clipboard.writeText(window.location.href).then(() => {
-            // Brief, non-blocking feedback
-            copyBtn.classList.add('copied');
-            setTimeout(() => copyBtn.classList.remove('copied'), 900);
+            alert('✅ Link copied to clipboard!');
           });
         });
       }
@@ -304,31 +297,19 @@ https://github.com/overwindows/SemanticCodeSearch.git.</p>
 
   <!-- Optional CSS -->
   <style>
-    .share-buttons {
-      display: flex;
-      gap: 8px;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .icon-btn {
+    .share-buttons button {
       background: #f2f2f2;
       border: none;
-      border-radius: 8px;
+      border-radius: 6px;
+      margin-right: 6px;
       padding: 6px 10px;
+      font-size: 1.2em;
       cursor: pointer;
-      transition: background 0.2s, transform 0.05s;
-      line-height: 0; /* tight around the icon */
+      transition: background 0.2s;
     }
-    .icon-btn:hover { background: #e7e7e7; }
-    .icon-btn:active { transform: translateY(1px); }
-    .icon-btn img {
-      display: inline-block;
-      width: 20px;
-      height: 20px;
-      vertical-align: middle;
+    .share-buttons button:hover {
+      background: #e0e0e0;
     }
-    /* Subtle visual confirmation on copy */
-    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 
