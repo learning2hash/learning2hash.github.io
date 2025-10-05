@@ -106,6 +106,16 @@ Learning to hash involves training a model to encode data points into compact re
 
 ---
 
+### 🧾 Reference to This Work
+<p style="font-size:1em;">
+For a foundational overview of the field, see:<br>
+<strong><a href="/papers/Learning_Based_Hashing_for_ANN_Search__Foundations_and_Early_Advances.pdf" target="_blank">
+Moran, S. (2025). <em>Learning-Based Hashing for Approximate Nearest Neighbour (ANN) Search: Foundations and Early Advances</em></a></strong>.<br>
+This survey introduces the conceptual foundations of learning-based hashing, covering projection and quantisation methods, early supervised and unsupervised models, and the transition to data-dependent hashing for efficient similarity search.
+</p>
+
+---
+
 ### 🤝 Contribute to the Collection
 <p>
 This site is maintained as a community-driven literature review. If you have authored or come across a relevant paper, we encourage you to contribute via our submission form or GitHub pull request. See the <a href="contributing.html">Contributing</a> page for details.
