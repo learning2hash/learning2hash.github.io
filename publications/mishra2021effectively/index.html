@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/mishra2021effectively/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Effectively Leveraging Attributes For Visual Similarity" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Measuring similarity between two images often requires performing complex reasoning along different axes (e.g., color, texture, or shape). Insights into what might be important for measuring similarity can can be provided by annotated attributes, but prior work tends to view these annotations as complete, resulting in them using a simplistic approach of predicting attributes on single images, which are, in turn, used to measure similarity. However, it is impractical for a dataset to fully annotate every attribute that may be important. Thus, only representing images based on these incomplete annotations may miss out on key information. To address this issue, we propose the Pairwise Attribute-informed similarity Network (PAN), which breaks similarity learning into capturing similarity conditions and relevance scores from a joint representation of two images. This enables our model to identify that two images contain the same attribute, but can have it deemed irrelevant (e.g., due to fine-grained differences between them) and ignored for measuring similarity between the two images. Notably, while prior methods of using attribute annotations are often unable to outperform prior art, PAN obtains a 4-9% improvement on compatibility prediction between clothing items on Polyvore Outfits, a 5% gain on few shot classification of images using Caltech-UCSD Birds (CUB), and over 1% boost to Recall@1 on In-Shop Clothes Retrieval. Implementation available at https://github.com/samarth4149/PAN","headline":"Effectively Leveraging Attributes For Visual Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mishra2021effectively/"},"url":"https://learning2hash.github.io/publications/mishra2021effectively/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Measuring similarity between two images often requires performing complex reasoning along different axes (e.g., color, texture, or shape). Insights into what might be important for measuring similarity can can be provided by annotated attributes, but prior work tends to view these annotations as complete, resulting in them using a simplistic approach of predicting attributes on single images, which are, in turn, used to measure similarity. However, it is impractical for a dataset to fully annotate every attribute that may be important. Thus, only representing images based on these incomplete annotations may miss out on key information. To address this issue, we propose the Pairwise Attribute-informed similarity Network (PAN), which breaks similarity learning into capturing similarity conditions and relevance scores from a joint representation of two images. This enables our model to identify that two images contain the same attribute, but can have it deemed irrelevant (e.g., due to fine-grained differences between them) and ignored for measuring similarity between the two images. Notably, while prior methods of using attribute annotations are often unable to outperform prior art, PAN obtains a 4-9% improvement on compatibility prediction between clothing items on Polyvore Outfits, a 5% gain on few shot classification of images using Caltech-UCSD Birds (CUB), and over 1% boost to Recall@1 on In-Shop Clothes Retrieval. Implementation available at https://github.com/samarth4149/PAN","headline":"Effectively Leveraging Attributes For Visual Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mishra2021effectively/"},"url":"https://learning2hash.github.io/publications/mishra2021effectively/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -241,7 +241,6 @@ Implementation available at https://github.com/samarth4149/PAN</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -262,9 +261,9 @@ Implementation available at https://github.com/samarth4149/PAN</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -272,13 +271,21 @@ Implementation available at https://github.com/samarth4149/PAN</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -293,7 +300,6 @@ Implementation available at https://github.com/samarth4149/PAN</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -321,7 +327,7 @@ Implementation available at https://github.com/samarth4149/PAN</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

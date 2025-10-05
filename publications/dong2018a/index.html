@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dong2018a/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Generalized Approach For Cancellable Template And Its Realization For Minutia Cylinder-code" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Hashing technology gains much attention in protecting the biometric template lately. For instance, Index-of-Max (IoM), a recent reported hashing technique, is a ranking-based locality sensitive hashing technique, which illustrates the feasibility to protect the ordered and fixed-length biometric template. However, biometric templates are not always in the form of ordered and fixed-length, rather it may be an unordered and variable size point set e.g. fingerprint minutiae, which restricts the usage of the traditional hashing technology. In this paper, we proposed a generalized version of IoM hashing namely gIoM, and therefore the unordered and variable size biometric template can be used. We demonstrate a realization using a well-known variable size feature vector, fingerprint Minutia Cylinder-Code (MCC). The gIoM transforms MCC into index domain to form indexing-based feature representation. Consequently, the inversion of MCC from the transformed representation is computational infeasible, thus to achieve non-invertibility while the performance is preserved. Public fingerprint databases FVC2002 and FVC2004 are employed for experiment as benchmark to demonstrate a fair comparison with other methods. Moreover, the security and privacy analysis suggest that gIoM meets the criteria of template protection: non-invertibility, revocability, and non-linkability.","headline":"A Generalized Approach For Cancellable Template And Its Realization For Minutia Cylinder-code","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2018a/"},"url":"https://learning2hash.github.io/publications/dong2018a/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Hashing technology gains much attention in protecting the biometric template lately. For instance, Index-of-Max (IoM), a recent reported hashing technique, is a ranking-based locality sensitive hashing technique, which illustrates the feasibility to protect the ordered and fixed-length biometric template. However, biometric templates are not always in the form of ordered and fixed-length, rather it may be an unordered and variable size point set e.g. fingerprint minutiae, which restricts the usage of the traditional hashing technology. In this paper, we proposed a generalized version of IoM hashing namely gIoM, and therefore the unordered and variable size biometric template can be used. We demonstrate a realization using a well-known variable size feature vector, fingerprint Minutia Cylinder-Code (MCC). The gIoM transforms MCC into index domain to form indexing-based feature representation. Consequently, the inversion of MCC from the transformed representation is computational infeasible, thus to achieve non-invertibility while the performance is preserved. Public fingerprint databases FVC2002 and FVC2004 are employed for experiment as benchmark to demonstrate a fair comparison with other methods. Moreover, the security and privacy analysis suggest that gIoM meets the criteria of template protection: non-invertibility, revocability, and non-linkability.","headline":"A Generalized Approach For Cancellable Template And Its Realization For Minutia Cylinder-code","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2018a/"},"url":"https://learning2hash.github.io/publications/dong2018a/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -238,7 +238,6 @@ non-linkability.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -259,9 +258,9 @@ non-linkability.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -269,13 +268,21 @@ non-linkability.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -290,7 +297,6 @@ non-linkability.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -318,7 +324,7 @@ non-linkability.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

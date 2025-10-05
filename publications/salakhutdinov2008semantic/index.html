@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/salakhutdinov2008semantic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Semantic Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"We show how to learn a deep graphical model of the word-count vectors obtained from a large set of documents. The values of the latent variables in the deepest layer are easy to infer and give a much better representation of each document than Latent Semantic Analysis. When the deepest layer is forced to use a small number of binary variables (e.g. 32), the graphical model performs “semantic hashing”: Documents are mapped to memory addresses in such a way that semantically similar documents are located at nearby addresses. Documents similar to a query document can then be found by simply accessing all the addresses that differ by only a few bits from the address of the query document. This way of extending the efficiency of hash-coding to approximate matching is much faster than locality sensitive hashing, which is the fastest current method. By using semantic hashing to filter the documents given to TF-IDF, we achieve higher accuracy than applying TF-IDF to the entire document set.","headline":"Semantic Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/salakhutdinov2008semantic/"},"url":"https://learning2hash.github.io/publications/salakhutdinov2008semantic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"We show how to learn a deep graphical model of the word-count vectors obtained from a large set of documents. The values of the latent variables in the deepest layer are easy to infer and give a much better representation of each document than Latent Semantic Analysis. When the deepest layer is forced to use a small number of binary variables (e.g. 32), the graphical model performs “semantic hashing”: Documents are mapped to memory addresses in such a way that semantically similar documents are located at nearby addresses. Documents similar to a query document can then be found by simply accessing all the addresses that differ by only a few bits from the address of the query document. This way of extending the efficiency of hash-coding to approximate matching is much faster than locality sensitive hashing, which is the fastest current method. By using semantic hashing to filter the documents given to TF-IDF, we achieve higher accuracy than applying TF-IDF to the entire document set.","headline":"Semantic Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/salakhutdinov2008semantic/"},"url":"https://learning2hash.github.io/publications/salakhutdinov2008semantic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -237,7 +237,6 @@ set.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -258,9 +257,9 @@ set.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -268,13 +267,21 @@ set.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -289,7 +296,6 @@ set.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -317,7 +323,7 @@ set.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

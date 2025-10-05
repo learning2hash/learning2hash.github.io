@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/do2017compact/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Compact Hash Code Learning With Binary Deep Neural Network" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Learning compact binary codes for image retrieval problem using deep neural networks has recently attracted increasing attention. However, training deep hashing networks is challenging due to the binary constraints on the hash codes. In this paper, we propose deep network models and learning algorithms for learning binary hash codes given image representations under both unsupervised and supervised manners. The novelty of our network design is that we constrain one hidden layer to directly output the binary codes. This design has overcome a challenging problem in some previous works: optimizing non-smooth objective functions because of binarization. In addition, we propose to incorporate independence and balance properties in the direct and strict forms into the learning schemes. We also include a similarity preserving property in our objective functions. The resulting optimizations involving these binary, independence, and balance constraints are difficult to solve. To tackle this difficulty, we propose to learn the networks with alternating optimization and careful relaxation. Furthermore, by leveraging the powerful capacity of convolutional neural networks, we propose an end-to-end architecture that jointly learns to extract visual features and produce binary hash codes. Experimental results for the benchmark datasets show that the proposed methods compare favorably or outperform the state of the art.","headline":"Compact Hash Code Learning With Binary Deep Neural Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/do2017compact/"},"url":"https://learning2hash.github.io/publications/do2017compact/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Learning compact binary codes for image retrieval problem using deep neural networks has recently attracted increasing attention. However, training deep hashing networks is challenging due to the binary constraints on the hash codes. In this paper, we propose deep network models and learning algorithms for learning binary hash codes given image representations under both unsupervised and supervised manners. The novelty of our network design is that we constrain one hidden layer to directly output the binary codes. This design has overcome a challenging problem in some previous works: optimizing non-smooth objective functions because of binarization. In addition, we propose to incorporate independence and balance properties in the direct and strict forms into the learning schemes. We also include a similarity preserving property in our objective functions. The resulting optimizations involving these binary, independence, and balance constraints are difficult to solve. To tackle this difficulty, we propose to learn the networks with alternating optimization and careful relaxation. Furthermore, by leveraging the powerful capacity of convolutional neural networks, we propose an end-to-end architecture that jointly learns to extract visual features and produce binary hash codes. Experimental results for the benchmark datasets show that the proposed methods compare favorably or outperform the state of the art.","headline":"Compact Hash Code Learning With Binary Deep Neural Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/do2017compact/"},"url":"https://learning2hash.github.io/publications/do2017compact/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -246,7 +246,6 @@ proposed methods compare favorably or outperform the state of the art.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -267,9 +266,9 @@ proposed methods compare favorably or outperform the state of the art.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -277,13 +276,21 @@ proposed methods compare favorably or outperform the state of the art.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -298,7 +305,6 @@ proposed methods compare favorably or outperform the state of the art.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -326,7 +332,7 @@ proposed methods compare favorably or outperform the state of the art.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

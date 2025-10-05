@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/weston2011large/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Large-scale Music Annotation And Retrieval: Learning To Rank In Joint Semantic Spaces" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Music prediction tasks range from predicting tags given a song or clip of audio, predicting the name of the artist, or predicting related songs given a song, clip, artist name or tag. That is, we are interested in every semantic relationship between the different musical concepts in our database. In realistically sized databases, the number of songs is measured in the hundreds of thousands or more, and the number of artists in the tens of thousands or more, providing a considerable challenge to standard machine learning techniques. In this work, we propose a method that scales to such datasets which attempts to capture the semantic similarities between the database items by modeling audio, artist names, and tags in a single low-dimensional semantic space. This choice of space is learnt by optimizing the set of prediction tasks of interest jointly using multi-task learning. Our method both outperforms baseline methods and, in comparison to them, is faster and consumes less memory. We then demonstrate how our method learns an interpretable model, where the semantic space captures well the similarities of interest.","headline":"Large-scale Music Annotation And Retrieval: Learning To Rank In Joint Semantic Spaces","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weston2011large/"},"url":"https://learning2hash.github.io/publications/weston2011large/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Music prediction tasks range from predicting tags given a song or clip of audio, predicting the name of the artist, or predicting related songs given a song, clip, artist name or tag. That is, we are interested in every semantic relationship between the different musical concepts in our database. In realistically sized databases, the number of songs is measured in the hundreds of thousands or more, and the number of artists in the tens of thousands or more, providing a considerable challenge to standard machine learning techniques. In this work, we propose a method that scales to such datasets which attempts to capture the semantic similarities between the database items by modeling audio, artist names, and tags in a single low-dimensional semantic space. This choice of space is learnt by optimizing the set of prediction tasks of interest jointly using multi-task learning. Our method both outperforms baseline methods and, in comparison to them, is faster and consumes less memory. We then demonstrate how our method learns an interpretable model, where the semantic space captures well the similarities of interest.","headline":"Large-scale Music Annotation And Retrieval: Learning To Rank In Joint Semantic Spaces","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weston2011large/"},"url":"https://learning2hash.github.io/publications/weston2011large/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -234,7 +234,6 @@ the semantic space captures well the similarities of interest.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -255,9 +254,9 @@ the semantic space captures well the similarities of interest.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -265,13 +264,21 @@ the semantic space captures well the similarities of interest.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -286,7 +293,6 @@ the semantic space captures well the similarities of interest.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -314,7 +320,7 @@ the semantic space captures well the similarities of interest.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

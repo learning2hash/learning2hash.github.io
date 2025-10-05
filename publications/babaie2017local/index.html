@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/babaie2017local/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Local Radon Descriptors For Image Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Radon transform and its inverse operation are important techniques in medical imaging tasks. Recently, there has been renewed interest in Radon transform for applications such as content-based medical image retrieval. However, all studies so far have used Radon transform as a global or quasi-global image descriptor by extracting projections of the whole image or large sub-images. This paper attempts to show that the dense sampling to generate the histogram of local Radon projections has a much higher discrimination capability than the global one. In this paper, we introduce Local Radon Descriptor (LRD) and apply it to the IRMA dataset, which contains 14,410 x-ray images as well as to the INRIA Holidays dataset with 1,990 images. Our results show significant improvement in retrieval performance by using LRD versus its global version. We also demonstrate that LRD can deliver results comparable to well-established descriptors like LBP and HOG.","headline":"Local Radon Descriptors For Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/babaie2017local/"},"url":"https://learning2hash.github.io/publications/babaie2017local/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Radon transform and its inverse operation are important techniques in medical imaging tasks. Recently, there has been renewed interest in Radon transform for applications such as content-based medical image retrieval. However, all studies so far have used Radon transform as a global or quasi-global image descriptor by extracting projections of the whole image or large sub-images. This paper attempts to show that the dense sampling to generate the histogram of local Radon projections has a much higher discrimination capability than the global one. In this paper, we introduce Local Radon Descriptor (LRD) and apply it to the IRMA dataset, which contains 14,410 x-ray images as well as to the INRIA Holidays dataset with 1,990 images. Our results show significant improvement in retrieval performance by using LRD versus its global version. We also demonstrate that LRD can deliver results comparable to well-established descriptors like LBP and HOG.","headline":"Local Radon Descriptors For Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/babaie2017local/"},"url":"https://learning2hash.github.io/publications/babaie2017local/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -232,7 +232,6 @@ descriptors like LBP and HOG.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -253,9 +252,9 @@ descriptors like LBP and HOG.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -263,13 +262,21 @@ descriptors like LBP and HOG.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -284,7 +291,6 @@ descriptors like LBP and HOG.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -312,7 +318,7 @@ descriptors like LBP and HOG.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

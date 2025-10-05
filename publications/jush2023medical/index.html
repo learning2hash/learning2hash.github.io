@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jush2023medical/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Medical Image Retrieval Using Pretrained Embeddings" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"A wide range of imaging techniques and data formats available for medical images make accurate retrieval from image databases challenging. Efficient retrieval systems are crucial in advancing medical research, enabling large-scale studies and innovative diagnostic tools. Thus, addressing the challenges of medical image retrieval is essential for the continued enhancement of healthcare and research. In this study, we evaluated the feasibility of employing four state-of-the-art pretrained models for medical image retrieval at modality, body region, and organ levels and compared the results of two similarity indexing approaches. Since the employed networks take 2D images, we analyzed the impacts of weighting and sampling strategies to incorporate 3D information during retrieval of 3D volumes. We showed that medical image retrieval is feasible using pretrained networks without any additional training or fine-tuning steps. Using pretrained embeddings, we achieved a recall of 1 for various tasks at modality, body region, and organ level.","headline":"Medical Image Retrieval Using Pretrained Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jush2023medical/"},"url":"https://learning2hash.github.io/publications/jush2023medical/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"A wide range of imaging techniques and data formats available for medical images make accurate retrieval from image databases challenging. Efficient retrieval systems are crucial in advancing medical research, enabling large-scale studies and innovative diagnostic tools. Thus, addressing the challenges of medical image retrieval is essential for the continued enhancement of healthcare and research. In this study, we evaluated the feasibility of employing four state-of-the-art pretrained models for medical image retrieval at modality, body region, and organ levels and compared the results of two similarity indexing approaches. Since the employed networks take 2D images, we analyzed the impacts of weighting and sampling strategies to incorporate 3D information during retrieval of 3D volumes. We showed that medical image retrieval is feasible using pretrained networks without any additional training or fine-tuning steps. Using pretrained embeddings, we achieved a recall of 1 for various tasks at modality, body region, and organ level.","headline":"Medical Image Retrieval Using Pretrained Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jush2023medical/"},"url":"https://learning2hash.github.io/publications/jush2023medical/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -236,7 +236,6 @@ various tasks at modality, body region, and organ level.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -257,9 +256,9 @@ various tasks at modality, body region, and organ level.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -267,13 +266,21 @@ various tasks at modality, body region, and organ level.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -288,7 +295,6 @@ various tasks at modality, body region, and organ level.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -316,7 +322,7 @@ various tasks at modality, body region, and organ level.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

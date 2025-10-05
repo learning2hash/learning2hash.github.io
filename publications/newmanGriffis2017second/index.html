@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/newmanGriffis2017second/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Second-order Word Embeddings From Nearest Neighbor Topological Features" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"We introduce second-order vector representations of words, induced from nearest neighborhood topological features in pre-trained contextual word embeddings. We then analyze the effects of using second-order embeddings as input features in two deep natural language processing models, for named entity recognition and recognizing textual entailment, as well as a linear model for paraphrase recognition. Surprisingly, we find that nearest neighbor information alone is sufficient to capture most of the performance benefits derived from using pre-trained word embeddings. Furthermore, second-order embeddings are able to handle highly heterogeneous data better than first-order representations, though at the cost of some specificity. Additionally, augmenting contextual embeddings with second-order information further improves model performance in some cases. Due to variance in the random initializations of word embeddings, utilizing nearest neighbor features from multiple first-order embedding samples can also contribute to downstream performance gains. Finally, we identify intriguing characteristics of second-order embedding spaces for further research, including much higher density and different semantic interpretations of cosine similarity.","headline":"Second-order Word Embeddings From Nearest Neighbor Topological Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/newmanGriffis2017second/"},"url":"https://learning2hash.github.io/publications/newmanGriffis2017second/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"We introduce second-order vector representations of words, induced from nearest neighborhood topological features in pre-trained contextual word embeddings. We then analyze the effects of using second-order embeddings as input features in two deep natural language processing models, for named entity recognition and recognizing textual entailment, as well as a linear model for paraphrase recognition. Surprisingly, we find that nearest neighbor information alone is sufficient to capture most of the performance benefits derived from using pre-trained word embeddings. Furthermore, second-order embeddings are able to handle highly heterogeneous data better than first-order representations, though at the cost of some specificity. Additionally, augmenting contextual embeddings with second-order information further improves model performance in some cases. Due to variance in the random initializations of word embeddings, utilizing nearest neighbor features from multiple first-order embedding samples can also contribute to downstream performance gains. Finally, we identify intriguing characteristics of second-order embedding spaces for further research, including much higher density and different semantic interpretations of cosine similarity.","headline":"Second-order Word Embeddings From Nearest Neighbor Topological Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/newmanGriffis2017second/"},"url":"https://learning2hash.github.io/publications/newmanGriffis2017second/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -234,7 +234,6 @@ different semantic interpretations of cosine similarity.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -255,9 +254,9 @@ different semantic interpretations of cosine similarity.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -265,13 +264,21 @@ different semantic interpretations of cosine similarity.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -286,7 +293,6 @@ different semantic interpretations of cosine similarity.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -314,7 +320,7 @@ different semantic interpretations of cosine similarity.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

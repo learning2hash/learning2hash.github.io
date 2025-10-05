@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/patel2019tinysearch/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Tinysearch – Semantics Based Search Engine Using Bert Embeddings" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Existing search engines use keyword matching or tf-idf based matching to map the query to the web-documents and rank them. They also consider other factors such as page rank, hubs-and-authority scores, knowledge graphs to make the results more meaningful. However, the existing search engines fail to capture the meaning of query when it becomes large and complex. BERT, introduced by Google in 2018, provides embeddings for words as well as sentences. In this paper, I have developed a semantics-oriented search engine using neural networks and BERT embeddings that can search for query and rank the documents in the order of the most meaningful to least meaningful. The results shows improvement over one existing search engine for complex queries for given set of documents.","headline":"Tinysearch – Semantics Based Search Engine Using Bert Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/patel2019tinysearch/"},"url":"https://learning2hash.github.io/publications/patel2019tinysearch/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Existing search engines use keyword matching or tf-idf based matching to map the query to the web-documents and rank them. They also consider other factors such as page rank, hubs-and-authority scores, knowledge graphs to make the results more meaningful. However, the existing search engines fail to capture the meaning of query when it becomes large and complex. BERT, introduced by Google in 2018, provides embeddings for words as well as sentences. In this paper, I have developed a semantics-oriented search engine using neural networks and BERT embeddings that can search for query and rank the documents in the order of the most meaningful to least meaningful. The results shows improvement over one existing search engine for complex queries for given set of documents.","headline":"Tinysearch – Semantics Based Search Engine Using Bert Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/patel2019tinysearch/"},"url":"https://learning2hash.github.io/publications/patel2019tinysearch/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -226,7 +226,6 @@ of documents.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -247,9 +246,9 @@ of documents.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -257,13 +256,21 @@ of documents.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -278,7 +285,6 @@ of documents.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -306,7 +312,7 @@ of documents.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

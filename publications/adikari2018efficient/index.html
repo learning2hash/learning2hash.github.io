@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/adikari2018efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient Learning Of Neighbor Representations For Boundary Trees And Forests" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"We introduce a semiparametric approach to neighbor-based classification. We build off the recently proposed Boundary Trees algorithm by Mathy et al.(2015) which enables fast neighbor-based classification, regression and retrieval in large datasets. While boundary trees use an Euclidean measure of similarity, the Differentiable Boundary Tree algorithm by Zoran et al.(2017) was introduced to learn low-dimensional representations of complex input data, on which semantic similarity can be calculated to train boundary trees. As is pointed out by its authors, the differentiable boundary tree approach contains a few limitations that prevents it from scaling to large datasets. In this paper, we introduce Differentiable Boundary Sets, an algorithm that overcomes the computational issues of the differentiable boundary tree scheme and also improves its classification accuracy and data representability. Our algorithm is efficiently implementable with existing tools and offers a significant reduction in training time. We test and compare the algorithms on the well known MNIST handwritten digits dataset and the newer Fashion-MNIST dataset by Xiao et al.(2017).","headline":"Efficient Learning Of Neighbor Representations For Boundary Trees And Forests","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/adikari2018efficient/"},"url":"https://learning2hash.github.io/publications/adikari2018efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"We introduce a semiparametric approach to neighbor-based classification. We build off the recently proposed Boundary Trees algorithm by Mathy et al.(2015) which enables fast neighbor-based classification, regression and retrieval in large datasets. While boundary trees use an Euclidean measure of similarity, the Differentiable Boundary Tree algorithm by Zoran et al.(2017) was introduced to learn low-dimensional representations of complex input data, on which semantic similarity can be calculated to train boundary trees. As is pointed out by its authors, the differentiable boundary tree approach contains a few limitations that prevents it from scaling to large datasets. In this paper, we introduce Differentiable Boundary Sets, an algorithm that overcomes the computational issues of the differentiable boundary tree scheme and also improves its classification accuracy and data representability. Our algorithm is efficiently implementable with existing tools and offers a significant reduction in training time. We test and compare the algorithms on the well known MNIST handwritten digits dataset and the newer Fashion-MNIST dataset by Xiao et al.(2017).","headline":"Efficient Learning Of Neighbor Representations For Boundary Trees And Forests","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/adikari2018efficient/"},"url":"https://learning2hash.github.io/publications/adikari2018efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -231,7 +231,6 @@ Xiao et al.(2017).</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -252,9 +251,9 @@ Xiao et al.(2017).</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -262,13 +261,21 @@ Xiao et al.(2017).</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -283,7 +290,6 @@ Xiao et al.(2017).</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -311,7 +317,7 @@ Xiao et al.(2017).</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

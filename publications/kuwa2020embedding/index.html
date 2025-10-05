@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kuwa2020embedding/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Embedding Meta-textual Information For Improved Learning To Rank" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Neural approaches to learning term embeddings have led to improved computation of similarity and ranking in information retrieval (IR). So far neural representation learning has not been extended to meta-textual information that is readily available for many IR tasks, for example, patent classes in prior-art retrieval, topical information in Wikipedia articles, or product categories in e-commerce data. We present a framework that learns embeddings for meta-textual categories, and optimizes a pairwise ranking objective for improved matching based on combined embeddings of textual and meta-textual information. We show considerable gains in an experimental evaluation on cross-lingual retrieval in the Wikipedia domain for three language pairs, and in the Patent domain for one language pair. Our results emphasize that the mode of combining different types of information is crucial for model improvement.","headline":"Embedding Meta-textual Information For Improved Learning To Rank","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kuwa2020embedding/"},"url":"https://learning2hash.github.io/publications/kuwa2020embedding/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Neural approaches to learning term embeddings have led to improved computation of similarity and ranking in information retrieval (IR). So far neural representation learning has not been extended to meta-textual information that is readily available for many IR tasks, for example, patent classes in prior-art retrieval, topical information in Wikipedia articles, or product categories in e-commerce data. We present a framework that learns embeddings for meta-textual categories, and optimizes a pairwise ranking objective for improved matching based on combined embeddings of textual and meta-textual information. We show considerable gains in an experimental evaluation on cross-lingual retrieval in the Wikipedia domain for three language pairs, and in the Patent domain for one language pair. Our results emphasize that the mode of combining different types of information is crucial for model improvement.","headline":"Embedding Meta-textual Information For Improved Learning To Rank","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kuwa2020embedding/"},"url":"https://learning2hash.github.io/publications/kuwa2020embedding/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -230,7 +230,6 @@ for model improvement.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -251,9 +250,9 @@ for model improvement.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -261,13 +260,21 @@ for model improvement.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -282,7 +289,6 @@ for model improvement.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -310,7 +316,7 @@ for model improvement.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

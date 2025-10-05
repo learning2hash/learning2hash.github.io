@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/fan2020deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Polarized Network For Supervised Learning Of Accurate Binary Hashing Codes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"This paper proposes a novel deep polarized network (DPN) for learning to hash, in which each channel in the network outputs is pushed far away from zero by employing a differentiable bit-wise hinge-like loss which is dubbed as polarization loss. Reformulated within a generic Hamming Distance Metric Learning framework [Norouzi et al., 2012], the proposed polarization loss bypasses the requirement to prepare pairwise labels for (dis-)similar items and, yet, the proposed loss strictly bounds from above the pairwise Hamming Distance based losses. The intrinsic connection between pairwise and pointwise label information, as disclosed in this paper, brings about the following methodological improvements: (a) we may directly employ the proposed differentiable polarization loss with no large deviations incurred from the target Hamming distance based loss; and (b) the subtask of assigning binary codes becomes extremely simple — even random codes assigned to each class suffice to result in state-of-the-art performances, as demonstrated in CIFAR10, NUS-WIDE and ImageNet100 datasets.","headline":"Deep Polarized Network For Supervised Learning Of Accurate Binary Hashing Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fan2020deep/"},"url":"https://learning2hash.github.io/publications/fan2020deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"This paper proposes a novel deep polarized network (DPN) for learning to hash, in which each channel in the network outputs is pushed far away from zero by employing a differentiable bit-wise hinge-like loss which is dubbed as polarization loss. Reformulated within a generic Hamming Distance Metric Learning framework [Norouzi et al., 2012], the proposed polarization loss bypasses the requirement to prepare pairwise labels for (dis-)similar items and, yet, the proposed loss strictly bounds from above the pairwise Hamming Distance based losses. The intrinsic connection between pairwise and pointwise label information, as disclosed in this paper, brings about the following methodological improvements: (a) we may directly employ the proposed differentiable polarization loss with no large deviations incurred from the target Hamming distance based loss; and (b) the subtask of assigning binary codes becomes extremely simple — even random codes assigned to each class suffice to result in state-of-the-art performances, as demonstrated in CIFAR10, NUS-WIDE and ImageNet100 datasets.","headline":"Deep Polarized Network For Supervised Learning Of Accurate Binary Hashing Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fan2020deep/"},"url":"https://learning2hash.github.io/publications/fan2020deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -234,7 +234,6 @@ the target Hamming distance based loss; and (b) the subtask of assigning binary 
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -255,9 +254,9 @@ the target Hamming distance based loss; and (b) the subtask of assigning binary 
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -265,13 +264,21 @@ the target Hamming distance based loss; and (b) the subtask of assigning binary 
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -286,7 +293,6 @@ the target Hamming distance based loss; and (b) the subtask of assigning binary 
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -314,7 +320,7 @@ the target Hamming distance based loss; and (b) the subtask of assigning binary 
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

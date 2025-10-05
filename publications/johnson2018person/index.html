@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/johnson2018person/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Person Re-identification With Fusion Of Hand-crafted And Deep Pose-based Body Region Features" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Person re-identification (re-ID) aims to accurately re- trieve a person from a large-scale database of images cap- tured across multiple cameras. Existing works learn deep representations using a large training subset of unique per- sons. However, identifying unseen persons is critical for a good re-ID algorithm. Moreover, the misalignment be- tween person crops to detection errors or pose variations leads to poor feature matching. In this work, we present a fusion of handcrafted features and deep feature representa- tion learned using multiple body parts to complement the global body features that achieves high performance on un- seen test images. Pose information is used to detect body regions that are passed through Convolutional Neural Net- works (CNN) to guide feature learning. Finally, a metric learning step enables robust distance matching on a dis- criminative subspace. Experimental results on 4 popular re-ID benchmark datasets namely VIPer, DukeMTMC-reID, Market-1501 and CUHK03 show that the proposed method achieves state-of-the-art performance in image-based per- son re-identification.","headline":"Person Re-identification With Fusion Of Hand-crafted And Deep Pose-based Body Region Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/johnson2018person/"},"url":"https://learning2hash.github.io/publications/johnson2018person/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Person re-identification (re-ID) aims to accurately re- trieve a person from a large-scale database of images cap- tured across multiple cameras. Existing works learn deep representations using a large training subset of unique per- sons. However, identifying unseen persons is critical for a good re-ID algorithm. Moreover, the misalignment be- tween person crops to detection errors or pose variations leads to poor feature matching. In this work, we present a fusion of handcrafted features and deep feature representa- tion learned using multiple body parts to complement the global body features that achieves high performance on un- seen test images. Pose information is used to detect body regions that are passed through Convolutional Neural Net- works (CNN) to guide feature learning. Finally, a metric learning step enables robust distance matching on a dis- criminative subspace. Experimental results on 4 popular re-ID benchmark datasets namely VIPer, DukeMTMC-reID, Market-1501 and CUHK03 show that the proposed method achieves state-of-the-art performance in image-based per- son re-identification.","headline":"Person Re-identification With Fusion Of Hand-crafted And Deep Pose-based Body Region Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/johnson2018person/"},"url":"https://learning2hash.github.io/publications/johnson2018person/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -236,7 +236,6 @@ image-based per- son re-identification.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -257,9 +256,9 @@ image-based per- son re-identification.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -267,13 +266,21 @@ image-based per- son re-identification.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -288,7 +295,6 @@ image-based per- son re-identification.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -316,7 +322,7 @@ image-based per- son re-identification.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/han2017beyond/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Beyond SIFT Using Binary Features For Loop Closure Detection" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"In this paper a binary feature based Loop Closure Detection (LCD) method is proposed, which for the first time achieves higher precision-recall (PR) performance compared with state-of-the-art SIFT feature based approaches. The proposed system originates from our previous work Multi-Index hashing for Loop closure Detection (MILD), which employs Multi-Index Hashing (MIH)~\\cite{greene1994multi} for Approximate Nearest Neighbor (ANN) search of binary features. As the accuracy of MILD is limited by repeating textures and inaccurate image similarity measurement, burstiness handling is introduced to solve this problem and achieves considerable accuracy improvement. Additionally, a comprehensive theoretical analysis on MIH used in MILD is conducted to further explore the potentials of hashing methods for ANN search of binary features from probabilistic perspective. This analysis provides more freedom on best parameter choosing in MIH for different application scenarios. Experiments on popular public datasets show that the proposed approach achieved the highest accuracy compared with state-of-the-art while running at 30Hz for databases containing thousands of images.","headline":"Beyond SIFT Using Binary Features For Loop Closure Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/han2017beyond/"},"url":"https://learning2hash.github.io/publications/han2017beyond/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"In this paper a binary feature based Loop Closure Detection (LCD) method is proposed, which for the first time achieves higher precision-recall (PR) performance compared with state-of-the-art SIFT feature based approaches. The proposed system originates from our previous work Multi-Index hashing for Loop closure Detection (MILD), which employs Multi-Index Hashing (MIH)~\\cite{greene1994multi} for Approximate Nearest Neighbor (ANN) search of binary features. As the accuracy of MILD is limited by repeating textures and inaccurate image similarity measurement, burstiness handling is introduced to solve this problem and achieves considerable accuracy improvement. Additionally, a comprehensive theoretical analysis on MIH used in MILD is conducted to further explore the potentials of hashing methods for ANN search of binary features from probabilistic perspective. This analysis provides more freedom on best parameter choosing in MIH for different application scenarios. Experiments on popular public datasets show that the proposed approach achieved the highest accuracy compared with state-of-the-art while running at 30Hz for databases containing thousands of images.","headline":"Beyond SIFT Using Binary Features For Loop Closure Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/han2017beyond/"},"url":"https://learning2hash.github.io/publications/han2017beyond/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -241,7 +241,6 @@ databases containing thousands of images.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -262,9 +261,9 @@ databases containing thousands of images.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -272,13 +271,21 @@ databases containing thousands of images.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -293,7 +300,6 @@ databases containing thousands of images.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -321,7 +327,7 @@ databases containing thousands of images.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

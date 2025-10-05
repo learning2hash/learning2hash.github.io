@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/engelsma2019fingerprints/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fingerprints: Fixed Length Representation Via Deep Networks And Domain Knowledge" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"We learn a discriminative fixed length feature representation of fingerprints which stands in contrast to commonly used unordered, variable length sets of minutiae points. To arrive at this fixed length representation, we embed fingerprint domain knowledge into a multitask deep convolutional neural network architecture. Empirical results, on two public-domain fingerprint databases (NIST SD4 and FVC 2004 DB1) show that compared to minutiae representations, extracted by two state-of-the-art commercial matchers (Verifinger v6.3 and Innovatrics v2.0.3), our fixed-length representations provide (i) higher search accuracy: Rank-1 accuracy of 97.9% vs. 97.3% on NIST SD4 against a gallery size of 2000 and (ii) significantly faster, large scale search: 682,594 matches per second vs. 22 matches per second for commercial matchers on an i5 3.3 GHz processor with 8 GB of RAM.","headline":"Fingerprints: Fixed Length Representation Via Deep Networks And Domain Knowledge","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/engelsma2019fingerprints/"},"url":"https://learning2hash.github.io/publications/engelsma2019fingerprints/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"We learn a discriminative fixed length feature representation of fingerprints which stands in contrast to commonly used unordered, variable length sets of minutiae points. To arrive at this fixed length representation, we embed fingerprint domain knowledge into a multitask deep convolutional neural network architecture. Empirical results, on two public-domain fingerprint databases (NIST SD4 and FVC 2004 DB1) show that compared to minutiae representations, extracted by two state-of-the-art commercial matchers (Verifinger v6.3 and Innovatrics v2.0.3), our fixed-length representations provide (i) higher search accuracy: Rank-1 accuracy of 97.9% vs. 97.3% on NIST SD4 against a gallery size of 2000 and (ii) significantly faster, large scale search: 682,594 matches per second vs. 22 matches per second for commercial matchers on an i5 3.3 GHz processor with 8 GB of RAM.","headline":"Fingerprints: Fixed Length Representation Via Deep Networks And Domain Knowledge","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/engelsma2019fingerprints/"},"url":"https://learning2hash.github.io/publications/engelsma2019fingerprints/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -227,7 +227,6 @@ processor with 8 GB of RAM.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -248,9 +247,9 @@ processor with 8 GB of RAM.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -258,13 +257,21 @@ processor with 8 GB of RAM.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -279,7 +286,6 @@ processor with 8 GB of RAM.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -307,7 +313,7 @@ processor with 8 GB of RAM.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

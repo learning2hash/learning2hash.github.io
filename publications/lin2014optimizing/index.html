@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lin2014optimizing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Optimizing Ranking Measures For Compact Binary Code Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Hashing has proven a valuable tool for large-scale information retrieval. Despite much success, existing hashing methods optimize over simple objectives such as the reconstruction error or graph Laplacian related loss functions, instead of the performance evaluation criteria of interest—multivariate performance measures such as the AUC and NDCG. Here we present a general framework (termed StructHash) that allows one to directly optimize multivariate performance measures. The resulting optimization problem can involve exponentially or infinitely many variables and constraints, which is more challenging than standard structured output learning. To solve the StructHash optimization problem, we use a combination of column generation and cutting-plane techniques. We demonstrate the generality of StructHash by applying it to ranking prediction and image retrieval, and show that it outperforms a few state-of-the-art hashing methods.","headline":"Optimizing Ranking Measures For Compact Binary Code Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2014optimizing/"},"url":"https://learning2hash.github.io/publications/lin2014optimizing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Hashing has proven a valuable tool for large-scale information retrieval. Despite much success, existing hashing methods optimize over simple objectives such as the reconstruction error or graph Laplacian related loss functions, instead of the performance evaluation criteria of interest—multivariate performance measures such as the AUC and NDCG. Here we present a general framework (termed StructHash) that allows one to directly optimize multivariate performance measures. The resulting optimization problem can involve exponentially or infinitely many variables and constraints, which is more challenging than standard structured output learning. To solve the StructHash optimization problem, we use a combination of column generation and cutting-plane techniques. We demonstrate the generality of StructHash by applying it to ranking prediction and image retrieval, and show that it outperforms a few state-of-the-art hashing methods.","headline":"Optimizing Ranking Measures For Compact Binary Code Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2014optimizing/"},"url":"https://learning2hash.github.io/publications/lin2014optimizing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -227,7 +227,6 @@ The resulting optimization problem can involve exponentially or infinitely many 
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -248,9 +247,9 @@ The resulting optimization problem can involve exponentially or infinitely many 
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -258,13 +257,21 @@ The resulting optimization problem can involve exponentially or infinitely many 
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -279,7 +286,6 @@ The resulting optimization problem can involve exponentially or infinitely many 
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -307,7 +313,7 @@ The resulting optimization problem can involve exponentially or infinitely many 
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

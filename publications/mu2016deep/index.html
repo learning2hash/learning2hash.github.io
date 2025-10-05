@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/mu2016deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Hashing: A Joint Approach For Image Signature Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Similarity-based image hashing represents crucial technique for visual data storage reduction and expedited image search. Conventional hashing schemes typically feed hand-crafted features into hash functions, which separates the procedures of feature extraction and hash function learning. In this paper, we propose a novel algorithm that concurrently performs feature engineering and non-linear supervised hashing function learning. Our technical contributions in this paper are two-folds: 1) deep network optimization is often achieved by gradient propagation, which critically requires a smooth objective function. The discrete nature of hash codes makes them not amenable for gradient-based optimization. To address this issue, we propose an exponentiated hashing loss function and its bilinear smooth approximation. Effective gradient calculation and propagation are thereby enabled; 2) pre-training is an important trick in supervised deep learning. The impact of pre-training on the hash code quality has never been discussed in current deep hashing literature. We propose a pre-training scheme inspired by recent advance in deep network based image classification, and experimentally demonstrate its effectiveness. Comprehensive quantitative evaluations are conducted on several widely-used image benchmarks. On all benchmarks, our proposed deep hashing algorithm outperforms all state-of-the-art competitors by significant margins. In particular, our algorithm achieves a near-perfect 0.99 in terms of Hamming ranking accuracy with only 12 bits on MNIST, and a new record of 0.74 on the CIFAR10 dataset. In comparison, the best accuracies obtained on CIFAR10 by existing hashing algorithms without or with deep networks are known to be 0.36 and 0.58 respectively.","headline":"Deep Hashing: A Joint Approach For Image Signature Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mu2016deep/"},"url":"https://learning2hash.github.io/publications/mu2016deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Similarity-based image hashing represents crucial technique for visual data storage reduction and expedited image search. Conventional hashing schemes typically feed hand-crafted features into hash functions, which separates the procedures of feature extraction and hash function learning. In this paper, we propose a novel algorithm that concurrently performs feature engineering and non-linear supervised hashing function learning. Our technical contributions in this paper are two-folds: 1) deep network optimization is often achieved by gradient propagation, which critically requires a smooth objective function. The discrete nature of hash codes makes them not amenable for gradient-based optimization. To address this issue, we propose an exponentiated hashing loss function and its bilinear smooth approximation. Effective gradient calculation and propagation are thereby enabled; 2) pre-training is an important trick in supervised deep learning. The impact of pre-training on the hash code quality has never been discussed in current deep hashing literature. We propose a pre-training scheme inspired by recent advance in deep network based image classification, and experimentally demonstrate its effectiveness. Comprehensive quantitative evaluations are conducted on several widely-used image benchmarks. On all benchmarks, our proposed deep hashing algorithm outperforms all state-of-the-art competitors by significant margins. In particular, our algorithm achieves a near-perfect 0.99 in terms of Hamming ranking accuracy with only 12 bits on MNIST, and a new record of 0.74 on the CIFAR10 dataset. In comparison, the best accuracies obtained on CIFAR10 by existing hashing algorithms without or with deep networks are known to be 0.36 and 0.58 respectively.","headline":"Deep Hashing: A Joint Approach For Image Signature Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mu2016deep/"},"url":"https://learning2hash.github.io/publications/mu2016deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -251,7 +251,6 @@ respectively.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -272,9 +271,9 @@ respectively.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -282,13 +281,21 @@ respectively.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -303,7 +310,6 @@ respectively.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -331,7 +337,7 @@ respectively.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

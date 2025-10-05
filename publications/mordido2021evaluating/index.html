@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/mordido2021evaluating/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Evaluating Post-training Compression In Gans Using Locality-sensitive Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"The analysis of the compression effects in generative adversarial networks (GANs) after training, i.e. without any fine-tuning, remains an unstudied, albeit important, topic with the increasing trend of their computation and memory requirements. While existing works discuss the difficulty of compressing GANs during training, requiring novel methods designed with the instability of GANs training in mind, we show that existing compression methods (namely clipping and quantization) may be directly applied to compress GANs post-training, without any additional changes. High compression levels may distort the generated set, likely leading to an increase of outliers that may negatively affect the overall assessment of existing k-nearest neighbor (KNN) based metrics. We propose two new precision and recall metrics based on locality-sensitive hashing (LSH), which, on top of increasing the outlier robustness, decrease the complexity of assessing an evaluation sample against (n) reference samples from (O(n)) to (O(log(n))), if using LSH and KNN, and to (O(1)), if only applying LSH. We show that low-bit compression of several pre-trained GANs on multiple datasets induces a trade-off between precision and recall, retaining sample quality while sacrificing sample diversity.","headline":"Evaluating Post-training Compression In Gans Using Locality-sensitive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mordido2021evaluating/"},"url":"https://learning2hash.github.io/publications/mordido2021evaluating/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"The analysis of the compression effects in generative adversarial networks (GANs) after training, i.e. without any fine-tuning, remains an unstudied, albeit important, topic with the increasing trend of their computation and memory requirements. While existing works discuss the difficulty of compressing GANs during training, requiring novel methods designed with the instability of GANs training in mind, we show that existing compression methods (namely clipping and quantization) may be directly applied to compress GANs post-training, without any additional changes. High compression levels may distort the generated set, likely leading to an increase of outliers that may negatively affect the overall assessment of existing k-nearest neighbor (KNN) based metrics. We propose two new precision and recall metrics based on locality-sensitive hashing (LSH), which, on top of increasing the outlier robustness, decrease the complexity of assessing an evaluation sample against (n) reference samples from (O(n)) to (O(log(n))), if using LSH and KNN, and to (O(1)), if only applying LSH. We show that low-bit compression of several pre-trained GANs on multiple datasets induces a trade-off between precision and recall, retaining sample quality while sacrificing sample diversity.","headline":"Evaluating Post-training Compression In Gans Using Locality-sensitive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mordido2021evaluating/"},"url":"https://learning2hash.github.io/publications/mordido2021evaluating/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -244,7 +244,6 @@ recall, retaining sample quality while sacrificing sample diversity.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -265,9 +264,9 @@ recall, retaining sample quality while sacrificing sample diversity.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -275,13 +274,21 @@ recall, retaining sample quality while sacrificing sample diversity.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -296,7 +303,6 @@ recall, retaining sample quality while sacrificing sample diversity.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -324,7 +330,7 @@ recall, retaining sample quality while sacrificing sample diversity.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

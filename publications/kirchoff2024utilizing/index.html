@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kirchoff2024utilizing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Utilizing Low-dimensional Molecular Embeddings For Rapid Chemical Similarity Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Nearest neighbor-based similarity searching is a common task in chemistry, with notable use cases in drug discovery. Yet, some of the most commonly used approaches for this task still leverage a brute-force approach. In practice this can be computationally costly and overly time-consuming, due in part to the sheer size of modern chemical databases. Previous computational advancements for this task have generally relied on improvements to hardware or dataset-specific tricks that lack generalizability. Approaches that leverage lower-complexity searching algorithms remain relatively underexplored. However, many of these algorithms are approximate solutions and/or struggle with typical high-dimensional chemical embeddings. Here we evaluate whether a combination of low-dimensional chemical embeddings and a k-d tree data structure can achieve fast nearest neighbor queries while maintaining performance on standard chemical similarity search benchmarks. We examine different dimensionality reductions of standard chemical embeddings as well as a learned, structurally-aware embedding – SmallSA – for this task. With this framework, searches on over one billion chemicals execute in less than a second on a single CPU core, five orders of magnitude faster than the brute-force approach. We also demonstrate that SmallSA achieves competitive performance on chemical similarity benchmarks.","headline":"Utilizing Low-dimensional Molecular Embeddings For Rapid Chemical Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kirchoff2024utilizing/"},"url":"https://learning2hash.github.io/publications/kirchoff2024utilizing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Nearest neighbor-based similarity searching is a common task in chemistry, with notable use cases in drug discovery. Yet, some of the most commonly used approaches for this task still leverage a brute-force approach. In practice this can be computationally costly and overly time-consuming, due in part to the sheer size of modern chemical databases. Previous computational advancements for this task have generally relied on improvements to hardware or dataset-specific tricks that lack generalizability. Approaches that leverage lower-complexity searching algorithms remain relatively underexplored. However, many of these algorithms are approximate solutions and/or struggle with typical high-dimensional chemical embeddings. Here we evaluate whether a combination of low-dimensional chemical embeddings and a k-d tree data structure can achieve fast nearest neighbor queries while maintaining performance on standard chemical similarity search benchmarks. We examine different dimensionality reductions of standard chemical embeddings as well as a learned, structurally-aware embedding – SmallSA – for this task. With this framework, searches on over one billion chemicals execute in less than a second on a single CPU core, five orders of magnitude faster than the brute-force approach. We also demonstrate that SmallSA achieves competitive performance on chemical similarity benchmarks.","headline":"Utilizing Low-dimensional Molecular Embeddings For Rapid Chemical Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kirchoff2024utilizing/"},"url":"https://learning2hash.github.io/publications/kirchoff2024utilizing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -242,7 +242,6 @@ similarity benchmarks.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -263,9 +262,9 @@ similarity benchmarks.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -273,13 +272,21 @@ similarity benchmarks.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -294,7 +301,6 @@ similarity benchmarks.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -322,7 +328,7 @@ similarity benchmarks.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

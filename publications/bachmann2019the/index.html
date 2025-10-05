@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/bachmann2019the/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The Superm-tree: Indexing Metric Spaces With Sized Objects" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"A common approach to implementing similarity search applications is the usage of distance functions, where small distances indicate high similarity. In the case of metric distance functions, metric index structures can be used to accelerate nearest neighbor queries. On the other hand, many applications ask for approximate subsequences or subsets, e.g. searching for a similar partial sequence of a gene, for a similar scene in a movie, or for a similar object in a picture which is represented by a set of multidimensional features. Metric index structures such as the M-Tree cannot be utilized for these tasks because of the symmetry of the metric distance functions. In this work, we propose the SuperM-Tree as an extension of the M-Tree where approximate subsequence and subset queries become nearest neighbor queries. In order to do this, we introduce metric subset spaces as a generalized concept of metric spaces. Various metric distance functions can be extended to metric subset distance functions, e.g. the Euclidean distance (on windows), the Hausdorff distance (on subsets), the Edit distance and the Dog-Keeper distance (on subsequences). We show that these examples subsume the applications mentioned above.","headline":"The Superm-tree: Indexing Metric Spaces With Sized Objects","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bachmann2019the/"},"url":"https://learning2hash.github.io/publications/bachmann2019the/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"A common approach to implementing similarity search applications is the usage of distance functions, where small distances indicate high similarity. In the case of metric distance functions, metric index structures can be used to accelerate nearest neighbor queries. On the other hand, many applications ask for approximate subsequences or subsets, e.g. searching for a similar partial sequence of a gene, for a similar scene in a movie, or for a similar object in a picture which is represented by a set of multidimensional features. Metric index structures such as the M-Tree cannot be utilized for these tasks because of the symmetry of the metric distance functions. In this work, we propose the SuperM-Tree as an extension of the M-Tree where approximate subsequence and subset queries become nearest neighbor queries. In order to do this, we introduce metric subset spaces as a generalized concept of metric spaces. Various metric distance functions can be extended to metric subset distance functions, e.g. the Euclidean distance (on windows), the Hausdorff distance (on subsets), the Edit distance and the Dog-Keeper distance (on subsequences). We show that these examples subsume the applications mentioned above.","headline":"The Superm-tree: Indexing Metric Spaces With Sized Objects","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bachmann2019the/"},"url":"https://learning2hash.github.io/publications/bachmann2019the/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -235,7 +235,6 @@ show that these examples subsume the applications mentioned above.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -256,9 +255,9 @@ show that these examples subsume the applications mentioned above.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -266,13 +265,21 @@ show that these examples subsume the applications mentioned above.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -287,7 +294,6 @@ show that these examples subsume the applications mentioned above.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -315,7 +321,7 @@ show that these examples subsume the applications mentioned above.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

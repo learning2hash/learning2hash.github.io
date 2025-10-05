@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/tabei2016scalable/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Scalable Similarity Search For Molecular Descriptors" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Similarity search over chemical compound databases is a fundamental task in the discovery and design of novel drug-like molecules. Such databases often encode molecules as non-negative integer vectors, called molecular descriptors, which represent rich information on various molecular properties. While there exist efficient indexing structures for searching databases of binary vectors, solutions for more general integer vectors are in their infancy. In this paper we present a time- and space- efficient index for the problem that we call the succinct intervals-splitting tree algorithm for molecular descriptors (SITAd). Our approach extends efficient methods for binary-vector databases, and uses ideas from succinct data structures. Our experiments, on a large database of over 40 million compounds, show SITAd significantly outperforms alternative approaches in practice.","headline":"Scalable Similarity Search For Molecular Descriptors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tabei2016scalable/"},"url":"https://learning2hash.github.io/publications/tabei2016scalable/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Similarity search over chemical compound databases is a fundamental task in the discovery and design of novel drug-like molecules. Such databases often encode molecules as non-negative integer vectors, called molecular descriptors, which represent rich information on various molecular properties. While there exist efficient indexing structures for searching databases of binary vectors, solutions for more general integer vectors are in their infancy. In this paper we present a time- and space- efficient index for the problem that we call the succinct intervals-splitting tree algorithm for molecular descriptors (SITAd). Our approach extends efficient methods for binary-vector databases, and uses ideas from succinct data structures. Our experiments, on a large database of over 40 million compounds, show SITAd significantly outperforms alternative approaches in practice.","headline":"Scalable Similarity Search For Molecular Descriptors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tabei2016scalable/"},"url":"https://learning2hash.github.io/publications/tabei2016scalable/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -227,7 +227,6 @@ approaches in practice.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -248,9 +247,9 @@ approaches in practice.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -258,13 +257,21 @@ approaches in practice.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -279,7 +286,6 @@ approaches in practice.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -307,7 +313,7 @@ approaches in practice.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

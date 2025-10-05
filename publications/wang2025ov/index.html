@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2025ov/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="OV-DQUO: Open-vocabulary DETR With Denoising Text Query Training And Open-world Unknown Objects Supervision" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Open-vocabulary detection aims to detect objects from novel categories beyond the base categories on which the detector is trained. However, existing open-vocabulary detectors trained on base category data tend to assign higher confidence to trained categories and confuse novel categories with the background. To resolve this, we propose OV-DQUO, an \\textbf{O}pen-\\textbf{V}ocabulary DETR with \\textbf{D}enoising text \\textbf{Q}uery training and open-world \\textbf{U}nknown \\textbf{O}bjects supervision. Specifically, we introduce a wildcard matching method. This method enables the detector to learn from pairs of unknown objects recognized by the open-world detector and text embeddings with general semantics, mitigating the confidence bias between base and novel categories. Additionally, we propose a denoising text query training strategy. It synthesizes foreground and background query-box pairs from open-world unknown objects to train the detector through contrastive learning, enhancing its ability to distinguish novel objects from the background. We conducted extensive experiments on the challenging OV-COCO and OV-LVIS benchmarks, achieving new state-of-the-art results of 45.6 AP50 and 39.3 mAP on novel categories respectively, without the need for additional training data. Models and code are released at https://github.com/xiaomoguhz/OV-DQUO","headline":"OV-DQUO: Open-vocabulary DETR With Denoising Text Query Training And Open-world Unknown Objects Supervision","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2025ov/"},"url":"https://learning2hash.github.io/publications/wang2025ov/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Open-vocabulary detection aims to detect objects from novel categories beyond the base categories on which the detector is trained. However, existing open-vocabulary detectors trained on base category data tend to assign higher confidence to trained categories and confuse novel categories with the background. To resolve this, we propose OV-DQUO, an \\textbf{O}pen-\\textbf{V}ocabulary DETR with \\textbf{D}enoising text \\textbf{Q}uery training and open-world \\textbf{U}nknown \\textbf{O}bjects supervision. Specifically, we introduce a wildcard matching method. This method enables the detector to learn from pairs of unknown objects recognized by the open-world detector and text embeddings with general semantics, mitigating the confidence bias between base and novel categories. Additionally, we propose a denoising text query training strategy. It synthesizes foreground and background query-box pairs from open-world unknown objects to train the detector through contrastive learning, enhancing its ability to distinguish novel objects from the background. We conducted extensive experiments on the challenging OV-COCO and OV-LVIS benchmarks, achieving new state-of-the-art results of 45.6 AP50 and 39.3 mAP on novel categories respectively, without the need for additional training data. Models and code are released at https://github.com/xiaomoguhz/OV-DQUO","headline":"OV-DQUO: Open-vocabulary DETR With Denoising Text Query Training And Open-world Unknown Objects Supervision","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2025ov/"},"url":"https://learning2hash.github.io/publications/wang2025ov/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -240,7 +240,6 @@ https://github.com/xiaomoguhz/OV-DQUO</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -261,9 +260,9 @@ https://github.com/xiaomoguhz/OV-DQUO</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -271,13 +270,21 @@ https://github.com/xiaomoguhz/OV-DQUO</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -292,7 +299,6 @@ https://github.com/xiaomoguhz/OV-DQUO</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -320,7 +326,7 @@ https://github.com/xiaomoguhz/OV-DQUO</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/miller2020geotree/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Geotree: A Data Structure For Constant Time Geospatial Search Enabling A Real-time Mix-adjusted Median Property Price Index" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"A common problem appearing across the field of data science is (k)-NN ((k)-nearest neighbours), particularly within the context of Geographic Information Systems. In this article, we present a novel data structure, the GeoTree, which holds a collection of geohashes (string encodings of GPS co-ordinates). This enables a constant (O\\left(1\\right)) time search algorithm that returns a set of geohashes surrounding a given geohash in the GeoTree, representing the approximate (k)-nearest neighbours of that geohash. Furthermore, the GeoTree data structure retains (O\\left(n\\right)) memory requirement. We apply the data structure to a property price index algorithm focused on price comparison with historical neighbouring sales, demonstrating an enhanced performance. The results show that this data structure allows for the development of a real-time property price index, and can be scaled to larger datasets with ease.","headline":"Geotree: A Data Structure For Constant Time Geospatial Search Enabling A Real-time Mix-adjusted Median Property Price Index","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/miller2020geotree/"},"url":"https://learning2hash.github.io/publications/miller2020geotree/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"A common problem appearing across the field of data science is (k)-NN ((k)-nearest neighbours), particularly within the context of Geographic Information Systems. In this article, we present a novel data structure, the GeoTree, which holds a collection of geohashes (string encodings of GPS co-ordinates). This enables a constant (O\\left(1\\right)) time search algorithm that returns a set of geohashes surrounding a given geohash in the GeoTree, representing the approximate (k)-nearest neighbours of that geohash. Furthermore, the GeoTree data structure retains (O\\left(n\\right)) memory requirement. We apply the data structure to a property price index algorithm focused on price comparison with historical neighbouring sales, demonstrating an enhanced performance. The results show that this data structure allows for the development of a real-time property price index, and can be scaled to larger datasets with ease.","headline":"Geotree: A Data Structure For Constant Time Geospatial Search Enabling A Real-time Mix-adjusted Median Property Price Index","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/miller2020geotree/"},"url":"https://learning2hash.github.io/publications/miller2020geotree/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -232,7 +232,6 @@ larger datasets with ease.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -253,9 +252,9 @@ larger datasets with ease.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -263,13 +262,21 @@ larger datasets with ease.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -284,7 +291,6 @@ larger datasets with ease.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -312,7 +318,7 @@ larger datasets with ease.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

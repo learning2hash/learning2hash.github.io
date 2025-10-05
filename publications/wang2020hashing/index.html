@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2020hashing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hashing-based Non-maximum Suppression For Crowded Object Detection" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"In this paper, we propose an algorithm, named hashing-based non-maximum suppression (HNMS) to efficiently suppress the non-maximum boxes for object detection. Non-maximum suppression (NMS) is an essential component to suppress the boxes at closely located locations with similar shapes. The time cost tends to be huge when the number of boxes becomes large, especially for crowded scenes. The basic idea of HNMS is to firstly map each box to a discrete code (hash cell) and then remove the boxes with lower confidences if they are in the same cell. Considering the intersection-over-union (IoU) as the metric, we propose a simple yet effective hashing algorithm, named IoUHash, which guarantees that the boxes within the same cell are close enough by a lower IoU bound. For two-stage detectors, we replace NMS in region proposal network with HNMS, and observe significant speed-up with comparable accuracy. For one-stage detectors, HNMS is used as a pre-filter to speed up the suppression with a large margin. Extensive experiments are conducted on CARPK, SKU-110K, CrowdHuman datasets to demonstrate the efficiency and effectiveness of HNMS. Code is released at https://github.com/microsoft/hnms.git.","headline":"Hashing-based Non-maximum Suppression For Crowded Object Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2020hashing/"},"url":"https://learning2hash.github.io/publications/wang2020hashing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"In this paper, we propose an algorithm, named hashing-based non-maximum suppression (HNMS) to efficiently suppress the non-maximum boxes for object detection. Non-maximum suppression (NMS) is an essential component to suppress the boxes at closely located locations with similar shapes. The time cost tends to be huge when the number of boxes becomes large, especially for crowded scenes. The basic idea of HNMS is to firstly map each box to a discrete code (hash cell) and then remove the boxes with lower confidences if they are in the same cell. Considering the intersection-over-union (IoU) as the metric, we propose a simple yet effective hashing algorithm, named IoUHash, which guarantees that the boxes within the same cell are close enough by a lower IoU bound. For two-stage detectors, we replace NMS in region proposal network with HNMS, and observe significant speed-up with comparable accuracy. For one-stage detectors, HNMS is used as a pre-filter to speed up the suppression with a large margin. Extensive experiments are conducted on CARPK, SKU-110K, CrowdHuman datasets to demonstrate the efficiency and effectiveness of HNMS. Code is released at https://github.com/microsoft/hnms.git.","headline":"Hashing-based Non-maximum Suppression For Crowded Object Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2020hashing/"},"url":"https://learning2hash.github.io/publications/wang2020hashing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -239,7 +239,6 @@ Code is released at https://github.com/microsoft/hnms.git.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -260,9 +259,9 @@ Code is released at https://github.com/microsoft/hnms.git.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -270,13 +269,21 @@ Code is released at https://github.com/microsoft/hnms.git.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -291,7 +298,6 @@ Code is released at https://github.com/microsoft/hnms.git.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -319,7 +325,7 @@ Code is released at https://github.com/microsoft/hnms.git.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ak2021fashionsearchnet/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fashionsearchnet-v2: Learning Attribute Representations With Localization For Image Retrieval With Attribute Manipulation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"The focus of this paper is on the problem of image retrieval with attribute manipulation. Our proposed work is able to manipulate the desired attributes of the query image while maintaining its other attributes. For example, the collar attribute of the query image can be changed from round to v-neck to retrieve similar images from a large dataset. A key challenge in e-commerce is that images have multiple attributes where users would like to manipulate and it is important to estimate discriminative feature representations for each of these attributes. The proposed FashionSearchNet-v2 architecture is able to learn attribute specific representations by leveraging on its weakly-supervised localization module, which ignores the unrelated features of attributes in the feature space, thus improving the similarity learning. The network is jointly trained with the combination of attribute classification and triplet ranking loss to estimate local representations. These local representations are then merged into a single global representation based on the instructed attribute manipulation where desired images can be retrieved with a distance metric. The proposed method also provides explainability for its retrieval process to help provide additional information on the attention of the network. Experiments performed on several datasets that are rich in terms of the number of attributes show that FashionSearchNet-v2 outperforms the other state-of-the-art attribute manipulation techniques. Different than our earlier work (FashionSearchNet), we propose several improvements in the learning procedure and show that the proposed FashionSearchNet-v2 can be generalized to different domains other than fashion.","headline":"Fashionsearchnet-v2: Learning Attribute Representations With Localization For Image Retrieval With Attribute Manipulation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ak2021fashionsearchnet/"},"url":"https://learning2hash.github.io/publications/ak2021fashionsearchnet/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"The focus of this paper is on the problem of image retrieval with attribute manipulation. Our proposed work is able to manipulate the desired attributes of the query image while maintaining its other attributes. For example, the collar attribute of the query image can be changed from round to v-neck to retrieve similar images from a large dataset. A key challenge in e-commerce is that images have multiple attributes where users would like to manipulate and it is important to estimate discriminative feature representations for each of these attributes. The proposed FashionSearchNet-v2 architecture is able to learn attribute specific representations by leveraging on its weakly-supervised localization module, which ignores the unrelated features of attributes in the feature space, thus improving the similarity learning. The network is jointly trained with the combination of attribute classification and triplet ranking loss to estimate local representations. These local representations are then merged into a single global representation based on the instructed attribute manipulation where desired images can be retrieved with a distance metric. The proposed method also provides explainability for its retrieval process to help provide additional information on the attention of the network. Experiments performed on several datasets that are rich in terms of the number of attributes show that FashionSearchNet-v2 outperforms the other state-of-the-art attribute manipulation techniques. Different than our earlier work (FashionSearchNet), we propose several improvements in the learning procedure and show that the proposed FashionSearchNet-v2 can be generalized to different domains other than fashion.","headline":"Fashionsearchnet-v2: Learning Attribute Representations With Localization For Image Retrieval With Attribute Manipulation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ak2021fashionsearchnet/"},"url":"https://learning2hash.github.io/publications/ak2021fashionsearchnet/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -244,7 +244,6 @@ domains other than fashion.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -265,9 +264,9 @@ domains other than fashion.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -275,13 +274,21 @@ domains other than fashion.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -296,7 +303,6 @@ domains other than fashion.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -324,7 +330,7 @@ domains other than fashion.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

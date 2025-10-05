@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/pham2022pic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"While contextualized word embeddings have been a de-facto standard, learning contextualized phrase embeddings is less explored and being hindered by the lack of a human-annotated benchmark that tests machine understanding of phrase semantics given a context sentence or paragraph (instead of phrases alone). To fill this gap, we propose PiC – a dataset of ~28K of noun phrases accompanied by their contextual Wikipedia pages and a suite of three tasks for training and evaluating phrase embeddings. Training on PiC improves ranking models’ accuracy and remarkably pushes span-selection (SS) models (i.e., predicting the start and end index of the target phrase) near-human accuracy, which is 95% Exact Match (EM) on semantic search given a query phrase and a passage. Interestingly, we find evidence that such impressive performance is because the SS models learn to better capture the common meaning of a phrase regardless of its actual context. SotA models perform poorly in distinguishing two senses of the same phrase in two contexts (~60% EM) and in estimating the similarity between two different phrases in the same context (~70% EM).","headline":"Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pham2022pic/"},"url":"https://learning2hash.github.io/publications/pham2022pic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"While contextualized word embeddings have been a de-facto standard, learning contextualized phrase embeddings is less explored and being hindered by the lack of a human-annotated benchmark that tests machine understanding of phrase semantics given a context sentence or paragraph (instead of phrases alone). To fill this gap, we propose PiC – a dataset of ~28K of noun phrases accompanied by their contextual Wikipedia pages and a suite of three tasks for training and evaluating phrase embeddings. Training on PiC improves ranking models’ accuracy and remarkably pushes span-selection (SS) models (i.e., predicting the start and end index of the target phrase) near-human accuracy, which is 95% Exact Match (EM) on semantic search given a query phrase and a passage. Interestingly, we find evidence that such impressive performance is because the SS models learn to better capture the common meaning of a phrase regardless of its actual context. SotA models perform poorly in distinguishing two senses of the same phrase in two contexts (~60% EM) and in estimating the similarity between two different phrases in the same context (~70% EM).","headline":"Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pham2022pic/"},"url":"https://learning2hash.github.io/publications/pham2022pic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -232,7 +232,6 @@ between two different phrases in the same context (~70% EM).</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -253,9 +252,9 @@ between two different phrases in the same context (~70% EM).</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -263,13 +262,21 @@ between two different phrases in the same context (~70% EM).</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -284,7 +291,6 @@ between two different phrases in the same context (~70% EM).</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -312,7 +318,7 @@ between two different phrases in the same context (~70% EM).</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

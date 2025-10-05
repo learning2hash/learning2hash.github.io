@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhao2019large/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Large-scale Visual Search With Binary Distributed Graph At Alibaba" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Graph-based approximate nearest neighbor search has attracted more and more attentions due to its online search advantages. Numbers of methods studying the enhancement of speed and recall have been put forward. However, few of them focus on the efficiency and scale of offline graph-construction. For a deployed visual search system with several billions of online images in total, building a billion-scale offline graph in hours is essential, which is almost unachievable by most existing methods. In this paper, we propose a novel algorithm called Binary Distributed Graph to solve this problem. Specifically, we combine binary codes with graph structure to speedup online and offline procedures, and achieve comparable performance with the ones in real-value based scenarios by recalling more binary candidates. Furthermore, the graph-construction is optimized to completely distributed implementation, which significantly accelerates the offline process and gets rid of the limitation of memory and disk within a single machine. Experimental comparisons on Alibaba Commodity Data Set (more than three billion images) show that the proposed method outperforms the state-of-the-art with respect to the online/offline trade-off.","headline":"Large-scale Visual Search With Binary Distributed Graph At Alibaba","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhao2019large/"},"url":"https://learning2hash.github.io/publications/zhao2019large/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Graph-based approximate nearest neighbor search has attracted more and more attentions due to its online search advantages. Numbers of methods studying the enhancement of speed and recall have been put forward. However, few of them focus on the efficiency and scale of offline graph-construction. For a deployed visual search system with several billions of online images in total, building a billion-scale offline graph in hours is essential, which is almost unachievable by most existing methods. In this paper, we propose a novel algorithm called Binary Distributed Graph to solve this problem. Specifically, we combine binary codes with graph structure to speedup online and offline procedures, and achieve comparable performance with the ones in real-value based scenarios by recalling more binary candidates. Furthermore, the graph-construction is optimized to completely distributed implementation, which significantly accelerates the offline process and gets rid of the limitation of memory and disk within a single machine. Experimental comparisons on Alibaba Commodity Data Set (more than three billion images) show that the proposed method outperforms the state-of-the-art with respect to the online/offline trade-off.","headline":"Large-scale Visual Search With Binary Distributed Graph At Alibaba","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhao2019large/"},"url":"https://learning2hash.github.io/publications/zhao2019large/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -246,7 +246,6 @@ trade-off.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -267,9 +266,9 @@ trade-off.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -277,13 +276,21 @@ trade-off.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -298,7 +305,6 @@ trade-off.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -326,7 +332,7 @@ trade-off.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

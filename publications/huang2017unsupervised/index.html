@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/huang2017unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unsupervised Triplet Hashing For Fast Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Hashing has played a pivotal role in large-scale image retrieval. With the development of Convolutional Neural Network (CNN), hashing learning has shown great promise. But existing methods are mostly tuned for classification, which are not optimized for retrieval tasks, especially for instance-level retrieval. In this study, we propose a novel hashing method for large-scale image retrieval. Considering the difficulty in obtaining labeled datasets for image retrieval task in large scale, we propose a novel CNN-based unsupervised hashing method, namely Unsupervised Triplet Hashing (UTH). The unsupervised hashing network is designed under the following three principles: 1) more discriminative representations for image retrieval; 2) minimum quantization loss between the original real-valued feature descriptors and the learned hash codes; 3) maximum information entropy for the learned hash codes. Extensive experiments on CIFAR-10, MNIST and In-shop datasets have shown that UTH outperforms several state-of-the-art unsupervised hashing methods in terms of retrieval accuracy.","headline":"Unsupervised Triplet Hashing For Fast Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/huang2017unsupervised/"},"url":"https://learning2hash.github.io/publications/huang2017unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Hashing has played a pivotal role in large-scale image retrieval. With the development of Convolutional Neural Network (CNN), hashing learning has shown great promise. But existing methods are mostly tuned for classification, which are not optimized for retrieval tasks, especially for instance-level retrieval. In this study, we propose a novel hashing method for large-scale image retrieval. Considering the difficulty in obtaining labeled datasets for image retrieval task in large scale, we propose a novel CNN-based unsupervised hashing method, namely Unsupervised Triplet Hashing (UTH). The unsupervised hashing network is designed under the following three principles: 1) more discriminative representations for image retrieval; 2) minimum quantization loss between the original real-valued feature descriptors and the learned hash codes; 3) maximum information entropy for the learned hash codes. Extensive experiments on CIFAR-10, MNIST and In-shop datasets have shown that UTH outperforms several state-of-the-art unsupervised hashing methods in terms of retrieval accuracy.","headline":"Unsupervised Triplet Hashing For Fast Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/huang2017unsupervised/"},"url":"https://learning2hash.github.io/publications/huang2017unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -242,7 +242,6 @@ retrieval accuracy.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -263,9 +262,9 @@ retrieval accuracy.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -273,13 +272,21 @@ retrieval accuracy.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -294,7 +301,6 @@ retrieval accuracy.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -322,7 +328,7 @@ retrieval accuracy.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

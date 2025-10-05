@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jin2017ranking/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Ranking Based Locality Sensitive Hashing Enabled Cancelable Biometrics: Index-of-max Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"In this paper, we propose a ranking based locality sensitive hashing inspired two-factor cancelable biometrics, dubbed “Index-of-Max” (IoM) hashing for biometric template protection. With externally generated random parameters, IoM hashing transforms a real-valued biometric feature vector into discrete index (max ranked) hashed code. We demonstrate two realizations from IoM hashing notion, namely Gaussian Random Projection based and Uniformly Random Permutation based hashing schemes. The discrete indices representation nature of IoM hashed codes enjoy serveral merits. Firstly, IoM hashing empowers strong concealment to the biometric information. This contributes to the solid ground of non-invertibility guarantee. Secondly, IoM hashing is insensitive to the features magnitude, hence is more robust against biometric features variation. Thirdly, the magnitude-independence trait of IoM hashing makes the hash codes being scale-invariant, which is critical for matching and feature alignment. The experimental results demonstrate favorable accuracy performance on benchmark FVC2002 and FVC2004 fingerprint databases. The analyses justify its resilience to the existing and newly introduced security and privacy attacks as well as satisfy the revocability and unlinkability criteria of cancelable biometrics.","headline":"Ranking Based Locality Sensitive Hashing Enabled Cancelable Biometrics: Index-of-max Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jin2017ranking/"},"url":"https://learning2hash.github.io/publications/jin2017ranking/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"In this paper, we propose a ranking based locality sensitive hashing inspired two-factor cancelable biometrics, dubbed “Index-of-Max” (IoM) hashing for biometric template protection. With externally generated random parameters, IoM hashing transforms a real-valued biometric feature vector into discrete index (max ranked) hashed code. We demonstrate two realizations from IoM hashing notion, namely Gaussian Random Projection based and Uniformly Random Permutation based hashing schemes. The discrete indices representation nature of IoM hashed codes enjoy serveral merits. Firstly, IoM hashing empowers strong concealment to the biometric information. This contributes to the solid ground of non-invertibility guarantee. Secondly, IoM hashing is insensitive to the features magnitude, hence is more robust against biometric features variation. Thirdly, the magnitude-independence trait of IoM hashing makes the hash codes being scale-invariant, which is critical for matching and feature alignment. The experimental results demonstrate favorable accuracy performance on benchmark FVC2002 and FVC2004 fingerprint databases. The analyses justify its resilience to the existing and newly introduced security and privacy attacks as well as satisfy the revocability and unlinkability criteria of cancelable biometrics.","headline":"Ranking Based Locality Sensitive Hashing Enabled Cancelable Biometrics: Index-of-max Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jin2017ranking/"},"url":"https://learning2hash.github.io/publications/jin2017ranking/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -237,7 +237,6 @@ biometrics.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -258,9 +257,9 @@ biometrics.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -268,13 +267,21 @@ biometrics.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -289,7 +296,6 @@ biometrics.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -317,7 +323,7 @@ biometrics.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

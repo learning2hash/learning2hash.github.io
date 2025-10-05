@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/raven2024self/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Self-supervised Vision Transformers For Writer Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"While methods based on Vision Transformers (ViT) have achieved state-of-the-art performance in many domains, they have not yet been applied successfully in the domain of writer retrieval. The field is dominated by methods using handcrafted features or features extracted from Convolutional Neural Networks. In this work, we bridge this gap and present a novel method that extracts features from a ViT and aggregates them using VLAD encoding. The model is trained in a self-supervised fashion without any need for labels. We show that extracting local foreground features is superior to using the ViT’s class token in the context of writer retrieval. We evaluate our method on two historical document collections. We set a new state-at-of-art performance on the Historical-WI dataset (83.1% mAP), and the HisIR19 dataset (95.0% mAP). Additionally, we demonstrate that our ViT feature extractor can be directly applied to modern datasets such as the CVL database (98.6% mAP) without any fine-tuning.","headline":"Self-supervised Vision Transformers For Writer Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/raven2024self/"},"url":"https://learning2hash.github.io/publications/raven2024self/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"While methods based on Vision Transformers (ViT) have achieved state-of-the-art performance in many domains, they have not yet been applied successfully in the domain of writer retrieval. The field is dominated by methods using handcrafted features or features extracted from Convolutional Neural Networks. In this work, we bridge this gap and present a novel method that extracts features from a ViT and aggregates them using VLAD encoding. The model is trained in a self-supervised fashion without any need for labels. We show that extracting local foreground features is superior to using the ViT’s class token in the context of writer retrieval. We evaluate our method on two historical document collections. We set a new state-at-of-art performance on the Historical-WI dataset (83.1% mAP), and the HisIR19 dataset (95.0% mAP). Additionally, we demonstrate that our ViT feature extractor can be directly applied to modern datasets such as the CVL database (98.6% mAP) without any fine-tuning.","headline":"Self-supervised Vision Transformers For Writer Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/raven2024self/"},"url":"https://learning2hash.github.io/publications/raven2024self/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -235,7 +235,6 @@ fine-tuning.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -256,9 +255,9 @@ fine-tuning.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -266,13 +265,21 @@ fine-tuning.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -287,7 +294,6 @@ fine-tuning.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -315,7 +321,7 @@ fine-tuning.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

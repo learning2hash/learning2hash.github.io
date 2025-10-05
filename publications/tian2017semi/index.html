@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/tian2017semi/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Semi-supervised Multimodal Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Retrieving nearest neighbors across correlated data in multiple modalities, such as image-text pairs on Facebook and video-tag pairs on YouTube, has become a challenging task due to the huge amount of data. Multimodal hashing methods that embed data into binary codes can boost the retrieving speed and reduce storage requirement. As unsupervised multimodal hashing methods are usually inferior to supervised ones, while the supervised ones requires too much manually labeled data, the proposed method in this paper utilizes a part of labels to design a semi-supervised multimodal hashing method. It first computes the transformation matrices for data matrices and label matrix. Then, with these transformation matrices, fuzzy logic is introduced to estimate a label matrix for unlabeled data. Finally, it uses the estimated label matrix to learn hashing functions for data in each modality to generate a unified binary code matrix. Experiments show that the proposed semi-supervised method with 50% labels can get a medium performance among the compared supervised ones and achieve an approximate performance to the best supervised method with 90% labels. With only 10% labels, the proposed method can still compete with the worst compared supervised one.","headline":"Semi-supervised Multimodal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tian2017semi/"},"url":"https://learning2hash.github.io/publications/tian2017semi/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Retrieving nearest neighbors across correlated data in multiple modalities, such as image-text pairs on Facebook and video-tag pairs on YouTube, has become a challenging task due to the huge amount of data. Multimodal hashing methods that embed data into binary codes can boost the retrieving speed and reduce storage requirement. As unsupervised multimodal hashing methods are usually inferior to supervised ones, while the supervised ones requires too much manually labeled data, the proposed method in this paper utilizes a part of labels to design a semi-supervised multimodal hashing method. It first computes the transformation matrices for data matrices and label matrix. Then, with these transformation matrices, fuzzy logic is introduced to estimate a label matrix for unlabeled data. Finally, it uses the estimated label matrix to learn hashing functions for data in each modality to generate a unified binary code matrix. Experiments show that the proposed semi-supervised method with 50% labels can get a medium performance among the compared supervised ones and achieve an approximate performance to the best supervised method with 90% labels. With only 10% labels, the proposed method can still compete with the worst compared supervised one.","headline":"Semi-supervised Multimodal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tian2017semi/"},"url":"https://learning2hash.github.io/publications/tian2017semi/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -240,7 +240,6 @@ worst compared supervised one.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -261,9 +260,9 @@ worst compared supervised one.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -271,13 +270,21 @@ worst compared supervised one.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -292,7 +299,6 @@ worst compared supervised one.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -320,7 +326,7 @@ worst compared supervised one.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

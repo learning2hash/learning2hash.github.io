@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/saedi2021siamese/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Siamese Networks For Large-scale Author Identification" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Authorship attribution is the process of identifying the author of a text. Approaches to tackling it have been conventionally divided into classification-based ones, which work well for small numbers of candidate authors, and similarity-based methods, which are applicable for larger numbers of authors or for authors beyond the training set; these existing similarity-based methods have only embodied static notions of similarity. Deep learning methods, which blur the boundaries between classification-based and similarity-based approaches, are promising in terms of ability to learn a notion of similarity, but have previously only been used in a conventional small-closed-class classification setup. Siamese networks have been used to develop learned notions of similarity in one-shot image tasks, and also for tasks of mostly semantic relatedness in NLP. We examine their application to the stylistic task of authorship attribution on datasets with large numbers of authors, looking at multiple energy functions and neural network architectures, and show that they can substantially outperform previous approaches.","headline":"Siamese Networks For Large-scale Author Identification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/saedi2021siamese/"},"url":"https://learning2hash.github.io/publications/saedi2021siamese/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Authorship attribution is the process of identifying the author of a text. Approaches to tackling it have been conventionally divided into classification-based ones, which work well for small numbers of candidate authors, and similarity-based methods, which are applicable for larger numbers of authors or for authors beyond the training set; these existing similarity-based methods have only embodied static notions of similarity. Deep learning methods, which blur the boundaries between classification-based and similarity-based approaches, are promising in terms of ability to learn a notion of similarity, but have previously only been used in a conventional small-closed-class classification setup. Siamese networks have been used to develop learned notions of similarity in one-shot image tasks, and also for tasks of mostly semantic relatedness in NLP. We examine their application to the stylistic task of authorship attribution on datasets with large numbers of authors, looking at multiple energy functions and neural network architectures, and show that they can substantially outperform previous approaches.","headline":"Siamese Networks For Large-scale Author Identification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/saedi2021siamese/"},"url":"https://learning2hash.github.io/publications/saedi2021siamese/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -233,7 +233,6 @@ outperform previous approaches.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -254,9 +253,9 @@ outperform previous approaches.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -264,13 +263,21 @@ outperform previous approaches.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -285,7 +292,6 @@ outperform previous approaches.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -313,7 +319,7 @@ outperform previous approaches.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

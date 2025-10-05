@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zeng2019audio/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Audio-visual Embedding For Cross-modal Musicvideo Retrieval Through Supervised Deep CCA" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Deep learning has successfully shown excellent performance in learning joint representations between different data modalities. Unfortunately, little research focuses on cross-modal correlation learning where temporal structures of different data modalities, such as audio and video, should be taken into account. Music video retrieval by given musical audio is a natural way to search and interact with music contents. In this work, we study cross-modal music video retrieval in terms of emotion similarity. Particularly, audio of an arbitrary length is used to retrieve a longer or full-length music video. To this end, we propose a novel audio-visual embedding algorithm by Supervised Deep CanonicalCorrelation Analysis (S-DCCA) that projects audio and video into a shared space to bridge the semantic gap between audio and video. This also preserves the similarity between audio and visual contents from different videos with the same class label and the temporal structure. The contribution of our approach is mainly manifested in the two aspects: i) We propose to select top k audio chunks by attention-based Long Short-Term Memory (LSTM)model, which can represent good audio summarization with local properties. ii) We propose an end-to-end deep model for cross-modal audio-visual learning where S-DCCA is trained to learn the semantic correlation between audio and visual modalities. Due to the lack of music video dataset, we construct 10K music video dataset from YouTube 8M dataset. Some promising results such as MAP and precision-recall show that our proposed model can be applied to music video retrieval.","headline":"Audio-visual Embedding For Cross-modal Musicvideo Retrieval Through Supervised Deep CCA","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zeng2019audio/"},"url":"https://learning2hash.github.io/publications/zeng2019audio/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Deep learning has successfully shown excellent performance in learning joint representations between different data modalities. Unfortunately, little research focuses on cross-modal correlation learning where temporal structures of different data modalities, such as audio and video, should be taken into account. Music video retrieval by given musical audio is a natural way to search and interact with music contents. In this work, we study cross-modal music video retrieval in terms of emotion similarity. Particularly, audio of an arbitrary length is used to retrieve a longer or full-length music video. To this end, we propose a novel audio-visual embedding algorithm by Supervised Deep CanonicalCorrelation Analysis (S-DCCA) that projects audio and video into a shared space to bridge the semantic gap between audio and video. This also preserves the similarity between audio and visual contents from different videos with the same class label and the temporal structure. The contribution of our approach is mainly manifested in the two aspects: i) We propose to select top k audio chunks by attention-based Long Short-Term Memory (LSTM)model, which can represent good audio summarization with local properties. ii) We propose an end-to-end deep model for cross-modal audio-visual learning where S-DCCA is trained to learn the semantic correlation between audio and visual modalities. Due to the lack of music video dataset, we construct 10K music video dataset from YouTube 8M dataset. Some promising results such as MAP and precision-recall show that our proposed model can be applied to music video retrieval.","headline":"Audio-visual Embedding For Cross-modal Musicvideo Retrieval Through Supervised Deep CCA","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zeng2019audio/"},"url":"https://learning2hash.github.io/publications/zeng2019audio/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -245,7 +245,6 @@ applied to music video retrieval.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -266,9 +265,9 @@ applied to music video retrieval.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -276,13 +275,21 @@ applied to music video retrieval.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -297,7 +304,6 @@ applied to music video retrieval.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -325,7 +331,7 @@ applied to music video retrieval.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

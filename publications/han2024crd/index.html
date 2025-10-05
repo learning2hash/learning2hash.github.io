@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/han2024crd/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="CRD: Collaborative Representation Distance For Practical Anomaly Detection" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Visual defect detection plays an important role in intelligent industry. Patch based methods consider visual images as a collection of image patches according to positions, which have stronger discriminative ability for small defects in products, e.g. scratches on pills. However, the nearest neighbor search for the query image and the stored patches will occupy (O(n)) complexity in terms of time and space requirements, posing strict challenges for deployment in edge environments. In this paper, we propose an alternative approach to the distance calculation of image patches via collaborative representation models. Starting from the nearest neighbor distance with (L_0) constraint, we relax the constraint to (L_2) constraint and solve the distance quickly in close-formed without actually accessing the original stored collection of image patches. Furthermore, we point out that the main computational burden of this close-formed solution can be pre-computed by high-performance server before deployment. Consequently, the distance calculation on edge devices only requires a simple matrix multiplication, which is extremely lightweight and GPU-friendly. Performance on real industrial scenarios demonstrates that compared to the existing state-of-the-art methods, this distance achieves several hundred times improvement in computational efficiency with slight performance drop, while greatly reducing memory overhead.","headline":"CRD: Collaborative Representation Distance For Practical Anomaly Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/han2024crd/"},"url":"https://learning2hash.github.io/publications/han2024crd/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Visual defect detection plays an important role in intelligent industry. Patch based methods consider visual images as a collection of image patches according to positions, which have stronger discriminative ability for small defects in products, e.g. scratches on pills. However, the nearest neighbor search for the query image and the stored patches will occupy (O(n)) complexity in terms of time and space requirements, posing strict challenges for deployment in edge environments. In this paper, we propose an alternative approach to the distance calculation of image patches via collaborative representation models. Starting from the nearest neighbor distance with (L_0) constraint, we relax the constraint to (L_2) constraint and solve the distance quickly in close-formed without actually accessing the original stored collection of image patches. Furthermore, we point out that the main computational burden of this close-formed solution can be pre-computed by high-performance server before deployment. Consequently, the distance calculation on edge devices only requires a simple matrix multiplication, which is extremely lightweight and GPU-friendly. Performance on real industrial scenarios demonstrates that compared to the existing state-of-the-art methods, this distance achieves several hundred times improvement in computational efficiency with slight performance drop, while greatly reducing memory overhead.","headline":"CRD: Collaborative Representation Distance For Practical Anomaly Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/han2024crd/"},"url":"https://learning2hash.github.io/publications/han2024crd/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -237,7 +237,6 @@ overhead.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -258,9 +257,9 @@ overhead.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -268,13 +267,21 @@ overhead.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -289,7 +296,6 @@ overhead.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -317,7 +323,7 @@ overhead.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/senter2019unaligned/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unaligned Sequence Similarity Search Using Deep Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Gene annotation has traditionally required direct comparison of DNA sequences between an unknown gene and a database of known ones using string comparison methods. However, these methods do not provide useful information when a gene does not have a close match in the database. In addition, each comparison can be costly when the database is large since it requires alignments and a series of string comparisons. In this work we propose a novel approach: using recurrent neural networks to embed DNA or amino-acid sequences in a low-dimensional space in which distances correlate with functional similarity. This embedding space overcomes both shortcomings of the method of aligning sequences and comparing homology. First, it allows us to obtain information about genes which do not have exact matches by measuring their similarity to other ones in the database. If our database is labeled this can provide labels for a query gene as is done in traditional methods. However, even if the database is unlabeled it allows us to find clusters and infer some characteristics of the gene population. In addition, each comparison is much faster than traditional methods since the distance metric is reduced to the Euclidean distance, and thus efficient approximate nearest neighbor algorithms can be used to find the best match. We present results showing the advantage of our algorithm. More specifically we show how our embedding can be useful for both classification tasks when our labels are known, and clustering tasks where our sequences belong to classes which have not been seen before.","headline":"Unaligned Sequence Similarity Search Using Deep Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/senter2019unaligned/"},"url":"https://learning2hash.github.io/publications/senter2019unaligned/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Gene annotation has traditionally required direct comparison of DNA sequences between an unknown gene and a database of known ones using string comparison methods. However, these methods do not provide useful information when a gene does not have a close match in the database. In addition, each comparison can be costly when the database is large since it requires alignments and a series of string comparisons. In this work we propose a novel approach: using recurrent neural networks to embed DNA or amino-acid sequences in a low-dimensional space in which distances correlate with functional similarity. This embedding space overcomes both shortcomings of the method of aligning sequences and comparing homology. First, it allows us to obtain information about genes which do not have exact matches by measuring their similarity to other ones in the database. If our database is labeled this can provide labels for a query gene as is done in traditional methods. However, even if the database is unlabeled it allows us to find clusters and infer some characteristics of the gene population. In addition, each comparison is much faster than traditional methods since the distance metric is reduced to the Euclidean distance, and thus efficient approximate nearest neighbor algorithms can be used to find the best match. We present results showing the advantage of our algorithm. More specifically we show how our embedding can be useful for both classification tasks when our labels are known, and clustering tasks where our sequences belong to classes which have not been seen before.","headline":"Unaligned Sequence Similarity Search Using Deep Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/senter2019unaligned/"},"url":"https://learning2hash.github.io/publications/senter2019unaligned/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -242,7 +242,6 @@ our sequences belong to classes which have not been seen before.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -263,9 +262,9 @@ our sequences belong to classes which have not been seen before.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -273,13 +272,21 @@ our sequences belong to classes which have not been seen before.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -294,7 +301,6 @@ our sequences belong to classes which have not been seen before.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -322,7 +328,7 @@ our sequences belong to classes which have not been seen before.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

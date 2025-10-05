@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chen2020enhanced/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Enhanced Discrete Multi-modal Hashing: More Constraints Yet Less Time To Learn" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Due to the exponential growth of multimedia data, multi-modal hashing as a promising technique to make cross-view retrieval scalable is attracting more and more attention. However, most of the existing multi-modal hashing methods either divide the learning process unnaturally into two separate stages or treat the discrete optimization problem simplistically as a continuous one, which leads to suboptimal results. Recently, a few discrete multi-modal hashing methods that try to address such issues have emerged, but they still ignore several important discrete constraints (such as the balance and decorrelation of hash bits). In this paper, we overcome those limitations by proposing a novel method named “Enhanced Discrete Multi-modal Hashing (EDMH)” which learns binary codes and hashing functions simultaneously from the pairwise similarity matrix of data, under the aforementioned discrete constraints. Although the model of EDMH looks a lot more complex than the other models for multi-modal hashing, we are actually able to develop a fast iterative learning algorithm for it, since the subproblems of its optimization all have closed-form solutions after introducing two auxiliary variables. Our experimental results on three real-world datasets have demonstrated that EDMH not only performs much better than state-of-the-art competitors but also runs much faster than them.","headline":"Enhanced Discrete Multi-modal Hashing: More Constraints Yet Less Time To Learn","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2020enhanced/"},"url":"https://learning2hash.github.io/publications/chen2020enhanced/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Due to the exponential growth of multimedia data, multi-modal hashing as a promising technique to make cross-view retrieval scalable is attracting more and more attention. However, most of the existing multi-modal hashing methods either divide the learning process unnaturally into two separate stages or treat the discrete optimization problem simplistically as a continuous one, which leads to suboptimal results. Recently, a few discrete multi-modal hashing methods that try to address such issues have emerged, but they still ignore several important discrete constraints (such as the balance and decorrelation of hash bits). In this paper, we overcome those limitations by proposing a novel method named “Enhanced Discrete Multi-modal Hashing (EDMH)” which learns binary codes and hashing functions simultaneously from the pairwise similarity matrix of data, under the aforementioned discrete constraints. Although the model of EDMH looks a lot more complex than the other models for multi-modal hashing, we are actually able to develop a fast iterative learning algorithm for it, since the subproblems of its optimization all have closed-form solutions after introducing two auxiliary variables. Our experimental results on three real-world datasets have demonstrated that EDMH not only performs much better than state-of-the-art competitors but also runs much faster than them.","headline":"Enhanced Discrete Multi-modal Hashing: More Constraints Yet Less Time To Learn","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2020enhanced/"},"url":"https://learning2hash.github.io/publications/chen2020enhanced/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -220,7 +220,6 @@ document.addEventListener('DOMContentLoaded', function () {
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -241,9 +240,9 @@ document.addEventListener('DOMContentLoaded', function () {
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -251,13 +250,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -272,7 +279,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -300,7 +306,7 @@ document.addEventListener('DOMContentLoaded', function () {
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

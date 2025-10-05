@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jagadeesan2019understanding/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Understanding Sparse JL For Feature Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Feature hashing and other random projection schemes are commonly used to reduce the dimensionality of feature vectors. The goal is to efficiently project a high-dimensional feature vector living in (\\mathbb{R}^n) into a much lower-dimensional space (\\mathbb{R}^m), while approximately preserving Euclidean norm. These schemes can be constructed using sparse random projections, for example using a sparse Johnson-Lindenstrauss (JL) transform. A line of work introduced by Weinberger et. al (ICML ‘09) analyzes the accuracy of sparse JL with sparsity 1 on feature vectors with small (\\ell_\\infty)-to-(ℓ₂) norm ratio. Recently, Freksen, Kamma, and Larsen (NeurIPS ‘18) closed this line of work by proving a tight tradeoff between (\\ell_\\infty)-to-(ℓ₂) norm ratio and accuracy for sparse JL with sparsity (1). In this paper, we demonstrate the benefits of using sparsity (s) greater than (1) in sparse JL on feature vectors. Our main result is a tight tradeoff between (\\ell_\\infty)-to-(ℓ₂) norm ratio and accuracy for a general sparsity (s), that significantly generalizes the result of Freksen et. al. Our result theoretically demonstrates that sparse JL with (s &gt; 1) can have significantly better norm-preservation properties on feature vectors than sparse JL with (s = 1); we also empirically demonstrate this finding.","headline":"Understanding Sparse JL For Feature Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jagadeesan2019understanding/"},"url":"https://learning2hash.github.io/publications/jagadeesan2019understanding/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Feature hashing and other random projection schemes are commonly used to reduce the dimensionality of feature vectors. The goal is to efficiently project a high-dimensional feature vector living in (\\mathbb{R}^n) into a much lower-dimensional space (\\mathbb{R}^m), while approximately preserving Euclidean norm. These schemes can be constructed using sparse random projections, for example using a sparse Johnson-Lindenstrauss (JL) transform. A line of work introduced by Weinberger et. al (ICML ‘09) analyzes the accuracy of sparse JL with sparsity 1 on feature vectors with small (\\ell_\\infty)-to-(ℓ₂) norm ratio. Recently, Freksen, Kamma, and Larsen (NeurIPS ‘18) closed this line of work by proving a tight tradeoff between (\\ell_\\infty)-to-(ℓ₂) norm ratio and accuracy for sparse JL with sparsity (1). In this paper, we demonstrate the benefits of using sparsity (s) greater than (1) in sparse JL on feature vectors. Our main result is a tight tradeoff between (\\ell_\\infty)-to-(ℓ₂) norm ratio and accuracy for a general sparsity (s), that significantly generalizes the result of Freksen et. al. Our result theoretically demonstrates that sparse JL with (s &gt; 1) can have significantly better norm-preservation properties on feature vectors than sparse JL with (s = 1); we also empirically demonstrate this finding.","headline":"Understanding Sparse JL For Feature Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jagadeesan2019understanding/"},"url":"https://learning2hash.github.io/publications/jagadeesan2019understanding/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -236,7 +236,6 @@ sparse JL with (s = 1); we also empirically demonstrate this finding.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -257,9 +256,9 @@ sparse JL with (s = 1); we also empirically demonstrate this finding.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -267,13 +266,21 @@ sparse JL with (s = 1); we also empirically demonstrate this finding.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -288,7 +295,6 @@ sparse JL with (s = 1); we also empirically demonstrate this finding.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -316,7 +322,7 @@ sparse JL with (s = 1); we also empirically demonstrate this finding.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

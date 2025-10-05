@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/goncalves2019how/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="How Big Can Style Be? Addressing High Dimensionality For Recommending With Style" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Using embeddings as representations of products is quite commonplace in recommender systems, either by extracting the semantic embeddings of text descriptions, user sessions, collaborative relationships, or product images. In this paper, we present an approach to extract style embeddings for using in fashion recommender systems, with a special focus on style information such as textures, prints, material, etc. The main issue of using such a type of embeddings is its high dimensionality. So, we propose feature reduction solutions alongside the investigation of its influence in the overall task of recommending products of the same style based on their main image. The feature reduction we propose allows for reducing the embedding vector from 600k features to 512, leading to a memory reduction of 99.91% without critically compromising the quality of the recommendations.","headline":"How Big Can Style Be? Addressing High Dimensionality For Recommending With Style","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/goncalves2019how/"},"url":"https://learning2hash.github.io/publications/goncalves2019how/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Using embeddings as representations of products is quite commonplace in recommender systems, either by extracting the semantic embeddings of text descriptions, user sessions, collaborative relationships, or product images. In this paper, we present an approach to extract style embeddings for using in fashion recommender systems, with a special focus on style information such as textures, prints, material, etc. The main issue of using such a type of embeddings is its high dimensionality. So, we propose feature reduction solutions alongside the investigation of its influence in the overall task of recommending products of the same style based on their main image. The feature reduction we propose allows for reducing the embedding vector from 600k features to 512, leading to a memory reduction of 99.91% without critically compromising the quality of the recommendations.","headline":"How Big Can Style Be? Addressing High Dimensionality For Recommending With Style","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/goncalves2019how/"},"url":"https://learning2hash.github.io/publications/goncalves2019how/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -227,7 +227,6 @@ compromising the quality of the recommendations.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -248,9 +247,9 @@ compromising the quality of the recommendations.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -258,13 +257,21 @@ compromising the quality of the recommendations.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -279,7 +286,6 @@ compromising the quality of the recommendations.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -307,7 +313,7 @@ compromising the quality of the recommendations.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

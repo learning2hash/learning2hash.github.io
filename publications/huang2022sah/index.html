@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/huang2022sah/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="SAH: Shifting-aware Asymmetric Hashing For Reverse (k)-maximum Inner Product Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"This paper investigates a new yet challenging problem called Reverse (k)-Maximum Inner Product Search (R(k)MIPS). Given a query (item) vector, a set of item vectors, and a set of user vectors, the problem of R(k)MIPS aims to find a set of user vectors whose inner products with the query vector are one of the (k) largest among the query and item vectors. We propose the first subquadratic-time algorithm, i.e., Shifting-aware Asymmetric Hashing (SAH), to tackle the R(k)MIPS problem. To speed up the Maximum Inner Product Search (MIPS) on item vectors, we design a shifting-invariant asymmetric transformation and develop a novel sublinear-time Shifting-Aware Asymmetric Locality Sensitive Hashing (SA-ALSH) scheme. Furthermore, we devise a new blocking strategy based on the Cone-Tree to effectively prune user vectors (in a batch). We prove that SAH achieves a theoretical guarantee for solving the RMIPS problem. Experimental results on five real-world datasets show that SAH runs 4(\\sim)8(\\times) faster than the state-of-the-art methods for R(k)MIPS while achieving F1-scores of over 90%. The code is available at https://github.com/HuangQiang/SAH.","headline":"SAH: Shifting-aware Asymmetric Hashing For Reverse (k)-maximum Inner Product Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/huang2022sah/"},"url":"https://learning2hash.github.io/publications/huang2022sah/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"This paper investigates a new yet challenging problem called Reverse (k)-Maximum Inner Product Search (R(k)MIPS). Given a query (item) vector, a set of item vectors, and a set of user vectors, the problem of R(k)MIPS aims to find a set of user vectors whose inner products with the query vector are one of the (k) largest among the query and item vectors. We propose the first subquadratic-time algorithm, i.e., Shifting-aware Asymmetric Hashing (SAH), to tackle the R(k)MIPS problem. To speed up the Maximum Inner Product Search (MIPS) on item vectors, we design a shifting-invariant asymmetric transformation and develop a novel sublinear-time Shifting-Aware Asymmetric Locality Sensitive Hashing (SA-ALSH) scheme. Furthermore, we devise a new blocking strategy based on the Cone-Tree to effectively prune user vectors (in a batch). We prove that SAH achieves a theoretical guarantee for solving the RMIPS problem. Experimental results on five real-world datasets show that SAH runs 4(\\sim)8(\\times) faster than the state-of-the-art methods for R(k)MIPS while achieving F1-scores of over 90%. The code is available at https://github.com/HuangQiang/SAH.","headline":"SAH: Shifting-aware Asymmetric Hashing For Reverse (k)-maximum Inner Product Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/huang2022sah/"},"url":"https://learning2hash.github.io/publications/huang2022sah/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -239,7 +239,6 @@ https://github.com/HuangQiang/SAH.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -260,9 +259,9 @@ https://github.com/HuangQiang/SAH.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -270,13 +269,21 @@ https://github.com/HuangQiang/SAH.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -291,7 +298,6 @@ https://github.com/HuangQiang/SAH.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -319,7 +325,7 @@ https://github.com/HuangQiang/SAH.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

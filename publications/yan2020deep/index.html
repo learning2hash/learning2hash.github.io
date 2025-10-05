@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yan2020deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Multi-view Enhancement Hashing For Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Hashing is an efficient method for nearest neighbor search in large-scale data space by embedding high-dimensional feature descriptors into a similarity preserving Hamming space with a low dimension. However, large-scale high-speed retrieval through binary code has a certain degree of reduction in retrieval accuracy compared to traditional retrieval methods. We have noticed that multi-view methods can well preserve the diverse characteristics of data. Therefore, we try to introduce the multi-view deep neural network into the hash learning field, and design an efficient and innovative retrieval model, which has achieved a significant improvement in retrieval performance. In this paper, we propose a supervised multi-view hash model which can enhance the multi-view information through neural networks. This is a completely new hash learning method that combines multi-view and deep learning methods. The proposed method utilizes an effective view stability evaluation method to actively explore the relationship among views, which will affect the optimization direction of the entire network. We have also designed a variety of multi-data fusion methods in the Hamming space to preserve the advantages of both convolution and multi-view. In order to avoid excessive computing resources on the enhancement procedure during retrieval, we set up a separate structure called memory network which participates in training together. The proposed method is systematically evaluated on the CIFAR-10, NUS-WIDE and MS-COCO datasets, and the results show that our method significantly outperforms the state-of-the-art single-view and multi-view hashing methods.","headline":"Deep Multi-view Enhancement Hashing For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yan2020deep/"},"url":"https://learning2hash.github.io/publications/yan2020deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Hashing is an efficient method for nearest neighbor search in large-scale data space by embedding high-dimensional feature descriptors into a similarity preserving Hamming space with a low dimension. However, large-scale high-speed retrieval through binary code has a certain degree of reduction in retrieval accuracy compared to traditional retrieval methods. We have noticed that multi-view methods can well preserve the diverse characteristics of data. Therefore, we try to introduce the multi-view deep neural network into the hash learning field, and design an efficient and innovative retrieval model, which has achieved a significant improvement in retrieval performance. In this paper, we propose a supervised multi-view hash model which can enhance the multi-view information through neural networks. This is a completely new hash learning method that combines multi-view and deep learning methods. The proposed method utilizes an effective view stability evaluation method to actively explore the relationship among views, which will affect the optimization direction of the entire network. We have also designed a variety of multi-data fusion methods in the Hamming space to preserve the advantages of both convolution and multi-view. In order to avoid excessive computing resources on the enhancement procedure during retrieval, we set up a separate structure called memory network which participates in training together. The proposed method is systematically evaluated on the CIFAR-10, NUS-WIDE and MS-COCO datasets, and the results show that our method significantly outperforms the state-of-the-art single-view and multi-view hashing methods.","headline":"Deep Multi-view Enhancement Hashing For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yan2020deep/"},"url":"https://learning2hash.github.io/publications/yan2020deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -251,7 +251,6 @@ single-view and multi-view hashing methods.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -272,9 +271,9 @@ single-view and multi-view hashing methods.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -282,13 +281,21 @@ single-view and multi-view hashing methods.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -303,7 +310,6 @@ single-view and multi-view hashing methods.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -331,7 +337,7 @@ single-view and multi-view hashing methods.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/horiuchi2022similarity/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Similarity Search On Computational Notebooks" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Computational notebook software such as Jupyter Notebook is popular for data science tasks. Numerous computational notebooks are available on the Web and reusable; however, searching for computational notebooks manually is a tedious task, and so far, there are no tools to search for computational notebooks effectively and efficiently. In this paper, we propose a similarity search on computational notebooks and develop a new framework for the similarity search. Given contents (i.e., source codes, tabular data, libraries, and outputs formats) in computational notebooks as a query, the similarity search problem aims to find top-k computational notebooks with the most similar contents. We define two similarity measures; set-based and graph-based similarities. Set-based similarity handles each content independently, while graph-based similarity captures the relationships between contents. Our framework can effectively prune the candidates of computational notebooks that should not be in the top-k results. Furthermore, we develop optimization techniques such as caching and indexing to accelerate the search. Experiments using Kaggle notebooks show that our method, in particular graph-based similarity, can achieve high accuracy and high efficiency.","headline":"Similarity Search On Computational Notebooks","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/horiuchi2022similarity/"},"url":"https://learning2hash.github.io/publications/horiuchi2022similarity/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Computational notebook software such as Jupyter Notebook is popular for data science tasks. Numerous computational notebooks are available on the Web and reusable; however, searching for computational notebooks manually is a tedious task, and so far, there are no tools to search for computational notebooks effectively and efficiently. In this paper, we propose a similarity search on computational notebooks and develop a new framework for the similarity search. Given contents (i.e., source codes, tabular data, libraries, and outputs formats) in computational notebooks as a query, the similarity search problem aims to find top-k computational notebooks with the most similar contents. We define two similarity measures; set-based and graph-based similarities. Set-based similarity handles each content independently, while graph-based similarity captures the relationships between contents. Our framework can effectively prune the candidates of computational notebooks that should not be in the top-k results. Furthermore, we develop optimization techniques such as caching and indexing to accelerate the search. Experiments using Kaggle notebooks show that our method, in particular graph-based similarity, can achieve high accuracy and high efficiency.","headline":"Similarity Search On Computational Notebooks","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/horiuchi2022similarity/"},"url":"https://learning2hash.github.io/publications/horiuchi2022similarity/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -238,7 +238,6 @@ achieve high accuracy and high efficiency.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -259,9 +258,9 @@ achieve high accuracy and high efficiency.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -269,13 +268,21 @@ achieve high accuracy and high efficiency.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -290,7 +297,6 @@ achieve high accuracy and high efficiency.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -318,7 +324,7 @@ achieve high accuracy and high efficiency.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

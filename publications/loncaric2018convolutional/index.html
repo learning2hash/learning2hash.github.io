@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/loncaric2018convolutional/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Convolutional Hashing For Automated Scene Matching" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"We present a powerful new loss function and training scheme for learning binary hash functions. In particular, we demonstrate our method by creating for the first time a neural network that outperforms state-of-the-art Haar wavelets and color layout descriptors at the task of automated scene matching. By accurately relating distance on the manifold of network outputs to distance in Hamming space, we achieve a 100-fold reduction in nontrivial false positive rate and significantly higher true positive rate. We expect our insights to provide large wins for hashing models applied to other information retrieval hashing tasks as well.","headline":"Convolutional Hashing For Automated Scene Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/loncaric2018convolutional/"},"url":"https://learning2hash.github.io/publications/loncaric2018convolutional/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"We present a powerful new loss function and training scheme for learning binary hash functions. In particular, we demonstrate our method by creating for the first time a neural network that outperforms state-of-the-art Haar wavelets and color layout descriptors at the task of automated scene matching. By accurately relating distance on the manifold of network outputs to distance in Hamming space, we achieve a 100-fold reduction in nontrivial false positive rate and significantly higher true positive rate. We expect our insights to provide large wins for hashing models applied to other information retrieval hashing tasks as well.","headline":"Convolutional Hashing For Automated Scene Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/loncaric2018convolutional/"},"url":"https://learning2hash.github.io/publications/loncaric2018convolutional/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -224,7 +224,6 @@ hashing tasks as well.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -245,9 +244,9 @@ hashing tasks as well.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -255,13 +254,21 @@ hashing tasks as well.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -276,7 +283,6 @@ hashing tasks as well.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -304,7 +310,7 @@ hashing tasks as well.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

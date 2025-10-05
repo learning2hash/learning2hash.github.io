@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zvedeniouk2010angle/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Angle Tree: Nearest Neighbor Search In High Dimensions With Low Intrinsic Dimensionality" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"We propose an extension of tree-based space-partitioning indexing structures for data with low intrinsic dimensionality embedded in a high dimensional space. We call this extension an Angle Tree. Our extension can be applied to both classical kd-trees as well as the more recent rp-trees. The key idea of our approach is to store the angle (the “dihedral angle”) between the data region (which is a low dimensional manifold) and the random hyperplane that splits the region (the “splitter”). We show that the dihedral angle can be used to obtain a tight lower bound on the distance between the query point and any point on the opposite side of the splitter. This in turn can be used to efficiently prune the search space. We introduce a novel randomized strategy to efficiently calculate the dihedral angle with a high degree of accuracy. Experiments and analysis on real and synthetic data sets shows that the Angle Tree is the most efficient known indexing structure for nearest neighbor queries in terms of preprocessing and space usage while achieving high accuracy and fast search time.","headline":"Angle Tree: Nearest Neighbor Search In High Dimensions With Low Intrinsic Dimensionality","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zvedeniouk2010angle/"},"url":"https://learning2hash.github.io/publications/zvedeniouk2010angle/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"We propose an extension of tree-based space-partitioning indexing structures for data with low intrinsic dimensionality embedded in a high dimensional space. We call this extension an Angle Tree. Our extension can be applied to both classical kd-trees as well as the more recent rp-trees. The key idea of our approach is to store the angle (the “dihedral angle”) between the data region (which is a low dimensional manifold) and the random hyperplane that splits the region (the “splitter”). We show that the dihedral angle can be used to obtain a tight lower bound on the distance between the query point and any point on the opposite side of the splitter. This in turn can be used to efficiently prune the search space. We introduce a novel randomized strategy to efficiently calculate the dihedral angle with a high degree of accuracy. Experiments and analysis on real and synthetic data sets shows that the Angle Tree is the most efficient known indexing structure for nearest neighbor queries in terms of preprocessing and space usage while achieving high accuracy and fast search time.","headline":"Angle Tree: Nearest Neighbor Search In High Dimensions With Low Intrinsic Dimensionality","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zvedeniouk2010angle/"},"url":"https://learning2hash.github.io/publications/zvedeniouk2010angle/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -230,7 +230,6 @@ and fast search time.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -251,9 +250,9 @@ and fast search time.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -261,13 +260,21 @@ and fast search time.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -282,7 +289,6 @@ and fast search time.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -310,7 +316,7 @@ and fast search time.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

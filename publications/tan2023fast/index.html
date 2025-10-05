@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/tan2023fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast Locality Sensitive Hashing With Theoretical Guarantee" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Locality-sensitive hashing (LSH) is an effective randomized technique widely used in many machine learning tasks. The cost of hashing is proportional to data dimensions, and thus often the performance bottleneck when dimensionality is high and the number of hash functions involved is large. Surprisingly, however, little work has been done to improve the efficiency of LSH computation. In this paper, we design a simple yet efficient LSH scheme, named FastLSH, under l2 norm. By combining random sampling and random projection, FastLSH reduces the time complexity from O(n) to O(m) (m&lt;n), where n is the data dimensionality and m is the number of sampled dimensions. Moreover, FastLSH has provable LSH property, which distinguishes it from the non-LSH fast sketches. We conduct comprehensive experiments over a collection of real and synthetic datasets for the nearest neighbor search task. Experimental results demonstrate that FastLSH is on par with the state-of-the-arts in terms of answer quality, space occupation and query efficiency, while enjoying up to 80x speedup in hash function evaluation. We believe that FastLSH is a promising alternative to the classic LSH scheme.","headline":"Fast Locality Sensitive Hashing With Theoretical Guarantee","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tan2023fast/"},"url":"https://learning2hash.github.io/publications/tan2023fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Locality-sensitive hashing (LSH) is an effective randomized technique widely used in many machine learning tasks. The cost of hashing is proportional to data dimensions, and thus often the performance bottleneck when dimensionality is high and the number of hash functions involved is large. Surprisingly, however, little work has been done to improve the efficiency of LSH computation. In this paper, we design a simple yet efficient LSH scheme, named FastLSH, under l2 norm. By combining random sampling and random projection, FastLSH reduces the time complexity from O(n) to O(m) (m&lt;n), where n is the data dimensionality and m is the number of sampled dimensions. Moreover, FastLSH has provable LSH property, which distinguishes it from the non-LSH fast sketches. We conduct comprehensive experiments over a collection of real and synthetic datasets for the nearest neighbor search task. Experimental results demonstrate that FastLSH is on par with the state-of-the-arts in terms of answer quality, space occupation and query efficiency, while enjoying up to 80x speedup in hash function evaluation. We believe that FastLSH is a promising alternative to the classic LSH scheme.","headline":"Fast Locality Sensitive Hashing With Theoretical Guarantee","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tan2023fast/"},"url":"https://learning2hash.github.io/publications/tan2023fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -239,7 +239,6 @@ alternative to the classic LSH scheme.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -260,9 +259,9 @@ alternative to the classic LSH scheme.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -270,13 +269,21 @@ alternative to the classic LSH scheme.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -291,7 +298,6 @@ alternative to the classic LSH scheme.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -319,7 +325,7 @@ alternative to the classic LSH scheme.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

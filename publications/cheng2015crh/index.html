@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/cheng2015crh/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="CRH: A Simple Benchmark Approach To Continuous Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"In recent years, the distinctive advancement of handling huge data promotes the evolution of ubiquitous computing and analysis technologies. With the constantly upward system burden and computational complexity, adaptive coding has been a fascinating topic for pattern analysis, with outstanding performance. In this work, a continuous hashing method, termed continuous random hashing (CRH), is proposed to encode sequential data stream, while ignorance of previously hashing knowledge is possible. Instead, a random selection idea is adopted to adaptively approximate the differential encoding patterns of data stream, e.g., streaming media, and iteration is avoided for stepwise learning. Experimental results demonstrate our method is able to provide outstanding performance, as a benchmark approach to continuous hashing.","headline":"CRH: A Simple Benchmark Approach To Continuous Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/cheng2015crh/"},"url":"https://learning2hash.github.io/publications/cheng2015crh/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"In recent years, the distinctive advancement of handling huge data promotes the evolution of ubiquitous computing and analysis technologies. With the constantly upward system burden and computational complexity, adaptive coding has been a fascinating topic for pattern analysis, with outstanding performance. In this work, a continuous hashing method, termed continuous random hashing (CRH), is proposed to encode sequential data stream, while ignorance of previously hashing knowledge is possible. Instead, a random selection idea is adopted to adaptively approximate the differential encoding patterns of data stream, e.g., streaming media, and iteration is avoided for stepwise learning. Experimental results demonstrate our method is able to provide outstanding performance, as a benchmark approach to continuous hashing.","headline":"CRH: A Simple Benchmark Approach To Continuous Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/cheng2015crh/"},"url":"https://learning2hash.github.io/publications/cheng2015crh/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -228,7 +228,6 @@ provide outstanding performance, as a benchmark approach to continuous hashing.<
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -249,9 +248,9 @@ provide outstanding performance, as a benchmark approach to continuous hashing.<
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -259,13 +258,21 @@ provide outstanding performance, as a benchmark approach to continuous hashing.<
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -280,7 +287,6 @@ provide outstanding performance, as a benchmark approach to continuous hashing.<
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -308,7 +314,7 @@ provide outstanding performance, as a benchmark approach to continuous hashing.<
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

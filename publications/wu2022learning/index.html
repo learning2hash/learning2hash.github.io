@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wu2022learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Deep Semantic Model For Code Search Using Codesearchnet Corpus" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Semantic code search is the task of retrieving relevant code snippet given a natural language query. Different from typical information retrieval tasks, code search requires to bridge the semantic gap between the programming language and natural language, for better describing intrinsic concepts and semantics. Recently, deep neural network for code search has been a hot research topic. Typical methods for neural code search first represent the code snippet and query text as separate embeddings, and then use vector distance (e.g. dot-product or cosine) to calculate the semantic similarity between them. There exist many different ways for aggregating the variable length of code or query tokens into a learnable embedding, including bi-encoder, cross-encoder, and poly-encoder. The goal of the query encoder and code encoder is to produce embeddings that are close with each other for a related pair of query and the corresponding desired code snippet, in which the choice and design of encoder is very significant. In this paper, we propose a novel deep semantic model which makes use of the utilities of not only the multi-modal sources, but also feature extractors such as self-attention, the aggregated vectors, combination of the intermediate representations. We apply the proposed model to tackle the CodeSearchNet challenge about semantic code search. We align cross-lingual embedding for multi-modality learning with large batches and hard example mining, and combine different learned representations for better enhancing the representation learning. Our model is trained on CodeSearchNet corpus and evaluated on the held-out data, the final model achieves 0.384 NDCG and won the first place in this benchmark. Models and code are available at https://github.com/overwindows/SemanticCodeSearch.git.","headline":"Learning Deep Semantic Model For Code Search Using Codesearchnet Corpus","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2022learning/"},"url":"https://learning2hash.github.io/publications/wu2022learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Semantic code search is the task of retrieving relevant code snippet given a natural language query. Different from typical information retrieval tasks, code search requires to bridge the semantic gap between the programming language and natural language, for better describing intrinsic concepts and semantics. Recently, deep neural network for code search has been a hot research topic. Typical methods for neural code search first represent the code snippet and query text as separate embeddings, and then use vector distance (e.g. dot-product or cosine) to calculate the semantic similarity between them. There exist many different ways for aggregating the variable length of code or query tokens into a learnable embedding, including bi-encoder, cross-encoder, and poly-encoder. The goal of the query encoder and code encoder is to produce embeddings that are close with each other for a related pair of query and the corresponding desired code snippet, in which the choice and design of encoder is very significant. In this paper, we propose a novel deep semantic model which makes use of the utilities of not only the multi-modal sources, but also feature extractors such as self-attention, the aggregated vectors, combination of the intermediate representations. We apply the proposed model to tackle the CodeSearchNet challenge about semantic code search. We align cross-lingual embedding for multi-modality learning with large batches and hard example mining, and combine different learned representations for better enhancing the representation learning. Our model is trained on CodeSearchNet corpus and evaluated on the held-out data, the final model achieves 0.384 NDCG and won the first place in this benchmark. Models and code are available at https://github.com/overwindows/SemanticCodeSearch.git.","headline":"Learning Deep Semantic Model For Code Search Using Codesearchnet Corpus","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2022learning/"},"url":"https://learning2hash.github.io/publications/wu2022learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -242,7 +242,6 @@ https://github.com/overwindows/SemanticCodeSearch.git.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -263,9 +262,9 @@ https://github.com/overwindows/SemanticCodeSearch.git.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -273,13 +272,21 @@ https://github.com/overwindows/SemanticCodeSearch.git.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -294,7 +301,6 @@ https://github.com/overwindows/SemanticCodeSearch.git.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -322,7 +328,7 @@ https://github.com/overwindows/SemanticCodeSearch.git.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

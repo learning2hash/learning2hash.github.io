@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2019the/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The General Pair-based Weighting Loss For Deep Metric Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Deep metric learning aims at learning the distance metric between pair of samples, through the deep neural networks to extract the semantic feature embeddings where similar samples are close to each other while dissimilar samples are farther apart. A large amount of loss functions based on pair distances have been presented in the literature for guiding the training of deep metric learning. In this paper, we unify them in a general pair-based weighting loss function, where the minimizing objective loss is just the distances weighting of informative pairs. The general pair-based weighting loss includes two main aspects, (1) samples mining and (2) pairs weighting. Samples mining aims at selecting the informative positive and negative pair sets to exploit the structured relationship of samples in a mini-batch and also reduce the number of non-trivial pairs. Pair weighting aims at assigning different weights for different pairs according to the pair distances for discriminatively training the network. We detailedly review those existing pair-based losses inline with our general loss function, and explore some possible methods from the perspective of samples mining and pairs weighting. Finally, extensive experiments on three image retrieval datasets show that our general pair-based weighting loss obtains new state-of-the-art performance, demonstrating the effectiveness of the pair-based samples mining and pairs weighting for deep metric learning.","headline":"The General Pair-based Weighting Loss For Deep Metric Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2019the/"},"url":"https://learning2hash.github.io/publications/liu2019the/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Deep metric learning aims at learning the distance metric between pair of samples, through the deep neural networks to extract the semantic feature embeddings where similar samples are close to each other while dissimilar samples are farther apart. A large amount of loss functions based on pair distances have been presented in the literature for guiding the training of deep metric learning. In this paper, we unify them in a general pair-based weighting loss function, where the minimizing objective loss is just the distances weighting of informative pairs. The general pair-based weighting loss includes two main aspects, (1) samples mining and (2) pairs weighting. Samples mining aims at selecting the informative positive and negative pair sets to exploit the structured relationship of samples in a mini-batch and also reduce the number of non-trivial pairs. Pair weighting aims at assigning different weights for different pairs according to the pair distances for discriminatively training the network. We detailedly review those existing pair-based losses inline with our general loss function, and explore some possible methods from the perspective of samples mining and pairs weighting. Finally, extensive experiments on three image retrieval datasets show that our general pair-based weighting loss obtains new state-of-the-art performance, demonstrating the effectiveness of the pair-based samples mining and pairs weighting for deep metric learning.","headline":"The General Pair-based Weighting Loss For Deep Metric Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2019the/"},"url":"https://learning2hash.github.io/publications/liu2019the/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -243,7 +243,6 @@ weighting for deep metric learning.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -264,9 +263,9 @@ weighting for deep metric learning.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -274,13 +273,21 @@ weighting for deep metric learning.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -295,7 +302,6 @@ weighting for deep metric learning.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -323,7 +329,7 @@ weighting for deep metric learning.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

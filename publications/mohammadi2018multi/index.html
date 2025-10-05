@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/mohammadi2018multi/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multi-reference Cosine: A New Approach To Text Similarity Measurement In Large Collections" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"The importance of an efficient and scalable document similarity detection system is undeniable nowadays. Search engines need batch text similarity measures to detect duplicated and near-duplicated web pages in their indexes in order to prevent indexing a web page multiple times. Furthermore, in the scoring phase, search engines need similarity measures to detect duplicated contents on web pages so as to increase the quality of their results. In this paper, a new approach to batch text similarity detection is proposed by combining some ideas from dimensionality reduction techniques and information gain theory. The new approach is focused on search engines need to detect duplicated and near-duplicated web pages. The new approach is evaluated on the NEWS20 dataset and the results show that the new approach is faster than the cosine text similarity algorithm in terms of speed and performance. On top of that, It is faster and more accurate than the other rival method, Simhash similarity algorithm.","headline":"Multi-reference Cosine: A New Approach To Text Similarity Measurement In Large Collections","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mohammadi2018multi/"},"url":"https://learning2hash.github.io/publications/mohammadi2018multi/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"The importance of an efficient and scalable document similarity detection system is undeniable nowadays. Search engines need batch text similarity measures to detect duplicated and near-duplicated web pages in their indexes in order to prevent indexing a web page multiple times. Furthermore, in the scoring phase, search engines need similarity measures to detect duplicated contents on web pages so as to increase the quality of their results. In this paper, a new approach to batch text similarity detection is proposed by combining some ideas from dimensionality reduction techniques and information gain theory. The new approach is focused on search engines need to detect duplicated and near-duplicated web pages. The new approach is evaluated on the NEWS20 dataset and the results show that the new approach is faster than the cosine text similarity algorithm in terms of speed and performance. On top of that, It is faster and more accurate than the other rival method, Simhash similarity algorithm.","headline":"Multi-reference Cosine: A New Approach To Text Similarity Measurement In Large Collections","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mohammadi2018multi/"},"url":"https://learning2hash.github.io/publications/mohammadi2018multi/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -233,7 +233,6 @@ similarity algorithm.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -254,9 +253,9 @@ similarity algorithm.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -264,13 +263,21 @@ similarity algorithm.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -285,7 +292,6 @@ similarity algorithm.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -313,7 +319,7 @@ similarity algorithm.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

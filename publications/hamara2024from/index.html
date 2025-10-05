@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/hamara2024from/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="From Latent To Engine Manifolds: Analyzing Imagebind’s Multimodal Embedding Space" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"This study investigates ImageBind’s ability to generate meaningful fused multimodal embeddings for online auto parts listings. We propose a simplistic embedding fusion workflow that aims to capture the overlapping information of image/text pairs, ultimately combining the semantics of a post into a joint embedding. After storing such fused embeddings in a vector database, we experiment with dimensionality reduction and provide empirical evidence to convey the semantic quality of the joint embeddings by clustering and examining the posts nearest to each cluster centroid. Additionally, our initial findings with ImageBind’s emergent zero-shot cross-modal retrieval suggest that pure audio embeddings can correlate with semantically similar marketplace listings, indicating potential avenues for future research.","headline":"From Latent To Engine Manifolds: Analyzing Imagebind’s Multimodal Embedding Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hamara2024from/"},"url":"https://learning2hash.github.io/publications/hamara2024from/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"This study investigates ImageBind’s ability to generate meaningful fused multimodal embeddings for online auto parts listings. We propose a simplistic embedding fusion workflow that aims to capture the overlapping information of image/text pairs, ultimately combining the semantics of a post into a joint embedding. After storing such fused embeddings in a vector database, we experiment with dimensionality reduction and provide empirical evidence to convey the semantic quality of the joint embeddings by clustering and examining the posts nearest to each cluster centroid. Additionally, our initial findings with ImageBind’s emergent zero-shot cross-modal retrieval suggest that pure audio embeddings can correlate with semantically similar marketplace listings, indicating potential avenues for future research.","headline":"From Latent To Engine Manifolds: Analyzing Imagebind’s Multimodal Embedding Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hamara2024from/"},"url":"https://learning2hash.github.io/publications/hamara2024from/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -228,7 +228,6 @@ indicating potential avenues for future research.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -249,9 +248,9 @@ indicating potential avenues for future research.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -259,13 +258,21 @@ indicating potential avenues for future research.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -280,7 +287,6 @@ indicating potential avenues for future research.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -308,7 +314,7 @@ indicating potential avenues for future research.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

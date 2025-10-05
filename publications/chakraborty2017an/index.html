@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chakraborty2017an/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="An Improved Video Analysis Using Context Based Extension Of LSH" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Locality Sensitive Hashing (LSH) based algorithms have already shown their promise in finding approximate nearest neighbors in high dimen- sional data space. However, there are certain scenarios, as in sequential data, where the proximity of a pair of points cannot be captured without considering their surroundings or context. In videos, as for example, a particular frame is meaningful only when it is seen in the context of its preceding and following frames. LSH has no mechanism to handle the con- texts of the data points. In this article, a novel scheme of Context based Locality Sensitive Hashing (conLSH) has been introduced, in which points are hashed together not only based on their closeness, but also because of similar context. The contribution made in this article is three fold. First, conLSH is integrated with a recently proposed fast optimal sequence alignment algorithm (FOGSAA) using a layered approach. The resultant method is applied to video retrieval for extracting similar sequences. The pro- posed algorithm yields more than 80% accuracy on an average in different datasets. It has been found to save 36.3% of the total time, consumed by the exhaustive search. conLSH reduces the search space to approximately 42% of the entire dataset, when compared with an exhaustive search by the aforementioned FOGSAA, Bag of Words method and the standard LSH implementations. Secondly, the effectiveness of conLSH is demon- strated in action recognition of the video clips, which yields an average gain of 12.83% in terms of classification accuracy over the state of the art methods using STIP descriptors. The last but of great significance is that this article provides a way of automatically annotating long and composite real life videos. The source code of conLSH is made available at http://www.isical.ac.in/~bioinfo_miu/conLSH/conLSH.html","headline":"An Improved Video Analysis Using Context Based Extension Of LSH","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chakraborty2017an/"},"url":"https://learning2hash.github.io/publications/chakraborty2017an/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Locality Sensitive Hashing (LSH) based algorithms have already shown their promise in finding approximate nearest neighbors in high dimen- sional data space. However, there are certain scenarios, as in sequential data, where the proximity of a pair of points cannot be captured without considering their surroundings or context. In videos, as for example, a particular frame is meaningful only when it is seen in the context of its preceding and following frames. LSH has no mechanism to handle the con- texts of the data points. In this article, a novel scheme of Context based Locality Sensitive Hashing (conLSH) has been introduced, in which points are hashed together not only based on their closeness, but also because of similar context. The contribution made in this article is three fold. First, conLSH is integrated with a recently proposed fast optimal sequence alignment algorithm (FOGSAA) using a layered approach. The resultant method is applied to video retrieval for extracting similar sequences. The pro- posed algorithm yields more than 80% accuracy on an average in different datasets. It has been found to save 36.3% of the total time, consumed by the exhaustive search. conLSH reduces the search space to approximately 42% of the entire dataset, when compared with an exhaustive search by the aforementioned FOGSAA, Bag of Words method and the standard LSH implementations. Secondly, the effectiveness of conLSH is demon- strated in action recognition of the video clips, which yields an average gain of 12.83% in terms of classification accuracy over the state of the art methods using STIP descriptors. The last but of great significance is that this article provides a way of automatically annotating long and composite real life videos. The source code of conLSH is made available at http://www.isical.ac.in/~bioinfo_miu/conLSH/conLSH.html","headline":"An Improved Video Analysis Using Context Based Extension Of LSH","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chakraborty2017an/"},"url":"https://learning2hash.github.io/publications/chakraborty2017an/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -248,7 +248,6 @@ http://www.isical.ac.in/~bioinfo_miu/conLSH/conLSH.html</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -269,9 +268,9 @@ http://www.isical.ac.in/~bioinfo_miu/conLSH/conLSH.html</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -279,13 +278,21 @@ http://www.isical.ac.in/~bioinfo_miu/conLSH/conLSH.html</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -300,7 +307,6 @@ http://www.isical.ac.in/~bioinfo_miu/conLSH/conLSH.html</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -328,7 +334,7 @@ http://www.isical.ac.in/~bioinfo_miu/conLSH/conLSH.html</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

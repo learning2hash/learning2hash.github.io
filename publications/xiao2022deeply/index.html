@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/xiao2022deeply/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deeply Activated Salient Region For Instance Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"The performance of instance search depends heavily on the ability to locate and describe a wide variety of object instances in a video/image collection. Due to the lack of proper mechanism in locating instances and deriving feature representation, instance search is generally only effective for retrieving instances of known object categories. In this paper, a simple but effective instance-level feature representation is presented. Different from other approaches, the issues in class-agnostic instance localization and distinctive feature representation are considered. The former is achieved by detecting salient instance regions from an image by a layer-wise back-propagation process. The back-propagation starts from the last convolution layer of a pre-trained CNN that is originally used for classification. The back-propagation proceeds layer-by-layer until it reaches the input layer. This allows the salient instance regions in the input image from both known and unknown categories to be activated. Each activated salient region covers the full or more usually a major range of an instance. The distinctive feature representation is produced by average-pooling on the feature map of certain layer with the detected instance region. Experiments show that such kind of feature representation demonstrates considerably better performance over most of the existing approaches. In addition, we show that the proposed feature descriptor is also suitable for content-based image search.","headline":"Deeply Activated Salient Region For Instance Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xiao2022deeply/"},"url":"https://learning2hash.github.io/publications/xiao2022deeply/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"The performance of instance search depends heavily on the ability to locate and describe a wide variety of object instances in a video/image collection. Due to the lack of proper mechanism in locating instances and deriving feature representation, instance search is generally only effective for retrieving instances of known object categories. In this paper, a simple but effective instance-level feature representation is presented. Different from other approaches, the issues in class-agnostic instance localization and distinctive feature representation are considered. The former is achieved by detecting salient instance regions from an image by a layer-wise back-propagation process. The back-propagation starts from the last convolution layer of a pre-trained CNN that is originally used for classification. The back-propagation proceeds layer-by-layer until it reaches the input layer. This allows the salient instance regions in the input image from both known and unknown categories to be activated. Each activated salient region covers the full or more usually a major range of an instance. The distinctive feature representation is produced by average-pooling on the feature map of certain layer with the detected instance region. Experiments show that such kind of feature representation demonstrates considerably better performance over most of the existing approaches. In addition, we show that the proposed feature descriptor is also suitable for content-based image search.","headline":"Deeply Activated Salient Region For Instance Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xiao2022deeply/"},"url":"https://learning2hash.github.io/publications/xiao2022deeply/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -237,7 +237,6 @@ descriptor is also suitable for content-based image search.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -258,9 +257,9 @@ descriptor is also suitable for content-based image search.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -268,13 +267,21 @@ descriptor is also suitable for content-based image search.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -289,7 +296,6 @@ descriptor is also suitable for content-based image search.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -317,7 +323,7 @@ descriptor is also suitable for content-based image search.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

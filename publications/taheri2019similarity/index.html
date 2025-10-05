@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/taheri2019similarity/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Similarity-based Android Malware Detection Using Hamming Distance Of Static Binary Features" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"In this paper, we develop four malware detection methods using Hamming distance to find similarity between samples which are first nearest neighbors (FNN), all nearest neighbors (ANN), weighted all nearest neighbors (WANN), and k-medoid based nearest neighbors (KMNN). In our proposed methods, we can trigger the alarm if we detect an Android app is malicious. Hence, our solutions help us to avoid the spread of detected malware on a broader scale. We provide a detailed description of the proposed detection methods and related algorithms. We include an extensive analysis to asses the suitability of our proposed similarity-based detection methods. In this way, we perform our experiments on three datasets, including benign and malware Android apps like Drebin, Contagio, and Genome. Thus, to corroborate the actual effectiveness of our classifier, we carry out performance comparisons with some state-of-the-art classification and malware detection algorithms, namely Mixed and Separated solutions, the program dissimilarity measure based on entropy (PDME) and the FalDroid algorithms. We test our experiments in a different type of features: API, intent, and permission features on these three datasets. The results confirm that accuracy rates of proposed algorithms are more than 90% and in some cases (i.e., considering API features) are more than 99%, and are comparable with existing state-of-the-art solutions.","headline":"Similarity-based Android Malware Detection Using Hamming Distance Of Static Binary Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/taheri2019similarity/"},"url":"https://learning2hash.github.io/publications/taheri2019similarity/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"In this paper, we develop four malware detection methods using Hamming distance to find similarity between samples which are first nearest neighbors (FNN), all nearest neighbors (ANN), weighted all nearest neighbors (WANN), and k-medoid based nearest neighbors (KMNN). In our proposed methods, we can trigger the alarm if we detect an Android app is malicious. Hence, our solutions help us to avoid the spread of detected malware on a broader scale. We provide a detailed description of the proposed detection methods and related algorithms. We include an extensive analysis to asses the suitability of our proposed similarity-based detection methods. In this way, we perform our experiments on three datasets, including benign and malware Android apps like Drebin, Contagio, and Genome. Thus, to corroborate the actual effectiveness of our classifier, we carry out performance comparisons with some state-of-the-art classification and malware detection algorithms, namely Mixed and Separated solutions, the program dissimilarity measure based on entropy (PDME) and the FalDroid algorithms. We test our experiments in a different type of features: API, intent, and permission features on these three datasets. The results confirm that accuracy rates of proposed algorithms are more than 90% and in some cases (i.e., considering API features) are more than 99%, and are comparable with existing state-of-the-art solutions.","headline":"Similarity-based Android Malware Detection Using Hamming Distance Of Static Binary Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/taheri2019similarity/"},"url":"https://learning2hash.github.io/publications/taheri2019similarity/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -238,7 +238,6 @@ comparable with existing state-of-the-art solutions.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -259,9 +258,9 @@ comparable with existing state-of-the-art solutions.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -269,13 +268,21 @@ comparable with existing state-of-the-art solutions.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -290,7 +297,6 @@ comparable with existing state-of-the-art solutions.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -318,7 +324,7 @@ comparable with existing state-of-the-art solutions.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

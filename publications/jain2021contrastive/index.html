@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jain2021contrastive/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Contrastive Learning Of Visual-semantic Embeddings" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Contrastive learning is a powerful technique to learn representations that are semantically distinctive and geometrically invariant. While most of the earlier approaches have demonstrated its effectiveness on single-modality learning tasks such as image classification, recently there have been a few attempts towards extending this idea to multi-modal data. In this paper, we propose two loss functions based on normalized cross-entropy to perform the task of learning joint visual-semantic embedding using batch contrastive training. In a batch, for a given anchor point from one modality, we consider its negatives only from another modality, and define our first contrastive loss based on expected violations incurred by all the negatives. Next, we update this loss and define the second contrastive loss based on the violation incurred only by the hardest negative. We compare our results with existing visual-semantic embedding methods on cross-modal image-to-text and text-to-image retrieval tasks using the MS-COCO and Flickr30K datasets, where we outperform the state-of-the-art on the MS-COCO dataset and achieve comparable results on the Flickr30K dataset.","headline":"Contrastive Learning Of Visual-semantic Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jain2021contrastive/"},"url":"https://learning2hash.github.io/publications/jain2021contrastive/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Contrastive learning is a powerful technique to learn representations that are semantically distinctive and geometrically invariant. While most of the earlier approaches have demonstrated its effectiveness on single-modality learning tasks such as image classification, recently there have been a few attempts towards extending this idea to multi-modal data. In this paper, we propose two loss functions based on normalized cross-entropy to perform the task of learning joint visual-semantic embedding using batch contrastive training. In a batch, for a given anchor point from one modality, we consider its negatives only from another modality, and define our first contrastive loss based on expected violations incurred by all the negatives. Next, we update this loss and define the second contrastive loss based on the violation incurred only by the hardest negative. We compare our results with existing visual-semantic embedding methods on cross-modal image-to-text and text-to-image retrieval tasks using the MS-COCO and Flickr30K datasets, where we outperform the state-of-the-art on the MS-COCO dataset and achieve comparable results on the Flickr30K dataset.","headline":"Contrastive Learning Of Visual-semantic Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jain2021contrastive/"},"url":"https://learning2hash.github.io/publications/jain2021contrastive/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -239,7 +239,6 @@ comparable results on the Flickr30K dataset.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -260,9 +259,9 @@ comparable results on the Flickr30K dataset.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -270,13 +269,21 @@ comparable results on the Flickr30K dataset.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -291,7 +298,6 @@ comparable results on the Flickr30K dataset.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -319,7 +325,7 @@ comparable results on the Flickr30K dataset.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {

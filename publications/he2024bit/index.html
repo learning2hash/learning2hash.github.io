@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/he2024bit/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:15:29-05:00" />
+<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Bit-mask Robust Contrastive Knowledge Distillation For Unsupervised Semantic Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:15:29-05:00","datePublished":"2025-10-05T14:15:29-05:00","description":"Unsupervised semantic hashing has emerged as an indispensable technique for fast image search, which aims to convert images into binary hash codes without relying on labels. Recent advancements in the field demonstrate that employing large-scale backbones (e.g., ViT) in unsupervised semantic hashing models can yield substantial improvements. However, the inference delay has become increasingly difficult to overlook. Knowledge distillation provides a means for practical model compression to alleviate this delay. Nevertheless, the prevailing knowledge distillation approaches are not explicitly designed for semantic hashing. They ignore the unique search paradigm of semantic hashing, the inherent necessities of the distillation process, and the property of hash codes. In this paper, we propose an innovative Bit-mask Robust Contrastive knowledge Distillation (BRCD) method, specifically devised for the distillation of semantic hashing models. To ensure the effectiveness of two kinds of search paradigms in the context of semantic hashing, BRCD first aligns the semantic spaces between the teacher and student models through a contrastive knowledge distillation objective. Additionally, to eliminate noisy augmentations and ensure robust optimization, a cluster-based method within the knowledge distillation process is introduced. Furthermore, through a bit-level analysis, we uncover the presence of redundancy bits resulting from the bit independence property. To mitigate these effects, we introduce a bit mask mechanism in our knowledge distillation objective. Finally, extensive experiments not only showcase the noteworthy performance of our BRCD method in comparison to other knowledge distillation methods but also substantiate the generality of our methods across diverse semantic hashing models and backbones. The code for BRCD is available at https://github.com/hly1998/BRCD.","headline":"Bit-mask Robust Contrastive Knowledge Distillation For Unsupervised Semantic Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/he2024bit/"},"url":"https://learning2hash.github.io/publications/he2024bit/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Unsupervised semantic hashing has emerged as an indispensable technique for fast image search, which aims to convert images into binary hash codes without relying on labels. Recent advancements in the field demonstrate that employing large-scale backbones (e.g., ViT) in unsupervised semantic hashing models can yield substantial improvements. However, the inference delay has become increasingly difficult to overlook. Knowledge distillation provides a means for practical model compression to alleviate this delay. Nevertheless, the prevailing knowledge distillation approaches are not explicitly designed for semantic hashing. They ignore the unique search paradigm of semantic hashing, the inherent necessities of the distillation process, and the property of hash codes. In this paper, we propose an innovative Bit-mask Robust Contrastive knowledge Distillation (BRCD) method, specifically devised for the distillation of semantic hashing models. To ensure the effectiveness of two kinds of search paradigms in the context of semantic hashing, BRCD first aligns the semantic spaces between the teacher and student models through a contrastive knowledge distillation objective. Additionally, to eliminate noisy augmentations and ensure robust optimization, a cluster-based method within the knowledge distillation process is introduced. Furthermore, through a bit-level analysis, we uncover the presence of redundancy bits resulting from the bit independence property. To mitigate these effects, we introduce a bit mask mechanism in our knowledge distillation objective. Finally, extensive experiments not only showcase the noteworthy performance of our BRCD method in comparison to other knowledge distillation methods but also substantiate the generality of our methods across diverse semantic hashing models and backbones. The code for BRCD is available at https://github.com/hly1998/BRCD.","headline":"Bit-mask Robust Contrastive Knowledge Distillation For Unsupervised Semantic Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/he2024bit/"},"url":"https://learning2hash.github.io/publications/he2024bit/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,7 +252,6 @@ is available at https://github.com/hly1998/BRCD.</p>
   <h6>Similar Work</h6>
   <ul id="relwork"></ul>
 
-  <!-- Vanilla JS -->
   <script>
     document.addEventListener('DOMContentLoaded', function () {
       // Load similar work dynamically
@@ -273,9 +272,9 @@ is available at https://github.com/hly1998/BRCD.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share button logic
+      // Share logic
       const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent(document.title);
+      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
 
       const twitterBtn = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
@@ -283,13 +282,21 @@ is available at https://github.com/hly1998/BRCD.</p>
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          window.open(`https://twitter.com/intent/tweet?text=${pageTitle}&url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          window.open(
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`, '_blank', 'noopener,noreferrer');
+          // LinkedIn only supports URL shares (text prefill disallowed)
+          window.open(
+            `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
+            '_blank', 'noopener,noreferrer'
+          );
         });
       }
 
@@ -304,7 +311,6 @@ is available at https://github.com/hly1998/BRCD.</p>
     });
   </script>
 
-  <!-- Inline CSS -->
   <style>
     .share-buttons {
       display: flex;
@@ -332,7 +338,7 @@ is available at https://github.com/hly1998/BRCD.</p>
       width: 18px;
       height: 18px;
       opacity: 0.65;
-      display: block;        /* ✅ removes bottom space */
+      display: block; /* removes bottom space */
     }
 
     .icon-btn:hover {
