@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2024rreh/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="RREH: Reconstruction Relations Embedded Hashing For Semi-paired Cross-modal Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Known for efficient computation and easy storage, hashing has been extensively explored in cross-modal retrieval. The majority of current hashing models are predicated on the premise of a direct one-to-one mapping between data points. However, in real practice, data correspondence across modalities may be partially provided. In this research, we introduce an innovative unsupervised hashing technique designed for semi-paired cross-modal retrieval tasks, named Reconstruction Relations Embedded Hashing (RREH). RREH assumes that multi-modal data share a common subspace. For paired data, RREH explores the latent consistent information of heterogeneous modalities by seeking a shared representation. For unpaired data, to effectively capture the latent discriminative features, the high-order relationships between unpaired data and anchors are embedded into the latent subspace, which are computed by efficient linear reconstruction. The anchors are sampled from paired data, which improves the efficiency of hash learning. The RREH trains the underlying features and the binary encodings in a unified framework with high-order reconstruction relations preserved. With the well devised objective function and discrete optimization algorithm, RREH is designed to be scalable, making it suitable for large-scale datasets and facilitating efficient cross-modal retrieval. In the evaluation process, the proposed is tested with partially paired data to establish its superiority over several existing methods.","headline":"RREH: Reconstruction Relations Embedded Hashing For Semi-paired Cross-modal Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2024rreh/"},"url":"https://learning2hash.github.io/publications/wang2024rreh/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Known for efficient computation and easy storage, hashing has been extensively explored in cross-modal retrieval. The majority of current hashing models are predicated on the premise of a direct one-to-one mapping between data points. However, in real practice, data correspondence across modalities may be partially provided. In this research, we introduce an innovative unsupervised hashing technique designed for semi-paired cross-modal retrieval tasks, named Reconstruction Relations Embedded Hashing (RREH). RREH assumes that multi-modal data share a common subspace. For paired data, RREH explores the latent consistent information of heterogeneous modalities by seeking a shared representation. For unpaired data, to effectively capture the latent discriminative features, the high-order relationships between unpaired data and anchors are embedded into the latent subspace, which are computed by efficient linear reconstruction. The anchors are sampled from paired data, which improves the efficiency of hash learning. The RREH trains the underlying features and the binary encodings in a unified framework with high-order reconstruction relations preserved. With the well devised objective function and discrete optimization algorithm, RREH is designed to be scalable, making it suitable for large-scale datasets and facilitating efficient cross-modal retrieval. In the evaluation process, the proposed is tested with partially paired data to establish its superiority over several existing methods.","headline":"RREH: Reconstruction Relations Embedded Hashing For Semi-paired Cross-modal Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2024rreh/"},"url":"https://learning2hash.github.io/publications/wang2024rreh/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -271,19 +271,41 @@ establish its superiority over several existing methods.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "RREH: Reconstruction Relations Embedded Hashing For Semi-paired Cross-modal Retrieval",
+        conference: "Lecture Notes in Computer Science",
+        year: 2024,
+        tags: ["Datasets","Efficiency","Evaluation","Hashing Methods","Multimodal Retrieval","Scalability","Supervised","Tools & Libraries","Unsupervised"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -291,7 +313,7 @@ establish its superiority over several existing methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

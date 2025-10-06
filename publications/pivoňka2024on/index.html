@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/pivo%C5%88ka2024on/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="On Model-free Re-ranking For Visual Place Recognition With Deep Learned Local Features" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Re-ranking is the second stage of a visual place recognition task, in which the system chooses the best-matching images from a pre-selected subset of candidates. Model-free approaches compute the image pair similarity based on a spatial comparison of corresponding local visual features, eliminating the need for computationally expensive estimation of a model describing transformation between images. The article focuses on model-free re-ranking based on standard local visual features and their applicability in long-term autonomy systems. It introduces three new model-free re-ranking methods that were designed primarily for deep-learned local visual features. These features evince high robustness to various appearance changes, which stands as a crucial property for use with long-term autonomy systems. All the introduced methods were employed in a new visual place recognition system together with the D2-net feature detector (Dusmanu, 2019) and experimentally tested with diverse, challenging public datasets. The obtained results are on par with current state-of-the-art methods, affirming that model-free approaches are a viable and worthwhile path for long-term visual place recognition.","headline":"On Model-free Re-ranking For Visual Place Recognition With Deep Learned Local Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pivo%C5%88ka2024on/"},"url":"https://learning2hash.github.io/publications/pivo%C5%88ka2024on/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Re-ranking is the second stage of a visual place recognition task, in which the system chooses the best-matching images from a pre-selected subset of candidates. Model-free approaches compute the image pair similarity based on a spatial comparison of corresponding local visual features, eliminating the need for computationally expensive estimation of a model describing transformation between images. The article focuses on model-free re-ranking based on standard local visual features and their applicability in long-term autonomy systems. It introduces three new model-free re-ranking methods that were designed primarily for deep-learned local visual features. These features evince high robustness to various appearance changes, which stands as a crucial property for use with long-term autonomy systems. All the introduced methods were employed in a new visual place recognition system together with the D2-net feature detector (Dusmanu, 2019) and experimentally tested with diverse, challenging public datasets. The obtained results are on par with current state-of-the-art methods, affirming that model-free approaches are a viable and worthwhile path for long-term visual place recognition.","headline":"On Model-free Re-ranking For Visual Place Recognition With Deep Learned Local Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pivo%C5%88ka2024on/"},"url":"https://learning2hash.github.io/publications/pivo%C5%88ka2024on/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,19 +259,41 @@ for long-term visual place recognition.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "On Model-free Re-ranking For Visual Place Recognition With Deep Learned Local Features",
+        conference: "IEEE Transactions on Intelligent Vehicles",
+        year: 2024,
+        tags: ["Datasets","Evaluation","Hybrid ANN Methods","Re-Ranking","Robustness"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -279,7 +301,7 @@ for long-term visual place recognition.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

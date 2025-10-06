@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ying2018graph/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Graph Convolutional Neural Networks For Web-scale Recommender Systems" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Recent advancements in deep neural networks for graph-structured data have led to state-of-the-art performance on recommender system benchmarks. However, making these methods practical and scalable to web-scale recommendation tasks with billions of items and hundreds of millions of users remains a challenge. Here we describe a large-scale deep recommendation engine that we developed and deployed at Pinterest. We develop a data-efficient Graph Convolutional Network (GCN) algorithm PinSage, which combines efficient random walks and graph convolutions to generate embeddings of nodes (i.e., items) that incorporate both graph structure as well as node feature information. Compared to prior GCN approaches, we develop a novel method based on highly efficient random walks to structure the convolutions and design a novel training strategy that relies on harder-and-harder training examples to improve robustness and convergence of the model. We also develop an efficient MapReduce model inference algorithm to generate embeddings using a trained model. We deploy PinSage at Pinterest and train it on 7.5 billion examples on a graph with 3 billion nodes representing pins and boards, and 18 billion edges. According to offline metrics, user studies and A/B tests, PinSage generates higher-quality recommendations than comparable deep learning and graph-based alternatives. To our knowledge, this is the largest application of deep graph embeddings to date and paves the way for a new generation of web-scale recommender systems based on graph convolutional architectures.","headline":"Graph Convolutional Neural Networks For Web-scale Recommender Systems","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ying2018graph/"},"url":"https://learning2hash.github.io/publications/ying2018graph/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Recent advancements in deep neural networks for graph-structured data have led to state-of-the-art performance on recommender system benchmarks. However, making these methods practical and scalable to web-scale recommendation tasks with billions of items and hundreds of millions of users remains a challenge. Here we describe a large-scale deep recommendation engine that we developed and deployed at Pinterest. We develop a data-efficient Graph Convolutional Network (GCN) algorithm PinSage, which combines efficient random walks and graph convolutions to generate embeddings of nodes (i.e., items) that incorporate both graph structure as well as node feature information. Compared to prior GCN approaches, we develop a novel method based on highly efficient random walks to structure the convolutions and design a novel training strategy that relies on harder-and-harder training examples to improve robustness and convergence of the model. We also develop an efficient MapReduce model inference algorithm to generate embeddings using a trained model. We deploy PinSage at Pinterest and train it on 7.5 billion examples on a graph with 3 billion nodes representing pins and boards, and 18 billion edges. According to offline metrics, user studies and A/B tests, PinSage generates higher-quality recommendations than comparable deep learning and graph-based alternatives. To our knowledge, this is the largest application of deep graph embeddings to date and paves the way for a new generation of web-scale recommender systems based on graph convolutional architectures.","headline":"Graph Convolutional Neural Networks For Web-scale Recommender Systems","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ying2018graph/"},"url":"https://learning2hash.github.io/publications/ying2018graph/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -270,19 +270,41 @@ convolutional architectures.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Graph Convolutional Neural Networks For Web-scale Recommender Systems",
+        conference: "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining",
+        year: 2018,
+        tags: ["Evaluation","Graph Based ANN","KDD","Large Scale Search","Neural Hashing","Recommender Systems","Robustness","Scalability"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -290,7 +312,7 @@ convolutional architectures.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

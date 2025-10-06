@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/fan2025synergizing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Synergizing Implicit And Explicit User Interests: A Multi-embedding Retrieval Framework At Pinterest" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Industrial recommendation systems are typically composed of multiple stages, including retrieval, ranking, and blending. The retrieval stage plays a critical role in generating a high-recall set of candidate items that covers a wide range of diverse user interests. Effectively covering the diverse and long-tail user interests within this stage poses a significant challenge: traditional two-tower models struggle in this regard due to limited user-item feature interaction and often bias towards top use cases. To address these issues, we propose a novel multi-embedding retrieval framework designed to enhance user interest representation by generating multiple user embeddings conditioned on both implicit and explicit user interests. Implicit interests are captured from user history through a Differentiable Clustering Module (DCM), whereas explicit interests, such as topics that the user has followed, are modeled via Conditional Retrieval (CR). These methodologies represent a form of conditioned user representation learning that involves condition representation construction and associating the target item with the relevant conditions. Synergizing implicit and explicit user interests serves as a complementary approach to achieve more effective and comprehensive candidate retrieval as they benefit on different user segments and extract conditions from different but supplementary sources. Extensive experiments and A/B testing reveal significant improvements in user engagements and feed diversity metrics. Our proposed framework has been successfully deployed on Pinterest home feed.","headline":"Synergizing Implicit And Explicit User Interests: A Multi-embedding Retrieval Framework At Pinterest","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fan2025synergizing/"},"url":"https://learning2hash.github.io/publications/fan2025synergizing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Industrial recommendation systems are typically composed of multiple stages, including retrieval, ranking, and blending. The retrieval stage plays a critical role in generating a high-recall set of candidate items that covers a wide range of diverse user interests. Effectively covering the diverse and long-tail user interests within this stage poses a significant challenge: traditional two-tower models struggle in this regard due to limited user-item feature interaction and often bias towards top use cases. To address these issues, we propose a novel multi-embedding retrieval framework designed to enhance user interest representation by generating multiple user embeddings conditioned on both implicit and explicit user interests. Implicit interests are captured from user history through a Differentiable Clustering Module (DCM), whereas explicit interests, such as topics that the user has followed, are modeled via Conditional Retrieval (CR). These methodologies represent a form of conditioned user representation learning that involves condition representation construction and associating the target item with the relevant conditions. Synergizing implicit and explicit user interests serves as a complementary approach to achieve more effective and comprehensive candidate retrieval as they benefit on different user segments and extract conditions from different but supplementary sources. Extensive experiments and A/B testing reveal significant improvements in user engagements and feed diversity metrics. Our proposed framework has been successfully deployed on Pinterest home feed.","headline":"Synergizing Implicit And Explicit User Interests: A Multi-embedding Retrieval Framework At Pinterest","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fan2025synergizing/"},"url":"https://learning2hash.github.io/publications/fan2025synergizing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -242,19 +242,41 @@ document.addEventListener('DOMContentLoaded', function () {
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Synergizing Implicit And Explicit User Interests: A Multi-embedding Retrieval Framework At Pinterest",
+        conference: "Proceedings of the 31st ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+        year: 2025,
+        tags: ["Evaluation","KDD","Recommender Systems","Tools & Libraries"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -262,7 +284,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

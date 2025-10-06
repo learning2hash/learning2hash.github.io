@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/xing2022multimorbidity/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multimorbidity Content-based Medical Image Retrieval Using Proxies" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Content-based medical image retrieval is an important diagnostic tool that improves the explainability of computer-aided diagnosis systems and provides decision making support to healthcare professionals. Medical imaging data, such as radiology images, are often multimorbidity; a single sample may have more than one pathology present. As such, image retrieval systems for the medical domain must be designed for the multi-label scenario. In this paper, we propose a novel multi-label metric learning method that can be used for both classification and content-based image retrieval. In this way, our model is able to support diagnosis by predicting the presence of diseases and provide evidence for these predictions by returning samples with similar pathological content to the user. In practice, the retrieved images may also be accompanied by pathology reports, further assisting in the diagnostic process. Our method leverages proxy feature vectors, enabling the efficient learning of a robust feature space in which the distance between feature vectors can be used as a measure of the similarity of those samples. Unlike existing proxy-based methods, training samples are able to assign to multiple proxies that span multiple class labels. This multi-label proxy assignment results in a feature space that encodes the complex relationships between diseases present in medical imaging data. Our method outperforms state-of-the-art image retrieval systems and a set of baseline approaches. We demonstrate the efficacy of our approach to both classification and content-based image retrieval on two multimorbidity radiology datasets.","headline":"Multimorbidity Content-based Medical Image Retrieval Using Proxies","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xing2022multimorbidity/"},"url":"https://learning2hash.github.io/publications/xing2022multimorbidity/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Content-based medical image retrieval is an important diagnostic tool that improves the explainability of computer-aided diagnosis systems and provides decision making support to healthcare professionals. Medical imaging data, such as radiology images, are often multimorbidity; a single sample may have more than one pathology present. As such, image retrieval systems for the medical domain must be designed for the multi-label scenario. In this paper, we propose a novel multi-label metric learning method that can be used for both classification and content-based image retrieval. In this way, our model is able to support diagnosis by predicting the presence of diseases and provide evidence for these predictions by returning samples with similar pathological content to the user. In practice, the retrieved images may also be accompanied by pathology reports, further assisting in the diagnostic process. Our method leverages proxy feature vectors, enabling the efficient learning of a robust feature space in which the distance between feature vectors can be used as a measure of the similarity of those samples. Unlike existing proxy-based methods, training samples are able to assign to multiple proxies that span multiple class labels. This multi-label proxy assignment results in a feature space that encodes the complex relationships between diseases present in medical imaging data. Our method outperforms state-of-the-art image retrieval systems and a set of baseline approaches. We demonstrate the efficacy of our approach to both classification and content-based image retrieval on two multimorbidity radiology datasets.","headline":"Multimorbidity Content-based Medical Image Retrieval Using Proxies","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xing2022multimorbidity/"},"url":"https://learning2hash.github.io/publications/xing2022multimorbidity/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,19 +261,41 @@ multimorbidity radiology datasets.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Multimorbidity Content-based Medical Image Retrieval Using Proxies",
+        conference: "Arxiv",
+        year: 2022,
+        tags: ["Datasets","Distance Metric Learning","Image Retrieval"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -281,7 +303,7 @@ multimorbidity radiology datasets.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

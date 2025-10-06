@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/pan2020tcdesc/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Tcdesc: Learning Topology Consistent Descriptors" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Triplet loss is widely used for learning local descriptors from image patch. However, triplet loss only minimizes the Euclidean distance between matching descriptors and maximizes that between the non-matching descriptors, which neglects the topology similarity between two descriptor sets. In this paper, we propose topology measure besides Euclidean distance to learn topology consistent descriptors by considering kNN descriptors of positive sample. First we establish a novel topology vector for each descriptor followed by Locally Linear Embedding (LLE) to indicate the topological relation among the descriptor and its kNN descriptors. Then we define topology distance between descriptors as the difference of their topology vectors. Last we employ the dynamic weighting strategy to fuse Euclidean distance and topology distance of matching descriptors and take the fusion result as the positive sample distance in the triplet loss. Experimental results on several benchmarks show that our method performs better than state-of-the-arts results and effectively improves the performance of triplet loss.","headline":"Tcdesc: Learning Topology Consistent Descriptors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pan2020tcdesc/"},"url":"https://learning2hash.github.io/publications/pan2020tcdesc/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Triplet loss is widely used for learning local descriptors from image patch. However, triplet loss only minimizes the Euclidean distance between matching descriptors and maximizes that between the non-matching descriptors, which neglects the topology similarity between two descriptor sets. In this paper, we propose topology measure besides Euclidean distance to learn topology consistent descriptors by considering kNN descriptors of positive sample. First we establish a novel topology vector for each descriptor followed by Locally Linear Embedding (LLE) to indicate the topological relation among the descriptor and its kNN descriptors. Then we define topology distance between descriptors as the difference of their topology vectors. Last we employ the dynamic weighting strategy to fuse Euclidean distance and topology distance of matching descriptors and take the fusion result as the positive sample distance in the triplet loss. Experimental results on several benchmarks show that our method performs better than state-of-the-arts results and effectively improves the performance of triplet loss.","headline":"Tcdesc: Learning Topology Consistent Descriptors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pan2020tcdesc/"},"url":"https://learning2hash.github.io/publications/pan2020tcdesc/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,19 +252,41 @@ the performance of triplet loss.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Tcdesc: Learning Topology Consistent Descriptors",
+        conference: "Arxiv",
+        year: 2020,
+        tags: ["Distance Metric Learning","Evaluation"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -272,7 +294,7 @@ the performance of triplet loss.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

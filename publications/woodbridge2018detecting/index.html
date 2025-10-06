@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/woodbridge2018detecting/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Detecting Homoglyph Attacks With A Siamese Neural Network" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"A homoglyph (name spoofing) attack is a common technique used by adversaries to obfuscate file and domain names. This technique creates process or domain names that are visually similar to legitimate and recognized names. For instance, an attacker may create malware with the name svch0st.exe so that in a visual inspection of running processes or a directory listing, the process or file name might be mistaken as the Windows system process svchost.exe. There has been limited published research on detecting homoglyph attacks. Current approaches rely on string comparison algorithms (such as Levenshtein distance) that result in computationally heavy solutions with a high number of false positives. In addition, there is a deficiency in the number of publicly available datasets for reproducible research, with most datasets focused on phishing attacks, in which homoglyphs are not always used. This paper presents a fundamentally different solution to this problem using a Siamese convolutional neural network (CNN). Rather than leveraging similarity based on character swaps and deletions, this technique uses a learned metric on strings rendered as images: a CNN learns features that are optimized to detect visual similarity of the rendered strings. The trained model is used to convert thousands of potentially targeted process or domain names to feature vectors. These feature vectors are indexed using randomized KD-Trees to make similarity searches extremely fast with minimal computational processing. This technique shows a considerable 13% to 45% improvement over baseline techniques in terms of area under the receiver operating characteristic curve (ROC AUC). In addition, we provide both code and data to further future research.","headline":"Detecting Homoglyph Attacks With A Siamese Neural Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/woodbridge2018detecting/"},"url":"https://learning2hash.github.io/publications/woodbridge2018detecting/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"A homoglyph (name spoofing) attack is a common technique used by adversaries to obfuscate file and domain names. This technique creates process or domain names that are visually similar to legitimate and recognized names. For instance, an attacker may create malware with the name svch0st.exe so that in a visual inspection of running processes or a directory listing, the process or file name might be mistaken as the Windows system process svchost.exe. There has been limited published research on detecting homoglyph attacks. Current approaches rely on string comparison algorithms (such as Levenshtein distance) that result in computationally heavy solutions with a high number of false positives. In addition, there is a deficiency in the number of publicly available datasets for reproducible research, with most datasets focused on phishing attacks, in which homoglyphs are not always used. This paper presents a fundamentally different solution to this problem using a Siamese convolutional neural network (CNN). Rather than leveraging similarity based on character swaps and deletions, this technique uses a learned metric on strings rendered as images: a CNN learns features that are optimized to detect visual similarity of the rendered strings. The trained model is used to convert thousands of potentially targeted process or domain names to feature vectors. These feature vectors are indexed using randomized KD-Trees to make similarity searches extremely fast with minimal computational processing. This technique shows a considerable 13% to 45% improvement over baseline techniques in terms of area under the receiver operating characteristic curve (ROC AUC). In addition, we provide both code and data to further future research.","headline":"Detecting Homoglyph Attacks With A Siamese Neural Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/woodbridge2018detecting/"},"url":"https://learning2hash.github.io/publications/woodbridge2018detecting/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,19 +262,41 @@ addition, we provide both code and data to further future research.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Detecting Homoglyph Attacks With A Siamese Neural Network",
+        conference: "2018 IEEE Security and Privacy Workshops (SPW)",
+        year: 2018,
+        tags: ["Datasets","Evaluation","Tree Based ANN"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -282,7 +304,7 @@ addition, we provide both code and data to further future research.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

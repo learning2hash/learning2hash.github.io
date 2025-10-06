@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhu2020dual/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Dual-level Semantic Transfer Deep Hashing For Efficient Social Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Social network stores and disseminates a tremendous amount of user shared images. Deep hashing is an efficient indexing technique to support large-scale social image retrieval, due to its deep representation capability, fast retrieval speed and low storage cost. Particularly, unsupervised deep hashing has well scalability as it does not require any manually labelled data for training. However, owing to the lacking of label guidance, existing methods suffer from severe semantic shortage when optimizing a large amount of deep neural network parameters. Differently, in this paper, we propose a Dual-level Semantic Transfer Deep Hashing (DSTDH) method to alleviate this problem with a unified deep hash learning framework. Our model targets at learning the semantically enhanced deep hash codes by specially exploiting the user-generated tags associated with the social images. Specifically, we design a complementary dual-level semantic transfer mechanism to efficiently discover the potential semantics of tags and seamlessly transfer them into binary hash codes. On the one hand, instance-level semantics are directly preserved into hash codes from the associated tags with adverse noise removing. Besides, an image-concept hypergraph is constructed for indirectly transferring the latent high-order semantic correlations of images and tags into hash codes. Moreover, the hash codes are obtained simultaneously with the deep representation learning by the discrete hash optimization strategy. Extensive experiments on two public social image retrieval datasets validate the superior performance of our method compared with state-of-the-art hashing methods. The source codes of our method can be obtained at https://github.com/research2020-1/DSTDH","headline":"Dual-level Semantic Transfer Deep Hashing For Efficient Social Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2020dual/"},"url":"https://learning2hash.github.io/publications/zhu2020dual/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Social network stores and disseminates a tremendous amount of user shared images. Deep hashing is an efficient indexing technique to support large-scale social image retrieval, due to its deep representation capability, fast retrieval speed and low storage cost. Particularly, unsupervised deep hashing has well scalability as it does not require any manually labelled data for training. However, owing to the lacking of label guidance, existing methods suffer from severe semantic shortage when optimizing a large amount of deep neural network parameters. Differently, in this paper, we propose a Dual-level Semantic Transfer Deep Hashing (DSTDH) method to alleviate this problem with a unified deep hash learning framework. Our model targets at learning the semantically enhanced deep hash codes by specially exploiting the user-generated tags associated with the social images. Specifically, we design a complementary dual-level semantic transfer mechanism to efficiently discover the potential semantics of tags and seamlessly transfer them into binary hash codes. On the one hand, instance-level semantics are directly preserved into hash codes from the associated tags with adverse noise removing. Besides, an image-concept hypergraph is constructed for indirectly transferring the latent high-order semantic correlations of images and tags into hash codes. Moreover, the hash codes are obtained simultaneously with the deep representation learning by the discrete hash optimization strategy. Extensive experiments on two public social image retrieval datasets validate the superior performance of our method compared with state-of-the-art hashing methods. The source codes of our method can be obtained at https://github.com/research2020-1/DSTDH","headline":"Dual-level Semantic Transfer Deep Hashing For Efficient Social Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2020dual/"},"url":"https://learning2hash.github.io/publications/zhu2020dual/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -276,19 +276,41 @@ our method can be obtained at https://github.com/research2020-1/DSTDH</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Dual-level Semantic Transfer Deep Hashing For Efficient Social Image Retrieval",
+        conference: "IEEE Transactions on Circuits and Systems for Video Technology",
+        year: 2020,
+        tags: ["Datasets","Evaluation","Hashing Methods","Image Retrieval","Memory Efficiency","Neural Hashing","Scalability","Tools & Libraries","Unsupervised"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -296,7 +318,7 @@ our method can be obtained at https://github.com/research2020-1/DSTDH</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

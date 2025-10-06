@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/johnson2018person/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Person Re-identification With Fusion Of Hand-crafted And Deep Pose-based Body Region Features" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Person re-identification (re-ID) aims to accurately re- trieve a person from a large-scale database of images cap- tured across multiple cameras. Existing works learn deep representations using a large training subset of unique per- sons. However, identifying unseen persons is critical for a good re-ID algorithm. Moreover, the misalignment be- tween person crops to detection errors or pose variations leads to poor feature matching. In this work, we present a fusion of handcrafted features and deep feature representa- tion learned using multiple body parts to complement the global body features that achieves high performance on un- seen test images. Pose information is used to detect body regions that are passed through Convolutional Neural Net- works (CNN) to guide feature learning. Finally, a metric learning step enables robust distance matching on a dis- criminative subspace. Experimental results on 4 popular re-ID benchmark datasets namely VIPer, DukeMTMC-reID, Market-1501 and CUHK03 show that the proposed method achieves state-of-the-art performance in image-based per- son re-identification.","headline":"Person Re-identification With Fusion Of Hand-crafted And Deep Pose-based Body Region Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/johnson2018person/"},"url":"https://learning2hash.github.io/publications/johnson2018person/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Person re-identification (re-ID) aims to accurately re- trieve a person from a large-scale database of images cap- tured across multiple cameras. Existing works learn deep representations using a large training subset of unique per- sons. However, identifying unseen persons is critical for a good re-ID algorithm. Moreover, the misalignment be- tween person crops to detection errors or pose variations leads to poor feature matching. In this work, we present a fusion of handcrafted features and deep feature representa- tion learned using multiple body parts to complement the global body features that achieves high performance on un- seen test images. Pose information is used to detect body regions that are passed through Convolutional Neural Net- works (CNN) to guide feature learning. Finally, a metric learning step enables robust distance matching on a dis- criminative subspace. Experimental results on 4 popular re-ID benchmark datasets namely VIPer, DukeMTMC-reID, Market-1501 and CUHK03 show that the proposed method achieves state-of-the-art performance in image-based per- son re-identification.","headline":"Person Re-identification With Fusion Of Hand-crafted And Deep Pose-based Body Region Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/johnson2018person/"},"url":"https://learning2hash.github.io/publications/johnson2018person/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,19 +256,41 @@ image-based per- son re-identification.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Person Re-identification With Fusion Of Hand-crafted And Deep Pose-based Body Region Features",
+        conference: "Arxiv",
+        year: 2018,
+        tags: ["Datasets","Distance Metric Learning","Evaluation","Scalability"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -276,7 +298,7 @@ image-based per- son re-identification.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

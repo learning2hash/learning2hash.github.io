@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/singh2020ihashnet/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Ihashnet: Iris Hashing Network Based On Efficient Multi-index Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Massive biometric deployments are pervasive in today’s world. But despite the high accuracy of biometric systems, their computational efficiency degrades drastically with an increase in the database size. Thus, it is essential to index them. An ideal indexing scheme needs to generate codes that preserve the intra-subject similarity as well as inter-subject dissimilarity. Here, in this paper, we propose an iris indexing scheme using real-valued deep iris features binarized to iris bar codes (IBC) compatible with the indexing structure. Firstly, for extracting robust iris features, we have designed a network utilizing the domain knowledge of ordinal filtering and learning their nonlinear combinations. Later these real-valued features are binarized. Finally, for indexing the iris dataset, we have proposed a loss that can transform the binary feature into an improved feature compatible with the Multi-Index Hashing scheme. This loss function ensures the hamming distance equally distributed among all the contiguous disjoint sub-strings. To the best of our knowledge, this is the first work in the iris indexing domain that presents an end-to-end iris indexing structure. Experimental results on four datasets are presented to depict the efficacy of the proposed approach.","headline":"Ihashnet: Iris Hashing Network Based On Efficient Multi-index Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/singh2020ihashnet/"},"url":"https://learning2hash.github.io/publications/singh2020ihashnet/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Massive biometric deployments are pervasive in today’s world. But despite the high accuracy of biometric systems, their computational efficiency degrades drastically with an increase in the database size. Thus, it is essential to index them. An ideal indexing scheme needs to generate codes that preserve the intra-subject similarity as well as inter-subject dissimilarity. Here, in this paper, we propose an iris indexing scheme using real-valued deep iris features binarized to iris bar codes (IBC) compatible with the indexing structure. Firstly, for extracting robust iris features, we have designed a network utilizing the domain knowledge of ordinal filtering and learning their nonlinear combinations. Later these real-valued features are binarized. Finally, for indexing the iris dataset, we have proposed a loss that can transform the binary feature into an improved feature compatible with the Multi-Index Hashing scheme. This loss function ensures the hamming distance equally distributed among all the contiguous disjoint sub-strings. To the best of our knowledge, this is the first work in the iris indexing domain that presents an end-to-end iris indexing structure. Experimental results on four datasets are presented to depict the efficacy of the proposed approach.","headline":"Ihashnet: Iris Hashing Network Based On Efficient Multi-index Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/singh2020ihashnet/"},"url":"https://learning2hash.github.io/publications/singh2020ihashnet/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -258,19 +258,41 @@ datasets are presented to depict the efficacy of the proposed approach.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Ihashnet: Iris Hashing Network Based On Efficient Multi-index Hashing",
+        conference: "2020 IEEE International Joint Conference on Biometrics (IJCB)",
+        year: 2020,
+        tags: ["Datasets","Efficiency","Hashing Methods","Vector Indexing"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -278,7 +300,7 @@ datasets are presented to depict the efficacy of the proposed approach.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

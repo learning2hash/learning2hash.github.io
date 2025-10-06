@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/amrouche2021hashing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hashing And Metric Learning For Charged Particle Tracking" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"We propose a novel approach to charged particle tracking at high intensity particle colliders based on Approximate Nearest Neighbors search. With hundreds of thousands of measurements per collision to be reconstructed e.g. at the High Luminosity Large Hadron Collider, the currently employed combinatorial track finding approaches become inadequate. Here, we use hashing techniques to separate measurements into buckets of 20-50 hits and increase their purity using metric learning. Two different approaches are studied to further resolve tracks inside buckets: Local Fisher Discriminant Analysis and Neural Networks for triplet similarity learning. We demonstrate the proposed approach on simulated collisions and show significant speed improvement with bucket tracking efficiency of 96% and a fake rate of 8% on unseen particle events.","headline":"Hashing And Metric Learning For Charged Particle Tracking","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/amrouche2021hashing/"},"url":"https://learning2hash.github.io/publications/amrouche2021hashing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"We propose a novel approach to charged particle tracking at high intensity particle colliders based on Approximate Nearest Neighbors search. With hundreds of thousands of measurements per collision to be reconstructed e.g. at the High Luminosity Large Hadron Collider, the currently employed combinatorial track finding approaches become inadequate. Here, we use hashing techniques to separate measurements into buckets of 20-50 hits and increase their purity using metric learning. Two different approaches are studied to further resolve tracks inside buckets: Local Fisher Discriminant Analysis and Neural Networks for triplet similarity learning. We demonstrate the proposed approach on simulated collisions and show significant speed improvement with bucket tracking efficiency of 96% and a fake rate of 8% on unseen particle events.","headline":"Hashing And Metric Learning For Charged Particle Tracking","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/amrouche2021hashing/"},"url":"https://learning2hash.github.io/publications/amrouche2021hashing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -250,19 +250,41 @@ tracking efficiency of 96% and a fake rate of 8% on unseen particle events.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Hashing And Metric Learning For Charged Particle Tracking",
+        conference: "Arxiv",
+        year: 2021,
+        tags: ["Distance Metric Learning","Efficiency","Hashing Methods"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -270,7 +292,7 @@ tracking efficiency of 96% and a fake rate of 8% on unseen particle events.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

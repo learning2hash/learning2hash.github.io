@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dong2018a/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Generalized Approach For Cancellable Template And Its Realization For Minutia Cylinder-code" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Hashing technology gains much attention in protecting the biometric template lately. For instance, Index-of-Max (IoM), a recent reported hashing technique, is a ranking-based locality sensitive hashing technique, which illustrates the feasibility to protect the ordered and fixed-length biometric template. However, biometric templates are not always in the form of ordered and fixed-length, rather it may be an unordered and variable size point set e.g. fingerprint minutiae, which restricts the usage of the traditional hashing technology. In this paper, we proposed a generalized version of IoM hashing namely gIoM, and therefore the unordered and variable size biometric template can be used. We demonstrate a realization using a well-known variable size feature vector, fingerprint Minutia Cylinder-Code (MCC). The gIoM transforms MCC into index domain to form indexing-based feature representation. Consequently, the inversion of MCC from the transformed representation is computational infeasible, thus to achieve non-invertibility while the performance is preserved. Public fingerprint databases FVC2002 and FVC2004 are employed for experiment as benchmark to demonstrate a fair comparison with other methods. Moreover, the security and privacy analysis suggest that gIoM meets the criteria of template protection: non-invertibility, revocability, and non-linkability.","headline":"A Generalized Approach For Cancellable Template And Its Realization For Minutia Cylinder-code","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2018a/"},"url":"https://learning2hash.github.io/publications/dong2018a/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Hashing technology gains much attention in protecting the biometric template lately. For instance, Index-of-Max (IoM), a recent reported hashing technique, is a ranking-based locality sensitive hashing technique, which illustrates the feasibility to protect the ordered and fixed-length biometric template. However, biometric templates are not always in the form of ordered and fixed-length, rather it may be an unordered and variable size point set e.g. fingerprint minutiae, which restricts the usage of the traditional hashing technology. In this paper, we proposed a generalized version of IoM hashing namely gIoM, and therefore the unordered and variable size biometric template can be used. We demonstrate a realization using a well-known variable size feature vector, fingerprint Minutia Cylinder-Code (MCC). The gIoM transforms MCC into index domain to form indexing-based feature representation. Consequently, the inversion of MCC from the transformed representation is computational infeasible, thus to achieve non-invertibility while the performance is preserved. Public fingerprint databases FVC2002 and FVC2004 are employed for experiment as benchmark to demonstrate a fair comparison with other methods. Moreover, the security and privacy analysis suggest that gIoM meets the criteria of template protection: non-invertibility, revocability, and non-linkability.","headline":"A Generalized Approach For Cancellable Template And Its Realization For Minutia Cylinder-code","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2018a/"},"url":"https://learning2hash.github.io/publications/dong2018a/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -258,19 +258,41 @@ non-linkability.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "A Generalized Approach For Cancellable Template And Its Realization For Minutia Cylinder-code",
+        conference: "2018 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)",
+        year: 2018,
+        tags: ["Evaluation","Hashing Methods","Locality-Sensitive-Hashing"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -278,7 +300,7 @@ non-linkability.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

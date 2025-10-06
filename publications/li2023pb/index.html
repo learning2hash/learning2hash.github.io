@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2023pb/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Pb-hash: Partitioned B-bit Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Many hashing algorithms including minwise hashing (MinHash), one permutation hashing (OPH), and consistent weighted sampling (CWS) generate integers of (B) bits. With (k) hashes for each data vector, the storage would be (B\\times k) bits; and when used for large-scale learning, the model size would be (2^B\\times k), which can be expensive. A standard strategy is to use only the lowest (b) bits out of the (B) bits and somewhat increase (k), the number of hashes. In this study, we propose to re-use the hashes by partitioning the (B) bits into (m) chunks, e.g., (b\\times m =B). Correspondingly, the model size becomes (m\\times 2^b \\times k), which can be substantially smaller than the original (2^B\\times k). Our theoretical analysis reveals that by partitioning the hash values into (m) chunks, the accuracy would drop. In other words, using (m) chunks of (B/m) bits would not be as accurate as directly using (B) bits. This is due to the correlation from re-using the same hash. On the other hand, our analysis also shows that the accuracy would not drop much for (e.g.,) (m=2\\sim 4). In some regions, Pb-Hash still works well even for (m) much larger than 4. We expect Pb-Hash would be a good addition to the family of hashing methods/applications and benefit industrial practitioners. We verify the effectiveness of Pb-Hash in machine learning tasks, for linear SVM models as well as deep learning models. Since the hashed data are essentially categorical (ID) features, we follow the standard practice of using embedding tables for each hash. With Pb-Hash, we need to design an effective strategy to combine (m) embeddings. Our study provides an empirical evaluation on four pooling schemes: concatenation, max pooling, mean pooling, and product pooling. There is no definite answer which pooling would be always better and we leave that for future study.","headline":"Pb-hash: Partitioned B-bit Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2023pb/"},"url":"https://learning2hash.github.io/publications/li2023pb/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Many hashing algorithms including minwise hashing (MinHash), one permutation hashing (OPH), and consistent weighted sampling (CWS) generate integers of (B) bits. With (k) hashes for each data vector, the storage would be (B\\times k) bits; and when used for large-scale learning, the model size would be (2^B\\times k), which can be expensive. A standard strategy is to use only the lowest (b) bits out of the (B) bits and somewhat increase (k), the number of hashes. In this study, we propose to re-use the hashes by partitioning the (B) bits into (m) chunks, e.g., (b\\times m =B). Correspondingly, the model size becomes (m\\times 2^b \\times k), which can be substantially smaller than the original (2^B\\times k). Our theoretical analysis reveals that by partitioning the hash values into (m) chunks, the accuracy would drop. In other words, using (m) chunks of (B/m) bits would not be as accurate as directly using (B) bits. This is due to the correlation from re-using the same hash. On the other hand, our analysis also shows that the accuracy would not drop much for (e.g.,) (m=2\\sim 4). In some regions, Pb-Hash still works well even for (m) much larger than 4. We expect Pb-Hash would be a good addition to the family of hashing methods/applications and benefit industrial practitioners. We verify the effectiveness of Pb-Hash in machine learning tasks, for linear SVM models as well as deep learning models. Since the hashed data are essentially categorical (ID) features, we follow the standard practice of using embedding tables for each hash. With Pb-Hash, we need to design an effective strategy to combine (m) embeddings. Our study provides an empirical evaluation on four pooling schemes: concatenation, max pooling, mean pooling, and product pooling. There is no definite answer which pooling would be always better and we leave that for future study.","headline":"Pb-hash: Partitioned B-bit Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2023pb/"},"url":"https://learning2hash.github.io/publications/li2023pb/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -271,19 +271,41 @@ we leave that for future study.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Pb-hash: Partitioned B-bit Hashing",
+        conference: "Proceedings of the 2024 ACM SIGIR International Conference on Theory of Information Retrieval",
+        year: 2024,
+        tags: ["Evaluation","Hashing Methods","Locality-Sensitive-Hashing","Neural Hashing","SIGIR","Scalability"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -291,7 +313,7 @@ we leave that for future study.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/huang2023fastbcsd/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fastbcsd: Fast And Efficient Neural Network For Binary Code Similarity Detection" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Binary code similarity detection (BCSD) has various applications, including but not limited to vulnerability detection, plagiarism detection, and malware detection. Previous research efforts mainly focus on transforming binary code to assembly code strings using reverse compilation and then using pre-trained deep learning models with large parameters to obtain feature representation vector of binary code. While these models have proven to be effective in representing binary code, their large parameter size leads to considerable computational expenses during both training and inference. In this paper, we present a lightweight neural network, called FastBCSD, that employs a dynamic instruction vector encoding method and takes only assembly code as input feature to achieve comparable accuracy to the pre-training models while reducing the computational resources and time cost. On the BinaryCorp dataset, our method achieves a similar average MRR score to the state-of-the-art pre-training-based method (jTrans), while on the BinaryCorp 3M dataset, our method even outperforms the latest technology by 0.01. Notably, FastBCSD has a much smaller parameter size (13.4M) compared to jTrans (87.88M), and its latency time is 1/5 of jTrans on NVIDIA GTX 1080Ti.","headline":"Fastbcsd: Fast And Efficient Neural Network For Binary Code Similarity Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/huang2023fastbcsd/"},"url":"https://learning2hash.github.io/publications/huang2023fastbcsd/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Binary code similarity detection (BCSD) has various applications, including but not limited to vulnerability detection, plagiarism detection, and malware detection. Previous research efforts mainly focus on transforming binary code to assembly code strings using reverse compilation and then using pre-trained deep learning models with large parameters to obtain feature representation vector of binary code. While these models have proven to be effective in representing binary code, their large parameter size leads to considerable computational expenses during both training and inference. In this paper, we present a lightweight neural network, called FastBCSD, that employs a dynamic instruction vector encoding method and takes only assembly code as input feature to achieve comparable accuracy to the pre-training models while reducing the computational resources and time cost. On the BinaryCorp dataset, our method achieves a similar average MRR score to the state-of-the-art pre-training-based method (jTrans), while on the BinaryCorp 3M dataset, our method even outperforms the latest technology by 0.01. Notably, FastBCSD has a much smaller parameter size (13.4M) compared to jTrans (87.88M), and its latency time is 1/5 of jTrans on NVIDIA GTX 1080Ti.","headline":"Fastbcsd: Fast And Efficient Neural Network For Binary Code Similarity Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/huang2023fastbcsd/"},"url":"https://learning2hash.github.io/publications/huang2023fastbcsd/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,19 +256,41 @@ jTrans (87.88M), and its latency time is 1/5 of jTrans on NVIDIA GTX 1080Ti.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Fastbcsd: Fast And Efficient Neural Network For Binary Code Similarity Detection",
+        conference: "Arxiv",
+        year: 2023,
+        tags: ["Compact Codes","Datasets","Neural Hashing"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -276,7 +298,7 @@ jTrans (87.88M), and its latency time is 1/5 of jTrans on NVIDIA GTX 1080Ti.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

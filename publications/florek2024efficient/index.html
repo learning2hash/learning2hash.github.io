@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/florek2024efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient And Discriminative Image Feature Extraction For Universal Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Current image retrieval systems often face domain specificity and generalization issues. This study aims to overcome these limitations by developing a computationally efficient training framework for a universal feature extractor that provides strong semantic image representations across various domains. To this end, we curated a multi-domain training dataset, called M4D-35k, which allows for resource-efficient training. Additionally, we conduct an extensive evaluation and comparison of various state-of-the-art visual-semantic foundation models and margin-based metric learning loss functions regarding their suitability for efficient universal feature extraction. Despite constrained computational resources, we achieve near state-of-the-art results on the Google Universal Image Embedding Challenge, with a mMP@5 of 0.721. This places our method at the second rank on the leaderboard, just 0.7 percentage points behind the best performing method. However, our model has 32% fewer overall parameters and 289 times fewer trainable parameters. Compared to methods with similar computational requirements, we outperform the previous state of the art by 3.3 percentage points. We release our code and M4D-35k training set annotations at https://github.com/morrisfl/UniFEx.","headline":"Efficient And Discriminative Image Feature Extraction For Universal Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/florek2024efficient/"},"url":"https://learning2hash.github.io/publications/florek2024efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Current image retrieval systems often face domain specificity and generalization issues. This study aims to overcome these limitations by developing a computationally efficient training framework for a universal feature extractor that provides strong semantic image representations across various domains. To this end, we curated a multi-domain training dataset, called M4D-35k, which allows for resource-efficient training. Additionally, we conduct an extensive evaluation and comparison of various state-of-the-art visual-semantic foundation models and margin-based metric learning loss functions regarding their suitability for efficient universal feature extraction. Despite constrained computational resources, we achieve near state-of-the-art results on the Google Universal Image Embedding Challenge, with a mMP@5 of 0.721. This places our method at the second rank on the leaderboard, just 0.7 percentage points behind the best performing method. However, our model has 32% fewer overall parameters and 289 times fewer trainable parameters. Compared to methods with similar computational requirements, we outperform the previous state of the art by 3.3 percentage points. We release our code and M4D-35k training set annotations at https://github.com/morrisfl/UniFEx.","headline":"Efficient And Discriminative Image Feature Extraction For Universal Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/florek2024efficient/"},"url":"https://learning2hash.github.io/publications/florek2024efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,19 +263,41 @@ https://github.com/morrisfl/UniFEx.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Efficient And Discriminative Image Feature Extraction For Universal Image Retrieval",
+        conference: "Lecture Notes in Computer Science",
+        year: 2025,
+        tags: ["Datasets","Distance Metric Learning","Evaluation","Image Retrieval","Tools & Libraries"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -283,7 +305,7 @@ https://github.com/morrisfl/UniFEx.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2023text/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Text-guided Image Restoration And Semantic Enhancement For Text-to-image Person Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"The goal of Text-to-Image Person Retrieval (TIPR) is to retrieve specific person images according to the given textual descriptions. A primary challenge in this task is bridging the substantial representational gap between visual and textual modalities. The prevailing methods map texts and images into unified embedding space for matching, while the intricate semantic correspondences between texts and images are still not effectively constructed. To address this issue, we propose a novel TIPR framework to build fine-grained interactions and alignment between person images and the corresponding texts. Specifically, via fine-tuning the Contrastive Language-Image Pre-training (CLIP) model, a visual-textual dual encoder is firstly constructed, to preliminarily align the image and text features. Secondly, a Text-guided Image Restoration (TIR) auxiliary task is proposed to map abstract textual entities to specific image regions, improving the alignment between local textual and visual embeddings. Additionally, a cross-modal triplet loss is presented to handle hard samples, and further enhance the model’s discriminability for minor differences. Moreover, a pruning-based text data augmentation approach is proposed to enhance focus on essential elements in descriptions, thereby avoiding excessive model attention to less significant information. The experimental results show our proposed method outperforms state-of-the-art methods on three popular benchmark datasets, and the code will be made publicly available at https://github.com/Delong-liu-bupt/SEN.","headline":"Text-guided Image Restoration And Semantic Enhancement For Text-to-image Person Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2023text/"},"url":"https://learning2hash.github.io/publications/liu2023text/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"The goal of Text-to-Image Person Retrieval (TIPR) is to retrieve specific person images according to the given textual descriptions. A primary challenge in this task is bridging the substantial representational gap between visual and textual modalities. The prevailing methods map texts and images into unified embedding space for matching, while the intricate semantic correspondences between texts and images are still not effectively constructed. To address this issue, we propose a novel TIPR framework to build fine-grained interactions and alignment between person images and the corresponding texts. Specifically, via fine-tuning the Contrastive Language-Image Pre-training (CLIP) model, a visual-textual dual encoder is firstly constructed, to preliminarily align the image and text features. Secondly, a Text-guided Image Restoration (TIR) auxiliary task is proposed to map abstract textual entities to specific image regions, improving the alignment between local textual and visual embeddings. Additionally, a cross-modal triplet loss is presented to handle hard samples, and further enhance the model’s discriminability for minor differences. Moreover, a pruning-based text data augmentation approach is proposed to enhance focus on essential elements in descriptions, thereby avoiding excessive model attention to less significant information. The experimental results show our proposed method outperforms state-of-the-art methods on three popular benchmark datasets, and the code will be made publicly available at https://github.com/Delong-liu-bupt/SEN.","headline":"Text-guided Image Restoration And Semantic Enhancement For Text-to-image Person Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2023text/"},"url":"https://learning2hash.github.io/publications/liu2023text/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,19 +264,41 @@ available at https://github.com/Delong-liu-bupt/SEN.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Text-guided Image Restoration And Semantic Enhancement For Text-to-image Person Retrieval",
+        conference: "Neural Networks",
+        year: 2024,
+        tags: ["Datasets","Distance Metric Learning","Evaluation","Tools & Libraries"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -284,7 +306,7 @@ available at https://github.com/Delong-liu-bupt/SEN.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

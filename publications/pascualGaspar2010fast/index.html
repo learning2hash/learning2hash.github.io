@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/pascualGaspar2010fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast On-line Signature Recognition Based On VQ With Time Modeling" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"This paper proposes a multi-section vector quantization approach for on-line signature recognition. We have used the MCYT database, which consists of 330 users and 25 skilled forgeries per person performed by 5 different impostors. This database is larger than those typically used in the literature. Nevertheless, we also provide results from the SVC database. Our proposed system outperforms the winner of SVC with a reduced computational requirement, which is around 47 times lower than DTW. In addition, our system improves the database storage requirements due to vector compression, and is more privacy-friendly as it is not possible to recover the original signature using the codebooks. Experimental results with MCYT provide a 99.76% identification rate and 2.46% EER (skilled forgeries and individual threshold). Experimental results with SVC are 100% of identification rate and 0% (individual threshold) and 0.31% (general threshold) when using a two-section VQ approach.","headline":"Fast On-line Signature Recognition Based On VQ With Time Modeling","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pascualGaspar2010fast/"},"url":"https://learning2hash.github.io/publications/pascualGaspar2010fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"This paper proposes a multi-section vector quantization approach for on-line signature recognition. We have used the MCYT database, which consists of 330 users and 25 skilled forgeries per person performed by 5 different impostors. This database is larger than those typically used in the literature. Nevertheless, we also provide results from the SVC database. Our proposed system outperforms the winner of SVC with a reduced computational requirement, which is around 47 times lower than DTW. In addition, our system improves the database storage requirements due to vector compression, and is more privacy-friendly as it is not possible to recover the original signature using the codebooks. Experimental results with MCYT provide a 99.76% identification rate and 2.46% EER (skilled forgeries and individual threshold). Experimental results with SVC are 100% of identification rate and 0% (individual threshold) and 0.31% (general threshold) when using a two-section VQ approach.","headline":"Fast On-line Signature Recognition Based On VQ With Time Modeling","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pascualGaspar2010fast/"},"url":"https://learning2hash.github.io/publications/pascualGaspar2010fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -249,19 +249,41 @@ two-section VQ approach.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Fast On-line Signature Recognition Based On VQ With Time Modeling",
+        conference: "Engineering Applications of Artificial Intelligence",
+        year: 2010,
+        tags: ["Quantization"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -269,7 +291,7 @@ two-section VQ approach.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

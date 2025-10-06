@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/bachmann2019the/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The Superm-tree: Indexing Metric Spaces With Sized Objects" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"A common approach to implementing similarity search applications is the usage of distance functions, where small distances indicate high similarity. In the case of metric distance functions, metric index structures can be used to accelerate nearest neighbor queries. On the other hand, many applications ask for approximate subsequences or subsets, e.g. searching for a similar partial sequence of a gene, for a similar scene in a movie, or for a similar object in a picture which is represented by a set of multidimensional features. Metric index structures such as the M-Tree cannot be utilized for these tasks because of the symmetry of the metric distance functions. In this work, we propose the SuperM-Tree as an extension of the M-Tree where approximate subsequence and subset queries become nearest neighbor queries. In order to do this, we introduce metric subset spaces as a generalized concept of metric spaces. Various metric distance functions can be extended to metric subset distance functions, e.g. the Euclidean distance (on windows), the Hausdorff distance (on subsets), the Edit distance and the Dog-Keeper distance (on subsequences). We show that these examples subsume the applications mentioned above.","headline":"The Superm-tree: Indexing Metric Spaces With Sized Objects","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bachmann2019the/"},"url":"https://learning2hash.github.io/publications/bachmann2019the/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"A common approach to implementing similarity search applications is the usage of distance functions, where small distances indicate high similarity. In the case of metric distance functions, metric index structures can be used to accelerate nearest neighbor queries. On the other hand, many applications ask for approximate subsequences or subsets, e.g. searching for a similar partial sequence of a gene, for a similar scene in a movie, or for a similar object in a picture which is represented by a set of multidimensional features. Metric index structures such as the M-Tree cannot be utilized for these tasks because of the symmetry of the metric distance functions. In this work, we propose the SuperM-Tree as an extension of the M-Tree where approximate subsequence and subset queries become nearest neighbor queries. In order to do this, we introduce metric subset spaces as a generalized concept of metric spaces. Various metric distance functions can be extended to metric subset distance functions, e.g. the Euclidean distance (on windows), the Hausdorff distance (on subsets), the Edit distance and the Dog-Keeper distance (on subsequences). We show that these examples subsume the applications mentioned above.","headline":"The Superm-tree: Indexing Metric Spaces With Sized Objects","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bachmann2019the/"},"url":"https://learning2hash.github.io/publications/bachmann2019the/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,19 +255,41 @@ show that these examples subsume the applications mentioned above.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "The Superm-tree: Indexing Metric Spaces With Sized Objects",
+        conference: "Arxiv",
+        year: 2019,
+        tags: ["Distance Metric Learning","Similarity Search","Vector Indexing"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -275,7 +297,7 @@ show that these examples subsume the applications mentioned above.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

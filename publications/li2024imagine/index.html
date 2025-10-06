@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2024imagine/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Imagine And Seek: Improving Composed Image Retrieval With An Imagined Proxy" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"The Zero-shot Composed Image Retrieval (ZSCIR) requires retrieving images that match the query image and the relative captions. Current methods focus on projecting the query image into the text feature space, subsequently combining them with features of query texts for retrieval. However, retrieving images only with the text features cannot guarantee detailed alignment due to the natural gap between images and text. In this paper, we introduce Imagined Proxy for CIR (IP-CIR), a training-free method that creates a proxy image aligned with the query image and text description, enhancing query representation in the retrieval process. We first leverage the large language model’s generalization capability to generate an image layout, and then apply both the query text and image for conditional generation. The robust query features are enhanced by merging the proxy image, query image, and text semantic perturbation. Our newly proposed balancing metric integrates text-based and proxy retrieval similarities, allowing for more accurate retrieval of the target image while incorporating image-side information into the process. Experiments on three public datasets demonstrate that our method significantly improves retrieval performances. We achieve state-of-the-art (SOTA) results on the CIRR dataset with a Recall@K of 70.07 at K=10. Additionally, we achieved an improvement in Recall@10 on the FashionIQ dataset, rising from 45.11 to 45.74, and improved the baseline performance in CIRCO with a mAPK@10 score, increasing from 32.24 to 34.26.","headline":"Imagine And Seek: Improving Composed Image Retrieval With An Imagined Proxy","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2024imagine/"},"url":"https://learning2hash.github.io/publications/li2024imagine/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"The Zero-shot Composed Image Retrieval (ZSCIR) requires retrieving images that match the query image and the relative captions. Current methods focus on projecting the query image into the text feature space, subsequently combining them with features of query texts for retrieval. However, retrieving images only with the text features cannot guarantee detailed alignment due to the natural gap between images and text. In this paper, we introduce Imagined Proxy for CIR (IP-CIR), a training-free method that creates a proxy image aligned with the query image and text description, enhancing query representation in the retrieval process. We first leverage the large language model’s generalization capability to generate an image layout, and then apply both the query text and image for conditional generation. The robust query features are enhanced by merging the proxy image, query image, and text semantic perturbation. Our newly proposed balancing metric integrates text-based and proxy retrieval similarities, allowing for more accurate retrieval of the target image while incorporating image-side information into the process. Experiments on three public datasets demonstrate that our method significantly improves retrieval performances. We achieve state-of-the-art (SOTA) results on the CIRR dataset with a Recall@K of 70.07 at K=10. Additionally, we achieved an improvement in Recall@10 on the FashionIQ dataset, rising from 45.11 to 45.74, and improved the baseline performance in CIRCO with a mAPK@10 score, increasing from 32.24 to 34.26.","headline":"Imagine And Seek: Improving Composed Image Retrieval With An Imagined Proxy","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2024imagine/"},"url":"https://learning2hash.github.io/publications/li2024imagine/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,19 +264,41 @@ from 32.24 to 34.26.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Imagine And Seek: Improving Composed Image Retrieval With An Imagined Proxy",
+        conference: "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+        year: 2025,
+        tags: ["CVPR","Datasets","Evaluation","Few Shot & Zero Shot","Image Retrieval"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -284,7 +306,7 @@ from 32.24 to 34.26.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

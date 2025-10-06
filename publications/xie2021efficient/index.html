@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/xie2021efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient Deep Feature Calibration For Cross-modal Joint Embedding Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"This paper introduces a two-phase deep feature calibration framework for efficient learning of semantics enhanced text-image cross-modal joint embedding, which clearly separates the deep feature calibration in data preprocessing from training the joint embedding model. We use the Recipe1M dataset for the technical description and empirical validation. In preprocessing, we perform deep feature calibration by combining deep feature engineering with semantic context features derived from raw text-image input data. We leverage LSTM to identify key terms, NLP methods to produce ranking scores for key terms before generating the key term feature. We leverage wideResNet50 to extract and encode the image category semantics to help semantic alignment of the learned recipe and image embeddings in the joint latent space. In joint embedding learning, we perform deep feature calibration by optimizing the batch-hard triplet loss function with soft-margin and double negative sampling, also utilizing the category-based alignment loss and discriminator-based alignment loss. Extensive experiments demonstrate that our SEJE approach with the deep feature calibration significantly outperforms the state-of-the-art approaches.","headline":"Efficient Deep Feature Calibration For Cross-modal Joint Embedding Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xie2021efficient/"},"url":"https://learning2hash.github.io/publications/xie2021efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"This paper introduces a two-phase deep feature calibration framework for efficient learning of semantics enhanced text-image cross-modal joint embedding, which clearly separates the deep feature calibration in data preprocessing from training the joint embedding model. We use the Recipe1M dataset for the technical description and empirical validation. In preprocessing, we perform deep feature calibration by combining deep feature engineering with semantic context features derived from raw text-image input data. We leverage LSTM to identify key terms, NLP methods to produce ranking scores for key terms before generating the key term feature. We leverage wideResNet50 to extract and encode the image category semantics to help semantic alignment of the learned recipe and image embeddings in the joint latent space. In joint embedding learning, we perform deep feature calibration by optimizing the batch-hard triplet loss function with soft-margin and double negative sampling, also utilizing the category-based alignment loss and discriminator-based alignment loss. Extensive experiments demonstrate that our SEJE approach with the deep feature calibration significantly outperforms the state-of-the-art approaches.","headline":"Efficient Deep Feature Calibration For Cross-modal Joint Embedding Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xie2021efficient/"},"url":"https://learning2hash.github.io/publications/xie2021efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,19 +256,41 @@ state-of-the-art approaches.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Efficient Deep Feature Calibration For Cross-modal Joint Embedding Learning",
+        conference: "Proceedings of the 2021 International Conference on Multimodal Interaction",
+        year: 2021,
+        tags: ["Datasets","Distance Metric Learning","Tools & Libraries"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -276,7 +298,7 @@ state-of-the-art approaches.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

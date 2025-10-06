@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/keetha2021a/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Hierarchical Dual Model Of Environment- And Place-specific Utility For Visual Place Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Visual Place Recognition (VPR) approaches have typically attempted to match places by identifying visual cues, image regions or landmarks that have high ``utility’’ in identifying a specific place. But this concept of utility is not singular - rather it can take a range of forms. In this paper, we present a novel approach to deduce two key types of utility for VPR: the utility of visual cues `specific’ to an environment, and to a particular place. We employ contrastive learning principles to estimate both the environment- and place-specific utility of Vector of Locally Aggregated Descriptors (VLAD) clusters in an unsupervised manner, which is then used to guide local feature matching through keypoint selection. By combining these two utility measures, our approach achieves state-of-the-art performance on three challenging benchmark datasets, while simultaneously reducing the required storage and compute time. We provide further analysis demonstrating that unsupervised cluster selection results in semantically meaningful results, that finer grained categorization often has higher utility for VPR than high level semantic categorization (e.g. building, road), and characterise how these two utility measures vary across different places and environments. Source code is made publicly available at https://github.com/Nik-V9/HEAPUtil.","headline":"A Hierarchical Dual Model Of Environment- And Place-specific Utility For Visual Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/keetha2021a/"},"url":"https://learning2hash.github.io/publications/keetha2021a/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Visual Place Recognition (VPR) approaches have typically attempted to match places by identifying visual cues, image regions or landmarks that have high ``utility’’ in identifying a specific place. But this concept of utility is not singular - rather it can take a range of forms. In this paper, we present a novel approach to deduce two key types of utility for VPR: the utility of visual cues `specific’ to an environment, and to a particular place. We employ contrastive learning principles to estimate both the environment- and place-specific utility of Vector of Locally Aggregated Descriptors (VLAD) clusters in an unsupervised manner, which is then used to guide local feature matching through keypoint selection. By combining these two utility measures, our approach achieves state-of-the-art performance on three challenging benchmark datasets, while simultaneously reducing the required storage and compute time. We provide further analysis demonstrating that unsupervised cluster selection results in semantically meaningful results, that finer grained categorization often has higher utility for VPR than high level semantic categorization (e.g. building, road), and characterise how these two utility measures vary across different places and environments. Source code is made publicly available at https://github.com/Nik-V9/HEAPUtil.","headline":"A Hierarchical Dual Model Of Environment- And Place-specific Utility For Visual Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/keetha2021a/"},"url":"https://learning2hash.github.io/publications/keetha2021a/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,19 +261,41 @@ made publicly available at https://github.com/Nik-V9/HEAPUtil.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "A Hierarchical Dual Model Of Environment- And Place-specific Utility For Visual Place Recognition",
+        conference: "IEEE Robotics and Automation Letters",
+        year: 2021,
+        tags: ["Datasets","Evaluation","Self-Supervised","Unsupervised"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -281,7 +303,7 @@ made publicly available at https://github.com/Nik-V9/HEAPUtil.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

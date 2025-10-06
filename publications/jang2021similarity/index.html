@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jang2021similarity/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Similarity Guided Deep Face Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Face image retrieval, which searches for images of the same identity from the query input face image, is drawing more attention as the size of the image database increases rapidly. In order to conduct fast and accurate retrieval, a compact hash code-based methods have been proposed, and recently, deep face image hashing methods with supervised classification training have shown outstanding performance. However, classification-based scheme has a disadvantage in that it cannot reveal complex similarities between face images into the hash code learning. In this paper, we attempt to improve the face image retrieval quality by proposing a Similarity Guided Hashing (SGH) method, which gently considers self and pairwise-similarity simultaneously. SGH employs various data augmentations designed to explore elaborate similarities between face images, solving both intra and inter identity-wise difficulties. Extensive experimental results on the protocols with existing benchmarks and an additionally proposed large scale higher resolution face image dataset demonstrate that our SGH delivers state-of-the-art retrieval performance.","headline":"Similarity Guided Deep Face Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jang2021similarity/"},"url":"https://learning2hash.github.io/publications/jang2021similarity/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Face image retrieval, which searches for images of the same identity from the query input face image, is drawing more attention as the size of the image database increases rapidly. In order to conduct fast and accurate retrieval, a compact hash code-based methods have been proposed, and recently, deep face image hashing methods with supervised classification training have shown outstanding performance. However, classification-based scheme has a disadvantage in that it cannot reveal complex similarities between face images into the hash code learning. In this paper, we attempt to improve the face image retrieval quality by proposing a Similarity Guided Hashing (SGH) method, which gently considers self and pairwise-similarity simultaneously. SGH employs various data augmentations designed to explore elaborate similarities between face images, solving both intra and inter identity-wise difficulties. Extensive experimental results on the protocols with existing benchmarks and an additionally proposed large scale higher resolution face image dataset demonstrate that our SGH delivers state-of-the-art retrieval performance.","headline":"Similarity Guided Deep Face Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jang2021similarity/"},"url":"https://learning2hash.github.io/publications/jang2021similarity/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -258,19 +258,41 @@ demonstrate that our SGH delivers state-of-the-art retrieval performance.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Similarity Guided Deep Face Image Retrieval",
+        conference: "Arxiv",
+        year: 2021,
+        tags: ["Datasets","Evaluation","Hashing Methods","Image Retrieval","Supervised"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -278,7 +300,7 @@ demonstrate that our SGH delivers state-of-the-art retrieval performance.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

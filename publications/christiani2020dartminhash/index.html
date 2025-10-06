@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/christiani2020dartminhash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Dartminhash: Fast Sketching For Weighted Sets" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Weighted minwise hashing is a standard dimensionality reduction technique with applications to similarity search and large-scale kernel machines. We introduce a simple algorithm that takes a weighted set (x \\in \\mathbb{R}{\\geq 0}^{d}) and computes (k) independent minhashes in expected time (O(k log k + \\Vert x \\Vert{0}log( \\Vert x \\Vert_1 + 1/\\Vert x \\Vert_1))), improving upon the state-of-the-art BagMinHash algorithm (KDD ‘18) and representing the fastest weighted minhash algorithm for sparse data. Our experiments show running times that scale better with (k) and (\\Vert x \\Vert_0) compared to ICWS (ICDM ‘10) and BagMinhash, obtaining (10)x speedups in common use cases. Our approach also gives rise to a technique for computing fully independent locality-sensitive hash values for ((L, K))-parameterized approximate near neighbor search under weighted Jaccard similarity in optimal expected time (O(LK + \\Vert x \\Vert_0)), improving on prior work even in the case of unweighted sets.","headline":"Dartminhash: Fast Sketching For Weighted Sets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/christiani2020dartminhash/"},"url":"https://learning2hash.github.io/publications/christiani2020dartminhash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Weighted minwise hashing is a standard dimensionality reduction technique with applications to similarity search and large-scale kernel machines. We introduce a simple algorithm that takes a weighted set (x \\in \\mathbb{R}{\\geq 0}^{d}) and computes (k) independent minhashes in expected time (O(k log k + \\Vert x \\Vert{0}log( \\Vert x \\Vert_1 + 1/\\Vert x \\Vert_1))), improving upon the state-of-the-art BagMinHash algorithm (KDD ‘18) and representing the fastest weighted minhash algorithm for sparse data. Our experiments show running times that scale better with (k) and (\\Vert x \\Vert_0) compared to ICWS (ICDM ‘10) and BagMinhash, obtaining (10)x speedups in common use cases. Our approach also gives rise to a technique for computing fully independent locality-sensitive hash values for ((L, K))-parameterized approximate near neighbor search under weighted Jaccard similarity in optimal expected time (O(LK + \\Vert x \\Vert_0)), improving on prior work even in the case of unweighted sets.","headline":"Dartminhash: Fast Sketching For Weighted Sets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/christiani2020dartminhash/"},"url":"https://learning2hash.github.io/publications/christiani2020dartminhash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,19 +255,41 @@ unweighted sets.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Dartminhash: Fast Sketching For Weighted Sets",
+        conference: "Arxiv",
+        year: 2020,
+        tags: ["Hashing Methods","Locality-Sensitive-Hashing","Scalability","Similarity Search"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -275,7 +297,7 @@ unweighted sets.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

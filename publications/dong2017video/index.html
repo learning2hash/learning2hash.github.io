@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dong2017video/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Video Retrieval Based On Deep Convolutional Neural Network" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Recently, with the enormous growth of online videos, fast video retrieval research has received increasing attention. As an extension of image hashing techniques, traditional video hashing methods mainly depend on hand-crafted features and transform the real-valued features into binary hash codes. As videos provide far more diverse and complex visual information than images, extracting features from videos is much more challenging than that from images. Therefore, high-level semantic features to represent videos are needed rather than low-level hand-crafted methods. In this paper, a deep convolutional neural network is proposed to extract high-level semantic features and a binary hash function is then integrated into this framework to achieve an end-to-end optimization. Particularly, our approach also combines triplet loss function which preserves the relative similarity and difference of videos and classification loss function as the optimization objective. Experiments have been performed on two public datasets and the results demonstrate the superiority of our proposed method compared with other state-of-the-art video retrieval methods.","headline":"Video Retrieval Based On Deep Convolutional Neural Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2017video/"},"url":"https://learning2hash.github.io/publications/dong2017video/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Recently, with the enormous growth of online videos, fast video retrieval research has received increasing attention. As an extension of image hashing techniques, traditional video hashing methods mainly depend on hand-crafted features and transform the real-valued features into binary hash codes. As videos provide far more diverse and complex visual information than images, extracting features from videos is much more challenging than that from images. Therefore, high-level semantic features to represent videos are needed rather than low-level hand-crafted methods. In this paper, a deep convolutional neural network is proposed to extract high-level semantic features and a binary hash function is then integrated into this framework to achieve an end-to-end optimization. Particularly, our approach also combines triplet loss function which preserves the relative similarity and difference of videos and classification loss function as the optimization objective. Experiments have been performed on two public datasets and the results demonstrate the superiority of our proposed method compared with other state-of-the-art video retrieval methods.","headline":"Video Retrieval Based On Deep Convolutional Neural Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2017video/"},"url":"https://learning2hash.github.io/publications/dong2017video/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,19 +261,41 @@ retrieval methods.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Video Retrieval Based On Deep Convolutional Neural Network",
+        conference: "Proceedings of the 3rd International Conference on Multimedia Systems and Signal Processing",
+        year: 2018,
+        tags: ["Datasets","Distance Metric Learning","Hashing Methods","Image Retrieval","Tools & Libraries","Video Retrieval"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -281,7 +303,7 @@ retrieval methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

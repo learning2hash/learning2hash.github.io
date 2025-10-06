@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/szilvasy2024vector/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Vector Search With Small Radiuses" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"In recent years, the dominant accuracy metric for vector search is the recall of a result list of fixed size (top-k retrieval), considering as ground truth the exact vector retrieval results. Although convenient to compute, this metric is distantly related to the end-to-end accuracy of a full system that integrates vector search. In this paper we focus on the common case where a hard decision needs to be taken depending on the vector retrieval results, for example, deciding whether a query image matches a database image or not. We solve this as a range search task, where all vectors within a certain radius from the query are returned. We show that the value of a range search result can be modeled rigorously based on the query-to-vector distance. This yields a metric for range search, RSM, that is both principled and easy to compute without running an end-to-end evaluation. We apply this metric to the case of image retrieval. We show that indexing methods that are adapted for top-k retrieval do not necessarily maximize the RSM. In particular, for inverted file based indexes, we show that visiting a limited set of clusters and encoding vectors compactly yields near optimal results.","headline":"Vector Search With Small Radiuses","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/szilvasy2024vector/"},"url":"https://learning2hash.github.io/publications/szilvasy2024vector/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"In recent years, the dominant accuracy metric for vector search is the recall of a result list of fixed size (top-k retrieval), considering as ground truth the exact vector retrieval results. Although convenient to compute, this metric is distantly related to the end-to-end accuracy of a full system that integrates vector search. In this paper we focus on the common case where a hard decision needs to be taken depending on the vector retrieval results, for example, deciding whether a query image matches a database image or not. We solve this as a range search task, where all vectors within a certain radius from the query are returned. We show that the value of a range search result can be modeled rigorously based on the query-to-vector distance. This yields a metric for range search, RSM, that is both principled and easy to compute without running an end-to-end evaluation. We apply this metric to the case of image retrieval. We show that indexing methods that are adapted for top-k retrieval do not necessarily maximize the RSM. In particular, for inverted file based indexes, we show that visiting a limited set of clusters and encoding vectors compactly yields near optimal results.","headline":"Vector Search With Small Radiuses","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/szilvasy2024vector/"},"url":"https://learning2hash.github.io/publications/szilvasy2024vector/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -258,19 +258,41 @@ optimal results.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Vector Search With Small Radiuses",
+        conference: "Arxiv",
+        year: 2024,
+        tags: ["Datasets","Evaluation","Image Retrieval","Vector Indexing"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -278,7 +300,7 @@ optimal results.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

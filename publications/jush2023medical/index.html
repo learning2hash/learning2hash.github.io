@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jush2023medical/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Medical Image Retrieval Using Pretrained Embeddings" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"A wide range of imaging techniques and data formats available for medical images make accurate retrieval from image databases challenging. Efficient retrieval systems are crucial in advancing medical research, enabling large-scale studies and innovative diagnostic tools. Thus, addressing the challenges of medical image retrieval is essential for the continued enhancement of healthcare and research. In this study, we evaluated the feasibility of employing four state-of-the-art pretrained models for medical image retrieval at modality, body region, and organ levels and compared the results of two similarity indexing approaches. Since the employed networks take 2D images, we analyzed the impacts of weighting and sampling strategies to incorporate 3D information during retrieval of 3D volumes. We showed that medical image retrieval is feasible using pretrained networks without any additional training or fine-tuning steps. Using pretrained embeddings, we achieved a recall of 1 for various tasks at modality, body region, and organ level.","headline":"Medical Image Retrieval Using Pretrained Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jush2023medical/"},"url":"https://learning2hash.github.io/publications/jush2023medical/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"A wide range of imaging techniques and data formats available for medical images make accurate retrieval from image databases challenging. Efficient retrieval systems are crucial in advancing medical research, enabling large-scale studies and innovative diagnostic tools. Thus, addressing the challenges of medical image retrieval is essential for the continued enhancement of healthcare and research. In this study, we evaluated the feasibility of employing four state-of-the-art pretrained models for medical image retrieval at modality, body region, and organ levels and compared the results of two similarity indexing approaches. Since the employed networks take 2D images, we analyzed the impacts of weighting and sampling strategies to incorporate 3D information during retrieval of 3D volumes. We showed that medical image retrieval is feasible using pretrained networks without any additional training or fine-tuning steps. Using pretrained embeddings, we achieved a recall of 1 for various tasks at modality, body region, and organ level.","headline":"Medical Image Retrieval Using Pretrained Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jush2023medical/"},"url":"https://learning2hash.github.io/publications/jush2023medical/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,19 +256,41 @@ various tasks at modality, body region, and organ level.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Medical Image Retrieval Using Pretrained Embeddings",
+        conference: "2024 IEEE International Symposium on Biomedical Imaging (ISBI)",
+        year: 2024,
+        tags: ["Evaluation","Image Retrieval","Scalability","Similarity Search"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -276,7 +298,7 @@ various tasks at modality, body region, and organ level.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

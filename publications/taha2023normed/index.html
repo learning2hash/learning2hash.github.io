@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/taha2023normed/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Normed Spaces For Graph Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Theoretical results from discrete geometry suggest that normed spaces can abstractly embed finite metric spaces with surprisingly low theoretical bounds on distortion in low dimensions. In this paper, inspired by this theoretical insight, we highlight normed spaces as a more flexible and computationally efficient alternative to several popular Riemannian manifolds for learning graph embeddings. Normed space embeddings significantly outperform several popular manifolds on a large range of synthetic and real-world graph reconstruction benchmark datasets while requiring significantly fewer computational resources. We also empirically verify the superiority of normed space embeddings on growing families of graphs associated with negative, zero, and positive curvature, further reinforcing the flexibility of normed spaces in capturing diverse graph structures as graph sizes increase. Lastly, we demonstrate the utility of normed space embeddings on two applied graph embedding tasks, namely, link prediction and recommender systems. Our work highlights the potential of normed spaces for geometric graph representation learning, raises new research questions, and offers a valuable tool for experimental mathematics in the field of finite metric space embeddings. We make our code and data publically available.","headline":"Normed Spaces For Graph Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/taha2023normed/"},"url":"https://learning2hash.github.io/publications/taha2023normed/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Theoretical results from discrete geometry suggest that normed spaces can abstractly embed finite metric spaces with surprisingly low theoretical bounds on distortion in low dimensions. In this paper, inspired by this theoretical insight, we highlight normed spaces as a more flexible and computationally efficient alternative to several popular Riemannian manifolds for learning graph embeddings. Normed space embeddings significantly outperform several popular manifolds on a large range of synthetic and real-world graph reconstruction benchmark datasets while requiring significantly fewer computational resources. We also empirically verify the superiority of normed space embeddings on growing families of graphs associated with negative, zero, and positive curvature, further reinforcing the flexibility of normed spaces in capturing diverse graph structures as graph sizes increase. Lastly, we demonstrate the utility of normed space embeddings on two applied graph embedding tasks, namely, link prediction and recommender systems. Our work highlights the potential of normed spaces for geometric graph representation learning, raises new research questions, and offers a valuable tool for experimental mathematics in the field of finite metric space embeddings. We make our code and data publically available.","headline":"Normed Spaces For Graph Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/taha2023normed/"},"url":"https://learning2hash.github.io/publications/taha2023normed/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,19 +257,41 @@ make our code and data publically available.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Normed Spaces For Graph Embedding",
+        conference: "Arxiv",
+        year: 2023,
+        tags: ["Datasets","Evaluation","Recommender Systems"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -277,7 +299,7 @@ make our code and data publically available.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

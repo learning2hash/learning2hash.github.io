@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2024air/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Air-hloc: Adaptive Retrieved Images Selection For Efficient Visual Localisation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"State-of-the-art hierarchical localisation pipelines (HLoc) employ image retrieval (IR) to establish 2D-3D correspondences by selecting the top-(k) most similar images from a reference database. While increasing (k) improves localisation robustness, it also linearly increases computational cost and runtime, creating a significant bottleneck. This paper investigates the relationship between global and local descriptors, showing that greater similarity between the global descriptors of query and database images increases the proportion of feature matches. Low similarity queries significantly benefit from increasing (k), while high similarity queries rapidly experience diminishing returns. Building on these observations, we propose an adaptive strategy that adjusts (k) based on the similarity between the query’s global descriptor and those in the database, effectively mitigating the feature-matching bottleneck. Our approach optimizes processing time without sacrificing accuracy. Experiments on three indoor and outdoor datasets show that AIR-HLoc reduces feature matching time by up to 30%, while preserving state-of-the-art accuracy. The results demonstrate that AIR-HLoc facilitates a latency-sensitive localisation system.","headline":"Air-hloc: Adaptive Retrieved Images Selection For Efficient Visual Localisation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2024air/"},"url":"https://learning2hash.github.io/publications/liu2024air/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"State-of-the-art hierarchical localisation pipelines (HLoc) employ image retrieval (IR) to establish 2D-3D correspondences by selecting the top-(k) most similar images from a reference database. While increasing (k) improves localisation robustness, it also linearly increases computational cost and runtime, creating a significant bottleneck. This paper investigates the relationship between global and local descriptors, showing that greater similarity between the global descriptors of query and database images increases the proportion of feature matches. Low similarity queries significantly benefit from increasing (k), while high similarity queries rapidly experience diminishing returns. Building on these observations, we propose an adaptive strategy that adjusts (k) based on the similarity between the query’s global descriptor and those in the database, effectively mitigating the feature-matching bottleneck. Our approach optimizes processing time without sacrificing accuracy. Experiments on three indoor and outdoor datasets show that AIR-HLoc reduces feature matching time by up to 30%, while preserving state-of-the-art accuracy. The results demonstrate that AIR-HLoc facilitates a latency-sensitive localisation system.","headline":"Air-hloc: Adaptive Retrieved Images Selection For Efficient Visual Localisation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2024air/"},"url":"https://learning2hash.github.io/publications/liu2024air/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,19 +256,41 @@ latency-sensitive localisation system.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Air-hloc: Adaptive Retrieved Images Selection For Efficient Visual Localisation",
+        conference: "2025 IEEE International Conference on Robotics and Automation (ICRA)",
+        year: 2025,
+        tags: ["Datasets","ICRA","Robustness"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -276,7 +298,7 @@ latency-sensitive localisation system.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

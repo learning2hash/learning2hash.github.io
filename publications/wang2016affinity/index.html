@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2016affinity/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Affinity Preserving Quantization For Hashing: A Vector Quantization Approach To Learning Compact Binary Codes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Hashing techniques are powerful for approximate nearest neighbour (ANN) search. Existing quantization methods in hashing are all focused on scalar quantization (SQ) which is inferior in utilizing the inherent data distribution. In this paper, we propose a novel vector quantization (VQ) method named affinity preserving quantization (APQ) to improve the quantization quality of projection values, which has significantly boosted the performance of state-of-the-art hashing techniques. In particular, our method incorporates the neighbourhood structure in the pre- and post-projection data space into vector quantization. APQ minimizes the quantization errors of projection values as well as the loss of affinity property of original space. An effective algorithm has been proposed to solve the joint optimization problem in APQ, and the extension to larger binary codes has been resolved by applying product quantization to APQ. Extensive experiments have shown that APQ consistently outperforms the state-of-the-art quantization methods, and has significantly improved the performance of various hashing techniques.","headline":"Affinity Preserving Quantization For Hashing: A Vector Quantization Approach To Learning Compact Binary Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2016affinity/"},"url":"https://learning2hash.github.io/publications/wang2016affinity/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Hashing techniques are powerful for approximate nearest neighbour (ANN) search. Existing quantization methods in hashing are all focused on scalar quantization (SQ) which is inferior in utilizing the inherent data distribution. In this paper, we propose a novel vector quantization (VQ) method named affinity preserving quantization (APQ) to improve the quantization quality of projection values, which has significantly boosted the performance of state-of-the-art hashing techniques. In particular, our method incorporates the neighbourhood structure in the pre- and post-projection data space into vector quantization. APQ minimizes the quantization errors of projection values as well as the loss of affinity property of original space. An effective algorithm has been proposed to solve the joint optimization problem in APQ, and the extension to larger binary codes has been resolved by applying product quantization to APQ. Extensive experiments have shown that APQ consistently outperforms the state-of-the-art quantization methods, and has significantly improved the performance of various hashing techniques.","headline":"Affinity Preserving Quantization For Hashing: A Vector Quantization Approach To Learning Compact Binary Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2016affinity/"},"url":"https://learning2hash.github.io/publications/wang2016affinity/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,19 +262,41 @@ the performance of various hashing techniques.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Affinity Preserving Quantization For Hashing: A Vector Quantization Approach To Learning Compact Binary Codes",
+        conference: "Proceedings of the AAAI Conference on Artificial Intelligence",
+        year: 2016,
+        tags: ["AAAI","Compact Codes","Evaluation","Hashing Methods","Quantization"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -282,7 +304,7 @@ the performance of various hashing techniques.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

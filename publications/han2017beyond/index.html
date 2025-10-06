@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/han2017beyond/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Beyond SIFT Using Binary Features For Loop Closure Detection" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"In this paper a binary feature based Loop Closure Detection (LCD) method is proposed, which for the first time achieves higher precision-recall (PR) performance compared with state-of-the-art SIFT feature based approaches. The proposed system originates from our previous work Multi-Index hashing for Loop closure Detection (MILD), which employs Multi-Index Hashing (MIH)~\\cite{greene1994multi} for Approximate Nearest Neighbor (ANN) search of binary features. As the accuracy of MILD is limited by repeating textures and inaccurate image similarity measurement, burstiness handling is introduced to solve this problem and achieves considerable accuracy improvement. Additionally, a comprehensive theoretical analysis on MIH used in MILD is conducted to further explore the potentials of hashing methods for ANN search of binary features from probabilistic perspective. This analysis provides more freedom on best parameter choosing in MIH for different application scenarios. Experiments on popular public datasets show that the proposed approach achieved the highest accuracy compared with state-of-the-art while running at 30Hz for databases containing thousands of images.","headline":"Beyond SIFT Using Binary Features For Loop Closure Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/han2017beyond/"},"url":"https://learning2hash.github.io/publications/han2017beyond/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"In this paper a binary feature based Loop Closure Detection (LCD) method is proposed, which for the first time achieves higher precision-recall (PR) performance compared with state-of-the-art SIFT feature based approaches. The proposed system originates from our previous work Multi-Index hashing for Loop closure Detection (MILD), which employs Multi-Index Hashing (MIH)~\\cite{greene1994multi} for Approximate Nearest Neighbor (ANN) search of binary features. As the accuracy of MILD is limited by repeating textures and inaccurate image similarity measurement, burstiness handling is introduced to solve this problem and achieves considerable accuracy improvement. Additionally, a comprehensive theoretical analysis on MIH used in MILD is conducted to further explore the potentials of hashing methods for ANN search of binary features from probabilistic perspective. This analysis provides more freedom on best parameter choosing in MIH for different application scenarios. Experiments on popular public datasets show that the proposed approach achieved the highest accuracy compared with state-of-the-art while running at 30Hz for databases containing thousands of images.","headline":"Beyond SIFT Using Binary Features For Loop Closure Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/han2017beyond/"},"url":"https://learning2hash.github.io/publications/han2017beyond/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,19 +261,41 @@ databases containing thousands of images.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Beyond SIFT Using Binary Features For Loop Closure Detection",
+        conference: "2017 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        year: 2017,
+        tags: ["Datasets","Evaluation","Hashing Methods","IROS","Similarity Search","Vector Indexing"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -281,7 +303,7 @@ databases containing thousands of images.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

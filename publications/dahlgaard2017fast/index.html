@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dahlgaard2017fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast Similarity Sketching" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"We consider the (\\textit{Similarity Sketching}) problem: Given a universe ([u] = \\{0,\\ldots, u-1\\}) we want a random function (S) mapping subsets (A\\subseteq [u]) into vectors (S(A)) of size (t), such that the Jaccard similarity (J(A,B) = |A\\cap B|/|A\\cup B|) between sets (A) and (B) is preserved. More precisely, define (X_i = [S(A)[i] = S(B)[i]]) and (X = \\sum_{i\\in [t]} X_i). We want (E[X_i]=J(A,B)), and we want (X) to be strongly concentrated around (E[X] = t \\cdot J(A,B)) (i.e. Chernoff-style bounds). This is a fundamental problem which has found numerous applications in data mining, large-scale classification, computer vision, similarity search, etc. via the classic MinHash algorithm. The vectors (S(A)) are also called (\\textit{sketches}). Strong concentration is critical, for often we want to sketch many sets (B_1,\\ldots,B_n) so that we later, for a query set (A), can find (one of) the most similar (B_i). It is then critical that no (B_i) looks much more similar to (A) due to errors in the sketch. The seminal (t\\times\\textit{MinHash}) algorithm uses (t) random hash functions (h_1,\\ldots, h_t), and stores (\\left ( \\min_{a\\in A} h_1(A),\\ldots, \\min_{a\\in A} h_t(A) \\right )) as the sketch of (A). The main drawback of MinHash is, however, its (O(t\\cdot |A|)) running time, and finding a sketch with similar properties and faster running time has been the subject of several papers. (continued…)","headline":"Fast Similarity Sketching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dahlgaard2017fast/"},"url":"https://learning2hash.github.io/publications/dahlgaard2017fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"We consider the (\\textit{Similarity Sketching}) problem: Given a universe ([u] = \\{0,\\ldots, u-1\\}) we want a random function (S) mapping subsets (A\\subseteq [u]) into vectors (S(A)) of size (t), such that the Jaccard similarity (J(A,B) = |A\\cap B|/|A\\cup B|) between sets (A) and (B) is preserved. More precisely, define (X_i = [S(A)[i] = S(B)[i]]) and (X = \\sum_{i\\in [t]} X_i). We want (E[X_i]=J(A,B)), and we want (X) to be strongly concentrated around (E[X] = t \\cdot J(A,B)) (i.e. Chernoff-style bounds). This is a fundamental problem which has found numerous applications in data mining, large-scale classification, computer vision, similarity search, etc. via the classic MinHash algorithm. The vectors (S(A)) are also called (\\textit{sketches}). Strong concentration is critical, for often we want to sketch many sets (B_1,\\ldots,B_n) so that we later, for a query set (A), can find (one of) the most similar (B_i). It is then critical that no (B_i) looks much more similar to (A) due to errors in the sketch. The seminal (t\\times\\textit{MinHash}) algorithm uses (t) random hash functions (h_1,\\ldots, h_t), and stores (\\left ( \\min_{a\\in A} h_1(A),\\ldots, \\min_{a\\in A} h_t(A) \\right )) as the sketch of (A). The main drawback of MinHash is, however, its (O(t\\cdot |A|)) running time, and finding a sketch with similar properties and faster running time has been the subject of several papers. (continued…)","headline":"Fast Similarity Sketching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dahlgaard2017fast/"},"url":"https://learning2hash.github.io/publications/dahlgaard2017fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,19 +259,41 @@ papers. (continued…)</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Fast Similarity Sketching",
+        conference: "2017 IEEE 58th Annual Symposium on Foundations of Computer Science (FOCS)",
+        year: 2017,
+        tags: ["Locality-Sensitive-Hashing","Scalability","Similarity Search"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -279,7 +301,7 @@ papers. (continued…)</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

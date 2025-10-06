@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ren2020beyond/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Beyond The Deep Metric Learning: Enhance The Cross-modal Matching With Adversarial Discriminative Domain Regularization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Matching information across image and text modalities is a fundamental challenge for many applications that involve both vision and natural language processing. The objective is to find efficient similarity metrics to compare the similarity between visual and textual information. Existing approaches mainly match the local visual objects and the sentence words in a shared space with attention mechanisms. The matching performance is still limited because the similarity computation is based on simple comparisons of the matching features, ignoring the characteristics of their distribution in the data. In this paper, we address this limitation with an efficient learning objective that considers the discriminative feature distributions between the visual objects and sentence words. Specifically, we propose a novel Adversarial Discriminative Domain Regularization (ADDR) learning framework, beyond the paradigm metric learning objective, to construct a set of discriminative data domains within each image-text pairs. Our approach can generally improve the learning efficiency and the performance of existing metrics learning frameworks by regulating the distribution of the hidden space between the matching pairs. The experimental results show that this new approach significantly improves the overall performance of several popular cross-modal matching techniques (SCAN, VSRN, BFAN) on the MS-COCO and Flickr30K benchmarks.","headline":"Beyond The Deep Metric Learning: Enhance The Cross-modal Matching With Adversarial Discriminative Domain Regularization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ren2020beyond/"},"url":"https://learning2hash.github.io/publications/ren2020beyond/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Matching information across image and text modalities is a fundamental challenge for many applications that involve both vision and natural language processing. The objective is to find efficient similarity metrics to compare the similarity between visual and textual information. Existing approaches mainly match the local visual objects and the sentence words in a shared space with attention mechanisms. The matching performance is still limited because the similarity computation is based on simple comparisons of the matching features, ignoring the characteristics of their distribution in the data. In this paper, we address this limitation with an efficient learning objective that considers the discriminative feature distributions between the visual objects and sentence words. Specifically, we propose a novel Adversarial Discriminative Domain Regularization (ADDR) learning framework, beyond the paradigm metric learning objective, to construct a set of discriminative data domains within each image-text pairs. Our approach can generally improve the learning efficiency and the performance of existing metrics learning frameworks by regulating the distribution of the hidden space between the matching pairs. The experimental results show that this new approach significantly improves the overall performance of several popular cross-modal matching techniques (SCAN, VSRN, BFAN) on the MS-COCO and Flickr30K benchmarks.","headline":"Beyond The Deep Metric Learning: Enhance The Cross-modal Matching With Adversarial Discriminative Domain Regularization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ren2020beyond/"},"url":"https://learning2hash.github.io/publications/ren2020beyond/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,19 +262,41 @@ VSRN, BFAN) on the MS-COCO and Flickr30K benchmarks.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Beyond The Deep Metric Learning: Enhance The Cross-modal Matching With Adversarial Discriminative Domain Regularization",
+        conference: "Arxiv",
+        year: 2020,
+        tags: ["Distance Metric Learning","Efficiency","Evaluation","Robustness","Tools & Libraries"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -282,7 +304,7 @@ VSRN, BFAN) on the MS-COCO and Flickr30K benchmarks.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

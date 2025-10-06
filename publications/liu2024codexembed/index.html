@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2024codexembed/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Codexembed: A Generalist Embedding Model Family For Multiligual And Multi-task Code Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Despite the success of text retrieval in many NLP tasks, code retrieval remains a largely underexplored area. Most text retrieval systems are tailored for natural language queries, often neglecting the specific challenges of retrieving code. This gap leaves existing models unable to effectively capture the diversity of programming languages and tasks across different domains, highlighting the need for more focused research in code retrieval. To address this, we introduce CodeXEmbed, a family of large-scale code embedding models ranging from 400M to 7B parameters. Our novel training pipeline unifies multiple programming languages and transforms various code-related tasks into a common retrieval framework, enhancing model generalizability and retrieval performance. Our 7B model sets a new state-of-the-art (SOTA) in code retrieval, outperforming the previous leading model, Voyage-Code, by over 20% on CoIR benchmark. In addition to excelling in code retrieval, our models demonstrate competitive performance on the widely adopted BeIR text retrieval benchmark, offering versatility across domains. Experimental results demonstrate that improving retrieval performance significantly enhances end-to-end Retrieval-Augmented Generation (RAG) performance for code-related tasks.","headline":"Codexembed: A Generalist Embedding Model Family For Multiligual And Multi-task Code Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2024codexembed/"},"url":"https://learning2hash.github.io/publications/liu2024codexembed/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Despite the success of text retrieval in many NLP tasks, code retrieval remains a largely underexplored area. Most text retrieval systems are tailored for natural language queries, often neglecting the specific challenges of retrieving code. This gap leaves existing models unable to effectively capture the diversity of programming languages and tasks across different domains, highlighting the need for more focused research in code retrieval. To address this, we introduce CodeXEmbed, a family of large-scale code embedding models ranging from 400M to 7B parameters. Our novel training pipeline unifies multiple programming languages and transforms various code-related tasks into a common retrieval framework, enhancing model generalizability and retrieval performance. Our 7B model sets a new state-of-the-art (SOTA) in code retrieval, outperforming the previous leading model, Voyage-Code, by over 20% on CoIR benchmark. In addition to excelling in code retrieval, our models demonstrate competitive performance on the widely adopted BeIR text retrieval benchmark, offering versatility across domains. Experimental results demonstrate that improving retrieval performance significantly enhances end-to-end Retrieval-Augmented Generation (RAG) performance for code-related tasks.","headline":"Codexembed: A Generalist Embedding Model Family For Multiligual And Multi-task Code Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2024codexembed/"},"url":"https://learning2hash.github.io/publications/liu2024codexembed/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -258,19 +258,41 @@ Retrieval-Augmented Generation (RAG) performance for code-related tasks.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Codexembed: A Generalist Embedding Model Family For Multiligual And Multi-task Code Retrieval",
+        conference: "Arxiv",
+        year: 2024,
+        tags: ["Evaluation","Scalability","Text Retrieval","Tools & Libraries"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -278,7 +300,7 @@ Retrieval-Augmented Generation (RAG) performance for code-related tasks.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

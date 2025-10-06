@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/christiani2018confirmation/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Confirmation Sampling For Exact Nearest Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Locality-sensitive hashing (LSH), introduced by Indyk and Motwani in STOC ‘98, has been an extremely influential framework for nearest neighbor search in high-dimensional data sets. While theoretical work has focused on the approximate nearest neighbor problems, in practice LSH data structures with suitably chosen parameters are used to solve the exact nearest neighbor problem (with some error probability). Sublinear query time is often possible in practice even for exact nearest neighbor search, intuitively because the nearest neighbor tends to be significantly closer than other data points. However, theory offers little advice on how to choose LSH parameters outside of pre-specified worst-case settings. We introduce the technique of confirmation sampling for solving the exact nearest neighbor problem using LSH. First, we give a general reduction that transforms a sequence of data structures that each find the nearest neighbor with a small, unknown probability, into a data structure that returns the nearest neighbor with probability (1-\\delta), using as few queries as possible. Second, we present a new query algorithm for the LSH Forest data structure with (L) trees that is able to return the exact nearest neighbor of a query point within the same time bound as an LSH Forest of (Ω(L)) trees with internal parameters specifically tuned to the query and data.","headline":"Confirmation Sampling For Exact Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/christiani2018confirmation/"},"url":"https://learning2hash.github.io/publications/christiani2018confirmation/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Locality-sensitive hashing (LSH), introduced by Indyk and Motwani in STOC ‘98, has been an extremely influential framework for nearest neighbor search in high-dimensional data sets. While theoretical work has focused on the approximate nearest neighbor problems, in practice LSH data structures with suitably chosen parameters are used to solve the exact nearest neighbor problem (with some error probability). Sublinear query time is often possible in practice even for exact nearest neighbor search, intuitively because the nearest neighbor tends to be significantly closer than other data points. However, theory offers little advice on how to choose LSH parameters outside of pre-specified worst-case settings. We introduce the technique of confirmation sampling for solving the exact nearest neighbor problem using LSH. First, we give a general reduction that transforms a sequence of data structures that each find the nearest neighbor with a small, unknown probability, into a data structure that returns the nearest neighbor with probability (1-\\delta), using as few queries as possible. Second, we present a new query algorithm for the LSH Forest data structure with (L) trees that is able to return the exact nearest neighbor of a query point within the same time bound as an LSH Forest of (Ω(L)) trees with internal parameters specifically tuned to the query and data.","headline":"Confirmation Sampling For Exact Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/christiani2018confirmation/"},"url":"https://learning2hash.github.io/publications/christiani2018confirmation/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -260,19 +260,41 @@ parameters specifically tuned to the query and data.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Confirmation Sampling For Exact Nearest Neighbor Search",
+        conference: "Arxiv",
+        year: 2018,
+        tags: ["Efficiency","Hashing Methods","Locality-Sensitive-Hashing","Tools & Libraries"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -280,7 +302,7 @@ parameters specifically tuned to the query and data.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2022hs/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="HS-GCN: Hamming Spatial Graph Convolutional Networks For Recommendation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"An efficient solution to the large-scale recommender system is to represent users and items as binary hash codes in the Hamming space. Towards this end, existing methods tend to code users by modeling their Hamming similarities with the items they historically interact with, which are termed as the first-order similarities in this work. Despite their efficiency, these methods suffer from the suboptimal representative capacity, since they forgo the correlation established by connecting multiple first-order similarities, i.e., the relation among the indirect instances, which could be defined as the high-order similarity. To tackle this drawback, we propose to model both the first- and the high-order similarities in the Hamming space through the user-item bipartite graph. Therefore, we develop a novel learning to hash framework, namely Hamming Spatial Graph Convolutional Networks (HS-GCN), which explicitly models the Hamming similarity and embeds it into the codes of users and items. Extensive experiments on three public benchmark datasets demonstrate that our proposed model significantly outperforms several state-of-the-art hashing models, and obtains performance comparable with the real-valued recommendation models.","headline":"HS-GCN: Hamming Spatial Graph Convolutional Networks For Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2022hs/"},"url":"https://learning2hash.github.io/publications/liu2022hs/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"An efficient solution to the large-scale recommender system is to represent users and items as binary hash codes in the Hamming space. Towards this end, existing methods tend to code users by modeling their Hamming similarities with the items they historically interact with, which are termed as the first-order similarities in this work. Despite their efficiency, these methods suffer from the suboptimal representative capacity, since they forgo the correlation established by connecting multiple first-order similarities, i.e., the relation among the indirect instances, which could be defined as the high-order similarity. To tackle this drawback, we propose to model both the first- and the high-order similarities in the Hamming space through the user-item bipartite graph. Therefore, we develop a novel learning to hash framework, namely Hamming Spatial Graph Convolutional Networks (HS-GCN), which explicitly models the Hamming similarity and embeds it into the codes of users and items. Extensive experiments on three public benchmark datasets demonstrate that our proposed model significantly outperforms several state-of-the-art hashing models, and obtains performance comparable with the real-valued recommendation models.","headline":"HS-GCN: Hamming Spatial Graph Convolutional Networks For Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2022hs/"},"url":"https://learning2hash.github.io/publications/liu2022hs/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,19 +264,41 @@ models.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "HS-GCN: Hamming Spatial Graph Convolutional Networks For Recommendation",
+        conference: "IEEE Transactions on Knowledge and Data Engineering",
+        year: 2022,
+        tags: ["Datasets","Efficiency","Evaluation","Hashing Methods","Recommender Systems","Scalability","Tools & Libraries"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -284,7 +306,7 @@ models.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

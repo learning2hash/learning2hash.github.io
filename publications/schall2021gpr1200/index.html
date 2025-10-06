@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/schall2021gpr1200/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="GPR1200: A Benchmark For General-purpose Content-based Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"Even though it has extensively been shown that retrieval specific training of deep neural networks is beneficial for nearest neighbor image search quality, most of these models are trained and tested in the domain of landmarks images. However, some applications use images from various other domains and therefore need a network with good generalization properties - a general-purpose CBIR model. To the best of our knowledge, no testing protocol has so far been introduced to benchmark models with respect to general image retrieval quality. After analyzing popular image retrieval test sets we decided to manually curate GPR1200, an easy to use and accessible but challenging benchmark dataset with a broad range of image categories. This benchmark is subsequently used to evaluate various pretrained models of different architectures on their generalization qualities. We show that large-scale pretraining significantly improves retrieval performance and present experiments on how to further increase these properties by appropriate fine-tuning. With these promising results, we hope to increase interest in the research topic of general-purpose CBIR.","headline":"GPR1200: A Benchmark For General-purpose Content-based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/schall2021gpr1200/"},"url":"https://learning2hash.github.io/publications/schall2021gpr1200/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"Even though it has extensively been shown that retrieval specific training of deep neural networks is beneficial for nearest neighbor image search quality, most of these models are trained and tested in the domain of landmarks images. However, some applications use images from various other domains and therefore need a network with good generalization properties - a general-purpose CBIR model. To the best of our knowledge, no testing protocol has so far been introduced to benchmark models with respect to general image retrieval quality. After analyzing popular image retrieval test sets we decided to manually curate GPR1200, an easy to use and accessible but challenging benchmark dataset with a broad range of image categories. This benchmark is subsequently used to evaluate various pretrained models of different architectures on their generalization qualities. We show that large-scale pretraining significantly improves retrieval performance and present experiments on how to further increase these properties by appropriate fine-tuning. With these promising results, we hope to increase interest in the research topic of general-purpose CBIR.","headline":"GPR1200: A Benchmark For General-purpose Content-based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/schall2021gpr1200/"},"url":"https://learning2hash.github.io/publications/schall2021gpr1200/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,19 +257,41 @@ CBIR.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "GPR1200: A Benchmark For General-purpose Content-based Image Retrieval",
+        conference: "Lecture Notes in Computer Science",
+        year: 2022,
+        tags: ["Datasets","Evaluation","Image Retrieval","Scalability"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -277,7 +299,7 @@ CBIR.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

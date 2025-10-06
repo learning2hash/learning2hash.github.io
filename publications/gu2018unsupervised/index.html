@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/gu2018unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"In social media like Twitter, hashtags carry a lot of semantic information and can be easily distinguished from the main text. Exploring and visualizing the space of hashtags in a meaningful way can offer important insights into a dataset, especially in crisis situations. In this demonstration paper, we present a functioning prototype, HashViz, that ingests a corpus of tweets collected in the aftermath of a crisis situation (such as the Las Vegas shootings) and uses the fastText bag-of-tricks semantic embedding algorithm (from Facebook Research) to embed words and hashtags into a vector space. Hashtag vectors obtained in this way can be visualized using the t-SNE dimensionality reduction algorithm in 2D. Although multiple Twitter visualization platforms exist, HashViz is distinguished by being simple, scalable, interactive and portable enough to be deployed on a server for million-tweet corpora collected in the aftermath of arbitrary disasters, without special-purpose installation, technical expertise, manual supervision or costly software or infrastructure investment. Although simple, we show that HashViz offers an intuitive way to summarize, and gain insight into, a developing crisis situation. HashViz is also completely unsupervised, requiring no manual inputs to go from a raw corpus to a visualization and search interface. Using the recent Las Vegas mass shooting massacre as a case study, we illustrate the potential of HashViz using only a web browser on the client side.","headline":"Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gu2018unsupervised/"},"url":"https://learning2hash.github.io/publications/gu2018unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"In social media like Twitter, hashtags carry a lot of semantic information and can be easily distinguished from the main text. Exploring and visualizing the space of hashtags in a meaningful way can offer important insights into a dataset, especially in crisis situations. In this demonstration paper, we present a functioning prototype, HashViz, that ingests a corpus of tweets collected in the aftermath of a crisis situation (such as the Las Vegas shootings) and uses the fastText bag-of-tricks semantic embedding algorithm (from Facebook Research) to embed words and hashtags into a vector space. Hashtag vectors obtained in this way can be visualized using the t-SNE dimensionality reduction algorithm in 2D. Although multiple Twitter visualization platforms exist, HashViz is distinguished by being simple, scalable, interactive and portable enough to be deployed on a server for million-tweet corpora collected in the aftermath of arbitrary disasters, without special-purpose installation, technical expertise, manual supervision or costly software or infrastructure investment. Although simple, we show that HashViz offers an intuitive way to summarize, and gain insight into, a developing crisis situation. HashViz is also completely unsupervised, requiring no manual inputs to go from a raw corpus to a visualization and search interface. Using the recent Las Vegas mass shooting massacre as a case study, we illustrate the potential of HashViz using only a web browser on the client side.","headline":"Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gu2018unsupervised/"},"url":"https://learning2hash.github.io/publications/gu2018unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -258,19 +258,41 @@ side.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Unsupervised Hashtag Retrieval And Visualization For Crisis Informatics",
+        conference: "Arxiv",
+        year: 2018,
+        tags: ["Datasets","Unsupervised"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -278,7 +300,7 @@ side.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

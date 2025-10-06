@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yan2017privmin/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Privmin: Differentially Private Minhash For Jaccard Similarity Computation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"In many industrial applications of big data, the Jaccard Similarity Computation has been widely used to measure the distance between two profiles or sets respectively owned by two users. Yet, one semi-honest user with unpredictable knowledge may also deduce the private or sensitive information (e.g., the existence of a single element in the original sets) of the other user via the shared similarity. In this paper, we aim at solving the privacy issues in Jaccard similarity computation with strict differential privacy guarantees. To achieve this, we first define the Conditional (\\epsilon)-DPSO, a relaxed differential privacy definition regarding set operations, and prove that the MinHash-based Jaccard Similarity Computation (MH-JSC) satisfies this definition. Then for achieving strict differential privacy in MH-JSC, we propose the PrivMin algorithm, which consists of two private operations: 1) the Private MinHash Value Generation that works by introducing the Exponential noise to the generation of MinHash signature. 2) the Randomized MinHashing Steps Selection that works by adopting Randomized Response technique to privately select several steps within the MinHashing phase that are deployed with the Exponential mechanism. Experiments on real datasets demonstrate that the proposed PrivMin algorithm can successfully retain the utility of the computed similarity while preserving privacy.","headline":"Privmin: Differentially Private Minhash For Jaccard Similarity Computation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yan2017privmin/"},"url":"https://learning2hash.github.io/publications/yan2017privmin/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"In many industrial applications of big data, the Jaccard Similarity Computation has been widely used to measure the distance between two profiles or sets respectively owned by two users. Yet, one semi-honest user with unpredictable knowledge may also deduce the private or sensitive information (e.g., the existence of a single element in the original sets) of the other user via the shared similarity. In this paper, we aim at solving the privacy issues in Jaccard similarity computation with strict differential privacy guarantees. To achieve this, we first define the Conditional (\\epsilon)-DPSO, a relaxed differential privacy definition regarding set operations, and prove that the MinHash-based Jaccard Similarity Computation (MH-JSC) satisfies this definition. Then for achieving strict differential privacy in MH-JSC, we propose the PrivMin algorithm, which consists of two private operations: 1) the Private MinHash Value Generation that works by introducing the Exponential noise to the generation of MinHash signature. 2) the Randomized MinHashing Steps Selection that works by adopting Randomized Response technique to privately select several steps within the MinHashing phase that are deployed with the Exponential mechanism. Experiments on real datasets demonstrate that the proposed PrivMin algorithm can successfully retain the utility of the computed similarity while preserving privacy.","headline":"Privmin: Differentially Private Minhash For Jaccard Similarity Computation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yan2017privmin/"},"url":"https://learning2hash.github.io/publications/yan2017privmin/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -258,19 +258,41 @@ computed similarity while preserving privacy.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "Privmin: Differentially Private Minhash For Jaccard Similarity Computation",
+        conference: "Arxiv",
+        year: 2017,
+        tags: ["Datasets","Locality-Sensitive-Hashing","Privacy & Security"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -278,7 +300,7 @@ computed similarity while preserving privacy.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kaga2019pdh/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-05T14:17:16-05:00" />
+<meta property="article:published_time" content="2025-10-06T03:08:49-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="PDH : Probabilistic Deep Hashing Based On MAP Estimation Of Hamming Distance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-05T14:17:16-05:00","datePublished":"2025-10-05T14:17:16-05:00","description":"With the growth of image on the web, research on hashing which enables high-speed image retrieval has been actively studied. In recent years, various hashing methods based on deep neural networks have been proposed and achieved higher precision than the other hashing methods. In these methods, multiple losses for hash codes and the parameters of neural networks are defined. They generate hash codes that minimize the weighted sum of the losses. Therefore, an expert has to tune the weights for the losses heuristically, and the probabilistic optimality of the loss function cannot be explained. In order to generate explainable hash codes without weight tuning, we theoretically derive a single loss function with no hyperparameters for the hash code from the probability distribution of the images. By generating hash codes that minimize this loss function, highly accurate image retrieval with probabilistic optimality is performed. We evaluate the performance of hashing using MNIST, CIFAR-10, SVHN and show that the proposed method outperforms the state-of-the-art hashing methods.","headline":"PDH : Probabilistic Deep Hashing Based On MAP Estimation Of Hamming Distance","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kaga2019pdh/"},"url":"https://learning2hash.github.io/publications/kaga2019pdh/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T03:08:49-05:00","datePublished":"2025-10-06T03:08:49-05:00","description":"With the growth of image on the web, research on hashing which enables high-speed image retrieval has been actively studied. In recent years, various hashing methods based on deep neural networks have been proposed and achieved higher precision than the other hashing methods. In these methods, multiple losses for hash codes and the parameters of neural networks are defined. They generate hash codes that minimize the weighted sum of the losses. Therefore, an expert has to tune the weights for the losses heuristically, and the probabilistic optimality of the loss function cannot be explained. In order to generate explainable hash codes without weight tuning, we theoretically derive a single loss function with no hyperparameters for the hash code from the probability distribution of the images. By generating hash codes that minimize this loss function, highly accurate image retrieval with probabilistic optimality is performed. We evaluate the performance of hashing using MNIST, CIFAR-10, SVHN and show that the proposed method outperforms the state-of-the-art hashing methods.","headline":"PDH : Probabilistic Deep Hashing Based On MAP Estimation Of Hamming Distance","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kaga2019pdh/"},"url":"https://learning2hash.github.io/publications/kaga2019pdh/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,19 +256,41 @@ state-of-the-art hashing methods.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: "PDH : Probabilistic Deep Hashing Based On MAP Estimation Of Hamming Distance",
+        conference: "2019 26th IEEE International Conference on Image Processing (ICIP)",
+        year: 2019,
+        tags: ["Evaluation","Hashing Methods","Image Retrieval","Neural Hashing"]
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -276,7 +298,7 @@ state-of-the-art hashing methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
