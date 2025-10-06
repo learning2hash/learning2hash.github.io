@@ -75,19 +75,41 @@ layout: default
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // Share logic
-      const pageUrl = encodeURIComponent(window.location.href);
-      const pageTitle = encodeURIComponent("📄 " + document.title + " – via Awesome LLM Papers");
+      // ------- Share logic with auto-written post text -------
+      // Liquid -> JS bridge for safe meta usage
+      const meta = {
+        title: {{ page.title | jsonify }},
+        conference: {{ page.conference | default: "" | jsonify }},
+        year: {{ page.year | default: "" | jsonify }},
+        tags: {{ page.tags | default: empty | jsonify }}
+      };
 
-      const twitterBtn = document.getElementById('share-twitter');
+      const pageUrl = encodeURIComponent(window.location.href);
+
+      // Compose tweet text: Title — Conference (Year)
+      let tweetText = `New paper: ${meta.title}`;
+      if (meta.conference) tweetText += ` — ${meta.conference}`;
+      if (meta.year) tweetText += ` (${meta.year})`;
+      tweetText += ` 🔍`;
+
+      // Build up to 3 hashtags from tags (alnum only)
+      const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
+        .slice(0, 3)
+        .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
+        .filter(Boolean)
+        .join(',');
+
+      // Buttons
+      const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
-      const copyBtn = document.getElementById('share-copy');
+      const copyBtn     = document.getElementById('share-copy');
 
       if (twitterBtn) {
         twitterBtn.addEventListener('click', () => {
-          const customText = encodeURIComponent(`New paper worth reading: ${document.title} 🔍`);
+          const customText = encodeURIComponent(tweetText);
+          const hashParam  = hashtags ? `&hashtags=${encodeURIComponent(hashtags)}` : '';
           window.open(
-            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}&hashtags=AI,LLM,Papers`,
+            `https://twitter.com/intent/tweet?text=${customText}&url=${pageUrl}${hashParam}`,
             '_blank', 'noopener,noreferrer'
           );
         });
@@ -95,7 +117,7 @@ layout: default
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn only supports URL shares (text prefill disallowed)
+          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
