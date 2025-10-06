@@ -7,7 +7,7 @@ description: Explore prolific authors and their contributions across Learning to
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🔍 Author Explorer</h2>
 <p style="font-size: 1.1em;">
   Discover leading contributors in Learning to Hash research. Sort by paper count, citations, or timeline sparkline, color-coded by
-  community, and click “View” to explore each author’s co-author graph.
+  community, and click "View" to explore each author's co-author graph.
 </p>
 <p style="font-size: 0.95em;">
   🔍 Authors are color-coded by
@@ -78,10 +78,10 @@ description: Explore prolific authors and their contributions across Learning to
   <ul id="papers-list" style="font-size:0.95em;"></ul>
 </div>
 
-<!-- External CSS -->
-<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
-<link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.4.1/css/buttons.dataTables.min.css" />
-<link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.5.0/css/responsive.dataTables.min.css" />
+<!-- Self-hosted CSS (DataTables core + Buttons + Responsive) -->
+<link rel="stylesheet" href="{{ '/assets/vendor/datatables-1.13.6.min.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/vendor/dataTables.buttons-2.4.1.min.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/vendor/dataTables.responsive-2.5.0.min.css' | relative_url }}">
 
 <style>
   /* === Search bar style (copied from Tags page) === */
@@ -97,32 +97,47 @@ description: Explore prolific authors and their contributions across Learning to
     background-color: #f8f9fa;
   }
   .search input:focus { outline:none; border-color:#0c5fce; box-shadow:0 0 0 2px rgba(26,115,232,.25); }
-  .search button {
-    padding: .25rem .5rem;
-    font-size: .85rem;
-    border: 1px solid #aaa;
-    border-radius: 4px;
-    background: #f8f9fa;
-    cursor: pointer;
-  }
+  .search button { padding: .25rem .5rem; font-size: .85rem; border: 1px solid #aaa; border-radius: 4px; background: #f8f9fa; cursor: pointer; }
   .search button:hover { background:#e2e2e2; }
   .small { color:#6b7280; font-size:.9em; }
 
-  /* Hide DataTables’ default search bar since we’re using our own */
+  /* Hide DataTables' default search bar since we're using our own */
   .dataTables_filter{ display:none !important; }
+
+  /* Let Responsive decide when to hide columns (no inner scroll frame) */
+  #author-table {
+    width: 100% !important;
+    max-width: 100%;
+    table-layout: auto;
+  }
+  .dataTables_wrapper {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  #author-table thead th { white-space: nowrap; }
+  #author-table tbody td { word-break: break-word; }
+  .sparkline { display:inline-block; min-width: 80px; }
+  #author-table td:nth-child(10), #author-table td:nth-child(11) { white-space: normal; }
+
+  @media screen and (max-width: 768px) {
+    #author-table { font-size: 0.9em; }
+    #author-table th, #author-table td { padding: 8px 4px; }
+  }
 
   .tooltip-wrapper { position: relative; display: inline-block; }
   .hover-explainer { text-decoration: dotted underline; cursor: help; color: #0056b3; font-weight: 500; }
   .tooltip-content {
     visibility: hidden; background-color: #f9f9f9; color: #000; text-align: left; border-radius: 6px; padding: 10px;
     border: 1px solid #ccc; position: absolute; z-index: 100; width: max-content; max-width: 280px; top: 120%; left: 0;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); font-size: 0.85em; white-space: pre-line;
+    box-shadow:0 0 10px rgba(0,0,0,.1); font-size:.85em; white-space: pre-line;
   }
   .tooltip-wrapper:hover .tooltip-content { visibility: visible; }
 
   #author-table tbody td:nth-child(2) { cursor: pointer; color: #0074D9; text-decoration: underline; }
 
-  #network-modal, #papers-modal { transition: opacity 0.3s ease; }
+  #network-modal, #papers-modal { transition: opacity .3s ease; }
   #network-modal { overflow: auto; }
 
   #loading {
@@ -139,28 +154,27 @@ description: Explore prolific authors and their contributions across Learning to
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0,0,0,.08);
   }
-  .highlight { background-color: #fffbcc !important; transition: background-color 0.5s ease; }
 
-  /* Prevent sparkline canvases from collapsing on mobile */
-  .sparkline { display:inline-block; min-width: 80px; }
-  .jqstooltip { max-width: 100% !important; }
+  .highlight { background-color:#fffbcc !important; transition: background-color .5s ease; }
+
+  /* column-based responsive control arrow */
+  table.dataTable tbody td.dtr-control { cursor: pointer; }
+  table.dataTable tbody td.dtr-control:before { top: 50%; transform: translateY(-50%); }
 </style>
 
-<!-- Core JS (ensure jQuery & DataTables core are present BEFORE plugins) -->
-<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+<!-- Self-hosted JS (order matters: jQuery → DataTables core → Buttons/Responsive → Sparkline → D3) -->
+<script src="{{ '/assets/vendor/jquery-3.6.0.min.js' | relative_url }}"></script>
+<script src="{{ '/assets/vendor/datatables-1.13.6.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/vendor/dataTables.buttons-2.4.1.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/vendor/buttons.colVis-2.4.1.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/vendor/dataTables.responsive-2.5.0.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/vendor/jquery.sparkline-2.4.0.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/vendor/d3.v7.min.js' | relative_url }}" defer></script>
 
-<!-- Extras not in head: keep these, but defer them -->
-<script src="https://cdn.datatables.net/buttons/2.4.1/js/dataTables.buttons.min.js" defer></script>
-<script src="https://cdn.datatables.net/buttons/2.4.1/js/buttons.colVis.min.js" defer></script>
-<script src="https://cdn.datatables.net/responsive/2.5.0/js/dataTables.responsive.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery-sparkline@2.4.0/jquery.sparkline.min.js" defer></script>
-<script src="https://d3js.org/d3.v7.min.js" defer></script>
-
-<!-- Main Script (deferred so it runs after all of the above + head scripts) -->
+<!-- Main Script -->
 <script defer>
   let authorData;
-  let authorTable; // global for search bar access
+  let authorTable;
 
   fetch('author_stats.json')
     .then(res => res.json())
@@ -170,16 +184,16 @@ description: Explore prolific authors and their contributions across Learning to
       $('#author-table').show();
       $('#authorControls').show();
       initAuthorTable(data);
-      initAuthorSearchBar(); // wire up external search once table is ready
+      initAuthorSearchBar();
     })
     .catch(err => {
       console.error('Error loading author stats', err);
       $('#loading').hide();
-      $('#author-table').after(`<div style="color:red; margin-top:10px;">Error loading author data.</div>`);
+      $('#author-table').after('<div style="color:red; margin-top:10px;">Error loading author data.</div>');
     });
 
   function toTitleCase(name) {
-    return name.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    return name.split(' ').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
   }
 
   function initAuthorSearchBar(){
@@ -187,30 +201,16 @@ description: Explore prolific authors and their contributions across Learning to
     const reset = document.getElementById('resetAuthorSearch');
     const count = document.getElementById('authorVisibleCount');
 
-    function updateCount(){
-      if (!authorTable) return;
-      count.textContent = authorTable.rows({ filter: 'applied' }).count() + ' rows';
-    }
-
-    function doSearch(){
-      if (!authorTable) return;
-      const q = (input.value || '').trim();
-      authorTable.search(q).draw();
-      updateCount();
-    }
+    const updateCount = () => count.textContent = authorTable ? authorTable.rows({ filter: 'applied' }).count() + ' rows' : '';
+    const doSearch = () => { if (!authorTable) return; authorTable.search((input.value||'').trim()).draw(); updateCount(); };
 
     input.addEventListener('input', doSearch);
     reset.addEventListener('click', () => { input.value=''; doSearch(); input.focus(); });
-
     document.addEventListener('keydown', (e) => {
-      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
-        e.preventDefault(); input.focus();
-      } else if (e.key === 'Escape') {
-        input.value=''; doSearch();
-      }
+      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); input.focus(); }
+      else if (e.key === 'Escape') { input.value=''; doSearch(); }
     });
 
-    // initial count after table render
     setTimeout(updateCount, 0);
   }
 
@@ -258,7 +258,6 @@ description: Explore prolific authors and their contributions across Learning to
                 </a>`;
       }).join(' ');
 
-      // NOTE: sparkline now stores data in attributes (no innerText)
       const sparkCell = `<span class="sparkline" data-years="${years.join(',')}" data-values="${spark}"></span>`;
 
       return [
@@ -280,40 +279,56 @@ description: Explore prolific authors and their contributions across Learning to
     authorTable = $('#author-table').DataTable({
       data: rows,
       dom: 'Bfrtip',
-      responsive: { details: true },
+      buttons: [
+        { extend: 'colvis', text: 'Columns' }
+      ],
+      responsive: {
+        breakpoints: [
+          { name: 'xl', width: Infinity },
+          { name: 'lg', width: 1200 },
+          { name: 'md', width: 992 },
+          { name: 'sm', width: 768 },
+          { name: 'xs', width: 576 }
+        ],
+        details: {
+          type: 'column',
+          target: 'td.dtr-control',
+          display: $.fn.dataTable.Responsive.display.childRow,
+          renderer: $.fn.dataTable.Responsive.renderer.tableAll()
+        }
+      },
       order: [[1, 'desc']],
       pageLength: 100,
       lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
+      scrollX: false,
+      autoWidth: false,
       columnDefs: [
         { targets: [9, 10, 11], orderable: false },
+        { className: 'dtr-control', orderable: false, targets: 0 },
 
-        /* Make the sparkline column stay visible on small screens */
-        { className: 'all', targets: 9 },   // 👈 ensures sparkline never moves to child row
-
-        { responsivePriority: 1, targets: 0 },   // 👤 Author
-        { responsivePriority: 2, targets: 9 },   // 📈 Paper Count Timeline
-        { responsivePriority: 3, targets: 11 },  // 🔗 Network
-        { responsivePriority: 4, targets: 1 },   // 📄 Papers
-        { responsivePriority: 5, targets: 2 },   // 📊 Citations
-        { responsivePriority: 6, targets: 10 },  // 🏷️ Tags
+        { responsivePriority: 1, targets: 0 },
+        { responsivePriority: 2, targets: 11 },
+        { responsivePriority: 3, targets: 1 },
+        { responsivePriority: 4, targets: 2 },
+        { responsivePriority: 5, targets: 9 },
+        { responsivePriority: 6, targets: 10 },
         { responsivePriority: 7, targets: 3 },
         { responsivePriority: 8, targets: 4 },
         { responsivePriority: 9, targets: 5 },
-        { responsivePriority: 10, targets: 6 },
-        { responsivePriority: 11, targets: 7 },
-        { responsivePriority: 12, targets: 8 },
+        { responsivePriority:10, targets: 6 },
+        { responsivePriority:11, targets: 7 },
+        { responsivePriority:12, targets: 8 }
       ]
     });
 
-    /* ---------- Sparkline helpers (robust on mobile & in child rows) ---------- */
+    /* ---------- Sparkline helpers ---------- */
     function initSparkline($el) {
       const valuesAttr = $el.attr('data-values') || '';
       const values = valuesAttr.split(',').filter(Boolean).map(Number);
       const years = ($el.attr('data-years') || '').split(',');
 
-      // Compute a width that works even after responsive reflow
       const computed = $el.width() || 0;
-      const width = Math.max(computed, values.length * 9, 80); // 9px ≈ 7 bar + 2 spacing
+      const width = Math.max(computed, values.length * 9, 80);
 
       $el.sparkline(values, {
         type: 'bar',
@@ -336,16 +351,13 @@ description: Explore prolific authors and their contributions across Learning to
       });
     }
 
-    // Initial render + re-render on table draw/resize
     drawSparks(document);
     authorTable.on('draw responsive-resize', () => drawSparks(document));
     $(window).on('resize', () => drawSparks(document));
 
-    // Re-render when a row is expanded into a child row
     authorTable.on('responsive-display', (e, dt, row, show) => {
       if (show) {
         const $child = $(row.node()).next('tr.child');
-        // Allow layout to settle so widths are non-zero
         setTimeout(() => drawSparks($child), 0);
       }
     });
@@ -484,12 +496,12 @@ description: Explore prolific authors and their contributions across Learning to
     }
 
     const legendData = [
-      '🖱️ Click: Expand author’s network',
-      '⇧+🖱️ Shift+Click: Jump to author in table',
-      '👆 Hover: View stats',
-      '🌈 Color: Community',
-      '🔴 Red border: Current author',
-      '📏 Size: Co-authors'
+      `🖱️ Click: Expand author's network`,
+      `⇧+🖱️ Shift+Click: Jump to author in table`,
+      `👆 Hover: View stats`,
+      `🌈 Color: Community`,
+      `🔴 Red border: Current author`,
+      `📏 Size: Co-authors`
     ];
     const temp = svg.append('text').attr('font-size', '12px').style('visibility', 'hidden');
     let maxW = 0; legendData.forEach(line => { temp.text(line); maxW = Math.max(maxW, temp.node().getComputedTextLength()); });
