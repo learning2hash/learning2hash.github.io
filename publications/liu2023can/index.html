@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2023can/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Can LSH (locality-sensitive Hashing) Be Replaced By Neural Network?" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"With the rapid development of GPU (Graphics Processing Unit) technologies and neural networks, we can explore more appropriate data structures and algorithms. Recent progress shows that neural networks can partly replace traditional data structures. In this paper, we proposed a novel DNN (Deep Neural Network)-based learned locality-sensitive hashing, called LLSH, to efficiently and flexibly map high-dimensional data to low-dimensional space. LLSH replaces the traditional LSH (Locality-sensitive Hashing) function families with parallel multi-layer neural networks, which reduces the time and memory consumption and guarantees query accuracy simultaneously. The proposed LLSH demonstrate the feasibility of replacing the hash index with learning-based neural networks and open a new door for developers to design and configure data organization more accurately to improve information-searching performance. Extensive experiments on different types of datasets show the superiority of the proposed method in query accuracy, time consumption, and memory usage.","headline":"Can LSH (locality-sensitive Hashing) Be Replaced By Neural Network?","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2023can/"},"url":"https://learning2hash.github.io/publications/liu2023can/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"With the rapid development of GPU (Graphics Processing Unit) technologies and neural networks, we can explore more appropriate data structures and algorithms. Recent progress shows that neural networks can partly replace traditional data structures. In this paper, we proposed a novel DNN (Deep Neural Network)-based learned locality-sensitive hashing, called LLSH, to efficiently and flexibly map high-dimensional data to low-dimensional space. LLSH replaces the traditional LSH (Locality-sensitive Hashing) function families with parallel multi-layer neural networks, which reduces the time and memory consumption and guarantees query accuracy simultaneously. The proposed LLSH demonstrate the feasibility of replacing the hash index with learning-based neural networks and open a new door for developers to design and configure data organization more accurately to improve information-searching performance. Extensive experiments on different types of datasets show the superiority of the proposed method in query accuracy, time consumption, and memory usage.","headline":"Can LSH (locality-sensitive Hashing) Be Replaced By Neural Network?","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2023can/"},"url":"https://learning2hash.github.io/publications/liu2023can/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ memory usage.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Can LSH (locality-sensitive Hashing) Be Replaced By Neural Network?",
         conference: "Soft Computing",
@@ -300,7 +299,6 @@ memory usage.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ memory usage.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

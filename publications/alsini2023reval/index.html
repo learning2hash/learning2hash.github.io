@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/alsini2023reval/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="#REVAL: A Semantic Evaluation Framework For Hashtag Recommendation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Automatic evaluation of hashtag recommendation models is a fundamental task in many online social network systems. In the traditional evaluation method, the recommended hashtags from an algorithm are firstly compared with the ground truth hashtags for exact correspondences. The number of exact matches is then used to calculate the hit rate, hit ratio, precision, recall, or F1-score. This way of evaluating hashtag similarities is inadequate as it ignores the semantic correlation between the recommended and ground truth hashtags. To tackle this problem, we propose a novel semantic evaluation framework for hashtag recommendation, called #REval. This framework includes an internal module referred to as BERTag, which automatically learns the hashtag embeddings. We investigate on how the #REval framework performs under different word embedding methods and different numbers of synonyms and hashtags in the recommendation using our proposed #REval-hit-ratio measure. Our experiments of the proposed framework on three large datasets show that #REval gave more meaningful hashtag synonyms for hashtag recommendation evaluation. Our analysis also highlights the sensitivity of the framework to the word embedding technique, with #REval based on BERTag more superior over #REval based on FastText and Word2Vec.","headline":"#REVAL: A Semantic Evaluation Framework For Hashtag Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/alsini2023reval/"},"url":"https://learning2hash.github.io/publications/alsini2023reval/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Automatic evaluation of hashtag recommendation models is a fundamental task in many online social network systems. In the traditional evaluation method, the recommended hashtags from an algorithm are firstly compared with the ground truth hashtags for exact correspondences. The number of exact matches is then used to calculate the hit rate, hit ratio, precision, recall, or F1-score. This way of evaluating hashtag similarities is inadequate as it ignores the semantic correlation between the recommended and ground truth hashtags. To tackle this problem, we propose a novel semantic evaluation framework for hashtag recommendation, called #REval. This framework includes an internal module referred to as BERTag, which automatically learns the hashtag embeddings. We investigate on how the #REval framework performs under different word embedding methods and different numbers of synonyms and hashtags in the recommendation using our proposed #REval-hit-ratio measure. Our experiments of the proposed framework on three large datasets show that #REval gave more meaningful hashtag synonyms for hashtag recommendation evaluation. Our analysis also highlights the sensitivity of the framework to the word embedding technique, with #REval based on BERTag more superior over #REval based on FastText and Word2Vec.","headline":"#REVAL: A Semantic Evaluation Framework For Hashtag Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/alsini2023reval/"},"url":"https://learning2hash.github.io/publications/alsini2023reval/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ based on BERTag more superior over #REval based on FastText and Word2Vec.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "#REVAL: A Semantic Evaluation Framework For Hashtag Recommendation",
         conference: "Arxiv",
@@ -300,7 +299,6 @@ based on BERTag more superior over #REval based on FastText and Word2Vec.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ based on BERTag more superior over #REval based on FastText and Word2Vec.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

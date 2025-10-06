@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/klein2021learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Query Expansion Over The Nearest Neighbor Graph" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Query Expansion (QE) is a well established method for improving retrieval metrics in image search applications. When using QE, the search is conducted on a new query vector, constructed using an aggregation function over the query and images from the database. Recent works gave rise to QE techniques in which the aggregation function is learned, whereas previous techniques were based on hand-crafted aggregation functions, e.g., taking the mean of the query’s nearest neighbors. However, most QE methods have focused on aggregation functions that work directly over the query and its immediate nearest neighbors. In this work, a hierarchical model, Graph Query Expansion (GQE), is presented, which is learned in a supervised manner and performs aggregation over an extended neighborhood of the query, thus increasing the information used from the database when computing the query expansion, and using the structure of the nearest neighbors graph. The technique achieves state-of-the-art results over known benchmarks.","headline":"Learning Query Expansion Over The Nearest Neighbor Graph","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/klein2021learning/"},"url":"https://learning2hash.github.io/publications/klein2021learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Query Expansion (QE) is a well established method for improving retrieval metrics in image search applications. When using QE, the search is conducted on a new query vector, constructed using an aggregation function over the query and images from the database. Recent works gave rise to QE techniques in which the aggregation function is learned, whereas previous techniques were based on hand-crafted aggregation functions, e.g., taking the mean of the query’s nearest neighbors. However, most QE methods have focused on aggregation functions that work directly over the query and its immediate nearest neighbors. In this work, a hierarchical model, Graph Query Expansion (GQE), is presented, which is learned in a supervised manner and performs aggregation over an extended neighborhood of the query, thus increasing the information used from the database when computing the query expansion, and using the structure of the nearest neighbors graph. The technique achieves state-of-the-art results over known benchmarks.","headline":"Learning Query Expansion Over The Nearest Neighbor Graph","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/klein2021learning/"},"url":"https://learning2hash.github.io/publications/klein2021learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,7 +252,6 @@ state-of-the-art results over known benchmarks.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Learning Query Expansion Over The Nearest Neighbor Graph",
         conference: "Arxiv",
@@ -293,7 +292,6 @@ state-of-the-art results over known benchmarks.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -322,37 +320,38 @@ state-of-the-art results over known benchmarks.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ko2020embedding/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Embedding Expansion: Augmentation In Embedding Space For Deep Metric Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Learning the distance metric between pairs of samples has been studied for image retrieval and clustering. With the remarkable success of pair-based metric learning losses, recent works have proposed the use of generated synthetic points on metric learning losses for augmentation and generalization. However, these methods require additional generative networks along with the main network, which can lead to a larger model size, slower training speed, and harder optimization. Meanwhile, post-processing techniques, such as query expansion and database augmentation, have proposed the combination of feature points to obtain additional semantic information. In this paper, inspired by query expansion and database augmentation, we propose an augmentation method in an embedding space for pair-based metric learning losses, called embedding expansion. The proposed method generates synthetic points containing augmented information by a combination of feature points and performs hard negative pair mining to learn with the most informative feature representations. Because of its simplicity and flexibility, it can be used for existing metric learning losses without affecting model size, training speed, or optimization difficulty. Finally, the combination of embedding expansion and representative metric learning losses outperforms the state-of-the-art losses and previous sample generation methods in both image retrieval and clustering tasks. The implementation is publicly available.","headline":"Embedding Expansion: Augmentation In Embedding Space For Deep Metric Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ko2020embedding/"},"url":"https://learning2hash.github.io/publications/ko2020embedding/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Learning the distance metric between pairs of samples has been studied for image retrieval and clustering. With the remarkable success of pair-based metric learning losses, recent works have proposed the use of generated synthetic points on metric learning losses for augmentation and generalization. However, these methods require additional generative networks along with the main network, which can lead to a larger model size, slower training speed, and harder optimization. Meanwhile, post-processing techniques, such as query expansion and database augmentation, have proposed the combination of feature points to obtain additional semantic information. In this paper, inspired by query expansion and database augmentation, we propose an augmentation method in an embedding space for pair-based metric learning losses, called embedding expansion. The proposed method generates synthetic points containing augmented information by a combination of feature points and performs hard negative pair mining to learn with the most informative feature representations. Because of its simplicity and flexibility, it can be used for existing metric learning losses without affecting model size, training speed, or optimization difficulty. Finally, the combination of embedding expansion and representative metric learning losses outperforms the state-of-the-art losses and previous sample generation methods in both image retrieval and clustering tasks. The implementation is publicly available.","headline":"Embedding Expansion: Augmentation In Embedding Space For Deep Metric Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ko2020embedding/"},"url":"https://learning2hash.github.io/publications/ko2020embedding/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ implementation is publicly available.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Embedding Expansion: Augmentation In Embedding Space For Deep Metric Learning",
         conference: "2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
@@ -303,7 +302,6 @@ implementation is publicly available.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ implementation is publicly available.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

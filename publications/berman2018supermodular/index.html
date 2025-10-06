@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/berman2018supermodular/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Supermodular Locality Sensitive Hashes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In this work, we show deep connections between Locality Sensitive Hashability and submodular analysis. We show that the LSHablility of the most commonly analyzed set similarities is in one-to-one correspondance with the supermodularity of these similarities when taken with respect to the symmetric difference of their arguments. We find that the supermodularity of equivalent LSHable similarities can be dependent on the set encoding. While monotonicity and supermodularity does not imply the metric condition necessary for supermodularity, this condition is guaranteed for the more restricted class of supermodular Hamming similarities that we introduce. We show moreover that LSH preserving transformations are also supermodular-preserving, yielding a way to generate families of similarities both LSHable and supermodular. Finally, we show that even the more restricted family of cardinality-based supermodular Hamming similarities presents promising aspects for the study of the link between LSHability and supermodularity. We hope that the several bridges that we introduce between LSHability and supermodularity paves the way to a better understanding both of supermodular analysis and LSHability, notably in the context of large-scale supermodular optimization.","headline":"Supermodular Locality Sensitive Hashes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/berman2018supermodular/"},"url":"https://learning2hash.github.io/publications/berman2018supermodular/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In this work, we show deep connections between Locality Sensitive Hashability and submodular analysis. We show that the LSHablility of the most commonly analyzed set similarities is in one-to-one correspondance with the supermodularity of these similarities when taken with respect to the symmetric difference of their arguments. We find that the supermodularity of equivalent LSHable similarities can be dependent on the set encoding. While monotonicity and supermodularity does not imply the metric condition necessary for supermodularity, this condition is guaranteed for the more restricted class of supermodular Hamming similarities that we introduce. We show moreover that LSH preserving transformations are also supermodular-preserving, yielding a way to generate families of similarities both LSHable and supermodular. Finally, we show that even the more restricted family of cardinality-based supermodular Hamming similarities presents promising aspects for the study of the link between LSHability and supermodularity. We hope that the several bridges that we introduce between LSHability and supermodularity paves the way to a better understanding both of supermodular analysis and LSHability, notably in the context of large-scale supermodular optimization.","headline":"Supermodular Locality Sensitive Hashes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/berman2018supermodular/"},"url":"https://learning2hash.github.io/publications/berman2018supermodular/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ context of large-scale supermodular optimization.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Supermodular Locality Sensitive Hashes",
         conference: "Arxiv",
@@ -296,7 +295,6 @@ context of large-scale supermodular optimization.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ context of large-scale supermodular optimization.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

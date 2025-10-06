@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/garg2020fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast, Compact And Highly Scalable Visual Place Recognition Through Sequence-based Matching Of Overloaded Representations" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Visual place recognition algorithms trade off three key characteristics: their storage footprint, their computational requirements, and their resultant performance, often expressed in terms of recall rate. Significant prior work has investigated highly compact place representations, sub-linear computational scaling and sub-linear storage scaling techniques, but have always involved a significant compromise in one or more of these regards, and have only been demonstrated on relatively small datasets. In this paper we present a novel place recognition system which enables for the first time the combination of ultra-compact place representations, near sub-linear storage scaling and extremely lightweight compute requirements. Our approach exploits the inherently sequential nature of much spatial data in the robotics domain and inverts the typical target criteria, through intentionally coarse scalar quantization-based hashing that leads to more collisions but is resolved by sequence-based matching. For the first time, we show how effective place recognition rates can be achieved on a new very large 10 million place dataset, requiring only 8 bytes of storage per place and 37K unitary operations to achieve over 50% recall for matching a sequence of 100 frames, where a conventional state-of-the-art approach both consumes 1300 times more compute and fails catastrophically. We present analysis investigating the effectiveness of our hashing overload approach under varying sizes of quantized vector length, comparison of near miss matches with the actual match selections and characterise the effect of variance re-scaling of data on quantization.","headline":"Fast, Compact And Highly Scalable Visual Place Recognition Through Sequence-based Matching Of Overloaded Representations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/garg2020fast/"},"url":"https://learning2hash.github.io/publications/garg2020fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Visual place recognition algorithms trade off three key characteristics: their storage footprint, their computational requirements, and their resultant performance, often expressed in terms of recall rate. Significant prior work has investigated highly compact place representations, sub-linear computational scaling and sub-linear storage scaling techniques, but have always involved a significant compromise in one or more of these regards, and have only been demonstrated on relatively small datasets. In this paper we present a novel place recognition system which enables for the first time the combination of ultra-compact place representations, near sub-linear storage scaling and extremely lightweight compute requirements. Our approach exploits the inherently sequential nature of much spatial data in the robotics domain and inverts the typical target criteria, through intentionally coarse scalar quantization-based hashing that leads to more collisions but is resolved by sequence-based matching. For the first time, we show how effective place recognition rates can be achieved on a new very large 10 million place dataset, requiring only 8 bytes of storage per place and 37K unitary operations to achieve over 50% recall for matching a sequence of 100 frames, where a conventional state-of-the-art approach both consumes 1300 times more compute and fails catastrophically. We present analysis investigating the effectiveness of our hashing overload approach under varying sizes of quantized vector length, comparison of near miss matches with the actual match selections and characterise the effect of variance re-scaling of data on quantization.","headline":"Fast, Compact And Highly Scalable Visual Place Recognition Through Sequence-based Matching Of Overloaded Representations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/garg2020fast/"},"url":"https://learning2hash.github.io/publications/garg2020fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -266,7 +266,6 @@ characterise the effect of variance re-scaling of data on quantization.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Fast, Compact And Highly Scalable Visual Place Recognition Through Sequence-based Matching Of Overloaded Representations",
         conference: "2020 IEEE International Conference on Robotics and Automation (ICRA)",
@@ -307,7 +306,6 @@ characterise the effect of variance re-scaling of data on quantization.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -336,37 +334,38 @@ characterise the effect of variance re-scaling of data on quantization.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

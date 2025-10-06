@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/oymak2016near/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Near-optimal Sample Complexity Bounds For Circulant Binary Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Binary embedding is the problem of mapping points from a high-dimensional space to a Hamming cube in lower dimension while preserving pairwise distances. An efficient way to accomplish this is to make use of fast embedding techniques involving Fourier transform e.g.~circulant matrices. While binary embedding has been studied extensively, theoretical results on fast binary embedding are rather limited. In this work, we build upon the recent literature to obtain significantly better dependencies on the problem parameters. A set of (N) points in (\\mathbb{R}^n) can be properly embedded into the Hamming cube (\\{\\pm 1\\}^k) with (\\delta) distortion, by using (k\\sim\\delta^{-3}log N) samples which is optimal in the number of points (N) and compares well with the optimal distortion dependency (\\delta^{-2}). Our optimal embedding result applies in the regime (log N\\lesssim n^{1/3}). Furthermore, if the looser condition (log N\\lesssim \\sqrt{n}) holds, we show that all but an arbitrarily small fraction of the points can be optimally embedded. We believe our techniques can be useful to obtain improved guarantees for other nonlinear embedding problems.","headline":"Near-optimal Sample Complexity Bounds For Circulant Binary Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/oymak2016near/"},"url":"https://learning2hash.github.io/publications/oymak2016near/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Binary embedding is the problem of mapping points from a high-dimensional space to a Hamming cube in lower dimension while preserving pairwise distances. An efficient way to accomplish this is to make use of fast embedding techniques involving Fourier transform e.g.~circulant matrices. While binary embedding has been studied extensively, theoretical results on fast binary embedding are rather limited. In this work, we build upon the recent literature to obtain significantly better dependencies on the problem parameters. A set of (N) points in (\\mathbb{R}^n) can be properly embedded into the Hamming cube (\\{\\pm 1\\}^k) with (\\delta) distortion, by using (k\\sim\\delta^{-3}log N) samples which is optimal in the number of points (N) and compares well with the optimal distortion dependency (\\delta^{-2}). Our optimal embedding result applies in the regime (log N\\lesssim n^{1/3}). Furthermore, if the looser condition (log N\\lesssim \\sqrt{n}) holds, we show that all but an arbitrarily small fraction of the points can be optimally embedded. We believe our techniques can be useful to obtain improved guarantees for other nonlinear embedding problems.","headline":"Near-optimal Sample Complexity Bounds For Circulant Binary Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/oymak2016near/"},"url":"https://learning2hash.github.io/publications/oymak2016near/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +253,6 @@ useful to obtain improved guarantees for other nonlinear embedding problems.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Near-optimal Sample Complexity Bounds For Circulant Binary Embedding",
         conference: "2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
@@ -294,7 +293,6 @@ useful to obtain improved guarantees for other nonlinear embedding problems.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -323,37 +321,38 @@ useful to obtain improved guarantees for other nonlinear embedding problems.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

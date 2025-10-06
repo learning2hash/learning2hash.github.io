@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/song2022asymmetric/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Asymmetric Hash Code Learning For Remote Sensing Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Remote sensing image retrieval (RSIR), aiming at searching for a set of similar items to a given query image, is a very important task in remote sensing applications. Deep hashing learning as the current mainstream method has achieved satisfactory retrieval performance. On one hand, various deep neural networks are used to extract semantic features of remote sensing images. On the other hand, the hashing techniques are subsequently adopted to map the high-dimensional deep features to the low-dimensional binary codes. This kind of methods attempts to learn one hash function for both the query and database samples in a symmetric way. However, with the number of database samples increasing, it is typically time-consuming to generate the hash codes of large-scale database images. In this paper, we propose a novel deep hashing method, named asymmetric hash code learning (AHCL), for RSIR. The proposed AHCL generates the hash codes of query and database images in an asymmetric way. In more detail, the hash codes of query images are obtained by binarizing the output of the network, while the hash codes of database images are directly learned by solving the designed objective function. In addition, we combine the semantic information of each image and the similarity information of pairs of images as supervised information to train a deep hashing network, which improves the representation ability of deep features and hash codes. The experimental results on three public datasets demonstrate that the proposed method outperforms symmetric methods in terms of retrieval accuracy and efficiency. The source code is available at https://github.com/weiweisong415/Demo AHCL for TGRS2022.","headline":"Asymmetric Hash Code Learning For Remote Sensing Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/song2022asymmetric/"},"url":"https://learning2hash.github.io/publications/song2022asymmetric/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Remote sensing image retrieval (RSIR), aiming at searching for a set of similar items to a given query image, is a very important task in remote sensing applications. Deep hashing learning as the current mainstream method has achieved satisfactory retrieval performance. On one hand, various deep neural networks are used to extract semantic features of remote sensing images. On the other hand, the hashing techniques are subsequently adopted to map the high-dimensional deep features to the low-dimensional binary codes. This kind of methods attempts to learn one hash function for both the query and database samples in a symmetric way. However, with the number of database samples increasing, it is typically time-consuming to generate the hash codes of large-scale database images. In this paper, we propose a novel deep hashing method, named asymmetric hash code learning (AHCL), for RSIR. The proposed AHCL generates the hash codes of query and database images in an asymmetric way. In more detail, the hash codes of query images are obtained by binarizing the output of the network, while the hash codes of database images are directly learned by solving the designed objective function. In addition, we combine the semantic information of each image and the similarity information of pairs of images as supervised information to train a deep hashing network, which improves the representation ability of deep features and hash codes. The experimental results on three public datasets demonstrate that the proposed method outperforms symmetric methods in terms of retrieval accuracy and efficiency. The source code is available at https://github.com/weiweisong415/Demo AHCL for TGRS2022.","headline":"Asymmetric Hash Code Learning For Remote Sensing Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/song2022asymmetric/"},"url":"https://learning2hash.github.io/publications/song2022asymmetric/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -277,7 +277,6 @@ https://github.com/weiweisong415/Demo AHCL for TGRS2022.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Asymmetric Hash Code Learning For Remote Sensing Image Retrieval",
         conference: "IEEE Transactions on Geoscience and Remote Sensing",
@@ -318,7 +317,6 @@ https://github.com/weiweisong415/Demo AHCL for TGRS2022.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -347,37 +345,38 @@ https://github.com/weiweisong415/Demo AHCL for TGRS2022.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

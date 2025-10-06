@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jia2019efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient Task-specific Data Valuation For Nearest Neighbor Algorithms" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Given a data set (\\mathcal{D}) containing millions of data points and a data consumer who is willing to pay for $(X) to train a machine learning (ML) model over (\\mathcal{D}), how should we distribute this $(X) to each data point to reflect its “value”? In this paper, we define the “relative value of data” via the Shapley value, as it uniquely possesses properties with appealing real-world interpretations, such as fairness, rationality and decentralizability. For general, bounded utility functions, the Shapley value is known to be challenging to compute: to get Shapley values for all (N) data points, it requires (O(2^N)) model evaluations for exact computation and (O(Nlog N)) for ((\\epsilon, \\delta))-approximation. In this paper, we focus on one popular family of ML models relying on (K)-nearest neighbors ((K)NN). The most surprising result is that for unweighted (K)NN classifiers and regressors, the Shapley value of all (N) data points can be computed, exactly, in (O(Nlog N)) time – an exponential improvement on computational complexity! Moreover, for ((\\epsilon, \\delta))-approximation, we are able to develop an algorithm based on Locality Sensitive Hashing (LSH) with only sublinear complexity (O(N^{h(\\epsilon,K)}log N)) when (\\epsilon) is not too small and (K) is not too large. We empirically evaluate our algorithms on up to (10) million data points and even our exact algorithm is up to three orders of magnitude faster than the baseline approximation algorithm. The LSH-based approximation algorithm can accelerate the value calculation process even further. We then extend our algorithms to other scenarios such as (1) weighed (K)NN classifiers, (2) different data points are clustered by different data curators, and (3) there are data analysts providing computation who also requires proper valuation.","headline":"Efficient Task-specific Data Valuation For Nearest Neighbor Algorithms","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jia2019efficient/"},"url":"https://learning2hash.github.io/publications/jia2019efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Given a data set (\\mathcal{D}) containing millions of data points and a data consumer who is willing to pay for $(X) to train a machine learning (ML) model over (\\mathcal{D}), how should we distribute this $(X) to each data point to reflect its “value”? In this paper, we define the “relative value of data” via the Shapley value, as it uniquely possesses properties with appealing real-world interpretations, such as fairness, rationality and decentralizability. For general, bounded utility functions, the Shapley value is known to be challenging to compute: to get Shapley values for all (N) data points, it requires (O(2^N)) model evaluations for exact computation and (O(Nlog N)) for ((\\epsilon, \\delta))-approximation. In this paper, we focus on one popular family of ML models relying on (K)-nearest neighbors ((K)NN). The most surprising result is that for unweighted (K)NN classifiers and regressors, the Shapley value of all (N) data points can be computed, exactly, in (O(Nlog N)) time – an exponential improvement on computational complexity! Moreover, for ((\\epsilon, \\delta))-approximation, we are able to develop an algorithm based on Locality Sensitive Hashing (LSH) with only sublinear complexity (O(N^{h(\\epsilon,K)}log N)) when (\\epsilon) is not too small and (K) is not too large. We empirically evaluate our algorithms on up to (10) million data points and even our exact algorithm is up to three orders of magnitude faster than the baseline approximation algorithm. The LSH-based approximation algorithm can accelerate the value calculation process even further. We then extend our algorithms to other scenarios such as (1) weighed (K)NN classifiers, (2) different data points are clustered by different data curators, and (3) there are data analysts providing computation who also requires proper valuation.","headline":"Efficient Task-specific Data Valuation For Nearest Neighbor Algorithms","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jia2019efficient/"},"url":"https://learning2hash.github.io/publications/jia2019efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ valuation.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Efficient Task-specific Data Valuation For Nearest Neighbor Algorithms",
         conference: "Proceedings of the VLDB Endowment",
@@ -304,7 +303,6 @@ valuation.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ valuation.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

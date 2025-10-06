@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2019unicoder/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unicoder-vl: A Universal Encoder For Vision And Language By Cross-modal Pre-training" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We propose Unicoder-VL, a universal encoder that aims to learn joint representations of vision and language in a pre-training manner. Borrow ideas from cross-lingual pre-trained models, such as XLM and Unicoder, both visual and linguistic contents are fed into a multi-layer Transformer for the cross-modal pre-training, where three pre-trained tasks are employed, including Masked Language Modeling (MLM), Masked Object Classification (MOC) and Visual-linguistic Matching (VLM). The first two tasks learn context-aware representations for input tokens based on linguistic and visual contents jointly. The last task tries to predict whether an image and a text describe each other. After pretraining on large-scale image-caption pairs, we transfer Unicoder-VL to caption-based image-text retrieval and visual commonsense reasoning, with just one additional output layer. We achieve state-of-the-art or comparable results on both two tasks and show the powerful ability of the cross-modal pre-training.","headline":"Unicoder-vl: A Universal Encoder For Vision And Language By Cross-modal Pre-training","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2019unicoder/"},"url":"https://learning2hash.github.io/publications/li2019unicoder/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We propose Unicoder-VL, a universal encoder that aims to learn joint representations of vision and language in a pre-training manner. Borrow ideas from cross-lingual pre-trained models, such as XLM and Unicoder, both visual and linguistic contents are fed into a multi-layer Transformer for the cross-modal pre-training, where three pre-trained tasks are employed, including Masked Language Modeling (MLM), Masked Object Classification (MOC) and Visual-linguistic Matching (VLM). The first two tasks learn context-aware representations for input tokens based on linguistic and visual contents jointly. The last task tries to predict whether an image and a text describe each other. After pretraining on large-scale image-caption pairs, we transfer Unicoder-VL to caption-based image-text retrieval and visual commonsense reasoning, with just one additional output layer. We achieve state-of-the-art or comparable results on both two tasks and show the powerful ability of the cross-modal pre-training.","headline":"Unicoder-vl: A Universal Encoder For Vision And Language By Cross-modal Pre-training","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2019unicoder/"},"url":"https://learning2hash.github.io/publications/li2019unicoder/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -254,7 +254,6 @@ cross-modal pre-training.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Unicoder-vl: A Universal Encoder For Vision And Language By Cross-modal Pre-training",
         conference: "Proceedings of the AAAI Conference on Artificial Intelligence",
@@ -295,7 +294,6 @@ cross-modal pre-training.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -324,37 +322,38 @@ cross-modal pre-training.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

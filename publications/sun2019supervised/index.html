@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/sun2019supervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Supervised Hierarchical Cross-modal Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Recently, due to the unprecedented growth of multimedia data, cross-modal hashing has gained increasing attention for the efficient cross-media retrieval. Typically, existing methods on crossmodal hashing treat labels of one instance independently but overlook the correlations among labels. Indeed, in many real-world scenarios, like the online fashion domain, instances (items) are labeled with a set of categories correlated by certain hierarchy. In this paper, we propose a new end-to-end solution for supervised cross-modal hashing, named HiCHNet, which explicitly exploits the hierarchical labels of instances. In particular, by the pre-established label hierarchy, we comprehensively characterize each modality of the instance with a set of layer-wise hash representations. In essence, hash codes are encouraged to not only preserve the layerwise semantic similarities encoded by the label hierarchy, but also retain the hierarchical discriminative capabilities. Due to the lack of benchmark datasets, apart from adapting the existing dataset FashionVC from fashion domain, we create a dataset from the online fashion platform Ssense consisting of 15, 696 image-text pairs labeled by 32 hierarchical categories. Extensive experiments on two real-world datasets demonstrate the superiority of our model over the state-of-the-art methods.","headline":"Supervised Hierarchical Cross-modal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sun2019supervised/"},"url":"https://learning2hash.github.io/publications/sun2019supervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Recently, due to the unprecedented growth of multimedia data, cross-modal hashing has gained increasing attention for the efficient cross-media retrieval. Typically, existing methods on crossmodal hashing treat labels of one instance independently but overlook the correlations among labels. Indeed, in many real-world scenarios, like the online fashion domain, instances (items) are labeled with a set of categories correlated by certain hierarchy. In this paper, we propose a new end-to-end solution for supervised cross-modal hashing, named HiCHNet, which explicitly exploits the hierarchical labels of instances. In particular, by the pre-established label hierarchy, we comprehensively characterize each modality of the instance with a set of layer-wise hash representations. In essence, hash codes are encouraged to not only preserve the layerwise semantic similarities encoded by the label hierarchy, but also retain the hierarchical discriminative capabilities. Due to the lack of benchmark datasets, apart from adapting the existing dataset FashionVC from fashion domain, we create a dataset from the online fashion platform Ssense consisting of 15, 696 image-text pairs labeled by 32 hierarchical categories. Extensive experiments on two real-world datasets demonstrate the superiority of our model over the state-of-the-art methods.","headline":"Supervised Hierarchical Cross-modal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sun2019supervised/"},"url":"https://learning2hash.github.io/publications/sun2019supervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ over the state-of-the-art methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Supervised Hierarchical Cross-modal Hashing",
         conference: "Proceedings of the 42nd International ACM SIGIR Conference on Research and Development in Information Retrieval",
@@ -304,7 +303,6 @@ over the state-of-the-art methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ over the state-of-the-art methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

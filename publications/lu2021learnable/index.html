@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lu2021learnable/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learnable Locality-sensitive Hashing For Video Anomaly Detection" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Video anomaly detection (VAD) mainly refers to identifying anomalous events that have not occurred in the training set where only normal samples are available. Existing works usually formulate VAD as a reconstruction or prediction problem. However, the adaptability and scalability of these methods are limited. In this paper, we propose a novel distance-based VAD method to take advantage of all the available normal data efficiently and flexibly. In our method, the smaller the distance between a testing sample and normal samples, the higher the probability that the testing sample is normal. Specifically, we propose to use locality-sensitive hashing (LSH) to map samples whose similarity exceeds a certain threshold into the same bucket in advance. In this manner, the complexity of near neighbor search is cut down significantly. To make the samples that are semantically similar get closer and samples not similar get further apart, we propose a novel learnable version of LSH that embeds LSH into a neural network and optimizes the hash functions with contrastive learning strategy. The proposed method is robust to data imbalance and can handle the large intra-class variations in normal data flexibly. Besides, it has a good ability of scalability. Extensive experiments demonstrate the superiority of our method, which achieves new state-of-the-art results on VAD benchmarks.","headline":"Learnable Locality-sensitive Hashing For Video Anomaly Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lu2021learnable/"},"url":"https://learning2hash.github.io/publications/lu2021learnable/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Video anomaly detection (VAD) mainly refers to identifying anomalous events that have not occurred in the training set where only normal samples are available. Existing works usually formulate VAD as a reconstruction or prediction problem. However, the adaptability and scalability of these methods are limited. In this paper, we propose a novel distance-based VAD method to take advantage of all the available normal data efficiently and flexibly. In our method, the smaller the distance between a testing sample and normal samples, the higher the probability that the testing sample is normal. Specifically, we propose to use locality-sensitive hashing (LSH) to map samples whose similarity exceeds a certain threshold into the same bucket in advance. In this manner, the complexity of near neighbor search is cut down significantly. To make the samples that are semantically similar get closer and samples not similar get further apart, we propose a novel learnable version of LSH that embeds LSH into a neural network and optimizes the hash functions with contrastive learning strategy. The proposed method is robust to data imbalance and can handle the large intra-class variations in normal data flexibly. Besides, it has a good ability of scalability. Extensive experiments demonstrate the superiority of our method, which achieves new state-of-the-art results on VAD benchmarks.","headline":"Learnable Locality-sensitive Hashing For Video Anomaly Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lu2021learnable/"},"url":"https://learning2hash.github.io/publications/lu2021learnable/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ results on VAD benchmarks.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Learnable Locality-sensitive Hashing For Video Anomaly Detection",
         conference: "IEEE Transactions on Circuits and Systems for Video Technology",
@@ -304,7 +303,6 @@ results on VAD benchmarks.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ results on VAD benchmarks.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

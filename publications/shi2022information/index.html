@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/shi2022information/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Information-theoretic Hashing For Zero-shot Cross-modal Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Zero-shot cross-modal retrieval (ZS-CMR) deals with the retrieval problem among heterogenous data from unseen classes. Typically, to guarantee generalization, the pre-defined class embeddings from natural language processing (NLP) models are used to build a common space. In this paper, instead of using an extra NLP model to define a common space beforehand, we consider a totally different way to construct (or learn) a common hamming space from an information-theoretic perspective. We term our model the Information-Theoretic Hashing (ITH), which is composed of two cascading modules: an Adaptive Information Aggregation (AIA) module; and a Semantic Preserving Encoding (SPE) module. Specifically, our AIA module takes the inspiration from the Principle of Relevant Information (PRI) to construct a common space that adaptively aggregates the intrinsic semantics of different modalities of data and filters out redundant or irrelevant information. On the other hand, our SPE module further generates the hashing codes of different modalities by preserving the similarity of intrinsic semantics with the element-wise Kullback-Leibler (KL) divergence. A total correlation regularization term is also imposed to reduce the redundancy amongst different dimensions of hash codes. Sufficient experiments on three benchmark datasets demonstrate the superiority of the proposed ITH in ZS-CMR. Source code is available in the supplementary material.","headline":"Information-theoretic Hashing For Zero-shot Cross-modal Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shi2022information/"},"url":"https://learning2hash.github.io/publications/shi2022information/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Zero-shot cross-modal retrieval (ZS-CMR) deals with the retrieval problem among heterogenous data from unseen classes. Typically, to guarantee generalization, the pre-defined class embeddings from natural language processing (NLP) models are used to build a common space. In this paper, instead of using an extra NLP model to define a common space beforehand, we consider a totally different way to construct (or learn) a common hamming space from an information-theoretic perspective. We term our model the Information-Theoretic Hashing (ITH), which is composed of two cascading modules: an Adaptive Information Aggregation (AIA) module; and a Semantic Preserving Encoding (SPE) module. Specifically, our AIA module takes the inspiration from the Principle of Relevant Information (PRI) to construct a common space that adaptively aggregates the intrinsic semantics of different modalities of data and filters out redundant or irrelevant information. On the other hand, our SPE module further generates the hashing codes of different modalities by preserving the similarity of intrinsic semantics with the element-wise Kullback-Leibler (KL) divergence. A total correlation regularization term is also imposed to reduce the redundancy amongst different dimensions of hash codes. Sufficient experiments on three benchmark datasets demonstrate the superiority of the proposed ITH in ZS-CMR. Source code is available in the supplementary material.","headline":"Information-theoretic Hashing For Zero-shot Cross-modal Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shi2022information/"},"url":"https://learning2hash.github.io/publications/shi2022information/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ available in the supplementary material.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Information-theoretic Hashing For Zero-shot Cross-modal Retrieval",
         conference: "Arxiv",
@@ -305,7 +304,6 @@ available in the supplementary material.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ available in the supplementary material.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

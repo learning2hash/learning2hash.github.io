@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ni2016sampled/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Sampled Image Tagging And Retrieval Methods On User Generated Content" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Traditional image tagging and retrieval algorithms have limited value as a result of being trained with heavily curated datasets. These limitations are most evident when arbitrary search words are used that do not intersect with training set labels. Weak labels from user generated content (UGC) found in the wild (e.g., Google Photos, FlickR, etc.) have an almost unlimited number of unique words in the metadata tags. Prior work on word embeddings successfully leveraged unstructured text with large vocabularies, and our proposed method seeks to apply similar cost functions to open source imagery. Specifically, we train a deep learning image tagging and retrieval system on large scale, user generated content (UGC) using sampling methods and joint optimization of word embeddings. By using the Yahoo! FlickR Creative Commons (YFCC100M) dataset, such an approach builds robustness to common unstructured data issues that include but are not limited to irrelevant tags, misspellings, multiple languages, polysemy, and tag imbalance. As a result, the final proposed algorithm will not only yield comparable results to state of the art in conventional image tagging, but will enable new capability to train algorithms on large, scale unstructured text in the YFCC100M dataset and outperform cited work in zero-shot capability.","headline":"Sampled Image Tagging And Retrieval Methods On User Generated Content","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ni2016sampled/"},"url":"https://learning2hash.github.io/publications/ni2016sampled/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Traditional image tagging and retrieval algorithms have limited value as a result of being trained with heavily curated datasets. These limitations are most evident when arbitrary search words are used that do not intersect with training set labels. Weak labels from user generated content (UGC) found in the wild (e.g., Google Photos, FlickR, etc.) have an almost unlimited number of unique words in the metadata tags. Prior work on word embeddings successfully leveraged unstructured text with large vocabularies, and our proposed method seeks to apply similar cost functions to open source imagery. Specifically, we train a deep learning image tagging and retrieval system on large scale, user generated content (UGC) using sampling methods and joint optimization of word embeddings. By using the Yahoo! FlickR Creative Commons (YFCC100M) dataset, such an approach builds robustness to common unstructured data issues that include but are not limited to irrelevant tags, misspellings, multiple languages, polysemy, and tag imbalance. As a result, the final proposed algorithm will not only yield comparable results to state of the art in conventional image tagging, but will enable new capability to train algorithms on large, scale unstructured text in the YFCC100M dataset and outperform cited work in zero-shot capability.","headline":"Sampled Image Tagging And Retrieval Methods On User Generated Content","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ni2016sampled/"},"url":"https://learning2hash.github.io/publications/ni2016sampled/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -260,7 +260,6 @@ work in zero-shot capability.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Sampled Image Tagging And Retrieval Methods On User Generated Content",
         conference: "Procedings of the British Machine Vision Conference 2017",
@@ -301,7 +300,6 @@ work in zero-shot capability.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -330,37 +328,38 @@ work in zero-shot capability.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

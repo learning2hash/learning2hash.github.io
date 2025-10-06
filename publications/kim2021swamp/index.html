@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kim2021swamp/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Swamp: Swapped Assignment Of Multi-modal Pairs For Cross-modal Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We tackle the cross-modal retrieval problem, where learning is only supervised by relevant multi-modal pairs in the data. Although the contrastive learning is the most popular approach for this task, it makes potentially wrong assumption that the instances in different pairs are automatically irrelevant. To address the issue, we propose a novel loss function that is based on self-labeling of the unknown semantic classes. Specifically, we aim to predict class labels of the data instances in each modality, and assign those labels to the corresponding instances in the other modality (i.e., swapping the pseudo labels). With these swapped labels, we learn the data embedding for each modality using the supervised cross-entropy loss. This way, cross-modal instances from different pairs that are semantically related can be aligned to each other by the class predictor. We tested our approach on several real-world cross-modal retrieval problems, including text-based video retrieval, sketch-based image retrieval, and image-text retrieval. For all these tasks our method achieves significant performance improvement over the contrastive learning.","headline":"Swamp: Swapped Assignment Of Multi-modal Pairs For Cross-modal Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kim2021swamp/"},"url":"https://learning2hash.github.io/publications/kim2021swamp/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We tackle the cross-modal retrieval problem, where learning is only supervised by relevant multi-modal pairs in the data. Although the contrastive learning is the most popular approach for this task, it makes potentially wrong assumption that the instances in different pairs are automatically irrelevant. To address the issue, we propose a novel loss function that is based on self-labeling of the unknown semantic classes. Specifically, we aim to predict class labels of the data instances in each modality, and assign those labels to the corresponding instances in the other modality (i.e., swapping the pseudo labels). With these swapped labels, we learn the data embedding for each modality using the supervised cross-entropy loss. This way, cross-modal instances from different pairs that are semantically related can be aligned to each other by the class predictor. We tested our approach on several real-world cross-modal retrieval problems, including text-based video retrieval, sketch-based image retrieval, and image-text retrieval. For all these tasks our method achieves significant performance improvement over the contrastive learning.","headline":"Swamp: Swapped Assignment Of Multi-modal Pairs For Cross-modal Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kim2021swamp/"},"url":"https://learning2hash.github.io/publications/kim2021swamp/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ learning.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Swamp: Swapped Assignment Of Multi-modal Pairs For Cross-modal Retrieval",
         conference: "Arxiv",
@@ -303,7 +302,6 @@ learning.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ learning.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

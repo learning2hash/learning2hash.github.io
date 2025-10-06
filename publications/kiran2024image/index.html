@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kiran2024image/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Image Retrieval Methods In The Dissimilarity Space" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Image retrieval methods rely on metric learning to train backbone feature extraction models that can extract discriminant queries and reference (gallery) feature representations for similarity matching. Although state-of-the-art accuracy has improved considerably with the advent of deep learning (DL) models trained on large datasets, image retrieval remains challenging in many real-world video analytics and surveillance applications, e.g., person re-identification. Using the Euclidean space for matching limits the performance in real-world applications due to the curse of dimensionality, overfitting, and sensitivity to noisy data. We argue that the feature dissimilarity space is more suitable for similarity matching, and propose a dichotomy transformation to project query and reference embeddings into a single embedding in the dissimilarity space. We also advocate for end-to-end training of a backbone and binary classification models for pair-wise matching. As opposed to comparing the distance between queries and reference embeddings, we show the benefits of classifying the single dissimilarity space embedding (as similar or dissimilar), especially when trained end-to-end. We propose a method to train the max-margin classifier together with the backbone feature extractor by applying constraints to the L2 norm of the classifier weights along with the hinge loss. Our extensive experiments on challenging image retrieval datasets and using diverse feature extraction backbones highlight the benefits of similarity matching in the dissimilarity space. In particular, when jointly training the feature extraction backbone and regularised classifier for matching, the dissimilarity space provides a higher level of accuracy.","headline":"Image Retrieval Methods In The Dissimilarity Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kiran2024image/"},"url":"https://learning2hash.github.io/publications/kiran2024image/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Image retrieval methods rely on metric learning to train backbone feature extraction models that can extract discriminant queries and reference (gallery) feature representations for similarity matching. Although state-of-the-art accuracy has improved considerably with the advent of deep learning (DL) models trained on large datasets, image retrieval remains challenging in many real-world video analytics and surveillance applications, e.g., person re-identification. Using the Euclidean space for matching limits the performance in real-world applications due to the curse of dimensionality, overfitting, and sensitivity to noisy data. We argue that the feature dissimilarity space is more suitable for similarity matching, and propose a dichotomy transformation to project query and reference embeddings into a single embedding in the dissimilarity space. We also advocate for end-to-end training of a backbone and binary classification models for pair-wise matching. As opposed to comparing the distance between queries and reference embeddings, we show the benefits of classifying the single dissimilarity space embedding (as similar or dissimilar), especially when trained end-to-end. We propose a method to train the max-margin classifier together with the backbone feature extractor by applying constraints to the L2 norm of the classifier weights along with the hinge loss. Our extensive experiments on challenging image retrieval datasets and using diverse feature extraction backbones highlight the benefits of similarity matching in the dissimilarity space. In particular, when jointly training the feature extraction backbone and regularised classifier for matching, the dissimilarity space provides a higher level of accuracy.","headline":"Image Retrieval Methods In The Dissimilarity Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kiran2024image/"},"url":"https://learning2hash.github.io/publications/kiran2024image/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -269,7 +269,6 @@ dissimilarity space provides a higher level of accuracy.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Image Retrieval Methods In The Dissimilarity Space",
         conference: "Arxiv",
@@ -310,7 +309,6 @@ dissimilarity space provides a higher level of accuracy.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -339,37 +337,38 @@ dissimilarity space provides a higher level of accuracy.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

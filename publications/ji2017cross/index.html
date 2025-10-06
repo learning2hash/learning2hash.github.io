@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ji2017cross/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Cross-domain Image Retrieval With Attention Modeling" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"With the proliferation of e-commerce websites and the ubiquitousness of smart phones, cross-domain image retrieval using images taken by smart phones as queries to search products on e-commerce websites is emerging as a popular application. One challenge of this task is to locate the attention of both the query and database images. In particular, database images, e.g. of fashion products, on e-commerce websites are typically displayed with other accessories, and the images taken by users contain noisy background and large variations in orientation and lighting. Consequently, their attention is difficult to locate. In this paper, we exploit the rich tag information available on the e-commerce websites to locate the attention of database images. For query images, we use each candidate image in the database as the context to locate the query attention. Novel deep convolutional neural network architectures, namely TagYNet and CtxYNet, are proposed to learn the attention weights and then extract effective representations of the images. Experimental results on public datasets confirm that our approaches have significant improvement over the existing methods in terms of the retrieval accuracy and efficiency.","headline":"Cross-domain Image Retrieval With Attention Modeling","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ji2017cross/"},"url":"https://learning2hash.github.io/publications/ji2017cross/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"With the proliferation of e-commerce websites and the ubiquitousness of smart phones, cross-domain image retrieval using images taken by smart phones as queries to search products on e-commerce websites is emerging as a popular application. One challenge of this task is to locate the attention of both the query and database images. In particular, database images, e.g. of fashion products, on e-commerce websites are typically displayed with other accessories, and the images taken by users contain noisy background and large variations in orientation and lighting. Consequently, their attention is difficult to locate. In this paper, we exploit the rich tag information available on the e-commerce websites to locate the attention of database images. For query images, we use each candidate image in the database as the context to locate the query attention. Novel deep convolutional neural network architectures, namely TagYNet and CtxYNet, are proposed to learn the attention weights and then extract effective representations of the images. Experimental results on public datasets confirm that our approaches have significant improvement over the existing methods in terms of the retrieval accuracy and efficiency.","headline":"Cross-domain Image Retrieval With Attention Modeling","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ji2017cross/"},"url":"https://learning2hash.github.io/publications/ji2017cross/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ efficiency.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Cross-domain Image Retrieval With Attention Modeling",
         conference: "Proceedings of the 25th ACM international conference on Multimedia",
@@ -298,7 +297,6 @@ efficiency.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ efficiency.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

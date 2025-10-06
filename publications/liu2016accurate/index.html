@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2016accurate/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Accurate Deep Representation Quantization With Gradient Snapping Layer For Similarity Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Recent advance of large scale similarity search involves using deeply learned representations to improve the search accuracy and use vector quantization methods to increase the search speed. However, how to learn deep representations that strongly preserve similarities between data pairs and can be accurately quantized via vector quantization remains a challenging task. Existing methods simply leverage quantization loss and similarity loss, which result in unexpectedly biased back-propagating gradients and affect the search performances. To this end, we propose a novel gradient snapping layer (GSL) to directly regularize the back-propagating gradient towards a neighboring codeword, the generated gradients are un-biased for reducing similarity loss and also propel the learned representations to be accurately quantized. Joint deep representation and vector quantization learning can be easily performed by alternatively optimize the quantization codebook and the deep neural network. The proposed framework is compatible with various existing vector quantization approaches. Experimental results demonstrate that the proposed framework is effective, flexible and outperforms the state-of-the-art large scale similarity search methods.","headline":"Accurate Deep Representation Quantization With Gradient Snapping Layer For Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2016accurate/"},"url":"https://learning2hash.github.io/publications/liu2016accurate/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Recent advance of large scale similarity search involves using deeply learned representations to improve the search accuracy and use vector quantization methods to increase the search speed. However, how to learn deep representations that strongly preserve similarities between data pairs and can be accurately quantized via vector quantization remains a challenging task. Existing methods simply leverage quantization loss and similarity loss, which result in unexpectedly biased back-propagating gradients and affect the search performances. To this end, we propose a novel gradient snapping layer (GSL) to directly regularize the back-propagating gradient towards a neighboring codeword, the generated gradients are un-biased for reducing similarity loss and also propel the learned representations to be accurately quantized. Joint deep representation and vector quantization learning can be easily performed by alternatively optimize the quantization codebook and the deep neural network. The proposed framework is compatible with various existing vector quantization approaches. Experimental results demonstrate that the proposed framework is effective, flexible and outperforms the state-of-the-art large scale similarity search methods.","headline":"Accurate Deep Representation Quantization With Gradient Snapping Layer For Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2016accurate/"},"url":"https://learning2hash.github.io/publications/liu2016accurate/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ search methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Accurate Deep Representation Quantization With Gradient Snapping Layer For Similarity Search",
         conference: "Arxiv",
@@ -298,7 +297,6 @@ search methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ search methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/min2017exemplar/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Exemplar-centered Supervised Shallow Parametric Data Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Metric learning methods for dimensionality reduction in combination with k-Nearest Neighbors (kNN) have been extensively deployed in many classification, data embedding, and information retrieval applications. However, most of these approaches involve pairwise training data comparisons, and thus have quadratic computational complexity with respect to the size of training set, preventing them from scaling to fairly big datasets. Moreover, during testing, comparing test data against all the training data points is also expensive in terms of both computational cost and resources required. Furthermore, previous metrics are either too constrained or too expressive to be well learned. To effectively solve these issues, we present an exemplar-centered supervised shallow parametric data embedding model, using a Maximally Collapsing Metric Learning (MCML) objective. Our strategy learns a shallow high-order parametric embedding function and compares training/test data only with learned or precomputed exemplars, resulting in a cost function with linear computational complexity for both training and testing. We also empirically demonstrate, using several benchmark datasets, that for classification in two-dimensional embedding space, our approach not only gains speedup of kNN by hundreds of times, but also outperforms state-of-the-art supervised embedding approaches.","headline":"Exemplar-centered Supervised Shallow Parametric Data Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/min2017exemplar/"},"url":"https://learning2hash.github.io/publications/min2017exemplar/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Metric learning methods for dimensionality reduction in combination with k-Nearest Neighbors (kNN) have been extensively deployed in many classification, data embedding, and information retrieval applications. However, most of these approaches involve pairwise training data comparisons, and thus have quadratic computational complexity with respect to the size of training set, preventing them from scaling to fairly big datasets. Moreover, during testing, comparing test data against all the training data points is also expensive in terms of both computational cost and resources required. Furthermore, previous metrics are either too constrained or too expressive to be well learned. To effectively solve these issues, we present an exemplar-centered supervised shallow parametric data embedding model, using a Maximally Collapsing Metric Learning (MCML) objective. Our strategy learns a shallow high-order parametric embedding function and compares training/test data only with learned or precomputed exemplars, resulting in a cost function with linear computational complexity for both training and testing. We also empirically demonstrate, using several benchmark datasets, that for classification in two-dimensional embedding space, our approach not only gains speedup of kNN by hundreds of times, but also outperforms state-of-the-art supervised embedding approaches.","headline":"Exemplar-centered Supervised Shallow Parametric Data Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/min2017exemplar/"},"url":"https://learning2hash.github.io/publications/min2017exemplar/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ supervised embedding approaches.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Exemplar-centered Supervised Shallow Parametric Data Embedding",
         conference: "Arxiv",
@@ -304,7 +303,6 @@ supervised embedding approaches.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ supervised embedding approaches.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

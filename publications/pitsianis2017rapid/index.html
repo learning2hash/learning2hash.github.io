@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/pitsianis2017rapid/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Rapid Near-neighbor Interaction Of High-dimensional Data Via Hierarchical Clustering" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Calculation of near-neighbor interactions among high dimensional, irregularly distributed data points is a fundamental task to many graph-based or kernel-based machine learning algorithms and applications. Such calculations, involving large, sparse interaction matrices, expose the limitation of conventional data-and-computation reordering techniques for improving space and time locality on modern computer memory hierarchies. We introduce a novel method for obtaining a matrix permutation that renders a desirable sparsity profile. The method is distinguished by the guiding principle to obtain a profile that is block-sparse with dense blocks. Our profile model and measure capture the essential properties affecting space and time locality, and permit variation in sparsity profile without imposing a restriction to a fixed pattern. The second distinction lies in an efficient algorithm for obtaining a desirable profile, via exploring and exploiting multi-scale cluster structure hidden in but intrinsic to the data. The algorithm accomplishes its task with key components for lower-dimensional embedding with data-specific principal feature axes, hierarchical data clustering, multi-level matrix compression storage, and multi-level interaction computations. We provide experimental results from case studies with two important data analysis algorithms. The resulting performance is remarkably comparable to the BLAS performance for the best-case interaction governed by a regularly banded matrix with the same sparsity.","headline":"Rapid Near-neighbor Interaction Of High-dimensional Data Via Hierarchical Clustering","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pitsianis2017rapid/"},"url":"https://learning2hash.github.io/publications/pitsianis2017rapid/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Calculation of near-neighbor interactions among high dimensional, irregularly distributed data points is a fundamental task to many graph-based or kernel-based machine learning algorithms and applications. Such calculations, involving large, sparse interaction matrices, expose the limitation of conventional data-and-computation reordering techniques for improving space and time locality on modern computer memory hierarchies. We introduce a novel method for obtaining a matrix permutation that renders a desirable sparsity profile. The method is distinguished by the guiding principle to obtain a profile that is block-sparse with dense blocks. Our profile model and measure capture the essential properties affecting space and time locality, and permit variation in sparsity profile without imposing a restriction to a fixed pattern. The second distinction lies in an efficient algorithm for obtaining a desirable profile, via exploring and exploiting multi-scale cluster structure hidden in but intrinsic to the data. The algorithm accomplishes its task with key components for lower-dimensional embedding with data-specific principal feature axes, hierarchical data clustering, multi-level matrix compression storage, and multi-level interaction computations. We provide experimental results from case studies with two important data analysis algorithms. The resulting performance is remarkably comparable to the BLAS performance for the best-case interaction governed by a regularly banded matrix with the same sparsity.","headline":"Rapid Near-neighbor Interaction Of High-dimensional Data Via Hierarchical Clustering","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pitsianis2017rapid/"},"url":"https://learning2hash.github.io/publications/pitsianis2017rapid/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ sparsity.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Rapid Near-neighbor Interaction Of High-dimensional Data Via Hierarchical Clustering",
         conference: "Arxiv",
@@ -300,7 +299,6 @@ sparsity.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ sparsity.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

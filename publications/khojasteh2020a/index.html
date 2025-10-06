@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/khojasteh2020a/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Survey On Patch-based Synthesis: GPU Implementation And Optimization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"This thesis surveys the research in patch-based synthesis and algorithms for finding correspondences between small local regions of images. We additionally explore a large kind of applications of this new fast randomized matching technique. One of the algorithms we have studied in particular is PatchMatch, can find similar regions or “patches” of an image one to two orders of magnitude faster than previous techniques. The algorithmic program is driven by applying mathematical properties of nearest neighbors in natural images. It is observed that neighboring correspondences tend to be similar or “coherent” and use this observation in algorithm in order to quickly converge to an approximate solution. The algorithm is the most general form can find k-nearest neighbor matching, using patches that translate, rotate, or scale, using arbitrary descriptors, and between two or more images. Speed-ups are obtained over various techniques in an exceeding range of those areas. We have explored many applications of PatchMatch matching algorithm. In computer graphics, we have explored removing unwanted objects from images, seamlessly moving objects in images, changing image aspect ratios, and video summarization. In computer vision we have explored denoising images, object detection, detecting image forgeries, and detecting symmetries. We conclude by discussing the restrictions of our algorithmic program, GPU implementation and areas for future analysis.","headline":"A Survey On Patch-based Synthesis: GPU Implementation And Optimization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/khojasteh2020a/"},"url":"https://learning2hash.github.io/publications/khojasteh2020a/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"This thesis surveys the research in patch-based synthesis and algorithms for finding correspondences between small local regions of images. We additionally explore a large kind of applications of this new fast randomized matching technique. One of the algorithms we have studied in particular is PatchMatch, can find similar regions or “patches” of an image one to two orders of magnitude faster than previous techniques. The algorithmic program is driven by applying mathematical properties of nearest neighbors in natural images. It is observed that neighboring correspondences tend to be similar or “coherent” and use this observation in algorithm in order to quickly converge to an approximate solution. The algorithm is the most general form can find k-nearest neighbor matching, using patches that translate, rotate, or scale, using arbitrary descriptors, and between two or more images. Speed-ups are obtained over various techniques in an exceeding range of those areas. We have explored many applications of PatchMatch matching algorithm. In computer graphics, we have explored removing unwanted objects from images, seamlessly moving objects in images, changing image aspect ratios, and video summarization. In computer vision we have explored denoising images, object detection, detecting image forgeries, and detecting symmetries. We conclude by discussing the restrictions of our algorithmic program, GPU implementation and areas for future analysis.","headline":"A Survey On Patch-based Synthesis: GPU Implementation And Optimization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/khojasteh2020a/"},"url":"https://learning2hash.github.io/publications/khojasteh2020a/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ of our algorithmic program, GPU implementation and areas for future analysis.</p
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "A Survey On Patch-based Synthesis: GPU Implementation And Optimization",
         conference: "Arxiv",
@@ -296,7 +295,6 @@ of our algorithmic program, GPU implementation and areas for future analysis.</p
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ of our algorithmic program, GPU implementation and areas for future analysis.</p
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

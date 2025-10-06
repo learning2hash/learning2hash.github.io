@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wroblewska2020multi/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multi-modal Embedding Fusion-based Recommender" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Recommendation systems have lately been popularized globally, with primary use cases in online interaction systems, with significant focus on e-commerce platforms. We have developed a machine learning-based recommendation platform, which can be easily applied to almost any items and/or actions domain. Contrary to existing recommendation systems, our platform supports multiple types of interaction data with multiple modalities of metadata natively. This is achieved through multi-modal fusion of various data representations. We deployed the platform into multiple e-commerce stores of different kinds, e.g. food and beverages, shoes, fashion items, telecom operators. Here, we present our system, its flexibility and performance. We also show benchmark results on open datasets, that significantly outperform state-of-the-art prior work.","headline":"Multi-modal Embedding Fusion-based Recommender","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wroblewska2020multi/"},"url":"https://learning2hash.github.io/publications/wroblewska2020multi/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Recommendation systems have lately been popularized globally, with primary use cases in online interaction systems, with significant focus on e-commerce platforms. We have developed a machine learning-based recommendation platform, which can be easily applied to almost any items and/or actions domain. Contrary to existing recommendation systems, our platform supports multiple types of interaction data with multiple modalities of metadata natively. This is achieved through multi-modal fusion of various data representations. We deployed the platform into multiple e-commerce stores of different kinds, e.g. food and beverages, shoes, fashion items, telecom operators. Here, we present our system, its flexibility and performance. We also show benchmark results on open datasets, that significantly outperform state-of-the-art prior work.","headline":"Multi-modal Embedding Fusion-based Recommender","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wroblewska2020multi/"},"url":"https://learning2hash.github.io/publications/wroblewska2020multi/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -251,7 +251,6 @@ open datasets, that significantly outperform state-of-the-art prior work.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Multi-modal Embedding Fusion-based Recommender",
         conference: "Electronics",
@@ -292,7 +291,6 @@ open datasets, that significantly outperform state-of-the-art prior work.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -321,37 +319,38 @@ open datasets, that significantly outperform state-of-the-art prior work.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

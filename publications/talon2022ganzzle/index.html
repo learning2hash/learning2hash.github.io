@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/talon2022ganzzle/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Ganzzle: Reframing Jigsaw Puzzle Solving As A Retrieval Task Using A Generative Mental Image" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Puzzle solving is a combinatorial challenge due to the difficulty of matching adjacent pieces. Instead, we infer a mental image from all pieces, which a given piece can then be matched against avoiding the combinatorial explosion. Exploiting advancements in Generative Adversarial methods, we learn how to reconstruct the image given a set of unordered pieces, allowing the model to learn a joint embedding space to match an encoding of each piece to the cropped layer of the generator. Therefore we frame the problem as a R@1 retrieval task, and then solve the linear assignment using differentiable Hungarian attention, making the process end-to-end. In doing so our model is puzzle size agnostic, in contrast to prior deep learning methods which are single size. We evaluate on two new large-scale datasets, where our model is on par with deep learning methods, while generalizing to multiple puzzle sizes.","headline":"Ganzzle: Reframing Jigsaw Puzzle Solving As A Retrieval Task Using A Generative Mental Image","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/talon2022ganzzle/"},"url":"https://learning2hash.github.io/publications/talon2022ganzzle/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Puzzle solving is a combinatorial challenge due to the difficulty of matching adjacent pieces. Instead, we infer a mental image from all pieces, which a given piece can then be matched against avoiding the combinatorial explosion. Exploiting advancements in Generative Adversarial methods, we learn how to reconstruct the image given a set of unordered pieces, allowing the model to learn a joint embedding space to match an encoding of each piece to the cropped layer of the generator. Therefore we frame the problem as a R@1 retrieval task, and then solve the linear assignment using differentiable Hungarian attention, making the process end-to-end. In doing so our model is puzzle size agnostic, in contrast to prior deep learning methods which are single size. We evaluate on two new large-scale datasets, where our model is on par with deep learning methods, while generalizing to multiple puzzle sizes.","headline":"Ganzzle: Reframing Jigsaw Puzzle Solving As A Retrieval Task Using A Generative Mental Image","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/talon2022ganzzle/"},"url":"https://learning2hash.github.io/publications/talon2022ganzzle/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -254,7 +254,6 @@ methods, while generalizing to multiple puzzle sizes.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Ganzzle: Reframing Jigsaw Puzzle Solving As A Retrieval Task Using A Generative Mental Image",
         conference: "2022 IEEE International Conference on Image Processing (ICIP)",
@@ -295,7 +294,6 @@ methods, while generalizing to multiple puzzle sizes.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -324,37 +322,38 @@ methods, while generalizing to multiple puzzle sizes.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

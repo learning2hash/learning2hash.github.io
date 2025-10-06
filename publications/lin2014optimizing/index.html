@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lin2014optimizing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Optimizing Ranking Measures For Compact Binary Code Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Hashing has proven a valuable tool for large-scale information retrieval. Despite much success, existing hashing methods optimize over simple objectives such as the reconstruction error or graph Laplacian related loss functions, instead of the performance evaluation criteria of interest—multivariate performance measures such as the AUC and NDCG. Here we present a general framework (termed StructHash) that allows one to directly optimize multivariate performance measures. The resulting optimization problem can involve exponentially or infinitely many variables and constraints, which is more challenging than standard structured output learning. To solve the StructHash optimization problem, we use a combination of column generation and cutting-plane techniques. We demonstrate the generality of StructHash by applying it to ranking prediction and image retrieval, and show that it outperforms a few state-of-the-art hashing methods.","headline":"Optimizing Ranking Measures For Compact Binary Code Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2014optimizing/"},"url":"https://learning2hash.github.io/publications/lin2014optimizing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Hashing has proven a valuable tool for large-scale information retrieval. Despite much success, existing hashing methods optimize over simple objectives such as the reconstruction error or graph Laplacian related loss functions, instead of the performance evaluation criteria of interest—multivariate performance measures such as the AUC and NDCG. Here we present a general framework (termed StructHash) that allows one to directly optimize multivariate performance measures. The resulting optimization problem can involve exponentially or infinitely many variables and constraints, which is more challenging than standard structured output learning. To solve the StructHash optimization problem, we use a combination of column generation and cutting-plane techniques. We demonstrate the generality of StructHash by applying it to ranking prediction and image retrieval, and show that it outperforms a few state-of-the-art hashing methods.","headline":"Optimizing Ranking Measures For Compact Binary Code Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2014optimizing/"},"url":"https://learning2hash.github.io/publications/lin2014optimizing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -248,7 +248,6 @@ The resulting optimization problem can involve exponentially or infinitely many 
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Optimizing Ranking Measures For Compact Binary Code Learning",
         conference: "Lecture Notes in Computer Science",
@@ -289,7 +288,6 @@ The resulting optimization problem can involve exponentially or infinitely many 
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -318,37 +316,38 @@ The resulting optimization problem can involve exponentially or infinitely many 
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zeng2024candy/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="CANDY: A Benchmark For Continuous Approximate Nearest Neighbor Search With Dynamic Data Ingestion" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Approximate K Nearest Neighbor (AKNN) algorithms play a pivotal role in various AI applications, including information retrieval, computer vision, and natural language processing. Although numerous AKNN algorithms and benchmarks have been developed recently to evaluate their effectiveness, the dynamic nature of real-world data presents significant challenges that existing benchmarks fail to address. Traditional benchmarks primarily assess retrieval effectiveness in static contexts and often overlook update efficiency, which is crucial for handling continuous data ingestion. This limitation results in an incomplete assessment of an AKNN algorithms ability to adapt to changing data patterns, thereby restricting insights into their performance in dynamic environments. To address these gaps, we introduce CANDY, a benchmark tailored for Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion. CANDY comprehensively assesses a wide range of AKNN algorithms, integrating advanced optimizations such as machine learning-driven inference to supplant traditional heuristic scans, and improved distance computation methods to reduce computational overhead. Our extensive evaluations across diverse datasets demonstrate that simpler AKNN baselines often surpass more complex alternatives in terms of recall and latency. These findings challenge established beliefs about the necessity of algorithmic complexity for high performance. Furthermore, our results underscore existing challenges and illuminate future research opportunities. We have made the datasets and implementation methods available at: https://github.com/intellistream/candy.","headline":"CANDY: A Benchmark For Continuous Approximate Nearest Neighbor Search With Dynamic Data Ingestion","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zeng2024candy/"},"url":"https://learning2hash.github.io/publications/zeng2024candy/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Approximate K Nearest Neighbor (AKNN) algorithms play a pivotal role in various AI applications, including information retrieval, computer vision, and natural language processing. Although numerous AKNN algorithms and benchmarks have been developed recently to evaluate their effectiveness, the dynamic nature of real-world data presents significant challenges that existing benchmarks fail to address. Traditional benchmarks primarily assess retrieval effectiveness in static contexts and often overlook update efficiency, which is crucial for handling continuous data ingestion. This limitation results in an incomplete assessment of an AKNN algorithms ability to adapt to changing data patterns, thereby restricting insights into their performance in dynamic environments. To address these gaps, we introduce CANDY, a benchmark tailored for Continuous Approximate Nearest Neighbor Search with Dynamic Data Ingestion. CANDY comprehensively assesses a wide range of AKNN algorithms, integrating advanced optimizations such as machine learning-driven inference to supplant traditional heuristic scans, and improved distance computation methods to reduce computational overhead. Our extensive evaluations across diverse datasets demonstrate that simpler AKNN baselines often surpass more complex alternatives in terms of recall and latency. These findings challenge established beliefs about the necessity of algorithmic complexity for high performance. Furthermore, our results underscore existing challenges and illuminate future research opportunities. We have made the datasets and implementation methods available at: https://github.com/intellistream/candy.","headline":"CANDY: A Benchmark For Continuous Approximate Nearest Neighbor Search With Dynamic Data Ingestion","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zeng2024candy/"},"url":"https://learning2hash.github.io/publications/zeng2024candy/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ implementation methods available at: https://github.com/intellistream/candy.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "CANDY: A Benchmark For Continuous Approximate Nearest Neighbor Search With Dynamic Data Ingestion",
         conference: "Arxiv",
@@ -305,7 +304,6 @@ implementation methods available at: https://github.com/intellistream/candy.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ implementation methods available at: https://github.com/intellistream/candy.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

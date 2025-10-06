@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/bawazir2024uni/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Uni-mlip: Unified Self-supervision For Medical Vision Language Pre-training" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Recent advancements in vision-language pre-training via contrastive learning have significantly improved performance across computer vision tasks. However, in the medical domain, obtaining multimodal data is often costly and challenging due to privacy, sensitivity, and annotation complexity. To mitigate data scarcity while boosting model performance, we introduce \\textbf{Uni-Mlip}, a unified self-supervision framework specifically designed to enhance medical vision-language pre-training. Uni-Mlip seamlessly integrates cross-modality, uni-modality, and fused-modality self-supervision techniques at the data-level and the feature-level. Additionally, Uni-Mlip tailors uni-modal image self-supervision to accommodate the unique characteristics of medical images. Our experiments across datasets of varying scales demonstrate that Uni-Mlip significantly surpasses current state-of-the-art methods in three key downstream tasks: image-text retrieval, image classification, and visual question answering (VQA).","headline":"Uni-mlip: Unified Self-supervision For Medical Vision Language Pre-training","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bawazir2024uni/"},"url":"https://learning2hash.github.io/publications/bawazir2024uni/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Recent advancements in vision-language pre-training via contrastive learning have significantly improved performance across computer vision tasks. However, in the medical domain, obtaining multimodal data is often costly and challenging due to privacy, sensitivity, and annotation complexity. To mitigate data scarcity while boosting model performance, we introduce \\textbf{Uni-Mlip}, a unified self-supervision framework specifically designed to enhance medical vision-language pre-training. Uni-Mlip seamlessly integrates cross-modality, uni-modality, and fused-modality self-supervision techniques at the data-level and the feature-level. Additionally, Uni-Mlip tailors uni-modal image self-supervision to accommodate the unique characteristics of medical images. Our experiments across datasets of varying scales demonstrate that Uni-Mlip significantly surpasses current state-of-the-art methods in three key downstream tasks: image-text retrieval, image classification, and visual question answering (VQA).","headline":"Uni-mlip: Unified Self-supervision For Medical Vision Language Pre-training","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bawazir2024uni/"},"url":"https://learning2hash.github.io/publications/bawazir2024uni/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -258,7 +258,6 @@ question answering (VQA).</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Uni-mlip: Unified Self-supervision For Medical Vision Language Pre-training",
         conference: "Arxiv",
@@ -299,7 +298,6 @@ question answering (VQA).</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -328,37 +326,38 @@ question answering (VQA).</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

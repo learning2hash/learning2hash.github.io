@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zerveas2021coder/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="CODER: An Efficient Framework For Improving Retrieval Through Contextual Document Embedding Reranking" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Contrastive learning has been the dominant approach to training dense retrieval models. In this work, we investigate the impact of ranking context - an often overlooked aspect of learning dense retrieval models. In particular, we examine the effect of its constituent parts: jointly scoring a large number of negatives per query, using retrieved (query-specific) instead of random negatives, and a fully list-wise loss. To incorporate these factors into training, we introduce Contextual Document Embedding Reranking (CODER), a highly efficient retrieval framework. When reranking, it incurs only a negligible computational overhead on top of a first-stage method at run time (delay per query in the order of milliseconds), allowing it to be easily combined with any state-of-the-art dual encoder method. After fine-tuning through CODER, which is a lightweight and fast process, models can also be used as stand-alone retrievers. Evaluating CODER in a large set of experiments on the MS~MARCO and TripClick collections, we show that the contextual reranking of precomputed document embeddings leads to a significant improvement in retrieval performance. This improvement becomes even more pronounced when more relevance information per query is available, shown in the TripClick collection, where we establish new state-of-the-art results by a large margin.","headline":"CODER: An Efficient Framework For Improving Retrieval Through Contextual Document Embedding Reranking","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zerveas2021coder/"},"url":"https://learning2hash.github.io/publications/zerveas2021coder/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Contrastive learning has been the dominant approach to training dense retrieval models. In this work, we investigate the impact of ranking context - an often overlooked aspect of learning dense retrieval models. In particular, we examine the effect of its constituent parts: jointly scoring a large number of negatives per query, using retrieved (query-specific) instead of random negatives, and a fully list-wise loss. To incorporate these factors into training, we introduce Contextual Document Embedding Reranking (CODER), a highly efficient retrieval framework. When reranking, it incurs only a negligible computational overhead on top of a first-stage method at run time (delay per query in the order of milliseconds), allowing it to be easily combined with any state-of-the-art dual encoder method. After fine-tuning through CODER, which is a lightweight and fast process, models can also be used as stand-alone retrievers. Evaluating CODER in a large set of experiments on the MS~MARCO and TripClick collections, we show that the contextual reranking of precomputed document embeddings leads to a significant improvement in retrieval performance. This improvement becomes even more pronounced when more relevance information per query is available, shown in the TripClick collection, where we establish new state-of-the-art results by a large margin.","headline":"CODER: An Efficient Framework For Improving Retrieval Through Contextual Document Embedding Reranking","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zerveas2021coder/"},"url":"https://learning2hash.github.io/publications/zerveas2021coder/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ collection, where we establish new state-of-the-art results by a large margin.</
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "CODER: An Efficient Framework For Improving Retrieval Through Contextual Document Embedding Reranking",
         conference: "Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing",
@@ -303,7 +302,6 @@ collection, where we establish new state-of-the-art results by a large margin.</
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ collection, where we establish new state-of-the-art results by a large margin.</
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

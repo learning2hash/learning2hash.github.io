@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/gui2017fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast Supervised Discrete Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Learning-based hashing algorithms are hot topics&quot; because they can greatly increase the scale at which existing methods operate. In this paper, we propose a new learning-based hashing method calledfast supervised discrete hashing” (FSDH) based on ``supervised discrete hashing” (SDH). Regressing the training examples (or hash code) to the corresponding class labels is widely used in ordinary least squares regression. Rather than adopting this method, FSDH uses a very simple yet effective regression of the class labels of training examples to the corresponding hash code to accelerate the algorithm. To the best of our knowledge, this strategy has not previously been used for hashing. Traditional SDH decomposes the optimization into three sub-problems, with the most critical sub-problem - discrete optimization for binary hash codes - solved using iterative discrete cyclic coordinate descent (DCC), which is time-consuming. However, FSDH has a closed-form solution and only requires a single rather than iterative hash code-solving step, which is highly efficient. Furthermore, FSDH is usually faster than SDH for solving the projection matrix for least squares regression, making FSDH generally faster than SDH. For example, our results show that FSDH is about 12-times faster than SDH when the number of hashing bits is 128 on the CIFAR-10 data base, and FSDH is about 151-times faster than FastHash when the number of hashing bits is 64 on the MNIST data-base. Our experimental results show that FSDH is not only fast, but also outperforms other comparative methods.","headline":"Fast Supervised Discrete Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gui2017fast/"},"url":"https://learning2hash.github.io/publications/gui2017fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Learning-based hashing algorithms are hot topics&quot; because they can greatly increase the scale at which existing methods operate. In this paper, we propose a new learning-based hashing method calledfast supervised discrete hashing” (FSDH) based on ``supervised discrete hashing” (SDH). Regressing the training examples (or hash code) to the corresponding class labels is widely used in ordinary least squares regression. Rather than adopting this method, FSDH uses a very simple yet effective regression of the class labels of training examples to the corresponding hash code to accelerate the algorithm. To the best of our knowledge, this strategy has not previously been used for hashing. Traditional SDH decomposes the optimization into three sub-problems, with the most critical sub-problem - discrete optimization for binary hash codes - solved using iterative discrete cyclic coordinate descent (DCC), which is time-consuming. However, FSDH has a closed-form solution and only requires a single rather than iterative hash code-solving step, which is highly efficient. Furthermore, FSDH is usually faster than SDH for solving the projection matrix for least squares regression, making FSDH generally faster than SDH. For example, our results show that FSDH is about 12-times faster than SDH when the number of hashing bits is 128 on the CIFAR-10 data base, and FSDH is about 151-times faster than FastHash when the number of hashing bits is 64 on the MNIST data-base. Our experimental results show that FSDH is not only fast, but also outperforms other comparative methods.","headline":"Fast Supervised Discrete Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gui2017fast/"},"url":"https://learning2hash.github.io/publications/gui2017fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ other comparative methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Fast Supervised Discrete Hashing",
         conference: "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -300,7 +299,6 @@ other comparative methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ other comparative methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

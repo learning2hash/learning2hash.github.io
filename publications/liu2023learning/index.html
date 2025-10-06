@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2023learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Category Trees For Id-based Recommendation: Exploring The Power Of Differentiable Vector Quantization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Category information plays a crucial role in enhancing the quality and personalization of recommender systems. Nevertheless, the availability of item category information is not consistently present, particularly in the context of ID-based recommendations. In this work, we propose a novel approach to automatically learn and generate entity (i.e., user or item) category trees for ID-based recommendation. Specifically, we devise a differentiable vector quantization framework for automatic category tree generation, namely CAGE, which enables the simultaneous learning and refinement of categorical code representations and entity embeddings in an end-to-end manner, starting from the randomly initialized states. With its high adaptability, CAGE can be easily integrated into both sequential and non-sequential recommender systems. We validate the effectiveness of CAGE on various recommendation tasks including list completion, collaborative filtering, and click-through rate prediction, across different recommendation models. We release the code and data for others to reproduce the reported results.","headline":"Learning Category Trees For Id-based Recommendation: Exploring The Power Of Differentiable Vector Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2023learning/"},"url":"https://learning2hash.github.io/publications/liu2023learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Category information plays a crucial role in enhancing the quality and personalization of recommender systems. Nevertheless, the availability of item category information is not consistently present, particularly in the context of ID-based recommendations. In this work, we propose a novel approach to automatically learn and generate entity (i.e., user or item) category trees for ID-based recommendation. Specifically, we devise a differentiable vector quantization framework for automatic category tree generation, namely CAGE, which enables the simultaneous learning and refinement of categorical code representations and entity embeddings in an end-to-end manner, starting from the randomly initialized states. With its high adaptability, CAGE can be easily integrated into both sequential and non-sequential recommender systems. We validate the effectiveness of CAGE on various recommendation tasks including list completion, collaborative filtering, and click-through rate prediction, across different recommendation models. We release the code and data for others to reproduce the reported results.","headline":"Learning Category Trees For Id-based Recommendation: Exploring The Power Of Differentiable Vector Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2023learning/"},"url":"https://learning2hash.github.io/publications/liu2023learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ to reproduce the reported results.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Learning Category Trees For Id-based Recommendation: Exploring The Power Of Differentiable Vector Quantization",
         conference: "Proceedings of the ACM Web Conference 2024",
@@ -296,7 +295,6 @@ to reproduce the reported results.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ to reproduce the reported results.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

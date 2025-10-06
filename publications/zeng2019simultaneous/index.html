@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zeng2019simultaneous/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Simultaneous Region Localization And Hash Coding For Fine-grained Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Fine-grained image hashing is a challenging problem due to the difficulties of discriminative region localization and hash code generation. Most existing deep hashing approaches solve the two tasks independently. While these two tasks are correlated and can reinforce each other. In this paper, we propose a deep fine-grained hashing to simultaneously localize the discriminative regions and generate the efficient binary codes. The proposed approach consists of a region localization module and a hash coding module. The region localization module aims to provide informative regions to the hash coding module. The hash coding module aims to generate effective binary codes and give feedback for learning better localizer. Moreover, to better capture subtle differences, multi-scale regions at different layers are learned without the need of bounding-box/part annotations. Extensive experiments are conducted on two public benchmark fine-grained datasets. The results demonstrate significant improvements in the performance of our method relative to other fine-grained hashing algorithms.","headline":"Simultaneous Region Localization And Hash Coding For Fine-grained Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zeng2019simultaneous/"},"url":"https://learning2hash.github.io/publications/zeng2019simultaneous/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Fine-grained image hashing is a challenging problem due to the difficulties of discriminative region localization and hash code generation. Most existing deep hashing approaches solve the two tasks independently. While these two tasks are correlated and can reinforce each other. In this paper, we propose a deep fine-grained hashing to simultaneously localize the discriminative regions and generate the efficient binary codes. The proposed approach consists of a region localization module and a hash coding module. The region localization module aims to provide informative regions to the hash coding module. The hash coding module aims to generate effective binary codes and give feedback for learning better localizer. Moreover, to better capture subtle differences, multi-scale regions at different layers are learned without the need of bounding-box/part annotations. Extensive experiments are conducted on two public benchmark fine-grained datasets. The results demonstrate significant improvements in the performance of our method relative to other fine-grained hashing algorithms.","headline":"Simultaneous Region Localization And Hash Coding For Fine-grained Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zeng2019simultaneous/"},"url":"https://learning2hash.github.io/publications/zeng2019simultaneous/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +261,6 @@ hashing algorithms.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Simultaneous Region Localization And Hash Coding For Fine-grained Image Retrieval",
         conference: "Arxiv",
@@ -302,7 +301,6 @@ hashing algorithms.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -331,37 +329,38 @@ hashing algorithms.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

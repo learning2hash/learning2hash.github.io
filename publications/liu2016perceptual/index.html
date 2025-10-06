@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2016perceptual/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Perceptual Uniform Descriptor And Ranking On Manifold: A Bridge Between Image Representation And Ranking For Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Incompatibility of image descriptor and ranking is always neglected in image retrieval. In this paper, manifold learning and Gestalt psychology theory are involved to solve the incompatibility problem. A new holistic descriptor called Perceptual Uniform Descriptor (PUD) based on Gestalt psychology is proposed, which combines color and gradient direction to imitate the human visual uniformity. PUD features in the same class images distributes on one manifold in most cases because PUD improves the visual uniformity of the traditional descriptors. Thus, we use manifold ranking and PUD to realize image retrieval. Experiments were carried out on five benchmark data sets, and the proposed method can greatly improve the accuracy of image retrieval. Our experimental results in the Ukbench and Corel-1K datasets demonstrated that N-S score reached to 3.58 (HSV 3.4) and mAP to 81.77% (ODBTC 77.9%) respectively by utilizing PUD which has only 280 dimension. The results are higher than other holistic image descriptors (even some local ones) and state-of-the-arts retrieval methods.","headline":"Perceptual Uniform Descriptor And Ranking On Manifold: A Bridge Between Image Representation And Ranking For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2016perceptual/"},"url":"https://learning2hash.github.io/publications/liu2016perceptual/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Incompatibility of image descriptor and ranking is always neglected in image retrieval. In this paper, manifold learning and Gestalt psychology theory are involved to solve the incompatibility problem. A new holistic descriptor called Perceptual Uniform Descriptor (PUD) based on Gestalt psychology is proposed, which combines color and gradient direction to imitate the human visual uniformity. PUD features in the same class images distributes on one manifold in most cases because PUD improves the visual uniformity of the traditional descriptors. Thus, we use manifold ranking and PUD to realize image retrieval. Experiments were carried out on five benchmark data sets, and the proposed method can greatly improve the accuracy of image retrieval. Our experimental results in the Ukbench and Corel-1K datasets demonstrated that N-S score reached to 3.58 (HSV 3.4) and mAP to 81.77% (ODBTC 77.9%) respectively by utilizing PUD which has only 280 dimension. The results are higher than other holistic image descriptors (even some local ones) and state-of-the-arts retrieval methods.","headline":"Perceptual Uniform Descriptor And Ranking On Manifold: A Bridge Between Image Representation And Ranking For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2016perceptual/"},"url":"https://learning2hash.github.io/publications/liu2016perceptual/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ retrieval methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Perceptual Uniform Descriptor And Ranking On Manifold: A Bridge Between Image Representation And Ranking For Image Retrieval",
         conference: "Arxiv",
@@ -296,7 +295,6 @@ retrieval methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ retrieval methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

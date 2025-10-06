@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/camara2019spatio/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Spatio-semantic Convnet-based Visual Place Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We present a Visual Place Recognition system that follows the two-stage format common to image retrieval pipelines. The system encodes images of places by employing the activations of different layers of a pre-trained, off-the-shelf, VGG16 Convolutional Neural Network (CNN) architecture. In the first stage of our method and given a query image of a place, a number of top candidate images is retrieved from a previously stored database of places. In the second stage, we propose an exhaustive comparison of the query image against these candidates by encoding semantic and spatial information in the form of CNN features. Results from our approach outperform by a large margin state-of-the-art visual place recognition methods on five of the most commonly used benchmark datasets. The performance gain is especially remarkable on the most challenging datasets, with more than a twofold recognition improvement with respect to the latest published work.","headline":"Spatio-semantic Convnet-based Visual Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/camara2019spatio/"},"url":"https://learning2hash.github.io/publications/camara2019spatio/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We present a Visual Place Recognition system that follows the two-stage format common to image retrieval pipelines. The system encodes images of places by employing the activations of different layers of a pre-trained, off-the-shelf, VGG16 Convolutional Neural Network (CNN) architecture. In the first stage of our method and given a query image of a place, a number of top candidate images is retrieved from a previously stored database of places. In the second stage, we propose an exhaustive comparison of the query image against these candidates by encoding semantic and spatial information in the form of CNN features. Results from our approach outperform by a large margin state-of-the-art visual place recognition methods on five of the most commonly used benchmark datasets. The performance gain is especially remarkable on the most challenging datasets, with more than a twofold recognition improvement with respect to the latest published work.","headline":"Spatio-semantic Convnet-based Visual Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/camara2019spatio/"},"url":"https://learning2hash.github.io/publications/camara2019spatio/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +253,6 @@ with respect to the latest published work.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Spatio-semantic Convnet-based Visual Place Recognition",
         conference: "2019 European Conference on Mobile Robots (ECMR)",
@@ -294,7 +293,6 @@ with respect to the latest published work.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -323,37 +321,38 @@ with respect to the latest published work.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

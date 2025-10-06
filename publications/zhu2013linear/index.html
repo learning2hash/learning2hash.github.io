@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhu2013linear/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Linear Cross-modal Hashing For Efficient Multimedia Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Most existing cross-modal hashing methods suffer from the scalability issue in the training phase. In this paper, we propose a novel cross-modal hashing approach with a linear time complexity to the training data size, to enable scalable indexing for multimedia search across multiple modals. Taking both the intra-similarity in each modal and the inter-similarity across different modals into consideration, the proposed approach aims at effectively learning hash functions from large-scale training datasets. More specifically, for each modal, we first partition the training data into (k) clusters and then represent each training data point with its distances to (k) centroids of the clusters. Interestingly, such a k-dimensional data representation can reduce the time complexity of the training phase from traditional O(n2) or higher to O(n), where (n) is the training data size, leading to practical learning on large-scale datasets. We further prove that this new representation preserves the intra-similarity in each modal. To preserve the inter-similarity among data points across different modals, we transform the derived data representations into a common binary subspace in which binary codes from all the modals are “consistent” and comparable. The transformation simultaneously outputs the hash functions for all modals, which are used to convert unseen data into binary codes. Given a query of one modal, it is first mapped into the binary codes using the modal’s hash functions, followed by matching the database binary codes of any other modals. Experimental results on two benchmark datasets confirm the scalability and the effectiveness of the proposed approach in comparison with the state of the art.","headline":"Linear Cross-modal Hashing For Efficient Multimedia Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2013linear/"},"url":"https://learning2hash.github.io/publications/zhu2013linear/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Most existing cross-modal hashing methods suffer from the scalability issue in the training phase. In this paper, we propose a novel cross-modal hashing approach with a linear time complexity to the training data size, to enable scalable indexing for multimedia search across multiple modals. Taking both the intra-similarity in each modal and the inter-similarity across different modals into consideration, the proposed approach aims at effectively learning hash functions from large-scale training datasets. More specifically, for each modal, we first partition the training data into (k) clusters and then represent each training data point with its distances to (k) centroids of the clusters. Interestingly, such a k-dimensional data representation can reduce the time complexity of the training phase from traditional O(n2) or higher to O(n), where (n) is the training data size, leading to practical learning on large-scale datasets. We further prove that this new representation preserves the intra-similarity in each modal. To preserve the inter-similarity among data points across different modals, we transform the derived data representations into a common binary subspace in which binary codes from all the modals are “consistent” and comparable. The transformation simultaneously outputs the hash functions for all modals, which are used to convert unseen data into binary codes. Given a query of one modal, it is first mapped into the binary codes using the modal’s hash functions, followed by matching the database binary codes of any other modals. Experimental results on two benchmark datasets confirm the scalability and the effectiveness of the proposed approach in comparison with the state of the art.","headline":"Linear Cross-modal Hashing For Efficient Multimedia Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2013linear/"},"url":"https://learning2hash.github.io/publications/zhu2013linear/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -258,7 +258,6 @@ comparison with the state of the art.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Linear Cross-modal Hashing For Efficient Multimedia Search",
         conference: "Proceedings of the 21st ACM international conference on Multimedia",
@@ -299,7 +298,6 @@ comparison with the state of the art.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -328,37 +326,38 @@ comparison with the state of the art.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

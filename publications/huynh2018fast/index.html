@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/huynh2018fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast Binary Embeddings, And Quantized Compressed Sensing With Structured Matrices" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"This paper deals with two related problems, namely distance-preserving binary embeddings and quantization for compressed sensing . First, we propose fast methods to replace points from a subset (\\mathcal{X} \\subset \\mathbb{R}^n), associated with the Euclidean metric, with points in the cube (\\{\\pm 1\\}^m) and we associate the cube with a pseudo-metric that approximates Euclidean distance among points in (\\mathcal{X}). Our methods rely on quantizing fast Johnson-Lindenstrauss embeddings based on bounded orthonormal systems and partial circulant ensembles, both of which admit fast transforms. Our quantization methods utilize noise-shaping, and include Sigma-Delta schemes and distributed noise-shaping schemes. The resulting approximation errors decay polynomially and exponentially fast in (m), depending on the embedding method. This dramatically outperforms the current decay rates associated with binary embeddings and Hamming distances. Additionally, it is the first such binary embedding result that applies to fast Johnson-Lindenstrauss maps while preserving (ℓ₂) norms. Second, we again consider noise-shaping schemes, albeit this time to quantize compressed sensing measurements arising from bounded orthonormal ensembles and partial circulant matrices. We show that these methods yield a reconstruction error that again decays with the number of measurements (and bits), when using convex optimization for reconstruction. Specifically, for Sigma-Delta schemes, the error decays polynomially in the number of measurements, and it decays exponentially for distributed noise-shaping schemes based on beta encoding. These results are near optimal and the first of their kind dealing with bounded orthonormal systems.","headline":"Fast Binary Embeddings, And Quantized Compressed Sensing With Structured Matrices","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/huynh2018fast/"},"url":"https://learning2hash.github.io/publications/huynh2018fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"This paper deals with two related problems, namely distance-preserving binary embeddings and quantization for compressed sensing . First, we propose fast methods to replace points from a subset (\\mathcal{X} \\subset \\mathbb{R}^n), associated with the Euclidean metric, with points in the cube (\\{\\pm 1\\}^m) and we associate the cube with a pseudo-metric that approximates Euclidean distance among points in (\\mathcal{X}). Our methods rely on quantizing fast Johnson-Lindenstrauss embeddings based on bounded orthonormal systems and partial circulant ensembles, both of which admit fast transforms. Our quantization methods utilize noise-shaping, and include Sigma-Delta schemes and distributed noise-shaping schemes. The resulting approximation errors decay polynomially and exponentially fast in (m), depending on the embedding method. This dramatically outperforms the current decay rates associated with binary embeddings and Hamming distances. Additionally, it is the first such binary embedding result that applies to fast Johnson-Lindenstrauss maps while preserving (ℓ₂) norms. Second, we again consider noise-shaping schemes, albeit this time to quantize compressed sensing measurements arising from bounded orthonormal ensembles and partial circulant matrices. We show that these methods yield a reconstruction error that again decays with the number of measurements (and bits), when using convex optimization for reconstruction. Specifically, for Sigma-Delta schemes, the error decays polynomially in the number of measurements, and it decays exponentially for distributed noise-shaping schemes based on beta encoding. These results are near optimal and the first of their kind dealing with bounded orthonormal systems.","headline":"Fast Binary Embeddings, And Quantized Compressed Sensing With Structured Matrices","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/huynh2018fast/"},"url":"https://learning2hash.github.io/publications/huynh2018fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ orthonormal systems.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Fast Binary Embeddings, And Quantized Compressed Sensing With Structured Matrices",
         conference: "Communications on Pure and Applied Mathematics",
@@ -305,7 +304,6 @@ orthonormal systems.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ orthonormal systems.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

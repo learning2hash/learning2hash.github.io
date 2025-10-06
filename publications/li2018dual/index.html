@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2018dual/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Dual Asymmetric Deep Hashing Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Due to the impressive learning power, deep learning has achieved a remarkable performance in supervised hash function learning. In this paper, we propose a novel asymmetric supervised deep hashing method to preserve the semantic structure among different categories and generate the binary codes simultaneously. Specifically, two asymmetric deep networks are constructed to reveal the similarity between each pair of images according to their semantic labels. The deep hash functions are then learned through two networks by minimizing the gap between the learned features and discrete codes. Furthermore, since the binary codes in the Hamming space also should keep the semantic affinity existing in the original space, another asymmetric pairwise loss is introduced to capture the similarity between the binary codes and real-value features. This asymmetric loss not only improves the retrieval performance, but also contributes to a quick convergence at the training phase. By taking advantage of the two-stream deep structures and two types of asymmetric pairwise functions, an alternating algorithm is designed to optimize the deep features and high-quality binary codes efficiently. Experimental results on three real-world datasets substantiate the effectiveness and superiority of our approach as compared with state-of-the-art.","headline":"Dual Asymmetric Deep Hashing Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2018dual/"},"url":"https://learning2hash.github.io/publications/li2018dual/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Due to the impressive learning power, deep learning has achieved a remarkable performance in supervised hash function learning. In this paper, we propose a novel asymmetric supervised deep hashing method to preserve the semantic structure among different categories and generate the binary codes simultaneously. Specifically, two asymmetric deep networks are constructed to reveal the similarity between each pair of images according to their semantic labels. The deep hash functions are then learned through two networks by minimizing the gap between the learned features and discrete codes. Furthermore, since the binary codes in the Hamming space also should keep the semantic affinity existing in the original space, another asymmetric pairwise loss is introduced to capture the similarity between the binary codes and real-value features. This asymmetric loss not only improves the retrieval performance, but also contributes to a quick convergence at the training phase. By taking advantage of the two-stream deep structures and two types of asymmetric pairwise functions, an alternating algorithm is designed to optimize the deep features and high-quality binary codes efficiently. Experimental results on three real-world datasets substantiate the effectiveness and superiority of our approach as compared with state-of-the-art.","headline":"Dual Asymmetric Deep Hashing Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2018dual/"},"url":"https://learning2hash.github.io/publications/li2018dual/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ superiority of our approach as compared with state-of-the-art.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Dual Asymmetric Deep Hashing Learning",
         conference: "IEEE Access",
@@ -305,7 +304,6 @@ superiority of our approach as compared with state-of-the-art.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ superiority of our approach as compared with state-of-the-art.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

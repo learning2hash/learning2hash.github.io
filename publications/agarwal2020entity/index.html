@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/agarwal2020entity/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Entity Linking Via Dual And Cross-attention Encoders" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Entity Linking has two main open areas of research: 1) generate candidate entities without using alias tables and 2) generate more contextual representations for both mentions and entities. Recently, a solution has been proposed for the former as a dual-encoder entity retrieval system (Gillick et al., 2019) that learns mention and entity representations in the same space, and performs linking by selecting the nearest entity to the mention in this space. In this work, we use this retrieval system solely for generating candidate entities. We then rerank the entities by using a cross-attention encoder over the target mention and each of the candidate entities. Whereas a dual encoder approach forces all information to be contained in the small, fixed set of vector dimensions used to represent mentions and entities, a crossattention model allows for the use of detailed information (read: features) from the entirety of each &lt;mention, context, candidate entity&gt; tuple. We experiment with features used in the reranker including different ways of incorporating document-level context. We achieve state-of-the-art results on TACKBP-2010 dataset, with 92.05% accuracy. Furthermore, we show how the rescoring model generalizes well when trained on the larger CoNLL-2003 dataset and evaluated on TACKBP-2010.","headline":"Entity Linking Via Dual And Cross-attention Encoders","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/agarwal2020entity/"},"url":"https://learning2hash.github.io/publications/agarwal2020entity/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Entity Linking has two main open areas of research: 1) generate candidate entities without using alias tables and 2) generate more contextual representations for both mentions and entities. Recently, a solution has been proposed for the former as a dual-encoder entity retrieval system (Gillick et al., 2019) that learns mention and entity representations in the same space, and performs linking by selecting the nearest entity to the mention in this space. In this work, we use this retrieval system solely for generating candidate entities. We then rerank the entities by using a cross-attention encoder over the target mention and each of the candidate entities. Whereas a dual encoder approach forces all information to be contained in the small, fixed set of vector dimensions used to represent mentions and entities, a crossattention model allows for the use of detailed information (read: features) from the entirety of each &lt;mention, context, candidate entity&gt; tuple. We experiment with features used in the reranker including different ways of incorporating document-level context. We achieve state-of-the-art results on TACKBP-2010 dataset, with 92.05% accuracy. Furthermore, we show how the rescoring model generalizes well when trained on the larger CoNLL-2003 dataset and evaluated on TACKBP-2010.","headline":"Entity Linking Via Dual And Cross-attention Encoders","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/agarwal2020entity/"},"url":"https://learning2hash.github.io/publications/agarwal2020entity/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,7 +256,6 @@ and evaluated on TACKBP-2010.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Entity Linking Via Dual And Cross-attention Encoders",
         conference: "Arxiv",
@@ -297,7 +296,6 @@ and evaluated on TACKBP-2010.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -326,37 +324,38 @@ and evaluated on TACKBP-2010.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

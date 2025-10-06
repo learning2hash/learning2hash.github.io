@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liao2017triplet/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Triplet-based Deep Similarity Learning For Person Re-identification" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In recent years, person re-identification (re-id) catches great attention in both computer vision community and industry. In this paper, we propose a new framework for person re-identification with a triplet-based deep similarity learning using convolutional neural networks (CNNs). The network is trained with triplet input: two of them have the same class labels and the other one is different. It aims to learn the deep feature representation, with which the distance within the same class is decreased, while the distance between the different classes is increased as much as possible. Moreover, we trained the model jointly on six different datasets, which differs from common practice - one model is just trained on one dataset and tested also on the same one. However, the enormous number of possible triplet data among the large number of training samples makes the training impossible. To address this challenge, a double-sampling scheme is proposed to generate triplets of images as effective as possible. The proposed framework is evaluated on several benchmark datasets. The experimental results show that, our method is effective for the task of person re-identification and it is comparable or even outperforms the state-of-the-art methods.","headline":"Triplet-based Deep Similarity Learning For Person Re-identification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liao2017triplet/"},"url":"https://learning2hash.github.io/publications/liao2017triplet/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In recent years, person re-identification (re-id) catches great attention in both computer vision community and industry. In this paper, we propose a new framework for person re-identification with a triplet-based deep similarity learning using convolutional neural networks (CNNs). The network is trained with triplet input: two of them have the same class labels and the other one is different. It aims to learn the deep feature representation, with which the distance within the same class is decreased, while the distance between the different classes is increased as much as possible. Moreover, we trained the model jointly on six different datasets, which differs from common practice - one model is just trained on one dataset and tested also on the same one. However, the enormous number of possible triplet data among the large number of training samples makes the training impossible. To address this challenge, a double-sampling scheme is proposed to generate triplets of images as effective as possible. The proposed framework is evaluated on several benchmark datasets. The experimental results show that, our method is effective for the task of person re-identification and it is comparable or even outperforms the state-of-the-art methods.","headline":"Triplet-based Deep Similarity Learning For Person Re-identification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liao2017triplet/"},"url":"https://learning2hash.github.io/publications/liao2017triplet/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ state-of-the-art methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Triplet-based Deep Similarity Learning For Person Re-identification",
         conference: "2017 IEEE International Conference on Computer Vision Workshops (ICCVW)",
@@ -300,7 +299,6 @@ state-of-the-art methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ state-of-the-art methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

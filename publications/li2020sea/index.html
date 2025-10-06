@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2020sea/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="SEA: Sentence Encoder Assembly For Video Retrieval By Textual Queries" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Retrieving unlabeled videos by textual queries, known as Ad-hoc Video Search (AVS), is a core theme in multimedia data management and retrieval. The success of AVS counts on cross-modal representation learning that encodes both query sentences and videos into common spaces for semantic similarity computation. Inspired by the initial success of previously few works in combining multiple sentence encoders, this paper takes a step forward by developing a new and general method for effectively exploiting diverse sentence encoders. The novelty of the proposed method, which we term Sentence Encoder Assembly (SEA), is two-fold. First, different from prior art that use only a single common space, SEA supports text-video matching in multiple encoder-specific common spaces. Such a property prevents the matching from being dominated by a specific encoder that produces an encoding vector much longer than other encoders. Second, in order to explore complementarities among the individual common spaces, we propose multi-space multi-loss learning. As extensive experiments on four benchmarks (MSR-VTT, TRECVID AVS 2016-2019, TGIF and MSVD) show, SEA surpasses the state-of-the-art. In addition, SEA is extremely ease to implement. All this makes SEA an appealing solution for AVS and promising for continuously advancing the task by harvesting new sentence encoders.","headline":"SEA: Sentence Encoder Assembly For Video Retrieval By Textual Queries","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2020sea/"},"url":"https://learning2hash.github.io/publications/li2020sea/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Retrieving unlabeled videos by textual queries, known as Ad-hoc Video Search (AVS), is a core theme in multimedia data management and retrieval. The success of AVS counts on cross-modal representation learning that encodes both query sentences and videos into common spaces for semantic similarity computation. Inspired by the initial success of previously few works in combining multiple sentence encoders, this paper takes a step forward by developing a new and general method for effectively exploiting diverse sentence encoders. The novelty of the proposed method, which we term Sentence Encoder Assembly (SEA), is two-fold. First, different from prior art that use only a single common space, SEA supports text-video matching in multiple encoder-specific common spaces. Such a property prevents the matching from being dominated by a specific encoder that produces an encoding vector much longer than other encoders. Second, in order to explore complementarities among the individual common spaces, we propose multi-space multi-loss learning. As extensive experiments on four benchmarks (MSR-VTT, TRECVID AVS 2016-2019, TGIF and MSVD) show, SEA surpasses the state-of-the-art. In addition, SEA is extremely ease to implement. All this makes SEA an appealing solution for AVS and promising for continuously advancing the task by harvesting new sentence encoders.","headline":"SEA: Sentence Encoder Assembly For Video Retrieval By Textual Queries","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2020sea/"},"url":"https://learning2hash.github.io/publications/li2020sea/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -254,7 +254,6 @@ continuously advancing the task by harvesting new sentence encoders.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "SEA: Sentence Encoder Assembly For Video Retrieval By Textual Queries",
         conference: "IEEE Transactions on Multimedia",
@@ -295,7 +294,6 @@ continuously advancing the task by harvesting new sentence encoders.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -324,37 +322,38 @@ continuously advancing the task by harvesting new sentence encoders.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

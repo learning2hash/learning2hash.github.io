@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/luo2018fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast Scalable Supervised Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Despite significant progress in supervised hashing, there are three common limitations of existing methods. First, most pioneer methods discretely learn hash codes bit by bit, making the learning procedure rather time-consuming. Second, to reduce the large complexity of the n by n pairwise similarity matrix, most methods apply sampling strategies during training, which inevitably results in information loss and suboptimal performance; some recent methods try to replace the large matrix with a smaller one, but the size is still large. Third, among the methods that leverage the pairwise similarity matrix, most of them only encode the semantic label information in learning the hash codes, failing to fully capture the characteristics of data. In this paper, we present a novel supervised hashing method, called Fast Scalable Supervised Hashing (FSSH), which circumvents the use of the large similarity matrix by introducing a pre-computed intermediate term whose size is independent with the size of training data. Moreover, FSSH can learn the hash codes with not only the semantic information but also the features of data. Extensive experiments on three widely used datasets demonstrate its superiority over several state-of-the-art methods in both accuracy and scalability. Our experiment codes are available at: https://lcbwlx.wixsite.com/fssh.","headline":"Fast Scalable Supervised Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/luo2018fast/"},"url":"https://learning2hash.github.io/publications/luo2018fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Despite significant progress in supervised hashing, there are three common limitations of existing methods. First, most pioneer methods discretely learn hash codes bit by bit, making the learning procedure rather time-consuming. Second, to reduce the large complexity of the n by n pairwise similarity matrix, most methods apply sampling strategies during training, which inevitably results in information loss and suboptimal performance; some recent methods try to replace the large matrix with a smaller one, but the size is still large. Third, among the methods that leverage the pairwise similarity matrix, most of them only encode the semantic label information in learning the hash codes, failing to fully capture the characteristics of data. In this paper, we present a novel supervised hashing method, called Fast Scalable Supervised Hashing (FSSH), which circumvents the use of the large similarity matrix by introducing a pre-computed intermediate term whose size is independent with the size of training data. Moreover, FSSH can learn the hash codes with not only the semantic information but also the features of data. Extensive experiments on three widely used datasets demonstrate its superiority over several state-of-the-art methods in both accuracy and scalability. Our experiment codes are available at: https://lcbwlx.wixsite.com/fssh.","headline":"Fast Scalable Supervised Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/luo2018fast/"},"url":"https://learning2hash.github.io/publications/luo2018fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ are available at: https://lcbwlx.wixsite.com/fssh.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Fast Scalable Supervised Hashing",
         conference: "The 41st International ACM SIGIR Conference on Research &amp; Development in Information Retrieval",
@@ -305,7 +304,6 @@ are available at: https://lcbwlx.wixsite.com/fssh.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ are available at: https://lcbwlx.wixsite.com/fssh.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

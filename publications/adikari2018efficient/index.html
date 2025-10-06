@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/adikari2018efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient Learning Of Neighbor Representations For Boundary Trees And Forests" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We introduce a semiparametric approach to neighbor-based classification. We build off the recently proposed Boundary Trees algorithm by Mathy et al.(2015) which enables fast neighbor-based classification, regression and retrieval in large datasets. While boundary trees use an Euclidean measure of similarity, the Differentiable Boundary Tree algorithm by Zoran et al.(2017) was introduced to learn low-dimensional representations of complex input data, on which semantic similarity can be calculated to train boundary trees. As is pointed out by its authors, the differentiable boundary tree approach contains a few limitations that prevents it from scaling to large datasets. In this paper, we introduce Differentiable Boundary Sets, an algorithm that overcomes the computational issues of the differentiable boundary tree scheme and also improves its classification accuracy and data representability. Our algorithm is efficiently implementable with existing tools and offers a significant reduction in training time. We test and compare the algorithms on the well known MNIST handwritten digits dataset and the newer Fashion-MNIST dataset by Xiao et al.(2017).","headline":"Efficient Learning Of Neighbor Representations For Boundary Trees And Forests","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/adikari2018efficient/"},"url":"https://learning2hash.github.io/publications/adikari2018efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We introduce a semiparametric approach to neighbor-based classification. We build off the recently proposed Boundary Trees algorithm by Mathy et al.(2015) which enables fast neighbor-based classification, regression and retrieval in large datasets. While boundary trees use an Euclidean measure of similarity, the Differentiable Boundary Tree algorithm by Zoran et al.(2017) was introduced to learn low-dimensional representations of complex input data, on which semantic similarity can be calculated to train boundary trees. As is pointed out by its authors, the differentiable boundary tree approach contains a few limitations that prevents it from scaling to large datasets. In this paper, we introduce Differentiable Boundary Sets, an algorithm that overcomes the computational issues of the differentiable boundary tree scheme and also improves its classification accuracy and data representability. Our algorithm is efficiently implementable with existing tools and offers a significant reduction in training time. We test and compare the algorithms on the well known MNIST handwritten digits dataset and the newer Fashion-MNIST dataset by Xiao et al.(2017).","headline":"Efficient Learning Of Neighbor Representations For Boundary Trees And Forests","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/adikari2018efficient/"},"url":"https://learning2hash.github.io/publications/adikari2018efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,7 +252,6 @@ Xiao et al.(2017).</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Efficient Learning Of Neighbor Representations For Boundary Trees And Forests",
         conference: "Arxiv",
@@ -293,7 +292,6 @@ Xiao et al.(2017).</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -322,37 +320,38 @@ Xiao et al.(2017).</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

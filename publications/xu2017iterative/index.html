@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/xu2017iterative/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Iterative Manifold Embedding Layer Learned By Incomplete Data For Large-scale Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Existing manifold learning methods are not appropriate for image retrieval task, because most of them are unable to process query image and they have much additional computational cost especially for large scale database. Therefore, we propose the iterative manifold embedding (IME) layer, of which the weights are learned off-line by unsupervised strategy, to explore the intrinsic manifolds by incomplete data. On the large scale database that contains 27000 images, IME layer is more than 120 times faster than other manifold learning methods to embed the original representations at query time. We embed the original descriptors of database images which lie on manifold in a high dimensional space into manifold-based representations iteratively to generate the IME representations in off-line learning stage. According to the original descriptors and the IME representations of database images, we estimate the weights of IME layer by ridge regression. In on-line retrieval stage, we employ the IME layer to map the original representation of query image with ignorable time cost (2 milliseconds). We experiment on five public standard datasets for image retrieval. The proposed IME layer significantly outperforms related dimension reduction methods and manifold learning methods. Without post-processing, Our IME layer achieves a boost in performance of state-of-the-art image retrieval methods with post-processing on most datasets, and needs less computational cost.","headline":"Iterative Manifold Embedding Layer Learned By Incomplete Data For Large-scale Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xu2017iterative/"},"url":"https://learning2hash.github.io/publications/xu2017iterative/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Existing manifold learning methods are not appropriate for image retrieval task, because most of them are unable to process query image and they have much additional computational cost especially for large scale database. Therefore, we propose the iterative manifold embedding (IME) layer, of which the weights are learned off-line by unsupervised strategy, to explore the intrinsic manifolds by incomplete data. On the large scale database that contains 27000 images, IME layer is more than 120 times faster than other manifold learning methods to embed the original representations at query time. We embed the original descriptors of database images which lie on manifold in a high dimensional space into manifold-based representations iteratively to generate the IME representations in off-line learning stage. According to the original descriptors and the IME representations of database images, we estimate the weights of IME layer by ridge regression. In on-line retrieval stage, we employ the IME layer to map the original representation of query image with ignorable time cost (2 milliseconds). We experiment on five public standard datasets for image retrieval. The proposed IME layer significantly outperforms related dimension reduction methods and manifold learning methods. Without post-processing, Our IME layer achieves a boost in performance of state-of-the-art image retrieval methods with post-processing on most datasets, and needs less computational cost.","headline":"Iterative Manifold Embedding Layer Learned By Incomplete Data For Large-scale Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xu2017iterative/"},"url":"https://learning2hash.github.io/publications/xu2017iterative/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -268,7 +268,6 @@ and needs less computational cost.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Iterative Manifold Embedding Layer Learned By Incomplete Data For Large-scale Image Retrieval",
         conference: "IEEE Transactions on Multimedia",
@@ -309,7 +308,6 @@ and needs less computational cost.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -338,37 +336,38 @@ and needs less computational cost.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

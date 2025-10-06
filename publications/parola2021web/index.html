@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/parola2021web/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Web Image Search Engine Based On LSH Index And CNN Resnet50" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"To implement a good Content Based Image Retrieval (CBIR) system, it is essential to adopt efficient search methods. One way to achieve this results is by exploiting approximate search techniques. In fact, when we deal with very large collections of data, using an exact search method makes the system very slow. In this project, we adopt the Locality Sensitive Hashing (LSH) index to implement a CBIR system that allows us to perform fast similarity search on deep features. Specifically, we exploit transfer learning techniques to extract deep features from images; this phase is done using two famous Convolutional Neural Networks (CNNs) as features extractors: Resnet50 and Resnet50v2, both pre-trained on ImageNet. Then we try out several fully connected deep neural networks, built on top of both of the previously mentioned CNNs in order to fine-tuned them on our dataset. In both of previous cases, we index the features within our LSH index implementation and within a sequential scan, to better understand how much the introduction of the index affects the results. Finally, we carry out a performance analysis: we evaluate the relevance of the result set, computing the mAP (mean Average Precision) value obtained during the different experiments with respect to the number of done comparison and varying the hyper-parameter values of the LSH index.","headline":"Web Image Search Engine Based On LSH Index And CNN Resnet50","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/parola2021web/"},"url":"https://learning2hash.github.io/publications/parola2021web/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"To implement a good Content Based Image Retrieval (CBIR) system, it is essential to adopt efficient search methods. One way to achieve this results is by exploiting approximate search techniques. In fact, when we deal with very large collections of data, using an exact search method makes the system very slow. In this project, we adopt the Locality Sensitive Hashing (LSH) index to implement a CBIR system that allows us to perform fast similarity search on deep features. Specifically, we exploit transfer learning techniques to extract deep features from images; this phase is done using two famous Convolutional Neural Networks (CNNs) as features extractors: Resnet50 and Resnet50v2, both pre-trained on ImageNet. Then we try out several fully connected deep neural networks, built on top of both of the previously mentioned CNNs in order to fine-tuned them on our dataset. In both of previous cases, we index the features within our LSH index implementation and within a sequential scan, to better understand how much the introduction of the index affects the results. Finally, we carry out a performance analysis: we evaluate the relevance of the result set, computing the mAP (mean Average Precision) value obtained during the different experiments with respect to the number of done comparison and varying the hyper-parameter values of the LSH index.","headline":"Web Image Search Engine Based On LSH Index And CNN Resnet50","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/parola2021web/"},"url":"https://learning2hash.github.io/publications/parola2021web/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ varying the hyper-parameter values of the LSH index.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Web Image Search Engine Based On LSH Index And CNN Resnet50",
         conference: "Arxiv",
@@ -305,7 +304,6 @@ varying the hyper-parameter values of the LSH index.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ varying the hyper-parameter values of the LSH index.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

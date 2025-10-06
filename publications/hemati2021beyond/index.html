@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/hemati2021beyond/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Beyond Neighbourhood-preserving Transformations For Quantization-based Unsupervised Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"An effective unsupervised hashing algorithm leads to compact binary codes preserving the neighborhood structure of data as much as possible. One of the most established schemes for unsupervised hashing is to reduce the dimensionality of data and then find a rigid (neighbourhood-preserving) transformation that reduces the quantization error. Although employing rigid transformations is effective, we may not reduce quantization loss to the ultimate limits. As well, reducing dimensionality and quantization loss in two separate steps seems to be sub-optimal. Motivated by these shortcomings, we propose to employ both rigid and non-rigid transformations to reduce quantization error and dimensionality simultaneously. We relax the orthogonality constraint on the projection in a PCA-formulation and regularize this by a quantization term. We show that both the non-rigid projection matrix and rotation matrix contribute towards minimizing quantization loss but in different ways. A scalable nested coordinate descent approach is proposed to optimize this mixed-integer optimization problem. We evaluate the proposed method on five public benchmark datasets providing almost half a million images. Comparative results indicate that the proposed method mostly outperforms state-of-art linear methods and competes with end-to-end deep solutions.","headline":"Beyond Neighbourhood-preserving Transformations For Quantization-based Unsupervised Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hemati2021beyond/"},"url":"https://learning2hash.github.io/publications/hemati2021beyond/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"An effective unsupervised hashing algorithm leads to compact binary codes preserving the neighborhood structure of data as much as possible. One of the most established schemes for unsupervised hashing is to reduce the dimensionality of data and then find a rigid (neighbourhood-preserving) transformation that reduces the quantization error. Although employing rigid transformations is effective, we may not reduce quantization loss to the ultimate limits. As well, reducing dimensionality and quantization loss in two separate steps seems to be sub-optimal. Motivated by these shortcomings, we propose to employ both rigid and non-rigid transformations to reduce quantization error and dimensionality simultaneously. We relax the orthogonality constraint on the projection in a PCA-formulation and regularize this by a quantization term. We show that both the non-rigid projection matrix and rotation matrix contribute towards minimizing quantization loss but in different ways. A scalable nested coordinate descent approach is proposed to optimize this mixed-integer optimization problem. We evaluate the proposed method on five public benchmark datasets providing almost half a million images. Comparative results indicate that the proposed method mostly outperforms state-of-art linear methods and competes with end-to-end deep solutions.","headline":"Beyond Neighbourhood-preserving Transformations For Quantization-based Unsupervised Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hemati2021beyond/"},"url":"https://learning2hash.github.io/publications/hemati2021beyond/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -267,7 +267,6 @@ solutions.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Beyond Neighbourhood-preserving Transformations For Quantization-based Unsupervised Hashing",
         conference: "Pattern Recognition Letters",
@@ -308,7 +307,6 @@ solutions.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -337,37 +335,38 @@ solutions.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/shohoud2023quranic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Quranic Conversations: Developing A Semantic Search Tool For The Quran Using Arabic NLP Techniques" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The Holy Book of Quran is believed to be the literal word of God (Allah) as revealed to the Prophet Muhammad (PBUH) over a period of approximately 23 years. It is the book where God provides guidance on how to live a righteous and just life, emphasizing principles like honesty, compassion, charity and justice, as well as providing rules for personal conduct, family matters, business ethics and much more. However, due to constraints related to the language and the Quran organization, it is challenging for Muslims to get all relevant ayahs (verses) pertaining to a matter or inquiry of interest. Hence, we developed a Quran semantic search tool which finds the verses pertaining to the user inquiry or prompt. To achieve this, we trained several models on a large dataset of over 30 tafsirs, where typically each tafsir corresponds to one verse in the Quran and, using cosine similarity, obtained the tafsir tensor which is most similar to the prompt tensor of interest, which was then used to index for the corresponding ayah in the Quran. Using the SNxLM model, we were able to achieve a cosine similarity score as high as 0.97 which corresponds to the abdu tafsir for a verse relating to financial matters.","headline":"Quranic Conversations: Developing A Semantic Search Tool For The Quran Using Arabic NLP Techniques","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shohoud2023quranic/"},"url":"https://learning2hash.github.io/publications/shohoud2023quranic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The Holy Book of Quran is believed to be the literal word of God (Allah) as revealed to the Prophet Muhammad (PBUH) over a period of approximately 23 years. It is the book where God provides guidance on how to live a righteous and just life, emphasizing principles like honesty, compassion, charity and justice, as well as providing rules for personal conduct, family matters, business ethics and much more. However, due to constraints related to the language and the Quran organization, it is challenging for Muslims to get all relevant ayahs (verses) pertaining to a matter or inquiry of interest. Hence, we developed a Quran semantic search tool which finds the verses pertaining to the user inquiry or prompt. To achieve this, we trained several models on a large dataset of over 30 tafsirs, where typically each tafsir corresponds to one verse in the Quran and, using cosine similarity, obtained the tafsir tensor which is most similar to the prompt tensor of interest, which was then used to index for the corresponding ayah in the Quran. Using the SNxLM model, we were able to achieve a cosine similarity score as high as 0.97 which corresponds to the abdu tafsir for a verse relating to financial matters.","headline":"Quranic Conversations: Developing A Semantic Search Tool For The Quran Using Arabic NLP Techniques","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shohoud2023quranic/"},"url":"https://learning2hash.github.io/publications/shohoud2023quranic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -254,7 +254,6 @@ the abdu tafsir for a verse relating to financial matters.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Quranic Conversations: Developing A Semantic Search Tool For The Quran Using Arabic NLP Techniques",
         conference: "Arxiv",
@@ -295,7 +294,6 @@ the abdu tafsir for a verse relating to financial matters.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -324,37 +322,38 @@ the abdu tafsir for a verse relating to financial matters.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

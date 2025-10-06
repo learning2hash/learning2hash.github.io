@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhu2020ocor/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Ocor: An Overlapping-aware Code Retriever" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Code retrieval helps developers reuse the code snippet in the open-source projects. Given a natural language description, code retrieval aims to search for the most relevant code among a set of code. Existing state-of-the-art approaches apply neural networks to code retrieval. However, these approaches still fail to capture an important feature: overlaps. The overlaps between different names used by different people indicate that two different names may be potentially related (e.g., “message” and “msg”), and the overlaps between identifiers in code and words in natural language descriptions indicate that the code snippet and the description may potentially be related. To address these problems, we propose a novel neural architecture named OCoR, where we introduce two specifically-designed components to capture overlaps: the first embeds identifiers by character to capture the overlaps between identifiers, and the second introduces a novel overlap matrix to represent the degrees of overlaps between each natural language word and each identifier. The evaluation was conducted on two established datasets. The experimental results show that OCoR significantly outperforms the existing state-of-the-art approaches and achieves 13.1% to 22.3% improvements. Moreover, we also conducted several in-depth experiments to help understand the performance of different components in OCoR.","headline":"Ocor: An Overlapping-aware Code Retriever","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2020ocor/"},"url":"https://learning2hash.github.io/publications/zhu2020ocor/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Code retrieval helps developers reuse the code snippet in the open-source projects. Given a natural language description, code retrieval aims to search for the most relevant code among a set of code. Existing state-of-the-art approaches apply neural networks to code retrieval. However, these approaches still fail to capture an important feature: overlaps. The overlaps between different names used by different people indicate that two different names may be potentially related (e.g., “message” and “msg”), and the overlaps between identifiers in code and words in natural language descriptions indicate that the code snippet and the description may potentially be related. To address these problems, we propose a novel neural architecture named OCoR, where we introduce two specifically-designed components to capture overlaps: the first embeds identifiers by character to capture the overlaps between identifiers, and the second introduces a novel overlap matrix to represent the degrees of overlaps between each natural language word and each identifier. The evaluation was conducted on two established datasets. The experimental results show that OCoR significantly outperforms the existing state-of-the-art approaches and achieves 13.1% to 22.3% improvements. Moreover, we also conducted several in-depth experiments to help understand the performance of different components in OCoR.","headline":"Ocor: An Overlapping-aware Code Retriever","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2020ocor/"},"url":"https://learning2hash.github.io/publications/zhu2020ocor/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ different components in OCoR.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Ocor: An Overlapping-aware Code Retriever",
         conference: "ASE 2020 35th IEEE/ACM International Conference on Automated Software Engineering Proceedings",
@@ -298,7 +297,6 @@ different components in OCoR.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ different components in OCoR.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

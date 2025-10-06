@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/du2024yyds/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="YYDS: Visible-infrared Person Re-identification With Coarse Descriptions" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Visible-infrared person re-identification (VI-ReID) is challenging due to considerable cross-modality discrepancies. Existing works mainly focus on learning modality-invariant features while suppressing modality-specific ones. However, retrieving visible images only depends on infrared samples is an extreme problem because of the absence of color information. To this end, we present the Refer-VI-ReID settings, which aims to match target visible images from both infrared images and coarse language descriptions (e.g., “a man with red top and black pants”) to complement the missing color information. To address this task, we design a Y-Y-shape decomposition structure, dubbed YYDS, to decompose and aggregate texture and color features of targets. Specifically, the text-IoU regularization strategy is firstly presented to facilitate the decomposition training, and a joint relation module is then proposed to infer the aggregation. Furthermore, the cross-modal version of k-reciprocal re-ranking algorithm is investigated, named CMKR, in which three neighbor search strategies and one local query expansion method are explored to alleviate the modality bias problem of the near neighbors. We conduct experiments on SYSU-MM01, RegDB and LLCM datasets with our manually annotated descriptions. Both YYDS and CMKR achieve remarkable improvements over SOTA methods on all three datasets. Codes are available at https://github.com/dyhBUPT/YYDS.","headline":"YYDS: Visible-infrared Person Re-identification With Coarse Descriptions","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/du2024yyds/"},"url":"https://learning2hash.github.io/publications/du2024yyds/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Visible-infrared person re-identification (VI-ReID) is challenging due to considerable cross-modality discrepancies. Existing works mainly focus on learning modality-invariant features while suppressing modality-specific ones. However, retrieving visible images only depends on infrared samples is an extreme problem because of the absence of color information. To this end, we present the Refer-VI-ReID settings, which aims to match target visible images from both infrared images and coarse language descriptions (e.g., “a man with red top and black pants”) to complement the missing color information. To address this task, we design a Y-Y-shape decomposition structure, dubbed YYDS, to decompose and aggregate texture and color features of targets. Specifically, the text-IoU regularization strategy is firstly presented to facilitate the decomposition training, and a joint relation module is then proposed to infer the aggregation. Furthermore, the cross-modal version of k-reciprocal re-ranking algorithm is investigated, named CMKR, in which three neighbor search strategies and one local query expansion method are explored to alleviate the modality bias problem of the near neighbors. We conduct experiments on SYSU-MM01, RegDB and LLCM datasets with our manually annotated descriptions. Both YYDS and CMKR achieve remarkable improvements over SOTA methods on all three datasets. Codes are available at https://github.com/dyhBUPT/YYDS.","headline":"YYDS: Visible-infrared Person Re-identification With Coarse Descriptions","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/du2024yyds/"},"url":"https://learning2hash.github.io/publications/du2024yyds/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ https://github.com/dyhBUPT/YYDS.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "YYDS: Visible-infrared Person Re-identification With Coarse Descriptions",
         conference: "Arxiv",
@@ -303,7 +302,6 @@ https://github.com/dyhBUPT/YYDS.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ https://github.com/dyhBUPT/YYDS.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

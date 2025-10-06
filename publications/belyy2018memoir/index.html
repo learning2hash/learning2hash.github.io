@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/belyy2018memoir/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="MEMOIR: Multi-class Extreme Classification With Inexact Margin" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Multi-class classification with a very large number of classes, or extreme classification, is a challenging problem from both statistical and computational perspectives. Most of the classical approaches to multi-class classification, including one-vs-rest or multi-class support vector machines, require the exact estimation of the classifier’s margin, at both the training and the prediction steps making them intractable in extreme classification scenarios. In this paper, we study the impact of computing an approximate margin using nearest neighbor (ANN) search structures combined with locality-sensitive hashing (LSH). This approximation allows to dramatically reduce both the training and the prediction time without a significant loss in performance. We theoretically prove that this approximation does not lead to a significant loss of the risk of the model and provide empirical evidence over five publicly available large scale datasets, showing that the proposed approach is highly competitive with respect to state-of-the-art approaches on time, memory and performance measures.","headline":"MEMOIR: Multi-class Extreme Classification With Inexact Margin","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/belyy2018memoir/"},"url":"https://learning2hash.github.io/publications/belyy2018memoir/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Multi-class classification with a very large number of classes, or extreme classification, is a challenging problem from both statistical and computational perspectives. Most of the classical approaches to multi-class classification, including one-vs-rest or multi-class support vector machines, require the exact estimation of the classifier’s margin, at both the training and the prediction steps making them intractable in extreme classification scenarios. In this paper, we study the impact of computing an approximate margin using nearest neighbor (ANN) search structures combined with locality-sensitive hashing (LSH). This approximation allows to dramatically reduce both the training and the prediction time without a significant loss in performance. We theoretically prove that this approximation does not lead to a significant loss of the risk of the model and provide empirical evidence over five publicly available large scale datasets, showing that the proposed approach is highly competitive with respect to state-of-the-art approaches on time, memory and performance measures.","headline":"MEMOIR: Multi-class Extreme Classification With Inexact Margin","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/belyy2018memoir/"},"url":"https://learning2hash.github.io/publications/belyy2018memoir/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ time, memory and performance measures.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "MEMOIR: Multi-class Extreme Classification With Inexact Margin",
         conference: "Arxiv",
@@ -298,7 +297,6 @@ time, memory and performance measures.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ time, memory and performance measures.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

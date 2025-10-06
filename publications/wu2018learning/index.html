@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wu2018learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Effective Binary Visual Representations With Deep Networks" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Although traditionally binary visual representations are mainly designed to reduce computational and storage costs in the image retrieval research, this paper argues that binary visual representations can be applied to large scale recognition and detection problems in addition to hashing in retrieval. Furthermore, the binary nature may make it generalize better than its real-valued counterparts. Existing binary hashing methods are either two-stage or hinging on loss term regularization or saturated functions, hence converge slowly and only emit soft binary values. This paper proposes Approximately Binary Clamping (ABC), which is non-saturating, end-to-end trainable, with fast convergence and can output true binary visual representations. ABC achieves comparable accuracy in ImageNet classification as its real-valued counterpart, and even generalizes better in object detection. On benchmark image retrieval datasets, ABC also outperforms existing hashing methods.","headline":"Learning Effective Binary Visual Representations With Deep Networks","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2018learning/"},"url":"https://learning2hash.github.io/publications/wu2018learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Although traditionally binary visual representations are mainly designed to reduce computational and storage costs in the image retrieval research, this paper argues that binary visual representations can be applied to large scale recognition and detection problems in addition to hashing in retrieval. Furthermore, the binary nature may make it generalize better than its real-valued counterparts. Existing binary hashing methods are either two-stage or hinging on loss term regularization or saturated functions, hence converge slowly and only emit soft binary values. This paper proposes Approximately Binary Clamping (ABC), which is non-saturating, end-to-end trainable, with fast convergence and can output true binary visual representations. ABC achieves comparable accuracy in ImageNet classification as its real-valued counterpart, and even generalizes better in object detection. On benchmark image retrieval datasets, ABC also outperforms existing hashing methods.","headline":"Learning Effective Binary Visual Representations With Deep Networks","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2018learning/"},"url":"https://learning2hash.github.io/publications/wu2018learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ datasets, ABC also outperforms existing hashing methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Learning Effective Binary Visual Representations With Deep Networks",
         conference: "Arxiv",
@@ -298,7 +297,6 @@ datasets, ABC also outperforms existing hashing methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ datasets, ABC also outperforms existing hashing methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

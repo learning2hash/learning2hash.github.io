@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/thomasian2024dimensionality/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Dimensionality Reduced Clustered Data And Order Partition And Stepwise Dimensionality Increasing Indices" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"One of the goals of NASA funded project at IBM T. J. Watson Research Center was to build an index for similarity searching satellite images, which were characterized by high-dimensional feature image texture vectors. Reviewed is our effort on data clustering, dimensionality reduction via Singular Value Decomposition - SVD and indexing to build a smaller index and more efficient k-Nearest Neighbor - k-NN query processing for similarity search. k-NN queries based on scanning of the feature vectors of all images is obviously too costly for ever-increasing number of images. The ubiquitous multidimensional R-tree index and its extensions were not an option given their limited scalability dimension-wise. The cost of processing k-NN queries was further reduced by building memory resident Ordered Partition indices on dimensionality reduced clusters. Further research in a university setting included the following: (1) Clustered SVD was extended to yield exact k-NN queries by issuing appropriate less costly range queries, (2) Stepwise Dimensionality Increasing - SDI index outperformed other known indices, (3) selection of optimal number of dimensions to reduce query processing cost, (4) two methods to make the OP-trees persistent and loadable as a single file access.","headline":"Dimensionality Reduced Clustered Data And Order Partition And Stepwise Dimensionality Increasing Indices","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/thomasian2024dimensionality/"},"url":"https://learning2hash.github.io/publications/thomasian2024dimensionality/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"One of the goals of NASA funded project at IBM T. J. Watson Research Center was to build an index for similarity searching satellite images, which were characterized by high-dimensional feature image texture vectors. Reviewed is our effort on data clustering, dimensionality reduction via Singular Value Decomposition - SVD and indexing to build a smaller index and more efficient k-Nearest Neighbor - k-NN query processing for similarity search. k-NN queries based on scanning of the feature vectors of all images is obviously too costly for ever-increasing number of images. The ubiquitous multidimensional R-tree index and its extensions were not an option given their limited scalability dimension-wise. The cost of processing k-NN queries was further reduced by building memory resident Ordered Partition indices on dimensionality reduced clusters. Further research in a university setting included the following: (1) Clustered SVD was extended to yield exact k-NN queries by issuing appropriate less costly range queries, (2) Stepwise Dimensionality Increasing - SDI index outperformed other known indices, (3) selection of optimal number of dimensions to reduce query processing cost, (4) two methods to make the OP-trees persistent and loadable as a single file access.","headline":"Dimensionality Reduced Clustered Data And Order Partition And Stepwise Dimensionality Increasing Indices","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/thomasian2024dimensionality/"},"url":"https://learning2hash.github.io/publications/thomasian2024dimensionality/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ persistent and loadable as a single file access.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Dimensionality Reduced Clustered Data And Order Partition And Stepwise Dimensionality Increasing Indices",
         conference: "Arxiv",
@@ -296,7 +295,6 @@ persistent and loadable as a single file access.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ persistent and loadable as a single file access.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

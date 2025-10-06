@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/migliorati2018feature/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Feature Fusion For Robust Patch Matching With Compact Binary Descriptors" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"This work addresses the problem of learning compact yet discriminative patch descriptors within a deep learning framework. We observe that features extracted by convolutional layers in the pixel domain are largely complementary to features extracted in a transformed domain. We propose a convolutional network framework for learning binary patch descriptors where pixel domain features are fused with features extracted from the transformed domain. In our framework, while convolutional and transformed features are distinctly extracted, they are fused and provided to a single classifier which thus jointly operates on convolutional and transformed features. We experiment at matching patches from three different datasets, showing that our feature fusion approach outperforms multiple state-of-the-art approaches in terms of accuracy, rate, and complexity.","headline":"Feature Fusion For Robust Patch Matching With Compact Binary Descriptors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/migliorati2018feature/"},"url":"https://learning2hash.github.io/publications/migliorati2018feature/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"This work addresses the problem of learning compact yet discriminative patch descriptors within a deep learning framework. We observe that features extracted by convolutional layers in the pixel domain are largely complementary to features extracted in a transformed domain. We propose a convolutional network framework for learning binary patch descriptors where pixel domain features are fused with features extracted from the transformed domain. In our framework, while convolutional and transformed features are distinctly extracted, they are fused and provided to a single classifier which thus jointly operates on convolutional and transformed features. We experiment at matching patches from three different datasets, showing that our feature fusion approach outperforms multiple state-of-the-art approaches in terms of accuracy, rate, and complexity.","headline":"Feature Fusion For Robust Patch Matching With Compact Binary Descriptors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/migliorati2018feature/"},"url":"https://learning2hash.github.io/publications/migliorati2018feature/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,7 +252,6 @@ rate, and complexity.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Feature Fusion For Robust Patch Matching With Compact Binary Descriptors",
         conference: "2018 IEEE 20th International Workshop on Multimedia Signal Processing (MMSP)",
@@ -293,7 +292,6 @@ rate, and complexity.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -322,37 +320,38 @@ rate, and complexity.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

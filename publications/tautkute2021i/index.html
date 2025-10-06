@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/tautkute2021i/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="I Want This Product But Different : Multimodal Retrieval With Synthetic Query Expansion" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"This paper addresses the problem of media retrieval using a multimodal query (a query which combines visual input with additional semantic information in natural language feedback). We propose a SynthTriplet GAN framework which resolves this task by expanding the multimodal query with a synthetically generated image that captures semantic information from both image and text input. We introduce a novel triplet mining method that uses a synthetic image as an anchor to directly optimize for embedding distances of generated and target images. We demonstrate that apart from the added value of retrieval illustration with synthetic image with the focus on customization and user feedback, the proposed method greatly surpasses other multimodal generation methods and achieves state of the art results in the multimodal retrieval task. We also show that in contrast to other retrieval methods, our method provides explainable embeddings.","headline":"I Want This Product But Different : Multimodal Retrieval With Synthetic Query Expansion","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tautkute2021i/"},"url":"https://learning2hash.github.io/publications/tautkute2021i/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"This paper addresses the problem of media retrieval using a multimodal query (a query which combines visual input with additional semantic information in natural language feedback). We propose a SynthTriplet GAN framework which resolves this task by expanding the multimodal query with a synthetically generated image that captures semantic information from both image and text input. We introduce a novel triplet mining method that uses a synthetic image as an anchor to directly optimize for embedding distances of generated and target images. We demonstrate that apart from the added value of retrieval illustration with synthetic image with the focus on customization and user feedback, the proposed method greatly surpasses other multimodal generation methods and achieves state of the art results in the multimodal retrieval task. We also show that in contrast to other retrieval methods, our method provides explainable embeddings.","headline":"I Want This Product But Different : Multimodal Retrieval With Synthetic Query Expansion","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tautkute2021i/"},"url":"https://learning2hash.github.io/publications/tautkute2021i/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -251,7 +251,6 @@ explainable embeddings.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "I Want This Product But Different : Multimodal Retrieval With Synthetic Query Expansion",
         conference: "Arxiv",
@@ -292,7 +291,6 @@ explainable embeddings.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -321,37 +319,38 @@ explainable embeddings.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

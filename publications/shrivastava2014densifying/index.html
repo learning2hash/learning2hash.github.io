@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/shrivastava2014densifying/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Densifying One Permutation Hashing Via Rotation For Fast Near Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The query complexity of locality sensitive hashing (LSH) based similarity search is dominated by the number of hash evaluations, and this number grows with the data size (Indyk &amp; Motwani, 1998). In industrial applications such as search where the data are often high-dimensional and binary (e.g., text n-grams), minwise hashing is widely adopted, which requires applying a large number of permutations on the data. This is costly in computation and energy-consumption. In this paper, we propose a hashing technique which generates all the necessary hash evaluations needed for similarity search, using one single permutation. The heart of the proposed hash function is a “rotation” scheme which densifies the sparse sketches of one permutation hashing (Li et al., 2012) in an unbiased fashion thereby maintaining the LSH property. This makes the obtained sketches suitable for hash table construction. This idea of rotation presented in this paper could be of independent interest for densifying other types of sparse sketches. Using our proposed hashing method, the query time of a (K, L)-parameterized LSH is reduced from the typical O(dKL) complexity to merely O(KL + dL), where d is the number of nonzeros of the data vector, K is the number of hashes in each hash table, and L is the number of hash tables. Our experimental evaluation on real data confirms that the proposed scheme significantly reduces the query processing time over minwise hashing without loss in retrieval accuracies.","headline":"Densifying One Permutation Hashing Via Rotation For Fast Near Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shrivastava2014densifying/"},"url":"https://learning2hash.github.io/publications/shrivastava2014densifying/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The query complexity of locality sensitive hashing (LSH) based similarity search is dominated by the number of hash evaluations, and this number grows with the data size (Indyk &amp; Motwani, 1998). In industrial applications such as search where the data are often high-dimensional and binary (e.g., text n-grams), minwise hashing is widely adopted, which requires applying a large number of permutations on the data. This is costly in computation and energy-consumption. In this paper, we propose a hashing technique which generates all the necessary hash evaluations needed for similarity search, using one single permutation. The heart of the proposed hash function is a “rotation” scheme which densifies the sparse sketches of one permutation hashing (Li et al., 2012) in an unbiased fashion thereby maintaining the LSH property. This makes the obtained sketches suitable for hash table construction. This idea of rotation presented in this paper could be of independent interest for densifying other types of sparse sketches. Using our proposed hashing method, the query time of a (K, L)-parameterized LSH is reduced from the typical O(dKL) complexity to merely O(KL + dL), where d is the number of nonzeros of the data vector, K is the number of hashes in each hash table, and L is the number of hash tables. Our experimental evaluation on real data confirms that the proposed scheme significantly reduces the query processing time over minwise hashing without loss in retrieval accuracies.","headline":"Densifying One Permutation Hashing Via Rotation For Fast Near Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shrivastava2014densifying/"},"url":"https://learning2hash.github.io/publications/shrivastava2014densifying/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -274,7 +274,6 @@ hashing without loss in retrieval accuracies.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Densifying One Permutation Hashing Via Rotation For Fast Near Neighbor Search",
         conference: "No Venue",
@@ -315,7 +314,6 @@ hashing without loss in retrieval accuracies.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -344,37 +342,38 @@ hashing without loss in retrieval accuracies.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

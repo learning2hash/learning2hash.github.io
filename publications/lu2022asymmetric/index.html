@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lu2022asymmetric/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Asymmetric Transfer Hashing With Adaptive Bipartite Graph Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Thanks to the efficient retrieval speed and low storage consumption, learning to hash has been widely used in visual retrieval tasks. However, existing hashing methods assume that the query and retrieval samples lie in homogeneous feature space within the same domain. As a result, they cannot be directly applied to heterogeneous cross-domain retrieval. In this paper, we propose a Generalized Image Transfer Retrieval (GITR) problem, which encounters two crucial bottlenecks: 1) the query and retrieval samples may come from different domains, leading to an inevitable {domain distribution gap}; 2) the features of the two domains may be heterogeneous or misaligned, bringing up an additional {feature gap}. To address the GITR problem, we propose an Asymmetric Transfer Hashing (ATH) framework with its unsupervised/semi-supervised/supervised realizations. Specifically, ATH characterizes the domain distribution gap by the discrepancy between two asymmetric hash functions, and minimizes the feature gap with the help of a novel adaptive bipartite graph constructed on cross-domain data. By jointly optimizing asymmetric hash functions and the bipartite graph, not only can knowledge transfer be achieved but information loss caused by feature alignment can also be avoided. Meanwhile, to alleviate negative transfer, the intrinsic geometrical structure of single-domain data is preserved by involving a domain affinity graph. Extensive experiments on both single-domain and cross-domain benchmarks under different GITR subtasks indicate the superiority of our ATH method in comparison with the state-of-the-art hashing methods.","headline":"Asymmetric Transfer Hashing With Adaptive Bipartite Graph Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lu2022asymmetric/"},"url":"https://learning2hash.github.io/publications/lu2022asymmetric/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Thanks to the efficient retrieval speed and low storage consumption, learning to hash has been widely used in visual retrieval tasks. However, existing hashing methods assume that the query and retrieval samples lie in homogeneous feature space within the same domain. As a result, they cannot be directly applied to heterogeneous cross-domain retrieval. In this paper, we propose a Generalized Image Transfer Retrieval (GITR) problem, which encounters two crucial bottlenecks: 1) the query and retrieval samples may come from different domains, leading to an inevitable {domain distribution gap}; 2) the features of the two domains may be heterogeneous or misaligned, bringing up an additional {feature gap}. To address the GITR problem, we propose an Asymmetric Transfer Hashing (ATH) framework with its unsupervised/semi-supervised/supervised realizations. Specifically, ATH characterizes the domain distribution gap by the discrepancy between two asymmetric hash functions, and minimizes the feature gap with the help of a novel adaptive bipartite graph constructed on cross-domain data. By jointly optimizing asymmetric hash functions and the bipartite graph, not only can knowledge transfer be achieved but information loss caused by feature alignment can also be avoided. Meanwhile, to alleviate negative transfer, the intrinsic geometrical structure of single-domain data is preserved by involving a domain affinity graph. Extensive experiments on both single-domain and cross-domain benchmarks under different GITR subtasks indicate the superiority of our ATH method in comparison with the state-of-the-art hashing methods.","headline":"Asymmetric Transfer Hashing With Adaptive Bipartite Graph Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lu2022asymmetric/"},"url":"https://learning2hash.github.io/publications/lu2022asymmetric/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -268,7 +268,6 @@ state-of-the-art hashing methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Asymmetric Transfer Hashing With Adaptive Bipartite Graph Learning",
         conference: "IEEE Transactions on Cybernetics",
@@ -309,7 +308,6 @@ state-of-the-art hashing methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -338,37 +336,38 @@ state-of-the-art hashing methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

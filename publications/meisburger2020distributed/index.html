@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/meisburger2020distributed/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Distributed Tera-scale Similarity Search With MPI: Provably Efficient Similarity Search Over Billions Without A Single Distance Computation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We present SLASH (Sketched LocAlity Sensitive Hashing), an MPI (Message Passing Interface) based distributed system for approximate similarity search over terabyte scale datasets. SLASH provides a multi-node implementation of the popular LSH (locality sensitive hashing) algorithm, which is generally implemented on a single machine. We show how we can append the LSH algorithm with heavy hitters sketches to provably solve the (high) similarity search problem without a single distance computation. Overall, we mathematically show that, under realistic data assumptions, we can identify the near-neighbor of a given query (q) in sub-linear (( \\ll O(n))) number of simple sketch aggregation operations only. To make such a system practical, we offer a novel design and sketching solution to reduce the inter-machine communication overheads exponentially. In a direct comparison on comparable hardware, SLASH is more than 10000x faster than the popular LSH package in PySpark. PySpark is a widely-adopted distributed implementation of the LSH algorithm for large datasets and is deployed in commercial platforms. In the end, we show how our system scale to Tera-scale Criteo dataset with more than 4 billion samples. SLASH can index this 2.3 terabyte data over 20 nodes in under an hour, with query times in a fraction of milliseconds. To the best of our knowledge, there is no open-source system that can index and perform a similarity search on Criteo with a commodity cluster.","headline":"Distributed Tera-scale Similarity Search With MPI: Provably Efficient Similarity Search Over Billions Without A Single Distance Computation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/meisburger2020distributed/"},"url":"https://learning2hash.github.io/publications/meisburger2020distributed/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We present SLASH (Sketched LocAlity Sensitive Hashing), an MPI (Message Passing Interface) based distributed system for approximate similarity search over terabyte scale datasets. SLASH provides a multi-node implementation of the popular LSH (locality sensitive hashing) algorithm, which is generally implemented on a single machine. We show how we can append the LSH algorithm with heavy hitters sketches to provably solve the (high) similarity search problem without a single distance computation. Overall, we mathematically show that, under realistic data assumptions, we can identify the near-neighbor of a given query (q) in sub-linear (( \\ll O(n))) number of simple sketch aggregation operations only. To make such a system practical, we offer a novel design and sketching solution to reduce the inter-machine communication overheads exponentially. In a direct comparison on comparable hardware, SLASH is more than 10000x faster than the popular LSH package in PySpark. PySpark is a widely-adopted distributed implementation of the LSH algorithm for large datasets and is deployed in commercial platforms. In the end, we show how our system scale to Tera-scale Criteo dataset with more than 4 billion samples. SLASH can index this 2.3 terabyte data over 20 nodes in under an hour, with query times in a fraction of milliseconds. To the best of our knowledge, there is no open-source system that can index and perform a similarity search on Criteo with a commodity cluster.","headline":"Distributed Tera-scale Similarity Search With MPI: Provably Efficient Similarity Search Over Billions Without A Single Distance Computation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/meisburger2020distributed/"},"url":"https://learning2hash.github.io/publications/meisburger2020distributed/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -266,7 +266,6 @@ Criteo with a commodity cluster.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Distributed Tera-scale Similarity Search With MPI: Provably Efficient Similarity Search Over Billions Without A Single Distance Computation",
         conference: "Arxiv",
@@ -307,7 +306,6 @@ Criteo with a commodity cluster.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -336,37 +334,38 @@ Criteo with a commodity cluster.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

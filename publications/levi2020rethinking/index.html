@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/levi2020rethinking/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Rethinking Preventing Class-collapsing In Metric Learning With Margin-based Losses" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Metric learning seeks perceptual embeddings where visually similar instances are close and dissimilar instances are apart, but learned representations can be sub-optimal when the distribution of intra-class samples is diverse and distinct sub-clusters are present. Although theoretically with optimal assumptions, margin-based losses such as the triplet loss and margin loss have a diverse family of solutions. We theoretically prove and empirically show that under reasonable noise assumptions, margin-based losses tend to project all samples of a class with various modes onto a single point in the embedding space, resulting in a class collapse that usually renders the space ill-sorted for classification or retrieval. To address this problem, we propose a simple modification to the embedding losses such that each sample selects its nearest same-class counterpart in a batch as the positive element in the tuple. This allows for the presence of multiple sub-clusters within each class. The adaptation can be integrated into a wide range of metric learning losses. The proposed sampling method demonstrates clear benefits on various fine-grained image retrieval datasets over a variety of existing losses; qualitative retrieval results show that samples with similar visual patterns are indeed closer in the embedding space.","headline":"Rethinking Preventing Class-collapsing In Metric Learning With Margin-based Losses","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/levi2020rethinking/"},"url":"https://learning2hash.github.io/publications/levi2020rethinking/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Metric learning seeks perceptual embeddings where visually similar instances are close and dissimilar instances are apart, but learned representations can be sub-optimal when the distribution of intra-class samples is diverse and distinct sub-clusters are present. Although theoretically with optimal assumptions, margin-based losses such as the triplet loss and margin loss have a diverse family of solutions. We theoretically prove and empirically show that under reasonable noise assumptions, margin-based losses tend to project all samples of a class with various modes onto a single point in the embedding space, resulting in a class collapse that usually renders the space ill-sorted for classification or retrieval. To address this problem, we propose a simple modification to the embedding losses such that each sample selects its nearest same-class counterpart in a batch as the positive element in the tuple. This allows for the presence of multiple sub-clusters within each class. The adaptation can be integrated into a wide range of metric learning losses. The proposed sampling method demonstrates clear benefits on various fine-grained image retrieval datasets over a variety of existing losses; qualitative retrieval results show that samples with similar visual patterns are indeed closer in the embedding space.","headline":"Rethinking Preventing Class-collapsing In Metric Learning With Margin-based Losses","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/levi2020rethinking/"},"url":"https://learning2hash.github.io/publications/levi2020rethinking/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -260,7 +260,6 @@ closer in the embedding space.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Rethinking Preventing Class-collapsing In Metric Learning With Margin-based Losses",
         conference: "2021 IEEE/CVF International Conference on Computer Vision (ICCV)",
@@ -301,7 +300,6 @@ closer in the embedding space.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -330,37 +328,38 @@ closer in the embedding space.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

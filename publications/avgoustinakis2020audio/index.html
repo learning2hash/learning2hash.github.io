@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/avgoustinakis2020audio/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Audio-based Near-duplicate Video Retrieval With Audio Similarity Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In this work, we address the problem of audio-based near-duplicate video retrieval. We propose the Audio Similarity Learning (AuSiL) approach that effectively captures temporal patterns of audio similarity between video pairs. For the robust similarity calculation between two videos, we first extract representative audio-based video descriptors by leveraging transfer learning based on a Convolutional Neural Network (CNN) trained on a large scale dataset of audio events, and then we calculate the similarity matrix derived from the pairwise similarity of these descriptors. The similarity matrix is subsequently fed to a CNN network that captures the temporal structures existing within its content. We train our network following a triplet generation process and optimizing the triplet loss function. To evaluate the effectiveness of the proposed approach, we have manually annotated two publicly available video datasets based on the audio duplicity between their videos. The proposed approach achieves very competitive results compared to three state-of-the-art methods. Also, unlike the competing methods, it is very robust to the retrieval of audio duplicates generated with speed transformations.","headline":"Audio-based Near-duplicate Video Retrieval With Audio Similarity Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/avgoustinakis2020audio/"},"url":"https://learning2hash.github.io/publications/avgoustinakis2020audio/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In this work, we address the problem of audio-based near-duplicate video retrieval. We propose the Audio Similarity Learning (AuSiL) approach that effectively captures temporal patterns of audio similarity between video pairs. For the robust similarity calculation between two videos, we first extract representative audio-based video descriptors by leveraging transfer learning based on a Convolutional Neural Network (CNN) trained on a large scale dataset of audio events, and then we calculate the similarity matrix derived from the pairwise similarity of these descriptors. The similarity matrix is subsequently fed to a CNN network that captures the temporal structures existing within its content. We train our network following a triplet generation process and optimizing the triplet loss function. To evaluate the effectiveness of the proposed approach, we have manually annotated two publicly available video datasets based on the audio duplicity between their videos. The proposed approach achieves very competitive results compared to three state-of-the-art methods. Also, unlike the competing methods, it is very robust to the retrieval of audio duplicates generated with speed transformations.","headline":"Audio-based Near-duplicate Video Retrieval With Audio Similarity Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/avgoustinakis2020audio/"},"url":"https://learning2hash.github.io/publications/avgoustinakis2020audio/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,7 +256,6 @@ of audio duplicates generated with speed transformations.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Audio-based Near-duplicate Video Retrieval With Audio Similarity Learning",
         conference: "2020 25th International Conference on Pattern Recognition (ICPR)",
@@ -297,7 +296,6 @@ of audio duplicates generated with speed transformations.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -326,37 +324,38 @@ of audio duplicates generated with speed transformations.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

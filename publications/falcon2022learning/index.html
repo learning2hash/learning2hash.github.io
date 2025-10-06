@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/falcon2022learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Video Retrieval Models With Relevance-aware Online Mining" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Due to the amount of videos and related captions uploaded every hour, deep learning-based solutions for cross-modal video retrieval are attracting more and more attention. A typical approach consists in learning a joint text-video embedding space, where the similarity of a video and its associated caption is maximized, whereas a lower similarity is enforced with all the other captions, called negatives. This approach assumes that only the video and caption pairs in the dataset are valid, but different captions - positives - may also describe its visual contents, hence some of them may be wrongly penalized. To address this shortcoming, we propose the Relevance-Aware Negatives and Positives mining (RANP) which, based on the semantics of the negatives, improves their selection while also increasing the similarity of other valid positives. We explore the influence of these techniques on two video-text datasets: EPIC-Kitchens-100 and MSR-VTT. By using the proposed techniques, we achieve considerable improvements in terms of nDCG and mAP, leading to state-of-the-art results, e.g. +5.3% nDCG and +3.0% mAP on EPIC-Kitchens-100. We share code and pretrained models at https://github.com/aranciokov/ranp.","headline":"Learning Video Retrieval Models With Relevance-aware Online Mining","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/falcon2022learning/"},"url":"https://learning2hash.github.io/publications/falcon2022learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Due to the amount of videos and related captions uploaded every hour, deep learning-based solutions for cross-modal video retrieval are attracting more and more attention. A typical approach consists in learning a joint text-video embedding space, where the similarity of a video and its associated caption is maximized, whereas a lower similarity is enforced with all the other captions, called negatives. This approach assumes that only the video and caption pairs in the dataset are valid, but different captions - positives - may also describe its visual contents, hence some of them may be wrongly penalized. To address this shortcoming, we propose the Relevance-Aware Negatives and Positives mining (RANP) which, based on the semantics of the negatives, improves their selection while also increasing the similarity of other valid positives. We explore the influence of these techniques on two video-text datasets: EPIC-Kitchens-100 and MSR-VTT. By using the proposed techniques, we achieve considerable improvements in terms of nDCG and mAP, leading to state-of-the-art results, e.g. +5.3% nDCG and +3.0% mAP on EPIC-Kitchens-100. We share code and pretrained models at https://github.com/aranciokov/ranp.","headline":"Learning Video Retrieval Models With Relevance-aware Online Mining","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/falcon2022learning/"},"url":"https://learning2hash.github.io/publications/falcon2022learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ https://github.com/aranciokov/ranp.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Learning Video Retrieval Models With Relevance-aware Online Mining",
         conference: "Lecture Notes in Computer Science",
@@ -300,7 +299,6 @@ https://github.com/aranciokov/ranp.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ https://github.com/aranciokov/ranp.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

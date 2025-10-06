@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/singh2020robust/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Robust Homomorphic Video Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The Internet has been weaponized to carry out cybercriminal activities at an unprecedented pace. The rising concerns for preserving the privacy of personal data while availing modern tools and technologies is alarming. End-to-end encrypted solutions are in demand for almost all commercial platforms. On one side, it seems imperative to provide such solutions and give people trust to reliably use these platforms. On the other side, this creates a huge opportunity to carry out unchecked cybercrimes. This paper proposes a robust video hashing technique, scalable and efficient in chalking out matches from an enormous bulk of videos floating on these commercial platforms. The video hash is validated to be robust to common manipulations like scaling, corruptions by noise, compression, and contrast changes that are most probable to happen during transmission. It can also be transformed into the encrypted domain and work on top of encrypted videos without deciphering. Thus, it can serve as a potential forensic tool that can trace the illegal sharing of videos without knowing the underlying content. Hence, it can help preserve privacy and combat cybercrimes such as revenge porn, hateful content, child abuse, or illegal material propagated in a video.","headline":"Robust Homomorphic Video Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/singh2020robust/"},"url":"https://learning2hash.github.io/publications/singh2020robust/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The Internet has been weaponized to carry out cybercriminal activities at an unprecedented pace. The rising concerns for preserving the privacy of personal data while availing modern tools and technologies is alarming. End-to-end encrypted solutions are in demand for almost all commercial platforms. On one side, it seems imperative to provide such solutions and give people trust to reliably use these platforms. On the other side, this creates a huge opportunity to carry out unchecked cybercrimes. This paper proposes a robust video hashing technique, scalable and efficient in chalking out matches from an enormous bulk of videos floating on these commercial platforms. The video hash is validated to be robust to common manipulations like scaling, corruptions by noise, compression, and contrast changes that are most probable to happen during transmission. It can also be transformed into the encrypted domain and work on top of encrypted videos without deciphering. Thus, it can serve as a potential forensic tool that can trace the illegal sharing of videos without knowing the underlying content. Hence, it can help preserve privacy and combat cybercrimes such as revenge porn, hateful content, child abuse, or illegal material propagated in a video.","headline":"Robust Homomorphic Video Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/singh2020robust/"},"url":"https://learning2hash.github.io/publications/singh2020robust/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +253,6 @@ material propagated in a video.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Robust Homomorphic Video Hashing",
         conference: "2021 IEEE 4th International Conference on Multimedia Information Processing and Retrieval (MIPR)",
@@ -294,7 +293,6 @@ material propagated in a video.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -323,37 +321,38 @@ material propagated in a video.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/rygl2017semantic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Semantic Vector Encoding And Similarity Search Using Fulltext Search Engines" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Vector representations and vector space modeling (VSM) play a central role in modern machine learning. We propose a novel approach to `vector similarity searching’ over dense semantic representations of words and documents that can be deployed on top of traditional inverted-index-based fulltext engines, taking advantage of their robustness, stability, scalability and ubiquity. We show that this approach allows the indexing and querying of dense vectors in text domains. This opens up exciting avenues for major efficiency gains, along with simpler deployment, scaling and monitoring. The end result is a fast and scalable vector database with a tunable trade-off between vector search performance and quality, backed by a standard fulltext engine such as Elasticsearch. We empirically demonstrate its querying performance and quality by applying this solution to the task of semantic searching over a dense vector representation of the entire English Wikipedia.","headline":"Semantic Vector Encoding And Similarity Search Using Fulltext Search Engines","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/rygl2017semantic/"},"url":"https://learning2hash.github.io/publications/rygl2017semantic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Vector representations and vector space modeling (VSM) play a central role in modern machine learning. We propose a novel approach to `vector similarity searching’ over dense semantic representations of words and documents that can be deployed on top of traditional inverted-index-based fulltext engines, taking advantage of their robustness, stability, scalability and ubiquity. We show that this approach allows the indexing and querying of dense vectors in text domains. This opens up exciting avenues for major efficiency gains, along with simpler deployment, scaling and monitoring. The end result is a fast and scalable vector database with a tunable trade-off between vector search performance and quality, backed by a standard fulltext engine such as Elasticsearch. We empirically demonstrate its querying performance and quality by applying this solution to the task of semantic searching over a dense vector representation of the entire English Wikipedia.","headline":"Semantic Vector Encoding And Similarity Search Using Fulltext Search Engines","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/rygl2017semantic/"},"url":"https://learning2hash.github.io/publications/rygl2017semantic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -260,7 +260,6 @@ representation of the entire English Wikipedia.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Semantic Vector Encoding And Similarity Search Using Fulltext Search Engines",
         conference: "Proceedings of the 2nd Workshop on Representation Learning for NLP",
@@ -301,7 +300,6 @@ representation of the entire English Wikipedia.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -330,37 +328,38 @@ representation of the entire English Wikipedia.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

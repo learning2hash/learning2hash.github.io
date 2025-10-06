@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/nguyen2023generative/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Generative Retrieval As Dense Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Generative retrieval is a promising new neural retrieval paradigm that aims to optimize the retrieval pipeline by performing both indexing and retrieval with a single transformer model. However, this new paradigm faces challenges with updating the index and scaling to large collections. In this paper, we analyze two prominent variants of generative retrieval and show that they can be conceptually viewed as bi-encoders for dense retrieval. Specifically, we analytically demonstrate that the generative retrieval process can be decomposed into dot products between query and document vectors, similar to dense retrieval. This analysis leads us to propose a new variant of generative retrieval, called Tied-Atomic, which addresses the updating and scaling issues by incorporating techniques from dense retrieval. In experiments on two datasets, NQ320k and the full MSMARCO, we confirm that this approach does not reduce retrieval effectiveness while enabling the model to scale to large collections.","headline":"Generative Retrieval As Dense Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/nguyen2023generative/"},"url":"https://learning2hash.github.io/publications/nguyen2023generative/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Generative retrieval is a promising new neural retrieval paradigm that aims to optimize the retrieval pipeline by performing both indexing and retrieval with a single transformer model. However, this new paradigm faces challenges with updating the index and scaling to large collections. In this paper, we analyze two prominent variants of generative retrieval and show that they can be conceptually viewed as bi-encoders for dense retrieval. Specifically, we analytically demonstrate that the generative retrieval process can be decomposed into dot products between query and document vectors, similar to dense retrieval. This analysis leads us to propose a new variant of generative retrieval, called Tied-Atomic, which addresses the updating and scaling issues by incorporating techniques from dense retrieval. In experiments on two datasets, NQ320k and the full MSMARCO, we confirm that this approach does not reduce retrieval effectiveness while enabling the model to scale to large collections.","headline":"Generative Retrieval As Dense Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/nguyen2023generative/"},"url":"https://learning2hash.github.io/publications/nguyen2023generative/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,7 +252,6 @@ collections.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Generative Retrieval As Dense Retrieval",
         conference: "GenIR@SIGIR2023",
@@ -293,7 +292,6 @@ collections.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -322,37 +320,38 @@ collections.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

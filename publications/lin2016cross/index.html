@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lin2016cross/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Cross-domain Visual Matching Via Generalized Similarity Measure And Feature Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Cross-domain visual data matching is one of the fundamental problems in many real-world vision tasks, e.g., matching persons across ID photos and surveillance videos. Conventional approaches to this problem usually involves two steps: i) projecting samples from different domains into a common space, and ii) computing (dis-)similarity in this space based on a certain distance. In this paper, we present a novel pairwise similarity measure that advances existing models by i) expanding traditional linear projections into affine transformations and ii) fusing affine Mahalanobis distance and Cosine similarity by a data-driven combination. Moreover, we unify our similarity measure with feature representation learning via deep convolutional neural networks. Specifically, we incorporate the similarity measure matrix into the deep architecture, enabling an end-to-end way of model optimization. We extensively evaluate our generalized similarity model in several challenging cross-domain matching tasks: person re-identification under different views and face verification over different modalities (i.e., faces from still images and videos, older and younger faces, and sketch and photo portraits). The experimental results demonstrate superior performance of our model over other state-of-the-art methods.","headline":"Cross-domain Visual Matching Via Generalized Similarity Measure And Feature Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2016cross/"},"url":"https://learning2hash.github.io/publications/lin2016cross/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Cross-domain visual data matching is one of the fundamental problems in many real-world vision tasks, e.g., matching persons across ID photos and surveillance videos. Conventional approaches to this problem usually involves two steps: i) projecting samples from different domains into a common space, and ii) computing (dis-)similarity in this space based on a certain distance. In this paper, we present a novel pairwise similarity measure that advances existing models by i) expanding traditional linear projections into affine transformations and ii) fusing affine Mahalanobis distance and Cosine similarity by a data-driven combination. Moreover, we unify our similarity measure with feature representation learning via deep convolutional neural networks. Specifically, we incorporate the similarity measure matrix into the deep architecture, enabling an end-to-end way of model optimization. We extensively evaluate our generalized similarity model in several challenging cross-domain matching tasks: person re-identification under different views and face verification over different modalities (i.e., faces from still images and videos, older and younger faces, and sketch and photo portraits). The experimental results demonstrate superior performance of our model over other state-of-the-art methods.","headline":"Cross-domain Visual Matching Via Generalized Similarity Measure And Feature Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2016cross/"},"url":"https://learning2hash.github.io/publications/lin2016cross/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -254,7 +254,6 @@ state-of-the-art methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Cross-domain Visual Matching Via Generalized Similarity Measure And Feature Learning",
         conference: "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -295,7 +294,6 @@ state-of-the-art methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -324,37 +322,38 @@ state-of-the-art methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

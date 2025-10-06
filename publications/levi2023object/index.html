@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/levi2023object/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Object-centric Open-vocabulary Image-retrieval With Aggregated Features" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The task of open-vocabulary object-centric image retrieval involves the retrieval of images containing a specified object of interest, delineated by an open-set text query. As working on large image datasets becomes standard, solving this task efficiently has gained significant practical importance. Applications include targeted performance analysis of retrieved images using ad-hoc queries and hard example mining during training. Recent advancements in contrastive-based open vocabulary systems have yielded remarkable breakthroughs, facilitating large-scale open vocabulary image retrieval. However, these approaches use a single global embedding per image, thereby constraining the system’s ability to retrieve images containing relatively small object instances. Alternatively, incorporating local embeddings from detection pipelines faces scalability challenges, making it unsuitable for retrieval from large databases. In this work, we present a simple yet effective approach to object-centric open-vocabulary image retrieval. Our approach aggregates dense embeddings extracted from CLIP into a compact representation, essentially combining the scalability of image retrieval pipelines with the object identification capabilities of dense detection methods. We show the effectiveness of our scheme to the task by achieving significantly better results than global feature approaches on three datasets, increasing accuracy by up to 15 mAP points. We further integrate our scheme into a large scale retrieval framework and demonstrate our method’s advantages in terms of scalability and interpretability.","headline":"Object-centric Open-vocabulary Image-retrieval With Aggregated Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/levi2023object/"},"url":"https://learning2hash.github.io/publications/levi2023object/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The task of open-vocabulary object-centric image retrieval involves the retrieval of images containing a specified object of interest, delineated by an open-set text query. As working on large image datasets becomes standard, solving this task efficiently has gained significant practical importance. Applications include targeted performance analysis of retrieved images using ad-hoc queries and hard example mining during training. Recent advancements in contrastive-based open vocabulary systems have yielded remarkable breakthroughs, facilitating large-scale open vocabulary image retrieval. However, these approaches use a single global embedding per image, thereby constraining the system’s ability to retrieve images containing relatively small object instances. Alternatively, incorporating local embeddings from detection pipelines faces scalability challenges, making it unsuitable for retrieval from large databases. In this work, we present a simple yet effective approach to object-centric open-vocabulary image retrieval. Our approach aggregates dense embeddings extracted from CLIP into a compact representation, essentially combining the scalability of image retrieval pipelines with the object identification capabilities of dense detection methods. We show the effectiveness of our scheme to the task by achieving significantly better results than global feature approaches on three datasets, increasing accuracy by up to 15 mAP points. We further integrate our scheme into a large scale retrieval framework and demonstrate our method’s advantages in terms of scalability and interpretability.","headline":"Object-centric Open-vocabulary Image-retrieval With Aggregated Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/levi2023object/"},"url":"https://learning2hash.github.io/publications/levi2023object/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -267,7 +267,6 @@ interpretability.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Object-centric Open-vocabulary Image-retrieval With Aggregated Features",
         conference: "Arxiv",
@@ -308,7 +307,6 @@ interpretability.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -337,37 +335,38 @@ interpretability.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

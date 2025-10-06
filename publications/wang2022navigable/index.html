@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2022navigable/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Navigable Proximity Graph-driven Native Hybrid Queries With Structured And Unstructured Constraints" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"As research interest surges, vector similarity search is applied in multiple fields, including data mining, computer vision, and information retrieval. {Given a set of objects (e.g., a set of images) and a query object, we can easily transform each object into a feature vector and apply the vector similarity search to retrieve the most similar objects. However, the original vector similarity search cannot well support \\textit{hybrid queries}, where users not only input unstructured query constraint (i.e., the feature vector of query object) but also structured query constraint (i.e., the desired attributes of interest). Hybrid query processing aims at identifying these objects with similar feature vectors to query object and satisfying the given attribute constraints. Recent efforts have attempted to answer a hybrid query by performing attribute filtering and vector similarity search separately and then merging the results later, which limits efficiency and accuracy because they are not purpose-built for hybrid queries.} In this paper, we propose a native hybrid query (NHQ) framework based on proximity graph (PG), which provides the specialized \\textit{composite index and joint pruning} modules for hybrid queries. We easily deploy existing various PGs on this framework to process hybrid queries efficiently. Moreover, we present two novel navigable PGs (NPGs) with optimized edge selection and routing strategies, which obtain better overall performance than existing PGs. After that, we deploy the proposed NPGs in NHQ to form two hybrid query methods, which significantly outperform the state-of-the-art competitors on all experimental datasets (10(\\times) faster under the same \\textit{Recall}), including eight public and one in-house real-world datasets. Our code and datasets have been released at https://github.com/AshenOn3/NHQ.","headline":"Navigable Proximity Graph-driven Native Hybrid Queries With Structured And Unstructured Constraints","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2022navigable/"},"url":"https://learning2hash.github.io/publications/wang2022navigable/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"As research interest surges, vector similarity search is applied in multiple fields, including data mining, computer vision, and information retrieval. {Given a set of objects (e.g., a set of images) and a query object, we can easily transform each object into a feature vector and apply the vector similarity search to retrieve the most similar objects. However, the original vector similarity search cannot well support \\textit{hybrid queries}, where users not only input unstructured query constraint (i.e., the feature vector of query object) but also structured query constraint (i.e., the desired attributes of interest). Hybrid query processing aims at identifying these objects with similar feature vectors to query object and satisfying the given attribute constraints. Recent efforts have attempted to answer a hybrid query by performing attribute filtering and vector similarity search separately and then merging the results later, which limits efficiency and accuracy because they are not purpose-built for hybrid queries.} In this paper, we propose a native hybrid query (NHQ) framework based on proximity graph (PG), which provides the specialized \\textit{composite index and joint pruning} modules for hybrid queries. We easily deploy existing various PGs on this framework to process hybrid queries efficiently. Moreover, we present two novel navigable PGs (NPGs) with optimized edge selection and routing strategies, which obtain better overall performance than existing PGs. After that, we deploy the proposed NPGs in NHQ to form two hybrid query methods, which significantly outperform the state-of-the-art competitors on all experimental datasets (10(\\times) faster under the same \\textit{Recall}), including eight public and one in-house real-world datasets. Our code and datasets have been released at https://github.com/AshenOn3/NHQ.","headline":"Navigable Proximity Graph-driven Native Hybrid Queries With Structured And Unstructured Constraints","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2022navigable/"},"url":"https://learning2hash.github.io/publications/wang2022navigable/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -273,7 +273,6 @@ https://github.com/AshenOn3/NHQ.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Navigable Proximity Graph-driven Native Hybrid Queries With Structured And Unstructured Constraints",
         conference: "Arxiv",
@@ -314,7 +313,6 @@ https://github.com/AshenOn3/NHQ.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -343,37 +341,38 @@ https://github.com/AshenOn3/NHQ.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2021multiple/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multiple Convolutional Features In Siamese Networks For Object Tracking" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Siamese trackers demonstrated high performance in object tracking due to their balance between accuracy and speed. Unlike classification-based CNNs, deep similarity networks are specifically designed to address the image similarity problem, and thus are inherently more appropriate for the tracking task. However, Siamese trackers mainly use the last convolutional layers for similarity analysis and target search, which restricts their performance. In this paper, we argue that using a single convolutional layer as feature representation is not an optimal choice in a deep similarity framework. We present a Multiple Features-Siamese Tracker (MFST), a novel tracking algorithm exploiting several hierarchical feature maps for robust tracking. Since convolutional layers provide several abstraction levels in characterizing an object, fusing hierarchical features allows to obtain a richer and more efficient representation of the target. Moreover, we handle the target appearance variations by calibrating the deep features extracted from two different CNN models. Based on this advanced feature representation, our method achieves high tracking accuracy, while outperforming the standard siamese tracker on object tracking benchmarks. The source code and trained models are available at https://github.com/zhenxili96/MFST.","headline":"Multiple Convolutional Features In Siamese Networks For Object Tracking","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2021multiple/"},"url":"https://learning2hash.github.io/publications/li2021multiple/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Siamese trackers demonstrated high performance in object tracking due to their balance between accuracy and speed. Unlike classification-based CNNs, deep similarity networks are specifically designed to address the image similarity problem, and thus are inherently more appropriate for the tracking task. However, Siamese trackers mainly use the last convolutional layers for similarity analysis and target search, which restricts their performance. In this paper, we argue that using a single convolutional layer as feature representation is not an optimal choice in a deep similarity framework. We present a Multiple Features-Siamese Tracker (MFST), a novel tracking algorithm exploiting several hierarchical feature maps for robust tracking. Since convolutional layers provide several abstraction levels in characterizing an object, fusing hierarchical features allows to obtain a richer and more efficient representation of the target. Moreover, we handle the target appearance variations by calibrating the deep features extracted from two different CNN models. Based on this advanced feature representation, our method achieves high tracking accuracy, while outperforming the standard siamese tracker on object tracking benchmarks. The source code and trained models are available at https://github.com/zhenxili96/MFST.","headline":"Multiple Convolutional Features In Siamese Networks For Object Tracking","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2021multiple/"},"url":"https://learning2hash.github.io/publications/li2021multiple/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -258,7 +258,6 @@ available at https://github.com/zhenxili96/MFST.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Multiple Convolutional Features In Siamese Networks For Object Tracking",
         conference: "Machine Vision and Applications",
@@ -299,7 +298,6 @@ available at https://github.com/zhenxili96/MFST.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -328,37 +326,38 @@ available at https://github.com/zhenxili96/MFST.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

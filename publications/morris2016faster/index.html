@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/morris2016faster/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Faster Kernels For Graphs With Continuous Attributes Via Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"While state-of-the-art kernels for graphs with discrete labels scale well to graphs with thousands of nodes, the few existing kernels for graphs with continuous attributes, unfortunately, do not scale well. To overcome this limitation, we present hash graph kernels, a general framework to derive kernels for graphs with continuous attributes from discrete ones. The idea is to iteratively turn continuous attributes into discrete labels using randomized hash functions. We illustrate hash graph kernels for the Weisfeiler-Lehman subtree kernel and for the shortest-path kernel. The resulting novel graph kernels are shown to be, both, able to handle graphs with continuous attributes and scalable to large graphs and data sets. This is supported by our theoretical analysis and demonstrated by an extensive experimental evaluation.","headline":"Faster Kernels For Graphs With Continuous Attributes Via Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/morris2016faster/"},"url":"https://learning2hash.github.io/publications/morris2016faster/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"While state-of-the-art kernels for graphs with discrete labels scale well to graphs with thousands of nodes, the few existing kernels for graphs with continuous attributes, unfortunately, do not scale well. To overcome this limitation, we present hash graph kernels, a general framework to derive kernels for graphs with continuous attributes from discrete ones. The idea is to iteratively turn continuous attributes into discrete labels using randomized hash functions. We illustrate hash graph kernels for the Weisfeiler-Lehman subtree kernel and for the shortest-path kernel. The resulting novel graph kernels are shown to be, both, able to handle graphs with continuous attributes and scalable to large graphs and data sets. This is supported by our theoretical analysis and demonstrated by an extensive experimental evaluation.","headline":"Faster Kernels For Graphs With Continuous Attributes Via Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/morris2016faster/"},"url":"https://learning2hash.github.io/publications/morris2016faster/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -251,7 +251,6 @@ theoretical analysis and demonstrated by an extensive experimental evaluation.</
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Faster Kernels For Graphs With Continuous Attributes Via Hashing",
         conference: "2016 IEEE 16th International Conference on Data Mining (ICDM)",
@@ -292,7 +291,6 @@ theoretical analysis and demonstrated by an extensive experimental evaluation.</
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -321,37 +319,38 @@ theoretical analysis and demonstrated by an extensive experimental evaluation.</
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

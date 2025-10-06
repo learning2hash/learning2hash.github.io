@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zheng2023building/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Building K-anonymous User Cohorts With\ Consecutive Consistent Weighted Sampling (CCWS)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"To retrieve personalized campaigns and creatives while protecting user privacy, digital advertising is shifting from member-based identity to cohort-based identity. Under such identity regime, an accurate and efficient cohort building algorithm is desired to group users with similar characteristics. In this paper, we propose a scalable (K)-anonymous cohort building algorithm called {\\em consecutive consistent weighted sampling} (CCWS). The proposed method combines the spirit of the ((p)-powered) consistent weighted sampling and hierarchical clustering, so that the (K)-anonymity is ensured by enforcing a lower bound on the size of cohorts. Evaluations on a LinkedIn dataset consisting of (&gt;70)M users and ads campaigns demonstrate that CCWS achieves substantial improvements over several hashing-based methods including sign random projections (SignRP), minwise hashing (MinHash), as well as the vanilla CWS.","headline":"Building K-anonymous User Cohorts With\\ Consecutive Consistent Weighted Sampling (CCWS)","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zheng2023building/"},"url":"https://learning2hash.github.io/publications/zheng2023building/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"To retrieve personalized campaigns and creatives while protecting user privacy, digital advertising is shifting from member-based identity to cohort-based identity. Under such identity regime, an accurate and efficient cohort building algorithm is desired to group users with similar characteristics. In this paper, we propose a scalable (K)-anonymous cohort building algorithm called {\\em consecutive consistent weighted sampling} (CCWS). The proposed method combines the spirit of the ((p)-powered) consistent weighted sampling and hierarchical clustering, so that the (K)-anonymity is ensured by enforcing a lower bound on the size of cohorts. Evaluations on a LinkedIn dataset consisting of (&gt;70)M users and ads campaigns demonstrate that CCWS achieves substantial improvements over several hashing-based methods including sign random projections (SignRP), minwise hashing (MinHash), as well as the vanilla CWS.","headline":"Building K-anonymous User Cohorts With\\ Consecutive Consistent Weighted Sampling (CCWS)","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zheng2023building/"},"url":"https://learning2hash.github.io/publications/zheng2023building/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ as the vanilla CWS.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Building K-anonymous User Cohorts With\\\\ Consecutive Consistent Weighted Sampling (CCWS)",
         conference: "Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval",
@@ -296,7 +295,6 @@ as the vanilla CWS.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ as the vanilla CWS.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

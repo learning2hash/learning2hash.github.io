@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/peng2018deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Reinforcement Learning For Image Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Deep hashing methods have received much attention recently, which achieve promising results by taking advantage of the strong representation power of deep networks. However, most existing deep hashing methods learn a whole set of hashing functions independently, while ignore the correlations between different hashing functions that can promote the retrieval accuracy greatly. Inspired by the sequential decision ability of deep reinforcement learning, we propose a new Deep Reinforcement Learning approach for Image Hashing (DRLIH). Our proposed DRLIH approach models the hashing learning problem as a sequential decision process, which learns each hashing function by correcting the errors imposed by previous ones and promotes retrieval accuracy. To the best of our knowledge, this is the first work to address hashing problem from deep reinforcement learning perspective. The main contributions of our proposed DRLIH approach can be summarized as follows: (1) We propose a deep reinforcement learning hashing network. In the proposed network, we utilize recurrent neural network (RNN) as agents to model the hashing functions, which take actions of projecting images into binary codes sequentially, so that the current hashing function learning can take previous hashing functions’ error into account. (2) We propose a sequential learning strategy based on proposed DRLIH. We define the state as a tuple of internal features of RNN’s hidden layers and image features, which can reflect history decisions made by the agents. We also propose an action group method to enhance the correlation of hash functions in the same group. Experiments on three widely-used datasets demonstrate the effectiveness of our proposed DRLIH approach.","headline":"Deep Reinforcement Learning For Image Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/peng2018deep/"},"url":"https://learning2hash.github.io/publications/peng2018deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Deep hashing methods have received much attention recently, which achieve promising results by taking advantage of the strong representation power of deep networks. However, most existing deep hashing methods learn a whole set of hashing functions independently, while ignore the correlations between different hashing functions that can promote the retrieval accuracy greatly. Inspired by the sequential decision ability of deep reinforcement learning, we propose a new Deep Reinforcement Learning approach for Image Hashing (DRLIH). Our proposed DRLIH approach models the hashing learning problem as a sequential decision process, which learns each hashing function by correcting the errors imposed by previous ones and promotes retrieval accuracy. To the best of our knowledge, this is the first work to address hashing problem from deep reinforcement learning perspective. The main contributions of our proposed DRLIH approach can be summarized as follows: (1) We propose a deep reinforcement learning hashing network. In the proposed network, we utilize recurrent neural network (RNN) as agents to model the hashing functions, which take actions of projecting images into binary codes sequentially, so that the current hashing function learning can take previous hashing functions’ error into account. (2) We propose a sequential learning strategy based on proposed DRLIH. We define the state as a tuple of internal features of RNN’s hidden layers and image features, which can reflect history decisions made by the agents. We also propose an action group method to enhance the correlation of hash functions in the same group. Experiments on three widely-used datasets demonstrate the effectiveness of our proposed DRLIH approach.","headline":"Deep Reinforcement Learning For Image Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/peng2018deep/"},"url":"https://learning2hash.github.io/publications/peng2018deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -267,7 +267,6 @@ demonstrate the effectiveness of our proposed DRLIH approach.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Deep Reinforcement Learning For Image Hashing",
         conference: "IEEE Transactions on Multimedia",
@@ -308,7 +307,6 @@ demonstrate the effectiveness of our proposed DRLIH approach.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -337,37 +335,38 @@ demonstrate the effectiveness of our proposed DRLIH approach.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

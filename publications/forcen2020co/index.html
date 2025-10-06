@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/forcen2020co/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Co-occurrence Of Deep Convolutional Features For Image Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Image search can be tackled using deep features from pre-trained Convolutional Neural Networks (CNN). The feature map from the last convolutional layer of a CNN encodes descriptive information from which a discriminative global descriptor can be obtained. We propose a new representation of co-occurrences from deep convolutional features to extract additional relevant information from this last convolutional layer. Combining this co-occurrence map with the feature map, we achieve an improved image representation. We present two different methods to get the co-occurrence representation, the first one based on direct aggregation of activations, and the second one, based on a trainable co-occurrence representation. The image descriptors derived from our methodology improve the performance in very well-known image retrieval datasets as we prove in the experiments.","headline":"Co-occurrence Of Deep Convolutional Features For Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/forcen2020co/"},"url":"https://learning2hash.github.io/publications/forcen2020co/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Image search can be tackled using deep features from pre-trained Convolutional Neural Networks (CNN). The feature map from the last convolutional layer of a CNN encodes descriptive information from which a discriminative global descriptor can be obtained. We propose a new representation of co-occurrences from deep convolutional features to extract additional relevant information from this last convolutional layer. Combining this co-occurrence map with the feature map, we achieve an improved image representation. We present two different methods to get the co-occurrence representation, the first one based on direct aggregation of activations, and the second one, based on a trainable co-occurrence representation. The image descriptors derived from our methodology improve the performance in very well-known image retrieval datasets as we prove in the experiments.","headline":"Co-occurrence Of Deep Convolutional Features For Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/forcen2020co/"},"url":"https://learning2hash.github.io/publications/forcen2020co/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,7 +252,6 @@ well-known image retrieval datasets as we prove in the experiments.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Co-occurrence Of Deep Convolutional Features For Image Search",
         conference: "Image and Vision Computing",
@@ -293,7 +292,6 @@ well-known image retrieval datasets as we prove in the experiments.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -322,37 +320,38 @@ well-known image retrieval datasets as we prove in the experiments.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

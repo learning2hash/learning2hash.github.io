@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/gonz%C3%A1lezPizarro2023understanding/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Understanding And Detecting Hateful Content Using Contrastive Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The spread of hate speech and hateful imagery on the Web is a significant problem that needs to be mitigated to improve our Web experience. This work contributes to research efforts to detect and understand hateful content on the Web by undertaking a multimodal analysis of Antisemitism and Islamophobia on 4chan’s /pol/ using OpenAI’s CLIP. This large pre-trained model uses the Contrastive Learning paradigm. We devise a methodology to identify a set of Antisemitic and Islamophobic hateful textual phrases using Google’s Perspective API and manual annotations. Then, we use OpenAI’s CLIP to identify images that are highly similar to our Antisemitic/Islamophobic textual phrases. By running our methodology on a dataset that includes 66M posts and 5.8M images shared on 4chan’s /pol/ for 18 months, we detect 173K posts containing 21K Antisemitic/Islamophobic images and 246K posts that include 420 hateful phrases. Among other things, we find that we can use OpenAI’s CLIP model to detect hateful content with an accuracy score of 0.81 (F1 score = 0.54). By comparing CLIP with two baselines proposed by the literature, we find that CLIP outperforms them, in terms of accuracy, precision, and F1 score, in detecting Antisemitic/Islamophobic images. Also, we find that Antisemitic/Islamophobic imagery is shared in a similar number of posts on 4chan’s /pol/ compared to Antisemitic/Islamophobic textual phrases, highlighting the need to design more tools for detecting hateful imagery. Finally, we make available (upon request) a dataset of 246K posts containing 420 Antisemitic/Islamophobic phrases and 21K likely Antisemitic/Islamophobic images (automatically detected by CLIP) that can assist researchers in further understanding Antisemitism and Islamophobia.","headline":"Understanding And Detecting Hateful Content Using Contrastive Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gonz%C3%A1lezPizarro2023understanding/"},"url":"https://learning2hash.github.io/publications/gonz%C3%A1lezPizarro2023understanding/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The spread of hate speech and hateful imagery on the Web is a significant problem that needs to be mitigated to improve our Web experience. This work contributes to research efforts to detect and understand hateful content on the Web by undertaking a multimodal analysis of Antisemitism and Islamophobia on 4chan’s /pol/ using OpenAI’s CLIP. This large pre-trained model uses the Contrastive Learning paradigm. We devise a methodology to identify a set of Antisemitic and Islamophobic hateful textual phrases using Google’s Perspective API and manual annotations. Then, we use OpenAI’s CLIP to identify images that are highly similar to our Antisemitic/Islamophobic textual phrases. By running our methodology on a dataset that includes 66M posts and 5.8M images shared on 4chan’s /pol/ for 18 months, we detect 173K posts containing 21K Antisemitic/Islamophobic images and 246K posts that include 420 hateful phrases. Among other things, we find that we can use OpenAI’s CLIP model to detect hateful content with an accuracy score of 0.81 (F1 score = 0.54). By comparing CLIP with two baselines proposed by the literature, we find that CLIP outperforms them, in terms of accuracy, precision, and F1 score, in detecting Antisemitic/Islamophobic images. Also, we find that Antisemitic/Islamophobic imagery is shared in a similar number of posts on 4chan’s /pol/ compared to Antisemitic/Islamophobic textual phrases, highlighting the need to design more tools for detecting hateful imagery. Finally, we make available (upon request) a dataset of 246K posts containing 420 Antisemitic/Islamophobic phrases and 21K likely Antisemitic/Islamophobic images (automatically detected by CLIP) that can assist researchers in further understanding Antisemitism and Islamophobia.","headline":"Understanding And Detecting Hateful Content Using Contrastive Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gonz%C3%A1lezPizarro2023understanding/"},"url":"https://learning2hash.github.io/publications/gonz%C3%A1lezPizarro2023understanding/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -267,7 +267,6 @@ can assist researchers in further understanding Antisemitism and Islamophobia.</
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Understanding And Detecting Hateful Content Using Contrastive Learning",
         conference: "Proceedings of the International AAAI Conference on Web and Social Media",
@@ -308,7 +307,6 @@ can assist researchers in further understanding Antisemitism and Islamophobia.</
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -337,37 +335,38 @@ can assist researchers in further understanding Antisemitism and Islamophobia.</
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

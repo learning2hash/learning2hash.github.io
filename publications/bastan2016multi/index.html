@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/bastan2016multi/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multi-view Product Image Search Using Deep Convnets Representations" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Multi-view product image queries can improve retrieval performance over single view queries significantly. In this paper, we investigated the performance of deep convolutional neural networks (ConvNets) on multi-view product image search. First, we trained a VGG-like network to learn deep ConvNets representations of product images. Then, we computed the deep ConvNets representations of database and query images and performed single view queries, and multi-view queries using several early and late fusion approaches. We performed extensive experiments on the publicly available Multi-View Object Image Dataset (MVOD 5K) with both clean background queries from the Internet and cluttered background queries from a mobile phone. We compared the performance of ConvNets to the classical bag-of-visual-words (BoWs). We concluded that (1) multi-view queries with deep ConvNets representations perform significantly better than single view queries, (2) ConvNets perform much better than BoWs and have room for further improvement, (3) pre-training of ConvNets on a different image dataset with background clutter is needed to obtain good performance on cluttered product image queries obtained with a mobile phone.","headline":"Multi-view Product Image Search Using Deep Convnets Representations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bastan2016multi/"},"url":"https://learning2hash.github.io/publications/bastan2016multi/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Multi-view product image queries can improve retrieval performance over single view queries significantly. In this paper, we investigated the performance of deep convolutional neural networks (ConvNets) on multi-view product image search. First, we trained a VGG-like network to learn deep ConvNets representations of product images. Then, we computed the deep ConvNets representations of database and query images and performed single view queries, and multi-view queries using several early and late fusion approaches. We performed extensive experiments on the publicly available Multi-View Object Image Dataset (MVOD 5K) with both clean background queries from the Internet and cluttered background queries from a mobile phone. We compared the performance of ConvNets to the classical bag-of-visual-words (BoWs). We concluded that (1) multi-view queries with deep ConvNets representations perform significantly better than single view queries, (2) ConvNets perform much better than BoWs and have room for further improvement, (3) pre-training of ConvNets on a different image dataset with background clutter is needed to obtain good performance on cluttered product image queries obtained with a mobile phone.","headline":"Multi-view Product Image Search Using Deep Convnets Representations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bastan2016multi/"},"url":"https://learning2hash.github.io/publications/bastan2016multi/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ mobile phone.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Multi-view Product Image Search Using Deep Convnets Representations",
         conference: "Arxiv",
@@ -298,7 +297,6 @@ mobile phone.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ mobile phone.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

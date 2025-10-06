@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/weston2011large/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Large-scale Music Annotation And Retrieval: Learning To Rank In Joint Semantic Spaces" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Music prediction tasks range from predicting tags given a song or clip of audio, predicting the name of the artist, or predicting related songs given a song, clip, artist name or tag. That is, we are interested in every semantic relationship between the different musical concepts in our database. In realistically sized databases, the number of songs is measured in the hundreds of thousands or more, and the number of artists in the tens of thousands or more, providing a considerable challenge to standard machine learning techniques. In this work, we propose a method that scales to such datasets which attempts to capture the semantic similarities between the database items by modeling audio, artist names, and tags in a single low-dimensional semantic space. This choice of space is learnt by optimizing the set of prediction tasks of interest jointly using multi-task learning. Our method both outperforms baseline methods and, in comparison to them, is faster and consumes less memory. We then demonstrate how our method learns an interpretable model, where the semantic space captures well the similarities of interest.","headline":"Large-scale Music Annotation And Retrieval: Learning To Rank In Joint Semantic Spaces","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weston2011large/"},"url":"https://learning2hash.github.io/publications/weston2011large/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Music prediction tasks range from predicting tags given a song or clip of audio, predicting the name of the artist, or predicting related songs given a song, clip, artist name or tag. That is, we are interested in every semantic relationship between the different musical concepts in our database. In realistically sized databases, the number of songs is measured in the hundreds of thousands or more, and the number of artists in the tens of thousands or more, providing a considerable challenge to standard machine learning techniques. In this work, we propose a method that scales to such datasets which attempts to capture the semantic similarities between the database items by modeling audio, artist names, and tags in a single low-dimensional semantic space. This choice of space is learnt by optimizing the set of prediction tasks of interest jointly using multi-task learning. Our method both outperforms baseline methods and, in comparison to them, is faster and consumes less memory. We then demonstrate how our method learns an interpretable model, where the semantic space captures well the similarities of interest.","headline":"Large-scale Music Annotation And Retrieval: Learning To Rank In Joint Semantic Spaces","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weston2011large/"},"url":"https://learning2hash.github.io/publications/weston2011large/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ the semantic space captures well the similarities of interest.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Large-scale Music Annotation And Retrieval: Learning To Rank In Joint Semantic Spaces",
         conference: "Arxiv",
@@ -296,7 +295,6 @@ the semantic space captures well the similarities of interest.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ the semantic space captures well the similarities of interest.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

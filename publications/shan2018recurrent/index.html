@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/shan2018recurrent/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Recurrent Binary Embedding For Gpu-enabled Exhaustive Retrieval From Billion-scale Semantic Vectors" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Rapid advances in GPU hardware and multiple areas of Deep Learning open up a new opportunity for billion-scale information retrieval with exhaustive search. Building on top of the powerful concept of semantic learning, this paper proposes a Recurrent Binary Embedding (RBE) model that learns compact representations for real-time retrieval. The model has the unique ability to refine a base binary vector by progressively adding binary residual vectors to meet the desired accuracy. The refined vector enables efficient implementation of exhaustive similarity computation with bit-wise operations, followed by a near- lossless k-NN selection algorithm, also proposed in this paper. The proposed algorithms are integrated into an end-to-end multi-GPU system that retrieves thousands of top items from over a billion candidates in real-time. The RBE model and the retrieval system were evaluated with data from a major paid search engine. When measured against the state-of-the-art model for binary representation and the full precision model for semantic embedding, RBE significantly outperformed the former, and filled in over 80% of the AUC gap in-between. Experiments comparing with our production retrieval system also demonstrated superior performance. While the primary focus of this paper is to build RBE based on a particular class of semantic models, generalizing to other types is straightforward, as exemplified by two different models at the end of the paper.","headline":"Recurrent Binary Embedding For Gpu-enabled Exhaustive Retrieval From Billion-scale Semantic Vectors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shan2018recurrent/"},"url":"https://learning2hash.github.io/publications/shan2018recurrent/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Rapid advances in GPU hardware and multiple areas of Deep Learning open up a new opportunity for billion-scale information retrieval with exhaustive search. Building on top of the powerful concept of semantic learning, this paper proposes a Recurrent Binary Embedding (RBE) model that learns compact representations for real-time retrieval. The model has the unique ability to refine a base binary vector by progressively adding binary residual vectors to meet the desired accuracy. The refined vector enables efficient implementation of exhaustive similarity computation with bit-wise operations, followed by a near- lossless k-NN selection algorithm, also proposed in this paper. The proposed algorithms are integrated into an end-to-end multi-GPU system that retrieves thousands of top items from over a billion candidates in real-time. The RBE model and the retrieval system were evaluated with data from a major paid search engine. When measured against the state-of-the-art model for binary representation and the full precision model for semantic embedding, RBE significantly outperformed the former, and filled in over 80% of the AUC gap in-between. Experiments comparing with our production retrieval system also demonstrated superior performance. While the primary focus of this paper is to build RBE based on a particular class of semantic models, generalizing to other types is straightforward, as exemplified by two different models at the end of the paper.","headline":"Recurrent Binary Embedding For Gpu-enabled Exhaustive Retrieval From Billion-scale Semantic Vectors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shan2018recurrent/"},"url":"https://learning2hash.github.io/publications/shan2018recurrent/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -268,7 +268,6 @@ the paper.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Recurrent Binary Embedding For Gpu-enabled Exhaustive Retrieval From Billion-scale Semantic Vectors",
         conference: "Proceedings of the 24th ACM SIGKDD International Conference on Knowledge Discovery &amp; Data Mining",
@@ -309,7 +308,6 @@ the paper.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -338,37 +336,38 @@ the paper.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

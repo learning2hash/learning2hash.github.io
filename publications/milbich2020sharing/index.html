@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/milbich2020sharing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Sharing Matters For Generalization In Deep Metric Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Learning the similarity between images constitutes the foundation for numerous vision tasks. The common paradigm is discriminative metric learning, which seeks an embedding that separates different training classes. However, the main challenge is to learn a metric that not only generalizes from training to novel, but related, test samples. It should also transfer to different object classes. So what complementary information is missed by the discriminative paradigm? Besides finding characteristics that separate between classes, we also need them to likely occur in novel categories, which is indicated if they are shared across training classes. This work investigates how to learn such characteristics without the need for extra annotations or training data. By formulating our approach as a novel triplet sampling strategy, it can be easily applied on top of recent ranking loss frameworks. Experiments show that, independent of the underlying network architecture and the specific ranking loss, our approach significantly improves performance in deep metric learning, leading to new the state-of-the-art results on various standard benchmark datasets. Preliminary early access page can be found here: https://ieeexplore.ieee.org/document/9141449","headline":"Sharing Matters For Generalization In Deep Metric Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/milbich2020sharing/"},"url":"https://learning2hash.github.io/publications/milbich2020sharing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Learning the similarity between images constitutes the foundation for numerous vision tasks. The common paradigm is discriminative metric learning, which seeks an embedding that separates different training classes. However, the main challenge is to learn a metric that not only generalizes from training to novel, but related, test samples. It should also transfer to different object classes. So what complementary information is missed by the discriminative paradigm? Besides finding characteristics that separate between classes, we also need them to likely occur in novel categories, which is indicated if they are shared across training classes. This work investigates how to learn such characteristics without the need for extra annotations or training data. By formulating our approach as a novel triplet sampling strategy, it can be easily applied on top of recent ranking loss frameworks. Experiments show that, independent of the underlying network architecture and the specific ranking loss, our approach significantly improves performance in deep metric learning, leading to new the state-of-the-art results on various standard benchmark datasets. Preliminary early access page can be found here: https://ieeexplore.ieee.org/document/9141449","headline":"Sharing Matters For Generalization In Deep Metric Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/milbich2020sharing/"},"url":"https://learning2hash.github.io/publications/milbich2020sharing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ https://ieeexplore.ieee.org/document/9141449</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Sharing Matters For Generalization In Deep Metric Learning",
         conference: "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -300,7 +299,6 @@ https://ieeexplore.ieee.org/document/9141449</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ https://ieeexplore.ieee.org/document/9141449</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

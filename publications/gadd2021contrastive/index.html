@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/gadd2021contrastive/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Contrastive Learning For Unsupervised Radar Place Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We learn, in an unsupervised way, an embedding from sequences of radar images that is suitable for solving the place recognition problem with complex radar data. Our method is based on invariant instance feature learning but is tailored for the task of re-localisation by exploiting for data augmentation the temporal successivity of data as collected by a mobile platform moving through the scene smoothly. We experiment across two prominent urban radar datasets totalling over 400 km of driving and show that we achieve a new radar place recognition state-of-the-art. Specifically, the proposed system proves correct for 98.38% of the queries that it is presented with over a challenging re-localisation sequence, using only the single nearest neighbour in the learned metric space. We also find that our learned model shows better understanding of out-of-lane loop closures at arbitrary orientation than non-learned radar scan descriptors.","headline":"Contrastive Learning For Unsupervised Radar Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gadd2021contrastive/"},"url":"https://learning2hash.github.io/publications/gadd2021contrastive/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We learn, in an unsupervised way, an embedding from sequences of radar images that is suitable for solving the place recognition problem with complex radar data. Our method is based on invariant instance feature learning but is tailored for the task of re-localisation by exploiting for data augmentation the temporal successivity of data as collected by a mobile platform moving through the scene smoothly. We experiment across two prominent urban radar datasets totalling over 400 km of driving and show that we achieve a new radar place recognition state-of-the-art. Specifically, the proposed system proves correct for 98.38% of the queries that it is presented with over a challenging re-localisation sequence, using only the single nearest neighbour in the learned metric space. We also find that our learned model shows better understanding of out-of-lane loop closures at arbitrary orientation than non-learned radar scan descriptors.","headline":"Contrastive Learning For Unsupervised Radar Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gadd2021contrastive/"},"url":"https://learning2hash.github.io/publications/gadd2021contrastive/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +253,6 @@ non-learned radar scan descriptors.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Contrastive Learning For Unsupervised Radar Place Recognition",
         conference: "2021 20th International Conference on Advanced Robotics (ICAR)",
@@ -294,7 +293,6 @@ non-learned radar scan descriptors.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -323,37 +321,38 @@ non-learned radar scan descriptors.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2018semantic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Semantic Cluster Unary Loss For Efficient Deep Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Hashing method maps similar data to binary hashcodes with smaller hamming distance, which has received a broad attention due to its low storage cost and fast retrieval speed. With the rapid development of deep learning, deep hashing methods have achieved promising results in efficient information retrieval. Most of the existing deep hashing methods adopt pairwise or triplet losses to deal with similarities underlying the data, but the training is difficult and less efficient because (O(n^2)) data pairs and (O(n^3)) triplets are involved. To address these issues, we propose a novel deep hashing algorithm with unary loss which can be trained very efficiently. We first of all introduce a Unary Upper Bound of the traditional triplet loss, thus reducing the complexity to (O(n)) and bridging the classification-based unary loss and the triplet loss. Second, we propose a novel Semantic Cluster Deep Hashing (SCDH) algorithm by introducing a modified Unary Upper Bound loss, named Semantic Cluster Unary Loss (SCUL). The resultant hashcodes form several compact clusters, which means hashcodes in the same cluster have similar semantic information. We also demonstrate that the proposed SCDH is easy to be extended to semi-supervised settings by incorporating the state-of-the-art semi-supervised learning algorithms. Experiments on large-scale datasets show that the proposed method is superior to state-of-the-art hashing algorithms.","headline":"Semantic Cluster Unary Loss For Efficient Deep Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2018semantic/"},"url":"https://learning2hash.github.io/publications/zhang2018semantic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Hashing method maps similar data to binary hashcodes with smaller hamming distance, which has received a broad attention due to its low storage cost and fast retrieval speed. With the rapid development of deep learning, deep hashing methods have achieved promising results in efficient information retrieval. Most of the existing deep hashing methods adopt pairwise or triplet losses to deal with similarities underlying the data, but the training is difficult and less efficient because (O(n^2)) data pairs and (O(n^3)) triplets are involved. To address these issues, we propose a novel deep hashing algorithm with unary loss which can be trained very efficiently. We first of all introduce a Unary Upper Bound of the traditional triplet loss, thus reducing the complexity to (O(n)) and bridging the classification-based unary loss and the triplet loss. Second, we propose a novel Semantic Cluster Deep Hashing (SCDH) algorithm by introducing a modified Unary Upper Bound loss, named Semantic Cluster Unary Loss (SCUL). The resultant hashcodes form several compact clusters, which means hashcodes in the same cluster have similar semantic information. We also demonstrate that the proposed SCDH is easy to be extended to semi-supervised settings by incorporating the state-of-the-art semi-supervised learning algorithms. Experiments on large-scale datasets show that the proposed method is superior to state-of-the-art hashing algorithms.","headline":"Semantic Cluster Unary Loss For Efficient Deep Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2018semantic/"},"url":"https://learning2hash.github.io/publications/zhang2018semantic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -269,7 +269,6 @@ is superior to state-of-the-art hashing algorithms.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Semantic Cluster Unary Loss For Efficient Deep Hashing",
         conference: "IEEE Transactions on Image Processing",
@@ -310,7 +309,6 @@ is superior to state-of-the-art hashing algorithms.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -339,37 +337,38 @@ is superior to state-of-the-art hashing algorithms.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

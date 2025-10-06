@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/luo2017arrays/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Arrays Of (locality-sensitive) Count Estimators (ACE): High-speed Anomaly Detection Via Cache Lookups" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Anomaly detection is one of the frequent and important subroutines deployed in large-scale data processing systems. Even being a well-studied topic, existing techniques for unsupervised anomaly detection require storing significant amounts of data, which is prohibitive from memory and latency perspective. In the big-data world existing methods fail to address the new set of memory and latency constraints. In this paper, we propose ACE (Arrays of (locality-sensitive) Count Estimators) algorithm that can be 60x faster than the ELKI package~\\cite{DBLP:conf/ssd/AchtertBKSZ09}, which has the fastest implementation of the unsupervised anomaly detection algorithms. ACE algorithm requires less than (4MB) memory, to dynamically compress the full data information into a set of count arrays. These tiny (4MB) arrays of counts are sufficient for unsupervised anomaly detection. At the core of the ACE algorithm, there is a novel statistical estimator which is derived from the sampling view of Locality Sensitive Hashing(LSH). This view is significantly different and efficient than the widely popular view of LSH for near-neighbor search. We show the superiority of ACE algorithm over 11 popular baselines on 3 benchmark datasets, including the KDD-Cup99 data which is the largest available benchmark comprising of more than half a million entries with ground truth anomaly labels.","headline":"Arrays Of (locality-sensitive) Count Estimators (ACE): High-speed Anomaly Detection Via Cache Lookups","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/luo2017arrays/"},"url":"https://learning2hash.github.io/publications/luo2017arrays/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Anomaly detection is one of the frequent and important subroutines deployed in large-scale data processing systems. Even being a well-studied topic, existing techniques for unsupervised anomaly detection require storing significant amounts of data, which is prohibitive from memory and latency perspective. In the big-data world existing methods fail to address the new set of memory and latency constraints. In this paper, we propose ACE (Arrays of (locality-sensitive) Count Estimators) algorithm that can be 60x faster than the ELKI package~\\cite{DBLP:conf/ssd/AchtertBKSZ09}, which has the fastest implementation of the unsupervised anomaly detection algorithms. ACE algorithm requires less than (4MB) memory, to dynamically compress the full data information into a set of count arrays. These tiny (4MB) arrays of counts are sufficient for unsupervised anomaly detection. At the core of the ACE algorithm, there is a novel statistical estimator which is derived from the sampling view of Locality Sensitive Hashing(LSH). This view is significantly different and efficient than the widely popular view of LSH for near-neighbor search. We show the superiority of ACE algorithm over 11 popular baselines on 3 benchmark datasets, including the KDD-Cup99 data which is the largest available benchmark comprising of more than half a million entries with ground truth anomaly labels.","headline":"Arrays Of (locality-sensitive) Count Estimators (ACE): High-speed Anomaly Detection Via Cache Lookups","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/luo2017arrays/"},"url":"https://learning2hash.github.io/publications/luo2017arrays/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -265,7 +265,6 @@ anomaly labels.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Arrays Of (locality-sensitive) Count Estimators (ACE): High-speed Anomaly Detection Via Cache Lookups",
         conference: "Arxiv",
@@ -306,7 +305,6 @@ anomaly labels.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -335,37 +333,38 @@ anomaly labels.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

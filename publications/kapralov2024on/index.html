@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kapralov2024on/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="On The Adversarial Robustness Of Locality-sensitive Hashing In Hamming Space" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Locality-sensitive hashing~[Indyk,Motwani’98] is a classical data structure for approximate nearest neighbor search. It allows, after a close to linear time preprocessing of the input dataset, to find an approximately nearest neighbor of any fixed query in sublinear time in the dataset size. The resulting data structure is randomized and succeeds with high probability for every fixed query. In many modern applications of nearest neighbor search the queries are chosen adaptively. In this paper, we study the robustness of the locality-sensitive hashing to adaptive queries in Hamming space. We present a simple adversary that can, under mild assumptions on the initial point set, provably find a query to the approximate near neighbor search data structure that the data structure fails on. Crucially, our adaptive algorithm finds the hard query exponentially faster than random sampling.","headline":"On The Adversarial Robustness Of Locality-sensitive Hashing In Hamming Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kapralov2024on/"},"url":"https://learning2hash.github.io/publications/kapralov2024on/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Locality-sensitive hashing~[Indyk,Motwani’98] is a classical data structure for approximate nearest neighbor search. It allows, after a close to linear time preprocessing of the input dataset, to find an approximately nearest neighbor of any fixed query in sublinear time in the dataset size. The resulting data structure is randomized and succeeds with high probability for every fixed query. In many modern applications of nearest neighbor search the queries are chosen adaptively. In this paper, we study the robustness of the locality-sensitive hashing to adaptive queries in Hamming space. We present a simple adversary that can, under mild assumptions on the initial point set, provably find a query to the approximate near neighbor search data structure that the data structure fails on. Crucially, our adaptive algorithm finds the hard query exponentially faster than random sampling.","headline":"On The Adversarial Robustness Of Locality-sensitive Hashing In Hamming Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kapralov2024on/"},"url":"https://learning2hash.github.io/publications/kapralov2024on/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +253,6 @@ exponentially faster than random sampling.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "On The Adversarial Robustness Of Locality-sensitive Hashing In Hamming Space",
         conference: "Proceedings of the ACM on Management of Data",
@@ -294,7 +293,6 @@ exponentially faster than random sampling.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -323,37 +321,38 @@ exponentially faster than random sampling.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

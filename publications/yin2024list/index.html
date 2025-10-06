@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yin2024list/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="LIST: Learning To Index Spatio-textual Data For Embedding Based Spatial Keyword Queries" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"With the proliferation of spatio-textual data, Top-k KNN spatial keyword queries (TkQs), which return a list of objects based on a ranking function that considers both spatial and textual relevance, have found many real-life applications. To efficiently handle TkQs, many indexes have been developed, but the effectiveness of TkQ is limited. To improve effectiveness, several deep learning models have recently been proposed, but they suffer severe efficiency issues and there are no efficient indexes specifically designed to accelerate the top-k search process for these deep learning models. To tackle these issues, we consider embedding based spatial keyword queries, which capture the semantic meaning of query keywords and object descriptions in two separate embeddings to evaluate textual relevance. Although various models can be used to generate these embeddings, no indexes have been specifically designed for such queries. To fill this gap, we propose LIST, a novel machine learning based Approximate Nearest Neighbor Search index that Learns to Index the Spatio-Textual data. LIST utilizes a new learning-to-cluster technique to group relevant queries and objects together while separating irrelevant queries and objects. There are two key challenges in building an effective and efficient index, i.e., the absence of high-quality labels and the unbalanced clustering results. We develop a novel pseudo-label generation technique to address the two challenges. Additionally, we introduce a learning based spatial relevance model that can integrates with various text relevance models to form a lightweight yet effective relevance for reranking objects retrieved by LIST.","headline":"LIST: Learning To Index Spatio-textual Data For Embedding Based Spatial Keyword Queries","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yin2024list/"},"url":"https://learning2hash.github.io/publications/yin2024list/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"With the proliferation of spatio-textual data, Top-k KNN spatial keyword queries (TkQs), which return a list of objects based on a ranking function that considers both spatial and textual relevance, have found many real-life applications. To efficiently handle TkQs, many indexes have been developed, but the effectiveness of TkQ is limited. To improve effectiveness, several deep learning models have recently been proposed, but they suffer severe efficiency issues and there are no efficient indexes specifically designed to accelerate the top-k search process for these deep learning models. To tackle these issues, we consider embedding based spatial keyword queries, which capture the semantic meaning of query keywords and object descriptions in two separate embeddings to evaluate textual relevance. Although various models can be used to generate these embeddings, no indexes have been specifically designed for such queries. To fill this gap, we propose LIST, a novel machine learning based Approximate Nearest Neighbor Search index that Learns to Index the Spatio-Textual data. LIST utilizes a new learning-to-cluster technique to group relevant queries and objects together while separating irrelevant queries and objects. There are two key challenges in building an effective and efficient index, i.e., the absence of high-quality labels and the unbalanced clustering results. We develop a novel pseudo-label generation technique to address the two challenges. Additionally, we introduce a learning based spatial relevance model that can integrates with various text relevance models to form a lightweight yet effective relevance for reranking objects retrieved by LIST.","headline":"LIST: Learning To Index Spatio-textual Data For Embedding Based Spatial Keyword Queries","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yin2024list/"},"url":"https://learning2hash.github.io/publications/yin2024list/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ lightweight yet effective relevance for reranking objects retrieved by LIST.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "LIST: Learning To Index Spatio-textual Data For Embedding Based Spatial Keyword Queries",
         conference: "The VLDB Journal",
@@ -303,7 +302,6 @@ lightweight yet effective relevance for reranking objects retrieved by LIST.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ lightweight yet effective relevance for reranking objects retrieved by LIST.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

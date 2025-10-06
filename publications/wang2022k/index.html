@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2022k/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="(k)nn-ner: Named Entity Recognition With Nearest Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Inspired by recent advances in retrieval augmented methods in NLP~\\citep{khandelwal2019generalization,khandelwal2020nearest,meng2021gnn}, in this paper, we introduce a (k) nearest neighbor NER ((k)NN-NER) framework, which augments the distribution of entity labels by assigning (k) nearest neighbors retrieved from the training set. This strategy makes the model more capable of handling long-tail cases, along with better few-shot learning abilities. (k)NN-NER requires no additional operation during the training phase, and by interpolating (k) nearest neighbors search into the vanilla NER model, (k)NN-NER consistently outperforms its vanilla counterparts: we achieve a new state-of-the-art F1-score of 72.03 (+1.25) on the Chinese Weibo dataset and improved results on a variety of widely used NER benchmarks. Additionally, we show that (k)NN-NER can achieve comparable results to the vanilla NER model with 40% less amount of training data. Code available at https://github.com/ShannonAI/KNN-NER.","headline":"(k)nn-ner: Named Entity Recognition With Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2022k/"},"url":"https://learning2hash.github.io/publications/wang2022k/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Inspired by recent advances in retrieval augmented methods in NLP~\\citep{khandelwal2019generalization,khandelwal2020nearest,meng2021gnn}, in this paper, we introduce a (k) nearest neighbor NER ((k)NN-NER) framework, which augments the distribution of entity labels by assigning (k) nearest neighbors retrieved from the training set. This strategy makes the model more capable of handling long-tail cases, along with better few-shot learning abilities. (k)NN-NER requires no additional operation during the training phase, and by interpolating (k) nearest neighbors search into the vanilla NER model, (k)NN-NER consistently outperforms its vanilla counterparts: we achieve a new state-of-the-art F1-score of 72.03 (+1.25) on the Chinese Weibo dataset and improved results on a variety of widely used NER benchmarks. Additionally, we show that (k)NN-NER can achieve comparable results to the vanilla NER model with 40% less amount of training data. Code available at https://github.com/ShannonAI/KNN-NER.","headline":"(k)nn-ner: Named Entity Recognition With Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2022k/"},"url":"https://learning2hash.github.io/publications/wang2022k/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,7 +256,6 @@ https://github.com/ShannonAI/KNN-NER.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "\\(k\\)nn-ner: Named Entity Recognition With Nearest Neighbor Search",
         conference: "Arxiv",
@@ -297,7 +296,6 @@ https://github.com/ShannonAI/KNN-NER.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -326,37 +324,38 @@ https://github.com/ShannonAI/KNN-NER.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

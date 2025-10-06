@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lu2018domain/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Domain-aware SE Network For Sketch-based Image Retrieval With Multiplicative Euclidean Margin Softmax" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"This paper proposes a novel approach for Sketch-Based Image Retrieval (SBIR), for which the key is to bridge the gap between sketches and photos in terms of the data representation. Inspired by channel-wise attention explored in recent years, we present a Domain-Aware Squeeze-and-Excitation (DASE) network, which seamlessly incorporates the prior knowledge of sample sketch or photo into SE module and make the SE module capable of emphasizing appropriate channels according to domain signal. Accordingly, the proposed network can switch its mode to achieve a better domain feature with lower intra-class discrepancy. Moreover, while previous works simply focus on minimizing intra-class distance and maximizing inter-class distance, we introduce a loss function, named Multiplicative Euclidean Margin Softmax (MEMS), which introduces multiplicative Euclidean margin into feature space and ensure that the maximum intra-class distance is smaller than the minimum inter-class distance. This facilitates learning a highly discriminative feature space and ensures a more accurate image retrieval result. Extensive experiments are conducted on two widely used SBIR benchmark datasets. Our approach achieves better results on both datasets, surpassing the state-of-the-art methods by a large margin.","headline":"Domain-aware SE Network For Sketch-based Image Retrieval With Multiplicative Euclidean Margin Softmax","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lu2018domain/"},"url":"https://learning2hash.github.io/publications/lu2018domain/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"This paper proposes a novel approach for Sketch-Based Image Retrieval (SBIR), for which the key is to bridge the gap between sketches and photos in terms of the data representation. Inspired by channel-wise attention explored in recent years, we present a Domain-Aware Squeeze-and-Excitation (DASE) network, which seamlessly incorporates the prior knowledge of sample sketch or photo into SE module and make the SE module capable of emphasizing appropriate channels according to domain signal. Accordingly, the proposed network can switch its mode to achieve a better domain feature with lower intra-class discrepancy. Moreover, while previous works simply focus on minimizing intra-class distance and maximizing inter-class distance, we introduce a loss function, named Multiplicative Euclidean Margin Softmax (MEMS), which introduces multiplicative Euclidean margin into feature space and ensure that the maximum intra-class distance is smaller than the minimum inter-class distance. This facilitates learning a highly discriminative feature space and ensures a more accurate image retrieval result. Extensive experiments are conducted on two widely used SBIR benchmark datasets. Our approach achieves better results on both datasets, surpassing the state-of-the-art methods by a large margin.","headline":"Domain-aware SE Network For Sketch-based Image Retrieval With Multiplicative Euclidean Margin Softmax","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lu2018domain/"},"url":"https://learning2hash.github.io/publications/lu2018domain/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ surpassing the state-of-the-art methods by a large margin.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Domain-aware SE Network For Sketch-based Image Retrieval With Multiplicative Euclidean Margin Softmax",
         conference: "Proceedings of the 29th ACM International Conference on Multimedia",
@@ -298,7 +297,6 @@ surpassing the state-of-the-art methods by a large margin.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ surpassing the state-of-the-art methods by a large margin.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhu2018attention/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Attention-based Pyramid Aggregation Network For Visual Place Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Visual place recognition is challenging in the urban environment and is usually viewed as a large scale image retrieval task. The intrinsic challenges in place recognition exist that the confusing objects such as cars and trees frequently occur in the complex urban scene, and buildings with repetitive structures may cause over-counting and the burstiness problem degrading the image representations. To address these problems, we present an Attention-based Pyramid Aggregation Network (APANet), which is trained in an end-to-end manner for place recognition. One main component of APANet, the spatial pyramid pooling, can effectively encode the multi-size buildings containing geo-information. The other one, the attention block, is adopted as a region evaluator for suppressing the confusing regional features while highlighting the discriminative ones. When testing, we further propose a simple yet effective PCA power whitening strategy, which significantly improves the widely used PCA whitening by reasonably limiting the impact of over-counting. Experimental evaluations demonstrate that the proposed APANet outperforms the state-of-the-art methods on two place recognition benchmarks, and generalizes well on standard image retrieval datasets.","headline":"Attention-based Pyramid Aggregation Network For Visual Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2018attention/"},"url":"https://learning2hash.github.io/publications/zhu2018attention/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Visual place recognition is challenging in the urban environment and is usually viewed as a large scale image retrieval task. The intrinsic challenges in place recognition exist that the confusing objects such as cars and trees frequently occur in the complex urban scene, and buildings with repetitive structures may cause over-counting and the burstiness problem degrading the image representations. To address these problems, we present an Attention-based Pyramid Aggregation Network (APANet), which is trained in an end-to-end manner for place recognition. One main component of APANet, the spatial pyramid pooling, can effectively encode the multi-size buildings containing geo-information. The other one, the attention block, is adopted as a region evaluator for suppressing the confusing regional features while highlighting the discriminative ones. When testing, we further propose a simple yet effective PCA power whitening strategy, which significantly improves the widely used PCA whitening by reasonably limiting the impact of over-counting. Experimental evaluations demonstrate that the proposed APANet outperforms the state-of-the-art methods on two place recognition benchmarks, and generalizes well on standard image retrieval datasets.","headline":"Attention-based Pyramid Aggregation Network For Visual Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2018attention/"},"url":"https://learning2hash.github.io/publications/zhu2018attention/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ well on standard image retrieval datasets.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Attention-based Pyramid Aggregation Network For Visual Place Recognition",
         conference: "Proceedings of the 26th ACM international conference on Multimedia",
@@ -296,7 +295,6 @@ well on standard image retrieval datasets.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ well on standard image retrieval datasets.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

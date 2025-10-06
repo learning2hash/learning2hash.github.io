@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/elGeish2019learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Joint Acoustic-phonetic Word Embeddings" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Most speech recognition tasks pertain to mapping words across two modalities: acoustic and orthographic. In this work, we suggest learning encoders that map variable-length, acoustic or phonetic, sequences that represent words into fixed-dimensional vectors in a shared latent space; such that the distance between two word vectors represents how closely the two words sound. Instead of directly learning the distances between word vectors, we employ weak supervision and model a binary classification task to predict whether two inputs, one of each modality, represent the same word given a distance threshold. We explore various deep-learning models, bimodal contrastive losses, and techniques for mining hard negative examples such as the semi-supervised technique of self-labeling. Our best model achieves an (F_1) score of 0.95 for the binary classification task.","headline":"Learning Joint Acoustic-phonetic Word Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/elGeish2019learning/"},"url":"https://learning2hash.github.io/publications/elGeish2019learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Most speech recognition tasks pertain to mapping words across two modalities: acoustic and orthographic. In this work, we suggest learning encoders that map variable-length, acoustic or phonetic, sequences that represent words into fixed-dimensional vectors in a shared latent space; such that the distance between two word vectors represents how closely the two words sound. Instead of directly learning the distances between word vectors, we employ weak supervision and model a binary classification task to predict whether two inputs, one of each modality, represent the same word given a distance threshold. We explore various deep-learning models, bimodal contrastive losses, and techniques for mining hard negative examples such as the semi-supervised technique of self-labeling. Our best model achieves an (F_1) score of 0.95 for the binary classification task.","headline":"Learning Joint Acoustic-phonetic Word Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/elGeish2019learning/"},"url":"https://learning2hash.github.io/publications/elGeish2019learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,7 +252,6 @@ the binary classification task.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Learning Joint Acoustic-phonetic Word Embeddings",
         conference: "Arxiv",
@@ -293,7 +292,6 @@ the binary classification task.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -322,37 +320,38 @@ the binary classification task.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

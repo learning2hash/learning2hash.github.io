@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ahle2017optimal/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Optimal Las Vegas Locality Sensitive Data Structures" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We show that approximate similarity (near neighbour) search can be solved in high dimensions with performance matching state of the art (data independent) Locality Sensitive Hashing, but with a guarantee of no false negatives. Specifically, we give two data structures for common problems. For (c)-approximate near neighbour in Hamming space we get query time (dn^{1/c+o(1)}) and space (dn^{1+1/c+o(1)}) matching that of \\cite{indyk1998approximate} and answering a long standing open question from~\\cite{indyk2000dimensionality} and~\\cite{pagh2016locality} in the affirmative. By means of a new deterministic reduction from (\\ell_1) to Hamming we also solve (\\ell_1) and (ℓ₂) with query time (d^2n^{1/c+o(1)}) and space (d^2 n^{1+1/c+o(1)}). For ((s_1,s_2))-approximate Jaccard similarity we get query time (dn^{\\rho+o(1)}) and space (dn^{1+\\rho+o(1)}), (\\rho=log\\frac{1+s_1}{2s_1}\\big/log\\frac{1+s_2}{2s_2}), when sets have equal size, matching the performance of~\\cite{tobias2016}. The algorithms are based on space partitions, as with classic LSH, but we construct these using a combination of brute force, tensoring, perfect hashing and splitter functions `a la~\\cite{naor1995splitters}. We also show a new dimensionality reduction lemma with 1-sided error.","headline":"Optimal Las Vegas Locality Sensitive Data Structures","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ahle2017optimal/"},"url":"https://learning2hash.github.io/publications/ahle2017optimal/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We show that approximate similarity (near neighbour) search can be solved in high dimensions with performance matching state of the art (data independent) Locality Sensitive Hashing, but with a guarantee of no false negatives. Specifically, we give two data structures for common problems. For (c)-approximate near neighbour in Hamming space we get query time (dn^{1/c+o(1)}) and space (dn^{1+1/c+o(1)}) matching that of \\cite{indyk1998approximate} and answering a long standing open question from~\\cite{indyk2000dimensionality} and~\\cite{pagh2016locality} in the affirmative. By means of a new deterministic reduction from (\\ell_1) to Hamming we also solve (\\ell_1) and (ℓ₂) with query time (d^2n^{1/c+o(1)}) and space (d^2 n^{1+1/c+o(1)}). For ((s_1,s_2))-approximate Jaccard similarity we get query time (dn^{\\rho+o(1)}) and space (dn^{1+\\rho+o(1)}), (\\rho=log\\frac{1+s_1}{2s_1}\\big/log\\frac{1+s_2}{2s_2}), when sets have equal size, matching the performance of~\\cite{tobias2016}. The algorithms are based on space partitions, as with classic LSH, but we construct these using a combination of brute force, tensoring, perfect hashing and splitter functions `a la~\\cite{naor1995splitters}. We also show a new dimensionality reduction lemma with 1-sided error.","headline":"Optimal Las Vegas Locality Sensitive Data Structures","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ahle2017optimal/"},"url":"https://learning2hash.github.io/publications/ahle2017optimal/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ dimensionality reduction lemma with 1-sided error.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Optimal Las Vegas Locality Sensitive Data Structures",
         conference: "2017 IEEE 58th Annual Symposium on Foundations of Computer Science (FOCS)",
@@ -303,7 +302,6 @@ dimensionality reduction lemma with 1-sided error.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ dimensionality reduction lemma with 1-sided error.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

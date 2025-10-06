@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jiffriya2014plagiarism/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Plagiarism Detection On Electronic Text Based Assignments Using Vector Space Model (iciafs14)" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Plagiarism is known as illegal use of others’ part of work or whole work as one’s own in any field such as art, poetry, literature, cinema, research and other creative forms of study. Plagiarism is one of the important issues in academic and research fields and giving more concern in academic systems. The situation is even worse with the availability of ample resources on the web. This paper focuses on an effective plagiarism detection tool on identifying suitable intra-corpal plagiarism detection for text based assignments by comparing unigram, bigram, trigram of vector space model with cosine similarity measure. Manually evaluated, labelled dataset was tested using unigram, bigram and trigram vector. Even though trigram vector consumes comparatively more time, it shows better results with the labelled data. In addition, the selected trigram vector space model with cosine similarity measure is compared with tri-gram sequence matching technique with Jaccard measure. In the results, cosine similarity score shows slightly higher values than the other. Because, it focuses on giving more weight for terms that do not frequently exist in the dataset and cosine similarity measure using trigram technique is more preferable than the other. Therefore, we present our new tool and it could be used as an effective tool to evaluate text based electronic assignments and minimize the plagiarism among students.","headline":"Plagiarism Detection On Electronic Text Based Assignments Using Vector Space Model (iciafs14)","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jiffriya2014plagiarism/"},"url":"https://learning2hash.github.io/publications/jiffriya2014plagiarism/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Plagiarism is known as illegal use of others’ part of work or whole work as one’s own in any field such as art, poetry, literature, cinema, research and other creative forms of study. Plagiarism is one of the important issues in academic and research fields and giving more concern in academic systems. The situation is even worse with the availability of ample resources on the web. This paper focuses on an effective plagiarism detection tool on identifying suitable intra-corpal plagiarism detection for text based assignments by comparing unigram, bigram, trigram of vector space model with cosine similarity measure. Manually evaluated, labelled dataset was tested using unigram, bigram and trigram vector. Even though trigram vector consumes comparatively more time, it shows better results with the labelled data. In addition, the selected trigram vector space model with cosine similarity measure is compared with tri-gram sequence matching technique with Jaccard measure. In the results, cosine similarity score shows slightly higher values than the other. Because, it focuses on giving more weight for terms that do not frequently exist in the dataset and cosine similarity measure using trigram technique is more preferable than the other. Therefore, we present our new tool and it could be used as an effective tool to evaluate text based electronic assignments and minimize the plagiarism among students.","headline":"Plagiarism Detection On Electronic Text Based Assignments Using Vector Space Model (iciafs14)","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jiffriya2014plagiarism/"},"url":"https://learning2hash.github.io/publications/jiffriya2014plagiarism/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ minimize the plagiarism among students.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Plagiarism Detection On Electronic Text Based Assignments Using Vector Space Model (iciafs14)",
         conference: "Arxiv",
@@ -298,7 +297,6 @@ minimize the plagiarism among students.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ minimize the plagiarism among students.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

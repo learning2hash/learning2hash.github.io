@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/shoib2023methods/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Methods And Advancement Of Content-based Fashion Image Retrieval: A Review" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Content-based fashion image retrieval (CBFIR) has been widely used in our daily life for searching fashion images or items from online platforms. In e-commerce purchasing, the CBFIR system can retrieve fashion items or products with the same or comparable features when a consumer uploads a reference image, image with text, sketch or visual stream from their daily life. This lowers the CBFIR system reliance on text and allows for a more accurate and direct searching of the desired fashion product. Considering recent developments, CBFIR still has limits when it comes to visual searching in the real world due to the simultaneous availability of multiple fashion items, occlusion of fashion products, and shape deformation. This paper focuses on CBFIR methods with the guidance of images, images with text, sketches, and videos. Accordingly, we categorized CBFIR methods into four main categories, i.e., image-guided CBFIR (with the addition of attributes and styles), image and text-guided, sketch-guided, and video-guided CBFIR methods. The baseline methodologies have been thoroughly analyzed, and the most recent developments in CBFIR over the past six years (2017 to 2022) have been thoroughly examined. Finally, key issues are highlighted for CBFIR with promising directions for future research.","headline":"Methods And Advancement Of Content-based Fashion Image Retrieval: A Review","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shoib2023methods/"},"url":"https://learning2hash.github.io/publications/shoib2023methods/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Content-based fashion image retrieval (CBFIR) has been widely used in our daily life for searching fashion images or items from online platforms. In e-commerce purchasing, the CBFIR system can retrieve fashion items or products with the same or comparable features when a consumer uploads a reference image, image with text, sketch or visual stream from their daily life. This lowers the CBFIR system reliance on text and allows for a more accurate and direct searching of the desired fashion product. Considering recent developments, CBFIR still has limits when it comes to visual searching in the real world due to the simultaneous availability of multiple fashion items, occlusion of fashion products, and shape deformation. This paper focuses on CBFIR methods with the guidance of images, images with text, sketches, and videos. Accordingly, we categorized CBFIR methods into four main categories, i.e., image-guided CBFIR (with the addition of attributes and styles), image and text-guided, sketch-guided, and video-guided CBFIR methods. The baseline methodologies have been thoroughly analyzed, and the most recent developments in CBFIR over the past six years (2017 to 2022) have been thoroughly examined. Finally, key issues are highlighted for CBFIR with promising directions for future research.","headline":"Methods And Advancement Of Content-based Fashion Image Retrieval: A Review","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shoib2023methods/"},"url":"https://learning2hash.github.io/publications/shoib2023methods/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,7 +256,6 @@ future research.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Methods And Advancement Of Content-based Fashion Image Retrieval: A Review",
         conference: "Arxiv",
@@ -297,7 +296,6 @@ future research.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -326,37 +324,38 @@ future research.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

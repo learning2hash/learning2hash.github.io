@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2025asymmetric/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Asymmetric Visual Semantic Embedding Framework For Efficient Vision-language Alignment" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Learning visual semantic similarity is a critical challenge in bridging the gap between images and texts. However, there exist inherent variations between vision and language data, such as information density, i.e., images can contain textual information from multiple different views, which makes it difficult to compute the similarity between these two modalities accurately and efficiently. In this paper, we propose a novel framework called Asymmetric Visual Semantic Embedding (AVSE) to dynamically select features from various regions of images tailored to different textual inputs for similarity calculation. To capture information from different views in the image, we design a radial bias sampling module to sample image patches and obtain image features from various views, Furthermore, AVSE introduces a novel module for efficient computation of visual semantic similarity between asymmetric image and text embeddings. Central to this module is the presumption of foundational semantic units within the embeddings, denoted as ``meta-semantic embeddings.” It segments all embeddings into meta-semantic embeddings with the same dimension and calculates visual semantic similarity by finding the optimal match of meta-semantic embeddings of two modalities. Our proposed AVSE model is extensively evaluated on the large-scale MS-COCO and Flickr30K datasets, demonstrating its superiority over recent state-of-the-art methods.","headline":"Asymmetric Visual Semantic Embedding Framework For Efficient Vision-language Alignment","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2025asymmetric/"},"url":"https://learning2hash.github.io/publications/liu2025asymmetric/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Learning visual semantic similarity is a critical challenge in bridging the gap between images and texts. However, there exist inherent variations between vision and language data, such as information density, i.e., images can contain textual information from multiple different views, which makes it difficult to compute the similarity between these two modalities accurately and efficiently. In this paper, we propose a novel framework called Asymmetric Visual Semantic Embedding (AVSE) to dynamically select features from various regions of images tailored to different textual inputs for similarity calculation. To capture information from different views in the image, we design a radial bias sampling module to sample image patches and obtain image features from various views, Furthermore, AVSE introduces a novel module for efficient computation of visual semantic similarity between asymmetric image and text embeddings. Central to this module is the presumption of foundational semantic units within the embeddings, denoted as ``meta-semantic embeddings.” It segments all embeddings into meta-semantic embeddings with the same dimension and calculates visual semantic similarity by finding the optimal match of meta-semantic embeddings of two modalities. Our proposed AVSE model is extensively evaluated on the large-scale MS-COCO and Flickr30K datasets, demonstrating its superiority over recent state-of-the-art methods.","headline":"Asymmetric Visual Semantic Embedding Framework For Efficient Vision-language Alignment","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2025asymmetric/"},"url":"https://learning2hash.github.io/publications/liu2025asymmetric/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +261,6 @@ recent state-of-the-art methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Asymmetric Visual Semantic Embedding Framework For Efficient Vision-language Alignment",
         conference: "Proceedings of the AAAI Conference on Artificial Intelligence",
@@ -302,7 +301,6 @@ recent state-of-the-art methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -331,37 +329,38 @@ recent state-of-the-art methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

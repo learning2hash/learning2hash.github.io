@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/fan2023nearest/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Nearest-neighbor Inter-intra Contrastive Learning From Unlabeled Videos" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Contrastive learning has recently narrowed the gap between self-supervised and supervised methods in image and video domain. State-of-the-art video contrastive learning methods such as CVRL and (\\rho)-MoCo spatiotemporally augment two clips from the same video as positives. By only sampling positive clips locally from a single video, these methods neglect other semantically related videos that can also be useful. To address this limitation, we leverage nearest-neighbor videos from the global space as additional positive pairs, thus improving positive key diversity and introducing a more relaxed notion of similarity that extends beyond video and even class boundaries. Our method, Inter-Intra Video Contrastive Learning (IIVCL), improves performance on a range of video tasks.","headline":"Nearest-neighbor Inter-intra Contrastive Learning From Unlabeled Videos","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fan2023nearest/"},"url":"https://learning2hash.github.io/publications/fan2023nearest/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Contrastive learning has recently narrowed the gap between self-supervised and supervised methods in image and video domain. State-of-the-art video contrastive learning methods such as CVRL and (\\rho)-MoCo spatiotemporally augment two clips from the same video as positives. By only sampling positive clips locally from a single video, these methods neglect other semantically related videos that can also be useful. To address this limitation, we leverage nearest-neighbor videos from the global space as additional positive pairs, thus improving positive key diversity and introducing a more relaxed notion of similarity that extends beyond video and even class boundaries. Our method, Inter-Intra Video Contrastive Learning (IIVCL), improves performance on a range of video tasks.","headline":"Nearest-neighbor Inter-intra Contrastive Learning From Unlabeled Videos","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fan2023nearest/"},"url":"https://learning2hash.github.io/publications/fan2023nearest/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -251,7 +251,6 @@ of video tasks.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Nearest-neighbor Inter-intra Contrastive Learning From Unlabeled Videos",
         conference: "Arxiv",
@@ -292,7 +291,6 @@ of video tasks.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -321,37 +319,38 @@ of video tasks.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

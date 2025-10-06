@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/duarte2015bag/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Bag Of Genres For Video Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Often, videos are composed of multiple concepts or even genres. For instance, news videos may contain sports, action, nature, etc. Therefore, encoding the distribution of such concepts/genres in a compact and effective representation is a challenging task. In this sense, we propose the Bag of Genres representation, which is based on a visual dictionary defined by a genre classifier. Each visual word corresponds to a region in the classification space. The Bag of Genres video vector contains a summary of the activations of each genre in the video content. We evaluate the proposed method for video genre retrieval using the dataset of MediaEval Tagging Task of 2012 and for video event retrieval using the EVVE dataset. Results show that the proposed method achieves results comparable or superior to state-of-the-art methods, with the advantage of providing a much more compact representation than existing features.","headline":"Bag Of Genres For Video Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/duarte2015bag/"},"url":"https://learning2hash.github.io/publications/duarte2015bag/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Often, videos are composed of multiple concepts or even genres. For instance, news videos may contain sports, action, nature, etc. Therefore, encoding the distribution of such concepts/genres in a compact and effective representation is a challenging task. In this sense, we propose the Bag of Genres representation, which is based on a visual dictionary defined by a genre classifier. Each visual word corresponds to a region in the classification space. The Bag of Genres video vector contains a summary of the activations of each genre in the video content. We evaluate the proposed method for video genre retrieval using the dataset of MediaEval Tagging Task of 2012 and for video event retrieval using the EVVE dataset. Results show that the proposed method achieves results comparable or superior to state-of-the-art methods, with the advantage of providing a much more compact representation than existing features.","headline":"Bag Of Genres For Video Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/duarte2015bag/"},"url":"https://learning2hash.github.io/publications/duarte2015bag/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +253,6 @@ existing features.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Bag Of Genres For Video Retrieval",
         conference: "2016 29th SIBGRAPI Conference on Graphics, Patterns and Images (SIBGRAPI)",
@@ -294,7 +293,6 @@ existing features.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -323,37 +321,38 @@ existing features.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

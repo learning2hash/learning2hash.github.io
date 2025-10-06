@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ma2023harr/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="HARR: Learning Discriminative And High-quality Hash Codes For Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"This article studies deep unsupervised hashing, which has attracted increasing attention in large-scale image retrieval. The majority of recent approaches usually reconstruct semantic similarity information, which then guides the hash code learning. However, they still fail to achieve satisfactory performance in reality for two reasons. On the one hand, without accurate supervised information, these methods usually fail to produce independent and robust hash codes with semantics information well preserved, which may hinder effective image retrieval. On the other hand, due to discrete constraints, how to effectively optimize the hashing network in an end-to-end manner with small quantization errors remains a problem. To address these difficulties, we propose a novel unsupervised hashing method called HARR to learn discriminative and high-quality hash codes. To comprehensively explore semantic similarity structure, HARR adopts the Winner-Take-All hash to model the similarity structure. Then similarity-preserving hash codes are learned under the reliable guidance of the reconstructed similarity structure. Additionally, we improve the quality of hash codes by a bit correlation reduction module, which forces the cross-correlation matrix between a batch of hash codes under different augmentations to approach the identity matrix. In this way, the generated hash bits are expected to be invariant to disturbances with minimal redundancy, which can be further interpreted as an instantiation of the information bottleneck principle. Finally, for effective hashing network training, we minimize the cosine distances between real-value network outputs and their binary codes for small quantization errors. Extensive experiments demonstrate the effectiveness of our proposed HARR.","headline":"HARR: Learning Discriminative And High-quality Hash Codes For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ma2023harr/"},"url":"https://learning2hash.github.io/publications/ma2023harr/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"This article studies deep unsupervised hashing, which has attracted increasing attention in large-scale image retrieval. The majority of recent approaches usually reconstruct semantic similarity information, which then guides the hash code learning. However, they still fail to achieve satisfactory performance in reality for two reasons. On the one hand, without accurate supervised information, these methods usually fail to produce independent and robust hash codes with semantics information well preserved, which may hinder effective image retrieval. On the other hand, due to discrete constraints, how to effectively optimize the hashing network in an end-to-end manner with small quantization errors remains a problem. To address these difficulties, we propose a novel unsupervised hashing method called HARR to learn discriminative and high-quality hash codes. To comprehensively explore semantic similarity structure, HARR adopts the Winner-Take-All hash to model the similarity structure. Then similarity-preserving hash codes are learned under the reliable guidance of the reconstructed similarity structure. Additionally, we improve the quality of hash codes by a bit correlation reduction module, which forces the cross-correlation matrix between a batch of hash codes under different augmentations to approach the identity matrix. In this way, the generated hash bits are expected to be invariant to disturbances with minimal redundancy, which can be further interpreted as an instantiation of the information bottleneck principle. Finally, for effective hashing network training, we minimize the cosine distances between real-value network outputs and their binary codes for small quantization errors. Extensive experiments demonstrate the effectiveness of our proposed HARR.","headline":"HARR: Learning Discriminative And High-quality Hash Codes For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ma2023harr/"},"url":"https://learning2hash.github.io/publications/ma2023harr/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -251,7 +251,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "HARR: Learning Discriminative And High-quality Hash Codes For Image Retrieval",
         conference: "ACM Transactions on Multimedia Computing, Communications, and Applications",
@@ -292,7 +291,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -321,37 +319,38 @@ document.addEventListener('DOMContentLoaded', function () {
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/pan2020tcdesc/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Tcdesc: Learning Topology Consistent Descriptors" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Triplet loss is widely used for learning local descriptors from image patch. However, triplet loss only minimizes the Euclidean distance between matching descriptors and maximizes that between the non-matching descriptors, which neglects the topology similarity between two descriptor sets. In this paper, we propose topology measure besides Euclidean distance to learn topology consistent descriptors by considering kNN descriptors of positive sample. First we establish a novel topology vector for each descriptor followed by Locally Linear Embedding (LLE) to indicate the topological relation among the descriptor and its kNN descriptors. Then we define topology distance between descriptors as the difference of their topology vectors. Last we employ the dynamic weighting strategy to fuse Euclidean distance and topology distance of matching descriptors and take the fusion result as the positive sample distance in the triplet loss. Experimental results on several benchmarks show that our method performs better than state-of-the-arts results and effectively improves the performance of triplet loss.","headline":"Tcdesc: Learning Topology Consistent Descriptors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pan2020tcdesc/"},"url":"https://learning2hash.github.io/publications/pan2020tcdesc/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Triplet loss is widely used for learning local descriptors from image patch. However, triplet loss only minimizes the Euclidean distance between matching descriptors and maximizes that between the non-matching descriptors, which neglects the topology similarity between two descriptor sets. In this paper, we propose topology measure besides Euclidean distance to learn topology consistent descriptors by considering kNN descriptors of positive sample. First we establish a novel topology vector for each descriptor followed by Locally Linear Embedding (LLE) to indicate the topological relation among the descriptor and its kNN descriptors. Then we define topology distance between descriptors as the difference of their topology vectors. Last we employ the dynamic weighting strategy to fuse Euclidean distance and topology distance of matching descriptors and take the fusion result as the positive sample distance in the triplet loss. Experimental results on several benchmarks show that our method performs better than state-of-the-arts results and effectively improves the performance of triplet loss.","headline":"Tcdesc: Learning Topology Consistent Descriptors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pan2020tcdesc/"},"url":"https://learning2hash.github.io/publications/pan2020tcdesc/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +253,6 @@ the performance of triplet loss.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Tcdesc: Learning Topology Consistent Descriptors",
         conference: "Arxiv",
@@ -294,7 +293,6 @@ the performance of triplet loss.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -323,37 +321,38 @@ the performance of triplet loss.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

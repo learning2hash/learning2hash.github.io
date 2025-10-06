@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/moskalenko2020scalable/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Scalable Recommendation Of Wikipedia Articles To Editors Using Representation Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Wikipedia is edited by volunteer editors around the world. Considering the large amount of existing content (e.g. over 5M articles in English Wikipedia), deciding what to edit next can be difficult, both for experienced users that usually have a huge backlog of articles to prioritize, as well as for newcomers who that might need guidance in selecting the next article to contribute. Therefore, helping editors to find relevant articles should improve their performance and help in the retention of new editors. In this paper, we address the problem of recommending relevant articles to editors. To do this, we develop a scalable system on top of Graph Convolutional Networks and Doc2Vec, learning how to represent Wikipedia articles and deliver personalized recommendations for editors. We test our model on editors’ histories, predicting their most recent edits based on their prior edits. We outperform competitive implicit-feedback collaborative-filtering methods such as WMRF based on ALS, as well as a traditional IR-method such as content-based filtering based on BM25. All of the data used on this paper is publicly available, including graph embeddings for Wikipedia articles, and we release our code to support replication of our experiments. Moreover, we contribute with a scalable implementation of a state-of-art graph embedding algorithm as current ones cannot efficiently handle the sheer size of the Wikipedia graph.","headline":"Scalable Recommendation Of Wikipedia Articles To Editors Using Representation Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/moskalenko2020scalable/"},"url":"https://learning2hash.github.io/publications/moskalenko2020scalable/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Wikipedia is edited by volunteer editors around the world. Considering the large amount of existing content (e.g. over 5M articles in English Wikipedia), deciding what to edit next can be difficult, both for experienced users that usually have a huge backlog of articles to prioritize, as well as for newcomers who that might need guidance in selecting the next article to contribute. Therefore, helping editors to find relevant articles should improve their performance and help in the retention of new editors. In this paper, we address the problem of recommending relevant articles to editors. To do this, we develop a scalable system on top of Graph Convolutional Networks and Doc2Vec, learning how to represent Wikipedia articles and deliver personalized recommendations for editors. We test our model on editors’ histories, predicting their most recent edits based on their prior edits. We outperform competitive implicit-feedback collaborative-filtering methods such as WMRF based on ALS, as well as a traditional IR-method such as content-based filtering based on BM25. All of the data used on this paper is publicly available, including graph embeddings for Wikipedia articles, and we release our code to support replication of our experiments. Moreover, we contribute with a scalable implementation of a state-of-art graph embedding algorithm as current ones cannot efficiently handle the sheer size of the Wikipedia graph.","headline":"Scalable Recommendation Of Wikipedia Articles To Editors Using Representation Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/moskalenko2020scalable/"},"url":"https://learning2hash.github.io/publications/moskalenko2020scalable/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ current ones cannot efficiently handle the sheer size of the Wikipedia graph.</p
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Scalable Recommendation Of Wikipedia Articles To Editors Using Representation Learning",
         conference: "ComplexRec 2020 Workshop on Recommendation in Complex Scenarios at the ACM RecSys Conference on Recommender Systems (RecSys 2020)",
@@ -298,7 +297,6 @@ current ones cannot efficiently handle the sheer size of the Wikipedia graph.</p
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ current ones cannot efficiently handle the sheer size of the Wikipedia graph.</p
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

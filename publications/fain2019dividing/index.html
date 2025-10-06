@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/fain2019dividing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Dividing And Conquering Cross-modal Recipe Retrieval: From Nearest Neighbours Baselines To Sota" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We propose a novel non-parametric method for cross-modal recipe retrieval which is applied on top of precomputed image and text embeddings. By combining our method with standard approaches for building image and text encoders, trained independently with a self-supervised classification objective, we create a baseline model which outperforms most existing methods on a challenging image-to-recipe task. We also use our method for comparing image and text encoders trained using different modern approaches, thus addressing the issues hindering the development of novel methods for cross-modal recipe retrieval. We demonstrate how to use the insights from model comparison and extend our baseline model with standard triplet loss that improves state-of-the-art on the Recipe1M dataset by a large margin, while using only precomputed features and with much less complexity than existing methods. Further, our approach readily generalizes beyond recipe retrieval to other challenging domains, achieving state-of-the-art performance on Politics and GoodNews cross-modal retrieval tasks.","headline":"Dividing And Conquering Cross-modal Recipe Retrieval: From Nearest Neighbours Baselines To Sota","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fain2019dividing/"},"url":"https://learning2hash.github.io/publications/fain2019dividing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We propose a novel non-parametric method for cross-modal recipe retrieval which is applied on top of precomputed image and text embeddings. By combining our method with standard approaches for building image and text encoders, trained independently with a self-supervised classification objective, we create a baseline model which outperforms most existing methods on a challenging image-to-recipe task. We also use our method for comparing image and text encoders trained using different modern approaches, thus addressing the issues hindering the development of novel methods for cross-modal recipe retrieval. We demonstrate how to use the insights from model comparison and extend our baseline model with standard triplet loss that improves state-of-the-art on the Recipe1M dataset by a large margin, while using only precomputed features and with much less complexity than existing methods. Further, our approach readily generalizes beyond recipe retrieval to other challenging domains, achieving state-of-the-art performance on Politics and GoodNews cross-modal retrieval tasks.","headline":"Dividing And Conquering Cross-modal Recipe Retrieval: From Nearest Neighbours Baselines To Sota","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fain2019dividing/"},"url":"https://learning2hash.github.io/publications/fain2019dividing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +261,6 @@ GoodNews cross-modal retrieval tasks.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Dividing And Conquering Cross-modal Recipe Retrieval: From Nearest Neighbours Baselines To Sota",
         conference: "Arxiv",
@@ -302,7 +301,6 @@ GoodNews cross-modal retrieval tasks.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -331,37 +329,38 @@ GoodNews cross-modal retrieval tasks.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

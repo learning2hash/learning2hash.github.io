@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2016generalized/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Generalized Residual Vector Quantization For Large Scale Data" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Vector quantization is an essential tool for tasks involving large scale data, for example, large scale similarity search, which is crucial for content-based information retrieval and analysis. In this paper, we propose a novel vector quantization framework that iteratively minimizes quantization error. First, we provide a detailed review on a relevant vector quantization method named \\textit{residual vector quantization} (RVQ). Next, we propose \\textit{generalized residual vector quantization} (GRVQ) to further improve over RVQ. Many vector quantization methods can be viewed as the special cases of our proposed framework. We evaluate GRVQ on several large scale benchmark datasets for large scale search, classification and object retrieval. We compared GRVQ with existing methods in detail. Extensive experiments demonstrate our GRVQ framework substantially outperforms existing methods in term of quantization accuracy and computation efficiency.","headline":"Generalized Residual Vector Quantization For Large Scale Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2016generalized/"},"url":"https://learning2hash.github.io/publications/liu2016generalized/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Vector quantization is an essential tool for tasks involving large scale data, for example, large scale similarity search, which is crucial for content-based information retrieval and analysis. In this paper, we propose a novel vector quantization framework that iteratively minimizes quantization error. First, we provide a detailed review on a relevant vector quantization method named \\textit{residual vector quantization} (RVQ). Next, we propose \\textit{generalized residual vector quantization} (GRVQ) to further improve over RVQ. Many vector quantization methods can be viewed as the special cases of our proposed framework. We evaluate GRVQ on several large scale benchmark datasets for large scale search, classification and object retrieval. We compared GRVQ with existing methods in detail. Extensive experiments demonstrate our GRVQ framework substantially outperforms existing methods in term of quantization accuracy and computation efficiency.","headline":"Generalized Residual Vector Quantization For Large Scale Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2016generalized/"},"url":"https://learning2hash.github.io/publications/liu2016generalized/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +261,6 @@ term of quantization accuracy and computation efficiency.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Generalized Residual Vector Quantization For Large Scale Data",
         conference: "2016 IEEE International Conference on Multimedia and Expo (ICME)",
@@ -302,7 +301,6 @@ term of quantization accuracy and computation efficiency.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -331,37 +329,38 @@ term of quantization accuracy and computation efficiency.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

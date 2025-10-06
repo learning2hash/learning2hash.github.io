@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/christiani2020dartminhash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Dartminhash: Fast Sketching For Weighted Sets" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Weighted minwise hashing is a standard dimensionality reduction technique with applications to similarity search and large-scale kernel machines. We introduce a simple algorithm that takes a weighted set (x \\in \\mathbb{R}{\\geq 0}^{d}) and computes (k) independent minhashes in expected time (O(k log k + \\Vert x \\Vert{0}log( \\Vert x \\Vert_1 + 1/\\Vert x \\Vert_1))), improving upon the state-of-the-art BagMinHash algorithm (KDD ‘18) and representing the fastest weighted minhash algorithm for sparse data. Our experiments show running times that scale better with (k) and (\\Vert x \\Vert_0) compared to ICWS (ICDM ‘10) and BagMinhash, obtaining (10)x speedups in common use cases. Our approach also gives rise to a technique for computing fully independent locality-sensitive hash values for ((L, K))-parameterized approximate near neighbor search under weighted Jaccard similarity in optimal expected time (O(LK + \\Vert x \\Vert_0)), improving on prior work even in the case of unweighted sets.","headline":"Dartminhash: Fast Sketching For Weighted Sets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/christiani2020dartminhash/"},"url":"https://learning2hash.github.io/publications/christiani2020dartminhash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Weighted minwise hashing is a standard dimensionality reduction technique with applications to similarity search and large-scale kernel machines. We introduce a simple algorithm that takes a weighted set (x \\in \\mathbb{R}{\\geq 0}^{d}) and computes (k) independent minhashes in expected time (O(k log k + \\Vert x \\Vert{0}log( \\Vert x \\Vert_1 + 1/\\Vert x \\Vert_1))), improving upon the state-of-the-art BagMinHash algorithm (KDD ‘18) and representing the fastest weighted minhash algorithm for sparse data. Our experiments show running times that scale better with (k) and (\\Vert x \\Vert_0) compared to ICWS (ICDM ‘10) and BagMinhash, obtaining (10)x speedups in common use cases. Our approach also gives rise to a technique for computing fully independent locality-sensitive hash values for ((L, K))-parameterized approximate near neighbor search under weighted Jaccard similarity in optimal expected time (O(LK + \\Vert x \\Vert_0)), improving on prior work even in the case of unweighted sets.","headline":"Dartminhash: Fast Sketching For Weighted Sets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/christiani2020dartminhash/"},"url":"https://learning2hash.github.io/publications/christiani2020dartminhash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,7 +256,6 @@ unweighted sets.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Dartminhash: Fast Sketching For Weighted Sets",
         conference: "Arxiv",
@@ -297,7 +296,6 @@ unweighted sets.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -326,37 +324,38 @@ unweighted sets.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

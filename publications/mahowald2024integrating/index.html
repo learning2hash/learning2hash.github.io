@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/mahowald2024integrating/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Integrating Visual And Textual Inputs For Searching Large-scale Map Collections With CLIP" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Despite the prevalence and historical importance of maps in digital collections, current methods of navigating and exploring map collections are largely restricted to catalog records and structured metadata. In this paper, we explore the potential for interactively searching large-scale map collections using natural language inputs (“maps with sea monsters”), visual inputs (i.e., reverse image search), and multimodal inputs (an example map + “more grayscale”). As a case study, we adopt 562,842 images of maps publicly accessible via the Library of Congress’s API. To accomplish this, we use the mulitmodal Contrastive Language-Image Pre-training (CLIP) machine learning model to generate embeddings for these maps, and we develop code to implement exploratory search capabilities with these input strategies. We present results for example searches created in consultation with staff in the Library of Congress’s Geography and Map Division and describe the strengths, weaknesses, and possibilities for these search queries. Moreover, we introduce a fine-tuning dataset of 10,504 map-caption pairs, along with an architecture for fine-tuning a CLIP model on this dataset. To facilitate re-use, we provide all of our code in documented, interactive Jupyter notebooks and place all code into the public domain. Lastly, we discuss the opportunities and challenges for applying these approaches across both digitized and born-digital collections held by galleries, libraries, archives, and museums.","headline":"Integrating Visual And Textual Inputs For Searching Large-scale Map Collections With CLIP","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mahowald2024integrating/"},"url":"https://learning2hash.github.io/publications/mahowald2024integrating/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Despite the prevalence and historical importance of maps in digital collections, current methods of navigating and exploring map collections are largely restricted to catalog records and structured metadata. In this paper, we explore the potential for interactively searching large-scale map collections using natural language inputs (“maps with sea monsters”), visual inputs (i.e., reverse image search), and multimodal inputs (an example map + “more grayscale”). As a case study, we adopt 562,842 images of maps publicly accessible via the Library of Congress’s API. To accomplish this, we use the mulitmodal Contrastive Language-Image Pre-training (CLIP) machine learning model to generate embeddings for these maps, and we develop code to implement exploratory search capabilities with these input strategies. We present results for example searches created in consultation with staff in the Library of Congress’s Geography and Map Division and describe the strengths, weaknesses, and possibilities for these search queries. Moreover, we introduce a fine-tuning dataset of 10,504 map-caption pairs, along with an architecture for fine-tuning a CLIP model on this dataset. To facilitate re-use, we provide all of our code in documented, interactive Jupyter notebooks and place all code into the public domain. Lastly, we discuss the opportunities and challenges for applying these approaches across both digitized and born-digital collections held by galleries, libraries, archives, and museums.","headline":"Integrating Visual And Textual Inputs For Searching Large-scale Map Collections With CLIP","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mahowald2024integrating/"},"url":"https://learning2hash.github.io/publications/mahowald2024integrating/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ held by galleries, libraries, archives, and museums.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Integrating Visual And Textual Inputs For Searching Large-scale Map Collections With CLIP",
         conference: "Arxiv",
@@ -305,7 +304,6 @@ held by galleries, libraries, archives, and museums.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ held by galleries, libraries, archives, and museums.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

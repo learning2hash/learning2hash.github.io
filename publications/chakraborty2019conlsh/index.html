@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chakraborty2019conlsh/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Conlsh: Context Based Locality Sensitive Hashing For Mapping Of Noisy SMRT Reads" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Single Molecule Real-Time (SMRT) sequencing is a recent advancement of Next Gen technology developed by Pacific Bio (PacBio). It comes with an explosion of long and noisy reads demanding cutting edge research to get most out of it. To deal with the high error probability of SMRT data, a novel contextual Locality Sensitive Hashing (conLSH) based algorithm is proposed in this article, which can effectively align the noisy SMRT reads to the reference genome. Here, sequences are hashed together based not only on their closeness, but also on similarity of context. The algorithm has (\\mathcal{O}(n^{\\rho+1})) space requirement, where (n) is the number of sequences in the corpus and (\\rho) is a constant. The indexing time and querying time are bounded by (\\mathcal{O}( \\frac{n^{\\rho+1} \\cdot \\ln n}{\\ln \\frac{1}{P_2}})) and (\\mathcal{O}(n^\\rho)) respectively, where (P_2 &gt; 0), is a probability value. This algorithm is particularly useful for retrieving similar sequences, a widely used task in biology. The proposed conLSH based aligner is compared with rHAT, popularly used for aligning SMRT reads, and is found to comprehensively beat it in speed as well as in memory requirements. In particular, it takes approximately (24.2%) less processing time, while saving about (70.3%) in peak memory requirement for H.sapiens PacBio dataset.","headline":"Conlsh: Context Based Locality Sensitive Hashing For Mapping Of Noisy SMRT Reads","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chakraborty2019conlsh/"},"url":"https://learning2hash.github.io/publications/chakraborty2019conlsh/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Single Molecule Real-Time (SMRT) sequencing is a recent advancement of Next Gen technology developed by Pacific Bio (PacBio). It comes with an explosion of long and noisy reads demanding cutting edge research to get most out of it. To deal with the high error probability of SMRT data, a novel contextual Locality Sensitive Hashing (conLSH) based algorithm is proposed in this article, which can effectively align the noisy SMRT reads to the reference genome. Here, sequences are hashed together based not only on their closeness, but also on similarity of context. The algorithm has (\\mathcal{O}(n^{\\rho+1})) space requirement, where (n) is the number of sequences in the corpus and (\\rho) is a constant. The indexing time and querying time are bounded by (\\mathcal{O}( \\frac{n^{\\rho+1} \\cdot \\ln n}{\\ln \\frac{1}{P_2}})) and (\\mathcal{O}(n^\\rho)) respectively, where (P_2 &gt; 0), is a probability value. This algorithm is particularly useful for retrieving similar sequences, a widely used task in biology. The proposed conLSH based aligner is compared with rHAT, popularly used for aligning SMRT reads, and is found to comprehensively beat it in speed as well as in memory requirements. In particular, it takes approximately (24.2%) less processing time, while saving about (70.3%) in peak memory requirement for H.sapiens PacBio dataset.","headline":"Conlsh: Context Based Locality Sensitive Hashing For Mapping Of Noisy SMRT Reads","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chakraborty2019conlsh/"},"url":"https://learning2hash.github.io/publications/chakraborty2019conlsh/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -260,7 +260,6 @@ requirement for H.sapiens PacBio dataset.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Conlsh: Context Based Locality Sensitive Hashing For Mapping Of Noisy SMRT Reads",
         conference: "Computational Biology and Chemistry",
@@ -301,7 +300,6 @@ requirement for H.sapiens PacBio dataset.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -330,37 +328,38 @@ requirement for H.sapiens PacBio dataset.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/pratiher2018diving/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Diving Deep Onto Discriminative Ensemble Of Histological Hashing &amp; Class-specific Manifold Learning For Multi-class Breast Carcinoma Taxonomy" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Histopathological images (HI) encrypt resolution dependent heterogeneous textures &amp; diverse color distribution variability, manifesting in micro-structural surface tissue convolutions. Also, inherently high coherency of cancerous cells poses significant challenges to breast cancer (BC) multi-classification. As such, multi-class stratification is sparsely explored &amp; prior work mainly focus on benign &amp; malignant tissue characterization only, which forestalls further quantitative analysis of subordinate classes like adenosis, mucinous carcinoma &amp; fibroadenoma etc, for diagnostic competence. In this work, a fully-automated, near-real-time &amp; computationally inexpensive robust multi-classification deep framework from HI is presented. The proposed scheme employs deep neural network (DNN) aided discriminative ensemble of holistic class-specific manifold learning (CSML) for underlying HI sub-space embedding &amp; HI hashing based local shallow signatures. The model achieves 95.8% accuracy pertinent to multi-classification &amp; 2.8% overall performance improvement &amp; 38.2% enhancement for Lobular carcinoma (LC) sub-class recognition rate as compared to the existing state-of-the-art on well known BreakHis dataset is achieved. Also, 99.3% recognition rate at 200X &amp; a sensitivity of 100% for binary grading at all magnification validates its suitability for clinical deployment in hand-held smart devices.","headline":"Diving Deep Onto Discriminative Ensemble Of Histological Hashing &amp; Class-specific Manifold Learning For Multi-class Breast Carcinoma Taxonomy","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pratiher2018diving/"},"url":"https://learning2hash.github.io/publications/pratiher2018diving/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Histopathological images (HI) encrypt resolution dependent heterogeneous textures &amp; diverse color distribution variability, manifesting in micro-structural surface tissue convolutions. Also, inherently high coherency of cancerous cells poses significant challenges to breast cancer (BC) multi-classification. As such, multi-class stratification is sparsely explored &amp; prior work mainly focus on benign &amp; malignant tissue characterization only, which forestalls further quantitative analysis of subordinate classes like adenosis, mucinous carcinoma &amp; fibroadenoma etc, for diagnostic competence. In this work, a fully-automated, near-real-time &amp; computationally inexpensive robust multi-classification deep framework from HI is presented. The proposed scheme employs deep neural network (DNN) aided discriminative ensemble of holistic class-specific manifold learning (CSML) for underlying HI sub-space embedding &amp; HI hashing based local shallow signatures. The model achieves 95.8% accuracy pertinent to multi-classification &amp; 2.8% overall performance improvement &amp; 38.2% enhancement for Lobular carcinoma (LC) sub-class recognition rate as compared to the existing state-of-the-art on well known BreakHis dataset is achieved. Also, 99.3% recognition rate at 200X &amp; a sensitivity of 100% for binary grading at all magnification validates its suitability for clinical deployment in hand-held smart devices.","headline":"Diving Deep Onto Discriminative Ensemble Of Histological Hashing &amp; Class-specific Manifold Learning For Multi-class Breast Carcinoma Taxonomy","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pratiher2018diving/"},"url":"https://learning2hash.github.io/publications/pratiher2018diving/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ suitability for clinical deployment in hand-held smart devices.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Diving Deep Onto Discriminative Ensemble Of Histological Hashing & Class-specific Manifold Learning For Multi-class Breast Carcinoma Taxonomy",
         conference: "Arxiv",
@@ -304,7 +303,6 @@ suitability for clinical deployment in hand-held smart devices.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ suitability for clinical deployment in hand-held smart devices.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

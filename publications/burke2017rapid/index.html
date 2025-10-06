@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/burke2017rapid/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Rapid Probabilistic Interest Learning From Domain-specific Pairwise Image Comparisons" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"A great deal of work aims to discover large general purpose models of image interest or memorability for visual search and information retrieval. This paper argues that image interest is often domain and user specific, and that efficient mechanisms for learning about this domain-specific image interest as quickly as possible, while limiting the amount of data-labelling required, are often more useful to end-users. This work uses pairwise image comparisons to reduce the labelling burden on these users, and introduces an image interest estimation approach that performs similarly to recent data hungry deep learning approaches trained using pairwise ranking losses. Here, we use a Gaussian process model to interpolate image interest inferred using a Bayesian ranking approach over image features extracted using a pre-trained convolutional neural network. Results show that fitting a Gaussian process in high-dimensional image feature space is not only computationally feasible, but also effective across a broad range of domains. The proposed probabilistic interest estimation approach produces image interests paired with uncertainties that can be used to identify images for which additional labelling is required and measure inference convergence, allowing for sample efficient active model training. Importantly, the probabilistic formulation allows for effective visual search and information retrieval when limited labelling data is available.","headline":"Rapid Probabilistic Interest Learning From Domain-specific Pairwise Image Comparisons","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/burke2017rapid/"},"url":"https://learning2hash.github.io/publications/burke2017rapid/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"A great deal of work aims to discover large general purpose models of image interest or memorability for visual search and information retrieval. This paper argues that image interest is often domain and user specific, and that efficient mechanisms for learning about this domain-specific image interest as quickly as possible, while limiting the amount of data-labelling required, are often more useful to end-users. This work uses pairwise image comparisons to reduce the labelling burden on these users, and introduces an image interest estimation approach that performs similarly to recent data hungry deep learning approaches trained using pairwise ranking losses. Here, we use a Gaussian process model to interpolate image interest inferred using a Bayesian ranking approach over image features extracted using a pre-trained convolutional neural network. Results show that fitting a Gaussian process in high-dimensional image feature space is not only computationally feasible, but also effective across a broad range of domains. The proposed probabilistic interest estimation approach produces image interests paired with uncertainties that can be used to identify images for which additional labelling is required and measure inference convergence, allowing for sample efficient active model training. Importantly, the probabilistic formulation allows for effective visual search and information retrieval when limited labelling data is available.","headline":"Rapid Probabilistic Interest Learning From Domain-specific Pairwise Image Comparisons","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/burke2017rapid/"},"url":"https://learning2hash.github.io/publications/burke2017rapid/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ information retrieval when limited labelling data is available.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Rapid Probabilistic Interest Learning From Domain-specific Pairwise Image Comparisons",
         conference: "Arxiv",
@@ -298,7 +297,6 @@ information retrieval when limited labelling data is available.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ information retrieval when limited labelling data is available.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

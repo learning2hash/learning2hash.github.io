@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lu2021visualsparta/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Visualsparta: An Embarrassingly Simple Approach To Large-scale Text-to-image Search With Weighted Bag-of-words" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Text-to-image retrieval is an essential task in cross-modal information retrieval, i.e., retrieving relevant images from a large and unlabelled dataset given textual queries. In this paper, we propose VisualSparta, a novel (Visual-text Sparse Transformer Matching) model that shows significant improvement in terms of both accuracy and efficiency. VisualSparta is capable of outperforming previous state-of-the-art scalable methods in MSCOCO and Flickr30K. We also show that it achieves substantial retrieving speed advantages, i.e., for a 1 million image index, VisualSparta using CPU gets ~391X speedup compared to CPU vector search and ~5.4X speedup compared to vector search with GPU acceleration. Experiments show that this speed advantage even gets bigger for larger datasets because VisualSparta can be efficiently implemented as an inverted index. To the best of our knowledge, VisualSparta is the first transformer-based text-to-image retrieval model that can achieve real-time searching for large-scale datasets, with significant accuracy improvement compared to previous state-of-the-art methods.","headline":"Visualsparta: An Embarrassingly Simple Approach To Large-scale Text-to-image Search With Weighted Bag-of-words","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lu2021visualsparta/"},"url":"https://learning2hash.github.io/publications/lu2021visualsparta/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Text-to-image retrieval is an essential task in cross-modal information retrieval, i.e., retrieving relevant images from a large and unlabelled dataset given textual queries. In this paper, we propose VisualSparta, a novel (Visual-text Sparse Transformer Matching) model that shows significant improvement in terms of both accuracy and efficiency. VisualSparta is capable of outperforming previous state-of-the-art scalable methods in MSCOCO and Flickr30K. We also show that it achieves substantial retrieving speed advantages, i.e., for a 1 million image index, VisualSparta using CPU gets ~391X speedup compared to CPU vector search and ~5.4X speedup compared to vector search with GPU acceleration. Experiments show that this speed advantage even gets bigger for larger datasets because VisualSparta can be efficiently implemented as an inverted index. To the best of our knowledge, VisualSparta is the first transformer-based text-to-image retrieval model that can achieve real-time searching for large-scale datasets, with significant accuracy improvement compared to previous state-of-the-art methods.","headline":"Visualsparta: An Embarrassingly Simple Approach To Large-scale Text-to-image Search With Weighted Bag-of-words","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lu2021visualsparta/"},"url":"https://learning2hash.github.io/publications/lu2021visualsparta/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ improvement compared to previous state-of-the-art methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Visualsparta: An Embarrassingly Simple Approach To Large-scale Text-to-image Search With Weighted Bag-of-words",
         conference: "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
@@ -300,7 +299,6 @@ improvement compared to previous state-of-the-art methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ improvement compared to previous state-of-the-art methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

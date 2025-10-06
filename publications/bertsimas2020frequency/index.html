@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/bertsimas2020frequency/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Frequency Estimation In Data Streams: Learning The Optimal Hashing Scheme" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We present a novel approach for the problem of frequency estimation in data streams that is based on optimization and machine learning. Contrary to state-of-the-art streaming frequency estimation algorithms, which heavily rely on random hashing to maintain the frequency distribution of the data steam using limited storage, the proposed approach exploits an observed stream prefix to near-optimally hash elements and compress the target frequency distribution. We develop an exact mixed-integer linear optimization formulation, which enables us to compute optimal or near-optimal hashing schemes for elements seen in the observed stream prefix; then, we use machine learning to hash unseen elements. Further, we develop an efficient block coordinate descent algorithm, which, as we empirically show, produces high quality solutions, and, in a special case, we are able to solve the proposed formulation exactly in linear time using dynamic programming. We empirically evaluate the proposed approach both on synthetic datasets and on real-world search query data. We show that the proposed approach outperforms existing approaches by one to two orders of magnitude in terms of its average (per element) estimation error and by 45-90% in terms of its expected magnitude of estimation error.","headline":"Frequency Estimation In Data Streams: Learning The Optimal Hashing Scheme","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bertsimas2020frequency/"},"url":"https://learning2hash.github.io/publications/bertsimas2020frequency/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We present a novel approach for the problem of frequency estimation in data streams that is based on optimization and machine learning. Contrary to state-of-the-art streaming frequency estimation algorithms, which heavily rely on random hashing to maintain the frequency distribution of the data steam using limited storage, the proposed approach exploits an observed stream prefix to near-optimally hash elements and compress the target frequency distribution. We develop an exact mixed-integer linear optimization formulation, which enables us to compute optimal or near-optimal hashing schemes for elements seen in the observed stream prefix; then, we use machine learning to hash unseen elements. Further, we develop an efficient block coordinate descent algorithm, which, as we empirically show, produces high quality solutions, and, in a special case, we are able to solve the proposed formulation exactly in linear time using dynamic programming. We empirically evaluate the proposed approach both on synthetic datasets and on real-world search query data. We show that the proposed approach outperforms existing approaches by one to two orders of magnitude in terms of its average (per element) estimation error and by 45-90% in terms of its expected magnitude of estimation error.","headline":"Frequency Estimation In Data Streams: Learning The Optimal Hashing Scheme","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bertsimas2020frequency/"},"url":"https://learning2hash.github.io/publications/bertsimas2020frequency/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ in terms of its expected magnitude of estimation error.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Frequency Estimation In Data Streams: Learning The Optimal Hashing Scheme",
         conference: "IEEE Transactions on Knowledge and Data Engineering",
@@ -296,7 +295,6 @@ in terms of its expected magnitude of estimation error.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ in terms of its expected magnitude of estimation error.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

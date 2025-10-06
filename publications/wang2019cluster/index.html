@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2019cluster/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Cluster-wise Unsupervised Hashing For Cross-modal Similarity Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Large-scale cross-modal hashing similarity retrieval has attracted more and more attention in modern search applications such as search engines and autopilot, showing great superiority in computation and storage. However, current unsupervised cross-modal hashing methods still have some limitations: (1)many methods relax the discrete constraints to solve the optimization objective which may significantly degrade the retrieval performance;(2)most existing hashing model project heterogenous data into a common latent space, which may always lose sight of diversity in heterogenous data;(3)transforming real-valued data point to binary codes always results in abundant loss of information, producing the suboptimal continuous latent space. To overcome above problems, in this paper, a novel Cluster-wise Unsupervised Hashing (CUH) method is proposed. Specifically, CUH jointly performs the multi-view clustering that projects the original data points from different modalities into its own low-dimensional latent semantic space and finds the cluster centroid points and the common clustering indicators in its own low-dimensional space, and learns the compact hash codes and the corresponding linear hash functions. An discrete optimization framework is developed to learn the unified binary codes across modalities under the guidance cluster-wise code-prototypes. The reasonableness and effectiveness of CUH is well demonstrated by comprehensive experiments on diverse benchmark datasets.","headline":"Cluster-wise Unsupervised Hashing For Cross-modal Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2019cluster/"},"url":"https://learning2hash.github.io/publications/wang2019cluster/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Large-scale cross-modal hashing similarity retrieval has attracted more and more attention in modern search applications such as search engines and autopilot, showing great superiority in computation and storage. However, current unsupervised cross-modal hashing methods still have some limitations: (1)many methods relax the discrete constraints to solve the optimization objective which may significantly degrade the retrieval performance;(2)most existing hashing model project heterogenous data into a common latent space, which may always lose sight of diversity in heterogenous data;(3)transforming real-valued data point to binary codes always results in abundant loss of information, producing the suboptimal continuous latent space. To overcome above problems, in this paper, a novel Cluster-wise Unsupervised Hashing (CUH) method is proposed. Specifically, CUH jointly performs the multi-view clustering that projects the original data points from different modalities into its own low-dimensional latent semantic space and finds the cluster centroid points and the common clustering indicators in its own low-dimensional space, and learns the compact hash codes and the corresponding linear hash functions. An discrete optimization framework is developed to learn the unified binary codes across modalities under the guidance cluster-wise code-prototypes. The reasonableness and effectiveness of CUH is well demonstrated by comprehensive experiments on diverse benchmark datasets.","headline":"Cluster-wise Unsupervised Hashing For Cross-modal Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2019cluster/"},"url":"https://learning2hash.github.io/publications/wang2019cluster/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -274,7 +274,6 @@ comprehensive experiments on diverse benchmark datasets.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Cluster-wise Unsupervised Hashing For Cross-modal Similarity Search",
         conference: "Pattern Recognition",
@@ -315,7 +314,6 @@ comprehensive experiments on diverse benchmark datasets.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -344,37 +342,38 @@ comprehensive experiments on diverse benchmark datasets.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/song2018cross/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Cross-modal Retrieval With Implicit Concept Association" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Traditional cross-modal retrieval assumes explicit association of concepts across modalities, where there is no ambiguity in how the concepts are linked to each other, e.g., when we do the image search with a query “dogs”, we expect to see dog images. In this paper, we consider a different setting for cross-modal retrieval where data from different modalities are implicitly linked via concepts that must be inferred by high-level reasoning; we call this setting implicit concept association. To foster future research in this setting, we present a new dataset containing 47K pairs of animated GIFs and sentences crawled from the web, in which the GIFs depict physical or emotional reactions to the scenarios described in the text (called “reaction GIFs”). We report on a user study showing that, despite the presence of implicit concept association, humans are able to identify video-sentence pairs with matching concepts, suggesting the feasibility of our task. Furthermore, we propose a novel visual-semantic embedding network based on multiple instance learning. Unlike traditional approaches, we compute multiple embeddings from each modality, each representing different concepts, and measure their similarity by considering all possible combinations of visual-semantic embeddings in the framework of multiple instance learning. We evaluate our approach on two video-sentence datasets with explicit and implicit concept association and report competitive results compared to existing approaches on cross-modal retrieval.","headline":"Cross-modal Retrieval With Implicit Concept Association","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/song2018cross/"},"url":"https://learning2hash.github.io/publications/song2018cross/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Traditional cross-modal retrieval assumes explicit association of concepts across modalities, where there is no ambiguity in how the concepts are linked to each other, e.g., when we do the image search with a query “dogs”, we expect to see dog images. In this paper, we consider a different setting for cross-modal retrieval where data from different modalities are implicitly linked via concepts that must be inferred by high-level reasoning; we call this setting implicit concept association. To foster future research in this setting, we present a new dataset containing 47K pairs of animated GIFs and sentences crawled from the web, in which the GIFs depict physical or emotional reactions to the scenarios described in the text (called “reaction GIFs”). We report on a user study showing that, despite the presence of implicit concept association, humans are able to identify video-sentence pairs with matching concepts, suggesting the feasibility of our task. Furthermore, we propose a novel visual-semantic embedding network based on multiple instance learning. Unlike traditional approaches, we compute multiple embeddings from each modality, each representing different concepts, and measure their similarity by considering all possible combinations of visual-semantic embeddings in the framework of multiple instance learning. We evaluate our approach on two video-sentence datasets with explicit and implicit concept association and report competitive results compared to existing approaches on cross-modal retrieval.","headline":"Cross-modal Retrieval With Implicit Concept Association","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/song2018cross/"},"url":"https://learning2hash.github.io/publications/song2018cross/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ retrieval.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Cross-modal Retrieval With Implicit Concept Association",
         conference: "Arxiv",
@@ -304,7 +303,6 @@ retrieval.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ retrieval.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

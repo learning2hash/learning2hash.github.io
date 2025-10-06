@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2023learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Multi-stage Multi-grained Semantic Embeddings For E-commerce Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Retrieving relevant items that match users’ queries from billion-scale corpus forms the core of industrial e-commerce search systems, in which embedding-based retrieval (EBR) methods are prevailing. These methods adopt a two-tower framework to learn embedding vectors for query and item separately and thus leverage efficient approximate nearest neighbor (ANN) search to retrieve relevant items. However, existing EBR methods usually ignore inconsistent user behaviors in industrial multi-stage search systems, resulting in insufficient retrieval efficiency with a low commercial return. To tackle this challenge, we propose to improve EBR methods by learning Multi-level Multi-Grained Semantic Embeddings(MMSE). We propose the multi-stage information mining to exploit the ordered, clicked, unclicked and random sampled items in practical user behavior data, and then capture query-item similarity via a post-fusion strategy. We then propose multi-grained learning objectives that integrate the retrieval loss with global comparison ability and the ranking loss with local comparison ability to generate semantic embeddings. Both experiments on a real-world billion-scale dataset and online A/B tests verify the effectiveness of MMSE in achieving significant performance improvements on metrics such as offline recall and online conversion rate (CVR).","headline":"Learning Multi-stage Multi-grained Semantic Embeddings For E-commerce Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2023learning/"},"url":"https://learning2hash.github.io/publications/wang2023learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Retrieving relevant items that match users’ queries from billion-scale corpus forms the core of industrial e-commerce search systems, in which embedding-based retrieval (EBR) methods are prevailing. These methods adopt a two-tower framework to learn embedding vectors for query and item separately and thus leverage efficient approximate nearest neighbor (ANN) search to retrieve relevant items. However, existing EBR methods usually ignore inconsistent user behaviors in industrial multi-stage search systems, resulting in insufficient retrieval efficiency with a low commercial return. To tackle this challenge, we propose to improve EBR methods by learning Multi-level Multi-Grained Semantic Embeddings(MMSE). We propose the multi-stage information mining to exploit the ordered, clicked, unclicked and random sampled items in practical user behavior data, and then capture query-item similarity via a post-fusion strategy. We then propose multi-grained learning objectives that integrate the retrieval loss with global comparison ability and the ranking loss with local comparison ability to generate semantic embeddings. Both experiments on a real-world billion-scale dataset and online A/B tests verify the effectiveness of MMSE in achieving significant performance improvements on metrics such as offline recall and online conversion rate (CVR).","headline":"Learning Multi-stage Multi-grained Semantic Embeddings For E-commerce Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2023learning/"},"url":"https://learning2hash.github.io/publications/wang2023learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ metrics such as offline recall and online conversion rate (CVR).</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Learning Multi-stage Multi-grained Semantic Embeddings For E-commerce Search",
         conference: "Companion Proceedings of the ACM Web Conference 2023",
@@ -305,7 +304,6 @@ metrics such as offline recall and online conversion rate (CVR).</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ metrics such as offline recall and online conversion rate (CVR).</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

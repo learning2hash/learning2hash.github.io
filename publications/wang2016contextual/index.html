@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2016contextual/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Contextual Visual Similarity" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Measuring visual similarity is critical for image understanding. But what makes two images similar? Most existing work on visual similarity assumes that images are similar because they contain the same object instance or category. However, the reason why images are similar is much more complex. For example, from the perspective of category, a black dog image is similar to a white dog image. However, in terms of color, a black dog image is more similar to a black horse image than the white dog image. This example serves to illustrate that visual similarity is ambiguous but can be made precise when given an explicit contextual perspective. Based on this observation, we propose the concept of contextual visual similarity. To be concrete, we examine the concept of contextual visual similarity in the application domain of image search. Instead of providing only a single image for image similarity search (\\eg, Google image search), we require three images. Given a query image, a second positive image and a third negative image, dissimilar to the first two images, we define a contextualized similarity search criteria. In particular, we learn feature weights over all the feature dimensions of each image such that the distance between the query image and the positive image is small and their distances to the negative image are large after reweighting their features. The learned feature weights encode the contextualized visual similarity specified by the user and can be used for attribute specific image search. We also show the usefulness of our contextualized similarity weighting scheme for different tasks, such as answering visual analogy questions and unsupervised attribute discovery.","headline":"Contextual Visual Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2016contextual/"},"url":"https://learning2hash.github.io/publications/wang2016contextual/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Measuring visual similarity is critical for image understanding. But what makes two images similar? Most existing work on visual similarity assumes that images are similar because they contain the same object instance or category. However, the reason why images are similar is much more complex. For example, from the perspective of category, a black dog image is similar to a white dog image. However, in terms of color, a black dog image is more similar to a black horse image than the white dog image. This example serves to illustrate that visual similarity is ambiguous but can be made precise when given an explicit contextual perspective. Based on this observation, we propose the concept of contextual visual similarity. To be concrete, we examine the concept of contextual visual similarity in the application domain of image search. Instead of providing only a single image for image similarity search (\\eg, Google image search), we require three images. Given a query image, a second positive image and a third negative image, dissimilar to the first two images, we define a contextualized similarity search criteria. In particular, we learn feature weights over all the feature dimensions of each image such that the distance between the query image and the positive image is small and their distances to the negative image are large after reweighting their features. The learned feature weights encode the contextualized visual similarity specified by the user and can be used for attribute specific image search. We also show the usefulness of our contextualized similarity weighting scheme for different tasks, such as answering visual analogy questions and unsupervised attribute discovery.","headline":"Contextual Visual Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2016contextual/"},"url":"https://learning2hash.github.io/publications/wang2016contextual/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ discovery.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Contextual Visual Similarity",
         conference: "Arxiv",
@@ -304,7 +303,6 @@ discovery.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ discovery.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

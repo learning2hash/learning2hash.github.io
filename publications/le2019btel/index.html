@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/le2019btel/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="BTEL: A Binary Tree Encoding Approach For Visual Localization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Visual localization algorithms have achieved significant improvements in performance thanks to recent advances in camera technology and vision-based techniques. However, there remains one critical caveat: all current approaches that are based on image retrieval currently scale at best linearly with the size of the environment with respect to both storage, and consequentially in most approaches, query time. This limitation severely curtails the capability of autonomous systems in a wide range of compute, power, storage, size, weight or cost constrained applications such as drones. In this work, we present a novel binary tree encoding approach for visual localization which can serve as an alternative for existing quantization and indexing techniques. The proposed tree structure allows us to derive a compressed training scheme that achieves sub-linearity in both required storage and inference time. The encoding memory can be easily configured to satisfy different storage constraints. Moreover, our approach is amenable to an optional sequence filtering mechanism to further improve the localization results, while maintaining the same amount of storage. Our system is entirely agnostic to the front-end descriptors, allowing it to be used on top of recent state-of-the-art image representations. Experimental results show that the proposed method significantly outperforms state-of-the-art approaches under limited storage constraints.","headline":"BTEL: A Binary Tree Encoding Approach For Visual Localization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/le2019btel/"},"url":"https://learning2hash.github.io/publications/le2019btel/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Visual localization algorithms have achieved significant improvements in performance thanks to recent advances in camera technology and vision-based techniques. However, there remains one critical caveat: all current approaches that are based on image retrieval currently scale at best linearly with the size of the environment with respect to both storage, and consequentially in most approaches, query time. This limitation severely curtails the capability of autonomous systems in a wide range of compute, power, storage, size, weight or cost constrained applications such as drones. In this work, we present a novel binary tree encoding approach for visual localization which can serve as an alternative for existing quantization and indexing techniques. The proposed tree structure allows us to derive a compressed training scheme that achieves sub-linearity in both required storage and inference time. The encoding memory can be easily configured to satisfy different storage constraints. Moreover, our approach is amenable to an optional sequence filtering mechanism to further improve the localization results, while maintaining the same amount of storage. Our system is entirely agnostic to the front-end descriptors, allowing it to be used on top of recent state-of-the-art image representations. Experimental results show that the proposed method significantly outperforms state-of-the-art approaches under limited storage constraints.","headline":"BTEL: A Binary Tree Encoding Approach For Visual Localization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/le2019btel/"},"url":"https://learning2hash.github.io/publications/le2019btel/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +261,6 @@ state-of-the-art approaches under limited storage constraints.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "BTEL: A Binary Tree Encoding Approach For Visual Localization",
         conference: "IEEE Robotics and Automation Letters",
@@ -302,7 +301,6 @@ state-of-the-art approaches under limited storage constraints.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -331,37 +329,38 @@ state-of-the-art approaches under limited storage constraints.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

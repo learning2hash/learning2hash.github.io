@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wei2021a/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A Semantically-aware Relevance Measure For Content-based Medical Image Retrieval Evaluation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Performance evaluation for Content-Based Image Retrieval (CBIR) remains a crucial but unsolved problem today especially in the medical domain. Various evaluation metrics have been discussed in the literature to solve this problem. Most of the existing metrics (e.g., precision, recall) are adapted from classification tasks which require manual labels as ground truth. However, such labels are often expensive and unavailable in specific thematic domains. Furthermore, medical images are usually associated with (radiological) case reports or annotated with descriptive captions in literature figures, such text contains information that can help to assess CBIR.Several researchers have argued that the medical concepts hidden in the text can serve as the basis for CBIR evaluation purpose. However, these works often consider these medical concepts as independent and isolated labels while in fact the subtle relationships between various concepts are neglected. In this work, we introduce the use of knowledge graphs to measure the distance between various medical concepts and propose a novel relevance measure for the evaluation of CBIR by defining an approximate matching-based relevance score between two sets of medical concepts which allows us to indirectly measure the similarity between medical images.We quantitatively demonstrate the effectiveness and feasibility of our relevance measure using a public dataset.","headline":"A Semantically-aware Relevance Measure For Content-based Medical Image Retrieval Evaluation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wei2021a/"},"url":"https://learning2hash.github.io/publications/wei2021a/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Performance evaluation for Content-Based Image Retrieval (CBIR) remains a crucial but unsolved problem today especially in the medical domain. Various evaluation metrics have been discussed in the literature to solve this problem. Most of the existing metrics (e.g., precision, recall) are adapted from classification tasks which require manual labels as ground truth. However, such labels are often expensive and unavailable in specific thematic domains. Furthermore, medical images are usually associated with (radiological) case reports or annotated with descriptive captions in literature figures, such text contains information that can help to assess CBIR.Several researchers have argued that the medical concepts hidden in the text can serve as the basis for CBIR evaluation purpose. However, these works often consider these medical concepts as independent and isolated labels while in fact the subtle relationships between various concepts are neglected. In this work, we introduce the use of knowledge graphs to measure the distance between various medical concepts and propose a novel relevance measure for the evaluation of CBIR by defining an approximate matching-based relevance score between two sets of medical concepts which allows us to indirectly measure the similarity between medical images.We quantitatively demonstrate the effectiveness and feasibility of our relevance measure using a public dataset.","headline":"A Semantically-aware Relevance Measure For Content-based Medical Image Retrieval Evaluation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wei2021a/"},"url":"https://learning2hash.github.io/publications/wei2021a/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -241,7 +241,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "A Semantically-aware Relevance Measure For Content-based Medical Image Retrieval Evaluation",
         conference: "No Venue",
@@ -282,7 +281,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -311,37 +309,38 @@ document.addEventListener('DOMContentLoaded', function () {
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wu2018where/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Where-and-when To Look: Deep Siamese Attention Networks For Video-based Person Re-identification" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Video-based person re-identification (re-id) is a central application in surveillance systems with significant concern in security. Matching persons across disjoint camera views in their video fragments is inherently challenging due to the large visual variations and uncontrolled frame rates. There are two steps crucial to person re-id, namely discriminative feature learning and metric learning. However, existing approaches consider the two steps independently, and they do not make full use of the temporal and spatial information in videos. In this paper, we propose a Siamese attention architecture that jointly learns spatiotemporal video representations and their similarity metrics. The network extracts local convolutional features from regions of each frame, and enhance their discriminative capability by focusing on distinct regions when measuring the similarity with another pedestrian video. The attention mechanism is embedded into spatial gated recurrent units to selectively propagate relevant features and memorize their spatial dependencies through the network. The model essentially learns which parts (where) from which frames (when) are relevant and distinctive for matching persons and attaches higher importance therein. The proposed Siamese model is end-to-end trainable to jointly learn comparable hidden representations for paired pedestrian videos and their similarity value. Extensive experiments on three benchmark datasets show the effectiveness of each component of the proposed deep network while outperforming state-of-the-art methods.","headline":"Where-and-when To Look: Deep Siamese Attention Networks For Video-based Person Re-identification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2018where/"},"url":"https://learning2hash.github.io/publications/wu2018where/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Video-based person re-identification (re-id) is a central application in surveillance systems with significant concern in security. Matching persons across disjoint camera views in their video fragments is inherently challenging due to the large visual variations and uncontrolled frame rates. There are two steps crucial to person re-id, namely discriminative feature learning and metric learning. However, existing approaches consider the two steps independently, and they do not make full use of the temporal and spatial information in videos. In this paper, we propose a Siamese attention architecture that jointly learns spatiotemporal video representations and their similarity metrics. The network extracts local convolutional features from regions of each frame, and enhance their discriminative capability by focusing on distinct regions when measuring the similarity with another pedestrian video. The attention mechanism is embedded into spatial gated recurrent units to selectively propagate relevant features and memorize their spatial dependencies through the network. The model essentially learns which parts (where) from which frames (when) are relevant and distinctive for matching persons and attaches higher importance therein. The proposed Siamese model is end-to-end trainable to jointly learn comparable hidden representations for paired pedestrian videos and their similarity value. Extensive experiments on three benchmark datasets show the effectiveness of each component of the proposed deep network while outperforming state-of-the-art methods.","headline":"Where-and-when To Look: Deep Siamese Attention Networks For Video-based Person Re-identification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2018where/"},"url":"https://learning2hash.github.io/publications/wu2018where/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ state-of-the-art methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Where-and-when To Look: Deep Siamese Attention Networks For Video-based Person Re-identification",
         conference: "IEEE Transactions on Multimedia",
@@ -303,7 +302,6 @@ state-of-the-art methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ state-of-the-art methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/leroux2024euclidean/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Euclidean Distance Compression Via Deep Random Features" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Motivated by the problem of compressing point sets into as few bits as possible while maintaining information about approximate distances between points, we construct random nonlinear maps (\\varphi_\\ell) that compress point sets in the following way. For a point set (S), the map (\\varphi_\\ell:\\mathbb{R}^d \\to N^{-1/2}\\{-1,1\\}^N) has the property that storing (\\varphi_\\ell(S)) (a sketch of (S)) allows one to report pairwise squared distances between points in (S) up to some multiplicative ((1\\pm \\epsilon)) error with high probability as long as the minimum distance is not too small compared to (\\epsilon). The maps (\\varphi_\\ell) are the (\\ell)-fold composition of a certain type of random feature mapping. Moreover, we determine how large (N) needs to be as a function of (\\epsilon) and other parameters of the point set. Compared to existing techniques, our maps offer several advantages. The standard method for compressing point sets by random mappings relies on the Johnson-Lindenstrauss lemma which implies that if a set of (n) points is mapped by a Gaussian random matrix to (\\mathbb{R}^k) with (k =\\Theta(\\epsilon^{-2}log n)), then pairwise distances between points are preserved up to a multiplicative ((1\\pm \\epsilon)) error with high probability. The main advantage of our maps (\\varphi_\\ell) over random linear maps is that ours map point sets directly into the discrete cube (N^{-1/2}\\{-1,1\\}^N) and so there is no additional step needed to convert the sketch to bits. For some range of parameters, our maps (\\varphi_\\ell) produce sketches which require fewer bits of storage space.","headline":"Euclidean Distance Compression Via Deep Random Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/leroux2024euclidean/"},"url":"https://learning2hash.github.io/publications/leroux2024euclidean/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Motivated by the problem of compressing point sets into as few bits as possible while maintaining information about approximate distances between points, we construct random nonlinear maps (\\varphi_\\ell) that compress point sets in the following way. For a point set (S), the map (\\varphi_\\ell:\\mathbb{R}^d \\to N^{-1/2}\\{-1,1\\}^N) has the property that storing (\\varphi_\\ell(S)) (a sketch of (S)) allows one to report pairwise squared distances between points in (S) up to some multiplicative ((1\\pm \\epsilon)) error with high probability as long as the minimum distance is not too small compared to (\\epsilon). The maps (\\varphi_\\ell) are the (\\ell)-fold composition of a certain type of random feature mapping. Moreover, we determine how large (N) needs to be as a function of (\\epsilon) and other parameters of the point set. Compared to existing techniques, our maps offer several advantages. The standard method for compressing point sets by random mappings relies on the Johnson-Lindenstrauss lemma which implies that if a set of (n) points is mapped by a Gaussian random matrix to (\\mathbb{R}^k) with (k =\\Theta(\\epsilon^{-2}log n)), then pairwise distances between points are preserved up to a multiplicative ((1\\pm \\epsilon)) error with high probability. The main advantage of our maps (\\varphi_\\ell) over random linear maps is that ours map point sets directly into the discrete cube (N^{-1/2}\\{-1,1\\}^N) and so there is no additional step needed to convert the sketch to bits. For some range of parameters, our maps (\\varphi_\\ell) produce sketches which require fewer bits of storage space.","headline":"Euclidean Distance Compression Via Deep Random Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/leroux2024euclidean/"},"url":"https://learning2hash.github.io/publications/leroux2024euclidean/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +261,6 @@ of storage space.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Euclidean Distance Compression Via Deep Random Features",
         conference: "Arxiv",
@@ -302,7 +301,6 @@ of storage space.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -331,37 +329,38 @@ of storage space.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

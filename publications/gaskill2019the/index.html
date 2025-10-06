@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/gaskill2019the/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The Bitwise Hashing Trick For Personalized Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Many real world problems require fast and efficient lexical comparison of large numbers of short text strings. Search personalization is one such domain. We introduce the use of feature bit vectors using the hashing trick for improving relevance in personalized search and other personalization applications. We present results of several lexical hashing and comparison methods. These methods are applied to a user’s historical behavior and are used to predict future behavior. Using a single bit per dimension instead of floating point results in an order of magnitude decrease in data structure size, while preserving or even improving quality. We use real data to simulate a search personalization task. A simple method for combining bit vectors demonstrates an order of magnitude improvement in compute time on the task with only a small decrease in accuracy.","headline":"The Bitwise Hashing Trick For Personalized Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gaskill2019the/"},"url":"https://learning2hash.github.io/publications/gaskill2019the/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Many real world problems require fast and efficient lexical comparison of large numbers of short text strings. Search personalization is one such domain. We introduce the use of feature bit vectors using the hashing trick for improving relevance in personalized search and other personalization applications. We present results of several lexical hashing and comparison methods. These methods are applied to a user’s historical behavior and are used to predict future behavior. Using a single bit per dimension instead of floating point results in an order of magnitude decrease in data structure size, while preserving or even improving quality. We use real data to simulate a search personalization task. A simple method for combining bit vectors demonstrates an order of magnitude improvement in compute time on the task with only a small decrease in accuracy.","headline":"The Bitwise Hashing Trick For Personalized Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gaskill2019the/"},"url":"https://learning2hash.github.io/publications/gaskill2019the/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -250,7 +250,6 @@ only a small decrease in accuracy.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "The Bitwise Hashing Trick For Personalized Search",
         conference: "Applied Artificial Intelligence",
@@ -291,7 +290,6 @@ only a small decrease in accuracy.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -320,37 +318,38 @@ only a small decrease in accuracy.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

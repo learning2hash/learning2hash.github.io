@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jin2021unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unsupervised Discrete Hashing With Affinity Similarity" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In recent years, supervised hashing has been validated to greatly boost the performance of image retrieval. However, the label-hungry property requires massive label collection, making it intractable in practical scenarios. To liberate the model training procedure from laborious manual annotations, some unsupervised methods are proposed. However, the following two factors make unsupervised algorithms inferior to their supervised counterparts: (1) Without manually-defined labels, it is difficult to capture the semantic information across data, which is of crucial importance to guide robust binary code learning. (2) The widely adopted relaxation on binary constraints results in quantization error accumulation in the optimization procedure. To address the above-mentioned problems, in this paper, we propose a novel Unsupervised Discrete Hashing method (UDH). Specifically, to capture the semantic information, we propose a balanced graph-based semantic loss which explores the affinity priors in the original feature space. Then, we propose a novel self-supervised loss, termed orthogonal consistent loss, which can leverage semantic loss of instance and impose independence of codes. Moreover, by integrating the discrete optimization into the proposed unsupervised framework, the binary constraints are consistently preserved, alleviating the influence of quantization errors. Extensive experiments demonstrate that UDH outperforms state-of-the-art unsupervised methods for image retrieval.","headline":"Unsupervised Discrete Hashing With Affinity Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jin2021unsupervised/"},"url":"https://learning2hash.github.io/publications/jin2021unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In recent years, supervised hashing has been validated to greatly boost the performance of image retrieval. However, the label-hungry property requires massive label collection, making it intractable in practical scenarios. To liberate the model training procedure from laborious manual annotations, some unsupervised methods are proposed. However, the following two factors make unsupervised algorithms inferior to their supervised counterparts: (1) Without manually-defined labels, it is difficult to capture the semantic information across data, which is of crucial importance to guide robust binary code learning. (2) The widely adopted relaxation on binary constraints results in quantization error accumulation in the optimization procedure. To address the above-mentioned problems, in this paper, we propose a novel Unsupervised Discrete Hashing method (UDH). Specifically, to capture the semantic information, we propose a balanced graph-based semantic loss which explores the affinity priors in the original feature space. Then, we propose a novel self-supervised loss, termed orthogonal consistent loss, which can leverage semantic loss of instance and impose independence of codes. Moreover, by integrating the discrete optimization into the proposed unsupervised framework, the binary constraints are consistently preserved, alleviating the influence of quantization errors. Extensive experiments demonstrate that UDH outperforms state-of-the-art unsupervised methods for image retrieval.","headline":"Unsupervised Discrete Hashing With Affinity Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jin2021unsupervised/"},"url":"https://learning2hash.github.io/publications/jin2021unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Unsupervised Discrete Hashing With Affinity Similarity",
         conference: "IEEE Transactions on Image Processing",
@@ -296,7 +295,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ document.addEventListener('DOMContentLoaded', function () {
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chen2019hadamard/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hadamard Codebook Based Deep Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"As an approximate nearest neighbor search technique, hashing has been widely applied in large-scale image retrieval due to its excellent efficiency. Most supervised deep hashing methods have similar loss designs with embedding learning, while quantizing the continuous high-dim feature into compact binary space. We argue that the existing deep hashing schemes are defective in two issues that seriously affect the performance, i.e., bit independence and bit balance. The former refers to hash codes of different classes should be independent of each other, while the latter means each bit should have a balanced distribution of +1s and -1s. In this paper, we propose a novel supervised deep hashing method, termed Hadamard Codebook based Deep Hashing (HCDH), which solves the above two problems in a unified formulation. Specifically, we utilize an off-the-shelf algorithm to generate a binary Hadamard codebook to satisfy the requirement of bit independence and bit balance, which subsequently serves as the desired outputs of the hash functions learning. We also introduce a projection matrix to solve the inconsistency between the order of Hadamard matrix and the number of classes. Besides, the proposed HCDH further exploits the supervised labels by constructing a classifier on top of the outputs of hash functions. Extensive experiments demonstrate that HCDH can yield discriminative and balanced binary codes, which well outperforms many state-of-the-arts on three widely-used benchmarks.","headline":"Hadamard Codebook Based Deep Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2019hadamard/"},"url":"https://learning2hash.github.io/publications/chen2019hadamard/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"As an approximate nearest neighbor search technique, hashing has been widely applied in large-scale image retrieval due to its excellent efficiency. Most supervised deep hashing methods have similar loss designs with embedding learning, while quantizing the continuous high-dim feature into compact binary space. We argue that the existing deep hashing schemes are defective in two issues that seriously affect the performance, i.e., bit independence and bit balance. The former refers to hash codes of different classes should be independent of each other, while the latter means each bit should have a balanced distribution of +1s and -1s. In this paper, we propose a novel supervised deep hashing method, termed Hadamard Codebook based Deep Hashing (HCDH), which solves the above two problems in a unified formulation. Specifically, we utilize an off-the-shelf algorithm to generate a binary Hadamard codebook to satisfy the requirement of bit independence and bit balance, which subsequently serves as the desired outputs of the hash functions learning. We also introduce a projection matrix to solve the inconsistency between the order of Hadamard matrix and the number of classes. Besides, the proposed HCDH further exploits the supervised labels by constructing a classifier on top of the outputs of hash functions. Extensive experiments demonstrate that HCDH can yield discriminative and balanced binary codes, which well outperforms many state-of-the-arts on three widely-used benchmarks.","headline":"Hadamard Codebook Based Deep Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2019hadamard/"},"url":"https://learning2hash.github.io/publications/chen2019hadamard/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -270,7 +270,6 @@ well outperforms many state-of-the-arts on three widely-used benchmarks.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Hadamard Codebook Based Deep Hashing",
         conference: "Arxiv",
@@ -311,7 +310,6 @@ well outperforms many state-of-the-arts on three widely-used benchmarks.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -340,37 +338,38 @@ well outperforms many state-of-the-arts on three widely-used benchmarks.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

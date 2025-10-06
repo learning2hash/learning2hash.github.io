@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jin2017deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Person Re-identification With Improved Embedding And Efficient Training" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Person re-identification task has been greatly boosted by deep convolutional neural networks (CNNs) in recent years. The core of which is to enlarge the inter-class distinction as well as reduce the intra-class variance. However, to achieve this, existing deep models prefer to adopt image pairs or triplets to form verification loss, which is inefficient and unstable since the number of training pairs or triplets grows rapidly as the number of training data grows. Moreover, their performance is limited since they ignore the fact that different dimension of embedding may play different importance. In this paper, we propose to employ identification loss with center loss to train a deep model for person re-identification. The training process is efficient since it does not require image pairs or triplets for training while the inter-class distinction and intra-class variance are well handled. To boost the performance, a new feature reweighting (FRW) layer is designed to explicitly emphasize the importance of each embedding dimension, thus leading to an improved embedding. Experiments on several benchmark datasets have shown the superiority of our method over the state-of-the-art alternatives on both accuracy and speed.","headline":"Deep Person Re-identification With Improved Embedding And Efficient Training","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jin2017deep/"},"url":"https://learning2hash.github.io/publications/jin2017deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Person re-identification task has been greatly boosted by deep convolutional neural networks (CNNs) in recent years. The core of which is to enlarge the inter-class distinction as well as reduce the intra-class variance. However, to achieve this, existing deep models prefer to adopt image pairs or triplets to form verification loss, which is inefficient and unstable since the number of training pairs or triplets grows rapidly as the number of training data grows. Moreover, their performance is limited since they ignore the fact that different dimension of embedding may play different importance. In this paper, we propose to employ identification loss with center loss to train a deep model for person re-identification. The training process is efficient since it does not require image pairs or triplets for training while the inter-class distinction and intra-class variance are well handled. To boost the performance, a new feature reweighting (FRW) layer is designed to explicitly emphasize the importance of each embedding dimension, thus leading to an improved embedding. Experiments on several benchmark datasets have shown the superiority of our method over the state-of-the-art alternatives on both accuracy and speed.","headline":"Deep Person Re-identification With Improved Embedding And Efficient Training","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jin2017deep/"},"url":"https://learning2hash.github.io/publications/jin2017deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ accuracy and speed.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Deep Person Re-identification With Improved Embedding And Efficient Training",
         conference: "2017 IEEE International Joint Conference on Biometrics (IJCB)",
@@ -296,7 +295,6 @@ accuracy and speed.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ accuracy and speed.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

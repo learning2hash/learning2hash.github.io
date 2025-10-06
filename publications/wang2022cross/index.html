@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2022cross/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Cross-lingual Cross-modal Retrieval With Noise-robust Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Despite the recent developments in the field of cross-modal retrieval, there has been less research focusing on low-resource languages due to the lack of manually annotated datasets. In this paper, we propose a noise-robust cross-lingual cross-modal retrieval method for low-resource languages. To this end, we use Machine Translation (MT) to construct pseudo-parallel sentence pairs for low-resource languages. However, as MT is not perfect, it tends to introduce noise during translation, rendering textual embeddings corrupted and thereby compromising the retrieval performance. To alleviate this, we introduce a multi-view self-distillation method to learn noise-robust target-language representations, which employs a cross-attention module to generate soft pseudo-targets to provide direct supervision from the similarity-based view and feature-based view. Besides, inspired by the back-translation in unsupervised MT, we minimize the semantic discrepancies between origin sentences and back-translated sentences to further improve the noise robustness of the textual encoder. Extensive experiments are conducted on three video-text and image-text cross-modal retrieval benchmarks across different languages, and the results demonstrate that our method significantly improves the overall performance without using extra human-labeled data. In addition, equipped with a pre-trained visual encoder from a recent vision-and-language pre-training framework, i.e., CLIP, our model achieves a significant performance gain, showing that our method is compatible with popular pre-training models. Code and data are available at https://github.com/HuiGuanLab/nrccr.","headline":"Cross-lingual Cross-modal Retrieval With Noise-robust Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2022cross/"},"url":"https://learning2hash.github.io/publications/wang2022cross/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Despite the recent developments in the field of cross-modal retrieval, there has been less research focusing on low-resource languages due to the lack of manually annotated datasets. In this paper, we propose a noise-robust cross-lingual cross-modal retrieval method for low-resource languages. To this end, we use Machine Translation (MT) to construct pseudo-parallel sentence pairs for low-resource languages. However, as MT is not perfect, it tends to introduce noise during translation, rendering textual embeddings corrupted and thereby compromising the retrieval performance. To alleviate this, we introduce a multi-view self-distillation method to learn noise-robust target-language representations, which employs a cross-attention module to generate soft pseudo-targets to provide direct supervision from the similarity-based view and feature-based view. Besides, inspired by the back-translation in unsupervised MT, we minimize the semantic discrepancies between origin sentences and back-translated sentences to further improve the noise robustness of the textual encoder. Extensive experiments are conducted on three video-text and image-text cross-modal retrieval benchmarks across different languages, and the results demonstrate that our method significantly improves the overall performance without using extra human-labeled data. In addition, equipped with a pre-trained visual encoder from a recent vision-and-language pre-training framework, i.e., CLIP, our model achieves a significant performance gain, showing that our method is compatible with popular pre-training models. Code and data are available at https://github.com/HuiGuanLab/nrccr.","headline":"Cross-lingual Cross-modal Retrieval With Noise-robust Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2022cross/"},"url":"https://learning2hash.github.io/publications/wang2022cross/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -270,7 +270,6 @@ and data are available at https://github.com/HuiGuanLab/nrccr.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Cross-lingual Cross-modal Retrieval With Noise-robust Learning",
         conference: "Proceedings of the 30th ACM International Conference on Multimedia",
@@ -311,7 +310,6 @@ and data are available at https://github.com/HuiGuanLab/nrccr.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -340,37 +338,38 @@ and data are available at https://github.com/HuiGuanLab/nrccr.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

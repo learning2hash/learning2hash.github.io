@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/feng2023logonet/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Logonet: A Fine-grained Network For Instance-level Logo Sketch Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Sketch-based image retrieval, which aims to use sketches as queries to retrieve images containing the same query instance, receives increasing attention in recent years. Although dramatic progress has been made in sketch retrieval, few efforts are devoted to logo sketch retrieval which is still hindered by the following challenges: Firstly, logo sketch retrieval is more difficult than typical sketch retrieval problem, since a logo sketch usually contains much less visual contents with only irregular strokes and lines. Secondly, instance-specific sketches demonstrate dramatic appearance variances, making them less identifiable when querying the same logo instance. Thirdly, there exist several sketch retrieval benchmarking datasets nowadays, whereas an instance-level logo sketch dataset is still publicly unavailable. To address the above-mentioned limitations, we make twofold contributions in this study for instance-level logo sketch retrieval. To begin with, we construct an instance-level logo sketch dataset containing 2k logo instances and exceeding 9k sketches. To our knowledge, this is the first publicly available instance-level logo sketch dataset. Next, we develop a fine-grained triple-branch CNN architecture based on hybrid attention mechanism termed LogoNet for accurate logo sketch retrieval. More specifically, we embed the hybrid attention mechanism into the triple-branch architecture for capturing the key query-specific information from the limited visual cues in the logo sketches. Experimental evaluations both on our assembled dataset and public benchmark datasets demonstrate the effectiveness of our proposed network.","headline":"Logonet: A Fine-grained Network For Instance-level Logo Sketch Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/feng2023logonet/"},"url":"https://learning2hash.github.io/publications/feng2023logonet/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Sketch-based image retrieval, which aims to use sketches as queries to retrieve images containing the same query instance, receives increasing attention in recent years. Although dramatic progress has been made in sketch retrieval, few efforts are devoted to logo sketch retrieval which is still hindered by the following challenges: Firstly, logo sketch retrieval is more difficult than typical sketch retrieval problem, since a logo sketch usually contains much less visual contents with only irregular strokes and lines. Secondly, instance-specific sketches demonstrate dramatic appearance variances, making them less identifiable when querying the same logo instance. Thirdly, there exist several sketch retrieval benchmarking datasets nowadays, whereas an instance-level logo sketch dataset is still publicly unavailable. To address the above-mentioned limitations, we make twofold contributions in this study for instance-level logo sketch retrieval. To begin with, we construct an instance-level logo sketch dataset containing 2k logo instances and exceeding 9k sketches. To our knowledge, this is the first publicly available instance-level logo sketch dataset. Next, we develop a fine-grained triple-branch CNN architecture based on hybrid attention mechanism termed LogoNet for accurate logo sketch retrieval. More specifically, we embed the hybrid attention mechanism into the triple-branch architecture for capturing the key query-specific information from the limited visual cues in the logo sketches. Experimental evaluations both on our assembled dataset and public benchmark datasets demonstrate the effectiveness of our proposed network.","headline":"Logonet: A Fine-grained Network For Instance-level Logo Sketch Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/feng2023logonet/"},"url":"https://learning2hash.github.io/publications/feng2023logonet/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ benchmark datasets demonstrate the effectiveness of our proposed network.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Logonet: A Fine-grained Network For Instance-level Logo Sketch Retrieval",
         conference: "Lecture Notes in Computer Science",
@@ -303,7 +302,6 @@ benchmark datasets demonstrate the effectiveness of our proposed network.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ benchmark datasets demonstrate the effectiveness of our proposed network.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

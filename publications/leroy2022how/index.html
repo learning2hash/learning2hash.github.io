@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/leroy2022how/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="How Does The Degree Of Novelty Impacts Semi-supervised Representation Learning For Novel Class Retrieval?" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Supervised representation learning with deep networks tends to overfit the training classes and the generalization to novel classes is a challenging question. It is common to evaluate a learned embedding on held-out images of the same training classes. In real applications however, data comes from new sources and novel classes are likely to arise. We hypothesize that incorporating unlabelled images of novel classes in the training set in a semi-supervised fashion would be beneficial for the efficient retrieval of novel-class images compared to a vanilla supervised representation. To verify this hypothesis in a comprehensive way, we propose an original evaluation methodology that varies the degree of novelty of novel classes by partitioning the dataset category-wise either randomly, or semantically, i.e. by minimizing the shared semantics between base and novel classes. This evaluation procedure allows to train a representation blindly to any novel-class labels and evaluate the frozen representation on the retrieval of base or novel classes. We find that a vanilla supervised representation falls short on the retrieval of novel classes even more so when the semantics gap is higher. Semi-supervised algorithms allow to partially bridge this performance gap but there is still much room for improvement.","headline":"How Does The Degree Of Novelty Impacts Semi-supervised Representation Learning For Novel Class Retrieval?","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/leroy2022how/"},"url":"https://learning2hash.github.io/publications/leroy2022how/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Supervised representation learning with deep networks tends to overfit the training classes and the generalization to novel classes is a challenging question. It is common to evaluate a learned embedding on held-out images of the same training classes. In real applications however, data comes from new sources and novel classes are likely to arise. We hypothesize that incorporating unlabelled images of novel classes in the training set in a semi-supervised fashion would be beneficial for the efficient retrieval of novel-class images compared to a vanilla supervised representation. To verify this hypothesis in a comprehensive way, we propose an original evaluation methodology that varies the degree of novelty of novel classes by partitioning the dataset category-wise either randomly, or semantically, i.e. by minimizing the shared semantics between base and novel classes. This evaluation procedure allows to train a representation blindly to any novel-class labels and evaluate the frozen representation on the retrieval of base or novel classes. We find that a vanilla supervised representation falls short on the retrieval of novel classes even more so when the semantics gap is higher. Semi-supervised algorithms allow to partially bridge this performance gap but there is still much room for improvement.","headline":"How Does The Degree Of Novelty Impacts Semi-supervised Representation Learning For Novel Class Retrieval?","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/leroy2022how/"},"url":"https://learning2hash.github.io/publications/leroy2022how/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -260,7 +260,6 @@ much room for improvement.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "How Does The Degree Of Novelty Impacts Semi-supervised Representation Learning For Novel Class Retrieval?",
         conference: "Arxiv",
@@ -301,7 +300,6 @@ much room for improvement.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -330,37 +328,38 @@ much room for improvement.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

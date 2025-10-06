@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wei2024snap/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Snap And Diagnose: An Advanced Multimodal Retrieval System For Identifying Plant Diseases In The Wild" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Plant disease recognition is a critical task that ensures crop health and mitigates the damage caused by diseases. A handy tool that enables farmers to receive a diagnosis based on query pictures or the text description of suspicious plants is in high demand for initiating treatment before potential diseases spread further. In this paper, we develop a multimodal plant disease image retrieval system to support disease search based on either image or text prompts. Specifically, we utilize the largest in-the-wild plant disease dataset PlantWild, which includes over 18,000 images across 89 categories, to provide a comprehensive view of potential diseases relating to the query. Furthermore, cross-modal retrieval is achieved in the developed system, facilitated by a novel CLIP-based vision-language model that encodes both disease descriptions and disease images into the same latent space. Built on top of the retriever, our retrieval system allows users to upload either plant disease images or disease descriptions to retrieve the corresponding images with similar characteristics from the disease dataset to suggest candidate diseases for end users’ consideration.","headline":"Snap And Diagnose: An Advanced Multimodal Retrieval System For Identifying Plant Diseases In The Wild","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wei2024snap/"},"url":"https://learning2hash.github.io/publications/wei2024snap/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Plant disease recognition is a critical task that ensures crop health and mitigates the damage caused by diseases. A handy tool that enables farmers to receive a diagnosis based on query pictures or the text description of suspicious plants is in high demand for initiating treatment before potential diseases spread further. In this paper, we develop a multimodal plant disease image retrieval system to support disease search based on either image or text prompts. Specifically, we utilize the largest in-the-wild plant disease dataset PlantWild, which includes over 18,000 images across 89 categories, to provide a comprehensive view of potential diseases relating to the query. Furthermore, cross-modal retrieval is achieved in the developed system, facilitated by a novel CLIP-based vision-language model that encodes both disease descriptions and disease images into the same latent space. Built on top of the retriever, our retrieval system allows users to upload either plant disease images or disease descriptions to retrieve the corresponding images with similar characteristics from the disease dataset to suggest candidate diseases for end users’ consideration.","headline":"Snap And Diagnose: An Advanced Multimodal Retrieval System For Identifying Plant Diseases In The Wild","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wei2024snap/"},"url":"https://learning2hash.github.io/publications/wei2024snap/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,7 +256,6 @@ users’ consideration.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Snap And Diagnose: An Advanced Multimodal Retrieval System For Identifying Plant Diseases In The Wild",
         conference: "Arxiv",
@@ -297,7 +296,6 @@ users’ consideration.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -326,37 +324,38 @@ users’ consideration.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

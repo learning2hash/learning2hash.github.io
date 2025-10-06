@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/treder2020deriving/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deriving Visual Semantics From Spatial Context: An Adaptation Of LSA And Word2vec To Generate Object And Scene Embeddings From Images" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Embeddings are an important tool for the representation of word meaning. Their effectiveness rests on the distributional hypothesis: words that occur in the same context carry similar semantic information. Here, we adapt this approach to index visual semantics in images of scenes. To this end, we formulate a distributional hypothesis for objects and scenes: Scenes that contain the same objects (object context) are semantically related. Similarly, objects that appear in the same spatial context (within a scene or subregions of a scene) are semantically related. We develop two approaches for learning object and scene embeddings from annotated images. In the first approach, we adapt LSA and Word2vec’s Skipgram and CBOW models to generate two sets of embeddings from object co-occurrences in whole images, one for objects and one for scenes. The representational space spanned by these embeddings suggests that the distributional hypothesis holds for images. In an initial application of this approach, we show that our image-based embeddings improve scene classification models such as ResNet18 and VGG-11 (3.72% improvement on Top5 accuracy, 4.56% improvement on Top1 accuracy). In the second approach, rather than analyzing whole images of scenes, we focus on co-occurrences of objects within subregions of an image. We illustrate that this method yields a sensible hierarchical decomposition of a scene into collections of semantically related objects. Overall, these results suggest that object and scene embeddings from object co-occurrences and spatial context yield semantically meaningful representations as well as computational improvements for downstream applications such as scene classification.","headline":"Deriving Visual Semantics From Spatial Context: An Adaptation Of LSA And Word2vec To Generate Object And Scene Embeddings From Images","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/treder2020deriving/"},"url":"https://learning2hash.github.io/publications/treder2020deriving/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Embeddings are an important tool for the representation of word meaning. Their effectiveness rests on the distributional hypothesis: words that occur in the same context carry similar semantic information. Here, we adapt this approach to index visual semantics in images of scenes. To this end, we formulate a distributional hypothesis for objects and scenes: Scenes that contain the same objects (object context) are semantically related. Similarly, objects that appear in the same spatial context (within a scene or subregions of a scene) are semantically related. We develop two approaches for learning object and scene embeddings from annotated images. In the first approach, we adapt LSA and Word2vec’s Skipgram and CBOW models to generate two sets of embeddings from object co-occurrences in whole images, one for objects and one for scenes. The representational space spanned by these embeddings suggests that the distributional hypothesis holds for images. In an initial application of this approach, we show that our image-based embeddings improve scene classification models such as ResNet18 and VGG-11 (3.72% improvement on Top5 accuracy, 4.56% improvement on Top1 accuracy). In the second approach, rather than analyzing whole images of scenes, we focus on co-occurrences of objects within subregions of an image. We illustrate that this method yields a sensible hierarchical decomposition of a scene into collections of semantically related objects. Overall, these results suggest that object and scene embeddings from object co-occurrences and spatial context yield semantically meaningful representations as well as computational improvements for downstream applications such as scene classification.","headline":"Deriving Visual Semantics From Spatial Context: An Adaptation Of LSA And Word2vec To Generate Object And Scene Embeddings From Images","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/treder2020deriving/"},"url":"https://learning2hash.github.io/publications/treder2020deriving/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ applications such as scene classification.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Deriving Visual Semantics From Spatial Context: An Adaptation Of LSA And Word2vec To Generate Object And Scene Embeddings From Images",
         conference: "Arxiv",
@@ -300,7 +299,6 @@ applications such as scene classification.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ applications such as scene classification.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

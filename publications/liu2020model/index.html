@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2020model/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Model Optimization Boosting Framework For Linear Model Hash Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Efficient hashing techniques have attracted extensive research interests in both storage and retrieval of high dimensional data, such as images and videos. In existing hashing methods, a linear model is commonly utilized owing to its efficiency. To obtain better accuracy, linear-based hashing methods focus on designing a generalized linear objective function with different constraints or penalty terms that consider the inherent characteristics and neighborhood information of samples. Differing from existing hashing methods, in this study, we propose a self-improvement framework called Model Boost (MoBoost) to improve model parameter optimization for linear-based hashing methods without adding new constraints or penalty terms. In the proposed MoBoost, for a linear-based hashing method, we first repeatedly execute the hashing method to obtain several hash codes to training samples. Then, utilizing two novel fusion strategies, these codes are fused into a single set. We also propose two new criteria to evaluate the goodness of hash bits during the fusion process. Based on the fused set of hash codes, we learn new parameters for the linear hash function that can significantly improve the accuracy. In general, the proposed MoBoost can be adopted by existing linear-based hashing methods, achieving more precise and stable performance compared to the original methods, and adopting the proposed MoBoost will incur negligible time and space costs. To evaluate the proposed MoBoost, we performed extensive experiments on four benchmark datasets, and the results demonstrate superior performance.","headline":"Model Optimization Boosting Framework For Linear Model Hash Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2020model/"},"url":"https://learning2hash.github.io/publications/liu2020model/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Efficient hashing techniques have attracted extensive research interests in both storage and retrieval of high dimensional data, such as images and videos. In existing hashing methods, a linear model is commonly utilized owing to its efficiency. To obtain better accuracy, linear-based hashing methods focus on designing a generalized linear objective function with different constraints or penalty terms that consider the inherent characteristics and neighborhood information of samples. Differing from existing hashing methods, in this study, we propose a self-improvement framework called Model Boost (MoBoost) to improve model parameter optimization for linear-based hashing methods without adding new constraints or penalty terms. In the proposed MoBoost, for a linear-based hashing method, we first repeatedly execute the hashing method to obtain several hash codes to training samples. Then, utilizing two novel fusion strategies, these codes are fused into a single set. We also propose two new criteria to evaluate the goodness of hash bits during the fusion process. Based on the fused set of hash codes, we learn new parameters for the linear hash function that can significantly improve the accuracy. In general, the proposed MoBoost can be adopted by existing linear-based hashing methods, achieving more precise and stable performance compared to the original methods, and adopting the proposed MoBoost will incur negligible time and space costs. To evaluate the proposed MoBoost, we performed extensive experiments on four benchmark datasets, and the results demonstrate superior performance.","headline":"Model Optimization Boosting Framework For Linear Model Hash Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2020model/"},"url":"https://learning2hash.github.io/publications/liu2020model/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -245,7 +245,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Model Optimization Boosting Framework For Linear Model Hash Learning",
         conference: "IEEE Transactions on Image Processing",
@@ -286,7 +285,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -315,37 +313,38 @@ document.addEventListener('DOMContentLoaded', function () {
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

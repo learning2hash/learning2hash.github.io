@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ma2020rank/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Rank-consistency Deep Hashing For Scalable Multi-label Image Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"As hashing becomes an increasingly appealing technique for large-scale image retrieval, multi-label hashing is also attracting more attention for the ability to exploit multi-level semantic contents. In this paper, we propose a novel deep hashing method for scalable multi-label image search. Unlike existing approaches with conventional objectives such as contrast and triplet losses, we employ a rank list, rather than pairs or triplets, to provide sufficient global supervision information for all the samples. Specifically, a new rank-consistency objective is applied to align the similarity orders from two spaces, the original space and the hamming space. A powerful loss function is designed to penalize the samples whose semantic similarity and hamming distance are mismatched in two spaces. Besides, a multi-label softmax cross-entropy loss is presented to enhance the discriminative power with a concise formulation of the derivative function. In order to manipulate the neighborhood structure of the samples with different labels, we design a multi-label clustering loss to cluster the hashing vectors of the samples with the same labels by reducing the distances between the samples and their multiple corresponding class centers. The state-of-the-art experimental results achieved on three public multi-label datasets, MIRFLICKR-25K, IAPRTC12 and NUS-WIDE, demonstrate the effectiveness of the proposed method.","headline":"Rank-consistency Deep Hashing For Scalable Multi-label Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ma2020rank/"},"url":"https://learning2hash.github.io/publications/ma2020rank/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"As hashing becomes an increasingly appealing technique for large-scale image retrieval, multi-label hashing is also attracting more attention for the ability to exploit multi-level semantic contents. In this paper, we propose a novel deep hashing method for scalable multi-label image search. Unlike existing approaches with conventional objectives such as contrast and triplet losses, we employ a rank list, rather than pairs or triplets, to provide sufficient global supervision information for all the samples. Specifically, a new rank-consistency objective is applied to align the similarity orders from two spaces, the original space and the hamming space. A powerful loss function is designed to penalize the samples whose semantic similarity and hamming distance are mismatched in two spaces. Besides, a multi-label softmax cross-entropy loss is presented to enhance the discriminative power with a concise formulation of the derivative function. In order to manipulate the neighborhood structure of the samples with different labels, we design a multi-label clustering loss to cluster the hashing vectors of the samples with the same labels by reducing the distances between the samples and their multiple corresponding class centers. The state-of-the-art experimental results achieved on three public multi-label datasets, MIRFLICKR-25K, IAPRTC12 and NUS-WIDE, demonstrate the effectiveness of the proposed method.","headline":"Rank-consistency Deep Hashing For Scalable Multi-label Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ma2020rank/"},"url":"https://learning2hash.github.io/publications/ma2020rank/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ NUS-WIDE, demonstrate the effectiveness of the proposed method.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Rank-consistency Deep Hashing For Scalable Multi-label Image Search",
         conference: "IEEE Transactions on Multimedia",
@@ -304,7 +303,6 @@ NUS-WIDE, demonstrate the effectiveness of the proposed method.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ NUS-WIDE, demonstrate the effectiveness of the proposed method.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

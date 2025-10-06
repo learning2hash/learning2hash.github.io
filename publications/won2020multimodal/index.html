@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/won2020multimodal/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multimodal Metric Learning For Tag-based Music Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Tag-based music retrieval is crucial to browse large-scale music libraries efficiently. Hence, automatic music tagging has been actively explored, mostly as a classification task, which has an inherent limitation: a fixed vocabulary. On the other hand, metric learning enables flexible vocabularies by using pretrained word embeddings as side information. Also, metric learning has already proven its suitability for cross-modal retrieval tasks in other domains (e.g., text-to-image) by jointly learning a multimodal embedding space. In this paper, we investigate three ideas to successfully introduce multimodal metric learning for tag-based music retrieval: elaborate triplet sampling, acoustic and cultural music information, and domain-specific word embeddings. Our experimental results show that the proposed ideas enhance the retrieval system quantitatively, and qualitatively. Furthermore, we release the MSD500, a subset of the Million Song Dataset (MSD) containing 500 cleaned tags, 7 manually annotated tag categories, and user taste profiles.","headline":"Multimodal Metric Learning For Tag-based Music Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/won2020multimodal/"},"url":"https://learning2hash.github.io/publications/won2020multimodal/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Tag-based music retrieval is crucial to browse large-scale music libraries efficiently. Hence, automatic music tagging has been actively explored, mostly as a classification task, which has an inherent limitation: a fixed vocabulary. On the other hand, metric learning enables flexible vocabularies by using pretrained word embeddings as side information. Also, metric learning has already proven its suitability for cross-modal retrieval tasks in other domains (e.g., text-to-image) by jointly learning a multimodal embedding space. In this paper, we investigate three ideas to successfully introduce multimodal metric learning for tag-based music retrieval: elaborate triplet sampling, acoustic and cultural music information, and domain-specific word embeddings. Our experimental results show that the proposed ideas enhance the retrieval system quantitatively, and qualitatively. Furthermore, we release the MSD500, a subset of the Million Song Dataset (MSD) containing 500 cleaned tags, 7 manually annotated tag categories, and user taste profiles.","headline":"Multimodal Metric Learning For Tag-based Music Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/won2020multimodal/"},"url":"https://learning2hash.github.io/publications/won2020multimodal/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -258,7 +258,6 @@ annotated tag categories, and user taste profiles.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Multimodal Metric Learning For Tag-based Music Retrieval",
         conference: "ICASSP 2021 - 2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
@@ -299,7 +298,6 @@ annotated tag categories, and user taste profiles.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -328,37 +326,38 @@ annotated tag categories, and user taste profiles.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

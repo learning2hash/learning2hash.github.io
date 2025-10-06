@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/laarhoven2019nearest/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Nearest Neighbor Decoding For Tardos Fingerprinting Codes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Over the past decade, various improvements have been made to Tardos’ collusion-resistant fingerprinting scheme [Tardos, STOC 2003], ultimately resulting in a good understanding of what is the minimum code length required to achieve collusion-resistance. In contrast, decreasing the cost of the actual decoding algorithm for identifying the potential colluders has received less attention, even though previous results have shown that using joint decoding strategies, deemed too expensive for decoding, may lead to better code lengths. Moreover, in dynamic settings a fast decoder may be required to provide answers in real-time, further raising the question whether the decoding costs of score-based fingerprinting schemes can be decreased with a smarter decoding algorithm. In this paper we show how to model the decoding step of score-based fingerprinting as a nearest neighbor search problem, and how this relation allows us to apply techniques from the field of (approximate) nearest neighbor searching to obtain decoding times which are sublinear in the total number of users. As this does not affect the encoding and embedding steps, this decoding mechanism can easily be deployed within existing fingerprinting schemes, and this may bring a truly efficient joint decoder closer to reality. Besides the application to fingerprinting, similar techniques can be used to decrease the decoding costs of group testing methods, which may be of independent interest.","headline":"Nearest Neighbor Decoding For Tardos Fingerprinting Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/laarhoven2019nearest/"},"url":"https://learning2hash.github.io/publications/laarhoven2019nearest/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Over the past decade, various improvements have been made to Tardos’ collusion-resistant fingerprinting scheme [Tardos, STOC 2003], ultimately resulting in a good understanding of what is the minimum code length required to achieve collusion-resistance. In contrast, decreasing the cost of the actual decoding algorithm for identifying the potential colluders has received less attention, even though previous results have shown that using joint decoding strategies, deemed too expensive for decoding, may lead to better code lengths. Moreover, in dynamic settings a fast decoder may be required to provide answers in real-time, further raising the question whether the decoding costs of score-based fingerprinting schemes can be decreased with a smarter decoding algorithm. In this paper we show how to model the decoding step of score-based fingerprinting as a nearest neighbor search problem, and how this relation allows us to apply techniques from the field of (approximate) nearest neighbor searching to obtain decoding times which are sublinear in the total number of users. As this does not affect the encoding and embedding steps, this decoding mechanism can easily be deployed within existing fingerprinting schemes, and this may bring a truly efficient joint decoder closer to reality. Besides the application to fingerprinting, similar techniques can be used to decrease the decoding costs of group testing methods, which may be of independent interest.","headline":"Nearest Neighbor Decoding For Tardos Fingerprinting Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/laarhoven2019nearest/"},"url":"https://learning2hash.github.io/publications/laarhoven2019nearest/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ decoding costs of group testing methods, which may be of independent interest.</
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Nearest Neighbor Decoding For Tardos Fingerprinting Codes",
         conference: "Proceedings of the ACM Workshop on Information Hiding and Multimedia Security",
@@ -296,7 +295,6 @@ decoding costs of group testing methods, which may be of independent interest.</
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ decoding costs of group testing methods, which may be of independent interest.</
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

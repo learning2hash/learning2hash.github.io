@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/pacuk2016locality/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Locality-sensitive Hashing Without False Negatives For L_p" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In this paper, we show a construction of locality-sensitive hash functions without false negatives, i.e., which ensure collision for every pair of points within a given radius (R) in (d) dimensional space equipped with (l_p) norm when (p \\in [1,\\infty]). Furthermore, we show how to use these hash functions to solve the (c)-approximate nearest neighbor search problem without false negatives. Namely, if there is a point at distance (R), we will certainly report it and points at distance greater than (cR) will not be reported for (c=Ω(\\sqrt{d},d^{1-\\frac{1}{p}})). The constructed algorithms work: - with preprocessing time (\\mathcal{O}(n log(n))) and sublinear expected query time, with preprocessing time (\\mathcal{O}(\\mathrm{poly}(n))) and expected query time (\\mathcal{O}(log(n))). Our paper reports progress on answering the open problem presented by Pagh [8] who considered the nearest neighbor search without false negatives for the Hamming distance.","headline":"Locality-sensitive Hashing Without False Negatives For L_p","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pacuk2016locality/"},"url":"https://learning2hash.github.io/publications/pacuk2016locality/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In this paper, we show a construction of locality-sensitive hash functions without false negatives, i.e., which ensure collision for every pair of points within a given radius (R) in (d) dimensional space equipped with (l_p) norm when (p \\in [1,\\infty]). Furthermore, we show how to use these hash functions to solve the (c)-approximate nearest neighbor search problem without false negatives. Namely, if there is a point at distance (R), we will certainly report it and points at distance greater than (cR) will not be reported for (c=Ω(\\sqrt{d},d^{1-\\frac{1}{p}})). The constructed algorithms work: - with preprocessing time (\\mathcal{O}(n log(n))) and sublinear expected query time, with preprocessing time (\\mathcal{O}(\\mathrm{poly}(n))) and expected query time (\\mathcal{O}(log(n))). Our paper reports progress on answering the open problem presented by Pagh [8] who considered the nearest neighbor search without false negatives for the Hamming distance.","headline":"Locality-sensitive Hashing Without False Negatives For L_p","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pacuk2016locality/"},"url":"https://learning2hash.github.io/publications/pacuk2016locality/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +253,6 @@ without false negatives for the Hamming distance.</li>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Locality-sensitive Hashing Without False Negatives For L_p",
         conference: "Lecture Notes in Computer Science",
@@ -294,7 +293,6 @@ without false negatives for the Hamming distance.</li>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -323,37 +321,38 @@ without false negatives for the Hamming distance.</li>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

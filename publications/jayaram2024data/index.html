@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jayaram2024data/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Data-dependent LSH For The Earth Mover’s Distance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We give new data-dependent locality sensitive hashing schemes (LSH) for the Earth Mover’s Distance ((\\mathsf{EMD})), and as a result, improve the best approximation for nearest neighbor search under (\\mathsf{EMD}) by a quadratic factor. Here, the metric (\\mathsf{EMD}_s(\\mathbb{R}^d,\\ell_p)) consists of sets of (s) vectors in (\\mathbb{R}^d), and for any two sets (x,y) of (s) vectors the distance (\\mathsf{EMD}(x,y)) is the minimum cost of a perfect matching between (x,y), where the cost of matching two vectors is their (\\ell_p) distance. Previously, Andoni, Indyk, and Krauthgamer gave a (data-independent) locality-sensitive hashing scheme for (\\mathsf{EMD}_s(\\mathbb{R}^d,\\ell_p)) when (p \\in [1,2]) with approximation (O(log^2 s)). By being data-dependent, we improve the approximation to (\\tilde{O}(log s)). Our main technical contribution is to show that for any distribution (\\mu) supported on the metric (\\mathsf{EMD}_s(\\mathbb{R}^d, \\ell_p)), there exists a data-dependent LSH for dense regions of (\\mu) which achieves approximation (\\tilde{O}(log s)), and that the data-independent LSH actually achieves a (\\tilde{O}(log s))-approximation outside of those dense regions. Finally, we show how to “glue” together these two hashing schemes without any additional loss in the approximation. Beyond nearest neighbor search, our data-dependent LSH also gives optimal (distributional) sketches for the Earth Mover’s Distance. By known sketching lower bounds, this implies that our LSH is optimal (up to (\\mathrm{poly}(log log s)) factors) among those that collide close points with constant probability.","headline":"Data-dependent LSH For The Earth Mover’s Distance","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jayaram2024data/"},"url":"https://learning2hash.github.io/publications/jayaram2024data/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We give new data-dependent locality sensitive hashing schemes (LSH) for the Earth Mover’s Distance ((\\mathsf{EMD})), and as a result, improve the best approximation for nearest neighbor search under (\\mathsf{EMD}) by a quadratic factor. Here, the metric (\\mathsf{EMD}_s(\\mathbb{R}^d,\\ell_p)) consists of sets of (s) vectors in (\\mathbb{R}^d), and for any two sets (x,y) of (s) vectors the distance (\\mathsf{EMD}(x,y)) is the minimum cost of a perfect matching between (x,y), where the cost of matching two vectors is their (\\ell_p) distance. Previously, Andoni, Indyk, and Krauthgamer gave a (data-independent) locality-sensitive hashing scheme for (\\mathsf{EMD}_s(\\mathbb{R}^d,\\ell_p)) when (p \\in [1,2]) with approximation (O(log^2 s)). By being data-dependent, we improve the approximation to (\\tilde{O}(log s)). Our main technical contribution is to show that for any distribution (\\mu) supported on the metric (\\mathsf{EMD}_s(\\mathbb{R}^d, \\ell_p)), there exists a data-dependent LSH for dense regions of (\\mu) which achieves approximation (\\tilde{O}(log s)), and that the data-independent LSH actually achieves a (\\tilde{O}(log s))-approximation outside of those dense regions. Finally, we show how to “glue” together these two hashing schemes without any additional loss in the approximation. Beyond nearest neighbor search, our data-dependent LSH also gives optimal (distributional) sketches for the Earth Mover’s Distance. By known sketching lower bounds, this implies that our LSH is optimal (up to (\\mathrm{poly}(log log s)) factors) among those that collide close points with constant probability.","headline":"Data-dependent LSH For The Earth Mover’s Distance","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jayaram2024data/"},"url":"https://learning2hash.github.io/publications/jayaram2024data/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +261,6 @@ probability.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Data-dependent LSH For The Earth Mover's Distance",
         conference: "Arxiv",
@@ -302,7 +301,6 @@ probability.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -331,37 +329,38 @@ probability.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

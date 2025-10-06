@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/navarro2021sketchzooms/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Sketchzooms: Deep Multi-view Descriptors For Matching Line Drawings" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Finding point-wise correspondences between images is a long-standing problem in image analysis. This becomes particularly challenging for sketch images, due to the varying nature of human drawing style, projection distortions and viewport changes. In this paper we present the first attempt to obtain a learned descriptor for dense registration in line drawings. Based on recent deep learning techniques for corresponding photographs, we designed descriptors to locally match image pairs where the object of interest belongs to the same semantic category, yet still differ drastically in shape, form, and projection angle. To this end, we have specifically crafted a data set of synthetic sketches using non-photorealistic rendering over a large collection of part-based registered 3D models. After training, a neural network generates descriptors for every pixel in an input image, which are shown to generalize correctly in unseen sketches hand-drawn by humans. We evaluate our method against a baseline of correspondences data collected from expert designers, in addition to comparisons with other descriptors that have been proven effective in sketches. Code, data and further resources will be publicly released by the time of publication.","headline":"Sketchzooms: Deep Multi-view Descriptors For Matching Line Drawings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/navarro2021sketchzooms/"},"url":"https://learning2hash.github.io/publications/navarro2021sketchzooms/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Finding point-wise correspondences between images is a long-standing problem in image analysis. This becomes particularly challenging for sketch images, due to the varying nature of human drawing style, projection distortions and viewport changes. In this paper we present the first attempt to obtain a learned descriptor for dense registration in line drawings. Based on recent deep learning techniques for corresponding photographs, we designed descriptors to locally match image pairs where the object of interest belongs to the same semantic category, yet still differ drastically in shape, form, and projection angle. To this end, we have specifically crafted a data set of synthetic sketches using non-photorealistic rendering over a large collection of part-based registered 3D models. After training, a neural network generates descriptors for every pixel in an input image, which are shown to generalize correctly in unseen sketches hand-drawn by humans. We evaluate our method against a baseline of correspondences data collected from expert designers, in addition to comparisons with other descriptors that have been proven effective in sketches. Code, data and further resources will be publicly released by the time of publication.","headline":"Sketchzooms: Deep Multi-view Descriptors For Matching Line Drawings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/navarro2021sketchzooms/"},"url":"https://learning2hash.github.io/publications/navarro2021sketchzooms/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +253,6 @@ time of publication.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Sketchzooms: Deep Multi-view Descriptors For Matching Line Drawings",
         conference: "Computer Graphics Forum",
@@ -294,7 +293,6 @@ time of publication.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -323,37 +321,38 @@ time of publication.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/hansen2021representation/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Representation Learning For Efficient And Effective Similarity Search And Recommendation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"How data is represented and operationalized is critical for building computational solutions that are both effective and efficient. A common approach is to represent data objects as binary vectors, denoted \\textit{hash codes}, which require little storage and enable efficient similarity search through direct indexing into a hash table or through similarity computations in an appropriate space. Due to the limited expressibility of hash codes, compared to real-valued representations, a core open challenge is how to generate hash codes that well capture semantic content or latent properties using a small number of bits, while ensuring that the hash codes are distributed in a way that does not reduce their search efficiency. State of the art methods use representation learning for generating such hash codes, focusing on neural autoencoder architectures where semantics are encoded into the hash codes by learning to reconstruct the original inputs of the hash codes. This thesis addresses the above challenge and makes a number of contributions to representation learning that (i) improve effectiveness of hash codes through more expressive representations and a more effective similarity measure than the current state of the art, namely the Hamming distance, and (ii) improve efficiency of hash codes by learning representations that are especially suited to the choice of search method. The contributions are empirically validated on several tasks related to similarity search and recommendation.","headline":"Representation Learning For Efficient And Effective Similarity Search And Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hansen2021representation/"},"url":"https://learning2hash.github.io/publications/hansen2021representation/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"How data is represented and operationalized is critical for building computational solutions that are both effective and efficient. A common approach is to represent data objects as binary vectors, denoted \\textit{hash codes}, which require little storage and enable efficient similarity search through direct indexing into a hash table or through similarity computations in an appropriate space. Due to the limited expressibility of hash codes, compared to real-valued representations, a core open challenge is how to generate hash codes that well capture semantic content or latent properties using a small number of bits, while ensuring that the hash codes are distributed in a way that does not reduce their search efficiency. State of the art methods use representation learning for generating such hash codes, focusing on neural autoencoder architectures where semantics are encoded into the hash codes by learning to reconstruct the original inputs of the hash codes. This thesis addresses the above challenge and makes a number of contributions to representation learning that (i) improve effectiveness of hash codes through more expressive representations and a more effective similarity measure than the current state of the art, namely the Hamming distance, and (ii) improve efficiency of hash codes by learning representations that are especially suited to the choice of search method. The contributions are empirically validated on several tasks related to similarity search and recommendation.","headline":"Representation Learning For Efficient And Effective Similarity Search And Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hansen2021representation/"},"url":"https://learning2hash.github.io/publications/hansen2021representation/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ several tasks related to similarity search and recommendation.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Representation Learning For Efficient And Effective Similarity Search And Recommendation",
         conference: "Arxiv",
@@ -303,7 +302,6 @@ several tasks related to similarity search and recommendation.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ several tasks related to similarity search and recommendation.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

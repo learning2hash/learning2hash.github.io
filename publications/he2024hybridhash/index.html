@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/he2024hybridhash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hybridhash: Hybrid Convolutional And Self-attention Deep Hashing For Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Deep image hashing aims to map input images into simple binary hash codes via deep neural networks and thus enable effective large-scale image retrieval. Recently, hybrid networks that combine convolution and Transformer have achieved superior performance on various computer tasks and have attracted extensive attention from researchers. Nevertheless, the potential benefits of such hybrid networks in image retrieval still need to be verified. To this end, we propose a hybrid convolutional and self-attention deep hashing method known as HybridHash. Specifically, we propose a backbone network with stage-wise architecture in which the block aggregation function is introduced to achieve the effect of local self-attention and reduce the computational complexity. The interaction module has been elaborately designed to promote the communication of information between image blocks and to enhance the visual representations. We have conducted comprehensive experiments on three widely used datasets: CIFAR-10, NUS-WIDE and IMAGENET. The experimental results demonstrate that the method proposed in this paper has superior performance with respect to state-of-the-art deep hashing methods. Source code is available https://github.com/shuaichaochao/HybridHash.","headline":"Hybridhash: Hybrid Convolutional And Self-attention Deep Hashing For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/he2024hybridhash/"},"url":"https://learning2hash.github.io/publications/he2024hybridhash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Deep image hashing aims to map input images into simple binary hash codes via deep neural networks and thus enable effective large-scale image retrieval. Recently, hybrid networks that combine convolution and Transformer have achieved superior performance on various computer tasks and have attracted extensive attention from researchers. Nevertheless, the potential benefits of such hybrid networks in image retrieval still need to be verified. To this end, we propose a hybrid convolutional and self-attention deep hashing method known as HybridHash. Specifically, we propose a backbone network with stage-wise architecture in which the block aggregation function is introduced to achieve the effect of local self-attention and reduce the computational complexity. The interaction module has been elaborately designed to promote the communication of information between image blocks and to enhance the visual representations. We have conducted comprehensive experiments on three widely used datasets: CIFAR-10, NUS-WIDE and IMAGENET. The experimental results demonstrate that the method proposed in this paper has superior performance with respect to state-of-the-art deep hashing methods. Source code is available https://github.com/shuaichaochao/HybridHash.","headline":"Hybridhash: Hybrid Convolutional And Self-attention Deep Hashing For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/he2024hybridhash/"},"url":"https://learning2hash.github.io/publications/he2024hybridhash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -267,7 +267,6 @@ https://github.com/shuaichaochao/HybridHash.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Hybridhash: Hybrid Convolutional And Self-attention Deep Hashing For Image Retrieval",
         conference: "Proceedings of the 2024 International Conference on Multimedia Retrieval",
@@ -308,7 +307,6 @@ https://github.com/shuaichaochao/HybridHash.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -337,37 +335,38 @@ https://github.com/shuaichaochao/HybridHash.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

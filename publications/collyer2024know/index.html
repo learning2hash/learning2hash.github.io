@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/collyer2024know/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Know Your Neighborhood: General And Zero-shot Capable Binary Function Search Powered By Call Graphlets" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Binary code similarity detection is an important problem with applications in areas such as malware analysis, vulnerability research and license violation detection. This paper proposes a novel graph neural network architecture combined with a novel graph data representation called call graphlets. A call graphlet encodes the neighborhood around each function in a binary executable, capturing the local and global context through a series of statistical features. A specialized graph neural network model operates on this graph representation, learning to map it to a feature vector that encodes semantic binary code similarities using deep-metric learning. The proposed approach is evaluated across five distinct datasets covering different architectures, compiler tool chains, and optimization levels. Experimental results show that the combination of call graphlets and the novel graph neural network architecture achieves comparable or state-of-the-art performance compared to baseline techniques across cross-architecture, mono-architecture and zero shot tasks. In addition, our proposed approach also performs well when evaluated against an out-of-domain function inlining task. The work provides a general and effective graph neural network-based solution for conducting binary code similarity detection.","headline":"Know Your Neighborhood: General And Zero-shot Capable Binary Function Search Powered By Call Graphlets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/collyer2024know/"},"url":"https://learning2hash.github.io/publications/collyer2024know/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Binary code similarity detection is an important problem with applications in areas such as malware analysis, vulnerability research and license violation detection. This paper proposes a novel graph neural network architecture combined with a novel graph data representation called call graphlets. A call graphlet encodes the neighborhood around each function in a binary executable, capturing the local and global context through a series of statistical features. A specialized graph neural network model operates on this graph representation, learning to map it to a feature vector that encodes semantic binary code similarities using deep-metric learning. The proposed approach is evaluated across five distinct datasets covering different architectures, compiler tool chains, and optimization levels. Experimental results show that the combination of call graphlets and the novel graph neural network architecture achieves comparable or state-of-the-art performance compared to baseline techniques across cross-architecture, mono-architecture and zero shot tasks. In addition, our proposed approach also performs well when evaluated against an out-of-domain function inlining task. The work provides a general and effective graph neural network-based solution for conducting binary code similarity detection.","headline":"Know Your Neighborhood: General And Zero-shot Capable Binary Function Search Powered By Call Graphlets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/collyer2024know/"},"url":"https://learning2hash.github.io/publications/collyer2024know/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ similarity detection.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Know Your Neighborhood: General And Zero-shot Capable Binary Function Search Powered By Call Graphlets",
         conference: "Arxiv",
@@ -303,7 +302,6 @@ similarity detection.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ similarity detection.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

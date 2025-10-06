@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/uy2018pointnetvlad/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Pointnetvlad: Deep Point Cloud Based Retrieval For Large-scale Place Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Unlike its image based counterpart, point cloud based retrieval for place recognition has remained as an unexplored and unsolved problem. This is largely due to the difficulty in extracting local feature descriptors from a point cloud that can subsequently be encoded into a global descriptor for the retrieval task. In this paper, we propose the PointNetVLAD where we leverage on the recent success of deep networks to solve point cloud based retrieval for place recognition. Specifically, our PointNetVLAD is a combination/modification of the existing PointNet and NetVLAD, which allows end-to-end training and inference to extract the global descriptor from a given 3D point cloud. Furthermore, we propose the “lazy triplet and quadruplet” loss functions that can achieve more discriminative and generalizable global descriptors to tackle the retrieval task. We create benchmark datasets for point cloud based retrieval for place recognition, and the experimental results on these datasets show the feasibility of our PointNetVLAD. Our code and the link for the benchmark dataset downloads are available in our project website. http://github.com/mikacuy/pointnetvlad/","headline":"Pointnetvlad: Deep Point Cloud Based Retrieval For Large-scale Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/uy2018pointnetvlad/"},"url":"https://learning2hash.github.io/publications/uy2018pointnetvlad/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Unlike its image based counterpart, point cloud based retrieval for place recognition has remained as an unexplored and unsolved problem. This is largely due to the difficulty in extracting local feature descriptors from a point cloud that can subsequently be encoded into a global descriptor for the retrieval task. In this paper, we propose the PointNetVLAD where we leverage on the recent success of deep networks to solve point cloud based retrieval for place recognition. Specifically, our PointNetVLAD is a combination/modification of the existing PointNet and NetVLAD, which allows end-to-end training and inference to extract the global descriptor from a given 3D point cloud. Furthermore, we propose the “lazy triplet and quadruplet” loss functions that can achieve more discriminative and generalizable global descriptors to tackle the retrieval task. We create benchmark datasets for point cloud based retrieval for place recognition, and the experimental results on these datasets show the feasibility of our PointNetVLAD. Our code and the link for the benchmark dataset downloads are available in our project website. http://github.com/mikacuy/pointnetvlad/","headline":"Pointnetvlad: Deep Point Cloud Based Retrieval For Large-scale Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/uy2018pointnetvlad/"},"url":"https://learning2hash.github.io/publications/uy2018pointnetvlad/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -260,7 +260,6 @@ http://github.com/mikacuy/pointnetvlad/</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Pointnetvlad: Deep Point Cloud Based Retrieval For Large-scale Place Recognition",
         conference: "2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition",
@@ -301,7 +300,6 @@ http://github.com/mikacuy/pointnetvlad/</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -330,37 +328,38 @@ http://github.com/mikacuy/pointnetvlad/</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

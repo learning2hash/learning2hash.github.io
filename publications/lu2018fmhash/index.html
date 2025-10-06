@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lu2018fmhash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fmhash: Deep Hashing Of In-air-handwriting For User Identification" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Many mobile systems and wearable devices, such as Virtual Reality (VR) or Augmented Reality (AR) headsets, lack a keyboard or touchscreen to type an ID and password for signing into a virtual website. However, they are usually equipped with gesture capture interfaces to allow the user to interact with the system directly with hand gestures. Although gesture-based authentication has been well-studied, less attention is paid to the gesture-based user identification problem, which is essentially an input method of account ID and an efficient searching and indexing method of a database of gesture signals. In this paper, we propose FMHash (i.e., Finger Motion Hash), a user identification framework that can generate a compact binary hash code from a piece of in-air-handwriting of an ID string. This hash code enables indexing and fast search of a large account database using the in-air-handwriting by a hash table. To demonstrate the effectiveness of the framework, we implemented a prototype and achieved &gt;99.5% precision and &gt;92.6% recall with exact hash code match on a dataset of 200 accounts collected by us. The ability of hashing in-air-handwriting pattern to binary code can be used to achieve convenient sign-in and sign-up with in-air-handwriting gesture ID on future mobile and wearable systems connected to the Internet.","headline":"Fmhash: Deep Hashing Of In-air-handwriting For User Identification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lu2018fmhash/"},"url":"https://learning2hash.github.io/publications/lu2018fmhash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Many mobile systems and wearable devices, such as Virtual Reality (VR) or Augmented Reality (AR) headsets, lack a keyboard or touchscreen to type an ID and password for signing into a virtual website. However, they are usually equipped with gesture capture interfaces to allow the user to interact with the system directly with hand gestures. Although gesture-based authentication has been well-studied, less attention is paid to the gesture-based user identification problem, which is essentially an input method of account ID and an efficient searching and indexing method of a database of gesture signals. In this paper, we propose FMHash (i.e., Finger Motion Hash), a user identification framework that can generate a compact binary hash code from a piece of in-air-handwriting of an ID string. This hash code enables indexing and fast search of a large account database using the in-air-handwriting by a hash table. To demonstrate the effectiveness of the framework, we implemented a prototype and achieved &gt;99.5% precision and &gt;92.6% recall with exact hash code match on a dataset of 200 accounts collected by us. The ability of hashing in-air-handwriting pattern to binary code can be used to achieve convenient sign-in and sign-up with in-air-handwriting gesture ID on future mobile and wearable systems connected to the Internet.","headline":"Fmhash: Deep Hashing Of In-air-handwriting For User Identification","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lu2018fmhash/"},"url":"https://learning2hash.github.io/publications/lu2018fmhash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ wearable systems connected to the Internet.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Fmhash: Deep Hashing Of In-air-handwriting For User Identification",
         conference: "ICC 2019 - 2019 IEEE International Conference on Communications (ICC)",
@@ -305,7 +304,6 @@ wearable systems connected to the Internet.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ wearable systems connected to the Internet.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

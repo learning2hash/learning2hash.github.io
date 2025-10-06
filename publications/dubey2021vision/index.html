@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dubey2021vision/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Vision Transformer Hashing For Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Deep learning has shown a tremendous growth in hashing techniques for image retrieval. Recently, Transformer has emerged as a new architecture by utilizing self-attention without convolution. Transformer is also extended to Vision Transformer (ViT) for the visual recognition with a promising performance on ImageNet. In this paper, we propose a Vision Transformer based Hashing (VTS) for image retrieval. We utilize the pre-trained ViT on ImageNet as the backbone network and add the hashing head. The proposed VTS model is fine tuned for hashing under six different image retrieval frameworks, including Deep Supervised Hashing (DSH), HashNet, GreedyHash, Improved Deep Hashing Network (IDHN), Deep Polarized Network (DPN) and Central Similarity Quantization (CSQ) with their objective functions. We perform the extensive experiments on CIFAR10, ImageNet, NUS-Wide, and COCO datasets. The proposed VTS based image retrieval outperforms the recent state-of-the-art hashing techniques with a great margin. We also find the proposed VTS model as the backbone network is better than the existing networks, such as AlexNet and ResNet. The code is released at https://github.com/shivram1987/VisionTransformerHashing.","headline":"Vision Transformer Hashing For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dubey2021vision/"},"url":"https://learning2hash.github.io/publications/dubey2021vision/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Deep learning has shown a tremendous growth in hashing techniques for image retrieval. Recently, Transformer has emerged as a new architecture by utilizing self-attention without convolution. Transformer is also extended to Vision Transformer (ViT) for the visual recognition with a promising performance on ImageNet. In this paper, we propose a Vision Transformer based Hashing (VTS) for image retrieval. We utilize the pre-trained ViT on ImageNet as the backbone network and add the hashing head. The proposed VTS model is fine tuned for hashing under six different image retrieval frameworks, including Deep Supervised Hashing (DSH), HashNet, GreedyHash, Improved Deep Hashing Network (IDHN), Deep Polarized Network (DPN) and Central Similarity Quantization (CSQ) with their objective functions. We perform the extensive experiments on CIFAR10, ImageNet, NUS-Wide, and COCO datasets. The proposed VTS based image retrieval outperforms the recent state-of-the-art hashing techniques with a great margin. We also find the proposed VTS model as the backbone network is better than the existing networks, such as AlexNet and ResNet. The code is released at https://github.com/shivram1987/VisionTransformerHashing.","headline":"Vision Transformer Hashing For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dubey2021vision/"},"url":"https://learning2hash.github.io/publications/dubey2021vision/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -266,7 +266,6 @@ released at https://github.com/shivram1987/VisionTransformerHashing.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Vision Transformer Hashing For Image Retrieval",
         conference: "2022 IEEE International Conference on Multimedia and Expo (ICME)",
@@ -307,7 +306,6 @@ released at https://github.com/shivram1987/VisionTransformerHashing.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -336,37 +334,38 @@ released at https://github.com/shivram1987/VisionTransformerHashing.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

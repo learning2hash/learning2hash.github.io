@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/he2021unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unsupervised Domain-adaptive Hash For Networks" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Abundant real-world data can be naturally represented by large-scale networks, which demands efficient and effective learning algorithms. At the same time, labels may only be available for some networks, which demands these algorithms to be able to adapt to unlabeled networks. Domain-adaptive hash learning has enjoyed considerable success in the computer vision community in many practical tasks due to its lower cost in both retrieval time and storage footprint. However, it has not been applied to multiple-domain networks. In this work, we bridge this gap by developing an unsupervised domain-adaptive hash learning method for networks, dubbed UDAH. Specifically, we develop four {task-specific yet correlated} components: (1) network structure preservation via a hard groupwise contrastive loss, (2) relaxation-free supervised hashing, (3) cross-domain intersected discriminators, and (4) semantic center alignment. We conduct a wide range of experiments to evaluate the effectiveness and efficiency of our method on a range of tasks including link prediction, node classification, and neighbor recommendation. Our evaluation results demonstrate that our model achieves better performance than the state-of-the-art conventional discrete embedding methods over all the tasks.","headline":"Unsupervised Domain-adaptive Hash For Networks","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/he2021unsupervised/"},"url":"https://learning2hash.github.io/publications/he2021unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Abundant real-world data can be naturally represented by large-scale networks, which demands efficient and effective learning algorithms. At the same time, labels may only be available for some networks, which demands these algorithms to be able to adapt to unlabeled networks. Domain-adaptive hash learning has enjoyed considerable success in the computer vision community in many practical tasks due to its lower cost in both retrieval time and storage footprint. However, it has not been applied to multiple-domain networks. In this work, we bridge this gap by developing an unsupervised domain-adaptive hash learning method for networks, dubbed UDAH. Specifically, we develop four {task-specific yet correlated} components: (1) network structure preservation via a hard groupwise contrastive loss, (2) relaxation-free supervised hashing, (3) cross-domain intersected discriminators, and (4) semantic center alignment. We conduct a wide range of experiments to evaluate the effectiveness and efficiency of our method on a range of tasks including link prediction, node classification, and neighbor recommendation. Our evaluation results demonstrate that our model achieves better performance than the state-of-the-art conventional discrete embedding methods over all the tasks.","headline":"Unsupervised Domain-adaptive Hash For Networks","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/he2021unsupervised/"},"url":"https://learning2hash.github.io/publications/he2021unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -267,7 +267,6 @@ conventional discrete embedding methods over all the tasks.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Unsupervised Domain-adaptive Hash For Networks",
         conference: "Arxiv",
@@ -308,7 +307,6 @@ conventional discrete embedding methods over all the tasks.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -337,37 +335,38 @@ conventional discrete embedding methods over all the tasks.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

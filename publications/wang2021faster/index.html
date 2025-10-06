@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2021faster/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Faster Nearest Neighbor Machine Translation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"(k)NN based neural machine translation ((k)NN-MT) has achieved state-of-the-art results in a variety of MT tasks. One significant shortcoming of (k)NN-MT lies in its inefficiency in identifying the (k) nearest neighbors of the query representation from the entire datastore, which is prohibitively time-intensive when the datastore size is large. In this work, we propose \\textbf{Faster (k)NN-MT} to address this issue. The core idea of Faster (k)NN-MT is to use a hierarchical clustering strategy to approximate the distance between the query and a data point in the datastore, which is decomposed into two parts: the distance between the query and the center of the cluster that the data point belongs to, and the distance between the data point and the cluster center. We propose practical ways to compute these two parts in a significantly faster manner. Through extensive experiments on different MT benchmarks, we show that \\textbf{Faster (k)NN-MT} is faster than Fast (k)NN-MT \\citep{meng2021fast} and only slightly (1.2 times) slower than its vanilla counterpart while preserving model performance as (k)NN-MT. Faster (k)NN-MT enables the deployment of (k)NN-MT models on real-world MT services.","headline":"Faster Nearest Neighbor Machine Translation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2021faster/"},"url":"https://learning2hash.github.io/publications/wang2021faster/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"(k)NN based neural machine translation ((k)NN-MT) has achieved state-of-the-art results in a variety of MT tasks. One significant shortcoming of (k)NN-MT lies in its inefficiency in identifying the (k) nearest neighbors of the query representation from the entire datastore, which is prohibitively time-intensive when the datastore size is large. In this work, we propose \\textbf{Faster (k)NN-MT} to address this issue. The core idea of Faster (k)NN-MT is to use a hierarchical clustering strategy to approximate the distance between the query and a data point in the datastore, which is decomposed into two parts: the distance between the query and the center of the cluster that the data point belongs to, and the distance between the data point and the cluster center. We propose practical ways to compute these two parts in a significantly faster manner. Through extensive experiments on different MT benchmarks, we show that \\textbf{Faster (k)NN-MT} is faster than Fast (k)NN-MT \\citep{meng2021fast} and only slightly (1.2 times) slower than its vanilla counterpart while preserving model performance as (k)NN-MT. Faster (k)NN-MT enables the deployment of (k)NN-MT models on real-world MT services.","headline":"Faster Nearest Neighbor Machine Translation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2021faster/"},"url":"https://learning2hash.github.io/publications/wang2021faster/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,7 +252,6 @@ enables the deployment of (k)NN-MT models on real-world MT services.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Faster Nearest Neighbor Machine Translation",
         conference: "Findings of the Association for Computational Linguistics: ACL 2022",
@@ -293,7 +292,6 @@ enables the deployment of (k)NN-MT models on real-world MT services.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -322,37 +320,38 @@ enables the deployment of (k)NN-MT models on real-world MT services.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

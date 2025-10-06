@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kaga2019pdh/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="PDH : Probabilistic Deep Hashing Based On MAP Estimation Of Hamming Distance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"With the growth of image on the web, research on hashing which enables high-speed image retrieval has been actively studied. In recent years, various hashing methods based on deep neural networks have been proposed and achieved higher precision than the other hashing methods. In these methods, multiple losses for hash codes and the parameters of neural networks are defined. They generate hash codes that minimize the weighted sum of the losses. Therefore, an expert has to tune the weights for the losses heuristically, and the probabilistic optimality of the loss function cannot be explained. In order to generate explainable hash codes without weight tuning, we theoretically derive a single loss function with no hyperparameters for the hash code from the probability distribution of the images. By generating hash codes that minimize this loss function, highly accurate image retrieval with probabilistic optimality is performed. We evaluate the performance of hashing using MNIST, CIFAR-10, SVHN and show that the proposed method outperforms the state-of-the-art hashing methods.","headline":"PDH : Probabilistic Deep Hashing Based On MAP Estimation Of Hamming Distance","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kaga2019pdh/"},"url":"https://learning2hash.github.io/publications/kaga2019pdh/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"With the growth of image on the web, research on hashing which enables high-speed image retrieval has been actively studied. In recent years, various hashing methods based on deep neural networks have been proposed and achieved higher precision than the other hashing methods. In these methods, multiple losses for hash codes and the parameters of neural networks are defined. They generate hash codes that minimize the weighted sum of the losses. Therefore, an expert has to tune the weights for the losses heuristically, and the probabilistic optimality of the loss function cannot be explained. In order to generate explainable hash codes without weight tuning, we theoretically derive a single loss function with no hyperparameters for the hash code from the probability distribution of the images. By generating hash codes that minimize this loss function, highly accurate image retrieval with probabilistic optimality is performed. We evaluate the performance of hashing using MNIST, CIFAR-10, SVHN and show that the proposed method outperforms the state-of-the-art hashing methods.","headline":"PDH : Probabilistic Deep Hashing Based On MAP Estimation Of Hamming Distance","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kaga2019pdh/"},"url":"https://learning2hash.github.io/publications/kaga2019pdh/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ state-of-the-art hashing methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "PDH : Probabilistic Deep Hashing Based On MAP Estimation Of Hamming Distance",
         conference: "2019 26th IEEE International Conference on Image Processing (ICIP)",
@@ -298,7 +297,6 @@ state-of-the-art hashing methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ state-of-the-art hashing methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

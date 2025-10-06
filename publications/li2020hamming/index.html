@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2020hamming/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hamming OCR: A Locality Sensitive Hashing Neural Network For Scene Text Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Recently, inspired by Transformer, self-attention-based scene text recognition approaches have achieved outstanding performance. However, we find that the size of model expands rapidly with the lexicon increasing. Specifically, the number of parameters for softmax classification layer and output embedding layer are proportional to the vocabulary size. It hinders the development of a lightweight text recognition model especially applied for Chinese and multiple languages. Thus, we propose a lightweight scene text recognition model named Hamming OCR. In this model, a novel Hamming classifier, which adopts locality sensitive hashing (LSH) algorithm to encode each character, is proposed to replace the softmax regression and the generated LSH code is directly employed to replace the output embedding. We also present a simplified transformer decoder to reduce the number of parameters by removing the feed-forward network and using cross-layer parameter sharing technique. Compared with traditional methods, the number of parameters in both classification and embedding layers is independent on the size of vocabulary, which significantly reduces the storage requirement without loss of accuracy. Experimental results on several datasets, including four public benchmaks and a Chinese text dataset synthesized by SynthText with more than 20,000 characters, shows that Hamming OCR achieves competitive results.","headline":"Hamming OCR: A Locality Sensitive Hashing Neural Network For Scene Text Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2020hamming/"},"url":"https://learning2hash.github.io/publications/li2020hamming/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Recently, inspired by Transformer, self-attention-based scene text recognition approaches have achieved outstanding performance. However, we find that the size of model expands rapidly with the lexicon increasing. Specifically, the number of parameters for softmax classification layer and output embedding layer are proportional to the vocabulary size. It hinders the development of a lightweight text recognition model especially applied for Chinese and multiple languages. Thus, we propose a lightweight scene text recognition model named Hamming OCR. In this model, a novel Hamming classifier, which adopts locality sensitive hashing (LSH) algorithm to encode each character, is proposed to replace the softmax regression and the generated LSH code is directly employed to replace the output embedding. We also present a simplified transformer decoder to reduce the number of parameters by removing the feed-forward network and using cross-layer parameter sharing technique. Compared with traditional methods, the number of parameters in both classification and embedding layers is independent on the size of vocabulary, which significantly reduces the storage requirement without loss of accuracy. Experimental results on several datasets, including four public benchmaks and a Chinese text dataset synthesized by SynthText with more than 20,000 characters, shows that Hamming OCR achieves competitive results.","headline":"Hamming OCR: A Locality Sensitive Hashing Neural Network For Scene Text Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2020hamming/"},"url":"https://learning2hash.github.io/publications/li2020hamming/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +261,6 @@ shows that Hamming OCR achieves competitive results.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Hamming OCR: A Locality Sensitive Hashing Neural Network For Scene Text Recognition",
         conference: "Arxiv",
@@ -302,7 +301,6 @@ shows that Hamming OCR achieves competitive results.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -331,37 +329,38 @@ shows that Hamming OCR achieves competitive results.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

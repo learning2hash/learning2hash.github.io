@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/conjeti2016deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Residual Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Hashing aims at generating highly compact similarity preserving code words which are well suited for large-scale image retrieval tasks. Most existing hashing methods first encode the images as a vector of hand-crafted features followed by a separate binarization step to generate hash codes. This two-stage process may produce sub-optimal encoding. In this paper, for the first time, we propose a deep architecture for supervised hashing through residual learning, termed Deep Residual Hashing (DRH), for an end-to-end simultaneous representation learning and hash coding. The DRH model constitutes four key elements: (1) a sub-network with multiple stacked residual blocks; (2) hashing layer for binarization; (3) supervised retrieval loss function based on neighbourhood component analysis for similarity preserving embedding; and (4) hashing related losses and regularisation to control the quantization error and improve the quality of hash coding. We present results of extensive experiments on a large public chest x-ray image database with co-morbidities and discuss the outcome showing substantial improvements over the latest state-of-the art methods.","headline":"Deep Residual Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/conjeti2016deep/"},"url":"https://learning2hash.github.io/publications/conjeti2016deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Hashing aims at generating highly compact similarity preserving code words which are well suited for large-scale image retrieval tasks. Most existing hashing methods first encode the images as a vector of hand-crafted features followed by a separate binarization step to generate hash codes. This two-stage process may produce sub-optimal encoding. In this paper, for the first time, we propose a deep architecture for supervised hashing through residual learning, termed Deep Residual Hashing (DRH), for an end-to-end simultaneous representation learning and hash coding. The DRH model constitutes four key elements: (1) a sub-network with multiple stacked residual blocks; (2) hashing layer for binarization; (3) supervised retrieval loss function based on neighbourhood component analysis for similarity preserving embedding; and (4) hashing related losses and regularisation to control the quantization error and improve the quality of hash coding. We present results of extensive experiments on a large public chest x-ray image database with co-morbidities and discuss the outcome showing substantial improvements over the latest state-of-the art methods.","headline":"Deep Residual Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/conjeti2016deep/"},"url":"https://learning2hash.github.io/publications/conjeti2016deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -260,7 +260,6 @@ the latest state-of-the art methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Deep Residual Hashing",
         conference: "Arxiv",
@@ -301,7 +300,6 @@ the latest state-of-the art methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -330,37 +328,38 @@ the latest state-of-the art methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

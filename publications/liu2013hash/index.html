@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2013hash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hash Bit Selection: A Unified Solution For Selection Problems In Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Hashing based methods recently have been shown promising for large-scale nearest neighbor search. However, good designs involve difficult decisions of many unknowns – data features, hashing algorithms, parameter settings, kernels, etc. In this paper, we provide a unified solution as hash bit selection, i.e., selecting the most informative hash bits from a pool of candidates that may have been generated under various conditions mentioned above. We represent the candidate bit pool as a vertex- and edge-weighted graph with the pooled bits as vertices. Then we formulate the bit selection problem as quadratic programming over the graph, and solve it efficiently by replicator dynamics. Extensive experiments show that our bit selection approach can achieve superior performance over both naive selection methods and state-of-the-art methods under each scenario, usually with significant accuracy gains from 10% to 50% relatively.","headline":"Hash Bit Selection: A Unified Solution For Selection Problems In Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2013hash/"},"url":"https://learning2hash.github.io/publications/liu2013hash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Hashing based methods recently have been shown promising for large-scale nearest neighbor search. However, good designs involve difficult decisions of many unknowns – data features, hashing algorithms, parameter settings, kernels, etc. In this paper, we provide a unified solution as hash bit selection, i.e., selecting the most informative hash bits from a pool of candidates that may have been generated under various conditions mentioned above. We represent the candidate bit pool as a vertex- and edge-weighted graph with the pooled bits as vertices. Then we formulate the bit selection problem as quadratic programming over the graph, and solve it efficiently by replicator dynamics. Extensive experiments show that our bit selection approach can achieve superior performance over both naive selection methods and state-of-the-art methods under each scenario, usually with significant accuracy gains from 10% to 50% relatively.","headline":"Hash Bit Selection: A Unified Solution For Selection Problems In Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2013hash/"},"url":"https://learning2hash.github.io/publications/liu2013hash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -243,7 +243,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Hash Bit Selection: A Unified Solution For Selection Problems In Hashing",
         conference: "2013 IEEE Conference on Computer Vision and Pattern Recognition",
@@ -284,7 +283,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -313,37 +311,38 @@ document.addEventListener('DOMContentLoaded', function () {
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

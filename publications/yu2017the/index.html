@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yu2017the/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="The Devil Is In The Middle: Exploiting Mid-level Representations For Cross-domain Instance Matching" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Many vision problems require matching images of object instances across different domains. These include fine-grained sketch-based image retrieval (FG-SBIR) and Person Re-identification (person ReID). Existing approaches attempt to learn a joint embedding space where images from different domains can be directly compared. In most cases, this space is defined by the output of the final layer of a deep neural network (DNN), which primarily contains features of a high semantic level. In this paper, we argue that both high and mid-level features are relevant for cross-domain instance matching (CDIM). Importantly, mid-level features already exist in earlier layers of the DNN. They just need to be extracted, represented, and fused properly with the final layer. Based on this simple but powerful idea, we propose a unified framework for CDIM. Instantiating our framework for FG-SBIR and ReID, we show that our simple models can easily beat the state-of-the-art models, which are often equipped with much more elaborate architectures.","headline":"The Devil Is In The Middle: Exploiting Mid-level Representations For Cross-domain Instance Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yu2017the/"},"url":"https://learning2hash.github.io/publications/yu2017the/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Many vision problems require matching images of object instances across different domains. These include fine-grained sketch-based image retrieval (FG-SBIR) and Person Re-identification (person ReID). Existing approaches attempt to learn a joint embedding space where images from different domains can be directly compared. In most cases, this space is defined by the output of the final layer of a deep neural network (DNN), which primarily contains features of a high semantic level. In this paper, we argue that both high and mid-level features are relevant for cross-domain instance matching (CDIM). Importantly, mid-level features already exist in earlier layers of the DNN. They just need to be extracted, represented, and fused properly with the final layer. Based on this simple but powerful idea, we propose a unified framework for CDIM. Instantiating our framework for FG-SBIR and ReID, we show that our simple models can easily beat the state-of-the-art models, which are often equipped with much more elaborate architectures.","headline":"The Devil Is In The Middle: Exploiting Mid-level Representations For Cross-domain Instance Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yu2017the/"},"url":"https://learning2hash.github.io/publications/yu2017the/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,7 +252,6 @@ equipped with much more elaborate architectures.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "The Devil Is In The Middle: Exploiting Mid-level Representations For Cross-domain Instance Matching",
         conference: "Arxiv",
@@ -293,7 +292,6 @@ equipped with much more elaborate architectures.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -322,37 +320,38 @@ equipped with much more elaborate architectures.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

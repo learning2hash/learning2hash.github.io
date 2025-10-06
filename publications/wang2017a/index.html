@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2017a/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A New Family Of Near-metrics For Universal Similarity" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We propose a family of near-metrics based on local graph diffusion to capture similarity for a wide class of data sets. These quasi-metametrics, as their names suggest, dispense with one or two standard axioms of metric spaces, specifically distinguishability and symmetry, so that similarity between data points of arbitrary type and form could be measured broadly and effectively. The proposed near-metric family includes the forward k-step diffusion and its reverse, typically on the graph consisting of data objects and their features. By construction, this family of near-metrics is particularly appropriate for categorical data, continuous data, and vector representations of images and text extracted via deep learning approaches. We conduct extensive experiments to evaluate the performance of this family of similarity measures and compare and contrast with traditional measures of similarity used for each specific application and with the ground truth when available. We show that for structured data including categorical and continuous data, the near-metrics corresponding to normalized forward k-step diffusion (k small) work as one of the best performing similarity measures; for vector representations of text and images including those extracted from deep learning, the near-metrics derived from normalized and reverse k-step graph diffusion (k very small) exhibit outstanding ability to distinguish data points from different classes.","headline":"A New Family Of Near-metrics For Universal Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2017a/"},"url":"https://learning2hash.github.io/publications/wang2017a/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We propose a family of near-metrics based on local graph diffusion to capture similarity for a wide class of data sets. These quasi-metametrics, as their names suggest, dispense with one or two standard axioms of metric spaces, specifically distinguishability and symmetry, so that similarity between data points of arbitrary type and form could be measured broadly and effectively. The proposed near-metric family includes the forward k-step diffusion and its reverse, typically on the graph consisting of data objects and their features. By construction, this family of near-metrics is particularly appropriate for categorical data, continuous data, and vector representations of images and text extracted via deep learning approaches. We conduct extensive experiments to evaluate the performance of this family of similarity measures and compare and contrast with traditional measures of similarity used for each specific application and with the ground truth when available. We show that for structured data including categorical and continuous data, the near-metrics corresponding to normalized forward k-step diffusion (k small) work as one of the best performing similarity measures; for vector representations of text and images including those extracted from deep learning, the near-metrics derived from normalized and reverse k-step graph diffusion (k very small) exhibit outstanding ability to distinguish data points from different classes.","headline":"A New Family Of Near-metrics For Universal Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2017a/"},"url":"https://learning2hash.github.io/publications/wang2017a/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ outstanding ability to distinguish data points from different classes.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "A New Family Of Near-metrics For Universal Similarity",
         conference: "Arxiv",
@@ -300,7 +299,6 @@ outstanding ability to distinguish data points from different classes.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ outstanding ability to distinguish data points from different classes.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

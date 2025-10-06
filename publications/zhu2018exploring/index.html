@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhu2018exploring/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Exploring Auxiliary Context: Discrete Semantic Transfer Hashing For Scalable Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Unsupervised hashing can desirably support scalable content-based image retrieval (SCBIR) for its appealing advantages of semantic label independence, memory and search efficiency. However, the learned hash codes are embedded with limited discriminative semantics due to the intrinsic limitation of image representation. To address the problem, in this paper, we propose a novel hashing approach, dubbed as Discrete Semantic Transfer Hashing (DSTH). The key idea is to directly augment the semantics of discrete image hash codes by exploring auxiliary contextual modalities. To this end, a unified hashing framework is formulated to simultaneously preserve visual similarities of images and perform semantic transfer from contextual modalities. Further, to guarantee direct semantic transfer and avoid information loss, we explicitly impose the discrete constraint, bit–uncorrelation constraint and bit-balance constraint on hash codes. A novel and effective discrete optimization method based on augmented Lagrangian multiplier is developed to iteratively solve the optimization problem. The whole learning process has linear computation complexity and desirable scalability. Experiments on three benchmark datasets demonstrate the superiority of DSTH compared with several state-of-the-art approaches.","headline":"Exploring Auxiliary Context: Discrete Semantic Transfer Hashing For Scalable Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2018exploring/"},"url":"https://learning2hash.github.io/publications/zhu2018exploring/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Unsupervised hashing can desirably support scalable content-based image retrieval (SCBIR) for its appealing advantages of semantic label independence, memory and search efficiency. However, the learned hash codes are embedded with limited discriminative semantics due to the intrinsic limitation of image representation. To address the problem, in this paper, we propose a novel hashing approach, dubbed as Discrete Semantic Transfer Hashing (DSTH). The key idea is to directly augment the semantics of discrete image hash codes by exploring auxiliary contextual modalities. To this end, a unified hashing framework is formulated to simultaneously preserve visual similarities of images and perform semantic transfer from contextual modalities. Further, to guarantee direct semantic transfer and avoid information loss, we explicitly impose the discrete constraint, bit–uncorrelation constraint and bit-balance constraint on hash codes. A novel and effective discrete optimization method based on augmented Lagrangian multiplier is developed to iteratively solve the optimization problem. The whole learning process has linear computation complexity and desirable scalability. Experiments on three benchmark datasets demonstrate the superiority of DSTH compared with several state-of-the-art approaches.","headline":"Exploring Auxiliary Context: Discrete Semantic Transfer Hashing For Scalable Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2018exploring/"},"url":"https://learning2hash.github.io/publications/zhu2018exploring/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -270,7 +270,6 @@ approaches.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Exploring Auxiliary Context: Discrete Semantic Transfer Hashing For Scalable Image Retrieval",
         conference: "IEEE Transactions on Neural Networks and Learning Systems",
@@ -311,7 +310,6 @@ approaches.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -340,37 +338,38 @@ approaches.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

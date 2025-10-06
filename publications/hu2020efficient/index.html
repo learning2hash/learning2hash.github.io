@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/hu2020efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient Approximate Nearest Neighbor Search For Multiple Weighted (l_{p\leq2}) Distance Functions" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Nearest neighbor search is fundamental to a wide range of applications. Since the exact nearest neighbor search suffers from the “curse of dimensionality”, approximate approaches, such as Locality-Sensitive Hashing (LSH), are widely used to trade a little query accuracy for a much higher query efficiency. In many scenarios, it is necessary to perform nearest neighbor search under multiple weighted distance functions in high-dimensional spaces. This paper considers the important problem of supporting efficient approximate nearest neighbor search for multiple weighted distance functions in high-dimensional spaces. To the best of our knowledge, prior work can only solve the problem for the (l_2) distance. However, numerous studies have shown that the (l_p) distance with (p\\in(0,2)) could be more effective than the (l_2) distance in high-dimensional spaces. We propose a novel method, WLSH, to address the problem for the (l_p) distance for (p\\in(0,2]). WLSH takes the LSH approach and can theoretically guarantee both the efficiency of processing queries and the accuracy of query results while minimizing the required total number of hash tables. We conduct extensive experiments on synthetic and real data sets, and the results show that WLSH achieves high performance in terms of query efficiency, query accuracy and space consumption.","headline":"Efficient Approximate Nearest Neighbor Search For Multiple Weighted (l_{p\\leq2}) Distance Functions","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hu2020efficient/"},"url":"https://learning2hash.github.io/publications/hu2020efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Nearest neighbor search is fundamental to a wide range of applications. Since the exact nearest neighbor search suffers from the “curse of dimensionality”, approximate approaches, such as Locality-Sensitive Hashing (LSH), are widely used to trade a little query accuracy for a much higher query efficiency. In many scenarios, it is necessary to perform nearest neighbor search under multiple weighted distance functions in high-dimensional spaces. This paper considers the important problem of supporting efficient approximate nearest neighbor search for multiple weighted distance functions in high-dimensional spaces. To the best of our knowledge, prior work can only solve the problem for the (l_2) distance. However, numerous studies have shown that the (l_p) distance with (p\\in(0,2)) could be more effective than the (l_2) distance in high-dimensional spaces. We propose a novel method, WLSH, to address the problem for the (l_p) distance for (p\\in(0,2]). WLSH takes the LSH approach and can theoretically guarantee both the efficiency of processing queries and the accuracy of query results while minimizing the required total number of hash tables. We conduct extensive experiments on synthetic and real data sets, and the results show that WLSH achieves high performance in terms of query efficiency, query accuracy and space consumption.","headline":"Efficient Approximate Nearest Neighbor Search For Multiple Weighted (l_{p\\leq2}) Distance Functions","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hu2020efficient/"},"url":"https://learning2hash.github.io/publications/hu2020efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -260,7 +260,6 @@ efficiency, query accuracy and space consumption.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Efficient Approximate Nearest Neighbor Search For Multiple Weighted \\(l_{p\\leq2}\\) Distance Functions",
         conference: "Arxiv",
@@ -301,7 +300,6 @@ efficiency, query accuracy and space consumption.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -330,37 +328,38 @@ efficiency, query accuracy and space consumption.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

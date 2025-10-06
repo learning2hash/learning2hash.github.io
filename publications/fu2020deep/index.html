@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/fu2020deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Momentum Uncertainty Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Combinatorial optimization (CO) has been a hot research topic because of its theoretic and practical importance. As a classic CO problem, deep hashing aims to find an optimal code for each data from finite discrete possibilities, while the discrete nature brings a big challenge to the optimization process. Previous methods usually mitigate this challenge by binary approximation, substituting binary codes for real-values via activation functions or regularizations. However, such approximation leads to uncertainty between real-values and binary ones, degrading retrieval performance. In this paper, we propose a novel Deep Momentum Uncertainty Hashing (DMUH). It explicitly estimates the uncertainty during training and leverages the uncertainty information to guide the approximation process. Specifically, we model bit-level uncertainty via measuring the discrepancy between the output of a hashing network and that of a momentum-updated network. The discrepancy of each bit indicates the uncertainty of the hashing network to the approximate output of that bit. Meanwhile, the mean discrepancy of all bits in a hashing code can be regarded as image-level uncertainty. It embodies the uncertainty of the hashing network to the corresponding input image. The hashing bit and image with higher uncertainty are paid more attention during optimization. To the best of our knowledge, this is the first work to study the uncertainty in hashing bits. Extensive experiments are conducted on four datasets to verify the superiority of our method, including CIFAR-10, NUS-WIDE, MS-COCO, and a million-scale dataset Clothing1M. Our method achieves the best performance on all of the datasets and surpasses existing state-of-the-art methods by a large margin.","headline":"Deep Momentum Uncertainty Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fu2020deep/"},"url":"https://learning2hash.github.io/publications/fu2020deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Combinatorial optimization (CO) has been a hot research topic because of its theoretic and practical importance. As a classic CO problem, deep hashing aims to find an optimal code for each data from finite discrete possibilities, while the discrete nature brings a big challenge to the optimization process. Previous methods usually mitigate this challenge by binary approximation, substituting binary codes for real-values via activation functions or regularizations. However, such approximation leads to uncertainty between real-values and binary ones, degrading retrieval performance. In this paper, we propose a novel Deep Momentum Uncertainty Hashing (DMUH). It explicitly estimates the uncertainty during training and leverages the uncertainty information to guide the approximation process. Specifically, we model bit-level uncertainty via measuring the discrepancy between the output of a hashing network and that of a momentum-updated network. The discrepancy of each bit indicates the uncertainty of the hashing network to the approximate output of that bit. Meanwhile, the mean discrepancy of all bits in a hashing code can be regarded as image-level uncertainty. It embodies the uncertainty of the hashing network to the corresponding input image. The hashing bit and image with higher uncertainty are paid more attention during optimization. To the best of our knowledge, this is the first work to study the uncertainty in hashing bits. Extensive experiments are conducted on four datasets to verify the superiority of our method, including CIFAR-10, NUS-WIDE, MS-COCO, and a million-scale dataset Clothing1M. Our method achieves the best performance on all of the datasets and surpasses existing state-of-the-art methods by a large margin.","headline":"Deep Momentum Uncertainty Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fu2020deep/"},"url":"https://learning2hash.github.io/publications/fu2020deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -270,7 +270,6 @@ margin.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Deep Momentum Uncertainty Hashing",
         conference: "Pattern Recognition",
@@ -311,7 +310,6 @@ margin.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -340,37 +338,38 @@ margin.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

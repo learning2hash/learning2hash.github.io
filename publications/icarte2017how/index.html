@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/icarte2017how/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="How A General-purpose Commonsense Ontology Can Improve Performance Of Learning-based Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The knowledge representation community has built general-purpose ontologies which contain large amounts of commonsense knowledge over relevant aspects of the world, including useful visual information, e.g.: “a ball is used by a football player”, “a tennis player is located at a tennis court”. Current state-of-the-art approaches for visual recognition do not exploit these rule-based knowledge sources. Instead, they learn recognition models directly from training examples. In this paper, we study how general-purpose ontologies—specifically, MIT’s ConceptNet ontology—can improve the performance of state-of-the-art vision systems. As a testbed, we tackle the problem of sentence-based image retrieval. Our retrieval approach incorporates knowledge from ConceptNet on top of a large pool of object detectors derived from a deep learning technique. In our experiments, we show that ConceptNet can improve performance on a common benchmark dataset. Key to our performance is the use of the ESPGAME dataset to select visually relevant relations from ConceptNet. Consequently, a main conclusion of this work is that general-purpose commonsense ontologies improve performance on visual reasoning tasks when properly filtered to select meaningful visual relations.","headline":"How A General-purpose Commonsense Ontology Can Improve Performance Of Learning-based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/icarte2017how/"},"url":"https://learning2hash.github.io/publications/icarte2017how/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The knowledge representation community has built general-purpose ontologies which contain large amounts of commonsense knowledge over relevant aspects of the world, including useful visual information, e.g.: “a ball is used by a football player”, “a tennis player is located at a tennis court”. Current state-of-the-art approaches for visual recognition do not exploit these rule-based knowledge sources. Instead, they learn recognition models directly from training examples. In this paper, we study how general-purpose ontologies—specifically, MIT’s ConceptNet ontology—can improve the performance of state-of-the-art vision systems. As a testbed, we tackle the problem of sentence-based image retrieval. Our retrieval approach incorporates knowledge from ConceptNet on top of a large pool of object detectors derived from a deep learning technique. In our experiments, we show that ConceptNet can improve performance on a common benchmark dataset. Key to our performance is the use of the ESPGAME dataset to select visually relevant relations from ConceptNet. Consequently, a main conclusion of this work is that general-purpose commonsense ontologies improve performance on visual reasoning tasks when properly filtered to select meaningful visual relations.","headline":"How A General-purpose Commonsense Ontology Can Improve Performance Of Learning-based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/icarte2017how/"},"url":"https://learning2hash.github.io/publications/icarte2017how/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ tasks when properly filtered to select meaningful visual relations.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "How A General-purpose Commonsense Ontology Can Improve Performance Of Learning-based Image Retrieval",
         conference: "Proceedings of the Twenty-Sixth International Joint Conference on Artificial Intelligence",
@@ -304,7 +303,6 @@ tasks when properly filtered to select meaningful visual relations.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ tasks when properly filtered to select meaningful visual relations.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

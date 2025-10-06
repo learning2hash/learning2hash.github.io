@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2022mderank/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Mderank: A Masked Document Embedding Rank Approach For Unsupervised Keyphrase Extraction" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Keyphrase extraction (KPE) automatically extracts phrases in a document that provide a concise summary of the core content, which benefits downstream information retrieval and NLP tasks. Previous state-of-the-art (SOTA) methods select candidate keyphrases based on the similarity between learned representations of the candidates and the document. They suffer performance degradation on long documents due to discrepancy between sequence lengths which causes mismatch between representations of keyphrase candidates and the document. In this work, we propose a novel unsupervised embedding-based KPE approach, Masked Document Embedding Rank (MDERank), to address this problem by leveraging a mask strategy and ranking candidates by the similarity between embeddings of the source document and the masked document. We further develop a KPE-oriented BERT (KPEBERT) model by proposing a novel self-supervised contrastive learning method, which is more compatible to MDERank than vanilla BERT. Comprehensive evaluations on six KPE benchmarks demonstrate that the proposed MDERank outperforms state-of-the-art unsupervised KPE approach by average 1.80 (F1@15) improvement. MDERank further benefits from KPEBERT and overall achieves average 3.53 (F1@15) improvement over the SOTA SIFRank. Our code is available at https://github.com/LinhanZ/mderank.","headline":"Mderank: A Masked Document Embedding Rank Approach For Unsupervised Keyphrase Extraction","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2022mderank/"},"url":"https://learning2hash.github.io/publications/zhang2022mderank/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Keyphrase extraction (KPE) automatically extracts phrases in a document that provide a concise summary of the core content, which benefits downstream information retrieval and NLP tasks. Previous state-of-the-art (SOTA) methods select candidate keyphrases based on the similarity between learned representations of the candidates and the document. They suffer performance degradation on long documents due to discrepancy between sequence lengths which causes mismatch between representations of keyphrase candidates and the document. In this work, we propose a novel unsupervised embedding-based KPE approach, Masked Document Embedding Rank (MDERank), to address this problem by leveraging a mask strategy and ranking candidates by the similarity between embeddings of the source document and the masked document. We further develop a KPE-oriented BERT (KPEBERT) model by proposing a novel self-supervised contrastive learning method, which is more compatible to MDERank than vanilla BERT. Comprehensive evaluations on six KPE benchmarks demonstrate that the proposed MDERank outperforms state-of-the-art unsupervised KPE approach by average 1.80 (F1@15) improvement. MDERank further benefits from KPEBERT and overall achieves average 3.53 (F1@15) improvement over the SOTA SIFRank. Our code is available at https://github.com/LinhanZ/mderank.","headline":"Mderank: A Masked Document Embedding Rank Approach For Unsupervised Keyphrase Extraction","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2022mderank/"},"url":"https://learning2hash.github.io/publications/zhang2022mderank/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ code is available at https://github.com/LinhanZ/mderank.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Mderank: A Masked Document Embedding Rank Approach For Unsupervised Keyphrase Extraction",
         conference: "Findings of the Association for Computational Linguistics: ACL 2022",
@@ -303,7 +302,6 @@ code is available at https://github.com/LinhanZ/mderank.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ code is available at https://github.com/LinhanZ/mderank.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

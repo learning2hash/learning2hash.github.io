@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/tran2018regularizing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Regularizing Matrix Factorization With User And Item Embeddings For Recommendation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Following recent successes in exploiting both latent factor and word embedding models in recommendation, we propose a novel Regularized Multi-Embedding (RME) based recommendation model that simultaneously encapsulates the following ideas via decomposition: (1) which items a user likes, (2) which two users co-like the same items, (3) which two items users often co-liked, and (4) which two items users often co-disliked. In experimental validation, the RME outperforms competing state-of-the-art models in both explicit and implicit feedback datasets, significantly improving Recall@5 by 5.9~7.0%, NDCG@20 by 4.3~5.6%, and MAP@10 by 7.9~8.9%. In addition, under the cold-start scenario for users with the lowest number of interactions, against the competing models, the RME outperforms NDCG@5 by 20.2% and 29.4% in MovieLens-10M and MovieLens-20M datasets, respectively. Our datasets and source code are available at: https://github.com/thanhdtran/RME.git.","headline":"Regularizing Matrix Factorization With User And Item Embeddings For Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tran2018regularizing/"},"url":"https://learning2hash.github.io/publications/tran2018regularizing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Following recent successes in exploiting both latent factor and word embedding models in recommendation, we propose a novel Regularized Multi-Embedding (RME) based recommendation model that simultaneously encapsulates the following ideas via decomposition: (1) which items a user likes, (2) which two users co-like the same items, (3) which two items users often co-liked, and (4) which two items users often co-disliked. In experimental validation, the RME outperforms competing state-of-the-art models in both explicit and implicit feedback datasets, significantly improving Recall@5 by 5.9~7.0%, NDCG@20 by 4.3~5.6%, and MAP@10 by 7.9~8.9%. In addition, under the cold-start scenario for users with the lowest number of interactions, against the competing models, the RME outperforms NDCG@5 by 20.2% and 29.4% in MovieLens-10M and MovieLens-20M datasets, respectively. Our datasets and source code are available at: https://github.com/thanhdtran/RME.git.","headline":"Regularizing Matrix Factorization With User And Item Embeddings For Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tran2018regularizing/"},"url":"https://learning2hash.github.io/publications/tran2018regularizing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ code are available at: https://github.com/thanhdtran/RME.git.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Regularizing Matrix Factorization With User And Item Embeddings For Recommendation",
         conference: "Proceedings of the 27th ACM International Conference on Information and Knowledge Management",
@@ -298,7 +297,6 @@ code are available at: https://github.com/thanhdtran/RME.git.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ code are available at: https://github.com/thanhdtran/RME.git.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

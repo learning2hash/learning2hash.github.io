@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dutkiewicz2017novel/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Novel Ranking-based Lexical Similarity Measure For Word Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Distributional semantics models derive word space from linguistic items in context. Meaning is obtained by defining a distance measure between vectors corresponding to lexical entities. Such vectors present several problems. In this paper we provide a guideline for post process improvements to the baseline vectors. We focus on refining the similarity aspect, address imperfections of the model by applying the hubness reduction method, implementing relational knowledge into the model, and providing a new ranking similarity definition that give maximum weight to the top 1 component value. This feature ranking is similar to the one used in information retrieval. All these enrichments outperform current literature results for joint ESL and TOEF sets comparison. Since single word embedding is a basic element of any semantic task one can expect a significant improvement of results for these tasks. Moreover, our improved method of text processing can be translated to continuous distributed representation of biological sequences for deep proteomics and genomics.","headline":"Novel Ranking-based Lexical Similarity Measure For Word Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dutkiewicz2017novel/"},"url":"https://learning2hash.github.io/publications/dutkiewicz2017novel/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Distributional semantics models derive word space from linguistic items in context. Meaning is obtained by defining a distance measure between vectors corresponding to lexical entities. Such vectors present several problems. In this paper we provide a guideline for post process improvements to the baseline vectors. We focus on refining the similarity aspect, address imperfections of the model by applying the hubness reduction method, implementing relational knowledge into the model, and providing a new ranking similarity definition that give maximum weight to the top 1 component value. This feature ranking is similar to the one used in information retrieval. All these enrichments outperform current literature results for joint ESL and TOEF sets comparison. Since single word embedding is a basic element of any semantic task one can expect a significant improvement of results for these tasks. Moreover, our improved method of text processing can be translated to continuous distributed representation of biological sequences for deep proteomics and genomics.","headline":"Novel Ranking-based Lexical Similarity Measure For Word Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dutkiewicz2017novel/"},"url":"https://learning2hash.github.io/publications/dutkiewicz2017novel/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -250,7 +250,6 @@ representation of biological sequences for deep proteomics and genomics.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Novel Ranking-based Lexical Similarity Measure For Word Embedding",
         conference: "Arxiv",
@@ -291,7 +290,6 @@ representation of biological sequences for deep proteomics and genomics.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -320,37 +318,38 @@ representation of biological sequences for deep proteomics and genomics.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

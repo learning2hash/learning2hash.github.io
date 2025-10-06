@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/henkel2023annotation/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Annotation Cost Efficient Active Learning For Content Based Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Deep metric learning (DML) based methods have been found very effective for content-based image retrieval (CBIR) in remote sensing (RS). For accurately learning the model parameters of deep neural networks, most of the DML methods require a high number of annotated training images, which can be costly to gather. To address this problem, in this paper we present an annotation cost efficient active learning (AL) method (denoted as ANNEAL). The proposed method aims to iteratively enrich the training set by annotating the most informative image pairs as similar or dissimilar, while accurately modelling a deep metric space. This is achieved by two consecutive steps. In the first step the pairwise image similarity is modelled based on the available training set. Then, in the second step the most uncertain and diverse (i.e., informative) image pairs are selected to be annotated. Unlike the existing AL methods for CBIR, at each AL iteration of ANNEAL a human expert is asked to annotate the most informative image pairs as similar/dissimilar. This significantly reduces the annotation cost compared to annotating images with land-use/land cover class labels. Experimental results show the effectiveness of our method. The code of ANNEAL is publicly available at https://git.tu-berlin.de/rsim/ANNEAL.","headline":"Annotation Cost Efficient Active Learning For Content Based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/henkel2023annotation/"},"url":"https://learning2hash.github.io/publications/henkel2023annotation/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Deep metric learning (DML) based methods have been found very effective for content-based image retrieval (CBIR) in remote sensing (RS). For accurately learning the model parameters of deep neural networks, most of the DML methods require a high number of annotated training images, which can be costly to gather. To address this problem, in this paper we present an annotation cost efficient active learning (AL) method (denoted as ANNEAL). The proposed method aims to iteratively enrich the training set by annotating the most informative image pairs as similar or dissimilar, while accurately modelling a deep metric space. This is achieved by two consecutive steps. In the first step the pairwise image similarity is modelled based on the available training set. Then, in the second step the most uncertain and diverse (i.e., informative) image pairs are selected to be annotated. Unlike the existing AL methods for CBIR, at each AL iteration of ANNEAL a human expert is asked to annotate the most informative image pairs as similar/dissimilar. This significantly reduces the annotation cost compared to annotating images with land-use/land cover class labels. Experimental results show the effectiveness of our method. The code of ANNEAL is publicly available at https://git.tu-berlin.de/rsim/ANNEAL.","headline":"Annotation Cost Efficient Active Learning For Content Based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/henkel2023annotation/"},"url":"https://learning2hash.github.io/publications/henkel2023annotation/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ code of ANNEAL is publicly available at https://git.tu-berlin.de/rsim/ANNEAL.</p
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Annotation Cost Efficient Active Learning For Content Based Image Retrieval",
         conference: "IGARSS 2023 - 2023 IEEE International Geoscience and Remote Sensing Symposium",
@@ -298,7 +297,6 @@ code of ANNEAL is publicly available at https://git.tu-berlin.de/rsim/ANNEAL.</p
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ code of ANNEAL is publicly available at https://git.tu-berlin.de/rsim/ANNEAL.</p
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

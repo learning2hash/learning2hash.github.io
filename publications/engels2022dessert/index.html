@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/engels2022dessert/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="DESSERT: An Efficient Algorithm For Vector Set Search With Vector Set Queries" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We study the problem of (\\textit{vector set search}) with (\\textit{vector set queries}). This task is analogous to traditional near-neighbor search, with the exception that both the query and each element in the collection are (\\textit{sets}) of vectors. We identify this problem as a core subroutine for semantic search applications and find that existing solutions are unacceptably slow. Towards this end, we present a new approximate search algorithm, DESSERT (({\\bf D})ESSERT ({\\bf E})ffeciently ({\\bf S})earches ({\\bf S})ets of ({\\bf E})mbeddings via ({\\bf R})etrieval ({\\bf T})ables). DESSERT is a general tool with strong theoretical guarantees and excellent empirical performance. When we integrate DESSERT into ColBERT, a state-of-the-art semantic search model, we find a 2-5x speedup on the MS MARCO and LoTTE retrieval benchmarks with minimal loss in recall, underscoring the effectiveness and practical applicability of our proposal.","headline":"DESSERT: An Efficient Algorithm For Vector Set Search With Vector Set Queries","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/engels2022dessert/"},"url":"https://learning2hash.github.io/publications/engels2022dessert/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We study the problem of (\\textit{vector set search}) with (\\textit{vector set queries}). This task is analogous to traditional near-neighbor search, with the exception that both the query and each element in the collection are (\\textit{sets}) of vectors. We identify this problem as a core subroutine for semantic search applications and find that existing solutions are unacceptably slow. Towards this end, we present a new approximate search algorithm, DESSERT (({\\bf D})ESSERT ({\\bf E})ffeciently ({\\bf S})earches ({\\bf S})ets of ({\\bf E})mbeddings via ({\\bf R})etrieval ({\\bf T})ables). DESSERT is a general tool with strong theoretical guarantees and excellent empirical performance. When we integrate DESSERT into ColBERT, a state-of-the-art semantic search model, we find a 2-5x speedup on the MS MARCO and LoTTE retrieval benchmarks with minimal loss in recall, underscoring the effectiveness and practical applicability of our proposal.","headline":"DESSERT: An Efficient Algorithm For Vector Set Search With Vector Set Queries","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/engels2022dessert/"},"url":"https://learning2hash.github.io/publications/engels2022dessert/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -251,7 +251,6 @@ our proposal.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "DESSERT: An Efficient Algorithm For Vector Set Search With Vector Set Queries",
         conference: "Arxiv",
@@ -292,7 +291,6 @@ our proposal.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -321,37 +319,38 @@ our proposal.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

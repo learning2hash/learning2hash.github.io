@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/schubert2020graph/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Graph-based Non-linear Least Squares Optimization For Visual Place Recognition In Changing Environments" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Visual place recognition is an important subproblem of mobile robot localization. Since it is a special case of image retrieval, the basic source of information is the pairwise similarity of image descriptors. However, the embedding of the image retrieval problem in this robotic task provides additional structure that can be exploited, e.g. spatio-temporal consistency. Several algorithms exist to exploit this structure, e.g., sequence processing approaches or descriptor standardization approaches for changing environments. In this paper, we propose a graph-based framework to systematically exploit different types of additional structure and information. The graphical model is used to formulate a non-linear least squares problem that can be optimized with standard tools. Beyond sequences and standardization, we propose the usage of intra-set similarities within the database and/or the query image set as additional source of information. If available, our approach also allows to seamlessly integrate additional knowledge about poses of database images. We evaluate the system on a variety of standard place recognition datasets and demonstrate performance improvements for a large number of different configurations including different sources of information, different types of constraints, and online or offline place recognition setups.","headline":"Graph-based Non-linear Least Squares Optimization For Visual Place Recognition In Changing Environments","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/schubert2020graph/"},"url":"https://learning2hash.github.io/publications/schubert2020graph/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Visual place recognition is an important subproblem of mobile robot localization. Since it is a special case of image retrieval, the basic source of information is the pairwise similarity of image descriptors. However, the embedding of the image retrieval problem in this robotic task provides additional structure that can be exploited, e.g. spatio-temporal consistency. Several algorithms exist to exploit this structure, e.g., sequence processing approaches or descriptor standardization approaches for changing environments. In this paper, we propose a graph-based framework to systematically exploit different types of additional structure and information. The graphical model is used to formulate a non-linear least squares problem that can be optimized with standard tools. Beyond sequences and standardization, we propose the usage of intra-set similarities within the database and/or the query image set as additional source of information. If available, our approach also allows to seamlessly integrate additional knowledge about poses of database images. We evaluate the system on a variety of standard place recognition datasets and demonstrate performance improvements for a large number of different configurations including different sources of information, different types of constraints, and online or offline place recognition setups.","headline":"Graph-based Non-linear Least Squares Optimization For Visual Place Recognition In Changing Environments","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/schubert2020graph/"},"url":"https://learning2hash.github.io/publications/schubert2020graph/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ constraints, and online or offline place recognition setups.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Graph-based Non-linear Least Squares Optimization For Visual Place Recognition In Changing Environments",
         conference: "IEEE Robotics and Automation Letters",
@@ -303,7 +302,6 @@ constraints, and online or offline place recognition setups.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ constraints, and online or offline place recognition setups.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

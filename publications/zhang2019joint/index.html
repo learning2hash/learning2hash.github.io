@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2019joint/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Joint Cluster Unary Loss For Efficient Cross-modal Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"With the rapid growth of various types of multimodal data, cross-modal deep hashing has received broad attention for solving cross-modal retrieval problems efficiently. Most cross-modal hashing methods follow the traditional supervised hashing framework in which the (O(n^2)) data pairs and (O(n^3)) data triplets are generated for training, but the training procedure is less efficient because the complexity is high for large-scale dataset. To address these issues, we propose a novel and efficient cross-modal hashing algorithm in which the unary loss is introduced. First of all, We introduce the Cross-Modal Unary Loss (CMUL) with (O(n)) complexity to bridge the traditional triplet loss and classification-based unary loss. A more accurate bound of the triplet loss for structured multilabel data is also proposed in CMUL. Second, we propose the novel Joint Cluster Cross-Modal Hashing (JCCH) algorithm for efficient hash learning, in which the CMUL is involved. The resultant hashcodes form several clusters in which the hashcodes in the same cluster share similar semantic information, and the heterogeneity gap on different modalities is diminished by sharing the clusters. The proposed algorithm is able to be applied to various types of data, and experiments on large-scale datasets show that the proposed method is superior over or comparable with state-of-the-art cross-modal hashing methods, and training with the proposed method is more efficient than others.","headline":"Joint Cluster Unary Loss For Efficient Cross-modal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2019joint/"},"url":"https://learning2hash.github.io/publications/zhang2019joint/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"With the rapid growth of various types of multimodal data, cross-modal deep hashing has received broad attention for solving cross-modal retrieval problems efficiently. Most cross-modal hashing methods follow the traditional supervised hashing framework in which the (O(n^2)) data pairs and (O(n^3)) data triplets are generated for training, but the training procedure is less efficient because the complexity is high for large-scale dataset. To address these issues, we propose a novel and efficient cross-modal hashing algorithm in which the unary loss is introduced. First of all, We introduce the Cross-Modal Unary Loss (CMUL) with (O(n)) complexity to bridge the traditional triplet loss and classification-based unary loss. A more accurate bound of the triplet loss for structured multilabel data is also proposed in CMUL. Second, we propose the novel Joint Cluster Cross-Modal Hashing (JCCH) algorithm for efficient hash learning, in which the CMUL is involved. The resultant hashcodes form several clusters in which the hashcodes in the same cluster share similar semantic information, and the heterogeneity gap on different modalities is diminished by sharing the clusters. The proposed algorithm is able to be applied to various types of data, and experiments on large-scale datasets show that the proposed method is superior over or comparable with state-of-the-art cross-modal hashing methods, and training with the proposed method is more efficient than others.","headline":"Joint Cluster Unary Loss For Efficient Cross-modal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2019joint/"},"url":"https://learning2hash.github.io/publications/zhang2019joint/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -267,7 +267,6 @@ methods, and training with the proposed method is more efficient than others.</p
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Joint Cluster Unary Loss For Efficient Cross-modal Hashing",
         conference: "Proceedings of the 2019 on International Conference on Multimedia Retrieval",
@@ -308,7 +307,6 @@ methods, and training with the proposed method is more efficient than others.</p
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -337,37 +335,38 @@ methods, and training with the proposed method is more efficient than others.</p
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

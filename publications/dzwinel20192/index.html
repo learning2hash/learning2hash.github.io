@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dzwinel20192/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="2-D Embedding Of Large And High-dimensional Data With Minimal Memory And Computational Time Requirements" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In the advent of big data era, interactive visualization of large data sets consisting of M*10^5+ high-dimensional feature vectors of length N (N ~ 10^3+), is an indispensable tool for data exploratory analysis. The state-of-the-art data embedding (DE) methods of N-D data into 2-D (3-D) visually perceptible space (e.g., based on t-SNE concept) are too demanding computationally to be efficiently employed for interactive data analytics of large and high-dimensional datasets. Herein we present a simple method, ivhd (interactive visualization of high-dimensional data tool), which radically outperforms the modern data-embedding algorithms in both computational and memory loads, while retaining high quality of N-D data embedding in 2-D (3-D). We show that DE problem is equivalent to the nearest neighbor nn-graph visualization, where only indices of a few nearest neighbors of each data sample has to be known, and binary distance between data samples – 0 to the nearest and 1 to the other samples – is defined. These improvements reduce the time-complexity and memory load from O(M log M) to O(M), and ensure minimal O(M) proportionality coefficient as well. We demonstrate high efficiency, quality and robustness of ivhd on popular benchmark datasets such as MNIST, 20NG, NORB and RCV1.","headline":"2-D Embedding Of Large And High-dimensional Data With Minimal Memory And Computational Time Requirements","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dzwinel20192/"},"url":"https://learning2hash.github.io/publications/dzwinel20192/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In the advent of big data era, interactive visualization of large data sets consisting of M*10^5+ high-dimensional feature vectors of length N (N ~ 10^3+), is an indispensable tool for data exploratory analysis. The state-of-the-art data embedding (DE) methods of N-D data into 2-D (3-D) visually perceptible space (e.g., based on t-SNE concept) are too demanding computationally to be efficiently employed for interactive data analytics of large and high-dimensional datasets. Herein we present a simple method, ivhd (interactive visualization of high-dimensional data tool), which radically outperforms the modern data-embedding algorithms in both computational and memory loads, while retaining high quality of N-D data embedding in 2-D (3-D). We show that DE problem is equivalent to the nearest neighbor nn-graph visualization, where only indices of a few nearest neighbors of each data sample has to be known, and binary distance between data samples – 0 to the nearest and 1 to the other samples – is defined. These improvements reduce the time-complexity and memory load from O(M log M) to O(M), and ensure minimal O(M) proportionality coefficient as well. We demonstrate high efficiency, quality and robustness of ivhd on popular benchmark datasets such as MNIST, 20NG, NORB and RCV1.","headline":"2-D Embedding Of Large And High-dimensional Data With Minimal Memory And Computational Time Requirements","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dzwinel20192/"},"url":"https://learning2hash.github.io/publications/dzwinel20192/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ ivhd on popular benchmark datasets such as MNIST, 20NG, NORB and RCV1.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "2-D Embedding Of Large And High-dimensional Data With Minimal Memory And Computational Time Requirements",
         conference: "Arxiv",
@@ -300,7 +299,6 @@ ivhd on popular benchmark datasets such as MNIST, 20NG, NORB and RCV1.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ ivhd on popular benchmark datasets such as MNIST, 20NG, NORB and RCV1.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

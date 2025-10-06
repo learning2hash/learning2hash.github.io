@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/linderman2017efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient Algorithms For T-distributed Stochastic Neighborhood Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"t-distributed Stochastic Neighborhood Embedding (t-SNE) is a method for dimensionality reduction and visualization that has become widely popular in recent years. Efficient implementations of t-SNE are available, but they scale poorly to datasets with hundreds of thousands to millions of high dimensional data-points. We present Fast Fourier Transform-accelerated Interpolation-based t-SNE (FIt-SNE), which dramatically accelerates the computation of t-SNE. The most time-consuming step of t-SNE is a convolution that we accelerate by interpolating onto an equispaced grid and subsequently using the fast Fourier transform to perform the convolution. We also optimize the computation of input similarities in high dimensions using multi-threaded approximate nearest neighbors. We further present a modification to t-SNE called “late exaggeration,” which allows for easier identification of clusters in t-SNE embeddings. Finally, for datasets that cannot be loaded into the memory, we present out-of-core randomized principal component analysis (oocPCA), so that the top principal components of a dataset can be computed without ever fully loading the matrix, hence allowing for t-SNE of large datasets to be computed on resource-limited machines.","headline":"Efficient Algorithms For T-distributed Stochastic Neighborhood Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/linderman2017efficient/"},"url":"https://learning2hash.github.io/publications/linderman2017efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"t-distributed Stochastic Neighborhood Embedding (t-SNE) is a method for dimensionality reduction and visualization that has become widely popular in recent years. Efficient implementations of t-SNE are available, but they scale poorly to datasets with hundreds of thousands to millions of high dimensional data-points. We present Fast Fourier Transform-accelerated Interpolation-based t-SNE (FIt-SNE), which dramatically accelerates the computation of t-SNE. The most time-consuming step of t-SNE is a convolution that we accelerate by interpolating onto an equispaced grid and subsequently using the fast Fourier transform to perform the convolution. We also optimize the computation of input similarities in high dimensions using multi-threaded approximate nearest neighbors. We further present a modification to t-SNE called “late exaggeration,” which allows for easier identification of clusters in t-SNE embeddings. Finally, for datasets that cannot be loaded into the memory, we present out-of-core randomized principal component analysis (oocPCA), so that the top principal components of a dataset can be computed without ever fully loading the matrix, hence allowing for t-SNE of large datasets to be computed on resource-limited machines.","headline":"Efficient Algorithms For T-distributed Stochastic Neighborhood Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/linderman2017efficient/"},"url":"https://learning2hash.github.io/publications/linderman2017efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +253,6 @@ on resource-limited machines.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Efficient Algorithms For T-distributed Stochastic Neighborhood Embedding",
         conference: "Nature Methods",
@@ -294,7 +293,6 @@ on resource-limited machines.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -323,37 +321,38 @@ on resource-limited machines.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

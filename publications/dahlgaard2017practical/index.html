@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dahlgaard2017practical/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Practical Hash Functions For Similarity Estimation And Dimensionality Reduction" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Hashing is a basic tool for dimensionality reduction employed in several aspects of machine learning. However, the perfomance analysis is often carried out under the abstract assumption that a truly random unit cost hash function is used, without concern for which concrete hash function is employed. The concrete hash function may work fine on sufficiently random input. The question is if it can be trusted in the real world when faced with more structured input. In this paper we focus on two prominent applications of hashing, namely similarity estimation with the one permutation hashing (OPH) scheme of Li et al. [NIPS’12] and feature hashing (FH) of Weinberger et al. [ICML’09], both of which have found numerous applications, i.e. in approximate near-neighbour search with LSH and large-scale classification with SVM. We consider mixed tabulation hashing of Dahlgaard et al.[FOCS’15] which was proved to perform like a truly random hash function in many applications, including OPH. Here we first show improved concentration bounds for FH with truly random hashing and then argue that mixed tabulation performs similar for sparse input. Our main contribution, however, is an experimental comparison of different hashing schemes when used inside FH, OPH, and LSH. We find that mixed tabulation hashing is almost as fast as the multiply-mod-prime scheme ax+b mod p. Mutiply-mod-prime is guaranteed to work well on sufficiently random data, but we demonstrate that in the above applications, it can lead to bias and poor concentration on both real-world and synthetic data. We also compare with the popular MurmurHash3, which has no proven guarantees. Mixed tabulation and MurmurHash3 both perform similar to truly random hashing in our experiments. However, mixed tabulation is 40% faster than MurmurHash3, and it has the proven guarantee of good performance on all possible input.","headline":"Practical Hash Functions For Similarity Estimation And Dimensionality Reduction","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dahlgaard2017practical/"},"url":"https://learning2hash.github.io/publications/dahlgaard2017practical/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Hashing is a basic tool for dimensionality reduction employed in several aspects of machine learning. However, the perfomance analysis is often carried out under the abstract assumption that a truly random unit cost hash function is used, without concern for which concrete hash function is employed. The concrete hash function may work fine on sufficiently random input. The question is if it can be trusted in the real world when faced with more structured input. In this paper we focus on two prominent applications of hashing, namely similarity estimation with the one permutation hashing (OPH) scheme of Li et al. [NIPS’12] and feature hashing (FH) of Weinberger et al. [ICML’09], both of which have found numerous applications, i.e. in approximate near-neighbour search with LSH and large-scale classification with SVM. We consider mixed tabulation hashing of Dahlgaard et al.[FOCS’15] which was proved to perform like a truly random hash function in many applications, including OPH. Here we first show improved concentration bounds for FH with truly random hashing and then argue that mixed tabulation performs similar for sparse input. Our main contribution, however, is an experimental comparison of different hashing schemes when used inside FH, OPH, and LSH. We find that mixed tabulation hashing is almost as fast as the multiply-mod-prime scheme ax+b mod p. Mutiply-mod-prime is guaranteed to work well on sufficiently random data, but we demonstrate that in the above applications, it can lead to bias and poor concentration on both real-world and synthetic data. We also compare with the popular MurmurHash3, which has no proven guarantees. Mixed tabulation and MurmurHash3 both perform similar to truly random hashing in our experiments. However, mixed tabulation is 40% faster than MurmurHash3, and it has the proven guarantee of good performance on all possible input.","headline":"Practical Hash Functions For Similarity Estimation And Dimensionality Reduction","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dahlgaard2017practical/"},"url":"https://learning2hash.github.io/publications/dahlgaard2017practical/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -269,7 +269,6 @@ all possible input.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Practical Hash Functions For Similarity Estimation And Dimensionality Reduction",
         conference: "Arxiv",
@@ -310,7 +309,6 @@ all possible input.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -339,37 +337,38 @@ all possible input.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

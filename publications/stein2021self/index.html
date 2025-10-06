@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/stein2021self/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Self-supervised Similarity Search For Large Scientific Datasets" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We present the use of self-supervised learning to explore and exploit large unlabeled datasets. Focusing on 42 million galaxy images from the latest data release of the Dark Energy Spectroscopic Instrument (DESI) Legacy Imaging Surveys, we first train a self-supervised model to distill low-dimensional representations that are robust to symmetries, uncertainties, and noise in each image. We then use the representations to construct and publicly release an interactive semantic similarity search tool. We demonstrate how our tool can be used to rapidly discover rare objects given only a single example, increase the speed of crowd-sourcing campaigns, and construct and improve training sets for supervised applications. While we focus on images from sky surveys, the technique is straightforward to apply to any scientific dataset of any dimensionality. The similarity search web app can be found at https://github.com/georgestein/galaxy_search","headline":"Self-supervised Similarity Search For Large Scientific Datasets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/stein2021self/"},"url":"https://learning2hash.github.io/publications/stein2021self/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We present the use of self-supervised learning to explore and exploit large unlabeled datasets. Focusing on 42 million galaxy images from the latest data release of the Dark Energy Spectroscopic Instrument (DESI) Legacy Imaging Surveys, we first train a self-supervised model to distill low-dimensional representations that are robust to symmetries, uncertainties, and noise in each image. We then use the representations to construct and publicly release an interactive semantic similarity search tool. We demonstrate how our tool can be used to rapidly discover rare objects given only a single example, increase the speed of crowd-sourcing campaigns, and construct and improve training sets for supervised applications. While we focus on images from sky surveys, the technique is straightforward to apply to any scientific dataset of any dimensionality. The similarity search web app can be found at https://github.com/georgestein/galaxy_search","headline":"Self-supervised Similarity Search For Large Scientific Datasets","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/stein2021self/"},"url":"https://learning2hash.github.io/publications/stein2021self/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ https://github.com/georgestein/galaxy_search</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Self-supervised Similarity Search For Large Scientific Datasets",
         conference: "Arxiv",
@@ -298,7 +297,6 @@ https://github.com/georgestein/galaxy_search</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ https://github.com/georgestein/galaxy_search</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

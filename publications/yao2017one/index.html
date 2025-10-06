@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yao2017one/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="One-shot Fine-grained Instance Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Fine-Grained Visual Categorization (FGVC) has achieved significant progress recently. However, the number of fine-grained species could be huge and dynamically increasing in real scenarios, making it difficult to recognize unseen objects under the current FGVC framework. This raises an open issue to perform large-scale fine-grained identification without a complete training set. Aiming to conquer this issue, we propose a retrieval task named One-Shot Fine-Grained Instance Retrieval (OSFGIR). “One-Shot” denotes the ability of identifying unseen objects through a fine-grained retrieval task assisted with an incomplete auxiliary training set. This paper first presents the detailed description to OSFGIR task and our collected OSFGIR-378K dataset. Next, we propose the Convolutional and Normalization Networks (CN-Nets) learned on the auxiliary dataset to generate a concise and discriminative representation. Finally, we present a coarse-to-fine retrieval framework consisting of three components, i.e., coarse retrieval, fine-grained retrieval, and query expansion, respectively. The framework progressively retrieves images with similar semantics, and performs fine-grained identification. Experiments show our OSFGIR framework achieves significantly better accuracy and efficiency than existing FGVC and image retrieval methods, thus could be a better solution for large-scale fine-grained object identification.","headline":"One-shot Fine-grained Instance Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yao2017one/"},"url":"https://learning2hash.github.io/publications/yao2017one/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Fine-Grained Visual Categorization (FGVC) has achieved significant progress recently. However, the number of fine-grained species could be huge and dynamically increasing in real scenarios, making it difficult to recognize unseen objects under the current FGVC framework. This raises an open issue to perform large-scale fine-grained identification without a complete training set. Aiming to conquer this issue, we propose a retrieval task named One-Shot Fine-Grained Instance Retrieval (OSFGIR). “One-Shot” denotes the ability of identifying unseen objects through a fine-grained retrieval task assisted with an incomplete auxiliary training set. This paper first presents the detailed description to OSFGIR task and our collected OSFGIR-378K dataset. Next, we propose the Convolutional and Normalization Networks (CN-Nets) learned on the auxiliary dataset to generate a concise and discriminative representation. Finally, we present a coarse-to-fine retrieval framework consisting of three components, i.e., coarse retrieval, fine-grained retrieval, and query expansion, respectively. The framework progressively retrieves images with similar semantics, and performs fine-grained identification. Experiments show our OSFGIR framework achieves significantly better accuracy and efficiency than existing FGVC and image retrieval methods, thus could be a better solution for large-scale fine-grained object identification.","headline":"One-shot Fine-grained Instance Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yao2017one/"},"url":"https://learning2hash.github.io/publications/yao2017one/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ large-scale fine-grained object identification.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "One-shot Fine-grained Instance Retrieval",
         conference: "Proceedings of the 25th ACM international conference on Multimedia",
@@ -304,7 +303,6 @@ large-scale fine-grained object identification.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ large-scale fine-grained object identification.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

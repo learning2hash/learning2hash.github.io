@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2022wl/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Wl-align: Weisfeiler-lehman Relabeling For Aligning Users Across Networks Via Regularized Representation Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Aligning users across networks using graph representation learning has been found effective where the alignment is accomplished in a low-dimensional embedding space. Yet, achieving highly precise alignment is still challenging, especially when nodes with long-range connectivity to the labeled anchors are encountered. To alleviate this limitation, we purposefully designed WL-Align which adopts a regularized representation learning framework to learn distinctive node representations. It extends the Weisfeiler-Lehman Isormorphism Test and learns the alignment in alternating phases of “across-network Weisfeiler-Lehman relabeling” and “proximity-preserving representation learning”. The across-network Weisfeiler-Lehman relabeling is achieved through iterating the anchor-based label propagation and a similarity-based hashing to exploit the known anchors’ connectivity to different nodes in an efficient and robust manner. The representation learning module preserves the second-order proximity within individual networks and is regularized by the across-network Weisfeiler-Lehman hash labels. Extensive experiments on real-world and synthetic datasets have demonstrated that our proposed WL-Align outperforms the state-of-the-art methods, achieving significant performance improvements in the “exact matching” scenario. Data and code of WL-Align are available at https://github.com/ChenPengGang/WLAlignCode.","headline":"Wl-align: Weisfeiler-lehman Relabeling For Aligning Users Across Networks Via Regularized Representation Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2022wl/"},"url":"https://learning2hash.github.io/publications/liu2022wl/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Aligning users across networks using graph representation learning has been found effective where the alignment is accomplished in a low-dimensional embedding space. Yet, achieving highly precise alignment is still challenging, especially when nodes with long-range connectivity to the labeled anchors are encountered. To alleviate this limitation, we purposefully designed WL-Align which adopts a regularized representation learning framework to learn distinctive node representations. It extends the Weisfeiler-Lehman Isormorphism Test and learns the alignment in alternating phases of “across-network Weisfeiler-Lehman relabeling” and “proximity-preserving representation learning”. The across-network Weisfeiler-Lehman relabeling is achieved through iterating the anchor-based label propagation and a similarity-based hashing to exploit the known anchors’ connectivity to different nodes in an efficient and robust manner. The representation learning module preserves the second-order proximity within individual networks and is regularized by the across-network Weisfeiler-Lehman hash labels. Extensive experiments on real-world and synthetic datasets have demonstrated that our proposed WL-Align outperforms the state-of-the-art methods, achieving significant performance improvements in the “exact matching” scenario. Data and code of WL-Align are available at https://github.com/ChenPengGang/WLAlignCode.","headline":"Wl-align: Weisfeiler-lehman Relabeling For Aligning Users Across Networks Via Regularized Representation Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2022wl/"},"url":"https://learning2hash.github.io/publications/liu2022wl/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ https://github.com/ChenPengGang/WLAlignCode.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Wl-align: Weisfeiler-lehman Relabeling For Aligning Users Across Networks Via Regularized Representation Learning",
         conference: "IEEE Transactions on Knowledge and Data Engineering",
@@ -304,7 +303,6 @@ https://github.com/ChenPengGang/WLAlignCode.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ https://github.com/ChenPengGang/WLAlignCode.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kalra2019yottixel/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Yottixel – An Image Search Engine For Large Archives Of Histopathology Whole Slide Images" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"With the emergence of digital pathology, searching for similar images in large archives has gained considerable attention. Image retrieval can provide pathologists with unprecedented access to the evidence embodied in already diagnosed and treated cases from the past. This paper proposes a search engine specialized for digital pathology, called Yottixel, a portmanteau for “one yotta pixel,” alluding to the big-data nature of histopathology images. The most impressive characteristic of Yottixel is its ability to represent whole slide images (WSIs) in a compact manner. Yottixel can perform millions of searches in real-time with a high search accuracy and low storage profile. Yottixel uses an intelligent indexing algorithm capable of representing WSIs with a mosaic of patches by converting them into a small number of methodically extracted barcodes, called “Bunch of Barcodes” (BoB), the most prominent performance enabler of Yottixel. The performance of the prototype platform is qualitatively tested using 300 WSIs from the University of Pittsburgh Medical Center (UPMC) and 2,020 WSIs from The Cancer Genome Atlas Program (TCGA) provided by the National Cancer Institute. Both datasets amount to more than 4,000,000 patches of 1000x1000 pixels. We report three sets of experiments that show that Yottixel can accurately retrieve organs and malignancies, and its semantic ordering shows good agreement with the subjective evaluation of human observers.","headline":"Yottixel – An Image Search Engine For Large Archives Of Histopathology Whole Slide Images","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kalra2019yottixel/"},"url":"https://learning2hash.github.io/publications/kalra2019yottixel/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"With the emergence of digital pathology, searching for similar images in large archives has gained considerable attention. Image retrieval can provide pathologists with unprecedented access to the evidence embodied in already diagnosed and treated cases from the past. This paper proposes a search engine specialized for digital pathology, called Yottixel, a portmanteau for “one yotta pixel,” alluding to the big-data nature of histopathology images. The most impressive characteristic of Yottixel is its ability to represent whole slide images (WSIs) in a compact manner. Yottixel can perform millions of searches in real-time with a high search accuracy and low storage profile. Yottixel uses an intelligent indexing algorithm capable of representing WSIs with a mosaic of patches by converting them into a small number of methodically extracted barcodes, called “Bunch of Barcodes” (BoB), the most prominent performance enabler of Yottixel. The performance of the prototype platform is qualitatively tested using 300 WSIs from the University of Pittsburgh Medical Center (UPMC) and 2,020 WSIs from The Cancer Genome Atlas Program (TCGA) provided by the National Cancer Institute. Both datasets amount to more than 4,000,000 patches of 1000x1000 pixels. We report three sets of experiments that show that Yottixel can accurately retrieve organs and malignancies, and its semantic ordering shows good agreement with the subjective evaluation of human observers.","headline":"Yottixel – An Image Search Engine For Large Archives Of Histopathology Whole Slide Images","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kalra2019yottixel/"},"url":"https://learning2hash.github.io/publications/kalra2019yottixel/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ observers.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Yottixel -- An Image Search Engine For Large Archives Of Histopathology Whole Slide Images",
         conference: "Medical Image Analysis",
@@ -303,7 +302,6 @@ observers.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ observers.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

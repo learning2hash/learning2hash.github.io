@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yao2019efficient/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Efficient Discrete Supervised Hashing For Large-scale Cross-modal Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Supervised cross-modal hashing has gained increasing research interest on large-scale retrieval task owning to its satisfactory performance and efficiency. However, it still has some challenging issues to be further studied: 1) most of them fail to well preserve the semantic correlations in hash codes because of the large heterogenous gap; 2) most of them relax the discrete constraint on hash codes, leading to large quantization error and consequent low performance; 3) most of them suffer from relatively high memory cost and computational complexity during training procedure, which makes them unscalable. In this paper, to address above issues, we propose a supervised cross-modal hashing method based on matrix factorization dubbed Efficient Discrete Supervised Hashing (EDSH). Specifically, collective matrix factorization on heterogenous features and semantic embedding with class labels are seamlessly integrated to learn hash codes. Therefore, the feature based similarities and semantic correlations can be both preserved in hash codes, which makes the learned hash codes more discriminative. Then an efficient discrete optimal algorithm is proposed to handle the scalable issue. Instead of learning hash codes bit-by-bit, hash codes matrix can be obtained directly which is more efficient. Extensive experimental results on three public real-world datasets demonstrate that EDSH produces a superior performance in both accuracy and scalability over some existing cross-modal hashing methods.","headline":"Efficient Discrete Supervised Hashing For Large-scale Cross-modal Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yao2019efficient/"},"url":"https://learning2hash.github.io/publications/yao2019efficient/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Supervised cross-modal hashing has gained increasing research interest on large-scale retrieval task owning to its satisfactory performance and efficiency. However, it still has some challenging issues to be further studied: 1) most of them fail to well preserve the semantic correlations in hash codes because of the large heterogenous gap; 2) most of them relax the discrete constraint on hash codes, leading to large quantization error and consequent low performance; 3) most of them suffer from relatively high memory cost and computational complexity during training procedure, which makes them unscalable. In this paper, to address above issues, we propose a supervised cross-modal hashing method based on matrix factorization dubbed Efficient Discrete Supervised Hashing (EDSH). Specifically, collective matrix factorization on heterogenous features and semantic embedding with class labels are seamlessly integrated to learn hash codes. Therefore, the feature based similarities and semantic correlations can be both preserved in hash codes, which makes the learned hash codes more discriminative. Then an efficient discrete optimal algorithm is proposed to handle the scalable issue. Instead of learning hash codes bit-by-bit, hash codes matrix can be obtained directly which is more efficient. Extensive experimental results on three public real-world datasets demonstrate that EDSH produces a superior performance in both accuracy and scalability over some existing cross-modal hashing methods.","headline":"Efficient Discrete Supervised Hashing For Large-scale Cross-modal Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yao2019efficient/"},"url":"https://learning2hash.github.io/publications/yao2019efficient/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -268,7 +268,6 @@ both accuracy and scalability over some existing cross-modal hashing methods.</p
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Efficient Discrete Supervised Hashing For Large-scale Cross-modal Retrieval",
         conference: "Neurocomputing",
@@ -309,7 +308,6 @@ both accuracy and scalability over some existing cross-modal hashing methods.</p
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -338,37 +336,38 @@ both accuracy and scalability over some existing cross-modal hashing methods.</p
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

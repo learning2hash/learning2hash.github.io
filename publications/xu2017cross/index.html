@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/xu2017cross/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Cross-modal Subspace Learning For Fine-grained Sketch-based Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Sketch-based image retrieval (SBIR) is challenging due to the inherent domain-gap between sketch and photo. Compared with pixel-perfect depictions of photos, sketches are iconic renderings of the real world with highly abstract. Therefore, matching sketch and photo directly using low-level visual clues are unsufficient, since a common low-level subspace that traverses semantically across the two modalities is non-trivial to establish. Most existing SBIR studies do not directly tackle this cross-modal problem. This naturally motivates us to explore the effectiveness of cross-modal retrieval methods in SBIR, which have been applied in the image-text matching successfully. In this paper, we introduce and compare a series of state-of-the-art cross-modal subspace learning methods and benchmark them on two recently released fine-grained SBIR datasets. Through thorough examination of the experimental results, we have demonstrated that the subspace learning can effectively model the sketch-photo domain-gap. In addition we draw a few key insights to drive future research.","headline":"Cross-modal Subspace Learning For Fine-grained Sketch-based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xu2017cross/"},"url":"https://learning2hash.github.io/publications/xu2017cross/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Sketch-based image retrieval (SBIR) is challenging due to the inherent domain-gap between sketch and photo. Compared with pixel-perfect depictions of photos, sketches are iconic renderings of the real world with highly abstract. Therefore, matching sketch and photo directly using low-level visual clues are unsufficient, since a common low-level subspace that traverses semantically across the two modalities is non-trivial to establish. Most existing SBIR studies do not directly tackle this cross-modal problem. This naturally motivates us to explore the effectiveness of cross-modal retrieval methods in SBIR, which have been applied in the image-text matching successfully. In this paper, we introduce and compare a series of state-of-the-art cross-modal subspace learning methods and benchmark them on two recently released fine-grained SBIR datasets. Through thorough examination of the experimental results, we have demonstrated that the subspace learning can effectively model the sketch-photo domain-gap. In addition we draw a few key insights to drive future research.","headline":"Cross-modal Subspace Learning For Fine-grained Sketch-based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/xu2017cross/"},"url":"https://learning2hash.github.io/publications/xu2017cross/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ future research.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Cross-modal Subspace Learning For Fine-grained Sketch-based Image Retrieval",
         conference: "Neurocomputing",
@@ -298,7 +297,6 @@ future research.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ future research.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

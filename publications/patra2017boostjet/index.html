@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/patra2017boostjet/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Boostjet: Towards Combining Statistical Aggregates With Neural Embeddings For Recommendations" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Recommenders have become widely popular in recent years because of their broader applicability in many e-commerce applications. These applications rely on recommenders for generating advertisements for various offers or providing content recommendations. However, the quality of the generated recommendations depends on user features (like demography, temporality), offer features (like popularity, price), and user-offer features (like implicit or explicit feedback). Current state-of-the-art recommenders do not explore such diverse features concurrently while generating the recommendations. In this paper, we first introduce the notion of Trackers which enables us to capture the above-mentioned features and thus incorporate users’ online behaviour through statistical aggregates of different features (demography, temporality, popularity, price). We also show how to capture offer-to-offer relations, based on their consumption sequence, leveraging neural embeddings for offers in our Offer2Vec algorithm. We then introduce BoostJet, a novel recommender which integrates the Trackers along with the neural embeddings using MatrixNet, an efficient distributed implementation of gradient boosted decision tree, to improve the recommendation quality significantly. We provide an in-depth evaluation of BoostJet on Yandex’s dataset, collecting online behaviour from tens of millions of online users, to demonstrate the practicality of BoostJet in terms of recommendation quality as well as scalability.","headline":"Boostjet: Towards Combining Statistical Aggregates With Neural Embeddings For Recommendations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/patra2017boostjet/"},"url":"https://learning2hash.github.io/publications/patra2017boostjet/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Recommenders have become widely popular in recent years because of their broader applicability in many e-commerce applications. These applications rely on recommenders for generating advertisements for various offers or providing content recommendations. However, the quality of the generated recommendations depends on user features (like demography, temporality), offer features (like popularity, price), and user-offer features (like implicit or explicit feedback). Current state-of-the-art recommenders do not explore such diverse features concurrently while generating the recommendations. In this paper, we first introduce the notion of Trackers which enables us to capture the above-mentioned features and thus incorporate users’ online behaviour through statistical aggregates of different features (demography, temporality, popularity, price). We also show how to capture offer-to-offer relations, based on their consumption sequence, leveraging neural embeddings for offers in our Offer2Vec algorithm. We then introduce BoostJet, a novel recommender which integrates the Trackers along with the neural embeddings using MatrixNet, an efficient distributed implementation of gradient boosted decision tree, to improve the recommendation quality significantly. We provide an in-depth evaluation of BoostJet on Yandex’s dataset, collecting online behaviour from tens of millions of online users, to demonstrate the practicality of BoostJet in terms of recommendation quality as well as scalability.","headline":"Boostjet: Towards Combining Statistical Aggregates With Neural Embeddings For Recommendations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/patra2017boostjet/"},"url":"https://learning2hash.github.io/publications/patra2017boostjet/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ scalability.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Boostjet: Towards Combining Statistical Aggregates With Neural Embeddings For Recommendations",
         conference: "Arxiv",
@@ -304,7 +303,6 @@ scalability.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ scalability.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

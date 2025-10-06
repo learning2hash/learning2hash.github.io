@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/tu2018object/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Object Detection Based Deep Unsupervised Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Recently, similarity-preserving hashing methods have been extensively studied for large-scale image retrieval. Compared with unsupervised hashing, supervised hashing methods for labeled data have usually better performance by utilizing semantic label information. Intuitively, for unlabeled data, it will improve the performance of unsupervised hashing methods if we can first mine some supervised semantic ‘label information’ from unlabeled data and then incorporate the ‘label information’ into the training process. Thus, in this paper, we propose a novel Object Detection based Deep Unsupervised Hashing method (ODDUH). Specifically, a pre-trained object detection model is utilized to mining supervised ‘label information’, which is used to guide the learning process to generate high-quality hash codes.Extensive experiments on two public datasets demonstrate that the proposed method outperforms the state-of-the-art unsupervised hashing methods in the image retrieval task.","headline":"Object Detection Based Deep Unsupervised Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tu2018object/"},"url":"https://learning2hash.github.io/publications/tu2018object/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Recently, similarity-preserving hashing methods have been extensively studied for large-scale image retrieval. Compared with unsupervised hashing, supervised hashing methods for labeled data have usually better performance by utilizing semantic label information. Intuitively, for unlabeled data, it will improve the performance of unsupervised hashing methods if we can first mine some supervised semantic ‘label information’ from unlabeled data and then incorporate the ‘label information’ into the training process. Thus, in this paper, we propose a novel Object Detection based Deep Unsupervised Hashing method (ODDUH). Specifically, a pre-trained object detection model is utilized to mining supervised ‘label information’, which is used to guide the learning process to generate high-quality hash codes.Extensive experiments on two public datasets demonstrate that the proposed method outperforms the state-of-the-art unsupervised hashing methods in the image retrieval task.","headline":"Object Detection Based Deep Unsupervised Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tu2018object/"},"url":"https://learning2hash.github.io/publications/tu2018object/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -265,7 +265,6 @@ unsupervised hashing methods in the image retrieval task.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Object Detection Based Deep Unsupervised Hashing",
         conference: "Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence",
@@ -306,7 +305,6 @@ unsupervised hashing methods in the image retrieval task.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -335,37 +333,38 @@ unsupervised hashing methods in the image retrieval task.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

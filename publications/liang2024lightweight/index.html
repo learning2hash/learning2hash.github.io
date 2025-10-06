@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liang2024lightweight/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Lightweight Embeddings For Graph Collaborative Filtering" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Graph neural networks (GNNs) are currently one of the most performant collaborative filtering methods. Meanwhile, owing to the use of an embedding table to represent each user/item as a distinct vector, GNN-based recommenders have inherited the long-standing defect of parameter inefficiency. As a common practice for scalable embeddings, parameter sharing enables the use of fewer embedding vectors (i.e., meta-embeddings). When assigning meta-embeddings, most existing methods are a heuristically designed, predefined mapping from each user’s/item’s ID to the corresponding meta-embedding indexes, thus simplifying the optimization problem into learning only the meta-embeddings. However, in the context of GNN-based collaborative filtering, such a fixed mapping omits the semantic correlations between entities that are evident in the user-item interaction graph, leading to suboptimal recommendation performance. To this end, we propose Lightweight Embeddings for Graph Collaborative Filtering (LEGCF), a parameter-efficient embedding framework dedicated to GNN-based recommenders. LEGCF innovatively introduces an assignment matrix as an extra learnable component on top of meta-embeddings. To jointly optimize these two heavily entangled components, aside from learning the meta-embeddings by minimizing the recommendation loss, LEGCF further performs efficient assignment update by enforcing a novel semantic similarity constraint and finding its closed-form solution based on matrix pseudo-inverse. The meta-embeddings and assignment matrix are alternately updated, where the latter is sparsified on the fly to ensure negligible storage overhead. Extensive experiments on three benchmark datasets have verified LEGCF’s smallest trade-off between size and performance, with consistent accuracy gain over state-of-the-art baselines. The codebase of LEGCF is available in https://github.com/xurong-liang/LEGCF.","headline":"Lightweight Embeddings For Graph Collaborative Filtering","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liang2024lightweight/"},"url":"https://learning2hash.github.io/publications/liang2024lightweight/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Graph neural networks (GNNs) are currently one of the most performant collaborative filtering methods. Meanwhile, owing to the use of an embedding table to represent each user/item as a distinct vector, GNN-based recommenders have inherited the long-standing defect of parameter inefficiency. As a common practice for scalable embeddings, parameter sharing enables the use of fewer embedding vectors (i.e., meta-embeddings). When assigning meta-embeddings, most existing methods are a heuristically designed, predefined mapping from each user’s/item’s ID to the corresponding meta-embedding indexes, thus simplifying the optimization problem into learning only the meta-embeddings. However, in the context of GNN-based collaborative filtering, such a fixed mapping omits the semantic correlations between entities that are evident in the user-item interaction graph, leading to suboptimal recommendation performance. To this end, we propose Lightweight Embeddings for Graph Collaborative Filtering (LEGCF), a parameter-efficient embedding framework dedicated to GNN-based recommenders. LEGCF innovatively introduces an assignment matrix as an extra learnable component on top of meta-embeddings. To jointly optimize these two heavily entangled components, aside from learning the meta-embeddings by minimizing the recommendation loss, LEGCF further performs efficient assignment update by enforcing a novel semantic similarity constraint and finding its closed-form solution based on matrix pseudo-inverse. The meta-embeddings and assignment matrix are alternately updated, where the latter is sparsified on the fly to ensure negligible storage overhead. Extensive experiments on three benchmark datasets have verified LEGCF’s smallest trade-off between size and performance, with consistent accuracy gain over state-of-the-art baselines. The codebase of LEGCF is available in https://github.com/xurong-liang/LEGCF.","headline":"Lightweight Embeddings For Graph Collaborative Filtering","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liang2024lightweight/"},"url":"https://learning2hash.github.io/publications/liang2024lightweight/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -271,7 +271,6 @@ codebase of LEGCF is available in https://github.com/xurong-liang/LEGCF.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Lightweight Embeddings For Graph Collaborative Filtering",
         conference: "Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval",
@@ -312,7 +311,6 @@ codebase of LEGCF is available in https://github.com/xurong-liang/LEGCF.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -341,37 +339,38 @@ codebase of LEGCF is available in https://github.com/xurong-liang/LEGCF.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

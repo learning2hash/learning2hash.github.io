@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/fauzi2020image/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Image Understanding And The Web" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The contextual information of Web images is investigated to address the issue of characterizing their content with semantic descriptors and therefore bridge the semantic gap, i.e. the gap between their automated low-level representation in terms of colors, textures, shapes. . . and their semantic interpretation. Such characterization allows for understanding the image content and is crucial in important Web-based tasks such as image indexing and retrieval. Although we are highly motivated by the availability of rich knowledge on the Web and the relative success achieved by commercial search engines in automatically characterizing the image content using contextual information in Web pages, we are aware that the unpredictable quality of the contextual information is a major limiting factor. Among the reasons explaining the difficulty to leverage on the image contextual information, some problems are related to the characterization and extraction of this information. Indeed, the first issue is the lack of large-scale studies to highlight what is considered the relevant contextual information of an image, where it is located in a Web page and whether it is consistent across Web pages of different types, content layouts and domains. Also, the matter related to the extraction of this contextual information is topical as state-of-the-art automated extraction tools are unable to handle the heterogeneous Web. As far as the processing of the contextual information is concerned, problems linked to the syntactic and semantic characterizations of the textual components are important to address in order to tackle the semantic gap. Furthermore, questions pertaining to the organization of these textual components into coherent structures that are usable in image indexing and retrieval frameworks shall arise.","headline":"Image Understanding And The Web","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fauzi2020image/"},"url":"https://learning2hash.github.io/publications/fauzi2020image/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The contextual information of Web images is investigated to address the issue of characterizing their content with semantic descriptors and therefore bridge the semantic gap, i.e. the gap between their automated low-level representation in terms of colors, textures, shapes. . . and their semantic interpretation. Such characterization allows for understanding the image content and is crucial in important Web-based tasks such as image indexing and retrieval. Although we are highly motivated by the availability of rich knowledge on the Web and the relative success achieved by commercial search engines in automatically characterizing the image content using contextual information in Web pages, we are aware that the unpredictable quality of the contextual information is a major limiting factor. Among the reasons explaining the difficulty to leverage on the image contextual information, some problems are related to the characterization and extraction of this information. Indeed, the first issue is the lack of large-scale studies to highlight what is considered the relevant contextual information of an image, where it is located in a Web page and whether it is consistent across Web pages of different types, content layouts and domains. Also, the matter related to the extraction of this contextual information is topical as state-of-the-art automated extraction tools are unable to handle the heterogeneous Web. As far as the processing of the contextual information is concerned, problems linked to the syntactic and semantic characterizations of the textual components are important to address in order to tackle the semantic gap. Furthermore, questions pertaining to the organization of these textual components into coherent structures that are usable in image indexing and retrieval frameworks shall arise.","headline":"Image Understanding And The Web","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fauzi2020image/"},"url":"https://learning2hash.github.io/publications/fauzi2020image/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -260,7 +260,6 @@ usable in image indexing and retrieval frameworks shall arise.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Image Understanding And The Web",
         conference: "Journal of Intelligent Information Systems",
@@ -301,7 +300,6 @@ usable in image indexing and retrieval frameworks shall arise.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -330,37 +328,38 @@ usable in image indexing and retrieval frameworks shall arise.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

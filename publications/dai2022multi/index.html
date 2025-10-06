@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dai2022multi/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multi-granularity Association Learning Framework For On-the-fly Fine-grained Sketch-based Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Fine-grained sketch-based image retrieval (FG-SBIR) addresses the problem of retrieving a particular photo in a given query sketch. However, its widespread applicability is limited by the fact that it is difficult to draw a complete sketch for most people, and the drawing process often takes time. In this study, we aim to retrieve the target photo with the least number of strokes possible (incomplete sketch), named on-the-fly FG-SBIR (Bhunia et al. 2020), which starts retrieving at each stroke as soon as the drawing begins. We consider that there is a significant correlation among these incomplete sketches in the sketch drawing episode of each photo. To learn more efficient joint embedding space shared between the photo and its incomplete sketches, we propose a multi-granularity association learning framework that further optimizes the embedding space of all incomplete sketches. Specifically, based on the integrity of the sketch, we can divide a complete sketch episode into several stages, each of which corresponds to a simple linear mapping layer. Moreover, our framework guides the vector space representation of the current sketch to approximate that of its later sketches to realize the retrieval performance of the sketch with fewer strokes to approach that of the sketch with more strokes. In the experiments, we proposed more realistic challenges, and our method achieved superior early retrieval efficiency over the state-of-the-art methods and alternative baselines on two publicly available fine-grained sketch retrieval datasets.","headline":"Multi-granularity Association Learning Framework For On-the-fly Fine-grained Sketch-based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dai2022multi/"},"url":"https://learning2hash.github.io/publications/dai2022multi/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Fine-grained sketch-based image retrieval (FG-SBIR) addresses the problem of retrieving a particular photo in a given query sketch. However, its widespread applicability is limited by the fact that it is difficult to draw a complete sketch for most people, and the drawing process often takes time. In this study, we aim to retrieve the target photo with the least number of strokes possible (incomplete sketch), named on-the-fly FG-SBIR (Bhunia et al. 2020), which starts retrieving at each stroke as soon as the drawing begins. We consider that there is a significant correlation among these incomplete sketches in the sketch drawing episode of each photo. To learn more efficient joint embedding space shared between the photo and its incomplete sketches, we propose a multi-granularity association learning framework that further optimizes the embedding space of all incomplete sketches. Specifically, based on the integrity of the sketch, we can divide a complete sketch episode into several stages, each of which corresponds to a simple linear mapping layer. Moreover, our framework guides the vector space representation of the current sketch to approximate that of its later sketches to realize the retrieval performance of the sketch with fewer strokes to approach that of the sketch with more strokes. In the experiments, we proposed more realistic challenges, and our method achieved superior early retrieval efficiency over the state-of-the-art methods and alternative baselines on two publicly available fine-grained sketch retrieval datasets.","headline":"Multi-granularity Association Learning Framework For On-the-fly Fine-grained Sketch-based Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dai2022multi/"},"url":"https://learning2hash.github.io/publications/dai2022multi/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -265,7 +265,6 @@ fine-grained sketch retrieval datasets.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Multi-granularity Association Learning Framework For On-the-fly Fine-grained Sketch-based Image Retrieval",
         conference: "Arxiv",
@@ -306,7 +305,6 @@ fine-grained sketch retrieval datasets.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -335,37 +333,38 @@ fine-grained sketch retrieval datasets.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

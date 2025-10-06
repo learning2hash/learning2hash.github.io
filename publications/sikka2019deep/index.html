@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/sikka2019deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Unified Multimodal Embeddings For Understanding Both Content And Users In Social Media Networks" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"There has been an explosion of multimodal content generated on social media networks in the last few years, which has necessitated a deeper understanding of social media content and user behavior. We present a novel content-independent content-user-reaction model for social multimedia content analysis. Compared to prior works that generally tackle semantic content understanding and user behavior modeling in isolation, we propose a generalized solution to these problems within a unified framework. We embed users, images and text drawn from open social media in a common multimodal geometric space, using a novel loss function designed to cope with distant and disparate modalities, and thereby enable seamless three-way retrieval. Our model not only outperforms unimodal embedding based methods on cross-modal retrieval tasks but also shows improvements stemming from jointly solving the two tasks on Twitter data. We also show that the user embeddings learned within our joint multimodal embedding model are better at predicting user interests compared to those learned with unimodal content on Instagram data. Our framework thus goes beyond the prior practice of using explicit leader-follower link information to establish affiliations by extracting implicit content-centric affiliations from isolated users. We provide qualitative results to show that the user clusters emerging from learned embeddings have consistent semantics and the ability of our model to discover fine-grained semantics from noisy and unstructured data. Our work reveals that social multimodal content is inherently multimodal and possesses a consistent structure because in social networks meaning is created through interactions between users and content.","headline":"Deep Unified Multimodal Embeddings For Understanding Both Content And Users In Social Media Networks","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sikka2019deep/"},"url":"https://learning2hash.github.io/publications/sikka2019deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"There has been an explosion of multimodal content generated on social media networks in the last few years, which has necessitated a deeper understanding of social media content and user behavior. We present a novel content-independent content-user-reaction model for social multimedia content analysis. Compared to prior works that generally tackle semantic content understanding and user behavior modeling in isolation, we propose a generalized solution to these problems within a unified framework. We embed users, images and text drawn from open social media in a common multimodal geometric space, using a novel loss function designed to cope with distant and disparate modalities, and thereby enable seamless three-way retrieval. Our model not only outperforms unimodal embedding based methods on cross-modal retrieval tasks but also shows improvements stemming from jointly solving the two tasks on Twitter data. We also show that the user embeddings learned within our joint multimodal embedding model are better at predicting user interests compared to those learned with unimodal content on Instagram data. Our framework thus goes beyond the prior practice of using explicit leader-follower link information to establish affiliations by extracting implicit content-centric affiliations from isolated users. We provide qualitative results to show that the user clusters emerging from learned embeddings have consistent semantics and the ability of our model to discover fine-grained semantics from noisy and unstructured data. Our work reveals that social multimodal content is inherently multimodal and possesses a consistent structure because in social networks meaning is created through interactions between users and content.","headline":"Deep Unified Multimodal Embeddings For Understanding Both Content And Users In Social Media Networks","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sikka2019deep/"},"url":"https://learning2hash.github.io/publications/sikka2019deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +261,6 @@ through interactions between users and content.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Deep Unified Multimodal Embeddings For Understanding Both Content And Users In Social Media Networks",
         conference: "Arxiv",
@@ -302,7 +301,6 @@ through interactions between users and content.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -331,37 +329,38 @@ through interactions between users and content.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

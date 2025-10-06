@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2019furnishing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Furnishing Your Room By What You See: An End-to-end Furniture Set Retrieval Framework With Rich Annotated Benchmark Dataset" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Understanding interior scenes has attracted enormous interest in computer vision community. However, few works focus on the understanding of furniture within the scenes and a large-scale dataset is also lacked to advance the field. In this paper, we first fill the gap by presenting DeepFurniture, a richly annotated large indoor scene dataset, including 24k indoor images, 170k furniture instances and 20k unique furniture identities. On the dataset, we introduce a new benchmark, named furniture set retrieval. Given an indoor photo as input, the task requires to detect all the furniture instances and search a matched set of furniture identities. To address this challenging task, we propose a feature and context embedding based framework. It contains 3 major contributions: (1) An improved Mask-RCNN model with an additional mask-based classifier is introduced for better utilizing the mask information to relieve the occlusion problems in furniture detection context. (2) A multi-task style Siamese network is proposed to train the feature embedding model for retrieval, which is composed of a classification subnet supervised by self-clustered pseudo attributes and a verification subnet to estimate whether the input pair is matched. (3) In order to model the relationship of the furniture entities in an interior design, a context embedding model is employed to re-rank the retrieval results. Extensive experiments demonstrate the effectiveness of each module and the overall system.","headline":"Furnishing Your Room By What You See: An End-to-end Furniture Set Retrieval Framework With Rich Annotated Benchmark Dataset","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2019furnishing/"},"url":"https://learning2hash.github.io/publications/liu2019furnishing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Understanding interior scenes has attracted enormous interest in computer vision community. However, few works focus on the understanding of furniture within the scenes and a large-scale dataset is also lacked to advance the field. In this paper, we first fill the gap by presenting DeepFurniture, a richly annotated large indoor scene dataset, including 24k indoor images, 170k furniture instances and 20k unique furniture identities. On the dataset, we introduce a new benchmark, named furniture set retrieval. Given an indoor photo as input, the task requires to detect all the furniture instances and search a matched set of furniture identities. To address this challenging task, we propose a feature and context embedding based framework. It contains 3 major contributions: (1) An improved Mask-RCNN model with an additional mask-based classifier is introduced for better utilizing the mask information to relieve the occlusion problems in furniture detection context. (2) A multi-task style Siamese network is proposed to train the feature embedding model for retrieval, which is composed of a classification subnet supervised by self-clustered pseudo attributes and a verification subnet to estimate whether the input pair is matched. (3) In order to model the relationship of the furniture entities in an interior design, a context embedding model is employed to re-rank the retrieval results. Extensive experiments demonstrate the effectiveness of each module and the overall system.","headline":"Furnishing Your Room By What You See: An End-to-end Furniture Set Retrieval Framework With Rich Annotated Benchmark Dataset","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2019furnishing/"},"url":"https://learning2hash.github.io/publications/liu2019furnishing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ module and the overall system.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Furnishing Your Room By What You See: An End-to-end Furniture Set Retrieval Framework With Rich Annotated Benchmark Dataset",
         conference: "Arxiv",
@@ -305,7 +304,6 @@ module and the overall system.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ module and the overall system.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

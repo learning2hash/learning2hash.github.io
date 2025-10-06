@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/cakir2015adaptive/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Adaptive Hashing For Fast Similarity Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"With the staggering growth in image and video datasets, algorithms that provide fast similarity search and compact storage are crucial. Hashing methods that map the data into Hamming space have shown promise; however, many of these methods employ a batch-learning strategy in which the computational cost and memory requirements may become intractable and infeasible with larger and larger datasets. To overcome these challenges, we propose an online learning algorithm based on stochastic gradient descent in which the hash functions are updated iteratively with streaming data. In experiments with three image retrieval benchmarks, our online algorithm attains retrieval accuracy that is comparable to competing state-of-the-art batch-learning solutions, while our formulation is orders of magnitude faster and being online it is adaptable to the variations of the data. Moreover, our formulation yields improved retrieval performance over a recently reported online hashing technique, Online Kernel Hashing.","headline":"Adaptive Hashing For Fast Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/cakir2015adaptive/"},"url":"https://learning2hash.github.io/publications/cakir2015adaptive/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"With the staggering growth in image and video datasets, algorithms that provide fast similarity search and compact storage are crucial. Hashing methods that map the data into Hamming space have shown promise; however, many of these methods employ a batch-learning strategy in which the computational cost and memory requirements may become intractable and infeasible with larger and larger datasets. To overcome these challenges, we propose an online learning algorithm based on stochastic gradient descent in which the hash functions are updated iteratively with streaming data. In experiments with three image retrieval benchmarks, our online algorithm attains retrieval accuracy that is comparable to competing state-of-the-art batch-learning solutions, while our formulation is orders of magnitude faster and being online it is adaptable to the variations of the data. Moreover, our formulation yields improved retrieval performance over a recently reported online hashing technique, Online Kernel Hashing.","headline":"Adaptive Hashing For Fast Similarity Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/cakir2015adaptive/"},"url":"https://learning2hash.github.io/publications/cakir2015adaptive/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ hashing technique, Online Kernel Hashing.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Adaptive Hashing For Fast Similarity Search",
         conference: "2015 IEEE International Conference on Computer Vision (ICCV)",
@@ -305,7 +304,6 @@ hashing technique, Online Kernel Hashing.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ hashing technique, Online Kernel Hashing.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

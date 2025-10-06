@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/delfino2025kannolo/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Kannolo: Sweet And Smooth Approximate K-nearest Neighbors Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Approximate Nearest Neighbors (ANN) search is a crucial task in several applications like recommender systems and information retrieval. Current state-of-the-art ANN libraries, although being performance-oriented, often lack modularity and ease of use. This translates into them not being fully suitable for easy prototyping and testing of research ideas, an important feature to enable. We address these limitations by introducing kANNolo, a novel research-oriented ANN library written in Rust and explicitly designed to combine usability with performance effectively. kANNolo is the first ANN library that supports dense and sparse vector representations made available on top of different similarity measures, e.g., euclidean distance and inner product. Moreover, it also supports vector quantization techniques, e.g., Product Quantization, on top of the indexing strategies implemented. These functionalities are managed through Rust traits, allowing shared behaviors to be handled abstractly. This abstraction ensures flexibility and facilitates an easy integration of new components. In this work, we detail the architecture of kANNolo and demonstrate that its flexibility does not compromise performance. The experimental analysis shows that kANNolo achieves state-of-the-art performance in terms of speed-accuracy trade-off while allowing fast and easy prototyping, thus making kANNolo a valuable tool for advancing ANN research. Source code available on GitHub: https://github.com/TusKANNy/kannolo.","headline":"Kannolo: Sweet And Smooth Approximate K-nearest Neighbors Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/delfino2025kannolo/"},"url":"https://learning2hash.github.io/publications/delfino2025kannolo/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Approximate Nearest Neighbors (ANN) search is a crucial task in several applications like recommender systems and information retrieval. Current state-of-the-art ANN libraries, although being performance-oriented, often lack modularity and ease of use. This translates into them not being fully suitable for easy prototyping and testing of research ideas, an important feature to enable. We address these limitations by introducing kANNolo, a novel research-oriented ANN library written in Rust and explicitly designed to combine usability with performance effectively. kANNolo is the first ANN library that supports dense and sparse vector representations made available on top of different similarity measures, e.g., euclidean distance and inner product. Moreover, it also supports vector quantization techniques, e.g., Product Quantization, on top of the indexing strategies implemented. These functionalities are managed through Rust traits, allowing shared behaviors to be handled abstractly. This abstraction ensures flexibility and facilitates an easy integration of new components. In this work, we detail the architecture of kANNolo and demonstrate that its flexibility does not compromise performance. The experimental analysis shows that kANNolo achieves state-of-the-art performance in terms of speed-accuracy trade-off while allowing fast and easy prototyping, thus making kANNolo a valuable tool for advancing ANN research. Source code available on GitHub: https://github.com/TusKANNy/kannolo.","headline":"Kannolo: Sweet And Smooth Approximate K-nearest Neighbors Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/delfino2025kannolo/"},"url":"https://learning2hash.github.io/publications/delfino2025kannolo/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -266,7 +266,6 @@ Source code available on GitHub: https://github.com/TusKANNy/kannolo.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Kannolo: Sweet And Smooth Approximate K-nearest Neighbors Search",
         conference: "Lecture Notes in Computer Science",
@@ -307,7 +306,6 @@ Source code available on GitHub: https://github.com/TusKANNy/kannolo.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -336,37 +334,38 @@ Source code available on GitHub: https://github.com/TusKANNy/kannolo.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

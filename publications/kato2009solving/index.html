@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kato2009solving/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Solving (k)-nearest Neighbor Problem On Multiple Graphics Processors" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The recommendation system is a software system to predict customers’ unknown preferences from known preferences. In the recommendation system, customers’ preferences are encoded into vectors, and finding the nearest vectors to each vector is an essential part. This vector-searching part of the problem is called a (k)-nearest neighbor problem. We give an effective algorithm to solve this problem on multiple graphics processor units (GPUs). Our algorithm consists of two parts: an (N)-body problem and a partial sort. For a algorithm of the (N)-body problem, we applied the idea of a known algorithm for the (N)-body problem in physics, although another trick is need to overcome the problem of small sized shared memory. For the partial sort, we give a novel GPU algorithm which is effective for small (k). In our partial sort algorithm, a heap is accessed in parallel by threads with a low cost of synchronization. Both of these two parts of our algorithm utilize maximal power of coalesced memory access, so that a full bandwidth is achieved. By an experiment, we show that when the size of the problem is large, an implementation of the algorithm on two GPUs runs more than 330 times faster than a single core implementation on a latest CPU. We also show that our algorithm scales well with respect to the number of GPUs.","headline":"Solving (k)-nearest Neighbor Problem On Multiple Graphics Processors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kato2009solving/"},"url":"https://learning2hash.github.io/publications/kato2009solving/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The recommendation system is a software system to predict customers’ unknown preferences from known preferences. In the recommendation system, customers’ preferences are encoded into vectors, and finding the nearest vectors to each vector is an essential part. This vector-searching part of the problem is called a (k)-nearest neighbor problem. We give an effective algorithm to solve this problem on multiple graphics processor units (GPUs). Our algorithm consists of two parts: an (N)-body problem and a partial sort. For a algorithm of the (N)-body problem, we applied the idea of a known algorithm for the (N)-body problem in physics, although another trick is need to overcome the problem of small sized shared memory. For the partial sort, we give a novel GPU algorithm which is effective for small (k). In our partial sort algorithm, a heap is accessed in parallel by threads with a low cost of synchronization. Both of these two parts of our algorithm utilize maximal power of coalesced memory access, so that a full bandwidth is achieved. By an experiment, we show that when the size of the problem is large, an implementation of the algorithm on two GPUs runs more than 330 times faster than a single core implementation on a latest CPU. We also show that our algorithm scales well with respect to the number of GPUs.","headline":"Solving (k)-nearest Neighbor Problem On Multiple Graphics Processors","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kato2009solving/"},"url":"https://learning2hash.github.io/publications/kato2009solving/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -254,7 +254,6 @@ algorithm scales well with respect to the number of GPUs.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Solving \\(k\\)-nearest Neighbor Problem On Multiple Graphics Processors",
         conference: "2010 10th IEEE/ACM International Conference on Cluster, Cloud and Grid Computing",
@@ -295,7 +294,6 @@ algorithm scales well with respect to the number of GPUs.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -324,37 +322,38 @@ algorithm scales well with respect to the number of GPUs.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

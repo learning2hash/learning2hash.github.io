@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/gourru2020document/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Document Network Projection In Pretrained Word Embedding Space" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We present Regularized Linear Embedding (RLE), a novel method that projects a collection of linked documents (e.g. citation network) into a pretrained word embedding space. In addition to the textual content, we leverage a matrix of pairwise similarities providing complementary information (e.g., the network proximity of two documents in a citation graph). We first build a simple word vector average for each document, and we use the similarities to alter this average representation. The document representations can help to solve many information retrieval tasks, such as recommendation, classification and clustering. We demonstrate that our approach outperforms or matches existing document network embedding methods on node classification and link prediction tasks. Furthermore, we show that it helps identifying relevant keywords to describe document classes.","headline":"Document Network Projection In Pretrained Word Embedding Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gourru2020document/"},"url":"https://learning2hash.github.io/publications/gourru2020document/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We present Regularized Linear Embedding (RLE), a novel method that projects a collection of linked documents (e.g. citation network) into a pretrained word embedding space. In addition to the textual content, we leverage a matrix of pairwise similarities providing complementary information (e.g., the network proximity of two documents in a citation graph). We first build a simple word vector average for each document, and we use the similarities to alter this average representation. The document representations can help to solve many information retrieval tasks, such as recommendation, classification and clustering. We demonstrate that our approach outperforms or matches existing document network embedding methods on node classification and link prediction tasks. Furthermore, we show that it helps identifying relevant keywords to describe document classes.","headline":"Document Network Projection In Pretrained Word Embedding Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gourru2020document/"},"url":"https://learning2hash.github.io/publications/gourru2020document/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -248,7 +248,6 @@ describe document classes.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Document Network Projection In Pretrained Word Embedding Space",
         conference: "Lecture Notes in Computer Science",
@@ -289,7 +288,6 @@ describe document classes.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -318,37 +316,38 @@ describe document classes.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

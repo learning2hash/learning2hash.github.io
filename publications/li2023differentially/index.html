@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2023differentially/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Differentially Private One Permutation Hashing And Bin-wise Consistent Weighted Sampling" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Minwise hashing (MinHash) is a standard algorithm widely used in the industry, for large-scale search and learning applications with the binary (0/1) Jaccard similarity. One common use of MinHash is for processing massive n-gram text representations so that practitioners do not have to materialize the original data (which would be prohibitive). Another popular use of MinHash is for building hash tables to enable sub-linear time approximate near neighbor (ANN) search. MinHash has also been used as a tool for building large-scale machine learning systems. The standard implementation of MinHash requires applying (K) random permutations. In comparison, the method of one permutation hashing (OPH), is an efficient alternative of MinHash which splits the data vectors into (K) bins and generates hash values within each bin. OPH is substantially more efficient and also more convenient to use. In this paper, we combine the differential privacy (DP) with OPH (as well as MinHash), to propose the DP-OPH framework with three variants: DP-OPH-fix, DP-OPH-re and DP-OPH-rand, depending on which densification strategy is adopted to deal with empty bins in OPH. A detailed roadmap to the algorithm design is presented along with the privacy analysis. An analytical comparison of our proposed DP-OPH methods with the DP minwise hashing (DP-MH) is provided to justify the advantage of DP-OPH. Experiments on similarity search confirm the merits of DP-OPH, and guide the choice of the proper variant in different practical scenarios. Our technique is also extended to bin-wise consistent weighted sampling (BCWS) to develop a new DP algorithm called DP-BCWS for non-binary data. Experiments on classification tasks demonstrate that DP-BCWS is able to achieve excellent utility at around (\\epsilon = 5\\sim 10), where (\\epsilon) is the standard parameter in the language of ((\\epsilon, \\delta))-DP.","headline":"Differentially Private One Permutation Hashing And Bin-wise Consistent Weighted Sampling","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2023differentially/"},"url":"https://learning2hash.github.io/publications/li2023differentially/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Minwise hashing (MinHash) is a standard algorithm widely used in the industry, for large-scale search and learning applications with the binary (0/1) Jaccard similarity. One common use of MinHash is for processing massive n-gram text representations so that practitioners do not have to materialize the original data (which would be prohibitive). Another popular use of MinHash is for building hash tables to enable sub-linear time approximate near neighbor (ANN) search. MinHash has also been used as a tool for building large-scale machine learning systems. The standard implementation of MinHash requires applying (K) random permutations. In comparison, the method of one permutation hashing (OPH), is an efficient alternative of MinHash which splits the data vectors into (K) bins and generates hash values within each bin. OPH is substantially more efficient and also more convenient to use. In this paper, we combine the differential privacy (DP) with OPH (as well as MinHash), to propose the DP-OPH framework with three variants: DP-OPH-fix, DP-OPH-re and DP-OPH-rand, depending on which densification strategy is adopted to deal with empty bins in OPH. A detailed roadmap to the algorithm design is presented along with the privacy analysis. An analytical comparison of our proposed DP-OPH methods with the DP minwise hashing (DP-MH) is provided to justify the advantage of DP-OPH. Experiments on similarity search confirm the merits of DP-OPH, and guide the choice of the proper variant in different practical scenarios. Our technique is also extended to bin-wise consistent weighted sampling (BCWS) to develop a new DP algorithm called DP-BCWS for non-binary data. Experiments on classification tasks demonstrate that DP-BCWS is able to achieve excellent utility at around (\\epsilon = 5\\sim 10), where (\\epsilon) is the standard parameter in the language of ((\\epsilon, \\delta))-DP.","headline":"Differentially Private One Permutation Hashing And Bin-wise Consistent Weighted Sampling","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2023differentially/"},"url":"https://learning2hash.github.io/publications/li2023differentially/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -276,7 +276,6 @@ is able to achieve excellent utility at around (\epsilon = 5\sim 10), where
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Differentially Private One Permutation Hashing And Bin-wise Consistent Weighted Sampling",
         conference: "Arxiv",
@@ -317,7 +316,6 @@ is able to achieve excellent utility at around (\epsilon = 5\sim 10), where
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -346,37 +344,38 @@ is able to achieve excellent utility at around (\epsilon = 5\sim 10), where
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

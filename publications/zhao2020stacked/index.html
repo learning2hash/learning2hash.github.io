@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhao2020stacked/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Stacked Convolutional Deep Encoding Network For Video-text Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Existing dominant approaches for cross-modal video-text retrieval task are to learn a joint embedding space to measure the cross-modal similarity. However, these methods rarely explore long-range dependency inside video frames or textual words leading to insufficient textual and visual details. In this paper, we propose a stacked convolutional deep encoding network for video-text retrieval task, which considers to simultaneously encode long-range and short-range dependency in the videos and texts. Specifically, a multi-scale dilated convolutional (MSDC) block within our approach is able to encode short-range temporal cues between video frames or text words by adopting different scales of kernel size and dilation size of convolutional layer. A stacked structure is designed to expand the receptive fields by repeatedly adopting the MSDC block, which further captures the long-range relations between these cues. Moreover, to obtain more robust textual representations, we fully utilize the powerful language model named Transformer in two stages: pretraining phrase and fine-tuning phrase. Extensive experiments on two different benchmark datasets (MSR-VTT, MSVD) show that our proposed method outperforms other state-of-the-art approaches.","headline":"Stacked Convolutional Deep Encoding Network For Video-text Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhao2020stacked/"},"url":"https://learning2hash.github.io/publications/zhao2020stacked/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Existing dominant approaches for cross-modal video-text retrieval task are to learn a joint embedding space to measure the cross-modal similarity. However, these methods rarely explore long-range dependency inside video frames or textual words leading to insufficient textual and visual details. In this paper, we propose a stacked convolutional deep encoding network for video-text retrieval task, which considers to simultaneously encode long-range and short-range dependency in the videos and texts. Specifically, a multi-scale dilated convolutional (MSDC) block within our approach is able to encode short-range temporal cues between video frames or text words by adopting different scales of kernel size and dilation size of convolutional layer. A stacked structure is designed to expand the receptive fields by repeatedly adopting the MSDC block, which further captures the long-range relations between these cues. Moreover, to obtain more robust textual representations, we fully utilize the powerful language model named Transformer in two stages: pretraining phrase and fine-tuning phrase. Extensive experiments on two different benchmark datasets (MSR-VTT, MSVD) show that our proposed method outperforms other state-of-the-art approaches.","headline":"Stacked Convolutional Deep Encoding Network For Video-text Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhao2020stacked/"},"url":"https://learning2hash.github.io/publications/zhao2020stacked/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ outperforms other state-of-the-art approaches.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Stacked Convolutional Deep Encoding Network For Video-text Retrieval",
         conference: "2020 IEEE International Conference on Multimedia and Expo (ICME)",
@@ -298,7 +297,6 @@ outperforms other state-of-the-art approaches.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ outperforms other state-of-the-art approaches.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

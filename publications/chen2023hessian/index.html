@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chen2023hessian/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hessian-aware Quantized Node Embeddings For Recommendation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Graph Neural Networks (GNNs) have achieved state-of-the-art performance in recommender systems. Nevertheless, the process of searching and ranking from a large item corpus usually requires high latency, which limits the widespread deployment of GNNs in industry-scale applications. To address this issue, many methods compress user/item representations into the binary embedding space to reduce space requirements and accelerate inference. Also, they use the Straight-through Estimator (STE) to prevent vanishing gradients during back-propagation. However, the STE often causes the gradient mismatch problem, leading to sub-optimal results. In this work, we present the Hessian-aware Quantized GNN (HQ-GNN) as an effective solution for discrete representations of users/items that enable fast retrieval. HQ-GNN is composed of two components: a GNN encoder for learning continuous node embeddings and a quantized module for compressing full-precision embeddings into low-bit ones. Consequently, HQ-GNN benefits from both lower memory requirements and faster inference speeds compared to vanilla GNNs. To address the gradient mismatch problem in STE, we further consider the quantized errors and its second-order derivatives for better stability. The experimental results on several large-scale datasets show that HQ-GNN achieves a good balance between latency and performance.","headline":"Hessian-aware Quantized Node Embeddings For Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2023hessian/"},"url":"https://learning2hash.github.io/publications/chen2023hessian/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Graph Neural Networks (GNNs) have achieved state-of-the-art performance in recommender systems. Nevertheless, the process of searching and ranking from a large item corpus usually requires high latency, which limits the widespread deployment of GNNs in industry-scale applications. To address this issue, many methods compress user/item representations into the binary embedding space to reduce space requirements and accelerate inference. Also, they use the Straight-through Estimator (STE) to prevent vanishing gradients during back-propagation. However, the STE often causes the gradient mismatch problem, leading to sub-optimal results. In this work, we present the Hessian-aware Quantized GNN (HQ-GNN) as an effective solution for discrete representations of users/items that enable fast retrieval. HQ-GNN is composed of two components: a GNN encoder for learning continuous node embeddings and a quantized module for compressing full-precision embeddings into low-bit ones. Consequently, HQ-GNN benefits from both lower memory requirements and faster inference speeds compared to vanilla GNNs. To address the gradient mismatch problem in STE, we further consider the quantized errors and its second-order derivatives for better stability. The experimental results on several large-scale datasets show that HQ-GNN achieves a good balance between latency and performance.","headline":"Hessian-aware Quantized Node Embeddings For Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2023hessian/"},"url":"https://learning2hash.github.io/publications/chen2023hessian/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ a good balance between latency and performance.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Hessian-aware Quantized Node Embeddings For Recommendation",
         conference: "Proceedings of the 17th ACM Conference on Recommender Systems",
@@ -304,7 +303,6 @@ a good balance between latency and performance.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ a good balance between latency and performance.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

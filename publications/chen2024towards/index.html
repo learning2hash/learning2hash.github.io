@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chen2024towards/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Towards Effective Top-n Hamming Search Via Bipartite Graph Contrastive Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Searching on bipartite graphs serves as a fundamental task for various real-world applications, such as recommendation systems, database retrieval, and document querying. Conventional approaches rely on similarity matching in continuous Euclidean space of vectorized node embeddings. To handle intensive similarity computation efficiently, hashing techniques for graph-structured data have emerged as a prominent research direction. However, despite the retrieval efficiency in Hamming space, previous studies have encountered catastrophic performance decay. To address this challenge, we investigate the problem of hashing with Graph Convolutional Network for effective Top-N search. Our findings indicate the learning effectiveness of incorporating hashing techniques within the exploration of bipartite graph reception fields, as opposed to simply treating hashing as post-processing to output embeddings. To further enhance the model performance, we advance upon these findings and propose Bipartite Graph Contrastive Hashing (BGCH+). BGCH+ introduces a novel dual augmentation approach to both intermediate information and hash code outputs in the latent feature spaces, thereby producing more expressive and robust hash codes within a dual self-supervised learning paradigm. Comprehensive empirical analyses on six real-world benchmarks validate the effectiveness of our dual feature contrastive learning in boosting the performance of BGCH+ compared to existing approaches.","headline":"Towards Effective Top-n Hamming Search Via Bipartite Graph Contrastive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2024towards/"},"url":"https://learning2hash.github.io/publications/chen2024towards/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Searching on bipartite graphs serves as a fundamental task for various real-world applications, such as recommendation systems, database retrieval, and document querying. Conventional approaches rely on similarity matching in continuous Euclidean space of vectorized node embeddings. To handle intensive similarity computation efficiently, hashing techniques for graph-structured data have emerged as a prominent research direction. However, despite the retrieval efficiency in Hamming space, previous studies have encountered catastrophic performance decay. To address this challenge, we investigate the problem of hashing with Graph Convolutional Network for effective Top-N search. Our findings indicate the learning effectiveness of incorporating hashing techniques within the exploration of bipartite graph reception fields, as opposed to simply treating hashing as post-processing to output embeddings. To further enhance the model performance, we advance upon these findings and propose Bipartite Graph Contrastive Hashing (BGCH+). BGCH+ introduces a novel dual augmentation approach to both intermediate information and hash code outputs in the latent feature spaces, thereby producing more expressive and robust hash codes within a dual self-supervised learning paradigm. Comprehensive empirical analyses on six real-world benchmarks validate the effectiveness of our dual feature contrastive learning in boosting the performance of BGCH+ compared to existing approaches.","headline":"Towards Effective Top-n Hamming Search Via Bipartite Graph Contrastive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2024towards/"},"url":"https://learning2hash.github.io/publications/chen2024towards/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -268,7 +268,6 @@ performance of BGCH+ compared to existing approaches.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Towards Effective Top-n Hamming Search Via Bipartite Graph Contrastive Hashing",
         conference: "IEEE Transactions on Knowledge and Data Engineering",
@@ -309,7 +308,6 @@ performance of BGCH+ compared to existing approaches.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -338,37 +336,38 @@ performance of BGCH+ compared to existing approaches.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ji2023hierarchical/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hierarchical Matching And Reasoning For Multi-query Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"As a promising field, Multi-Query Image Retrieval (MQIR) aims at searching for the semantically relevant image given multiple region-specific text queries. Existing works mainly focus on a single-level similarity between image regions and text queries, which neglects the hierarchical guidance of multi-level similarities and results in incomplete alignments. Besides, the high-level semantic correlations that intrinsically connect different region-query pairs are rarely considered. To address above limitations, we propose a novel Hierarchical Matching and Reasoning Network (HMRN) for MQIR. It disentangles MQIR into three hierarchical semantic representations, which is responsible to capture fine-grained local details, contextual global scopes, and high-level inherent correlations. HMRN comprises two modules: Scalar-based Matching (SM) module and Vector-based Reasoning (VR) module. Specifically, the SM module characterizes the multi-level alignment similarity, which consists of a fine-grained local-level similarity and a context-aware global-level similarity. Afterwards, the VR module is developed to excavate the potential semantic correlations among multiple region-query pairs, which further explores the high-level reasoning similarity. Finally, these three-level similarities are aggregated into a joint similarity space to form the ultimate similarity. Extensive experiments on the benchmark dataset demonstrate that our HMRN substantially surpasses the current state-of-the-art methods. For instance, compared with the existing best method Drill-down, the metric R@1 in the last round is improved by 23.4%. Our source codes will be released at https://github.com/LZH-053/HMRN.","headline":"Hierarchical Matching And Reasoning For Multi-query Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ji2023hierarchical/"},"url":"https://learning2hash.github.io/publications/ji2023hierarchical/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"As a promising field, Multi-Query Image Retrieval (MQIR) aims at searching for the semantically relevant image given multiple region-specific text queries. Existing works mainly focus on a single-level similarity between image regions and text queries, which neglects the hierarchical guidance of multi-level similarities and results in incomplete alignments. Besides, the high-level semantic correlations that intrinsically connect different region-query pairs are rarely considered. To address above limitations, we propose a novel Hierarchical Matching and Reasoning Network (HMRN) for MQIR. It disentangles MQIR into three hierarchical semantic representations, which is responsible to capture fine-grained local details, contextual global scopes, and high-level inherent correlations. HMRN comprises two modules: Scalar-based Matching (SM) module and Vector-based Reasoning (VR) module. Specifically, the SM module characterizes the multi-level alignment similarity, which consists of a fine-grained local-level similarity and a context-aware global-level similarity. Afterwards, the VR module is developed to excavate the potential semantic correlations among multiple region-query pairs, which further explores the high-level reasoning similarity. Finally, these three-level similarities are aggregated into a joint similarity space to form the ultimate similarity. Extensive experiments on the benchmark dataset demonstrate that our HMRN substantially surpasses the current state-of-the-art methods. For instance, compared with the existing best method Drill-down, the metric R@1 in the last round is improved by 23.4%. Our source codes will be released at https://github.com/LZH-053/HMRN.","headline":"Hierarchical Matching And Reasoning For Multi-query Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ji2023hierarchical/"},"url":"https://learning2hash.github.io/publications/ji2023hierarchical/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -265,7 +265,6 @@ https://github.com/LZH-053/HMRN.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Hierarchical Matching And Reasoning For Multi-query Image Retrieval",
         conference: "Neural Networks",
@@ -306,7 +305,6 @@ https://github.com/LZH-053/HMRN.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -335,37 +333,38 @@ https://github.com/LZH-053/HMRN.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

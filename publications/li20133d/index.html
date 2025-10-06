@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li20133d/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="3D Model Retrieval Using Global And Local Radial Distances" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"3D model retrieval techniques can be classified as histogram-based, view-based and graph-based approaches. We propose a hybrid shape descriptor which combines the global and local radial distance features by utilizing the histogram-based and view-based approaches respectively. We define an area-weighted global radial distance with respect to the center of the bounding sphere of the model and encode its distribution into a 2D histogram as the global radial distance shape descriptor. We then uniformly divide the bounding cube of a 3D model into a set of small cubes and define their centers as local centers. Then, we compute the local radial distance of a point based on the nearest local center. By sparsely sampling a set of views and encoding the local radial distance feature on the rendered views by color coding, we extract the local radial distance shape descriptor. Based on these two shape descriptors, we develop a hybrid radial distance shape descriptor for 3D model retrieval. Experiment results show that our hybrid shape descriptor outperforms several typical histogram-based and view-based approaches.","headline":"3D Model Retrieval Using Global And Local Radial Distances","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li20133d/"},"url":"https://learning2hash.github.io/publications/li20133d/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"3D model retrieval techniques can be classified as histogram-based, view-based and graph-based approaches. We propose a hybrid shape descriptor which combines the global and local radial distance features by utilizing the histogram-based and view-based approaches respectively. We define an area-weighted global radial distance with respect to the center of the bounding sphere of the model and encode its distribution into a 2D histogram as the global radial distance shape descriptor. We then uniformly divide the bounding cube of a 3D model into a set of small cubes and define their centers as local centers. Then, we compute the local radial distance of a point based on the nearest local center. By sparsely sampling a set of views and encoding the local radial distance feature on the rendered views by color coding, we extract the local radial distance shape descriptor. Based on these two shape descriptors, we develop a hybrid radial distance shape descriptor for 3D model retrieval. Experiment results show that our hybrid shape descriptor outperforms several typical histogram-based and view-based approaches.","headline":"3D Model Retrieval Using Global And Local Radial Distances","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li20133d/"},"url":"https://learning2hash.github.io/publications/li20133d/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -251,7 +251,6 @@ several typical histogram-based and view-based approaches.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "3D Model Retrieval Using Global And Local Radial Distances",
         conference: "The International Workshop on Advanced Image Technology (IWAIT2010) 2010",
@@ -292,7 +291,6 @@ several typical histogram-based and view-based approaches.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -321,37 +319,38 @@ several typical histogram-based and view-based approaches.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

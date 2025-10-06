@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chen2025learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Binarized Representations With Pseudo-positive Sample Enhancement For Efficient Graph Collaborative Filtering" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Learning vectorized embeddings is fundamental to many recommender systems for user-item matching. To enable efficient online inference, representation binarization, which embeds latent features into compact binary sequences, has recently shown significant promise in optimizing both memory usage and computational overhead. However, existing approaches primarily focus on numerical quantization, neglecting the associated information loss, which often results in noticeable performance degradation. To address these issues, we study the problem of graph representation binarization for efficient collaborative filtering. Our findings indicate that explicitly mitigating information loss at various stages of embedding binarization has a significant positive impact on performance. Building on these insights, we propose an enhanced framework, BiGeaR++, which specifically leverages supervisory signals from pseudo-positive samples, incorporating both real item data and latent embedding samples. Compared to its predecessor BiGeaR, BiGeaR++ introduces a fine-grained inference distillation mechanism and an effective embedding sample synthesis approach. Empirical evaluations across five real-world datasets demonstrate that the new designs in BiGeaR++ work seamlessly well with other modules, delivering substantial improvements of around 1%-10% over BiGeaR and thus achieving state-of-the-art performance compared to the competing methods. Our implementation is available at https://github.com/QueYork/BiGeaR-SS.","headline":"Learning Binarized Representations With Pseudo-positive Sample Enhancement For Efficient Graph Collaborative Filtering","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2025learning/"},"url":"https://learning2hash.github.io/publications/chen2025learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Learning vectorized embeddings is fundamental to many recommender systems for user-item matching. To enable efficient online inference, representation binarization, which embeds latent features into compact binary sequences, has recently shown significant promise in optimizing both memory usage and computational overhead. However, existing approaches primarily focus on numerical quantization, neglecting the associated information loss, which often results in noticeable performance degradation. To address these issues, we study the problem of graph representation binarization for efficient collaborative filtering. Our findings indicate that explicitly mitigating information loss at various stages of embedding binarization has a significant positive impact on performance. Building on these insights, we propose an enhanced framework, BiGeaR++, which specifically leverages supervisory signals from pseudo-positive samples, incorporating both real item data and latent embedding samples. Compared to its predecessor BiGeaR, BiGeaR++ introduces a fine-grained inference distillation mechanism and an effective embedding sample synthesis approach. Empirical evaluations across five real-world datasets demonstrate that the new designs in BiGeaR++ work seamlessly well with other modules, delivering substantial improvements of around 1%-10% over BiGeaR and thus achieving state-of-the-art performance compared to the competing methods. Our implementation is available at https://github.com/QueYork/BiGeaR-SS.","headline":"Learning Binarized Representations With Pseudo-positive Sample Enhancement For Efficient Graph Collaborative Filtering","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2025learning/"},"url":"https://learning2hash.github.io/publications/chen2025learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -249,7 +249,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Learning Binarized Representations With Pseudo-positive Sample Enhancement For Efficient Graph Collaborative Filtering",
         conference: "ACM Transactions on Information Systems",
@@ -290,7 +289,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -319,37 +317,38 @@ document.addEventListener('DOMContentLoaded', function () {
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

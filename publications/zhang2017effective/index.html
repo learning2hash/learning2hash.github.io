@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2017effective/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Effective Image Retrieval Via Multilinear Multi-index Fusion" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Multi-index fusion has demonstrated impressive performances in retrieval task by integrating different visual representations in a unified framework. However, previous works mainly consider propagating similarities via neighbor structure, ignoring the high order information among different visual representations. In this paper, we propose a new multi-index fusion scheme for image retrieval. By formulating this procedure as a multilinear based optimization problem, the complementary information hidden in different indexes can be explored more thoroughly. Specially, we first build our multiple indexes from various visual representations. Then a so-called index-specific functional matrix, which aims to propagate similarities, is introduced for updating the original index. The functional matrices are then optimized in a unified tensor space to achieve a refinement, such that the relevant images can be pushed more closer. The optimization problem can be efficiently solved by the augmented Lagrangian method with theoretical convergence guarantee. Unlike the traditional multi-index fusion scheme, our approach embeds the multi-index subspace structure into the new indexes with sparse constraint, thus it has little additional memory consumption in online query stage. Experimental evaluation on three benchmark datasets reveals that the proposed approach achieves the state-of-the-art performance, i.e., N-score 3.94 on UKBench, mAP 94.1% on Holiday and 62.39% on Market-1501.","headline":"Effective Image Retrieval Via Multilinear Multi-index Fusion","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2017effective/"},"url":"https://learning2hash.github.io/publications/zhang2017effective/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Multi-index fusion has demonstrated impressive performances in retrieval task by integrating different visual representations in a unified framework. However, previous works mainly consider propagating similarities via neighbor structure, ignoring the high order information among different visual representations. In this paper, we propose a new multi-index fusion scheme for image retrieval. By formulating this procedure as a multilinear based optimization problem, the complementary information hidden in different indexes can be explored more thoroughly. Specially, we first build our multiple indexes from various visual representations. Then a so-called index-specific functional matrix, which aims to propagate similarities, is introduced for updating the original index. The functional matrices are then optimized in a unified tensor space to achieve a refinement, such that the relevant images can be pushed more closer. The optimization problem can be efficiently solved by the augmented Lagrangian method with theoretical convergence guarantee. Unlike the traditional multi-index fusion scheme, our approach embeds the multi-index subspace structure into the new indexes with sparse constraint, thus it has little additional memory consumption in online query stage. Experimental evaluation on three benchmark datasets reveals that the proposed approach achieves the state-of-the-art performance, i.e., N-score 3.94 on UKBench, mAP 94.1% on Holiday and 62.39% on Market-1501.","headline":"Effective Image Retrieval Via Multilinear Multi-index Fusion","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2017effective/"},"url":"https://learning2hash.github.io/publications/zhang2017effective/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ achieves the state-of-the-art performance, i.e., N-score 3.94 on UKBench, mAP
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Effective Image Retrieval Via Multilinear Multi-index Fusion",
         conference: "IEEE Transactions on Multimedia",
@@ -305,7 +304,6 @@ achieves the state-of-the-art performance, i.e., N-score 3.94 on UKBench, mAP
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ achieves the state-of-the-art performance, i.e., N-score 3.94 on UKBench, mAP
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

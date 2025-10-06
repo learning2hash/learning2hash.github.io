@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2018sch/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="SCH-GAN: Semi-supervised Cross-modal Hashing By Generative Adversarial Network" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Cross-modal hashing aims to map heterogeneous multimedia data into a common Hamming space, which can realize fast and flexible retrieval across different modalities. Supervised cross-modal hashing methods have achieved considerable progress by incorporating semantic side information. However, they mainly have two limitations: (1) Heavily rely on large-scale labeled cross-modal training data which are labor intensive and hard to obtain. (2) Ignore the rich information contained in the large amount of unlabeled data across different modalities, especially the margin examples that are easily to be incorrectly retrieved, which can help to model the correlations. To address these problems, in this paper we propose a novel Semi-supervised Cross-Modal Hashing approach by Generative Adversarial Network (SCH-GAN). We aim to take advantage of GAN’s ability for modeling data distributions to promote cross-modal hashing learning in an adversarial way. The main contributions can be summarized as follows: (1) We propose a novel generative adversarial network for cross-modal hashing. In our proposed SCH-GAN, the generative model tries to select margin examples of one modality from unlabeled data when giving a query of another modality. While the discriminative model tries to distinguish the selected examples and true positive examples of the query. These two models play a minimax game so that the generative model can promote the hashing performance of discriminative model. (2) We propose a reinforcement learning based algorithm to drive the training of proposed SCH-GAN. The generative model takes the correlation score predicted by discriminative model as a reward, and tries to select the examples close to the margin to promote discriminative model by maximizing the margin between positive and negative data. Experiments on 3 widely-used datasets verify the effectiveness of our proposed approach.","headline":"SCH-GAN: Semi-supervised Cross-modal Hashing By Generative Adversarial Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2018sch/"},"url":"https://learning2hash.github.io/publications/zhang2018sch/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Cross-modal hashing aims to map heterogeneous multimedia data into a common Hamming space, which can realize fast and flexible retrieval across different modalities. Supervised cross-modal hashing methods have achieved considerable progress by incorporating semantic side information. However, they mainly have two limitations: (1) Heavily rely on large-scale labeled cross-modal training data which are labor intensive and hard to obtain. (2) Ignore the rich information contained in the large amount of unlabeled data across different modalities, especially the margin examples that are easily to be incorrectly retrieved, which can help to model the correlations. To address these problems, in this paper we propose a novel Semi-supervised Cross-Modal Hashing approach by Generative Adversarial Network (SCH-GAN). We aim to take advantage of GAN’s ability for modeling data distributions to promote cross-modal hashing learning in an adversarial way. The main contributions can be summarized as follows: (1) We propose a novel generative adversarial network for cross-modal hashing. In our proposed SCH-GAN, the generative model tries to select margin examples of one modality from unlabeled data when giving a query of another modality. While the discriminative model tries to distinguish the selected examples and true positive examples of the query. These two models play a minimax game so that the generative model can promote the hashing performance of discriminative model. (2) We propose a reinforcement learning based algorithm to drive the training of proposed SCH-GAN. The generative model takes the correlation score predicted by discriminative model as a reward, and tries to select the examples close to the margin to promote discriminative model by maximizing the margin between positive and negative data. Experiments on 3 widely-used datasets verify the effectiveness of our proposed approach.","headline":"SCH-GAN: Semi-supervised Cross-modal Hashing By Generative Adversarial Network","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2018sch/"},"url":"https://learning2hash.github.io/publications/zhang2018sch/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -271,7 +271,6 @@ verify the effectiveness of our proposed approach.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "SCH-GAN: Semi-supervised Cross-modal Hashing By Generative Adversarial Network",
         conference: "IEEE Transactions on Cybernetics",
@@ -312,7 +311,6 @@ verify the effectiveness of our proposed approach.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -341,37 +339,38 @@ verify the effectiveness of our proposed approach.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

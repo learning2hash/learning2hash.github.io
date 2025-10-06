@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/um2023vector/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Vector Embeddings By Sequence Similarity And Context For Improved Compression, Similarity Search, Clustering, Organization, And Manipulation Of Cdna Libraries" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"This paper demonstrates the utility of organized numerical representations of genes in research involving flat string gene formats (i.e., FASTA/FASTQ5). FASTA/FASTQ files have several current limitations, such as their large file sizes, slow processing speeds for mapping and alignment, and contextual dependencies. These challenges significantly hinder investigations and tasks that involve finding similar sequences. The solution lies in transforming sequences into an alternative representation that facilitates easier clustering into similar groups compared to the raw sequences themselves. By assigning a unique vector embedding to each short sequence, it is possible to more efficiently cluster and improve upon compression performance for the string representations of cDNA libraries. Furthermore, through learning alternative coordinate vector embeddings based on the contexts of codon triplets, we can demonstrate clustering based on amino acid properties. Finally, using this sequence embedding method to encode barcodes and cDNA sequences, we can improve the time complexity of the similarity search by coupling vector embeddings with an algorithm that determines the proximity of vectors in Euclidean space; this allows us to perform sequence similarity searches in a quicker and more modular fashion.","headline":"Vector Embeddings By Sequence Similarity And Context For Improved Compression, Similarity Search, Clustering, Organization, And Manipulation Of Cdna Libraries","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/um2023vector/"},"url":"https://learning2hash.github.io/publications/um2023vector/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"This paper demonstrates the utility of organized numerical representations of genes in research involving flat string gene formats (i.e., FASTA/FASTQ5). FASTA/FASTQ files have several current limitations, such as their large file sizes, slow processing speeds for mapping and alignment, and contextual dependencies. These challenges significantly hinder investigations and tasks that involve finding similar sequences. The solution lies in transforming sequences into an alternative representation that facilitates easier clustering into similar groups compared to the raw sequences themselves. By assigning a unique vector embedding to each short sequence, it is possible to more efficiently cluster and improve upon compression performance for the string representations of cDNA libraries. Furthermore, through learning alternative coordinate vector embeddings based on the contexts of codon triplets, we can demonstrate clustering based on amino acid properties. Finally, using this sequence embedding method to encode barcodes and cDNA sequences, we can improve the time complexity of the similarity search by coupling vector embeddings with an algorithm that determines the proximity of vectors in Euclidean space; this allows us to perform sequence similarity searches in a quicker and more modular fashion.","headline":"Vector Embeddings By Sequence Similarity And Context For Improved Compression, Similarity Search, Clustering, Organization, And Manipulation Of Cdna Libraries","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/um2023vector/"},"url":"https://learning2hash.github.io/publications/um2023vector/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,7 +256,6 @@ fashion.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Vector Embeddings By Sequence Similarity And Context For Improved Compression, Similarity Search, Clustering, Organization, And Manipulation Of Cdna Libraries",
         conference: "Computational Biology and Chemistry",
@@ -297,7 +296,6 @@ fashion.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -326,37 +324,38 @@ fashion.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

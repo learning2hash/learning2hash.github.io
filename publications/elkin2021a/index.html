@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/elkin2021a/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="A New Near-linear Time Algorithm For K-nearest Neighbor Search Using A Compressed Cover Tree" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Given a reference set (R) of (n) points and a query set (Q) of (m) points in a metric space, this paper studies an important problem of finding (k)-nearest neighbors of every point (q \\in Q) in the set (R) in a near-linear time. In the paper at ICML 2006, Beygelzimer, Kakade, and Langford introduced a cover tree on (R) and attempted to prove that this tree can be built in (O(nlog n)) time while the nearest neighbor search can be done in (O(nlog m)) time with a hidden dimensionality factor. This paper fills a substantial gap in the past proofs of time complexity by defining a simpler compressed cover tree on the reference set (R). The first new algorithm constructs a compressed cover tree in (O(n log n)) time. The second new algorithm finds all (k)-nearest neighbors of all points from (Q) using a compressed cover tree in time (O(m(k+log n)log k)) with a hidden dimensionality factor depending on point distributions of the given sets (R,Q) but not on their sizes.","headline":"A New Near-linear Time Algorithm For K-nearest Neighbor Search Using A Compressed Cover Tree","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/elkin2021a/"},"url":"https://learning2hash.github.io/publications/elkin2021a/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Given a reference set (R) of (n) points and a query set (Q) of (m) points in a metric space, this paper studies an important problem of finding (k)-nearest neighbors of every point (q \\in Q) in the set (R) in a near-linear time. In the paper at ICML 2006, Beygelzimer, Kakade, and Langford introduced a cover tree on (R) and attempted to prove that this tree can be built in (O(nlog n)) time while the nearest neighbor search can be done in (O(nlog m)) time with a hidden dimensionality factor. This paper fills a substantial gap in the past proofs of time complexity by defining a simpler compressed cover tree on the reference set (R). The first new algorithm constructs a compressed cover tree in (O(n log n)) time. The second new algorithm finds all (k)-nearest neighbors of all points from (Q) using a compressed cover tree in time (O(m(k+log n)log k)) with a hidden dimensionality factor depending on point distributions of the given sets (R,Q) but not on their sizes.","headline":"A New Near-linear Time Algorithm For K-nearest Neighbor Search Using A Compressed Cover Tree","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/elkin2021a/"},"url":"https://learning2hash.github.io/publications/elkin2021a/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -249,7 +249,6 @@ given sets (R,Q) but not on their sizes.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "A New Near-linear Time Algorithm For K-nearest Neighbor Search Using A Compressed Cover Tree",
         conference: "Arxiv",
@@ -290,7 +289,6 @@ given sets (R,Q) but not on their sizes.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -319,37 +317,38 @@ given sets (R,Q) but not on their sizes.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

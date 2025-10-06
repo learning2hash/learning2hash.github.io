@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yang2015beyond/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Beyond Classification: Latent User Interests Profiling From Visual Contents Analysis" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"User preference profiling is an important task in modern online social networks (OSN). With the proliferation of image-centric social platforms, such as Pinterest, visual contents have become one of the most informative data streams for understanding user preferences. Traditional approaches usually treat visual content analysis as a general classification problem where one or more labels are assigned to each image. Although such an approach simplifies the process of image analysis, it misses the rich context and visual cues that play an important role in people’s perception of images. In this paper, we explore the possibilities of learning a user’s latent visual preferences directly from image contents. We propose a distance metric learning method based on Deep Convolutional Neural Networks (CNN) to directly extract similarity information from visual contents and use the derived distance metric to mine individual users’ fine-grained visual preferences. Through our preliminary experiments using data from 5,790 Pinterest users, we show that even for the images within the same category, each user possesses distinct and individually-identifiable visual preferences that are consistent over their lifetime. Our results underscore the untapped potential of finer-grained visual preference profiling in understanding users’ preferences.","headline":"Beyond Classification: Latent User Interests Profiling From Visual Contents Analysis","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yang2015beyond/"},"url":"https://learning2hash.github.io/publications/yang2015beyond/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"User preference profiling is an important task in modern online social networks (OSN). With the proliferation of image-centric social platforms, such as Pinterest, visual contents have become one of the most informative data streams for understanding user preferences. Traditional approaches usually treat visual content analysis as a general classification problem where one or more labels are assigned to each image. Although such an approach simplifies the process of image analysis, it misses the rich context and visual cues that play an important role in people’s perception of images. In this paper, we explore the possibilities of learning a user’s latent visual preferences directly from image contents. We propose a distance metric learning method based on Deep Convolutional Neural Networks (CNN) to directly extract similarity information from visual contents and use the derived distance metric to mine individual users’ fine-grained visual preferences. Through our preliminary experiments using data from 5,790 Pinterest users, we show that even for the images within the same category, each user possesses distinct and individually-identifiable visual preferences that are consistent over their lifetime. Our results underscore the untapped potential of finer-grained visual preference profiling in understanding users’ preferences.","headline":"Beyond Classification: Latent User Interests Profiling From Visual Contents Analysis","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yang2015beyond/"},"url":"https://learning2hash.github.io/publications/yang2015beyond/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -254,7 +254,6 @@ preference profiling in understanding users’ preferences.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Beyond Classification: Latent User Interests Profiling From Visual Contents Analysis",
         conference: "2015 IEEE International Conference on Data Mining Workshop (ICDMW)",
@@ -295,7 +294,6 @@ preference profiling in understanding users’ preferences.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -324,37 +322,38 @@ preference profiling in understanding users’ preferences.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

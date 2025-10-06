@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/lin2018supervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Supervised Online Hashing Via Hadamard Codebook Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In recent years, binary code learning, a.k.a hashing, has received extensive attention in large-scale multimedia retrieval. It aims to encode high-dimensional data points to binary codes, hence the original high-dimensional metric space can be efficiently approximated via Hamming space. However, most existing hashing methods adopted offline batch learning, which is not suitable to handle incremental datasets with streaming data or new instances. In contrast, the robustness of the existing online hashing remains as an open problem, while the embedding of supervised/semantic information hardly boosts the performance of the online hashing, mainly due to the defect of unknown category numbers in supervised learning. In this paper, we proposed an online hashing scheme, termed Hadamard Codebook based Online Hashing (HCOH), which aims to solve the above problems towards robust and supervised online hashing. In particular, we first assign an appropriate high-dimensional binary codes to each class label, which is generated randomly by Hadamard codes to each class label, which is generated randomly by Hadamard codes. Subsequently, LSH is adopted to reduce the length of such Hadamard codes in accordance with the hash bits, which can adapt the predefined binary codes online, and theoretically guarantee the semantic similarity. Finally, we consider the setting of stochastic data acquisition, which facilitates our method to efficiently learn the corresponding hashing functions via stochastic gradient descend (SGD) online. Notably, the proposed HCOH can be embedded with supervised labels and it not limited to a predefined category number. Extensive experiments on three widely-used benchmarks demonstrate the merits of the proposed scheme over the state-of-the-art methods. The code is available at https://github.com/lmbxmu/mycode/tree/master/2018ACMMM_HCOH.","headline":"Supervised Online Hashing Via Hadamard Codebook Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2018supervised/"},"url":"https://learning2hash.github.io/publications/lin2018supervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In recent years, binary code learning, a.k.a hashing, has received extensive attention in large-scale multimedia retrieval. It aims to encode high-dimensional data points to binary codes, hence the original high-dimensional metric space can be efficiently approximated via Hamming space. However, most existing hashing methods adopted offline batch learning, which is not suitable to handle incremental datasets with streaming data or new instances. In contrast, the robustness of the existing online hashing remains as an open problem, while the embedding of supervised/semantic information hardly boosts the performance of the online hashing, mainly due to the defect of unknown category numbers in supervised learning. In this paper, we proposed an online hashing scheme, termed Hadamard Codebook based Online Hashing (HCOH), which aims to solve the above problems towards robust and supervised online hashing. In particular, we first assign an appropriate high-dimensional binary codes to each class label, which is generated randomly by Hadamard codes to each class label, which is generated randomly by Hadamard codes. Subsequently, LSH is adopted to reduce the length of such Hadamard codes in accordance with the hash bits, which can adapt the predefined binary codes online, and theoretically guarantee the semantic similarity. Finally, we consider the setting of stochastic data acquisition, which facilitates our method to efficiently learn the corresponding hashing functions via stochastic gradient descend (SGD) online. Notably, the proposed HCOH can be embedded with supervised labels and it not limited to a predefined category number. Extensive experiments on three widely-used benchmarks demonstrate the merits of the proposed scheme over the state-of-the-art methods. The code is available at https://github.com/lmbxmu/mycode/tree/master/2018ACMMM_HCOH.","headline":"Supervised Online Hashing Via Hadamard Codebook Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/lin2018supervised/"},"url":"https://learning2hash.github.io/publications/lin2018supervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -277,7 +277,6 @@ https://github.com/lmbxmu/mycode/tree/master/2018ACMMM_HCOH.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Supervised Online Hashing Via Hadamard Codebook Learning",
         conference: "Proceedings of the 26th ACM international conference on Multimedia",
@@ -318,7 +317,6 @@ https://github.com/lmbxmu/mycode/tree/master/2018ACMMM_HCOH.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -347,37 +345,38 @@ https://github.com/lmbxmu/mycode/tree/master/2018ACMMM_HCOH.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

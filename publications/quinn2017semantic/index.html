@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/quinn2017semantic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Semantic Image Retrieval Via Active Grounding Of Visual Situations" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We describe a novel architecture for semantic image retrieval—in particular, retrieval of instances of visual situations. Visual situations are concepts such as “a boxing match,” “walking the dog,” “a crowd waiting for a bus,” or “a game of ping-pong,” whose instantiations in images are linked more by their common spatial and semantic structure than by low-level visual similarity. Given a query situation description, our architecture—called Situate—learns models capturing the visual features of expected objects as well the expected spatial configuration of relationships among objects. Given a new image, Situate uses these models in an attempt to ground (i.e., to create a bounding box locating) each expected component of the situation in the image via an active search procedure. Situate uses the resulting grounding to compute a score indicating the degree to which the new image is judged to contain an instance of the situation. Such scores can be used to rank images in a collection as part of a retrieval system. In the preliminary study described here, we demonstrate the promise of this system by comparing Situate’s performance with that of two baseline methods, as well as with a related semantic image-retrieval system based on “scene graphs.”","headline":"Semantic Image Retrieval Via Active Grounding Of Visual Situations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/quinn2017semantic/"},"url":"https://learning2hash.github.io/publications/quinn2017semantic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We describe a novel architecture for semantic image retrieval—in particular, retrieval of instances of visual situations. Visual situations are concepts such as “a boxing match,” “walking the dog,” “a crowd waiting for a bus,” or “a game of ping-pong,” whose instantiations in images are linked more by their common spatial and semantic structure than by low-level visual similarity. Given a query situation description, our architecture—called Situate—learns models capturing the visual features of expected objects as well the expected spatial configuration of relationships among objects. Given a new image, Situate uses these models in an attempt to ground (i.e., to create a bounding box locating) each expected component of the situation in the image via an active search procedure. Situate uses the resulting grounding to compute a score indicating the degree to which the new image is judged to contain an instance of the situation. Such scores can be used to rank images in a collection as part of a retrieval system. In the preliminary study described here, we demonstrate the promise of this system by comparing Situate’s performance with that of two baseline methods, as well as with a related semantic image-retrieval system based on “scene graphs.”","headline":"Semantic Image Retrieval Via Active Grounding Of Visual Situations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/quinn2017semantic/"},"url":"https://learning2hash.github.io/publications/quinn2017semantic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ semantic image-retrieval system based on “scene graphs.”</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Semantic Image Retrieval Via Active Grounding Of Visual Situations",
         conference: "2018 IEEE 12th International Conference on Semantic Computing (ICSC)",
@@ -296,7 +295,6 @@ semantic image-retrieval system based on “scene graphs.”</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ semantic image-retrieval system based on “scene graphs.”</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

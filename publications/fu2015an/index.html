@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/fu2015an/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="An Improved System For Sentence-level Novelty Detection In Textual Streams" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Novelty detection in news events has long been a difficult problem. A number of models performed well on specific data streams but certain issues are far from being solved, particularly in large data streams from the WWW where unpredictability of new terms requires adaptation in the vector space model. We present a novel event detection system based on the Incremental Term Frequency-Inverse Document Frequency (TF-IDF) weighting incorporated with Locality Sensitive Hashing (LSH). Our system could efficiently and effectively adapt to the changes within the data streams of any new terms with continual updates to the vector space model. Regarding miss probability, our proposed novelty detection framework outperforms a recognised baseline system by approximately 16% when evaluating a benchmark dataset from Google News.","headline":"An Improved System For Sentence-level Novelty Detection In Textual Streams","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fu2015an/"},"url":"https://learning2hash.github.io/publications/fu2015an/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Novelty detection in news events has long been a difficult problem. A number of models performed well on specific data streams but certain issues are far from being solved, particularly in large data streams from the WWW where unpredictability of new terms requires adaptation in the vector space model. We present a novel event detection system based on the Incremental Term Frequency-Inverse Document Frequency (TF-IDF) weighting incorporated with Locality Sensitive Hashing (LSH). Our system could efficiently and effectively adapt to the changes within the data streams of any new terms with continual updates to the vector space model. Regarding miss probability, our proposed novelty detection framework outperforms a recognised baseline system by approximately 16% when evaluating a benchmark dataset from Google News.","headline":"An Improved System For Sentence-level Novelty Detection In Textual Streams","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fu2015an/"},"url":"https://learning2hash.github.io/publications/fu2015an/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ approximately 16% when evaluating a benchmark dataset from Google News.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "An Improved System For Sentence-level Novelty Detection In Textual Streams",
         conference: "2015 International Conference on Smart and Sustainable City and Big Data (ICSSC)",
@@ -296,7 +295,6 @@ approximately 16% when evaluating a benchmark dataset from Google News.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ approximately 16% when evaluating a benchmark dataset from Google News.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

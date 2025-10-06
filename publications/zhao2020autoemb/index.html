@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhao2020autoemb/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Autoemb: Automated Embedding Dimensionality Search In Streaming Recommendations" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Deep learning based recommender systems (DLRSs) often have embedding layers, which are utilized to lessen the dimensionality of categorical variables (e.g. user/item identifiers) and meaningfully transform them in the low-dimensional space. The majority of existing DLRSs empirically pre-define a fixed and unified dimension for all user/item embeddings. It is evident from recent researches that different embedding sizes are highly desired for different users/items according to their popularity. However, manually selecting embedding sizes in recommender systems can be very challenging due to the large number of users/items and the dynamic nature of their popularity. Thus, in this paper, we propose an AutoML based end-to-end framework (AutoEmb), which can enable various embedding dimensions according to the popularity in an automated and dynamic manner. To be specific, we first enhance a typical DLRS to allow various embedding dimensions; then we propose an end-to-end differentiable framework that can automatically select different embedding dimensions according to user/item popularity; finally we propose an AutoML based optimization algorithm in a streaming recommendation setting. The experimental results based on widely used benchmark datasets demonstrate the effectiveness of the AutoEmb framework.","headline":"Autoemb: Automated Embedding Dimensionality Search In Streaming Recommendations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhao2020autoemb/"},"url":"https://learning2hash.github.io/publications/zhao2020autoemb/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Deep learning based recommender systems (DLRSs) often have embedding layers, which are utilized to lessen the dimensionality of categorical variables (e.g. user/item identifiers) and meaningfully transform them in the low-dimensional space. The majority of existing DLRSs empirically pre-define a fixed and unified dimension for all user/item embeddings. It is evident from recent researches that different embedding sizes are highly desired for different users/items according to their popularity. However, manually selecting embedding sizes in recommender systems can be very challenging due to the large number of users/items and the dynamic nature of their popularity. Thus, in this paper, we propose an AutoML based end-to-end framework (AutoEmb), which can enable various embedding dimensions according to the popularity in an automated and dynamic manner. To be specific, we first enhance a typical DLRS to allow various embedding dimensions; then we propose an end-to-end differentiable framework that can automatically select different embedding dimensions according to user/item popularity; finally we propose an AutoML based optimization algorithm in a streaming recommendation setting. The experimental results based on widely used benchmark datasets demonstrate the effectiveness of the AutoEmb framework.","headline":"Autoemb: Automated Embedding Dimensionality Search In Streaming Recommendations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhao2020autoemb/"},"url":"https://learning2hash.github.io/publications/zhao2020autoemb/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ of the AutoEmb framework.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Autoemb: Automated Embedding Dimensionality Search In Streaming Recommendations",
         conference: "2021 IEEE International Conference on Data Mining (ICDM)",
@@ -303,7 +302,6 @@ of the AutoEmb framework.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ of the AutoEmb framework.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

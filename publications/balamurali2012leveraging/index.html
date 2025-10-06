@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/balamurali2012leveraging/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Leveraging Sentiment To Compute Word Similarity" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In this paper, we introduce a new WordNet based similarity metric, SenSim, which incorporates sentiment content (i.e., degree of positive or negative sentiment) of the words being compared to measure the similarity between them. The proposed metric is based on the hypothesis that knowing the sentiment is beneficial in measuring the similarity. To verify this hypothesis, we measure and compare the annotator agreement for 2 annotation strategies: 1) sentiment information of a pair of words is considered while annotating and 2) sentiment information of a pair of words is not considered while annotating. Inter-annotator correlation scores show that the agreement is better when the two annotators consider sentiment information while assigning a similarity score to a pair of words. We use this hypothesis to measure the similarity between a pair of words. Specifically, we represent each word as a vector containing sentiment scores of all the content words in the WordNet gloss of the sense of that word. These sentiment scores are derived from a sentiment lexicon. We then measure the cosine similarity between the two vectors. We perform both intrinsic and extrinsic evaluation of SenSim and compare the performance with other widely usedWordNet similarity metrics.","headline":"Leveraging Sentiment To Compute Word Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/balamurali2012leveraging/"},"url":"https://learning2hash.github.io/publications/balamurali2012leveraging/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In this paper, we introduce a new WordNet based similarity metric, SenSim, which incorporates sentiment content (i.e., degree of positive or negative sentiment) of the words being compared to measure the similarity between them. The proposed metric is based on the hypothesis that knowing the sentiment is beneficial in measuring the similarity. To verify this hypothesis, we measure and compare the annotator agreement for 2 annotation strategies: 1) sentiment information of a pair of words is considered while annotating and 2) sentiment information of a pair of words is not considered while annotating. Inter-annotator correlation scores show that the agreement is better when the two annotators consider sentiment information while assigning a similarity score to a pair of words. We use this hypothesis to measure the similarity between a pair of words. Specifically, we represent each word as a vector containing sentiment scores of all the content words in the WordNet gloss of the sense of that word. These sentiment scores are derived from a sentiment lexicon. We then measure the cosine similarity between the two vectors. We perform both intrinsic and extrinsic evaluation of SenSim and compare the performance with other widely usedWordNet similarity metrics.","headline":"Leveraging Sentiment To Compute Word Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/balamurali2012leveraging/"},"url":"https://learning2hash.github.io/publications/balamurali2012leveraging/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ performance with other widely usedWordNet similarity metrics.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Leveraging Sentiment To Compute Word Similarity",
         conference: "In Proceedings of The 6th International Global Wordnet Conference (GWC 2012) Matsue Japan January 9-13 2012",
@@ -296,7 +295,6 @@ performance with other widely usedWordNet similarity metrics.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ performance with other widely usedWordNet similarity metrics.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

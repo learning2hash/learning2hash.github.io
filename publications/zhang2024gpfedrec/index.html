@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2024gpfedrec/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Gpfedrec: Graph-guided Personalization For Federated Recommendation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The federated recommendation system is an emerging AI service architecture that provides recommendation services in a privacy-preserving manner. Using user-relation graphs to enhance federated recommendations is a promising topic. However, it is still an open challenge to construct the user-relation graph while preserving data locality-based privacy protection in federated settings. Inspired by a simple motivation, similar users share a similar vision (embeddings) to the same item set, this paper proposes a novel Graph-guided Personalization for Federated Recommendation (GPFedRec). The proposed method constructs a user-relation graph from user-specific personalized item embeddings at the server without accessing the users’ interaction records. The personalized item embedding is locally fine-tuned on each device, and then a user-relation graph will be constructed by measuring the similarity among client-specific item embeddings. Without accessing users’ historical interactions, we embody the data locality-based privacy protection of vanilla federated learning. Furthermore, a graph-guided aggregation mechanism is designed to leverage the user-relation graph and federated optimization framework simultaneously. Extensive experiments on five benchmark datasets demonstrate GPFedRec’s superior performance. The in-depth study validates that GPFedRec can generally improve existing federated recommendation methods as a plugin while keeping user privacy safe. Code is available to ease reproducibility","headline":"Gpfedrec: Graph-guided Personalization For Federated Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2024gpfedrec/"},"url":"https://learning2hash.github.io/publications/zhang2024gpfedrec/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The federated recommendation system is an emerging AI service architecture that provides recommendation services in a privacy-preserving manner. Using user-relation graphs to enhance federated recommendations is a promising topic. However, it is still an open challenge to construct the user-relation graph while preserving data locality-based privacy protection in federated settings. Inspired by a simple motivation, similar users share a similar vision (embeddings) to the same item set, this paper proposes a novel Graph-guided Personalization for Federated Recommendation (GPFedRec). The proposed method constructs a user-relation graph from user-specific personalized item embeddings at the server without accessing the users’ interaction records. The personalized item embedding is locally fine-tuned on each device, and then a user-relation graph will be constructed by measuring the similarity among client-specific item embeddings. Without accessing users’ historical interactions, we embody the data locality-based privacy protection of vanilla federated learning. Furthermore, a graph-guided aggregation mechanism is designed to leverage the user-relation graph and federated optimization framework simultaneously. Extensive experiments on five benchmark datasets demonstrate GPFedRec’s superior performance. The in-depth study validates that GPFedRec can generally improve existing federated recommendation methods as a plugin while keeping user privacy safe. Code is available to ease reproducibility","headline":"Gpfedrec: Graph-guided Personalization For Federated Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2024gpfedrec/"},"url":"https://learning2hash.github.io/publications/zhang2024gpfedrec/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -267,7 +267,6 @@ reproducibility</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Gpfedrec: Graph-guided Personalization For Federated Recommendation",
         conference: "Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
@@ -308,7 +307,6 @@ reproducibility</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -337,37 +335,38 @@ reproducibility</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

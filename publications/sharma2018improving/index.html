@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/sharma2018improving/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Improving Similarity Search With High-dimensional Locality-sensitive Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We propose a new class of data-independent locality-sensitive hashing (LSH) algorithms based on the fruit fly olfactory circuit. The fundamental difference of this approach is that, instead of assigning hashes as dense points in a low dimensional space, hashes are assigned in a high dimensional space, which enhances their separability. We show theoretically and empirically that this new family of hash functions is locality-sensitive and preserves rank similarity for inputs in any `p space. We then analyze different variations on this strategy and show empirically that they outperform existing LSH methods for nearest-neighbors search on six benchmark datasets. Finally, we propose a multi-probe version of our algorithm that achieves higher performance for the same query time, or conversely, that maintains performance of prior approaches while taking significantly less indexing time and memory. Overall, our approach leverages the advantages of separability provided by high-dimensional spaces, while still remaining computationally efficient","headline":"Improving Similarity Search With High-dimensional Locality-sensitive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sharma2018improving/"},"url":"https://learning2hash.github.io/publications/sharma2018improving/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We propose a new class of data-independent locality-sensitive hashing (LSH) algorithms based on the fruit fly olfactory circuit. The fundamental difference of this approach is that, instead of assigning hashes as dense points in a low dimensional space, hashes are assigned in a high dimensional space, which enhances their separability. We show theoretically and empirically that this new family of hash functions is locality-sensitive and preserves rank similarity for inputs in any `p space. We then analyze different variations on this strategy and show empirically that they outperform existing LSH methods for nearest-neighbors search on six benchmark datasets. Finally, we propose a multi-probe version of our algorithm that achieves higher performance for the same query time, or conversely, that maintains performance of prior approaches while taking significantly less indexing time and memory. Overall, our approach leverages the advantages of separability provided by high-dimensional spaces, while still remaining computationally efficient","headline":"Improving Similarity Search With High-dimensional Locality-sensitive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sharma2018improving/"},"url":"https://learning2hash.github.io/publications/sharma2018improving/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -260,7 +260,6 @@ while still remaining computationally efficient</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Improving Similarity Search With High-dimensional Locality-sensitive Hashing",
         conference: "Arxiv",
@@ -301,7 +300,6 @@ while still remaining computationally efficient</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -330,37 +328,38 @@ while still remaining computationally efficient</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

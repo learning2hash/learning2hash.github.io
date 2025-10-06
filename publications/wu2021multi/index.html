@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wu2021multi/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multi-modal Visual Place Recognition In Dynamics-invariant Perception Space" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Visual place recognition is one of the essential and challenging problems in the fields of robotics. In this letter, we for the first time explore the use of multi-modal fusion of semantic and visual modalities in dynamics-invariant space to improve place recognition in dynamic environments. We achieve this by first designing a novel deep learning architecture to generate the static semantic segmentation and recover the static image directly from the corresponding dynamic image. We then innovatively leverage the spatial-pyramid-matching model to encode the static semantic segmentation into feature vectors. In parallel, the static image is encoded using the popular Bag-of-words model. On the basis of the above multi-modal features, we finally measure the similarity between the query image and target landmark by the joint similarity of their semantic and visual codes. Extensive experiments demonstrate the effectiveness and robustness of the proposed approach for place recognition in dynamic environments.","headline":"Multi-modal Visual Place Recognition In Dynamics-invariant Perception Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2021multi/"},"url":"https://learning2hash.github.io/publications/wu2021multi/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Visual place recognition is one of the essential and challenging problems in the fields of robotics. In this letter, we for the first time explore the use of multi-modal fusion of semantic and visual modalities in dynamics-invariant space to improve place recognition in dynamic environments. We achieve this by first designing a novel deep learning architecture to generate the static semantic segmentation and recover the static image directly from the corresponding dynamic image. We then innovatively leverage the spatial-pyramid-matching model to encode the static semantic segmentation into feature vectors. In parallel, the static image is encoded using the popular Bag-of-words model. On the basis of the above multi-modal features, we finally measure the similarity between the query image and target landmark by the joint similarity of their semantic and visual codes. Extensive experiments demonstrate the effectiveness and robustness of the proposed approach for place recognition in dynamic environments.","headline":"Multi-modal Visual Place Recognition In Dynamics-invariant Perception Space","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wu2021multi/"},"url":"https://learning2hash.github.io/publications/wu2021multi/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,7 +252,6 @@ recognition in dynamic environments.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Multi-modal Visual Place Recognition In Dynamics-invariant Perception Space",
         conference: "IEEE Signal Processing Letters",
@@ -293,7 +292,6 @@ recognition in dynamic environments.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -322,37 +320,38 @@ recognition in dynamic environments.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

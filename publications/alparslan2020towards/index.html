@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/alparslan2020towards/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Towards Evaluating Gaussian Blurring In Perceptual Hashing As A Facial Image Filter" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"With the growth in social media, there is a huge amount of images of faces available on the internet. Often, people use other people’s pictures on their own profile. Perceptual hashing is often used to detect whether two images are identical. Therefore, it can be used to detect whether people are misusing others’ pictures. In perceptual hashing, a hash is calculated for a given image, and a new test image is mapped to one of the existing hashes if duplicate features are present. Therefore, it can be used as an image filter to flag banned image content or adversarial attacks –which are modifications that are made on purpose to deceive the filter– even though the content might be changed to deceive the filters. For this reason, it is critical for perceptual hashing to be robust enough to take transformations such as resizing, cropping, and slight pixel modifications into account. In this paper, we would like to propose to experiment with effect of gaussian blurring in perceptual hashing for detecting misuse of personal images specifically for face images. We hypothesize that use of gaussian blurring on the image before calculating its hash will increase the accuracy of our filter that detects adversarial attacks which consist of image cropping, adding text annotation, and image rotation.","headline":"Towards Evaluating Gaussian Blurring In Perceptual Hashing As A Facial Image Filter","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/alparslan2020towards/"},"url":"https://learning2hash.github.io/publications/alparslan2020towards/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"With the growth in social media, there is a huge amount of images of faces available on the internet. Often, people use other people’s pictures on their own profile. Perceptual hashing is often used to detect whether two images are identical. Therefore, it can be used to detect whether people are misusing others’ pictures. In perceptual hashing, a hash is calculated for a given image, and a new test image is mapped to one of the existing hashes if duplicate features are present. Therefore, it can be used as an image filter to flag banned image content or adversarial attacks –which are modifications that are made on purpose to deceive the filter– even though the content might be changed to deceive the filters. For this reason, it is critical for perceptual hashing to be robust enough to take transformations such as resizing, cropping, and slight pixel modifications into account. In this paper, we would like to propose to experiment with effect of gaussian blurring in perceptual hashing for detecting misuse of personal images specifically for face images. We hypothesize that use of gaussian blurring on the image before calculating its hash will increase the accuracy of our filter that detects adversarial attacks which consist of image cropping, adding text annotation, and image rotation.","headline":"Towards Evaluating Gaussian Blurring In Perceptual Hashing As A Facial Image Filter","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/alparslan2020towards/"},"url":"https://learning2hash.github.io/publications/alparslan2020towards/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ which consist of image cropping, adding text annotation, and image rotation.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Towards Evaluating Gaussian Blurring In Perceptual Hashing As A Facial Image Filter",
         conference: "Arxiv",
@@ -296,7 +295,6 @@ which consist of image cropping, adding text annotation, and image rotation.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ which consist of image cropping, adding text annotation, and image rotation.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

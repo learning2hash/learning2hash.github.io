@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhu2023central/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Central Similarity Multi-view Hashing For Multimedia Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Hash representation learning of multi-view heterogeneous data is the key to improving the accuracy of multimedia retrieval. However, existing methods utilize local similarity and fall short of deeply fusing the multi-view features, resulting in poor retrieval accuracy. Current methods only use local similarity to train their model. These methods ignore global similarity. Furthermore, most recent works fuse the multi-view features via a weighted sum or concatenation. We contend that these fusion methods are insufficient for capturing the interaction between various views. We present a novel Central Similarity Multi-View Hashing (CSMVH) method to address the mentioned problems. Central similarity learning is used for solving the local similarity problem, which can utilize the global similarity between the hash center and samples. We present copious empirical data demonstrating the superiority of gate-based fusion over conventional approaches. On the MS COCO and NUS-WIDE, the proposed CSMVH performs better than the state-of-the-art methods by a large margin (up to 11.41% mean Average Precision (mAP) improvement).","headline":"Central Similarity Multi-view Hashing For Multimedia Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2023central/"},"url":"https://learning2hash.github.io/publications/zhu2023central/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Hash representation learning of multi-view heterogeneous data is the key to improving the accuracy of multimedia retrieval. However, existing methods utilize local similarity and fall short of deeply fusing the multi-view features, resulting in poor retrieval accuracy. Current methods only use local similarity to train their model. These methods ignore global similarity. Furthermore, most recent works fuse the multi-view features via a weighted sum or concatenation. We contend that these fusion methods are insufficient for capturing the interaction between various views. We present a novel Central Similarity Multi-View Hashing (CSMVH) method to address the mentioned problems. Central similarity learning is used for solving the local similarity problem, which can utilize the global similarity between the hash center and samples. We present copious empirical data demonstrating the superiority of gate-based fusion over conventional approaches. On the MS COCO and NUS-WIDE, the proposed CSMVH performs better than the state-of-the-art methods by a large margin (up to 11.41% mean Average Precision (mAP) improvement).","headline":"Central Similarity Multi-view Hashing For Multimedia Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2023central/"},"url":"https://learning2hash.github.io/publications/zhu2023central/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +253,6 @@ to 11.41% mean Average Precision (mAP) improvement).</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Central Similarity Multi-view Hashing For Multimedia Retrieval",
         conference: "Lecture Notes in Computer Science",
@@ -294,7 +293,6 @@ to 11.41% mean Average Precision (mAP) improvement).</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -323,37 +321,38 @@ to 11.41% mean Average Precision (mAP) improvement).</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

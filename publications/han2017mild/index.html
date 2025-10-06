@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/han2017mild/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="MILD: Multi-index Hashing For Loop Closure Detection" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Loop Closure Detection (LCD) has been proved to be extremely useful in global consistent visual Simultaneously Localization and Mapping (SLAM) and appearance-based robot relocalization. Methods exploiting binary features in bag of words representation have recently gained a lot of popularity for their efficiency, but suffer from low recall due to the inherent drawback that high dimensional binary feature descriptors lack well-defined centroids. In this paper, we propose a realtime LCD approach called MILD (Multi-Index Hashing for Loop closure Detection), in which image similarity is measured by feature matching directly to achieve high recall without introducing extra computational complexity with the aid of Multi-Index Hashing (MIH). A theoretical analysis of the approximate image similarity measurement using MIH is presented, which reveals the trade-off between efficiency and accuracy from a probabilistic perspective. Extensive comparisons with state-of-the-art LCD methods demonstrate the superiority of MILD in both efficiency and accuracy.","headline":"MILD: Multi-index Hashing For Loop Closure Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/han2017mild/"},"url":"https://learning2hash.github.io/publications/han2017mild/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Loop Closure Detection (LCD) has been proved to be extremely useful in global consistent visual Simultaneously Localization and Mapping (SLAM) and appearance-based robot relocalization. Methods exploiting binary features in bag of words representation have recently gained a lot of popularity for their efficiency, but suffer from low recall due to the inherent drawback that high dimensional binary feature descriptors lack well-defined centroids. In this paper, we propose a realtime LCD approach called MILD (Multi-Index Hashing for Loop closure Detection), in which image similarity is measured by feature matching directly to achieve high recall without introducing extra computational complexity with the aid of Multi-Index Hashing (MIH). A theoretical analysis of the approximate image similarity measurement using MIH is presented, which reveals the trade-off between efficiency and accuracy from a probabilistic perspective. Extensive comparisons with state-of-the-art LCD methods demonstrate the superiority of MILD in both efficiency and accuracy.","headline":"MILD: Multi-index Hashing For Loop Closure Detection","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/han2017mild/"},"url":"https://learning2hash.github.io/publications/han2017mild/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -256,7 +256,6 @@ methods demonstrate the superiority of MILD in both efficiency and accuracy.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "MILD: Multi-index Hashing For Loop Closure Detection",
         conference: "Arxiv",
@@ -297,7 +296,6 @@ methods demonstrate the superiority of MILD in both efficiency and accuracy.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -326,37 +324,38 @@ methods demonstrate the superiority of MILD in both efficiency and accuracy.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

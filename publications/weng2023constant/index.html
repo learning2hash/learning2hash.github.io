@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/weng2023constant/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Constant Sequence Extension For Fast Search Using Weighted Hamming Distance" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Representing visual data using compact binary codes is attracting increasing attention as binary codes are used as direct indices into hash table(s) for fast non-exhaustive search. Recent methods show that ranking binary codes using weighted Hamming distance (WHD) rather than Hamming distance (HD) by generating query-adaptive weights for each bit can better retrieve query-related items. However, search using WHD is slower than that using HD. One main challenge is that the complexity of extending a monotone increasing sequence using WHD to probe buckets in hash table(s) for existing methods is at least proportional to the square of the sequence length, while that using HD is proportional to the sequence length. To overcome this challenge, we propose a novel fast non-exhaustive search method using WHD. The key idea is to design a constant sequence extension algorithm to perform each sequence extension in constant computational complexity and the total complexity is proportional to the sequence length, which is justified by theoretical analysis. Experimental results show that our method is faster than other WHD-based search methods. Also, compared with the HD-based non-exhaustive search method, our method has comparable efficiency but retrieves more query-related items for the dataset of up to one billion items.","headline":"Constant Sequence Extension For Fast Search Using Weighted Hamming Distance","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weng2023constant/"},"url":"https://learning2hash.github.io/publications/weng2023constant/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Representing visual data using compact binary codes is attracting increasing attention as binary codes are used as direct indices into hash table(s) for fast non-exhaustive search. Recent methods show that ranking binary codes using weighted Hamming distance (WHD) rather than Hamming distance (HD) by generating query-adaptive weights for each bit can better retrieve query-related items. However, search using WHD is slower than that using HD. One main challenge is that the complexity of extending a monotone increasing sequence using WHD to probe buckets in hash table(s) for existing methods is at least proportional to the square of the sequence length, while that using HD is proportional to the sequence length. To overcome this challenge, we propose a novel fast non-exhaustive search method using WHD. The key idea is to design a constant sequence extension algorithm to perform each sequence extension in constant computational complexity and the total complexity is proportional to the sequence length, which is justified by theoretical analysis. Experimental results show that our method is faster than other WHD-based search methods. Also, compared with the HD-based non-exhaustive search method, our method has comparable efficiency but retrieves more query-related items for the dataset of up to one billion items.","headline":"Constant Sequence Extension For Fast Search Using Weighted Hamming Distance","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weng2023constant/"},"url":"https://learning2hash.github.io/publications/weng2023constant/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -258,7 +258,6 @@ up to one billion items.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Constant Sequence Extension For Fast Search Using Weighted Hamming Distance",
         conference: "Arxiv",
@@ -299,7 +298,6 @@ up to one billion items.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -328,37 +326,38 @@ up to one billion items.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2023sparse/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Sparse-inductive Generative Adversarial Hashing For Nearest Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Unsupervised hashing has received extensive research focus on the past decade, which typically aims at preserving a predefined metric (i.e. Euclidean metric) in the Hamming space. To this end, the encoding functions of the existing hashing are typically quasi-isometric, which devote to reducing the quantization loss from the target metric space to the discrete Hamming space. However, it is indeed problematic to directly minimize such error, since such mentioned two metric spaces are heterogeneous, and the quasi-isometric mapping is non-linear. The former leads to inconsistent feature distributions, while the latter leads to problematic optimization issues. In this paper, we propose a novel unsupervised hashing method, termed Sparsity-Induced Generative Adversarial Hashing (SiGAH), to encode large-scale high-dimensional features into binary codes, which well solves the two problems through a generative adversarial training framework. Instead of minimizing the quantization loss, our key innovation lies in enforcing the learned Hamming space to have similar data distribution to the target metric space via a generative model. In particular, we formulate a ReLU-based neural network as a generator to output binary codes and an MSE-loss based auto-encoder network as a discriminator, upon which a generative adversarial learning is carried out to train hash functions. Furthermore, to generate the synthetic features from the hash codes, a compressed sensing procedure is introduced into the generative model, which enforces the reconstruction boundary of binary codes to be consistent with that of original features. Finally, such generative adversarial framework can be trained via the Adam optimizer. Experimental results on four benchmarks, i.e., Tiny100K, GIST1M, Deep1M, and MNIST, have shown that the proposed SiGAH has superior performance over the state-of-the-art approaches.","headline":"Sparse-inductive Generative Adversarial Hashing For Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2023sparse/"},"url":"https://learning2hash.github.io/publications/liu2023sparse/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Unsupervised hashing has received extensive research focus on the past decade, which typically aims at preserving a predefined metric (i.e. Euclidean metric) in the Hamming space. To this end, the encoding functions of the existing hashing are typically quasi-isometric, which devote to reducing the quantization loss from the target metric space to the discrete Hamming space. However, it is indeed problematic to directly minimize such error, since such mentioned two metric spaces are heterogeneous, and the quasi-isometric mapping is non-linear. The former leads to inconsistent feature distributions, while the latter leads to problematic optimization issues. In this paper, we propose a novel unsupervised hashing method, termed Sparsity-Induced Generative Adversarial Hashing (SiGAH), to encode large-scale high-dimensional features into binary codes, which well solves the two problems through a generative adversarial training framework. Instead of minimizing the quantization loss, our key innovation lies in enforcing the learned Hamming space to have similar data distribution to the target metric space via a generative model. In particular, we formulate a ReLU-based neural network as a generator to output binary codes and an MSE-loss based auto-encoder network as a discriminator, upon which a generative adversarial learning is carried out to train hash functions. Furthermore, to generate the synthetic features from the hash codes, a compressed sensing procedure is introduced into the generative model, which enforces the reconstruction boundary of binary codes to be consistent with that of original features. Finally, such generative adversarial framework can be trained via the Adam optimizer. Experimental results on four benchmarks, i.e., Tiny100K, GIST1M, Deep1M, and MNIST, have shown that the proposed SiGAH has superior performance over the state-of-the-art approaches.","headline":"Sparse-inductive Generative Adversarial Hashing For Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2023sparse/"},"url":"https://learning2hash.github.io/publications/liu2023sparse/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -277,7 +277,6 @@ superior performance over the state-of-the-art approaches.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Sparse-inductive Generative Adversarial Hashing For Nearest Neighbor Search",
         conference: "Arxiv",
@@ -318,7 +317,6 @@ superior performance over the state-of-the-art approaches.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -347,37 +345,38 @@ superior performance over the state-of-the-art approaches.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

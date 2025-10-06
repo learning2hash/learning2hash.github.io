@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/herath2021em/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Em-k Indexing For Approximate Query Matching In Large-scale ER" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Accurate and efficient entity resolution (ER) is a significant challenge in many data mining and analysis projects requiring integrating and processing massive data collections. It is becoming increasingly important in real-world applications to develop ER solutions that produce prompt responses for entity queries on large-scale databases. Some of these applications demand entity query matching against large-scale reference databases within a short time. We define this as the query matching problem in ER in this work. Indexing or blocking techniques reduce the search space and execution time in the ER process. However, approximate indexing techniques that scale to very large-scale datasets remain open to research. In this paper, we investigate the query matching problem in ER to propose an indexing method suitable for approximate and efficient query matching. We first use spatial mappings to embed records in a multidimensional Euclidean space that preserves the domain-specific similarity. Among the various mapping techniques, we choose multidimensional scaling. Then using a Kd-tree and the nearest neighbour search, the method returns a block of records that includes potential matches for a query. Our method can process queries against a large-scale dataset using only a fraction of the data (L) (given the dataset size is (N)), with a (O(L^2)) complexity where (L \\ll N). The experiments conducted on several datasets showed the effectiveness of the proposed method.","headline":"Em-k Indexing For Approximate Query Matching In Large-scale ER","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/herath2021em/"},"url":"https://learning2hash.github.io/publications/herath2021em/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Accurate and efficient entity resolution (ER) is a significant challenge in many data mining and analysis projects requiring integrating and processing massive data collections. It is becoming increasingly important in real-world applications to develop ER solutions that produce prompt responses for entity queries on large-scale databases. Some of these applications demand entity query matching against large-scale reference databases within a short time. We define this as the query matching problem in ER in this work. Indexing or blocking techniques reduce the search space and execution time in the ER process. However, approximate indexing techniques that scale to very large-scale datasets remain open to research. In this paper, we investigate the query matching problem in ER to propose an indexing method suitable for approximate and efficient query matching. We first use spatial mappings to embed records in a multidimensional Euclidean space that preserves the domain-specific similarity. Among the various mapping techniques, we choose multidimensional scaling. Then using a Kd-tree and the nearest neighbour search, the method returns a block of records that includes potential matches for a query. Our method can process queries against a large-scale dataset using only a fraction of the data (L) (given the dataset size is (N)), with a (O(L^2)) complexity where (L \\ll N). The experiments conducted on several datasets showed the effectiveness of the proposed method.","headline":"Em-k Indexing For Approximate Query Matching In Large-scale ER","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/herath2021em/"},"url":"https://learning2hash.github.io/publications/herath2021em/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ proposed method.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Em-k Indexing For Approximate Query Matching In Large-scale ER",
         conference: "Arxiv",
@@ -304,7 +303,6 @@ proposed method.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ proposed method.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

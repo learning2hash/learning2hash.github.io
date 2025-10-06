@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhe2018directional/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Directional Statistics-based Deep Metric Learning For Image Classification And Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Deep distance metric learning (DDML), which is proposed to learn image similarity metrics in an end-to-end manner based on the convolution neural network, has achieved encouraging results in many computer vision tasks.(L2)-normalization in the embedding space has been used to improve the performance of several DDML methods. However, the commonly used Euclidean distance is no longer an accurate metric for (L2)-normalized embedding space, i.e., a hyper-sphere. Another challenge of current DDML methods is that their loss functions are usually based on rigid data formats, such as the triplet tuple. Thus, an extra process is needed to prepare data in specific formats. In addition, their losses are obtained from a limited number of samples, which leads to a lack of the global view of the embedding space. In this paper, we replace the Euclidean distance with the cosine similarity to better utilize the (L2)-normalization, which is able to attenuate the curse of dimensionality. More specifically, a novel loss function based on the von Mises-Fisher distribution is proposed to learn a compact hyper-spherical embedding space. Moreover, a new efficient learning algorithm is developed to better capture the global structure of the embedding space. Experiments for both classification and retrieval tasks on several standard datasets show that our method achieves state-of-the-art performance with a simpler training procedure. Furthermore, we demonstrate that, even with a small number of convolutional layers, our model can still obtain significantly better classification performance than the widely used softmax loss.","headline":"Directional Statistics-based Deep Metric Learning For Image Classification And Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhe2018directional/"},"url":"https://learning2hash.github.io/publications/zhe2018directional/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Deep distance metric learning (DDML), which is proposed to learn image similarity metrics in an end-to-end manner based on the convolution neural network, has achieved encouraging results in many computer vision tasks.(L2)-normalization in the embedding space has been used to improve the performance of several DDML methods. However, the commonly used Euclidean distance is no longer an accurate metric for (L2)-normalized embedding space, i.e., a hyper-sphere. Another challenge of current DDML methods is that their loss functions are usually based on rigid data formats, such as the triplet tuple. Thus, an extra process is needed to prepare data in specific formats. In addition, their losses are obtained from a limited number of samples, which leads to a lack of the global view of the embedding space. In this paper, we replace the Euclidean distance with the cosine similarity to better utilize the (L2)-normalization, which is able to attenuate the curse of dimensionality. More specifically, a novel loss function based on the von Mises-Fisher distribution is proposed to learn a compact hyper-spherical embedding space. Moreover, a new efficient learning algorithm is developed to better capture the global structure of the embedding space. Experiments for both classification and retrieval tasks on several standard datasets show that our method achieves state-of-the-art performance with a simpler training procedure. Furthermore, we demonstrate that, even with a small number of convolutional layers, our model can still obtain significantly better classification performance than the widely used softmax loss.","headline":"Directional Statistics-based Deep Metric Learning For Image Classification And Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhe2018directional/"},"url":"https://learning2hash.github.io/publications/zhe2018directional/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ widely used softmax loss.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Directional Statistics-based Deep Metric Learning For Image Classification And Retrieval",
         conference: "Pattern Recognition",
@@ -305,7 +304,6 @@ widely used softmax loss.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ widely used softmax loss.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

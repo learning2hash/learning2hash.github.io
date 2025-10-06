@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2006very/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Very Sparse Random Projections" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"There has been considerable interest in random projections, an approximate algorithm for estimating distances between pairs of points in a high-dimensional vector space. Let A in Rn x D be our n points in D dimensions. The method multiplies A by a random matrix R in RD x k, reducing the D dimensions down to just k for speeding up the computation. R typically consists of entries of standard normal N(0,1). It is well known that random projections preserve pairwise distances (in the expectation). Achlioptas proposed sparse random projections by replacing the N(0,1) entries in R with entries in -1,0,1 with probabilities 1/6, 2/3, 1/6, achieving a threefold speedup in processing time.We recommend using R of entries in -1,0,1 with probabilities 1/2√D, 1-1√D, 1/2√D for achieving a significant √D-fold speedup, with little loss in accuracy.","headline":"Very Sparse Random Projections","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2006very/"},"url":"https://learning2hash.github.io/publications/li2006very/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"There has been considerable interest in random projections, an approximate algorithm for estimating distances between pairs of points in a high-dimensional vector space. Let A in Rn x D be our n points in D dimensions. The method multiplies A by a random matrix R in RD x k, reducing the D dimensions down to just k for speeding up the computation. R typically consists of entries of standard normal N(0,1). It is well known that random projections preserve pairwise distances (in the expectation). Achlioptas proposed sparse random projections by replacing the N(0,1) entries in R with entries in -1,0,1 with probabilities 1/6, 2/3, 1/6, achieving a threefold speedup in processing time.We recommend using R of entries in -1,0,1 with probabilities 1/2√D, 1-1√D, 1/2√D for achieving a significant √D-fold speedup, with little loss in accuracy.","headline":"Very Sparse Random Projections","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2006very/"},"url":"https://learning2hash.github.io/publications/li2006very/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -241,7 +241,6 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Very Sparse Random Projections",
         conference: "Proceedings of the 12th ACM SIGKDD international conference on Knowledge discovery and data mining",
@@ -282,7 +281,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -311,37 +309,38 @@ document.addEventListener('DOMContentLoaded', function () {
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ravi2020buy/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Buy Me That Look: An Approach For Recommending Similar Fashion Products" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Have you ever looked at an Instagram model, or a model in a fashion e-commerce web-page, and thought \\textit{“Wish I could get a list of fashion items similar to the ones worn by the model!”}. This is what we address in this paper, where we propose a novel computer vision based technique called \\textbf{ShopLook} to address the challenging problem of recommending similar fashion products. The proposed method has been evaluated at Myntra (www.myntra.com), a leading online fashion e-commerce platform. In particular, given a user query and the corresponding Product Display Page (PDP) against the query, the goal of our method is to recommend similar fashion products corresponding to the entire set of fashion articles worn by a model in the PDP full-shot image (the one showing the entire model from head to toe). The novelty and strength of our method lies in its capability to recommend similar articles for all the fashion items worn by the model, in addition to the primary article corresponding to the query. This is not only important to promote cross-sells for boosting revenue, but also for improving customer experience and engagement. In addition, our approach is also capable of recommending similar products for User Generated Content (UGC), eg., fashion article images uploaded by users. Formally, our proposed method consists of the following components (in the same order): i) Human keypoint detection, ii) Pose classification, iii) Article localisation and object detection, along with active learning feedback, and iv) Triplet network based image embedding model.","headline":"Buy Me That Look: An Approach For Recommending Similar Fashion Products","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ravi2020buy/"},"url":"https://learning2hash.github.io/publications/ravi2020buy/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Have you ever looked at an Instagram model, or a model in a fashion e-commerce web-page, and thought \\textit{“Wish I could get a list of fashion items similar to the ones worn by the model!”}. This is what we address in this paper, where we propose a novel computer vision based technique called \\textbf{ShopLook} to address the challenging problem of recommending similar fashion products. The proposed method has been evaluated at Myntra (www.myntra.com), a leading online fashion e-commerce platform. In particular, given a user query and the corresponding Product Display Page (PDP) against the query, the goal of our method is to recommend similar fashion products corresponding to the entire set of fashion articles worn by a model in the PDP full-shot image (the one showing the entire model from head to toe). The novelty and strength of our method lies in its capability to recommend similar articles for all the fashion items worn by the model, in addition to the primary article corresponding to the query. This is not only important to promote cross-sells for boosting revenue, but also for improving customer experience and engagement. In addition, our approach is also capable of recommending similar products for User Generated Content (UGC), eg., fashion article images uploaded by users. Formally, our proposed method consists of the following components (in the same order): i) Human keypoint detection, ii) Pose classification, iii) Article localisation and object detection, along with active learning feedback, and iv) Triplet network based image embedding model.","headline":"Buy Me That Look: An Approach For Recommending Similar Fashion Products","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ravi2020buy/"},"url":"https://learning2hash.github.io/publications/ravi2020buy/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ active learning feedback, and iv) Triplet network based image embedding model.</
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Buy Me That Look: An Approach For Recommending Similar Fashion Products",
         conference: "2021 IEEE 4th International Conference on Multimedia Information Processing and Retrieval (MIPR)",
@@ -298,7 +297,6 @@ active learning feedback, and iv) Triplet network based image embedding model.</
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ active learning feedback, and iv) Triplet network based image embedding model.</
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

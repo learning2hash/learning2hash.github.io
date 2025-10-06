@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chatzigeorgakidis2023accelerating/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Accelerating Spatio-textual Queries With Learned Indices" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Efficiently computing spatio-textual queries has become increasingly important in various applications that need to quickly retrieve geolocated entities associated with textual information, such as in location-based services and social networks. To accelerate such queries, several works have proposed combining spatial and textual indices into hybrid index structures. Recently, the novel idea of replacing traditional indices with ML models has attracted a lot of attention. This includes works on learned spatial indices, where the main challenge is to address the lack of a total ordering among objects in a multidimensional space. In this work, we investigate how to extend this novel type of index design to the case of spatio-textual data. We study different design choices, based on either loose or tight coupling between the spatial and textual part, as well as a hybrid index that combines a traditional and a learned component. We also perform an experimental evaluation using several real-world datasets to assess the potential benefits of using a learned index for evaluating spatio-textual queries.","headline":"Accelerating Spatio-textual Queries With Learned Indices","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chatzigeorgakidis2023accelerating/"},"url":"https://learning2hash.github.io/publications/chatzigeorgakidis2023accelerating/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Efficiently computing spatio-textual queries has become increasingly important in various applications that need to quickly retrieve geolocated entities associated with textual information, such as in location-based services and social networks. To accelerate such queries, several works have proposed combining spatial and textual indices into hybrid index structures. Recently, the novel idea of replacing traditional indices with ML models has attracted a lot of attention. This includes works on learned spatial indices, where the main challenge is to address the lack of a total ordering among objects in a multidimensional space. In this work, we investigate how to extend this novel type of index design to the case of spatio-textual data. We study different design choices, based on either loose or tight coupling between the spatial and textual part, as well as a hybrid index that combines a traditional and a learned component. We also perform an experimental evaluation using several real-world datasets to assess the potential benefits of using a learned index for evaluating spatio-textual queries.","headline":"Accelerating Spatio-textual Queries With Learned Indices","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chatzigeorgakidis2023accelerating/"},"url":"https://learning2hash.github.io/publications/chatzigeorgakidis2023accelerating/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -257,7 +257,6 @@ index for evaluating spatio-textual queries.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Accelerating Spatio-textual Queries With Learned Indices",
         conference: "Arxiv",
@@ -298,7 +297,6 @@ index for evaluating spatio-textual queries.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -327,37 +325,38 @@ index for evaluating spatio-textual queries.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

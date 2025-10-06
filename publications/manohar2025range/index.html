@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/manohar2025range/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Range Retrieval With Graph-based Indices" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Retrieving points based on proximity in a high-dimensional vector space is a crucial step in information retrieval applications. The approximate nearest neighbor search (ANNS) problem, which identifies the (k) nearest neighbors for a query (approximately, since exactly is hard), has been extensively studied in recent years. However, comparatively little attention has been paid to the related problem of finding all points within a given distance of a query, the range retrieval problem, despite its applications in areas such as duplicate detection, plagiarism checking, and facial recognition. In this paper, we present a set of algorithms for range retrieval on graph-based vector indices, which are known to achieve excellent performance on ANNS queries. Since a range query may have anywhere from no matching results to thousands of matching results in the database, we introduce a set of range retrieval algorithms based on modifications of the standard graph search that adapt to terminate quickly on queries in the former group, and to put more resources into finding results for the latter group. Due to the lack of existing benchmarks for range retrieval, we also undertake a comprehensive study of range characteristics of existing embedding datasets, and select a suitable range retrieval radius for eight existing datasets with up to 100 million points in addition to the one existing benchmark. We test our algorithms on these datasets, and find up to 100x improvement in query throughput over a naive baseline approach, with 5-10x improvement on average, and strong performance up to 100 million data points.","headline":"Range Retrieval With Graph-based Indices","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/manohar2025range/"},"url":"https://learning2hash.github.io/publications/manohar2025range/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Retrieving points based on proximity in a high-dimensional vector space is a crucial step in information retrieval applications. The approximate nearest neighbor search (ANNS) problem, which identifies the (k) nearest neighbors for a query (approximately, since exactly is hard), has been extensively studied in recent years. However, comparatively little attention has been paid to the related problem of finding all points within a given distance of a query, the range retrieval problem, despite its applications in areas such as duplicate detection, plagiarism checking, and facial recognition. In this paper, we present a set of algorithms for range retrieval on graph-based vector indices, which are known to achieve excellent performance on ANNS queries. Since a range query may have anywhere from no matching results to thousands of matching results in the database, we introduce a set of range retrieval algorithms based on modifications of the standard graph search that adapt to terminate quickly on queries in the former group, and to put more resources into finding results for the latter group. Due to the lack of existing benchmarks for range retrieval, we also undertake a comprehensive study of range characteristics of existing embedding datasets, and select a suitable range retrieval radius for eight existing datasets with up to 100 million points in addition to the one existing benchmark. We test our algorithms on these datasets, and find up to 100x improvement in query throughput over a naive baseline approach, with 5-10x improvement on average, and strong performance up to 100 million data points.","headline":"Range Retrieval With Graph-based Indices","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/manohar2025range/"},"url":"https://learning2hash.github.io/publications/manohar2025range/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +261,6 @@ improvement on average, and strong performance up to 100 million data points.</p
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Range Retrieval With Graph-based Indices",
         conference: "Arxiv",
@@ -302,7 +301,6 @@ improvement on average, and strong performance up to 100 million data points.</p
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -331,37 +329,38 @@ improvement on average, and strong performance up to 100 million data points.</p
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

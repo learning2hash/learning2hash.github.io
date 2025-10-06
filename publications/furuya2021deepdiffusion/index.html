@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/furuya2021deepdiffusion/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deepdiffusion: Unsupervised Learning Of Retrieval-adapted Representations Via Diffusion-based Ranking On Latent Feature Manifold" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Unsupervised learning of feature representations is a challenging yet important problem for analyzing a large collection of multimedia data that do not have semantic labels. Recently proposed neural network-based unsupervised learning approaches have succeeded in obtaining features appropriate for classification of multimedia data. However, unsupervised learning of feature representations adapted to content-based matching, comparison, or retrieval of multimedia data has not been explored well. To obtain such retrieval-adapted features, we introduce the idea of combining diffusion distance on a feature manifold with neural network-based unsupervised feature learning. This idea is realized as a novel algorithm called DeepDiffusion (DD). DD simultaneously optimizes two components, a feature embedding by a deep neural network and a distance metric that leverages diffusion on a latent feature manifold, together. DD relies on its loss function but not encoder architecture. It can thus be applied to diverse multimedia data types with their respective encoder architectures. Experimental evaluation using 3D shapes and 2D images demonstrates versatility as well as high accuracy of the DD algorithm. Code is available at https://github.com/takahikof/DeepDiffusion","headline":"Deepdiffusion: Unsupervised Learning Of Retrieval-adapted Representations Via Diffusion-based Ranking On Latent Feature Manifold","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/furuya2021deepdiffusion/"},"url":"https://learning2hash.github.io/publications/furuya2021deepdiffusion/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Unsupervised learning of feature representations is a challenging yet important problem for analyzing a large collection of multimedia data that do not have semantic labels. Recently proposed neural network-based unsupervised learning approaches have succeeded in obtaining features appropriate for classification of multimedia data. However, unsupervised learning of feature representations adapted to content-based matching, comparison, or retrieval of multimedia data has not been explored well. To obtain such retrieval-adapted features, we introduce the idea of combining diffusion distance on a feature manifold with neural network-based unsupervised feature learning. This idea is realized as a novel algorithm called DeepDiffusion (DD). DD simultaneously optimizes two components, a feature embedding by a deep neural network and a distance metric that leverages diffusion on a latent feature manifold, together. DD relies on its loss function but not encoder architecture. It can thus be applied to diverse multimedia data types with their respective encoder architectures. Experimental evaluation using 3D shapes and 2D images demonstrates versatility as well as high accuracy of the DD algorithm. Code is available at https://github.com/takahikof/DeepDiffusion","headline":"Deepdiffusion: Unsupervised Learning Of Retrieval-adapted Representations Via Diffusion-based Ranking On Latent Feature Manifold","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/furuya2021deepdiffusion/"},"url":"https://learning2hash.github.io/publications/furuya2021deepdiffusion/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ available at https://github.com/takahikof/DeepDiffusion</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Deepdiffusion: Unsupervised Learning Of Retrieval-adapted Representations Via Diffusion-based Ranking On Latent Feature Manifold",
         conference: "IEEE Access",
@@ -300,7 +299,6 @@ available at https://github.com/takahikof/DeepDiffusion</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ available at https://github.com/takahikof/DeepDiffusion</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

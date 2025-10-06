@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/bao2024average/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Average-distortion Sketching" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"We introduce average-distortion sketching for metric spaces. As in (worst-case) sketching, these algorithms compress points in a metric space while approximately recovering pairwise distances. The novelty is studying average-distortion: for any fixed (yet, arbitrary) distribution (\\mu) over the metric, the sketch should not over-estimate distances, and it should (approximately) preserve the average distance with respect to draws from (\\mu). The notion generalizes average-distortion embeddings into (\\ell_1) [Rabinovich ‘03, Kush-Nikolov-Tang ‘21] as well as data-dependent locality-sensitive hashing [Andoni-Razenshteyn ‘15, Andoni-Naor-Nikolov-et-al. ‘18], which have been recently studied in the context of nearest neighbor search. (\\bullet) For all (p \\in (2, \\infty)) and any (c) larger than a fixed constant, we give an average-distortion sketch for (([\\Delta]^d, \\ell_p)) with approximation (c) and bit-complexity (\\text{poly}(2^{p/c} \\cdot log(d\\Delta))), which is provably impossible in (worst-case) sketching. (\\bullet) As an application, we improve on the approximation of sublinear-time data structures for nearest neighbor search over (\\ell_p) (for large (p &gt; 2)). The prior best approximation was (O(p)) [Andoni-Naor-Nikolov-et-al. ‘18, Kush-Nikolov-Tang ‘21], and we show it can be any (c) larger than a fixed constant (irrespective of (p)) by using (n^{O(p/c)}) space. We give some evidence that (2^{Ω(p/c)}) space may be necessary by giving a lower bound on average-distortion sketches which produce a certain probabilistic certificate of farness (which our sketches crucially rely on).","headline":"Average-distortion Sketching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bao2024average/"},"url":"https://learning2hash.github.io/publications/bao2024average/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"We introduce average-distortion sketching for metric spaces. As in (worst-case) sketching, these algorithms compress points in a metric space while approximately recovering pairwise distances. The novelty is studying average-distortion: for any fixed (yet, arbitrary) distribution (\\mu) over the metric, the sketch should not over-estimate distances, and it should (approximately) preserve the average distance with respect to draws from (\\mu). The notion generalizes average-distortion embeddings into (\\ell_1) [Rabinovich ‘03, Kush-Nikolov-Tang ‘21] as well as data-dependent locality-sensitive hashing [Andoni-Razenshteyn ‘15, Andoni-Naor-Nikolov-et-al. ‘18], which have been recently studied in the context of nearest neighbor search. (\\bullet) For all (p \\in (2, \\infty)) and any (c) larger than a fixed constant, we give an average-distortion sketch for (([\\Delta]^d, \\ell_p)) with approximation (c) and bit-complexity (\\text{poly}(2^{p/c} \\cdot log(d\\Delta))), which is provably impossible in (worst-case) sketching. (\\bullet) As an application, we improve on the approximation of sublinear-time data structures for nearest neighbor search over (\\ell_p) (for large (p &gt; 2)). The prior best approximation was (O(p)) [Andoni-Naor-Nikolov-et-al. ‘18, Kush-Nikolov-Tang ‘21], and we show it can be any (c) larger than a fixed constant (irrespective of (p)) by using (n^{O(p/c)}) space. We give some evidence that (2^{Ω(p/c)}) space may be necessary by giving a lower bound on average-distortion sketches which produce a certain probabilistic certificate of farness (which our sketches crucially rely on).","headline":"Average-distortion Sketching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bao2024average/"},"url":"https://learning2hash.github.io/publications/bao2024average/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ probabilistic certificate of farness (which our sketches crucially rely on).</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Average-distortion Sketching",
         conference: "Arxiv",
@@ -300,7 +299,6 @@ probabilistic certificate of farness (which our sketches crucially rely on).</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ probabilistic certificate of farness (which our sketches crucially rely on).</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

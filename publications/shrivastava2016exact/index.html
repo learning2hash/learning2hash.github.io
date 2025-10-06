@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/shrivastava2016exact/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Exact Weighted Minwise Hashing In Constant Time" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Weighted minwise hashing (WMH) is one of the fundamental subroutine, required by many celebrated approximation algorithms, commonly adopted in industrial practice for large scale-search and learning. The resource bottleneck of the algorithms is the computation of multiple (typically a few hundreds to thousands) independent hashes of the data. The fastest hashing algorithm is by Ioffe \\cite{Proc:Ioffe_ICDM10}, which requires one pass over the entire data vector, (O(d)) ((d) is the number of non-zeros), for computing one hash. However, the requirement of multiple hashes demands hundreds or thousands passes over the data. This is very costly for modern massive dataset. In this work, we break this expensive barrier and show an expected constant amortized time algorithm which computes (k) independent and unbiased WMH in time (O(k)) instead of (O(dk)) required by Ioffe’s method. Moreover, our proposal only needs a few bits (5 - 9 bits) of storage per hash value compared to around (64) bits required by the state-of-art-methodologies. Experimental evaluations, on real datasets, show that for computing 500 WMH, our proposal can be 60000x faster than the Ioffe’s method without losing any accuracy. Our method is also around 100x faster than approximate heuristics capitalizing on the efficient “densified” one permutation hashing schemes \\cite{Proc:OneHashLSH_ICML14}. Given the simplicity of our approach and its significant advantages, we hope that it will replace existing implementations in practice.","headline":"Exact Weighted Minwise Hashing In Constant Time","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shrivastava2016exact/"},"url":"https://learning2hash.github.io/publications/shrivastava2016exact/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Weighted minwise hashing (WMH) is one of the fundamental subroutine, required by many celebrated approximation algorithms, commonly adopted in industrial practice for large scale-search and learning. The resource bottleneck of the algorithms is the computation of multiple (typically a few hundreds to thousands) independent hashes of the data. The fastest hashing algorithm is by Ioffe \\cite{Proc:Ioffe_ICDM10}, which requires one pass over the entire data vector, (O(d)) ((d) is the number of non-zeros), for computing one hash. However, the requirement of multiple hashes demands hundreds or thousands passes over the data. This is very costly for modern massive dataset. In this work, we break this expensive barrier and show an expected constant amortized time algorithm which computes (k) independent and unbiased WMH in time (O(k)) instead of (O(dk)) required by Ioffe’s method. Moreover, our proposal only needs a few bits (5 - 9 bits) of storage per hash value compared to around (64) bits required by the state-of-art-methodologies. Experimental evaluations, on real datasets, show that for computing 500 WMH, our proposal can be 60000x faster than the Ioffe’s method without losing any accuracy. Our method is also around 100x faster than approximate heuristics capitalizing on the efficient “densified” one permutation hashing schemes \\cite{Proc:OneHashLSH_ICML14}. Given the simplicity of our approach and its significant advantages, we hope that it will replace existing implementations in practice.","headline":"Exact Weighted Minwise Hashing In Constant Time","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shrivastava2016exact/"},"url":"https://learning2hash.github.io/publications/shrivastava2016exact/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ in practice.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Exact Weighted Minwise Hashing In Constant Time",
         conference: "Arxiv",
@@ -300,7 +299,6 @@ in practice.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ in practice.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

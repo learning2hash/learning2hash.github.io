@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2014scalable/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Scalable Similarity Learning Using Large Margin Neighborhood Embedding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Classifying large-scale image data into object categories is an important problem that has received increasing research attention. Given the huge amount of data, non-parametric approaches such as nearest neighbor classifiers have shown promising results, especially when they are underpinned by a learned distance or similarity measurement. Although metric learning has been well studied in the past decades, most existing algorithms are impractical to handle large-scale data sets. In this paper, we present an image similarity learning method that can scale well in both the number of images and the dimensionality of image descriptors. To this end, similarity comparison is restricted to each sample’s local neighbors and a discriminative similarity measure is induced from large margin neighborhood embedding. We also exploit the ensemble of projections so that high-dimensional features can be processed in a set of lower-dimensional subspaces in parallel without much performance compromise. The similarity function is learned online using a stochastic gradient descent algorithm in which the triplet sampling strategy is customized for quick convergence of classification performance. The effectiveness of our proposed model is validated on several data sets with scales varying from tens of thousands to one million images. Recognition accuracies competitive with the state-of-the-art performance are achieved with much higher efficiency and scalability.","headline":"Scalable Similarity Learning Using Large Margin Neighborhood Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2014scalable/"},"url":"https://learning2hash.github.io/publications/wang2014scalable/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Classifying large-scale image data into object categories is an important problem that has received increasing research attention. Given the huge amount of data, non-parametric approaches such as nearest neighbor classifiers have shown promising results, especially when they are underpinned by a learned distance or similarity measurement. Although metric learning has been well studied in the past decades, most existing algorithms are impractical to handle large-scale data sets. In this paper, we present an image similarity learning method that can scale well in both the number of images and the dimensionality of image descriptors. To this end, similarity comparison is restricted to each sample’s local neighbors and a discriminative similarity measure is induced from large margin neighborhood embedding. We also exploit the ensemble of projections so that high-dimensional features can be processed in a set of lower-dimensional subspaces in parallel without much performance compromise. The similarity function is learned online using a stochastic gradient descent algorithm in which the triplet sampling strategy is customized for quick convergence of classification performance. The effectiveness of our proposed model is validated on several data sets with scales varying from tens of thousands to one million images. Recognition accuracies competitive with the state-of-the-art performance are achieved with much higher efficiency and scalability.","headline":"Scalable Similarity Learning Using Large Margin Neighborhood Embedding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2014scalable/"},"url":"https://learning2hash.github.io/publications/wang2014scalable/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ scalability.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Scalable Similarity Learning Using Large Margin Neighborhood Embedding",
         conference: "2015 IEEE Winter Conference on Applications of Computer Vision",
@@ -303,7 +302,6 @@ scalability.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ scalability.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

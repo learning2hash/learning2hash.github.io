@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhang2023graph/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Graph Convolution Based Efficient Re-ranking For Visual Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Visual retrieval tasks such as image retrieval and person re-identification (Re-ID) aim at effectively and thoroughly searching images with similar content or the same identity. After obtaining retrieved examples, re-ranking is a widely adopted post-processing step to reorder and improve the initial retrieval results by making use of the contextual information from semantically neighboring samples. Prevailing re-ranking approaches update distance metrics and mostly rely on inefficient crosscheck set comparison operations while computing expanded neighbors based distances. In this work, we present an efficient re-ranking method which refines initial retrieval results by updating features. Specifically, we reformulate re-ranking based on Graph Convolution Networks (GCN) and propose a novel Graph Convolution based Re-ranking (GCR) for visual retrieval tasks via feature propagation. To accelerate computation for large-scale retrieval, a decentralized and synchronous feature propagation algorithm which supports parallel or distributed computing is introduced. In particular, the plain GCR is extended for cross-camera retrieval and an improved feature propagation formulation is presented to leverage affinity relationships across different cameras. It is also extended for video-based retrieval, and Graph Convolution based Re-ranking for Video (GCRV) is proposed by mathematically deriving a novel profile vector generation method for the tracklet. Without bells and whistles, the proposed approaches achieve state-of-the-art performances on seven benchmark datasets from three different tasks, i.e., image retrieval, person Re-ID and video-based person Re-ID.","headline":"Graph Convolution Based Efficient Re-ranking For Visual Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2023graph/"},"url":"https://learning2hash.github.io/publications/zhang2023graph/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Visual retrieval tasks such as image retrieval and person re-identification (Re-ID) aim at effectively and thoroughly searching images with similar content or the same identity. After obtaining retrieved examples, re-ranking is a widely adopted post-processing step to reorder and improve the initial retrieval results by making use of the contextual information from semantically neighboring samples. Prevailing re-ranking approaches update distance metrics and mostly rely on inefficient crosscheck set comparison operations while computing expanded neighbors based distances. In this work, we present an efficient re-ranking method which refines initial retrieval results by updating features. Specifically, we reformulate re-ranking based on Graph Convolution Networks (GCN) and propose a novel Graph Convolution based Re-ranking (GCR) for visual retrieval tasks via feature propagation. To accelerate computation for large-scale retrieval, a decentralized and synchronous feature propagation algorithm which supports parallel or distributed computing is introduced. In particular, the plain GCR is extended for cross-camera retrieval and an improved feature propagation formulation is presented to leverage affinity relationships across different cameras. It is also extended for video-based retrieval, and Graph Convolution based Re-ranking for Video (GCRV) is proposed by mathematically deriving a novel profile vector generation method for the tracklet. Without bells and whistles, the proposed approaches achieve state-of-the-art performances on seven benchmark datasets from three different tasks, i.e., image retrieval, person Re-ID and video-based person Re-ID.","headline":"Graph Convolution Based Efficient Re-ranking For Visual Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhang2023graph/"},"url":"https://learning2hash.github.io/publications/zhang2023graph/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -270,7 +270,6 @@ tasks, i.e., image retrieval, person Re-ID and video-based person Re-ID.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Graph Convolution Based Efficient Re-ranking For Visual Retrieval",
         conference: "IEEE Transactions on Multimedia",
@@ -311,7 +310,6 @@ tasks, i.e., image retrieval, person Re-ID and video-based person Re-ID.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -340,37 +338,38 @@ tasks, i.e., image retrieval, person Re-ID and video-based person Re-ID.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

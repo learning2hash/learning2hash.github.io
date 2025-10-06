@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/an2020fast/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fast And Incremental Loop Closure Detection With Deep Features And Proximity Graphs" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In recent years, the robotics community has extensively examined methods concerning the place recognition task within the scope of simultaneous localization and mapping applications.This article proposes an appearance-based loop closure detection pipeline named ``FILD++” (Fast and Incremental Loop closure Detection).First, the system is fed by consecutive images and, via passing them twice through a single convolutional neural network, global and local deep features are extracted.Subsequently, a hierarchical navigable small-world graph incrementally constructs a visual database representing the robot’s traversed path based on the computed global features.Finally, a query image, grabbed each time step, is set to retrieve similar locations on the traversed route.An image-to-image pairing follows, which exploits local features to evaluate the spatial information. Thus, in the proposed article, we propose a single network for global and local feature extraction in contrast to our previous work (FILD), while an exhaustive search for the verification process is adopted over the generated deep local features avoiding the utilization of hash codes. Exhaustive experiments on eleven publicly available datasets exhibit the system’s high performance (achieving the highest recall score on eight of them) and low execution times (22.05 ms on average in New College, which is the largest one containing 52480 images) compared to other state-of-the-art approaches.","headline":"Fast And Incremental Loop Closure Detection With Deep Features And Proximity Graphs","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/an2020fast/"},"url":"https://learning2hash.github.io/publications/an2020fast/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In recent years, the robotics community has extensively examined methods concerning the place recognition task within the scope of simultaneous localization and mapping applications.This article proposes an appearance-based loop closure detection pipeline named ``FILD++” (Fast and Incremental Loop closure Detection).First, the system is fed by consecutive images and, via passing them twice through a single convolutional neural network, global and local deep features are extracted.Subsequently, a hierarchical navigable small-world graph incrementally constructs a visual database representing the robot’s traversed path based on the computed global features.Finally, a query image, grabbed each time step, is set to retrieve similar locations on the traversed route.An image-to-image pairing follows, which exploits local features to evaluate the spatial information. Thus, in the proposed article, we propose a single network for global and local feature extraction in contrast to our previous work (FILD), while an exhaustive search for the verification process is adopted over the generated deep local features avoiding the utilization of hash codes. Exhaustive experiments on eleven publicly available datasets exhibit the system’s high performance (achieving the highest recall score on eight of them) and low execution times (22.05 ms on average in New College, which is the largest one containing 52480 images) compared to other state-of-the-art approaches.","headline":"Fast And Incremental Loop Closure Detection With Deep Features And Proximity Graphs","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/an2020fast/"},"url":"https://learning2hash.github.io/publications/an2020fast/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ state-of-the-art approaches.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Fast And Incremental Loop Closure Detection With Deep Features And Proximity Graphs",
         conference: "Journal of Field Robotics",
@@ -303,7 +302,6 @@ state-of-the-art approaches.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ state-of-the-art approaches.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

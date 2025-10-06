@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/khudaBukhsh2020discovering/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Discovering Bilingual Lexicons In Polyglot Word Embeddings" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Bilingual lexicons and phrase tables are critical resources for modern Machine Translation systems. Although recent results show that without any seed lexicon or parallel data, highly accurate bilingual lexicons can be learned using unsupervised methods, such methods rely on the existence of large, clean monolingual corpora. In this work, we utilize a single Skip-gram model trained on a multilingual corpus yielding polyglot word embeddings, and present a novel finding that a surprisingly simple constrained nearest-neighbor sampling technique in this embedding space can retrieve bilingual lexicons, even in harsh social media data sets predominantly written in English and Romanized Hindi and often exhibiting code switching. Our method does not require monolingual corpora, seed lexicons, or any other such resources. Additionally, across three European language pairs, we observe that polyglot word embeddings indeed learn a rich semantic representation of words and substantial bilingual lexicons can be retrieved using our constrained nearest neighbor sampling. We investigate potential reasons and downstream applications in settings spanning both clean texts and noisy social media data sets, and in both resource-rich and under-resourced language pairs.","headline":"Discovering Bilingual Lexicons In Polyglot Word Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/khudaBukhsh2020discovering/"},"url":"https://learning2hash.github.io/publications/khudaBukhsh2020discovering/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Bilingual lexicons and phrase tables are critical resources for modern Machine Translation systems. Although recent results show that without any seed lexicon or parallel data, highly accurate bilingual lexicons can be learned using unsupervised methods, such methods rely on the existence of large, clean monolingual corpora. In this work, we utilize a single Skip-gram model trained on a multilingual corpus yielding polyglot word embeddings, and present a novel finding that a surprisingly simple constrained nearest-neighbor sampling technique in this embedding space can retrieve bilingual lexicons, even in harsh social media data sets predominantly written in English and Romanized Hindi and often exhibiting code switching. Our method does not require monolingual corpora, seed lexicons, or any other such resources. Additionally, across three European language pairs, we observe that polyglot word embeddings indeed learn a rich semantic representation of words and substantial bilingual lexicons can be retrieved using our constrained nearest neighbor sampling. We investigate potential reasons and downstream applications in settings spanning both clean texts and noisy social media data sets, and in both resource-rich and under-resourced language pairs.","headline":"Discovering Bilingual Lexicons In Polyglot Word Embeddings","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/khudaBukhsh2020discovering/"},"url":"https://learning2hash.github.io/publications/khudaBukhsh2020discovering/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -253,7 +253,6 @@ and under-resourced language pairs.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Discovering Bilingual Lexicons In Polyglot Word Embeddings",
         conference: "Arxiv",
@@ -294,7 +293,6 @@ and under-resourced language pairs.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -323,37 +321,38 @@ and under-resourced language pairs.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

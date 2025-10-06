@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/salvi2016bloom/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Bloom Filters And Compact Hash Codes For Efficient And Distributed Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"This paper presents a novel method for efficient image retrieval, based on a simple and effective hashing of CNN features and the use of an indexing structure based on Bloom filters. These filters are used as gatekeepers for the database of image features, allowing to avoid to perform a query if the query features are not stored in the database and speeding up the query process, without affecting retrieval performance. Thanks to the limited memory requirements the system is suitable for mobile applications and distributed databases, associating each filter to a distributed portion of the database. Experimental validation has been performed on three standard image retrieval datasets, outperforming state-of-the-art hashing methods in terms of precision, while the proposed indexing method obtains a (2\\times) speedup.","headline":"Bloom Filters And Compact Hash Codes For Efficient And Distributed Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/salvi2016bloom/"},"url":"https://learning2hash.github.io/publications/salvi2016bloom/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"This paper presents a novel method for efficient image retrieval, based on a simple and effective hashing of CNN features and the use of an indexing structure based on Bloom filters. These filters are used as gatekeepers for the database of image features, allowing to avoid to perform a query if the query features are not stored in the database and speeding up the query process, without affecting retrieval performance. Thanks to the limited memory requirements the system is suitable for mobile applications and distributed databases, associating each filter to a distributed portion of the database. Experimental validation has been performed on three standard image retrieval datasets, outperforming state-of-the-art hashing methods in terms of precision, while the proposed indexing method obtains a (2\\times) speedup.","headline":"Bloom Filters And Compact Hash Codes For Efficient And Distributed Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/salvi2016bloom/"},"url":"https://learning2hash.github.io/publications/salvi2016bloom/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ while the proposed indexing method obtains a (2\times) speedup.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Bloom Filters And Compact Hash Codes For Efficient And Distributed Image Retrieval",
         conference: "2016 IEEE International Symposium on Multimedia (ISM)",
@@ -296,7 +295,6 @@ while the proposed indexing method obtains a (2\times) speedup.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ while the proposed indexing method obtains a (2\times) speedup.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

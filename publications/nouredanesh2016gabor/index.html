@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/nouredanesh2016gabor/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Gabor Barcodes For Medical Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In recent years, advances in medical imaging have led to the emergence of massive databases, containing images from a diverse range of modalities. This has significantly heightened the need for automated annotation of the images on one side, and fast and memory-efficient content-based image retrieval systems on the other side. Binary descriptors have recently gained more attention as a potential vehicle to achieve these goals. One of the recently introduced binary descriptors for tagging of medical images are Radon barcodes (RBCs) that are driven from Radon transform via local thresholding. Gabor transform is also a powerful transform to extract texture-based information. Gabor features have exhibited robustness against rotation, scale, and also photometric disturbances, such as illumination changes and image noise in many applications. This paper introduces Gabor Barcodes (GBCs), as a novel framework for the image annotation. To find the most discriminative GBC for a given query image, the effects of employing Gabor filters with different parameters, i.e., different sets of scales and orientations, are investigated, resulting in different barcode lengths and retrieval performances. The proposed method has been evaluated on the IRMA dataset with 193 classes comprising of 12,677 x-ray images for indexing, and 1,733 x-rays images for testing. A total error score as low as (351) ((\\approx 80%) accuracy for the first hit) was achieved.","headline":"Gabor Barcodes For Medical Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/nouredanesh2016gabor/"},"url":"https://learning2hash.github.io/publications/nouredanesh2016gabor/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In recent years, advances in medical imaging have led to the emergence of massive databases, containing images from a diverse range of modalities. This has significantly heightened the need for automated annotation of the images on one side, and fast and memory-efficient content-based image retrieval systems on the other side. Binary descriptors have recently gained more attention as a potential vehicle to achieve these goals. One of the recently introduced binary descriptors for tagging of medical images are Radon barcodes (RBCs) that are driven from Radon transform via local thresholding. Gabor transform is also a powerful transform to extract texture-based information. Gabor features have exhibited robustness against rotation, scale, and also photometric disturbances, such as illumination changes and image noise in many applications. This paper introduces Gabor Barcodes (GBCs), as a novel framework for the image annotation. To find the most discriminative GBC for a given query image, the effects of employing Gabor filters with different parameters, i.e., different sets of scales and orientations, are investigated, resulting in different barcode lengths and retrieval performances. The proposed method has been evaluated on the IRMA dataset with 193 classes comprising of 12,677 x-ray images for indexing, and 1,733 x-rays images for testing. A total error score as low as (351) ((\\approx 80%) accuracy for the first hit) was achieved.","headline":"Gabor Barcodes For Medical Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/nouredanesh2016gabor/"},"url":"https://learning2hash.github.io/publications/nouredanesh2016gabor/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +261,6 @@ as low as (351) ((\approx 80%) accuracy for the first hit) was achieved.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Gabor Barcodes For Medical Image Retrieval",
         conference: "2016 IEEE International Conference on Image Processing (ICIP)",
@@ -302,7 +301,6 @@ as low as (351) ((\approx 80%) accuracy for the first hit) was achieved.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -331,37 +329,38 @@ as low as (351) ((\approx 80%) accuracy for the first hit) was achieved.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

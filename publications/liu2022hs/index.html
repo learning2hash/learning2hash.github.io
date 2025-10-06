@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/liu2022hs/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="HS-GCN: Hamming Spatial Graph Convolutional Networks For Recommendation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"An efficient solution to the large-scale recommender system is to represent users and items as binary hash codes in the Hamming space. Towards this end, existing methods tend to code users by modeling their Hamming similarities with the items they historically interact with, which are termed as the first-order similarities in this work. Despite their efficiency, these methods suffer from the suboptimal representative capacity, since they forgo the correlation established by connecting multiple first-order similarities, i.e., the relation among the indirect instances, which could be defined as the high-order similarity. To tackle this drawback, we propose to model both the first- and the high-order similarities in the Hamming space through the user-item bipartite graph. Therefore, we develop a novel learning to hash framework, namely Hamming Spatial Graph Convolutional Networks (HS-GCN), which explicitly models the Hamming similarity and embeds it into the codes of users and items. Extensive experiments on three public benchmark datasets demonstrate that our proposed model significantly outperforms several state-of-the-art hashing models, and obtains performance comparable with the real-valued recommendation models.","headline":"HS-GCN: Hamming Spatial Graph Convolutional Networks For Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2022hs/"},"url":"https://learning2hash.github.io/publications/liu2022hs/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"An efficient solution to the large-scale recommender system is to represent users and items as binary hash codes in the Hamming space. Towards this end, existing methods tend to code users by modeling their Hamming similarities with the items they historically interact with, which are termed as the first-order similarities in this work. Despite their efficiency, these methods suffer from the suboptimal representative capacity, since they forgo the correlation established by connecting multiple first-order similarities, i.e., the relation among the indirect instances, which could be defined as the high-order similarity. To tackle this drawback, we propose to model both the first- and the high-order similarities in the Hamming space through the user-item bipartite graph. Therefore, we develop a novel learning to hash framework, namely Hamming Spatial Graph Convolutional Networks (HS-GCN), which explicitly models the Hamming similarity and embeds it into the codes of users and items. Extensive experiments on three public benchmark datasets demonstrate that our proposed model significantly outperforms several state-of-the-art hashing models, and obtains performance comparable with the real-valued recommendation models.","headline":"HS-GCN: Hamming Spatial Graph Convolutional Networks For Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/liu2022hs/"},"url":"https://learning2hash.github.io/publications/liu2022hs/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -265,7 +265,6 @@ models.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "HS-GCN: Hamming Spatial Graph Convolutional Networks For Recommendation",
         conference: "IEEE Transactions on Knowledge and Data Engineering",
@@ -306,7 +305,6 @@ models.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -335,37 +333,38 @@ models.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

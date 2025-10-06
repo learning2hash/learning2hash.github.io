@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yingfan2021revisiting/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Revisiting (k)-nearest Neighbor Graph Construction On High-dimensional Data : Experiments And Analyses" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The (k)-nearest neighbor graph (KNNG) on high-dimensional data is a data structure widely used in many applications such as similarity search, dimension reduction and clustering. Due to its increasing popularity, several methods under the same framework have been proposed in the past decade. This framework contains two steps, i.e. building an initial KNNG (denoted as \\texttt{INIT}) and then refining it by neighborhood propagation (denoted as \\texttt{NBPG}). However, there remain several questions to be answered. First, it lacks a comprehensive experimental comparison among representative solutions in the literature. Second, some recently proposed indexing structures, e.g., SW and HNSW, have not been used or tested for building an initial KNNG. Third, the relationship between the data property and the effectiveness of \\texttt{NBPG} is still not clear. To address these issues, we comprehensively compare the representative approaches on real-world high-dimensional data sets to provide practical and insightful suggestions for users. As the first attempt, we take SW and HNSW as the alternatives of \\texttt{INIT} in our experiments. Moreover, we investigate the effectiveness of \\texttt{NBPG} and find the strong correlation between the huness phenomenon and the performance of \\texttt{NBPG}.","headline":"Revisiting (k)-nearest Neighbor Graph Construction On High-dimensional Data : Experiments And Analyses","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yingfan2021revisiting/"},"url":"https://learning2hash.github.io/publications/yingfan2021revisiting/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The (k)-nearest neighbor graph (KNNG) on high-dimensional data is a data structure widely used in many applications such as similarity search, dimension reduction and clustering. Due to its increasing popularity, several methods under the same framework have been proposed in the past decade. This framework contains two steps, i.e. building an initial KNNG (denoted as \\texttt{INIT}) and then refining it by neighborhood propagation (denoted as \\texttt{NBPG}). However, there remain several questions to be answered. First, it lacks a comprehensive experimental comparison among representative solutions in the literature. Second, some recently proposed indexing structures, e.g., SW and HNSW, have not been used or tested for building an initial KNNG. Third, the relationship between the data property and the effectiveness of \\texttt{NBPG} is still not clear. To address these issues, we comprehensively compare the representative approaches on real-world high-dimensional data sets to provide practical and insightful suggestions for users. As the first attempt, we take SW and HNSW as the alternatives of \\texttt{INIT} in our experiments. Moreover, we investigate the effectiveness of \\texttt{NBPG} and find the strong correlation between the huness phenomenon and the performance of \\texttt{NBPG}.","headline":"Revisiting (k)-nearest Neighbor Graph Construction On High-dimensional Data : Experiments And Analyses","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yingfan2021revisiting/"},"url":"https://learning2hash.github.io/publications/yingfan2021revisiting/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ correlation between the huness phenomenon and the performance of \texttt{NBPG}.<
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Revisiting \\(k\\)-nearest Neighbor Graph Construction On High-dimensional Data : Experiments And Analyses",
         conference: "Arxiv",
@@ -300,7 +299,6 @@ correlation between the huness phenomenon and the performance of \texttt{NBPG}.<
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ correlation between the huness phenomenon and the performance of \texttt{NBPG}.<
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

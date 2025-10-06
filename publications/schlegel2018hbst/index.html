@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/schlegel2018hbst/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="HBST: A Hamming Distance Embedding Binary Search Tree For Visual Place Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Reliable and efficient Visual Place Recognition is a major building block of modern SLAM systems. Leveraging on our prior work, in this paper we present a Hamming Distance embedding Binary Search Tree (HBST) approach for binary Descriptor Matching and Image Retrieval. HBST allows for descriptor Search and Insertion in logarithmic time by exploiting particular properties of binary Feature descriptors. We support the idea behind our search structure with a thorough analysis on the exploited descriptor properties and their effects on completeness and complexity of search and insertion. To validate our claims we conducted comparative experiments for HBST and several state-of-the-art methods on a broad range of publicly available datasets. HBST is available as a compact open-source C++ header-only library.","headline":"HBST: A Hamming Distance Embedding Binary Search Tree For Visual Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/schlegel2018hbst/"},"url":"https://learning2hash.github.io/publications/schlegel2018hbst/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Reliable and efficient Visual Place Recognition is a major building block of modern SLAM systems. Leveraging on our prior work, in this paper we present a Hamming Distance embedding Binary Search Tree (HBST) approach for binary Descriptor Matching and Image Retrieval. HBST allows for descriptor Search and Insertion in logarithmic time by exploiting particular properties of binary Feature descriptors. We support the idea behind our search structure with a thorough analysis on the exploited descriptor properties and their effects on completeness and complexity of search and insertion. To validate our claims we conducted comparative experiments for HBST and several state-of-the-art methods on a broad range of publicly available datasets. HBST is available as a compact open-source C++ header-only library.","headline":"HBST: A Hamming Distance Embedding Binary Search Tree For Visual Place Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/schlegel2018hbst/"},"url":"https://learning2hash.github.io/publications/schlegel2018hbst/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -251,7 +251,6 @@ open-source C++ header-only library.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "HBST: A Hamming Distance Embedding Binary Search Tree For Visual Place Recognition",
         conference: "IEEE Robotics and Automation Letters",
@@ -292,7 +291,6 @@ open-source C++ header-only library.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -321,37 +319,38 @@ open-source C++ header-only library.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

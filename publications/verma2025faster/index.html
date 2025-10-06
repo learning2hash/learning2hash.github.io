@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/verma2025faster/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Faster And Space Efficient Indexing For Locality Sensitive Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"This work suggests faster and space-efficient index construction algorithms for LSH for Euclidean distance (\\textit{a.k.a.}~\\ELSH) and cosine similarity (\\textit{a.k.a.}~\\SRP). The index construction step of these LSHs relies on grouping data points into several bins of hash tables based on their hashcode. To generate an (m)-dimensional hashcode of the (d)-dimensional data point, these LSHs first project the data point onto a (d)-dimensional random Gaussian vector and then discretise the resulting inner product. The time and space complexity of both \\ELSH~and \\SRP~for computing an (m)-sized hashcode of a (d)-dimensional vector is (O(md)), which becomes impractical for large values of (m) and (d). To overcome this problem, we propose two alternative LSH hashcode generation algorithms both for Euclidean distance and cosine similarity, namely, \\CSELSH, \\HCSELSH~and \\CSSRP, \\HCSSRP, respectively. \\CSELSH~and \\CSSRP~are based on count sketch \\cite{count_sketch} and \\HCSELSH~and \\HCSSRP~utilize higher-order count sketch \\cite{shi2019higher}. These proposals significantly reduce the hashcode computation time from (O(md)) to (O(d)). Additionally, both \\CSELSH~and \\CSSRP~reduce the space complexity from (O(md)) to (O(d)); ~and \\HCSELSH, \\HCSSRP~ reduce the space complexity from (O(md)) to (O(N \\sqrt[N]{d})) respectively, where (N\\geq 1) denotes the size of the input/reshaped tensor. Our proposals are backed by strong mathematical guarantees, and we validate their performance through simulations on various real-world datasets.","headline":"Faster And Space Efficient Indexing For Locality Sensitive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/verma2025faster/"},"url":"https://learning2hash.github.io/publications/verma2025faster/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"This work suggests faster and space-efficient index construction algorithms for LSH for Euclidean distance (\\textit{a.k.a.}~\\ELSH) and cosine similarity (\\textit{a.k.a.}~\\SRP). The index construction step of these LSHs relies on grouping data points into several bins of hash tables based on their hashcode. To generate an (m)-dimensional hashcode of the (d)-dimensional data point, these LSHs first project the data point onto a (d)-dimensional random Gaussian vector and then discretise the resulting inner product. The time and space complexity of both \\ELSH~and \\SRP~for computing an (m)-sized hashcode of a (d)-dimensional vector is (O(md)), which becomes impractical for large values of (m) and (d). To overcome this problem, we propose two alternative LSH hashcode generation algorithms both for Euclidean distance and cosine similarity, namely, \\CSELSH, \\HCSELSH~and \\CSSRP, \\HCSSRP, respectively. \\CSELSH~and \\CSSRP~are based on count sketch \\cite{count_sketch} and \\HCSELSH~and \\HCSSRP~utilize higher-order count sketch \\cite{shi2019higher}. These proposals significantly reduce the hashcode computation time from (O(md)) to (O(d)). Additionally, both \\CSELSH~and \\CSSRP~reduce the space complexity from (O(md)) to (O(d)); ~and \\HCSELSH, \\HCSSRP~ reduce the space complexity from (O(md)) to (O(N \\sqrt[N]{d})) respectively, where (N\\geq 1) denotes the size of the input/reshaped tensor. Our proposals are backed by strong mathematical guarantees, and we validate their performance through simulations on various real-world datasets.","headline":"Faster And Space Efficient Indexing For Locality Sensitive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/verma2025faster/"},"url":"https://learning2hash.github.io/publications/verma2025faster/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -265,7 +265,6 @@ on various real-world datasets.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Faster And Space Efficient Indexing For Locality Sensitive Hashing",
         conference: "Theoretical Computer Science",
@@ -306,7 +305,6 @@ on various real-world datasets.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -335,37 +333,38 @@ on various real-world datasets.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

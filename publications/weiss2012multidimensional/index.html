@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/weiss2012multidimensional/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Multidimensional Spectral Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"en a surge of interest in methods based on “semantic hashing”, i.e. compact binary codes of data-points so that the Hamming distance between codewords correlates with similarity. In reviewing and comparing existing methods, we show that their relative performance can change drastically depending on the definition of ground-truth neighbors. Motivated by this finding, we propose a new formulation for learning binary codes which seeks to reconstruct the affinity between datapoints, rather than their distances. We show that this criterion is intractable to solve exactly, but a spectral relaxation gives an algorithm where the bits correspond to thresholded eigenvectors of the affinity matrix, and as the number of datapoints goes to infinity these eigenvectors converge to eigenfunctions of Laplace-Beltrami operators, similar to the recently proposed Spectral Hashing (SH) method. Unlike SH whose performance may degrade as the number of bits increases, the optimal code using our formulation is guaranteed to faithfully reproduce the affinities as the number of bits increases. We show that the number of eigenfunctions needed may increase exponentially with dimension, but introduce a “kernel trick” to allow us to compute with an exponentially large number of bits but using only memory and computation that grows linearly with dimension. Experiments shows that MDSH outperforms the state-of-the art, especially in the challenging regime of small distance thresholds.","headline":"Multidimensional Spectral Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weiss2012multidimensional/"},"url":"https://learning2hash.github.io/publications/weiss2012multidimensional/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"en a surge of interest in methods based on “semantic hashing”, i.e. compact binary codes of data-points so that the Hamming distance between codewords correlates with similarity. In reviewing and comparing existing methods, we show that their relative performance can change drastically depending on the definition of ground-truth neighbors. Motivated by this finding, we propose a new formulation for learning binary codes which seeks to reconstruct the affinity between datapoints, rather than their distances. We show that this criterion is intractable to solve exactly, but a spectral relaxation gives an algorithm where the bits correspond to thresholded eigenvectors of the affinity matrix, and as the number of datapoints goes to infinity these eigenvectors converge to eigenfunctions of Laplace-Beltrami operators, similar to the recently proposed Spectral Hashing (SH) method. Unlike SH whose performance may degrade as the number of bits increases, the optimal code using our formulation is guaranteed to faithfully reproduce the affinities as the number of bits increases. We show that the number of eigenfunctions needed may increase exponentially with dimension, but introduce a “kernel trick” to allow us to compute with an exponentially large number of bits but using only memory and computation that grows linearly with dimension. Experiments shows that MDSH outperforms the state-of-the art, especially in the challenging regime of small distance thresholds.","headline":"Multidimensional Spectral Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/weiss2012multidimensional/"},"url":"https://learning2hash.github.io/publications/weiss2012multidimensional/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ art, especially in the challenging regime of small distance thresholds.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Multidimensional Spectral Hashing",
         conference: "Lecture Notes in Computer Science",
@@ -304,7 +303,6 @@ art, especially in the challenging regime of small distance thresholds.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ art, especially in the challenging regime of small distance thresholds.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

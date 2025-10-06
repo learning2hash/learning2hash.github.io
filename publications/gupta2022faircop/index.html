@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/gupta2022faircop/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Faircop: Facial Image Retrieval Using Contrastive Personalization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Retrieving facial images from attributes plays a vital role in various systems such as face recognition and suspect identification. Compared to other image retrieval tasks, facial image retrieval is more challenging due to the high subjectivity involved in describing a person’s facial features. Existing methods do so by comparing specific characteristics from the user’s mental image against the suggested images via high-level supervision such as using natural language. In contrast, we propose a method that uses a relatively simpler form of binary supervision by utilizing the user’s feedback to label images as either similar or dissimilar to the target image. Such supervision enables us to exploit the contrastive learning paradigm for encapsulating each user’s personalized notion of similarity. For this, we propose a novel loss function optimized online via user feedback. We validate the efficacy of our proposed approach using a carefully designed testbed to simulate user feedback and a large-scale user study. Our experiments demonstrate that our method iteratively improves personalization, leading to faster convergence and enhanced recommendation relevance, thereby, improving user satisfaction. Our proposed framework is also equipped with a user-friendly web interface with a real-time experience for facial image retrieval.","headline":"Faircop: Facial Image Retrieval Using Contrastive Personalization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gupta2022faircop/"},"url":"https://learning2hash.github.io/publications/gupta2022faircop/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Retrieving facial images from attributes plays a vital role in various systems such as face recognition and suspect identification. Compared to other image retrieval tasks, facial image retrieval is more challenging due to the high subjectivity involved in describing a person’s facial features. Existing methods do so by comparing specific characteristics from the user’s mental image against the suggested images via high-level supervision such as using natural language. In contrast, we propose a method that uses a relatively simpler form of binary supervision by utilizing the user’s feedback to label images as either similar or dissimilar to the target image. Such supervision enables us to exploit the contrastive learning paradigm for encapsulating each user’s personalized notion of similarity. For this, we propose a novel loss function optimized online via user feedback. We validate the efficacy of our proposed approach using a carefully designed testbed to simulate user feedback and a large-scale user study. Our experiments demonstrate that our method iteratively improves personalization, leading to faster convergence and enhanced recommendation relevance, thereby, improving user satisfaction. Our proposed framework is also equipped with a user-friendly web interface with a real-time experience for facial image retrieval.","headline":"Faircop: Facial Image Retrieval Using Contrastive Personalization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gupta2022faircop/"},"url":"https://learning2hash.github.io/publications/gupta2022faircop/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -266,7 +266,6 @@ real-time experience for facial image retrieval.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Faircop: Facial Image Retrieval Using Contrastive Personalization",
         conference: "Arxiv",
@@ -307,7 +306,6 @@ real-time experience for facial image retrieval.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -336,37 +334,38 @@ real-time experience for facial image retrieval.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

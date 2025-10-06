@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2016affinity/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Affinity Preserving Quantization For Hashing: A Vector Quantization Approach To Learning Compact Binary Codes" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Hashing techniques are powerful for approximate nearest neighbour (ANN) search. Existing quantization methods in hashing are all focused on scalar quantization (SQ) which is inferior in utilizing the inherent data distribution. In this paper, we propose a novel vector quantization (VQ) method named affinity preserving quantization (APQ) to improve the quantization quality of projection values, which has significantly boosted the performance of state-of-the-art hashing techniques. In particular, our method incorporates the neighbourhood structure in the pre- and post-projection data space into vector quantization. APQ minimizes the quantization errors of projection values as well as the loss of affinity property of original space. An effective algorithm has been proposed to solve the joint optimization problem in APQ, and the extension to larger binary codes has been resolved by applying product quantization to APQ. Extensive experiments have shown that APQ consistently outperforms the state-of-the-art quantization methods, and has significantly improved the performance of various hashing techniques.","headline":"Affinity Preserving Quantization For Hashing: A Vector Quantization Approach To Learning Compact Binary Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2016affinity/"},"url":"https://learning2hash.github.io/publications/wang2016affinity/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Hashing techniques are powerful for approximate nearest neighbour (ANN) search. Existing quantization methods in hashing are all focused on scalar quantization (SQ) which is inferior in utilizing the inherent data distribution. In this paper, we propose a novel vector quantization (VQ) method named affinity preserving quantization (APQ) to improve the quantization quality of projection values, which has significantly boosted the performance of state-of-the-art hashing techniques. In particular, our method incorporates the neighbourhood structure in the pre- and post-projection data space into vector quantization. APQ minimizes the quantization errors of projection values as well as the loss of affinity property of original space. An effective algorithm has been proposed to solve the joint optimization problem in APQ, and the extension to larger binary codes has been resolved by applying product quantization to APQ. Extensive experiments have shown that APQ consistently outperforms the state-of-the-art quantization methods, and has significantly improved the performance of various hashing techniques.","headline":"Affinity Preserving Quantization For Hashing: A Vector Quantization Approach To Learning Compact Binary Codes","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2016affinity/"},"url":"https://learning2hash.github.io/publications/wang2016affinity/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ the performance of various hashing techniques.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Affinity Preserving Quantization For Hashing: A Vector Quantization Approach To Learning Compact Binary Codes",
         conference: "Proceedings of the AAAI Conference on Artificial Intelligence",
@@ -304,7 +303,6 @@ the performance of various hashing techniques.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ the performance of various hashing techniques.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

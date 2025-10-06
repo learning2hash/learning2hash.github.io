@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wang2017composite/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Composite Quantization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"This paper studies the compact coding approach to approximate nearest neighbor search. We introduce a composite quantization framework. It uses the composition of several ((M)) elements, each of which is selected from a different dictionary, to accurately approximate a (D)-dimensional vector, thus yielding accurate search, and represents the data vector by a short code composed of the indices of the selected elements in the corresponding dictionaries. Our key contribution lies in introducing a near-orthogonality constraint, which makes the search efficiency is guaranteed as the cost of the distance computation is reduced to (O(M)) from (O(D)) through a distance table lookup scheme. The resulting approach is called near-orthogonal composite quantization. We theoretically justify the equivalence between near-orthogonal composite quantization and minimizing an upper bound of a function formed by jointly considering the quantization error and the search cost according to a generalized triangle inequality. We empirically show the efficacy of the proposed approach over several benchmark datasets. In addition, we demonstrate the superior performances in other three applications: combination with inverted multi-index, quantizing the query for mobile search, and inner-product similarity search.","headline":"Composite Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2017composite/"},"url":"https://learning2hash.github.io/publications/wang2017composite/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"This paper studies the compact coding approach to approximate nearest neighbor search. We introduce a composite quantization framework. It uses the composition of several ((M)) elements, each of which is selected from a different dictionary, to accurately approximate a (D)-dimensional vector, thus yielding accurate search, and represents the data vector by a short code composed of the indices of the selected elements in the corresponding dictionaries. Our key contribution lies in introducing a near-orthogonality constraint, which makes the search efficiency is guaranteed as the cost of the distance computation is reduced to (O(M)) from (O(D)) through a distance table lookup scheme. The resulting approach is called near-orthogonal composite quantization. We theoretically justify the equivalence between near-orthogonal composite quantization and minimizing an upper bound of a function formed by jointly considering the quantization error and the search cost according to a generalized triangle inequality. We empirically show the efficacy of the proposed approach over several benchmark datasets. In addition, we demonstrate the superior performances in other three applications: combination with inverted multi-index, quantizing the query for mobile search, and inner-product similarity search.","headline":"Composite Quantization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wang2017composite/"},"url":"https://learning2hash.github.io/publications/wang2017composite/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -266,7 +266,6 @@ similarity search.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Composite Quantization",
         conference: "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -307,7 +306,6 @@ similarity search.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -336,37 +334,38 @@ similarity search.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

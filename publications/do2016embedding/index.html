@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/do2016embedding/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Embedding Based On Function Approximation For Large Scale Image Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The objective of this paper is to design an embedding method that maps local features describing an image (e.g. SIFT) to a higher dimensional representation useful for the image retrieval problem. First, motivated by the relationship between the linear approximation of a nonlinear function in high dimensional space and the stateof-the-art feature representation used in image retrieval, i.e., VLAD, we propose a new approach for the approximation. The embedded vectors resulted by the function approximation process are then aggregated to form a single representation for image retrieval. Second, in order to make the proposed embedding method applicable to large scale problem, we further derive its fast version in which the embedded vectors can be efficiently computed, i.e., in the closed-form. We compare the proposed embedding methods with the state of the art in the context of image search under various settings: when the images are represented by medium length vectors, short vectors, or binary vectors. The experimental results show that the proposed embedding methods outperform existing the state of the art on the standard public image retrieval benchmarks.","headline":"Embedding Based On Function Approximation For Large Scale Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/do2016embedding/"},"url":"https://learning2hash.github.io/publications/do2016embedding/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The objective of this paper is to design an embedding method that maps local features describing an image (e.g. SIFT) to a higher dimensional representation useful for the image retrieval problem. First, motivated by the relationship between the linear approximation of a nonlinear function in high dimensional space and the stateof-the-art feature representation used in image retrieval, i.e., VLAD, we propose a new approach for the approximation. The embedded vectors resulted by the function approximation process are then aggregated to form a single representation for image retrieval. Second, in order to make the proposed embedding method applicable to large scale problem, we further derive its fast version in which the embedded vectors can be efficiently computed, i.e., in the closed-form. We compare the proposed embedding methods with the state of the art in the context of image search under various settings: when the images are represented by medium length vectors, short vectors, or binary vectors. The experimental results show that the proposed embedding methods outperform existing the state of the art on the standard public image retrieval benchmarks.","headline":"Embedding Based On Function Approximation For Large Scale Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/do2016embedding/"},"url":"https://learning2hash.github.io/publications/do2016embedding/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,7 +252,6 @@ benchmarks.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Embedding Based On Function Approximation For Large Scale Image Search",
         conference: "IEEE Transactions on Pattern Analysis and Machine Intelligence",
@@ -293,7 +292,6 @@ benchmarks.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -322,37 +320,38 @@ benchmarks.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

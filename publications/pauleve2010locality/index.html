@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/pauleve2010locality/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Locality Sensitive Hashing: A Comparison Of Hash Function Types And Querying Mechanisms" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"It is well known that high-dimensional nearest-neighbor retrieval is very expensive. Dramatic performance gains are obtained using approximate search schemes, such as the popular Locality-Sensitive Hashing (LSH). Several extensions have been proposed to address the limitations of this algorithm, in particular, by choosing more appropriate hash functions to better partition the vector space. All the proposed extensions, however, rely on a structured quantizer for hashing, poorly fitting real data sets, limiting its performance in practice. In this paper, we compare several families of space hashing functions in a real setup, namely when searching for high-dimension SIFT descriptors. The comparison of random projections, lattice quantizers, k-means and hierarchical k-means reveal that unstructured quantizer significantly improves the accuracy of LSH, as it closely fits the data in the feature space. We then compare two querying mechanisms introduced in the literature with the one originally proposed in LSH, and discuss their respective merits and limitations.","headline":"Locality Sensitive Hashing: A Comparison Of Hash Function Types And Querying Mechanisms","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pauleve2010locality/"},"url":"https://learning2hash.github.io/publications/pauleve2010locality/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"It is well known that high-dimensional nearest-neighbor retrieval is very expensive. Dramatic performance gains are obtained using approximate search schemes, such as the popular Locality-Sensitive Hashing (LSH). Several extensions have been proposed to address the limitations of this algorithm, in particular, by choosing more appropriate hash functions to better partition the vector space. All the proposed extensions, however, rely on a structured quantizer for hashing, poorly fitting real data sets, limiting its performance in practice. In this paper, we compare several families of space hashing functions in a real setup, namely when searching for high-dimension SIFT descriptors. The comparison of random projections, lattice quantizers, k-means and hierarchical k-means reveal that unstructured quantizer significantly improves the accuracy of LSH, as it closely fits the data in the feature space. We then compare two querying mechanisms introduced in the literature with the one originally proposed in LSH, and discuss their respective merits and limitations.","headline":"Locality Sensitive Hashing: A Comparison Of Hash Function Types And Querying Mechanisms","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pauleve2010locality/"},"url":"https://learning2hash.github.io/publications/pauleve2010locality/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -249,7 +249,6 @@ respective merits and limitations.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Locality Sensitive Hashing: A Comparison Of Hash Function Types And Querying Mechanisms",
         conference: "Pattern Recognition Letters",
@@ -290,7 +289,6 @@ respective merits and limitations.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -319,37 +317,38 @@ respective merits and limitations.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

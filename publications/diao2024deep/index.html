@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/diao2024deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Boosting Learning: A Brand-new Cooperative Approach For Image-text Matching" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Image-text matching remains a challenging task due to heterogeneous semantic diversity across modalities and insufficient distance separability within triplets. Different from previous approaches focusing on enhancing multi-modal representations or exploiting cross-modal correspondence for more accurate retrieval, in this paper we aim to leverage the knowledge transfer between peer branches in a boosting manner to seek a more powerful matching model. Specifically, we propose a brand-new Deep Boosting Learning (DBL) algorithm, where an anchor branch is first trained to provide insights into the data properties, with a target branch gaining more advanced knowledge to develop optimal features and distance metrics. Concretely, an anchor branch initially learns the absolute or relative distance between positive and negative pairs, providing a foundational understanding of the particular network and data distribution. Building upon this knowledge, a target branch is concurrently tasked with more adaptive margin constraints to further enlarge the relative distance between matched and unmatched samples. Extensive experiments validate that our DBL can achieve impressive and consistent improvements based on various recent state-of-the-art models in the image-text matching field, and outperform related popular cooperative strategies, e.g., Conventional Distillation, Mutual Learning, and Contrastive Learning. Beyond the above, we confirm that DBL can be seamlessly integrated into their training scenarios and achieve superior performance under the same computational costs, demonstrating the flexibility and broad applicability of our proposed method. Our code is publicly available at: https://github.com/Paranioar/DBL.","headline":"Deep Boosting Learning: A Brand-new Cooperative Approach For Image-text Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/diao2024deep/"},"url":"https://learning2hash.github.io/publications/diao2024deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Image-text matching remains a challenging task due to heterogeneous semantic diversity across modalities and insufficient distance separability within triplets. Different from previous approaches focusing on enhancing multi-modal representations or exploiting cross-modal correspondence for more accurate retrieval, in this paper we aim to leverage the knowledge transfer between peer branches in a boosting manner to seek a more powerful matching model. Specifically, we propose a brand-new Deep Boosting Learning (DBL) algorithm, where an anchor branch is first trained to provide insights into the data properties, with a target branch gaining more advanced knowledge to develop optimal features and distance metrics. Concretely, an anchor branch initially learns the absolute or relative distance between positive and negative pairs, providing a foundational understanding of the particular network and data distribution. Building upon this knowledge, a target branch is concurrently tasked with more adaptive margin constraints to further enlarge the relative distance between matched and unmatched samples. Extensive experiments validate that our DBL can achieve impressive and consistent improvements based on various recent state-of-the-art models in the image-text matching field, and outperform related popular cooperative strategies, e.g., Conventional Distillation, Mutual Learning, and Contrastive Learning. Beyond the above, we confirm that DBL can be seamlessly integrated into their training scenarios and achieve superior performance under the same computational costs, demonstrating the flexibility and broad applicability of our proposed method. Our code is publicly available at: https://github.com/Paranioar/DBL.","headline":"Deep Boosting Learning: A Brand-new Cooperative Approach For Image-text Matching","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/diao2024deep/"},"url":"https://learning2hash.github.io/publications/diao2024deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -265,7 +265,6 @@ publicly available at: https://github.com/Paranioar/DBL.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Deep Boosting Learning: A Brand-new Cooperative Approach For Image-text Matching",
         conference: "IEEE Transactions on Image Processing",
@@ -306,7 +305,6 @@ publicly available at: https://github.com/Paranioar/DBL.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -335,37 +333,38 @@ publicly available at: https://github.com/Paranioar/DBL.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

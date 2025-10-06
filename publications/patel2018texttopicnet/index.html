@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/patel2018texttopicnet/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Texttopicnet - Self-supervised Learning Of Visual Features Through Embedding Images On Semantic Text Spaces" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The immense success of deep learning based methods in computer vision heavily relies on large scale training datasets. These richly annotated datasets help the network learn discriminative visual features. Collecting and annotating such datasets requires a tremendous amount of human effort and annotations are limited to popular set of classes. As an alternative, learning visual features by designing auxiliary tasks which make use of freely available self-supervision has become increasingly popular in the computer vision community. In this paper, we put forward an idea to take advantage of multi-modal context to provide self-supervision for the training of computer vision algorithms. We show that adequate visual features can be learned efficiently by training a CNN to predict the semantic textual context in which a particular image is more probable to appear as an illustration. More specifically we use popular text embedding techniques to provide the self-supervision for the training of deep CNN. Our experiments demonstrate state-of-the-art performance in image classification, object detection, and multi-modal retrieval compared to recent self-supervised or naturally-supervised approaches.","headline":"Texttopicnet - Self-supervised Learning Of Visual Features Through Embedding Images On Semantic Text Spaces","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/patel2018texttopicnet/"},"url":"https://learning2hash.github.io/publications/patel2018texttopicnet/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The immense success of deep learning based methods in computer vision heavily relies on large scale training datasets. These richly annotated datasets help the network learn discriminative visual features. Collecting and annotating such datasets requires a tremendous amount of human effort and annotations are limited to popular set of classes. As an alternative, learning visual features by designing auxiliary tasks which make use of freely available self-supervision has become increasingly popular in the computer vision community. In this paper, we put forward an idea to take advantage of multi-modal context to provide self-supervision for the training of computer vision algorithms. We show that adequate visual features can be learned efficiently by training a CNN to predict the semantic textual context in which a particular image is more probable to appear as an illustration. More specifically we use popular text embedding techniques to provide the self-supervision for the training of deep CNN. Our experiments demonstrate state-of-the-art performance in image classification, object detection, and multi-modal retrieval compared to recent self-supervised or naturally-supervised approaches.","headline":"Texttopicnet - Self-supervised Learning Of Visual Features Through Embedding Images On Semantic Text Spaces","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/patel2018texttopicnet/"},"url":"https://learning2hash.github.io/publications/patel2018texttopicnet/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ self-supervised or naturally-supervised approaches.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Texttopicnet - Self-supervised Learning Of Visual Features Through Embedding Images On Semantic Text Spaces",
         conference: "Arxiv",
@@ -303,7 +302,6 @@ self-supervised or naturally-supervised approaches.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ self-supervised or naturally-supervised approaches.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

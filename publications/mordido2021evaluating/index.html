@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/mordido2021evaluating/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Evaluating Post-training Compression In Gans Using Locality-sensitive Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The analysis of the compression effects in generative adversarial networks (GANs) after training, i.e. without any fine-tuning, remains an unstudied, albeit important, topic with the increasing trend of their computation and memory requirements. While existing works discuss the difficulty of compressing GANs during training, requiring novel methods designed with the instability of GANs training in mind, we show that existing compression methods (namely clipping and quantization) may be directly applied to compress GANs post-training, without any additional changes. High compression levels may distort the generated set, likely leading to an increase of outliers that may negatively affect the overall assessment of existing k-nearest neighbor (KNN) based metrics. We propose two new precision and recall metrics based on locality-sensitive hashing (LSH), which, on top of increasing the outlier robustness, decrease the complexity of assessing an evaluation sample against (n) reference samples from (O(n)) to (O(log(n))), if using LSH and KNN, and to (O(1)), if only applying LSH. We show that low-bit compression of several pre-trained GANs on multiple datasets induces a trade-off between precision and recall, retaining sample quality while sacrificing sample diversity.","headline":"Evaluating Post-training Compression In Gans Using Locality-sensitive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mordido2021evaluating/"},"url":"https://learning2hash.github.io/publications/mordido2021evaluating/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The analysis of the compression effects in generative adversarial networks (GANs) after training, i.e. without any fine-tuning, remains an unstudied, albeit important, topic with the increasing trend of their computation and memory requirements. While existing works discuss the difficulty of compressing GANs during training, requiring novel methods designed with the instability of GANs training in mind, we show that existing compression methods (namely clipping and quantization) may be directly applied to compress GANs post-training, without any additional changes. High compression levels may distort the generated set, likely leading to an increase of outliers that may negatively affect the overall assessment of existing k-nearest neighbor (KNN) based metrics. We propose two new precision and recall metrics based on locality-sensitive hashing (LSH), which, on top of increasing the outlier robustness, decrease the complexity of assessing an evaluation sample against (n) reference samples from (O(n)) to (O(log(n))), if using LSH and KNN, and to (O(1)), if only applying LSH. We show that low-bit compression of several pre-trained GANs on multiple datasets induces a trade-off between precision and recall, retaining sample quality while sacrificing sample diversity.","headline":"Evaluating Post-training Compression In Gans Using Locality-sensitive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/mordido2021evaluating/"},"url":"https://learning2hash.github.io/publications/mordido2021evaluating/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -265,7 +265,6 @@ recall, retaining sample quality while sacrificing sample diversity.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Evaluating Post-training Compression In Gans Using Locality-sensitive Hashing",
         conference: "Arxiv",
@@ -306,7 +305,6 @@ recall, retaining sample quality while sacrificing sample diversity.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -335,37 +333,38 @@ recall, retaining sample quality while sacrificing sample diversity.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

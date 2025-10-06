@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ertl2019probminhash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Probminhash – A Class Of Locality-sensitive Hash Algorithms For The (probability) Jaccard Similarity" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The probability Jaccard similarity was recently proposed as a natural generalization of the Jaccard similarity to measure the proximity of sets whose elements are associated with relative frequencies or probabilities. In combination with a hash algorithm that maps those weighted sets to compact signatures which allow fast estimation of pairwise similarities, it constitutes a valuable method for big data applications such as near-duplicate detection, nearest neighbor search, or clustering. This paper introduces a class of one-pass locality-sensitive hash algorithms that are orders of magnitude faster than the original approach. The performance gain is achieved by calculating signature components not independently, but collectively. Four different algorithms are proposed based on this idea. Two of them are statistically equivalent to the original approach and can be used as drop-in replacements. The other two may even improve the estimation error by introducing statistical dependence between signature components. Moreover, the presented techniques can be specialized for the conventional Jaccard similarity, resulting in highly efficient algorithms that outperform traditional minwise hashing and that are able to compete with the state of the art.","headline":"Probminhash – A Class Of Locality-sensitive Hash Algorithms For The (probability) Jaccard Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ertl2019probminhash/"},"url":"https://learning2hash.github.io/publications/ertl2019probminhash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The probability Jaccard similarity was recently proposed as a natural generalization of the Jaccard similarity to measure the proximity of sets whose elements are associated with relative frequencies or probabilities. In combination with a hash algorithm that maps those weighted sets to compact signatures which allow fast estimation of pairwise similarities, it constitutes a valuable method for big data applications such as near-duplicate detection, nearest neighbor search, or clustering. This paper introduces a class of one-pass locality-sensitive hash algorithms that are orders of magnitude faster than the original approach. The performance gain is achieved by calculating signature components not independently, but collectively. Four different algorithms are proposed based on this idea. Two of them are statistically equivalent to the original approach and can be used as drop-in replacements. The other two may even improve the estimation error by introducing statistical dependence between signature components. Moreover, the presented techniques can be specialized for the conventional Jaccard similarity, resulting in highly efficient algorithms that outperform traditional minwise hashing and that are able to compete with the state of the art.","headline":"Probminhash – A Class Of Locality-sensitive Hash Algorithms For The (probability) Jaccard Similarity","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ertl2019probminhash/"},"url":"https://learning2hash.github.io/publications/ertl2019probminhash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -255,7 +255,6 @@ able to compete with the state of the art.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Probminhash -- A Class Of Locality-sensitive Hash Algorithms For The (probability) Jaccard Similarity",
         conference: "IEEE Transactions on Knowledge and Data Engineering",
@@ -296,7 +295,6 @@ able to compete with the state of the art.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -325,37 +323,38 @@ able to compete with the state of the art.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

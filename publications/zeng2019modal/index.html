@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zeng2019modal/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Modal-aware Features For Multimodal Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Many retrieval applications can benefit from multiple modalities, e.g., text that contains images on Wikipedia, for which how to represent multimodal data is the critical component. Most deep multimodal learning methods typically involve two steps to construct the joint representations: 1) learning of multiple intermediate features, with each intermediate feature corresponding to a modality, using separate and independent deep models; 2) merging the intermediate features into a joint representation using a fusion strategy. However, in the first step, these intermediate features do not have previous knowledge of each other and cannot fully exploit the information contained in the other modalities. In this paper, we present a modal-aware operation as a generic building block to capture the non-linear dependences among the heterogeneous intermediate features that can learn the underlying correlation structures in other multimodal data as soon as possible. The modal-aware operation consists of a kernel network and an attention network. The kernel network is utilized to learn the non-linear relationships with other modalities. Then, to learn better representations for binary hash codes, we present an attention network that finds the informative regions of these modal-aware features that are favorable for retrieval. Experiments conducted on three public benchmark datasets demonstrate significant improvements in the performance of our method relative to state-of-the-art methods.","headline":"Modal-aware Features For Multimodal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zeng2019modal/"},"url":"https://learning2hash.github.io/publications/zeng2019modal/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Many retrieval applications can benefit from multiple modalities, e.g., text that contains images on Wikipedia, for which how to represent multimodal data is the critical component. Most deep multimodal learning methods typically involve two steps to construct the joint representations: 1) learning of multiple intermediate features, with each intermediate feature corresponding to a modality, using separate and independent deep models; 2) merging the intermediate features into a joint representation using a fusion strategy. However, in the first step, these intermediate features do not have previous knowledge of each other and cannot fully exploit the information contained in the other modalities. In this paper, we present a modal-aware operation as a generic building block to capture the non-linear dependences among the heterogeneous intermediate features that can learn the underlying correlation structures in other multimodal data as soon as possible. The modal-aware operation consists of a kernel network and an attention network. The kernel network is utilized to learn the non-linear relationships with other modalities. Then, to learn better representations for binary hash codes, we present an attention network that finds the informative regions of these modal-aware features that are favorable for retrieval. Experiments conducted on three public benchmark datasets demonstrate significant improvements in the performance of our method relative to state-of-the-art methods.","headline":"Modal-aware Features For Multimodal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zeng2019modal/"},"url":"https://learning2hash.github.io/publications/zeng2019modal/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -260,7 +260,6 @@ performance of our method relative to state-of-the-art methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Modal-aware Features For Multimodal Hashing",
         conference: "Arxiv",
@@ -301,7 +300,6 @@ performance of our method relative to state-of-the-art methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -330,37 +328,38 @@ performance of our method relative to state-of-the-art methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

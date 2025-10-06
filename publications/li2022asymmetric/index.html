@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2022asymmetric/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Asymmetric Scalable Cross-modal Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Cross-modal hashing is a successful method to solve large-scale multimedia retrieval issue. A lot of matrix factorization-based hashing methods are proposed. However, the existing methods still struggle with a few problems, such as how to generate the binary codes efficiently rather than directly relax them to continuity. In addition, most of the existing methods choose to use an (n\\times n) similarity matrix for optimization, which makes the memory and computation unaffordable. In this paper we propose a novel Asymmetric Scalable Cross-Modal Hashing (ASCMH) to address these issues. It firstly introduces a collective matrix factorization to learn a common latent space from the kernelized features of different modalities, and then transforms the similarity matrix optimization to a distance-distance difference problem minimization with the help of semantic labels and common latent space. Hence, the computational complexity of the (n\\times n) asymmetric optimization is relieved. In the generation of hash codes we also employ an orthogonal constraint of label information, which is indispensable for search accuracy. So the redundancy of computation can be much reduced. For efficient optimization and scalable to large-scale datasets, we adopt the two-step approach rather than optimizing simultaneously. Extensive experiments on three benchmark datasets: Wiki, MIRFlickr-25K, and NUS-WIDE, demonstrate that our ASCMH outperforms the state-of-the-art cross-modal hashing methods in terms of accuracy and efficiency.","headline":"Asymmetric Scalable Cross-modal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2022asymmetric/"},"url":"https://learning2hash.github.io/publications/li2022asymmetric/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Cross-modal hashing is a successful method to solve large-scale multimedia retrieval issue. A lot of matrix factorization-based hashing methods are proposed. However, the existing methods still struggle with a few problems, such as how to generate the binary codes efficiently rather than directly relax them to continuity. In addition, most of the existing methods choose to use an (n\\times n) similarity matrix for optimization, which makes the memory and computation unaffordable. In this paper we propose a novel Asymmetric Scalable Cross-Modal Hashing (ASCMH) to address these issues. It firstly introduces a collective matrix factorization to learn a common latent space from the kernelized features of different modalities, and then transforms the similarity matrix optimization to a distance-distance difference problem minimization with the help of semantic labels and common latent space. Hence, the computational complexity of the (n\\times n) asymmetric optimization is relieved. In the generation of hash codes we also employ an orthogonal constraint of label information, which is indispensable for search accuracy. So the redundancy of computation can be much reduced. For efficient optimization and scalable to large-scale datasets, we adopt the two-step approach rather than optimizing simultaneously. Extensive experiments on three benchmark datasets: Wiki, MIRFlickr-25K, and NUS-WIDE, demonstrate that our ASCMH outperforms the state-of-the-art cross-modal hashing methods in terms of accuracy and efficiency.","headline":"Asymmetric Scalable Cross-modal Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2022asymmetric/"},"url":"https://learning2hash.github.io/publications/li2022asymmetric/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -267,7 +267,6 @@ efficiency.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Asymmetric Scalable Cross-modal Hashing",
         conference: "2023 IEEE International Conference on Image Processing (ICIP)",
@@ -308,7 +307,6 @@ efficiency.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -337,37 +335,38 @@ efficiency.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

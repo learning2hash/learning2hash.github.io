@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chen2024deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Class-guided Hashing For Multi-label Cross-modal Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Deep hashing, due to its low cost and efficient retrieval advantages, is widely valued in cross-modal retrieval. However, existing cross-modal hashing methods either explore the relationships between data points, which inevitably leads to intra-class dispersion, or explore the relationships between data points and categories while ignoring the preservation of inter-class structural relationships, resulting in the generation of suboptimal hash codes. How to maintain both intra-class aggregation and inter-class structural relationships, In response to this issue, this paper proposes a DCGH method. Specifically, we use proxy loss as the mainstay to maintain intra-class aggregation of data, combined with pairwise loss to maintain inter-class structural relationships, and on this basis, further propose a variance constraint to address the semantic bias issue caused by the combination. A large number of comparative experiments on three benchmark datasets show that the DCGH method has comparable or even better performance compared to existing cross-modal retrieval methods. The code for the implementation of our DCGH framework is available at https://github.com/donnotnormal/DCGH.","headline":"Deep Class-guided Hashing For Multi-label Cross-modal Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2024deep/"},"url":"https://learning2hash.github.io/publications/chen2024deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Deep hashing, due to its low cost and efficient retrieval advantages, is widely valued in cross-modal retrieval. However, existing cross-modal hashing methods either explore the relationships between data points, which inevitably leads to intra-class dispersion, or explore the relationships between data points and categories while ignoring the preservation of inter-class structural relationships, resulting in the generation of suboptimal hash codes. How to maintain both intra-class aggregation and inter-class structural relationships, In response to this issue, this paper proposes a DCGH method. Specifically, we use proxy loss as the mainstay to maintain intra-class aggregation of data, combined with pairwise loss to maintain inter-class structural relationships, and on this basis, further propose a variance constraint to address the semantic bias issue caused by the combination. A large number of comparative experiments on three benchmark datasets show that the DCGH method has comparable or even better performance compared to existing cross-modal retrieval methods. The code for the implementation of our DCGH framework is available at https://github.com/donnotnormal/DCGH.","headline":"Deep Class-guided Hashing For Multi-label Cross-modal Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2024deep/"},"url":"https://learning2hash.github.io/publications/chen2024deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -266,7 +266,6 @@ available at https://github.com/donnotnormal/DCGH.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Deep Class-guided Hashing For Multi-label Cross-modal Retrieval",
         conference: "Applied Sciences",
@@ -307,7 +306,6 @@ available at https://github.com/donnotnormal/DCGH.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -336,37 +334,38 @@ available at https://github.com/donnotnormal/DCGH.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

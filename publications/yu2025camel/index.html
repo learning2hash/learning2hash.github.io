@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yu2025camel/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Camel: Cross-modality Adaptive Meta-learning For Text-based Person Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Text-based person retrieval aims to identify specific individuals within an image database using textual descriptions. Due to the high cost of annotation and privacy protection, researchers resort to synthesized data for the paradigm of pretraining and fine-tuning. However, these generated data often exhibit domain biases in both images and textual annotations, which largely compromise the scalability of the pre-trained model. Therefore, we introduce a domain-agnostic pretraining framework based on Cross-modality Adaptive Meta-Learning (CAMeL) to enhance the model generalization capability during pretraining to facilitate the subsequent downstream tasks. In particular, we develop a series of tasks that reflect the diversity and complexity of real-world scenarios, and introduce a dynamic error sample memory unit to memorize the history for errors encountered within multiple tasks. To further ensure multi-task adaptation, we also adopt an adaptive dual-speed update strategy, balancing fast adaptation to new tasks and slow weight updates for historical tasks. Albeit simple, our proposed model not only surpasses existing state-of-the-art methods on real-world benchmarks, including CUHK-PEDES, ICFG-PEDES, and RSTPReid, but also showcases robustness and scalability in handling biased synthetic images and noisy text annotations. Our code is available at https://github.com/Jahawn-Wen/CAMeL-reID.","headline":"Camel: Cross-modality Adaptive Meta-learning For Text-based Person Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yu2025camel/"},"url":"https://learning2hash.github.io/publications/yu2025camel/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Text-based person retrieval aims to identify specific individuals within an image database using textual descriptions. Due to the high cost of annotation and privacy protection, researchers resort to synthesized data for the paradigm of pretraining and fine-tuning. However, these generated data often exhibit domain biases in both images and textual annotations, which largely compromise the scalability of the pre-trained model. Therefore, we introduce a domain-agnostic pretraining framework based on Cross-modality Adaptive Meta-Learning (CAMeL) to enhance the model generalization capability during pretraining to facilitate the subsequent downstream tasks. In particular, we develop a series of tasks that reflect the diversity and complexity of real-world scenarios, and introduce a dynamic error sample memory unit to memorize the history for errors encountered within multiple tasks. To further ensure multi-task adaptation, we also adopt an adaptive dual-speed update strategy, balancing fast adaptation to new tasks and slow weight updates for historical tasks. Albeit simple, our proposed model not only surpasses existing state-of-the-art methods on real-world benchmarks, including CUHK-PEDES, ICFG-PEDES, and RSTPReid, but also showcases robustness and scalability in handling biased synthetic images and noisy text annotations. Our code is available at https://github.com/Jahawn-Wen/CAMeL-reID.","headline":"Camel: Cross-modality Adaptive Meta-learning For Text-based Person Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yu2025camel/"},"url":"https://learning2hash.github.io/publications/yu2025camel/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ available at https://github.com/Jahawn-Wen/CAMeL-reID.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Camel: Cross-modality Adaptive Meta-learning For Text-based Person Retrieval",
         conference: "IEEE Transactions on Information Forensics and Security",
@@ -304,7 +303,6 @@ available at https://github.com/Jahawn-Wen/CAMeL-reID.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ available at https://github.com/Jahawn-Wen/CAMeL-reID.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

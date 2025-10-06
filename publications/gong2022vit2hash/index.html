@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/gong2022vit2hash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Vit2hash: Unsupervised Information-preserving Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Unsupervised image hashing, which maps images into binary codes without supervision, is a compressor with a high compression rate. Hence, how to preserving meaningful information of the original data is a critical problem. Inspired by the large-scale vision pre-training model, known as ViT, which has shown significant progress for learning visual representations, in this paper, we propose a simple information-preserving compressor to finetune the ViT model for the target unsupervised hashing task. Specifically, from pixels to continuous features, we first propose a feature-preserving module, using the corrupted image as input to reconstruct the original feature from the pre-trained ViT model and the complete image, so that the feature extractor can focus on preserving the meaningful information of original data. Secondly, from continuous features to hash codes, we propose a hashing-preserving module, which aims to keep the semantic information from the pre-trained ViT model by using the proposed Kullback-Leibler divergence loss. Besides, the quantization loss and the similarity loss are added to minimize the quantization error. Our method is very simple and achieves a significantly higher degree of MAP on three benchmark image datasets.","headline":"Vit2hash: Unsupervised Information-preserving Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gong2022vit2hash/"},"url":"https://learning2hash.github.io/publications/gong2022vit2hash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Unsupervised image hashing, which maps images into binary codes without supervision, is a compressor with a high compression rate. Hence, how to preserving meaningful information of the original data is a critical problem. Inspired by the large-scale vision pre-training model, known as ViT, which has shown significant progress for learning visual representations, in this paper, we propose a simple information-preserving compressor to finetune the ViT model for the target unsupervised hashing task. Specifically, from pixels to continuous features, we first propose a feature-preserving module, using the corrupted image as input to reconstruct the original feature from the pre-trained ViT model and the complete image, so that the feature extractor can focus on preserving the meaningful information of original data. Secondly, from continuous features to hash codes, we propose a hashing-preserving module, which aims to keep the semantic information from the pre-trained ViT model by using the proposed Kullback-Leibler divergence loss. Besides, the quantization loss and the similarity loss are added to minimize the quantization error. Our method is very simple and achieves a significantly higher degree of MAP on three benchmark image datasets.","headline":"Vit2hash: Unsupervised Information-preserving Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/gong2022vit2hash/"},"url":"https://learning2hash.github.io/publications/gong2022vit2hash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -269,7 +269,6 @@ three benchmark image datasets.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Vit2hash: Unsupervised Information-preserving Hashing",
         conference: "Arxiv",
@@ -310,7 +309,6 @@ three benchmark image datasets.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -339,37 +337,38 @@ three benchmark image datasets.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

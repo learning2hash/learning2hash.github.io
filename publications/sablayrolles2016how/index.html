@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/sablayrolles2016how/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="How Should We Evaluate Supervised Hashing?" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Hashing produces compact representations for documents, to perform tasks like classification or retrieval based on these short codes. When hashing is supervised, the codes are trained using labels on the training data. This paper first shows that the evaluation protocols used in the literature for supervised hashing are not satisfactory: we show that a trivial solution that encodes the output of a classifier significantly outperforms existing supervised or semi-supervised methods, while using much shorter codes. We then propose two alternative protocols for supervised hashing: one based on retrieval on a disjoint set of classes, and another based on transfer learning to new classes. We provide two baseline methods for image-related tasks to assess the performance of (semi-)supervised hashing: without coding and with unsupervised codes. These baselines give a lower- and upper-bound on the performance of a supervised hashing scheme.","headline":"How Should We Evaluate Supervised Hashing?","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sablayrolles2016how/"},"url":"https://learning2hash.github.io/publications/sablayrolles2016how/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Hashing produces compact representations for documents, to perform tasks like classification or retrieval based on these short codes. When hashing is supervised, the codes are trained using labels on the training data. This paper first shows that the evaluation protocols used in the literature for supervised hashing are not satisfactory: we show that a trivial solution that encodes the output of a classifier significantly outperforms existing supervised or semi-supervised methods, while using much shorter codes. We then propose two alternative protocols for supervised hashing: one based on retrieval on a disjoint set of classes, and another based on transfer learning to new classes. We provide two baseline methods for image-related tasks to assess the performance of (semi-)supervised hashing: without coding and with unsupervised codes. These baselines give a lower- and upper-bound on the performance of a supervised hashing scheme.","headline":"How Should We Evaluate Supervised Hashing?","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/sablayrolles2016how/"},"url":"https://learning2hash.github.io/publications/sablayrolles2016how/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -259,7 +259,6 @@ supervised hashing scheme.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "How Should We Evaluate Supervised Hashing?",
         conference: "2017 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
@@ -300,7 +299,6 @@ supervised hashing scheme.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -329,37 +327,38 @@ supervised hashing scheme.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

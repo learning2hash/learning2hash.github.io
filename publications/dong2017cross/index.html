@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/dong2017cross/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Cross-media Similarity Evaluation For Web Image Retrieval In The Wild" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In order to retrieve unlabeled images by textual queries, cross-media similarity computation is a key ingredient. Although novel methods are continuously introduced, little has been done to evaluate these methods together with large-scale query log analysis. Consequently, how far have these methods brought us in answering real-user queries is unclear. Given baseline methods that compute cross-media similarity using relatively simple text/image matching, how much progress have advanced models made is also unclear. This paper takes a pragmatic approach to answering the two questions. Queries are automatically categorized according to the proposed query visualness measure, and later connected to the evaluation of multiple cross-media similarity models on three test sets. Such a connection reveals that the success of the state-of-the-art is mainly attributed to their good performance on visual-oriented queries, while these queries account for only a small part of real-user queries. To quantify the current progress, we propose a simple text2image method, representing a novel test query by a set of images selected from large-scale query log. Consequently, computing cross-media similarity between the test query and a given image boils down to comparing the visual similarity between the given image and the selected images. Image retrieval experiments on the challenging Clickture dataset show that the proposed text2image compares favorably to recent deep learning based alternatives.","headline":"Cross-media Similarity Evaluation For Web Image Retrieval In The Wild","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2017cross/"},"url":"https://learning2hash.github.io/publications/dong2017cross/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In order to retrieve unlabeled images by textual queries, cross-media similarity computation is a key ingredient. Although novel methods are continuously introduced, little has been done to evaluate these methods together with large-scale query log analysis. Consequently, how far have these methods brought us in answering real-user queries is unclear. Given baseline methods that compute cross-media similarity using relatively simple text/image matching, how much progress have advanced models made is also unclear. This paper takes a pragmatic approach to answering the two questions. Queries are automatically categorized according to the proposed query visualness measure, and later connected to the evaluation of multiple cross-media similarity models on three test sets. Such a connection reveals that the success of the state-of-the-art is mainly attributed to their good performance on visual-oriented queries, while these queries account for only a small part of real-user queries. To quantify the current progress, we propose a simple text2image method, representing a novel test query by a set of images selected from large-scale query log. Consequently, computing cross-media similarity between the test query and a given image boils down to comparing the visual similarity between the given image and the selected images. Image retrieval experiments on the challenging Clickture dataset show that the proposed text2image compares favorably to recent deep learning based alternatives.","headline":"Cross-media Similarity Evaluation For Web Image Retrieval In The Wild","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/dong2017cross/"},"url":"https://learning2hash.github.io/publications/dong2017cross/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,7 +264,6 @@ text2image compares favorably to recent deep learning based alternatives.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Cross-media Similarity Evaluation For Web Image Retrieval In The Wild",
         conference: "IEEE Transactions on Multimedia",
@@ -305,7 +304,6 @@ text2image compares favorably to recent deep learning based alternatives.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -334,37 +332,38 @@ text2image compares favorably to recent deep learning based alternatives.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

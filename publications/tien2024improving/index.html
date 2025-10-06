@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/tien2024improving/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Improving Vietnamese Legal Document Retrieval Using Synthetic Data" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In the field of legal information retrieval, effective embedding-based models are essential for accurate question-answering systems. However, the scarcity of large annotated datasets poses a significant challenge, particularly for Vietnamese legal texts. To address this issue, we propose a novel approach that leverages large language models to generate high-quality, diverse synthetic queries for Vietnamese legal passages. This synthetic data is then used to pre-train retrieval models, specifically bi-encoder and ColBERT, which are further fine-tuned using contrastive loss with mined hard negatives. Our experiments demonstrate that these enhancements lead to strong improvement in retrieval accuracy, validating the effectiveness of synthetic data and pre-training techniques in overcoming the limitations posed by the lack of large labeled datasets in the Vietnamese legal domain.","headline":"Improving Vietnamese Legal Document Retrieval Using Synthetic Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tien2024improving/"},"url":"https://learning2hash.github.io/publications/tien2024improving/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In the field of legal information retrieval, effective embedding-based models are essential for accurate question-answering systems. However, the scarcity of large annotated datasets poses a significant challenge, particularly for Vietnamese legal texts. To address this issue, we propose a novel approach that leverages large language models to generate high-quality, diverse synthetic queries for Vietnamese legal passages. This synthetic data is then used to pre-train retrieval models, specifically bi-encoder and ColBERT, which are further fine-tuned using contrastive loss with mined hard negatives. Our experiments demonstrate that these enhancements lead to strong improvement in retrieval accuracy, validating the effectiveness of synthetic data and pre-training techniques in overcoming the limitations posed by the lack of large labeled datasets in the Vietnamese legal domain.","headline":"Improving Vietnamese Legal Document Retrieval Using Synthetic Data","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/tien2024improving/"},"url":"https://learning2hash.github.io/publications/tien2024improving/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -252,7 +252,6 @@ large labeled datasets in the Vietnamese legal domain.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Improving Vietnamese Legal Document Retrieval Using Synthetic Data",
         conference: "Communications in Computer and Information Science",
@@ -293,7 +292,6 @@ large labeled datasets in the Vietnamese legal domain.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -322,37 +320,38 @@ large labeled datasets in the Vietnamese legal domain.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

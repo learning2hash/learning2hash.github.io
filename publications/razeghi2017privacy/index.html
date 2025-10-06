@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/razeghi2017privacy/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Privacy Preserving Identification Using Sparse Approximation With Ambiguization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In this paper, we consider a privacy preserving encoding framework for identification applications covering biometrics, physical object security and the Internet of Things (IoT). The proposed framework is based on a sparsifying transform, which consists of a trained linear map, an element-wise nonlinearity, and privacy amplification. The sparsifying transform and privacy amplification are not symmetric for the data owner and data user. We demonstrate that the proposed approach is closely related to sparse ternary codes (STC), a recent information-theoretic concept proposed for fast approximate nearest neighbor (ANN) search in high dimensional feature spaces that being machine learning in nature also offers significant benefits in comparison to sparse approximation and binary embedding approaches. We demonstrate that the privacy of the database outsourced to a server as well as the privacy of the data user are preserved at a low computational cost, storage and communication burdens.","headline":"Privacy Preserving Identification Using Sparse Approximation With Ambiguization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/razeghi2017privacy/"},"url":"https://learning2hash.github.io/publications/razeghi2017privacy/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In this paper, we consider a privacy preserving encoding framework for identification applications covering biometrics, physical object security and the Internet of Things (IoT). The proposed framework is based on a sparsifying transform, which consists of a trained linear map, an element-wise nonlinearity, and privacy amplification. The sparsifying transform and privacy amplification are not symmetric for the data owner and data user. We demonstrate that the proposed approach is closely related to sparse ternary codes (STC), a recent information-theoretic concept proposed for fast approximate nearest neighbor (ANN) search in high dimensional feature spaces that being machine learning in nature also offers significant benefits in comparison to sparse approximation and binary embedding approaches. We demonstrate that the privacy of the database outsourced to a server as well as the privacy of the data user are preserved at a low computational cost, storage and communication burdens.","headline":"Privacy Preserving Identification Using Sparse Approximation With Ambiguization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/razeghi2017privacy/"},"url":"https://learning2hash.github.io/publications/razeghi2017privacy/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -254,7 +254,6 @@ and communication burdens.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Privacy Preserving Identification Using Sparse Approximation With Ambiguization",
         conference: "2017 IEEE Workshop on Information Forensics and Security (WIFS)",
@@ -295,7 +294,6 @@ and communication burdens.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -324,37 +322,38 @@ and communication burdens.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

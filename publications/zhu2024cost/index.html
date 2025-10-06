@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/zhu2024cost/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Cost: Contrastive Quantization Based Semantic Tokenization For Generative Recommendation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Embedding-based retrieval serves as a dominant approach to candidate item matching for industrial recommender systems. With the success of generative AI, generative retrieval has recently emerged as a new retrieval paradigm for recommendation, which casts item retrieval as a generation problem. Its model consists of two stages: semantic tokenization and autoregressive generation. The first stage involves item tokenization that constructs discrete semantic tokens to index items, while the second stage autoregressively generates semantic tokens of candidate items. Therefore, semantic tokenization serves as a crucial preliminary step for training generative recommendation models. Existing research usually employs a vector quantizier with reconstruction loss (e.g., RQ-VAE) to obtain semantic tokens of items, but this method fails to capture the essential neighborhood relationships that are vital for effective item modeling in recommender systems. In this paper, we propose a contrastive quantization-based semantic tokenization approach, named CoST, which harnesses both item relationships and semantic information to learn semantic tokens. Our experimental results highlight the significant impact of semantic tokenization on generative recommendation performance, with CoST achieving up to a 43% improvement in Recall@5 and 44% improvement in NDCG@5 on the MIND dataset over previous baselines.","headline":"Cost: Contrastive Quantization Based Semantic Tokenization For Generative Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2024cost/"},"url":"https://learning2hash.github.io/publications/zhu2024cost/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Embedding-based retrieval serves as a dominant approach to candidate item matching for industrial recommender systems. With the success of generative AI, generative retrieval has recently emerged as a new retrieval paradigm for recommendation, which casts item retrieval as a generation problem. Its model consists of two stages: semantic tokenization and autoregressive generation. The first stage involves item tokenization that constructs discrete semantic tokens to index items, while the second stage autoregressively generates semantic tokens of candidate items. Therefore, semantic tokenization serves as a crucial preliminary step for training generative recommendation models. Existing research usually employs a vector quantizier with reconstruction loss (e.g., RQ-VAE) to obtain semantic tokens of items, but this method fails to capture the essential neighborhood relationships that are vital for effective item modeling in recommender systems. In this paper, we propose a contrastive quantization-based semantic tokenization approach, named CoST, which harnesses both item relationships and semantic information to learn semantic tokens. Our experimental results highlight the significant impact of semantic tokenization on generative recommendation performance, with CoST achieving up to a 43% improvement in Recall@5 and 44% improvement in NDCG@5 on the MIND dataset over previous baselines.","headline":"Cost: Contrastive Quantization Based Semantic Tokenization For Generative Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/zhu2024cost/"},"url":"https://learning2hash.github.io/publications/zhu2024cost/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -261,7 +261,6 @@ previous baselines.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Cost: Contrastive Quantization Based Semantic Tokenization For Generative Recommendation",
         conference: "18th ACM Conference on Recommender Systems",
@@ -302,7 +301,6 @@ previous baselines.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -331,37 +329,38 @@ previous baselines.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

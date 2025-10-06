@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/wei2022hyperbolic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hyperbolic Hierarchical Contrastive Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Hierarchical semantic structures, naturally existing in real-world datasets, can assist in capturing the latent distribution of data to learn robust hash codes for retrieval systems. Although hierarchical semantic structures can be simply expressed by integrating semantically relevant data into a high-level taxon with coarser-grained semantics, the construction, embedding, and exploitation of the structures remain tricky for unsupervised hash learning. To tackle these problems, we propose a novel unsupervised hashing method named Hyperbolic Hierarchical Contrastive Hashing (HHCH). We propose to embed continuous hash codes into hyperbolic space for accurate semantic expression since embedding hierarchies in hyperbolic space generates less distortion than in hyper-sphere space and Euclidean space. In addition, we extend the K-Means algorithm to hyperbolic space and perform the proposed hierarchical hyperbolic K-Means algorithm to construct hierarchical semantic structures adaptively. To exploit the hierarchical semantic structures in hyperbolic space, we designed the hierarchical contrastive learning algorithm, including hierarchical instance-wise and hierarchical prototype-wise contrastive learning. Extensive experiments on four benchmark datasets demonstrate that the proposed method outperforms the state-of-the-art unsupervised hashing methods. Codes will be released.","headline":"Hyperbolic Hierarchical Contrastive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wei2022hyperbolic/"},"url":"https://learning2hash.github.io/publications/wei2022hyperbolic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Hierarchical semantic structures, naturally existing in real-world datasets, can assist in capturing the latent distribution of data to learn robust hash codes for retrieval systems. Although hierarchical semantic structures can be simply expressed by integrating semantically relevant data into a high-level taxon with coarser-grained semantics, the construction, embedding, and exploitation of the structures remain tricky for unsupervised hash learning. To tackle these problems, we propose a novel unsupervised hashing method named Hyperbolic Hierarchical Contrastive Hashing (HHCH). We propose to embed continuous hash codes into hyperbolic space for accurate semantic expression since embedding hierarchies in hyperbolic space generates less distortion than in hyper-sphere space and Euclidean space. In addition, we extend the K-Means algorithm to hyperbolic space and perform the proposed hierarchical hyperbolic K-Means algorithm to construct hierarchical semantic structures adaptively. To exploit the hierarchical semantic structures in hyperbolic space, we designed the hierarchical contrastive learning algorithm, including hierarchical instance-wise and hierarchical prototype-wise contrastive learning. Extensive experiments on four benchmark datasets demonstrate that the proposed method outperforms the state-of-the-art unsupervised hashing methods. Codes will be released.","headline":"Hyperbolic Hierarchical Contrastive Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/wei2022hyperbolic/"},"url":"https://learning2hash.github.io/publications/wei2022hyperbolic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -265,7 +265,6 @@ released.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Hyperbolic Hierarchical Contrastive Hashing",
         conference: "Transaction on Image Processing 2024",
@@ -306,7 +305,6 @@ released.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -335,37 +333,38 @@ released.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

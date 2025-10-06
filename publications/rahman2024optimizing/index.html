@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/rahman2024optimizing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Optimizing Domain-specific Image Retrieval: A Benchmark Of FAISS And Annoy With Fine-tuned Features" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Approximate Nearest Neighbor search is one of the keys to high-scale data retrieval performance in many applications. The work is a bridge between feature extraction and ANN indexing through fine-tuning a ResNet50 model with various ANN methods: FAISS and Annoy. We evaluate the systems with respect to indexing time, memory usage, query time, precision, recall, F1-score, and Recall@5 on a custom image dataset. FAISS’s Product Quantization can achieve a precision of 98.40% with low memory usage at 0.24 MB index size, and Annoy is the fastest, with average query times of 0.00015 seconds, at a slight cost to accuracy. These results reveal trade-offs among speed, accuracy, and memory efficiency and offer actionable insights into the optimization of feature-based image retrieval systems. This study will serve as a blueprint for constructing actual retrieval pipelines and be built on fine-tuned deep learning networks and associated ANN methods.","headline":"Optimizing Domain-specific Image Retrieval: A Benchmark Of FAISS And Annoy With Fine-tuned Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/rahman2024optimizing/"},"url":"https://learning2hash.github.io/publications/rahman2024optimizing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Approximate Nearest Neighbor search is one of the keys to high-scale data retrieval performance in many applications. The work is a bridge between feature extraction and ANN indexing through fine-tuning a ResNet50 model with various ANN methods: FAISS and Annoy. We evaluate the systems with respect to indexing time, memory usage, query time, precision, recall, F1-score, and Recall@5 on a custom image dataset. FAISS’s Product Quantization can achieve a precision of 98.40% with low memory usage at 0.24 MB index size, and Annoy is the fastest, with average query times of 0.00015 seconds, at a slight cost to accuracy. These results reveal trade-offs among speed, accuracy, and memory efficiency and offer actionable insights into the optimization of feature-based image retrieval systems. This study will serve as a blueprint for constructing actual retrieval pipelines and be built on fine-tuned deep learning networks and associated ANN methods.","headline":"Optimizing Domain-specific Image Retrieval: A Benchmark Of FAISS And Annoy With Fine-tuned Features","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/rahman2024optimizing/"},"url":"https://learning2hash.github.io/publications/rahman2024optimizing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -265,7 +265,6 @@ and associated ANN methods.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Optimizing Domain-specific Image Retrieval: A Benchmark Of FAISS And Annoy With Fine-tuned Features",
         conference: "Arxiv",
@@ -306,7 +305,6 @@ and associated ANN methods.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -335,37 +333,38 @@ and associated ANN methods.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

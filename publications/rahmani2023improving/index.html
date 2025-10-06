@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/rahmani2023improving/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Improving Code Example Recommendations On Informal Documentation Using BERT And Query-aware LSH: A Comparative Study" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Our research investigates the recommendation of code examples to aid software developers, a practice that saves developers significant time by providing ready-to-use code snippets. The focus of our study is Stack Overflow, a commonly used resource for coding discussions and solutions, particularly in the context of the Java programming language. We applied BERT, a powerful Large Language Model (LLM) that enables us to transform code examples into numerical vectors by extracting their semantic information. Once these numerical representations are prepared, we identify Approximate Nearest Neighbors (ANN) using Locality-Sensitive Hashing (LSH). Our research employed two variants of LSH: Random Hyperplane-based LSH and Query-Aware LSH. We rigorously compared these two approaches across four parameters: HitRate, Mean Reciprocal Rank (MRR), Average Execution Time, and Relevance. Our study revealed that the Query-Aware (QA) approach showed superior performance over the Random Hyperplane-based (RH) method. Specifically, it exhibited a notable improvement of 20% to 35% in HitRate for query pairs compared to the RH approach. Furthermore, the QA approach proved significantly more time-efficient, with its speed in creating hashing tables and assigning data samples to buckets being at least four times faster. It can return code examples within milliseconds, whereas the RH approach typically requires several seconds to recommend code examples. Due to the superior performance of the QA approach, we tested it against PostFinder and FaCoY, the state-of-the-art baselines. Our QA method showed comparable efficiency proving its potential for effective code recommendation.","headline":"Improving Code Example Recommendations On Informal Documentation Using BERT And Query-aware LSH: A Comparative Study","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/rahmani2023improving/"},"url":"https://learning2hash.github.io/publications/rahmani2023improving/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Our research investigates the recommendation of code examples to aid software developers, a practice that saves developers significant time by providing ready-to-use code snippets. The focus of our study is Stack Overflow, a commonly used resource for coding discussions and solutions, particularly in the context of the Java programming language. We applied BERT, a powerful Large Language Model (LLM) that enables us to transform code examples into numerical vectors by extracting their semantic information. Once these numerical representations are prepared, we identify Approximate Nearest Neighbors (ANN) using Locality-Sensitive Hashing (LSH). Our research employed two variants of LSH: Random Hyperplane-based LSH and Query-Aware LSH. We rigorously compared these two approaches across four parameters: HitRate, Mean Reciprocal Rank (MRR), Average Execution Time, and Relevance. Our study revealed that the Query-Aware (QA) approach showed superior performance over the Random Hyperplane-based (RH) method. Specifically, it exhibited a notable improvement of 20% to 35% in HitRate for query pairs compared to the RH approach. Furthermore, the QA approach proved significantly more time-efficient, with its speed in creating hashing tables and assigning data samples to buckets being at least four times faster. It can return code examples within milliseconds, whereas the RH approach typically requires several seconds to recommend code examples. Due to the superior performance of the QA approach, we tested it against PostFinder and FaCoY, the state-of-the-art baselines. Our QA method showed comparable efficiency proving its potential for effective code recommendation.","headline":"Improving Code Example Recommendations On Informal Documentation Using BERT And Query-aware LSH: A Comparative Study","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/rahmani2023improving/"},"url":"https://learning2hash.github.io/publications/rahmani2023improving/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -269,7 +269,6 @@ recommendation.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Improving Code Example Recommendations On Informal Documentation Using BERT And Query-aware LSH: A Comparative Study",
         conference: "Arxiv",
@@ -310,7 +309,6 @@ recommendation.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -339,37 +337,38 @@ recommendation.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

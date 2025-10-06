@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chen2024digital/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Digital Fingerprinting On Multimedia: A Survey" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The explosive growth of multimedia content in the digital economy era has brought challenges in content recognition, copyright protection, and data management. As an emerging content management technology, perceptual hash-based digital fingerprints, serving as compact summaries of multimedia content, have been widely adopted for efficient multimedia content identification and retrieval across different modalities (e.g., text, image, video, audio), attracting significant attention from both academia and industry. Despite the increasing applications of digital fingerprints, there is a lack of systematic and comprehensive literature review on multimedia digital fingerprints. This survey aims to fill this gap and provide an important resource for researchers studying the details and related advancements of multimedia digital fingerprints. The survey first introduces the definition, characteristics, and related concepts (including hash functions, granularity, similarity measures, etc.) of digital fingerprints. It then focuses on analyzing and summarizing the algorithms for extracting unimodal fingerprints of different types of digital content, including text fingerprints, image fingerprints, video fingerprints, and audio fingerprints. Particularly, it provides an in-depth review and summary of deep learning-based fingerprints. Additionally, the survey elaborates on the various practical applications of digital fingerprints and outlines the challenges and potential future research directions. The goal is to promote the continued development of multimedia digital fingerprint research.","headline":"Digital Fingerprinting On Multimedia: A Survey","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2024digital/"},"url":"https://learning2hash.github.io/publications/chen2024digital/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The explosive growth of multimedia content in the digital economy era has brought challenges in content recognition, copyright protection, and data management. As an emerging content management technology, perceptual hash-based digital fingerprints, serving as compact summaries of multimedia content, have been widely adopted for efficient multimedia content identification and retrieval across different modalities (e.g., text, image, video, audio), attracting significant attention from both academia and industry. Despite the increasing applications of digital fingerprints, there is a lack of systematic and comprehensive literature review on multimedia digital fingerprints. This survey aims to fill this gap and provide an important resource for researchers studying the details and related advancements of multimedia digital fingerprints. The survey first introduces the definition, characteristics, and related concepts (including hash functions, granularity, similarity measures, etc.) of digital fingerprints. It then focuses on analyzing and summarizing the algorithms for extracting unimodal fingerprints of different types of digital content, including text fingerprints, image fingerprints, video fingerprints, and audio fingerprints. Particularly, it provides an in-depth review and summary of deep learning-based fingerprints. Additionally, the survey elaborates on the various practical applications of digital fingerprints and outlines the challenges and potential future research directions. The goal is to promote the continued development of multimedia digital fingerprint research.","headline":"Digital Fingerprinting On Multimedia: A Survey","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chen2024digital/"},"url":"https://learning2hash.github.io/publications/chen2024digital/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -262,7 +262,6 @@ research.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Digital Fingerprinting On Multimedia: A Survey",
         conference: "Arxiv",
@@ -303,7 +302,6 @@ research.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -332,37 +330,38 @@ research.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

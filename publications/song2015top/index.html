@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/song2015top/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Top Rank Supervised Binary Coding For Visual Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In recent years, binary coding techniques are becoming increasingly popular because of their high efficiency in handling large-scale computer vision applications. It has been demonstrated that supervised binary coding techniques that leverage supervised information can significantly enhance the coding quality, and hence greatly benefit visual search tasks. Typically, a modern binary coding method seeks to learn a group of coding functions which compress data samples into binary codes. However, few methods pursued the coding functions such that the precision at the top of a ranking list according to Hamming distances of the generated binary codes is optimized. In this paper, we propose a novel supervised binary coding approach, namely Top Rank Supervised Binary Coding (Top-RSBC), which explicitly focuses on optimizing the precision of top positions in a Hamming-distance ranking list towards preserving the supervision information. The core idea is to train the disciplined coding functions, by which the mistakes at the top of a Hamming-distance ranking list are penalized more than those at the bottom. To solve such coding functions, we relax the original discrete optimization objective with a continuous surrogate, and derive a stochastic gradient descent to optimize the surrogate objective. To further reduce the training time cost, we also design an online learning algorithm to optimize the surrogate objective more efficiently. Empirical studies based upon three benchmark image datasets demonstrate that the proposed binary coding approach achieves superior image search accuracy over the state-of-the-arts.","headline":"Top Rank Supervised Binary Coding For Visual Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/song2015top/"},"url":"https://learning2hash.github.io/publications/song2015top/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In recent years, binary coding techniques are becoming increasingly popular because of their high efficiency in handling large-scale computer vision applications. It has been demonstrated that supervised binary coding techniques that leverage supervised information can significantly enhance the coding quality, and hence greatly benefit visual search tasks. Typically, a modern binary coding method seeks to learn a group of coding functions which compress data samples into binary codes. However, few methods pursued the coding functions such that the precision at the top of a ranking list according to Hamming distances of the generated binary codes is optimized. In this paper, we propose a novel supervised binary coding approach, namely Top Rank Supervised Binary Coding (Top-RSBC), which explicitly focuses on optimizing the precision of top positions in a Hamming-distance ranking list towards preserving the supervision information. The core idea is to train the disciplined coding functions, by which the mistakes at the top of a Hamming-distance ranking list are penalized more than those at the bottom. To solve such coding functions, we relax the original discrete optimization objective with a continuous surrogate, and derive a stochastic gradient descent to optimize the surrogate objective. To further reduce the training time cost, we also design an online learning algorithm to optimize the surrogate objective more efficiently. Empirical studies based upon three benchmark image datasets demonstrate that the proposed binary coding approach achieves superior image search accuracy over the state-of-the-arts.","headline":"Top Rank Supervised Binary Coding For Visual Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/song2015top/"},"url":"https://learning2hash.github.io/publications/song2015top/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -271,7 +271,6 @@ the state-of-the-arts.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Top Rank Supervised Binary Coding For Visual Search",
         conference: "2015 IEEE International Conference on Computer Vision (ICCV)",
@@ -312,7 +311,6 @@ the state-of-the-arts.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -341,37 +339,38 @@ the state-of-the-arts.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

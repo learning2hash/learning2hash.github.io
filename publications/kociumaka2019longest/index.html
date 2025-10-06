@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/kociumaka2019longest/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Longest Common Substring With Approximately (k) Mismatches" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"In the longest common substring problem, we are given two strings of length (n) and must find a substring of maximal length that occurs in both strings. It is well known that the problem can be solved in linear time, but the solution is not robust and can vary greatly when the input strings are changed even by one character. To circumvent this, Leimeister and Morgenstern introduced the problem of the longest common substring with (k) mismatches. Lately, this problem has received a lot of attention in the literature. In this paper, we first show a conditional lower bound based on the SETH hypothesis implying that there is little hope to improve existing solutions. We then introduce a new but closely related problem of the longest common substring with approximately (k) mismatches and use locality-sensitive hashing to show that it admits a solution with strongly subquadratic running time. We also apply these results to obtain a strongly subquadratic-time 2-approximation algorithm for the longest common substring with (k) mismatches problem and show conditional hardness of improving its approximation ratio.","headline":"Longest Common Substring With Approximately (k) Mismatches","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kociumaka2019longest/"},"url":"https://learning2hash.github.io/publications/kociumaka2019longest/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"In the longest common substring problem, we are given two strings of length (n) and must find a substring of maximal length that occurs in both strings. It is well known that the problem can be solved in linear time, but the solution is not robust and can vary greatly when the input strings are changed even by one character. To circumvent this, Leimeister and Morgenstern introduced the problem of the longest common substring with (k) mismatches. Lately, this problem has received a lot of attention in the literature. In this paper, we first show a conditional lower bound based on the SETH hypothesis implying that there is little hope to improve existing solutions. We then introduce a new but closely related problem of the longest common substring with approximately (k) mismatches and use locality-sensitive hashing to show that it admits a solution with strongly subquadratic running time. We also apply these results to obtain a strongly subquadratic-time 2-approximation algorithm for the longest common substring with (k) mismatches problem and show conditional hardness of improving its approximation ratio.","headline":"Longest Common Substring With Approximately (k) Mismatches","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/kociumaka2019longest/"},"url":"https://learning2hash.github.io/publications/kociumaka2019longest/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -251,7 +251,6 @@ improving its approximation ratio.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Longest Common Substring With Approximately \\(k\\) Mismatches",
         conference: "Algorithmica",
@@ -292,7 +291,6 @@ improving its approximation ratio.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -321,37 +319,38 @@ improving its approximation ratio.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

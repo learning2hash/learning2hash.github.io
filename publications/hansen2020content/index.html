@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/hansen2020content/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Content-aware Neural Hashing For Cold-start Recommendation" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Content-aware recommendation approaches are essential for providing meaningful recommendations for \\textit{new} (i.e., \\textit{cold-start}) items in a recommender system. We present a content-aware neural hashing-based collaborative filtering approach (NeuHash-CF), which generates binary hash codes for users and items, such that the highly efficient Hamming distance can be used for estimating user-item relevance. NeuHash-CF is modelled as an autoencoder architecture, consisting of two joint hashing components for generating user and item hash codes. Inspired from semantic hashing, the item hashing component generates a hash code directly from an item’s content information (i.e., it generates cold-start and seen item hash codes in the same manner). This contrasts existing state-of-the-art models, which treat the two item cases separately. The user hash codes are generated directly based on user id, through learning a user embedding matrix. We show experimentally that NeuHash-CF significantly outperforms state-of-the-art baselines by up to 12% NDCG and 13% MRR in cold-start recommendation settings, and up to 4% in both NDCG and MRR in standard settings where all items are present while training. Our approach uses 2-4x shorter hash codes, while obtaining the same or better performance compared to the state of the art, thus consequently also enabling a notable storage reduction.","headline":"Content-aware Neural Hashing For Cold-start Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hansen2020content/"},"url":"https://learning2hash.github.io/publications/hansen2020content/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Content-aware recommendation approaches are essential for providing meaningful recommendations for \\textit{new} (i.e., \\textit{cold-start}) items in a recommender system. We present a content-aware neural hashing-based collaborative filtering approach (NeuHash-CF), which generates binary hash codes for users and items, such that the highly efficient Hamming distance can be used for estimating user-item relevance. NeuHash-CF is modelled as an autoencoder architecture, consisting of two joint hashing components for generating user and item hash codes. Inspired from semantic hashing, the item hashing component generates a hash code directly from an item’s content information (i.e., it generates cold-start and seen item hash codes in the same manner). This contrasts existing state-of-the-art models, which treat the two item cases separately. The user hash codes are generated directly based on user id, through learning a user embedding matrix. We show experimentally that NeuHash-CF significantly outperforms state-of-the-art baselines by up to 12% NDCG and 13% MRR in cold-start recommendation settings, and up to 4% in both NDCG and MRR in standard settings where all items are present while training. Our approach uses 2-4x shorter hash codes, while obtaining the same or better performance compared to the state of the art, thus consequently also enabling a notable storage reduction.","headline":"Content-aware Neural Hashing For Cold-start Recommendation","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hansen2020content/"},"url":"https://learning2hash.github.io/publications/hansen2020content/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -263,7 +263,6 @@ notable storage reduction.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Content-aware Neural Hashing For Cold-start Recommendation",
         conference: "Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval",
@@ -304,7 +303,6 @@ notable storage reduction.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -333,37 +331,38 @@ notable storage reduction.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/fang2020attention/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Attention-based Saliency Hashing For Ophthalmic Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"Deep hashing methods have been proved to be effective for the large-scale medical image search assisting reference-based diagnosis for clinicians. However, when the salient region plays a maximal discriminative role in ophthalmic image, existing deep hashing methods do not fully exploit the learning ability of the deep network to capture the features of salient regions pointedly. The different grades or classes of ophthalmic images may be share similar overall performance but have subtle differences that can be differentiated by mining salient regions. To address this issue, we propose a novel end-to-end network, named Attention-based Saliency Hashing (ASH), for learning compact hash-code to represent ophthalmic images. ASH embeds a spatial-attention module to focus more on the representation of salient regions and highlights their essential role in differentiating ophthalmic images. Benefiting from the spatial-attention module, the information of salient regions can be mapped into the hash-code for similarity calculation. In the training stage, we input the image pairs to share the weights of the network, and a pairwise loss is designed to maximize the discriminability of the hash-code. In the retrieval stage, ASH obtains the hash-code by inputting an image with an end-to-end manner, then the hash-code is used to similarity calculation to return the most similar images. Extensive experiments on two different modalities of ophthalmic image datasets demonstrate that the proposed ASH can further improve the retrieval performance compared to the state-of-the-art deep hashing methods due to the huge contributions of the spatial-attention module.","headline":"Attention-based Saliency Hashing For Ophthalmic Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fang2020attention/"},"url":"https://learning2hash.github.io/publications/fang2020attention/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Deep hashing methods have been proved to be effective for the large-scale medical image search assisting reference-based diagnosis for clinicians. However, when the salient region plays a maximal discriminative role in ophthalmic image, existing deep hashing methods do not fully exploit the learning ability of the deep network to capture the features of salient regions pointedly. The different grades or classes of ophthalmic images may be share similar overall performance but have subtle differences that can be differentiated by mining salient regions. To address this issue, we propose a novel end-to-end network, named Attention-based Saliency Hashing (ASH), for learning compact hash-code to represent ophthalmic images. ASH embeds a spatial-attention module to focus more on the representation of salient regions and highlights their essential role in differentiating ophthalmic images. Benefiting from the spatial-attention module, the information of salient regions can be mapped into the hash-code for similarity calculation. In the training stage, we input the image pairs to share the weights of the network, and a pairwise loss is designed to maximize the discriminability of the hash-code. In the retrieval stage, ASH obtains the hash-code by inputting an image with an end-to-end manner, then the hash-code is used to similarity calculation to return the most similar images. Extensive experiments on two different modalities of ophthalmic image datasets demonstrate that the proposed ASH can further improve the retrieval performance compared to the state-of-the-art deep hashing methods due to the huge contributions of the spatial-attention module.","headline":"Attention-based Saliency Hashing For Ophthalmic Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/fang2020attention/"},"url":"https://learning2hash.github.io/publications/fang2020attention/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -269,7 +269,6 @@ spatial-attention module.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Attention-based Saliency Hashing For Ophthalmic Image Retrieval",
         conference: "2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)",
@@ -310,7 +309,6 @@ spatial-attention module.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -339,37 +337,38 @@ spatial-attention module.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 

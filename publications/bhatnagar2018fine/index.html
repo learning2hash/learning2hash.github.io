@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/bhatnagar2018fine/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T07:20:58-05:00" />
+<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fine-grained Apparel Classification And Retrieval Without Rich Annotations" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T07:20:58-05:00","datePublished":"2025-10-06T07:20:58-05:00","description":"The ability to correctly classify and retrieve apparel images has a variety of applications important to e-commerce, online advertising and internet search. In this work, we propose a robust framework for fine-grained apparel classification, in-shop and cross-domain retrieval which eliminates the requirement of rich annotations like bounding boxes and human-joints or clothing landmarks, and training of bounding box/ key-landmark detector for the same. Factors such as subtle appearance differences, variations in human poses, different shooting angles, apparel deformations, and self-occlusion add to the challenges in classification and retrieval of apparel items. Cross-domain retrieval is even harder due to the presence of large variation between online shopping images, usually taken in ideal lighting, pose, positive angle and clean background as compared with street photos captured by users in complicated conditions with poor lighting and cluttered scenes. Our framework uses compact bilinear CNN with tensor sketch algorithm to generate embeddings that capture local pairwise feature interactions in a translationally invariant manner. For apparel classification, we pass the feature embeddings through a softmax classifier, while, the in-shop and cross-domain retrieval pipelines use a triplet-loss based optimization approach, such that squared Euclidean distance between embeddings measures the dissimilarity between the images. Unlike previous works that relied on bounding box, key clothing landmarks or human joint detectors to assist the final deep classifier, proposed framework can be trained directly on the provided category labels or generated triplets for triplet loss optimization. Lastly, Experimental results on the DeepFashion fine-grained categorization, and in-shop and consumer-to-shop retrieval datasets provide a comparative analysis with previous work performed in the domain.","headline":"Fine-grained Apparel Classification And Retrieval Without Rich Annotations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bhatnagar2018fine/"},"url":"https://learning2hash.github.io/publications/bhatnagar2018fine/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"The ability to correctly classify and retrieve apparel images has a variety of applications important to e-commerce, online advertising and internet search. In this work, we propose a robust framework for fine-grained apparel classification, in-shop and cross-domain retrieval which eliminates the requirement of rich annotations like bounding boxes and human-joints or clothing landmarks, and training of bounding box/ key-landmark detector for the same. Factors such as subtle appearance differences, variations in human poses, different shooting angles, apparel deformations, and self-occlusion add to the challenges in classification and retrieval of apparel items. Cross-domain retrieval is even harder due to the presence of large variation between online shopping images, usually taken in ideal lighting, pose, positive angle and clean background as compared with street photos captured by users in complicated conditions with poor lighting and cluttered scenes. Our framework uses compact bilinear CNN with tensor sketch algorithm to generate embeddings that capture local pairwise feature interactions in a translationally invariant manner. For apparel classification, we pass the feature embeddings through a softmax classifier, while, the in-shop and cross-domain retrieval pipelines use a triplet-loss based optimization approach, such that squared Euclidean distance between embeddings measures the dissimilarity between the images. Unlike previous works that relied on bounding box, key clothing landmarks or human joint detectors to assist the final deep classifier, proposed framework can be trained directly on the provided category labels or generated triplets for triplet loss optimization. Lastly, Experimental results on the DeepFashion fine-grained categorization, and in-shop and consumer-to-shop retrieval datasets provide a comparative analysis with previous work performed in the domain.","headline":"Fine-grained Apparel Classification And Retrieval Without Rich Annotations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/bhatnagar2018fine/"},"url":"https://learning2hash.github.io/publications/bhatnagar2018fine/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -266,7 +266,6 @@ domain.</p>
       }
 
       // ------- Share logic with auto-written post text -------
-      // Liquid -> JS bridge for safe meta usage
       const meta = {
         title: "Fine-grained Apparel Classification And Retrieval Without Rich Annotations",
         conference: "Arxiv",
@@ -307,7 +306,6 @@ domain.</p>
 
       if (linkedinBtn) {
         linkedinBtn.addEventListener('click', () => {
-          // LinkedIn no longer allows prefilled custom text; share URL only for rich preview
           window.open(
             `https://www.linkedin.com/sharing/share-offsite/?url=${pageUrl}`,
             '_blank', 'noopener,noreferrer'
@@ -336,37 +334,38 @@ domain.</p>
       flex-wrap: wrap;
     }
 
+    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
+      appearance: none;
+      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      padding: 6px;
-      cursor: pointer;
-      transition: all 0.15s ease;
-      line-height: 0;
-      display: flex;
+      width: 34px;              /* square button for perfect centering */
+      height: 34px;
+      padding: 0;               /* kill extra space */
+      display: inline-flex;     /* avoids baseline quirks */
       align-items: center;
       justify-content: center;
+      vertical-align: middle;   /* aligns nicely with text */
+      line-height: 1;           /* prevents extra line box height */
+      overflow: hidden;         /* hides stray SVG whitespace */
+      cursor: pointer;
+      transition: background 0.15s ease, opacity 0.15s ease;
     }
 
     .icon-btn img {
+      display: block;           /* removes bottom whitespace under images */
       width: 18px;
       height: 18px;
-      opacity: 0.65;
-      display: block; /* removes bottom space */
+      object-fit: contain;
+      object-position: center;
+      opacity: 0.7;
     }
 
-    .icon-btn:hover {
-      background: #e9e9e9;
-    }
-
-    .icon-btn:hover img {
-      opacity: 1;
-    }
-
-    .icon-btn.copied {
-      background: #d9f7e6;
-    }
+    .icon-btn:hover { background: #e9e9e9; }
+    .icon-btn:hover img { opacity: 1; }
+    .icon-btn.copied { background: #d9f7e6; }
   </style>
 </div>
 
