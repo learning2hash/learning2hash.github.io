@@ -47,7 +47,7 @@ A curated and continuously updated collection of academic papers on hashing-base
 
 ---
 
-### 🏷 Browse Papers by Tag
+### Browse Papers by Tag
 
 <p>Explore the latest research by browsing papers categorized by tags. Select a tag below to dive deeper into specific topics within the field of learning to hash:</p>
 
@@ -64,7 +64,7 @@ A curated and continuously updated collection of academic papers on hashing-base
 </div>
 ---
 
-### 📚 What This Site Offers
+### What This Site Offers
 <ul style="font-size: 1em;">
   <li>🔍 Access over 3,000 curated publications, organized by topic and methodological taxonomy</li>
   <li>📈 Identify emerging trends in supervised, unsupervised, deep, and quantized hashing methods</li>
@@ -74,7 +74,7 @@ A curated and continuously updated collection of academic papers on hashing-base
 
 ---
 
-### 🤔 What is Learning to Hash?
+### What is Learning to Hash?
 <p>
 <a href="https://en.wikipedia.org/wiki/Nearest_neighbor_search">Nearest neighbour search</a> involves retrieving similar items from large datasets, often in high-dimensional spaces. <strong>Learning to Hash (L2H)</strong> enhances this process by learning compact representations—typically binary codes, but sometimes real-valued or quantized forms—that preserve semantic or structural similarity. These representations enable fast and memory-efficient approximate retrieval by avoiding exhaustive comparisons.
 </p>
@@ -83,7 +83,7 @@ A curated and continuously updated collection of academic papers on hashing-base
 Learning to Hash techniques underpin a broad range of applications, including large-scale multimedia retrieval, recommendation systems, source code search, scientific data mining, and real-time anomaly detection.
 </p>
 
-#### 🔬 Selected Applications
+#### Selected Applications
 <ul>
   <li><strong><a href="https://arxiv.org/abs/2111.04473">Source Code Search</a></strong> – MinHash applied to large-scale code recommendation</li>
   <li><strong><a href="https://openreview.net/pdf?id=rkgNKkHtvB">Efficient Transformers</a></strong> – Locality-Sensitive Hashing (LSH) for computational efficiency</li>
@@ -94,7 +94,7 @@ Learning to Hash techniques underpin a broad range of applications, including la
 
 ---
 
-### 🧩 How Hashing Works
+### How Hashing Works
 <p>
 Learning to hash involves training a model to encode data points into compact representations, often binary hash codes. These are used to index items into hash tables. During retrieval, only a subset of nearby buckets are examined, significantly reducing the search space compared to exhaustive nearest neighbour methods.
 </p>
@@ -106,7 +106,7 @@ Learning to hash involves training a model to encode data points into compact re
 
 ---
 
-### 🧾 Reference to This Work
+### Reference to This Work
 <p style="font-size:1em;">
 For a foundational overview of the field, see:<br>
 <strong><a href="/papers/Learning_Based_Hashing_for_ANN_Search__Foundations_and_Early_Advances.pdf" target="_blank">
@@ -116,7 +116,7 @@ This survey introduces the conceptual foundations of learning-based hashing, cov
 
 ---
 
-### 🤝 Contribute to the Collection
+### Contribute to the Collection
 <p>
 This site is maintained as a community-driven literature review. If you have authored or come across a relevant paper, we encourage you to contribute via our submission form or GitHub pull request. See the <a href="contributing.html">Contributing</a> page for details.
 </p>
