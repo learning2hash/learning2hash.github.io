@@ -64,14 +64,14 @@ description: Explore prolific authors and their contributions across Learning to
 
 <!-- Modals -->
 <div id="network-modal" role="dialog" aria-modal="true"
-  style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:90%; height:90%; background:rgba(255,255,255,0.95); border:1px solid #ccc; z-index:10000; box-shadow:0 4px 20px rgba(0,0,0,0.2); border-radius:10px;">
+  style="display:none; position:fixed; inset:0; margin:auto; width:90%; height:90%; background:rgba(255,255,255,0.97); border:1px solid #ccc; z-index:10000; box-shadow:0 4px 20px rgba(0,0,0,0.2); border-radius:10px;">
   <button id="modal-close" aria-label="Close graph modal"
     style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
   <svg id="network-svg" width="100%" height="100%"></svg>
 </div>
 
 <div id="papers-modal" role="dialog" aria-modal="true"
-  style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
+  style="display:none; position:fixed; inset:0; margin:auto; width:80%; max-height:80%; overflow-y:auto; background:white; padding:20px; border-radius:10px; box-shadow:0 4px 20px rgba(0,0,0,0.2); z-index:10001;">
   <button id="papers-close" aria-label="Close papers list"
     style="position:absolute; top:10px; right:10px; padding:4px 8px; cursor:pointer;">✖ Close</button>
   <h3 id="papers-title">Sample Papers by Author</h3>
@@ -105,20 +105,12 @@ description: Explore prolific authors and their contributions across Learning to
   .dataTables_filter{ display:none !important; }
 
   /* Let Responsive decide when to hide columns (no inner scroll frame) */
-  #author-table {
-    width: 100% !important;
-    max-width: 100%;
-    table-layout: auto;
-  }
-  .dataTables_wrapper {
-    width: 100%;
-    max-width: 100%;
-    overflow-x: hidden;
-  }
+  #author-table { width: 100% !important; max-width: 100%; table-layout: auto; }
+  .dataTables_wrapper { width: 100%; max-width: 100%; overflow-x: hidden; }
 
   #author-table thead th { white-space: nowrap; }
   #author-table tbody td { word-break: break-word; }
-  .sparkline { display:inline-block; min-width: 80px; }
+  .sparkline { display:inline-block; min-width: 80px; vertical-align: middle; }
   #author-table td:nth-child(10), #author-table td:nth-child(11) { white-space: normal; }
 
   @media screen and (max-width: 768px) {
@@ -141,18 +133,9 @@ description: Explore prolific authors and their contributions across Learning to
   #network-modal { overflow: auto; }
 
   #loading {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.05em;
-    text-align: center;
-    z-index: 10;
-    background: white;
-    padding: .8em 1.2em;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,.08);
+    position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    font-size: 1.05em; text-align: center; z-index: 10; background: white;
+    padding: .8em 1.2em; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.08);
   }
 
   .highlight { background-color:#fffbcc !important; transition: background-color .5s ease; }
@@ -162,13 +145,13 @@ description: Explore prolific authors and their contributions across Learning to
   table.dataTable tbody td.dtr-control:before { top: 50%; transform: translateY(-50%); }
 </style>
 
-<!-- Self-hosted JS (order matters: jQuery → DataTables core → Buttons/Responsive → Sparkline → D3) -->
+<!-- Self-hosted JS (order matters: jQuery → DataTables core → Buttons/Responsive → D3) -->
 <script src="{{ '/assets/vendor/jquery-3.6.0.min.js' | relative_url }}"></script>
 <script src="{{ '/assets/vendor/datatables-1.13.6.min.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/vendor/dataTables.buttons-2.4.1.min.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/vendor/buttons.colVis-2.4.1.min.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/vendor/dataTables.responsive-2.5.0.min.js' | relative_url }}" defer></script>
-<script src="{{ '/assets/vendor/jquery.sparkline-2.4.0.min.js' | relative_url }}" defer></script>
+<!-- NOTE: Removed jQuery Sparkline include -->
 <script src="{{ '/assets/vendor/d3.v7.min.js' | relative_url }}" defer></script>
 
 <!-- Main Script -->
@@ -177,7 +160,10 @@ description: Explore prolific authors and their contributions across Learning to
   let authorTable;
 
   fetch('author_stats.json')
-    .then(res => res.json())
+    .then(res => {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
     .then(data => {
       authorData = data;
       $('#loading').hide();
@@ -279,9 +265,7 @@ description: Explore prolific authors and their contributions across Learning to
     authorTable = $('#author-table').DataTable({
       data: rows,
       dom: 'Bfrtip',
-      buttons: [
-        { extend: 'colvis', text: 'Columns' }
-      ],
+      buttons: [{ extend: 'colvis', text: 'Columns' }],
       responsive: {
         breakpoints: [
           { name: 'xl', width: Infinity },
@@ -321,28 +305,37 @@ description: Explore prolific authors and their contributions across Learning to
       ]
     });
 
-    /* ---------- Sparkline helpers ---------- */
+    /* ---------- Sparkline helpers (pure D3 inline SVG) ---------- */
     function initSparkline($el) {
       const valuesAttr = $el.attr('data-values') || '';
       const values = valuesAttr.split(',').filter(Boolean).map(Number);
       const years = ($el.attr('data-years') || '').split(',');
 
-      const computed = $el.width() || 0;
-      const width = Math.max(computed, values.length * 9, 80);
+      if (!values.length) { $el.empty(); return; }
 
-      $el.sparkline(values, {
-        type: 'bar',
-        width: width,
-        height: '30px',
-        barWidth: 7,
-        barSpacing: 2,
-        tooltipFormatter: (sp, options, fields) => {
-          const idx = fields[0].offset;
-          const val = fields[0].value;
-          const year = years[idx] || 'Unknown';
-          return `${val} papers in ${year}`;
-        }
-      });
+      const barW = 7;      // bar width
+      const barGap = 2;    // gap between bars
+      const height = 30;   // fixed height
+      const width = Math.max(values.length * (barW + barGap) - barGap, 80);
+
+      $el.empty();
+      const svg = d3.select($el[0]).append('svg')
+        .attr('width', width)
+        .attr('height', height);
+
+      const maxV = d3.max(values) || 1;
+      const y = d3.scaleLinear().domain([0, maxV]).range([height - 1, 1]);
+
+      svg.selectAll('rect')
+        .data(values)
+        .enter()
+        .append('rect')
+        .attr('x', (_, i) => i * (barW + barGap))
+        .attr('y', d => y(d))
+        .attr('width', barW)
+        .attr('height', d => Math.max(1, height - y(d)))
+        .append('title')
+        .text((d, i) => `${d} papers in ${years[i] || 'Unknown'}`);
     }
 
     function drawSparks(scope) {
@@ -428,7 +421,7 @@ description: Explore prolific authors and their contributions across Learning to
   }
 
   function showNetwork(author) {
-    $('#network-modal, #network-legend').fadeIn(200);
+    $('#network-modal').fadeIn(200);
     $('#network-svg').data('current-author', author);
     const svg = d3.select('#network-svg');
     svg.selectAll('*').remove();
@@ -527,6 +520,18 @@ description: Explore prolific authors and their contributions across Learning to
     }, 500);
   }
 
-  document.getElementById('modal-close').addEventListener('click', () => $('#network-modal, #network-legend').fadeOut(200));
-  document.getElementById('papers-close').addEventListener('click', () => $('#papers-modal').hide());
+  // Modal close handlers (ESC & buttons)
+  function hideModals() {
+    $('#network-modal').fadeOut(200);
+    $('#papers-modal').hide();
+  }
+  document.getElementById('modal-close').addEventListener('click', hideModals);
+  document.getElementById('papers-close').addEventListener('click', hideModals);
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') hideModals(); });
+  // Click outside to close
+  ['network-modal','papers-modal'].forEach(id => {
+    document.getElementById(id).addEventListener('click', (e) => {
+      if (e.target.id === id) hideModals();
+    });
+  });
 </script>
