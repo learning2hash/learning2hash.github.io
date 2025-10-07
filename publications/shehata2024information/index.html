@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/shehata2024information/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Information Retrieval With Entity Linking" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Despite the advantages of their low-resource settings, traditional sparse retrievers depend on exact matching approaches between high-dimensional bag-of-words (BoW) representations of both the queries and the collection. As a result, retrieval performance is restricted by semantic discrepancies and vocabulary gaps. On the other hand, transformer-based dense retrievers introduce significant improvements in information retrieval tasks by exploiting low-dimensional contextualized representations of the corpus. While dense retrievers are known for their relative effectiveness, they suffer from lower efficiency and lack of generalization issues, when compared to sparse retrievers. For a lightweight retrieval task, high computational resources and time consumption are major barriers encouraging the renunciation of dense models despite potential gains. In this work, I propose boosting the performance of sparse retrievers by expanding both the queries and the documents with linked entities in two formats for the entity names: 1) explicit and 2) hashed. A zero-shot end-to-end dense entity linking system is employed for entity recognition and disambiguation to augment the corpus. By leveraging the advanced entity linking methods, I believe that the effectiveness gap between sparse and dense retrievers can be narrowed. Experiments are conducted on the MS MARCO passage dataset using the original qrel set, the re-ranked qrels favoured by MonoT5 and the latter set further re-ranked by DuoT5. Since I am concerned with the early stage retrieval in cascaded ranking architectures of large information retrieval systems, the results are evaluated using recall@1000. The suggested approach is also capable of retrieving documents for query subsets judged to be particularly difficult in prior work.","headline":"Information Retrieval With Entity Linking","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shehata2024information/"},"url":"https://learning2hash.github.io/publications/shehata2024information/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Despite the advantages of their low-resource settings, traditional sparse retrievers depend on exact matching approaches between high-dimensional bag-of-words (BoW) representations of both the queries and the collection. As a result, retrieval performance is restricted by semantic discrepancies and vocabulary gaps. On the other hand, transformer-based dense retrievers introduce significant improvements in information retrieval tasks by exploiting low-dimensional contextualized representations of the corpus. While dense retrievers are known for their relative effectiveness, they suffer from lower efficiency and lack of generalization issues, when compared to sparse retrievers. For a lightweight retrieval task, high computational resources and time consumption are major barriers encouraging the renunciation of dense models despite potential gains. In this work, I propose boosting the performance of sparse retrievers by expanding both the queries and the documents with linked entities in two formats for the entity names: 1) explicit and 2) hashed. A zero-shot end-to-end dense entity linking system is employed for entity recognition and disambiguation to augment the corpus. By leveraging the advanced entity linking methods, I believe that the effectiveness gap between sparse and dense retrievers can be narrowed. Experiments are conducted on the MS MARCO passage dataset using the original qrel set, the re-ranked qrels favoured by MonoT5 and the latter set further re-ranked by DuoT5. Since I am concerned with the early stage retrieval in cascaded ranking architectures of large information retrieval systems, the results are evaluated using recall@1000. The suggested approach is also capable of retrieving documents for query subsets judged to be particularly difficult in prior work.","headline":"Information Retrieval With Entity Linking","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shehata2024information/"},"url":"https://learning2hash.github.io/publications/shehata2024information/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </h5>
 
-  <!-- Minimal Inline Share Buttons -->
+  <!-- Inline Share Buttons -->
   <div class="share-buttons">
     <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
       <img src="/public/media/x.svg" alt="X (Twitter) icon">
@@ -189,8 +189,12 @@ document.addEventListener('DOMContentLoaded', function () {
     <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
       <img src="/public/media/linkedin.svg" alt="LinkedIn icon">
     </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon">
+    <button id="share-copy" class="icon-btn copy-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+      </svg>
+      <span class="copy-label">Copy</span>
     </button>
   </div>
 
@@ -247,10 +251,9 @@ query subsets judged to be particularly difficult in prior work.</p>
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Load similar work dynamically
-      var relwork = document.getElementById('relwork');
+      const relwork = document.getElementById('relwork');
       if (relwork) {
-        var metaPath = "/publications-metadata/shehata2024information.json";
+        const metaPath = "/publications-metadata/shehata2024information.json";
         fetch(metaPath, { credentials: 'same-origin' })
           .then(res => {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -265,7 +268,6 @@ query subsets judged to be particularly difficult in prior work.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // ------- Share logic with auto-written post text -------
       const meta = {
         title: "Information Retrieval With Entity Linking",
         conference: "Arxiv",
@@ -274,21 +276,17 @@ query subsets judged to be particularly difficult in prior work.</p>
       };
 
       const pageUrl = encodeURIComponent(window.location.href);
-
-      // Compose tweet text: Title — Conference (Year)
       let tweetText = `New paper: ${meta.title}`;
       if (meta.conference) tweetText += ` — ${meta.conference}`;
       if (meta.year) tweetText += ` (${meta.year})`;
       tweetText += ` 🔍`;
 
-      // Build up to 3 hashtags from tags (alnum only)
       const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
         .slice(0, 3)
         .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
         .filter(Boolean)
         .join(',');
 
-      // Buttons
       const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
       const copyBtn     = document.getElementById('share-copy');
@@ -327,45 +325,70 @@ query subsets judged to be particularly difficult in prior work.</p>
   <style>
     .share-buttons {
       display: flex;
-      gap: 6px;
+      gap: 8px;
       align-items: center;
       margin: 0.4em 0 1em 0;
       opacity: 0.9;
       flex-wrap: wrap;
     }
 
-    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
       appearance: none;
-      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      width: 34px;              /* square button for perfect centering */
-      height: 34px;
-      padding: 0;               /* kill extra space */
-      display: inline-flex;     /* avoids baseline quirks */
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      vertical-align: middle;   /* aligns nicely with text */
-      line-height: 1;           /* prevents extra line box height */
-      overflow: hidden;         /* hides stray SVG whitespace */
+      vertical-align: middle;
       cursor: pointer;
-      transition: background 0.15s ease, opacity 0.15s ease;
+      transition: background 0.15s ease, transform 0.15s ease;
+      position: relative;
     }
 
-    .icon-btn img {
-      display: block;           /* removes bottom whitespace under images */
+    /* Nudge icon slightly down for visual centering */
+    .icon-btn img,
+    .icon-btn svg {
+      display: block;
+      margin-top: 2px;
       width: 18px;
       height: 18px;
+      opacity: 0.75;
       object-fit: contain;
       object-position: center;
-      opacity: 0.7;
     }
 
-    .icon-btn:hover { background: #e9e9e9; }
-    .icon-btn:hover img { opacity: 1; }
-    .icon-btn.copied { background: #d9f7e6; }
+    /* Copy button label */
+    .copy-btn {
+      width: auto;
+      padding: 0 10px;
+      flex-direction: row;
+      gap: 6px;
+    }
+
+    .copy-btn .copy-label {
+      font-size: 0.85em;
+      font-weight: 500;
+      color: #333;
+      user-select: none;
+    }
+
+    .icon-btn:hover {
+      background: #e9e9e9;
+      transform: translateY(-1px);
+    }
+
+    .icon-btn:hover img,
+    .icon-btn:hover svg {
+      opacity: 1;
+    }
+
+    .icon-btn.copied {
+      background: #d9f7e6;
+    }
   </style>
 </div>
 

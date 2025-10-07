@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/qian2015fine/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-06T14:11:22-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Fine-grained Visual Categorization Via Multi-stage Metric Learning" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-06T14:11:22-05:00","datePublished":"2025-10-06T14:11:22-05:00","description":"Fine-grained visual categorization (FGVC) is to categorize objects into subordinate classes instead of basic classes. One major challenge in FGVC is the co-occurrence of two issues: 1) many subordinate classes are highly correlated and are difficult to distinguish, and 2) there exists the large intra-class variation (e.g., due to object pose). This paper proposes to explicitly address the above two issues via distance metric learning (DML). DML addresses the first issue by learning an embedding so that data points from the same class will be pulled together while those from different classes should be pushed apart from each other; and it addresses the second issue by allowing the flexibility that only a portion of the neighbors (not all data points) from the same class need to be pulled together. However, feature representation of an image is often high dimensional, and DML is known to have difficulty in dealing with high dimensional feature vectors since it would require (\\mathcal{O}(d^2)) for storage and (\\mathcal{O}(d^3)) for optimization. To this end, we proposed a multi-stage metric learning framework that divides the large-scale high dimensional learning problem to a series of simple subproblems, achieving (\\mathcal{O}(d)) computational complexity. The empirical study with FVGC benchmark datasets verifies that our method is both effective and efficient compared to the state-of-the-art FGVC approaches.","headline":"Fine-grained Visual Categorization Via Multi-stage Metric Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/qian2015fine/"},"url":"https://learning2hash.github.io/publications/qian2015fine/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Fine-grained visual categorization (FGVC) is to categorize objects into subordinate classes instead of basic classes. One major challenge in FGVC is the co-occurrence of two issues: 1) many subordinate classes are highly correlated and are difficult to distinguish, and 2) there exists the large intra-class variation (e.g., due to object pose). This paper proposes to explicitly address the above two issues via distance metric learning (DML). DML addresses the first issue by learning an embedding so that data points from the same class will be pulled together while those from different classes should be pushed apart from each other; and it addresses the second issue by allowing the flexibility that only a portion of the neighbors (not all data points) from the same class need to be pulled together. However, feature representation of an image is often high dimensional, and DML is known to have difficulty in dealing with high dimensional feature vectors since it would require (\\mathcal{O}(d^2)) for storage and (\\mathcal{O}(d^3)) for optimization. To this end, we proposed a multi-stage metric learning framework that divides the large-scale high dimensional learning problem to a series of simple subproblems, achieving (\\mathcal{O}(d)) computational complexity. The empirical study with FVGC benchmark datasets verifies that our method is both effective and efficient compared to the state-of-the-art FGVC approaches.","headline":"Fine-grained Visual Categorization Via Multi-stage Metric Learning","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/qian2015fine/"},"url":"https://learning2hash.github.io/publications/qian2015fine/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -181,7 +181,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
   </h5>
 
-  <!-- Minimal Inline Share Buttons -->
+  <!-- Inline Share Buttons -->
   <div class="share-buttons">
     <button id="share-twitter" class="icon-btn" title="Share on X (Twitter)" aria-label="Share on X (Twitter)">
       <img src="/public/media/x.svg" alt="X (Twitter) icon">
@@ -189,8 +189,12 @@ document.addEventListener('DOMContentLoaded', function () {
     <button id="share-linkedin" class="icon-btn" title="Share on LinkedIn" aria-label="Share on LinkedIn">
       <img src="/public/media/linkedin.svg" alt="LinkedIn icon">
     </button>
-    <button id="share-copy" class="icon-btn" title="Copy Link" aria-label="Copy link to clipboard">
-      <img src="/public/media/link.svg" alt="Copy link icon">
+    <button id="share-copy" class="icon-btn copy-btn" title="Copy Link" aria-label="Copy link to clipboard">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+      </svg>
+      <span class="copy-label">Copy</span>
     </button>
   </div>
 
@@ -246,10 +250,9 @@ compared to the state-of-the-art FGVC approaches.</p>
 
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-      // Load similar work dynamically
-      var relwork = document.getElementById('relwork');
+      const relwork = document.getElementById('relwork');
       if (relwork) {
-        var metaPath = "/publications-metadata/qian2015fine.json";
+        const metaPath = "/publications-metadata/qian2015fine.json";
         fetch(metaPath, { credentials: 'same-origin' })
           .then(res => {
             if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -264,7 +267,6 @@ compared to the state-of-the-art FGVC approaches.</p>
           .catch(err => console.warn("Failed to load similar work JSON:", err));
       }
 
-      // ------- Share logic with auto-written post text -------
       const meta = {
         title: "Fine-grained Visual Categorization Via Multi-stage Metric Learning",
         conference: "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
@@ -273,21 +275,17 @@ compared to the state-of-the-art FGVC approaches.</p>
       };
 
       const pageUrl = encodeURIComponent(window.location.href);
-
-      // Compose tweet text: Title — Conference (Year)
       let tweetText = `New paper: ${meta.title}`;
       if (meta.conference) tweetText += ` — ${meta.conference}`;
       if (meta.year) tweetText += ` (${meta.year})`;
       tweetText += ` 🔍`;
 
-      // Build up to 3 hashtags from tags (alnum only)
       const hashtags = (Array.isArray(meta.tags) ? meta.tags : [])
         .slice(0, 3)
         .map(t => String(t).replace(/[^A-Za-z0-9]/g, ''))
         .filter(Boolean)
         .join(',');
 
-      // Buttons
       const twitterBtn  = document.getElementById('share-twitter');
       const linkedinBtn = document.getElementById('share-linkedin');
       const copyBtn     = document.getElementById('share-copy');
@@ -326,45 +324,70 @@ compared to the state-of-the-art FGVC approaches.</p>
   <style>
     .share-buttons {
       display: flex;
-      gap: 6px;
+      gap: 8px;
       align-items: center;
       margin: 0.4em 0 1em 0;
       opacity: 0.9;
       flex-wrap: wrap;
     }
 
-    /* >>> Updated: remove baseline gap & lock square buttons <<< */
     .icon-btn {
       appearance: none;
-      -webkit-appearance: none;
       background: #f8f8f8;
       border: none;
       border-radius: 8px;
-      width: 34px;              /* square button for perfect centering */
-      height: 34px;
-      padding: 0;               /* kill extra space */
-      display: inline-flex;     /* avoids baseline quirks */
+      width: 38px;
+      height: 38px;
+      display: inline-flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
-      vertical-align: middle;   /* aligns nicely with text */
-      line-height: 1;           /* prevents extra line box height */
-      overflow: hidden;         /* hides stray SVG whitespace */
+      vertical-align: middle;
       cursor: pointer;
-      transition: background 0.15s ease, opacity 0.15s ease;
+      transition: background 0.15s ease, transform 0.15s ease;
+      position: relative;
     }
 
-    .icon-btn img {
-      display: block;           /* removes bottom whitespace under images */
+    /* Nudge icon slightly down for visual centering */
+    .icon-btn img,
+    .icon-btn svg {
+      display: block;
+      margin-top: 2px;
       width: 18px;
       height: 18px;
+      opacity: 0.75;
       object-fit: contain;
       object-position: center;
-      opacity: 0.7;
     }
 
-    .icon-btn:hover { background: #e9e9e9; }
-    .icon-btn:hover img { opacity: 1; }
-    .icon-btn.copied { background: #d9f7e6; }
+    /* Copy button label */
+    .copy-btn {
+      width: auto;
+      padding: 0 10px;
+      flex-direction: row;
+      gap: 6px;
+    }
+
+    .copy-btn .copy-label {
+      font-size: 0.85em;
+      font-weight: 500;
+      color: #333;
+      user-select: none;
+    }
+
+    .icon-btn:hover {
+      background: #e9e9e9;
+      transform: translateY(-1px);
+    }
+
+    .icon-btn:hover img,
+    .icon-btn:hover svg {
+      opacity: 1;
+    }
+
+    .icon-btn.copied {
+      background: #d9f7e6;
+    }
   </style>
 </div>
 
