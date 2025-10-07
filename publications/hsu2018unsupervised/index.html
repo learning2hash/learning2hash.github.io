@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/hsu2018unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unsupervised Multimodal Representation Learning Across Medical Images And Reports" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Joint embeddings between medical imaging modalities and associated radiology reports have the potential to offer significant benefits to the clinical community, ranging from cross-domain retrieval to conditional generation of reports to the broader goals of multimodal representation learning. In this work, we establish baseline joint embedding results measured via both local and global retrieval methods on the soon to be released MIMIC-CXR dataset consisting of both chest X-ray images and the associated radiology reports. We examine both supervised and unsupervised methods on this task and show that for document retrieval tasks with the learned representations, only a limited amount of supervision is needed to yield results comparable to those of fully-supervised methods.","headline":"Unsupervised Multimodal Representation Learning Across Medical Images And Reports","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hsu2018unsupervised/"},"url":"https://learning2hash.github.io/publications/hsu2018unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Joint embeddings between medical imaging modalities and associated radiology reports have the potential to offer significant benefits to the clinical community, ranging from cross-domain retrieval to conditional generation of reports to the broader goals of multimodal representation learning. In this work, we establish baseline joint embedding results measured via both local and global retrieval methods on the soon to be released MIMIC-CXR dataset consisting of both chest X-ray images and the associated radiology reports. We examine both supervised and unsupervised methods on this task and show that for document retrieval tasks with the learned representations, only a limited amount of supervision is needed to yield results comparable to those of fully-supervised methods.","headline":"Unsupervised Multimodal Representation Learning Across Medical Images And Reports","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/hsu2018unsupervised/"},"url":"https://learning2hash.github.io/publications/hsu2018unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -329,21 +329,20 @@ fully-supervised methods.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -351,8 +350,10 @@ fully-supervised methods.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -361,6 +362,7 @@ fully-supervised methods.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

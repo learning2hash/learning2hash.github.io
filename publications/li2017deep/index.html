@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/li2017deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Supervised Discrete Hashing" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"With the rapid growth of image and video data on the web, hashing has been extensively studied for image or video search in recent years. Benefit from recent advances in deep learning, deep hashing methods have achieved promising results for image retrieval. However, there are some limitations of previous deep hashing methods (e.g., the semantic information is not fully exploited). In this paper, we develop a deep supervised discrete hashing algorithm based on the assumption that the learned binary codes should be ideal for classification. Both the pairwise label information and the classification information are used to learn the hash codes within one stream framework. We constrain the outputs of the last layer to be binary codes directly, which is rarely investigated in deep hashing algorithm. Because of the discrete nature of hash codes, an alternating minimization method is used to optimize the objective function. Experimental results have shown that our method outperforms current state-of-the-art methods on benchmark datasets.","headline":"Deep Supervised Discrete Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2017deep/"},"url":"https://learning2hash.github.io/publications/li2017deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"With the rapid growth of image and video data on the web, hashing has been extensively studied for image or video search in recent years. Benefit from recent advances in deep learning, deep hashing methods have achieved promising results for image retrieval. However, there are some limitations of previous deep hashing methods (e.g., the semantic information is not fully exploited). In this paper, we develop a deep supervised discrete hashing algorithm based on the assumption that the learned binary codes should be ideal for classification. Both the pairwise label information and the classification information are used to learn the hash codes within one stream framework. We constrain the outputs of the last layer to be binary codes directly, which is rarely investigated in deep hashing algorithm. Because of the discrete nature of hash codes, an alternating minimization method is used to optimize the objective function. Experimental results have shown that our method outperforms current state-of-the-art methods on benchmark datasets.","headline":"Deep Supervised Discrete Hashing","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/li2017deep/"},"url":"https://learning2hash.github.io/publications/li2017deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -342,21 +342,20 @@ current state-of-the-art methods on benchmark datasets.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -364,8 +363,10 @@ current state-of-the-art methods on benchmark datasets.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -374,6 +375,7 @@ current state-of-the-art methods on benchmark datasets.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

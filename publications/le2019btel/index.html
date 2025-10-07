@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/le2019btel/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="BTEL: A Binary Tree Encoding Approach For Visual Localization" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Visual localization algorithms have achieved significant improvements in performance thanks to recent advances in camera technology and vision-based techniques. However, there remains one critical caveat: all current approaches that are based on image retrieval currently scale at best linearly with the size of the environment with respect to both storage, and consequentially in most approaches, query time. This limitation severely curtails the capability of autonomous systems in a wide range of compute, power, storage, size, weight or cost constrained applications such as drones. In this work, we present a novel binary tree encoding approach for visual localization which can serve as an alternative for existing quantization and indexing techniques. The proposed tree structure allows us to derive a compressed training scheme that achieves sub-linearity in both required storage and inference time. The encoding memory can be easily configured to satisfy different storage constraints. Moreover, our approach is amenable to an optional sequence filtering mechanism to further improve the localization results, while maintaining the same amount of storage. Our system is entirely agnostic to the front-end descriptors, allowing it to be used on top of recent state-of-the-art image representations. Experimental results show that the proposed method significantly outperforms state-of-the-art approaches under limited storage constraints.","headline":"BTEL: A Binary Tree Encoding Approach For Visual Localization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/le2019btel/"},"url":"https://learning2hash.github.io/publications/le2019btel/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Visual localization algorithms have achieved significant improvements in performance thanks to recent advances in camera technology and vision-based techniques. However, there remains one critical caveat: all current approaches that are based on image retrieval currently scale at best linearly with the size of the environment with respect to both storage, and consequentially in most approaches, query time. This limitation severely curtails the capability of autonomous systems in a wide range of compute, power, storage, size, weight or cost constrained applications such as drones. In this work, we present a novel binary tree encoding approach for visual localization which can serve as an alternative for existing quantization and indexing techniques. The proposed tree structure allows us to derive a compressed training scheme that achieves sub-linearity in both required storage and inference time. The encoding memory can be easily configured to satisfy different storage constraints. Moreover, our approach is amenable to an optional sequence filtering mechanism to further improve the localization results, while maintaining the same amount of storage. Our system is entirely agnostic to the front-end descriptors, allowing it to be used on top of recent state-of-the-art image representations. Experimental results show that the proposed method significantly outperforms state-of-the-art approaches under limited storage constraints.","headline":"BTEL: A Binary Tree Encoding Approach For Visual Localization","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/le2019btel/"},"url":"https://learning2hash.github.io/publications/le2019btel/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -337,21 +337,20 @@ state-of-the-art approaches under limited storage constraints.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -359,8 +358,10 @@ state-of-the-art approaches under limited storage constraints.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -369,6 +370,7 @@ state-of-the-art approaches under limited storage constraints.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

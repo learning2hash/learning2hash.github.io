@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/svenstrup2017hash/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hash Embeddings For Efficient Word Representations" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"We present hash embeddings, an efficient method for representing words in a continuous vector form. A hash embedding may be seen as an interpolation between a standard word embedding and a word embedding created using a random hash function (the hashing trick). In hash embeddings each token is represented by (k) (d)-dimensional embeddings vectors and one (k) dimensional weight vector. The final (d) dimensional representation of the token is the product of the two. Rather than fitting the embedding vectors for each token these are selected by the hashing trick from a shared pool of (B) embedding vectors. Our experiments show that hash embeddings can easily deal with huge vocabularies consisting of millions of tokens. When using a hash embedding there is no need to create a dictionary before training nor to perform any kind of vocabulary pruning after training. We show that models trained using hash embeddings exhibit at least the same level of performance as models trained using regular embeddings across a wide range of tasks. Furthermore, the number of parameters needed by such an embedding is only a fraction of what is required by a regular embedding. Since standard embeddings and embeddings constructed using the hashing trick are actually just special cases of a hash embedding, hash embeddings can be considered an extension and improvement over the existing regular embedding types.","headline":"Hash Embeddings For Efficient Word Representations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/svenstrup2017hash/"},"url":"https://learning2hash.github.io/publications/svenstrup2017hash/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"We present hash embeddings, an efficient method for representing words in a continuous vector form. A hash embedding may be seen as an interpolation between a standard word embedding and a word embedding created using a random hash function (the hashing trick). In hash embeddings each token is represented by (k) (d)-dimensional embeddings vectors and one (k) dimensional weight vector. The final (d) dimensional representation of the token is the product of the two. Rather than fitting the embedding vectors for each token these are selected by the hashing trick from a shared pool of (B) embedding vectors. Our experiments show that hash embeddings can easily deal with huge vocabularies consisting of millions of tokens. When using a hash embedding there is no need to create a dictionary before training nor to perform any kind of vocabulary pruning after training. We show that models trained using hash embeddings exhibit at least the same level of performance as models trained using regular embeddings across a wide range of tasks. Furthermore, the number of parameters needed by such an embedding is only a fraction of what is required by a regular embedding. Since standard embeddings and embeddings constructed using the hashing trick are actually just special cases of a hash embedding, hash embeddings can be considered an extension and improvement over the existing regular embedding types.","headline":"Hash Embeddings For Efficient Word Representations","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/svenstrup2017hash/"},"url":"https://learning2hash.github.io/publications/svenstrup2017hash/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -333,21 +333,20 @@ regular embedding types.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -355,8 +354,10 @@ regular embedding types.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -365,6 +366,7 @@ regular embedding types.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

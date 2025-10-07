@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/chakraborty2016local/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Local Gradient Hexa Pattern: A Descriptor For Face Recognition And Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Local descriptors used in face recognition are robust in a sense that these descriptors perform well in varying pose, illumination and lighting conditions. Accuracy of these descriptors depends on the precision of mapping the relationship that exists in the local neighborhood of a facial image into microstructures. In this paper a local gradient hexa pattern (LGHP) is proposed that identifies the relationship amongst the reference pixel and its neighboring pixels at different distances across different derivative directions. Discriminative information exists in the local neighborhood as well as in different derivative directions. Proposed descriptor effectively transforms these relationships into binary micropatterns discriminating interclass facial images with optimal precision. Recognition and retrieval performance of the proposed descriptor has been compared with state-of-the-art descriptors namely LDP and LVP over the most challenging and benchmark facial image databases, i.e. Cropped Extended Yale-B, CMU-PIE, color-FERET, and LFW. The proposed descriptor has better recognition as well as retrieval rates compared to state-of-the-art descriptors.","headline":"Local Gradient Hexa Pattern: A Descriptor For Face Recognition And Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chakraborty2016local/"},"url":"https://learning2hash.github.io/publications/chakraborty2016local/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Local descriptors used in face recognition are robust in a sense that these descriptors perform well in varying pose, illumination and lighting conditions. Accuracy of these descriptors depends on the precision of mapping the relationship that exists in the local neighborhood of a facial image into microstructures. In this paper a local gradient hexa pattern (LGHP) is proposed that identifies the relationship amongst the reference pixel and its neighboring pixels at different distances across different derivative directions. Discriminative information exists in the local neighborhood as well as in different derivative directions. Proposed descriptor effectively transforms these relationships into binary micropatterns discriminating interclass facial images with optimal precision. Recognition and retrieval performance of the proposed descriptor has been compared with state-of-the-art descriptors namely LDP and LVP over the most challenging and benchmark facial image databases, i.e. Cropped Extended Yale-B, CMU-PIE, color-FERET, and LFW. The proposed descriptor has better recognition as well as retrieval rates compared to state-of-the-art descriptors.","headline":"Local Gradient Hexa Pattern: A Descriptor For Face Recognition And Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/chakraborty2016local/"},"url":"https://learning2hash.github.io/publications/chakraborty2016local/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -328,21 +328,20 @@ compared to state-of-the-art descriptors.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -350,8 +349,10 @@ compared to state-of-the-art descriptors.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -360,6 +361,7 @@ compared to state-of-the-art descriptors.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

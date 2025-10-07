@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jacob2018leveraging/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Leveraging Implicit Spatial Information In Global Features For Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Most image retrieval methods use global features that aggregate local distinctive patterns into a single representation. However, the aggregation process destroys the relative spatial information by considering orderless sets of local descriptors. We propose to integrate relative spatial information into the aggregation process by taking into account co-occurrences of local patterns in a tensor framework. The resulting signature called Improved Spatial Tensor Aggregation (ISTA) is able to reach state of the art performances on well known datasets such as Holidays, Oxford5k and Paris6k.","headline":"Leveraging Implicit Spatial Information In Global Features For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jacob2018leveraging/"},"url":"https://learning2hash.github.io/publications/jacob2018leveraging/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Most image retrieval methods use global features that aggregate local distinctive patterns into a single representation. However, the aggregation process destroys the relative spatial information by considering orderless sets of local descriptors. We propose to integrate relative spatial information into the aggregation process by taking into account co-occurrences of local patterns in a tensor framework. The resulting signature called Improved Spatial Tensor Aggregation (ISTA) is able to reach state of the art performances on well known datasets such as Holidays, Oxford5k and Paris6k.","headline":"Leveraging Implicit Spatial Information In Global Features For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jacob2018leveraging/"},"url":"https://learning2hash.github.io/publications/jacob2018leveraging/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -324,21 +324,20 @@ datasets such as Holidays, Oxford5k and Paris6k.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -346,8 +345,10 @@ datasets such as Holidays, Oxford5k and Paris6k.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -356,6 +357,7 @@ datasets such as Holidays, Oxford5k and Paris6k.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

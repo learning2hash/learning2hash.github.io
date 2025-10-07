@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/clavi%C3%A92024reducing/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Reducing The Footprint Of Multi-vector Retrieval With Minimal Performance Impact Via Token Pooling" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Over the last few years, multi-vector retrieval methods, spearheaded by ColBERT, have become an increasingly popular approach to Neural IR. By storing representations at the token level rather than at the document level, these methods have demonstrated very strong retrieval performance, especially in out-of-domain settings. However, the storage and memory requirements necessary to store the large number of associated vectors remain an important drawback, hindering practical adoption. In this paper, we introduce a simple clustering-based token pooling approach to aggressively reduce the number of vectors that need to be stored. This method can reduce the space &amp; memory footprint of ColBERT indexes by 50% with virtually no retrieval performance degradation. This method also allows for further reductions, reducing the vector count by 66%-to-75% , with degradation remaining below 5% on a vast majority of datasets. Importantly, this approach requires no architectural change nor query-time processing, and can be used as a simple drop-in during indexation with any ColBERT-like model.","headline":"Reducing The Footprint Of Multi-vector Retrieval With Minimal Performance Impact Via Token Pooling","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/clavi%C3%A92024reducing/"},"url":"https://learning2hash.github.io/publications/clavi%C3%A92024reducing/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Over the last few years, multi-vector retrieval methods, spearheaded by ColBERT, have become an increasingly popular approach to Neural IR. By storing representations at the token level rather than at the document level, these methods have demonstrated very strong retrieval performance, especially in out-of-domain settings. However, the storage and memory requirements necessary to store the large number of associated vectors remain an important drawback, hindering practical adoption. In this paper, we introduce a simple clustering-based token pooling approach to aggressively reduce the number of vectors that need to be stored. This method can reduce the space &amp; memory footprint of ColBERT indexes by 50% with virtually no retrieval performance degradation. This method also allows for further reductions, reducing the vector count by 66%-to-75% , with degradation remaining below 5% on a vast majority of datasets. Importantly, this approach requires no architectural change nor query-time processing, and can be used as a simple drop-in during indexation with any ColBERT-like model.","headline":"Reducing The Footprint Of Multi-vector Retrieval With Minimal Performance Impact Via Token Pooling","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/clavi%C3%A92024reducing/"},"url":"https://learning2hash.github.io/publications/clavi%C3%A92024reducing/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -329,21 +329,20 @@ indexation with any ColBERT-like model.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -351,8 +350,10 @@ indexation with any ColBERT-like model.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -361,6 +362,7 @@ indexation with any ColBERT-like model.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

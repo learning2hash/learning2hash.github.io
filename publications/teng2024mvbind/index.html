@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/teng2024mvbind/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="MVBIND: Self-supervised Music Recommendation For Videos Via Embedding Space Binding" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Recent years have witnessed the rapid development of short videos, which usually contain both visual and audio modalities. Background music is important to the short videos, which can significantly influence the emotions of the viewers. However, at present, the background music of short videos is generally chosen by the video producer, and there is a lack of automatic music recommendation methods for short videos. This paper introduces MVBind, an innovative Music-Video embedding space Binding model for cross-modal retrieval. MVBind operates as a self-supervised approach, acquiring inherent knowledge of intermodal relationships directly from data, without the need of manual annotations. Additionally, to compensate the lack of a corresponding musical-visual pair dataset for short videos, we construct a dataset, SVM-10K(Short Video with Music-10K), which mainly consists of meticulously selected short videos. On this dataset, MVBind manifests significantly improved performance compared to other baseline methods. The constructed dataset and code will be released to facilitate future research.","headline":"MVBIND: Self-supervised Music Recommendation For Videos Via Embedding Space Binding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/teng2024mvbind/"},"url":"https://learning2hash.github.io/publications/teng2024mvbind/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Recent years have witnessed the rapid development of short videos, which usually contain both visual and audio modalities. Background music is important to the short videos, which can significantly influence the emotions of the viewers. However, at present, the background music of short videos is generally chosen by the video producer, and there is a lack of automatic music recommendation methods for short videos. This paper introduces MVBind, an innovative Music-Video embedding space Binding model for cross-modal retrieval. MVBind operates as a self-supervised approach, acquiring inherent knowledge of intermodal relationships directly from data, without the need of manual annotations. Additionally, to compensate the lack of a corresponding musical-visual pair dataset for short videos, we construct a dataset, SVM-10K(Short Video with Music-10K), which mainly consists of meticulously selected short videos. On this dataset, MVBind manifests significantly improved performance compared to other baseline methods. The constructed dataset and code will be released to facilitate future research.","headline":"MVBIND: Self-supervised Music Recommendation For Videos Via Embedding Space Binding","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/teng2024mvbind/"},"url":"https://learning2hash.github.io/publications/teng2024mvbind/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -337,21 +337,20 @@ code will be released to facilitate future research.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -359,8 +358,10 @@ code will be released to facilitate future research.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -369,6 +370,7 @@ code will be released to facilitate future research.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

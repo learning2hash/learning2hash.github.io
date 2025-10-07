@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/he2021unsupervised/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Unsupervised Domain-adaptive Hash For Networks" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Abundant real-world data can be naturally represented by large-scale networks, which demands efficient and effective learning algorithms. At the same time, labels may only be available for some networks, which demands these algorithms to be able to adapt to unlabeled networks. Domain-adaptive hash learning has enjoyed considerable success in the computer vision community in many practical tasks due to its lower cost in both retrieval time and storage footprint. However, it has not been applied to multiple-domain networks. In this work, we bridge this gap by developing an unsupervised domain-adaptive hash learning method for networks, dubbed UDAH. Specifically, we develop four {task-specific yet correlated} components: (1) network structure preservation via a hard groupwise contrastive loss, (2) relaxation-free supervised hashing, (3) cross-domain intersected discriminators, and (4) semantic center alignment. We conduct a wide range of experiments to evaluate the effectiveness and efficiency of our method on a range of tasks including link prediction, node classification, and neighbor recommendation. Our evaluation results demonstrate that our model achieves better performance than the state-of-the-art conventional discrete embedding methods over all the tasks.","headline":"Unsupervised Domain-adaptive Hash For Networks","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/he2021unsupervised/"},"url":"https://learning2hash.github.io/publications/he2021unsupervised/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Abundant real-world data can be naturally represented by large-scale networks, which demands efficient and effective learning algorithms. At the same time, labels may only be available for some networks, which demands these algorithms to be able to adapt to unlabeled networks. Domain-adaptive hash learning has enjoyed considerable success in the computer vision community in many practical tasks due to its lower cost in both retrieval time and storage footprint. However, it has not been applied to multiple-domain networks. In this work, we bridge this gap by developing an unsupervised domain-adaptive hash learning method for networks, dubbed UDAH. Specifically, we develop four {task-specific yet correlated} components: (1) network structure preservation via a hard groupwise contrastive loss, (2) relaxation-free supervised hashing, (3) cross-domain intersected discriminators, and (4) semantic center alignment. We conduct a wide range of experiments to evaluate the effectiveness and efficiency of our method on a range of tasks including link prediction, node classification, and neighbor recommendation. Our evaluation results demonstrate that our model achieves better performance than the state-of-the-art conventional discrete embedding methods over all the tasks.","headline":"Unsupervised Domain-adaptive Hash For Networks","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/he2021unsupervised/"},"url":"https://learning2hash.github.io/publications/he2021unsupervised/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -343,21 +343,20 @@ conventional discrete embedding methods over all the tasks.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -365,8 +364,10 @@ conventional discrete embedding methods over all the tasks.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -375,6 +376,7 @@ conventional discrete embedding methods over all the tasks.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

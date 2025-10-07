@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/manandhar2019semantic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Semantic Granularity Metric Learning For Visual Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Deep metric learning applied to various applications has shown promising results in identification, retrieval and recognition. Existing methods often do not consider different granularity in visual similarity. However, in many domain applications, images exhibit similarity at multiple granularities with visual semantic concepts, e.g. fashion demonstrates similarity ranging from clothing of the exact same instance to similar looks/design or a common category. Therefore, training image triplets/pairs used for metric learning inherently possess different degree of information. However, the existing methods often treats them with equal importance during training. This hinders capturing the underlying granularities in feature similarity required for effective visual search. In view of this, we propose a new deep semantic granularity metric learning (SGML) that develops a novel idea of leveraging attribute semantic space to capture different granularity of similarity, and then integrate this information into deep metric learning. The proposed method simultaneously learns image attributes and embeddings using multitask CNNs. The two tasks are not only jointly optimized but are further linked by the semantic granularity similarity mappings to leverage the correlations between the tasks. To this end, we propose a new soft-binomial deviance loss that effectively integrates the degree of information in training samples, which helps to capture visual similarity at multiple granularities. Compared to recent ensemble-based methods, our framework is conceptually elegant, computationally simple and provides better performance. We perform extensive experiments on benchmark metric learning datasets and demonstrate that our method outperforms recent state-of-the-art methods, e.g., 1-4.5% improvement in Recall@1 over the previous state-of-the-arts [1],[2] on DeepFashion In-Shop dataset.","headline":"Semantic Granularity Metric Learning For Visual Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/manandhar2019semantic/"},"url":"https://learning2hash.github.io/publications/manandhar2019semantic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Deep metric learning applied to various applications has shown promising results in identification, retrieval and recognition. Existing methods often do not consider different granularity in visual similarity. However, in many domain applications, images exhibit similarity at multiple granularities with visual semantic concepts, e.g. fashion demonstrates similarity ranging from clothing of the exact same instance to similar looks/design or a common category. Therefore, training image triplets/pairs used for metric learning inherently possess different degree of information. However, the existing methods often treats them with equal importance during training. This hinders capturing the underlying granularities in feature similarity required for effective visual search. In view of this, we propose a new deep semantic granularity metric learning (SGML) that develops a novel idea of leveraging attribute semantic space to capture different granularity of similarity, and then integrate this information into deep metric learning. The proposed method simultaneously learns image attributes and embeddings using multitask CNNs. The two tasks are not only jointly optimized but are further linked by the semantic granularity similarity mappings to leverage the correlations between the tasks. To this end, we propose a new soft-binomial deviance loss that effectively integrates the degree of information in training samples, which helps to capture visual similarity at multiple granularities. Compared to recent ensemble-based methods, our framework is conceptually elegant, computationally simple and provides better performance. We perform extensive experiments on benchmark metric learning datasets and demonstrate that our method outperforms recent state-of-the-art methods, e.g., 1-4.5% improvement in Recall@1 over the previous state-of-the-arts [1],[2] on DeepFashion In-Shop dataset.","headline":"Semantic Granularity Metric Learning For Visual Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/manandhar2019semantic/"},"url":"https://learning2hash.github.io/publications/manandhar2019semantic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -346,21 +346,20 @@ previous state-of-the-arts [1],[2] on DeepFashion In-Shop dataset.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -368,8 +367,10 @@ previous state-of-the-arts [1],[2] on DeepFashion In-Shop dataset.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -378,6 +379,7 @@ previous state-of-the-arts [1],[2] on DeepFashion In-Shop dataset.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

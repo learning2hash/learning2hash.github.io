@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/son2025fed/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="FED: Fast And Efficient Dataset Deduplication Framework With GPU Acceleration" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Dataset deduplication plays a crucial role in enhancing data quality, ultimately improving the training performance and efficiency of large language models. A commonly used method for data deduplication is the MinHash LSH algorithm. Recently, NVIDIA introduced a GPU-based MinHash LSH deduplication method, but it remains suboptimal, leaving room for further improvement in processing efficiency. This paper proposes a GPU-accelerated deduplication framework, FED, that optimizes MinHash LSH for GPU clusters and leverages computationally efficient, partially reusable non-cryptographic hash functions. FED significantly outperforms the CPU-based deduplication tool in SlimPajama (using 64 logical CPU cores) by up to 107.2 times and the GPU-based tool in NVIDIA NeMo Curator by up to 6.3 times when processing 30 million documents on a node with four GPUs. Notably, our method dramatically accelerates the previously time-consuming MinHash signature generation phase, achieving speed-ups of up to 260 compared to the CPU baseline. Despite these gains in efficiency, FED maintains high deduplication quality, with the duplicate document sets reaching a Jaccard similarity of over 0.96 compared to those identified by the standard MinHash algorithm. In large-scale experiments, the deduplication of 1.2 trillion tokens is completed in just 6 hours in a four-node, 16-GPU environment. The related code is publicly available on GitHub (\\href{https://github.com/mcrl/FED}{https://github.com/mcrl/FED}).","headline":"FED: Fast And Efficient Dataset Deduplication Framework With GPU Acceleration","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/son2025fed/"},"url":"https://learning2hash.github.io/publications/son2025fed/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Dataset deduplication plays a crucial role in enhancing data quality, ultimately improving the training performance and efficiency of large language models. A commonly used method for data deduplication is the MinHash LSH algorithm. Recently, NVIDIA introduced a GPU-based MinHash LSH deduplication method, but it remains suboptimal, leaving room for further improvement in processing efficiency. This paper proposes a GPU-accelerated deduplication framework, FED, that optimizes MinHash LSH for GPU clusters and leverages computationally efficient, partially reusable non-cryptographic hash functions. FED significantly outperforms the CPU-based deduplication tool in SlimPajama (using 64 logical CPU cores) by up to 107.2 times and the GPU-based tool in NVIDIA NeMo Curator by up to 6.3 times when processing 30 million documents on a node with four GPUs. Notably, our method dramatically accelerates the previously time-consuming MinHash signature generation phase, achieving speed-ups of up to 260 compared to the CPU baseline. Despite these gains in efficiency, FED maintains high deduplication quality, with the duplicate document sets reaching a Jaccard similarity of over 0.96 compared to those identified by the standard MinHash algorithm. In large-scale experiments, the deduplication of 1.2 trillion tokens is completed in just 6 hours in a four-node, 16-GPU environment. The related code is publicly available on GitHub (\\href{https://github.com/mcrl/FED}{https://github.com/mcrl/FED}).","headline":"FED: Fast And Efficient Dataset Deduplication Framework With GPU Acceleration","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/son2025fed/"},"url":"https://learning2hash.github.io/publications/son2025fed/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -346,21 +346,20 @@ four-node, 16-GPU environment. The related code is publicly available on GitHub
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -368,8 +367,10 @@ four-node, 16-GPU environment. The related code is publicly available on GitHub
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -378,6 +379,7 @@ four-node, 16-GPU environment. The related code is publicly available on GitHub
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

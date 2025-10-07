@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/su2021hard/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Hard Example Guided Hashing For Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Compared with the traditional hashing methods, deep hashing methods generate hash codes with rich semantic information and greatly improves the performances in the image retrieval field. However, it is unsatisfied for current deep hashing methods to predict the similarity of hard examples. It exists two main factors affecting the ability of learning hard examples, which are weak key features extraction and the shortage of hard examples. In this paper, we give a novel end-to-end model to extract the key feature from hard examples and obtain hash code with the accurate semantic information. In addition, we redesign a hard pair-wise loss function to assess the hard degree and update penalty weights of examples. It effectively alleviates the shortage problem in hard examples. Experimental results on CIFAR-10 and NUS-WIDE demonstrate that our model outperformances the mainstream hashing-based image retrieval methods.","headline":"Hard Example Guided Hashing For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/su2021hard/"},"url":"https://learning2hash.github.io/publications/su2021hard/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Compared with the traditional hashing methods, deep hashing methods generate hash codes with rich semantic information and greatly improves the performances in the image retrieval field. However, it is unsatisfied for current deep hashing methods to predict the similarity of hard examples. It exists two main factors affecting the ability of learning hard examples, which are weak key features extraction and the shortage of hard examples. In this paper, we give a novel end-to-end model to extract the key feature from hard examples and obtain hash code with the accurate semantic information. In addition, we redesign a hard pair-wise loss function to assess the hard degree and update penalty weights of examples. It effectively alleviates the shortage problem in hard examples. Experimental results on CIFAR-10 and NUS-WIDE demonstrate that our model outperformances the mainstream hashing-based image retrieval methods.","headline":"Hard Example Guided Hashing For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/su2021hard/"},"url":"https://learning2hash.github.io/publications/su2021hard/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -328,21 +328,20 @@ model outperformances the mainstream hashing-based image retrieval methods.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -350,8 +349,10 @@ model outperformances the mainstream hashing-based image retrieval methods.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -360,6 +361,7 @@ model outperformances the mainstream hashing-based image retrieval methods.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

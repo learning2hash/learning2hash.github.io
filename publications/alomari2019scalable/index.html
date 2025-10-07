@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/alomari2019scalable/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Scalable Source Code Similarity Detection In Large Code Repositories" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Source code similarity are increasingly used in application development to identify clones, isolate bugs, and find copy-rights violations. Similar code fragments can be very problematic due to the fact that errors in the original code must be fixed in every copy. Other maintenance changes, such as extensions or patches, must be applied multiple times. Furthermore, the diversity of coding styles and flexibility of modern languages makes it difficult and cost ineffective to manually inspect large code repositories. Therefore, detection is only feasible by automatic techniques. We present an efficient and scalable approach for similar code fragment identification based on source code control flow graphs fingerprinting. The source code is processed to generate control flow graphs that are then hashed to create a unique fingerprint of the code capturing semantics as well as syntax similarity. The fingerprints can then be efficiently stored and retrieved to perform similarity search between code fragments. Experimental results from our prototype implementation supports the validity of our approach and show its effectiveness and efficiency in comparison with other solutions.","headline":"Scalable Source Code Similarity Detection In Large Code Repositories","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/alomari2019scalable/"},"url":"https://learning2hash.github.io/publications/alomari2019scalable/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Source code similarity are increasingly used in application development to identify clones, isolate bugs, and find copy-rights violations. Similar code fragments can be very problematic due to the fact that errors in the original code must be fixed in every copy. Other maintenance changes, such as extensions or patches, must be applied multiple times. Furthermore, the diversity of coding styles and flexibility of modern languages makes it difficult and cost ineffective to manually inspect large code repositories. Therefore, detection is only feasible by automatic techniques. We present an efficient and scalable approach for similar code fragment identification based on source code control flow graphs fingerprinting. The source code is processed to generate control flow graphs that are then hashed to create a unique fingerprint of the code capturing semantics as well as syntax similarity. The fingerprints can then be efficiently stored and retrieved to perform similarity search between code fragments. Experimental results from our prototype implementation supports the validity of our approach and show its effectiveness and efficiency in comparison with other solutions.","headline":"Scalable Source Code Similarity Detection In Large Code Repositories","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/alomari2019scalable/"},"url":"https://learning2hash.github.io/publications/alomari2019scalable/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -332,21 +332,20 @@ comparison with other solutions.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -354,8 +353,10 @@ comparison with other solutions.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -364,6 +365,7 @@ comparison with other solutions.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

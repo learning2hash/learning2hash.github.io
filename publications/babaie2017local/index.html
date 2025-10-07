@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/babaie2017local/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Local Radon Descriptors For Image Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Radon transform and its inverse operation are important techniques in medical imaging tasks. Recently, there has been renewed interest in Radon transform for applications such as content-based medical image retrieval. However, all studies so far have used Radon transform as a global or quasi-global image descriptor by extracting projections of the whole image or large sub-images. This paper attempts to show that the dense sampling to generate the histogram of local Radon projections has a much higher discrimination capability than the global one. In this paper, we introduce Local Radon Descriptor (LRD) and apply it to the IRMA dataset, which contains 14,410 x-ray images as well as to the INRIA Holidays dataset with 1,990 images. Our results show significant improvement in retrieval performance by using LRD versus its global version. We also demonstrate that LRD can deliver results comparable to well-established descriptors like LBP and HOG.","headline":"Local Radon Descriptors For Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/babaie2017local/"},"url":"https://learning2hash.github.io/publications/babaie2017local/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Radon transform and its inverse operation are important techniques in medical imaging tasks. Recently, there has been renewed interest in Radon transform for applications such as content-based medical image retrieval. However, all studies so far have used Radon transform as a global or quasi-global image descriptor by extracting projections of the whole image or large sub-images. This paper attempts to show that the dense sampling to generate the histogram of local Radon projections has a much higher discrimination capability than the global one. In this paper, we introduce Local Radon Descriptor (LRD) and apply it to the IRMA dataset, which contains 14,410 x-ray images as well as to the INRIA Holidays dataset with 1,990 images. Our results show significant improvement in retrieval performance by using LRD versus its global version. We also demonstrate that LRD can deliver results comparable to well-established descriptors like LBP and HOG.","headline":"Local Radon Descriptors For Image Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/babaie2017local/"},"url":"https://learning2hash.github.io/publications/babaie2017local/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -329,21 +329,20 @@ descriptors like LBP and HOG.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -351,8 +350,10 @@ descriptors like LBP and HOG.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -361,6 +362,7 @@ descriptors like LBP and HOG.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

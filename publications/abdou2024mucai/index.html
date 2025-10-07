@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/abdou2024mucai/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Mucai At Wojoodner 2024: Arabic Named Entity Recognition With Nearest Neighbor Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Named Entity Recognition (NER) is a task in Natural Language Processing (NLP) that aims to identify and classify entities in text into predefined categories. However, when applied to Arabic data, NER encounters unique challenges stemming from the language’s rich morphological inflections, absence of capitalization cues, and spelling variants, where a single word can comprise multiple morphemes. In this paper, we introduce Arabic KNN-NER, our submission to the Wojood NER Shared Task 2024 (ArabicNLP 2024). We have participated in the shared sub-task 1 Flat NER. In this shared sub-task, we tackle fine-grained flat-entity recognition for Arabic text, where we identify a single main entity and possibly zero or multiple sub-entities for each word. Arabic KNN-NER augments the probability distribution of a fine-tuned model with another label probability distribution derived from performing a KNN search over the cached training data. Our submission achieved 91% on the test set on the WojoodFine dataset, placing Arabic KNN-NER on top of the leaderboard for the shared task.","headline":"Mucai At Wojoodner 2024: Arabic Named Entity Recognition With Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/abdou2024mucai/"},"url":"https://learning2hash.github.io/publications/abdou2024mucai/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Named Entity Recognition (NER) is a task in Natural Language Processing (NLP) that aims to identify and classify entities in text into predefined categories. However, when applied to Arabic data, NER encounters unique challenges stemming from the language’s rich morphological inflections, absence of capitalization cues, and spelling variants, where a single word can comprise multiple morphemes. In this paper, we introduce Arabic KNN-NER, our submission to the Wojood NER Shared Task 2024 (ArabicNLP 2024). We have participated in the shared sub-task 1 Flat NER. In this shared sub-task, we tackle fine-grained flat-entity recognition for Arabic text, where we identify a single main entity and possibly zero or multiple sub-entities for each word. Arabic KNN-NER augments the probability distribution of a fine-tuned model with another label probability distribution derived from performing a KNN search over the cached training data. Our submission achieved 91% on the test set on the WojoodFine dataset, placing Arabic KNN-NER on top of the leaderboard for the shared task.","headline":"Mucai At Wojoodner 2024: Arabic Named Entity Recognition With Nearest Neighbor Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/abdou2024mucai/"},"url":"https://learning2hash.github.io/publications/abdou2024mucai/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -328,21 +328,20 @@ dataset, placing Arabic KNN-NER on top of the leaderboard for the shared task.</
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -350,8 +349,10 @@ dataset, placing Arabic KNN-NER on top of the leaderboard for the shared task.</
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -360,6 +361,7 @@ dataset, placing Arabic KNN-NER on top of the leaderboard for the shared task.</
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

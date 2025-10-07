@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/yang2015beyond/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Beyond Classification: Latent User Interests Profiling From Visual Contents Analysis" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"User preference profiling is an important task in modern online social networks (OSN). With the proliferation of image-centric social platforms, such as Pinterest, visual contents have become one of the most informative data streams for understanding user preferences. Traditional approaches usually treat visual content analysis as a general classification problem where one or more labels are assigned to each image. Although such an approach simplifies the process of image analysis, it misses the rich context and visual cues that play an important role in people’s perception of images. In this paper, we explore the possibilities of learning a user’s latent visual preferences directly from image contents. We propose a distance metric learning method based on Deep Convolutional Neural Networks (CNN) to directly extract similarity information from visual contents and use the derived distance metric to mine individual users’ fine-grained visual preferences. Through our preliminary experiments using data from 5,790 Pinterest users, we show that even for the images within the same category, each user possesses distinct and individually-identifiable visual preferences that are consistent over their lifetime. Our results underscore the untapped potential of finer-grained visual preference profiling in understanding users’ preferences.","headline":"Beyond Classification: Latent User Interests Profiling From Visual Contents Analysis","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yang2015beyond/"},"url":"https://learning2hash.github.io/publications/yang2015beyond/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"User preference profiling is an important task in modern online social networks (OSN). With the proliferation of image-centric social platforms, such as Pinterest, visual contents have become one of the most informative data streams for understanding user preferences. Traditional approaches usually treat visual content analysis as a general classification problem where one or more labels are assigned to each image. Although such an approach simplifies the process of image analysis, it misses the rich context and visual cues that play an important role in people’s perception of images. In this paper, we explore the possibilities of learning a user’s latent visual preferences directly from image contents. We propose a distance metric learning method based on Deep Convolutional Neural Networks (CNN) to directly extract similarity information from visual contents and use the derived distance metric to mine individual users’ fine-grained visual preferences. Through our preliminary experiments using data from 5,790 Pinterest users, we show that even for the images within the same category, each user possesses distinct and individually-identifiable visual preferences that are consistent over their lifetime. Our results underscore the untapped potential of finer-grained visual preference profiling in understanding users’ preferences.","headline":"Beyond Classification: Latent User Interests Profiling From Visual Contents Analysis","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/yang2015beyond/"},"url":"https://learning2hash.github.io/publications/yang2015beyond/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -330,21 +330,20 @@ preference profiling in understanding users’ preferences.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -352,8 +351,10 @@ preference profiling in understanding users’ preferences.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -362,6 +363,7 @@ preference profiling in understanding users’ preferences.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

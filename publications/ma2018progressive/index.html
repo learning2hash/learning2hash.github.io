@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/ma2018progressive/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Progressive Generative Hashing For Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Recent years have witnessed the success of the emerging hashing techniques in large-scale image retrieval. Owing to the great learning capacity, deep hashing has become one of the most promising solutions, and achieved attractive performance in practice. However, without semantic label information, the unsupervised deep hashing still remains an open question. In this paper, we propose a novel progressive generative hashing (PGH) framework to help learn a discriminative hashing network in an unsupervised way. Different from existing studies, it first treats the hash codes as a kind of semantic condition for the similar image generation, and simultaneously feeds the original image and its codes into the generative adversarial networks (GANs). The real images together with the synthetic ones can further help train a discriminative hashing network based on a triplet loss. By iteratively inputting the learnt codes into the hash conditioned GANs, we can progressively enable the hashing network to discover the semantic relations. Extensive experiments on the widely-used image datasets demonstrate that PGH can significantly outperform stateof-the-art unsupervised hashing methods.","headline":"Progressive Generative Hashing For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ma2018progressive/"},"url":"https://learning2hash.github.io/publications/ma2018progressive/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Recent years have witnessed the success of the emerging hashing techniques in large-scale image retrieval. Owing to the great learning capacity, deep hashing has become one of the most promising solutions, and achieved attractive performance in practice. However, without semantic label information, the unsupervised deep hashing still remains an open question. In this paper, we propose a novel progressive generative hashing (PGH) framework to help learn a discriminative hashing network in an unsupervised way. Different from existing studies, it first treats the hash codes as a kind of semantic condition for the similar image generation, and simultaneously feeds the original image and its codes into the generative adversarial networks (GANs). The real images together with the synthetic ones can further help train a discriminative hashing network based on a triplet loss. By iteratively inputting the learnt codes into the hash conditioned GANs, we can progressively enable the hashing network to discover the semantic relations. Extensive experiments on the widely-used image datasets demonstrate that PGH can significantly outperform stateof-the-art unsupervised hashing methods.","headline":"Progressive Generative Hashing For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/ma2018progressive/"},"url":"https://learning2hash.github.io/publications/ma2018progressive/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -351,21 +351,20 @@ to discover the semantic relations. Extensive experiments on the widely-used ima
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -373,8 +372,10 @@ to discover the semantic relations. Extensive experiments on the widely-used ima
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -383,6 +384,7 @@ to discover the semantic relations. Extensive experiments on the widely-used ima
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

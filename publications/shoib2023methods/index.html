@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/shoib2023methods/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Methods And Advancement Of Content-based Fashion Image Retrieval: A Review" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Content-based fashion image retrieval (CBFIR) has been widely used in our daily life for searching fashion images or items from online platforms. In e-commerce purchasing, the CBFIR system can retrieve fashion items or products with the same or comparable features when a consumer uploads a reference image, image with text, sketch or visual stream from their daily life. This lowers the CBFIR system reliance on text and allows for a more accurate and direct searching of the desired fashion product. Considering recent developments, CBFIR still has limits when it comes to visual searching in the real world due to the simultaneous availability of multiple fashion items, occlusion of fashion products, and shape deformation. This paper focuses on CBFIR methods with the guidance of images, images with text, sketches, and videos. Accordingly, we categorized CBFIR methods into four main categories, i.e., image-guided CBFIR (with the addition of attributes and styles), image and text-guided, sketch-guided, and video-guided CBFIR methods. The baseline methodologies have been thoroughly analyzed, and the most recent developments in CBFIR over the past six years (2017 to 2022) have been thoroughly examined. Finally, key issues are highlighted for CBFIR with promising directions for future research.","headline":"Methods And Advancement Of Content-based Fashion Image Retrieval: A Review","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shoib2023methods/"},"url":"https://learning2hash.github.io/publications/shoib2023methods/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Content-based fashion image retrieval (CBFIR) has been widely used in our daily life for searching fashion images or items from online platforms. In e-commerce purchasing, the CBFIR system can retrieve fashion items or products with the same or comparable features when a consumer uploads a reference image, image with text, sketch or visual stream from their daily life. This lowers the CBFIR system reliance on text and allows for a more accurate and direct searching of the desired fashion product. Considering recent developments, CBFIR still has limits when it comes to visual searching in the real world due to the simultaneous availability of multiple fashion items, occlusion of fashion products, and shape deformation. This paper focuses on CBFIR methods with the guidance of images, images with text, sketches, and videos. Accordingly, we categorized CBFIR methods into four main categories, i.e., image-guided CBFIR (with the addition of attributes and styles), image and text-guided, sketch-guided, and video-guided CBFIR methods. The baseline methodologies have been thoroughly analyzed, and the most recent developments in CBFIR over the past six years (2017 to 2022) have been thoroughly examined. Finally, key issues are highlighted for CBFIR with promising directions for future research.","headline":"Methods And Advancement Of Content-based Fashion Image Retrieval: A Review","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/shoib2023methods/"},"url":"https://learning2hash.github.io/publications/shoib2023methods/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -332,21 +332,20 @@ future research.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -354,8 +353,10 @@ future research.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -364,6 +365,7 @@ future research.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

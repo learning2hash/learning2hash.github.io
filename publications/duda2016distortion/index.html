@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/duda2016distortion/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Distortion-resistant Hashing For Rapid Search Of Similar DNA Subsequence" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"One of the basic tasks in bioinformatics is localizing a short subsequence (S), read while sequencing, in a long reference sequence (R), like the human geneome. A natural rapid approach would be finding a hash value for (S) and compare it with a prepared database of hash values for each of length (|S|) subsequences of (R). The problem with such approach is that it would only spot a perfect match, while in reality there are lots of small changes: substitutions, deletions and insertions. This issue could be repaired if having a hash function designed to tolerate some small distortion accordingly to an alignment metric (like Needleman-Wunch): designed to make that two similar sequences should most likely give the same hash value. This paper discusses construction of Distortion-Resistant Hashing (DRH) to generate such fingerprints for rapid search of similar subsequences. The proposed approach is based on the rate distortion theory: in a nearly uniform subset of length (|S|) sequences, the hash value represents the closest sequence to (S). This gives some control of the distance of collisions: sequences having the same hash value.","headline":"Distortion-resistant Hashing For Rapid Search Of Similar DNA Subsequence","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/duda2016distortion/"},"url":"https://learning2hash.github.io/publications/duda2016distortion/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"One of the basic tasks in bioinformatics is localizing a short subsequence (S), read while sequencing, in a long reference sequence (R), like the human geneome. A natural rapid approach would be finding a hash value for (S) and compare it with a prepared database of hash values for each of length (|S|) subsequences of (R). The problem with such approach is that it would only spot a perfect match, while in reality there are lots of small changes: substitutions, deletions and insertions. This issue could be repaired if having a hash function designed to tolerate some small distortion accordingly to an alignment metric (like Needleman-Wunch): designed to make that two similar sequences should most likely give the same hash value. This paper discusses construction of Distortion-Resistant Hashing (DRH) to generate such fingerprints for rapid search of similar subsequences. The proposed approach is based on the rate distortion theory: in a nearly uniform subset of length (|S|) sequences, the hash value represents the closest sequence to (S). This gives some control of the distance of collisions: sequences having the same hash value.","headline":"Distortion-resistant Hashing For Rapid Search Of Similar DNA Subsequence","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/duda2016distortion/"},"url":"https://learning2hash.github.io/publications/duda2016distortion/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -328,21 +328,20 @@ the distance of collisions: sequences having the same hash value.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -350,8 +349,10 @@ the distance of collisions: sequences having the same hash value.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -360,6 +361,7 @@ the distance of collisions: sequences having the same hash value.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

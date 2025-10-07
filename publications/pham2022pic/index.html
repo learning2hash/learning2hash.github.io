@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/pham2022pic/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"While contextualized word embeddings have been a de-facto standard, learning contextualized phrase embeddings is less explored and being hindered by the lack of a human-annotated benchmark that tests machine understanding of phrase semantics given a context sentence or paragraph (instead of phrases alone). To fill this gap, we propose PiC – a dataset of ~28K of noun phrases accompanied by their contextual Wikipedia pages and a suite of three tasks for training and evaluating phrase embeddings. Training on PiC improves ranking models’ accuracy and remarkably pushes span-selection (SS) models (i.e., predicting the start and end index of the target phrase) near-human accuracy, which is 95% Exact Match (EM) on semantic search given a query phrase and a passage. Interestingly, we find evidence that such impressive performance is because the SS models learn to better capture the common meaning of a phrase regardless of its actual context. SotA models perform poorly in distinguishing two senses of the same phrase in two contexts (~60% EM) and in estimating the similarity between two different phrases in the same context (~70% EM).","headline":"Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pham2022pic/"},"url":"https://learning2hash.github.io/publications/pham2022pic/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"While contextualized word embeddings have been a de-facto standard, learning contextualized phrase embeddings is less explored and being hindered by the lack of a human-annotated benchmark that tests machine understanding of phrase semantics given a context sentence or paragraph (instead of phrases alone). To fill this gap, we propose PiC – a dataset of ~28K of noun phrases accompanied by their contextual Wikipedia pages and a suite of three tasks for training and evaluating phrase embeddings. Training on PiC improves ranking models’ accuracy and remarkably pushes span-selection (SS) models (i.e., predicting the start and end index of the target phrase) near-human accuracy, which is 95% Exact Match (EM) on semantic search given a query phrase and a passage. Interestingly, we find evidence that such impressive performance is because the SS models learn to better capture the common meaning of a phrase regardless of its actual context. SotA models perform poorly in distinguishing two senses of the same phrase in two contexts (~60% EM) and in estimating the similarity between two different phrases in the same context (~70% EM).","headline":"Pic: A Phrase-in-context Dataset For Phrase Understanding And Semantic Search","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/pham2022pic/"},"url":"https://learning2hash.github.io/publications/pham2022pic/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -329,21 +329,20 @@ between two different phrases in the same context (~70% EM).</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -351,8 +350,10 @@ between two different phrases in the same context (~70% EM).</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -361,6 +362,7 @@ between two different phrases in the same context (~70% EM).</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

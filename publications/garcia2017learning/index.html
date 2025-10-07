@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/garcia2017learning/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Learning Non-metric Visual Similarity For Image Retrieval" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Measuring visual similarity between two or more instances within a data distribution is a fundamental task in image retrieval. Theoretically, non-metric distances are able to generate a more complex and accurate similarity model than metric distances, provided that the non-linear data distribution is precisely captured by the system. In this work, we explore neural networks models for learning a non-metric similarity function for instance search. We argue that non-metric similarity functions based on neural networks can build a better model of human visual perception than standard metric distances. As our proposed similarity function is differentiable, we explore a real end-to-end trainable approach for image retrieval, i.e. we learn the weights from the input image pixels to the final similarity score. Experimental evaluation shows that non-metric similarity networks are able to learn visual similarities between images and improve performance on top of state-of-the-art image representations, boosting results in standard image retrieval datasets with respect standard metric distances.","headline":"Learning Non-metric Visual Similarity For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/garcia2017learning/"},"url":"https://learning2hash.github.io/publications/garcia2017learning/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Measuring visual similarity between two or more instances within a data distribution is a fundamental task in image retrieval. Theoretically, non-metric distances are able to generate a more complex and accurate similarity model than metric distances, provided that the non-linear data distribution is precisely captured by the system. In this work, we explore neural networks models for learning a non-metric similarity function for instance search. We argue that non-metric similarity functions based on neural networks can build a better model of human visual perception than standard metric distances. As our proposed similarity function is differentiable, we explore a real end-to-end trainable approach for image retrieval, i.e. we learn the weights from the input image pixels to the final similarity score. Experimental evaluation shows that non-metric similarity networks are able to learn visual similarities between images and improve performance on top of state-of-the-art image representations, boosting results in standard image retrieval datasets with respect standard metric distances.","headline":"Learning Non-metric Visual Similarity For Image Retrieval","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/garcia2017learning/"},"url":"https://learning2hash.github.io/publications/garcia2017learning/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -331,21 +331,20 @@ retrieval datasets with respect standard metric distances.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -353,8 +352,10 @@ retrieval datasets with respect standard metric distances.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -363,6 +364,7 @@ retrieval datasets with respect standard metric distances.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

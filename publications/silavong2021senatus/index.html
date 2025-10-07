@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/silavong2021senatus/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Senatus – A Fast And Accurate Code-to-code Recommendation Engine" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"Machine learning on source code (MLOnCode) is a popular research field that has been driven by the availability of large-scale code repositories and the development of powerful probabilistic and deep learning models for mining source code. Code-to-code recommendation is a task in MLOnCode that aims to recommend relevant, diverse and concise code snippets that usefully extend the code currently being written by a developer in their development environment (IDE). Code-to-code recommendation engines hold the promise of increasing developer productivity by reducing context switching from the IDE and increasing code-reuse. Existing code-to-code recommendation engines do not scale gracefully to large codebases, exhibiting a linear growth in query time as the code repository increases in size. In addition, existing code-to-code recommendation engines fail to account for the global statistics of code repositories in the ranking function, such as the distribution of code snippet lengths, leading to sub-optimal retrieval results. We address both of these weaknesses with Senatus, a new code-to-code recommendation engine. At the core of Senatus is De-Skew LSH a new locality sensitive hashing (LSH) algorithm that indexes the data for fast (sub-linear time) retrieval while also counteracting the skewness in the snippet length distribution using novel abstract syntax tree-based feature scoring and selection algorithms. We evaluate Senatus and find the recommendations to be of higher quality than competing baselines, while achieving faster search. For example on the CodeSearchNet dataset Senatus improves performance by 31.21% F1 and 147.9x faster query time compared to Facebook Aroma. Senatus also outperforms standard MinHash LSH by 29.2% F1 and 51.02x faster query time.","headline":"Senatus – A Fast And Accurate Code-to-code Recommendation Engine","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/silavong2021senatus/"},"url":"https://learning2hash.github.io/publications/silavong2021senatus/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"Machine learning on source code (MLOnCode) is a popular research field that has been driven by the availability of large-scale code repositories and the development of powerful probabilistic and deep learning models for mining source code. Code-to-code recommendation is a task in MLOnCode that aims to recommend relevant, diverse and concise code snippets that usefully extend the code currently being written by a developer in their development environment (IDE). Code-to-code recommendation engines hold the promise of increasing developer productivity by reducing context switching from the IDE and increasing code-reuse. Existing code-to-code recommendation engines do not scale gracefully to large codebases, exhibiting a linear growth in query time as the code repository increases in size. In addition, existing code-to-code recommendation engines fail to account for the global statistics of code repositories in the ranking function, such as the distribution of code snippet lengths, leading to sub-optimal retrieval results. We address both of these weaknesses with Senatus, a new code-to-code recommendation engine. At the core of Senatus is De-Skew LSH a new locality sensitive hashing (LSH) algorithm that indexes the data for fast (sub-linear time) retrieval while also counteracting the skewness in the snippet length distribution using novel abstract syntax tree-based feature scoring and selection algorithms. We evaluate Senatus and find the recommendations to be of higher quality than competing baselines, while achieving faster search. For example on the CodeSearchNet dataset Senatus improves performance by 31.21% F1 and 147.9x faster query time compared to Facebook Aroma. Senatus also outperforms standard MinHash LSH by 29.2% F1 and 51.02x faster query time.","headline":"Senatus – A Fast And Accurate Code-to-code Recommendation Engine","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/silavong2021senatus/"},"url":"https://learning2hash.github.io/publications/silavong2021senatus/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -353,21 +353,20 @@ time.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -375,8 +374,10 @@ time.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -385,6 +386,7 @@ time.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {

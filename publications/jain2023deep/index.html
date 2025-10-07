@@ -48,11 +48,11 @@
 <meta property="og:url" content="https://learning2hash.github.io/publications/jain2023deep/" />
 <meta property="og:site_name" content="Awesome Learning to Hash" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-10-07T03:03:06-05:00" />
+<meta property="article:published_time" content="2025-10-07T03:45:42-05:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Deep Perceptual Hashing Algorithms With Hidden Dual Purpose: When Client-side Scanning Does Facial Recognition" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:03:06-05:00","datePublished":"2025-10-07T03:03:06-05:00","description":"End-to-end encryption (E2EE) provides strong technical protections to individuals from interferences. Governments and law enforcement agencies around the world have however raised concerns that E2EE also allows illegal content to be shared undetected. Client-side scanning (CSS), using perceptual hashing (PH) to detect known illegal content before it is shared, is seen as a promising solution to prevent the diffusion of illegal content while preserving encryption. While these proposals raise strong privacy concerns, proponents of the solutions have argued that the risk is limited as the technology has a limited scope: detecting known illegal content. In this paper, we show that modern perceptual hashing algorithms are actually fairly flexible pieces of technology and that this flexibility could be used by an adversary to add a secondary hidden feature to a client-side scanning system. More specifically, we show that an adversary providing the PH algorithm can ``hide” a secondary purpose of face recognition of a target individual alongside its primary purpose of image copy detection. We first propose a procedure to train a dual-purpose deep perceptual hashing model by jointly optimizing for both the image copy detection and the targeted facial recognition task. Second, we extensively evaluate our dual-purpose model and show it to be able to reliably identify a target individual 67% of the time while not impacting its performance at detecting illegal content. We also show that our model is neither a general face detection nor a facial recognition model, allowing its secondary purpose to be hidden. Finally, we show that the secondary purpose can be enabled by adding a single illegal looking image to the database. Taken together, our results raise concerns that a deep perceptual hashing-based CSS system could turn billions of user devices into tools to locate targeted individuals.","headline":"Deep Perceptual Hashing Algorithms With Hidden Dual Purpose: When Client-side Scanning Does Facial Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jain2023deep/"},"url":"https://learning2hash.github.io/publications/jain2023deep/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-10-07T03:45:42-05:00","datePublished":"2025-10-07T03:45:42-05:00","description":"End-to-end encryption (E2EE) provides strong technical protections to individuals from interferences. Governments and law enforcement agencies around the world have however raised concerns that E2EE also allows illegal content to be shared undetected. Client-side scanning (CSS), using perceptual hashing (PH) to detect known illegal content before it is shared, is seen as a promising solution to prevent the diffusion of illegal content while preserving encryption. While these proposals raise strong privacy concerns, proponents of the solutions have argued that the risk is limited as the technology has a limited scope: detecting known illegal content. In this paper, we show that modern perceptual hashing algorithms are actually fairly flexible pieces of technology and that this flexibility could be used by an adversary to add a secondary hidden feature to a client-side scanning system. More specifically, we show that an adversary providing the PH algorithm can ``hide” a secondary purpose of face recognition of a target individual alongside its primary purpose of image copy detection. We first propose a procedure to train a dual-purpose deep perceptual hashing model by jointly optimizing for both the image copy detection and the targeted facial recognition task. Second, we extensively evaluate our dual-purpose model and show it to be able to reliably identify a target individual 67% of the time while not impacting its performance at detecting illegal content. We also show that our model is neither a general face detection nor a facial recognition model, allowing its secondary purpose to be hidden. Finally, we show that the secondary purpose can be enabled by adding a single illegal looking image to the database. Taken together, our results raise concerns that a deep perceptual hashing-based CSS system could turn billions of user devices into tools to locate targeted individuals.","headline":"Deep Perceptual Hashing Algorithms With Hidden Dual Purpose: When Client-side Scanning Does Facial Recognition","mainEntityOfPage":{"@type":"WebPage","@id":"https://learning2hash.github.io/publications/jain2023deep/"},"url":"https://learning2hash.github.io/publications/jain2023deep/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -340,21 +340,20 @@ individuals.</p>
       display: inline-flex;
       flex-direction: column;
       align-items: center;
-      justify-content: center;
-      vertical-align: middle;
+      justify-content: flex-start; /* start high, then push down */
+      padding-top: 8px; /* lower the icons visually */
       cursor: pointer;
       transition: background 0.15s ease, transform 0.15s ease;
       position: relative;
     }
 
-    /* Nudge icon slightly down for visual centering */
     .icon-btn img,
     .icon-btn svg {
       display: block;
-      margin-top: 2px;
+      margin-top: 4px; /* fine-tune visual center */
       width: 18px;
       height: 18px;
-      opacity: 0.75;
+      opacity: 0.8;
       object-fit: contain;
       object-position: center;
     }
@@ -362,8 +361,10 @@ individuals.</p>
     /* Copy button label */
     .copy-btn {
       width: auto;
-      padding: 0 10px;
+      padding: 0 12px;
       flex-direction: row;
+      align-items: center;
+      justify-content: center;
       gap: 6px;
     }
 
@@ -372,6 +373,7 @@ individuals.</p>
       font-weight: 500;
       color: #333;
       user-select: none;
+      margin-top: 2px;
     }
 
     .icon-btn:hover {
