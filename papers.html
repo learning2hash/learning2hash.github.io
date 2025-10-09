@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Search all Publications on Learning to Hash
+title: Search all Publications on Learning to Hash 
 description: A list of research papers for Learning to Hash.
 ---
 
@@ -89,17 +89,23 @@ description: A list of research papers for Learning to Hash.
   }
 </style>
 
+<!-- Self-hosted vendor assets -->
+<script src="{{ '/assets/vendor/jquery-3.6.0.min.js' | relative_url }}" defer></script>
+<link rel="stylesheet" href="{{ '/assets/vendor/datatables-1.13.6.min.css' | relative_url }}">
+<script src="{{ '/assets/vendor/datatables-1.13.6.min.js' | relative_url }}" defer></script>
+<link rel="stylesheet" href="{{ '/assets/vendor/dataTables.responsive-2.5.0.min.css' | relative_url }}">
+<script src="{{ '/assets/vendor/dataTables.responsive-2.5.0.min.js' | relative_url }}" defer></script>
+
+<!-- Page Logic -->
 <script>
 (function () {
   const loaderEl = document.getElementById('loading');
   const input = document.getElementById('globalSearch');
   const reset = document.getElementById('resetSearch');
 
-  // Adjust this if your paper pages aren't /publications/<key>:
   const PAGE_URL_PREFIX = '{{ site.baseurl }}' + '/publications/';
-  const PAGE_URL_SUFFIX = ''; // e.g. '.html' if needed
+  const PAGE_URL_SUFFIX = '';
 
-  // --- Hash/query helpers (enable deep-link search from sidebar) ---
   function readHashQuery() {
     const raw = window.location.hash ? window.location.hash.slice(1) : '';
     if (!raw) return '';
@@ -114,7 +120,6 @@ description: A list of research papers for Learning to Hash.
   }
 
   async function loadJSON() {
-    // Fetch from repo root
     const res = await fetch('{{ site.baseurl }}/paper-abstracts.json', { cache: 'force-cache' });
     if (!res.ok) throw new Error('Failed to load paper-abstracts.json');
     return res.json();
@@ -131,7 +136,6 @@ description: A list of research papers for Learning to Hash.
     return window.jQuery && jQuery.fn && jQuery.fn.dataTable;
   }
 
-  // Simple HTML escaper for titles
   function escapeHtml(s) {
     return String(s)
       .replace(/&/g, '&amp;')
@@ -142,12 +146,10 @@ description: A list of research papers for Learning to Hash.
   }
 
   function buildTable(rows, initialQuery) {
-    // Transform JSON into the minimal fields we need
     const data = rows.map(r => {
       const year = toNumber(r.year);
       const citations = toNumber(r.citations);
-      const key = (r.key || '').toLowerCase();   // normalize once here
-
+      const key = (r.key || '').toLowerCase();
       const title = (r.title || '').trim();
       const short_authors = r.short_authors || (Array.isArray(r.authors)
         ? r.authors.slice(0, 3).join(', ') + (r.authors.length > 3 ? ' et al.' : '')
@@ -155,8 +157,6 @@ description: A list of research papers for Learning to Hash.
       const authors = Array.isArray(r.authors)
         ? r.authors.join(', ').trim()
         : (r.authors || '').trim();
-
-
       const url = (r.url && String(r.url)) ||
         (key ? (PAGE_URL_PREFIX + encodeURIComponent(key) + PAGE_URL_SUFFIX) : null);
 
@@ -167,7 +167,7 @@ description: A list of research papers for Learning to Hash.
           ? `<a href="${url}">${escapeHtml(title)}</a>`
           : escapeHtml(title),
         short_authors,
-        authors,   // keep full authors hidden but searchable
+        authors,
         citations
       };
     });
@@ -181,20 +181,21 @@ description: A list of research papers for Learning to Hash.
       columns: [
         { data: 'year' },
         { data: 'title_link' },
-        { data: 'short_authors' },   // show short authors in the visible column
+        { data: 'short_authors' },
         { data: 'citations' },
-        { data: 'authors', visible: false, searchable: true } // hidden full authors
+        { data: 'authors', visible: false, searchable: true }
       ],
       columnDefs: [
         { targets: 1, render: (data)=>data, orderable: true },
-        { targets: [0,3], type: 'num', searchable: false },  // Year & Citations not searchable
-        { targets: [1,2,4], searchable: true }               // Title, short_authors, and hidden authors searchable
+        { targets: [0,3], type: 'num', searchable: false },
+        { targets: [1,2,4], searchable: true }
       ],
       paging: true,
       pageLength: PAGE_LEN,
       lengthMenu: LENGTH_MENU,
       searching: true,
-      order: [[3, 'desc']],    // Citations desc
+      /* ⬇️ Default sort: Year DESC, then Citations DESC */
+      order: [[0, 'desc'], [3, 'desc']],
       autoWidth: true,
       deferRender: true,
       stateSave: !isMobile,
@@ -206,16 +207,13 @@ description: A list of research papers for Learning to Hash.
         const api = this.api();
         if (loaderEl) loaderEl.style.display = 'none';
 
-        // Debounce helper
         const debounce = (fn, ms = 120) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
 
-        // Apply initial hash query (from sidebar "Go" link)
         if (typeof initialQuery === 'string' && initialQuery.length) {
           if (input) input.value = initialQuery;
           api.search(initialQuery).draw(false);
         }
 
-        // Keep hash and table in sync when user types here
         const applyFromInput = debounce(() => {
           const q = input ? input.value : '';
           api.search(q).draw(false);
@@ -224,7 +222,6 @@ description: A list of research papers for Learning to Hash.
 
         if (input) {
           input.addEventListener('input', applyFromInput);
-          // Submit on Enter without jumping focus
           input.addEventListener('keydown', (e) => {
             if (e.key === 'Enter') {
               e.preventDefault();
@@ -241,19 +238,16 @@ description: A list of research papers for Learning to Hash.
           input.focus();
         });
 
-        // React to #hash changes (e.g. user clicks sidebar button or shares a link)
         window.addEventListener('hashchange', () => {
           const q = readHashQuery();
           if (input) input.value = q;
           api.search(q).draw(false);
         });
 
-        // Resize fixes
         setTimeout(() => api.columns.adjust().draw(false), 60);
       }
     });
 
-    // Adjust columns on viewport changes
     const recalc = (() => { let t; return () => { clearTimeout(t); t=setTimeout(() => dt.columns.adjust(), 120); }; })();
     window.addEventListener('resize', recalc);
     window.addEventListener('orientationchange', recalc);
