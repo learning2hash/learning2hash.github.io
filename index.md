@@ -12,15 +12,21 @@ permalink: /
 A curated and continuously updated collection of academic papers on hashing-based approximate nearest neighbour (ANN) search, spanning applications in computer vision, natural language processing, bioinformatics, and related domains.
 </p>
 
+---
 <p>
-<strong><a target="_blank" href="http://arxiv.org/abs/2510.04127">
-Learning-Based Hashing for ANN Search: Foundations and Early Advances
-</a></strong><br />
-Sean Moran.<br />
-<em>2025</em><br />
-<span style="color:#4b5563;">
-An accessible introduction to the field of learning-based hashing and a synthesis of its early core advances, bridging projection, quantisation, and supervised approaches for efficient similarity search.
-</span>
+  <strong>
+    <a target="_blank" href="http://arxiv.org/abs/2510.04127">
+      Learning-Based Hashing for ANN Search: Foundations and Early Advances
+    </a>
+    <span style="background-color:#dc2626; color:#fff; font-size:0.8em; padding:2px 6px; border-radius:4px; margin-left:6px;">
+      NEW
+    </span>
+  </strong><br />
+  Sean Moran.<br />
+  <em>2025</em><br />
+  <span style="color:#4b5563;">
+    An accessible introduction to the field of learning-based hashing and a synthesis of its early core advances, bridging projection, quantisation, and supervised approaches for efficient similarity search.
+  </span>
 </p>
 
 <style>
