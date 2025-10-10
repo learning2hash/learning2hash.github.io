@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Search all Publications on Learning to Hash 
+title: Search all Publications on Learning to Hash
 description: A list of research papers for Learning to Hash.
 ---
 
@@ -40,6 +40,15 @@ description: A list of research papers for Learning to Hash.
     </table>
   </div>
 </div>
+
+<style>
+  .badge-new {
+    display: inline-block;
+    margin-left: .5em;
+    font-weight: 700;
+    color: #c00000; /* red */
+  }
+</style>
 
 <style>
   :root{
@@ -119,10 +128,16 @@ description: A list of research papers for Learning to Hash.
     }
   }
 
-  async function loadJSON() {
-    const res = await fetch('{{ site.baseurl }}/paper-abstracts.json', { cache: 'force-cache' });
-    if (!res.ok) throw new Error('Failed to load paper-abstracts.json');
-    return res.json();
+  async function loadJSONs() {
+    const [papersRes, histRes] = await Promise.all([
+      fetch('{{ site.baseurl }}/paper-abstracts.json', { cache: 'force-cache' }),
+      fetch('{{ site.baseurl }}/assets/paper-history.json', { cache: 'no-store' })
+    ]);
+    if (!papersRes.ok) throw new Error('Failed to load paper-abstracts.json');
+    if (!histRes.ok) throw new Error('Failed to load paper-history.json');
+
+    const [papers, history] = await Promise.all([papersRes.json(), histRes.json()]);
+    return { papers, history };
   }
 
   function toNumber(x) {
@@ -145,7 +160,20 @@ description: A list of research papers for Learning to Hash.
       .replace(/'/g, '&#39;');
   }
 
-  function buildTable(rows, initialQuery) {
+  function ts(s) { // iso -> seconds epoch
+    if (!s) return 0;
+    const d = new Date(s);
+    return isNaN(d.getTime()) ? 0 : Math.floor(d.getTime() / 1000);
+  }
+
+  function buildTable(rows, history, initialQuery) {
+    const latestAdded = ts(history.latest_added);
+    const ONE_DAY = 24 * 3600;
+
+    // If you prefer "New if first_added within last 7 days", uncomment:
+    // const now = Math.floor(Date.now()/1000);
+    // const SEVEN_DAYS = 7 * 24 * 3600;
+
     const data = rows.map(r => {
       const year = toNumber(r.year);
       const citations = toNumber(r.citations);
@@ -160,15 +188,28 @@ description: A list of research papers for Learning to Hash.
       const url = (r.url && String(r.url)) ||
         (key ? (PAGE_URL_PREFIX + encodeURIComponent(key) + PAGE_URL_SUFFIX) : null);
 
+      const hItem = (history.items && history.items[key]) || {};
+      const firstAdded = ts(hItem.first_added);
+      const lastModified = ts(hItem.last_modified);
+      const recency = Math.max(firstAdded, lastModified); // choose what “recency” means for sorting
+
+      // Mark NEW if this paper belongs to the most recently added batch (±1 day around latestAdded)
+      const isNew = latestAdded && firstAdded && Math.abs(firstAdded - latestAdded) <= ONE_DAY;
+
+      // Or, use 7-day rule:
+      // const isNew = firstAdded && (now - firstAdded) <= SEVEN_DAYS;
+
+      const titleHtml = url ? `<a href="${url}">${escapeHtml(title)}</a>` : escapeHtml(title);
+      const badge = isNew ? `<span class="badge-new">NEW</span>` : '';
+
       return {
         year,
-        title,
-        title_link: url
-          ? `<a href="${url}">${escapeHtml(title)}</a>`
-          : escapeHtml(title),
+        title_link: titleHtml + badge,
         short_authors,
         authors,
-        citations
+        citations,
+        recency,              // hidden sort column
+        is_new: isNew ? 1 : 0 // NEW first
       };
     });
 
@@ -179,11 +220,13 @@ description: A list of research papers for Learning to Hash.
     const dt = jQuery('#allPapers').DataTable({
       data,
       columns: [
-        { data: 'year' },
-        { data: 'title_link' },
-        { data: 'short_authors' },
-        { data: 'citations' },
-        { data: 'authors', visible: false, searchable: true }
+        { data: 'year', title: 'Year' },
+        { data: 'title_link', title: 'Title' },
+        { data: 'short_authors', title: 'Authors' },
+        { data: 'citations', title: 'Citations' },
+        { data: 'authors', visible: false, searchable: true, title: 'All Authors' },
+        { data: 'recency', visible: false },  // hidden recency
+        { data: 'is_new', visible: false }    // hidden NEW flag
       ],
       columnDefs: [
         { targets: 1, render: (data)=>data, orderable: true },
@@ -194,8 +237,8 @@ description: A list of research papers for Learning to Hash.
       pageLength: PAGE_LEN,
       lengthMenu: LENGTH_MENU,
       searching: true,
-      /* ⬇️ Default sort: Year DESC, then Citations DESC */
-      order: [[0, 'desc'], [3, 'desc']],
+      // Sort by NEW first, then recency, then year, then citations
+      order: [[6, 'desc'], [5, 'desc'], [0, 'desc'], [3, 'desc']],
       autoWidth: true,
       deferRender: true,
       stateSave: !isMobile,
@@ -223,10 +266,7 @@ description: A list of research papers for Learning to Hash.
         if (input) {
           input.addEventListener('input', applyFromInput);
           input.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') {
-              e.preventDefault();
-              applyFromInput();
-            }
+            if (e.key === 'Enter') { e.preventDefault(); applyFromInput(); }
           });
         }
 
@@ -258,8 +298,9 @@ description: A list of research papers for Learning to Hash.
       if (!hasDT()) throw new Error('DataTables missing');
       const initialQuery = readHashQuery();
       if (input && initialQuery) input.value = initialQuery;
-      const rows = await loadJSON();
-      buildTable(rows, initialQuery);
+
+      const { papers, history } = await loadJSONs();
+      buildTable(papers, history, initialQuery);
     } catch (err) {
       console.error(err);
       if (loaderEl) loaderEl.innerHTML = '<p>Sorry, failed to load papers.</p>';
