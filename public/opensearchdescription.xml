@@ -6,5 +6,5 @@
  <Tags>learning2hash </Tags>
  <Url type="text/html"
       template="https://learning2hash.github.io/papers.html#{searchTerms}"/>
- <Image height="64" width="64" type="image/png">https://learning2hash.github.io/public/favicon.svg</Image>
+ <Image height="64" width="64" type="image/png">https://learning2hash.github.io/public/favicon.ico</Image>
 </OpenSearchDescription>
