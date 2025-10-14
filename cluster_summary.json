@@ -1,34 +1,34 @@
 {
-  "0": [
+  "4": [
     {
       "tag": "neighbor",
-      "count": 0.05
+      "count": 0.053
     },
     {
       "tag": "algorithm",
-      "count": 0.049
-    },
-    {
-      "tag": "nearest",
-      "count": 0.039
+      "count": 0.051
     },
     {
       "tag": "search",
-      "count": 0.038
+      "count": 0.041
+    },
+    {
+      "tag": "nearest",
+      "count": 0.041
     },
     {
       "tag": "point",
-      "count": 0.037
+      "count": 0.041
     }
   ],
-  "1": [
+  "8": [
     {
       "tag": "image",
       "count": 0.054
     },
     {
       "tag": "metric",
-      "count": 0.049
+      "count": 0.05
     },
     {
       "tag": "learning",
@@ -43,36 +43,36 @@
       "count": 0.031
     }
   ],
-  "2": [
+  "3": [
     {
       "tag": "document",
-      "count": 0.07
+      "count": 0.073
     },
     {
       "tag": "entity",
-      "count": 0.049
+      "count": 0.051
     },
     {
       "tag": "dense",
-      "count": 0.045
+      "count": 0.047
     },
     {
       "tag": "word",
-      "count": 0.043
+      "count": 0.044
     },
     {
       "tag": "embeddings",
-      "count": 0.034
+      "count": 0.036
     }
   ],
-  "7": [
+  "2": [
     {
       "tag": "descriptor",
       "count": 0.093
     },
     {
       "tag": "image",
-      "count": 0.069
+      "count": 0.068
     },
     {
       "tag": "feature",
@@ -80,65 +80,65 @@
     },
     {
       "tag": "place",
-      "count": 0.047
+      "count": 0.046
     },
     {
       "tag": "local",
       "count": 0.04
     }
   ],
-  "6": [
+  "0": [
     {
       "tag": "hashing",
-      "count": 0.1
+      "count": 0.095
     },
     {
       "tag": "hash",
-      "count": 0.076
+      "count": 0.073
     },
     {
       "tag": "code",
-      "count": 0.055
-    },
-    {
-      "tag": "semantic",
-      "count": 0.038
+      "count": 0.051
     },
     {
       "tag": "modality",
-      "count": 0.037
+      "count": 0.039
+    },
+    {
+      "tag": "data",
+      "count": 0.036
     }
   ],
-  "9": [
+  "7": [
     {
       "tag": "hashing",
-      "count": 0.062
+      "count": 0.063
     },
     {
       "tag": "binary",
-      "count": 0.052
+      "count": 0.05
     },
     {
       "tag": "hash",
-      "count": 0.049
+      "count": 0.048
     },
     {
       "tag": "code",
       "count": 0.035
     },
     {
-      "tag": "data",
+      "tag": "quantization",
       "count": 0.032
     }
   ],
-  "8": [
+  "6": [
     {
       "tag": "text",
       "count": 0.048
     },
     {
       "tag": "video",
-      "count": 0.045
+      "count": 0.044
     },
     {
       "tag": "retrieval",
@@ -146,36 +146,36 @@
     },
     {
       "tag": "multimodal",
-      "count": 0.033
+      "count": 0.032
     },
     {
-      "tag": "music",
-      "count": 0.032
+      "tag": "image",
+      "count": 0.031
     }
   ],
-  "4": [
+  "9": [
     {
       "tag": "recommendation",
-      "count": 0.078
+      "count": 0.075
     },
     {
       "tag": "item",
-      "count": 0.064
+      "count": 0.057
     },
     {
       "tag": "user",
-      "count": 0.055
-    },
-    {
-      "tag": "embedding",
-      "count": 0.045
+      "count": 0.053
     },
     {
       "tag": "graph",
+      "count": 0.045
+    },
+    {
+      "tag": "embedding",
       "count": 0.042
     }
   ],
-  "3": [
+  "1": [
     {
       "tag": "sketch",
       "count": 0.069
@@ -186,21 +186,21 @@
     },
     {
       "tag": "image",
-      "count": 0.039
+      "count": 0.038
     },
     {
       "tag": "sbir",
-      "count": 0.03
+      "count": 0.031
     },
     {
       "tag": "scene",
-      "count": 0.029
+      "count": 0.028
     }
   ],
   "5": [
     {
       "tag": "hashing",
-      "count": 0.094
+      "count": 0.095
     },
     {
       "tag": "deep",
@@ -208,15 +208,15 @@
     },
     {
       "tag": "hash",
-      "count": 0.057
+      "count": 0.058
     },
     {
       "tag": "code",
-      "count": 0.055
+      "count": 0.056
     },
     {
       "tag": "binary",
-      "count": 0.039
+      "count": 0.04
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-11T07:44:42+00:00",
+  "generated_at": "2025-10-14T14:34:32+00:00",
   "items": {
     "aamand2018non": {
       "first_added": "2024-09-11T11:24:10+00:00",
@@ -463,7 +463,7 @@
     },
     "artetxe2018massively": {
       "first_added": "2024-10-10T21:05:39+00:00",
-      "last_modified": "2025-09-03T17:35:21+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/artetxe2018massively.markdown"
     },
     "artetxe2019bilingual": {
@@ -1078,7 +1078,7 @@
     },
     "bruss2019deeptrax": {
       "first_added": "2025-07-28T13:41:15+00:00",
-      "last_modified": "2025-09-01T09:15:54+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/bruss2019deeptrax.markdown"
     },
     "bucher2019semantic": {
@@ -3473,7 +3473,7 @@
     },
     "geigle2021retrieve": {
       "first_added": "2025-07-19T09:35:03+00:00",
-      "last_modified": "2025-09-01T09:15:54+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/geigle2021retrieve.markdown"
     },
     "geigle2023babel": {
@@ -5428,7 +5428,7 @@
     },
     "keung2020unsupervised": {
       "first_added": "2025-07-28T13:41:15+00:00",
-      "last_modified": "2025-08-22T14:41:37+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/keung2020unsupervised.markdown"
     },
     "khaliq2022multires": {
@@ -6213,7 +6213,7 @@
     },
     "levi2024the": {
       "first_added": "2025-08-15T17:20:27+00:00",
-      "last_modified": "2025-08-22T14:41:37+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/levi2024the.markdown"
     },
     "leybovich2021efficient": {
@@ -8283,7 +8283,7 @@
     },
     "muennighoff2022mteb": {
       "first_added": "2025-07-28T13:41:15+00:00",
-      "last_modified": "2025-09-07T16:37:30+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/muennighoff2022mteb.markdown"
     },
     "mukherjee2015an": {
@@ -9058,7 +9058,7 @@
     },
     "pham2022pic": {
       "first_added": "2025-07-28T13:41:15+00:00",
-      "last_modified": "2025-09-01T09:15:54+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/pham2022pic.markdown"
     },
     "pham2024composing": {
@@ -9653,7 +9653,7 @@
     },
     "ryali2020bio": {
       "first_added": "2020-09-14T19:14:15+00:00",
-      "last_modified": "2025-09-01T09:15:54+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/ryali2020bio.markdown"
     },
     "ryan2025improving": {
@@ -9703,7 +9703,7 @@
     },
     "sabo2021revisiting": {
       "first_added": "2025-07-28T13:41:15+00:00",
-      "last_modified": "2025-08-22T14:41:37+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/sabo2021revisiting.markdown"
     },
     "sadeh2019joint": {
@@ -9813,7 +9813,7 @@
     },
     "sankar2019on": {
       "first_added": "2025-08-15T17:20:27+00:00",
-      "last_modified": "2025-09-01T09:15:54+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/sankar2019on.markdown"
     },
     "sankar2019transferable": {
@@ -10573,7 +10573,7 @@
     },
     "song2017deep": {
       "first_added": "2024-09-08T16:18:01+00:00",
-      "last_modified": "2025-09-11T14:14:33+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/song2017deep.markdown"
     },
     "song2018cross": {
@@ -10973,7 +10973,7 @@
     },
     "tamuz2011adaptively": {
       "first_added": "2025-07-28T13:41:15+00:00",
-      "last_modified": "2025-09-03T17:35:21+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/tamuz2011adaptively.markdown"
     },
     "tan2017supervised": {
@@ -11018,7 +11018,7 @@
     },
     "tan2022multilingual": {
       "first_added": "2025-07-21T16:22:28+00:00",
-      "last_modified": "2025-09-01T09:15:54+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/tan2022multilingual.markdown"
     },
     "tan2023fast": {
@@ -11135,6 +11135,11 @@
       "first_added": "2024-09-08T16:18:01+00:00",
       "last_modified": "2025-09-03T17:35:21+00:00",
       "path": "_publications/teichmann2018detect.markdown"
+    },
+    "teiletche2025modernvbert": {
+      "first_added": "2025-10-14T14:25:40+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
+      "path": "_publications/teiletche2025modernvbert.markdown"
     },
     "tellez2017a": {
       "first_added": "2025-08-15T17:20:27+00:00",
@@ -11443,7 +11448,7 @@
     },
     "ueki2021survey": {
       "first_added": "2025-07-22T22:05:04+00:00",
-      "last_modified": "2025-08-22T14:41:37+00:00",
+      "last_modified": "2025-10-14T14:25:40+00:00",
       "path": "_publications/ueki2021survey.markdown"
     },
     "ufer2020object": {
@@ -14692,5 +14697,5 @@
       "path": "_publications/\u00fabeda2019pattern.markdown"
     }
   },
-  "latest_added": "2025-09-09T14:36:53+00:00"
+  "latest_added": "2025-10-14T14:25:40+00:00"
 }
