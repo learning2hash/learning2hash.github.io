@@ -8,7 +8,7 @@ year: 2021
 bibkey: sabo2021revisiting
 citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.08481'}]
-tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Supervised"]
+tags: ["Datasets", "Evaluation", "Few Shot & Zero Shot", "Supervised", "TACL"]
 short_authors: Sabo et al.
 ---
 We explore Few-Shot Learning (FSL) for Relation Classification (RC). Focusing

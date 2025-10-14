@@ -8,7 +8,7 @@ year: 2019
 bibkey: artetxe2018massively
 citations: 754
 additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/1812.10464'}]
-tags: ["Datasets", "Few Shot & Zero Shot", "Similarity Search"]
+tags: ["Datasets", "Few Shot & Zero Shot", "Similarity Search", "TACL"]
 short_authors: Mikel Artetxe, Holger Schwenk
 ---
 We introduce an architecture to learn joint multilingual sentence

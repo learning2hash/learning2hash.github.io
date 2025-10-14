@@ -8,7 +8,7 @@ year: 2023
 bibkey: muennighoff2022mteb
 citations: 189
 additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.07316'}]
-tags: ["Datasets", "Evaluation"]
+tags: ["Datasets", "Eacl", "Evaluation"]
 short_authors: Muennighoff et al.
 ---
 Text embeddings are commonly evaluated on a small set of datasets from a

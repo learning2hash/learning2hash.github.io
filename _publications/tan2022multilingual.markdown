@@ -8,7 +8,7 @@ year: 2023
 bibkey: tan2022multilingual
 citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2210.05033'}]
-tags: ["Self-Supervised", "Similarity Search"]
+tags: ["Eacl", "Self-Supervised", "Similarity Search"]
 short_authors: Tan et al.
 ---
 Multilingual sentence representations from large models encode semantic

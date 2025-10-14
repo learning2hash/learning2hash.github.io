@@ -9,7 +9,7 @@ year: 2019
 bibkey: bruss2019deeptrax
 citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1907.07225'}]
-tags: ["Datasets", "Tools & Libraries"]
+tags: ["Datasets", "ICML", "Tools & Libraries"]
 short_authors: Bruss et al.
 ---
 Financial transactions can be considered edges in a heterogeneous graph

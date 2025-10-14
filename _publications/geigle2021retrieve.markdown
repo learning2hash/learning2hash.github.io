@@ -8,7 +8,7 @@ year: 2022
 bibkey: geigle2021retrieve
 citations: 25
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.11920'}]
-tags: ["Efficiency", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval", "Re-Ranking", "Similarity Search", "Tools & Libraries"]
+tags: ["Efficiency", "Evaluation", "Few Shot & Zero Shot", "Multimodal Retrieval", "Re-Ranking", "Similarity Search", "TACL", "Tools & Libraries"]
 short_authors: Geigle et al.
 ---
 Current state-of-the-art approaches to cross-modal retrieval process text and
