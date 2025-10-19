@@ -237,10 +237,5 @@ Here are a few recommended books on large-scale machine learning:
 ---
 Please, feel free to submit a [web form](contributing.markdown) to add more links in this page.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" 
-     alt="Amazon" width="90" style="vertical-align:middle; margin-right:6px;"> 
-**Affiliate Disclosure:**  
-As an Amazon Associate, this site earns from qualifying purchases made through links below. 
-This comes at no additional cost to you.  
-*(All Amazon links marked as “affiliate link.”)*
+As an Amazon Associate, this site earns from qualifying purchases made. This comes at no additional cost to you.  *(All Amazon links marked as “affiliate link.”)*
 
