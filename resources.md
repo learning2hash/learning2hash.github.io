@@ -235,7 +235,7 @@ Here are a few recommended books on large-scale machine learning:
 - **[GLUE Benchmark](https://gluebenchmark.com/)**: The General Language Understanding Evaluation (GLUE) benchmark consists of a variety of natural language processing tasks that test a model's understanding of language. While not traditionally used for image hashing, it provides valuable challenges for text-based hashing techniques.
 
 ---
-Please, feel free to submit a [web form](contributing.html) to add more links in this page.
+Please, feel free to submit a [web form](contributing.markdown) to add more links in this page.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" 
      alt="Amazon" width="90" style="vertical-align:middle; margin-right:6px;"> 
