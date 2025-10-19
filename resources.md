@@ -58,6 +58,8 @@ For a deeper dive, these survey papers are excellent resources:
 
 Some university courses cover topics related to machine learning and efficient computing, with publicly available materials:
 
+- **[Learning from Data](http://work.caltech.edu/telecourse.html)** by Yaser S. Abu-Mostafa et al.: A concise, intuitive introduction to the principles of supervised learning and generalization theory — foundational for understanding supervised hashing methods.
+
 - **[Extreme Computing](http://www.inf.ed.ac.uk/teaching/courses/exc/index_17-18.html)** (University of Edinburgh): Focuses on the challenges and techniques involved in building and scaling systems for processing massive datasets.
 
 - **[Text Technologies for Data Science](https://www.inf.ed.ac.uk/teaching/courses/tts/)** (University of Edinburgh): Covers processing, analysis, and modeling of textual data. Includes topics in text mining, NLP, and information retrieval — with relevance to similarity search and hashing.
@@ -190,19 +192,17 @@ More: [ann-benchmarks.com](http://ann-benchmarks.com)
 
 Here are a few recommended books on large-scale machine learning:
 
-- **[Mining of Massive Datasets](http://www.mmds.org/)**: This classic book explores large-scale data mining techniques, including graph processing, clustering, recommendation, and Locality-Sensitive Hashing (LSH). It's a core resource for anyone working on scalable algorithms for big data.
+- **[Mining of Massive Datasets](https://amzn.to/42PeRDM)**: *(affiliate link)* This classic book explores large-scale data mining techniques, including graph processing, clustering, recommendation, and Locality-Sensitive Hashing (LSH). It's a core resource for anyone working on scalable algorithms for big data.
 
-- **[Introduction to Information Retrieval](https://nlp.stanford.edu/IR-book/information-retrieval-book.html)**: Authored by Manning, Raghavan, and Schütze, this book is essential reading for understanding search engines, indexing, relevance, and vector space models — including chapters on hashing for text retrieval.
+- **[Introduction to Information Retrieval](https://amzn.to/3WHTNvo)**: *(affiliate link)* Authored by Manning, Raghavan, and Schütze, this book is essential reading for understanding search engines, indexing, relevance, and vector space models — including chapters on hashing for text retrieval.
 
-- **[Efficient Processing of Deep Neural Networks](https://link.springer.com/book/10.1007/978-3-031-01766-7)**: A practical and theoretical guide to optimizing deep neural networks for deployment. It covers model compression, quantization, and hashing, making it highly relevant for efficient deep hashing research.
+- **[Efficient Processing of Deep Neural Networks](https://link.springer.com/book/10.1007/978-3-031-01766-7)**: *(affiliate link)* A practical and theoretical guide to optimizing deep neural networks for deployment. It covers model compression, quantization, and hashing, making it highly relevant for efficient deep hashing research.
 
-- **[Learning from Data](http://work.caltech.edu/telecourse.html)** by Yaser S. Abu-Mostafa et al.: A concise, intuitive introduction to the principles of supervised learning and generalization theory — foundational for understanding supervised hashing methods.
+- **[Similarity Search: The Metric Space Approach](https://amzn.to/46ZLVLV)** *(affiliate link)* by Zezula et al.: A foundational text on similarity search in metric spaces, offering deep insight into indexing and retrieval techniques that predate modern hashing but remain highly relevant.
 
-- **[Similarity Search: The Metric Space Approach](https://link.springer.com/book/10.1007/3-540-44520-1)** by Zezula et al.: A foundational text on similarity search in metric spaces, offering deep insight into indexing and retrieval techniques that predate modern hashing but remain highly relevant.
+- **[Foundations of Data Science](https://amzn.to/47gHAms)** *(affiliate link)* by Blum, Hopcroft, and Kannan: A mathematically rigorous treatment of data science topics, including high-dimensional geometry, random projections, and algorithms that underlie LSH and related hashing techniques.
 
-- **[Foundations of Data Science](https://www.cs.cornell.edu/jeh/book.pdf)** by Blum, Hopcroft, and Kannan: A mathematically rigorous treatment of data science topics, including high-dimensional geometry, random projections, and algorithms that underlie LSH and related hashing techniques.
-
-- **[Deep Learning](https://www.deeplearningbook.org/)** by Goodfellow, Bengio, and Courville: The definitive book on deep learning. While not specific to hashing, it provides the theoretical backbone for understanding the neural network architectures used in deep supervised hashing models.
+- **[Deep Learning](https://amzn.to/47updLU)** *(affiliate link)* by Goodfellow, Bengio, and Courville: The definitive book on deep learning. While not specific to hashing, it provides the theoretical backbone for understanding the neural network architectures used in deep supervised hashing models.
 
 ### 🗃️📥 Pre-Processed Datasets for Download
 
@@ -234,5 +234,13 @@ Here are a few recommended books on large-scale machine learning:
 
 - **[GLUE Benchmark](https://gluebenchmark.com/)**: The General Language Understanding Evaluation (GLUE) benchmark consists of a variety of natural language processing tasks that test a model's understanding of language. While not traditionally used for image hashing, it provides valuable challenges for text-based hashing techniques.
 
+---
+Please, feel free to submit a [web form](contributing.html) to add more links in this page.
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" 
+     alt="Amazon" width="90" style="vertical-align:middle; margin-right:6px;"> 
+**Affiliate Disclosure:**  
+As an Amazon Associate, this site earns from qualifying purchases made through links below. 
+This comes at no additional cost to you.  
+*(All Amazon links marked as “affiliate link.”)*
 
