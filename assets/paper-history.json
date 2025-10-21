@@ -1,5 +1,5 @@
 {
-  "generated_at": "2025-10-19T11:20:55+00:00",
+  "generated_at": "2025-10-21T14:26:48+00:00",
   "items": {
     "aamand2018non": {
       "first_added": "2024-09-11T11:24:10+00:00",
@@ -810,6 +810,11 @@
       "first_added": "2025-07-22T22:05:04+00:00",
       "last_modified": "2025-08-22T14:41:37+00:00",
       "path": "_publications/bergman2025leveraging.markdown"
+    },
+    "bergstr\u00f6m2025multi": {
+      "first_added": "2025-10-21T14:17:47+00:00",
+      "last_modified": "2025-10-21T14:17:47+00:00",
+      "path": "_publications/bergstr\u00f6m2025multi.markdown"
     },
     "berman2018supermodular": {
       "first_added": "2024-09-08T16:18:01+00:00",
@@ -3635,6 +3640,11 @@
       "first_added": "2025-06-15T10:03:56+00:00",
       "last_modified": "2025-08-22T14:41:37+00:00",
       "path": "_publications/gomez2018learning.markdown"
+    },
+    "gomez2019learning": {
+      "first_added": "2025-07-19T09:35:03+00:00",
+      "last_modified": "2025-10-21T14:17:47+00:00",
+      "path": "_publications/gomez2019learning.markdown"
     },
     "gomez2019self": {
       "first_added": "2025-06-15T10:03:56+00:00",
@@ -11086,6 +11096,11 @@
       "last_modified": "2025-09-01T09:15:54+00:00",
       "path": "_publications/tao2016siamese.markdown"
     },
+    "taraday2025efficient": {
+      "first_added": "2025-10-21T14:17:47+00:00",
+      "last_modified": "2025-10-21T14:17:47+00:00",
+      "path": "_publications/taraday2025efficient.markdown"
+    },
     "tarawneh2018deep": {
       "first_added": "2025-06-15T10:03:56+00:00",
       "last_modified": "2025-09-01T09:15:54+00:00",
@@ -14697,5 +14712,5 @@
       "path": "_publications/\u00fabeda2019pattern.markdown"
     }
   },
-  "latest_added": "2025-10-14T14:25:40+00:00"
+  "latest_added": "2025-10-21T14:17:47+00:00"
 }
