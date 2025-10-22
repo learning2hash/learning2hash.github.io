@@ -99,12 +99,12 @@ mat = scipy.io.loadmat("Gist512CIFAR10.mat")
   
 # 3. Extract features (X) and classes (labels)  
 data = mat["X"]  
-classes = mat["X\_class"]  
+classes = mat["X_class"]  
   
 # 4. Pre-process the features  
 # - L2 normalisation  
 # - Zero-centering (subtracting mean)  
-data = Normalizer(norm="l2").fit\_transform(data)  
+data = Normalizer(norm="l2").fit_transform(data)  
 data = data - data.mean(axis=0)
 ```
 At this point, we have:
@@ -119,7 +119,7 @@ The code above downloads the CIFAR-10 dataset (pre-processed into GIST features)
 👉 If you’d like to skip the step-by-step walkthrough, you can run the entire pipeline in one go:
 
 ```
-python3 hashing\_tutorial.py
+python3 hashing_tutorial.py
 ```
 This script will:
 
@@ -138,16 +138,16 @@ import numpy as np
 from collections import defaultdict  
   
 # --- Config ---  
-n\_bits = 16 # 16 hyperplanes → 16-bit hash  
+n_bits = 16 # 16 hyperplanes → 16-bit hash  
 dim = data.shape[1] # should be 512 for GIST512  
-rng = np.random.default\_rng(0) # reproducibility  
+rng = np.random.default_rng(0) # reproducibility  
   
 # --- Random hyperplanes (Gaussian) ---  
-random\_vectors = rng.standard\_normal((dim, n\_bits)) # shape: (512, 16)  
+random_vectors = rng.standard_normal((dim, n_bits)) # shape: (512, 16)  
   
 # --- Hash a single image (example) ---  
 x0 = data[0] # one CIFAR-10 image vector  
-bits0 = (x0 @ random\_vectors) >= 0 # boolean hash bits  
+bits0 = (x0 @ random_vectors) >= 0 # boolean hash bits  
 print("hash bits (bool):", bits0)  
 print("hash bits (0/1):", bits0.astype(int))  
 # e.g. [False True False True ...]The last line of code prints out the hashcode assigned to this image. Images with the exact same hashcode will collide in the same hashtable bucket. We would like these colliding images to be semantically similar, that is, to have the same class label.
@@ -156,27 +156,27 @@ Convert the boolean bits to a single bucket id (an integer) so we can index a ha
 
 ```
 # Bits → integer bucket id (big-endian)  
-powers\_of\_two = (1 << np.arange(n\_bits - 1, -1, -1, dtype=np.uint64))  
-bucket0 = int(bits0.dot(powers\_of\_two))  
+powers_of_two = (1 << np.arange(n_bits - 1, -1, -1, dtype=np.uint64))  
+bucket0 = int(bits0.dot(powers_of_two))  
 print("bucket id:", bucket0)
 ```
-Now hash the entiredataset and build the hash table:
+Now hash the entire dataset and build the hash table:
 
 ```
 # --- Hash all images ---  
-bit\_matrix = (data @ random\_vectors) >= 0 # shape: (N, 16)  
-bucket\_ids = bit\_matrix.dot(powers\_of\_two).astype(np.uint64) # shape: (N,)  
+bit_matrix = (data @ random_vectors) >= 0 # shape: (N, 16)  
+bucket_ids = bit_matrix.dot(powers_of_two).astype(np.uint64) # shape: (N,)  
   
-# --- Build hash table: bucket\_id -> list of indices ---  
+# --- Build hash table: bucket_id -> list of indices ---  
 table = defaultdict(list)  
-for idx, b in enumerate(bucket\_ids):  
+for idx, b in enumerate(bucket_ids):  
  table[int(b)].append(idx)  
   
 # Quick stats  
 N = data.shape[0]  
-bucket\_sizes = np.array([len(v) for v in table.values()])  
+bucket_sizes = np.array([len(v) for v in table.values()])  
 print(f"N images: {N}, unique buckets: {len(table)}")  
-print(f"Avg bucket size: {bucket\_sizes.mean():.2f}, max collisions in a bucket: {bucket\_sizes.max()}")
+print(f"Avg bucket size: {bucket_sizes.mean():.2f}, max collisions in a bucket: {bucket_sizes.max()}")
 ```
 Inspect a colliding bucket to see label consistency (good hashing ⇒ many items share the same class):
 
@@ -184,13 +184,13 @@ Inspect a colliding bucket to see label consistency (good hashing ⇒ many items
 labels = classes.ravel() # flatten to shape (N,)  
   
 # Pick the first bucket with >= 2 items  
-example\_bucket, example\_idxs = next((b, idxs) for b, idxs in table.items() if len(idxs) >= 2)  
-print("example bucket:", example\_bucket)  
-print("indices:", example\_idxs)  
-print("labels:", labels[example\_idxs])  
+example_bucket, example_idxs = next((b, idxs) for b, idxs in table.items() if len(idxs) >= 2)  
+print("example bucket:", example_bucket)  
+print("indices:", example_idxs)  
+print("labels:", labels[example_idxs])  
   
 from collections import Counter  
-print("label counts:", Counter(labels[example\_idxs]))
+print("label counts:", Counter(labels[example_idxs]))
 ```
 **What to expect:**
 
@@ -225,18 +225,18 @@ First, we split CIFAR-10 into three parts:
 * **Database** — the collection we search over
 
 ```
-from sklearn.model\_selection import train\_test\_split  
+from sklearn.model_selection import train_test_split  
   
 np.random.seed(0)  
   
 # Split into queries and the rest  
-data\_temp, data\_query, labels\_temp, labels\_query = train\_test\_split(  
- data, classes[0, :], test\_size=0.002, random\_state=42  
+data_temp, data_query, labels_temp, labels_query = train_test_split(  
+ data, classes[0, :], test_size=0.002, random_state=42  
 )  
   
 # Split the remainder into database and training  
-data\_database, data\_train, labels\_database, labels\_train = train\_test\_split(  
- data\_temp, labels\_temp, test\_size=0.02, random\_state=42  
+data_database, data_train, labels_database, labels_train = train_test_split(  
+ data_temp, labels_temp, test_size=0.02, random_state=42  
 )
 ```
 This gives us:
@@ -249,21 +249,21 @@ Next, we index the database with LSH, building the hash table:
 
 ```
 # Step 1: Generate binary hash codes for each image in the database  
-bin\_indices\_bits = data\_database.dot(random\_vectors) >= 0 # shape: (N, n\_bits)  
+bin_indices_bits = data_database.dot(random_vectors) >= 0 # shape: (N, n_bits)  
   
 # Step 2: Convert each binary code into an integer bucket ID  
-bin\_indices = bin\_indices\_bits.dot(powers\_of\_two)  
+bin_indices = bin_indices_bits.dot(powers_of_two)  
   
-# Step 3: Build the hash table (bucket\_id -> list of image indices)  
+# Step 3: Build the hash table (bucket_id -> list of image indices)  
 from collections import defaultdict  
 table = defaultdict(list)  
-for idx, bucket\_id in enumerate(bin\_indices):  
- table[bucket\_id].append(idx)
+for idx, bucket_id in enumerate(bin_indices):  
+ table[bucket_id].append(idx)
 ```
 **What this does:**
 
-* Each image in the database is assigned a binary hash code (bin\_indices\_bits).
-* That binary code is converted into a unique integer ID (bin\_indices) so it can be used as a hash bucket key.
+* Each image in the database is assigned a binary hash code (bin_indices_bits).
+* That binary code is converted into a unique integer ID (bin_indices) so it can be used as a hash bucket key.
 * We then build a hash table (table) that groups together all images with the same bucket ID.
 
 Now, similar images should “collide” in the same bucket — making nearest neighbour search much faster
@@ -291,110 +291,110 @@ from sklearn.metrics.pairwise import pairwise\_distances
 import time  
   
   
-def evaluate\_multiprobe\_lsh(  
- data\_query: np.ndarray,  
- labels\_query: np.ndarray,  
- data\_database: np.ndarray,  
- labels\_database: np.ndarray,  
- random\_vectors: np.ndarray,  
- powers\_of\_two: np.ndarray,  
+def evaluate_multiprobe_lsh(  
+ data_query: np.ndarray,  
+ labels_query: np.ndarray,  
+ data_database: np.ndarray,  
+ labels_database: np.ndarray,  
+ random_vectors: np.ndarray,  
+ powers_of_two: np.ndarray,  
  buckets: Dict[int, List[int]],  
  *,  
- max\_search\_radius: int = 10,  
+ max_search_radius: int = 10,  
  topk: int = 10,  
  metric: str = "cosine",  
 ) -> Tuple[pd.DataFrame, pd.DataFrame]:  
  """  
- Evaluate multi-probe LSH by sweeping Hamming search radius (0..max\_search\_radius).  
+ Evaluate multi-probe LSH by sweeping Hamming search radius (0..max_search_radius).  
   
  Args:  
- data\_query: (Q, D) query vectors.  
- labels\_query: (Q,) labels for queries.  
- data\_database: (N, D) database vectors.  
- labels\_database: (N,) labels for database items (same order as data\_database).  
- random\_vectors: (D, B) projection matrix for hashing to B bits.  
- powers\_of\_two: (B,) array mapping bit-vectors -> integer bucket ids via dot product.  
- buckets: dict mapping bucket\_id -> list of database indices in that bucket.  
- max\_search\_radius: maximum Hamming radius to probe.  
+ data_query: (Q, D) query vectors.  
+ labels_query: (Q,) labels for queries.  
+ data_database: (N, D) database vectors.  
+ labels_database: (N,) labels for database items (same order as data_database).  
+ random_vectors: (D, B) projection matrix for hashing to B bits.  
+ powers_of_two: (B,) array mapping bit-vectors -> integer bucket ids via dot product.  
+ buckets: dict mapping bucket_id -> list of database indices in that bucket.  
+ max_search_radius: maximum Hamming radius to probe.  
  topk: precision@k cutoff.  
  metric: distance metric used for re-ranking (e.g., "cosine").  
   
  Returns:  
- (mean\_time\_df, mean\_precision\_df)  
- mean\_time\_df: columns: ["radius", "mean\_time\_seconds"]  
- mean\_precision\_df: columns: ["radius", "mean\_precision\_at\_k"]  
+ (mean_time_df, mean_precision_df)  
+ mean_time_df: columns: ["radius", "mean_time_seconds"]  
+ mean_precision_df: columns: ["radius", "mean_precision_at_k"]  
  """  
  # History accumulators  
- time\_history: Dict[int, List[float]] = defaultdict(list)  
- precision\_history: Dict[int, List[float]] = defaultdict(list)  
+ time_history: Dict[int, List[float]] = defaultdict(list)  
+ precision_history: Dict[int, List[float]] = defaultdict(list)  
   
  # Precompute once: number of hash bits  
  # We generate the query hash as a boolean vector (True = 1, False = 0).  
- B = random\_vectors.shape[1]  
+ B = random_vectors.shape[1]  
   
- for q\_vec, q\_label in zip(data\_query, labels\_query):  
+ for q_vec, q_label in zip(data_query, labels_query):  
  # Compute binary hash bits for the query  
- # bin\_bits: shape (B,), dtype=bool  
- bin\_bits = np.ravel((q\_vec @ random\_vectors) >= 0)  
+ # bin_bits: shape (B,), dtype=bool  
+ bin_bits = np.ravel((q_vec @ random_vectors) >= 0)  
   
  # Candidate set grows monotonically with radius (multi-probe)  
- candidate\_set: set = set()  
+ candidate_set: set = set()  
   
- for radius in range(max\_search\_radius + 1):  
+ for radius in range(max_search_radius + 1):  
  start = time.time()  
   
  # Probe all buckets within Hamming distance == radius  
  # Note: combinations(range(B), radius) can be large for big B and radius.  
- # Keep max\_search\_radius modest or add a cap if needed.  
- for flip\_idx in combinations(range(B), radius):  
- alt\_bits = bin\_bits.copy()  
- alt\_bits[list(flip\_idx)] = ~alt\_bits[list(flip\_idx)]  
- bucket\_id = int(alt\_bits.dot(powers\_of\_two))  
- if bucket\_id in buckets:  
- candidate\_set.update(buckets[bucket\_id])  
+ # Keep max_search_radius modest or add a cap if needed.  
+ for flip_idx in combinations(range(B), radius):  
+ alt_bits = bin_bits.copy()  
+ alt_bits[list(flip_idx)] = ~alt_bits[list(flip_idx)]  
+ bucket_id = int(alt_bits.dot(powers_of_two))  
+ if bucket_id in buckets:  
+ candidate_set.update(buckets[bucket_id])  
   
  # Re-rank candidates by true distance and compute precision@k  
- if candidate\_set:  
- cand\_idx = list(candidate\_set)  
- cand\_vecs = data\_database[cand\_idx]  
- cand\_labels = labels\_database[cand\_idx]  
+ if candidate_set:  
+ cand_idx = list(candidate_set)  
+ cand_vecs = data_database[cand_idx]  
+ cand_labels = labels_database[cand_idx]  
   
  # Distance to the single query vector (reshape to (1, D))  
- dists = pairwise\_distances(  
- cand\_vecs, q\_vec.reshape(1, -1), metric=metric  
+ dists = pairwise_distances(  
+ cand_vecs, q_vec.reshape(1, -1), metric=metric  
  ).ravel()  
   
  # Build a small dataframe for readability   
  nearest = (  
  pd.DataFrame(  
- {"id": cand\_idx, "label": cand\_labels, "distance": dists}  
+ {"id": cand_idx, "label": cand_labels, "distance": dists}  
  )  
- .sort\_values("distance", ascending=True)  
- .reset\_index(drop=True)  
+ .sort_values("distance", ascending=True)  
+ .reset_index(drop=True)  
  )  
   
- top\_labels = nearest["label"].head(topk).tolist()  
- precision\_at\_k = top\_labels.count(q\_label) / float(topk)  
- precision\_history[radius].append(precision\_at\_k)  
+ top_labels = nearest["label"].head(topk).tolist()  
+ precision_at_k = top_labels.count(q_label) / float(topk)  
+ precision_history[radius].append(precision_at_k)  
  else:  
  # No candidates yet at this radius  
- precision\_history[radius].append(0.0)  
+ precision_history[radius].append(0.0)  
   
  elapsed = time.time() - start  
- time\_history[radius].append(elapsed)  
+ time_history[radius].append(elapsed)  
   
  # Aggregate across queries  
- mean\_time = pd.DataFrame(  
- {"radius": list(range(max\_search\_radius + 1)),  
- "mean\_time\_seconds": [np.mean(time\_history[r]) for r in range(max\_search\_radius + 1)]}  
+ mean_time = pd.DataFrame(  
+ {"radius": list(range(max_search_radius + 1)),  
+ "mean_time_seconds": [np.mean(time_history[r]) for r in range(max_search_radius + 1)]}  
  )  
   
- mean\_precision = pd.DataFrame(  
- {"radius": list(range(max\_search\_radius + 1)),  
- "mean\_precision\_at\_k": [np.mean(precision\_history[r]) for r in range(max\_search\_radius + 1)]}  
+ mean_precision = pd.DataFrame(  
+ {"radius": list(range(max_search_radius + 1)),  
+ "mean_precision_at_k": [np.mean(precision_history[r]) for r in range(max_search_radius + 1)]}  
  )  
   
- return mean\_time, mean\_precision
+ return mean_time, mean_precision
 ```
 With a Hamming radius of 0, the above code yields a mean precision@10 of around 0.08. In practice, this means that out of the 10 retrieved images, fewer than 1 on average is relevant to the query.
 
@@ -408,13 +408,13 @@ To make the workings of GRH concrete, we’ll walk through a small running examp
 
 The figure above shows a toy dataset of cars and tigers. Each image is represented as a node in the graph, and edges connect semantic nearest neighbours (e.g. cars are linked to other cars, tigers to other tigers). The binary codes shown beside each image are the starting point, produced by Locality Sensitive Hashing (LSH). At this stage the codes are still noisy and random, but GRH will refine them over iterations so that similar images cluster together in hash space.
 
-GRH learns from a supervisory signal: an adjacency matrix that encodes which images are semantically related. If two images share the same class label, we set adjacency\_matrix[i, j] = 1; otherwise, it’s 0. Normalising by row ensures each row sums to 1.
+GRH learns from a supervisory signal: an adjacency matrix that encodes which images are semantically related. If two images share the same class label, we set adjacency_matrix[i, j] = 1; otherwise, it’s 0. Normalising by row ensures each row sums to 1.
 
 ```
 # Construct adjacency matrix from training labels  
-adjacency\_matrix = np.equal.outer(labels\_train, labels\_train).astype(int)  
-row\_sums = adjacency\_matrix.sum(axis=1)  
-adjacency\_matrix = adjacency\_matrix / row\_sums[:, np.newaxis]
+adjacency_matrix = np.equal.outer(labels_train, labels_train).astype(int)  
+row_sums = adjacency_matrix.sum(axis=1)  
+adjacency_matrix = adjacency_matrix / row_sums[:, np.newaxis]
 ```
 ### **Learning the hash functions**
 
@@ -453,44 +453,44 @@ Here’s the full iterative process:
 ```
 from sklearn.svm import LinearSVC  
   
-n\_iter = 2 # number of GRH iterations  
+n_iter = 2 # number of GRH iterations  
 alpha = 0.5 # weighting for supervision vs. original codes  
   
-for i in range(n\_iter):  
+for i in range(n_iter):  
  # --- Step 1: Generate initial binary codes with current hyperplanes ---  
- bin\_indices\_bits = (data\_train.dot(random\_vectors) >= 0).astype(int)  
- bin\_indices\_bits[bin\_indices\_bits == 0] = -1 # use -1/1 convention  
+ bin_indices_bits = (data_train.dot(random_vectors) >= 0).astype(int)  
+ bin_indices_bits[bin_indices_bits == 0] = -1 # use -1/1 convention  
   
  # --- Step 2: Refine codes using the adjacency matrix (supervision) ---  
- refined\_bits = adjacency\_matrix @ bin\_indices\_bits.astype(float)  
- refined\_bits = np.where(refined\_bits >= 0, 1, -1)  
+ refined_bits = adjacency_matrix @ bin_indices_bits.astype(float)  
+ refined_bits = np.where(refined_bits >= 0, 1, -1)  
   
  # Blend original codes with refined ones (alpha controls weighting)  
- bin\_indices\_bits = (alpha * refined\_bits + (1 - alpha) * bin\_indices\_bits).astype(float)  
- bin\_indices\_bits = np.where(bin\_indices\_bits >= 0, 1, -1)  
+ bin_indices_bits = (alpha * refined_bits + (1 - alpha) * bin_indices_bits).astype(float)  
+ bin_indices_bits = np.where(bin_indices_bits >= 0, 1, -1)  
   
  # --- Step 3: Update hyperplanes with SVMs ---  
- grh\_hyperplanes = random\_vectors.copy()  
- for j in range(n\_vectors):  
+ grh_hyperplanes = random_vectors.copy()  
+ for j in range(n_vectors):  
  # Edge case: if all bits are identical, reset hyperplane randomly  
- if abs(bin\_indices\_bits[:, j].sum()) == data\_train.shape[0]:  
- grh\_hyperplanes[:, j] = np.random.randn(dim)  
+ if abs(bin_indices_bits[:, j].sum()) == data_train.shape[0]:  
+ grh_hyperplanes[:, j] = np.random.randn(dim)  
  else:  
- svm = LinearSVC(C=1.0, max\_iter=1000)  
- svm.fit(data\_train, bin\_indices\_bits[:, j])  
- grh\_hyperplanes[:, j] = svm.coef\_.ravel()  
+ svm = LinearSVC(C=1.0, max_iter=1000)  
+ svm.fit(data_train, bin_indices\_bits[:, j])  
+ grh_hyperplanes[:, j] = svm.coef_.ravel()  
   
- # Update random\_vectors for the next iteration  
- random\_vectors = grh\_hyperplanes.copy()
+ # Update random_vectors for the next iteration  
+ random_vectors = grh_hyperplanes.copy()
 ```
-In this implementation, I’ve set GRH with *n\_iter = 2* and *alpha = 0.25*.
+In this implementation, I’ve set GRH with *n_iter = 2* and *alpha = 0.25*.
 
-Iterations (*n\_iter*) control how many times we repeat the two GRH steps:
+Iterations (*n_iter*) control how many times we repeat the two GRH steps:
 
 1. Refine hash codes with the adjacency matrix
 2. Update hyperplanes using those refined codes
 
-After two iterations, the *random\_vectors* matrix contains refined hyperplanes — tuned to preserve semantic similarity from the training data (via the adjacency matrix). These hyperplanes can now be used in the same way as before (with a hash table and Hamming radius search) to evaluate retrieval performance.
+After two iterations, the *random_vectors* matrix contains refined hyperplanes — tuned to preserve semantic similarity from the training data (via the adjacency matrix). These hyperplanes can now be used in the same way as before (with a hash table and Hamming radius search) to evaluate retrieval performance.
 
 ### Evaluation — Graph Regularised Hashing (GRH)
 
@@ -509,15 +509,7 @@ To improve retrieval effectiveness, we introduced *Learning to Hash*, where mach
 
 GRH learns its hyperplanes with Support Vector Machines (SVMs), but is not tied to any specific learner. In practice, this means you could swap in a deep neural network for more accurate partitions, or a lightweight passive-aggressive classifier for fast, online adaptation in streaming scenarios.
 
-In this article, we focused on a single-hashtable implementation of LSH and GRH, and boosted retrieval further with multi-probing (searching nearby buckets). An alternative approach is to use multiple independent hash tables instead of probing within one — a valuable direction for a future deep dive.
-
-For readers eager to explore Learning to Hash in more depth, *Awesome Learning to Hash* is a curated, and regularly updated resource. It offers:
-
-* **Access to over 3,000 key papers**, all organised by topic, method, and application domain
-* Browsing tools: search by tag or author, view papers in a 2D topic map, explore tutorial materials and practical tools
-* A community‑driven structure — with an option to contribute your own papers or suggest updates
-
-Check it out here: [Awesome Learning to Hash](https://learning2hash.github.io/).
+In this article, we focused on a single-hashtable implementation of LSH and GRH, and boosted retrieval further with multi-probing (searching nearby buckets). An alternative 
 
 *Disclaimer: The views and opinions expressed in this article are my own and do not represent those of my employer or any affiliated organizations. The content is based on personal experience and reflection, and should not be taken as professional or academic advice.*
 
