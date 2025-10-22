@@ -142,6 +142,10 @@ This site is maintained as a community-driven literature review. If you have aut
 To explore further, view the full set of indexed papers on the <a href="/papers.html">All Papers</a> page, or visit the <a href="/resources.html">Resources</a> section for foundational materials and curated tools.
 </p>
 
+<p style="font-size:0.9em; color:#666; margin-top:1em;">
+If you find this resource helpful, you can <a href="https://www.buymeacoffee.com/sjmoran" target="_blank" style="color:#2563eb; text-decoration:none;">buy me a coffee ☕</a> to support its upkeep.
+</p>
+
 ---
 
 <p style="font-size: 0.9em;">Copyright © <a href="https://sjmoran.github.io/">Sean Moran</a> 2025. All opinions are my own.</p>
