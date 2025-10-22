@@ -509,7 +509,7 @@ To improve retrieval effectiveness, we introduced *Learning to Hash*, where mach
 
 GRH learns its hyperplanes with Support Vector Machines (SVMs), but is not tied to any specific learner. In practice, this means you could swap in a deep neural network for more accurate partitions, or a lightweight passive-aggressive classifier for fast, online adaptation in streaming scenarios.
 
-In this article, we focused on a single-hashtable implementation of LSH and GRH, and boosted retrieval further with multi-probing (searching nearby buckets). An alternative 
+In this article, we focused on a single-hashtable implementation of LSH and GRH, and boosted retrieval further with multi-probing (searching nearby buckets). An alternative approach is to use multiple independent hash tables instead of probing within one — a valuable direction for a future deep dive.
 
 *Disclaimer: The views and opinions expressed in this article are my own and do not represent those of my employer or any affiliated organizations. The content is based on personal experience and reflection, and should not be taken as professional or academic advice.*
 
