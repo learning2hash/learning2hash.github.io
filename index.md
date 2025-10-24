@@ -134,4 +134,4 @@ To explore further, view the full set of indexed papers on the <a href="/papers.
 
 ---
 
-<p style="font-size: 0.9em;">Copyright © <a href="https://sjmoran.github.io/">Sean Moran</a> 2025. All opinions are my own. If you find this resource helpful, a coffee is always appreciated <a href="https://www.buymeacoffee.com/sjmoran" target="_blank" style="color:#2563eb; text-decoration:none;">☕</a> to support its upkeep.</p>
+<p style="font-size: 0.9em;">Copyright © <a href="https://sjmoran.github.io/">Sean Moran</a> 2025. All opinions are my own. If you find this resource helpful, a <a href="https://www.buymeacoffee.com/sjmoran" target="_blank" style="color:#2563eb; text-decoration:none;">coffee ☕</a> is always appreciated to support its upkeep. </p>
