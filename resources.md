@@ -192,17 +192,17 @@ More: [ann-benchmarks.com](http://ann-benchmarks.com)
 
 Here are a few recommended books on large-scale machine learning:
 
-- **[Mining of Massive Datasets](https://amzn.to/42PeRDM)**: *(affiliate link)* This classic book explores large-scale data mining techniques, including graph processing, clustering, recommendation, and Locality-Sensitive Hashing (LSH). It's a core resource for anyone working on scalable algorithms for big data.
+- **[Mining of Massive Datasets](https://amzn.to/42PeRDM)**: This classic book explores large-scale data mining techniques, including graph processing, clustering, recommendation, and Locality-Sensitive Hashing (LSH). It's a core resource for anyone working on scalable algorithms for big data.
 
-- **[Introduction to Information Retrieval](https://amzn.to/3WHTNvo)**: *(affiliate link)* Authored by Manning, Raghavan, and Schütze, this book is essential reading for understanding search engines, indexing, relevance, and vector space models — including chapters on hashing for text retrieval.
+- **[Introduction to Information Retrieval](https://amzn.to/3WHTNvo)**: Authored by Manning, Raghavan, and Schütze, this book is essential reading for understanding search engines, indexing, relevance, and vector space models — including chapters on hashing for text retrieval.
 
-- **[Efficient Processing of Deep Neural Networks](https://link.springer.com/book/10.1007/978-3-031-01766-7)**: *(affiliate link)* A practical and theoretical guide to optimizing deep neural networks for deployment. It covers model compression, quantization, and hashing, making it highly relevant for efficient deep hashing research.
+- **[Efficient Processing of Deep Neural Networks](https://link.springer.com/book/10.1007/978-3-031-01766-7)**: A practical and theoretical guide to optimizing deep neural networks for deployment. It covers model compression, quantization, and hashing, making it highly relevant for efficient deep hashing research.
 
-- **[Similarity Search: The Metric Space Approach](https://amzn.to/46ZLVLV)** *(affiliate link)* by Zezula et al.: A foundational text on similarity search in metric spaces, offering deep insight into indexing and retrieval techniques that predate modern hashing but remain highly relevant.
+- **[Similarity Search: The Metric Space Approach](https://amzn.to/46ZLVLV)** by Zezula et al.: A foundational text on similarity search in metric spaces, offering deep insight into indexing and retrieval techniques that predate modern hashing but remain highly relevant.
 
-- **[Foundations of Data Science](https://amzn.to/47gHAms)** *(affiliate link)* by Blum, Hopcroft, and Kannan: A mathematically rigorous treatment of data science topics, including high-dimensional geometry, random projections, and algorithms that underlie LSH and related hashing techniques.
+- **[Foundations of Data Science](https://amzn.to/47gHAms)**  by Blum, Hopcroft, and Kannan: A mathematically rigorous treatment of data science topics, including high-dimensional geometry, random projections, and algorithms that underlie LSH and related hashing techniques.
 
-- **[Deep Learning](https://amzn.to/47updLU)** *(affiliate link)* by Goodfellow, Bengio, and Courville: The definitive book on deep learning. While not specific to hashing, it provides the theoretical backbone for understanding the neural network architectures used in deep supervised hashing models.
+- **[Deep Learning](https://amzn.to/47updLU)** by Goodfellow, Bengio, and Courville: The definitive book on deep learning. While not specific to hashing, it provides the theoretical backbone for understanding the neural network architectures used in deep supervised hashing models.
 
 ### 🗃️📥 Pre-Processed Datasets for Download
 
@@ -235,7 +235,4 @@ Here are a few recommended books on large-scale machine learning:
 - **[GLUE Benchmark](https://gluebenchmark.com/)**: The General Language Understanding Evaluation (GLUE) benchmark consists of a variety of natural language processing tasks that test a model's understanding of language. While not traditionally used for image hashing, it provides valuable challenges for text-based hashing techniques.
 
 ---
-Please, feel free to submit a [web form](contributing.markdown) to add more links in this page.
-
-As an Amazon Associate, this site earns from qualifying purchases made. This comes at no additional cost to you.  *(All Amazon links marked as “affiliate link.”)*
-
+Please, feel free to submit a [web form](contributing.markdown) to add more links in this page. As an Amazon Associate, this site earns from qualifying purchases made. Some of the links above may be affiliate links. This comes at no additional cost to you. 
