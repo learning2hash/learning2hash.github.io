@@ -47,7 +47,7 @@ description: A list of research papers for Learning to Hash.
     display: inline-block;
     margin-left: .5em;
     font-weight: 700;
-    color: #c00000;
+    color: #c00000; /* red */
   }
 </style>
 
@@ -77,8 +77,8 @@ description: A list of research papers for Learning to Hash.
   table#allPapers { width:100%; border-collapse: collapse; font-size: 0.95rem; table-layout: fixed; }
   @media (max-width: 768px){ table#allPapers { table-layout: auto; } }
 
-  #allPapers th:nth-child(1), #allPapers td:nth-child(1) { width: 6ch; }
-  #allPapers th:nth-child(4), #allPapers td:nth-child(4) { width: 8ch; }
+  #allPapers th:nth-child(1), #allPapers td:nth-child(1) { width: 6ch; }  /* Year */
+  #allPapers th:nth-child(4), #allPapers td:nth-child(4) { width: 8ch; }  /* Citations */
   #allPapers th:nth-child(2), #allPapers td:nth-child(2),
   #allPapers th:nth-child(3), #allPapers td:nth-child(3) { width: auto; }
   #allPapers thead th { white-space: normal; }
@@ -131,7 +131,8 @@ description: A list of research papers for Learning to Hash.
 
   async function loadJSONs() {
     const [papersRes, histRes] = await Promise.all([
-      fetch('{{ site.baseurl }}/paper-abstracts.json', { cache: 'force-cache' }),
+      // keep history and papers fresh so NEW stays correct
+      fetch('{{ site.baseurl }}/paper-abstracts.json', { cache: 'no-store' }),
       fetch('{{ site.baseurl }}/assets/paper-history.json', { cache: 'no-store' })
     ]);
     if (!papersRes.ok) throw new Error('Failed to load paper-abstracts.json');
@@ -165,13 +166,20 @@ description: A list of research papers for Learning to Hash.
   }
 
   function buildTable(rows, history, initialQuery) {
-    const latestAdded = ts(history.latest_added);
+    const now = Math.floor(Date.now() / 1000);
     const ONE_DAY = 24 * 3600;
+    const SEVEN_DAYS = 7 * ONE_DAY;
+
+    const items = history.items || {};
+    const latestAdded = ts(history.latest_added); // optional: for debugging
 
     const data = rows.map(r => {
       const year = toNumber(r.year);
       const citations = toNumber(r.citations);
-      const key = (r.key || '').toLowerCase();
+
+      const rawKey = r.key || '';
+      const normKey = rawKey.toLowerCase().trim();
+
       const title = (r.title || '').trim();
       const short_authors = r.short_authors || (Array.isArray(r.authors)
         ? r.authors.slice(0, 3).join(', ') + (r.authors.length > 3 ? ' et al.' : '')
@@ -179,16 +187,20 @@ description: A list of research papers for Learning to Hash.
       const authors = Array.isArray(r.authors)
         ? r.authors.join(', ').trim()
         : (r.authors || '').trim();
-      const url = (r.url && String(r.url)) ||
-        (key ? (PAGE_URL_PREFIX + encodeURIComponent(key) + PAGE_URL_SUFFIX) : null);
 
-      const hItem = (history.items && history.items[key]) || {};
+      const url = (r.url && String(r.url)) ||
+        (normKey ? (PAGE_URL_PREFIX + encodeURIComponent(normKey) + PAGE_URL_SUFFIX) : null);
+
+      // Robust history key lookup
+      const hItem = items[normKey] || items[rawKey] || items[(rawKey || '').trim()] || {};
       const firstAdded = ts(hItem.first_added);
       const added_ts = firstAdded || 0;
-      const isNew = latestAdded && firstAdded && Math.abs(firstAdded - latestAdded) <= ONE_DAY;
+
+      // NEW if within last 7 days
+      const isNew = !!firstAdded && (now - firstAdded) <= SEVEN_DAYS;
 
       const titleHtml = url ? `<a href="${url}">${escapeHtml(title)}</a>` : escapeHtml(title);
-      const badge = isNew ? `<span class="badge-new">NEW</span>` : '';
+      const badge = isNew ? `<span class="badge-new" aria-label="Added in last 7 days">NEW</span>` : '';
 
       return {
         year,
@@ -213,8 +225,8 @@ description: A list of research papers for Learning to Hash.
         { data: 'short_authors', title: 'Authors' },
         { data: 'citations', title: 'Citations' },
         { data: 'authors', visible: false, searchable: true, title: 'All Authors' },
-        { data: 'added_ts', visible: false },
-        { data: 'is_new', visible: false }
+        { data: 'added_ts', visible: false }, // hidden first_added (epoch seconds)
+        { data: 'is_new', visible: false }    // hidden NEW flag
       ],
       columnDefs: [
         { targets: 1, render: (data)=>data, orderable: true },
@@ -225,6 +237,7 @@ description: A list of research papers for Learning to Hash.
       pageLength: PAGE_LEN,
       lengthMenu: LENGTH_MENU,
       searching: true,
+      // Sort NEW first, then by addition recency, then by year, then by citations
       order: [[6, 'desc'], [5, 'desc'], [0, 'desc'], [3, 'desc']],
       autoWidth: true,
       deferRender: true,
@@ -238,9 +251,11 @@ description: A list of research papers for Learning to Hash.
         if (loaderEl) loaderEl.style.display = 'none';
 
         const debounce = (fn, ms = 120) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
-        if (typeof initialQuery === 'string' && initialQuery.length) {
-          if (input) input.value = initialQuery;
-          api.search(initialQuery).draw(false);
+
+        const initial = typeof initialQuery === 'string' ? initialQuery : '';
+        if (initial.length) {
+          if (input) input.value = initial;
+          api.search(initial).draw(false);
         }
 
         const applyFromInput = debounce(() => {
@@ -275,6 +290,9 @@ description: A list of research papers for Learning to Hash.
     const recalc = (() => { let t; return () => { clearTimeout(t); t=setTimeout(() => dt.columns.adjust(), 120); }; })();
     window.addEventListener('resize', recalc);
     window.addEventListener('orientationchange', recalc);
+
+    // Dev aid:
+    // if (!latestAdded) console.warn('history.latest_added missing or unparsable:', history.latest_added);
   }
 
   async function start() {
