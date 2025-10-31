@@ -68,10 +68,10 @@ Let’s start by creating a clean Python environment for the tutorial. Run the f
 
 ```
 # 1. Create a new virtual environment called 'hashing\_tutorial'  
-python3 -m venv ./hashing\_tutorial  
+python3 -m venv ./hashing_tutorial  
   
 # 2. Activate the environment  
-source hashing\_tutorial/bin/activate  
+source hashing_tutorial/bin/activate  
   
 # 3. Install the required packages  
 pip3 install -r requirements.txt
