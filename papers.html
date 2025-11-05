@@ -168,7 +168,7 @@ description: A list of research papers for Learning to Hash.
   function buildTable(rows, history, initialQuery) {
     const now = Math.floor(Date.now() / 1000);
     const ONE_DAY = 24 * 3600;
-    const SEVEN_DAYS = 7 * ONE_DAY;
+    const SEVEN_DAYS = 10 * ONE_DAY;
 
     const items = history.items || {};
     const latestAdded = ts(history.latest_added); // optional: for debugging
