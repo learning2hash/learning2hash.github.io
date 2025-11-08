@@ -4,134 +4,243 @@ title: Search all Publications on Learning to Hash
 description: A list of research papers for Learning to Hash.
 ---
 
-<h2>Search Publications</h2>
-<p>
+<h2 style="font-size: 1.8em; margin-bottom: 10px;">🔎 Search Learning-to-Hash Publications</h2>
+<p style="font-size: 1.05em;">
   Search across all papers in this collection. Use the search bar to filter by <strong>title</strong> 
   and <strong>authors</strong>. Click a title to open the paper’s page. 
   <strong style="color:#c00000;">NEW</strong> marks papers ingested in the past week.
 </p>
 
+<!-- Slim Toolbar: search + visible count -->
+<div id="papersToolbar" class="toolbar" style="display:none;">
+  <div class="left">
+    <div class="search">
+      <label for="papersSearch"><strong>Search</strong></label>
+      <input id="papersSearch" type="search" placeholder="🔍 Search title or authors…" inputmode="search" />
+      <button id="resetPapersSearch" type="button" aria-label="Clear search">Clear</button>
+      <span id="papersVisibleCount" class="small" aria-live="polite"></span>
+    </div>
+  </div>
+</div>
+
 <!-- Loading Indicator -->
-<div id="loading" aria-live="polite" role="status">
-  <p>Loading Paper List…</p>
+<div id="loading" role="status" aria-live="polite">
+  <p>Loading Publications …</p>
 </div>
 
-<!-- Search control -->
-<div class="controls">
-  <div class="search">
-    <label for="globalSearch"><strong>Search</strong></label>
-    <input id="globalSearch" type="search" placeholder="Search papers…" inputmode="search" />
-    <button id="resetSearch" type="button">Clear</button>
-  </div>
-</div>
+<!-- Cards View (only) -->
+<div id="cardsGrid" class="cards" style="display:none;" aria-live="polite"></div>
+<p id="emptyState" class="empty" style="display:none;">No papers match your search.</p>
 
-<div class="content-bound">
-  <div class="table-wrap">
-    <table id="allPapers" class="display stripe hover" style="width:100%;">
-      <thead>
-        <tr>
-          <th>Year</th>
-          <th>Title</th>
-          <th>Authors</th>
-          <th>Citations</th>
-          <th style="display:none">All Authors</th>
-        </tr>
-      </thead>
-      <tbody><!-- rows added via JS --></tbody>
-    </table>
-  </div>
-</div>
-
-<style>
-  .badge-new {
-    display: inline-block;
-    margin-left: .5em;
-    font-weight: 700;
-    color: #c00000; /* red */
-  }
-</style>
+<!-- Hidden Data Table (used as an efficient data engine) -->
+<table id="papers-table" class="display stripe hover" style="width:100%; display:none;">
+  <thead>
+    <tr>
+      <th>TitleHTML</th>     <!-- 0 -->
+      <th>ShortAuthors</th>  <!-- 1 -->
+      <th>Year</th>          <!-- 2 -->
+      <th>Citations</th>     <!-- 3 -->
+      <th>RawSearch</th>     <!-- 4 -->
+      <th>AddedTS</th>       <!-- 5 -->
+      <th>IsNew</th>         <!-- 6 -->
+      <th>URL</th>           <!-- 7 -->
+      <th>AllAuthors</th>    <!-- 8 -->
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
 
 <style>
   :root{
-    --sidebar-width: 0px;
-    --page-gutter: clamp(12px, 2vw, 24px);
-  }
-  .controls { display:flex; flex-wrap:wrap; align-items:flex-start; gap:.6rem; margin:.6rem 0 .9rem; }
-  .search { display:flex; align-items:flex-start; gap:.6rem; flex-wrap:wrap; }
-  .search label { font-weight:700; font-size:.85rem; }
-  .search input[type="search"] {
-    width: 260px; max-width: 100%;
-    padding:.25rem .4rem; border:1px solid #aaa; border-radius:4px; font-size:.9rem; background-color:#f8f9fa;
-  }
-  .search input:focus { outline:none; border-color:#0c5fce; box-shadow:0 0 0 2px rgba(26,115,232,.25); }
-  .search button { padding:.25rem .5rem; font-size:.85rem; border:1px solid #aaa; border-radius:4px; background:#f8f9fa; cursor:pointer; }
-  .search button:hover { background:#e2e2e2; }
-
-  .content-bound{
-    width:100%;
-    max-width: min(100%, calc(100vw - var(--sidebar-width) - var(--page-gutter)));
-    box-sizing: border-box;
-  }
-  .table-wrap{ width:100%; overflow-x:auto; -webkit-overflow-scrolling: touch; }
-
-  table#allPapers { width:100%; border-collapse: collapse; font-size: 0.95rem; table-layout: fixed; }
-  @media (max-width: 768px){ table#allPapers { table-layout: auto; } }
-
-  #allPapers th:nth-child(1), #allPapers td:nth-child(1) { width: 6ch; }  /* Year */
-  #allPapers th:nth-child(4), #allPapers td:nth-child(4) { width: 8ch; }  /* Citations */
-  #allPapers th:nth-child(2), #allPapers td:nth-child(2),
-  #allPapers th:nth-child(3), #allPapers td:nth-child(3) { width: auto; }
-  #allPapers thead th { white-space: normal; }
-  #allPapers tbody td { white-space: normal; word-break: break-word; overflow-wrap: anywhere; }
-
-  #allPapers td:nth-child(1), #allPapers th:nth-child(1),
-  #allPapers td:nth-child(4), #allPapers th:nth-child(4) {
-    text-align:right; font-variant-numeric: tabular-nums;
+    --bg:#ffffff;
+    --card:#fff;
+    --muted:#6b7280;
+    --line:#e5e7eb;
+    --shadow:0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.04);
+    --brand:#1a73e8;
   }
 
-  @media (max-width: 900px) { #allPapers { font-size: 0.9rem; } }
-  @media (max-width: 600px) { #allPapers { font-size: 0.85rem; } }
+  .toolbar{
+    position:sticky; top:0; z-index:20;
+    background: linear-gradient(#fff, rgba(255,255,255,.92));
+    backdrop-filter: blur(4px);
+    border:1px solid var(--line);
+    border-radius:12px; padding:10px 12px; margin:8px 0 12px;
+    display:flex; align-items:center; justify-content:flex-start; gap:12px;
+    box-shadow: var(--shadow);
+  }
 
-  #loading {
-    position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
-    font-size: 1.05em; text-align: center; z-index: 10; background: white;
-    padding: .8em 1.2em; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.08);
+  .search{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .search label{ font-weight:700; font-size:.85rem; }
+  .search input{
+    width:clamp(220px, 32vw, 560px); padding:.45rem .6rem;
+    border:1px solid #cbd5e1; border-radius:8px; font-size:.95rem; background-color:#f8fafc;
+  }
+  .search input:focus{ outline:none; border-color:var(--brand); box-shadow:0 0 0 2px rgba(26,115,232,.18); }
+  .search button{
+    padding:.45rem .6rem; font-size:.85rem; border:1px solid #cbd5e1; border-radius:8px; background:#f8fafc; cursor:pointer;
+  }
+  .search button:hover{ background:#eef2f7; }
+  .small{ color:var(--muted); font-size:.9em; }
+
+  .cards{
+    display:grid; gap:14px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  .card{
+    border:1px solid var(--line); border-radius:14px; background:var(--card);
+    padding:14px; box-shadow: var(--shadow); transition: transform .06s ease;
+  }
+  .card:hover{ transform: translateY(-1px); }
+  .meta{ display:flex; align-items:center; gap:10px; margin-bottom:8px; color:var(--muted); font-size:.9rem; }
+  .year, .cites{ font-variant-numeric: tabular-nums; }
+  .title{ font-weight:700; line-height:1.25; margin:0 0 6px; }
+  .title a{ text-decoration:none; color:#0f172a; }
+  .title a:hover{ text-decoration:underline; }
+  .authors{ color:#374151; font-size:.95rem; line-height:1.4; }
+  .badges{ display:flex; align-items:center; gap:6px; margin-top:10px; }
+  .badge{
+    font-size:.75rem; border:1px solid var(--line); color:#0f172a; padding:.2rem .45rem; border-radius:999px; background:#f7f7fb;
+  }
+  .badge.new{ border-color:#ffe3a3; background:#fff6d8; color:#8a5a00; }
+
+  .empty{ color:var(--muted); text-align:center; padding:24px 8px; }
+
+  .dataTables_wrapper{ width:100%; overflow-x:hidden; }
+  #papers-table{ width:100%; border-collapse:collapse; table-layout:auto; }
+  #papers-table td{ white-space: normal !important; word-break: break-word; overflow-wrap:anywhere; vertical-align: top; }
+  #papers-table th{ white-space: nowrap !important; overflow: hidden; text-overflow: ellipsis; vertical-align: middle; }
+  .dataTables_filter{ display:none !important; }
+
+  #loading{
+    position:fixed; top:50%; left:50%; transform:translate(-50%,-50%);
+    font-size:1.05em; text-align:center; z-index:1000;
+    background:white; padding:.8em 1.2em; border:1px solid #ccc; border-radius:8px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+  }
+
+  @media (max-width: 640px){
+    .toolbar{ border-radius:10px; }
   }
 </style>
 
-<!-- Self-hosted vendor assets -->
-<script src="{{ '/assets/vendor/jquery-3.6.0.min.js' | relative_url }}" defer></script>
 <link rel="stylesheet" href="{{ '/assets/vendor/datatables-1.13.6.min.css' | relative_url }}">
-<script src="{{ '/assets/vendor/datatables-1.13.6.min.js' | relative_url }}" defer></script>
 <link rel="stylesheet" href="{{ '/assets/vendor/dataTables.responsive-2.5.0.min.css' | relative_url }}">
+<script src="{{ '/assets/vendor/jquery-3.6.0.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/vendor/datatables-1.13.6.min.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/vendor/dataTables.responsive-2.5.0.min.js' | relative_url }}" defer></script>
 
-<!-- Page Logic -->
 <script>
 (function () {
-  const loaderEl = document.getElementById('loading');
-  const input = document.getElementById('globalSearch');
-  const reset = document.getElementById('resetSearch');
-
-  const PAGE_URL_PREFIX = '{{ site.baseurl }}' + '/publications/';
-  const PAGE_URL_SUFFIX = '';
-
+  // ---------- Hash deep-link ----------
   function readHashQuery() {
     const raw = window.location.hash ? window.location.hash.slice(1) : '';
     if (!raw) return '';
     try { return decodeURIComponent(raw.replace(/\+/g, ' ')); } catch { return raw; }
   }
   function setHash(q) {
-    if (q && q.trim().length) {
-      history.replaceState(null, '', '#' + encodeURIComponent(q.trim()));
-    } else {
-      history.replaceState(null, '', location.pathname + location.search);
+    if (q && q.trim().length) history.replaceState(null, '', '#' + encodeURIComponent(q.trim()));
+    else history.replaceState(null, '', location.pathname + location.search);
+  }
+
+  // ---------- Utilities ----------
+  function escapeHtml(s) {
+    return String(s)
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
+  }
+  function toNumber(x) {
+    if (x === null || x === undefined) return 0;
+    if (typeof x === 'number') return x;
+    const n = String(x).replace(/,/g, '').match(/-?\d+(\.\d+)?/);
+    return n ? Number(n[0]) : 0;
+  }
+  function ts(s) { // iso -> seconds epoch
+    if (!s) return 0;
+    const d = new Date(s);
+    return isNaN(d.getTime()) ? 0 : Math.floor(d.getTime() / 1000);
+  }
+  function fmtDate(tsMs){
+    if (!tsMs) return '';
+    return new Date(tsMs).toLocaleString('en-GB', { day:'2-digit', month:'short', year:'numeric' });
+  }
+  function debounce(fn, ms=120){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; }
+
+  // ---------- DOM refs ----------
+  const loadingEl = document.getElementById('loading');
+  const toolbarEl = document.getElementById('papersToolbar');
+  const inputEl   = document.getElementById('papersSearch');
+  const resetEl   = document.getElementById('resetPapersSearch');
+  const countEl   = document.getElementById('papersVisibleCount');
+  const gridEl    = document.getElementById('cardsGrid');
+  const emptyEl   = document.getElementById('emptyState');
+
+  let datatable;
+
+  function updateVisibleCount(){
+    if (!datatable || !countEl) return;
+    countEl.textContent = datatable.rows({ filter:'applied' }).count() + ' papers';
+  }
+
+  function renderCards(){
+    if (!datatable) return;
+    const rows = datatable.rows({ filter:'applied' }).data().toArray();
+    gridEl.innerHTML = '';
+
+    if (!rows.length){
+      gridEl.style.display='none';
+      emptyEl.style.display='';
+      updateVisibleCount();
+      return;
     }
+    emptyEl.style.display='none';
+    gridEl.style.display='grid';
+
+    const now = Math.floor(Date.now()/1000);
+    const seven = 7*24*3600;
+
+    rows.forEach(r => {
+      const titleHTML   = r[0];
+      const shortAuth   = r[1] || '';
+      const year        = +r[2] || '';
+      const citations   = +r[3] || 0;
+      const addedTs     = +r[5] || 0;
+      const isNew       = !!r[6];
+      const url         = r[7] || '';
+
+      const showNew = isNew || (addedTs && (now - addedTs <= seven));
+
+      const card = document.createElement('article');
+      card.className = 'card';
+      card.innerHTML = `
+        <div class="meta">
+          <span class="year" title="Year">${year || '—'}</span>
+          <span>•</span>
+          <span class="cites" title="Citations">${citations} cites</span>
+          ${addedTs ? `<span>•</span><time datetime="${new Date(addedTs*1000).toISOString()}">${fmtDate(addedTs*1000)}</time>` : ''}
+        </div>
+        <h3 class="title">${titleHTML}</h3>
+        <div class="authors">${escapeHtml(shortAuth || '—')}</div>
+        <div class="badges">
+          ${showNew ? '<span class="badge new">NEW</span>' : ''}
+        </div>
+      `;
+
+      if (url){
+        const a = card.querySelector('.title a');
+        if (!a){
+          const h3 = card.querySelector('.title');
+          h3.innerHTML = `<a href="${url}">${h3.textContent}</a>`;
+        }
+      }
+      gridEl.appendChild(card);
+    });
+
+    updateVisibleCount();
   }
 
   async function loadJSONs() {
     const [papersRes, histRes] = await Promise.all([
-      // keep history and papers fresh so NEW stays correct
       fetch('{{ site.baseurl }}/paper-abstracts.json', { cache: 'no-store' }),
       fetch('{{ site.baseurl }}/assets/paper-history.json', { cache: 'no-store' })
     ]);
@@ -141,175 +250,162 @@ description: A list of research papers for Learning to Hash.
     return { papers, history };
   }
 
-  function toNumber(x) {
-    if (x === null || x === undefined) return 0;
-    if (typeof x === 'number') return x;
-    const n = String(x).replace(/,/g, '').match(/-?\d+(\.\d+)?/);
-    return n ? Number(n[0]) : 0;
-  }
+  function buildRows(papers, history){
+    const PAGE_URL_PREFIX = '{{ site.baseurl }}' + '/publications/';
+    const items = (history && history.items) ? history.items : {};
 
-  function hasDT() { return window.jQuery && jQuery.fn && jQuery.fn.dataTable; }
-
-  function escapeHtml(s) {
-    return String(s)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;')
-      .replace(/"/g, '&quot;')
-      .replace(/'/g, '&#39;');
-  }
-
-  function ts(s) {
-    if (!s) return 0;
-    const d = new Date(s);
-    return isNaN(d.getTime()) ? 0 : Math.floor(d.getTime() / 1000);
-  }
-
-  function buildTable(rows, history, initialQuery) {
-    const now = Math.floor(Date.now() / 1000);
-    const ONE_DAY = 24 * 3600;
-    const SEVEN_DAYS = 10 * ONE_DAY;
-
-    const items = history.items || {};
-    const latestAdded = ts(history.latest_added); // optional: for debugging
-
-    const data = rows.map(r => {
-      const year = toNumber(r.year);
-      const citations = toNumber(r.citations);
-
+    const rows = papers.map(r => {
       const rawKey = r.key || '';
       const normKey = rawKey.toLowerCase().trim();
 
       const title = (r.title || '').trim();
-      const short_authors = r.short_authors || (Array.isArray(r.authors)
-        ? r.authors.slice(0, 3).join(', ') + (r.authors.length > 3 ? ' et al.' : '')
+      const url = (r.url && String(r.url)) ||
+                  (normKey ? (PAGE_URL_PREFIX + encodeURIComponent(normKey)) : '');
+
+      const shortAuthors = r.short_authors || (Array.isArray(r.authors)
+        ? r.authors.slice(0,3).join(', ') + (r.authors.length > 3 ? ' et al.' : '')
         : (r.authors || ''));
-      const authors = Array.isArray(r.authors)
+
+      const allAuthors = Array.isArray(r.authors)
         ? r.authors.join(', ').trim()
         : (r.authors || '').trim();
 
-      const url = (r.url && String(r.url)) ||
-        (normKey ? (PAGE_URL_PREFIX + encodeURIComponent(normKey) + PAGE_URL_SUFFIX) : null);
+      const year = toNumber(r.year);
+      const citations = toNumber(r.citations);
 
-      // Robust history key lookup
+      // History / NEW
       const hItem = items[normKey] || items[rawKey] || items[(rawKey || '').trim()] || {};
-      const firstAdded = ts(hItem.first_added);
-      const added_ts = firstAdded || 0;
+      const firstAdded = ts(hItem.first_added); // epoch seconds
+      const isNew = (firstAdded && (Math.floor(Date.now()/1000) - firstAdded) <= 7*24*3600) ? 1 : 0;
 
-      // NEW if within last 7 days
-      const isNew = !!firstAdded && (now - firstAdded) <= SEVEN_DAYS;
+      const titleCell = url
+        ? `<a href="${url}">${escapeHtml(title || '(untitled)')}</a>`
+        : escapeHtml(title || '(untitled)');
 
-      const titleHtml = url ? `<a href="${url}">${escapeHtml(title)}</a>` : escapeHtml(title);
-      const badge = isNew ? `<span class="badge-new" aria-label="Added in last 7 days">NEW</span>` : '';
-
-      return {
+      const raw = [
+        title,
+        shortAuthors,
+        allAuthors,
         year,
-        title_link: titleHtml + badge,
-        short_authors,
-        authors,
         citations,
-        added_ts,
-        is_new: isNew ? 1 : 0
-      };
+        rawKey
+      ].join(' ').toLowerCase();
+
+      return [
+        titleCell,                // 0 TitleHTML
+        shortAuthors || '—',      // 1 ShortAuthors
+        year,                     // 2 Year
+        citations,                // 3 Citations
+        raw,                      // 4 RawSearch
+        firstAdded || 0,          // 5 AddedTS (epoch s)
+        isNew,                    // 6 IsNew
+        url,                      // 7 URL
+        allAuthors || ''          // 8 AllAuthors
+      ];
     });
 
-    const isMobile = window.matchMedia('(max-width: 768px)').matches;
-    const PAGE_LEN = isMobile ? 50 : 200;
-    const LENGTH_MENU = isMobile ? [25, 50, 75, 100] : [25, 50, 100, 250, 1000, 2000];
-
-    const dt = jQuery('#allPapers').DataTable({
-      data,
-      columns: [
-        { data: 'year', title: 'Year' },
-        { data: 'title_link', title: 'Title' },
-        { data: 'short_authors', title: 'Authors' },
-        { data: 'citations', title: 'Citations' },
-        { data: 'authors', visible: false, searchable: true, title: 'All Authors' },
-        { data: 'added_ts', visible: false }, // hidden first_added (epoch seconds)
-        { data: 'is_new', visible: false }    // hidden NEW flag
-      ],
-      columnDefs: [
-        { targets: 1, render: (data)=>data, orderable: true },
-        { targets: [0,3], type: 'num', searchable: false },
-        { targets: [1,2,4], searchable: true }
-      ],
-      paging: true,
-      pageLength: PAGE_LEN,
-      lengthMenu: LENGTH_MENU,
-      searching: true,
-      // Sort NEW first, then by addition recency, then by year, then by citations
-      order: [[6, 'desc'], [5, 'desc'], [0, 'desc'], [3, 'desc']],
-      autoWidth: true,
-      deferRender: true,
-      stateSave: !isMobile,
-      scrollX: true,
-      responsive: false,
-      orderClasses: false,
-      dom: 't<"bottom"ip>',
-      initComplete: function () {
-        const api = this.api();
-        if (loaderEl) loaderEl.style.display = 'none';
-
-        const debounce = (fn, ms = 120) => { let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; };
-
-        const initial = typeof initialQuery === 'string' ? initialQuery : '';
-        if (initial.length) {
-          if (input) input.value = initial;
-          api.search(initial).draw(false);
-        }
-
-        const applyFromInput = debounce(() => {
-          const q = input ? input.value : '';
-          api.search(q).draw(false);
-          setHash(q);
-        }, 120);
-
-        if (input) {
-          input.addEventListener('input', applyFromInput);
-          input.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); applyFromInput(); } });
-        }
-
-        if (reset) reset.addEventListener('click', () => {
-          if (!input) return;
-          input.value = '';
-          api.search('').draw(false);
-          setHash('');
-          input.focus();
-        });
-
-        window.addEventListener('hashchange', () => {
-          const q = readHashQuery();
-          if (input) input.value = q;
-          api.search(q).draw(false);
-        });
-
-        setTimeout(() => api.columns.adjust().draw(false), 60);
-      }
-    });
-
-    const recalc = (() => { let t; return () => { clearTimeout(t); t=setTimeout(() => dt.columns.adjust(), 120); }; })();
-    window.addEventListener('resize', recalc);
-    window.addEventListener('orientationchange', recalc);
-
-    // Dev aid:
-    // if (!latestAdded) console.warn('history.latest_added missing or unparsable:', history.latest_added);
+    return rows;
   }
 
-  async function start() {
-    try {
-      if (!hasDT()) throw new Error('DataTables missing');
+  async function start(){
+    try{
+      if (!window.jQuery || !jQuery.fn || !jQuery.fn.dataTable) {
+        if (loadingEl) loadingEl.innerHTML = '<p style="color:#b00020">Failed to load: DataTables missing.</p>';
+        return;
+      }
+
       const initialQuery = readHashQuery();
-      if (input && initialQuery) input.value = initialQuery;
+      if (inputEl && initialQuery) inputEl.value = initialQuery;
+
       const { papers, history } = await loadJSONs();
-      buildTable(papers, history, initialQuery);
-    } catch (err) {
+      const rows = buildRows(papers, history);
+
+      const dt = jQuery('#papers-table').DataTable({
+        data: rows,
+        columns: [
+          { title: "Title"        }, // 0
+          { title: "Authors"      }, // 1
+          { title: "Year"         }, // 2
+          { title: "Citations"    }, // 3
+          { title: "raw"          }, // 4
+          { title: "added_ts"     }, // 5
+          { title: "is_new"       }, // 6
+          { title: "url"          }, // 7
+          { title: "all_authors"  }  // 8
+        ],
+        responsive: { details: false },
+        autoWidth: false,
+        paging: false,
+        searching: true,
+        // Sort: NEW first, then most recently added, then Year desc, then Citations desc
+        order: [[6,'desc'], [5,'desc'], [2,'desc'], [3,'desc']],
+        columnDefs: [
+          { targets: [4,5,6,7,8], visible: false, searchable: false },
+          { targets: [2,3], type: 'num' },
+        ],
+        initComplete: function(){
+          datatable = this.api();
+
+          // Show minimal UI
+          if (loadingEl) loadingEl.style.display='none';
+          toolbarEl.style.display='';
+          gridEl.style.display='grid';
+
+          // Initial filter (from hash)
+          if (initialQuery) datatable.search(initialQuery).draw();
+
+          // First paint
+          renderCards();
+
+          // Re-render on table filter changes
+          datatable.on('draw', renderCards);
+
+          // Search wiring + deep-link hash
+          const apply = debounce(() => {
+            const q = inputEl ? (inputEl.value || '') : '';
+            datatable.search(q).draw(false);
+            setHash(q);
+          }, 120);
+
+          inputEl.addEventListener('input', apply);
+          inputEl.addEventListener('keydown', (e)=>{ if (e.key==='Enter'){ e.preventDefault(); apply(); }});
+
+          resetEl.addEventListener('click', () => {
+            inputEl.value = '';
+            datatable.search('').draw(false);
+            setHash('');
+            inputEl.focus();
+          });
+
+          window.addEventListener('hashchange', () => {
+            const q = readHashQuery();
+            inputEl.value = q;
+            datatable.search(q).draw(false);
+          });
+
+          // Keyboard shortcuts
+          document.addEventListener('keydown', (e) => {
+            if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+              e.preventDefault(); inputEl.focus();
+            } else if (e.key === 'Escape') {
+              inputEl.value=''; datatable.search('').draw(false); setHash('');
+            }
+          });
+
+          // Adjust columns after first paint
+          setTimeout(() => datatable.columns.adjust().draw(false), 60);
+          updateVisibleCount();
+        }
+      });
+
+    } catch (err){
       console.error(err);
-      if (loaderEl) loaderEl.innerHTML = '<p>Sorry, failed to load papers.</p>';
+      if (loadingEl) loadingEl.innerHTML = '<p style="color:#b00020">Sorry, failed to load publications.</p>';
     }
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', start, { once: true });
+  if (document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', start, { once:true });
   } else {
     start();
   }
