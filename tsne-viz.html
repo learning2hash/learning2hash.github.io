@@ -94,7 +94,7 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
   box-shadow: 0 1px 2px rgba(0,0,0,.05);
   transition: background-color .2s, transform .12s ease;
   cursor:pointer;
-  font-size: .86rem;       /* was .92rem */
+  font-size: .86rem;
   line-height: 1.35;
 }
 #cluster-legend .legend-item:hover { background:#f0f3f7; transform: translateY(-1px); }
@@ -106,7 +106,7 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 
 /* Controls — compact, neutral, fluid */
 .controls { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:.6rem; margin:.6rem 0 .9rem; }
-.search { display:flex; align-items:flex-start; gap:.6rem; flex-wrap:wrap; }
+.search { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
 .search label { font-weight:700; font-size:.85rem; }
 .search input[type="search"], .search input[type="text"] {
   width: clamp(180px, 28vw, 420px);
@@ -117,6 +117,10 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 .search button:hover { background:#e2e2e2; }
 .small { color:#6b7280; font-size:.9em; }
 .dash { opacity:.6; }
+
+/* Year slider tweaks */
+.range-wrap{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+input[type="range"]{ accent-color:#1a73e8; }
 
 /* Narrow screens */
 @media (max-width: 680px){
@@ -147,6 +151,21 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
       <label for="sizeByCitations"><strong>View</strong></label>
       <div>
         <input type="checkbox" id="sizeByCitations" /> <span class="small">Citations</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Year filter (dual range) -->
+  <div class="controls" id="yearControls" style="margin-top:-.6rem; display:none;">
+    <div class="search">
+      <label for="yearMin"><strong>Year</strong></label>
+      <div class="range-wrap">
+        <input type="range" id="yearMin" min="2000" max="2025" step="1" value="2000" aria-label="Minimum year">
+        <input type="range" id="yearMax" min="2000" max="2025" step="1" value="2025" aria-label="Maximum year">
+        <div class="small">
+          <span id="yearMinVal">2000</span>–<span id="yearMaxVal">2025</span>
+        </div>
+        <button id="clearYear" type="button" aria-label="Reset year filter">All years</button>
       </div>
     </div>
   </div>
@@ -198,6 +217,12 @@ var filteredData = [];
 var selectedCluster = null;
 var updateVisualization = () => {};
 var currentTransform = d3.zoomIdentity;
+
+/* Year slider state */
+var yearMinBound = null;
+var yearMaxBound = null;
+var selectedYearMin = null;
+var selectedYearMax = null;
 
 /* ----------------- Search helper ----------------- */
 var isMatch = function(d, searchTerm) {
@@ -282,7 +307,9 @@ var click_link = function(event, d) { window.location.href = "/publications/" + 
 function getState() {
   return {
     q: d3.select("#filtermap").property("value"),
-    cluster: selectedCluster
+    cluster: selectedCluster,
+    y0: selectedYearMin,
+    y1: selectedYearMax
   };
 }
 function setStateFromURL() {
@@ -290,12 +317,19 @@ function setStateFromURL() {
   if (p.get("q")) d3.select("#filtermap").property("value", p.get("q"));
   const c = p.get("cluster");
   if (c !== null && c !== undefined) selectedCluster = c;
+
+  const y0 = parseInt(p.get("y0"));
+  const y1 = parseInt(p.get("y1"));
+  if (!isNaN(y0)) selectedYearMin = y0;
+  if (!isNaN(y1)) selectedYearMax = y1;
 }
 function pushState() {
   const s = getState();
   const p = new URLSearchParams();
   if (s.q) p.set("q", s.q);
   if (s.cluster !== null && s.cluster !== undefined && s.cluster !== "null") p.set("cluster", s.cluster);
+  if (s.y0 !== null && s.y0 !== undefined) p.set("y0", s.y0);
+  if (s.y1 !== null && s.y1 !== undefined) p.set("y1", s.y1);
   const u = `${location.pathname}?${p.toString()}`;
   history.replaceState(null, "", u);
 }
@@ -304,7 +338,7 @@ function pushState() {
 function applyInitialZoom() {
   const t = d3.zoomIdentity
     .translate(width / 2, height / 2)
-    .scale(0.45)  // was 0.6 — lower = more zoomed out
+    .scale(0.45)
     .translate(-width / 2, -height / 2);
   d3.select("#paperviz svg").call(zoom.transform, t);
   currentTransform = t;
@@ -355,8 +389,72 @@ Promise.all([
     ].join(" ").toLowerCase();
   });
 
-  // If URL has state, apply it now
+  // Determine year bounds from data
+  const years = allData.map(d => d.year).filter(y => !isNaN(y));
+  yearMinBound = d3.min(years);
+  yearMaxBound = d3.max(years);
+
+  // Apply URL state first (may override default selection)
   setStateFromURL();
+
+  // Default selection to full range if not set by URL
+  if (selectedYearMin === null) selectedYearMin = yearMinBound;
+  if (selectedYearMax === null) selectedYearMax = yearMaxBound;
+
+  // Init year controls and show them
+  const yearControls = document.getElementById("yearControls");
+  const yearMinInput = document.getElementById("yearMin");
+  const yearMaxInput = document.getElementById("yearMax");
+  const yearMinVal = document.getElementById("yearMinVal");
+  const yearMaxVal = document.getElementById("yearMaxVal");
+  const clearYearBtn = document.getElementById("clearYear");
+
+  yearMinInput.min = yearMinBound;
+  yearMinInput.max = yearMaxBound;
+  yearMaxInput.min = yearMinBound;
+  yearMaxInput.max = yearMaxBound;
+
+  yearMinInput.value = selectedYearMin;
+  yearMaxInput.value = selectedYearMax;
+  yearMinVal.textContent = selectedYearMin;
+  yearMaxVal.textContent = selectedYearMax;
+
+  yearControls.style.display = "flex";
+
+  function clampYearInputs(){
+    let v0 = parseInt(yearMinInput.value);
+    let v1 = parseInt(yearMaxInput.value);
+    if (v0 > v1) { // keep thumbs ordered
+      const tmp = v0; v0 = v1; v1 = tmp;
+      yearMinInput.value = v0;
+      yearMaxInput.value = v1;
+    }
+    selectedYearMin = v0;
+    selectedYearMax = v1;
+    yearMinVal.textContent = v0;
+    yearMaxVal.textContent = v1;
+  }
+
+  let yearDebounce;
+  yearMinInput.addEventListener("input", function(){
+    clampYearInputs();
+    clearTimeout(yearDebounce);
+    yearDebounce = setTimeout(updateVisualization, 80);
+  });
+  yearMaxInput.addEventListener("input", function(){
+    clampYearInputs();
+    clearTimeout(yearDebounce);
+    yearDebounce = setTimeout(updateVisualization, 80);
+  });
+  clearYearBtn.addEventListener("click", function(){
+    selectedYearMin = yearMinBound;
+    selectedYearMax = yearMaxBound;
+    yearMinInput.value = selectedYearMin;
+    yearMaxInput.value = selectedYearMax;
+    yearMinVal.textContent = selectedYearMin;
+    yearMaxVal.textContent = selectedYearMax;
+    updateVisualization();
+  });
 
   // Build legend dynamically
   const legendContainer = d3.select("#cluster-legend");
@@ -393,14 +491,16 @@ Promise.all([
     updateVisualization();
   });
 
-  // Update function (no year filtering)
+  // Update function (with year filtering)
   updateVisualization = function() {
     var searchTerm = (d3.select("#filtermap").property("value") || "").toLowerCase();
 
     filteredData = allData.filter(d => {
       const textMatch = !searchTerm || isMatch(d, searchTerm);
       const clusterMatch = (selectedCluster === null) || (String(d.cluster) === String(selectedCluster));
-      return textMatch && clusterMatch;
+      const hasYear = !isNaN(d.year);
+      const yearMatch = hasYear ? (d.year >= selectedYearMin && d.year <= selectedYearMax) : true; // include if no year
+      return textMatch && clusterMatch && yearMatch;
     });
 
     var circles = zoomLayer.selectAll("circle").data(filteredData, d => d.key);
@@ -420,8 +520,8 @@ Promise.all([
         return Math.min(r, 30);
       })
       .style("fill", d => {
-        const searchTerm = (d3.select("#filtermap").property("value") || "").toLowerCase();
-        return isMatch(d, searchTerm) ? "#aa0000" : color(d.cluster);
+        const st = (d3.select("#filtermap").property("value") || "").toLowerCase();
+        return isMatch(d, st) ? "#aa0000" : color(d.cluster);
       })
       .style("opacity", 0.85)
       .style("stroke", "white");
@@ -436,8 +536,8 @@ Promise.all([
         return Math.min(r, 30);
       })
       .style("fill", d => {
-        const searchTerm = (d3.select("#filtermap").property("value") || "").toLowerCase();
-        return isMatch(d, searchTerm) ? "#aa0000" : color(d.cluster);
+        const st = (d3.select("#filtermap").property("value") || "").toLowerCase();
+        return isMatch(d, st) ? "#aa0000" : color(d.cluster);
       })
       .style("opacity", 0.85)
       .style("stroke", "white")
