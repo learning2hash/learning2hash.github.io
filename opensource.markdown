@@ -9,37 +9,105 @@ description: A searchable list of open-source Learning to Hash tools
   Search, filter, and sort to find relevant repositories.
 </p>
 
-<!-- Loading Indicator -->
-<div id="loading" role="status" aria-live="polite">
-  <p>Loading Tools Explorer ...</p>
-</div>
-
-<!-- Controls -->
-<div class="controls" id="toolsControls" style="display:none;">
-  <div class="search">
-    <label for="toolsSearch"><strong>Search</strong></label>
-    <input id="toolsSearch" type="search" placeholder="🔍 Search repo, category, description…" inputmode="search" />
-    <button id="resetToolsSearch" type="button" aria-label="Clear search">Clear</button>
-    <span id="toolsVisibleCount" class="small" aria-live="polite"></span>
+<!-- Slim Toolbar: search + visible count -->
+<div id="toolsToolbar" class="toolbar" style="display:none;">
+  <div class="left">
+    <div class="search">
+      <label for="toolsSearch"><strong>Search</strong></label>
+      <input id="toolsSearch" type="search" placeholder="🔍 Search repo, category, description…" inputmode="search" />
+      <button id="resetToolsSearch" type="button" aria-label="Clear search">Clear</button>
+      <span id="toolsVisibleCount" class="small" aria-live="polite"></span>
+    </div>
   </div>
 </div>
 
-<!-- Data Table -->
+<!-- Loading Indicator -->
+<div id="loading" role="status" aria-live="polite">
+  <p>Loading Tools Explorer …</p>
+</div>
+
+<!-- Cards View (only) -->
+<div id="cardsGrid" class="cards" style="display:none;" aria-live="polite"></div>
+<p id="emptyState" class="empty" style="display:none;">No tools match your search.</p>
+
+<!-- Hidden Data Table (used as an efficient data engine) -->
 <table id="tools-table" class="display stripe hover" style="width:100%; display:none;">
   <thead>
     <tr>
-      <th>Repo</th>
-      <th>Category</th>
-      <th>Stars</th>
-      <th>Description</th>
-      <th>cat_raw</th> <!-- hidden plain-text category for robust filtering -->
+      <th>RepoHTML</th>    <!-- 0 -->
+      <th>CategoryHTML</th><!-- 1 -->
+      <th>Stars</th>       <!-- 2 -->
+      <th>DescHTML</th>    <!-- 3 -->
+      <th>cat_raw</th>     <!-- 4 -->
+      <th>repo_raw</th>    <!-- 5 -->
+      <th>url</th>         <!-- 6 -->
+      <th>raw</th>         <!-- 7 -->
     </tr>
   </thead>
   <tbody></tbody>
 </table>
 
 <style>
+  :root{
+    --bg:#ffffff;
+    --card:#fff;
+    --muted:#6b7280;
+    --line:#e5e7eb;
+    --shadow:0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.04);
+    --brand:#1a73e8;
+  }
+
+  .toolbar{
+    position:sticky; top:0; z-index:20;
+    background: linear-gradient(#fff, rgba(255,255,255,.92));
+    backdrop-filter: blur(4px);
+    border:1px solid var(--line);
+    border-radius:12px; padding:10px 12px; margin:8px 0 12px;
+    display:flex; align-items:center; justify-content:flex-start; gap:12px;
+    box-shadow: var(--shadow);
+  }
+
+  .search{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .search label{ font-weight:700; font-size:.85rem; }
+  .search input{
+    width:clamp(220px, 32vw, 560px); padding:.45rem .6rem;
+    border:1px solid #cbd5e1; border-radius:8px; font-size:.95rem; background-color:#f8fafc;
+  }
+  .search input:focus{ outline:none; border-color:var(--brand); box-shadow:0 0 0 2px rgba(26,115,232,.18); }
+  .search button{
+    padding:.45rem .6rem; font-size:.85rem; border:1px solid #cbd5e1; border-radius:8px; background:#f8fafc; cursor:pointer;
+  }
+  .search button:hover{ background:#eef2f7; }
+  .small{ color:var(--muted); font-size:.9em; }
+
+  .cards{
+    display:grid; gap:14px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  .card{
+    border:1px solid var(--line); border-radius:14px; background:var(--card);
+    padding:14px; box-shadow: var(--shadow); transition: transform .06s ease;
+  }
+  .card:hover{ transform: translateY(-1px); }
+  .meta{ display:flex; align-items:center; gap:10px; margin-bottom:8px; color:var(--muted); font-size:.9rem; }
+  .stars{ font-variant-numeric: tabular-nums; }
+  .title{ font-weight:700; line-height:1.25; margin:0 0 6px; }
+  .title a{ text-decoration:none; color:#0f172a; }
+  .title a:hover{ text-decoration:underline; }
+  .desc{ color:#374151; font-size:.95rem; line-height:1.45; display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:4; overflow:hidden; }
+  .badges{ display:flex; align-items:center; gap:6px; margin-top:10px; flex-wrap:wrap; }
+  .badge{
+    font-size:.75rem; border:1px solid var(--line); color:#0f172a; padding:.2rem .45rem; border-radius:999px; background:#f7f7fb;
+  }
+
+  .empty{ color:var(--muted); text-align:center; padding:24px 8px; }
+
   .dataTables_wrapper{ width:100%; overflow-x:hidden; }
+  #tools-table{ width:100%; border-collapse:collapse; table-layout:auto; }
+  #tools-table td{ white-space: normal !important; word-break: break-word; overflow-wrap:anywhere; vertical-align: top; }
+  #tools-table th{ white-space: nowrap !important; overflow: hidden; text-overflow: ellipsis; vertical-align: middle; }
+  .dataTables_filter{ display:none !important; }
+
   #loading{
     position:fixed; top:50%; left:50%; transform:translate(-50%,-50%);
     font-size:1.05em; text-align:center; z-index:1000;
@@ -47,146 +115,160 @@ description: A searchable list of open-source Learning to Hash tools
     box-shadow:0 2px 10px rgba(0,0,0,.08);
   }
 
-  #tools-table{
-    display:none;
-    width:100%;
-    border-collapse:collapse;
+  @media (max-width: 640px){
+    .toolbar{ border-radius:10px; }
+    .desc{ -webkit-line-clamp: 6; }
   }
-
-  #tools-table td {
-    white-space: normal !important;
-    word-break: break-word;
-    overflow-wrap: anywhere;
-    vertical-align: top;
-  }
-
-  #tools-table th {
-    white-space: nowrap !important;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    vertical-align: middle;
-  }
-
-  #tools-table th:nth-child(3),
-  #tools-table td:nth-child(3){ text-align:right; }
-
-  #tools-table, #tools-table * {
-    -webkit-column-count: 1 !important;
-    -moz-column-count: 1 !important;
-    column-count: 1 !important;
-  }
-
-  #tools-table td:nth-child(4) .desc{
-    display:block;
-    line-height:1.35;
-    overflow:hidden;
-    display:-webkit-box;
-    -webkit-box-orient:vertical;
-    -webkit-line-clamp:3;
-  }
-
-  .controls{ display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.6rem; margin:.6rem 0 .9rem; }
-  .search{ display:flex; align-items:flex-start; gap:.6rem; flex-wrap:wrap; }
-  .search label{ font-weight:700; font-size:.85rem; }
-  .search input{ width:clamp(160px, 32vw, 520px); padding:.4rem .5rem; border:1px solid #aaa; border-radius:6px; font-size:.9rem; background-color:#f8f9fa; }
-  .search input:focus{ outline:none; border-color:#0c5fce; box-shadow:0 0 0 2px rgba(26,115,232,.25); }
-  .search button{ padding:.4rem .6rem; font-size:.85rem; border:1px solid #aaa; border-radius:6px; background:#f8f9fa; cursor:pointer; }
-  .search button:hover{ background:#ececec; }
-  .small{ color:#6b7280; font-size:.9em; }
-
-  .dataTables_filter{ display:none !important; }
-
-  /* Category chip inside the table */
-  .tags-display{ display:flex; flex-wrap:wrap; gap:.25rem .35rem; }
-  .tags-display .tag-chip{ font-size:.70rem; padding:.15rem .45rem; gap:.25rem; line-height:1.0; }
 </style>
 
-<!-- Dependencies (self-hosted to survive corporate blockers). 
-     Put these files under /assets/vendor/ in your repo. -->
-<script src="{{ '/assets/vendor/jquery-3.6.0.min.js' | relative_url }}" defer></script>
 <link rel="stylesheet" href="{{ '/assets/vendor/datatables-1.13.6.min.css' | relative_url }}">
-<script src="{{ '/assets/vendor/datatables-1.13.6.min.js' | relative_url }}" defer></script>
 <link rel="stylesheet" href="{{ '/assets/vendor/dataTables.responsive-2.5.0.min.css' | relative_url }}">
+<script src="{{ '/assets/vendor/jquery-3.6.0.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/vendor/datatables-1.13.6.min.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/vendor/dataTables.responsive-2.5.0.min.js' | relative_url }}" defer></script>
 <script src="{{ '/assets/vendor/d3.v7.min.js' | relative_url }}" defer></script>
 
 <script>
-  var datatable;
-
-  function updateVisibleCount(){
-    if (!datatable) return;
-    const el = document.getElementById('toolsVisibleCount');
-    if (el) el.textContent = datatable.rows({ filter: 'applied' }).count() + ' rows';
+(function(){
+  // ---- Hash deep-link helpers (/#query) ----
+  function readHashQuery(){
+    const raw = window.location.hash ? window.location.hash.slice(1) : '';
+    if (!raw) return '';
+    try { return decodeURIComponent(raw.replace(/\+/g,' ')); } catch { return raw; }
+  }
+  function setHash(q){
+    if (q && q.trim().length) history.replaceState(null, '', '#' + encodeURIComponent(q.trim()));
+    else history.replaceState(null, '', location.pathname + location.search);
   }
 
-  // External search bar only
-  let toolsSearchInput, toolsResetBtn;
-  function initToolsSearchBar(){
-    toolsSearchInput = document.getElementById('toolsSearch');
-    toolsResetBtn = document.getElementById('resetToolsSearch');
+  // ---- Utilities ----
+  function escapeHtml(s){
+    return String(s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  }
+  function kFormat(n){
+    if (!n && n !== 0) return '';
+    const x = +n || 0;
+    if (x < 1000) return String(x);
+    if (x < 1e6) return (x/1e3).toFixed(x % 1000 === 0 ? 0 : 1) + 'k';
+    return (x/1e6).toFixed(x % 1e6 === 0 ? 0 : 1) + 'M';
+  }
+  function debounce(fn, ms=120){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; }
 
-    function doSearch(){
-      if (!datatable) return;
-      const q = (toolsSearchInput.value || '').trim();
-      datatable.search(q).draw();
+  // ---- DOM refs ----
+  const loadingEl = document.getElementById('loading');
+  const toolbarEl = document.getElementById('toolsToolbar');
+  const inputEl   = document.getElementById('toolsSearch');
+  const resetEl   = document.getElementById('resetToolsSearch');
+  const countEl   = document.getElementById('toolsVisibleCount');
+  const gridEl    = document.getElementById('cardsGrid');
+  const emptyEl   = document.getElementById('emptyState');
+
+  let datatable;
+
+  function updateVisibleCount(){
+    if (!datatable || !countEl) return;
+    countEl.textContent = datatable.rows({ filter:'applied' }).count() + ' repos';
+  }
+
+  function renderCards(){
+    if (!datatable) return;
+    const rows = datatable.rows({ filter:'applied' }).data().toArray();
+    gridEl.innerHTML = '';
+
+    if (!rows.length){
+      gridEl.style.display='none';
+      emptyEl.style.display='';
       updateVisibleCount();
+      return;
     }
+    emptyEl.style.display='none';
+    gridEl.style.display='grid';
 
-    toolsSearchInput.addEventListener('input', doSearch);
-    toolsResetBtn.addEventListener('click', () => {
-      toolsSearchInput.value='';
-      datatable.search('').draw();
-      updateVisibleCount();
-      toolsSearchInput.focus();
+    rows.forEach(r => {
+      const repoHTML   = r[0];
+      const catHTML    = r[1];
+      const stars      = +r[2] || 0;
+      const descHTML   = r[3];
+      const url        = r[6] || '';
+
+      const card = document.createElement('article');
+      card.className = 'card';
+      card.innerHTML = `
+        <div class="meta">
+          <span class="stars" title="GitHub Stars">★ ${kFormat(stars)}</span>
+        </div>
+        <h3 class="title">${repoHTML}</h3>
+        <div class="desc">${descHTML}</div>
+        <div class="badges">
+          ${catHTML}
+        </div>
+      `;
+
+      // Ensure clickable title if not already linked
+      if (url){
+        const a = card.querySelector('.title a');
+        if (!a){
+          const h3 = card.querySelector('.title');
+          h3.innerHTML = `<a href="${url}" target="_blank" rel="noopener">${escapeHtml(h3.textContent)}</a>`;
+        }
+      }
+
+      gridEl.appendChild(card);
     });
 
-    document.addEventListener('keydown', (e) => {
-      if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') { 
-        e.preventDefault(); toolsSearchInput.focus(); 
-      }
-      else if (e.key === 'Escape') { 
-        toolsSearchInput.value=''; datatable.search('').draw(); updateVisibleCount(); 
-      }
-    });
-
-    document.getElementById('toolsControls').style.display = '';
     updateVisibleCount();
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
-    const loading = document.getElementById('loading');
-    if (!window.jQuery) { if (loading) loading.innerHTML = '<p style="color:#b00020">Failed to load: jQuery missing.</p>'; return; }
-    if (!jQuery.fn || !jQuery.fn.dataTable) { if (loading) loading.innerHTML = '<p style="color:#b00020">Failed to load: DataTables missing.</p>'; return; }
-    if (!window.d3 || !d3.csv) { if (loading) loading.innerHTML = '<p style="color:#b00020">Failed to load: D3 missing.</p>'; return; }
+  async function start(){
+    try{
+      if (!window.jQuery || !jQuery.fn || !jQuery.fn.dataTable) {
+        if (loadingEl) loadingEl.innerHTML = '<p style="color:#b00020">Failed to load: DataTables missing.</p>';
+        return;
+      }
+      if (!window.d3 || !d3.csv) {
+        if (loadingEl) loadingEl.innerHTML = '<p style="color:#b00020">Failed to load: D3 missing.</p>';
+        return;
+      }
 
-    jQuery('#loading').show();
+      const initialQuery = readHashQuery();
+      if (inputEl && initialQuery) inputEl.value = initialQuery;
 
-    // Base-path safe CSV (works at / or under subfolders)
-    const CSV_URL = "{{ '/github_topics.csv' | relative_url }}";
+      // If you maintain a dedicated CSV for hashing tools, change this path:
+      const CSV_URL = "{{ '/github_topics.csv' | relative_url }}";
 
-    d3.csv(CSV_URL).then(function (data) {
-      const rows = data.map(function (tool) {
-        const github = (tool.repo || "").trim();
-        const repo_url = "https://github.com/" + github;
-        const desc_full = (tool.description || "").trim();
-        const desc_short = desc_full.length > 400 ? (desc_full.substring(0, 400) + "…") : desc_full;
-        const starsNum = tool.stars ? +tool.stars : 0;
+      const data = await d3.csv(CSV_URL);
 
-        const category = (tool.category || '').trim() || 'Uncategorized';
+      const rows = data.map(tool => {
+        const repo = (tool.repo || '').trim();               // owner/name
+        const url  = repo ? ('https://github.com/' + repo) : '';
+        const descFull  = (tool.description || '').trim();
+        const descShort = descFull.length > 400 ? (descFull.substring(0,400) + '…') : descFull;
+        const starsNum  = tool.stars ? +tool.stars : 0;
+        const category  = (tool.category || '').trim() || 'Uncategorized';
 
-        const chips = `<span class="tags-display">
-          <span class="tag-chip" tabindex="-1" aria-hidden="true">${category}</span>
-        </span>`;
+        const titleHTML = url
+          ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(repo || '(unknown)')}</a>`
+          : escapeHtml(repo || '(unknown)');
 
-        const escapedTitle = desc_full.replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-        const descCell = `<div class="desc" title="${escapedTitle}">${desc_short}</div>`;
+        const catChip  = `<span class="badge" title="${escapeHtml(category)}">${escapeHtml(category)}</span>`;
+        const descHTML = `<div class="desc" title="${escapeHtml(descFull)}">${escapeHtml(descShort)}</div>`;
+
+        const raw = [
+          repo, category, descFull,
+          (tool.all_tags || ''), (tool.top_devs || ''), (tool.contributors || '')
+        ].join(' ').toLowerCase();
 
         return [
-          `<a href="${repo_url}" target="_blank" rel="noopener noreferrer">${github}</a>`,
-          chips,
-          starsNum,
-          descCell,
-          category
+          titleHTML,  // 0
+          catChip,    // 1
+          starsNum,   // 2
+          descHTML,   // 3
+          category,   // 4
+          repo,       // 5
+          url,        // 6
+          raw         // 7
         ];
       });
 
@@ -197,45 +279,85 @@ description: A searchable list of open-source Learning to Hash tools
           { title: "Category" },
           { title: "Stars" },
           { title: "Description" },
-          { title: "cat_raw" }
+          { title: "cat_raw" },
+          { title: "repo_raw" },
+          { title: "url" },
+          { title: "raw" }
         ],
-        responsive: {
-          details: { type: 'inline', target: 'tr' },
-          breakpoints: [
-            { name: 'desktop', width: Infinity },
-            { name: 'laptop',  width: 1440 },
-            { name: 'tablet',  width: 1024 },
-            { name: 'phone',   width: 640 }
-          ]
-        },
+        responsive: { details: false },
         autoWidth: false,
         paging: false,
         searching: true,
         order: [[2, 'desc']],
         columnDefs: [
-          { targets: 2, type: 'num' },
-          { responsivePriority: 1, targets: 0 },
-          { responsivePriority: 2, targets: 2 },
-          { responsivePriority: 3, targets: 3 },
-          { responsivePriority: 4, targets: 1 },
-          { targets: 4, visible: false, searchable: true }
+          { targets: [4,5,6,7], visible: false, searchable: false },
+          { targets: 2, type: 'num' }
         ],
-        initComplete: function () {
+        initComplete: function(){
           datatable = this.api();
-          jQuery('#loading').hide();
-          jQuery('#tools-table').show();
-          initToolsSearchBar();
-          datatable.on('draw', updateVisibleCount);
-          // Adjust measurements in case table was hidden
-          setTimeout(() => { datatable.columns().every(() => {}); datatable.columns.adjust().responsive.recalc(); }, 0);
+
+          // Show UI
+          if (loadingEl) loadingEl.style.display='none';
+          toolbarEl.style.display='';
+          gridEl.style.display='grid';
+
+          // Initial filter from hash
+          if (initialQuery) datatable.search(initialQuery).draw();
+
+          // First paint
+          renderCards();
+
+          // Re-render cards when filter changes
+          datatable.on('draw', renderCards);
+
+          // Search wiring + deep-link hash
+          const apply = debounce(() => {
+            const q = inputEl ? (inputEl.value || '') : '';
+            datatable.search(q).draw(false);
+            setHash(q);
+          }, 120);
+
+          inputEl.addEventListener('input', apply);
+          inputEl.addEventListener('keydown', (e) => { if (e.key === 'Enter'){ e.preventDefault(); apply(); } });
+
+          resetEl.addEventListener('click', () => {
+            inputEl.value='';
+            datatable.search('').draw(false);
+            setHash('');
+            inputEl.focus();
+          });
+
+          window.addEventListener('hashchange', () => {
+            const q = readHashQuery();
+            inputEl.value = q;
+            datatable.search(q).draw(false);
+          });
+
+          // Keyboard shortcuts
+          document.addEventListener('keydown', (e) => {
+            if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
+              e.preventDefault(); inputEl.focus();
+            } else if (e.key === 'Escape') {
+              inputEl.value=''; datatable.search('').draw(false); setHash('');
+            }
+          });
+
+          // Adjust after first paint
+          setTimeout(() => datatable.columns.adjust().draw(false), 60);
           updateVisibleCount();
         }
       });
 
-    }).catch(function (error) {
-      console.error("Error loading CSV:", error);
-      jQuery('#tools-table').after(`<div style="color:red; margin-top:10px;">Failed to load data (CSV unreachable or blocked).</div>`);
-      jQuery('#loading').hide();
-    });
-  });
+    } catch (err){
+      console.error(err);
+      if (loadingEl) loadingEl.innerHTML = '<p style="color:#b00020">Failed to load tools.</p>';
+    }
+  }
+
+  if (document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', start, { once:true });
+  } else {
+    start();
+  }
+})();
 </script>
