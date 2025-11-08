@@ -70,36 +70,81 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 }
 #paperviz .gesture-hint.show{ opacity: 1; }
 
-/* Legend block sits UNDER the map, full width and responsive */
+/* ---------- Sleeker cluster legend ---------- */
 #cluster-legend-wrapper{
   margin-top:16px;
   padding: 12px;
-  border:1px solid #eee; border-radius:8px; background:#fff;
-  box-shadow: 0 1px 2px rgba(0,0,0,.035);
+  border:1px solid #eee; border-radius:12px; background:#fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,.03);
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
 }
 
-/* Responsive legend grid so it never squeezes layout */
 #cluster-legend {
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap:12px;
+  gap:10px;
 }
 
-/* Smaller legend text */
-#cluster-legend .legend-item {
-  background:#f9f9f9;
+.legend-item {
+  display:flex;
+  align-items:center;
+  gap:10px;
   padding:10px 12px;
-  border-radius:8px;
-  box-shadow: 0 1px 2px rgba(0,0,0,.05);
-  transition: background-color .2s, transform .12s ease;
+  border:1px solid #e6e6e6;
+  border-radius:999px;            /* pill look */
+  background:#fafafa;
   cursor:pointer;
-  font-size: .86rem;
-  line-height: 1.35;
+  transition: transform .12s ease, background-color .2s, border-color .2s, box-shadow .2s;
+  user-select:none;
 }
-#cluster-legend .legend-item:hover { background:#f0f3f7; transform: translateY(-1px); }
-#cluster-legend .legend-title { font-weight: 600; margin-bottom: 6px; font-size: .9rem; }
-#cluster-legend .legend-tag { font-size: .78rem; opacity: .9; margin-left: 6px; }
+
+.legend-item:hover { 
+  background:#f5f7fb; 
+  transform: translateY(-1px); 
+  box-shadow: 0 2px 8px rgba(0,0,0,.06);
+}
+
+.legend-item[aria-pressed="true"]{
+  background:#f0f6ff;
+  border-color:#b8d3ff;
+  box-shadow: 0 0 0 3px rgba(26,115,232,.12) inset;
+}
+
+.legend-dot{
+  width:14px; height:14px; border-radius:50%;
+  box-shadow: 0 0 0 2px #fff inset, 0 0 0 1px rgba(0,0,0,.06);
+  flex: 0 0 14px;
+}
+
+.legend-text{
+  display:flex; flex-direction:column; gap:4px; min-width:0;
+}
+
+.legend-row{
+  display:flex; align-items:center; gap:8px; min-width:0;
+}
+
+.legend-title{
+  font-weight: 650; font-size:.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+}
+
+.legend-count{
+  font-size:.75rem; padding:2px 8px; border-radius:999px; 
+  background:#fff; border:1px solid #e1e1e1; color:#555;
+}
+
+.legend-tags{
+  display:flex; flex-wrap:wrap; gap:6px; max-width:100%;
+}
+
+.legend-tag{
+  font-size:.75rem; line-height:1; padding:4px 8px;
+  border-radius:999px; background:#fff; border:1px solid #eee; color:#444;
+  white-space:nowrap; max-width:160px; overflow:hidden; text-overflow:ellipsis;
+}
+
+/* Optional: tiny focus ring for keyboard users */
+.legend-item:focus-visible{ outline: none; box-shadow: 0 0 0 3px rgba(26,115,232,.25); }
 
 /* Tooltip */
 .tooltip { pointer-events:none; }
@@ -214,7 +259,7 @@ document.addEventListener('click', function(e){
 /* ----------------- State ----------------- */
 var allData = [];
 var filteredData = [];
-var selectedCluster = null;
+var selectedCluster = null;          // cluster id or null
 var updateVisualization = () => {};
 var currentTransform = d3.zoomIdentity;
 
@@ -456,38 +501,58 @@ Promise.all([
     updateVisualization();
   });
 
-  // Build legend dynamically
+  /* ---------- Sleek legend: build & render ---------- */
   const legendContainer = d3.select("#cluster-legend");
   const countsByCluster = d3.rollup(allData, v => v.length, d => String(d.cluster));
 
-  Object.entries(summary).forEach(([cluster, tags]) => {
-    const count = countsByCluster.get(String(cluster)) || 0;
-    const item = legendContainer.append("div")
-      .attr("class", "legend-item")
-      .style("border-left", `6px solid ${color(cluster)}`)
-      .style("padding-left", "8px")
-      .on("click", function() {
-        selectedCluster = (selectedCluster === cluster ? null : cluster);
-        legendContainer.selectAll(".legend-item").style("outline", "none");
-        if (selectedCluster !== null) d3.select(this).style("outline", "2px solid #ddd");
-        updateVisualization();
+  function renderLegend(summaryObj){
+    legendContainer.selectAll("*").remove();
+
+    Object.entries(summaryObj).forEach(([cluster, tags]) => {
+      const count = countsByCluster.get(String(cluster)) || 0;
+      const colorHex = color(cluster);
+
+      // Button-like chip
+      const item = legendContainer.append("button")
+        .attr("type", "button")
+        .attr("class", "legend-item")
+        .attr("data-cluster", cluster)
+        .attr("aria-pressed", String(String(selectedCluster) === String(cluster)))
+        .attr("title", `Toggle Cluster ${Number(cluster)+1}`)
+        .on("click", function() {
+          selectedCluster = (String(selectedCluster) === String(cluster)) ? null : cluster;
+          renderLegend(summaryObj);     // refresh pressed states
+          updateVisualization();
+        });
+
+      // Color dot
+      item.append("span")
+        .attr("class", "legend-dot")
+        .style("background", colorHex);
+
+      // Text block
+      const text = item.append("span").attr("class", "legend-text");
+
+      const topRow = text.append("span").attr("class", "legend-row");
+      topRow.append("span")
+        .attr("class", "legend-title")
+        .text(`Cluster ${Number(cluster)+1}`);
+      topRow.append("span")
+        .attr("class", "legend-count")
+        .text(`${count} papers`);
+
+      const tagRow = text.append("span").attr("class", "legend-tags");
+      (tags || []).slice(0, 5).forEach(t => {
+        tagRow.append("span").attr("class", "legend-tag").text(t.tag);
       });
-
-    const displayCluster = (Number(cluster) + 1);
-    item.append("div")
-      .attr("class", "legend-title")
-      .text(`Cluster ${displayCluster} (${count} papers)`);
-
-    (tags || []).slice(0, 6).forEach(tag => {
-      item.append("div")
-        .attr("class", "legend-tag")
-        .text(tag.tag);
     });
-  });
+  }
+
+  renderLegend(summary);
 
   d3.select("#resetClusters").on("click", function() {
     selectedCluster = null;
-    legendContainer.selectAll(".legend-item").style("outline", "none");
+    renderLegend(summary);
     updateVisualization();
   });
 
