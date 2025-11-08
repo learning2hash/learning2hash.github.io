@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Search Open Source Learning to Hash Tools
+title: Search Open Source Tools
 description: A searchable list of open-source Learning to Hash tools
 ---
 
