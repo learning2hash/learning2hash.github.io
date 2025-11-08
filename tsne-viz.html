@@ -27,12 +27,48 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 /* Map container grows with parent; friendly min height but fluid */
 #paperviz {
   width:100%;
-  position:relative;
-  min-height: 50vh;        /* proportional, no fixed px */
+  position:relative;         /* so floating UI anchors to this */
+  min-height: 50vh;          /* proportional, no fixed px */
   background:#fff;
   border:1px solid #eee; border-radius:8px;
   box-shadow: 0 1px 2px rgba(0,0,0,.035);
+  overflow: hidden;
 }
+
+/* Floating map UI (inside the map) */
+#paperviz .map-ui{
+  position:absolute;
+  right:10px;
+  top:12px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  z-index: 5;
+}
+.fab{
+  width: 36px; height: 36px;
+  border-radius: 10px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0,0,0,.08);
+  font: 600 18px/36px system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  text-align:center; cursor:pointer;
+  transition: transform .08s ease, background-color .15s ease, box-shadow .15s ease;
+}
+.fab:hover{ background:#f5f7fb; transform: translateY(-1px); box-shadow: 0 4px 10px rgba(0,0,0,.10); }
+.fab:active{ transform: translateY(0); }
+
+/* Gesture hint (auto-fades) */
+#paperviz .gesture-hint{
+  position: absolute;
+  right: 56px; top: 16px;
+  background: rgba(34,34,34,.85); color:#fff;
+  padding: 6px 10px; border-radius: 8px; font-size:.78rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,.15);
+  opacity: 0; pointer-events: none; transition: opacity .25s ease;
+  z-index: 5;
+}
+#paperviz .gesture-hint.show{ opacity: 1; }
 
 /* Legend block sits UNDER the map, full width and responsive */
 #cluster-legend-wrapper{
@@ -82,34 +118,6 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 .small { color:#6b7280; font-size:.9em; }
 .dash { opacity:.6; }
 
-/* Map controls */
-#controls { display:flex; flex-wrap:wrap; gap:8px; }
-#controls button { padding:.35rem .55rem; border:1px solid #aaa; border-radius:4px; background:#f7f7f7; cursor:pointer; }
-#controls button:hover { background:#eee; }
-
-/* Tooltip button for any hints */
-.info {
-  display:inline-flex; align-items:center; justify-content:center;
-  width:18px; height:18px; line-height:18px; border-radius:50%;
-  border:1px solid #999; background:#f8f8f8; font-size:.75rem; font-weight:700;
-  cursor:pointer; padding:0; position:relative; margin-left:.35rem;
-}
-.info:focus { outline:none; box-shadow:0 0 0 2px rgba(26,115,232,.25); }
-.info[data-tooltip]::after {
-  content: attr(data-tooltip);
-  position:absolute; left:50%; transform:translateX(-50%); bottom: calc(100% + 8px);
-  white-space:normal; max-width:min(36ch, 90vw); line-height:1.35;
-  background:#222; color:#fff; padding:.35rem .5rem; border-radius:4px; font-size:.78rem;
-  opacity:0; visibility:hidden; transition:opacity .15s ease; z-index:20;
-}
-.info[data-tooltip]::before {
-  content:''; position:absolute; left:50%; transform:translateX(-50%); bottom: calc(100% + 3px);
-  border:6px solid transparent; border-top-color:#222; opacity:0; visibility:hidden; transition:opacity .15s ease; z-index:20;
-}
-.info:hover::after, .info:hover::before,
-.info:focus::after, .info:focus::before,
-.info[data-show]::after, .info[data-show]::before { opacity:1; visibility:visible; }
-
 /* Narrow screens */
 @media (max-width: 680px){
   .search input[type="text"] { width:100%; }
@@ -133,22 +141,10 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
     </div>
   </div>
 
-  <!-- Map controls -->
+  <!-- View control (size by citations) -->
   <div class="controls" style="margin-top:-.4rem;">
     <div class="search">
-      <label><strong>View</strong></label>
-      <div id="controls">
-        <button id="zoom_in">Zoom In</button>
-        <button id="zoom_out">Zoom Out</button>
-        <button id="pan_left">Pan Left</button>
-        <button id="pan_right">Pan Right</button>
-        <button id="pan_up">Pan Up</button>
-        <button id="pan_down">Pan Down</button>
-        <button id="reset_view">Reset View</button>
-      </div>
-    </div>
-    <div class="search" style="margin-left:auto;">
-      <label for="sizeByCitations"><strong>Size by</strong></label>
+      <label for="sizeByCitations"><strong>View</strong></label>
       <div>
         <input type="checkbox" id="sizeByCitations" /> <span class="small">Citations</span>
       </div>
@@ -159,6 +155,18 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
   <div id="paperviz">
     <div id="loadingViz" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center;">
       Loading visualization...
+    </div>
+
+    <!-- Floating map UI -->
+    <div class="map-ui" aria-label="Map controls">
+      <button class="fab" id="zoom_in"  aria-label="Zoom in"  title="Zoom in (+)">+</button>
+      <button class="fab" id="zoom_out" aria-label="Zoom out" title="Zoom out (−)">−</button>
+      <button class="fab" id="reset_view" aria-label="Reset view" title="Reset view (R)">⌂</button>
+    </div>
+
+    <!-- One-time gesture hint -->
+    <div class="gesture-hint" id="gestureHint">
+      Drag to pan · Scroll/Pinch to zoom
     </div>
   </div>
 
@@ -293,7 +301,6 @@ function pushState() {
 }
 
 /* ----------------- Initial zoom / reset ----------------- */
-/* More zoomed out by default */
 function applyInitialZoom() {
   const t = d3.zoomIdentity
     .translate(width / 2, height / 2)
@@ -362,14 +369,12 @@ Promise.all([
       .style("border-left", `6px solid ${color(cluster)}`)
       .style("padding-left", "8px")
       .on("click", function() {
-        // Keep selection using the RAW cluster id (0-based), only the label shows 1-based.
         selectedCluster = (selectedCluster === cluster ? null : cluster);
         legendContainer.selectAll(".legend-item").style("outline", "none");
         if (selectedCluster !== null) d3.select(this).style("outline", "2px solid #ddd");
         updateVisualization();
       });
 
-    // Display label as 1-based and include "papers" in parentheses
     const displayCluster = (Number(cluster) + 1);
     item.append("div")
       .attr("class", "legend-title")
@@ -459,14 +464,30 @@ Promise.all([
     debounceTimer = setTimeout(updateVisualization, 200);
   });
 
-  var panAmount = 50;
-  d3.select("#zoom_in").on("click", () => d3.select("#paperviz svg").transition().call(zoom.scaleBy, 1.2));
-  d3.select("#zoom_out").on("click", () => d3.select("#paperviz svg").transition().call(zoom.scaleBy, 0.8));
-  d3.select("#pan_left").on("click", () => d3.select("#paperviz svg").transition().call(zoom.translateBy, panAmount / currentTransform.k, 0));
-  d3.select("#pan_right").on("click", () => d3.select("#paperviz svg").transition().call(zoom.translateBy, -panAmount / currentTransform.k, 0));
-  d3.select("#pan_up").on("click", () => d3.select("#paperviz svg").transition().call(zoom.translateBy, 0, panAmount / currentTransform.k));
-  d3.select("#pan_down").on("click", () => d3.select("#paperviz svg").transition().call(zoom.translateBy, 0, -panAmount / currentTransform.k));
+  // Zoom controls (pan via drag; wheel/pinch to zoom)
+  d3.select("#zoom_in").on("click", () =>
+    d3.select("#paperviz svg").transition().call(zoom.scaleBy, 1.2)
+  );
+  d3.select("#zoom_out").on("click", () =>
+    d3.select("#paperviz svg").transition().call(zoom.scaleBy, 0.8)
+  );
+  d3.select("#reset_view").on("click", () => {
+    applyInitialZoom();
+    const hint = document.getElementById("gestureHint");
+    if (hint){ hint.classList.add("show"); setTimeout(()=>hint.classList.remove("show"), 1500); }
+  });
+
   d3.select("#sizeByCitations").on("change", updateVisualization);
+
+  // One-time gesture hint on first load
+  (function gestureHintOnce(){
+    const hint = document.getElementById("gestureHint");
+    if (!hint) return;
+    if (localStorage.getItem("paperviz-hinted")) return;
+    hint.classList.add("show");
+    setTimeout(() => hint.classList.remove("show"), 2200);
+    localStorage.setItem("paperviz-hinted", "1");
+  })();
 
 }).catch(function(err) {
   const loader = document.getElementById("loadingViz");
@@ -480,11 +501,6 @@ d3.select("#clearSearch").on("click", function() {
   updateVisualization();
 });
 
-/* Reset view button */
-d3.select("#reset_view").on("click", function() {
-  applyInitialZoom();
-});
-
 /* Keyboard shortcuts */
 document.addEventListener("keydown", (e) => {
   if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
@@ -494,7 +510,8 @@ document.addEventListener("keydown", (e) => {
     d3.select("#filtermap").property("value", "");
     updateVisualization();
   } else if (e.key.toLowerCase() === "r") {
-    applyInitialZoom();
+    const resetBtn = document.getElementById("reset_view");
+    if (resetBtn) resetBtn.click();
   }
 });
 </script>
