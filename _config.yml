@@ -14,3 +14,11 @@ future: true
 plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-feed
+
+feed:
+  collections:
+    - publications
+    
+sass:
+  style: compressed
