@@ -8,8 +8,12 @@ permalink: /
 
 # Awesome Papers on Learning to Hash
 
-<p style="font-size: 1.2em;">
-A curated and continuously updated collection of academic papers on hashing-based approximate nearest neighbour (ANN) search, spanning applications in computer vision, natural language processing, bioinformatics, and related domains.
+<p style="font-size: 1.05em;">
+  A curated and continuously updated collection of <strong>academic papers</strong> 
+  on <strong>hashing-based approximate nearest neighbour (ANN) search</strong>, 
+  spanning applications in <strong>computer vision</strong>, 
+  <strong>natural language processing</strong>, 
+  <strong>bioinformatics</strong>, and related domains.
 </p>
 
 ---
