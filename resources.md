@@ -25,7 +25,7 @@ title: Resources
 <div id="cardsGrid" class="cards" style="display:none;" aria-live="polite"></div>
 <p id="emptyState" class="empty" style="display:none;">No resources match your search.</p>
 
-<!-- Hidden Data Table (used as an efficient data engine) -->
+<!-- Hidden Data Table (Data engine only; never shown) -->
 <table id="resources-table" class="display stripe hover" style="width:100%; display:none;">
   <thead>
     <tr>
@@ -41,9 +41,9 @@ title: Resources
   <tbody></tbody>
 </table>
 
-<!-- Full original content (kept, collapsible), auto-scraped into cards above -->
-<details id="resourcesContent" open>
-  <summary><strong>Show/Hide Full Resource Lists</strong></summary>
+<!-- Source content (hidden). Markdown is rendered, but never shown. -->
+<details id="resourcesContent" markdown="1" hidden aria-hidden="true">
+  <summary>Hidden resources source</summary>
 
 ### 🎥📘 Introductory Video Material
 
@@ -167,7 +167,6 @@ title: Resources
 - **[Deep1B Dataset](https://github.com/facebookresearch/faiss/wiki/Indexing-1B-vectors)**
 - **[DEEP-10M](https://research.yandex.com/datasets)**
 - **[GLUE Benchmark](https://gluebenchmark.com/)**
-
 </details>
 
 <style>
@@ -252,7 +251,19 @@ title: Resources
 
 <script>
 (function(){
-  // ---- Hash deep-link helpers (/#query) ----
+  // Wait for jQuery + DataTables (handles defer race)
+  function waitForDT(cb, tries = 80){
+    if (window.jQuery && jQuery.fn && jQuery.fn.dataTable) return cb();
+    if (tries <= 0) return cb(new Error('DataTables not loaded'));
+    setTimeout(() => waitForDT(cb, tries - 1), 100);
+  }
+  function ready(fn){
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', fn, { once:true });
+    } else { fn(); }
+  }
+
+  // Hash helpers (/#query)
   function readHashQuery(){
     const raw = window.location.hash ? window.location.hash.slice(1) : '';
     if (!raw) return '';
@@ -263,22 +274,14 @@ title: Resources
     else history.replaceState(null, '', location.pathname + location.search);
   }
 
-  // ---- Utilities ----
-  function textContentTrim(node){
-    return (node ? node.textContent : '').replace(/\s+/g,' ').trim();
-  }
-  function escapeHtml(s){
-    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')
-                    .replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
-  }
-  function domainFromUrl(u){ try{ return new URL(u).hostname; } catch(e){ return ''; } }
-  function faviconForDomain(d){
-    if (!d) return '';
-    return 'https://www.google.com/s2/favicons?domain=' + encodeURIComponent(d) + '&sz=32';
-  }
+  // Utils
+  function textContentTrim(node){ return (node ? node.textContent : '').replace(/\s+/g,' ').trim(); }
+  function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
+  function domainFromUrl(u){ try{ return new URL(u, location.origin).hostname; } catch(e){ return ''; } }
+  function faviconForDomain(d){ return d ? 'https://www.google.com/s2/favicons?domain='+encodeURIComponent(d)+'&sz=32' : ''; }
   function debounce(fn, ms=120){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; }
 
-  // ---- DOM refs ----
+  // DOM refs
   const loadingEl = document.getElementById('loading');
   const toolbarEl = document.getElementById('resToolbar');
   const inputEl   = document.getElementById('resSearch');
@@ -334,7 +337,6 @@ title: Resources
         </div>
       `;
 
-      // Ensure clickable title if not already
       if (url){
         const a = card.querySelector('.title a');
         if (!a){
@@ -349,13 +351,11 @@ title: Resources
     updateVisibleCount();
   }
 
-  // Scrape the lists into a flat dataset
+  // Scrape hidden lists into rows
   function scrapeResources(){
     const rows = [];
     if (!contentEl) return rows;
 
-    // Walk through headings and lists
-    // Category: nearest previous H3 text; Subcategory: nearest previous H4 text
     const walker = document.createTreeWalker(contentEl, NodeFilter.SHOW_ELEMENT, null);
     let currCat = '', currSub = '';
 
@@ -364,7 +364,7 @@ title: Resources
 
       if (/^H3$/i.test(el.tagName)) {
         currCat = textContentTrim(el).replace(/^#+\s*/,'');
-        currSub = ''; // reset subcategory when category changes
+        currSub = '';
       } else if (/^H4$/i.test(el.tagName)) {
         currSub = textContentTrim(el).replace(/^#+\s*/,'');
       } else if (/^LI$/i.test(el.tagName)) {
@@ -372,16 +372,16 @@ title: Resources
         if (!a) continue;
         const url = a.getAttribute('href') || '';
         const title = textContentTrim(a) || '(untitled)';
-        // Description = li text without link text prefix
+
         let full = textContentTrim(el);
-        // remove bold link title if present
-        full = full.replace(new RegExp('^\\*?\\*?\\s*' + title.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + '\\s*:?\\s*','i'), '');
+        try{
+          full = full.replace(new RegExp('^\\*?\\*?\\s*' + title.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + '\\s*:?\\s*','i'), '');
+        }catch{}
         const desc = full;
 
         const domain = domainFromUrl(url);
         const titleHTML = `<a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>`;
         const descHTML  = desc ? escapeHtml(desc) : '';
-
         const raw = [title, currCat, currSub, desc, url, domain].join(' ').toLowerCase();
 
         rows.push([ titleHTML, currCat, currSub, descHTML, raw, url, domain ]);
@@ -390,9 +390,9 @@ title: Resources
     return rows;
   }
 
-  async function start(){
+  function start(err){
     try{
-      if (!window.jQuery || !jQuery.fn || !jQuery.fn.dataTable) {
+      if (err || !window.jQuery || !jQuery.fn || !jQuery.fn.dataTable) {
         if (loadingEl) loadingEl.innerHTML = '<p style="color:#b00020">Failed to load: DataTables missing.</p>';
         return;
       }
@@ -417,28 +417,22 @@ title: Resources
         autoWidth: false,
         paging: false,
         searching: true,
-        order: [[1,'asc'], [2,'asc'], [0,'asc']], // group by cat/subcat for deterministic card order
+        order: [[1,'asc'], [2,'asc'], [0,'asc']],
         columnDefs: [
           { targets: [4,5,6], visible: false, searchable: false }
         ],
         initComplete: function(){
           datatable = this.api();
 
-          // Show minimal UI
           if (loadingEl) loadingEl.style.display='none';
           toolbarEl.style.display='';
           gridEl.style.display='grid';
 
-          // Initial filter from hash
           if (initialQuery) datatable.search(initialQuery).draw();
 
-          // First paint
           renderCards();
-
-          // Re-render cards on filter changes
           datatable.on('draw', renderCards);
 
-          // Search wiring + deep-link hash
           const apply = debounce(() => {
             const q = inputEl ? (inputEl.value || '') : '';
             datatable.search(q).draw(false);
@@ -456,7 +450,6 @@ title: Resources
             datatable.search(q).draw(false);
           });
 
-          // Keyboard shortcuts
           document.addEventListener('keydown', (e) => {
             if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
               e.preventDefault(); inputEl.focus();
@@ -465,29 +458,23 @@ title: Resources
             }
           });
 
-          // Adjust after first paint
           setTimeout(() => datatable.columns.adjust().draw(false), 60);
           updateVisibleCount();
         }
       });
 
-      // If nothing scraped (e.g., markup change), keep loader helpful
       if (rows.length === 0){
         gridEl.style.display = 'none';
         if (loadingEl) loadingEl.innerHTML = '<p>No resources detected to index.</p>';
       }
 
-    } catch (err){
-      console.error(err);
+    } catch (e){
+      console.error(e);
       if (loadingEl) loadingEl.innerHTML = '<p style="color:#b00020">Failed to load resources.</p>';
     }
   }
 
-  if (document.readyState === 'loading'){
-    document.addEventListener('DOMContentLoaded', start, { once:true });
-  } else {
-    start();
-  }
+  ready(() => waitForDT(start));
 })();
 </script>
 
