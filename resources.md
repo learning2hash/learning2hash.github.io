@@ -2,6 +2,7 @@
 layout: default
 title: Resources
 ---
+
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">📚 Resources on Machine Learning for Hashing</h2>
 <p style="font-size: 1.05em;">
   A curated collection of <strong>papers</strong>, <strong>datasets</strong>, 
