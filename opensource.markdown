@@ -4,9 +4,11 @@ title: Search Open Source Tools
 description: A searchable list of open-source Learning to Hash tools
 ---
 
-<h2 style="font-size: 1.8em; margin-bottom: 10px;">🧰 Open Source Learning to Hash Tools</h2>
+<h2 style="font-size: 1.8em; margin-bottom: 10px;">🧰 Open-Source Learning-to-Hash Tools</h2>
 <p style="font-size: 1.05em;">
-  Search, filter, and sort to find relevant repositories.
+  Explore <strong>open-source repositories</strong> related to Learning to Hash. 
+  Use the search bar to <strong>filter</strong> and <strong>sort</strong> by stars, 
+  contributors, or recent activity to discover key projects in the field.
 </p>
 
 <!-- Slim Toolbar: search + visible count -->
