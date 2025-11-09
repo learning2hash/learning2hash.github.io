@@ -22,8 +22,8 @@
       <a class="sidebar-nav-item{% if page.url == "/tags.html" %} active{% endif %}" href="{% link tags.html %}">Papers by Tag</a>
       <a class="sidebar-nav-item{% if page.url == "/tsne-viz.html" %} active{% endif %}" href="{% link tsne-viz.html %}">2D Map of Papers</a>
       <a class="sidebar-nav-item{% if page.url == "/topic-viz.html" %} active{% endif %}" href="{% link topic-viz.html %}">Topic Explorer</a>
-      <a class="sidebar-nav-item{% if page.url == "/author-viz.html" %} active{% endif %}" href="{% link author-viz.html %}">Author Explorer </a>
-      <a class="sidebar-nav-item{% if page.url == "/opensource.html" %} active{% endif %}" href="{% link opensource.markdown %}">Tools Explorer </a>
+      <a class="sidebar-nav-item{% if page.url == "/author-viz.html" %} active{% endif %}" href="{% link author-viz.html %}">Author Explorer</a>
+      <a class="sidebar-nav-item{% if page.url == "/opensource.html" %} active{% endif %}" href="{% link opensource.markdown %}">Tools Explorer</a>
       <a class="sidebar-nav-item{% if page.url == tutorial.html %} active{% endif %}" href="/tutorial.html">Tutorial</a>
       <a class="sidebar-nav-item{% if page.url == "/resources.html" %} active{% endif %}" href="{% link resources.md %}">Resources, Courses &#38; Events</a>
       <a class="sidebar-nav-item{% if page.url == contributing.html %} active{% endif %}" href="{% link contributing.markdown %}">Contributing</a>
@@ -40,8 +40,44 @@
   </div>
 </div>
 
+<style>
+/* === Scrollable Right Sidebar (keeps original width) === */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 1.5rem 1rem;
+  box-sizing: border-box;
+  background-color: #7da2b3; /* match theme */
+  scrollbar-gutter: stable;
+}
+
+/* Let inner sticky container scroll normally */
+.sidebar .container.sidebar-sticky {
+  position: relative;
+  max-height: none;
+  overflow: visible;
+}
+
+/* Optional: nice scrollbar for WebKit browsers */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.25);
+  border-radius: 4px;
+}
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,0.4);
+}
+</style>
+
 <script defer>
 document.addEventListener('DOMContentLoaded', function () {
+  // ----- Search function -----
   function doSearch() {
     const el = document.getElementById('searchTarget');
     if (!el) return;
@@ -68,7 +104,17 @@ document.addEventListener('DOMContentLoaded', function () {
     if (btn) btn.addEventListener('click', doSearch);
   }
 
-  // keep global for inline onClick="search()"
   window.search = doSearch;
+
+  // ----- Keep main margin equal to sidebar width -----
+  const sb = document.querySelector('.sidebar');
+  const mains = document.querySelectorAll('.main, .content');
+  function syncSidebarWidth() {
+    if (!sb) return;
+    const w = sb.offsetWidth + 'px';
+    mains.forEach(m => m && (m.style.marginRight = w));
+  }
+  syncSidebarWidth();
+  window.addEventListener('resize', syncSidebarWidth);
 });
 </script>
