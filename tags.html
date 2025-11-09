@@ -7,82 +7,73 @@ description: Explore tags for Learning to Hash research papers
 <a id="top"></a>
 
 <style>
-/* ---- Simple, stable layout tokens (no sidebar math) ---- */
+/* ---- Simple, stable layout tokens ---- */
 :root{
   --page-gutter: clamp(12px, 2vw, 24px);
+
+  /* match publications page look */
+  --bg:#ffffff;
+  --card:#fff;
+  --muted:#6b7280;
+  --line:#e5e7eb;
+  --shadow:0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.04);
+  --brand:#1a73e8;
 }
 
-/* Centered container with comfy gutters; never squeezes to a tiny column */
+/* Centered container */
 .page-boundary{
   box-sizing: border-box;
   width: 100%;
-  max-width: 1200px;                /* tweak width to your taste */
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 1200px;
+  margin: 0 auto;
   padding-left: var(--page-gutter);
   padding-right: var(--page-gutter);
 }
 
-/* ---- Compact, neutral control style (matches previous page) ---- */
-.controls { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.6rem; margin:.6rem 0 .9rem; }
-.search { display:flex; align-items:flex-start; gap:.6rem; flex-wrap:wrap; }
-.search label { font-weight:700; font-size:.85rem; }
-/* Make the search input fluid, not fixed 200px */
-.search input {
-  width: clamp(140px, 24vw, 520px);
-  padding: .25rem .4rem;
-  border: 1px solid #aaa;
-  border-radius: 4px;
-  font-size: .85rem;
-  background-color: #f8f9fa;
+/* ---- Slim, sticky toolbar (same style language) ---- */
+.toolbar{
+  position:sticky; top:0; z-index:20;
+  background: linear-gradient(#fff, rgba(255,255,255,.92));
+  backdrop-filter: blur(4px);
+  border:1px solid var(--line);
+  border-radius:12px; padding:10px 12px; margin:8px 0 12px;
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  box-shadow: var(--shadow);
 }
-.search input:focus { outline:none; border-color:#0c5fce; box-shadow:0 0 0 2px rgba(26,115,232,.25); }
-.search button {
-  padding: .25rem .5rem;
-  font-size: .85rem;
-  border: 1px solid #aaa;
-  border-radius: 4px;
-  background: #f8f9fa;
-  cursor: pointer;
+.search{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+.search label{ font-weight:700; font-size:.85rem; }
+.search input{
+  width:clamp(220px, 32vw, 560px);
+  padding:.45rem .6rem;
+  border:1px solid #cbd5e1; border-radius:8px;
+  font-size:.95rem; background-color:#f8fafc;
 }
-.search button:hover { background:#e2e2e2; }
+.search input:focus{
+  outline:none; border-color:var(--brand);
+  box-shadow:0 0 0 2px rgba(26,115,232,.18);
+}
+.search button{
+  padding:.45rem .6rem; font-size:.85rem; border:1px solid #cbd5e1;
+  border-radius:8px; background:#f8fafc; cursor:pointer;
+}
+.search button:hover{ background:#eef2f7; }
+.small{ color:var(--muted); font-size:.9em; }
 
-/* ---- Tag cloud & chips — match Open Source Tools grey chips ---- */
+/* ---- Tag cloud & chips ---- */
 .tag-cloud { display:flex; flex-wrap:wrap; gap:.5rem .75rem; margin:.4rem 0 .8rem; }
 .tag-cloud a {
-  text-decoration:none;
-  border-radius:999px;
-  padding:.15rem .45rem;
-  background:#f6f7f9;
-  border:1px solid #e6e8ec;
-  display:inline-flex;
-  align-items:center;
-  gap:.35rem;
-  font-size:.75rem;             /* same size as tools page */
-  line-height:1.1;
-  color:#6b7280;                /* grey font like tools page */
-  font-weight:500;
-
-  /* Make long tags wrap safely */
-  max-width:100%;
-  white-space:normal;
-  overflow-wrap:anywhere;
-  word-break:break-word;
+  text-decoration:none; border-radius:999px; padding:.15rem .45rem;
+  background:#f6f7f9; border:1px solid #e6e8ec;
+  display:inline-flex; align-items:center; gap:.35rem;
+  font-size:.75rem; line-height:1.1; color:#6b7280; font-weight:500;
+  max-width:100%; white-space:normal; overflow-wrap:anywhere; word-break:break-word;
 }
 .tag-cloud a:hover { background:#f0f3f7; color:#4b5563; }
 .tag-cloud a:focus { outline:none; box-shadow:0 0 0 3px rgba(26,115,232,.25); }
-
-/* --- FORCE neutral chip color in all link states (no blue/purple) --- */
-.tag-cloud a,
-.tag-cloud a:link,
-.tag-cloud a:visited,
-.tag-cloud a:hover,
-.tag-cloud a:active {
-  color:#6b7280 !important;
-  text-decoration:none !important;
+/* keep neutral color in all states */
+.tag-cloud a, .tag-cloud a:link, .tag-cloud a:visited, .tag-cloud a:hover, .tag-cloud a:active {
+  color:#6b7280 !important; text-decoration:none !important;
 }
-
-/* Optional: keep slight size variation but stay compact */
 .tag-badge { font-size:.75rem; opacity:.8; font-variant-numeric: tabular-nums; }
 .tag-size-1 { font-size:.75rem; }
 .tag-size-2 { font-size:.8rem; }
@@ -92,69 +83,53 @@ description: Explore tags for Learning to Hash research papers
 
 /* ---- Sections ---- */
 .tag-section { margin:.8rem 0 1rem; border:1px solid #eee; border-radius:.6rem; background:#fff; }
-.tag-section summary {
+.tag-section summary{
   cursor:pointer; list-style:none; padding:.5rem .75rem; font-weight:600;
   display:flex; align-items:center; gap:.5rem;
 }
 .tag-section[open] summary { border-bottom:1px solid #f0f0f0; }
 
-/* Tag chip inside summaries — same grey look, but wrap if long */
-.tag-chip {
+/* chips in summaries */
+.tag-chip{
   display:inline-flex; align-items:center; gap:.35rem;
   background:#f6f7f9; border:1px solid #e6e8ec;
   padding:.15rem .45rem; border-radius:999px; font-weight:500; font-size:.75rem; line-height:1.1;
-  color:#6b7280; /* grey font */
-  max-width:100%;
-  white-space:normal;
-  overflow-wrap:anywhere;
-  word-break:break-word;
+  color:#6b7280; max-width:100%; white-space:normal; overflow-wrap:anywhere; word-break:break-word;
 }
-.tag-chip:hover { background:#f0f3f7; color:#4b5563; }
-.tag-chip:focus { outline:none; box-shadow:0 0 0 3px rgba(26,115,232,.25); }
+.tag-chip:hover{ background:#f0f3f7; color:#4b5563; }
+.tag-chip:focus{ outline:none; box-shadow:0 0 0 3px rgba(26,115,232,.25); }
 
 .tag-count { font-size:.72rem; opacity:.7; font-variant-numeric: tabular-nums; }
 .tag-list { padding:.5rem .75rem .75rem; }
 
-/* ---- Publication items (ensure no overflow on small screens) ---- */
-.pub-list { margin:0; padding:0 0 0 1rem; }
-.pub-list li { margin:.3rem 0 .45rem; }
-.pub-list a { font-weight:600; }
-.pub-meta,
-.pub-authors,
-.pub-list a {
-  white-space:normal;
-  overflow-wrap:anywhere;
-  word-break:break-word;
+/* ---- Publication items ---- */
+.pub-list{ margin:0; padding:0 0 0 1rem; }
+.pub-list li{ margin:.3rem 0 .45rem; }
+.pub-list a{ font-weight:600; }
+.pub-meta,.pub-authors,.pub-list a{
+  white-space:normal; overflow-wrap:anywhere; word-break:break-word;
 }
-.pub-meta { font-size:.85em; color:#6b7280; display:inline; }
-.pub-authors { font-size:.85em; color:#4b5563; }
+.pub-meta{ font-size:.85em; color:#6b7280; display:inline; }
+.pub-authors{ font-size:.85em; color:#4b5563; }
 
 /* ---- A→Z jump links ---- */
-.alpha { display:flex; flex-wrap:wrap; gap:.25rem; row-gap:.25rem; }
-.alpha a {
+.alpha{ display:flex; flex-wrap:wrap; gap:.25rem; row-gap:.25rem; }
+.alpha a{
   font-variant:all-small-caps; font-weight:600; font-size:.85rem; color:#374151; text-decoration:none;
   padding:.05rem .3rem; border-radius:.3rem;
 }
-.alpha a:hover { background:#f1f5f9; }
-/* keep alpha neutral in visited state too */
-.alpha a:link,
-.alpha a:visited { color:#374151; }
+.alpha a:hover{ background:#f1f5f9; }
+.alpha a:link, .alpha a:visited{ color:#374151; }
 
-/* neutralize “#” anchor link color next to tag headings */
-.tag-section .anchor:link,
-.tag-section .anchor:visited { color:#9ca3af; }
+/* neutralize anchor color next to tag headings */
+.tag-section .anchor:link, .tag-section .anchor:visited{ color:#9ca3af; }
+.anchor{ text-decoration:none; color:#9ca3af; }
+.back-top{ font-size:.9em; }
 
-/* ---- Small text helpers ---- */
-.small { color:#6b7280; font-size:.9em; }
-.anchor { text-decoration:none; color:#9ca3af; }
-.back-top { font-size:.9em; }
+/* Tiny screens */
+@media (max-width: 480px){ .toolbar{ border-radius:10px; } }
 
-/* Tiny screens: tighten gaps a bit */
-@media (max-width: 480px){
-  .controls { gap:.5rem; }
-}
-
-/* ====== Limit to 12 items when collapsed; show all when open ====== */
+/* limit to 12 items when collapsed */
 .tag-section:not([open]) .pub-list li:nth-child(n+13) { display:none; }
 .tag-section[open] .limited-note { display:none; }
 </style>
@@ -180,21 +155,19 @@ description: Explore tags for Learning to Hash research papers
 
 <h2 style="font-size: 1.8em; margin-bottom: 10px;">🏷️ Browse Publications by Tag</h2>
 <p style="font-size: 1.05em;">
-  Explore research grouped by <strong>tag</strong>. Click any tag to expand and view 
-  all related papers instantly. Use the search box above to quickly filter tags or 
-  titles.
+  Explore research grouped by <strong>tag</strong>. Click any tag to expand and view
+  all related papers. Use the search to quickly filter tags or titles.
 </p>
-    
-<div class="controls">
-  <!-- Instant tag search -->
+
+<!-- Slim Toolbar: search + visible count + A→Z links -->
+<div id="tagsToolbar" class="toolbar">
   <div class="search">
     <label for="tagSearch"><strong>Search</strong></label>
-    <input id="tagSearch" type="text" placeholder="🔍 Search papers..." />
-    <button id="resetSearch" type="button">Clear</button>
-    <span id="tagVisibleCount" class="small"></span>
+    <input id="tagSearch" type="search" placeholder="🔍 Search papers…" inputmode="search" />
+    <button id="resetSearch" type="button" aria-label="Clear search">Clear</button>
+    <span id="tagVisibleCount" class="small" aria-live="polite"></span>
   </div>
 
-  <!-- A→Z jump links -->
   {% assign initials = '' %}
   {% for tag in rawtags %}
     {% assign first = tag | slice: 0,1 | upcase %}
@@ -243,18 +216,16 @@ description: Explore tags for Learning to Hash research papers
 
     {% assign first = tag | slice: 0,1 | upcase %}
     {% if first != current_initial %}
-      {% unless forloop.first %}
-        <div style="height:.4rem;"></div>
-      {% endunless %}
+      {% unless forloop.first %}<div style="height:.4rem;"></div>{% endunless %}
       <h3 id="letter-{{ first }}" class="small">— {{ first }} —</h3>
       {% assign current_initial = first %}
     {% endif %}
 
-    <details class="tag-section" id="{{ tag }}">
+    <details class="tag-section" id="{{ tag | uri_escape }}">
       <summary>
         <span class="tag-chip">{{ tag }}</span>
         <span class="tag-count">{{ count }} paper{% if count != 1 %}s{% endif %}</span>
-        <a class="anchor" href="#{{ tag }}" title="Copy link" aria-label="Copy direct link">#</a>
+        <a class="anchor" href="#{{ tag | uri_escape }}" title="Copy link" aria-label="Copy direct link">#</a>
       </summary>
       <div class="tag-list">
         <ul class="pub-list">
@@ -267,20 +238,11 @@ description: Explore tags for Learning to Hash research papers
                   {% if publication.conference %} • {{ publication.conference }}{% endif %}
                   {% if publication.citations %} • {{ publication.citations }} citations{% endif %}
                 </span>
-                {% comment %}
-                  Robust author rendering:
-                  - Prefer short_authors if present
-                  - Else handle authors as YAML list or comma-separated string
-                  - Trim whitespace
-                  - Skip consortium/team labels for display when possible
-                  - If first author looks like an initial (<=2 chars) and there are more authors, list all
-                {% endcomment %}
+
                 {% if publication.short_authors and publication.short_authors != '' %}
                   <div class="pub-authors">{{ publication.short_authors }}</div>
                 {% elsif publication.authors %}
                   {% assign authors_raw = publication.authors %}
-
-                  {%- comment -%} Detect if authors_raw is an array by attempting a join {%- endcomment -%}
                   {% capture joined %}{{ authors_raw | join: '||' }}{% endcapture %}
                   {% if joined contains '||' %}
                     {% assign authors_list = authors_raw %}
@@ -288,23 +250,17 @@ description: Explore tags for Learning to Hash research papers
                     {% assign authors_list = authors_raw | split: ',' %}
                   {% endif %}
 
-                  {%- comment -%} Build a trimmed copy of authors_list {%- endcomment -%}
                   {% assign _acc = '' %}
                   {% for a in authors_list %}
                     {% assign a2 = a | strip %}
                     {% if a2 != '' %}
-                      {% if forloop.first %}
-                        {% assign _acc = a2 %}
-                      {% else %}
-                        {% assign _acc = _acc | append: '||' | append: a2 %}
-                      {% endif %}
+                      {% if forloop.first %}{% assign _acc = a2 %}{% else %}{% assign _acc = _acc | append: '||' | append: a2 %}{% endif %}
                     {% endif %}
                   {% endfor %}
                   {% assign authors_list = _acc | split: '||' %}
                   {% assign a_count = authors_list | size %}
                   {% assign first_author = authors_list | first %}
 
-                  {%- comment -%} Handle team/consortium first entries {%- endcomment -%}
                   {% assign is_team = false %}
                   {% if first_author contains 'Team' or first_author contains 'Consortium' or first_author contains 'Group' or first_author contains 'Collaboration' %}
                     {% assign is_team = true %}
@@ -377,23 +333,25 @@ description: Explore tags for Learning to Hash research papers
     input.focus();
   });
 
+  // k to focus, Esc to clear
   document.addEventListener('keydown', (e) => {
     if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
-      e.preventDefault();
-      input.focus();
+      e.preventDefault(); input.focus();
     } else if (e.key === 'Escape') {
-      input.value = '';
-      filter();
+      input.value = ''; filter();
     }
   });
 
   function openHashTarget() {
-    const id = decodeURIComponent(location.hash.replace('#',''));
-    if (!id) return;
-    const details = document.getElementById(id);
-    if (details && details.tagName.toLowerCase() === 'details') {
-      details.open = true;
-      details.scrollIntoView({behavior:'smooth', block:'start'});
+    const raw = location.hash ? location.hash.slice(1) : '';
+    if (!raw) return;
+    const id = decodeURIComponent(raw);
+    // Support special chars via CSS.escape fallback
+    const sel = `details[id="${id}"]`;
+    const node = document.getElementById(id) || (window.CSS && CSS.escape ? document.querySelector(`details[id="${CSS.escape(id)}"]`) : document.querySelector(sel));
+    if (node && node.tagName.toLowerCase() === 'details') {
+      node.open = true;
+      node.scrollIntoView({behavior:'smooth', block:'start'});
     }
   }
   window.addEventListener('hashchange', openHashTarget);
