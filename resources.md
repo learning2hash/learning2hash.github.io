@@ -16,6 +16,9 @@ title: Resources
   </div>
 </div>
 
+<!-- Category jump bar (built dynamically) -->
+<div id="jumpBar" class="jumpbar" style="display:none;"></div>
+
 <!-- Loading Indicator -->
 <div id="loading" role="status" aria-live="polite">
   <p>Loading Resources Explorer …</p>
@@ -189,42 +192,60 @@ title: Resources
     box-shadow: var(--shadow);
   }
 
-  .search{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
-  .search label{ font-weight:700; font-size:.85rem; }
-  .search input{
-    width:clamp(220px, 32vw, 560px); padding:.45rem .6rem;
-    border:1px solid #cbd5e1; border-radius:8px; font-size:.95rem; background-color:#f8fafc;
+  /* Jump bar */
+  .jumpbar{
+    position:sticky; top:10px; z-index:25;
+    display:flex; flex-wrap:wrap; gap:8px;
+    margin:6px 0 10px;
   }
-  .search input:focus{ outline:none; border-color:var(--brand); box-shadow:0 0 0 2px rgba(26,115,232,.18); }
-  .search button{
-    padding:.45rem .6rem; font-size:.85rem; border:1px solid #cbd5e1; border-radius:8px; background:#f8fafc; cursor:pointer;
+  .jumpbar a{
+    display:inline-block; font-size:.85rem;
+    border:1px solid var(--line); border-radius:999px;
+    padding:.28rem .55rem; text-decoration:none; color:#0f172a;
+    background:#f8fafc;
   }
-  .search button:hover{ background:#eef2f7; }
-  .small{ color:var(--muted); font-size:.9em; }
+  .jumpbar a:hover{ background:#eef2f7; }
 
   .cards{
     display:grid; gap:14px;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   }
+  /* Category divider spanning the grid */
+  .cat-divider{
+    grid-column:1 / -1;
+    position:sticky; top:62px;           /* sits below sticky toolbar */
+    z-index:15;
+    background: linear-gradient(#fff, rgba(255,255,255,.94));
+    backdrop-filter: blur(4px);
+    padding:8px 10px;
+    border:1px solid var(--line);
+    border-radius:10px;
+    font-weight:800;
+    letter-spacing:.2px;
+    box-shadow: var(--shadow);
+    margin-top:6px;
+    margin-bottom:-4px;
+  }
+
   .card{
     border:1px solid var(--line); border-radius:14px; background:var(--card);
     padding:14px; box-shadow: var(--shadow); transition: transform .06s ease;
-    display:flex; flex-direction:column; gap:6px;      /* NEW */
-    min-width:0;                                       /* NEW */
+    display:flex; flex-direction:column; gap:6px;   /* robustness */
+    min-width:0;
   }
-  .card * { min-width:0; }                              /* NEW */
+  .card * { min-width:0; }
 
   .card:hover{ transform: translateY(-1px); }
   .meta{
     display:flex; align-items:center; gap:8px; margin-bottom:2px;
-    color:var(--muted); font-size:.85rem; flex-wrap:wrap; /* NEW */
+    color:var(--muted); font-size:.85rem; flex-wrap:wrap;
   }
   .favicon{ width:16px; height:16px; border-radius:4px; background:#f3f4f6; }
 
   .title{
     font-weight:700; line-height:1.25; margin:2px 0 2px;
-    display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; /* NEW */
-    overflow:hidden; word-break:break-word; overflow-wrap:anywhere;          /* NEW */
+    display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2;
+    overflow:hidden; word-break:break-word; overflow-wrap:anywhere;
   }
   .title a{ text-decoration:none; color:#0f172a; }
   .title a:hover{ text-decoration:underline; }
@@ -232,8 +253,7 @@ title: Resources
   .desc{
     color:#374151; font-size:.95rem; line-height:1.45;
     display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:4;
-    overflow:hidden;
-    word-break:break-word; overflow-wrap:anywhere; /* NEW */
+    overflow:hidden; word-break:break-word; overflow-wrap:anywhere;
   }
 
   .badges{ display:flex; align-items:center; gap:6px; margin-top:6px; flex-wrap:wrap; }
@@ -310,12 +330,20 @@ title: Resources
   const gridEl    = document.getElementById('cardsGrid');
   const emptyEl   = document.getElementById('emptyState');
   const contentEl = document.getElementById('resourcesContent');
+  const jumpBarEl = document.getElementById('jumpBar');   // NEW
 
   let datatable;
 
   function updateVisibleCount(){
     if (!datatable || !countEl) return;
     countEl.textContent = datatable.rows({ filter:'applied' }).count() + ' resources';
+  }
+
+  function slugify(s){
+    return (s || 'uncategorised')
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g,'-')
+      .replace(/(^-|-$)/g,'');
   }
 
   function renderCards(){
@@ -327,18 +355,34 @@ title: Resources
       gridEl.style.display='none';
       emptyEl.style.display='';
       updateVisibleCount();
+      if (jumpBarEl) jumpBarEl.style.display='none';
       return;
     }
     emptyEl.style.display='none';
     gridEl.style.display='grid';
 
+    let lastCat = null;
+    const catsForJump = [];
+
     rows.forEach(r => {
       const titleHTML = r[0];
-      const cat       = r[1] || '';
+      const cat       = r[1] || 'Uncategorised';
       const subcat    = r[2] || '';
       const descHTML  = r[3];
       const url       = r[5] || '';
       const domain    = r[6] || domainFromUrl(url);
+
+      // Insert divider when category changes (rows are sorted by category)
+      if (cat !== lastCat){
+        const id = 'cat-' + slugify(cat);
+        const divider = document.createElement('h2');
+        divider.className = 'cat-divider';
+        divider.id = id;
+        divider.textContent = cat;
+        gridEl.appendChild(divider);
+        catsForJump.push({ cat, id });
+        lastCat = cat;
+      }
 
       const card = document.createElement('article');
       card.className = 'card';
@@ -346,13 +390,11 @@ title: Resources
         <div class="meta">
           <img class="favicon" src="${faviconForDomain(domain)}" alt="" loading="lazy">
           <span>${domain || 'link'}</span>
-          ${cat ? '<span>•</span><span>'+escapeHtml(cat)+'</span>' : ''}
           ${subcat ? '<span>•</span><span>'+escapeHtml(subcat)+'</span>' : ''}
         </div>
         <h3 class="title">${titleHTML}</h3>
         <div class="desc">${descHTML}</div>
         <div class="badges">
-          ${cat ? '<span class="badge">'+escapeHtml(cat)+'</span>' : ''}
           ${subcat ? '<span class="badge">'+escapeHtml(subcat)+'</span>' : ''}
         </div>
       `;
@@ -367,6 +409,18 @@ title: Resources
 
       gridEl.appendChild(card);
     });
+
+    // Build/update jump bar
+    if (jumpBarEl){
+      if (catsForJump.length){
+        jumpBarEl.innerHTML = catsForJump.map(c =>
+          `<a href="#${c.id}" title="Jump to ${escapeHtml(c.cat)}">${escapeHtml(c.cat)}</a>`
+        ).join('');
+        jumpBarEl.style.display = '';
+      } else {
+        jumpBarEl.style.display = 'none';
+      }
+    }
 
     updateVisibleCount();
   }
