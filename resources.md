@@ -254,7 +254,7 @@ title: Resources
     cursor:pointer;
   }
   .card:hover{ transform:translateY(-1px); }
-  .meta{ display:flex; align-items:center; gap:8px; color:var(--muted); font-size:.85rem; flex-wrap:wrap; }
+  .meta{ display:flex; align-items:center; gap:8px; color:#6b7280; font-size:.85rem; flex-wrap:wrap; }
   .favicon{ width:16px; height:16px; border-radius:4px; background:#f3f4f6; }
   .title{ font-weight:700; line-height:1.25; margin:2px 0; overflow:hidden;
     display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; word-break:break-word; }
@@ -263,7 +263,7 @@ title: Resources
   .desc{ color:#374151; font-size:.95rem; line-height:1.45;
     display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:4; overflow:hidden; }
   .badges{ display:flex; gap:6px; margin-top:6px; flex-wrap:wrap; }
-  .badge{ font-size:.75rem; border:1px solid var(--line); padding:.2rem .45rem; border-radius:999px; background:#f7f7fb; }
+  .badge{ font-size:.75rem; border:1px solid var(--line); padding:.2rem .45rem; border-radius:999px; background:#f7f7fb; cursor:pointer; }
   .empty{ color:#6b7280; text-align:center; padding:24px 8px; }
 
   #loading{
@@ -326,18 +326,32 @@ title: Resources
     if(!datatable||!countEl)return;
     countEl.textContent=datatable.rows({filter:'applied'}).count()+' resources';
   }
+
+  // Central apply (regex OFF to avoid punctuation issues)
+  function applyFilter(q){
+    if(!datatable) return;
+    const query=(q||'').trim();
+    if(inputEl) inputEl.value=query;
+    datatable.search(query, /*regex*/false, /*smart*/true, /*caseInsensitive*/true).draw(false);
+    setHash(query);
+    updateVisibleCount();
+  }
+
   function withRenderedDetails(fn){
     if(!contentEl)return fn();
     const prevHidden=contentEl.hasAttribute('hidden');
     const prevDisplay=contentEl.style.display;
+    const prevPos=contentEl.style.position;
+    const prevLeft=contentEl.style.left;
     if(prevHidden)contentEl.removeAttribute('hidden');
     contentEl.style.display='block'; contentEl.style.position='absolute';
     contentEl.style.left='-99999px';
     const out=fn();
     if(prevHidden)contentEl.setAttribute('hidden','');
-    contentEl.style.display=prevDisplay||''; contentEl.style.position=''; contentEl.style.left='';
+    contentEl.style.display=prevDisplay||''; contentEl.style.position=prevPos||''; contentEl.style.left=prevLeft||'';
     return out;
   }
+
   function scrapeResources(){
     return withRenderedDetails(()=>{
       const rows=[]; const walker=document.createTreeWalker(contentEl,NodeFilter.SHOW_ELEMENT,null);
@@ -349,14 +363,16 @@ title: Resources
         else if(/^LI$/i.test(el.tagName)){
           const a=el.querySelector('a[href]'); if(!a)continue;
           const url=a.getAttribute('href')||''; const title=textContentTrim(a)||'(untitled)';
-          let full=textContentTrim(el); try{full=full.replace(new RegExp('^\\*?\\*?\\s*'+title.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\s*:?\\s*','i'),'');}catch{}
+          let full=textContentTrim(el);
+          try{ full=full.replace(new RegExp('^\\*?\\*?\\s*'+title.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\s*:?\\s*','i'),''); }catch{}
           const desc=full; const domain=domainFromUrl(url);
           const titleHTML=`<a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>`;
           const descHTML=desc?escapeHtml(desc):'';
           const raw=[title,currCat,currSub,desc,url,domain].join(' ').toLowerCase();
           rows.push([titleHTML,currCat,currSub,descHTML,raw,url,domain]);
         }
-      } return rows;
+      }
+      return rows;
     });
   }
 
@@ -370,41 +386,70 @@ title: Resources
     }
     emptyEl.style.display='none'; gridEl.style.display='grid';
     let lastCat=null; const catsForJump=[];
+
     rows.forEach(r=>{
-      const titleHTML=r[0],cat=r[1]||'Uncategorised',subcat=r[2]||'',descHTML=r[3],url=r[5]||'',domain=r[6]||domainFromUrl(url);
+      const titleHTML=r[0], cat=r[1]||'Uncategorised', subcat=r[2]||'', descHTML=r[3], url=r[5]||'', domain=r[6]||domainFromUrl(r[5]);
+
+      // Category divider (click to filter by category)
       if(cat!==lastCat){
         const id='cat-'+slugify(cat);
         const divider=document.createElement('h2');
         divider.className='cat-divider'; divider.id=id; divider.textContent=cat;
+        divider.addEventListener('click', ()=> applyFilter(cat));
         gridEl.appendChild(divider);
         catsForJump.push({cat,id}); lastCat=cat;
       }
+
       const card=document.createElement('article');
       card.className='card';
+      card.setAttribute('data-cat',cat);
+      card.setAttribute('data-sub',subcat);
+      card.setAttribute('data-domain',domain||'');
+
       card.innerHTML=`
         <div class="meta">
           <img class="favicon" src="${faviconForDomain(domain)}" alt="" loading="lazy">
-          <span>${domain||'link'}</span>
-          ${subcat?'<span>•</span><span>'+escapeHtml(subcat)+'</span>': ''}
+          <span class="meta-domain" title="Filter by site">${domain||'link'}</span>
+          ${subcat?'<span>•</span><button class="badge badge-sub" title="Filter by subcategory">'+escapeHtml(subcat)+'</button>':''}
         </div>
         <h3 class="title">${titleHTML}</h3>
         <div class="desc">${descHTML}</div>
         <div class="badges">
-          ${subcat?'<span class="badge">'+escapeHtml(subcat)+'</span>': ''}
-        </div>`;
-      if(url){
-        card.addEventListener('click',e=>{if(e.target.closest('a'))return;window.open(url,'_blank','noopener');});
-        card.setAttribute('role','link'); card.tabIndex=0;
-        card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();window.open(url,'_blank','noopener');}});
-      }
+          ${subcat?'<button class="badge badge-sub" title="Filter by subcategory">'+escapeHtml(subcat)+'</button>':''}
+          <button class="badge badge-cat" title="Filter by category">${escapeHtml(cat)}</button>
+        </div>
+      `;
+
+      // Click handling
+      card.addEventListener('click',(e)=>{
+        const a=e.target.closest('a'); if(a) return; // let links work
+        const subBtn=e.target.closest('.badge-sub');
+        const catBtn=e.target.closest('.badge-cat');
+        const domEl=e.target.closest('.meta-domain');
+        if(subBtn){ applyFilter(subcat); return; }
+        if(catBtn){ applyFilter(cat); return; }
+        if(domEl){ applyFilter(domain); return; }
+        if(url && (e.metaKey||e.ctrlKey)){ window.open(url,'_blank','noopener'); return; }
+        applyFilter(subcat || cat || domain || '');
+      });
+
+      // Keyboard
+      card.setAttribute('role','group'); card.tabIndex=0;
+      card.addEventListener('keydown',(e)=>{
+        if(e.key==='Enter'){ applyFilter(subcat || cat || domain || ''); }
+        else if((e.key==='o'||e.key==='O') && url){ window.open(url,'_blank','noopener'); }
+      });
+
       gridEl.appendChild(card);
     });
+
     if(jumpBarEl){
       if(catsForJump.length){
         jumpBarEl.innerHTML=catsForJump.map(c=>`<a href="#${c.id}">${escapeHtml(c.cat)}</a>`).join('');
         jumpBarEl.style.display='';
       } else jumpBarEl.style.display='none';
     }
+
     updateVisibleCount();
   }
 
@@ -416,38 +461,73 @@ title: Resources
       }
       const initialQuery=readHashQuery();
       if(inputEl&&initialQuery)inputEl.value=initialQuery;
+
       const rows=scrapeResources();
+
       const dt=jQuery('#resources-table').DataTable({
         data:rows,
         columns:[
-          {title:"Title"},{title:"Category"},{title:"Section"},
-          {title:"Description"},{title:"raw"},{title:"url"},{title:"domain"}],
-        responsive:{details:false}, autoWidth:false, paging:false, searching:true,
+          {title:"Title"},
+          {title:"Category"},
+          {title:"Section"},
+          {title:"Description"},
+          {title:"raw"},
+          {title:"url"},
+          {title:"domain"}
+        ],
+        responsive:{details:false},
+        autoWidth:false,
+        paging:false,
+        searching:true,
         order:[[1,'asc'],[2,'asc'],[0,'asc']],
-        columnDefs:[{targets:[4,5,6],visible:false,searchable:false}],
+        columnDefs:[
+          // raw should be searchable but hidden; url/domain hidden & not searchable
+          {targets:[4], visible:false, searchable:true},
+          {targets:[5,6], visible:false, searchable:false}
+        ],
         initComplete:function(){
           datatable=this.api();
+
           if(loadingEl)loadingEl.style.display='none';
           toolbarEl.style.display=''; gridEl.style.display='grid';
-          if(initialQuery)datatable.search(initialQuery).draw();
+
+          if(initialQuery) datatable.search(initialQuery, false, true, true).draw();
+
           renderCards();
-          datatable.on('draw',renderCards);
-          const apply=debounce(()=>{
+          datatable.on('draw', renderCards);
+
+          const apply = debounce(()=>{
             const q=inputEl?(inputEl.value||''):'';
-            datatable.search(q).draw(false); setHash(q);
+            datatable.search(q, false, true, true).draw(false);
+            setHash(q);
           },120);
-          inputEl.addEventListener('input',apply);
-          inputEl.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();apply();}});
-          resetEl.addEventListener('click',()=>{inputEl.value='';datatable.search('').draw(false);setHash('');inputEl.focus();});
-          window.addEventListener('hashchange',()=>{const q=readHashQuery();inputEl.value=q;datatable.search(q).draw(false);});
-          document.addEventListener('keydown',e=>{
-            if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();inputEl.focus();}
-            else if(e.key==='Escape'){inputEl.value='';datatable.search('').draw(false);setHash('');}
+
+          inputEl.addEventListener('input', apply);
+          inputEl.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); apply(); }});
+          resetEl.addEventListener('click', ()=>{
+            inputEl.value=''; datatable.search('', false, true, true).draw(false);
+            setHash(''); inputEl.focus();
           });
+
+          window.addEventListener('hashchange', ()=>{
+            const q=readHashQuery();
+            inputEl.value=q;
+            datatable.search(q, false, true, true).draw(false);
+          });
+
+          document.addEventListener('keydown', (e)=>{
+            if((e.metaKey||e.ctrlKey) && e.key.toLowerCase()==='k'){
+              e.preventDefault(); inputEl.focus();
+            } else if(e.key==='Escape'){
+              inputEl.value=''; datatable.search('', false, true, true).draw(false); setHash('');
+            }
+          });
+
           setTimeout(()=>datatable.columns.adjust().draw(false),60);
           updateVisibleCount();
         }
       });
+
       if(rows.length===0){
         gridEl.style.display='none';
         if(loadingEl)loadingEl.innerHTML='<p>No resources detected to index.</p>';
