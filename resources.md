@@ -25,9 +25,6 @@ title: Resources
   </div>
 </div>
 
-<!-- Jump bar -->
-<nav id="jumpBar" class="jumpbar" style="display:none;" aria-label="Jump to category"></nav>
-
 <!-- Loading -->
 <div id="loading" role="status" aria-live="polite">
   <p>Loading Resources Explorer …</p>
