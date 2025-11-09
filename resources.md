@@ -11,7 +11,7 @@ title: Resources
   find relevant resources across categories.
 </p>
 
-<!-- Slim Toolbar: search + visible count -->
+<!-- Slim Toolbar -->
 <div id="resToolbar" class="toolbar" style="display:none;">
   <div class="left">
     <div class="search">
@@ -25,35 +25,35 @@ title: Resources
   </div>
 </div>
 
-<!-- Jump bar for quick category jumps -->
+<!-- Jump bar -->
 <nav id="jumpBar" class="jumpbar" style="display:none;" aria-label="Jump to category"></nav>
 
-<!-- Loading Indicator -->
+<!-- Loading -->
 <div id="loading" role="status" aria-live="polite">
   <p>Loading Resources Explorer …</p>
 </div>
 
-<!-- Cards View (auto-built from the lists below) -->
+<!-- Cards -->
 <div id="cardsGrid" class="cards" style="display:none;" aria-live="polite"></div>
 <p id="emptyState" class="empty" style="display:none;">No resources match your search.</p>
 
-<!-- Hidden Data Table (Data engine only; never shown) -->
+<!-- Hidden Data Table -->
 <table id="resources-table" class="display stripe hover" style="width:100%; display:none;">
   <thead>
     <tr>
-      <th>TitleHTML</th>     <!-- 0 -->
-      <th>Category</th>      <!-- 1 -->
-      <th>Subcategory</th>   <!-- 2 -->
-      <th>DescHTML</th>      <!-- 3 -->
-      <th>raw</th>           <!-- 4 -->
-      <th>url</th>           <!-- 5 -->
-      <th>domain</th>        <!-- 6 -->
+      <th>TitleHTML</th>
+      <th>Category</th>
+      <th>Subcategory</th>
+      <th>DescHTML</th>
+      <th>raw</th>
+      <th>url</th>
+      <th>domain</th>
     </tr>
   </thead>
   <tbody></tbody>
 </table>
 
-<!-- Source content (hidden). Markdown is rendered, but never shown. -->
+<!-- Hidden markdown data (indexed into cards) -->
 <details id="resourcesContent" markdown="1" hidden aria-hidden="true">
   <summary>Hidden resources source</summary>
 
@@ -189,106 +189,82 @@ title: Resources
     --line:#e5e7eb;
     --shadow:0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.04);
     --brand:#1a73e8;
-    --divider:#0f172a;
   }
 
+  /* --- NON-STICKY VERSION --- */
+  html { scroll-behavior: smooth; }
+  .toolbar, .jumpbar, .cat-divider { position: static !important; }
+
   .toolbar{
-    position:sticky; top:0; z-index:20;
-    background: linear-gradient(#fff, rgba(255,255,255,.92));
-    backdrop-filter: blur(4px);
-    border:1px solid var(--line);
+    z-index:auto; background:#fff; border:1px solid var(--line);
     border-radius:12px; padding:10px 12px; margin:8px 0 12px;
-    display:flex; align-items:center; justify-content:flex-start; gap:12px;
-    box-shadow: var(--shadow);
+    display:flex; align-items:center; gap:12px; box-shadow:var(--shadow);
   }
 
   .search{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
   .search label{ font-weight:700; font-size:.85rem; }
   .search input{
-    width:clamp(320px, 52vw, 760px); /* WIDER */
+    width:clamp(320px,52vw,760px);
     padding:.5rem .7rem;
-    border:1px solid #cbd5e1; border-radius:8px; font-size:.95rem; background-color:#f8fafc;
+    border:1px solid #cbd5e1; border-radius:8px;
+    font-size:.95rem; background-color:#f8fafc;
   }
   .search input:focus{ outline:none; border-color:var(--brand); box-shadow:0 0 0 2px rgba(26,115,232,.18); }
   .search button{
-    padding:.5rem .7rem; font-size:.85rem; border:1px solid #cbd5e1; border-radius:8px; background:#f8fafc; cursor:pointer;
+    padding:.5rem .7rem; font-size:.85rem;
+    border:1px solid #cbd5e1; border-radius:8px; background:#f8fafc; cursor:pointer;
   }
   .search button:hover{ background:#eef2f7; }
-  .small{ color:var(--muted); font-size:.9em; }
+  .small{ color:#6b7280; font-size:.9em; }
 
-  /* Jump bar */
   .jumpbar{
-    position:sticky; top:64px; z-index:19;
-    display:flex; flex-wrap:wrap; gap:8px;
-    padding:8px 0 12px; margin:0 0 8px;
-    background: linear-gradient(rgba(255,255,255,.96), rgba(255,255,255,.86));
-    backdrop-filter: blur(2px);
+    display:flex; flex-wrap:wrap; gap:8px; padding:8px 0 12px; margin:0 0 8px;
+    background:#fff;
   }
   .jumpbar a{
-    display:inline-block; padding:.25rem .6rem; border:1px solid var(--line);
-    border-radius:999px; text-decoration:none; color:#0f172a; font-size:.85rem;
+    display:inline-block; padding:.25rem .6rem;
+    border:1px solid var(--line); border-radius:999px;
+    text-decoration:none; color:#0f172a; font-size:.85rem;
   }
   .jumpbar a:hover{ background:#f3f4f6; }
 
   .cards{
     display:grid; gap:14px;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px,1fr));
   }
 
-  /* Category divider that splits the grid visually */
   .cat-divider{
-    grid-column: 1 / -1; /* full width across the grid */
+    grid-column:1 / -1;
     font-size:1.05rem; font-weight:800; letter-spacing:.02em;
     margin:24px 0 6px; padding-top:12px;
-    position:relative;
+    scroll-margin-top:24px;
   }
   .cat-divider::after{
     content:"";
     display:block; height:1px; margin-top:6px;
-    background: repeating-linear-gradient(
+    background:repeating-linear-gradient(
       90deg, var(--line), var(--line) 8px, transparent 8px, transparent 16px
     );
   }
 
   .card{
     border:1px solid var(--line); border-radius:14px; background:var(--card);
-    padding:14px; box-shadow: var(--shadow); transition: transform .06s ease;
+    padding:14px; box-shadow:var(--shadow); transition:transform .06s ease;
     display:flex; flex-direction:column; gap:6px; min-width:0;
-    cursor:pointer; /* entire card clickable */
+    cursor:pointer;
   }
-  .card * { min-width:0; }
-  .card:hover{ transform: translateY(-1px); }
-
-  .meta{ display:flex; align-items:center; gap:8px; margin-bottom:2px; color:var(--muted); font-size:.85rem; flex-wrap:wrap; }
+  .card:hover{ transform:translateY(-1px); }
+  .meta{ display:flex; align-items:center; gap:8px; color:var(--muted); font-size:.85rem; flex-wrap:wrap; }
   .favicon{ width:16px; height:16px; border-radius:4px; background:#f3f4f6; }
-
-  .title{
-    font-weight:700; line-height:1.25; margin:2px 0 2px;
-    display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2;
-    overflow:hidden; word-break:break-word; overflow-wrap:anywhere;
-  }
+  .title{ font-weight:700; line-height:1.25; margin:2px 0; overflow:hidden;
+    display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:2; word-break:break-word; }
   .title a{ text-decoration:none; color:#0f172a; }
   .title a:hover{ text-decoration:underline; }
-
-  .desc{
-    color:#374151; font-size:.95rem; line-height:1.45;
-    display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:4;
-    overflow:hidden; word-break:break-word; overflow-wrap:anywhere;
-  }
-
-  .badges{ display:flex; align-items:center; gap:6px; margin-top:6px; flex-wrap:wrap; }
-  .badge{
-    font-size:.75rem; border:1px solid var(--line); color:#0f172a; padding:.2rem .45rem;
-    border-radius:999px; background:#f7f7fb;
-  }
-
+  .desc{ color:#374151; font-size:.95rem; line-height:1.45;
+    display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:4; overflow:hidden; }
+  .badges{ display:flex; gap:6px; margin-top:6px; flex-wrap:wrap; }
+  .badge{ font-size:.75rem; border:1px solid var(--line); padding:.2rem .45rem; border-radius:999px; background:#f7f7fb; }
   .empty{ color:#6b7280; text-align:center; padding:24px 8px; }
-
-  .dataTables_wrapper{ width:100%; overflow-x:hidden; }
-  #resources-table{ width:100%; border-collapse:collapse; table-layout:auto; }
-  #resources-table td{ white-space: normal !important; word-break: break-word; overflow-wrap:anywhere; vertical-align: top; }
-  #resources-table th{ white-space: nowrap !important; overflow: hidden; text-overflow: ellipsis; vertical-align: middle; }
-  .dataTables_filter{ display:none !important; }
 
   #loading{
     position:fixed; top:50%; left:50%; transform:translate(-50%,-50%);
@@ -296,11 +272,8 @@ title: Resources
     background:white; padding:.8em 1.2em; border:1px solid #ccc; border-radius:8px;
     box-shadow:0 2px 10px rgba(0,0,0,.08);
   }
-
-  @media (max-width: 640px){
-    .toolbar{ border-radius:10px; }
-    .desc{ -webkit-line-clamp: 6; }
-    .jumpbar{ top:60px; }
+  @media (max-width:640px){
+    .desc{-webkit-line-clamp:6;}
   }
 </style>
 
@@ -312,299 +285,179 @@ title: Resources
 
 <script>
 (function(){
-  // Wait for jQuery + DataTables (handles defer race)
-  function waitForDT(cb, tries = 80){
-    if (window.jQuery && jQuery.fn && jQuery.fn.dataTable) return cb();
-    if (tries <= 0) return cb(new Error('DataTables not loaded'));
-    setTimeout(() => waitForDT(cb, tries - 1), 100);
+  function waitForDT(cb, tries=80){
+    if(window.jQuery && jQuery.fn && jQuery.fn.dataTable) return cb();
+    if(tries<=0) return cb(new Error('DataTables not loaded'));
+    setTimeout(()=>waitForDT(cb,tries-1),100);
   }
   function ready(fn){
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', fn, { once:true });
-    } else { fn(); }
+    if(document.readyState==='loading')
+      document.addEventListener('DOMContentLoaded',fn,{once:true});
+    else fn();
   }
-
-  // Hash helpers (/#query)
   function readHashQuery(){
-    const raw = window.location.hash ? window.location.hash.slice(1) : '';
-    if (!raw) return '';
-    try { return decodeURIComponent(raw.replace(/\+/g,' ')); } catch { return raw; }
+    const raw=window.location.hash?window.location.hash.slice(1):'';
+    if(!raw) return '';
+    try{return decodeURIComponent(raw.replace(/\+/g,' '));}catch{return raw;}
   }
   function setHash(q){
-    if (q && q.trim().length) history.replaceState(null, '', '#' + encodeURIComponent(q.trim()));
-    else history.replaceState(null, '', location.pathname + location.search);
+    if(q&&q.trim().length)history.replaceState(null,'','#'+encodeURIComponent(q.trim()));
+    else history.replaceState(null,'',location.pathname+location.search);
   }
+  function textContentTrim(n){return(n?n.textContent:'').replace(/\s+/g,' ').trim();}
+  function escapeHtml(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');}
+  function domainFromUrl(u){try{return new URL(u,location.origin).hostname;}catch(e){return'';}}
+  function faviconForDomain(d){return d?'https://www.google.com/s2/favicons?domain='+encodeURIComponent(d)+'&sz=32':'';}
+  function debounce(fn,ms=120){let t;return(...a)=>{clearTimeout(t);t=setTimeout(()=>fn(...a),ms);};}
+  function slugify(s){return(s||'uncategorised').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');}
 
-  // Utils
-  function textContentTrim(node){ return (node ? node.textContent : '').replace(/\s+/g,' ').trim(); }
-  function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;'); }
-  function domainFromUrl(u){ try{ return new URL(u, location.origin).hostname; } catch(e){ return ''; } }
-  function faviconForDomain(d){ return d ? 'https://www.google.com/s2/favicons?domain='+encodeURIComponent(d)+'&sz=32' : ''; }
-  function debounce(fn, ms=120){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; }
-  function slugify(s){ return (s||'uncategorised').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''); }
-
-  // DOM refs
-  const loadingEl = document.getElementById('loading');
-  const toolbarEl = document.getElementById('resToolbar');
-  const inputEl   = document.getElementById('resSearch');
-  const resetEl   = document.getElementById('resetResSearch');
-  const countEl   = document.getElementById('resVisibleCount');
-  const gridEl    = document.getElementById('cardsGrid');
-  const emptyEl   = document.getElementById('emptyState');
-  const contentEl = document.getElementById('resourcesContent');
-  const jumpBarEl = document.getElementById('jumpBar');
-
+  const loadingEl=document.getElementById('loading');
+  const toolbarEl=document.getElementById('resToolbar');
+  const inputEl=document.getElementById('resSearch');
+  const resetEl=document.getElementById('resetResSearch');
+  const countEl=document.getElementById('resVisibleCount');
+  const gridEl=document.getElementById('cardsGrid');
+  const emptyEl=document.getElementById('emptyState');
+  const contentEl=document.getElementById('resourcesContent');
+  const jumpBarEl=document.getElementById('jumpBar');
   let datatable;
 
   function updateVisibleCount(){
-    if (!datatable || !countEl) return;
-    countEl.textContent = datatable.rows({ filter:'applied' }).count() + ' resources';
+    if(!datatable||!countEl)return;
+    countEl.textContent=datatable.rows({filter:'applied'}).count()+' resources';
   }
-
-  // Temporarily unhide details so DOM is rendered, then restore
   function withRenderedDetails(fn){
-    if (!contentEl) return fn();
-    const prevHidden = contentEl.hasAttribute('hidden');
-    const prevDisplay = contentEl.style.display;
-    const prevOpen = contentEl.open;
-
-    // make it render but keep it invisible to users
-    if (prevHidden) contentEl.removeAttribute('hidden');
-    contentEl.style.display = 'block';
-    contentEl.style.position = 'absolute';
-    contentEl.style.left = '-99999px';
-    contentEl.style.top = '0';
-    contentEl.open = true;
-
-    const out = fn();
-
-    // restore
-    if (prevHidden) contentEl.setAttribute('hidden', '');
-    contentEl.style.display = prevDisplay || '';
-    contentEl.style.position = '';
-    contentEl.style.left = '';
-    contentEl.style.top = '';
-    contentEl.open = prevOpen;
-
+    if(!contentEl)return fn();
+    const prevHidden=contentEl.hasAttribute('hidden');
+    const prevDisplay=contentEl.style.display;
+    if(prevHidden)contentEl.removeAttribute('hidden');
+    contentEl.style.display='block'; contentEl.style.position='absolute';
+    contentEl.style.left='-99999px';
+    const out=fn();
+    if(prevHidden)contentEl.setAttribute('hidden','');
+    contentEl.style.display=prevDisplay||''; contentEl.style.position=''; contentEl.style.left='';
     return out;
   }
-
-  // Scrape hidden lists into rows (Category = nearest H3, Subcategory = nearest H4)
   function scrapeResources(){
-    return withRenderedDetails(() => {
-      const rows = [];
-      const walker = document.createTreeWalker(contentEl, NodeFilter.SHOW_ELEMENT, null);
-      let currCat = '', currSub = '';
-
-      while (walker.nextNode()){
-        const el = walker.currentNode;
-
-        if (/^H3$/i.test(el.tagName)) {
-          currCat = textContentTrim(el).replace(/^#+\s*/,'');
-          currSub = '';
-        } else if (/^H4$/i.test(el.tagName)) {
-          currSub = textContentTrim(el).replace(/^#+\s*/,'');
-        } else if (/^LI$/i.test(el.tagName)) {
-          const a = el.querySelector('a[href]');
-          if (!a) continue;
-          const url = a.getAttribute('href') || '';
-          const title = textContentTrim(a) || '(untitled)';
-
-          let full = textContentTrim(el);
-          try{
-            full = full.replace(new RegExp('^\\*?\\*?\\s*' + title.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + '\\s*:?\\s*','i'), '');
-          }catch{}
-          const desc = full;
-
-          const domain = domainFromUrl(url);
-          const titleHTML = `<a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>`;
-          const descHTML  = desc ? escapeHtml(desc) : '';
-          const raw = [title, currCat, currSub, desc, url, domain].join(' ').toLowerCase();
-
-          rows.push([ titleHTML, currCat, currSub, descHTML, raw, url, domain ]);
+    return withRenderedDetails(()=>{
+      const rows=[]; const walker=document.createTreeWalker(contentEl,NodeFilter.SHOW_ELEMENT,null);
+      let currCat='',currSub='';
+      while(walker.nextNode()){
+        const el=walker.currentNode;
+        if(/^H3$/i.test(el.tagName)){currCat=textContentTrim(el);currSub='';}
+        else if(/^H4$/i.test(el.tagName)){currSub=textContentTrim(el);}
+        else if(/^LI$/i.test(el.tagName)){
+          const a=el.querySelector('a[href]'); if(!a)continue;
+          const url=a.getAttribute('href')||''; const title=textContentTrim(a)||'(untitled)';
+          let full=textContentTrim(el); try{full=full.replace(new RegExp('^\\*?\\*?\\s*'+title.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\s*:?\\s*','i'),'');}catch{}
+          const desc=full; const domain=domainFromUrl(url);
+          const titleHTML=`<a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>`;
+          const descHTML=desc?escapeHtml(desc):'';
+          const raw=[title,currCat,currSub,desc,url,domain].join(' ').toLowerCase();
+          rows.push([titleHTML,currCat,currSub,descHTML,raw,url,domain]);
         }
-      }
-      return rows;
+      } return rows;
     });
   }
 
   function renderCards(){
-    if (!datatable) return;
-    const rows = datatable.rows({ filter:'applied' }).data().toArray();
-    gridEl.innerHTML = '';
-
-    if (!rows.length){
-      gridEl.style.display='none';
-      emptyEl.style.display='';
-      updateVisibleCount();
-      if (jumpBarEl) jumpBarEl.style.display='none';
-      return;
+    if(!datatable)return;
+    const rows=datatable.rows({filter:'applied'}).data().toArray();
+    gridEl.innerHTML='';
+    if(!rows.length){
+      gridEl.style.display='none'; emptyEl.style.display=''; updateVisibleCount();
+      if(jumpBarEl)jumpBarEl.style.display='none'; return;
     }
-    emptyEl.style.display='none';
-    gridEl.style.display='grid';
-
-    let lastCat=null;
-    const catsForJump=[];
-
-    rows.forEach(r => {
-      const titleHTML = r[0];
-      const cat       = r[1] || 'Uncategorised';
-      const subcat    = r[2] || '';
-      const descHTML  = r[3];
-      const url       = r[5] || '';
-      const domain    = r[6] || domainFromUrl(url);
-
-      // Category divider
-      if (cat !== lastCat){
-        const id = 'cat-' + slugify(cat);
-        const divider = document.createElement('h2');
-        divider.className = 'cat-divider';
-        divider.id = id;
-        divider.textContent = cat;
+    emptyEl.style.display='none'; gridEl.style.display='grid';
+    let lastCat=null; const catsForJump=[];
+    rows.forEach(r=>{
+      const titleHTML=r[0],cat=r[1]||'Uncategorised',subcat=r[2]||'',descHTML=r[3],url=r[5]||'',domain=r[6]||domainFromUrl(url);
+      if(cat!==lastCat){
+        const id='cat-'+slugify(cat);
+        const divider=document.createElement('h2');
+        divider.className='cat-divider'; divider.id=id; divider.textContent=cat;
         gridEl.appendChild(divider);
-        catsForJump.push({cat, id});
-        lastCat = cat;
+        catsForJump.push({cat,id}); lastCat=cat;
       }
-
-      // Card
-      const card = document.createElement('article');
-      card.className = 'card';
-      card.innerHTML = `
+      const card=document.createElement('article');
+      card.className='card';
+      card.innerHTML=`
         <div class="meta">
           <img class="favicon" src="${faviconForDomain(domain)}" alt="" loading="lazy">
-          <span>${domain || 'link'}</span>
-          ${subcat ? '<span>•</span><span>'+escapeHtml(subcat)+'</span>' : ''}
+          <span>${domain||'link'}</span>
+          ${subcat?'<span>•</span><span>'+escapeHtml(subcat)+'</span>': ''}
         </div>
         <h3 class="title">${titleHTML}</h3>
         <div class="desc">${descHTML}</div>
         <div class="badges">
-          ${subcat ? '<span class="badge">'+escapeHtml(subcat)+'</span>' : ''}
-        </div>
-      `;
-
-      // Make whole card clickable (fallback to title link if present)
-      const link = card.querySelector('.title a');
-      if (url){
-        card.addEventListener('click', (e) => {
-          // Avoid double navigation if user clicked the actual anchor
-          if (e.target && e.target.closest('a')) return;
-          window.open(url, '_blank', 'noopener');
-        });
-        card.setAttribute('role','link');
-        card.setAttribute('tabindex','0');
-        card.addEventListener('keydown', (e) => {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            window.open(url, '_blank', 'noopener');
-          }
-        });
-      } else if (link) {
-        card.addEventListener('click', () => link.click());
+          ${subcat?'<span class="badge">'+escapeHtml(subcat)+'</span>': ''}
+        </div>`;
+      if(url){
+        card.addEventListener('click',e=>{if(e.target.closest('a'))return;window.open(url,'_blank','noopener');});
+        card.setAttribute('role','link'); card.tabIndex=0;
+        card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();window.open(url,'_blank','noopener');}});
       }
-
       gridEl.appendChild(card);
     });
-
-    // Build/update jump bar
-    if (jumpBarEl){
-      if (catsForJump.length){
-        jumpBarEl.innerHTML = catsForJump
-          .map(c => `<a href="#${c.id}">${escapeHtml(c.cat)}</a>`)
-          .join('');
+    if(jumpBarEl){
+      if(catsForJump.length){
+        jumpBarEl.innerHTML=catsForJump.map(c=>`<a href="#${c.id}">${escapeHtml(c.cat)}</a>`).join('');
         jumpBarEl.style.display='';
-      } else {
-        jumpBarEl.style.display='none';
-      }
+      } else jumpBarEl.style.display='none';
     }
-
     updateVisibleCount();
   }
 
   function start(err){
     try{
-      if (err || !window.jQuery || !jQuery.fn || !jQuery.fn.dataTable) {
-        if (loadingEl) loadingEl.innerHTML = '<p style="color:#b00020">Failed to load: DataTables missing.</p>';
+      if(err||!window.jQuery||!jQuery.fn.dataTable){
+        if(loadingEl)loadingEl.innerHTML='<p style="color:#b00020">Failed to load: DataTables missing.</p>';
         return;
       }
-
-      const initialQuery = readHashQuery();
-      if (inputEl && initialQuery) inputEl.value = initialQuery;
-
-      const rows = scrapeResources();
-
-      const dt = jQuery('#resources-table').DataTable({
-        data: rows,
-        columns: [
-          { title: "Title"      }, // 0
-          { title: "Category"   }, // 1
-          { title: "Section"    }, // 2
-          { title: "Description"}, // 3
-          { title: "raw"        }, // 4
-          { title: "url"        }, // 5
-          { title: "domain"     }  // 6
-        ],
-        responsive: { details: false },
-        autoWidth: false,
-        paging: false,
-        searching: true,
-        order: [[1,'asc'], [2,'asc'], [0,'asc']],
-        columnDefs: [
-          { targets: [4,5,6], visible: false, searchable: false }
-        ],
-        initComplete: function(){
-          datatable = this.api();
-
-          if (loadingEl) loadingEl.style.display='none';
-          toolbarEl.style.display='';
-          gridEl.style.display='grid';
-
-          if (initialQuery) datatable.search(initialQuery).draw();
-
+      const initialQuery=readHashQuery();
+      if(inputEl&&initialQuery)inputEl.value=initialQuery;
+      const rows=scrapeResources();
+      const dt=jQuery('#resources-table').DataTable({
+        data:rows,
+        columns:[
+          {title:"Title"},{title:"Category"},{title:"Section"},
+          {title:"Description"},{title:"raw"},{title:"url"},{title:"domain"}],
+        responsive:{details:false}, autoWidth:false, paging:false, searching:true,
+        order:[[1,'asc'],[2,'asc'],[0,'asc']],
+        columnDefs:[{targets:[4,5,6],visible:false,searchable:false}],
+        initComplete:function(){
+          datatable=this.api();
+          if(loadingEl)loadingEl.style.display='none';
+          toolbarEl.style.display=''; gridEl.style.display='grid';
+          if(initialQuery)datatable.search(initialQuery).draw();
           renderCards();
-          datatable.on('draw', renderCards);
-
-          const apply = debounce(() => {
-            const q = inputEl ? (inputEl.value || '') : '';
-            datatable.search(q).draw(false);
-            setHash(q);
-          }, 120);
-
-          inputEl.addEventListener('input', apply);
-          inputEl.addEventListener('keydown', (e)=>{ if (e.key==='Enter'){ e.preventDefault(); apply(); }});
-          resetEl.addEventListener('click', () => {
-            inputEl.value=''; datatable.search('').draw(false); setHash(''); inputEl.focus();
+          datatable.on('draw',renderCards);
+          const apply=debounce(()=>{
+            const q=inputEl?(inputEl.value||''):'';
+            datatable.search(q).draw(false); setHash(q);
+          },120);
+          inputEl.addEventListener('input',apply);
+          inputEl.addEventListener('keydown',e=>{if(e.key==='Enter'){e.preventDefault();apply();}});
+          resetEl.addEventListener('click',()=>{inputEl.value='';datatable.search('').draw(false);setHash('');inputEl.focus();});
+          window.addEventListener('hashchange',()=>{const q=readHashQuery();inputEl.value=q;datatable.search(q).draw(false);});
+          document.addEventListener('keydown',e=>{
+            if((e.metaKey||e.ctrlKey)&&e.key.toLowerCase()==='k'){e.preventDefault();inputEl.focus();}
+            else if(e.key==='Escape'){inputEl.value='';datatable.search('').draw(false);setHash('');}
           });
-          window.addEventListener('hashchange', () => {
-            const q = readHashQuery();
-            inputEl.value = q;
-            datatable.search(q).draw(false);
-          });
-
-          document.addEventListener('keydown', (e) => {
-            if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === 'k') {
-              e.preventDefault(); inputEl.focus();
-            } else if (e.key === 'Escape') {
-              inputEl.value=''; datatable.search('').draw(false); setHash('');
-            }
-          });
-
-          setTimeout(() => datatable.columns.adjust().draw(false), 60);
+          setTimeout(()=>datatable.columns.adjust().draw(false),60);
           updateVisibleCount();
         }
       });
-
-      if (rows.length === 0){
-        gridEl.style.display = 'none';
-        if (loadingEl) loadingEl.innerHTML = '<p>No resources detected to index.</p>';
+      if(rows.length===0){
+        gridEl.style.display='none';
+        if(loadingEl)loadingEl.innerHTML='<p>No resources detected to index.</p>';
       }
-
-    } catch (e){
+    }catch(e){
       console.error(e);
-      if (loadingEl) loadingEl.innerHTML = '<p style="color:#b00020">Failed to load resources.</p>';
+      if(loadingEl)loadingEl.innerHTML='<p style="color:#b00020">Failed to load resources.</p>';
     }
   }
-
-  ready(() => waitForDT(start));
+  ready(()=>waitForDT(start));
 })();
 </script>
 
