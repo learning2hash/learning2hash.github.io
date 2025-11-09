@@ -9,15 +9,17 @@ title: Resources
   <div class="left">
     <div class="search">
       <label for="resSearch"><strong>Search</strong></label>
-      <input id="resSearch" type="search" placeholder="🔍 Search title, domain, description…" inputmode="search" />
+      <input id="resSearch" type="search"
+             placeholder="🔍 Search title, domain, description…"
+             inputmode="search" />
       <button id="resetResSearch" type="button" aria-label="Clear search">Clear</button>
       <span id="resVisibleCount" class="small" aria-live="polite"></span>
     </div>
   </div>
 </div>
 
-<!-- Category jump bar (built dynamically) -->
-<div id="jumpBar" class="jumpbar" style="display:none;"></div>
+<!-- Jump bar for quick category jumps -->
+<nav id="jumpBar" class="jumpbar" style="display:none;" aria-label="Jump to category"></nav>
 
 <!-- Loading Indicator -->
 <div id="loading" role="status" aria-live="polite">
@@ -180,6 +182,7 @@ title: Resources
     --line:#e5e7eb;
     --shadow:0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.04);
     --brand:#1a73e8;
+    --divider:#0f172a;
   }
 
   .toolbar{
@@ -192,54 +195,64 @@ title: Resources
     box-shadow: var(--shadow);
   }
 
+  .search{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .search label{ font-weight:700; font-size:.85rem; }
+  .search input{
+    width:clamp(320px, 52vw, 760px); /* WIDER */
+    padding:.5rem .7rem;
+    border:1px solid #cbd5e1; border-radius:8px; font-size:.95rem; background-color:#f8fafc;
+  }
+  .search input:focus{ outline:none; border-color:var(--brand); box-shadow:0 0 0 2px rgba(26,115,232,.18); }
+  .search button{
+    padding:.5rem .7rem; font-size:.85rem; border:1px solid #cbd5e1; border-radius:8px; background:#f8fafc; cursor:pointer;
+  }
+  .search button:hover{ background:#eef2f7; }
+  .small{ color:var(--muted); font-size:.9em; }
+
   /* Jump bar */
   .jumpbar{
-    position:sticky; top:10px; z-index:25;
+    position:sticky; top:64px; z-index:19;
     display:flex; flex-wrap:wrap; gap:8px;
-    margin:6px 0 10px;
+    padding:8px 0 12px; margin:0 0 8px;
+    background: linear-gradient(rgba(255,255,255,.96), rgba(255,255,255,.86));
+    backdrop-filter: blur(2px);
   }
   .jumpbar a{
-    display:inline-block; font-size:.85rem;
-    border:1px solid var(--line); border-radius:999px;
-    padding:.28rem .55rem; text-decoration:none; color:#0f172a;
-    background:#f8fafc;
+    display:inline-block; padding:.25rem .6rem; border:1px solid var(--line);
+    border-radius:999px; text-decoration:none; color:#0f172a; font-size:.85rem;
   }
-  .jumpbar a:hover{ background:#eef2f7; }
+  .jumpbar a:hover{ background:#f3f4f6; }
 
   .cards{
     display:grid; gap:14px;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   }
-  /* Category divider spanning the grid */
+
+  /* Category divider that splits the grid visually */
   .cat-divider{
-    grid-column:1 / -1;
-    position:sticky; top:62px;           /* sits below sticky toolbar */
-    z-index:15;
-    background: linear-gradient(#fff, rgba(255,255,255,.94));
-    backdrop-filter: blur(4px);
-    padding:8px 10px;
-    border:1px solid var(--line);
-    border-radius:10px;
-    font-weight:800;
-    letter-spacing:.2px;
-    box-shadow: var(--shadow);
-    margin-top:6px;
-    margin-bottom:-4px;
+    grid-column: 1 / -1; /* full width across the grid */
+    font-size:1.05rem; font-weight:800; letter-spacing:.02em;
+    margin:24px 0 6px; padding-top:12px;
+    position:relative;
+  }
+  .cat-divider::after{
+    content:"";
+    display:block; height:1px; margin-top:6px;
+    background: repeating-linear-gradient(
+      90deg, var(--line), var(--line) 8px, transparent 8px, transparent 16px
+    );
   }
 
   .card{
     border:1px solid var(--line); border-radius:14px; background:var(--card);
     padding:14px; box-shadow: var(--shadow); transition: transform .06s ease;
-    display:flex; flex-direction:column; gap:6px;   /* robustness */
-    min-width:0;
+    display:flex; flex-direction:column; gap:6px; min-width:0;
+    cursor:pointer; /* entire card clickable */
   }
   .card * { min-width:0; }
-
   .card:hover{ transform: translateY(-1px); }
-  .meta{
-    display:flex; align-items:center; gap:8px; margin-bottom:2px;
-    color:var(--muted); font-size:.85rem; flex-wrap:wrap;
-  }
+
+  .meta{ display:flex; align-items:center; gap:8px; margin-bottom:2px; color:var(--muted); font-size:.85rem; flex-wrap:wrap; }
   .favicon{ width:16px; height:16px; border-radius:4px; background:#f3f4f6; }
 
   .title{
@@ -280,6 +293,7 @@ title: Resources
   @media (max-width: 640px){
     .toolbar{ border-radius:10px; }
     .desc{ -webkit-line-clamp: 6; }
+    .jumpbar{ top:60px; }
   }
 </style>
 
@@ -320,6 +334,7 @@ title: Resources
   function domainFromUrl(u){ try{ return new URL(u, location.origin).hostname; } catch(e){ return ''; } }
   function faviconForDomain(d){ return d ? 'https://www.google.com/s2/favicons?domain='+encodeURIComponent(d)+'&sz=32' : ''; }
   function debounce(fn, ms=120){ let t; return (...a)=>{ clearTimeout(t); t=setTimeout(()=>fn(...a), ms); }; }
+  function slugify(s){ return (s||'uncategorised').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,''); }
 
   // DOM refs
   const loadingEl = document.getElementById('loading');
@@ -330,7 +345,7 @@ title: Resources
   const gridEl    = document.getElementById('cardsGrid');
   const emptyEl   = document.getElementById('emptyState');
   const contentEl = document.getElementById('resourcesContent');
-  const jumpBarEl = document.getElementById('jumpBar');   // NEW
+  const jumpBarEl = document.getElementById('jumpBar');
 
   let datatable;
 
@@ -339,11 +354,71 @@ title: Resources
     countEl.textContent = datatable.rows({ filter:'applied' }).count() + ' resources';
   }
 
-  function slugify(s){
-    return (s || 'uncategorised')
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g,'-')
-      .replace(/(^-|-$)/g,'');
+  // Temporarily unhide details so DOM is rendered, then restore
+  function withRenderedDetails(fn){
+    if (!contentEl) return fn();
+    const prevHidden = contentEl.hasAttribute('hidden');
+    const prevDisplay = contentEl.style.display;
+    const prevOpen = contentEl.open;
+
+    // make it render but keep it invisible to users
+    if (prevHidden) contentEl.removeAttribute('hidden');
+    contentEl.style.display = 'block';
+    contentEl.style.position = 'absolute';
+    contentEl.style.left = '-99999px';
+    contentEl.style.top = '0';
+    contentEl.open = true;
+
+    const out = fn();
+
+    // restore
+    if (prevHidden) contentEl.setAttribute('hidden', '');
+    contentEl.style.display = prevDisplay || '';
+    contentEl.style.position = '';
+    contentEl.style.left = '';
+    contentEl.style.top = '';
+    contentEl.open = prevOpen;
+
+    return out;
+  }
+
+  // Scrape hidden lists into rows (Category = nearest H3, Subcategory = nearest H4)
+  function scrapeResources(){
+    return withRenderedDetails(() => {
+      const rows = [];
+      const walker = document.createTreeWalker(contentEl, NodeFilter.SHOW_ELEMENT, null);
+      let currCat = '', currSub = '';
+
+      while (walker.nextNode()){
+        const el = walker.currentNode;
+
+        if (/^H3$/i.test(el.tagName)) {
+          currCat = textContentTrim(el).replace(/^#+\s*/,'');
+          currSub = '';
+        } else if (/^H4$/i.test(el.tagName)) {
+          currSub = textContentTrim(el).replace(/^#+\s*/,'');
+        } else if (/^LI$/i.test(el.tagName)) {
+          const a = el.querySelector('a[href]');
+          if (!a) continue;
+          const url = a.getAttribute('href') || '';
+          const title = textContentTrim(a) || '(untitled)';
+
+          let full = textContentTrim(el);
+          try{
+            full = full.replace(new RegExp('^\\*?\\*?\\s*' + title.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + '\\s*:?\\s*','i'), '');
+          }catch{}
+          const desc = full;
+
+          const domain = domainFromUrl(url);
+          const titleHTML = `<a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>`;
+          const descHTML  = desc ? escapeHtml(desc) : '';
+          const raw = [title, currCat, currSub, desc, url, domain].join(' ').toLowerCase();
+
+          rows.push([ titleHTML, currCat, currSub, descHTML, raw, url, domain ]);
+        }
+      }
+      return rows;
+    });
   }
 
   function renderCards(){
@@ -361,8 +436,8 @@ title: Resources
     emptyEl.style.display='none';
     gridEl.style.display='grid';
 
-    let lastCat = null;
-    const catsForJump = [];
+    let lastCat=null;
+    const catsForJump=[];
 
     rows.forEach(r => {
       const titleHTML = r[0];
@@ -372,7 +447,7 @@ title: Resources
       const url       = r[5] || '';
       const domain    = r[6] || domainFromUrl(url);
 
-      // Insert divider when category changes (rows are sorted by category)
+      // Category divider
       if (cat !== lastCat){
         const id = 'cat-' + slugify(cat);
         const divider = document.createElement('h2');
@@ -380,10 +455,11 @@ title: Resources
         divider.id = id;
         divider.textContent = cat;
         gridEl.appendChild(divider);
-        catsForJump.push({ cat, id });
+        catsForJump.push({cat, id});
         lastCat = cat;
       }
 
+      // Card
       const card = document.createElement('article');
       card.className = 'card';
       card.innerHTML = `
@@ -399,12 +475,24 @@ title: Resources
         </div>
       `;
 
+      // Make whole card clickable (fallback to title link if present)
+      const link = card.querySelector('.title a');
       if (url){
-        const a = card.querySelector('.title a');
-        if (!a){
-          const h3 = card.querySelector('.title');
-          h3.innerHTML = `<a href="${url}" target="_blank" rel="noopener">${escapeHtml(h3.textContent)}</a>`;
-        }
+        card.addEventListener('click', (e) => {
+          // Avoid double navigation if user clicked the actual anchor
+          if (e.target && e.target.closest('a')) return;
+          window.open(url, '_blank', 'noopener');
+        });
+        card.setAttribute('role','link');
+        card.setAttribute('tabindex','0');
+        card.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            window.open(url, '_blank', 'noopener');
+          }
+        });
+      } else if (link) {
+        card.addEventListener('click', () => link.click());
       }
 
       gridEl.appendChild(card);
@@ -413,55 +501,16 @@ title: Resources
     // Build/update jump bar
     if (jumpBarEl){
       if (catsForJump.length){
-        jumpBarEl.innerHTML = catsForJump.map(c =>
-          `<a href="#${c.id}" title="Jump to ${escapeHtml(c.cat)}">${escapeHtml(c.cat)}</a>`
-        ).join('');
-        jumpBarEl.style.display = '';
+        jumpBarEl.innerHTML = catsForJump
+          .map(c => `<a href="#${c.id}">${escapeHtml(c.cat)}</a>`)
+          .join('');
+        jumpBarEl.style.display='';
       } else {
-        jumpBarEl.style.display = 'none';
+        jumpBarEl.style.display='none';
       }
     }
 
     updateVisibleCount();
-  }
-
-  // Scrape hidden lists into rows
-  function scrapeResources(){
-    const rows = [];
-    if (!contentEl) return rows;
-
-    const walker = document.createTreeWalker(contentEl, NodeFilter.SHOW_ELEMENT, null);
-    let currCat = '', currSub = '';
-
-    while (walker.nextNode()){
-      const el = walker.currentNode;
-
-      if (/^H3$/i.test(el.tagName)) {
-        currCat = textContentTrim(el).replace(/^#+\s*/,'');
-        currSub = '';
-      } else if (/^H4$/i.test(el.tagName)) {
-        currSub = textContentTrim(el).replace(/^#+\s*/,'');
-      } else if (/^LI$/i.test(el.tagName)) {
-        const a = el.querySelector('a[href]');
-        if (!a) continue;
-        const url = a.getAttribute('href') || '';
-        const title = textContentTrim(a) || '(untitled)';
-
-        let full = textContentTrim(el);
-        try{
-          full = full.replace(new RegExp('^\\*?\\*?\\s*' + title.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + '\\s*:?\\s*','i'), '');
-        }catch{}
-        const desc = full;
-
-        const domain = domainFromUrl(url);
-        const titleHTML = `<a href="${url}" target="_blank" rel="noopener noreferrer">${escapeHtml(title)}</a>`;
-        const descHTML  = desc ? escapeHtml(desc) : '';
-        const raw = [title, currCat, currSub, desc, url, domain].join(' ').toLowerCase();
-
-        rows.push([ titleHTML, currCat, currSub, descHTML, raw, url, domain ]);
-      }
-    }
-    return rows;
   }
 
   function start(err){
