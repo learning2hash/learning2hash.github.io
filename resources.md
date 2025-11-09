@@ -196,20 +196,29 @@ title: Resources
     z-index:auto; background:#fff; border:1px solid var(--line);
     border-radius:12px; padding:10px 12px; margin:8px 0 12px;
     display:flex; align-items:center; gap:12px; box-shadow:var(--shadow);
+    max-width:100%; box-sizing:border-box;
   }
+  .toolbar .left{ flex:1 1 auto; min-width:0; }
 
-  .search{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+  .search{
+    display:flex; align-items:center; gap:.6rem; flex-wrap:wrap;
+    width:100%; max-width:100%;
+  }
   .search label{ font-weight:700; font-size:.85rem; }
   .search input{
-    width:clamp(320px,52vw,760px);
+    flex:1 1 240px;          /* grow within container */
+    min-width:0;             /* allow shrinking without overflow */
+    width:auto;              /* no hard width */
     padding:.5rem .7rem;
     border:1px solid #cbd5e1; border-radius:8px;
     font-size:.95rem; background-color:#f8fafc;
+    box-sizing:border-box;
   }
   .search input:focus{ outline:none; border-color:var(--brand); box-shadow:0 0 0 2px rgba(26,115,232,.18); }
   .search button{
     padding:.5rem .7rem; font-size:.85rem;
     border:1px solid #cbd5e1; border-radius:8px; background:#f8fafc; cursor:pointer;
+    flex:0 0 auto;
   }
   .search button:hover{ background:#eef2f7; }
   .small{ color:#6b7280; font-size:.9em; }
@@ -304,7 +313,6 @@ title: Resources
   function textContentTrim(n){return(n?n.textContent:'').replace(/\s+/g,' ').trim();}
   function escapeHtml(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');}
   function domainFromUrl(u){try{return new URL(u,location.origin).hostname;}catch(e){return'';}}
-  function faviconForDomain(d){return d?'https://www.google.com/s2/favicons?domain='+encodeURIComponent(d)+'&sz=32':'';}
   function debounce(fn,ms=120){let t;return(...a)=>{clearTimeout(t);t=setTimeout(()=>fn(...a),ms);};}
   function slugify(s){return(s||'uncategorised').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/(^-|-$)/g,'');}
 
@@ -324,12 +332,11 @@ title: Resources
     countEl.textContent=datatable.rows({filter:'applied'}).count()+' resources';
   }
 
-  // Central apply (regex OFF to avoid punctuation issues)
   function applyFilter(q){
     if(!datatable) return;
     const query=(q||'').trim();
     if(inputEl) inputEl.value=query;
-    datatable.search(query, /*regex*/false, /*smart*/true, /*caseInsensitive*/true).draw(false);
+    datatable.search(query, false, true, true).draw(false);
     setHash(query);
     updateVisibleCount();
   }
@@ -387,7 +394,6 @@ title: Resources
     rows.forEach(r=>{
       const titleHTML=r[0], cat=r[1]||'Uncategorised', subcat=r[2]||'', descHTML=r[3], url=r[5]||'', domain=r[6]||domainFromUrl(r[5]);
 
-      // Category divider (click to filter by category)
       if(cat!==lastCat){
         const id='cat-'+slugify(cat);
         const divider=document.createElement('h2');
@@ -405,21 +411,20 @@ title: Resources
 
       card.innerHTML=`
         <div class="meta">
-          <img class="favicon" src="${faviconForDomain(domain)}" alt="" loading="lazy">
+          <img class="favicon" src="https://www.google.com/s2/favicons?domain=${encodeURIComponent(domain||'')}&sz=32" alt="" loading="lazy">
           <span class="meta-domain" title="Filter by site">${domain||'link'}</span>
-          ${subcat?'<span>•</span><button class="badge badge-sub" title="Filter by subcategory">'+escapeHtml(subcat)+'</button>':''}
+          ${subcat?'<span>•</span><button class="badge badge-sub" title="Filter by subcategory">'+String(subcat).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]))+'</button>':''}
         </div>
         <h3 class="title">${titleHTML}</h3>
         <div class="desc">${descHTML}</div>
         <div class="badges">
-          ${subcat?'<button class="badge badge-sub" title="Filter by subcategory">'+escapeHtml(subcat)+'</button>':''}
-          <button class="badge badge-cat" title="Filter by category">${escapeHtml(cat)}</button>
+          ${subcat?'<button class="badge badge-sub" title="Filter by subcategory">'+String(subcat).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]))+'</button>':''}
+          <button class="badge badge-cat" title="Filter by category">${String(cat).replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[m]))}</button>
         </div>
       `;
 
-      // Click handling
       card.addEventListener('click',(e)=>{
-        const a=e.target.closest('a'); if(a) return; // let links work
+        const a=e.target.closest('a'); if(a) return;
         const subBtn=e.target.closest('.badge-sub');
         const catBtn=e.target.closest('.badge-cat');
         const domEl=e.target.closest('.meta-domain');
@@ -430,7 +435,6 @@ title: Resources
         applyFilter(subcat || cat || domain || '');
       });
 
-      // Keyboard
       card.setAttribute('role','group'); card.tabIndex=0;
       card.addEventListener('keydown',(e)=>{
         if(e.key==='Enter'){ applyFilter(subcat || cat || domain || ''); }
@@ -442,7 +446,7 @@ title: Resources
 
     if(jumpBarEl){
       if(catsForJump.length){
-        jumpBarEl.innerHTML=catsForJump.map(c=>`<a href="#${c.id}">${escapeHtml(c.cat)}</a>`).join('');
+        jumpBarEl.innerHTML=catsForJump.map(c=>`<a href="#${c.id}">${c.cat}</a>`).join('');
         jumpBarEl.style.display='';
       } else jumpBarEl.style.display='none';
     }
@@ -478,7 +482,6 @@ title: Resources
         searching:true,
         order:[[1,'asc'],[2,'asc'],[0,'asc']],
         columnDefs:[
-          // raw should be searchable but hidden; url/domain hidden & not searchable
           {targets:[4], visible:false, searchable:true},
           {targets:[5,6], visible:false, searchable:false}
         ],
@@ -493,11 +496,13 @@ title: Resources
           renderCards();
           datatable.on('draw', renderCards);
 
-          const apply = debounce(()=>{
-            const q=inputEl?(inputEl.value||''):'';
-            datatable.search(q, false, true, true).draw(false);
-            setHash(q);
-          },120);
+          const apply = (()=>{
+            let t; return ()=>{ clearTimeout(t); t=setTimeout(()=>{
+              const q=inputEl?(inputEl.value||''):'';
+              datatable.search(q, false, true, true).draw(false);
+              setHash(q);
+            },120); };
+          })();
 
           inputEl.addEventListener('input', apply);
           inputEl.addEventListener('keydown', e=>{ if(e.key==='Enter'){ e.preventDefault(); apply(); }});
