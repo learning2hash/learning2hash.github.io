@@ -32,13 +32,21 @@ jobs:
         run: pip install pandas
 
       # === Build site using Debian-based Jekyll image (no Gemfile required) ===
-      - name: Build the site (jekyll/jekyll:4)
+      - name: Build the site (jekyll/jekyll:4, fix perms)
         run: |
           rm -f ${{ github.workspace }}/_publications/template || true
+
+          # Ensure writable cache and output directories on host
+          mkdir -p ${{ github.workspace }}/.jekyll-cache
+          mkdir -p ${{ github.workspace }}/_site
+          chmod -R a+rwX ${{ github.workspace }}/.jekyll-cache
+          chmod -R a+rwX ${{ github.workspace }}/_site
+
           docker run --rm \
             -v ${{ github.workspace }}:/srv/jekyll \
             -w /srv/jekyll \
             -e JEKYLL_ENV=production \
+            -e JEKYLL_CACHE_DIR=/srv/jekyll/.jekyll-cache \
             jekyll/jekyll:4 \
             jekyll build --future --trace
 
