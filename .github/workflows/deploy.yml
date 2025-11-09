@@ -31,41 +31,16 @@ jobs:
       - name: Install pandas
         run: pip install pandas
 
-      # === Cache Bundler gems (used inside Docker; path is in workspace) ===
-      - name: Cache vendor/bundle
-        uses: actions/cache@v4
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-bundler-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-bundler-
-
-      # === Build site on Debian/glibc to avoid musl segfaults ===
-      - name: Build the site (Debian/glibc)
+      # === Build site using Debian-based Jekyll image (no Gemfile required) ===
+      - name: Build the site (jekyll/jekyll:4)
         run: |
           rm -f ${{ github.workspace }}/_publications/template || true
           docker run --rm \
-            -v ${{ github.workspace }}:/site \
-            -w /site \
+            -v ${{ github.workspace }}:/srv/jekyll \
+            -w /srv/jekyll \
             -e JEKYLL_ENV=production \
-            ruby:3.2-bookworm bash -lc '
-              set -e
-              apt-get update && apt-get install -y build-essential git && \
-              gem install bundler && \
-              # Ensure we have a Gemfile (create a minimal one if missing)
-              if [ ! -f Gemfile ]; then
-                cat > Gemfile <<'"'"'RUBY'"'"'
-source "https://rubygems.org"
-gem "jekyll", "~> 4.3"
-gem "webrick", "~> 1.8"
-gem "nokogiri", "~> 1.16"
-RUBY
-              fi
-              bundle config set path vendor/bundle && \
-              bundle config set deployment true || true && \
-              bundle install --jobs 4 --retry 3 && \
-              bundle exec jekyll build --future --trace
-            '
+            jekyll/jekyll:4 \
+            jekyll build --future --trace
 
       # === Python setup & package installs ===
       - name: Setup Python
