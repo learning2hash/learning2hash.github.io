@@ -5,15 +5,9 @@ description: "Explore recent research in learning to hash, including key publica
 comments: true
 permalink: /
 ---
-
-# Awesome Papers on Learning to Hash
-
-<p style="font-size: 1.05em;">
-  A curated and continuously updated collection of <strong>academic papers</strong> 
-  on <strong>hashing-based approximate nearest neighbour (ANN) search</strong>, 
-  spanning applications in <strong>computer vision</strong>, 
-  <strong>natural language processing</strong>, 
-  <strong>bioinformatics</strong>, and related domains.
+<h1 style="font-size: 2em; margin-bottom: 0.3em;">Awesome Papers on Learning to Hash</h1>
+<p style="font-size: 1.2em;">
+  A curated and continuously updated collection of scholarly research on Learning to Hash, structured to support systematic exploration and academic inquiry.
 </p>
 
 ---
