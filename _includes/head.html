@@ -14,7 +14,6 @@
   wts.onload = function(){ wtsl7(2185304,4); };
   </script><noscript><img src="https://app.ardalio.com/7/4/2185304.png"></noscript>
   <!-- end code v 7.0 -->
-
   <!-- MathJax -->
   <script>
     window.MathJax = {
@@ -42,49 +41,6 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/syntax.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/public/css/hyde.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
-
-  <!-- ✅ Scrollable Sidebar Override -->
-  <style>
-  /* Scrollable Hyde sidebar */
-  @media (min-width: 48em) {
-    /* keep the bar pinned and sized to the viewport */
-    .sidebar { position: sticky; top: 0; height: 100vh; }
-
-    /* make the inner container scroll */
-    .sidebar .sidebar-sticky,
-    .sidebar .container {
-      max-height: calc(100vh - 16px); /* a little breathing room */
-      overflow-y: auto;
-      padding-right: 8px;              /* space for scrollbar */
-      -webkit-overflow-scrolling: touch;
-      overscroll-behavior: contain;
-    }
-  }
-
-  /* On mobile, let it flow normally */
-  @media (max-width: 47.99em) {
-    .sidebar,
-    .sidebar .sidebar-sticky,
-    .sidebar .container {
-      height: auto;
-      max-height: none;
-      overflow: visible;
-    }
-  }
-
-  /* Fallback: if hyde.css forces .sidebar { position: fixed; } on your build,
-     this ensures scrolling still appears. Keep it only if needed. */
-  @media (min-width: 48em) {
-    .sidebar.is-fixed,
-    .sidebar[style*="position: fixed"] {
-      top: 0; bottom: 0; height: auto;
-    }
-    .sidebar.is-fixed .sidebar-sticky,
-    .sidebar[style*="position: fixed"] .sidebar-sticky {
-      height: 100%; overflow-y: auto;
-    }
-  }
-  </style>
 
   <!-- Icons -->
   <link rel="shortcut icon" href="/public/favicon.ico">
