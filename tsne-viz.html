@@ -8,13 +8,23 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 
 <style>
 /* ====== Simple, safe container (no sidebar subtraction) ====== */
-:root{ --page-gutter: clamp(12px, 2vw, 24px); }
+:root{
+  --page-gutter: clamp(12px, 2vw, 24px);
+
+  /* match publications page look & feel */
+  --bg:#ffffff;
+  --card:#fff;
+  --muted:#6b7280;
+  --line:#e5e7eb;
+  --shadow:0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.04);
+  --brand:#1a73e8;
+}
 
 /* Centered wrapper with comfy gutters */
 .full-bleed-right{
   box-sizing:border-box;
   width:100%;
-  max-width:1200px;          /* adjust if you want wider/narrower on desktop */
+  max-width:1200px;
   margin-left:auto;
   margin-right:auto;
   padding-left:var(--page-gutter);
@@ -24,11 +34,41 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 /* Children can be full width inside this container */
 .full-bleed-right > * { max-width: 100% !important; }
 
-/* Map container grows with parent; friendly min height but fluid */
+/* ===== Slim, sticky toolbars (same style language) ===== */
+.toolbar{
+  position:sticky; top:0; z-index:20;
+  background: linear-gradient(#fff, rgba(255,255,255,.92));
+  backdrop-filter: blur(4px);
+  border:1px solid var(--line);
+  border-radius:12px; padding:10px 12px; margin:8px 0 12px;
+  display:flex; align-items:center; justify-content:space-between; gap:12px;
+  box-shadow: var(--shadow);
+}
+
+.search{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
+.search label{ font-weight:700; font-size:.85rem; }
+.search input[type="search"], .search input[type="text"]{
+  width:clamp(220px, 32vw, 560px);
+  padding:.45rem .6rem;
+  border:1px solid #cbd5e1; border-radius:8px;
+  font-size:.95rem; background-color:#f8fafc;
+}
+.search input:focus{
+  outline:none; border-color:var(--brand);
+  box-shadow:0 0 0 2px rgba(26,115,232,.18);
+}
+.search button{
+  padding:.45rem .6rem; font-size:.85rem; border:1px solid #cbd5e1;
+  border-radius:8px; background:#f8fafc; cursor:pointer;
+}
+.search button:hover{ background:#eef2f7; }
+.small{ color:var(--muted); font-size:.9em; }
+
+/* Map container */
 #paperviz {
   width:100%;
-  position:relative;         /* so floating UI anchors to this */
-  min-height: 50vh;          /* proportional, no fixed px */
+  position:relative;
+  min-height: 50vh;
   background:#fff;
   border:1px solid #eee; border-radius:8px;
   box-shadow: 0 1px 2px rgba(0,0,0,.035);
@@ -38,20 +78,14 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 /* Floating map UI (inside the map) */
 #paperviz .map-ui{
   position:absolute;
-  right:10px;
-  top:12px;
-  display:flex;
-  flex-direction:column;
-  gap:12px;
-  z-index: 5;
+  right:10px; top:12px;
+  display:flex; flex-direction:column; gap:12px; z-index: 5;
 }
 .fab{
-  width: 36px; height: 36px;
-  border-radius: 10px;
-  border: 1px solid #d1d5db;
-  background: #ffffff;
+  width:36px; height:36px;
+  border-radius:10px; border:1px solid #d1d5db; background:#ffffff;
   box-shadow: 0 2px 6px rgba(0,0,0,.08);
-  font: 600 18px/36px system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font:600 18px/36px system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
   text-align:center; cursor:pointer;
   transition: transform .08s ease, background-color .15s ease, box-shadow .15s ease;
 }
@@ -60,108 +94,41 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 
 /* Gesture hint (auto-fades) */
 #paperviz .gesture-hint{
-  position: absolute;
-  right: 56px; top: 16px;
+  position:absolute; right:56px; top:16px;
   background: rgba(34,34,34,.85); color:#fff;
-  padding: 6px 10px; border-radius: 8px; font-size:.78rem;
+  padding:6px 10px; border-radius:8px; font-size:.78rem;
   box-shadow: 0 2px 6px rgba(0,0,0,.15);
-  opacity: 0; pointer-events: none; transition: opacity .25s ease;
-  z-index: 5;
+  opacity:0; pointer-events:none; transition: opacity .25s ease; z-index:5;
 }
-#paperviz .gesture-hint.show{ opacity: 1; }
+#paperviz .gesture-hint.show{ opacity:1; }
 
 /* ---------- Sleeker cluster legend ---------- */
 #cluster-legend-wrapper{
-  margin-top:16px;
-  padding: 12px;
+  margin-top:16px; padding:12px;
   border:1px solid #eee; border-radius:12px; background:#fff;
   box-shadow: 0 1px 2px rgba(0,0,0,.03);
   font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
 }
-
-#cluster-legend {
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap:10px;
-}
-
+#cluster-legend { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:10px; }
 .legend-item {
-  display:flex;
-  align-items:center;
-  gap:10px;
-  padding:10px 12px;
-  border:1px solid #e6e6e6;
-  border-radius:999px;            /* pill look */
-  background:#fafafa;
-  cursor:pointer;
+  display:flex; align-items:center; gap:10px; padding:10px 12px;
+  border:1px solid #e6e6e6; border-radius:999px; background:#fafafa; cursor:pointer;
   transition: transform .12s ease, background-color .2s, border-color .2s, box-shadow .2s;
   user-select:none;
 }
-
-.legend-item:hover { 
-  background:#f5f7fb; 
-  transform: translateY(-1px); 
-  box-shadow: 0 2px 8px rgba(0,0,0,.06);
-}
-
-.legend-item[aria-pressed="true"]{
-  background:#f0f6ff;
-  border-color:#b8d3ff;
-  box-shadow: 0 0 0 3px rgba(26,115,232,.12) inset;
-}
-
-.legend-dot{
-  width:14px; height:14px; border-radius:50%;
-  box-shadow: 0 0 0 2px #fff inset, 0 0 0 1px rgba(0,0,0,.06);
-  flex: 0 0 14px;
-}
-
-.legend-text{
-  display:flex; flex-direction:column; gap:4px; min-width:0;
-}
-
-.legend-row{
-  display:flex; align-items:center; gap:8px; min-width:0;
-}
-
-.legend-title{
-  font-weight: 650; font-size:.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
-}
-
-.legend-count{
-  font-size:.75rem; padding:2px 8px; border-radius:999px; 
-  background:#fff; border:1px solid #e1e1e1; color:#555;
-}
-
-.legend-tags{
-  display:flex; flex-wrap:wrap; gap:6px; max-width:100%;
-}
-
-.legend-tag{
-  font-size:.75rem; line-height:1; padding:4px 8px;
-  border-radius:999px; background:#fff; border:1px solid #eee; color:#444;
-  white-space:nowrap; max-width:160px; overflow:hidden; text-overflow:ellipsis;
-}
-
-/* Optional: tiny focus ring for keyboard users */
-.legend-item:focus-visible{ outline: none; box-shadow: 0 0 0 3px rgba(26,115,232,.25); }
+.legend-item:hover { background:#f5f7fb; transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,.06); }
+.legend-item[aria-pressed="true"]{ background:#f0f6ff; border-color:#b8d3ff; box-shadow: 0 0 0 3px rgba(26,115,232,.12) inset; }
+.legend-dot{ width:14px; height:14px; border-radius:50%; box-shadow: 0 0 0 2px #fff inset, 0 0 0 1px rgba(0,0,0,.06); flex:0 0 14px; }
+.legend-text{ display:flex; flex-direction:column; gap:4px; min-width:0; }
+.legend-row{ display:flex; align-items:center; gap:8px; min-width:0; }
+.legend-title{ font-weight:650; font-size:.9rem; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.legend-count{ font-size:.75rem; padding:2px 8px; border-radius:999px; background:#fff; border:1px solid #e1e1e1; color:#555; }
+.legend-tags{ display:flex; flex-wrap:wrap; gap:6px; max-width:100%; }
+.legend-tag{ font-size:.75rem; line-height:1; padding:4px 8px; border-radius:999px; background:#fff; border:1px solid #eee; color:#444; white-space:nowrap; max-width:160px; overflow:hidden; text-overflow:ellipsis; }
+.legend-item:focus-visible{ outline:none; box-shadow: 0 0 0 3px rgba(26,115,232,.25); }
 
 /* Tooltip */
 .tooltip { pointer-events:none; }
-
-/* Controls — compact, neutral, fluid */
-.controls { display:flex; flex-wrap:wrap; align-items:flex-start; justify-content:space-between; gap:.6rem; margin:.6rem 0 .9rem; }
-.search { display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
-.search label { font-weight:700; font-size:.85rem; }
-.search input[type="search"], .search input[type="text"] {
-  width: clamp(180px, 28vw, 420px);
-  padding:.25rem .4rem; border:1px solid #aaa; border-radius:4px; font-size:.85rem; background:#f8f9fa;
-}
-.search input:focus { outline:none; border-color:#0c5fce; box-shadow:0 0 0 2px rgba(26,115,232,.25); }
-.search button { padding:.25rem .5rem; font-size:.85rem; border:1px solid #aaa; border-radius:4px; background:#f8f9fa; cursor:pointer; }
-.search button:hover { background:#e2e2e2; }
-.small { color:#6b7280; font-size:.9em; }
-.dash { opacity:.6; }
 
 /* Year slider tweaks */
 .range-wrap{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
@@ -169,8 +136,8 @@ input[type="range"]{ accent-color:#1a73e8; }
 
 /* Narrow screens */
 @media (max-width: 680px){
-  .search input[type="text"] { width:100%; }
   #paperviz { min-height: 360px; }
+  .toolbar{ border-radius:10px; }
 }
 </style>
 
@@ -183,18 +150,19 @@ input[type="range"]{ accent-color:#1a73e8; }
 </p>
 
 <div class="full-bleed-right">
-  <!-- Unified controls -->
-  <div class="controls" role="search">
+  <!-- Search toolbar -->
+  <div class="toolbar" role="search" id="searchToolbar">
     <div class="search">
       <label for="filtermap"><strong>Search</strong></label>
-      <input type="text" spellcheck="false" id="filtermap" placeholder="🔍 Search papers…" aria-label="Search papers" />
-      <button id="clearSearch" type="button">Clear</button>
-      <span id="matchCount" class="small"></span>
+      <input type="search" inputmode="search" spellcheck="false" id="filtermap"
+             placeholder="🔍 Search papers…" aria-label="Search papers" />
+      <button id="clearSearch" type="button" aria-label="Clear search">Clear</button>
+      <span id="matchCount" class="small" aria-live="polite"></span>
     </div>
   </div>
 
-  <!-- View control (size by citations) -->
-  <div class="controls" style="margin-top:-.4rem;">
+  <!-- View toolbar (size by citations) -->
+  <div class="toolbar" style="margin-top:-.4rem;" id="viewToolbar">
     <div class="search">
       <label for="sizeByCitations"><strong>View</strong></label>
       <div>
@@ -203,8 +171,8 @@ input[type="range"]{ accent-color:#1a73e8; }
     </div>
   </div>
 
-  <!-- Year filter (dual range) -->
-  <div class="controls" id="yearControls" style="margin-top:-.6rem; display:none;">
+  <!-- Year toolbar (dual range) -->
+  <div class="toolbar" id="yearControls" style="margin-top:-.6rem; display:none;">
     <div class="search">
       <label for="yearMin"><strong>Year</strong></label>
       <div class="range-wrap">
