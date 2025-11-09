@@ -67,7 +67,7 @@
 </div>
 
 <style>
-/* === Scrollable Right Sidebar (keeps original width) === */
+/* === Scrollable Right Sidebar (same width as Awesome LLM Papers) === */
 .sidebar {
   position: fixed;
   top: 0;
@@ -77,12 +77,12 @@
   overflow-x: hidden;
   padding: 1.5rem 1rem;
   box-sizing: border-box;
-  background-color: #7da2b3; /* match theme */
+  background-color: #7da2b3;
   scrollbar-gutter: stable;
 
-  /* Responsive width (same behavior as Awesome LLM Papers) */
-  max-width: min(34vw, 360px);
+  /* ✅ same width as Awesome LLM Papers sidebar */
   width: clamp(240px, 28vw, 340px);
+  max-width: clamp(240px, 28vw, 340px);
 }
 
 /* Allow normal flow inside sticky container */
@@ -93,19 +93,23 @@
 }
 
 /* Optional: prettier scrollbar */
-.sidebar::-webkit-scrollbar { width: 8px; }
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
 .sidebar::-webkit-scrollbar-thumb {
   background: rgba(0,0,0,0.25);
   border-radius: 4px;
 }
-.sidebar::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.4); }
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: rgba(0,0,0,0.4);
+}
 
-/* Fallback spacing for layouts without JS */
+/* Match content offset */
 .main, .content {
   margin-right: clamp(240px, 28vw, 340px);
 }
 
-/* Mobile: collapse sidebar to top block (same as Awesome LLM Papers) */
+/* Mobile view: sidebar collapses */
 @media (max-width: 880px) {
   .sidebar {
     position: static;
@@ -146,25 +150,17 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     if (btn) btn.addEventListener('click', doSearch);
   }
+
   window.search = doSearch;
 
-  // ---- Match content margin to actual sidebar width (desktop only) ----
+  // ---- Match content margin to actual sidebar width ----
   const sb = document.querySelector('.sidebar');
   const mains = document.querySelectorAll('.main, .content');
-
-  function isMobile() {
-    return window.matchMedia('(max-width: 880px)').matches;
-  }
   function syncSidebarWidth() {
     if (!sb) return;
-    if (isMobile()) {
-      mains.forEach(m => m && (m.style.marginRight = '0px'));
-      return;
-    }
     const w = sb.offsetWidth + 'px';
     mains.forEach(m => m && (m.style.marginRight = w));
   }
-
   syncSidebarWidth();
   window.addEventListener('resize', syncSidebarWidth);
 });
