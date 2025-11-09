@@ -21,15 +21,24 @@
       </div>
 
       <!-- NOTE: use quoted comparisons for page.url -->
-      <a class="sidebar-nav-item{% if page.url == '/papers.html' %} active{% endif %}" href="/papers.html">All Papers</a>
-      <a class="sidebar-nav-item{% if page.url == '/tags.html' %} active{% endif %}" href="{% link tags.html %}">Papers by Tag</a>
-      <a class="sidebar-nav-item{% if page.url == '/tsne-viz.html' %} active{% endif %}" href="{% link tsne-viz.html %}">2D Map of Papers</a>
-      <a class="sidebar-nav-item{% if page.url == '/topic-viz.html' %} active{% endif %}" href="{% link topic-viz.html %}">Topic Explorer</a>
-      <a class="sidebar-nav-item{% if page.url == '/opensource.html' %} active{% endif %}" href="{% link opensource.markdown %}">Tools Explorer</a>
-      <a class="sidebar-nav-item{% if page.url == '/author-viz.html' %} active{% endif %}" href="{% link author-viz.html %}">Author Explorer</a>
-      <a class="sidebar-nav-item{% if page.url == '/tutorial.html' %} active{% endif %}" href="/tutorial.html">Tutorial</a>
-      <a class="sidebar-nav-item{% if page.url == '/resources.html' %} active{% endif %}" href="{% link resources.md %}">Resources, Courses &amp; Events</a>
-      <a class="sidebar-nav-item{% if page.url == '/contributing.html' %} active{% endif %}" href="{% link contributing.markdown %}">Contributing</a>
+      <a class="sidebar-nav-item{% if page.url == '/papers.html' %} active{% endif %}"
+         href="/papers.html">All Papers</a>
+      <a class="sidebar-nav-item{% if page.url == '/tags.html' %} active{% endif %}"
+         href="{% link tags.html %}">Papers by Tag</a>
+      <a class="sidebar-nav-item{% if page.url == '/tsne-viz.html' %} active{% endif %}"
+         href="{% link tsne-viz.html %}">2D Map of Papers</a>
+      <a class="sidebar-nav-item{% if page.url == '/topic-viz.html' %} active{% endif %}"
+         href="{% link topic-viz.html %}">Topic Explorer</a>
+      <a class="sidebar-nav-item{% if page.url == '/opensource.html' %} active{% endif %}"
+         href="{% link opensource.markdown %}">Tools Explorer</a>
+      <a class="sidebar-nav-item{% if page.url == '/author-viz.html' %} active{% endif %}"
+         href="{% link author-viz.html %}">Author Explorer</a>
+      <a class="sidebar-nav-item{% if page.url == '/tutorial.html' %} active{% endif %}"
+         href="/tutorial.html">Tutorial</a>
+      <a class="sidebar-nav-item{% if page.url == '/resources.html' %} active{% endif %}"
+         href="{% link resources.md %}">Resources, Courses &amp; Events</a>
+      <a class="sidebar-nav-item{% if page.url == '/contributing.html' %} active{% endif %}"
+         href="{% link contributing.markdown %}">Contributing</a>
     </nav>
 
     <!-- ===== Stay Updated (minimal block) ===== -->
@@ -38,7 +47,8 @@
       <h3 style="margin:0 0 0.25rem 0; font-size:1rem;">Stay Updated</h3>
       <ul style="list-style:none; padding-left:0; margin:0;">
         <li style="margin:0.35rem 0;">
-          <a class="sidebar-nav-item" href="/feed/publications.xml" rel="alternate" type="application/rss+xml">📰 RSS Feed</a>
+          <a class="sidebar-nav-item" href="/feed/publications.xml"
+             rel="alternate" type="application/rss+xml">📰 RSS Feed</a>
         </li>
       </ul>
     </div>
@@ -48,7 +58,8 @@
       <p style="font-size: 12px">
         Contact <a href="https://sjmoran.github.io">Sean Moran</a> about this survey or website.
         <span style="font-size: 9px">
-          Made with <a href="https://jekyllrb.com">Jekyll</a> and <a href="https://github.com/poole/hyde">Hyde</a>.
+          Made with <a href="https://jekyllrb.com">Jekyll</a> and
+          <a href="https://github.com/poole/hyde">Hyde</a>.
         </span>
       </p>
     </div>
@@ -68,6 +79,10 @@
   box-sizing: border-box;
   background-color: #7da2b3; /* match theme */
   scrollbar-gutter: stable;
+
+  /* Responsive width (same behavior as Awesome LLM Papers) */
+  max-width: min(34vw, 360px);
+  width: clamp(240px, 28vw, 340px);
 }
 
 /* Allow normal flow inside sticky container */
@@ -84,6 +99,25 @@
   border-radius: 4px;
 }
 .sidebar::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.4); }
+
+/* Fallback spacing for layouts without JS */
+.main, .content {
+  margin-right: clamp(240px, 28vw, 340px);
+}
+
+/* Mobile: collapse sidebar to top block (same as Awesome LLM Papers) */
+@media (max-width: 880px) {
+  .sidebar {
+    position: static;
+    height: auto;
+    width: auto;
+    max-width: none;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .main, .content {
+    margin-right: 0 !important;
+  }
+}
 </style>
 
 <script defer>
@@ -93,9 +127,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const el = document.getElementById('searchTarget');
     if (!el) return;
     const q = el.value.trim();
-    try {
-      if (typeof ga === 'function') ga('send', 'event', 'search', 'search', q);
-    } catch(e) {}
+    try { if (typeof ga === 'function') ga('send', 'event', 'search', 'search', q); } catch(e) {}
     window.location = "{{ '/papers.html' | relative_url }}#" + encodeURIComponent(q);
   }
 
@@ -114,17 +146,25 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     if (btn) btn.addEventListener('click', doSearch);
   }
-
   window.search = doSearch;
 
-  // ---- Match content margin to actual sidebar width ----
+  // ---- Match content margin to actual sidebar width (desktop only) ----
   const sb = document.querySelector('.sidebar');
   const mains = document.querySelectorAll('.main, .content');
+
+  function isMobile() {
+    return window.matchMedia('(max-width: 880px)').matches;
+  }
   function syncSidebarWidth() {
     if (!sb) return;
+    if (isMobile()) {
+      mains.forEach(m => m && (m.style.marginRight = '0px'));
+      return;
+    }
     const w = sb.offsetWidth + 'px';
-    mains.forEach(m => { if (m) m.style.marginRight = w; });
+    mains.forEach(m => m && (m.style.marginRight = w));
   }
+
   syncSidebarWidth();
   window.addEventListener('resize', syncSidebarWidth);
 });
