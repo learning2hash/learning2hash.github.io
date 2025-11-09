@@ -2,7 +2,13 @@
 layout: default
 title: Resources
 ---
-<h1>Resources on Machine Learning for Hashing</h1>
+<h2 style="font-size: 1.8em; margin-bottom: 10px;">📚 Resources on Machine Learning for Hashing</h2>
+<p style="font-size: 1.05em;">
+  A curated collection of <strong>papers</strong>, <strong>datasets</strong>, 
+  <strong>courses</strong>, and <strong>tools</strong> covering all aspects of 
+  <strong>machine learning for hashing</strong>. Use the search bar to quickly 
+  find relevant resources across categories.
+</p>
 
 <!-- Slim Toolbar: search + visible count -->
 <div id="resToolbar" class="toolbar" style="display:none;">
