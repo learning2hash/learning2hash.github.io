@@ -5,7 +5,7 @@ authors: Zhongwen Xu, Linchao Zhu, Yi Yang
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2017
 bibkey: xu2017few
-citations: 65
+citations: 61
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1612.06152'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot", "Scalability", "Tools & Libraries"]
 short_authors: Zhongwen Xu, Linchao Zhu, Yi Yang

@@ -6,7 +6,7 @@ authors: Ripon Patgiri, Anupam Biswas, Sabuzima Nayak
 conference: Computer Communications
 year: 2023
 bibkey: patgiri2023deepbf
-citations: 21
+citations: 30
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2103.12544'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Neural Hashing"]
 short_authors: Ripon Patgiri, Anupam Biswas, Sabuzima Nayak

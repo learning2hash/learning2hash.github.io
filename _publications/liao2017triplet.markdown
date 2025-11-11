@@ -5,7 +5,7 @@ authors: Wentong Liao, Michael Ying Yang, Ni Zhan, Bodo Rosenhahn
 conference: 2017 IEEE International Conference on Computer Vision Workshops (ICCVW)
 year: 2017
 bibkey: liao2017triplet
-citations: 34
+citations: 35
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1802.03254'}]
 tags: ["Datasets", "Evaluation", "ICCV", "Tools & Libraries"]
 short_authors: Liao et al.

@@ -6,7 +6,7 @@ authors: Antonio Pertusa, Antonio-Javier Gallego, Marisa Bernabeu
 conference: Neurocomputing
 year: 2018
 bibkey: pertusa2018mirbot
-citations: 13
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1706.02889'}]
 tags: ["Datasets", "Evaluation", "Similarity Search"]
 short_authors: Antonio Pertusa, Antonio-Javier Gallego, Marisa Bernabeu

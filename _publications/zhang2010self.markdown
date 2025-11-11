@@ -2,11 +2,11 @@
 layout: publication
 title: Self-taught Hashing For Fast Similarity Search
 authors: D. Zhang, J. Wang, D. Cai, And Lu
-conference: Proceedings of the 33rd international ACM SIGIR conference on Research
-  and development in information retrieval
+conference: 'SIGIR ''10: The 33rd International ACM SIGIR conference on research and
+  development in Information Retrieval'
 year: 2010
 bibkey: zhang2010self
-citations: 355
+citations: 257
 additional_links: [{name: Paper, url: 'http://www.dcs.bbk.ac.uk/~dell/publications/dellzhang_sigir2010.pdf'}]
 tags: ["Compact Codes", "Datasets", "Hashing Methods", "Neural Hashing", "SIGIR", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Zhang et al.

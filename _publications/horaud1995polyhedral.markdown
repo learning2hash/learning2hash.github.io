@@ -5,7 +5,7 @@ authors: Radu Horaud, Humberto Sossa
 conference: Pattern Recognition
 year: 1995
 bibkey: horaud1995polyhedral
-citations: 48
+citations: 38
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2311.12641'}]
 tags: ["CVPR", "Evaluation", "Hashing Methods"]
 short_authors: Radu Horaud, Humberto Sossa

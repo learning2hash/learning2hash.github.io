@@ -6,7 +6,7 @@ conference: Proceedings of the 5th International Conference on Information Syste
   Security and Privacy
 year: 2019
 bibkey: benBassat2019locality
-citations: 2
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.01128'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Ilan Ben-Bassat, Erez Rokah

@@ -2,11 +2,11 @@
 layout: publication
 title: Nonlinear Robust Discrete Hashing For Cross-modal Retrieval
 authors: Zhan Yang, Jun Long, Lei Zhu, Wenti Huang
-conference: Proceedings of the 43rd International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
+conference: 'SIGIR ''20: The 43rd International ACM SIGIR conference on research and
+  development in Information Retrieval'
 year: 2020
 bibkey: yang2020nonlinear
-citations: 23
+citations: 22
 additional_links: [{name: Paper, url: 'https://dl.acm.org/doi/abs/10.1145/3397271.3401152'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "SIGIR", "Similarity Search"]
 short_authors: Yang et al.

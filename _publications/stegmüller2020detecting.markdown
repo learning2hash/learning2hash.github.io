@@ -6,7 +6,7 @@ authors: "Johannes Stegm\xFCller, Fabian Bauer-Marquart, Norman Meuschke, Terry 
 conference: Arxiv
 year: 2020
 bibkey: "stegm\xFCller2020detecting"
-citations: 0
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2111.09749'}]
 tags: ["Evaluation", "Large Scale Search", "Scalability"]
 short_authors: "Stegm\xFCller et al."

@@ -5,7 +5,7 @@ authors: Xiangyu He, Peisong Wang, Jian Cheng
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: he2019k
-citations: 31
+citations: 20
 additional_links: [{name: Paper, url: 'http://openaccess.thecvf.com/content_CVPR_2019/papers/He_K-Nearest_Neighbors_Hashing_CVPR_2019_paper.pdf'}]
 tags: ["CVPR", "Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Similarity Search"]
 short_authors: Xiangyu He, Peisong Wang, Jian Cheng

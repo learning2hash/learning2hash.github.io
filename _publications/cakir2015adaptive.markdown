@@ -5,7 +5,7 @@ authors: F. Cakir, S. Sclaroff
 conference: 2015 IEEE International Conference on Computer Vision (ICCV)
 year: 2015
 bibkey: cakir2015adaptive
-citations: 89
+citations: 61
 additional_links: [{name: Paper, url: 'https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Cakir_Adaptive_Hashing_for_ICCV_2015_paper.pdf'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "ICCV", "Image Retrieval", "Similarity Search"]
 short_authors: F. Cakir, S. Sclaroff

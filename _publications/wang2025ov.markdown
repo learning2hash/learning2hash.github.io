@@ -7,7 +7,7 @@ authors: Junjie Wang, Bin Chen, Bin Kang, Yulin Li, Yichi Chen, Weizhi Xian, Hui
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2025
 bibkey: wang2025ov
-citations: 0
+citations: 2
 additional_links: [{name: Code, url: 'https://github.com/xiaomoguhz/OV-DQUO'}, {name: Paper,
     url: 'https://arxiv.org/abs/2405.17913'}]
 tags: ["AAAI", "Evaluation", "Self-Supervised"]

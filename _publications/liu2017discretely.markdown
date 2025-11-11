@@ -5,7 +5,7 @@ authors: Li Liu, Ling Shao, Fumin Shen, Mengyang Yu
 conference: 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2017
 bibkey: liu2017discretely
-citations: 49
+citations: 31
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_cvpr_2017/papers/Liu_Discretely_Coding_Semantic_CVPR_2017_paper.pdf'}]
 tags: ["CVPR", "Compact Codes", "Datasets", "Hashing Methods", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Liu et al.

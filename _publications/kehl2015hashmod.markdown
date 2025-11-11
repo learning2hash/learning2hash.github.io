@@ -5,7 +5,7 @@ authors: Wadim Kehl, Federico Tombari, Nassir Navab, Slobodan Ilic, Vincent Lepe
 conference: Procedings of the British Machine Vision Conference 2015
 year: 2015
 bibkey: kehl2015hashmod
-citations: 46
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1607.06062'}]
 tags: ["Hashing Methods"]
 short_authors: Kehl et al.

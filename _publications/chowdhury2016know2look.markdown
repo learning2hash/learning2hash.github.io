@@ -5,7 +5,7 @@ authors: Sreyasi Nag Chowdhury, Niket Tandon, Gerhard Weikum
 conference: Proceedings of the 5th Workshop on Automated Knowledge Base Construction
 year: 2016
 bibkey: chowdhury2016know2look
-citations: 6
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1909.00749'}]
 tags: ["Image Retrieval"]
 short_authors: Sreyasi Nag Chowdhury, Niket Tandon, Gerhard Weikum

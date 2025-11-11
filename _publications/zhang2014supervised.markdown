@@ -2,11 +2,11 @@
 layout: publication
 title: Supervised Hashing With Latent Factor Models
 authors: P. Zhang, W. Zhang, W. Li, M. Guo
-conference: Proceedings of the 37th international ACM SIGIR conference on Research
-  &amp; development in information retrieval
+conference: 'SIGIR ''14: The 37th International ACM SIGIR Conference on Research and
+  Development in Information Retrieval'
 year: 2014
 bibkey: zhang2014supervised
-citations: 287
+citations: 196
 additional_links: [{name: Paper, url: 'https://cs.nju.edu.cn/lwj/paper/SIGIR14_LFH.pdf'}]
 tags: ["Datasets", "Hashing Methods", "Memory Efficiency", "SIGIR", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Zhang et al.

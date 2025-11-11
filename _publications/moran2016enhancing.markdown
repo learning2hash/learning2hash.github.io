@@ -2,11 +2,11 @@
 layout: publication
 title: Enhancing First Story Detection Using Word Embeddings
 authors: S. Moran, R. McCreadie, C. MacDonald, I. Ounis
-conference: Proceedings of the 39th International ACM SIGIR conference on Research
-  and Development in Information Retrieval
+conference: 'SIGIR ''16: The 39th International ACM SIGIR conference on research and
+  development in Information Retrieval'
 year: 2016
 bibkey: moran2016enhancing
-citations: 29
+citations: 16
 additional_links: [{name: Paper, url: 'https://dl.acm.org/citation.cfm?id=2911451.2914719'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "SIGIR"]
 short_authors: Moran et al.

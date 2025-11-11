@@ -6,7 +6,7 @@ authors: R. Zhang, L. Lin, R. Zhang, W. Zuo, L. Zhang
 conference: IEEE Transactions on Image Processing
 year: 2015
 bibkey: zhang2015bit
-citations: 418
+citations: 439
 additional_links: [{name: Paper, url: 'http://arxiv.org/pdf/1508.04535v2.pdf'}]
 tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Supervised", "Tools & Libraries"]
 short_authors: Zhang et al.

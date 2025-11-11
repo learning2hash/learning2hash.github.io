@@ -2,11 +2,12 @@
 layout: publication
 title: Deep Polarized Network For Supervised Learning Of Accurate Binary Hashing Codes
 authors: Lixin Fan, Kam Ng, Ce Ju, Tianyu Zhang, Chee Chan
-conference: Proceedings of the Twenty-Ninth International Joint Conference on Artificial
-  Intelligence
+conference: Twenty-Ninth International Joint Conference on Artificial Intelligence
+  and Seventeenth Pacific Rim International Conference on Artificial Intelligence
+  {IJCAI-PRICAI-20}
 year: 2020
 bibkey: fan2020deep
-citations: 84
+citations: 90
 additional_links: [{name: Paper, url: 'https://www.ijcai.org/proceedings/2020/0115.pdf'}]
 tags: ["AAAI", "Compact Codes", "Datasets", "Distance Metric Learning", "Hashing Methods", "IJCAI", "Supervised", "Tools & Libraries"]
 short_authors: Fan et al.

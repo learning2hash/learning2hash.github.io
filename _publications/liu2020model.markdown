@@ -5,7 +5,7 @@ authors: Xingbo Liu, Xiushan Nie, Quan Zhou, Liqiang Nie, Yilong Yin
 conference: IEEE Transactions on Image Processing
 year: 2020
 bibkey: liu2020model
-citations: 23
+citations: 25
 additional_links: [{name: Paper, url: 'https://www.ncbi.nlm.nih.gov/pubmed/32031939'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Tools & Libraries"]
 short_authors: Liu et al.

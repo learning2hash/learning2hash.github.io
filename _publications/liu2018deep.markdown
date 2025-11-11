@@ -5,7 +5,7 @@ authors: Bin Liu, Yue Cao, Mingsheng Long, Jianmin Wang, Jingdong Wang
 conference: Proceedings of the 26th ACM international conference on Multimedia
 year: 2018
 bibkey: liu2018deep
-citations: 106
+citations: 105
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00153'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Similarity Search"]
 short_authors: Liu et al.

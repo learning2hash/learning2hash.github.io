@@ -5,7 +5,7 @@ authors: Qi Qian, Rong Jin, Shenghuo Zhu, Yuanqing Lin
 conference: 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2015
 bibkey: qian2015fine
-citations: 155
+citations: 150
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1402.0453'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Qian et al.

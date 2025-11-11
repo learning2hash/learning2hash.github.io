@@ -5,7 +5,7 @@ authors: "I. Torres-Xirau, J. Salvador, E. P\xE9rez-Pellitero"
 conference: Lecture Notes in Computer Science
 year: 2015
 bibkey: torresXirau2015fast
-citations: 3
+citations: 0
 additional_links: [{name: Paper, url: 'https://perezpellitero.github.io/documents/TorresXirau2014Accv.pdf'}]
 tags: ["Hashing Methods"]
 short_authors: "I. Torres-Xirau, J. Salvador, E. P\xE9rez-Pellitero"

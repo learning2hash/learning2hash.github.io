@@ -6,7 +6,7 @@ authors: Zheng Li, Caili Guo, Xin Wang, Zerun Feng, Zhongtian Du
 conference: IEEE Transactions on Circuits and Systems for Video Technology
 year: 2024
 bibkey: li2024selectively
-citations: 3
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.00181'}]
 tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Li et al.

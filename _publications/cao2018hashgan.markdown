@@ -2,10 +2,10 @@
 layout: publication
 title: 'Hashgan: Deep Learning To Hash With Pair Conditional Wasserstein GAN'
 authors: Yue Cao, Mingsheng Long, Bin Liu, Jiamin Wang
-conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition
+conference: 2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2018
 bibkey: cao2018hashgan
-citations: 117
+citations: 82
 additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/~mlong/doc/hashgan-cvpr18.pdf'}]
 tags: ["CVPR", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Cao et al.

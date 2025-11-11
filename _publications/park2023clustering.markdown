@@ -3,11 +3,12 @@ layout: publication
 title: Clustering-based Image-text Graph Matching For Domain Generalization
 authors: Nokyung Park, Daewon Chae, Jeongyong Shim, Sangpil Kim, Eun-Sol Kim, Jinkyu
   Kim
-conference: Lecture Notes in Computer Science
-year: 2024
+conference: Arxiv
+year: 2023
 bibkey: park2023clustering
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2310.02692'}]
+additional_links: [{name: Code, url: 'https://github.com/noparkee/Graph-Clustering-based-DG'},
+  {name: Paper, url: 'https://arxiv.org/abs/2310.02692'}]
 tags: ["Datasets", "Evaluation", "Graph Based ANN", "Scalability"]
 short_authors: Park et al.
 ---

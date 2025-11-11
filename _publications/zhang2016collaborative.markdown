@@ -5,7 +5,7 @@ authors: Ting Zhang, Jingdong Wang
 conference: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2016
 bibkey: zhang2016collaborative
-citations: 62
+citations: 46
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00623'}]
 tags: ["CVPR", "Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "Quantization", "Similarity Search"]
 short_authors: Ting Zhang, Jingdong Wang

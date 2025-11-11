@@ -6,7 +6,7 @@ authors: Ali Furkan Biten, Andres Mafla, Lluis Gomez, Dimosthenis Karatzas
 conference: 2022 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
 year: 2022
 bibkey: biten2022is
-citations: 17
+citations: 19
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.02623'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation"]
 short_authors: Biten et al.

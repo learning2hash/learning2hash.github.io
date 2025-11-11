@@ -6,7 +6,7 @@ conference: 2018 International Conference on Image and Vision Computing New Zeal
   (IVCNZ)
 year: 2018
 bibkey: bouma2018individual
-citations: 38
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.03662'}]
 tags: ["Distance Metric Learning", "Neural Hashing"]
 short_authors: Bouma et al.

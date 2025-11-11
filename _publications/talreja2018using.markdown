@@ -6,7 +6,7 @@ authors: Veeru Talreja, Fariborz Taherkhani, Matthew C. Valenti, Nasser M. Nasra
 conference: 2018 IEEE Global Conference on Signal and Information Processing (GlobalSIP)
 year: 2018
 bibkey: talreja2018using
-citations: 25
+citations: 20
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.04139'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Memory Efficiency", "Neural Hashing", "Tools & Libraries"]
 short_authors: Talreja et al.

@@ -3,8 +3,8 @@ layout: publication
 title: 'Pairingnet: A Learning-based Pair-searching And -matching Network For Image
   Fragments'
 authors: Rixin Zhou, Ding Xia, Yi Zhang, Honglin Pang, Xi Yang, Chuntao Li
-conference: Lecture Notes in Computer Science
-year: 2024
+conference: Arxiv
+year: 2023
 bibkey: zhou2023pairingnet
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.08704'}]

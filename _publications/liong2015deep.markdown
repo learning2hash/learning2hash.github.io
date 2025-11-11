@@ -5,7 +5,7 @@ authors: V. Liong, J. Lu, G. Wang, P. Moulin, J. Zhou
 conference: 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2015
 bibkey: liong2015deep
-citations: 579
+citations: 299
 additional_links: [{name: Paper, url: 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.707.72&rep=rep1&type=pdf'}]
 tags: ["CVPR", "Compact Codes", "Evaluation", "Hashing Methods", "Neural Hashing", "Supervised"]
 short_authors: Liong et al.

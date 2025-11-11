@@ -2,9 +2,8 @@
 layout: publication
 title: 'Search-adaptor: Embedding Customization For Information Retrieval'
 authors: Jinsung Yoon, Sercan O Arik, Yanfei Chen, Tomas Pfister
-conference: 'Proceedings of the 62nd Annual Meeting of the Association for Computational
-  Linguistics (Volume 1: Long Papers)'
-year: 2024
+conference: Arxiv
+year: 2023
 bibkey: yoon2023search
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.08750'}]

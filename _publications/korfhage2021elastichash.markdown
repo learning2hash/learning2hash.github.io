@@ -5,7 +5,7 @@ authors: "Nikolaus Korfhage, Markus M\xFChling, Bernd Freisleben"
 conference: Lecture Notes in Computer Science
 year: 2021
 bibkey: korfhage2021elastichash
-citations: 3
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.04710'}]
 tags: ["Evaluation", "Hashing Methods", "Neural Hashing", "Scalability", "Similarity Search", "Vector Indexing"]
 short_authors: "Nikolaus Korfhage, Markus M\xFChling, Bernd Freisleben"

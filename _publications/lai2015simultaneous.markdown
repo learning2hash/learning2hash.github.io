@@ -5,7 +5,7 @@ authors: H. Lai, Y. Pan, Y. Liu, S. Yan
 conference: 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2015
 bibkey: lai2015simultaneous
-citations: 917
+citations: 599
 additional_links: [{name: Paper, url: 'https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lai_Simultaneous_Feature_Learning_2015_CVPR_paper.pdf'}]
 tags: ["CVPR", "Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Quantization", "Scalability", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Lai et al.

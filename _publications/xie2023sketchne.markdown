@@ -5,7 +5,7 @@ authors: Yuyang Xie, Yuxiao Dong, Jiezhong Qiu, Wenjian Yu, Xu Feng, Jie Tang
 conference: IEEE Transactions on Knowledge and Data Engineering
 year: 2023
 bibkey: xie2023sketchne
-citations: 9
+citations: 10
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2110.12782'}]
 tags: ["Datasets", "Efficiency", "Large Scale Search", "Scalability"]
 short_authors: Xie et al.

@@ -7,7 +7,7 @@ authors: Fabrizio Guillaro, Davide Cozzolino, Avneesh Sud, Nicholas Dufour, Luis
 conference: 2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2023
 bibkey: guillaro2023trufor
-citations: 75
+citations: 130
 additional_links: [{name: Code, url: 'https://grip-unina.github.io/TruFor/'}, {name: Paper,
     url: 'https://arxiv.org/abs/2212.10957'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Neural Hashing", "Self-Supervised", "Supervised", "Tools & Libraries"]

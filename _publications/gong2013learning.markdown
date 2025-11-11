@@ -2,10 +2,10 @@
 layout: publication
 title: Learning Binary Codes For High-dimensional Data Using Bilinear Projections
 authors: Y. Gong, S. Kumar, H. Rowley, S. Lazebnik
-conference: 2013 IEEE Conference on Computer Vision and Pattern Recognition
+conference: 2013 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2013
 bibkey: gong2013learning
-citations: 183
+citations: 122
 additional_links: [{name: Paper, url: 'http://sanjivk.com/bilinearHashing_CVPR13.pdf'}]
 tags: ["CVPR", "Compact Codes", "Datasets", "Memory Efficiency", "Quantization"]
 short_authors: Gong et al.

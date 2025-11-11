@@ -3,8 +3,8 @@ layout: publication
 title: 'LIST: Learning To Index Spatio-textual Data For Embedding Based Spatial Keyword
   Queries'
 authors: Ziqi Yin, Shanshan Feng, Shang Liu, Gao Cong, Yew Soon Ong, Bin Cui
-conference: The VLDB Journal
-year: 2025
+conference: Arxiv
+year: 2024
 bibkey: yin2024list
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.07331'}]

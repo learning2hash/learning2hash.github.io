@@ -5,7 +5,7 @@ authors: Cheng Ma, Jiwen Lu, Jie Zhou
 conference: IEEE Transactions on Multimedia
 year: 2020
 bibkey: ma2020rank
-citations: 3
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.01486'}]
 tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Cheng Ma, Jiwen Lu, Jie Zhou

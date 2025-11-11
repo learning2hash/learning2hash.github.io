@@ -7,7 +7,7 @@ conference: 2018 IEEE 20th International Workshop on Multimedia Signal Processin
   (MMSP)
 year: 2018
 bibkey: migliorati2018feature
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.03547'}]
 tags: ["Datasets", "Neural Hashing", "Tools & Libraries"]
 short_authors: Migliorati et al.

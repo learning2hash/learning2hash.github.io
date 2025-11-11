@@ -5,7 +5,7 @@ authors: Peng-Fei Zhang, Yadan Luo, Zi Huang, Xin-Shun Xu, Jingkuan Song
 conference: World Wide Web
 year: 2021
 bibkey: zhang2021high
-citations: 65
+citations: 69
 additional_links: [{name: Paper, url: 'https://link.springer.com/content/pdf/10.1007/s11280-020-00859-y.pdf'}]
 tags: ["Compact Codes", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Unsupervised"]
 short_authors: Zhang et al.

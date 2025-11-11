@@ -4,9 +4,9 @@ title: Margin-based Parallel Corpus Mining With Multilingual Sentence Embeddings
 authors: Mikel Artetxe, Holger Schwenk
 conference: Proceedings of the 57th Annual Meeting of the Association for Computational
   Linguistics
-year: 2019
+year: 2018
 bibkey: artetxe2018margin
-citations: 165
+citations: 154
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.01136'}]
 tags: ["Distance Metric Learning", "Evaluation"]
 short_authors: Mikel Artetxe, Holger Schwenk

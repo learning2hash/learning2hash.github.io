@@ -5,7 +5,7 @@ authors: Ya Sun, Minxian Li, Jianfeng Lu
 conference: 2018 24th International Conference on Pattern Recognition (ICPR)
 year: 2018
 bibkey: sun2018part
-citations: 10
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1911.04144'}]
 tags: ["Datasets", "Distance Metric Learning", "Neural Hashing"]
 short_authors: Ya Sun, Minxian Li, Jianfeng Lu

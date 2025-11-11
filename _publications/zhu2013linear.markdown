@@ -2,10 +2,10 @@
 layout: publication
 title: Linear Cross-modal Hashing For Efficient Multimedia Search
 authors: Xiaofeng Zhu, Zi Huang, Heng Shen, Xin Zhao
-conference: Proceedings of the 21st ACM international conference on Multimedia
+conference: 'MM ''13: ACM Multimedia Conference'
 year: 2013
 bibkey: zhu2013linear
-citations: 279
+citations: 228
 additional_links: [{name: Paper, url: 'https://dl.acm.org/citation.cfm?id=2502107'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Zhu et al.

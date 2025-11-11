@@ -5,7 +5,7 @@ authors: Yu Cheng, Yunzhu Pan, Jiaqi Zhang, Yongxin Ni, Aixin Sun, Fajie Yuan
 conference: Proceedings of the 2024 SIAM International Conference on Data Mining (SDM)
 year: 2024
 bibkey: cheng2024an
-citations: 6
+citations: 9
 additional_links: [{name: Code, url: 'https://github.com/westlake-repl/PixelRec'},
   {name: Paper, url: 'https://arxiv.org/abs/2309.06789'}]
 tags: ["Datasets", "Recommender Systems"]

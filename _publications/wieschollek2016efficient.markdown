@@ -6,7 +6,7 @@ authors: Patrick Wieschollek, Oliver Wang, Alexander Sorkine-Hornung, Hendrik P.
 conference: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2016
 bibkey: wieschollek2016efficient
-citations: 55
+citations: 56
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1702.05911'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Hybrid ANN Methods", "Memory Efficiency", "Quantization", "Re-Ranking", "Scalability"]
 short_authors: Wieschollek et al.

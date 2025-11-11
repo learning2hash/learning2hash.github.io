@@ -6,7 +6,7 @@ authors: Numan Khurshid, Talha Hanif, Mohbat Tharani, Murtaza Taj
 conference: Lecture Notes in Computer Science
 year: 2019
 bibkey: khurshid2019cross
-citations: 5
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2005.00725'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Image Retrieval", "Multimodal Retrieval", "Neural Hashing"]
 short_authors: Khurshid et al.

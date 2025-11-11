@@ -2,7 +2,7 @@
 layout: publication
 title: 'Sketchzooms: Deep Multi-view Descriptors For Matching Line Drawings'
 authors: "Pablo Navarro, Jos\xE9 Ignacio Orlando, Claudio Delrieux, Emmanuel Iarussi"
-conference: Computer Graphics Forum
+conference: Arxiv
 year: 2021
 bibkey: navarro2021sketchzooms
 citations: 7

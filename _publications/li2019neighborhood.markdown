@@ -5,7 +5,7 @@ authors: Shuyan Li, Zhixiang Chen, Jiwen Lu, Xiu Li, And Zhou
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: li2019neighborhood
-citations: 41
+citations: 31
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_ICCV_2019/papers/Li_Neighborhood_Preserving_Hashing_for_Scalable_Video_Retrieval_ICCV_2019_paper.pdf'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "ICCV", "Unsupervised", "Video Retrieval"]
 short_authors: Li et al.

@@ -5,7 +5,7 @@ authors: Dongjin Song, Wei Liu, Rongrong Ji, David Meyer, John Smith
 conference: 2015 IEEE International Conference on Computer Vision (ICCV)
 year: 2015
 bibkey: song2015top
-citations: 76
+citations: 49
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Song_Top_Rank_Supervised_ICCV_2015_paper.pdf'}]
 tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "ICCV", "Image Retrieval", "Scalability", "Supervised"]
 short_authors: Song et al.

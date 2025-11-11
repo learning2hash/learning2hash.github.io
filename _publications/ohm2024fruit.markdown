@@ -3,8 +3,8 @@ layout: publication
 title: 'Fruit-salad: A Style Aligned Artwork Dataset To Reveal Similarity Perception
   In Image Embeddings'
 authors: Tillmann Ohm, Andres Karjus, Mikhail Tamm, Maximilian Schich
-conference: Scientific Data
-year: 2025
+conference: Arxiv
+year: 2024
 bibkey: ohm2024fruit
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.01278'}]

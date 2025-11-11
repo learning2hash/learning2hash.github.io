@@ -2,11 +2,11 @@
 layout: publication
 title: Composite Hashing With Multiple Information Sources
 authors: D. Zhang, F. Wang, L. Si
-conference: Proceedings of the 34th international ACM SIGIR conference on Research
-  and development in Information Retrieval
+conference: 'SIGIR ''11: The 34th International ACM SIGIR conference on research and
+  development in Information Retrieval'
 year: 2011
 bibkey: zhang2011composite
-citations: 221
+citations: 152
 additional_links: [{name: Paper, url: 'https://www.cs.purdue.edu/homes/lsi/SIGIR_2011B.pdf'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Neural Hashing", "SIGIR", "Similarity Search"]
 short_authors: D. Zhang, F. Wang, L. Si

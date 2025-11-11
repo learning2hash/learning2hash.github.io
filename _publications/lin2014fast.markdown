@@ -2,10 +2,10 @@
 layout: publication
 title: Fast Supervised Hashing With Decision Trees For High-dimensional Data
 authors: Guosheng Lin, Chunhua Shen, Qinfeng Shi, Anton Hengel, And Suter.
-conference: 2014 IEEE Conference on Computer Vision and Pattern Recognition
+conference: 2014 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2014
 bibkey: lin2014fast
-citations: 456
+citations: 302
 additional_links: [{name: Paper, url: 'https://bitbucket.org/chhshen/fasthash/src'}]
 tags: ["CVPR", "Compact Codes", "Evaluation", "Hashing Methods", "Scalability", "Supervised"]
 short_authors: Lin et al.

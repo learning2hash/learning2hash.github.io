@@ -7,7 +7,7 @@ authors: Prajwal Gatti, Kshitij Parikh, Dhriti Prasanna Paul, Manish Gupta, Anan
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2024
 bibkey: gatti2024composite
-citations: 1
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2502.08438'}]
 tags: ["AAAI", "Datasets", "Evaluation", "Image Retrieval", "Self-Supervised"]
 short_authors: Gatti et al.

@@ -6,7 +6,7 @@ conference: Proceedings of the Tenth Indian Conference on Computer Vision, Graph
   and Image Processing
 year: 2016
 bibkey: srivastava20163d
-citations: 8
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1708.07937'}]
 tags: ["Efficiency", "Evaluation"]
 short_authors: Siddharth Srivastava, Brejesh Lall

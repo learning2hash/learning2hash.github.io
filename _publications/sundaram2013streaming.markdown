@@ -7,7 +7,7 @@ authors: Narayanan Sundaram, Aizana Turmukhametova, Nadathur Satish, Todd Mostak
 conference: Proceedings of the VLDB Endowment
 year: 2013
 bibkey: sundaram2013streaming
-citations: 110
+citations: 78
 additional_links: [{name: Paper, url: 'http://www.vldb.org/pvldb/vol6/p1930-sundaram.pdf'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing", "Similarity Search", "Text Retrieval"]
 short_authors: Sundaram et al.

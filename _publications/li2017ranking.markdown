@@ -5,7 +5,7 @@ authors: Muge Li, Liangyue Li, Feiping Nie
 conference: Tsinghua Science and Technology
 year: 2017
 bibkey: li2017ranking
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1803.05105'}]
 tags: ["Datasets", "Graph Based ANN", "Scalability", "Text Retrieval"]
 short_authors: Muge Li, Liangyue Li, Feiping Nie

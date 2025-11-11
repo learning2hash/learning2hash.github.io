@@ -5,7 +5,7 @@ authors: F. Zhao, Y. Huang, L. Wang, And Tan
 conference: 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2015
 bibkey: zhao2015deep
-citations: 466
+citations: 71
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Zhao_Deep_Semantic_Ranking_2015_CVPR_paper.pdf'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing"]
 short_authors: Zhao et al.

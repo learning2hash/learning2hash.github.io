@@ -5,7 +5,7 @@ authors: T. Ge, K. He, J. Sun
 conference: Lecture Notes in Computer Science
 year: 2014
 bibkey: ge2014graph
-citations: 69
+citations: 33
 additional_links: [{name: Paper, url: 'http://kaiminghe.com/publications/eccv14gcc.pdf'}]
 tags: ["Compact Codes", "Datasets", "Hashing Methods", "Supervised"]
 short_authors: T. Ge, K. He, J. Sun

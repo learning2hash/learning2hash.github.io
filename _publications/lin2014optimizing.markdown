@@ -5,7 +5,7 @@ authors: Guosheng Lin, Chunhua Shen, Jianxin Wu.
 conference: Lecture Notes in Computer Science
 year: 2014
 bibkey: lin2014optimizing
-citations: 23
+citations: 13
 additional_links: [{name: Paper, url: 'http://link.springer.com/chapter/10.1007%2F978-3-319-10578-9_40'}]
 tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Guosheng Lin, Chunhua Shen, Jianxin Wu.

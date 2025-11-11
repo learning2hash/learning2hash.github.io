@@ -2,10 +2,10 @@
 layout: publication
 title: 'Hash Bit Selection: A Unified Solution For Selection Problems In Hashing'
 authors: X. Liu, J. He, B. Lang, S. Chang
-conference: 2013 IEEE Conference on Computer Vision and Pattern Recognition
+conference: 2013 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2013
 bibkey: liu2013hash
-citations: 91
+citations: 72
 additional_links: [{name: Paper, url: 'https://research.fb.com/wp-content/uploads/2016/11/hash-bit-selection-a-unified-solution-for-selection-problems-in-hashing.pdf?'}]
 tags: ["CVPR", "Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Liu et al.

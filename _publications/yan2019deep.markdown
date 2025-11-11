@@ -2,10 +2,10 @@
 layout: publication
 title: Deep Hashing By Discriminating Hard Examples
 authors: Cheng Yan, Guansong Pang, Xiao Bai, Chunhua Shen, Jun Zhou, Edwin Hancock
-conference: Proceedings of the 27th ACM International Conference on Multimedia
+conference: 'MM ''19: The 27th ACM International Conference on Multimedia'
 year: 2019
 bibkey: yan2019deep
-citations: 27
+citations: 25
 additional_links: [{name: Paper, url: 'https://dl.acm.org/citation.cfm?id=3350927'}]
 tags: ["Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Yan et al.

@@ -2,10 +2,10 @@
 layout: publication
 title: On The Adversarial Robustness Of Locality-sensitive Hashing In Hamming Space
 authors: Michael Kapralov, Mikhail Makarov, Christian Sohler
-conference: Proceedings of the ACM on Management of Data
-year: 2025
+conference: Arxiv
+year: 2024
 bibkey: kapralov2024on
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.09707'}]
 tags: ["Datasets", "Hashing Methods", "Robustness"]
 short_authors: Michael Kapralov, Mikhail Makarov, Christian Sohler

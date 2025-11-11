@@ -6,7 +6,7 @@ conference: Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery
   Data Mining
 year: 2024
 bibkey: zhang2024gpfedrec
-citations: 7
+citations: 13
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.07866'}]
 tags: ["Datasets", "Evaluation", "KDD", "Privacy & Security", "Recommender Systems", "Tools & Libraries"]
 short_authors: Zhang et al.

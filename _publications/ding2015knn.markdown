@@ -5,7 +5,7 @@ authors: Kun Ding, Chunlei Huo, Bin Fan, Chunhong Pan
 conference: 2015 IEEE International Conference on Computer Vision (ICCV)
 year: 2015
 bibkey: ding2015knn
-citations: 14
+citations: 10
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Ding_kNN_Hashing_With_ICCV_2015_paper.pdf'}]
 tags: ["Evaluation", "Hashing Methods", "ICCV", "Memory Efficiency", "Supervised"]
 short_authors: Ding et al.

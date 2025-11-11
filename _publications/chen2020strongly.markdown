@@ -5,7 +5,7 @@ authors: Yong Chen, Zhibao Tian, Hui Zhang, Jun Wang, Dell Zhang
 conference: IEEE Transactions on Image Processing
 year: 2020
 bibkey: chen2020strongly
-citations: 54
+citations: 53
 additional_links: [{name: Paper, url: 'https://doi.org/10.1109/TIP.2020.2963952'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Quantization", "Scalability", "Supervised"]
 short_authors: Chen et al.

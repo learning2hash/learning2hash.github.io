@@ -3,11 +3,12 @@ layout: publication
 title: 'Felrec: Efficient Handling Of Item Cold-start With Dynamic Representation
   Learning In Recommender Systems'
 authors: Kuba Weimann, Tim O. F. Conrad
-conference: International Journal of Data Science and Analytics
-year: 2024
+conference: Arxiv
+year: 2022
 bibkey: weimann2022felrec
 citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2210.16928'}]
+additional_links: [{name: Code, url: 'https://github.com/kweimann/FELRec'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2210.16928'}]
 tags: ["Datasets", "Few Shot & Zero Shot", "Recommender Systems"]
 short_authors: Kuba Weimann, Tim O. F. Conrad
 ---

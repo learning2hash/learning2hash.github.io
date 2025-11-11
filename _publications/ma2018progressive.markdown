@@ -2,11 +2,11 @@
 layout: publication
 title: Progressive Generative Hashing For Image Retrieval
 authors: Yuqing Ma, Yue He, Fan Ding, Sheng Hu, Jun Li, Xianglong Liu
-conference: Proceedings of the Twenty-Seventh International Joint Conference on Artificial
-  Intelligence
+conference: Twenty-Seventh International Joint Conference on Artificial Intelligence
+  {IJCAI-18}
 year: 2018
 bibkey: ma2018progressive
-citations: 18
+citations: 8
 additional_links: [{name: Paper, url: 'https://www.ijcai.org/proceedings/2018/0121.pdf'}]
 tags: ["AAAI", "Datasets", "Distance Metric Learning", "Evaluation", "Hashing Methods", "IJCAI", "Image Retrieval", "Neural Hashing", "Robustness", "Scalability", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Ma et al.

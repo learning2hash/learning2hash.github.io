@@ -6,7 +6,7 @@ authors: Sahil Garg, Aram Galstyan, Greg Ver Steeg, Irina Rish, Guillermo Cecchi
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2019
 bibkey: garg2019kernelized
-citations: 8
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1711.04044'}]
 tags: ["AAAI", "Datasets", "Efficiency", "Hashing Methods", "Scalability"]
 short_authors: Garg et al.

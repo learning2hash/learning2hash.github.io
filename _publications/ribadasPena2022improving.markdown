@@ -5,7 +5,7 @@ authors: "Francisco J. Ribadas-Pena, Shuyuan Cao, V\xEDctor M. Darriba Bilbao"
 conference: Mathematics
 year: 2022
 bibkey: ribadasPena2022improving
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.01963'}]
 tags: ["Evaluation", "Scalability", "Text Retrieval"]
 short_authors: "Francisco J. Ribadas-Pena, Shuyuan Cao, V\xEDctor M. Darriba Bilbao"

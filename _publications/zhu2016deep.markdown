@@ -5,7 +5,7 @@ authors: Han Zhu, Mingsheng Long, Jianmin Wang, Yue Cao
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2016
 bibkey: zhu2016deep
-citations: 640
+citations: 362
 additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/~mlong/doc/deep-hashing-network-aaai16.pdf'}]
 tags: ["AAAI", "Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Quantization", "Scalability", "Similarity Search", "Supervised"]
 short_authors: Zhu et al.

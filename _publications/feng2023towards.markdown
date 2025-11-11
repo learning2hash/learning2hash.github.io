@@ -3,9 +3,8 @@ layout: publication
 title: 'Towards Efficient Deep Hashing Retrieval: Condensing Your Data Via Feature-embedding
   Matching'
 authors: Tao Feng, Jie Zhang, Huashan Liu, Zhijie Wang, Shengyuan Pang
-conference: ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech
-  and Signal Processing (ICASSP)
-year: 2025
+conference: Arxiv
+year: 2023
 bibkey: feng2023towards
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2305.18076'}]

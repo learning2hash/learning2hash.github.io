@@ -2,10 +2,10 @@
 layout: publication
 title: A General Two-step Approach To Learning-based Hashing
 authors: G. Lin, C. Shen, D. Suter, A. Hengel
-conference: 2013 IEEE International Conference on Computer Vision
+conference: 2013 IEEE International Conference on Computer Vision (ICCV)
 year: 2013
 bibkey: lin2013a
-citations: 199
+citations: 126
 additional_links: [{name: Paper, url: 'http://arxiv.org/pdf/1309.1853v1.pdf'}]
 tags: ["Hashing Methods", "ICCV", "Tools & Libraries"]
 short_authors: Lin et al.

@@ -6,7 +6,7 @@ authors: Ushasi Chaudhuri, Biplab Banerjee, Avik Bhattacharya, Mihai Datcu
 conference: Image and Vision Computing
 year: 2020
 bibkey: chaudhuri2020crossatnet
-citations: 30
+citations: 31
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2104.09918'}]
 tags: ["Datasets", "Distance Metric Learning", "Evaluation", "Few Shot & Zero Shot", "Hashing Methods", "Image Retrieval", "Tools & Libraries"]
 short_authors: Chaudhuri et al.

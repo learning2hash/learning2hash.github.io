@@ -3,8 +3,8 @@ layout: publication
 title: 'Air-hloc: Adaptive Retrieved Images Selection For Efficient Visual Localisation'
 authors: Changkun Liu, Jianhao Jiao, Huajian Huang, Zhengyang Ma, Dimitrios Kanoulas,
   Tristan Braud
-conference: 2025 IEEE International Conference on Robotics and Automation (ICRA)
-year: 2025
+conference: Arxiv
+year: 2024
 bibkey: liu2024air
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2403.18281'}]

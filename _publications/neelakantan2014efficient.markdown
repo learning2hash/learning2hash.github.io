@@ -7,7 +7,7 @@ conference: Proceedings of the 2014 Conference on Empirical Methods in Natural L
   Processing (EMNLP)
 year: 2014
 bibkey: neelakantan2014efficient
-citations: 485
+citations: 461
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1504.06654'}]
 tags: ["EMNLP", "Efficiency", "Scalability"]
 short_authors: Neelakantan et al.

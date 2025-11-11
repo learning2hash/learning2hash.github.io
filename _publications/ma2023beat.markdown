@@ -7,7 +7,7 @@ authors: Yiwei Ma, Xiaoshuai Sun, Jiayi Ji, Guannan Jiang, Weilin Zhuang, Rongro
 conference: Proceedings of the 31st ACM International Conference on Multimedia
 year: 2023
 bibkey: ma2023beat
-citations: 11
+citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2406.05620'}]
 tags: ["Datasets", "Evaluation"]
 short_authors: Ma et al.

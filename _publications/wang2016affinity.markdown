@@ -6,7 +6,7 @@ authors: Z. Wang, L. Duan, T. Huang, W. Gao
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2016
 bibkey: wang2016affinity
-citations: 11
+citations: 2
 additional_links: [{name: Paper, url: 'http://www.jdl.ac.cn/doc/2011/201612291012037194_affinity.pdf'}]
 tags: ["AAAI", "Compact Codes", "Evaluation", "Hashing Methods", "Quantization"]
 short_authors: Wang et al.

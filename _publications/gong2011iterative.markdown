@@ -2,10 +2,10 @@
 layout: publication
 title: 'Iterative Quantization: A Procrustean Approach To Learning Binary Codes'
 authors: Y. Gong, S. Lazebnik
-conference: CVPR 2011
+conference: 2011 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2011
 bibkey: gong2011iterative
-citations: 1095
+citations: 730
 additional_links: [{name: Paper, url: 'http://slazebni.cs.illinois.edu/publications/cvpr11_small_code.pdf'}]
 tags: ["CVPR", "Compact Codes", "Quantization", "Scalability", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Y. Gong, S. Lazebnik

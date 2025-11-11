@@ -5,7 +5,7 @@ authors: Son Truong Nguyen, Nguyen Quang Tuyen, Nguyen Hong Phuc
 conference: 2021 8th NAFOSTED Conference on Information and Computer Science (NICS)
 year: 2021
 bibkey: nguyen2021deep
-citations: 4
+citations: 5
 additional_links: [{name: Code, url: 'https://github.com/sonnguyen129/deep-feature-rotation'},
   {name: Paper, url: 'https://arxiv.org/abs/2202.04426'}]
 tags: ["Uncategorized"]

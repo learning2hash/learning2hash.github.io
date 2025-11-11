@@ -7,7 +7,7 @@ authors: Yilin Wen, Xiangyu Li, Hao Pan, Lei Yang, Zheng Wang, Taku Komura, Wenp
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: wen2022disp6d
-citations: 12
+citations: 14
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.12549'}]
 tags: ["Evaluation", "Scalability", "Tools & Libraries"]
 short_authors: Wen et al.

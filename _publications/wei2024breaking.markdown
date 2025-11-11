@@ -2,11 +2,12 @@
 layout: publication
 title: 'Breaking The Frame: Visual Place Recognition By Overlap Prediction'
 authors: Tong Wei, Philipp Lindenberger, Jiri Matas, Daniel Barath
-conference: 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2025
+conference: Arxiv
+year: 2024
 bibkey: wei2024breaking
-citations: 0
-additional_links: [{name: Code, url: 'https://github'}, {name: Paper, url: 'https://arxiv.org/abs/2406.16204'}]
+citations: 1
+additional_links: [{name: Code, url: 'https://github.com/weitong8591/vop.git'}, {
+    name: Paper, url: 'https://arxiv.org/abs/2406.16204'}]
 tags: ["Image Retrieval", "Scalability"]
 short_authors: Wei et al.
 ---

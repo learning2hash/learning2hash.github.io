@@ -6,7 +6,7 @@ conference: 2023 IEEE 29th International Symposium on Local and Metropolitan Are
   Networks (LANMAN)
 year: 2023
 bibkey: mashnoor2023locality
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.08063'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Mashnoor et al.

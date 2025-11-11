@@ -5,7 +5,7 @@ authors: Venice Liong, Jiwen Lu, Yap-Peng Tan, And Zhou
 conference: 2017 IEEE International Conference on Computer Vision (ICCV)
 year: 2017
 bibkey: liong2017cross
-citations: 99
+citations: 63
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_ICCV_2017/papers/Liong_Cross-Modal_Deep_Variational_ICCV_2017_paper.pdf'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "ICCV"]
 short_authors: Liong et al.

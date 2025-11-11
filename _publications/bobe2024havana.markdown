@@ -2,8 +2,8 @@
 layout: publication
 title: 'HAVANA: Hierarchical Stochastic Neighbor Embedding For Accelerated Video Annotations'
 authors: Alexandru Bobe, Jan C. van Gemert
-conference: Lecture Notes in Computer Science
-year: 2025
+conference: Arxiv
+year: 2024
 bibkey: bobe2024havana
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2409.10641'}]

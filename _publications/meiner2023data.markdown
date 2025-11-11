@@ -2,11 +2,10 @@
 layout: publication
 title: Data-free Dynamic Compression Of Cnns For Tractable Efficiency
 authors: Lukas Meiner, Jens Mehnert, Alexandru Paul Condurache
-conference: Proceedings of the 20th International Joint Conference on Computer Vision,
-  Imaging and Computer Graphics Theory and Applications
-year: 2025
+conference: Arxiv
+year: 2023
 bibkey: meiner2023data
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.17211'}]
 tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Lukas Meiner, Jens Mehnert, Alexandru Paul Condurache

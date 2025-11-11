@@ -2,11 +2,11 @@
 layout: publication
 title: Regularised Cross-modal Hashing
 authors: S. Moran, V. Lavrenko
-conference: Proceedings of the 38th International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
+conference: 'SIGIR ''15: The 38th International ACM SIGIR conference on research and
+  development in Information Retrieval'
 year: 2015
 bibkey: moran2015regularised
-citations: 18
+citations: 14
 additional_links: [{name: Paper, url: 'http://seanjmoran.com/pdfs/cmh_sigir15.pdf'}]
 tags: ["Hashing Methods", "SIGIR"]
 short_authors: S. Moran, V. Lavrenko

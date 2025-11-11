@@ -5,7 +5,7 @@ authors: Xixian Chen, Haiqin Yang, Shenglin Zhao, Michael R. Lyu, Irwin King
 conference: IEEE Transactions on Knowledge and Data Engineering
 year: 2019
 bibkey: chen2019making
-citations: 21
+citations: 22
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.04948'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods"]
 short_authors: Chen et al.

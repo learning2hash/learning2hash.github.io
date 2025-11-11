@@ -2,11 +2,10 @@
 layout: publication
 title: Inter-media Hashing For Large-scale Retrieval From Heterogeneous Data Sources
 authors: J. Song, Y. Yang, Y. Yang, Z. Huang, H. Shen
-conference: Proceedings of the 2013 ACM SIGMOD International Conference on Management
-  of Data
+conference: 'SIGMOD/PODS''13: International Conference on Management of Data'
 year: 2013
 bibkey: song2013inter
-citations: 623
+citations: 481
 additional_links: [{name: Paper, url: 'http://dl.acm.org/citation.cfm?id=2465274'}]
 tags: ["Datasets", "Hashing Methods", "Large Scale Search", "Scalability"]
 short_authors: Song et al.

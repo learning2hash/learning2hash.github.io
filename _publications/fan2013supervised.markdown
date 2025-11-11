@@ -2,10 +2,10 @@
 layout: publication
 title: Supervised Binary Hash Code Learning With Jensen Shannon Divergence
 authors: Lixin Fan
-conference: 2013 IEEE International Conference on Computer Vision
+conference: 2013 IEEE International Conference on Computer Vision (ICCV)
 year: 2013
 bibkey: fan2013supervised
-citations: 15
+citations: 6
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_iccv_2013/papers/Fan_Supervised_Binary_Hash_2013_ICCV_paper.pdf'}]
 tags: ["Evaluation", "Hashing Methods", "ICCV", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Lixin Fan

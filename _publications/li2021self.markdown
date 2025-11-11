@@ -5,7 +5,7 @@ authors: Shuyan Li, Xiu Li, Jiwen Lu, Jie Zhou
 conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2021
 bibkey: li2021self
-citations: 39
+citations: 43
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content/CVPR2021/papers/Li_Self-Supervised_Video_Hashing_via_Bidirectional_Transformers_CVPR_2021_paper.pdf'}]
 tags: ["CVPR", "Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Self-Supervised", "Supervised", "Unsupervised", "Video Retrieval"]
 short_authors: Li et al.

@@ -5,7 +5,7 @@ authors: Pandeng Li, Hongtao Xie, Jiannan Ge, Lei Zhang, Shaobo Min, Yongdong Zh
 conference: Lecture Notes in Computer Science
 year: 2022
 bibkey: li2022dual
-citations: 17
+citations: 18
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2310.08009'}]
 tags: ["Compact Codes", "Hashing Methods", "Unsupervised"]
 short_authors: Li et al.

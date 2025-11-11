@@ -2,10 +2,10 @@
 layout: publication
 title: Spherical Hashing
 authors: J. Heo, Y. Lee, J. He, S. Chang, S. Yoon
-conference: 2012 IEEE Conference on Computer Vision and Pattern Recognition
+conference: 2012 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2012
 bibkey: heo2012spherical
-citations: 380
+citations: 61
 additional_links: [{name: Paper, url: 'http://www.ee.columbia.edu/ln/dvmm/pubs/files/Spherical_Hashing.pdf'}]
 tags: ["CVPR", "Compact Codes", "Evaluation", "Hashing Methods", "Similarity Search"]
 short_authors: Heo et al.

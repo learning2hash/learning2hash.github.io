@@ -5,7 +5,7 @@ authors: Yen-Liang Lin, Son Tran, Larry S. Davis
 conference: 2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2020
 bibkey: lin2020fashion
-citations: 81
+citations: 83
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.08967'}]
 tags: ["CVPR", "Recommender Systems", "Tools & Libraries"]
 short_authors: Yen-Liang Lin, Son Tran, Larry S. Davis

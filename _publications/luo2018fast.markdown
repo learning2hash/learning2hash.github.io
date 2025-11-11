@@ -2,11 +2,11 @@
 layout: publication
 title: Fast Scalable Supervised Hashing
 authors: Xin Luo, Liqiang Nie, Xiangnan He, Ye Wu, Zhen-Duo Chen, Xin-Shun Xu
-conference: The 41st International ACM SIGIR Conference on Research &amp; Development
-  in Information Retrieval
+conference: 'SIGIR ''18: The 41st International ACM SIGIR conference on research and
+  development in Information Retrieval'
 year: 2018
 bibkey: luo2018fast
-citations: 90
+citations: 75
 additional_links: [{name: Code, url: 'https://lcbwlx.wixsite.com/fssh'}, {name: Paper,
     url: 'http://staff.ustc.edu.cn/~hexn/papers/sigir18-hashing.pdf'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "SIGIR", "Scalability", "Supervised"]

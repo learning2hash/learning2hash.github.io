@@ -3,9 +3,9 @@ layout: publication
 title: 'Frequency Estimation In Data Streams: Learning The Optimal Hashing Scheme'
 authors: Dimitris Bertsimas, Vassilis Digalakis
 conference: IEEE Transactions on Knowledge and Data Engineering
-year: 2021
+year: 2020
 bibkey: bertsimas2020frequency
-citations: 3
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2007.09261'}]
 tags: ["Datasets", "Hashing Methods"]
 short_authors: Dimitris Bertsimas, Vassilis Digalakis

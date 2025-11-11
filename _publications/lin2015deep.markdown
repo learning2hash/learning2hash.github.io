@@ -6,7 +6,7 @@ conference: 2015 IEEE Conference on Computer Vision and Pattern Recognition Work
   (CVPRW)
 year: 2015
 bibkey: lin2015deep
-citations: 627
+citations: 438
 additional_links: [{name: Paper, url: 'http://www.iis.sinica.edu.tw/~kevinlin311.tw/cvprw15.pdf'}]
 tags: ["CVPR", "Compact Codes", "Datasets", "Hashing Methods", "Image Retrieval", "Neural Hashing", "Scalability", "Supervised", "Tools & Libraries"]
 short_authors: Lin et al.

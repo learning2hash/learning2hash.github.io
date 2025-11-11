@@ -6,7 +6,7 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2022
 bibkey: comer2022few
-citations: 1
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2112.03951'}]
 tags: ["CVPR", "Datasets", "Few Shot & Zero Shot"]
 short_authors: Joseph F Comer, Philip L Jacobson, Heiko Hoffmann

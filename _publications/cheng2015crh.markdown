@@ -5,7 +5,7 @@ authors: Miao Cheng, Ah Chung Tsoi
 conference: 2015 IEEE Global Conference on Signal and Information Processing (GlobalSIP)
 year: 2015
 bibkey: cheng2015crh
-citations: 6
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.05730'}]
 tags: ["Evaluation", "Hashing Methods"]
 short_authors: Miao Cheng, Ah Chung Tsoi

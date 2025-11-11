@@ -2,10 +2,10 @@
 layout: publication
 title: Collaborative Hashing
 authors: X. Liu, J. He, C. Deng, B. Lang
-conference: 2014 IEEE Conference on Computer Vision and Pattern Recognition
+conference: 2014 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2014
 bibkey: liu2014collaborative
-citations: 130
+citations: 80
 additional_links: [{name: Paper, url: 'http://www.nlsde.buaa.edu.cn/~xlliu/cvpr2014.pdf'}]
 tags: ["CVPR", "Compact Codes", "Datasets", "Hashing Methods", "Image Retrieval", "Recommender Systems", "Similarity Search"]
 short_authors: Liu et al.

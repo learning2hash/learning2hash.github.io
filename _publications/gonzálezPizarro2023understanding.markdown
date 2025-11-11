@@ -5,7 +5,7 @@ authors: "Felipe Gonz\xE1lez-Pizarro, Savvas Zannettou"
 conference: Proceedings of the International AAAI Conference on Web and Social Media
 year: 2023
 bibkey: "gonz\xE1lezPizarro2023understanding"
-citations: 11
+citations: 15
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2201.08387'}]
 tags: ["AAAI", "Datasets", "Evaluation", "Self-Supervised", "Tools & Libraries"]
 short_authors: "Felipe Gonz\xE1lez-Pizarro, Savvas Zannettou"

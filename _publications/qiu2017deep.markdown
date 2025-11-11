@@ -6,7 +6,7 @@ conference: Proceedings of the 40th International ACM SIGIR Conference on Resear
   and Development in Information Retrieval
 year: 2017
 bibkey: qiu2017deep
-citations: 97
+citations: 96
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1804.08275'}]
 tags: ["Hashing Methods", "Image Retrieval", "Neural Hashing", "Robustness", "SIGIR", "Scalability", "Supervised", "Tools & Libraries"]
 short_authors: Qiu et al.

@@ -5,7 +5,7 @@ authors: Othman Sbai, Camille Couprie, Mathieu Aubry
 conference: 2020 IEEE International Conference on Image Processing (ICIP)
 year: 2020
 bibkey: sbai2020unsupervised
-citations: 8
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1812.05484'}]
 tags: ["Compact Codes", "Datasets", "Efficiency", "Image Retrieval", "Unsupervised"]
 short_authors: Othman Sbai, Camille Couprie, Mathieu Aubry

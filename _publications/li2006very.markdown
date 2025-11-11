@@ -2,11 +2,11 @@
 layout: publication
 title: Very Sparse Random Projections
 authors: Ping Li, Trevor Hastie, Kenneth Church
-conference: Proceedings of the 12th ACM SIGKDD international conference on Knowledge
-  discovery and data mining
+conference: 'KDD06: The 12th ACM SIGKDD International Conference on Knowledge Discovery
+  and Data Mining'
 year: 2006
 bibkey: li2006very
-citations: 637
+citations: 369
 additional_links: [{name: Paper, url: 'https://web.stanford.edu/~hastie/Papers/Ping/KDD06_rp.pdf/'}]
 tags: ["Efficiency", "KDD", "Locality-Sensitive-Hashing"]
 short_authors: Ping Li, Trevor Hastie, Kenneth Church

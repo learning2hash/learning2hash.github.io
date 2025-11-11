@@ -3,7 +3,7 @@ layout: publication
 title: Machine Learning Methods For Multimedia Information Retrieval
 authors: "B\xE1lint Zolt\xE1n Dar\xF3czy"
 conference: Arxiv
-year: 2023
+year: 2017
 bibkey: "dar\xF3czy2017machine"
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1705.04964'}]

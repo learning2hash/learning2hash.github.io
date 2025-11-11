@@ -5,7 +5,7 @@ authors: Lopamudra Mukherjee, Sathya Ravi, Vamsi Ithapu, Tyler Singh
 conference: 2015 IEEE International Conference on Computer Vision (ICCV)
 year: 2015
 bibkey: mukherjee2015an
-citations: 14
+citations: 7
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Mukherjee_An_NMF_Perspective_ICCV_2015_paper.pdf'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "ICCV", "Quantization"]
 short_authors: Mukherjee et al.

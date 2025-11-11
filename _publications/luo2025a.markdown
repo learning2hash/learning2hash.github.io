@@ -1,0 +1,29 @@
+---
+layout: publication
+title: A New Perspective To Understanding Multi-resolution Hash Encoding For Neural
+  Fields
+authors: Steven Tin Sui Luo
+conference: Arxiv
+year: 2025
+bibkey: luo2025a
+citations: 0
+additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2505.03042'}]
+tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Neural Hashing", "Quantization", "Self-Supervised", "Supervised", "Survey Paper", "Unsupervised"]
+short_authors: Steven Tin Sui Luo
+---
+Instant-NGP has been the state-of-the-art architecture of neural fields in
+recent years. Its incredible signal-fitting capabilities are generally
+attributed to its multi-resolution hash grid structure and have been used and
+improved in numerous following works. However, it is unclear how and why such a
+hash grid structure improves the capabilities of a neural network by such great
+margins. A lack of principled understanding of the hash grid also implies that
+the large set of hyperparameters accompanying Instant-NGP could only be tuned
+empirically without much heuristics. To provide an intuitive explanation of the
+working principle of the hash grid, we propose a novel perspective, namely
+domain manipulation. This perspective provides a ground-up explanation of how
+the feature grid learns the target signal and increases the expressivity of the
+neural field by artificially creating multiples of pre-existing linear
+segments. We conducted numerous experiments on carefully constructed
+1-dimensional signals to support our claims empirically and aid our
+illustrations. While our analysis mainly focuses on 1-dimensional signals, we
+show that the idea is generalizable to higher dimensions.

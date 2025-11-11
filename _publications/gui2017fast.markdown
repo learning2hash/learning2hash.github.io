@@ -5,7 +5,7 @@ authors: Jie Gui, Tongliang Liu, Zhenan Sun, Dacheng Tao, Tieniu Tan
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2017
 bibkey: gui2017fast
-citations: 267
+citations: 277
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.03556'}]
 tags: ["Hashing Methods", "Supervised"]
 short_authors: Gui et al.

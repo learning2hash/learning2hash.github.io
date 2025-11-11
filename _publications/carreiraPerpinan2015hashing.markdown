@@ -5,7 +5,7 @@ authors: M. Carreira-Perpinan, R. Raziperchikolaei
 conference: 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2015
 bibkey: carreiraPerpinan2015hashing
-citations: 142
+citations: 66
 additional_links: [{name: Paper, url: 'https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Carreira-Perpinan_Hashing_With_Binary_2015_CVPR_paper.pdf'}]
 tags: ["CVPR", "Compact Codes", "Hashing Methods", "Image Retrieval"]
 short_authors: M. Carreira-Perpinan, R. Raziperchikolaei

@@ -6,7 +6,7 @@ authors: Ahmad S. Tarawneh, Ceyhun Celik, Ahmad B. Hassanat, Dmitry Chetverikov
 conference: Intelligent Data Analysis
 year: 2020
 bibkey: tarawneh2020detailed
-citations: 43
+citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.09681'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Survey Paper"]
 short_authors: Tarawneh et al.

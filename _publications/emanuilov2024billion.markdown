@@ -6,7 +6,7 @@ authors: Simeon Emanuilov, Aleksandar Dimov
 conference: Cybernetics and Information Technologies
 year: 2024
 bibkey: emanuilov2024billion
-citations: 1
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2501.13442'}]
 tags: ["Datasets", "Efficiency", "Hybrid ANN Methods", "Large Scale Search", "Scalability", "Similarity Search", "Vector Indexing"]
 short_authors: Simeon Emanuilov, Aleksandar Dimov

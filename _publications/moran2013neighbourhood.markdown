@@ -2,11 +2,11 @@
 layout: publication
 title: Neighbourhood Preserving Quantisation For LSH
 authors: S. Moran, V. Lavrenko, And Osborne
-conference: Proceedings of the 36th international ACM SIGIR conference on Research
-  and development in information retrieval
+conference: 'SIGIR ''13: The 36th International ACM SIGIR conference on research and
+  development in Information Retrieval'
 year: 2013
 bibkey: moran2013neighbourhood
-citations: 22
+citations: 11
 additional_links: [{name: Paper, url: 'http://homepages.inf.ed.ac.uk/miles/papers/sigir13b.pdf'}]
 tags: ["Hashing Methods", "Locality-Sensitive-Hashing", "Quantization", "SIGIR"]
 short_authors: S. Moran, V. Lavrenko, And Osborne

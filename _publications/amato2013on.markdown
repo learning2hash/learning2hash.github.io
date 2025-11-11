@@ -2,11 +2,10 @@
 layout: publication
 title: On Reducing The Number Of Visual Words In The Bag-of-features Representation
 authors: Giuseppe Amato, Fabrizio Falchi, Claudio Gennaro
-conference: Proceedings of the International Conference on Computer Vision Theory
-  and Applications
+conference: International Conference on Computer Vision Theory and Applications
 year: 2013
 bibkey: amato2013on
-citations: 9
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1604.04142'}]
 tags: ["Efficiency", "Evaluation", "ICCV", "Image Retrieval", "Similarity Search", "Text Retrieval", "Vector Indexing"]
 short_authors: Giuseppe Amato, Fabrizio Falchi, Claudio Gennaro

@@ -6,7 +6,7 @@ authors: Jie Li, Haifeng Liu, Chuanghua Gui, Jianyu Chen, Zhenyun Ni, Ning Wang
 conference: Proceedings of the 19th International Middleware Conference Industry
 year: 2018
 bibkey: li2018the
-citations: 38
+citations: 41
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1908.07389'}]
 tags: ["Image Retrieval"]
 short_authors: Li et al.

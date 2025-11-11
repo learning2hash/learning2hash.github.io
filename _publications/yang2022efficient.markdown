@@ -5,7 +5,7 @@ authors: Renchi Yang
 conference: Proceedings of the ACM Web Conference 2022
 year: 2022
 bibkey: yang2022efficient
-citations: 9
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2312.06724'}]
 tags: ["Datasets", "Efficiency", "Recommender Systems", "Similarity Search"]
 short_authors: Renchi Yang

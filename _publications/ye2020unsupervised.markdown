@@ -5,7 +5,7 @@ authors: Fanghua Ye, Jarana Manotumruksa, Emine Yilmaz
 conference: 'Findings of the Association for Computational Linguistics: EMNLP 2020'
 year: 2020
 bibkey: ye2020unsupervised
-citations: 4
+citations: 1
 additional_links: [{name: Paper, url: 'https://www.aclweb.org/anthology/2020.findings-emnlp.233.pdf'}]
 tags: ["Datasets", "EMNLP", "Evaluation", "Hashing Methods", "Neural Hashing", "Unsupervised"]
 short_authors: Fanghua Ye, Jarana Manotumruksa, Emine Yilmaz

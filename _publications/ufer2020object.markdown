@@ -6,7 +6,7 @@ authors: "Nikolai Ufer, Sabine Lang, Bj\xF6rn Ommer"
 conference: Lecture Notes in Computer Science
 year: 2020
 bibkey: ufer2020object
-citations: 2
+citations: 8
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2107.06935'}]
 tags: ["Datasets"]
 short_authors: "Nikolai Ufer, Sabine Lang, Bj\xF6rn Ommer"

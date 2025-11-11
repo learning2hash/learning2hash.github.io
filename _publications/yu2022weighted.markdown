@@ -2,8 +2,8 @@
 layout: publication
 title: Weighted Contrastive Hashing
 authors: Jiaguo Yu, Huming Qiu, Dubing Chen, Haofeng Zhang
-conference: Lecture Notes in Computer Science
-year: 2023
+conference: Arxiv
+year: 2022
 bibkey: yu2022weighted
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2209.14099'}]

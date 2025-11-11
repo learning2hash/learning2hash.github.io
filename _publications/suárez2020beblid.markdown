@@ -5,7 +5,7 @@ authors: "Iago Su\xE1rez, Ghesn Sfeir, Jos\xE9 M. Buenaposada, Luis Baumela"
 conference: Pattern Recognition Letters
 year: 2020
 bibkey: "su\xE1rez2020beblid"
-citations: 90
+citations: 93
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2402.04482'}]
 tags: ["Efficiency", "Evaluation"]
 short_authors: "Su\xE1rez et al."

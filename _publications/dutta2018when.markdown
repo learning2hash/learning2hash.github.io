@@ -2,10 +2,10 @@
 layout: publication
 title: 'When Hashing Met Matching: Efficient Spatio-temporal Search For Ridesharing'
 authors: Chinmoy Dutta
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2021
+conference: Arxiv
+year: 2018
 bibkey: dutta2018when
-citations: 5
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.02680'}]
 tags: ["AAAI", "Datasets", "Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Chinmoy Dutta

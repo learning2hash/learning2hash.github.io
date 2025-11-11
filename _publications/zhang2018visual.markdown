@@ -3,11 +3,11 @@ layout: publication
 title: Visual Search At Alibaba
 authors: Yanhao Zhang, Pan Pan, Yun Zheng, Kang Zhao, Yingya Zhang, Xiaofeng Ren,
   Rong Jin
-conference: Proceedings of the 24th ACM SIGKDD International Conference on Knowledge
-  Discovery &amp; Data Mining
+conference: 'KDD ''18: The 24th ACM SIGKDD International Conference on Knowledge Discovery
+  and Data Mining'
 year: 2018
 bibkey: zhang2018visual
-citations: 58
+citations: 85
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2102.04674'}]
 tags: ["Evaluation", "Image Retrieval", "KDD", "Neural Hashing"]
 short_authors: Zhang et al.

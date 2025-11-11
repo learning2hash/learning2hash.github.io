@@ -6,7 +6,7 @@ authors: Zeyu Ma, Siwei Wang, Xiao Luo, Zhonghui Gu, Chong Chen, Jinxing Li, Xia
 conference: ACM Transactions on Multimedia Computing, Communications, and Applications
 year: 2023
 bibkey: ma2023harr
-citations: 5
+citations: 8
 additional_links: [{name: Paper, url: 'https://dl.acm.org/doi/full/10.1145/3627162'}]
 tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Image Retrieval", "Quantization", "Scalability", "Supervised", "Unsupervised"]
 short_authors: Ma et al.

@@ -5,7 +5,7 @@ authors: Fumin Shen, Yan Xu, Li Liu, Yang Yang, Zi Huang, Heng Shen
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2018
 bibkey: shen2018unsupervised
-citations: 377
+citations: 325
 additional_links: [{name: Paper, url: 'http://cfm.uestc.edu.cn/~fshen/SADH.pdf'}]
 tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Neural Hashing", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Shen et al.

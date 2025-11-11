@@ -4,9 +4,9 @@ title: Graph Embedding With Shifted Inner Product Similarity And Its Improved Ap
   Capability
 authors: Akifumi Okuno, Geewook Kim, Hidetoshi Shimodaira
 conference: Arxiv
-year: 2019
+year: 2018
 bibkey: okuno2018graph
-citations: 7
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.03463'}]
 tags: ["Datasets", "Distance Metric Learning"]
 short_authors: Akifumi Okuno, Geewook Kim, Hidetoshi Shimodaira

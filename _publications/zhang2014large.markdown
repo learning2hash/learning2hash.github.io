@@ -5,7 +5,7 @@ authors: D. Zhang, W. Li
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2014
 bibkey: zhang2014large
-citations: 621
+citations: 302
 additional_links: [{name: Paper, url: 'http://cs.nju.edu.cn/lwj/paper/AAAI14_SCM.pdf'}]
 tags: ["AAAI", "Datasets", "Hashing Methods", "Memory Efficiency", "Scalability", "Similarity Search", "Supervised"]
 short_authors: D. Zhang, W. Li

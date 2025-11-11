@@ -5,7 +5,7 @@ authors: Gregory Canal, Stefano Fenu, Christopher Rozell
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2020
 bibkey: canal2020active
-citations: 2
+citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1910.04115'}]
 tags: ["AAAI", "Datasets", "Efficiency", "Evaluation"]
 short_authors: Gregory Canal, Stefano Fenu, Christopher Rozell

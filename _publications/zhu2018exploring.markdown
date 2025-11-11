@@ -6,7 +6,7 @@ authors: Lei Zhu, Zi Huang, Zhihui Li, Liang Xie, Heng Tao Shen
 conference: IEEE Transactions on Neural Networks and Learning Systems
 year: 2018
 bibkey: zhu2018exploring
-citations: 154
+citations: 157
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.11207'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Scalability", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Zhu et al.

@@ -5,7 +5,7 @@ authors: Shi-Zhe Chen, Chun-Chao Guo, Jian-Huang Lai
 conference: IEEE Transactions on Image Processing
 year: 2016
 bibkey: chen2016deep
-citations: 174
+citations: 188
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1505.06821'}]
 tags: ["Datasets", "Evaluation", "Tools & Libraries"]
 short_authors: Shi-Zhe Chen, Chun-Chao Guo, Jian-Huang Lai

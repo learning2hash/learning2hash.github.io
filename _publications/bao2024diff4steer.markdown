@@ -4,9 +4,9 @@ title: 'Diff4steer: Steerable Diffusion Prior For Generative Music Retrieval Wit
   Semantic Guidance'
 authors: Xuchan Bao, Judith Yue Li, Zhong Yi Wan, Kun Su, Timo Denk, Joonseok Lee,
   Dima Kuzmin, Fei Sha
-conference: ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech
-  and Signal Processing (ICASSP)
-year: 2025
+conference: Proc. IEEE International Conference on Acoustics Speech and Signal Processing
+  (ICASSP) 2025
+year: 2024
 bibkey: bao2024diff4steer
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.04746'}]

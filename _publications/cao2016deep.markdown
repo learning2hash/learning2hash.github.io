@@ -2,11 +2,11 @@
 layout: publication
 title: Deep Visual-semantic Hashing For Cross-modal Retrieval
 authors: Yue Cao, Mingsheng Long, Jianmin Wang, Qiang Yang, Philip Yu
-conference: Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge
-  Discovery and Data Mining
+conference: 'KDD ''16: The 22nd ACM SIGKDD International Conference on Knowledge Discovery
+  and Data Mining'
 year: 2016
 bibkey: cao2016deep
-citations: 264
+citations: 195
 additional_links: [{name: Paper, url: 'http://www.kdd.org/kdd2016/papers/files/rpp0086-caoA.pdf'}]
 tags: ["Compact Codes", "Datasets", "Efficiency", "Hashing Methods", "KDD", "Multimodal Retrieval", "Neural Hashing", "Scalability", "Similarity Search"]
 short_authors: Cao et al.

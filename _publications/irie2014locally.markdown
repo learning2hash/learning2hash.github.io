@@ -2,10 +2,10 @@
 layout: publication
 title: Locally Linear Hashing For Extracting Non-linear Manifolds
 authors: G. Irie, Z. Li, X. Wu, S. Chang
-conference: 2014 IEEE Conference on Computer Vision and Pattern Recognition
+conference: 2014 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2014
 bibkey: irie2014locally
-citations: 94
+citations: 69
 additional_links: [{name: Paper, url: 'http://www.ee.columbia.edu/~zgli/papers/CVPR-2014-LLH.pdf'}]
 tags: ["CVPR", "Hashing Methods", "Quantization"]
 short_authors: Irie et al.

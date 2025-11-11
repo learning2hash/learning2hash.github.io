@@ -6,7 +6,7 @@ authors: Shelan S. Jeawak, Christopher B. Jones, Steven Schockaert
 conference: Lecture Notes in Computer Science
 year: 2019
 bibkey: jeawak2019embedding
-citations: 8
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1810.12091'}]
 tags: ["Uncategorized"]
 short_authors: Shelan S. Jeawak, Christopher B. Jones, Steven Schockaert

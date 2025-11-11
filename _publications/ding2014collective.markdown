@@ -2,10 +2,10 @@
 layout: publication
 title: Collective Matrix Factorization Hashing For Multimodal Data
 authors: G. Ding, Y. Guo, J. Zhou
-conference: 2014 IEEE Conference on Computer Vision and Pattern Recognition
+conference: 2014 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2014
 bibkey: ding2014collective
-citations: 648
+citations: 518
 additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/MIG/CVPR2014%20Collective%20Matrix%20Factorization%20Hashing%20for%20Multimodal%20Data.pdf'}]
 tags: ["CVPR", "Datasets", "Hashing Methods", "Scalability", "Similarity Search"]
 short_authors: G. Ding, Y. Guo, J. Zhou

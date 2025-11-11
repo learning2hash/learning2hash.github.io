@@ -6,7 +6,7 @@ authors: Loic Pauleve, Herve Jegou, Laurent Amsaleg
 conference: Pattern Recognition Letters
 year: 2010
 bibkey: pauleve2010locality
-citations: 300
+citations: 198
 additional_links: [{name: Paper, url: 'https://hal.inria.fr/inria-00567191/document'}]
 tags: ["Evaluation", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Loic Pauleve, Herve Jegou, Laurent Amsaleg

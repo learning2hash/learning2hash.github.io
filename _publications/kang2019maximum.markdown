@@ -5,7 +5,7 @@ authors: Rong Kang, Yue Cao, Mingsheng (b), Jianmin Wang, And Yu
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: kang2019maximum
-citations: 38
+citations: 27
 additional_links: [{name: Paper, url: 'http://ise.thss.tsinghua.edu.cn/~mlong/doc/maximum-margin-hamming-hashing-iccv19.pdf'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "ICCV", "Image Retrieval", "Neural Hashing", "Robustness"]
 short_authors: Kang et al.

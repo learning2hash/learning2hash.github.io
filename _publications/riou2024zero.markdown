@@ -3,9 +3,8 @@ layout: publication
 title: Zero-shot Musical Stem Retrieval With Joint-embedding Predictive Architectures
 authors: "Alain Riou, Antonin Gagner\xE9, Ga\xEBtan Hadjeres, Stefan Lattner, Geoffroy\
   \ Peeters"
-conference: ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech
-  and Signal Processing (ICASSP)
-year: 2025
+conference: Arxiv
+year: 2024
 bibkey: riou2024zero
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2411.19806'}]

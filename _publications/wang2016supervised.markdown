@@ -5,7 +5,7 @@ authors: Xiaojuan Wang, Ting Zhang, Guo-Jun Q, Jinhui Tang, Jingdong Wang
 conference: 2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2016
 bibkey: wang2016supervised
-citations: 82
+citations: 52
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1902.00617'}]
 tags: ["CVPR", "Datasets", "Hashing Methods", "Quantization", "Similarity Search", "Supervised", "Unsupervised"]
 short_authors: Wang et al.

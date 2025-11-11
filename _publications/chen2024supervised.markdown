@@ -5,7 +5,7 @@ authors: Rui Chen, Hongbin Wang
 conference: IEEE Access
 year: 2024
 bibkey: chen2024supervised
-citations: 2
+citations: 3
 additional_links: [{name: Paper, url: 'https://ieeexplore.ieee.org/abstract/document/7466099'}]
 tags: ["Evaluation", "Hashing Methods", "Multimodal Retrieval", "Supervised"]
 short_authors: Rui Chen, Hongbin Wang

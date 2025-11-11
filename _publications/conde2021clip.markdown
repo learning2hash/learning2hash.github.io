@@ -6,7 +6,7 @@ conference: 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2021
 bibkey: conde2021clip
-citations: 74
+citations: 86
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.14244'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Few Shot & Zero Shot"]
 short_authors: Marcos V. Conde, Kerem Turgutlu

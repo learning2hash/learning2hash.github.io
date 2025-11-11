@@ -2,10 +2,10 @@
 layout: publication
 title: Binary Code Ranking With Weighted Hamming Distance
 authors: Lei Zhang, Yongdong Zhang, Jinhui Tang, Ke Lu, Qi Tian
-conference: 2013 IEEE Conference on Computer Vision and Pattern Recognition
+conference: 2013 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2013
 bibkey: zhang2013binary
-citations: 98
+citations: 72
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content_cvpr_2013/papers/Zhang_Binary_Code_Ranking_2013_CVPR_paper.pdf'}]
 tags: ["CVPR", "Compact Codes", "Efficiency", "Hashing Methods", "Scalability", "Similarity Search"]
 short_authors: Zhang et al.

@@ -5,7 +5,7 @@ authors: Cheng Deng, Zhaojia Chen, Xianglong Liu, Xinbo Gao, Dacheng Tao
 conference: IEEE Transactions on Image Processing
 year: 2018
 bibkey: deng2018triplet
-citations: 381
+citations: 389
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.02449'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Neural Hashing", "Similarity Search"]
 short_authors: Deng et al.

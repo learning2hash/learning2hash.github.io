@@ -6,7 +6,7 @@ conference: 2019 IEEE/RSJ International Conference on Intelligent Robots and Sys
   (IROS)
 year: 2019
 bibkey: konishi2019real
-citations: 28
+citations: 21
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1811.08588'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "IROS", "Robustness", "Tree Based ANN"]
 short_authors: Yoshinori Konishi, Kosuke Hattori, Manabu Hashimoto

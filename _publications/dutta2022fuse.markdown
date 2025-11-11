@@ -2,10 +2,10 @@
 layout: publication
 title: 'Fuse And Attend: Generalized Embedding Learning For Art And Sketches'
 authors: Ujjal Kr Dutta
-conference: Lecture Notes in Computer Science
-year: 2023
+conference: Arxiv
+year: 2022
 bibkey: dutta2022fuse
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2208.09698'}]
 tags: ["Datasets", "Image Retrieval", "Self-Supervised", "Tools & Libraries"]
 short_authors: Ujjal Kr Dutta

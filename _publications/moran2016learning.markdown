@@ -3,8 +3,8 @@ layout: publication
 title: Learning To Project And Binarise For Hashing-based Approximate Nearest Neighbour
   Search
 authors: S. Moran
-conference: Proceedings of the 39th International ACM SIGIR conference on Research
-  and Development in Information Retrieval
+conference: 'SIGIR ''16: The 39th International ACM SIGIR conference on research and
+  development in Information Retrieval'
 year: 2016
 bibkey: moran2016learning
 citations: 1

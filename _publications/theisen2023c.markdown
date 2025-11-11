@@ -3,10 +3,10 @@ layout: publication
 title: 'C-CLIP: Contrastive Image-text Encoders To Close The Descriptive-commentative
   Gap'
 authors: William Theisen, Walter Scheirer
-conference: 2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2024
+conference: Arxiv
+year: 2023
 bibkey: theisen2023c
-citations: 0
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2309.03921'}]
 tags: ["Uncategorized"]
 short_authors: William Theisen, Walter Scheirer

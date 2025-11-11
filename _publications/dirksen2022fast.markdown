@@ -2,8 +2,8 @@
 layout: publication
 title: Fast Metric Embedding Into The Hamming Cube
 authors: Sjoerd Dirksen, Shahar Mendelson, Alexander Stollenwerk
-conference: SIAM Journal on Computing
-year: 2024
+conference: Arxiv
+year: 2022
 bibkey: dirksen2022fast
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.04109'}]

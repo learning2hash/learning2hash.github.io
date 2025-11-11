@@ -6,7 +6,7 @@ conference: Proceedings of the 2022 Conference on Empirical Methods in Natural L
   Processing
 year: 2022
 bibkey: ren2022empowering
-citations: 4
+citations: 6
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2303.14991'}]
 tags: ["Datasets", "EMNLP", "Evaluation"]
 short_authors: Ren et al.

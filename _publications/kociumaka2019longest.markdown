@@ -5,7 +5,7 @@ authors: Tomasz Kociumaka, Jakub Radoszewski, Tatiana Starikovskaya
 conference: Algorithmica
 year: 2019
 bibkey: kociumaka2019longest
-citations: 21
+citations: 24
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1712.08573'}]
 tags: ["Hashing Methods"]
 short_authors: Tomasz Kociumaka, Jakub Radoszewski, Tatiana Starikovskaya

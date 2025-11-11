@@ -5,7 +5,7 @@ authors: P. Jain, B. Kulis, K. Grauman
 conference: IEEE Transactions on Pattern Analysis and Machine Intelligence
 year: 2009
 bibkey: jain2009fast
-citations: 265
+citations: 190
 additional_links: [{name: Paper, url: 'https://www.cs.utexas.edu/~pjain/pubs/hashing_tr.pdf'}]
 tags: ["Datasets", "Distance Metric Learning", "Hashing Methods", "Similarity Search"]
 short_authors: P. Jain, B. Kulis, K. Grauman

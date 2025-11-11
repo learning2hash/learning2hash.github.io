@@ -6,7 +6,7 @@ conference: 2022 IEEE/CVF Conference on Computer Vision and Pattern Recognition 
   (CVPRW)
 year: 2022
 bibkey: sun2022deep
-citations: 26
+citations: 27
 additional_links: [{name: Paper, url: 'https://openaccess.thecvf.com/content/CVPR2022W/ODRUM/papers/Sun_Deep_Normalized_Cross-Modal_Hashing_With_Bi-Direction_Relation_Reasoning_CVPRW_2022_paper.pdf'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Sun et al.

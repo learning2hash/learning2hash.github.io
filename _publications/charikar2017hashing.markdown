@@ -5,7 +5,7 @@ authors: Moses Charikar, Paris Siminelakis
 conference: 2017 IEEE 58th Annual Symposium on Foundations of Computer Science (FOCS)
 year: 2017
 bibkey: charikar2017hashing
-citations: 53
+citations: 52
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1808.10530'}]
 tags: ["Hashing Methods"]
 short_authors: Moses Charikar, Paris Siminelakis

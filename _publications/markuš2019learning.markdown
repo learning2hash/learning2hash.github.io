@@ -6,7 +6,7 @@ authors: "Nenad Marku\u0161, Igor S. Pand\u017Ei\u0107, J\xF6rgen Ahlberg"
 conference: IEEE Transactions on Image Processing
 year: 2019
 bibkey: "marku\u01612019learning"
-citations: 12
+citations: 13
 additional_links: [{name: Code, url: 'https://github.com/nenadmarkus/wlrn'}, {name: Paper,
     url: 'https://arxiv.org/abs/1603.09095'}]
 tags: ["Datasets"]

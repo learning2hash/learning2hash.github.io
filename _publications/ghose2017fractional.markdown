@@ -3,10 +3,10 @@ layout: publication
 title: Fractional Local Neighborhood Intensity Pattern For Image Retrieval Using Genetic
   Algorithm
 authors: Shuvozit Ghose, Abhirup Das, Ayan Kumar Bhunia, Partha Pratim Roy
-conference: Multimedia Tools and Applications
-year: 2020
+conference: Arxiv
+year: 2017
 bibkey: ghose2017fractional
-citations: 13
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1801.00187'}]
 tags: ["Evaluation", "Image Retrieval"]
 short_authors: Ghose et al.

@@ -2,11 +2,11 @@
 layout: publication
 title: Manhattan Hashing For Large-scale Image Retrieval
 authors: W. Kong, W. Li, M. Guo
-conference: Proceedings of the 35th international ACM SIGIR conference on Research
-  and development in information retrieval
+conference: 'SIGIR ''12: The 35th International ACM SIGIR conference on research and
+  development in Information Retrieval'
 year: 2012
 bibkey: kong2012manhattan
-citations: 105
+citations: 72
 additional_links: [{name: Paper, url: 'https://cs.nju.edu.cn/lwj/paper/SIGIR12_MH.pdf'}]
 tags: ["Compact Codes", "Hashing Methods", "Image Retrieval", "SIGIR", "Scalability"]
 short_authors: W. Kong, W. Li, M. Guo

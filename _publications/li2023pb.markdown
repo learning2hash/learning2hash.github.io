@@ -2,9 +2,8 @@
 layout: publication
 title: 'Pb-hash: Partitioned B-bit Hashing'
 authors: Ping Li, Weijie Zhao
-conference: Proceedings of the 2024 ACM SIGIR International Conference on Theory of
-  Information Retrieval
-year: 2024
+conference: Arxiv
+year: 2023
 bibkey: li2023pb
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2306.15944'}]

@@ -2,10 +2,10 @@
 layout: publication
 title: Separated Variational Hashing Networks For Cross-modal Retrieval
 authors: Peng Hu, Xu Wang, Liangli Zhen, Dezhong Peng
-conference: Proceedings of the 27th ACM International Conference on Multimedia
+conference: 'MM ''19: The 27th ACM International Conference on Multimedia'
 year: 2019
 bibkey: hu2019separated
-citations: 30
+citations: 29
 additional_links: [{name: Paper, url: 'https://dl.acm.org/citation.cfm?id=3351078'}]
 tags: ["Compact Codes", "Efficiency", "Evaluation", "Hashing Methods", "Memory Efficiency", "Multimodal Retrieval", "Similarity Search"]
 short_authors: Hu et al.

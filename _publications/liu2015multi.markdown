@@ -5,7 +5,7 @@ authors: Xianglong Liu, Lei Huang, Cheng Deng, Jiwen Land
 conference: 2015 IEEE International Conference on Computer Vision (ICCV)
 year: 2015
 bibkey: liu2015multi
-citations: 57
+citations: 35
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Liu_Multi-View_Complementary_Hash_ICCV_2015_paper.pdf'}]
 tags: ["Datasets", "Hashing Methods", "ICCV", "Image Retrieval", "Scalability", "Tools & Libraries"]
 short_authors: Liu et al.

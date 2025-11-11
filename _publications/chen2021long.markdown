@@ -2,11 +2,11 @@
 layout: publication
 title: Long-tail Hashing
 authors: Yong Chen, Yuqing Hou, Shu Leng, Ping Hu, Zhouchen Lin, And Zhang
-conference: Proceedings of the 44th International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
+conference: 'SIGIR ''21: The 44th International ACM SIGIR Conference on Research and
+  Development in Information Retrieval'
 year: 2021
 bibkey: chen2021long
-citations: 11
+citations: 12
 additional_links: [{name: Paper, url: 'https://zhouchenlin.github.io/Publications/2021-SIGIR-Hashing.pdf'}]
 tags: ["Compact Codes", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Neural Hashing", "SIGIR", "Scalability"]
 short_authors: Chen et al.

@@ -5,7 +5,7 @@ authors: Natasa Sarafijanovic-Djukic, Jesse Davis
 conference: Lecture Notes in Computer Science
 year: 2019
 bibkey: sarafijanovicDjukic2019fast
-citations: 32
+citations: 28
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2003.08731'}]
 tags: ["Datasets", "Evaluation", "Quantization"]
 short_authors: Natasa Sarafijanovic-Djukic, Jesse Davis

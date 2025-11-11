@@ -2,11 +2,11 @@
 layout: publication
 title: Supervised Hierarchical Cross-modal Hashing
 authors: Changchang Sun, Xuemeng Song, Fuli Feng, Wayne Zhao, Hao Nie
-conference: Proceedings of the 42nd International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
+conference: 'SIGIR ''19: The 42nd International ACM SIGIR Conference on Research and
+  Development in Information Retrieval'
 year: 2019
 bibkey: sun2019supervised
-citations: 48
+citations: 45
 additional_links: [{name: Paper, url: 'https://xuemengsong.github.io/SIGIR2019_HiCHNet.pdf'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "SIGIR", "Supervised"]
 short_authors: Sun et al.

@@ -2,11 +2,11 @@
 layout: publication
 title: Deep Semantic Text Hashing With Weak Supervision
 authors: Suthee Chaidaroon, Travis Ebesu, Yi Fang
-conference: The 41st International ACM SIGIR Conference on Research &amp; Development
-  in Information Retrieval
+conference: 'SIGIR ''18: The 41st International ACM SIGIR conference on research and
+  development in Information Retrieval'
 year: 2018
 bibkey: chaidaroon2018deep
-citations: 29
+citations: 15
 additional_links: [{name: Paper, url: 'https://dl.acm.org/citation.cfm?id=3209978.3210090'}]
 tags: ["Compact Codes", "Datasets", "Hashing Methods", "Neural Hashing", "SIGIR", "Scalability", "Similarity Search", "Unsupervised"]
 short_authors: Suthee Chaidaroon, Travis Ebesu, Yi Fang

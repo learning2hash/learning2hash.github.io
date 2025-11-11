@@ -6,7 +6,7 @@ authors: C. Xiong, W. Chen, G. Chen, D. Johnson, J. Corso
 conference: Proceedings of the 2014 SIAM International Conference on Data Mining
 year: 2014
 bibkey: xiong2014adaptive
-citations: 13
+citations: 8
 additional_links: [{name: Paper, url: 'https://www.cse.buffalo.edu//~jcorso/pubs/cxiong_SDM2014_adahash.pdf'}]
 tags: ["Compact Codes", "Datasets", "Hashing Methods", "Quantization", "Scalability"]
 short_authors: Xiong et al.

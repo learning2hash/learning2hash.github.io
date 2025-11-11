@@ -5,7 +5,7 @@ authors: Yue Cao, Mingsheng Long, Jianmin Wang, Shichen Liu
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2017
 bibkey: cao2017collective
-citations: 97
+citations: 47
 additional_links: [{name: Paper, url: 'http://yue-cao.me/doc/collective-deep-quantization-aaai17.pdf'}]
 tags: ["AAAI", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "Quantization", "Similarity Search"]
 short_authors: Cao et al.

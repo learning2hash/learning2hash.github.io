@@ -2,10 +2,10 @@
 layout: publication
 title: Locality-sensitive Hashing Scheme Based On P-stable Distributions
 authors: M. Datar, N. Immorlica, P. Indyk, V. Mirrokni
-conference: Proceedings of the twentieth annual symposium on Computational geometry
+conference: 'SoCG04: Annual ACM Symposium on Computational Geometry 2004'
 year: 2004
 bibkey: datar2004locality
-citations: 2896
+citations: 1978
 additional_links: [{name: Paper, url: 'https://dl.acm.org/citation.cfm?id=997857'}]
 tags: ["Efficiency", "Hashing Methods", "Locality-Sensitive-Hashing", "Tree Based ANN"]
 short_authors: Datar et al.

@@ -2,8 +2,8 @@
 layout: publication
 title: 'GRM: Gradient Rectification Module For Visual Place Retrieval'
 authors: Boshu Lei, Wenjie Ding, Limeng Qiao, Xi Qiu
-conference: 2023 IEEE International Conference on Robotics and Automation (ICRA)
-year: 2023
+conference: Arxiv
+year: 2022
 bibkey: lei2022grm
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2204.10972'}]

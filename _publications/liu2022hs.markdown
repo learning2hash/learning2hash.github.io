@@ -5,7 +5,7 @@ authors: Han Liu, Yinwei Wei, Jianhua Yin, Liqiang Nie
 conference: IEEE Transactions on Knowledge and Data Engineering
 year: 2022
 bibkey: liu2022hs
-citations: 35
+citations: 44
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2301.05430'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Recommender Systems", "Scalability", "Tools & Libraries"]
 short_authors: Liu et al.

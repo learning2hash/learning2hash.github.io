@@ -5,7 +5,7 @@ authors: Zijia Lin, Guiguang Ding, Mingqing Wang
 conference: 2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2015
 bibkey: lin2015semantics
-citations: 541
+citations: 423
 additional_links: [{name: Paper, url: 'http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Lin_Semantics-Preserving_Hashing_for_2015_CVPR_paper.pdf'}]
 tags: ["CVPR", "Datasets", "Evaluation", "Hashing Methods", "Memory Efficiency", "Scalability", "Supervised"]
 short_authors: Zijia Lin, Guiguang Ding, Mingqing Wang

@@ -5,7 +5,7 @@ authors: Xianglong Liu, Lei Huang, Cheng Deng, Bo Lang, Dacheng Tao
 conference: IEEE Transactions on Image Processing
 year: 2016
 bibkey: liu2016query
-citations: 74
+citations: 66
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.08623'}]
 tags: ["Evaluation", "Hashing Methods", "Image Retrieval", "Quantization", "Re-Ranking", "Scalability"]
 short_authors: Liu et al.

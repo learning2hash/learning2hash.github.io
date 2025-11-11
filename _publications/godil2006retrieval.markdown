@@ -2,10 +2,10 @@
 layout: publication
 title: Retrieval And Clustering From A 3D Human Database Based On Body And Head Shape
 authors: Afzal Godil, Sandy Ressler
-conference: SAE Technical Paper Series
+conference: 2006 Digital Human Modeling for Design and Engineering Conference
 year: 2006
 bibkey: godil2006retrieval
-citations: 19
+citations: 11
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1105.2800'}]
 tags: ["Tools & Libraries"]
 short_authors: Afzal Godil, Sandy Ressler

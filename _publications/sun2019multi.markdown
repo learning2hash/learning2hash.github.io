@@ -6,7 +6,7 @@ authors: Jianing Sun, Yingxue Zhang, Chen Ma, Mark Coates, Huifeng Guo, Ruiming 
 conference: 2019 IEEE International Conference on Data Mining (ICDM)
 year: 2019
 bibkey: sun2019multi
-citations: 130
+citations: 139
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2001.00267'}]
 tags: ["Neural Hashing", "Recommender Systems", "Tools & Libraries"]
 short_authors: Sun et al.

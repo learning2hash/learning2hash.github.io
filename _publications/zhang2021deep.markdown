@@ -5,7 +5,7 @@ authors: Ming Zhang, Xuefei Zhe, Shifeng Yan
 conference: Pattern Recognition
 year: 2021
 bibkey: zhang2021deep
-citations: 21
+citations: 18
 additional_links: [{name: Paper, url: 'https://www.sciencedirect.com/science/article/abs/pii/S0031320321001631'}]
 tags: ["CVPR", "Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Image Retrieval", "Memory Efficiency", "Neural Hashing", "Scalability", "Tools & Libraries"]
 short_authors: Ming Zhang, Xuefei Zhe, Shifeng Yan

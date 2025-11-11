@@ -5,7 +5,7 @@ authors: Karam Abdulahhad
 conference: Lecture Notes in Computer Science
 year: 2018
 bibkey: abdulahhad2018concept
-citations: 3
+citations: 2
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2002.01071'}]
 tags: ["Uncategorized"]
 short_authors: Karam Abdulahhad

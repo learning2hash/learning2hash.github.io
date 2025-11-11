@@ -2,12 +2,12 @@
 layout: publication
 title: 'SLOSH: Set Locality Sensitive Hashing Via Sliced-wasserstein Embeddings'
 authors: Yuzhe Lu, Xinran Liu, Andrea Soltoggio, Soheil Kolouri
-conference: 2024 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
-year: 2024
-bibkey: lu2021slosh
-citations: 3
-additional_links: [{name: Code, url: 'https://github'}, {name: Code, url: 'https://github'},
-  {name: Paper, url: 'https://arxiv.org/abs/2112.05872'}]
+conference: Arxiv
+year: 2022
+bibkey: lu2022slosh
+citations: 2
+additional_links: [{name: Code, url: 'https://github.com/mint-vu/SLOSH\'}, {name: Paper,
+    url: 'https://arxiv.org/abs/2112.05872'}]
 tags: ["Datasets", "Hashing Methods", "Locality-Sensitive-Hashing"]
 short_authors: Lu et al.
 ---

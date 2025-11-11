@@ -2,10 +2,10 @@
 layout: publication
 title: Near-optimal Hashing Algorithms For Approximate Nearest Neighbor In High Dimensions
 authors: A. Andoni, P. Indyk
-conference: Communications of the ACM
-year: 2008
-bibkey: andoni2008near
-citations: 1423
+conference: 2006 47th Annual IEEE Symposium on Foundations of Computer Science (FOCS'06)
+year: 2006
+bibkey: andoni2006near
+citations: 715
 additional_links: [{name: Paper, url: 'http://ieeexplore.ieee.org/document/4031381/'}]
 tags: ["Efficiency", "Hashing Methods"]
 short_authors: A. Andoni, P. Indyk

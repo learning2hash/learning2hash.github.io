@@ -3,11 +3,11 @@ layout: publication
 title: Online Collective Matrix Factorization Hashing For Large-scale Cross-media
   Retrieval
 authors: di Wang, Quan Wang, Yaqiang An, Xinbo Gao, Yumin Tian
-conference: Proceedings of the 43rd International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
+conference: 'SIGIR ''20: The 43rd International ACM SIGIR conference on research and
+  development in Information Retrieval'
 year: 2020
 bibkey: wang2020online
-citations: 48
+citations: 54
 additional_links: [{name: Paper, url: 'https://dl.acm.org/doi/10.1145/3397271.3401132'}]
 tags: ["Efficiency", "Evaluation", "Hashing Methods", "SIGIR", "Scalability"]
 short_authors: Wang et al.

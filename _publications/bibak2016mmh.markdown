@@ -5,7 +5,7 @@ authors: Khodakhast Bibak, Bruce M. Kapron, Venkatesh Srinivasan
 conference: Information Processing Letters
 year: 2016
 bibkey: bibak2016mmh
-citations: 10
+citations: 7
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2010.05420'}]
 tags: ["Evaluation", "Hashing Methods"]
 short_authors: Khodakhast Bibak, Bruce M. Kapron, Venkatesh Srinivasan

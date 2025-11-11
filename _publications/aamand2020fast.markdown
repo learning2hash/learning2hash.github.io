@@ -6,7 +6,7 @@ authors: Anders Aamand, Jakob B. T. Knudsen, Mathias B. T. Knudsen, Peter M. R. 
 conference: Proceedings of the 52nd Annual ACM SIGACT Symposium on Theory of Computing
 year: 2020
 bibkey: aamand2020fast
-citations: 2
+citations: 1
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1905.00369'}]
 tags: ["Hashing Methods"]
 short_authors: Aamand et al.

@@ -6,7 +6,7 @@ authors: "Edith Cohen, Jelani Nelson, Tam\xE1s Sarl\xF3s, Uri Stemmer"
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2023
 bibkey: cohen2023tricking
-citations: 4
+citations: 5
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2207.00956'}]
 tags: ["AAAI", "Hashing Methods", "Robustness"]
 short_authors: Cohen et al.

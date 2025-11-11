@@ -5,7 +5,7 @@ authors: Seongwon Jang, Hoyeop Lee, Hyunsouk Cho, Sehee Chung
 conference: 2020 IEEE International Conference on Data Mining (ICDM)
 year: 2020
 bibkey: jang2020cities
-citations: 11
+citations: 12
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2105.10868'}]
 tags: ["Datasets", "Evaluation", "Recommender Systems", "Tools & Libraries"]
 short_authors: Jang et al.

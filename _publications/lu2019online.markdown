@@ -2,11 +2,11 @@
 layout: publication
 title: Online Multi-modal Hashing With Dynamic Query-adaption
 authors: Xu Lu, Lei Zhu, Zhiyong Cheng, Liqiang Zhang
-conference: Proceedings of the 42nd International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
+conference: 'SIGIR ''19: The 42nd International ACM SIGIR Conference on Research and
+  Development in Information Retrieval'
 year: 2019
 bibkey: lu2019online
-citations: 129
+citations: 121
 additional_links: [{name: Paper, url: 'https://dl.acm.org/citation.cfm?id=3331217'}]
 tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Memory Efficiency", "Quantization", "SIGIR", "Scalability", "Supervised", "Tools & Libraries", "Unsupervised"]
 short_authors: Lu et al.

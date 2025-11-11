@@ -2,10 +2,10 @@
 layout: publication
 title: Kernelized Locality-sensitive Hashing For Scalable Image Search
 authors: B. Kulis, K. Grauman
-conference: 2009 IEEE 12th International Conference on Computer Vision
+conference: 2009 IEEE 12th International Conference on Computer Vision (ICCV)
 year: 2009
 bibkey: kulis2009kernelized
-citations: 910
+citations: 592
 additional_links: [{name: Paper, url: 'https://www.robots.ox.ac.uk/~vgg/rg/papers/klsh.pdf'}]
 tags: ["Datasets", "Efficiency", "Evaluation", "Hashing Methods", "ICCV", "Image Retrieval", "Scalability"]
 short_authors: B. Kulis, K. Grauman

@@ -6,7 +6,7 @@ authors: Jianfeng Dong, Xirong Li, Chaoxi Xu, Shouling Ji, Yuan He, Gang Yang, X
 conference: 2019 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2019
 bibkey: dong2019dual
-citations: 273
+citations: 283
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1809.06181'}]
 tags: ["CVPR", "Video Retrieval"]
 short_authors: Dong et al.

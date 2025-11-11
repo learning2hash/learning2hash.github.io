@@ -5,7 +5,7 @@ authors: Y. Weiss, R. Fergus, A. Torralba
 conference: Lecture Notes in Computer Science
 year: 2012
 bibkey: weiss2012multidimensional
-citations: 162
+citations: 71
 additional_links: [{name: Paper, url: 'http://people.csail.mit.edu/torralba/publications/msh_eccv12.pdf'}]
 tags: ["Compact Codes", "Evaluation", "Hashing Methods", "Neural Hashing"]
 short_authors: Y. Weiss, R. Fergus, A. Torralba

@@ -5,7 +5,7 @@ authors: Long-Kai Huang, Jianda Chen, Sinno Pan
 conference: 2019 IEEE/CVF International Conference on Computer Vision (ICCV)
 year: 2019
 bibkey: huang2019accelerate
-citations: 24
+citations: 16
 additional_links: [{name: Paper, url: 'http://openaccess.thecvf.com/content_ICCV_2019/papers/Huang_Accelerate_Learning_of_Deep_Hashing_With_Gradient_Attention_ICCV_2019_paper.pdf'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "ICCV", "Image Retrieval", "Neural Hashing", "Scalability"]
 short_authors: Long-Kai Huang, Jianda Chen, Sinno Pan

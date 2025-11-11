@@ -3,11 +3,11 @@ layout: publication
 title: Joint-modal Distribution-based Similarity Hashing For Large-scale Unsupervised
   Deep Cross-modal Retrieval
 authors: Song Liu, Shengsheng Qian, Yang Guan, Jiawei Zhan, Long Ying
-conference: Proceedings of the 43rd International ACM SIGIR Conference on Research
-  and Development in Information Retrieval
+conference: 'SIGIR ''20: The 43rd International ACM SIGIR conference on research and
+  development in Information Retrieval'
 year: 2020
 bibkey: liu2020joint
-citations: 153
+citations: 165
 additional_links: [{name: Paper, url: 'https://dl.acm.org/doi/abs/10.1145/3397271.3401086'}]
 tags: ["Compact Codes", "Datasets", "Efficiency", "Evaluation", "Hashing Methods", "Multimodal Retrieval", "SIGIR", "Scalability", "Unsupervised"]
 short_authors: Liu et al.

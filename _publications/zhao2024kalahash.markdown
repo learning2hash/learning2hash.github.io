@@ -2,8 +2,8 @@
 layout: publication
 title: 'Kalahash: Knowledge-anchored Low-resource Adaptation For Deep Hashing'
 authors: Shu Zhao, Tan Yu, Xiaoshuai Hao, Wenchao Ma, Vijaykrishnan Narayanan
-conference: Proceedings of the AAAI Conference on Artificial Intelligence
-year: 2025
+conference: Arxiv
+year: 2024
 bibkey: zhao2024kalahash
 citations: 0
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2412.19417'}]

@@ -6,7 +6,7 @@ authors: Yang Shi, Animashree Anandkumar
 conference: 2020 Data Compression Conference (DCC)
 year: 2020
 bibkey: shi2020higher
-citations: 10
+citations: 9
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1901.11261'}]
 tags: ["Datasets", "Evaluation", "Hashing Methods", "Scalability"]
 short_authors: Yang Shi, Animashree Anandkumar

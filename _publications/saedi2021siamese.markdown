@@ -5,7 +5,7 @@ authors: Chakaveh Saedi, Mark Dras
 conference: Computer Speech &amp; Language
 year: 2021
 bibkey: saedi2021siamese
-citations: 23
+citations: 3
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1912.10616'}]
 tags: ["Datasets", "Scalability"]
 short_authors: Chakaveh Saedi, Mark Dras

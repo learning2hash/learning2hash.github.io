@@ -5,7 +5,7 @@ authors: Wang-Cheng Kang, Wu-Jun Li, Zhi-Hua Zhou
 conference: Proceedings of the AAAI Conference on Artificial Intelligence
 year: 2016
 bibkey: kang2016column
-citations: 301
+citations: 121
 additional_links: [{name: Paper, url: 'http://cs.nju.edu.cn/lwj/paper/AAAI16_COSDISH.pdf'}]
 tags: ["AAAI", "Datasets", "Evaluation", "Hashing Methods", "Image Retrieval", "Supervised", "Unsupervised"]
 short_authors: Wang-Cheng Kang, Wu-Jun Li, Zhi-Hua Zhou

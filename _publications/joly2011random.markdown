@@ -2,10 +2,10 @@
 layout: publication
 title: Random Maximum Margin Hashing
 authors: A. Joly, O. Buisson
-conference: CVPR 2011
+conference: 2011 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2011
 bibkey: joly2011random
-citations: 151
+citations: 96
 additional_links: [{name: Paper, url: 'https://hal.inria.fr/hal-00642178/document'}]
 tags: ["CVPR", "Hashing Methods", "Locality-Sensitive-Hashing", "Vector Indexing"]
 short_authors: A. Joly, O. Buisson

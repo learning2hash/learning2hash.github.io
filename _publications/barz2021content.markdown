@@ -5,7 +5,7 @@ authors: "Bj\xF6rn Barz, Joachim Denzler"
 conference: Lecture Notes in Computer Science
 year: 2021
 bibkey: barz2021content
-citations: 13
+citations: 4
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/2011.06490'}]
 tags: ["Datasets", "Evaluation", "Image Retrieval", "Neural Hashing", "Survey Paper"]
 short_authors: "Bj\xF6rn Barz, Joachim Denzler"

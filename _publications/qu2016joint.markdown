@@ -5,7 +5,7 @@ authors: Yanyun Qu, Li Lin, Fumin Shen, Chang Lu, Yang Wu, Yuan Xie, Dacheng Tao
 conference: IEEE Transactions on Image Processing
 year: 2016
 bibkey: qu2016joint
-citations: 40
+citations: 54
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1709.05072'}]
 tags: ["Datasets", "Distance Metric Learning", "Efficiency", "Evaluation", "Scalability", "Tree Based ANN"]
 short_authors: Qu et al.

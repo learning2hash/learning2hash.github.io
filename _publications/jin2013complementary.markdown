@@ -2,10 +2,10 @@
 layout: publication
 title: Complementary Projection Hashing
 authors: Z. Jin, Y. Hu, Y. Lin, D. Zhang, S. Lin, D. Cai, X. Li
-conference: 2013 IEEE International Conference on Computer Vision
+conference: 2013 IEEE International Conference on Computer Vision (ICCV)
 year: 2013
 bibkey: jin2013complementary
-citations: 59
+citations: 37
 additional_links: [{name: Paper, url: 'http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.883.1565&rep=rep1&type=pdf'}]
 tags: ["Hashing Methods", "ICCV"]
 short_authors: Jin et al.

@@ -5,7 +5,7 @@ authors: Erkun Yang, Cheng Deng, Chao Li, Wei Liu, Jie Li, Dacheng Tao
 conference: IEEE Transactions on Neural Networks and Learning Systems
 year: 2018
 bibkey: yang2018shared
-citations: 152
+citations: 154
 additional_links: [{name: Paper, url: 'https://arxiv.org/abs/1904.07488'}]
 tags: ["Compact Codes", "Hashing Methods", "Quantization", "Similarity Search", "Supervised"]
 short_authors: Yang et al.

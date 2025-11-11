@@ -2,10 +2,10 @@
 layout: publication
 title: Supervised Hashing With Kernels
 authors: W. Liu, J. Wang, R. Ji, Y. Jiang, S. Chang
-conference: 2012 IEEE Conference on Computer Vision and Pattern Recognition
+conference: 2012 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)
 year: 2012
 bibkey: liu2012supervised
-citations: 1448
+citations: 358
 additional_links: [{name: Paper, url: 'http://www.ee.columbia.edu/~wliu/CVPR12_ksh.pdf'}]
 tags: ["CVPR", "Compact Codes", "Evaluation", "Hashing Methods", "Scalability", "Supervised"]
 short_authors: Liu et al.
