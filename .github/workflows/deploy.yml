@@ -8,6 +8,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed for push to Pages branch
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
 
     steps:
       # === Checkout repository (with full history for git log) ===
@@ -36,7 +41,6 @@ jobs:
         run: |
           rm -f ${{ github.workspace }}/_publications/template || true
 
-          # Ensure writable cache and output directories on host
           mkdir -p ${{ github.workspace }}/.jekyll-cache
           mkdir -p ${{ github.workspace }}/_site
           chmod -R a+rwX ${{ github.workspace }}/.jekyll-cache
@@ -112,4 +116,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          publish_branch: master
+          publish_branch: master         # user/organization site repo
+          force_orphan: true             # avoid non-FF errors by recreating branch
+          user_name: github-actions[bot] # optional but tidy
+          user_email: github-actions[bot]@users.noreply.github.com
