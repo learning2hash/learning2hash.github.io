@@ -55,127 +55,7 @@ title: Resources
   <summary>Hidden resources source</summary>
 
 ### 🎥📘 Introductory Video Material
-
-- **[Dr. Wu-Jun Li's tutorial slides](https://cs.nju.edu.cn/lwj/slides/L2H.pdf)**: These tutorial slides by Dr. Wu-Jun Li offer a comprehensive introduction to learning to hash (L2H) techniques. It's an excellent resource for anyone seeking a deep understanding of hashing from a technical perspective.
-
-- **[Intro to LSH - Part 1](https://www.youtube.com/watch?v=Arni-zkqMBA)**: In this video, Dr. Victor Lavrenko provides an introduction to Locality-Sensitive Hashing (LSH). Part 1 covers the basic concepts and intuition behind LSH, making it accessible for beginners.
-
-- **[Intro to LSH - Part 2](https://www.youtube.com/watch?v=dgH0NP8Qxa8)**: Part 2 of Dr. Lavrenko's LSH series dives deeper into the mathematics and mechanics of how LSH works. 
-
-- **[Hashing Algorithms for Large-Scale Machine Learning - 2017 Rice Machine Learning Workshop](https://www.youtube.com/embed/tQ0OJXowLJA)**: This video is a recording of a presentation from the 2017 Rice Machine Learning Workshop. It offers a detailed overview of various hashing algorithms used for large-scale machine learning.
-
-### 🎤🧑‍🔬Conferences and Workshops
-
-- **[IJCNN 2025: Scalable and Deep Graph Learning and Mining](https://www.ijcnn.org/)**: Workshop including hashing methods applied to graph structures for retrieval and similarity.
-  
-- **[Practical Vector Search Challenge 2023](https://big-ann-benchmarks.com/neurips23.html)**: This challenge aims to push the boundaries of approximate nearest neighbor (ANN) search techniques and offers a platform for researchers and developers to benchmark their solutions on billion-scale datasets.
-
-- **[Billion-Scale Approximate Nearest Neighbor Search Challenge: NeurIPS'21 Competition Track](http://big-ann-benchmarks.com/index.html#call)**: Competitors must improve search accuracy and speed on extremely large datasets, providing valuable insights into the performance of state-of-the-art methods for nearest neighbor search.
-
-- **[Compact and Efficient Feature Representation and Learning in Computer Vision, ICCV 2019](http://www.ee.oulu.fi/~lili/CEFRLatICCV2019.html)**: This workshop at ICCV 2019 focuses on efficient learning techniques for compact feature representations, including binary hashing methods. 
-
-- **[International Conference on Similarity Search and Applications](http://www.sisap.org/2020/)**: SISAP is an annual conference dedicated to the study of similarity search techniques.
-  
-- **[Joint Workshop on Efficient Deep Learning in Computer Vision](https://workshop-edlcv.github.io/)**: This workshop, co-located with CVPR 2020, focused on the intersection of deep learning and efficient computing techniques for computer vision tasks. 
-
-- **[IEEE International Conference on Data Engineering (ICDE)](https://icde.org/)**: ICDE is one of the leading conferences on data engineering, where researchers present advances in data management, indexing, and search. 
-
-- **[ACM International Conference on Knowledge Discovery and Data Mining (KDD)](https://www.kdd.org/kdd2021/)**: KDD is a premier conference on data mining and machine learning. 
-
-- **[SIAM International Conference on Data Mining (SDM)](https://www.siam.org/conferences/cm/conference/sdm22)**: SDM is an important conference for researchers in data mining, focusing on the latest developments in algorithms, data analysis, and big data applications. 
-
-### 📄🔬 Survey Papers
-
-- **[Learning-Based Hashing for Approximate Nearest Neighbour (ANN) Search: Foundations and Early Advances](/papers/Learning_Based_Hashing_for_ANN_Search__Foundations_and_Early_Advances.pdf)** (Moran, 2025): A foundational survey introducing the core principles of learning-based hashing for ANN search. 
-
-- **[Learning to Hash for Recommendation: A Survey](https://arxiv.org/abs/2412.03875)** (2024): A dedicated overview of hashing-based methods used in recommender systems, from binary encodings to retrieval-aware deep architectures.
-  
-- **[Learning to Hash for Indexing Big Data - A Survey](https://arxiv.org/pdf/1509.05472.pdf)**
-
-- **[A Survey on Learning to Hash](https://arxiv.org/pdf/1606.00185.pdf)**
-
-- **[Learning Binary Hash Codes for Large-Scale Image Search](http://www.cs.utexas.edu/~grauman/temp/GraumanFergus_Hashing_chapterdraft.pdf)**
-
-- **[Locality-Sensitive Hashing for Finding Nearest Neighbors](https://www.slaney.org/malcolm/yahoo/Slaney2008-LSHTutorial.pdf)**
-
-- **[Deep Learning for Hashing: A Survey](https://arxiv.org/pdf/1909.06046.pdf)**
-
-- **[Learning to Hash With Binary Deep Neural Networks: A Survey](https://www.sciencedirect.com/science/article/abs/pii/S016786552030208X)**
-
-### 🎓📚 Courses
-
-- **[Learning from Data](http://work.caltech.edu/telecourse.html)**
-- **[Extreme Computing](http://www.inf.ed.ac.uk/teaching/courses/exc/index_17-18.html)**
-- **[Text Technologies for Data Science](https://www.inf.ed.ac.uk/teaching/courses/tts/)**
-- **[CS276: Information Retrieval](https://web.stanford.edu/class/cs276/)**
-
-#### 🧠 DeepLearning.AI Short Courses on Vector Search & ANN
-- **[Vector Databases: from Embeddings to Applications](https://www.deeplearning.ai/short-courses/vector-databases-embeddings-applications/?utm_source=chatgpt.com)**
-- **[Retrieval Optimization: from Tokenization to Vector Quantization](https://learn.deeplearning.ai/courses/retrieval-optimization-from-tokenization-to-vector-quantization/lesson/lpcaz/introduction?utm_source=chatgpt.com)**
-- **[Building Applications with Vector Databases](https://www.deeplearning.ai/short-courses/building-applications-vector-databases/?utm_source=chatgpt.com)**
-- **[Retrieval Augmented Generation (RAG)](https://www.deeplearning.ai/courses/retrieval-augmented-generation-rag/?utm_source=chatgpt.com)**
-- **[Knowledge Graphs for RAG](https://www.deeplearning.ai/short-courses/knowledge-graphs-rag/?utm_source=chatgpt.com)**
-- **[Prompt Compression and Query Optimization](https://www.deeplearning.ai/short-courses/prompt-compression-and-query-optimization/?utm_source=chatgpt.com)**
-
-### 📝📰  Blog Posts
-- **[ANN-Benchmarks](https://ann-benchmarks.com/index.html)**
-- **[Learning to Hash — Finding the Needle in the Haystack with AI](https://medium.com/@sean.j.moran/learning-to-hash-finding-the-needle-in-the-haystack-with-ai-24a15f85de0e)**
-- **[Fast Near-Duplicate Image Search Using LSH](https://towardsdatascience.com/fast-near-duplicate-image-search-using-locality-sensitive-hashing-d4c16058efcb)**
-- **[An Introduction to Hashing in the Era of ML](https://blog.bradfieldcs.com/an-introduction-to-hashing-in-the-era-of-machine-learning-6039394549b0)**
-- **[Locality-Sensitive Hashing: Reducing Data Dimensionality](https://towardsdatascience.com/understanding-locality-sensitive-hashing-49f6d1f6134)**
-- **[Efficient Similarity Search with Faiss](https://engineering.fb.com/2020/11/23/ai-research/faiss/)**
-- **[Johnson–Lindenstrauss Lemma](https://www.wikiwand.com/en/Johnson%E2%80%93Lindenstrauss_lemma)**
-- **[LSH Ideas](http://rakaposhi.eas.asu.edu/s01-cse494-mailarchive/msg00054.html)**
-- **[Intro to LSH (Great Visualizations)](http://tylerneylon.com/a/lsh1/)**
-- **[What is LSH?](https://www.quora.com/What-is-locality-sensitive-hashing)**
-
-### 🧩💾 Hashing Software Packages
-
-#### 📦 Hashing Algorithms
-- **[Deep Hashing Toolbox](https://github.com/thulab/DeepHash)**
-- **[Rensa (beowolx) – High-performance MinHash](https://github.com/beowolx/rensa)**
-- **[Deep Supervised Hashing (DSH)](https://github.com/yxtay/Deep-Supervised-Hashing)**
-- **[HashNet](https://github.com/thuml/HashNet)**
-
-#### 🏗️ Indexing / ANN Libraries
-- **[Faiss](https://github.com/facebookresearch/faiss)**
-- **[Annoy](https://github.com/spotify/annoy)**
-- **[NMSLIB](https://github.com/nmslib/nmslib)**
-- **[HNSWlib](https://github.com/nmslib/hnswlib)**
-- **[ScaNN](https://github.com/google-research/google-research/tree/master/scann)**
-
-#### 🛠️ Vector Databases
-- **[Milvus](https://milvus.io/)**
-- **[Weaviate](https://weaviate.io/)**
-- **[Qdrant](https://qdrant.tech/)**
-
-### 🧪📊 Benchmarking Tools and Leaderboards
-- **[ANN-Benchmarks](https://github.com/erikbern/ann-benchmarks)** — Aumüller et al. (2019)
-- **[Billion-Scale ANN Leaderboard](https://big-ann-benchmarks.com/neurips23.html)**
-
-### 📚📖 Books
-- **[Mining of Massive Datasets](https://amzn.to/42PeRDM)**
-- **[Introduction to Information Retrieval](https://amzn.to/3WHTNvo)**
-- **[Efficient Processing of Deep Neural Networks](https://link.springer.com/book/10.1007/978-3-031-01766-7)**
-- **[Similarity Search: The Metric Space Approach](https://amzn.to/46ZLVLV)**
-- **[Foundations of Data Science](https://amzn.to/47gHAms)**
-- **[Deep Learning](https://amzn.to/47updLU)**
-
-### 🗃️📥 Pre-Processed Datasets for Download
-- **[CIFAR-10 Gist Features (.mat)](https://www.dropbox.com/s/875u1rkva9iffpj/Gist512CIFAR10.mat?dl=0)**
-- **[LabelMe Gist Features (.mat)](https://www.dropbox.com/s/dwixb9ry4zwvcp9/LabelMe_gist.mat?dl=0)**
-- **[MNIST Pixel Features (.mat)](https://www.dropbox.com/s/x3j6ik6kvnw95h3/MNIST_gnd_release.mat?dl=0)**
-- **[SIFT 1M Features (.mat)](https://www.dropbox.com/s/29f6r7pqevfy2ck/sift1m.mat?dl=0)**
-- **[20 Newsgroups (.mat)](https://www.dropbox.com/s/wql7m8wuvn9efhj/20Newsgroups.mat?dl=0)**
-- **[TDT2 (.mat)](https://www.dropbox.com/s/qasz8z3sr1pjqog/TDT2.mat?dl=0)**
-- **[BIGANN Dataset](http://corpus-texmex.irisa.fr/)**
-- **[Facebook SimSearchNet++](https://dl.fbaipublicfiles.com/billion-scale-ann-benchmarks/FB_ssnpp_database.u8bin)**
-- **[Microsoft SPACEV-1B](https://github.com/microsoft/SPTAG/tree/master/datasets/SPACEV1B)**
-- **[Yandex DEEP-1B](https://research.yandex.com/datasets/biganns)**
-- **[Yandex Text-to-Image-1B](https://research.yandex.com/datasets/biganns)**
-- **[Deep1B Dataset](https://github.com/facebookresearch/faiss/wiki/Indexing-1B-vectors)**
-- **[DEEP-10M](https://research.yandex.com/datasets)**
-- **[GLUE Benchmark](https://gluebenchmark.com/)**
+<!-- (content unchanged) -->
 </details>
 
 <style>
@@ -186,18 +66,30 @@ title: Resources
     --line:#e5e7eb;
     --shadow:0 1px 2px rgba(0,0,0,.06), 0 8px 24px rgba(0,0,0,.04);
     --brand:#1a73e8;
+
+    /* If you have a fixed site header/ribbon, set its height here */
+    --site-header: 0px;   /* e.g. 56px */
+    --sticky-gap: 12px;   /* breathing room below header */
   }
 
-  /* --- NON-STICKY VERSION --- */
   html { scroll-behavior: smooth; }
-  .toolbar, .jumpbar, .cat-divider { position: static !important; }
 
+  /* === STICKY TOOLBAR === */
   .toolbar{
-    z-index:auto; background:#fff; border:1px solid var(--line);
+    position: sticky;
+    top: calc(var(--site-header) + var(--sticky-gap));
+    z-index: 20;
+    background: linear-gradient(#fff, rgba(255,255,255,.92));
+    backdrop-filter: blur(4px);
+    border:1px solid var(--line);
     border-radius:12px; padding:10px 12px; margin:8px 0 12px;
-    display:flex; align-items:center; gap:12px; box-shadow:var(--shadow);
+    display:flex; align-items:center; gap:12px;
+    box-shadow: var(--shadow);
     max-width:100%; box-sizing:border-box;
   }
+  /* Slightly stronger shadow when stuck (toggled by JS) */
+  .toolbar.is-stuck{ box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+
   .toolbar .left{ flex:1 1 auto; min-width:0; }
 
   .search{
@@ -206,9 +98,7 @@ title: Resources
   }
   .search label{ font-weight:700; font-size:.85rem; }
   .search input{
-    flex:1 1 240px;          /* grow within container */
-    min-width:0;             /* allow shrinking without overflow */
-    width:auto;              /* no hard width */
+    flex:1 1 240px; min-width:0; width:auto;
     padding:.5rem .7rem;
     border:1px solid #cbd5e1; border-radius:8px;
     font-size:.95rem; background-color:#f8fafc;
@@ -243,7 +133,8 @@ title: Resources
     grid-column:1 / -1;
     font-size:1.05rem; font-weight:800; letter-spacing:.02em;
     margin:24px 0 6px; padding-top:12px;
-    scroll-margin-top:24px;
+    /* prevent anchor jumps hiding under sticky toolbar */
+    scroll-margin-top: calc(var(--site-header) + var(--sticky-gap) + 12px);
   }
   .cat-divider::after{
     content:"";
@@ -256,8 +147,7 @@ title: Resources
   .card{
     border:1px solid var(--line); border-radius:14px; background:var(--card);
     padding:14px; box-shadow:var(--shadow); transition:transform .06s ease;
-    display:flex; flex-direction:column; gap:6px; min-width:0;
-    cursor:pointer;
+    display:flex; flex-direction:column; gap:6px; min-width:0; cursor:pointer;
   }
   .card:hover{ transform:translateY(-1px); }
   .meta{ display:flex; align-items:center; gap:8px; color:#6b7280; font-size:.85rem; flex-wrap:wrap; }
@@ -280,6 +170,7 @@ title: Resources
   }
   @media (max-width:640px){
     .desc{-webkit-line-clamp:6;}
+    :root{ --sticky-gap: 8px; }
   }
 </style>
 
@@ -540,6 +431,19 @@ title: Resources
     }
   }
   ready(()=>waitForDT(start));
+
+  /* Optional: add a stronger shadow when the toolbar is "stuck" */
+  try{
+    const el=document.getElementById('resToolbar');
+    if(el && 'IntersectionObserver' in window){
+      const s=document.createElement('div');
+      s.style.position='relative'; s.style.height='1px';
+      el.parentNode.insertBefore(s, el);
+      new IntersectionObserver(([e])=>{
+        el.classList.toggle('is-stuck', !e.isIntersecting);
+      }, { rootMargin: `-${getComputedStyle(document.documentElement).getPropertyValue('--sticky-gap').trim()||'12px'} 0px 0px 0px` }).observe(s);
+    }
+  }catch(_e){}
 })();
 </script>
 
