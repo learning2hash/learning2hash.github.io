@@ -67,7 +67,7 @@
 </div>
 
 <style>
-/* === Scrollable Right Sidebar (same width as Awesome LLM Papers) === */
+/* === Scrollable Right Sidebar (wider, matches Awesome LLM Papers) === */
 .sidebar {
   position: fixed;
   top: 0;
@@ -75,14 +75,14 @@
   height: 100vh;
   overflow-y: auto;
   overflow-x: hidden;
-  padding: 1.5rem 1rem;
+  padding: 1.5rem 1.25rem;
   box-sizing: border-box;
   background-color: #7da2b3;
   scrollbar-gutter: stable;
 
-  /* ✅ same width as Awesome LLM Papers sidebar */
-  width: clamp(240px, 28vw, 340px);
-  max-width: clamp(240px, 28vw, 340px);
+  /* wider: 260–420px instead of 240–340px */
+  width: clamp(260px, 30vw, 420px);
+  max-width: clamp(260px, 30vw, 420px);
 }
 
 /* Allow normal flow inside sticky container */
@@ -93,20 +93,13 @@
 }
 
 /* Optional: prettier scrollbar */
-.sidebar::-webkit-scrollbar {
-  width: 8px;
-}
-.sidebar::-webkit-scrollbar-thumb {
-  background: rgba(0,0,0,0.25);
-  border-radius: 4px;
-}
-.sidebar::-webkit-scrollbar-thumb:hover {
-  background: rgba(0,0,0,0.4);
-}
+.sidebar::-webkit-scrollbar { width: 8px; }
+.sidebar::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.25); border-radius: 4px; }
+.sidebar::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.4); }
 
 /* Match content offset */
 .main, .content {
-  margin-right: clamp(240px, 28vw, 340px);
+  margin-right: clamp(260px, 30vw, 420px);
 }
 
 /* Mobile view: sidebar collapses */
