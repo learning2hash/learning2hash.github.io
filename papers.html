@@ -11,26 +11,29 @@ description: A list of research papers for Learning to Hash.
   <strong style="color:#c00000;">NEW</strong> marks papers ingested in the past week.
 </p>
 
-<!-- Slim Toolbar: search + visible count + sort -->
+<!-- Slim Toolbar: search (top) + visible count + sort (bottom) -->
 <div id="papersToolbar" class="toolbar" style="display:none;">
-  <div class="left">
-    <div class="search">
-      <label for="papersSearch"><strong>Search</strong></label>
-      <input id="papersSearch" type="search" placeholder="🔍 Search title or authors…" inputmode="search" />
-      <button id="resetPapersSearch" type="button" aria-label="Clear search">Clear</button>
-      <span id="papersVisibleCount" class="small" aria-live="polite"></span>
-    </div>
+  <!-- Top row: search -->
+  <div class="search">
+    <label for="papersSearch"><strong>Search</strong></label>
+    <input id="papersSearch" type="search" placeholder="🔍 Search title or authors…" inputmode="search" />
+    <button id="resetPapersSearch" type="button" aria-label="Clear search">Clear</button>
   </div>
 
-  <div class="sort">
-    <label for="sortSelect"><strong>Sort</strong></label>
-    <select id="sortSelect">
-      <option value="default">Newest &amp; NEW first</option>
-      <option value="year_desc">Year ↓ (newest first)</option>
-      <option value="year_asc">Year ↑ (oldest first)</option>
-      <option value="cites_desc">Citations ↓ (most first)</option>
-      <option value="cites_asc">Citations ↑ (fewest first)</option>
-    </select>
+  <!-- Second row: count (left) + sort (right) -->
+  <div class="toolbar-bottom">
+    <span id="papersVisibleCount" class="small" aria-live="polite"></span>
+
+    <div class="sort">
+      <label for="sortSelect"><strong>Sort</strong></label>
+      <select id="sortSelect">
+        <option value="default">Newest &amp; NEW first</option>
+        <option value="year_desc">Year ↓ (newest first)</option>
+        <option value="year_asc">Year ↑ (oldest first)</option>
+        <option value="cites_desc">Citations ↓ (most first)</option>
+        <option value="cites_asc">Citations ↑ (fewest first)</option>
+      </select>
+    </div>
   </div>
 </div>
 
@@ -71,40 +74,82 @@ description: A list of research papers for Learning to Hash.
     --brand:#1a73e8;
   }
 
+  /* Toolbar is now a vertical stack: search on top, count+sort below */
   .toolbar{
-    position:sticky; top:0; z-index:20;
+    position:sticky;
+    top:0;
+    z-index:20;
     background: linear-gradient(#fff, rgba(255,255,255,.92));
     backdrop-filter: blur(4px);
     border:1px solid var(--line);
-    border-radius:12px; padding:10px 12px; margin:8px 0 12px;
-    display:flex; align-items:center; justify-content:flex-start; gap:12px;
+    border-radius:12px;
+    padding:10px 12px;
+    margin:8px 0 12px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:stretch;
+    gap:8px;
     box-shadow: var(--shadow);
   }
 
-  .search{ display:flex; align-items:center; gap:.6rem; flex-wrap:wrap; }
-  .search label{ font-weight:700; font-size:.85rem; }
+  /* Top row: search */
+  .search{
+    display:flex;
+    align-items:center;
+    gap:.6rem;
+    flex-wrap:wrap;
+  }
+  .search label{
+    font-weight:700;
+    font-size:.85rem;
+  }
   .search input{
-    width:clamp(220px, 32vw, 560px); padding:.45rem .6rem;
-    border:1px solid #cbd5e1; border-radius:8px; font-size:.95rem; background-color:#f8fafc;
+    flex:1 1 220px;
+    min-width:160px;
+    max-width:560px;
+    padding:.45rem .6rem;
+    border:1px solid #cbd5e1;
+    border-radius:8px;
+    font-size:.95rem;
+    background-color:#f8fafc;
   }
   .search input:focus{
-    outline:none; border-color:var(--brand);
+    outline:none;
+    border-color:var(--brand);
     box-shadow:0 0 0 2px rgba(26,115,232,.18);
   }
   .search button{
-    padding:.45rem .6rem; font-size:.85rem; border:1px solid #cbd5e1;
-    border-radius:8px; background:#f8fafc; cursor:pointer;
+    padding:.45rem .6rem;
+    font-size:.85rem;
+    border:1px solid #cbd5e1;
+    border-radius:8px;
+    background:#f8fafc;
+    cursor:pointer;
   }
-  .search button:hover{ background:#eef2f7; }
-  .small{ color:var(--muted); font-size:.9em; }
+  .search button:hover{
+    background:#eef2f7;
+  }
+
+  /* Second row: count (left) + sort (right) */
+  .toolbar-bottom{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:.6rem;
+  }
+
+  .small{
+    color:var(--muted);
+    font-size:.9em;
+  }
 
   /* Sort dropdown styled to match search controls */
   .sort{
     display:flex;
     align-items:center;
     gap:.6rem;
-    margin-left:auto;
-    flex-wrap:wrap;
     font-size:.85rem;
   }
 
@@ -183,8 +228,18 @@ description: A list of research papers for Learning to Hash.
     box-shadow:0 2px 10px rgba(0,0,0,.08);
   }
 
+  /* Small screens: keep everything inside the frame and let bottom row wrap */
   @media (max-width: 640px){
-    .toolbar{ border-radius:10px; }
+    .toolbar{
+      border-radius:10px;
+    }
+    .toolbar-bottom{
+      flex-direction:row;
+      align-items:flex-start;
+    }
+    .sort{
+      margin-left:auto;
+    }
   }
 </style>
 
