@@ -161,12 +161,15 @@ input[type="range"]{ accent-color:#1a73e8; }
     </div>
   </div>
 
-  <!-- View toolbar (size by citations) -->
+  <!-- View toolbar (size by citations + colour by year) -->
   <div class="toolbar" style="margin-top:-.4rem;" id="viewToolbar">
     <div class="search">
       <label for="sizeByCitations"><strong>View</strong></label>
       <div>
         <input type="checkbox" id="sizeByCitations" /> <span class="small">Citations</span>
+      </div>
+      <div>
+        <input type="checkbox" id="colorByYear" /> <span class="small">Colour by year</span>
       </div>
     </div>
   </div>
@@ -259,6 +262,8 @@ var svg = d3.select("#paperviz")
 
 var zoomLayer = svg.append("g");
 var color = d3.scaleOrdinal(d3.schemeCategory10);
+/* New: colour scale for year */
+var colorYear = d3.scaleSequential(d3.interpolateTurbo);
 
 /* Keep domains generous; TSNE coordinates should fit here */
 var x = d3.scaleLinear().domain([-25, 25]).range([0, width]);
@@ -289,13 +294,13 @@ var tooltip = d3.select("#paperviz")
 var mouseover = function() { tooltip.style("opacity", 1); };
 var mousemove = function(event, d) {
   const tags = (d.tags || []).slice(0, 6).map(t => `<tag>${t}</tag>`).join(" ");
-  tooltip.html(`
+  tooltip.innerHTML = `
     <div style="font-weight:600; margin-bottom:4px;">${d.title}</div>
     <div style="font-size:12px; opacity:.9;">
       ${d.conference || "—"} • ${d.year || "n/a"} • Citations: ${d.citations || 0}
     </div>
     <div style="margin-top:6px; font-size:12px;">${tags}</div>
-  `);
+  `;
 
   const container = document.getElementById("paperviz");
   const cr = container.getBoundingClientRect();
@@ -409,6 +414,11 @@ Promise.all([
   const years = allData.map(d => d.year).filter(y => !isNaN(y));
   yearMinBound = d3.min(years);
   yearMaxBound = d3.max(years);
+
+  // Initialise colour-by-year scale
+  if (yearMinBound != null && yearMaxBound != null) {
+    colorYear.domain([yearMinBound, yearMaxBound]);
+  }
 
   // Apply URL state first (may override default selection)
   setStateFromURL();
@@ -527,9 +537,11 @@ Promise.all([
     updateVisualization();
   });
 
-  // Update function (with year filtering)
+  // Update function (with year filtering + colour-by-year)
   updateVisualization = function() {
     var searchTerm = (d3.select("#filtermap").property("value") || "").toLowerCase();
+    var byCites = d3.select("#sizeByCitations").property("checked");
+    var byYearColour = d3.select("#colorByYear").property("checked");
 
     filteredData = allData.filter(d => {
       const textMatch = !searchTerm || isMatch(d, searchTerm);
@@ -542,6 +554,20 @@ Promise.all([
     var circles = zoomLayer.selectAll("circle").data(filteredData, d => d.key);
     circles.exit().remove();
 
+    function computeRadius(d){
+      if (!byCites) return 8;
+      const r = Math.sqrt(d.citations || 0) + 3;
+      return Math.min(r, 30);
+    }
+
+    function computeFill(d){
+      const st = searchTerm;
+      const highlight = isMatch(d, st);
+      if (highlight) return "#aa0000";
+      if (byYearColour && !isNaN(d.year)) return colorYear(d.year);
+      return color(d.cluster);
+    }
+
     circles
       .on("mouseover", mouseover)
       .on("mousemove", mousemove)
@@ -550,15 +576,8 @@ Promise.all([
       .transition().duration(300)
       .attr("cx", d => x(d.tsne_embedding[0]))
       .attr("cy", d => y(d.tsne_embedding[1]))
-      .attr("r", d => {
-        const byCites = d3.select("#sizeByCitations").property("checked");
-        const r = byCites ? Math.sqrt(d.citations || 0) + 3 : 8;
-        return Math.min(r, 30);
-      })
-      .style("fill", d => {
-        const st = (d3.select("#filtermap").property("value") || "").toLowerCase();
-        return isMatch(d, st) ? "#aa0000" : color(d.cluster);
-      })
+      .attr("r", computeRadius)
+      .style("fill", computeFill)
       .style("opacity", 0.85)
       .style("stroke", "white");
 
@@ -566,15 +585,8 @@ Promise.all([
       .append("circle")
       .attr("cx", d => x(d.tsne_embedding[0]))
       .attr("cy", d => y(d.tsne_embedding[1]))
-      .attr("r", d => {
-        const byCites = d3.select("#sizeByCitations").property("checked");
-        const r = byCites ? Math.sqrt(d.citations || 0) + 3 : 8;
-        return Math.min(r, 30);
-      })
-      .style("fill", d => {
-        const st = (d3.select("#filtermap").property("value") || "").toLowerCase();
-        return isMatch(d, st) ? "#aa0000" : color(d.cluster);
-      })
+      .attr("r", computeRadius)
+      .style("fill", computeFill)
       .style("opacity", 0.85)
       .style("stroke", "white")
       .on("mouseover", mouseover)
@@ -614,6 +626,7 @@ Promise.all([
   });
 
   d3.select("#sizeByCitations").on("change", updateVisualization);
+  d3.select("#colorByYear").on("change", updateVisualization);
 
   // One-time gesture hint on first load
   (function gestureHintOnce(){
