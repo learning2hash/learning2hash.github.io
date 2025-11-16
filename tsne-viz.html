@@ -482,11 +482,16 @@ Promise.all([
     updateVisualization();
   });
 
-  /* ---------- Sleek legend: build & render ---------- */
+  /* ---------- Legend: cluster vs year modes ---------- */
   const legendContainer = d3.select("#cluster-legend");
+  const legendTitleEl = document.querySelector("#cluster-legend-wrapper h3");
+  const resetClustersBtnEl = document.getElementById("resetClusters");
+
   const countsByCluster = d3.rollup(allData, v => v.length, d => String(d.cluster));
 
-  function renderLegend(summaryObj){
+  function renderClusterLegend(summaryObj){
+    legendTitleEl.textContent = "🧭 Cluster Legend";
+    resetClustersBtnEl.style.display = "inline-block";
     legendContainer.selectAll("*").remove();
 
     Object.entries(summaryObj).forEach(([cluster, tags]) => {
@@ -502,7 +507,7 @@ Promise.all([
         .attr("title", `Toggle Cluster ${Number(cluster)+1}`)
         .on("click", function() {
           selectedCluster = (String(selectedCluster) === String(cluster)) ? null : cluster;
-          renderLegend(summaryObj);     // refresh pressed states
+          renderClusterLegend(summaryObj);     // refresh pressed states
           updateVisualization();
         });
 
@@ -529,11 +534,68 @@ Promise.all([
     });
   }
 
-  renderLegend(summary);
+  // Build coarse year bins for the year legend
+  function buildYearBins(){
+    const bins = [];
+    if (yearMinBound == null || yearMaxBound == null) return bins;
+    const span = yearMaxBound - yearMinBound + 1;
+    const desiredBins = 5;
+    const binSize = Math.max(1, Math.floor(span / desiredBins));
+
+    let start = yearMinBound;
+    while (start <= yearMaxBound){
+      const end = Math.min(yearMaxBound, start + binSize - 1);
+      const mid = (start + end) / 2;
+      const count = allData.filter(d => !isNaN(d.year) && d.year >= start && d.year <= end).length;
+      bins.push({ start, end, mid, count });
+      start = end + 1;
+    }
+    return bins;
+  }
+
+  function renderYearLegend(){
+    legendTitleEl.textContent = "📅 Year Legend";
+    resetClustersBtnEl.style.display = "none";
+    legendContainer.selectAll("*").remove();
+
+    const bins = buildYearBins();
+    bins.forEach(bin => {
+      const item = legendContainer.append("div")
+        .attr("class", "legend-item")
+        .attr("aria-pressed", "false")
+        .attr("title", "Year range");
+
+      item.append("span")
+        .attr("class", "legend-dot")
+        .style("background", colorYear(bin.mid));
+
+      const text = item.append("span").attr("class", "legend-text");
+      const row = text.append("span").attr("class", "legend-row");
+      const label = (bin.start === bin.end) ? `${bin.start}` : `${bin.start}–${bin.end}`;
+      row.append("span")
+        .attr("class", "legend-title")
+        .text(label);
+
+      row.append("span")
+        .attr("class", "legend-count")
+        .text(`${bin.count} papers`);
+    });
+  }
+
+  function renderLegendMode(useYearLegend){
+    if (useYearLegend) {
+      renderYearLegend();
+    } else {
+      renderClusterLegend(summary);
+    }
+  }
+
+  // initial legend render (cluster legend by default)
+  renderLegendMode(d3.select("#colorByYear").property("checked"));
 
   d3.select("#resetClusters").on("click", function() {
     selectedCluster = null;
-    renderLegend(summary);
+    renderClusterLegend(summary);
     updateVisualization();
   });
 
@@ -542,6 +604,9 @@ Promise.all([
     var searchTerm = (d3.select("#filtermap").property("value") || "").toLowerCase();
     var byCites = d3.select("#sizeByCitations").property("checked");
     var byYearColour = d3.select("#colorByYear").property("checked");
+
+    // Switch legend mode based on colour setting
+    renderLegendMode(byYearColour);
 
     filteredData = allData.filter(d => {
       const textMatch = !searchTerm || isMatch(d, searchTerm);
