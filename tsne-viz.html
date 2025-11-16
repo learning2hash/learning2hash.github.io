@@ -102,7 +102,7 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 }
 #paperviz .gesture-hint.show{ opacity:1; }
 
-/* ---------- Sleeker cluster legend ---------- */
+/* ---------- Sleeker cluster / year legend ---------- */
 #cluster-legend-wrapper{
   margin-top:16px; padding:12px;
   border:1px solid #eee; border-radius:12px; background:#fff;
@@ -113,7 +113,7 @@ description: An interactive t-SNE map of Learning to Hash with global search, a 
 .legend-item {
   display:flex; align-items:center; gap:10px; padding:10px 12px;
   border:1px solid #e6e6e6; border-radius:999px; background:#fafafa; cursor:pointer;
-  transition: transform .12s ease, background-color .2s, border-color .2s, box-shadow .2s;
+  transition: transform .12s ease, background-color .2s, border-color .2s, box-shadow .2s, opacity .2s;
   user-select:none;
 }
 .legend-item:hover { background:#f5f7fb; transform: translateY(-1px); box-shadow: 0 2px 8px rgba(0,0,0,.06); }
@@ -560,10 +560,16 @@ Promise.all([
 
     const bins = buildYearBins();
     bins.forEach(bin => {
+      // Fade bins completely outside the selected [min,max] range
+      const isOutside =
+        (selectedYearMin != null && bin.end < selectedYearMin) ||
+        (selectedYearMax != null && bin.start > selectedYearMax);
+
       const item = legendContainer.append("div")
         .attr("class", "legend-item")
         .attr("aria-pressed", "false")
-        .attr("title", "Year range");
+        .attr("title", isOutside ? "Outside selected year range" : "Year range")
+        .style("opacity", isOutside ? 0.35 : 1);
 
       item.append("span")
         .attr("class", "legend-dot")
@@ -590,7 +596,7 @@ Promise.all([
     }
   }
 
-  // initial legend render (cluster legend by default)
+  // initial legend render (cluster or year, depending on checkbox)
   renderLegendMode(d3.select("#colorByYear").property("checked"));
 
   d3.select("#resetClusters").on("click", function() {
