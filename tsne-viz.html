@@ -492,6 +492,7 @@ Promise.all([
   function renderClusterLegend(summaryObj){
     legendTitleEl.textContent = "🧭 Cluster Legend";
     resetClustersBtnEl.style.display = "inline-block";
+    resetClustersBtnEl.disabled = false;
     legendContainer.selectAll("*").remove();
 
     Object.entries(summaryObj).forEach(([cluster, tags]) => {
@@ -555,7 +556,8 @@ Promise.all([
 
   function renderYearLegend(){
     legendTitleEl.textContent = "📅 Year Legend";
-    resetClustersBtnEl.style.display = "none";
+    resetClustersBtnEl.style.display = "inline-block";
+    resetClustersBtnEl.disabled = true; // no clusters in this mode
     legendContainer.selectAll("*").remove();
 
     const bins = buildYearBins();
@@ -565,11 +567,31 @@ Promise.all([
         (selectedYearMin != null && bin.end < selectedYearMin) ||
         (selectedYearMax != null && bin.start > selectedYearMax);
 
-      const item = legendContainer.append("div")
+      const isActive =
+        !isOutside &&
+        selectedYearMin != null &&
+        selectedYearMax != null &&
+        selectedYearMin === bin.start &&
+        selectedYearMax === bin.end;
+
+      const item = legendContainer.append("button")
+        .attr("type", "button")
         .attr("class", "legend-item")
-        .attr("aria-pressed", "false")
-        .attr("title", isOutside ? "Outside selected year range" : "Year range")
-        .style("opacity", isOutside ? 0.35 : 1);
+        .attr("aria-pressed", isActive ? "true" : "false")
+        .attr("title", isOutside ? "Outside selected year range" : "Click to filter to this year range")
+        .style("opacity", isOutside ? 0.35 : 1)
+        .on("click", function(){
+          // When a bin is clicked, lock filters to that time period
+          selectedYearMin = bin.start;
+          selectedYearMax = bin.end;
+
+          yearMinInput.value = selectedYearMin;
+          yearMaxInput.value = selectedYearMax;
+          yearMinVal.textContent = selectedYearMin;
+          yearMaxVal.textContent = selectedYearMax;
+
+          updateVisualization(); // will re-render legend & circles with new range
+        });
 
       item.append("span")
         .attr("class", "legend-dot")
@@ -600,6 +622,10 @@ Promise.all([
   renderLegendMode(d3.select("#colorByYear").property("checked"));
 
   d3.select("#resetClusters").on("click", function() {
+    if (d3.select("#colorByYear").property("checked")) {
+      // In year mode, resetClusters doesn't apply; guard just in case
+      return;
+    }
     selectedCluster = null;
     renderClusterLegend(summary);
     updateVisualization();
