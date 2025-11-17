@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Visualization of Publications on Learning to Hash
-description: An interactive t-SNE map of Learning to Hash with global search, a cluster legend, and optional node sizing by citations.
+title: Visualization of Publications on Large Language Models
+description: An interactive t-SNE map of LLM papers with global search, a cluster legend, and optional node sizing by citations.
 ---
 
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -146,7 +146,8 @@ input[type="range"]{ accent-color:#1a73e8; }
   Each dot represents a <strong>paper</strong> in this collection, positioned using 
   <strong>t-SNE</strong> based on its content similarity. Use the search bar to 
   filter by <strong>title</strong>, <strong>authors</strong>, 
-  <strong>abstract</strong>, or <strong>tags</strong> to explore related works.
+  <strong>abstract</strong>, or <strong>tags</strong> to explore related works 
+  interactively.
 </p>
 
 <div class="full-bleed-right">
@@ -208,7 +209,7 @@ input[type="range"]{ accent-color:#1a73e8; }
     </div>
   </div>
 
-  <!-- Legend UNDER the map -->
+  <!-- Legend UNDER the map (cluster OR year depending on mode) -->
   <section id="cluster-legend-wrapper" aria-label="Cluster Legend">
     <h3 style="margin: 0 0 8px;">🧭 Cluster Legend</h3>
     <button id="resetClusters" style="margin-bottom:10px;">Show All Clusters</button>
@@ -294,13 +295,13 @@ var tooltip = d3.select("#paperviz")
 var mouseover = function() { tooltip.style("opacity", 1); };
 var mousemove = function(event, d) {
   const tags = (d.tags || []).slice(0, 6).map(t => `<tag>${t}</tag>`).join(" ");
-  tooltip.innerHTML = `
+  tooltip.html(`
     <div style="font-weight:600; margin-bottom:4px;">${d.title}</div>
     <div style="font-size:12px; opacity:.9;">
       ${d.conference || "—"} • ${d.year || "n/a"} • Citations: ${d.citations || 0}
     </div>
     <div style="margin-top:6px; font-size:12px;">${tags}</div>
-  `;
+  `);
 
   const container = document.getElementById("paperviz");
   const cr = container.getBoundingClientRect();
@@ -458,7 +459,7 @@ Promise.all([
     selectedYearMin = v0;
     selectedYearMax = v1;
     yearMinVal.textContent = v0;
-    yearMaxVal.textContent = v1;
+    yearMaxVal.textContent = v0 === v1 ? v1 : v1;
   }
 
   let yearDebounce;
